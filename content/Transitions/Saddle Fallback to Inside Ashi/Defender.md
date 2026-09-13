@@ -50,7 +50,7 @@ description: "Learn to recognize and exploit the transition window when your opp
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary tactile cue indicating the attacker is initiating the fallback from saddle to inside ashi?",
+      "name": "What tactile cue tells you they are falling back from saddle to inside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable cue is feeling the attacker's deeper leg configuration—figure-four or similar entanglement—loosen around your trapped leg. This is accompanied by a reduction in hip pressure as they shift weight to reconfigure their legs. You may also feel their grip change from a finishing position to a transitional ankle control grip. These changes occur in sequence and provide approximately a one to two second warning before the new position is established."
@@ -58,7 +58,7 @@ description: "Learn to recognize and exploit the transition window when your opp
     },
     {
       "@type": "Question",
-      "name": "Why is the transition window a better escape opportunity than escaping either established saddle or established inside ashi independently?",
+      "name": "Why is that transition a better escape window than established saddle or inside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the attacker must release their deeper saddle controls before the simpler ashi structure is fully established. This creates a brief window where leg entanglement is at its weakest—the deeper configuration is gone but the new configuration is not yet complete. Neither established saddle nor established inside ashi presents this same vulnerability because in each stable position all control elements work together synergistically. The transition disrupts that synergy and creates exploitable gaps in control."

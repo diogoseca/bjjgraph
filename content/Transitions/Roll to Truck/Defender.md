@@ -56,7 +56,7 @@ description: "How to defend against Roll to Truck in BJJ. Recognition cues, defe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you find yourself in truck after a failed granby escape?",
+      "name": "Caught in the truck after a failed granby, what single defensive action matters most?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Clear boot control immediately. The boot (attacker's foot pressed against your hip) is the foundation of all truck attacks. Without boot pressure, the attacker cannot generate torque for twister, maintain leg entanglement, or prevent you from squaring up. Use both hands to fight the boot off your hip before addressing leg entanglement or upper body grips."
@@ -72,7 +72,7 @@ description: "How to defend against Roll to Truck in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker following your granby roll with their chest glued to your back—what should you do?",
+      "name": "The attacker follows your granby roll chest-to-back toward the truck — what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have two options: stop the rotation immediately by posting both hands and driving your hips back to return to turtle, or accelerate explosively through the roll to outpace them and create separation. The worst option is continuing at the same pace, which allows the attacker to establish leg entanglement at their leisure. Choose based on whether you feel their grips are loose (accelerate) or tight (stop and reset)."
@@ -88,7 +88,7 @@ description: "How to defend against Roll to Truck in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your trapped leg is being threaded into a figure-four during the roll—what immediate action do you take?",
+      "name": "Your trapped leg is being threaded into a figure-four during the roll to truck — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Straighten your trapped leg explosively and circle your ankle outward to prevent the figure-four from locking. Simultaneously use your free leg to push off the attacker's hip or thigh to create space. If the figure-four begins to set, shift priority to preventing the boot on your hip since the leg entanglement alone without boot pressure is escapable through hip rotation and systematic leg extraction."

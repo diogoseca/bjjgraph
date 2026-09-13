@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "What specific indicators tell you the calf slicer has reached the breaking point and you must not apply further pressure?",
+        "question": "What signs show the calf slicer has reached the breaking point and you must add no more pressure?",
         "answer": "Key indicators include the opponent's body going rigid with involuntary tension, sudden vocalization or grunting that differs from normal exertion sounds, visible blanching of the skin around the compression point, and the opponent's free limbs flailing rather than making purposeful defensive movements. Any of these signals means you are at or past the threshold for tissue damage. In training, you should never reach this point because the opponent should be tapping well before these signs appear. If you see these signs without a tap, release immediately.",
         "safety_critical": true,
         "answer_line": "Rigid body, blanching, flailing",
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "Your opponent begins straightening their trapped leg as you start threading your shin — what adjustment prevents the escape?",
+        "question": "Russian Cowboy: they straighten the leg as you thread your shin—what adjustment stops the escape?",
         "answer": "Immediately use your free hand to hook behind their heel or grab their toes and pull the foot back toward their buttock, re-bending the knee before they achieve full extension. Simultaneously drive your hooking knee deeper behind their leg to block the straightening motion at the source. If they have significant extension momentum, abandon the foot capture temporarily and use both your hook and your free leg to scissor around their thigh, physically preventing the extension. Once the knee is re-bent, quickly establish the foot grip before they attempt to straighten again.",
         "safety_critical": false,
         "answer_line": "Hook the heel, re-bend the knee",
@@ -411,7 +411,7 @@
         }
       },
       {
-        "question": "How does hip extension generate the finishing force and what common mistake reduces its effectiveness?",
+        "question": "How does hip extension generate the calf slicer finish, and what mistake weakens it?",
         "answer": "Hip extension drives your shin bone forward into the calf tissue while your grip on the foot prevents the leg from moving with the force, creating compression between two opposing forces. This is far more powerful and sustainable than arm pulling alone because the hip extensors (glutes and hamstrings) are among the strongest muscles in the body. The most common mistake is pulling with the arms while keeping the hips static, which fatigues the grip quickly and generates inconsistent pressure. The arms should hold the foot in place while the hips do the actual finishing work through a steady bridge-like extension.",
         "safety_critical": false,
         "answer_line": "Extend hips, grip anchors foot",
@@ -564,7 +564,7 @@
         }
       },
       {
-        "question": "When is the correct time to tap to the calf slicer from Russian Cowboy and why is early tapping important?",
+        "question": "When should you tap to the calf slicer from Russian Cowboy, and why tap early?",
         "answer": "Tap immediately when you feel the attacker's shin locked behind your knee with your foot controlled and any compression pressure beginning through their hip extension. Do not wait to see if you can escape — the calf slicer applies force extremely quickly once the fulcrum is set, and the difference between manageable pressure and tissue damage can be less than a second of additional extension. The calf muscle, Achilles tendon, and knee ligaments are all at risk, with potential injuries ranging from weeks to months of recovery. Early tapping preserves your training longevity.",
         "safety_critical": true,
         "answer_line": "Tap as the shin locks behind knee",
@@ -579,7 +579,7 @@
         }
       },
       {
-        "question": "What are the primary defensive options available before the calf slicer fulcrum is fully established?",
+        "question": "What defenses are available before the calf slicer fulcrum is set from Russian Cowboy?",
         "answer": "The highest-percentage defense is forcefully straightening your trapped leg the moment you feel the shin rotating behind your knee, denying the bent-knee angle necessary for the fulcrum. If the leg is already partially bent, use two-on-one grip fighting to prevent the attacker from capturing your foot, which is the final control point they need. You can also hip escape away while pushing against their hooking knee to change the angle of contact. The key principle across all defenses is acting during the transition phase before the fulcrum is locked, as defenses become dramatically less effective once the foot is captured.",
         "safety_critical": false,
         "answer_line": "Straighten the leg immediately",

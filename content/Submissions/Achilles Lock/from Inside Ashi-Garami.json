@@ -1,0 +1,446 @@
+{
+  "name": "Achilles Lock from Inside Ashi-Garami",
+  "family": "Achilles Lock",
+  "summary": "The Achilles Lock from Ashi Garami wedges the forearm blade across the Achilles tendon of the trapped leg and extends the hips, compressing the tendon and hyperextending the ankle to force the tap from the entanglement.",
+  "description": "Master the Achilles Lock from Inside Ashi-Garami in BJJ. Blade placement, hip extension mechanics, safety protocols, and defensive counters from the entanglement.",
+  "tags": [
+    "bjj",
+    "submission",
+    "leg-lock",
+    "achilles-lock",
+    "ankle-lock",
+    "joint-lock",
+    "inside-ashi-garami",
+    "ashi-garami",
+    "finishing-mechanics"
+  ],
+  "submission_category": "Joint Lock",
+  "submission_type": "Leg Lock",
+  "target_area": "Achilles tendon and ankle joint",
+  "starting_position": "Inside Ashi-Garami",
+  "from_position": "Inside Ashi-Garami/Top",
+  "success_rate": {
+    "gi": 58,
+    "nogi": 58
+  },
+  "overview": "The Achilles Lock is the compression finish of the straight-ankle family, and the inside ashi garami entanglement is where the corpus declares it. Where the Straight Ankle Lock hyperextends the ankle joint, the Achilles Lock drives the blade of the forearm or the wrist bone across the Achilles tendon itself and compresses it against the heel — the disambiguation the corpus draws between the two is a mechanism difference, not a naming preference, and the finishing details follow from it.\n\nFrom inside ashi garami the attacker has the opponent's leg threaded between their own with the foot trapped high against the ribs or armpit. The finishing sequence is a chain of small commitments: the foot must be captured above the level of your own hip line, the blade must sit on the tendon rather than the soft calf, your own knees must close to remove the escape lane, and only then do the hips extend. Extending before the blade is placed converts a submission into a leg-strength contest that a bigger opponent wins.\n\nThe Achilles Lock is legal at every IBJJF belt level in both gi and no-gi, which is why its attempt and success profile does not carry the ruleset asymmetry that the heel hooks at this same seat do. That legality also makes it the first serious leg attack most practitioners meet, and the one whose defensive recognition matters earliest. Failing the finish usually leaves the entanglement intact — you return to ashi garami and can rebuild — while losing the leg entirely concedes the position and puts you inside the opponent's guard.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Achilles tendon rupture or partial tear",
+        "severity": "CRITICAL",
+        "recovery_time": "6-12 months, commonly surgical, with a risk of permanent loss of push-off strength"
+      },
+      {
+        "injury": "Ankle ligament damage (ATFL and deltoid ligament)",
+        "severity": "High",
+        "recovery_time": "4-8 weeks with rehabilitation; longer if the joint was loaded explosively"
+      },
+      {
+        "injury": "Calf muscle strain or tear from a misplaced blade",
+        "severity": "Medium",
+        "recovery_time": "2-6 weeks depending on severity"
+      },
+      {
+        "injury": "Plantar fascia strain",
+        "severity": "Low",
+        "recovery_time": "1-3 weeks with rest"
+      }
+    ],
+    "application_speed": "SLOW and progressive — a minimum of 3-5 seconds from first pressure to full extension. The Achilles tendon gives very little warning before it fails, so the tap window is short and the ramp must be long. Never spike, jerk, or arch explosively.",
+    "tap_signals": [
+      "Verbal tap — the word 'tap' or any distress vocalisation",
+      "Physical hand tap on the partner, the mat, or their own body",
+      "Foot tap with the free leg, which is often the only limb they can reach with",
+      "Sudden total loss of resistance or going limp, which must be treated as a tap"
+    ],
+    "release_protocol": [
+      "Release the hip extension FIRST — the compression comes off before the grip does",
+      "Open the figure four or the grip and let the ankle return to neutral without pulling on it",
+      "Open the knees and free the trapped leg completely before disengaging your own hips",
+      "Check in verbally with your partner and watch them bear weight on the leg before the next round"
+    ],
+    "training_restrictions": [
+      "Drill the blade placement and the finishing angle statically before any live application",
+      "No explosive or 'catch' applications in live rolling — the tendon fails faster than a partner can tap",
+      "Beginners should establish the position and stop there, applying the finish only under direct supervision",
+      "Do not combine the finish with a simultaneous sweep or scramble; a moving opponent cannot tap reliably"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": {
+        "gi": 58,
+        "nogi": 58
+      },
+      "result": "success"
+    },
+    {
+      "to": "Inside Ashi-Garami/Top",
+      "probability": {
+        "gi": 27,
+        "nogi": 27
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Closed Guard/Bottom",
+      "probability": {
+        "gi": 15,
+        "nogi": 15
+      },
+      "result": "counter"
+    }
+  ],
+  "from_positions": [
+    "Inside Ashi-Garami",
+    "Ashi Garami",
+    "Outside Ashi-Garami",
+    "Single Leg X-Guard",
+    "Straight Ankle Lock Control"
+  ],
+  "related_submissions": [
+    "Straight Ankle Lock",
+    "Toe Hold",
+    "Aoki Lock",
+    "Estima Lock",
+    "Heel Hook",
+    "Kneebar",
+    "Calf Slicer"
+  ],
+  "related_content": [
+    {
+      "name": "Inside Ashi-Garami",
+      "relationship": "Starting position — the entanglement this finish is applied from, and the seat the hub declares"
+    },
+    {
+      "name": "Achilles Lock",
+      "relationship": "Family hub — this is the first authored member of that family"
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "relationship": "Nearest neighbour — the same family of attack finished by joint hyperextension rather than tendon compression"
+    },
+    {
+      "name": "Toe Hold from Inside Ashi-Garami",
+      "relationship": "The rotational foot attack from the identical seat, taken when the opponent turns the heel out of the blade"
+    },
+    {
+      "name": "Heel Hook from Inside Ashi-Garami",
+      "relationship": "The rotational attack from the identical seat; gi-restricted where the Achilles Lock is not"
+    },
+    {
+      "name": "Kneebar from Inside Ashi-Garami",
+      "relationship": "The alternative finish from the identical seat when the leg straightens instead of the ankle exposing"
+    },
+    {
+      "name": "Toe Hold",
+      "relationship": "Common follow-up when the opponent defends the tendon by rotating the foot"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Blade-across finish",
+      "description": "The standard mechanic: the blade of the radius sits directly across the Achilles tendon, the wrist is cupped under the heel, and the finish comes from hip extension with the shoulders driving back.",
+      "when_to_use": "The default whenever the foot is captured cleanly above your hip line."
+    },
+    {
+      "variation_name": "Wrist-bone compression",
+      "description": "Instead of the flat forearm, the styloid process of the wrist is driven into the tendon, concentrating the pressure over a much smaller area. It finishes faster and with far less extension, which also makes it considerably more dangerous.",
+      "when_to_use": "Against a thick or flexible ankle where the flat blade cannot generate enough compression — and only with a trusted partner."
+    },
+    {
+      "variation_name": "Knee-line hip switch",
+      "description": "Rather than extending straight back, switch the hips toward the opponent's knee line while keeping the blade fixed. The angle change loads the tendon without requiring a long extension, which is useful when your back has nowhere to go.",
+      "when_to_use": "When the opponent has posted or is following you and a straight extension gives them a base to follow with."
+    }
+  ],
+  "attacker": {
+    "name": "Achilles Lock from Inside Ashi-Garami — Attacker",
+    "description": "Capturing the foot, placing the blade on the tendon, and extending the hips to finish from the entanglement.",
+    "overview": "Your finish is decided by the order you do things in, not by how hard you extend. Capture the foot above your hip line, close your knees to kill the escape lane, seat the blade on the tendon rather than the calf, and only then extend. Every practitioner who fails this submission fails it by reversing that order — extending first and then hunting for the blade, which turns a joint attack into a strength contest and warns the opponent while you still have nothing. Because the Achilles tendon gives almost no warning before it fails, the tap window is short: the ramp must be slow and deliberate every single time, including in competition.",
+    "key_principles": [
+      "Placement before power — the blade sits on the tendon before any hip extension begins",
+      "Capture the foot ABOVE your own hip line; below it, extension shortens the lever instead of loading it",
+      "Close your knees to remove the escape lane before you commit to the finish",
+      "Extend through the hips and shoulders together, not by pulling with the arms",
+      "Compression, not rotation — this is the straight-ankle mechanism, and rotating turns it into a different and more dangerous attack",
+      "Ramp slowly on every repetition; the tendon fails faster than a partner can tap"
+    ],
+    "setup_requirements": [
+      "Ashi garami established with the opponent's leg threaded and their foot trapped against your ribs or armpit",
+      "The captured foot sitting above your own hip line, not slipping down toward your belt",
+      "Your inside knee positioned across their thigh to prevent them rotating free",
+      "A free arm able to reach under the heel and present the blade of the forearm to the tendon"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Confirm the entanglement",
+        "description": "Check that the opponent's leg is genuinely threaded and that their foot is trapped high against your ribs or in your armpit. A foot that has slipped below your hip line cannot be finished by extension and must be re-captured first."
+      },
+      {
+        "step_number": 2,
+        "action": "Close the knees",
+        "description": "Pinch your knees together across their thigh so their leg cannot rotate or slide out. This removes the primary escape lane and is what makes the finish a submission rather than a race."
+      },
+      {
+        "step_number": 3,
+        "action": "Reach under the heel",
+        "description": "Thread your finishing arm under their Achilles so your forearm crosses the back of the ankle and your hand cups the heel. Keep the elbow tight to your ribs so the arm cannot be stripped."
+      },
+      {
+        "step_number": 4,
+        "action": "Seat the blade on the tendon",
+        "description": "Rotate the forearm so the sharp radial edge sits directly on the Achilles tendon rather than in the soft belly of the calf. This is the single detail that separates a finish from a squeeze, and it must be confirmed before any extension."
+      },
+      {
+        "step_number": 5,
+        "action": "Lock the structure",
+        "description": "Close a figure four or grip your own biceps to fix the blade in place, then bring your shoulders back over your hips so the arm cannot slide during the extension."
+      },
+      {
+        "step_number": 6,
+        "action": "Extend slowly to the tap",
+        "description": "Drive the hips forward and the shoulders back as one unit over three to five seconds, arching only as far as the tap requires. Stop the instant resistance changes character, and release the extension before the grip."
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Rotating the knee inward to turn the heel away from the blade",
+        "effectiveness": "High",
+        "your_response": "Follow the rotation with your hips and switch to a toe hold, or re-pinch the knees before they complete the turn.",
+        "targets_outcome": "Inside Ashi-Garami/Top"
+      },
+      {
+        "counter": "Boot-and-roll — driving the free foot into your hip and rolling toward the trapped side",
+        "effectiveness": "High",
+        "your_response": "Sit up into them and drop the outside leg to block the roll, keeping the blade seated throughout.",
+        "targets_outcome": "Closed Guard/Bottom"
+      },
+      {
+        "counter": "Sitting up and hand-fighting the finishing arm before it locks",
+        "effectiveness": "Medium",
+        "your_response": "Break their posture back down with your outside leg across their hip, then rebuild the grip from a lying position.",
+        "targets_outcome": "Inside Ashi-Garami/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Extending before the blade is seated",
+        "consequence": "The pressure lands on the calf, the opponent is warned, and the attack becomes a leg-strength contest a heavier opponent wins.",
+        "correction": "Confirm the radial edge is on the tendon and only then begin the extension — placement always precedes power."
+      },
+      {
+        "error": "Letting the captured foot slip below your hip line",
+        "consequence": "Extension no longer loads the ankle, and the opponent extracts the leg during the arch.",
+        "correction": "Re-capture the foot high against the ribs or armpit before attempting the finish again."
+      },
+      {
+        "error": "Leaving the knees open",
+        "consequence": "The opponent rotates the knee and turns the heel out of the blade, escaping or reversing into their own entanglement.",
+        "correction": "Pinch the knees across their thigh as a distinct step before the arm ever moves."
+      },
+      {
+        "error": "Pulling with the arms instead of extending the hips",
+        "consequence": "Arm strength cannot generate enough compression, the grip fatigues, and the finish stalls.",
+        "correction": "Fix the arm structure and generate everything from the hips and shoulders moving as one unit."
+      },
+      {
+        "error": "Applying explosively or 'catching' the finish in a scramble",
+        "consequence": "The Achilles tendon can rupture before a partner is able to tap, which is a career-length injury.",
+        "correction": "Never finish a moving opponent — establish the position first, then ramp over three to five seconds."
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Isolation",
+        "focus": "Blade placement",
+        "description": "With a static partner, seat the blade on the tendon and have them confirm out loud whether it is on the tendon or the calf. Do not extend at all during this phase."
+      },
+      {
+        "phase": "Positional",
+        "focus": "Capture height and knee pinch",
+        "description": "Partner works only to slide the foot below your hip line and to rotate the knee. Your task is to keep the capture high and the knees closed for a full minute."
+      },
+      {
+        "phase": "Resistance",
+        "focus": "The slow ramp",
+        "description": "Live application against a defending partner with the explicit rule that the extension takes at least three seconds. A faster finish counts as a failed repetition regardless of the tap."
+      },
+      {
+        "phase": "Integration",
+        "focus": "Chaining",
+        "description": "From live ashi garami, attack the Achilles and switch to a toe hold or re-enter the entanglement when the knee rotates, so the finish sits inside a chain rather than standing alone."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "What distinguishes the Achilles Lock from the Straight Ankle Lock mechanically?",
+        "answer": "The Achilles Lock compresses the Achilles tendon with the blade of the forearm driven across it, while the Straight Ankle Lock hyperextends the ankle joint. The corpus disambiguates them by mechanism, and the finishing details follow from that difference.",
+        "safety_critical": false,
+        "answer_line": "Compression, not hyperextension"
+      },
+      {
+        "question": "What is the required order of operations for this finish?",
+        "answer": "Capture the foot above your hip line, close the knees to remove the escape lane, seat the blade on the tendon, and only then extend the hips. Reversing the order turns a joint attack into a strength contest and warns the opponent early.",
+        "safety_critical": true,
+        "answer_line": "Capture, knees, blade, then extend"
+      },
+      {
+        "question": "Why must the captured foot sit above your own hip line?",
+        "answer": "Below the hip line, extending your body shortens rather than loads the lever, so the ankle never takes the pressure and the opponent can extract the leg during the arch. The capture height is what makes extension mean anything.",
+        "safety_critical": false,
+        "answer_line": "Below it, extension shortens it"
+      },
+      {
+        "question": "Why is the ramp time for this submission longer than for most?",
+        "answer": "The Achilles tendon gives almost no warning before it fails, so the window between useful pressure and a rupture is very short. A three-to-five-second ramp is what gives the partner time to recognise the pressure and tap.",
+        "safety_critical": true,
+        "answer_line": "The tendon fails without warning"
+      },
+      {
+        "question": "What does the blade need to be resting on, and what happens if it is not?",
+        "answer": "The sharp radial edge of the forearm must sit directly on the Achilles tendon. If it slides into the soft belly of the calf, the pressure becomes a painful squeeze rather than a submission, and the opponent is warned while you have nothing.",
+        "safety_critical": false,
+        "answer_line": "The tendon, never the calf"
+      },
+      {
+        "question": "In what order do you release this submission?",
+        "answer": "Release the hip extension first so the compression comes off, then open the grip and let the ankle return to neutral without pulling on it, then open the knees and free the leg. Releasing the grip before the extension can load the joint further.",
+        "safety_critical": true,
+        "answer_line": "Extension, then grip, then knees"
+      }
+    ]
+  },
+  "defender": {
+    "name": "Achilles Lock from Inside Ashi-Garami — Defender",
+    "description": "Recognising the capture early, defending the blade, and escaping the entanglement before the extension begins.",
+    "overview": "Your defence lives entirely before the blade is seated. Once the forearm is on the tendon, your knees are pinched and the extension starts, the tap window is measured in a second or two and the correct action is to tap — the Achilles tendon does not warn you and it does not forgive. So the whole game is recognition and early action: feel the foot being drawn above their hip line, feel the knees closing, and act on either one immediately. The two reliable escapes are rotating the knee to turn the heel out of the blade and driving the free foot into their hip to boot-and-roll, and both are far easier before the structure locks than after.",
+    "key_principles": [
+      "Act on the capture, not on the pain — by the time it hurts the tap window is nearly closed",
+      "Rotating the knee inward turns the heel away from the blade and is the highest-percentage answer",
+      "Keep your heel low and your foot below their hip line; the capture height is what makes their extension work",
+      "Your free leg is your best tool — it boots their hip, blocks the roll, and creates the space to extract",
+      "Sit up early: a defender lying flat has no leverage and no access to their own trapped foot",
+      "Tap early and without ego on this one — a ruptured Achilles is measured in months, not weeks"
+    ],
+    "recognition_cues": [
+      "Your foot is being drawn upward toward their ribs or armpit rather than staying at their belt line",
+      "Their knees pinch together across your thigh, which removes your rotation escape",
+      "Their arm threads under your heel and the forearm turns edge-on against the back of your ankle",
+      "Their shoulders begin travelling back over their hips — the extension is starting and the window is closing"
+    ],
+    "defensive_options": [
+      {
+        "action": "Rotate the knee inward to turn the heel out of the blade",
+        "when_to_use": "As soon as the arm threads under the heel, before the knees pinch fully.",
+        "targets_outcome": "Inside Ashi-Garami/Top",
+        "if_successful": "The blade loses the tendon and you keep the leg, returning to a contested entanglement.",
+        "risk": "Rotating into a heel hook grip instead is far more dangerous — confirm which attack you are in first."
+      },
+      {
+        "action": "Boot-and-roll — drive the free foot into their hip and roll toward the trapped side",
+        "when_to_use": "When the capture is set but the extension has not begun.",
+        "targets_outcome": "Closed Guard/Bottom",
+        "if_successful": "You unwind the entanglement and come out on top, often inside your own closed guard position.",
+        "risk": "Rolling the wrong way winds the ankle tighter and finishes the submission for them."
+      },
+      {
+        "action": "Sit up and hand-fight the finishing arm",
+        "when_to_use": "Early, while their arm structure is still being built and the figure four is open.",
+        "targets_outcome": "Inside Ashi-Garami/Top",
+        "if_successful": "You strip the grip before it locks and can begin extracting the leg.",
+        "risk": "Sitting up late exposes your back and gives them the angle to finish anyway."
+      },
+      {
+        "action": "Tap",
+        "when_to_use": "The blade is seated, the knees are pinched, and the extension has begun.",
+        "targets_outcome": "game-over",
+        "if_successful": "You train again tomorrow.",
+        "risk": "None. Waiting is the risk."
+      }
+    ],
+    "escape_paths": [
+      "Knee rotation — turn the knee inward so the heel leaves the blade, then extract the leg over the top of their thigh",
+      "Boot-and-roll — free foot to their hip, roll toward the trapped side, and unwind the entanglement as you come up",
+      "Sit-up hand fight — post up, strip the finishing arm before the figure four closes, and back out of the entanglement"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "Closed Guard/Bottom",
+        "how": "Boot their hip with the free foot, roll toward the trapped side, and come up as the entanglement unwinds, recovering guard on them as they follow. This is the counter outcome: the finish fails and you win the exchange."
+      },
+      {
+        "outcome": "Inside Ashi-Garami/Top",
+        "how": "Rotate the knee out of the blade early enough that the extension never loads. The finish fails but the entanglement continues, so you are still defending — you have bought time, not safety."
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Waiting for pain before defending",
+        "consequence": "The Achilles tendon gives almost no warning, so by the time it hurts the rupture window is already open.",
+        "correction": "Defend the capture and the knee pinch, which are visible and felt early, rather than the pressure."
+      },
+      {
+        "error": "Rolling away from the trapped side",
+        "consequence": "The rotation winds the ankle tighter into the blade and finishes the submission for them.",
+        "correction": "Always roll toward the trapped side so the entanglement unwinds rather than tightens."
+      },
+      {
+        "error": "Lying flat and pulling with the trapped leg",
+        "consequence": "A flat defender has no leverage, no access to their own foot, and simply loses a tug of war against their hips.",
+        "correction": "Sit up first — every reliable escape from this position starts with posture."
+      },
+      {
+        "error": "Treating it like a heel hook and rotating hard",
+        "consequence": "Rotating against a compression attack does nothing useful and can walk you into an actual heel hook grip.",
+        "correction": "Identify the attack first: a blade across the back of the ankle is a compression finish, and the answer is knee rotation plus extraction, not counter-rotation."
+      }
+    ],
+    "flashcards": [
+      {
+        "question": "Why can you not wait for pain before defending the Achilles Lock?",
+        "answer": "The Achilles tendon gives almost no warning before it fails, so the gap between meaningful pain and a rupture is very small. The defence has to be keyed to visible and felt cues — the foot rising above their hip line and the knees pinching — not to the pressure itself.",
+        "safety_critical": true,
+        "answer_line": "It fails with almost no warning"
+      },
+      {
+        "question": "Which direction do you roll to escape, and why?",
+        "answer": "Toward the trapped side. Rolling that way unwinds the entanglement and takes pressure off the ankle, while rolling away winds the ankle tighter into the blade and finishes the submission for the attacker.",
+        "safety_critical": true,
+        "answer_line": "Toward the trapped side"
+      },
+      {
+        "question": "What is the highest-percentage early escape, and when does it work?",
+        "answer": "Rotating the knee inward so the heel turns out of the blade. It works as soon as the arm threads under the heel and before the attacker's knees pinch fully closed, because the pinch is what removes the rotation lane.",
+        "safety_critical": false,
+        "answer_line": "Knee rotation, before they pinch"
+      },
+      {
+        "question": "How do you tell an Achilles Lock from a heel hook, and why does it matter?",
+        "answer": "An Achilles Lock puts the blade of the forearm across the back of the ankle and compresses; a heel hook captures the heel and rotates. It matters because counter-rotating against a compression attack achieves nothing and can feed you straight into a real heel hook grip.",
+        "safety_critical": true,
+        "answer_line": "Blade compresses; hook rotates"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Isolation",
+        "focus": "Recognition",
+        "description": "Partner sets the capture at three different heights without finishing. Call out loud whether your foot is above or below their hip line each time."
+      },
+      {
+        "phase": "Positional",
+        "focus": "Early knee rotation",
+        "description": "Start with their arm threaded but their knees still open. Rotate the knee and extract before they close the pinch, resetting on each failure."
+      },
+      {
+        "phase": "Resistance",
+        "focus": "The roll",
+        "description": "Start with the capture fully set and the knees pinched. Boot-and-roll toward the trapped side against live resistance, and tap immediately if the extension begins."
+      }
+    ]
+  }
+}

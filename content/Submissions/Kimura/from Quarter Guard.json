@@ -340,7 +340,7 @@
         }
       },
       {
-        "question": "How does the quarter guard position create unique advantages for the kimura compared to standard half guard top?",
+        "question": "How does quarter guard top create better Kimura opportunities than standard half guard top?",
         "answer": "Quarter guard provides superior kimura opportunities because your hips have advanced past the opponent's centerline, giving you more weight distribution over their upper body. The bottom player's compromised position forces them to use their arms more aggressively for frames and underhooks, creating frequent arm exposure windows. Their reduced leg control also limits the hip movement needed for effective bridge escapes during the finish.",
         "safety_critical": false,
         "answer_line": "Hips past centerline, arms exposed",
@@ -355,7 +355,7 @@
         }
       },
       {
-        "question": "Your opponent bridges toward the trapped arm during the finishing sequence—how do you maintain control?",
+        "question": "Quarter guard Kimura: they bridge toward the trapped arm mid-finish—how do you keep control?",
         "answer": "Widen your base by stepping your far leg out while keeping your near knee tight to their hip. Drop your weight heavily through your chest onto their upper body to flatten them back down. If the bridge continues despite weight adjustment, follow the roll direction and maintain the grip—you can finish the kimura from the resulting position or transition to side control with the grip intact.",
         "safety_critical": false,
         "answer_line": "Widen base, drop chest to flatten",
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make if your opponent's wrist becomes difficult to control during rotation?",
+        "question": "Quarter guard Kimura: their wrist gets hard to control during rotation—what grip adjustments help?",
         "answer": "Deepen the figure-four by sliding your gripping hand further past their wrist toward their forearm, increasing the contact surface area for control. Squeeze your elbows together to compress the grip configuration. If the grip continues slipping, pause the rotation and reposition your hands with a fresh grip before continuing rather than rushing the finish with compromised control.",
         "safety_critical": false,
         "answer_line": "Deepen figure-four past the wrist",
@@ -385,7 +385,7 @@
         }
       },
       {
-        "question": "When should you immediately release the Kimura during training, and what is the proper release sequence?",
+        "question": "When must you release the quarter guard Kimura in training, and what is the release sequence?",
         "answer": "Release immediately upon any tap signal—verbal, hand tap, foot tap, or any distress sound. The release sequence is: stop all rotational pressure instantly, return the wrist toward neutral by externally rotating back to starting position, release the figure-four grip completely, and allow your partner to self-assess shoulder mobility before continuing. Never release suddenly or let the arm spring back forcefully.",
         "safety_critical": true,
         "answer_line": "Stop, unwind slowly, then release",
@@ -400,7 +400,7 @@
         }
       },
       {
-        "question": "What is the point of no escape for the defender, and how do you recognize when the submission is secured?",
+        "question": "From quarter guard, when is the defender past escape and how do you know the Kimura is secured?",
         "answer": "The point of no escape occurs when the elbow is pinned firmly to your hip, the figure-four is fully locked with both wrists secured, and rotation has passed approximately forty-five degrees of internal rotation. Indicators include the opponent's body beginning to twist involuntarily with the rotation, their free hand switching from grip fighting to preparing to tap, and audible distress signals. Once past this point, apply remaining pressure slowly.",
         "safety_critical": true,
         "answer_line": "Elbow pinned plus 45° rotation",
@@ -430,7 +430,7 @@
         }
       },
       {
-        "question": "How do you manage the transition from crossface control to kimura grip without losing positional dominance?",
+        "question": "How do you switch from crossface to Kimura grip in quarter guard without losing position?",
         "answer": "Maintain shoulder pressure through the crossface side even as your hands transition to the kimura grip. Your shoulder should stay heavy on their face or far cheek throughout the transition using body weight rather than hand control. Secure the wrist with your far hand first before moving your crossface arm, then thread the figure-four arm quickly while your shoulder maintains pressure through positioning.",
         "safety_critical": false,
         "answer_line": "Shoulder heavy throughout the switch",
@@ -594,7 +594,7 @@
         }
       },
       {
-        "question": "What defensive options are available once the figure-four is fully locked but rotation has not started?",
+        "question": "Under quarter guard top, what defenses remain once the figure-four locks but rotation hasn't begun?",
         "answer": "With the figure-four locked pre-rotation, your best options are: bridge toward the trapped arm side to disrupt the attacker's base and potentially roll through; grab your own wrist with your free hand to fight straightening the arm; turn your body aggressively into the attacker to reduce the available rotational angle; or use your legs to hook the attacker's leg and create leverage for a bridge escape. These options diminish rapidly once rotation begins.",
         "safety_critical": false,
         "answer_line": "Bridge toward the trapped arm side",

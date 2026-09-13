@@ -82,7 +82,7 @@ description: "Execute takedowns from a disadvantaged standing position. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the best setup for a double leg entry from a disadvantaged standing position?",
+      "name": "Standing from the bottom, what grips best set up a double leg entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A collar tie with the lead hand combined with wrist control on the opposite side provides the ideal setup configuration. The collar tie allows you to snap the opponent's head down or pull them forward to shift their weight to their toes, while the wrist control prevents them from posting on your head during the shot. Releasing both grips simultaneously during the level change ensures your hands are free to secure the legs on entry."
@@ -98,7 +98,7 @@ description: "Execute takedowns from a disadvantaged standing position. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully sprawls on your initial shot - what immediate chain attack prevents returning to neutral?",
+      "name": "Your shot from bottom is sprawled on. What chain attack keeps them from returning to neutral?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to a single leg by securing the near-side leg with both arms while shifting your head to the outside position. Drive your body perpendicular to the opponent's sprawled position, using their extended hips as leverage. If the single leg is also defended, circle toward their back while maintaining leg contact to expose the ankle for a pick or transition to a body lock by climbing your grip up to their waist below the whizzer."

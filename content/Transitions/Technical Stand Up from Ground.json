@@ -361,7 +361,7 @@
         }
       },
       {
-        "question": "How should you chain your standing options once you successfully reach your feet from the technical stand up?",
+        "question": "After a technical stand up from seated guard, how do you chain your standing options?",
         "answer": "Upon reaching standing, treat it as a decision point rather than an endpoint: if the opponent stays grounded, you can disengage to reset, attack with an ankle pick, or re-pummel for standing grips to set up an arm drag. If the opponent also stands, immediately establish distance and grip fight before they can clinch. The technical stand up only buys you the standing position; chaining it into a deliberate offensive or distance-management plan is what converts the reset into an advantage rather than a neutral restart.",
         "answer_line": "Treat standing as decision point",
         "distractors": {
@@ -516,7 +516,7 @@
         }
       },
       {
-        "question": "How should you adjust your pressure strategy if the opponent successfully creates distance with their frames?",
+        "question": "They frame you off after standing up. How do you adjust your pressure strategy?",
         "answer": "If the opponent creates distance, do not simply drive straight forward into their extended frames, as this plays into their structure. Instead, angle your approach laterally to bypass the frames, or use grip fighting to strip their framing hands before re-closing distance. Control their wrists or sleeves to prevent re-framing, then apply pressure from an angle that their frames cannot effectively resist. Speed of re-engagement is critical - close the gap before they can establish the posting hand position.",
         "answer_line": "Angle in, strip their frames",
         "distractors": {

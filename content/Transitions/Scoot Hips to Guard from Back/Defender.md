@@ -80,7 +80,7 @@ description: "Counter the hip scoot escape from back control. Learn to maintain 
     },
     {
       "@type": "Question",
-      "name": "When should you prioritize attacking the neck versus maintaining hook position during a scoot attempt?",
+      "name": "When should you attack the neck instead of holding your hooks during their scoot escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the neck when your hooks are still secure and the opponent shifts their hands away from neck defense to initiate the scooting motion. This forces them to choose between continuing the escape with an undefended neck or aborting to re-establish neck defense. Never sacrifice hook position to chase the neck, as losing hooks during a choke attempt typically results in complete position loss."

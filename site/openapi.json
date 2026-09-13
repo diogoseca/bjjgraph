@@ -1,0 +1,91 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "BJJ Graph public reading resources",
+    "version": "1.0.0",
+    "description": "Anonymous, read-only access to published Brazilian jiu-jitsu study articles. No account or write operations."
+  },
+  "servers": [
+    {
+      "url": "https://bjjgraph.org"
+    }
+  ],
+  "security": [],
+  "paths": {
+    "/site-index.json": {
+      "get": {
+        "operationId": "listPublicArticles",
+        "summary": "Find BJJ articles by title and retrieve their canonical or Markdown URLs",
+        "responses": {
+          "200": {
+            "description": "Public article directory",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": ["name", "pages"],
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "pages": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["title", "url", "markdown"],
+                        "properties": {
+                          "title": {
+                            "type": "string"
+                          },
+                          "url": {
+                            "type": "string"
+                          },
+                          "markdown": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/markdown/{path}.md": {
+      "get": {
+        "operationId": "readPublicArticle",
+        "summary": "Read an article using the exact Markdown URL from the directory",
+        "parameters": [
+          {
+            "name": "path",
+            "in": "path",
+            "required": true,
+            "description": "Case-sensitive article path, including category segments; index for the homepage",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Positions/Mount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Published article text",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Article does not exist"
+          }
+        }
+      }
+    }
+  }
+}

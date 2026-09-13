@@ -68,7 +68,7 @@ description: "How to execute Ushiro Ashi-Garami to Deep Half in BJJ. Attacking p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical directional change that differentiates the deep half entry from a standard turtle escape?",
+      "name": "What directional change separates the deep half entry from a standard turtle escape out of ushiro?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical directional change is redirecting hip movement from lateral rotation (toward turtle) to downward and inward threading toward the opponent's far hip. Instead of continuing to rotate away from the opponent, you drive your head and shoulders underneath their center of gravity, using the inverted hip orientation as an advantage to access the deep half guard pathway."
@@ -76,7 +76,7 @@ description: "How to execute Ushiro Ashi-Garami to Deep Half in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "Your opponent has moderate inside leg control in ushiro ashi-garami - what must you do before attempting the threading motion?",
+      "name": "With moderate inside leg control on you in ushiro, what must you do before threading to deep half?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must use both hands to control and push the opponent's inside knee away from your centerline. This creates the separation space needed to thread underneath without their inside leg deepening to saddle configuration. The inside knee control is the gatekeeper movement that makes the entire deep half entry viable. Without it, threading drives your leg deeper into their control."

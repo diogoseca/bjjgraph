@@ -104,7 +104,7 @@ description: "Master the forward roll escape execution from saddle position. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent follows your roll and establishes a seatbelt grip as you reach turtle—how do you respond?",
+      "name": "They follow your roll from saddle and get a seatbelt as you reach turtle: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish tight turtle posture with elbows to knees and chin tucked. Begin hand fighting the choking arm of the seatbelt while using hip movement to prevent hook insertion. Your immediate priority is guard recovery through a sit-through, granby roll, or technical standup before they can fully establish back control. The transition from roll to turtle defense must be seamless—any pause gives the opponent time to consolidate hooks."

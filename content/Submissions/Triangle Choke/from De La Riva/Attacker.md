@@ -94,7 +94,7 @@ description: "How to execute Triangle from De La Riva in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "What is the difference between proper 'high triangle' position and incorrect 'shoulder triangle' position?",
+      "name": "Triangle from De La Riva: what separates a proper high triangle from a shoulder triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "High triangle has your knee positioned behind opponent's head with shin across their back, creating maximum choking pressure. Shoulder triangle incorrectly has knee on top of their shoulder, which allows them to maintain posture and creates no effective choking mechanism. Always ensure shin clears shoulder completely during entry."
@@ -110,7 +110,7 @@ description: "How to execute Triangle from De La Riva in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "How should you transition if opponent successfully defends the triangle by hiding their arm inside your legs?",
+      "name": "Triangle from De La Riva: they hide the arm inside your legs. What do you transition to?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the arm remains defended inside, transition to omoplata by bringing your free leg over their back, or attack the back take if they turn away. The leg-over-shoulder position provides multiple offensive options, so never force a defended triangle. Instead, flow to the next highest percentage attack based on their defensive reaction."

@@ -88,7 +88,7 @@ description: "Defend the Knee Slide from Jailbreak in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your opponent fakes the knee slide and switches to a smash pass when you retract your legs. How do you adapt?",
+      "name": "They fake the knee slide and switch to a smash pass when you retract your legs—how do you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a common chain passing tactic. When you retract your legs and the passer switches to a smash pass, immediately reinforce your knee shield by adding a forearm frame behind your knee and angling your shin diagonally across their body. The knee shield that blocks the knee slide also serves as the first layer of defense against the smash pass. If they drive through the shield, switch to a deep half entry by diving underneath them, using their forward smashing pressure to create space below. Stay mentally prepared for pass switches rather than committing entirely to defending one specific pass."

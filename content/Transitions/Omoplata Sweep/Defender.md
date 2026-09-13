@@ -56,7 +56,7 @@ description: "How to defend the Omoplata Sweep in BJJ. Recognition cues, defensi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is driving your weight forward the worst possible response when you feel omoplata shoulder pressure?",
+      "name": "Why is driving your weight forward the worst response to omoplata shoulder pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The omoplata sweep is a reaction-based technique that specifically exploits forward weight commitment. When you drive forward, your center of gravity moves past your base of support, which is exactly the momentum the attacker needs to complete the sweep. Your forward drive combines with their hip rotation and leg leverage to create irresistible rotational force. Instead, you should sit your hips back, widen your base, and work to extract your arm or manage the leg across your back. Denying the forward reaction forces the attacker to choose between a static omoplata submission attempt (which you can address systematically) and an under-powered sweep that you can resist."
@@ -72,7 +72,7 @@ description: "How to defend the Omoplata Sweep in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Your arm is trapped and the opponent has the omoplata fully locked. What is your safest escape option?",
+      "name": "Your arm is trapped in a fully locked omoplata: what is your safest escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The safest escape from a fully consolidated omoplata is the forward roll over your trapped shoulder. Tuck your chin firmly to protect your neck, keep your free arm posted for controlled rotation, and roll forward in the direction the attacker is applying pressure. This relieves the shoulder lock by removing the angle that creates the submission. As you roll, maintain awareness of your back exposure because experienced attackers will attempt to follow your roll and take back control. The roll should end with you facing the opponent in their guard, where you can immediately begin working to pass. Time the roll when the attacker commits to sitting up, as this makes it harder for them to follow the roll to your back."
@@ -80,7 +80,7 @@ description: "How to defend the Omoplata Sweep in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the attacker from transitioning to your back if you successfully roll out of the omoplata?",
+      "name": "After rolling out of the omoplata, how do you stop them taking your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As you roll, keep your elbows tight and your chin tucked, and aim to complete the roll facing the opponent rather than turning away. The moment you feel the roll completing, immediately square your shoulders to the attacker and establish grips on their legs or hips to prevent them from climbing onto your back. Experienced attackers will try to maintain their leg hooks and seat belt grip during your roll to convert directly to back control. By completing the roll quickly and immediately establishing a defensive posture facing them, you deny the back take angle. Post your inside arm on the mat to prevent them from rotating behind you."

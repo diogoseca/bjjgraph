@@ -106,7 +106,7 @@ description: "Complete guide to executing the Suplex from Rear Clinch. Covers gr
     },
     {
       "@type": "Question",
-      "name": "At what moment during the rear clinch exchange is the optimal timing window for initiating the suplex?",
+      "name": "In the rear clinch, when is the optimal timing window to launch the suplex?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing window is when the opponent shifts their weight forward during grip fighting, takes a step that momentarily narrows their base, or relaxes briefly after successfully defending a different takedown attempt. The suplex is most effective when the opponent's center of gravity is already moving in a direction that complements your lifting vector, requiring less force to break their connection to the ground."

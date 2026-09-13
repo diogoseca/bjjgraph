@@ -74,7 +74,7 @@ description: "Learn to execute the Triangle Setup from De La Riva Guard. Step-by
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What grip must you maintain throughout the entire DLR-to-triangle transition, and why is it non-negotiable?",
+      "name": "Which grip must you hold through the whole De La Riva to triangle entry, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The cross sleeve grip on the opponent's far arm at wrist level must be maintained throughout the entire transition. This grip guarantees that one arm remains trapped inside the triangle configuration. Without it, both arms end up outside when you shoot the triangle leg, making the choke impossible and giving the opponent a trivial escape by simply pulling their head free from the loose leg configuration."
@@ -82,7 +82,7 @@ description: "Learn to execute the Triangle Setup from De La Riva Guard. Step-by
     },
     {
       "@type": "Question",
-      "name": "Why should you maintain DLR hook tension until your shooting leg is already in motion across the neck?",
+      "name": "Why keep De La Riva hook tension until your shooting leg is already crossing the neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The DLR hook prevents the opponent from stepping back and creating distance during the critical transition moment. If you release the hook before your shooting leg is moving, the opponent can simply retreat out of range, denying you the triangle entry entirely. The hook acts as an anchor that holds them within your leg's reach during the brief vulnerability window between guard structures."
@@ -114,7 +114,7 @@ description: "Learn to execute the Triangle Setup from De La Riva Guard. Step-by
     },
     {
       "@type": "Question",
-      "name": "What are the two primary chain attacks if the triangle lock is defended after you have already shot your leg?",
+      "name": "After shooting your leg from De La Riva, what two attacks follow if the triangle is defended?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent defends by stacking forward, transition to an omoplata by releasing the triangle lock and rotating your hips to capture their trapped arm with your legs. If they attempt to posture up and pull their head out, switch to an armbar on the trapped arm by uncrossing your legs, placing your foot on their hip, and extending their arm between your legs. Both transitions exploit the specific defensive reaction without requiring full disengagement."

@@ -74,7 +74,7 @@ description: "How to defend and escape the North-South Choke from Kesa Gatame. R
     },
     {
       "@type": "Question",
-      "name": "Why is defending during the rotation more effective than defending after the attacker reaches North-South?",
+      "name": "Why is defending the north-south choke during the rotation better than after they reach north-south?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the rotation, the attacker is between positions with compromised base and divided attention between maintaining arm depth and completing the pivot. Their weight is shifting and they cannot simultaneously apply maximum choking pressure while moving. Once they arrive in North-South and sprawl their hips, they have full bodyweight driving the choke with stable base, and all their attention is on finishing. The transition phase is where the attacker is weakest and your frames and guard recovery attempts have the highest success rate."

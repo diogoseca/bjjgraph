@@ -56,7 +56,7 @@ description: "How to defend against Collar Drag in BJJ. Recognition cues, defens
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important early defensive action when you feel a deep collar grip being established?",
+      "name": "Standing, what's your most important early action when they get a deep collar grip on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important early action is immediately stripping the collar grip before the attacker can coordinate their second control point on your opposite arm. Use your same-side hand to peel their fingers from your collar using a circular or two-on-one grip break. The collar drag requires two-point control to generate rotational torque—without the collar grip, the technique cannot function. Every second you allow the grip to remain increases the danger because it gives the attacker time to establish their arm control and choose their timing for the explosive pull."
@@ -64,7 +64,7 @@ description: "How to defend against Collar Drag in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Why is footwork more important than grip strength when defending a collar drag that has already been initiated?",
+      "name": "Why does footwork beat grip strength once a collar drag is already underway?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the drag is initiated with an explosive pull, the attacker's goal is to circle past your hip line to access your back. No amount of upper body grip strength can prevent this if your feet remain planted, because the attacker is using lateral movement combined with pull force to create an angle. Your feet must match their circular movement to keep your hips squared to them. By circling in the same direction as the drag, you deny the angle change that makes the technique effective. Static feet are the single greatest predictor of collar drag success for the attacker."
@@ -72,7 +72,7 @@ description: "How to defend against Collar Drag in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to attempt a counter-takedown against a collar drag, and what makes this timing critical?",
+      "name": "When should you counter-takedown a collar drag, and why is that timing critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal counter-takedown moment is when the attacker commits to the lateral step and their weight shifts forward onto their lead foot. At this instant, they cannot sprawl effectively because their momentum is directed sideways and forward rather than backward. Their lead leg bears most of their weight and is vulnerable to single leg attacks. The timing is critical because too early (before their weight shifts) means they can abort and sprawl, and too late (after they have circled past your hip) means you are shooting while they are behind you. The window is approximately one second during their step-off commitment."
@@ -80,7 +80,7 @@ description: "How to defend against Collar Drag in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent fakes a collar drag to your left, then immediately drags to your right—how do you avoid getting caught by the direction change?",
+      "name": "They fake a collar drag left, then drag right: how do you avoid the direction change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Direction change fakes exploit the defender who over-commits their footwork to one side. The defense is to react with small, controlled steps rather than large lunging movements. When you feel the initial pull, take one small adjustment step while keeping your base centered rather than committing your full weight to that direction. This way, when the real drag comes to the opposite side, you can redirect your footwork without being caught off-balance. Additionally, focus on keeping your elbows tight rather than chasing the pull with your feet—elbow anchoring works against drags in both directions without requiring you to predict which side is real."

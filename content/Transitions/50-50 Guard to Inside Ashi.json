@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "What is the most critical hip movement in this technique and why does it determine success or failure?",
+        "question": "Which hip movement is most critical in the 50-50 to Inside Ashi transition, and why?",
         "answer": "The initial hip escape away from opponent is the most critical movement. This shrimp creates the space between your bodies that allows your inside leg to thread free from the entanglement. Without sufficient hip escape distance, your inside leg physically cannot clear their leg structure. The quality and timing of this hip escape directly determines whether the extraction succeeds - too shallow and your leg stays trapped, too slow and opponent re-clamps before you clear.",
         "answer_line": "Initial hip escape (shrimp)",
         "distractors": {
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "How do you differentiate between when to attempt this transition versus accepting the 50-50 position?",
+        "question": "How do you decide between attempting the 50-50 to Inside Ashi transition and staying in 50-50?",
         "answer": "Attempt the transition when you have clear timing windows (opponent adjusting grips, decreased hip pressure, failed submission defense on their part). Accept the 50-50 when opponent has strong inside control and heavy hip pressure with no defensive reactions to exploit. In competition, consider point implications - sometimes maintaining 50-50 control is tactically preferable to risking the transition against a well-defended opponent.",
         "answer_line": "Only with a clear timing window",
         "distractors": {
@@ -456,7 +456,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting the 50-50 to Inside Ashi transition?",
+        "question": "What is the earliest cue that they are attempting the 50-50 to Inside Ashi transition?",
         "answer": "The earliest cue is the opponent's initial hip escape motion away from your body while they maintain or tighten their heel grip. This shrimping movement is the prerequisite for all subsequent steps - they cannot extract their inside leg without first creating space through the hip escape. React to the hip movement, not the leg extraction, to maximize your defensive window.",
         "answer_line": "Their initial hip escape motion",
         "distractors": {
@@ -470,7 +470,7 @@
         }
       },
       {
-        "question": "Your opponent has already partially extracted their inside leg - what is your best remaining defensive option?",
+        "question": "They have partially extracted their inside leg toward Inside Ashi—what is your best option left?",
         "answer": "Drive your hips forward aggressively to collapse the space before their leg can clear fully and drive across your hip. Simultaneously squeeze your legs together to re-trap their partially extracted leg. If their leg is too far out to re-trap, immediately shift to counter-attacking their heel since their transition focus has likely weakened their own heel defense. The worst option is passively accepting the position change.",
         "answer_line": "Drive hips forward, re-trap leg",
         "distractors": {
@@ -484,7 +484,7 @@
         }
       },
       {
-        "question": "Why is maintaining constant hip pressure the single most important defensive principle against this transition?",
+        "question": "Why is constant hip pressure the key defense against the 50-50 to Inside Ashi transition?",
         "answer": "The entire transition depends on the attacker creating space through hip escape to thread their inside leg free. Without space between your bodies, their inside leg physically cannot extract from the entanglement. Your forward hip pressure directly opposes their hip escape motion, making the extraction mechanically impossible as long as you maintain contact. Every other defensive technique becomes secondary to this fundamental pressure maintenance.",
         "answer_line": "It blocks their hip escape space",
         "distractors": {
@@ -498,7 +498,7 @@
         }
       },
       {
-        "question": "When should you attempt a counter heel hook during your opponent's transition attempt versus focusing purely on prevention?",
+        "question": "When should you counter heel hook during their Inside Ashi entry instead of just preventing it?",
         "answer": "Attempt the counter only when your opponent has fully committed to the extraction and their grip on your heel defense has loosened as a result. If you counter-attack too early while they still have strong defensive awareness, you risk abandoning your own prevention defense for a low-percentage attack. The ideal timing is when you feel their inside leg halfway extracted and their hands shift focus to repositioning rather than maintaining your heel control.",
         "answer_line": "Once they're fully committed",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "How does the defender's energy management differ from the attacker's during this transition exchange?",
+        "question": "How does defender energy management differ from the attacker's in this 50-50 exchange?",
         "answer": "The defender must match the attacker's burst of energy during the transition attempt but should avoid sustained high-output effort. React explosively to the initial hip escape with forward pressure, then reassess. If the transition is prevented, immediately return to efficient positional maintenance rather than continuing to burn energy. The attacker is the one spending energy on the transition - the defender should use the minimum force necessary to disrupt it and conserve energy for the next exchange.",
         "answer_line": "Burst react, then conserve energy",
         "distractors": {

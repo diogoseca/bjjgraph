@@ -1,0 +1,250 @@
+{
+  "name": "Danaher Pin Escape Fundamentals System",
+  "description": "Explore Danaher Pin Escape Fundamentals System with a matched BJJ Fanatics course, practical study steps, partner drills, and connected technique references.",
+  "summary": "The Danaher Pin Escape Fundamentals System is a study framework for connecting basic escape movements to the specific control that keeps a pin in place.",
+  "tags": [
+    "bjj",
+    "system",
+    "fundamentals"
+  ],
+  "system_type": "Defense System",
+  "difficulty_level": "Beginner",
+  "overview": "Knowing a bridge or a hip escape is different from recognising when that movement can change a pin. This guide connects those movement skills to an opponent's actual controls. John Danaher's Pin Escapes and Turtle Escapes course is the selected foundational companion, covering general escape concepts before positional applications. Work from one familiar pin at a time; the broad syllabus is useful as a reference, but studying every escape at once makes it difficult to tell which adjustment improved a particular round.\n\nThe sequence and drills below are original BJJGraph study suggestions, not a course transcript or an official instructor curriculum. Use the linked demonstrations for technical detail, then compare one selected lesson with a controlled partner round.",
+  "key_principles": [
+    "Begin under side control or mount and describe what prevents your shoulders or hips from moving.",
+    "Practise the relevant bridge, hip movement or turn without resistance and with comfortable alignment.",
+    "Study the positional lesson that restores a useful elbow or knee connection instead of pushing at every available surface.",
+    "Let the partner block the first escape and return to a supported second option from the same starting pin.",
+    "Continue beyond the initial space-making action to see whether you have established guard or another stable endpoint."
+  ],
+  "key_components": [
+    {
+      "component_name": "Name the controlling contact",
+      "description": "Begin under side control or mount and describe what prevents your shoulders or hips from moving.",
+      "purpose": "Give the name the controlling contact stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Prepare the required movement",
+      "description": "Practise the relevant bridge, hip movement or turn without resistance and with comfortable alignment.",
+      "purpose": "Give the prepare the required movement stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Reconnect an inside frame",
+      "description": "Study the positional lesson that restores a useful elbow or knee connection instead of pushing at every available surface.",
+      "purpose": "Give the reconnect an inside frame stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Combine two responses",
+      "description": "Let the partner block the first escape and return to a supported second option from the same starting pin.",
+      "purpose": "Give the combine two responses stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Verify the recovered position",
+      "description": "Continue beyond the initial space-making action to see whether you have established guard or another stable endpoint.",
+      "purpose": "Give the verify the recovered position stage a concrete objective before connecting it to the next exchange."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Name the controlling contact",
+      "description": "Begin under side control or mount and describe what prevents your shoulders or hips from moving."
+    },
+    {
+      "step_number": 2,
+      "phase": "Prepare the required movement",
+      "description": "Practise the relevant bridge, hip movement or turn without resistance and with comfortable alignment."
+    },
+    {
+      "step_number": 3,
+      "phase": "Reconnect an inside frame",
+      "description": "Study the positional lesson that restores a useful elbow or knee connection instead of pushing at every available surface."
+    },
+    {
+      "step_number": 4,
+      "phase": "Combine two responses",
+      "description": "Let the partner block the first escape and return to a supported second option from the same starting pin."
+    },
+    {
+      "step_number": 5,
+      "phase": "Verify the recovered position",
+      "description": "Continue beyond the initial space-making action to see whether you have established guard or another stable endpoint."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "Performing a memorised movement against the wrong control",
+      "solution": "Identify the blocked body segment before repeating the movement."
+    },
+    {
+      "obstacle": "Pushing with extended arms for space",
+      "solution": "Return to the demonstrated frame and movement relationship."
+    },
+    {
+      "obstacle": "Stopping the drill as soon as a gap appears",
+      "solution": "Give the top partner one controlled attempt to follow and repin."
+    },
+    {
+      "obstacle": "Testing every escape in one round",
+      "solution": "Choose one pin and one defensive reaction so the result can inform the next repetition."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Starting-position recognition",
+      "description": "Check whether the practitioner can describe the relevant control from Side Control.",
+      "proficiency_indicators": [
+        "Names the starting position",
+        "Identifies the first useful contact",
+        "Explains why the chosen lesson fits this exchange"
+      ]
+    },
+    {
+      "metric_name": "Reaction recognition",
+      "description": "Assess the decision when the partner stops the first option.",
+      "proficiency_indicators": [
+        "Names the defensive response",
+        "Pauses at the point the original option is lost",
+        "Chooses a supported continuation or reset"
+      ]
+    },
+    {
+      "metric_name": "Endpoint quality",
+      "description": "Review the position reached after the selected movement.",
+      "proficiency_indicators": [
+        "Can name the intended endpoint",
+        "Checks the partner still has an escape response",
+        "Separates a transient opening from sustained control"
+      ]
+    },
+    {
+      "metric_name": "Practice transfer",
+      "description": "Compare the same task as agreed resistance and partner reactions change.",
+      "proficiency_indicators": [
+        "Repeats the starting conditions",
+        "Records the first point of failure",
+        "Chooses one specific adjustment for the next round"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice suggestion: start from Side Control and give the partner one agreed response. Work through the first two stages cooperatively, then stop each repetition at the chosen control or recovery endpoint. Add another reaction only when both partners can explain what changed. Keep submission entries controlled and release immediately on a tap or request to stop. Review the lost connection before adding speed.",
+    "progression_path": [
+      {
+        "stage": "Recognise",
+        "focus": "Begin under side control or mount and describe what prevents your shoulders or hips from moving."
+      },
+      {
+        "stage": "Rehearse",
+        "focus": "Practise the relevant bridge, hip movement or turn without resistance and with comfortable alignment."
+      },
+      {
+        "stage": "Respond",
+        "focus": "Study the positional lesson that restores a useful elbow or knee connection instead of pushing at every available surface."
+      },
+      {
+        "stage": "Connect",
+        "focus": "Continue beyond the initial space-making action to see whether you have established guard or another stable endpoint."
+      }
+    ],
+    "common_mistakes": [
+      "Performing a memorised movement against the wrong control",
+      "Pushing with extended arms for space",
+      "Stopping the drill as soon as a gap appears",
+      "Testing every escape in one round"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Side-pin reference for identifying pressure, inside frames and positional recovery."
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Primary top pin for studying maintenance and the cost of advancing an attack."
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Starting guard for examining trapped-leg control and the transition into the next exchange."
+    },
+    {
+      "name": "Turtle",
+      "content_type": "Position",
+      "relationship": "Transition position where hook access, rear grips and the exit direction must be assessed."
+    },
+    {
+      "name": "Elbow Escape from Mount",
+      "content_type": "Transition",
+      "relationship": "Specific movement reference for studying elbow-knee recovery under mount."
+    },
+    {
+      "name": "Elbow Escape to Guard",
+      "content_type": "Transition",
+      "relationship": "Recovery reference for connecting space-making to an established guard."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Principle for restoring useful inside contact before attempting larger movement."
+    },
+    {
+      "name": "Defensive Concepts",
+      "content_type": "Principle",
+      "relationship": "Principle for prioritising immediate threats before positional improvement."
+    },
+    {
+      "name": "Positional Sparring",
+      "content_type": "Principle",
+      "relationship": "Practice structure for repeating a specified position, partner response, and endpoint."
+    },
+    {
+      "name": "Position-Over-Submission Approach",
+      "content_type": "Principle",
+      "relationship": "Decision rule for retaining or recovering control before chasing an unsupported finish."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "In Danaher Pin Escape Fundamentals System, what should the name the controlling contact stage investigate?",
+      "answer": "Begin under side control or mount and describe what prevents your shoulders or hips from moving."
+    },
+    {
+      "question": "In Danaher Pin Escape Fundamentals System, what should the prepare the required movement stage investigate?",
+      "answer": "Practise the relevant bridge, hip movement or turn without resistance and with comfortable alignment."
+    },
+    {
+      "question": "In Danaher Pin Escape Fundamentals System, what should the reconnect an inside frame stage investigate?",
+      "answer": "Study the positional lesson that restores a useful elbow or knee connection instead of pushing at every available surface."
+    },
+    {
+      "question": "In Danaher Pin Escape Fundamentals System, what should the combine two responses stage investigate?",
+      "answer": "Let the partner block the first escape and return to a supported second option from the same starting pin."
+    },
+    {
+      "question": "In Danaher Pin Escape Fundamentals System, what should the verify the recovered position stage investigate?",
+      "answer": "Continue beyond the initial space-making action to see whether you have established guard or another stable endpoint."
+    },
+    {
+      "question": "How should you respond to this practice problem: performing a memorised movement against the wrong control?",
+      "answer": "Identify the blocked body segment before repeating the movement."
+    }
+  ],
+  "products": [
+    {
+      "id": "pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher",
+      "title": "Pin Escapes & Turtle Escapes: BJJ Fundamentals - Go Further Faster",
+      "instructor": "John Danaher",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A directly matched instructional companion for connecting basic escape movements to the specific control that keeps a pin in place. Review its published contents and sample to judge the teaching approach.",
+      "best_for": "Beginners building positional escape habits and more experienced practitioners revisiting mount, side-pin and turtle recovery problems.",
+      "study_focus": "Start with the escape overview and basic movements, then select the mount or side-position elbow-escape material matching your current training problem.",
+      "practice_tip": "BJJGraph suggestion: begin with 'Name the controlling contact' from Side Control. Record which partner response interrupts the plan and revisit that lesson before adding another branch."
+    }
+  ]
+}

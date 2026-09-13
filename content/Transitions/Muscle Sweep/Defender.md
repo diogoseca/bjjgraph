@@ -58,7 +58,7 @@ description: "How to defend against Muscle Sweep in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already established grips and shifted their angle - what is your emergency defense?",
+      "name": "They already have their muscle sweep grips and angle — what is your emergency defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free hand firmly on the mat on the side the sweep is directed toward, creating a tripod base structure that blocks the rolling direction. This is a last-resort defense because your posted arm becomes vulnerable to Kimura and armbar attacks. Immediately after stopping the sweep momentum, begin working to strip grips and recover posture rather than staying in the posted position. If the post fails, tuck your elbow and turn into the opponent rather than away to avoid giving up back control."

@@ -74,7 +74,7 @@ description: "Master executing counter throws from standing rear clinch bottom p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical requirement before initiating any counter throw variant from standing rear clinch?",
+      "name": "What is the key mechanical requirement before any counter throw from standing rear clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical requirement is dropping your level so your hips are below the opponent's hip line. This level change creates the fulcrum around which the throw operates. Without getting below the opponent's center of gravity, you cannot generate the mechanical advantage needed to redirect their mass, and the throw becomes a muscular fight you will likely lose against a committed rear clinch controller."
@@ -82,7 +82,7 @@ description: "Master executing counter throws from standing rear clinch bottom p
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a tight body lock and heavy forward pressure on your back - which throw variant offers the highest success probability?",
+      "name": "They have a tight body lock and heavy forward pressure. Which counter throw works best?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lateral drop offers the highest probability against a tight body lock with forward pressure. The locked grip means the opponent cannot post or separate during the throw, and their forward pressure provides the momentum source. Drop your level, control their clasped hands, and sit through explosively to one side. Their own body lock becomes the mechanism that pulls them through the throwing arc, converting their control strength into your throwing leverage."
@@ -90,7 +90,7 @@ description: "Master executing counter throws from standing rear clinch bottom p
     },
     {
       "@type": "Question",
-      "name": "Why is half-committing to the counter throw more dangerous than either fully committing or not attempting it at all?",
+      "name": "Why is half-committing to the counter throw worse than either full commitment or not attempting it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Half-commitment creates the worst possible outcome because you have already compromised your standing base and defensive frames without generating enough force to complete the throw. The opponent maintains their back angle and grip while you have voluntarily put yourself in a lower, more vulnerable position. This accelerates their transition from standing rear clinch to ground-based back control with hooks, which is a significantly worse defensive position than the standing clinch you started in."
@@ -98,7 +98,7 @@ description: "Master executing counter throws from standing rear clinch bottom p
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to sprawl their hips backward as you initiate the level change for a hip throw - how do you adjust?",
+      "name": "They sprawl their hips back as you level change for the hip throw. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the hip throw and post your hands to prevent being driven facedown to the mat. The sprawl removes the forward pressure that powers the hip throw, making completion mechanically impossible. Switch to a sit-out or Peterson roll escape that works with downward pressure rather than against it. Alternatively, if the sprawl is shallow, redirect into a sacrifice throw variant that uses the downward force as the throwing mechanism rather than requiring forward momentum."
@@ -114,7 +114,7 @@ description: "Master executing counter throws from standing rear clinch bottom p
     },
     {
       "@type": "Question",
-      "name": "After successfully landing the counter throw, what is the most common error that causes practitioners to lose their positional advantage?",
+      "name": "After landing the counter throw, what common error costs you the positional advantage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common post-throw error is releasing grip control upon landing. Practitioners treat the throw and the mount establishment as two separate techniques rather than one continuous sequence. When grips are released during landing, the opponent scrambles to turtle, recovers guard with frames, or re-establishes back control from the ground. The correction is drilling the entire throw-to-mount sequence as a single movement pattern where grips are maintained throughout and mount is established before any grip adjustment occurs."

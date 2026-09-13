@@ -98,7 +98,7 @@ description: "How to execute Inside Ashi-Garami to Honey Hole in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Your opponent kicks their free leg over your threading leg as you attempt the transition - how do you respond?",
+      "name": "They kick their free leg over your threading leg during the Honey Hole entry. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the threading attempt and return to solid Inside Ashi-Garami control. Re-establish all control points, then threaten straight ankle lock to force their defensive reaction. Their blocking attempt indicates they recognized your intention - vary your timing on next attempt or threaten more aggressively before transitioning to create genuine defensive commitment before threading."

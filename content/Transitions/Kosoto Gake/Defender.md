@@ -64,7 +64,7 @@ description: "How to defend against Kosoto Gake in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Why is driving your hips forward more effective than leaning your shoulders backward when defending the throw?",
+      "name": "Defending Kosoto Gake, why drive your hips forward rather than lean your shoulders back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Driving hips forward shifts your center of gravity over your base of support (your feet), which is the opposite of what the attacker needs. Leaning your shoulders backward actually helps the attacker because it loads more weight onto your rear leg while moving your center of gravity behind your base. The hip-forward drive also creates forward pressure that disrupts the attacker's pulling mechanics and can off-balance them in return."
@@ -72,7 +72,7 @@ description: "How to defend against Kosoto Gake in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already positioned their calf behind your rear leg and is beginning the reap - what is your best remaining option?",
+      "name": "Their calf is behind your rear leg and the reap has started; what is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is to turn sharply into the attacker's body while simultaneously posting your near hand on their hip to create a frame. This turning motion redirects the force of the reap along a different axis than the attacker intended, potentially fouling their throw mechanics. If the throw still partially succeeds, the turn means you land in a scramble position rather than flat on your back in side control, giving you a chance to recover guard or establish your own grips."
@@ -80,7 +80,7 @@ description: "How to defend against Kosoto Gake in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive strategy when you recognize your opponent is chaining Kosoto Gake with Osoto Gari?",
+      "name": "How should you defend when your opponent chains Kosoto Gake into Osoto Gari?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When facing a Kosoto Gake to Osoto Gari chain, avoid the instinct to simply step your rear leg backward repeatedly, as this plays directly into the chain system. Instead, address the root cause by stripping the collar grip that powers both throws. If grip stripping is not immediately possible, circle laterally rather than stepping linearly backward, which denies the straight-line angle both throws require. You can also consider pulling guard strategically to deny the standing exchange entirely rather than defending an escalating chain."

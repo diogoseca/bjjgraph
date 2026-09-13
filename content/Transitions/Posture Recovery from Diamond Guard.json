@@ -292,7 +292,7 @@
         }
       },
       {
-        "question": "Your opponent releases head control and immediately shoots their leg toward your neck for a triangle — how do you respond?",
+        "question": "In Diamond Guard, they release head control and shoot a leg for the triangle — how do you respond?",
         "answer": "When head control releases and you see or feel the leg shooting toward your neck, immediately tuck your chin tightly and drive your freed head to the opposite side from the incoming leg. Post your free hand inside their thigh to create a frame preventing the triangle from closing. With your head safe, continue the posture recovery sequence since you now have one fewer control point to address. The key recognition cue is feeling sudden neck freedom combined with hip rotation — this combination always signals a triangle attempt.",
         "answer_line": "Tuck chin, drive head away",
         "distractors": {
@@ -348,7 +348,7 @@
         }
       },
       {
-        "question": "Your opponent deepens the overhook and converts to a kimura grip as you break head control — what is your immediate response?",
+        "question": "In Diamond Guard, they deepen the overhook to a kimura grip as you break head control — response?",
         "answer": "Immediately straighten your trapped arm and drive it toward the mat to prevent the rotational force the kimura requires. The kimura grip depends on bending the elbow to create a lever — a straight arm with the hand driven toward the mat eliminates this leverage. Use your free hand to control their wrist on the kimura grip while driving your hips backward. The straight arm position combined with hip drive creates enough distance to strip the grip. Do not attempt to rotate out of the kimura, as this plays into the grip's designed force vector.",
         "answer_line": "Straighten arm, drive to mat",
         "distractors": {
@@ -477,7 +477,7 @@
         }
       },
       {
-        "question": "When should you convert from diamond guard to a triangle attempt during the opponent's posture recovery?",
+        "question": "From diamond guard, when should you convert to a triangle during their posture recovery?",
         "answer": "Convert to a triangle when the top player has successfully begun circling their head past your head control and their chin is rotating toward the overhook side. At this moment their head is in a predictable arc, their posture is partially recovering, and their neck is exposed on the non-overhook side. Release head control and swing your leg from the overhook side over their neck while they are mid-circle. Their own head movement carries them into the triangle path. Converting too early (before they commit to the circle) wastes the diamond position.",
         "answer_line": "Swing leg as head circles",
         "distractors": {
@@ -505,7 +505,7 @@
         }
       },
       {
-        "question": "Why does the diamond guard create an energy advantage for the bottom player and how do you exploit this?",
+        "question": "Why does diamond guard give the bottom player an energy advantage, and how do you exploit it?",
         "answer": "The diamond frame uses structural alignment and skeletal connection rather than muscular effort, so maintaining it costs minimal energy. The top player must actively fight two converging control points using significant muscular effort against a closed geometric structure. Exploit this by being patient and cycling through low-energy submission threats that force continued defensive responses. Each recovery attempt drains the top player's resources while your energy expenditure stays low. After 2-3 failed recovery attempts, the top player's grip fighting becomes weaker and submissions become higher percentage.",
         "answer_line": "Stay patient, cycle threats",
         "distractors": {

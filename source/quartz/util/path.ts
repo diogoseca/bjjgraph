@@ -356,7 +356,9 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
             const parentDir = parts.slice(0, -2).join("/")
             const folderName = parts.at(-2)
             const fileName = parts.at(-1)
-            return parentDir === srcDir && folderName === srcFileName && targetCanonical === fileName
+            return (
+              parentDir === srcDir && folderName === srcFileName && targetCanonical === fileName
+            )
           })
           if (subDirMatch) {
             return (resolveRelative(src, subDirMatch) + targetAnchor) as RelativeURL

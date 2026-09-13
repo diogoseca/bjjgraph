@@ -68,7 +68,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary reason you must control opponent's near-side arm before attempting to step over to mount?",
+      "name": "Why control their near-side arm before stepping over to mount from side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The near-side arm represents opponent's strongest defensive frame that can directly block your leg from stepping over their body. If this arm is free and active, they can post it against your hip or chest, preventing the transition entirely and potentially creating space to recover guard. By controlling this arm through underhook, wrist control, or trapping, you eliminate their primary defensive barrier and create a clear path for your leg to step over."
@@ -76,7 +76,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining constant shoulder pressure throughout the transition critically important, and what happens if you lift your chest during the step-over?",
+      "name": "Why keep constant shoulder pressure during the step to mount, and what if you lift your chest?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Constant shoulder pressure keeps opponent's spine flat and denies the space, frames, and turning needed for any escape. It prevents them from creating space, stops them from turning away to turtle, eliminates their ability to establish effective frames, and limits them to only small bridging attempts rather than full escapes. If you lift your chest during the step-over, the gap allows opponent to turn their shoulders and hips toward you (potentially recovering guard) or away from you (escaping to turtle)."
@@ -84,7 +84,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "When opponent bridges explosively just as you're stepping your leg over, what is the correct response and why should you never fight directly against their bridge?",
+      "name": "They bridge explosively as you step to mount — what do you do, and why not fight the bridge?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct response is to base out wide with your stepping leg, maintain crossface pressure, and ride out the bridge without fighting against it. Wait for gravity to bring them back down flat, then complete the transition. Fighting against a bridge is inefficient because their entire body structure (legs, hips, core) is generating force while you're in an awkward transitional position with compromised base. By timing your completion for when they come back down, you use minimal energy and maintain control. Additionally, people can only bridge for 1-2 seconds before they must return to the mat due to muscular fatigue."
@@ -92,7 +92,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "What is the technical reason for stepping your leg in a wide arc rather than straight across opponent's chest when transitioning to mount?",
+      "name": "Why step your leg in a wide arc instead of straight across their chest when mounting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stepping in a wide arc toward the far shoulder lets your leg clear frames and arm defenses that would block a straight-across path. A straight-across movement brings your leg directly through their primary defensive zone where arms and frames are most effective. The wide arc also makes it harder for opponent to catch your leg or pants, and positions your knee to land cleanly on the opposite side of their body rather than getting stuck on their torso or arm. This path of least resistance significantly increases success rate."
@@ -100,7 +100,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Why must you bring your second leg over quickly after the first leg clears, and what specific risk exists if you pause in the partial mount position?",
+      "name": "Why bring the second leg over instantly, and what's the risk of pausing in partial mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bringing the second leg over immediately denies opponent the split-second they need to hook your leg or insert a knee shield and capture half guard. In partial mount (one leg over, one still on the original side) their defensive priority shifts from preventing the first leg to preventing the second, and they will use that brief moment to recover some guard retention. Quick continuous motion of both legs gives them no time to react or establish half guard frames. Additionally, the partial mount compromises your base and weight distribution, so pausing there leaves you more vulnerable to being swept or losing the position entirely."
@@ -108,7 +108,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "When opponent has strong frames established on both sides and actively prevents your transition attempt, what should you do instead of forcing the mount transition?",
+      "name": "Their frames are strong on both sides: what do you do instead of forcing the mount transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Don't force it — collapse their frames first or switch to an alternative dominant position like knee-on-belly or north-south. Forcing a transition against strong established frames wastes energy, increases the risk of losing position entirely, and demonstrates poor positional awareness. Better options include using weight and pressure to collapse the frames over time, switching to submissions that attack their framing arms (kimura, americana), or using their commitment to frames as an opportunity to advance to knee-on-belly and attack from a different angle. High-level jiu-jitsu is about taking what opponent gives you, not forcing predetermined techniques."
@@ -426,7 +426,7 @@ The transition to mount is generally one of the safest fundamental transitions i
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Position advancement sequence after successful passing</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Position advancement sequence after successful passing</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

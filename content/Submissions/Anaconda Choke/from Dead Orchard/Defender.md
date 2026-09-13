@@ -58,7 +58,7 @@ description: "Defend the Anaconda Choke from Dead Orchard in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive priority when you recognize the attacker transitioning from Dead Orchard control to finishing the anaconda choke?",
+      "name": "What is your first priority as they move from Dead Orchard control to the anaconda finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first priority is getting your free hand to the choking arm at the elbow joint to create a frame that prevents the grip from tightening into full compression. Do not waste energy pulling at their hands or pushing their body. The elbow is the mechanically weakest point of the choking arm and framing there provides the greatest defensive leverage per unit of energy expended. Simultaneously, tuck your chin and turn your face toward the attacker's body to protect the carotid arteries."
@@ -74,7 +74,7 @@ description: "Defend the Anaconda Choke from Dead Orchard in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why is turning toward the trapped arm side more effective than turning away when defending this choke?",
+      "name": "Why is turning toward the trapped arm side better than turning away against the anaconda?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning toward the trapped arm side changes the compression angle in your favor by moving the carotid arteries away from the primary compression line of the choking arm. Turning away does the opposite by rotating your neck into the choking arm's squeeze direction, actually tightening the bilateral compression. Additionally, turning toward the trapped arm side positions your hips for the hip escape that offers the highest percentage exit from the position, while turning away exposes your back for potential hook insertion and back control transition."
@@ -90,7 +90,7 @@ description: "Defend the Anaconda Choke from Dead Orchard in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "What breathing strategy maintains your defensive capacity longest when the choke is partially restricting blood flow?",
+      "name": "How should you breathe while the anaconda is partially restricting your blood flow?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Focus on slow, controlled nasal breathing with extended exhalations. Accept that full breaths are not possible and work with shallow but consistent respiratory rhythm. Exhale fully when executing defensive movements or frames, then inhale during brief pauses between movements. Mental calm is essential because panic breathing triggers sympathetic nervous system activation that dramatically accelerates oxygen consumption and fatigue. Your body can function on restricted blood flow longer than most practitioners realize if you remain calm and breathe efficiently rather than gasping."

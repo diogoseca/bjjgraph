@@ -88,7 +88,7 @@ description: "Complete guide to defending against the Standing Escape from X-Gua
     },
     {
       "@type": "Question",
-      "name": "The top player is collapsing your outside frame and your X-Guard is deteriorating — can you convert this into a leg entanglement entry?",
+      "name": "As they collapse your outside X-guard frame, can you convert it into a leg entanglement entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes, when the top player drives your outside leg downward to collapse your frame, you can redirect that leg between their legs to initiate an ashi garami or honey hole entry. As they commit weight forward during the frame collapse, retract your outside leg and thread it inside their stance while your inside hook redirects from behind the knee into a heel hook configuration on the far leg. The critical timing is during their forward weight commitment, which prevents them from retracting their leg out of your entanglement. This works because the top player expects you to resist the frame collapse rather than redirect the energy into a leg attack. Only attempt this when you have sufficient leg dexterity to establish the entanglement before they fully clear your hooks."
@@ -96,7 +96,7 @@ description: "Complete guide to defending against the Standing Escape from X-Gua
     },
     {
       "@type": "Question",
-      "name": "Your opponent has stripped your ankle grip and is now reaching to push down your outside leg — what is your best immediate response?",
+      "name": "They strip your ankle grip and reach to push your outside X-guard leg down. Best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your best response depends on whether the top player's base is still relatively high or already lowered. If they are still upright, execute an immediate elevation sweep by bridging explosively through the inside hook while they are committed to reaching down with their hand — this is the highest-percentage sweep window because one hand is occupied and their weight is shifting. If they have already established a low base, immediately re-grip the ankle with your other hand or switch to a pants grip on the same leg to restore the extraction prevention anchor. The worst response is passivity — every second without the ankle grip makes the remaining control points easier for the top player to address sequentially."

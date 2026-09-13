@@ -58,7 +58,7 @@ description: "Learn to defend the Gift Wrap Armbar in BJJ. Recognition cues, esc
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical timing window for defending the Gift Wrap Armbar, and what should you do during it?",
+      "name": "What is the key window to defend the gift wrap armbar, and what should you do in it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical window is during the attacker's hip shift phase before their far leg swings over your head. At this point, the attacker has committed to abandoning pure back control but has not yet locked the armbar position. Turn your hips and shoulders toward the attacker to collapse the armbar angle, and retract your free arm tight to your body with hands clasped. Once the leg crosses your face and the hips are in position, defensive options decrease dramatically."
@@ -66,7 +66,7 @@ description: "Learn to defend the Gift Wrap Armbar in BJJ. Recognition cues, esc
     },
     {
       "@type": "Question",
-      "name": "Why is extending your free arm to push the attacker away a dangerous mistake when defending the Gift Wrap Armbar?",
+      "name": "Why is extending your free arm to push away dangerous against the gift wrap armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extending the free arm provides the attacker with exactly the arm isolation they need to complete the armbar setup. The push creates wrist exposure that allows two-on-one grip, the extension removes the arm from the protected position near your ribs, and the straight arm is already partially in the finishing position. Instead, keep the elbow glued to the ribs and use hip movement and body turning for defensive actions rather than arm-based responses."
@@ -82,7 +82,7 @@ description: "Learn to defend the Gift Wrap Armbar in BJJ. Recognition cues, esc
     },
     {
       "@type": "Question",
-      "name": "How does the gift wrap arm trap change your standard armbar defense strategy compared to a normal armbar?",
+      "name": "How does the gift wrap arm trap change your armbar defense compared to a normal armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The gift wrap fundamentally changes armbar defense because your primary defensive tool—clasping both hands together—is unavailable. With one arm trapped, you cannot create the two-on-one grip that normally prevents arm isolation. You must rely entirely on arm retraction, body rotation, and hip movement for defense rather than grip-based resistance. This means defense must happen earlier during the setup phase rather than during the finishing phase, because late-stage armbar defense requires both arms."
@@ -90,7 +90,7 @@ description: "Learn to defend the Gift Wrap Armbar in BJJ. Recognition cues, esc
     },
     {
       "@type": "Question",
-      "name": "What is the best recovery strategy if the attacker fails the Gift Wrap Armbar but still maintains the gift wrap arm trap?",
+      "name": "Their gift wrap armbar failed but the arm trap remains — what is your recovery priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the armbar fails and you return to gift wrap control, immediately address the two persistent problems in priority order. First, protect your neck with the free hand since the attacker will likely switch back to choke attacks. Second, begin working the trapped arm recovery using hip and shoulder rotation rather than arm strength. Use the attacker's positional readjustment after the failed armbar as a window for escape attempts, as their base may be temporarily compromised from the transition back to standard gift wrap control."

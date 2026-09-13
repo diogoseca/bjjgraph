@@ -80,7 +80,7 @@ description: "Learn to execute the Posture Up escape from Gogoplata Control. Ste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first adjustment you should make when caught in a partially established gogoplata to buy time for systematic escape?",
+      "name": "Caught in a partly set gogoplata, what first adjustment buys time for a systematic escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn your chin slightly toward the attacking shin to redirect compression away from the direct center of the trachea onto the more muscular lateral neck tissues. This subtle angle change creates breathing space without significantly alerting the bottom player to your escape intentions, buying critical seconds to begin the systematic extraction sequence."
@@ -88,7 +88,7 @@ description: "Learn to execute the Posture Up escape from Gogoplata Control. Ste
     },
     {
       "@type": "Question",
-      "name": "Why should you control the opponent's hips with your hands rather than grab the choking leg directly?",
+      "name": "Escaping the gogoplata, why control their hips with your hands instead of grabbing the choking leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg positioned across your throat is structurally stronger than your arms can overcome through direct pulling. Controlling the hips prevents the bottom player from elevating to maintain optimal perpendicular choke angle, addresses the root mechanical cause of the submission pressure, and provides a stable platform for generating posture recovery force through hip extension."
@@ -96,7 +96,7 @@ description: "Learn to execute the Posture Up escape from Gogoplata Control. Ste
     },
     {
       "@type": "Question",
-      "name": "What is the critical sequence for addressing the foot-behind-head configuration before head extraction?",
+      "name": "Escaping a gogoplata, what sequence handles the foot behind your head before head extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Locate the heel of the foot behind your head with one hand while maintaining hip control with the other. Push the heel laterally to create slack in the closed-loop system rather than pulling it directly backward. Only after loosening the foot position should you drive your hips back to create separation, as attempting head extraction with the foot still anchored will only tighten the choke."
@@ -120,7 +120,7 @@ description: "Learn to execute the Posture Up escape from Gogoplata Control. Ste
     },
     {
       "@type": "Question",
-      "name": "You feel the shin sliding off your throat during posture recovery - what risk must you immediately manage?",
+      "name": "Escaping a gogoplata, the shin slides off your throat — what risk must you manage immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As the shin displaces, the bottom player will likely attempt to transition to triangle choke by switching to a leg-over-shoulder configuration, or to omoplata if you have turned toward the attacking leg. Keep your elbows tight to your body, maintain forward-facing posture, and immediately control both of the opponent's legs to prevent them from establishing either alternative submission attack."

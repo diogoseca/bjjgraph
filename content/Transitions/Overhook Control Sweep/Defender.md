@@ -64,7 +64,7 @@ description: "Master defending the Overhook Control Sweep in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a tight overhook and begins inserting a butterfly hook - what is your immediate response?",
+      "name": "They have a tight overhook and start inserting a butterfly hook: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately address the hook by pushing their hooking leg down with your hand or knee, then drive your weight forward to flatten their hips and eliminate the space needed for hook elevation. Simultaneously work to strip the overhook by rotating your shoulder. The hook and the overhook together create the sweep; removing either one neutralizes the threat. Prioritize the hook if you cannot strip the overhook quickly."
@@ -80,7 +80,7 @@ description: "Master defending the Overhook Control Sweep in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How do you defend the bridge-based overhook sweep variant when the bottom player has no butterfly hook?",
+      "name": "How do you defend the bridge overhook sweep when the bottom player has no butterfly hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against the bridge variant, drive your weight forward and down onto the bottom player's hips to prevent them from generating the upward hip drive needed for the bridge. Spread your knees wide to create maximum base against the rotational force. Keep your head tight to their body rather than posturing up, as the bridge is most effective when your weight is high. If you feel the bridge initiate, immediately flatten your hips and sprawl your legs back to absorb the force."

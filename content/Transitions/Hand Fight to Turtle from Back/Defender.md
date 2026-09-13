@@ -56,7 +56,7 @@ description: "Learn to counter hand fighting escapes when you have back control.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating a hand fight to turtle escape rather than simply defending the choke?",
+      "name": "Earliest cue that the back-bottom player is hand fighting to escape, not just defending the choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when your opponent establishes a deliberate two-on-one grip on your choking arm with controlled pulling mechanics rather than panicked single-hand neck defense. Passive choke defense typically involves tucking the chin and using both hands to block your arm from getting under the chin. Active escape initiation shows as systematic grip breaking where the opponent grabs your wrist with both hands and begins peeling it away from their neck with purpose and control."
@@ -72,7 +72,7 @@ description: "Learn to counter hand fighting escapes when you have back control.
     },
     {
       "@type": "Question",
-      "name": "How should you modify your grip strategy when your opponent consistently strips your seatbelt using two-on-one fighting?",
+      "name": "They keep stripping your seat belt with two-on-one — how do you modify your grip strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch grip configurations to change the problem. If your standard seatbelt is being stripped, transition to a chinstrap grip where your choking hand controls under the chin rather than around the neck. Alternatively, switch to a short choke grip that is harder to strip with two-on-one mechanics. You can also transition to gift wrap control by threading your arm through theirs when they reach for your wrist, converting their stripping attempt into an arm trap that improves your control."

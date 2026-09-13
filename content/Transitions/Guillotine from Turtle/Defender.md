@@ -56,7 +56,7 @@ description: "How to defend against Guillotine from Turtle in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a guillotine from turtle is being attempted, and what should your immediate response be?",
+      "name": "What is the earliest cue of a guillotine from turtle, and your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker's weight shifting from behind you toward your head and shoulder area, with their chest pressure migrating from your lower back to your upper back. Your immediate response must be to aggressively tuck your chin to your chest and rotate your near shoulder toward where you feel the arm threading. This pre-emptive chin tuck and rotation must become a trained reflex, not a conscious decision, because the window for effective prevention is only 1-2 seconds."
@@ -64,7 +64,7 @@ description: "How to defend against Guillotine from Turtle in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is the two-on-one grip strip the preferred hand fighting technique against the guillotine setup, and what is the correct timing?",
+      "name": "Why use a two-on-one strip against the guillotine setup, and when exactly?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Two-on-one is preferred because a single hand rarely generates sufficient force to break a committed guillotine grip, while two hands on the choking wrist creates a decisive mechanical advantage. The correct timing is after the attacker threads their arm around your neck but before they connect their hands together to consolidate the grip. This window is typically 2-4 seconds. Both hands grab the choking wrist and pull it forward and away from your neck while you simultaneously drive your head through to the opposite side."
@@ -72,7 +72,7 @@ description: "How to defend against Guillotine from Turtle in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a shallow guillotine grip and is attempting to stand for the finish. What is the correct defensive sequence?",
+      "name": "They have a shallow guillotine and are standing to finish—what is your defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a shallow grip that has not achieved deep placement across the throat, their standing creates an opportunity rather than increasing danger. As they begin to stand, immediately hand fight the choking wrist with both hands while stepping your near leg forward to base out. Drive your head into their chest to prevent them from creating the arching pressure needed to finish. If you can break their posture by driving forward into them as they stand, the shallow grip will fail and you can recover to a neutral standing position or pull them into your guard."
@@ -80,7 +80,7 @@ description: "How to defend against Guillotine from Turtle in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "When is a granby roll escape appropriate against the guillotine from turtle, and when does it become dangerous?",
+      "name": "When is a granby roll right against the turtle guillotine, and when is it dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The granby roll is appropriate when the attacker's weight is committed forward and high on your back during the base-breaking phase, because their forward commitment prevents them from following your rotation. It becomes dangerous when the attacker has a deep, consolidated grip and is not committed forward, because rolling while a tight grip is locked feeds your neck directly into the choke. The test is whether you feel their weight driving forward or whether they are sitting back and squeezing. Forward weight means roll; sitting back means hand fight the grip instead."
@@ -88,7 +88,7 @@ description: "How to defend against Guillotine from Turtle in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "After successfully defending the guillotine attempt and returning to turtle, what should your immediate positional priority be?",
+      "name": "After defending the guillotine and returning to turtle, what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority after defending the guillotine is to begin an active escape from turtle, not to rest in the defensive shell. The attacker will immediately attempt a secondary attack such as back take, crucifix entry, or re-attempt the guillotine from a different angle. You should use the momentum from your successful defense to chain directly into a guard recovery technique such as granby roll to closed guard, sit-through to half guard, or technical standup. Remaining static in turtle after defending the guillotine gives the attacker time to reset and attack again."

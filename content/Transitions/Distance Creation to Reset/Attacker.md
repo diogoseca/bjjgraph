@@ -92,7 +92,7 @@ description: "How to execute Distance Creation to Reset in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has worm guard with strong lapel grip around your lead knee—what is the clearing sequence before you can safely backstep?",
+      "name": "What must you clear from a worm guard knee wrap, in order, before you can safely backstep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First control their gripping hand with wrist or sleeve grip. Establish upright posture using hip extension, not arm pulling. Use your free hand to technically unwind the lapel fabric over your knee using rotational unwinding rather than forceful pulling. Only after the wrap is cleared should you execute the explosive backstep."

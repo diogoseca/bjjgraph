@@ -74,7 +74,7 @@ description: "Learn to execute the knee slice pass from seated guard in BJJ. Ste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What grip combination provides the most reliable control for initiating a knee slice from seated guard?",
+      "name": "Which grip combination best controls a seated guard for a knee slice entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A collar grip with the lead hand combined with a same-side pants grip at the knee provides the most reliable control. The collar grip prevents the opponent from sitting up, standing, or creating distance, while the pants grip controls their primary defensive tool. This combination allows you to simultaneously restrict their mobility and create the angle necessary for the knee slice entry. Some practitioners prefer a sleeve grip, but the collar provides superior posture control against the seated base."
@@ -114,7 +114,7 @@ description: "Learn to execute the knee slice pass from seated guard in BJJ. Ste
     },
     {
       "@type": "Question",
-      "name": "Your knee slice gets stuck in half guard with the opponent fighting for the underhook - what is your immediate priority?",
+      "name": "Your knee slice stalls in half guard as they fight for the underhook: what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is establishing or maintaining the crossface to prevent the opponent from completing the underhook. If they already have the underhook, apply a whizzer on their underhook arm while driving shoulder pressure to flatten them back to the mat. Do not try to extract your trapped leg while they have an active underhook because this exposes your back to a back take. Neutralize their upper body offense first through crossface and pressure, then work on extracting the leg through standard half guard passing mechanics."

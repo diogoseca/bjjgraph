@@ -58,7 +58,7 @@ description: "How to defend against Spine Lock in BJJ. Recognition, escape paths
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is bridging into spine lock pressure particularly dangerous compared to bridging against other submissions?",
+      "name": "Why is bridging into spine lock pressure more dangerous than bridging against other submissions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridging into spine lock compression drives the lumbar vertebrae directly into the attacker's hip pressure, multiplying the force on the intervertebral discs and spinal structures. Unlike bridging against an armbar where the movement creates space and angles, bridging into spinal compression increases the hyperextension that the submission depends on. The bridge essentially assists the attacker's finishing mechanics rather than counteracting them, potentially causing acute disc injury."
@@ -66,7 +66,7 @@ description: "How to defend against Spine Lock in BJJ. Recognition, escape paths
     },
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that distinguishes a spine lock attempt from standard Truck control?",
+      "name": "What is the earliest cue that Truck control is becoming a spine lock attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker adjusting their hip position to sit higher and more centrally over your lumbar spine while adopting an upright chest posture. In standard Truck control, the attacker's weight is distributed more laterally for torque. When they shift to compression alignment, you feel concentrated downward pressure on the lower back rather than lateral rotational force. Recognizing this shift before full weight commitment provides the largest window for effective defense."
@@ -74,7 +74,7 @@ description: "How to defend against Spine Lock in BJJ. Recognition, escape paths
     },
     {
       "@type": "Question",
-      "name": "Your attacker begins driving their hips into your lower back from Truck - what is your immediate three-step defensive response?",
+      "name": "They drive hips into your lower back from Truck: what is your three-step defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, frame both hands against the attacker's hip bones to prevent them from fully settling their weight onto your lumbar spine. Second, execute a lateral hip shift to move your lower back off their compression centerline, forcing them to readjust. Third, immediately begin working leg extraction from the Truck hooks while their focus is split between maintaining compression alignment and leg control. This three-step sequence must happen within 2-3 seconds before compression is fully established."

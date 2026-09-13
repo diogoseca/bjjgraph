@@ -80,7 +80,7 @@ description: "Defend against the Rodeo Ride to Turtle transition in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your escape attempt during the grip transition fails and the attacker reestablishes control. What should your next priority be?",
+      "name": "Your escape fails during the grip transition and they regain control: what is your next priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately return to a strong defensive turtle structure with elbows tight, chin tucked, and base wide. Do not continue scrambling from a compromised position, as this often makes things worse. Reset your defensive posture and begin monitoring for the next opportunity. The attacker may attempt another grip adjustment or begin attacking from their new position, both of which can create new escape windows. Preserve energy for the next calculated attempt rather than expending it on a continued scramble from a losing position."
@@ -88,7 +88,7 @@ description: "Defend against the Rodeo Ride to Turtle transition in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "After successfully escaping to half guard during the transition, what should your immediate priorities be?",
+      "name": "After escaping the Rodeo Ride transition to half guard, what are your immediate priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish a strong half guard structure with an active knee shield or underhook before the former attacker can establish a dominant passing position. The transition from turtle escape to half guard bottom creates a brief moment where neither player has consolidated their position. Use this window to secure the underhook on the trapped leg side, establish a knee shield frame, and get onto your side rather than remaining flat on your back. Your opponent is transitioning from a back attack mindset to a passing mindset, and this mental shift creates a gap you can exploit by immediately threatening sweeps or guard recovery to full guard."

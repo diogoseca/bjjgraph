@@ -80,7 +80,7 @@ description: "Master executing the Sweep from Electric Chair in BJJ. Step-by-ste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical grip adjustment if your underhook is too shallow to generate adequate sweep leverage?",
+      "name": "Electric chair bottom: what grip fix is needed if your underhook is too shallow to sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must release and re-establish the underhook deeper across opponent's back, reaching to their far lat or belt. A shallow underhook provides insufficient leverage and allows the opponent to posture away. Temporarily increase lockdown tension to maintain positional control while you re-set the underhook depth. Never attempt the sweep with a shallow underhook."
@@ -88,7 +88,7 @@ description: "Master executing the Sweep from Electric Chair in BJJ. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far hand on the mat to prevent the sweep roll - how do you adjust your attack?",
+      "name": "Electric chair bottom: they post their far hand to stop the roll—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase the splitting pressure through additional hip extension and stronger ankle pull. Their posting hand removes one arm from defending the submission, making the Banana Split finish more available. If they maintain the post, attack the submission to force them to retract the hand for defense, then immediately convert the weight shift into the sweep."
@@ -120,7 +120,7 @@ description: "Master executing the Sweep from Electric Chair in BJJ. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "If your opponent successfully defends the sweep but you maintain the Electric Chair position, what should your follow-up strategy be?",
+      "name": "Your electric chair sweep is defended but you keep the position—what is your follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain the Electric Chair position and re-apply splitting pressure to re-establish the dilemma. If the sweep was defended because your opponent based out, increase submission pressure on the Banana Split. If they defended by driving forward, transition to Old School sweep using their forward momentum. If they begin extracting the leg, flow to Deep Half or Dogfight. Never abandon the position after one failed attempt."

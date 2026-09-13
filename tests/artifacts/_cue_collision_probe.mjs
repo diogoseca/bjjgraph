@@ -19,9 +19,9 @@ const BASE = process.env.SHOOT_BASE || "http://localhost:8080"
 const AT = "/Positions/Mount/Top"
 const VPS = [
   { tag: "1440x900", width: 1440, height: 900 },
-  { tag: "1440x900 legacy", width: 1440, height: 900, q: "?dual=legacy" },
+  { tag: "1440x900 legacy", width: 1440, height: 900, noPairs: true },
   { tag: "390x844", width: 390, height: 844, isMobile: true, hasTouch: true },
-  { tag: "390x844 legacy", width: 390, height: 844, isMobile: true, hasTouch: true, q: "?dual=legacy" },
+  { tag: "390x844 legacy", width: 390, height: 844, isMobile: true, hasTouch: true, noPairs: true },
 ]
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
@@ -42,6 +42,9 @@ for (const vp of VPS) {
       hasTouch: !!vp.hasTouch,
     })
   ).newPage()
+  // v1.158.1: the pre-split graph moved off `?dual=legacy` onto a flag set before boot; the old
+  // param would now be ignored and this probe would silently measure the paired graph twice.
+  if (vp.noPairs) await page.addInitScript(() => { window.__NEURAL_NO_PAIRS__ = true })
   await page.goto(`${BASE}${AT}${vp.q || ""}`, { waitUntil: "load" })
   await sleep(9000)
   for (let i = 0; i < 6; i++) {

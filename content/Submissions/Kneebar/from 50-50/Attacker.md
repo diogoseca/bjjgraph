@@ -76,7 +76,7 @@ description: "How to execute Kneebar from 50-50 in BJJ. Attacking perspective wi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum time you should take to apply finishing pressure on a kneebar during training, and why?",
+      "name": "How slowly should you apply finishing pressure on a kneebar in training, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Minimum 5-7 seconds of progressive pressure during training. This slow application allows your training partner ample time to recognize the danger and tap safely. Explosive or fast applications can cause severe knee ligament damage before the person can react, potentially causing ACL/MCL tears that require surgery and 9-12 months recovery. Competition speed and training speed are different—partner safety always takes priority in the training room."
@@ -92,7 +92,7 @@ description: "How to execute Kneebar from 50-50 in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What anatomical structures are targeted by the kneebar and what type of damage occurs when the submission is completed?",
+      "name": "What structures does the kneebar target, and what damage occurs when it is completed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kneebar targets the knee joint through hyperextension, primarily stressing the posterior structures. The ACL (anterior cruciate ligament) and PCL (posterior cruciate ligament) resist this hyperextension and are at greatest risk of rupture. The MCL and LCL (medial and lateral collateral ligaments) provide secondary stability and can tear under rotational stress. The meniscus can also be damaged. When the submission is fully applied, the knee is forced to bend backward beyond its natural range, causing ligament tearing, cartilage damage, or complete joint destruction."
@@ -108,7 +108,7 @@ description: "How to execute Kneebar from 50-50 in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Why is controlling opponent's foot in your armpit essential for the kneebar, and what happens if you lose this control?",
+      "name": "In the 50-50 kneebar, why clamp their foot in your armpit, and what if you lose it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlling the foot in your armpit prevents opponent from rotating their knee and escaping the leg entanglement. The foot control acts as an anchor—when their foot is secured with toes pointing to your back, they cannot turn their knee inward or outward to relieve pressure. If you lose foot control, opponent can immediately rotate their leg, escape the position entirely, and potentially reverse to attack your exposed leg. The armpit grip should be treated like a seatbelt—clamped tight with elbow and forearm glued to your ribs throughout the entire submission sequence."
@@ -116,7 +116,7 @@ description: "How to execute Kneebar from 50-50 in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up and sit toward you during your kneebar attempt - what adjustment prevents this escape?",
+      "name": "During your 50-50 kneebar, they posture up and sit toward you: what adjustment stops this escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use your grip hand (not controlling the foot) to push down on their hip, belt, or far leg to drive them back flat. If they are already partially upright, you can also drive your top leg (the one over their thigh) downward forcefully while simultaneously pulling their foot deeper into your armpit. This creates a leverage point that forces them back down. If they fully establish seated posture facing you, the kneebar is likely lost—transition immediately to a heel hook (if legal) by rotating their exposed heel toward you, or reset the position entirely."

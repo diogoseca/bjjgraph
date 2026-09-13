@@ -381,7 +381,7 @@
     },
     "flashcards": [
       {
-        "question": "What is the ideal weight distribution ratio between the posted knee and planted foot in Combat Base, and why?",
+        "question": "In Combat Base, how is weight split between posted knee and planted foot, and why?",
         "answer": "The ideal distribution is approximately 60-40 between the posted knee and planted foot, with the posted knee bearing slightly more weight to maintain base stability. This ratio allows for quick weight shifts when initiating passes or defending sweeps and should be adjusted dynamically based on opponent reactions and chosen passing direction.",
         "answer_line": "60-40, knee slightly heavier",
         "distractors": {
@@ -409,7 +409,7 @@
         }
       },
       {
-        "question": "Your opponent begins bringing their knees together and reaching for your collar to close their guard - what immediate adjustments do you make?",
+        "question": "Your opponent brings their knees together and reaches for your collar — what do you adjust?",
         "answer": "Widen your base by stepping the planted foot further out to the side, making it physically difficult for the opponent to lock ankles. Simultaneously drive your posted knee into the opponent's tailbone area while posting both hands on their hip bones to create a frame preventing guard closure. Break any collar grip by circling your wrist and peeling their fingers before they establish control.",
         "answer_line": "Widen stance, block guard closing",
         "distractors": {
@@ -437,7 +437,7 @@
         }
       },
       {
-        "question": "Your opponent successfully frames against your shoulders and extends their legs to push your hips away - how do you maintain position?",
+        "question": "Your opponent frames on your shoulders and pushes your hips away — how do you hold position?",
         "answer": "Rather than fighting frames directly, use the planted foot to circle laterally while maintaining upright posture. Strip one frame at a time by swimming your arms inside their wrists. Once you clear one frame, immediately close distance on that side by driving the posted knee forward. If frames are too strong, stand up from combat base to break grips from higher elevation before re-establishing position with new angles.",
         "answer_line": "Circle with foot, clear frames",
         "distractors": {
@@ -451,7 +451,7 @@
         }
       },
       {
-        "question": "Your opponent threads a De La Riva hook around your lead leg while in Combat Base - what is your recovery sequence?",
+        "question": "Your opponent gets a De La Riva hook on your lead leg in Combat Base — how do you clear it?",
         "answer": "Avoid stepping back, which deepens the hook. Instead, drive the hooked knee forward toward the mat while circling the foot inward to strip the hook. Use your same-side hand to push the opponent's hooking foot off your hip while maintaining pants or sleeve control with the other hand. If the hook is deep, switch your lead leg by stepping over to the opposite combat base stance, effectively removing the hook by changing which leg is posted.",
         "answer_line": "Drive knee forward, strip hook",
         "distractors": {
@@ -465,7 +465,7 @@
         }
       },
       {
-        "question": "How does Combat Base compare to other passing positions in terms of energy expenditure, and what practices conserve energy?",
+        "question": "How energy-efficient is Combat Base versus other passing positions, and how do you conserve energy?",
         "answer": "Combat Base is one of the most energy-efficient passing positions because the posted knee and flat foot create a stable structure requiring minimal muscular effort to maintain. To conserve energy, avoid constant forward pressure that can be redirected. Use intermittent pressure bursts combined with angle changes. Let gravity and skeletal alignment do the work rather than muscular effort, and focus on structural integrity over active resistance against pulling forces.",
         "answer_line": "Efficient - structure over muscle",
         "distractors": {
@@ -479,7 +479,7 @@
         }
       },
       {
-        "question": "Your opponent hits a butterfly hook elevation that lifts your posted knee off the mat - how do you recover Combat Base?",
+        "question": "A butterfly hook elevates your posted knee off the mat — how do you recover Combat Base?",
         "answer": "Immediately post the planted foot wider and drop your hips lower to create a new base point, preventing a full sweep. Use the hand on the elevated side to post on the mat for emergency stability. As you regain control, re-establish the posted knee on the mat by turning your hips toward the hooking side and driving the knee back down with forward hip pressure. Once the knee returns to the mat, reset hand positions to control the opponent's hooks before they attempt another elevation.",
         "answer_line": "Widen foot, drop hips, re-post knee",
         "distractors": {
@@ -777,7 +777,7 @@
     },
     "flashcards": [
       {
-        "question": "What should be your very first priority the moment a passer settles into combat base inside your guard?",
+        "question": "The passer settles into combat base inside your guard — what is your first priority?",
         "answer": "Contest grips immediately. Before the passer can secure the collar, sleeve, and pant grips needed to load your weight and choose a passing lane, break and redirect their hands while keeping at least one frame live on their shoulder or hip. Grip fighting at this earliest stage is far cheaper than escaping a settled crossface, and it denies the passer the control that makes every pass possible.",
         "answer_line": "Contest grips immediately",
         "distractors": {
@@ -791,7 +791,7 @@
         }
       },
       {
-        "question": "Why is the diagonal from the posted knee to the planted foot the line you should attack when sweeping combat base?",
+        "question": "Why is the posted-knee-to-planted-foot diagonal the line to attack when sweeping combat base?",
         "answer": "Combat base is built for forward and backward stability through its triangulated base, but it has minimal resistance to lateral force running diagonally from the posted knee toward the planted foot. Neither support can effectively resist force along that line. By elevating a hook under the posted knee while dragging the passer's upper body toward the planted-foot side, you topple them along their weakest structural axis with minimal strength.",
         "answer_line": "Attack knee-to-foot diagonal",
         "distractors": {
@@ -805,7 +805,7 @@
         }
       },
       {
-        "question": "Your opponent drives a heavy crossface and tries to flatten your shoulders to the mat - what is your recovery sequence?",
+        "question": "The passer crossfaces hard and tries to flatten your shoulders — what is your recovery sequence?",
         "answer": "Do not fight the crossface with raw strength. Turn your face toward the crossface to relieve jaw pressure, shoot your near arm under their chin to build a new frame, and hip escape away from the direction their weight is committed. The space this creates lets you insert a knee shield across their hip, then reattach your far leg to close guard or settle into knee shield half guard before they can re-pressure.",
         "answer_line": "Turn into it, frame, hip escape",
         "distractors": {
@@ -833,7 +833,7 @@
         }
       },
       {
-        "question": "The passer commits to a knee slice and starts cutting the knee across your thigh - how do you respond?",
+        "question": "The passer commits to a knee slice across your thigh — how do you respond?",
         "answer": "Abandon any attempt at full closed guard and turn into the cut. Insert your bottom knee as a shield across their hip to stop the slicing knee, and fight hard for the near-side underhook to prevent the crossface and stop being flattened. From knee shield half guard you have a stable defensive base with sweep and recovery threats, which is a far better outcome than conceding the pass to side control.",
         "answer_line": "Knee shield, fight underhook",
         "distractors": {
@@ -921,7 +921,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What is the defining configuration that distinguishes Combat Base from other kneeling guard-passing stances?",
+      "question": "What configuration distinguishes Combat Base from other kneeling guard-passing stances?",
       "answer": "Combat Base is defined by an asymmetric stance in which one knee is posted on the mat while the opposite foot is planted flat, with the top player kneeling inside the bottom player's open guard. This deliberate asymmetry trades the pure lateral stability of a double-knee base for forward mobility, letting the top player circle, step, and drive pressure in one direction while staying low. The planted-foot knee is raised near the bottom player's hip, and the posted knee anchors the structure to the mat. It is the boundary state between merely being inside the guard and actively working to pass it.",
       "answer_line": "One knee posted, one foot planted",
       "distractors": {
@@ -935,7 +935,7 @@
       }
     },
     {
-      "question": "Which three structural contact points form the triangulated base that gives Combat Base its stability?",
+      "question": "Which three contact points form the triangulated base of Combat Base?",
       "answer": "The three points are the posted knee and shin on the mat, the planted foot flat on the mat, and the top player's hips positioned above the bottom player's hip line. Together these form a geometric triangle that resists forces from multiple directions and keeps the center of gravity low. Because the base is a triangle rather than a square, it is strongest against forward and backward loading and comparatively weak along one diagonal axis. This structure is what both players read: the top player to maintain it, the bottom player to attack it.",
       "answer_line": "Knee, foot, hips over hip line",
       "distractors": {
@@ -963,7 +963,7 @@
       }
     },
     {
-      "question": "How does dynamic weight distribution between the posted knee and planted foot govern the central tension of Combat Base?",
+      "question": "How does shifting weight between posted knee and planted foot create Combat Base's central tension?",
       "answer": "Weight is shared between the posted knee and planted foot in roughly a 60-40 split, with the balance shifting constantly based on intended direction of movement and the opponent's reactions. This dynamic loading is what lets the top player drive pressure forward to pass without becoming fixed and off-balanceable. The same forward commitment that powers a pass, however, is exactly the loaded weight the bottom player captures to reverse the position. Combat Base therefore lives on the tension that the weight enabling advancement is the weight that enables the sweep.",
       "answer_line": "Same weight fuels pass and sweep",
       "distractors": {
@@ -977,7 +977,7 @@
       }
     },
     {
-      "question": "What role does the planted foot play in the mobility that separates Combat Base from a static passing posture?",
+      "question": "What role does the planted foot play in the mobility that defines Combat Base?",
       "answer": "The flat planted foot is the engine of Combat Base's mobility, allowing the top player to circle, step, and generate new angles while the posted knee anchors the structure. Because the foot is planted flat rather than on the ball of the foot, it provides maximum surface contact for explosive movement in any direction and for bracing against sweeps. This is why remaining static in Combat Base surrenders its core advantage: the position is meant to circle and pressure dynamically, not to sit still. The interplay of a mobile foot and an anchored knee is what makes it a launching platform rather than a resting place.",
       "answer_line": "Foot drives circling and angles",
       "distractors": {
@@ -991,7 +991,7 @@
       }
     },
     {
-      "question": "Why is posture, specifically head-above-hips alignment, a shared structural requirement of Combat Base rather than a stylistic preference?",
+      "question": "Why is head-above-hips posture a structural requirement of Combat Base rather than a preference?",
       "answer": "Keeping the spine upright with the head positioned above the hips prevents forward collapse and preserves the structural integrity of the triangulated base. When the head drops forward, weight loads over the bottom player's chest, which both destabilizes the base and exposes the top player to being broken down and pulled into attacks. The bottom player's core offensive job is precisely to break this posture, while the top player's is to preserve it. Posture is therefore the pivot on which the entire positional battle turns.",
       "answer_line": "Upright spine, head over hips",
       "distractors": {
@@ -1005,7 +1005,7 @@
       }
     },
     {
-      "question": "How does Combat Base differ from Headquarters position despite both being kneeling passing platforms?",
+      "question": "How does Combat Base differ from Headquarters, given both are kneeling passing platforms?",
       "answer": "Both share the asymmetric kneeling structure and the same passing principles, but Headquarters commits the knee to a deeper, more locked-in position over the opponent's leg for tighter control. Combat Base keeps a shallower, more mobile stance that prioritizes circling and multi-directional passing options over committed control. Headquarters is therefore a positional advancement reached from Combat Base without completing a full pass, trading some mobility for greater control of the opponent's legs. The transition between them is a deepening of the same platform rather than a change of category.",
       "answer_line": "Headquarters is deeper, more control",
       "distractors": {
@@ -1019,7 +1019,7 @@
       }
     },
     {
-      "question": "Why is the grip-fighting exchange in Combat Base characterized as continuous and mutual rather than a one-time setup?",
+      "question": "Why is grip fighting in Combat Base continuous and mutual rather than a one-time setup?",
       "answer": "Combat Base is a contested, time-sensitive neutral position where whoever wins the grip battle controls the exchange, so both players fight grips continuously rather than establishing them once. The top player needs grips on the hips, legs, or gi to manage distance and load weight for a pass, while the bottom player must deny exactly those grips to prevent being loaded and passed. Because the position is not a resting place, any lull lets the other player consolidate their control. Relentless, reciprocal grip fighting is thus a defining dynamic of the position for both sides.",
       "answer_line": "Both fight grips continuously",
       "distractors": {

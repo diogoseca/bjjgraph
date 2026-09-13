@@ -56,7 +56,7 @@ description: "Master defending against guard recovery from double unders. Comple
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What early indicators signal that the bottom player is about to attempt guard recovery from double unders?",
+      "name": "What early cues signal the bottom player is about to attempt recovery from double unders?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the bottom player's hands moving to your jawline to establish frames, their hips beginning to turn to one side rather than staying flat, increased leg resistance as they create slack for extraction, and their breathing pattern shifting to explosive preparation. Recognizing these cues within the first one to two seconds allows you to preemptively increase pressure before the recovery sequence develops fully."
@@ -64,7 +64,7 @@ description: "Master defending against guard recovery from double unders. Comple
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your pressure response when the bottom player establishes strong forearm frames against your face?",
+      "name": "How do you adjust pressure when they establish strong forearm frames on your face?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your forehead into their forearms while simultaneously walking your knees forward and increasing chest-to-thigh pressure. The frames cannot overcome your full body weight if you keep advancing progressively. Avoid the instinct to pull your head back, which creates the separation they need. Lower your level and drive with your hips while maintaining tight underhook grip beneath their legs."
@@ -72,7 +72,7 @@ description: "Master defending against guard recovery from double unders. Comple
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully frees one leg during their guard recovery attempt - what immediate response prevents full recovery?",
+      "name": "They free one leg during their recovery from double unders—what stops full recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately shift your remaining underhook grip to control the freed leg at the knee or ankle while maintaining your underhook on the other side. Transition from double underhook control to an over-under or leg weave configuration which maintains passing pressure even with one leg freed. Drive forward on the still-controlled side to prevent them from establishing a complete guard structure with the freed leg acting as a barrier."
@@ -80,7 +80,7 @@ description: "Master defending against guard recovery from double unders. Comple
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to advance your pass rather than continuing to fight for double unders maintenance against recovery attempts?",
+      "name": "When should you advance the pass instead of fighting to keep double unders?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Advance the pass when the bottom player's escape attempt creates momentary exhaustion or when their frames collapse after a failed recovery attempt. The recovery window between their explosive escape efforts presents ideal passing opportunities because they briefly relax from the effort. Walk your knees past their hips during this fatigue phase and immediately transition to side control establishment before they can mount another recovery attempt."

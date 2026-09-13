@@ -74,7 +74,7 @@ description: "How to defend the Loop Choke from Side Control in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Why is stripping the lapel grip more effective than stripping the deep collar grip as a defensive strategy from side control bottom?",
+      "name": "From side control bottom, why strip the lapel grip instead of the deep collar grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The near-side lapel grip is physically closer to your hands and requires less arm extension to reach, keeping your elbows tighter to your body and reducing exposure to arm attacks. The deep collar grip is buried behind your neck where you have extremely poor mechanical leverage—attempting to strip it requires reaching behind your own head with an extended arm, which is both mechanically weak and dangerously exposing. Since the loop choke requires both grips working in opposition to create the choking mechanism, breaking either grip is sufficient to defeat the choke. Targeting the easier, more accessible grip achieves the same result with far less risk."
@@ -82,7 +82,7 @@ description: "How to defend the Loop Choke from Side Control in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How does the attacker's release of hip control during the loop choke setup create the best escape window for the defender?",
+      "name": "How does the attacker releasing hip control during the loop choke setup open your best escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker releases their hip-control hand to grab the near-side lapel, both of their hands are momentarily occupied with collar and lapel work rather than maintaining side control structure. This creates a brief window where their base is significantly compromised—no posting hand, no hip block, and both arms committed above your torso. This is the optimal time for an explosive bridge or hip escape because the attacker cannot post to prevent the bridge and cannot block your hip movement to prevent guard recovery. Recognizing this specific moment and having a rehearsed escape response ready is the highest-percentage defensive strategy against the loop choke from side control."

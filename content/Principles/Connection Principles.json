@@ -123,6 +123,11 @@
       "principle_name": "Collar Control",
       "relationship_type": "Extension",
       "description": "Collar Control applies connection principles to specific collar grips, using lapel and collar connections to dominate posture and set up attacks through targeted connection management"
+    },
+    {
+      "principle_name": "Limb Isolation",
+      "relationship_type": "Complementary",
+      "description": "Isolation removes useful supporting connections; defense rebuilds those connections."
     }
   ],
   "application_contexts": [
@@ -412,6 +417,11 @@
       "name": "Defensive Concepts",
       "content_type": "Principle",
       "relationship": "Defensive counterpart encompassing space-preserving connections and escape frameworks"
+    },
+    {
+      "name": "Limb Isolation",
+      "content_type": "Principle",
+      "relationship": "Isolation removes useful supporting connections; defense rebuilds those connections."
     }
   ],
   "flashcards": [
@@ -584,5 +594,9 @@
       "duration": 1136,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Connection Principles can guide how any position, transition, or submission is performed, prevented, or trained. Its application includes top, bottom, attacker, and defender."
+  }
 }

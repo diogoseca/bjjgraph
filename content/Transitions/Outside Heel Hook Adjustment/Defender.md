@@ -56,7 +56,7 @@ description: "How to defend against Outside Heel Hook Adjustment in BJJ. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you recognize the Outside Heel Hook Adjustment beginning?",
+      "name": "What is the most important defensive action as the outside heel hook adjustment begins?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish and maintain maximum dorsiflexion by pulling your toes hard toward your shin. This hides the heel bone from the attacker's cupping grip and is the foundation upon which all other defenses are built. Without consistent boot defense, no amount of grip fighting or escape attempts will prevent the submission."
@@ -72,7 +72,7 @@ description: "How to defend against Outside Heel Hook Adjustment in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Why is pulling your knee toward your chest a dangerous defensive reaction during a heel hook attempt?",
+      "name": "Why is pulling your knee to your chest dangerous during a heel hook attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling the knee toward your chest feeds the heel deeper into the attacker's grip hand and shortens the lever arm, which actually increases the rotational leverage available for the heel hook finish. Instead, rotate the knee outward away from the attacker's center line, which moves the heel away from their grip and reduces the angle available for rotational torque on the knee ligaments."
@@ -80,7 +80,7 @@ description: "How to defend against Outside Heel Hook Adjustment in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your attacker has established the figure-four grip on your heel but has not yet begun the finishing rotation—what are your options?",
+      "name": "They have the figure-four on your heel but haven't rotated yet: what are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the figure-four grip directly by wedging both hands between their wrists to break the lock. Simultaneously rotate your knee outward to reduce finishing angle. If you cannot break the grip within 2-3 seconds, strongly consider tapping—heel hooks damage knee ligaments before pain signals arrive, and the finishing rotation from an established figure-four is extremely difficult to survive."

@@ -56,7 +56,7 @@ description: "Complete guide to defending against Squid Guard passes as the bott
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "When is the optimal moment to initiate a back take attempt against a passer clearing your Squid Guard?",
+      "name": "From squid guard, when is the best moment to attack the back as they clear your lapel?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal moment is when the passer commits a hand to the lapel strip and leans their weight forward or to one side. This commitment narrows their base and removes one hand from defensive positioning, creating the postural compromise needed for a successful inversion. Attempting the back take before this commitment means the passer has full defensive capacity to sprawl and stuff your rotation."
@@ -72,7 +72,7 @@ description: "Complete guide to defending against Squid Guard passes as the bott
     },
     {
       "@type": "Question",
-      "name": "How does the threading hook function differently when the lapel is intact versus when it has been stripped?",
+      "name": "How does your squid guard threading hook function differently once the lapel is stripped?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the lapel intact, the threading hook works in combination with the fabric tension to create compound control that restricts the passer's mobility from multiple angles simultaneously. Without the lapel, the threading hook alone provides only single-directional control similar to a standard De La Riva hook. This reduced control means the passer can address the hook with standard leg pummeling techniques. You must compensate by increasing hook activity and establishing stronger upper body grips."
@@ -80,7 +80,7 @@ description: "Complete guide to defending against Squid Guard passes as the bott
     },
     {
       "@type": "Question",
-      "name": "What visual cue tells you the passer is about to commit to a directional pass after clearing your lapel?",
+      "name": "What cue shows the passer is committing to a directional pass after clearing your squid lapel?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for the passer's hips to lower and shift to one side while their chest angle changes from perpendicular to angled toward their chosen passing direction. Their hands will transition from grip fighting or lapel stripping to controlling your legs or hips for directional passing. This weight shift and hand transition is the critical window where you must either re-establish guard control or commit to a counter-attack, because once they begin the directional pass, defensive options narrow rapidly."

@@ -80,7 +80,7 @@ description: "Execute the leg extraction from truck to recover turtle position. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical mechanical difference between a successful and unsuccessful leg extraction attempt?",
+      "name": "Mechanically, what separates a successful truck leg extraction from a failed one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Successful extraction uses circular and rotational movement—ankle corkscrew, outward knee drive, and hip rotation—to spiral the leg through gaps in the opponent's figure-four configuration. Unsuccessful attempts pull the leg straight backward, fighting directly against the strongest axis of the opponent's control where their hooks have maximum mechanical advantage. The spiral changes resistance angles progressively while the linear pull maintains constant maximum resistance."
@@ -112,7 +112,7 @@ description: "Execute the leg extraction from truck to recover turtle position. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent attacks a calf slicer during your leg extraction attempt—what is your immediate response?",
+      "name": "Your opponent attacks a calf slicer during your leg extraction from the truck — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately bend your knee sharply to reduce compression on the joint and prevent injury. Then assess whether the calf slicer attack has changed the geometry of the figure-four in your favor—the opponent extending your leg for the slicer often loosens the hook configuration around the ankle. If so, accelerate extraction through the new angle. If compression is significant and increasing, tap immediately to preserve training longevity rather than fighting through a locked submission."

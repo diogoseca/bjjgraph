@@ -354,7 +354,7 @@
         }
       },
       {
-        "question": "Your opponent starts counter-rotating during your finishing sequence—what adjustment prevents escape?",
+        "question": "They counter-rotate during your finish in ushiro ashi; what adjustment stops the escape?",
         "answer": "When the opponent counter-rotates, immediately tighten your figure-four leg squeeze to maintain entanglement integrity and follow their hip rotation with your outside leg. If they rotate toward you, increase knee squeeze pressure to prevent them from clearing. If they rotate away, evaluate whether to follow to back control or transition to saddle. Only continue the heel hook if your grip remains solid and the rotation is not degrading your finishing angle—otherwise the positional transition offers higher value than a deteriorating submission attempt.",
         "safety_critical": false,
         "answer_line": "Tighten figure-four, follow hips",
@@ -414,7 +414,7 @@
         }
       },
       {
-        "question": "How does the point of no escape differ for the defender in ushiro versus standard outside ashi-garami?",
+        "question": "How does the defender's point of no escape differ in ushiro versus standard outside ashi?",
         "answer": "In ushiro ashi-garami, the point of no escape arrives earlier because the defender has already committed energy to their inversion attempt, leaving fewer defensive resources available. Once the attacker secures the figure-four grip on the heel with hips aligned along the leg axis and leg entanglement tight, the defender's options narrow dramatically. In standard outside ashi, the defender can still attempt boot defense, rolling, or posturing away. In ushiro, the inverted position limits these options, making early grip prevention the critical defensive window.",
         "safety_critical": false,
         "answer_line": "Earlier - defender already spent",
@@ -615,7 +615,7 @@
         }
       },
       {
-        "question": "When should you accept turtle position rather than continuing to fight the leg extraction from ushiro?",
+        "question": "When should you accept turtle instead of fighting leg extraction from ushiro ashi?",
         "answer": "Accept turtle when the attacker's entanglement control is too deep to safely extract your leg, when their grip fighting is progressing toward heel access faster than your extraction is progressing, when you have been defending for more than five seconds without meaningful escape progress, or when your energy is depleting from repeated extraction attempts. Turtle is a significantly safer transitional position than remaining in deep ushiro entanglement under active submission threat.",
         "safety_critical": false,
         "answer_line": "Extraction stalled or energy low",

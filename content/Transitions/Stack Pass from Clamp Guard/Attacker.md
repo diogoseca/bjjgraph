@@ -90,7 +90,7 @@ description: "Master executing the Stack Pass from Clamp Guard in BJJ. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent frames against your shoulders and pushes you away as you initiate the stack drive — how do you adjust?",
+      "name": "They frame on your shoulders as you start the stack drive from clamp guard—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drop your driving level so your chest targets the opponent's thigh-to-hip junction rather than their upper body, swimming under the shoulder frames rather than pushing through them at the same height. Use your head as a wedge against their hip to maintain forward progress below the frame line. Shoulder frames are most effective when they align with your driving direction at the same height — by dropping below them, you bypass the structural advantage entirely and continue the stack from a lower angle that the opponent cannot effectively frame against with extended arms."
@@ -114,7 +114,7 @@ description: "Master executing the Stack Pass from Clamp Guard in BJJ. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "How do you confirm that sufficient stack compression has been achieved before beginning the lateral walk?",
+      "name": "How do you confirm the stack is compressed enough to start the lateral walk?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sufficient compression is confirmed when the opponent's knees are past the plane of their own shoulders and their hips are visibly elevated above their torso, indicating that active hip movement is severely limited. Test by briefly reducing forward pressure slightly — if the opponent's legs remain compressed rather than springing back to guard position, the stack is deep enough for lateral movement. If their legs immediately reactivate and begin seeking hooks or reclamp positions, deepen the stack further before proceeding. Beginning the lateral walk prematurely is the most common cause of failed stack passes."

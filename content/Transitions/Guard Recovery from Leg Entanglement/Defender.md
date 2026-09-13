@@ -56,7 +56,7 @@ description: "Complete guide to preventing guard recovery from leg entanglement.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent strips your C-grip on their heel and tucks their foot against their buttock — what is your immediate response?",
+      "name": "They strip your C-grip and hide their heel against their buttock — what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-attack the heel by reaching around or under their leg to re-establish the grip. If the heel is fully hidden, switch your offensive priority to the knee line — drive your inside leg deeper across their hip to strengthen positional control while you work to re-expose the heel. You can also threaten a toe hold or kneebar on the exposed portion of the leg, which forces them to address the new submission threat and often re-exposes the heel in their defensive reaction."
@@ -64,7 +64,7 @@ description: "Complete guide to preventing guard recovery from leg entanglement.
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent from successfully establishing a hip frame on your body during their recovery attempt?",
+      "name": "From the leg entanglement, how do you stop them establishing a hip frame on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip their framing foot from your hip by pushing it away with your hand or trapping it against your body with an overhook grip. If they successfully establish the frame, collapse the distance by driving your hips forward while controlling the framing leg — this neutralizes the pushing force. You can also change your angle relative to the frame by circling to the side, which makes their straight-line push ineffective. The goal is to deny them any point of leverage to create distance."
@@ -72,7 +72,7 @@ description: "Complete guide to preventing guard recovery from leg entanglement.
     },
     {
       "@type": "Question",
-      "name": "When should you attempt to advance from general leg entanglement to Inside Ashi-Garami during the opponent's recovery attempt?",
+      "name": "When should you advance from leg entanglement to inside ashi during their recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Advance when the opponent commits both hands to stripping your hooks, leaving their heel momentarily undefended. Their extraction sequence creates predictable windows — specifically when they push your inside leg away, their attention shifts to that hook and their heel protection weakens. This is the optimal moment to re-secure heel control while simultaneously driving your inside leg deeper across their hip. Advancement during their escape is higher percentage than against a static, fully-defended opponent because their defensive resources are divided."

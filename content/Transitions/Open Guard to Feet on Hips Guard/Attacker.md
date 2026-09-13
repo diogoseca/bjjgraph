@@ -90,7 +90,7 @@ description: "How to execute the transition to feet on hips guard in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs your right ankle as you attempt to place your foot on their hip—how do you adjust?",
+      "name": "They grab your right ankle as you place that foot on their hip: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately place your free left foot on their left hip to create a single-side frame that arrests their forward movement. Use the pushing power of the established left foot to create enough distance and time to circle your right ankle free from their grip by rotating your foot outward and pulling sharply. Once freed, place your right foot on their right hip to complete the bilateral frame. If the ankle grip persists, use your left foot frame to transition to a single-leg X or De La Riva configuration on the left side instead."
@@ -106,7 +106,7 @@ description: "How to execute the transition to feet on hips guard in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "What grip combination provides the strongest immediate offensive threat after establishing feet on hips?",
+      "name": "Which grip pair gives the strongest immediate attack once feet on hips is set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A cross-collar grip (right hand to opponent's left collar or vice versa) combined with a same-side sleeve grip provides the strongest immediate threat. The collar grip threatens chokes and controls posture, while the sleeve grip prevents one hand from grabbing your ankle and creates pulling tension for sweeps. This combination enables immediate scissor sweep and pendulum sweep threats because you can pull the opponent's upper body forward and down while pushing with your feet, creating the rotational off-balancing required for these high-percentage sweeps."
@@ -114,7 +114,7 @@ description: "How to execute the transition to feet on hips guard in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "The opponent drives forward with heavy pressure attempting to collapse your newly established frames—what is your response?",
+      "name": "They drive forward to collapse your new feet-on-hips frames: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their forward momentum against them by simultaneously extending your legs fully while pulling their upper body forward and down with your grips. This loads their weight entirely onto your feet and creates the setup for scissor sweep or pendulum sweep. If the pressure is too strong for your frames to hold, absorb their forward drive by bending your knees slightly, then redirect their momentum to one side by extending one leg more than the other, creating an angle for De La Riva entry or closed guard recovery. Never try to match their pressure with pure leg strength—redirect the force instead."

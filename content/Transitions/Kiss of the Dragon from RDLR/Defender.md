@@ -56,7 +56,7 @@ description: "Learn to defend and counter the Kiss of the Dragon from Reverse De
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up Kiss of the Dragon rather than a standard RDLR sweep?",
+      "name": "Defending RDLR: earliest cue they want Kiss of the Dragon rather than a standard sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent's hips shifting toward your centerline combined with their far leg releasing its posting position on your hip. Standard RDLR sweeps typically maintain the far leg frame for leverage, while Kiss of the Dragon requires freeing the far leg to generate rotational momentum. Additionally, increased downward pull on your far ankle and the opponent's shoulders beginning to walk underneath you indicate inversion setup rather than sweep mechanics."
@@ -64,7 +64,7 @@ description: "Learn to defend and counter the Kiss of the Dragon from Reverse De
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already committed to the inversion and their head is threading between your legs—what is the most effective response at this late stage?",
+      "name": "Their head is already threading between your legs for Kiss of the Dragon—best late response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, the most effective response is to immediately sit your hips to the mat on the side their head is entering, compressing the space and stalling the rotation. Simultaneously reach for their far hip to prevent them from completing the circle around your leg. If they have progressed too far to stop, switch your defensive priority to preventing hook insertion by immediately turning to face them as they emerge, rather than trying to stop the rotation itself."
@@ -88,7 +88,7 @@ description: "Learn to defend and counter the Kiss of the Dragon from Reverse De
     },
     {
       "@type": "Question",
-      "name": "What passing strategy should you adopt immediately after successfully defending a Kiss of the Dragon attempt?",
+      "name": "After stuffing a Kiss of the Dragon attempt, what passing strategy do you use immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After stuffing the inversion, immediately capitalize on the opponent's compromised guard structure. Their RDLR hook will be weakened from the failed attempt, and they will be recovering from the inverted position with their grips disrupted. Drive forward with a leg drag or knee slice pass while their hips are still returning to guard position. The window after a failed inversion is one of the best passing opportunities from RDLR top, as the opponent needs several seconds to re-establish hook depth and grip configuration."

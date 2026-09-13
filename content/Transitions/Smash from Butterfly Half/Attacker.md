@@ -104,7 +104,7 @@ description: "Master the attacker's perspective for smashing through butterfly h
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-inserts their butterfly hook immediately after you pinned it - what went wrong and how do you adjust?",
+      "name": "Your pinned butterfly hook gets re-inserted. What went wrong and how do you fix it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The re-insertion indicates insufficient chest-to-chest connection during the pin phase. When your chest lifts even slightly off their upper body, their hip mobility returns and they can thread their foot back under your thigh. The adjustment is to maintain heavier forward shoulder pressure while pinning the hook, keeping your weight distributed across their torso as a unified pressure system rather than isolating the hip pressure from the upper body control. Additionally, consider switching to the hip switch pin variant where you rotate laterally to trap their foot between your shin and the mat."

@@ -90,7 +90,7 @@ description: "Complete guide to executing the body triangle escape to side contr
     },
     {
       "@type": "Question",
-      "name": "Your opponent squeezes the body triangle tighter when you begin attacking the lock - how do you adjust?",
+      "name": "They squeeze the body triangle tighter as you attack the lock: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop the direct clearing attempt and refocus on incremental hip positioning to reduce the squeeze angle. A tighter squeeze actually commits the opponent's legs more firmly to the lock position, making the foot behind the knee more predictable and accessible. Wait for them to relax slightly or redirect attention to neck attacks before resuming the clearing attempt with precise targeting."

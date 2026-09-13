@@ -100,7 +100,7 @@ description: "Learn to finish the toe hold from saddle with precise grip mechani
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip if the opponent begins actively rotating their foot to strip the toe hold?",
+      "name": "Toe hold from saddle: they rotate the foot to strip your grip. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent rotates their foot to strip the grip, deepen your hand position toward the heel side of the foot where there is more surface area to grip. Tighten the figure-four by pulling your elbows closer to your body. If the grip partially breaks, make an immediate decision: either reset the grip cleanly while maintaining saddle control, or transition to a heel hook if the rotation has re-exposed the heel. Never chase a deteriorating grip with loose hands."
@@ -108,7 +108,7 @@ description: "Learn to finish the toe hold from saddle with precise grip mechani
     },
     {
       "@type": "Question",
-      "name": "What is the most common finishing error when applying the toe hold from saddle and how does it create danger?",
+      "name": "What is the most common toe hold finishing error from saddle, and why is it dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common finishing error is applying rotational pressure too quickly or explosively. Unlike chokes where the opponent gradually loses consciousness and can tap throughout, the toe hold attacks small ligaments and bones that can fail suddenly without significant warning pain. Explosive application can cause ankle ligament tears, toe fractures, or Lisfranc joint injuries before the opponent registers the danger and taps. All rotational pressure must build gradually over at least 5-7 seconds."

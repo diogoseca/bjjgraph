@@ -301,7 +301,7 @@
         }
       },
       {
-        "question": "Your opponent posts their free hand on the mat while you hold the overhook - how do you capitalize on this?",
+        "question": "You hold an overhook and they post their free hand on the mat: how do you capitalize?",
         "answer": "Their posted hand is committed to the mat and unavailable for defending the guard closure. Immediately attack the posted arm with a kimura grip or use the opening to accelerate your hip walk since they cannot frame against your hip. Alternatively, their forward weight shift from posting actually assists your closure by bringing their waist closer to your hips.",
         "answer_line": "Attack the posted arm with kimura",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "Your opponent begins standing up while you attempt to close your guard - what is your immediate response?",
+        "question": "They start standing as you try to close guard from overhook: what is your response?",
         "answer": "If they stand before your ankles are crossed, abandon the closure attempt and immediately transition to feet on hips guard or collar sleeve guard to manage the standing distance. If your ankles are already crossed when they begin standing, maintain the closed guard and hang your weight from their hips while pulling collar control to break their posture back down. A locked closed guard against a standing opponent is still a strong position.",
         "answer_line": "If unlocked, go feet-on-hips guard",
         "distractors": {
@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "If the guard closure fails and the opponent begins to strip your overhook, what chain attack should you transition to?",
+        "question": "Your guard closure fails and they strip the overhook: what chain attack do you take?",
         "answer": "As they strip the overhook by pulling their arm out, their arm movement creates an opening for a triangle setup since the arm is extending away from their body. Alternatively, switch your overhook hand to a wrist grip on the escaping arm and immediately attack with a kimura or transition to an arm drag toward their back. The key is flowing with their extraction energy into an attack rather than fighting to maintain a lost grip.",
         "answer_line": "Flow into triangle or kimura",
         "distractors": {
@@ -490,7 +490,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that the bottom player is attempting to close their guard from overhook position?",
+        "question": "What is the earliest cue that the overhook guard player is closing their guard on you?",
         "answer": "The earliest cue is the bottom player beginning to shoulder walk or hip scoot upward toward your waist while simultaneously increasing their overhook pulling pressure. You will feel their hips shifting incrementally closer through subtle changes in leg pressure against your ribcage. Their free hand will also shift to firmly controlling your arm rather than attacking, indicating they are prioritizing guard consolidation over sweeps or submissions.",
         "answer_line": "Hip scoot plus overhook tightening",
         "distractors": {
@@ -518,7 +518,7 @@
         }
       },
       {
-        "question": "Your opponent's legs are wrapping around your waist but ankles are not yet crossed - what is your best immediate response?",
+        "question": "Their legs wrap your waist but the ankles are not crossed yet: what is your best response?",
         "answer": "This is your last defensive window before closed guard is established. Immediately insert your elbow or forearm between their thigh and your hip to create a wedge preventing ankle crossing. Simultaneously drive your hips explosively backward and posture up to create distance. If you can prevent the ankle cross for even two seconds, the bottom player often cannot sustain the wrapping position and their legs will open, giving you a passing opportunity.",
         "answer_line": "Wedge elbow, drive hips back",
         "distractors": {

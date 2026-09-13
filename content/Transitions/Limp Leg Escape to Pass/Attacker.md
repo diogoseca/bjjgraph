@@ -84,7 +84,7 @@ description: "How to execute Limp Leg Escape to Pass in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins extending their hips aggressively for the submission - what immediate adjustment do you make?",
+      "name": "They extend their hips hard for the Electric Chair: what's your immediate adjustment on top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your chest weight forward into opponent while simultaneously relaxing your trapped leg. Use your free leg to push their hips flat to the mat, preventing them from achieving the perpendicular angle needed for maximum submission pressure. The forward pressure combined with limp leg nullifies their extension."
@@ -108,7 +108,7 @@ description: "How to execute Limp Leg Escape to Pass in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the lockdown and attempts to roll backward for Old School sweep - how do you respond?",
+      "name": "They release the lockdown and roll back for Old School: how do you respond on top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish deep whizzer control on their underhooking arm and sprawl your hips away from their roll. Drive your chest into them while maintaining wide base with your free leg. The whizzer prevents sweep completion and can be used to counter directly to side control."

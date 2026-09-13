@@ -112,7 +112,7 @@ description: "Master the offensive transition from 3-4 Mount to S Mount. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent frames their far arm against your hip, blocking perpendicular alignment—what do you do?",
+      "name": "Entering S Mount, they frame their far arm on your hip and block the rotation—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the frame by driving your shoulder into their forearm to collapse it, or pin their wrist to the mat with your free hand before continuing the rotation. If the frame is too strong to strip, consider switching to a Technical Mount transition in the opposite direction, which attacks around the frame rather than through it. Never force perpendicular alignment against a strong frame—it wastes energy and often results in losing position."
@@ -120,7 +120,7 @@ description: "Master the offensive transition from 3-4 Mount to S Mount. Step-by
     },
     {
       "@type": "Question",
-      "name": "What is the most critical biomechanical connection that must be maintained throughout the entire transition?",
+      "name": "Which biomechanical connection must be held throughout the 3-4 Mount to S Mount transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip-to-shoulder connection—your near hip must remain in constant contact with the opponent's shoulder from the moment you begin rotating until you fully establish S Mount. Any gap between your hip and their shoulder during the transition creates space for the opponent to retract their arm, bridge, or hip escape. This connection is the foundation of both positional control and arm isolation throughout the movement."

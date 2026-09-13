@@ -56,7 +56,7 @@ description: "How to defend against Tai Otoshi in BJJ. Recognition cues, defensi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point at which you can recognize a Tai Otoshi attempt, and what should your immediate response be?",
+      "name": "What is the earliest cue that Tai Otoshi is coming, and what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest recognition point is during the kuzushi phase when you feel sustained forward pulling pressure through both grip points simultaneously pulling toward the opponent's centerline. This two-handed coordinated pull is the setup for all forward throws including Tai Otoshi. Your immediate response should be to drop your hips slightly, widen your base by stepping your rear foot back, and begin stripping the more dangerous pulling grip (usually the sleeve/wrist control) using a sharp two-on-one break. Responding at this phase prevents the throw from developing past the initial setup."
@@ -64,7 +64,7 @@ description: "How to defend against Tai Otoshi in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Why is circling toward the thrower's back more effective than pulling straight backward when defending Tai Otoshi?",
+      "name": "Defending Tai Otoshi, why circle toward the thrower's back instead of pulling straight back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circling toward the thrower's back denies the throw's rotational mechanics because Tai Otoshi requires the opponent to be positioned in front of and slightly to the side of the blocking leg. By circling toward their back (the direction they are rotating), you move out of the throw's effective arc and may end up behind them in an advantageous position. Pulling straight backward creates a linear resistance that skilled throwers exploit by chaining to backward-direction throws like Osoto Gari or Kouchi Gari that use your retreat momentum. The lateral movement eliminates both the forward and backward attack vectors simultaneously."
@@ -72,7 +72,7 @@ description: "How to defend against Tai Otoshi in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already placed their blocking leg across your shins - what are your remaining defensive options at this late stage?",
+      "name": "Their Tai Otoshi blocking leg is already across your shins. What defense remains?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is to hop or step over the blocking leg by lifting your lead foot high and clearing the obstacle before the rotational pull completes. Drive your hips forward into the opponent's back as you step over, which converts the situation into a clinch behind them. If stepping over is not possible, you can attempt to sit through to guard by dropping your hips below the blocking leg and pulling guard, accepting bottom position but preventing a hard throw landing. The worst option is to resist the pull while standing, as this typically results in a clean throw to side control."
@@ -88,7 +88,7 @@ description: "How to defend against Tai Otoshi in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "What stance adjustments should you make when you suspect your opponent favors Tai Otoshi in their standing game?",
+      "name": "How should you adjust your stance against an opponent who favors Tai Otoshi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Adopt a slightly more square stance with your hips further back than normal and your weight distributed toward your heels rather than the balls of your feet. This posture makes forward kuzushi significantly harder to achieve. Keep your elbows tighter to your body to make grip establishment on your sleeves more difficult, and actively hand fight to prevent the two-grip configuration the thrower needs. Maintain a slightly wider base than normal and lower your center of gravity by increasing knee bend. Circle consistently to deny them a stable entry angle, and prioritize breaking any collar or lapel grip immediately before they can pair it with a sleeve grip."

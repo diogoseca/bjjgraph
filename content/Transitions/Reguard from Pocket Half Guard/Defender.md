@@ -56,7 +56,7 @@ description: "Defend against the Reguard from Pocket Half Guard as the top playe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is abandoning pocket half guard for a reguard?",
+      "name": "What is the earliest cue that they are abandoning pocket half guard to reguard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the underhook loosening or withdrawing from your far side. In pocket half guard, the deep underhook creates constant pulling pressure against your back or lat. When this pressure diminishes or the arm begins moving toward your shoulder or bicep, the bottom player is converting their grip from offensive underhook to defensive frame. This happens before the hip escape or knee shield attempt and represents your earliest and best intervention window."
@@ -80,7 +80,7 @@ description: "Defend against the Reguard from Pocket Half Guard as the top playe
     },
     {
       "@type": "Question",
-      "name": "What is the best passing technique to time against the hip escape created during the reguard attempt?",
+      "name": "Which pass should you time against the hip escape of their pocket half guard reguard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee slice pass is the highest-percentage counter because the lateral space the bottom player creates with their hip escape opens a natural lane for your knee to drive across their thigh line. Their frame is oriented toward pushing your shoulder, not blocking a knee advancing at an angle below their elbow. Time the slice as the hip escape creates maximum lateral space, before the knee shield can be inserted to block the path. The key is reading the shrimp initiation and immediately driving the knee through rather than waiting."
@@ -88,7 +88,7 @@ description: "Defend against the Reguard from Pocket Half Guard as the top playe
     },
     {
       "@type": "Question",
-      "name": "When should you accept that the reguard has succeeded and transition to standard half guard top strategies?",
+      "name": "When should you accept their reguard and switch to standard half guard top strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept the reguard once the knee shield is fully inserted with the bottom player's shin across your midsection and their hip angle reestablished. At this point, continuing to fight the knee shield wastes energy and often generates scramble opportunities that benefit the bottom player. Instead, calmly transition to your preferred standard half guard passing approach while the bottom player is still consolidating their recovered position. The brief window after reguard completion, before the bottom player establishes offensive grips, is your best moment to begin the new passing sequence."

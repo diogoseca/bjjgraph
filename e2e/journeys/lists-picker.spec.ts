@@ -369,10 +369,10 @@ test("the picker never stops the clock, and never sits over the option hand past
   await openExplore(page);
   await page.locator(".ng-explorer-close").click(); // back to the roll, pane shut
 
-  // THE in-roll capture surface (v1.101.1): the landing card's corner +. Option cards lost their
-  // own copy — a 150px card on a running clock is a choice, and capture belongs on a surface you
-  // opened to read. This is still the anchor with the least room around it while a hand is dealt.
-  const optAdd = page.locator('[data-list-add][data-list-surface="land"]').first();
+  await j.advance(120); // the next canvas frame restores the graph seat controls
+
+  // Capture stays beside the graph role while the question clock is running.
+  const optAdd = page.locator('[data-list-add][data-list-surface="seat"]').first();
   await expect(optAdd, "the roll carries a capture affordance").toBeVisible();
 
   const before = await page.evaluate(() => {
@@ -483,12 +483,18 @@ test.describe("in the 390px drawer", () => {
     await j.land("Mount Top");
     await seedTwoLists(page);
 
-    // the hardest anchor on the hardest device: the landing card's corner +, docked just above a
-    // full option tray with the thumb band below that. An un-clamped drop-down lands under both.
-    // (Option cards lost their own + in v1.101.1.)
-    const optAdd = page.locator('[data-list-add][data-list-surface="land"]').first();
+    // Capture now belongs to the graph seat. Dismiss the independently earned reward first:
+    // on a phone its temporary View Collection button can cover the upper seat label.
+    const rewardClose = page.locator("[data-reward-close]");
+    if (await rewardClose.isVisible()) await rewardClose.click();
+    const optAdd = page.locator('[data-list-add][data-list-surface="seat"]').first();
     await expect(optAdd).toBeVisible();
-    const ab = (await optAdd.boundingBox())!;
+    const ab = await j.boxOf('[data-list-add][data-list-surface="seat"]', "the land + control");
+    expect(await page.evaluate(({ x, y, width, height }) => {
+      const b = document.querySelector('[data-list-add][data-list-surface="seat"]')!;
+      const hit = document.elementFromPoint(x + width / 2, y + height / 2);
+      return b === hit || b.contains(hit);
+    }, ab), "the seat star owns the touch target").toBe(true);
     await page.touchscreen.tap(ab.x + ab.width / 2, ab.y + ab.height / 2);
 
     const picker = page.locator("[data-list-picker]");
@@ -561,7 +567,7 @@ test.describe("in the 390px drawer", () => {
     await page.screenshot({ path: resolve(SHOTS, "picker-390-option-card.png") });
 
     // a real touch on a row files it, with the clock still running
-    const rowBox = (await page.locator("[data-list-pick]").nth(1).boundingBox())!;
+    const rowBox = await j.boxOf("[data-list-pick] >> nth=1", "the second picker row");
     const chosen = await page
       .locator("[data-list-pick]")
       .nth(1)

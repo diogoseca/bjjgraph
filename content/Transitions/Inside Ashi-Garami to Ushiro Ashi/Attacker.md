@@ -80,7 +80,7 @@ description: "Learn to execute Inside Ashi-Garami to Ushiro Ashi as the attacker
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their hips away while you have inside ashi-garami - what is your immediate first priority before following?",
+      "name": "They rotate their hips away in inside ashi. What is your first priority before following?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate first priority is securing your heel grip. Before moving your body to follow the rotation, confirm that your C-grip or figure-four on the heel is locked tight enough to survive the rotation. Without secure heel control, following the rotation only results in a loose entanglement that the opponent can easily escape. Lock the grip, then follow."
@@ -88,7 +88,7 @@ description: "Learn to execute Inside Ashi-Garami to Ushiro Ashi as the attacker
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference in leg configuration between inside ashi-garami and the ushiro ashi position you are transitioning to?",
+      "name": "How does leg configuration differ between inside ashi-garami and ushiro ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In inside ashi-garami, your inside leg crosses the opponent's near hip as a frame while your outside leg hooks behind their knee. In ushiro ashi, the configuration reverses: your outside leg crosses over the opponent's knee line from the top while your inside leg slides underneath their trapped leg. This reversal occurs because the opponent's hip inversion changes which side of their leg each of your legs needs to control."
@@ -96,7 +96,7 @@ description: "Learn to execute Inside Ashi-Garami to Ushiro Ashi as the attacker
     },
     {
       "@type": "Question",
-      "name": "Your opponent's rotation is very fast and they are about to reach turtle - should you continue pursuing ushiro ashi or change strategy?",
+      "name": "Their rotation is fast and they are nearly in turtle. Chase ushiro ashi or change strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Change strategy to back control pursuit. When the opponent's rotation momentum carries them past the ushiro ashi window and toward full turtle, the highest-percentage option is following to back control rather than trying to re-establish leg entanglement from behind. Release the heel and transition to seatbelt or harness grips as their back becomes exposed. Chasing ushiro against fast rotation typically results in a scramble where neither player has control."
@@ -104,7 +104,7 @@ description: "Learn to execute Inside Ashi-Garami to Ushiro Ashi as the attacker
     },
     {
       "@type": "Question",
-      "name": "What grip adjustment must you make for heel hooks from ushiro ashi compared to standard inside ashi-garami?",
+      "name": "How does the heel hook grip from ushiro ashi differ from standard inside ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In ushiro ashi, the opponent's inverted hip position changes the optimal heel hook grip angle. Your hands need to be positioned closer to your own hip line rather than reaching across their body as in standard inside ashi. The finishing mechanics require a more compact position with your body curled toward their heel rather than extending away. The rotational direction of the heel hook may also change depending on whether you are attacking the inside or outside heel from the reversed angle."
@@ -112,7 +112,7 @@ description: "Learn to execute Inside Ashi-Garami to Ushiro Ashi as the attacker
     },
     {
       "@type": "Question",
-      "name": "During the transition, at what moment is the opponent's heel most vulnerable for a mid-rotation attack?",
+      "name": "During the follow to ushiro, when is their heel most vulnerable to a mid-rotation attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's heel is most vulnerable during the brief window when they shift their defensive hand position to accommodate the rotation. As they turn, their hands must move from defending heel exposure in standard ashi to establishing new frames for the inversion. This grip transition creates a one-to-two second window where the heel is exposed with diminished hand defense. Attacking during this window requires pre-loaded grip position and immediate commitment to the finish."
@@ -120,7 +120,7 @@ description: "Learn to execute Inside Ashi-Garami to Ushiro Ashi as the attacker
     },
     {
       "@type": "Question",
-      "name": "How do you prevent your outside leg from being cleared as you attempt to cross it over the opponent's knee line during the transition?",
+      "name": "How do you keep your outside leg from being cleared as you cross it over their knee line?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive the outside leg deep across the opponent's thigh using active hip pressure rather than simply placing it on top. Angle your hip downward into their leg to create weight-based pressure that is difficult to clear with hand fighting alone. If the opponent reaches for your outside leg to clear it, this momentarily releases their heel defense, creating an immediate attack window. Maintain constant downward pressure through the outside leg throughout the consolidation phase."

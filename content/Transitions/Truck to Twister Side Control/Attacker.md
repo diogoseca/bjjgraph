@@ -90,7 +90,7 @@ description: "Master the Truck to Twister Side Control transition as the attacki
     },
     {
       "@type": "Question",
-      "name": "What is the single most critical mechanical detail that determines whether this transition succeeds or fails?",
+      "name": "What single mechanical detail decides whether truck to twister side control succeeds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining the leg entanglement throughout the entire rotation is the critical mechanical detail. The leg hook is the only control element that bridges both positions—it anchors you in truck and becomes the foundation of twister side control. If the hook releases during the walk-around, you lose all control and the opponent escapes. The hook angle adjusts progressively during rotation but never releases contact."

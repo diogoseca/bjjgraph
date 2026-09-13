@@ -106,7 +106,7 @@ description: "Master attacking mechanics for the 3-4 Mount to Technical Mount tr
     },
     {
       "@type": "Question",
-      "name": "Your opponent clamps their elbows tight and refuses to extend any arm—what do you do to create the entry?",
+      "name": "They clamp both elbows tight, denying the Technical Mount entry from 3-4 Mount—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply sustained crossface pressure to force them to turn away from the discomfort, which naturally extends the far arm. Alternatively, threaten an Americana or Ezekiel choke to force a defensive arm reaction that creates the extension you need. You can also simply maintain heavy 3-4 Mount pressure and threaten the S-Mount transition on the other side—the bottom player cannot defend both directions simultaneously, and eventually one arm will extend to address a threat."

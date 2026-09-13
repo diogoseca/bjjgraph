@@ -76,7 +76,7 @@ description: "Learn to finish the Cross Collar Choke from Mount with proper grip
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Cross Collar Choke from Mount primarily target to cause submission?",
+      "name": "What does the cross collar choke from mount primarily target to cause the submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Cross Collar Choke targets both carotid arteries on the lateral sides of the neck. The forearm bones from each gripping arm compress these arteries bilaterally, restricting blood flow to the brain. This produces unconsciousness within 4-8 seconds when properly applied, unlike trachea-based chokes which restrict airflow and take much longer to become effective."
@@ -84,7 +84,7 @@ description: "Learn to finish the Cross Collar Choke from Mount with proper grip
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stripping your first collar grip with both hands — what immediate attacking opportunity does this create?",
+      "name": "They strip your first collar grip with both hands from mount—what attack does that open?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent uses both hands to strip your collar grip, both of their arms are occupied above their torso and away from their body. This creates an immediate Americana or Kimura opportunity on either arm since they cannot defend the shoulder lock while gripping your wrist. Alternatively, their elevated elbows create space to advance to high mount where collar access improves dramatically."
@@ -92,7 +92,7 @@ description: "Learn to finish the Cross Collar Choke from Mount with proper grip
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between effective carotid compression and dangerous trachea crushing during application?",
+      "name": "How do you tell effective carotid compression from dangerous trachea crushing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Carotid compression targets the sides of the neck where the arteries are superficial, producing a sensation of pressure and lightheadedness without pain or difficulty breathing. Trachea crushing targets the front of the throat, causing coughing, gagging, and sharp pain. The wrist blade should be positioned laterally at mid-neck height. If your partner reports throat pain or coughing, your hand position is too centered and needs to shift to the side of the neck."
@@ -108,7 +108,7 @@ description: "Learn to finish the Cross Collar Choke from Mount with proper grip
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin and clasps hands behind their head to deny collar access — what adjustment allows you to continue attacking?",
+      "name": "They tuck the chin and clasp hands behind the head—how do you keep attacking from mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use forearm cross-face pressure to turn their head and expose collar on one side, or transition to an Ezekiel Choke using the gi sleeve as the choking surface since this attack does not require collar access. You can also dig the first grip in by wedging your fingers between their clasped hands and the collar, using their own chin tuck to anchor the grip deeper as you pry the collar open with your wrist."

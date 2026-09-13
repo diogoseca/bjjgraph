@@ -80,7 +80,7 @@ description: "How to defend against Lapel Triangle Setup in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has the lapel wrapped around your right arm and begins hip escaping to their left—what is your immediate defensive priority?",
+      "name": "Their lapel traps your right arm and they hip escape left: what is your first defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the perpendicular angle by driving forward into the opponent while simultaneously working to strip the lapel from your right arm. The hip escape to their left signals the triangle leg will come from that side. Drive your weight into them to compress the space they need for the leg swing, and use your free left hand to address the lapel configuration on your right arm rather than reaching across."
@@ -88,7 +88,7 @@ description: "How to defend against Lapel Triangle Setup in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How does defending the Lapel Triangle Setup differ from defending a standard closed guard triangle entry?",
+      "name": "Why does defending a lapel triangle require different mechanics than a closed guard triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical difference is the persistent arm isolation created by the lapel fabric. In standard triangle defense, freeing your arm is a grip fight against their hands. Against the lapel setup, the fabric maintains control independently of the attacker's hand strength, meaning standard grip breaks are insufficient. You must physically remove the fabric wrap from your arm or neutralize the entire configuration, which requires different defensive mechanics focused on creating slack in the material."

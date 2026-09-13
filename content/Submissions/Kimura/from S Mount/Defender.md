@@ -82,7 +82,7 @@ description: "Defend against the Kimura from S Mount in BJJ. Recognition cues, a
     },
     {
       "@type": "Question",
-      "name": "Your opponent momentarily releases one hand to readjust their figure-four grip - what immediate action do you take?",
+      "name": "Under S Mount, they briefly release a hand to readjust the figure-four—what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pull your trapped arm back explosively toward your body and re-grip your own collar before they can re-establish control. Simultaneously begin a hip escape toward their legs to create distance. This is your best escape window since the figure-four structure is broken. Even a half-second of released pressure is enough to extract the arm if you react immediately and decisively."
@@ -90,7 +90,7 @@ description: "Defend against the Kimura from S Mount in BJJ. Recognition cues, a
     },
     {
       "@type": "Question",
-      "name": "Why is extending your arm to push the opponent away a critical error when defending the Kimura from S Mount?",
+      "name": "Why is extending your arm to push away a critical error when defending the Kimura from S Mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extending the arm removes the bend that protects against both the Kimura and the armbar. A straight arm from S Mount is the ideal position for an armbar finish, so you would be trading one submission threat for another that may be even more immediately dangerous. The core principle is to keep the arm bent and use hip movement and free-arm frames for escape rather than pushing with the trapped arm."

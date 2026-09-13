@@ -74,7 +74,7 @@ description: "Complete guide to executing the Pass Half Butterfly in BJJ. Step-b
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical weight distribution adjustment to neutralize the butterfly hook before initiating the pass?",
+      "name": "What weight distribution best kills the butterfly hook before passing half butterfly?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your chest weight forward onto the bottom player's upper body while simultaneously dropping your hips low and heavy. This shifts the load away from the hook's optimal fulcrum point near your thigh and onto the bottom player's chest where the hook has minimal mechanical advantage. The key insight is that the hook generates power through hip elevation against weight positioned above it, so moving your center of gravity forward and low removes the conditions the hook needs to function."
@@ -82,7 +82,7 @@ description: "Complete guide to executing the Pass Half Butterfly in BJJ. Step-b
     },
     {
       "@type": "Question",
-      "name": "Your opponent elevates their butterfly hook with strong hip extension mid-pass - how do you respond immediately?",
+      "name": "Passing half butterfly, they elevate your weight on the hook: how do you respond immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your base by spreading your knees outward to increase your support surface area, making you harder to tip. Simultaneously drive your hips toward the mat and increase crossface pressure to pin their upper body. If the elevation has significant momentum, post your far hand briefly to stabilize, then return to chest pressure once the sweep attempt stalls. Never fight the elevation with your upper body alone, as the hook's mechanical advantage from below will overcome arm strength."

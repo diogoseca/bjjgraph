@@ -90,7 +90,7 @@ description: "Learn to execute standing up from combat base in BJJ. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent has feet on your hips pushing you away from combat base - should you fight to close distance or stand up?",
+      "name": "From combat base, your opponent's feet are on your hips pushing you away: close distance or stand?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standing up is the superior tactical choice in this scenario. The opponent's feet-on-hips configuration creates distance that neutralizes kneeling passes but also means their hooks are extended rather than close-range entanglements. By standing, you convert their pushing distance into your passing distance. Grip their pants at the ankles, stand explosively, and redirect their legs laterally for a toreando pass. Fighting to close distance against feet on hips burns energy against a mechanically advantaged frame."
@@ -114,7 +114,7 @@ description: "Learn to execute standing up from combat base in BJJ. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent threads a De La Riva hook around your lead leg as you begin to stand - how do you respond?",
+      "name": "Standing from combat base, they thread a De La Riva hook on your lead leg. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive the hooked knee forward and inward while pushing the opponent's hooking foot off your hip with your same-side hand. Do not step backward, which deepens the hook. If the hook is too deep to strip in motion, switch your lead leg by stepping over to the opposite stance, effectively removing the hook by changing which leg is forward. Alternatively, complete the stand explosively and use the standing position's elevation advantage to backstep around the DLR hook before it develops into a sweep threat."

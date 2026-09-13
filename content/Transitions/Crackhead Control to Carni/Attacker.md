@@ -114,7 +114,7 @@ description: "How to execute Crackhead Control to Carni in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy chest pressure forward as you begin the inversion - is this good or bad for your transition?",
+      "name": "Crackhead to Carni: your opponent drives chest pressure as you invert. Good or bad for you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is actually favorable for your transition when timed correctly. Their forward drive creates the momentum you need for the roll-under motion and simultaneously compromises their base further. Use their chest pressure to assist the inversion rather than fighting against it. The key is timing: initiate your thread as their weight shifts forward, converting their pressure into your transition energy."

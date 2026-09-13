@@ -56,7 +56,7 @@ description: "How to defend against the Whizzer overhook in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is circling toward the Whizzer side more effective than circling away from it when trying to escape?",
+      "name": "Escaping a whizzer, why is circling toward the whizzer side better than circling away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circling toward the Whizzer side closes the hip angle that gives the overhook its mechanical advantage. The Whizzer works because the opponent has angled their hips away, creating a lever that controls your shoulder. By circling toward them and squaring your hips, you eliminate that angle and restore your underhook's driving power. Circling away actually increases the angle and makes the Whizzer stronger, while potentially exposing your back for a back take as you turn away from the opponent."
@@ -80,7 +80,7 @@ description: "How to defend against the Whizzer overhook in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep Whizzer and begins stepping their far leg behind you for a back take - what is your immediate priority?",
+      "name": "Your opponent steps their far leg behind you for the back take off a deep whizzer — priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to block their far leg from getting behind you by stepping your own leg back to occupy that space, or by turning your hips to face them before the leg clears. If their leg gets behind you, back control is imminent. Use your free hand to push against their far hip to prevent the step-through while simultaneously driving your hips forward to close distance. If you cannot prevent the step, immediately begin your back escape protocol rather than trying to recover the Whizzer defense, because the positional battle has shifted from overhook defense to back control defense."
@@ -88,7 +88,7 @@ description: "How to defend against the Whizzer overhook in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How does the limp-arm escape work against the Whizzer and what makes it different from simply pulling your arm out?",
+      "name": "How does the limp-arm escape beat a whizzer, and why is it better than pulling the arm out?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The limp-arm escape uses shoulder rotation rather than linear retraction to defeat the Whizzer. Instead of pulling your arm straight back against the overhook's strongest resistance axis, you rotate your shoulder inward and downward, turning your trapped arm so the elbow points toward the mat. This circular motion slips the shoulder joint out of the armpit seal because the Whizzer is designed to resist pulling but cannot maintain its seal against rotational movement. As you rotate, your arm becomes thin and can slide out of the gap created by the rotation. Straight pulling actually tightens the armpit seal, while rotation opens it."

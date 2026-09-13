@@ -74,7 +74,7 @@ description: "Step-by-step guide to escaping Russian Cowboy position in BJJ. Lea
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive priority when trapped in Russian Cowboy bottom before attempting any escape movement?",
+      "name": "Russian Cowboy bottom: what is your first defensive priority before any escape movement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Protect your neck by immediately tucking your chin to your chest and establishing a two-on-one grip on the opponent's choking arm. Pull their wrist below your chin line to neutralize the rear naked choke threat. No positional escape should be attempted until neck defense is secured, as moving while exposed to a choke typically results in the opponent finishing the submission during your movement."
@@ -82,7 +82,7 @@ description: "Step-by-step guide to escaping Russian Cowboy position in BJJ. Lea
     },
     {
       "@type": "Question",
-      "name": "Why should you direct your escape toward the opponent's free leg side rather than rolling away from the hook?",
+      "name": "Escaping Russian Cowboy, why go toward their free leg side instead of rolling away from the hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rolling away from the hook provides the rotational momentum the opponent needs to thread their second leg and advance to full truck position, which is a significantly worse position with twister and calf slicer threats. Escaping toward the free leg side does not assist their truck transition and creates angles that allow guard recovery. The free leg side lacks the mechanical control structure of the hooked side, making it the path of least resistance for your escape."
@@ -90,7 +90,7 @@ description: "Step-by-step guide to escaping Russian Cowboy position in BJJ. Lea
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their seatbelt grip and begins walking their hand toward your chin during the escape—how do you respond?",
+      "name": "Russian Cowboy bottom: they tighten the seatbelt and walk the hand to your chin. Response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the positional escape and return to priority-one hand fighting on the choking arm. Use both hands to control their wrist through a two-on-one grip, pulling the arm below your chin and toward your sternum. Once the choke threat is neutralized, resume the escape sequence from the grip-stripping phase. Attempting to continue escaping while a choke is being set will result in the opponent finishing the submission during your movement."
@@ -106,7 +106,7 @@ description: "Step-by-step guide to escaping Russian Cowboy position in BJJ. Lea
     },
     {
       "@type": "Question",
-      "name": "How does the asymmetric hook structure of Russian Cowboy create different escape opportunities compared to traditional back control?",
+      "name": "How does the single hook of Russian Cowboy change escapes compared to full back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Russian Cowboy's single-hook configuration means you only need to extract one leg rather than clearing two hooks, concentrating your escape effort more efficiently. The free leg side lacks the rotational control present in full back control, creating a natural weak side for your escape direction. However, the asymmetry also means the top player can transition quickly to truck if you move in the wrong direction, making directional awareness more critical than in symmetric back control escapes."

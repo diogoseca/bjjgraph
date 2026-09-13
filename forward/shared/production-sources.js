@@ -11,7 +11,7 @@ const SOURCES = {
       "neural/src/helmet.html",
     ],
     symbols: ["draw", "stageRollAt", "startTravel"],
-    handles: ["canvasRef", ".ng-legendkey", ".ng-intro"],
+    handles: ["canvasRef", ".ng-legendkey"],
   },
   event: {
     files: ["neural/src/xdc-template.html", "neural/src/app.src.jsx"],

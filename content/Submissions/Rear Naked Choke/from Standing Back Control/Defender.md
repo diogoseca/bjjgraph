@@ -74,7 +74,7 @@ description: "Learn to defend and escape the rear naked choke from standing back
     },
     {
       "@type": "Question",
-      "name": "Why is controlling your descent to the ground often a better defensive strategy than fighting to stay standing?",
+      "name": "Defending standing back control: why is a controlled descent better than fighting to stay up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Dropping to turtle or guard on your own terms changes the angle of the choke attack, provides the mat as an additional defensive surface, and opens escape sequences unavailable while standing. Fighting to stay standing while the choke is being set up divides your attention between balance and neck defense, making both worse. A controlled descent also prevents the attacker from slamming or forcefully taking you down, which could compound the danger of a partially locked choke."
@@ -90,7 +90,7 @@ description: "Learn to defend and escape the rear naked choke from standing back
     },
     {
       "@type": "Question",
-      "name": "How does the standing variant change your defensive urgency compared to ground-based rear naked choke defense?",
+      "name": "How does the standing RNC change your defensive urgency compared to on the ground?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The standing variant increases urgency because you face simultaneous threats — the choke itself, loss of balance, and the risk of falling while the choke is partially locked. Unlike ground defense where you can use the mat for leverage and frames, standing defense relies almost entirely on grip fighting and hip movement. However, the standing position also creates opportunity: the inherent instability means the attacker's control is less secure, and explosive direction changes can create separation impossible when the attacker has hooks and mat pressure."
@@ -98,7 +98,7 @@ description: "Learn to defend and escape the rear naked choke from standing back
     },
     {
       "@type": "Question",
-      "name": "Your attacker has threaded the choking arm deep and is reaching for their bicep to lock the figure-four — what is your last window of defense?",
+      "name": "Standing RNC: their arm is deep and reaching for the bicep, what is your last defensive window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the final critical window before the choke becomes structurally locked. Use both hands to attack the wrist of the choking arm, pulling it away from the bicep connection point. Simultaneously shrug your near shoulder up into the crook of the choking arm elbow to create space and reduce arterial compression. If you cannot prevent the hand-to-bicep connection within 1-2 seconds, immediately initiate a controlled drop while continuing to fight the grip — the angle change during descent may create enough slack to prevent the full lock."

@@ -92,7 +92,7 @@ description: "Learn to attack the omoplata from Rubber Guard positions. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rolling forward as you apply omoplata pressure—what immediate adjustment prevents the escape?",
+      "name": "Rubber guard omoplata: they roll forward under your pressure — what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their roll by driving your hips forward and maintaining wrist control on the trapped arm. As they complete the roll, transition to mount while keeping the wrist trapped, converting the escape attempt into a positional advancement to mount with continued submission threat on the arm."

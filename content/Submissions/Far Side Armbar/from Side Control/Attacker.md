@@ -76,7 +76,7 @@ description: "How to execute Far Side Armbar in BJJ. Attacking perspective with 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum time you should take to apply finishing pressure to the far side armbar in training?",
+      "name": "How slowly should you apply finishing pressure to the far side armbar in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should apply finishing pressure progressively over a minimum of 3-5 seconds in training. This slow, controlled application allows your training partner adequate time to recognize the danger and tap safely, preventing sudden hyperextension injuries to the elbow joint. Competition timing may be faster, but training should always prioritize partner safety."
@@ -84,7 +84,7 @@ description: "How to execute Far Side Armbar in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Which direction should the opponent's thumb point when you have the far side armbar properly positioned?",
+      "name": "Which way should their thumb point when the far side armbar is properly positioned?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's thumb should point toward their feet (away from their head). This thumb position prevents the hitchhiker escape where they could rotate their arm and relieve pressure on the elbow. If the thumb points toward their head, they can more easily rotate and escape the submission."
@@ -92,7 +92,7 @@ description: "How to execute Far Side Armbar in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What is the primary source of breaking pressure in the far side armbar, and why is this biomechanically important?",
+      "name": "What generates the breaking pressure in the far side armbar, and why does that matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary source of breaking pressure should be hip extension and upward drive, not pulling with the arms. This is biomechanically important because your hips and core generate much more force than your arms, creating a more effective submission. Additionally, hip-driven pressure is easier to control and apply progressively, making it safer for training while being more difficult for opponents to resist."
@@ -100,7 +100,7 @@ description: "How to execute Far Side Armbar in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent clasps their hands together in prayer defense against your far side armbar attempt?",
+      "name": "How do you respond when they clasp their hands in prayer defense against the far side armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent clasps hands in prayer defense, you have several options: systematically peel their fingers apart by isolating and breaking individual grips; use your legs and body torque to stress their grip until it breaks; transition to attacking their near arm with kimura or americana; or transition to mount/other positions. Never use sudden explosive force to break the grip as this can cause finger or wrist injuries."

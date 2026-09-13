@@ -82,7 +82,7 @@ description: "How to execute Back Control Maintenance in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins aggressively straightening their legs to remove your hooks—what is your immediate response?",
+      "name": "In back control they straighten their legs to strip your hooks—what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hooks deeper toward their hip crease rather than fighting their leg extension. Simultaneously increase chest-to-back pressure and consider transitioning to body triangle by bringing your top leg over their hip. Their leg straightening actually creates the opening for body triangle entry."

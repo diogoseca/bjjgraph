@@ -15,7 +15,10 @@ import { journey } from "../dsl";
  *
  * SEVERITY, on the record: SELF-XSS ONLY. `_exQ` has exactly two writers — the search
  * input's own `input` handler and a hardcoded `curatedMap` term — and NO URL parameter
- * feeds it (`?dual=` is the only param the app reads at all). The query is never persisted
+ * feeds it. (Corrected v1.158.1: the note here used to say `?dual=` was the only param the app
+ * read at all, which was never true — `?l=<code>` is read too, by `ngListParseSharePath`. `?dual=`
+ * is now GONE, so what holds today is the stronger and accurate claim: no query parameter can
+ * change how the graph renders, and none reaches `_exQ`.) The query is never persisted
  * and never rendered for a second user, so there is no link-delivery and no stored vector:
  * a victim has to paste the payload into their own search box. `hl(text, q)` is NOT a
  * second sink — it slices from the trusted node title and uses `q` only for indexOf/length.

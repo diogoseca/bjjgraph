@@ -1,0 +1,273 @@
+{
+  "name": "Cage Clinch to Ground System",
+  "description": "Build a focused MMA grappling study plan linking cage clinch, takedown choices, and stable top control, with practical drills and a Neiman Gracie course match.",
+  "tags": [
+    "bjj",
+    "system",
+    "mma",
+    "clinch",
+    "takedowns",
+    "top-control"
+  ],
+  "system_type": "Attack System",
+  "difficulty_level": "Intermediate",
+  "summary": "The Cage Clinch to Ground System connects standing control near a cage to a chosen takedown and a stable top position, using opponent reactions to guide each transition.",
+  "overview": "A takedown can end with useful control, a scramble, or an immediate return to standing. Studying the landing together with the entry helps a grappler notice where control was lost. The cage adds a boundary that changes available movement, so open-mat success should be checked again in the intended training environment.\n\nNeiman Gracie's Modern Jiu-Jitsu For MMA is a direct course match: its syllabus connects proactive and reactive clinch entries with open-floor and cage takedowns, then introduces passing in a striking context. This page isolates the standing-to-top-control portion as a manageable study project. The drills and assessment criteria below are BJJGraph suggestions to use with an MMA coach, rather than claimed course chapters.",
+  "key_principles": [
+    "Treat the clinch entry, takedown, and landing as one connected problem.",
+    "Establish balanced contact before committing to a finish.",
+    "Choose a follow-up from the opponent's actual stance and reaction.",
+    "Account for the cage when choosing the direction of movement.",
+    "Secure a usable top position before adding further attacks.",
+    "Begin practice without strikes; an MMA coach should define any later contact and equipment."
+  ],
+  "key_components": [
+    {
+      "component_name": "Entry and connection",
+      "description": "Close distance in a coached exercise and establish a clinch that you can hold while both partners move.",
+      "purpose": "Create a repeatable starting point for the takedown study."
+    },
+    {
+      "component_name": "Cage positioning",
+      "description": "Compare the same clinch near a padded boundary and on open mat, noting which directions remain available.",
+      "purpose": "Recognize when a boundary changes the next action."
+    },
+    {
+      "component_name": "Takedown choice",
+      "description": "Select one course takedown with your coach and identify the stance or movement that makes it available.",
+      "purpose": "Link an observable cue to a specific action."
+    },
+    {
+      "component_name": "Landing control",
+      "description": "Continue the drill after the takedown and identify the grips, posture, and base needed to hold the resulting top position.",
+      "purpose": "Keep the finish connected to the ground exchange."
+    },
+    {
+      "component_name": "Passing connection",
+      "description": "When the landing leaves a guard in place, stabilize first and choose one familiar passing route appropriate to the exercise.",
+      "purpose": "Turn a takedown into a coherent top-game sequence."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Select a small chain",
+      "description": "With a coach, choose one entry, one cage takedown, and the expected landing. Agree on permitted resistance and reset conditions."
+    },
+    {
+      "step_number": 2,
+      "phase": "Find the starting contact",
+      "description": "Rehearse reaching the clinch from a cooperative start. Pause to check balance and the space available around the boundary."
+    },
+    {
+      "step_number": 3,
+      "phase": "Recognize the cue",
+      "description": "Ask the partner to present the selected takedown cue, then sometimes withhold it. Continue controlling rather than forcing an unavailable finish."
+    },
+    {
+      "step_number": 4,
+      "phase": "Complete the landing",
+      "description": "Perform the coached takedown on suitable mats and continue until top control is established or the partner recovers. Reset under control."
+    },
+    {
+      "step_number": 5,
+      "phase": "Connect to passing",
+      "description": "If the partner retains guard, work toward one agreed passing objective while preserving base. Treat a lost position as feedback about the chain."
+    },
+    {
+      "step_number": 6,
+      "phase": "Test and review",
+      "description": "Use short positional rounds with gradually broader defensive choices. Record the first point where the chain breaks and rehearse that section next."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The entry reaches the opponent but leaves poor balance.",
+      "solution": "Reduce speed and isolate the first clinch contact before adding a takedown."
+    },
+    {
+      "obstacle": "A favorite finish has no space near the cage.",
+      "solution": "Pause the scenario, identify the blocked direction, and select a coach-approved alternative."
+    },
+    {
+      "obstacle": "The takedown succeeds but top control disappears.",
+      "solution": "Start a drill at the landing and give the partner a limited recovery task."
+    },
+    {
+      "obstacle": "Every repetition adds another technique before the first chain is reliable.",
+      "solution": "Keep one entry and finish until you can explain both the cue and the common failure."
+    },
+    {
+      "obstacle": "Training intensity makes observations difficult.",
+      "solution": "Narrow the defender's choices and lower the pace so both partners can identify the transition being tested."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Entry quality",
+      "description": "Observe whether the first contact creates a usable clinch.",
+      "proficiency_indicators": [
+        "Maintains balance during contact",
+        "Can name the established control",
+        "Recognizes an entry that needs to be reset"
+      ]
+    },
+    {
+      "metric_name": "Reaction recognition",
+      "description": "Check whether the selected finish follows a visible cue.",
+      "proficiency_indicators": [
+        "Identifies the cue before committing",
+        "Keeps control when the cue is absent",
+        "Can explain an appropriate follow-up"
+      ]
+    },
+    {
+      "metric_name": "Landing continuity",
+      "description": "Review what happens immediately after the takedown.",
+      "proficiency_indicators": [
+        "Maintains contact through the landing",
+        "Identifies the resulting position",
+        "Responds to the partner's first recovery attempt"
+      ]
+    },
+    {
+      "metric_name": "Training transfer",
+      "description": "Compare cooperative practice with constrained resistance.",
+      "proficiency_indicators": [
+        "Uses the same objective under resistance",
+        "Records where the chain breaks",
+        "Adjusts the next drill to that failure"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice suggestion: divide a round into entry, takedown, and landing, then reconnect them. Begin with cooperative movement on suitable mats beside a padded training boundary. Add one defensive choice at a time and stop after the agreed control or recovery objective. Keep early rounds free of strikes; ask an MMA coach to set the conditions for later integration.",
+    "progression_path": [
+      {
+        "stage": "Cooperative connection",
+        "focus": "Learn the agreed starting contact and the finish with a coach."
+      },
+      {
+        "stage": "Variable cue",
+        "focus": "Let the partner change stance so you must recognize whether the finish is available."
+      },
+      {
+        "stage": "Landing resistance",
+        "focus": "Give the partner one recovery option immediately after the takedown."
+      },
+      {
+        "stage": "Connected positional rounds",
+        "focus": "Link entry, finish, and control with broader defensive choices at an agreed intensity."
+      }
+    ],
+    "common_mistakes": [
+      "Counting the takedown while ignoring the lost landing.",
+      "Assuming open-mat movement is unchanged beside the cage.",
+      "Adding strikes before the grappling task and contact limits are clear.",
+      "Treating a course demonstration as proof that a chain already works in your own rounds."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "MMA Crossover Strategy",
+      "content_type": "System",
+      "relationship": "Broader framework for adapting grappling to MMA exchanges"
+    },
+    {
+      "name": "Standing Position",
+      "content_type": "Position",
+      "relationship": "Starting distance before establishing contact"
+    },
+    {
+      "name": "Clinch",
+      "content_type": "Position",
+      "relationship": "Standing control from which the chain develops"
+    },
+    {
+      "name": "Body Lock",
+      "content_type": "Position",
+      "relationship": "Close connection to study with a selected takedown"
+    },
+    {
+      "name": "Double Leg Entry",
+      "content_type": "Transition",
+      "relationship": "Example takedown entry to compare with the course instruction"
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Possible landing that requires a passing connection"
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Top-control objective after clearing the legs"
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Further positional development once top control is stable"
+    },
+    {
+      "name": "Head Position",
+      "content_type": "Principle",
+      "relationship": "Alignment to examine during clinch exchanges"
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Balance through entry, finish, and landing"
+    },
+    {
+      "name": "Transition Management",
+      "content_type": "Principle",
+      "relationship": "Maintaining useful control between stages"
+    },
+    {
+      "name": "Positional Sparring",
+      "content_type": "Principle",
+      "relationship": "Method for testing a small section of the chain"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What is the objective beyond completing a cage takedown?",
+      "answer": "Continue into a stable top position, identify the landing, and respond to the partner's first recovery attempt."
+    },
+    {
+      "question": "How should you choose the first chain to study?",
+      "answer": "Choose one entry, one coach-approved finish, and an expected landing so you can identify where the sequence breaks."
+    },
+    {
+      "question": "What changes when a clinch moves beside a cage?",
+      "answer": "The boundary restricts some movement, so check the available direction before committing to the planned finish."
+    },
+    {
+      "question": "What should you do when the cue for your takedown is absent?",
+      "answer": "Maintain balance and useful control while looking for an agreed alternative instead of forcing the selected finish."
+    },
+    {
+      "question": "How can you isolate a recurring loss of top control?",
+      "answer": "Begin the exercise at the landing and let the partner attempt one specified recovery before reconnecting the full chain."
+    },
+    {
+      "question": "When should strikes be added to this practice?",
+      "answer": "After the grappling exercise is clear, an MMA coach should define appropriate equipment, permitted contact, and reset conditions."
+    }
+  ],
+  "products": [
+    {
+      "id": "gracie-modern-jiu-jitsu-mma",
+      "title": "Modern Jiu-Jitsu For MMA",
+      "instructor": "Neiman Gracie",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Connects clinch entries to takedowns in open space and against the cage, then studies passing and submissions with strikes in the picture.",
+      "best_for": "Grapplers training with an MMA coach who want to connect standing contact to their top game. The wider course also covers bottom attacks beyond this page's focus.",
+      "study_focus": "Begin with the clinch material, compare the open-floor and cage takedowns, then study the passing section. Choose one standing-to-ground route to discuss with your coach.",
+      "practice_tip": "BJJGraph suggestion: begin from a cooperative cage clinch, complete one coached takedown, and keep the drill running until top control or guard recovery. Review the landing separately from the finish."
+    }
+  ]
+}

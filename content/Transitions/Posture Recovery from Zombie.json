@@ -264,7 +264,7 @@
     ],
     "flashcards": [
       {
-        "question": "Why should you drive weight forward rather than pull backward when recovering posture from the Zombie?",
+        "question": "Recovering posture from Zombie, why drive weight forward rather than pull backward?",
         "answer": "The lockdown is biomechanically designed to resist backward pulling - the bottom player's legs create maximum tension when you try to sit back or pull away. Driving forward changes the angle of force, compressing the lockdown mechanism and reducing its leverage. Forward pressure also flattens the opponent's shoulders to the mat, weakening their underhook and limiting their ability to maintain pulling control. The forward drive works with gravity rather than against the lockdown's designed resistance vector.",
         "answer_line": "Drive forward, not backward",
         "distractors": {
@@ -334,7 +334,7 @@
         }
       },
       {
-        "question": "How do you differentiate between the opponent releasing lockdown intentionally versus lockdown naturally loosening during recovery?",
+        "question": "From Zombie top, how do you tell an intentional lockdown release from natural loosening?",
         "answer": "An intentional lockdown release feels sudden and is accompanied by the opponent's hips shooting backward to create space for closed guard recovery. Their legs will immediately begin working to close behind your back. A natural loosening from your recovery pressure is gradual, with tension slowly decreasing as your posture improves. The critical difference in your response: if you feel sudden release with hip movement, immediately drive hips forward to prevent guard closure. If you feel gradual loosening, continue your systematic recovery and transition to passing when the lockdown is fully defeated.",
         "answer_line": "Sudden hip shoot means release",
         "distractors": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "question": "Your opponent switches from lockdown to a deep underhook and starts coming up to dogfight during your recovery - what adjustment do you make?",
+        "question": "Recovering from Zombie, they underhook and come up to dogfight — what adjustment do you make?",
         "answer": "This is a common transition the bottom player makes when they feel the lockdown losing effectiveness. Immediately counter by driving a deep whizzer over their underhook arm while simultaneously sprawling your hips back to create downward pressure on their shoulder. The sprawl prevents them from completing the sit-up to dogfight, while the whizzer removes their underhook leverage. If they manage to reach dogfight despite your counter, crossface aggressively and drive them back to the mat rather than engaging in the dogfight exchange where they have sweep opportunities.",
         "answer_line": "Whizzer plus sprawl hips back",
         "distractors": {
@@ -509,7 +509,7 @@
         }
       },
       {
-        "question": "When should you choose to release lockdown and recover closed guard versus maintaining lockdown control?",
+        "question": "Holding Zombie, when should you release lockdown to recover closed guard instead of keeping it?",
         "answer": "Release lockdown and recover closed guard when three conditions are met: the opponent has established strong crossface preventing you from maintaining chest-to-chest connection, your lockdown tension is diminishing because their posture recovery is well advanced, and you still have enough hip mobility to shrimp back and close your guard before they can react. If any of these conditions is not met, maintain lockdown. Releasing too early wastes the positional advantage you built, while releasing too late means you will not have the space needed to close guard.",
         "answer_line": "Crossface, fading grip, hip room",
         "distractors": {
@@ -523,7 +523,7 @@
         }
       },
       {
-        "question": "How do you use the Old School Sweep threat to prevent posture recovery without fully committing to the sweep?",
+        "question": "How do you threaten the Old School Sweep from Zombie to stall posture recovery without committing?",
         "answer": "Initiate the Old School Sweep motion by posting on your far foot and driving your hips toward the opponent, creating the initial elevation that signals sweep danger. This forces the top player to immediately widen their base and drop weight forward to defend, which resets their recovery progress. You do not need to complete the sweep - the threat alone disrupts their recovery sequence. Return to your lockdown control position after they react defensively. This constant threatening keeps them defensive and unable to commit fully to recovery.",
         "answer_line": "Threaten sweep, don't commit",
         "distractors": {
@@ -537,7 +537,7 @@
         }
       },
       {
-        "question": "Your lockdown is starting to lose tension because the opponent is compressing your legs with hip pressure - what do you do?",
+        "question": "Your Zombie lockdown loses tension as they compress your legs with hip pressure — what do you do?",
         "answer": "First, re-engage the lockdown by hooking your foot deeper behind their calf and re-squeezing your thighs together with renewed effort. If the compression has advanced too far for re-engagement, immediately transition to one of two options: initiate a sweep attempt while you still have partial lockdown control, using whatever remaining tension you have to off-balance them, or begin the tactical lockdown release sequence by framing with your arms, shrimping your hips back, and working to close your guard. Never hold a failing lockdown passively.",
         "answer_line": "Re-hook deep, re-squeeze legs",
         "distractors": {
@@ -551,7 +551,7 @@
         }
       },
       {
-        "question": "What is the most dangerous phase of the opponent's posture recovery from your perspective as the defender?",
+        "question": "Defending Zombie, which phase of their posture recovery is most dangerous for you?",
         "answer": "The most dangerous phase is when the opponent has established crossface and begun driving their weight forward but has not yet extracted their leg from the lockdown. At this point, they have upper body control limiting your offensive options, but they are applying maximum downward pressure on your lockdown which is progressively weakening your leg grip. If you do not act during this window - either by launching an aggressive sweep or transitioning to closed guard - you will reach a point where both your lockdown and your upper body grips are compromised simultaneously, leading to the pass.",
         "answer_line": "Crossface set, leg still trapped",
         "distractors": {

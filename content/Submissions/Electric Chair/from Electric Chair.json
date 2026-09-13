@@ -330,7 +330,7 @@
         }
       },
       {
-        "question": "What are the visual and tactile indicators that you are approaching the breaking point of the submission?",
+        "question": "Finishing the Electric Chair, what tells you the breaking point is close?",
         "answer": "Key indicators include increasing rigidity in the opponent's resistance as they approach their flexibility limit, visible distress in facial expression or body tension, the opponent's free leg beginning to scramble or push desperately against the mat, and a noticeable change in their breathing pattern becoming rapid or shallow. The attacker should feel progressively more structural resistance followed by a point where the hip structure begins to give.",
         "safety_critical": true,
         "answer_line": "Rigidity climbs, then hip gives",
@@ -359,7 +359,7 @@
         }
       },
       {
-        "question": "At what point during the Electric Chair does the submission become effectively inescapable for the defender?",
+        "question": "When does the Electric Chair become effectively inescapable for the defender?",
         "answer": "The submission becomes extremely difficult to escape once the attacker has achieved full perpendicular angle with all three control points locked in and the split has progressed past approximately 70% of the opponent's flexibility range. At this point, the defender lacks the leverage to squeeze their knees back together and the attacker's mechanical advantage is overwhelming. The critical escape window is during the angle creation phase before full splitting pressure is applied.",
         "answer_line": "Perpendicular angle, 70% split",
         "distractors": {
@@ -387,7 +387,7 @@
         }
       },
       {
-        "question": "How should you adjust your grips if the opponent begins successfully resisting the split by squeezing their knees together?",
+        "question": "They squeeze their knees together to resist your Electric Chair split — how do you adjust?",
         "answer": "When the opponent squeezes knees to resist, first verify your lockdown is tight by re-engaging the heel pull and ankle cross. Then adjust the splitting angle by hip escaping further to create a more perpendicular line of force against their knee squeeze. Pulsate the pressure by briefly reducing and then rapidly re-engaging the split to find gaps in their defensive contraction. If knee squeeze defense remains strong, transition to the Old School sweep to capitalize on their defensive commitment to keeping legs together.",
         "answer_line": "Tighten heel, re-angle, then pulse",
         "distractors": {
@@ -681,7 +681,7 @@
         }
       },
       {
-        "question": "Why is it critical to defend the Electric Chair before the attacker achieves full perpendicular angle?",
+        "question": "Why must you defend the Electric Chair before they reach the perpendicular angle?",
         "answer": "Once the attacker achieves perpendicular angle with all three control points established (lockdown, underhook, ankle), the mechanical advantage of the split becomes overwhelming. At this point, knee squeeze defense alone cannot resist the splitting force, and the attacker's leverage multiplies significantly with each degree of additional angle. Early defense when the attacker is still establishing controls requires far less energy and has substantially higher success rates than late-stage defense attempts.",
         "safety_critical": false,
         "answer_line": "Leverage multiplies with angle",
@@ -696,7 +696,7 @@
         }
       },
       {
-        "question": "What is the safest immediate response when you feel the splitting pressure beginning to build on your hip?",
+        "question": "Electric Chair splitting pressure is building on your hip — what is the safest response?",
         "answer": "The safest immediate response is to simultaneously squeeze your knees together as tightly as possible while driving your chest weight forward onto the opponent's upper body. This combination prevents the split from progressing while limiting the attacker's ability to create a better perpendicular angle. Do not attempt to rip your leg free, as this can worsen the split. Focus on nullifying the current pressure first, then systematically work to break the lockdown configuration.",
         "safety_critical": true,
         "answer_line": "Knees pinch, chest drives forward",
@@ -711,7 +711,7 @@
         }
       },
       {
-        "question": "How should you respond if you feel you cannot escape and the submission pressure is continuing to increase?",
+        "question": "Electric Chair pressure keeps rising and you can't escape — what should you do?",
         "answer": "Tap immediately. The Electric Chair attacks the hip joint and groin where injury can occur rapidly and without adequate warning sensation. Unlike chokes which allow a brief period of defense before unconsciousness, the Electric Chair can cause a sudden groin tear or hip labral injury with just slightly more pressure than you can currently endure. There is no safe way to test your flexibility limits under live submission pressure. If the splitting pressure is significant and you cannot escape, tapping and resetting is always the correct decision.",
         "safety_critical": true,
         "answer_line": "Tap immediately",
@@ -726,7 +726,7 @@
         }
       },
       {
-        "question": "After successfully escaping the Electric Chair, what position should you immediately work to establish?",
+        "question": "After escaping the Electric Chair, which position should you establish immediately?",
         "answer": "After escaping, immediately work to establish standard half guard top position by driving your weight forward through crossface or shoulder pressure and securing your free leg in a wide base for stability. Focus on breaking whatever remains of the lockdown configuration before the opponent can re-engage the leg control. If the lockdown is already broken, transition directly to a passing sequence such as knee slice or smash pass to capitalize on the scramble before the opponent can re-establish their lockdown guard system.",
         "answer_line": "Half guard top, break lockdown",
         "distractors": {

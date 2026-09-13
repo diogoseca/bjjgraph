@@ -274,7 +274,7 @@
         "answer_line": "Near shoulder frame, far hip frame"
       },
       {
-        "question": "Your opponent drives forward and collapses your frames as you attempt to shrimp—what adjustment do you make?",
+        "question": "Your frames collapse as they drive forward during your leg drag escape — what adjustment?",
         "answer": "When frames collapse, do not continue the shrimp escape attempt. Instead, immediately turn into your opponent and fight aggressively for an underhook on the side they're driving. Accept transitioning to half guard rather than losing the position entirely. The frame collapse indicates the escape window has closed.",
         "answer_line": "Turn in, fight for underhook",
         "distractors": {
@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "Your initial shrimp creates space but opponent follows and maintains leg control—what is your response?",
+        "question": "Your shrimp made space but they keep the leg drag — what's your response?",
         "answer": "Chain multiple shrimps in the same direction, each building more separation. Alternatively, suddenly switch shrimping direction to catch opponent off-balance as they commit to following one direction. Re-establish frames after each shrimp and continue until sufficient space exists for leg extraction.",
         "answer_line": "Chain shrimps, or switch direction",
         "distractors": {
@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "Your opponent releases your leg and advances toward side control during your escape—is this a success or failure?",
+        "question": "They drop the leg drag and move to side control during your escape — success or failure?",
         "answer": "This is a success—the leg drag threat is removed. Immediately capitalize by inserting a knee shield or continuing your hip escape to establish guard before they consolidate side control. Your escape forced them to abandon the leg drag, achieving your primary objective of removing that specific control.",
         "answer_line": "Success — leg drag removed",
         "distractors": {
@@ -538,7 +538,7 @@
         }
       },
       {
-        "question": "Your opponent fires an explosive shrimp and creates significant hip separation—should you chase or transition?",
+        "question": "They shrimp explosively out of your leg drag — chase the leg or transition?",
         "answer": "Transition rather than chase. If a single explosive shrimp creates meaningful separation, trying to re-establish leg drag control from the new distance is a losing proposition—they will chain additional shrimps while you chase. Instead, immediately release the leg and drive into side control consolidation before they can insert a knee or establish guard. Converting to side control preserves your dominant position.",
         "answer_line": "Release leg, take side control",
         "distractors": {

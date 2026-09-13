@@ -72,7 +72,7 @@ description: "How to defend against X Pass in BJJ. Recognition cues, defensive o
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun the X Pass and you feel their crossface deepening. What defensive priority should you focus on first?",
+      "name": "On bottom half guard, their X Pass crossface is deepening — what defensive priority comes first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your first priority is preventing your shoulders from being flattened to the mat. Fight to stay on your side by turning into the passer using your bottom elbow as a post and hip escaping to maintain your side-facing position. If your shoulders flatten, your entire defensive structure collapses and the passer can freely drive the angle and clear your legs. Staying on your side preserves hip mobility, frame effectiveness, and access to the underhook that can convert the exchange to your offensive advantage."

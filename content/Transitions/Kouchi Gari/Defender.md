@@ -56,7 +56,7 @@ description: "How to defend against Kouchi Gari in BJJ. Recognition cues, defens
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest cue that your opponent is setting up Kouchi Gari, and why is early recognition critical?",
+      "name": "What is the earliest cue of a Kouchi Gari setup, and why does spotting it early matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in their grip angle combined with a diagonal pull on your collar or neck toward your rear corner. This kuzushi phase precedes the actual reap by roughly half a second. Early recognition is critical because once the base leg steps in and the reap initiates, defensive options drop dramatically—the technique's execution window is extremely short and the off-balance is already established."
@@ -72,7 +72,7 @@ description: "How to defend against Kouchi Gari in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent attempts Kouchi Gari and you successfully step your targeted leg back—what counter opportunity does this create?",
+      "name": "You step your targeted leg back from Kouchi Gari — what counter does that open?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you successfully retract the targeted leg, the opponent is left committed forward with their base leg deep and their reaping leg extended behind them. They are momentarily on one leg with forward momentum. This creates an excellent window for Osoto Gari on their base leg, a snap down to front headlock using their forward lean, or simply re-engaging grips from a now superior angle while they recover their stance."
@@ -88,7 +88,7 @@ description: "How to defend against Kouchi Gari in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "What makes counter Kouchi Gari on the attacker's base leg an effective but high-risk defensive option?",
+      "name": "Why is countering Kouchi Gari on the attacker's base leg effective but high-risk?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "It is effective because the attacker has committed their weight forward onto their base leg and their reaping leg is occupied, meaning their base leg is loaded and stationary—the ideal condition for Kouchi Gari. It is high-risk because the timing must be precise: too early and you lack the commitment to read, too late and the original throw lands first. Mistiming can result in both practitioners falling uncontrolled with neither having positional advantage on landing."

@@ -64,7 +64,7 @@ description: "Complete guide to defending against guard pass attempts from New Y
     },
     {
       "@type": "Question",
-      "name": "Why is transitioning to an alternative rubber guard position sometimes better than fighting to maintain the overhook?",
+      "name": "Why leave the overhook for another rubber guard position instead of fighting to keep it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Fighting a compromised overhook wastes energy and allows the top player to methodically complete extraction against weakening resistance. Proactive transition to Mission Control, Invisible Collar, or Crackhead Control preserves your overall guard structure and offensive capability while denying the top player the completed extraction they need to begin the leg clearance phase."

@@ -82,7 +82,7 @@ description: "Execute the guard pull from standing in BJJ. Step-by-step grip set
     },
     {
       "@type": "Question",
-      "name": "What grip configurations must be established before attempting the guard pull and why are they critical?",
+      "name": "Which grips must you set before pulling guard from standing, and why are they critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must establish at least one dominant controlling grip before initiating the sit. In gi, a cross collar grip at chest level combined with a same-side sleeve grip at the wrist provides the strongest control configuration. The collar grip creates a pulling angle that loads the opponent's weight forward while giving immediate posture-breaking ability once guard is closed. The sleeve grip prevents their free hand from posting on your hip or establishing a frame that blocks guard closure — covering the two primary defensive responses to guard pull attempts."

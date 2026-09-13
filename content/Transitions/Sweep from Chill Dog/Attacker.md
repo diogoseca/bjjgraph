@@ -90,7 +90,7 @@ description: "Learn to execute the Sweep from Chill Dog reversal to mount. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent's weight suddenly increases on your upper back during a grip transition - is this the right moment to sweep?",
+      "name": "Their weight spikes on your upper back during a grip change: is this the moment to sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes, this is an excellent sweep window. The increased forward pressure during a grip transition means the opponent's weight is committed forward while their hands are momentarily occupied with changing grips rather than available for posting or base maintenance. Their forward commitment provides the mechanical vulnerability the sweep exploits, and their grip transition means they cannot immediately post to stop the reversal. Execute the arm control and sit-out explosively within the one to two second window before the new grip is established."
@@ -98,7 +98,7 @@ description: "Learn to execute the Sweep from Chill Dog reversal to mount. Step-
     },
     {
       "@type": "Question",
-      "name": "You initiate the sit-out but feel the opponent beginning to sprawl - what is your immediate chain response?",
+      "name": "Your Chill Dog sit-out starts and you feel them sprawl: what is your chain response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately redirect into a Granby roll in the direction opposite to your sit-out. The opponent's sprawl drives their hips backward and their weight forward, which is exactly the weight distribution that makes a Granby roll most effective. Their backward hip drive creates the forward space you need for the Granby rotation. Do not try to force the sit-out against a sprawl - the chain from failed sweep to Granby is a higher-percentage combination than committing against the counter."

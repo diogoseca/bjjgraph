@@ -241,7 +241,7 @@
         }
       },
       {
-        "question": "Your opponent begins hand-fighting your foot behind their head - how do you decide between continuing gogoplata and initiating recovery?",
+        "question": "They hand-fight your gogoplata foot: how do you decide to finish or recover Mission Control?",
         "answer": "Evaluate shin angle and hip elevation. If your shin is still perpendicular to their throat and your hips are elevated, continue the gogoplata attempt by pulling your foot deeper. If shin angle has become parallel or hips have dropped significantly, initiate recovery immediately before they fully escape.",
         "answer_line": "Check shin angle, hip height",
         "distractors": {
@@ -255,7 +255,7 @@
         }
       },
       {
-        "question": "What is the critical hip positioning requirement during the transition from gogoplata to Mission Control?",
+        "question": "What hip positioning is critical while transitioning from gogoplata back to Mission Control?",
         "answer": "Hips must remain elevated throughout the transition, never dropping flat to the mat. This maintains the angle needed for Mission Control to be effective and prevents the opponent from driving forward during the recovery. Core engagement keeps the pelvis tilted toward the ceiling.",
         "answer_line": "Keep hips elevated",
         "distractors": {
@@ -269,7 +269,7 @@
         }
       },
       {
-        "question": "Your opponent drives forward aggressively as you withdraw your shin - what immediate adjustment should you make?",
+        "question": "They drive forward as you withdraw your shin from the gogoplata: what adjustment do you make?",
         "answer": "Use the overhook to redirect their forward momentum laterally rather than absorbing it directly. As they drive forward, angle your hips and use the overhook to guide them past you, transitioning to omoplata setup. Their aggression provides the rotation needed for the omoplata angle.",
         "answer_line": "Redirect into omoplata via overhook",
         "distractors": {
@@ -311,7 +311,7 @@
         }
       },
       {
-        "question": "After placing your foot behind the opponent's shoulder blade, what must happen immediately to consolidate Mission Control?",
+        "question": "With your foot behind their shoulder blade, what locks Mission Control immediately?",
         "answer": "You must grab your own shin with your free hand to lock the position. Simultaneously pull your knee toward your chest while using the overhook arm to push the opponent's head down. This creates the stable Mission Control configuration that enables subsequent attack chains.",
         "answer_line": "Grab own shin, lock it in",
         "distractors": {
@@ -339,7 +339,7 @@
         }
       },
       {
-        "question": "Your overhook feels loose during the shin withdrawal phase - what should you do before continuing the recovery?",
+        "question": "Your overhook feels loose as you withdraw the shin from gogoplata: what do you do first?",
         "answer": "Stop the leg withdrawal immediately and re-tighten the overhook by threading your arm deeper over their tricep and cinching your grip. The overhook is the primary control mechanism during recovery. Continuing with a loose overhook means the opponent will posture the moment the shin clears their throat, resulting in complete guard loss.",
         "answer_line": "Stop leg, retighten overhook",
         "distractors": {
@@ -493,7 +493,7 @@
         }
       },
       {
-        "question": "Your opponent's shin slides off your throat and they begin reaching for their own shin to lock Mission Control - what is your highest-percentage response?",
+        "question": "Your throat is clear and they reach for their own shin: what is your best response?",
         "answer": "Immediately drive your hips back while turning your trapped shoulder inward to strip the overhook in one motion. The bottom player's attention is divided between securing the leg and maintaining the overhook, creating a brief moment where the overhook is weakest. Combining posture recovery with overhook stripping exploits both vulnerabilities simultaneously during the transition.",
         "answer_line": "Hips back, strip the overhook",
         "distractors": {
@@ -507,7 +507,7 @@
         }
       },
       {
-        "question": "What distinguishes an effective forward pressure defense from one that gets redirected into omoplata?",
+        "question": "What makes your forward pressure defense work instead of feeding their omoplata?",
         "answer": "Effective forward pressure is preceded by controlling or pinning the overhook arm against the bottom player's body, removing their ability to redirect your momentum. Ineffective forward pressure ignores the overhook, allowing the bottom player to angle their hips and use your own driving force to rotate you into omoplata. The overhook arm must be addressed before committing weight forward.",
         "answer_line": "Pin overhook arm first",
         "distractors": {

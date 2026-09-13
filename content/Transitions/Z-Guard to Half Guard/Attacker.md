@@ -90,7 +90,7 @@ description: "Learn to execute the Z-Guard to Half Guard transition as the botto
     },
     {
       "@type": "Question",
-      "name": "What is the single most critical mechanical detail that determines success or failure of this transition?",
+      "name": "In the Z-Guard to Half Guard transition, what mechanical detail decides success or failure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Securing the underhook before withdrawing the knee shield is the most critical mechanical detail. The underhook serves as both your offensive weapon and your defensive insurance during the transition. Without it, dropping the knee shield simply removes your primary defensive barrier and invites crushing crossface pressure. With the underhook established, the knee shield withdrawal becomes an offensive action that closes distance for sweeps rather than a defensive concession that exposes you to passing."

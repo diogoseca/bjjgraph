@@ -56,7 +56,7 @@ description: "How to defend against Long Step Around Ringworm in BJJ. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a Long Step Around Ringworm?",
+      "name": "What is the earliest cue that they are setting up the Long Step Around Ringworm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The cupping grip on your far hip is the earliest and most reliable cue. This anchor grip precedes every long step attempt because the passer needs it to prevent your hip chase. When you feel or see this grip establish, begin preparing your defensive response immediately rather than waiting for the step itself."
@@ -72,7 +72,7 @@ description: "How to defend against Long Step Around Ringworm in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent has landed their long step foot and is beginning to drive shoulder pressure—what is your best remaining defensive option?",
+      "name": "They landed the long step and are driving shoulder pressure: what is your best remaining defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, abandon the lapel configuration entirely and establish standard defensive frames against their shoulder and hip. Insert your knee as a shield to prevent chest-to-chest contact and begin standard half guard or side control escape sequences. The ringworm game is over once they've completed the arc—clinging to useless lapel wraps delays the transition to effective defensive framing."
@@ -88,7 +88,7 @@ description: "How to defend against Long Step Around Ringworm in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "When should you abandon your ringworm configuration during defense rather than trying to maintain it?",
+      "name": "When should you abandon your ringworm lapel configuration instead of trying to keep it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the configuration when the passer has successfully stepped past your far hip and is driving forward pressure. At that point, the lapel wraps no longer control relevant passing lanes and keeping your hands in fabric delays establishing the defensive frames you need for guard recovery. The transition from lapel game to standard defense must be immediate and decisive."

@@ -50,7 +50,7 @@ description: "Learn to recognize and exploit the transition window when your opp
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary tactile cue that indicates the attacker is initiating a fallback from saddle to inside ashi?",
+      "name": "Defending Saddle, what tactile cue tells you the attacker is falling back to inside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable cue is feeling the attacker's deeper leg configuration (figure-four or similar entanglement) loosen around your trapped leg. This is accompanied by a reduction in hip pressure as they shift weight to reconfigure. You may also feel their grip change from a finishing position (heel cup) to a transitional grip (ankle control). These changes happen in sequence and provide a 1-2 second warning before the new position is established."
@@ -58,7 +58,7 @@ description: "Learn to recognize and exploit the transition window when your opp
     },
     {
       "@type": "Question",
-      "name": "Why is the transition from saddle to inside ashi the best escape opportunity compared to escaping either position independently?",
+      "name": "Why is the Saddle-to-inside-ashi transition a better escape window than either position alone?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the attacker must release their deeper saddle controls before the simpler ashi structure is fully established. This creates a brief window where their leg entanglement is at its weakest—the deeper configuration is gone but the new configuration is not yet complete. Neither saddle nor inside ashi alone presents this vulnerability, because in each position all control elements are working together. The transition disrupts this synergy and creates exploitable gaps."
@@ -66,7 +66,7 @@ description: "Learn to recognize and exploit the transition window when your opp
     },
     {
       "@type": "Question",
-      "name": "Your attacker begins the fallback but you cannot fully escape during the transition window—what should you prioritize?",
+      "name": "You can't escape during their fallback from Saddle: what should you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If complete escape is not achievable, prioritize making the resulting inside ashi-garami as compromised as possible. Strip their ankle grip, prevent their inside leg from firmly crossing your hip, and create maximum space between your bodies. A loose, compromised inside ashi is dramatically easier to escape than a consolidated one. Every disruption you create during the transition compounds into defensive advantage in the next exchange. Accept that you may need to escape inside ashi in a second step rather than achieving everything in one movement."

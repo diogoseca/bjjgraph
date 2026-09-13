@@ -320,7 +320,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent has a strong knee shield and you feel them starting to bump you off-balance - what immediate adjustment should you make?",
+        "question": "Their Z-Guard knee shield is strong and they start bumping you off balance—what do you do?",
         "answer": "Widen your base by spreading your knees further apart and drop your hips lower to create a more stable platform. Shift your weight forward into their knee shield rather than pulling back, as retreating only gives them more space to work. Simultaneously look to control their far arm or establish a collar grip to prevent them from coordinating the bump with an underhook entry.",
         "answer_line": "Widen base, weight forward",
         "distractors": {
@@ -404,7 +404,7 @@
         }
       },
       {
-        "question": "How do you manage energy when facing a skilled Z-Guard player who maintains excellent frame integrity?",
+        "question": "How do you manage energy against a Z-Guard player with excellent frame integrity?",
         "answer": "Avoid constant maximum pressure which burns energy without results. Use intermittent pressure bursts combined with grip fighting to tire them out while conserving your own energy. Make them carry your weight by settling into the position rather than actively fighting every moment. Focus on winning small battles - strip one grip, collapse the frame slightly, control one arm - rather than trying to pass in one explosive effort.",
         "answer_line": "Intermittent bursts, small wins",
         "distractors": {
@@ -418,7 +418,7 @@
         }
       },
       {
-        "question": "After their knee shield partially collapses but they haven't fully given up the position, what's your recovery strategy?",
+        "question": "Passing Z-Guard, their knee shield partly collapses but holds—what is your recovery strategy?",
         "answer": "Immediately establish a dominant control point before they can re-extend their frame - either secure the crossface, control their pants at the knee, or establish your underhook. Keep your hips heavy on the collapsed shield to prevent re-extension. From this halfway point, you can choose between completing the knee slice if there's enough space, or resetting with better grips if they're defending well. Don't retreat to neutral - maintain whatever ground you've gained.",
         "answer_line": "Secure control point, stay heavy",
         "distractors": {
@@ -762,7 +762,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts to drive heavy pressure into your knee shield - what adjustment should you make to maintain the position?",
+        "question": "In Z-Guard, they drive heavy pressure into your knee shield—how do you keep the position?",
         "answer": "Rather than fighting the pressure head-on, use hip mobility to create an angle by escaping your hips slightly away from the pressure. Simultaneously extend your knee shield more forcefully into their shoulder while keeping your foot hooked on their hip for additional distance control. If pressure continues to increase, this is actually your cue to transition to deep half guard by allowing them to collapse your frame while you dive underneath them.",
         "answer_line": "Angle hips, extend shield harder",
         "distractors": {
@@ -846,7 +846,7 @@
         }
       },
       {
-        "question": "How do you manage energy when facing a heavy pressure passer who is systematically working to collapse your frames?",
+        "question": "In Z-Guard, how do you manage energy against a pressure passer collapsing your frames?",
         "answer": "Conserve energy by using frames and leverage rather than muscular resistance. Let your skeletal structure bear the weight through proper knee shield positioning rather than holding them off with arm strength. Use opponent's pressure to load your sweeps - when they push, that energy can be redirected into sweep attempts. If position becomes too compromised, transition to deep half rather than exhausting yourself defending a deteriorating Z-Guard.",
         "answer_line": "Use frames, redirect pressure",
         "distractors": {
@@ -860,7 +860,7 @@
         }
       },
       {
-        "question": "After your knee shield partially collapses but you haven't been passed, what's your recovery strategy?",
+        "question": "Your Z-Guard knee shield partly collapses but you aren't passed—what's your recovery strategy?",
         "answer": "Immediately make a decision - either re-establish the knee shield or commit to a transition. To recover, hip escape aggressively while using your arms to frame and create space, then re-insert the knee shield before they can settle their weight. If recovery isn't possible, accept the collapse and dive into deep half guard using their forward momentum. The worst option is staying in the halfway position where you have neither good defense nor offensive options.",
         "answer_line": "Re-insert shield or go deep half",
         "distractors": {
@@ -934,7 +934,7 @@
       }
     },
     {
-      "question": "What are the primary contact and control points that hold the Z-Guard configuration together for both players?",
+      "question": "Which contact and control points hold Z-Guard together for both players?",
       "answer": "The position is anchored by three simultaneous points working as an integrated system rather than in isolation. The knee shield shin presses into the shoulder or upper chest to manage distance, the trapped inside leg wraps the top player's leg to deny leg extraction, and the underhook-versus-crossface battle on the near side governs whose posture and angle wins. The bottom player's shielding-side foot typically hooks the hip or thigh to reinforce the distance the shin creates. Because these points reinforce each other, collapsing any one of them tends to unravel the others.",
       "answer_line": "Shin, trapped leg, underhook",
       "distractors": {
@@ -990,7 +990,7 @@
       }
     },
     {
-      "question": "How does Z-Guard relate to and differ from the adjacent positions of deep half guard and standard knee shield half guard?",
+      "question": "How does Z-Guard relate to and differ from deep half and standard knee shield half guard?",
       "answer": "Z-Guard sits between open guard and deep half guard in the retention hierarchy, distinguished by its high shin frame targeting the shoulder rather than the hip contact that defines standard knee shield half guard. When forward pressure collapses the knee shield, the natural escape hatch is to dive underneath into deep half guard, using the top player's own momentum. In this sense deep half is the primary release valve when the Z-frame fails, while standard knee shield half is the lower-leverage cousin from which Z-Guard is elevated. The trapped inside leg is the common thread linking all three as half guard family positions.",
       "answer_line": "Deep half is the escape hatch",
       "distractors": {
@@ -1004,7 +1004,7 @@
       }
     },
     {
-      "question": "Why is the collapse of the knee shield the pivotal event that decides how a Z-Guard exchange resolves?",
+      "question": "Why is knee shield collapse the pivotal event deciding how a Z-Guard exchange resolves?",
       "answer": "As long as the shin maintains its high frame and tension, the top player cannot consolidate weight and the bottom player retains both sweeping and retention options. Once the shield collapses and the top player settles chest pressure, the leverage that defined the position vanishes and the exchange tips decisively toward a pass. This is why the moment of partial collapse is treated as a hard decision point by both players: the top player rushes to establish a control point before the frame re-extends, while the bottom player must immediately either re-insert the shield or bail into deep half. Lingering in the half-collapsed middle leaves neither player their intended tools.",
       "answer_line": "Collapse tips control to passer",
       "distractors": {

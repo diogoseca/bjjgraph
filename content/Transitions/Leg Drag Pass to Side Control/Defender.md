@@ -72,7 +72,7 @@ description: "How to defend against Leg Drag Pass to Side Control in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the crossface but has not yet cleared your leg—what is your best defensive option?",
+      "name": "They have the crossface but haven't cleared your leg. Best defensive option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With crossface established but leg still in play, fight for the near-side underhook and attempt to turn into the passer rather than away. The underhook creates a scramble dynamic that disrupts their sequential consolidation. Simultaneously use your free leg to post on the mat for leverage and create enough space to recover your trapped knee inside their body. This is your secondary defensive layer after the crossface prevention fails."
@@ -80,7 +80,7 @@ description: "How to defend against Leg Drag Pass to Side Control in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between the passer consolidating to side control versus transitioning to back take?",
+      "name": "From leg drag bottom, how do you tell side control consolidation from a back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch the direction of their chest rotation and hip pressure. For side control consolidation, their chest rotates toward perpendicular alignment across your torso and their hips drive forward. For back take, they maintain their angled position and begin circling behind you, often releasing shoulder control to reach over your back. Recognizing this distinction is critical because the defensive responses are opposite—side control defense requires facing them, while back take defense requires preventing rotation."
@@ -88,7 +88,7 @@ description: "How to defend against Leg Drag Pass to Side Control in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "What specific body positioning should you maintain to maximize your defensive options during the consolidation?",
+      "name": "What body position preserves your defensive options as they consolidate from the leg drag?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stay on your side facing the passer with your near-side elbow connected to your knee, creating a structural frame. Your forearm should be positioned across their shoulder or bicep to block the crossface. Your far arm posts on the mat behind you for base. Your free leg posts on the mat with foot flat for hip escape power. This position preserves both the crossface denial and the loaded hip escape needed for knee insertion during the transition."

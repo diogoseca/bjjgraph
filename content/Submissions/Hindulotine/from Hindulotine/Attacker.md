@@ -76,7 +76,7 @@ description: "Learn to finish the Hindulotine choke from Hindulotine control. St
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Hindulotine finish primarily target, and how does the rotational mechanic affect the pressure vector?",
+      "name": "What does the Hindulotine target, and how does the rotation change the pressure vector?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Hindulotine primarily targets both carotid arteries through bilateral compression. The rotational torque from hip angling creates a spiraling pressure vector around the neck rather than a direct front-to-back squeeze, which closes both arteries simultaneously from different angles. This is more effective than linear pulling because the carotids are positioned laterally and respond to circumferential compression."
@@ -84,7 +84,7 @@ description: "Learn to finish the Hindulotine choke from Hindulotine control. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins aggressively posturing up while you have the Hindulotine grip locked - what adjustment prevents escape?",
+      "name": "They posture up hard with your Hindulotine locked: what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their rise by maintaining the grip while pulling your elbows tight to your body and curling your torso forward. Simultaneously use your legs to pull their hips toward you, removing the base they need to posture. If they achieve significant posture, snap them back down with a sharp pull combined with a hip sprawl. If posture is fully recovered, abandon the finish and transition to front headlock control to reset rather than chasing a deteriorating position."
@@ -92,7 +92,7 @@ description: "Learn to finish the Hindulotine choke from Hindulotine control. St
     },
     {
       "@type": "Question",
-      "name": "What are the indicators that the Hindulotine is fully locked and the opponent has reached the point of no escape?",
+      "name": "What indicates the Hindulotine is locked and your opponent can no longer escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when your forearm blade is seated high under the chin with no gap, your hips are angled perpendicular creating full rotational torque, and the opponent's posture is completely broken with their head below your chest. At this stage, their face will change color, their defensive movements become weaker and less coordinated, and they cannot generate the posture or angle needed to relieve pressure regardless of strength."
@@ -100,7 +100,7 @@ description: "Learn to finish the Hindulotine choke from Hindulotine control. St
     },
     {
       "@type": "Question",
-      "name": "What control must be established before attempting the Hindulotine finish, and why is sequencing critical?",
+      "name": "What controls must be set before finishing the Hindulotine, and why does the order matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before finishing, you must have the chin strap grip locked high under the chin, hips angled perpendicular to the spine, and leg control preventing circling. Attempting the finish without leg control allows the opponent to circle out. Attempting without proper hip angle reduces the technique to a standard guillotine pull. Attempting with a low grip wastes energy on muscular neck tissue. Each element removes one defensive option, and only the combination creates an inescapable position."
@@ -108,7 +108,7 @@ description: "Learn to finish the Hindulotine choke from Hindulotine control. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly to prevent the forearm blade from seating under the jaw - what grip adjustment do you make without releasing pressure?",
+      "name": "They tuck the chin against your blade: what grip fix works without releasing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walk the choking arm incrementally higher by making micro-adjustments while maintaining constant pressure. Angle your hips more sharply perpendicular and pull your elbow toward your opposite hip to create rotational torque that works around the chin tuck. The rotation generates pressure on the carotids even through a tucked chin because it compresses laterally rather than requiring the blade to be directly under the jaw."

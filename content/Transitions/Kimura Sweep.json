@@ -366,7 +366,7 @@
         }
       },
       {
-        "question": "Your opponent stacks forward aggressively to nullify your hip escape angle. What chain attack do you pursue?",
+        "question": "They stack forward to kill your angle for the Kimura sweep from closed guard — what chain attack?",
         "answer": "Use their forward momentum against them by switching to a pendulum sweep or elevator sweep. Their committed forward weight shift eliminates their ability to post backward, making them highly vulnerable to sweeps that redirect their momentum over your head or to the side.",
         "answer_line": "Pendulum or elevator sweep",
         "distractors": {
@@ -540,7 +540,7 @@
         }
       },
       {
-        "question": "Your opponent opens their guard and posts a foot to begin the sweep drive. What defensive adjustment do you make?",
+        "question": "Defending the Kimura sweep, they open guard and post a foot to drive — what adjustment do you make?",
         "answer": "Post your free hand on the mat on the side they are sweeping you toward while dropping your hip on the opposite side. The posted hand creates a tripod base absorbing the sweep momentum. Simultaneously, attempt to trap their posted foot with your leg to eliminate their driving platform and collapse the sweep mechanics.",
         "answer_line": "Post hand, trap their foot",
         "distractors": {

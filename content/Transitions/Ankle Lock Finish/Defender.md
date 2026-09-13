@@ -56,7 +56,7 @@ description: "How to defend against Ankle Lock Finish in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first thing you should do when you recognize the attacker is transitioning from positional control to an ankle lock finish attempt?",
+      "name": "What's your first action when they shift from control to an ankle lock finish attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use both hands to control the attacker's wrist that is moving toward your Achilles tendon, preventing them from establishing the forearm-to-Achilles contact that enables the finish. Stopping grip establishment is far more energy-efficient and effective than trying to strip a secured grip or resist breaking pressure once it has been applied."

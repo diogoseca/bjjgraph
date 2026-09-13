@@ -16,14 +16,19 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute {{name}} in BJJ",
-  "description": "Step-by-step guide for {{name}} from {{from_position}}. Possible outcomes: {% for outcome in outcomes %}{{outcome.to}} ({{outcome.probability}}%){{ ', ' if not loop.last else '' }}{% endfor %}.",
+  "name": {{ ("How to Execute " ~ (name) ~ " in BJJ") | jsonstr }},
+  {#- the loop is built OUTSIDE the string so jsonstr can quote the whole value; ', '.join == the
+      old per-item `', ' if not loop.last` joiner. `pct` supplies its own "%" (and the absent-frame
+      marker in its place), so the literal one that used to sit here is gone. #}
+  {%- set _outcome_bits = [] %}
+  {%- for outcome in outcomes %}{% set _ = _outcome_bits.append((outcome.to) ~ " (" ~ (outcome.probability | pct) ~ ")") %}{% endfor %}
+  "description": {{ ("Step-by-step guide for " ~ (name) ~ " from " ~ (from_position) ~ ". Possible outcomes: " ~ (_outcome_bits | join(", ")) ~ ".") | jsonstr }},
   "step": [
     {%- for step in execution_steps[:8] %}
     {
       "@type": "HowToStep",
-      "name": "{{step.action}}",
-      "text": "{{step.description}}",
+      "name": {{ step.action | jsonstr }},
+      "text": {{ step.description | jsonstr }},
       "position": {{loop.index}}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -41,10 +46,10 @@ description: "{{description}}"
     {%- for qa in flashcards[:6] %}
     {
       "@type": "Question",
-      "name": "{{qa.question}}",
+      "name": {{ qa.question | jsonstr }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{qa.answer}}"
+        "text": {{ qa.answer | jsonstr }}
       }
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -56,9 +61,9 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{name}}",
-  "description": "{{description}}",
-  "url": "https://bjjgraph.org/Transitions/{{name.replace(' ', '-')}}",
+  "name": {{ name | jsonstr }},
+  "description": {{ description | jsonstr }},
+  "url": {{ ("https://bjjgraph.org/Transitions/" ~ (name.replace(' ', '-'))) | jsonstr }},
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -74,7 +79,7 @@ description: "{{description}}"
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
     {"@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/"},
-    {"@type": "ListItem", "position": 3, "name": "{{name}}", "item": "https://bjjgraph.org/Transitions/{{name.replace(' ', '-')}}"}
+    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": {{ ("https://bjjgraph.org/Transitions/" ~ (name.replace(' ', '-'))) | jsonstr }}}
   ]
 }
 </script>
@@ -84,8 +89,8 @@ description: "{{description}}"
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "{{ name }}",
-  "description": "{{ summary }}",
+  "name": {{ name | jsonstr }},
+  "description": {{ summary | jsonstr }},
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -102,7 +107,7 @@ description: "{{description}}"
 {{ overview }}
 
 **From Position**: [[{{ resolve(from_position) }}]]
-**Success Rate**: {{success_rate}}%
+**Success Rate**: {{ success_rate | pct }}
 
 </section>
 
@@ -113,7 +118,7 @@ description: "{{description}}"
 | Result | Position | Probability |
 |--------|----------|-------------|
 {% for outcome in outcomes -%}
-| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to) }}]] | {{ outcome.probability }}% |
+| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to) }}]] | {{ outcome.probability | pct }} |
 {% endfor %}
 
 </section>

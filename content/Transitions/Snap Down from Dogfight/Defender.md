@@ -64,7 +64,7 @@ description: "Defend against the snap down from dogfight position. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is driving forward with the underhook an effective counter to the snap down rather than a risky overcommitment?",
+      "name": "Why is driving forward on your underhook a sound counter to the dogfight snap down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The snap down requires the opponent to pull you downward while simultaneously sprawling their hips backward. This backward hip movement weakens their base in the forward direction precisely when you drive forward. Your underhook drive exploits the direction they are weakest because their weight is moving away from you. The key is timing—you must drive forward at the moment they initiate the snap, not after it has already broken your posture. If timed correctly, your forward momentum combined with their backward sprawl creates a force differential that reverses the position."
@@ -72,7 +72,7 @@ description: "Defend against the snap down from dogfight position. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What defensive posture adjustment should you maintain as a default in dogfight to reduce snap down vulnerability?",
+      "name": "What default head posture in dogfight reduces your vulnerability to the snap down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your forehead pressed into your opponent's shoulder with a slightly tucked chin as your default head position. This accomplishes three things: it denies the collar tie depth needed for an effective snap because your head is pressed against their body rather than exposed in space, it loads your weight forward through your head which increases your resistance to downward pulls, and it keeps your neck in a structurally strong flexed position rather than an extended vulnerable position. This single adjustment reduces snap down effectiveness dramatically even without active defensive responses."
@@ -80,7 +80,7 @@ description: "Defend against the snap down from dogfight position. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent's snap attempt partially breaks your posture and you are now on your hands with your head below shoulder level. What is your immediate priority?",
+      "name": "The snap breaks your posture and your head drops below your shoulders. Immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is tucking your chin tightly to your chest to prevent neck extension and deny the front headlock from consolidating into submission position. Do not attempt to stand up or escape until your chin is secured. Once chin is tucked, use your posting hands to create base and begin circling laterally away from the opponent's chest pressure. If they have not yet secured your far shoulder, this is your window to escape. If they have secured far shoulder control, you must hand-fight to remove that control before circling out. The worst action is attempting to lift your head straight up, as this extends your neck directly into their control."
@@ -88,7 +88,7 @@ description: "Defend against the snap down from dogfight position. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How should your knee base width change when you detect snap down threat in dogfight compared to sweep threat?",
+      "name": "How should your knee base differ for snap down threat versus sweep threat in dogfight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When defending against a snap down, you should widen your knee base slightly and sit your weight back toward your heels rather than leaning forward. This wider, slightly rear-weighted base provides greater resistance to the downward diagonal pull of the snap because your center of gravity is lower and your posting distance is shorter. In contrast, when defending against sweeps in dogfight, your base should be narrower and your weight more forward to prevent being driven backward. Recognizing whether the primary threat is snap down versus sweep allows you to adjust your base proactively rather than reactively."

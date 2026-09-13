@@ -66,7 +66,7 @@ description: "Defend against the Electric Chair in BJJ. Recognition cues, escape
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to defend the Electric Chair before the attacker achieves full perpendicular angle?",
+      "name": "Why must you defend the Electric Chair before they reach the perpendicular angle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the attacker achieves perpendicular angle with all three control points established (lockdown, underhook, ankle), the mechanical advantage of the split becomes overwhelming. At this point, knee squeeze defense alone cannot resist the splitting force, and the attacker's leverage multiplies significantly with each degree of additional angle. Early defense when the attacker is still establishing controls requires far less energy and has substantially higher success rates than late-stage defense attempts."
@@ -74,7 +74,7 @@ description: "Defend against the Electric Chair in BJJ. Recognition cues, escape
     },
     {
       "@type": "Question",
-      "name": "What is the safest immediate response when you feel the splitting pressure beginning to build on your hip?",
+      "name": "Electric Chair splitting pressure is building on your hip — what is the safest response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The safest immediate response is to simultaneously squeeze your knees together as tightly as possible while driving your chest weight forward onto the opponent's upper body. This combination prevents the split from progressing while limiting the attacker's ability to create a better perpendicular angle. Do not attempt to rip your leg free, as this can worsen the split. Focus on nullifying the current pressure first, then systematically work to break the lockdown configuration."
@@ -82,7 +82,7 @@ description: "Defend against the Electric Chair in BJJ. Recognition cues, escape
     },
     {
       "@type": "Question",
-      "name": "How should you respond if you feel you cannot escape and the submission pressure is continuing to increase?",
+      "name": "Electric Chair pressure keeps rising and you can't escape — what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately. The Electric Chair attacks the hip joint and groin where injury can occur rapidly and without adequate warning sensation. Unlike chokes which allow a brief period of defense before unconsciousness, the Electric Chair can cause a sudden groin tear or hip labral injury with just slightly more pressure than you can currently endure. There is no safe way to test your flexibility limits under live submission pressure. If the splitting pressure is significant and you cannot escape, tapping and resetting is always the correct decision."
@@ -90,7 +90,7 @@ description: "Defend against the Electric Chair in BJJ. Recognition cues, escape
     },
     {
       "@type": "Question",
-      "name": "After successfully escaping the Electric Chair, what position should you immediately work to establish?",
+      "name": "After escaping the Electric Chair, which position should you establish immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After escaping, immediately work to establish standard half guard top position by driving your weight forward through crossface or shoulder pressure and securing your free leg in a wide base for stability. Focus on breaking whatever remains of the lockdown configuration before the opponent can re-engage the leg control. If the lockdown is already broken, transition directly to a passing sequence such as knee slice or smash pass to capitalize on the scramble before the opponent can re-establish their lockdown guard system."

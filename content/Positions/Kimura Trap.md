@@ -206,25 +206,29 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (13% of attempts)
+- **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (10% of attempts)
 
-- **[[Transitions/Rolling Kimura/Attacker|Rolling Kimura]]** (15% of attempts)
+- **[[Transitions/Rolling Kimura/Attacker|Rolling Kimura]]** (11% of attempts)
 
-- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (17% of attempts)
+- **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (13% of attempts)
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (13% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (10% of attempts)
 
-- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (13% of attempts)
+- **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (9% of attempts)
 
-- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (8% of attempts)
+- **[[Transitions/Lockdown Recovery/Attacker|Lockdown Recovery]]** (5% of attempts)
 
-- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (6% of attempts)
+- **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** (5% of attempts)
 
-- **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** (6% of attempts)
+- **[[Transitions/Kimura Defense/Attacker|Kimura Defense]]** (4% of attempts)
 
-- **[[Transitions/Kimura Counter via Roll/Attacker|Kimura Counter via Roll]]** (5% of attempts)
+- **[[Transitions/Kimura Counter via Roll/Attacker|Kimura Counter via Roll]]** (4% of attempts)
 
-- **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** (4% of attempts)
+- **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** (3% of attempts)
+
+- **[[Submissions/Kimura/from Kimura Trap/Attacker|Kimura from Kimura Trap]]** (17% of attempts)
+
+- **[[Submissions/Americana/from Kimura Trap/Attacker|Americana from Kimura Trap]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -285,23 +289,19 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (11% of attempts)
+- **[[Transitions/North-South to Kimura/Attacker|North-South to Kimura]]** (14% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (13% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (18% of attempts)
 
-- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (20% of attempts)
+- **[[Transitions/Kimura to Back Take/Attacker|Kimura to Back Take]]** (27% of attempts)
 
-- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (8% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (11% of attempts)
 
-- **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (9% of attempts)
+- **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** (12% of attempts)
 
-- **[[Submissions/Americana/from Kimura Trap/Attacker|Americana from Kimura Trap]]** (7% of attempts)
+- **[[Transitions/Kimura Defense Arm Extraction/Attacker|Kimura Defense Arm Extraction]]** (10% of attempts)
 
-- **[[Transitions/Kimura Defense Arm Extraction/Attacker|Kimura Defense Arm Extraction]]** (7% of attempts)
-
-- **[[Transitions/Kimura Trap to Reverse Scarf Hold/Attacker|Kimura Trap to Reverse Scarf Hold]]** (6% of attempts)
-
-- **[[Submissions/Kimura/from Kimura Trap/Attacker|Kimura from Kimura Trap]]** (19% of attempts)
+- **[[Transitions/Kimura Trap to Ushiro Kesa Gatame/Attacker|Kimura Trap to Ushiro Kesa Gatame]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -368,9 +368,11 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Related control system emphasizing arm immobilization principles similar to straight jacket methodology</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Primary control position from which the entire system operates</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Alternative attacking control when opponent extends their arm during Lockdown battles</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Related control system emphasizing arm immobilization principles similar to straight jacket methodology</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Primary control position from which the entire system operates</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Alternative attacking control when opponent extends their arm during Lockdown battles</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-North-South-Choke-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-north-south-choke-system" data-system-name="Marcelo Garcia North South Choke System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia North South Choke System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">A related arm-control context.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Neil-Melanson-Kimura-System" data-cta="related-system-card" data-system-slug="systems/neil-melanson-kimura-system" data-system-name="Neil Melanson Kimura System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Neil Melanson Kimura System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">A positional use of the kimura connection.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

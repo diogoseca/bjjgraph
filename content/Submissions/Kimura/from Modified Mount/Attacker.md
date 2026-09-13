@@ -76,7 +76,7 @@ description: "Learn to attack with the Kimura from Modified Mount. Step-by-step 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Kimura from Modified Mount attack, and what type of force causes the tap?",
+      "name": "What does the Kimura from Modified Mount attack, and what force causes the tap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Kimura attacks the glenohumeral (shoulder) joint by forcing internal rotation beyond its natural range. The primary structures at risk are the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the glenoid labrum. The tap is caused by progressive torque on the shoulder joint as the forearm is rotated toward the opponent's feet while the elbow is lifted, creating a lever that concentrates rotational stress on the shoulder capsule and rotator cuff tendons."
@@ -92,7 +92,7 @@ description: "Learn to attack with the Kimura from Modified Mount. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent grips their own belt with their near-side hand to prevent wrist isolation — how do you break this defense?",
+      "name": "In Modified Mount, they grip their own belt to block wrist isolation—how do you break that defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the paint brush technique: place both hands on their gripping wrist and incrementally walk it away from the belt using small hand-over-hand movements. Each small pull is harder to resist than one large yank. Alternatively, switch to attacking the americana on the same arm — the wrist-to-belt grip that defends the Kimura actually assists the americana setup by keeping the elbow bent. When they straighten the arm to defend the americana, the belt grip breaks and the Kimura entry opens."
@@ -108,7 +108,7 @@ description: "Learn to attack with the Kimura from Modified Mount. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that your rotational pressure is being applied correctly versus incorrectly?",
+      "name": "In the Modified Mount Kimura, what tells you your rotational pressure is correct versus incorrect?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Correct application: you feel resistance building smoothly in the figure-four grip as the shoulder reaches its rotational limit, the opponent's body tenses progressively, and the force comes from your hip rotation rather than arm pulling. Incorrect application: you feel your arms fatiguing, the opponent is able to incrementally reduce the rotation by turning their body, or the wrist lifts off the mat during rotation. If the wrist lifts off the mat, you have lost the anchor point and need to re-pin before continuing."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Kimura from Modified Mount. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "How should you release the Kimura after your training partner taps, and why is the release protocol critical?",
+      "name": "How should you release the Modified Mount Kimura after the tap, and why does the protocol matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately stop all rotational pressure the instant you feel or hear the tap. Return the arm toward neutral by externally rotating back toward the starting position — do not simply let go, as the arm may spring into an injurious position. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility. The Kimura attacks the rotator cuff, which can suffer partial tears even at sub-maximal force, so the difference between a controlled release and a sudden release can be the difference between a minor strain and a surgical injury."

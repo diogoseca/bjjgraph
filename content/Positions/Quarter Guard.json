@@ -104,7 +104,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts to hip escape and turn to their side during your quarter guard top—what adjustment do you make?",
+        "question": "In quarter guard top, they hip escape and turn to their side—what adjustment do you make?",
         "answer": "Immediately increase crossface pressure by driving your shoulder into their jaw and far cheek to flatten them back down. Simultaneously walk your hips toward their head to cut off the angle they're creating. If they continue turning despite pressure, recognize this as a back take opportunity rather than forcing the pass—follow their rotation and transition to back control since their movement has exposed their back.",
         "answer_line": "Crossface hard, follow to back take",
         "distractors": {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "question": "What is the correct weight distribution for maintaining quarter guard top while staying mobile for pass completion?",
+        "question": "What weight distribution keeps quarter guard top controlling yet mobile enough to pass?",
         "answer": "Distribute approximately seventy percent of your weight forward through your chest and shoulder into opponent's upper body, with thirty percent remaining on your base leg and posting hand for sweep defense. The weight should feel like controlled directional pressure toward their far shoulder rather than simply heavy downward pressure. Your hips should remain light and mobile, ready to slide across instantly when defensive structure breaks.",
         "answer_line": "70% forward chest, 30% base leg",
         "distractors": {
@@ -160,7 +160,7 @@
         }
       },
       {
-        "question": "How do you apply crossface pressure effectively without gassing out during extended passing sequences?",
+        "question": "How do you keep crossface pressure in quarter guard top without gassing out?",
         "answer": "Use skeletal structure rather than muscular effort by positioning your shoulder blade as the pressure point against their face, letting your body weight create the pressure rather than actively pushing. Keep your elbow tight to your ribs and drive through your legs and hips rather than your arms. The pressure should feel effortless to maintain—if you're getting tired from crossface, you're muscling it rather than using proper positioning and weight distribution.",
         "answer_line": "Use skeletal structure, not arms",
         "distractors": {
@@ -174,7 +174,7 @@
         }
       },
       {
-        "question": "Your opponent creates an underhook on your near side while you're in quarter guard top—what immediate adjustments are needed?",
+        "question": "They get a near-side underhook against your quarter guard top—what do you do?",
         "answer": "When opponent establishes underhook, immediately increase downward pressure to prevent them from using it to come up to their side. You have two options: whizzer the underhook by overhooking their arm and driving your weight down while continuing the pass, or switch to underhook pass variation by accepting their underhook and using it as a control point while stepping around. Never ignore the underhook—it's their primary tool for sweeping or recovering guard.",
         "answer_line": "Whizzer it or pass around it",
         "distractors": {
@@ -188,7 +188,7 @@
         }
       },
       {
-        "question": "How do you manage energy while maintaining pressure in quarter guard top to prevent fatigue during competition?",
+        "question": "How do you manage energy holding pressure in quarter guard top to avoid fatigue?",
         "answer": "Energy management requires using your body weight and positioning rather than muscular effort. Let gravity do the work by positioning your chest at the correct angle where weight naturally transfers through opponent. Breathe steadily and avoid holding tension in muscles not actively engaged. Keep the position transitional—spending five to ten seconds maximum before completing pass. If you're fatiguing in quarter guard, you're either muscling or staying too long.",
         "answer_line": "Weight not muscle, pass fast",
         "distractors": {
@@ -202,7 +202,7 @@
         }
       },
       {
-        "question": "Your opponent partially escapes your crossface and begins turning in—how do you recover control versus when do you follow to back take?",
+        "question": "In quarter guard top, when do you recover the crossface versus follow them to the back?",
         "answer": "If they're less than forty-five degrees turned and you can re-establish crossface by driving your shoulder back across their face, recover the crossface and continue the original pass. If they've turned past forty-five degrees and your crossface has slipped to their shoulder or back, follow their momentum immediately to back control rather than trying to flatten them again. The decision point is whether your shoulder can contact their face—if yes, recover; if no, take the back.",
         "answer_line": "Recover under 45°, else take back",
         "distractors": {
@@ -571,7 +571,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts applying heavy crossface pressure to flatten you—what adjustment do you make to maintain position?",
+        "question": "In quarter guard bottom, they crossface hard to flatten you—what adjustment do you make?",
         "answer": "Immediately turn your head away from the crossface while driving your underhook elbow toward the ceiling to create space. Use your free leg to frame against their hip or post on the mat to prevent being flattened. Hip escape away from the pressure to create an angle that reduces the effectiveness of their crossface. If crossface becomes too dominant, transition immediately to deep half guard by getting underneath their weight rather than fighting the pressure directly.",
         "answer_line": "Turn head, elbow up, hip escape",
         "distractors": {
@@ -641,7 +641,7 @@
         }
       },
       {
-        "question": "Your opponent posts their near hand on the mat during passing pressure—what immediate opportunity does this create?",
+        "question": "In quarter guard bottom, they post their near hand—what opportunity does that create?",
         "answer": "A posted hand creates a back take opportunity because their weight is distributed away from you and their back is exposed. Immediately use your underhook to start climbing toward their back while your free leg kicks through for the first hook. Alternatively, the posted hand removes their ability to prevent the old school sweep—drive into them with your underhook while using your free leg to elevate, and they cannot base without removing the post. Recognize posted hand as green light for immediate offensive action.",
         "answer_line": "Climb to back or sweep the post",
         "distractors": {
@@ -669,7 +669,7 @@
         }
       },
       {
-        "question": "Your opponent begins extracting their trapped leg—how do you determine whether to fight for retention or transition to a different position?",
+        "question": "As they extract the trapped leg from quarter guard bottom, what decides retention vs transition?",
         "answer": "If your underhook is deep and you still have hip angle, fight for retention by tightening your leg engagement and using underhook to prevent them from posturing away. If your underhook is compromised or you're flattened, don't waste energy on retention—immediately transition. Options include: deep half guard entry if their weight is forward, butterfly guard recovery using the free leg, or back take if they're turning away during extraction. The decision point is underhook quality—good underhook means fight, compromised underhook means transition immediately.",
         "answer_line": "Underhook quality decides the switch",
         "distractors": {
@@ -984,7 +984,7 @@
       }
     },
     {
-      "question": "What role does hip angle play in determining whether quarter guard progresses toward a pass or a sweep?",
+      "question": "How does hip angle decide whether quarter guard leads to a pass or a sweep?",
       "answer": "The bottom player must keep their hips and shoulders turned to roughly a thirty to forty-five degree angle off the mat, because that angle preserves the mobility required to generate sweeps and recover guard. The top player's countervailing goal is to flatten those hips to parallel with the mat, since a flattened bottom player loses all sweeping leverage and the pass becomes mechanical. This makes hip angle the central tug-of-war: every crossface, frame, and weight shift is ultimately a fight to either preserve or destroy that side angle. Whoever controls the hip line controls the outcome.",
       "answer_line": "30-45° angle preserves sweep threat",
       "distractors": {
@@ -998,7 +998,7 @@
       }
     },
     {
-      "question": "From what situations does quarter guard typically arise, given that neither player deliberately settles there?",
+      "question": "How does quarter guard usually arise, since neither player deliberately settles there?",
       "answer": "Quarter guard most often emerges when a bottom player attempting to retain half guard cannot fully stop the pass, so their leg entanglement erodes to a fraction of its normal engagement. It also appears mid-scramble as both players transition between positions and the leg connection momentarily thins to a single weak contact point. Less commonly it is entered deliberately from systematic half guard as a gateway to specific attacks like the old school sweep or electric chair. In every case it is a waypoint produced by degrading control rather than a structure either player builds and holds, which is why both sides treat arrival there as a trigger for immediate action.",
       "answer_line": "Half guard erodes mid-scramble",
       "distractors": {
@@ -1040,7 +1040,7 @@
       }
     },
     {
-      "question": "How does quarter guard differ from deep half guard even though both can arise from the same passing exchange?",
+      "question": "How does quarter guard differ mechanically from deep half guard?",
       "answer": "In deep half guard the bottom player has burrowed underneath the top player's hips and center of gravity, using that low position to threaten sweeps by attacking the base directly. In quarter guard the bottom player remains on the outside with the top player's weight already stacked over and past them, fighting to prevent being flattened rather than working from beneath. The control mechanism also differs: deep half relies on trapping a leg deep between the knees, while quarter guard relies on the underhook and hip angle with almost no leg control. Deep half is often a deliberate entry, whereas quarter guard is usually an unstable waypoint that a player passes through.",
       "answer_line": "Deep half is under; quarter outside",
       "distractors": {

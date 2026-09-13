@@ -56,7 +56,7 @@ description: "How to defend against 50-50 Guard to Inside Ashi in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting the 50-50 to Inside Ashi transition?",
+      "name": "What is the earliest cue that they are attempting the 50-50 to Inside Ashi transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent's initial hip escape motion away from your body while they maintain or tighten their heel grip. This shrimping movement is the prerequisite for all subsequent steps - they cannot extract their inside leg without first creating space through the hip escape. React to the hip movement, not the leg extraction, to maximize your defensive window."
@@ -64,7 +64,7 @@ description: "How to defend against 50-50 Guard to Inside Ashi in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already partially extracted their inside leg - what is your best remaining defensive option?",
+      "name": "They have partially extracted their inside leg toward Inside Ashi—what is your best option left?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips forward aggressively to collapse the space before their leg can clear fully and drive across your hip. Simultaneously squeeze your legs together to re-trap their partially extracted leg. If their leg is too far out to re-trap, immediately shift to counter-attacking their heel since their transition focus has likely weakened their own heel defense. The worst option is passively accepting the position change."
@@ -72,7 +72,7 @@ description: "How to defend against 50-50 Guard to Inside Ashi in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining constant hip pressure the single most important defensive principle against this transition?",
+      "name": "Why is constant hip pressure the key defense against the 50-50 to Inside Ashi transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The entire transition depends on the attacker creating space through hip escape to thread their inside leg free. Without space between your bodies, their inside leg physically cannot extract from the entanglement. Your forward hip pressure directly opposes their hip escape motion, making the extraction mechanically impossible as long as you maintain contact. Every other defensive technique becomes secondary to this fundamental pressure maintenance."
@@ -80,7 +80,7 @@ description: "How to defend against 50-50 Guard to Inside Ashi in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "When should you attempt a counter heel hook during your opponent's transition attempt versus focusing purely on prevention?",
+      "name": "When should you counter heel hook during their Inside Ashi entry instead of just preventing it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attempt the counter only when your opponent has fully committed to the extraction and their grip on your heel defense has loosened as a result. If you counter-attack too early while they still have strong defensive awareness, you risk abandoning your own prevention defense for a low-percentage attack. The ideal timing is when you feel their inside leg halfway extracted and their hands shift focus to repositioning rather than maintaining your heel control."
@@ -88,7 +88,7 @@ description: "How to defend against 50-50 Guard to Inside Ashi in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How does the defender's energy management differ from the attacker's during this transition exchange?",
+      "name": "How does defender energy management differ from the attacker's in this 50-50 exchange?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The defender must match the attacker's burst of energy during the transition attempt but should avoid sustained high-output effort. React explosively to the initial hip escape with forward pressure, then reassess. If the transition is prevented, immediately return to efficient positional maintenance rather than continuing to burn energy. The attacker is the one spending energy on the transition - the defender should use the minimum force necessary to disrupt it and conserve energy for the next exchange."

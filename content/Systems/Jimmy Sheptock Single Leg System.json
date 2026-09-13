@@ -1,0 +1,263 @@
+{
+  "name": "Jimmy Sheptock Single Leg System",
+  "description": "Study single-leg entries and finishes with a focused Jimmy Sheptock course match, practical partner drills, clear decisions, and ways to review your progress.",
+  "tags": [
+    "bjj",
+    "system",
+    "standing",
+    "single-leg-entries-and-finishes"
+  ],
+  "system_type": "Attack System",
+  "difficulty_level": "Intermediate",
+  "summary": "The Jimmy Sheptock Single Leg System connects clearing standing ties to a single-leg entry, then selects high or low finishes according to the defender's balance and counter grips.",
+  "overview": "Reaching a leg and completing a takedown are different skills. A useful single-leg study project names the tie that creates access, the position reached after the shot, and the first defense that changes the finish. That structure helps you diagnose a failed attempt without automatically blaming the entry.\n\nThe Single Leg Takedown by Jimmy Sheptock is the matched instructional. Sheptock covers tie clearing, head-inside finishes, whizzer reactions, and lower finishing positions in a wrestling curriculum. The drills, sequence, and assessment criteria below are an original BJJGraph study plan; use them to organize practice alongside the course and feedback from a coach.",
+  "key_principles": [
+    "Clear the tie that blocks the entry before shooting through it.",
+    "Recognize the collected-leg position before choosing the finish.",
+    "Keep posture under review as resistance changes.",
+    "Treat an established whizzer as new information.",
+    "Include the BJJ landing and submission exposure in adapted practice."
+  ],
+  "key_components": [
+    {
+      "component_name": "Tie clearance",
+      "description": "Choose one collar-tie or wrist-control situation and work only to a clear entry path before adding the shot.",
+      "purpose": "Separate hand fighting from reaching the leg."
+    },
+    {
+      "component_name": "Collected-leg position",
+      "description": "Begin with the single leg already established and identify the defender's balance and counter grip before moving.",
+      "purpose": "Recognize what finish is available after the entry."
+    },
+    {
+      "component_name": "High-or-low finish",
+      "description": "Review one upright finish and one low finish with a coach, then let the defender's reaction determine which is practiced.",
+      "purpose": "Develop a small finishing choice rather than a long list."
+    },
+    {
+      "component_name": "Whizzer response",
+      "description": "Give the defender a controlled whizzer and pause whenever posture or grip deteriorates; rebuild or use the reviewed response.",
+      "purpose": "Treat the counter grip as a distinct problem."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Tie clearance",
+      "description": "BJJGraph study task: Choose one collar-tie or wrist-control situation and work only to a clear entry path before adding the shot.",
+      "key_points": [
+        "Separate hand fighting from reaching the leg."
+      ]
+    },
+    {
+      "step_number": 2,
+      "phase": "Collected-leg position",
+      "description": "BJJGraph study task: Begin with the single leg already established and identify the defender's balance and counter grip before moving.",
+      "key_points": [
+        "Recognize what finish is available after the entry."
+      ]
+    },
+    {
+      "step_number": 3,
+      "phase": "High-or-low finish",
+      "description": "BJJGraph study task: Review one upright finish and one low finish with a coach, then let the defender's reaction determine which is practiced.",
+      "key_points": [
+        "Develop a small finishing choice rather than a long list."
+      ]
+    },
+    {
+      "step_number": 4,
+      "phase": "Whizzer response",
+      "description": "BJJGraph study task: Give the defender a controlled whizzer and pause whenever posture or grip deteriorates; rebuild or use the reviewed response.",
+      "key_points": [
+        "Treat the counter grip as a distinct problem."
+      ]
+    },
+    {
+      "step_number": 5,
+      "phase": "Connect and review",
+      "description": "Link the first two practiced tasks in a constrained round, then add the next stage only when both partners can identify the cue and stopping condition. Record the earliest control failure and return to that stage for the next set."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The shot runs into an unchanged collar tie.",
+      "solution": "Isolate hand fighting until the agreed entry path is available."
+    },
+    {
+      "obstacle": "The leg is collected but the finish has no direction.",
+      "solution": "Pause at the collected-leg position and identify the defender's balance."
+    },
+    {
+      "obstacle": "A whizzer collapses posture during every attempt.",
+      "solution": "Lower resistance and have a coach review the position before adding a finish."
+    },
+    {
+      "obstacle": "A wrestling finish concedes an immediate BJJ attack.",
+      "solution": "Continue into the landing and review that transition with a BJJ coach."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Tie clearance",
+      "description": "Separate hand fighting from reaching the leg.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for tie clearance.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    },
+    {
+      "metric_name": "Collected-leg position",
+      "description": "Recognize what finish is available after the entry.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for collected-leg position.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    },
+    {
+      "metric_name": "High-or-low finish",
+      "description": "Develop a small finishing choice rather than a long list.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for high-or-low finish.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    },
+    {
+      "metric_name": "Whizzer response",
+      "description": "Treat the counter grip as a distinct problem.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for whizzer response.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice suggestion: Choose one collar-tie or wrist-control situation and work only to a clear entry path before adding the shot. Then connect it to collected-leg position. Compare the first lost control point after each round. Keep the first repetitions cooperative and agree on resistance, space, and reset conditions. Once the starting task is clear, add one defensive option at a time and compare the result with the intended control objective.",
+    "progression_path": [
+      {
+        "stage": "1. Tie clearance",
+        "focus": "Separate hand fighting from reaching the leg. Use the corresponding component drill before broadening the defender's choices."
+      },
+      {
+        "stage": "2. Collected-leg position",
+        "focus": "Recognize what finish is available after the entry. Use the corresponding component drill before broadening the defender's choices."
+      },
+      {
+        "stage": "3. High-or-low finish",
+        "focus": "Develop a small finishing choice rather than a long list. Use the corresponding component drill before broadening the defender's choices."
+      },
+      {
+        "stage": "4. Whizzer response",
+        "focus": "Treat the counter grip as a distinct problem. Use the corresponding component drill before broadening the defender's choices."
+      }
+    ],
+    "common_mistakes": [
+      "The shot runs into an unchanged collar tie.",
+      "The leg is collected but the finish has no direction.",
+      "A whizzer collapses posture during every attempt.",
+      "A wrestling finish concedes an immediate BJJ attack."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Standing Position",
+      "content_type": "Position",
+      "relationship": "Starting stance and hand-fighting context"
+    },
+    {
+      "name": "Clinch",
+      "content_type": "Position",
+      "relationship": "Tie exchanges preceding an entry"
+    },
+    {
+      "name": "Single Leg Entry",
+      "content_type": "Transition",
+      "relationship": "Initial connection to the leg"
+    },
+    {
+      "name": "Single Leg Takedown",
+      "content_type": "Transition",
+      "relationship": "Finishing the standing attack"
+    },
+    {
+      "name": "Single Leg to Back Take",
+      "content_type": "Transition",
+      "relationship": "Related continuation when the defender turns"
+    },
+    {
+      "name": "Sprawl",
+      "content_type": "Transition",
+      "relationship": "Defensive reaction to recognize"
+    },
+    {
+      "name": "Head Position",
+      "content_type": "Principle",
+      "relationship": "Posture throughout the entry"
+    },
+    {
+      "name": "Hand Fighting",
+      "content_type": "Principle",
+      "relationship": "Clearing the first barrier"
+    },
+    {
+      "name": "Whizzer Control",
+      "content_type": "Principle",
+      "relationship": "Counter grip that changes the finish"
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Balance during the collected-leg phase"
+    },
+    {
+      "name": "Transition Management",
+      "content_type": "Principle",
+      "relationship": "Connection to the landing"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why separate the single-leg entry from the finish?",
+      "answer": "The shot can reach the leg successfully while the later balance, posture, or finishing choice is what breaks down."
+    },
+    {
+      "question": "What should a tie-clearing drill accomplish?",
+      "answer": "Create an agreed entry path from a specified collar tie or wrist control before the shot is added."
+    },
+    {
+      "question": "What should you observe after collecting the leg?",
+      "answer": "Identify the defender's balance, counter grip, and your own posture before selecting the finishing direction."
+    },
+    {
+      "question": "How should a whizzer change the practice task?",
+      "answer": "Treat it as a specific counter grip to solve with a reviewed response rather than forcing the same finish harder."
+    },
+    {
+      "question": "Why use both an upright and a low finishing example?",
+      "answer": "They provide a small comparison for different defensive reactions without requiring a large catalog of finishes at once."
+    },
+    {
+      "question": "What needs attention when adapting wrestling instruction to BJJ?",
+      "answer": "Review submission exposure, posture, and the landing with a BJJ coach, and keep the drill running past the takedown."
+    }
+  ],
+  "products": [
+    {
+      "id": "the-single-leg-takedown-by-jimmy-sheptock",
+      "title": "The Single Leg Takedown",
+      "instructor": "Jimmy Sheptock",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-single-leg-takedown-by-jimmy-sheptock?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Sheptock covers tie clearing, head-inside finishes, whizzer reactions, and lower finishing positions in a wrestling curriculum.",
+      "best_for": "Grapplers who want detailed wrestling instruction for their single leg. Review posture, submission exposure, and the landing with a BJJ coach when adapting the material to grappling rounds.",
+      "study_focus": "Start with tie clearing and the inside-tie entry, then one head-inside finish; add the whizzer and low-finishing sections when those problems appear.",
+      "practice_tip": "BJJGraph practice suggestion: Choose one collar-tie or wrist-control situation and work only to a clear entry path before adding the shot. Then connect it to collected-leg position. Compare the first lost control point after each round."
+    }
+  ]
+}

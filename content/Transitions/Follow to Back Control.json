@@ -240,7 +240,7 @@
         }
       },
       {
-        "question": "Your opponent's hips have rotated 45 degrees and they are hand fighting—should you release the leg entanglement?",
+        "question": "Their hips have rotated 45 degrees and they're hand fighting — release the leg entanglement?",
         "answer": "No, this is too early. At 45 degrees with active hand fighting, the opponent has not fully committed to inversion escape. They may reverse direction if you release, potentially entering their own leg entanglement. Wait until their hip rotation exceeds 90 degrees and they have clearly abandoned heel hook defense in favor of turtle escape before releasing.",
         "answer_line": "No, too early to release",
         "distractors": {
@@ -310,7 +310,7 @@
         }
       },
       {
-        "question": "Your opponent is faster than you and always reaches turtle before you establish grips—how do you adjust?",
+        "question": "They always beat you to turtle because they're faster — how do you adjust the back take?",
         "answer": "Release the leg entanglement earlier, before their rotation reaches peak acceleration. Anticipate the commitment rather than reacting to it. If they consistently reach turtle despite earlier release, accept this outcome and transition to turtle attack series—front headlock, clock choke, or spiral ride—rather than forcing a compromised back take.",
         "answer_line": "Release earlier, attack turtle",
         "distractors": {
@@ -366,7 +366,7 @@
         }
       },
       {
-        "question": "Your opponent has partially cleared your legs but their back is still exposed—do you continue to back take or re-engage the legs?",
+        "question": "They partly clear your legs but their back is exposed — follow to the back or re-engage legs?",
         "answer": "Continue to back take. Once the opponent has partially cleared the leg entanglement, attempting to re-establish the figure-four is lower percentage than following through to back control. Their partial clearing has already committed their rotation, and their back exposure is at maximum. Abandoning the back take to chase legs wastes the positional opportunity their escape created.",
         "answer_line": "Continue to the back take",
         "distractors": {
@@ -490,7 +490,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is transitioning from leg attack to back take?",
+        "question": "What is the earliest cue that they are switching from leg attack to taking your back?",
         "answer": "The earliest cue is feeling the figure-four leg configuration release combined with a forward push off your trapped leg. The attacker actively pushes away from your leg to generate momentum toward your upper body. This release of leg pressure is the signal to immediately accelerate your rotation or prepare defensive frames.",
         "answer_line": "Figure-four release, push off",
         "distractors": {
@@ -504,7 +504,7 @@
         }
       },
       {
-        "question": "Your opponent has released their legs and is following your rotation—should you try to re-engage the leg entanglement or continue to turtle?",
+        "question": "They released their legs and are following your rotation — re-engage legs or keep turtling?",
         "answer": "In most cases, continue to turtle. Once the attacker has released and committed their hips to following, attempting to re-engage legs requires reversing your momentum entirely, which is slower than their forward drive. Complete your rotation to consolidated turtle where you have established defensive options. Only reverse direction if you detect the release very early and the attacker hesitates before committing to the follow.",
         "answer_line": "Continue rotating to turtle",
         "distractors": {

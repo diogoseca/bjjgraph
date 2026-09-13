@@ -68,7 +68,7 @@ description: "How to execute Float Passing in BJJ. Attacking perspective with se
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the fundamental difference between float passing and pressure passing in terms of body mechanics?",
+      "name": "Mechanically, how does float passing differ from pressure passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Float passing keeps weight on the balls of the feet with hips elevated and mobile, maintaining minimal contact pressure to preserve the ability to change directions instantly. Pressure passing drives weight downward through the chest and hips into the opponent, using heavy contact to collapse defensive structures. The key mechanical distinction is center of gravity: float passing keeps it high and mobile for lateral movement, while pressure passing drops it low and heavy for forward crushing force. Float passing is more effective against flexible opponents with strong guard retention, while pressure passing works better against less mobile opponents."
@@ -76,7 +76,7 @@ description: "How to execute Float Passing in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "What are the key visual and tactile indicators that a passing window has opened during the floating phase?",
+      "name": "What visual and tactile cues tell you a passing window has opened while floating?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary indicators are: a visible gap appearing between opponent's legs as they separate during a guard adjustment, their hips flattening to the mat instead of remaining angled toward you, their knee frames extending too far from their body leaving their hip exposed, or their upper body grips weakening as attention divides between defending multiple angles. Tactilely, you feel reduced resistance through your grips as their legs stop actively pushing back. The window typically lasts only half a second to one second, requiring immediate recognition and explosive commitment."
@@ -92,7 +92,7 @@ description: "How to execute Float Passing in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent gets a deep collar grip while you are floating. How do you respond without stopping your movement?",
+      "name": "They get a deep collar grip while you float — how do you deal with it without stopping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the collar grip immediately with a two-on-one break using both hands, then instantly re-establish at least one leg control grip before they can re-grip. If the grip is too deep to break quickly, change your level by dropping to combat base which reduces their pulling leverage on the collar grip. You can also use the collar grip against them by circling into the grip side, which slackens the grip and creates a passing angle on the opposite side. Never continue floating with an unaddressed deep collar grip because it gives them the posture control needed to set up sweeps."
@@ -100,7 +100,7 @@ description: "How to execute Float Passing in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the best balance between leg control and mobility during the floating phase?",
+      "name": "Which grips best balance leg control and mobility while float passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal grip is both hands controlling the opponent's pants at the knee line, with thumbs inside and fingers gripping the fabric on the outside of their legs. This position allows you to push their legs in any direction while maintaining enough slack to move laterally without being anchored. The knee-line grip controls the most critical part of their guard frame, as the knee is the fulcrum of their leg defensive structure. Avoid ankle grips for primary control during floating, as they require you to bend too far forward and compromise your posture, though ankle grips can be useful for momentary redirections."

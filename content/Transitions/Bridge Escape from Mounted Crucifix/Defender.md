@@ -56,7 +56,7 @@ description: "Defend against the bridge escape from mounted crucifix in BJJ. Lea
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the primary recognition cues that indicate your opponent is about to attempt a bridge escape?",
+      "name": "What cues tell you your opponent is about to bridge from mounted crucifix bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable cues are feet planting flat on the mat with heels close to buttocks, visible hip muscle tension and core engagement, the head turning to one side indicating bridge direction, changes in breathing pattern suggesting maximum effort preparation, and repositioning of any free arm toward the trapped arm side. Recognizing these cues early allows proactive base adjustment before the explosive movement, which is significantly more effective than reactive defense after the bridge initiates."
@@ -80,7 +80,7 @@ description: "Defend against the bridge escape from mounted crucifix in BJJ. Lea
     },
     {
       "@type": "Question",
-      "name": "What is the optimal weight distribution response when you feel a powerful bridge initiating beneath you?",
+      "name": "How should you distribute your weight when you feel a powerful bridge starting under you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drop your hips immediately and spread your knees wider to create a more stable triangular base. Do not post your hands, as this creates exploitable space underneath. Instead, drive your weight through your pelvis directly into the opponent's midsection. If the bridge has significant lateral force, shift your weight slightly toward the direction of the bridge to counterbalance. The goal is to ride the movement like a wave rather than resist it rigidly, allowing your weight to naturally resettle as the bridge collapses."

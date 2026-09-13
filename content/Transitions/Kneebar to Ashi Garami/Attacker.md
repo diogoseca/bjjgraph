@@ -74,7 +74,7 @@ description: "Master the attacker's approach to transitioning from defended knee
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent keeps their knee strongly bent and has both hands clasping their own leg during your kneebar attempt - how do you initiate the transition to ashi garami?",
+      "name": "They keep the knee bent and clasp their own leg; how do you start the ashi garami switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First tighten your arm grip pulling their leg closer to your torso. Then begin threading your inside leg across their near hip while maintaining arm control as the anchor. Their hands are occupied defending the knee, so they cannot fight your leg reconfiguration. Use their static defensive posture as an opportunity for a deliberate, precise transition rather than rushing. Their bent knee actually assists the transition because it keeps their leg close and accessible for ashi-garami threading."
@@ -82,7 +82,7 @@ description: "Master the attacker's approach to transitioning from defended knee
     },
     {
       "@type": "Question",
-      "name": "What is the most critical grip to maintain during the leg reconfiguration from kneebar to inside ashi-garami?",
+      "name": "Which grip must you keep while reconfiguring from kneebar to inside ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The arm grip around the opponent's lower leg is the critical constant throughout the entire transition. Your arms serve as the anchor point: they maintain control while your legs reconfigure around them. Specifically, maintain a tight figure-four or gable grip around the lower calf and ankle area with elbows squeezed together and the leg pinned to your chest. This grip prevents leg extraction during the vulnerable reconfiguration window and provides the continuous control needed to bridge the gap between kneebar structure and ashi-garami hooks."
@@ -90,7 +90,7 @@ description: "Master the attacker's approach to transitioning from defended knee
     },
     {
       "@type": "Question",
-      "name": "During the transition, your opponent begins explosively pulling their leg free - what adjustment prevents the escape?",
+      "name": "They explosively pull the leg free mid-transition; what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clamp your legs together around whatever portion of their leg you still control and follow their movement by scooting your hips toward them rather than fighting their momentum with arm strength alone. If they are straightening their leg, this actually creates a direct ankle lock opportunity since their foot is now extended. Transition your grip toward their heel and attack the straightened ankle rather than trying to maintain the original plan. Convert their escape attempt into a different offensive opportunity."
@@ -106,7 +106,7 @@ description: "Master the attacker's approach to transitioning from defended knee
     },
     {
       "@type": "Question",
-      "name": "You have successfully transitioned to inside ashi-garami but your opponent immediately starts rotating their knee outward away from you - what is your next move?",
+      "name": "In inside ashi-garami they rotate their knee outward away from you; what is your next move?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their outward knee rotation is actually an invitation to advance position. When they rotate their knee away, their heel becomes directly exposed for inside heel hook attacks. Immediately transition your grip from C-grip to figure-four configuration around their heel with your wrist behind the Achilles. Use this moment to consider advancing to honey hole or saddle by threading your outside leg deeper. Do not chase the ankle lock against outward rotation. Instead, flow to the higher-percentage position that their defensive reaction has created."
@@ -114,7 +114,7 @@ description: "Master the attacker's approach to transitioning from defended knee
     },
     {
       "@type": "Question",
-      "name": "What are the primary submission options available after successfully completing the transition to inside ashi-garami?",
+      "name": "What are the primary submissions available once you reach inside ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Inside ashi-garami provides direct access to three primary submission families. The straight ankle lock is the foundational option, requiring a C-grip on the heel with hip extension as the finishing mechanism. The heel hook becomes available when the opponent's knee is controlled and heel is exposed, requiring figure-four grip configuration. The toe hold targets the foot through rotational force and is available when ankle alignment permits. Additionally, the position serves as a gateway to the kneebar from the other direction if the opponent straightens their leg. Each submission chains to the others based on defensive reactions."

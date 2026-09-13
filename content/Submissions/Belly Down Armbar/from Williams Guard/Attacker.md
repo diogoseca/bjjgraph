@@ -100,7 +100,7 @@ description: "Learn to attack with the belly down armbar from Williams Guard. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts clasping their hands together in a prayer grip to resist the extension—what adjustment do you make?",
+      "name": "From Williams Guard they clasp a prayer grip to resist extension—what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain the belly down position and tighten your knee squeeze around their upper arm. Attack the prayer grip by peeling the top hand's fingers, or rotate your body slightly toward their thumb side to break the grip structure through angular pressure rather than pulling straight. You can also walk your hips slightly higher on the arm to increase leverage. The belly down position gives you time and stability to systematically break the grip without losing position."

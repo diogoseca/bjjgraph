@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail that separates a successful Bull Pass from a failed attempt?",
+        "question": "What mechanical detail separates a successful bull pass from seated guard from a failed one?",
         "answer": "The most critical detail is the simultaneous coordination of the leg push and hip advancement. The legs must be pushed to the side at the exact same moment your hips drive forward into the space being created. If the leg push happens first without hip drive, the opponent has time to reframe. If the hips drive first without leg control, you run directly into their defensive frames.",
         "answer_line": "Leg push and hip drive together",
         "distractors": {
@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "Your opponent blocks the Bull Pass by inserting a butterfly hook as you close distance - what is your response?",
+        "question": "They insert a butterfly hook as you close distance for the bull pass: what is your response?",
         "answer": "Immediately abort the straight bull pass drive and transition to a smash pass or knee slice. The butterfly hook converts the situation from seated guard to butterfly guard, which requires entirely different passing mechanics. Driving forward against an established butterfly hook feeds directly into their elevation sweep. Instead, control the hook-side leg and use smash pass pressure to flatten the hook before continuing the pass.",
         "answer_line": "Abort and smash pass the hook",
         "distractors": {
@@ -542,7 +542,7 @@
         }
       },
       {
-        "question": "Your opponent has secured grips on both your knees and is about to drive forward - what is your highest-percentage defensive response?",
+        "question": "They grip both your knees in seated guard and are about to drive: best defensive response?",
         "answer": "Immediately pull one knee free using a sharp hip rotation while simultaneously scooting your hips backward to create distance. If you cannot free a leg in time, turn to your side toward the direction your legs are being pushed and work to insert a knee shield between you and the advancing opponent. The worst response is to remain flat and try to push back with both legs, as this loses the direct strength exchange.",
         "answer_line": "Free a knee, scoot hips back",
         "distractors": {
@@ -584,7 +584,7 @@
         }
       },
       {
-        "question": "When your opponent's Bull Pass partially succeeds and you retain only half guard, what is your immediate priority?",
+        "question": "Their bull pass partly succeeds and you keep only half guard: what is your immediate priority?",
         "answer": "Immediately turn to your side facing the opponent and fight for the underhook on the trapped leg side. The opponent's bull pass momentum often carries them slightly past optimal half guard top positioning, creating a window for the underhook before they consolidate. Establish knee shield if possible to manage distance. Do not remain flat on your back because the transition from bull pass to half guard gives you a brief adjustment window.",
         "answer_line": "Turn in, fight for the underhook",
         "distractors": {

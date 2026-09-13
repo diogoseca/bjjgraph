@@ -58,7 +58,7 @@ description: "Complete defense guide against the short choke from body triangle.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the short choke from body triangle is being set up before the lapel crosses your neck?",
+      "name": "Which cues warn you the short choke from body triangle is coming before the lapel crosses your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cue is feeling the opponent's hand leave seatbelt control to pull on your gi collar or lapel, creating slack in the fabric. You may feel their fingers working near your jawline or feel the gi material shifting across your upper chest. A hip angle adjustment from the attacker to improve their reaching angle is another early indicator. Recognizing these cues before the lapel crosses your neck gives you the best defensive window."
@@ -90,7 +90,7 @@ description: "Complete defense guide against the short choke from body triangle.
     },
     {
       "@type": "Question",
-      "name": "How does defending the short choke differ when the attacker has a body triangle versus standard hooks?",
+      "name": "How does defending the short choke differ under a body triangle versus standard hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standard hooks allow you to use hip movement to create escape angles while defending the choke, and clearing hooks frees you to turn into the attacker. The body triangle eliminates hip rotation almost entirely, meaning your escape options are drastically reduced during choke defense. Additionally, the breathing restriction from the body triangle compounds with the blood flow restriction from the choke, giving you less time and less energy to execute defensive sequences compared to the same choke from standard back control."

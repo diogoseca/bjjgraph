@@ -84,7 +84,7 @@ description: "Execute the Americana shoulder lock from High Mount. Attacking gui
     },
     {
       "@type": "Question",
-      "name": "Your opponent straightens their arm as you attempt to establish the figure-four grip - what do you do?",
+      "name": "From High Mount, they straighten the arm as you set the Americana figure-four—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A straightened arm is actually an invitation to armbar rather than a failed Americana attempt. Immediately transition by stepping your leg over their head, controlling the straightened arm at the wrist with both hands, and falling back for the armbar finish. The key is recognizing that the opponent's defensive reaction to the Americana creates the exact arm position needed for the armbar. This is why the Americana-to-armbar chain is one of the highest-percentage sequences from high mount."
@@ -108,7 +108,7 @@ description: "Execute the Americana shoulder lock from High Mount. Attacking gui
     },
     {
       "@type": "Question",
-      "name": "What is the point of no return for the defender once you have secured the Americana grip from High Mount?",
+      "name": "Once you secure the Americana from High Mount, what is the defender's point of no return?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no return occurs when the wrist has been dragged past the midpoint of the arc (roughly level with the opponent's ear) with the elbow still firmly pinned to the mat. At this point, the shoulder joint is near its end range of external rotation, and the opponent cannot generate enough force to reverse the rotational direction without first freeing the elbow fulcrum—which is pinned by both your forearm clamp and your body weight. Before this midpoint, the defender still has realistic options to straighten the arm, bridge, or resist the rotation."

@@ -98,7 +98,7 @@ description: "How to execute Reverse X to Single Leg X Entry in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "What is the most critical hip movement during this transition and why does it determine success or failure?",
+      "name": "Which hip movement decides success in the reverse X to single leg X entry, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical movement is rotating your hips from the inverted Reverse X angle (facing away from opponent) to facing directly toward their controlled leg (perpendicular to their body). This rotation repositions your legs from the inverted hook configuration behind their knee to the linear Single Leg X structure across both hips. Without completing this rotation, your hooks cannot achieve proper depth and you end up in a compromised hybrid position that is easily passed because neither Reverse X nor Single Leg X structure is properly established."
@@ -114,7 +114,7 @@ description: "How to execute Reverse X to Single Leg X Entry in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand firmly on your hip to create distance while you begin the transition - how do you adjust?",
+      "name": "They post a hand on your hip as you start the single leg X entry. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip post actually assists your transition by providing a stable reference point and preventing them from sprawling their weight forward. Maintain your ankle grip and proceed with the hook reconfiguration as planned. As you rotate your hips toward their leg, their posting arm becomes trapped between your body and their leg, often forcing them to remove it or accept compromised arm position. If they commit heavily to the post, use it as a fixed point to drive your Single Leg X hooks deeper across their hips."

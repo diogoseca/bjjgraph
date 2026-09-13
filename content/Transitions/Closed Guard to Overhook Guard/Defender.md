@@ -56,7 +56,7 @@ description: "How to defend against overhook guard establishment from closed gua
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is setting up an overhook from closed guard?",
+      "name": "What are the earliest cues your opponent is threading an overhook from closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is aggressive posture breaking combined with their hand releasing a standard grip and reaching over the top of your arm rather than under or to the side. You will feel their forearm crossing over your tricep and their hand reaching toward your back. Additionally, if they hip escape to one side immediately after contacting your arm, they are creating the angle needed for effective overhook control. Early recognition within the first half-second of the threading motion allows trivial extraction."
@@ -72,7 +72,7 @@ description: "How to defend against overhook guard establishment from closed gua
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a deep overhook and you cannot immediately strip it. What is your best strategy to neutralize the position?",
+      "name": "Their overhook is deep and you can't strip it: best strategy to neutralize it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If extraction is not immediately possible, focus on neutralizing the angle and preventing secondary control. Use your free hand to fight their opposite-side grip, preventing them from completing the control system. Drive your trapped-side shoulder into their chest to flatten them and eliminate the hip angle they need for sweeps. Widen your base to prevent off-balancing, and work the corkscrew extraction incrementally rather than in one explosive attempt. Alternatively, stand up in base where the overhook loses mechanical advantage due to the angle change."
@@ -80,7 +80,7 @@ description: "How to defend against overhook guard establishment from closed gua
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your arm positioning preemptively to make the overhook entry as difficult as possible?",
+      "name": "In closed guard, how should you position your arms to make the overhook entry hardest?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your elbows pinned tight to your ribcage at all times in closed guard. Place your hands on the opponent's hips, biceps, or lapels - positions that keep your arms close to your body with elbows pointing down. Never reach deep inside the guard with an extended arm, as this creates the exact position the opponent needs for overhook entry. When you feel posture being broken, immediately tuck your elbows tighter rather than posting your arms forward. The less your arms extend away from your torso, the harder it is for the opponent to thread an overhook."
@@ -88,7 +88,7 @@ description: "How to defend against overhook guard establishment from closed gua
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes the overhook and immediately threatens an overhook sweep. What is your counter?",
+      "name": "They get the overhook and threaten the overhook sweep: what is your counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Base your free hand wide on the mat on the side opposite the overhook to create a posting point that absorbs the sweep's rotational force. Simultaneously drive your hips back and away from the overhook side to reduce the leverage of their pulling motion. Do not lean into the sweep direction as this adds to their momentum. If the sweep is strongly initiated, consider voluntarily posting and transitioning to a scramble or wrestling position rather than fighting the sweep from a compromised angle where you may be rolled directly into mount."

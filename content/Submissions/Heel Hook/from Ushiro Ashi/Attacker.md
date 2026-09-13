@@ -84,7 +84,7 @@ description: "Master the attacking mechanics of the Heel Hook from Ushiro Ashi-G
     },
     {
       "@type": "Question",
-      "name": "What specific grip adjustment is required for the heel hook from ushiro versus a standard outside ashi-garami heel hook?",
+      "name": "How does the heel hook grip from ushiro ashi differ from outside ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In ushiro ashi-garami, the opponent's inverted hip orientation requires the attacker to seat the blade of the wrist behind the Achilles from a more compact angle, with elbows positioned closer to the attacker's own hips rather than extended across the opponent's body. The reversed configuration means the finishing grip often requires a more parallel alignment to the opponent's body rather than the perpendicular angle used in standard outside ashi. This compact positioning compensates for the different leverage angles created by the inverted entanglement geometry."
@@ -116,7 +116,7 @@ description: "Master the attacking mechanics of the Heel Hook from Ushiro Ashi-G
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a strong grip defense protecting their heel but your ushiro control is solid. What finishing error should you avoid?",
+      "name": "With solid ushiro control but strong heel defense, what finishing error should you avoid?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical error is continuing to fight through established defensive grips with diminishing returns and increasing energy expenditure. Forcing the heel hook against strong two-handed grip defense has low success probability and degrades your positional control as you overcommit to grip fighting. Instead, use your stable ushiro control as a platform to transition to alternative attacks such as a straight ankle lock that bypasses heel defense, advance to saddle or honey hole for better finishing leverage, or switch to kneebar attacks that exploit the opponent's defensive grip focus."

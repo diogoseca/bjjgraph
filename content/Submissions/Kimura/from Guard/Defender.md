@@ -58,7 +58,7 @@ description: "How to defend against Kimura from Guard in BJJ. Recognition, escap
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest defensive window against the Kimura from guard, and why is it the highest percentage escape opportunity?",
+      "name": "What is the earliest defensive window against the guard Kimura, and why is it the best?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest defensive window is during the initial wrist control phase before the figure-four grip is established. This is the highest percentage escape because the attacker has only single-hand control on your wrist, making grip stripping relatively simple through posture recovery and arm retraction. Once the figure-four is completed, the mechanical advantage shifts dramatically to the attacker and every subsequent defensive window requires more energy, better timing, and carries greater injury risk. Early recognition of wrist isolation attempts and immediate posture recovery prevent the attack from progressing to phases where defense becomes desperate."
@@ -66,7 +66,7 @@ description: "How to defend against Kimura from Guard in BJJ. Recognition, escap
     },
     {
       "@type": "Question",
-      "name": "When caught in a fully locked Kimura with the attacker's perpendicular angle established and rotation past 45 degrees, what is the correct response?",
+      "name": "Caught in a fully locked Kimura with rotation past 45 degrees — what is the correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct response is to tap immediately. At this stage, the submission is mechanically locked - the elbow is pinned, the angle prevents roll-through escape, and rotation has progressed past the point where grip-breaking or posture recovery are viable options. Attempting explosive escape against a locked Kimura at this depth risks catastrophic injury including posterior shoulder dislocation, rotator cuff tears, labral damage, or spiral humerus fracture with recovery times of 6-12+ months. No competitive outcome justifies this injury risk. The tap is the correct technical response when defensive windows have been exhausted."
@@ -74,7 +74,7 @@ description: "How to defend against Kimura from Guard in BJJ. Recognition, escap
     },
     {
       "@type": "Question",
-      "name": "Why is driving the trapped arm toward the mat more effective than pulling it backward when defending against the figure-four grip?",
+      "name": "Why drive the trapped arm toward the mat rather than pulling it back against the figure-four?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Driving the arm toward the mat works against the Kimura's rotational mechanics rather than feeding into them. The Kimura generates power through internal rotation of the shoulder with the elbow as fulcrum, driving the wrist toward the lower back - pulling backward actually assists this rotation by moving the wrist in the same arc the attacker wants. Driving downward toward the mat straightens the arm, which removes the rotational angle the attacker needs and disrupts their elbow-to-centerline pin. A straight arm driven into the mat distributes force along its entire length rather than concentrating it at the shoulder joint, making the figure-four mechanically ineffective and creating conditions to strip the grip."
@@ -82,7 +82,7 @@ description: "How to defend against Kimura from Guard in BJJ. Recognition, escap
     },
     {
       "@type": "Question",
-      "name": "How does the attacker's Kimura grip create threats beyond just the shoulder lock, and how should this influence your defensive priorities?",
+      "name": "What threats beyond the shoulder lock does the Kimura grip create, and how should you defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Kimura grip functions as a comprehensive control position that enables sweeps (hip bump, Kimura sweep to top), back takes (following your roll escape or using the grip to turn you), and transitions to alternative submissions (triangle when you pull your arm back, armbar when you straighten your arm, omoplata from angle adjustments). This means defending only the submission finish is insufficient - even successful submission defense leaves you in a controlled position where the attacker dictates exchanges. Your defensive priority must be breaking the figure-four grip entirely, not just surviving the rotational pressure. Until the grip is broken, every defensive action you take potentially opens a different offensive pathway for the attacker."
@@ -90,7 +90,7 @@ description: "How to defend against Kimura from Guard in BJJ. Recognition, escap
     },
     {
       "@type": "Question",
-      "name": "What body positioning should you maintain in closed guard top to prevent Kimura attacks before they begin?",
+      "name": "In closed guard top, what positioning prevents Kimura attacks before they start?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain strong upright posture with your spine straight and head over your hips, preventing the posture break that initiates most Kimura setups. Keep both elbows pinned tight to your ribs with hands positioned on the opponent's hips or lower abdomen - never extend your arms past your knee line or allow them to drift away from your centerline. Avoid placing hands on the mat, which isolates the arm and creates the space needed for wrist control. Maintain a wide knee base to resist the hip bump sweep that often sets up the Kimura trap. These positioning habits eliminate the entry points the attacker needs to begin the Kimura sequence, making prevention far more energy-efficient than late-stage defense."

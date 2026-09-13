@@ -72,7 +72,7 @@ description: "How to defend against Half Guard to Back Take in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep underhook and has started rotating perpendicular - what is your best defensive option at this stage?",
+      "name": "They have a deep underhook and are rotating perpendicular—what is your best defense now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, apply a strong whizzer overhook on the underhook arm while driving your hip into their chest to stall the rotation. If the angle has progressed too far for the whizzer to work, turn into the opponent aggressively by rotating your torso toward them and driving through with your chest to deny back exposure and force a scramble."
@@ -80,7 +80,7 @@ description: "How to defend against Half Guard to Back Take in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "What visual or tactile cue indicates the back take attempt has progressed past the point of easy prevention?",
+      "name": "What cue shows the half guard back take has passed the point of easy prevention?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the bottom player's top knee drives across to block your bottom hip while they maintain perpendicular angle and deep underhook, the back take has progressed past easy prevention. At this point the bottom player has established the three critical controls needed for the climb phase: underhook leverage, perpendicular angle, and hip block. Your defense must shift from prevention to emergency turn-in response."

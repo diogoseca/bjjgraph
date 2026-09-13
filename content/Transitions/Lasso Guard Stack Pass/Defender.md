@@ -72,7 +72,7 @@ description: "Learn to defend the Lasso Guard Stack Pass in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the lasso and transition to an alternative guard during a stack pass attempt?",
+      "name": "When should you abandon the lasso and switch guards during their stack pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should abandon the lasso when the stack has compressed your body enough that the lasso angle no longer generates meaningful control over the passer's arm, but you still have enough hip mobility to reconfigure your guard. The decision point is when you can feel the lasso tension dropping despite maintaining your sleeve grip. Transitioning at this moment lets you establish collar sleeve guard, closed guard, or another defensive structure before the passer completes the walk-around. Waiting longer means both the lasso and your guard transition options are gone."

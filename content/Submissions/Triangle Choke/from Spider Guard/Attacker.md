@@ -76,7 +76,7 @@ description: "How to execute Triangle from Spider Guard in BJJ. Attacking perspe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum amount of time you should take to apply choking pressure when training the triangle, and why is this critical?",
+      "name": "How long should you take applying triangle choke pressure in training, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A minimum of 3-5 seconds of progressive pressure application is critical for safety. This allows your training partner time to recognize the submission, make a decision to tap or defend, and signal the tap before losing consciousness. Applying chokes too quickly in training can cause unconsciousness before the partner has time to tap, creating serious injury risk and an unsafe training environment. Competition speed is never appropriate in training for blood chokes."
@@ -84,7 +84,7 @@ description: "How to execute Triangle from Spider Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What angle should your body create relative to your opponent when finishing the triangle from spider guard, and why is this angle essential for the choke's effectiveness?",
+      "name": "What body angle finishes the triangle from spider guard, and why is that angle essential?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your body should create a 30-45 degree angle (perpendicular or close to it) relative to your opponent's centerline. This angle is essential because it allows your leg to cut diagonally across the back of their neck rather than straight across, creating compression on both carotid arteries simultaneously. A straight-on triangle without angle produces minimal choking pressure because the leg pressure is distributed across the back of the neck rather than targeting the sides where the carotid arteries are located."
@@ -92,7 +92,7 @@ description: "How to execute Triangle from Spider Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What must you do immediately after receiving a tap to a triangle choke, and what are the specific steps to safely release this submission?",
+      "name": "After a tap to your triangle, what must you do and in what order to release safely?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upon receiving a tap, immediately: (1) open your legs and release the figure-four lock, (2) pull the trapped arm out from the triangle space, (3) release head and neck control completely, (4) move your hips away to create space, (5) check your partner's consciousness and breathing, and (6) allow them time to recover before resuming training. Never hold the position even briefly after a tap—the release must be immediate and complete. If your partner goes unconscious without tapping, follow the same protocol and ensure they are breathing and conscious before continuing."
@@ -100,7 +100,7 @@ description: "How to execute Triangle from Spider Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Which arm should be trapped inside the triangle space, and how do you control this arm to maximize choking pressure?",
+      "name": "Which arm goes inside the triangle, and how do you control it to maximize pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "One arm should be trapped inside the triangle space across the opponent's neck (creating the 'one arm in, one arm out' configuration). To control this trapped arm and maximize pressure, you must grab it and pull it across the opponent's body toward your opposite hip, hugging it to your chest or gripping the wrist. This arm control serves two functions: it prevents the opponent from creating a defensive frame inside the triangle, and it pulls their own arm across their neck, increasing the compression on their carotid arteries. Without this arm control, the triangle is significantly weaker and easier to defend."
@@ -108,7 +108,7 @@ description: "How to execute Triangle from Spider Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "How do you use spider guard grips and foot position to create the ideal conditions for triangle entry before throwing your leg?",
+      "name": "How do spider guard grips and feet set up triangle entry before you throw your leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From spider guard, use your feet on the opponent's biceps to break their posture forward while maintaining sleeve grips for control. Push one foot (on the arm you want to trap) across their centerline while pulling the sleeve grip, causing that arm to cross their neck. Simultaneously, kick the other foot into their bicep to collapse their posture and prevent them from basing out. This creates broken posture, arm isolation, and the forward weight commitment needed for successful triangle entry. Only after these conditions are established should you pivot your hips and throw your leg over their shoulder."
@@ -116,7 +116,7 @@ description: "How to execute Triangle from Spider Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What should you do if your training partner stands up while you have them in a triangle, and why is this a critical safety situation?",
+      "name": "Your training partner stands up while caught in your triangle: what do you do and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If your partner stands up while you have them in a triangle, you must immediately release the submission or transition to a safer position like an armbar on the trapped arm. Standing while caught in a triangle indicates your partner is in panic mode and may slam you, creating serious injury risk to your head, neck, and spine. In training, this is a sign that safety has been compromised—release immediately and discuss proper training protocols. Never hold onto the triangle if your partner stands, as the risk of being slammed far outweighs the benefit of getting the tap. In competition, you can transition to armbar or sweep, but in training, safety is paramount."

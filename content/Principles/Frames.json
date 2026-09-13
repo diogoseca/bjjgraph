@@ -121,6 +121,11 @@
       "principle_name": "Maximum Efficiency Principle",
       "relationship_type": "Prerequisite",
       "description": "Understanding Maximum Efficiency Principle is essential for effective Frames, as optimal framing relies on achieving maximum defensive output with minimum energy expenditure through proper skeletal alignment and force distribution."
+    },
+    {
+      "principle_name": "Elbow-Knee Connection",
+      "relationship_type": "Complementary",
+      "description": "Coordinating upper-body frames with the knees protects the route to the torso."
     }
   ],
   "application_contexts": [
@@ -161,7 +166,7 @@
       "how_applied": "Using frames to create and maintain distance during scrambles, preventing opponent from establishing dominant pins while legs work to re-establish guard structure. Frames buy time for guard recovery sequences."
     },
     {
-      "context": "Modified Scarf Hold",
+      "context": "Kuzure Kesa Gatame",
       "how_applied": "Creating frames against opponent's head and far hip to generate the space necessary for escape attempts. The head frame prevents increased pressure while the hip frame creates the foundational space for hip escape."
     },
     {
@@ -401,6 +406,11 @@
       "name": "Escape Fundamentals",
       "content_type": "Principle",
       "relationship": "Frames serves as a core component of escape fundamentals, providing the initial space for movement"
+    },
+    {
+      "name": "Elbow-Knee Connection",
+      "content_type": "Principle",
+      "relationship": "Coordinating upper-body frames with the knees protects the route to the torso."
     }
   ],
   "flashcards": [
@@ -559,5 +569,9 @@
       "duration": 199,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Frames can guide how any position, transition, or submission is performed, prevented, or trained. Its application includes top, bottom, attacker, and defender."
+  }
 }

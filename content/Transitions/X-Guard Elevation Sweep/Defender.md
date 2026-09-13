@@ -56,7 +56,7 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest moment you can recognize that an X-Guard Elevation Sweep is being initiated from grasshopper guard?",
+      "name": "What is the earliest cue that an X-Guard Elevation Sweep is starting from grasshopper guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest recognition point is when the opponent's legs begin threading underneath your hips from the inverted position, with the inside foot seeking your far hip. Before they reach full X-Guard hook configuration, you should feel their body sliding directly underneath your base and their grip tightening on your near-side ankle or wrist. This hook-threading phase is the optimal defensive window because the attacker has not yet loaded their platform."
@@ -72,7 +72,7 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully loaded X-Guard hooks and is beginning the elevation - what is your best late-stage defensive option?",
+      "name": "They have loaded X-guard hooks and are elevating you — best late-stage defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your hand firmly on the mat behind you to create a structural brace against the backward toppling motion while simultaneously widening your base as much as possible. This is an emergency defense that arrests the sweep mid-execution. Once the fall is stopped, immediately work to step around the hooks and disengage or initiate a pass. Be aware that the attacker will try to increase their grip pull to break your post, so prepare to angle your body diagonally rather than absorbing force straight backward."
@@ -80,7 +80,7 @@ description: "How to defend against X-Guard Elevation Sweep in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why should you avoid driving forward into a grasshopper guard player who already has partial X-Guard hooks set?",
+      "name": "Why avoid driving forward into a grasshopper player who has partial X-guard hooks set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pressure after hooks are partially set loads your weight directly onto the attacker's hook platform, providing the energy they need to complete the elevation sweep. The X-Guard Elevation Sweep is fundamentally a counter-pressure technique that converts forward weight commitment into upward sweeping force. Your forward drive becomes the sweep's power source. Instead, move laterally through base widening or backward through leg extraction to deny the attacker the weight loading they require."

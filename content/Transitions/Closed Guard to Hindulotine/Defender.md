@@ -50,7 +50,7 @@ description: "How to defend the Hindulotine entry from closed guard. Recognize t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the true danger signal that the attacker is entering the Hindulotine rather than just holding a guillotine?",
+      "name": "What signals a Hindulotine rather than a plain guillotine from closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip clearance. When the bottom player opens their closed guard and shrimps their hips out to one side so their spine is no longer square beneath you, they are creating the off-line angle that turns a survivable straight guillotine into the rotational Hindulotine. Recognizing that shrimp, not the choke pressure, is what lets you stack and square before the angle locks in."

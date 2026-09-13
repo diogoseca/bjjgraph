@@ -74,7 +74,7 @@ description: "Complete attacking guide for the Rolling Back Take from Half Butte
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand wide to defend against a standard butterfly sweep - how does this create the opening for the rolling back take?",
+      "name": "How does their wide defensive post against your butterfly sweep open the rolling back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts their hand to defend the sweep, they shift weight to their posting arm and create space under their opposite armpit. This is the ideal moment to deepen your underhook past their now-elevated arm and duck your head under. The posting hand cannot simultaneously defend the lateral sweep and prevent the rolling motion in the opposite direction, creating the tactical dilemma that makes this combination effective."
@@ -82,7 +82,7 @@ description: "Complete attacking guide for the Rolling Back Take from Half Butte
     },
     {
       "@type": "Question",
-      "name": "What are the minimum control points that must be established before committing to the rolling back take?",
+      "name": "What minimum control points must you have before committing to the rolling back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three control points are required: a deep underhook reaching at minimum the opponent's far hip, an active butterfly hook with upward elevation pressure under the opponent's thigh, and half guard control of the opponent's trapped leg to prevent disengagement. Additionally, sufficient space must exist to thread your head beneath the opponent's armpit. Missing any of these prerequisites significantly reduces success probability and increases counter risk."
@@ -90,7 +90,7 @@ description: "Complete attacking guide for the Rolling Back Take from Half Butte
     },
     {
       "@type": "Question",
-      "name": "What is the most critical body position during the mid-roll phase to maintain connection with the opponent?",
+      "name": "During the mid-roll of the rolling back take, what body position keeps you connected?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your chest must maintain constant contact with the opponent's body throughout the entire rolling arc. During the mid-roll, your ear should be pressed against their ribcage with your chin tucked, and your underhook arm should be actively pulling their body into yours rather than pushing away. Any separation during the roll allows the opponent to create space, turn to face you, or establish defensive frames that prevent you from arriving at back control."
@@ -98,7 +98,7 @@ description: "Complete attacking guide for the Rolling Back Take from Half Butte
     },
     {
       "@type": "Question",
-      "name": "You initiate the roll but feel the opponent sprawling their hips backward - what immediate adjustment do you make?",
+      "name": "You start the rolling back take and feel them sprawl their hips back — what do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the sprawl is detected early and the roll has not fully committed, abort the back take attempt by recovering your head position and returning to half butterfly guard. If the roll is past the point of no return, accelerate your rotation and aim for at minimum a crab ride or turtle top position rather than stalling mid-roll under their weight. Never freeze in the mid-roll position against a sprawl because that guarantees positional loss."
@@ -106,7 +106,7 @@ description: "Complete attacking guide for the Rolling Back Take from Half Butte
     },
     {
       "@type": "Question",
-      "name": "What underhook depth is necessary for this technique and why is insufficient depth the primary failure cause?",
+      "name": "How deep must the underhook be for the rolling back take, and why does shallow depth fail?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your underhook hand must reach at minimum the opponent's far-side hip bone, with ideal depth reaching their lower back. This depth is critical because the underhook serves as the mechanical anchor for the entire rotation. It pulls the opponent's body into yours during the roll and prevents them from creating separation. When the underhook only reaches the near shoulder or chest, it lacks the leverage to maintain connection during rotation and the roll stalls halfway through."

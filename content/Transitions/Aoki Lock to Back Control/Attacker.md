@@ -82,7 +82,7 @@ description: "How to execute Aoki Lock to Back Control in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "What is the first grip you must establish when arriving on your opponent's back during this transition?",
+      "name": "Which grip do you establish first on arriving at the back from the Aoki Lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The seatbelt grip is the first priority. Your top arm goes over the opponent's shoulder and your bottom arm threads under their far armpit, locking hands together at the sternum. This grip prevents them from turning to face you and provides the upper body anchor needed to stabilize the position while you work to insert hooks."
@@ -90,7 +90,7 @@ description: "How to execute Aoki Lock to Back Control in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts rolling forward but then stops midway and tries to re-establish defensive posture - how do you adjust?",
+      "name": "Your opponent stalls midway through the roll and rebuilds posture. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent stalls mid-roll, you have two options based on your position. If you already have chest-to-back contact, continue driving forward with hip pressure to complete the transition and establish seatbelt. If you are still in the Aoki Lock configuration with leg entanglement, re-engage the shoulder lock pressure since their interrupted escape has likely weakened their defensive posture."
@@ -114,7 +114,7 @@ description: "How to execute Aoki Lock to Back Control in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent turtles tight after the roll and squeezes elbows to knees preventing hook insertion - what is your response?",
+      "name": "They turtle tight with elbows to knees after the roll, blocking hooks. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain the seatbelt grip as your anchor and use a spiral ride or wedge technique to pry open space. Drive your knee between their elbow and knee on one side to create the gap for hook insertion. Alternatively, abandon hooks entirely and transition to a body triangle by locking your legs around their waist, or target a crucifix by isolating their far arm. A tight turtle with seatbelt control is still a dominant position."

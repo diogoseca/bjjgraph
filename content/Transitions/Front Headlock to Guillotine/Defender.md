@@ -56,7 +56,7 @@ description: "How to defend against Front Headlock to Guillotine in BJJ. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical defensive window during the Front Headlock to Guillotine transition, and how do you exploit it?",
+      "name": "Defending the front headlock to guillotine, what is the critical window and how do you use it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical window occurs when the opponent releases their standard front headlock grip (hand on far shoulder or tricep) to slide their choking arm deeper around your neck for the guillotine. During this grip change, their control momentarily weakens because they must release one point of control to achieve the new grip. Exploit this by immediately fighting the choking arm with two-on-one control at the wrist and elbow, circling toward the choking arm side, or explosively posturing while their grip is loosened. This window typically lasts less than one second, so you must have a pre-programmed response ready rather than reacting in the moment."
@@ -64,7 +64,7 @@ description: "How to defend against Front Headlock to Guillotine in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Why should you circle toward the choking arm side rather than away from it when defending the guillotine transition?",
+      "name": "Defending the guillotine, why circle toward the choking arm rather than away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circling toward the choking arm side compresses the space the opponent needs to finish the choke. When you move toward the arm, their forearm gets bunched up and cannot achieve the V-shape under your chin needed for arterial compression. Circling away does the opposite - it opens the angle, allows their arm to extend and deepen, and gives them the torque angle they need for the high-elbow guillotine variation. Moving toward the arm also positions you to duck under their armpit, which is the most direct path to extracting your head from the grip entirely. Additionally, circling toward the arm brings your body closer to theirs, making it harder for them to pull guard."
@@ -72,7 +72,7 @@ description: "How to defend against Front Headlock to Guillotine in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked a shallow guillotine and is sitting back to closed guard - should you drive forward or pull back?",
+      "name": "They lock a shallow guillotine and sit to closed guard; do you drive forward or pull back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a confirmed shallow grip (you can breathe, their wrist is across your throat rather than under your chin), driving forward is the correct response. Driving forward with your shoulder into their neck while they pull guard sets up the Von Flue choke counter and passes you to side control. However, this assessment must be accurate - if the grip is deep with the wrist under your chin, driving forward accelerates the finish and you will go unconscious. The test is whether you can comfortably breathe and whether you feel pressure on your trachea (shallow, drive forward) or on the sides of your neck at the carotid arteries (deep, do not drive forward - fight the grip instead)."
@@ -80,7 +80,7 @@ description: "How to defend against Front Headlock to Guillotine in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent's free hand leaving your far shoulder and moving underneath your body - what immediate action should you take?",
+      "name": "In a front headlock, their free hand leaves your shoulder and goes under you; what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the primary recognition cue that the guillotine grip lock is imminent. You have approximately one second before their hands clasp together and the choke becomes significantly harder to escape. Your immediate action should be to grab their choking arm wrist with your near-side hand and drive it away from your neck while simultaneously tucking your chin tightly to your chest. If you can prevent the hands from clasping, the guillotine cannot be completed and you remain in the more escapable front headlock position. If their hands do connect, immediately transition to your secondary defense: either sprawl to prevent guard closure, or drive forward for the Von Flue counter if the grip is shallow."
@@ -88,7 +88,7 @@ description: "How to defend against Front Headlock to Guillotine in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "How does your defensive strategy change if the opponent secures the guillotine grip from standing versus when they pull guard?",
+      "name": "How does your guillotine defense change if they finish standing versus from closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a standing guillotine, your primary defense focuses on preventing them from jumping to closed guard or hanging their weight on your neck. Drive your hips forward into their body, post your head on their chest to reduce the choking angle, and work to peel their grip by fighting the hands. You can also shoot a double leg or duck under to take them down, which breaks the standing leverage. Against a guillotine with closed guard, the strategy shifts entirely to grip fighting and posture recovery within the guard. You must first address the choke by stripping the grip or reducing the depth, then work standard guard passing techniques. The Von Flue counter is only available during the guard pull - once guard is closed, you must either strip the grip or survive until you can open the guard and create distance."

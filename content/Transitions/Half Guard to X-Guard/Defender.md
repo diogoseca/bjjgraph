@@ -56,7 +56,7 @@ description: "Defend and counter the Half Guard to X-Guard transition. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating the Half Guard to X-Guard transition?",
+      "name": "Half guard top: earliest cue that the bottom player is entering X-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is aggressive hip escaping toward your trapped leg side combined with angle creation underneath your base. This hip escape precedes any hook insertion and represents the moment when defensive action is easiest and most effective. Responding at this stage with forward pressure and crossface prevents the entire transition sequence from developing."
@@ -64,7 +64,7 @@ description: "Defend and counter the Half Guard to X-Guard transition. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has inserted a shallow butterfly hook behind your knee - what is the highest percentage defensive response?",
+      "name": "They get a shallow butterfly hook behind your knee — highest percentage defense from top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your trapped knee firmly to the mat while simultaneously sprawling your hips backward. This removes the space underneath you that powers the X-Guard elevation and makes it impossible for the bottom player to deepen the hook further. Combine this with crossface pressure to flatten them and prevent the outside leg from crossing your hip to complete the X-pattern."

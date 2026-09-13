@@ -56,7 +56,7 @@ description: "Defend the Sweep from Honey Hole in BJJ. Maintain dominant leg ent
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up a sweep from Honey Hole bottom?",
+      "name": "What is the earliest cue your opponent is setting up a sweep from Honey Hole bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent reaching across to establish a far-side grip on your arm, collar, belt, or shorts. This grip is the essential setup component because it removes your ability to post for base and provides the pull point that amplifies sweep momentum. Before this grip is established, bridge force alone is rarely sufficient to complete a sweep against a well-positioned top player. Denying this grip is the most efficient way to prevent the sweep entirely."
@@ -80,7 +80,7 @@ description: "Defend the Sweep from Honey Hole in BJJ. Maintain dominant leg ent
     },
     {
       "@type": "Question",
-      "name": "When should you accelerate your heel hook finish versus maintaining positional control against a sweep?",
+      "name": "On top in Honey Hole, when do you accelerate the heel hook finish versus hold position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accelerate the finish only when you already have a secured heel hook grip with proper hand configuration and the opponent initiates a sweep. Their sweep motion actually adds rotational force that can amplify your finishing mechanics. However, if your heel grip is not yet fully established, rushing the finish during a sweep is extremely risky—incomplete grips under dynamic movement often slip, and you lose both the submission and potentially your positional control simultaneously."

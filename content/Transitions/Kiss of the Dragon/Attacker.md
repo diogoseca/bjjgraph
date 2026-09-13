@@ -82,7 +82,7 @@ description: "How to execute Kiss of the Dragon in BJJ. Complete attacking guide
     },
     {
       "@type": "Question",
-      "name": "Your opponent is in turtle with their weight sitting back on their heels rather than forward on their hands. Should you attempt the Kiss of the Dragon?",
+      "name": "Top turtle: their weight sits back on their heels—should you attempt Kiss of the Dragon?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No — when their weight sits back on their heels, the space under their hips collapses, so the Kiss of the Dragon entry is not available. You cannot get your head and shoulders below their hip line without that space. Instead, threaten traditional back take attempts like seatbelt entry or crab ride first, which forces the opponent to commit weight forward into their defensive shell to resist. Once they shift forward, the space opens and the Kiss of the Dragon becomes viable. Reading and manipulating weight distribution is essential for consistent success with this technique."
@@ -114,7 +114,7 @@ description: "How to execute Kiss of the Dragon in BJJ. Complete attacking guide
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to follow your roll by turning their body to match your rotation. How do you adjust?",
+      "name": "Kiss of the Dragon: they turn to follow your roll—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you catch the tracking early, accelerate your roll and rapidly switch grips to complete the back take before they match your rotation. If they are successfully keeping pace with your movement, abort the complete somersault and transition to alternative positions such as leg entanglements or a scramble position. Forcing a back take against an opponent who is rotating with you typically results in a neutral scramble where you have lost your positional advantage from top turtle."
@@ -430,8 +430,8 @@ The Kiss of the Dragon involves spinal inversion and rolling while attached to a
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Dynamic back taking technique when opponent defends leg attacks with forward pressure</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Related inversion-based back take that serves as alternative when Berimbolo is defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Dynamic back taking technique when opponent defends leg attacks with forward pressure</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Related inversion-based back take that serves as alternative when Berimbolo is defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

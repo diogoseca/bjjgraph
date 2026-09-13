@@ -56,7 +56,7 @@ description: "Defend against the Guard Pass from Chill Dog. Recognition cues, de
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a guard pass to side control is being attempted rather than a back take?",
+      "name": "Under chill dog, what earliest cue shows a pass to side control rather than a back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the direction of the attacker's hip pressure. During a back take attempt, the attacker drives their hips toward your back to insert hooks. During the guard pass, the attacker shifts their hips laterally toward your side while driving downward pressure to flatten. You will also feel the crossface pressure increase as they try to turn your head away rather than reaching under your arms for the seatbelt. The lateral hip movement combined with crossface is the definitive signal distinguishing the pass from the back take."

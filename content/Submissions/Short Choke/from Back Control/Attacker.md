@@ -84,7 +84,7 @@ description: "Learn to attack the Short Choke from Back Control. Step-by-step cr
     },
     {
       "@type": "Question",
-      "name": "What positional control must be maintained before committing to the cross-collar grip transition from seatbelt?",
+      "name": "What control must you keep before switching from seatbelt to cross-collar grip for the Short Choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both hooks must be deep inside the opponent's thighs with active inward heel pressure, or a body triangle must be locked. The seatbelt grip should be secure with the over-the-shoulder arm on the intended choking side. Chest-to-back connection must be tight with forward pressure. Without stable lower body and upper body control, the grip transition creates a vulnerability window the defender can exploit to escape."
@@ -116,7 +116,7 @@ description: "Learn to attack the Short Choke from Back Control. Step-by-step cr
     },
     {
       "@type": "Question",
-      "name": "What adjustment should you make if your opponent successfully tucks their chin to block collar depth?",
+      "name": "Your opponent tucks their chin to block collar depth for the Short Choke: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use finger-walking technique with small rotational wrist movements to incrementally work the grip deeper against the chin block. Alternatively, use the underhook hand to pull loose lapel fabric from the opponent's belt line, feeding extra material across the neck to bypass the chin obstruction. You can also shift your chest angle slightly to the choking side, changing the insertion vector. Avoid forcing the grip through with raw strength, as this wastes energy and often loosens hook control."

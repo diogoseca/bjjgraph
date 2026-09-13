@@ -74,7 +74,7 @@ description: "How to execute Jailbreak to Deep Half Entry in BJJ. Attacking pers
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical trigger that tells you to attempt deep half entry instead of standard jailbreak roll?",
+      "name": "What trigger tells you to enter deep half instead of rolling the standard jailbreak?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trigger is when your opponent bases wide with their hips back to defend your jailbreak roll attempt. This defensive posture creates space underneath their hips that allows you to dive through. If they drive forward with weight committed, the standard jailbreak roll is the correct response instead."
@@ -82,7 +82,7 @@ description: "How to execute Jailbreak to Deep Half Entry in BJJ. Attacking pers
     },
     {
       "@type": "Question",
-      "name": "Your opponent recognizes your deep half attempt and sprawls forward with their hips - how do you adjust?",
+      "name": "They sprawl forward with their hips against your deep half dive — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If they sprawl and drive their hips forward to prevent your dive, immediately redirect to the standard jailbreak roll. Their forward weight commitment makes them vulnerable to being rolled through. The two techniques work as a complementary pair - defending one opens the other, which is why you must read pressure direction before committing."

@@ -74,7 +74,7 @@ description: "Learn to defend against the Counter Leg Hook from top position. Ma
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when you feel the bottom player loading their hips for a counter?",
+      "name": "You feel the bottom player loading their hips to counter your leg hook — how do you adjust weight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drop your weight lower and drive your hips forward into their hip line, preventing the perpendicular hip escape that powers the counter. Increase downward pressure through your chest and shift your center of gravity toward the side the bottom player is attempting to escape toward. This cuts off their escape angle while maintaining your hook engagement. Avoid raising your weight higher, as this creates the space they need."

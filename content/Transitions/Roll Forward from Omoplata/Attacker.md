@@ -74,7 +74,7 @@ description: "Complete guide to executing the Roll Forward from Omoplata. Step-b
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand wide on the mat while you have omoplata control - is this the right time to attempt the roll forward?",
+      "name": "They post their free hand wide while you hold omoplata control: is this the time to roll forward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes, a wide post is an excellent trigger for the roll forward. When the opponent posts their free hand wide, their base is committed to one direction and they cannot easily retract it to counter the roll. Ensure your belt grip is secure before initiating. The wide post means their defensive hand is occupied with maintaining base rather than available to block your hip drive. Drive your hips forward explosively while pulling on the belt grip to initiate the roll before they can adjust their posting hand."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the Roll Forward from Omoplata. Step-b
     },
     {
       "@type": "Question",
-      "name": "Your opponent defends by tucking their elbow tight and refusing to extend their arm - how does this affect the roll forward?",
+      "name": "They tuck their elbow tight and refuse to extend: how does that affect your omoplata roll forward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent tucks their elbow, the omoplata submission becomes less effective, but the roll forward actually becomes more viable. Their tucked elbow means they are not posting with that arm, which reduces their base significantly. Additionally, the defensive arm position typically shifts their weight forward as they curl inward, playing directly into the forward roll mechanics. Use their tucked-arm defensive posture as the trigger to execute the roll, as their compromised base makes the sweep higher percentage even though the shoulder lock finish itself is well defended."

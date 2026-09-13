@@ -114,7 +114,7 @@ description: "Execute the Sweep from Pocket Half Guard as the bottom player. Dee
     },
     {
       "@type": "Question",
-      "name": "What should you do if you feel the opponent beginning to strip your underhook before you can execute the sweep?",
+      "name": "Pocket half guard bottom: they start stripping your underhook before the sweep—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight to maintain a compromised underhook and attempt the sweep anyway—this results in a failed sweep with no backup plan. Instead, immediately transition to Knee Shield Half Guard to reestablish a defensive frame, or if the stripping creates space, insert butterfly hooks for a guard transition. The key principle is never attempting the sweep without deep underhook control."

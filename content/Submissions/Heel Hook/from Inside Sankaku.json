@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "Your opponent begins pumping their hips backward to create extraction distance - what adjustment prevents their escape?",
+        "question": "They pump their hips back for extraction space — what adjustment stops the escape?",
         "answer": "Immediately drive your hips forward following their movement while using your core to close the distance they create. Your outside leg should actively pull their knee toward you as you advance your hips, preventing extraction of the trapped leg. The key is anticipating the backward movement and matching it with forward hip pressure so the gap never opens enough for extraction. Your legs must stay tight in the figure-four throughout this adjustment.",
         "safety_critical": false,
         "answer_line": "Drive hips forward, close the gap",
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "What are the four sequential control layers that must be established before committing to the heel hook finish?",
+        "question": "Which four control layers must be established, in order, before finishing the heel hook?",
         "answer": "The four layers in order are entanglement structure, hip connection, knee line dominance, and heel exposure. Specifically: (1) Entanglement structure - the figure-four leg configuration with outside leg crossing over inside leg, (2) Hip connection - tight hip-to-hip contact eliminating escape distance, (3) Knee line dominance - legs positioned to block defensive rotation of the opponent's knee past the barrier, and (4) Heel exposure - the opponent's heel facing toward your centerline with unobstructed access to the Achilles tendon. Skipping or inadequately securing any layer creates exploitable gaps.",
         "safety_critical": false,
         "distractors": {
@@ -366,7 +366,7 @@
         "answer_line": "Entanglement, hips, knee line, heel"
       },
       {
-        "question": "What indicates you have reached the point of no escape when finishing the heel hook from Inside Sankaku?",
+        "question": "What shows escape is no longer possible when finishing the heel hook from Inside Sankaku?",
         "answer": "No escape remains when the blade grip is locked on the Achilles, the foot is clamped in your armpit, and torso rotation has begun. All three conditions must be met simultaneously: the blade grip has two-on-one reinforcement, the elbows are tight to your body with the foot clamped in the armpit, and your torso has started its rotational arc. At this point the defender cannot strip the grip, cannot rotate their leg to relieve pressure, and the mechanical advantage is entirely with the attacker. This is exactly when controlled pressure must be applied most carefully in training.",
         "safety_critical": true,
         "distractors": {
@@ -381,7 +381,7 @@
         "answer_line": "Blade grip, armpit clamp, rotation"
       },
       {
-        "question": "Why must rotational force be applied slowly and progressively rather than explosively when finishing this submission?",
+        "question": "Why must the heel hook rotation be applied slowly and progressively rather than explosively?",
         "answer": "Knee ligaments give almost no proprioceptive warning before failure, so slow pressure lets the opponent tap before damage occurs. The opponent often cannot feel the danger building until the ligament is already tearing, and explosive application can rupture the ACL in milliseconds - far faster than any tap signal can be communicated and recognized. Progressive application gives the defender time to register the pressure and tap before structural damage occurs. Additionally, controlled pressure maintains grip integrity while explosive force can cause grip slippage and position loss.",
         "safety_critical": true,
         "distractors": {
@@ -396,7 +396,7 @@
         "answer_line": "No warning before ligament tears"
       },
       {
-        "question": "Your opponent successfully hides their heel against their own hip using the boot defense - what submission chain do you employ?",
+        "question": "They hide the heel on their hip with the boot defense — which submission chain do you use?",
         "answer": "Maintain hip pressure while transferring your grip to attack the exposed forefoot with a toe hold. Keep hip pressure and inside leg elevation working to fatigue the boot defense as you transition, because the heel-hiding position actually presents the top of the foot and toes for a toe hold grip. This creates a dilemma: if they maintain the boot to defend the heel hook, the toe hold becomes available; if they adjust to defend the toe hold, the heel becomes exposed again. Continue applying hip pressure throughout to prevent them from addressing both threats.",
         "safety_critical": false,
         "distractors": {
@@ -411,7 +411,7 @@
         "answer_line": "Toe hold on exposed forefoot"
       },
       {
-        "question": "What grip configuration provides the strongest mechanical advantage for finishing the inside heel hook?",
+        "question": "Which grip gives the strongest mechanical advantage for finishing the inside heel hook?",
         "answer": "The strongest grip is a two-on-one with the wrist blade on the Achilles and the foot clamped deep in the armpit. The primary hand wraps around the ankle with the bony ulnar edge (blade) of the wrist positioned directly against the Achilles tendon at the heel insertion point, while the secondary hand grabs the primary wrist from underneath to reinforce against grip stripping. Both elbows are pinched tight against the ribcage. Rotational force comes from turning the entire torso, not from arm strength, using the armpit as a fixed pivot point.",
         "safety_critical": false,
         "distractors": {
@@ -441,7 +441,7 @@
         }
       },
       {
-        "question": "What common finishing error causes the most position losses when attacking the heel hook from Inside Sankaku?",
+        "question": "Which finishing error most often loses the position when heel hooking from Inside Sankaku?",
         "answer": "The most frequent error causing position loss is reaching for the heel before establishing complete positional control through all four layers. When the attacker extends their upper body forward to grab the heel without maintaining hip connection, they create space the defender exploits to pump their hips backward and extract the trapped leg. The correction is to maintain hip drive forward even during the grip transition, using legs and core for connection rather than leaning the torso away from the entanglement point.",
         "safety_critical": false,
         "answer_line": "Chasing the heel before control",
@@ -456,7 +456,7 @@
         }
       },
       {
-        "question": "In competition, what strategic considerations affect your timing for committing to the heel hook finish?",
+        "question": "In competition, what factors determine when you commit to the heel hook finish?",
         "answer": "In competition, consider the time remaining on the clock, the current score, and the ruleset's leg lock permissions. If ahead on points or advantages, patient positional control forces the opponent to take risks. If behind, a more aggressive finishing attempt may be warranted. In submission-only formats, patience is always rewarded since there is no time pressure. Also assess the opponent's defensive skill level from earlier exchanges to determine whether a single committed attack or a sustained chain approach is more appropriate.",
         "safety_critical": false,
         "answer_line": "Clock, score, ruleset legality",

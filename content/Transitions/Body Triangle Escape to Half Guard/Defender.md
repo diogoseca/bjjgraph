@@ -64,7 +64,7 @@ description: "Defend against the body triangle escape in BJJ. Learn to maintain 
     },
     {
       "@type": "Question",
-      "name": "What is your optimal response when the opponent successfully pushes your foot out from behind your knee?",
+      "name": "Your opponent pushes your triangle foot out from behind your knee: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately attempt to re-drive the foot behind your knee before they can establish a blocking frame with their elbow or forearm. If the re-lock is not possible within one to two seconds, transition to standard hooks by inserting both feet inside their thighs while maintaining seatbelt control. Do not spend extended time trying to re-lock a clearly compromised triangle while the opponent is actively hip escaping toward guard recovery."
@@ -72,7 +72,7 @@ description: "Defend against the body triangle escape in BJJ. Learn to maintain 
     },
     {
       "@type": "Question",
-      "name": "Why is attacking the neck the most effective counter when your opponent begins the triangle clearing sequence?",
+      "name": "Why is attacking the neck your best counter once they start clearing your body triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Neck attacks create an impossible resource allocation problem – the opponent must defend the choke with their hands, but clearing the triangle also requires their hands. They cannot do both simultaneously. Every second they spend returning to neck defense is a second they cannot work on the triangle clearing, and repeated choke threats deplete their energy and mental composure under the breathing restriction your triangle creates."
@@ -80,7 +80,7 @@ description: "Defend against the body triangle escape in BJJ. Learn to maintain 
     },
     {
       "@type": "Question",
-      "name": "What positional adjustments maintain your triangle's effectiveness when the opponent turns toward the crossing leg?",
+      "name": "How do you keep your body triangle effective when they turn toward the crossing leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their turning motion by adjusting your hips to stay perpendicular to their torso rather than allowing them to align with your squeeze direction. Pull their shoulders back toward you with the seatbelt and drive your chest tighter against their back. Increase momentary squeeze pressure during the turn to discourage continued rotation and potentially force them to abandon the turning attempt entirely."

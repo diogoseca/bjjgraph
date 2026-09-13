@@ -88,7 +88,7 @@ description: "Learn to extract your trapped arm from clamp guard in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep clamp with their shin firmly across your bicep — how does this change your extraction approach compared to a shallow forearm-level clamp?",
+      "name": "How does a deep shin-on-bicep clamp change your extraction versus a shallow forearm clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A deep bicep-level clamp requires significantly more preparation before extraction. You must invest additional time in the knee wedge and angle change to mechanically separate the clamping legs before attempting the circular pull. A shallow forearm-level clamp can often be extracted with just internal rotation and a quick circular motion because the forearm's tapered shape naturally slides through the gap. For deep clamps, consider combining the extraction with a posture change to standing, which creates vertical separation that dramatically weakens the bilateral leg pressure."
@@ -104,7 +104,7 @@ description: "Learn to extract your trapped arm from clamp guard in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "You begin extracting and feel your opponent's hips elevate against your shoulder — what is happening and how do you respond?",
+      "name": "You feel their hips elevate into your shoulder mid-extraction. What is happening and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip elevation indicates the opponent is loading an armbar. Your extraction motion has likely straightened your arm enough to create the extension angle they need for the finish. Immediately abandon the extraction attempt, bend your elbow aggressively, and rotate your thumb toward the ceiling for armbar defense. Pull your elbow toward your own ribcage and re-establish posture before reattempting. Never fight through an armbar load — reset completely and address the angle that created the threat before trying again."
@@ -120,7 +120,7 @@ description: "Learn to extract your trapped arm from clamp guard in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the clamp momentarily but re-clamps as you begin withdrawing your arm — what adjustment prevents this?",
+      "name": "They re-clamp as you withdraw the arm. What adjustment prevents that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Speed your extraction through the moment the clamp releases rather than pausing in the gap. The re-clamp happens because you create space but do not exploit it immediately. Combine the knee wedge separation with a simultaneous arm withdrawal so the extraction happens in the same instant the gap opens. Additionally, as your arm begins to clear, use your free hand to push their top clamping leg away from your arm toward their opposite hip, physically preventing the re-clamp by controlling the leg that would re-engage."

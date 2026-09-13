@@ -105,9 +105,9 @@
     "North-South",
     "Kesa Gatame",
     "Modified Mount",
-    "Reverse Kesa-Gatame",
+    "Ushiro Kesa Gatame",
     "Knee on Belly",
-    "Modified Scarf Hold"
+    "Kuzure Kesa Gatame"
   ],
   "related_submissions": [
     "Americana",
@@ -318,7 +318,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the minimum application speed and pressure progression requirements for the Mir Lock in training environments?",
+        "question": "How slowly must the Mir Lock be applied in training, and with what pressure progression?",
         "answer": "The Mir Lock must be applied over a minimum of 5-7 seconds with progressive pressure in training environments. The pressure should start light and gradually increase while constantly monitoring for tap signals. This slow application allows the training partner to recognize the submission and tap before any structural damage occurs to the shoulder joint. Competition application may be faster, but training must always prioritize safety over speed.",
         "safety_critical": true,
         "answer_line": "5-7 sec, progressive pressure",
@@ -348,7 +348,7 @@
         }
       },
       {
-        "question": "What specific injuries can result from improper Mir Lock application, and what are their typical recovery timeframes?",
+        "question": "Which shoulder injuries can a badly applied Mir Lock cause, and what are their recovery times?",
         "answer": "Improper Mir Lock application can cause multiple severe shoulder injuries: rotator cuff tears (CRITICAL severity, 3-6 months recovery, often requiring surgery), shoulder dislocations both anterior and posterior (High severity, 6-12 weeks with physical therapy), labral tears to the glenoid labrum (High severity, 4-8 months often requiring surgery), biceps tendon ruptures (Medium severity, 8-12 weeks), and shoulder capsule damage (High severity, 3-6 months with potential chronic instability). These injuries emphasize why controlled application and immediate tap response are absolutely essential.",
         "safety_critical": true,
         "answer_line": "Cuff tear 3-6mo, dislocation 6-12wk",
@@ -363,7 +363,7 @@
         }
       },
       {
-        "question": "How should you respond if an opponent attempts to defend the Mir Lock by grabbing their own gi or belt?",
+        "question": "How do you respond when your opponent grabs their own gi or belt to defend the Mir Lock?",
         "answer": "When the opponent grabs their own gi or belt to create a defensive frame, you should break the grip by driving your weight through their elbow while using your free hand to peel their defensive grip open. Once the grip is broken, immediately re-establish your figure-four control before they can re-grip. The key is to use your body weight and positioning to make maintaining their grip mechanically exhausting, rather than engaging in a pure strength battle. If the grip proves too strong, consider transitioning to alternative attacks from the same position.",
         "safety_critical": false,
         "answer_line": "Drive weight, peel the grip open",
@@ -438,7 +438,7 @@
         }
       },
       {
-        "question": "What are the key indicators that the Mir Lock is approaching the breaking point and you should expect a tap?",
+        "question": "Which signs show the Mir Lock is nearing the breaking point and a tap is coming?",
         "answer": "Key indicators include: the opponent's face showing visible strain or pain, their body tensing significantly, audible grunting or sharp breathing, cessation of defensive movement as they focus on the joint pressure, and subtle attempts to relieve pressure by turning the shoulder or adjusting their body. The arm may also begin to rotate more freely as the muscles fail to protect the joint. Crucially, in training you should never reach the actual breaking point - these early indicators should prompt you to slow your pressure application and give your partner time to recognize the submission and tap safely.",
         "safety_critical": true,
         "answer_line": "Strain, tensing, grunt, stops moving",
@@ -613,7 +613,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the most critical early defensive action when you feel your arm being isolated from bottom side control?",
+        "question": "What is the most critical early defense when your arm is being isolated under side control?",
         "answer": "The most critical early defensive action is to grip your own belt, gi lapel, or pants with the threatened hand to create an anchor that prevents the attacker from extending your arm and establishing the figure-four grip. This must happen before the attacker locks the figure-four, because once the grip is secured and the elbow begins to elevate, your defensive options narrow dramatically. Simultaneously, you should pull your elbow tight toward your ribs and begin hip escaping to create distance from the attacker's chest pressure.",
         "safety_critical": false,
         "answer_line": "Grab own belt or lapel first",

@@ -273,7 +273,7 @@
         }
       },
       {
-        "question": "Your opponent grips their own collar with the trapped hand as you begin the fall-back - how do you respond?",
+        "question": "S-mount armbar: they grab their own collar as you fall back—how do you respond?",
         "answer": "Address the collar grip before continuing the transition. Use both hands to pry their fingers off the collar one at a time, or wedge your forearm under their wrist to lever the grip open. If the grip is too strong to break, switch to a mounted triangle by threading your leg under their chin, as the bent arm creates the necessary opening for the triangle configuration.",
         "answer_line": "Pry grip off or switch triangle",
         "distractors": {
@@ -528,7 +528,7 @@
         }
       },
       {
-        "question": "Why is the transition window the optimal moment for defensive action rather than after armbar control?",
+        "question": "Why defend during the S-mount to armbar transition rather than after the lock is set?",
         "answer": "During the transition from S Mount to armbar control, the attacker must shift weight backward and change body position. This creates a brief moment of reduced stability where pressure on your shoulder decreases and their leg positions are adjusting. Once all five armbar control points are locked in, escape becomes exponentially more difficult because every defensive avenue is simultaneously blocked.",
         "answer_line": "Attacker's base is briefly weak",
         "distractors": {
@@ -542,7 +542,7 @@
         }
       },
       {
-        "question": "Your opponent has secured a two-on-one grip and begins leaning back - what escape sequence gives the best chance?",
+        "question": "They have two-on-one on your arm and lean back from S-mount—what escape sequence?",
         "answer": "First, reinforce your collar grip to prevent arm extension. Second, bridge explosively toward the attacker's legs to disrupt their base during the fall-back. Third, hip escape in the same direction to create lateral space. Fourth, use your free hand to push their leg off your head. Fifth, extract your arm and immediately recover to half guard. This sequence must execute as one fluid motion during the transition window.",
         "answer_line": "Bridge legs, hip escape, extract",
         "distractors": {

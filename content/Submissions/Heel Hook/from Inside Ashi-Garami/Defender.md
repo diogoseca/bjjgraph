@@ -58,7 +58,7 @@ description: "Defend the heel hook from Inside Ashi-Garami with early recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that a heel hook from Inside Ashi-Garami is being set up rather than a straight ankle lock?",
+      "name": "How do you tell a heel hook setup from a straight ankle lock in Inside Ashi-Garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key distinction is grip placement and hip orientation. For a heel hook, the attacker positions their wrist behind your Achilles tendon and seeks to wrap fingers around your heel bone, whereas an ankle lock grip goes across the top of your foot with pressure on the Achilles. The attacker's hips also rotate more perpendicular to your leg for heel hooks, and they focus on clamping your knee to prevent rotation rather than extending for ankle lock pressure."
@@ -74,7 +74,7 @@ description: "Defend the heel hook from Inside Ashi-Garami with early recognitio
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available when the attacker has established a full figure-four grip and is beginning to apply rotational pressure?",
+      "name": "What are your options once they have the figure-four locked and begin rotating your heel?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your safest option is to tap immediately rather than risk ligament damage. If you choose to defend, turn your entire body toward the attacker to align your knee with the rotational force, reducing ligament stress. Simultaneously grip-fight the figure-four by attacking the wrist connection point. However, understand that late-stage escapes from a fully locked heel hook carry significant injury risk, and the cost-benefit analysis strongly favors tapping early and learning to defend earlier in the sequence."
@@ -90,7 +90,7 @@ description: "Defend the heel hook from Inside Ashi-Garami with early recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent has just established Inside Ashi-Garami but has not yet reached for your heel—what is your immediate defensive priority?",
+      "name": "They just secured Inside Ashi-Garami but haven't reached your heel — what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hide your heel immediately by pressing it tightly against your own hip, rotating your knee inward and flexing your foot. Your near hand should reach down to grab your own ankle or shin to assist in keeping the heel protected. This is a time-critical action—you have approximately 1-2 seconds before they begin reaching for the heel, and every fraction of a second of hesitation reduces your escape probability dramatically. Because Inside Ashi-Garami lacks a full triangle lock, you also have an early window to attempt leg extraction by pumping your hips back while framing on their hip with your free leg."
@@ -98,7 +98,7 @@ description: "Defend the heel hook from Inside Ashi-Garami with early recognitio
     },
     {
       "@type": "Question",
-      "name": "What are the definitive indicators that you must tap immediately rather than continue escape attempts?",
+      "name": "Which signs mean you must tap now instead of continuing to escape the heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately when: (1) opponent has secured a reinforced figure-four grip on your heel with their wrist blade against your Achilles tendon, (2) you feel ANY rotational pressure beginning on your heel, or (3) you cannot freely move your foot within their grip. The inside heel hook can cause complete ligament failure in under one second once the breaking threshold is reached—there is no time to evaluate mid-submission. If you are debating whether to tap, you should already be tapping. No training round or competition match is worth surgical knee reconstruction."

@@ -74,7 +74,7 @@ description: "Master executing the Overhook Pass to Side Control. Systematic gui
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most critical connection point to maintain throughout the entire Overhook Pass to Side Control?",
+      "name": "What connection point is most critical throughout the overhook pass to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The armpit seal over the opponent's shoulder is the most critical connection point throughout the entire pass. This seal is what creates the control advantage that makes the pass possible - it traps and elevates the opponent's arm, preventing them from framing or establishing underhooks. Without the armpit seal, the opponent regains bilateral arm function and the pass loses its mechanical advantage. The seal must be maintained from initial overhook control through the passing arc until you are ready to transition directly into the crossface grip in side control."
@@ -82,7 +82,7 @@ description: "Master executing the Overhook Pass to Side Control. Systematic gui
     },
     {
       "@type": "Question",
-      "name": "Your opponent frames against your neck with their free arm as you begin walking your hips around - how do you address this without losing the passing sequence?",
+      "name": "They frame on your neck as you walk your hips around: how do you clear it and keep passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the frame by using your free hand to strip their elbow downward toward their body, collapsing the frame structure. Simultaneously increase forward hip pressure to prevent them from re-establishing the frame. If the frame is too strong to strip with one hand, swim your head under their framing arm to eliminate the leverage point entirely. The key is to remove the frame without stopping your hip movement or releasing the overhook, maintaining the passing momentum while solving the defensive problem."
@@ -98,7 +98,7 @@ description: "Master executing the Overhook Pass to Side Control. Systematic gui
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully hip escapes as you are halfway through the passing arc - what are your recovery options?",
+      "name": "They hip escape halfway through your passing arc: what are your recovery options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three recovery options exist depending on how far the hip escape has progressed. If minor, increase overhook pressure while blocking their far hip and re-flatten them before continuing. If they have created significant angle, abandon the current passing arc and reset to the flattening phase, re-establishing forward pressure to put them flat again. If they have nearly recovered guard, maintain the overhook control and transition to an alternative attack such as a Kimura or Darce setup rather than forcing a compromised pass. Never chase a failing pass - reset or redirect."
@@ -106,7 +106,7 @@ description: "Master executing the Overhook Pass to Side Control. Systematic gui
     },
     {
       "@type": "Question",
-      "name": "What grip transition occurs at the completion of the pass, and why is speed critical during this moment?",
+      "name": "What grip transition happens as the overhook pass finishes, and why must it be fast?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At pass completion, the overhook releases and immediately transitions to a crossface grip with your near arm driving across the opponent's face and neck, while your far arm establishes underhook or hip control. Speed is critical because the moment between releasing the overhook and establishing the crossface represents a brief control gap where the opponent can insert frames, turn their head, or begin escape sequences. A slow transition gives them a window to undo your positional work. The crossface must land before they can react to the overhook release."
@@ -114,7 +114,7 @@ description: "Master executing the Overhook Pass to Side Control. Systematic gui
     },
     {
       "@type": "Question",
-      "name": "When the pass is blocked and you are forced to reset to overhook control, what adjustment should you make before your next pass attempt?",
+      "name": "Forced back to overhook control after a blocked pass, what should you adjust before retrying?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before the next attempt, identify specifically what defensive mechanism stopped the pass - framing, hip escape, underhook, or knee shield insertion. Address that specific defense before re-attempting. If they framed, strip the grip first. If they hip escaped, re-flatten and improve far hip control. If they inserted a knee shield, smash it flat before initiating the arc. Also consider whether the pass is the right option at all - the reset may have created better opportunities for Kimura, back take, or Darce entries depending on their defensive positioning."

@@ -255,7 +255,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the optimal timing window for initiating the grip transition from rubber guard to Mission Control?",
+        "question": "When is the best moment to switch grips from rubber guard into Mission Control?",
         "answer": "The optimal window is immediately after deepening the posture break when the opponent's head is pulled maximally toward your chest and their weight is loaded forward onto the trapped shoulder. This moment provides the longest reaction time during the grip switch because the opponent must first recover posture before they can defend the transition. Attempting the switch while the opponent is actively fighting posture creates a contested vulnerability window.",
         "answer_line": "After deepening posture break",
         "distractors": {
@@ -283,7 +283,7 @@
         }
       },
       {
-        "question": "What is the single most critical mechanical detail that determines whether Mission Control will hold or collapse?",
+        "question": "Which mechanical detail most determines whether Mission Control holds or collapses?",
         "answer": "Grip depth on the shin. The overhook must secure the shin just below the knee rather than grabbing shallowly at the ankle or foot. A deep shin grip creates strong shoulder isolation through leverage, whereas a shallow ankle grip provides insufficient mechanical advantage and slips under defensive pressure. The difference between a locked Mission Control and a collapsing one is often the 6-8 inches of grip depth difference.",
         "answer_line": "Deep shin grip below the knee",
         "distractors": {
@@ -339,7 +339,7 @@
         }
       },
       {
-        "question": "Your opponent begins pulling their trapped arm backward during your grip transition - how do you adjust your technique?",
+        "question": "They pull the trapped arm free during your Mission Control entry: how do you adjust?",
         "answer": "Rather than fighting to retain the arm inside the leg, immediately pivot to the triangle entry. The arm extraction creates the exact space needed to bring your outside leg across the opponent's face for the triangle lock. Use their pulling momentum to accelerate your leg across their neck. If the triangle angle is not available, abort the Mission Control entry and return to standard rubber guard head control to reset for another attempt.",
         "answer_line": "Pivot into the triangle entry",
         "distractors": {
@@ -367,7 +367,7 @@
         }
       },
       {
-        "question": "How does hip elevation during the entry differ from hip elevation during Mission Control maintenance?",
+        "question": "How does hip elevation on the Mission Control entry differ from during maintenance?",
         "answer": "During the entry, hip elevation is explosive and maximal, creating a sharp upward pop that generates clearance space for the arm threading. During maintenance, hip elevation is sustained and moderate, creating constant upward pressure that keeps the opponent's weight loaded on the trapped shoulder. The entry uses a burst of energy to create space, while maintenance uses structural positioning to sustain control with minimal energy expenditure.",
         "answer_line": "Burst on entry, steady after",
         "distractors": {
@@ -381,7 +381,7 @@
         }
       },
       {
-        "question": "Your opponent is significantly larger and their forward pressure makes hip elevation difficult - what adaptation do you use?",
+        "question": "A much larger opponent's pressure blocks your hip elevation into Mission Control: what do you use?",
         "answer": "Use the Progressive Walk Entry variant: rather than one explosive hip pop and arm thread, gradually walk the grip up the shin in small increments. Each micro-adjustment tightens the control slightly while maintaining continuous contact. Alternatively, use their forward pressure against them by accepting it to deepen the posture break, then timing the hip pop for the moment they relax their drive. Against larger opponents, timing the opponent's breathing rhythm can create natural windows for the hip elevation.",
         "answer_line": "Walk grip up shin in increments",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "Your opponent has begun threading their arm under their leg but the shin grip is not yet secured - what is your optimal defensive action?",
+        "question": "They are threading the arm but have no shin grip yet: what is your best defensive action?",
         "answer": "This is the ideal moment for arm extraction because the bottom player's threading arm is occupied and cannot assist in maintaining arm isolation. Execute a circular arm pull toward your hip while simultaneously driving your free hand frame against their opposite hip to create separation. The bottom player cannot adjust the elevated leg (their arm is partially under it) and cannot use the threading hand to prevent your extraction. This two-second window is the highest-percentage escape opportunity.",
         "answer_line": "Extract arm before grip locks",
         "distractors": {

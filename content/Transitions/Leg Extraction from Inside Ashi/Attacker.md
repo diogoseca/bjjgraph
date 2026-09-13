@@ -74,7 +74,7 @@ description: "Master the leg extraction escape from Inside Ashi-Garami. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent secures a figure-four grip on your heel while you are in their Inside Ashi-Garami—what is your immediate priority before attempting extraction?",
+      "name": "They figure-four your heel in inside ashi — your priority before attempting extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the figure-four grip using a two-on-one configuration, attacking their top hand first since it is the locking hand of the figure-four. Simultaneously rotate your knee inward to reduce the mechanical advantage of their grip. Never attempt to pull your leg out while a finishing grip is in place—the extraction force works against your own joint and accelerates the heel hook. Only begin leg extraction movement after the grip is broken or significantly compromised."

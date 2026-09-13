@@ -64,7 +64,7 @@ description: "Defend the leg drag from De La Riva Guard. Recognition cues, timin
     },
     {
       "@type": "Question",
-      "name": "Your DLR hook has been cleared and your leg is being pulled across—what is the highest-percentage defensive action at this point?",
+      "name": "Your DLR hook is cleared and your leg is being dragged across. Highest-percentage defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, re-establishing the DLR hook is unlikely to succeed. Your highest-percentage option is to hip escape in the direction of the drag while inserting your far knee as a shield between you and the passer. This prevents them from establishing the hip-to-hip pressure that completes the control position. Even ending up in half guard rather than DLR is a successful defense—you have prevented full leg drag consolidation and maintained a guard with offensive options."

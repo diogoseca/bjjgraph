@@ -56,7 +56,7 @@ description: "Defend against the Smash Pass from X-Guard. Learn to recognize pre
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that indicates a smash pass attempt rather than a knee slice or long step pass?",
+      "name": "In X-guard, which tactile cue marks a smash pass rather than a knee slice or long step?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest tactile cue is feeling the passer's hips beginning to drop and drive forward directly through your hooks rather than shifting laterally. In a knee slice, you feel lateral pressure across your thigh. In a long step, you feel the passer stepping wide. In the smash pass, the pressure comes straight down and forward through the hook structure, and you feel the passer's chest weight increasing against your legs. The passer also typically establishes crossface pressure before the drive, which is another distinguishing early indicator."
@@ -64,7 +64,7 @@ description: "Defend against the Smash Pass from X-Guard. Learn to recognize pre
     },
     {
       "@type": "Question",
-      "name": "Why is timing the counter-sweep during the early commitment phase critical rather than waiting for the pass to develop?",
+      "name": "In X-guard, why must the counter-sweep come during their early commitment phase?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the early commitment phase, the passer's center of gravity is still above the hook line, meaning your legs can still generate effective upward elevation for sweeps. Additionally, the passer's base is in transition from a wide stable stance to a narrow committed position, making them most vulnerable to lateral sweeping forces. Once the passer fully commits and drops below the hook line, the mechanical advantage shifts entirely to them and counter-sweeps become nearly impossible. The window for effective counter-sweeps is narrow, typically lasting only one to two seconds during the initial weight shift."
@@ -72,7 +72,7 @@ description: "Defend against the Smash Pass from X-Guard. Learn to recognize pre
     },
     {
       "@type": "Question",
-      "name": "When should you abandon X-Guard and transition to an alternative guard rather than continuing to defend the smash pass?",
+      "name": "When should you abandon X-guard for another guard instead of defending the smash pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should transition when you feel your inside hook beginning to flatten and losing depth behind the passer's knee despite your best efforts to maintain it. If the passer has successfully lowered their center of gravity below your hook line and you cannot re-elevate them, continuing to hold X-Guard is futile. The optimal transition point is when the inside hook still has some grip but is clearly losing the battle, giving you enough remaining control to execute a smooth transition to Single Leg X, butterfly, or deep half guard rather than a desperate scramble."

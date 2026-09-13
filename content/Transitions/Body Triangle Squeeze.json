@@ -267,7 +267,7 @@
         }
       },
       {
-        "question": "Your opponent tucks their elbows tight against their ribs to absorb the squeeze pressure - how do you adjust?",
+        "question": "They tuck their elbows to their ribs to absorb the body triangle squeeze: how do you adjust?",
         "answer": "Their elbows distribute pressure more evenly, reducing effectiveness. Adjust by angling your squeeze to target the side without elbow protection, or use your upper body grips to strip their arms away from their torso. You can also transition to choke attacks since their hands are occupied defending the squeeze rather than protecting their neck, turning their defensive adaptation into an offensive opportunity.",
         "answer_line": "Strip arms, target neck",
         "distractors": {
@@ -393,7 +393,7 @@
         }
       },
       {
-        "question": "Your squeeze has been applied for twenty seconds with sustained pressure but the opponent has not tapped - what do you do next?",
+        "question": "Twenty seconds of body triangle squeeze and no tap: what do you do next?",
         "answer": "Sustained pressure without a tap indicates suboptimal angle, effective breathing management by the opponent, or insufficient posterior chain engagement. First, adjust your hip angle to shift compression toward the floating ribs on their bottom side. Second, pulse the pressure with two to three sharp squeeze spikes to disrupt any breathing rhythm they have established. Third, if the squeeze still shows no effect, transition to coordinated choke attacks using the degraded breathing capacity as a setup rather than continuing to invest leg energy in a squeeze that has reached its effectiveness ceiling.",
         "answer_line": "Shift hips, pulse, then attack neck",
         "distractors": {
@@ -540,7 +540,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest indicators that your opponent is transitioning from body triangle control to active squeeze finishing?",
+        "question": "What are the earliest signs they are shifting from body triangle control to a finishing squeeze?",
         "answer": "You will feel their legs tightening progressively with increasing pressure beyond normal control levels, their hips driving forward into your lower back with greater force, and their upper body shifting from active choke hunting to stabilizing grips. Your breathing will become noticeably more restricted as they commit their posterior chain to the compression effort.",
         "answer_line": "Legs tighten, hips drive in",
         "distractors": {
@@ -568,7 +568,7 @@
         }
       },
       {
-        "question": "What body positioning minimizes the effectiveness of the squeeze and creates the best opportunity for escape?",
+        "question": "What body positioning blunts the body triangle squeeze and best sets up your escape?",
         "answer": "Turn your torso toward the triangle leg side to reduce the squeezing angle and the surface area being compressed. Tuck your elbows against your ribs to create structural support that absorbs some pressure. Keep your chin tucked and one hand defending your neck throughout the repositioning. This angled position reduces compression effectiveness while creating the angle needed to begin attacking the locked foot.",
         "answer_line": "Turn toward triangle leg",
         "distractors": {
@@ -582,7 +582,7 @@
         }
       },
       {
-        "question": "Your opponent combines the squeeze with a rear naked choke attempt - how do you prioritize your defense?",
+        "question": "They add an RNC to the body triangle squeeze: what do you defend first?",
         "answer": "The choke is the more immediately dangerous threat and must be prioritized over squeeze defense. Bring both hands to defend your neck, accepting increased squeeze pressure temporarily. Once you have secured your neck defense and denied the choke entry, resume working on the squeeze by turning toward the triangle leg. The squeeze takes time to finish, giving you a window to address the choke first before returning to body escape.",
         "answer_line": "Defend neck first, hands up",
         "distractors": {
@@ -596,7 +596,7 @@
         }
       },
       {
-        "question": "After partially clearing the body triangle, how do you prevent your opponent from re-establishing the lock?",
+        "question": "After partly clearing the body triangle, how do you stop them re-locking it?",
         "answer": "Immediately insert your elbow or forearm between your body and their legs to prevent the foot from re-locking behind their knee. Continue turning into your opponent while maintaining this frame, occupying the space you created. Move directly into your chosen escape sequence without pausing to rest, as any hesitation allows them to re-engage the figure-four configuration and reset the position.",
         "answer_line": "Frame elbow, keep turning in",
         "distractors": {
@@ -610,7 +610,7 @@
         }
       },
       {
-        "question": "When the squeeze attacker begins pulsing pressure rather than constant compression, how should you adjust your defensive approach?",
+        "question": "The body triangle squeeze comes in pulses: how do you time your escape work?",
         "answer": "Pulsing pressure indicates the attacker is managing their energy for a sustained squeeze campaign. Use the brief lower-pressure intervals to take recovery breaths and make incremental progress on your escape. Do not wait for a complete release of pressure, as it will not come. Time your escape movements to the lower-pressure moments between pulses, particularly targeting the locked foot behind the opponent's knee when their leg muscles briefly relax during the pressure release phase.",
         "answer_line": "Escape during low-pressure pulses",
         "distractors": {
@@ -624,7 +624,7 @@
         }
       },
       {
-        "question": "If you successfully break the body triangle figure-four lock, what are your immediate priorities in the next three seconds?",
+        "question": "You just broke the body triangle lock: what are your immediate priorities?",
         "answer": "The instant the lock breaks, insert your elbow or forearm as a frame between your torso and their legs to prevent re-locking. Simultaneously begin turning toward them to disrupt their ability to re-establish the triangle or insert standard hooks. Your opponent will immediately attempt to re-lock the figure-four or switch to hooks, so you have approximately two to three seconds before they re-establish leg control. Use this window to transition into a standard back escape sequence targeting half guard or turtle position.",
         "answer_line": "Frame and turn immediately",
         "distractors": {
@@ -638,7 +638,7 @@
         }
       },
       {
-        "question": "How does the body triangle squeeze differ from normal body triangle control in terms of your defensive urgency and strategy?",
+        "question": "Why is defending an active body triangle squeeze more urgent than plain body triangle control?",
         "answer": "Normal body triangle control creates passive discomfort that can be managed with proper breathing and patience, allowing you to methodically work escape sequences over extended periods. The active squeeze creates a time-sensitive threat where your defensive capacity degrades with each breath cycle as rib compression restricts oxygen intake. This fundamentally changes your defensive approach from patient technical escape to urgent but still technical escape with an awareness that delaying will reduce your ability to execute the escape at all. You must begin your defensive response immediately rather than settling into a survival posture.",
         "answer_line": "Urgent escape, oxygen is ticking",
         "distractors": {

@@ -281,7 +281,7 @@
         }
       },
       {
-        "question": "What are the visual and tactile indicators that the elbow is approaching its breaking point during the belly down finish?",
+        "question": "What visual and tactile signs show the elbow nearing its break in the belly down finish?",
         "answer": "As the elbow approaches its limit, you will feel the arm become rigid with muscular resistance suddenly giving way to bone-on-bone mechanical stop. The opponent's body will tense significantly, they may vocalize distress or pain, and you may feel a subtle give or pop sensation in the joint. Any of these signals requires immediate cessation of pressure. Do not wait for a verbal tap if you feel structural change in the joint.",
         "safety_critical": true,
         "answer_line": "Rigid then sudden give",
@@ -296,7 +296,7 @@
         }
       },
       {
-        "question": "What control points must be confirmed before transitioning from Mission Control into the armbar rotation?",
+        "question": "Which control points must be confirmed before rotating from mission control into the armbar?",
         "answer": "Four control points must be confirmed: the shoulder must be fully isolated with the overhook secure under the tricep, two-on-one wrist control must be established on the target arm, lateral hip angle must be created by scooting toward the trapped arm side, and the high guard leg must still be preventing posture recovery. Missing any of these increases the risk of the opponent escaping during the transition.",
         "safety_critical": false,
         "answer_line": "Overhook, wrist, angle, guard leg",
@@ -326,7 +326,7 @@
         }
       },
       {
-        "question": "Your opponent clasps their hands together in a Gable grip to prevent arm isolation - what adjustment allows you to continue the attack?",
+        "question": "They clasp a Gable grip to stop arm isolation from mission control — how do you continue?",
         "answer": "Attack the weaker hand by prying the fingers or wrist of the bottom hand while using your legs to create separation pressure on their arms. Alternatively, threaten a triangle choke by adjusting your leg position toward their neck, which forces them to release the grip to defend the choke. Once they break their own grip to defend, immediately re-isolate the arm and continue the armbar sequence before they can re-clasp.",
         "safety_critical": false,
         "answer_line": "Pry weak hand or thread triangle",
@@ -341,7 +341,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make during the belly down rotation to prevent the arm from slipping free?",
+        "question": "What grip adjustment during the belly down rotation keeps the arm from slipping free?",
         "answer": "During the rotation, transition from two-on-one wrist control to a figure-four grip or monkey grip where both hands clamp the wrist against your sternum. Pull the wrist in tight rather than holding it at arm's length. Your forearms should pin against each other with the opponent's wrist sandwiched between them and your chest. This configuration is far more secure than fingertip gripping during the dynamic rotation phase.",
         "safety_critical": false,
         "answer_line": "Figure-four wrist to sternum",
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "Why must extension pressure be applied slowly in the belly down position rather than with a quick jerk?",
+        "question": "Why apply belly down extension pressure slowly instead of with a quick jerk?",
         "answer": "The belly down position creates extreme mechanical advantage where your entire bodyweight drives through the hip extension against the locked elbow. Even a small hip arch generates enormous force on the joint. A quick jerk can hyperextend the elbow past its structural limit before the opponent can process the pain and signal a tap. Slow progressive pressure gives the opponent time to recognize the submission is locked and tap safely, preventing ligament tears and fractures that can end training careers.",
         "safety_critical": true,
         "answer_line": "Break lands before they can tap",
@@ -371,7 +371,7 @@
         }
       },
       {
-        "question": "In competition, how do you adjust the belly down armbar finish from Mission Control against an opponent who refuses to tap early?",
+        "question": "In competition, how do you finish the belly down armbar against someone who won't tap early?",
         "answer": "In competition, maintain steady progressive pressure and trust the mechanics. Do not spike or jerk the arm regardless of competitive pressure. If the opponent is not tapping despite clearly locked belly down position, continue smooth extension while watching the referee for a verbal or visual submission call. The belly down position is so mechanically dominant that patience always prevails. Rushing the finish to beat the clock risks injuring your opponent and potential disqualification for dangerous conduct.",
         "safety_critical": true,
         "answer_line": "Steady pressure, trust mechanics",
@@ -496,7 +496,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest recognition cues that indicate a belly down armbar is being set up from Mission Control?",
+        "question": "What are the earliest cues of a belly down armbar setup from mission control?",
         "answer": "The first cue is the attacker releasing head control and reaching for your wrist or forearm with both hands - this grip transition is the setup for arm isolation. The second cue is feeling the attacker's hips scoot laterally toward your trapped arm side, creating the angle for the leg swing. The third is the high guard leg pressure shifting off your shoulder as they prepare to swing it over your face. Recognizing the first cue gives you the largest defensive window.",
         "safety_critical": false,
         "answer_line": "Head control traded for wrist grip",

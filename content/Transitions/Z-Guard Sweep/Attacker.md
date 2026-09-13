@@ -74,7 +74,7 @@ description: "Execute the Z-Guard Sweep in BJJ. Complete attacker guide covering
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent posts their far hand on the mat when you initiate the Z-Guard Sweep - how do you adjust?",
+      "name": "Your opponent posts their far hand on the mat as you start the Z-Guard Sweep—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch your far-side grip target from their collar or sleeve to their posting wrist or hand. Capture the posting arm and pull it across their body to remove the base that is preventing the sweep. Once the post is removed, reinitiate the knee shield extension and hip drive to complete the sweep. Alternatively, use their posting reaction as an opportunity to switch to an underhook entry since their far arm is occupied with posting."
@@ -82,7 +82,7 @@ description: "Execute the Z-Guard Sweep in BJJ. Complete attacker guide covering
     },
     {
       "@type": "Question",
-      "name": "What is the most critical body position that must be established before initiating the Z-Guard Sweep?",
+      "name": "What body position must you establish before initiating the Z-Guard Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hips must be angled at approximately 45 degrees with weight on the shoulder blade rather than flat on the back. This angle aligns the knee shield extension force with the optimal sweeping direction, creating lateral displacement rather than pushing straight up into the opponent's center of gravity. Without this angle, the extension simply creates distance rather than generating the rotational torque needed to topple the opponent."
@@ -90,7 +90,7 @@ description: "Execute the Z-Guard Sweep in BJJ. Complete attacker guide covering
     },
     {
       "@type": "Question",
-      "name": "Your opponent drops their weight and sprawls their hips when you extend the knee shield - what should you do?",
+      "name": "Your opponent drops weight and sprawls their hips as you extend the knee shield—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recognize that their low, sprawled posture has created space underneath them that is ideal for a deep half guard entry. Abandon the sweep attempt and dive underneath their hips using the existing frame to slide your body under theirs. The low posture that defends the sweep is precisely the body position that exposes them to deep half attacks. Alternatively, the sprawl may open an underhook opportunity since their arms are often occupied maintaining low posture."
@@ -98,7 +98,7 @@ description: "Execute the Z-Guard Sweep in BJJ. Complete attacker guide covering
     },
     {
       "@type": "Question",
-      "name": "What grip on the far side is most essential for preventing the opponent from stopping the Z-Guard Sweep?",
+      "name": "For the Z-Guard Sweep, what far-side grip is most essential to stop them defending?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip that controls the opponent's far-side posting ability is most critical. A deep cross-collar grip behind the neck provides the strongest pulling leverage, but a far-side sleeve grip or wrist control is equally effective for removing their posting ability. The specific grip matters less than the function it serves: preventing the opponent from placing their hand on the mat to resist the rotational force of the sweep."
@@ -114,7 +114,7 @@ description: "Execute the Z-Guard Sweep in BJJ. Complete attacker guide covering
     },
     {
       "@type": "Question",
-      "name": "You attempt the Z-Guard Sweep but your opponent begins backstep passing to avoid your knee shield angle - how do you respond?",
+      "name": "Your opponent backsteps to avoid your knee shield angle during the Z-Guard Sweep—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recognize the backstep as an offensive opportunity rather than a defensive problem. As the opponent circles around your knee shield, follow their rotation with your hips and use your far-side grip to pull yourself toward their back. Convert the backstep defense into a back take by climbing onto their back as they circle. Their rotational momentum actually assists your transition to back control. If the back take is not available, use the angle change to reinsert the knee shield and reset the sweep threat."

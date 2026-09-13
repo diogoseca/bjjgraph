@@ -104,7 +104,7 @@ description: "Execute the feet on hips to De La Riva guard transition. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a squared stance with no clear lead leg - how do you create the conditions for the DLR entry?",
+      "name": "Their stance is squared with no lead leg: how do you create the DLR entry from feet on hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use asymmetric foot pressure to provoke a lead-leg presentation. Push harder with one foot on their hip while reducing pressure with the other, creating a rotational force that encourages them to step one foot forward to maintain balance. Alternatively, pull their sleeve or collar to one side while pushing the opposite hip, creating the angular displacement that forces one leg ahead of the other. Never attempt the DLR entry against a perfectly squared stance."
@@ -112,7 +112,7 @@ description: "Execute the feet on hips to De La Riva guard transition. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "The opponent grabs your hooking ankle mid-transition and prevents the hook from fully threading - what is your immediate response?",
+      "name": "They grab your ankle mid-transition and block the DLR hook: your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circle your foot sharply outward to strip their ankle grip using the rotational leverage of your hip movement. If the grip holds, abandon the DLR attempt and immediately replace your foot on their hip to restore the feet-on-hips structure. From there, either re-attempt after establishing a stronger upper body grip that limits their hand availability, or transition to spider guard or lasso guard where your already-engaged upper body grips can support an alternative guard system."
@@ -120,7 +120,7 @@ description: "Execute the feet on hips to De La Riva guard transition. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that distinguishes a successful DLR hook from one that is easily cleared?",
+      "name": "What mechanical detail separates a retentive DLR hook from one that is easily cleared?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The depth and angle of the hook determine its retention power. A properly set DLR hook has the instep or shin pressed firmly against the back of the opponent's knee, with your own knee pointing outward and your hips angled away from the hooked leg. Combined with the ankle grip, this creates a two-point control system with strong structural integrity. A shallow hook where only the foot curls behind the calf lacks the mechanical advantage to resist extraction and provides minimal off-balancing leverage."

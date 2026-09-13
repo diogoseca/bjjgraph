@@ -82,7 +82,7 @@ description: "Defend against the cross collar choke from knee on belly. Complete
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured the first collar grip and is increasing knee pressure—what is your immediate response?",
+      "name": "They have the first collar grip and knee pressure is rising—what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Commit both hands to a two-on-one grip strip on the established collar grip immediately. Grab their gripping wrist and sleeve with both hands and peel their fingers from the collar while simultaneously turning your body slightly to the side to create an angle. The knee pressure increase is designed to pull your hands to the knee—resist this instinct and address the grip first. You can tolerate knee pressure temporarily, but you cannot tolerate both collar grips being established."

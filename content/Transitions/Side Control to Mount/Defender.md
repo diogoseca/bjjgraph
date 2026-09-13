@@ -56,7 +56,7 @@ description: "How to defend against Side Control to Mount in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that your opponent is about to attempt the side control to mount transition?",
+      "name": "What is the earliest tactile cue that top side control is about to step over to mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling their hips shift 6-12 inches toward your head while maintaining chest pressure. This hip walk is the preparatory movement that creates the angle needed for the step-over. It precedes all other visible indicators like arm isolation or leg movement. Training yourself to recognize this subtle weight shift allows you to launch defensive frames and hip movement before the step-over begins, dramatically increasing your defensive success rate."
@@ -64,7 +64,7 @@ description: "How to defend against Side Control to Mount in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why is inserting your knee shield the highest-percentage defensive response, and what timing window must you hit?",
+      "name": "Why is the knee shield the highest-percentage answer to the mount step-over, and when must it go in?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee shield is the highest-percentage response because it physically blocks the step-over path while simultaneously recovering a guard position (half guard) that offers offensive options. The critical timing window is between the moment you recognize the hip shift and before their stepping leg clears your body. This window is approximately 1-2 seconds. If you insert the knee after their first leg clears, you can still catch half guard on the second leg, but this secondary window is much shorter and the position achieved is more compromised than early knee shield insertion."
@@ -80,7 +80,7 @@ description: "How to defend against Side Control to Mount in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already stepped their first leg over and is bringing the second leg across - what is your best remaining defensive option?",
+      "name": "Their first leg is over and the second is coming across: what is your best remaining defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your best remaining option is to immediately insert your bottom knee between your bodies to catch their second leg and recover half guard. Squeeze your legs together tightly on their trapped leg before they can extract it. Simultaneously establish a knee shield with your top leg against their chest to create distance and prevent them from settling into mount. While this is not the ideal defensive scenario (early prevention is far superior), recovering half guard is dramatically better than allowing full mount. Once you have half guard, immediately work to establish an underhook and begin your offensive sweep sequences."
@@ -88,7 +88,7 @@ description: "How to defend against Side Control to Mount in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "What defensive frame structure should you maintain throughout side control to be prepared for both mount transition defense and general escape attempts?",
+      "name": "What frame structure should you hold under side control to defend both mount and escapes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal defensive frame structure positions your near-side forearm horizontally against their hip crease, preventing both the hip walk toward your head and serving as a direct barrier to the step-over leg. Your far-side hand controls their shoulder, bicep, or crossface arm to manage upper body pressure and prevent them from settling full weight. Both elbows stay tight to your body to protect against arm isolations and submission entries. Your hips should be slightly angled rather than flat, with your near-side knee already partially cocked to quickly insert a knee shield. This structure serves triple duty: it prevents mount transitions, creates space for hip escape attempts, and protects against submissions from side control."

@@ -56,7 +56,7 @@ description: "How to defend against 50-50 Entry from Standing in BJJ. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that indicates an opponent is about to attempt a 50-50 entry from standing?",
+      "name": "What is the earliest cue that your opponent is about to attempt a standing 50-50 entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent reaching with their free hand toward your lead ankle or shin while maintaining an upper body grip. This combined grip pattern - one hand controlling your upper body and the other targeting your lead leg - is the prerequisite for the entry. Recognizing this reach before they secure the ankle grip gives you the maximum defensive window, as the entry cannot proceed without this critical connection point."
@@ -80,7 +80,7 @@ description: "How to defend against 50-50 Entry from Standing in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your stance and weight distribution if you suspect your opponent is planning a 50-50 entry?",
+      "name": "How should you adjust stance and weight if you suspect a standing 50-50 entry is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift more weight to your rear foot and keep your lead foot light and retractable, rather than committing weight forward onto the lead leg. Widen your stance slightly to create a more stable base against pulling forces. Maintain a higher posture to make it harder for them to reach your ankle. Keep your lead hand active as a frame on their shoulder or collar to maintain distance and make it difficult for them to lower their level. This stance adjustment makes the entry significantly harder without compromising your own offensive options."
@@ -88,7 +88,7 @@ description: "How to defend against 50-50 Entry from Standing in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "If you are caught in a partially established 50-50 where the attacker has one hook but not the second, what should you do?",
+      "name": "They have one hook in a partially established 50-50 but not the second—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With only one hook established, focus all effort on preventing the second hook from being configured. Use your free leg to push on their hip or knee to create separation. Rotate your trapped knee inward to make it difficult for their second leg to thread around yours. Simultaneously work to strip their ankle grip with your hands. If you can prevent the second hook for 3-5 seconds, the attacker typically must abandon or restart the entry, giving you an opportunity to extract and reset to standing."

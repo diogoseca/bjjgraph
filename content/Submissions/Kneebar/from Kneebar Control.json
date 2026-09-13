@@ -301,7 +301,7 @@
         }
       },
       {
-        "question": "Your opponent maintains a strong bent-knee defense and you cannot break their posture after 10 seconds - what adjustment prevents stalemate?",
+        "question": "Your opponent holds a strong bent-knee defense in kneebar control: what avoids a stalemate?",
         "answer": "After 10 seconds of unsuccessful posture breaking, transition to an alternate attack rather than forcing the kneebar. Redirect your grip toward the foot for a toe hold, which attacks a different joint and forces the opponent to change their defensive posture. Alternatively, use the kneebar threat to create a reaction that opens pathways to heel hook by adjusting leg entanglement. Continuing to force against a locked defense wastes energy and reduces subsequent attack effectiveness.",
         "safety_critical": false,
         "answer_line": "Switch to toe hold attack",
@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "How should you adjust your grip configuration if the opponent begins rotating their foot during the finish?",
+        "question": "How do you adjust your grip if your opponent rotates their foot during the kneebar finish?",
         "answer": "When the opponent rotates their foot, tighten elbow squeeze to prevent further rotation and adjust your grip to track the movement. If the foot rotates inward (toward your body), maintain kneebar angle by following with slight hip adjustment. If the foot rotates outward, this may expose the heel—consider transitioning to heel hook if the rotation is significant. The key is preventing the rotation from converting your hyperextension angle into a less threatening rotational angle where the knee joint has more tolerance.",
         "safety_critical": false,
         "answer_line": "Tighten elbows, track rotation",
@@ -376,7 +376,7 @@
         }
       },
       {
-        "question": "Your opponent has partially extracted their leg and your grip is slipping - what is the highest-percentage response?",
+        "question": "Your opponent partially extracts the leg and your kneebar grip slips: what is the best response?",
         "answer": "When grip is slipping during extraction, do not chase the leg with arm strength alone—this leads to a losing grip battle. Instead, immediately redirect to the closest available submission: if the ankle is exposed, transition to straight ankle lock by adjusting grip to the foot. If the opponent is pulling backward, use their momentum to enter 50-50 position which resets the leg entanglement. If extraction is nearly complete, let go cleanly and immediately re-establish guard to prevent the opponent from capitalizing on your compromised position.",
         "safety_critical": false,
         "answer_line": "Redirect to nearest submission",
@@ -571,7 +571,7 @@
         }
       },
       {
-        "question": "Your attacker is applying rhythmic hip pulses to break your bent-knee defense - how should you respond?",
+        "question": "The attacker uses rhythmic hip pulses on your bent-knee kneebar defense: how do you respond?",
         "answer": "Counter rhythmic hip pulses by timing your hip rotation with their pulses—as they drive forward, rotate your hips toward them to redirect the force away from direct hyperextension. Simultaneously, use your free leg to push against their hip during each pulse to create incremental separation. If their pulses are weakening your defense over time, prioritize immediate escape attempts during the brief relaxation phase between pulses rather than waiting until your hamstring endurance fails completely.",
         "safety_critical": false,
         "answer_line": "Time hip rotation to their pulses",

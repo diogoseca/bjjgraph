@@ -76,7 +76,7 @@ description: "Defend the Kimura from Shoulder of Justice in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "What should you do if the attacker has fully locked the kimura grip and begun applying rotational pressure?",
+      "name": "The attacker has the kimura locked and is rotating—what should you do as the defender?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately if you feel your shoulder reaching its rotational limit. The kimura can cause catastrophic shoulder damage before pain becomes severe enough to process. If you still have defensive options, clasp your free hand onto the trapped wrist, turn your entire body toward the attacker to reduce the rotation angle, and bridge to disrupt their base. Never try to tough out a locked kimura that is being rotated—the injury risk is too severe and the escape probability at this stage is extremely low."

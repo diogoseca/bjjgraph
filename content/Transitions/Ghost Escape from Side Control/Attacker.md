@@ -98,7 +98,7 @@ description: "Execute the Ghost Escape from Side Control to open guard. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What are the two most common failure points that cause this escape to result in turtle rather than guard?",
+      "name": "What two errors make the ghost escape end in turtle instead of direct guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first is threading the knee too late, after the turn has completed and the gap has closed, which forces the standard ghost escape turtle outcome. The second is insufficient frame pressure against the opponent's hip during the turn, which allows them to follow your rotation closely enough that there is no gap for the knee to enter. Both failures convert the technique into the standard ghost escape rather than achieving direct guard recovery."
@@ -114,7 +114,7 @@ description: "Execute the Ghost Escape from Side Control to open guard. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure as you set up the ghost escape. How does this affect your approach?",
+      "name": "They crossface heavily as you set up the ghost escape; how does that change your approach?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Heavy crossface pressure actually assists the ghost escape because you turn in the direction the crossface pushes you rather than fighting against it. The crossface energy converts into turning momentum. However, heavy crossface often comes with reduced hip pressure, which is exactly the condition this technique requires. Use the crossface direction to fuel your turn while exploiting the lighter hip contact to execute the knee thread."

@@ -111,6 +111,11 @@
       "principle_name": "Cross Face Control",
       "relationship_type": "Extension",
       "description": "An effective crossface depends on structural alignment from the attacking shoulder through the core and into the hips. The crossface pressure comes from body structure, not arm strength — the shoulder drives through bone-stacked alignment into the opponent's face."
+    },
+    {
+      "principle_name": "Alignment",
+      "relationship_type": "Complementary",
+      "description": "Limb structure must work with spinal posture and base rather than being assessed alone."
     }
   ],
   "application_contexts": [
@@ -364,6 +369,11 @@
       "name": "Mount",
       "content_type": "Position",
       "relationship": "Mount requires dynamic structural management — shifting between pressure structure and submission structure as the tactical need changes"
+    },
+    {
+      "name": "Alignment",
+      "content_type": "Principle",
+      "relationship": "Limb structure must work with spinal posture and base rather than being assessed alone."
     }
   ],
   "flashcards": [
@@ -518,5 +528,9 @@
       "duration": 222,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Structure can guide how any position, transition, or submission is performed, prevented, or trained. Its application includes top, bottom, attacker, and defender."
+  }
 }

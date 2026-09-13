@@ -98,7 +98,7 @@ description: "Complete guide to executing the belly down armbar transition. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands together during the transition to prevent arm extension - how do you respond?",
+      "name": "They clasp their hands to block arm extension in the belly-down armbar: how do you break it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Wedge your knee between their forearms at the clasped point and use a prying motion to separate their hands. If the clasp is too strong, switch to a wrist lock threat by rotating the trapped wrist laterally, which forces them to release the defensive clasp to protect the smaller joint. You can also wait in the belly-down position with heavy pressure until fatigue forces them to release."

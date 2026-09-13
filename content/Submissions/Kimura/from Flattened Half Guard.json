@@ -294,7 +294,7 @@
         }
       },
       {
-        "question": "What physical and tactile cues indicate the Kimura is approaching the breaking point from this position?",
+        "question": "What cues show the Kimura from flattened half guard is nearing the shoulder's limit?",
         "answer": "You will feel a progressive increase in resistance as the shoulder approaches its end range, followed by a distinct hardening where the rotation meets bony and ligamentous limits. The opponent's body may involuntarily stiffen or arch. Their breathing pattern changes — often becoming rapid or held. You may feel micro-tremors in their arm as the muscles resist the rotation under load. These cues signal you should hold steady pressure and wait for the tap rather than increasing force, as the joint is at its structural limit.",
         "safety_critical": true,
         "answer_line": "Rotation stiffens, breath changes",
@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "At what point during the Kimura from flattened half guard does the submission become effectively inescapable?",
+        "question": "When does the Kimura from flattened half guard become effectively inescapable?",
         "answer": "The submission reaches the point of no escape once the figure-four grip is fully locked with elbows tight, the captured elbow is pinned to the opponent's ribcage by your chest weight, and the initial rotation has begun painting their hand toward the mat. At this stage, the mechanical advantage of the lever system combined with the restricted mobility of the flattened position means the opponent cannot generate enough force to reverse the rotation or extract their arm. Their only remaining option is to tap before the shoulder reaches its structural limit.",
         "safety_critical": false,
         "answer_line": "Locked grip, pinned elbow, rotating",
@@ -339,7 +339,7 @@
         }
       },
       {
-        "question": "Your opponent clasps both hands together to defend the Kimura grip — what is the correct sequence to break this defense?",
+        "question": "They clasp both hands to block your Kimura from flattened half guard — how do you break it?",
         "answer": "First, maintain your figure-four grip and chest pressure without releasing anything. Drive their clasped hands toward the mat using your hip weight rather than pulling with your arms. If the clasp holds, wedge your knee against the outside of their captured elbow to create a lever that separates their grip. You can also attack the weakest point of their clasp by peeling the bottom hand's fingers while maintaining downward pressure. If the grip remains unbreakable, use the stalling opportunity to advance your passing position past the half guard while they are occupied with hand defense.",
         "safety_critical": false,
         "answer_line": "Drive clasp down, knee-wedge elbow",
@@ -369,7 +369,7 @@
         }
       },
       {
-        "question": "What is the correct application speed for the Kimura in training, and what happens if this is violated?",
+        "question": "How fast should you apply the Kimura in training, and what happens if you rush it?",
         "answer": "In training, the Kimura must be applied with slow, progressive rotation over a minimum of 3-5 seconds once rotational pressure begins. This allows the training partner adequate time to recognize the danger, assess their defensive options, and tap before the joint reaches its structural limit. Violating this speed guideline risks catastrophic shoulder injury including rotator cuff tears, shoulder dislocation, and labral damage — injuries that may require surgery and 6-12 months of recovery. The shoulder joint has very little buffer between discomfort and structural failure under Kimura torque.",
         "safety_critical": true,
         "answer_line": "Slow, 3-5 second rotation",
@@ -399,7 +399,7 @@
         }
       },
       {
-        "question": "Your opponent bridges and turns into you during the Kimura attempt — what adjustment prevents them from escaping?",
+        "question": "They bridge and turn into you during the flattened half guard Kimura — what do you adjust?",
         "answer": "Post your far-side foot wide and lower your base to absorb the bridge energy without being displaced. Keep the figure-four grip locked throughout the bridge — do not release to post your hands. As the opponent's bridge peaks and they begin settling back to the mat, tighten the grip and drive your hips forward to recapture the flattened position. The bridge actually exposes more rotational range if you maintain the grip through it, because their shoulder extends as they arch. Use this window to advance the rotation as they return to the mat.",
         "safety_critical": false,
         "answer_line": "Post wide, keep grip, retighten",
@@ -414,7 +414,7 @@
         }
       },
       {
-        "question": "Why is attacking the far arm preferable to the near arm when executing the Kimura from flattened half guard top?",
+        "question": "Why attack the far arm rather than the near arm for the Kimura from flattened half guard?",
         "answer": "The far arm is mechanically isolated from the opponent's defensive structure when it extends past their torso centerline — to reach for frames, underhooks, or crossface defense, they must expose it beyond the protection of their own body. The near arm, by contrast, is shielded beneath your chest and can be easily retracted to safety. Additionally, attacking the near arm requires you to sacrifice crossface control, which eliminates the head position advantage that makes the flattened half guard so dominant. The far arm attack preserves crossface pressure while the arm is already extended into a vulnerable position.",
         "safety_critical": false,
         "answer_line": "Far arm is exposed and isolated",
@@ -593,7 +593,7 @@
         }
       },
       {
-        "question": "How should you use the grip clasp defense to create positional improvement rather than just stalling?",
+        "question": "As defender, how do you turn the Kimura grip clasp into positional improvement, not stalling?",
         "answer": "The grip clasp buys time but is not a permanent solution — the attacker will eventually break it through leverage. Use the stalling window to begin hip escaping toward your trapped leg side, incrementally creating the space needed to re-establish your knee shield or elbow frame. Each small hip movement compounds while your grip holds the rotation at bay. The objective is to convert defensive time into positional recovery so that when the grip eventually breaks, you have already improved your position enough to prevent the finish.",
         "safety_critical": false,
         "answer_line": "Hip escape while the clasp holds",

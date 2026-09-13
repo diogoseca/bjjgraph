@@ -66,7 +66,7 @@ description: "Defend and escape the Guillotine Choke from Clinch in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Why is driving forward a more effective escape than pulling straight back from a standing guillotine?",
+      "name": "Why is driving forward better than pulling straight back to escape a standing guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling backward moves your neck directly across the choking forearm, actually increasing pressure on the carotids and tightening the choke. It also shifts your weight behind your center of gravity, compromising your base. Driving forward collapses the attacker's structure, eliminates the hip fulcrum they need for finishing pressure, and moves you toward side control where the guillotine becomes nearly impossible to maintain. The forward drive changes the angle of force from perpendicular to the neck (choking) to parallel with the body (passing), fundamentally altering the submission mechanics in the defender's favor."
@@ -74,7 +74,7 @@ description: "Defend and escape the Guillotine Choke from Clinch in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked their hands and you feel the standing guillotine tightening rapidly - what is your immediate priority?",
+      "name": "Their hands are locked and the standing guillotine is tightening — what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is tucking your chin as tightly as possible to your chest to prevent the forearm from seating fully under the jawline. Simultaneously, use your near-side hand to fight the choking wrist, pulling it toward your chest to create even millimeters of space between the forearm and your neck. These defensive actions buy you critical seconds. Once you have basic airway protection, commit to a full forward drive to side control. Do not attempt to slowly work an escape—with a locked grip and tightening pressure, you have a narrow window of three to five seconds before the choke becomes inescapable."
@@ -82,7 +82,7 @@ description: "Defend and escape the Guillotine Choke from Clinch in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "What is the danger of trying to muscle out of a standing guillotine rather than using technical escapes?",
+      "name": "Why is muscling out of a standing guillotine dangerous compared to technical escapes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Muscling out of a guillotine through raw strength burns oxygen at an accelerated rate precisely when breathing is already compromised by the choke. The increased muscular tension also raises blood pressure and metabolic demand, meaning your brain needs more oxygen while receiving less. Additionally, explosive muscular movement often causes the chin to lift, exposing the neck further and allowing the forearm to sink deeper under the jaw. Technical escapes—chin tuck, wrist control, forward drive—work with the body's mechanics rather than against the choke's pressure, providing effective defense without the catastrophic energy expenditure."
@@ -90,7 +90,7 @@ description: "Defend and escape the Guillotine Choke from Clinch in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "How does the Von Flue choke create a deterrent against opponents who hold the guillotine grip after you pass to side control?",
+      "name": "How does the Von Flue choke deter opponents who hold the guillotine grip after you pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Von Flue choke is a shoulder pressure choke applied from side control when the bottom person maintains a guillotine grip. By passing to side control and driving your shoulder into the side of the opponent's neck while they hold the guillotine, you compress their carotid artery using their own gripping arm against them. The opponent faces a dilemma: releasing the guillotine grip concedes side control, but maintaining it exposes them to the Von Flue counter-choke. This counter-submission makes the forward drive defense doubly effective—you escape the guillotine and immediately threaten a submission of your own, training opponents to release the grip the moment you begin passing."

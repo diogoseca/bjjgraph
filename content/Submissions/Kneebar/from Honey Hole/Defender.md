@@ -58,7 +58,7 @@ description: "Defend against the kneebar from Honey Hole in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first physical cue that tells you the attacker is transitioning from heel hook to kneebar?",
+      "name": "What is the first cue that the attacker is switching from a heel hook to a kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cue is feeling the attacker release your heel or ankle grip and their hands moving up toward your thigh area above the knee. You will also feel their hips shift from alongside your leg to directly behind your knee joint. This grip transition takes 1-2 seconds and is your window to implement knee bend defense before the arm clamp is established."
@@ -74,7 +74,7 @@ description: "Defend against the kneebar from Honey Hole in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available when the attacker has fully locked the arm clamp and begun extending?",
+      "name": "What defensive options remain once the attacker has locked the arm clamp and begun extending?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the arm clamp is locked and extension has begun, your realistic options are extremely limited. Maximum effort knee bend may delay the finish temporarily, and explosive rotation with bridge may disrupt alignment if attempted immediately. However, if the extension is progressing and your knee is being straightened, the safest option is to tap. Attempting heroic escapes at this stage carries high injury risk with low success probability. Prevention and early defense are far more effective than late-stage attempts."

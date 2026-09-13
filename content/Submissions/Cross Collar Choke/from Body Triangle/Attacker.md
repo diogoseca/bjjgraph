@@ -78,7 +78,7 @@ description: "Learn to execute the cross collar choke from body triangle. Step-b
     },
     {
       "@type": "Question",
-      "name": "Your opponent aggressively strips your first collar grip before you can secure the second - what adjustment prevents this cycle from repeating?",
+      "name": "In body triangle they strip your first collar grip before you secure the second - what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately switch to a rear naked choke attempt when their hands leave your wrist to fight your collar grip. This creates a dilemma where defending the collar exposes the neck to the RNC, and defending the RNC exposes the collar. Chain between these two attacks so each defensive reaction opens the other submission pathway."
@@ -94,7 +94,7 @@ description: "Learn to execute the cross collar choke from body triangle. Step-b
     },
     {
       "@type": "Question",
-      "name": "What indicators tell you the choke is correctly applied to the carotid arteries rather than the trachea?",
+      "name": "In the body triangle, what tells you the collar choke is on the carotids and not the trachea?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A correctly applied blood choke produces a feeling of tightness on the sides of the neck, and the opponent may show facial color change within seconds. If the opponent is coughing, gagging, or the pressure is concentrated on the front of the throat, the choke is misapplied to the trachea. Wrist position against the lateral neck and elbow retraction toward the hips indicate correct arterial targeting."
@@ -110,7 +110,7 @@ description: "Learn to execute the cross collar choke from body triangle. Step-b
     },
     {
       "@type": "Question",
-      "name": "What finishing mechanic produces the strongest choke - squeezing the hands together or pulling elbows toward the hips?",
+      "name": "Which finishes the collar choke stronger: squeezing the hands together or pulling elbows to hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling the elbows toward the hips while expanding the chest forward produces a far stronger and more sustainable finish. This uses the large muscles of the back and the mechanical advantage of chest expansion rather than forearm and grip strength. Squeezing hands together fatigues quickly and often creates tracheal pressure rather than clean arterial compression."

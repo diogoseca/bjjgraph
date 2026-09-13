@@ -58,7 +58,7 @@ description: "Learn to defend and escape the Short Choke from Harness in BJJ. Re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the Short Choke from Harness is being set up versus a standard RNC attempt?",
+      "name": "How do you tell a Short Choke setup from harness apart from a standard RNC attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key difference is the opponent's hand trajectory after the forearm crosses the neck. In an RNC setup, the choking arm threads behind your head toward the opposite shoulder to complete the figure-four lock. In the Short Choke, the choking hand moves toward the opponent's own opposite sleeve opening rather than behind your head. Watch for the opponent adjusting their gi sleeve position or moving their choking hand toward their own forearm. The defensive window closes once the hand enters the sleeve."

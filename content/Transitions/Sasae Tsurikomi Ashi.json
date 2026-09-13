@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "If your opponent consistently steps over your blocking foot, what technical adjustments should you make?",
+        "question": "If your opponent keeps stepping over your Sasae block, what should you adjust?",
         "answer": "First, ensure you are creating proper kuzushi before placing the foot - if they can step over, they are not truly off-balance. Second, place the block lower, closer to the floor. Third, consider switching to combination attacks, using their step-over as an entry for Kouchi Gari or switching to an upper body throw like a hip throw when they lift their leg high.",
         "answer_line": "Get real kuzushi, block lower",
         "distractors": {
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "Your opponent is pulling backward every time you initiate circular movement - how do you adapt your attack sequence?",
+        "question": "Your opponent pulls backward each time you circle for Sasae: how do you adapt your attack?",
         "answer": "When an opponent habitually retreats, their weight loads onto the rear leg, making it vulnerable to attacks that follow their momentum. Switch to Osoto Gari or Ouchi Gari to attack the weighted rear leg. Alternatively, use their backward pull to set up an Ankle Pick on the lead leg, which becomes light as they shift weight backward. The key is to attack in the direction they are already moving.",
         "answer_line": "Attack rear leg: Osoto or Ouchi",
         "distractors": {
@@ -520,7 +520,7 @@
         }
       },
       {
-        "question": "Your opponent attempts Sasae and you successfully retract your foot, but now they are shifting into a different attack - what follow-up attacks should you anticipate?",
+        "question": "You retract your foot from their Sasae: what follow-up attacks should you expect next?",
         "answer": "After a defended Sasae, the most common follow-ups are Ouchi Gari or Kouchi Gari targeting the rear leg that now bears most of your weight from the retraction, Osoto Gari if you stepped backward loading the same side leg, or an upper body throw like Harai Goshi if you raised your leg high. You should also anticipate a snap down to front headlock if your posture broke during the defense. Immediately reset your base and grip position rather than staying in the defensive posture.",
         "answer_line": "Expect Ouchi, Osoto, or snap down",
         "distractors": {
@@ -548,7 +548,7 @@
         }
       },
       {
-        "question": "How should you adjust your stance and weight distribution when you recognize your opponent favors foot sweep techniques?",
+        "question": "How should you adjust stance and weight against an opponent who favors foot sweeps?",
         "answer": "Lower your center of gravity by increasing knee bend and shifting weight slightly toward your heels rather than the balls of your feet. Narrow your stance slightly to reduce the target for blocking techniques. Move with shorter, quicker steps rather than long strides that create extended moments of single-leg balance. Prioritize breaking their collar grip repeatedly to deny the lifting mechanism. Consider initiating your own attacks or guard pull to prevent them from establishing the circular movement pattern they need.",
         "answer_line": "Lower stance, strip their grips",
         "distractors": {

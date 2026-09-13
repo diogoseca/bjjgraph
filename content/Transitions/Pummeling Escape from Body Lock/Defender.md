@@ -64,7 +64,7 @@ description: "Defensive guide for maintaining body lock control against pummelin
     },
     {
       "@type": "Question",
-      "name": "Why should you treat pummeling attempts as triggers for your own offensive transitions rather than purely defensive reactions?",
+      "name": "Why treat their pummeling attempts as triggers for your own attacks from body lock top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The body lock is an inherently transitional position that degrades over time as the opponent continues making escape attempts. Each pummel weakens your grip incrementally, and purely defensive re-locking will eventually fail against a persistent opponent. By using pummeling attempts as triggers for throws, mat returns, or back take transitions, you convert the opponent's escape energy into offensive opportunities. Their movement and weight shifts during pummeling often create ideal conditions for your attacks."
@@ -72,7 +72,7 @@ description: "Defensive guide for maintaining body lock control against pummelin
     },
     {
       "@type": "Question",
-      "name": "How do you maintain body lock control when the opponent successfully threads one arm inside your grip?",
+      "name": "They pummel one arm inside your body lock — how do you keep control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When one arm gets inside, you have a narrow window to prevent the second. Immediately transition your grip lower on their torso where the underhook has not yet reached, maintaining the lock below their inserted arm. Simultaneously drive maximum forward hip pressure to keep them loaded and prevent them from establishing base for the second pummel. If re-locking below is not possible, immediately transition to back control by using the space created by their escape movement to insert your hooks while maintaining whatever grip connection remains."

@@ -64,7 +64,7 @@ description: "Defend and counter the Feet on Hips Sickle Sweep in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent threads their hooking foot behind your far ankle—what immediate action prevents the sweep?",
+      "name": "They thread a hook behind your far ankle from feet-on-hips: how do you stop the sickle sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately step the targeted foot straight back beyond their hooking range while simultaneously pressuring or stripping their collar grip. The backstep removes the hook target, and without the hook, the pushing foot alone cannot complete the lateral sweep. Be prepared for the follow-up tripod sweep attempt that often comes when you step back by maintaining your grips on their pants or ankles to begin your own passing sequence."

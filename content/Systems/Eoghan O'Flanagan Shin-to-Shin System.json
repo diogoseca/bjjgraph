@@ -1,0 +1,246 @@
+{
+  "name": "Eoghan O'Flanagan Shin-to-Shin System",
+  "description": "Study Eoghan O'Flanagan shin-to-shin guard through seated posture, hand-fighting decisions, stance-specific entries, and controlled follow-ups to leg contact.",
+  "summary": "The Eoghan O'Flanagan Shin-to-Shin System is an independent BJJGraph guide to shin-to-shin guard decisions, connecting positional control, opponent reactions, and a practical route into offense.",
+  "tags": [
+    "bjj",
+    "system",
+    "guard",
+    "no-gi"
+  ],
+  "system_type": "Guard System",
+  "difficulty_level": "Intermediate",
+  "overview": "Seated guard needs a way to connect before a mobile passer circles away or controls the head. Shin-to-shin provides one such connection, but reaching for the ankle while the shoulders are being pushed backward can leave the bottom player chasing the exchange. This guide puts the approach and hand fight before the leg entry.\n\nThe published syllabus links posture and hand fighting with heisting, stance-specific leg entries, and responses to pummeling or backsteps. The guide uses that positional scope, without treating the broader marketing description as a detailed submission syllabus. Shin to Shin by Eoghan O'Flanagan is the optional instructional companion. The drills, stages, and assessments below are original BJJGraph study suggestions; use the course demonstrations and coaching for the detailed mechanics.",
+  "key_principles": [
+    "Resolve head and hand obstacles before chasing a leg.",
+    "Keep seated posture connected to the ability to rise.",
+    "Read which leg is leading before entering.",
+    "Treat shin contact as a connection rather than a completed attack.",
+    "Recognize the first pummel or backstep that changes the guard.",
+    "Keep a disengagement or guard-recovery option when contact disappears."
+  ],
+  "key_components": [
+    {
+      "component_name": "Seated approach",
+      "description": "Maintain a posture from which you can move, frame, or rise while the passer changes distance.",
+      "purpose": "Avoid reaching from a collapsed starting position."
+    },
+    {
+      "component_name": "Hand-fighting access",
+      "description": "Identify the post or tie that blocks your approach and practise clearing it without losing balance.",
+      "purpose": "Create space for a meaningful leg connection."
+    },
+    {
+      "component_name": "Stance-specific contact",
+      "description": "Compare shin-to-shin access when the passer is square and when one leg leads.",
+      "purpose": "Choose an approach consistent with the available leg."
+    },
+    {
+      "component_name": "Connection maintenance",
+      "description": "Observe the first leg pummel, retreat, or backstep and decide whether to follow or recover guard.",
+      "purpose": "Keep the drill focused on retaining a useful exchange."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Set the seated posture",
+      "description": "Begin with the passer outside touching distance and move until a controlled hand-fighting exchange is possible."
+    },
+    {
+      "step_number": 2,
+      "phase": "Clear one obstacle",
+      "description": "Let the passer use a light shoulder post or collar tie, then work a coached route back to balanced contact."
+    },
+    {
+      "step_number": 3,
+      "phase": "Read the lead leg",
+      "description": "Pause after a stance change and select the leg that supports the chosen entry."
+    },
+    {
+      "step_number": 4,
+      "phase": "Establish shin contact",
+      "description": "Complete the approach without finishing pressure and describe what keeps the passer connected."
+    },
+    {
+      "step_number": 5,
+      "phase": "Test one disruption",
+      "description": "Allow one pummel or backstep and practise retaining useful contact or recovering open guard."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The bottom player reaches while their head is controlled.",
+      "solution": "Resolve the post or tie and restore seated balance before attempting the entry."
+    },
+    {
+      "obstacle": "The passer changes lead legs and the entry misses.",
+      "solution": "Add stance-identification pauses before the first leg contact."
+    },
+    {
+      "obstacle": "Shin contact is mistaken for a finished sweep.",
+      "solution": "Define a separate destination for the sweep and assess the connection first."
+    },
+    {
+      "obstacle": "The player follows a lost leg connection into a scramble.",
+      "solution": "Agree a recovery condition and reset when the relevant contact no longer exists."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Approach balance",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Maintains a usable posture during hand fighting",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Obstacle recognition",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Names the post or tie blocking the entry",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Stance reading",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Selects a leg after the lead changes",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Connection response",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Recognizes when to follow or recover",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice plan: Begin seated against a standing partner who may post on the shoulder or change lead legs. Clear the obstacle, establish shin contact, and stop at a named connection before adding a sweep. Keep the starting position consistent long enough to compare the same problem across repetitions. Add one defensive option at a time and record the first lost connection rather than only the final result.",
+    "progression_path": [
+      {
+        "stage": "Set the seated posture",
+        "focus": "Begin with the passer outside touching distance and move until a controlled hand-fighting exchange is possible."
+      },
+      {
+        "stage": "Clear one obstacle",
+        "focus": "Let the passer use a light shoulder post or collar tie, then work a coached route back to balanced contact."
+      },
+      {
+        "stage": "Read the lead leg",
+        "focus": "Pause after a stance change and select the leg that supports the chosen entry."
+      },
+      {
+        "stage": "Establish shin contact",
+        "focus": "Complete the approach without finishing pressure and describe what keeps the passer connected."
+      }
+    ],
+    "common_mistakes": [
+      "The bottom player reaches while their head is controlled.",
+      "The passer changes lead legs and the entry misses.",
+      "Shin contact is mistaken for a finished sweep."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Shin-to-Shin Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Seated Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Open Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "X-Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Standing Position",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Structures that preserve space during the guard exchange."
+    },
+    {
+      "name": "Distance Control",
+      "content_type": "Principle",
+      "relationship": "Spacing behind the entry and recovery decisions."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Support to observe before selecting a sweep or coming up."
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Connections that give the chosen movement its purpose."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What should come before reaching for the leg from seated guard?",
+      "answer": "Resolve the head or hand obstacle and establish a posture from which the leg approach can remain balanced."
+    },
+    {
+      "question": "Why does the passer's lead leg matter?",
+      "answer": "It changes which shin and ankle are accessible and whether the selected approach fits the distance and stance."
+    },
+    {
+      "question": "Is shin-to-shin contact itself a completed attack?",
+      "answer": "No. It is an initial connection from which a sweep, rise, or transition still needs its own controls and destination."
+    },
+    {
+      "question": "What can a shoulder post reveal during entry practice?",
+      "answer": "It shows whether the bottom player can restore posture and hand access before leaning forward toward a leg."
+    },
+    {
+      "question": "How should a pummel be introduced into the drill?",
+      "answer": "Allow one agreed pummel after the initial connection so the response can be observed without an unrestricted scramble."
+    },
+    {
+      "question": "When is recovering open guard a useful result?",
+      "answer": "When the leg connection has disappeared, rebuilding a playable guard can preserve position better than chasing a detached limb."
+    }
+  ],
+  "products": [
+    {
+      "id": "shin-to-shin-by-eoghan-oflanagan",
+      "title": "Shin to Shin",
+      "instructor": "Eoghan O'Flanagan",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/shin-to-shin-by-eoghan-oflanagan?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "The published syllabus links posture and hand fighting with heisting, stance-specific leg entries, and responses to pummeling or backsteps. The guide uses that positional scope, without treating the broader marketing description as a detailed submission syllabus.",
+      "best_for": "No-gi guard players with basic positional familiarity who want to study shin-to-shin guard. This is a focused companion rather than a complete beginner curriculum.",
+      "study_focus": "Start with posture and hand fighting in volume one, compare square and bladed stance entries in volume three, and use volume four to study the first lost-connection response.",
+      "practice_tip": "BJJGraph drill: Begin seated against a standing partner who may post on the shoulder or change lead legs. Clear the obstacle, establish shin contact, and stop at a named connection before adding a sweep."
+    }
+  ]
+}

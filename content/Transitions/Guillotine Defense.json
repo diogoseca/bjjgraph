@@ -279,7 +279,7 @@
         }
       },
       {
-        "question": "Why is creating hip distance critical to guillotine defense, and what happens if you fail to create this distance?",
+        "question": "Why is creating hip distance critical in guillotine defense, and what happens if you fail to?",
         "answer": "Hip distance is critical because opponent can use their own hips as an additional fulcrum point, dramatically increasing choking pressure and leverage. If you fail to create distance, opponent can pull your head down toward their hips while lifting their hips, creating a vice-like compression that makes escape nearly impossible. Distance removes their ability to use their body as leverage, reducing the choke to arm strength alone which is far more defendable.",
         "answer_line": "Removes hips as second fulcrum",
         "distractors": {
@@ -293,7 +293,7 @@
         }
       },
       {
-        "question": "What is the correct direction to circle when defending a standard guillotine choke, and why is circling the other way worse?",
+        "question": "Defending a standard guillotine, which way do you circle, and why is the other way worse?",
         "answer": "You should circle toward the side of the choking arm (into the choke), not away from it. Circling toward the choking side while driving your shoulder forward creates angles where the guillotine's structure breaks down because the wrist fulcrum loses alignment with your carotid arteries. Circling away actually tightens the choke by allowing opponent to use their non-choking arm more effectively and maintain better structural alignment of the submission.",
         "answer_line": "Circle toward the choking arm",
         "distractors": {
@@ -307,7 +307,7 @@
         }
       },
       {
-        "question": "How does the defensive strategy change when defending a high-elbow guillotine versus a standard guillotine?",
+        "question": "How does your defense change against a high-elbow guillotine versus a standard one?",
         "answer": "In a high-elbow guillotine, the fulcrum point shifts from the wrist to the elbow crease, requiring your frame to address the elbow position rather than the wrist. The high-elbow variation is generally tighter and more dangerous, requiring faster and more aggressive defensive movements. You must maintain even stricter posture control and apply more forward pressure to counter the increased leverage. The circular motion must be more pronounced and quicker than standard guillotine defense.",
         "answer_line": "Target elbow crease, act faster",
         "distractors": {
@@ -321,7 +321,7 @@
         }
       },
       {
-        "question": "Why should you never pull guard or voluntarily go to bottom position when defending a guillotine from standing?",
+        "question": "Why should you never pull guard when defending a guillotine from standing?",
         "answer": "Pulling guard when caught in a standing guillotine voluntarily gives your opponent their optimal finishing position - closed guard with guillotine locked and hip leverage available. From standing, gravity works in your favor, making their guillotine mechanically weaker since they cannot use hip elevation. Going to bottom transforms a defendable standing guillotine into a high-percentage submission threat, significantly reducing your escape probability from roughly 70% standing to potentially 30% or less from guard bottom.",
         "answer_line": "Gives them guard + hip leverage",
         "distractors": {
@@ -335,7 +335,7 @@
         }
       },
       {
-        "question": "What role does controlling opponent's free hand play in guillotine defense, and what can happen if you ignore it?",
+        "question": "In guillotine defense, why control their free hand, and what happens if you ignore it?",
         "answer": "Controlling opponent's free hand prevents them from adjusting their grip configuration mid-escape, which could transform a defendable guillotine into a higher-percentage variation like high-elbow or chin strap. If you ignore the free hand, opponent can switch grips, trap your defending arm for an arm-in variation, or readjust their fulcrum point to counter your defensive movements. Many escapes fail not because the initial defense was wrong, but because the opponent adapted their attack while the defender focused only on head extraction.",
         "answer_line": "Stops grip switch to high-elbow",
         "distractors": {
@@ -349,7 +349,7 @@
         }
       },
       {
-        "question": "Your opponent secures a guillotine during your double leg takedown attempt - what is the optimal timing window to begin your defense?",
+        "question": "They catch a guillotine on your double leg: what is the optimal window to begin defending?",
         "answer": "The optimal timing is immediately upon feeling the guillotine grip establish around your neck, before the opponent can close their guard or consolidate the choke. During the takedown attempt, you still have forward momentum and standing base, both of which favor your defense. The critical window is the 1-2 seconds between grip establishment and guard closure. If you complete the takedown and land in their guard with the guillotine locked, your defense becomes significantly harder. Ideally, abort the takedown, establish your defensive frame, and begin the escape sequence while still on your feet.",
         "answer_line": "Act before they close guard",
         "distractors": {
@@ -363,7 +363,7 @@
         }
       },
       {
-        "question": "What grip configuration must exist on your neck before you can successfully begin the fulcrum control step of guillotine defense?",
+        "question": "What must already be set on your neck before you start fulcrum control in guillotine defense?",
         "answer": "You need your near-side hand (same side as their choking arm) already inserted between your neck and their forearm with your chin tucked to chest. This protective frame must be established first because attempting fulcrum control without the chin tuck and hand barrier means your defensive hand movements can inadvertently create space for the choke to deepen. The frame acts as both protection and the tool you use to push down on their wrist. Without this prerequisite, pushing on their arm without proper framing can actually worsen the choke angle.",
         "answer_line": "Chin tucked, hand inside frame",
         "distractors": {
@@ -377,7 +377,7 @@
         }
       },
       {
-        "question": "Your opponent has a deep guillotine from closed guard and your initial defense has stalled - what chain of techniques should you attempt?",
+        "question": "Deep guillotine from closed guard and your defense has stalled: what chain do you attempt?",
         "answer": "When stalled in closed guard with a deep guillotine, shift to a stacking-based defense: drive your weight forward through your trapped shoulder to compress their spine and reduce their hip leverage. Use your free hand to work on opening their guard by pushing on their knee or hip. Once guard opens, immediately sprawl hips back to create distance while maintaining your neck frame. If stacking alone fails, attempt to pass to the choking-arm side while maintaining posture, which can transition into a Von Flue choke opportunity. The key is recognizing that guard-based guillotine defense requires addressing both the choke and the guard simultaneously.",
         "answer_line": "Stack, open guard, then sprawl",
         "distractors": {
@@ -391,7 +391,7 @@
         }
       },
       {
-        "question": "What is the critical mechanical detail about the direction of force you apply to your opponent's wrist during fulcrum control?",
+        "question": "In guillotine defense, which direction do you push their wrist during fulcrum control?",
         "answer": "You must push the wrist downward and laterally (toward the side of your neck rather than center throat) rather than pulling it away from your neck. Pulling the wrist away is fighting against their grip strength and body leverage, which is a losing battle. Pushing downward uses gravity and your body weight advantage, and moving the fulcrum laterally shifts the pressure from your carotid arteries to the muscular side of your neck where the choke is structurally ineffective. This redirection of force is the key mechanical insight that separates successful defenses from failed ones.",
         "answer_line": "Push down and toward your side",
         "distractors": {
@@ -534,7 +534,7 @@
         }
       },
       {
-        "question": "Why is pulling guard a critical tool for the guillotine attacker when the defender creates hip distance?",
+        "question": "When the defender creates hip distance, why is pulling guard key for the guillotine attacker?",
         "answer": "Pulling guard restores the attacker's hip connection to the defender's body, re-establishing the body-as-fulcrum leverage that makes the guillotine mechanically sound. Without hip connection, the choke relies solely on arm strength which is insufficient against a properly framed defense. Closed guard also prevents the defender from completing the circling motion that breaks the choke's structural alignment, and hip elevation from guard adds upward force that drives the forearm deeper into the defender's neck.",
         "answer_line": "Restores hip fulcrum leverage",
         "distractors": {

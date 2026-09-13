@@ -47,7 +47,7 @@ description: "Learn how tiered BJJ flashcards -- family, position, and role leve
       "name": "What are the three levels of the flashcard specificity hierarchy, from general to specific?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Family level (dynamics true across every variant of a position, such as "Mount principles"), position level (the role-agnostic mechanics of one configuration, such as "High Mount mechanics"), and role level (the most specific tier, tied to one side of one position, such as "High Mount, top")."
+        "text": "Family level (dynamics true across every variant of a position, such as \"Mount principles\"), position level (the role-agnostic mechanics of one configuration, such as \"High Mount mechanics\"), and role level (the most specific tier, tied to one side of one position, such as \"High Mount, top\")."
       }
     },
     {

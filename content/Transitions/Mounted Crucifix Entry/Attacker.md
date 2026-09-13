@@ -84,7 +84,7 @@ description: "How to execute Mounted Crucifix Entry in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent defends your armbar by bending their arm and gripping their collar - how does this create crucifix opportunity?",
+      "name": "They defend your armbar by bending the arm and gripping their collar — why does that open crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponents bend their arm and grip their collar for armbar defense, they must bring their far arm across their body to reach their collar or the defending arm. This defensive arm crossing exposes it for leg threading. Additionally, their focus on preventing arm extension means they often neglect the incoming leg trap. Time your leg thread immediately when you see the grip establish."
@@ -108,7 +108,7 @@ description: "How to execute Mounted Crucifix Entry in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "How do you respond when opponent explosively bridges during your weight shift for the crucifix entry?",
+      "name": "They bridge explosively during your weight shift for the crucifix entry — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post immediately with your free hand in the direction of their bridge to prevent being displaced. Ride the bridge by moving your hips with their movement rather than fighting against it. Once the bridge settles, re-establish S Mount pressure before considering another crucifix attempt. Do not try to complete the leg thread mid-bridge as this typically results in losing mount entirely."

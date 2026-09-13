@@ -56,7 +56,7 @@ description: "Master defending the Sweep from Cross Ashi-Garami. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up a sweep from Cross Ashi-Garami bottom?",
+      "name": "What is the earliest cue your opponent is setting up a sweep from cross ashi-garami bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent's free hand reaching toward your upper body—specifically toward your far arm for an underhook, your collar or neck for a collar tie, or your sleeve or wrist for grip control. This upper body connection attempt precedes the actual sweep motion and is the critical setup phase. Shutting down this grip establishment prevents the sweep from being mechanically possible, making it the optimal intervention point."
@@ -72,7 +72,7 @@ description: "Master defending the Sweep from Cross Ashi-Garami. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent plants their free foot on the mat and starts sitting up—what is your immediate defensive response?",
+      "name": "They plant their free foot and start sitting up in cross ashi-garami—your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately strip any upper body grip the opponent has established, as this is the critical connection enabling the sweep. Push their free-side shoulder or chest back down to the mat to prevent the sit-up from completing. If the sit-up motion has too much momentum to stop, post your near hand on the mat in the sweep direction to maintain base while accelerating your heel hook attack with the remaining grip. The combination of base maintenance and submission threat forces the opponent to choose between completing the sweep and defending the heel hook."
@@ -88,7 +88,7 @@ description: "Master defending the Sweep from Cross Ashi-Garami. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "When should you choose to post a hand for base versus attacking the heel hook during a sweep attempt?",
+      "name": "In cross ashi-garami, when do you post for base versus attack the heel hook during their sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post for base when the sweep has already generated significant momentum and your balance is genuinely compromised—losing the position entirely is worse than temporarily reducing submission pressure. Attack the heel hook when you detect the sweep setup early (opponent reaching for upper body control, planting foot) and your base is still stable enough that the submission threat will force them to abandon the sweep before it develops. The earlier you recognize the sweep attempt, the more likely you can punish it with a submission rather than needing to defend reactively."

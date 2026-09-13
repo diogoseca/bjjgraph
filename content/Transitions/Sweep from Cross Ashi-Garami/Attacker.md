@@ -74,7 +74,7 @@ description: "Master executing the Sweep from Cross Ashi-Garami. Step-by-step gu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important setup requirement before initiating the Sweep from Cross Ashi-Garami?",
+      "name": "What is the key setup requirement before starting the sweep from cross ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establishing upper body control on the opponent is the non-negotiable prerequisite. Without an underhook, collar tie, or sleeve grip connecting you to the opponent's torso, the sweep has no fulcrum for generating rotational force. The seated opponent can simply lean away or post a hand to absorb any hip bridge or sit-up attempt that lacks this upper body connection."
@@ -82,7 +82,7 @@ description: "Master executing the Sweep from Cross Ashi-Garami. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins transitioning their grip from your heel to set up a different leg attack—how does this create a sweep opportunity?",
+      "name": "They shift grips off your heel for another leg attack: why is this your sweep window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip transitions create the ideal sweep timing window because both of the opponent's hands are momentarily disengaged from secure control. Their attention is divided between releasing the old grip and establishing the new one, and their base is typically compromised as they adjust body position for the new attack angle. This is the moment to secure upper body control and execute the sweep before they settle into the new configuration."
@@ -90,7 +90,7 @@ description: "Master executing the Sweep from Cross Ashi-Garami. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical principle that makes the entangled leg useful for the sweep rather than purely a liability?",
+      "name": "In the cross ashi sweep, why is the entangled leg an asset rather than a liability?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The entangled leg serves as a fixed pivot point around which the sweep rotation occurs. Because the opponent's legs are locked around your trapped limb, this connection actually transfers your bridging or sit-up force directly into the opponent's base structure. Instead of fighting to free the leg, the sweep uses the connection as leverage—the more tightly the opponent holds the leg, the more effectively the rotational force transfers through the entanglement to disrupt their balance."
@@ -98,7 +98,7 @@ description: "Master executing the Sweep from Cross Ashi-Garami. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent applying rotational pressure on your heel as you begin the sweep motion—what should you do?",
+      "name": "You feel rotation on your heel as you start the cross ashi sweep: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the sweep immediately and address the heel hook threat. Continuing the sweep during active heel hook rotation dramatically increases knee injury risk because the sweep motion can amplify the rotational force on the trapped joint. Fight the heel hook grips, align your body with the rotation direction to reduce torque, and only reconsider the sweep after the immediate submission threat is neutralized. Safety always takes priority over positional advancement."
@@ -106,7 +106,7 @@ description: "Master executing the Sweep from Cross Ashi-Garami. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "Why is the sit-up sweep variant particularly effective against opponents who lean forward aggressively to attack submissions?",
+      "name": "Why does the sit-up sweep from cross ashi work so well on opponents who lean aggressively forward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent leans forward, their center of gravity shifts ahead of their base, creating a structural imbalance that the sit-up motion exploits directly. The forward lean means their weight is already moving in the direction the sweep wants to send them. The sit-up sweep meets this forward momentum with additional driving force, overwhelming their ability to recover base. Their forward posture also means their posting hands are further from the mat, reducing their ability to catch themselves."

@@ -114,7 +114,7 @@ description: "How to execute Step Over to Mount in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "The bottom player catches your stepping leg in an inside ashi garami entry - what is the correct response?",
+      "name": "They catch your stepping leg in inside ashi during Step Over to Mount: what is the response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately retract the leg and initiate a back step to create separation rather than forcing the pass forward into the entanglement. Pulling straight back often completes the entanglement for them, so step your free leg backward and away at an angle while keeping your weight low. Once you have cleared the entanglement, reset to standing and re-engage with a different pass option such as a leg drag or back step pass. Never try to power through a developing leg entanglement."

@@ -56,7 +56,7 @@ description: "Prevent the Frame Escape from Shoulder of Justice by maintaining p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is preparing a systematic frame escape rather than a panic reaction?",
+      "name": "Earliest cue the bottom player under Shoulder of Justice is escaping systematically, not panicking?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlled nasal breathing is the earliest indicator. When the bottom player shifts from mouth breathing or erratic breathing to steady nasal breathing patterns, they have regained composure and are preparing a systematic escape sequence. This is the optimal time to preemptively increase pressure, control the near arm, or begin transitioning to prevent the structured escape attempt."
@@ -64,7 +64,7 @@ description: "Prevent the Frame Escape from Shoulder of Justice by maintaining p
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully establishes a forearm frame against your hip. What is the highest-priority counter?",
+      "name": "They get a forearm frame on your hip from Shoulder of Justice: highest-priority counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your body weight heavier through your shoulder and settle your hips lower onto their hip line to collapse the frame before it develops structural integrity. Do not reach for the arm or try to remove it with your hands, as this reduces your pressure. Use your entire body weight directed through the shoulder and hip connection to crush the frame flat against their body."
@@ -72,7 +72,7 @@ description: "Prevent the Frame Escape from Shoulder of Justice by maintaining p
     },
     {
       "@type": "Question",
-      "name": "The bottom player hip escapes and creates space. Should you re-settle to Shoulder of Justice or advance to mount?",
+      "name": "They hip escape and make space under Shoulder of Justice: re-settle or advance to mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Advance to mount by stepping your near leg over their body. Once the bottom player has created significant space through a hip escape, attempting to re-settle Shoulder of Justice requires closing distance against established frames, which is energy-intensive and may fail. Advancing to mount capitalizes on the space they created. Only re-settle if they have already inserted a knee shield that blocks the step-over."
@@ -80,7 +80,7 @@ description: "Prevent the Frame Escape from Shoulder of Justice by maintaining p
     },
     {
       "@type": "Question",
-      "name": "How do you maintain shoulder pressure while preventing the opponent from timing your weight shifts for escape attempts?",
+      "name": "Holding Shoulder of Justice, how do you stop them timing your weight shifts to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Minimize unnecessary adjustments that create weight shift timing windows. When adjustments are required, make them through small upper-body movements while keeping hips permanently connected to the opponent's hip line. Vary the timing and rhythm of your adjustments unpredictably rather than settling into patterns the opponent can read and exploit."

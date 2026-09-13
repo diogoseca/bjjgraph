@@ -90,7 +90,7 @@ description: "How to execute the Whizzer overhook in BJJ. Complete attacking gui
     },
     {
       "@type": "Question",
-      "name": "When defending a single-leg takedown with a Whizzer, what are the three key elements that must work together?",
+      "name": "Defending a single-leg with a Whizzer, what three elements must work together?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, the deep overhook on their shoulder that prevents them from driving forward or lifting your leg. Second, your hip movement backward and away from their grip, creating distance and angle that makes completing the takedown mechanically difficult. Third, your free hand controlling their head or cross-facing to break their posture and further limit their mobility. All three elements working together create an escape system where the Whizzer is the foundation but not the complete solution."
@@ -106,7 +106,7 @@ description: "How to execute the Whizzer overhook in BJJ. Complete attacking gui
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent switches their underhook to the opposite side while you have a Whizzer established?",
+      "name": "They switch their underhook to the other side while you have a Whizzer: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not hold onto the abandoned Whizzer. Instead, immediately follow their rotation and either establish a new Whizzer on their switching arm, or transition to a front headlock position as they turn. Holding a Whizzer on an arm they've abandoned gives them free movement and often leads to them taking your back. Flowing with their switch and maintaining connection through the transition is key - treat their switch as an opportunity to advance position rather than a defensive reset."
@@ -408,8 +408,8 @@ The Whizzer is generally a safe technique when applied properly, as it focuses o
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Defensive control used in sprawl defense protocol</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Primary defensive counter that must be systematically defeated</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Defensive control used in sprawl defense protocol</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Primary defensive counter that must be systematically defeated</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

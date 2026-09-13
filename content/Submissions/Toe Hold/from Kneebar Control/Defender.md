@@ -52,7 +52,7 @@ description: "Defend the toe hold from kneebar control in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that a toe hold from kneebar control is being set up rather than a continued kneebar attack?",
+      "name": "How do you tell a toe hold setup from a continued kneebar attack from kneebar control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cue is feeling the attacker release their kneebar grip around your lower leg and redirect their hands toward your foot and toes. You will feel the pressure shift from linear hyperextension against your knee to a reaching or cupping sensation around your forefoot. If you feel a hand wrapping over the top of your toes and another arm threading under your ankle, the toe hold transition is underway."
@@ -84,7 +84,7 @@ description: "Defend the toe hold from kneebar control in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What is the defensive dilemma created by the kneebar-to-toe-hold chain, and how should you manage it?",
+      "name": "What defensive dilemma does the kneebar-to-toe-hold chain create, and how do you manage it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The dilemma is that bending the knee to defend the kneebar exposes the foot for the toe hold, while straightening the leg to defend the toe hold re-exposes the knee for the kneebar. Managing this requires alternating defensive postures rather than committing entirely to one position. The best strategy is to defend the kneebar with a bent knee while actively managing foot position through dorsiflexion and toe concealment, then use hip rotation to escape the entanglement entirely rather than trading between the two submission threats indefinitely."

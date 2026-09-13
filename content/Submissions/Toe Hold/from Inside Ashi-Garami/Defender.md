@@ -98,7 +98,7 @@ description: "Defend against the toe hold from Inside Ashi-Garami with recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is the toe hold particularly dangerous in terms of the gap between discomfort and structural damage, and how does this affect your tapping threshold?",
+      "name": "Why does the toe hold give little warning before damage, and how should you set your tap point?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The toe hold's rotational mechanism attacks the MCL and ankle ligaments through torsion rather than linear hyperextension. Rotational ligament damage can occur with minimal pain warning because the spiraling force loads multiple structures simultaneously, and ligaments under rotational stress can fail catastrophically without the gradual pain progression seen in straight joint locks. This means defenders must tap at the first sign of significant rotational pressure rather than waiting for sharp pain, because by the time sharp pain arrives, structural damage may already be occurring. Training partners should establish a conservative tapping threshold well below their actual structural limits."

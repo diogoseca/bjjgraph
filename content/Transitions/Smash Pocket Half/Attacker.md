@@ -90,7 +90,7 @@ description: "Master the attacking mechanics of the Smash Pocket Half. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins scooting their hips underneath you for a Deep Half entry during your smash - how do you respond?",
+      "name": "Smashing pocket half, they scoot their hips under you for deep half. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately sprawl your hips back and drive your trapped knee toward the mat to prevent them from getting underneath your center of gravity. If you feel their hips shifting under you, abandon the smash temporarily and address the deep half threat by maintaining your hips above their centerline. Once you have prevented the entry, re-establish chest pressure and restart the smash sequence from the chest connection step."
@@ -106,7 +106,7 @@ description: "Master the attacking mechanics of the Smash Pocket Half. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "What grip does the opponent need to maintain for their pocket structure, and how does this inform your stripping strategy?",
+      "name": "Where does their pocket half underhook grip, and how should that shape your stripping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom player needs their underhook hand gripping your far lat, armpit, or belt line behind your back. This deep grip gives them rotational control and sweeping power. When stripping, target their wrist or forearm rather than trying to peel their hand off your back. Push their elbow toward their body to shorten the lever arm of the underhook, reducing its effectiveness before fully removing it."

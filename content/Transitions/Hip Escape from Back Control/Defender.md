@@ -56,7 +56,7 @@ description: "Master defending against the hip escape from back control in BJJ. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that indicates the bottom player is initiating a hip escape sequence?",
+      "name": "What is the earliest tactile cue that the bottom player is starting a hip escape from back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is aggressive two-on-one grip fighting on your seatbelt arm (the over-hook choking arm), where the bottom player's hands shift from passive neck protection to actively pulling your wrist and forearm away from their chin. This grip fighting precedes all hip movement in the proper escape sequence, giving you an early warning to tighten your control points before the scooting phase begins. Respond immediately by deepening hooks and driving your chin into their shoulder to increase upper body pressure."
@@ -64,7 +64,7 @@ description: "Master defending against the hip escape from back control in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "When should you abandon back control retention and transition to mount during the opponent's hip escape?",
+      "name": "During their hip escape, when do you abandon back control and take mount instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to mount when the opponent has cleared at least one hook and their hips have rotated past forty-five degrees toward you. At this point, re-establishing back control requires fighting against their established frames and cleared hooks, which is energetically expensive and low-probability. Instead, follow their rotation by driving your chest forward over their body and swinging your top leg over before they can insert a knee for half guard. The key indicator is feeling your remaining hook losing purchase as they complete the rotation."
@@ -72,7 +72,7 @@ description: "Master defending against the hip escape from back control in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "How do you use submission threats as a defensive tool against the hip escape without compromising your positional control?",
+      "name": "How do you threaten the choke to stall their back escape without losing your control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Threaten the choke with short, controlled attacks that force the opponent to return both hands to neck defense without fully committing your own position. Slide your choking hand toward their chin line when they release your wrist to work frames, creating immediate danger that demands their attention. Do not chase the choke deep, as this requires loosening your seatbelt and hooks. The goal is not to finish the submission but to reset their escape progress back to phase one by forcing them to re-prioritize neck defense over hook removal."
@@ -80,7 +80,7 @@ description: "Master defending against the hip escape from back control in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "What adjustment should you make when the opponent establishes a strong forearm frame against your hip during the escape?",
+      "name": "They frame a forearm on your hip during the back escape; what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately address the frame before it becomes a permanent barrier. Swim your underhook arm underneath or over the top of their framing arm to neutralize the structure. Alternatively, shift your hip angle by moving to the opposite side of their frame, collapsing the mechanical advantage it provides. You can also drive your hips forward and down against the frame to overwhelm it with your body weight before they can begin the scooting sequence that the frame is designed to support."
@@ -88,7 +88,7 @@ description: "Master defending against the hip escape from back control in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "How does your response differ when the opponent executes the body triangle variant of the hip escape versus the standard hook version?",
+      "name": "How does defending the body triangle version of the hip escape differ from the hooks version?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a body triangle, your positional control is inherently stronger because the triangle lock provides superior hip control compared to standard hooks. When the opponent turns toward the lock side to relieve squeeze pressure, follow their turn with slight adjustments but maintain the triangle lock as your primary anchor. Focus on preventing them from pushing your crossing foot past the lock point by keeping your ankles tight and driving your locking knee forward. The body triangle gives you more time to address their escape because hook removal requires breaking the triangle first, which is a significant additional step in their escape sequence."

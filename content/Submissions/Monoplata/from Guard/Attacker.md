@@ -70,7 +70,7 @@ description: "How to execute Monoplata from Guard in BJJ. Attacking perspective 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum time you should take to apply finishing pressure in the monoplata during training?",
+      "name": "What is the minimum time to apply finishing pressure on the monoplata in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should take a minimum of 5-7 seconds to apply finishing pressure in training. This extremely slow application allows your partner ample time to recognize the danger and tap, preventing serious shoulder injuries. Competition pace should never be used in training for shoulder locks due to the high injury risk."
@@ -86,7 +86,7 @@ description: "How to execute Monoplata from Guard in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Describe the proper figure-four leg configuration in the monoplata and why it is mechanically important?",
+      "name": "How is the monoplata figure-four formed with the legs, and why does it matter mechanically?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The figure-four is created by bringing your far-side leg underneath the opponent's trapped arm and hooking your far-side ankle behind your near-side knee. This creates a closed loop around their arm that prevents escape and allows you to squeeze and create rotational pressure. The figure-four is mechanically superior to other leg configurations because it distributes force evenly, prevents the opponent from straightening their arm, and allows you to apply consistent pressure through simple leg squeezing rather than complex body movements."
@@ -110,7 +110,7 @@ description: "How to execute Monoplata from Guard in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What are the critical control points that must be established before attempting to finish the monoplata?",
+      "name": "Which control points must be set before finishing the monoplata from closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical control points are: (1) complete arm isolation with the opponent's arm extended past your hip line, (2) wrist control to prevent hand fighting, (3) secure figure-four leg lock around the arm, (4) control of opponent's posture using your free leg to block their far hip or shoulder, (5) proper perpendicular body angle, and (6) prevention of their base recovery. All six control points should be established before applying any finishing pressure to ensure both effectiveness and safety."

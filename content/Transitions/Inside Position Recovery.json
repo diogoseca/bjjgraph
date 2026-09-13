@@ -335,7 +335,7 @@
         }
       },
       {
-        "question": "Your opponent releases the leg drag and goes for your back as you begin the recovery—what is your response?",
+        "question": "They abandon the leg drag to take your back as you recover. What is your response?",
         "answer": "Abandon the leg recovery and immediately fight for an underhook on the side they're taking your back from. Turn into them rather than away, using the underhook to prevent their hook insertion and face them. Accepting half guard facing your opponent is far better than giving up back control.",
         "answer_line": "Fight underhook, turn into them",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "Your opponent successfully creates hip angle but has not yet freed their leg—what is your best response?",
+        "question": "They create hip angle but haven't freed the leg from your leg drag. What is your best response?",
         "answer": "Backstep to follow their hip movement while maintaining tight leg control, re-angling your position to close the space they created. Simultaneously increase your crossface or shoulder pressure to prevent them from continuing the extraction. If the angle is too great, abandon the leg drag and immediately consolidate to side control with a strong crossface before they can insert hooks.",
         "answer_line": "Backstep, tighten crossface",
         "distractors": {
@@ -547,7 +547,7 @@
         }
       },
       {
-        "question": "Why is it more effective to advance position than to fight statically against your opponent's frames?",
+        "question": "Why is advancing position better than fighting statically against their frames from leg drag?",
         "answer": "Fighting statically against frames becomes an energy war that you will eventually lose because the bottom player can generate structural force through skeletal alignment while you must use muscular effort to resist. Advancing position changes the problem entirely—instead of holding them down, you threaten new attacks that force them to abandon their recovery sequence and address the new threat.",
         "answer_line": "Threaten new attacks, not hold",
         "distractors": {
@@ -575,7 +575,7 @@
         }
       },
       {
-        "question": "How should you manage the trade-off between maintaining leg drag control and advancing to side control?",
+        "question": "How do you balance holding leg drag control against advancing to side control?",
         "answer": "Leg drag is inherently transitional and should not be held longer than necessary. If your opponent is actively working recovery, you should be advancing rather than maintaining. The decision point is when they establish a frame—if you can collapse the frame with pressure, maintain the drag. If they create any hip angle, immediately transition to side control consolidation rather than fighting a losing battle for leg control.",
         "answer_line": "Advance to side control on angle",
         "distractors": {

@@ -76,7 +76,7 @@ description: "Learn to attack with the North-South Choke from North-South. Step-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the North-South Choke target and how does the bilateral compression work?",
+      "name": "What does the north-south choke target, and how does the bilateral compression work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The North-South Choke targets both carotid arteries simultaneously. Your shoulder drives into the near-side carotid artery while your threading arm's bicep and forearm compress the far-side carotid. This bilateral compression restricts blood flow to the brain, causing unconsciousness within seconds once fully locked. The choke should not primarily target the trachea, which would indicate improper arm depth and alignment."
@@ -84,7 +84,7 @@ description: "Learn to attack with the North-South Choke from North-South. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly against their chest as you begin threading your arm - what adjustment do you make?",
+      "name": "Your opponent tucks their chin as you thread your arm in north-south—what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a crossface with your forearm across their jaw to turn their head and create the angle needed to thread the arm underneath. Apply the crossface by driving your forearm from their chin toward the mat, forcing their head to turn. Once the head turns, immediately slide your arm under the exposed neck. Alternatively, you can use the crossface pressure itself to set up a short choke variation with shallower arm placement that works around the chin tuck."
@@ -108,7 +108,7 @@ description: "Learn to attack with the North-South Choke from North-South. Step-
     },
     {
       "@type": "Question",
-      "name": "What is the most common finishing error with the North-South Choke and how does it affect the submission?",
+      "name": "What is the most common north-south choke finishing error, and how does it affect the submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common finishing error is squeezing with arm strength instead of using hip drop and body rotation. This produces a weaker choke that experienced opponents can endure for extended periods, fatigues your arms rapidly, and often degrades into a tracheal crush rather than a clean blood choke. The correction is to drop your hips toward the mat on the far side and rotate your torso away from the opponent, generating choking pressure through structural leverage rather than muscular effort."
@@ -116,7 +116,7 @@ description: "Learn to attack with the North-South Choke from North-South. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts framing against your chest mid-setup - what grip adjustment prevents the escape?",
+      "name": "Your opponent frames on your chest mid-setup in north-south—what adjustment prevents the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When frames appear during your setup, you have two immediate options. First, angle your shoulder past their forearm frames by driving forward at a diagonal rather than straight down, collapsing the structural integrity of their frames. Second, attack the framing arm with a kimura grip, which forces them to withdraw the frame and simultaneously exposes the neck for the choke entry. Never fight against established frames with direct pressure, as this wastes energy and gives the defender time to build their escape sequence."

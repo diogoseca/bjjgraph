@@ -72,7 +72,7 @@ description: "How to defend against Grip Break and Face in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has stripped your choking arm and begun rotating - is it better to chase back control or transition to front headlock?",
+      "name": "Your back rider strips your choking arm and turns in: chase the back or take a front headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once they have broken the harness and begun committed rotation past approximately 90 degrees, chasing back control by circling becomes increasingly difficult and energy-expensive. Transitioning to front headlock is the higher-percentage option because their rotation brings their head toward you, making head control accessible. The front headlock maintains your offensive advantage with multiple submission options, whereas desperately circling for back control often results in losing all control entirely."
@@ -80,7 +80,7 @@ description: "How to defend against Grip Break and Face in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your body position when you feel persistent two-on-one pressure on your choking arm?",
+      "name": "Holding standing back control against a two-on-one on your choking arm, how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting the arm battle in isolation, drive your chest harder into their back to increase overall control pressure, then immediately switch your grip configuration. Either transition to a body lock by releasing the seatbelt and locking hands around their torso, or drop your hooks in to prevent the rotation that follows the grip strip. The body position adjustment supplements the grip change - chest pressure buys you time, and the grip switch changes the defensive problem they must solve."

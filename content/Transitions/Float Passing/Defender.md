@@ -80,7 +80,7 @@ description: "How to defend against Float Passing in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent is float passing and you cannot establish any upper body grips. What is your minimum viable defense?",
+      "name": "They are float passing and you have no upper body grips — minimum viable defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your minimum viable defense without upper body grips is active feet on their hips combined with constant hip adjustment to track their movement. Place both feet on their hip bones with your knees slightly bent, creating a pushing frame that controls distance. As they circle, pivot your hips to keep both feet aimed at their centerline. This prevents them from closing distance for the pass. From this feet-on-hips position, you can work to re-establish grips on their sleeves or collar when they reach to adjust your legs, converting a survival position back into an active guard."
@@ -88,7 +88,7 @@ description: "How to defend against Float Passing in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your guard retention strategy when the float passer switches from standing to combat base?",
+      "name": "How do you adjust guard retention when the float passer drops from standing to combat base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the passer drops to combat base, their floating range decreases but their proximity increases. Shift from distance-management defense to close-range retention by inserting a knee shield or shin frame across their hip line. Establish collar and sleeve grips more aggressively since they are now within range. The combat base float is slower and more predictable than standing float, so you can use butterfly hooks or lasso guard to create entanglements that are harder for them to circle out of. Their lower position also makes them more vulnerable to collar drags and arm drags."

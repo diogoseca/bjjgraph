@@ -305,7 +305,7 @@
         }
       },
       {
-        "question": "Your opponent shifts their weight to your right side and establishes a grip on your right hip - which direction should you stand?",
+        "question": "They load weight on your right side and grip your right hip: which way do you stand from turtle?",
         "answer": "Stand to your left side, away from where their weight and grip are concentrated. Post your left hand at 45 degrees and drive your left leg forward. Standing into their weight and grip means fighting against their strongest control and the direction where they can most easily drive you back down. Standing away from their committed side exploits the gap in their control and forces them to reposition before they can counter, buying you the time needed to complete the stand and create distance.",
         "answer_line": "Stand away, to the left",
         "distractors": {
@@ -333,7 +333,7 @@
         }
       },
       {
-        "question": "You attempt to stand but your opponent locks a seatbelt grip before you can fully rise - what is the correct response sequence?",
+        "question": "They lock a seatbelt before you finish standing from turtle: what is your correct response sequence?",
         "answer": "Immediately abort the stand-up and return to a tight turtle base. Address the top choking hand first by grabbing their wrist with both hands and using hip rotation to create angle for the grip strip. Once the choking hand is cleared, work on the underhook hand using elbow pressure and hip movement. Only reinitiate the stand-up after both grips are broken and your elbows are re-secured tight to your ribs. Attempting to power through seatbelt control dramatically increases the probability of giving up full back control with hooks, which is a far worse outcome than remaining in turtle.",
         "answer_line": "Abort, strip choke hand first",
         "distractors": {
@@ -361,7 +361,7 @@
         }
       },
       {
-        "question": "Your opponent begins driving heavy forward pressure as you post your hand - how do you adjust without abandoning the escape attempt?",
+        "question": "They drive heavy forward pressure as you post to stand from turtle: how do you adjust?",
         "answer": "Absorb the forward pressure by locking your posted arm rigid and sinking your hips slightly to lower your center of gravity. Drive your lead leg forward with even more explosive force to counteract their forward momentum with your upward momentum. If the pressure is too great to overcome directly, redirect by switching your posting side: collapse the blocked side, rotate your hips, and explosively post and drive from the opposite side. This directional change uses their committed forward pressure against them since they cannot instantly redirect their weight. The key is committing fully to the redirect rather than half-attempting both directions.",
         "answer_line": "Switch post side, redirect drive",
         "distractors": {
@@ -375,7 +375,7 @@
         }
       },
       {
-        "question": "At what point during the turtle to standing sequence is the neck most vulnerable to guillotine attack?",
+        "question": "When is your neck most vulnerable to the guillotine during the turtle to standing escape?",
         "answer": "The neck is most vulnerable during steps four and five, when the hips are extending upward and the head rises above the turtle position but before full standing posture is established. At this moment, the head transitions from the protected tucked position to a more exposed forward-leaning position as you drive upward. The opponent can shoot their arm under the chin during this brief window. This is precisely why the chin tuck must be maintained aggressively through the entire rising phase, and why the non-posting hand must stay in neck defense position rather than being used for balance or posting.",
         "answer_line": "Mid-rise, head passing hips",
         "distractors": {
@@ -389,7 +389,7 @@
         }
       },
       {
-        "question": "How does the turtle to standing escape create opportunities for your secondary escape options even when it fails?",
+        "question": "How does a failed turtle stand-up attempt still open your other escapes?",
         "answer": "The stand-up attempt forces the opponent to react with specific counter-movements that create openings for alternative escapes. When they drive forward to flatten you, their weight shifts forward, creating the ideal conditions for a granby roll underneath them. When they reach for seatbelt control, they must lift their chest off your back momentarily, opening a window for a sit-through to half guard. When they transition to front headlock to address your rising head, they abandon their back control position entirely, allowing guard recovery or scramble opportunities. By forcing the opponent into reactive mode, even a failed stand-up attempt reconfigures the positional dynamics in your favor.",
         "answer_line": "Forces reactions, opens scrambles",
         "distractors": {
@@ -403,7 +403,7 @@
         }
       },
       {
-        "question": "What are the specific conditions that should make you abandon a stand-up attempt in favor of an alternative escape?",
+        "question": "What conditions should make you abandon a turtle stand-up for another escape?",
         "answer": "Abandon the stand-up when: the opponent has established a locked seatbelt with choking hand in place and you cannot strip it within two seconds; when both hooks are inserted, meaning they already have back control and standing will drag them with you; when the opponent has transitioned to a fully locked front headlock with head-and-arm control, making rising dangerous for your neck; or when your initial explosive attempt is completely stuffed and you feel your base collapsing, because a second attempt from a weakened position has dramatically lower probability. In each case, immediately transition to the appropriate secondary escape rather than burning energy on repeated failed attempts.",
         "answer_line": "Seatbelt, hooks, or headlock locked",
         "distractors": {
@@ -417,7 +417,7 @@
         }
       },
       {
-        "question": "In competition, you are in turtle with 30 seconds remaining and down by 2 points - how does this affect your turtle to standing decision?",
+        "question": "Down 2 points with 30 seconds left in turtle: how does that change your stand-up plan?",
         "answer": "The scoring urgency means you must prioritize reaching standing position to create offensive opportunities. Standing from turtle earns no points itself but creates the ability to pull guard to an attacking position or shoot a takedown for points. Execute the stand-up aggressively even at slightly higher risk of counter, because remaining in turtle guarantees a loss while a failed stand-up that leads to back control was likely the trajectory anyway with an aggressive opponent. After standing, immediately engage rather than creating distance: shoot a takedown attempt or pull guard into a sweeping position. The time constraint eliminates the luxury of patient grip fighting and demands committed action.",
         "answer_line": "Stand fast, attack immediately",
         "distractors": {
@@ -546,7 +546,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest physical cues that indicate a bottom player is about to attempt a turtle to standing escape?",
+        "question": "On turtle top, what are the earliest cues they are about to attempt a stand-up escape?",
         "answer": "The earliest cues are weight redistribution from four evenly distributed points to loading onto one hand and one knee in preparation for posting. You will feel the bottom player's hips begin to coil as their knees draw under their hips rather than staying wide. They may also initiate aggressive grip stripping on one side to clear space for their posting arm, or subtly shift their head position to look toward their intended escape direction. These pre-commitment cues occur one to two seconds before the explosive phase and represent your primary defensive window.",
         "answer_line": "Weight loads to one hand/knee",
         "distractors": {
@@ -560,7 +560,7 @@
         }
       },
       {
-        "question": "Why is upper body control more effective than lower body control for preventing the turtle to standing escape?",
+        "question": "Why does upper body control beat leg control for stopping their turtle stand-up?",
         "answer": "The stand-up is powered by explosive hip extension and leg drive, which generates far more force than you can counter by holding legs or hips alone. Upper body control through seatbelt, harness, or front headlock grips prevents the bottom player from extending their spine and completing the upward movement even if their legs drive successfully. Additionally, upper body control keeps you connected to the most dangerous part of their movement, allowing you to follow them to back control if they partially stand, whereas lower body grips often break under the explosive force and leave you disconnected.",
         "answer_line": "Control torso, stop spine extension",
         "distractors": {
@@ -574,7 +574,7 @@
         }
       },
       {
-        "question": "Your opponent partially stands with one foot planted but you still have chest pressure on their back - how do you convert this to back control?",
+        "question": "They partly stand from turtle but you still have chest pressure: how do you get back control?",
         "answer": "Lock the seatbelt immediately by shooting your choking arm under their chin and clasping your harness grip. Stay glued to their back with your chest maintaining contact and insert the near-side hook by threading your foot inside their planted leg's thigh. Use your body weight to pull them backward and down to the mat, or if they continue rising, ride their movement to standing back control. The critical action is securing the harness before they create distance, because once the seatbelt is locked, their standing does not escape your control but rather transitions the position from turtle back control to standing back control.",
         "answer_line": "Lock seatbelt, insert hook fast",
         "distractors": {
@@ -588,7 +588,7 @@
         }
       },
       {
-        "question": "How should you adjust your strategy if the bottom player repeatedly feints stand-ups to set up alternative escapes?",
+        "question": "They repeatedly feint turtle stand-ups to set up other escapes: how do you adjust from top?",
         "answer": "Against a player using stand-up feints, shift your defensive priority from reactive weight driving to proactive grip establishment. If they keep feinting, use that time to systematically lock seatbelt control, which prevents both the genuine stand-up and most alternative escapes. Keep your pressure controlled rather than lunging forward on each feint, maintaining base with at least one knee grounded. Read the difference between a feint and a genuine attempt by the degree of hip commitment: genuine stand-ups involve full hip loading while feints involve only upper body movement. Once you have seatbelt secured, their feinting becomes irrelevant as you control the position.",
         "answer_line": "Use feints to lock seatbelt control",
         "distractors": {

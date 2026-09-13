@@ -90,7 +90,7 @@ description: "Defend the Kimura from High Mount with early recognition cues, gri
     },
     {
       "@type": "Question",
-      "name": "What should you prioritize preventing to have the best chance of defending the Kimura from High Mount?",
+      "name": "Defending a Kimura from high mount, what should you prioritize preventing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize preventing the elbow from being pinned to the mat, as this is the critical fulcrum point that makes the Kimura mechanically sound. Without a fixed fulcrum, the attacker can move your arm through space but cannot generate the rotational force needed to stress the shoulder joint. Keep your elbow mobile and away from the mat by maintaining bent-arm frames and actively resisting downward elbow pressure. If the elbow reaches the mat with the figure-four locked, your remaining defensive options are limited to tapping or a perfectly timed bridge."

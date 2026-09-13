@@ -64,7 +64,7 @@ description: "How to defend against Limp Leg Escape to Pass in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has relaxed their leg and their hand is reaching toward your feet - what is your highest priority action?",
+      "name": "They relax their leg and reach for your feet: what's your top priority in the lockdown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is to prevent them from separating your foot triangle. Use your free hand to block their reaching hand while simultaneously increasing your hip extension and lockdown squeeze. If you cannot block their hand without sacrificing your underhook or ankle control, immediately transition to Old School sweep using their forward pressure commitment, or begin your Deep Half Guard entry before the lockdown fully fails."

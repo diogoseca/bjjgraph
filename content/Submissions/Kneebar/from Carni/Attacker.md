@@ -108,7 +108,7 @@ description: "How to execute the kneebar from Carni position. Step-by-step finis
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts bending their knee aggressively during your kneebar attempt - what adjustment prevents escape?",
+      "name": "In the kneebar from Carni, they aggressively bend their knee: what adjustment prevents escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent bends their knee aggressively, do not fight the bend with more extension force. Instead, maintain your leg triangle position and immediately transition your grip back to their heel, re-establishing the heel hook threat. Their bent knee is the exact position that exposes the heel for attack. This creates the fundamental dilemma: extend and face the kneebar, or bend and face the heel hook. Let their defensive choice dictate your next attack."

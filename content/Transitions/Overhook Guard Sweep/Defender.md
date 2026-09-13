@@ -64,7 +64,7 @@ description: "Learn to defend and counter the Overhook Guard Sweep in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your base when you recognize the bottom player is creating an angle toward the overhook side?",
+      "name": "How do you adjust your base when the bottom player angles toward the overhook side?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widen your base by posting your free-side knee outward and dropping your hips lower toward the mat. Shift your weight slightly away from the overhook side to counterbalance the angle the bottom player is creating. Drive your shoulder pressure forward into the overhook to flatten the bottom player and eliminate the space they need for the angle. The combination of wide base, low hips, and forward pressure makes the sweep direction mechanically very difficult."
@@ -72,7 +72,7 @@ description: "Learn to defend and counter the Overhook Guard Sweep in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Your posting hand is controlled and the sweep is already in motion - what is your best recovery option?",
+      "name": "Your posting hand is controlled and the overhook sweep is underway: best recovery option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the sweep has passed the tipping point and both arms are controlled, tuck your chin, round your back, and work to establish half guard by inserting your bottom knee shield as you roll. Do not fight the sweep at this stage as it wastes energy and often results in a worse position than mount. Instead, accept the reversal but focus on recovering half guard during the transition, which gives you a much better defensive position than flat mount bottom."
@@ -88,7 +88,7 @@ description: "Learn to defend and counter the Overhook Guard Sweep in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "How do you recognize the difference between a committed sweep attempt and a feint designed to set up a submission?",
+      "name": "How do you tell a committed overhook guard sweep from a feint setting up a submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A committed sweep attempt involves the bottom player opening their guard and planting a foot on the mat for driving force, combined with a strong lateral pull on the overhook. A feint typically maintains closed guard or only partially opens it, and the overhook pull direction changes quickly. Watch the bottom player's hips and feet rather than their upper body: if their foot plants firmly near your hip and their hips commit to the angle, the sweep is real. If their guard stays closed or their hips remain centered, they are likely baiting you to post so they can transition to triangle or armbar off your extended arm."

@@ -64,7 +64,7 @@ description: "Defend the triangle setup from Diamond Guard. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Why is turning your shoulder inward more effective than turning away when the choking leg approaches?",
+      "name": "Why is turning your shoulder inward better than turning away as the choking leg comes over?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning inward blocks the choking leg from crossing behind the neck by creating a physical barrier with the shoulder and reducing the space the leg can travel through. Turning away opens the space behind the neck wider, making the leg shoot easier, and simultaneously exposes the back for a potential back take. The inward turn also maintains your ability to drive forward into the attacker's guard, while turning away compromises your base and forward driving ability."
@@ -72,7 +72,7 @@ description: "Defend the triangle setup from Diamond Guard. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked a loose triangle but has not yet established the finishing angle — what is your escape priority?",
+      "name": "They lock a loose triangle but haven't found the finishing angle: what is your escape priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately square your hips directly to the attacker's hips to prevent them from achieving the 30-45 degree finishing angle. A squared position significantly reduces choking pressure because the arterial compression requires an angled alignment. Once squared, begin posture recovery by driving your hips backward and straightening your spine. With posture established and hips squared, you can then work the trapped arm free or begin a systematic stack-based escape sequence."
@@ -80,7 +80,7 @@ description: "Defend the triangle setup from Diamond Guard. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "How does defending the triangle from Diamond Guard differ from defending a standard closed guard triangle?",
+      "name": "How does defending a diamond guard triangle differ from defending a closed guard triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary difference is that the overhook in diamond guard eliminates your ability to post with the trapped arm, which is the most common triangle defense in standard closed guard. This means you must rely more heavily on posture recovery, shoulder turning, and free-hand defenses rather than arm-based frames. The defensive window is also narrower because the arm is already isolated by the overhook before the attack begins, removing the arm-isolation defense phase that exists in standard triangle setups."

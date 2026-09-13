@@ -64,7 +64,7 @@ description: "Learn to defend the Duck Under from Clinch in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully clears your arm and is halfway behind you—what is your highest-percentage recovery?",
+      "name": "They clear your arm and are halfway to your back: highest-percentage recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately thread a whizzer on the arm closest to them and drive your hips toward the opponent rather than pulling away. Simultaneously step your far foot backward to begin re-squaring your body toward them. The whizzer creates a connection point that prevents full completion of the circle, while the hip drive stops their forward momentum. If the whizzer holds, use it to turn and face them recovering to clinch. If they are too deep for the whizzer to hold, sit to guard rather than giving up full standing back control."
@@ -72,7 +72,7 @@ description: "Learn to defend the Duck Under from Clinch in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your overall clinch strategy against an opponent who repeatedly threatens the duck under?",
+      "name": "How do you adjust your clinch against someone repeatedly threatening the duck under?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lower your clinch engagement level by keeping hands and elbows tighter to your body, avoiding high collar ties that create gaps beneath your arms, and maintaining slightly more distance to reduce the effectiveness of their level change. Punish their duck under attempts by establishing front headlock or guillotine grip whenever their head drops below your arm level. Make the consequences of a failed duck under severe enough to discourage repeated attempts, forcing them to invest more heavily in misdirection before committing."
@@ -80,7 +80,7 @@ description: "Learn to defend the Duck Under from Clinch in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Why is sprawling more effective as a duck under defense than stepping backward away from the opponent?",
+      "name": "Why does sprawling beat stepping backward as a duck under defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sprawling drives your hips away from the opponent while keeping your upper body weight on top of them, creating a structural barrier to their circular movement and dropping your center of gravity below their duck. Stepping backward maintains the spatial relationship between your bodies, gives them room to continue circling, and does nothing to close the gap beneath your arms. The sprawl also positions your chest weight on their upper back if their head is exposed, which can be converted directly to front headlock control."
@@ -88,7 +88,7 @@ description: "Learn to defend the Duck Under from Clinch in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "What is the relationship between your arm positioning in the clinch and vulnerability to the duck under?",
+      "name": "How does your clinch arm position affect your vulnerability to the duck under?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "High extended arms such as collar ties with elbows flared or overhooks with loose elbow angles create large gaps beneath your arms that the opponent can duck through with minimal clearance effort. Compact positioning with elbows closer to your ribs reduces these gaps dramatically and forces the opponent to work much harder to clear your arm during the duck. The trade-off is that compact arms offer less reach for offensive clinch control, but against a confirmed duck under threat the defensive benefit outweighs the lost offensive range."

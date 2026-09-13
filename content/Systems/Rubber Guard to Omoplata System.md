@@ -4,7 +4,7 @@
 
 ---
 title: "Rubber Guard to Omoplata System | BJJ System | BJJ Graph"
-description: "Master the Rubber Guard to Omoplata System in BJJ. Learn systematic progression from flexible guard control to shoulder locks, sweeps, and back takes with multiple attack pathways."
+description: "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master the Rubber Guard to Omoplata System in BJJ. Learn systemati
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rubber Guard to Omoplata System",
-  "description": "Master the Rubber Guard to Omoplata System in BJJ. Learn systematic progression from flexible guard control to shoulder locks, sweeps, and back takes with multiple attack pathways.",
+  "description": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Rubber-Guard-to-Omoplata-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -148,7 +148,7 @@ description: "Master the Rubber Guard to Omoplata System in BJJ. Learn systemati
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Rubber Guard to Omoplata System",
-  "description": "The Rubber Guard to Omoplata System is a flexibility-based 10th Planet attacking framework that uses high-guard control positions like Mission Control and New York to chain omoplata shoulder locks, sweeps, and back takes from closed guard.",
+  "description": "The rubber guard-to-omoplata route links posture control to an isolated shoulder.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -167,9 +167,11 @@ description: "Master the Rubber Guard to Omoplata System in BJJ. Learn systemati
 
 ## What is Rubber Guard to Omoplata System?
 
-**The Rubber Guard to Omoplata System is a flexibility-based 10th Planet attacking framework that uses high-guard control positions like Mission Control and New York to chain omoplata shoulder locks, sweeps, and back takes from closed guard.**
+**The rubber guard-to-omoplata route links posture control to an isolated shoulder.**
 
-The Rubber Guard to Omoplata System represents one of the most sophisticated submission chains in modern Brazilian Jiu-Jitsu, bridging Eddie Bravo's innovative 10th Planet methodology with classical shoulder lock finishing mechanics. This system leverages extreme hip flexibility and systematic control positions to create a network of attacking options that flow seamlessly from rubber guard's high-control positions into omoplata shoulder locks, sweeps, and back takes. Unlike isolated techniques, this system teaches practitioners to view rubber guard not as a static position but as a dynamic control framework that naturally progresses toward omoplata-based attacks. The methodology emphasizes posture breaking from closed guard, establishing rubber guard control points like Mission Control and New York, then transitioning through specific pathways that exploit opponent reactions to set up omoplata attacks with multiple finishing variations. Mastery of this system requires substantial flexibility training, understanding of leverage principles in both rubber guard maintenance and omoplata mechanics, and the ability to chain attacks when opponents defend the primary submission. Advanced practitioners can integrate this system with triangle attacks and back takes, creating a complete offensive framework from closed guard that keeps opponents constantly defending against interconnected threats.
+The rubber guard-to-omoplata route links posture control to an isolated shoulder. Work through the controls that let you clear the arm and change angle, then distinguish a finishing opportunity from a chance to sweep.
+
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -178,15 +180,37 @@ The Rubber Guard to Omoplata System represents one of the most sophisticated sub
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Rubber Guard to Omoplata System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 24 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">The Ultimate Rubber Guard</h3>
+<p class="product-card__instructor">with Eddie Bravo</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students exploring 10th Planet guard connections. Check the syllabus for your chosen branch; this is broader than a single finish.</p>
+<p class="product-card__blurb">Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=rubber-guard-to-omoplata-system&utm_term=the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -307,6 +331,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>For the omoplata route, start in Volume 1. Bottom half guard and further guard variations appear in Volume 4.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=rubber-guard-to-omoplata-system&utm_term=the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Ultimate Rubber Guard &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -420,5 +455,16 @@ Begin with static position holds to develop flexibility and position familiarity
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Choose a control you can enter comfortably. Practise maintaining posture control without pulling your knee into a forced range.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=rubber-guard-to-omoplata-system&utm_term=the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Ultimate Rubber Guard &rarr;</a></p>
+</section>
+
+
 
 </main>

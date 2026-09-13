@@ -84,7 +84,7 @@ description: "How to execute Bow and Arrow Choke Setup in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins extracting their trapped arm just as you secure the collar grip - how do you respond?",
+      "name": "They start pulling the trapped arm free as you get the collar grip in gift wrap: what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accelerate your hip transition immediately. The collar grip is now your primary control, so use it to prevent their defensive recovery. Begin rotating to perpendicular angle while pulling the collar tight. Their arm recovery attempt often creates momentum you can use to speed your transition. Do not try to re-establish the Gift Wrap - commit to the collar-based control instead."
@@ -108,7 +108,7 @@ description: "How to execute Bow and Arrow Choke Setup in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent turns aggressively toward you during the hip transition - is this a problem or an opportunity?",
+      "name": "They turn hard into you during your hip transition to bow and arrow: problem or opportunity?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is typically an opportunity. Their turning momentum often assists your perpendicular angle establishment. Rather than fighting the turn, follow it while tightening your collar grip and using hooks to control the rotation. Their defensive movement can accelerate your position achievement. However, you must maintain chest contact with their head to prevent them from completing a full turn that would lead to guard recovery."

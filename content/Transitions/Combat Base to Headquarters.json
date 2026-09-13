@@ -314,7 +314,7 @@
         }
       },
       {
-        "question": "Your opponent inserts a butterfly hook under your thigh as you begin driving your knee forward—how do you adjust?",
+        "question": "Passing to headquarters, they insert a butterfly hook under your thigh: how do you adjust?",
         "answer": "Stop the forward advance immediately and address the hook before it generates elevation. Post your free hand on the mat for emergency base stability. Drive the hooked leg's knee downward toward the mat to strip the butterfly hook using your hip weight rather than muscular force. Once the hook is stripped, quickly re-establish your controlling grip on the opponent's leg and resume the knee drive before they can reinsert the hook. If the hook is too deep, reset to full combat base and clear it from a stable position.",
         "answer_line": "Stop, strip hook with hip weight",
         "distractors": {
@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "If the opponent successfully blocks your initial headquarters entry with a strong knee shield, what are your immediate follow-up options?",
+        "question": "A strong knee shield blocks your headquarters entry: what are your follow-up options?",
         "answer": "Three primary options exist: first, collapse the knee shield by angling your hips to compress their knee toward the mat while maintaining your pants grip, converting directly into a smash pass trajectory. Second, abandon the headquarters entry and use the opponent's knee shield commitment against them by switching to a toreando pass that redirects around the shield. Third, maintain your combat base grip and wait for the opponent to withdraw the shield, then immediately re-attempt the drive during the withdrawal window. The choice depends on the opponent's grip strength and whether they have secondary frames established.",
         "answer_line": "Collapse shield or switch pass",
         "distractors": {
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "What is the correct sequence for establishing upper body control after the leg pin, and why does this order matter?",
+        "question": "Entering headquarters, what's the order for adding upper body control, and why that order?",
         "answer": "The correct sequence is: leg pin confirmed, wide base posted, then upper body control established as the final phase. This order matters because attempting upper body control before the leg pin is secure allows the opponent to use their leg freedom to recover guard or insert hooks. Attempting upper body control before posting the base wide leaves you vulnerable to sweeps during the grip transition. By the time you reach for the collar, cross-face, or underhook, your lower body structure should be completely stable and self-sustaining.",
         "answer_line": "Leg pin, wide base, then upper body",
         "distractors": {
@@ -494,7 +494,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that the top player is transitioning from Combat Base to Headquarters?",
+        "question": "What's the earliest cue that the top player is moving from combat base to headquarters?",
         "answer": "The earliest cue is the passer establishing a pants grip at your knee level with the hand on their posted-knee side, combined with their opposite hand moving to strip your frames or grips. This grip change precedes the physical knee drive by one to two seconds, providing a critical reaction window. Secondary cues include the posted knee shifting inward and forward from its neutral position and a noticeable weight shift onto the posted knee.",
         "answer_line": "Pants grip at your knee level",
         "distractors": {
@@ -508,7 +508,7 @@
         }
       },
       {
-        "question": "Your opponent begins driving their knee toward the mat to pin your leg—what is your highest-priority defensive action?",
+        "question": "They drive their knee down to pin your leg for headquarters: your top defensive priority?",
         "answer": "Your highest priority is inserting a knee shield across the passer's torso before their knee passes your thigh line. The knee shield provides a structural barrier that the passer cannot simply power through, buying time for grip establishment and additional defensive layers. If the knee shield window has already passed, the secondary priority is inserting a butterfly hook under their thigh to create elevation and sweep opportunities during their compromised weight transfer phase.",
         "answer_line": "Insert knee shield immediately",
         "distractors": {
@@ -522,7 +522,7 @@
         }
       },
       {
-        "question": "How does your defensive strategy change depending on whether the passer controls your near or far leg?",
+        "question": "How does your defense change if the passer pins your near leg versus your far leg?",
         "answer": "When the passer controls your near leg (the leg closest to their posted knee), the knee shield is your primary defense since the short distance allows quick frame insertion. When they control your far leg, De La Riva hooks and foot-on-hip frames become more effective because the crossing angle required for the far leg pin creates more time and space for defensive structure establishment. The far leg pin is also inherently weaker for the passer since their body mechanics are less aligned, making your defensive reactions more likely to succeed.",
         "answer_line": "Near leg: knee shield; far: DLR",
         "distractors": {
@@ -536,7 +536,7 @@
         }
       },
       {
-        "question": "Why is it significantly harder to escape headquarters once it is established compared to preventing the entry?",
+        "question": "Why is escaping established headquarters much harder than preventing the entry?",
         "answer": "Once headquarters is established, the passer has a stable triangulated base, sustained downward pressure on your pinned leg through hip weight and skeletal alignment, and upper body control that limits your framing ability. Escaping requires overcoming all three control layers simultaneously, which demands far more energy than establishing a single preventive frame before the entry. The passer also has multiple passing options that punish escape attempts, creating a dilemma where defensive movement opens passing lanes.",
         "answer_line": "Three control layers combine",
         "distractors": {
@@ -550,7 +550,7 @@
         }
       },
       {
-        "question": "What counter-offensive opportunities exist during the passer's transition from Combat Base to Headquarters?",
+        "question": "What counters open up during the passer's combat base to headquarters transition?",
         "answer": "The passer's weight transfer phase creates a narrow window where their base is compromised—weight is shifting forward, the posting leg has not yet been repositioned, and their grips are transitioning between positions. During this window, butterfly hook elevations have the highest success rate for sweeps. Additionally, the passer's forward commitment can be exploited for arm drag entries to back takes or kimura grip attacks on the arm controlling your leg, especially when their opposite hand releases upper body control to clear your frames.",
         "answer_line": "Butterfly sweep during weight shift",
         "distractors": {

@@ -49,6 +49,8 @@
 # moves TTFB P75, since RUM TTFB measures the navigation document.
 /
   Cache-Control: public, max-age=300, stale-while-revalidate=3600
+  Content-Signal: search=yes, ai-input=yes
+  Link: <https://bjjgraph.org/sitemap.xml>; rel="sitemap"; type="application/xml", <https://bjjgraph.org/.well-known/api-catalog>; rel="api-catalog"; type="application/linkset+json", <https://bjjgraph.org/markdown/index.md>; rel="alternate"; type="text/markdown", <https://bjjgraph.org/llms.txt>; rel="describedby"; type="text/plain"
 /Positions
   Cache-Control: public, max-age=300, stale-while-revalidate=3600
 /Positions/*
@@ -111,6 +113,30 @@
   Cache-Control: public, max-age=3600
 /llms.txt
   Cache-Control: public, max-age=3600
+  Content-Type: text/plain; charset=utf-8
+/robots.txt
+  Cache-Control: public, max-age=3600
+  Content-Type: text/plain; charset=utf-8
+/.well-known/api-catalog
+  Cache-Control: public, max-age=3600
+  Content-Type: application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"
+/openapi.json
+  Cache-Control: public, max-age=3600
+  Content-Type: application/json; charset=utf-8
+/site-index.json
+  Cache-Control: public, max-age=3600
+  Content-Type: application/json; charset=utf-8
+/auth.md
+  Cache-Control: public, max-age=3600
+  Content-Type: text/markdown; charset=utf-8
+/api.md
+  Cache-Control: public, max-age=3600
+  Content-Type: text/markdown; charset=utf-8
+/markdown/*
+  Cache-Control: public, max-age=3600
+  Content-Type: text/markdown; charset=utf-8
+  Content-Signal: search=yes, ai-input=yes
+  X-Robots-Tag: noindex, follow
 
 /*
   X-Content-Type-Options: nosniff

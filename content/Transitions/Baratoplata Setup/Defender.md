@@ -72,7 +72,7 @@ description: "How to defend against Baratoplata Setup in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially threaded their arm but has not yet grabbed their own wrist for the figure-four—what defensive action has the highest success rate?",
+      "name": "Their Baratoplata arm is threaded but not yet figure-foured: what defense works best?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Clamp your elbow tight against your ribs and rotate your wrist to pin the attacker's forearm against your body before it clears your elbow. This traps their threading arm in an awkward position where they cannot complete the figure-four grip. Simultaneously drive your posture upward to break the shin hook's downward pressure. The attacker must withdraw their trapped arm and reset from standard Meathook, giving you time to address the position from the beginning."
@@ -80,7 +80,7 @@ description: "How to defend against Baratoplata Setup in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive approach if the attacker transitions between Baratoplata and Gogoplata threats?",
+      "name": "From meathook bottom, how do you adjust when they alternate Baratoplata and gogoplata threats?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Baratoplata and Gogoplata create a complementary threat pair from Meathook. Stacking forward defends the Baratoplata but drives you into Gogoplata range, while posturing away from Gogoplata creates Baratoplata threading space. The solution is lateral movement—rotate your torso to the side rather than moving strictly forward or backward. This disrupts both attack angles simultaneously without feeding either submission chain. Combine lateral rotation with grip fighting to break the attacker's control systematically."

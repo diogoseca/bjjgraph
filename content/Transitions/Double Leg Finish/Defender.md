@@ -56,7 +56,7 @@ description: "How to defend against Double Leg Finish in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for sprawl defense against the double leg finish, and why does timing matter so much?",
+      "name": "When is the ideal window to sprawl on a double leg finish, and why is timing so critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal sprawl window is after the opponent has committed to the finish but before they achieve full hip extension and forward drive momentum. This window is typically less than one second. Timing matters because sprawling too early (before they commit) allows them to adjust and re-shoot, while sprawling too late (after full hip extension) means their driving power has already displaced your base beyond recovery. The ideal sprawl occurs as you feel their hips begin to thrust forward - at this point their commitment prevents adjustment, but their power has not yet reached full expression. Recognizing the hip extension initiation through tactile cues (increasing forward pressure, upward lift on your legs) is the key skill."
@@ -64,7 +64,7 @@ description: "How to defend against Double Leg Finish in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the penetration step and secured grip behind your knees but has not yet begun the drive - what is your highest-percentage defensive response?",
+      "name": "They've gripped behind your knees but haven't driven yet: what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage response at this moment is establishing a deep whizzer on one side while simultaneously dropping your hips low and heavy. The whizzer should be locked by clamping your elbow tight to your ribs with your arm threaded over their arm and behind their back. This is the highest-percentage option because it addresses the problem structurally rather than requiring explosive timing like the sprawl. The whizzer breaks the symmetry of their drive - they cannot lift both legs evenly when one side is anchored by the overhook. From this position, circle toward the whizzer side to further compromise their angle while using your free hand to fight their grip on the opposite knee. This buys time and creates scramble opportunities."
@@ -72,7 +72,7 @@ description: "How to defend against Double Leg Finish in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "When is attempting a guillotine counter during the double leg finish a good tactical decision versus a poor one?",
+      "name": "When is a guillotine counter to the double leg a good choice, and when is it a poor one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A guillotine counter is a good decision when the opponent's head is positioned on the inside (between your arms) rather than tight against your hip, because inside head position exposes the neck for the choke. It is also favorable when you have training in finishing guillotines from guard, since completing the takedown while in a guillotine puts the attacker in immediate danger. A guillotine attempt is a poor decision when the opponent's head is tight to your hip with no neck exposure, when your guillotine grip is weak or poorly positioned, or when you lack confidence finishing from guard. A failed guillotine attempt wastes the critical defensive window and typically results in conceding side control without resistance, which is worse than other defensive options."
@@ -80,7 +80,7 @@ description: "How to defend against Double Leg Finish in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How should your defensive strategy change when the takedown is clearly going to succeed and you cannot prevent it?",
+      "name": "The double leg is clearly going to land: how should your defensive priority change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the takedown is inevitable, your strategic priority shifts entirely from preventing the takedown to controlling the landing position. The specific actions are: hook your legs around the opponent's waist to establish closed guard before hitting the mat, or at minimum insert a knee between your bodies to establish half guard. If neither guard option is available, immediately frame with both forearms against the opponent's shoulders and hips upon landing to prevent them from settling their weight. The positional difference between landing in closed guard versus conceding side control is enormous - from guard you have sweeps, submissions, and positional control, while from side control bottom you face an uphill escape battle. Never accept a clean pass to side control when you had the opportunity to pull guard during the descent."
@@ -88,7 +88,7 @@ description: "How to defend against Double Leg Finish in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "What physical cue tells you the opponent is about to initiate the drive phase of the finish, and how should you respond in the fraction of a second before it begins?",
+      "name": "What cue signals the drive phase is coming, and how do you respond in that split second?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key physical cue is feeling their hip bones begin to thrust forward and upward against your thighs combined with a tightening of their grip behind your knees and increased head pressure into your torso. You may also feel their weight shift from their knees to the balls of their feet as they load for the explosive drive. In the fraction of a second before the drive, you should simultaneously drop your hips back and down (beginning the sprawl motion), swim one arm over their shoulder for a whizzer, and shift your weight laterally rather than accepting the straight-line drive. This pre-emptive response is far more effective than reacting after the drive has begun, because once the opponent achieves full hip extension with forward momentum, the physics heavily favor the attacker regardless of defensive technique quality."

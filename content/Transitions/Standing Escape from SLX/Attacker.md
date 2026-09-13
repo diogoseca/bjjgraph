@@ -74,7 +74,7 @@ description: "Execute the Standing Escape from Single Leg X-Guard with proper ba
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Which hook should you clear first when executing the standing escape, and what is the biomechanical reason?",
+      "name": "In the standing escape from SLX, which hook do you clear first and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Clear the top hip hook first because it creates the elevation that gives the bottom player mechanical advantage for sweeps. The top hook lifts your trapped leg upward and away from the mat, amplifying the off-balance angle. Removing this hook drops your trapped leg closer to the mat, reducing the bottom player's leverage dramatically and making the subsequent ankle wrap removal safer and easier."
@@ -82,7 +82,7 @@ description: "Execute the Standing Escape from Single Leg X-Guard with proper ba
     },
     {
       "@type": "Question",
-      "name": "Your opponent has strong sleeve grips on both your wrists while you are trapped in SLX - what is your immediate priority before attempting the escape?",
+      "name": "Trapped in SLX with both your sleeves gripped, what's your priority before escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is breaking those sleeve grips before touching any hooks. Sleeve grips allow the bottom player to generate powerful directional pulls that compromise your base during hook clearing. Use circular grip breaks or two-on-one peel methods to free your hands. Attempting to clear hooks while your wrists are controlled is extremely dangerous because the opponent can time a sharp pull with your weight shift to execute a high-percentage sweep."
@@ -98,7 +98,7 @@ description: "Execute the Standing Escape from Single Leg X-Guard with proper ba
     },
     {
       "@type": "Question",
-      "name": "During extraction, you feel the bottom player beginning to extend their legs for a sweep - what is your immediate response?",
+      "name": "Extracting from SLX, you feel them extending their legs to sweep. What's your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately halt the extraction, widen your base by stepping the free leg further out to the side, and bend your free knee deeply to lower your center of gravity. Post your near hand on the mat if necessary for emergency stability. The sweep requires momentum and your continued movement to succeed - stopping your motion removes their timing window. Re-stabilize completely before resuming the extraction sequence. Do not try to outrun the sweep by extracting faster."
@@ -106,7 +106,7 @@ description: "Execute the Standing Escape from Single Leg X-Guard with proper ba
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between extracting the trapped leg correctly versus the common error of ripping it free?",
+      "name": "What separates correct leg extraction from SLX from the common error of ripping it free?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Correct extraction involves a smooth backward sliding motion along the mat with continuous hip drive away from the opponent, executed only after both hooks have been systematically cleared. The common error of ripping involves an explosive upward or backward yank while hooks are still partially engaged. Ripping fails because the hooks tighten under tension like a Chinese finger trap, and the explosive movement shifts your weight suddenly in ways that create sweep opportunities. Smooth extraction relies on structure and positioning, not speed."
@@ -114,7 +114,7 @@ description: "Execute the Standing Escape from Single Leg X-Guard with proper ba
     },
     {
       "@type": "Question",
-      "name": "After successfully extracting your leg and reaching standing position, your opponent immediately sits up and reaches for your ankles - how do you respond?",
+      "name": "You escape SLX to standing and they sit up reaching for your ankles. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your hands to control their reaching arms or push their shoulders back while stepping backward to create distance beyond their reach. Do not stand stationary within their guard engagement range. Control at least one of their shins or feet to prevent them from scooting forward to close distance. The escape is not complete until you have established standing distance where they cannot re-engage without first standing up themselves or pulling guard."

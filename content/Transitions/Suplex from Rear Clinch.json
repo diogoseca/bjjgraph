@@ -320,7 +320,7 @@
         }
       },
       {
-        "question": "At what moment during the rear clinch exchange is the optimal timing window for initiating the suplex?",
+        "question": "In the rear clinch, when is the optimal timing window to launch the suplex?",
         "answer": "The optimal timing window is when the opponent shifts their weight forward during grip fighting, takes a step that momentarily narrows their base, or relaxes briefly after successfully defending a different takedown attempt. The suplex is most effective when the opponent's center of gravity is already moving in a direction that complements your lifting vector, requiring less force to break their connection to the ground.",
         "answer_line": "When their weight shifts forward",
         "distractors": {
@@ -509,7 +509,7 @@
         }
       },
       {
-        "question": "If you are already being lifted and cannot prevent the throw, what actions minimize positional damage?",
+        "question": "Already being lifted for a suplex and unable to stop it, what minimizes the damage?",
         "answer": "Tuck your chin to protect your cervical spine from impact, round your spine to distribute landing force across a larger surface area, and actively direct your body toward a lateral landing angle if possible. Try to hook the opponent's leg during the arc to entangle them and potentially reverse the landing position. Stay active and mobile rather than going stiff, as a controlled body absorbs impact more safely and creates more opportunities to scramble during the landing phase.",
         "answer_line": "Tuck chin, round spine, go lateral",
         "distractors": {

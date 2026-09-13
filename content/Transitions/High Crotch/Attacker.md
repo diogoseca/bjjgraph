@@ -68,7 +68,7 @@ description: "How to execute the High Crotch takedown in BJJ. Penetration step m
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the key difference between a high crotch and a traditional single leg takedown in terms of shoulder placement?",
+      "name": "How does shoulder placement differ between a high crotch and a standard single leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The high crotch places the shoulder high into the opponent's hip crease or lower abdomen rather than lower on the thigh, providing better control over their entire body and center of mass. This high shoulder placement combined with head position on the outside of the captured leg gives superior driving leverage and makes it more difficult for the opponent to defend by simply stepping back or circling away. The single leg grabs the leg lower and relies more on pulling the leg to the chest."
@@ -100,7 +100,7 @@ description: "How to execute the High Crotch takedown in BJJ. Penetration step m
     },
     {
       "@type": "Question",
-      "name": "You shoot a high crotch but your penetration step is shallow and opponent begins to sprawl - what is your immediate response?",
+      "name": "Your high crotch penetration is shallow and they start to sprawl — what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you feel the sprawl coming because your penetration was shallow, immediately transition rather than trying to force the original technique. Your best options are: circle to the outside of the captured leg while maintaining your grip to run around to their back, switch to a low single leg by adjusting your grip lower and driving your shoulder into their thigh, or release entirely and transition to a front headlock if their head drops. The worst response is to remain static on your knees fighting for the original position, which gives them time to establish full sprawl pressure and front headlock control."

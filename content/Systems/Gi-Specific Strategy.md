@@ -4,7 +4,7 @@
 
 ---
 title: "Gi-Specific Strategy | BJJ System | BJJ Graph"
-description: "Master gi-specific BJJ strategy. Comprehensive framework for grips, control systems, and technical advantages unique to gi training. Expert tactical approaches."
+description: "A focused closed-guard companion covering Roger’s arm attacks, cross choke and sweeping options. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -57,7 +57,7 @@ description: "Master gi-specific BJJ strategy. Comprehensive framework for grips
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Gi-Specific Strategy",
-  "description": "Master gi-specific BJJ strategy. Comprehensive framework for grips, control systems, and technical advantages unique to gi training. Expert tactical approaches.",
+  "description": "A focused closed-guard companion covering Roger’s arm attacks, cross choke and sweeping options. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Gi-Specific-Strategy",
   "isPartOf": {
     "@type": "WebSite",
@@ -134,7 +134,7 @@ description: "Master gi-specific BJJ strategy. Comprehensive framework for grips
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Gi-Specific Strategy",
-  "description": "The Gi-Specific Strategy is a control framework that exploits the jacket, collar, sleeves, lapels, and pants as leverage points to win grip exchanges, pass, sweep, and finish with gi-only chokes and entanglements.",
+  "description": "Gi grips change how you manage distance, posture and attacking opportunities.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -153,9 +153,11 @@ description: "Master gi-specific BJJ strategy. Comprehensive framework for grips
 
 ## What is Gi-Specific Strategy?
 
-**The Gi-Specific Strategy is a control framework that exploits the jacket, collar, sleeves, lapels, and pants as leverage points to win grip exchanges, pass, sweep, and finish with gi-only chokes and entanglements.**
+**Gi grips change how you manage distance, posture and attacking opportunities.**
 
-Gi-specific strategy represents the fundamental framework for leveraging the jacket and pants in Brazilian Jiu-Jitsu competition and training. Unlike no-gi grappling, the gi provides numerous control points through collar grips, sleeve grips, lapel control, and pant grips that fundamentally change the game's dynamics. This strategic system encompasses grip fighting hierarchies, control-based passing systems, collar choke mechanics, and lapel-based guards that are impossible without the gi. The core philosophy centers on establishing dominant grip configurations that limit opponent mobility while maximizing your offensive options. Understanding gi-specific strategy is essential for competitors who primarily train in the kimono, as it unlocks entire position families, submission categories, and control systems unavailable in no-gi formats. This framework emphasizes patience, grip discipline, and systematic control progression over explosive athleticism.
+Gi grips change how you manage distance, posture and attacking opportunities. This guide connects those choices to a training plan. Roger Gracie’s closed-guard course offers one practical area of study within a much wider gi game.
+
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -164,15 +166,37 @@ Gi-specific strategy represents the fundamental framework for leveraging the jac
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Gi-Specific Strategy?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 20 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">The Roger Gracie Closed Guard System</h3>
+<p class="product-card__instructor">with Roger Gracie</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Gi students developing closed-guard offense. It covers one part of a wider fundamentals game.</p>
+<p class="product-card__blurb">A focused closed-guard companion covering Roger’s arm attacks, cross choke and sweeping options.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gi-specific-strategy&utm_term=the-roger-gracie-closed-guard-system-by-roger-gracie" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -281,6 +305,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Compare the closed-guard attacks and sweep choices with the posture reactions you encounter in training.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gi-specific-strategy&utm_term=the-roger-gracie-closed-guard-system-by-roger-gracie" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Roger Gracie Closed Guard System &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -383,5 +418,16 @@ Develop gi-specific strategy through progressive drilling that isolates grip fig
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Start in closed guard and work on breaking posture. Choose one attack and one follow-up when your partner restores their base.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gi-specific-strategy&utm_term=the-roger-gracie-closed-guard-system-by-roger-gracie" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Roger Gracie Closed Guard System &rarr;</a></p>
+</section>
+
+
 
 </main>

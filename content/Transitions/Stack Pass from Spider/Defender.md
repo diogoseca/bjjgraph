@@ -64,7 +64,7 @@ description: "Learn to defend the Stack Pass from Spider Guard. Comprehensive gu
     },
     {
       "@type": "Question",
-      "name": "Why is it dangerous to release all spider guard contact simultaneously when attacking with a triangle or omoplata?",
+      "name": "Why is releasing all spider guard contact at once risky when entering a triangle or omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Releasing all foot-on-bicep hooks and sleeve grips simultaneously removes every control point that slows the passer's forward advance. Spider guard's defensive strength comes from the foot pressure that controls distance—without it, the passer can drive forward unimpeded into the stack. By maintaining at least one hook or grip during attack entries, you preserve a defensive fallback that can redirect or slow the passer's forward drive if your attack fails, giving you time to recover guard structure."
@@ -72,7 +72,7 @@ description: "Learn to defend the Stack Pass from Spider Guard. Comprehensive gu
     },
     {
       "@type": "Question",
-      "name": "What should you do if the passer has already established a full stack with your hips over your shoulders?",
+      "name": "They've fully stacked you with hips over your shoulders: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Focus on preventing the walk-around to side control by framing against the passer's hip and shoulder on one side, then hip escaping in the opposite direction to create an angle that blocks their path. Try to separate your legs and insert a knee between your body and the passer's chest to create a frame. If possible, retain or re-establish a sleeve grip to redirect their lateral movement. The priority shifts from preventing the stack—which has already occurred—to preventing the pass completion by maintaining some form of barrier between you and side control."
@@ -88,7 +88,7 @@ description: "Learn to defend the Stack Pass from Spider Guard. Comprehensive gu
     },
     {
       "@type": "Question",
-      "name": "When is it better to abandon your attack and re-establish spider guard versus continuing the submission entry during a stack pass?",
+      "name": "When do you bail on your attack and rebuild spider guard instead of finishing it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the attack and re-establish guard when the passer initiates their forward drive before your submission entry is past the point of no return. If your triangle legs are not yet locked or your omoplata hip angle is not yet established, attempting to complete the submission under stacking pressure usually fails and accelerates the pass. Conversely, if your submission is nearly secured—triangle locked, omoplata angle established—you may be better served completing the attack and using the submission control to prevent the pass. The decision point is whether your submission is further along than the passer's stack."

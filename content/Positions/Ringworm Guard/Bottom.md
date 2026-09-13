@@ -21,7 +21,7 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
     {
       "@type": "HowToStep",
       "name": "Execute Ringworm Sweep to Back Control",
-      "text": "From this position, attempt Ringworm Sweep to Back Control. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Ringworm Sweep to Back Control. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 1
     },
     {
@@ -39,7 +39,7 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Sweep to Back",
-      "text": "From this position, attempt Lapel Sweep to Back. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Sweep to Back. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 4
     },
     {
@@ -51,7 +51,7 @@ description: "Master Ringworm Guard Bottom in BJJ. Advanced lapel guard with pow
     {
       "@type": "HowToStep",
       "name": "Execute Ringworm Guard to Worm Guard",
-      "text": "From this position, attempt Ringworm Guard to Worm Guard. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Ringworm Guard to Worm Guard. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 6
     }
   ],

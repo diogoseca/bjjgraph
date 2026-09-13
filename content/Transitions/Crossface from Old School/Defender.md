@@ -56,7 +56,7 @@ description: "Defend against the Crossface from Old School in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first thing you should do when you recognize the crossface initiation from Old School Top?",
+      "name": "Under Old School top, what should you do the moment you feel the crossface starting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pump the lockdown with maximum extension while tightening your underhook and pulling your head control grip deeper. The pump creates counter-force that resists the flattening effect while your tightened controls prevent the incremental degradation the crossface aims to achieve. Early action when the crossface pressure is still light is far more effective than attempting recovery after significant flattening has occurred."

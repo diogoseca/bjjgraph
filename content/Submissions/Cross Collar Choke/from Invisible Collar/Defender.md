@@ -74,7 +74,7 @@ description: "How to defend against the Cross Collar Choke Finish in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your two-on-one defense and begins transitioning to rear naked choke—how do you exploit this moment?",
+      "name": "They strip your two-on-one and switch toward the rear naked choke—how do you exploit that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The transition from collar to rear naked choke creates a brief window where the opponent's choking arm is uncommitted between positions. Use this moment to trap their switching arm by tucking it under your armpit or controlling their wrist. Simultaneously initiate hip escape since their attention has shifted to the arm transition. The collar-to-RNC switch is the most vulnerable moment in their attack chain."
@@ -82,7 +82,7 @@ description: "How to defend against the Cross Collar Choke Finish in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "When should you accept the risk of committing both hands to grip removal despite exposure to other attacks?",
+      "name": "When is it worth committing both hands to strip the collar grip despite other attacks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Commit both hands when you feel the collar grip has reached dangerous depth with knuckles against your neck and the opponent beginning rotational finishing pressure. At this point, the collar choke represents the most immediate lethal threat and no other attack will finish faster. A rear naked choke still requires setup time, giving you a window to address it after breaking the collar grip."

@@ -56,7 +56,7 @@ description: "Complete defensive guide against the Ten Finger Guillotine Variati
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate your opponent is switching to a ten finger guillotine grip?",
+      "name": "What are the earliest cues that your opponent is switching to a ten finger guillotine grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first cue is increased hip pressure from the top player as they stabilize position before the grip change. Next, you feel the original grip release—squeezing pressure briefly decreases as they reconfigure hands. Then both hands come together on the far side of your neck with individual finger pressure replacing the previous palm or wrist contact. This recognition window is your best opportunity to defend."

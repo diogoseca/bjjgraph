@@ -76,7 +76,7 @@ description: "Complete attacking guide for finishing the rear naked choke from m
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the rear naked choke from mounted crucifix target, and how does proper forearm placement achieve compression?",
+      "name": "What does the RNC from mounted crucifix compress, and how does forearm placement achieve it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The RNC targets both carotid arteries simultaneously, cutting arterial blood flow to the brain. The choking forearm compresses the near-side carotid while the bicep compresses the far-side carotid. The opponent's throat sits in the elbow crease, avoiding tracheal pressure. The locking hand behind the head pushes the head forward into the V created by the arm, tightening the bilateral compression. Proper placement produces unconsciousness in 4-10 seconds through cerebral ischemia rather than the slower, more dangerous airway choke."
@@ -84,7 +84,7 @@ description: "Complete attacking guide for finishing the rear naked choke from m
     },
     {
       "@type": "Question",
-      "name": "What makes the mounted crucifix position specifically advantageous for finishing the RNC compared to standard back control?",
+      "name": "Why is mounted crucifix better for finishing the RNC than standard back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The mounted crucifix traps one or both of the opponent's arms using the attacker's legs, eliminating the primary defensive tools that make the standard RNC difficult to finish. From back control, the defender uses both hands for grip fighting, chin protection, and frame creation. From mounted crucifix, those hands are neutralized, allowing the attacker to thread the choking arm with minimal resistance. Additionally, the mount's gravitational weight advantage adds chest compression that augments the choke's effectiveness while preventing explosive escape movements."
@@ -92,7 +92,7 @@ description: "Complete attacking guide for finishing the rear naked choke from m
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains a strong chin tuck that prevents you from sliding the choking arm beneath their chin - what adjustments should you make?",
+      "name": "Their chin tuck blocks your choking arm from mounted crucifix — what adjustments do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, use your free hand to cross-face the opponent, turning their head away from the choking-arm side to create an opening along the exposed neck. If the chin remains tucked, apply the choking arm over the chin and use jaw pressure to force the opening. You can also shift your hips slightly to angle the choking arm's entry from a different direction. If chin defense remains absolute, switch to alternative attacks like the armbar on a trapped arm, which forces them to address a different threat and often opens the neck on the subsequent attempt."
@@ -100,7 +100,7 @@ description: "Complete attacking guide for finishing the rear naked choke from m
     },
     {
       "@type": "Question",
-      "name": "What indicators tell you the blood choke is properly locked and effective versus being a pain-based windpipe choke?",
+      "name": "How do you tell your choke is a proper blood choke rather than a windpipe choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A properly locked blood choke produces facial color changes within seconds, the opponent's movements become sluggish or uncoordinated, and they may appear confused before tapping. The feeling for the attacker is a snug, even squeeze around the neck sides with no significant resistance against the forearm bone from the trachea. A windpipe choke feels like the forearm is pressing into hard cartilage, the opponent coughs or makes choking sounds, and the submission is slow and painful rather than swift. If you feel tracheal resistance, reposition the forearm laterally to find the softer carotid target."
@@ -116,7 +116,7 @@ description: "Complete attacking guide for finishing the rear naked choke from m
     },
     {
       "@type": "Question",
-      "name": "At what point during the choke application does the submission become inescapable, and what does this mean for training safety?",
+      "name": "When does the RNC become inescapable, and what does that mean for training safety?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs once the figure-four grip is fully locked behind the head with the choking arm deep across both carotids. At this stage, the defender has no mechanical advantage to break the grip or create space without free arms. In training, this recognition point is critical because the choke finishes within seconds after locking. Experienced practitioners should tap at grip completion rather than waiting for full squeeze. Training partners must apply squeeze gradually after locking the grip, giving adequate tap time. Never explosively squeeze a fully locked RNC."

@@ -64,7 +64,7 @@ description: "How to defend against Arm Drag to Back in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Why should you turn into the attacker rather than away from them when defending a partially completed arm drag?",
+      "name": "Defending a partial arm drag, why turn into the attacker instead of away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning away from the attacker exposes more of your back and accelerates their circular path to back control, essentially completing their rotation for them. Turning into the attacker forces them back to a front-facing position where their angular advantage is neutralized. Your crossface and forward drive can collapse their guard structure and create a scramble that favors you since their hooks are disengaged during the rotation attempt. Additionally, turning in keeps you facing the attacker so you can see and defend any subsequent attacks."

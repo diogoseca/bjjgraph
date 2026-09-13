@@ -104,7 +104,7 @@ description: "Execute the hip escape from truck position to recover half guard. 
     },
     {
       "@type": "Question",
-      "name": "Why does the hip escape frequently fail against competent truck players, and how do you address this?",
+      "name": "Why does the hip escape from truck usually fail against good truck players, and how do you fix it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip escape fails primarily because a single large shrimping motion is easily read and countered by the top player tightening boot pressure and following the movement. The solution is using sequential incremental hip escapes—two to four smaller movements that each create partial distance and angle. This approach is harder to counter because each individual movement is small enough to execute before the opponent can fully react, and the cumulative effect creates sufficient space for extraction."

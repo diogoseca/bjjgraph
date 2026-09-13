@@ -56,7 +56,7 @@ description: "Defend the Kneebar from Estima Lock transition in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from Estima Lock to kneebar?",
+      "name": "What is the earliest cue your opponent is switching from Estima Lock to kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest and most reliable cue is the release of the figure-four grip on your foot. When you feel the inverted footlock pressure diminish and their hands begin moving from your foot up toward your thigh, the kneebar transition has begun. This recognition must trigger immediate defensive response—activating your free leg and bending your knee—because the window between grip release and kneebar consolidation is the only reliable escape opportunity."
@@ -64,7 +64,7 @@ description: "Defend the Kneebar from Estima Lock transition in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Why is bending your knee the single most important defensive action when the attacker begins the kneebar transition?",
+      "name": "Why is bending your knee the most important defense as the kneebar transition starts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A bent knee cannot be hyperextended, which means the fundamental mechanism of the kneebar submission is neutralized as long as the knee remains bent. The attacker needs your leg straight to apply hyperextension pressure across the joint. Bending your knee immediately upon recognizing the transition buys critical time for other defensive actions—free leg posting, body rotation, grip fighting—and prevents the attacker from threatening submission even if they complete the hip switch and leg clamp."
@@ -72,7 +72,7 @@ description: "Defend the Kneebar from Estima Lock transition in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases your foot and you feel their arms wrapping your thigh—your free leg is flat on the mat—what is the correct sequence of defensive actions?",
+      "name": "They release your foot and wrap your thigh, your free leg is flat; what is the sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, bend the trapped knee immediately to prevent hyperextension. Second, activate your free leg by driving it up to post on the attacker's hip, shoulder, or face to create distance and disrupt their hip switch. Third, turn your body toward the attacker rather than away to reduce the hyperextension angle. Fourth, if they complete the position despite your defense, focus on breaking the leg clamp by prying their top leg over your hip while maintaining your knee bend. If you cannot break free and they begin bridging, tap immediately."

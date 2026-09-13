@@ -1,0 +1,400 @@
+{
+  "name": "Alignment",
+  "description": "Learn how base, posture, and structure work together in BJJ. Preserve your own alignment and disrupt your opponent's across positions, transitions, and submissions.",
+  "tags": [
+    "bjj",
+    "principle",
+    "fundamental",
+    "alignment",
+    "base",
+    "posture",
+    "structure"
+  ],
+  "application_level": "Fundamental",
+  "complexity_level": "Medium",
+  "development_timeline": "Beginner to Advanced",
+  "summary": "Alignment coordinates base, posture, and limb structure so you can direct force and move effectively. Preserve or recover your own alignment while disrupting the opponent's, regardless of position or role.",
+  "overview": "A recognizable position never guarantees useful alignment. You can hold mount with your weight stacked above your own knees and no way to post, or sit underneath a heavy pin with your inside elbow buried and a clean route back to your hip. What decides the exchange is the relationship between your support points, your spine, and the limbs you are actually trying to use - not the label on the position you are in.\n\nAlignment fails in three separable ways, and they are worth diagnosing separately. Base fails when your support points cannot accept force arriving from the direction it is actually arriving from. Posture fails when head, spine, and pelvis are organized against the direction you need to move. Structure fails when a limb is working away from the torso, where a much smaller local force can isolate it. Most of what feels like being out-muscled at purple and brown belt is one of these three failing quietly while the other two disguise it.\n\nBoth players always have an alignment picture, so the real question is comparative: whose is worse, and in which direction. Attacking means stripping one element - posture first is the classic order - and only then demanding the large movement the technique requires. Defending means recovering one support at a time without surrendering the two you still hold, and recovering before you spend effort rather than after.",
+  "key_principles": [
+    "Base, posture, and structure are separable failures - diagnose which one is actually broken before adding effort",
+    "Support points must be able to accept force from the direction it is arriving, not the direction you expected",
+    "A limb working away from the torso is isolatable; keep elbows, knees, and grips tied back to your center",
+    "Break alignment before demanding movement - an aligned opponent resists with structure, a broken one resists with muscle",
+    "Posture usually collapses first and cheapest, and base and structure follow it",
+    "Recover one support at a time, and never trade a support you still hold for one you are chasing",
+    "Alignment is a state, not a shape - re-read it on every grip change, angle change, and weight shift",
+    "Effort spent compensating for a missing support is effort unavailable for the escape or the finish"
+  ],
+  "component_skills": [
+    {
+      "skill_name": "Base diagnosis",
+      "description": "Locate your load-bearing points and test whether they can accept force from the direction it is actually arriving, not the direction you anticipated when you settled."
+    },
+    {
+      "skill_name": "Postural reading",
+      "description": "Check that head, spine, and pelvis are organized for the movement you intend, and notice early when your head has committed ahead of your hips."
+    },
+    {
+      "skill_name": "Structural connection",
+      "description": "Keep elbows, knees, and grips connected to the torso so no limb can be isolated by a local force smaller than your whole body could answer."
+    },
+    {
+      "skill_name": "Comparative assessment",
+      "description": "Read both players' alignment at once and decide whose is worse and in which direction, so you attack the broken element rather than the obvious one."
+    },
+    {
+      "skill_name": "Sequenced breaking",
+      "description": "Strip one element of the opponent's alignment - usually posture - and only then demand the large movement the position or pass requires."
+    },
+    {
+      "skill_name": "Recovery under load",
+      "description": "Restore one support at a time while preserving the others, choosing the cheapest missing piece first instead of fighting for the whole position at once."
+    }
+  ],
+  "principle_relationships": [
+    {
+      "principle_name": "Base",
+      "relationship_type": "Prerequisite",
+      "description": "Base is the support-point half of alignment; without load-bearing contacts that accept force, no posture or frame survives contact."
+    },
+    {
+      "principle_name": "Posture",
+      "relationship_type": "Prerequisite",
+      "description": "Posture is the spinal half of alignment and the element that usually breaks first, which is why most attacking sequences strip it before anything else."
+    },
+    {
+      "principle_name": "Structure",
+      "relationship_type": "Complementary",
+      "description": "Structure governs how limbs connect to the torso; aligned base and posture still lose a limb that is working away from the body."
+    },
+    {
+      "principle_name": "Frames",
+      "relationship_type": "Complementary",
+      "description": "Frames are the practical tool for holding structure under load, transmitting force through bone into the hips rather than into muscular effort."
+    },
+    {
+      "principle_name": "Kuzushi",
+      "relationship_type": "Extension",
+      "description": "Kuzushi is alignment disruption applied to the standing game - move the opponent past a usable support point before committing to the entry."
+    },
+    {
+      "principle_name": "Center of Gravity",
+      "relationship_type": "Complementary",
+      "description": "Where the mass sits relative to the support points determines whether a given alignment is stable or merely looks organized."
+    },
+    {
+      "principle_name": "Connection Principles",
+      "relationship_type": "Complementary",
+      "description": "Connection decides whether your alignment and the opponent's are coupled, so that breaking theirs feeds directly into your own movement."
+    },
+    {
+      "principle_name": "Inside Position",
+      "relationship_type": "Complementary",
+      "description": "Inside position supplies the leverage to attack alignment cheaply; from outside, the same break costs several times the effort."
+    }
+  ],
+  "application_contexts": [
+    {
+      "context": "Clinch",
+      "how_applied": "Move the opponent past a usable support point and break their posture before committing to the entry; your own head stays over your hips so the level change does not become a forward fall."
+    },
+    {
+      "context": "Closed Guard",
+      "how_applied": "Attack posture first with collar, sleeve, or head control - a broken-down passer has no base for the pass - while keeping your own knees and elbows connected so the top player cannot isolate an arm."
+    },
+    {
+      "context": "Butterfly Guard",
+      "how_applied": "Load the opponent onto your hooks to remove one support point, then take the space where their base has just left; your own chest-to-chest connection keeps your torso from falling behind your hips."
+    },
+    {
+      "context": "Knee Shield Half Guard",
+      "how_applied": "The knee shield is a structural spacer: it holds the passer's chest away from yours. Defend it by keeping the shin connected to the hip, and attack it by flattening the shield rather than out-pressuring it."
+    },
+    {
+      "context": "Headquarters Position",
+      "how_applied": "The passer's alignment lives in the trapped-leg wedge and a head that stays above their own base; the guard player attacks by pulling the passer's head past their support line to force a post."
+    },
+    {
+      "context": "Mount",
+      "how_applied": "Top keeps weight over stable supports without reaching past base; bottom recovers alignment by rebuilding an inside frame and restoring spinal orientation before bridging into space."
+    },
+    {
+      "context": "Back Control",
+      "how_applied": "The attacker breaks the defender's posture to expose the neck; the defender's whole recovery is alignment work - chin down, hands to the collar line, hips back onto the mat toward the trapped side."
+    },
+    {
+      "context": "Ashi Garami",
+      "how_applied": "Leg entanglements are structural isolation applied to the leg - the attacker separates the leg from the torso, while the defender's answer is to reconnect the knee and hip line before the finish is available."
+    }
+  ],
+  "decision_framework": [
+    {
+      "step_number": 1,
+      "decision_point": "What am I actually trying to do from here - advance, hold, or recover?",
+      "action": "Name the objective first, so that alignment is assessed against the movement you need rather than against how the position is supposed to look."
+    },
+    {
+      "step_number": 2,
+      "decision_point": "Which of my own three elements is weakest right now?",
+      "action": "Test base, posture, and structure separately: can my support points take the incoming force, is my spine organized for the intended direction, is any limb working away from my torso?"
+    },
+    {
+      "step_number": 3,
+      "decision_point": "Which of the opponent's three elements is easiest to break?",
+      "action": "Pick the cheapest target - usually posture, then a support point - and decide the direction the break will travel before touching it."
+    },
+    {
+      "step_number": 4,
+      "decision_point": "Can I act without giving up an element I still hold?",
+      "action": "If the action costs a support you currently own, rebuild first; if it only costs effort, commit and take the break."
+    },
+    {
+      "step_number": 5,
+      "decision_point": "Did the break land, and what did the opponent spend to answer it?",
+      "action": "Read the answer: a structural reply means find another element, a muscular reply means the break landed and the large movement is now available."
+    },
+    {
+      "step_number": 6,
+      "decision_point": "Has the exchange moved my alignment since I last checked?",
+      "action": "Re-read the three elements after every grip change, angle change, and weight shift, since the state moves even when the position name does not."
+    },
+    {
+      "step_number": 7,
+      "decision_point": "Am I adding effort to cover a missing support?",
+      "action": "Stop, restore the missing element, and only then re-apply force - compensating with strength buys seconds and costs the round."
+    },
+    {
+      "step_number": 8,
+      "decision_point": "Is the new position stable enough to leave?",
+      "action": "Confirm base under load and limbs reconnected before starting the next advance, so the following transition does not begin from a deficit."
+    }
+  ],
+  "common_errors": [
+    {
+      "error": "Trusting the position name instead of the state",
+      "consequence": "A dominant-sounding position is defended, held, or advanced from while it is mechanically weak, and the reversal arrives as a surprise.",
+      "correction": "Check support points, spinal orientation, and limb connection before advancing; the label tells you nothing about whether force can be delivered."
+    },
+    {
+      "error": "Holding a rigid shape rather than a live relationship",
+      "consequence": "The opponent changes the direction of force and the fixed shape stops resisting anything, usually collapsing all at once.",
+      "correction": "Treat alignment as a state to be re-read; adjust support points and spine as the direction of force changes."
+    },
+    {
+      "error": "Reaching for a grip in front of the base",
+      "consequence": "The arm is left working away from the torso, where an armbar, kimura, or arm-drag isolates it against a fraction of your available strength.",
+      "correction": "Move the base to the grip instead of extending to it, and keep the elbow inside the line of the hips."
+    },
+    {
+      "error": "Repairing one element and ignoring the other two",
+      "consequence": "Strong frames fail anyway because posture is broken or base is gone, and the effort spent on the frame is wasted.",
+      "correction": "Diagnose all three, then fix the cheapest missing one first - it is often not the one that feels most urgent."
+    },
+    {
+      "error": "Demanding the large movement before breaking alignment",
+      "consequence": "The sweep, pass, or takedown is met by a structurally intact opponent and becomes a strength contest you may lose.",
+      "correction": "Break one element first - posture is usually cheapest - and only then ask for the movement."
+    },
+    {
+      "error": "Using effort to cover a missing support",
+      "consequence": "Fatigue accumulates with no gain in control, and the position collapses later at a worse moment with nothing left in the tank.",
+      "correction": "Recover the missing element before adding force; if you cannot recover it, change objectives rather than paying for it in muscle."
+    }
+  ],
+  "training_approaches": [
+    {
+      "approach_name": "Three-part freeze check",
+      "description": "Roll at conversational pace and stop on a signal. Both players name, out loud, their own and their partner's base, posture, and structure, and say which one they would attack next.",
+      "focus": "Recognition and comparative reading"
+    },
+    {
+      "approach_name": "One missing support",
+      "description": "Start each repetition with exactly one element deliberately compromised - no base, broken posture, or an extended arm - and recover it against progressive resistance without conceding the other two.",
+      "focus": "Isolated recovery under load"
+    },
+    {
+      "approach_name": "Transition checkpoint drill",
+      "description": "Move through a pass, sweep, or back-take at half speed and pause the moment either player's alignment degrades, then rewind two beats to find the movement that caused it.",
+      "focus": "Continuity through transitions"
+    },
+    {
+      "approach_name": "Break-then-move constraint round",
+      "description": "Positional sparring where the advancing player scores only if a named alignment break precedes the movement, and loses the point for reaching the position by strength alone.",
+      "focus": "Sequencing attacks correctly"
+    },
+    {
+      "approach_name": "Effort audit",
+      "description": "Spar a round with the sole rule that any time you notice yourself straining, you stop applying force and repair the missing support instead, then continue.",
+      "focus": "Replacing compensation with structure"
+    }
+  ],
+  "developmental_metrics": [
+    {
+      "level": "Beginner",
+      "observable_behaviors": [
+        "Names base, posture, and structure separately in a paused exchange",
+        "Notices when an arm has left the torso and brings the elbow back in",
+        "Recognizes that control has been lost and resets rather than straining",
+        "Demonstrates the principle with a cooperative partner in one or two positions"
+      ]
+    },
+    {
+      "level": "Intermediate",
+      "observable_behaviors": [
+        "Breaks the opponent's posture before committing to a sweep or a pass",
+        "Recovers one support at a time under light to moderate resistance",
+        "Explains both the attacking and the defending side of the same exchange",
+        "Stops adding effort when the cause is a missing support rather than insufficient force"
+      ]
+    },
+    {
+      "level": "Advanced",
+      "observable_behaviors": [
+        "Holds usable alignment through changing positions rather than only in static shapes",
+        "Picks the cheapest element to attack when the first route is blocked",
+        "Re-reads alignment on grip and angle changes without prompting",
+        "Combines alignment breaks with timing and angle to make the movement nearly free"
+      ]
+    },
+    {
+      "level": "Expert",
+      "observable_behaviors": [
+        "Diagnoses subtle alignment failures under varied resistance and body types",
+        "Chooses deliberately when to release a connection to gain a better one",
+        "Attacks a specific element to provoke a predictable structural answer",
+        "Teaches the principle from both roles using examples across unrelated positions"
+      ]
+    }
+  ],
+  "related_content": [
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "The classic posture-first laboratory: nearly every guard attack begins by breaking the passer's alignment."
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Top alignment decides whether weight is deliverable; bottom recovery is alignment repair before movement."
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "content_type": "Position",
+      "relationship": "A structural spacer held or flattened - the position is an argument about limb-to-torso connection."
+    },
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "The defender's entire survival game is posture and chin-line alignment against the attacker's break."
+    },
+    {
+      "name": "Ashi Garami",
+      "content_type": "Position",
+      "relationship": "Leg entanglement is structural isolation applied to the leg, defended by reconnecting knee and hip."
+    },
+    {
+      "name": "Headquarters Position",
+      "content_type": "Position",
+      "relationship": "Passing stability here depends on a head that stays above the passer's own support line."
+    },
+    {
+      "name": "Body Lock Pass",
+      "content_type": "Transition",
+      "relationship": "A pass that works by removing the guard player's ability to organize hips and spine independently."
+    },
+    {
+      "name": "Back Step Pass",
+      "content_type": "Transition",
+      "relationship": "Requires the passer to re-establish base and posture mid-rotation or hand back the guard."
+    },
+    {
+      "name": "Armbar",
+      "content_type": "Submission",
+      "relationship": "The canonical structural failure: a limb separated from the torso and then extended past its line."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "The support-point element of alignment."
+    },
+    {
+      "name": "Posture",
+      "content_type": "Principle",
+      "relationship": "The spinal element of alignment, and usually the first one broken."
+    },
+    {
+      "name": "Structure",
+      "content_type": "Principle",
+      "relationship": "The limb-connection element of alignment."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "The practical tool for holding structure under load."
+    },
+    {
+      "name": "Kuzushi",
+      "content_type": "Principle",
+      "relationship": "Alignment disruption applied to the standing exchange."
+    },
+    {
+      "name": "Gordon Ryan Passing System",
+      "content_type": "System",
+      "relationship": "A passing framework built on removing the guard player's alignment before advancing position."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What are the three separable elements of alignment?",
+      "answer": "Base (the support points that accept force), posture (head, spine, and pelvis organized for the intended movement), and structure (limbs connected to the torso). Each fails independently, so each is diagnosed separately."
+    },
+    {
+      "question": "Why is a dominant position not the same as good alignment?",
+      "answer": "The position name describes geography, not mechanics. You can hold mount with your weight stacked above your knees and no post available, or sit under a pin with inside frames and a clear route to your hip."
+    },
+    {
+      "question": "Which alignment element is usually attacked first, and why?",
+      "answer": "Posture. It is the cheapest to break - a collar, sleeve, or head-control grip can do it - and once the spine is disorganized, base and structure tend to fail behind it without further work."
+    },
+    {
+      "question": "How do you tell whether an alignment break actually landed?",
+      "answer": "Read what the opponent spends answering it. A structural reply means they still have the element and you should switch targets; a muscular reply means the break landed and the large movement is now available."
+    },
+    {
+      "question": "What makes a reaching grip dangerous in alignment terms?",
+      "answer": "An arm working in front of the base is separated from the torso, so a local force much smaller than your whole body can isolate it - the mechanical basis of the armbar, the kimura, and the arm drag."
+    },
+    {
+      "question": "What should you do when you notice yourself straining in a position?",
+      "answer": "Stop adding force and find the missing support. Effort spent compensating for broken base, posture, or structure buys seconds, costs the round, and leaves nothing for the escape or the finish."
+    },
+    {
+      "question": "In what order should you recover alignment when several elements are broken?",
+      "answer": "One at a time, cheapest first, without surrendering any element you still hold. Trading a support you own for one you are chasing usually leaves you with neither."
+    },
+    {
+      "question": "How does alignment apply in Back Control?",
+      "answer": "The attacker breaks the defender's posture to expose the neck. The defender's whole recovery is alignment work: chin down, hands to the collar line, hips driving back onto the mat toward the trapped side."
+    },
+    {
+      "question": "Why is alignment described as comparative rather than absolute?",
+      "answer": "Both players always have an alignment picture, so the useful question is whose is worse and in which direction. That comparison tells you which element to attack and whether to act or repair first."
+    },
+    {
+      "question": "Why is alignment a state rather than a shape?",
+      "answer": "It changes with every grip, angle, and weight shift even when the position name stays the same, so holding a fixed shape stops resisting as soon as the direction of incoming force changes."
+    },
+    {
+      "question": "How does alignment apply in the Clinch?",
+      "answer": "Move the opponent past a usable support point and break their posture before committing to an entry, while keeping your own head over your hips so the level change does not become a forward fall."
+    },
+    {
+      "question": "What is the alignment logic behind a leg entanglement such as Ashi Garami?",
+      "answer": "It is structural isolation applied to the leg: the attacker separates the leg from the torso so the hip cannot support it, and the defender answers by reconnecting knee and hip line before the finish is available."
+    }
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Base, posture, and structure govern how both players perform, prevent, and recover from every position, transition, and submission in the graph, in every role and both rulesets."
+  }
+}

@@ -56,7 +56,7 @@ description: "Complete guide to preventing the hip escape from Russian Cowboy to
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest warning signs that the bottom player is preparing a hip escape from Russian Cowboy?",
+      "name": "What are the earliest signs the bottom player is preparing a hip escape from Russian Cowboy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest signs are the bottom player establishing a frame against your hip with their near-side forearm, their near-side hand moving from neck defense toward your hooking ankle, and their hips beginning to angle toward your free leg side. The frame establishment is typically the first preparatory action because it creates the space needed for all subsequent escape steps. Recognizing and addressing this initial frame before it becomes load-bearing is the most efficient way to shut down the entire escape sequence."

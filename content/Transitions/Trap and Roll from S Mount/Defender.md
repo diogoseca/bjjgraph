@@ -72,7 +72,7 @@ description: "Defend against the Trap and Roll escape from S Mount. Recognize br
     },
     {
       "@type": "Question",
-      "name": "What is the correct response if the opponent's bridge partially succeeds and your S Mount base begins to compromise?",
+      "name": "Their bridge partly works and your S mount base is compromised — correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting to maintain S Mount with a compromised base, immediately transition to regular mount by stepping your leg back over the opponent's head and settling your hips centrally on their torso. Losing S Mount to regular mount is far preferable to losing position entirely. Once in mount, re-establish dominant control and look for another opportunity to return to S Mount when their escape energy is depleted."
@@ -88,7 +88,7 @@ description: "Defend against the Trap and Roll escape from S Mount. Recognize br
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make to prevent the initial arm trap that begins the escape sequence?",
+      "name": "What grip adjustments stop the arm trap that starts the trap and roll from S mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain continuous wrist control on the isolated arm while keeping your free hand mobile and ready to post rather than committed to a second grip. If you sense the opponent's free hand reaching for your controlling wrist, switch to a deeper grip — elbow control or bicep grip — that is harder to strip. Use your shin or body position to pin the opponent's free arm and eliminate their ability to initiate the trapping sequence entirely."

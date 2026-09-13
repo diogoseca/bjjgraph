@@ -80,7 +80,7 @@ description: "Complete guide to defending the Vaporizer pass in BJJ. Learn to ma
     },
     {
       "@type": "Question",
-      "name": "How do you counter the backstep extraction variant where the top player steps their free leg backward?",
+      "name": "How do you counter a backstep extraction, the top player stepping the free leg back, from Vaporizer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you feel the free leg stepping backward rather than the standard forward circulation, increase your lockdown extension immediately to resist the changed extraction angle. The backstep creates a different force vector, so adjust your hip angle to face toward the stepping direction. If the backstep begins to succeed, use their backward movement momentum to accelerate a Truck entry or back take rather than fighting the extraction directly. Their backward step often exposes their back if you can follow the rotation."

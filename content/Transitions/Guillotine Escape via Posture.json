@@ -319,7 +319,7 @@
         }
       },
       {
-        "question": "Your opponent hip bumps you as you drive upward to posture—what went wrong and how do you prevent it?",
+        "question": "They hip bump you as you posture out of a guillotine: what went wrong and how do you prevent it?",
         "answer": "You likely drove too vertically without sufficient forward base pressure. The hip bump sweep exploits upward momentum by redirecting it into a lateral roll. Prevent this by maintaining a wide base with your posted hand, keeping your center of gravity forward over the opponent rather than rising straight up, and driving your shoulder into their chest as you posture to prevent the bridge angle.",
         "answer_line": "Rose too vertical, no base",
         "distractors": {
@@ -333,7 +333,7 @@
         }
       },
       {
-        "question": "What grip configuration on the choking wrist provides the most effective control for stripping the grip?",
+        "question": "Escaping a guillotine by posture, what grip on their choking wrist best strips it?",
         "answer": "A C-grip or monkey grip positioned on the choking wrist at the point where the wrist blade crosses your throat. The thumb side of your grip should face toward your chest, allowing you to pull the wrist down and away from your neck as you posture upward. Avoid a full closed fist grip that can slip under sweat—the C-grip maintains contact through pressure rather than squeezing.",
         "answer_line": "C-grip, thumb toward chest",
         "distractors": {
@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "If the posture escape stalls at half-posture with the opponent adjusting their grip, what alternative options should you consider?",
+        "question": "The posture escape stalls at half-posture and they regrip: what alternatives should you take?",
         "answer": "If you have achieved partial posture but cannot complete the escape, consider transitioning to a Von Flue choke counter by driving your shoulder into their choking arm while they maintain a shallow grip. Alternatively, use the partial posture to begin passing to the side, using shoulder pressure to compress their grip mechanics while working toward side control. Never remain stalled at half-posture where the opponent can readjust.",
         "answer_line": "Von Flue counter, or pass",
         "distractors": {
@@ -459,7 +459,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the single most important defensive action when you feel the opponent beginning to posture out of your guillotine?",
+        "question": "Holding a guillotine, what is the single most important response when they start posturing out?",
         "answer": "Close your guard immediately by locking your ankles behind their back. This is the highest-priority response because closed guard adds tremendous compression to the choke through leg pressure, prevents the opponent from walking their knees forward to create their escape angle, and establishes the platform needed for hip bump sweeps if the choke itself is successfully defended.",
         "answer_line": "Close guard, lock ankles",
         "distractors": {
@@ -473,7 +473,7 @@
         }
       },
       {
-        "question": "Your opponent has begun posturing and your standard guillotine grip is being stripped—what adjustment maintains the submission threat?",
+        "question": "They are posturing and stripping your standard guillotine: what adjustment keeps the threat?",
         "answer": "Transition to high elbow guillotine by driving your choking elbow toward the ceiling and rotating your wrist so the blade of your forearm attacks behind the opponent's chin rather than across the front of the throat. This variation is significantly more resistant to posture escapes because it compresses the carotid arteries from a posterior angle that posture recovery cannot easily address.",
         "answer_line": "Switch to high elbow guillotine",
         "distractors": {
@@ -501,7 +501,7 @@
         }
       },
       {
-        "question": "What determines whether you should maintain the guillotine grip or release it and focus on guard retention?",
+        "question": "Holding a guillotine, what determines whether to keep the grip or switch to guard retention?",
         "answer": "Evaluate grip depth and the opponent's posture level. If your forearm is still deep across the throat and the opponent has only partial posture, maintain the grip and adjust mechanics. If the grip has slipped to a shallow position and the opponent has near-full posture, release the grip and immediately transition to guard retention to prevent being passed. Holding a compromised guillotine wastes energy and delays the guard recovery that prevents positional loss.",
         "answer_line": "Weigh grip depth vs posture",
         "distractors": {

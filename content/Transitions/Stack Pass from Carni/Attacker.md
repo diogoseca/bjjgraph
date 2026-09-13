@@ -90,7 +90,7 @@ description: "Complete guide to executing the Stack Pass from Carni in BJJ. Aggr
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins threading their inside leg deeper as you drive forward - what is your immediate response?",
+      "name": "They thread their inside leg deeper as you drive the stack pass from Carni—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately halt forward pressure and retract your hip away from their threading leg to prevent the saddle hook from setting. Use your free leg to block or clear their threading hook before it crosses your hip line. Only resume the stack pass after neutralizing the saddle threat. If the saddle is already established, abandon the pass entirely and transition to saddle defense rather than forcing a pass from an increasingly dangerous position."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the Stack Pass from Carni in BJJ. Aggr
     },
     {
       "@type": "Question",
-      "name": "Your opponent inverts under your stacking pressure to re-establish Carni from the opposite angle - how do you counter this?",
+      "name": "They invert under your stack to rebuild Carni from the other side—how do you counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accelerate your forward drive and pin their hips to the mat with heavy chest-to-hip pressure to prevent the inversion from completing. The inversion requires space and rotational freedom, both of which are eliminated by maximum forward stacking weight. If you recognize the inversion attempt early, driving your shoulder into their hip crease blocks the rotation axis entirely. The key is increasing pressure immediately rather than pausing, which gives them the space to complete the rotation."

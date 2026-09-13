@@ -78,7 +78,7 @@ description: "Master attacking the Short Choke from Harness in BJJ. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent has their chin tucked tightly with both hands defending the choking arm - what adjustment allows you to complete the choke?",
+      "name": "Chin tucked and both hands on your choking arm: how do you finish the Short Choke from harness?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your under-arm to momentarily trap one defensive hand by pulling it toward their hip, creating a brief window. Then thread your forearm above their chin defense, targeting the jaw line to wedge the chin up. The sleeve anchor means you do not need full arm penetration behind the chin like an RNC. The short choke compresses the carotids even with the chin partially tucked because the forearm angle and sleeve leverage are different from a traditional strangle."
@@ -110,7 +110,7 @@ description: "Master attacking the Short Choke from Harness in BJJ. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "How do you adjust your grip when the opponent keeps stripping your choking forearm before you reach the sleeve?",
+      "name": "They keep stripping your choking forearm before it reaches the sleeve: how do you adjust the grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to an incremental approach by using your under-arm to create a two-on-one on their primary defensive wrist, pulling it toward their hip. Then advance the choking forearm a few inches at a time rather than threading it across in one motion. If they consistently strip with both hands, feint the choke to draw their hands high, then switch to an armbar setup on the exposed arm. Return to the choke when their defensive hands reposition to address the armbar threat."

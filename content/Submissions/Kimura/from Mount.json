@@ -320,7 +320,7 @@
     ],
     "flashcards": [
       {
-        "question": "Why must the Kimura from mount be applied with slow, progressive pressure in training rather than explosive force?",
+        "question": "Why apply the mounted Kimura with slow, progressive pressure instead of explosive force in training?",
         "answer": "The shoulder joint contains multiple vulnerable structures including the rotator cuff tendons, labrum, and joint capsule that can tear or rupture without adequate warning if explosive force is applied. Slow, progressive application over 3-5 seconds allows the training partner to recognize the danger, assess their defense options, and tap safely before structural damage occurs. The shoulder joint's complex anatomy means injury can happen rapidly and without pain signals until damage is already done. Competition-speed application should only occur in competition where both athletes accept this risk.",
         "safety_critical": true,
         "answer_line": "Progressive pressure, time to tap",
@@ -335,7 +335,7 @@
         }
       },
       {
-        "question": "What is the correct grip configuration for the figure-four Kimura lock and why does hand placement distance matter?",
+        "question": "What is the correct figure-four grip for the mounted Kimura, and why does hand distance matter?",
         "answer": "The figure-four grip is created by controlling the opponent's wrist with your same-side hand, then threading your opposite hand underneath their elbow to grip your own wrist. The critical element is gripping your wrist as far from the opponent's arm as possible - maximum distance between your hands creates maximum leverage. This distance functions as a lever arm: the further your grip point from the fulcrum (their shoulder), the more torque you can generate with less effort. Gripping too close to their arm reduces mechanical advantage significantly and makes the submission weak.",
         "safety_critical": false,
         "answer_line": "Grip your own wrist far from theirs",
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "What should you do immediately if you hear popping, clicking, or cracking sounds from your opponent's shoulder during Kimura application?",
+        "question": "Mounted Kimura: you hear popping or clicking from their shoulder—what do you do immediately?",
         "answer": "IMMEDIATELY release all rotational pressure and follow the release protocol: stop the rotation, release the figure-four grip while controlling the arm, and gently guide their arm back to neutral position. Joint sounds during shoulder locks indicate structural damage is occurring - ligaments, tendons, or cartilage are tearing or joints are subluxating. Continuing pressure after hearing these sounds will cause severe injury requiring surgical intervention. Check your partner's shoulder health, range of motion, and pain levels before resuming any training. When in doubt, encourage immediate medical evaluation.",
         "safety_critical": true,
         "answer_line": "Stop immediately, release grip",
@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "What is the correct rotational direction and path for applying the Kimura from mount, and why does this matter?",
+        "question": "What is the correct rotational path for the mounted Kimura, and why does it matter?",
         "answer": "The correct motion is a circular arc that moves the opponent's hand down toward their hip and lower back while maintaining elbow height at approximately ribcage level. This creates internal rotation of the shoulder joint, which engages the posterior shoulder capsule and rotator cuff tendons for maximum mechanical pressure. The motion should be smooth and circular, like stirring a large pot, not lifting straight up. Driving the hand toward the head instead is the Americana arc, not the Kimura. Incorrect angles (pulling straight up or away from the body) fail to engage the shoulder joint properly and reduce submission effectiveness while potentially directing pressure to less vulnerable structures.",
         "safety_critical": false,
         "answer_line": "Arc hand down toward their hip",
@@ -380,7 +380,7 @@
         }
       },
       {
-        "question": "Why is maintaining mount control throughout the Kimura attempt considered essential to the technique's effectiveness?",
+        "question": "Why is keeping mount control throughout the Kimura attempt essential to the technique?",
         "answer": "Mount control provides three critical advantages: First, your bodyweight creates constant downward pressure that limits opponent's mobility and breathing, compounding the submission pressure psychologically and physically. Second, mount position prevents common Kimura defenses like rolling away or creating distance - your legs and hips pin their torso. Third, maintaining mount means you retain dominant position even if the submission attempt fails, allowing you to transition to other attacks or reestablish the Kimura without losing positional hierarchy. Sacrificing mount for submission speed often results in losing both position and submission.",
         "safety_critical": false,
         "answer_line": "Bodyweight pins their hips and torso",
@@ -395,7 +395,7 @@
         }
       },
       {
-        "question": "What are the three most dangerous injuries that can result from improper Kimura application, and what are their typical recovery timelines?",
+        "question": "What are the three worst injuries from improper Kimura application, and their recovery timelines?",
         "answer": "The three most severe injuries are: (1) Rotator cuff tears affecting the supraspinatus, infraspinatus, or teres minor tendons, requiring 3-6 months recovery and often surgical repair; (2) Shoulder dislocation (anterior or posterior), requiring 6-12 weeks recovery with possible surgical intervention for recurrent instability; and (3) Labrum tears, requiring 4-9 months recovery with surgery. All three injuries can result in permanent shoulder instability or reduced range of motion if not properly treated. These injuries typically occur when explosive force is applied or when training partners continue pressure past the tap point.",
         "safety_critical": true,
         "answer_line": "Cuff, dislocation, labrum: months",
@@ -425,7 +425,7 @@
         }
       },
       {
-        "question": "Your opponent begins to posture up and create space during your Kimura setup - what adjustment prevents escape?",
+        "question": "During your mounted Kimura setup, they posture up and create space—what adjustment prevents escape?",
         "answer": "When the opponent attempts to posture, immediately lower your hips and drive your weight forward through the figure-four grip. Use your chest pressure to flatten them back to the mat while maintaining the grip configuration. If they create significant space, shift your angle more aggressively toward their head, using your leg positioning to block their hip movement. The key is not letting them establish a defensive frame before you secure the proper angle. If they posture successfully, consider transitioning to back control by following their movement rather than fighting it.",
         "safety_critical": false,
         "answer_line": "Lower hips, drive weight forward",
@@ -440,7 +440,7 @@
         }
       },
       {
-        "question": "What anatomical structures does the Kimura from Mount specifically attack and how does the submission create the breaking mechanism?",
+        "question": "What does the Kimura from mount attack anatomically, and how is the breaking mechanism created?",
         "answer": "The Kimura targets the shoulder joint complex, specifically the glenohumeral joint, rotator cuff muscles (supraspinatus, infraspinatus, subscapularis, teres minor), and the surrounding ligamentous capsule. The figure-four grip creates internal rotation of the humerus while the elbow is flexed and the arm is elevated. This forces the humeral head against the posterior capsule and stretches the external rotator muscles beyond their natural range. The breaking mechanism occurs when continued rotation exceeds the structural limits of the capsule, tendons, or the joint itself, resulting in dislocation or tissue rupture.",
         "safety_critical": false,
         "answer_line": "Shoulder: forced internal rotation",
@@ -455,7 +455,7 @@
         }
       },
       {
-        "question": "At what point during the Kimura from Mount is the opponent past the point of no escape and what indicators show this?",
+        "question": "In the mounted Kimura, when is your opponent past escape, and what indicators show it?",
         "answer": "The point of no escape typically occurs when: (1) the figure-four grip is fully secured with proper wrist distance, (2) your body angle is perpendicular to their trapped arm with hips tight to their shoulder, (3) their elbow has been lifted off the mat to ribcage height, and (4) their wrist has begun moving down toward their hip and lower back in the circular arc. Visual indicators include their inability to straighten the arm, their shoulder becoming pinned to the mat, and the internal rotation of their arm becoming visible. At this stage, the only options are tap or transition - pure defense is no longer viable.",
         "safety_critical": false,
         "answer_line": "Grip set, angle locked, elbow up",
@@ -470,7 +470,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make during the finishing sequence if opponent resistance is preventing the tap?",
+        "question": "Mounted Kimura: their resistance is stopping the tap—what grip adjustments do you make?",
         "answer": "If resistance prevents the finish, first verify your grip distance on your own wrist is maximized. Then check your body angle - you may need to shift your chest more perpendicular to their body. If the resistance is grip-based (they're holding their belt or pants), increase your body angle toward their head while maintaining elbow height, using the mechanical advantage of the longer lever to break their grip. You can also post your far hand on their head to create additional pressure. Never compensate for poor positioning by adding explosive force - instead, troubleshoot mechanics systematically.",
         "safety_critical": false,
         "answer_line": "Max grip distance, adjust angle",
@@ -485,7 +485,7 @@
         }
       },
       {
-        "question": "What common finishing errors reduce submission effectiveness and how do you recognize when they're occurring?",
+        "question": "What common mounted Kimura finishing errors kill effectiveness, and how do you recognize them?",
         "answer": "The most common finishing errors are: (1) lifting straight up instead of rotating down toward the hip and lower back - recognized when you feel significant resistance despite adequate grip strength; (2) allowing the wrist to drift away from their body - visible when their arm begins to extend rather than rotate; (3) losing hip connection to their shoulder - recognized when they begin to create space or rotate their torso; and (4) gripping too close on the figure-four - felt as inadequate leverage despite correct motion. Each error has a distinct sensation: straight lifting feels like a strength contest, drifting wrist feels like losing control, hip disconnection feels like the position becoming unstable, and close gripping feels mechanically weak.",
         "safety_critical": false,
         "answer_line": "Lifting up instead of arcing down",
@@ -615,7 +615,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that a Kimura from mount is being set up, and why is early defense critical?",
+        "question": "Under mount, what is the earliest cue a Kimura is being set up, and why act early?",
         "answer": "The earliest cue is feeling the attacker grab your wrist with their same-side hand while in mount and begin isolating it away from your body. Early defense is critical because the Kimura becomes progressively harder to defend at each stage: wrist control is the easiest to fight, the figure-four grip is harder, the perpendicular angle is very difficult, and once the circular rotation begins, only the tap is safe. Each 1-2 seconds of delayed response eliminates defensive options exponentially.",
         "safety_critical": false,
         "answer_line": "Wrist grabbed, arm isolated",
@@ -660,7 +660,7 @@
         }
       },
       {
-        "question": "How do you integrate Kimura defense with mount escape mechanics rather than treating them as separate problems?",
+        "question": "Under mount, how do you combine Kimura defense with mount escape instead of separating them?",
         "answer": "The most effective approach uses one hand for grip defense (gripping belt, pants, or clasping hands to prevent rotation) while simultaneously using hip movement to disrupt the attacker's perpendicular angle. When the attacker shifts their weight to establish the Kimura angle, their base becomes compromised on the opposite side, creating a bridge-and-roll opportunity. Similarly, the attacker's commitment to the figure-four grip means they cannot post their hands to prevent a well-timed hip escape. By combining grip stalling with active positional escape, you address both the submission and the mount simultaneously.",
         "safety_critical": false,
         "answer_line": "Grip defense plus hip escape",
@@ -675,7 +675,7 @@
         }
       },
       {
-        "question": "Your attacker has the figure-four grip locked and is beginning to shift to the perpendicular angle - what is your defensive sequence?",
+        "question": "Under mount, they lock the figure-four and shift to the perpendicular angle—what is your defense?",
         "answer": "Immediately grip your own belt or pants with your trapped hand to prevent rotation. With your free hand, frame against their far hip to prevent them from completing the perpendicular angle shift. Begin hip escaping away from the trapped arm to collapse their angle and insert your knee. If they have already established the angle, switch to timing a bridge toward the trapped arm side when their base is weakest (during the weight shift). Throughout, keep your trapped arm bent and elbow tight to your ribs. If all defensive options fail and the rotation begins, tap before injury occurs.",
         "safety_critical": false,
         "answer_line": "Grip belt, frame hip, escape",

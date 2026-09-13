@@ -1,6 +1,6 @@
 {
   "name": "Bernardo Faria Pressure System",
-  "description": "Master Bernardo Faria's legendary pressure passing system. Learn systematic top pressure, weight distribution, and control principles that won 5 World Championships.",
+  "description": "Focuses on no-gi pressure passing, including Bernardo’s over-under approach and control from the knees. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -13,8 +13,8 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Intermediate",
-  "summary": "The Bernardo Faria Pressure System is a gi-focused top game framework that uses relentless forward weight, knee slice, over-under, and bodylock passing to exhaust opponents and systematically advance to dominant pinning positions.",
-  "overview": "Forged across years of elite gi competition that produced five IBJJF World Championships, this top game emerged from a deliberate rejection of speed and athleticism in favor of weight, timing, and relentless patience. Rather than scrambling to pass, the practitioner makes opponents carry bodyweight on their hips, chest, and shoulders until their guard collapses from exhaustion. The methodology emphasizes knee slice variations, over-under passing, and bodylock control as primary weapons, combined with strategic grip fighting and base management. Rather than speed or explosiveness, this system relies on technical precision, timing, and pressure application to systematically break down guards and achieve dominant positions. The framework is particularly effective in gi competition where grips and control can be maximized, though the fundamental pressure principles translate effectively to no-gi contexts. This system represents a masterclass in making opponents exhausted through constant pressure while conserving your own energy through proper technique and weight placement.",
+  "summary": "Pressure passing depends on connection and weight placement.",
+  "overview": "Pressure passing depends on connection and weight placement. This guide examines how to limit hip movement, advance past the legs and settle into control. The linked instructional focuses on Bernardo’s no-gi approach, including over-under passing.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Constant forward pressure forces opponent to work continuously",
     "Weight distribution creates exhaustion without requiring strength",
@@ -507,6 +507,21 @@
           "Release grips to reset posture"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "no-gi-pressure-passing-by-bernardo-faria",
+      "title": "No Gi Pressure Passing",
+      "instructor": "Bernardo Faria",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Focuses on no-gi pressure passing, including Bernardo’s over-under approach and control from the knees.",
+      "best_for": "Students developing close-range passing. This course focuses on no-gi rather than gi-specific grip details.",
+      "study_focus": "Study the over-under controls first, then the adjustments that keep the opponent from recovering guard.",
+      "practice_tip": "Enter the over-under position cooperatively, then add resistance to retaining the connection. Judge progress by control rather than speed."
     }
   ]
 }

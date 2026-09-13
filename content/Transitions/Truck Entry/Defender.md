@@ -64,7 +64,7 @@ description: "How to defend against Truck Entry in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a partial hook but does not yet have seatbelt control - what should you prioritize?",
+      "name": "They have a partial truck hook but no seatbelt yet—what do you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize removing the partial hook immediately before the attacker can add upper body control. Use your hands to push their foot back under your hips while simultaneously sitting back toward guard or flattening your hips to deny the hook deepening. Once the attacker adds seatbelt control to an established hook, escape probability drops significantly because they can initiate the roll. The window between partial hook and complete entry is your best opportunity to abort their attack."
@@ -80,7 +80,7 @@ description: "How to defend against Truck Entry in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "The attacker has fully established the Truck position with deep hook and seatbelt - what is your best defensive strategy?",
+      "name": "They have a deep truck hook and seatbelt—what is your best defensive strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once Truck is fully established, your immediate priority shifts to defending submissions (neck protection for Twister, leg defense for Calf Slicer) while working to clear the boot pressure on your hip. Address the boot first by using your free hand to fight it while the other hand protects your neck. If you can reduce the boot pressure, attempt a granby roll or hip escape to create enough space to extract your trapped leg. Accept that escape from a fully locked Truck is low-percentage and focus on preventing the finish while looking for moments of loosened control."

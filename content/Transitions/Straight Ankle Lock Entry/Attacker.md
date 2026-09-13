@@ -74,7 +74,7 @@ description: "How to execute Straight Ankle Lock Entry in BJJ. Attacking perspec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the Straight Ankle Lock Entry from grasshopper guard?",
+      "name": "When is the best time to start the straight ankle lock entry from grasshopper guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack when the opponent commits weight onto their lead foot — stepping forward, reaching for your legs, or starting a pass. This weight commitment prevents them from quickly retracting the targeted foot and gives you the critical extra time needed to complete the entry sequence. Attacking a retreating or evenly balanced opponent dramatically reduces success rates."
@@ -90,7 +90,7 @@ description: "How to execute Straight Ankle Lock Entry in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Why must the outside leg cross the opponent's hip line before the inside leg threads behind the knee?",
+      "name": "Why must your outside leg cross their hip line before your inside leg threads behind the knee?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The outside leg serves as a barrier that prevents the opponent from stepping backward or circling away from the entry. If you thread the inside leg first without blocking their retreat path, the opponent can simply step their lead foot back and your inside leg threads into empty space. The outside leg pins their base in place, creating the frame that allows the inside leg to complete the entanglement against a trapped opponent."
@@ -98,7 +98,7 @@ description: "How to execute Straight Ankle Lock Entry in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your ankle grip while your figure-four is only partially closed - how do you adjust?",
+      "name": "They strip your ankle grip before your figure-four closes: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to a kneebar attack on the same leg. Since your legs are already partially entangled around their lower body, thread deeper by pushing your inside leg higher behind their knee while your outside leg crosses over their thigh. The opponent's hand-fighting to strip your ankle grip commits their upper body forward and away from their knee, creating the opening for the kneebar. Do not attempt to re-grip the ankle from a compromised position."
@@ -114,7 +114,7 @@ description: "How to execute Straight Ankle Lock Entry in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins driving forward into a stack pass as you initiate the entry - what is your best response?",
+      "name": "They drive into a stack pass as you start the ankle lock entry: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the entry and use their forward pressure to Granby roll back to guard, or redirect their momentum into an X-Guard entry. For the X-Guard option, hook both feet into their hips as they drive. The stack pass negates your inverted base by folding your body, eliminating the hip elevation necessary for the entry, and trying to fight through a committed stack from grasshopper typically results in being flattened and passed."

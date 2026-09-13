@@ -98,7 +98,7 @@ description: "Learn to execute the Lasso Guard Backstep Pass. Complete guide cov
     },
     {
       "@type": "Question",
-      "name": "What role does the non-lasso leg play in defending against the backstep, and how do you neutralize it?",
+      "name": "How does their non-lasso leg defend your backstep pass, and how do you neutralize it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The non-lasso leg can follow your backstep rotation to establish a De La Riva hook, post on your hip to maintain distance, or create butterfly hooks for reguarding. Control it at the knee or ankle with your free hand before initiating the backstep to eliminate these defensive options and clear the rotation path."
@@ -114,7 +114,7 @@ description: "Learn to execute the Lasso Guard Backstep Pass. Complete guide cov
     },
     {
       "@type": "Question",
-      "name": "Your backstep clears the lasso but the opponent immediately shoots their hips to recover guard—what do you do?",
+      "name": "Your backstep clears the lasso but they shoot their hips to reguard: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drop your weight and drive crossface pressure to pin them to the mat. Do not pause or attempt to stand after clearing the arm. The transition from arm clearance to consolidated side control pressure must be seamless—any hesitation gives the opponent time to insert knee shields, reguard, or invert."

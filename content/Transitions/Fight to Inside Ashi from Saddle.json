@@ -278,7 +278,7 @@
         }
       },
       {
-        "question": "Your opponent re-tightens their figure-four as you begin pummeling your knee past their outside leg hook - how do you adjust?",
+        "question": "They re-tighten the figure-four as you pummel your knee past their outside hook — adjust how?",
         "answer": "Stop the pummel immediately and return to the grip fighting phase. Address the re-established figure-four by breaking their foot connection with two-on-one grip fighting at the thumbs. Only resume the leg pummel after you have loosened their configuration again. Attempting to force through a re-tightened figure-four wastes energy and risks heel exposure during the struggle against superior structural control.",
         "answer_line": "Stop, regrip fight at thumbs",
         "distractors": {
@@ -292,7 +292,7 @@
         }
       },
       {
-        "question": "Why should you bridge toward the opponent rather than pulling your trapped leg away during the hip clearing phase?",
+        "question": "Why bridge toward your opponent instead of pulling the trapped leg out when clearing the hips?",
         "answer": "Bridging toward the opponent collapses the perpendicular angle that gives the Saddle its mechanical advantage for heel hooks. Pulling the leg away creates rotational force that loads the heel hook mechanics and can cause immediate knee ligament damage. Moving toward the opponent reduces joint stress while eliminating the space they need for finishing. This counter-intuitive direction is the critical biomechanical insight of the technique.",
         "answer_line": "Bridge in, don't pull leg away",
         "distractors": {
@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "What role does the free leg play throughout the entire transition sequence from Saddle to Inside Ashi?",
+        "question": "What role does your free leg play throughout the Saddle to Inside Ashi transition?",
         "answer": "The free leg serves as your primary defensive frame throughout the entire transition. It posts on the opponent's hip to prevent them from driving deeper into your trapped leg, controls distance to prevent re-tightening of the entanglement, and reduces the opponent's ability to maintain perpendicular alignment. Without effective free leg framing, the opponent can simply re-establish Saddle pressure whenever you attempt to pummel.",
         "answer_line": "Frame on hip, control distance",
         "distractors": {
@@ -320,7 +320,7 @@
         }
       },
       {
-        "question": "You have successfully degraded to Inside Ashi-Garami but feel the opponent immediately attempting to re-enter Saddle - what prevents this?",
+        "question": "You reach Inside Ashi and they try to re-enter Saddle — what stops it?",
         "answer": "Immediately establish Inside Ashi defensive posture by controlling your own knee line and framing on the opponent's hips with both legs. The critical detail is preventing your knee from rotating outward, which would allow the opponent to thread their legs back into the figure-four configuration. Keep your knee pointed toward your centerline and maintain active hip position facing the opponent rather than turning away from them.",
         "answer_line": "Knee in, frame both hips",
         "distractors": {
@@ -334,7 +334,7 @@
         }
       },
       {
-        "question": "During your escape attempt, the opponent begins extending your heel with rotational pressure - what is your immediate response?",
+        "question": "They start extending your heel with rotational pressure mid-escape — immediate response?",
         "answer": "Tap immediately. Once heel hook rotational pressure is applied, the window for safe escape has closed. Continuing to fight the escape while the heel is being rotated risks severe medial collateral ligament and anterior cruciate ligament damage that can end your training career. There is no escape technique that justifies risking permanent knee injury. Reset and attempt the escape sequence again with better timing and heel protection.",
         "answer_line": "Tap immediately",
         "distractors": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "question": "When is the optimal moment to drive the inside leg pummel toward Inside Ashi rather than continuing to defend?",
+        "question": "When exactly should you pummel the inside leg toward Inside Ashi instead of defending?",
         "answer": "Pummel the instant two conditions are true at once: the opponent's finishing grip on your heel is broken and your bridge has collapsed their hip pressure so the perpendicular alignment loosens. That brief window, after the grip-strip and hip-clear but before they re-thread the figure-four, is when your knee can travel past their outside hook against minimal resistance. Move earlier and you pummel against intact control while exposing the heel; wait longer and they re-tighten the Saddle.",
         "answer_line": "Grip broken + hips cleared",
         "distractors": {
@@ -376,7 +376,7 @@
         }
       },
       {
-        "question": "What conditions must still exist for the fight to Inside Ashi to be a viable escape rather than a reason to tap?",
+        "question": "What conditions make fighting to Inside Ashi viable rather than a reason to tap?",
         "answer": "This transition only works in the pre-finish window: your heel must not yet be fully isolated, the opponent cannot have committed rotational extension, you need residual hip mobility, a free leg available to frame, and enough upper-body freedom to grip fight. If the inside heel hook is already locked with rotation engaged, no degradation sequence justifies the knee-ligament risk, so tap. The technique belongs before the Saddle reaches its tightest, fully-isolated configuration.",
         "answer_line": "No rotation, heel not isolated",
         "distractors": {
@@ -390,7 +390,7 @@
         }
       },
       {
-        "question": "Your inside leg pummel is completely stuffed and the figure-four will not loosen - what do you chain to instead of forcing it?",
+        "question": "Your pummel is stuffed and the figure-four won't loosen — what do you chain to?",
         "answer": "Do not muscle a re-tightened figure-four; switch threats so no single counter shuts down your whole escape. Re-strip the grips and re-attempt the bridge-and-pummel, or chain to a different Saddle-bottom option: a Boot Scoot Escape from Saddle to create distance, a counter-entangle to 50-50 Guard to neutralize the heel exposure, or an Ashi Garami Escape if their control has loosened elsewhere. Keeping the opponent reacting to multiple degradation threats is what eventually opens the pummel lane.",
         "answer_line": "Chain: boot scoot or 50-50",
         "distractors": {
@@ -515,7 +515,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is initiating a systematic fight to Inside Ashi rather than a random escape attempt?",
+        "question": "What is the earliest cue that they are running a systematic fight to Inside Ashi?",
         "answer": "The earliest cue is deliberate, controlled movement rather than panicked struggles. Watch for the opponent rotating their knee inward while simultaneously reaching for their own foot to protect the heel, followed by their free leg posting firmly on your hip with structural intent rather than pushing randomly. These sequential movements indicate a trained escape protocol rather than instinctive resistance, requiring a systematic defensive response.",
         "answer_line": "Controlled knee-in + foot reach",
         "distractors": {
@@ -529,7 +529,7 @@
         }
       },
       {
-        "question": "When should you abandon Saddle maintenance and commit to finishing the submission during the opponent's escape attempt?",
+        "question": "When should you abandon Saddle maintenance and commit to the finish during their escape?",
         "answer": "Attack the submission when the opponent's escape movement momentarily exposes their heel, but only if you can maintain your figure-four leg configuration during the attack. If attacking requires loosening your positional control, the risk-reward is poor because a failed submission attempt from a compromised Saddle accelerates their degradation. The ideal moment is when they pummel their knee and briefly straighten their leg, temporarily exposing the heel.",
         "answer_line": "Heel exposed, keep figure-four",
         "distractors": {
@@ -543,7 +543,7 @@
         }
       },
       {
-        "question": "How do you prevent the opponent's free leg framing from generating enough force to clear your hip pressure?",
+        "question": "How do you stop their free-leg frame from clearing your hip pressure in Saddle?",
         "answer": "Use your top leg or free hand to address their framing leg before it establishes a strong structural post on your hip. Pin their free leg against your body, hook behind their knee with your arm, or use your top leg to cross-control their free leg. If the frame is already established, drive your hips forward into their trapped leg to counteract the pushing force rather than trying to remove the frame directly.",
         "answer_line": "Pin or hook their framing leg",
         "distractors": {
@@ -557,7 +557,7 @@
         }
       },
       {
-        "question": "Your opponent has partially degraded your Saddle and you feel your figure-four loosening - what is your recovery sequence?",
+        "question": "Your Saddle figure-four is loosening as they degrade it — what is your recovery sequence?",
         "answer": "Immediately re-engage your outside leg hook behind their knee and drive your inside leg deeper across their hip. Increase hip pressure into their trapped leg to re-establish perpendicular alignment. Only after these structural elements are restored should you address grips on their heel or ankle. If the degradation is too advanced and re-entry to Saddle is unlikely, consider transitioning to an immediate submission attempt from the compromised position or strategically disengaging to top position.",
         "answer_line": "Re-hook, drive hips, then grips",
         "distractors": {

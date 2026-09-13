@@ -258,7 +258,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary mechanical advantage of the pummeling escape compared to direct grip-breaking methods?",
+        "question": "Why does pummeling beat direct grip-breaking as a body lock escape?",
         "answer": "Pummeling inserts structural wedges (your elbows and forearms) between the opponent's arms and your torso, using skeletal frames to mechanically disrupt the lock from the inside. This creates bone-on-bone leverage that is far more sustainable than the muscular effort required to pull apart locked hands from the outside. The wedge effect expands the space between their arms and your body progressively, making the lock increasingly difficult to maintain regardless of the opponent's grip strength.",
         "answer_line": "Elbow wedge beats muscle grip",
         "distractors": {
@@ -286,7 +286,7 @@
         }
       },
       {
-        "question": "Your opponent re-locks their grip immediately after your first pummel entry - how do you adjust your approach?",
+        "question": "They re-lock right after your first pummel entry — how do you adjust?",
         "answer": "Never pause between pummel entries. The first pummel must flow directly into the second as a continuous two-beat motion. If the opponent is consistently re-locking after your first entry, you are likely pausing too long between pummels. Increase the speed of your second arm's entry by pre-loading the opposite hip rotation during your first pummel. Alternatively, switch to the single-arm-pummel-to-whizzer variant, using one underhook plus one overhook to disrupt the lock without requiring a second pummel.",
         "answer_line": "Flow second pummel, no pause",
         "distractors": {
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "In which directions do you drive your arms and hips at the moment of breaking the lock, and why both at once?",
+        "question": "Breaking the body lock, which way do your elbows and hips go, and why both at once?",
         "answer": "Drive both elbows outward laterally away from your centerline to pry the opponent's hands apart, while simultaneously stepping your hips straight backward to retract your torso out of their grip. The outward elbow drive defeats the grip connection itself; the backward hip step removes the surface the grip was clamped around. Performing only one fails: outward elbows alone and the opponent shuffles forward to re-seal the gap, while hips back alone simply drags their still-locked hands along with you. The two opposing force vectors applied together make the locked grip geometrically impossible to retain.",
         "answer_line": "Elbows out + hips back together",
         "distractors": {
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "Both pummel entries are stonewalled by an extremely tight grip - what do you chain into instead of forcing a second underhook?",
+        "question": "Both pummels are stonewalled by a tight body lock — what do you chain into instead?",
         "answer": "Stop racing for double unders and commit to the single-arm-pummel-to-whizzer chain: keep the one underhook you won, throw a hard overhook (whizzer) on the opposite side, and use that asymmetric inside-outside frame to peel apart the chest-to-back seal. If even the first underhook is denied, chain into a drop-level entry - sharply lower your level so their arms ride up to a higher, weaker point on your torso, then re-attack the pummel through the fresh space that opens at your waist. The governing principle is to keep flowing between entries rather than stalling and arm-wrestling a single contested pummel.",
         "answer_line": "Whizzer chain, keep flowing",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "Why should you treat pummeling attempts as triggers for your own offensive transitions rather than purely defensive reactions?",
+        "question": "Why treat their pummeling attempts as triggers for your own attacks from body lock top?",
         "answer": "The body lock is an inherently transitional position that degrades over time as the opponent continues making escape attempts. Each pummel weakens your grip incrementally, and purely defensive re-locking will eventually fail against a persistent opponent. By using pummeling attempts as triggers for throws, mat returns, or back take transitions, you convert the opponent's escape energy into offensive opportunities. Their movement and weight shifts during pummeling often create ideal conditions for your attacks.",
         "answer_line": "Turn their escape into offense",
         "distractors": {
@@ -526,7 +526,7 @@
         }
       },
       {
-        "question": "How do you maintain body lock control when the opponent successfully threads one arm inside your grip?",
+        "question": "They pummel one arm inside your body lock — how do you keep control?",
         "answer": "When one arm gets inside, you have a narrow window to prevent the second. Immediately transition your grip lower on their torso where the underhook has not yet reached, maintaining the lock below their inserted arm. Simultaneously drive maximum forward hip pressure to keep them loaded and prevent them from establishing base for the second pummel. If re-locking below is not possible, immediately transition to back control by using the space created by their escape movement to insert your hooks while maintaining whatever grip connection remains.",
         "answer_line": "Re-lock lower, drive pressure",
         "distractors": {

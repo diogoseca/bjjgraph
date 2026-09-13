@@ -72,7 +72,7 @@ description: "Learn to defend and counter the reverse mount to standard mount ro
     },
     {
       "@type": "Question",
-      "name": "If you successfully insert a knee shield during the rotation, what should your immediate follow-up be?",
+      "name": "You insert a knee shield during their reverse mount rotation. What is your immediate follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately fight for the underhook on the trapped leg side to establish offensive half guard rather than defensive half guard. The attacker will attempt to flatten you with crossface pressure, so establishing the underhook quickly converts the position from a survival situation into an offensive platform. Begin threatening sweeps and back takes immediately to prevent them from re-establishing a passing campaign from top half guard."
@@ -88,7 +88,7 @@ description: "Learn to defend and counter the reverse mount to standard mount ro
     },
     {
       "@type": "Question",
-      "name": "Your frame attempt fails and the attacker successfully completes the rotation to standard mount—what is your immediate priority?",
+      "name": "Your frame fails and they complete the rotation to mount. What is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish defensive frames before the attacker settles their weight and consolidates control. Get your elbows connected to your knees, maintain a slight angle rather than lying flat, and protect your neck from choke entries. Begin the standard mount escape hierarchy: prevent advancement to high mount, create incremental space through hip escapes, and work toward knee insertion for half guard recovery. The key is not to freeze after the failed defense but to immediately transition to mount escape protocol."

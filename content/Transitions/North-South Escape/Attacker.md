@@ -76,7 +76,7 @@ description: "How to execute North-South Escape in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Why is it important to turn away from the opponent's head during the north-south escape rather than toward it?",
+      "name": "Escaping north-south, why turn away from their head rather than toward it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning away from the opponent's head (toward their legs) creates better angles for inserting your knee shield and prevents them from easily transitioning to stronger control positions like mount or gift wrap. Turning toward their head plays into their strongest control points and makes the escape significantly more difficult while exposing you to additional attacks."
@@ -84,7 +84,7 @@ description: "How to execute North-South Escape in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What role does timing play in the success of the north-south escape, and what should you be looking for?",
+      "name": "Escaping north-south, what timing should you look for to launch the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Timing is critical because executing the escape when the opponent adjusts their weight or changes grips provides windows of reduced pressure and control. You should look for moments when they shift their weight, attempt submissions, or make positional adjustments. These moments create brief opportunities where their control is compromised, making your escape attempts significantly more effective than forcing escapes against static, settled pressure."
@@ -100,7 +100,7 @@ description: "How to execute North-South Escape in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What should you do if your initial escape attempt fails and the opponent maintains north-south control?",
+      "name": "Your first north-south escape attempt fails and they keep control — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the initial attempt fails, you should reset your frames, conserve energy, and wait for the opponent's next weight adjustment or positional change before attempting again. Escape is often a multi-attempt process requiring patience and proper timing. Continuously forcing failed attempts wastes energy and may create submission opportunities for your opponent. Maintain defensive awareness, protect your neck, and wait for better timing on subsequent attempts."

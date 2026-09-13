@@ -112,7 +112,7 @@ description: "Learn to execute the backstep from deep half guard as the top play
     },
     {
       "@type": "Question",
-      "name": "What grip must be maintained throughout the backstep to prevent the bottom player from following your rotation?",
+      "name": "Backstepping from deep half top, which grip stops the bottom player from following your rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface grip is the essential control that must be maintained throughout the backstep. Your shoulder or forearm driven across the bottom player's jaw pins their head to the mat and prevents them from turning to track your movement. Without this anchor, the bottom player can hip-escape in the same direction as your rotation and reguard before you can establish back control. The crossface is your primary tool for controlling their ability to react."
@@ -427,6 +427,14 @@ The backstep involves significant rotational forces on both players' knees durin
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Lucas-Lepri-Half-Guard-Passing-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri Half Guard Passing System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Related base-switching problem</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

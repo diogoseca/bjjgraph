@@ -114,7 +114,7 @@ description: "How to execute Single Leg to Back Take in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Where should your hips be positioned relative to the opponent's hips once you have secured back control?",
+      "name": "After the back take off the single leg, where should your hips be relative to theirs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips should be low and close to the opponent's hips, not elevated high on their upper back. This low hip position makes it difficult for them to sit back on you or roll backwards. Your weight should be distributed along their entire spine with your hips slightly behind theirs, creating a stable base that resists their defensive movements in any direction."
@@ -433,7 +433,8 @@ When practicing the Single Leg to Back Take, controlled application is essential
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Standing entry when opponent defends single leg takedown</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Back-Attack-System" data-cta="related-system-card" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Back Attack System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Standing entry when opponent defends single leg takedown</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Jimmy-Sheptock-Single-Leg-System" data-cta="related-system-card" data-system-slug="systems/jimmy-sheptock-single-leg-system" data-system-name="Jimmy Sheptock Single Leg System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Jimmy Sheptock Single Leg System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Related continuation when the defender turns</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

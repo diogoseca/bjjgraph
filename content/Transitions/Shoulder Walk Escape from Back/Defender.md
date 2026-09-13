@@ -56,7 +56,7 @@ description: "Counter the shoulder walk escape from back control in BJJ. Learn t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that indicates an opponent is attempting a shoulder walk escape?",
+      "name": "What is the earliest cue that your opponent is starting a shoulder walk escape from back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the alternating shoulder blade pressure against your chest, creating a rhythmic rocking sensation as the opponent drives off each shoulder in sequence. This distinctive oscillating pattern differs from the sudden explosive movement of a hip escape or the rotational torque of a turning escape. Recognizing this pattern within the first two to three shoulder drives allows you to begin counter-measures before any meaningful displacement accumulates."
@@ -64,7 +64,7 @@ description: "Counter the shoulder walk escape from back control in BJJ. Learn t
     },
     {
       "@type": "Question",
-      "name": "Why is following with your hips a more effective counter to shoulder walk than squeezing harder with your arms?",
+      "name": "Why does following with your hips beat squeezing harder against the shoulder walk?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip following addresses the root mechanical problem by maintaining hook depth through positional matching, which is a structural solution that does not fatigue. Arm squeezing is a muscular solution that exhausts grip strength over the fifteen to twenty repetitions the shoulder walk requires. The opponent's shoulder drives use large back muscles that sustain effort longer than your forearm grips, so a grip-based defense inevitably loses the endurance battle while hip following can be maintained indefinitely."
@@ -72,7 +72,7 @@ description: "Counter the shoulder walk escape from back control in BJJ. Learn t
     },
     {
       "@type": "Question",
-      "name": "When should you make the decision to transition from hooks to body triangle during a shoulder walk escape attempt?",
+      "name": "When should you switch from hooks to body triangle against a shoulder walk escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Make the body triangle decision early when you first feel hooks becoming difficult to maintain despite your counter-adjustments, not as a last resort when hooks are nearly cleared. The body triangle transition is mechanically easier and more secure from moderately shallow hooks because you still have enough leg control to complete the threading movement. Waiting until hooks are almost cleared creates a high-risk transition window where the opponent may clear hooks entirely before the body triangle locks."
@@ -80,7 +80,7 @@ description: "Counter the shoulder walk escape from back control in BJJ. Learn t
     },
     {
       "@type": "Question",
-      "name": "Your opponent has been shoulder walking for several repetitions and you notice their seatbelt control hand is divided between grip stripping and movement. How do you exploit this?",
+      "name": "They shoulder walk, hand split between stripping your seat belt and moving—how do you exploit it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This divided attention creates a momentary reduction in neck protection quality since the opponent is multitasking between escape movement and grip fighting. Initiate a committed neck attack during this window, targeting the choking arm insertion when their defensive hand is occupied with the seatbelt strip. This forces them to abandon either the seatbelt control or the shoulder walk to re-prioritize neck defense, effectively resetting their escape progress while you maintain positional dominance."

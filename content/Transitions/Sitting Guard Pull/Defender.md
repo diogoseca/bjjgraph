@@ -56,7 +56,7 @@ description: "How to defend against Sitting Guard Pull in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most dangerous moment for the person pulling sitting guard, and how should you exploit it?",
+      "name": "Passing: when is the guard puller most vulnerable, and how do you exploit it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most dangerous moment is during the descent phase, specifically the 1-2 seconds when the opponent's glutes are landing on the mat and their feet have not yet established guard frames or hooks. During this window, their base is compromised and their guard is not yet functional. Exploit it by either driving forward immediately with pressure and underhooks, or by grabbing both legs and initiating a toreando or leg drag pass before they can place feet on your body. Hesitation eliminates this window entirely."
@@ -64,7 +64,7 @@ description: "How to defend against Sitting Guard Pull in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a strong collar grip and begins sitting - you cannot break the grip in time. What is your best response?",
+      "name": "They have a strong collar grip and sit before you can break it: best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you cannot break the grip before they sit, use their collar grip connection to your advantage by driving forward with strong chest pressure as they descend. Their own grip pulls you toward them, and if you time your forward drive with their sitting motion, you can achieve chest-to-chest contact before their feet become active. Alternatively, circle hard to the side opposite their collar grip where their control is weakest, and attack the angle with a leg drag or toreando before they can adjust their guard to your new position."
@@ -80,7 +80,7 @@ description: "How to defend against Sitting Guard Pull in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "After your opponent successfully establishes seated guard with grips, what is your passing priority sequence?",
+      "name": "They establish seated guard with grips: what is your passing priority sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, establish your own dominant grips on their collar, sleeves, or pants to limit their offensive options. Second, control at least one of their legs to reduce their mobility and sweep threat. Third, create an angle by circling to one side rather than standing directly in front where their legs have maximum leverage. Fourth, initiate your passing sequence from the angle - toreando, leg drag, or knee slice depending on their guard configuration. The key principle is grips before pressure, angle before advancement."

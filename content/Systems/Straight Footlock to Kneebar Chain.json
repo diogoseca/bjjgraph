@@ -499,5 +499,20 @@
         ]
       }
     }
+  ],
+  "products": [
+    {
+      "id": "systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones",
+      "title": "Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos",
+      "instructor": "Craig Jones",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Includes straight-ankle-lock and kneebar lessons within a broader triangle-and-leg course.",
+      "best_for": "Students who want both submissions in one instructional; the listed chapters do not establish that every footlock-to-kneebar sequence on this page is taught.",
+      "study_focus": "Start with the straight-lock material in volume two before studying the wider combinations.",
+      "practice_tip": "BJJGraph suggestion: pause after a defensive reaction, name the available control position, then reset if neither branch is secure. Agree allowed leg attacks beforehand."
+    }
   ]
 }

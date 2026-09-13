@@ -72,7 +72,7 @@ description: "Defend against the Technical Mount to Half Guard escape in BJJ. Le
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully inserts a knee between your bodies during the escape—what is your best immediate response?",
+      "name": "They get a knee between your bodies from technical mount: what is your best immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have a brief window before they establish full half guard hooks. First option: drive your hip through their knee shield aggressively to clear the knee and re-establish mount before they lock their legs. Second option: if the knee is too well-established to clear, immediately transition to half guard top with strong crossface and underhook, accepting the position change but maintaining top control. The worst response is sitting in a compromised position between technical mount and half guard—commit to either clearing the knee or establishing dominant half guard top."
@@ -80,7 +80,7 @@ description: "Defend against the Technical Mount to Half Guard escape in BJJ. Le
     },
     {
       "@type": "Question",
-      "name": "When should you transition from maintaining technical mount to taking the back during an escape attempt?",
+      "name": "During their escape, when should you leave technical mount to take the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to back control when the bottom player has created enough lateral distance that re-flattening them requires significant energy expenditure, and they are turning to their side during the hip escape. The key indicator is when their far shoulder lifts off the mat—this rotation creates the pathway to their back. Release arm control, establish seat belt grip immediately, and follow their rotation. The decision must be made quickly—hesitating leaves you in no-man's land where you lose both technical mount control and the back take opportunity."
@@ -88,7 +88,7 @@ description: "Defend against the Technical Mount to Half Guard escape in BJJ. Le
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining offensive pressure critical for preventing the escape, even when you feel secure in technical mount?",
+      "name": "Why keep offensive pressure in technical mount even when the position feels secure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Constant submission threat forces the bottom player to allocate their attention and arm positioning toward defense rather than escape. If you sit passively in technical mount, the bottom player can focus entirely on timing their hip escape and knee insertion without worrying about immediate submission danger. The armbar threat specifically keeps their threatened arm occupied with protection, which means they have fewer limbs available for framing and escape movement. Active offensive pressure creates a defensive tax that makes escape execution significantly more difficult."

@@ -78,7 +78,7 @@ description: "Learn to attack with the calf slicer from Honey Hole. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent hides their heel deep behind their body to defend your heel hook - how do you transition to the calf slicer?",
+      "name": "From honey hole, they hide the heel — how do you transition to the calf slicer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release the heel hook grip and immediately thread your near-side arm under their ankle from the outside, cupping the ball of their foot. Their heel-hiding posture actually positions their foot perfectly for the calf slicer fold because their knee is already partially bent. Pull the foot toward their buttock while maintaining your triangle tightness, then drive your hips forward to engage the compression. The key is making this transition in one fluid motion so they cannot straighten their leg during the grip change."

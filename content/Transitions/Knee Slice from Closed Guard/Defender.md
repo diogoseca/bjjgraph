@@ -56,7 +56,7 @@ description: "Learn to defend and counter the knee slice pass from closed guard 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is attempting a knee slice from closed guard?",
+      "name": "From closed guard bottom, what is the earliest cue they are setting up a knee slice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include the opponent posturing up strongly with hands driving on your hips, their weight shifting to one side as they angle the lead knee toward your thigh line, and their shoulder beginning to drive toward your jaw for crossface establishment. You may also feel them pinning your near-side knee downward after breaking your ankle lock and their posting foot repositioning behind them to generate forward driving force."

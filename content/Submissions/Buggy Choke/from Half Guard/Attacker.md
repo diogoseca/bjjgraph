@@ -94,7 +94,7 @@ description: "How to execute Buggy Choke in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "What should you do if your opponent successfully defends the Buggy Choke by freeing their trapped arm?",
+      "name": "Your buggy choke fails because they free the trapped arm — what do you do next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your positional control and immediately transition to alternative attacks rather than losing the position entirely. Common transitions include the electric chair sweep/submission, old school sweep, deep half guard, or taking the back if they overcommit to escaping. The key is to stay offensive and use their defensive movement to set up the next attack."

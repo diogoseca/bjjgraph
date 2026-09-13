@@ -56,7 +56,7 @@ description: "Defend against the Spider to Lasso Guard transition in BJJ. Learn 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the bottom player is attempting to transition from Spider Guard to Lasso Guard?",
+      "name": "What are the earliest cues that they're switching from spider guard to lasso?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player releasing foot pressure on one of your biceps while maintaining or tightening their sleeve grip on that same arm. You will feel a sudden reduction in pushing force against your arm accompanied by their foot beginning to circle downward rather than maintaining contact with your bicep. The sleeve grip often tightens just before the transition begins, as they prepare to guide your arm into position for the lasso threading."
@@ -64,7 +64,7 @@ description: "Defend against the Spider to Lasso Guard transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "What is the most critical defensive priority when you recognize the lasso transition is being attempted?",
+      "name": "What is your top priority once you recognize the lasso transition starting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your most critical priority is either stripping the sleeve grip on the targeted arm or withdrawing your arm completely before the shin threads across your tricep. Once the lasso is fully established, you face a significantly more difficult guard passing scenario. The brief moment when their foot leaves your bicep is your best opportunity to act, as their control is temporarily reduced. Pull your arm toward your body while pushing their leg away, or step back sharply to create distance that prevents completion."
@@ -72,7 +72,7 @@ description: "Defend against the Spider to Lasso Guard transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when defending against the Spider to Lasso transition?",
+      "name": "How should you shift your weight to defend the spider to lasso transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift your weight slightly toward the side being attacked to make it harder for the bottom player to manipulate your arm into position. Dropping your elbow toward your hip on the threatened side closes the space beneath your arm that they need to thread their leg through. Simultaneously drive your hips forward slightly to compress the distance, preventing them from generating the circular motion needed for threading. Avoid leaning away from the lasso side, as this extends your arm and creates more space for the threading."

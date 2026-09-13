@@ -100,7 +100,7 @@ description: "Learn to execute the belly down armbar finish from knee on belly. 
     },
     {
       "@type": "Question",
-      "name": "At what point during the belly down armbar sequence does the opponent lose the ability to effectively escape?",
+      "name": "During the belly down armbar from knee on belly, when can they no longer escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical point of no escape is when the belly-down rotation is completed with knees pinched tight around the upper arm and hips positioned over the back of the elbow. Before this point, the opponent can attempt arm retraction, bridging, or guard recovery. After the rotation is complete, the combination of gravity, bilateral knee compression, and hip position makes arm extraction nearly impossible without risking joint damage."
@@ -116,7 +116,7 @@ description: "Learn to execute the belly down armbar finish from knee on belly. 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip if the opponent begins rotating their wrist to escape during the finish?",
+      "name": "How do you adjust your grip if they rotate their wrist during the belly down armbar finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain control by cupping the wrist deeply with overlapping grips and squeezing your elbows together to eliminate rotation space. If the opponent rotates their thumb away from your chest, adjust your hip position to maintain the hyperextension angle by shifting slightly toward their shoulder. The key is keeping the wrist trapped between both hands while the elbow remains locked against your hip line. Never chase their grip — reposition your hips to maintain alignment."

@@ -72,7 +72,7 @@ description: "How to defend against Frame and Turn escape in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun turning their hips toward you and you cannot stop the rotation - what is the best response?",
+      "name": "Holding twister control, their hips are turning in and you can't stop it — best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the turn and transition to back control by maintaining chest-to-back connection throughout their rotation. As they arrive in Turtle position, immediately work to insert hooks and establish seatbelt control. This is an acceptable positional trade because back control remains an offensive dominant position, and attempting to fight the committed turn often results in losing all control entirely."
@@ -80,7 +80,7 @@ description: "How to defend against Frame and Turn escape in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your pressure when the bottom player's breathing becomes controlled and deliberate?",
+      "name": "Holding twister control, their breathing turns calm and deliberate — how do you adjust pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlled breathing signals that the bottom player has shifted from panic to systematic escape execution, which means they are more dangerous. Increase your offensive pressure by hunting submissions more aggressively to force them back into reactive defense. Alternate between Twister finish threats, guillotine setups, and calf slicer entries to prevent them from settling into a calm, methodical escape rhythm."

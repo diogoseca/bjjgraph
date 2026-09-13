@@ -56,7 +56,7 @@ description: "Defend against the Standing Escape from Reverse X-Guard as the bot
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent begins driving hips forward and widening their base - what does this indicate and how should you respond?",
+      "name": "From reverse X, they drive hips forward and widen their base. What does it signal and your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This indicates the beginning of a standing escape attempt. Immediately increase your hip elevation by extending both hooks simultaneously while pulling strongly on your controlling grip. The forward pressure is their counter to your elevation, so you must match or exceed their force. Simultaneously consider transitioning to a sweep attempt while they are mid-adjustment, as their weight shift creates directional vulnerability perpendicular to their driving direction."
@@ -80,7 +80,7 @@ description: "Defend against the Standing Escape from Reverse X-Guard as the bot
     },
     {
       "@type": "Question",
-      "name": "How do you time a sweep counter against someone attempting to stand up and escape your Reverse X-Guard?",
+      "name": "How do you time a sweep against someone standing to escape your reverse X-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Time the sweep during the extraction phase when the top player shifts weight to their free leg to pull the entangled leg backward. This weight transfer creates a momentary single-leg base that is highly vulnerable to directional sweeps perpendicular to their standing leg. Pull on your controlling grip in the direction opposite their free leg while extending both hooks for maximum lifting pressure. The transition from two-leg to one-leg support is the most vulnerable moment and represents the optimal sweep timing window."

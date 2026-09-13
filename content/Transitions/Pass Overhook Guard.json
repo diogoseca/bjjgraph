@@ -263,7 +263,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary risk of attempting to rip your arm free from a deep overhook using explosive force?",
+        "question": "What is the main risk of explosively ripping your arm out of a deep overhook guard?",
         "answer": "Explosive arm extraction wastes significant energy and creates momentum that the guard player can redirect into sweeps or back takes. The pulling motion also momentarily compromises your base, making you vulnerable to hip bump sweeps. Instead, use methodical circular wrist extraction or bypass the strip entirely with a shoulder pressure pass that uses the overhook connection against the guard player.",
         "answer_line": "Wastes energy, invites sweep",
         "distractors": {
@@ -277,7 +277,7 @@
         }
       },
       {
-        "question": "Your opponent has a deep overhook and keeps breaking your posture every time you try to strip the grip - how do you adjust your approach?",
+        "question": "Deep overhook keeps breaking your posture when you strip it: how do you adjust the pass?",
         "answer": "Switch from stripping the overhook to using the shoulder pressure smash variation. Drive your weight forward through the overhooked arm into the opponent's chest, using their grip to keep them connected to you. The deep overhook actually assists this approach because the opponent cannot release without giving you your arm back. Flatten them with shoulder pressure and advance your hips while they remain anchored to your arm.",
         "answer_line": "Switch to shoulder pressure pass",
         "distractors": {
@@ -319,7 +319,7 @@
         }
       },
       {
-        "question": "How does the direction of force differ between stripping the overhook grip versus using the pressure pass variation?",
+        "question": "Passing overhook guard, how does force direction differ between stripping and pressure passing?",
         "answer": "When stripping the grip, force is directed away from the opponent as you extract your arm through circular wrist motions and posture. When using the pressure pass, force is directed into the opponent through your shoulder and chest, driving weight forward through the overhooked arm. The strip approach creates separation while the pressure approach eliminates separation. The correct choice depends on the depth of the overhook and the opponent's guard structure.",
         "answer_line": "Strip pulls away, press drives in",
         "distractors": {
@@ -361,7 +361,7 @@
         }
       },
       {
-        "question": "Your opponent begins recovering closed guard by attempting to lock their ankles as you advance the pass - how do you prevent this?",
+        "question": "Passing overhook guard, how do you stop them from locking closed guard again?",
         "answer": "Keep your hips forward and heavy against their hips throughout the pass, eliminating the space they need to close their ankles behind your back. If you feel their legs beginning to climb, immediately drive your hips even lower and wider, sprawling one leg back if necessary. Use your near elbow to pin their top knee down as you advance. Prevention is far easier than breaking a closed guard after it locks, so prioritize hip pressure over arm position when you feel ankle closure beginning.",
         "answer_line": "Keep hips heavy, no gap to close",
         "distractors": {
@@ -527,7 +527,7 @@
         }
       },
       {
-        "question": "How should you transition defensively if your overhook is completely stripped and the opponent has shoulder pressure established?",
+        "question": "Your overhook is stripped and they have shoulder pressure: how do you transition defensively?",
         "answer": "Immediately create frames with both forearms against their shoulder and hip to prevent further advancement. Hip escape to create space and work to insert a knee shield or recover half guard. If frames fail, focus on preventing the crossface by turning your head toward them and fighting for an underhook on the near side. The priority shifts from guard retention to damage control. Accepting half guard is better than being flattened in side control.",
         "answer_line": "Frame, hip escape, save half guard",
         "distractors": {

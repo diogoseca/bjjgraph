@@ -56,7 +56,7 @@ description: "Defend against the Matrix follow-through back take. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary tactile cue that distinguishes a follow-through counter from a standard sprawl defense?",
+      "name": "Which tactile cue tells you they are following your Matrix roll instead of sprawling?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In a sprawl defense, you feel the opponent's weight pushing downward and backward against your rotation, creating resistance that your momentum must overcome. In a follow-through counter, you feel the opponent's chest staying connected and their weight moving with your rotation in the same direction. The absence of resistance is the key indicator: the opponent feels light and connected rather than heavy and opposing. This distinction must be recognized within the first quarter of the rotation."
@@ -64,7 +64,7 @@ description: "Defend against the Matrix follow-through back take. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why is aborting the Matrix and accepting a reset position preferable to completing it against a following opponent?",
+      "name": "Why abort your Matrix and reset rather than complete it against an opponent who follows?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Completing the Matrix against a following opponent almost guarantees they arrive at your back with hooks and seatbelt because your own rotation delivers them there. Aborting returns you to a neutral starting position where you can reattempt with better timing or switch to alternative attacks. The risk-reward calculation heavily favors the abort: reset costs you nothing but time and energy, while completing against a follower costs you a four-point position and immediate submission danger."
@@ -72,7 +72,7 @@ description: "Defend against the Matrix follow-through back take. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent follows your Matrix rotation and you feel them arriving at your back mid-roll - what is your immediate priority?",
+      "name": "Your opponent rides your Matrix rotation toward your back mid-roll: what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing hook insertion by pinching your elbows tight to your body and drawing your knees toward your chest. This defensive posture creates barriers to both hook entry and seatbelt establishment. Simultaneously, redirect any remaining rotational momentum toward pulling your knees through to establish guard rather than continuing the back take path. Accepting half guard is far preferable to conceding full back control with hooks."

@@ -112,7 +112,7 @@ description: "Master the bridge defense escape from mounted triangle. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent absorbs your bridge by posting wide on the bridge side - what is your immediate follow-up?",
+      "name": "They absorb your bridge by posting wide on the bridge side - what's your immediate follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately chain into a hip escape on the opposite side. When the opponent posts wide to absorb your bridge, their weight commits to that posting leg, opening space on the other side of their body. Use this asymmetry by hip escaping away from their committed post. This bridge-to-shrimp chain is more effective than repeating the bridge because the opponent's base adjustment for the bridge creates the vulnerability for the hip escape."

@@ -92,7 +92,7 @@ description: "How to execute Kimura on Trapped Arm in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins straightening their trapped arm as you transition to Kimura grip - how do you adjust?",
+      "name": "Gift wrap Kimura: they straighten the trapped arm as you grip—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the arm straightens before you secure the Kimura, immediately switch to an armbar attack on the now-extended limb. The extended arm presents a better armbar opportunity than Kimura. Alternatively, abandon the submission attempt and quickly re-establish Gift Wrap control to trap the arm again before reattempting. The key is recognizing the straightening early and committing to the alternative rather than fighting a losing grip battle."
@@ -421,7 +421,7 @@ The Kimura places significant rotational stress on the shoulder joint's glenohum
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Arm attack targeting immobilized limbs during back control and turtle-to-back transitions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Arm attack targeting immobilized limbs during back control and turtle-to-back transitions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

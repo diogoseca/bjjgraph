@@ -56,7 +56,7 @@ description: "Learn to defend your Mission Control against the top player's post
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary defensive response when the top player strips your head control grip during Mission Control?",
+      "name": "In Mission Control, the top player strips your head control grip — what is your primary response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-grip with the opposite hand to maintain head control, or flow directly into a New York transition by redirecting the trapped arm into deeper isolation. Do not freeze or attempt to re-establish the exact same grip—the top player is already moving to the next phase of their escape. The speed of your response determines whether Mission Control is maintained, advanced to New York, or lost entirely. Pre-planning this response before the grip strip occurs is essential."
@@ -72,7 +72,7 @@ description: "Learn to defend your Mission Control against the top player's post
     },
     {
       "@type": "Question",
-      "name": "When the top player drives posture upward, how can you use their momentum against them for a submission attempt?",
+      "name": "From Mission Control, how do you use the top player's upward posture drive for a submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The top player's upward posture drive creates the exact space and angle needed for a triangle entry—their upward extension helps get your leg across their face rather than hindering it. Time the leg crossover to coincide with the peak of their upward drive, when they have committed their weight backward and cannot quickly change direction to stack. Alternatively, if they drive backward aggressively, their trapped arm rotation creates the angle for an omoplata entry, converting their escape momentum into your submission opportunity."
@@ -80,7 +80,7 @@ description: "Learn to defend your Mission Control against the top player's post
     },
     {
       "@type": "Question",
-      "name": "Why is transitioning to New York or another rubber guard control preferred over fighting to maintain static Mission Control when control is compromised?",
+      "name": "Why transition to New York rather than hold static Mission Control once control is compromised?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Static defense against a committed posture break is a losing strategy because grip endurance and hip elevation sustainability are finite resources. Transitioning to New York, Zombie, or submission entries uses the top player's escape energy against them, creating new threats from their own movements rather than trying to resist those movements directly. The transition also resets the control dynamic in your favor—the top player has rehearsed their posture break against Mission Control, but now must deal with a completely different control structure they may not have prepared for."
@@ -88,7 +88,7 @@ description: "Learn to defend your Mission Control against the top player's post
     },
     {
       "@type": "Question",
-      "name": "What role does the trapped arm position play in your overall defensive strategy against the posture break?",
+      "name": "What role does the trapped arm play in defending Mission Control against the posture break?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trapped arm is the anchor of the entire defensive system. While head control enforces posture, the trapped arm's position inside the high guard leg is what creates shoulder isolation and enables submissions. If the arm is extracted, Mission Control functionally ends regardless of head control status. Monitoring and maintaining the arm's trapped position gives you constant counter-attack options—omoplata, New York transition, and triangle entries all depend on the arm remaining isolated. Losing the arm means losing the position entirely."

@@ -326,7 +326,7 @@
         }
       },
       {
-        "question": "What indicates that you should transition to a different attack rather than continuing the ankle lock attempt?",
+        "question": "What tells you to abandon the ankle lock and switch attacks from ushiro ashi-garami?",
         "answer": "Transition when your grip is stripped, their hip rotation compromises your leg control, or about five seconds pass without an imminent finish. Specifically: the opponent has stripped your grip and their hands now defend the ankle, their hip rotation has progressed far enough to compromise your leg control, more than 5 seconds have passed without the submission being imminent, or their defensive position exposes a higher-percentage attack like the heel hook.",
         "distractors": {
           "plausible": [
@@ -473,7 +473,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first thing you should do when you recognize the attacker is transitioning from positional control to an ankle lock finish attempt?",
+        "question": "What's your first action when they shift from control to an ankle lock finish attempt?",
         "answer": "Immediately use both hands to control the attacker's wrist that is moving toward your Achilles tendon, preventing them from establishing the forearm-to-Achilles contact that enables the finish. Stopping grip establishment is far more energy-efficient and effective than trying to strip a secured grip or resist breaking pressure once it has been applied.",
         "answer_line": "Control their wrist immediately",
         "distractors": {

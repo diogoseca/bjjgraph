@@ -263,7 +263,7 @@
         }
       },
       {
-        "question": "What grip configuration provides the strongest anchor for preventing opponent disengagement during the entry?",
+        "question": "Which grips best anchor the shin-to-shin to single leg X entry against disengagement?",
         "answer": "A same-side sleeve grip combined with a cross-collar or far-side lapel grip creates the strongest pulling anchor. The sleeve grip prevents the opponent from posting their hand to resist the weight loading, while the collar grip breaks their posture forward and commits their weight over the trapped leg. In no-gi, wrist control and collar tie serve the same function.",
         "answer_line": "Same sleeve + cross-collar grip",
         "distractors": {
@@ -277,7 +277,7 @@
         }
       },
       {
-        "question": "Your opponent begins stepping their trapped leg backward as you initiate the thread—how do you adjust?",
+        "question": "They step the trapped leg back as you thread for single leg X — how do you adjust?",
         "answer": "If they begin retreating during the early threading phase, you can either follow with your hips to maintain connection range, or abandon the SLX entry and redirect to a pulling sweep that uses their backward momentum against them. If your inside leg has already begun wrapping, accelerate the thread and grip their ankle directly to prevent full retraction.",
         "answer_line": "Follow hips or pivot to sweep",
         "distractors": {
@@ -291,7 +291,7 @@
         }
       },
       {
-        "question": "What is the critical mechanical detail that distinguishes a secure inside leg wrap from one the opponent can easily escape?",
+        "question": "What detail makes the single leg X inside leg wrap secure rather than easily escaped?",
         "answer": "The depth of the wrap around the ankle is the critical factor. Your instep must hook behind their Achilles tendon with the wrap continuing above the ankle joint, not just resting loosely across the front of their shin. This deep hook creates a mechanical lock that requires the opponent to address the wrap specifically rather than simply pulling their leg free.",
         "answer_line": "Hook instep behind the Achilles",
         "distractors": {
@@ -305,7 +305,7 @@
         }
       },
       {
-        "question": "Which direction should your force be applied through the shin connection to optimally load the opponent's weight for entry?",
+        "question": "Which force direction through the shin connection best loads their weight for the SLX entry?",
         "answer": "Apply force diagonally upward and slightly toward the opponent's far side through the shin connection. This direction both elevates their leg slightly—making retraction harder—and shifts their weight laterally over the trapped leg. Pure forward pressure is less effective because it allows backsteps, while lateral loading commits their balance to a point they cannot easily recover from.",
         "answer_line": "Diagonal up toward their far side",
         "distractors": {
@@ -319,7 +319,7 @@
         }
       },
       {
-        "question": "Your first SLX entry attempt is blocked by the opponent clearing your shin—what immediate chain attack should you pursue?",
+        "question": "Your SLX entry is blocked when they clear your shin — what chain attack follows immediately?",
         "answer": "When the shin is cleared, the opponent often creates space by stepping back or circling. This movement frequently exposes opportunities for a collar drag to take them off-balance, a direct transition to De La Riva guard on the clearing leg, or a technical stand-up to single leg. The key is having a predetermined secondary attack so the failed entry flows immediately into the next threat.",
         "answer_line": "Collar drag or switch to DLR",
         "distractors": {
@@ -333,7 +333,7 @@
         }
       },
       {
-        "question": "How does the inside leg threading path differ when the opponent is in a wide stance versus a narrow stance?",
+        "question": "How does the SLX threading path differ against a wide stance versus a narrow stance?",
         "answer": "Against a wide stance, the threading path has more clearance but requires greater hip travel to get underneath the opponent's center of gravity. Thread on a wider arc and prioritize scooting your hips further forward. Against a narrow stance, the threading distance is shorter but the path is tighter—use a more direct, compact threading motion and focus on depth of the ankle wrap rather than distance traveled.",
         "answer_line": "Wide stance: wider arc, more hip",
         "distractors": {
@@ -475,7 +475,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest recognition cues that indicate your opponent is setting up a Shin-to-Shin to Single Leg X entry?",
+        "question": "What are the earliest cues your opponent is setting up shin-to-shin to single leg X?",
         "answer": "Watch for three converging signals: increased upward pressure through the shin connection that loads your weight onto the trapped leg, opponent adjusting their hip angle toward your trapped leg to close threading distance, and opponent tightening or establishing new pulling grips on your sleeve or collar. Any two of these three occurring simultaneously indicates imminent entry preparation.",
         "answer_line": "Two of: pressure, angle, grips",
         "distractors": {
@@ -489,7 +489,7 @@
         }
       },
       {
-        "question": "Your opponent has already begun threading their inside leg around your ankle—what is your highest-percentage defensive response at this stage?",
+        "question": "They have begun threading their leg around your ankle for SLX — best defense now?",
         "answer": "At this late stage, immediately push their threading knee laterally away from your ankle using your hand while simultaneously stepping your trapped leg backward in a circular motion. This combination disrupts the wrap angle and creates space for extraction. If the wrap is already secured, drop your weight and address the bottom hook first by pushing their knee to the mat before attempting to extract your leg.",
         "answer_line": "Push knee away, circle leg out",
         "distractors": {
@@ -503,7 +503,7 @@
         }
       },
       {
-        "question": "How should your weight distribution differ when you recognize the opponent is preparing the SLX entry versus normal shin-to-shin engagement?",
+        "question": "How should your weight shift once you read an SLX entry versus normal shin-to-shin?",
         "answer": "In normal shin-to-shin engagement, your weight can be relatively centered for passing purposes. When you recognize entry preparation, immediately shift weight toward your free leg and lighten the trapped leg, making it mobile and ready to retract or circle. This weight shift removes the biomechanical condition the opponent needs—committed weight on the trapped leg—and gives you the mobility to clear before the thread completes.",
         "answer_line": "Shift weight to your free leg",
         "distractors": {
@@ -517,7 +517,7 @@
         }
       },
       {
-        "question": "What is the relationship between your upper body grip control and the opponent's ability to successfully complete this transition?",
+        "question": "How do their upper body grips affect their ability to finish shin-to-shin to single leg X?",
         "answer": "Your opponent's upper body grips serve as pulling anchors that commit your weight over the trapped leg. Without these grips, the shin connection alone generates insufficient weight loading for a reliable entry. Stripping their sleeve or collar grip is often more effective than directly clearing the shin because it addresses the root cause of the weight commitment rather than just the symptom.",
         "answer_line": "Strip their grips, not just shin",
         "distractors": {

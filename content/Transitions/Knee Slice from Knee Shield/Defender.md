@@ -64,7 +64,7 @@ description: "Complete defensive guide for stopping the knee slice pass from kne
     },
     {
       "@type": "Question",
-      "name": "Your opponent controls your ankle and begins angling for the knee slice—what is your immediate response?",
+      "name": "They control your shield-leg ankle and angle for the knee slice: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use your far hand to strip or peel their ankle grip while simultaneously framing on their bicep with your near arm to prevent crossface establishment. Hip escape away to create distance and re-angle your shield. If you cannot strip the ankle grip, transition your defensive priority to preventing the crossface—without both controls, the pass cannot succeed. If both grips are established, begin transitioning to deep half guard or another alternative guard rather than fighting a losing battle for shield retention."
@@ -80,7 +80,7 @@ description: "Complete defensive guide for stopping the knee slice pass from kne
     },
     {
       "@type": "Question",
-      "name": "How should you transition your defense if the knee shield is partially collapsed and cannot be recovered?",
+      "name": "Your knee shield is partly collapsed and unrecoverable: how do you transition your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the knee shield is partially collapsed, immediately evaluate whether deep half guard entry is available by checking if you can get your head underneath their chest as they drive forward. If deep half is not available, use a strong hip escape combined with both hands framing on their shoulder to create enough space to either recover closed guard by inserting your bottom leg across their hips, or establish butterfly guard by inserting a hook under their thigh. The critical principle is to never fight to maintain a compromised structure—transition to a functional alternative guard immediately."

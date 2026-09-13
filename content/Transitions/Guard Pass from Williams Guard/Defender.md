@@ -56,7 +56,7 @@ description: "Defend against guard passes from Williams Guard bottom position. L
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the top player is attempting a technical circular extraction rather than a linear pull?",
+      "name": "What cue shows they're extracting the arm with circular rotation, not a linear pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Small circular rotations of the elbow rather than straight backward pulling. The circular motion pattern is distinct—you feel a rotational twisting against your figure-four grip rather than a direct pulling force. Linear pulls are easy to resist by tightening the grip, but circular rotation requires you to adjust hip angle to counter the changing force direction. Recognizing this pattern early allows you to begin counter-adjustments before the extraction builds momentum."
@@ -88,7 +88,7 @@ description: "Defend against guard passes from Williams Guard bottom position. L
     },
     {
       "@type": "Question",
-      "name": "Why is closing guard (transitioning to closed guard) an acceptable defensive outcome even though it means losing Williams Guard?",
+      "name": "Why is closing guard an acceptable outcome even though you lose Williams guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Closed Guard Top for the passer is a significantly worse outcome than Side Control Top. In closed guard, the passer has no immediate passing pressure, faces sweep and submission threats from your closed guard bottom, and must restart the entire passing sequence from a disadvantaged position. Meanwhile, you retain offensive options from closed guard bottom including all standard sweeps and submissions. The positional hierarchy makes this a net positive trade—you lose the shoulder lock control but deny the pass to side control while maintaining an offensively advantageous guard position."

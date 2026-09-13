@@ -90,7 +90,7 @@ description: "Execute the Escape from Rodeo Ride in BJJ. Step-by-step guide to d
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains extremely tight hip pressure and you cannot create space for rotation—what alternative approach should you take?",
+      "name": "Rodeo Ride bottom: hip pressure blocks your rotation escape. What alternative do you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When hip pressure prevents rotation, switch to the sit-back guard recovery variant. Rather than trying to rotate underneath, work to bring your hips back between the rider's legs to establish butterfly guard or half guard. Use frames against their chest or arms to create the separation needed for backward hip movement. Tight forward hip pressure actually makes it difficult for the rider to prevent your hips from moving backward, so exploit this directional limitation."
@@ -106,7 +106,7 @@ description: "Execute the Escape from Rodeo Ride in BJJ. Step-by-step guide to d
     },
     {
       "@type": "Question",
-      "name": "You begin the escape but feel the rider inserting hooks on your far side—what should you do immediately?",
+      "name": "Escaping Rodeo Ride, you feel the rider inserting far-side hooks. What do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the rotation escape and prioritize preventing full back control. Sit back toward the hook side to trap the rider's entering leg between your body and the mat, preventing the second hook from inserting. Use your free hand to fight the first hook while maintaining chin protection. Remaining in Rodeo Ride bottom is far preferable to giving up full back control with both hooks, as submission threat escalates dramatically from back control."
@@ -114,7 +114,7 @@ description: "Execute the Escape from Rodeo Ride in BJJ. Step-by-step guide to d
     },
     {
       "@type": "Question",
-      "name": "Why is it essential to consolidate side control immediately after completing the escape rather than attempting a submission?",
+      "name": "After escaping Rodeo Ride, why consolidate side control before attempting a submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The former rider will immediately attempt to recover guard or turtle, and the first few seconds after the escape are when your positional control is most vulnerable. Establishing proper crossface, hip-to-hip connection, and wide base prevents guard recovery and secures the positional advantage you earned through the escape. Attempting a submission before consolidating risks losing the position entirely, wasting the energy and timing invested in the escape sequence."

@@ -106,7 +106,7 @@ description: "Learn to execute the Heel Drag Escape from mount with precise heel
     },
     {
       "@type": "Question",
-      "name": "What grip or frame positioning should you maintain during the heel drag to prevent the opponent from advancing?",
+      "name": "During the heel drag escape from mount, what frames stop them advancing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both hands should frame on the opponent's hips or lower ribcage using forearm frames rather than extended arms. This prevents advancement to high mount during the escape attempt while avoiding the arm exposure that creates Americana or armbar opportunities. The frames also provide the structural support needed for the directional bridging motion that creates the hooking space. Keep elbows pinned tight to your body throughout the entire sequence."

@@ -56,7 +56,7 @@ description: "Defend against the stack pass from inverted lasso guard. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first physical cue that indicates your opponent is initiating a stack pass rather than another passing approach?",
+      "name": "What first cue tells you they're stacking rather than using another pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first cue is the directional shift of their pressure from lateral or grip-focused to direct forward compression toward your midsection. You will feel their weight dropping and driving toward you rather than circling, fighting grips, or stepping around. Their shoulder begins lowering toward your chest, and their hands typically move to secure hip or pants grips to anchor your lower body before driving forward. This forward commitment pattern is distinct from cartwheel passes or arm extraction attempts."
@@ -64,7 +64,7 @@ description: "Defend against the stack pass from inverted lasso guard. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How can you use the opponent's stacking pressure to generate a counter-sweep rather than just defending?",
+      "name": "How do you turn their stacking pressure into a counter-sweep from inverted lasso?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's forward weight commitment during the stack creates an inherent balance vulnerability — their center of gravity moves ahead of their base. By extending the lasso hook while pulling strongly with the sleeve grip at the moment of maximum forward commitment, you convert their linear forward force into rotational momentum that carries them over your body. The key is timing: execute when their hips are above their shoulders and their weight is past the tipping point, not before or after this critical moment."

@@ -120,7 +120,7 @@ description: "Execute the Truck to Back Control transition with precise hook ins
     },
     {
       "@type": "Question",
-      "name": "In which direction should your weight shift during the transition from perpendicular to parallel alignment?",
+      "name": "Going from truck to back control, which way should your weight shift as you square up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your weight should shift forward and slightly upward along the opponent's spine, sliding from the perpendicular truck angle to directly behind their back. The forward pressure is critical because it pins the opponent in place during the transition and prevents them from using the alignment change to create escape angles. Shifting backward or laterally creates space that the opponent can exploit for guard recovery."

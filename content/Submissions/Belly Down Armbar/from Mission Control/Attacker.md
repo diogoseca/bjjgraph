@@ -84,7 +84,7 @@ description: "Master attacking with the belly down armbar from Mission Control. 
     },
     {
       "@type": "Question",
-      "name": "What are the visual and tactile indicators that the elbow is approaching its breaking point during the belly down finish?",
+      "name": "What visual and tactile signs show the elbow nearing its break in the belly down finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As the elbow approaches its limit, you will feel the arm become rigid with muscular resistance suddenly giving way to bone-on-bone mechanical stop. The opponent's body will tense significantly, they may vocalize distress or pain, and you may feel a subtle give or pop sensation in the joint. Any of these signals requires immediate cessation of pressure. Do not wait for a verbal tap if you feel structural change in the joint."
@@ -92,7 +92,7 @@ description: "Master attacking with the belly down armbar from Mission Control. 
     },
     {
       "@type": "Question",
-      "name": "What control points must be confirmed before transitioning from Mission Control into the armbar rotation?",
+      "name": "Which control points must be confirmed before rotating from mission control into the armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Four control points must be confirmed: the shoulder must be fully isolated with the overhook secure under the tricep, two-on-one wrist control must be established on the target arm, lateral hip angle must be created by scooting toward the trapped arm side, and the high guard leg must still be preventing posture recovery. Missing any of these increases the risk of the opponent escaping during the transition."
@@ -108,7 +108,7 @@ description: "Master attacking with the belly down armbar from Mission Control. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands together in a Gable grip to prevent arm isolation - what adjustment allows you to continue the attack?",
+      "name": "They clasp a Gable grip to stop arm isolation from mission control — how do you continue?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the weaker hand by prying the fingers or wrist of the bottom hand while using your legs to create separation pressure on their arms. Alternatively, threaten a triangle choke by adjusting your leg position toward their neck, which forces them to release the grip to defend the choke. Once they break their own grip to defend, immediately re-isolate the arm and continue the armbar sequence before they can re-clasp."
@@ -116,7 +116,7 @@ description: "Master attacking with the belly down armbar from Mission Control. 
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make during the belly down rotation to prevent the arm from slipping free?",
+      "name": "What grip adjustment during the belly down rotation keeps the arm from slipping free?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the rotation, transition from two-on-one wrist control to a figure-four grip or monkey grip where both hands clamp the wrist against your sternum. Pull the wrist in tight rather than holding it at arm's length. Your forearms should pin against each other with the opponent's wrist sandwiched between them and your chest. This configuration is far more secure than fingertip gripping during the dynamic rotation phase."

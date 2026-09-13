@@ -246,7 +246,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the fundamental difference between float passing and pressure passing in terms of body mechanics?",
+        "question": "Mechanically, how does float passing differ from pressure passing?",
         "answer": "Float passing keeps weight on the balls of the feet with hips elevated and mobile, maintaining minimal contact pressure to preserve the ability to change directions instantly. Pressure passing drives weight downward through the chest and hips into the opponent, using heavy contact to collapse defensive structures. The key mechanical distinction is center of gravity: float passing keeps it high and mobile for lateral movement, while pressure passing drops it low and heavy for forward crushing force. Float passing is more effective against flexible opponents with strong guard retention, while pressure passing works better against less mobile opponents.",
         "answer_line": "High hips, light contact, mobile",
         "distractors": {
@@ -260,7 +260,7 @@
         }
       },
       {
-        "question": "What are the key visual and tactile indicators that a passing window has opened during the floating phase?",
+        "question": "What visual and tactile cues tell you a passing window has opened while floating?",
         "answer": "The primary indicators are: a visible gap appearing between opponent's legs as they separate during a guard adjustment, their hips flattening to the mat instead of remaining angled toward you, their knee frames extending too far from their body leaving their hip exposed, or their upper body grips weakening as attention divides between defending multiple angles. Tactilely, you feel reduced resistance through your grips as their legs stop actively pushing back. The window typically lasts only half a second to one second, requiring immediate recognition and explosive commitment.",
         "answer_line": "Gap opens, hips flatten, grip fades",
         "distractors": {
@@ -288,7 +288,7 @@
         }
       },
       {
-        "question": "Your opponent gets a deep collar grip while you are floating. How do you respond without stopping your movement?",
+        "question": "They get a deep collar grip while you float — how do you deal with it without stopping?",
         "answer": "Address the collar grip immediately with a two-on-one break using both hands, then instantly re-establish at least one leg control grip before they can re-grip. If the grip is too deep to break quickly, change your level by dropping to combat base which reduces their pulling leverage on the collar grip. You can also use the collar grip against them by circling into the grip side, which slackens the grip and creates a passing angle on the opposite side. Never continue floating with an unaddressed deep collar grip because it gives them the posture control needed to set up sweeps.",
         "answer_line": "Break grip, re-grip legs fast",
         "distractors": {
@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "What grip configuration provides the best balance between leg control and mobility during the floating phase?",
+        "question": "Which grips best balance leg control and mobility while float passing?",
         "answer": "The optimal grip is both hands controlling the opponent's pants at the knee line, with thumbs inside and fingers gripping the fabric on the outside of their legs. This position allows you to push their legs in any direction while maintaining enough slack to move laterally without being anchored. The knee-line grip controls the most critical part of their guard frame, as the knee is the fulcrum of their leg defensive structure. Avoid ankle grips for primary control during floating, as they require you to bend too far forward and compromise your posture, though ankle grips can be useful for momentary redirections.",
         "answer_line": "Both hands on pants at knee line",
         "distractors": {
@@ -330,7 +330,7 @@
         }
       },
       {
-        "question": "You attempt to commit to the pass but meet strong resistance from your opponent's knee shield. What does this indicate and how do you respond?",
+        "question": "You commit and hit a strong knee shield — what does that mean and how do you respond?",
         "answer": "Meeting strong resistance from a knee shield indicates the passing window was not genuinely open. The correct response is to immediately abort the pass attempt and return to floating rather than trying to force through the shield. Forcing through a knee shield from a committed position wastes energy and often results in getting swept as your weight shifts forward against their frame. Return to light floating movement, and this time look for the window where their knee shield drops or angles away. Often the recovery from your aborted pass attempt itself creates a genuine window on the opposite side as they relax after successfully defending.",
         "answer_line": "Abort, return to floating",
         "distractors": {
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "How do you chain float passing with toreando passing when your initial floating approach is defended?",
+        "question": "How do you chain float passing into a toreando when your floating is defended?",
         "answer": "Float passing chains naturally into toreando because both use standing leg control grips. When your floating movement forces the opponent to extend their legs to track your lateral movement, immediately redirect both legs laterally with a strong toreando-style push to one side while stepping around to the other. The opponent has been conditioned to track your floating movement, so the sudden lateral redirection of their legs catches them adjusting. Conversely, if a toreando attempt is defended and they recover centerline, transition back to floating to rebuild pressure through movement. The alternation between floating patience and toreando explosiveness creates a passing system that is extremely difficult to defend consistently.",
         "answer_line": "Redirect legs, toreando, step around",
         "distractors": {
@@ -372,7 +372,7 @@
         }
       },
       {
-        "question": "How do you maintain balance and prevent sweeps during rapid direction changes in your floating pattern?",
+        "question": "How do you keep balance and avoid sweeps during rapid direction changes while floating?",
         "answer": "Maintain balance during direction changes by keeping weight centered over your base with knees slightly bent and hips mobile. During the direction change itself, briefly widen your stance and lower your center of gravity before accelerating in the new direction. Never change direction while your feet are close together or while one foot is in the air. Keep at least one hand maintaining grip connection with the opponent's legs, which provides both control and a tactile reference point for your balance. If you feel your weight shifting too far in any direction during a change, immediately post your free hand on the mat rather than trying to muscle back to balance, as the post gives you a stable moment to reset.",
         "answer_line": "Widen stance, lower hips, keep grip",
         "distractors": {
@@ -537,7 +537,7 @@
         }
       },
       {
-        "question": "Your opponent is float passing and you cannot establish any upper body grips. What is your minimum viable defense?",
+        "question": "They are float passing and you have no upper body grips — minimum viable defense?",
         "answer": "Your minimum viable defense without upper body grips is active feet on their hips combined with constant hip adjustment to track their movement. Place both feet on their hip bones with your knees slightly bent, creating a pushing frame that controls distance. As they circle, pivot your hips to keep both feet aimed at their centerline. This prevents them from closing distance for the pass. From this feet-on-hips position, you can work to re-establish grips on their sleeves or collar when they reach to adjust your legs, converting a survival position back into an active guard.",
         "answer_line": "Feet on hips, track centerline",
         "distractors": {
@@ -551,7 +551,7 @@
         }
       },
       {
-        "question": "How should you adjust your guard retention strategy when the float passer switches from standing to combat base?",
+        "question": "How do you adjust guard retention when the float passer drops from standing to combat base?",
         "answer": "When the passer drops to combat base, their floating range decreases but their proximity increases. Shift from distance-management defense to close-range retention by inserting a knee shield or shin frame across their hip line. Establish collar and sleeve grips more aggressively since they are now within range. The combat base float is slower and more predictable than standing float, so you can use butterfly hooks or lasso guard to create entanglements that are harder for them to circle out of. Their lower position also makes them more vulnerable to collar drags and arm drags.",
         "answer_line": "Shift to close-range: knee shield",
         "distractors": {

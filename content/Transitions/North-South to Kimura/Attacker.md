@@ -68,7 +68,7 @@ description: "How to execute North-South to Kimura in BJJ. Attacking perspective
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary purpose of maintaining chest-to-chest pressure during the North-South to Kimura transition?",
+      "name": "Why keep chest-to-chest pressure during the north-south to kimura transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest-to-chest pressure serves multiple critical functions: it prevents the opponent from creating space to escape, limits their ability to bridge or turn effectively, keeps their shoulders pinned flat to the mat making arm isolation easier, and maintains your dominant position throughout the transition. Without constant pressure, the opponent can use bridging or turning movements to escape before you secure the Kimura grip. The pressure also restricts their breathing, creating urgency that forces defensive arm movements you can exploit."
@@ -84,7 +84,7 @@ description: "How to execute North-South to Kimura in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins framing against your chest with both forearms as you attempt to isolate their arm - how do you adjust?",
+      "name": "Isolating the arm from north-south, they frame on your chest with both forearms — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your chest pressure forward and angle your shoulders to slip past their forearms rather than fighting the frames directly. Alternatively, use the frame creation as a cue to attack the arm they have extended for framing, since their extended forearm is now separated from their body and vulnerable to isolation. You can also threaten a North-South choke to force them to change their arm positioning. The key is never stalling against an established frame - either collapse it immediately with superior pressure and angles, or redirect to a different attack that exploits the arm position they have chosen."
@@ -92,7 +92,7 @@ description: "How to execute North-South to Kimura in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "What mechanical advantage makes the Kimura from North-South particularly effective compared to entries from side control?",
+      "name": "What mechanical advantage makes the kimura from north-south stronger than from side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The North-South position provides several unique advantages for Kimura attacks: your entire body weight is distributed across the opponent's chest and shoulders in perpendicular alignment, severely limiting their ability to hip escape or bridge; their shoulders are pinned flat against the mat, making it easier to manipulate their arm; the perpendicular angle gives you superior leverage because your hips can create the finishing angle without needing to reposition your entire body; and the opponent cannot use their legs or hips to create frames or generate momentum, unlike from side control where hip escapes are more accessible."
@@ -100,7 +100,7 @@ description: "How to execute North-South to Kimura in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Describe the proper hand positioning for the figure-four Kimura grip and explain why grip depth matters?",
+      "name": "Describe the figure-four kimura hand positions from north-south and why grip depth matters?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your near-side hand grips the opponent's wrist with your thumb pointing toward their head, positioned above the wrist joint for maximum control. Your far-side hand reaches over their arm and grabs your own near-side wrist, creating a closed figure-four loop. Grip depth is critical because securing the grip close to the opponent's elbow provides substantially more leverage and control than gripping near the wrist. A deep grip near the elbow prevents them from straightening their arm to escape, gives you better rotational control of the shoulder joint, and makes the grip structure nearly impossible to break even under significant resistance."
@@ -108,7 +108,7 @@ description: "How to execute North-South to Kimura in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your strategy if the opponent successfully grabs their own belt or shorts to defend the arm isolation?",
+      "name": "They grab their own belt or shorts to block your kimura from north-south — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent grabs their belt or shorts, direct attacks on the Kimura become inefficient because you would need to break their defensive grip first. The best response is to switch your attack to their far-side arm or neck with a choke or armbar threat. This forces them to release their defensive grip to address the new threat. Once they release their belt grip, immediately return to the Kimura attack before they can re-establish the defensive grip. This exemplifies the principle of creating cascading dilemmas from a single control position."
@@ -420,7 +420,7 @@ When training the North-South to Kimura transition, practitioners must exercise 
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative entry pathway from north-south position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative entry pathway from north-south position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

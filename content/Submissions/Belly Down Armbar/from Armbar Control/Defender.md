@@ -52,7 +52,7 @@ description: "Defend against the belly down armbar finish from armbar control. R
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate the attacker is transitioning to a belly-down armbar finish?",
+      "name": "What are the earliest cues that they are switching to a belly-down armbar finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the attacker posting their far foot on the mat, consolidating both hands specifically onto your wrist in a tight monkey grip, and their near leg beginning to swing over your face in an arc. You may also feel a rotational pulling force on your trapped arm combined with their body weight shifting from beside you to over your arm. Recognizing these cues immediately is critical because the defensive window closes within 1-2 seconds."

@@ -76,7 +76,7 @@ description: "How to execute Flower Sweep in BJJ. Attacking perspective with set
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent posts their hand on the mat during your Flower Sweep attempt?",
+      "name": "They post a hand on the mat during your Flower Sweep — how should you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posted hand creates an excellent opportunity for attack rather than a problem. You should immediately switch to attacking the posted arm with a straight armbar (maintaining your sleeve grip and swinging your leg over), transition to a triangle choke, or set up an omoplata. Alternatively, if the opponent overcommits to the post, you can switch directions and sweep to the opposite side. The key is to view the posted hand not as a defense, but as the opponent giving you their arm."
@@ -84,7 +84,7 @@ description: "How to execute Flower Sweep in BJJ. Attacking perspective with set
     },
     {
       "@type": "Question",
-      "name": "Why is the Flower Sweep considered part of a fundamental guard attack system rather than an isolated technique?",
+      "name": "Why is the Flower Sweep part of a guard attack system rather than an isolated technique?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Flower Sweep is one component of an interconnected system that includes the Hip Bump Sweep, Kimura, Triangle, and Armbar. These techniques all use similar grips and body positioning, creating a web of attacks where defending one opens up another. For example, defending the Hip Bump by posting creates the Flower Sweep opportunity; defending the Flower Sweep by posting creates armbar opportunities. This systematic approach forces the opponent into a constant series of dilemmas, which is far more effective than relying on any single technique in isolation."
@@ -100,7 +100,7 @@ description: "How to execute Flower Sweep in BJJ. Attacking perspective with set
     },
     {
       "@type": "Question",
-      "name": "What grip configuration gives you the highest percentage Flower Sweep, and why does each grip matter?",
+      "name": "Which grips give the highest-percentage Flower Sweep, and what does each grip do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest percentage configuration is a same-side sleeve grip combined with a cross-collar grip or head control behind the neck. The sleeve grip prevents the opponent from posting their hand on the sweeping side, which is the primary defense against the sweep. The collar or head grip breaks their posture forward, shifting their center of gravity over your hips where the sweep is most effective. Both grips must apply constant pulling pressure throughout the motion - passive grips that simply hold fabric without directional force reduce sweep effectiveness dramatically."
@@ -108,7 +108,7 @@ description: "How to execute Flower Sweep in BJJ. Attacking perspective with set
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains strong upright posture and resists your posture-breaking attempts - how do you create the conditions for the Flower Sweep?",
+      "name": "They stay postured up and resist your posture breaks — how do you set up the Flower Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against strong posture, you should first attack with a Hip Bump Sweep to force them to post a hand. When they post, their weight shifts forward and their base narrows, creating the exact conditions the Flower Sweep requires. Alternatively, use a collar drag to pull them off-center, or threaten a triangle to force them to bring their arms inside, which compromises their base. The key principle is that the Flower Sweep works best as a second or third attack in a chain, not as a cold opener against a postured opponent."

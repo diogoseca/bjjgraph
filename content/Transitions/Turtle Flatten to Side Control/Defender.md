@@ -56,7 +56,7 @@ description: "How to defend against Turtle Flatten to Side Control in BJJ. Recog
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up a turtle flatten rather than a back take?",
+      "name": "What is the earliest cue that they are setting up a turtle flatten rather than a back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker's near hand dropping from upper body control (seatbelt or collar grip) to grip your far hip, belt, or waistband. Back take setups prioritize maintaining upper body harness control and inserting hooks, while the flatten requires a hip anchor grip to direct the lateral drive. Additionally, the attacker walks their near knee tight against your near hip as a wedge, which is unnecessary for back take entries. Recognizing this grip change gives you the maximum window to respond before the drive begins."
@@ -64,7 +64,7 @@ description: "How to defend against Turtle Flatten to Side Control in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker's weight shifting laterally and their knee driving into your near hip — what is the highest-percentage defensive response?",
+      "name": "Their weight shifts laterally and their knee drives your near hip in turtle. Best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage response depends on timing. If you catch the shift early before full commitment, the granby roll away from the flatten direction is most effective because it uses the attacker's lateral momentum against them and can lead directly to guard recovery. If the drive has already begun and you feel your base collapsing, the sit-through to the opposite side is higher percentage because it requires less hip elevation than the granby and exploits the gap the attacker creates behind them by committing weight forward. If you are already being driven flat, immediately default to knee insertion for half guard recovery."
@@ -72,7 +72,7 @@ description: "How to defend against Turtle Flatten to Side Control in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Why is fighting the attacker's hip grip more important than fighting their upper body control when defending the flatten?",
+      "name": "Why is fighting their hip grip more important than their upper body control against the flatten?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip grip is the directional anchor for the entire flatten mechanic. Without the hip grip, the attacker cannot control which direction the lateral drive collapses your base and cannot prevent you from rolling away from the pressure. Upper body control alone is insufficient for the flatten because it does not provide the rotational force needed to collapse the four-point base laterally. By stripping or preventing the hip grip, you remove the attacker's ability to execute the flatten regardless of their upper body positioning, forcing them to either re-establish the grip or abandon the flatten for a different attack."
@@ -80,7 +80,7 @@ description: "How to defend against Turtle Flatten to Side Control in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Your granby roll attempt fails and the attacker follows your rotation — what position are you likely in and how do you recover?",
+      "name": "Your granby fails and they follow your rotation. Where are you, and how do you recover?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A failed granby where the attacker follows typically results in them establishing a harness or seatbelt grip on your back during your rotation, potentially with partial hook insertion. You are now in a worse position than the original turtle because the attacker has progressed toward back control. Recovery requires immediate hand fighting to strip the choking hand grip, preventing the opponent from locking a rear naked choke. Simultaneously, work to remove any hooks that were inserted during the follow by kicking your legs free. Turn into the opponent toward the underhook side to begin working toward guard recovery rather than continuing to roll, which only exposes your back further."

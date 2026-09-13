@@ -74,7 +74,7 @@ description: "Learn to execute the Escape Double Jump as the bottom player. Syst
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important thing to establish before beginning leg extraction from a failed double jump?",
+      "name": "What must you establish before extracting your legs from a failed double jump?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forearm frames on the opponent's shoulder and hip must be established before starting any leg extraction. Without these frames, the opponent will collapse their weight onto your chest during the extraction phase, flattening you and converting the retreat into a worse position than the failed entry. The frames create the space buffer that makes sequential leg extraction possible."
@@ -90,7 +90,7 @@ description: "Learn to execute the Escape Double Jump as the bottom player. Syst
     },
     {
       "@type": "Question",
-      "name": "Your double jump entry stalls and the opponent begins driving heavy crossface pressure—what do you do?",
+      "name": "Your double jump stalls and they drive a heavy crossface: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately prioritize your forearm frame against their shoulder to manage the crossface pressure. Use the pressure as a cue to begin the escape rather than fighting to complete the entry. The crossface indicates the opponent has defended successfully, and continuing the entry against established crossface will only result in being flattened. Begin sequential leg extraction while the frame holds their weight at distance."
@@ -114,7 +114,7 @@ description: "Learn to execute the Escape Double Jump as the bottom player. Syst
     },
     {
       "@type": "Question",
-      "name": "What is the most common counter an opponent will attempt during your escape, and how do you address it?",
+      "name": "What counter will they most likely use during this escape, and how do you address it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common counter is driving heavy crossface pressure during the leg extraction phase to flatten you and prevent frame maintenance. Address this by ensuring your shoulder frame is established before extraction begins, using hip escape motion to angle away from the crossface, and inserting the knee shield as early as possible to create a structural barrier that their crossface pressure cannot bypass."

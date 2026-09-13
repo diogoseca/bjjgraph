@@ -295,7 +295,7 @@
         }
       },
       {
-        "question": "What is the critical timing window for transitioning grips from legs to upper body during the toreando?",
+        "question": "When should you switch from leg grips to upper body control during the toreando?",
         "answer": "The grip transition must happen during the final lateral step as your chest approaches the opponent's torso—not before and not after. Releasing legs too early (before your body is past their hip line) allows recovery. Holding legs too long (after you've cleared them) delays chest-to-chest contact and allows the opponent to sit up or turn. The ideal timing is releasing the far-side leg grip to establish crossface while maintaining the near-side leg pin until your chest makes contact with their upper body.",
         "answer_line": "Transition as chest reaches them",
         "distractors": {
@@ -309,7 +309,7 @@
         }
       },
       {
-        "question": "How does the direction of leg redirection affect pass success, and how do you choose which side to pass to?",
+        "question": "How does redirection direction affect the toreando, and how do you pick the passing side?",
         "answer": "The direction should be determined by the opponent's weight distribution and your own grip strength. Push legs toward the side where the opponent's weight is already shifting—this requires less force and catches them off-balance. If the opponent's weight is neutral, choose your strong side for more powerful leg redirection. Additionally, consider which side gives you a better crossface angle. Avoid always passing to the same side, as opponents will anticipate the direction and preposition their defensive frames.",
         "answer_line": "Push toward opponent's weight shift",
         "distractors": {
@@ -379,7 +379,7 @@
         }
       },
       {
-        "question": "What are the three most critical mechanical details that separate a successful toreando from a failed one?",
+        "question": "Which three mechanical details separate a successful toreando from seated guard from a failed one?",
         "answer": "First, the legs must be redirected past the opponent's hip line before initiating lateral movement—insufficient redirection leaves the legs between you and side control. Second, the lateral step must be explosive and complete in one or two quick steps, not a gradual walk around—speed prevents the opponent from hip escaping to follow you. Third, the grip transition from legs to upper body must be seamless and sequential, maintaining at least one point of leg control until chest contact is established. Missing any one of these three details typically results in the opponent recovering guard.",
         "answer_line": "Clear their hip line first",
         "distractors": {
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "Your opponent has redirected both your legs to your left side—what is the correct immediate response?",
+        "question": "They push both your legs to your left from seated guard: what is your immediate response?",
         "answer": "Immediately hip escape to your left (the same direction your legs were pushed) while sitting up on your right elbow or hand. This matches the direction of the pass, keeping your hips facing the passer rather than giving them your back. As you hip escape, pull your knees to your chest to shorten the lever the passer is controlling. If the passer commits to passing to your right side, your leftward hip escape puts you in position to reinsert your legs between you and the passer. Never hip escape in the opposite direction as this turns your back.",
         "answer_line": "Hip escape same direction, sit up",
         "distractors": {
@@ -549,7 +549,7 @@
         }
       },
       {
-        "question": "Why is sitting up and closing guard an effective counter to the toreando, and when should you not attempt it?",
+        "question": "Why does sitting up to close guard counter the toreando, and when should you not try it?",
         "answer": "Sitting up and closing guard works because the toreando requires the passer to grip your legs, which means their hands are occupied and cannot prevent you from wrapping your legs around their waist. The counter is most effective when the passer is close enough to reach your legs but has not yet redirected them. Do not attempt it when the passer has already redirected your legs to one side and is mid-lateral-step, as your legs are pinned and you cannot close guard. Also avoid it if the passer has strong collar grips that prevent you from sitting up.",
         "answer_line": "Close guard before legs redirected",
         "distractors": {

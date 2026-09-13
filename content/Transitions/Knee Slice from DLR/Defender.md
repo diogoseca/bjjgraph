@@ -64,7 +64,7 @@ description: "Defend against the Knee Slice from De La Riva Guard. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your DLR hook has been cleared and the passer is beginning to drive their knee across - what is your best remaining defensive option?",
+      "name": "Your DLR hook is cleared and their knee is cutting across: what defense remains?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert a knee shield by bringing your top knee across their body to block the cutting knee from completing its path. If the knee shield cannot be established in time, hip escape away from the pass direction and work to catch half guard with your legs. Fighting to re-establish the DLR hook at this stage is too late and wastes critical defensive time that should be used for damage control."
@@ -88,7 +88,7 @@ description: "Defend against the Knee Slice from De La Riva Guard. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How does your defensive strategy change if the passer uses a backstep approach to clear your DLR hook instead of a direct strip?",
+      "name": "How does your DLR defense change if they backstep to clear your hook instead of stripping it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a backstep, the passer creates space behind your hooking leg rather than pushing through it directly. Follow their movement with your hips by turning toward the backstep direction and immediately work to insert your legs into a butterfly guard or reverse De La Riva configuration. The backstep creates a momentary disconnect you can exploit by establishing a different guard framework rather than chasing the original DLR hook."

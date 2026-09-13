@@ -1,0 +1,301 @@
+{
+  "name": "Lachlan Giles and Ariel Tabak Guard Retention System",
+  "description": "Study guard retention against around-the-legs and stacking passes with a practical BJJGraph guide to Lachlan Giles and Ariel Tabak's BJJ Fanatics course.",
+  "tags": [
+    "bjj",
+    "system",
+    "guard-retention",
+    "guard-recovery"
+  ],
+  "system_type": "Guard System",
+  "difficulty_level": "Intermediate",
+  "summary": "The Lachlan Giles and Ariel Tabak Guard Retention System is a BJJGraph study guide for recovering useful frames and leg position against around-the-legs and under-the-legs passes.",
+  "overview": "A passer who clears your feet may still have to get past your knees, elbows, and ability to turn toward them. This guide organizes practice around recognizing which defensive layer remains available and rebuilding contact before trying to attack. It is most useful when you can already identify open guard, side control, and the difference between retaining guard and escaping a settled pin.\n\nThe optional course companion is The Guard Retention Anthology: Around and Under by Lachlan Giles and Ariel Tabak. Its published syllabus addresses general retention concepts, movement, around-the-legs passing, under-the-legs passing, and specific passing situations. This page is an independent BJJGraph practice plan, not the instructors' official curriculum. Adapt the movement choices to your mobility and use a coach to check any unfamiliar inversion or stacking situation.",
+  "key_principles": [
+    "Identify the passer's route before choosing a recovery movement.",
+    "Keep usable frames between the passer and your torso.",
+    "Recover leg position before committing to an attack.",
+    "Move enough to restore a barrier rather than moving continuously without a purpose.",
+    "Separate early guard retention from escaping a settled pin.",
+    "Choose movements that remain controlled within your available mobility."
+  ],
+  "key_components": [
+    {
+      "component_name": "Threat identification",
+      "description": "Distinguish a passer circling the legs from one lifting or folding them toward the torso.",
+      "purpose": "Choose a relevant defensive task instead of rehearsing an unrelated response."
+    },
+    {
+      "component_name": "Upper-body frames",
+      "description": "Use the arms to maintain workable space while the legs are temporarily displaced by the passer.",
+      "purpose": "Preserve enough room to rebuild a leg barrier."
+    },
+    {
+      "component_name": "Leg recovery",
+      "description": "Return a foot, shin, or knee to useful contact as the passer changes direction and distance.",
+      "purpose": "Rebuild a playable guard rather than merely delay the pass."
+    },
+    {
+      "component_name": "Movement selection",
+      "description": "Explore a small set of recovery movements with your coach and select those you can perform without forcing range.",
+      "purpose": "Keep the practice applicable to your body and current skill."
+    },
+    {
+      "component_name": "Return to engagement",
+      "description": "After recovering contact, establish a guard you can use and observe the passer's next response.",
+      "purpose": "Connect defense to a stable next decision."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Set the starting picture",
+      "description": "Start in open guard with the passer outside the legs and agree on one passing route.",
+      "key_points": [
+        "Name the route before beginning.",
+        "Keep the initial pace cooperative."
+      ]
+    },
+    {
+      "step_number": 2,
+      "phase": "Identify the remaining barrier",
+      "description": "Pause when the feet are displaced and locate the next frame or leg connection you can preserve.",
+      "key_points": [
+        "Notice where the passer's weight is.",
+        "Avoid reaching without a specific purpose."
+      ]
+    },
+    {
+      "step_number": 3,
+      "phase": "Rebuild leg position",
+      "description": "Use a controlled recovery movement to bring a leg back between your torso and the passer.",
+      "key_points": [
+        "Move within comfortable range.",
+        "Ask your coach to check unfamiliar mechanics."
+      ]
+    },
+    {
+      "step_number": 4,
+      "phase": "Stabilize a guard",
+      "description": "Establish usable contact before treating the repetition as finished.",
+      "key_points": [
+        "Pick a familiar guard destination.",
+        "Check whether the passer can immediately clear the same barrier."
+      ]
+    },
+    {
+      "step_number": 5,
+      "phase": "Add one change of direction",
+      "description": "Let the passer change direction once so you must recognize and solve a second problem.",
+      "key_points": [
+        "Keep resistance low enough to observe the transition.",
+        "Review which connection you lost."
+      ]
+    },
+    {
+      "step_number": 6,
+      "phase": "Test the decision",
+      "description": "Use short rounds with defined passing options and compare the results with your practice notes.",
+      "key_points": [
+        "Separate a retention failure from a pin escape.",
+        "Select one recurring issue for the next session."
+      ]
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "Moving the legs without restoring contact",
+      "solution": "Define the specific foot, shin, or knee barrier you intend to recover before repeating the movement."
+    },
+    {
+      "obstacle": "Using the same response against every passing route",
+      "solution": "Constrain the passer to one route first, then contrast it with a second route and describe the changed problem."
+    },
+    {
+      "obstacle": "Treating flexibility as a substitute for positioning",
+      "solution": "Reduce the range and speed, select another movement when necessary, and have a coach check alignment."
+    },
+    {
+      "obstacle": "Starting offense before guard is stable",
+      "solution": "Add a brief stabilization task after recovery so the passer can test whether the contact is useful."
+    },
+    {
+      "obstacle": "Practicing too many recoveries at once",
+      "solution": "Keep one recurring passing problem in focus and record the cue that makes your chosen response relevant."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Route recognition",
+      "description": "Identify how the passer is getting beyond your legs.",
+      "proficiency_indicators": [
+        "Distinguish circling from stacking pressure.",
+        "Notice a direction change before the torso is pinned.",
+        "Explain what changed between successive attempts."
+      ]
+    },
+    {
+      "metric_name": "Frame continuity",
+      "description": "Observe whether usable space survives the recovery attempt.",
+      "proficiency_indicators": [
+        "Keep a frame available while the legs move.",
+        "Recognize when the passer has removed that frame.",
+        "Avoid continuing a movement after its space has disappeared."
+      ]
+    },
+    {
+      "metric_name": "Recovery quality",
+      "description": "Assess the guard you actually reach.",
+      "proficiency_indicators": [
+        "Restore meaningful leg contact.",
+        "Face the passer in a usable position.",
+        "Hold the recovered configuration against a modest follow-up."
+      ]
+    },
+    {
+      "metric_name": "Practice control",
+      "description": "Evaluate whether practice remains repeatable and informative.",
+      "proficiency_indicators": [
+        "Choose a manageable starting position.",
+        "Reduce intensity when movement becomes forced.",
+        "Record one specific adjustment for the next session."
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "Use short partner drills with a clearly defined pass and recovery destination. Begin with a cooperative passer, pause at the point where the first barrier is lost, and identify the remaining options. Add resistance only when the movement stays controlled. Keep late stacking and unfamiliar inversions separate from free sparring until a coach has checked the mechanics. The stages below are BJJGraph practice suggestions.",
+    "progression_path": [
+      {
+        "stage": "Recognize the route",
+        "focus": "Identify around-the-legs and under-the-legs pressure from cooperative starts."
+      },
+      {
+        "stage": "Restore one barrier",
+        "focus": "Practice one comfortable frame-and-leg recovery against a predictable pass."
+      },
+      {
+        "stage": "Link two decisions",
+        "focus": "Allow one direction change and keep track of which barrier you are rebuilding."
+      },
+      {
+        "stage": "Review live attempts",
+        "focus": "Use limited positional rounds to find recurring failures and return to focused drilling."
+      }
+    ],
+    "common_mistakes": [
+      "Collecting movements without understanding the passing problem.",
+      "Calling a brief delay a successful guard recovery.",
+      "Forcing unfamiliar ranges under stacking pressure.",
+      "Skipping the transition from recovery to a usable guard."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Open Guard",
+      "content_type": "Position",
+      "relationship": "Starting point for reading a passer's route."
+    },
+    {
+      "name": "Seated Guard",
+      "content_type": "Position",
+      "relationship": "Alternative guard posture to compare during retention study."
+    },
+    {
+      "name": "Feet on Hips Guard",
+      "content_type": "Position",
+      "relationship": "Example of a recoverable distance-control configuration."
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "A settled pin changes the task from retention to escape."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "One possible stable destination after recovering leg position."
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "A familiar guard destination for rebuilding engagement."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Upper-body structures that preserve room for recovery."
+    },
+    {
+      "name": "Distance Control",
+      "content_type": "Principle",
+      "relationship": "The spacing problem behind many retention decisions."
+    },
+    {
+      "name": "Defensive Concepts",
+      "content_type": "Principle",
+      "relationship": "Broader context for choosing a defensive priority."
+    },
+    {
+      "name": "Dynamic Guard System",
+      "content_type": "System",
+      "relationship": "Connects retention to changing guards and attacking."
+    },
+    {
+      "name": "Caio Terra Guard Retention System",
+      "content_type": "System",
+      "relationship": "A separate instructor-focused retention reference."
+    },
+    {
+      "name": "Back Defense Protocol",
+      "content_type": "System",
+      "relationship": "Addresses a different defensive task if the passer reaches the back."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What should you identify before selecting a guard-retention response?",
+      "answer": "Identify the passer's route and which defensive barriers remain available; the same movement will not solve every passing situation.",
+      "answer_line": "Read the route and usable barriers"
+    },
+    {
+      "question": "Why does clearing the feet not always mean the guard has been passed?",
+      "answer": "The knees, elbows, and remaining frames may still prevent the passer from controlling the torso and allow useful leg contact to be restored.",
+      "answer_line": "Other barriers still protect torso"
+    },
+    {
+      "question": "When is a retention repetition complete?",
+      "answer": "Finish after recovering a usable guard that can withstand an agreed follow-up, rather than stopping at a momentary delay in the pass.",
+      "answer_line": "Recover and stabilize a usable guard"
+    },
+    {
+      "question": "How should you choose a recovery movement for your current mobility?",
+      "answer": "Choose a movement you can perform with control in the required range and ask a coach to check unfamiliar mechanics before adding pressure.",
+      "answer_line": "Use controlled, available range"
+    },
+    {
+      "question": "How can a partner drill reveal a recurring retention mistake?",
+      "answer": "Limit the passer to one route, pause when contact is lost, and record the barrier you failed to preserve before testing one adjustment.",
+      "answer_line": "Limit the pass; inspect lost contact"
+    },
+    {
+      "question": "What changes once the passer establishes a settled pin?",
+      "answer": "The immediate task becomes escaping the pin; reset a retention drill or switch deliberately to an escape drill instead of treating them as identical.",
+      "answer_line": "A settled pin calls for an escape"
+    }
+  ],
+  "products": [
+    {
+      "id": "the-guard-retention-anthology-by-lachlan-giles-ariel-tabak",
+      "title": "The Guard Retention Anthology: Around and Under",
+      "instructor": "Lachlan Giles and Ariel Tabak",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-guard-retention-anthology-by-lachlan-giles-ariel-tabak?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A dedicated retention course whose published outline includes around-the-legs and under-the-legs passing situations.",
+      "best_for": "Guard players studying those passing routes. Close-range and through-the-legs defense is addressed in a separate companion course.",
+      "study_focus": "Start with the general concepts and movement sections, then choose the around-the-legs or under-the-legs section that matches a recurring passing problem.",
+      "practice_tip": "BJJGraph drill: limit the passer to one route and pause when the first barrier is cleared. Identify the remaining frame before trying to recover a playable guard."
+    }
+  ]
+}

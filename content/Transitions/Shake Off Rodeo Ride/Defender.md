@@ -58,7 +58,7 @@ description: "Defend against the Shake Off escape from Rodeo Ride in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "Why can the bottom practitioner's hip elevation during the shake-off actually benefit you as the rider?",
+      "name": "As the rider, why can their hip elevation during the shake-off actually help you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip pop creates space between the bottom practitioner's body and the mat—the same space needed for hook insertion. When their hips elevate, there is a brief window where you can thread your near-side foot inside their thigh to establish the first hook for back control. Their escape attempt actually opens the pathway to the most dominant position in grappling. The key is recognizing this opportunity in real-time rather than fighting to prevent the elevation, converting their escape energy into your advancement."
@@ -66,7 +66,7 @@ description: "Defend against the Shake Off escape from Rodeo Ride in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your pressure distribution when you anticipate a shake-off to prevent it from succeeding?",
+      "name": "As the rider, how do you adjust pressure when you anticipate a shake-off?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sink your hips lower and heavier onto the bottom practitioner's lower back and hip area rather than riding on their upper back and shoulders. Lower hip positioning creates a lower center of gravity that is harder to displace through vertical force. Additionally, widen your base by adjusting your posted leg to provide better lateral stability against the angular displacement the shake-off generates. Increase the downward component of your chest pressure during the quiet preparatory phase to load weight before the explosion occurs."

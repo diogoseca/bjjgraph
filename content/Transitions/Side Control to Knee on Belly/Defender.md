@@ -56,7 +56,7 @@ description: "Master defending the Side Control to Knee on Belly transition. Lea
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from side control consolidation to knee on belly?",
+      "name": "What is the earliest cue that they're switching from side control to knee on belly?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a subtle lightening of chest pressure combined with a hip elevation movement. Before the knee moves, the opponent must lift their hips to create clearance for insertion. You will feel their chest begin to lift off your torso and their weight shift toward your head as they reposition. Additionally, grip changes such as their far hand moving from underhook to collar indicate the transition is being prepared. Reacting at this earliest stage gives you maximum time to establish defensive frames."
@@ -64,7 +64,7 @@ description: "Master defending the Side Control to Knee on Belly transition. Lea
     },
     {
       "@type": "Question",
-      "name": "Why is extending your arms to push against the opponent's knee considered a critical defensive error?",
+      "name": "Why is pushing the knee with extended arms a critical defensive error under knee on belly?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extended arms during a push create perfect arm isolation for the attacker. The straightened limb is precisely the configuration needed for an armbar or kimura attack, and the opponent can simply capture the exposed arm rather than fighting to maintain knee position. Additionally, vertical pushing is biomechanically inefficient against a loaded knee because the opponent's full bodyweight flows through that contact point. The correct approach uses bent-arm structural frames that create lateral angles for hip escape rather than attempting to lift the opponent's weight vertically."
@@ -72,7 +72,7 @@ description: "Master defending the Side Control to Knee on Belly transition. Lea
     },
     {
       "@type": "Question",
-      "name": "Your opponent has just placed their knee on your belly with full weight - what is your immediate priority before attempting any escape?",
+      "name": "Their knee just landed on your belly with full weight — what is your priority before escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The immediate priority is turning to your side to reduce the pressure footprint and create breathing space. When flat on your back, the knee drives into the center of your diaphragm with maximum force. Turning even slightly shifts the contact point to the ribs and reduces the exposed surface area. Once on your side, establish a bent-arm frame against their hip or thigh to prevent them from following your turn. Only after managing the pressure through positioning should you commit energy to an escape sequence."
@@ -80,7 +80,7 @@ description: "Master defending the Side Control to Knee on Belly transition. Lea
     },
     {
       "@type": "Question",
-      "name": "How does the optimal defensive timing differ between preventing the knee placement versus escaping after placement has occurred?",
+      "name": "How does defensive timing differ between preventing the knee placement and escaping after it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prevention timing targets the transition gap, the half-second window when the opponent's chest lifts but the knee has not yet landed. During this window, even a moderate frame or hip escape is sufficient because the opponent has no established pressure point. Post-placement escape requires significantly more energy and technical precision because you must overcome concentrated diaphragm pressure, displacement of the knee against grip resistance, and the opponent's wide tripod base. Prevention requires 30 percent of the effort that post-placement escape demands, making early recognition and proactive framing the highest-value defensive skill for this transition."

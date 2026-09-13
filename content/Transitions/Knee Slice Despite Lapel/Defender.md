@@ -80,7 +80,7 @@ description: "How to defend against Knee Slice Despite Lapel in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially cleared the worm guard and starts the tangential slice—what defensive adjustment addresses the angle?",
+      "name": "They partly clear worm guard and start a tangential knee slice: how do you adjust for the angle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotate your hips to follow their slice angle, keeping your lapel grip side facing them rather than lying flat. If they angle toward your far shoulder at 45 degrees, rotate your hips 45 degrees in the same direction so the remaining lapel barrier stays between your bodies. This hip rotation also loads your sit-up mechanics for the back take threat."

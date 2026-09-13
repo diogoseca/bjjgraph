@@ -64,7 +64,7 @@ description: "Defend and counter the High Mount to S Mount transition. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is defending during the transition far more effective than defending after S Mount is established?",
+      "name": "Why is defending the S mount entry easier than escaping once S mount is set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the attacker is on a single-base point (one knee) with their weight in motion, making them vulnerable to bridges and hip escapes. After S Mount is established, they have a stable two-post base (leg over head, leg across torso) with their hip sealed against your shoulder, eliminating nearly all escape leverage. The success rate of defensive actions drops from approximately 40-50% during transition to 15-20% once S Mount is fully locked in."
@@ -72,7 +72,7 @@ description: "Defend and counter the High Mount to S Mount transition. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your attacker has isolated your right arm and is beginning to lift their left leg — what specific defensive actions do you take in order?",
+      "name": "They isolate your right arm and lift their left leg for S mount — what do you do, in order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, immediately attempt to pull your right arm back to your body and grip your own collar to establish bent-arm defense. Second, if the arm cannot be retracted, use your left hand to hook the attacker's left knee or shin to physically block the step-over. Third, bridge explosively toward the left side (the direction the leg is swinging) to disrupt the attacker's single-leg base. The order is critical: arm protection first, leg block second, bridge third."
@@ -88,7 +88,7 @@ description: "Defend and counter the High Mount to S Mount transition. Recogniti
     },
     {
       "@type": "Question",
-      "name": "If the transition succeeds and you are now in S Mount bottom, what is your immediate defensive priority?",
+      "name": "You are stuck under S mount — what is your immediate defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or greater. This bent-arm defense is your lifeline — a straightened arm in S Mount is an instant armbar finish. Simultaneously, use your free hand to control the attacker's near leg at the knee to prevent them from adjusting to full armbar position. Focus on arm protection first, escape second, and wait for the attacker's adjustment movements to create your escape window."

@@ -64,7 +64,7 @@ description: "How to defend against Buggy Choke to Front Headlock in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your attacker begins circling toward your head after releasing the buggy choke threading arm - what is your immediate response?",
+      "name": "They release the threading arm and circle toward your head: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately counter-circle in the opposite direction while using both hands to strip the remaining chin strap or collar tie grip. The counter-circling creates angular separation that makes it harder for the attacker to arrive at front headlock angle. If the grip strip succeeds, you return to neutral turtle with full escape options. If it fails, the counter-circle still delays the front headlock and may create a scramble opportunity."
@@ -72,7 +72,7 @@ description: "How to defend against Buggy Choke to Front Headlock in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Why is the turning defense against the buggy choke simultaneously the setup for the front headlock entry?",
+      "name": "Why is turning out of the buggy choke also the setup for their front headlock entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The turning motion that relieves buggy choke pressure rotates your body to face partially away from the attacker, which is precisely the angle they need for front headlock control. Your turn exposes the side of your neck and positions the attacker's circling path directly toward your head. This is why you must prepare secondary defenses while turning - the turn solves one problem but creates another if you do not anticipate the follow-up transition."
@@ -80,7 +80,7 @@ description: "How to defend against Buggy Choke to Front Headlock in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker's chest weight shifting from your back toward your near shoulder - what does this signal and how should you respond?",
+      "name": "Their chest weight shifts to your near shoulder: what does it signal and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This weight shift signals the transition from buggy choke vertical pressure to front headlock diagonal pressure. The attacker is moving from behind you to perpendicular. Respond immediately by framing against their shoulder with your near arm to prevent them from settling the perpendicular angle, while simultaneously sitting out or standing up. Once the diagonal pressure fully establishes, escape becomes significantly more difficult."

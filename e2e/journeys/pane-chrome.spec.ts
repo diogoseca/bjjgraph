@@ -1,13 +1,12 @@
 import { test, expect, type Page } from "@playwright/test"
-import { journey } from "../dsl"
+import { journey, type Journey } from "../dsl"
 
 /**
  * PANE & CHROME POLISH (v1.93.0, re-pinned for the v1.94.0 chrome):
  *
- *   1. EVERY pane-open path wires the tabs. The direct-assign openers (openHomeToLatest —
- *      today the landing card's familiarity chip; formerly the drill pill and the account
- *      chip) used to open a pane whose Explore/Challenges buttons were dead — wiring lived
- *      only in openPane(). It now lives at the choke point (applyDeckVisibility).
+ *   1. The top-left logo is the one pane opener, and every tab remains live after it opens.
+ *      Static pane wiring lives at the `applyDeckVisibility` choke point because direct
+ *      study/session entry points also bypass `openPane()`.
  *   2. The guest save nudge is ONE block at the pane's BOTTOM, visible on all three tabs,
  *      next to Settings/Terms/Privacy. The stat row (mastered/due/new) moved to
  *      the TOP of Explore in v1.95.0 — the weak-spots count is Explore's call to action.
@@ -37,28 +36,21 @@ import { journey } from "../dsl"
  * Mouse claims go through clickByMouse (no scroll-into-view, no interception amnesty).
  */
 
-// the direct-assign open path (openHomeToLatest → History): since the pill's deletion
-// (v1.99.0) that is the landing card's familiarity chip — "study this state"
-const openViaPill = async (page: Page, j: ReturnType<typeof journey>) => {
-  await j.clickByMouse("[data-land-count]", "the landing card's familiarity chip")
+// The logo is the one user-facing pane opener.
+const openViaLogo = async (page: Page, j: Journey) => {
+  await j.clickByMouse(".ng-logo", "the logo (the pane opener)")
   await expect(page.locator(".ng-drill")).toBeVisible()
 }
 
-test("the pill opens History with LIVE tabs — every open path wires the pane", async ({
+test("the logo opens a pane with LIVE tabs", async ({
   page,
 }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaPill(page, j)
+  await openViaLogo(page, j)
 
-  await expect(
-    page.locator('.ng-learning-nav [data-view="history"]'),
-    "the chip's study-this-state lands on History",
-  ).toHaveAttribute("aria-pressed", "true")
-
-  // the bug: these two clicks did nothing when the pane's FIRST open came through a
-  // direct-assign opener (deckOpen set without openPane)
+  await expect(page.locator(".ng-learning-nav"), "the logo exposes the live tab bar").toBeVisible()
   await j.clickByMouse('.ng-learning-nav [data-view="challenges"]', "the Challenges tab")
   await expect(page.locator(".ng-challenge-ladder"), "Challenges renders").toBeVisible()
   await expect(
@@ -78,7 +70,7 @@ test("the anchor keeps the guest save nudge; the stat row lives at the top of Ex
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaPill(page, j)
+  await openViaLogo(page, j)
 
   const anchor = page.locator(".ng-pane-anchor")
   await expect(anchor).toBeVisible()
@@ -205,7 +197,7 @@ test("tabs carry a title over a plain subtitle: mastered %, ladder belt, Last ro
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaPill(page, j)
+  await openViaLogo(page, j)
 
   const nav = page.locator(".ng-learning-nav")
   await expect(nav.locator('[data-view="explore"] > b')).toHaveText("Explore")
@@ -300,7 +292,7 @@ test("the GI/NO-GI choice lives in Settings → Rolling and nowhere else", async
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaPill(page, j)
+  await openViaLogo(page, j)
 
   // v1.95.3, owner: the pill rendered on BOTH Explore and Challenges (`.ng-explorer-tools`,
   // hidden only on History) — one fact, one home. The pane carries no pill on any tab.
@@ -323,7 +315,7 @@ test("a study takeover hides the anchor; leaving the study restores it", async (
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaPill(page, j)
+  await openViaLogo(page, j)
   await expect(page.locator(".ng-pane-anchor")).toBeVisible()
 
   // a direct-assign study entry (openStudy) — the same family of paths the wiring fix covers
@@ -344,7 +336,7 @@ test("no score belt anywhere: Explore is subtitle + stats + lists, nothing else 
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaPill(page, j)
+  await openViaLogo(page, j)
 
   // v1.98.1 (owner): the woven belt + band road left Explore too — the header died in
   // v1.96.0, the Explore mount dies now. The score's ONLY visuals are the Explore tab
@@ -376,7 +368,7 @@ test("settings carries Terms · Privacy — the Learn More submenu that never wa
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  await openViaPill(page, j)
+  await openViaLogo(page, j)
 
   await j.clickByMouse('.ng-drill [title="Settings"]', "the pane footer gear")
   await expect(page.locator("[data-settings-legal]"), "legal links in the first overlay").toBeVisible()
@@ -565,7 +557,7 @@ test.describe("deliberate screens outrank ambient overlays", () => {
     const j = journey(page)
     await j.boot("/")
     await j.land("Mount Top")
-    await openViaPill(page, j)
+    await openViaLogo(page, j)
     await expect(page.locator(".ng-drill")).toBeVisible()
     expect(
       await page.evaluate(() => (window as any).__neural.paused),

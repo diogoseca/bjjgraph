@@ -259,7 +259,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the optimal timing window for initiating the overhead sweep variant from double unders bottom?",
+        "question": "When should you initiate the overhead sweep from double unders bottom?",
         "answer": "The optimal window is the moment the opponent commits maximum forward stacking pressure, driving their weight past your centerline. At this point their center of gravity has moved beyond their base of support, making them vulnerable to being tipped overhead. Attempting the sweep before this commitment meets too much resistance, and attempting after they settle into a stacked position means their weight is already stabilized. You must read the forward drive as it happens and execute simultaneously with their maximum pressure commitment.",
         "answer_line": "Time it to peak forward drive",
         "distractors": {
@@ -315,7 +315,7 @@
         }
       },
       {
-        "question": "What conditions must exist before you should attempt the sweep rather than pursuing guard recovery or deep half entry?",
+        "question": "What conditions must exist before sweeping from double unders instead of recovering guard?",
         "answer": "The sweep should be attempted when three conditions align: you have secure grip control on the opponent's hips or belt, the opponent is actively driving forward pressure rather than settled statically, and your hips retain enough mobility to generate explosive bridging or extension power. If any condition is missing, guard recovery through framing or deep half entry is the safer option. Additionally, the sweep should not be your first response to double unders - establish frames first, then transition to sweep grips if the opportunity presents. Attempting the sweep as your primary response without frames as backup creates excessive risk.",
         "answer_line": "Secure grips + active forward drive",
         "distractors": {
@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "How should you adjust your sweep attempt if the opponent drives through aggressively rather than being swept?",
+        "question": "How do you adjust the double unders sweep if they drive through aggressively instead of being swept?",
         "answer": "If the opponent accelerates their drive through your sweep attempt, you must immediately abandon the sweep and transition to an alternative escape. The most effective option is deep half guard entry on the side they are passing toward, using their forward drive as momentum for your rotation underneath their hips. Thread your bottom arm under their near leg and commit to rotating your body underneath them. Alternatively, if deep half is not available, granby roll away from the passing direction toward turtle position. The key is recognizing the failed sweep early and not continuing to fight for a reversal that has already been neutralized.",
         "answer_line": "Abandon sweep, enter deep half",
         "distractors": {
@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "Your sweep successfully off-balances the opponent but they begin recovering to their knees during the transition - what must you do?",
+        "question": "Your double unders sweep off-balances them but they post to their knees—what must you do?",
         "answer": "You must maintain your grip control and drive your chest forward aggressively to beat them to the top position. The window between successful off-balance and opponent recovery is approximately one to two seconds. Release your sweep grips only after you have established chest-to-chest contact in the top position. If they are already recovering to their knees, switch from seeking side control to establishing a front headlock or snap-down position to maintain top pressure. Never allow a pause between the sweep completion and position consolidation, as any hesitation allows them to re-establish base and neutralize the positional gain.",
         "answer_line": "Drive chest-to-chest to top first",
         "distractors": {
@@ -476,7 +476,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest indicator that the bottom player is setting up a sweep rather than attempting guard recovery?",
+        "question": "Passing double unders, what earliest cue shows a sweep setup rather than guard recovery?",
         "answer": "The earliest indicator is the bottom player's hands moving toward your belt, waistband, or behind your hips rather than framing against your face, neck, or shoulders. Guard recovery attempts use frames that push you away, while sweep setups require grips that pull you in a specific direction. When you feel hands reaching past your hips or gripping your belt, the bottom player has transitioned from defensive escape to offensive reversal. This grip transition should trigger immediate base adjustment or grip stripping before the sweep can be loaded.",
         "answer_line": "Hands reach for belt, not face",
         "distractors": {
@@ -490,7 +490,7 @@
         }
       },
       {
-        "question": "How should you adjust your weight distribution when you detect the bottom player loading an overhead sweep?",
+        "question": "Passing double unders, how do you shift your weight when they load an overhead sweep?",
         "answer": "Immediately shift your weight backward and downward by dropping your hips toward the mat and stepping at least one foot back. This moves your center of gravity behind the tipping point that the overhead sweep requires. Simultaneously, tighten your underhook squeeze to compress the bottom player's legs together, which reduces their ability to extend and generate the upward force needed for the overhead motion. The key is moving your center of gravity rearward without releasing underhook control, which means hip adjustment rather than posture change.",
         "answer_line": "Sit back, tighten underhook squeeze",
         "distractors": {
@@ -518,7 +518,7 @@
         }
       },
       {
-        "question": "What is the relationship between your forward pressure intensity and your vulnerability to the overhead sweep?",
+        "question": "Passing double unders, how does your forward pressure intensity affect overhead sweep risk?",
         "answer": "Forward pressure intensity and overhead sweep vulnerability have a direct proportional relationship: the harder you drive forward, the more vulnerable you become to being tipped overhead. Extreme forward stacking pressure moves your center of gravity past your base, creating the exact condition the overhead sweep exploits. The solution is not to reduce pressure, but to apply pressure through body angle and weight placement rather than explosive forward driving. Progressive, controlled pressure allows you to maintain your center of gravity over your base while still generating the stacking force needed for passing. Think of settling weight rather than pushing forward.",
         "answer_line": "Settle weight, don't push forward",
         "distractors": {
@@ -532,7 +532,7 @@
         }
       },
       {
-        "question": "How should you respond if the bottom player successfully inserts a butterfly hook during the sweep attempt?",
+        "question": "Passing double unders, how do you respond once they insert a butterfly hook for the sweep?",
         "answer": "When a butterfly hook is inserted, the bottom player has gained a powerful sweeping lever that changes the threat from an overhead sweep to a hook sweep. Immediately address the hook by driving your knee inside their hook to collapse it, or shift your hips laterally away from the hook side to reduce its mechanical advantage. If the hook is established too deeply to collapse, transition your passing approach from double unders to an over-under or leg weave configuration that addresses the hook directly. Do not continue attempting to maintain double unders when a butterfly hook has been successfully inserted, as this creates a high-percentage sweep position for the bottom player.",
         "answer_line": "Collapse the hook, change pass",
         "distractors": {

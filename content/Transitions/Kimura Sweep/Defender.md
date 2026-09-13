@@ -88,7 +88,7 @@ description: "How to defend against Kimura Sweep in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "Your opponent opens their guard and posts a foot to begin the sweep drive. What defensive adjustment do you make?",
+      "name": "Defending the Kimura sweep, they open guard and post a foot to drive — what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free hand on the mat on the side they are sweeping you toward while dropping your hip on the opposite side. The posted hand creates a tripod base absorbing the sweep momentum. Simultaneously, attempt to trap their posted foot with your leg to eliminate their driving platform and collapse the sweep mechanics."

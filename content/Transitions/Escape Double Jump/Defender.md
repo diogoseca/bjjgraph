@@ -72,7 +72,7 @@ description: "Learn to defend against the Escape Double Jump as the top player. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully establishes frames and begins extracting their legs—what is your best response?",
+      "name": "They frame and begin extracting their legs from double jump: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If frames are established and extraction is underway, shift focus from preventing the escape to capitalizing on the transition. Target the moment between inside leg extraction and knee shield insertion with a knee slice or backstep pass. Their legs are reorganizing and briefly vulnerable. Chain your passing attempts against their retreating guard rather than trying to drive them back into the failed double jump position."

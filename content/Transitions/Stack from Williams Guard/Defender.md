@@ -72,7 +72,7 @@ description: "Defend against the Stack from Williams Guard in BJJ. Learn recogni
     },
     {
       "@type": "Question",
-      "name": "How should you decide between maintaining shoulder lock grip versus releasing it to defend the stack?",
+      "name": "In Williams Guard, when do you keep the shoulder lock grip versus release it to defend the stack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain the grip as long as you can effectively hip escape and create angles to prevent the stack from folding you. If the stacking pressure has progressed to the point where your hips are elevated over your shoulders and you cannot create defensive angles, release the grip and immediately transition to recovering open guard or half guard frames. A completed stack with grip retention leads to guard pass, while timely release preserves guard recovery options."

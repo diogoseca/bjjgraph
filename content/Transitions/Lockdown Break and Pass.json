@@ -273,7 +273,7 @@
         }
       },
       {
-        "question": "Your opponent starts extending their hips for maximum Electric Chair pressure—what immediate adjustment do you make?",
+        "question": "They extend their hips for Electric Chair pressure: what's your immediate adjustment?",
         "answer": "Drive your chest weight forward harder onto their torso while simultaneously posting your free leg wider for base. Use your free hand to push their far hip flat to the mat, reducing their extension leverage. The forward pressure counters their hip extension and limits the submission threat while you work the escape sequence.",
         "answer_line": "Drive chest forward, flatten far hip",
         "distractors": {
@@ -371,7 +371,7 @@
         }
       },
       {
-        "question": "Your opponent re-catches your ankle as you attempt extraction—what is the critical direction of force for the second attempt?",
+        "question": "They re-catch your ankle mid-extraction: which force direction do you use next?",
         "answer": "Drive your knee toward their hip rather than pulling your heel straight backward. The knee-toward-hip direction reduces the lockdown's mechanical advantage because it aligns your extraction with the weakest axis of the figure-four. Simultaneously use your free hand to cup your own heel and guide it clear of their legs rather than relying solely on leg movement.",
         "answer_line": "Drive knee toward their hip",
         "distractors": {
@@ -518,7 +518,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is your primary goal as the defender when your opponent begins the Lockdown Break and Pass sequence?",
+        "question": "As the lockdown player, what's your main goal when they start breaking and passing?",
         "answer": "Your primary goal is to maintain the lockdown's figure-four configuration by keeping the foot triangle tight and hip extension active, while simultaneously threatening sweeps and submissions that force the opponent to abandon their extraction attempt. If the lockdown cannot be maintained, transitioning to Deep Half Guard before the leg fully clears is the secondary objective.",
         "answer_line": "Keep triangle tight, threaten subs",
         "distractors": {
@@ -532,7 +532,7 @@
         }
       },
       {
-        "question": "You feel your opponent completely relax their trapped leg—what does this indicate and how do you respond?",
+        "question": "They fully relax their trapped leg in your lockdown: what does it mean and how do you respond?",
         "answer": "This indicates they are employing the limp leg concept to reduce the lockdown's grip effectiveness. Respond by increasing your hip extension to compensate for the reduced rigidity. Pull your heel down harder and actively squeeze the foot triangle tighter. Immediately threaten the Old School sweep to force them to re-engage their leg muscles for base, which restores the lockdown's control.",
         "answer_line": "Extend hips, threaten Old School",
         "distractors": {
@@ -546,7 +546,7 @@
         }
       },
       {
-        "question": "Your opponent reaches down with their free hand to separate your feet at the foot triangle—what is your counter?",
+        "question": "They reach down to separate your foot triangle: what's your counter from the lockdown?",
         "answer": "When they release upper body control to reach for the foot triangle, immediately capitalize by threatening the Old School sweep or pulling their far ankle for the Electric Chair submission. Their hand being committed downward means they cannot defend the sweep or maintain crossface. This creates a dilemma: abandon the foot break to defend the sweep, or risk being swept while breaking the lock.",
         "answer_line": "Attack Old School or Electric Chair",
         "distractors": {
@@ -560,7 +560,7 @@
         }
       },
       {
-        "question": "How do you recognize the point of no return when the lockdown is failing and you should transition to Deep Half Guard?",
+        "question": "How do you know the lockdown is past saving and you must go to deep half?",
         "answer": "The critical indicator is when the foot triangle opens and the opponent's knee begins driving successfully toward your hip. At this point, re-engaging the lockdown becomes increasingly unlikely. Additionally, if the opponent has established strong forward pressure with crossface control and you feel their heel clearing your legs, the lockdown is mechanically compromised. Transition to Deep Half Guard immediately by diving under toward their far hip.",
         "answer_line": "Triangle opens, knee clears hip",
         "distractors": {
@@ -588,7 +588,7 @@
         }
       },
       {
-        "question": "Your opponent has broken the foot triangle but hasn't fully extracted their leg yet—what is your best option?",
+        "question": "Your foot triangle is broken but their leg hasn't cleared: what's your best option?",
         "answer": "Immediately transition to Deep Half Guard by releasing the compromised lockdown, diving underneath toward their far hip, and securing a deep underhook around their far thigh. This must happen before their leg fully clears—the partially extracted position actually facilitates the Deep Half entry because their leg is already loosened from your control. Waiting any longer results in a completed pass to side control.",
         "answer_line": "Dive to Deep Half immediately",
         "distractors": {

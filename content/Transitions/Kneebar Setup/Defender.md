@@ -56,7 +56,7 @@ description: "How to defend against Kneebar Setup in BJJ. Recognition cues, defe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from heel hook to kneebar setup?",
+      "name": "What is the earliest cue your opponent is switching from heel hook to kneebar setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker releasing their heel hook grip and beginning to shift both hands toward your ankle and lower leg. This grip transition happens before the body rotation and signals that they are abandoning the rotational attack in favor of an extension attack. Recognizing this grip change gives you the maximum defensive window to intervene."
@@ -72,7 +72,7 @@ description: "How to defend against Kneebar Setup in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured your ankle against their chest and is beginning to elevate their hips—what should your immediate defensive priority be?",
+      "name": "They have your ankle on their chest and are elevating their hips; what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your immediate priority is to rotate your hip and turn your body toward the attacker to relieve extension pressure on the knee. Simultaneously, use your free hand to fight their grip on your ankle and your free leg to push against their hip to create separation. If you cannot break free within seconds, tap rather than risk ligament damage—the knee provides very little warning before injury."

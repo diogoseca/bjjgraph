@@ -56,7 +56,7 @@ description: "Defend the Kimura setup from Shoulder of Justice bottom. Learn rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a Kimura setup is being attempted from Shoulder of Justice?",
+      "name": "What is the earliest cue that a Kimura is being set up from shoulder of justice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a deliberate escalation of shoulder pressure beyond the attacker's normal control level, often accompanied by subtle weight shifting toward your near arm side. This pressure escalation is a bait designed to provoke your near arm to extend. Recognizing this pattern before the arm threading begins gives you maximum time to anchor your arm and prepare your defensive response."

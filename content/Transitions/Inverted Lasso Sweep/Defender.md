@@ -72,7 +72,7 @@ description: "Master defense against the Inverted Lasso Sweep. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What defensive strategy addresses both the sweep and berimbolo threats from inverted lasso guard simultaneously?",
+      "name": "What single defense addresses both the sweep and the berimbolo from inverted lasso guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key strategy is controlling the opponent's free leg while maintaining neutral weight distribution. The free leg is the mechanism that differentiates sweep setup from berimbolo entry: posting on the hip for overhead sweep direction versus threading behind the back for berimbolo rotation. By controlling this leg with your hand or pinning it with your hip, you eliminate both offensive pathways simultaneously. Combined with systematic arm extraction work on the lasso, this addresses the fundamental attacking dilemma without exposing yourself to either attack vector."
@@ -80,7 +80,7 @@ description: "Master defense against the Inverted Lasso Sweep. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully established inverted lasso and begins the sweep motion. What is your highest-percentage defensive response at this point?",
+      "name": "They've set inverted lasso and the sweep motion has started: what's your best defense now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the sweep motion has already started with established angle and momentum, direct resistance against the rotational force is low-percentage and energy-intensive. Your best response is to follow the sweep direction with a cartwheel or counter-rotation, converting their sweep momentum into your passing opportunity. By matching their rotational direction rather than fighting against it, you neutralize the angle advantage while potentially establishing a passing position. This requires committing fully to the counter-movement rather than half-resisting, which typically results in being swept anyway while wasting energy."

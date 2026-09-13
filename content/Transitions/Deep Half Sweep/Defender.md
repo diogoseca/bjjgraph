@@ -56,7 +56,7 @@ description: "Defend the Deep Half Sweep in BJJ. Recognition cues, defensive cou
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is setting up the Deep Half Sweep specifically rather than another attack?",
+      "name": "What cue shows the bottom player is loading the deep half sweep rather than another attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player walking their feet in small steps toward your head. This angle creation is unique to the hip-lift sweep and distinguishes it from the rolling back take which involves turning away from you or the Waiter Sweep which involves their free hand reaching for your far leg. When you feel the foot walking combined with increased shoulder pressure against your inner thigh, the hip-lift sweep is being loaded."

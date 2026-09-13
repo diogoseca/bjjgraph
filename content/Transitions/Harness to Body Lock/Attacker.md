@@ -74,7 +74,7 @@ description: "How to execute the Harness to Body Lock transition in BJJ. Grip sw
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the trigger that tells you to initiate the body lock transition rather than fighting to re-insert hooks?",
+      "name": "Harness top: what tells you to convert to a body lock instead of re-inserting hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trigger is when your opponent clears at least one hook and begins shifting their weight to their feet or knees to stand. Specifically, when you feel their hips rising and their weight moving forward off your lap, and re-inserting the hook would require releasing your harness grip or fighting against their standing posture. At this point, hook re-insertion becomes low percentage and the body lock conversion preserves your positional advantage through a different control system."
@@ -90,7 +90,7 @@ description: "How to execute the Harness to Body Lock transition in BJJ. Grip sw
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins standing but you notice their hands reaching for your wrists to fight the grip - how do you adjust?",
+      "name": "Converting harness to body lock, they reach back for your wrists as they stand. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase your chest pressure to pin their elbows against their ribcage, which limits their ability to reach back for your wrists. Accelerate the grip slide to reach waist level before they can get effective hand control on your wrists. If they do establish wrist control, use a sharp hip bump forward to momentarily break their grip on your wrists, then immediately complete the slide. Your chest pressure is the key tool because it restricts their arm movement range."

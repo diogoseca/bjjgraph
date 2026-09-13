@@ -96,7 +96,7 @@ description: "Execute the Escape from Shoulder of Justice as the bottom player. 
     },
     {
       "@type": "Question",
-      "name": "What specific indicator tells you the opponent's weight has shifted enough to attempt the hip escape?",
+      "name": "What tells you their weight has shifted enough to hip escape Shoulder of Justice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the opponent adjusting their shoulder angle, reaching to establish new grips, shifting their far knee position, or beginning a transition toward a submission setup. Any movement that temporarily lightens their hip-to-hip pressure connection creates the escape window. The most reliable indicator is feeling their hips lift or shift even slightly off your near hip line, which means their weight has redistributed enough for your hip escape to generate meaningful distance."
@@ -104,7 +104,7 @@ description: "Execute the Escape from Shoulder of Justice as the bottom player. 
     },
     {
       "@type": "Question",
-      "name": "Your forearm micro-frame is in place but the opponent drives through it with heavier pressure. How do you respond?",
+      "name": "Your forearm micro-frame holds but they drive heavier pressure: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight the increased pressure by muscling your frame harder, as this leads to rapid forearm fatigue and eventual frame collapse. Instead, maintain your frame position through bone alignment while absorbing the pressure, and wait for the opponent to readjust. Driving heavier pressure requires the opponent to shift their weight forward, which temporarily lightens their hip connection and creates the weight shift window you need for the subsequent hip escape."
@@ -120,7 +120,7 @@ description: "Execute the Escape from Shoulder of Justice as the bottom player. 
     },
     {
       "@type": "Question",
-      "name": "You successfully create space with a hip escape but the opponent begins stepping over for mount. What is your immediate response?",
+      "name": "You make space with a hip escape but they step over for mount: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately redirect your knee shield to block the crossing leg before it clears your body. Your knee should intercept their leg at the thigh level, preventing the mount entry. If you can trap their crossing leg between your knees as it comes over, you recover directly into half guard with the opponent's leg already captured. Speed of knee shield insertion is critical because the mount transition window only lasts one to two seconds."

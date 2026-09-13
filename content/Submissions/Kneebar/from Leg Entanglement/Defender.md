@@ -52,7 +52,7 @@ description: "How to defend the kneebar from leg entanglement in BJJ. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to tap immediately when kneebar finishing pressure begins rather than attempting a late escape?",
+      "name": "Why tap as soon as kneebar finishing pressure starts rather than trying a late escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee joint has minimal tolerance for hyperextension compared to other joints, and the transition from controlled pressure to catastrophic ligament damage can occur in less than one second. Unlike chokes where unconsciousness provides a gradual warning, knee hyperextension can cause immediate PCL tears, MCL ruptures, and meniscus damage before you have time to execute an escape. Attempting explosive escapes under finishing pressure adds dangerous rotational forces that compound the injury risk into potential multi-ligament damage. From leg entanglement, the attacker already has strong positional control, making late escapes even less viable."
@@ -60,7 +60,7 @@ description: "How to defend the kneebar from leg entanglement in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from a heel hook or ankle lock to a kneebar within the leg entanglement?",
+      "name": "What is the earliest cue your opponent is switching from a foot lock to a kneebar in entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the attacker release their grip configuration on your foot or heel and begin pulling your entire lower leg toward their chest while their hips start pivoting perpendicular to your trapped leg. You will simultaneously feel their inside leg transitioning from the ashi garami hook behind your knee to threading across the front of your thigh. Your immediate response must be to aggressively bend your knee and grab your own shin with both hands before the figure-four leg triangle can be established. Acting in this 1-2 second transition window gives you the highest probability of preventing the kneebar from developing."
@@ -68,7 +68,7 @@ description: "How to defend the kneebar from leg entanglement in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Why should you move toward the attacker rather than pulling away when defending a kneebar from leg entanglement?",
+      "name": "Why move toward the attacker instead of pulling away when defending a kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kneebar's mechanical leverage requires distance between the attacker's hips (the fulcrum above your kneecap) and your heel (the distal lever arm). Pulling away increases this distance and actually strengthens the submission by driving your heel deeper into their control and creating a longer, more powerful lever arm for hyperextension. Moving toward the attacker collapses this distance, reducing or eliminating the lever geometry needed for the finish. Sitting up and driving forward also allows you to reach their hands for grip fighting to strip heel control, and a bent knee driven forward into their body is biomechanically resistant to hyperextension."
@@ -76,7 +76,7 @@ description: "How to defend the kneebar from leg entanglement in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent has pivoted perpendicular but has not locked the figure-four leg triangle - what specific defensive actions should you take?",
+      "name": "The attacker is perpendicular but has not locked the figure-four yet: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grab your own knee or shin with BOTH hands using a gable grip or interlocked fingers for maximum security. Pull your trapped leg tight to your chest to prevent the attacker from threading their inside leg across your thigh. Simultaneously begin sitting up toward the attacker by driving your hips forward and lifting your chest. Use your free leg to push against the attacker's hips or look for the opportunity to step over their head and establish a defensive hook. This combined defense attacks two elements the attacker needs: leg isolation through your grip and positional dominance through your posture recovery. Every second of delay in this window makes the figure-four lock more likely."
@@ -84,7 +84,7 @@ description: "How to defend the kneebar from leg entanglement in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Why is attempting an explosive rotational escape the most dangerous defensive error when kneebar finishing pressure is being applied?",
+      "name": "Why is an explosive rotational escape the most dangerous error under kneebar finishing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive rotation while the knee is under hyperextension pressure introduces torsional force in a plane the knee joint is not designed to resist. The knee primarily functions in flexion and extension; adding rotational torque under hyperextension load attacks the anterior cruciate ligament in addition to the posterior cruciate ligament already under stress. This compound loading mechanism can cause simultaneous multi-ligament injury, which is catastrophically worse than a single-ligament tear. Multi-ligament knee injuries often require multiple surgeries, 12+ months of rehabilitation, and may result in permanent joint instability. A controlled tap preserves all ligaments intact and allows immediate return to training."

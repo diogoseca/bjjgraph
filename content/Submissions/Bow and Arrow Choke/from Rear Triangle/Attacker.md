@@ -116,7 +116,7 @@ description: "Learn to execute the Bow and Arrow Choke from Rear Triangle. Step-
     },
     {
       "@type": "Question",
-      "name": "Your initial collar grip is catching the jaw instead of the neck - how do you adjust without losing position?",
+      "name": "Your collar grip is catching the jaw, not the neck — how do you fix it without losing position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not force the extension with a jaw grip. Instead, momentarily loosen the collar grip slightly while using your free hand to cross-face the opponent and turn their chin away from your choking hand. This exposes the neck and allows you to walk your fingers deeper into the collar past the mandible. Once you feel the wrist blade contact the lateral neck, re-secure the pants grip and proceed with the extension. Patience during the grip adjustment prevents jaw injuries."

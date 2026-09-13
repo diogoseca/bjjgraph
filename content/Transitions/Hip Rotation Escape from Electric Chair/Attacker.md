@@ -74,7 +74,7 @@ description: "Complete guide to executing the hip rotation escape from Electric 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the key indicators that tell you the electric chair attack is failing and it is time to initiate the hip rotation escape?",
+      "name": "What cues tell you to bail from the electric chair into the hip rotation escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary indicators are: the top player successfully applying the limp leg technique to neutralize your lockdown tension, loss of underhook depth as the opponent establishes crossface or whizzer control, the top player driving heavy forward pressure that flattens your splitting angle, or the opponent beginning to systematically address the foot triangle of your lockdown. When two or more of these indicators are present simultaneously, the electric chair attack has diminishing returns and the bail-out should be executed before the position deteriorates further."
@@ -98,7 +98,7 @@ description: "Complete guide to executing the hip rotation escape from Electric 
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy forward pressure as you begin releasing the lockdown - how do you adjust your rotation?",
+      "name": "They drive heavy forward pressure as you release the lockdown: how do you rotate?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the opponent's forward pressure to your advantage by redirecting it into your rotation. Their forward momentum means their weight is committed away from their base, making them lighter on your hips. Accelerate the hip rotation and use the space created by their forward drive to complete the movement. If the pressure pins you completely flat before the rotation starts, abandon the attempt, re-engage the lockdown if possible, and wait for a better moment when their weight shifts."

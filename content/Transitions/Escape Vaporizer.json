@@ -259,7 +259,7 @@
     ],
     "flashcards": [
       {
-        "question": "What signals indicate that your Vaporizer position has become unproductive and a transition to open guard is warranted?",
+        "question": "What signals that your Vaporizer has stalled and you should transition to open guard?",
         "answer": "Key indicators include the opponent consistently neutralizing your whip-up motion through base widening, their establishment of a strong whizzer that prevents your underhook from generating leverage, repeated failed sweep attempts, and the opponent beginning to systematically work on clearing your lockdown. Energy expenditure exceeding offensive output is the clearest signal—if you are working harder to maintain the position than the opponent is working to escape it, the position has become counterproductive and a tactical reset to open guard offers better returns.",
         "answer_line": "Effort now exceeds your gains",
         "distractors": {
@@ -287,7 +287,7 @@
         }
       },
       {
-        "question": "Your opponent begins driving forward pressure just as you start loosening the lockdown—what is the correct response?",
+        "question": "They drive forward as you start loosening the lockdown: what is the correct response?",
         "answer": "Immediately abort the escape attempt and re-tighten the lockdown figure-four. Forward momentum from the opponent makes the transition extremely dangerous because they will drive through any incomplete frame before it can be established. Wait for their pressure to settle before attempting the release again. If you cannot re-establish the full lockdown, transition to knee shield half guard as a defensive fallback rather than trying to complete the open guard transition under heavy forward pressure.",
         "answer_line": "Re-tighten the lockdown now",
         "distractors": {
@@ -315,7 +315,7 @@
         }
       },
       {
-        "question": "How does the Escape Vaporizer differ mechanically from simply having your lockdown cleared by the opponent?",
+        "question": "How does escaping the Vaporizer yourself differ mechanically from having your lockdown cleared?",
         "answer": "When you initiate the escape, you control the timing and sequence of the lockdown release, allowing you to coordinate frames, grips, and distance creation proactively. When the opponent clears your lockdown, they dictate the timing and typically do so while simultaneously advancing their passing position. The key difference is initiative—a proactive release lets you establish defensive structures before the lockdown opens, while a forced clearing leaves you reacting to passing pressure without preparation.",
         "answer_line": "You control the timing",
         "distractors": {
@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "What is the optimal timing window for initiating the lockdown release relative to the opponent's movement cycle?",
+        "question": "When in your opponent's movement cycle should you release the lockdown?",
         "answer": "Initiate the release when the opponent's weight is settled and they are between defensive adjustments—specifically when they have just completed a base widening or weight shift and are momentarily static. Avoid releasing during any of their active movements or when they are generating forward drive. The ideal window occurs during a pause in their defensive sequence when their muscular tension is slightly reduced and reaction time is marginally slower.",
         "answer_line": "When they're static, not moving",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "Your opponent grabs your ankle as you attempt to place your foot on their hip during the transition—how do you recover?",
+        "question": "They grab your ankle as you place your foot on their hip: how do you recover?",
         "answer": "Use your underhook to pull their upper body toward you, which compromises their ability to maintain the ankle grip with full strength. Simultaneously circle your foot to break the grip using rotational force rather than pulling directly away from their hand. If the grip holds, re-establish the lockdown temporarily rather than fighting for foot placement in a compromised position. A failed transition attempt where you recover to lockdown is far better than being caught in a half-completed escape where neither position is secure.",
         "answer_line": "Circle foot, pull with underhook",
         "distractors": {
@@ -471,7 +471,7 @@
         }
       },
       {
-        "question": "Why should you advance your previously trapped leg forward rather than pulling it backward when the lockdown releases?",
+        "question": "Once the lockdown releases, why drive your freed leg forward instead of pulling it back?",
         "answer": "Advancing the leg forward maintains pressure on the bottom player and immediately positions you for passing. The leg should become a passing tool—cutting through for a knee slice or driving forward for a pressure pass. Pulling the leg backward creates space between you and the opponent, which is exactly what they need to establish open guard frames and distance. Your previously trapped leg transitions from liability to weapon in one smooth forward motion.",
         "answer_line": "Drive it forward as a weapon",
         "distractors": {
@@ -485,7 +485,7 @@
         }
       },
       {
-        "question": "How do you balance capitalizing on the lockdown release with defending against the underhook the bottom player still maintains?",
+        "question": "How do you exploit the lockdown release while their underhook is still live?",
         "answer": "Address the underhook simultaneously with your forward pressure. As you drive forward, establish a whizzer or crossface with your near arm to neutralize the underhook's pulling power. Do not ignore the underhook to chase ankle grips—a live underhook during a positional scramble gives the bottom player sweep opportunities that can reverse the position entirely. The correct sequence is: feel release, drive forward, establish crossface or whizzer, then advance passing position.",
         "answer_line": "Kill underhook while driving in",
         "distractors": {
@@ -499,7 +499,7 @@
         }
       },
       {
-        "question": "Your opponent releases the lockdown and successfully places both feet on your hips—what passing sequence should you initiate?",
+        "question": "They release the lockdown and get both feet on your hips: what passing sequence do you start?",
         "answer": "Once feet are on your hips, the transition to open guard is largely complete and you must shift to standard open guard passing strategy. Strip one foot off your hip by pushing the knee to the side while maintaining your other hand on their collar or wrist for posture control. Alternatively, grip both pant legs at the knees and initiate a toreando pass by directing their legs to one side while stepping around. Act quickly before they establish upper body grips that complete the full open guard configuration.",
         "answer_line": "Strip a foot, control the collar",
         "distractors": {

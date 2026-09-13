@@ -90,7 +90,7 @@ description: "How to execute Pass to Side Control in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins hip escaping as soon as you start extracting your inside leg - what adjustment prevents guard recovery?",
+      "name": "Passing 50-50, they hip escape as you extract your inside leg. What adjustment stops guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward pressure more aggressively with your chest and immediately plant your freed knee on their hip or in their hip crease. This blocks their knee insertion path. If their hip escape is faster than your knee plant, accelerate the entire sequence rather than slowing down - speed beats their recovery timing."
@@ -98,7 +98,7 @@ description: "How to execute Pass to Side Control in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Why is sequential leg extraction (inside first, then outside) critical rather than extracting both simultaneously?",
+      "name": "Passing 50-50, why extract the inside leg first rather than pulling both legs out at once?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extracting both legs simultaneously removes all control points from opponent's hip line, creating space for them to bump, roll, or recover guard. Sequential extraction maintains constant pressure - inside leg extracts and knee immediately plants on hip, then outside leg clears while that knee blocks. Always maintain at least one control point."
@@ -421,7 +421,7 @@ Pass to Side Control from 50-50 is generally low-risk for both practitioners whe
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">3-point scoring transition fundamental to IBJJF competition success</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">3-point scoring transition fundamental to IBJJF competition success</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

@@ -64,7 +64,7 @@ description: "Learn to defend against and capitalize on the Escape Vaporizer in 
     },
     {
       "@type": "Question",
-      "name": "Why should you advance your previously trapped leg forward rather than pulling it backward when the lockdown releases?",
+      "name": "Once the lockdown releases, why drive your freed leg forward instead of pulling it back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Advancing the leg forward maintains pressure on the bottom player and immediately positions you for passing. The leg should become a passing tool—cutting through for a knee slice or driving forward for a pressure pass. Pulling the leg backward creates space between you and the opponent, which is exactly what they need to establish open guard frames and distance. Your previously trapped leg transitions from liability to weapon in one smooth forward motion."
@@ -72,7 +72,7 @@ description: "Learn to defend against and capitalize on the Escape Vaporizer in 
     },
     {
       "@type": "Question",
-      "name": "How do you balance capitalizing on the lockdown release with defending against the underhook the bottom player still maintains?",
+      "name": "How do you exploit the lockdown release while their underhook is still live?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the underhook simultaneously with your forward pressure. As you drive forward, establish a whizzer or crossface with your near arm to neutralize the underhook's pulling power. Do not ignore the underhook to chase ankle grips—a live underhook during a positional scramble gives the bottom player sweep opportunities that can reverse the position entirely. The correct sequence is: feel release, drive forward, establish crossface or whizzer, then advance passing position."
@@ -80,7 +80,7 @@ description: "Learn to defend against and capitalize on the Escape Vaporizer in 
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the lockdown and successfully places both feet on your hips—what passing sequence should you initiate?",
+      "name": "They release the lockdown and get both feet on your hips: what passing sequence do you start?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once feet are on your hips, the transition to open guard is largely complete and you must shift to standard open guard passing strategy. Strip one foot off your hip by pushing the knee to the side while maintaining your other hand on their collar or wrist for posture control. Alternatively, grip both pant legs at the knees and initiate a toreando pass by directing their legs to one side while stepping around. Act quickly before they establish upper body grips that complete the full open guard configuration."

@@ -84,7 +84,7 @@ description: "Learn to attack with the Williams Shoulder Lock from Williams Guar
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to posture up and stack during the submission attempt—what adjustment prevents escape?",
+      "name": "They posture and stack against your Williams shoulder lock — what adjustment prevents the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent postures and stacks, immediately use your outside leg to push against their hip and restore the distance your leg frames require. Simultaneously re-angle your hips further away from their trapped arm side to maintain rotational pressure. If they continue stacking, transition your inside leg to a higher frame on their shoulder to prevent further compression. Stacking without addressing leg frames is ineffective—your frames maintain the space the lock needs."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Williams Shoulder Lock from Williams Guar
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward aggressively instead of pulling back—how do you convert this into a finish?",
+      "name": "They drive forward instead of pulling back in Williams guard — how do you convert that to a finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward drive is advantageous for your attack chains. Use their momentum to accelerate the omoplata transition—swing your outside leg over their shoulder as they drive forward, converting their force into rotational energy that either finishes the original shoulder lock at a sharper angle or transitions directly to omoplata control. Never fight forward pressure statically; redirect it into your submission and sweep chains where their energy works for you."

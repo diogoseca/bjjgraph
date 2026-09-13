@@ -72,7 +72,7 @@ description: "Defend against the collar sleeve to De La Riva guard transition. R
     },
     {
       "@type": "Question",
-      "name": "How should your passing strategy change if the transition succeeds and you find yourself in established DLR guard?",
+      "name": "They complete the DLR transition on you: how does your passing strategy change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch from collar sleeve passing strategies to DLR-specific counters. Priority becomes stripping the ankle grip first, then addressing the hook through backstep or smash pressure. Do not attempt lateral toreando passes without first clearing the hook, as the DLR hook converts your lateral passing momentum into sweeping momentum. Consider long step passes or backstep passes that specifically address the hook position. Maintain posture and hip distance to prevent berimbolo entries."

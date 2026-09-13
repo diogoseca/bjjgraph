@@ -80,7 +80,7 @@ description: "Defend against Gift Wrap Maintenance in BJJ. Learn to recognize co
     },
     {
       "@type": "Question",
-      "name": "Your attacker begins threatening a rear naked choke between maintenance cycles—how does this change your escape strategy?",
+      "name": "They threaten a rear naked choke between Gift Wrap cycles: how does your escape plan change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke threat actually creates an escape opportunity if managed correctly. When the attacker commits their free arm to the choke attempt, their overall positional control temporarily decreases because they are redirecting attention toward the finish. Defend the choke with your free arm first, then immediately exploit the reduced positional control to attempt arm recovery or hip escape before they re-establish full maintenance."

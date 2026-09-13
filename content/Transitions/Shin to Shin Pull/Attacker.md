@@ -68,7 +68,7 @@ description: "How to execute Shin to Shin Pull in BJJ. Attacking perspective wit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary purpose of establishing the shin-to-shin connection before completing the guard pull?",
+      "name": "Why establish the shin-to-shin connection before completing the guard pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shin-to-shin connection serves as a distance management tool and structural frame that prevents the opponent from immediately establishing strong top pressure or passing grips. By creating this connection first, you ensure that when you pull to guard, you have a control point that disrupts their base and posture, allowing you to maintain offensive initiative. Without this connection, you would simply be sitting in front of an opponent who has superior position and pressure."
@@ -76,7 +76,7 @@ description: "How to execute Shin to Shin Pull in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "How should you coordinate your grip pull with your shin pressure to create maximum off-balancing effect?",
+      "name": "How do you coordinate your grip pull with shin pressure for maximum off-balancing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip should pull the opponent forward and slightly downward while the shin simultaneously extends and pressures into their shin at a perpendicular angle. This creates a scissoring effect where their upper body is being pulled forward while their lower leg is being controlled and pushed, disrupting their base from two directions simultaneously. The timing should be synchronized so both forces are applied at the same moment, preventing them from compensating with posture or stance adjustments."
@@ -84,7 +84,7 @@ description: "How to execute Shin to Shin Pull in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What are the three primary tactical roles of the free leg (non-shin-to-shin leg) during and after the pull?",
+      "name": "What are the three tactical roles of your free leg during and after the shin-to-shin pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, the free leg can post on the mat to provide base and mobility, allowing you to scoot and adjust angles. Second, it can hook behind the opponent's far knee to create X-guard or single leg X-guard entries and immediate sweeping threats. Third, it can frame against the opponent's hip or shoulder if they drive forward with pressure, preventing them from flattening you and maintaining your guard structure. The leg should remain active and transition between these roles based on opponent reactions."
@@ -92,7 +92,7 @@ description: "How to execute Shin to Shin Pull in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent steps backward and disengages their shin from your connection immediately after the pull?",
+      "name": "After your shin-to-shin pull, they step back and break the shin connection — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have several options depending on the degree of disengagement. If they take a small step back, scoot forward on your seat to re-establish connection, using your grip to prevent them from creating too much distance. If they take a larger step back, you can technical stand up to pursue the connection or transition to a different guard pull approach. Alternatively, you can switch to butterfly hooks or a standing guard position to maintain engagement. The key is to not remain static in a disconnected seated position where you have no control."
@@ -100,7 +100,7 @@ description: "How to execute Shin to Shin Pull in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What are the biomechanical differences between the shin-to-shin pull in gi versus no-gi, and how should your execution adapt?",
+      "name": "How should shin-to-shin pull execution differ in no-gi versus gi, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In gi, you have more reliable grip control on sleeves or collar, allowing you to take slightly more time establishing position and using stronger pulling forces. The gi also provides friction that helps maintain shin connection. In no-gi, grips are less secure so the pull must be executed faster and more explosively. Without sleeve control, you typically need to establish wrist control, underhook, or collar tie, and the shin connection becomes more critical since upper body grips are easier to break. No-gi requires tighter connection and more immediate transition to sweeping positions to prevent disengagement."
@@ -108,7 +108,7 @@ description: "How to execute Shin to Shin Pull in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to immediately threaten sweeps or transitions after establishing the shin-to-shin guard rather than holding a static position?",
+      "name": "Why threaten sweeps immediately after establishing shin-to-shin instead of holding it statically?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Holding a static shin-to-shin position allows the opponent to settle their base, establish strong passing grips, and begin systematic passing sequences. By immediately threatening sweeps (like elevating for sweep, extending to single leg X, or inverting to deep half), you force the opponent to respond defensively, preventing them from consolidating their position. This offensive pressure keeps them off-balance mentally and physically, maintaining the guard player's initiative and making passing more difficult. Static guard positions are easier to pass than dynamic, threatening guard positions."

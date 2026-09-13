@@ -72,7 +72,7 @@ description: "How to defend against Knee on Belly in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent is transitioning from Side Control to Knee on Belly - what is the optimal defensive timing?",
+      "name": "They are moving from side control to knee on belly—when is the optimal moment to defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The best moment to defend is during the transition itself, when the opponent lifts their chest to place the knee. This is the brief window where their weight is reduced and their control is weakest. Use this moment to shrimp your hips away and insert a knee shield before they can settle. Once the knee is established with full weight, escape becomes significantly harder."

@@ -96,7 +96,7 @@ description: "How to execute Truck Position Entry in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on the mat as they drop, blocking your leg from threading underneath. How do you adjust?",
+      "name": "They post a hand as they drop, blocking your truck hook—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your chest pressure to drive the opponent's upper body past their posting hand, collapsing their arm and creating the space needed for your hook. Alternatively, change the angle of your hook entry by swinging your leg slightly more toward their far hip rather than directly under their center. If the post is too strong, abandon the Truck entry and transition to a standard back take by inserting hooks, then look for Truck entry opportunities later from grounded back control."
@@ -120,7 +120,7 @@ description: "How to execute Truck Position Entry in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "The opponent grabs your hooking leg with both hands during the entry. What opportunity does this create?",
+      "name": "They grab your hooking leg with both hands during the truck entry—what does that open?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent commits both hands to stripping your leg hook, their neck and arms become completely undefended. This creates an immediate opportunity to attack the rear naked choke by sliding your choking arm under their chin while they focus on your leg. Alternatively, you can switch to hooking with the opposite leg on their other side while their hands are occupied. Their defensive choice to address your leg has traded neck defense for leg defense, which is a favorable exchange for the attacker."

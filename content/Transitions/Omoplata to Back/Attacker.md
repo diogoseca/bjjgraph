@@ -80,7 +80,7 @@ description: "How to execute the Omoplata to Back transition in BJJ. Step-by-ste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary trigger that tells you to abandon the omoplata finish and commit to the back take?",
+      "name": "What is the main trigger to abandon the omoplata finish and commit to the back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is when your opponent commits to a forward roll over their trapped shoulder. You will feel them shift weight forward, tuck their chin, and drive over the shoulder. Once this rolling motion initiates, the back take becomes significantly higher percentage than insisting on the shoulder lock. Recognizing this weight shift early gives you maximum time to prepare for the transition."
@@ -88,7 +88,7 @@ description: "How to execute the Omoplata to Back transition in BJJ. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the forward roll but does it explosively to create separation - how do you adjust?",
+      "name": "They roll forward explosively to create separation: how do you adjust the omoplata to back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pre-emptively tighten your outside leg's connection to their shoulder girdle the moment you feel them loading weight forward. If separation still occurs, do not chase the lost back take. Instead, immediately pursue to turtle top position where you can attack with front headlock, darce choke, anaconda choke, or crucifix entries. The key is recognizing the separation early and transitioning to an appropriate follow-up rather than chasing a lost position."
@@ -120,7 +120,7 @@ description: "How to execute the Omoplata to Back transition in BJJ. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully turns into you after the roll instead of giving up their back - what are your options?",
+      "name": "They turn in to face you after the roll instead of giving up the back: your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent successfully faces you after the roll, you have several recovery options depending on how much control you retained. If you have an overhook on their formerly trapped arm, pull closed guard with the overhook and immediately threaten triangle or re-enter the omoplata. If you have no grips, establish closed guard and work standard guard attacks. The key is accepting the position change and immediately transitioning to your guard game rather than trying to force the back take."
@@ -418,8 +418,8 @@ The omoplata to back transition is generally safe to practice but requires speci
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Chain progression when Omoplata is defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Position advancement when opponent rolls forward</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Chain progression when Omoplata is defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Omoplata-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard to Omoplata System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Position advancement when opponent rolls forward</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

@@ -74,7 +74,7 @@ description: "How to execute Underhook Pass in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is securing the underhook before attempting to flatten the opponent critical to the success of this pass?",
+      "name": "In the underhook pass, why secure the underhook before flattening your opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The underhook provides the primary control mechanism that prevents the bottom player from turning into you or establishing their own underhook. Without it, the opponent can easily create frames, turn to face you, or initiate sweeps. The underhook acts as both offensive control (allowing you to manipulate their posture) and defensive protection (preventing their offensive options from half guard). Attempting to flatten without the underhook results in a scramble situation where the bottom player has equal or superior control options."
@@ -82,7 +82,7 @@ description: "How to execute Underhook Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What is the primary purpose of controlling the opponent's near hip during the underhook pass, and what happens if this control is neglected?",
+      "name": "In the underhook pass, why control their near hip, and what happens if you neglect it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlling the near hip prevents the opponent from shrimping to create the angle and distance needed to recover guard or initiate sweeps. The hip is the mobility center of the bottom player's defensive movement. Without this control, even with a good underhook and crossface, the opponent can hip escape away, creating space to re-establish their guard structure or insert knee shields. The near hip control works in conjunction with the underhook to create a pinning system that immobilizes the opponent's core."
@@ -90,7 +90,7 @@ description: "How to execute Underhook Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Explain the biomechanical principle behind driving your shoulder into the opponent's chest while maintaining the underhook, and how this creates a flattening effect?",
+      "name": "How does driving your shoulder in while pulling the underhook flatten your opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shoulder drive creates a cross-body lever system where opposing forces work simultaneously. The underhook pulls their far shoulder toward you while your near shoulder pushes their near shoulder away from you. This creates rotational torque that flattens their spine against the mat. Additionally, the shoulder pressure on the chest restricts diaphragm expansion, making it uncomfortable to maintain a defensive posture on their side. The weight distribution through the shoulder transfers your body mass efficiently onto their frame, collapsing their structure without requiring you to lift your hips, which would create escape space."
@@ -98,7 +98,7 @@ description: "How to execute Underhook Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "How should you respond if the opponent establishes a lockdown on your trapped leg while you have the underhook position?",
+      "name": "They lock a lockdown on your trapped leg while you hold the underhook — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, maintain all upper body control (underhook and crossface) to prevent sweeps while addressing the lockdown. Focus on breaking the lockdown by driving your trapped ankle toward the mat, creating a figure-four breaking position with your legs. Keep your weight forward and low to prevent the opponent from using the lockdown to create angles for electric chair or other attacks. If necessary, temporarily abandon leg extraction and work to break the lockdown first, potentially by driving your free knee across their body to relieve pressure on the trapped leg, then return to standard passing mechanics once the lockdown is broken."
@@ -106,7 +106,7 @@ description: "How to execute Underhook Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What are the key differences in executing the underhook pass against a knee shield half guard versus a traditional half guard with no shield?",
+      "name": "How does the underhook pass differ against a knee shield versus a flat half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against knee shield, the primary challenge is dealing with the extended frame that prevents chest-to-chest pressure. You must first address the knee shield by either controlling the knee and driving it to the mat, stepping over it, or transitioning to a different passing angle (like knee cut). The underhook remains important but the crossface pressure is harder to establish initially. Against traditional half guard without knee shield, you can more directly establish chest-to-chest pressure and begin the flattening process immediately. The traditional half guard allows faster entry into the flattening phase but may have stronger lockdown or underhook battle threats, while knee shield provides more initial defensive structure but less sweep threat once bypassed."
@@ -114,7 +114,7 @@ description: "How to execute Underhook Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Why is it important to keep your base wide with your free leg during the underhook pass, and how does this affect your passing mechanics?",
+      "name": "Why keep your free leg base wide during the underhook pass, and how does it aid the pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A wide base with the free leg posted creates stability against the opponent's bridging, hip bump, and off-balancing attempts. With your weight forward and one leg trapped, you're potentially vulnerable to sweeps if your base is narrow. The wide post allows you to distribute weight effectively while maintaining mobility to adjust to the opponent's movements. It also creates the angle needed to drive your trapped knee across their thigh during leg extraction. A narrow base makes you top-heavy and easy to tip over, while a wide base allows you to stay heavy on top while remaining structurally sound and able to generate the hip movement needed to clear your trapped leg."

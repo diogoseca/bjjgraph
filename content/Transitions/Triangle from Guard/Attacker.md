@@ -74,7 +74,7 @@ description: "How to execute Triangle from Guard in BJJ. Attacking perspective w
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary goal of Triangle from Guard and how does it differ from a standard closed guard triangle setup?",
+      "name": "What is the goal of the Mission Control triangle, and how does it differ from closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary goal is to transition from Mission Control into a locked Triangle Control position. Unlike a standard closed guard triangle that requires creating angle and isolating head and arm from scratch, the Mission Control triangle leverages pre-existing shoulder isolation, broken posture, and arm isolation. The opponent is already structurally compromised, making the entry significantly higher-percentage because half the work is already done by the Mission Control position."
@@ -82,7 +82,7 @@ description: "How to execute Triangle from Guard in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What specific movement from the opponent serves as the optimal trigger for initiating the leg swing across their face?",
+      "name": "Which opponent movement best triggers the leg swing across the face from Mission Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's postural recovery attempt, specifically when they drive weight backward and lift their head to escape Mission Control. This upward movement creates the space needed for the leg to cross the face and actually assists the transition because the opponent's defensive momentum carries their head into the closing triangle. Attempting the entry while the opponent's posture is fully broken down is significantly harder because there is no space for the leg to travel."
@@ -90,7 +90,7 @@ description: "How to execute Triangle from Guard in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand on the mat during your triangle entry attempt. How do you adjust your execution?",
+      "name": "They post a free hand on the mat during your triangle entry: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posted hand creates base that can prevent the angle cut and assist their stacking defense. Immediately attack the posting arm by pushing it across your body, which both eliminates their base and can isolate a second arm for an armbar threat. Alternatively, use the posting arm as leverage to complete a more aggressive hip pivot for the angle, sweeping them over the posted arm. A posted hand actually creates a vulnerability if recognized and attacked rather than ignored."
@@ -98,7 +98,7 @@ description: "How to execute Triangle from Guard in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to maintain at least one hand on head control throughout the entire leg transition?",
+      "name": "Why must you keep at least one hand on head control through the whole leg transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Head control prevents the opponent from recovering posture during the vulnerable transition window when the outside leg is moving from shoulder control to the neck. Without head control, the opponent can lift their head and create enough space to prevent the leg from crossing or to begin a stacking defense before the triangle locks. Even a momentary release of all head control can provide enough time for posture recovery that kills the attack entirely. One hand stays on the head while the other can assist leg placement if needed."
@@ -106,7 +106,7 @@ description: "How to execute Triangle from Guard in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What is the mechanical difference between squeezing the triangle without an angle versus cutting a perpendicular angle first?",
+      "name": "Mechanically, why does cutting a perpendicular angle beat squeezing the triangle square-on?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Without an angle, leg pressure compresses the front and back of the neck, which is uncomfortable but does not restrict blood flow to the brain. Cutting a perpendicular angle repositions the legs so that one thigh compresses one carotid artery while the opponent's own trapped shoulder compresses the other carotid artery. This bilateral arterial compression is what causes the blood choke that leads to unconsciousness. The angle is the difference between a squeeze and an actual choke."
@@ -114,7 +114,7 @@ description: "How to execute Triangle from Guard in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stacking you after you lock the figure-four but before you cut the angle. What are your options?",
+      "name": "They stack you after you lock the figure-four but before you cut the angle: what are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three primary options exist. First, accept the stack and use their forward pressure to roll into an omoplata by uncrossing the legs and rotating underneath, converting their defensive stack into an offensive sweep or submission. Second, use the stack momentum to elevate into a higher triangle position, scooting your hips backward to create a sharper angle despite their forward pressure. Third, if the stack is severe, release to a scramble and re-enter Mission Control using your remaining hooks and head control rather than fighting a losing battle from a stacked position."
@@ -438,8 +438,8 @@ The Triangle from Guard involves significant pressure on the cervical spine and 
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Primary submission finish from rubber guard</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Primary submission finish of the system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Primary submission finish from rubber guard</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Rubber-Guard-to-Triangle-System" data-cta="related-system-card" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-member-count="22"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Rubber Guard to Triangle System</span><span class="system-card__unlocks-badge">Unlocks 22 techniques</span><span class="system-card__blurb">Primary submission finish of the system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

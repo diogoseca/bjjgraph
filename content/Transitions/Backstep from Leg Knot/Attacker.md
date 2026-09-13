@@ -98,7 +98,7 @@ description: "Execute the Backstep from Leg Knot to escape leg entanglements and
     },
     {
       "@type": "Question",
-      "name": "When should you choose to backstep and pass rather than continue hunting leg lock submissions from leg knot?",
+      "name": "From leg knot, when should you backstep and pass instead of hunting leg lock finishes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Choose the backstep when the opponent has strong heel hook defense and your submission threats are being neutralized, when the entanglement is neutral rather than advantageous for finishing, in points-based competition where three points for the pass outweigh the risk of a leg lock exchange, or when your energy is depleting and a positional pin allows recovery while maintaining control."

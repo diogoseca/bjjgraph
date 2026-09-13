@@ -58,7 +58,7 @@ description: "How to defend against Chin Strap Guillotine in BJJ. Recognition, e
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you recognize a chin strap guillotine is being set up?",
+      "name": "What is the most important first defensive action against a chin strap guillotine setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The single most important action is tucking your chin tightly to your chest to prevent the attacker's forearm from threading underneath your jaw. The chin tuck physically blocks the choking arm from reaching the proper position under the chin, which is essential for the figure-four configuration. Without the forearm blade positioned under the chin, the attacker cannot create the bilateral carotid compression that makes this choke effective. This must happen before any other defensive action - fighting grips, framing, or attempting positional escapes all come after protecting the chin."
@@ -66,7 +66,7 @@ description: "How to defend against Chin Strap Guillotine in BJJ. Recognition, e
     },
     {
       "@type": "Question",
-      "name": "Why is pulling your head straight backward the worst possible defensive response against the chin strap guillotine?",
+      "name": "Why is pulling your head straight back the worst response to a chin strap guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling straight backward is catastrophic because it stretches your neck directly into the attacker's forearm blade, dramatically increasing the compression on your carotid arteries and windpipe. The chin strap grip is designed so that backward movement of the head tightens the choke - the attacker is already pulling your chin toward their chest, and your backward pull adds to that force vector. Instead, you must escape perpendicular to the choking force by turning your body sideways, circling, or rolling through. Any lateral or forward movement disrupts the choking angle, while backward movement accelerates it."
@@ -74,7 +74,7 @@ description: "How to defend against Chin Strap Guillotine in BJJ. Recognition, e
     },
     {
       "@type": "Question",
-      "name": "At what stage of the chin strap setup is your defense most likely to succeed, and what specific action should you take?",
+      "name": "When is chin strap defense most likely to work, and what action should you take then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defense is most likely to succeed before the figure-four grip is fully established - specifically, when the attacker's choking hand is still threading under your chin but has not yet connected to the opposite bicep. At this stage, you should use both hands to fight the choking arm at the wrist, pulling it away from your chin while simultaneously tucking your chin to your chest. Once the hand-to-bicep connection is made and the opposite hand is placed behind your head, the grip becomes extremely difficult to break because the attacker has a closed mechanical loop. The window between threading and locking is typically 1-3 seconds, so immediate recognition and response are critical."
@@ -82,7 +82,7 @@ description: "How to defend against Chin Strap Guillotine in BJJ. Recognition, e
     },
     {
       "@type": "Question",
-      "name": "How does the defender's body positioning relative to the attacker affect the effectiveness of the chin strap choke?",
+      "name": "How does your body position relative to the attacker affect the chin strap choke's power?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The chin strap is most effective when the defender's body is positioned directly in front of the attacker with their head to one side, allowing the attacker's shoulder to drive cleanly into the near-side carotid. By turning your body toward the attacker (closing the angle), you reduce the space available for the shoulder drive and decrease the near-side carotid compression. Turning away exposes the far side but can create scramble opportunities. The key insight is that the choke requires a specific spatial relationship between the attacker's shoulder, your neck, and the choking forearm. Changing that geometry through body positioning directly reduces choking effectiveness even without stripping the grip."
@@ -90,7 +90,7 @@ description: "How to defend against Chin Strap Guillotine in BJJ. Recognition, e
     },
     {
       "@type": "Question",
-      "name": "If the chin strap is fully locked with both grip and leg control, what is your last-resort escape option?",
+      "name": "With the chin strap fully locked including leg control, what is your last-resort escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the chin strap is fully locked with figure-four grip and leg control established, your last-resort option is to roll through toward the choking arm side. This roll disrupts the choking angle by inverting the spatial relationship between your neck and the attacker's arms. As you roll, the shoulder drive loses its compression angle, creating a brief window where the choke loosens. Use this moment to fight the grip with both hands and extract your chin. This is high-risk because the attacker may follow the roll and finish from mount, but it is preferable to remaining in a fully locked choke where the finish is inevitable. You must also tap immediately if the choke tightens during the roll attempt rather than continuing to fight a lost position."

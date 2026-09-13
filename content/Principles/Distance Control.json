@@ -1,6 +1,6 @@
 {
   "name": "Distance Control",
-  "description": "Master Distance Control in BJJ. Learn frame mechanics, hip escape principles, bridging techniques, and defensive applications across positions with proven training methods.",
+  "description": "Manage distance in BJJ from either role: create space to escape, close it to connect and pin, and change range for guard play, passing, takedowns, and submissions.",
   "tags": [
     "bjj",
     "principle",
@@ -15,10 +15,10 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "summary": "Distance Control is the defensive principle of generating and managing the space between your body and an opponent's controlling position, using frames, hip movement, and bridging to turn compression into the room required to escape.",
-  "overview": "Few skills separate a calm, methodical defender from a panicking one as clearly as Distance Control, and it sits beneath virtually every escape sequence in Brazilian Jiu-Jitsu. Creating space is the prerequisite for recovering guard, changing positions, or executing technical stand-ups, which is why instructors drill shrimps and bridges from a practitioner's very first class. The principle operates on a simple biomechanical reality: compression equals control, and space equals opportunity for movement.\n\nAt its core, Distance Control involves understanding how to use frames, hip movement, bridging mechanics, and timing to generate gaps in the opponent's pressure system. The concept is not merely about pushing away or using strength; rather, it requires sophisticated understanding of leverage points, weight distribution, and the opponent's base structure. Effective space creation exploits moments when the opponent's weight is transitioning, their base is compromised, or their grips are being adjusted.\n\nThe mastery of Distance Control fundamentally changes a practitioner's defensive capabilities. Beginners often make the mistake of accepting compression and trying to escape from completely flattened positions, which is biomechanically nearly impossible against skilled opponents. Advanced practitioners understand that space must be created in increments—first creating breathing room, then hip mobility, then full body movement—and that each increment requires different techniques and timing. This concept underlies every escape in BJJ, from simple elbow escapes from side control to complex granby rolls from back control.",
+  "summary": "Distance Control is the management of space between players: create room to move and recover, close it to connect and pin, and change it to enter or deny attacks. The useful distance depends on the objective, from standing exchanges through guard play, passing, and submissions.",
+  "overview": "Distance control means choosing how close each part of your body should be to the opponent for the current task. A guard player may extend frames to keep the passer away, then close distance to attach for a sweep. A passer removes the space that allows knees and elbows to reconnect, yet may first disengage to clear hooks. An attacker closes gaps around a controlled limb or neck, while the defender tries to restore enough space to recover alignment and escape. Neither maximum separation nor maximum contact is always correct. Manage distance together with angles, grips, and timing, and change the distance as your objective changes. Both participants influence the same space, so the principle applies equally to maintaining control and dismantling it.",
   "key_principles": [
-    "Frames must be established before hip movement can occur - structural integrity precedes mobility",
+    "Create or close space according to the objective; distance control serves attack and defense from either side",
     "Space is created in increments, not all at once - progressive distance generation is more effective than explosive attempts",
     "The opponent's weight transitions and base adjustments create windows for space creation",
     "Hip mobility is the engine of space creation - shoulders frame, hips escape",
@@ -542,5 +542,9 @@
       "duration": 513,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Distance Control can guide how any position, transition, or submission is performed, prevented, or trained. Its application includes top, bottom, attacker, and defender."
+  }
 }

@@ -78,7 +78,7 @@ description: "Complete guide to finishing the Rear Naked Choke from Rear Triangl
     },
     {
       "@type": "Question",
-      "name": "Why does the rear triangle configuration make the RNC significantly more effective than from standard back control?",
+      "name": "Why is the RNC more effective from rear triangle than from standard back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The triangle legs trap one of the opponent's arms inside the leg structure, eliminating their most effective defense—the two-on-one grip fight where both hands work together to strip the choking arm. With one arm immobilized, the defender has only one free hand to fight two attacking arms. Additionally, the triangle legs handle all positional control, freeing both of the attacker's hands to work exclusively on establishing and finishing the choke."
@@ -86,7 +86,7 @@ description: "Complete guide to finishing the Rear Naked Choke from Rear Triangl
     },
     {
       "@type": "Question",
-      "name": "Your opponent has their chin tucked tightly and you cannot thread your forearm underneath—what are your two best options?",
+      "name": "Their chin tuck blocks your forearm from rear triangle — what are your two best options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, use a swimming motion where you work your hand along the jawline from one side, using your fingers to walk past the chin before turning the wrist to seat the forearm. Second, squeeze the triangle legs harder to create a compounding leg choke that forces the opponent to address the leg threat, which typically lifts the chin enough to thread the forearm underneath. Alternate between these approaches to create a rhythm that overwhelms the chin defense."
@@ -102,7 +102,7 @@ description: "Complete guide to finishing the Rear Naked Choke from Rear Triangl
     },
     {
       "@type": "Question",
-      "name": "Your opponent is grip-fighting your choking wrist with their free hand—how do you break through this defense?",
+      "name": "From rear triangle, their free hand grip-fights your choking wrist — how do you break through?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your non-choking hand to strip their grip by peeling fingers or redirecting their wrist away from the defensive position. Once cleared, immediately re-thread the choking arm before they re-establish the grip. If the grip fight is persistent, use the triangle leg squeeze to create pain and urgency that distracts from the grip defense. You can also switch to attacking the free arm itself with a kimura threat, which forces them to release your choking wrist to defend the shoulder lock."

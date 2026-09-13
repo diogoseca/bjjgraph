@@ -56,7 +56,7 @@ description: "How to defend the transition to inverted lasso guard. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest visual and tactile cues that indicate the bottom player is about to transition to inverted lasso guard?",
+      "name": "What are the earliest cues that they are about to invert from lasso guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are: the bottom player angles their hips approximately 45 degrees toward the lasso side (creating their rolling path), you feel an upward and backward pull on your trapped arm as their hips begin to elevate, their non-lasso leg disengages from your hip and repositions to assist the roll, and their head and shoulders begin dropping backward. The hip angling is typically the very first indicator and occurs 1-2 seconds before the roll itself, providing the critical window for defensive response."
@@ -64,7 +64,7 @@ description: "How to defend the transition to inverted lasso guard. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining connection more effective than creating distance when defending the inversion attempt?",
+      "name": "Why is staying connected better than creating distance when defending the lasso inversion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Creating distance allows the bottom player to complete the inversion with superior angles and then freely deploy their free leg for berimbolo entries without obstruction. Space also enables them to generate more rotational momentum because there is no resistance during the rolling phase. Staying connected with strategic pressure points limits their hip mobility and prevents the rotation that makes inverted lasso dangerous. Your proximity means their movement is restricted, and any technique they attempt must overcome your structural resistance rather than rotating freely through open space."
@@ -72,7 +72,7 @@ description: "How to defend the transition to inverted lasso guard. Recognition 
     },
     {
       "@type": "Question",
-      "name": "The bottom player has completed the inversion and is now on their shoulders with hips elevated. What is the most dangerous mistake you can make at this point?",
+      "name": "They are inverted on their shoulders with hips elevated: what is your most dangerous mistake?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most dangerous mistake is driving forward pressure directly into their elevated hips. When the bottom player is inverted with hips elevated, their position functions as a fulcrum - any forward pressure you apply gets redirected into rotational momentum that drives an overhead sweep. Your weight and forward drive become the energy source for their technique. Instead, angle pressure toward their shoulders and chest while keeping your hips back and base wide. This puts weight on their less mobile points without creating the lever arm they need for the sweep."
@@ -80,7 +80,7 @@ description: "How to defend the transition to inverted lasso guard. Recognition 
     },
     {
       "@type": "Question",
-      "name": "What determines whether you should attempt arm extraction versus applying pressure to prevent the inversion?",
+      "name": "What decides whether you extract your arm or pressure to stop the lasso inversion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Timing determines the choice. If you detect the inversion in its earliest phase (hip angling, before the roll begins), forward hip pressure is the most reliable counter because it prevents the inversion entirely. If the roll has already begun but is not yet complete, the transition moment stresses the sleeve grip and creates an extraction opportunity - the rotational forces make the grip harder to maintain. If the inversion is fully complete, neither option is optimal and you should focus on counter-rotation or cartwheel passing instead. The key is matching your defensive response to the phase of the inversion you are facing."

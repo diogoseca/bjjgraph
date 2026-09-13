@@ -72,7 +72,7 @@ description: "Complete guide to defending against the Russian Leg Lasso guard pa
     },
     {
       "@type": "Question",
-      "name": "The passer has broken your collar grip and is beginning to work on your sleeve grip - what are your options?",
+      "name": "Your collar grip is broken and they attack the sleeve in Russian leg lasso: what are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have three primary options: immediately re-establish the collar grip before they progress further in the sequence, initiate an offensive action such as a triangle or omoplata attempt that exploits the space created by their grip break, or begin transitioning to an alternative guard position such as De La Riva or Spider Guard if you assess that the Russian Leg Lasso is becoming untenable with only the lasso remaining."
@@ -80,7 +80,7 @@ description: "Complete guide to defending against the Russian Leg Lasso guard pa
     },
     {
       "@type": "Question",
-      "name": "How do you recognize that the Russian Leg Lasso is compromised beyond recovery and you should transition to a different guard?",
+      "name": "How do you know your Russian leg lasso is unrecoverable and it's time to switch guards?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The position is compromised beyond recovery when both the collar grip and sleeve grip have been broken and the passer has established a lateral passing angle. At this point, the lasso alone cannot generate sufficient control or sweep power to be effective. Key indicators include feeling the passer's weight shifting laterally past your hip line and losing the ability to create meaningful rotational force despite maintaining the lasso thread."

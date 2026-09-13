@@ -56,7 +56,7 @@ description: "Counter the turn and extract escape from kneebar control. Learn to
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a turn and extract escape?",
+      "name": "What is the earliest cue that your opponent is starting a turn and extract kneebar escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling their hip begin to shift weight and rotate subtly, combined with their free hand reaching to post on the mat for base. Before the actual turn begins, you will feel a weight transfer as they load the posting arm. They may also begin bending the captured knee more aggressively, pulling the heel toward their body in preparation. Recognizing these pre-movement cues gives you critical time to preemptively tighten control before the explosive rotation phase."
@@ -64,7 +64,7 @@ description: "Counter the turn and extract escape from kneebar control. Learn to
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating and you feel your grip starting to slip - what immediate adjustment should you make?",
+      "name": "They start rotating out of your kneebar and your grip slips. What adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your hips forward to increase the extension angle while squeezing your elbows tighter together around the leg. If the grip is truly slipping past recovery, transition to saddle by threading your legs during their rotation rather than fighting a losing grip battle. The rotation actually creates an opportunity for saddle entry because their turning motion opens space for your legs to thread through. Convert their escape attempt into your positional improvement rather than losing everything."
@@ -72,7 +72,7 @@ description: "Counter the turn and extract escape from kneebar control. Learn to
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your control when you anticipate a turn and extract versus a straighten leg defense?",
+      "name": "How does your kneebar control differ against a turn and extract versus a straighten leg defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a turn and extract, focus on preventing hip rotation by keeping your leg entanglement tight around their thigh and driving hips forward to maintain the extension angle. Against a straighten leg defense, focus on arm grip positioning and breaking their knee bend through pulling mechanics. The key difference is the direction of defensive force: the turn and extract comes from lateral rotation while the straighten leg defense is direct linear resistance. Against the turn, your legs control their hips; against the straighten leg, your arms control the finish angle."
@@ -80,7 +80,7 @@ description: "Counter the turn and extract escape from kneebar control. Learn to
     },
     {
       "@type": "Question",
-      "name": "When is it strategically better to allow the turn and transition to saddle rather than fighting to maintain kneebar control?",
+      "name": "When is it better to let the turn happen and take the saddle than keep fighting for the kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Allow the transition to saddle when your kneebar grip has been significantly compromised and continuing to fight it will result in complete loss of leg control. If their rotation has already collapsed the extension angle beyond recovery, transitioning to saddle is a net positive because you gain access to heel hooks from a more secure and dangerous control position. The saddle offers superior control and higher-percentage finishing options than a weakened kneebar. Read the momentum and redirect rather than resist when the rotation battle is lost."

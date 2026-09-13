@@ -72,7 +72,7 @@ description: "Defend the Knee on Belly to Mount transition. Recognition cues, fr
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins swinging their leg over your body—what is your highest-percentage defensive response?",
+      "name": "They start swinging their leg over you from knee on belly — highest-percentage defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert a knee shield immediately by driving your inside knee across the top player's hip line during the swing. The step-over momentarily reduces driving knee pressure, creating a gap for your knee to enter. Even a partial knee shield that prevents full mount consolidation puts you in half guard, which is dramatically more defensible than mount. Time the insertion to coincide with the weight transfer, not after it completes."
@@ -80,7 +80,7 @@ description: "Defend the Knee on Belly to Mount transition. Recognition cues, fr
     },
     {
       "@type": "Question",
-      "name": "Why is attempting to push the knee off before the transition starts more effective than defending mid-transition?",
+      "name": "Why is pushing the knee off before the KOB to mount step-over better than defending mid-transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Preemptive KOB defense disrupts the entire transition sequence at its source. If you successfully dislodge the knee through framing and shrimping before the step-over begins, the top player must re-establish KOB entirely before attempting the mount transition again. Mid-transition defense, while still viable, operates within a much smaller time window and against a committed movement that has momentum. Early defense also preserves more energy than reactive scrambling."

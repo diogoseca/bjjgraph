@@ -90,7 +90,7 @@ description: "Complete guide to executing the Toreando pass from Headquarters Po
     },
     {
       "@type": "Question",
-      "name": "What is the single most critical mechanical detail that determines whether the Toreando succeeds or fails?",
+      "name": "What single mechanical detail decides whether the toreando from headquarters works?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The coordination between the lateral leg push and the lateral step must happen simultaneously as a single movement, not sequentially. If you push the legs first and then step, the timing gap allows the opponent to recover leg position and re-establish guard. The push-and-step must be trained as one coordinated action where both happen at exactly the same instant, eliminating any window for defensive recovery."
@@ -98,7 +98,7 @@ description: "Complete guide to executing the Toreando pass from Headquarters Po
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their foot on your hip on the passing side as you initiate the Toreando - how do you adjust?",
+      "name": "They post a foot on your hip on the passing side as you start the toreando — adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip the blocking foot at the ankle and push it past your hip line while continuing the lateral step, converting the foot post into a leg drag opportunity. Alternatively, switch to the over-under toreando variation where you lift the blocking leg rather than fighting the hip frame directly. If neither option works, abort the toreando and return to headquarters rather than forcing the pass against a strong frame that compromises your base and timing."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the Toreando pass from Headquarters Po
     },
     {
       "@type": "Question",
-      "name": "In which direction should you push the opponent's legs relative to your lateral step during the Toreando?",
+      "name": "Which way do you push their legs relative to your lateral step in the toreando?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Push the legs to one side while stepping laterally in the opposite direction. The forces are oppositional, creating maximum separation between the opponent's legs and your hips. Push the legs across the opponent's body toward the mat on the far side while your lead foot steps in the opposite direction. This oppositional movement is what creates the passing lane and prevents the opponent from following your hip movement with their legs."

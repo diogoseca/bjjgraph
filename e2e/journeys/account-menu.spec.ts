@@ -82,8 +82,8 @@ test("signed out: exactly the owner's rows, one separator, no filler", async ({ 
   await expect(menu.locator("[data-menu-logout]")).toHaveCount(0)
 
   // geometry: anchored ABOVE the chip, hugging the same right edge
-  const m = (await menu.boundingBox())!
-  const chip = (await page.locator(".ngAcctChip").boundingBox())!
+  const m = await j.boxOf(".ng-account-menu", "the account menu")
+  const chip = await j.boxOf(".ngAcctChip", "the account chip")
   expect(m.y + m.height, "menu sits above the chip").toBeLessThanOrEqual(chip.y + 1)
   const vp = page.viewportSize()!
   expect(vp.width - (m.x + m.width), "on the chip's right edge").toBeLessThan(60)
@@ -207,7 +207,7 @@ test("the logo opens the pane on the LEFT and only the pane", async ({ page }) =
   expect(await paneShown(page), "pane open").toBe(true)
   expect(await menuOpen(page), "menu untouched").toBe(false)
 
-  const pane = (await page.locator(".ng-drill").boundingBox())!
+  const pane = await j.boxOf(".ng-drill", "the drill pane")
   expect(pane.x, "the pane anchors the LEFT edge").toBeLessThan(2)
   expect(pane.width, "desktop rail width").toBeGreaterThanOrEqual(340)
 
@@ -231,7 +231,7 @@ test("phone 390x844: chip + menu in thumb reach, clear of the hand, 44px rows", 
   await j.boot("/")
   await j.land("Mount Top")
 
-  const chip = (await page.locator(".ngAcctChip").boundingBox())!
+  const chip = await j.boxOf(".ngAcctChip", "the account chip")
   expect(chip.height, "44px chip target on touch").toBeGreaterThanOrEqual(43)
   expect(chip.y, "bottom half — thumb reach").toBeGreaterThan(844 * 0.6)
 

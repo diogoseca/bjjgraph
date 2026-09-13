@@ -80,7 +80,7 @@ description: "Complete guide to executing the Inside Ashi to Outside Ashi transi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary trigger that signals you should transition from inside ashi to outside ashi rather than continuing to attack from inside?",
+      "name": "What opponent reaction tells you to switch from inside ashi to outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is the opponent rotating their knee outward to defend inside heel hook exposure. This defensive rotation naturally opens the outside angle and makes inside ashi attacks less effective while simultaneously creating the optimal conditions for outside ashi entry. Attempting inside attacks against strong outward knee rotation wastes energy and gives the opponent time to develop their escape sequence."
@@ -88,7 +88,7 @@ description: "Complete guide to executing the Inside Ashi to Outside Ashi transi
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to maintain heel control throughout the transition rather than releasing and re-gripping?",
+      "name": "Why must you keep heel control throughout the inside-to-outside ashi switch instead of re-gripping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Heel control is the single most important retention mechanism during the transition. The brief moment when legs are being reconfigured creates the only real escape window for the opponent. If heel control is maintained, even a temporarily loose leg triangle cannot be exploited because the opponent cannot withdraw their foot. Releasing and re-gripping creates a complete gap in control that allows immediate leg extraction and loss of the entire entanglement."
@@ -96,7 +96,7 @@ description: "Complete guide to executing the Inside Ashi to Outside Ashi transi
     },
     {
       "@type": "Question",
-      "name": "Your opponent defends the outside ashi by rotating their knee back inward after you begin the transition—how should you respond?",
+      "name": "Mid-transition to outside ashi, they rotate their knee back inward. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recognize this as an opportunity rather than a setback. Their inward knee rotation re-exposes them to inside ashi attacks from an improved angle since your body has already begun the directional change. Reverse the transition back to inside ashi and immediately attack from the inside angle. This oscillation between inside and outside defense creates submission windows on each direction change as the opponent is always one step behind your angle adjustments."
@@ -104,7 +104,7 @@ description: "Complete guide to executing the Inside Ashi to Outside Ashi transi
     },
     {
       "@type": "Question",
-      "name": "What is the optimal body angle relative to the opponent after completing the transition to outside ashi?",
+      "name": "What body angle to your opponent should you finish in after switching to outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal angle is perpendicular (approximately 90 degrees) or slightly diagonal to the opponent's body, with your torso facing their trapped leg from the outside. This angle maximizes leverage for outside heel hook finishing mechanics by allowing full hip extension away from the opponent while the heel remains controlled. Angles that are too acute reduce finishing leverage, while angles that are too wide compromise leg triangle tightness."
@@ -112,7 +112,7 @@ description: "Complete guide to executing the Inside Ashi to Outside Ashi transi
     },
     {
       "@type": "Question",
-      "name": "What is the most common grip configuration for threatening an outside heel hook immediately after completing the transition?",
+      "name": "What grip threatens the outside heel hook right after the switch to outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common configuration is the wrist-behind-Achilles grip where your wrist bone sits directly behind the opponent's Achilles tendon with your forearm curling around their heel. Your other hand clasps your own wrist or forearm to create a figure-four grip structure. This configuration allows you to generate rotational force on the heel by turning your body away from the opponent while the grip prevents the heel from escaping."

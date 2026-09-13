@@ -76,7 +76,7 @@ description: "How to execute Toe Hold from 50-50 in BJJ. Attacking perspective w
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary anatomical target of the toe hold from 50-50, and why is inward rotation critical?",
+      "name": "What does the 50-50 toe hold attack, and why must the rotation go inward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary target is the talocrural joint and lateral ankle ligaments (specifically the anterior talofibular and calcaneofibular ligaments). Inward rotation is critical because it places maximum stress on these lateral structures while the foot is locked in place. Outward rotation would attack different anatomical structures ineffectively and dangerously. The inward rotation creates a rotational force that the ankle joint is not designed to withstand, leading to ligament strain and joint capsule pressure that forces the tap."
@@ -92,7 +92,7 @@ description: "How to execute Toe Hold from 50-50 in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What should you do immediately if opponent taps or shows any distress signal during toe hold application?",
+      "name": "What do you do the instant your partner taps or shows distress in a toe hold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release all rotational pressure on the foot immediately—within a fraction of a second of recognizing the tap. Do not hold pressure for even one additional moment. Maintain positional control with your legs to prevent sudden movements, but completely release the grip on the toes and stop all rotation of the foot. Allow your partner to extract their leg at their own pace without applying any counter-pressure. Check verbally with your partner before continuing training, and if pain persists beyond 30 seconds, stop training completely and assess for injury. This immediate release protocol is non-negotiable for safe training."
@@ -108,7 +108,7 @@ description: "How to execute Toe Hold from 50-50 in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What are the most effective opponent defenses against the toe hold from 50-50, and how should you counter them?",
+      "name": "What are the best defenses to the 50-50 toe hold, and how do you counter each?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective defenses are: (1) Rolling or spinning with the pressure to alleviate torque—counter by using leg hooks to prevent full rotation or transition to heel hook. (2) Crossing the free foot over the trapped knee to block access—counter by controlling the free leg early or stripping it away with your free hand. (3) Hand fighting to prevent figure-four establishment—counter by using the initial toe grip as a distraction while sneaking the inside arm underneath, or using two-on-one control. (4) Counter-attacking your trapped leg with their own toe hold—counter by ensuring your 50-50 structure is sound before committing to your attack. Understanding these defenses allows you to anticipate them and adjust your approach accordingly."
@@ -116,7 +116,7 @@ description: "How to execute Toe Hold from 50-50 in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Why is progressive pressure application over 3-5 seconds critical in training, and what can happen if pressure is applied too quickly?",
+      "name": "Why apply toe hold pressure over 3-5 seconds in training, and what happens if you rush it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Progressive pressure application is critical because ankle ligaments and joint structures can be severely damaged very quickly—often in under one second of maximum pressure. Applying pressure slowly gives your training partner adequate time to recognize the danger, feel the pressure building, and tap safely before any damage occurs. Sudden or spiked application can cause immediate ligament tears (particularly the anterior talofibular and calcaneofibular ligaments), joint capsule rupture, or even joint dislocation before the partner can physically respond with a tap. In training, there is never a need for competition-speed application. The goal is technical mastery and safe repetition, not proving toughness or catching partners off-guard."

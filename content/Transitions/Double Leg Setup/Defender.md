@@ -56,7 +56,7 @@ description: "How to defend against Double Leg Setup in BJJ. Recognition cues, d
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point in the double leg setup sequence where you can disrupt the attack with the lowest energy expenditure?",
+      "name": "Where in the double leg setup can you disrupt it with the least energy spent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest and most energy-efficient disruption point is during the grip fighting phase, before the attacker establishes their preferred collar tie and wrist control configuration. By actively stripping grips as they form and denying the two-grip setup, you prevent the entire attack sequence from beginning. This costs far less energy than sprawling against a committed shot because you're addressing the cause rather than the effect. Effective hand fighting at this stage forces the attacker to repeatedly restart their setup, burning their energy while you remain in a neutral ready position."
@@ -64,7 +64,7 @@ description: "How to defend against Double Leg Setup in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a collar tie and is stepping their lead foot to the outside of your stance - what immediate actions should you take?",
+      "name": "They have a collar tie and step their lead foot outside your stance: what do you do now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This footwork indicates the classic pre-shot positioning. Immediately address both threats simultaneously: use your same-side hand to fight the collar tie by gripping their wrist and peeling it away while sidestepping your lead foot to re-square your stance, denying them the outside angle. If you cannot strip the collar tie, circle away from their lead foot direction to prevent them from completing the angle. Simultaneously lower your center of gravity slightly and load your hips for a potential sprawl. The critical mistake would be allowing both the grip and the angle to persist, which gives them all prerequisites for the shot."
@@ -72,7 +72,7 @@ description: "How to defend against Double Leg Setup in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Why is sprawling the primary defense once the shot is launched rather than attempting a guillotine counter?",
+      "name": "Once the shot is launched, why is sprawling the primary defense over a guillotine counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sprawling is the primary defense because it addresses the fundamental mechanic of the double leg - forward penetration - by removing the target (your hips) from the attack line. A sprawl works regardless of the opponent's head position, grip depth, or shooting angle. The guillotine counter, while effective when available, requires a specific condition: the opponent's head must be poorly positioned in front of your centerline rather than tight to your hip. Attempting a guillotine against a technically sound entry with good head position typically results in the attacker driving through while you fail to secure the choke, ending up on bottom with wasted energy. Sprawl first, assess head position, then decide whether to transition to front headlock chokes or positional control."
@@ -80,7 +80,7 @@ description: "How to defend against Double Leg Setup in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive stance when facing an opponent who has already demonstrated effective double leg setups earlier in the match?",
+      "name": "How do you adjust your stance against someone whose double legs already worked on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After an opponent has shown effective double leg setups, make these adjustments: lower your overall stance by increasing knee bend to reduce your center of gravity, making sprawling faster and more powerful. Shift weight slightly more forward onto the balls of your feet to pre-load the hip sprawl mechanism. Increase your grip fighting intensity to deny them the setup configurations that worked previously. Use more lateral movement and circling to prevent them from establishing the angles they prefer. Consider pulling guard proactively to control how the match goes to the ground rather than being taken down on their terms. Most importantly, pay attention to which specific setup variant they used successfully and address that pattern directly."
@@ -88,7 +88,7 @@ description: "How to defend against Double Leg Setup in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent shoots and you sprawl successfully, stuffing their penetration - what is your immediate next action?",
+      "name": "You sprawl and stuff their shot: what is your immediate next action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition from defensive sprawl to offensive front headlock control. As their shot dies underneath your sprawl, wrap your arm around their neck while your other hand controls their far shoulder or tricep to prevent them from circling out. Drive your chest weight down onto their upper back to collapse their posture further. Do not simply hold the sprawl position and wait, as this allows them to reshoot, stand back up, or circle to a better position. The sprawl must convert immediately into an attacking position. From front headlock you can threaten guillotine, snap down, or begin working toward back control depending on their defensive response."

@@ -353,7 +353,7 @@
         }
       },
       {
-        "question": "Your opponent begins posting their hands on your hips to create separation - what adjustment do you make?",
+        "question": "They post hands on your hips to break your body lock—what adjustment do you make?",
         "answer": "Immediately increase forward hip pressure while maintaining your locked grip and chest connection. Drive your hips forward with progressive pressure to collapse their arm posts. If they successfully create distance, transition to a single leg or double leg entry before they can fully disengage. The key is not allowing them time to establish strong frames by attacking their structure before their posts become load-bearing.",
         "answer_line": "Drive forward, collapse posts",
         "distractors": {
@@ -409,7 +409,7 @@
         }
       },
       {
-        "question": "Your opponent begins sitting down to pull guard while you have body lock established - what is your response?",
+        "question": "They sit down to pull guard while you have the body lock—what is your response?",
         "answer": "Follow their descent immediately while maintaining your locked grip and chest connection. As they sit, you have two high-percentage options: follow them into closed guard top position with your body lock intact to immediately begin passing, or use their downward movement to transition to back control by driving through them as they sit and inserting hooks. The critical error is releasing your grip as they sit, which allows them to establish guard with defensive frames. Keep driving forward pressure throughout their guard pull attempt.",
         "answer_line": "Follow down, keep grip locked",
         "distractors": {
@@ -804,7 +804,7 @@
         }
       },
       {
-        "question": "When is sitting to guard the correct defensive choice versus continuing to fight for standing position?",
+        "question": "Under a body lock, when should you sit to guard instead of fighting to stay standing?",
         "answer": "Sit to guard when: your standing escapes have failed for 2-3 seconds, your posture is breaking backward under their pressure, you feel them beginning to lift for a throw, or when their grip is too strong to break before they execute an attack. The key is recognizing the point of no return and making a proactive choice. A controlled guard pull where you close your guard around their torso is far better than being thrown or mat-returned into a dominant position. However, if you can maintain strong base and their grip shows signs of weakening, continue fighting standing as guard recovery from body lock often leads to immediate passing pressure.",
         "answer_line": "When base fails 2-3 seconds",
         "distractors": {
@@ -892,7 +892,7 @@
       }
     },
     {
-      "question": "Why is the chest-to-torso connection the primary control mechanism rather than the locked hands themselves?",
+      "question": "In the body lock, why is chest-to-torso contact the real control rather than the locked hands?",
       "answer": "Once the hands are clasped, the loop is a boundary condition, but the actual force transfer happens through the chest pressed flat against the opponent's back or torso. This connection eliminates the air gap that a defender needs to insert frames, turn, or create distance, and it lets the controlling player load their body weight directly onto the opponent's spine and hips. The clasped hands become redundant insurance that simply prevents the ring from opening, while the compression does the controlling work. This is why an experienced player can maintain the position even with a relatively weak grip, and why the defender's escape must attack the chest connection, not just the hands.",
       "answer_line": "Chest compression transfers force",
       "distractors": {
@@ -962,7 +962,7 @@
       }
     },
     {
-      "question": "What determines whether the body lock is contested from behind versus from the front or side, and how does that change the shared dynamics?",
+      "question": "How does rear versus front facing change the body lock's shared dynamics and available exits?",
       "answer": "The relative facing of the two players sets the strategic frame: a rear body lock places the controlling chest against the opponent's back and threatens mat returns to back control, while a front or side body lock places chest against chest or flank and biases toward throws and takedowns. In both cases the defining mechanics are identical, the closed arm ring, chest compression, and forward hip drive, but the available exits differ because the target of the pressure changes. From behind the trapped player's priority is preventing the back take and turning to face; from the front their priority is keeping their hips back and avoiding being tripped or thrown. The configuration is the same position seen from a different angle, which is why control of the angle itself is contested throughout.",
       "answer_line": "Facing sets throw vs back-take",
       "distractors": {

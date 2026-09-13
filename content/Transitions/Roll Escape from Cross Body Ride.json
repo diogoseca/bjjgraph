@@ -293,7 +293,7 @@
         }
       },
       {
-        "question": "Your opponent has blocked your lateral hip escapes and is threatening a back take—how does this scenario make the roll escape more viable?",
+        "question": "They block your hip escapes and threaten a back take: why does that help the roll escape?",
         "answer": "When the rider blocks lateral hip movement and begins transitioning toward back control, they typically shift their weight from perpendicular chest pressure to a more diagonal or rear-oriented position to insert hooks. This weight shift creates the exact rotational instability that the roll escape requires. The rider's commitment to the back take means their weight is moving in one direction, making it impossible for them to simultaneously resist a roll that exploits their transitional movement. The blocked hip escape actually sets up the roll by channeling the rider into a vulnerable weight distribution.",
         "answer_line": "Back-take shift opens the roll",
         "distractors": {
@@ -307,7 +307,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail that distinguishes a successful roll from one that stalls mid-rotation?",
+        "question": "In the cross body ride roll escape, what detail separates a successful roll from one that stalls?",
         "answer": "Hip drive generates the primary rotational force, not upper body movement. Practitioners who try to roll using their shoulders and upper back as the engine produce insufficient momentum and stall at the halfway point. The correct mechanic is a powerful hip thrust in the roll direction with the near shoulder dropping to create the rotational axis. The hips drive over and the upper body follows. This hip-first sequencing generates enough force to carry the body through the full rotation even against significant rider weight.",
         "answer_line": "Hip drive, not upper body",
         "distractors": {
@@ -321,7 +321,7 @@
         }
       },
       {
-        "question": "Your first roll attempt is blocked and you feel the rider adjusting to prevent a second attempt in the same direction—what is your immediate response?",
+        "question": "Your roll is blocked and the rider adjusts to that side: what is your immediate response?",
         "answer": "Do not attempt a second roll in the same direction. The rider's adjustment to block that direction creates an opening in the opposite direction, either for a hip escape or a roll in the reverse direction. The rider cannot simultaneously defend both rotational directions and lateral movement. Use the information from the failed attempt to redirect immediately: if they loaded weight to block your right-side roll, hip escape left or attempt a left-side roll. Chain escapes that force the rider into a defensive reaction loop rather than allowing them to settle and consolidate after stopping one attempt.",
         "answer_line": "Redirect opposite direction now",
         "distractors": {
@@ -349,7 +349,7 @@
         }
       },
       {
-        "question": "How do you prevent the rider from inserting hooks as you complete the roll and begin establishing half guard?",
+        "question": "How do you stop the rider inserting hooks as you finish the roll into half guard?",
         "answer": "Speed and leg activity are the primary defenses against hook insertion during the transition. Thread your inside leg between the rider's legs during the roll itself rather than after—your legs should be searching for the half guard entanglement before the rotation completes. Once you clamp the half guard with both legs pinching the rider's thigh, their ability to insert hooks is structurally blocked by your leg entanglement. The gap between completing the roll and establishing guard is the vulnerability window, so eliminating that gap through continuous leg movement is essential.",
         "answer_line": "Thread leg in during the roll",
         "distractors": {
@@ -491,7 +491,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that the bottom player is preparing a roll rather than a hip escape?",
+        "question": "As the rider, what earliest cue shows they are loading a roll rather than a hip escape?",
         "answer": "The direction of force loading is the primary differentiator. A hip escape loads laterally—you feel the bottom player's hips pressing sideways against your chest contact. A roll loads rotationally—you feel the hips coiling with the near shoulder dropping toward the mat. The rotational loading creates a brief moment of increased pressure as the bottom player coils before exploding, whereas the hip escape produces more gradual lateral displacement. Additionally, the bottom player's arms tucking tight to their body and hands going to the neck signals a committed roll setup rather than a frame-based hip escape.",
         "answer_line": "Hips coil, near shoulder drops",
         "distractors": {
@@ -519,7 +519,7 @@
         }
       },
       {
-        "question": "How do you prevent your weight distribution from becoming asymmetric, which is the condition the roll escape exploits?",
+        "question": "As the rider, how do you keep your weight from becoming the asymmetry the roll escape exploits?",
         "answer": "Center your chest pressure across the middle of the bottom player's upper back rather than shifting toward either shoulder. Keep your hips back and slightly to the side with your base leg posted wide for stability in all directions. Use a near-side hip hook or knee to anchor the bottom player rather than shifting your bodyweight to one side. When adjusting grips or preparing transitions, maintain core engagement to prevent inadvertent weight shifts that create the asymmetry the roll requires. Think of your weight as a blanket covering their entire back rather than a point pressing into one side.",
         "answer_line": "Center chest weight, base wide",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "Your opponent successfully initiates a roll and you are following into back control—what is the critical grip you must maintain during the transition?",
+        "question": "They roll and you follow into back control: which grip must you maintain through the transition?",
         "answer": "The harness or seatbelt grip on the upper body is the critical connection that must be maintained throughout the transition. Without this upper body control, the bottom player can complete their guard recovery during the roll even if you successfully follow their movement. The harness grip ensures that you arrive at the bottom player's back with control already established, allowing you to focus on hook insertion rather than re-establishing upper body grips from scratch. Prioritize the over-shoulder arm especially, as it provides both control and immediate choke threat upon arriving in back control.",
         "answer_line": "Keep the seatbelt harness grip",
         "distractors": {

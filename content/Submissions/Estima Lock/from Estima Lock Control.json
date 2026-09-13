@@ -323,7 +323,7 @@
         }
       },
       {
-        "question": "Your opponent begins counter-rotating their ankle to neutralize the lock angle—what adjustment should you make before the angle is fully compromised?",
+        "question": "They counter-rotate the ankle against your Estima Lock — what adjustment saves the angle?",
         "answer": "Immediately deepen the forearm fulcrum by sliding it further toward the toes to increase your mechanical advantage against their counter-rotation. Simultaneously increase hip drive pressure into their calf to prevent their leg from creating the space needed for effective counter-rotation. If these adjustments fail and the angle is neutralized, transition to a toe hold by adjusting your grip to attack the now-exposed toe line rather than forcing a compromised Estima Lock angle.",
         "safety_critical": false,
         "answer_line": "Deepen fulcrum, drive hip harder",
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "What physical indicators tell you the submission has reached the point of no escape for the defender?",
+        "question": "In the Estima Lock, what tells you the defender has passed the point of no escape?",
         "answer": "The point of no escape is indicated by the forearm fulcrum being fully seated across the mid-foot with no slack in the figure-four grip, the opponent's heel locked immobile in the crook of your grip hand, hip pressure maintaining continuous contact with their calf eliminating retraction space, and the opponent's free leg either controlled or unable to create sufficient frame pressure to displace your hips. When all four of these conditions are simultaneously met and you feel resistance through the ankle ligaments during the dorsiflexion drive, the mechanical completion is imminent.",
         "safety_critical": false,
         "answer_line": "Grip seated, hip pinned, no slack",
@@ -383,7 +383,7 @@
         }
       },
       {
-        "question": "Your forearm fulcrum is positioned near the ankle joint rather than mid-foot and you feel the opponent is tolerating your pressure easily—what mechanical adjustment is needed?",
+        "question": "Your Estima fulcrum sits at the ankle and they tolerate it — what do you change?",
         "answer": "Slide the forearm blade distally along the foot toward the metatarsal area without releasing the heel control point. The closer your fulcrum is to the toes, the longer the lever arm becomes, which multiplies the upward dorsiflexion force applied to the ankle joint for the same amount of grip effort. A fulcrum positioned near the ankle creates a very short lever arm that requires dramatically more force to produce equivalent dorsiflexion, which is why the opponent tolerates it. This adjustment often transforms a stalled lock into a finishing lock without increasing effort.",
         "safety_critical": false,
         "answer_line": "Lengthen lever toward the toes",
@@ -529,7 +529,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest recognition cues that an Estima Lock finish is being initiated from the control position?",
+        "question": "What are the earliest cues that an Estima Lock finish is starting on you?",
         "answer": "The earliest cues include the attacker tightening their figure-four grip with increased pressure on your heel as a fixed point, their forearm blade pressing more firmly across the top of your foot, increased hip drive against your calf establishing the finishing fulcrum, and attempts to control or pin your free leg. The grip tightening and hip pressure increase typically precede the actual dorsiflexion finishing motion by 2-3 seconds, providing a critical defensive window.",
         "safety_critical": false,
         "answer_line": "Grip tightens, hip drives in",

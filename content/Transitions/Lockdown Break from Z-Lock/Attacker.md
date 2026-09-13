@@ -82,7 +82,7 @@ description: "Learn to systematically break the Z-Lock lockdown from half guard 
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between attempting an explosive pull-out versus a progressive straightening when breaking the Z-Lock?",
+      "name": "When breaking the Z-Lock, why choose progressive straightening over an explosive pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "An explosive pull generates momentum that the bottom player can redirect into sweep attempts, particularly the old school sweep where they use your upward energy to come on top. Progressive straightening maintains constant pressure and base throughout the extraction, never creating the acceleration that enables dynamic counters. The steady approach also preserves your upper body control connections, whereas explosive movement typically breaks your crossface or shoulder pressure."
@@ -90,7 +90,7 @@ description: "Learn to systematically break the Z-Lock lockdown from half guard 
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-grips the lockdown immediately after you strip it - what adjustment improves your next attempt?",
+      "name": "They re-grip the lockdown right after you strip it: what adjustment helps your next attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase hip pressure before re-attempting to compress the space available for their hooks to function. Pin their far hip with your knee before straightening your leg, and control their hooking foot with your free hand as you extract to prevent the re-grip. You may also need to address their upper body grips first, as their hands may be assisting the re-establishment by pulling your leg back into position through sleeve or ankle grips."
@@ -106,7 +106,7 @@ description: "Learn to systematically break the Z-Lock lockdown from half guard 
     },
     {
       "@type": "Question",
-      "name": "What are the first two actions you should take immediately after successfully extracting your leg from the Z-Lock?",
+      "name": "What two actions come first right after extracting your leg from the Z-Lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, drive your freed knee tight against the opponent's hip to prevent any space for hook re-insertion, establishing standard half guard top control. Second, increase shoulder pressure to flatten the bottom player and prevent them from creating the angles needed to recover knee shield or re-establish the Z-Lock. These two actions must happen immediately because the bottom player will be actively working to recover a defensive guard configuration during this transitional moment."

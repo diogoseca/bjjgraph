@@ -360,7 +360,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the two primary control elements that must be maintained simultaneously in twister side control top?",
+        "question": "Which two controls must be held at once in twister side control on top?",
         "answer": "The leg entanglement around the bottom player's near leg and shoulder pressure driving their near shoulder toward the mat must be maintained simultaneously. The leg hook restricts hip mobility and creates the foundation for spinal submissions, while shoulder pressure prevents defensive turning and frame creation. Losing either element significantly reduces control quality and submission accessibility.",
         "answer_line": "Leg hook + shoulder pressure",
         "distractors": {
@@ -374,7 +374,7 @@
         }
       },
       {
-        "question": "Your opponent begins to bridge explosively while you're pursuing the twister finish - what adjustment do you make?",
+        "question": "Chasing the twister, they bridge explosively - what adjustment do you make?",
         "answer": "Immediately post your outside leg wide to expand your base and absorb the bridging force. Shift weight distribution away from the forward-leaning submission posture toward a more balanced control position. Maintain the leg hook but temporarily pause submission pursuit until you've neutralized the bridge attempt and re-established stable control. Only resume offensive action when your base is secure.",
         "answer_line": "Post base wide, pause finish",
         "distractors": {
@@ -388,7 +388,7 @@
         }
       },
       {
-        "question": "How should weight distribution differ between maintaining control versus actively pursuing submissions from twister side control?",
+        "question": "In twister side control, how should weight differ between holding control and attacking?",
         "answer": "During control maintenance, weight should be evenly distributed between shoulder pressure and leg positioning to create a stable, self-sustaining control structure. When pursuing submissions, weight shifts more dynamically - forward for the twister finish, laterally for darce or anaconda attempts. The key is maintaining enough base to prevent reversals while creating the specific mechanical leverage each submission requires.",
         "answer_line": "Even for control, shift to attack",
         "distractors": {
@@ -402,7 +402,7 @@
         }
       },
       {
-        "question": "What submission chain should you pursue when the bottom player turns into you trying to create frames?",
+        "question": "From twister side control, they turn into you to build frames - what submissions follow?",
         "answer": "When the bottom player turns toward you exposing their neck, immediately transition to front choke attacks. The darce choke becomes high-percentage as their turning motion feeds their arm across their body, and the anaconda choke is available if you can circle to the opposite side. Recognize this defensive pattern as an offensive opportunity rather than a positional threat.",
         "answer_line": "Attack darce or anaconda",
         "distractors": {
@@ -416,7 +416,7 @@
         }
       },
       {
-        "question": "Your leg entanglement is starting to loosen as your opponent creates hip movement - how do you recover control?",
+        "question": "In twister side control, your leg entanglement loosens as they move their hips - how do you recover?",
         "answer": "Immediately re-establish the leg hook by driving your knee deeper behind their knee and squeezing actively with your legs. Simultaneously increase shoulder pressure to limit their ability to continue creating hip movement. If the entanglement becomes too shallow, consider transitioning to truck position to reset the leg control before returning to twister side control, rather than fighting a losing battle with compromised mechanics.",
         "answer_line": "Re-hook knee deep, or reset truck",
         "distractors": {
@@ -444,7 +444,7 @@
         }
       },
       {
-        "question": "How do you create submission dilemmas that force the bottom player into worse positions regardless of their defensive choice?",
+        "question": "From twister side control, how do you build dilemmas so every defensive choice loses?",
         "answer": "Structure your attacks so each defensive response opens another submission pathway. When they protect against the twister by preventing spinal rotation, their frames often expose the arm for kimura. When they turn in to relieve shoulder pressure, the neck becomes vulnerable for darce or anaconda. When they turn away, they gift back exposure. Constantly threaten multiple chains so no single defensive focus can neutralize your offense.",
         "answer_line": "Chain attacks off each defense",
         "distractors": {
@@ -911,7 +911,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines twister side control and distinguishes it from an ordinary side control pin?",
+      "question": "What structure defines twister side control and separates it from an ordinary side control pin?",
       "answer": "Twister side control is a lateral pin in which the top player entangles the bottom player's near leg with a leg hook while positioning their body perpendicular or angled across the torso, rather than relying on chest-to-chest immobilization. The defining feature is that the lower-body entanglement elevates and rotates the bottom player's hips while upper-body pressure drives the near shoulder toward the mat, twisting the spine along its long axis. This coupling of leg control and shoulder control is what generates lateral spinal torque, the mechanical signature absent from conventional side control. It is a 10th Planet position that deliberately trades the flat, stable pin for submission proximity.",
       "answer_line": "Leg hook plus lateral shoulder pin",
       "distractors": {
@@ -925,7 +925,7 @@
       }
     },
     {
-      "question": "Why is the near-leg entanglement considered the foundational control point of the position rather than an optional accessory?",
+      "question": "Why is the near-leg entanglement foundational to twister side control rather than optional?",
       "answer": "The leg hook around the near leg serves two simultaneous functions that no other control point provides: it restricts hip mobility so the bottom player cannot square up or shrimp freely, and it elevates and rotates the hips to create the lower anchor of the spinal twist. Without this entanglement the position collapses back into ordinary side control, losing both the rotational torque and the mobility restriction. Because the twist requires opposing anchors at the hips and shoulders, removing the leg hook eliminates one anchor and neutralizes the submission threat entirely. This is why maintaining or extracting the leg hook is the pivotal battle for both players.",
       "answer_line": "Anchors hips, restricts mobility",
       "distractors": {
@@ -953,7 +953,7 @@
       }
     },
     {
-      "question": "Why does twister side control hold through structural positioning rather than the concentrated weight of a traditional pressure pin?",
+      "question": "Why does twister side control hold through structure rather than concentrated pinning weight?",
       "answer": "Its stability comes from geometry rather than sustained downward pressure: weight is split between shoulder pressure pinning the near shoulder and the leg hook controlling the elevated hips, with an outside base leg posted to resist reversals. Unlike a chest-to-chest pin that smothers with concentrated weight, twister side control leaves the top player somewhat elevated and angled to preserve the rotational geometry. This makes the position only moderately energy-demanding to hold but inherently less stable, because committing weight forward for a finish sacrifices the base that prevents a bridge-and-roll. Trading stability for submission access is intrinsic to the configuration, not a tactical choice.",
       "answer_line": "Geometry, not concentrated weight",
       "distractors": {
@@ -967,7 +967,7 @@
       }
     },
     {
-      "question": "Why does the bottom player's spine sitting in a rotated position make conventional side control escapes ineffective here?",
+      "question": "Why do standard side control escapes fail against the rotated spine in twister side control?",
       "answer": "Standard side control escapes rely on the bottom player being able to flatten out, frame, and shrimp their hips back to square up under the opponent. In twister side control the leg entanglement pins the hips in an elevated, rotated state, so the flat base those escapes require is never available. Any attempt to turn away increases the spinal rotation and feeds the very torque the twister needs, while turning in exposes the neck. The rotated spine therefore converts the usual escape mechanics into either submission entries or back exposure, which is precisely why the position resists orthodox technique.",
       "answer_line": "Hips can't flatten to square up",
       "distractors": {
@@ -995,7 +995,7 @@
       }
     },
     {
-      "question": "What positional dilemma does the configuration impose on the bottom player, and why can no single defensive reaction resolve it?",
+      "question": "What dilemma does twister side control impose, and why can no single defense solve it?",
       "answer": "The position is built around a three-way dilemma: the bottom player must simultaneously defend spinal rotation, prevent back exposure, and manage shoulder pressure, and addressing any one tends to worsen another. Turning in to relieve shoulder pressure exposes the neck to front chokes, turning away to escape the shoulder gifts the back and deepens the twist, and staying static feeds the spinal torque. This overlapping-threat structure is the strategic heart of the position, where intuitive defensive reactions open offensive pathways. The dilemma exists because the same leg-and-shoulder anchors that create the twist also gate every escape route.",
       "answer_line": "Every fix worsens another threat",
       "distractors": {

@@ -60,7 +60,7 @@ description: "Defend and escape the bow and arrow choke from body triangle. Reco
     },
     {
       "@type": "Question",
-      "name": "What is the safest response when the bow and arrow choke is fully locked with both grips set and extension has begun?",
+      "name": "In body triangle, both grips are set and extension has begun — what is your safest response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately using any available signal—verbal, hand tap on body or mat, or foot tap on the mat. Once both the deep collar grip and pants grip are established and the attacker is extending, the choke is mechanically locked and escape probability is extremely low. Continuing to fight through a fully locked bow and arrow choke risks unconsciousness and potential injury from sustained arterial compression. Recognizing when to tap is a critical safety skill."
@@ -84,7 +84,7 @@ description: "Defend and escape the bow and arrow choke from body triangle. Reco
     },
     {
       "@type": "Question",
-      "name": "What is the biggest mistake defenders make when the choking forearm begins pressing against their neck?",
+      "name": "What is the biggest mistake defenders make when the choking forearm presses into their neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common mistake is pulling down on the choking forearm, which actually tightens the collar across the neck because the gi fabric is anchored at the collar grip behind the neck. Pulling the forearm down increases the choking pressure rather than relieving it. Instead, defenders should attack the grip itself by stripping fingers from the collar fabric at the wrist insertion point, pushing the hand away from the collar rather than fighting the forearm pressure."

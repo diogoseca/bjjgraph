@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "Why does the cross ashi-garami position make the toe hold more effective than from standard ashi-garami?",
+        "question": "Why is the toe hold stronger from cross ashi-garami than from standard ashi-garami?",
         "answer": "The crossed-leg configuration in cross ashi-garami immobilizes the opponent's hip more effectively than parallel leg positioning in standard ashi. The wedge created by the crossed legs prevents the opponent from rotating their hip to relieve pressure or retract their foot. This means the rotational force from the toe hold grip transfers directly to the ankle joint rather than being absorbed by hip movement. The superior hip control also prevents the most common toe hold defense of simply pulling the foot free.",
         "safety_critical": false,
         "answer_line": "Crossed legs lock the hip in place",
@@ -331,7 +331,7 @@
         }
       },
       {
-        "question": "Your opponent curls their toes and flexes their foot into a boot defense as you reach for the toe hold grip - what is your response?",
+        "question": "They use a boot defense as you reach for the toe hold in cross ashi: what is your response?",
         "answer": "Do not force the grip against the boot defense. Instead, use your elbow to work under the sole of the foot and pry the grip open, or simply wait patiently for the foot to relax since maintaining active foot flexion is exhausting. The more strategic response is to recognize that the boot defense often exposes the heel by changing foot position, creating an opportunity to transition to a heel hook. Use the toe hold threat as a setup to force the defensive reaction that opens the higher-percentage heel hook.",
         "safety_critical": false,
         "answer_line": "Wait it out, chain to heel hook",
@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "What is the correct grip configuration for the toe hold and why should you never grip individual toes?",
+        "question": "What is the correct toe hold grip, and why should you never grip individual toes?",
         "answer": "The correct grip is a figure-four (kimura-style) configuration where your bottom hand wraps under the foot sole with the palm across the ball of the foot, and your top hand grips your own wrist over the toes. This distributes force across the entire forefoot. Gripping individual toes concentrates force on small bones that fracture easily, creates a weak grip that is simple to strip, and generates localized injury rather than the clean rotational pressure on the ankle that produces a controlled tap.",
         "safety_critical": true,
         "answer_line": "Figure-four, palm across forefoot",
@@ -361,7 +361,7 @@
         }
       },
       {
-        "question": "Why must you apply the toe hold slowly, and what makes this submission particularly dangerous regarding pain signals?",
+        "question": "Why must the toe hold be applied slowly, and how do pain signals make it dangerous?",
         "answer": "The toe hold generates structural damage to ankle ligaments before the defender experiences significant pain. Unlike chokes where the sensation of pressure provides clear warning, the ankle's ligaments can be stretched or torn while the defender still feels only moderate discomfort. This disconnect between damage and pain means training partners may not tap in time if pressure is applied quickly. Application must take 5-7 seconds minimum with frequent pauses, giving the partner time to assess their joint integrity and tap before injury occurs.",
         "safety_critical": true,
         "answer_line": "Apply slowly - pain lags damage",
@@ -376,7 +376,7 @@
         }
       },
       {
-        "question": "Your opponent straightens their leg forcefully to defend the toe hold - how should you adapt your attack?",
+        "question": "They forcefully straighten the leg against your cross ashi toe hold: how do you adapt?",
         "answer": "Leg straightening to defend the toe hold actually creates an opportunity for a higher-percentage heel hook or straight ankle lock. The extended knee provides optimal leverage for heel hook rotation and eliminates the defensive knee flexion that makes heel hooks difficult. Rather than fighting to maintain the toe hold against a straightened leg, transition your grip from the foot to the heel and attack with a heel hook. This toe-hold-to-heel-hook chain is one of the most effective combinations from cross ashi-garami.",
         "safety_critical": false,
         "answer_line": "Switch grip, attack the heel hook",
@@ -406,7 +406,7 @@
         }
       },
       {
-        "question": "How do you maintain cross ashi-garami leg control while transitioning your hands from heel control to the toe hold grip?",
+        "question": "How do you keep cross ashi-garami control while switching hands from the heel to the toe hold?",
         "answer": "Before releasing your heel grip to transition to the toe hold, actively squeeze your knees together to tighten the leg entanglement and drive your inside hook deeper behind the opponent's hip. Your legs must maintain independent positional control while your hands change configuration. The common error is loosening leg pressure during the grip transition, which allows the opponent to extract their hip. Think of it as your legs doing the holding while your hands do the finishing, with each system operating independently.",
         "safety_critical": false,
         "answer_line": "Squeeze knees, deepen inside hook",
@@ -585,7 +585,7 @@
         }
       },
       {
-        "question": "What defensive options are available against the toe hold from cross ashi-garami and when should each be employed?",
+        "question": "What are the toe hold defences from cross ashi-garami, and when is each one used?",
         "answer": "The primary options in order of preference are: boot defense with active toe curl to prevent grip access (use immediately upon recognition), two-handed grip strip targeting the figure-four wrist connection (use when grip is established but rotation has not begun), and hip escape with leg extraction during the attacker's grip transition moment (use when their leg control loosens). Each defense has a specific timing window, and attempting a defense outside its window is ineffective. If all three fail and the grip locks with rotation, the only remaining option is to tap.",
         "safety_critical": false,
         "answer_line": "Boot toe curl on recognition",

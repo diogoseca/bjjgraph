@@ -446,6 +446,16 @@ Partner defends your first sweep attempt using one of several predetermined defe
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Adam-Wardzinski-Single-Leg-X-System" data-cta="related-system-card" data-system-slug="systems/adam-wardzinski-single-leg-x-system" data-system-name="Adam Wardzinski Single Leg X System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Adam Wardzinski Single Leg X System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Positional reference for comparing single leg x-guard entries, controls, or recovery destinations.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dante-Leon-Reverse-De-La-Riva-System" data-cta="related-system-card" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Dante Leon Reverse De La Riva System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Positional reference for comparing reverse de la riva guard entries, controls, or recovery destinations.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Eoghan-O&#x27;Flanagan-Shin-to-Shin-System" data-cta="related-system-card" data-system-slug="systems/eoghan-o&#x27;flanagan-shin-to-shin-system" data-system-name="Eoghan O&#x27;Flanagan Shin-to-Shin System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Eoghan O&#x27;Flanagan Shin-to-Shin System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

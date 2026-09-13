@@ -33,6 +33,21 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.182.0** — [Capture beside the graph seat](#v11820--capture-beside-the-graph-seat)
+- **v1.176.0** — [THREE POSITIONS THAT EXISTED TWICE: THE KESA GATAME COLLAPSE, AND "AKA" ON THE WIRE](#v1-176-0-three-positions-that-existed-twice-the-k)
+- **v1.175.0** — [THE READING COLUMN, AND THE COUNT GOES QUIET](#v1-175-0-the-reading-column-and-the-count-goes-quiet)
+- **v1.174.0** — [MORE BECOMES THE SECOND CARD](#v1-174-0-more-becomes-the-second-card)
+- **v1.174.0** — [EVERY ROLL YOU PLAYED REACHES THE SHELF, AND THE SHELF REPAINTS](#v1-174-0-every-roll-you-played-reaches-the-shelf)
+- **v1.173.0** — [THREE LAYERS, ONE DOCK](#v1-173-0-three-layers-one-dock)
+- **v1.172.0** — [ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN](#v1-172-0-one-due-number-per-pane-and-the-open-deck-stays-on-screen)
+- **v1.171.0** — [A TRANSITION IS NOT A CATCH, AND THE DRILL THAT NEVER OPENED](#v1-171-0-a-transition-is-not-a-catch-and-the-drill-that-never-opened)
+- **v1.170.3** — [THE PINCH LEFT THE STAGED TRACKING RUNNING](#v1-170-3-the-pinch-left-the-staged-tracking-running)
+- **v1.167.0** — [THE FIRST NULLS, AND THE SELF-DERIVING SURFACE LIST](#v1-167-0-the-first-nulls-and-the-surface-list)
+- **v1.166.0** — [A ROLL OPENS WHERE YOUR GAME LEAKS, SEAT AND ALL](#v1-166-0-a-roll-opens-where-your-game-leaks-seat)
+- **v1.165.0** — [WHERE THE ROLL STARTS: STANDING, ANYWHERE, AND A PROMISE](#v1-165-0-where-the-roll-starts-standing-anywhere-a)
+- **v1.165.2** — [THE LAST 86, AND THE DIFFERENTIAL THAT CAUGHT WHAT THE GATE CANNOT](#v1-165-2-the-last-86-and-the-differential-that-c)
+- **v1.163.0** — [THE REFERENCE SURFACES DO NOT PLAY](#v1-163-0-the-reference-surfaces-do-not-play)
+- **v1.155.3** — [THE SYSTEM THAT NEVER SPOKE, AND THE MISS THAT LASTED A SESSION](#v1-155-3-the-system-that-never-spoke-and-the-miss)
 - **v1.153.1** — [THE READ-ONLY AUDIT THAT WROTE](#v1-153-1-the-read-only-audit-that-wrote)
 - **v1.153.0** — [IN NO-GI THE LAPEL GUARDS STOP EXISTING](#v1-153-0-in-no-gi-the-lapel-guards-stop-existing)
 - **v1.152.0** — [THE PRINCIPLE THAT RAN A SEARCH](#v1-152-0-the-principle-that-ran-a-search)
@@ -148,15 +163,16 @@ Generated mechanically from the backticked tokens in each entry (a hand-maintain
 Only symbols touched by two or more versions are listed — a token that appears once is findable
 by `grep` and does not need an index row.
 
-- `rollFromPosition` — v1.129.1, v1.127.0, v1.126.0, v1.125.0, v1.114.4, v1.109.0, v1.104.5, v1.103.2, v1.101.0, v1.81.4, v1.70.0
-- `_dockLandCard` — v1.127.2, v1.123.0, v1.109.0, v1.104.4, v1.103.1, v1.101.0, v1.81.3
+- `_dockLandCard` — v1.175.0, v1.174.0, v1.171.0, v1.127.2, v1.123.0, v1.109.0, v1.104.4, v1.103.1, v1.101.0, v1.81.3
+- `_landCardChrome` — v1.175.0, v1.174.0, v1.171.0
+- `_landDatum` — v1.175.0, v1.174.0, v1.173.0
 - `graph.json` — v1.125.0, v1.116.0, v1.115.0, v1.104.6, v1.104.3, v1.80.4
 - `opponentDefend` — v1.129.0, v1.127.2, v1.125.0, v1.121.0, v1.116.0, v1.109.0
 - `rollCamTarget` — v1.129.6, v1.128.1, v1.127.2, v1.114.3, v1.114.2, v1.109.0
 - `stageRollAt` — v1.129.5, v1.129.3, v1.129.1, v1.127.0, v1.123.0, v1.114.2
 - `adj` — v1.126.0, v1.125.0, v1.123.0, v1.121.0, v1.119.0
 - `applyDeckVisibility` — v1.109.0, v1.99.4, v1.95.1, v1.81.3, v1.68.0
-- `attachInput` — v1.123.0, v1.114.3, v1.104.4, v1.101.0, v1.81.3
+- `attachInput` — v1.171.0, v1.123.0, v1.114.3, v1.104.4, v1.101.0, v1.81.3
 - `camFocus` — v1.127.0, v1.125.0, v1.114.4, v1.114.3, v1.109.0
 - `enterAttempt` — v1.129.0, v1.128.1, v1.109.0, v1.99.4, v1.70.0
 - `moveChance` — v1.121.0, v1.115.0, v1.104.3, v1.70.0, v1.68.0
@@ -164,7 +180,7 @@ by `grep` and does not need an index row.
 - `openListPicker` — v1.129.8, v1.126.0, v1.103.2, v1.101.0, v1.99.4
 - `optionsFor` — v1.123.0, v1.119.0, v1.116.0, v1.104.3, v1.103.0
 - `setEvent` — v1.129.0, v1.128.1, v1.104.1, v1.81.4, v1.81.3
-- `_pastRolls` — v1.109.0, v1.104.5, v1.76.0, v1.68.0
+- `_pastRolls` — v1.174.0, v1.109.0, v1.104.5, v1.76.0, v1.68.0
 - `challenges` — v1.109.0, v1.76.0, v1.74.0, v1.68.0
 - `confirmPlayFrom` — v1.129.3, v1.126.0, v1.114.2, v1.76.0
 - `displayName` — v1.126.0, v1.125.0, v1.114.0, v1.103.0
@@ -205,7 +221,7 @@ by `grep` and does not need an index row.
 - `pairMid` — v1.127.0, v1.125.0, v1.114.3
 - `regenerate_neural_data.py` — v1.119.0, v1.103.0, v1.81.0
 - `rep` — v1.128.0, v1.126.0, v1.125.0
-- `rollLog` — v1.109.0, v1.104.5, v1.76.0
+- `rollLog` — v1.174.0, v1.109.0, v1.104.5, v1.76.0
 - `scrollLeft` — v1.129.3, v1.129.1, v1.123.0
 - `tsc` — v1.129.4, v1.127.0, v1.126.0
 - `tut.done` — v1.104.0, v1.74.0, v1.68.0
@@ -216,14 +232,14 @@ by `grep` and does not need an index row.
 - `ROLL_ZOOM` — v1.109.0, v1.101.0
 - `SHARE_STATIC_HEADERS` — v1.81.3, v1.81.2
 - `_ambig` — v1.126.0, v1.125.0
-- `_bandBot` — v1.129.6, v1.114.4
+- `_bandBot` — v1.171.0, v1.129.6, v1.114.4
 - `_checkpoint` — v1.104.0, v1.76.0
 - `_curriculumIdxSet` — v1.126.0, v1.125.0
-- `_dockLandFilm` — v1.114.4, v1.104.2
+- `_dockLandFilm` — v1.171.0, v1.114.4, v1.104.2
 - `_dockOptionHint` — v1.127.2, v1.123.0
 - `_dossierAutoPaused` — v1.129.1, v1.68.0
 - `_exploreStatsRow` — v1.129.8, v1.76.0
-- `_landBackfill` — v1.104.8, v1.101.0
+- `_landBackfill` — v1.171.0, v1.104.8, v1.101.0
 - `_landEl` — v1.104.4, v1.101.0
 - `_landPending` — v1.129.0, v1.70.0
 - `_lastPairLabel` — v1.129.4, v1.129.1
@@ -254,7 +270,7 @@ by `grep` and does not need an index row.
 - `cardOrder` — v1.122.0, v1.104.3
 - `challengeView` — v1.76.0, v1.68.0
 - `check_position_type_vs_score` — v1.104.6, v1.103.0
-- `clearLandCard` — v1.104.4, v1.101.0
+- `clearLandCard` — v1.171.0, v1.104.4, v1.101.0
 - `clearOptions` — v1.129.3, v1.128.1
 - `click` — v1.129.1, v1.123.0
 - `coins` — v1.109.0, v1.68.0
@@ -305,7 +321,7 @@ by `grep` and does not need an index row.
 - `rec` — v1.109.0, v1.68.0
 - `regenerate_graph.py` — v1.104.6, v1.81.0
 - `removeFromList` — v1.126.0, v1.99.4
-- `renderLandCard` — v1.104.8, v1.82.3
+- `renderLandCard` — v1.171.0, v1.104.8, v1.82.3
 - `resultPos` — v1.126.0, v1.125.0
 - `richLabel` — v1.129.1, v1.114.0
 - `role` — v1.127.2, v1.114.2
@@ -4845,6 +4861,100 @@ No value is lost, but merging as-is needs a `npm run migrate:ruleset` after; re-
 the fixed script is cleaner.
 
 
+<a id="v1-167-0-the-first-nulls-and-the-surface-list"></a>
+
+## v1.167.0 — THE FIRST NULLS, AND THE SELF-DERIVING SURFACE LIST
+
+> **Status:** Current. Closes the three items v1.153.0 named as debt in its own commit.
+
+**1. THE NULL LAYER IS LIVE — 62 CELLS, AND IT MOVED NO NUMBER.** `_ruleset.py` has defined `null`
+as "this edge does not exist in that ruleset" since calibration-v2 and the corpus used it **zero
+times**. It now carries 62 (v1.167.0), minted from the Q3 calibration's own verdict by
+`apply_occurrence_calibration.py --write-nulls`. The blast radius was measured BEFORE writing any:
+`frame_reachable` bit-identical in both frames, `cal.avail` unchanged, every hand unchanged.
+`graph.json` regenerates bit-identical modulo its `generated` stamp, and `regenerate:md` on the
+pristine corpus produced **0 changed pages** — which is what proves the 14-file hardening pass was
+null-safety and not a behaviour change.
+
+**WHAT THE READER GAINS.** 34 pages stopped lying: `(0% of attempts)` became `(gi only)`, and the
+JSON-LD Google ingests went from *"attempted in 0% of exchanges"* to *"exists in the gi ruleset
+only; it does not occur in no-gi"*.
+
+**IT COULD NOT BE WRITTEN BEFORE, AND THE BLOCKER LIST WAS 14 FILES LONG.** The worst was not a
+crash: `regenerate_md_from_json.py` REDUCED each document and then validated the reduced form
+against the schema for the UNREDUCED shape, so a null matched neither arm of the `oneOf`, 32
+positions were SKIPPED, and `main()` exited 0 because `regenerate:md` passes no `--strict` — the
+chain would have reported success over 105 stale published pages. Fatal by default now. **The same
+fix exposed something nobody was looking for:** validating the RAW document checks the `gi` cell of
+every forked probability for the first time. `gi: 180` in `Mount.json` passes HEAD and fails the
+patch, because `reduce_to_scalar` discarded that cell before the schema saw it.
+
+**AND THE CHECK WATCHING THE EXCLUSION ALMOST WENT QUIET.** `validate_occurrence_surface` builds
+section 3's targets FROM section 2's hits, and section 2 only emits a hit where `frame_mass > 0` —
+an `or 0` coercion. Nulling the Lapel mirror zeroes that mass, so the report would have said
+*"routing INTO an unavailable frame: 0"* where the truth is 12, and its zero-coverage floor would
+not fire because it measures a denominator that stays healthy. The repo's canonical defect, about
+to be committed by the fix for it. Both halves fixed.
+
+**THE ONE REAL CONSEQUENCE, AND IT IS THE OWNER'S.** `cal.ev` is solved in ONE frame (`evFrame` =
+"nogi"). `lapel-guard/bottom` now has no no-gi hand, so it gets no EDGE block and its **11 cards
+lose their EDGE chip in GI** — a live state in the default ruleset. Measured: no fabrication, no
+crash (`calSuccess` still returns the authored 0.55–0.58; `moveChance` prints 45%/42%, not the
+`0.36 + dom*0.1` fallback) — only the EDGE comparison is gone. What makes it shippable is that those
+11 chips were computed from the MIRROR, so the app stopped printing EDGE derived from numbers that
+were never real. Solving the EDGE MDP per frame is the fix, and it is a probability decision.
+
+**THAT NULL ALSO SPLIT THE TWO FLOW IMPLEMENTATIONS, ON THE FIRST CORPUS THAT COULD TELL THEM
+APART.** `solve_flow.py` drops a role-node whose OPPONENT has no hand in the frame; `flow.src.js`
+checked only its own. The moment `lapel-guard/bottom` lost its hand they disagreed by exactly 7
+decks — `Lapel Guard|Top` and its six attacker decks — and `tests/flow.test.mjs` went red. Same rule
+both sides now, and that spec's three hard-coded counts (544 / 136 / 272) became derivations.
+
+**2. THE SURFACE LIST NOW DERIVES ITSELF.** v1.153.0 filtered the surfaces its author could
+enumerate by hand, and said in the same commit that a hand-maintained list gets a new member missing
+by default. A four-lens sweep found **38 more** within one version: the ESCAPE TRAY you pick from
+while caught, the drill queue from a shared class, a URL arrival onto a gi-only technique's page,
+the graph highlight and its camera, the roll seat funnel, and **all four node walks in
+`neural/src/flow.src.js`** — the weak-spots engine, in a file a target-file sweep never opens.
+Twelve chokepoints filtered, and `check_ruleset_surfaces.py` derives the rest: **48 enumerations,
+26 filtered, 22 exempt with a written reason, 0 unclassified.** It blanks strings and comments
+first, so a guard written in prose does not count.
+
+**THE LINE THAT KEPT RECURRING, WORTH MORE THAN THE LIST:** material the app DEALS obeys the
+ruleset; the player's own RECORD does not. `listIdxs` stays whole — filtering it would shrink a
+class a coach posted and re-encode a SHORTER share code — while `openListSession`'s queue,
+`setFocusIdxSet`'s lighting and the camera sets filter. Same rule retired `mastered`/`explored`.
+
+**3. THE FALLBACK DETECTOR WAS BLIND, AND IT WAS MINE.** v1.153.0's "no hand falls into the
+origin-relaxed fallback" test walked `n.rep` position nodes — all 136 of which are the hub, role
+"top" — so it saw **136 of 272 hands and no BOTTOM seat at all**, which is exactly where
+`backside-50-50/bottom`, the state the gi decision turned on, lives. It also keyed on
+`o[0].ord === undefined`, and `orderScore` returns null on 100 of 1328 main-pass cards, so any fix
+setting `ord` there would have blinded it for good. The fallback now stamps a POSITIVE
+`relaxed: true`, emits a named beat, and sorts through `_cmpRelaxed` — a named seam, so the spec
+asserts against the app's own order rather than a copy that agrees with itself.
+
+**THE GI/NO-GI BOUNDARY IS STATED IN TWO PLACES THAT POINT AT EACH OTHER:** `EXCLUDING_FRAMES =
+("nogi",)` in the emitter, `--null-frames nogi` in the applier. The first mint ran without the flag
+and wrote **8 gi nulls** — the heel-hook family — a claim about which gi ruleset the app models, not
+a fact about a garment. Reverted; the default now encodes the decision.
+
+**Gates:** `validate:surfaces` (new, hard, in `ci-validate.yml`) · `validate:availability` ·
+`test:units` 174/174 · `validate:graph` 0 errors · `validate:flow` OK, 270/272 priced ·
+`validate:json` clean · `regenerate:md` exit 0, 0 stale pages, 96 absences marked.
+
+**Mutants, all killed** (enumerated in each gate's own docstring). The decisive one: on an
+identical broken build the NEW fallback detector goes red and v1.153.0's goes GREEN — the
+measurement that the old one was blind, rather than the argument that it was.
+
+**LEFT, NAMED.** The EDGE-per-frame question above. **9 further nulls** blocked in 4 containers
+(`closed-guard__bottom`, `squid-guard__bottom`, `standing-position__top`, `worm-guard__bottom`)
+whose move sets drifted since Q3 elicitation — the applier refuses a stale calibration, correctly,
+and they want a re-run, not a force. And `regenerate_votes.py` keys rates by NAME: 5 names collide
+across Transitions and Submissions and the SUBMISSION silently wins, measured on the wire as
+`kimura-from-half-guard/attacker` = 22.0 in both collections. Made loud, not changed.
+
+
 <a id="v1-153-0-in-no-gi-the-lapel-guards-stop-existing"></a>
 
 ## v1.153.0 — IN NO-GI THE LAPEL GUARDS STOP EXISTING
@@ -5603,6 +5713,10 @@ Verified by rendering all three states directly: 3 MC options, `data-mc-opt` and
 
 ## v1.151.0 — "IN THIS SYSTEM" MEANS FROM THE PLACES THE SYSTEM TEACHES
 
+> **REVERTED IN v1.161.0 — the rule below was wrong.** The owner rejected its premise:
+> systems are not exhaustive on positions, and the filter deleted real members. Read
+> v1.161.0 before acting on anything here.
+
 Owner's report, near verbatim: clicking a system shows "in this system" with one calf slicer
 *"being applied from every fucking place"*, omoplata *"from a lot of techniques too. It seems odd
 that if a submission is in the system, then we get all variants of it. Maybe it should be more
@@ -5729,3 +5843,1392 @@ diagnosis. Regenerate before you attribute.
 
 **`wc -c` IS BYTES, THIS GATE COUNTS CHARS.** 483,328 bytes of archive is 478,705 chars. That
 4,623 gap read as "dev is over its ceiling" and nearly bought a ceiling raise nobody needed.
+
+---
+
+## v1.165.2 — THE LAST 86, AND THE DIFFERENTIAL THAT CAUGHT WHAT THE GATE CANNOT
+
+v1.163.0 fixed the JSON-LD escaping class for the 89 whole-value interpolations and left 86
+literal+expression values raw, gated but breakable, with the exposure printed on demand. Owner,
+quoting that report back: *"can you improve that?"* This is the improvement: **the exposure is
+zero and the class is now un-reintroducible**, not merely detected.
+
+**THE TRANSFORM.** `"lit {{ e1 }} lit {{ e2 }}"` becomes
+`{{ ("lit " ~ (e1) ~ " lit " ~ (e2)) | jsonstr }}` — every expression parenthesised (a filter
+inside one must not capture the concatenation), every literal segment JSON-DECODED before
+re-emission (an author-escaped `\"` must round-trip once, not twice). Survey and rewrite run in
+ONE pass over ONE pattern set, and the count is asserted against the independent figure — the
+v1.163.0 lesson, now structural.
+
+**THE FIRST ATTEMPT SHIPPED JINJA TAGS INTO 1,328 PAGES, and the parse gate said nothing.** The
+survey had only ever asked about `{{ }}`; three values also carried STATEMENTS — two
+`{% if option.if_successful %}` and one `{% for outcome in outcomes %}` — and the transform
+treated the tags as literal text, so 1,328 pages' schema said, in valid JSON,
+`...grip{% if option.if_successful %} If successful: ...`. `check_schema_jsonld.py` stayed GREEN:
+the output parsed; it was semantically wrong, not syntactically. **A parse gate proves syntax;
+only a differential proves content.** The decode-equality differential — every block of all 4,603
+files parsed and compared against a pre-change baseline of the decoded objects — is what caught
+it: 21,545 compared, 1,328 changed, all one cause. The three statement values were converted by
+hand (inline-if for the pair; a `{% set %}`-built list joined outside the string for the loop,
+`", " | join` standing in for the old `', ' if not loop.last` joiner) and the transform now
+hard-fails on `{%`.
+
+**THE LANDING: 21,545 blocks compared, 0 decoded changes, 0 files changed — byte-identical.**
+Today's corpus needed no different bytes (the one page that did was fixed in v1.163.0), so the
+whole rewrite is prophylaxis: the construction that could break is no longer written anywhere.
+
+**THE GATE IS NOW A RATCHET, two layers.** Layer 1, at the TEMPLATE, before any regeneration: no
+quoted string inside an ld+json block may carry `{{` or `{%` at all — not colon-anchored, because
+the colon anchor in the first survey is exactly why the statement values were found late. Floors
+on files (10) and blocks (25) so a scan that matches nothing fails as itself. Layer 2 unchanged:
+every emitted block parses. Mutants: a raw interpolation reintroduced → red naming the template
+and the value · a statement reintroduced → red · the scan pointed at nothing → floors fire.
+`--report-exposure` now prints the ratchet detail and exits 1 on any hit.
+
+## v1.163.0 — THE REFERENCE SURFACES DO NOT PLAY
+
+Owner, and it is a RULE rather than a bug report: *"Principles and systems should mean the roll is
+not on. It only starts if the player clicks on a position, transition or submission. Clicking on
+principles and systems and learning will only highlight techniques it references. That's the
+rule."*
+
+**THIS REVERSES v1.155.3, WHICH WAS CORRECT FOR ITS CONTRACT.** `/Principles/<slug>`,
+`/Learning/<slug>` and `/Systems/<slug>` are real built pages and none is a graph node, so
+`_seedFromUrl` resolved nothing and all 129 of them booted the front-door weighted draw — the
+reader who asked for a principle got a random roll. v1.155.3 fixed that by SEATING the board on
+the first position among the entry's members. Under the rule above that seat is itself the defect:
+it is still a roll nobody asked to start, chosen by the app rather than by the player. The old
+journey's assertions — *"the board is seeded from the page, not left to the front-door draw"* and
+*"the roll stands where the principle teaches"* — are deliberately inverted, and the spec header
+records why so the reversal reads as a ruling and not as a regression.
+
+**THE THIRD STATE.** `introDone` (3.2s) handed the board to exactly two branches: a URL seat, or
+`startRoll()`. A reference page must take NEITHER, so deleting the seat alone would have fallen
+straight through to the front-door draw — i.e. back to the v1.155.2 bug. `_refPage` is that third
+branch: the panel opens, its techniques light, and the board stays empty until the player clicks
+something they can stand on.
+
+**AND IT CLOSED A RACE THE SEAT HAD.** The seat was computed inside `_seedPageFromUrl`'s `.then()`
+and guarded by `!this.introDone` — but `concepts.json`/`systems.json` are DEFERRED, so on a slow
+connection the 3.2s handoff had already dealt a front-door hand and the arrival lost silently.
+`_refPage` is set SYNCHRONOUSLY from the path regex, before any fetch: the page KIND is knowable
+from the address, so the decision no longer depends on when 63KB lands. It also covers the 3
+`.md`-only Learning pages, which have no payload row to open — nothing highlights, and nothing
+plays either, because the rule is about what kind of page this is and not about whether we hold
+data for it.
+
+**MUTANTS, four killed, and the pair matters.** Reference-page arrival falls through to
+`startRoll()` again → the two arrival journeys red · the arrival stops marking itself → red · the
+v1.155.3 seat restored → red · **a member row no longer starts a roll → red.** The last one is the
+rule's *other* half and is why it is asserted at all: "arriving starts nothing" on its own is
+indistinguishable from a broken app, so the same journey clicks a technique the principle names
+and requires the roll to begin there. The Systems arrival is a separate journey because Systems is
+a separate payload and a separate open path (`openSystem`) — a fix applied only to concepts would
+have left half the libraries playing.
+
+## THE SCHEMA MARKUP THAT DID NOT PARSE
+
+Found while measuring, not reported: `npm run build` prints
+`SchemaExtractor: Invalid JSON-LD in Learning/Conscious-Mastery` — one line among thousands, exit
+0. Every content page builds its JSON-LD by interpolating authored prose into a hand-written JSON
+string literal (`"text": "{{ qa.answer }}"`), and Jinja has no idea it is writing JSON. That page's
+FAQ answer says `such as "Mount principles"`; the quote ends the string early and the block is
+unparseable. Google drops an invalid block silently, and `check_seo_parity.py` reads the
+`<article>`, not the `<script>` — so the rich result stops existing and nothing anywhere says so.
+Section 6.6, one vocabulary over.
+
+**MEASURED: 1 bad block of 21,545, across 4,603 generated files.** 89 interpolations whose whole
+value is a single expression are now `{{ x | jsonstr }}`. 86 more are literal text PLUS an
+expression (`"{{ error.consequence }} The correct approach is: {{ error.correction }}"`) and are
+equally capable of breaking; they are NOT rewritten, because restructuring each into a
+concatenation is a 15-template change in an unrelated sprint and a half-done pass that reads as
+finished is worse than a gate that names the file the day it breaks. `--report-exposure` prints
+that 86 on demand.
+
+**`| jsonstr`, NOT Jinja's `| tojson`.** `tojson` also HTML-escapes apostrophes to `\u0027` —
+correct, and it rewrote **3,810 files / 19,364 lines** whose entire content was cosmetic. The
+custom filter escapes what JSON requires plus the three characters that can end a `<script>`
+early, and leaves apostrophes alone: **the corpus diff is 1 file, 1 line.**
+
+**THE SAME REGEX BUG, TWICE, IN ONE SITTING — recorded because it is the lesson.** The rewrite's
+pattern used `(.*?)` under `fullmatch`, which happily spans `}} literal {{`, so it read a
+literal+expression value as one expression and emitted raw prose where a quoted string belonged —
+corrupting 4 values and turning ~2,000 position pages red. The survey said 89 and the rewrite did
+93; **that four-count disagreement was the signal and it was skipped.** Fixed by making survey and
+rewrite share one pattern (`[^{}]*?`) and ASSERTING the counts agree. Then the gate's own
+`--report-exposure` was found still carrying the loose copy — reporting 82/4 where an independent
+count said 86/0. Section 6.3: a second implementation agrees with itself by construction.
+
+**GATE.** `scripts/check_schema_jsonld.py` (`npm run validate:schema`, wired into
+`ci-validate.yml`, whose paths filter already carries `content/**` and `templates/**`). It prints a
+positive coverage count every run and floors it, so a scan that matches nothing fails LOUDLY
+instead of reading as a clean corpus. Mutants: the block pattern renamed → floors fire naming the
+cause; the template fix reverted → the real break returns, named, exit 1.
+
+**NOT DONE, and it was asked for.** "Fix content gaps — Triangle from Guard is great." Both gaps
+this session had reported were already closed on dev before this branch started: v1.156.0 verified
+`Triangle from Guard` was never missing (it is a Transition, and v1.155.3's cross-type rung is
+what made the Submission-typed reference to it resolve), and authored the genuinely-absent
+`Achilles Lock from Inside Ashi-Garami`. Both payloads now report **0 unresolved refs**. Nothing
+was re-authored here.
+
+## v1.155.3 — THE SYSTEM THAT NEVER SPOKE, AND THE MISS THAT LASTED A SESSION
+
+v1.152.0 gave the 82 concepts a panel and a body. It left three things standing, and this is them:
+the 47 Systems still had no body at all, a single dropped chunk request was still the session's
+permanent answer, and `/Principles/<slug>` still booted a random roll.
+
+**THE SYSTEMS WERE THE LOUDEST OMISSION.** Every `content/Systems/*.json` carries `overview`,
+`key_principles`, `key_components`, `common_obstacles`, `assessment_metrics` and
+`training_methodology` — **145,746 words across the 47 files**
+(`python3 -c "import json,glob;print(sum(len(json.dumps(json.load(open(f))).split()) for f in glob.glob('content/Systems/*.json')))"`).
+The app read TWO fields of that: `summary` (240 chars) and `implementation_sequence` (a phase plus
+a 220-char detail). Everything else reached nobody, in the front-end that is 100% of default
+traffic.
+
+It ships on the split this repo already uses and v1.152.0 proved out: the INDEX
+(`systems.json`, deferred) keeps what the LIST and the graph HIGHLIGHT need, and the BODY rides a
+dossier chunk in the **existing** per-node `content/<fnv1a32(key)>.json` space, keyed
+`"<Name>|System"`. So the boot payload pays nothing and `systems.json` grows only by the `key`
+field that addresses it: **252,117 → 254,241 bytes** (+2,124). Deferred total (systems + concepts)
+**315,236 → 317,391 of the shared 500,000 ceiling**. 47 bodies, **570,393 bytes** of prose now
+reachable on demand, fattest chunk **18,503 against the 40,000 ceiling** (printed every run).
+Chunk space 1,680 → 1,727 files, 22,250,425 → 22,815,886 B, none of it on the boot bill.
+
+The boot cost, re-derived ON THE REBASED TREE (this entry was first written against pre-collapse
+dev and every figure was re-measured after): `neural.js` **502,843 → 505,153 raw / 150,532 →
+150,685 gzip, +153 B gzip**, plus 17 B on `neural.css`. Against origin/dev's own browser
+measurement of **379,370 gzip to the first hand of a 385,000 ceiling**, that is the whole of this
+change's boot bill — the bodies are fetched when a panel opens and `systems.json` is not on that
+bill at all. `payload-first-hand.spec.ts` re-measures it in CI; do not quote the pre-rebase
+378,588 → 379,929 pair, which described a tree that no longer exists.
+
+**ONE SHAPE, ONE RENDERER.** `_system_body()` normalises into the same body shape
+`_concept_body()` emits — `{overview, points, contexts, errors, mistakes, drills, metrics}`, where
+`contexts` carries the components (the authored `purpose` rides as `why`, the slot an error's
+consequence already used) and `drills` carries the drilling approach followed by the authored
+progression stages. `_bodyDocHTML(body, cat)` draws all three libraries, and `NG_DOC_LABELS` is
+what makes them read differently: **a block with no label in a library's row is not drawn for it**,
+so a System's `metrics` can never leak into a principle. Every cap sits at or above the authored
+maximum measured across all 47 files (overview 2,071 · components 6 with an 800-char description ·
+obstacles 7 with a 520-char solution · metrics 5 · drilling 1,290 · stages 7 · mistakes 8), so
+nothing an author has written is cut today — they are ceilings against growth, and the recompute
+command sits in the comment above them.
+
+**WHERE THE READ GOES, AND WHY IT IS NOT WHERE A CONCEPT'S IS.** A concept panel opens with its
+prose, because a concept panel IS a read. A System panel is an act — light the members, drill them,
+buy the course — and the first system's body is **12,396 rendered characters** (pane scroll height
+7,750px, measured in a real browser off the built site). Drawn under the card it buried "Drill this
+system" about seven screens down, which is a regression dressed as content. The order is therefore
+card → course shelf → How it runs → the members and their authored roles → Drill → the read. The
+handle is `[data-system-body]`, the styling is the concept body's (`.ng-concept-body` renamed
+`.ng-doc-body`, one stylesheet for both), and no new container was built — the hero/scroll surface
+is a separate, undecided design.
+
+**THE NEGATIVE CACHE WAS THE LANDMINE, AND IT IS THE REPO'S OLDEST SHAPE.** `_hydrateContent` read
+`.then(r => r.ok ? r.json() : null).catch(() => null)` and then wrote `C.decks[key] = null` for
+anything that came back empty. Four different outcomes — 404, 502, a dropped connection, a body
+that will not parse — arrived as one `null`, and that null was the session's permanent answer for
+that key, with no retry, no error and no way back: `_contentWaits[key]` still held a RESOLVED
+promise, so every later ask was answered from the failure. For a node dossier that is mostly
+harmless (the app renders its fallbacks). For a concept or a system it is the whole surface: the
+panel would show its title, its summary and nothing else, forever, and look exactly like a short
+page. **Absence produced a plausible answer** (CLAUDE.md §6.6), one more time.
+
+Two fixes, both narrow:
+- `_hydrateContent` now CLASSIFIES. A 404 (or a chunk that lands without the key) is an ANSWER and
+  is still cached — the hover economics the negative cache exists for are untouched. A transport
+  failure drops the wait instead of the answer and is retried, bounded by `NG_CHUNK_TRIES = 3` so
+  a hover can never loop.
+- `_docBody(key, onLand)` — the shared reader behind `_conceptBody` and the new `_systemBody` —
+  treats a cached `null` as a MISS rather than an answer, because for these two the index PROMISES
+  a body (the emitter refuses to ship an entry without one). One forced re-read per key per
+  session, stamped so it cannot become a refetch per render. That is the half that survives a
+  stale 200: a chunk file cached from before the body existed answers cleanly and wrongly.
+
+**AND THE URL.** `/Principles/<slug>`, `/Learning/<slug>` and `/Systems/<slug>` are real built
+pages — they are what search, the sitemap and every wikilink hand out — and none of them is a graph
+node, so `_nodeAndRoleForPath` returned -1 and all 129 fell through to the front-door weighted
+draw. `_seedPageFromUrl` resolves them against the payload that owns them: the panel opens on that
+entry (which lights its techniques), and the board is seated on the first POSITION among its
+members, read at introDone by the same line a node arrival goes through (v1.114.2: a URL arrival
+sets the board and holds the clock). Both payloads are deferred, so the seat is conditional on the
+intro still running — after that only the panel opens, which is the honest degradation and the only
+one available without putting 63KB back on the boot bill. Back onto such a page re-opens it.
+
+**ONE RUNG, ONE MEASURED REF.** `_resolve_member` tried only the prefix the author's
+`content_type` named. `Principles/Submission-Chains` names "Triangle from Guard" as a **Submission**
+and the node is `Transitions/Triangle-from-Guard` — right about the move, wrong about the drawer,
+and the miss was invisible because an unresolved ref is a legitimate outcome. The typed prefix is
+still tried first and alone; the retry over the other prefixes is a second rung that COUNTS itself
+(`_meta.crossTypeRefs`, printed every run). Concepts **729 → 730 lit nodes, 2 → 1 unresolved**;
+systems unchanged (952 nodes, 3 unresolved). Same class as `_tech_keys` (§6.6).
+
+**REPORT, DO NOT AUTHOR.** The remaining misses are content gaps and stay visible as such.
+`Achilles Lock` (1 concept ref + 3 system refs) has a content page and no graph node —
+`content/Submissions/Achilles Lock.json` is an edgeless stub — and `Triangle from Guard` was the
+cross-type ref above. Nothing here invents a node, a member or a product.
+
+**PRINCIPLE MEMBERS, ANSWERED WHERE THEY ALREADY WERE.** `process_principles` in
+`regenerate_graph.py` is still a bare passthrough and `graph.json`'s principles still carry no
+`members[]` — deliberately. The light-up set the app needs is resolved in the emitter by
+`build_concepts` through the same `_resolve_member` / `_node_indexes` ladder `build_systems` uses
+(730 nodes today, median 5 per concept, max 72), and putting a second resolution of the same
+authored `related_content` into a committed 50MB artifact would be exactly the "one question
+answered in two places" §6.5 warns about. The cross-type rung above is the part that was actually
+missing, and it is one code path for both libraries.
+
+**GATES.**
+- `scripts/check_systems_payload.py` gained **check 10**: every System and every concept has a body
+  chunk at the address the app computes from its `key` (`fnv1a32` imported from
+  `scripts/_neural_content.py`, never re-implemented), that chunk carries the key, the body is not
+  empty, and each block clears a half-corpus rot floor. Coverage counts print on every green run
+  (47 System / 59 Principle / 23 Learning bodies, every block on every entry today). Both deploys
+  already run this script, so no workflow needed a new step — the §6.7 hazard about deploys
+  re-listing their build steps inline cuts both ways, and this is the direction that helps.
+- the emitter refuses to write a Systems payload where any system lacks an overview AND key
+  principles, the same hard floor the concepts carry.
+
+**MUTANTS.** Emitter/gate, four killed: bodies never merged into the chunk write → check 10 FAILs
+naming the address (`no readable body at content/254f7977.json`); `assessment_metrics` renamed
+upstream → `only 0 of 47 bodies carry metrics — below the half-corpus rot floor`; `key_principles`
+renamed → the emitter's own floor exits 1 before writing anything; the cross-type rung deleted →
+`the cross-type resolution rung fired 0 time(s), below the floor 1`.
+
+Journeys, four killed and one non-kill recorded. `systems-surface`'s new journey hobbles the
+target's own chunk TWICE and the two repairs are load-bearing one each: **the first request returns
+`{}`** (a clean 200 that does not carry the key — what a stale cached copy looks like, and what
+`_hydrateContent` is RIGHT to treat as an answer) and **the second returns 502**. Deleting
+`_docBody`'s forced re-read → red on the first; reverting `_hydrateContent` to the old fold → red on
+the second; not rendering the body at all → red. `concepts-surface`'s new journey boots at a
+principle's own URL: removing the `_seedPageFromUrl` call → red. **The non-kill, measured rather
+than assumed:** deleting `_docRetried`'s stamp — which makes the forced re-read fire on every
+render instead of once per session — SURVIVES both journeys, because they assert that the body
+arrives and not how many times it was asked for. Recorded in the spec header (§6.3).
+
+Files: `scripts/regenerate_neural_data.py` (the cross-type rung, `_system_body`, the system
+dossiers and their floor), `scripts/check_systems_payload.py` (check 10 + the concepts ratchets),
+`neural/src/app.src.jsx` (`_hydrateContent`, `_docBody`, `_systemBody`, `_bodyDocHTML`,
+`NG_DOC_LABELS`, `NG_CHUNK_TRIES`, `_seedPageFromUrl`, the popstate arm),
+`neural/src/concepts.css` (`.ng-concept-body` → `.ng-doc-body`, + the metric indicator list),
+`e2e/journeys/systems-surface.spec.ts`, `e2e/journeys/concepts-surface.spec.ts`, `CLAUDE.md` (§5
+seam index), `docs/Neural.md`.
+
+---
+
+## v1.161.0 — ONE ROW PER AUTHORED REFERENCE (AND THE MEMBERSHIP RULE THAT WAS WRONG)
+
+**This supersedes v1.151.0 and reverts its rule.** The report both entries answer: clicking a
+system showed one calf slicer *"being applied from every fucking place"*, omoplata *"from a lot of
+techniques too. It seems odd that if a submission is in the system, then we get all variants of it.
+Maybe it should be more specific, or this system should be improved."*
+
+**The mechanism** (unchanged, and still correct): not `process_systems`, which resolves each ref to
+exactly ONE node. The expansion is `_node_indexes`' `variant`/`children` layers, which exist
+*because* a submission family hub is not a graph node — **0 of 297 families appear in
+globalGraphLayout.json** — so `Submissions/Calf-Slicer` cannot be lit and the emitter substitutes
+every real `from X` finish. **909 of 1,711 member nodes (53%) from 109 refs, all Submissions.**
+
+**THE WRONG TURN, RECORDED BECAUSE THE REASONING LOOKED SOUND.** v1.151.0 read "more specific" as a
+MEMBERSHIP problem and shipped *an instance belongs only if the system also teaches the position it
+is thrown from*. It measured beautifully — 1,711 → 952, median 32 → 19, and on the reported case it
+yielded exactly `Calf Slicer from Truck` + `from Twister Control`. The owner rejected the premise:
+*"i dont have that assumption. systems arent perfect prespectives. usually they cover some
+transitions, some positions, some submissions, they're not exhaustive by rule on anything... it
+doesnt need to cover the entire family of variants of a position."*
+
+The damage was already in the shipping commit's own output, filed under the euphemism "content
+gaps": **31 authored refs deleted entirely** — the **Craig Jones Leg Lock System lost `Inside Heel
+Hook` AND `Straight Ankle Lock`**, the Marcelo Garcia Guillotine System lost `Darce Choke` and
+`Anaconda Choke`, the Ryan Hall Triangle System lost `Triangle Choke Side`, the Twister System lost
+`Electric Chair`. **A leg-lock system with no heel hook is not a fix.** The generalisable error: a
+filter justified by treating one authored list (positions) as complete enough to adjudicate another
+(submissions), when the corpus promises no such thing. §6.6's family — a rule producing a complete,
+plausible, WRONG answer — and the gate written beside it went green on all 47 systems while they
+were being emptied, because it asserted the rule rather than the outcome.
+
+**THE ACTUAL FIX IS PRESENTATIONAL.** Membership is inclusive again (**1,711, unchanged**), and
+`MIN_MEMBER_NODES = 1600` is now also the tripwire on a repeat. What was wrong was MULTIPLICITY:
+one authored word became eleven near-identical rows, so a system *read* as mostly calf slicers.
+`renderSystemDetail` now draws **one row per authored reference** — a glue entry carrying `fam`
+collapses to a single row (`Calf Slicer · 11 variants · 2 proven`) and expands on click, creating
+instance rows on demand so "collapsed" is a DOM fact rather than a visual claim.
+
+**Corpus effect, membership untouched: 1,714 rows → 809 (53% fewer), median 32 → 18, max 114 → 28.**
+Submission Clinic 114 → 25 (Kimura's 31 variants become one row), the reported 10th Planet No-Gi
+Guard System 44 → 20, Craig Jones 38 → 19 **and it keeps its heel hooks**. Re-derived on the
+rebased tree — v1.155.3's cross-type rung lands 3 more members than the 1,711 first measured, and
+a figure from a tree that no longer exists is not a figure.
+
+**A bug the collapse introduced, caught before shipping.** Grouping by reference reintroduced a
+double-render the old code could not commit, because it iterated the deduped member set: measured
+**13 duplicate rows across 9 Systems** (the `Knee Slice Pass` / `Knee Cut Pass` synonym pair, and
+`Electric Chair` matching both a family and a direct ref). FIRST REFERENCE WINS, and the spec
+mirrors it.
+
+**Gated.** `check_systems_payload.py` check 9 stopped asserting anchoring and now asserts the panel
+contract: every member node is claimed by exactly one glue entry (an unclaimed node leaks a loose
+row), `fam` equals its node count, `FAM_REF_FLOOR = 90` (measured 133).
+**Payload mutants, 4/4 killed** — `fam` not emitted (floor fires) · `fam` off by one · a family glue
+entry dropped with members kept · **the reverted v1.151.0 filter re-introduced → "only 952 member
+nodes resolved, below the floor 1600"**. **Spec mutants, 4/4 killed** — collapse removed · collapse
+hides rows instead of removing them (the §6.1 `opacity:0` trap) · variant count off by one · dedupe
+removed, which went red in a *different* journey, the one whose target carries the `Electric Chair`
+double-claim. `systems-surface.spec.ts` 7/7, **curated 205/205 in 10.1m**, units 139/139.
+
+**The lesson worth keeping:** "maybe it should be more specific" was about what the LIST says, not
+what the system contains. When a report is ambiguous between "show me less" and "contain less", the
+reversible one is presentation — and here it was also the only one that did not require inventing a
+completeness assumption the data never made.
+
+
+---
+
+<a id="v1-165-0-where-the-roll-starts-standing-anywhere-a"></a>
+
+## v1.165.0 — WHERE THE ROLL STARTS: STANDING, ANYWHERE, AND A PROMISE
+
+> **Status:** Partially superseded by v1.166.0, which UNLOCKED the third pill ("My weak spots"
+> ships; the locked-pill claims below are historical). Gated by `e2e/journeys/start-from.spec.ts`
+> (5 journeys, 3 `@curated` at this version); 7 of 7 mutants killed on the shipped build (table
+> below). Built on v1.148.0 as v1.149.0, rebased onto v1.164.x at push time — the app merged
+> clean, the version and the index did not.
+
+**Owner:** "the user can select how it starts, whether to start from random, from standing, or from
+the position most beneficial for the user to learn to complement his game. That one is coming
+soon. … or like something that feels personal like my weak spots or some better copywriting."
+
+**Did not exist.** `startRoll` drew `rng("start-pos")` over every playable site on every roll — the
+first-impression bias on a fresh profile (v1.82.3), uniform after. Now a `startFrom` setting,
+Settings → Rolling, above Uniform (`[data-settings-start]`, pills `[data-start-pick]`):
+
+- **Anywhere** (`random`, default) — the historical draw, byte-for-byte.
+- **Standing** — every roll opens on `standing-position`'s rep member via `_posSlugIndex`
+  (`_standingStart`). Placed AFTER the `rigStart` rail — so `land()` keeps working on a profile
+  that carries the setting — and BEFORE the first-impression branch, whose bookkeeping is left
+  untouched (an opening on the feet is not the random opening that debt is about). The `start-pos`
+  draw is CONSUMED and ignored: exactly ONE value per `startRoll` in every mode, so a rigged queue
+  stays in lockstep however the setting is flipped mid-journey.
+- **My weak spots** (`weak`) — rendered LOCKED (`segBtn` locked, `data-start-locked`, its own
+  "coming soon" line) and written by nothing; `startFrom()` reads it as `random` if a synced blob
+  ever carries it. A visible promise is a roadmap; a choice that appears one day is a surprise.
+
+**Copy** is the player's, and the app's own Explore vocabulary: "Where the roll starts" ·
+"Anywhere" · "My weak spots" — not "random position" or "biggest gaps in my game". The row says
+that the side you play is still drawn each time, because it is.
+
+**The fallback is loud (§6.6).** A wire with no playable standing-position — never shipped; only
+`_posIdx`'s filter (now ruleset-masked) could make one — starts on the ordinary draw and emits
+`start_from_fallback {want, have}`; the spec simulates it by cutting the site from `_posIdx`.
+
+**When "weak" ships:** key the start state on posId + "/" + role. `startPosTraffic` is top-only
+(§6.6, 0 of 90 bottom decks moved a score) and `weakSpots()` ranks DECKS — technique families,
+not states to stand in — so the mapping from a leaking deck to a start state IS the work, and the
+spec for it must assert the role.
+
+**Harness notes, for the next worktree.** A bare `npx playwright test … start-from` on 1.61 ran
+all 444 journeys (the positional filter matched nothing and fell through) — pass the explicit
+file path. `_posIdx` is built lazily by the first `startRoll` and `beats` is undefined until the
+first beat, so a journey that restarts must let the boot roll land (`nextHand`) first; a
+`resetRoll()` during the intro crashed `draw()` on a non-finite gradient radius — not a user path,
+not chased.
+
+**Mutation** (each rebuilt and run against its named journey):
+
+| mutant | journey | result |
+|---|---|---|
+| standing branch deleted | Standing opens every roll… | killed |
+| `rng("start-pos")` not consumed under Standing | Standing opens every roll… | killed (queue length 3) |
+| `start_from_fallback` fx deleted | a wire without a playable standing position… | killed |
+| `weak` unlocked | the row ships… | killed |
+| Standing outranks the `rigStart` rail | a rigged start outranks Standing… | killed |
+| `fx()` in the pill's onClick | changes nothing you have earned | killed |
+| row not appended | the row ships… | killed |
+
+---
+
+<a id="v1-166-0-a-roll-opens-where-your-game-leaks-seat"></a>
+
+## v1.166.0 — A ROLL OPENS WHERE YOUR GAME LEAKS, SEAT AND ALL
+
+> Built by omp in the `feature-start-from-weak-spots` herdr worktree, off `origin/dev` at
+> v1.165.0 (`83a6ae2f7`). Unlocks the third "Where the roll starts" pill that v1.165.0 shipped
+> LOCKED.
+
+**Owner, on what a weak spot IS (2026-09-02):** "A weak spot could be not only a position but
+also a transition or a submission that's really frequently visited by your game but you're not
+getting right, and that's messing up your mesh. That should also be the logic behind the 'N weak
+spots' in the side panel … sometimes one crack in the gameplan is enough. Newbs need at least one
+gameplan — we help by pointing out the chinks in your armor, the weakest point that doesn't let
+you defend and disallows you to attack effectively." And the definition that shaped the design:
+**a spot is a position + seat (top/bottom) pair, not a position alone** — a leaking
+`Kimura from Mount|Defender` seats you bottom of mount.
+
+**One list, one seam.** The pane's "N weak spots" and this opening read the SAME ranking through
+`weakSpots()` (FLOW, v1.138.0) — no second ranking (§6.5). `_weakStates(pool)` maps each
+`ranked` deck to a state + seat: a position deck by its key's own suffix (`Mount|Bottom` →
+bottom of mount), a technique deck by `fromPositionId` + `fromRole` with a `|Defender` deck
+flipping the seat (the defender stands in the same position on the other side). It keeps the
+`leaking` tier, widened to the top 8 mapped rows when that tier maps fewer than 3 (measured on a
+fresh profile: leaking mapped exactly 1 — `Side Control|Top` — so the widening is the common
+case, window n=8, 4 of 8 rows bottom-seated), dedupes on `posId + "/" + role` so two cracks in
+one state do not double its weight (§6.6, the `_ev` doubling shape), and PUBLISHES the window as
+`_lastWeakWindow` so the specs read the render's output rather than re-ranking (§6.3).
+
+**One draw, weighted.** `_weakStart` takes ONE `rng("start-pos")` value, inverse-CDF over the
+window's FLOW gains (positive by construction — tiers hold positive gain only): the biggest leak
+opens most often, never every time (fresh profile: top share 0.289 vs uniform 0.125).
+`startRoll` then OVERRIDES `playerRole` with the spot's seat — `rng("role")` is still drawn, so
+draw counts stay identical in every mode — and the toast reads "Your weak spot: <crack>". An
+empty window fires `start_from_fallback {want:"weak", have:"no-ranking"|"no-state"}` WITHOUT
+drawing, and the ordinary draw below takes its own single value: exactly one `start-pos` per
+`startRoll` still holds everywhere, and the fallback is chosen before any draw (§6.6).
+`startFrom()` now returns `weak`; the seat is keyed on `posId + "/" + role`, which is why
+`startPosTraffic` (top-only, §6.6) is never read here.
+
+**Settings.** `NG_START_LOCKED`, the `data-start-locked` branch and the `data-start-soon` line
+are deleted; the weak note box appends the live spot from `_weakStates(pool)[0]` — "Right now:
+<crack> (<attacking|defending|top|bottom>) — opens <position>, <top|bottom>." — or "Until the
+model has your first drills, this opens Anywhere." on an empty window. Player's words only: no
+"FLOW", "gain", "tier", "kernel" (the spec's jargon sweep now includes all four).
+
+**Mutation** (each rebuilt and run against its named journey; 6 of 6 killed):
+
+| mutant | journey | result |
+|---|---|---|
+| role not overridden | a bottom-seat spot seats you bottom… | killed |
+| Defender not flipped | …a Defender crack seats you on the other side | killed |
+| window uniform instead of weighted | the opening draw is weighted by the leak, not uniform | killed |
+| fallback `fx` deleted | an empty ranking still starts the roll… and says so | killed |
+| weak pill locked again | the row ships… all three live | killed |
+| `_lastWeakWindow` not deduped | two cracks in one state count once… | killed |
+
+The dedupe and Defender-flip mutants are killable only on an AUTHORED ranking — the fresh
+profile's natural window need not contain a duplicate or open on a Defender deck — so journey 10
+monkeypatches `weakSpots()` with three real wire decks (found by reading the nodes, never
+invented) and drives the unmodified map: three cracks, two states, weight dropped not summed.
+
+**Spec:** `e2e/journeys/start-from.spec.ts`, 5 → 10 journeys (8 `@curated`): the flipped control
+journey (all pills live, no "coming soon" anywhere), seat-from-the-wire, bottom-seat reachability
+over a rigged top role draw, a 400-step `u` sweep in the `sweepFirstStart` shape (±0.03 of
+`w0/Σw`, >0.05 from `1/n`, skip-with-reason if the window cannot distinguish them), the loud
+no-ranking fallback, and the crafted dedupe/flip journey. "Nothing you have earned" now clicks
+`weak` too.
+
+## v1.169.0 — A CATEGORY HUB OPENS ITS OWN SHELF
+
+**Owner:** `/Transitions`, `/Positions`, `/Systems`, `/Principles` (etc.) "maybe those should
+just open the sidebar and expand those".
+
+**What was true.** All six category hubs — /Positions, /Transitions, /Submissions, /Systems,
+/Principles, /Learning — are built pages and none is a graph node, so `_nodeAndRoleForPath`
+resolved nothing and `_seedPageFromUrl` matched only `<Library>/<slug>`: every hub arrival fell
+straight through to the front-door weighted draw. The address named a category; the app answered
+with a random roll and a closed pane. The same gap v1.155.3 closed for the 129 entry pages, one
+level up, for the six pages that head them.
+
+**What is true now.** A hub branch at the top of `_seedPageFromUrl`, decided synchronously from
+the path alone (the same no-fetch posture as the entry-page branch below it):
+
+- **Reference posture.** `_refPage = true` — a hub is browsed, not played. The intro handoff
+  starts no roll; the board stays empty until the reader clicks a position, transition or
+  submission (the owner's reference law — see concepts-surface.spec.ts).
+- **The pane opens on Explore** (`openPane("explore")` + `showExplorerList()`), and the ONE
+  section the address names is expanded through the SAME persisted map a header click writes —
+  `exploreOpenSections`, via `_setExploreSectionOpen`, factored out of `_toggleExploreSection`
+  so there is one writer shape. Neighbours keep their own folds; the label vocabulary stays
+  Explore's fixed six, so the map stays bounded.
+- **Deferred sections need nothing extra.** Systems/Principles/Learning headers exist only once
+  their payload lands; the map is written before their first render asks, so they materialise
+  already expanded.
+- **Back/Forward inherits it** — the popstate handler already routes non-node paths through
+  `_seedPageFromUrl`.
+- Best-effort `scrollIntoView` on the named header (a returning visitor can have whole sections
+  expanded above it); a missed scroll on a not-yet-rendered deferred header costs nothing.
+
+**Measured** (built site, real browser): /Transitions → pane on Explore, Transitions (1030)
+expanded with leaf rows, five neighbours folded, `currentPos` null. /Principles → all 59 rows
+expanded on payload land, board empty.
+
+**Mutation** (each rebuilt and run against the named journey; 2 of 2 killed):
+
+| mutant | journey | result |
+|---|---|---|
+| hub regex never matches | both new journeys | killed (both red) |
+| `_refPage = true` dropped | …and starts nothing | killed (idle/beat asserts red) |
+
+**Spec:** `e2e/journeys/explore-sections.spec.ts` +2 journeys — the /Transitions arrival
+(expanded section, folded neighbours, no seat/hand/stage, no `options_dealt`/`roll_staged`
+beat) and the /Systems arrival (the deferred header materialises expanded). Doc:
+`docs/Neural.md` reference-law paragraph extended.
+
+## v1.176.0 — THREE POSITIONS THAT EXISTED TWICE: THE KESA GATAME COLLAPSE, AND "AKA" ON THE WIRE
+
+**Owner:** "we got kuzure kesa gatame which is aka modified scarf hold, and afaik kesa gatame is
+aka scarf hold. how do we show that in the graph? … i guess it'd be like the judo/canonical
+version first and the legend 'aka Scarf Hold'" — then, on the survey: "canonical should be ushiro
+kesa gatame and the aka is Reverse Scarf Hold. please merge whatever else content makes sense".
+
+**What the survey found.** `aliases[]` already existed on 13 positions and rendered on the static
+page (Mount → Tate Shiho Gatame), but the neural wire never carried it. And the real defect was
+upstream of "aka": the corpus held **six position files for three positions** —
+`Kesa Gatame` ≡ `Scarf Hold Position`, `Kuzure Kesa-Gatame` ≡ `Modified Scarf Hold`,
+`Reverse Kesa-Gatame` ≡ `Reverse Scarf Hold` — each side with its own copy of the technique set
+(61 technique files hung off the six), and the pairs cross-wired: `Kesa Gatame to Modified Scarf
+Hold` landed on `Modified Scarf Hold/Top`, not on Kuzure. Submissions even listed both spellings
+in `from_positions[]` as two origins. `docs/Synonyms.md` §2 had prescribed the collapse since the
+synonym epic; nobody had done it for this triplet.
+
+**The decision.** Judo names canonical, uniformly spelled: `Kesa Gatame`, `Kuzure Kesa Gatame`,
+`Ushiro Kesa Gatame`. English names become `aliases[]` (Scarf Hold · Scarf Hold Position · Hon
+Kesa Gatame / Modified Scarf Hold · Broken Scarf Hold / Reverse Scarf Hold · Reverse Kesa
+Gatame). `quartz_slug` maps `Kuzure Kesa-Gatame` and `Kuzure Kesa Gatame` to the same id, so that
+spelling fix cost no ordinal; `Reverse Kesa-Gatame → Ushiro Kesa Gatame` is a real rename.
+
+**The fold, by rule rather than by hand.** A loser technique whose name, with the loser position
+replaced by the canonical, matched an existing survivor was a TWIN → deleted (16: eleven
+`Kimura/Americana/Arm Triangle/Belly Down Armbar from <loser>` submissions, `Bridge Escape from
+Scarf Hold`, `Escape Reverse Scarf Hold`, `Reverse Scarf to North-South/Side Control`, and
+`Side Control to Scarf Hold Position`, whose 2/2 attempt mass folded into `Side Control to Kesa
+Gatame` → 5/4). The rest were UNIQUE → retargeted and renamed (32 renames incl. the canonical
+side's spelling: `Kesa Gatame to Mount`, `Escape Kesa Gatame`, `Bridge from Kesa Gatame`,
+`Kuzure Kesa Gatame to Kesa Gatame`, `North-South Choke from Ushiro Kesa Gatame`, `Kimura Trap to
+Ushiro Kesa Gatame`…). The canonical hand kept its authored composition and gained only the moves
+AUTHORED FROM the merged state (not the loser's generic entries — `Back Step` from Outside Ashi,
+`Arm Extraction to Turtle` from Aoki Lock were origin-mismatched and dead in `optionsFor`
+already), then renormalised per frame with largest-remainder rounding, nulls preserved. Every
+hand sums to 100 in both frames; every `from_position` / `outcomes[].to` resolves.
+
+**Everything else that named them.** `templates/votes.json` (58 keys renamed, 16 twin rows
+dropped — canonical rows iterated FIRST, because the first pass let a twin win the key);
+`success_reachability_baseline.json` (rekeyed, 3 loser rows dropped);
+`occurrence_calibration.json` (the 6 canonical containers rekeyed so the Q3 ballots still join;
+the 6 loser containers stay as the ledger's own record, beside Crackhead Control's);
+`occurrence_reviewed.json` (one orphan row); `node_ordinals.json` (+26 minted, 44 retired, 0
+renumbered); 90 hand-authored 301s in `source/quartz/static/_redirects` for the pages the
+generator can no longer see; `option-hand.spec.ts` (side-control/top 25 → 24, 9 → 8
+transitions, and the named card); `solve_edge_values.py`'s 272 tripwire → 266.
+
+**The census did its job.** `npm run test:units` named 18 stale literals at once
+(sites 1464→1445, members 2928→2890, roleHands 272→266, positions 136→133, techSites
+1328→1312, submissions 298→287…). `neural_seat_decks.test.mjs` held four hand-held copies
+(a `>= 2900` floor that 2890 tripped, plus 136/272 in two tests); they are census-marked now.
+
+**"aka" on the wire.** `regenerate_neural_data.py` emits `aka` = `aliases[0]` on position nodes
+(16 of 133, read from the authored JSON keyed by `slug` = `posId`, counted every run, and the
+emitter refuses a wire where the authored count and the joined count disagree). The app carries
+it through `ingest()` and the pair split, prints it through `nodeQual(n)` — the same dim slot and
+styling as a technique's `from <origin>` — on Explore rows, both search panes, the search detail
+card and the System/concept member rows, and `nodeMatches(n, q)` makes "scarf hold" find Kesa
+Gatame. Never in `t` (deck joins key on `posFamily(n.t)`; the list layer prints the full authored
+name) and never on the canvas (`halfW`/`_fitText` width-bound; `graphName` is the one rule).
+
+**AND THEN THE ROWS SAID "KESA GATAME TOP AKA SCARF HOLD".** Owner: "lol those trailing Top vs
+aka without top is weird. actually the top shouldn't appear there trailing, only in those
+subtitles." The aka only exposed a defect that predated it: every DOM surface printed
+`splitName(n.t).main`, which for a POSITION is the whole title, role artifact included. So three
+surfaces answered one question three ways — the canvas said "Kesa Gatame" (`graphName`, v1.128.1),
+the node card said "Kesa Gatame" (it strips and hands the seat to its own badge, v1.129.x), and
+the Explore row, the search row and pane, the list drawer, the class drawer, the systems and
+concept member rows, the option sheet's "advances to", the feedback "about:" line, the dossier's
+attack and related-position chips and the roll seed name all said "Kesa Gatame Top". Wrong twice
+over: `_deriveDualPairs` gives BOTH pair members the hub's title, so a bottom seat's row read
+"Top" too, and Explore lists SITES (`if (!n.rep) continue`), where no seat is being named at all.
+**`graphName(n)` is now THE name on every surface**, `nodeQual(n)` the dim second line, and a seat
+is named BESIDE a name — never inside it: the node card's badge, the row's `ng-system-role` chip,
+the canvas pair label's own `sub` line (verified live: `_lastPairLabel` publishes
+`main:"Kesa Gatame", sub:"TOP"`). `displayName` short-circuits positions to it, because the
+ambiguity map it consults is keyed on the raw title and could only ever hand back the artifact;
+the four canvas sites that re-implemented the ternary now call the seam. `listItemName` strips for
+positions only — a technique keeps its whole qualified title, which is that function's entire
+point. Untouched deliberately: the wire `t` (deck joins key on `posFamily(n.t)`), `_beltPoolAllows`
+and the deck-key ladder (joins, not display), and the static page's own "Roll started in Mount
+Top" snackbar, where the seat IS the destination and reads as prose.
+
+**THE MERGE, AND A RED THAT WAS THE MACHINE.** Landed on dev 26 commits later (v1.176.0).
+Upstream's `v1.173.2` had meanwhile moved the CANVAS the same way — `richLabel` composes its own
+name through `graphName`, `_labelWidthPx` measures headline plus qualifier — so both app
+conflicts resolved to THEIRS and the canvas half of v1.172.0 is gone; the DOM half, `nodeQual`,
+`nodeMatches`, `_bareDup` and the emitter's `aka` are what shipped. Upstream had touched no
+content, no `graph.json`, no `node_ordinals.json`, so the collapse's premise was intact: all six
+files, no alias on the wire. One real merge finding, caught by the suite: a new upstream journey
+(`landcard-modes.spec.ts:546`) booted `/Transitions/Modified-Scarf-to-Kesa-Gatame/Defender`, a
+node this collapse renamed; the URL and two literals moved, the journey's subject did not.
+
+And the lesson worth more than the merge: `forward-components.spec.ts:716` was red 3-of-3 on an
+IDLE box and I called it environmental on circumstantial grounds — every route rendered in a
+fresh context, and it stayed red with upstream's own `graph.json`, so it was provably not the
+content. What I asserted without proving was the mechanism, and the owner pushed back: "That
+can't be true. Please check it again because I increased the file system to about 150 GB." Both
+were true. `/home` is 98G with 59G free; `/` is a SEPARATE 25G volume, 100% full at 111M — and
+`TMPDIR` defaults to `/tmp`, on root, where Chromium puts its profile. `TMPDIR=/home/user/tmp-pw`
+turned it green 2-of-2 at 2.0s, same commit, same box, and the whole gate to **219/219**. Two
+earlier controls (`--disable-dev-shm-usage`, `--disk-cache-dir` on tmpfs) had ruled out shm and
+the CACHE and I read that as ruling out disk — it did not; the profile is a third thing. The trap
+is now in CLAUDE.md §6.4 with its trigger tokens, because a full root mimics contention exactly
+(`Target crashed`, `browserContext.close`, 240s ceilings on 2s specs) and had already been
+misread twice in this session as three worktrees sharing six cores.
+
+## v1.172.0 — ONE DUE NUMBER PER PANE, AND THE OPEN DECK STAYS ON SCREEN
+
+**Owner, two reports in one sitting.** *"In the side panel I see '18 cards due · keep what you
+earned' but in the bottom I see 'Mastered 0 (0%) · 35 due · 1 new' — the due cards should be
+consistent."* Then, on the inline session: *"when I click one that is below the fold it doesn't
+seem to open right, like the scrolling position changes … it should make itself visible above the
+fold, also the case if I go down the list and back up the list."*
+
+### The two due figures were both honest, and that was the problem
+
+`dueCount()` dedupes the srs pool by question hash → 18 CARDS. `dueDeckCount()` counted every deck
+key holding one → 35 DECKS, because `_schedule` mirrors a shared card's review into every deck that
+carries it (`_sharedDecksFor`), so one owed fact produces one srs entry per copy. v1.138.0 had put
+the deck figure on the stat cell (owner then: "5 due" opened 7 rows, "kind of misleading") and the
+card figure on the band; on an account with real cross-deck history the two drifted to 18 vs 35 on
+one pane. Answering a shared card in any one deck clears it from all of them, so 17 of those 35
+rows would have finished themselves untouched.
+
+**Ruling (owner): 18.** Every printed due figure — stat cell, Challenges band, session header — is
+now `dueCount()`. `bucketTechniques("due")` became a **greedy cover**: decks walk most-overdue
+first (ties: more distinct cards owed, then key), and a deck is kept only if it owes a card no kept
+deck already covers. So `dueDeckCount() <= dueCount()`, the technique count moved to the cell's
+tooltip and the section note ("18 cards owed across N techniques"), and answering every kept row's
+due cards clears the whole debt. A deck the manifest lacks is skipped before it can claim coverage.
+
+The plan queue below the Maintenance section (Learn next · More, in order, with the `0/65` counter
+over the whole queue) is unchanged — that is v1.138.0's one-list design, and the section headers
+name it.
+
+### The list jumped because it scrolled against a hidden tick
+
+`_scrollFocusedDeck` targeted `list.querySelector(".mt")` — the FIRST progress tick in the pane.
+The session keeps a collapsed row's built deck in the DOM (`display:none`), and `renderSession`
+opens row 0 on arrival, so from the second click on the first `.mt` was a hidden one: rect all
+zeros, `scrollTop += (0 - lr.top) - 110`, the list thrown upward by the pane's own offset. The
+history home never showed it because `renderDrillHome` rebuilds its rows each time. It also always
+parked the tick at 110px even when the deck was already readable, so ↓/↑ moved the list under a
+card the user was looking at.
+
+Now it targets `_openMini.el` (the one open deck, on both surfaces) plus the row above it, and
+scrolls the SMALLEST amount that shows the whole block; taller than the scroller → align the top.
+Already fully visible → no movement. A late chunk that swaps the placeholder for the real deck
+re-fits once more.
+
+**Mutation** (bundle rebuilt per mutant, run against the named journey):
+
+| mutant | journey | result |
+|---|---|---|
+| old first-`.mt` body restored | `session-scroll.spec.ts` | killed — after the click the Reveal sat 73.8px below the scroller |
+| `bucketTechniques("due")` back to one row per deck | `tests/due_cover.test.mjs` (5 tests) · `srs-due.spec.ts` maintenance surfaces | killed — 3 srs copies must be 1 row |
+
+**Specs:** `e2e/journeys/session-scroll.spec.ts` (new — click a row below the fold, ↓×3, ↑×3, the
+open `[data-mini-deck]` and its row measured inside the scroller after each), `srs-due.spec.ts`
+maintenance-surfaces test rewritten for the card ruling (fixture is now a REAL shared card, found
+via `_sharedDecksFor`), `tests/due_cover.test.mjs` (node-side, real Component prototype).
+Curated gate: 218/218 on a private port — :8133 was held by another worktree's run during
+verification (§6.4), which is why two earlier runs showed ERR_CONNECTION_REFUSED noise.
+## v1.170.3 — THE PINCH LEFT THE STAGED TRACKING RUNNING
+
+**Owner**, on `/Positions/Mount/Bottom` (dev deploy): *"while zooming in, the landcard flickers."*
+
+**What was true.** A URL arrival is a STAGED board — paused from birth, `_staged` set, nothing
+played — and v1.114.4 made such a board re-aim its framing every frame (`stagedIdle` in
+`updateCamera` → `rollCamTarget`) until the user takes the camera, gated by `_stagedCamFree`. The
+comment beside the gate says "a real pan, pinch or wheel clears it". Two of three did: the pan
+handler and the wheel handler both wrote `_stagedCamFree = false`; the pinch branch of
+`pointermove` called only `releaseCamera()`, which drops a flight LEASE and nothing else. So on a
+phone the fingers wrote `cam.vw` and `camTarget.vw`, then the very next frame `stagedIdle` held,
+`rollCamTarget` rewrote `camTarget`, and the tween stepped the camera back toward the staged
+framing — one step out, one step back, per frame — and the moment the fingers lifted the camera
+flew home. Desktop never saw it: the wheel is the desktop zoom and it clears the gate.
+
+**Measured** on dev.bjjgraph.pages.dev at 390x844, CDP touch pinch on bare canvas, `cam.vw` per
+rAF: `130.48` at rest → `108.46, 110.77, 93.15, 80.71, 84.14, 71.89, 62.12, 66.26, 56.36, 60.62 …
+24.70` during the pinch (every other frame reverses), then `29.6 → 118.2` in ~1.5s after touchEnd
+with `camTarget.vw` pinned at `130.48` throughout and `_stagedCamFree` still `true`. With
+`_stagedCamFree` forced false before the same gesture: 185 frames, **0 reversals**, rests at
+`22.5`. The "flicker" is the board jittering under the landing card; the card itself never moved
+(MutationObserver on the card: zero attribute or child mutations during the gesture).
+
+**What is true now.** The pinch branch clears both latches, exactly as the pan does:
+`this.releaseCamera(); this._stagedCamFree = false;`. One line; the reasoning and the numbers sit
+above it in `attachInput`.
+
+**Mutation** (dropping `_stagedCamFree = false` from the pinch branch, rebuilt, run against the
+new journey): killed twice over — `free` reads true at lift, and with that assertion commented out
+the camera-holds assertion goes red on its own (`vw` 116.3 against a `< 78.4` bar).
+
+**Spec:** `e2e/journeys/dual-pair.spec.ts` +1 journey, `pinch on a staged board` — a 390x844
+`hasTouch` describe, real two-point touch through `Input.dispatchTouchEvent` (Chromium turns it
+into the `pointerType: "touch"` events the wrap's pinch branch reads; `page.mouse` cannot make two
+pointers). Asserts the staged posture first, that the pinch begins on the canvas, then `free`
+false at lift, zoom held, and `camTarget.vw` still equal to `cam.vw` 1.5s later.
+
+## v1.171.0 — A TRANSITION IS NOT A CATCH, AND THE DRILL THAT NEVER OPENED
+
+**Owner:** on `/Transitions/Modified-Scarf-to-Kesa-Gatame/Defender` — "it centered the current
+node behind the landcard … instead of showing it centered in the visible available space above
+the landcard, as it's done in other techniques. also the panic effects are uncalled for. we're not
+defending against a submission, we're in poor shape but calm down." Then, on
+`/Submissions/Americana/from-Modified-Scarf-Hold/Defender`: "the choices row is also missing
+here? why? … the landcard should look like the other ones … with the favorite and close buttons,
+the more link … and the panic vignette should be more chill, more slow motion of a heart beat
+really realistic like max payne … but more modern fluid movement."
+
+**What was true.** Four defects, three of them one line each.
+
+1. `rollFromPosition`'s arrival callback ran `enterDefense` for EVERY defender-staged technique.
+   The roll loop itself never panics over a transition — `opponentDefend` plays one as a
+   positional move — so a transition's Defender page was the only place in the app that did. And
+   `enterDefense` frames its danger set with `frameNodes`, which fits the WHOLE viewport, so the
+   state sat behind the card `_dockLandCard` had just docked. Both symptoms, one call.
+2. A URL arrival on a submission's escaping seat has no travel window: `_prefetchLandDeck` fires
+   at stage, `enterDefense` runs 0.6s later, and on a cold visit the Defender chunk is still in
+   flight. `_deckHasCards` is honestly false for both decks, `_panicKey` is null, `buildPanicCard`
+   returns without a card. Vignette, "Caught", one escape, and no question — ever. Measured in the
+   harness: `wait:true` on the deck the frame the drill was skipped, five cards resident two
+   seconds later. `panic-drill-defender-deck.spec.ts` had named exactly this entry as its non-kill.
+3. `buildPanicCard` built the question and nothing else: no `More ▸`, no `+`, no `✕`, no foot.
+   The landing card's chrome lived inline in `renderLandCard`.
+4. `ngHeartbeat` was a 1s ease-in-out sawtooth on opacity alone. And `killVignette`'s fade never
+   ran: a CSS animation outranks the inline `opacity` it animates, so the "180ms snap-off" was a
+   hard `remove()` after 200ms of full-strength red.
+
+**What is true now.**
+
+- The arrival callback gates the rush on `ty === "submissions"`. A transition's defending seat is
+  an ordinary staged landing: attempt card from the defender perspective (`perspSide`), the
+  `|Defender` deck, your hand from the defending side, `rollCamTarget`'s band-aware composition,
+  paused until play.
+- `enterDefense` late-binds the Defender deck: when `_panicKey` is null it awaits `hydrateDeck(dk)`
+  and opens the drill on the same catch, guarded on `_defendSub`, no card on the table, and real
+  cards. The odds do not move under the player: with `_panicKey` null, `escapeChance` already reads
+  `stateBonus(defendKeyFor(sub))` — the same key. The position-deck fallback is deliberately NOT
+  late-bound (that would change the odds' key).
+- `_landCardChrome(el, node, famChip, side)` is the one seam for More-body + foot + corner, called
+  by `renderLandCard` and by the drill's every render. `_landMoreHTML(node, side)` reads the
+  DEFENDER block when authored. The drill refits its chrome once when the dossier chunk lands
+  (the drill is excluded from `_landBackfill` by mode). The foot gradient follows the card skin.
+- The vignette is cardiac: S1 at 0–5% (sharp attack, `scale(.955)` contraction on an element
+  oversized by 7%), S2 at 23.5% (softer), long diastole, 3.2s cycle, per-keyframe easings.
+  `killVignette` freezes the animation at its current frame before transitioning, so the defeat
+  drain (.9s) and the relief snap (.32s) actually run.
+
+**Mutation** (rebuilt and run against `landcard-modes.spec.ts`; 3 of 3 killed):
+
+| mutant | journey | result |
+|---|---|---|
+| `ty === "submissions"` gate gone | 6b | killed |
+| late-bind dropped | 6 | killed (no `[data-panic]` in 20s) |
+| `_landCardChrome` dropped from the drill | 6 | killed |
+
+**Not pinned:** the heartbeat's shape (keyframes are CSS; a spec asserting them would re-implement
+them) and the vignette fade (a transition under a removed animation — verified by eye on the real
+dev server, not by a gate).
+
+## v1.175.0 — THE READING COLUMN, AND THE COUNT GOES QUIET
+
+**Owner, on v1.174.0's independently scrolling second card:** (1) "When I click More I wasn't
+expecting the choices row to disappear behind the card that shows on top." (2) The `0/8` pill:
+"That should show in the flashcard perhaps under the star and the close button, very discreet …
+not even having a pill design, just having the text and the text being boring gray … It should not
+open the last rows when I click it." (3) "When I scroll this card should go under the fold too so
+it should be long. It shouldn't stay within the fold … what moves up is this new card that showed,
+the land card and the videos row. Basically everything moves up and the background, where it says
+'Top Mount' in the current node, gets hidden behind it … if I scroll [back] we get back to the same
+state we were in." (4) "I don't want to see any 0 out of 8 flashcard [in the More row]."
+
+**The column.** `.ng-landmore.open` lost its scrollport (`max-height:none; overflow:visible;
+bottom:auto`) and docks 6px under the timed card at content height, so a long read runs under the
+fold. The hand is PUSHED below it rather than covered: `_dockLandMore` measures the More card's
+bottom against the hand's slot (the timed card's own clearance — 8 on a phone, 12 on desktop; the
+fold when the hand is put away) and that distance is `_readMax`. (Written against a phone ✕ that
+still had its own 34px row above the tray; v1.176.7 put that ✕ INSIDE the row, and the merge into
+dev — v1.177.0 — dropped the row's clearance from `_dockLandCard` and `_dockLandMore` and stopped
+`_readApply` translating the ✕, which `_dockHandClose` now re-docks to the row every frame — a
+second translation would have pushed it twice.) `_readApply(s)`
+translates film, timed card and More card by `-s` (`translate(-50%, -s)`, their centring kept)
+and moves the tray by `_readMax - s` on its `bottom` — never its `transform`, which the option
+sheet owns and rewrites (`expandOption`/`closeOptionDetail`/`clearOptions`), and the template's
+`84px` is WRITTEN back, never deleted (§6.1). At `s = 0` the hand sits just under the More card,
+off the fold; at `s = _readMax` it is home and the whole read has passed through the viewport.
+Input: ONE document-level capture `wheel` in `boot` (the column's members are root-plane
+siblings outside the wrap, whose own wheel is the zoom) that yields to any ancestor that scrolls
+itself vertically (`_readOwnScroll`: the pane, the modal, a timed card whose question overflows —
+NOT the hand, which overflows sideways; measured: at the end of a read the hand rose under a
+resting cursor and its glide took the wheel meant to scroll back); a per-member vertical touch
+drag with `_trayFling`'s decay (`_readTouch`). No keyboard binding — a ↑/↓/PageUp/PageDown
+branch was written and cut for weight (the payload sat 11 bytes under its ceiling at v1.174.0).
+Picking a card from the hand at the foot of the read closes the column first, or the sheet opens
+under the z:90 card with the tray still pushed.
+
+**Two readers had to add the offset back.** Every dock measures in the home frame (`_readClear`
+before, `_readApply` after, inside one synchronous call — no frame paints between). But
+`_dockLandFilm` runs a frame later through the translation, and the camera band in
+`rollCamTarget` reads the card's top every frame into a cache that only ever TIGHTENS for the
+life of the viewport (§6.1) — read through a 300px translation it would have held the camera
+high for the rest of the session. Both add `_readOffset()`. Measured at 390×844 with Mount Top's
+authored dossier: More 586→870 (under the 844 fold), `_readMax` 290–298, hand pushed to 920; at
+the end the hand at 622–760 exactly as before, the film off the top at −7, the timed card at 91;
+`_bandBot.y` 271 before, during and after.
+
+**The count.** `familiarityChip` is now the node card's alone; the landing corner
+(`_landCardChrome`) is a column — the ★/✕ row, then `data-land-count` as 9.5px #5b6580 text
+with `pointer-events:none` and no handler, fed by the new `_deckProgress(key)` the chip also
+reads. The question line grew `NG_LAND_Q_MIN_H = 32` so a one-line question's first answer row
+cannot start under the 40px-deep corner. The More row lost the chip and is not built at all when
+`_landMoreHTML` is empty (`_renderLandMore(node, side)`; the panic refit guards on `_landMoreEl`
+instead of a child count). The chip's `openMenu(true)` route from the landing is gone; the pane's
+Last rolls tab is the study route (`newcomer-story` now walks logo → tab).
+
+**Pinned by:** `roll-card.spec.ts` ("More grows into a long second card and the whole column
+scrolls, hand pushed not covered" — every member's rect before/open/mid/end/back/Less/Esc/
+background/teardown, the tray's `bottom`, the band cache, the wheel over the hand; "a card picked
+from the foot of the read closes the column"; the two desktop `column scrolls from the graph`
+journeys, which also pin that the wheel does not zoom); `landing-card.spec.ts` ("the corner count
+is bare done/total text that opens nothing"); `landing-priority.spec.ts` and `newcomer-story`
+(the count in the corner, none in the row). **Not pinned:** the touch drag and fling (driven by
+CDP `Input.dispatchTouchEvent` on the dev server — measured 160px of drag landing at `_readS`
+252 with the fling — but no journey binds a touchscreen), and iOS rubber-banding under
+`touch-action:none`, which headless Chromium cannot show.
+
+**Merge verification (v1.177.0–1.177.1).** The integrated tree passed the full site build,
+241 unit tests, 223 curated journeys, content/availability validators, Quartz checks and an
+`npm ci --ignore-scripts --dry-run`. First-hand gzip was 373,097 bytes against the 387,400-byte
+ceiling. Docking now measures layout edges rather than the entry animation's translated rect,
+which otherwise adds 8px to the final reading gap. The merge also restored 18 dependency
+versions accidentally stamped with the upstream app version; root package versions alone advance.
+A concurrent landing-seat fix arrived after the full gate; after merging it and rebuilding,
+all 26 landing-role, start-from and roll-card journeys passed.
+
+## v1.174.0 — MORE BECOMES THE SECOND CARD
+
+**Owner:** "More shouldn't touch the landcard. Rather it should be like expanding itself into
+another landcard card container that grows under the fold, filling the content of it, and user
+scrolls down and up too." The boundary is literal. `[data-land-more-body]` is never appended to the
+timed `[data-landcard]`; `_renderLandMore` builds one root-plane sibling whose collapsed state is
+the More/familiarity row and whose open state is a second, independently scrollable card beginning
+below the timed card. Opening preserves the exact timed-card element, rect, children, max-height
+and scroll position. The reading card owns sticky Less, Esc/background-first dismissal,
+bidirectional scrolling that stays open at scroll-top and `_landAutoPaused`; no action on it
+changes the timed card's layer handle.
+
+**No fourth layer.** This landed on top of v1.173.0's minimized-content branch rather than
+replacing it. More is subordinate to `landCard`: turning that layer off first folds More, returns
+only its owned pause and removes both card roots; restoring the current landing rebuilds More
+folded. `landFilm` and `landHand` remain independent — `_clearLandFilm` cannot delete More, and a
+hidden hand gives the timed card back its tray slot while `_dockLandMore` reserves the small row
+above the layer dock. With a visible hand, More measures below that hand; when the minimized dock
+shares the band, only the pill shifts aside. `_landDatum` remains the single tray measurement.
+
+The 390×844 live pass found one minimized-branch interaction outside the new row: the hand ✕ sat
+inside the timed card's full-width box, so `elementFromPoint` returned an answer radiogroup at its
+centre. Desktop had room beside the card and hid the defect. Mobile `_dockLandCard` now reserves
+the hand control's 34px row; the real-mouse phone journey proves the ✕ owns its centre and that
+putting the hand away leaves both the card and More mounted.
+
+**One shared anatomy, still.** `_landCardChrome(el, node, key, side)` keeps the merged branch's
+top-right capture + persisted card-layer ✕ and calls the sibling builder for both normal landings
+and the panic drill. The panic card therefore reads authored defender content in the same second
+card. The familiarity fraction is retained beside More, outside the timed card, and still opens
+Last rolls on the current deck; only the otherwise-empty timed-card footer is gone. The question's
+`totalCards` binding comes directly from `_deckCardCount`, while chrome derives the chip from the
+same key — the merge-sensitive split that prevents a detached UI control from becoming the
+question builder's data transport.
+
+**Pinned by:** `roll-card.spec.ts` ("More grows into its own scrollable card" — body ownership,
+same timed card, independent down/up wheel scroll, Less and Esc); `land-layers.spec.ts`
+(film/hand independence, card-layer teardown/restore, pause ownership, dock clearance); and
+`landcard-modes.spec.ts` (panic uses the same timed-card chrome and detached More surface).
+
+## v1.173.0 — THREE LAYERS, ONE DOCK
+
+*(shipped from `feat-minimize-node-content`; its own two commits are labelled v1.171.0 and v1.171.1, written before dev's unrelated v1.171.0 and v1.172.0 landed, and the in-code comments carry those branch labels. Index A's warning applies — the labels here are not reliable keys.)*
+
+**Owner:** "when he closes that he now only sees the outcomes … if he clicks another node at that
+instance, then another row of videos and another row of multiple-choice cards will show up and it
+shouldn't. It should still be collapsed … we have to have a mechanism to expand it again and
+collapse it again whenever we want to." And the beginner's case: "just having the roles and seeing
+what that connects to is a lot better than understanding what better connects to what."
+
+**What shipped.** Three persisted booleans — `landFilm` · `landCard` · `landHand` (default on,
+three scalars rather than one map so two devices toggling two different layers never clobber
+each other under the per-key LWW) — read live per landing through `_layerOn`, written only by
+`setLayer` (persist · `land_layer` beat · `_bandBot = null` · `_applyLayers` in place). The card's
+✕ became the card layer's handle (sticky; it used to `clearLandCard()` per landing); the film
+strip and the hand each got a twin ghost ✕ (`data-film-close`, `data-hand-close`, all cut from
+`NG_GHOST_BTN_CSS`); a dock at bottom-centre — the retired transport's seat — shows one muted
+glyph per COLLAPSED layer (▶ ? ⋯) and is REMOVED when every layer is open. Settings › Rolling
+mirrors the three rows. The see-more hint moved from `right:24px` to `56px` to make room.
+
+**Two decisions that shaped it.** (1) A collapsed CARD is NOT BUILT, never hidden:
+`_landHidden()` already reads a null `_landEl` as hidden, so every key and clock gate went dead
+by construction, no `land-mc-*` draw is consumed, and the funnel names the gap
+(`land_q_skipped {reason:"collapsed"}`; `panic_skipped` for the drill). Build-and-hide would
+have made `_landPending`, the clock and the skip beat all lie. Expanding mid-landing calls
+`renderLandCard(…, {el:null})` — a truthy `reuse` keeps the landing's answered set, so a
+question answered before the card was put away grades the fresh one as extra. New invariant,
+commented at `_clearLandCardOnly`: **`_landIdx` may be set while `_landEl` is null**, so a late
+chunk still docks the FILM under a collapsed card (`_landBackfill`'s new first branch).
+(2) A collapsed HAND is DEALT and hidden (`visibility:hidden !important` on the persistent
+tray — the deal is the roll state and its order is frozen), forced visible under attack
+(`_handShown` reads `_defendSub`): being caught is not a landing, and hiding the only exit by
+preference is a trap the player did not choose.
+
+**Docking.** `_landDatum()` replaced the `TRAY_BOTTOM = 84` each of `_dockLandCard` and
+`_dockOptionHint` carried: tray bottom plus the MEASURED tray height, zero when the hand is put
+away, so the card (and a cardless film) drop into the tray's slot. `_bandBot` keeps its
+tighten-only rule; the ONE reset is in `setLayer`, the one event that legitimately frees screen.
+
+**A pre-existing race surfaced.** `roll-card.spec.ts` "the card's corner capture really is
+clickable, by mouse" went red 4 of 4 with this bundle and green 2 of 2 with origin/dev's; an
+instrumented probe traced the close to `onFlashcardsReady → buildDrillPanel →
+applyDeckVisibility → closeListPicker` — a deck-chunk batch (real-clock `setTimeout(0)`)
+landing a few ms AFTER the click, which the 400ms wait had won by luck. The spec now waits for
+`_deckWaits` to drain and `_hydrateRefresh` to clear before clicking; 3 of 3 green after.
+`option-overflow` "the hand uncapped" (16 vs 14 over-cap hands) was the harness serving a STALE
+wire from another checkout — it fails identically on origin/dev's bundle — not this change.
+
+**Mutation** (`land-layers.spec.ts`, 11 of 11 killed; two needed a second pass):
+
+| mutant | test | first pass → final |
+|---|---|---|
+| M1 collapsed branch deleted | sticky | killed |
+| M2 setLayer writes the value, forgets `this.set` | survives a reload | SURVIVED → killed by the LWW-stamp assert (other writers save the blob in-window; only cross-device could tell) |
+| M3 enterLand drops `_syncHandLayer` | caught | SURVIVED under "independent" (the hidden style lingers on the persistent tray) → killed by the post-escape landing |
+| M4 digit gate drops `_handShown` | independent | killed |
+| M5 dock not in `attachInput`'s list | sticky (clickByMouse) | killed |
+| M6 `_bandBot` not dropped | geometry | killed |
+| M7 background tap goes sticky | background ladder | killed |
+| M8 skip reason renamed | sticky | killed |
+| M9 `_dockLandCard` ignores the datum | geometry | killed |
+| M10 phone glyphs lose the 44px box | phone | killed |
+| M11 `_handShown` drops the defense force | caught | killed |
+
+**Spec:** `e2e/journeys/land-layers.spec.ts` (8 journeys, one `@curated`). Docs: `docs/Neural.md`
+§3 paragraph, film line, ladder line; CLAUDE.md §5 seam row, §6.1 surface count 6 → 8.
+
+**Status (second pass, same ship — branch label v1.171.1):** decision (2) above is REVERSED. Owner, after previewing a Defender URL
+arrival with only the videos on: it "showed to me the outcomes … if I didn't ask to see outcomes
+don't show them to me". `_handShown` no longer reads `_defendSub`; the escape tray obeys the hand
+layer like every other deal, and the dock brings it back mid-defence. The catch is announced as
+"<name> locked in" — the "drill to loosen it" tail is gone. M11 inverted (forcing the escapes
+visible is now the mutant); M3 moved to the reload test, where the tray is a fresh element and
+only the first deal's sync can hide it.
+Two more owner calls in the same preview: the **"see more →" hint is DELETED** (`optionHintRef`,
+`_dockOptionHint`, `scrollOptions`, `.ng-seemore` and its phone rule — "it's too much on screen
+to have the see more and the x"; the tray still scrolls by wheel and drag, and `attachInput`'s
+list is 7 surfaces), and the **film ✕ hugs the last thumbnail**: `_dockLandFilm` places it 4px
+right of the last `.ng-clip`'s measured box, and a row of fewer than three clips is CENTRED.
+
+**INTEGRATING WITH dev's OWN v1.171.0, AND THE BUG THE MERGE MADE.** dev shipped its own v1.171.0
+(the Defender landing and the panic drill) plus v1.172.0 while this branch was in preview, so the
+branch merged dev in first — the repo's own pattern (`702315dd9`). One conflict mattered: dev had
+EXTRACTED the card's corner/foot block out of `renderLandCard` into `_landCardChrome`, shared with
+the drill, and this branch had edited the ✕ inside that block. Resolution took dev's extraction and
+re-applied the sticky ✕ inside the helper — so the drill's ✕ is now the card LAYER's handle too
+(it hides the drill; the escapes stay dealt, and a later catch skips the drill by `panic_skipped`).
+
+The merge then produced a defect that **compiled clean and passed the layer specs**: dev's chrome
+call reads `perspSide`, a local this branch had MOVED out of `renderLandCard` when it extracted
+`_landFilmClips`. Result: `ReferenceError: perspSide is not defined` on every landing card.
+`dual-pair.spec.ts` caught it (11 journeys red at once); the build could not, and neither could a
+spec that only asserts the collapsed path, because a collapsed card never reaches the chrome. Fixed
+by the §6.5 remedy rather than by restoring the local: `_landPerspSide(node)` is now the one seam
+both callers ask. **The lesson for a merge, not just for a refactor: when one side extracts a block
+and the other moves a local OUT of the same function, textual merge succeeds and the binding
+breaks — the audit after a merge has to be "does every symbol still resolve at RUNTIME", which
+here meant running the specs of the side you merged IN, not only your own.**
+
+**Two ceilings raised** (`tests/artifacts/budget_docs.json`, with the reasoning in its own note):
+the archive, which **origin/dev had already breached by 1,424 chars before this branch merged** —
+that gate was red on dev independently — and `docs/Neural.md`, following the standing instruction
+its own note left for "the next writer who touches it".
+
+**Status (v1.173.1):** the deploy's own curated gate ran the suite this box could not — **216
+passed, one failed**: `payload-first-hand`, at **385,900 gzip against a 385,000 ceiling**.
+Measured by building one source tree at three refs: v1.170.1 **153,550** → dev's v1.172.0
+**154,176** (+626, dev's own two ships) → this merge **156,105** (+1,929, the three layers). The
+ceiling had ~1,000 of headroom and the feature needed ~1,900. Tidying was tried first and does
+not reach it: one ghost-button factory for the four handles plus one check-row builder shared
+with the questions toggle measured **288 bytes**, and the three settings rows in full are only
+**438** — closing the gap would mean deleting the hand ✕, the handle whose crowding is why the
+see-more hint went in this same ship. Ceiling raised to **386,400** with the arithmetic in its
+own note, and flagged as the owner's call: the ceilings are targets from Observatory field data,
+and this is 0.36% of the first-hand payload. The two refactors are deliberately NOT in that
+commit — the box's root disk was 100% full and could not run Playwright, so the shipped tree is
+byte-for-byte the one CI validated and only the number moved.
+
+## v1.173.2 — THE QUALIFIER STAYS A SUBTITLE AT EVERY ZOOM
+
+**Owner:** on `Trap and Roll from Mount / DEFENDING` — the gap between `from Mount` and
+`DEFENDING` became conspicuously large, and zooming out moved `from Mount` back into the title.
+
+**What was true.** The split-pair path already rendered `Trap and Roll` and `from Mount` on
+separate rows, but its lower role used the 24px headline's clearance and then followed the lower
+orb even farther away. The minimum qualifier-to-role baseline gap was therefore 23px against the
+15px rhythm of the two name rows. Below the pair merge threshold, a different renderer took over:
+the focus fallback passed `displayName(n)` into `richLabel`. Because `Trap and Roll` is ambiguous
+across origins, `displayName` correctly returned the full authored name — but `richLabel` had only
+one name row, so it recomposed the qualifier into the headline.
+
+**What is true now.** `richLabel` owns the graph naming structure and accepts no caller-composed
+name: it always draws `graphName(n)` as the headline and `splitName(n.t).from` as the optional
+qualifier. `_labelWidthPx` measures the widest of those actual rows rather than the retired inline
+string. In a qualified lower pair, the role sits one `NG_LABEL_LEAD` below the qualifier; upper
+roles and unqualified lower roles keep their orb-following behavior.
+
+**Pinned by:** `tests/neural_type_scale.test.mjs` runs the real wire through the real `ingest()` and
+`draw()` paths with the reported defender node, records the actual `fillText` calls, and checks
+both LODs. `e2e/journeys/graph-naming.spec.ts` renders the real canvas at split and merge scales,
+asserts the published geometry, and reads back positive pixels from every affected row.
+---
+
+## v1.174.0 — EVERY ROLL YOU PLAYED REACHES THE SHELF, AND THE SHELF REPAINTS
+
+Owner: *"please look into and fix why last rolls is not updating as i click outcomes and continue
+my roll, etc. it seems stuck - but in the past it worked, grouping steps into rolls (groups of
+steps collapsible/expandable with inline flashcards too or something i think"*.
+
+The grouping was never removed. Two defects in the roll-close path meant the groups mostly never
+arrived, and when they did the tab was not repainted to show them.
+
+**Reproduced first, in production mode.** The e2e harness could not see either defect: every
+journey that advances a roll re-opens the pane afterwards, so `buildDrillPanel`'s repaint always
+covered for the missing one. So the app was driven in a real headless Chromium against the shipped
+bundle and the real payload, clicking tray cards and Go like a player, with Last rolls open the
+whole time. Session 1: **6 picks, 5 rolls ended, 1 row on the shelf.** Session 2: **2 rolls ended,
+0 rows.** The pane's DOM matched `rollLog` on every sample — the render was never the problem.
+
+**Defect 1 — `rollLog.length > 1` discarded the ordinary short roll.** Three copies of the archive
+block (`startRoll`, `rollFromPosition`, `_enterRoam`) each carried
+`if (this._played && this.rollLog && this.rollLog.length > 1)`. `_played` (set in `_tick` on the
+first unpaused frame with a live hand, v1.68.0) is the honest "was this a roll" test; `> 1` was its
+pre-`_played` proxy for "did anything happen" and had become the half that threw real rolls away.
+You attack from the state you opened in and either finish it — `resolve` → `endRound("win")` — or
+get caught there and lose the escape: the log holds exactly ONE state, because a landing that
+returns you to the same state is deduped by design. Beat trail of one such roll, verbatim:
+`land(Standing Position Top) → commit(Kimura from Standing) → impact_fail → opponent_attack →
+caught → panic_drill_opened → defeat_drain → roll_end{outcome:"lose", moves:0}` — and then nothing,
+anywhere in the app, that this had ever happened.
+
+**Defect 2 — nothing repainted the tab when a roll was filed.** `rollLog` and `_pastRolls` ARE
+what Last rolls draws, and the only refresh was `buildDrillPanel`, i.e. THE NEXT LANDING. Free roam
+(background tap ×2, v1.134.0) has no next landing: measured with the tab open, `rollLog` went 3 → 0
+and `_pastRolls` 0 → 1 while the DOM kept all three rows under **This roll** and showed **zero**
+`[data-past-roll]` rows — frozen on a roll that no longer existed, hiding the one it had just
+archived, until something else happened to land. That is the "it seems stuck" report exactly.
+
+**The fix is one seam, `_closeRoll()`** — the three copies deleted, `rollLog = []` now written in
+exactly one place in the file (§6.5: collapse to one named seam and DELETE the copy). It archives,
+clears, says which it did, and repaints:
+
+- **Predicate:** played AND (two states OR a verdict (`_lastOutcome`, written by `endRound`) OR a
+  move committed in it). The third is `_rollActed`, set at `enterAttempt`'s `commit` beat, because
+  the log cannot see an attempt that failed and left you where you stood. A board that was only
+  staged and abandoned still files nothing — the case `> 1` was really protecting.
+- **Both branches emit a beat** (§6.6, absence produces a plausible answer): `roll_archived
+  {states, outcome, shelf}` or `roll_discarded {states, played, acted}`. "Filed nothing" can no
+  longer read like "never looked".
+- **`_refreshHistoryRows()`** — `_replayRefreshRows` renamed, since it now serves two writers of the
+  data the tab draws (the film, and a roll being filed). Same guard as `buildDrillPanel`: History
+  shown, home view, no study takeover — an open Explore search or Challenges scroll is never
+  stomped. Pane law is untouched: this repaints a body, it never opens or closes the pane.
+- Stale `c*` row latches (`_openRow`/`_focusRow`/`_openMini`/`_rollFocus`) are dropped with the roll
+  they pointed at, so no orphan row re-opens on the next one.
+
+**One-state rolls needed a label.** `_pastRollRow` composed its own `start → end` while
+`replayLabel` composed the same sentence separately — two answers to one question, invisible until
+a one-state roll made them disagree ("Mount → Mount"). Both now read `replayEnds(roll)` →
+`{from, to}`, where a single-state roll's `to` is the FINISH (`endRound`'s third argument, the
+submission you hit or were caught in) and `null` for a scramble reset, which prints the start name
+once. Rows read *"Truck → Calf Slicer from Truck · 1 state · won"*, the ⟲ button's accessible name
+matches, and the film of such a roll is `[wide, land, finish]` — `replaySteps` already handled it,
+so nothing was gained by hiding the roll. Plural fixed with it ("1 states").
+
+**Measured after (same harness, tab open):** rolls ended = rolls archived = `[data-past-roll]`
+rows, at every sample, across 8 picks. Free roam: rows 3 → 0, shelf rows 2 → 3, on the tap, with no
+landing in between. Prevalence of the discarded roll, re-derivable:
+`tests/artifacts/_last_rolls_archive_probe.mjs` (production mode, no rigging, always presses the
+first EDGE-ranked card) — **9 rolls ended over three runs, 4 of them one-state (44%)**.
+
+**Mutation** (each rebuilt with `npm run dev:neural:app` and run against the named journey; 2 of 2
+killed):
+
+| mutant | journey | result |
+|---|---|---|
+| `acted = log.length > 1` (the old predicate) | …first exchange still becomes a past roll | killed ("the roll that just ended is on the shelf" → null) |
+| `_refreshHistoryRows()` dropped from `_closeRoll` | free roam files the roll it ends… | killed (`[data-past-roll]` count 0, stale rows kept) |
+
+**Spec:** `e2e/journeys/pane-history.spec.ts` +2 journeys. Regression: pane-history 7/7,
+history-replay 6/6, pane-law 7/7, play-from-row 4/4, roll-card 13/13 (including the background
+ladder), first-impression 7/7, newcomer-story 1/1, golden-path 3/3, `test:units` 229/229.
+Doc: `docs/Neural.md` Last-rolls paragraph extended.
+
+**Not touched, deliberately:** the archive still happens when the NEXT roll starts, not in
+`endRound` — `pane-history.spec.ts`'s "the history survives the round ending" pins that a row you
+are reading when the round ends stays readable, and moving the archive earlier would empty
+**This roll** under the reader's hands.
+
+**Found while reading, not fixed here:** `_clearPauseLatches()` (v1.113.4, "any deliberate
+pause/resume voids all four claims") has **zero call sites** — `setPaused` never calls it. And
+`pick`'s `setPaused(false)` resumes the roll with the pane still open and `_paneAutoPaused` still
+latched, so the game runs behind an open pane, which pane law forbids. Both are live in
+production; neither is in this change's scope.
+
+## v1.175.0 — THE CORRIDOR GETS THE KEYBOARD (AND ⏎ BECOMES THE COMMIT KEY)
+
+**Owner:** "i want to have keys navigation especially for the flashcards in the challenges like
+up arrow down arrow left right space enter etc".
+
+**What was true.** Three surfaces render the same inline deck through `_miniDeck`, and only two
+of them could be worked from the keyboard. `_onKey`'s arrow branches gated on the History tab
+(`_viewMode === "history" && _drillView === "home"`), on `_sessionInline()`, or on an open drill;
+the Challenges corridor matched none of them, and `openMini` never set `_focusRow`, so there was
+nothing for ←/→/Space to resolve even if a branch had run. Worse than dead: the corridor is built
+entirely out of `<button>`s, and v1.113.4 had deliberately made Space yield to a focused control,
+so the Space that followed a click on ▸ ACTIVATED the ▸ and shut the deck the player had just
+opened. That is the same complaint v1.113.4 answered ("keyboard shortcuts don't really work in
+challenges") arriving through the other door.
+
+**And grading in the corridor was broken by mouse too, silently.** `gradeRecall` fires beats;
+`noteChallenges` repaints the Challenges tab whenever one advances durably; `renderChallenges`
+rebuilds the ladder from scratch. So a Got-it CLOSED the deck being worked — and because
+`gradeMini` credited BEFORE walking the deck on, the `doNext()` that followed rendered into the
+wrap the repaint had already detached: right state, dead screen (§6.6). Measured on the built
+site: the THIRD grade of a lesson is the one that repaints (that is where `lessonDone` flips and
+emits `lesson_done`); grades one and two move nothing durable and left no trace of the defect.
+
+**What is true now.**
+
+- **One resolver, five callers.** `_focusedMini()` (app.src.jsx) answers "which inline deck do the
+  keys drive", scoped to the surface actually showing. `_focusRow` + `_miniReg` are ONE registry
+  for three surfaces (`c<n>` history, `s<i>` session, `lesson:<deckKey>` corridor) and nothing
+  clears the row handle on a tab switch — so before this, the corridor's new keys could have
+  resolved a handle Last-rolls left behind: ←/→ paging a hidden deck, ⏎ GRADING a card nobody was
+  shown. It was the fourth copy of `_focusRow && _miniReg && _miniReg[this._focusRow]`, which is
+  where §6.5 says to name the seam instead.
+- **↑/↓ walk the ladder** (`challengeLessonNav` + the `_lessonRows` registry, rebuilt with the rows
+  it indexes), opening each row's deck as it arrives. Cold start opens the FRONTIER row, not the
+  top of the corridor: the tab already scrolled there, so the first ↓ must not yank the reader five
+  belts up. Visibility is asked of the DOM (`offsetParent`) — a folded belt is `display:none` and
+  keeps every row, so the CSS is the only honest authority, and that same check is what makes a
+  fold hand the keyboard back and an unfold hand it straight back.
+- **⏎ is the commit key.** `doEnter` in `_miniDeck`: face-down → reveal, revealed → grade Got-it and
+  walk on, already graded → next card. Three states, one verb, because a key that sits dead reads
+  as broken. The Got-it button now prints a `⏎` chip beside Reveal's `space` chip.
+- **Focus moves onto the deck BOX** (`tabindex="-1"`) when a deck opens, which is the whole reason
+  Space and ⏎ can be claimed at all: a container owns neither activation key, so v1.113.4's yield
+  stays intact and Tab-then-Space on a lesson row still opens it.
+- **An open deck survives a repaint** — the `_histRow` pattern (`_openLessonRid` + a re-open at the
+  foot of the lesson loop, with focus FALSE so a background repaint steals nothing) — and
+  `gradeMini` now walks the deck on BEFORE crediting, so the rebuild paints the card the player is
+  owed.
+
+**Payload.** The change itself measured **+2,578 B raw / +695 B gzip** on the branch before the
+merge. On the merged tree (dev's sticky layers and the Last-rolls repaint underneath it) the boot
+payload reads **1,385,220 / 1,600,000 raw** and **313,729 / 330,000 gzip**, and the
+browser-measured first hand **1,619,544 raw / 385,684 gzip** against the ceiling v1.173.1 had just
+raised to **386,400** — about 700 B of headroom left, which is the next ship's problem and is
+recorded here so it is not a surprise. `tests/artifacts/first_hand_payload.json` carries the
+observation, and it is re-measured (a few bytes either way) by every run of
+`payload-first-hand.spec.ts`.
+
+**Mutation** (each rebuilt and run against `e2e/journeys/keyboard.spec.ts`; 10 of 10 killed):
+
+| mutant | killed by |
+|---|---|
+| `challengeLessonNav` call removed | "↓ opened the next lesson's deck" |
+| `openMini` never claims `_focusRow` | "and took the keyboard focus row" |
+| focus never moves off the ▸ | "with DOM focus moved off the ▸ button onto the deck box" |
+| no re-open after a repaint | "the deck is STILL OPEN across that repaint" · "the open deck came back" |
+| ⏎ branch removed | "⏎ credited the card through gradeRecall" |
+| `_focusedMini` visibility check dropped | "→ walks nothing once the deck is folded away" |
+| `_focusedMini` surface scoping dropped | "→ did not page the deck on the tab we left" |
+| `gradeMini` credits before walking on | "not sitting on the graded card" |
+| `_lessonRows` not rebuilt per render | "→ walked to the second card" |
+| Space no longer reaches an inline deck | "Space revealed the answer" |
+
+**Spec:** `e2e/journeys/keyboard.spec.ts` +4 journeys (corridor pages/flips/grades; a repaint
+leaves no dead keys, incl. fold and unfold; keys never reach a deck on the tab you left; Space and
+⏎ still activate a Tab-focused corridor button). Docs: `docs/Neural.md` pane section, the Settings
+→ Shortcuts legend (its rows now cover all four deck surfaces), CLAUDE.md §5 seam index.
+
+**Environment note, for anyone re-running this:** the first full-suite attempt reported 381
+failures, every one of them `net::ERR_INSUFFICIENT_RESOURCES` / `Target crashed` with no product
+assertion anywhere. Root cause was a FULL DISK (`/` at 100%, 48 KB free) with three worktrees
+building concurrently — Chromium could not launch at all (`about:blank` failed too). The same
+files pass in seconds with a few hundred MB free. Read the failure MESSAGE before reading a red
+suite as a regression.
+
+
+## v1.176.0 — Submission states own their choices
+
+Submission arrivals from URLs, graph taps and transitions now open their own choices:
+exactly one Finish, concrete continuations, and named defender responses. Short labels
+omit the current state. Triangle gains distinct Kimura, Americana and retained-triangle
+straight arm-lock variants, with initial model rates. Their additions explain the census,
+ordinal and FLOW-reference updates.
+
+Twelve redundant controls become playable aliases; stored vertices remain for old links
+and the evaluator. Submission choices and explanations load together, preserving arrival
+seats and distinguishing continued threats from completed escapes. Opponent outcomes form
+a separate, preview-only group. The snapshot availability probe uses HEAD to avoid fetching
+a static server’s custom 404 body.
+
+Validation: 240 units, 221 curated journeys and eight final-build journeys passed; Quartz
+rendered 4,618 Markdown files and passed type/format checks; graph audit found zero errors.
+Removing Finish or flipping escape seats failed mutation checks. First hand: 386,212 gzip
+bytes, ceiling 387,400. A sparse worktree and RAM build avoided the full shared disk.
+
+## v1.176.1 — Threat colors follow state scores; odds remain visible
+
+Threat points and glyph/bar colors follow the resulting state from the player’s future
+seat, including reversals and aliases; favorable outcomes may be blue. Opposing finishes
+remain −100. Visible opponent rates exclude player bonuses/overrides. Escapes use the
+complement of the authored finish rate; independent per-response rates are unavailable.
+Both refresh paths preserve these semantics, and threat previews cannot execute moves.
+
+Validation: 241 units, 221 curated journeys and four final-build checks passed. Startup:
+386,607 gzip bytes against 387,400. Fixed-red shared palettes and hidden odds failed
+mutation checks. An initial-render-only red mutant survived because live refresh restores
+the score color; the spec records that limit.
+
+## v1.176.2 — Keep choice odds on one line
+
+Threat footers use “Base odds” with wrapping disabled. Rendered checks at 390px and 1440px
+confirmed single-line captions fit beside percentages. Rebuilt app; 241 units and 221
+curated journeys passed. Startup: 386,585 gzip bytes against 387,400.
+
+## v1.176.3 — Use one odds caption across choices
+
+All player/opponent choice cards, expanded cards and adjustment tooltips use “Odds”.
+Calculations stay unchanged. Rebuilt app; 221 curated journeys passed, with consistent
+phone/desktop captions. Startup: 386,546 gzip bytes against 387,400.
+
+## v1.176.4 — Integrate submission choices with dev’s position naming cleanup
+
+Combined the feature with dev’s Kesa consolidation and seat-name cleanup. Regenerated graph,
+layout, explorer and FLOW reference: 1,448 sites, 133 positions (12 playable aliases), 1,315
+techniques, 290 submissions, 242 playable position seats and 1,213 position cards. Exact
+coverage is 290 gi/259 no-gi submissions after duplicate removals.
+
+Published dev ordinals remain unchanged; triangle variants receive 1495–1497. The lock has
+1,498 assigned IDs, 1,448 live and 50 retired. Validation explicitly compares origin/dev;
+the integration’s first parent is dev, preserving CI’s HEAD^1 baseline. Americana/Kimura
+indexes drop retired scarf duplicates, correct Ushiro slugs and remove North-South Kimura
+(previously folded into Kimura Trap). All 14/29 canonical variant references resolve.
+
+Quartz build/type/format, 241 units, 222 curated journeys, graph integrity, JSON/JSON-LD,
+seat-deck, flow and ordinal gates passed. No baselines changed. Startup: 371,928 gzip bytes
+against 387,400. CI then caught the combined changelog exceeding its documentation budget.
+
+## v1.176.5 — Keep integration notes within the documentation budget
+
+Condensed this branch’s changelog entries, preserving behavior, validation and migration
+facts. The documentation ceiling is unchanged; budget and reference gates pass.
+
+## v1.176.6 — Bring full-suite fixtures into the submission-state model
+
+Older non-curated journeys counted retired aliases or expected submission entry to resolve
+immediately. Fixtures now use the actual 121-position pool, concrete resolving transitions,
+explicit Finish actions and payload readiness. Exact outcome, RNG, role and UI assertions
+remain; archive checks cover both two-state entries and direct one-state finishes. Targeted
+runs pass all 53 affected journeys. Runtime code is unchanged. Census and documentation
+gates pass without changing baselines or timeouts.
+
+## v1.182.0 — Capture beside the graph seat
+
+Moved the list star from the question card to the right of the graph's role label. Canvas text
+measurement supplies the anchor for a real DOM button, so the control follows pan/zoom and
+supports mouse, touch and keyboard activation. Unsaved is a quiet outline; saved is filled gold.
+The existing list picker still chooses the destination, and membership remains site-based across
+both seats. The card corner now contains only close and deck progress; hiding it leaves capture
+available on the graph. Hovered seat labels retain a pointer path to their star.
+
+Regression coverage: `seat-star.spec.ts` exercises both seats of all three node categories on
+phone and desktop, list selection/removal, keyboard return and capture after card dismissal.
+Existing picker, reading-card and share journeys now target the graph control.
+
+Arrival fixtures also wait for the visible hand-off before interaction and accept a capstone
+hand already dealt during its start action. The wheel journey uses the same settled arrival.
+
+
+## v1.182.2 — Shorter authored flashcard questions
+
+All position, submission, and transition question schemas now cap questions at 100 characters, including spaces and punctuation, across every role and shared tier. Opus rewrote 10,115 overlong questions in 1,435 source JSON files; the complete target corpus contains 22,213 questions. Answers, answer lines, distractors, safety flags, card order, and all other source fields were preserved. A semantic review of the 173 longest originals and the 60-question trial led to 22 further wording repairs.
+
+`scripts/rewrite_questions.py` reads the cap from the schemas, sends bounded tool-free batches, validates response keys and text locally, prevents duplicate questions within a deck, checks for concurrent source edits, saves atomic checkpoints, and retries temporary API errors. Its `--check` mode audits every role without inference. The rejected display-clamping change was removed. Rewording retains the existing app behavior of assigning a new question-hash progress identity.
+
+Validation: all 1,511 target JSON files pass their full schemas; the source diff contains only question changes; all 21,761 emitted app cards fit the limit; graph integrity passes. The schema/inference/corpus regression gate is `tests/question_rewrite.test.mjs`. Generated pages, graph flashcards, and app chunks were refreshed from the JSON source.
+
+Final unit run: 258 passed, 0 failed. All three category page regenerations completed without skipped source files.
+
+Release validation: full Quartz build and payload gate passed. Integration preserves concurrent dev UI releases; the Explore documentation was condensed to satisfy the existing budget.
+
+
+## v1.182.3 — Repair validation dependencies and compact concept payload checks
+
+Content validation installs Jinja2 for the system affiliate rendering unit suite. The systems
+payload gate now decodes universal concept membership and permanent-ordinal masks, counting
+only live graph nodes and checking the emitted coverage metadata. The existing coverage floor
+remains intact; malformed masks and missing node references fail explicitly. This gate also runs
+immediately after payload generation in content validation, before the preview build. Regression
+tests compare its corpus count with the app and exercise sparse ordinals and invalid memberships.
+
+
+## v1.182.4 — Keep browser deployment checks reachable and complete
+
+The technique-tap and pair-role journeys now require their chosen graph coordinate to reach
+the canvas or graph wrapper, excluding nodes obscured by the flashcard. Both previously chose
+Leg Drag to Knee on Belly behind the question card and graded the unchanged Side Control state.
+The role journey also verifies the category actually reached by its real mouse movement.
+The navigation fixture explicitly selects a transition because its assertions require an origin
+position; submissions are now playable states themselves.
+
+Preview run 34422191635 completed 229 of 250 serial browser tests before the 12-minute step
+timeout. Preview and production now allow 20 minutes for the complete curated suite, retaining
+the single worker, every assertion, and zero retries.
+
+Validation: complete local Quartz build and payload budget passed; all 250 curated browser
+journeys passed in 11.7 minutes, including both repaired pointer journeys.
+
+
+## v1.182.5 — Align Explore categories and custom lists
+
+All six Explore category labels now share the left edge of Your lists. Positions, Transitions,
+and Submissions keep their graph shapes as smaller, muted keys beside the right-hand chevrons;
+the reference categories no longer reserve empty leading icon slots. Expanded rows use the
+existing 22px / 38px indentation, and the lists empty state explains that users can organize
+techniques into classes or training lists. The creation control and disclosure behavior remain
+unchanged. The existing list-creation journey now expects the new explanatory copy.
+
+Validation: app bundle built successfully. An isolated browser probe of the actual rendering
+methods checked all seven heading positions, three trailing shapes, aligned chevrons, overflow,
+and mouse / keyboard disclosure at 320px, 390px, and 1440px. This probe is not a permanent
+regression gate.
+
+Pre-commit browser validation: 248 of 250 curated journeys passed in the full run. The two
+failures came from copied, stale Quartz artifacts (the snapshot probe's GET instead of HEAD,
+and the generated Systems page). Rebuilding the scripts and affected page from current source
+made both targeted rechecks pass. First-hand payload measured 1,595,840 raw / 378,215 gzip bytes,
+within the existing budgets. No budget or production-source changes were needed for these checks.
+
+## v1.182.6 — Reference selections retire the current node
+
+System and concept clicks already pushed their own URL and highlighted their members, but only
+paused the existing roll through the pane. Its current node, choices, landing card and film stayed
+alive behind the selection. `_leaveRollForReference` now clears that roll before either open path
+claims its page: replay, timers, engagement, staged seat, landing surfaces and pause ownership all
+end together. The old URL seed is invalidated so an unfinished intro cannot restore it. Played
+history uses the existing archive seam; choosing a playable node still starts a fresh roll.
+
+`concepts-surface.spec.ts` starts with a real hand and a supplied video, clicks each of Principles,
+Systems and Learning with the mouse, checks the page URL and highlighted set, then closes the pane
+and advances time to prove the old node and its surfaces stay gone. Removing the two cleanup calls
+made all three cases fail with the previous current node, landing card, film, decision and 21
+choices still present. The five focused selection/arrival cases pass with the fix restored.
+
+Validation: 260 unit tests passed. The curated run passed 251/253; its two static-site failures
+came from the reused build (old GET snapshot probe and missing system HTML). A full `npm run build`
+passed, then both failures and all five focused selection/arrival cases passed together (7/7).
+The fresh first-hand payload was 379,366 bytes gzip against the 387,400-byte ceiling.

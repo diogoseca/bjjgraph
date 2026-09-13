@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "Why does the hip escape frequently fail against competent truck players, and how do you address this?",
+        "question": "Why does the hip escape from truck usually fail against good truck players, and how do you fix it?",
         "answer": "The hip escape fails primarily because a single large shrimping motion is easily read and countered by the top player tightening boot pressure and following the movement. The solution is using sequential incremental hip escapes—two to four smaller movements that each create partial distance and angle. This approach is harder to counter because each individual movement is small enough to execute before the opponent can fully react, and the cumulative effect creates sufficient space for extraction.",
         "answer_line": "Small sequential shrimps, not one",
         "distractors": {
@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "Your opponent tightens boot pressure every time you attempt to shrimp—how do you adjust your escape strategy?",
+        "question": "They tighten boot pressure each time you shrimp from the truck; how do you adjust?",
         "answer": "When the opponent consistently counters hip escapes with increased boot pressure, switch to the boot-clearing variant: dedicate more time and effort to hand fighting the boot before attempting any shrimping. Alternatively, use the hip escape attempt as a feint to draw the opponent's attention to boot maintenance, then immediately chain into a granby roll while they are focused on pressing the boot. The opponent cannot simultaneously increase boot pressure and prevent the rolling escape.",
         "answer_line": "Feint shrimp, then granby roll",
         "distractors": {
@@ -398,7 +398,7 @@
         }
       },
       {
-        "question": "After extracting your leg and establishing half guard, your opponent immediately tries to re-enter the truck—how do you prevent this?",
+        "question": "You reach half guard from truck and they try to re-enter; how do you prevent it?",
         "answer": "The critical defensive action is establishing the underhook immediately after clamping half guard, combined with a strong knee shield to create distance. The underhook prevents the opponent from achieving the perpendicular angle needed for truck re-entry, while the knee shield blocks their hips from closing distance. Turn fully to face the opponent so your back is no longer exposed. If they persist in attempting truck re-entry, use the knee shield to push their hips away and transition to a more aggressive half guard variant like butterfly half or deep half that keeps them off-balance.",
         "answer_line": "Underhook plus knee shield frame",
         "distractors": {
@@ -540,7 +540,7 @@
         }
       },
       {
-        "question": "When should you transition from maintaining truck to establishing back control during an escape attempt?",
+        "question": "During their escape, when do you leave the truck to take back control?",
         "answer": "Transition to back control when the bottom player has created enough distance through hip escapes that your leg entanglement is loosening and their trapped leg shows active extraction movement. The decision point is when maintaining truck requires more energy and creates more risk than transitioning. If you feel their knee circling or ankle rotating within your entanglement, the truck is compromised and back control insertion should begin immediately.",
         "answer_line": "When trapped knee/ankle circling",
         "distractors": {
@@ -568,7 +568,7 @@
         }
       },
       {
-        "question": "What is the most effective counter when the bottom player successfully creates distance with their first hip escape?",
+        "question": "What is your best counter once they create distance with their first hip escape from truck?",
         "answer": "Follow their movement immediately by driving your hips forward and re-establishing chest-to-back connection before they can execute a second hip escape. The bottom player's escape depends on cumulative distance from sequential shrimps, so closing the gap after the first movement resets their progress. Simultaneously increase boot pressure and tighten leg entanglement to make their second attempt more difficult than their first.",
         "answer_line": "Drive hips forward, reconnect fast",
         "distractors": {

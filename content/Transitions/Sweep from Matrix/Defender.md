@@ -56,7 +56,7 @@ description: "Defend and counter the Sweep from Matrix in BJJ. Learn recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is setting up a Sweep from Matrix rather than a standard back take?",
+      "name": "On top in Matrix, what cues show a sweep setup rather than the standard back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sweep produces a directional pulling force through grips rather than the circular rotation of the standard Matrix back take. Watch for hip elevation combined with grip tightening on your belt or hip where the pulling direction is lateral or perpendicular rather than rotational. The shoulder posting is also different—the sweep uses the shoulder as a fixed fulcrum rather than a rolling contact point. These distinctions appear in the first fraction of a second and provide crucial reaction time."

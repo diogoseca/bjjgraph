@@ -52,7 +52,7 @@ description: "Defend the Twister spinal lock from Twister Side Control with reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the Twister from Twister Side Control is being set up before the grip is secured?",
+      "name": "How do you recognize a twister being set up from twister side control before the grip is locked?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key recognition cues include the opponent reaching their far arm toward and under your head, increasing rotational torque felt in the spine as shoulder pressure drives you flat while hips remain elevated, and the opponent hunting for your far wrist to complete the clasping grip. The earliest cue is the shoulder being driven to the mat with lateral pressure while the leg entanglement restricts your lower body—this is the precursor positioning that precedes the arm thread."
@@ -76,7 +76,7 @@ description: "Defend the Twister spinal lock from Twister Side Control with reco
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available if the attacker has already secured the clasping grip behind your head?",
+      "name": "They already have the clasping grip behind your head — what defensive options remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Options are severely limited at this stage. The primary defense is an explosive bridge timed with the attacker's initial rotation to disrupt their base before full torque is applied. You can attempt to strip the grip by prying at the clasped hands with your free hand if one is available. If you feel spinal pressure beginning, tap immediately—do not attempt to power through the rotation. At this point, successful defense probability is very low, which is why blocking the arm thread earlier is so critical."

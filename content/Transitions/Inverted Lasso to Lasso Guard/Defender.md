@@ -56,7 +56,7 @@ description: "Learn to counter the inverted lasso to lasso guard recovery. Guide
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for attempting arm extraction during the inverted lasso to lasso guard transition?",
+      "name": "When is the best window to extract your arm during their inverted lasso to lasso transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is during the middle phase of the hip rotation, when the bottom player's body is transitioning between inverted and upright orientation. At this point, the lasso hook tension is at its weakest because the shin angle against your tricep is changing and the bottom player's pulling direction is shifting. This window lasts approximately 1-2 seconds and is significantly more exploitable than attempting extraction when the bottom player is static in either position."
@@ -64,7 +64,7 @@ description: "Learn to counter the inverted lasso to lasso guard recovery. Guide
     },
     {
       "@type": "Question",
-      "name": "Why is controlling the bottom player's free leg an effective preemptive defense against this transition?",
+      "name": "Why does controlling the bottom player's free leg preempt the inverted lasso to lasso transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The free leg serves as the primary frame and pivot point for the rotation from inverted to upright position. The bottom player posts this foot on your hip to create distance control and guide the rotation. Without this frame, the transition becomes uncontrolled and risky, forcing the bottom player to either remain trapped in the exhausting inverted position or attempt the recovery without distance management, making them vulnerable to stacking and passing."
@@ -72,7 +72,7 @@ description: "Learn to counter the inverted lasso to lasso guard recovery. Guide
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating from inverted lasso but you cannot extract your arm - what alternative action prevents them from establishing a strong lasso guard?",
+      "name": "They rotate out of inverted lasso and you can't free your arm: how do you spoil their lasso?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If arm extraction is not achievable, focus on disrupting the quality of their arrival in standard lasso. Drive forward pressure during the rotation to prevent them from establishing a perpendicular hip angle. Control their non-lasso leg immediately as they complete the transition to prevent secondary frames. The goal shifts from preventing the transition entirely to ensuring they arrive in a compromised version of standard lasso guard without the angle, distance, or secondary controls needed for effective offense."

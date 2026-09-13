@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "In which direction should you push the opponent's ankle to most effectively break the figure-four lock?",
+        "question": "Escaping a rear triangle, which direction do you push the ankle to break the figure-four?",
         "answer": "Push the ankle toward the opponent's far hip, perpendicular to the direction the ankle enters the knee crook. Most practitioners make the mistake of pulling the ankle straight out along its entry path, which fights the tightest part of the lock. By pushing perpendicular, you slide the ankle out of the groove with significantly less force required. Think of it as peeling the ankle sideways rather than pulling it backward through the lock.",
         "answer_line": "Push ankle toward far hip",
         "distractors": {
@@ -330,7 +330,7 @@
         }
       },
       {
-        "question": "Your opponent squeezes their triangle tighter as you begin fighting the ankle grip. How do you adjust?",
+        "question": "Your opponent tightens the rear triangle as you attack the ankle. How do you adjust?",
         "answer": "Reinforce your chin tuck and shoulder shrug immediately to buy time against the increased pressure. Switch your grip fight timing to match the opponent's breathing: attack the ankle during their exhale when their squeezing power is reduced. If the tightening makes the ankle unreachable, temporarily switch to fighting their hand controls instead, which forces them to choose between maintaining the choke angle and defending their grips. Once their hands engage defensively, return to attacking the ankle.",
         "answer_line": "Attack ankle during their exhale",
         "distractors": {
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "If the opponent successfully defends your ankle grip break by re-locking the triangle, what is your immediate follow-up?",
+        "question": "Your ankle grip break fails and they re-lock the rear triangle. What is your follow-up?",
         "answer": "Do not repeat the identical grip break attempt. Instead, chain into a different escape vector: attempt a hip escape to create angle, switch to the wrist peel variation targeting their hand grips, or use the disruption from your grip fight to attempt a posture recovery escape. Each failed grip break still loosens the triangle incrementally, so cycling between different attack points compounds these gains. If you have attempted three grip breaks without success, the triangle may be too tight for methodical escape and you should consider explosive alternatives or tapping.",
         "answer_line": "Switch to a different escape vector",
         "distractors": {
@@ -472,7 +472,7 @@
     ],
     "flashcards": [
       {
-        "question": "How do you recognize the difference between a panicked escape attempt and a systematic grip fight from the bottom player?",
+        "question": "Holding a rear triangle, how do you tell a systematic grip fight from a panicked escape?",
         "answer": "A panicked escape involves explosive, undirected movements like wild bridging, frantic arm pulling, or full-body thrashing without targeting specific control points. A systematic grip fight shows deliberate hand placement targeting your ankle-knee connection, burst-and-rest timing patterns, maintained chin protection throughout the escape attempt, and progressive small gains rather than all-or-nothing efforts. The systematic grip fight is far more dangerous and requires immediate defensive response, while panicked escapes often tire the opponent without achieving structural damage to your triangle.",
         "answer_line": "Deliberate grip, burst-rest timing",
         "distractors": {
@@ -486,7 +486,7 @@
         }
       },
       {
-        "question": "What is your immediate response when you feel the bottom player's hand wrapping around your ankle at the lock point?",
+        "question": "Holding a rear triangle, they wrap your ankle at the lock point. Immediate response?",
         "answer": "Immediately squeeze your knees together to tighten the triangle lock and make the ankle harder to peel. Simultaneously use your nearest free hand to strip their grip by peeling their fingers off your ankle or pushing their wrist away from the connection point. If you cannot strip the grip immediately, increase choking pressure by angling your hips to force them to choose between maintaining the ankle grip and defending the choke. Speed of response is critical because once they establish a strong C-grip on your ankle, it becomes much harder to defend.",
         "answer_line": "Squeeze knees, strip their grip",
         "distractors": {
@@ -500,7 +500,7 @@
         }
       },
       {
-        "question": "Your bottom player has loosened the ankle lock significantly. What adjustments do you make to maintain dominant position?",
+        "question": "Your rear triangle ankle lock is badly loosened. What adjustment keeps you dominant?",
         "answer": "If the ankle lock is loosened beyond recovery, do not waste energy trying to re-lock the triangle. Instead, immediately transition to standard back control by inserting your hooks and establishing a seatbelt grip while you still have back exposure. If hooks are already partially in, focus on securing full back control before the opponent can escape to turtle. Alternatively, if the opponent's arm is still partially trapped, transition to crucifix or armbar before they fully extract it. The key decision is recognizing the point of no return for the triangle and transitioning before you lose all positional advantage.",
         "answer_line": "Transition to back control now",
         "distractors": {
@@ -514,7 +514,7 @@
         }
       },
       {
-        "question": "How do you balance maintaining the triangle choke threat while defending against the grip fight escape?",
+        "question": "How do you balance rear triangle choke pressure with defending the ankle grip fight?",
         "answer": "Alternate between offensive choke pressure and defensive grip protection in a rhythmic cycle. When you feel the opponent reaching for your ankle, briefly shift focus to stripping their grip or tightening the lock, then immediately return to choke pressure. The opponent cannot effectively fight your ankle while defending a tight choke, so maintaining high choking pressure is actually your best defense against the grip fight. Use your hands to cycle between attacking the opponent's neck and defending your ankle connection, never committing fully to one at the expense of the other.",
         "answer_line": "Cycle choke pressure and defense",
         "distractors": {

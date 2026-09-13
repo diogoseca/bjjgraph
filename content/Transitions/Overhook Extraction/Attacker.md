@@ -98,7 +98,7 @@ description: "How to execute Overhook Extraction in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent shoots their leg over your shoulder as your arm extracts - what went wrong and how do you respond?",
+      "name": "They shoot a leg over your shoulder as your arm extracts: what went wrong and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your posture dropped during the extraction, creating the opening for triangle. The response is immediate stacking - drive your head and shoulder up and forward while pushing into your opponent's hips. This removes the space needed for the triangle to lock. The correction for future attempts is maintaining upward posture throughout extraction, not just at the end."

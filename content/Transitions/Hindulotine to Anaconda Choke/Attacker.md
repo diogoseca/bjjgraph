@@ -92,7 +92,7 @@ description: "How to execute Hindulotine to Anaconda Choke in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts circling their hips away as you attempt the anaconda transition - how do you adjust?",
+      "name": "They circle their hips away as you go for the anaconda — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your legs to follow their hip movement and maintain connection throughout the transition. If they turn too far, abandon the anaconda and take their back instead, as their rotation exposes it. Alternatively, use butterfly hooks to elevate and off-balance them, stopping the circling motion."

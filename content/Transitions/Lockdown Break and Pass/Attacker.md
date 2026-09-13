@@ -92,7 +92,7 @@ description: "How to execute Lockdown Break and Pass in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts extending their hips for maximum Electric Chair pressure—what immediate adjustment do you make?",
+      "name": "They extend their hips for Electric Chair pressure: what's your immediate adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your chest weight forward harder onto their torso while simultaneously posting your free leg wider for base. Use your free hand to push their far hip flat to the mat, reducing their extension leverage. The forward pressure counters their hip extension and limits the submission threat while you work the escape sequence."

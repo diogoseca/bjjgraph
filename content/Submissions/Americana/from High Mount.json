@@ -332,7 +332,7 @@
         }
       },
       {
-        "question": "Your opponent straightens their arm as you attempt to establish the figure-four grip - what do you do?",
+        "question": "From High Mount, they straighten the arm as you set the Americana figure-four—what do you do?",
         "answer": "A straightened arm is actually an invitation to armbar rather than a failed Americana attempt. Immediately transition by stepping your leg over their head, controlling the straightened arm at the wrist with both hands, and falling back for the armbar finish. The key is recognizing that the opponent's defensive reaction to the Americana creates the exact arm position needed for the armbar. This is why the Americana-to-armbar chain is one of the highest-percentage sequences from high mount.",
         "safety_critical": false,
         "answer_line": "Step over head, fall back, armbar",
@@ -377,7 +377,7 @@
         }
       },
       {
-        "question": "What is the point of no return for the defender once you have secured the Americana grip from High Mount?",
+        "question": "Once you secure the Americana from High Mount, what is the defender's point of no return?",
         "answer": "The point of no return occurs when the wrist has been dragged past the midpoint of the arc (roughly level with the opponent's ear) with the elbow still firmly pinned to the mat. At this point, the shoulder joint is near its end range of external rotation, and the opponent cannot generate enough force to reverse the rotational direction without first freeing the elbow fulcrum—which is pinned by both your forearm clamp and your body weight. Before this midpoint, the defender still has realistic options to straighten the arm, bridge, or resist the rotation.",
         "safety_critical": false,
         "answer_line": "Wrist past ear, elbow still pinned",
@@ -645,7 +645,7 @@
         }
       },
       {
-        "question": "You feel rotational pressure beginning on your shoulder from a locked Americana - what is your immediate priority?",
+        "question": "A locked Americana in high mount starts rotating your shoulder — what is your first priority?",
         "answer": "Your immediate priority is to assess whether you can turn your body toward the attacked arm to reduce the rotational range. If turning provides relief, continue working to create frames and escape. If you cannot turn or the rotational pressure is already near your end range, tap immediately without hesitation. A locked Americana from high mount with the paint stroke in progress is one of the hardest submissions to escape—the attacker's body weight, the figure-four mechanical advantage, and the pinned elbow fulcrum create a system that amplifies force beyond what your shoulder can resist. Tapping is the correct decision.",
         "safety_critical": true,
         "answer_line": "Turn in, or tap immediately",

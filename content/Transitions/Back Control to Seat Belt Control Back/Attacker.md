@@ -74,7 +74,7 @@ description: "Master establishing the seat belt grip from back control in BJJ. S
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What determines which arm should go over the shoulder versus under the armpit when establishing the seat belt?",
+      "name": "When setting the seat belt, what decides which arm goes over the shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The over-shoulder arm is typically chosen based on your head positioning and intended choking angle. The arm on the same side as your head goes over the shoulder because this creates the natural path for sliding the forearm under the chin for a rear naked choke. Your body angle, hook placement, and the opponent's head tilt also influence the decision. Switching sides requires significant positional adjustment, so the initial choice should be deliberate and based on your natural attacking angle."
@@ -82,7 +82,7 @@ description: "Master establishing the seat belt grip from back control in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent is actively hand fighting to prevent the over-arm from threading across their chest—how do you overcome this defense?",
+      "name": "They hand fight to stop your over-arm from crossing their chest—how do you get it through?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your hook leverage to create a momentary distraction by rocking the opponent's hips, forcing them to address the lower body threat. In that instant of divided attention, thread the over-arm quickly across their chest. Alternatively, bait them by threatening the under-arm first, causing them to redirect their hand fighting low, which opens the shoulder line for the over-arm. The key is creating competing threats that split their defensive focus between upper and lower body."
@@ -90,7 +90,7 @@ description: "Master establishing the seat belt grip from back control in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to connect hands immediately after threading both arms rather than adjusting position first?",
+      "name": "Why connect your hands immediately after threading both seat belt arms instead of adjusting first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Any delay between threading the second arm and connecting hands creates a window where the opponent can isolate and strip the more vulnerable individual arm. An unconnected seat belt has roughly half the structural integrity of a connected one because each arm can be attacked independently. Connected hands create a closed loop that distributes force across both arms, making it exponentially harder for the opponent to break the grip structure. Position adjustments should come after the structural integrity of the connection is secured."
@@ -106,7 +106,7 @@ description: "Master establishing the seat belt grip from back control in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "How does the seat belt grip differ mechanically from double underhooks at the back, and why does this matter?",
+      "name": "How does the seat belt differ mechanically from double underhooks, and why does that matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Double underhooks create parallel upward force vectors that primarily control the opponent's shoulders but allow rotational escape because both arms push in the same direction. The seat belt creates opposing diagonal force vectors—the over-arm pushes downward while the under-arm pushes upward—which locks the opponent's torso against rotation in either direction. This cross-body diagonal pressure requires the opponent to overcome forces in two opposing directions simultaneously, making escape substantially harder and providing the structural framework for systematic submission entries."
@@ -114,7 +114,7 @@ description: "Master establishing the seat belt grip from back control in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "You successfully thread the over-arm but the opponent immediately traps your under-arm attempt with a tight elbow—what is your contingency?",
+      "name": "Your over-arm is in but they trap the under-arm with a tight elbow—what is your contingency?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain the over-arm position and use it to control the opponent's shoulder while working to free the under-arm path. Apply downward pressure with the over-arm to limit their mobility, then use your chest and hook pressure to create a distraction that loosens their elbow clamp. If the trap persists, consider transitioning to a gift wrap using the over-arm to trap their defending arm against their body, which provides an equally effective alternative control configuration for maintaining dominant position and setting up attacks."

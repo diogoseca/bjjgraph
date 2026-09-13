@@ -56,7 +56,7 @@ description: "How to defend against Angle Change Escape in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating an angle change escape rather than a standard pull-back escape?",
+      "name": "What's the earliest cue they're doing an angle change escape, not a straight pull-back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is their hand placement on your hip on the attacking leg side. This hip anchor is the prerequisite for lateral driving force. A standard backward escape does not require hip control. When you feel pressure on your hip combined with their chin turning toward your shin, the angle change is imminent and you have approximately two seconds to respond."
@@ -64,7 +64,7 @@ description: "How to defend against Angle Change Escape in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun lateral movement and your shin angle is degrading - what determines whether you should follow with hip rotation or transition to triangle?",
+      "name": "Gogoplata shin angle degrading as they shift laterally: what decides hip rotation vs triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Check their near-side arm position. If their elbow has drifted away from their torso during the lateral shift, the triangle transition is higher percentage because arm isolation is already partially achieved. If their arm remains tight to their body, follow with hip rotation to restore perpendicular alignment because the triangle will fail without arm isolation. The arm position is the decision fork between maintaining gogoplata and transitioning."
@@ -80,7 +80,7 @@ description: "How to defend against Angle Change Escape in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent reverses direction during the angle change after you follow their initial lateral movement - how do you respond?",
+      "name": "You follow their lateral movement and they reverse direction: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The direction reversal is the most dangerous counter to your hip-following defense because your momentum carries you past neutral. Immediately re-center your hips by engaging your core and pulling your pelvis back to the midline before following the new direction. If you cannot re-center fast enough, transition to the submission that matches their new direction: triangle if they go toward your choking leg side, omoplata if they go away from it."
@@ -88,7 +88,7 @@ description: "How to defend against Angle Change Escape in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What training drill best develops the hip-following response needed to maintain gogoplata against angle change escape?",
+      "name": "Which drill best builds the hip-following needed to keep the gogoplata against angle change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Partner-driven lateral shuttle drill where partner shifts laterally left and right at increasing speeds while you maintain shin-across-throat contact through hip rotation. Start at walking pace with 5-second holds at each side, progress to rapid direction changes. Focus on maintaining perpendicular shin alignment throughout each transition rather than speed of response. The drill builds the hip rotation reflexes and core endurance needed for live gogoplata maintenance."

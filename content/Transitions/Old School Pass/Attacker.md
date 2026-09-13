@@ -74,7 +74,7 @@ description: "Complete guide to executing the Old School Pass in BJJ. Master whi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent begins pumping the lockdown aggressively while pulling your head down - what is your immediate response before attempting the pass?",
+      "name": "They pump the lockdown hard and pull your head down: what do you do before passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sprawl your hips slightly back while maintaining chest connection to remove the lockdown's sweeping leverage. Simultaneously increase crossface pressure to break their head control pulling angle. Post your free leg wider for base stability. Do not attempt to extract the leg during active pumping - wait for the rhythm to pause, then resume your angular extraction pressure. Fighting the pump directly feeds their sweep mechanics."
@@ -82,7 +82,7 @@ description: "Complete guide to executing the Old School Pass in BJJ. Master whi
     },
     {
       "@type": "Question",
-      "name": "What are the three control points you must address before committing to the Old School Pass extraction?",
+      "name": "Which three control points must you address before committing to the Old School Pass extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three control points are: 1) The lockdown figure-four on your trapped leg, managed through angular hip pressure and heel curling rather than pulling; 2) The deep underhook, neutralized with a deep whizzer threaded under their armpit; 3) The head control, broken through heavy crossface pressure that forces their head away. You must degrade at least one of these before committing to the pass - attempting extraction against all three engaged is extremely low percentage."
@@ -98,7 +98,7 @@ description: "Complete guide to executing the Old School Pass in BJJ. Master whi
     },
     {
       "@type": "Question",
-      "name": "During leg extraction, your opponent's lockdown suddenly tightens and they begin the Old School Sweep rotation - how do you recover?",
+      "name": "Mid-extraction they tighten the lockdown and start the Old School Sweep: how do you recover?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the extraction attempt and prioritize base recovery. Post your free leg extremely wide, drive crossface pressure hard to break the rotation angle, and sprawl your hips to remove sweep leverage. Clamp your whizzer tight to prevent their underhook from generating rotational power. Once the sweep momentum is neutralized and your base is re-established, resume the pass from the flattening phase rather than jumping directly to extraction."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the Old School Pass in BJJ. Master whi
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the lockdown and immediately starts inserting a knee shield - what is the optimal timing response?",
+      "name": "They release the lockdown and start inserting a knee shield: what is the correct timing response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the highest-percentage passing window in the entire Old School sequence. The moment you feel the lockdown release, immediately drive your knee through on a slice angle before the knee shield can solidify. The brief transition between lockdown configuration and knee shield insertion leaves a 1-2 second window where neither defensive structure is fully established. Hesitating even slightly allows them to establish a new defensive framework that requires a completely different passing approach."

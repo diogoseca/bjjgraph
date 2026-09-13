@@ -100,7 +100,7 @@ description: "How to execute Counter Leg Attack in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established Inside Sankaku but is focused purely on control rather than submission - is counter-attack advisable?",
+      "name": "They hold Inside Sankaku for control, not submission — is counter-attacking advisable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent prioritizes control over submission, their positional awareness of their free leg is higher and counter-attack windows are limited. In this scenario, focus on standard hip escape and leg extraction techniques first. Counter-attack becomes viable when they shift to submission focus or when standard escapes have failed. Patient positional control by them means patient defensive work by you."
@@ -108,7 +108,7 @@ description: "How to execute Counter Leg Attack in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "After successfully entering 50-50 Guard from the counter-attack, what should your immediate priorities be?",
+      "name": "After entering 50-50 from the counter leg attack, what are your immediate priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediate priorities are: (1) protect your heel that was previously trapped - it may still be exposed, (2) establish equal or superior control on opponent's leg, (3) assess relative positioning to determine who has inside heel hook angle advantage, and (4) decide whether to attack, defend, or work to separate. The 50-50 is equal but the transition may have left you behind on grip fighting."

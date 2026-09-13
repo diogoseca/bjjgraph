@@ -64,7 +64,7 @@ description: "Learn to counter the straighten leg kneebar defense in BJJ. Techni
     },
     {
       "@type": "Question",
-      "name": "What is your best counter when the opponent successfully begins straightening their leg against your kneebar control?",
+      "name": "They start straightening their leg out of your kneebar: what is your best counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective counter is to immediately drive your hips forward while sharply re-breaking the leg bend with a quick pull. If the leg is approaching full extension, transition to a straight ankle lock by adjusting your grip to the foot and ankle rather than fighting a losing battle for knee control. Alternatively, if their foot rotation creates an opening, switch to a toe hold or heel hook that capitalizes on the newly available rotational angle."
@@ -72,7 +72,7 @@ description: "Learn to counter the straighten leg kneebar defense in BJJ. Techni
     },
     {
       "@type": "Question",
-      "name": "When maintaining kneebar control, what adjustment prevents the opponent from easily straightening their leg?",
+      "name": "Holding a kneebar, what adjustment stops them straightening their leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prevent leg straightening by maintaining constant hip-to-knee connection with forward hip drive, keeping the leg pulled tight across your chest with elbows pinched together, and using your legs to control their hip rotation. If your hips separate from their knee joint, you lose the fulcrum needed for finishing pressure, and their quadriceps can overpower your arms. The key is using your entire body structure to maintain the bent-knee position rather than relying on arm strength alone."
@@ -80,7 +80,7 @@ description: "Learn to counter the straighten leg kneebar defense in BJJ. Techni
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially straightened their leg and is beginning to extract—what is your decision-making framework?",
+      "name": "Their leg is partly straightened and extracting from your kneabar: what is your decision framework?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Assess whether you can re-break the leg within two seconds. If yes, sharply drive hips forward and re-pull the leg to bent position. If the leg is past 80% extension, immediately transition to an alternative attack rather than fighting a losing position. Options include switching to straight ankle lock, transitioning to heel hook via saddle entry, or releasing and re-engaging with a fresh leg attack entry from open guard. Never burn energy fighting a fully straightened leg—transition immediately."

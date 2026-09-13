@@ -84,7 +84,7 @@ description: "How to execute Follow to Back Control in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent's hips have rotated 45 degrees and they are hand fighting—should you release the leg entanglement?",
+      "name": "Their hips have rotated 45 degrees and they're hand fighting — release the leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No, this is too early. At 45 degrees with active hand fighting, the opponent has not fully committed to inversion escape. They may reverse direction if you release, potentially entering their own leg entanglement. Wait until their hip rotation exceeds 90 degrees and they have clearly abandoned heel hook defense in favor of turtle escape before releasing."

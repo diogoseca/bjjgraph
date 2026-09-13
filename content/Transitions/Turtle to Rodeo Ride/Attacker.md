@@ -90,7 +90,7 @@ description: "How to execute the Transition to Rodeo Ride from turtle top in BJJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent has an extremely tight turtle with elbows glued to knees—how do you create the opening for near-arm control?",
+      "name": "Their turtle is tight with elbows on knees: how do you open space for near-arm control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use collar or neck threats to force them to react and open their defensive shell. Establish a deep collar grip and begin applying clock choke pressure—this forces the opponent to address the choke with at least one hand, breaking their elbow-to-knee seal. Alternatively, use heavy chest pressure combined with a crossface to flatten their posture slightly, which naturally opens space between their elbows and knees. The tight turtle protects against arm access but is vulnerable to collar-based attacks that force the arms to move defensively."
@@ -98,7 +98,7 @@ description: "How to execute the Transition to Rodeo Ride from turtle top in BJJ
     },
     {
       "@type": "Question",
-      "name": "What is the critical hip angle relative to the opponent's spine in the completed Rodeo Ride position?",
+      "name": "In the finished Rodeo Ride, what hip angle relative to their spine do you need?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The completed position requires your hips to be approximately 90 degrees (perpendicular) to the opponent's spine, with your hip loaded onto their torso between the shoulder and hip line. Being less than perpendicular (still partially behind them) reduces your control leverage and allows them to roll or sit through more easily. Being past perpendicular (approaching their front) risks them turning into you for guard recovery. The 90-degree angle maximizes your ability to control both their rotation and their lateral movement simultaneously."
@@ -114,7 +114,7 @@ description: "How to execute the Transition to Rodeo Ride from turtle top in BJJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a sit-back escape just as you start walking your hips—should you continue or abort?",
+      "name": "They start a sit-back just as you walk your hips for the Rodeo Ride: continue or abort?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the angle change and follow their hips down immediately. A mid-transition sit-back catches you in a compromised position where your weight is partially shifted but your control is not yet established. Instead, drive your chest pressure forward and down to stuff the sit-back attempt, re-establish standard turtle top control, and then reattempt the Rodeo Ride transition once they return to a defensive turtle posture. Forcing the entry against an active escape is the most common reason practitioners lose the position entirely."

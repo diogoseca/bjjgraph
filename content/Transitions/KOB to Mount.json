@@ -290,7 +290,7 @@
         }
       },
       {
-        "question": "Your opponent pushes hard against your knee as you prepare to transition to mount—how do you capitalize on this reaction?",
+        "question": "They push hard on your knee as you set up KOB to mount — how do you capitalize?",
         "answer": "Their extended arms pushing against your knee are committed to vertical force rather than positional defense. This creates two opportunities: immediately initiate the step-over while their arms are occupied and unable to block the incoming leg, or attack the extended arms with a far-side armbar to punish the push and force them to retract, creating an even better transition window on the next attempt.",
         "answer_line": "Step over or attack the arm",
         "distractors": {
@@ -304,7 +304,7 @@
         }
       },
       {
-        "question": "What is the most common mechanical failure that allows the bottom player to recover half guard during this transition?",
+        "question": "What mechanical error in the KOB to mount step-over lets them recover half guard?",
         "answer": "The most common failure is swinging the leg too slowly or hesitantly, giving the bottom player time to insert a knee shield between your legs before mount is established. This slow swing creates an extended window where the opponent can thread their knee across your body and establish half guard. The correction is committing fully to the step-over with speed and clearing any knee insertion attempts with your swinging leg.",
         "answer_line": "Swinging leg too slow",
         "distractors": {
@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "Why should you control the far hip before initiating the step-over rather than just using collar control?",
+        "question": "Why control the far hip before the KOB step-over instead of relying on collar control?",
         "answer": "The far-hip grip prevents the opponent's most effective counter: turning away during the step-over to recover guard or escape to turtle. Collar control alone anchors the upper body but leaves the opponent's hips free to rotate and create angles. Without far-hip control, the opponent can turn away as your leg swings over and thread their legs into half guard or turtle before you can consolidate mount. The hip grip eliminates this defensive rotation.",
         "answer_line": "Stops turning away/escape",
         "distractors": {
@@ -494,7 +494,7 @@
         }
       },
       {
-        "question": "Your opponent begins swinging their leg over your body—what is your highest-percentage defensive response?",
+        "question": "They start swinging their leg over you from knee on belly — highest-percentage defense?",
         "answer": "Insert a knee shield immediately by driving your inside knee across the top player's hip line during the swing. The step-over momentarily reduces driving knee pressure, creating a gap for your knee to enter. Even a partial knee shield that prevents full mount consolidation puts you in half guard, which is dramatically more defensible than mount. Time the insertion to coincide with the weight transfer, not after it completes.",
         "answer_line": "Insert knee shield mid-swing",
         "distractors": {
@@ -508,7 +508,7 @@
         }
       },
       {
-        "question": "Why is attempting to push the knee off before the transition starts more effective than defending mid-transition?",
+        "question": "Why is pushing the knee off before the KOB to mount step-over better than defending mid-transition?",
         "answer": "Preemptive KOB defense disrupts the entire transition sequence at its source. If you successfully dislodge the knee through framing and shrimping before the step-over begins, the top player must re-establish KOB entirely before attempting the mount transition again. Mid-transition defense, while still viable, operates within a much smaller time window and against a committed movement that has momentum. Early defense also preserves more energy than reactive scrambling.",
         "answer_line": "Disrupts sequence at source",
         "distractors": {

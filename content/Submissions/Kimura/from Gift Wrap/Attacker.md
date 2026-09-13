@@ -94,7 +94,7 @@ description: "Learn to attack with the Kimura from Gift Wrap. Step-by-step guide
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs their own shorts to anchor against the Kimura rotation - how do you break this defense?",
+      "name": "They grab their own shorts to block the Kimura from gift wrap — how do you break it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive their elbow upward first to change the angle and reduce their grip strength, then resume rotational pressure. You can also use your legs and body weight to create additional hip pressure that overwhelms the grip anchor. If the grip holds, transition to an alternative attack like the rear naked choke while their hand is occupied with anchoring rather than defending the neck."

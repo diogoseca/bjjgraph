@@ -73,7 +73,7 @@
     "Arm Triangle",
     "Arm Triangle from High Mount",
     "Arm Triangle from Kesa Gatame",
-    "Arm Triangle from Kuzure Kesa-Gatame",
+    "Arm Triangle from Kuzure Kesa Gatame",
     "Americana from Side Control",
     "Kimura from Side Control",
     "Anaconda Choke"
@@ -311,7 +311,7 @@
         }
       },
       {
-        "question": "What are the key indicators that the arm triangle is properly locked and the opponent has passed the point of no escape?",
+        "question": "What shows the side control arm triangle is locked and they've passed the point of no escape?",
         "answer": "The choke is properly locked when the opponent's trapped shoulder bone is pressing firmly into their own neck with zero space between your chest and their body, your hip is dropped to the mat on the trapped-arm side, and your head is sealed to the mat on the far side. The opponent has passed the point of no escape when they cannot create any frame with their free hand, cannot generate an effective bridge, and their defensive movements become visibly weaker and less coordinated. Facial color changes indicate the blood restriction is taking effect.",
         "safety_critical": false,
         "answer_line": "No frame, no bridge, fading fight",
@@ -326,7 +326,7 @@
         }
       },
       {
-        "question": "What control must be established before transitioning from side control crossface to the head-and-arm arm triangle grip?",
+        "question": "Before switching to the head-and-arm grip from side control, what must secure the trapped arm?",
         "answer": "Before releasing the crossface grip, the attacker must pin the opponent's near arm against their own neck using full chest weight compression. The trapped arm must be completely immobilized by body pressure with no gap between the opponent's shoulder and their neck. If chest pressure does not fully secure the arm before the grip switch begins, the opponent will retract their arm during the vulnerable transition moment and the arm triangle opportunity is lost.",
         "safety_critical": false,
         "answer_line": "Pin trapped arm w/ chest weight",
@@ -341,7 +341,7 @@
         }
       },
       {
-        "question": "Your opponent starts bridging toward the trapped-arm side as you walk to the finishing angle - what adjustment prevents escape?",
+        "question": "Your opponent bridges toward the trapped arm as you walk to the finishing angle—what do you do?",
         "answer": "Post your far-side hand on the mat and widen your base toward the direction of the bridge to absorb the explosive movement without losing the head-and-arm grip. Keep your chest heavy on the opponent's face and shoulder throughout the bridge. Once the bridge peaks and the opponent settles back to the mat, immediately resume walking to the perpendicular angle. If the bridge is powerful enough to compromise your grip or angle, settle back into side control and re-establish the setup rather than forcing a finish from a compromised position.",
         "safety_critical": false,
         "answer_line": "Widen base, ride the bridge out",
@@ -386,7 +386,7 @@
         }
       },
       {
-        "question": "Your opponent keeps their elbows tight and refuses to frame against your crossface - how do you create the arm triangle setup?",
+        "question": "Your opponent keeps their elbows tight and won't frame—how do you set up the arm triangle?",
         "answer": "When the opponent keeps their arms tight and will not frame voluntarily, use the paint-the-arm technique. Swim your crossface arm inside the opponent's near-side elbow and actively push their forearm across the centerline of their neck. You can also threaten a mount transition, which often forces the opponent to extend their arms to block, or attack an americana on the near arm to provoke a defensive movement that crosses their arm over their neck. Create the conditions that force the arm across rather than waiting passively for the frame.",
         "safety_critical": false,
         "answer_line": "Paint the arm across the neck",
@@ -416,7 +416,7 @@
         }
       },
       {
-        "question": "How does the arm triangle from side control differ from a neck crank, and how do you ensure you are applying a blood choke?",
+        "question": "How does the arm triangle differ from a neck crank, and how do you ensure it chokes the arteries?",
         "answer": "A proper arm triangle compresses both carotid arteries bilaterally, restricting blood flow to the brain. A neck crank applies twisting or bending force to the cervical spine without effective arterial compression. The key difference is the finishing angle: when the attacker is perpendicular to the opponent with chest directly over the face and the opponent's shoulder loaded against their own carotid, the choke compresses arteries. When the angle is off or the attacker squeezes from a parallel position, the force goes into the neck structure rather than the arteries. The test is whether the opponent feels lightheaded rather than neck pain.",
         "safety_critical": true,
         "answer_line": "Compress both carotid arteries",
@@ -431,7 +431,7 @@
         }
       },
       {
-        "question": "In competition, your arm triangle is locked but the opponent is defending by locking their hands together and straightening the trapped arm - how do you finish?",
+        "question": "Your opponent locks their hands and straightens the trapped arm—how do you finish the choke?",
         "answer": "When the opponent locks hands and straightens the trapped arm to prevent their shoulder from compressing their carotid, maintain the head-and-arm grip and focus on improving your angle and compression rather than fighting the grip. Walk further toward the opponent's head to increase the perpendicular angle, which collapses their defensive structure. Drop your hip even lower and expand your chest maximally. You can also use your free knee to push against their locked hands from underneath to break the grip. Patience is critical—maintain steady progressive pressure and the defensive grip will fatigue before your body mechanics position does.",
         "answer_line": "Improve angle, walk toward head",
         "distractors": {
@@ -608,7 +608,7 @@
         }
       },
       {
-        "question": "The attacker has locked the head-and-arm grip but has not yet walked to the finishing angle - what escape options are available?",
+        "question": "From side control they locked head-and-arm but haven't walked to the angle—what escapes remain?",
         "answer": "This is your last high-percentage escape window before the choke is sealed. Frame your free arm against the attacker's near hip and turn aggressively into them toward your trapped-arm side, fighting to get your knees under your body. If you can face into the attacker and prevent them from achieving the perpendicular angle, they cannot generate the chest compression needed to finish. Alternatively, bridge powerfully toward the trapped-arm side and shrimp your hips to pull them into closed guard, which disrupts the finishing angle entirely.",
         "safety_critical": false,
         "answer_line": "Turn in, frame their near hip",

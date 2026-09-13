@@ -82,7 +82,7 @@ description: "Learn to execute the Leg Hook to Half Guard consolidation from top
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins fighting hard for an underhook as you start extracting your hooked leg - how do you respond?",
+      "name": "They fight hard for an underhook as you extract your hooked leg to half guard — response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately halt the leg extraction and address the underhook threat first. Apply heavy shoulder pressure through the crossface to drive their shoulder back to the mat. If needed, use a whizzer with your far arm to control their underhook attempt. Only resume the leg repositioning once the underhook is neutralized and upper body control is re-established. Continuing the leg transition while losing the underhook battle typically results in being swept."

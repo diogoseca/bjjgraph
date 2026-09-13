@@ -233,7 +233,7 @@
         }
       },
       {
-        "question": "When should you recognize that transitioning to side control is preferable to continuing the choke attempt?",
+        "question": "When is transitioning to side control better than continuing the buggy choke?",
         "answer": "Transition when the opponent has stripped grips to shallow depth, recovered significant posture, or established defensive frames that prevent choking pressure from progressing. Generally, if 2-3 seconds of grip fighting has not improved your position, the transition becomes higher percentage than forcing the choke. The decision point is when their defense is effective but their hip position remains compromised.",
         "answer_line": "Defense good, hips still open",
         "distractors": {
@@ -317,7 +317,7 @@
         }
       },
       {
-        "question": "Your opponent creates a frame on your hip as you walk around to side control—what options do you have?",
+        "question": "They frame on your hip as you walk to side control from the buggy choke: what are your options?",
         "answer": "Maintain underhook control and use either a knee cut through their frame or a leg weave technique to complete the pass. The underhook prevents their frame from becoming a full guard recovery. Alternative: if their frame is committed, switch direction and pass to the opposite side where their frame is not established. Do not abandon the pass attempt—convert to a specific passing technique.",
         "answer_line": "Keep underhook, knee cut or weave",
         "distractors": {
@@ -331,7 +331,7 @@
         }
       },
       {
-        "question": "What grip conversion sequence produces the highest success rate when transitioning from choke to pass?",
+        "question": "What grip conversion order works best when passing from a stalled buggy choke to side control?",
         "answer": "Release the threading arm first and immediately establish the underhook on the far hip, as this is the critical control preventing guard recovery. Only then convert the collar grip hand to crossface. This sequencing ensures the most important control point is secured during the vulnerable grip transition window. Reversing the order leaves the hips uncontrolled and allows the opponent to turn in and recover guard before you establish positional dominance.",
         "answer_line": "Underhook far hip before crossface",
         "distractors": {
@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "Your opponent maintains tight turtle posture but you sense the choke is no longer progressing—should you transition immediately or continue working the choke?",
+        "question": "They hold tight turtle and your buggy choke has stalled: transition now or keep working the choke?",
         "answer": "Transition immediately once you recognize the choke has stalled. Continuing to fight for a stalling choke burns grip strength and energy while giving the opponent time to develop their escape plan. The transition is most effective when executed decisively during the window where your body pressure is still heavy and their defensive attention remains focused on the choke threat rather than guard recovery. Delayed transitions allow opponents to shift defensive focus and prepare counter-movements.",
         "answer_line": "Transition immediately",
         "distractors": {
@@ -486,7 +486,7 @@
         }
       },
       {
-        "question": "Your opponent releases their collar grip and you feel their arm moving toward your jaw for a crossface—what should your immediate response be?",
+        "question": "They drop the collar grip and reach for a crossface on your jaw: what is your immediate response?",
         "answer": "Immediately frame against their incoming shoulder with your near-side forearm to prevent the crossface from establishing deep. Simultaneously drive your inside knee across their hip line to insert a knee shield before they can settle perpendicular. The crossface is the primary mechanism that prevents guard recovery from side control, so blocking it early is critical. If you allow the crossface to establish, your ability to turn and face the opponent drops dramatically.",
         "answer_line": "Frame shoulder, insert knee shield",
         "distractors": {
@@ -528,7 +528,7 @@
         }
       },
       {
-        "question": "Your opponent has established the underhook on your far hip but hasn't completed the crossface yet—what is your best defensive option?",
+        "question": "They have the far-hip underhook but no crossface yet: what is your best defensive option?",
         "answer": "Frame aggressively against their crossface shoulder to prevent it from driving past your chin while simultaneously working to insert your near-side knee across their hip line for knee shield half guard. With the underhook established, full turtle recovery is unlikely, so your goal shifts to minimizing positional damage by recovering half guard rather than remaining in turtle. The knee shield insertion combined with crossface prevention gives you the best defensive structure to work from once they settle into their passing position.",
         "answer_line": "Frame crossface, knee shield in",
         "distractors": {

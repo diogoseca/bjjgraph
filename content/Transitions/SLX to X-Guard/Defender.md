@@ -64,7 +64,7 @@ description: "Learn to defend and prevent the SLX to X-Guard transition from top
     },
     {
       "@type": "Question",
-      "name": "Why is containing the position in SLX preferable to scrambling for a complete escape during the transition attempt?",
+      "name": "Why contain the bottom player in SLX rather than scramble while they transition to X-Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Containing in SLX is strategically safer because SLX has fewer sweep angles and less overall sweeping power than full X-Guard. Your escape options from SLX remain consistent regardless of whether the bottom player is attempting a transition or not. Scrambling during the transition creates unpredictable movement where the bottom player can capitalize on your momentum shifts. Methodical containment followed by systematic SLX escape is the higher-percentage approach."

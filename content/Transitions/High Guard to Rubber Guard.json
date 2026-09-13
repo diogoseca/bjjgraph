@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "Your opponent begins posturing up aggressively as you start climbing your guard high - how do you adjust?",
+        "question": "They posture up hard as you climb your guard high for rubber guard — how do you adjust?",
         "answer": "Abandon the rubber guard attempt temporarily and refocus on posture breaking using your existing grips. Drive your heels harder into their lower back while pulling collar or head control down with both hands. Only resume the guard climb once posture is fully collapsed again. Forcing the transition against active posture recovery exposes you to guard opening and passing.",
         "answer_line": "Pause, re-break their posture",
         "distractors": {
@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "If the opponent defends by stripping your foot grip as you establish Mission Control, what chain attack should you pursue?",
+        "question": "They strip your foot grip as you set Mission Control — what attack do you chain into?",
         "answer": "When the opponent strips your foot grip, their arm movement creates space for a triangle setup. As they reach to strip the grip, their near arm is already trapped by your overhook while their far arm extends forward, creating the one-arm-in one-arm-out configuration needed for triangle entry. Transition immediately by controlling the extending arm and swinging your leg across their neck.",
         "answer_line": "Chain straight into triangle",
         "distractors": {
@@ -476,7 +476,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting the High Guard to Rubber Guard transition?",
+        "question": "What is the earliest cue that they are climbing from high guard into rubber guard?",
         "answer": "The earliest cue is feeling your opponent's hips rising and their guard climbing higher on your torso beyond the normal waist position, combined with a strong collar pull breaking your posture and an overhook attempt on your near arm. These signals indicate rubber guard entry within seconds. Early recognition at the posture break phase provides the best defensive window.",
         "answer_line": "Hips rising, guard climbing high",
         "distractors": {

@@ -56,7 +56,7 @@ description: "How to defend against Arm Drag Escape in BJJ. Recognition cues, de
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an arm drag escape is being attempted from front headlock bottom?",
+      "name": "What is the earliest cue of an arm drag escape from front headlock top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling increased hand activity on your choking arm, specifically the bottom player's near hand working toward your wrist and their far hand reaching for your tricep or upper arm area. This two-on-one grip acquisition is the necessary precursor to the drag—without these grips, the escape cannot function. Recognizing this hand work before both grips are secured gives you the maximum time window to implement defensive adjustments."
@@ -64,7 +64,7 @@ description: "How to defend against Arm Drag Escape in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Why is sprawling your hips back an effective defense but also potentially dangerous against the arm drag?",
+      "name": "Why is sprawling both effective and risky against the arm drag escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sprawling back removes the forward weight commitment that the arm drag requires for leverage, effectively denying the escape's primary power source. However, sprawling also reduces your own forward pressure on the bottom player's upper back, which can open opportunities for alternative escapes like technical standup or granby roll. The sprawl solves the arm drag problem but may create a different problem, which is why combining the sprawl with an immediate offensive transition like guillotine or back take attempt is more effective than sprawling alone."
@@ -80,7 +80,7 @@ description: "How to defend against Arm Drag Escape in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your choking arm position if you feel the bottom player repeatedly targeting it for two-on-one control?",
+      "name": "How do you reposition your choking arm if they keep hunting it for two-on-one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Reposition your choking arm by either climbing it higher around their head so the wrist is less accessible, or by switching to a different grip configuration entirely such as a chin strap or collar tie where the arm geometry makes two-on-one acquisition more difficult. You can also intermittently release and re-acquire head control from different angles to prevent them from settling into a consistent grip fighting pattern. The key is denying them the predictable arm position they need to build their two-on-one."
@@ -88,7 +88,7 @@ description: "How to defend against Arm Drag Escape in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "What offensive transition best punishes a committed arm drag attempt while also advancing your position?",
+      "name": "Which offensive transition best punishes a committed arm drag escape attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The back take spin is the highest-reward offensive counter. When the bottom player commits to the lateral arm drag and their body weight shifts to one side, release your head control and circle behind them in the direction opposite their drag. Their lateral commitment makes it extremely difficult for them to turn and face you, and their hands are occupied with your arm rather than defending the back take. This converts their escape attempt directly into your best attacking position and creates a strong deterrent against future arm drag attempts."

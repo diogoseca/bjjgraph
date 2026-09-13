@@ -92,7 +92,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts turning their body toward your triangle leg - what adjustment maintains your control?",
+        "question": "They turn toward your triangle leg from back control—what adjustment keeps control?",
         "answer": "Follow their turn by adjusting your hip angle to stay behind them, and increase squeeze pressure momentarily to discourage the turning motion. Use your upper body control (seatbelt) to pull them back toward a flatter position. If they persist, prepare to transition to crucifix or armbar as their turning creates arm exposure opportunities.",
         "answer_line": "Match hip angle, squeeze, seatbelt",
         "distractors": {
@@ -134,7 +134,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hands on your locked foot trying to clear the triangle - what is your response?",
+        "question": "They post hands on your locked foot to clear the body triangle—how do you respond?",
         "answer": "This exposes their arms for attack. Immediately transition to armbar by isolating the reaching arm, or transition to crucifix by trapping that arm while maintaining back control. Their hands on your foot mean hands not protecting their neck, so alternatively increase neck attack pressure. The clearing attempt itself creates the submission opportunity.",
         "answer_line": "Attack exposed arm - armbar/crucifix",
         "distractors": {
@@ -190,7 +190,7 @@
         }
       },
       {
-        "question": "Your opponent begins aggressive hand fighting against your seatbelt control - how do you maintain position stability?",
+        "question": "They hand fight your seatbelt in the body triangle—how do you keep the position stable?",
         "answer": "Keep elbows extremely tight to your body to prevent grip breaks. Use your triangle squeeze to restrict their movement and breathing, which limits their hand fighting effectiveness. Cycle between different upper body grip configurations - if they break seatbelt, transition to collar grips or over-under, then work back to seatbelt. The triangle provides positional security even during grip transitions.",
         "answer_line": "Tight elbows, cycle grip types",
         "distractors": {
@@ -388,7 +388,7 @@
         "transition": "Bow and Arrow Choke from Body Triangle",
         "attempt_probability": {
           "gi": 12,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -430,7 +430,7 @@
         "transition": "Cross Collar Choke from Body Triangle",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -514,7 +514,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent squeezes the body triangle tighter when you attempt to clear it - what adjustment should you make?",
+        "question": "They squeeze the body triangle tighter as you try to clear it—what do you change?",
         "answer": "Stop fighting the squeeze directly and focus on attacking the lock mechanics instead. Target the foot behind their knee by creating space with your hips first, then using your hand to push their ankle out of the figure-four lock. The tighter they squeeze, the more committed their legs become, making the lock position itself the vulnerability rather than the pressure.",
         "answer_line": "Attack ankle behind their knee",
         "distractors": {
@@ -584,7 +584,7 @@
         }
       },
       {
-        "question": "How do you recover if opponent nearly sinks a rear naked choke while you're working on clearing the triangle?",
+        "question": "They nearly sink a rear naked choke as you clear the body triangle—what do you do?",
         "answer": "Immediately prioritize neck defense by tucking your chin deeply and bringing both hands to protect your throat. The triangle escape becomes secondary - you must survive the choke attempt first. Once you've defended the immediate choke threat, resume systematic escape work but expect opponent to attack neck again when you redirect attention to the triangle.",
         "answer_line": "Defend neck first, chin tucked",
         "distractors": {
@@ -612,7 +612,7 @@
         }
       },
       {
-        "question": "After partially clearing the body triangle, opponent tries to re-establish it - how do you prevent this?",
+        "question": "You partly cleared the body triangle and they try to relock it—how do you prevent that?",
         "answer": "As soon as you feel the triangle loosen, immediately insert your elbow or forearm between your body and their legs to prevent re-locking. Continue turning into them while maintaining this frame. The key is not pausing to rest after breaking the initial lock - opponent will quickly re-establish if you don't immediately occupy the space you've created.",
         "answer_line": "Frame elbow in the gap fast",
         "distractors": {
@@ -883,7 +883,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the body triangle and distinguishes it from standard back control?",
+      "question": "What structure defines the body triangle and separates it from standard back control?",
       "answer": "The body triangle is formed when the back-taker crosses one leg over the opponent's torso and tucks that foot behind their own knee, creating a figure-four lock around the midsection instead of two independent hooks. This replaces the dynamic, adjustable connection of standard hooks with a single closed mechanical structure that squeezes the ribcage. Because the loop is self-reinforcing, it cannot be cleared by the hip-swiveling and hook-stripping motions that defeat ordinary back control. The tradeoff is reduced leg mobility: the locked configuration is harder to establish and harder to abandon quickly than hooks.",
       "answer_line": "Leg locked figure-four, not hooks",
       "distractors": {
@@ -897,7 +897,7 @@
       }
     },
     {
-      "question": "Why does the body triangle restrict the trapped player's breathing, and how does that shape the dynamics for both players?",
+      "question": "Why does the body triangle restrict breathing, and how does that shape both players?",
       "answer": "The figure-four sits around the lower ribs and diaphragm, so every squeeze compresses the exact region the trapped player needs to expand in order to inhale. This produces genuine physiological stress that compounds over time rather than mere discomfort. For the trapped player it creates urgency and a temptation to panic-scramble; for the controlling player it acts as a force multiplier, since a fatiguing, oxygen-starved opponent makes defensive errors and struggles to sustain resistance. The breathing restriction is therefore a shared axis of the position, present in both gi and no-gi because it depends on mechanical compression, not grips.",
       "answer_line": "Compresses ribs, fatigues them fast",
       "distractors": {
@@ -911,7 +911,7 @@
       }
     },
     {
-      "question": "Where on the torso should the triangle be locked for maximum mechanical effect, and what happens when it sits too high or too low?",
+      "question": "Where on the torso should the body triangle lock sit, and what if it is too high or low?",
       "answer": "The optimal height is around the lower ribcage and diaphragm, roughly just above the navel, where the legs seat against the hip bones and compress the breathing muscles. Locked too high near the chest or shoulders, the loop allows the opponent freer rib expansion, easier neck defense, and simpler clearing. Locked too low across the hips, it provides less breathing restriction and tends to slip off the pelvis. Seating the lock just above the hip bones simultaneously maximizes compression and prevents the triangle from sliding downward off the body.",
       "answer_line": "Lower ribs, above the navel",
       "distractors": {
@@ -939,7 +939,7 @@
       }
     },
     {
-      "question": "Why is hip placement beside the opponent rather than on their back critical to the stability of the body triangle?",
+      "question": "Why must your hips stay on the mat beside them, not on their back, in the body triangle?",
       "answer": "Keeping the hips down on the mat beside the opponent, rather than perched on their back, turns the hip and elbow into a post that resists being rolled over. This grounded base also gives the controller leverage to drive the squeeze and adjust the pressure angle. If the hips ride up onto the opponent's back the base becomes unstable, the squeezing power drops, and the trapped player can bridge and roll the controller over. The defining stable configuration is therefore hips on the mat, chest on the back, legs locked around the torso.",
       "answer_line": "Hips on mat = post vs rolls",
       "distractors": {
@@ -967,7 +967,7 @@
       }
     },
     {
-      "question": "How does pressure in the body triangle behave differently from a static hold, and why does escape effort tend to tighten it?",
+      "question": "Why does the body triangle tighten as they struggle, unlike a static hold?",
       "answer": "The triangle is a self-tightening loop: as the trapped player bridges, turns, or extends to escape, their own movement drives their torso further into the closed leg structure, increasing compression rather than relieving it. This is unlike independent hooks, which loosen and can be shed when the opponent moves. Consequently the more committed the escape attempt, the more locked-in the controller's legs become, which is why fighting the squeeze head-on is counterproductive. The position rewards patience for the controller and technical, low-energy problem-solving for the trapped player rather than explosive struggle.",
       "answer_line": "Escaping motion tightens the loop",
       "distractors": {
@@ -981,7 +981,7 @@
       }
     },
     {
-      "question": "How does the body triangle relate to and differ from the adjacent positions of standard back control, mount, and the truck?",
+      "question": "How does the body triangle differ from standard back control, mount, and the truck?",
       "answer": "The body triangle is a variation of back control that swaps hooks for a leg lock, trading the mobility and quick-transition ability of hooks for far higher retention and constant compression. It sits between standard back control and more dynamic entanglements: if the lock must be abandoned it commonly resets to hooks or advances to mount while the legs stay engaged, and rolling into the truck reconfigures the same lower-body entanglement into a leg-attack platform. Unlike mount, which controls from the front with the opponent facing up, the body triangle keeps the controller on the opponent's back with the opponent's neck exposed to attack. Its identity is the fusion of back-control positioning with a static mechanical leg lock.",
       "answer_line": "Trades hook mobility for retention",
       "distractors": {

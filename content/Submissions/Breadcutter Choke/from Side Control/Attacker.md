@@ -100,7 +100,7 @@ description: "Learn to attack with the Breadcutter Choke from Side Control. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly to block the forearm from crossing the throat - how do you adjust?",
+      "name": "Breadcutter from side control: they tuck their chin hard — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive the forearm blade across the jawline rather than directly across the throat. The jaw acts as a lever that forces the chin up and exposes the neck. Alternatively, use the crossface hand to push their chin upward before sliding the choking forearm into position. The chin tuck defense becomes ineffective once the forearm gains purchase on the jaw."

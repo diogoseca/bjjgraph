@@ -74,7 +74,7 @@ description: "Master the controlled positional retreat from Saddle to Inside Ash
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the primary indicators that saddle control has deteriorated to the point where initiating the fallback is necessary?",
+      "name": "What signs show saddle control has degraded enough to fall back to inside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key indicators include: opponent has cleared your hip pressure and can rotate more freely, opponent has established strong frames on your hips or shoulders preventing re-engagement, your perpendicular alignment has been significantly broken, or opponent has begun successfully extracting their heel from your control. Any two of these occurring simultaneously should trigger immediate fallback initiation. The critical distinction is between temporary resistance you can overcome versus structural compromise requiring positional retreat."
@@ -90,7 +90,7 @@ description: "Master the controlled positional retreat from Saddle to Inside Ash
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges explosively just as you begin releasing the saddle leg configuration—how do you adjust?",
+      "name": "They bridge explosively as you start releasing the saddle configuration: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the transition and re-clamp your saddle leg configuration around their trapped leg. Their explosive bridge creates kinetic energy you should ride rather than fight—let their movement pass while maintaining tight leg control. Once they settle, reassess whether saddle is still viable or if the bridge successfully cleared enough control to necessitate restarting the fallback from step one. Never continue a half-completed transition during explosive defensive movements."
@@ -98,7 +98,7 @@ description: "Master the controlled positional retreat from Saddle to Inside Ash
     },
     {
       "@type": "Question",
-      "name": "What is the single most critical leg position that must be established to create a functional inside ashi-garami after the fallback?",
+      "name": "Which leg position is essential for a functional inside ashi after falling back from saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside leg across the opponent's near hip with your foot planted on the far side of their body is the non-negotiable foundation. This element provides the rotational control that prevents the opponent from facing you directly, turning away, or squaring their hips to create escape angles. Without the inside leg across the hip, you have loose leg contact but not a genuine inside ashi-garami position, and the opponent can escape through simple hip rotation or leg straightening."
@@ -106,7 +106,7 @@ description: "Master the controlled positional retreat from Saddle to Inside Ash
     },
     {
       "@type": "Question",
-      "name": "After completing the fallback to inside ashi, what should your immediate offensive strategy be rather than rushing back to saddle?",
+      "name": "After falling back to inside ashi, what should you do instead of rushing back to saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First consolidate the position by squeezing legs tight and establishing perpendicular alignment. Then immediately threaten a straight ankle lock to force defensive reactions from the opponent. Do not rush back to saddle entry. Let the opponent's defense of your ashi attacks create natural openings for position advancement—if they rotate their knee inward defending the ankle lock, this exposes their heel for advancement to honey hole or saddle. Their defensive choices should guide your next move rather than forcing a predetermined path."
@@ -114,7 +114,7 @@ description: "Master the controlled positional retreat from Saddle to Inside Ash
     },
     {
       "@type": "Question",
-      "name": "Your opponent pummels their free leg to prevent your inside leg from crossing their hip during the transition—what is your response?",
+      "name": "They pummel their free leg to block your inside leg crossing their hip: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your inside leg across their hip using full hip extension rather than just knee movement, which generates significantly more penetrating force. If their pummel succeeds despite this, you have two viable options: attempt to re-enter saddle using whatever deeper entanglement you still partially maintain, or redirect to outside ashi-garami where their pummeling may have inadvertently exposed a different entry angle. Never stall in an incomplete position—commit to either completing inside ashi or transitioning to an alternative entanglement."

@@ -66,7 +66,7 @@ description: "Complete defensive guide for surviving and escaping the Americana 
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to prevent the figure-four grip from being completed rather than trying to escape after it is locked?",
+      "name": "Why prevent the Americana figure-four from locking rather than escaping after it's locked?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the figure-four grip is fully secured with proper elbow positioning, the two-on-one grip system combined with the attacker's body weight creates forces that are extremely difficult to overcome through strength alone. Before the grip is complete, you only need to address one control point—the wrist pin—and you have full arm mobility plus bridging power available. After completion, you must simultaneously break the figure-four and create a positional escape, which requires far more energy and has a significantly lower success rate."
@@ -74,7 +74,7 @@ description: "Complete defensive guide for surviving and escaping the Americana 
     },
     {
       "@type": "Question",
-      "name": "How does the momentary release of head control during the Americana setup create an escape opportunity?",
+      "name": "How does losing head control during the Kesa Gatame Americana setup open an escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent releases head control to thread the figure-four, your head becomes free to turn and your neck is no longer pinned. This creates a two to three second window where you can bridge toward the opponent and turn into them, potentially recovering guard or reaching turtle. Recognize this window through tactile sensation—the pressure on your head releases suddenly as their arm moves. Time your most explosive escape attempt to coincide with this moment of reduced positional control."
@@ -82,7 +82,7 @@ description: "Complete defensive guide for surviving and escaping the Americana 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully secured the figure-four and begins painting your arm toward the mat—what is your last resort defense?",
+      "name": "The figure-four is locked and they're painting your arm down — what is your last-resort defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the figure-four is fully locked and the painting motion has begun toward end range, tap immediately rather than risking injury to the shoulder. The glenohumeral joint can suffer permanent damage from forced lateral rotation beyond its natural range, including rotator cuff tears and shoulder dislocation that require months of recovery or surgery. In training, no submission is worth a catastrophic shoulder injury—tap early, recognize where your defense failed, and focus on earlier intervention in future attempts."
@@ -90,7 +90,7 @@ description: "Complete defensive guide for surviving and escaping the Americana 
     },
     {
       "@type": "Question",
-      "name": "What defensive arm position should you maintain with the trapped arm to minimize both Americana and armbar vulnerability?",
+      "name": "How should you hold the trapped arm to limit both Americana and armbar risk in Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep the trapped arm bent at approximately ninety degrees with your elbow tight against your ribs and slight internal rotation at the shoulder. This position prevents the Americana because the arm cannot be painted toward the mat without first being repositioned, and prevents the armbar because the arm is not extended. If you fully extend to prevent the Americana, you expose yourself to armbar. If you collapse the arm completely against your body, you create the bent position the Americana needs. The ninety-degree defensive position splits the difference between both threats."

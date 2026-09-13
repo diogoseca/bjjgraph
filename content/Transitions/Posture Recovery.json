@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent has a deep collar grip and begins pulling you into a cross collar choke as you try to recover - what is your response?",
+        "question": "Recovering posture in closed guard, they pull a deep collar grip for a cross choke — your response?",
         "answer": "Do not attempt to posture through the choke. Instead, immediately address the choking grip by tucking your chin to your chest to buy time, then using both hands in a two-on-one configuration to strip the deep collar grip by pushing their wrist toward their thumb direction. If the grip is too deep to strip, transition to the standing posture recovery variant where your body weight creates leverage to break the grip angle. Only resume the seated recovery after the collar grip is broken or controlled.",
         "answer_line": "Tuck chin, strip the grip",
         "distractors": {
@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "After successfully recovering posture, what immediate actions prevent your opponent from re-breaking it?",
+        "question": "After recovering posture in closed guard, what stops them from re-breaking it?",
         "answer": "Immediately establish combat base with one knee posted and opposite foot planted flat to create a stable triangulated platform. Secure controlling grips on the opponent's pants at the knees or their collar to manage distance. Apply light downward pressure through your hips to prevent them from sitting up to re-engage. Break any remaining attacking grips they hold before they can re-establish pulling control. Begin your guard opening sequence promptly rather than pausing in recovered posture, as delay gives the opponent time to reset their attacking grips and re-break your posture.",
         "answer_line": "Combat base, grips, press down",
         "distractors": {
@@ -379,7 +379,7 @@
         }
       },
       {
-        "question": "Your opponent shifts their hips to create an angle while you attempt to recover - how does this change your recovery approach?",
+        "question": "Recovering posture in closed guard, they hip out to an angle — how does that change your approach?",
         "answer": "An angled opponent is setting up asymmetric attacks like triangle, omoplata, or armbar from an angle. You must address the angle before continuing recovery by squaring your hips back to center relative to their body. Drive your knee on the side they are angling toward into the space between their hip and the mat to close the angle. Keep the arm on the angled side tight to your body to prevent isolation. Once you have re-centered, resume the standard recovery sequence. Ignoring the angle and continuing straight-line recovery exposes you to the submission they are creating with the hip shift.",
         "answer_line": "Square hips, close the angle",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "Why is attacking during posture recovery attempts more effective than purely defensive grip retention?",
+        "question": "From closed guard bottom, why attack during their posture recovery instead of just holding grips?",
         "answer": "Purely defensive grip retention is a battle of attrition that the top player eventually wins through repeated attempts and superior leverage from top position. Attacking during recovery is more effective because the recovery movement creates predictable body mechanics and momentary vulnerabilities. Extended arms create armbar opportunities, weight shifting backward creates hip bump sweep openings, and asymmetric arm positions create triangle entries. Offensive counters end the positional exchange decisively rather than prolonging a defensive struggle that depletes your grip endurance.",
         "answer_line": "Attacks exploit recovery gaps",
         "distractors": {

@@ -56,7 +56,7 @@ description: "Defend against the armbar setup from double sleeve guard. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel your right sleeve being pulled diagonally across the opponent's body - what is your first defensive action?",
+      "name": "In double sleeve guard, they pull your right sleeve across their body — your first defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately retract your right elbow sharply toward your right hip while rotating your wrist toward the opponent's thumb to weaken their grip. Simultaneously step your right foot back to create distance that makes the diagonal pull less effective. Do not pull straight back - use a circular motion combining elbow retraction with wrist rotation. If possible, simultaneously push down on the opponent's knee or hip with your left hand to compromise their guard structure."
@@ -64,7 +64,7 @@ description: "Defend against the armbar setup from double sleeve guard. Recognit
     },
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that an armbar setup is being attempted from double sleeve guard?",
+      "name": "What is the earliest cue that an armbar is coming from double sleeve guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is foot placement change: the opponent moves one foot from your hip to your bicep on the arm they intend to attack. This asymmetric foot positioning is the essential prerequisite for the armbar rotation and should trigger an immediate defensive response. Secondary cues include increased diagonal pulling tension on one sleeve, the opponent's hips beginning to elevate or shift laterally, and their body angling away from square alignment toward perpendicular positioning."
@@ -72,7 +72,7 @@ description: "Defend against the armbar setup from double sleeve guard. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent has pivoted their hips and their leg is swinging toward your head - what is your best response at this late stage?",
+      "name": "Defending double sleeve guard: they pivoted and their leg swings at your head — best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, immediately drive forward with your hips to stack the opponent, walking your feet toward their head. Simultaneously tuck the targeted elbow tight to your ribs and clasp your hands together if possible to prevent arm extension. Use your free hand to push against the incoming leg to prevent it from sealing over your head. If the leg does cross, immediately posture your head up and to the side while continuing the stacking pressure to prevent the finish."
@@ -80,7 +80,7 @@ description: "Defend against the armbar setup from double sleeve guard. Recognit
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining upright posture the primary defense against all armbar setups from double sleeve guard?",
+      "name": "Why is upright posture the primary defense against armbars from double sleeve guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strong upright posture prevents the postural breakdown that is an absolute prerequisite for the armbar setup. When your spine is aligned and your head is above your hips, the opponent cannot generate the push-pull forces needed to isolate your arm and create the rotational angle for the pivot. Additionally, upright posture keeps your elbows naturally closer to your body, making arm isolation significantly more difficult. Breaking posture is the first step in every armbar setup chain from this guard."
@@ -88,7 +88,7 @@ description: "Defend against the armbar setup from double sleeve guard. Recognit
     },
     {
       "@type": "Question",
-      "name": "You are being pulled forward while the opponent's foot pushes your bicep outward - how do you reset to a safe position?",
+      "name": "Being pulled forward with their foot pushing your bicep out — how do you reset to safety?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, widen your base by stepping your feet apart to resist the forward pull. Post your free hand on the mat behind the opponent's hip to create a structural frame that prevents further postural collapse. Then address the foot on your bicep by swimming your elbow under it or pushing it off with your free hand while simultaneously stepping back with the foot on the same side as the attacked arm. This combination of base widening, hand posting, and foot removal disrupts all three elements of the opponent's setup simultaneously."

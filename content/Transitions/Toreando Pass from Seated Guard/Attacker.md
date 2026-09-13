@@ -98,7 +98,7 @@ description: "Master executing the Toreando Pass from Seated Guard. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "What is the critical timing window for transitioning grips from legs to upper body during the toreando?",
+      "name": "When should you switch from leg grips to upper body control during the toreando?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip transition must happen during the final lateral step as your chest approaches the opponent's torso—not before and not after. Releasing legs too early (before your body is past their hip line) allows recovery. Holding legs too long (after you've cleared them) delays chest-to-chest contact and allows the opponent to sit up or turn. The ideal timing is releasing the far-side leg grip to establish crossface while maintaining the near-side leg pin until your chest makes contact with their upper body."
@@ -106,7 +106,7 @@ description: "Master executing the Toreando Pass from Seated Guard. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "How does the direction of leg redirection affect pass success, and how do you choose which side to pass to?",
+      "name": "How does redirection direction affect the toreando, and how do you pick the passing side?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The direction should be determined by the opponent's weight distribution and your own grip strength. Push legs toward the side where the opponent's weight is already shifting—this requires less force and catches them off-balance. If the opponent's weight is neutral, choose your strong side for more powerful leg redirection. Additionally, consider which side gives you a better crossface angle. Avoid always passing to the same side, as opponents will anticipate the direction and preposition their defensive frames."

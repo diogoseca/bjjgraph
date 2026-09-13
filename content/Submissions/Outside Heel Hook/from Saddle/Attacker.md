@@ -76,7 +76,7 @@ description: "Step-by-step guide to attacking the outside heel hook from saddle,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the outside heel hook primarily attack and how does this differ from the inside heel hook?",
+      "name": "Which structures does the outside heel hook attack, and how does the inside version differ?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The outside heel hook primarily targets the lateral collateral ligament (LCL), lateral meniscus, and applies stress to the ACL from a lateral vector. The inside heel hook instead targets the medial collateral ligament (MCL) and medial meniscus with medial rotation. Both can damage the ACL but through different mechanical pathways. The outside variant attacks by rotating the heel laterally, creating stress on the outer knee structures rather than the inner structures targeted by the inside heel hook."
@@ -84,7 +84,7 @@ description: "Step-by-step guide to attacking the outside heel hook from saddle,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has their knee rotated inward to hide the heel from your inside heel hook—how do you transition to the outside heel hook?",
+      "name": "Their knee is rotated in, killing the inside heel hook; how do you switch to the outside?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain hip pressure and leg configuration stability while shifting your bottom hand to cup the heel from the lateral side, positioning your wrist against the back of the heel with fingers wrapping outward. Then thread your top arm under the Achilles to establish a figure-four set at an angle that generates lateral rotational torque. The key is that their defensive knee rotation, which closes the inside path, simultaneously opens the lateral heel for your outside attack. Do not release hip pressure during this transition."
@@ -92,7 +92,7 @@ description: "Step-by-step guide to attacking the outside heel hook from saddle,
     },
     {
       "@type": "Question",
-      "name": "What grip configuration distinguishes the outside heel hook from the inside heel hook in the finishing position?",
+      "name": "What grip difference distinguishes the outside from the inside heel hook at the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The outside heel hook uses a figure-four grip angled to produce lateral (outward) rotation on the heel, with the wrist bone positioned against the posterior-lateral aspect of the heel and fingers wrapping toward the outside of the foot. The inside heel hook figure-four is angled to produce medial (inward) rotation with the grip oriented to pull the heel toward the attacker's centerline. The arm threading under the Achilles tendon serves the same structural purpose in both variants but at different rotational angles."
@@ -100,7 +100,7 @@ description: "Step-by-step guide to attacking the outside heel hook from saddle,
     },
     {
       "@type": "Question",
-      "name": "You have the outside heel hook grip locked but your opponent starts rotating their body in the direction of your rotation to relieve knee stress—what adjustment do you make?",
+      "name": "In the saddle, they rotate with your outside heel hook to relieve knee stress: what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Ride the rotation with your own body while maintaining hip pressure. If they rotate sufficiently, their movement actually re-exposes the medial side of the heel, allowing you to switch back to the inside heel hook direction. Use their rotational momentum to accelerate your grip transition to the inside attack. This inside-outside switching based on their defensive rotation is the core dilemma that makes the saddle position so dominant for heel hook attacks."

@@ -15,14 +15,17 @@ description: "{{ top.description }}"
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Attack from {{ top.name }}",
-  "description": "Step-by-step guide to attacking and submitting from {{ top.name.replace(' Top', '').replace(' (Attacks)', '') }} position in BJJ.",
+  "name": {{ ("How to Attack from " ~ (top.name)) | jsonstr }},
+  "description": {{ ("Step-by-step guide to attacking and submitting from " ~ (top.name.replace(' Top', '').replace(' (Attacks)', '')) ~ " position in BJJ.") | jsonstr }},
   "step": [
     {%- for transition in top.transitions[:6] %}
     {
       "@type": "HowToStep",
-      "name": "Execute {{ transition.transition }}",
-      "text": "From this position, attempt {{ transition.transition }}. This technique is attempted in {{ transition.attempt_probability }}% of exchanges from this position.",
+      "name": {{ ("Execute " ~ (transition.transition)) | jsonstr }},
+      {#- `attempt_note` carries BOTH sentences: the ordinary "attempted in N% of exchanges" and,
+          for a frame the corpus says does not exist, "exists in the gi ruleset only". It must stay
+          inside `jsonstr` — this is JSON-LD and the note is prose. #}
+      "text": {{ ("From this position, attempt " ~ (transition.transition) ~ ". " ~ (transition.attempt_probability | attempt_note)) | jsonstr }},
       "position": {{ loop.index }}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -40,10 +43,10 @@ description: "{{ top.description }}"
     {%- for error in top.common_errors[:5] %}
     {
       "@type": "Question",
-      "name": "What happens if you {{ error.error.lower() }}?",
+      "name": {{ ("What happens if you " ~ (error.error.lower()) ~ "?") | jsonstr }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ error.consequence }} The correct approach is: {{ error.correction }}"
+        "text": {{ ((error.consequence) ~ " The correct approach is: " ~ (error.correction)) | jsonstr }}
       }
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -56,8 +59,8 @@ description: "{{ top.description }}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{ top.name }}",
-  "description": "{{ top.description }}",
+  "name": {{ top.name | jsonstr }},
+  "description": {{ top.description | jsonstr }},
   {%- if aliases is defined and aliases %}
   "alternateName": [{% for alias in aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
   {%- endif %}
@@ -76,8 +79,8 @@ description: "{{ top.description }}"
   }{%- if family is defined and family %},
   "mainEntityOfPage": {
     "@type": "CollectionPage",
-    "name": "{{ family }}",
-    "url": "https://bjjgraph.org/Families/{{ family | slugify }}"
+    "name": {{ family | jsonstr }},
+    "url": {{ ("https://bjjgraph.org/Families/" ~ (family | slugify)) | jsonstr }}
   }
   {%- endif %}
 }
@@ -104,8 +107,8 @@ description: "{{ top.description }}"
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "{{ top.name }}",
-      "item": "https://bjjgraph.org/Positions/{{ top.name.replace(' ', '-') }}"
+      "name": {{ top.name | jsonstr }},
+      "item": {{ ("https://bjjgraph.org/Positions/" ~ (top.name.replace(' ', '-'))) | jsonstr }}
     }
   ]
 }
@@ -136,7 +139,7 @@ description: "{{ top.description }}"
       "creator": { "@type": "Person", "name": {{ clip.by | tojson }} }
       {%- endif %}
       {%- if clip.duration %},
-      "duration": "PT{{ clip.duration }}S"
+      "duration": {{ ("PT" ~ (clip.duration) ~ "S") | jsonstr }}
       {%- endif %}
       {%- if clip.upload_date %},
       "uploadDate": {{ clip.upload_date | tojson }}
@@ -238,7 +241,7 @@ description: "{{ top.description }}"
 {% for node in top.decision_tree -%}
 **{{ node.condition }}:**
 {% for action in node.actions -%}
-- Execute **[[{{ resolve(action.technique) }}/Attacker|{{ action.technique }}]]** → [[{{ resolve(action.target) }}]] (Probability: {{ action.probability }}%)
+- Execute **[[{{ resolve(action.technique) }}/Attacker|{{ action.technique }}]]** → [[{{ resolve(action.target) }}]] (Probability: {{ action.probability | pct }})
 {% endfor %}
 
 {% endfor %}

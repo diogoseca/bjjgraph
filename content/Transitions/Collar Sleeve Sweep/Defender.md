@@ -80,7 +80,7 @@ description: "Defend and counter the Collar Sleeve Sweep in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully loaded the sweep with all components in place—what is your best last-resort defense?",
+      "name": "Your opponent has the collar sleeve sweep fully loaded: what's your last-resort defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free hand wide in the sweep direction to catch your weight and halt the momentum. Immediately after posting, recover your arm by pulling your elbow tight to your body to prevent the triangle follow-up the sweeper will attempt. Simultaneously drive your hips forward to flatten the sweeper and disrupt their follow-through. This is a last resort because it creates triangle vulnerability, but it is preferable to being swept to bottom position where you concede points and positional advantage."

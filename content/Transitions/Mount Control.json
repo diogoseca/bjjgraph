@@ -217,7 +217,7 @@
         }
       },
       {
-        "question": "Your opponent begins loading weight to their right side for a bridge. What do you do before they explode?",
+        "question": "Your mounted opponent loads to their right side to bridge: what do you do before they explode?",
         "answer": "Post your right hand wide on the mat to their right side and shift your hips slightly right to load that base. As they bridge, sprawl your hips back while keeping the post firm. This preemptive positioning means their bridge pushes into your strongest base rather than catching you off-balance.",
         "answer_line": "Post hand wide, load their base",
         "distractors": {
@@ -259,7 +259,7 @@
         }
       },
       {
-        "question": "Your opponent is chaining escapes - bridge, then immediately hip escape when you counter. How do you break this chain?",
+        "question": "Your mounted opponent chains bridge into hip escape: how do you break the chain?",
         "answer": "After countering the bridge, don't fully re-settle your weight before the hip escape comes. Instead, keep your blocking knee on their hip and maintain sprawled hips until they commit to abandoning the hip escape. Only then re-establish full mount pressure. The key is recognizing that re-centering too quickly invites the chain; stay in counter-position longer than feels necessary.",
         "answer_line": "Stay sprawled, don't re-settle yet",
         "distractors": {
@@ -301,7 +301,7 @@
         }
       },
       {
-        "question": "Your opponent creates a frame on your hip with their forearm. They're not escaping yet, just maintaining the frame. What's the urgency?",
+        "question": "Your mounted opponent holds a forearm frame on your hip without escaping: how urgent is it?",
         "answer": "Maximum urgency. That frame will become their escape path the moment you shift weight to attack or they find additional leverage. Eliminate it immediately by swimming your elbow inside and pinning their arm. The frame's current ineffectiveness is irrelevant - its potential is what matters. Treat every frame as if escape is imminent.",
         "answer_line": "Swim elbow inside, pin the arm",
         "distractors": {
@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "In which direction should you drive your weight and pressure during Mount Control, and how does this change based on your opponent's escape attempts?",
+        "question": "From mount, which way do you drive pressure, and how does that change with each escape attempt?",
         "answer": "Default pressure direction is straight down through your hips into their solar plexus, using gravity as your primary tool. When they bridge, shift pressure backward by sprawling hips while posting forward. When they hip escape laterally, drive pressure into the direction of their escape to close space. When they frame upward, increase downward chest-to-chest pressure while swimming inside their arms. The key principle is that your pressure vector always opposes their movement direction, making every escape attempt feel like pushing into a wall.",
         "answer_line": "Redirect pressure to close space",
         "distractors": {
@@ -466,7 +466,7 @@
         }
       },
       {
-        "question": "Your opponent has heavy grapevines engaged and you cannot generate any bridging power. What is your primary escape pathway?",
+        "question": "Heavy grapevines kill your bridge from bottom mount: what is your primary escape pathway?",
         "answer": "When grapevines eliminate bridging power, focus entirely on the elbow-knee escape. Frame your forearm on their hip on your escape side and begin micro-shrimps to create incremental space. Since their legs are committed to grapevines, their base is narrower than with knees posted wide. Target the moment they adjust grapevine pressure or shift weight to address your upper body frames - that brief lightening of hip control is your window to execute a larger hip escape and insert your knee.",
         "answer_line": "Elbow-knee frame, micro-shrimp",
         "distractors": {
@@ -480,7 +480,7 @@
         }
       },
       {
-        "question": "How should you time your escape attempts against a top player who is actively reading and countering your movements?",
+        "question": "How do you time escapes from bottom mount against a top player who reads your movement?",
         "answer": "Time escapes to coincide with the top player's own movements rather than initiating from static positions. When they reach for a grip, shift weight to attack, or adjust their base after countering a previous attempt, their weight distribution changes momentarily. The bridge works best when they reach forward, shifting weight to their hands. The hip escape works best when they shift laterally to address your movement on one side, lightening pressure on the opposite hip. Create the opening with a feint, then exploit the reaction.",
         "answer_line": "Time it to their weight shifts",
         "distractors": {
@@ -494,7 +494,7 @@
         }
       },
       {
-        "question": "You have established a forearm frame on your opponent's hip but they begin swimming their elbow inside to strip it. What do you do?",
+        "question": "From bottom mount, they swim inside to strip your hip frame: what do you do?",
         "answer": "Do not fight to maintain a frame that is being stripped - this becomes a strength battle you will lose from bottom position. Instead, use their commitment to stripping your frame as a timing window. As they drive their elbow inside, their weight shifts toward that side and their opposite hip lightens. Immediately hip escape toward the side they are not pressuring, using the frame-strip as your trigger for the escape movement. Alternatively, switch your frame to the other hip before theirs is fully eliminated, keeping them in a constant frame-chasing cycle.",
         "answer_line": "Let it go, escape the other way",
         "distractors": {
@@ -508,7 +508,7 @@
         }
       },
       {
-        "question": "Why is chaining a bridge into a hip escape more effective than either technique alone against active Mount Control?",
+        "question": "Why is bridging into a hip escape better than either alone against active mount control?",
         "answer": "The bridge forces the top player to post a hand and shift weight to counter the roll direction, which is the correct defensive response for them. However, this posting action necessarily lightens their hip pressure on the opposite side and commits their weight laterally. The immediate hip escape exploits exactly this weight shift - you shrimp away from the direction they posted toward, moving into the space their base adjustment just vacated. Neither technique alone overcomes active control, but together they create a dilemma where the correct defense to the bridge creates the opening for the hip escape.",
         "answer_line": "Bridge lightens hip, then escape",
         "distractors": {

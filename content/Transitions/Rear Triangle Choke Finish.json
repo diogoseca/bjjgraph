@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "Your opponent grabs your choking leg with both hands and fights to create space - how do you respond?",
+        "question": "They grab your choking leg with both hands in the rear triangle: how do you respond?",
         "answer": "Maintain your squeeze and hip angle rather than releasing to fight grips. Use your free hands to strip one grip by peeling fingers or redirecting the wrist away from your leg. If they maintain a strong two-hand grip, angle your hips further toward the trapped arm and increase hip extension to apply pressure through their grip. Consider transitioning to an armbar on the trapped arm since both their hands are occupied defending your leg rather than protecting the arm.",
         "answer_line": "Keep angle, strip grip, or armbar",
         "distractors": {
@@ -366,7 +366,7 @@
         }
       },
       {
-        "question": "You feel the triangle lock loosening during the squeeze attempt - what immediate adjustment do you make?",
+        "question": "The rear triangle lock loosens as you squeeze: what immediate adjustment do you make?",
         "answer": "Stop extending your hips immediately because further extension with a loose lock will open the triangle entirely. Pull your locking heel deeper into the crook of your knee and re-squeeze your knees together to re-tighten the configuration. Re-establish chest-to-back contact if space was created during the loosening. Once the lock is re-secured, restart the finishing sequence from the angle adjustment step rather than jumping straight to the squeeze.",
         "answer_line": "Stop, re-lock heel, resqueeze knees",
         "distractors": {
@@ -380,7 +380,7 @@
         }
       },
       {
-        "question": "What is the functional difference between squeezing knees together versus extending hips in the finish?",
+        "question": "Rear triangle finish: what does the knee squeeze do versus the hip extension?",
         "answer": "Knee compression eliminates space within the triangle loop, tightening the structure around the neck and trapped arm to ensure the choking surfaces fully contact the carotid arteries. Hip extension creates the directional shearing force that drives those surfaces into the arteries with finishing pressure. Knee compression without hip extension holds position but lacks finishing force. Hip extension without knee compression creates force but allows the opponent to slip free through the loose triangle. Both must work together simultaneously for the finish.",
         "answer_line": "Knees tighten, hips drive force",
         "distractors": {
@@ -504,7 +504,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first action you should take when you recognize the opponent is initiating the choke finish?",
+        "question": "First action when you recognize they are finishing the rear triangle choke on you?",
         "answer": "Immediately tuck your chin toward your chest and turn your face toward the non-choking leg side to protect your carotid arteries from full compression. Simultaneously establish a grip on the opponent's choking leg ankle or behind their knee with your free hand to prevent them from optimizing their angle. These two actions combined buy the critical seconds needed to mount a meaningful escape attempt.",
         "answer_line": "Tuck chin, grip their choking leg",
         "distractors": {
@@ -532,7 +532,7 @@
         }
       },
       {
-        "question": "Your opponent begins walking their hips toward your trapped arm side - what does this signal and how should you respond?",
+        "question": "They walk their hips toward your trapped arm side: what does it signal and how do you respond?",
         "answer": "This signals they are optimizing the cutting angle to convert from a compression hold to an efficient blood choke targeting both carotid arteries. You have a narrow window to respond. Use your free hand to grip their choking leg ankle and pull it toward the non-choking side to disrupt their angle. Simultaneously attempt to rotate your body in the opposite direction of their hip walk to reduce the diagonal pressure vector.",
         "answer_line": "Grip ankle, pull it off angle",
         "distractors": {
@@ -560,7 +560,7 @@
         }
       },
       {
-        "question": "The opponent releases some pressure to adjust their position - how do you capitalize on this adjustment window?",
+        "question": "They release pressure to adjust the rear triangle: how do you capitalize on that window?",
         "answer": "This adjustment window is your primary escape opportunity. Immediately work arm extraction by pulling your trapped elbow tight against your ribs and threading your forearm across your centerline. Simultaneously shrimp your hips away to create distance. If the triangle loosens significantly, attempt to rotate your entire body toward the non-choking leg side. Execute your prepared escape sequence without hesitation—advanced attackers minimize adjustment windows to fractions of a second.",
         "answer_line": "Extract arm, shrimp hips away",
         "distractors": {

@@ -58,7 +58,7 @@ description: "Defend the North-South Choke from North-South position. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that a North-South Choke is being set up before the arm threads under your neck?",
+      "name": "How do you recognize a north-south choke setup before their arm threads under your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cue is feeling your opponent slide their body to one side from standard North-South, shifting from centered chest pressure to an angled position. You will feel their arm release control on one side as they free their choking hand. Their shoulder begins driving specifically into one side of your neck rather than general chest pressure. Recognizing these cues early is critical because defensive options decrease dramatically once the arm passes under the neck."
@@ -90,7 +90,7 @@ description: "Defend the North-South Choke from North-South position. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent has threaded their arm under your neck but has not yet secured the grip - what is your immediate response?",
+      "name": "Their arm is threaded under your neck in north-south but the grip is not set—what do you do first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your last viable defense window. Immediately use both hands to fight the threading arm, specifically grabbing their wrist to prevent them from closing any grip. Simultaneously hip escape away from the choking side to create an angle that reduces their shoulder pressure on your near-side carotid. If you can strip the arm out, immediately reestablish frames against their chest. If you cannot strip the arm, continue hip escaping while fighting the grip to buy time for guard recovery. Do not waste time on any other defensive action - grip prevention is the sole priority."

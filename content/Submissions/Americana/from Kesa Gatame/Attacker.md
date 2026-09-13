@@ -90,7 +90,7 @@ description: "Complete attacking guide for finishing the Americana shoulder lock
     },
     {
       "@type": "Question",
-      "name": "What is the critical moment during the Americana setup from Kesa Gatame that creates the highest escape risk?",
+      "name": "During the Americana from Kesa Gatame, which moment creates the highest escape risk?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest escape risk occurs when you release head control to thread your arm under the opponent's trapped arm for the figure-four grip. During this transition, the opponent's head is momentarily free, creating a window where they can bridge, turn, or attempt to recover guard. Managing this window requires pinning the wrist firmly first and maintaining heavy chest pressure throughout the grip transition to compensate for the lost head control."
@@ -106,7 +106,7 @@ description: "Complete attacking guide for finishing the Americana shoulder lock
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins straightening their trapped arm as you attempt to secure the figure-four—what adjustment do you make?",
+      "name": "In Kesa Gatame they straighten the trapped arm before your figure-four — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent straightens their arm before the figure-four is complete, abandon the Americana attempt and transition to an armbar or straight armlock on the extended arm. The extended arm is more vulnerable to armbar attacks than to the Americana. Alternatively, use your chest weight to drive their extended arm back to a bent position by pressing down on their elbow. Never try to force the figure-four onto a fully straightened arm, as this wastes energy and creates space for escapes."

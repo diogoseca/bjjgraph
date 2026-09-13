@@ -90,7 +90,7 @@ description: "Execute the collar sleeve to spider guard transition. Master grip 
     },
     {
       "@type": "Question",
-      "name": "Your opponent pulls their free arm back and away when they sense you reaching for the second sleeve - how do you adjust?",
+      "name": "Going collar sleeve to spider, they pull the free arm away: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your foot already positioned on that bicep to extend their arm by pushing with your leg, bringing the sleeve back within reach. If they aggressively retract beyond foot control range, pivot your strategy: thread your leg under the controlled arm into a lasso guard configuration, or switch to a collar grip on the retreating side. The key is having backup plans that capitalize on their defensive reaction rather than chasing a grip that has moved out of range."
@@ -98,7 +98,7 @@ description: "Execute the collar sleeve to spider guard transition. Master grip 
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail in establishing effective spider guard tension after completing the transition?",
+      "name": "What's the key detail for building spider guard tension after the collar sleeve switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Full leg extension with simultaneous sleeve pulling creates the opposing-force tension system that defines effective spider guard. The feet push the opponent's biceps away while the hands pull the sleeves toward your hips. This creates a structural lock where any direction of movement by the opponent is resisted by either the push or pull component. Without full extension, the system has slack that allows the opponent to collapse distance. Both push and pull components must engage simultaneously."
@@ -114,7 +114,7 @@ description: "Execute the collar sleeve to spider guard transition. Master grip 
     },
     {
       "@type": "Question",
-      "name": "During the transition, your opponent drives forward with heavy pressure just as you release the collar - what is your emergency response?",
+      "name": "They drive forward as you release the collar for spider guard: your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If both feet are already on biceps, extend your legs explosively to push them back while your free hand reaches for any available grip on their sleeve, collar, or belt to re-establish control. If the forward pressure overwhelms your feet, frame with your arms against their shoulders and hip escape to create distance, then either re-establish collar sleeve guard with any available grip or pull closed guard to reset. Never fight the forward pressure from a flat-backed position with only your arms."

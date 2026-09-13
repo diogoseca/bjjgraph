@@ -68,7 +68,7 @@ description: "How to execute Meathook to Gogoplata Control in BJJ. Attacking per
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary trigger that signals you should attempt the Meathook to Gogoplata Control transition?",
+      "name": "What opponent action triggers the transition from Meathook to gogoplata control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trigger is opponent's committed forward pressure—when they drive their head and shoulders toward your chest with their weight shifting forward off their knees. This forward commitment places their throat directly into the path of your transitioning shin and prevents them from posturing out during the movement."

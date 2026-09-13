@@ -84,7 +84,7 @@ description: "Learn to finish the heel hook from Honey Hole with precise grip me
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their hips toward you while you're establishing the cup grip — what adjustment prevents escape?",
+      "name": "They rotate their hips toward you as you set the Honey Hole cup grip—what prevents escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your outside leg deeper across their hip to pin them flat, and follow their rotation with your own hips to maintain perpendicular alignment. Do not release the triangle to chase the rotation — instead, tighten the triangle and accelerate your grip sequence. If they commit heavily to rotation, the heel is momentarily more exposed, so capitalize by securing the cup grip during their movement rather than after they settle."
@@ -116,7 +116,7 @@ description: "Learn to finish the heel hook from Honey Hole with precise grip me
     },
     {
       "@type": "Question",
-      "name": "Your cup grip is shallow and you feel the opponent's foot sliding — how do you adjust without losing position?",
+      "name": "Your cup grip is shallow and their foot is sliding—how do you adjust without losing position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not release and re-grip, as this creates an escape window. Instead, use your secondary hand to push the ball of the opponent's foot toward you, which feeds the heel deeper into your primary hand. Simultaneously squeeze your elbows tighter together to prevent any further slippage. If the foot continues sliding despite adjustment, release the heel attempt entirely, re-establish positional control, and re-expose the heel properly before attempting the grip again."

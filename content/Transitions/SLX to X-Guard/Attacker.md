@@ -82,7 +82,7 @@ description: "Learn to execute the SLX to X-Guard transition. Step-by-step leg t
     },
     {
       "@type": "Question",
-      "name": "What conditions must already be in place before you commit to threading the outside leg into X-Guard?",
+      "name": "What must be in place before threading your outside leg from SLX into X-Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Commit only with a deep elevating inside hook, the free leg within reach, an anchoring ankle grip, and hips under their center of gravity. The inside hook must sit behind the trapped knee and generate genuine elevation, the opponent's free leg must be within reach of your outside foot rather than stepped far back, you need at least one grip on the trapped-side ankle, and your hips should be scooted underneath their center at a perpendicular angle. If elevation and reach are not established first, removing your outside foot from the hip simply surrenders your distance frame with no replacement control, leaving you exposed to the pass."
@@ -98,7 +98,7 @@ description: "Learn to execute the SLX to X-Guard transition. Step-by-step leg t
     },
     {
       "@type": "Question",
-      "name": "In which direction do you drive your elevation, and why does that direction matter for completing the thread?",
+      "name": "Which direction do you drive elevation to thread SLX into X-Guard, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips upward and slightly toward the opponent's trapped side, lifting their weight onto the free leg while opening clearance underneath their stance. The upward vector raises the trapped leg to create the gap your foot travels through, while angling toward the trapped side stations the free leg as a predictable, loaded target. Pushing straight away instead of up collapses your own elevation and lets them re-base before your outside foot arrives behind the knee."

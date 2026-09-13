@@ -357,7 +357,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts bridging explosively - what immediate adjustment do you make to maintain position?",
+        "question": "They bridge explosively inside your mounted triangle — how do you maintain the position?",
         "answer": "Drop your base by posting your bottom leg wider and lower on their hip while maintaining the triangle lock. Shift your weight slightly backward to counter their upward momentum. If the bridge is particularly powerful, be ready to abandon the triangle temporarily and remount to high mount or S mount, then re-establish the triangle configuration once base is secured.",
         "answer_line": "Post leg wide, drop base",
         "distractors": {
@@ -455,7 +455,7 @@
         }
       },
       {
-        "question": "Your opponent partially extracts their trapped arm during your finishing attempt - how do you recover position?",
+        "question": "They partially free the trapped arm as you finish the mounted triangle — how do you recover?",
         "answer": "Immediately transition to armbar by controlling their partially freed arm at the wrist and elbow while pivoting your hips to create the armbar angle. Their arm extraction attempt often leaves their arm extended and vulnerable. If they pull the arm completely free before you can catch it, their defensive movement typically opens the back or creates space for you to remount to high mount and restart the sequence.",
         "answer_line": "Catch arm, transition to armbar",
         "distractors": {
@@ -834,7 +834,7 @@
         }
       },
       {
-        "question": "How do you apply effective bridging pressure to disrupt the mounted triangle without giving up worse position?",
+        "question": "How do you bridge against a mounted triangle without giving up a worse position?",
         "answer": "Bridge at a 45-degree angle toward the side where their bottom leg is posted, not straight up. This attacks their base at its weakest point. Time the bridge when they commit weight forward to finish. Drive through your feet explosively while turning into the bridge direction. If the bridge successfully disrupts their balance, follow through into guard recovery. If they base out, immediately reset frames rather than continuing to bridge ineffectively.",
         "answer_line": "Bridge 45 degrees to posted leg",
         "distractors": {
@@ -848,7 +848,7 @@
         }
       },
       {
-        "question": "Your opponent transitions from triangle attempt to armbar - how do you adjust your defense mid-transition?",
+        "question": "They switch from mounted triangle to armbar — how do you adjust your defense mid-transition?",
         "answer": "The transition to armbar requires them to release some triangle pressure and pivot their hips. Use this moment to bend your trapped arm aggressively and turn toward them, getting your elbow toward your hip. If possible, grip your own wrist with your free hand to create a two-on-one defense on your arm. Their hip pivot during the armbar transition often creates space for you to hip escape or turn into them, potentially recovering to mount bottom rather than armbar.",
         "answer_line": "Bend arm, turn in, grip own wrist",
         "distractors": {
@@ -876,7 +876,7 @@
         }
       },
       {
-        "question": "You've partially escaped and created some space but haven't fully recovered guard - how do you consolidate your defensive gains?",
+        "question": "You've made space under mounted triangle but not recovered guard — how do you consolidate?",
         "answer": "Immediately insert your knee as a shield between your bodies before they can recollapse the distance. Use your free arm to control their hip and prevent them from re-establishing mount pressure. Continue shrimping to create more space rather than pausing. If you can get to half guard, lock it immediately and establish proper half guard defense before they can remount. Never stop moving until you've achieved a stable defensive position with proper connection points.",
         "answer_line": "Insert knee shield, keep moving",
         "distractors": {
@@ -922,7 +922,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the mounted triangle and distinguishes it from a standard mount?",
+      "question": "What structural configuration defines the mounted triangle versus a standard mount?",
       "answer": "In the mounted triangle the top player threads one leg over the bottom player's shoulder and across the back of their neck, then tucks that ankle behind the crook of the opposite knee to form a figure-four that traps the neck and one of the bottom player's arms. This differs from standard mount, where both knees pin the mat beside the torso, because one leg has left the floor to encircle the head. The result is a hybrid state fusing mount's positional dominance with an active triangle-choke and armbar threat. The trade is inherent: the top player gains an immediate finish but surrenders part of the two-knee base that makes plain mount so stable.",
       "answer_line": "Leg over neck, ankle behind knee",
       "distractors": {
@@ -936,7 +936,7 @@
       }
     },
     {
-      "question": "Which arm-and-neck relationship is the load-bearing feature of the mounted triangle for both players?",
+      "question": "Which arm-and-neck relationship is the load-bearing feature of the mounted triangle?",
       "answer": "The defining trap is one of the bottom player's arms isolated inside the loop alongside their own neck, so the top player's thigh compresses one carotid while the bottom player's own trapped shoulder blocks the other. This single configuration simultaneously builds the strangle and exposes the trapped arm to an armbar, which is why the position reads as a fork rather than a single attack. For the top player it is the source of finishing pressure; for the bottom player it is the primary danger to neutralize by keeping that arm bent and tight. The whole position lives or dies on whether that one arm stays trapped inside the loop.",
       "answer_line": "Trapped arm inside the neck loop",
       "distractors": {
@@ -978,7 +978,7 @@
       }
     },
     {
-      "question": "What role does the top player's posted leg and weight balance play in the shared dynamics of this position?",
+      "question": "What role do the top player's posted leg and weight balance play in the mounted triangle?",
       "answer": "The un-triangled leg posts low on the mat or hooks the hip to replace the base the wrapped leg gave up, so its placement dictates whether the top player can absorb a bridge. Weight must be split between driving the triangle downward to finish and staying heavy enough on the torso to smother explosive reversals. Too much weight forward onto the choke leaves no mount pressure and invites a bridge-and-roll; too little forward pressure lets the neck breathe and the loop loosen. This balancing act is the central tension of the position, and the bottom player reads it as shifting pressure that signals when the base is momentarily compromised.",
       "answer_line": "Balance weight: choke vs base",
       "distractors": {
@@ -992,7 +992,7 @@
       }
     },
     {
-      "question": "In what way does the mounted triangle function as a hub connecting several adjacent positions rather than a static hold?",
+      "question": "How is the mounted triangle a hub to adjacent positions rather than a static hold?",
       "answer": "Because the leg-over-neck structure and isolated arm sit between multiple finishes, the same configuration flows naturally into a triangle choke, a mounted armbar, a back take, or a retreat to high mount or S-mount. Which path opens is dictated by the bottom player's defensive reaction: a chin tuck and bent arm steer toward the armbar, an extended arm toward the strangle, and a turn toward the back. For the bottom player these same branch points read as escape windows, since each transition briefly loosens a control point. The position is best understood as a decision node linking mount, triangle control, armbar control, and back control rather than an endpoint.",
       "answer_line": "Branches to armbar, back, or choke",
       "distractors": {
@@ -1006,7 +1006,7 @@
       }
     },
     {
-      "question": "How does the mounted triangle differ from a triangle attacked from guard despite sharing the leg configuration?",
+      "question": "How does the mounted triangle differ from a guard triangle despite the same leg configuration?",
       "answer": "Both use the figure-four wrap around neck and one arm, but from guard the attacker is underneath and must fight gravity and stacking to finish, whereas in the mounted triangle the attacker sits on top and lets bodyweight drive the strangle downward. The mounted version also preserves top position and its scoring advantage, so the bottom player is defending from beneath rather than merely surviving on top. This inversion of who has gravity's help is why the mounted variation carries a higher finishing likelihood for the same lock. Recognizing the shared mechanics but opposite leverage is essential for both players porting their guard-triangle knowledge here.",
       "answer_line": "Same lock, gravity now helps",
       "distractors": {

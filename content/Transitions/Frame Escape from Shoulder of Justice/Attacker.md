@@ -80,7 +80,7 @@ description: "Execute the Frame Escape from Shoulder of Justice with systematic 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical error that the Shoulder of Justice pressure is designed to provoke, and why is it so dangerous?",
+      "name": "Which error does Shoulder of Justice pressure provoke, and why is it so dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shoulder pressure is specifically designed to provoke extending the near arm to push the shoulder away from the jaw. This is dangerous because it immediately exposes the arm to a kimura attack, which has an extremely high finishing rate from this position due to the opponent's superior body positioning and leverage angle. The correct response is keeping the near arm absolutely tight to the body."
@@ -88,7 +88,7 @@ description: "Execute the Frame Escape from Shoulder of Justice with systematic 
     },
     {
       "@type": "Question",
-      "name": "Why must you time your hip escape to the opponent's weight shifts rather than attempting escape during maximum pressure?",
+      "name": "Why time your hip escape from Shoulder of Justice to their weight shifts, not to max pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During maximum pressure, the opponent's full body weight is committed through their shoulder into your jaw with their base stable and hips connected. Escaping against this pressure is mechanically futile and wastes critical energy. Weight shifts occur when the opponent adjusts position, reaches for grips, or transitions, momentarily reducing the pressure vector and creating windows where your hip escape can generate actual space."

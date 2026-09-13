@@ -170,6 +170,8 @@ Sport BJJ provides an excellent foundation for personal protection, but competit
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill Self-Defense Application Framework?
@@ -300,6 +302,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -410,5 +414,7 @@ Self-defense training requires a fundamentally different approach than sport BJJ
 
 
 </section>
+
+
 
 </main>

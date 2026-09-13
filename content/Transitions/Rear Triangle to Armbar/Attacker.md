@@ -74,7 +74,7 @@ description: "Execute the Rear Triangle to Armbar transition with precision. Ste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical grip to establish before initiating the hip pivot for the armbar transition?",
+      "name": "Most critical grip to set before pivoting your hips for the rear triangle to armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A firm two-on-one wrist control on the trapped arm is absolutely essential before any hip movement begins. Both hands should grip the opponent's wrist with thumbs wrapping around and fingers controlling the forearm. Without this grip, releasing the triangle lock during the pivot allows the opponent to retract their arm, which eliminates the submission opportunity entirely and often leads to loss of back control."
@@ -82,7 +82,7 @@ description: "Execute the Rear Triangle to Armbar transition with precision. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin and clasps both hands together to defend both the choke and the armbar - how do you break this defensive posture?",
+      "name": "They tuck the chin and clasp hands against both threats: how do you break that defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the grip connection using a two-on-one prying motion on the trapped arm's wrist, leveraging your hips as a fulcrum to separate their hands. Alternatively, wedge your forearm between their clasped hands and use a levering motion to break the grip. If direct grip breaks fail, alternate between choke pressure and arm isolation attempts to force them to prioritize one defense, leaving the other vulnerable. The key is patience and systematic pressure rather than explosive single attempts."
@@ -106,7 +106,7 @@ description: "Execute the Rear Triangle to Armbar transition with precision. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges hard and begins turning into you during the hip pivot - what is your immediate adjustment?",
+      "name": "They bridge and turn into you during the hip pivot to armbar: immediate adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their rotational momentum to your advantage rather than fighting it. Continue your leg swing in the same direction they are turning, which accelerates the transition to a mounted or belly-down armbar variation. Maintain absolute wrist control throughout their bridge and follow their hips with yours to prevent space creation. The turn actually facilitates the armbar transition if you flow with it rather than resisting, as it helps your leg clear over their face more easily."
@@ -114,7 +114,7 @@ description: "Execute the Rear Triangle to Armbar transition with precision. Ste
     },
     {
       "@type": "Question",
-      "name": "What determines whether you should attempt the armbar transition versus continuing to attack the rear triangle choke?",
+      "name": "What determines whether you switch to the armbar or keep attacking the rear triangle choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is the opponent's defensive priority. If they are actively defending the choke by tucking their chin, fighting neck grips, and protecting carotid access, their attention is diverted from defending the trapped arm, making the armbar transition high-percentage. Conversely, if they are fighting to extract the trapped arm while leaving the neck exposed, continue attacking the choke. Read which defense they commit to and attack the opposite threat systematically."

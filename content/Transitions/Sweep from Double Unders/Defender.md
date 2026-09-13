@@ -56,7 +56,7 @@ description: "Complete guide to defending the Sweep from Double Unders as the to
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest indicator that the bottom player is setting up a sweep rather than attempting guard recovery?",
+      "name": "Passing double unders, what earliest cue shows a sweep setup rather than guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest indicator is the bottom player's hands moving toward your belt, waistband, or behind your hips rather than framing against your face, neck, or shoulders. Guard recovery attempts use frames that push you away, while sweep setups require grips that pull you in a specific direction. When you feel hands reaching past your hips or gripping your belt, the bottom player has transitioned from defensive escape to offensive reversal. This grip transition should trigger immediate base adjustment or grip stripping before the sweep can be loaded."
@@ -64,7 +64,7 @@ description: "Complete guide to defending the Sweep from Double Unders as the to
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when you detect the bottom player loading an overhead sweep?",
+      "name": "Passing double unders, how do you shift your weight when they load an overhead sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately shift your weight backward and downward by dropping your hips toward the mat and stepping at least one foot back. This moves your center of gravity behind the tipping point that the overhead sweep requires. Simultaneously, tighten your underhook squeeze to compress the bottom player's legs together, which reduces their ability to extend and generate the upward force needed for the overhead motion. The key is moving your center of gravity rearward without releasing underhook control, which means hip adjustment rather than posture change."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the Sweep from Double Unders as the to
     },
     {
       "@type": "Question",
-      "name": "What is the relationship between your forward pressure intensity and your vulnerability to the overhead sweep?",
+      "name": "Passing double unders, how does your forward pressure intensity affect overhead sweep risk?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pressure intensity and overhead sweep vulnerability have a direct proportional relationship: the harder you drive forward, the more vulnerable you become to being tipped overhead. Extreme forward stacking pressure moves your center of gravity past your base, creating the exact condition the overhead sweep exploits. The solution is not to reduce pressure, but to apply pressure through body angle and weight placement rather than explosive forward driving. Progressive, controlled pressure allows you to maintain your center of gravity over your base while still generating the stacking force needed for passing. Think of settling weight rather than pushing forward."
@@ -88,7 +88,7 @@ description: "Complete guide to defending the Sweep from Double Unders as the to
     },
     {
       "@type": "Question",
-      "name": "How should you respond if the bottom player successfully inserts a butterfly hook during the sweep attempt?",
+      "name": "Passing double unders, how do you respond once they insert a butterfly hook for the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When a butterfly hook is inserted, the bottom player has gained a powerful sweeping lever that changes the threat from an overhead sweep to a hook sweep. Immediately address the hook by driving your knee inside their hook to collapse it, or shift your hips laterally away from the hook side to reduce its mechanical advantage. If the hook is established too deeply to collapse, transition your passing approach from double unders to an over-under or leg weave configuration that addresses the hook directly. Do not continue attempting to maintain double unders when a butterfly hook has been successfully inserted, as this creates a high-percentage sweep position for the bottom player."

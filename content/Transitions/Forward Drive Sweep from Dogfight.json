@@ -278,7 +278,7 @@
         }
       },
       {
-        "question": "What grip control must be established on the opponent's far side before committing to the forward drive?",
+        "question": "Before committing to the forward drive from dogfight, what far-side control must you have?",
         "answer": "You must control the opponent's far hip, belt line, or far knee with your free hand before committing to the drive. This grip eliminates their primary base recovery option - the far leg post. Without this control, the opponent can simply step their far leg backward or laterally to create an unbreakable tripod base. The grip should be firm enough to prevent posting but positioned to allow you to maintain your own balance during the drive.",
         "answer_line": "Control far hip, belt, or far knee",
         "distractors": {
@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "Your opponent establishes a deep whizzer and begins sprawling their hips back as you initiate the forward drive - how do you adjust?",
+        "question": "They deep whizzer and sprawl as you start the forward drive from dogfight: how do you adjust?",
         "answer": "When the opponent sprawls against your forward drive, their defensive posture creates opportunities for chain attacks. Immediately assess whether to redirect into a Dogfight Sweep by changing your sweep angle laterally to attack their now-extended base, or duck under into a Deep Half Guard entry using their sprawl momentum to slide beneath them. The key is recognizing within one second that the forward drive has stalled and committing to the redirect rather than continuing to push against a sprawled opponent.",
         "answer_line": "Redirect angle or duck under",
         "distractors": {
@@ -334,7 +334,7 @@
         }
       },
       {
-        "question": "Your forward drive attempt stalls because the opponent posts their far leg wide - what chain attack do you transition to?",
+        "question": "Forward drive stalls as they post the far leg wide: what chain attack do you take?",
         "answer": "The opponent's wide far leg post opens two primary chain attacks. First, the Dogfight Sweep becomes available because their extended far leg is now vulnerable to being controlled and swept. Second, the wide post opens their hip angle, potentially exposing their back for a back take transition. Read which option is more available based on their upper body positioning - if their whizzer stays tight, attack the far leg with the Dogfight Sweep; if their whizzer loosens to maintain base, circle behind for the back take.",
         "answer_line": "Dogfight sweep or back take",
         "distractors": {
@@ -348,7 +348,7 @@
         }
       },
       {
-        "question": "How do you maintain your half guard hook during the forward drive to prevent the opponent from stepping over?",
+        "question": "How do you keep your half guard hook tight during the forward drive so they can't step over?",
         "answer": "Maintain active tension in your half guard hook by squeezing your knees together throughout the drive execution. The hook should control the opponent's inside leg at the knee or above, not at the ankle where it slips easily. If you feel the hook loosening during the drive, momentarily pause the forward pressure to re-secure by pinching your knees tighter before continuing. Losing the hook during the drive eliminates the structural base weakness that makes the diagonal angle effective.",
         "answer_line": "Pinch knees to keep hook tight",
         "distractors": {
@@ -491,7 +491,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is setting up the Forward Drive Sweep from Dogfight?",
+        "question": "Earliest cue your opponent is setting up the forward drive sweep from dogfight?",
         "answer": "The earliest cue is the opponent deepening their underhook significantly toward your far shoulder, combined with their free hand reaching across to control your far hip or knee. These grip changes precede the actual drive by one to two seconds and represent the setup phase where defensive intervention is most effective. A shallow underhook at the near hip cannot generate forward drive sweep mechanics, so the deepening of the grip is the critical early warning signal.",
         "answer_line": "Underhook deepens to far shoulder",
         "distractors": {
@@ -505,7 +505,7 @@
         }
       },
       {
-        "question": "Your opponent has established a deep underhook and begins loading forward pressure - what is your immediate defensive priority?",
+        "question": "They get a deep underhook and load forward pressure in dogfight: what is your first priority?",
         "answer": "Your immediate priority is establishing base stability through hip sprawl and far-leg posting before the opponent generates full momentum. Drop your hips back and widen your far leg simultaneously while increasing downward whizzer pressure. The goal is to create a stable tripod base that prevents toppling within the first half-second of their forward drive. Attempting to strip the underhook at this stage is too slow and risks losing the base battle entirely.",
         "answer_line": "Sprawl hips, post far leg wide",
         "distractors": {
@@ -519,7 +519,7 @@
         }
       },
       {
-        "question": "How does your whizzer positioning change when defending the forward drive versus defending a back take attempt?",
+        "question": "How does your whizzer differ when defending the forward drive versus a back take?",
         "answer": "Against the forward drive, your whizzer should pull downward and slightly backward to counteract the opponent's upward and forward driving force through the underhook. Against a back take, the whizzer must grip tighter and pull the opponent's arm across your body to prevent them from circling behind you. The directional pull is fundamentally different - anti-forward-drive whizzer pulls down to kill elevation, while anti-back-take whizzer pulls inward to prevent hip clearing.",
         "answer_line": "Pull down vs. pull arm across body",
         "distractors": {

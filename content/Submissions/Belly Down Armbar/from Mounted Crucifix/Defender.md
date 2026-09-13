@@ -82,7 +82,7 @@ description: "Defend and escape the belly down armbar from mounted crucifix. Rec
     },
     {
       "@type": "Question",
-      "name": "Why is the transition phase the critical window for defense rather than after the belly down position is established?",
+      "name": "Why defend the mounted crucifix armbar during the rotation rather than after belly down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the attacker must release or adjust their leg entanglement from the crucifix to rotate prone, creating a brief window where arm control is loosened. Once belly down is fully established with hips past the shoulder, wide base, and wrist secured, the attacker's mechanical advantage through hip extension is overwhelming—their posterior chain muscles against your bicep is not a winnable strength contest. Defending the transition prevents the position from being established rather than trying to escape an already dominant finishing position."

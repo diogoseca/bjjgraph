@@ -56,7 +56,7 @@ description: "Learn to prevent and counter the Harness Escape to Half Guard from
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that indicates your opponent is about to attempt this specific escape?",
+      "name": "Holding the harness: what is the earliest tactile cue they are starting the half guard escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent establishing a two-on-one grip on your choking arm—both of their hands gripping your wrist and elbow area simultaneously. This is the mandatory first step of the escape because they cannot safely move their hips without neutralizing the choke threat first. When you feel both hands commit to your choking arm, immediately increase forward pressure and begin re-positioning your hooks to deny the hip escape that will follow within seconds."
@@ -64,7 +64,7 @@ description: "Learn to prevent and counter the Harness Escape to Half Guard from
     },
     {
       "@type": "Question",
-      "name": "Your opponent has cleared your bottom hook and created a 30-degree angle—should you fight to recover back control or transition to mount?",
+      "name": "Harness top: they cleared a hook and made 30 degrees. Fight to recover the back or take mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At 30 degrees with one hook cleared, you are at the critical decision point. If your harness grip remains tight and your top hook is still engaged, fight to recover: drive your chest forward, re-insert the bottom hook, and collapse their angle with hip pressure. However, if your grip has been significantly weakened by their two-on-one control and the angle is increasing, begin preparing the mount transition. The deciding factor is grip integrity—strong grip means recover, compromised grip means transition to mount before you lose everything."
@@ -72,7 +72,7 @@ description: "Learn to prevent and counter the Harness Escape to Half Guard from
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your hook management when you feel the opponent beginning to push your bottom hook?",
+      "name": "Holding the harness: how do you manage your bottom hook when they start pushing it off?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you feel pressure on your bottom hook, do not simply resist with leg strength—this becomes an energy war you may lose. Instead, actively re-position the hook by pulling your heel tighter toward your body and driving your instep deeper into their thigh. Simultaneously, increase your top hook engagement and drive forward chest pressure to make it harder for them to create the space needed to clear the hook. If the hook is cleared despite your efforts, immediately follow with your hips to prevent them from creating the diagonal angle."

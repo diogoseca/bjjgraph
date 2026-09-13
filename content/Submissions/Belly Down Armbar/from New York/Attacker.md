@@ -76,7 +76,7 @@ description: "Execute the belly down armbar from New York rubber guard. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structure does the belly down armbar from New York primarily attack and why is the belly down position particularly dangerous for this target?",
+      "name": "Which joint does the belly down armbar attack, and why is belly down so dangerous for it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary target is the elbow joint, specifically hyperextending it to stress the ulnar collateral ligament and joint capsule. The belly down position is particularly dangerous because the prone orientation creates a mechanical advantage ratio exceeding 5:1 against the elbow joint. Unlike a standard supine armbar where the attacker must lift their hips against gravity, the belly down position allows gravity to assist the extension force, meaning even small hip elevations generate significant hyperextension pressure. This amplified leverage means damage can occur much faster than practitioners expect."
@@ -84,7 +84,7 @@ description: "Execute the belly down armbar from New York rubber guard. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts pulling their trapped elbow back toward their hip during the transition from overhook to leg clamp - what adjustment prevents the escape?",
+      "name": "They retract the trapped elbow as you shift from overhook to leg clamp—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not chase the retracting arm. Instead, maintain the deep overhook pressure and use your leg that was crossing their back to immediately hook over their shoulder, creating a secondary barrier to extraction. If their arm is partially extracted, transition to a triangle setup since their arm withdrawal creates the inside position needed for the triangle lock. If the overhook is still deep enough, re-consolidate New York control and wait for a better opening rather than forcing a compromised armbar attempt."
@@ -92,7 +92,7 @@ description: "Execute the belly down armbar from New York rubber guard. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What is the correct grip configuration on the opponent's wrist during the belly down finish and why does it matter?",
+      "name": "What wrist grip do you use for the belly down finish, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a two-on-one grip with both hands wrapping the wrist, thumbs pointing toward the opponent's fingers and palms overlapping around the wrist. Pull the wrist tight against your chest so it maintains contact with your sternum throughout the rotation. This grip configuration matters because it prevents the opponent from bending their elbow to relieve hyperextension pressure. A single-hand grip or a loose two-hand grip allows enough wrist rotation for the opponent to turn their arm and find extraction angles during the belly down rotation."
@@ -100,7 +100,7 @@ description: "Execute the belly down armbar from New York rubber guard. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands together to defend the arm extension after you have completed the belly down rotation - what is your finishing strategy?",
+      "name": "Your opponent clasps their hands after you complete the belly down rotation—how do you finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The belly down position makes hand clasping a delay rather than an escape. Maintain patient position and use small incremental hip bridges to gradually stress the grip until it breaks. Alternatively, use one hand to peel the clasping fingers while maintaining hip pressure with the other hand controlling the wrist. You can also walk your hips slightly higher toward the opponent's shoulder to increase the lever angle, which multiplies force against the clasped grip without requiring additional strength. Never rush or jerk against a clasped grip as this risks injury."
@@ -108,7 +108,7 @@ description: "Execute the belly down armbar from New York rubber guard. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What is the critical fulcrum point for the belly down armbar finish and how do you verify it is correctly positioned?",
+      "name": "What is the fulcrum for the belly down armbar finish, and how do you check its placement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical fulcrum is the line of your hip bones pressing against the back of the opponent's elbow. Verify correct positioning by feeling the bony point of their elbow directly against your hip crease before initiating finishing pressure. If the elbow is too high (toward your waist), the lever is inefficient and the opponent can resist. If too low (toward your thighs), you risk the arm slipping free during extension. The correct position is confirmed when a very small hip bridge produces immediate and clear pressure on the opponent's elbow joint."
@@ -116,7 +116,7 @@ description: "Execute the belly down armbar from New York rubber guard. Step-by-
     },
     {
       "@type": "Question",
-      "name": "During the belly down rotation, your opponent attempts a hitchhiker escape by rotating their thumb toward the mat - how do you counter this?",
+      "name": "During the belly down rotation they hitchhiker, thumb toward the mat—how do you counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their rotation by adjusting your hip angle to stay perpendicular to their upper arm rather than their body. Squeeze your knees tighter to prevent the arm from rotating within your thigh clamp. The belly down position actually makes the hitchhiker significantly less effective than against a standard supine armbar because your body weight pins their shoulder, preventing the full body rotation the hitchhiker escape requires. If they persist, walk your hips slightly in the direction of their rotation to re-center the elbow against your hip fulcrum."

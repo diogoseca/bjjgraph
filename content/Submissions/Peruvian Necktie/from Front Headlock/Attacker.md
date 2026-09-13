@@ -76,7 +76,7 @@ description: "Learn to attack with the Peruvian Necktie from front headlock. Ste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Peruvian Necktie attack and how does the leg contribute to the choking mechanism?",
+      "name": "What does the Peruvian Necktie attack, and how does the leg add to the choking mechanism?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Peruvian Necktie primarily attacks both carotid arteries for a bilateral blood choke. The choking forearm compresses the near-side carotid, while the opponent's own trapped arm and shoulder compress the far-side carotid. The leg thrown over the back of the head acts as a force multiplier — it drives the opponent's head downward into the forearm and prevents them from posturing to relieve pressure. Without the leg, the choke relies solely on arm strength; with the leg, your entire body structure contributes to the compression."
@@ -84,7 +84,7 @@ description: "Learn to attack with the Peruvian Necktie from front headlock. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps their posture low and chin tucked while you have front headlock — how does this defensive posture actually set up the Peruvian Necktie?",
+      "name": "How does a low posture with tucked chin in front headlock set up the Peruvian Necktie?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A low posture with chin tucked is the standard defense against guillotines from front headlock, but it is precisely the posture that makes the Peruvian Necktie available. The low head position means the opponent cannot posture away when you throw the leg over, and their bent-forward body angle creates the neck exposure needed for the forearm to cross under the chin. By defending the guillotine with this posture, they unknowingly present the ideal body position for the necktie setup. This is why the Peruvian Necktie is such an effective chain from guillotine threats."
@@ -92,7 +92,7 @@ description: "Learn to attack with the Peruvian Necktie from front headlock. Ste
     },
     {
       "@type": "Question",
-      "name": "Why must you sit through at a 45-degree angle rather than straight back when finishing the Peruvian Necktie?",
+      "name": "Why sit through at 45 degrees rather than straight back to finish the Peruvian Necktie?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sitting at a 45-degree angle away from the trapped arm side creates opposing force vectors that maximize carotid compression. Your grip pulls the opponent's head toward your hip in one direction while the leg pushes their neck in the opposite direction. Sitting straight back allows the opponent to follow your movement and relieves the stretch across their neck. The 45-degree angle also positions your forearm optimally across the carotid rather than against the trachea, producing a cleaner blood choke with less discomfort but faster unconsciousness."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Peruvian Necktie from front headlock. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stripping your gable grip with both hands during the setup — what adjustment prevents escape and what opportunity does their grip fight create?",
+      "name": "They strip your gable grip two-handed; what adjustment works and what does it open up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent commits both hands to fighting your gable grip, they have removed both posting hands from the mat, eliminating their base entirely. First, try switching from gable grip to S-grip or re-locking from a different angle. If the grip fight is intense, recognize that their compromised base creates other opportunities — you can flatten them to the mat and transition to side control, take the back since they cannot frame against your movement, or switch to an anaconda or darce setup where the arm position they created by reaching for your hands actually assists the arm-in choke entry."

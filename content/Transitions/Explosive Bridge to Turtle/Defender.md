@@ -56,7 +56,7 @@ description: "How to defend against Explosive Bridge to Turtle in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is preparing an explosive bridge from mounted crucifix bottom?",
+      "name": "Holding mounted crucifix, what is the earliest cue they are loading an explosive bridge?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are foot positioning changes - specifically, the bottom player driving their heels close to their buttocks and digging toes into the mat to load their legs for explosive power. Additional indicators include subtle hip adjustments testing bridge angles, chin tucking with shoulder elevation for neck protection, and a pause in active resistance suggesting energy conservation for a single committed effort. Recognizing these pre-bridge signals gives you time to preemptively adjust weight distribution before the explosion."
@@ -64,7 +64,7 @@ description: "How to defend against Explosive Bridge to Turtle in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent's bridge succeeds in creating space but their arm is not yet fully extracted - what is your optimal response?",
+      "name": "Their crucifix bridge made space but the arm isn't out yet: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-squeeze your knees on the partially freed arm while driving your weight back down onto their torso. The arm extraction window is brief - if the bridge disrupted your balance but the arm is still partially trapped, aggressively re-clamping your knees can re-secure the crucifix before they complete extraction. Simultaneously adjust your hips to re-center your weight over their chest. If the arm does come free despite this effort, immediately transition to back control rather than attempting to re-trap the arm."
@@ -72,7 +72,7 @@ description: "How to defend against Explosive Bridge to Turtle in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is flowing to back control often preferable to fighting for mounted crucifix re-establishment during a partially successful escape?",
+      "name": "Why follow the roll to back control instead of refighting for mounted crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the escape generates sufficient momentum for arm extraction and rotation, the physics favor the escaping player - their rotational momentum is difficult to reverse without releasing control points. Fighting against this momentum wastes your energy and risks losing all control. Conversely, following their rotation into back control uses their movement to assist your transition, maintains chest-to-back contact throughout, and preserves a dominant position worth 4 points. Back control offers comparable submission opportunities while being a natural continuation of the escape's trajectory."
@@ -80,7 +80,7 @@ description: "How to defend against Explosive Bridge to Turtle in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when you detect pre-bridge indicators from the bottom player?",
+      "name": "Holding mounted crucifix, how do you shift your weight once you feel pre-bridge cues?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift weight forward and downward by driving your chest onto their upper chest and face area while sprawling your hips down toward the mat. This creates a heavy, low center of gravity that is extremely difficult to displace with a bridge. The forward angle directs their bridge force into the mat rather than lifting you vertically. Simultaneously tighten knee squeeze on trapped arms to prevent any extraction. Avoid the mistake of posting with hands, which sacrifices arm control for balance that should come from hip and chest positioning."
@@ -88,7 +88,7 @@ description: "How to defend against Explosive Bridge to Turtle in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent fakes a bridge in one direction then explosively commits the opposite way - how do you counter this feint?",
+      "name": "They fake a bridge one way then explode the other: how do you counter the feint?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key is not overcommitting your weight to counter the initial fake. Instead of shifting laterally to block the first direction, maintain centered weight distribution with forward pressure. React to the fake by dropping heavier through your center rather than chasing their direction. When the real bridge comes, your centered base can absorb force from any direction. Advanced practitioners learn to feel the difference between a committed bridge and a feint through the quality of hip engagement - a fake typically involves less full-body commitment than a genuine explosive attempt."

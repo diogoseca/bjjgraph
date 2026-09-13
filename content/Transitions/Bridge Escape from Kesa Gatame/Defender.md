@@ -72,7 +72,7 @@ description: "Defend against the bridge escape from Kesa Gatame. Learn to recogn
     },
     {
       "@type": "Question",
-      "name": "The bottom player bridges successfully and starts turning toward you—how do you capitalize on their movement?",
+      "name": "They bridge and start turning toward you in kesa gatame - how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their rotation as an opportunity to advance to mount. As they bridge and turn their hips toward you, their movement creates a natural pathway for you to step your far leg over their body. Swing your leg over while maintaining head control, settling into mount as their rotation brings their hips underneath you. This converts their escape attempt into a positional advancement, and their own bridge momentum assists the transition rather than hindering it."

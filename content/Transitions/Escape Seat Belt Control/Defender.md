@@ -56,7 +56,7 @@ description: "Learn to maintain seat belt back control against escape attempts. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your immediate response when you feel the bottom player establish a two-on-one grip on your over-shoulder arm?",
+      "name": "They get a two-on-one on your over-shoulder arm: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tighten your under-arm grip and pull it deeper across the opponent's body while increasing chest pressure. Simultaneously, use the threatened over-arm to attempt a choke by driving your forearm toward their neck. This forces the bottom player to choose between continuing the grip break or defending the neck. If they maintain the grip break, switch to an alternative grip configuration such as wrist-on-wrist or transfer to grabbing their far shoulder."

@@ -543,5 +543,21 @@
       "duration": 79,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Leg Entanglement applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "leg entanglement",
+      "ashi",
+      "knee line",
+      "kneeline",
+      "heel hook",
+      "kneebar",
+      "ankle lock",
+      "toe hold",
+      "leg lock"
+    ],
+    "families": []
+  }
 }

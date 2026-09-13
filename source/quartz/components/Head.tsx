@@ -1,5 +1,5 @@
 import { i18n } from "../i18n"
-import { FullSlug, joinSegments, pathToRoot } from "../util/path"
+import { FullSlug, joinSegments, pathToRoot, simplifySlug } from "../util/path"
 import { JSResourceToScriptElement } from "../util/resources"
 import { googleFontHref } from "../util/theme"
 import { escapeScriptContent } from "../util/escape"
@@ -20,7 +20,9 @@ export default (() => {
 
     const iconPath = joinSegments(baseDir, "static/icon.png")
     const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
-    const canonicalUrl = cfg.baseUrl ? `https://${cfg.baseUrl}/${fileData.slug}` : undefined
+    const canonicalUrl = cfg.baseUrl
+      ? `https://${cfg.baseUrl}/${simplifySlug(fileData.slug!) === "/" ? "" : simplifySlug(fileData.slug!)}`
+      : undefined
 
     // Opt-out of indexing, declared per page in frontmatter (`noindex: true`).
     //
@@ -44,7 +46,7 @@ export default (() => {
       "@type": "Organization",
       name: "BJJ Graph",
       description:
-        "Comprehensive Brazilian Jiu-Jitsu knowledge graph and state machine covering 90+ positions, 70+ transitions, and 50+ submissions",
+        "Free Brazilian jiu-jitsu study app with an interactive technique map, flashcards, and simulated rolls",
       url: `https://${cfg.baseUrl}`,
       logo: `https://${cfg.baseUrl}/static/icon.png`,
       sameAs: ["https://github.com/diogoseca/bjjgraph"],

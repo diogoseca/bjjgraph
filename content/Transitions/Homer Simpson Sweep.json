@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "If your opponent successfully bases and prevents the Homer Simpson Sweep, what are your follow-up options?",
+        "question": "Your Homer Simpson sweep is based out: what are your follow-up options?",
         "answer": "The primary chain options are the waiter sweep if the opponent posts their weight backward to resist the forward drive, the rolling back take if the opponent turns to face you during the defense, and the electric chair threat if you still have lockdown control of the near leg. You can also retreat to deep half guard to reset by pulling the opponent back down with your underhook. Never remain stuck at the midpoint of the sweep - immediately transition to an alternative attack or reset to deep half.",
         "answer_line": "Waiter sweep or back take",
         "distractors": {
@@ -366,7 +366,7 @@
         }
       },
       {
-        "question": "What distinguishes the Homer Simpson Sweep from the Waiter Sweep in terms of sweep direction and mechanics?",
+        "question": "How do the Homer Simpson and waiter sweeps differ in direction and mechanics?",
         "answer": "The Homer Simpson Sweep drives directly forward through the opponent's centerline using a come-up motion with head and shoulder contact, ending in mount. The waiter sweep redirects the opponent laterally by elevating the hips and pushing the far leg sideways over the bottom player's body. The Homer Simpson requires an over-the-back grip and forward hip drive, while the waiter sweep requires hip elevation and a push-pull mechanism. They complement each other because defending one exposes the practitioner to the other.",
         "answer_line": "Forward drive vs lateral hip lift",
         "distractors": {
@@ -508,7 +508,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest recognition cues that a Homer Simpson Sweep is being initiated rather than a waiter sweep?",
+        "question": "What early cues show a Homer Simpson sweep rather than a waiter sweep?",
         "answer": "The Homer Simpson Sweep is signaled by the bottom player reaching their free hand over your back to establish a belt or waistband grip, combined with their feet planting flat on the mat for forward driving power. The waiter sweep setup involves the bottom player's hips elevating laterally with their free hand gripping your far knee or pants rather than reaching over your back. The over-the-back grip and flat foot plant are the definitive indicators of Homer Simpson intent.",
         "answer_line": "Over-back grip + feet planted",
         "distractors": {
@@ -564,7 +564,7 @@
         }
       },
       {
-        "question": "Your opponent begins the Homer Simpson come-up but you feel their underhook loosening - how do you exploit this?",
+        "question": "Their underhook loosens during the Homer Simpson come-up: how do you exploit it?",
         "answer": "A loosening underhook during the come-up is a critical defensive opportunity. Immediately drive your crossface pressure harder to flatten them while simultaneously circling your far knee upward and back to extract the trapped leg from the weakened underhook. The extraction should be a smooth circular motion - knee up, back, then down and out - rather than a straight pull. Complete the extraction to transition to half guard top or side control before the bottom player can re-secure the underhook.",
         "answer_line": "Crossface harder, extract knee",
         "distractors": {

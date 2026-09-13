@@ -56,7 +56,7 @@ description: "Master the defensive perspective against RDLR to Crab Ride in BJJ.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate an RDLR player is setting up a crab ride entry rather than other RDLR attacks?",
+      "name": "Earliest cues that an RDLR player is entering crab ride rather than another attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key distinguishing cues are hip elevation combined with the far leg releasing its frame on your near hip. While waiter sweeps and kiss of the dragon also use hip elevation, the far leg release specifically indicates commitment to threading underneath you rather than executing a direct sweep. Additionally, the ankle grip pulling strongly across their centerline and their shoulders beginning to rotate toward the mat on the hook side confirm the inversion pathway to crab ride rather than other RDLR offensive options."
@@ -64,7 +64,7 @@ description: "Master the defensive perspective against RDLR to Crab Ride in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your opponent has initiated the inversion and is threading underneath you—what is your immediate defensive priority?",
+      "name": "They have committed to the inversion and are threading under you — first defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the inversion is committed, your immediate priority shifts from prevention to damage control. Drive your hips down hard while sprawling forward to compress the available space and slow or stall the inversion. Simultaneously, address the hook by working to strip it before they can emerge on the far side. If they complete the thread, your priority becomes preventing the crab ride hook insertion by keeping your near-side hip tight to the mat and turning toward them before they can establish perpendicular control."
@@ -72,7 +72,7 @@ description: "Master the defensive perspective against RDLR to Crab Ride in BJJ.
     },
     {
       "@type": "Question",
-      "name": "The RDLR player has partially established crab ride but hasn't secured upper body control yet—how do you escape?",
+      "name": "They have partial crab ride but no upper body control yet — how do you escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a critical escape window before full consolidation. Immediately turn your shoulders toward the attacker rather than away, which prevents them from establishing the perpendicular chest pressure that completes crab ride. Simultaneously work to strip the single hook by cupping their ankle and pushing it toward the mat while driving your hip to the ground. The combination of turning in and hook stripping creates the space to sit through to guard recovery before they can add upper body control. Speed is essential—this window closes within two to three seconds."
@@ -88,7 +88,7 @@ description: "Master the defensive perspective against RDLR to Crab Ride in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your ankle grip is being pulled strongly across the attacker's centerline from RDLR—what defensive options do you have?",
+      "name": "They pull your ankle hard across their centerline from RDLR — what are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, fight the grip immediately with a two-on-one break using your same-side hand and opposite hand to peel their fingers or redirect their wrist. If the grip is too deep to break cleanly, backstep your hook-side leg away from the pull while widening your base to resist the directional force. As a third option, accept the pull direction but drop your hips low and sprawl in the same direction, converting their pull into your pressure and eliminating the space they need for inversion. Never remain static when your ankle is being controlled—address it within two seconds or concede the positional advantage."

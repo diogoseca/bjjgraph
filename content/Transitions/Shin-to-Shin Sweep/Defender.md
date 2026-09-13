@@ -72,7 +72,7 @@ description: "Learn to defend and counter the Shin-to-Shin Sweep in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent attempts the sweep and you post your hand to stop it — what follow-up attack should you expect?",
+      "name": "You post your hand to stop the shin-to-shin sweep — what follow-up attack should you expect?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Expect an arm drag on your posted hand. The guard player will redirect their sleeve grip or free hand to pull your posted arm across your body, eliminating the post and creating a rotational off-balance. This simultaneously opens back take opportunities as you turn to recover the dragged arm. To counter, post with a bent arm rather than a straight arm, keeping your elbow close to your body and your weight back so the arm drag lacks the leverage to rotate you."

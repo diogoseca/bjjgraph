@@ -233,7 +233,7 @@
         }
       },
       {
-        "question": "Your opponent is in a low, heavy combat base with hips glued to the mat - should you attempt the sweep?",
+        "question": "They hold a low, heavy combat base with hips on the mat: should you try the Ringworm sweep?",
         "answer": "No - the sweep fails against a low, heavy base, so first force the opponent to elevate using triangle setups or collar drags. The sweep requires an elevated center of gravity to generate sufficient rotational momentum; when the opponent stays low and heavy, the leverage from the hip drive and lapel pull is insufficient to topple them. Use those secondary attacks to force them to raise their base, then capitalize on the weight shift to execute the sweep.",
         "distractors": {
           "plausible": [
@@ -317,7 +317,7 @@
         }
       },
       {
-        "question": "When the opponent smashes forward with heavy pressure during your sweep attempt, what force redirection should you apply?",
+        "question": "They smash forward with heavy pressure during your Ringworm sweep: how do you redirect that force?",
         "answer": "Redirect their forward momentum into an omoplata entry by threading your leg over their driving shoulder while keeping the lapel grip intact. Their forward commitment actually loads the omoplata rotation for you, converting their counter-pressure into your submission setup. The key is recognizing the forward drive early enough to abandon the lateral sweep angle and redirect into the shoulder attack before they flatten you completely.",
         "answer_line": "Redirect into omoplata",
         "distractors": {
@@ -492,7 +492,7 @@
         }
       },
       {
-        "question": "You feel the sweep beginning and cannot prevent the off-balance - what is your emergency back defense?",
+        "question": "The Ringworm sweep is past the point of no return: what is your emergency back defense?",
         "answer": "Immediately spin toward the sweeping player rather than away from them during the fall. Turning toward them denies back exposure and prevents easy hook insertion. Post your hands as you land and establish frames to face the opponent, accepting the positional loss to half guard or scramble rather than conceding full back control. Your goal shifts from sweep prevention to back defense the moment you feel the point of no return.",
         "answer_line": "Spin toward the sweeper",
         "distractors": {
@@ -520,7 +520,7 @@
         }
       },
       {
-        "question": "Your opponent has secure Ringworm Guard but no secondary grips yet - what specific actions should you take?",
+        "question": "They have Ringworm Guard but no secondary grips yet: what specific actions do you take?",
         "answer": "This is the optimal window for defense. Immediately control their free hand by gripping their wrist or sleeve to prevent them from establishing the collar or sleeve grip that powers the sweep. Simultaneously, begin working to strip the lapel with your other hand while maintaining a low base. Without the secondary grip, the bottom player cannot generate the rotational pull needed for the sweep, buying you time to systematically address the wrap.",
         "answer_line": "Pin free hand, strip the lapel",
         "distractors": {

@@ -90,7 +90,7 @@ description: "How to execute Shin Shield Recovery in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What should you do if an opponent successfully smashes down your shin shield by driving their shoulder over your knee?",
+      "name": "They smash your shin shield by driving a shoulder over your knee; what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to alternative guard recovery options rather than fighting to re-establish the compromised shin shield. Best options include inverting underneath their pressure to enter deep half guard, switching to reverse half guard, or using their downward pressure to facilitate an Old School Sweep by sitting up and capturing their far arm. Attempting to maintain a collapsed shin shield is ineffective and wastes energy."

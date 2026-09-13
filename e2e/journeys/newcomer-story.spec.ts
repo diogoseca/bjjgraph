@@ -34,12 +34,17 @@ test("newcomer's first session: question → execute → pane → roam → Chall
 
   // ── 2. the state introduces itself and asks exactly one question ──
   await expect(page.locator("[data-landcard]"), "identity card").toBeVisible();
-  // v1.101.1: a landing card has no header block — the name and the side are on the graph, and
-  // the familiarity marker rides the foot beside `More` and the capture `+`.
+  // v1.175.0: the graph owns identity; the deck count is a quiet line in the card's corner.
   await expect(page.locator("[data-land-id]")).toHaveCount(0);
+  await expect(page.locator(".ng-landmore [data-land-count]")).toHaveCount(0);
+  const idText = (await page.locator("[data-landcard] [data-land-corner] [data-land-count]").textContent()) || "";
+  // Since v1.181.0 the visible counter is the card's page number, not mastery.
+  expect(idText, "the deck opens on its first card").toMatch(/^1\/\d+$/);
+  await expect(page.locator("[data-landcard] [data-land-count]"),
+    "nothing answered yet").toHaveAttribute("aria-label", /; 0 answered this visit$/);
+  await expect(page.locator("[data-landcard] [data-land-count]"),
+    "nothing proven yet").toHaveAttribute("data-land-count", /^0\/\d+$/);
   await expect(page.locator("[data-land-q]"), "one question").toHaveCount(1);
-  const idText = (await page.locator("[data-land-foot]").textContent()) || "";
-  expect(idText, "marked as new to them").toContain("○");
 
   // ── 3. answering right raises the odds and buys clock ──
   const target = await page.evaluate(() => {
@@ -86,9 +91,10 @@ test("newcomer's first session: question → execute → pane → roam → Chall
     await page.evaluate(() => !!(window as any).__neural.paused),
     "roll live",
   ).toBe(false);
-  // the pill is deleted (v1.99.0): "study this state" lives on the landing card's chip,
-  // which opens the pane straight onto Last rolls with the current row's deck open
-  await page.locator("[data-land-count]").click();
+  // "Study this state" is the pane's Last rolls tab (v1.175.0 — the corner count opens nothing);
+  // the same rail pane-history.spec.ts drives.
+  await page.locator(".ng-logo").click();
+  await page.locator('.ng-learning-nav [data-view="history"]').click();
   expect(
     await page.evaluate(() => !!(window as any).__neural.paused),
     "the pane stopped it",
@@ -98,6 +104,9 @@ test("newcomer's first session: question → execute → pane → roam → Chall
     await page.locator("[data-hist]").count(),
     "a row per state visited",
   ).toBeGreaterThan(1);
+  await expect(page.locator("[data-hist-current]"), "the latest roll row is focused").toBeVisible();
+  // a row opens its deck on click (the chip used to open it for you; v1.175.0 retired the chip)
+  await page.locator("[data-hist-current]").click();
   const deck = page.locator("[data-mini-deck]").first();
   await expect(deck.locator("[data-mini-q]"), "question").toBeVisible();
   await deck.locator("[data-mini-reveal]").click();
@@ -117,7 +126,9 @@ test("newcomer's first session: question → execute → pane → roam → Chall
   const elsewhere = await page.evaluate(() => {
     const a = (window as any).__neural;
     for (const n of a.nodes) {
-      if (n.ty !== "positions" || n.idx === a.currentPos) continue;
+      // Retired control-position aliases redirect into submissions (v1.176.0);
+      // this part of the story is about roaming to a normal, available position.
+      if (n.ty !== "positions" || n.idx === a.currentPos || !a.rsAllows(n)) continue;
       if (a.adj[n.idx].some((k: number) => a.nodes[k].ty !== "positions"))
         return n.idx;
     }

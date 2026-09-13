@@ -241,7 +241,7 @@
         }
       },
       {
-        "question": "Your opponent's hips suddenly drop to mat level while maintaining gogoplata - what opportunity does this create?",
+        "question": "Caught in gogoplata, their hips drop to the mat — what opportunity does that create?",
         "answer": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This creates a window to stack forward with pressure, driving weight into them while working to extract your head as the submission loosens. The compromised angle means less threat during your extraction attempt.",
         "answer_line": "Stack forward, extract head",
         "distractors": {
@@ -297,7 +297,7 @@
         }
       },
       {
-        "question": "Your opponent attempts to transition to triangle as you move your head laterally during extraction - how do you respond?",
+        "question": "They chase a triangle as you move your head laterally out of the gogoplata — response?",
         "answer": "Keep your chin tucked and shoulder tight against their leg during the extraction to prevent triangle entry. If the triangle threatens, immediately posture up and address the new submission using standard triangle defense. The lateral movement should be controlled to minimize triangle exposure.",
         "answer_line": "Tuck chin, shoulder tight to leg",
         "distractors": {
@@ -325,7 +325,7 @@
         }
       },
       {
-        "question": "Your opponent releases one hand from their foot to grab your wrist during the escape - how do you exploit this?",
+        "question": "They release a hand from their foot to grab your wrist in gogoplata — how do you exploit it?",
         "answer": "When they release hand control on their own foot, the foot-behind-head anchor weakens significantly. Immediately shift your focus to pushing the now-unsupported foot over your head while using your free hand to maintain hip pressure. Their grip on your wrist is less dangerous than a fully locked gogoplata configuration.",
         "answer_line": "Push their now-free foot over",
         "distractors": {
@@ -339,7 +339,7 @@
         }
       },
       {
-        "question": "What is the critical difference between the stack and extract variant and the standard escape sequence?",
+        "question": "How does the stack-and-extract gogoplata escape differ from the standard sequence?",
         "answer": "The stack and extract variant uses forward weight pressure combined with hip driving when the opponent's hips have already dropped to mat level, creating a compression-based extraction. The standard sequence relies on lateral head movement and systematic foot removal without stacking. The stack variant requires compromised hip elevation to be effective.",
         "answer_line": "Stack works only if hips dropped",
         "distractors": {
@@ -461,7 +461,7 @@
         }
       },
       {
-        "question": "Your opponent places both hands on your hips and begins pressing downward - what does this indicate and how should you respond?",
+        "question": "They place both hands on your hips and press down — what does that mean and how do you answer?",
         "answer": "Both hands on hips indicates a systematic leg extraction attempt rather than panicked struggling. Respond by immediately engaging your core to resist the downward pressure, pulling your foot deeper behind their head with both hands, and using your non-choking leg to post on the mat for additional hip elevation support. Their committed hand position means they cannot address the foot behind their head simultaneously.",
         "answer_line": "Resist, pull foot deeper, post leg",
         "distractors": {
@@ -503,7 +503,7 @@
         }
       },
       {
-        "question": "Your opponent successfully pushes your foot over their head with one hand - what is your immediate response?",
+        "question": "They push your gogoplata foot over their head with one hand — your immediate response?",
         "answer": "Once the foot clears their head, the gogoplata is structurally broken and cannot be recovered from this position. Immediately switch to plan B: if their head is still between your legs with posture broken, lock up a triangle. If they are posturing away, recover closed guard by bringing both legs inside and locking your ankles. Do not waste time trying to re-establish the foot behind their head as the momentum has shifted.",
         "answer_line": "Switch to triangle or closed guard",
         "distractors": {

@@ -259,7 +259,7 @@
         }
       },
       {
-        "question": "Your opponent drives forward aggressively as you attempt to establish lockdown - what immediate adjustment do you make?",
+        "question": "They drive forward as you set lockdown for the Zombie from New York — what's your adjustment?",
         "answer": "Immediately establish a strong near-side frame against their chest or shoulder to prevent being flattened. Shrimp your hips away from them to create space. If lockdown cannot be completed due to their pressure, abandon the Zombie attempt and transition to standard half guard retention with knee shield - a partial lockdown with no upper body control against a driving opponent leads to getting smashed.",
         "answer_line": "Frame, shrimp, bail to half guard",
         "distractors": {
@@ -301,7 +301,7 @@
         }
       },
       {
-        "question": "Your opponent creates distance by posting and backing away during your leg repositioning - how do you respond?",
+        "question": "They post and back away as you reposition your legs for the Zombie — how do you respond?",
         "answer": "Chase their retreating leg with your lockdown attempt, extending your legs to hook their calf before they achieve full separation. However, if they create substantial distance, do not overextend - this compromises your guard recovery. Instead, let them stand and immediately recover to open guard with feet on hips. From there you can re-engage with shin-to-shin or other guard entries rather than scrambling from a disadvantaged position.",
         "answer_line": "Chase calf, else recover open guard",
         "distractors": {
@@ -489,7 +489,7 @@
         }
       },
       {
-        "question": "Your opponent releases their overhook voluntarily as you begin extracting - what does this signal and how should you respond?",
+        "question": "Escaping New York, they release the overhook voluntarily — what does it signal and what do you do?",
         "answer": "A voluntary overhook release signals the bottom player is abandoning New York to transition to Zombie rather than fighting to maintain it. This is your cue that they are about to drop their leg for lockdown. Respond by immediately controlling their top knee with your free hand to prevent leg repositioning while driving forward with crossface pressure. Do not interpret their release as surrender - it is the beginning of their next attack.",
         "answer_line": "Control top knee, drive crossface",
         "distractors": {
@@ -503,7 +503,7 @@
         }
       },
       {
-        "question": "You feel the bottom player's leg dropping from your shoulder during extraction - what is the correct defensive priority?",
+        "question": "Escaping New York, you feel their leg drop off your shoulder — what's your defensive priority?",
         "answer": "Your immediate priority is preventing the lockdown from forming by controlling their dropping leg. Push their top knee toward the mat with your free hand while simultaneously driving your trapped leg straight and posting your base wide. If you can prevent the leg from hooking behind your calf, the lockdown cannot establish. This is a brief window - once their foot hooks your calf and their legs triangle, the lockdown is set and you must switch to top pressure defense instead.",
         "answer_line": "Push their knee, post base wide",
         "distractors": {
@@ -517,7 +517,7 @@
         }
       },
       {
-        "question": "The lockdown has already established despite your defense - what is the correct order of defensive priorities from Zombie top?",
+        "question": "The lockdown is set and you're in Zombie top — what order of defensive priorities is correct?",
         "answer": "First, establish crossface or heavy shoulder pressure to prevent them from turning to their side - a flat Zombie has minimal offensive power. Second, deny the underhook by keeping your shoulder forward and elbow tight, using whizzer if they begin threading their arm. Third, maintain wide base with your free leg posted to resist lockdown stretches and sweep attempts. Only after controlling their upper body and base should you begin working to systematically extract your trapped leg through posture and pressure.",
         "answer_line": "Crossface first, then extract leg",
         "distractors": {

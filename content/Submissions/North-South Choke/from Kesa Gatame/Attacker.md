@@ -84,7 +84,7 @@ description: "How to execute the North-South Choke from Kesa Gatame. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Why must the choking arm be threaded to maximum depth before initiating the rotation from Kesa Gatame?",
+      "name": "Why must the choking arm be fully threaded before you rotate from kesa gatame to north-south?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the arm is not deep enough before rotation begins, the rotational movement causes the arm to slide out from under the opponent's neck as your body pivots. You arrive in North-South without sufficient arm depth to compress the far-side carotid, and the choke will not finish regardless of how much sprawl pressure you apply. Re-threading from North-South is much harder than getting depth from Kesa Gatame where head control is already established."
@@ -92,7 +92,7 @@ description: "How to execute the North-South Choke from Kesa Gatame. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent defends the Americana by pinching their elbow tight to their ribs - how does this create an opening for the North-South Choke?",
+      "name": "How does your opponent tucking their elbow to defend the americana open the north-south choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent tucks their elbow to defend the Americana, they pull their arm away from blocking your choking arm's path under their neck. Their defensive posture also tends to flatten them onto their back with minimal framing, which is the ideal position for threading the choking arm deeper. The tight-elbow defense that stops the Americana is exactly the posture that enables the choke, creating a true dilemma where defending one attack opens the other."

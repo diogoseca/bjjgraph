@@ -82,7 +82,7 @@ description: "Master the guard pull from combat base bottom in BJJ. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent in combat base posts their hands on your hips to create distance — how do you adjust your guard pull approach?",
+      "name": "They post on your hips from combat base to make distance. How do you adjust your guard pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your feet to hook inside their elbows and push their arms outward, breaking their posting structure. Alternatively, control one posting wrist with your hand and perform a hip escape to the opposite side, eliminating the post on that side. Once one post is compromised, immediately pull them forward with your established grip and begin wrapping your legs. Remove posts one at a time rather than fighting both simultaneously, as splitting their base sequentially is far more effective than matching their structural strength directly."
@@ -90,7 +90,7 @@ description: "Master the guard pull from combat base bottom in BJJ. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "What are the primary grip configurations for setting up a guard pull from combat base bottom in the gi?",
+      "name": "Which gi grip setups work best for pulling guard from the bottom of combat base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two highest-percentage configurations are: first, cross-collar grip with same-side sleeve grip — the collar enables powerful posture breaking while the sleeve prevents the opponent from posting to resist; second, same-side collar and pant grip at the knee — the collar controls posture while the pant grip disrupts the opponent's base by manipulating their posted or planted leg. Both configurations use the principle of controlling upper and lower body simultaneously to compromise structural integrity."
@@ -98,7 +98,7 @@ description: "Master the guard pull from combat base bottom in BJJ. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a knee slice pass just as you are attempting to close your guard — what is your immediate response?",
+      "name": "They start a knee slice just as you try to close your guard. Immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the guard closure attempt and address the pass immediately. Frame your inside forearm against their slicing knee to prevent it from completing the pass. Simultaneously hip escape away from the passing direction to create space. Use your bottom leg to establish a knee shield between you and the opponent's torso. From knee shield half guard, you can either re-attempt guard closure or work the half guard game. Never continue a guard pull when an active pass is in progress — defensive priorities take precedence."
@@ -106,7 +106,7 @@ description: "Master the guard pull from combat base bottom in BJJ. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "What hip movement generates the most effective distance closure for wrapping your legs around the opponent?",
+      "name": "Which hip movement best closes distance to wrap your legs when pulling guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The diagonal hip escape toward the side of your primary grip creates the most effective distance closure. Unlike a straight backward hip escape that moves you away from the opponent, the diagonal escape angles your body approximately thirty degrees while bringing your hips underneath and closer to the opponent's waist. This movement simultaneously creates the wrapping angle needed for leg closure and reduces the distance between your hips and their waist. Follow the hip escape by walking your feet up their body from hip to lower rib level."
@@ -114,7 +114,7 @@ description: "Master the guard pull from combat base bottom in BJJ. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your collar grip and immediately drives their hips back to create distance — how do you prevent losing position?",
+      "name": "They strip your collar grip and drive their hips back. How do you avoid losing position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-establish connection through your feet by placing both feet on their hip bones, creating a frame that prevents them from backing away completely. With foot-on-hip control secured, reach for an alternative grip such as cross sleeve control, lapel wrap around their arm, or underhook if they lean forward. The critical principle is maintaining at least one point of contact at all times during the guard pull process. Your feet serve as the backup connection that allows you to continue working even when upper body grips are stripped."

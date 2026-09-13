@@ -96,7 +96,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the fundamental strategic error when attempting to pass worm guard with forward pressure while the lapel is still wrapped?",
+        "question": "Why is driving forward pressure into an intact worm guard lapel wrap a strategic error?",
         "answer": "Forward pressure into an active lapel wrap creates perfect mechanical leverage for the bottom player to execute sweeps. The lapel acts as a lever that amplifies any forward weight commitment, converting your passing energy directly into sweep momentum. The correct approach is to first address and neutralize the lapel entanglement through systematic grip stripping or leg extraction before applying any forward pressure.",
         "answer_line": "Pressuring before lapel is cleared",
         "distractors": {
@@ -124,7 +124,7 @@
         }
       },
       {
-        "question": "Your opponent has tight lapel control and you feel them starting to generate rotational momentum for a sweep - what adjustment do you make?",
+        "question": "Their worm guard lapel is tight and they start rotating for a sweep—what adjustment do you make?",
         "answer": "Immediately establish control of their far side collar or far shoulder to counter-act the rotation. Drop your base lower and widen your stance to increase stability. If rotation continues, step in the direction of the rotation to neutralize their momentum rather than fighting against it. Consider temporarily disengaging to reset your position rather than fighting through an active sweep attempt.",
         "answer_line": "Control far side, widen base",
         "distractors": {
@@ -152,7 +152,7 @@
         }
       },
       {
-        "question": "What is the correct sequence for addressing multiple layers of worm guard control (lapel wrap plus collar/sleeve grips)?",
+        "question": "Passing worm guard, how do you sequence breaking the lapel wrap and their collar and sleeve grips?",
         "answer": "Prioritize breaking one control system completely before addressing the other. Typically, start by either removing the lapel wrap or stripping the most threatening grip that's enabling their attacks. Attempting to address everything simultaneously divides your attention and allows them to maintain at least one strong control point. Once one system is cleared, the remaining grips become much easier to manage.",
         "answer_line": "Clear one control system fully",
         "distractors": {
@@ -166,7 +166,7 @@
         }
       },
       {
-        "question": "When is it appropriate to disengage and reset versus continuing to engage against a well-established worm guard?",
+        "question": "Against a well-established worm guard, when should you disengage and reset instead of engaging?",
         "answer": "Disengage and reset when you're caught in a sweep attempt you cannot counter, when the lapel control has been reinforced after a failed passing attempt, or when you find yourself in a stalemate burning excessive energy. However, complete disengagement allows them to reset and strengthen their guard structure. The ideal approach is maintaining engagement with strategic grips while systematically working through positional problems.",
         "answer_line": "Disengage when caught in sweep",
         "distractors": {
@@ -180,7 +180,7 @@
         }
       },
       {
-        "question": "How do you recognize when the lapel tension is broken enough to initiate traditional passing mechanics?",
+        "question": "How do you recognize that worm guard's lapel tension is broken enough to start passing?",
         "answer": "The lapel tension is sufficiently broken when you can move your trapped leg freely without feeling the pulling resistance that creates off-balancing leverage. Visual indicators include the lapel hanging slack rather than taut, and your leg moving independently of their hip movements. At this point, traditional passes like leg drag or toreando become viable because the mechanical connection between their lapel control and your movement is severed.",
         "answer_line": "Leg moves free, lapel goes slack",
         "distractors": {
@@ -428,7 +428,7 @@
         "transition": "Lapel Strip from Worm Guard",
         "attempt_probability": {
           "gi": 27,
-          "nogi": 0
+          "nogi": null
         }
       }
     ],
@@ -537,7 +537,7 @@
         "answer_line": "Feed lapel deep, wrap the shin"
       },
       {
-        "question": "Your opponent begins closing distance aggressively to initiate a smash pass - what adjustment do you make?",
+        "question": "In worm guard, your opponent closes distance for a smash pass—what adjustment do you make?",
         "answer": "Immediately engage your free leg to create frames against their hip or shoulder, pushing them back to optimal distance. If they continue advancing, extend your legs and use the lapel connection as a lever to off-balance them forward into a sweep opportunity. Never allow them to collapse distance without resistance, as close-range negates worm guard's off-balancing mechanics and enables smash passing sequences.",
         "answer_line": "Frame legs, push back to range",
         "distractors": {
@@ -565,7 +565,7 @@
         }
       },
       {
-        "question": "How should you adjust your hip angle when you feel the opponent trying to establish passing pressure?",
+        "question": "In worm guard, how should you adjust your hip angle as they build passing pressure?",
         "answer": "Continuously adjust hip angles relative to the opponent to create off-balancing forces. Move hips perpendicular, at angles, or in circular motions to generate momentum for sweeps and keep them off-balance. Static hip positioning makes your sweeps predictable and allows opponents to anchor their base. Dynamic hip movement is what transforms worm guard from a stalling position into an attacking platform.",
         "answer_line": "Keep hips moving, never static",
         "distractors": {
@@ -906,7 +906,7 @@
       "answer_line": "Lapel fed under leg onto your shin"
     },
     {
-      "question": "Why does constant lapel tension function as the load-bearing invariant of Worm Guard for both players?",
+      "question": "Why is constant lapel tension the load-bearing element of worm guard for both players?",
       "answer": "The lapel wrap only immobilizes the trapped leg while pulled taut; any slack opens the loop and degrades worm guard into ordinary open guard. For the bottom player, maintaining that tension preserves the entire control mechanism, while for the top player, creating slack is the doorway to freeing the leg and passing. This is why tension is the single variable both athletes fight over above all others — the position effectively lives or dies on whether the lapel stays tight around the trapped leg and the wrapping shin.",
       "distractors": {
         "plausible": [
@@ -948,7 +948,7 @@
       }
     },
     {
-      "question": "How does the secondary sleeve or pant grip complement the lapel wrap to complete the control structure?",
+      "question": "How does the secondary sleeve or pant grip complete worm guard's control structure?",
       "answer": "The lapel wrap alone controls one leg, but a second grip on the opponent's opposite-side sleeve or pant breaks their symmetry and denies them a stable, squared base. Together the two grips form a two-point control system that pins the trapped leg while preventing the top player from posturing up or generating passing pressure with the free side. Without the secondary grip the top player can post the uncontrolled side and begin stripping the lapel, so the configuration relies on both anchors working in tandem. This dual control is what elevates worm guard from a single-leg entanglement into a full guard system.",
       "answer_line": "Second grip denies a squared base",
       "distractors": {
@@ -976,7 +976,7 @@
       }
     },
     {
-      "question": "Why does closing distance and collapsing space fundamentally alter the balance of the Worm Guard exchange?",
+      "question": "Why does closing distance fundamentally alter the balance of the worm guard exchange?",
       "answer": "Worm Guard's off-balancing leverage depends on the lapel acting as a long lever across distance, so when the top player collapses space and smashes forward the lever arm shortens and the bottom player's sweeping mechanics lose much of their power. At close range the top player can begin to smash-pass and negate the lapel's ability to redirect their weight, whereas at optimal distance the bottom player retains the angles needed to off-balance. This is why distance management is a shared axis of the fight, with the bottom player framing to preserve range and the top player driving to eliminate it. The position's character shifts entirely depending on whether that distance is held or closed.",
       "answer_line": "Closing space shortens the lever",
       "distractors": {
@@ -990,7 +990,7 @@
       }
     },
     {
-      "question": "How does dynamic hip angle relative to the opponent govern the off-balancing potential in Worm Guard?",
+      "question": "How does the bottom player's hip angle govern off-balancing potential in worm guard?",
       "answer": "Even with the lapel locked, the direction and magnitude of off-balancing force depend on the bottom player's hip angle relative to the top player, typically kept perpendicular or slightly angled to maximize leverage. Static hips make any sweep predictable and let the top player anchor their base against a known vector, while continuously shifting hip angles create fresh off-balancing forces the top player must constantly re-address. The lapel linkage supplies the connection, but the hips supply the direction of attack, so the two must work together. This is why the position is an active platform rather than a static hold, with hip movement dictating where the top player's compromised base gets pulled.",
       "answer_line": "Moving hips redirect the pull",
       "distractors": {

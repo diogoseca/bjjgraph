@@ -84,7 +84,7 @@ description: "How to execute Russian Tie to Back Take in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Your opponent explosively pulls their controlled arm back while you have the Russian Tie established - how do you respond?",
+      "name": "They rip their arm back out of your Russian tie—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their backward pull by stepping forward and converting immediately to a single leg or ankle pick on the near leg. Their backward arm pull creates forward momentum and weight shift onto their heels that you can exploit for lower body attacks. If you still have partial grip, use the momentum to accelerate your circle rather than fighting the pull. The key is reading the pull early and flowing with it into a chain attack rather than fighting to re-establish the original control."
@@ -92,7 +92,7 @@ description: "How to execute Russian Tie to Back Take in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "At what exact point in the sequence should you release the wrist grip, and what happens if you release too early or too late?",
+      "name": "When exactly do you release the wrist grip in the Russian tie back take, and why then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release the wrist grip only when your hip has cleared their near hip and you are at a perpendicular angle, ready to shoot your arm under their far armpit for the first seat belt hook. Releasing too early, before achieving the perpendicular angle, allows the opponent to turn and face you since you lose the primary rotational control. Releasing too late delays your seat belt establishment, giving them time to begin defensive rotations or counter-grips that prevent you from consolidating the back position."
@@ -108,7 +108,7 @@ description: "How to execute Russian Tie to Back Take in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Your opponent turns hard into you during the circling phase and tries to establish a body lock - what is the critical defensive response?",
+      "name": "They turn into you during the circle and go for a body lock—what's the key response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately rotate your controlled-side shoulder internally and limp arm out of their grip attempt by dropping your weight and widening your base. Simultaneously insert a whizzer on their underhook side to prevent them from locking hands behind you. If they get the body lock before you can limp out, peel their hands apart using two-on-one grip breaks on the clasped hand. The critical timing window is recognizing the turn-in early and responding before they lock the body lock, because once locked it becomes a high-effectiveness counter."

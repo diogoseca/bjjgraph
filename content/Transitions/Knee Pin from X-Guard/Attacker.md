@@ -96,7 +96,7 @@ description: "Master the Knee Pin from X-Guard as the top player. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-pummels their inside hook as you attempt the knee pin - what is your immediate adjustment?",
+      "name": "Knee pin from X-guard: they re-pummel the inside hook—what is your immediate adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the hook recovers before the pin is established, immediately chain to an alternative pass such as a knee slice or long step rather than repeatedly forcing the pin. The opponent's focus on re-pummeling the hook creates a brief window where their attention is on hook recovery rather than sweep execution, making movement-based passes temporarily more effective."
@@ -112,7 +112,7 @@ description: "Master the Knee Pin from X-Guard as the top player. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "If your knee pin stalls with the hook partially collapsed, what follow-up technique offers the highest percentage?",
+      "name": "Knee pin stalls with the X-guard hook partly collapsed—what follow-up is highest percentage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A knee slice pass through the weakened hook structure offers the highest percentage follow-up because the partially collapsed inside hook can no longer generate full elevation, making the knee slice cut significantly easier. The opponent's compromised structure creates less resistance to the slice than a fully intact X-Guard would present."

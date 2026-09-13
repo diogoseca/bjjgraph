@@ -56,7 +56,7 @@ description: "Defend against the grip fight escape from your rear triangle top p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize the difference between a panicked escape attempt and a systematic grip fight from the bottom player?",
+      "name": "Holding a rear triangle, how do you tell a systematic grip fight from a panicked escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A panicked escape involves explosive, undirected movements like wild bridging, frantic arm pulling, or full-body thrashing without targeting specific control points. A systematic grip fight shows deliberate hand placement targeting your ankle-knee connection, burst-and-rest timing patterns, maintained chin protection throughout the escape attempt, and progressive small gains rather than all-or-nothing efforts. The systematic grip fight is far more dangerous and requires immediate defensive response, while panicked escapes often tire the opponent without achieving structural damage to your triangle."
@@ -64,7 +64,7 @@ description: "Defend against the grip fight escape from your rear triangle top p
     },
     {
       "@type": "Question",
-      "name": "What is your immediate response when you feel the bottom player's hand wrapping around your ankle at the lock point?",
+      "name": "Holding a rear triangle, they wrap your ankle at the lock point. Immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately squeeze your knees together to tighten the triangle lock and make the ankle harder to peel. Simultaneously use your nearest free hand to strip their grip by peeling their fingers off your ankle or pushing their wrist away from the connection point. If you cannot strip the grip immediately, increase choking pressure by angling your hips to force them to choose between maintaining the ankle grip and defending the choke. Speed of response is critical because once they establish a strong C-grip on your ankle, it becomes much harder to defend."
@@ -72,7 +72,7 @@ description: "Defend against the grip fight escape from your rear triangle top p
     },
     {
       "@type": "Question",
-      "name": "Your bottom player has loosened the ankle lock significantly. What adjustments do you make to maintain dominant position?",
+      "name": "Your rear triangle ankle lock is badly loosened. What adjustment keeps you dominant?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the ankle lock is loosened beyond recovery, do not waste energy trying to re-lock the triangle. Instead, immediately transition to standard back control by inserting your hooks and establishing a seatbelt grip while you still have back exposure. If hooks are already partially in, focus on securing full back control before the opponent can escape to turtle. Alternatively, if the opponent's arm is still partially trapped, transition to crucifix or armbar before they fully extract it. The key decision is recognizing the point of no return for the triangle and transitioning before you lose all positional advantage."
@@ -80,7 +80,7 @@ description: "Defend against the grip fight escape from your rear triangle top p
     },
     {
       "@type": "Question",
-      "name": "How do you balance maintaining the triangle choke threat while defending against the grip fight escape?",
+      "name": "How do you balance rear triangle choke pressure with defending the ankle grip fight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Alternate between offensive choke pressure and defensive grip protection in a rhythmic cycle. When you feel the opponent reaching for your ankle, briefly shift focus to stripping their grip or tightening the lock, then immediately return to choke pressure. The opponent cannot effectively fight your ankle while defending a tight choke, so maintaining high choking pressure is actually your best defense against the grip fight. Use your hands to cycle between attacking the opponent's neck and defending your ankle connection, never committing fully to one at the expense of the other."

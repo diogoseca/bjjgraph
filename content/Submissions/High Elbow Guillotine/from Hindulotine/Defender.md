@@ -58,7 +58,7 @@ description: "Defend the High Elbow Guillotine from Hindulotine. Recognize eleva
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the High Elbow Guillotine from Hindulotine is being set up rather than a standard Hindulotine finish?",
+      "name": "What tells you a high elbow guillotine is coming rather than a standard Hindulotine finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key indicator is the attacker's choking elbow beginning to rise above your shoulder line while they reinforce their grip with their free hand. You will feel the pressure angle change from lateral to a steeper downward compression. The attacker's hips may rotate further perpendicular to your spine, and their free hand will move to cup their fist or grab their wrist to lock the elevated position."
@@ -74,7 +74,7 @@ description: "Defend the High Elbow Guillotine from Hindulotine. Recognize eleva
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available against the High Elbow Guillotine from Hindulotine at different stages?",
+      "name": "What defenses are available at each stage of the high elbow guillotine from Hindulotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Early stage (elbow not yet elevated): posture recovery is highest percentage—drive your head up and post on your hands. Mid stage (elbow transitioning): near-side arm frame to break the seal while working head extraction. Late stage (elbow fully elevated): Von Flue shoulder drive or guard pass are your remaining options. Once full compression with hip rotation is locked in, your only safe option is to tap immediately. The defensive window narrows rapidly as the elbow rises."

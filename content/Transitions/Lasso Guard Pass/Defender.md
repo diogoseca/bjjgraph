@@ -64,7 +64,7 @@ description: "How to defend against Lasso Guard Pass in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Why should you follow the passer's angle change with your hips rather than staying flat when they step outside?",
+      "name": "As passer steps outside, why follow with your hips instead of staying flat in lasso guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Following the passer's angle change with a hip switch maintains your perpendicular relationship to their body, which preserves the mechanical advantage of the lasso and keeps your sweep angles viable. If you stay flat while they step outside, the angle change progressively unwinds your lasso hook, making it easy for them to rotate their shoulder free. By turning your hips to face their new angle, you re-tension the lasso and maintain the fulcrum that makes the position controlling. This hip mobility is what separates effective lasso guard retention from static, easily passed guard play."
@@ -72,7 +72,7 @@ description: "How to defend against Lasso Guard Pass in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "When you feel your lasso control deteriorating, how do you decide between fighting to maintain the lasso versus transitioning to a different guard?",
+      "name": "How do you decide between fighting to keep your deteriorating lasso and switching guards?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision hinges on whether the passer has completed the angle change and begun clearing the hook. If they have only stood up but not yet stepped outside, re-extending the lasso and pulling the sleeve tight can restore full control. However, once they have successfully stepped outside and begun rotating their shoulder, the mechanical advantage has shifted too far for recovery. At this point, transitioning to De La Riva with the non-lasso leg or recovering to spider guard is higher percentage than fighting to maintain a compromised lasso. The key indicator is whether your shin still has firm contact across their tricep."
@@ -80,7 +80,7 @@ description: "How to defend against Lasso Guard Pass in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "What role does the non-lasso leg play in defending against the pass, and how should it be positioned?",
+      "name": "In lasso guard, what does the non-lasso leg do defensively and where should it be?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The non-lasso leg is your primary distance management and secondary attack tool. It should post on the passer's hip when they pressure forward, preventing them from closing distance and smashing the lasso. When they stand, the free foot on the hip creates a frame that keeps space and allows you to follow their movement. When they step outside for the angle change, the non-lasso leg can hook behind their far ankle for a sickle sweep or transition to a De La Riva hook on the far leg. Neglecting the non-lasso leg removes half your defensive and offensive capability from the lasso position."
@@ -88,7 +88,7 @@ description: "How to defend against Lasso Guard Pass in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent has stood up and gripped your lasso sleeve but has not yet stepped outside - what is your best immediate action?",
+      "name": "They stand and grip your lasso sleeve but haven't stepped outside: what is your best action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, the passer is most vulnerable to re-extension and sweep threats. Immediately push your free foot into their same-side hip to create distance while pulling the sleeve grip tight and extending the lasso leg fully. This re-establishes the mechanical advantage before they can change angles. Simultaneously threaten a sickle sweep by hooking their far ankle with your free leg. This forces a dilemma: they must either abandon the sleeve grip to deal with the sweep threat, giving you time to re-establish full control, or accept the sweep risk and continue the pass under pressure."

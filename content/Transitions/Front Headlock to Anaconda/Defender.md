@@ -56,7 +56,7 @@ description: "How to defend against Front Headlock to Anaconda in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action to prevent the anaconda setup from front headlock?",
+      "name": "In a front headlock, what single defensive action best prevents the anaconda setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keeping your near arm clamped tight to your body is the single most important defensive action. The anaconda choke requires trapping your near arm within the choking loop—without this trapped arm, the attacker cannot generate sufficient compression to finish the choke and cannot prevent you from defending your neck with both hands. By keeping your elbow pinched to your ribs and your arm glued to your side, you deny the fundamental structural element the anaconda needs. This is more important than fighting the choking arm or creating distance, because those defenses can fail and the choke still won't work if the arm isn't trapped."
@@ -64,7 +64,7 @@ description: "How to defend against Front Headlock to Anaconda in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "At what phase of the anaconda setup is defense most effective, and why does waiting reduce escape probability?",
+      "name": "When is anaconda defense most effective, and why does waiting cut your escape odds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defense is most effective during the threading phase, when the attacker is sliding their arm across your neck but has not yet secured the figure-four grip. At this point, the attacker has only one arm engaged (the threading arm) while their other hand is releasing the headlock or searching for the grip. This creates a window where the attacker's control is weakest and their balance is most compromised. Waiting until the figure-four grip is locked reduces escape probability dramatically because the closed loop around your neck and arm creates structural compression that is extremely difficult to break. Waiting until the roll begins reduces it further because your body is now being moved by the attacker's momentum. Each successive phase exponentially decreases your escape options."
@@ -72,7 +72,7 @@ description: "How to defend against Front Headlock to Anaconda in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked the figure-four grip but has not yet stepped over to roll - what defensive options remain?",
+      "name": "Their anaconda figure-four is locked but they haven't stepped over; what defenses remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the grip locked but before the roll, you still have viable defensive options. First, use your free hand to attack the grip connection point—peel at their fingers, push on the wrist, or wedge your hand between their hands to break the grip. Second, flatten your body and sprawl your legs back to deny the rolling platform the attacker needs for the step-over. Third, circle aggressively away from the choking arm side to widen the loop and reduce compression. Fourth, if you can get your chin tucked deeply toward your free shoulder, the choke pressure is reduced enough to buy time. Do not attempt to stand at this point, as it may tighten the locked grip. Your best chance is grip breaking combined with directional movement."
@@ -80,7 +80,7 @@ description: "How to defend against Front Headlock to Anaconda in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How should your escape direction differ depending on whether the attacker is setting up anaconda versus Darce from front headlock?",
+      "name": "From front headlock, how does your escape direction differ for anaconda versus Darce?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "For anaconda defense, circle away from your trapped arm (away from the choking arm side), because the anaconda loop tightens when your arm is compressed inward. Moving away widens the loop. For Darce defense, the threading angle is different—the attacker's arm goes under your far arm rather than your near arm, so you should circle toward the Darce side (toward the choking arm) to compress the loop and prevent the attacker from achieving finishing depth. Recognizing which choke is being set up determines your escape direction. The key identifier is which of your arms the attacker is targeting: near arm trapped means anaconda (circle away), far arm underhooked means Darce (circle toward)."
@@ -88,7 +88,7 @@ description: "How to defend against Front Headlock to Anaconda in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is the roll-through defense considered a last resort, and what makes it risky compared to earlier-phase defenses?",
+      "name": "Why is the anaconda roll-through defense a last resort compared to earlier defenses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The roll-through is a last resort because it accepts the attacker's locked grip and rolling momentum, gambling that the chaotic landing will create enough looseness to escape. The risk is substantial: if the attacker maintains a tight grip through the roll, you end up in anaconda control bottom with the choke already compressed from the rolling motion. Unlike earlier-phase defenses that prevent the position from forming, the roll-through fights from within a nearly completed submission. The success rate drops significantly compared to threading-phase defenses. It should only be attempted when the grip is locked, the step-over is happening, and you've failed to prevent the roll through other means."

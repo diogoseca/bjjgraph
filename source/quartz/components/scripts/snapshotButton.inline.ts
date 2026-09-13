@@ -68,7 +68,9 @@ let pingOk: Promise<boolean> | undefined
 // where this 404s on every page, and their console assertions must stay clean.
 function probe(): Promise<boolean> {
   if (!pingOk) {
-    pingOk = fetch("/__snapshot/ping")
+    // We only need availability. GET downloads the entire custom 404 page on a static
+    // preview server; HEAD preserves the status check without wasting that startup payload.
+    pingOk = fetch("/__snapshot/ping", { method: "HEAD" })
       .then((r) => r.ok)
       .catch(() => false)
   }

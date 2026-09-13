@@ -80,7 +80,7 @@ description: "Complete guide to executing the clinch break in BJJ. Learn frame c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent has established a strong collar tie and inside wrist control in the clinch - what grip fighting sequence do you use before attempting the break?",
+      "name": "They have a collar tie and inside wrist control: what grip sequence precedes your clinch break?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the collar tie first because it controls your posture and enables snap-downs. Use your free hand to grab their wrist at the collar tie and peel it off using a circular motion toward their centerline while simultaneously tucking your chin to deny re-establishment. Once the collar tie is broken, immediately pummel your freed hand to an inside frame position on their chest. Then strip the wrist control with a sharp circular pull or elbow pump. Only after both controlling grips are neutralized should you commit to the explosive separation. Attempting the break with the collar tie intact invites the snap-down counter."
@@ -88,7 +88,7 @@ description: "Complete guide to executing the clinch break in BJJ. Learn frame c
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the clinch break relative to the opponent's weight distribution?",
+      "name": "When in their weight shift should you initiate the clinch break?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is when the opponent's weight shifts forward or when they are transitioning between grip configurations. A forward weight shift means they are committed in one direction and cannot immediately follow your backward movement. During grip transitions, they have momentary gaps in their control structure. The worst time to attempt the break is when the opponent has settled into a stable base with dominant grips already established, because they have maximum capacity to resist or counter your separation attempt."
@@ -104,7 +104,7 @@ description: "Complete guide to executing the clinch break in BJJ. Learn frame c
     },
     {
       "@type": "Question",
-      "name": "You execute a push-off but your opponent immediately re-engages the clinch within one step - what adjustment prevents this on the next attempt?",
+      "name": "They re-clinch within a step of your push-off: what do you change next attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The re-engagement indicates insufficient distance creation and lack of angular movement. Adjust by increasing the explosiveness of the combined push-step to create more initial distance, and immediately circle laterally after the first step rather than continuing backward. Also ensure you are fully stripping all grip contacts during the separation, because even a residual sleeve or collar grip gives the opponent a tether to close distance rapidly. Consider switching to the underhook peel variant, which creates angular separation that is inherently harder to follow than a straight push-back."
@@ -112,7 +112,7 @@ description: "Complete guide to executing the clinch break in BJJ. Learn frame c
     },
     {
       "@type": "Question",
-      "name": "Your opponent anticipates your clinch break and drops their level as you begin to push - how do you adapt your technique?",
+      "name": "They drop level as you begin your clinch break: how do you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent drops level during your break, they are likely setting up either a takedown entry or a body lock. Abandon the high frame push-off and instead sprawl your hips back while maintaining a strong cross-face or collar tie on their head to prevent them from completing the level change. If they secure a leg, transition to sprawl defense rather than continuing the break attempt. Once you have defended the shot and established top position or returned to neutral, you can re-attempt the clinch break from a stronger starting position."
@@ -120,7 +120,7 @@ description: "Complete guide to executing the clinch break in BJJ. Learn frame c
     },
     {
       "@type": "Question",
-      "name": "In which direction should the primary force be applied during the separation phase relative to the opponent's centerline?",
+      "name": "During the clinch break separation, where do you direct force relative to their centerline?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary force should be directed through the opponent's centerline and slightly upward through your frames, pushing their chest and shoulders away while your hips drive backward along the same vector. Pushing off-center creates rotational forces that the opponent can redirect into angular takedown entries. The upward component prevents the opponent from dropping their weight to resist the push. After the initial centerline push creates separation, you immediately redirect your own movement laterally to create an angle, but the push itself should be directed straight into their center of mass for maximum effectiveness."

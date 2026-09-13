@@ -56,7 +56,7 @@ description: "How to defend against New York to Invisible Collar in BJJ. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important moment to begin your defense against the New York to Invisible Collar transition?",
+      "name": "Defending New York to Invisible Collar: when exactly should your defense begin?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical moment is when you feel the bottom player release their shin grip. This release creates a brief 1-2 second window where they have abandoned one control point but have not yet established the replacement. Your defensive response must begin at the instant of this release - any delay allows the hand swim to complete and the collar grip to lock in, dramatically reducing your escape probability."
@@ -64,7 +64,7 @@ description: "How to defend against New York to Invisible Collar in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Why is blocking the hand swim with your free hand risky despite being effective at stopping the collar grip?",
+      "name": "Why is blocking their hand swim with your free hand risky, even though it stops the collar grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Blocking the hand swim commits your only free hand to a static defensive position inside the guard. An experienced attacker will recognize this and immediately redirect to a triangle setup by shooting their leg over your blocking arm, which is now extended and inside their guard. The defensive block solves the immediate collar threat but creates a different and potentially more dangerous submission threat if the attacker chains techniques effectively."
@@ -72,7 +72,7 @@ description: "How to defend against New York to Invisible Collar in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your posture recovery attempt fails and the attacker gets a shallow collar grip - what should your defensive priority be?",
+      "name": "Your posture recovery fails and they get a shallow collar grip — what's your defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a shallow collar grip, your priority shifts to preventing the grip from deepening rather than trying to strip it immediately. Tuck your chin aggressively to limit choking angles and use your free hand to control their gripping wrist, preventing them from walking their fingers deeper. Simultaneously begin working your trapped elbow free from the overhook. A shallow collar grip is manageable and sustainable to defend against - your goal is to create enough disruption to force the attacker to reset rather than allowing incremental grip improvement."
@@ -80,7 +80,7 @@ description: "How to defend against New York to Invisible Collar in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "How does driving forward into the bottom player differ from pulling backward as a defensive response?",
+      "name": "What cues separate a New York to Invisible Collar attempt from a New York to Zombie transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Driving forward compresses the space needed for the hand swim arc and keeps your weight on the bottom player, limiting their hip mobility and transition options. Pulling backward, by contrast, creates space the attacker can exploit and the overhook acts as a tether that drags the bottom player with you, potentially resulting in a sweep. Forward pressure is generally safer because it addresses the spatial requirements of the transition, though it carries the risk of feeding into gogoplata or Chill Dog setups if the attacker redirects."
@@ -88,7 +88,7 @@ description: "How to defend against New York to Invisible Collar in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "What tactile and visual cues distinguish a New York to Invisible Collar attempt from a New York to Zombie transition?",
+      "name": "Defending New York to Invisible Collar: how does driving forward differ from pulling backward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "For Invisible Collar, you feel the shin grip release followed by a hand threading behind your head between your shoulder and their thigh. For Zombie, the bottom player typically maintains the shin grip while adjusting their leg position higher and deeper around your shoulder, and their free hand works to establish a different control rather than swimming to your skull. The shin grip release is the key differentiator - Invisible Collar requires it while Zombie generally does not."

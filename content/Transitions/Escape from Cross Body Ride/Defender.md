@@ -58,7 +58,7 @@ description: "Learn to defend against cross body ride escape attempts in BJJ. Co
     },
     {
       "@type": "Question",
-      "name": "Your opponent creates space with a hip escape and you cannot re-establish cross body pressure - what is the optimal response?",
+      "name": "They hip escape and you cannot recover cross body pressure: what is the optimal response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting to recover cross body ride from a losing position, capitalize on the space by inserting hooks and transitioning to full back control. The bottom player's hip escape has already created the leg access you need for hook insertion. Maintain harness grip on the upper body while threading your hooks inside their thighs. This converts their escape attempt into a worse position for them, rewarding your ability to adapt rather than rigidly maintain one configuration."
@@ -74,7 +74,7 @@ description: "Learn to defend against cross body ride escape attempts in BJJ. Co
     },
     {
       "@type": "Question",
-      "name": "When is it better to let the escape partially succeed and transition to back control rather than fighting to maintain cross body ride?",
+      "name": "When is taking the back better than fighting to keep cross body ride?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the bottom player has already created significant hip space and established a frame that you cannot easily strip, attempting to fight back to cross body ride wastes energy and often fails anyway. The better option is to immediately begin inserting hooks while the bottom player is focused on completing their reversal. Back control is a superior position to cross body ride, scoring four points versus zero, so using the escape attempt as a transition opportunity actually improves your position rather than merely defending a deteriorating one."

@@ -76,7 +76,7 @@ description: "How to enter the Leg Weave from Half Guard top in BJJ. Underhook, 
     },
     {
       "@type": "Question",
-      "name": "What is the difference between weaving your leg under versus over the opponent's bottom leg, and why does it matter?",
+      "name": "Leg weave: weave under or over their bottom leg — what is the difference and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Weaving under means your shin slides beneath the opponent's bottom leg, instep toward the mat, so your shin staples their leg from below and pins it flat. Weaving over leaves their leg mobile and their hooks active, which lets them retain guard or sweep you. Only the under-weave converts the entry into a genuine control that neutralizes their legs - going over is the single most common reason the entry fails to produce a real leg weave."

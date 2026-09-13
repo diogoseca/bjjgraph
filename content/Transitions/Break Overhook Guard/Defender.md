@@ -56,7 +56,7 @@ description: "Complete defender guide for Break Overhook Guard. Learn to maintai
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most important grip depth indicator that determines whether your overhook is vulnerable to a standard elbow circle break?",
+      "name": "Which grip depth cue tells you your overhook is vulnerable to a standard elbow circle break?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical indicator is where your overhooking hand grips. If your hand is on the opponent's lat or shoulder blade, the overhook is deep enough to resist standard elbow circulation because there is minimal gap between your arm and their torso. If your hand has slipped to the tricep area, the overhook is shallow and the top player can easily find space to circulate their elbow through. Continuously monitoring and re-deepening your grip is essential for maintaining defensible overhook control."
@@ -72,7 +72,7 @@ description: "Complete defender guide for Break Overhook Guard. Learn to maintai
     },
     {
       "@type": "Question",
-      "name": "You feel the top player beginning to drive their hips forward for a posture-first break - what is your immediate response?",
+      "name": "You feel the top player driving hips forward for a posture-first overhook break - your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pull your overhook elbow tighter to your hip and drive your heels into their lower back to prevent hip separation. Use your free hand to grab behind their head or collar to create a second anchor point pulling them forward. If they continue generating posture despite these adjustments, transition immediately to a hip bump sweep while their weight is elevated, using their upward momentum against them. The posture-first break requires them to create distance, so keeping them tight with combined arm and leg pressure denies the separation they need."

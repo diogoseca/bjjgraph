@@ -116,7 +116,7 @@
         }
       },
       {
-        "question": "Your opponent starts bridging and creating hip movement while you have Backside 50-50 Top. What adjustment do you make?",
+        "question": "In Backside 50-50 top, they start bridging and moving their hips - what do you adjust?",
         "answer": "Drive your chest pressure forward and down immediately when you feel them bridge. Lower your hips closer to the mat to increase base stability. Use your forearm on their hip to post and prevent the turn. If they continue creating movement, walk your hips higher up their body toward back control rather than fighting to stay in the leg entanglement. Their bridging often aids your advancement.",
         "answer_line": "Drive chest down, advance to back",
         "distractors": {
@@ -200,7 +200,7 @@
         }
       },
       {
-        "question": "You've partially lost control and your opponent creates a frame against your shoulder. How do you recover full control?",
+        "question": "In Backside 50-50 top, they frame on your shoulder - how do you recover full control?",
         "answer": "Don't fight the frame directly - redirect around it. Circle your pressure to the side away from their frame while maintaining leg entanglement. Alternatively, swim your arm under their frame while driving forward to collapse it. If the frame is too strong, use it as an opportunity to transition - either advance to back control by going around the frame, or drop to a leg attack while they're committed to the upper body frame.",
         "answer_line": "Circle around, don't fight frame",
         "distractors": {
@@ -562,7 +562,7 @@
         }
       },
       {
-        "question": "Your opponent is driving chest pressure and you feel yourself getting flattened. What immediate adjustment do you make?",
+        "question": "In Backside 50-50 bottom, their chest pressure is flattening you - what do you adjust?",
         "answer": "Bridge hard immediately to create space and turn to your side. Use your top arm to post on their shoulder or chest to create a frame. Simultaneously, angle your hips away from them to prevent the flattening pressure. If bridge fails, immediately threaten a reversal or leg attack to force them to defend rather than flatten.",
         "answer_line": "Bridge, post, angle to the side",
         "distractors": {
@@ -604,7 +604,7 @@
         }
       },
       {
-        "question": "Your opponent grabs your heel and starts attacking an inside heel hook. What is your defensive priority sequence?",
+        "question": "In Backside 50-50 bottom, they attack an inside heel hook - what is your defense order?",
         "answer": "First, hide your heel by turning your knee inward and pulling your toes toward your shin. Second, fight their grip - strip their hands from your foot if possible. Third, if grip is locked, create rotational movement with your hips to relieve pressure on the knee. Fourth, consider counter-attacking their leg if they've committed heavily to the heel hook, as their defense may be compromised.",
         "answer_line": "Hide heel, strip grip, rotate hips",
         "distractors": {
@@ -646,7 +646,7 @@
         }
       },
       {
-        "question": "Your opponent backs off the leg entanglement pressure to reposition. How do you capitalize on this opening?",
+        "question": "In Backside 50-50 bottom, they lighten pressure to reposition - how do you capitalize?",
         "answer": "The moment pressure releases, immediately work to face them or extract your legs. Stand up in base if leg extraction is possible. Rotate your hips to face them and recover guard. If they've maintained leg entanglement but lightened pressure, use hip movement to create angles for sweeps. Any reduction in their pressure is your opportunity - don't wait for them to settle again.",
         "answer_line": "Move immediately, face or extract",
         "distractors": {
@@ -935,7 +935,7 @@
       }
     },
     {
-      "question": "How does chest-to-back contact function as the central control mechanism shared by both players in Backside 50-50?",
+      "question": "How does chest-to-back contact control Backside 50-50 for both players?",
       "answer": "The connection between one player's chest and the other's back is the pivot point of the whole position for both roles. For the chest-side player it is the source of pressure that pins the opponent's hips and restricts their ability to rotate and face inward. For the back-exposed player it is the pressure that must be managed through framing and hip angle to avoid being flattened. Because the legs are symmetrically locked, neither player can simply disengage, so the torso contact becomes the decisive control surface that governs whether the position holds, advances, or reverses. Both players' priorities are organized around whether this chest-to-back connection is maintained or broken.",
       "answer_line": "Pressure that both roles must manage",
       "distractors": {
@@ -949,7 +949,7 @@
       }
     },
     {
-      "question": "Why is hip mobility and the prevention of complete flattening the shared mechanical fulcrum of Backside 50-50?",
+      "question": "Why are hip angle and avoiding being flattened the shared fulcrum of Backside 50-50?",
       "answer": "The position's dynamics hinge on the back-exposed player's hip angle relative to the opponent's chest. As long as that player stays angled on their side with active hips, the entanglement remains a live two-way battle over sweeps, escapes, and leg attacks. If they are flattened fully onto their back, hip mobility collapses, framing space disappears, and the chest-side player gains uncontested access to advance or attack. Both roles therefore orient their effort around this single variable, one working to preserve the angle and the other to erase it. It is the mechanical fulcrum on which the entire position tilts toward one player or the other.",
       "answer_line": "Staying angled prevents flattening",
       "distractors": {
@@ -1005,7 +1005,7 @@
       }
     },
     {
-      "question": "Why do both players retain a genuine heel hook threat in Backside 50-50 despite the positional imbalance?",
+      "question": "Why do both players keep a real heel hook threat in Backside 50-50?",
       "answer": "The symmetric 50-50 leg entanglement wedges each player's legs against the same exposed heel, so the submission access is shared rather than owned by one side. This means the back-exposed player is never purely defensive at the legs and can counter-attack the heel if the chest-side player overcommits or exposes their own leg. The chest-side player's advantage is not exclusive leg access but superior visibility and pressure, which lets them attack with more control and defend counters more easily. The persistent mutual heel threat is what keeps the position dangerous for both players and forces careful management of leg exposure by whoever attacks.",
       "answer_line": "Symmetric legs share heel access",
       "distractors": {

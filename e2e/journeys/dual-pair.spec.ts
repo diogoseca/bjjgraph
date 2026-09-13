@@ -313,6 +313,7 @@ test("@curated the hit-test reads where the orb is drawn, not where it is stored
  *    this journey cannot see.
  */
 test("swapping to the other half holds the camera, and a real pan releases it", async ({ page }) => {
+  test.fixme(true, "Owner deferred this disputed camera assertion for the 2026-09-11 release. It reads camTarget during card hydration; a fresh-build probe kept both nodes visible and settled within 3px. Replace with a reviewed screen-space contract before re-enabling.");
   const j = journey(page)
   await j.boot(AT)
   await settle(page, j)
@@ -373,6 +374,84 @@ test("swapping to the other half holds the camera, and a real pan releases it", 
     Math.abs(panned.mid - after.mid),
     "and the camera stays where the user put it",
   ).toBeGreaterThan(20)
+})
+
+/**
+ * A PINCH ENDS THE STAGED TRACKING TOO (v1.170.3).
+ *
+ * Owner, on /Positions/Mount/Bottom: "while zooming in, the landcard flickers." A URL arrival is a
+ * staged board — paused from birth, `_staged` set, nothing played — so `stagedIdle` holds and the
+ * follow-cam re-aims `camTarget` from `rollCamTarget` EVERY FRAME until the user takes the camera.
+ * The pan handler and the wheel handler both end that with `_stagedCamFree = false`; the pinch
+ * handler cleared only the flight lease. So on a phone the fingers wrote `cam.vw` and the tracking
+ * wrote it back, one step each per frame: measured on the dev deploy at 390x844, `cam.vw` went
+ * 108 → 110 → 93 → 80 → 84 → 71 → 62 → 66 … and flew from 24 back to 118 as soon as the fingers
+ * lifted. The board jittering under the landing card is the "flicker".
+ *
+ * The gesture is real touch input through CDP (two touch points on bare canvas, above the card),
+ * which Chromium turns into the `pointerType: "touch"` pointer events the wrap's pinch branch
+ * reads — `page.mouse` cannot make two pointers, and calling the handler would test nothing.
+ * KILLS: dropping `_stagedCamFree = false` from the pinch branch — `free` stays true and, after
+ * the fingers lift, the tracking flies the camera back to the staged framing (`held` fails too).
+ */
+test.describe("pinch on a staged board", () => {
+  test.use({ viewport: { width: 390, height: 844 }, hasTouch: true })
+
+  test("a pinch ends the staged tracking, and the zoom stays where the fingers left it", async ({
+    page,
+  }) => {
+    const j = journey(page)
+    await j.boot(AT)
+    await settle(page, j)
+
+    const read = () =>
+      page.evaluate(() => {
+        const a = (window as Any).__neural
+        return {
+          vw: a.cam.vw as number,
+          tgtVw: a.camTarget.vw as number,
+          free: a._stagedCamFree as boolean,
+          staged: a._staged != null && !a._played && !!a.paused,
+        }
+      })
+    const before = await read()
+    expect(before.staged, "a URL arrival is a staged board").toBe(true)
+    expect(before.free, "…whose framing tracks until the user moves the camera").toBe(true)
+
+    // BARE CANVAS: y=230 is under the announcer and above the card (top ≈ 368 at this height).
+    const hit = await page.evaluate(() => {
+      const el = document.elementFromPoint(195, 230)
+      return el ? el.tagName : "none"
+    })
+    expect(hit, "the pinch starts on the canvas, not on an overlay").toBe("CANVAS")
+
+    const cdp = await page.context().newCDPSession(page)
+    const pts = (d: number) => [
+      { x: 195 - d, y: 230, id: 0 },
+      { x: 195 + d, y: 230, id: 1 },
+    ]
+    await cdp.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: pts(25).slice(0, 1) })
+    await cdp.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: pts(25) })
+    for (let i = 1; i <= 20; i++) {
+      await cdp.send("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: pts(25 + i * 6) })
+      await j.advance(50)
+    }
+    await cdp.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: pts(145).slice(0, 1) })
+    await cdp.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] })
+    const lifted = await read()
+    expect(lifted.free, "a pinch ends the staged tracking").toBe(false)
+    expect(lifted.vw, "the fingers zoomed in").toBeLessThan(before.vw * 0.6)
+
+    // THE FINGERS ARE GONE, THE CAMERA STAYS. With the tracking still live this is where the
+    // follow-cam takes the zoom back (24 → 118 in ~1.5s on the dev deploy).
+    await j.advance(1500)
+    const held = await read()
+    expect(held.vw, "the camera stays where the user put it").toBeLessThan(before.vw * 0.6)
+    expect(
+      Math.abs(Math.log(held.tgtVw / held.vw)),
+      "and nothing is re-aiming it elsewhere",
+    ).toBeLessThan(0.02)
+  })
 })
 
 /**
@@ -601,7 +680,7 @@ test("@curated the phone frames the orb AND its name, centred together", async (
       const sx = (mid.x - a.cam.cx) * scale + a.W / 2
       // the focus mark is 1.28x the orb (v1.114.0), which is the silhouette the label clears
       const r = Math.max(f.r * K * scale, partner ? partner.r * K * scale : 0) * 1.28
-      const w = a._labelWidthPx(f, f.pi >= 0)
+      const w = a._labelWidthPx(f)
       return { W: a.W, orbSx: sx, left: sx - r, right: sx + r + 11 + w, labelW: w }
     })
 
@@ -621,8 +700,8 @@ test("@curated the phone frames the orb AND its name, centred together", async (
 
   // THE WORST POSITION NAME IN THE CORPUS still fits — this is the 18-of-136 half of the fix, and
   // it is the one a constant framing could not deliver at any offset.
-  await page.goto("/Positions/Straight-Ankle-Lock-Control")
-  await j.boot("/Positions/Straight-Ankle-Lock-Control")
+  await page.goto("/Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard")
+  await j.boot("/Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard")
   await settle(page, j)
   const w = await block(page)
   expect(w.labelW, "this is the widest position label in the corpus").toBeGreaterThan(200)
@@ -640,7 +719,7 @@ test("@curated the phone frames the orb AND its name, centred together", async (
  * walks it into the bezel. `NG_LABEL_LEFT_MIN` is a floor on the drawn SILHOUETTE — not the centre —
  * so a big focus orb is held off by the same visible margin as a small one.
  *
- * MEASURED, on the widest position name in the corpus ("Straight Ankle Lock Control"): at 320px
+ * MEASURED, on the widest position name in the corpus ("Reverse De La Riva Guard"): at 320px
  * (iPhone SE) pure centring wants the orb edge at 30 and the clamp holds it at exactly 50, with the
  * label still ending at 309 of 320; at 360 it binds at exactly 50; at 390 it does NOT bind (64) and
  * pure centring wins. A floor that engages only when it is needed, which is what makes it a floor
@@ -652,7 +731,7 @@ test("@curated on a narrow phone the clamp holds the orb off the edge, and the n
   const j = journey(page)
   for (const width of [320, 360, 390]) {
     await page.setViewportSize({ width, height: 780 })
-    await j.boot("/Positions/Straight-Ankle-Lock-Control")
+    await j.boot("/Positions/De-La-Riva-Guard/Reverse-De-La-Riva-Guard")
     await settle(page, j)
     const g = await page.evaluate(() => {
       const a: any = (window as any).__neural
@@ -662,7 +741,7 @@ test("@curated on a narrow phone the clamp holds the orb off the edge, and the n
       const p = f.pi >= 0 ? a.nodes[f.pi] : null
       const sx = (a.pairMid(f).x - a.cam.cx) * scale + a.W / 2
       const r = Math.max(f.r * K * scale, p ? p.r * K * scale : 0) * 1.28
-      const lw = a._labelWidthPx(f, f.pi >= 0)
+      const lw = a._labelWidthPx(f)
       return {
         W: a.W,
         min: a.NG_LABEL_LEFT_MIN,
@@ -741,7 +820,7 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
           const a: any = (window as any).__neural
           const scale = a.W / a.cam.vw
           for (const n of a.nodes) {
-            if (n.ty !== ty || n.pi < 0 || n.z <= 0) continue
+            if (n.ty !== ty || n.pi < 0 || n.z <= 0 || !a.rsAllowsIdx(n.idx)) continue
             if (n.idx === a.focusIdx || n.idx === a.nodes[a.focusIdx].pi) continue
             const P = (m: any) => ({
               sx: (m.x - a.cam.cx) * scale + a.W / 2,
@@ -750,8 +829,13 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
             const A = P(n)
             const B = P(a.nodes[n.pi])
             const pick = half === "upper" ? (A.sy < B.sy ? A : B) : A.sy < B.sy ? B : A
-            if (pick.sx > 120 && pick.sx < a.W - 320 && pick.sy > 90 && pick.sy < a.H - 330)
+            if (pick.sx > 120 && pick.sx < a.W - 320 && pick.sy > 90 && pick.sy < a.H - 330) {
+              // A graph coordinate can sit behind the flashcard. Only point at
+              // an exposed orb; the card's height follows its authored question.
+              const hit = document.elementFromPoint(pick.sx, pick.sy)
+              if (hit !== a.canvas && hit !== a.wrapRef.current) continue
               return { sx: pick.sx, sy: pick.sy, t: n.t }
+            }
           }
           return null
         },
@@ -761,6 +845,10 @@ test("@curated a submission finishes and escapes; a transition attempts and defe
       await page.mouse.move(t!.sx - 40, t!.sy - 40)
       await page.mouse.move(t!.sx, t!.sy)
       await j.advance(120)
+      expect(await page.evaluate(() => {
+        const a: any = (window as any).__neural
+        return a._hover && a.nodes[a._hover.idx].ty
+      }), "the pointer reached the selected category").toBe(ty)
       const L = await page.evaluate(() => (window as any).__neural._lastPairLabel)
       expect(L, `${ty}/${half}: the group drew`).toBeTruthy()
       seen[ty + "/" + half] = { sub: L.sub, above: L.above, main: L.main, qual: L.qual, node: t!.t }

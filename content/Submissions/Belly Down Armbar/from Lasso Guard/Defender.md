@@ -76,7 +76,7 @@ description: "Defend against the belly down armbar from lasso guard. Recognition
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to defend during the transition phase rather than after the belly down position is established?",
+      "name": "Why defend the belly down armbar from lasso during the transition rather than after it is set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The belly down armbar eliminates nearly all standard armbar escapes by using body weight and gravity to pin the opponent. The mechanical advantage in the prone position is overwhelming, making late-stage escapes unreliable and dangerous to attempt. During the transition from lasso to armbar, there are brief windows where grip changes occur and the attacker's control is temporarily reduced — these moments represent the realistic escape opportunities."

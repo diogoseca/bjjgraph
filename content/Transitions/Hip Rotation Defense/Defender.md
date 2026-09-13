@@ -56,7 +56,7 @@ description: "How to counter Hip Rotation Defense in BJJ from ankle lock control
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your primary objective when you feel your opponent beginning to rotate their hip during ankle lock control?",
+      "name": "Holding an ankle lock, what is your objective as you feel their hip start to rotate?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your primary objective is to determine their rotation direction and immediately choose between maintaining control by tightening your leg triangle or following their rotation to transition to a more dominant leg entanglement. Rotation away from you opens inside ashi garami, and rotation toward you opens outside ashi garami. Treating their escape as a transition trigger rather than purely a threat to resist converts defensive situations into offensive advancement."
@@ -64,7 +64,7 @@ description: "How to counter Hip Rotation Defense in BJJ from ankle lock control
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts bending their trapped knee and posting their free foot on your hip - what does this sequence indicate?",
+      "name": "They bend the trapped knee and post their free foot on your hip: what does this signal?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the preparatory sequence for hip rotation defense. The bent knee shortens the lever arm to reduce your ankle lock pressure, while the foot on your hip creates the blocking frame they need to prevent you from following their rotation. You must address both simultaneously: tighten your leg wrap to prevent knee bending and use your free hand or leg adjustment to clear their posted foot before they can execute the rotation."
@@ -80,7 +80,7 @@ description: "How to counter Hip Rotation Defense in BJJ from ankle lock control
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent's two-on-one grip fighting from breaking your ankle control during their rotation?",
+      "name": "How do you keep your ankle lock against their two-on-one grip fighting during rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Deepen your forearm position against their Achilles tendon and pull their heel tighter to your chest so that your grip uses skeletal structure rather than grip strength alone. Pin their heel against your sternum using your entire upper body as the anchor point. When they target your thumb line with two-on-one, rotate your wrist to present a stronger grip angle. Simultaneously tighten your leg control to compound the number of problems they must solve simultaneously."
@@ -88,7 +88,7 @@ description: "How to counter Hip Rotation Defense in BJJ from ankle lock control
     },
     {
       "@type": "Question",
-      "name": "What timing window do you have to consolidate leg control before hip rotation defense becomes highly effective?",
+      "name": "How long do you have to consolidate leg control before hip rotation defense works well?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have approximately 3-5 seconds after establishing initial ankle control to consolidate your leg triangle or figure-four leg configuration. Once completed, hip rotation becomes mechanically restricted and the opponent must address your leg control before rotation is possible. If you spend this window focusing solely on the submission finish without consolidating leg control, you create the exact conditions where hip rotation defense succeeds at high percentage."

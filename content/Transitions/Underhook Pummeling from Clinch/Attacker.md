@@ -74,7 +74,7 @@ description: "Master the attacking mechanics of underhook pummeling from the dis
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating a pummel attempt against an opponent with an established overhook?",
+      "name": "When is the best moment to pummel against an established overhook in the clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window opens when the opponent shifts their weight, adjusts their grip, or momentarily relaxes overhook pressure. This typically occurs during transitions between techniques or when you create a distraction through push-pull rhythm or feint. Attempting to pummel against a fully loaded, actively maintained overhook is significantly harder and should be avoided in favor of creating the opening first."
@@ -82,7 +82,7 @@ description: "Master the attacking mechanics of underhook pummeling from the dis
     },
     {
       "@type": "Question",
-      "name": "What body position must be established before you can effectively initiate a pummel from the disadvantaged clinch?",
+      "name": "What body position must you have before pummeling from the disadvantaged clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You need a stable base with knees bent and feet shoulder-width apart, with your center of gravity low enough to generate forward pressure. Your head should be actively fighting for position rather than completely controlled by opponent's collar tie. Without base stability and some head position autonomy, pummel attempts are easily countered because your structure is compromised and you lack the platform to generate the required swimming motion."
@@ -90,7 +90,7 @@ description: "Master the attacking mechanics of underhook pummeling from the dis
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether a pummel attempt succeeds or fails?",
+      "name": "What mechanical detail most determines if a clinch pummel succeeds or fails?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The elbow path during the swim is the decisive mechanical factor. The elbow must stay tight against your ribs throughout the entire motion, threading in a compact arc close to both bodies. A wide elbow path creates a visible telegraph that the opponent blocks easily, while a tight elbow path reduces the reaction window and makes the swim faster and significantly more difficult to counter."
@@ -98,7 +98,7 @@ description: "Master the attacking mechanics of underhook pummeling from the dis
     },
     {
       "@type": "Question",
-      "name": "What is the most common failure point when practitioners attempt to pummel against an experienced opponent?",
+      "name": "What is the most common failure point when pummeling against an experienced opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common failure occurs immediately after the underhook is threaded—practitioners fail to consolidate with head position and hip drive, giving the opponent a window to re-pummel or strip the underhook. Securing the arm underneath is only one-third of the technique; without immediate follow-up of forehead pressure to the shoulder and hips driving forward, the underhook is recovered by the opponent within seconds."

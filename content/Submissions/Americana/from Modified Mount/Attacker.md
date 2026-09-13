@@ -76,7 +76,7 @@ description: "Step-by-step guide to finishing the Americana from Modified Mount.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structure does the Americana from Modified Mount primarily attack, and how does the rotational force damage it?",
+      "name": "Which joint does the Americana attack, and how does the rotational force damage it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Americana attacks the glenohumeral joint by forcing external rotation of the humerus while the elbow is pinned, concentrating torsional stress on the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule. The figure-four grip creates a lever system where the pinned elbow acts as the fulcrum and the wrist arc generates the rotational force. When the wrist travels toward the hip with the elbow locked, the shoulder joint is forced beyond its natural range of external rotation, attacking ligaments and tendons that stabilize the joint."
@@ -84,7 +84,7 @@ description: "Step-by-step guide to finishing the Americana from Modified Mount.
     },
     {
       "@type": "Question",
-      "name": "How does Modified Mount's posted leg specifically enhance the Americana finish compared to standard mount?",
+      "name": "How does the posted leg in Modified Mount improve the Americana finish over standard mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posted leg creates a lateral stability anchor that absorbs explosive bridge-and-roll attempts during the critical finishing phase when both hands are committed to the figure-four grip. In standard mount, bridging during the Americana can reverse the position because both knees are down and the attacker's base is narrow. The posted foot acts as a structural buttress that prevents rolling momentum, allowing the attacker to commit fully to the rotational pressure without needing to interrupt the finish to maintain balance. Additionally, leaning toward the posted leg during the arc adds body weight to the rotational force."
@@ -92,7 +92,7 @@ description: "Step-by-step guide to finishing the Americana from Modified Mount.
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins straightening their trapped arm during your figure-four establishment - what immediate adjustment do you make?",
+      "name": "In Modified Mount they straighten the trapped arm as you set the figure-four — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the Americana and transition to a straight armbar by swinging your posted leg over their head. The arm extension that defends the Americana perfectly sets up the armbar, as the straightened arm is the exact configuration needed for armbar entry from Modified Mount. This is the core dilemma of the Americana-armbar combination: defending one submission directly exposes the other. If they bend the arm again to defend the armbar, immediately return to the Americana. This cycling between attacks is what ultimately forces the tap."
@@ -100,7 +100,7 @@ description: "Step-by-step guide to finishing the Americana from Modified Mount.
     },
     {
       "@type": "Question",
-      "name": "What are the indicators that you have reached the point of no escape when finishing the Americana from Modified Mount?",
+      "name": "Which signs show the Modified Mount Americana has passed the point of no escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when three conditions are simultaneously met: the figure-four grip is fully connected with elbows squeezed tight, the opponent's elbow is pinned firmly to the mat with no upward or lateral movement possible, and the wrist has traveled past the midpoint of the arc toward their hip. Once the wrist passes the midpoint, the opponent cannot generate enough strength to reverse the rotational direction because the lever mechanics favor the attacker exponentially. At this point, the only safe response is tapping. Recognizing this point matters for safety - the submission is essentially locked in and any additional force risks injury."

@@ -195,6 +195,8 @@ Clip shape: `{id, title, by, start?, end?, vertical, channel, duration, verified
 
 ## Flashcards Guidelines
 
+For **positions, submissions, and transitions**, every authored question must be **100 characters or fewer**, including spaces and punctuation, on every role and shared tier. Ask one clear question in plain BJJ language; preserve the mechanic, perspective, and safety conditions. Keep explanations in the answer. The JSON schemas enforce the limit. Use `python3 scripts/rewrite_questions.py --check` to audit the corpus, or `--apply` for a resumable, question-only AI sweep that preserves answers and choices.
+
 The `flashcards` array (5-20 Q&A pairs) should be tailored to each content type's nature:
 
 **Authoring vs aggregation (hub/leaf):** flashcards are authored at the **leaf/role** level — `top`/`bottom` for positions, `attacker`/`defender` for transitions/submissions, or the flat root for principles/systems. **Hub pages aggregate** their children's cards at build time (`regenerate_graph.py` dedupes top+bottom; family hubs dedupe all variants); role/specific pages show only their own. Author cards on the leaves — never on a family hub.
@@ -439,3 +441,31 @@ For full schema details, see the JSON template files:
 | Use `result` types: success/failure/counter | Invent custom result types |
 | Ensure `targets_outcome` matches `outcomes[].to` | Use targets_outcome values not in outcomes |
 | Use Position/Role format in `outcomes[].to` | Use bare position names without role suffix |
+
+## Principle graph applicability
+
+Principles describe both performing a mechanic and denying it. Author `graph_applicability`
+in each principle JSON, separately from the short `related_content` reading list:
+
+- `scope: "all"` covers every graph site, including future additions. Use it for a principle
+  that can guide either participant across positions, transitions, and submissions.
+- `scope: "specific"` combines the reading list, exact submission `families`, reverse principle
+  references, and reviewed `terms` found in instructional prose. Terms match whole words or
+  phrases, ignoring case; quizzes, clips, and related-link text are excluded. Choose mechanical
+  phrases carefully: "spine" is too broad for cranks, while "spinal lock" is useful.
+- Matching techniques also include their starting positions. Applicability does not spread to
+  every neighboring technique: an air choke from Mount does not make every Mount attack an air
+  choke. Family selectors include all variants and fail generation when unresolved.
+- `rationale` explains the scope. Specific matches carry compact per-technique term evidence in
+  their on-demand dossier. These are editorial coverage rules, not a claim that a term must
+  appear whenever a principle applies; add family or reading-list links for implicit examples.
+
+The emitter stores universal membership as one flag and specific membership as a hexadecimal bitset of permanent share
+ordinals, never graph array indexes. The app resolves these once, highlights both role partners,
+and respects the selected gi/no-gi graph. Opening a principle frames the whole graph in the visible area beside the reading pane
+(or above it on phones). The member
+list loads 60 rows at a time; pagination never limits graph highlighting.
+
+The additions and broader interpretation of posture draw on [BJJ Mental Models’ core mechanics](https://www.bjjmentalmodels.com/core-mechanics),
+[its alignment framework](https://www.bjjmentalmodels.com/first-principles), and
+[Grapplearts’ explanation of elbow-knee connection](https://www.grapplearts.com/the-bjj-formula/).

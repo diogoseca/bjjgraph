@@ -304,7 +304,7 @@ Rooted in the grappling truism that where the head goes the body follows, crossf
 
 **Knee on Belly**: Crossface combined with knee pressure creates extremely uncomfortable control position. Crossface prevents opponent from turning toward you to remove knee, while knee pressure prevents bridging away from crossface.
 
-**Scarf Hold Position**: Modified crossface application where arm wraps around head while shoulder drives across face. Creates extremely tight head control that prevents all rotation and is fundamental to scarf hold effectiveness.
+**Kesa Gatame**: Modified crossface application where arm wraps around head while shoulder drives across face. Creates extremely tight head control that prevents all rotation and is fundamental to scarf hold effectiveness.
 
 **North-South**: Crossface applied while transitioning through north-south prevents opponent from following your movement and escaping. Maintains head control even as your body position changes relative to opponent.
 
@@ -464,7 +464,7 @@ Flow roll with rule that top person must maintain some form of crossface control
 ### Related Content
 - [[Positions/Side Control|Side Control]] (Position) - Primary position where crossface control is fundamental to dominance
 - [[Positions/Knee on Belly|Knee on Belly]] (Position) - Position where crossface prevents opponent from addressing knee pressure
-- [[Positions/Side Control/Scarf Hold Position|Scarf Hold Position]] (Position) - Position featuring modified crossface application with arm wrapped around head
+- [[Positions/Side Control/Kesa Gatame|Kesa Gatame]] (Position) - Position featuring modified crossface application with arm wrapped around head
 - [[Positions/Mount|Mount]] (Position) - Position where crossface isolates arm and prevents effective defensive bridging
 - [[Transitions/Crossface Pass|Crossface Pass]] (Transition) - Specific passing technique built entirely around crossface control mechanics
 - [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) - Pass where crossface prevents opponent from turning in during knee slice
@@ -482,7 +482,8 @@ Flow roll with rule that top person must maintain some form of crossface control
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Essential control principle for half guard and side control dominance</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Essential control principle for half guard and side control dominance</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lucas-Lepri-Half-Guard-Passing-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri Half Guard Passing System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Upper-body alignment in passing</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

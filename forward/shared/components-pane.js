@@ -151,7 +151,6 @@ function corridorBody({
                             <button type="button" class="lesson-name">${escapeHtml(lesson.title)}</button>
                             ${crownBadge({ level: lesson.crown })}
                             <button class="pane-glyph" type="button" data-lesson-deck-toggle aria-label="Show cards for ${escapeHtml(lesson.title)}">▸</button>
-                            <button class="pane-glyph" type="button" data-list-add data-list-surface="lesson" aria-haspopup="menu" aria-expanded="false" aria-label="Add to a list">${icon("star", 12)}</button>
                           </div>`,
                       )
                       .join("")}

@@ -66,7 +66,7 @@ description: "Learn to defend the Half Butterfly to Dogfight transition. Recogni
     },
     {
       "@type": "Question",
-      "name": "The bottom player has a deep underhook and is beginning to rise despite your whizzer—what adjustment prevents the sweep?",
+      "name": "They have a deep underhook and are rising despite your whizzer—what adjustment stops the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the whizzer alone is failing, immediately add hip pressure by driving your hips forward and low on the butterfly hook side to kill the hook's elevation angle. Simultaneously lower your level by bending your knees and driving your shoulder into their head or upper chest. If they continue rising, consider abandoning the whizzer fight and transitioning to a crossface from the opposite side to change the angle of resistance they must overcome."
@@ -82,7 +82,7 @@ description: "Learn to defend the Half Butterfly to Dogfight transition. Recogni
     },
     {
       "@type": "Question",
-      "name": "You successfully flatten the bottom player back down—what should you do immediately to prevent a second attempt?",
+      "name": "You flatten them back down—what do you do immediately to prevent a second attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately consolidate your position by establishing a strong crossface with your shoulder driving across their face, killing any space for re-pummeling the underhook. Strip their underhook by swimming your arm inside to establish your own underhook or overhook control. Drive your chest heavy onto their upper body and begin working to neutralize or extract the butterfly hook. The goal is to remove all three prerequisites for the transition—underhook, loaded hook, and side-facing angle—before they can rebuild their setup."

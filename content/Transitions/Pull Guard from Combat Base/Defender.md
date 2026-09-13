@@ -56,7 +56,7 @@ description: "Defend against guard pull attempts from combat base in BJJ. Postur
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the highest-priority defensive action when you feel your opponent's heels starting to hook behind your lower back?",
+      "name": "You feel their heels hooking behind your lower back. Highest-priority defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your hips backward while posting one hand on the opponent's hip to create space. The critical window is before the ankles cross — once ankles are locked, breaking the guard requires significantly more effort and a full guard opening sequence. If their heels are just starting to hook, push their near-side knee down with your hand while retreating your hips to prevent the ankle crossing that completes guard closure. Speed of response in this one-to-two-second window determines whether you maintain combat base or get pulled into closed guard."
@@ -64,7 +64,7 @@ description: "Defend against guard pull attempts from combat base in BJJ. Postur
     },
     {
       "@type": "Question",
-      "name": "How does your weight distribution in combat base need to change when defending a guard pull versus preparing to pass?",
+      "name": "How should combat base weight distribution differ when defending a guard pull versus passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When defending a guard pull, shift your weight slightly more toward your posted knee in approximately a sixty-five to thirty-five ratio and lower your center of gravity by dropping your hips. This anchors you against forward pulling forces. In contrast, passing preparation requires more weight toward the planted foot with a fifty-fifty distribution and higher hip positioning for mobility. The guard pull defense priority is resisting forward collapse, whereas passing requires dynamic lateral movement. Recognize the opponent's intent and adjust your weight distribution accordingly before they commit."
@@ -72,7 +72,7 @@ description: "Defend against guard pull attempts from combat base in BJJ. Postur
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a strong cross-collar grip and is beginning to break your posture — what is your systematic response?",
+      "name": "They have a deep cross-collar grip and are breaking your posture. Systematic response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, post your same-side hand on their hip bone to create a structural brace against the pull. Second, use your free hand to execute a two-on-one grip break on their collar-gripping wrist, circling your wrist inside their grip and peeling their fingers. Third, once the grip is broken, immediately re-establish your own controlling grip on their bicep or sleeve to prevent them from re-gripping. Fourth, restore your full combat base posture by driving your chest forward and head up. Never attempt to simply power through a deep collar grip as the leverage heavily favors the bottom player."

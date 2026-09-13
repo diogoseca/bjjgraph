@@ -56,7 +56,7 @@ description: "How to defend against Ankle Pick Sweep in BJJ. Recognition cues, d
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first grip you should prioritize stripping when defending against an ankle pick sweep setup?",
+      "name": "Which grip should you strip first when defending the ankle pick sweep setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the upper body grip (collar, wrist, or sleeve control) first, as it provides the pulling force that creates the rotational off-balancing necessary for the sweep to work. Without this grip, the opponent can grab your ankle all they want but cannot generate the diagonal pulling force needed to topple you. The upper body grip is the engine of the sweep - remove it and the technique stalls completely."
@@ -72,7 +72,7 @@ description: "How to defend against Ankle Pick Sweep in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already grabbed your ankle and is beginning the sweep - what is your best immediate response?",
+      "name": "They have your ankle and the sweep is starting: what's your best immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your best immediate response depends on the sweep's progression. If the pull hasn't committed your weight yet, sprawl backward sharply to extract your ankle while driving your hips low. If you're already being pulled off balance, post your free hand to the mat with a bent elbow and immediately circle your feet toward the sweep direction to recover base. As a last resort, if the sweep is succeeding, hook one of their legs between yours as you fall to retain half guard rather than conceding full top position. The worst response is to freeze or try to stand still and resist the rotational force purely through leg strength."

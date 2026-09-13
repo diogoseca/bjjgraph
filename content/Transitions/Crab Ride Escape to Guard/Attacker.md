@@ -120,7 +120,7 @@ description: "Learn to execute the Crab Ride Escape to Guard as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "Your opponent deepens their hook and drives heavy chest pressure as you begin the escape sequence - how do you adjust?",
+      "name": "They deepen the hook and drive chest pressure as you start the crab ride escape. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pause the hook strip and return to a strong defensive turtle posture with both hands protecting the neck. Do not fight the deepened hook against maximum resistance. Instead, wait for the opponent's next adjustment - they cannot maintain maximum hook pressure and simultaneously advance their upper body attacks. When they shift focus to grips or choke setups, the hook pressure naturally decreases. Use these fluctuations to make incremental progress on the strip rather than committing to one sustained effort against peak resistance."

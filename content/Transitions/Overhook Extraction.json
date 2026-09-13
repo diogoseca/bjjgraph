@@ -262,7 +262,7 @@
         }
       },
       {
-        "question": "Your opponent shoots their leg over your shoulder as your arm extracts - what went wrong and how do you respond?",
+        "question": "They shoot a leg over your shoulder as your arm extracts: what went wrong and what do you do?",
         "answer": "Your posture dropped during the extraction, creating the opening for triangle. The response is immediate stacking - drive your head and shoulder up and forward while pushing into your opponent's hips. This removes the space needed for the triangle to lock. The correction for future attempts is maintaining upward posture throughout extraction, not just at the end.",
         "answer_line": "Stack: drive head/shoulder forward",
         "distractors": {
@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "Your extraction attempt is blocked and your opponent begins transitioning to Zombie - what is your response?",
+        "question": "Your extraction is blocked and they transition to Zombie: what is your response?",
         "answer": "Immediately abandon the extraction and shift to stack defense. The Zombie position deepens leg control and creates additional choking threats that are more dangerous than New York. Address the transition by driving your weight forward into your opponent's hips to prevent their leg from climbing higher. Once you have neutralized the Zombie attempt and returned to New York, reassess whether extraction or an alternative escape is more viable.",
         "answer_line": "Abandon extraction, stack defense",
         "distractors": {
@@ -478,7 +478,7 @@
         }
       },
       {
-        "question": "How do the overhook and shin control work together as a defensive system, and what happens when one fails?",
+        "question": "How do the overhook and shin control work together in New York, and what if one fails?",
         "answer": "The overhook traps the arm while the shin control breaks posture and provides leverage that keeps the overhook effective. They form a closed kinetic chain where each element reinforces the other. When shin control fails, the opponent can recover posture, which removes the downward leverage that keeps the arm trapped in the overhook. When the overhook fails, the opponent's arm is free to post and frame, making shin control alone insufficient to maintain New York.",
         "answer_line": "Each element reinforces the other",
         "distractors": {
@@ -506,7 +506,7 @@
         }
       },
       {
-        "question": "Your opponent begins grip-fighting your shin-controlling hand - what is the correct defensive priority?",
+        "question": "They grip-fight your shin-controlling hand in New York: what is your defensive priority?",
         "answer": "Reinforce the shin grip immediately by adjusting your hand position and pulling your shin tighter across their back. Simultaneously deepen the overhook to compensate for any momentary looseness. If they strip the shin grip despite your defense, use the freed leg to immediately transition to triangle or closed guard rather than trying to re-establish New York from a compromised position. The shin grip is the structural foundation - once it is fully compromised, New York cannot be maintained.",
         "answer_line": "Reinforce shin grip, deepen hook",
         "distractors": {

@@ -98,7 +98,7 @@ description: "How to execute 50-50 Guard to Single Leg X-Guard in BJJ. Complete 
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives their hips forward aggressively as you begin extracting your leg - how do you adapt?",
+      "name": "They drive their hips forward as you extract your leg toward Single Leg X—how do you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their forward drive to accelerate your transition rather than fighting it. Their forward momentum loads their weight onto your establishing hooks, creating an immediate sweep opportunity. Continue establishing your butterfly hook while using their drive to elevate and off-balance them. The key insight is that their forward commitment helps your cause because their weight is moving toward your hooks."

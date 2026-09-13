@@ -98,7 +98,7 @@ description: "Learn to recover Knee Shield Half Guard from compromised Quarter G
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure as you attempt the knee shield insertion—how do you adjust your approach?",
+      "name": "Inserting a knee shield from quarter guard under a heavy crossface: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When facing heavy crossface, do not fight it head-on. Turn your head away from the crossface to reduce its effectiveness while driving your forearm frame into their chest to create separation. If the crossface is already deeply locked, abandon the knee shield attempt and instead enter deep half guard by scooping underneath their weight—their forward commitment to the crossface actually facilitates the deep half entry. The key decision point is whether your frames can create space despite the crossface: if yes, proceed with knee shield; if no, redirect to deep half."
@@ -114,7 +114,7 @@ description: "Learn to recover Knee Shield Half Guard from compromised Quarter G
     },
     {
       "@type": "Question",
-      "name": "How do you determine whether to attempt knee shield recovery versus transitioning to deep half guard from quarter guard?",
+      "name": "From quarter guard bottom, how do you choose knee shield recovery versus deep half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on the opponent's weight distribution and your available space. If opponent's weight is distributed evenly or slightly back and your frames can create lateral space, attempt the knee shield—you have the room for your knee to travel across. If opponent has committed heavy forward pressure with deep crossface and chest-to-chest connection, redirect to deep half guard by scooping underneath their weight center instead. The dividing line is whether your forearm frames can push their chest away from yours by at least four inches—if yes, knee shield; if no, deep half."

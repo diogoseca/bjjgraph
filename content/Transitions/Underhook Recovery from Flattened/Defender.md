@@ -56,7 +56,7 @@ description: "Learn to prevent underhook recovery when maintaining flattened hal
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting underhook recovery from flattened half guard?",
+      "name": "What is the earliest cue that they are attempting underhook recovery from flattened half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is small, incremental hip escape movements rather than explosive bridges. These controlled hip movements indicate the bottom player is executing a systematic recovery sequence rather than panicking. The second cue is their near-side arm beginning to create a frame on your hip or shoulder, which is the precursor to the underhook threading attempt. Recognizing these early indicators allows you to increase pressure before significant space is created."
@@ -64,7 +64,7 @@ description: "Learn to prevent underhook recovery when maintaining flattened hal
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your crossface when you feel the opponent beginning to create a frame against your hip?",
+      "name": "You feel them framing on your hip from top flattened half: how do you adjust your crossface?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your crossface deeper and increase the angle of pressure to turn their head further away from the action. Simultaneously shift your chest pressure to follow their hip escape direction, closing the space they are creating. The crossface adjustment should be proactive and aggressive rather than simply maintaining the existing level of control. Your goal is to make their frame ineffective by driving through it with your shoulder weight."
@@ -72,7 +72,7 @@ description: "Learn to prevent underhook recovery when maintaining flattened hal
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to attempt completing the guard pass during an opponent's underhook recovery attempt?",
+      "name": "When is the best moment to finish the pass during their underhook recovery attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal moment is when the bottom player commits their far arm to the underhook path and simultaneously executes a hip escape. This combination often loosens their leg hook because their attention and physical effort are directed toward the underhook rather than maintaining the hook. The hip escape itself creates the angle you need for a knee slice. Time your leg extraction to coincide with this commitment window."
@@ -88,7 +88,7 @@ description: "Learn to prevent underhook recovery when maintaining flattened hal
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the initial space creation that enables underhook recovery without exhausting yourself?",
+      "name": "How do you deny the space that enables underhook recovery without exhausting yourself?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your skeletal structure and body weight positioning rather than muscular effort to prevent space creation. Drive your chest pressure through your sternum onto their chest, using gravity and body angle to maintain compression. Keep your hips heavy and low, distributing weight through your chest and hips rather than your arms. This creates sustainable pressure that does not fatigue your muscles. When they attempt hip escapes, follow with your entire body rather than resisting with your arms."

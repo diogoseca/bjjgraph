@@ -66,7 +66,7 @@ description: "Defend against the Estima Lock from Honey Hole. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "What is the safest response when the Estima Lock is fully locked and dorsiflexion pressure is increasing?",
+      "name": "The Estima Lock is locked and dorsiflexion is building — what is the safest response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately using any available signal — verbal, hand tap, or foot tap. The Estima Lock attacks small foot and ankle structures that have minimal pain buffer before structural failure. Unlike shoulder locks where progressive discomfort provides warning, foot locks can cause torn ligaments or fractures with very little advance pain. Once the forearm is locked across the ankle and pressure is building, escape probability is near zero and injury risk escalates rapidly with each second of delay."
@@ -90,7 +90,7 @@ description: "Defend against the Estima Lock from Honey Hole. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why is it particularly dangerous to delay tapping to the Estima Lock compared to other leg lock submissions?",
+      "name": "Why is delaying the tap to an Estima Lock more dangerous than to other leg locks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Estima Lock targets the foot and ankle through dorsiflexion, attacking small ligaments and bones that have significantly less pain tolerance before structural failure compared to larger joints. Heel hooks attack the knee with some progressive discomfort, and armbars create clear escalating pain in the elbow. Foot locks can cause torn tarsometatarsal ligaments or metatarsal fractures with minimal warning pain. Additionally, the compact lever system means pressure increases rapidly with small attacker adjustments, leaving almost no reaction time once breaking force is reached."

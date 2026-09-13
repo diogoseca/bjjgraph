@@ -56,7 +56,7 @@ description: "How to defend against Triangle Escape in BJJ. Recognition cues, de
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your first priority when you feel the escaper beginning to drive their head upward to recover posture?",
+      "name": "You have the triangle and feel them driving their head up to posture: what comes first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your first priority is to immediately increase downward pressure on their head by gripping behind the skull or deep collar and pulling them forward while simultaneously extending your hips upward. This creates opposing forces that counteract their posture recovery. You must address the posture attempt within the first one to two seconds, because once they establish full spinal alignment with a posted arm, breaking them back down becomes exponentially more difficult and energy-intensive."
@@ -64,7 +64,7 @@ description: "How to defend against Triangle Escape in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the triangle and transition to an armbar instead of continuing to fight for the choke?",
+      "name": "When should you abandon the triangle for an armbar instead of fighting for the choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to the armbar when the escaper has achieved strong upright posture and you can no longer effectively pull their head down. Their posture recovery actually creates the space needed for the armbar transition because their upward drive separates their head from your hips. The trigger is when you feel your head-pulling grip losing the battle against their posture and their trapped arm begins to retract. At this point the armbar becomes higher percentage than fighting for a triangle that has lost its optimal geometry."
@@ -72,7 +72,7 @@ description: "How to defend against Triangle Escape in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "How do you counter the escaper's circular movement toward their trapped arm side without losing the triangle lock?",
+      "name": "How do you counter their circling toward the trapped-arm side without losing the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Counter the circular escape by pivoting your hips in the same direction the escaper is moving, using your upper back and shoulders as the pivot point. Scoot your hips to maintain perpendicular alignment relative to their centerline. Simultaneously increase the downward pull on their head to limit how much forward drive they can generate during the circle. If your angle adjustment keeps pace with their lateral movement, the triangle remains at optimal choking geometry despite their movement. You can also hook their circling leg with your arm to slow their stepping pattern."
@@ -80,7 +80,7 @@ description: "How to defend against Triangle Escape in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your opponent has pinned their trapped arm to their ribs and you cannot pull it across their neck—what adjustments maintain the choke?",
+      "name": "They pin the trapped arm to their ribs so you can't cross it: how do you keep the choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the trapped arm is pinned to the ribs and cannot be pulled across, shift your choking strategy to maximize pressure through leg positioning and angle alone. Angle your body more aggressively to approximately 45 degrees, directing the choking leg's knee toward the trapped shoulder. Elevate your hips higher to increase the downward pressure vector on the neck. You can also try to reach over their shoulder and grip their far lat or belt to pull their torso into a curl that re-exposes the arm. If none of these adjustments restore finishing pressure, transition to armbar or omoplata rather than fighting a structurally defended choke."
@@ -88,7 +88,7 @@ description: "How to defend against Triangle Escape in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "The escaper stands up while you have the triangle locked—what is your immediate defensive response to prevent being slammed?",
+      "name": "They stand up with your triangle locked: how do you respond to avoid being slammed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the escaper stands with the triangle locked, immediately hook the back of one of their legs with your arm to prevent them from walking forward to stack or slam. Pull your own head off the mat by crunching forward and control their posture with your grips. If slamming is a concern, release the triangle voluntarily and transition to an open guard system rather than risking injury. In competition settings where slamming is illegal, maintain the triangle and use the standing position to increase choking pressure through gravity by letting your weight hang from the lock. In MMA or self-defense contexts, unhook and disengage rather than accepting a slam."

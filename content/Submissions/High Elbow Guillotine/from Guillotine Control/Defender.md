@@ -58,7 +58,7 @@ description: "Defend against the High Elbow Guillotine from Guillotine Control. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the attacker is transitioning from a standard guillotine to the high elbow variation?",
+      "name": "What cues show the attacker is switching from a standard to a high elbow guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cues are the attacker's elbow beginning to rise vertically toward the ceiling rather than squeezing horizontally, a grip change from standard palm-to-palm to a wrist-level clasp, and increased pressure shifting from the front of your throat to behind and beneath your jawline. You may also feel the attacker's hips begin extending forward as they coordinate the finishing mechanics."

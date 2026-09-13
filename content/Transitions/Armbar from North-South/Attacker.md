@@ -76,7 +76,7 @@ description: "How to execute Armbar from North-South in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "You are maintaining North-South and your opponent's near-side elbow drifts away from their ribs—what is your immediate sequence?",
+      "name": "North-south top: their near elbow drifts off their ribs — what is your immediate sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your optimal attack window. Immediately secure a pistol grip on their wrist with your same-side hand before they retract the arm. Simultaneously thread your opposite arm under their elbow for the underhook. Once the two-on-one control is locked, you must commit to the explosive hip rotation without hesitation—the arm isolation window closes quickly as the opponent recognizes the threat."

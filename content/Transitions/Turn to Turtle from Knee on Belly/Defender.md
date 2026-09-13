@@ -66,7 +66,7 @@ description: "Defend against the Turn to Turtle escape from Knee on Belly. Learn
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully turns to turtle and you have followed with chest pressure — what is your immediate attack sequence?",
+      "name": "They turn to turtle and you follow with chest pressure. What is your attack sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, establish seatbelt grip with your choking arm over their shoulder and your other arm under their armpit, hands clasped together. Second, begin inserting your bottom hook by threading your foot inside their near-side thigh while maintaining heavy shoulder pressure. Third, once the first hook is secure, work to insert the second hook while keeping constant chest-to-back contact. Throughout this sequence, be prepared to follow any granby roll or sit-out attempt by staying connected to their back with your body weight."

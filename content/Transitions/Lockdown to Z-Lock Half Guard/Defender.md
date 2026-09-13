@@ -56,7 +56,7 @@ description: "Complete guide to defending against the Z-Lock Half Guard transiti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that indicates the top player is attempting Z-Lock transition rather than standard leg extraction?",
+      "name": "Which cues show the top player is going for the Z-Lock rather than a standard leg extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is an unusual increase in crossface and shoulder pressure combined with the trapped knee beginning an inward circular rotation rather than a straight backward pull. Standard leg extraction involves pulling backward against the lockdown, while the Z-Lock transition uses rotational force. Additionally, the top player will post their free leg wider than normal and pin your inside arm more aggressively - these setup actions distinguish Z-Lock attempts from general pressure passing."
@@ -64,7 +64,7 @@ description: "Complete guide to defending against the Z-Lock Half Guard transiti
     },
     {
       "@type": "Question",
-      "name": "Why is the upper body grip battle more important than leg tension for preventing the Z-Lock transition?",
+      "name": "Why does the upper body grip battle stop the Z-Lock more than leg tension does?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Z-Lock transition requires the top player to first suppress lockdown attacks through heavy crossface and shoulder pressure. Without upper body dominance, they cannot safely shift weight to attempt the knee circle. By winning the underhook battle and preventing crossface control, you force the top player to address upper body threats before they can work their legs, effectively denying them the prerequisite conditions for the Z-Lock entry. Leg tension alone cannot prevent the transition if the opponent has complete upper body control."
@@ -72,7 +72,7 @@ description: "Complete guide to defending against the Z-Lock Half Guard transiti
     },
     {
       "@type": "Question",
-      "name": "Your lockdown has been broken and the opponent's knee is crossing your hip - what is your best last-resort defensive option?",
+      "name": "Your lockdown is broken and their knee is crossing your hip: what is your last-resort defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the lockdown is broken and the knee is crossing, hip escape aggressively away from the direction of the crossing knee while threading your inside arm for an underhook. The shrimping motion can prevent the knee from reaching full Z-Lock position, and the underhook gives you leverage to come up to dogfight or at minimum create enough space to recover knee shield. If the Z-Lock consolidates fully, transition your mindset from lockdown defense to half guard bottom escape sequences - attempting to re-establish lockdown against a consolidated Z-Lock wastes energy."
@@ -80,7 +80,7 @@ description: "Complete guide to defending against the Z-Lock Half Guard transiti
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your lockdown tension pattern to make the Z-Lock transition as difficult as possible?",
+      "name": "How should you vary your lockdown tension to make the Z-Lock transition hardest?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Vary your lockdown tension dynamically rather than maintaining static pressure. Alternate between strong extensions that off-balance the opponent and tight squeezes that prevent knee rotation. The variation in tension makes it impossible for the opponent to time their knee circle because the resistance pattern keeps changing. Additionally, periodically pulse strong squeeze-and-extend combinations that snap their leg back into deep lockdown, resetting any progress they made toward the knee circle."

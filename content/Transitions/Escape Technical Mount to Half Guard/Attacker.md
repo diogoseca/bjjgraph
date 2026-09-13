@@ -88,7 +88,7 @@ description: "Complete guide to escaping Technical Mount to Half Guard in BJJ. L
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins shifting weight forward to set up the armbar—how do you coordinate your escape with this movement?",
+      "name": "They shift weight forward for the armbar: how do you time your escape with that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your arm protection grip while using the forward weight shift as your trigger. Bridge explosively as their weight moves forward, riding their momentum upward. Immediately follow with the hip escape toward their posted leg side. The key is that their forward commitment makes it difficult for them to follow your lateral hip movement. You are converting their vertical weight shift into your lateral escape—their attack becomes your escape window. Never release arm protection during this coordination."
@@ -120,7 +120,7 @@ description: "Complete guide to escaping Technical Mount to Half Guard in BJJ. L
     },
     {
       "@type": "Question",
-      "name": "Your opponent recognizes your hip escape and begins transitioning to back control—what adjustment do you make?",
+      "name": "They read your hip escape and start taking your back: what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately prioritize establishing half guard hooks over continued hip escape. The moment you feel them shift to follow your rotation toward back control, stop the lateral shrimp and aggressively insert your knee to trap their leg. Half guard—even a poor half guard—prevents them from fully establishing back control by keeping one of their legs entangled. If you have already turned too far, fight to keep your back toward the mat rather than giving them a clean path to your back, and work to insert a butterfly hook to disrupt their hook insertion."

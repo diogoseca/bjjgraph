@@ -58,7 +58,7 @@ description: "How to defend against Electric Chair in BJJ. Recognition, escape p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most effective early-stage defense against Electric Chair before the attacker begins inversion?",
+      "name": "Before they invert for the Electric Chair, what is your best early defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective early defense is posting your far hand wide on the mat to establish a strong base while simultaneously fighting to strip the attacker's underhook. Without the underhook, the attacker cannot maintain the upper body connection needed to complete inversion. Combine this with forward driving pressure through your shoulder and chest to compress their space. This two-pronged approach (remove underhook + maintain base) addresses both the positional and leverage components the attacker needs."
@@ -74,7 +74,7 @@ description: "How to defend against Electric Chair in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully inverted and begun hip extension - what is your last viable defensive option?",
+      "name": "They have fully inverted and are extending the Electric Chair — what is your last option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is an explosive bridge toward the attacker combined with pulling your leg back to create momentary slack in the lockdown. This must be timed precisely during a brief gap in their extension pressure. If you can create enough slack, immediately use circular hip motion to begin leg extraction. However, if the attacker has achieved full extension with rotational torque and tight lockdown, this window is extremely small. Recognize when the position is fully locked and tap safely rather than risking knee or hip injury attempting a low-percentage escape."
@@ -90,7 +90,7 @@ description: "How to defend against Electric Chair in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "What are the key recognition cues that distinguish Electric Chair setup from a standard lockdown retention?",
+      "name": "Which cues tell you it's an Electric Chair setup and not just lockdown retention?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standard lockdown retention involves the attacker maintaining the figure-four leg configuration with moderate extension to prevent passing. Electric Chair setup is distinguished by three additional cues: (1) the attacker secures a deep underhook and actively pulls your weight forward rather than just maintaining position, (2) the attacker begins rotating their shoulders away from you and moving their head toward the mat in the opposite direction, and (3) you feel increasing hip extension pressure combined with rotational force on your trapped leg rather than just the linear pull of standard lockdown extensions. Recognizing these escalation signals allows you to shift from standard lockdown defense to Electric Chair prevention before the submission develops."

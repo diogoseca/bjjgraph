@@ -64,7 +64,7 @@ description: "Defend the Takedown from Standing Guard in BJJ. Sprawl mechanics, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent shoots a deep double leg and you fail to sprawl in time—what is your best defensive option?",
+      "name": "They shoot a deep double and you miss the sprawl. What is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the sprawl window has passed and the opponent has deep chest-to-thigh contact, your best option is to immediately establish a guillotine or front headlock grip on their exposed head and neck. Use your hips to create a frame against their driving force while securing the head control, then work to establish a dominant choke position during the transition to ground. If no head control is available, accept the takedown but immediately pull half guard with an underhook rather than allowing them to land in side control with freedom to consolidate."
@@ -72,7 +72,7 @@ description: "Defend the Takedown from Standing Guard in BJJ. Sprawl mechanics, 
     },
     {
       "@type": "Question",
-      "name": "How do you position your hips during a sprawl defense to maximize the effectiveness of your hip pressure?",
+      "name": "How should you position your hips in a sprawl to maximize pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips directly toward the mat in a downward trajectory, landing your hip bones on the opponent's shoulders and upper back rather than on the mat beside them. Your legs should extend backward at approximately 45 degrees with toes pointed and pushing against the mat for additional pressure. The critical detail is keeping your chest up and weight driving forward into the opponent rather than lying flat—this creates maximum pressure on their head and shoulders while preventing them from circling or adjusting their penetration angle underneath your sprawl."
@@ -80,7 +80,7 @@ description: "Defend the Takedown from Standing Guard in BJJ. Sprawl mechanics, 
     },
     {
       "@type": "Question",
-      "name": "When is it appropriate to pull guard defensively rather than attempting to sprawl against a takedown?",
+      "name": "When is pulling guard the right choice instead of sprawling against a takedown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Guard pulling is appropriate when you have established controlling grips before the takedown attempt initiates and you recognize that the opponent's shot timing and depth will likely beat your sprawl. It is also appropriate when the opponent has significant wrestling advantages and repeated sprawl attempts have failed in previous exchanges. The critical requirement is that you have grips established before sitting—a collar and sleeve grip, two-on-one control, or double sleeve grips that allow you to dictate the landing position and immediately establish your guard structure during the transition."
@@ -88,7 +88,7 @@ description: "Defend the Takedown from Standing Guard in BJJ. Sprawl mechanics, 
     },
     {
       "@type": "Question",
-      "name": "Your sprawl successfully stops the initial shot but your opponent maintains a single leg grip—how do you finish the defense?",
+      "name": "Your sprawl stopped the shot but they still hold your single leg. How do you finish the defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the initial shot stopped, use your hip pressure and crossface to drive the opponent's head toward the mat on the outside of your body. Simultaneously work to peel their grip off your leg by using your free hand to strip their wrist control or by circling your captured leg in a large arc to break their grip mechanically. If the grip remains, wizzer their arm deeply and use the overhook to rotate them underneath you while hopping your free leg backward to extract the captured leg. Never allow them to recover their level with the leg still controlled."

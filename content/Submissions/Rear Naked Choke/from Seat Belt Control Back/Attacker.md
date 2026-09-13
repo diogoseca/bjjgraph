@@ -76,7 +76,7 @@ description: "Learn to finish the Rear Naked Choke from Seat Belt Control Back. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Rear Naked Choke target and why is bilateral compression critical for the finish?",
+      "name": "What does the RNC target anatomically, and why is bilateral compression critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Rear Naked Choke targets both carotid arteries on the lateral sides of the neck and the jugular veins. Bilateral compression restricts blood flow to and from the brain simultaneously, producing unconsciousness within 5-10 seconds of properly applied pressure. Unilateral compression (one side only) is significantly less effective because the opposite carotid maintains blood supply to the brain, extending the time to finish and giving the opponent substantially more opportunity to defend and escape."
@@ -92,7 +92,7 @@ description: "Learn to finish the Rear Naked Choke from Seat Belt Control Back. 
     },
     {
       "@type": "Question",
-      "name": "What indicators tell you the choke is properly positioned on the carotid arteries versus dangerously compressing the trachea?",
+      "name": "What tells you the RNC sits on the carotids rather than dangerously on the trachea?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A properly positioned choke sits in the soft tissue grooves on either side of the trachea — you should feel soft muscle tissue under the forearm blade rather than the hard midline cartilage ridge of the windpipe. The opponent will feel mounting head pressure and visual changes (tunnel vision) rather than pain or coughing. If you feel the hard tracheal ridge under your forearm, or if the opponent is coughing, gagging, or making strained breathing sounds rather than quietly fading, the choke is mispositioned and must be adjusted laterally immediately."
@@ -100,7 +100,7 @@ description: "Learn to finish the Rear Naked Choke from Seat Belt Control Back. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a tight chin tuck with both hands defending their neck — how do you systematically clear the chin?",
+      "name": "RNC from seat belt: how do you systematically clear a tight chin tuck with both hands defending?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the defense in layers rather than fighting through it. First, use the under-arm to strip or pin one of their defending hands, reducing their grip fighting capability by half. Second, use your free hand to frame against the opponent's forehead and tilt the head backward slightly, opening the chin line. If the chin remains tight, use a forearm wedge — slide the blade edge of the forearm along the jawline from the side rather than trying to pry under the chin from the front. Alternatively, switch to an armbar or crucifix attack to force them to move their hands away from the neck, creating the opening for the choke on the re-attack."

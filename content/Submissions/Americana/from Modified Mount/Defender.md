@@ -76,7 +76,7 @@ description: "Complete defense guide against the Americana from Modified Mount. 
     },
     {
       "@type": "Question",
-      "name": "What defensive options remain available once the figure-four grip is fully locked and the elbow is pinned?",
+      "name": "In Modified Mount, the figure-four is locked and your elbow pinned — what defenses remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Options are limited but not zero. First, attempt to straighten the arm by driving your hand toward the ceiling using your entire arm's strength - this fights the figure-four structure at its weakest point. Second, turn your entire body aggressively toward the attacker to close the rotation angle, preventing the wrist from traveling toward your hip. Third, attempt to get your elbow off the mat by bridging and shrimping simultaneously to disrupt the fulcrum. If none of these work within the first few seconds, tap immediately rather than allowing continued rotational pressure that risks shoulder injury."

@@ -64,7 +64,7 @@ description: "How to defend and escape the Kneebar from Backside 50-50 in BJJ. R
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between safe positional control pressure and dangerous finishing pressure during a kneebar?",
+      "name": "How do you tell positional kneebar pressure from dangerous finishing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Safe positional pressure feels like tightness and compression around your leg without genuine extension against the knee joint. Dangerous finishing pressure is characterized by a distinct stretching sensation at the knee as the attacker drives their hips forward while your ankle is anchored. If your knee remains bent, the pressure is positional. If you feel your knee being forcefully straightened with increasing extension, that is finishing pressure requiring immediate tap if you cannot re-bend."
@@ -72,7 +72,7 @@ description: "How to defend and escape the Kneebar from Backside 50-50 in BJJ. R
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a deep leg triangle and fulcrum position. What is your last-resort defensive option?",
+      "name": "They have a deep leg triangle and fulcrum on your kneebar; what is your last resort?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Roll your body toward the attacker to align your leg with their extension force, eliminating the hyperextension angle. This is a last resort because it concedes position and may lead to a belly-down kneebar if the attacker follows. However, it immediately neutralizes finishing pressure and creates a scramble opportunity. Commit fully to the roll - half-hearted rolls leave you stuck in the worst possible finishing angle. After rolling, immediately work to face the attacker and recover guard."
@@ -80,7 +80,7 @@ description: "How to defend and escape the Kneebar from Backside 50-50 in BJJ. R
     },
     {
       "@type": "Question",
-      "name": "What recognition cues should trigger your defensive response before the kneebar is fully established?",
+      "name": "What cues should trigger your defense before the kneebar is fully established?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the release of chest-to-back pressure combined with lateral weight shift as the attacker begins rotating perpendicular to your leg. You will feel their forearm or hand pressing your hip, pinning it to prevent rotation. Their legs will begin moving around your upper thigh in a triangling motion. React at the first cue rather than waiting for confirmation - the cost of a false alarm is negligible compared to the cost of late recognition."

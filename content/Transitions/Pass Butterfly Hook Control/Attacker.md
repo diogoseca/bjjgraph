@@ -98,7 +98,7 @@ description: "Complete guide to executing the butterfly hook control pass in BJJ
     },
     {
       "@type": "Question",
-      "name": "You pin the near-side hook but the opponent immediately hip escapes and re-inserts it—what adjustment do you need?",
+      "name": "You pin the near hook but they hip escape and re-insert it: what must you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your upper body control was insufficient during the hook pin. When you pinned the hook, the opponent had enough freedom to hip escape because your crossface or collar grip was not keeping their shoulders pinned to the mat. Return to step one and re-establish strong crossface and upper body control before re-attempting the hook pin. Hook elimination only succeeds when the opponent's upper body is controlled enough to prevent significant hip escape movement."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the butterfly hook control pass in BJJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent drops their hooks to shallow depth and starts framing aggressively—should you continue the pass or change approach?",
+      "name": "They drop to shallow hooks and frame hard: continue the pass or change approach?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Continue the pass. Shallow hooks and frames indicate the opponent is shifting to defensive retention rather than offensive sweeping. Shallow hooks have minimal sweep power, so you can increase forward pressure without significant sweep risk. Drive through the frames with your chest while pinning the shallow hooks with your knees. This is actually the ideal scenario for completing the pass because the opponent has abandoned their offensive guard for a purely defensive posture."

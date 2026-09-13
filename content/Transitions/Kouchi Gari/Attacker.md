@@ -84,7 +84,7 @@ description: "How to execute Kouchi Gari in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Why is Kouchi Gari particularly effective as part of combination attacks rather than as an isolated technique?",
+      "name": "Why is Kouchi Gari more effective in combination than as an isolated attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Because the defensive reactions to Kouchi Gari (stepping back, widening stance, hopping) create perfect setups for other techniques like Osoto Gari, Uchi Mata, or Deashi Harai. When an opponent defends one way, they expose themselves to the follow-up. This makes Kouchi Gari an excellent opening move in a combination, even when the initial throw does not land cleanly."
@@ -419,6 +419,14 @@ Kouchi Gari is one of the safer takedown techniques when executed properly, as t
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Kenta-Iwamoto-Foot-Sweep-System" data-cta="related-system-card" data-system-slug="systems/kenta-iwamoto-foot-sweep-system" data-system-name="Kenta Iwamoto Foot Sweep System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Kenta Iwamoto Foot Sweep System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Related small inside leg attack</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

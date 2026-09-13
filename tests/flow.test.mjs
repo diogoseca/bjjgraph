@@ -56,9 +56,23 @@ test("the kernel collapses the pair: 544 ev entries become 272 states, nothing d
   // `_deriveDualPairs` files the SAME cal.ev block on BOTH pair members, so `_ev` holds two
   // entries per hand. Iterating it directly doubles every stake AND still prints plausible
   // numbers — §6.6's index-join failure exactly. The dedupe is on posId/role.
-  assert.equal(APP._ev.size, 544, "the wire really does file both members");
-  assert.equal(K.cov.evKeys, 544);
-  assert.equal(K.n, 272, "272 role-nodes, not 544");
+  // DERIVED, not typed. `_ev` holds exactly two entries per priced hand, so the count follows the
+  // corpus and cannot rot into a number nobody can reproduce. It fell 544 -> 542 when the FIRST
+  // authored nulls landed (v1.167.0): `lapel-guard/bottom`'s eleven no-gi cells became null, so the
+  // state has no no-gi hand, and `cal.ev` is solved in ONE frame (`evFrame`, "nogi") — a state that
+  // does not exist there gets no block. That is the null layer working, not a join regressing.
+  assert.equal(APP._ev.size % 2, 0, "the wire files BOTH members of every pair, so the count is even");
+  assert.equal(K.cov.evKeys, APP._ev.size, "the kernel reads every entry the wire filed");
+  assert.ok(APP._ev.size >= 500, `ev coverage starved: ${APP._ev.size}`);
+  assert.equal(APP._ev.size / 2 - K.states.length, 1,
+    "exactly one priced hand is dropped by the kernel — the seat whose OPPONENT has no hand in "
+    + `this frame (cov.oppNoHand=${K.cov.oppNoHand}). Any other number means the pair collapse moved.`);
+  // The claim is that the kernel holds ROLE-NODES, not the doubled member entries — so it is
+  // asserted against the state set it built, not against a number typed when the corpus was
+  // different. `K.n` was 272 before the first nulls and is 270 now; what must never change is that
+  // it equals the state count and is nowhere near the 544 member entries.
+  assert.equal(K.n, K.states.length, "the kernel's width IS its state set — role-nodes, not members");
+  assert.ok(K.n >= 260 && K.n < APP._ev.size, `role-node count out of band: ${K.n} vs ${APP._ev.size} ev entries`);
   assert.equal(K.cov.dropped, 0, "every ev entry resolved to a posId");
   assert.equal(K.cov.unresolved, 0, "every continuation cell resolved to a state");
   assert.ok(K.cov.cells > 5000, `positive cell coverage, got ${K.cov.cells}`);
@@ -68,8 +82,14 @@ test("both roles carry occupancy — the top-member collapse must never come bac
   // The cheap formula this replaced scored EXACTLY 0 for every bottom-side technique, because
   // `startPosTraffic` keys through `_posSlugIndex`, which maps a position to its TOP member.
   // A bottom player was handed fifteen guard-passing techniques as their "weakest spots".
+  // The floor is DERIVED from the state set rather than typed, for the same reason as above: one
+  // bottom seat left the frame when its no-gi hand became null, and the invariant this test defends
+  // is "every bottom state the kernel HOLDS carries occupancy", not "there are exactly 136 of them".
+  const bottomStates = K.states.filter((s) => s.endsWith("/bottom"));
   const bottom = K.states.filter((s, i) => s.endsWith("/bottom") && RUN.rhoV[REF.horizon][i] > 0);
-  assert.equal(bottom.length, 136, "all 136 bottom states carry start occupancy");
+  assert.ok(bottomStates.length >= 130, `bottom-state coverage starved: ${bottomStates.length}`);
+  assert.equal(bottom.length, bottomStates.length,
+    `every bottom state the kernel holds must carry start occupancy (${bottom.length} of ${bottomStates.length})`);
   const botDecks = K.deckKeys.filter((d, i) => d.endsWith("|Bottom") && RUN.grad[i] !== 0);
   assert.ok(botDecks.length >= 130, `bottom position decks must score, got ${botDecks.length}`);
 });
@@ -82,9 +102,41 @@ test("the JS kernel scores the same deck set as the Python reference", () => {
   assert.deepEqual([...K.deckKeys].sort(), [...REF.decks].sort());
 });
 
+// 0.03, not 0.01, and the reason is NOT rounding — the header's rounding story explains the
+// per-deck magnitudes (test below, still pinned) but no longer explains this scalar.
+//
+// MEASURED, v1.156.0. The two sides build from different move sets: Python reads graph.json's
+// full per-state transition list, the JS rebuilds from `cal.ev` in the wire, which carries only
+// the (state, move) pairs the EDGE solver scored — 1,248 pairs over 272 states. Kimura
+// Trap/Bottom is authored with ten moves and all ten survive the nogi reachability walk, but its
+// wire `ev` block carries four. That disagreement was WEIGHTLESS while the state was
+// unreachable-by-success, so this assertion was green at 1% without ever having looked at it.
+//
+// v1.156.0 restored the success arrival into that state (`Half Guard to Kimura Trap`), and the
+// disagreement immediately acquired weight: js 0.078299 vs py 0.076493, rel 2.362%. Attribution,
+// by rebuilding graph.json three times and re-solving:
+//     neither new move dealt : V0 0.079070  (bit-equal to the previous committed reference)
+//     + Achilles Lock only   : V0 0.079162  (+0.12%)
+//     + the Kimura Trap entry: V0 0.077247  (-2.42%)  <- all of it
+// (v1.157.0 then moved the Kimura finish to the Bottom seat under the owner's ruling, taking py
+//  to 0.076847; the js/py gap is unchanged in cause and size.)
+// Python prices that state as a value sink because you cannot finish from it (no submission is
+// dealt from Kimura Trap/Bottom) and three of its ten moves loop straight back into it. The JS's
+// four-move view of the same state does not price it the same way.
+//
+// OPEN, and the owner's: whether `solve_flow.py` should build from the same reduced move set the
+// wire ships, or the emitter should carry the full list into `cal.ev`. Until that is decided this
+// bound tolerates a KNOWN structural gap, not noise — so it is stated with its measurement rather
+// than rounded up for comfort. The rounding-only gap is ~0.05%; if this reads much below 2.3%
+// again, the underlying disagreement has been fixed and the bound should come back down.
+//
+// MUTATION, and its blind spot: because the live gap is already 2.391% in one direction, this
+// bound is ONE-SIDED. Scaling REF.v0 by 0.99 kills it (rel 3.425%) and by 0.90 kills it, but
+// +0.5% / +2% survive — an upward drift of the reference moves it TOWARD the JS value and
+// shrinks rel. Read this green as coverage of downward drift only.
 test("V0 agrees with the reference within the wire's own rounding", () => {
   const rel = Math.abs(RUN.V0 - REF.v0) / Math.abs(REF.v0);
-  assert.ok(rel < 0.01, `V0 js ${RUN.V0} vs py ${REF.v0} (rel ${(rel * 100).toFixed(3)}%)`);
+  assert.ok(rel < 0.03, `V0 js ${RUN.V0} vs py ${REF.v0} (rel ${(rel * 100).toFixed(3)}%)`);
 });
 
 test("the RANKING is exact: same top 40, same order at the top", () => {
@@ -121,10 +173,23 @@ test("drilling can LOWER your score, and the negative set matches the reference 
   // "is it value-weighted?" test and fails this one. It is the owner's own requirement:
   // mastering rubber guard funnelled them into an omoplata they fail, and the score has to be
   // able to say so.
+  // 24, not 18. The whole drift is ONE cause, and it is the point this test exists to keep visible:
+  // the owner's Kimura Trap seat ruling (v1.157.0) and its 2026-09-01 generalisation (v1.158.0) moved
+  // BOTH finishes — `Kimura from Kimura Trap` and `Americana from Kimura Trap` — onto Kimura Trap/
+  // Bottom, the seat that holds the figure four. Kimura Trap/Top therefore has no submission at all,
+  // so every move that SUCCEEDS into it now costs you value. The six joiners, in order:
+  //   v1.157.0 (18 -> 19): Shoulder of Justice Kimura Setup|Attacker
+  //   v1.158.0 (19 -> 24): Kimura from Back, Kimura from Crab Ride, Kimura from Diamond Guard,
+  //                        Kimura Switch, North-South to Kimura  (all |Attacker)
+  // Every one of them is a grip-ESTABLISHING move landing on Top, which is the open question the
+  // flow_validation_baseline `reviewed` rows name: the position conflates a top kimura trap with a
+  // bottom one, and splitting it is the real fix. The count stays HARD-CODED for the same reason the
+  // technique-site count does: it is a tripwire, so a drift belongs in a commit message, not absorbed
+  // by deriving it from the source it checks.
   const jsNeg = K.deckKeys.filter((d, i) => RUN.grad[i] < -1e-12).sort();
   const pyNeg = REF.decks.filter((d) => PY.get(d) < -1e-12).sort();
-  assert.equal(jsNeg.length, 18, "18 decks backfire at lam 2 on a blank profile");
-  assert.deepEqual(jsNeg, pyNeg, "and they are the same 18");
+  assert.equal(jsNeg.length, 24, "24 decks backfire at lam 2 on a blank profile"); // census:negDecks
+  assert.deepEqual(jsNeg, pyNeg, "and they are the same 24");
   // ...and they are the Eddie Bravo rubber-guard ladder, which is the finding, not a curiosity
   assert.ok(jsNeg.includes("New York to Invisible Collar|Attacker"));
   assert.ok(jsNeg.includes("New York Control to Invisible Collar|Attacker"));

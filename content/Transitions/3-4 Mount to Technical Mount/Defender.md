@@ -56,7 +56,7 @@ description: "Defend against the 3-4 Mount to Technical Mount transition in BJJ.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is transitioning from 3-4 Mount to Technical Mount?",
+      "name": "What are the earliest cues that they are moving from 3-4 Mount to Technical Mount on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is their hands shifting from general pressure to specifically targeting one of your arms with a two-on-one grip on your wrist and elbow. Following this, you will feel increased forward weight shift onto your upper chest and shoulders as they prepare for leg repositioning. The posted knee will begin sliding upward along the mat rather than staying in its static outside position. Recognizing the arm isolation attempt is the earliest and most important signal."
@@ -96,7 +96,7 @@ description: "Defend against the 3-4 Mount to Technical Mount transition in BJJ.
     },
     {
       "@type": "Question",
-      "name": "The attacker has already secured arm control and begun sliding their knee—what is your last-resort defensive option?",
+      "name": "They have your arm and are sliding their knee toward Technical Mount—what is your last resort?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once arm control is established and the knee is moving, your best option is an explosive bridge timed to the exact moment their posted leg lifts off the mat during repositioning. Bridge toward the mounted side and immediately shrimp your hips away to insert a knee shield for half guard recovery. If the bridge fails to dislodge them, immediately grip your own wrist with your free hand to create a gable grip on the controlled arm, preventing full extension and buying time to work escapes from the now-established Technical Mount."

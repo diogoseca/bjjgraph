@@ -56,7 +56,7 @@ description: "How to defend against Scissor Sweep in BJJ. Recognition cues, defe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your first defensive priority when you recognize a Scissor Sweep setup beginning from inside closed guard?",
+      "name": "What is your first priority when you feel a scissor sweep starting inside closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your first priority is maintaining or recovering upright posture with your head over your hips. The Scissor Sweep requires your weight to be committed forward, so strong posture is the single most important defensive element. Simultaneously, you should strip the collar grip that is being used to break your posture. Without broken posture, the mechanical advantage of the scissor motion is dramatically reduced and you can defend with base alone."
@@ -72,7 +72,7 @@ description: "How to defend against Scissor Sweep in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has opened their guard and placed their shin across your abdomen - what specific base adjustment prevents the sweep?",
+      "name": "They open guard and put a shin across your abdomen: what base adjustment stops the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your knees as far as possible to create maximum lateral resistance. Drop your hips low by sitting back slightly to lower your center of gravity. Angle your body slightly toward the sweep direction so your weight counterbalances the incoming force. If possible, step your knee on the sweep side outward and back to create a wider triangular base that the scissoring motion cannot collapse. This base adjustment must happen instantly upon recognizing the shin placement."
@@ -88,7 +88,7 @@ description: "How to defend against Scissor Sweep in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "How does your defensive response differ when the opponent attempts a Scissor Sweep versus a Hip Bump Sweep from the same position?",
+      "name": "How does defending the scissor sweep differ from defending the hip bump sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against the Scissor Sweep, your defense is primarily lateral - you resist sideways displacement through wide base and posting. Against the Hip Bump Sweep, your defense is primarily rearward - the opponent sits up into you and you must resist being pushed backward by driving your weight forward or posting behind you. The critical tactical awareness is that these two sweeps create a dilemma: defending the Scissor by pulling your weight back makes you vulnerable to the Hip Bump, while leaning forward to prevent the Hip Bump makes you vulnerable to the Scissor. Maintaining centered posture with a wide base addresses both threats simultaneously."

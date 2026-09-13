@@ -64,7 +64,7 @@ description: "How to defend against Ringworm Sweep to Back Control in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "You feel the sweep beginning and cannot prevent the off-balance - what is your emergency back defense?",
+      "name": "The Ringworm sweep is past the point of no return: what is your emergency back defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately spin toward the sweeping player rather than away from them during the fall. Turning toward them denies back exposure and prevents easy hook insertion. Post your hands as you land and establish frames to face the opponent, accepting the positional loss to half guard or scramble rather than conceding full back control. Your goal shifts from sweep prevention to back defense the moment you feel the point of no return."
@@ -80,7 +80,7 @@ description: "How to defend against Ringworm Sweep to Back Control in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secure Ringworm Guard but no secondary grips yet - what specific actions should you take?",
+      "name": "They have Ringworm Guard but no secondary grips yet: what specific actions do you take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the optimal window for defense. Immediately control their free hand by gripping their wrist or sleeve to prevent them from establishing the collar or sleeve grip that powers the sweep. Simultaneously, begin working to strip the lapel with your other hand while maintaining a low base. Without the secondary grip, the bottom player cannot generate the rotational pull needed for the sweep, buying you time to systematically address the wrap."

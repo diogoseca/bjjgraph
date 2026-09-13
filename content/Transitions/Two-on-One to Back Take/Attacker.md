@@ -68,7 +68,7 @@ description: "How to execute Two-on-One to Back Take in BJJ. Attacking perspecti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the two primary grips that constitute effective two-on-one control and why is this grip configuration mechanically superior?",
+      "name": "Which two grips make up the two-on-one, and why is that pairing mechanically superior?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two primary grips are: (1) pistol grip on the wrist with thumb inside for maximum control of hand and forearm, and (2) grip on the tricep above elbow or directly on elbow joint. This configuration is mechanically superior because it immobilizes the entire arm structure from two points, preventing the opponent from generating pulling or pushing power with that limb, while creating a 2-to-1 mechanical advantage that they cannot match with their single free arm."
@@ -84,7 +84,7 @@ description: "How to execute Two-on-One to Back Take in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully turns into you while you are attempting the back take - what should you do?",
+      "name": "They turn into you as you attempt the back take from two-on-one — what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent turns into you, immediately redirect your attack rather than fighting to complete the original back take. Options include: transitioning to a body lock position, re-establishing clinch control with collar ties, attacking with a front headlock if their posture breaks, or chaining to an opposite-side back take attempt by switching your angle. The key is to flow with their defensive movement rather than forcing a compromised position against their rotation."
@@ -92,7 +92,7 @@ description: "How to execute Two-on-One to Back Take in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the step-behind or duck-under after the cross-body pull?",
+      "name": "After the cross-body pull from two-on-one, when do you launch the step-behind or duck-under?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing window opens immediately after the cross-body pull disrupts the opponent's shoulder alignment and they begin reacting to recover their posture. This window lasts roughly one to two seconds before they either strip your grip or re-square their hips. The key indicator is when their far shoulder rotates away from you and their weight shifts to their far foot. Waiting too long allows them to stabilize, while moving before the pull takes effect means their structure is still intact enough to block your path."
@@ -424,7 +424,7 @@ The two-on-one to back take is generally a low-risk technique when practiced pro
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Standing clinch entry using two-on-one grip control to access back position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Standing clinch entry using two-on-one grip control to access back position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

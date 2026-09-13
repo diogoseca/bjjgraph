@@ -72,7 +72,7 @@ description: "How to defend against the Rolling Guard Pull in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully completes the roll but has not yet closed their guard - what is your immediate priority?",
+      "name": "Your opponent completes a rolling guard pull but hasn't closed guard; what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is establishing grips on their pants at the knees or ankles to prevent guard closure while maintaining your standing base. Do not drop to your knees, as standing gives you superior passing angles and prevents them from using their leg strength to close guard. Post one hand on their hip to create distance while using your other hand to control their legs. Begin an immediate toreando or bullfighter pass before they can organize their legs into any guard structure. Speed is critical because every second you delay gives them time to establish hooks, grips, and guard retention."
@@ -80,7 +80,7 @@ description: "How to defend against the Rolling Guard Pull in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your standing base and distance when you suspect your opponent favors rolling guard pulls?",
+      "name": "How should you set your standing base and distance against a rolling guard pull specialist?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a slightly wider stance than normal with your weight distributed evenly or slightly toward your heels rather than leaning forward. Keep your hips slightly behind your shoulder line to resist forward pulling forces. Fight grips at maximum arm extension rather than in close range, which gives you more time to react to a sudden hip drop. Avoid giving them deep collar grips, as these are the strongest anchors for the roll. Use a stiff-arm frame on their shoulder or bicep to maintain distance. If they persistently seek the entry, consider shooting your own takedown first to deny them the standing position they need to initiate the roll."

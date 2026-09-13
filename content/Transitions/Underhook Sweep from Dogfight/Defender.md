@@ -72,7 +72,7 @@ description: "Defend against the Underhook Sweep from Dogfight in BJJ. Learn to 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established deep underhook and just grabbed your far knee with their free hand. What is your immediate priority?",
+      "name": "They have a deep underhook and just grabbed your far knee in dogfight: immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is stripping their free hand from your far knee before they can initiate the drive. Once they have both the deep underhook and far-side control, all sweep prerequisites are met and the probability of a successful sweep increases dramatically. Use your near-side hand to peel their grip while simultaneously widening your base and driving your whizzer downward. If you cannot strip the grip in time, immediately drive forward with maximum crossface pressure to flatten them before they can execute the explosive drive phase."

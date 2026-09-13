@@ -52,7 +52,7 @@ description: "Defend against the Peruvian Necktie from front headlock. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you distinguish the Peruvian Necktie setup from a standard guillotine or darce attempt from front headlock?",
+      "name": "From front headlock bottom, what signals a Peruvian necktie rather than a guillotine or darce?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key distinguishing signal is the gable grip lock with both hands meeting under your chest or around your trapped arm, combined with the attacker's weight shifting to one side to prepare the leg throw. A guillotine setup involves the attacker pulling upward on your chin with a single arm grip. A darce involves threading an arm through the neck-arm gap from the opposite side. The Peruvian Necktie uniquely features the gable grip plus the far arm trap, followed by the distinctive leg-over-head movement that no other front headlock submission uses."
@@ -68,7 +68,7 @@ description: "Defend against the Peruvian Necktie from front headlock. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked the gable grip but has not yet thrown the leg — what is your highest-percentage defensive response?",
+      "name": "They locked the gable grip but haven't thrown the leg yet — your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest-percentage response is an explosive posture up combined with driving forward into the attacker. The gable grip is strongest when the attacker can create distance by sitting away, so closing distance by driving into them reduces the grip's effectiveness. As you posture, use one hand to fight the grip at the wrist or elbow while the other hand posts on the mat for base. If you can break the gable grip during this posture attempt, you return to standard front headlock bottom where you have more established escape options. Speed is critical — this window closes once the leg starts moving over your head."
@@ -84,7 +84,7 @@ description: "Defend against the Peruvian Necktie from front headlock. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What should you do if you feel yourself becoming lightheaded during a Peruvian Necktie attempt in training?",
+      "name": "You feel lightheaded during a Peruvian necktie in training — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately by any means available — hand tap, foot tap, or verbal signal. Lightheadedness indicates carotid compression is restricting blood flow to the brain, and unconsciousness can follow within seconds. Do not attempt to fight through lightheadedness hoping to escape, as you may lose consciousness before you can tap. After tapping, communicate to your partner that you felt lightheaded so they can adjust their training intensity. Take a brief rest before resuming training and monitor for any persistent symptoms like headache or dizziness."

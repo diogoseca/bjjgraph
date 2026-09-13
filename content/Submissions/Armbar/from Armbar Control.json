@@ -318,7 +318,7 @@
         }
       },
       {
-        "question": "Your opponent clasps their hands together in an S-grip to prevent arm extension—what are your options to break this defense?",
+        "question": "In armbar control, they S-grip their hands to block extension — how do you break that defense?",
         "answer": "Attack the grip systematically: first, maintain hip bridge pressure to fatigue their grip over 5-10 seconds. If that fails, use one hand to peel their top hand's fingers while the other hand maintains wrist control. You can also wedge your wrist into the crease of their elbow to create a bicep slicer threat that forces them to release. A fourth option is switching to figure-four grip control and using rotational torque rather than linear extension to break the clasp.",
         "answer_line": "Bridge pressure to fatigue grip",
         "distractors": {
@@ -332,7 +332,7 @@
         }
       },
       {
-        "question": "What anatomical structure does the armbar finish attack and what is the primary force-generating movement?",
+        "question": "Which joint does the armbar finish attack, and what movement generates the force?",
         "answer": "The armbar finish attacks the elbow joint, specifically hyperextending it against the collateral ligaments (ulnar and radial) and the annular ligament. The primary force-generating movement is the glute bridge driving hips toward the ceiling. The pubic bone acts as the fulcrum positioned behind the opponent's elbow, and hip elevation creates the hyperextension vector. This engages the largest muscle groups (glutes, hamstrings, core) rather than relying on arm strength, making the finish sustainable and powerful.",
         "answer_line": "Bridge hips to hyperextend elbow",
         "distractors": {
@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "Your opponent begins the hitchhiker escape by rotating their thumb toward their head—what is your immediate response?",
+        "question": "They start the hitchhiker escape from your armbar control — what is your immediate response?",
         "answer": "Immediately clamp your top leg (the one crossing their face) tighter against their neck to block the rotational escape. If they continue turning, you have two options: follow their rotation by transitioning to a belly-down armbar position while maintaining grip, or abandon the armbar and swing your chest-side leg over their head to enter triangle control, which their turning motion actually facilitates. Do not try to force the standard finish against an active hitchhiker escape.",
         "answer_line": "Clamp face-leg, block rotation",
         "distractors": {
@@ -403,7 +403,7 @@
         }
       },
       {
-        "question": "How does the direction of force application differ between the hip bridge and the hand pull during the finish?",
+        "question": "In the armbar finish, how do the hip bridge and the hand pull differ in force direction?",
         "answer": "The hip bridge drives force vertically toward the ceiling, pressing the pubic bone fulcrum into the back of the elbow joint. The hand pull drives force horizontally toward your sternum, extending the forearm away from the opponent's body. These two vectors are approximately perpendicular to each other, creating a scissoring action that concentrates maximum hyperextension pressure on the elbow. If both forces were in the same direction, the submission would push the arm away rather than hyperextending the joint.",
         "answer_line": "Bridge up, pull in perpendicular",
         "distractors": {
@@ -446,7 +446,7 @@
         }
       },
       {
-        "question": "What are the primary injury risks of the armbar finish and how should you apply pressure to prevent them during training?",
+        "question": "What are the injury risks of the armbar finish, and how should you apply pressure in training?",
         "answer": "The primary risks are elbow hyperextension causing collateral ligament sprains or complete tears (4-8 weeks to 6 months recovery), ulnar collateral ligament rupture potentially requiring surgical repair (6-12 months recovery), and radial head subluxation from explosive resistance. To prevent these, always apply finishing pressure progressively over 2-3 seconds minimum rather than jerking explosively. Release immediately upon any tap signal. During drilling, stop before full extension and communicate pressure levels with your partner. Never continue the finish if your partner's arm slips suddenly due to sweat.",
         "safety_critical": true,
         "answer_line": "Slow pressure, release on the tap",
@@ -576,7 +576,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first defensive action you should take when you recognize the attacker is initiating the armbar finish?",
+        "question": "Caught in armbar control: what is your first defensive action as they begin the finish?",
         "answer": "Immediately bend your trapped elbow to 90 degrees or tighter and rotate your forearm so the thumb points toward the ceiling. Simultaneously, use your free hand to grip your trapped wrist, your own lapel, or clasp your hands together to reinforce the bent-arm position. These two actions—bending and connecting—address the attacker's primary finishing requirement (arm extension) and buy critical seconds for positional escape work.",
         "answer_line": "Bend elbow, thumb up, clasp hands",
         "distractors": {
@@ -590,7 +590,7 @@
         }
       },
       {
-        "question": "Your arm is still bent but the attacker's hips are tight to your shoulder and their knees are pinching hard—what escape should you prioritize?",
+        "question": "Armbar defense: arm still bent but their hips are tight and knees pinched — which escape first?",
         "answer": "With tight hip-to-shoulder proximity and strong knee pinch, the hitchhiker escape is your highest-percentage option. Rotate your thumb toward your own head (hitchhiker position), slide your elbow across the attacker's body using the rotational motion, and turn your entire body toward the trapped arm side to reach turtle. The thumb rotation makes it mechanically difficult for the attacker to maintain wrist control, and the turning motion creates the angle needed to extract the arm. The stack defense is less effective here because their hips are already locked tight against your shoulder.",
         "answer_line": "Hitchhiker: rotate thumb, turn in",
         "distractors": {
@@ -619,7 +619,7 @@
         }
       },
       {
-        "question": "The attacker is applying progressive bridge pressure and your grip defense is weakening—what is your emergency response?",
+        "question": "Armbar bridge pressure is building and your grip is failing — what is your emergency response?",
         "answer": "When grip defense is failing, you must immediately commit to a positional escape rather than trying to re-strengthen the grip. Your two emergency options are: (1) explosive stack—plant your feet and drive your hips forward into the attacker to fold their body and neutralize the bridge angle, or (2) bridge and roll toward the trapped arm side to invert the position. Both require full commitment and explosive movement. Half-measures at this stage lead to arm extension and submission. If neither escape is available because your mobility is fully compromised, tap immediately.",
         "safety_critical": true,
         "answer_line": "Stack them or roll toward the arm",

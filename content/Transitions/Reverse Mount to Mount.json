@@ -269,7 +269,7 @@
         }
       },
       {
-        "question": "Your opponent begins shrimping to their right side while you are in reverse mount—which direction should you spin and why?",
+        "question": "In reverse mount they shrimp to their right. Which way do you spin, and why?",
         "answer": "You have two viable options: spin to your left (away from their escape direction) to complete the mount conversion without encountering their frames, or abandon the mount rotation entirely and follow their hip escape toward back control by inserting hooks. If they have already created significant angle, the back take is often higher percentage than forcing the mount rotation against their movement direction.",
         "answer_line": "Spin left or take the back",
         "distractors": {
@@ -283,7 +283,7 @@
         }
       },
       {
-        "question": "What is the critical mechanical detail that prevents the opponent from inserting a knee shield during the rotation?",
+        "question": "Which mechanical detail stops a knee shield during the reverse mount to mount rotation?",
         "answer": "Maintaining constant hip-to-chest pressure throughout the entire rotational arc is the key mechanical detail. The hips must drag across the opponent's sternum without any lift or gap. The inside knee anchored against the ribs serves as the pivot point while the outside leg swings tight against the body. Any lift creates the space needed for knee insertion, so the weight must transfer as a continuous grind rather than a hop-and-land.",
         "answer_line": "Drag hips, no lift or gap",
         "distractors": {
@@ -367,7 +367,7 @@
         }
       },
       {
-        "question": "If the mount rotation fails and you end up in the opponent's half guard, what is your immediate chain attack?",
+        "question": "The mount rotation fails and you land in half guard top. What is your chain attack?",
         "answer": "From the resulting half guard top position, immediately establish crossface and underhook control to prevent the opponent from developing offensive half guard structures. Initiate a knee slice pass to re-advance to side control or mount. The positional regression from mount attempt to half guard is recoverable if you immediately apply top pressure rather than trying to re-establish reverse mount. The key is to accept the new position and work forward from there rather than attempting to return to the failed position.",
         "answer_line": "Crossface, underhook, knee slice",
         "distractors": {
@@ -510,7 +510,7 @@
         }
       },
       {
-        "question": "If you successfully insert a knee shield during the rotation, what should your immediate follow-up be?",
+        "question": "You insert a knee shield during their reverse mount rotation. What is your immediate follow-up?",
         "answer": "Immediately fight for the underhook on the trapped leg side to establish offensive half guard rather than defensive half guard. The attacker will attempt to flatten you with crossface pressure, so establishing the underhook quickly converts the position from a survival situation into an offensive platform. Begin threatening sweeps and back takes immediately to prevent them from re-establishing a passing campaign from top half guard.",
         "answer_line": "Fight for underhook, go offensive",
         "distractors": {
@@ -538,7 +538,7 @@
         }
       },
       {
-        "question": "Your frame attempt fails and the attacker successfully completes the rotation to standard mount—what is your immediate priority?",
+        "question": "Your frame fails and they complete the rotation to mount. What is your immediate priority?",
         "answer": "Immediately establish defensive frames before the attacker settles their weight and consolidates control. Get your elbows connected to your knees, maintain a slight angle rather than lying flat, and protect your neck from choke entries. Begin the standard mount escape hierarchy: prevent advancement to high mount, create incremental space through hip escapes, and work toward knee insertion for half guard recovery. The key is not to freeze after the failed defense but to immediately transition to mount escape protocol.",
         "answer_line": "Frame elbows to knees immediately",
         "distractors": {

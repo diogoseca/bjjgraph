@@ -50,7 +50,7 @@ description: "Defend against the Roll Escape from Russian Cowboy in BJJ. Learn r
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate a roll escape attempt from Russian Cowboy bottom?",
+      "name": "What are the earliest cues that the Russian Cowboy bottom player is setting up a roll escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include the bottom player reaching for your hooking ankle or foot, shifting their hip weight toward your free leg side, and tucking their chin more aggressively while rounding their shoulders preparing to roll. You may also feel them create rotational tension through their core before the explosive movement. These loading patterns typically occur one to two seconds before the actual roll, providing a window for preemptive counter-pressure."
@@ -58,7 +58,7 @@ description: "Defend against the Roll Escape from Russian Cowboy in BJJ. Learn r
     },
     {
       "@type": "Question",
-      "name": "Should you follow the roll or attempt to kill the rotation, and what factors determine this decision?",
+      "name": "Should you kill the Russian Cowboy roll or follow it, and what determines that choice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on your hook depth and upper body control quality. If your hook is deep and seatbelt is tight, kill the rotation by sprawling your hips and driving chest weight forward because you have sufficient control to prevent the escape entirely. If your hook is shallow or your grips have been partially stripped, follow the roll and thread your second leg to transition into truck position, converting their escape attempt into your positional advancement to an even more dominant position."
@@ -66,7 +66,7 @@ description: "Defend against the Roll Escape from Russian Cowboy in BJJ. Learn r
     },
     {
       "@type": "Question",
-      "name": "How do you maintain control if the bottom player begins a roll escape while you are mid-submission setup?",
+      "name": "They start a roll escape while you are mid-submission from Russian Cowboy: how do you keep control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the submission attempt immediately and prioritize positional control. Drive your chest weight down onto their upper back while sprawling your hips to kill rotational momentum. Re-establish your primary control points including seatbelt and hook depth before resuming any submission attempts. Continuing a submission setup while the opponent is mid-escape is the most common way to lose the Russian Cowboy position entirely, as your attention and grips are divided."

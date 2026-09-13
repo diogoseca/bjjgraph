@@ -64,7 +64,7 @@ description: "Learn to defend the Sweep from Zombie Guard in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Which defensive response should you prioritize when you feel the lockdown stretch and the underhook drive simultaneously?",
+      "name": "Defending zombie guard, you feel the lockdown stretch and underhook drive—what do you address first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize neutralizing the underhook with either a deep whizzer or by swimming your arm through to re-establish your own underhook control. The underhook provides the rotational axis without which the sweep cannot complete regardless of how intense the lockdown stretch becomes. While the lockdown creates base disruption, it alone cannot reverse you without the underhook creating the critical turning moment. Once the underhook is neutralized, the lockdown stretch becomes manageable."
@@ -72,7 +72,7 @@ description: "Learn to defend the Sweep from Zombie Guard in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How do you maintain top position when the sweep has already progressed past the midpoint of execution?",
+      "name": "The zombie guard sweep is already past its midpoint—how do you limit the damage on top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the sweep is past the mechanical tipping point, your best option is to post your far hand on the mat and immediately work to insert a knee between you and the opponent to prevent them from achieving full mount. Accept the positional change but fight for top half guard rather than allowing clean mount by inserting your knee shield frame during the reversal. This damage control approach preserves a recoverable position rather than fighting a losing battle."

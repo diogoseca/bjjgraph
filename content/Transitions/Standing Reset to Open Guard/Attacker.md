@@ -74,7 +74,7 @@ description: "How to execute Standing Reset to Open Guard in BJJ. Attacking pers
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary strategic advantage of standing to reset rather than fighting the lapel wrap from the ground?",
+      "name": "Why stand to reset rather than fight the lapel wrap on the ground?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standing eliminates the bottom player's secondary control points (hooks, frames, shin shields) that combine with the lapel wrap to create sweeping leverage. On the ground, the bottom player can coordinate hip movement, leg hooks, and lapel tension into multi-angle attacks. Standing isolates the lapel grip as the single problem to solve, dramatically reducing the threat level and simplifying the extraction."
@@ -106,7 +106,7 @@ description: "How to execute Standing Reset to Open Guard in BJJ. Attacking pers
     },
     {
       "@type": "Question",
-      "name": "The bottom player grabs a collar grip as you stand. Should you address it before or after the lapel extraction?",
+      "name": "They grab your collar as you stand: address it before or after the lapel extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the collar grip first if it is deep enough to pull you forward and compromise your posterior center of gravity. A shallow collar grip can be tolerated during extraction. The decision point is whether the collar grip creates enough forward pull to override your ability to maintain posterior hip loading. If it does, break it with a quick strip before committing to the lapel extraction. If not, proceed with extraction and address it after clearing the lapel."

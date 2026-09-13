@@ -70,7 +70,7 @@ description: "How to execute the Banana Split from the truck in BJJ. Attacking p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum time you should take when applying finishing pressure in the banana split during training?",
+      "name": "What is the minimum time to take applying banana split pressure in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A minimum of 5-7 seconds with slow, progressive pressure application. The banana split targets muscle groups that can tear rapidly if pressure is applied too quickly. Unlike joint locks where you feel structural limits, compression submissions like the banana split create intense muscular pain that requires gradual application to allow safe tapping. Never spike or jerk the pressure."
@@ -86,7 +86,7 @@ description: "How to execute the Banana Split from the truck in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "Why is staying connected to the opponent's hips essential for successful banana split execution from the truck?",
+      "name": "Why must you stay glued to their hips for the banana split from the truck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Staying glued to the opponent's hips and lower back prevents them from rolling, granbying, or squaring out of the truck to escape the position. Without that hip connection, they can simply turn out, negate your leg splitting mechanics, and recover guard. The hip control keeps your platform stable so the twister hook and far-leg pull can work in opposition to create the splitting force that produces the submission."

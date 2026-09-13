@@ -64,7 +64,7 @@ description: "Learn to defend and capitalize on the Body Lock to Standing transi
     },
     {
       "@type": "Question",
-      "name": "Why is the grip transition phase the most vulnerable moment for the person disengaging from body lock?",
+      "name": "Why is the grip transition the most vulnerable moment for the person leaving the body lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the grip transition, the person disengaging has abandoned their primary control mechanism (locked hands) but has not yet established their secondary control (hip frames and distance). This creates a control vacuum lasting approximately half a second where they have neither grip control, frame control, nor defensive distance. Their weight is also transitioning backward, making them vulnerable to forward-driven attacks. This is the only phase where they cannot effectively defend a well-timed shot, making it the optimal counter-attack window."
@@ -72,7 +72,7 @@ description: "Learn to defend and capitalize on the Body Lock to Standing transi
     },
     {
       "@type": "Question",
-      "name": "When should you choose to shoot a takedown versus pull guard versus accept the reset during a body lock disengagement?",
+      "name": "During their body lock disengage, when do you shoot, pull guard, or accept the reset?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shoot a takedown when you can time the entry to the grip transition phase and your opponent's weight is shifting backward, giving you forward momentum advantage over their retreating base. Pull guard when you prefer ground engagement and can establish control grips before sitting, or when the opponent's push-off is too explosive to counter with a standing technique. Accept the reset when the separation happens too quickly to counter effectively, and immediately establish your own dominant grips before the opponent fully resets their stance and offensive posture."

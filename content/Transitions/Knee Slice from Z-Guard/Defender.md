@@ -56,7 +56,7 @@ description: "Complete defender guide for the Knee Slice from Z-Guard. Learn rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel the top player's pressure increasing on your knee shield and their hand reaching behind your head for crossface—what is your immediate response?",
+      "name": "In Z-guard, they press your knee shield and reach for a crossface—what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Fight the crossface hand before it consolidates behind your head. Frame on their bicep or forearm to prevent the hand from reaching your head. Simultaneously increase your knee shield pressure into their shoulder to maintain distance. If you lose the crossface battle, immediately transition to your secondary defense—either diving for deep half or hip escaping to create angle. The crossface grip is the gateway to the entire passing sequence, so preventing it is your highest-priority defensive action."
@@ -72,7 +72,7 @@ description: "Complete defender guide for the Knee Slice from Z-Guard. Learn rec
     },
     {
       "@type": "Question",
-      "name": "The top player has collapsed your knee shield and their knee is halfway across your thigh—is it too late to defend?",
+      "name": "Your knee shield is collapsed and their knee is halfway across your thigh—is it too late to defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "It is not too late but your options have narrowed significantly. The deep half entry window is closing rapidly—if you can still get your head and shoulders underneath their hip line, commit to the deep half immediately with full commitment. If the deep half window has passed, your best option is to frame on their hip and begin recovering to turtle position, which preserves more options than being flattened into side control. Attempting to re-insert the knee shield at this point is almost certainly too late and wastes critical defensive energy."
@@ -80,7 +80,7 @@ description: "Complete defender guide for the Knee Slice from Z-Guard. Learn rec
     },
     {
       "@type": "Question",
-      "name": "What body position must you maintain to keep maximum defensive options available against the knee slice?",
+      "name": "What body position keeps your defensive options open against the knee slice from Z-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a 45-degree side angle facing the passer with your shoulders off the mat and your hips mobile. Your inside hip should be free to hip escape for angle creation and your outside leg should maintain active knee shield tension into their shoulder. The underhook on the trapped-leg side provides offensive threat and structural support. This angled position preserves access to all defensive transitions: shield re-insertion, deep half entry, hip escape recovery, and underhook-based sweeps."
@@ -88,7 +88,7 @@ description: "Complete defender guide for the Knee Slice from Z-Guard. Learn rec
     },
     {
       "@type": "Question",
-      "name": "Your knee shield has been neutralized and the pass is almost complete—what is your last-resort defensive option?",
+      "name": "Your knee shield is gone and the knee slice is nearly complete—what is your last-resort defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your last resort is to frame hard on the passer's hip and shoulder with both arms while bridging and shrimping to create enough space to either re-establish any form of half guard entanglement with your legs or transition to turtle. Focus on preventing the crossface from sealing the pass to side control—if you can maintain head position and keep space between your chest and theirs, you can work to recover guard even from a nearly-passed position. Accept the inferior position temporarily rather than giving up entirely."

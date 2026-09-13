@@ -74,7 +74,7 @@ description: "Defend against the Twister from Twister Control with recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has started threading their arm under your chin — what immediate defensive action should you take?",
+      "name": "They begin threading an arm under your chin from twister control — what is your immediate defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin tightly to your chest and use both hands to create a barrier preventing the forearm from seating under your jaw. Grip your own head or interlock your fingers behind your neck to create a chin-protection shell. Simultaneously, begin working your trapped leg free since the opponent's focus on the chin strap creates a window to address the leg entanglement. Do not rely on chin defense alone as it is a temporary measure."

@@ -116,7 +116,7 @@ description: "Master outside heel hook attacking technique from Honey Hole. Grip
     },
     {
       "@type": "Question",
-      "name": "How do you adjust your grip if the opponent begins straightening their leg during the outside heel hook?",
+      "name": "They start straightening the leg in the honey hole; how do you adjust your heel hook grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips forward into the back of their knee to prevent full extension while tightening your leg triangle to maintain the bend. If the leg extends, reposition your grip deeper by sliding your cupping hand further under the heel bone and increasing the clamp of your figure-four. You can also use your outside leg to hook behind their knee and re-bend it into the optimal finishing angle for rotational pressure."

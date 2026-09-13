@@ -88,7 +88,7 @@ description: "Learn to recover the underhook from flattened half guard bottom. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure as you begin your hip escape - how do you adjust your timing?",
+      "name": "They crossface heavily as you start your hip escape from flattened half: how do you time it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept the crossface rather than fighting it directly, and use the opponent's forward pressure commitment as a timing cue. When they drive forward, their weight shifts create a brief moment where your hips can escape more easily because their pressure is committed in one direction. Time your hip escape to coincide with their forward drive, using their momentum against them. The crossface becomes less effective once you secure the underhook and rotate to your side."
@@ -112,7 +112,7 @@ description: "Learn to recover the underhook from flattened half guard bottom. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent immediately whizzers your arm after you insert the underhook - what is your best response?",
+      "name": "They whizzer as soon as you insert the underhook from flattened half: best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the underhook has adequate depth, maintain your grip and use the whizzer connection to initiate a dogfight by driving up to your knees. The whizzer actually assists your rise because the opponent's arm is committed to controlling yours. Alternatively, duck your head under their armpit and use the whizzer commitment to enter an old school sweep position, converting their defensive reaction into your offensive opportunity. Never allow the whizzer to push your underhook shallow."

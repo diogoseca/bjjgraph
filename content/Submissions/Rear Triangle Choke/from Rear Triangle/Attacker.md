@@ -76,7 +76,7 @@ description: "Complete guide to finishing the rear triangle choke from rear tria
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the rear triangle choke attack and how does the triangle configuration create bilateral compression?",
+      "name": "What does the rear triangle choke compress, and how does the figure-four create bilateral pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The rear triangle choke targets both carotid arteries simultaneously. The shin blade of the choking leg compresses one carotid artery against the side of the neck, while the opponent's own trapped shoulder is driven into the opposite carotid by the knee squeeze. This bilateral compression restricts blood flow to the brain, causing unconsciousness in four to six seconds when fully engaged. The triangle's figure-four structure creates a self-tightening mechanism where the squeeze is amplified by the geometric lock of ankle behind knee."
@@ -84,7 +84,7 @@ description: "Complete guide to finishing the rear triangle choke from rear tria
     },
     {
       "@type": "Question",
-      "name": "What are the indicators that the choke has reached the breaking point and the opponent is approaching unconsciousness?",
+      "name": "Which signs show your opponent is approaching unconsciousness in the rear triangle choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the opponent's defensive movements becoming slower or less coordinated, grip strength weakening noticeably on your legs, facial color changing to deep red or purple, eyes becoming glassy or unfocused, body stiffening followed by sudden relaxation, unusual vocalizations or gurgling sounds, and cessation of all voluntary movement. Any of these signals requires immediate attention. If the opponent stops moving entirely, release the choke instantly—they may already be unconscious."
@@ -92,7 +92,7 @@ description: "Complete guide to finishing the rear triangle choke from rear tria
     },
     {
       "@type": "Question",
-      "name": "Why must you squeeze the knees together before extending the hips, and what happens if you reverse this sequence?",
+      "name": "Why squeeze the knees before extending the hips in the rear triangle, and what if you reverse it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Squeezing knees first eliminates dead space within the triangle structure, creating a sealed compression chamber around the neck and trapped arm. If you extend hips first without knee compression, the gaps in the triangle allow the opponent to relieve pressure, potentially extract their arm, or shift their neck to a position where the carotids are no longer compressed. The correct sequence—compress then extend—ensures the choke tightens progressively without creating defensive windows."
@@ -100,7 +100,7 @@ description: "Complete guide to finishing the rear triangle choke from rear tria
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pulling their trapped arm free during your finishing attempt—what is your immediate adjustment?",
+      "name": "Your opponent starts pulling the trapped arm free from your rear triangle: what is your adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately squeeze your knees together more tightly to collapse the space around the arm. Use your free hand to control their wrist and push the arm back into the triangle. Simultaneously angle your hips more aggressively toward the trapped arm side, which pins the arm between your inner thigh and their neck. If they continue the extraction attempt, consider switching to an armbar on the now-extended arm—their extraction effort actually sets up the armbar transition."
@@ -108,7 +108,7 @@ description: "Complete guide to finishing the rear triangle choke from rear tria
     },
     {
       "@type": "Question",
-      "name": "How should you release the rear triangle choke when your training partner taps, and what is the protocol if they lose consciousness?",
+      "name": "How do you release the rear triangle on a tap, and what if your partner goes unconscious?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release immediately upon any tap signal by opening your knees and removing your legs from the triangle configuration—do not simply reduce pressure, fully disengage the lock. If the opponent goes limp without tapping, release instantly, lay them flat on their back, elevate their legs slightly, and alert the instructor. Do not shake them or attempt to wake them forcefully. If they do not regain consciousness within ten to fifteen seconds, call for emergency medical assistance."
@@ -116,7 +116,7 @@ description: "Complete guide to finishing the rear triangle choke from rear tria
     },
     {
       "@type": "Question",
-      "name": "What hip angle optimizes the rear triangle choke finish and why is this angle biomechanically important?",
+      "name": "What hip angle best finishes the rear triangle choke, and why does that angle work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Angle your hips approximately 45 degrees toward the trapped arm side. This orientation aligns the shin blade to cross the neck where it compresses the carotid artery most effectively against the underlying cervical structures. Without this angle, the shin tends to slide across the back of the neck without creating sufficient lateral compression on the arteries, resulting in general pressure rather than a targeted blood choke. The 45-degree angle also optimizes the trapped shoulder's compression against the opposite carotid."

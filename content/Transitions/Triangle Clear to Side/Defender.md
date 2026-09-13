@@ -56,7 +56,7 @@ description: "How to defend against Triangle Clear to Side in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent redirects their hand from neck defense to attack your triangle ankle - what is your immediate priority?",
+      "name": "They move a hand off neck defense to attack your triangle ankle: what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is a dual response: attack their now-exposed neck with your choking arm while simultaneously tightening your triangle by pulling the ankle deeper behind your knee with leg strength. The exposed throat is a higher-value target than simply re-locking the triangle. If you can force them to abandon the clearing and return their hand to neck defense, you have reset their escape while advancing your choke position. The clearing attempt itself is the opening you should exploit offensively."
@@ -72,7 +72,7 @@ description: "How to defend against Triangle Clear to Side in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has wedged their elbow between your legs and their torso after a partial clear - how do you prevent them from completing the escape?",
+      "name": "They wedge an elbow between your legs and their torso after a partial clear: what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The elbow wedge is a critical frame that prevents re-locking. Your best response is to shift your hip angle to stay behind them while increasing upper body pressure through your seatbelt grip to limit their ability to rotate further. Simultaneously, use your top leg to press down on their elbow frame, collapsing the space they created. If the frame is too established to collapse, transition to hooks immediately to maintain back control rather than fighting a losing battle to re-establish the full triangle around their now-framed torso."
@@ -80,7 +80,7 @@ description: "How to defend against Triangle Clear to Side in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What adjustment should you make when your opponent bridges at a 45-degree angle toward the triangle side?",
+      "name": "They bridge at 45 degrees toward the triangle side: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The directional bridge is the most dangerous moment for your triangle because it creates space precisely where they need it. Counter by driving your hips forward and downward into the bridge, using your body weight to collapse the space they are trying to create. Simultaneously increase your squeeze pressure during the bridge to make the space creation more difficult. Follow their lateral movement by shifting your own hips to maintain the position directly behind them rather than allowing them to rotate past you during the bridge."
@@ -88,7 +88,7 @@ description: "How to defend against Triangle Clear to Side in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "When is it strategically correct to abandon the body triangle and transition to hooks rather than fighting to maintain it?",
+      "name": "When should you abandon the body triangle and switch to hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to hooks when the triangle is partially cleared and the opponent has an established frame preventing re-locking, particularly when their elbow or forearm is wedged between your legs and their torso. Also transition when continuing to fight for the triangle would require you to sacrifice chest-to-back connection or upper body control. A proactive transition to hooks preserves your back control position, whereas stubbornly fighting for the triangle risks losing both the triangle and the position entirely when they complete the lateral escape."

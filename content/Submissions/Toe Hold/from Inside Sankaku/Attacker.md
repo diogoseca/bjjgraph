@@ -84,7 +84,7 @@ description: "Learn to attack the toe hold from Inside Sankaku with expert grip 
     },
     {
       "@type": "Question",
-      "name": "Your opponent hides their heel to defend the inside heel hook - how do you transition to the toe hold without losing positional control?",
+      "name": "They hide the heel against your inside heel hook—how do you switch to the toe hold safely?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your Inside Sankaku leg configuration and hip connection throughout the transition. Release your heel hook grip with your near hand and immediately reach across to cup the opponent's exposed toes and ball of foot. Thread your far hand under their foot to establish the figure-four before they can retract. The key is keeping your legs locked in the entanglement so their foot cannot escape during the grip change window."
@@ -92,7 +92,7 @@ description: "Learn to attack the toe hold from Inside Sankaku with expert grip 
     },
     {
       "@type": "Question",
-      "name": "What is the breaking point indicator that tells you the toe hold is close to causing structural damage?",
+      "name": "Which breaking-point signs tell you the toe hold is near causing structural damage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You will feel a sudden decrease in resistance as the opponent's ankle reaches its end range of rotation. The foot begins to feel loose and you may feel small pops from the metatarsal joints. At this point, the submission is extremely close to causing structural damage. If the opponent has not tapped, hold the position without adding further pressure and verbally communicate with them to check if they want to continue."
@@ -100,7 +100,7 @@ description: "Learn to attack the toe hold from Inside Sankaku with expert grip 
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the strongest mechanical advantage for the toe hold finish from Inside Sankaku?",
+      "name": "Which grip gives the strongest leverage for the toe hold finish from inside sankaku?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The figure-four grip with your wrist blade positioned against the ball of the foot provides maximum leverage. Your near hand wraps around the toes from the outside, fingers curling over the metatarsals. Your far hand threads under the foot and grips your own wrist. Elbows stay tight to your torso, and the foot is pulled against your chest so rotational force comes from your whole body turning rather than isolated arm strength."
@@ -116,7 +116,7 @@ description: "Learn to attack the toe hold from Inside Sankaku with expert grip 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins straightening their trapped leg to relieve toe hold pressure - what adjustment prevents the escape?",
+      "name": "They straighten the trapped leg to relieve your toe hold—what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tighten your Inside Sankaku leg configuration by squeezing your knees together and driving your hips forward to prevent their leg from extending. Use your outside leg to press down on their thigh above the knee, keeping the leg bent. If they continue forcing extension, briefly release toe hold pressure to re-establish deeper Inside Sankaku control before reapplying the submission with the leg properly trapped."

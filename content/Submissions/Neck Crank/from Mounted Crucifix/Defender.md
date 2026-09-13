@@ -52,7 +52,7 @@ description: "Defend and escape the Neck Crank from Mounted Crucifix in BJJ. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive action you should take when you recognize a neck crank is being set up from mounted crucifix?",
+      "name": "With your arms trapped, what is your first defense as a neck crank is set up from mounted crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin as tightly as possible to your chest and shrug both shoulders up toward your ears. This closes the gaps around your neck that the attacker needs for grip establishment. Because your arms are trapped, this postural defense is your only available tool to deny the head grip. Simultaneously begin subtle hip movement to prevent the attacker from settling into a stable cranking platform."
@@ -60,7 +60,7 @@ description: "Defend and escape the Neck Crank from Mounted Crucifix in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "When should you tap to a neck crank in training, and why is early tapping essential for this particular submission?",
+      "name": "When should you tap to a neck crank, and why is early tapping essential for this submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately when you feel any real compressive or rotational pressure on your cervical spine—do not attempt to endure or escape once the crank engages. Unlike joint locks that provide a pain gradient before damage occurs, the cervical spine can transition from moderate discomfort to disc herniation or vertebral injury with almost no warning. The proprioceptive feedback from neck structures is poor compared to limbs, meaning by the time you feel real pain, structural damage may already be occurring. Early tapping is the only safe choice."
@@ -68,7 +68,7 @@ description: "Defend and escape the Neck Crank from Mounted Crucifix in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Why must arm extraction precede mount escape attempts when defending the neck crank from mounted crucifix?",
+      "name": "Why must you free an arm before attempting mount escapes against the mounted crucifix neck crank?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attempting mount escapes with arms still trapped exposes your back to the attacker, who can transition to back control while maintaining the arm entanglement—a significantly worse position. Without at least one free arm, you cannot create the defensive frames needed for standard escape mechanics like bridge-and-roll or elbow escape. Arm extraction restores your primary defensive tools, making subsequent positional escapes mechanically possible and safe."

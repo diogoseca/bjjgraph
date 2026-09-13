@@ -68,7 +68,7 @@ description: "How to execute Arm Extraction in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary control mechanism you must address before attempting arm extraction from side control?",
+      "name": "What control must you address first before extracting your arm from bottom side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary control mechanism is the opponent's upper body connection, specifically the underhook or crossface that traps your arm and prevents shoulder rotation. This arm control prevents you from creating the necessary space for escape. By identifying and extracting this trapped arm first, you eliminate the opponent's primary control point and create the foundation for full guard recovery. The trapped arm is typically on the side where opponent's chest makes contact with yours."
@@ -76,7 +76,7 @@ description: "How to execute Arm Extraction in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Why is shoulder rotation critical to successful arm extraction, and what common error prevents this rotation?",
+      "name": "Why is shoulder rotation essential to arm extraction, and what error blocks it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shoulder rotation creates the necessary space between your shoulder and the mat, allowing your trapped elbow to clear opponent's chest pressure. Without this rotation, your arm has no pathway to extract through. The most common error preventing rotation is maintaining a flat back with both shoulders on the mat. This position allows opponent to settle their full weight and eliminates any space. By turning slightly on your side (even 10-15 degrees) and using frames to maintain this angle, you create the rotational space needed for the extraction to work."
@@ -84,7 +84,7 @@ description: "How to execute Arm Extraction in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent increases chest pressure and follows your shoulder rotation during the extraction attempt?",
+      "name": "They add chest pressure and follow your shoulder rotation mid-extraction. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent follows your shoulder rotation and increases pressure, you should not fight against this heavy forward commitment. Instead, switch to a different escape pathway that exploits their forward momentum—either the bridge and roll escape (which uses their forward pressure against them) or the knee-elbow escape. Alternatively, pause the extraction attempt, re-establish your frames, and wait for opponent to shift their weight or adjust their position before attempting again. Fighting against maximum pressure is inefficient and exposes you to submissions."
@@ -92,7 +92,7 @@ description: "How to execute Arm Extraction in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What is the correct movement pattern for the trapped arm during extraction—pushing, pulling, or threading?",
+      "name": "Should the trapped arm push, pull, or thread during the extraction, and how?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trapped arm should move in a threading or circular motion, not pushing or pulling. Pull your elbow tight to your ribs and rotate your forearm to create a wedge, then drive your forearm across your centerline, threading it between your chest and opponent's chest. The elbow moves first, followed by the forearm and hand in a smooth circular path. Once the elbow clears, immediately bring your hand to your opposite shoulder to create a frame. This threading motion is much more technical and energy-efficient than attempting to push opponent away or pull your arm out with force."
@@ -100,7 +100,7 @@ description: "How to execute Arm Extraction in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Why must you maintain frames throughout the entire escape sequence, and when is it safe to release them?",
+      "name": "Why keep your frames through the whole escape, and when is it safe to release them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frames are your primary defensive structure preventing opponent from re-establishing or improving their control. They create and maintain the space necessary for your hips to escape and your guard to recover. Releasing frames prematurely allows opponent to immediately collapse the space and re-establish side control, often with better positioning than before. Frames should only be released once your guard is completely established—either fully closed, knee shield secured with grips, or butterfly hooks established with proper controls. Until that moment, frames are non-negotiable defensive requirements."

@@ -80,7 +80,7 @@ description: "How to defend the Clock Choke in BJJ. Recognition cues, grip defen
     },
     {
       "@type": "Question",
-      "name": "The attacker has a deep collar grip and has started walking perpendicular—what are your remaining defensive options?",
+      "name": "They have a deep collar grip and are walking perpendicular: your remaining defenses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a deep grip and perpendicular walk underway, your primary options are: sit back explosively to collapse their rotational angle before they sprawl, or commit to a roll toward the choking side to relieve pressure and recover guard. Grip stripping becomes much harder at this stage. If the attacker has already sprawled their hips to the mat, your escape probability is very low and you should prioritize tapping safely rather than fighting a fully locked blood choke."

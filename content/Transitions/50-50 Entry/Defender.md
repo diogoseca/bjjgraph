@@ -64,7 +64,7 @@ description: "How to defend against 50-50 Entry in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent has hooked their calf behind your lead knee but has not yet completed the hip rotation - what is your best defensive option?",
+      "name": "They hook their calf behind your lead knee before finishing the hip rotation—best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately straighten your lead leg by driving your knee forward and extending your foot, then circle your foot outward to strip the hook. Their calf needs the bend of your knee to maintain the hook - a straightened leg removes the shelf their calf is sitting on. Simultaneously shift your weight to your rear leg and begin backstepping to create additional extraction distance."
@@ -72,7 +72,7 @@ description: "How to defend against 50-50 Entry in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Why is driving forward with stack pressure dangerous if the opponent has already begun threading their leg?",
+      "name": "Why is driving forward with stack pressure dangerous once they start threading the leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pressure after the thread has started actually accelerates the opponent's rotation by loading weight onto their shoulders, which is exactly the base they use for the rolling motion. Your forward drive pulls your own knee deeper into the entanglement. Stack pressure is only effective as a preemptive defense before any leg contact occurs, when it collapses the inversion entirely."
@@ -80,7 +80,7 @@ description: "How to defend against 50-50 Entry in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "How should your stance and weight distribution change when facing an opponent who plays inverted guard?",
+      "name": "How should your stance and weight distribution change against an inverted guard player?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widen your stance significantly beyond your normal combat base, distribute weight evenly between both feet, and keep your knees bent at a moderate angle rather than deeply flexed. Never shift more than 60% of your weight onto your lead leg. Stay on the balls of your feet ready to backstep, and keep your lead foot ready to retract at any moment rather than planted flat on the mat."
@@ -88,7 +88,7 @@ description: "How to defend against 50-50 Entry in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent's 50-50 Entry fails and they are stuck inverted without the entanglement - how do you capitalize?",
+      "name": "Their 50-50 entry fails and they are stuck inverted with no entanglement—how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a prime passing opportunity. Immediately apply pressure to their inverted body by driving your hips into their elevated legs, folding them over themselves with stack pressure. Control their pants at the knees to prevent them from re-establishing guard or re-attempting the entry. Work toward passing to side control while they are compromised in the inverted position with no leg entanglement protecting them."

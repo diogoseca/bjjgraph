@@ -227,27 +227,27 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Transitions/Worm Guard Entry/Attacker|Worm Guard Entry]]** (18% of attempts)
+- **[[Transitions/Worm Guard Entry/Attacker|Worm Guard Entry]]** (gi only)
 
-- **[[Transitions/Squid Guard Entry/Attacker|Squid Guard Entry]]** (9% of attempts)
+- **[[Transitions/Squid Guard Entry/Attacker|Squid Guard Entry]]** (gi only)
 
-- **[[Transitions/Ringworm Guard Entry/Attacker|Ringworm Guard Entry]]** (6% of attempts)
+- **[[Transitions/Ringworm Guard Entry/Attacker|Ringworm Guard Entry]]** (gi only)
 
-- **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (12% of attempts)
+- **[[Transitions/Lapel Sweep to Back/Attacker|Lapel Sweep to Back]]** (gi only)
 
-- **[[Transitions/Lapel Omoplata Entry/Attacker|Lapel Omoplata Entry]]** (8% of attempts)
+- **[[Transitions/Lapel Omoplata Entry/Attacker|Lapel Omoplata Entry]]** (gi only)
 
-- **[[Transitions/Lapel Triangle Setup/Attacker|Lapel Triangle Setup]]** (5% of attempts)
+- **[[Transitions/Lapel Triangle Setup/Attacker|Lapel Triangle Setup]]** (gi only)
 
-- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (9% of attempts)
+- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (gi only)
 
-- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (8% of attempts)
+- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (gi only)
 
-- **[[Transitions/Lapel to De La Riva/Attacker|Lapel to De La Riva]]** (10% of attempts)
+- **[[Transitions/Lapel to De La Riva/Attacker|Lapel to De La Riva]]** (gi only)
 
-- **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (11% of attempts)
+- **[[Transitions/Lapel Elevator Sweep/Attacker|Lapel Elevator Sweep]]** (gi only)
 
-- **[[Transitions/Lapel Guard to Piranha Guard/Attacker|Lapel Guard to Piranha Guard]]** (4% of attempts)
+- **[[Transitions/Lapel Guard to Piranha Guard/Attacker|Lapel Guard to Piranha Guard]]** (gi only)
 
 
 ### Common Mistakes
@@ -308,9 +308,9 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Transitions/Lapel Clear to Toreando Pass/Attacker|Lapel Clear to Toreando Pass]]** (0% of attempts)
+- **[[Transitions/Lapel Clear to Toreando Pass/Attacker|Lapel Clear to Toreando Pass]]** (gi only)
 
-- **[[Transitions/Backstep Around Worm Guard/Attacker|Backstep Around Worm Guard]]** (0% of attempts)
+- **[[Transitions/Backstep Around Worm Guard/Attacker|Backstep Around Worm Guard]]** (gi only)
 
 - **[[Transitions/Pressure Pass Through Squid/Attacker|Pressure Pass Through Squid]]** (16% of attempts)
 
@@ -391,8 +391,8 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Parent category encompassing all lapel-based guard positions in the system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Modern guard system using lapel manipulation for control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Parent category encompassing all lapel-based guard positions in the system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Modern guard system using lapel manipulation for control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

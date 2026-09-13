@@ -170,6 +170,8 @@ The Keenan Cornelius Lapel Guard System represents one of the most innovative de
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill Keenan Cornelius Lapel Guard System?
@@ -293,6 +295,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -403,5 +407,7 @@ The lapel guard system requires a structured drilling progression that builds fr
 
 
 </section>
+
+
 
 </main>

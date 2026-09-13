@@ -64,7 +64,7 @@ description: "Defend against the Old School to Half Guard recovery in BJJ. Capit
     },
     {
       "@type": "Question",
-      "name": "When you feel the lockdown releasing, what immediate action has the highest success rate for preventing the reset?",
+      "name": "Feeling their lockdown release, what action best prevents their half guard reset?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive heavy crossface pressure forward through your shoulder while simultaneously dropping your chest weight onto their torso. The combination of crossface and chest pressure prevents the knee shield insertion that defines successful half guard recovery. This must happen immediately—within one second of feeling the lockdown release—because the transition window is brief and the bottom player is actively racing to establish frames."
@@ -72,7 +72,7 @@ description: "Defend against the Old School to Half Guard recovery in BJJ. Capit
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your pressure if the bottom player successfully inserts a knee shield during the transition?",
+      "name": "They insert a knee shield during the transition: how do you adjust your pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the knee shield is established, you have missed the primary counter window and must transition to standard half guard top passing strategies. Apply shoulder pressure into the knee shield to flatten it while fighting for crossface control. Consider long step pass or smash pass approaches that work against established knee shield. Do not continue trying to flatten someone who has already established frames—adapt to the new positional reality."
@@ -80,7 +80,7 @@ description: "Defend against the Old School to Half Guard recovery in BJJ. Capit
     },
     {
       "@type": "Question",
-      "name": "Why is it tactically important to prevent the bottom player from recovering standard half guard from Old School?",
+      "name": "Why does it matter tactically to stop them recovering standard half guard from Old School?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Old School bottom with a stalled lockdown is a relatively contained threat—the attack options are limited to lockdown-specific sweeps that you've already proven you can defend. Standard half guard bottom opens access to an entirely different and much broader offensive toolkit: knee shield retention, deep half entries, underhook sweeps, butterfly half hooks, and back takes. Allowing the transition means you must now defend against multiple threat systems instead of one."

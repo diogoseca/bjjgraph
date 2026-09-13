@@ -90,7 +90,7 @@ description: "How to execute Kneebar Setup in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs their own knee and pulls it toward their chest while you attempt the kneebar—what adjustment should you make?",
+      "name": "They grab their own knee and pull it to their chest during your kneebar; what do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase hip elevation and intensify the ankle pull to overcome their grip strength. If their grip remains too strong, pivot to an inside heel hook by rotating your body and attacking the heel that becomes exposed when they flex their knee. Their defensive grip actually creates heel hook opportunity."
@@ -98,7 +98,7 @@ description: "How to execute Kneebar Setup in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Why is controlling the foot position with toes pointing toward the ceiling critical for the kneebar finish?",
+      "name": "Why is keeping their toes pointing at the ceiling critical for the kneebar finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Toe position determines knee joint alignment. When toes point toward the ceiling, the knee is aligned for clean hyperextension with pressure applied directly against the joint's natural range of motion. If toes rotate outward, the knee rotates with them, dissipating pressure across the joint rather than creating focused hyperextension."

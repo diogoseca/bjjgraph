@@ -78,7 +78,7 @@ description: "Learn to execute the kneebar finish from established kneebar contr
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains a strong bent-knee defense and you cannot break their posture after 10 seconds - what adjustment prevents stalemate?",
+      "name": "Your opponent holds a strong bent-knee defense in kneebar control: what avoids a stalemate?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After 10 seconds of unsuccessful posture breaking, transition to an alternate attack rather than forcing the kneebar. Redirect your grip toward the foot for a toe hold, which attacks a different joint and forces the opponent to change their defensive posture. Alternatively, use the kneebar threat to create a reaction that opens pathways to heel hook by adjusting leg entanglement. Continuing to force against a locked defense wastes energy and reduces subsequent attack effectiveness."
@@ -102,7 +102,7 @@ description: "Learn to execute the kneebar finish from established kneebar contr
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip configuration if the opponent begins rotating their foot during the finish?",
+      "name": "How do you adjust your grip if your opponent rotates their foot during the kneebar finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent rotates their foot, tighten elbow squeeze to prevent further rotation and adjust your grip to track the movement. If the foot rotates inward (toward your body), maintain kneebar angle by following with slight hip adjustment. If the foot rotates outward, this may expose the heel—consider transitioning to heel hook if the rotation is significant. The key is preventing the rotation from converting your hyperextension angle into a less threatening rotational angle where the knee joint has more tolerance."

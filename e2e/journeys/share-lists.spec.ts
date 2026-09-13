@@ -180,7 +180,7 @@ test("a coach collects today's class into a list from the surfaces they are alre
     a.openDossier(a._idIndex.get(id));
   }, picks[1].id);
   const dossierAdd = page.locator(
-    `[data-list-add="${picks[1].id}"][data-list-surface="land"]`,
+    `[data-list-add="${picks[1].id}"][data-list-surface="seat"]`,
   );
   // Pump until the card is not just PRESENT but on screen. The card is positioned at the
   // node's screen point from the first frame of the flight, so it exists (and reports itself
@@ -286,11 +286,11 @@ test("the in-roll capture flow survives REAL mouse clicks on a full-height landi
 
   const card = page.locator(".ng-landcard");
   await expect(card, "the landing card is up").toBeVisible();
-  const add = card.locator('[data-list-add][data-list-surface="land"]');
-  await expect(add, "…and its corner carries the capture affordance").toHaveCount(1);
+  const add = page.locator('[data-list-add][data-list-surface="seat"]');
+  await expect(add, "…and the graph seat carries the capture affordance").toHaveCount(1);
 
   const geom = await page.evaluate(() => {
-    const b = document.querySelector('.ng-landcard [data-list-add]') as HTMLElement;
+    const b = document.querySelector('[data-seat-star]') as HTMLElement;
     const br = b.getBoundingClientRect();
     const x = Math.round(br.x + br.width / 2);
     const y = Math.round(br.y + br.height / 2);
@@ -992,12 +992,12 @@ test("the + beside Your lists creates a class list — the one deliberate creati
   ).not.toContainText(/share a class/i);
   await expect(
     page.locator("[data-lists-empty]"),
-    "the empty line points at the +",
-  ).toContainText("tap + to start one");
+    "the empty line explains what custom lists are for",
+  ).toContainText("Organize techniques into classes or training lists.");
 
   const plus = page.locator("[data-lists-new]");
   await expect(plus).toHaveAttribute("aria-label", "New list");
-  const box = (await plus.boundingBox())!;
+  const box = await j.boxOf("[data-lists-new]", "the New list +");
   expect(box.width, "44px target").toBeGreaterThanOrEqual(44);
   expect(box.height, "44px target").toBeGreaterThanOrEqual(44);
 

@@ -74,7 +74,7 @@ description: "Learn to execute the Duck Under from Clinch as the attacker. Step-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical mechanical difference between a successful duck under level change and one that gets stuffed?",
+      "name": "Mechanically, what separates a successful duck under level change from one that gets stuffed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The successful duck under changes levels by bending at the knees while keeping the torso relatively upright, which maintains base, speed, and protects the neck from front headlock attacks. A failed duck under typically bends at the waist, which exposes the back of the neck, removes hip power from the lateral motion, and creates a slow telegraphed movement. The knee bend preserves the ability to drive laterally with explosive steps while the waist bend collapses your structure forward into the opponent's control framework."
@@ -90,7 +90,7 @@ description: "Learn to execute the Duck Under from Clinch as the attacker. Step-
     },
     {
       "@type": "Question",
-      "name": "What misdirection setup most effectively disguises the duck under from an experienced clinch fighter?",
+      "name": "Which misdirection best disguises the duck under from an experienced clinch fighter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A brief snap down or push on the opponent's head toward their weak side creates a momentary upward or lateral reaction that opens space for the duck under. The opponent instinctively resists the snap by posturing up or pushing back, which lifts their arms and creates the gap beneath them. Alternatively, threatening a single leg entry on the opposite side forces them to defend low, then immediately redirecting to the duck under exploits their downward defensive commitment and creates maximum space beneath the arms."
@@ -98,7 +98,7 @@ description: "Learn to execute the Duck Under from Clinch as the attacker. Step-
     },
     {
       "@type": "Question",
-      "name": "What grip must you establish before attempting the duck under and where does that hand go during execution?",
+      "name": "Which grip must you have before the duck under, and where does that hand go during it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You need at least a bicep or wrist control on the duck under side before initiating. During execution, this hand transitions to pushing the opponent's elbow upward and past your head to clear the path. Without this controlling grip, you cannot effectively redirect their arm above your head, and the duck under becomes a pure level change without arm clearance—dramatically increasing the risk of getting caught in a front headlock or guillotine as you lower your head into their control range."
@@ -106,7 +106,7 @@ description: "Learn to execute the Duck Under from Clinch as the attacker. Step-
     },
     {
       "@type": "Question",
-      "name": "Your duck under gets halfway through but the opponent whizzers your near arm—how do you complete the technique?",
+      "name": "They whizzer your near arm halfway through your duck under: how do you finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your hips tight to their body and continue circling despite the whizzer. The overhook only works defensively if you stop your lateral movement—as long as you maintain circular momentum, the whizzer actually becomes a connection point that keeps you attached to their body. Drop your hips lower to reduce their leverage angle, keep driving short shuffle steps behind them, and use your free arm to secure a grip around their waist. If the whizzer is extremely deep and stops your rotation, switch to an inside trip on their far leg using the close proximity the whizzer creates."
@@ -114,7 +114,7 @@ description: "Learn to execute the Duck Under from Clinch as the attacker. Step-
     },
     {
       "@type": "Question",
-      "name": "What is the most common counter an opponent will use against the duck under and how do you prevent it?",
+      "name": "What is the most common counter to the duck under, and how do you prevent it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sprawl is the most common counter. Opponents who feel the level change immediately drive their hips backward and push down on your head or shoulders. Prevention relies on proper misdirection and explosive commitment—if you snap or push before ducking, the opponent's upward reaction opens a window where a sprawl is physiologically delayed by their recovery. Additionally, keeping your head tight to their body rather than leading with your head extended forward makes the sprawl less effective because there is less exposed surface for them to push down on."

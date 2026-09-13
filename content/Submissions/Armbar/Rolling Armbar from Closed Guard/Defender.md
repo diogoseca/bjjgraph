@@ -58,7 +58,7 @@ description: "How to defend against Rolling Armbar in BJJ. Recognition, escape p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a rolling armbar is being set up, and what should your immediate response be?",
+      "name": "What is the earliest cue that a rolling armbar is being set up, and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling a two-on-one grip being established on your arm, with the attacker controlling both your wrist and above your elbow simultaneously. Your immediate response must be to retract your elbow tight to your hip and circle your arm out of their control before they can pull it across their centerline. Every second of delay after this grip is established makes the defense exponentially harder, as the attacker only needs the arm isolated and an angle to initiate the roll."
@@ -66,7 +66,7 @@ description: "How to defend against Rolling Armbar in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "Why is it dangerous to attempt a hitchhiker escape when your arm is already near full extension in the rolling armbar finishing position?",
+      "name": "Why is a hitchhiker escape dangerous once the rolling armbar has your arm near full extension?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the arm is near full extension, rotating your thumb away and turning belly-down can cause the elbow joint to hyperextend further during the rotation, potentially tearing the UCL or LCL ligaments or causing dislocation. The hitchhiker escape relies on creating slack in the arm by rotating before significant extension pressure is applied. If pressure is already substantial, the safest option is to tap immediately rather than risk a catastrophic joint injury from a late escape attempt. The ego cost of tapping is always less than the physical cost of a torn ligament."
@@ -74,7 +74,7 @@ description: "How to defend against Rolling Armbar in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the roll and is transitioning to the finishing position - what body mechanics prevent the submission from being applied?",
+      "name": "They finished the roll and are setting the finish — what mechanics stop the rolling armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your elbow bent at maximum flexion and pull your hand toward your own chest or shoulder, creating a defensive frame that resists extension. Simultaneously, turn your body toward the attacker and attempt to get your trapped elbow to the mat on the attacker's hip side, which removes the angle needed for hyperextension. Pinch your knees together toward the attacker and attempt to stack forward to compress their finishing structure. The combination of bent arm, body rotation toward attacker, and forward pressure can neutralize the finishing mechanics long enough to work an escape."
@@ -82,7 +82,7 @@ description: "How to defend against Rolling Armbar in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your overall guard passing approach once you recognize your opponent frequently attacks with rolling armbars?",
+      "name": "How should you adjust your guard passing against an opponent who hunts rolling armbars?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain disciplined elbow position throughout all passing sequences, never allowing a single arm to extend away from your body or across the attacker's centerline. Favor passing strategies that keep both hands connected to your opponent's body rather than posting on the mat. When in closed guard, keep your elbows pinched tight to your ribs and address any two-on-one grip attempts instantly. Stand to break guard rather than staying on your knees where the rolling angle is easier to create. When you feel your posture being broken, prioritize posture recovery over continuing your pass attempt."
@@ -90,7 +90,7 @@ description: "How to defend against Rolling Armbar in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between defending the rolling armbar during the rolling phase versus after the roll is completed?",
+      "name": "How does defending a rolling armbar during the roll differ from defending after the roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the rolling phase, your primary defense is following the rotation by turning your body with the roll while keeping your arm bent and tight, which can land you in top position as the roll completes. After the roll is completed and the attacker has established the finishing position with legs crossed and hips against your shoulder, the defensive options narrow significantly to hitchhiker escape, stacking, or clasping your hands together to prevent extension. The rolling phase offers higher-percentage defensive options with better positional outcomes, while post-roll defenses are last-resort measures with higher injury risk if timed incorrectly."

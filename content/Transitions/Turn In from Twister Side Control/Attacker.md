@@ -74,7 +74,7 @@ description: "Execute the turn-in escape from twister side control bottom. Step-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy shoulder pressure as you begin to create frames for the turn-in - how do you establish frames despite this resistance?",
+      "name": "They drive heavy shoulder pressure as you frame to turn in—how do you build frames?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use compact forearm wedge frames with bent elbows connected directly to your own hip and ribcage rather than extending arms against the pressure. These structural frames redirect force through skeletal alignment rather than fighting muscular pressure directly. The shortened frame length makes them significantly harder to collapse. Once the compact frame is established, use small hip movements to incrementally widen the space rather than trying to push the opponent away."
@@ -98,7 +98,7 @@ description: "Execute the turn-in escape from twister side control bottom. Step-
     },
     {
       "@type": "Question",
-      "name": "You have successfully turned to face your opponent but your near leg is still entangled - what is your immediate priority?",
+      "name": "You've turned to face them but your near leg is still entangled—what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your underhook and frames to hold the facing position while working on incremental leg extraction using small circular hip movements and knee extension. Do not attempt a single explosive leg pull, as this often results in the opponent re-hooking deeper. Use the improved hip angle from the turn to create small spaces in the entanglement, systematically working the hook loose while preserving your upper body position. The leg will come free through persistence, not force."
@@ -106,7 +106,7 @@ description: "Execute the turn-in escape from twister side control bottom. Step-
     },
     {
       "@type": "Question",
-      "name": "What is the critical frame placement that prevents the opponent from re-flattening you during the rotation?",
+      "name": "Which frame keeps them from re-flattening you during the turn in from twister side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary frame goes against the opponent's near shoulder, blocking their ability to drive their chest into yours and collapse you back flat. The secondary frame controls the hip or ribcage to manage distance. Both frames must use bent elbows connected to your own body for structural integrity. The shoulder frame is the more critical of the two because re-flattening begins with the opponent driving shoulder pressure, so blocking this vector preserves your facing position."
@@ -114,7 +114,7 @@ description: "Execute the turn-in escape from twister side control bottom. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stepping over to mount as you create space during the turn-in - how do you counter this advancement?",
+      "name": "They step over toward mount as you create space in the turn in—how do you counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon completing the turn-in and prioritize inserting your knee across the opponent's midsection as a barrier. The knee shield is the critical tool for preventing mount advancement. If you can get your shin across their body before their leg clears, you block the mount transition and establish a knee shield half guard position. If they are already committed to the step-over, use your frames to push their hips back and create space for the knee insertion."

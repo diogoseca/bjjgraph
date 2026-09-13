@@ -70,7 +70,7 @@ description: "How to execute the Spinning Armbar from Closed Guard in BJJ. Attac
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the two critical points of control on the opponent's arm before initiating a spinning armbar?",
+      "name": "What two points on the arm must you control before spinning into the armbar from closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must control both the wrist (for directional control and prevention of hand retraction) and a point above the elbow such as the triceps or upper forearm (to prevent arm rotation and maintain alignment throughout the spin). Controlling only the wrist allows the opponent to rotate their arm and escape, while controlling only above the elbow gives them the ability to pull the arm back to their body. Two-point control is essential for maintaining the submission throughout the dynamic rotational movement."
@@ -78,7 +78,7 @@ description: "How to execute the Spinning Armbar from Closed Guard in BJJ. Attac
     },
     {
       "@type": "Question",
-      "name": "Why must you break the opponent's posture before initiating the spinning motion, and what happens if you skip this step?",
+      "name": "Why break their posture before spinning for the armbar, and what happens if you skip it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Breaking the opponent's posture is critical because it prevents them from following your rotation and escaping the submission. If their posture is strong and their base is stable, they can simply turn their body with you as you spin, maintaining a neutral position or even improving their position to pass your guard. By compromising their posture first through off-balancing, grip manipulation, or foot placement on their hips, you ensure they cannot react quickly enough to follow your spin. This postural disruption creates the necessary time and space window for you to complete the rotation and establish the finishing position before they can defend."
@@ -86,7 +86,7 @@ description: "How to execute the Spinning Armbar from Closed Guard in BJJ. Attac
     },
     {
       "@type": "Question",
-      "name": "At what point in the spinning armbar sequence should extension pressure be applied to the elbow joint, and why is timing critical for safety?",
+      "name": "When in the spinning armbar should you apply elbow extension, and why is that timing critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extension pressure should ONLY be applied after the complete rotation is finished and you have landed in proper armbar position with the opponent's arm correctly aligned (thumb pointing up) and your legs established across their chest and face. Applying extension pressure during the spin itself or before proper alignment is achieved creates dangerous torque on the elbow joint at awkward angles, significantly increasing the risk of ligament damage or dislocation. The rotation phase is purely positional - no pressure should be applied until you are stationary in the finishing position. This separation between the dynamic movement and the submission finish is essential for training safety."
@@ -94,7 +94,7 @@ description: "How to execute the Spinning Armbar from Closed Guard in BJJ. Attac
     },
     {
       "@type": "Question",
-      "name": "What is the proper tap release protocol for the spinning armbar, particularly regarding the rotational forces involved?",
+      "name": "What is the tap release protocol for the spinning armbar given the rotational forces involved?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upon receiving a tap signal, immediately stop all extension pressure on the elbow and cease any continued rotational movement. Release the leg pressure across the opponent's face and chest, allowing their arm to return naturally to a neutral position without jerking or pulling. Roll away from the submission to create space and allow the opponent to assess their arm and elbow mobility. Because the spinning armbar involves rotational force and momentum, it's particularly important to ensure the opponent can safely exit the position without their arm being torqued or twisted during the release. Check with your partner before continuing training to ensure no strain or discomfort remains from the submission attempt."
@@ -102,7 +102,7 @@ description: "How to execute the Spinning Armbar from Closed Guard in BJJ. Attac
     },
     {
       "@type": "Question",
-      "name": "How does rotational momentum contribute to the effectiveness of the spinning armbar compared to static armbar entries?",
+      "name": "How does rotational momentum make the spinning armbar work better than static armbar entries?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotational momentum creates several key advantages: it generates force that can overcome grip defenses and postural resistance that would stop static entries; it attacks from an unexpected angle that bypasses traditional armbar defenses focused on preventing hip movement; it allows you to transition from positions where static armbars are unavailable or defended; and it creates submission opportunities during dynamic exchanges and scrambles where positional control is not yet established. The continuous motion makes it difficult for opponents to time their defenses because the attack is constantly changing angles. However, this same momentum requires precise control to ensure safety - the dynamic nature means the practitioner must be highly aware of position and timing to avoid applying pressure during the rotation phase."
@@ -110,7 +110,7 @@ description: "How to execute the Spinning Armbar from Closed Guard in BJJ. Attac
     },
     {
       "@type": "Question",
-      "name": "What specific adjustments must be made if the opponent attempts to follow your rotation during the spinning armbar?",
+      "name": "Your opponent follows your rotation during the spinning armbar: what adjustments do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent follows your rotation, you have several adjustment options: increase the speed of your spin to outpace their ability to follow; use your free leg to create a barrier against their body that prevents them from rotating with you; redirect your momentum to complete a full 360-degree rotation and reset; or abandon the spinning armbar entirely and transition to alternative attacks like triangle, omoplata, or sweeps that capitalize on their compromised position while following your movement. The key is recognizing their counter-rotation early enough to make these adjustments before you land in an inferior position. This is why breaking posture before the spin is so important - properly broken posture makes following your rotation nearly impossible for the opponent."

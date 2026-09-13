@@ -56,7 +56,7 @@ description: "How to defend against Meathook to Gogoplata Control in BJJ. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most reliable defensive action when you feel the shin hook release from your tricep in Meathook?",
+      "name": "Defending Meathook, you feel the shin leave your tricep: what is the most reliable response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive posture recovery is the highest-percentage defense. The moment the shin pressure lifts from your arm, drive your hips back and chest upward simultaneously. This must be immediate and explosive because the defensive window between shin release and throat contact is only one to two seconds. Hesitation allows the shin to reach your throat where defensive options become severely limited."

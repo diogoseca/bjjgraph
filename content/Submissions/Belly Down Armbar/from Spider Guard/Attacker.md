@@ -78,7 +78,7 @@ description: "Learn to execute the belly down armbar finish from Spider Guard. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to retract their arm by bending the elbow during your hip angle phase - what adjustment prevents the escape?",
+      "name": "From spider guard they bend the elbow to retract the arm as you angle your hips—what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain maximum sleeve tension by pulling the wrist firmly toward your chest and use your foot still on their bicep to re-extend the arm by pushing outward. If they bend the elbow deeply despite these efforts, pivot your hips further toward the omoplata angle rather than forcing the armbar, converting their defensive arm retraction into an omoplata entry. Never abandon sleeve grip tension to chase the arm."
@@ -94,7 +94,7 @@ description: "Learn to execute the belly down armbar finish from Spider Guard. S
     },
     {
       "@type": "Question",
-      "name": "What are the critical control requirements that must be established before committing to the belly-down rotation?",
+      "name": "From spider guard, what must you confirm before committing to the belly-down rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three control checkpoints must be confirmed: the target arm is trapped between your thighs with knees squeezed and no visible gap, the wrist is pulled tight to your chest with both hands maintaining strong grip, and the opponent's elbow is positioned above your hip line so the fulcrum is aligned for extension. Missing any of these three elements creates an escape opportunity during the rotation when your control is temporarily reduced."
@@ -110,7 +110,7 @@ description: "Learn to execute the belly down armbar finish from Spider Guard. S
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip on the sleeve during the transition from spider guard control to the belly-down finish?",
+      "name": "How does your sleeve grip change from spider guard control to the belly-down finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During spider guard, your grip is a standard four-finger sleeve grip at or above elbow level. As you begin the armbar rotation, transition to gripping the wrist with both hands by walking your grips down toward the wrist while maintaining tension. In the belly-down position, both hands control the wrist area with the arm pulled tight against your chest. The grip must never fully release during any transition between these control points."

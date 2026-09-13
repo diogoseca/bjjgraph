@@ -147581,7 +147581,7 @@
      }
     },
     {
-     "transition": "Kesa Gatame to Modified Scarf Hold",
+     "transition": "Kesa Gatame to Kuzure Kesa Gatame",
      "prior": {
       "gi": 2,
       "nogi": 2
@@ -147643,7 +147643,7 @@
      }
     },
     {
-     "transition": "Kesa Gatame to Reverse Kesa-Gatame",
+     "transition": "Kesa Gatame to Ushiro Kesa Gatame",
      "prior": {
       "gi": 2,
       "nogi": 2
@@ -147894,8 +147894,8 @@
   },
   {
    "key": "side-controlkuzure-kesa-gatame__bottom",
-   "file": "content/Positions/Side Control/Kuzure Kesa-Gatame.json",
-   "position": "Kuzure Kesa-Gatame",
+   "file": "content/Positions/Side Control/Kuzure Kesa Gatame.json",
+   "position": "Kuzure Kesa Gatame",
    "role": "bottom",
    "family": "submission_control",
    "rounds_used": 16,
@@ -148380,7 +148380,7 @@
      }
     },
     {
-     "transition": "Frame Escape from Kuzure Kesa",
+     "transition": "Frame Escape from Kuzure Kesa Gatame",
      "prior": {
       "gi": 6,
       "nogi": 6
@@ -148445,8 +148445,8 @@
   },
   {
    "key": "side-controlkuzure-kesa-gatame__top",
-   "file": "content/Positions/Side Control/Kuzure Kesa-Gatame.json",
-   "position": "Kuzure Kesa-Gatame",
+   "file": "content/Positions/Side Control/Kuzure Kesa Gatame.json",
+   "position": "Kuzure Kesa Gatame",
    "role": "top",
    "family": "submission_control",
    "rounds_used": 16,
@@ -148465,7 +148465,7 @@
    ],
    "removal_candidates": [
     {
-     "move": "Belly Down Armbar from Kuzure Kesa-Gatame",
+     "move": "Belly Down Armbar from Kuzure Kesa Gatame",
      "reason": "Genuine but very-low-frequency tail finish — it requires the attacker to already be spinning belly-down off the free arm, which is more naturally a continuation of Armbar on Free Arm than a distinct primary attempt from the kesa control itself. Consistently the lowest-weighted move (gi 5-7, nogi 6-8) and arguably a sub-branch of the free-arm armbar rather than a standalone occurrence."
     }
    ],
@@ -148499,7 +148499,7 @@
    },
    "moves": [
     {
-     "transition": "Americana from Kuzure Kesa-Gatame",
+     "transition": "Americana from Kuzure Kesa Gatame",
      "prior": {
       "gi": 11,
       "nogi": 11
@@ -148561,7 +148561,7 @@
      }
     },
     {
-     "transition": "Kimura from Kuzure Kesa-Gatame",
+     "transition": "Kimura from Kuzure Kesa Gatame",
      "prior": {
       "gi": 11,
       "nogi": 11
@@ -148747,7 +148747,7 @@
      }
     },
     {
-     "transition": "Paper Cutter Choke from Kuzure Kesa-Gatame",
+     "transition": "Paper Cutter Choke from Kuzure Kesa Gatame",
      "prior": {
       "gi": 10,
       "nogi": 10
@@ -148809,7 +148809,7 @@
      }
     },
     {
-     "transition": "Arm Triangle from Kuzure Kesa-Gatame",
+     "transition": "Arm Triangle from Kuzure Kesa Gatame",
      "prior": {
       "gi": 11,
       "nogi": 11
@@ -148871,7 +148871,7 @@
      }
     },
     {
-     "transition": "Breadcutter Choke from Kuzure Kesa-Gatame",
+     "transition": "Breadcutter Choke from Kuzure Kesa Gatame",
      "prior": {
       "gi": 9,
       "nogi": 9
@@ -149057,7 +149057,7 @@
      }
     },
     {
-     "transition": "Belly Down Armbar from Kuzure Kesa-Gatame",
+     "transition": "Belly Down Armbar from Kuzure Kesa Gatame",
      "prior": {
       "gi": 5,
       "nogi": 5
@@ -150402,9 +150402,9 @@
    ]
   },
   {
-   "key": "side-controlreverse-kesa-gatame__bottom",
-   "file": "content/Positions/Side Control/Reverse Kesa-Gatame.json",
-   "position": "Reverse Kesa-Gatame",
+   "key": "side-controlushiro-kesa-gatame__bottom",
+   "file": "content/Positions/Side Control/Ushiro Kesa Gatame.json",
+   "position": "Ushiro Kesa Gatame",
    "role": "bottom",
    "family": "submission_control",
    "rounds_used": 16,
@@ -150755,7 +150755,7 @@
      }
     },
     {
-     "transition": "Bridge from Reverse Kesa-Gatame",
+     "transition": "Bridge from Ushiro Kesa Gatame",
      "prior": {
       "gi": 5,
       "nogi": 5
@@ -150817,7 +150817,7 @@
      }
     },
     {
-     "transition": "Escape Reverse Kesa-Gatame",
+     "transition": "Escape Ushiro Kesa Gatame",
      "prior": {
       "gi": 2,
       "nogi": 2
@@ -150879,7 +150879,7 @@
      }
     },
     {
-     "transition": "Turn In from Reverse Kesa",
+     "transition": "Turn In from Ushiro Kesa Gatame",
      "prior": {
       "gi": 1,
       "nogi": 1
@@ -150943,9 +150943,9 @@
    ]
   },
   {
-   "key": "side-controlreverse-kesa-gatame__top",
-   "file": "content/Positions/Side Control/Reverse Kesa-Gatame.json",
-   "position": "Reverse Kesa-Gatame",
+   "key": "side-controlushiro-kesa-gatame__top",
+   "file": "content/Positions/Side Control/Ushiro Kesa Gatame.json",
+   "position": "Ushiro Kesa Gatame",
    "role": "top",
    "family": "submission_control",
    "rounds_used": 16,
@@ -150953,7 +150953,7 @@
    "availability_rulings": [],
    "removal_candidates": [
     {
-     "move": "Americana from Reverse Kesa-Gatame",
+     "move": "Americana from Ushiro Kesa Gatame",
      "reason": "Panel consensus (Gordon, Mikey, Danaher) that reverse kesa's reversed angle is geometrically wrong for the americana — it is a situational low-double-digit at best, not a native attack of this position. It survives at ~10 but is the weakest attack; flagged as the leading removal candidate if the move set is ever pruned. NOT removed now."
     }
    ],
@@ -151110,7 +151110,7 @@
      }
     },
     {
-     "transition": "Kimura from Reverse Kesa-Gatame",
+     "transition": "Kimura from Ushiro Kesa Gatame",
      "prior": {
       "gi": 15,
       "nogi": 15
@@ -151172,7 +151172,7 @@
      }
     },
     {
-     "transition": "Americana from Reverse Kesa-Gatame",
+     "transition": "Americana from Ushiro Kesa Gatame",
      "prior": {
       "gi": 15,
       "nogi": 15
@@ -151234,7 +151234,7 @@
      }
     },
     {
-     "transition": "Arm Triangle from Reverse Kesa-Gatame",
+     "transition": "Arm Triangle from Ushiro Kesa Gatame",
      "prior": {
       "gi": 10,
       "nogi": 10
@@ -151358,7 +151358,7 @@
      }
     },
     {
-     "transition": "Reverse Kesa to North-South",
+     "transition": "Ushiro Kesa Gatame to North-South",
      "prior": {
       "gi": 5,
       "nogi": 5
@@ -151420,7 +151420,7 @@
      }
     },
     {
-     "transition": "Reverse Kesa to Side Control",
+     "transition": "Ushiro Kesa Gatame to Side Control",
      "prior": {
       "gi": 3,
       "nogi": 3

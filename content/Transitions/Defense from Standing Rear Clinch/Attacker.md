@@ -90,7 +90,7 @@ description: "Master escaping the standing rear clinch in BJJ. Step-by-step grip
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a tight bodylock and begins lifting you off the ground - what is your immediate response?",
+      "name": "They have a tight bodylock and start lifting you off the mat — what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hook one leg behind the opponent's leg to prevent full elevation, drop your hips explosively toward the mat, and simultaneously pummel your hands inside their grip to create a wedge. If they achieve partial lift, spread your legs wide to distribute weight and make the lift harder to control. Never allow both feet to leave the ground simultaneously. The combination of leg hooking, hip dropping, and weight spreading neutralizes most lifting attempts by disrupting the opponent's center of gravity alignment needed for the throw."
@@ -98,7 +98,7 @@ description: "Master escaping the standing rear clinch in BJJ. Step-by-step grip
     },
     {
       "@type": "Question",
-      "name": "What determines whether you turn toward the underhook side or overhook side during the rotation escape?",
+      "name": "Which side do you turn toward in the rotation escape from rear clinch, and what decides it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Always turn toward the underhook side because the underhook gives you structural advantage for controlling the opponent as you face them. Turning toward the overhook side results in your arm being trapped, allowing the opponent to maintain upper body control even as you face them or transition to a gift wrap. If the opponent has a seatbelt grip, turn toward the arm that goes under your armpit, which positions you to emerge with the underhook as you complete the rotation and prevents the choking arm from deepening during the turn."

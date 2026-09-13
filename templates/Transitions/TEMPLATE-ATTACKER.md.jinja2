@@ -15,14 +15,14 @@ description: "{{ attacker.description }}"
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute {{ name }} in BJJ",
-  "description": "Step-by-step guide for executing {{ name }} from {{ from_position }}.",
+  "name": {{ ("How to Execute " ~ (name) ~ " in BJJ") | jsonstr }},
+  "description": {{ ("Step-by-step guide for executing " ~ (name) ~ " from " ~ (from_position) ~ ".") | jsonstr }},
   "step": [
     {%- for step in attacker.execution_steps[:8] %}
     {
       "@type": "HowToStep",
-      "name": "{{ step.action }}",
-      "text": "{{ step.description }}",
+      "name": {{ step.action | jsonstr }},
+      "text": {{ step.description | jsonstr }},
       "position": {{ loop.index }}
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -41,10 +41,10 @@ description: "{{ attacker.description }}"
     {%- for qa in attacker.flashcards[:6] %}
     {
       "@type": "Question",
-      "name": "{{ qa.question }}",
+      "name": {{ qa.question | jsonstr }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ qa.answer }}"
+        "text": {{ qa.answer | jsonstr }}
       }
     }{{ "," if not loop.last else "" }}
     {%- endfor %}
@@ -57,8 +57,8 @@ description: "{{ attacker.description }}"
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "{{ name }} Attacker",
-  "description": "{{ attacker.description }}",
+  "name": {{ ((name) ~ " Attacker") | jsonstr }},
+  "description": {{ attacker.description | jsonstr }},
   {%- if aliases is defined and aliases %}
   "alternateName": [{% for alias in aliases %}{{ alias | tojson }}{{ ", " if not loop.last else "" }}{% endfor %}],
   {%- endif %}
@@ -77,8 +77,8 @@ description: "{{ attacker.description }}"
   }{%- if family is defined and family %},
   "mainEntityOfPage": {
     "@type": "CollectionPage",
-    "name": "{{ family }}",
-    "url": "https://bjjgraph.org/Families/{{ family | slugify }}"
+    "name": {{ family | jsonstr }},
+    "url": {{ ("https://bjjgraph.org/Families/" ~ (family | slugify)) | jsonstr }}
   }
   {%- endif %}
 }
@@ -105,14 +105,14 @@ description: "{{ attacker.description }}"
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "{{ name }}",
-      "item": "https://bjjgraph.org/Transitions/{{ name.replace(' ', '-') }}"
+      "name": {{ name | jsonstr }},
+      "item": {{ ("https://bjjgraph.org/Transitions/" ~ (name.replace(' ', '-'))) | jsonstr }}
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Attacker",
-      "item": "https://bjjgraph.org/Transitions/{{ name.replace(' ', '-') }}/Attacker"
+      "item": {{ ("https://bjjgraph.org/Transitions/" ~ (name.replace(' ', '-')) ~ "/Attacker") | jsonstr }}
     }
   ]
 }
@@ -143,7 +143,7 @@ description: "{{ attacker.description }}"
       "creator": { "@type": "Person", "name": {{ clip.by | tojson }} }
       {%- endif %}
       {%- if clip.duration %},
-      "duration": "PT{{ clip.duration }}S"
+      "duration": {{ ("PT" ~ (clip.duration) ~ "S") | jsonstr }}
       {%- endif %}
       {%- if clip.upload_date %},
       "uploadDate": {{ clip.upload_date | tojson }}
@@ -245,8 +245,12 @@ description: "{{ attacker.description }}"
 | Result | Position | Probability |
 |--------|----------|-------------|
 {% for outcome in outcomes -%}
-| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to.split('/')[0] if '/' in outcome.to else outcome.to) }}]] | {{ outcome.probability }}% |
+| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to.split('/')[0] if '/' in outcome.to else outcome.to) }}]] | {{ outcome.probability | pct }} |
 {% endfor %}
+{%- set _absence_note = outcomes | outcomes_absence_note %}
+{%- if _absence_note %}
+{{ _absence_note }}
+{% endif %}
 
 </section>
 

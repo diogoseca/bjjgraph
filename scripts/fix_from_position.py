@@ -24,7 +24,37 @@ from pathlib import Path
 AUDIT_PATH = Path("tests/artifacts/from_position_audit.json")
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _ruleset import as_map, sum_cells, RULESETS  # {gi,nogi} contract (calibration-v2)
+from _ruleset import as_map, sum_cells, present_rulesets, RULESETS  # {gi,nogi} contract (calibration-v2)
+
+
+def merge_cells(a, b):
+    """Sum two attempt-probability cells for ONE frame, under the null contract.
+
+    A null cell means "this edge does not exist in that ruleset" (scripts/_ruleset.py), so
+    it is ABSENT from the sum rather than a 0 inside it — and if BOTH sides are absent the
+    merged cell is absent too. The five-way table, measured:
+
+        generic / variant      shipped `(g or 0) + (v or 0)`   this           verdict
+        60 / 60                120                             120            same
+        null / 30              30                              30             same
+        0 / null               0                               0              same
+        null / 0               0                               0              same
+        null / null            0                               None           THE DEFECT
+
+    One row in five, and it is the row that matters: merging two edges that exist in
+    neither ruleset minted one that exists in both, at 0%, which reads as "available, never
+    attempted" forever after.
+
+    ONE function, TWO callers — fix_case_b's merge and fix_dual_references' — because they
+    were two answers to one question and §6.5 says the second one is already wrong. It was:
+    fix_dual_references did `generic_prob + variant_prob` on the raw values, which have been
+    {gi,nogi} DICTS since calibration-v2, so `--case dual` died with
+    `TypeError: unsupported operand type(s) for +: 'dict' and 'dict'` and `--case all` (i.e.
+    `npm run fix:from-position`) reached the same line after already writing Cases D, A
+    and B. Collapse to one named seam BEFORE a third caller exists.
+    """
+    cells = [c for c in (a, b) if c is not None]
+    return sum(cells) if cells else None
 
 
 def load_json(path):
@@ -45,15 +75,38 @@ def save_json(path, data):
 
 
 def validate_probability_sum(data, role_name):
-    """Verify that transitions attempt_probability sums to 100 for a role."""
+    """Verify that transitions attempt_probability sums to 100 for a role.
+
+    Checks the frames that EXIST (present_rulesets), never the RULESETS pair blind. Under
+    the null contract a null cell means the edge does not exist in that ruleset, so a
+    legitimately gi-only role has no no-gi frame and no no-gi sum to check — and
+    `all(sum == 100 for rs in RULESETS)` answered False for the entire class the null layer
+    creates. Measured: healthy both-frame role -> True; healthy gi-only role (nogi all
+    null, gi sums 100) -> False, printing "Probability sum != 100 ... after edit!" and
+    filing an error row; genuinely BROKEN gi-only role (gi sums 90) -> also False. A check
+    whose answer is constant-False across a class carries no information about that class,
+    which is worse than not running — and this script runs UNATTENDED every Saturday in
+    .github/workflows/validation-fixer.yml, so nobody is watching when it is wrong.
+
+    §6.6: the pass path prints its coverage, and "no frame at all" is an ERROR rather than
+    a vacuous True, so "checked nothing" can never read like "found nothing wrong".
+    """
     role_data = data.get(role_name)
     if not role_data:
         return True
     transitions = role_data.get("transitions", [])
     if not transitions:
         return True
+    frames = present_rulesets(t.get("attempt_probability") for t in transitions
+                              if isinstance(t, dict))
+    if not frames:
+        print(f"  ERROR: {role_name}: {len(transitions)} transitions but NO present ruleset "
+              "frame — every attempt_probability cell is null", file=sys.stderr)
+        return False
+    print(f"  checked {len(frames)} frame(s) {frames} across {len(transitions)} "
+          f"transitions in {role_name}")
     return all(
-        sum_cells(transitions, "attempt_probability", rs) == 100 for rs in RULESETS
+        sum_cells(transitions, "attempt_probability", rs) == 100 for rs in frames
     )
 
 
@@ -192,17 +245,23 @@ def fix_case_b(issues, dual_refs, dry_run):
 
             if is_dual and variant_idx is not None:
                 # Merge: add generic probability to variant, remove generic
-                generic_prob = as_map(transitions[generic_idx].get("attempt_probability", 0))
-                variant_prob = as_map(transitions[variant_idx].get("attempt_probability", 0))
-                new_prob = {
-                    rs: (generic_prob.get(rs) or 0) + (variant_prob.get(rs) or 0)
-                    for rs in RULESETS
-                }
+                # No `, 0` default: a MISSING attempt_probability asserts nothing, and
+                # as_map(0) would turn that silence into "exists in both rulesets, never
+                # attempted". as_map(None) is {gi:None, nogi:None} — unasserted. Zero
+                # instances today (0 of 5,086 cells in content/Positions lack the key).
+                generic_prob = as_map(transitions[generic_idx].get("attempt_probability"))
+                variant_prob = as_map(transitions[variant_idx].get("attempt_probability"))
+                new_prob = {rs: merge_cells(generic_prob.get(rs), variant_prob.get(rs))
+                            for rs in RULESETS}
 
                 action["type"] = "merge"
                 action["generic_prob"] = generic_prob
                 action["variant_prob"] = variant_prob
                 action["merged_prob"] = new_prob
+                # positive coverage on the line the [FIXED]/[DRY RUN] reader is reading:
+                # a merge that dropped a frame has to say so, not just print a smaller dict
+                action["null_cells_preserved"] = sum(
+                    1 for rs in RULESETS if new_prob[rs] is None)
 
                 if dry_run:
                     action["status"] = "dry_run"
@@ -225,7 +284,14 @@ def fix_case_b(issues, dual_refs, dry_run):
             else:
                 # Rename: change generic to variant
                 action["type"] = "rename"
-                action["probability"] = transitions[generic_idx].get("attempt_probability", 0)
+                # No `, 0` default. This is a REPORT field — the rename branch changes the
+                # transition's NAME and never touches its probability — but a 0 here would
+                # print "exists in both rulesets, never attempted" about a transition that
+                # asserted nothing, and a report is where the next reader's number comes
+                # from. as_map(None) is {gi:None, nogi:None}: unasserted. No-op today
+                # (0 of 5,086 position cells lack the key).
+                action["probability"] = as_map(
+                    transitions[generic_idx].get("attempt_probability"))
 
                 if dry_run:
                     action["status"] = "dry_run"
@@ -319,9 +385,13 @@ def fix_dual_references(dual_refs, dry_run):
                 # Already fixed by case_b or no longer present
                 continue
 
-            generic_prob = transitions[generic_idx].get("attempt_probability", 0)
-            variant_prob = transitions[variant_idx].get("attempt_probability", 0)
-            new_prob = generic_prob + variant_prob
+            # `generic_prob + variant_prob` on the raw values was dict + dict — a TypeError
+            # on every run since calibration-v2. Same merge as fix_case_b's, so it calls the
+            # same helper: two answers to one question is how it diverged in the first place.
+            generic_prob = as_map(transitions[generic_idx].get("attempt_probability"))
+            variant_prob = as_map(transitions[variant_idx].get("attempt_probability"))
+            new_prob = {rs: merge_cells(generic_prob.get(rs), variant_prob.get(rs))
+                        for rs in RULESETS}
 
             action = {
                 "file": pos_file,
@@ -331,6 +401,7 @@ def fix_dual_references(dual_refs, dry_run):
                 "generic_prob": generic_prob,
                 "variant_prob": variant_prob,
                 "merged_prob": new_prob,
+                "null_cells_preserved": sum(1 for rs in RULESETS if new_prob[rs] is None),
             }
 
             if dry_run:
@@ -426,6 +497,14 @@ def main():
         len([r for r in results if r.get("status") == "skipped"])
         for results in all_results.values()
     )
+
+    # §6.6 positive coverage: a merge that dropped a frame prints here whether or not
+    # anybody read the per-action lines, so "merged nothing away" and "merged a whole
+    # ruleset away" cannot produce the same summary.
+    merges = [r for results in all_results.values() for r in results
+              if "null_cells_preserved" in r]
+    print(f"Merges inspected: {len(merges)}  "
+          f"null cells preserved: {sum(r['null_cells_preserved'] for r in merges)}")
 
     if args.dry_run:
         print(f"Dry run complete: {total_dry} changes planned, {total_skipped} skipped")

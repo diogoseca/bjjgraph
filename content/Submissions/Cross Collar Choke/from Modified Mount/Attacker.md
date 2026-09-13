@@ -70,7 +70,7 @@ description: "Learn to finish the Cross Collar Choke from Modified Mount with pr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Cross Collar Choke target and how does proper grip placement achieve compression?",
+      "name": "What does the cross collar choke target, and how does grip placement create compression?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Cross Collar Choke targets the carotid arteries on both sides of the neck, which supply oxygenated blood to the brain. Proper grip placement positions each wrist bone across the opposite carotid artery in an X-pattern, with the collar fabric wrapping around the back of the neck to create a closed system. When the elbows drive toward the mat, the forearms compress both carotids simultaneously, producing cerebral ischemia and unconsciousness within seconds. Improper placement targeting the trachea centrally produces an airway choke that is slower and more painful."
@@ -78,7 +78,7 @@ description: "Learn to finish the Cross Collar Choke from Modified Mount with pr
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stripping your first collar grip by two-hand pushing your wrist away from their neck - what adjustment do you make?",
+      "name": "From modified mount, they two-hand push your collar grip away—what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the defender commits both hands to stripping your collar grip, they have removed their arms from their defensive position against their body. Immediately threaten the armbar on whichever arm is most extended by beginning to rotate your hips toward that arm. This forces them to choose between finishing the grip strip (and getting armbarred) or abandoning the strip to defend the armbar (allowing you to re-establish the collar grip deeper). The key is recognizing the grip strip as an opportunity for dilemma creation rather than a setback."
@@ -94,7 +94,7 @@ description: "Learn to finish the Cross Collar Choke from Modified Mount with pr
     },
     {
       "@type": "Question",
-      "name": "What are the indicators that your collar grip is deep enough to produce a blood choke rather than an airway choke?",
+      "name": "What shows your collar grip is deep enough for a blood choke rather than an airway choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A sufficiently deep grip has your fingers reaching behind the opponent's neck past the collarbone, and you can feel the collar fabric wrapping around the back of the neck like a scarf. When you pull your elbow toward the mat, pressure should be felt on the side of the neck, not the front of the throat. If the opponent complains of throat pressure or coughing rather than lightheadedness, the grip is too shallow and targeting the trachea. Proper depth produces a quiet, progressive squeeze where the opponent feels pressure on the sides of the neck and experiences visual darkening."
@@ -102,7 +102,7 @@ description: "Learn to finish the Cross Collar Choke from Modified Mount with pr
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin extremely tight and stiffens their neck - how do you create the opening for grip penetration?",
+      "name": "They tuck the chin tight and stiffen the neck—how do you open the collar for your grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a deeply tucked chin, use your forehead or the crown of your head to press against their jaw from the side, creating a lever that forces the chin upward and opens the neck. Alternatively, use the collar drag approach where your first grip pulls the collar laterally to rotate their head, momentarily opening the far-side collar for deep insertion. You can also apply heavy cross-face pressure with your forearm to turn their head away, then feed the grip on the exposed side. The principle is creating asymmetric head movement that opens one collar side at a time rather than fighting the tuck directly."

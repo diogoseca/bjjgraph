@@ -92,7 +92,7 @@ description: "Complete guide to finishing the triangle choke from triangle contr
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins posturing up while you have the triangle locked—what adjustment prevents the escape?",
+      "name": "Your opponent postures up in your locked triangle: what adjustment prevents the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase downward pulling force on the back of their head with both hands while simultaneously elevating your hips to maintain the compression angle. If they achieve partial posture despite this, transition to the armbar by controlling their isolated arm and swinging your leg over their face. The posture recovery actually exposes the arm for the armbar, turning their defense into your next attack opportunity."
@@ -116,7 +116,7 @@ description: "Complete guide to finishing the triangle choke from triangle contr
     },
     {
       "@type": "Question",
-      "name": "What are the signs that a training partner is losing consciousness during a triangle choke, and what must you do?",
+      "name": "What signs show a partner is losing consciousness in your triangle, and what must you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Signs include sudden loss of resistance or going limp, changes in skin color (face turning red or purple), gurgling sounds, eyes rolling back, or any unusual cessation of defensive movement. You must release the triangle immediately by uncrossing ankles, removing all leg pressure, and releasing grips. Check consciousness and breathing, place them in recovery position if unconscious, elevate their legs, and alert the instructor immediately. Never assume they are still fighting—treat any ambiguous signal as a tap."

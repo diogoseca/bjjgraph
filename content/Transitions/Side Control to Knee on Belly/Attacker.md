@@ -80,7 +80,7 @@ description: "Master attacking the Side Control to Knee on Belly transition. Com
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the knee on belly transition from consolidated side control?",
+      "name": "When is the best moment to start the knee on belly transition from settled side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is during the opponent's exhalation phase, when their diaphragm is contracted and defensive strength is temporarily reduced. After 3-4 breath cycles of progressively increasing consolidation pressure, the opponent's defensive frames weaken and reaction time slows. The ideal moment is when you feel their chest deflate beneath you and their frame pressure drops. Additionally, immediately after a failed escape attempt is excellent timing, as the opponent has expended energy and needs a recovery beat."
@@ -88,7 +88,7 @@ description: "Master attacking the Side Control to Knee on Belly transition. Com
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to frame with their far arm as you begin elevating your hips for the knee insertion - how do you adjust?",
+      "name": "They frame with their far arm as you elevate your hips for the knee — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight the frame directly during the transition, as this creates a stalemate that stalls your movement. Instead, you have two options: first, if the frame is weak, drive through it by accelerating the knee insertion and using your bodyweight to collapse the frame as the knee lands. Second, if the frame is strong, abort the knee insertion, settle back to side control, and use the exposed framing arm as a submission target for kimura or americana before reattempting the transition once the arm is controlled or retracted."
@@ -104,7 +104,7 @@ description: "Master attacking the Side Control to Knee on Belly transition. Com
     },
     {
       "@type": "Question",
-      "name": "Where exactly should the knee be placed for maximum effectiveness and what happens if placement is too high or too low?",
+      "name": "Where exactly should the knee land, and what goes wrong if it's too high or too low?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee should be placed directly on the solar plexus, the soft area between the lower ribcage and the navel, with the shin perpendicular to the opponent's centerline. Placement too high on the sternum or chest reduces pressure effectiveness because the ribcage provides structural support that absorbs force, and it brings your weight too far forward, compromising base stability. Placement too low on the hips or upper thighs allows the opponent to absorb force through their pelvic structure and hip muscles, maintaining normal breathing capacity and full defensive strength."
@@ -112,7 +112,7 @@ description: "Master attacking the Side Control to Knee on Belly transition. Com
     },
     {
       "@type": "Question",
-      "name": "Your first attempt fails because the opponent bridges during your hip elevation - what sequence do you follow next?",
+      "name": "Your knee on belly attempt fails to their bridge — what sequence do you follow next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-consolidate side control by dropping your chest back onto the opponent and re-establishing crossface pressure. Do not chase the knee on belly from a compromised position, as this typically results in further positional degradation. Once re-consolidated, increase pressure for another 2-3 breathing cycles to re-suppress the opponent's defensive capacity. On the second attempt, use the opponent's anticipation of knee on belly against them by feinting the transition to bait a premature bridge, then inserting the knee as they descend from the bridge apex when their hips are weakest."
@@ -120,7 +120,7 @@ description: "Master attacking the Side Control to Knee on Belly transition. Com
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between chest pressure in side control and knee pressure in knee on belly that makes the transitional moment vulnerable?",
+      "name": "What difference between chest and knee pressure makes the transitional moment vulnerable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest pressure in side control distributes force across a broad surface area through the pectoral muscles and ribcage, creating comprehensive but diffuse control. Knee pressure concentrates force through a single small contact point, creating intense localized pressure on the diaphragm. The vulnerability exists because transitioning between these two pressure types requires momentarily lifting the broad chest contact before the concentrated knee contact is established. This gap, typically lasting half a second in expert execution, is when the opponent faces the least pressure and has maximum escape potential."

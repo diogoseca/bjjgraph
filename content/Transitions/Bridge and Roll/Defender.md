@@ -62,7 +62,7 @@ description: "How to defend and counter the Bridge and Roll escape from mount in
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important physical response when you feel your opponent begin an explosive bridge from bottom mount?",
+      "name": "What is your single most important response when they start an explosive bridge under mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The single most important response is posting your free arm on the mat at a 45-degree angle toward the direction of the bridge. This creates a tripod structure that absorbs the rolling force and prevents the reversal. The post must be placed close to your body with a slightly bent elbow for structural strength—an extended arm post can be overwhelmed. This response must be trained to the point of automatic reflex, as the explosive bridge happens too fast for conscious decision-making. If both arms are trapped, the bridge and roll will succeed, which is why maintaining at least one free arm is a prerequisite for effective defense."
@@ -78,7 +78,7 @@ description: "How to defend and counter the Bridge and Roll escape from mount in
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully traps your right arm and hooks your right foot—what are your options before the bridge?",
+      "name": "They trap your right arm and hook your right foot in mount - options before the bridge comes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have a narrow window between the trapping completion and the bridge execution. Primary option: immediately post your left hand on the mat at a 45-degree angle to your left hip, creating a tripod that will absorb the incoming bridge. Secondary option: if you have time, strip your right wrist free by circling it toward their thumb (the weakest point of any grip) before they can secure it against their chest—this eliminates the trap entirely. Third option: drive your hips forward aggressively to flatten their body and reduce their bridging angle, while simultaneously pulling your right foot free from their hook by straightening your leg. The worst response is freezing or attempting to push down with your trapped arm, as this plays directly into the escape mechanics."
@@ -86,7 +86,7 @@ description: "How to defend and counter the Bridge and Roll escape from mount in
     },
     {
       "@type": "Question",
-      "name": "Why does grapevine position work against the bridge and roll but create vulnerability to the elbow escape?",
+      "name": "Why do grapevines from mount stop the bridge and roll but help the elbow escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grapevine hooks thread your legs inside the opponent's legs and hook their ankles outward, which prevents hip extension—the fundamental movement required for any bridging escape. Without full hip extension, the opponent cannot generate the elevation needed to roll you over. However, the grapevine inherently narrows your base by bringing your knees closer together and lower on their body. This narrow base creates the exact condition the elbow escape exploits: the opponent only needs to shrimp their hips laterally and insert a knee between your narrowed knees to begin guard recovery. This is why mount maintenance requires constantly reading the opponent's escape intention and adjusting between wide base (anti-bridge) and grapevine (anti-bridge) versus pressure with posting readiness (anti-elbow escape)."
@@ -94,7 +94,7 @@ description: "How to defend and counter the Bridge and Roll escape from mount in
     },
     {
       "@type": "Question",
-      "name": "What weight distribution adjustments should you make when you feel your opponent loading for a bridge?",
+      "name": "In mount, how should you shift your weight when you feel them loading a bridge?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you sense the bridge loading (feet planting, core tensing, hips shifting), immediately drive your hips forward and downward into their solar plexus, increasing the weight they must lift. Simultaneously shift your center of gravity slightly toward the direction you anticipate the bridge by leaning your chest forward and angling your shoulders. Keep your head positioned over or slightly past your hips on the anticipated bridge side. Avoid shifting weight backward as this effectively reduces the load on their bridge. The goal is to make yourself as structurally heavy as possible in the direction of their roll while maintaining your posting arm free on the opposite side. Think of it as loading the spring in the opposite direction—the more weight they must move at the start, the less likely they can generate sufficient momentum to complete the reversal."

@@ -269,7 +269,7 @@
         }
       },
       {
-        "question": "Your opponent increases their squeeze dramatically when you begin turning - what adjustment should you make?",
+        "question": "Escaping a body triangle, they squeeze harder as you turn: what adjustment?",
         "answer": "Pause the escape attempt temporarily and focus on breathing management. The increased squeeze is metabolically costly for them and cannot be maintained indefinitely. Wait for them to adjust their grip or need to relax slightly, then resume your escape. Forcing the escape against maximum squeeze wastes your energy under breathing restriction.",
         "answer_line": "Pause and manage breathing",
         "distractors": {
@@ -353,7 +353,7 @@
         }
       },
       {
-        "question": "Your opponent transitions to hooks when they feel the body triangle failing - should you continue toward turtle?",
+        "question": "Escaping a body triangle, they switch to hooks: keep going to turtle, and why?",
         "answer": "Yes, accept the transition to hooks as a partial victory. Hooks are significantly easier to clear than body triangle using standard back escape sequences such as elbow escape, shoulder walk, and hand fighting. Continue to turtle and immediately begin working standard back escapes, which have higher success rates than body triangle escapes.",
         "answer_line": "Yes, hooks are easier to clear",
         "distractors": {
@@ -528,7 +528,7 @@
         }
       },
       {
-        "question": "Your opponent has partially broken your figure-four lock and inserted their elbow as a frame - what should you do?",
+        "question": "They break your body triangle and frame with an elbow: what should you do?",
         "answer": "If re-establishing the body triangle is not immediately possible due to the elbow frame, transition to standard hooks by threading your feet inside their thighs before they can rotate to turtle. Maintain your seatbelt grip throughout this transition. Fighting to re-lock the triangle against a well-placed elbow frame wastes time and energy while the opponent continues progressing toward turtle. Accept the downgrade to hooks rather than losing back control entirely.",
         "answer_line": "Switch to hooks, not re-lock",
         "distractors": {
@@ -556,7 +556,7 @@
         }
       },
       {
-        "question": "What is the risk of following your opponent's hip escape too aggressively with your own hip adjustment?",
+        "question": "What is the risk of following their hip escape too aggressively from back control?",
         "answer": "Over-committing your hip movement to follow their escape can compromise your own base and stability. If they suddenly reverse direction or execute a granby roll, your forward momentum makes it difficult to adjust and you may lose chest-to-back connection entirely. Follow their movement with controlled adjustments rather than lunging, and maintain enough base on the mat to absorb directional changes without losing your position.",
         "answer_line": "Lose base if they reverse",
         "distractors": {

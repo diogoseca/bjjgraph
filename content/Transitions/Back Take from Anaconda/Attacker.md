@@ -80,7 +80,7 @@ description: "Master the attacking strategy for Back Take from Anaconda. Learn g
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary visual or tactile cue that signals the optimal moment to transition from anaconda choke to back take?",
+      "name": "What cue tells you to switch from the anaconda choke to the back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cue is the opponent turning their shoulders and hips away from the choking pressure, which simultaneously reduces the choke angle and exposes their back. You feel their upper body rotating under your chest, their trapped arm pulling toward their body, and their hips shifting away from your control side. This turning motion is the clearest signal that choke defense is working but back exposure is increasing."
@@ -88,7 +88,7 @@ description: "Master the attacking strategy for Back Take from Anaconda. Learn g
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins turning away from your anaconda pressure but keeps their elbows tight to their body - how do you create space for hook insertion?",
+      "name": "They turn away from your anaconda but keep elbows tight: how do you make room for hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the seatbelt underhook arm to lift their far elbow away from their hip, creating the gap needed for hook entry. Simultaneously drive your near-side knee into their lower back to wedge space between their hips and the mat. If elbows remain tight, transition your near-side leg to butterfly hook position against their inner thigh and use the leverage to pry their legs apart for hook insertion."
@@ -112,7 +112,7 @@ description: "Master the attacking strategy for Back Take from Anaconda. Learn g
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs your wrist as you release the anaconda grip to transition to seatbelt - how do you respond?",
+      "name": "They grab your wrist as you release the anaconda for the seatbelt: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free arm to maintain chest-to-back connection while swimming your grabbed wrist inside their grip using a circular motion toward their thumb, which is the weakest point of any grip. Alternatively, abandon the grabbed arm temporarily and use your free arm to establish a single underhook, then use hip pressure and body weight to compromise their grip. Never stop chest pressure to deal with the wrist grab, as separation is more dangerous than a temporarily controlled wrist."
@@ -120,7 +120,7 @@ description: "Master the attacking strategy for Back Take from Anaconda. Learn g
     },
     {
       "@type": "Question",
-      "name": "What is the critical body connection that must be maintained throughout the entire transition from anaconda to back control?",
+      "name": "Which body connection must never break from anaconda through to back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest-to-back connection is the critical body connection that must never break during the entire transition. Your sternum should remain in constant contact with the opponent's upper back and shoulder blades from the initial anaconda position through seatbelt establishment and hook insertion to final consolidation. Any separation allows the opponent to turn, create frames, or generate enough distance to face you and negate the back take entirely."

@@ -58,7 +58,7 @@ description: "Defend against the outside heel hook from leg entanglement. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that an outside heel hook is being set up from leg entanglement?",
+      "name": "What are the earliest signs an outside heel hook is being set up from leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include the opponent repositioning their body to the lateral side of your trapped leg, establishing the outside angle. You may feel them releasing control of your upper body or free leg as they commit both hands toward your foot. The most tactile cue is feeling a hand sliding under your heel with wrist pressure against your Achilles tendon. Their knees will begin clamping together around your trapped leg and their hips will drive forward against your thigh. Recognizing these cues early gives you the critical seconds needed to implement boot defense or begin clearing the knee line before the heel cup is fully secured."
@@ -82,7 +82,7 @@ description: "Defend against the outside heel hook from leg entanglement. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured the heel cup but has not yet applied rotation - what is your highest priority action?",
+      "name": "They have the heel cup but no rotation yet; what is your highest-priority action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is to strip the heel cup grip before the figure-four reinforcement is locked. Use both hands to attack their cupping hand - grab their wrist and peel the grip off your heel while simultaneously working to hide your heel through boot defense (curling toes, rotating foot inward). If you cannot strip the grip within 2-3 seconds, immediately shift to clearing the knee line through hip escaping, because once the figure-four locks you will not be able to strip the grip with hand fighting alone. This is the last high-percentage defensive window - once rotation begins, your options narrow dramatically to rolling with the pressure or tapping."
@@ -90,7 +90,7 @@ description: "Defend against the outside heel hook from leg entanglement. Recogn
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available at each stage of the outside heel hook attack from leg entanglement?",
+      "name": "How do your defensive options change at each stage of an outside heel hook attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the entanglement phase before heel cup: boot defense to hide the heel, knee line clearing through hip escape, and leg extraction to escape entirely. During the heel cup phase before figure-four: aggressive hand fighting to strip the grip, combined with boot defense and knee clearing. During the figure-four lock phase before rotation: last chance for knee line clearing and rolling preemptively with the anticipated rotation direction. During active rotation: roll with the rotation to relieve pressure, and if rolling fails, tap immediately without hesitation. The defensive window shrinks dramatically at each stage, which is why early recognition and immediate action are essential."

@@ -56,7 +56,7 @@ description: "Complete guide to defending the Pass Half Butterfly in BJJ. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate the passer is initiating the Pass Half Butterfly?",
+      "name": "What are the earliest cues that the passer is starting the half butterfly pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the passer driving their chest weight noticeably forward and downward onto your upper body while simultaneously dropping their hips lower on the butterfly hook side. You will also feel increased crossface pressure as they try to control your head position, and their base may widen as they spread their knees for stability. Recognizing these weight distribution changes before the setup is complete gives you the maximum window for defensive response."
@@ -64,7 +64,7 @@ description: "Complete guide to defending the Pass Half Butterfly in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your butterfly hook is being systematically collapsed by the passer's hip pressure - what are your two best escape routes?",
+      "name": "Your butterfly hook is collapsing under the passer's hip pressure: what are your two best escapes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two best escape routes when hook retention becomes untenable are transitioning to deep half guard or rising to dogfight position. For deep half, thread your outside arm under the passer's hips and invert your angle, using their committed forward weight against them to enter underneath. For dogfight, fight for the underhook on the hook side and use it to climb up to a neutral kneeling position where you have equal leverage. The choice depends on the passer's weight commitment: heavy forward pressure favors deep half, while lighter pressure favors the underhook rise."
@@ -72,7 +72,7 @@ description: "Complete guide to defending the Pass Half Butterfly in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "How should you coordinate your butterfly hook and half guard legs to maximize defensive effectiveness against this pass?",
+      "name": "How do you coordinate your butterfly hook and half guard legs to defend this pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The legs must work as an integrated system rather than independently. While the butterfly hook maintains upward pressure and sweep threat, the half guard legs maintain squeeze on the trapped leg to prevent extraction. When attempting a sweep, tighten the half guard squeeze simultaneously with the hook elevation to create a dual-vector force that removes the passer's base from both sides. If defending, use the half guard legs to anchor while the hook creates space. Losing coordination between the two allows the passer to address each threat individually."
@@ -88,7 +88,7 @@ description: "Complete guide to defending the Pass Half Butterfly in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "The passer has established crossface and their weight is heavily committed forward - which defensive option gives you the best chance of recovery?",
+      "name": "Passer has a crossface and heavy forward weight in half butterfly: which recovery option is best?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With heavy forward weight commitment and established crossface, the deep half entry is your highest-percentage option. The passer's forward weight actually assists your entry by creating momentum you can redirect underneath them. Thread your outside arm under their hips, turn your body away from the crossface direction, and use a hip escape to shoot your head underneath their center of gravity. Their committed forward pressure makes it difficult for them to retract fast enough to block the entry if you execute it with timing and commitment."

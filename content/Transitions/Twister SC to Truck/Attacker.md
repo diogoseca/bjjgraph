@@ -74,7 +74,7 @@ description: "Execute the Twister Side Control to Truck transition with systemat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most critical control point to establish before beginning the rotation from Twister Side Control toward the truck?",
+      "name": "What control must you establish first before rotating from Twister side control to the truck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Boot pressure against the opponent's hip is the most critical control point to establish first. The boot creates the torque foundation that restricts the opponent's ability to square up, turn, or roll during your rotation. Without boot pressure, the figure-four and rotation lack the mechanical leverage needed to control the transition, and the opponent retains the hip mobility necessary to defend or escape."
@@ -82,7 +82,7 @@ description: "Execute the Twister Side Control to Truck transition with systemat
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins straightening their trapped leg as you attempt to thread the figure-four - how do you respond?",
+      "name": "They straighten the trapped leg as you thread the figure-four for the truck — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately threaten a calf slicer or knee compression attack on the straightened leg, which forces the opponent to re-bend to relieve the pressure. As they bend the leg defensively, capitalize on that bending motion to complete the figure-four threading before they can straighten again. This converts their defensive reaction into an offensive opportunity rather than fighting against the straight leg directly."
@@ -98,7 +98,7 @@ description: "Execute the Twister Side Control to Truck transition with systemat
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to maintain chest contact throughout the rotation rather than lifting your weight?",
+      "name": "Rotating toward the truck, why must your chest stay in contact instead of lifting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lifting your weight during rotation creates a gap between your body and the opponent's torso that they can exploit by inserting frames, turning to face you, or initiating a granby roll escape. Maintaining continuous chest contact ensures there is never a moment without upper body control. Your chest should slide from their shoulder to their upper back as a continuous pressure point, replacing shoulder pressure with back control seamlessly."
@@ -106,7 +106,7 @@ description: "Execute the Twister Side Control to Truck transition with systemat
     },
     {
       "@type": "Question",
-      "name": "What are the three control checkpoints you must confirm before considering the truck position fully consolidated?",
+      "name": "What three checkpoints confirm the truck is fully consolidated?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, boot pressure must be active against the opponent's hip, creating lateral torque that prevents them from squaring up. Second, the figure-four entanglement must be locked tight enough that the opponent cannot straighten their trapped leg. Third, upper body control must be established through seatbelt grip, underhook, or chest-to-back connection preventing them from turning or rolling. All three must be simultaneously present."
@@ -114,7 +114,7 @@ description: "Execute the Twister Side Control to Truck transition with systemat
     },
     {
       "@type": "Question",
-      "name": "Your transition attempt meets strong resistance and the opponent successfully frames against your rotation - what should you do?",
+      "name": "They frame effectively and stop your rotation to the truck — what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the truck attempt and smoothly return to consolidated Twister Side Control rather than forcing through resistance. Re-engage TSC threats like the twister grip or darce choke, which will force the opponent to redirect their defensive frames away from blocking your rotation. Once their attention shifts to defending the new threat, a second truck entry attempt will face less resistance. Never force a transition against effective defense."

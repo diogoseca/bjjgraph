@@ -80,7 +80,7 @@ description: "Master the K-Guard to Single Leg X transition as the attacking gua
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary timing trigger that signals the optimal moment to initiate the K-Guard to SLX transition?",
+      "name": "What timing trigger signals the moment to move from K-guard to single leg X?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is when the opponent shifts their weight backward, stands upright, or begins attempting to extract their trapped leg from K-Guard. This backward or upward weight shift creates the space needed for hook reconfiguration and simultaneously compromises their ability to prevent the transition because their weight is moving away from the control zone. Initiating during forward pressure is incorrect—that timing favors Deep Half entries instead."
@@ -104,7 +104,7 @@ description: "Master the K-Guard to Single Leg X transition as the attacking gua
     },
     {
       "@type": "Question",
-      "name": "Why is hip positioning underneath the opponent essential for effective SLX, and how do you achieve it during the transition?",
+      "name": "Why must your hips get under them for single leg X, and how do you do it during the transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hips positioned underneath the opponent's center of gravity create the elevation and leverage that power all SLX attacks—sweeps, off-balancing, and leg lock entries. Without proper hip positioning, the SLX structure lacks the mechanical advantage needed to manipulate the opponent's weight. Achieve this during the transition by actively scooting forward using upper body frames as push-off points while simultaneously reconfiguring hooks, treating the hip movement and hook transfer as one coordinated action."
@@ -120,7 +120,7 @@ description: "Master the K-Guard to Single Leg X transition as the attacking gua
     },
     {
       "@type": "Question",
-      "name": "The SLX transition is blocked because your opponent squeezes their knees together—what alternative entry do you use?",
+      "name": "They squeeze their knees to block your single leg X entry — what alternative entry do you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent squeezes their knees to prevent the direct hook transfer, perform a slight inversion to change the angle of entry, threading your inside leg under and around their ankle from a lower angle that bypasses the knee squeeze. Alternatively, use the opponent's defensive posture against them—their squeezed knees create a stable target for a direct butterfly sweep from K-Guard or an X-Guard entry using both hooks on the same side of their body."

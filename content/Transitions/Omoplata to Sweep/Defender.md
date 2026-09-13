@@ -56,7 +56,7 @@ description: "How to defend against Omoplata to Sweep in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you feel the sweep being initiated from omoplata control?",
+      "name": "Caught in omoplata, what is your most important action as you feel the sweep starting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important action is posting your free hand wide and far from your centerline on the opposite side of the trapped arm. This creates a wide base that geometrically resists the rotational force of the sweep. Without this post, even a technically imperfect sweep will succeed because you have no structural resistance to the rotational momentum. The post must be established before the attacker controls your free arm."
@@ -80,7 +80,7 @@ description: "How to defend against Omoplata to Sweep in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent grips your free wrist and begins elevating their hips - what is your immediate response?",
+      "name": "They grip your free wrist and elevate their hips from omoplata: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately strip the wrist grip by rotating your hand toward your thumb, which is the weakest point of any grip. Simultaneously drive your weight backward and lower your hips to deny their hip elevation. If you cannot strip the grip within one to two seconds, abandon wrist recovery and post your elbow wide as a secondary base structure while working to sit back toward the attacker's hips. Speed of grip-stripping response is critical because once the attacker has your free arm controlled and their hips elevated, the sweep becomes extremely difficult to stop."

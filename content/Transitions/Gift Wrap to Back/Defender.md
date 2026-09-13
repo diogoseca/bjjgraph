@@ -64,7 +64,7 @@ description: "How to defend against Gift Wrap to Back in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why is turning away from the attacker the worst defensive reaction when you feel arm pressure from S Mount?",
+      "name": "Why is turning away the worst reaction to arm pressure from S mount bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning away is the exact reaction the gift wrap technique requires. It simultaneously feeds your arm across your centerline (completing half the gift wrap setup) and exposes your back (completing the positional requirement for the back take). The attacker is deliberately creating arm threat pressure specifically to provoke this turning response. Facing the attacker instead denies both conditions simultaneously."
@@ -80,7 +80,7 @@ description: "How to defend against Gift Wrap to Back in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "The attacker has already secured the gift wrap and begins rotating around your head — what is your best defensive option?",
+      "name": "They have the gift wrap and are rotating around your head: what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Block their rotation by posting your far arm against the mat and driving your shoulder into their path to prevent them from clearing your shoulder. Simultaneously hip escape toward their legs to create distance. If you can stall the rotation long enough, the attacker may need to reset or switch attacks. Accepting that stripping the grip is unlikely at this point and focusing on positional defense gives you the best chance of recovery."

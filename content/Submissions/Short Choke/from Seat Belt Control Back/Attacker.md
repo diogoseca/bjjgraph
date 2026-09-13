@@ -84,7 +84,7 @@ description: "Learn to attack with the Short Choke from Seat Belt Control Back. 
     },
     {
       "@type": "Question",
-      "name": "What indicators tell you the choke is correctly positioned on the carotid arteries rather than creating a windpipe crush?",
+      "name": "How do you confirm the Short Choke is on the carotids and not crushing the windpipe?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A correctly positioned blood choke produces a distinct change in the opponent's complexion (reddening of the face) and causes them to feel lightheaded or experience tunnel vision without significant breathing difficulty. If the opponent is coughing, gagging, or making raspy breathing sounds, the pressure is on the trachea rather than the carotids. Adjust by pulling the lapel slightly lower and ensuring the forearm pressure is directed laterally against the sides of the neck, not centrally against the throat."
@@ -92,7 +92,7 @@ description: "Learn to attack with the Short Choke from Seat Belt Control Back. 
     },
     {
       "@type": "Question",
-      "name": "What positional control elements must be established before committing to the collar grip transition?",
+      "name": "What control must be set before releasing your over-arm for the collar grip from seat belt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before releasing the over-arm for the collar grip, you must have both hooks deep inside the opponent's thighs with active inward pressure, strong chest-to-back connection with zero space, a secure under-arm grip capable of maintaining control alone during the transition, and your body weight distributed through your core and legs rather than relying on the seat belt grip. If any of these elements are compromised, re-establish full seat belt control before attempting the collar entry."
@@ -108,7 +108,7 @@ description: "Learn to attack with the Short Choke from Seat Belt Control Back. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent defends the Short Choke by jamming their fingers inside the collar between the lapel and their neck - how do you finish?",
+      "name": "They jam fingers inside the collar against their neck: how do you finish the Short Choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply progressive finishing pressure through chest expansion and elbow retraction rather than trying to out-muscle their defensive fingers. Their fingers actually transmit pressure to the neck as the collar tightens, making their defense counterproductive once sufficient force is applied. Drive your hips forward while expanding your chest to generate compressive force that overwhelms the finger defense. If their fingers create enough space to delay the finish, consider switching to an armbar attack on the arm they extended to defend."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Short Choke from Seat Belt Control Back. 
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make if the collar material is thick or starched and resists being fed across the throat?",
+      "name": "How do you adjust your grip when thick or starched collar resists feeding across the throat?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With thick or stiff collar material, grip deeper into the collar by inserting four fingers past the second knuckle to gain more purchase on the fabric. Use a pulling motion toward your hip rather than across the throat to break the collar's resistance, then redirect it across once it loosens. You can also grab the lapel lower on the chest where there is more material to manipulate, then walk your grip up toward the neck once the fabric is freed. In competition, slightly dampened collar material from sweat actually helps the feed."

@@ -108,7 +108,7 @@ description: "Learn to execute the arm-in guillotine from front headlock with ex
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to posture up with their free arm during your arm-in guillotine attempt—what adjustment prevents escape?",
+      "name": "In the arm-in guillotine from front headlock, they posture with their free arm—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your hips forward into their upper back while sprawling your legs behind you to add bodyweight pressure against their posturing effort. Angle your shoulder pressure into the side of their free posting arm to collapse their base. If they continue gaining height, pull their head down sharply with your clasped hands while simultaneously curling your choking forearm deeper into the neck. The single-arm posture is mechanically weaker than two-arm posture, so consistent forward pressure typically collapses it."

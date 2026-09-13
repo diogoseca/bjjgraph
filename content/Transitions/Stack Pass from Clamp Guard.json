@@ -282,7 +282,7 @@
         }
       },
       {
-        "question": "Your opponent frames against your shoulders and pushes you away as you initiate the stack drive — how do you adjust?",
+        "question": "They frame on your shoulders as you start the stack drive from clamp guard—how do you adjust?",
         "answer": "Drop your driving level so your chest targets the opponent's thigh-to-hip junction rather than their upper body, swimming under the shoulder frames rather than pushing through them at the same height. Use your head as a wedge against their hip to maintain forward progress below the frame line. Shoulder frames are most effective when they align with your driving direction at the same height — by dropping below them, you bypass the structural advantage entirely and continue the stack from a lower angle that the opponent cannot effectively frame against with extended arms.",
         "answer_line": "Drop level, swim under frames",
         "distractors": {
@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "How do you confirm that sufficient stack compression has been achieved before beginning the lateral walk?",
+        "question": "How do you confirm the stack is compressed enough to start the lateral walk?",
         "answer": "Sufficient compression is confirmed when the opponent's knees are past the plane of their own shoulders and their hips are visibly elevated above their torso, indicating that active hip movement is severely limited. Test by briefly reducing forward pressure slightly — if the opponent's legs remain compressed rather than springing back to guard position, the stack is deep enough for lateral movement. If their legs immediately reactivate and begin seeking hooks or reclamp positions, deepen the stack further before proceeding. Beginning the lateral walk prematurely is the most common cause of failed stack passes.",
         "answer_line": "Knees past shoulders, hips lifted",
         "distractors": {
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their hips toward omoplata as you drive forward — what is your immediate response?",
+        "question": "They rotate their hips toward an omoplata as you stack from clamp guard—what do you do?",
         "answer": "Maintain maximum forward pressure and use your free arm to pin the opponent's far hip to the mat, directly blocking the hip rotation that the omoplata requires. The omoplata needs the guard player to rotate perpendicular to your body and swing their leg over your shoulder — the stack compression makes this rotation difficult but not impossible if you release pressure or allow their hips to turn. If rotation has already progressed significantly, step your far leg forward past their hip to create a structural post that prevents the roll completion, then drive back into stack position to re-flatten them.",
         "answer_line": "Pin far hip, block rotation",
         "distractors": {
@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make with your free arm as you progress through each phase of the stack pass?",
+        "question": "How should your free-arm grip change through each phase of the stack pass from clamp guard?",
         "answer": "During the initial drive phase, grip the opponent's far hip or pants at thigh level to control their angling ability and prevent triangle setup. As stack compression establishes and you begin the lateral walk, shift the grip to behind their near knee or under their thigh to help direct and clear their legs as you walk around their compressed guard. During the final phase of clearing legs and establishing side control, release the leg grip entirely and immediately transition to crossface or underhook on the opponent's upper body. Each grip change corresponds to the control priority of that specific phase — hip control during stack, leg management during walk, upper body control during consolidation.",
         "answer_line": "Hip grip, then knee, then crossface",
         "distractors": {
@@ -464,7 +464,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is about to attempt a stack pass rather than arm extraction?",
+        "question": "What is the earliest cue they will stack pass rather than extract the arm from clamp guard?",
         "answer": "The earliest cue is the opponent's free hand moving to grip your far hip or thigh rather than working to create leverage against their trapped arm. This hip grip signals stack pass intent because arm extraction requires working against the clamp itself, not controlling your hip position. Additionally, the opponent begins dropping their head to one side and shifting their weight from upright posture to forward-leaning with toes engaged for driving force. Recognizing this shift gives you the critical seconds needed to pre-frame and prepare triangle or defensive responses before the drive begins.",
         "answer_line": "Free hand grips your hip/thigh",
         "distractors": {
@@ -478,7 +478,7 @@
         }
       },
       {
-        "question": "At what specific moment during the stack pass attempt does the triangle counter have the highest success probability?",
+        "question": "When during their stack pass from clamp guard is your triangle counter most likely to work?",
         "answer": "The triangle counter has the highest success rate during the first two seconds of the opponent's forward drive, specifically when their head enters your leg territory but before their chest contacts your thighs and establishes compression. At this moment, you still have full hip mobility to angle for the triangle, the opponent's head is in the ideal position for your leg to pass over their neck, and their committed forward momentum prevents them from retreating. Once stack compression is established and your hips are folded past your shoulders, triangle entry becomes physically impossible due to complete loss of hip mobility and leg freedom.",
         "answer_line": "First two seconds of the drive",
         "distractors": {
@@ -492,7 +492,7 @@
         }
       },
       {
-        "question": "Your opponent has established partial stack compression but has not begun the lateral walk — what should you prioritize?",
+        "question": "Stack pass has partial compression but no lateral walk yet: what do you prioritize?",
         "answer": "Prioritize creating a strong frame against the shoulder closest to the side the opponent needs to walk toward, blocking their lateral movement path. Simultaneously, fight to get one hip off the mat by turning slightly to one side, which partially decompresses your spine and recovers some leg mobility. If you can re-establish even partial hip angle before they begin the lateral walk, you can potentially reguard to clamp by reseating the shin on their bicep, or transition to closed guard by wrapping your legs around their torso while their weight is committed forward.",
         "answer_line": "Frame shoulder, turn hip off mat",
         "distractors": {
@@ -506,7 +506,7 @@
         }
       },
       {
-        "question": "How should you protect your spine during a deeply committed stack pass attempt that you cannot prevent?",
+        "question": "In a deep stack you can't stop, how do you protect your spine?",
         "answer": "If the stack is deep enough that your hips are above your shoulders, immediately turn your body to one side rather than accepting the compression flat on your back. Flat stacking loads the cervical spine axially, which is the most dangerous loading pattern for neck injuries. Turning to one side converts the axial load into a lateral load that your spine handles much more safely through its natural curvature. Additionally, use your arms to create frames that support some of the passer's weight through skeletal structure rather than allowing full compression through your spine. If the compression becomes painful at any point, tap immediately — no guard recovery is worth a cervical injury.",
         "answer_line": "Turn to one side to shed the load",
         "distractors": {

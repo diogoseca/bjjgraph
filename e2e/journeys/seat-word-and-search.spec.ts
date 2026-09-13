@@ -124,3 +124,70 @@ test("@curated the search modal names each site once", async ({ page }) => {
     expect(dupes, `${label}: every row names a different site`).toEqual([])
   }
 })
+
+/**
+ * A NAME IS A NAME; THE SEAT AND THE ALIAS ARE THE LINE BESIDE IT (v1.171.0).
+ *
+ * Two claims, one row. Owner: "the top shouldn't appear there trailing, only in those subtitles."
+ *
+ * 1. NO DOM ROW BAKES A ROLE INTO A NAME. Every position hub is titled "… Top" in graph-data.json
+ *    — a rendering artifact of the visual collapse — and BOTH pair members carry that title, so a
+ *    bottom seat's row read "Top" too. The canvas has stripped it since v1.128.1 (`graphName`) and
+ *    the node card since v1.129.x; the rows printed `splitName(n.t).main` and kept it.
+ * 2. AN ALIAS IS VISIBLE AND SEARCHABLE. `aka` (aliases[0], emitted per position by
+ *    regenerate_neural_data.py) rides the same dim slot a technique's "from <origin>" uses, and
+ *    `nodeMatches` reads it, so a player who was taught "Scarf Hold" finds Kesa Gatame.
+ *
+ * Driven through the REAL render (`renderExplorer`) and asserted on the rows it EMITTED — not on a
+ * spec-side copy of the row builder, which would be written from the same reading of the code and
+ * agree by construction (CLAUDE.md §6.3).
+ *
+ * NON-KILL, recorded: this does not cover the CANVAS label paths (pinned by graph-naming.spec.ts)
+ * nor the list/share drawer's own rows, which take the same seam but are not read here.
+ */
+test("@curated a row names the position and lets the alias ride beside it", async ({ page }) => {
+  const j = journey(page)
+  await j.boot()
+
+  const rows = await page.evaluate(() => {
+    const a = (window as unknown as W).__neural
+    a._exQ = "scarf"
+    a.setViewMode("explore")
+    a.setDeckOpen(true)
+    a.renderExplorer()
+    const host = a.drillRef.current as HTMLElement
+    return Array.from(host.querySelectorAll("[data-list-add]"))
+      .map((r) => (r.closest("div") as HTMLElement).textContent!.trim())
+      .filter((t) => /Kesa Gatame/.test(t))
+  })
+
+  // THE ALIAS IS THE REASON THE QUERY MATCHED: not one of these three titles contains "scarf".
+  expect(rows.length, 'searching "scarf" finds the three Kesa Gatame positions by alias').toBe(3)
+  for (const t of rows) {
+    expect(t, `${t} carries its alias in the row`).toMatch(/aka .*Scarf Hold/)
+    expect(t, `${t} must not print the role artifact as part of the name`).not.toMatch(
+      /Kesa Gatame (Top|Bottom)\b/,
+    )
+  }
+
+  // …and the seam says the same thing for BOTH members of the pair, the bottom seat included —
+  // the half that used to read "Top" because it inherited the hub's title.
+  const seam = await page.evaluate(() => {
+    const a = (window as unknown as W).__neural
+    const rep = a.nodes.find((n: any) => n.id === "Positions/Side-Control/Kesa-Gatame")
+    const partner = a.nodes.find((n: any) => n.id === rep.pairId)
+    const roled = a.nodes.filter((n: any) => n.ty === "positions" && /\s(Top|Bottom)$/.test(a.graphName(n))).length
+    return {
+      names: [a.graphName(rep), a.graphName(partner), a.displayName(rep), a.listItemName(rep.id), a.listItemName(partner.id)],
+      quals: [a.nodeQual(rep), a.nodeQual(partner)],
+      roles: [rep.role, partner.role],
+      titled: a.nodes.filter((n: any) => n.ty === "positions" && /\s(Top|Bottom)$/.test(n.t)).length,
+      roled,
+    }
+  })
+  expect(seam.roles, "the pair really is two seats, so the bug was reachable").toEqual(["top", "bottom"])
+  expect(seam.titled, "the titles really do carry the artifact — that is the hazard").toBeGreaterThan(0)
+  expect(seam.roled, "and no position's NAME carries it, on either seat").toBe(0)
+  expect(seam.names, "one name, every naming seam").toEqual(Array(5).fill("Kesa Gatame"))
+  expect(seam.quals, "and the alias is the qualifier on both seats").toEqual(["aka Scarf Hold", "aka Scarf Hold"])
+})

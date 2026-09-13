@@ -88,7 +88,7 @@ description: "Master executing the hip escape from back control bottom in BJJ. D
     },
     {
       "@type": "Question",
-      "name": "Why must you escape toward the underhook side rather than the over-hook side during the rotation phase?",
+      "name": "In back escapes, why rotate toward the underhook side rather than the over-hook side?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Escaping toward the underhook side reduces the opponent's choke leverage because you are turning away from the arm that crosses your neck. When you turn toward the over-hook (choking arm) side, you feed your neck deeper into their arm, tightening any choke attempt and making submission nearly unavoidable. The underhook side also provides a natural frame angle because the opponent's underhook arm is positioned to push you away rather than pull you in, creating mechanical advantage for your rotation."
@@ -104,7 +104,7 @@ description: "Master executing the hip escape from back control bottom in BJJ. D
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their body triangle as you begin the hip scooting phase. How do you adjust your escape?",
+      "name": "Your opponent tightens a body triangle as you start hip scooting; how do you adjust the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a body triangle, you must first address the triangle lock before standard hook removal applies. Turn your body toward the side where the triangle locks (the crossing ankle side) to reduce the squeeze pressure on your ribs and create an angle that loosens the triangle configuration. Once the squeeze is reduced, work to push their top foot past the lock point using your hands. Only after the body triangle is broken can you resume the standard hip escape scooting sequence against what are now standard hooks."

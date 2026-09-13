@@ -58,7 +58,7 @@ description: "How to defend the Buggy Choke from top side control. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What is your immediate priority when you feel the bottom player's near arm threading across your neck?",
+      "name": "Their near arm threads across your neck from bottom side control: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Posture your head up and pull your neck straight back out of the framing line before any leg comes over your shoulder. Simultaneously work to strip or pin their near arm so it cannot become the choking limb. This earliest window, before the leg clamps and the figure locks, is your highest-percentage chance to neutralize the entry without conceding position."

@@ -82,7 +82,7 @@ description: "Learn to execute the anaconda grip break from bottom position. Sys
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a tight gable grip in anaconda control—how do you determine the optimal attack angle for the grip break?",
+      "name": "Caught in a tight anaconda gable grip: how do you pick your angle of attack on the grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Identify which hand is on top by feeling with your free hand, then peel that hand's fingers toward their wrist rather than pulling the entire hand away. The top hand in a gable grip has less structural support than the bottom hand and can be separated with significantly less force than trying to break the entire grip simultaneously. Combine this with hip movement that creates torque perpendicular to their grip alignment to amplify the peeling force."
@@ -90,7 +90,7 @@ description: "Learn to execute the anaconda grip break from bottom position. Sys
     },
     {
       "@type": "Question",
-      "name": "Why is hip movement essential during the anaconda grip break rather than relying solely on hand fighting?",
+      "name": "Why is hip movement essential to the anaconda grip break rather than hand fighting alone?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip movement away from the opponent's chest pressure creates angular displacement that reduces the mechanical efficiency of their grip. When your hips move away, the constricting loop must stretch to maintain the same tightness, which naturally loosens the grip junction. Additionally, hip movement shifts the angle of your neck relative to their forearm, reducing choking pressure. Without hip movement, you are fighting the full structural advantage of their grip plus body weight with just your free hand."
@@ -98,7 +98,7 @@ description: "Learn to execute the anaconda grip break from bottom position. Sys
     },
     {
       "@type": "Question",
-      "name": "During the grip break, your opponent begins stepping over your head to initiate the roll-through—what do you do?",
+      "name": "Mid grip break, they step over your head for the roll-through: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately shift priority from grip break to roll prevention. Post your free hand on their stepping hip or thigh to block the step-over, then flatten your body and scoot hips away to reduce the angle they need for the roll. If the step is already mid-flight, roll with their direction to deny the dominant finishing angle. Once the roll attempt stalls, immediately return to the grip break sequence. The step-over represents the finishing sequence and must be stopped at all costs."

@@ -58,7 +58,7 @@ description: "Defend and escape the Kesa Gatame Arm Crush. Recognition cues, def
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate your opponent is transitioning from kesa gatame control to an arm crush attempt?",
+      "name": "What early cues show your opponent is switching from kesa gatame to an arm crush?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the attacker release their head control arm and reach toward your trapped wrist with both hands. You will also feel them begin pulling your arm across their torso rather than simply clamping it stationary under their armpit. Their hip position may shift as they seek to align your elbow with their hip bone. Recognizing these early cues gives you the critical seconds needed to initiate defensive actions before the crush is established."
@@ -66,7 +66,7 @@ description: "Defend and escape the Kesa Gatame Arm Crush. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining a bent arm position the single most important defensive priority against the arm crush?",
+      "name": "Why is keeping your arm bent the top defensive priority against the arm crush?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The arm crush requires a fully straightened arm to function because the hyperextension force only applies when the elbow cannot bend to absorb pressure. A bent arm distributes the force through the natural range of motion of the joint, making the compression ineffective. Once the arm straightens with the elbow against the hip fulcrum, the defender loses all mechanical ability to retract or bend the arm against the attacker's body weight and two-on-one grip control. Prevention through bent-arm positioning is far easier than escaping a locked crush."
@@ -74,7 +74,7 @@ description: "Defend and escape the Kesa Gatame Arm Crush. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully extended your arm and positioned your elbow against their hip - what should you do?",
+      "name": "Your arm is fully extended with the elbow on their hip for the arm crush — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this point the submission is nearly complete and escape is extremely unlikely. Attempt to rotate your forearm to slide the elbow off the bone fulcrum—this is your last mechanical option. If the rotation fails and you feel pressure building on the elbow joint, tap immediately. Do not attempt explosive escape movements against a locked arm crush as this can cause self-inflicted ligament damage or elbow dislocation. Accepting the tap and learning to defend earlier in the sequence is far better than risking a serious training injury."

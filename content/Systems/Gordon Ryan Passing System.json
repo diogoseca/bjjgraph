@@ -6,15 +6,16 @@
       "title": "Systematically Attacking The Guard",
       "instructor": "Gordon Ryan",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?ref=REPLACE_ME",
+      "affiliate_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?rfsn=REPLACE_ME",
       "link_status": "live",
-      "link_checked": "2026-08-09",
-      "image": "https://placehold.co/640x360/1e293b/ffffff?text=Systematically+Attacking+The+Guard",
-      "blurb": "Gordon Ryan's complete pressure-passing blueprint — body lock passing, leg drags, and the connection-breaking concepts behind them.",
-      "price_usd": 97
+      "link_checked": "2026-09-08",
+      "blurb": "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery.",
+      "best_for": "Passers who know individual passes but struggle to connect them against resistance.",
+      "study_focus": "Choose the section for the guard you encounter most often and compare its responses with this page’s sequence.",
+      "practice_tip": "Start each round in the same passing position. Track whether you cleared the legs and held the resulting pin, and where recovery began."
     }
   ],
-  "description": "Master Gordon Ryan's pressure passing system for no-gi BJJ. Complete framework covering body lock passing, leg drags, and systematic guard neutralization.",
+  "description": "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -26,8 +27,8 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Advanced",
-  "summary": "The Gordon Ryan Passing System is a pressure-based no-gi guard-passing framework that combines body lock control, leg drags, and over-under stacking to systematically strip an opponent's frames and force a high-percentage pass to dominant top position.",
-  "overview": "Gordon Ryan's passing system represents the pinnacle of modern no-gi guard passing, combining relentless pressure, strategic positioning, and systematic guard neutralization. This approach prioritizes establishing dominant grips and control points before initiating passing sequences, ensuring that every movement builds toward a high-percentage pass. The system emphasizes body lock passing variations, leg drag sequences, and over-under pressure passes that have proven devastatingly effective at the highest levels of competition.\n\nThe foundation of this system lies in understanding guard passing as a control game rather than a speed game. Ryan's methodology focuses on removing the opponent's frames and defensive structures through systematic pressure application, forcing them into progressively worse positions until the pass becomes inevitable. This approach minimizes risk while maximizing control, allowing practitioners to pass the guard of elite opponents without exposing themselves to submissions or sweeps.\n\nWhat distinguishes this system is its adaptability to different guard types while maintaining core principles of pressure and control. Whether facing butterfly guard, half guard, or open guard variations, the system provides clear decision trees and transitional sequences that maintain offensive pressure throughout. The emphasis on grip fighting, posture control, and strategic weight distribution creates a comprehensive framework that works across skill levels and body types.",
+  "summary": "Passing becomes easier to study when you separate engagement, control and consolidation.",
+  "overview": "Passing becomes easier to study when you separate engagement, control and consolidation. This guide connects those decisions in a no-gi passing game: establish useful grips, respond to the guard player’s movement and hold the position after clearing the legs.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Pressure over speed - establish dominant control before initiating passing movements",
     "Systematic removal of defensive frames through strategic grip placement and weight distribution",

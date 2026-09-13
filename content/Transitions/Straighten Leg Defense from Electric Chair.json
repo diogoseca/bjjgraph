@@ -332,7 +332,7 @@
         }
       },
       {
-        "question": "Your opponent releases one lockdown hook and attempts to insert a crab ride hook for Truck entry—what do you do?",
+        "question": "They free a lockdown hook and reach for a crab ride hook toward the Truck: what do you do?",
         "answer": "This indicates a Truck transition attempt, which is more dangerous than the Electric Chair itself. Immediately stop the straightening motion and address the new threat by pulling your knee tight to the bottom player's hip and sprawling your hips away from their hook insertion. Drive your weight onto their shoulders to flatten them and prevent the rotation needed for Truck control. If you successfully defend the Truck entry, resume leg extraction from the improved position.",
         "answer_line": "Sprawl hips, flatten shoulders",
         "distractors": {
@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail that determines whether the Straighten Leg Defense succeeds or fails?",
+        "question": "What single mechanical detail decides whether the straighten leg defense to the lockdown works?",
         "answer": "The most critical detail is initiating the extension from the hip joint rather than the knee. Engaging the glutes and driving the hip forward creates a straight-line force through the entire leg that the lockdown cannot easily resist. Many practitioners make the error of trying to kick their foot out or extend only at the knee, which allows the lockdown's ankle hooks to maintain control. Hip-driven extension changes the force vector to work against the lockdown's structural weakness along its longitudinal axis.",
         "answer_line": "Drive extension from the hip",
         "distractors": {
@@ -480,7 +480,7 @@
         }
       },
       {
-        "question": "Your lockdown is beginning to fail against the straighten defense—what are your best transition options?",
+        "question": "Your lockdown is failing against their straighten defense: what are your best transitions?",
         "answer": "When the lockdown is failing, your primary options are: convert to Old School sweep using the top player's forward pressure as directional momentum, release one hook and insert a crab ride hook for Truck entry, or use the underhook to dive underneath for Deep Half Guard entry. The worst option is continuing to fight a failing lockdown, as this wastes energy and gives the top player time to consolidate. Choose based on the top player's weight distribution—heavy forward pressure favors the sweep, neutral positioning favors the Truck transition.",
         "answer_line": "Sweep, Truck entry, or Deep Half",
         "distractors": {
@@ -494,7 +494,7 @@
         }
       },
       {
-        "question": "How does the top player's crossface pressure affect your ability to maintain the Electric Chair against their straighten defense?",
+        "question": "How does their crossface affect keeping the Electric Chair against the straighten defense?",
         "answer": "Strong crossface pressure prevents you from achieving the perpendicular angle needed for maximum Electric Chair splitting effectiveness. It limits your ability to extend your hips fully and create the splitting action because your upper body is being driven flat to the mat, reducing your mechanical advantage. To counter the crossface, use your underhook to pull yourself toward their far hip, creating the attack angle despite their pressure. If the crossface is too strong to overcome, transition to Deep Half by diving underneath rather than fighting for the angle.",
         "answer_line": "Limits angle; pull to far hip",
         "distractors": {

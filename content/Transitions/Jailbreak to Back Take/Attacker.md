@@ -84,7 +84,7 @@ description: "How to execute Jailbreak to Back Take in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts driving forward to flatten you before you can initiate the roll - how do you adjust?",
+      "name": "They drive forward to flatten you before you can start the jailbreak roll: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent drives forward to flatten you, focus on maintaining your underhook and creating small frames to prevent complete flattening. Wait for their weight to shift forward, which indicates they're committing to pressure - this is actually the optimal moment to execute the jailbreak. Alternatively, if flattening continues, consider switching to a deep half guard entry using the same underhook as your entry point."
@@ -92,7 +92,7 @@ description: "How to execute Jailbreak to Back Take in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "How do you determine at the mid-point of the roll whether to continue to back take or settle for turtle?",
+      "name": "Mid-roll in the jailbreak, how do you decide between finishing the back take or taking turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At approximately 180 degrees through the roll, feel for opponent's momentum and connection. If they're actively following with their weight moving in your direction, continue accelerating through to back take. If they disengage, stop pursuing, or base out wide, settle for turtle position. The key indicator is whether you feel their pressure continuing to follow you or releasing."

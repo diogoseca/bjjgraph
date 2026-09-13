@@ -58,7 +58,7 @@ description: "Prevent guard recovery from Jailbreak as the top player in BJJ. Gu
     },
     {
       "@type": "Question",
-      "name": "Why should you follow the bottom player's turning direction rather than fighting their rotation during post-Jailbreak consolidation?",
+      "name": "Why follow the bottom player's turn instead of fighting it after a Jailbreak?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Fighting the bottom player's rotation engages a strength battle that wastes energy and creates a stalemate where neither player advances. Instead, following their rotation allows you to use their movement to advance your own position—as they turn toward you, you can flow past them to establish side control on their far side, using their turning momentum to carry you into a dominant position. This approach converts their recovery movement into an advantage for you rather than resisting it directly."
@@ -66,7 +66,7 @@ description: "Prevent guard recovery from Jailbreak as the top player in BJJ. Gu
     },
     {
       "@type": "Question",
-      "name": "How does the Jailbreak's explosive nature create unique consolidation opportunities that differ from standard guard passing?",
+      "name": "How does the Jailbreak's explosive nature create consolidation chances normal passing doesn't?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Jailbreak's explosive inversion often leaves the bottom player in non-standard positions—partially inverted, twisted, or with their back partially exposed. These positions are fundamentally different from standard guard configurations because the bottom player's legs are not organized between the two bodies and their frames are not pre-positioned. This means the top player can often bypass the normal frame-elimination and knee-advancement sequence required for standard guard passing, instead driving directly into side control through the gap created by the bottom player's disorganized body position."
@@ -74,7 +74,7 @@ description: "Prevent guard recovery from Jailbreak as the top player in BJJ. Gu
     },
     {
       "@type": "Question",
-      "name": "The bottom player has inserted a knee shield but has no grips established—what is your highest-percentage response?",
+      "name": "They insert a knee shield but have no grips yet — what is your highest-percentage response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A knee shield without grips is a temporary barrier that can be defeated through systematic pressure. Drive your chest weight into the top of their knee shield shin while controlling their far hip with your near hand to prevent them from creating distance for grip establishment. Simultaneously work to swim your arm over or under the shield to establish an underhook. The key is denying them the time and space to convert the knee shield into a complete guard position with grips—apply constant advancing pressure rather than waiting for them to organize their defense."
@@ -82,7 +82,7 @@ description: "Prevent guard recovery from Jailbreak as the top player in BJJ. Gu
     },
     {
       "@type": "Question",
-      "name": "What specific body mechanics allow you to deny the hip escape that powers guard recovery from Jailbreak?",
+      "name": "From Jailbreak top, what body mechanics deny the hip escape that powers their guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip escape requires the bottom player to push off the mat with their feet and move their hips laterally away from you. To deny this, keep your hips heavy and low against their near hip, removing the space their hips need to travel. Place your near knee tight against their hip bone as a physical block. Additionally, drive diagonal chest pressure toward their far shoulder—this pins their upper body and prevents the spinal rotation that powers the hip escape. The combination of hip blocking and diagonal pressure eliminates both the space and the mechanical pathway the bottom player needs to execute the escape."

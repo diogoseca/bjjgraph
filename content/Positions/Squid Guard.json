@@ -333,7 +333,7 @@
         }
       },
       {
-        "question": "Your opponent begins inverting while maintaining tight lapel control - what immediate adjustment prevents back exposure?",
+        "question": "Your opponent inverts from Squid Guard with lapel control - how do you stop the back exposure?",
         "answer": "Execute a backstep motion by stepping your trapped leg backward while simultaneously establishing shoulder pressure or crossface on their upper body. This cuts off their inversion angle and prevents them from completing the rotation to your back. The backstep must be timed as they initiate the inversion, not after they achieve full rotation. Combine this with grip fighting to strip their lapel control.",
         "answer_line": "Backstep leg, add crossface",
         "distractors": {
@@ -389,7 +389,7 @@
         }
       },
       {
-        "question": "Your opponent achieves full inversion and threatens to take your back - what recovery sequence should you execute?",
+        "question": "They complete the Squid Guard inversion and threaten your back - what is your recovery sequence?",
         "answer": "Immediately sprawl your hips backward while driving shoulder pressure into their inverted body to flatten them. Strip any lapel grips with your hands while maintaining this pressure. If they've already started circling to your back, spin in the same direction they're moving to face them, abandoning the pass in favor of preventing the back take. Re-establish neutral positioning before attempting to pass again.",
         "answer_line": "Sprawl, flatten, spin to face them",
         "distractors": {
@@ -785,7 +785,7 @@
         }
       },
       {
-        "question": "Your opponent begins driving forward with heavy pressure attempting to stack you - how do you respond?",
+        "question": "Your opponent drives forward heavy to stack you from Squid Guard - how do you respond?",
         "answer": "Use their forward momentum against them by initiating back take sequences. When they drive forward, they're essentially loading your guard and creating the energy you need for inversions. Time your berimbolo or Kiss of the Dragon entry to their forward pressure, using their momentum to accelerate your rotation underneath them. The key is recognizing their commitment early and initiating your inversion before they flatten you.",
         "answer_line": "Use pressure to berimbolo",
         "distractors": {
@@ -901,7 +901,7 @@
       }
     },
     {
-      "question": "Why is the lapel wrap the non-negotiable control point that anchors the entire position for both players?",
+      "question": "Why is the lapel wrap the anchoring control point of Squid Guard for both players?",
       "answer": "The lapel wrap converts the top player's own gi into a semi-rigid tether that mechanically restricts their leg and posture without requiring the bottom player to spend continuous muscular effort. Because the fabric is looped around a limb, tension is maintained even during transitions, giving the bottom player a persistent anchor and forcing the top player to actively clear it before any normal passing mechanics work. For the top player, the lapel is the primary thing that must be stripped or unwrapped; for the bottom player, it is the element that must be preserved above all others. This shared centrality is why both roles orient their entire strategy around the fabric connection rather than the hook alone.",
       "answer_line": "Fabric tether, no muscle needed",
       "distractors": {
@@ -957,7 +957,7 @@
       }
     },
     {
-      "question": "In what way does the lapel wrap around the leg expose the threading leg to specific dangers for both players?",
+      "question": "How does Squid Guard's lapel wrap expose the threading leg for both players?",
       "answer": "Because one leg is deeply committed behind the opponent's knee and often further entangled by the lapel, that leg can become isolated and vulnerable to leg-lock entries such as heel hooks and kneebars if it stops moving. This vulnerability shapes play for both sides: the bottom player must keep the leg active and be ready to withdraw the thread, while the top player may attack the exposed leg instead of passing conventionally. The same deep commitment that generates the guard's control is also its structural liability. Managing that trade-off between control depth and leg exposure is a shared mechanical reality of the position.",
       "answer_line": "Still leg risks heel hooks",
       "distractors": {

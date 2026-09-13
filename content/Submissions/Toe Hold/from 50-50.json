@@ -321,7 +321,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary anatomical target of the toe hold from 50-50, and why is inward rotation critical?",
+        "question": "What does the 50-50 toe hold attack, and why must the rotation go inward?",
         "answer": "The primary target is the talocrural joint and lateral ankle ligaments (specifically the anterior talofibular and calcaneofibular ligaments). Inward rotation is critical because it places maximum stress on these lateral structures while the foot is locked in place. Outward rotation would attack different anatomical structures ineffectively and dangerously. The inward rotation creates a rotational force that the ankle joint is not designed to withstand, leading to ligament strain and joint capsule pressure that forces the tap.",
         "safety_critical": true,
         "answer_line": "Lateral ankle ligaments, rotate in",
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "What should you do immediately if opponent taps or shows any distress signal during toe hold application?",
+        "question": "What do you do the instant your partner taps or shows distress in a toe hold?",
         "answer": "Release all rotational pressure on the foot immediately—within a fraction of a second of recognizing the tap. Do not hold pressure for even one additional moment. Maintain positional control with your legs to prevent sudden movements, but completely release the grip on the toes and stop all rotation of the foot. Allow your partner to extract their leg at their own pace without applying any counter-pressure. Check verbally with your partner before continuing training, and if pain persists beyond 30 seconds, stop training completely and assess for injury. This immediate release protocol is non-negotiable for safe training.",
         "safety_critical": true,
         "answer_line": "Release instantly, no delay",
@@ -381,7 +381,7 @@
         }
       },
       {
-        "question": "What are the most effective opponent defenses against the toe hold from 50-50, and how should you counter them?",
+        "question": "What are the best defenses to the 50-50 toe hold, and how do you counter each?",
         "answer": "The most effective defenses are: (1) Rolling or spinning with the pressure to alleviate torque—counter by using leg hooks to prevent full rotation or transition to heel hook. (2) Crossing the free foot over the trapped knee to block access—counter by controlling the free leg early or stripping it away with your free hand. (3) Hand fighting to prevent figure-four establishment—counter by using the initial toe grip as a distraction while sneaking the inside arm underneath, or using two-on-one control. (4) Counter-attacking your trapped leg with their own toe hold—counter by ensuring your 50-50 structure is sound before committing to your attack. Understanding these defenses allows you to anticipate them and adjust your approach accordingly.",
         "safety_critical": false,
         "answer_line": "Block rotation, strip free leg",
@@ -396,7 +396,7 @@
         }
       },
       {
-        "question": "Why is progressive pressure application over 3-5 seconds critical in training, and what can happen if pressure is applied too quickly?",
+        "question": "Why apply toe hold pressure over 3-5 seconds in training, and what happens if you rush it?",
         "answer": "Progressive pressure application is critical because ankle ligaments and joint structures can be severely damaged very quickly—often in under one second of maximum pressure. Applying pressure slowly gives your training partner adequate time to recognize the danger, feel the pressure building, and tap safely before any damage occurs. Sudden or spiked application can cause immediate ligament tears (particularly the anterior talofibular and calcaneofibular ligaments), joint capsule rupture, or even joint dislocation before the partner can physically respond with a tap. In training, there is never a need for competition-speed application. The goal is technical mastery and safe repetition, not proving toughness or catching partners off-guard.",
         "safety_critical": true,
         "answer_line": "Slow build gives time to tap",
@@ -411,7 +411,7 @@
         }
       },
       {
-        "question": "How does proper hip and leg positioning in 50-50 contribute to both your toe hold attack and your defense against opponent's attacks?",
+        "question": "How does your hip and leg position in 50-50 serve both your toe hold and your own defense?",
         "answer": "Proper hip and leg positioning creates the foundation for safe and effective toe hold attacks. Your inside leg hooking behind opponent's knee prevents them from pulling their leg free, while your outside leg controlling their hip prevents them from rotating or escaping the position. This positional control must be maintained throughout the entire toe hold sequence—if you lose hip control while focused on the foot, the opponent can escape entirely or worse, establish their own leg attack on you. Strong 50-50 structure also protects your own trapped leg from attack, as your inside leg position makes it difficult for them to access your foot while your outside leg creates distance. The leg positioning is the defense while the arm positioning is the offense; both must be maintained simultaneously.",
         "safety_critical": false,
         "answer_line": "Legs control, arms attack together",
@@ -426,7 +426,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their body with your toe hold pressure to relieve the torque - what adjustment should you make to maintain the finish?",
+        "question": "They rotate with your 50-50 toe hold to shed the torque: what adjustment keeps the finish?",
         "answer": "First, use your leg hooks to prevent their full rotation by driving your inside leg deeper behind their knee and maintaining hip pressure with your outside leg. If they begin to succeed in rotating, you have two options: (1) Follow their rotation while maintaining the toe hold configuration, which may actually tighten the submission as you roll with them, or (2) Recognize the defense is working and immediately transition to an inside heel hook since their rotation exposes the heel, or switch to attacking the opposite leg. The key is to not fight the rotation with brute force—this wastes energy and often results in losing the position. Instead, use their movement to transition to an even better attacking position.",
         "safety_critical": false,
         "answer_line": "Block rotation or switch heel hook",
@@ -456,7 +456,7 @@
         }
       },
       {
-        "question": "How do you recognize when the ankle joint is approaching its breaking point during toe hold application?",
+        "question": "How do you recognize that the ankle is nearing its breaking point in a toe hold?",
         "answer": "Several indicators signal the breaking point is near: (1) You feel a significant increase in resistance as the ligaments reach maximum stretch, (2) The opponent's foot begins to make slight popping or crackling sounds from joint capsule stress, (3) The opponent's defensive movements become frantic or panicked, (4) You notice involuntary muscle tension throughout their leg. In training, you should NEVER reach this point—these are competition indicators only. In training, apply pressure slowly enough that your partner can tap at the first sensation of discomfort, well before any structural damage occurs. If you feel any of these indicators in training, you have applied pressure too fast.",
         "safety_critical": true,
         "answer_line": "Sharp spike in resistance",
@@ -471,7 +471,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make if your initial figure-four grip begins to slip during the finishing sequence?",
+        "question": "Your figure-four starts slipping during the toe hold finish: what do you adjust?",
         "answer": "If the figure-four begins slipping, immediately tighten chest-to-foot connection first—this is your primary control. Then adjust by repositioning your inside forearm deeper under the heel, ensuring the bony part of your forearm creates a solid shelf against their Achilles area. If slippage continues, switch from wrist grip to grabbing your own bicep for a tighter figure-four. As a last resort, transition to the same-side grip configuration where both hands control from the same side of the foot. Never try to finish with a slipping grip—re-establish control first, as attempting to force the finish with poor grip leads to escape or injury from improper mechanics.",
         "safety_critical": false,
         "answer_line": "Tighten chest, reset forearm shelf",
@@ -486,7 +486,7 @@
         }
       },
       {
-        "question": "In competition, what strategic considerations should guide when to attempt the toe hold versus transitioning to heel hook from 50-50?",
+        "question": "In competition, what decides between toe hold and heel hook from 50-50?",
         "answer": "Strategic considerations include: (1) Rule set—if heel hooks are illegal (IBJJF gi and most white-purple belt no-gi), toe hold is your primary option. (2) Opponent's heel exposure—if their heel is hidden and protected but their foot is accessible, toe hold may be higher percentage than forcing a heel hook entry. (3) Time remaining—toe hold setups are often faster than heel hook entries, making them preferable in short time situations. (4) Opponent's defensive habits—if they heavily defend heel hooks by hiding heel and rotating knee, they often expose the foot for toe hold. (5) Dilemma creation—threaten toe hold to force reactions that expose the heel, then transition. The toe hold and heel hook work as a complementary system where defending one opens the other.",
         "safety_critical": false,
         "answer_line": "Ruleset legality dictates choice",
@@ -546,7 +546,7 @@
         }
       },
       {
-        "question": "Your opponent starts spinning their body to relieve rotational pressure — what adjustment prevents escape?",
+        "question": "They spin to relieve the toe hold torque in 50-50: what adjustment stops the escape?",
         "answer": "Tighten your leg entanglement by squeezing your legs together to anchor their knee in place, preventing further rotation. Follow their rotational movement with your own hips to maintain the angle of torque. If they continue spinning despite your leg control, consider transitioning to a heel hook on the heel that becomes exposed as they rotate away from the toe hold.",
         "safety_critical": false,
         "answer_line": "Squeeze legs, follow rotation",
@@ -561,7 +561,7 @@
         }
       },
       {
-        "question": "What is the minimum time you should take to apply full rotational pressure when finishing the toe hold in training?",
+        "question": "What is the minimum time to reach full rotation when finishing a toe hold in training?",
         "answer": "A minimum of 5-7 seconds from initial grip engagement to full rotational pressure. The toe hold attacks multiple small joints and ligaments simultaneously, and structural damage can occur before the defender feels adequate pain to recognize the danger. Gradual application over several seconds gives the opponent time to assess the threat and tap before injury occurs. In training, err on the side of even slower application.",
         "safety_critical": true,
         "answer_line": "5-7 seconds minimum, go slower",
@@ -606,7 +606,7 @@
         }
       },
       {
-        "question": "Your opponent commits both hands to stripping your figure-four grip — what opportunity does this create?",
+        "question": "They commit both hands to stripping your toe hold figure-four: what does that open up?",
         "answer": "When the opponent dedicates both hands to breaking your toe hold grip, they abandon all defensive control of their own legs and heel. This creates an immediate opportunity to release the toe hold and transition to a heel hook, since the heel they were previously protecting is now undefended. Alternatively, transition to a kneebar by releasing the foot and controlling above the knee. The opponent cannot simultaneously strip your grip and defend their heel.",
         "answer_line": "Heel exposed, switch to heel hook",
         "distractors": {
@@ -757,7 +757,7 @@
         }
       },
       {
-        "question": "Why should you rotate with the toe hold pressure rather than against it, and what does this accomplish biomechanically?",
+        "question": "Why rotate with 50-50 toe hold pressure instead of against it, and what does that achieve?",
         "answer": "Rotating with the pressure reduces the relative rotation between your foot and your lower leg, which is the mechanism that damages lateral ankle ligaments. When you resist the rotation, your body stays fixed while your foot rotates, creating maximum torque on the talocrural joint. By rotating your entire body in the same direction as the applied force, you reduce the differential rotation to near zero, buying time to escape or counter. This is biomechanically identical to the principle of 'going with the throw' in judo—absorbing force rather than opposing it reduces damage and creates escape opportunities.",
         "safety_critical": true,
         "answer_line": "Match rotation, reduce torque",
@@ -772,7 +772,7 @@
         }
       },
       {
-        "question": "When defending the toe hold in 50-50, how do you decide between grip fighting defense and counter-attacking with your own submission?",
+        "question": "Defending a 50-50 toe hold: how do you choose between grip fighting and counter-attacking?",
         "answer": "The decision depends on two factors: (1) how far along the opponent's toe hold progression is, and (2) the relative quality of your access to their legs. If the opponent is still in early grip establishment phase, grip fighting is highest percentage because you can deny the submission entirely. If the figure-four is already locked and you have solid access to their foot, counter-attacking creates a mutual threat that often forces a release. However, if their toe hold is locked and your access to their legs is poor, you must prioritize rotation escape and tapping rather than gambling on a counter-attack you may not finish in time.",
         "safety_critical": true,
         "answer_line": "Early grip fight; locked, counter",
@@ -802,7 +802,7 @@
         }
       },
       {
-        "question": "In training, at what point should you tap to a toe hold from 50-50, and why is early tapping important for long-term training health?",
+        "question": "When should you tap to a toe hold in training, and why does early tapping protect you?",
         "answer": "You should tap at the first sensation of uncomfortable pressure on your ankle joint—well before you feel sharp pain or hear any popping sounds. In training, there is no benefit to enduring ankle pressure because ankle ligaments do not strengthen from being stretched near their failure point; they only accumulate micro-damage that weakens them over time. Unlike muscle soreness that builds strength, repeated ligament stress leads to chronic laxity, instability, and eventual catastrophic failure. Tapping early preserves your ankle health for decades of training. The correct training approach is to work on preventing the position and escaping early, then resetting—not toughening through the finish.",
         "safety_critical": true,
         "answer_line": "Tap at first ankle discomfort",
@@ -862,7 +862,7 @@
         }
       },
       {
-        "question": "How should you balance heel defense and foot defense in 50-50 against an opponent who chains heel hooks and toe holds?",
+        "question": "In 50-50 against chained heel hooks and toe holds, how do you defend heel and foot at once?",
         "answer": "The key is retracting the entire foot rather than just rotating one structure. When hiding the heel, simultaneously pull the toes toward the shin through dorsiflexion and tuck the whole foot behind your opposite leg. This protects both heel and toes at the same time. Maintain constant grip control on the attacker's hands to prevent them from accessing either target. If forced to choose, prioritize whichever attack the opponent is currently threatening and be ready to transition your defense instantly when they switch.",
         "answer_line": "Retract whole foot, dorsiflex toes",
         "distractors": {

@@ -56,7 +56,7 @@ description: "How to prevent Leg Extraction from Estima Lock in BJJ. Maintain su
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the sequential stages of Leg Extraction that you should learn to recognize as the Estima Lock holder?",
+      "name": "Holding the Estima lock, what are the stages of their leg extraction in order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The stages are: (1) counter-rotation of the ankle to reduce submission pressure, (2) frame establishment on your hips with both hands, (3) free leg activation for push-off leverage, (4) hip escape to create angular separation, (5) knee retraction toward their chest, and (6) foot extraction and guard recovery. Disrupting any early stage resets the entire sequence."

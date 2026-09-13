@@ -104,7 +104,7 @@ description: "Complete guide to executing the hip scoot escape from back control
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins tightening their hooks as you start scooting downward - what adjustment do you make?",
+      "name": "They tighten their hooks as you begin scooting down to escape the back: what do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to alternating the scooting direction with small lateral hip movements to create angles the opponent cannot track with simple hook tightening. Combine the scoot with hand fighting on their seatbelt to create multiple problems simultaneously, forcing them to choose between maintaining hooks and defending grip strips."

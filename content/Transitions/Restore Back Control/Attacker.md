@@ -82,7 +82,7 @@ description: "How to execute Restore Back Control in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has cleared your bottom hook but your top hook and seat belt remain—what is your immediate priority?",
+      "name": "They clear your bottom hook but your top hook and seat belt remain—what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your chest deeper into their back to prevent them from sliding their hips to the mat. Then follow their hip movement with your own hips and work to re-insert the bottom hook by curling your leg under their thigh. The bottom hook is priority because it prevents the most common escape completion—the hip slide to mat that allows them to turn into you. Do not sacrifice chest connection to chase the hook."
@@ -114,7 +114,7 @@ description: "How to execute Restore Back Control in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for beginning the restoration sequence after the opponent clears a hook?",
+      "name": "What is the optimal timing window to begin restoring back control after a hook is cleared?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is within the first one to two seconds after the hook is cleared, before the opponent can chain their hook clearance into a secondary escape action like turning or scooting hips away. During this brief window, the opponent is still committed to the clearing motion and has not yet redirected their energy toward the next phase of escape. Delaying beyond this window allows them to build momentum in a new escape direction, making restoration exponentially harder. Immediate recognition and response during the clearing motion itself produces the highest restoration success rate."

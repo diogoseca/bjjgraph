@@ -80,7 +80,7 @@ description: "Complete guide to executing the Ashi Entry from Leg Entanglement. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the ashi entry during a general leg entanglement exchange?",
+      "name": "When is the best timing window to start the ashi entry from a general leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing window opens when the opponent's defensive attention is divided between multiple threats. This occurs when they are defending a submission attempt with their hands (leaving their legs undefended for pummeling), when they are initiating their own positional advancement (committing weight in one direction), or immediately after they complete an escape attempt and are resetting their defensive structure. Attempting the entry against a static, prepared opponent with both hands free for leg pummeling has significantly lower success rates."
@@ -88,7 +88,7 @@ description: "Complete guide to executing the Ashi Entry from Leg Entanglement. 
     },
     {
       "@type": "Question",
-      "name": "What conditions must exist in the leg entanglement before you can successfully thread your inside leg across the opponent's hip?",
+      "name": "What must be in place before threading your inside leg across their hip for the ashi entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three conditions must be present: first, you need at least one preliminary hook or entanglement on the target leg providing anchor control so the opponent cannot simply pull their leg away during the thread. Second, you need a grip on their foot or ankle to prevent rotational defense. Third, your hips must be close enough to their leg that you can reach across their hip without overextending, which typically means you are already positioned at or below their knee line with your center of mass near their trapped leg."
@@ -104,7 +104,7 @@ description: "Complete guide to executing the Ashi Entry from Leg Entanglement. 
     },
     {
       "@type": "Question",
-      "name": "What is the most common reason practitioners fail to complete the ashi entry and remain stuck in general leg entanglement?",
+      "name": "Why do people most often fail the ashi entry and stay stuck in a general leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common failure is attempting to thread the inside leg without first creating a timing window through a credible submission threat or positional pressure. When the opponent has both hands free and their full attention on leg defense, they can easily frame against the inside leg thread or pummel their leg free. The solution is to always precede the entry with a submission feint that forces their hands to address the immediate threat, creating the two-to-three second window needed to complete the threading sequence."
@@ -120,7 +120,7 @@ description: "Complete guide to executing the Ashi Entry from Leg Entanglement. 
     },
     {
       "@type": "Question",
-      "name": "In which direction should your hips move relative to the opponent's trapped leg during the final phase of the entry?",
+      "name": "During the final phase of the ashi entry, where should your hips move relative to their trapped leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips should move toward the opponent's foot, not toward their hip or body. The critical concept is getting below the knee line, which means positioning your center of mass between their knee and their foot. Moving your hips toward their foot accomplishes three things simultaneously: it tightens the entanglement by closing the gap between your body and their leg, it positions you below the knee line where submissions become mechanically effective, and it prevents the opponent from clearing the entanglement by making it impossible for them to push your body above their knee."
@@ -424,7 +424,7 @@ Leg entanglement transitions involve positions where knee and ankle joints are v
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Common transition pathway creating leg entanglement opportunities that must be recognized and defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Common transition pathway creating leg entanglement opportunities that must be recognized and defended</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

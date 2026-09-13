@@ -104,7 +104,7 @@ description: "Execute the body triangle escape to half guard. Step-by-step clear
     },
     {
       "@type": "Question",
-      "name": "Your opponent's triangle is locked tightly with the crossing leg entering from your left side – which direction do you turn and why?",
+      "name": "Their triangle leg crosses from your left side: which way do you turn to escape, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn toward your left side, toward the triangle leg. This reduces the effective squeezing angle by aligning your torso with the direction of the crossing leg rather than remaining perpendicular to it. Turning left also positions your left hand closer to the lock point behind your opponent's knee where the foot is tucked, enabling the clearing attempt."
@@ -120,7 +120,7 @@ description: "Execute the body triangle escape to half guard. Step-by-step clear
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins attacking a rear naked choke as you start clearing the triangle – how do you respond?",
+      "name": "They attack a rear naked choke as you start clearing the body triangle: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the clearing attempt and return both hands to neck defense. Tuck your chin deeply and establish two-on-one control on the choking arm. Never try to race the choke by rushing the clear – the choke finishes faster than the clear completes. Wait for the opponent's next grip transition to create a new window for resuming the clearing attempt."

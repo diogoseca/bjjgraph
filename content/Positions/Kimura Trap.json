@@ -272,7 +272,7 @@
         }
       },
       {
-        "question": "Your opponent starts bridging explosively while you have Kimura Trap Top established - what adjustment do you make?",
+        "question": "Your opponent bridges explosively under your kimura trap top—what adjustment do you make?",
         "answer": "Ride the bridge by maintaining your grip connection and keeping your chest heavy on their torso without fighting the upward force directly. As they bridge, their trapped arm often extends slightly, creating finishing opportunities. When they come back down, immediately walk your feet toward their head to create the finishing angle. The bridge wastes their energy while you conserve yours through patient pressure.",
         "answer_line": "Ride bridge, walk feet to head",
         "distractors": {
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "Your opponent partially escapes and gets to their side - how do you recover full Kimura Trap Top control?",
+        "question": "Your opponent turns to their side under kimura trap top—how do you recover control?",
         "answer": "Maintain your Kimura grip absolutely - this is your anchor point. Drive your shoulder into their back while walking your feet in an arc to re-establish perpendicular position. Use the Kimura grip itself to pull them back flat by driving their trapped arm toward the mat. If they continue turning away, follow them to back control. The grip ensures you maintain offensive threat regardless of their positional movement.",
         "answer_line": "Keep grip, walk feet, re-square",
         "distractors": {
@@ -386,64 +386,50 @@
       {
         "transition": "North-South to Kimura",
         "attempt_probability": {
-          "gi": 11,
-          "nogi": 11
+          "gi": 15,
+          "nogi": 14
         }
       },
       {
         "transition": "Side Control to Mount",
         "attempt_probability": {
-          "gi": 13,
-          "nogi": 13
+          "gi": 18,
+          "nogi": 18
         }
       },
       {
         "transition": "Kimura to Back Take",
         "attempt_probability": {
-          "gi": 15,
-          "nogi": 20
+          "gi": 21,
+          "nogi": 27
         }
       },
       {
         "transition": "Knee on Belly",
         "attempt_probability": {
-          "gi": 10,
-          "nogi": 8
+          "gi": 14,
+          "nogi": 11
         }
       },
       {
         "transition": "Arm Triangle Setup",
         "attempt_probability": {
-          "gi": 9,
-          "nogi": 9
-        }
-      },
-      {
-        "transition": "Americana from Kimura Trap",
-        "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 12,
+          "nogi": 12
         }
       },
       {
         "transition": "Kimura Defense Arm Extraction",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 7
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
-        "transition": "Kimura Trap to Reverse Scarf Hold",
+        "transition": "Kimura Trap to Ushiro Kesa Gatame",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 6
-        }
-      },
-      {
-        "transition": "Kimura from Kimura Trap",
-        "attempt_probability": {
-          "gi": 21,
-          "nogi": 19
+          "gi": 10,
+          "nogi": 8
         }
       }
     ],
@@ -749,7 +735,7 @@
         }
       },
       {
-        "question": "Your opponent successfully widens their base and posts their far hand - how do you still complete the sweep?",
+        "question": "Your opponent widens their base and posts the far hand—how do you still finish the sweep?",
         "answer": "Their base widening actually creates the setup for Old School Sweep by exposing their far leg for ankle hooking. Hook their far ankle with your outside leg while bridging toward them and pulling the Kimura grip across your body. Their wide base and posted hand cannot prevent this off-balancing angle. Alternatively, use their commitment to base defense to threaten the back take, as their focus on staying upright often exposes their back.",
         "answer_line": "Hook far ankle, bridge, pull grip",
         "distractors": {
@@ -807,71 +793,85 @@
       {
         "transition": "Old School Sweep",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 13
+          "gi": 13,
+          "nogi": 10
         }
       },
       {
         "transition": "Rolling Kimura",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 15
+          "gi": 9,
+          "nogi": 11
         }
       },
       {
         "transition": "Kimura Sweep",
         "attempt_probability": {
-          "gi": 18,
-          "nogi": 17
+          "gi": 13,
+          "nogi": 13
         }
       },
       {
         "transition": "Underhook Sweep from Half",
         "attempt_probability": {
-          "gi": 14,
-          "nogi": 13
+          "gi": 10,
+          "nogi": 10
         }
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": {
-          "gi": 12,
-          "nogi": 13
+          "gi": 8,
+          "nogi": 9
         }
       },
       {
         "transition": "Lockdown Recovery",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 8
+          "gi": 4,
+          "nogi": 5
         }
       },
       {
         "transition": "Electric Chair Transition",
         "attempt_probability": {
-          "gi": 3,
-          "nogi": 6
+          "gi": 2,
+          "nogi": 5
         }
       },
       {
         "transition": "Kimura Defense",
         "attempt_probability": {
-          "gi": 7,
-          "nogi": 6
+          "gi": 5,
+          "nogi": 4
         }
       },
       {
         "transition": "Kimura Counter via Roll",
         "attempt_probability": {
-          "gi": 6,
-          "nogi": 5
+          "gi": 4,
+          "nogi": 4
         }
       },
       {
         "transition": "Rolling Kimura Escape",
         "attempt_probability": {
-          "gi": 5,
-          "nogi": 4
+          "gi": 4,
+          "nogi": 3
+        }
+      },
+      {
+        "transition": "Kimura from Kimura Trap",
+        "attempt_probability": {
+          "gi": 19,
+          "nogi": 17
+        }
+      },
+      {
+        "transition": "Americana from Kimura Trap",
+        "attempt_probability": {
+          "gi": 9,
+          "nogi": 9
         }
       }
     ],

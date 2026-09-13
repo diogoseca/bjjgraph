@@ -96,7 +96,7 @@ description: "How to execute Step Over Escape in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls their hips back when you attempt the step over, preventing your leg from clearing. How do you adjust?",
+      "name": "They sprawl their hips back and block your step over from Darce control: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent sprawls back and blocks the step over, immediately abort and transition to a Back Door Escape by retreating behind the opponent. The momentum you already generated toward their body can be redirected into the back door movement. This is why training all three Darce escapes as a chain is essential: the opponent cannot simultaneously defend the step over, back door, and counter roll."

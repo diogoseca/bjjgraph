@@ -307,7 +307,7 @@
         }
       },
       {
-        "question": "Your opponent sprawls heavy with their hips dropped just as you begin the hip escape - how do you adjust?",
+        "question": "They sprawl heavy with hips dropped as you begin the front headlock hip escape; how do you adjust?",
         "answer": "Do not force the escape against heavy sprawl pressure. Instead, re-establish your defensive frames and wait for the next timing window. Use small bridges and micro-shrimps to gradually improve your angle without fully committing to the escape. If the opponent's sprawl is consistently shutting down your hip escape, switch to a sit-through variation which works better against dropped hips, or attempt a granby roll that uses the opponent's forward pressure as momentum for the roll.",
         "answer_line": "Reset frames, wait for next window",
         "distractors": {
@@ -349,7 +349,7 @@
         }
       },
       {
-        "question": "As you hip escape, your opponent releases the headlock and quickly transitions toward a guillotine grip - what is your immediate response?",
+        "question": "They release the front headlock for a guillotine grip as you hip escape; what is your response?",
         "answer": "Accelerate your hip escape and drive your body toward their far hip, making the guillotine angle impossible to complete. The guillotine requires your head to be centered under their chest, so lateral movement defeats the grip. Simultaneously, push their choking wrist away from your chin with your inside hand and use your frame hand to maintain distance. If they manage to lock the guillotine before you clear, switch immediately to dedicated guillotine defense by controlling their grip hand and fighting to get your head to the correct side.",
         "answer_line": "Drive hips toward their far hip",
         "distractors": {
@@ -363,7 +363,7 @@
         }
       },
       {
-        "question": "Your first hip escape attempt fails and you remain in front headlock - what chain technique should you attempt next?",
+        "question": "Your front headlock hip escape fails; what chain technique do you attempt next?",
         "answer": "If the hip escape fails, immediately switch to an alternative escape rather than repeating the same technique against a now-prepared opponent. A sit-through escape works well as a follow-up because it uses a completely different movement vector. If space exists, a granby roll can leverage whatever angle change the failed hip escape created. The key principle is maintaining offensive pressure with escape attempts rather than resetting to static defense, as continuous movement prevents the opponent from settling and optimizing their control.",
         "answer_line": "Switch to sit-through or granby",
         "distractors": {
@@ -377,7 +377,7 @@
         }
       },
       {
-        "question": "Why must you close your guard immediately after clearing the front headlock rather than settling into open guard?",
+        "question": "Why close your guard right after clearing the front headlock instead of settling into open guard?",
         "answer": "Closed guard provides immediate security and offensive capability, while open guard from this position leaves you vulnerable to the opponent re-engaging the front headlock or advancing to side control. When you first clear the headlock, the opponent is still close and still has forward momentum, meaning they can easily dive back onto your head if your guard is open. Closed guard locks them in place, breaks their posture, and eliminates the possibility of them re-establishing control. The transition from hip escape to closed guard should be drilled as one fluid movement.",
         "answer_line": "Closed guard denies re-engagement",
         "distractors": {
@@ -391,7 +391,7 @@
         }
       },
       {
-        "question": "How do you modify the hip escape when the opponent has trapped one of your arms against your body with their headlock grip?",
+        "question": "How do you modify the front headlock hip escape when their grip traps one of your arms?",
         "answer": "When one arm is trapped, use your free hand exclusively for the hip frame rather than splitting duties between frame and arm control. Bridge harder to create more initial space since you cannot hand fight the choking arm. Focus the hip escape on creating enough angle to extract the trapped arm during the movement. As your hips slide laterally, the trapped arm often comes free naturally as the angle changes. If the arm remains trapped, prioritize escaping to half guard with a single leg hook rather than attempting full closed guard, as half guard provides enough defensive structure to then work on freeing the arm.",
         "answer_line": "Bridge harder, free arm via angle",
         "distractors": {
@@ -520,7 +520,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is about to attempt a hip escape from front headlock bottom?",
+        "question": "What is the earliest cue that they will attempt a hip escape from front headlock bottom?",
         "answer": "The earliest cue is increased hand fighting activity on your choking arm combined with their outside hand posting firmly on your hip or thigh. This framing action precedes the actual hip escape movement and signals that they are establishing the mechanical prerequisites for the escape. Recognizing this setup phase gives you the maximum reaction time to increase sprawl pressure and shut down the escape before it begins, rather than reacting after they have already generated lateral movement.",
         "answer_line": "Hand fighting plus hip post",
         "distractors": {
@@ -534,7 +534,7 @@
         }
       },
       {
-        "question": "How should you adjust your weight distribution when you feel the opponent beginning to bridge underneath you?",
+        "question": "How do you adjust your weight in front headlock when you feel them bridging underneath you?",
         "answer": "Immediately drop your hips lower and drive your chest forward into their upper back, counteracting the upward force of their bridge. Spread your legs wider for a more stable sprawl base and dig your toes into the mat for traction. The goal is to make your weight feel heavier during the exact moment they are trying to create space. Do not lift your hips or shift backward, as this creates the exact space they need for the lateral hip escape that follows the bridge.",
         "answer_line": "Drop hips, drive chest forward",
         "distractors": {
@@ -548,7 +548,7 @@
         }
       },
       {
-        "question": "When should you abandon front headlock retention and transition to side control during an opponent's hip escape?",
+        "question": "During their hip escape, when do you give up the front headlock and take side control?",
         "answer": "Transition to side control when the opponent has achieved enough lateral angle that your chest is no longer driving directly into their upper back and your head control has become loose. This typically occurs when their hips have moved more than twelve inches laterally and they begin inserting a knee frame. At this point, maintaining front headlock control becomes a losing battle and the superior strategic choice is capitalizing on their turned hips to advance to side control by stepping over their body while maintaining shoulder pressure to prevent guard closure.",
         "answer_line": "When hips clear 12 inches",
         "distractors": {

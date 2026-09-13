@@ -72,7 +72,7 @@ description: "Learn to defend and counter the Sweep from Leg Hook in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates the sweep and you feel your weight shifting - what is your emergency response?",
+      "name": "On top of leg hook, you feel the sweep taking your weight—what is your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your far hand wide on the mat immediately to establish a tripod base that blocks the roll direction. Simultaneously drive your hips low and forward to re-center your weight. Once the immediate sweep threat is neutralized, retract the posting hand quickly to prevent arm drag attacks, swim your near arm inside to deny the underhook, and work to re-establish your passing position with centered base."

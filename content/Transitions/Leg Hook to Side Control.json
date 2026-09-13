@@ -253,7 +253,7 @@
     ],
     "flashcards": [
       {
-        "question": "What indicators signal the optimal moment to initiate the leg extraction for passing to side control?",
+        "question": "From leg hook top, what signals the right moment to extract your leg and pass to side control?",
         "answer": "The optimal window opens when the bottom player's defensive frames collapse, their shoulders flatten to the mat, they stop actively fighting the crossface, or they commit to a single escape direction that you can anticipate. Their leg clamp loosening or their far hip becoming controllable are additional indicators. Attempting extraction against active defense, strong frames, and mobile hips typically fails and risks sweep counters.",
         "answer_line": "Frames collapse, shoulders flatten",
         "distractors": {
@@ -295,7 +295,7 @@
         }
       },
       {
-        "question": "Your opponent tightens their leg clamp as you begin the windshield wiper extraction - how do you adjust?",
+        "question": "They tighten their leg clamp as you start the windshield wiper extraction — how do you adjust?",
         "answer": "Switch to the hip switch extraction variant which changes the angle of force against their clamp. A tight clamp resists direct lateral windshield wiper motion but is vulnerable to the rotational angle change created by a hip switch. If the hip switch also fails, escalate to a backstep which bypasses the entanglement entirely by changing passing direction. Increase crossface pressure simultaneously, as splitting their attention between holding your leg and surviving upper body pressure often loosens the clamp.",
         "answer_line": "Switch to hip switch variant",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent bridges explosively as you begin clearing your leg past their entanglement - what do you do?",
+        "question": "They bridge explosively as you clear your leg from the leg hook — what do you do?",
         "answer": "Widen your posted foot to absorb the bridge energy through a broad base rather than resisting rigidly. Keep your hips low and heavy while allowing the bridge to move through you without displacing your center of gravity. The bridge is a burst of energy that cannot sustain—once it collapses, immediately accelerate the extraction with intensified pressure. Never pause or retreat during a bridge, as that allows the bottom player to chain a second bridge or redirect into a hip escape.",
         "answer_line": "Widen base, absorb, then accelerate",
         "distractors": {
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "If the direct pass to side control is blocked, what follow-up options exist from the leg hook position?",
+        "question": "If the pass to side control is blocked, what follow-ups remain from leg hook top?",
         "answer": "If the pass fails, three primary follow-up options remain from Leg Hook Top: consolidate to Half Guard Top via the Leg Hook to Half Guard transition for a stable passing reset, reattempt using a different extraction variant that addresses the specific defense that blocked the initial attempt, or chain into submission threats like kimura or darce choke that exploit the defensive commitments the bottom player made to block the pass. The worst option is to remain stalled in leg hook with no clear objective.",
         "answer_line": "Half guard, retry, or submission",
         "distractors": {
@@ -498,7 +498,7 @@
         }
       },
       {
-        "question": "Your knee shield insertion attempt is blocked and the top player's leg is clearing - what is your fallback?",
+        "question": "Your knee shield fails and their leg is clearing from leg hook — what is your fallback?",
         "answer": "Immediately transition to survival frames for side control: near-side forearm frame against the top player's neck or shoulder, far-side arm protecting against crossface deepening, inside elbow tight to your body to prevent arm isolation. The goal shifts from preventing the pass to establishing the best possible defensive structure within side control so that escape sequences can begin immediately. A well-framed side control bottom is recoverable; a pinned flat side control bottom is not.",
         "answer_line": "Build survival frames immediately",
         "distractors": {

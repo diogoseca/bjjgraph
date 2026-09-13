@@ -74,7 +74,7 @@ description: "Learn to defend the kneebar from toe hold control. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available when you recognize the kneebar transition from toe hold control?",
+      "name": "What are your best defenses once you recognise the kneebar transition from toe hold control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Four primary defenses exist: immediate knee curl to deny hyperextension, grip fighting on the attacker's hands during the transition window before they establish a closed hold, hip escape combined with free leg framing to extract the trapped leg, and rolling toward the trapped leg to disrupt hip placement. The most effective approach combines knee curl with grip fighting during the transition, as this addresses both the immediate threat and the attacker's ability to establish control."

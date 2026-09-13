@@ -56,7 +56,7 @@ description: "How to defend against Lockdown Escape to Half Guard Pass in BJJ. R
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your primary defensive strategy when you feel the top player beginning the lockdown extraction sequence?",
+      "name": "As the lockdown player, what's your main strategy when they begin extracting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your primary strategy should be proactive offense rather than passive defense. The moment you sense extraction beginning—forward pressure increasing, their leg relaxing, hand reaching for your feet—immediately attack with sweeps or deepen your control. Attack with the whip-up when their hand drops to your feet, or load the Old School when they drive forward. Forcing them to defend your attacks interrupts their extraction sequence."
@@ -88,7 +88,7 @@ description: "How to defend against Lockdown Escape to Half Guard Pass in BJJ. R
     },
     {
       "@type": "Question",
-      "name": "Your lockdown triangle has been broken but opponent's heel hasn't cleared yet—what is the optimal response?",
+      "name": "Your lockdown triangle is broken but their heel hasn't cleared: what's the optimal response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a critical decision point with two viable options depending on timing. If you can immediately recapture the ankle triangle by squeezing your legs together and re-hooking, attempt re-engagement. If the foot is already past your knee line and re-engagement is unlikely, commit fully to the Deep Half Guard transition by threading underneath their hips and securing the far leg underhook. Hesitating between these options wastes the narrow window for either."

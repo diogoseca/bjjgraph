@@ -76,7 +76,7 @@ description: "Complete guide to executing the heel hook from saddle position. St
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the heel hook from saddle primarily attack, and why is this submission considered more dangerous than most joint locks?",
+      "name": "What does the saddle heel hook attack, and why is it more dangerous than other joint locks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The heel hook attacks the knee's ligamentous complex—primarily the ACL (anterior cruciate ligament) and MCL (medial collateral ligament)—through rotational force transmitted via the heel and shin as a lever. It is considered more dangerous than most joint locks because the knee's ligaments provide almost no pain warning before catastrophic failure. Unlike an armbar where the defender feels increasing elbow pain before structural damage, a heel hook can cause complete ligament rupture before the defender registers significant discomfort, making the tap window extremely small."
@@ -84,7 +84,7 @@ description: "Complete guide to executing the heel hook from saddle position. St
     },
     {
       "@type": "Question",
-      "name": "At what point during the heel hook application should you recognize that the submission is locked and further pressure risks injury?",
+      "name": "When applying a heel hook, how do you know it is locked and more pressure risks injury?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no return occurs when rotational pressure engages the knee ligaments—typically felt as a sudden increase in resistance followed by the opponent's body involuntarily stiffening or flinching. Once you feel the rotational pressure reaching the joint, any further pressure risks immediate structural damage. In training, you should stop well before this point and rely on positional dominance to secure the tap. Competition finishing requires reaching this threshold, but training should always leave a significant safety margin."
@@ -92,7 +92,7 @@ description: "Complete guide to executing the heel hook from saddle position. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully hides their heel by pressing it against their own hip—what submission dilemma can you create to force heel re-exposure?",
+      "name": "They hide the heel against their hip — what dilemma forces them to re-expose it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to a straight ankle lock or toe hold threat by adjusting your grip to attack the exposed ankle and foot. When the opponent defends the ankle lock by pulling their toes back and flexing their foot, this motion naturally rotates the heel away from their hip and back toward your centerline. The moment they adjust to defend the ankle, re-attack the heel hook. This creates a continuous dilemma where defending one submission opens the pathway for the other, eventually exhausting the defender's ability to manage both threats simultaneously."
@@ -100,7 +100,7 @@ description: "Complete guide to executing the heel hook from saddle position. St
     },
     {
       "@type": "Question",
-      "name": "What are the critical control requirements that must be verified before transitioning to the finishing grip sequence?",
+      "name": "Which controls must you verify before moving to the heel hook finishing grips from saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Four control points must be confirmed: (1) Perpendicular body alignment to the opponent, ensuring maximum mechanical advantage, (2) Hip pressure actively pinning the opponent's hip through your outside leg driving across their thigh, (3) Inside position secured between the opponent's legs, blocking their ability to face you or turn away, (4) Opponent's defensive frames cleared or neutralized so they cannot push your hips away during the grip transition. Skipping any of these creates escape opportunities during the vulnerable grip transition phase."
@@ -108,7 +108,7 @@ description: "Complete guide to executing the heel hook from saddle position. St
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your finishing mechanics when the opponent attempts to straighten their trapped leg to relieve rotational pressure?",
+      "name": "They straighten the trapped leg to relieve rotation — how do you adjust your finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent straightens their leg, maintain your grip configuration and increase hip pressure to prevent them from extending fully. Use your inside leg to hook behind their knee and pull it back into a bent position, which restores the lever mechanics needed for the finish. If they succeed in fully extending, consider transitioning to a kneebar attack which becomes higher percentage against a straightened leg, then re-attack the heel hook when they re-bend to defend the kneebar."
@@ -116,7 +116,7 @@ description: "Complete guide to executing the heel hook from saddle position. St
     },
     {
       "@type": "Question",
-      "name": "What grip adjustment should you make if the opponent begins to strip your figure-four configuration during the finishing attempt?",
+      "name": "They start stripping your figure-four during the finish — what grip adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck their foot deeper into your armpit and clamp your elbow tight to your body, making the grip harder to access with their hands. If they strip your top hand, use it to control their grip-fighting hand while maintaining the blade-of-wrist contact with your bottom hand. Re-establish the figure-four when their hand is controlled. Throughout this exchange, maintain hip pressure and leg control—the position is still dominant even without the finishing grip, so there is no urgency that should compromise control."

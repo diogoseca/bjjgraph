@@ -64,7 +64,7 @@ description: "How to defend against Mount Control in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has heavy grapevines engaged and you cannot generate any bridging power. What is your primary escape pathway?",
+      "name": "Heavy grapevines kill your bridge from bottom mount: what is your primary escape pathway?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When grapevines eliminate bridging power, focus entirely on the elbow-knee escape. Frame your forearm on their hip on your escape side and begin micro-shrimps to create incremental space. Since their legs are committed to grapevines, their base is narrower than with knees posted wide. Target the moment they adjust grapevine pressure or shift weight to address your upper body frames - that brief lightening of hip control is your window to execute a larger hip escape and insert your knee."
@@ -72,7 +72,7 @@ description: "How to defend against Mount Control in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "How should you time your escape attempts against a top player who is actively reading and countering your movements?",
+      "name": "How do you time escapes from bottom mount against a top player who reads your movement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Time escapes to coincide with the top player's own movements rather than initiating from static positions. When they reach for a grip, shift weight to attack, or adjust their base after countering a previous attempt, their weight distribution changes momentarily. The bridge works best when they reach forward, shifting weight to their hands. The hip escape works best when they shift laterally to address your movement on one side, lightening pressure on the opposite hip. Create the opening with a feint, then exploit the reaction."
@@ -80,7 +80,7 @@ description: "How to defend against Mount Control in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "You have established a forearm frame on your opponent's hip but they begin swimming their elbow inside to strip it. What do you do?",
+      "name": "From bottom mount, they swim inside to strip your hip frame: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight to maintain a frame that is being stripped - this becomes a strength battle you will lose from bottom position. Instead, use their commitment to stripping your frame as a timing window. As they drive their elbow inside, their weight shifts toward that side and their opposite hip lightens. Immediately hip escape toward the side they are not pressuring, using the frame-strip as your trigger for the escape movement. Alternatively, switch your frame to the other hip before theirs is fully eliminated, keeping them in a constant frame-chasing cycle."
@@ -88,7 +88,7 @@ description: "How to defend against Mount Control in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Why is chaining a bridge into a hip escape more effective than either technique alone against active Mount Control?",
+      "name": "Why is bridging into a hip escape better than either alone against active mount control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bridge forces the top player to post a hand and shift weight to counter the roll direction, which is the correct defensive response for them. However, this posting action necessarily lightens their hip pressure on the opposite side and commits their weight laterally. The immediate hip escape exploits exactly this weight shift - you shrimp away from the direction they posted toward, moving into the space their base adjustment just vacated. Neither technique alone overcomes active control, but together they create a dilemma where the correct defense to the bridge creates the opening for the hip escape."

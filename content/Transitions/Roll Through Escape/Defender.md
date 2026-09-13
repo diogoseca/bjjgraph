@@ -58,7 +58,7 @@ description: "How to defend against Roll Through Escape in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already committed to the roll with full momentum - what is the optimal defensive response?",
+      "name": "Your opponent commits fully to a roll through escape from twister control — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the rotation maintaining chest-to-back connection and upper body control rather than resisting statically. As they complete the roll, immediately transition to back control by inserting hooks and establishing seatbelt grip before they can create distance. Static resistance against committed rotational momentum is ineffective and results in complete loss of position."
@@ -82,7 +82,7 @@ description: "How to defend against Roll Through Escape in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What vulnerability does the Roll Through Escape create that the defender can exploit for a guillotine?",
+      "name": "What opening does the roll through escape give the top player for a guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the midpoint of the roll, the bottom player's chin and neck become temporarily exposed as their defensive frames are occupied generating and maintaining rotational momentum. Their tucked chin position naturally loosens as they focus on completing the rotation. This window allows the defender to catch a guillotine grip around the neck, converting the escape attempt into a submission opportunity from front headlock control."

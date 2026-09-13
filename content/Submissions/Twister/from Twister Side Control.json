@@ -275,7 +275,7 @@
     ],
     "flashcards": [
       {
-        "question": "What anatomical structures does the Twister primarily attack and why are they vulnerable to rotational force?",
+        "question": "What does the twister primarily attack, and why is that structure vulnerable to rotational force?",
         "answer": "The Twister primarily attacks the cervical and thoracic spine through rotational torque, along with secondary stress on the shoulder girdle. These structures are vulnerable because the spine has limited rotational range of motion, especially when the lower body is anchored in one direction and the upper body is forced to rotate in the opposite direction. The intervertebral discs and spinal ligaments are not designed to withstand the opposing forces the twister creates between the fixed hips and rotating torso.",
         "safety_critical": true,
         "answer_line": "Spine barely rotates under torque",
@@ -320,7 +320,7 @@
         }
       },
       {
-        "question": "Your opponent starts bridging as you attempt to thread the arm—what is the correct response to maintain position?",
+        "question": "They bridge as you thread the arm from twister side control — how do you keep position?",
         "answer": "Immediately post the outside leg wide to expand your base and absorb the bridging force. Do not chase the arm thread during the bridge—instead, ride the movement by keeping your hips heavy on the leg entanglement and your shoulder driving into their near shoulder. As the opponent settles back to the mat after the failed bridge, use that settling moment to re-establish shoulder pressure and reattempt the arm thread when they are flat and energy-depleted from the bridge effort.",
         "safety_critical": false,
         "answer_line": "Post wide, ride bridge, don't chase",
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "What grip adjustments optimize the finishing rotation when the opponent resists through neck strength?",
+        "question": "They resist the twister finish with neck strength — what grip adjustments improve your rotation?",
         "answer": "If the opponent resists through neck strength alone, reposition the clasping grip lower behind the crown of the head rather than on top of it, which lengthens the lever arm and multiplies rotational force. Simultaneously, shift your hips slightly further from their head to increase the distance between the anchor point and the rotation point. These two adjustments dramatically increase mechanical advantage without requiring additional muscular force, overcoming neck strength resistance through superior leverage.",
         "safety_critical": false,
         "answer_line": "Grip lower, hips further from head",
@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "What are the key differences between finishing the Twister from Twister Side Control versus from the Truck?",
+        "question": "What differs between finishing the twister from twister side control versus from the truck?",
         "answer": "From twister side control, the attacker has a perpendicular angle that provides superior shoulder-driving leverage and a more stable base through the posted outside leg. The arm threading pathway is slightly different—approaching from the lateral side rather than from behind. The truck entry provides more direct spinal alignment for the rotation but less base stability. Twister side control requires more deliberate shoulder flattening before the arm thread, while the truck often allows faster grip acquisition but with higher reversal risk due to the attacker's positioning behind the opponent.",
         "safety_critical": false,
         "answer_line": "Side control gives base and leverage",
@@ -380,7 +380,7 @@
         }
       },
       {
-        "question": "In competition, what strategic factors determine whether to commit to the Twister finish versus transitioning to an alternative submission?",
+        "question": "In competition, what tells you to commit to the twister versus switching to another submission?",
         "answer": "Commit to the twister when: the arm thread is unobstructed, the shoulder is fully pinned, and the leg entanglement is deep and secure. Transition away when: the arm thread is blocked twice consecutively, the leg entanglement is becoming shallow, or the opponent is successfully creating upper body frames. Time remaining matters—the twister setup is time-intensive, so with limited time, faster alternatives like the darce choke on a turn-in or back take on a turn-away may be higher percentage. Energy expenditure should also factor in, as forcing a defended twister depletes resources needed for alternatives.",
         "safety_critical": false,
         "answer_line": "Thread open and shoulder pinned",
@@ -500,7 +500,7 @@
     ],
     "flashcards": [
       {
-        "question": "How do you recognize that the Twister from Twister Side Control is being set up before the grip is secured?",
+        "question": "How do you recognize a twister being set up from twister side control before the grip is locked?",
         "answer": "Key recognition cues include the opponent reaching their far arm toward and under your head, increasing rotational torque felt in the spine as shoulder pressure drives you flat while hips remain elevated, and the opponent hunting for your far wrist to complete the clasping grip. The earliest cue is the shoulder being driven to the mat with lateral pressure while the leg entanglement restricts your lower body—this is the precursor positioning that precedes the arm thread.",
         "safety_critical": false,
         "answer_line": "Shoulder flattening, hips restricted",
@@ -545,7 +545,7 @@
         }
       },
       {
-        "question": "What defensive options are available if the attacker has already secured the clasping grip behind your head?",
+        "question": "They already have the clasping grip behind your head — what defensive options remain?",
         "answer": "Options are severely limited at this stage. The primary defense is an explosive bridge timed with the attacker's initial rotation to disrupt their base before full torque is applied. You can attempt to strip the grip by prying at the clasped hands with your free hand if one is available. If you feel spinal pressure beginning, tap immediately—do not attempt to power through the rotation. At this point, successful defense probability is very low, which is why blocking the arm thread earlier is so critical.",
         "safety_critical": true,
         "answer_line": "Bridge early, tap if pressure builds",

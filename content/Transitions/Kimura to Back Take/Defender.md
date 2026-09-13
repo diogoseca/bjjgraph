@@ -56,7 +56,7 @@ description: "How to defend against Kimura to Back Take in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important early defensive action when you feel a Kimura grip being established?",
+      "name": "Defending a Kimura: what is the most important action the moment you feel the grip forming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important early action is to immediately begin two-on-one grip fighting to prevent the figure-four from being locked or to strip a shallow grip before the attacker can deepen their control near your elbow. Early grip prevention is exponentially more effective than fighting a fully established Kimura because the mechanical advantage of the figure-four increases dramatically with depth. Use both hands to peel the attacker's grip hand off your wrist while keeping your elbow tight to your body."
@@ -64,7 +64,7 @@ description: "How to defend against Kimura to Back Take in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Why is turning into the attacker a superior defensive strategy compared to turning away during the rolling phase?",
+      "name": "Defending Kimura to back take: why is turning into the attacker better than turning away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning into the attacker eliminates the back take angle entirely because you end up facing them rather than presenting your back. When you turn toward the attacker, you can establish frames on their shoulder and hip, recover guard position, and the Kimura grip becomes significantly less dangerous from inside your guard. Turning away is the natural panic response but it presents your back at maximum exposure, which is exactly what the attacker wants. The direction of your rotation is the single most important defensive decision during the transition."
@@ -72,7 +72,7 @@ description: "How to defend against Kimura to Back Take in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured a deep Kimura grip and begins applying pressure - you cannot strip the grip. What is your next defensive priority?",
+      "name": "Deep Kimura grip you cannot strip and pressure is building—what is your next defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the grip cannot be stripped, your priority shifts to controlling how you move under the pressure rather than remaining static. Grab your own belt or wrist with the trapped hand to reduce pressure and buy time, then prepare to direct your inevitable movement toward the attacker rather than away. If you must turtle, keep elbows pinched tight, knees together, and hips low to deny hook insertion. The key is accepting that movement will happen while ensuring that movement does not give the attacker free back access."
@@ -80,7 +80,7 @@ description: "How to defend against Kimura to Back Take in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What body positioning prevents hook insertion after you have been forced to turtle during this transition?",
+      "name": "Forced to turtle under a Kimura: what body positioning denies hook insertion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "To prevent hook insertion from turtle, keep your elbows pinched tight against your ribcage so there is no space between your arms and body. Press your knees together and keep your hips as low to the mat as possible, eliminating the gap between your thighs and torso where hooks would be inserted. Tuck your chin and keep your forehead near the mat. This compact defensive posture makes hook insertion extremely difficult and buys time to work grip strips or sit-out escapes. Any space between your limbs and torso becomes an entry point for the attacker's feet."
@@ -88,7 +88,7 @@ description: "How to defend against Kimura to Back Take in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How do you recognize whether the attacker is using the Kimura as a genuine submission attempt versus a positional advancement tool?",
+      "name": "How do you tell if the attacker's Kimura is a real finish attempt or a back-take setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A genuine submission attempt typically shows constant escalating pressure in one direction with the attacker's weight committed to finishing the shoulder lock. A positional tool shows intermittent pressure pulses, the attacker's weight shifting to a more mobile position that can follow your movement, and their chest lifting slightly rather than driving down for the finish. When the attacker is using it positionally, they want you to move, so they apply enough pressure to motivate rolling but not enough to commit fully to the finish. This distinction informs your defense: against genuine finish attempts, fight the grip; against positional setups, control your movement direction."

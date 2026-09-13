@@ -74,7 +74,7 @@ description: "How to execute Switch to Darce Configuration in BJJ. Attacking per
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary trigger that signals the correct timing to switch from buggy choke to darce configuration?",
+      "name": "From buggy choke top, what signals the right moment to switch to the darce?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is the opponent rotating their torso toward your choking arm to relieve collar pressure. Their near shoulder rises and far shoulder drops, exposing the armpit-to-neck channel. Simultaneously, the far arm must be posted or elevated enough to allow arm threading under the far armpit. This rotation creates the mechanical angle that makes the darce viable while weakening the original buggy choke."
@@ -82,7 +82,7 @@ description: "How to execute Switch to Darce Configuration in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical difference between when to choose the darce switch versus the anaconda switch from buggy choke top?",
+      "name": "What mechanical difference decides between the darce switch and the anaconda switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The darce threads under the opponent's far armpit first and then wraps around the neck, while the anaconda wraps the neck first and connects under the armpit. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. Choose the anaconda when the near arm is tightly trapped between the opponent's head and your body and the far armpit is closed. The threading direction determines which choke is mechanically available."
@@ -90,7 +90,7 @@ description: "How to execute Switch to Darce Configuration in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "Your opponent clamps their far elbow tight to their ribs as you attempt to thread under the far armpit—how do you adjust?",
+      "name": "They clamp the far elbow to their ribs as you thread for the darce—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the darce angle because the threading path is blocked. Immediately switch to the anaconda configuration, which wraps the neck first and does not require far armpit access. Alternatively, return to the original buggy choke collar grip and wait for the opponent to react again, then read whether the next defensive motion opens the darce or anaconda path."
@@ -98,7 +98,7 @@ description: "How to execute Switch to Darce Configuration in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "Why must the choking arm thread under the far armpit with sufficient depth before locking the figure-four?",
+      "name": "Why must the choking arm thread deep under the far armpit before locking the figure-four?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insufficient threading depth means the forearm blade does not seat fully across the throat against the near-side carotid artery. A shallow darce creates a loose grip where the opponent can posture up, create space between your forearm and their neck, or strip the grip entirely. Deep threading ensures the wrist bone and forearm blade create a tight seal across the carotid that cannot be relieved by head movement or posture changes."

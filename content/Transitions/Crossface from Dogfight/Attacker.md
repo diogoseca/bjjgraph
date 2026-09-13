@@ -74,7 +74,7 @@ description: "Complete guide to executing the Crossface from Dogfight as the top
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "When is the ideal moment to initiate the crossface against an opponent who has come up to the dogfight position?",
+      "name": "When is the ideal moment to start the crossface on an opponent in dogfight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing is when the opponent drives forward with their underhook, committing their weight and momentum toward you. At this moment, their base is loaded forward and their ability to retreat or change direction is momentarily compromised. By redirecting their forward momentum downward with the crossface, you use their own energy against them rather than fighting a static battle against their established posture."
@@ -82,7 +82,7 @@ description: "Complete guide to executing the Crossface from Dogfight as the top
     },
     {
       "@type": "Question",
-      "name": "What grip and control prerequisites must be established before attempting the crossface from dogfight?",
+      "name": "What grips and control must you have before attempting the crossface from dogfight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must have a secure whizzer or overhook on the opponent's underhook arm with your elbow pulled tight to your ribs, your shoulder positioned on the near side of the opponent's face with access to the jawline, and sufficient base through your posted free hand or leg to generate forward driving force. Without the whizzer controlling the underhook, the crossface attempt exposes you to back takes and sweeps."
@@ -90,7 +90,7 @@ description: "Complete guide to executing the Crossface from Dogfight as the top
     },
     {
       "@type": "Question",
-      "name": "Which part of your body should make primary contact with the opponent's face during the crossface, and why is this contact point important?",
+      "name": "Which part of your body presses their face in the crossface, and why does that point matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bony edge of your shoulder blade (scapula) should make primary contact with the opponent's jawline or cheekbone. This contact point is important because bone-on-bone pressure creates concentrated force that is far more structurally disruptive than soft tissue contact. The shoulder blade acts as a wedge that turns the head with mechanical precision, and the discomfort forces reactive head turning that accelerates postural collapse."
@@ -106,7 +106,7 @@ description: "Complete guide to executing the Crossface from Dogfight as the top
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully frames against your shoulder with their free hand, preventing your crossface from landing. How do you adjust?",
+      "name": "In dogfight they frame your shoulder, blocking the crossface. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Swim your crossface arm underneath or around the opponent's framing arm to bypass the stiff arm entirely. If their arm is extended to frame, this creates a kimura opportunity by capturing the extended wrist and rotating their shoulder. Alternatively, change the angle by stepping your base leg to the opposite side and attacking from a new angle that their frame does not cover. The key is working around the frame rather than forcing through it."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the Crossface from Dogfight as the top
     },
     {
       "@type": "Question",
-      "name": "In which direction should you drive the crossface pressure, and how does this relate to the opponent's base in dogfight?",
+      "name": "Which direction do you drive crossface pressure in dogfight, and how does that break their base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive the crossface at a 45-degree downward angle, directing force toward the mat on the far side of the opponent's body. This direction matters because the opponent's base in dogfight is primarily supported by their knees underneath their hips. Downward-angled pressure collapses their structure by driving their head and shoulders below their hips, breaking the vertical alignment they need to maintain the kneeling posture and generate forward underhook pressure."

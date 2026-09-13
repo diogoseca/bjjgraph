@@ -104,7 +104,7 @@ description: "How to execute Deashi Harai in BJJ. Attacking perspective with set
     },
     {
       "@type": "Question",
-      "name": "What should you do with your grips if the opponent successfully defends the sweep by pulling their leg back?",
+      "name": "They defend your Deashi Harai by pulling the leg back. What do you do with your grips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your grips and immediately flow to an alternative technique that capitalizes on their backward movement and now-weighted rear leg. Options include Kosoto Gari or Kouchi Gari on the rear leg, or using their backward momentum to break their balance directly backward with forward pressure from your grips. The key is not to abandon your grips and start over, but to maintain connection and adapt to their defensive movement."

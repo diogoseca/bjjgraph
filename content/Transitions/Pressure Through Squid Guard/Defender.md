@@ -56,7 +56,7 @@ description: "Defend against pressure passing through Squid Guard. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is committing to a pressure pass rather than a speed pass?",
+      "name": "Earliest cue that your opponent is committing to a pressure pass rather than a speed pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is their postural change from upright to forward-leaning with a widened base. A speed passer stays upright and mobile, while a pressure passer lowers their center of gravity and drives their shoulder toward your frames. Additionally, if they control your free hand before attempting to address the lapel, this indicates a methodical pressure approach rather than an explosive grip strip."
@@ -64,7 +64,7 @@ description: "Defend against pressure passing through Squid Guard. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has driven heavy shoulder pressure into your frames and your guard is beginning to compress - what is your highest-percentage defensive response?",
+      "name": "Their shoulder pressure is compressing your squid guard. Highest-percentage defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you still have space to move your hips, insert a knee shield immediately to create a structural barrier against further compression. The shin across their body converts their forward pressure into a force you can redirect laterally. If the knee shield is not available, initiate hip escape movement to create the angle needed for inversion or guard transition before your structure collapses completely."
@@ -88,7 +88,7 @@ description: "Defend against pressure passing through Squid Guard. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining your side angle critical when defending against pressure passing through Squid Guard?",
+      "name": "Defending pressure passing from squid guard, why is keeping your side angle critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your side angle preserves hip mobility, which is the foundation of all guard retention and offensive options. A flat-on-back position eliminates your ability to hip escape, insert frames, initiate sweeps, or invert for back takes. The side angle also makes your lapel control more effective because the tension direction aligns with your hip movement, creating a unified system where your body and grips work together rather than independently."

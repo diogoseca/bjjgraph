@@ -58,7 +58,7 @@ description: "How to defend against Flying Armbar in BJJ. Recognition, escape pa
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is setting up a flying armbar, and what should you do immediately?",
+      "name": "What are the earliest cues that they are setting up a flying armbar, and what do you do at once?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent securing a strong two-on-one grip on your arm while their legs push against your hips to create distance. This grip configuration is the essential precondition for any flying armbar attempt. Your immediate response should be to retract the controlled arm by pulling your elbow to your ribs, strip one of their grips using a two-hands-on-one grip break, and step back out of jumping range. Addressing the grip early eliminates the technique entirely, making it the highest-percentage defensive response available."
@@ -66,7 +66,7 @@ description: "How to defend against Flying Armbar in BJJ. Recognition, escape pa
     },
     {
       "@type": "Question",
-      "name": "Why is it dangerous to pull your arm straight back when caught in a flying armbar during the aerial phase?",
+      "name": "Why is pulling your arm straight back dangerous during the flying armbar's aerial phase?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling straight back is dangerous because it actually assists the attacker's rotation around your arm. Your arm becomes the fixed axis that their body pivots on, and the backward pulling motion helps them achieve the perpendicular angle needed for the armbar finish. Additionally, if they land with your arm fully extended from the pulling motion, the impact of their body weight combined with the extension can cause immediate hyperextension injury. The correct response is to drive forward and stack, not pull backward, because forward pressure collapses their rotation and prevents the flat landing position they need."
@@ -74,7 +74,7 @@ description: "How to defend against Flying Armbar in BJJ. Recognition, escape pa
     },
     {
       "@type": "Question",
-      "name": "If your opponent has fully established the flying armbar position after landing and your arm is nearly extended, what is the safest course of action?",
+      "name": "They land a fully locked flying armbar with your arm nearly straight — what is safest?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the armbar is fully established with proper leg position, hip angle, and your arm is approaching full extension, the safest course of action is to tap immediately rather than attempting a high-risk late escape. Late escapes against a fully locked flying armbar carry extreme injury risk because the attacker's body weight has already loaded the joint through the aerial entry. The forces involved are significantly greater than a standard armbar, and explosive escape attempts against these forces can cause catastrophic elbow ligament tears. Tap early, reset, and work on preventing the position from being established in future exchanges."
@@ -90,7 +90,7 @@ description: "How to defend against Flying Armbar in BJJ. Recognition, escape pa
     },
     {
       "@type": "Question",
-      "name": "What posture and arm positioning should you maintain when standing in an opponent's guard to prevent flying armbar attempts?",
+      "name": "What posture and arm positioning prevent flying armbars while you stand in their guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a strong upright posture with your hips back and shoulders over your hips rather than leaning forward. Keep your elbows pinned to your ribs with your hands controlling your opponent's hips, knees, or pants rather than reaching forward for collar or sleeve grips. Never extend both arms simultaneously, and avoid posting on the mat with your hands inside their guard range. Your stance should be wide with slightly bent knees for stability and quick directional movement. This defensive posture eliminates the arm extension and forward weight commitment that flying armbar entries require."

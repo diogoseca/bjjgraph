@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "You pin the near-side hook but the opponent immediately hip escapes and re-inserts it—what adjustment do you need?",
+        "question": "You pin the near hook but they hip escape and re-insert it: what must you adjust?",
         "answer": "Your upper body control was insufficient during the hook pin. When you pinned the hook, the opponent had enough freedom to hip escape because your crossface or collar grip was not keeping their shoulders pinned to the mat. Return to step one and re-establish strong crossface and upper body control before re-attempting the hook pin. Hook elimination only succeeds when the opponent's upper body is controlled enough to prevent significant hip escape movement.",
         "answer_line": "Re-establish crossface first",
         "distractors": {
@@ -330,7 +330,7 @@
         }
       },
       {
-        "question": "Your opponent drops their hooks to shallow depth and starts framing aggressively—should you continue the pass or change approach?",
+        "question": "They drop to shallow hooks and frame hard: continue the pass or change approach?",
         "answer": "Continue the pass. Shallow hooks and frames indicate the opponent is shifting to defensive retention rather than offensive sweeping. Shallow hooks have minimal sweep power, so you can increase forward pressure without significant sweep risk. Drive through the frames with your chest while pinning the shallow hooks with your knees. This is actually the ideal scenario for completing the pass because the opponent has abandoned their offensive guard for a purely defensive posture.",
         "answer_line": "Continue, increase pressure",
         "distractors": {
@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "After completing the pass, you arrive at side control but the opponent immediately frames and shrimps—what went wrong?",
+        "question": "You reach side control and they instantly frame and shrimp: what went wrong?",
         "answer": "Insufficient consolidation during the final phase of the pass. You likely arrived at side control without establishing proper crossface and hip control before the opponent could react. The correction is to establish crossface pressure and hip-to-hip contact simultaneously as you slide into position rather than sequentially. Drop your full weight immediately upon arrival rather than pausing in a high or loose position that allows defensive frames to develop.",
         "answer_line": "No simultaneous crossface+hips",
         "distractors": {
@@ -556,7 +556,7 @@
         }
       },
       {
-        "question": "What determines whether you should attempt a sweep or transition to alternative guard when the pass begins?",
+        "question": "What decides whether you sweep or switch guards when the butterfly pass starts?",
         "answer": "The timing of your recognition determines your options. If you recognize the pass within the first one to two seconds of initiation while both hooks are still active, you have time for a sweep attempt. If one hook is already partially compromised, sweeping becomes risky and transitioning to half guard or knee shield is safer. The quality of your remaining grips also factors in—strong grips with both hooks favor sweep attempts while compromised grips favor immediate guard transitions.",
         "answer_line": "How early you recognize the pass",
         "distractors": {
@@ -570,7 +570,7 @@
         }
       },
       {
-        "question": "Your opponent stands up during their pass attempt, removing your hook elevation angle—what do you do?",
+        "question": "They stand mid-pass, killing your butterfly elevation angle: what do you do?",
         "answer": "Immediately transition from butterfly hooks to X-guard or single leg X-guard by extending one hook underneath their standing leg while gripping their far ankle. Standing removes the butterfly hook elevation angle but creates the distance and leg positioning needed for X-guard entries. The transition must be immediate—if you remain seated with shallow hooks against a standing opponent, they will simply step around your guard. Use your grips to control their posture while you reconfigure your legs.",
         "answer_line": "Transition to X-guard fast",
         "distractors": {

@@ -106,7 +106,7 @@ description: "Learn to execute the arm drag from clinch with precise grip mechan
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully defends the drag by pummeling an underhook - what chain attack do you execute?",
+      "name": "They defend your clinch arm drag by pummeling an underhook. What chain attack follows?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their pummel momentum against them by immediately switching to a duck under on the opposite side. As they drive the underhook in, they momentarily commit weight forward and expose the far side. Alternatively, convert to a snap down by pulling their head downward while their arms are busy pummeling, or switch to a single leg entry underneath their newly committed underhook."

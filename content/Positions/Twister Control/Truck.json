@@ -319,7 +319,7 @@
         "transition": "Bow and Arrow Choke from Truck",
         "attempt_probability": {
           "gi": 10,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -953,7 +953,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the truck position regardless of which player is controlling it?",
+      "question": "What structural configuration defines the truck position for either player?",
       "answer": "The truck is a perpendicular back-side position where one leg is trapped in a figure-four while a boot presses against the opponent's hip. The controlling player sits behind and across the opponent's back rather than squared up, linking the entangled lower body and exposed back as dual control points. This leg-in-front-of-hip geometry and perpendicular angle distinguish the truck from ordinary back control, where both hooks sit symmetrically inside the hips. The figure-four immobilizes the trapped leg independently of the hips, giving the position its signature dual-plane threat.",
       "distractors": {
         "plausible": [
@@ -981,7 +981,7 @@
       }
     },
     {
-      "question": "How does the figure-four leg entanglement create the truck's simultaneous upper-body and lower-body threats?",
+      "question": "How does the truck's figure-four leg trap create both upper-body and lower-body threats?",
       "answer": "The figure-four locks the trapped leg so it cannot straighten or separate, which isolates the lower body on one mechanical plane while the exposed back and neck remain vulnerable on another. Because the leg is immobilized independently of hook placement, the controlling player can attack the calf slicer or banana split by extending or splitting the leg, or pivot to the twister and back attacks against the spine. These threats sit on different planes, so defending one exposes the other. This dual-plane dilemma is the defining dynamic that makes the truck a high-finishing-rate position rather than a mere control pin.",
       "answer_line": "Leg locked, back still exposed",
       "distractors": {

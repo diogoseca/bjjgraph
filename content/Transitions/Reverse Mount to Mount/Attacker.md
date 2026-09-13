@@ -82,7 +82,7 @@ description: "Master the rotation from reverse mount to standard mount. Learn we
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins shrimping to their right side while you are in reverse mount—which direction should you spin and why?",
+      "name": "In reverse mount they shrimp to their right. Which way do you spin, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have two viable options: spin to your left (away from their escape direction) to complete the mount conversion without encountering their frames, or abandon the mount rotation entirely and follow their hip escape toward back control by inserting hooks. If they have already created significant angle, the back take is often higher percentage than forcing the mount rotation against their movement direction."
@@ -90,7 +90,7 @@ description: "Master the rotation from reverse mount to standard mount. Learn we
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail that prevents the opponent from inserting a knee shield during the rotation?",
+      "name": "Which mechanical detail stops a knee shield during the reverse mount to mount rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining constant hip-to-chest pressure throughout the entire rotational arc is the key mechanical detail. The hips must drag across the opponent's sternum without any lift or gap. The inside knee anchored against the ribs serves as the pivot point while the outside leg swings tight against the body. Any lift creates the space needed for knee insertion, so the weight must transfer as a continuous grind rather than a hop-and-land."

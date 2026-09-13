@@ -64,7 +64,7 @@ description: "Defend against the Trap and Roll escape from High Mount. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How should you modify your submission approach from High Mount to prevent Trap and Roll opportunities?",
+      "name": "How do you attack from high mount without giving up trap and roll opportunities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid extending both arms forward simultaneously, which shifts weight to your hands and creates bridging windows. Instead, maintain hip pressure while reaching with one hand at a time, keeping the other hand ready to post or retract. For collar chokes, advance your hips forward as your hands advance to keep weight on their chest. Alternate which arm reaches to prevent the bottom player from establishing the sustained two-on-one grip needed for the trap."

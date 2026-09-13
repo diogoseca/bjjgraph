@@ -56,7 +56,7 @@ description: "How to defend against High Crotch takedown in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important factor that determines whether your sprawl defense will successfully stop a high crotch attempt?",
+      "name": "What most determines whether your sprawl stops a high crotch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Timing is the most important factor. A sprawl executed before the attacker achieves deep penetration will completely stuff the shot, while a sprawl attempted after they have locked their grip and established shoulder position in your hip will be largely ineffective. You must react to the level change cue, not wait until you feel the grip on your leg. Early recognition and immediate hip-drop response is what separates effective sprawlers from those who get taken down consistently."
@@ -64,7 +64,7 @@ description: "How to defend against High Crotch takedown in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent shoots a high crotch with their head on the inside of your body rather than the outside - what defensive opportunity does this create?",
+      "name": "They shoot a high crotch with their head inside — what opportunity does that give you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Inside head position creates an immediate guillotine choke opportunity because their neck is exposed and accessible between your arm and body. Wrap your near arm over their head, clasp your hands in a gable grip under their chin, and squeeze while pulling their head down and driving your hips into their shoulders. Inside head position is a technical error by the attacker that puts them at submission risk, so you should capitalize immediately. Even if the guillotine does not finish, it will stop the takedown."
@@ -88,7 +88,7 @@ description: "How to defend against High Crotch takedown in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "What visual cues should you watch for during grip fighting to anticipate a high crotch shot before it launches?",
+      "name": "In hand fighting, what cues warn you a high crotch shot is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key pre-shot cues include: the opponent suddenly breaking all grips rather than fighting for new ones, which clears their arms for the shot; their eyes dropping from your face to your hips or legs indicating they are measuring distance; a slight bending of their knees that lowers their center of gravity in preparation for the level change; a snap or pull attempt designed to get your weight forward before they reverse direction into the shot; and any sudden explosive movement after a period of relatively calm hand fighting. Recognizing these cues even half a second early gives you enough time to initiate a sprawl before penetration occurs."

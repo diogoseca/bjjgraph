@@ -76,7 +76,7 @@ description: "How to execute Japanese Necktie Setup in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "What is the correct body position during the roll transition, and why is staying on your shoulder important?",
+      "name": "In the Japanese necktie roll, what body position do you use and why stay on your shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should roll to your side through your shoulder, not flat onto your back. This maintains leverage and control while maximizing choking pressure through proper body alignment. Rolling flat onto your back creates space, reduces pressure from your head on their shoulder, and makes it easier for opponent to escape by slipping their head free or turning to face you."
@@ -100,7 +100,7 @@ description: "How to execute Japanese Necktie Setup in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Explain the difference between using arm strength versus body mechanics to finish the Japanese Necktie?",
+      "name": "Why finish the Japanese necktie with body mechanics rather than arm strength?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Relying on arm strength alone leads to quick fatigue and reduced effectiveness, especially against larger or stronger opponents. Proper finishing mechanics involve driving weight through your head into their shoulder, extending hips forward to create full-body pressure, and squeezing elbows together while maintaining tight body connection. The arms hold position and maintain the structure, but the choking force comes from body weight, hip extension, and skeletal alignment rather than muscular contraction in the arms."
@@ -108,7 +108,7 @@ description: "How to execute Japanese Necktie Setup in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "From what positions can the Japanese Necktie Setup be initiated, and what is the common characteristic making it available?",
+      "name": "From which positions can the Japanese necktie be set up, and what do they have in common?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Japanese Necktie can be initiated from turtle, front headlock standing, scramble positions, failed guillotine attempts, and combat base. The common characteristic is having front headlock control where opponent's head is below your chest level and their posture is compromised forward. The setup requires access to thread your arm under their neck from the side, which is available whenever they're defending in a bent-over or turtled position."

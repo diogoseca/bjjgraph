@@ -82,7 +82,7 @@ description: "Complete attacking guide for the knee slice pass against knee shie
     },
     {
       "@type": "Question",
-      "name": "Which two controls must be established simultaneously before the knee shield can be reliably collapsed?",
+      "name": "Which two controls must be set together to reliably collapse the knee shield?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface and the shield-leg ankle grip must be established together. The crossface breaks the head-shoulder-hip alignment that gives the shield its rigidity, while the ankle grip prevents the opponent from re-angling or re-inserting the shield. With only one control in place, the opponent retains enough mobility to defend and reset their frame; with both established, the shield becomes a non-functional limb you can bypass with the diagonal knee drive while keeping your hips low and heavy."
@@ -98,7 +98,7 @@ description: "Complete attacking guide for the knee slice pass against knee shie
     },
     {
       "@type": "Question",
-      "name": "Your opponent pushes their knee shield strongly into your chest as you attempt the slice—how do you adjust?",
+      "name": "They drive the knee shield hard into your chest as you slice: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not push back into the shield with matching force. Instead, angle your body to redirect the shield's force away from your centerline. Control their ankle to limit the shield's range of adjustment. Increase crossface pressure to break their postural alignment, which weakens the shield from the foundation. If the shield remains impenetrable, switch to a complementary pass like the long step or backstep that changes the angle of attack entirely rather than burning energy fighting a strong frame."
@@ -114,7 +114,7 @@ description: "Complete attacking guide for the knee slice pass against knee shie
     },
     {
       "@type": "Question",
-      "name": "Your opponent frames on your bicep and begins hip escaping during the knee slice—what is your immediate response?",
+      "name": "They frame your bicep and hip escape during your knee slice: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately strip or swim past the bicep frame using your elbow to clear their hand, then re-establish forward pressure. Do not allow the hip escape to create distance—follow their hip movement with your own hips and maintain chest connection. If they create significant angle through the hip escape, consider switching to a long step pass that capitalizes on the new angle rather than fighting to return to the original passing line. Control their far hip with your free hand to limit further hip escape distance."
@@ -409,6 +409,14 @@ The knee slice pass involves significant pressure through the opponent's torso a
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Lucas-Lepri-Knee-Cut-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri Knee Cut System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Related knee barrier problem</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

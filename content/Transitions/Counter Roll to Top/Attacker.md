@@ -114,7 +114,7 @@ description: "How to execute Counter Roll to Top reversal from Gift Wrap Bottom 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins attacking the rear naked choke while you are planning a Counter Roll - should you proceed?",
+      "name": "They start a rear naked choke while you plan the Counter Roll from Gift Wrap — proceed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Never attempt the Counter Roll when a rear naked choke is actively being locked in. The rotational movement can actually tighten the choke and accelerate the submission. Address choke defense first through two-on-one hand fighting and chin tuck. Only consider the Counter Roll after neutralizing the immediate choke threat, when the opponent shifts to a different attack."

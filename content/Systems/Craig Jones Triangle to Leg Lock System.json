@@ -1,0 +1,271 @@
+{
+  "name": "Craig Jones Triangle to Leg Lock System",
+  "description": "Explore triangle-to-leg-lock decisions through Craig Jones course guidance, coached practice ideas, and linked positions for a connected no-gi submission game.",
+  "summary": "The Craig Jones Triangle to Leg Lock System is a BJJGraph study guide for connecting upper-body submission threats with controlled leg-entanglement opportunities.",
+  "overview": "Systematic Submission Dilemmas is a focused instructional companion for studying triangles alongside leg attacks. Craig Jones's published syllabus includes transitions between these families and commentary on grappling exchanges. This guide concentrates on choosing a branch rather than treating every defended triangle as an automatic leg entry.\n\nThe practice sequence is BJJGraph's own study plan, not an official course syllabus. It assumes familiarity with the starting positions and access to coaching for the actual techniques. Begin with one triangle situation and one leg-control destination. If the required connection disappears, retaining guard or resetting may be the more useful decision. The goal is a better explanation of the exchange, not a promise that either submission must succeed.",
+  "tags": [
+    "bjj",
+    "system",
+    "no-gi",
+    "triangle",
+    "leg-locks"
+  ],
+  "system_type": "Submission Chain",
+  "difficulty_level": "Advanced",
+  "key_principles": [
+    "Identify the defensive reaction before deciding whether to change attacks.",
+    "Keep a positional fallback when neither submission branch is supported.",
+    "Treat reaching an entanglement and finishing a submission as separate skills.",
+    "Use a small set of familiar positions before adding more variations.",
+    "Agree permitted submissions and reset signals before the round.",
+    "Evaluate the quality of a decision independently from whether it produced a tap."
+  ],
+  "key_components": [
+    {
+      "component_name": "Starting triangle situation",
+      "description": "Select a triangle entry or control that both partners already understand and can practise without rushing the finish.",
+      "purpose": "Give the decision exercise a familiar upper-body starting point."
+    },
+    {
+      "component_name": "Reaction identification",
+      "description": "Ask the defender to show an agreed response and have the attacker describe what remains controlled.",
+      "purpose": "Make the reason for switching visible to both partners."
+    },
+    {
+      "component_name": "Leg-control destination",
+      "description": "Choose a single leg entanglement with a coach and identify the requirements for reaching it without an uncontrolled scramble.",
+      "purpose": "Separate an entry decision from submission finishing pressure."
+    },
+    {
+      "component_name": "Fallback position",
+      "description": "Name a guard or other position to recover when the intended entry no longer has adequate control.",
+      "purpose": "Keep an unsuccessful branch from becoming a forced attack."
+    },
+    {
+      "component_name": "Exchange review",
+      "description": "Record the reaction, selected branch and resulting position after each short practice sequence.",
+      "purpose": "Build a usable decision map from observed rounds."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Set the boundaries",
+      "description": "Agree which leg attacks are permitted in this session, a comfortable starting position and an immediate reset signal."
+    },
+    {
+      "step_number": 2,
+      "phase": "Rehearse the starting control",
+      "description": "Practise the triangle situation cooperatively. Use a coach's feedback to resolve uncertainty before adding a transition."
+    },
+    {
+      "step_number": 3,
+      "phase": "Identify one response",
+      "description": "Let the defender give one agreed reaction. Pause and describe whether the original control remains useful."
+    },
+    {
+      "step_number": 4,
+      "phase": "Select the branch",
+      "description": "Choose between maintaining the current position, moving toward the selected leg control, or recovering guard. Avoid forcing a preset chain."
+    },
+    {
+      "step_number": 5,
+      "phase": "Confirm the destination",
+      "description": "End the repetition at a stable position, with no finishing pressure needed to count the entry. Reset if either partner is unsure."
+    },
+    {
+      "step_number": 6,
+      "phase": "Vary and review",
+      "description": "Add a second reaction, then compare the resulting decisions. Review the relevant course demonstration when the same control problem repeats."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The attacker switches simply because a triangle did not finish.",
+      "solution": "Require a named defensive reaction and a clear destination before rehearsing the switch."
+    },
+    {
+      "obstacle": "Every round ends in a scramble with no identifiable position.",
+      "solution": "Stop at the first lost connection and simplify the entry with coaching."
+    },
+    {
+      "obstacle": "The pair cannot agree whether the leg entry succeeded.",
+      "solution": "Define the target control before starting and score the position without a submission finish."
+    },
+    {
+      "obstacle": "The practitioner collects variations without retaining a reliable branch.",
+      "solution": "Keep one starting triangle and one destination until their decision requirements can be explained."
+    },
+    {
+      "obstacle": "The course is assumed to cover every leg-to-back chain.",
+      "solution": "Use this guide for triangle-to-leg decisions and consult separate back-attack material for a different objective."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Reaction recognition",
+      "description": "Check whether the attacker can explain the response that prompted a change.",
+      "proficiency_indicators": [
+        "Names an observed reaction",
+        "Distinguishes a reaction from a lost grip",
+        "Can explain why staying put was also an option"
+      ]
+    },
+    {
+      "metric_name": "Destination clarity",
+      "description": "Evaluate whether both partners recognise the end of the entry drill.",
+      "proficiency_indicators": [
+        "Names the intended position",
+        "Stops at stable control without finishing pressure",
+        "Resets when the destination is not achieved"
+      ]
+    },
+    {
+      "metric_name": "Fallback selection",
+      "description": "Review what happens when neither attacking branch remains available.",
+      "proficiency_indicators": [
+        "Can identify a guard-recovery option",
+        "Does not chase a loose limb through a scramble",
+        "Can describe the next study problem"
+      ]
+    },
+    {
+      "metric_name": "Practice consistency",
+      "description": "Assess whether the drill stays within the pair's agreed scope.",
+      "proficiency_indicators": [
+        "Uses agreed submissions only",
+        "Responds immediately to stop signals",
+        "Separates technical uncertainty from resistance"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "This is BJJGraph's suggested decision drill. Use cooperative repetitions with a coach-approved triangle situation and one leg-control destination. Pause after the defensive reaction, name the available choices and end the repetition at the selected position. Keep finishing pressure out of the entry drill. Add resistance only when both partners recognise the transitions and the reset conditions.",
+    "progression_path": [
+      {
+        "stage": "Orient",
+        "focus": "Choose a familiar starting triangle and review the permitted techniques with a coach."
+      },
+      {
+        "stage": "Recognise",
+        "focus": "Identify one defensive response without attempting to win the exchange."
+      },
+      {
+        "stage": "Connect",
+        "focus": "Rehearse one entry and one fallback with clear stopping points."
+      },
+      {
+        "stage": "Decide",
+        "focus": "Allow another agreed reaction and compare the branch selected in each case."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming every defended triangle exposes a leg attack.",
+      "Adding several unfamiliar entanglements to a single drill.",
+      "Judging an entry only by whether a submission follows."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Triangle Control",
+      "content_type": "Position",
+      "relationship": "The upper-body control reference for the starting situation."
+    },
+    {
+      "name": "Triangle Choke",
+      "content_type": "Submission",
+      "relationship": "Background study for the triangle branch."
+    },
+    {
+      "name": "Ashi Garami",
+      "content_type": "Position",
+      "relationship": "A leg-entanglement reference to review with a coach."
+    },
+    {
+      "name": "X-Guard",
+      "content_type": "Position",
+      "relationship": "A neighbouring guard position relevant to evaluating transitions."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "A familiar guard context for upper-body attacks."
+    },
+    {
+      "name": "Open Guard",
+      "content_type": "Position",
+      "relationship": "A guard-recovery and transition context."
+    },
+    {
+      "name": "Straight Ankle Lock",
+      "content_type": "Submission",
+      "relationship": "A separate finishing topic after positional entry is understood."
+    },
+    {
+      "name": "Kneebar",
+      "content_type": "Submission",
+      "relationship": "Another finishing topic whose requirements should be studied separately."
+    },
+    {
+      "name": "Action and Reaction",
+      "content_type": "Principle",
+      "relationship": "The conceptual basis for choosing a branch."
+    },
+    {
+      "name": "Submission Chains",
+      "content_type": "Principle",
+      "relationship": "Explains the relationship between connected threats."
+    },
+    {
+      "name": "Leg Entanglement",
+      "content_type": "Principle",
+      "relationship": "Provides concepts for assessing lower-body control."
+    },
+    {
+      "name": "Craig Jones Leg Lock System",
+      "content_type": "System",
+      "relationship": "Further study of Craig Jones's leg-attack material."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Does a defended triangle automatically justify a leg-lock entry?",
+      "answer": "No. First identify the reaction and the remaining connections; recovering guard may be more appropriate than forcing the next attack."
+    },
+    {
+      "question": "What should define success in an entry-only practice round?",
+      "answer": "Both partners should recognise the agreed leg-control destination; no finishing pressure is required to establish that the entry was completed."
+    },
+    {
+      "question": "Why include a fallback when practising a submission dilemma?",
+      "answer": "A fallback provides a useful choice when neither attacking branch retains sufficient control and discourages chasing an unavailable submission."
+    },
+    {
+      "question": "What should partners agree before practising this system?",
+      "answer": "Agree the starting position, permitted submissions, stopping points and reset signals so the exercise stays within their coached experience."
+    },
+    {
+      "question": "How should you expand the drill after one reaction becomes familiar?",
+      "answer": "Add a second agreed reaction and compare the decisions it produces before adding more submission variations or destinations."
+    },
+    {
+      "question": "What is the role of the linked course compared with this guide?",
+      "answer": "The course supplies the instructor's technical demonstrations; this page supplies BJJGraph practice suggestions and links for organising study."
+    }
+  ],
+  "products": [
+    {
+      "id": "systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones",
+      "title": "Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos",
+      "instructor": "Craig Jones",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Connects triangle attacks with lower-body entanglements rather than treating each submission as an isolated finish.",
+      "best_for": "Experienced no-gi students who already practise triangles and leg control with a coach; the course includes advanced leg attacks.",
+      "study_focus": "Compare the triangle-to-leg transitions in volume six with the commentary in volume eight.",
+      "practice_tip": "BJJGraph suggestion: pause after a defensive reaction, name the available control position, then reset if neither branch is secure. Agree allowed leg attacks beforehand."
+    }
+  ]
+}

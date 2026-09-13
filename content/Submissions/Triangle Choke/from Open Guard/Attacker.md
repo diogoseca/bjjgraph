@@ -76,7 +76,7 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the triangle choke primarily attack, and how does the figure-four leg configuration create the choking mechanism?",
+      "name": "What does the triangle choke attack, and how does the figure-four create the choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The triangle choke attacks both carotid arteries through bilateral compression. The choking leg's inner thigh presses against one carotid while the opponent's own trapped shoulder is driven into the opposite carotid by the squeeze of the legs. The figure-four configuration creates a mechanical lock where squeezing the knees together simultaneously compresses both sides of the neck. This is a blood choke, not an air choke—it restricts blood flow to the brain rather than blocking the airway, causing unconsciousness in 4-6 seconds of full compression."
@@ -84,7 +84,7 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up strongly while you have the triangle locked but have not yet cut the angle—what immediate adjustment prevents escape?",
+      "name": "Your opponent postures in your locked triangle before you cut the angle: what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, pull down on the back of their head with both hands or grab your own shin to create a structural barrier against their posturing. Simultaneously, squeeze your knees together to tighten the lock and hook your free leg over their back to pull them forward. If they continue posturing, use their upward movement to pivot your hips and cut the angle—their posture attempt actually creates space for you to rotate. If posture control is lost entirely, immediately transition to armbar by swinging your leg over their face, as their extended posture isolates the trapped arm perfectly."
@@ -92,7 +92,7 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What is the single most important factor that determines whether a locked triangle will produce a tap or become a stalling position?",
+      "name": "What single factor decides whether a locked triangle finishes or stalls?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The perpendicular angle of your body relative to the opponent's shoulder line is the single most important finishing factor. Without proper angle cutting—walking your shoulders away from the opponent until your body is approximately perpendicular to theirs—the choking leg cannot properly compress the carotid artery. A square-on triangle applies pressure to the trachea rather than the carotids, which is painful but not fight-ending. Even moderate squeeze with perfect angle produces faster taps than maximum squeeze with poor angle."
@@ -100,7 +100,7 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "You have locked the triangle but your opponent has stacked you onto your shoulders and is driving forward—how do you recover the finishing position?",
+      "name": "Your opponent stacks you onto your shoulders in your triangle: how do you recover the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame on their hip with one hand to prevent them from fully flattening you while maintaining head control with your other hand. Turn your body to the side rather than accepting the stack square-on—this relieves spinal compression and actually increases triangle pressure. If you can get to your side, the triangle becomes tighter due to the angle created. If the stack is severe, consider transitioning to omoplata by pivoting your hips under their forward pressure, which converts their stacking momentum into your submission setup. Never accept the stack passively."
@@ -108,7 +108,7 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What visual and tactile indicators tell you the triangle is properly positioned for a finish versus needing adjustment?",
+      "name": "What signs tell you the triangle is finish-ready rather than needing adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The triangle is finish-ready when your inner thigh seals one side of their neck with no gap and their trapped shoulder drives into the opposite carotid. You should also be angled perpendicular to their shoulders and able to feel their pulse against your inner thigh. Adjust if you can see space between your thigh and their neck, if their chin is tucked into the triangle creating a pocket of space, if your body is still square to theirs, or if you feel pressure on the front of their throat rather than the sides of the neck."
@@ -116,7 +116,7 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands together inside the triangle to create a frame and prevent you from finishing—how do you break this grip and continue?",
+      "name": "Your opponent clasps their hands inside your triangle: how do you break it and continue?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pry inside their clasped arms with both hands, strip the wrist toward your hip while squeezing your knees, or bypass the grip with a kimura or armbar. To pry, insert both hands between their arms and lever outward; to strip, grab their wrist with both hands and pull it toward your hip as your knees squeeze to add pressure on the grip. If the grip is very strong, don't fight it—attack the arms directly by applying a kimura grip on the clasped wrist closest to you, or extending your hips to straighten their arm for an armbar. The clasping defense immobilizes both of their arms, which makes them vulnerable to arm attacks from within the triangle."

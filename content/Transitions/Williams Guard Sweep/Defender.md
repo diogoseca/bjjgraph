@@ -56,7 +56,7 @@ description: "Learn to defend and counter the Williams Guard Sweep in BJJ. Recog
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a Williams Guard Sweep is being initiated rather than a shoulder lock submission attempt?",
+      "name": "What earliest cue tells you a Williams Guard Sweep, not a shoulder lock finish, is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent's hip escape toward the controlled arm side, creating an angled body position rather than remaining square. A shoulder lock submission attempt typically involves staying square and increasing rotational pressure on the arm. The hip angle change signals sweep setup because it aligns the opponent's body with a sweep direction and creates space for butterfly hook insertion. Recognizing this distinction allows you to address the sweep threat before the hook establishes."
@@ -64,7 +64,7 @@ description: "Learn to defend and counter the Williams Guard Sweep in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "How should you distribute your weight when defending the Williams Guard Sweep and why is base width critical?",
+      "name": "Defending the Williams Guard Sweep, how should you carry weight and why is base width critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drop your center of gravity by bending at the knees rather than the waist, and widen your base by spreading your knees apart. Weight should be distributed through your legs and hips rather than leaning forward onto your hands. Base width is critical because the sweep generates rotational force—a narrow base provides a shorter lever arm that the hook elevation easily overcomes, while a wide base requires significantly more force to overturn and gives you more room to absorb the sweep attempt."
@@ -72,7 +72,7 @@ description: "Learn to defend and counter the Williams Guard Sweep in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Your opponent has elevated you with a butterfly hook and the sweep is mid-execution—what immediate response prevents completion?",
+      "name": "The butterfly hook has elevated you mid Williams Guard Sweep — what stops it now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free hand on the mat on the far side and simultaneously drive your hips back down by straightening the hooked leg to strip the hook. If the elevation is too far advanced for this, redirect by turning into the sweep direction to land in a scramble rather than giving up clean mount. The critical action is preventing the opponent from following through to full mount—even landing in side control or half guard is preferable to conceding mount."

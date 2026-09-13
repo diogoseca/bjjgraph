@@ -82,7 +82,7 @@ description: "How to establish overhook guard from closed guard bottom in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "What grip depth is required for the overhook to be effective, and how do you verify it is deep enough?",
+      "name": "How deep must the overhook be from closed guard, and how do you check it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hand must reach behind the opponent's shoulder blade to grip their lat muscle or the far side of their back. The overhook should sit in the crook of your elbow, not on your forearm. To verify depth, test by pulling your elbow toward your hip - if you can rotate their shoulder forward and down, the grip is deep enough. If they can straighten their arm and slide it free, the grip is too shallow and must be re-established before attempting attacks."
@@ -90,7 +90,7 @@ description: "How to establish overhook guard from closed guard bottom in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps their elbows pinned tight to their sides, denying you access to thread the overhook. How do you create the opening?",
+      "name": "They keep elbows pinned tight, denying the overhook from closed guard: how do you open it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a strong collar pull with both hands to snap their posture down aggressively. As they fall forward, at least one arm must extend to prevent face-planting into your chest. Alternatively, attack the opposite arm with a wrist drag or kimura grip to force a reaction on the overhook side. You can also push their elbow outward with your palm from inside the guard, or threaten a hip bump sweep that forces them to post a hand, exposing the arm for the overhook."
@@ -98,7 +98,7 @@ description: "How to establish overhook guard from closed guard bottom in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "Why must you establish secondary control on the opponent's free arm, and what happens if you skip this step?",
+      "name": "Why control their free arm in overhook guard, and what happens if you skip it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Without secondary control, the opponent's free arm can post on the mat to defend sweeps, frame against your chest to create distance and recover posture, or establish a crossface that flattens your angle and neutralizes the overhook's leverage advantage. The free arm is essentially their remaining defensive tool - controlling it with collar, sleeve, or wrist grip completes the control system and makes your sweeps and submissions significantly higher percentage."
@@ -106,7 +106,7 @@ description: "How to establish overhook guard from closed guard bottom in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "What direction should your hips move after establishing the overhook, and why is this angle critical?",
+      "name": "After getting the overhook, which way do your hips move and why does that angle matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip escape toward the overhook side to create a 30-45 degree angle. This angle is critical because it places the opponent's trapped shoulder further from their center of gravity, amplifying the rotational leverage of every sweep attempt. From a flat, square position the overhook provides only pulling control. With the angle, it creates rotational force that can roll them over the trapped shoulder. The angle also improves triangle and omoplata entries by pre-positioning your hips for leg attacks."
@@ -114,7 +114,7 @@ description: "How to establish overhook guard from closed guard bottom in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "Your overhook is established but the opponent begins driving forward to stack you. How do you use their pressure offensively?",
+      "name": "You have the overhook and they drive forward to stack you: how do you use that pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their forward drive is energy you redirect rather than resist. Pivot your hips further toward the overhook side and shoot your outside leg over their shoulder for a triangle, or swing it across their back for an omoplata. Their stacking momentum actually assists your hip rotation into these submissions. Alternatively, if you maintain the overhook and frame their opposite shoulder, their stacking pressure loads your hips for an overhook sweep by creating the weight commitment you need to roll them."

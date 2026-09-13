@@ -308,7 +308,7 @@
         }
       },
       {
-        "question": "Your opponent clamps their elbows tight and refuses to extend any arm—what do you do to create the entry?",
+        "question": "They clamp both elbows tight, denying the Technical Mount entry from 3-4 Mount—what do you do?",
         "answer": "Apply sustained crossface pressure to force them to turn away from the discomfort, which naturally extends the far arm. Alternatively, threaten an Americana or Ezekiel choke to force a defensive arm reaction that creates the extension you need. You can also simply maintain heavy 3-4 Mount pressure and threaten the S-Mount transition on the other side—the bottom player cannot defend both directions simultaneously, and eventually one arm will extend to address a threat.",
         "answer_line": "Crossface or threaten a submission",
         "distractors": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "The transition is blocked because your opponent frames against your hip with their free arm—what chain attack opens up?",
+        "question": "Entering Technical Mount, they frame on your hip with the free arm—what chain attack opens up?",
         "answer": "Their framing arm is now extended and exposed. Swim your hand underneath their forearm to establish a gift wrap control, trapping their arm across their own body. This gift wrap gives you superior control for completing the Technical Mount transition with both arms now controlled, or you can redirect to attack the newly exposed framing arm with an Americana. Their defensive frame becomes your offensive opportunity—this is the cascading dilemma principle in action.",
         "answer_line": "Swim under to gift wrap the arm",
         "distractors": {
@@ -364,7 +364,7 @@
         }
       },
       {
-        "question": "You successfully reach Technical Mount but your inside hook is shallow and the opponent begins sliding their hips away—how do you recover?",
+        "question": "In Technical Mount your inside hook is shallow and their hips slide away—how do you recover?",
         "answer": "Immediately drive your inside hook deeper by scooping your foot underneath their lower back or hip, pulling their body back toward you with the hook. Simultaneously increase forward pressure with your chest onto their shoulder to pin them in place while you adjust. If the hook cannot be recovered, abandon Technical Mount and drop your weight back into consolidated mount or knee on belly before they complete the escape. A shallow hook that allows hip movement will progressively worsen—fix it immediately or transition out.",
         "answer_line": "Deepen the hook, add chest pressure",
         "distractors": {
@@ -378,7 +378,7 @@
         }
       },
       {
-        "question": "How do you determine whether to pursue the armbar or the back take once Technical Mount is established?",
+        "question": "In Technical Mount, how do you choose between the armbar and the back take?",
         "answer": "Read the opponent's shoulder orientation. If they remain flat or turn toward you with their shoulder on the mat, the armbar is available—their arm is extended and their body is aligned for the swing-over finish. If they turn away from you, exposing their back and pulling their arm toward their body, abandon the armbar immediately and transition to back control by following their rotation with seat belt grip and hook insertion. The opponent's defensive choice determines your attack—never force one option when the other is clearly presented.",
         "answer_line": "Shoulder direction picks attack",
         "distractors": {
@@ -496,7 +496,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest recognition cues that your opponent is transitioning from 3-4 Mount to Technical Mount?",
+        "question": "What are the earliest cues that they are moving from 3-4 Mount to Technical Mount on you?",
         "answer": "The earliest cue is their hands shifting from general pressure to specifically targeting one of your arms with a two-on-one grip on your wrist and elbow. Following this, you will feel increased forward weight shift onto your upper chest and shoulders as they prepare for leg repositioning. The posted knee will begin sliding upward along the mat rather than staying in its static outside position. Recognizing the arm isolation attempt is the earliest and most important signal.",
         "answer_line": "Two-on-one grip on your arm",
         "distractors": {
@@ -566,7 +566,7 @@
         }
       },
       {
-        "question": "The attacker has already secured arm control and begun sliding their knee—what is your last-resort defensive option?",
+        "question": "They have your arm and are sliding their knee toward Technical Mount—what is your last resort?",
         "answer": "Once arm control is established and the knee is moving, your best option is an explosive bridge timed to the exact moment their posted leg lifts off the mat during repositioning. Bridge toward the mounted side and immediately shrimp your hips away to insert a knee shield for half guard recovery. If the bridge fails to dislodge them, immediately grip your own wrist with your free hand to create a gable grip on the controlled arm, preventing full extension and buying time to work escapes from the now-established Technical Mount.",
         "answer_line": "Timed bridge, then gable grip",
         "distractors": {
@@ -580,7 +580,7 @@
         }
       },
       {
-        "question": "How should you adjust your defensive strategy if the attacker uses the turn-chase variant with heavy crossface pressure?",
+        "question": "How do you defend the turn-chase Technical Mount variant with heavy crossface pressure?",
         "answer": "When the attacker drives crossface to force you to turn, resist the urge to turn away. Instead, frame against their crossface shoulder with your near-side forearm and use the opposite hand to control their wrist or sleeve on the crossface side. Bridge into the crossface pressure rather than away from it, which disrupts their ability to generate the turning force. If you are forced to turn despite resistance, turn into the attacker to establish an underhook rather than away, which denies the arm exposure they need and creates a path to recover half guard with offensive underhook control.",
         "answer_line": "Frame in, bridge into pressure",
         "distractors": {

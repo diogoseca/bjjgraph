@@ -72,7 +72,7 @@ description: "How to defend against De La Riva Sweep in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep DLR hook and strong sleeve grip - you feel them beginning to extend the hook. What is your immediate emergency response?",
+      "name": "Their DLR hook is deep and extending with a strong sleeve grip. What is your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free hand on the mat toward the direction you are being swept to create an emergency base point. Simultaneously drive your hooked knee toward the mat to flatten their hips and reduce the hook's leverage. This buys you time to then strip the sleeve grip and extract your leg. The posting hand is your emergency brake while the knee drive addresses the root cause of the sweeping force."

@@ -98,7 +98,7 @@ description: "Learn to execute the transition to Butterfly Hook Control. Step-by
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the strongest connection between upper and lower body for butterfly hook control?",
+      "name": "Which grip setup best links upper and lower body for butterfly hook control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The strongest configuration is a collar grip on one side combined with an underhook on the opposite side. The collar grip provides pulling force that directs the opponent's weight onto the same-side hook for sweeps, while the underhook prevents posting on that side and creates an arm drag threat to the back. In no-gi, a collar tie replaces the collar grip and a wrist control or two-on-one replaces the underhook, maintaining similar directional control."
@@ -114,7 +114,7 @@ description: "Learn to execute the transition to Butterfly Hook Control. Step-by
     },
     {
       "@type": "Question",
-      "name": "How do you maintain connection to the opponent during the most vulnerable phase of consolidation when inserting the second hook?",
+      "name": "How do you stay connected while inserting the second butterfly hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first hook and your primary grip serve as anchors during second hook insertion. Use a brief elevation on the first hook to shift the opponent's weight and create space under the opposite thigh for the second hook. Your grip prevents the opponent from disengaging during this moment. Never release your existing controls to reach for the second hook—instead, use hip movement and the elevation from the first hook to create the insertion angle while maintaining all current connections."

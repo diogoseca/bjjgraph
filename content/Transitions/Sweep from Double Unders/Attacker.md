@@ -80,7 +80,7 @@ description: "Complete guide to executing the Sweep from Double Unders as the bo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the overhead sweep variant from double unders bottom?",
+      "name": "When should you initiate the overhead sweep from double unders bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is the moment the opponent commits maximum forward stacking pressure, driving their weight past your centerline. At this point their center of gravity has moved beyond their base of support, making them vulnerable to being tipped overhead. Attempting the sweep before this commitment meets too much resistance, and attempting after they settle into a stacked position means their weight is already stabilized. You must read the forward drive as it happens and execute simultaneously with their maximum pressure commitment."
@@ -112,7 +112,7 @@ description: "Complete guide to executing the Sweep from Double Unders as the bo
     },
     {
       "@type": "Question",
-      "name": "What conditions must exist before you should attempt the sweep rather than pursuing guard recovery or deep half entry?",
+      "name": "What conditions must exist before sweeping from double unders instead of recovering guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sweep should be attempted when three conditions align: you have secure grip control on the opponent's hips or belt, the opponent is actively driving forward pressure rather than settled statically, and your hips retain enough mobility to generate explosive bridging or extension power. If any condition is missing, guard recovery through framing or deep half entry is the safer option. Additionally, the sweep should not be your first response to double unders - establish frames first, then transition to sweep grips if the opportunity presents. Attempting the sweep as your primary response without frames as backup creates excessive risk."
@@ -120,7 +120,7 @@ description: "Complete guide to executing the Sweep from Double Unders as the bo
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your sweep attempt if the opponent drives through aggressively rather than being swept?",
+      "name": "How do you adjust the double unders sweep if they drive through aggressively instead of being swept?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent accelerates their drive through your sweep attempt, you must immediately abandon the sweep and transition to an alternative escape. The most effective option is deep half guard entry on the side they are passing toward, using their forward drive as momentum for your rotation underneath their hips. Thread your bottom arm under their near leg and commit to rotating your body underneath them. Alternatively, if deep half is not available, granby roll away from the passing direction toward turtle position. The key is recognizing the failed sweep early and not continuing to fight for a reversal that has already been neutralized."

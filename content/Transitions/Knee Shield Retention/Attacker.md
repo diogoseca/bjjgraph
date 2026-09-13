@@ -74,7 +74,7 @@ description: "How to execute Knee Shield Retention in BJJ. Attacking perspective
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is staying on your side crucial for knee shield retention rather than allowing yourself to flatten to your back?",
+      "name": "Knee shield half guard: why stay on your side rather than flatten to your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Staying on your side maintains hip mobility and allows you to adjust angles and create distance through hip escapes. When flattened to your back, you lose this mobility and your shield becomes a static barrier that can be easily collapsed. Being on your side also allows you to see your opponent clearly and react to their movements, while being flat limits your vision and defensive options."
@@ -82,7 +82,7 @@ description: "How to execute Knee Shield Retention in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "What is the relationship between your knee shield and your bottom leg control, and why must both work together?",
+      "name": "Knee shield half guard: how do the shield and your bottom leg work together?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee shield controls opponent's upper body and creates distance, while the bottom leg prevents them from extracting their trapped leg. These must work in coordination because if you only focus on the shield, opponent can simply step their leg out and pass around. If you only focus on bottom leg control without the shield, opponent can drive chest-to-chest pressure and flatten you. They form a complete system where upper body distance management and lower body positional control work together."
@@ -90,7 +90,7 @@ description: "How to execute Knee Shield Retention in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your knee shield angle when opponent attempts to drive straight versus when they circle around the shield?",
+      "name": "How do you adjust knee shield angle against straight pressure versus them circling the shield?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against straight pressure, angle your shield across their chest perpendicular to their body, creating maximum barrier. When they circle around the shield, you must rotate your hips and redirect your knee to intercept their new angle of attack, essentially following their movement like a radar dish. If they circle to your head side, push your knee more toward their far shoulder. If they circle to your leg side, bring your knee more across their chest and prepare to transition to butterfly or deep half."
@@ -98,7 +98,7 @@ description: "How to execute Knee Shield Retention in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Why is grip control on opponent's arms considered equally important to the physical shield structure itself?",
+      "name": "Knee shield retention: why is arm and grip control as important as the shield itself?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee shield creates distance in your lower body, but without arm control, opponent can establish crossface or underhook which gives them the leverage to collapse your shield structure. Controlling their sleeve or wrist prevents them from establishing these dominant grips. The complete retention system is shield plus arm control - the shield manages distance while arm control prevents them from getting the grips they need to break through that distance."
@@ -106,7 +106,7 @@ description: "How to execute Knee Shield Retention in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "When should you abandon knee shield retention and transition to a different guard retention strategy?",
+      "name": "When should you abandon the knee shield and switch to another retention strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when opponent has successfully established crossface with heavy pressure, when they have secured deep underhook with chest-to-chest control, or when your shield has been collapsed and you're being flattened. Fighting to maintain a compromised shield wastes energy. Better to recognize when retention has failed early enough to transition smoothly to lockdown, deep half, or other retention structure rather than waiting until you're completely flat."
@@ -114,7 +114,7 @@ description: "How to execute Knee Shield Retention in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "How does proper knee shield retention create offensive opportunities rather than being purely defensive?",
+      "name": "How does knee shield retention create offense rather than being purely defensive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent commits pressure against your shield, it creates predictable reactions you can exploit. If they drive hard forward, their weight distribution sets up Old School sweep. If they stand up to avoid shield pressure, it creates space for deep half guard entry or technical standup. If they circle around the shield, it opens back take opportunities. The shield acts as a probe that forces opponent to make decisions, and each decision creates specific offensive entries. High-level knee shield is about creating a platform for attacks."
@@ -431,7 +431,7 @@ Knee Shield Retention is a relatively safe technique with minimal injury risk wh
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Defensive transition maintaining knee shield positional integrity</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Defensive transition maintaining knee shield positional integrity</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

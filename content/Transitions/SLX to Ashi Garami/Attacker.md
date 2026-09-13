@@ -80,7 +80,7 @@ description: "Complete attacker guide for the SLX to Ashi Garami transition. Ste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent is well-based in SLX top and you cannot off-balance them for a direct ashi entry—what setup creates the reaction window you need?",
+      "name": "They're well based in SLX top—what setup creates the reaction window for an ashi entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Initiate a committed sweep threat by extending your hooks and pulling their upper body forward with sleeve or collar control. When they post their hand or shift weight backward to defend the sweep, that defensive reaction creates a 1-2 second window where their weight is transitioning and their leg becomes vulnerable. Immediately redirect from sweep to ashi entry during this reaction window. The key is the sweep threat must be genuine—a half-hearted attempt will not generate a meaningful defensive reaction."
@@ -88,7 +88,7 @@ description: "Complete attacker guide for the SLX to Ashi Garami transition. Ste
     },
     {
       "@type": "Question",
-      "name": "What is the single most critical grip to establish before initiating any leg repositioning in this transition?",
+      "name": "Which grip must you secure before repositioning your legs from SLX to ashi garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The C-grip on the opponent's heel is the most critical grip. Four fingers wrap around the heel bone with the thumb positioned on the Achilles tendon. This grip must be secured while the hip hook is still providing structural control. Without heel control, any leg repositioning creates an uncontrolled gap that allows immediate extraction. Every other element of the transition depends on this grip being in place first."
@@ -96,7 +96,7 @@ description: "Complete attacker guide for the SLX to Ashi Garami transition. Ste
     },
     {
       "@type": "Question",
-      "name": "You begin the transition but your opponent starts pulling their heel free—how do you respond to save the entry?",
+      "name": "They start pulling their heel free mid SLX-to-ashi entry—how do you save it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately scoot your hips forward to follow their retreating leg, maintaining whatever grip pressure you have on the heel. Simultaneously clamp your legs tighter around their thigh to prevent full extraction. If they continue pulling, follow their movement aggressively rather than reaching with extended arms—your body follows the leg. If the heel grip breaks completely, abort the ashi attempt and re-engage SLX hooks or transition to a different guard rather than chasing a lost grip."
@@ -112,7 +112,7 @@ description: "Complete attacker guide for the SLX to Ashi Garami transition. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent recognizes the ashi entry and drives heavy pressure downward to pin your hips—what adjustment allows you to complete the transition?",
+      "name": "They drive heavy pressure down to pin your hips as you enter ashi—what's the adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When they drive downward, use their forward pressure against them by angling your hips to the side rather than accepting the pressure directly. If they commit their weight forward, this actually increases their vulnerability to being off-balanced laterally. Frame against their chest with your free hand while maintaining heel control, then use a hip escape to create the angle needed to thread your inside leg across their hip. Their forward drive often means their base is narrow laterally, making the side-angle entry more effective."
@@ -120,7 +120,7 @@ description: "Complete attacker guide for the SLX to Ashi Garami transition. Ste
     },
     {
       "@type": "Question",
-      "name": "After successfully achieving Inside Ashi-Garami from this transition, what is your immediate priority before threatening any submission?",
+      "name": "Once you hit inside ashi from SLX, what comes before threatening any submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to verify all four control points are secure: inside leg across their hip with foot on far side, outside leg hooked behind their knee, heel pulled tight to your chest with reinforced grip, and perpendicular body angle established. Only after confirming these points should you begin threatening submissions. Rushing to attack before completing positional establishment is the most common reason transitions that succeed positionally still fail to produce submissions—an incomplete ashi garami gives the opponent too many defensive options."

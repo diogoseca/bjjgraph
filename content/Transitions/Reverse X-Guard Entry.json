@@ -269,7 +269,7 @@
         }
       },
       {
-        "question": "Your opponent recognizes your entry and posts their hand on your hip to block threading. How do you respond?",
+        "question": "They post a hand on your hip to block your reverse X-guard threading. How do you respond?",
         "answer": "Attack their posting hand with a two-on-one grip using both hands to strip and redirect the obstruction, creating the window for your leg to thread beneath their hips. Alternatively, use the posting hand as a pivot point - their commitment to blocking one pathway often opens another, such as a berimbolo entry on the opposite side or a direct back take via Kiss of the Dragon.",
         "answer_line": "Two-on-one strip the post",
         "distractors": {
@@ -283,7 +283,7 @@
         }
       },
       {
-        "question": "What is the critical difference between where the crossing hook must land versus where it commonly ends up as an error?",
+        "question": "In the reverse X-guard entry, where must the crossing hook land versus the common error?",
         "answer": "The crossing hook must travel completely past opponent's centerline to land on their far hip or behind their far thigh. The common error is threading too shallow and hooking the near hip instead. The far hip placement creates true mechanical control and prevents easy clearing, while the near hip placement provides minimal leverage and is easily defeated by a simple step.",
         "answer_line": "Hook must reach far hip",
         "distractors": {
@@ -297,7 +297,7 @@
         }
       },
       {
-        "question": "Your opponent begins applying stack pressure as you start threading your leg. What immediate adjustment do you make?",
+        "question": "They start stacking you as you thread your leg for reverse X-guard. What adjustment do you make?",
         "answer": "Abandon the Reverse X-Guard Entry attempt and execute a granby roll to the opposite side of their pressure. Use their forward driving momentum to assist your rotation rather than fighting against the stack. This converts their offensive pressure into your escape mechanism and allows you to recover to De La Riva, seated guard, or attempt a berimbolo on the other side.",
         "answer_line": "Granby roll away from stack",
         "distractors": {
@@ -325,7 +325,7 @@
         }
       },
       {
-        "question": "What chain attacks should you prepare if opponent successfully defends your Reverse X-Guard Entry by stepping their far leg back?",
+        "question": "They defend your reverse X-guard entry by stepping the far leg back. What chain attacks follow?",
         "answer": "When opponent steps their far leg back, immediately redirect to Single Leg X-Guard on their near leg that remains in range, or use the momentum of their retreat to come up to a technical standup. If you maintain the pants grip during their backstep, you can also follow their motion into a standard X-Guard entry on the retreating leg or convert to a leg drag position as you come up.",
         "answer_line": "Switch to Single Leg X on near leg",
         "distractors": {
@@ -353,7 +353,7 @@
         }
       },
       {
-        "question": "You have established the crossing hook but your inside hook keeps slipping before you can consolidate. What is the mechanical cause and correction?",
+        "question": "Your inside hook keeps slipping in the reverse X-guard entry. What is the cause and correction?",
         "answer": "The most common cause is that your hips are not sufficiently elevated, allowing your inside leg to approach at a flat angle rather than hooking upward behind the opponent's knee. The correction is to drive your hips higher by pressing through your shoulders before inserting the inside hook, creating the upward angle needed for the hook to catch behind the knee. Also verify your crossing hook is locked deep enough to anchor your hip position while you set the second hook.",
         "answer_line": "Elevate hips before hooking",
         "distractors": {
@@ -367,7 +367,7 @@
         }
       },
       {
-        "question": "How do you differentiate in the moment between an opponent you should attempt this entry against versus one you should not?",
+        "question": "How do you tell in the moment whether to attempt the reverse X-guard entry or not?",
         "answer": "Attempt the entry against opponents who are standing relatively upright, reaching for grips, or shifting weight laterally - these all create space beneath their hips. Do not attempt against opponents who are already driving forward with stack pressure, have established strong grips on both your legs, or are actively circling to pass. The key diagnostic is whether you can feel space beneath their hips when you elevate yours. If their weight immediately compresses you, the entry pathway is closed.",
         "answer_line": "Feel space beneath their hips",
         "distractors": {
@@ -493,7 +493,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest visual cue that your opponent is attempting a Reverse X-Guard Entry rather than a standard berimbolo?",
+        "question": "What is the earliest visual cue separating a reverse X-guard entry from a berimbolo?",
         "answer": "The key differentiator is the direction of their threading leg. In a berimbolo, the opponent rotates underneath you and their leg hooks your far hip from the outside while pulling your body over theirs. In Reverse X-Guard Entry, their leg threads between your legs from underneath, traveling past your centerline to hook behind your far hip from the inside. The threading motion is more linear and directed upward rather than the circular rolling motion of berimbolo.",
         "answer_line": "Leg threads inside, not outside",
         "distractors": {
@@ -507,7 +507,7 @@
         }
       },
       {
-        "question": "Your opponent has threaded one leg but the crossing hook is not yet locked. What is the most effective immediate response?",
+        "question": "They threaded one leg but the crossing hook isn't locked. What is your best immediate response?",
         "answer": "Backstep your far leg sharply at a 45-degree angle away from the threading direction while simultaneously driving your hips forward to flatten their position. This removes the target for the crossing hook and compresses the space they need to curl their leg into the hook position. Follow immediately with a passing attempt while their guard structure is compromised - a knee slice or smash pass is most effective in this window.",
         "answer_line": "Backstep 45 degrees, flatten hips",
         "distractors": {
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "Why is stripping the pants grip on your ankle a higher priority than fighting the threading leg directly?",
+        "question": "Why strip their pants grip on your ankle before fighting the threading leg?",
         "answer": "The pants grip on your ankle serves as the anchor that prevents you from disengaging entirely. Without this grip, you can simply step away and reset to a neutral passing position at any point during the entry. Fighting the threading leg while the grip remains means you are working against the mechanical constraint of your anchored leg, which dramatically reduces the effectiveness of backstepping, base widening, and all other defensive movements. Remove the anchor first and the rest of the defense becomes straightforward.",
         "answer_line": "Strip the anchor grip first",
         "distractors": {

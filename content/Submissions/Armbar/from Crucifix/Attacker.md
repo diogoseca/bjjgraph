@@ -70,7 +70,7 @@ description: "How to execute Armbar from Crucifix in BJJ. Attacking perspective 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary reason the armbar from crucifix has such a high success rate compared to armbars from other positions?",
+      "name": "Why does the armbar from crucifix succeed more often than armbars from other positions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crucifix position provides superior control by trapping one of the opponent's arms completely with your legs, preventing them from using it for defense. This means the opponent cannot establish defensive grips, cannot use both arms to defend the attacking arm, and has severely limited mobility. The combination of leg control, chest pressure, and arm isolation creates a position where the opponent has minimal defensive options, making the armbar extremely difficult to defend."
@@ -78,7 +78,7 @@ description: "How to execute Armbar from Crucifix in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Describe the proper hand positioning and grip when isolating the opponent's arm for the crucifix armbar. Why is this positioning critical?",
+      "name": "Crucifix armbar: how do you grip the isolated arm, and why is that positioning critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both hands should control the opponent's wrist and forearm area, with one hand gripping the wrist and the other gripping the forearm or triceps region. The thumb of the opponent's hand should be pointing toward the ceiling (thumbs-up position). This positioning is critical because it ensures the submission attacks the elbow joint properly. If the thumb rotates downward, the attack becomes a shoulder lock instead of an armbar, which changes the submission mechanics and can be more dangerous. Proper hand positioning also prevents the opponent from making a defensive fist or establishing grips."
@@ -86,7 +86,7 @@ description: "How to execute Armbar from Crucifix in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What are the minimum safety protocols that must be followed when training the armbar from crucifix, and why are these protocols non-negotiable?",
+      "name": "What safety protocols are mandatory when training the armbar from crucifix, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The minimum safety protocols include: (1) Apply pressure slowly over 3-5 seconds minimum to allow reaction time for tap, (2) Never spike or jerk the submission with explosive force, (3) Ensure your partner has at least one hand free to tap at all times, (4) Immediately release all pressure upon feeling any tap or hearing verbal submission, (5) Check with your partner after the tap before continuing training. These protocols are non-negotiable because the elbow joint is vulnerable to severe injuries including hyperextension, dislocation, and ligament rupture. The armbar can cause permanent damage in a fraction of a second if applied explosively. In training, we must prioritize our partner's safety over ego or winning."
@@ -94,7 +94,7 @@ description: "How to execute Armbar from Crucifix in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "How should your hips be positioned relative to the opponent's shoulder during the crucifix armbar, and what role does this positioning play in the submission mechanics?",
+      "name": "Crucifix armbar: where must your hips sit relative to their shoulder, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips should be positioned tight to the opponent's shoulder on the side of the arm you are attacking. This hip placement creates the fulcrum point for the armbar lever. When you extend your hips upward while pulling the wrist down, the opponent's humerus bone presses against your hip/pelvis, which acts as the pivot point that causes the elbow to hyperextend. If your hips are too far from the shoulder, you lose leverage and the submission becomes much weaker. The closer your hip is to their shoulder joint, the shorter and more powerful the lever becomes."
@@ -102,7 +102,7 @@ description: "How to execute Armbar from Crucifix in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that your partner is in danger of injury during the armbar from crucifix, and what immediate actions should you take if you observe these indicators?",
+      "name": "Crucifix armbar: what signs mean your partner is in danger, and what do you do then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key danger indicators include: (1) The opponent's arm is straight and you're continuing to apply pressure, (2) You hear or feel popping or cracking sounds from the elbow joint, (3) The opponent is making distress vocalizations even without formally tapping, (4) The opponent's arm suddenly loses resistance (which may indicate injury rather than giving up), (5) The opponent is unable to tap due to both arms being controlled. Immediate actions: STOP all pressure immediately, release the submission, check verbally with your partner about their condition, allow them time to assess if they're injured, and do not resume training until you've confirmed they're uninjured and willing to continue. When in doubt, always err on the side of caution and release pressure."
@@ -110,7 +110,7 @@ description: "How to execute Armbar from Crucifix in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Explain why maintaining crucifix control throughout the entire armbar sequence is essential for both the submission's effectiveness and safety?",
+      "name": "Why keep crucifix control through the whole armbar, for both effectiveness and safety?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining crucifix control is essential for effectiveness because it prevents the opponent from retracting their arm, turning into you, or establishing defensive grips. The trapped arm eliminates half of their defensive tools, while chest pressure and leg control prevent rotation and bridging. For safety, maintaining control ensures the submission is applied in a controlled manner. If you release crucifix control prematurely, the opponent may suddenly pull their arm back while you're applying pressure, which can cause explosive force on the elbow joint. Controlled position throughout the sequence means controlled pressure application, which gives your partner time to tap safely."

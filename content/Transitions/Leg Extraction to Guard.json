@@ -278,7 +278,7 @@
         }
       },
       {
-        "question": "What distinguishes a shallow entanglement suitable for extraction from a deep entanglement requiring alternative escape?",
+        "question": "In ushiro ashi-garami, what marks an entanglement as shallow enough to extract from?",
         "answer": "Shallow entanglement is characterized by the opponent's inside leg having minimal control below your knee, their upper body not pinning your hips, and no established heel grip. Deep entanglement features tight inside leg control on your thigh, consolidated upper body position, and active heel exposure. Deep entanglement requires accepting turtle or other alternatives rather than forcing extraction.",
         "answer_line": "No heel grip, control below knee",
         "distractors": {
@@ -334,7 +334,7 @@
         }
       },
       {
-        "question": "You have cleared the outside leg but the inside leg is still deeply controlling your thigh - what is your best option?",
+        "question": "You cleared their outside leg but their inside leg still controls your thigh — best option?",
         "answer": "When only the outside leg is cleared but inside control remains deep, convert to a partial extraction position rather than forcing full clearance. Insert your free foot as a butterfly hook against their hip to establish an offensive guard position, or transition to deep half guard by using the space created from clearing the outside leg. Forcing full extraction against deep inside control risks re-entanglement or saddle transition.",
         "answer_line": "Hook foot on hip or go deep half",
         "distractors": {
@@ -348,7 +348,7 @@
         }
       },
       {
-        "question": "What grip on your opponent's body creates the most effective frame for pushing their hips away during extraction?",
+        "question": "In ushiro ashi-garami, which frame best pushes their hips away during leg extraction?",
         "answer": "Place your free foot on their far hip with your knee pointed outward, creating a structural push frame that uses your entire leg's strength rather than just your arms. Supplement with your free hand pushing on their near-side knee or hip. The foot-on-hip frame is critical because it generates enough force to create meaningful separation while being difficult for the opponent to strip, unlike hand frames which can be grip-fought away.",
         "answer_line": "Foot on far hip, knee out",
         "distractors": {
@@ -480,7 +480,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is about to attempt leg extraction rather than accepting the position?",
+        "question": "Holding ushiro ashi-garami, what is the earliest cue that they are setting up leg extraction?",
         "answer": "The earliest cue is when you feel their trapped foot establish strong dorsiflexion while their near-side hand moves toward your inside knee. This two-step preparation - heel protection combined with inside knee framing - signals they are setting up systematic extraction rather than focusing on submission defense or accepting turtle. At this point you should immediately tighten your entanglement and threaten submissions to disrupt their preparation.",
         "answer_line": "Dorsiflex + hand to inside knee",
         "distractors": {
@@ -494,7 +494,7 @@
         }
       },
       {
-        "question": "Your opponent has cleared your outside leg and is working on your inside leg - what is your highest percentage response?",
+        "question": "They cleared your outside leg and are working the inside leg — highest percentage response?",
         "answer": "Your highest percentage response is to immediately step your inside leg through to establish saddle position. The moment they clear the outside leg, their inside knee control must shift to address your inside leg extraction, creating a brief window. Drive your inside leg across their thigh while your outside leg follows to establish the crossed configuration. This converts their successful outside leg clearance into a positional downgrade from their perspective, moving from partial escape to deeper entanglement.",
         "answer_line": "Step inside leg through to saddle",
         "distractors": {
@@ -508,7 +508,7 @@
         }
       },
       {
-        "question": "How should you adjust your submission attacks to prevent creating extraction windows during grip changes?",
+        "question": "How do you change grips in ushiro ashi-garami without opening an extraction window?",
         "answer": "Maintain at least one point of strong leg control at all times during grip transitions. Rather than fully releasing one grip to establish another, use a hand-over-hand approach where the new grip is partially established before the old one releases. When transitioning between heel hook and ankle lock setups, keep your figure-four tight with constant inward leg pressure independent of your hand positioning. This eliminates the momentary control lapses that opponents exploit for extraction windows.",
         "answer_line": "Never break leg control mid-switch",
         "distractors": {
@@ -522,7 +522,7 @@
         }
       },
       {
-        "question": "Your opponent is pushing your hips away with their free foot while maintaining dorsiflexion - how do you counter this specific combination?",
+        "question": "They push your hips with their free foot while dorsiflexing — how do you counter that combination?",
         "answer": "Address the pushing foot first by controlling it with your outside hand or by hooking their pushing leg with your own leg to neutralize the frame. Once their pushing mechanism is eliminated, close the distance they created by pulling with your inside leg. Do not try to maintain position purely through squeezing against their push, as their full leg strength exceeds your entanglement friction. Instead, remove the pushing tool and then re-establish contact. This forces them to restart the extraction sequence from the beginning.",
         "answer_line": "Kill the pushing foot first",
         "distractors": {
@@ -536,7 +536,7 @@
         }
       },
       {
-        "question": "When should you accept that the extraction is succeeding and transition to a passing strategy instead?",
+        "question": "Holding ushiro ashi-garami, when do you accept the extraction and switch to passing?",
         "answer": "Accept the extraction when your inside leg has lost meaningful thigh contact, your outside leg is already cleared, and their leg is more than halfway extracted from your control. At this point, immediately transition your energy toward establishing a passing position rather than fighting for a deteriorating entanglement. Follow their leg clearance by advancing your hips toward their body and work to establish top position through a leg drag or knee cut as they try to set up guard. This converts a lost entanglement into a guard passing opportunity rather than allowing them clean guard establishment.",
         "answer_line": "Leg over halfway out — pass now",
         "distractors": {

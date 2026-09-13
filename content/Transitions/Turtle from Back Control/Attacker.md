@@ -98,7 +98,7 @@ description: "Master the back control to turtle escape in BJJ. Learn systematic 
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their body triangle as you begin stripping hooks - how should you adjust your escape strategy?",
+      "name": "They tighten a body triangle as you strip hooks from back bottom. How do you adjust your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a body triangle, shift your approach to address the triangle before the hooks. Turn toward the side of the opponent's locked leg, as this relieves pressure on the triangle and may allow you to straighten their locking leg. Use both hands to push the locked ankle down while driving your hips into the triangle to create slack. Only attempt the turtle transition after breaking the body triangle configuration."
@@ -106,7 +106,7 @@ description: "Master the back control to turtle escape in BJJ. Learn systematic 
     },
     {
       "@type": "Question",
-      "name": "What are the key structural elements of the turtle position you must establish immediately after clearing hooks?",
+      "name": "After clearing the hooks, what structure must your turtle have immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The defensive turtle requires four key structural elements: knees under hips creating a stable four-point base, elbows tight against the inside of your knees to prevent underhook penetration, rounded back with chin tucked to chest protecting the neck from chokes, and active weight distribution across all four contact points. This shell must be formed immediately before the opponent can re-secure control."

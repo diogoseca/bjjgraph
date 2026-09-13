@@ -56,7 +56,7 @@ description: "Defend the North-South Recovery from Jailbreak in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the top player is attempting a North-South Recovery rather than a standard pass?",
+      "name": "From Jailbreak bottom, what earliest cues show a North-South Recovery rather than a standard pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a shift in the top player's weight distribution toward your head combined with their feet beginning to walk in a circular arc rather than driving forward through your center line. You will feel crossface pressure increasing as they anchor their upper body before pivoting, and their hip drive changes from forward to lateral. The pressure against your extended legs simultaneously decreases as they redirect energy away from the leg barriers. Recognizing this weight shift within the first two steps gives you the maximum defensive window."
@@ -64,7 +64,7 @@ description: "Defend the North-South Recovery from Jailbreak in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your leg barriers are being bypassed as the top player walks around - what is your immediate defensive response?",
+      "name": "Your Jailbreak leg barriers are being bypassed as they walk around — immediate defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately retract your legs from the extended Jailbreak position and work to insert a knee shield between your bodies. Your extended legs were defending against forward passes but are now irrelevant against the circular movement. Pull your knees toward your chest while simultaneously hip escaping to follow the top player's direction of travel. The goal is to get your legs between your bodies before they complete the perpendicular alignment. Every fraction of a second matters since North-South is dramatically harder to escape than half guard."
@@ -72,7 +72,7 @@ description: "Defend the North-South Recovery from Jailbreak in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How do you prevent arm isolation once the top player has established partial perpendicular alignment?",
+      "name": "They reach partial perpendicular alignment on you — how do you prevent arm isolation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your elbows tight against your ribs with forearms creating structural frames against the top player's chest. Never extend your arms away from your torso or allow them to cross your centerline, as both positions create easy kimura opportunities. If you feel them working to isolate one arm, immediately pull that elbow back tight to your body and use a hip escape to create an angle that makes the isolation grip harder to maintain. Active hand fighting throughout the transition is essential to prevent the arm control that characterizes consolidated North-South."
@@ -80,7 +80,7 @@ description: "Defend the North-South Recovery from Jailbreak in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "What is the fundamental difference in defensive priority when facing a North-South Recovery versus a standard guard pass from Jailbreak?",
+      "name": "From Jailbreak bottom, how does defending a North-South Recovery differ from a standard pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against standard passes from Jailbreak, your primary defense is maintaining extended leg barriers to block forward movement. Against the North-South Recovery, leg barriers are irrelevant since the attacker bypasses them through circular movement. Your defensive priority shifts from lower body leg engagement to upper body framing and hip escapes that follow the top player's movement direction. Failure to make this mental shift results in lying with extended legs while the opponent walks around them to establish dominant North-South control."

@@ -72,7 +72,7 @@ description: "Learn to defend against an opponent standing up from Ashi Garami. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has committed to standing and has their hips elevated—what is the highest-percentage counter?",
+      "name": "They commit to standing from your ashi garami with hips elevated: your best counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage counter is to follow their hips upward by sitting up and immediately establishing open guard hooks on their hips or legs before they can fully disengage. This prevents the clean standing exit and transitions the exchange into an open guard scenario where you maintain connection and some degree of control. If you have speed advantage, you can also race to standing and establish grips during the transition, potentially gaining the initiative in the subsequent standing exchange."

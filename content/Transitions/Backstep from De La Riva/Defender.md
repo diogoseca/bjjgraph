@@ -50,7 +50,7 @@ description: "Complete guide to defending the backstep from your De La Riva Guar
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is preparing to backstep from your De La Riva Guard?",
+      "name": "Playing De La Riva, what are the earliest cues your opponent is setting up a backstep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include the passer gripping both of your pants legs simultaneously near the knees, aggressive attempts to strip your ankle grip, a noticeable weight shift to their free (non-hooked) leg, and their shoulders beginning to turn away from you before the hips rotate. A toreando threat followed by sudden directional change can also signal an incoming backstep."
@@ -66,7 +66,7 @@ description: "Complete guide to defending the backstep from your De La Riva Guar
     },
     {
       "@type": "Question",
-      "name": "Your DLR hook is being cleared by the backstep despite your best efforts. What is your optimal defensive transition?",
+      "name": "Your DLR hook is being cleared by the backstep: what is your best defensive transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to Reverse De La Riva Guard by inserting your opposite leg as a hook behind their stepping leg. This transition should happen during the hook clearance, not after the passer consolidates position. Do not waste time trying to re-establish a compromised DLR hook. The RDLR transition maintains your guard structure and presents the passer with a new set of defensive obstacles that require a different passing approach. Train this transition until it is reflexive."

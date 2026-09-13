@@ -56,7 +56,7 @@ description: "Defend the Technical Mount to Back Control transition in BJJ. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest physical cues that your opponent is transitioning from an armbar attempt to a back take from Technical Mount?",
+      "name": "What are the earliest cues your opponent is switching from armbar to back take in Technical Mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the opponent's posted leg beginning to shift from its perpendicular base position, their arm control changing from wrist-and-elbow armbar grip to a reaching motion over your shoulder, and their weight shifting from downward pressure on your chest to lateral following pressure. You may also feel their chest angle change as they begin to align with your back rather than pressing into your front. Recognizing these cues in the first one to two seconds of the transition is critical for effective defense."
@@ -64,7 +64,7 @@ description: "Defend the Technical Mount to Back Control transition in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "You are in Technical Mount bottom and feel the opponent's chest starting to shift toward your back as you turn. What is your immediate defensive response?",
+      "name": "Under technical mount, you feel their chest shifting toward your back as you turn. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately stop your turn and re-square your shoulders to the mat. Pull both elbows tight to your ribs and tuck your chin to your far shoulder. Use your free arm to create a frame against their hip or chest to prevent them from following your rotation further. If you can feel their posted leg shifting, use your bottom leg to hook or block it before it converts to a back control hook. The priority is denying the chest-to-back connection that defines back control."
@@ -72,7 +72,7 @@ description: "Defend the Technical Mount to Back Control transition in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Why is fighting the seatbelt grip more important than fighting the hooks when defending the back take from Technical Mount?",
+      "name": "Why fight the seatbelt before the hooks when defending this back take from Technical Mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The seatbelt controls your upper body and prevents you from turning to face the opponent, which is your primary escape mechanism from back control. Hooks without seatbelt control are inherently unstable because you can strip them with hip escapes and your opponent cannot prevent you from turning. However, a secured seatbelt with even one hook creates a stable back control position where the opponent can systematically work the second hook into place. Neutralizing the seatbelt preserves your ability to turn and face, which is the foundation of every back escape."
@@ -80,7 +80,7 @@ description: "Defend the Technical Mount to Back Control transition in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "The opponent has one hook in and is reaching for the seatbelt with their arm. What is your best window for escape and how do you exploit it?",
+      "name": "They have one hook in and are reaching for the seatbelt. What's your escape window and how?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical transition moment when the opponent's position is most vulnerable because they have abandoned Technical Mount base but have not yet completed back control. Use two-on-one grip fighting to prevent their arm from completing the seatbelt. Simultaneously, execute a hip escape toward the side of the inserted hook, using the momentum to strip the single hook while their upper body control is incomplete. If you can prevent the seatbelt and strip the hook in this window, the opponent falls back to a neutral scramble or you recover half guard."
@@ -88,7 +88,7 @@ description: "Defend the Technical Mount to Back Control transition in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Why does turning away aggressively to escape the armbar actually make the back take easier for your opponent?",
+      "name": "Why does turning away hard to escape the armbar make their back take easier?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning away from the armbar rotates your shoulders away from the opponent and exposes your back, which is the exact positional change they need to transition from Technical Mount to back control. Your turning momentum makes it easier for them to follow because they can ride your rotation rather than creating it. The faster and more committed your turn, the more back exposure you create and the less time you have to establish defensive frames before they arrive at your back with seatbelt and hooks. Controlled, calculated defensive choices outperform reactive turning."

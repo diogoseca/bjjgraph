@@ -249,7 +249,7 @@
         }
       },
       {
-        "question": "Your opponent begins hip escaping as soon as you start extracting your inside leg - what adjustment prevents guard recovery?",
+        "question": "Passing 50-50, they hip escape as you extract your inside leg. What adjustment stops guard recovery?",
         "answer": "Drive forward pressure more aggressively with your chest and immediately plant your freed knee on their hip or in their hip crease. This blocks their knee insertion path. If their hip escape is faster than your knee plant, accelerate the entire sequence rather than slowing down - speed beats their recovery timing.",
         "answer_line": "Plant knee on hip fast",
         "distractors": {
@@ -263,7 +263,7 @@
         }
       },
       {
-        "question": "Why is sequential leg extraction (inside first, then outside) critical rather than extracting both simultaneously?",
+        "question": "Passing 50-50, why extract the inside leg first rather than pulling both legs out at once?",
         "answer": "Extracting both legs simultaneously removes all control points from opponent's hip line, creating space for them to bump, roll, or recover guard. Sequential extraction maintains constant pressure - inside leg extracts and knee immediately plants on hip, then outside leg clears while that knee blocks. Always maintain at least one control point.",
         "answer_line": "Keep one control point always",
         "distractors": {
@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "Your opponent maintains a strong grip on your ankle despite two-on-one grip fighting - what alternative approach breaks the stalemate?",
+        "question": "Passing 50-50, they keep your ankle despite two-on-one grip fighting. How do you break the stall?",
         "answer": "Redirect to a submission threat rather than continuing to fight the grip directly. Threaten a kneebar or ankle lock on their exposed leg, which forces them to release your ankle to defend their own leg. This creates the window you need for extraction. The principle is that offensive threats break defensive grips more efficiently than pure grip fighting.",
         "answer_line": "Threaten kneebar to force release",
         "distractors": {
@@ -472,7 +472,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the single most important grip to maintain when defending against the pass from 50-50 bottom?",
+        "question": "Defending the pass from bottom 50-50, which single grip matters most to maintain?",
         "answer": "Two-handed control on opponent's ankle or foot is the most critical grip. This grip directly prevents leg extraction, which is the fundamental mechanism of the pass. Without ankle control, you cannot re-hook their leg or prevent extraction. Maintaining this grip forces opponent to spend time and energy grip fighting before they can begin any extraction sequence.",
         "answer_line": "Two-hand grip on their ankle",
         "distractors": {
@@ -486,7 +486,7 @@
         }
       },
       {
-        "question": "Your opponent has broken your ankle grip and begun extracting their inside leg - what is the highest priority defensive action?",
+        "question": "Bottom 50-50: they broke your ankle grip and are extracting a leg. What is your top priority?",
         "answer": "Immediately re-hook their extracting leg with your own legs before it fully clears, while simultaneously framing against their shoulder with your near arm to prevent chest pressure from pinning you flat. If the re-hook fails, hip escape laterally and insert your knee to block their forward drive. The critical principle is acting during extraction, not after both legs clear.",
         "answer_line": "Re-hook leg, frame shoulder",
         "distractors": {
@@ -528,7 +528,7 @@
         }
       },
       {
-        "question": "Why is defending during the grip fighting phase more effective than defending during the extraction phase?",
+        "question": "Defending the 50-50 pass, why defend during the grip fight rather than during leg extraction?",
         "answer": "During grip fighting, opponent has not yet established chest pressure or begun extracting legs, meaning you have maximum mobility and grip access. Once extraction begins, their chest weight pins you and their leg is already partially free, reducing your defensive options dramatically. Early defense when you have full range of motion and grip access has roughly double the success rate of late-stage defense.",
         "answer_line": "Full mobility before chest pins",
         "distractors": {

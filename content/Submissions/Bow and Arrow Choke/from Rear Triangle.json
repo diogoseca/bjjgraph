@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "Your initial collar grip is catching the jaw instead of the neck - how do you adjust without losing position?",
+        "question": "Your collar grip is catching the jaw, not the neck — how do you fix it without losing position?",
         "answer": "Do not force the extension with a jaw grip. Instead, momentarily loosen the collar grip slightly while using your free hand to cross-face the opponent and turn their chin away from your choking hand. This exposes the neck and allows you to walk your fingers deeper into the collar past the mandible. Once you feel the wrist blade contact the lateral neck, re-secure the pants grip and proceed with the extension. Patience during the grip adjustment prevents jaw injuries.",
         "safety_critical": false,
         "answer_line": "Cross-face the chin, rethread",
@@ -380,7 +380,7 @@
         }
       },
       {
-        "question": "In competition, how does the scoring context affect your approach to finishing the Bow and Arrow from Rear Triangle?",
+        "question": "In competition, how does scoring affect finishing the bow and arrow from rear triangle?",
         "answer": "In competition, the rear triangle position already scores 4 points for back control. With points secured, you can methodically work the bow and arrow setup without rushing. Take time to establish the deepest possible collar grip before committing to the extension. If the opponent defends the collar grip effectively, you maintain a dominant scoring position and can cycle to alternative submissions. Never sacrifice the position in a desperate attempt to finish the choke when the points advantage is already secured.",
         "safety_critical": false,
         "answer_line": "Points secured, work methodically",
@@ -395,7 +395,7 @@
         }
       },
       {
-        "question": "Your opponent begins two-on-one grip fighting your collar hand before you establish depth - what is your response?",
+        "question": "From rear triangle, they two-on-one your collar hand before you get depth — how do you respond?",
         "answer": "Use your free hand to strip their top grip on your wrist while maintaining constant triangle compression. If they successfully block the collar feed, do not force it. Instead, switch your attack to the rear naked choke by pulling your choking hand back and threading it under their chin, or transition to attacking the trapped arm with an armbar. The rear triangle provides access to multiple submissions, so cycling between threats is more effective than forcing a defended bow and arrow.",
         "safety_critical": false,
         "answer_line": "Strip hand, cycle other attacks",
@@ -410,7 +410,7 @@
         }
       },
       {
-        "question": "During the extension finish, your opponent rolls toward the collar grip side to relieve pressure - how do you adjust?",
+        "question": "During the extension they roll toward your collar grip side — how do you adjust?",
         "answer": "Follow the roll by maintaining collar tension and adjusting your body angle to stay behind them. Use the pants grip to resist their rotation and redirect the extension vector. If they complete a partial roll, you may end in a top finishing position with the collar grip intact, which can actually improve your leverage. If they fully invert, be prepared to transition to a modified finishing angle or release and re-establish the rear triangle before they can recover guard position.",
         "safety_critical": false,
         "answer_line": "Follow roll, stay angled behind",
@@ -566,7 +566,7 @@
         }
       },
       {
-        "question": "What is the highest-priority defensive action when you feel the collar grip being established behind your neck?",
+        "question": "In rear triangle, the collar grip is being set behind your neck — what is your first response?",
         "answer": "Immediately use your free hand to grip-fight the attacker's collar hand with a two-on-one strip before they can establish depth past your jawline. Simultaneously tuck your chin to your chest and turn your face away from the choking arm. Speed is critical because once the grip passes the jaw and seats on the carotid, stripping becomes exponentially harder. Every second of delay reduces your defensive options significantly.",
         "safety_critical": false,
         "answer_line": "Two-on-one strip, tuck chin",
@@ -581,7 +581,7 @@
         }
       },
       {
-        "question": "What escape sequence gives you the best chance of reaching closed guard from a partially applied Bow and Arrow?",
+        "question": "What escape from a partial bow and arrow gives the best chance of reaching closed guard?",
         "answer": "Roll toward the collar grip side while controlling the attacker's collar wrist with your free hand to prevent them from maintaining tension. Use the rolling momentum to invert under the attacker and work your legs around their waist to establish closed guard. This must be timed during the extension phase when the attacker is committing their weight backward, making it harder for them to follow your rotation forward.",
         "safety_critical": false,
         "answer_line": "Roll toward grip, invert to guard",
@@ -596,7 +596,7 @@
         }
       },
       {
-        "question": "Your opponent has the collar grip but has not yet grabbed your pants - what defensive opportunity does this window provide?",
+        "question": "They have your collar but not your pants yet — what defensive opportunity does this window give?",
         "answer": "This is your critical defensive window because without the pants grip the attacker cannot generate the opposing force needed for the full bow and arrow extension. Focus all effort on stripping the collar grip with your free hand using a two-on-one wrist grip. Simultaneously create rotation by turning your body toward the collar grip side to reduce the angle available for extension. If you can strip the grip now, the attacker must restart the entire setup sequence from the collar feed.",
         "safety_critical": false,
         "answer_line": "Strip collar before pants grip",

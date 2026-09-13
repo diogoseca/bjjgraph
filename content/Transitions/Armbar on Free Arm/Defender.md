@@ -72,7 +72,7 @@ description: "How to defend against Armbar on Free Arm in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your free arm is being extended by the attacker and you cannot retract it - what is your last-resort defense?",
+      "name": "Gift wrap bottom: your free arm is being extended and you cannot retract it — last-resort defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotate your forearm so your thumb points toward the ceiling, which strengthens the elbow joint's resistance to hyperextension. Simultaneously grip your own wrist with whatever reach your trapped Gift Wrap arm allows, or clasp your hands together if possible. Bridge your hips toward the attacker to stack them and compromise their finishing angle. If extension continues, tap before feeling a pop - preserving your elbow is more important than the round."

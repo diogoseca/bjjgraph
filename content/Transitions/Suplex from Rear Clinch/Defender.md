@@ -72,7 +72,7 @@ description: "Complete defensive guide against the Suplex from Rear Clinch. Cove
     },
     {
       "@type": "Question",
-      "name": "If you are already being lifted and cannot prevent the throw, what actions minimize positional damage?",
+      "name": "Already being lifted for a suplex and unable to stop it, what minimizes the damage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tuck your chin to protect your cervical spine from impact, round your spine to distribute landing force across a larger surface area, and actively direct your body toward a lateral landing angle if possible. Try to hook the opponent's leg during the arc to entangle them and potentially reverse the landing position. Stay active and mobile rather than going stiff, as a controlled body absorbs impact more safely and creates more opportunities to scramble during the landing phase."

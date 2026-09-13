@@ -56,7 +56,7 @@ description: "Defend against the Ringworm to Spider Guard transition. Learn to r
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary vulnerability in the bottom player's guard during the Ringworm to Spider Guard transition?",
+      "name": "What is the bottom player's main vulnerability during the Ringworm to Spider Guard transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary vulnerability is the grip exchange moment when the bottom player releases the lapel wrap to capture the second sleeve. During this brief window of approximately one to two seconds, neither the Ringworm Guard's lapel control nor Spider Guard's sleeve-and-bicep system is fully active, creating a control gap that the top player can exploit with forward pressure or grip prevention."
@@ -64,7 +64,7 @@ description: "Defend against the Ringworm to Spider Guard transition. Learn to r
     },
     {
       "@type": "Question",
-      "name": "Why is retreating and creating distance a poor defensive response when the bottom player attempts this transition?",
+      "name": "Why is retreating a poor response to their Ringworm to Spider Guard transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Spider Guard requires distance to function effectively since the bottom player needs space to extend their legs and place feet on your biceps. Retreating provides exactly the distance they need and makes Spider Guard establishment easier. Instead, closing distance by driving forward during the transition denies the space required for spider hooks and forces the bottom player into close-range positions where Spider Guard cannot be maintained."
@@ -80,7 +80,7 @@ description: "Defend against the Ringworm to Spider Guard transition. Learn to r
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured one sleeve grip and is reaching for the second - what is your best response?",
+      "name": "They have one sleeve grip and reach for the second toward Spider Guard: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the immediate threat of the second sleeve grip by controlling their reaching hand with your free arm while simultaneously driving your trapped arm downward toward their hip to reduce the effectiveness of their single spider hook. If you prevent the second grip, you face a half-spider configuration that is much easier to pass than full Spider Guard. You can then systematically address the single grip and begin your passing sequence."

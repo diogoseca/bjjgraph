@@ -56,7 +56,7 @@ description: "How to defend against Leg Drag to Darce Setup in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action the instant you feel the opponent's arm threading under your armpit?",
+      "name": "Most important action the instant you feel their arm thread under your armpit for the Darce?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clamp your elbow tight to your ribs to close the gap the attacker is threading through. This is more important than any positional escape because it addresses the root mechanic of the Darce—without the arm threading deep, no grip can be established. Combine the elbow clamp with turning your chest toward the attacker to collapse the choking angle."
@@ -72,7 +72,7 @@ description: "How to defend against Leg Drag to Darce Setup in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has threaded their arm deep but has not yet locked the figure-four—what is your best defensive strategy?",
+      "name": "Their Darce arm is deep but the figure-four isn't locked. Best defensive strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use both hands to fight the locking hand before the figure-four connects. Grab the attacker's wrist or forearm with both hands and peel it away from their bicep. Simultaneously turn your body toward the attacker to reduce the choking angle. Once you break the grip connection, immediately extract your trapped arm and tuck into a tight turtle. Speed is critical because the window between arm threading and grip lock is only one to two seconds."
@@ -80,7 +80,7 @@ description: "How to defend against Leg Drag to Darce Setup in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "How do you recognize the difference between an opponent going for a back take versus a Darce from leg drag?",
+      "name": "From leg drag, how do you tell a back take attempt from a Darce attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The back take involves the opponent's hands reaching over your shoulders and around your waist for seatbelt control, with their body following behind you. The Darce attempt shows the opponent's arm diving under your near armpit toward your neck, with their head dropping low against your shoulder rather than coming up behind you. The force vector is different—back take pulls you backward, while Darce threads across and around your neck horizontally."
@@ -88,7 +88,7 @@ description: "How to defend against Leg Drag to Darce Setup in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why is turning into the attacker counterintuitively safer than pulling away when the Darce arm is threading?",
+      "name": "Why is turning into the attacker safer than pulling away as the Darce arm threads?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning into the attacker collapses the angle that the Darce requires to compress the carotid arteries. The choke works by creating opposing pressure between the bicep on one side and the forearm on the other—turning in reduces this angle to near zero, neutralizing the compression. Pulling away extends the neck and opens the angle, actually helping the attacker achieve the geometry they need for the finish."

@@ -1,0 +1,246 @@
+{
+  "name": "Brian Glick Half Butterfly System",
+  "description": "Study half butterfly guard with Brian Glick course guidance, inside-position priorities, sweep decisions, and practical drills connecting half guard to offense.",
+  "summary": "The Brian Glick Half Butterfly System is an independent BJJGraph guide to half butterfly decisions, connecting positional control, opponent reactions, and a practical route into offense.",
+  "tags": [
+    "bjj",
+    "system",
+    "guard",
+    "no-gi"
+  ],
+  "system_type": "Guard System",
+  "difficulty_level": "Intermediate",
+  "overview": "Half butterfly combines a trapped leg with an inside lifting hook. The interesting question is not whether the hook can lift someone in isolation, but whether the upper body gives it a useful direction. A crossface or a lost inside frame can make a technically familiar sweep unavailable. This guide separates restoring structure from using that structure to attack.\n\nThe published course connects inside position and head alignment with sweeps, upper-body attacks, and leg entries. This guide emphasizes the sweep-and-recovery branch; the wider course includes advanced leg attacks. Under Pressure: Half Butterfly Mastery by Brian Glick is the optional instructional companion. The drills, stages, and assessments below are original BJJGraph study suggestions; use the course demonstrations and coaching for the detailed mechanics.",
+  "key_principles": [
+    "The lifting hook needs useful upper-body connection.",
+    "Restore inside frames before attacking through a settled crossface.",
+    "Respond differently when weight comes forward and when it retreats.",
+    "Distinguish elevating the opponent from controlling the landing.",
+    "Keep a half-guard recovery available when the hook is cleared.",
+    "Study leg entries separately from the initial sweep drill."
+  ],
+  "key_components": [
+    {
+      "component_name": "Inside structure",
+      "description": "Identify the arm and knee connections that preserve room for your butterfly hook to work.",
+      "purpose": "Recover room before loading weight."
+    },
+    {
+      "component_name": "Hook loading",
+      "description": "Compare how the same lifting hook behaves when the opponent is close and when their hips withdraw.",
+      "purpose": "Match the attack to the weight available."
+    },
+    {
+      "component_name": "Upper-body attachment",
+      "description": "Choose a familiar underhook or other coached control and observe whether it supports the sweep direction.",
+      "purpose": "Keep the torso connected to the elevation."
+    },
+    {
+      "component_name": "Sweep continuation",
+      "description": "Follow the reversal until you have balanced top position or have clearly returned to guard.",
+      "purpose": "Treat the landing as part of the sweep."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Rebuild space",
+      "description": "Begin in half guard and establish the butterfly hook without letting the head and shoulders become flattened."
+    },
+    {
+      "step_number": 2,
+      "phase": "Check the attachment",
+      "description": "Pause and identify the upper-body control that supports your intended sweep direction."
+    },
+    {
+      "step_number": 3,
+      "phase": "Read the pressure",
+      "description": "Have the partner alternate advancing and withdrawing so you can explain when elevation is available."
+    },
+    {
+      "step_number": 4,
+      "phase": "Follow the reversal",
+      "description": "Complete one coached sweep and remain connected until the resulting top position is stable."
+    },
+    {
+      "step_number": 5,
+      "phase": "Recover the hook",
+      "description": "Allow the partner to remove the hook and practise recovering half guard before starting again."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The hook lifts but the torso stays behind.",
+      "solution": "Review the upper-body attachment and direction before adding more leg effort."
+    },
+    {
+      "obstacle": "The head is pinned before the sweep starts.",
+      "solution": "Return to frame recovery instead of rehearsing the same elevation under a settled crossface."
+    },
+    {
+      "obstacle": "The top player withdraws and the bottom player falls flat.",
+      "solution": "Practise a sit-up or frame-recovery choice when the load leaves the hook."
+    },
+    {
+      "obstacle": "The sweep finishes in an uncontrolled scramble.",
+      "solution": "End repetitions at a named top position and reduce speed through the landing."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Inside position",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Names the frame that preserves space",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Pressure reading",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Distinguishes forward load from withdrawal",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Hook recovery",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Rebuilds half guard when the hook is cleared",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Landing control",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Maintains balance after the reversal",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice plan: Start with one butterfly hook in half guard. Let the top player alternate light forward pressure and withdrawal; identify whether to load the hook, sit up, or rebuild a frame before attempting a sweep. Keep the starting position consistent long enough to compare the same problem across repetitions. Add one defensive option at a time and record the first lost connection rather than only the final result.",
+    "progression_path": [
+      {
+        "stage": "Rebuild space",
+        "focus": "Begin in half guard and establish the butterfly hook without letting the head and shoulders become flattened."
+      },
+      {
+        "stage": "Check the attachment",
+        "focus": "Pause and identify the upper-body control that supports your intended sweep direction."
+      },
+      {
+        "stage": "Read the pressure",
+        "focus": "Have the partner alternate advancing and withdrawing so you can explain when elevation is available."
+      },
+      {
+        "stage": "Follow the reversal",
+        "focus": "Complete one coached sweep and remain connected until the resulting top position is stable."
+      }
+    ],
+    "common_mistakes": [
+      "The hook lifts but the torso stays behind.",
+      "The head is pinned before the sweep starts.",
+      "The top player withdraws and the bottom player falls flat."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Half Butterfly",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing half butterfly entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Butterfly Half Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing half butterfly entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing half butterfly entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Knee Shield Half Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing half butterfly entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing half butterfly entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Seated Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing half butterfly entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Structures that preserve space during the guard exchange."
+    },
+    {
+      "name": "Distance Control",
+      "content_type": "Principle",
+      "relationship": "Spacing behind the entry and recovery decisions."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Support to observe before selecting a sweep or coming up."
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Connections that give the chosen movement its purpose."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why is a butterfly hook alone insufficient for the sweep?",
+      "answer": "The upper-body connection and available weight determine whether the hook can move the opponent in a useful direction."
+    },
+    {
+      "question": "What changes when the top player withdraws their hips?",
+      "answer": "The hook may no longer carry useful weight, so sitting up or recovering frames can be preferable to forcing elevation."
+    },
+    {
+      "question": "What should precede an attack from a flattened half butterfly?",
+      "answer": "Recover usable inside structure and head position before asking the lifting hook to solve a settled upper-body pin."
+    },
+    {
+      "question": "When is the sweep drill complete?",
+      "answer": "Finish after reaching a balanced top position or identifying a clear return to guard, not at the instant the partner tips."
+    },
+    {
+      "question": "What is the fallback if the butterfly hook is removed?",
+      "answer": "Rebuild a familiar half-guard structure and restore the hook when space returns rather than chasing the leg without frames."
+    },
+    {
+      "question": "Why separate leg attacks from the first practice block?",
+      "answer": "Keeping the initial task to sweep and recovery makes it easier to assess structure before introducing different controls and finishing risks."
+    }
+  ],
+  "products": [
+    {
+      "id": "half-butterfly-mastery-by-brian-glick",
+      "title": "Under Pressure: Half Butterfly Mastery",
+      "instructor": "Brian Glick",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/half-butterfly-mastery-by-brian-glick?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "The published course connects inside position and head alignment with sweeps, upper-body attacks, and leg entries. This guide emphasizes the sweep-and-recovery branch; the wider course includes advanced leg attacks.",
+      "best_for": "No-gi guard players with basic positional familiarity who want to study half butterfly. This is a focused companion rather than a complete beginner curriculum.",
+      "study_focus": "Begin with volume one's inside-position and head-position material, then compare the reactive and proactive sweeping lessons in volume two.",
+      "practice_tip": "BJJGraph drill: Start with one butterfly hook in half guard. Let the top player alternate light forward pressure and withdrawal; identify whether to load the hook, sit up, or rebuild a frame before attempting a sweep."
+    }
+  ]
+}

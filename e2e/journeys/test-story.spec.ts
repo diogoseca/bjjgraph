@@ -52,6 +52,8 @@ async function playToTap(j: any, page: any, maxMoves = 8): Promise<boolean> {
     await j.rig("outcome", [0.01]);
     if (sub) {
       await j.pick(sub);
+      await j.nextHand();
+      await j.pick(sub); // Finish before expecting a tap or capstone proof
       await j.advanceUntil("roll_end", 20000);
       return true;
     }
@@ -95,7 +97,16 @@ test("content capstone story: evidence → roll → tap → acknowledgement → 
   await expect(capstone).toBeEnabled();
   await capstone.click();
   await j.advanceUntil("belt_test_start", 20000);
-  await j.nextHand(30000);
+  // The start click may already have dealt the first hand. nextHand means ANOTHER
+  // deal, so it stalls a ready capstone (same contract as content-capstone.spec.ts).
+  const ready = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    const start = a.beats.findLastIndex((b: any) => b.beat === "belt_test_start");
+    return !!a._beltTest && start >= 0 && a.optionIdxs.length > 0 &&
+      a.beats.slice(start + 1).some((b: any) => b.beat === "options_dealt");
+  });
+  if (!ready) await j.nextHand(30000);
+  else await j.landQuestion();
   await j.keyframe("content-capstone-start");
 
   // ── the boss battle: play to the tap ──

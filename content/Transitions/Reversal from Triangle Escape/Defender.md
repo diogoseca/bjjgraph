@@ -56,7 +56,7 @@ description: "Complete guide to defending the reversal from triangle escape in B
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest indicator that your opponent is attempting the reversal rather than a standard triangle escape?",
+      "name": "What is the earliest sign they are attempting the reversal rather than a standard triangle escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest indicator is the opponent stepping laterally toward their trapped arm side while maintaining or increasing forward pressure rather than pulling backward or upward. Standard escapes typically involve posturing up and away, while the reversal involves continuous forward drive combined with directional lateral movement. Also watch for their free hand shifting from a posting position to active control on your far hip."
@@ -64,7 +64,7 @@ description: "Complete guide to defending the reversal from triangle escape in B
     },
     {
       "@type": "Question",
-      "name": "Your opponent has compromised your triangle structure through stacking but has not yet extracted their arm - what is your optimal defensive response?",
+      "name": "They stacked your triangle open but haven't freed their arm—what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your optimal response is to transition your attack rather than trying to re-tighten a broken triangle. Switch to omoplata by releasing the triangle lock, controlling the trapped arm at the wrist, and swinging your hips to the outside to establish omoplata control. Alternatively, use your free hand to grip their wrist and prevent the extraction while adjusting your hip angle to rebuild the triangle's structural integrity from a better position."
@@ -72,7 +72,7 @@ description: "Complete guide to defending the reversal from triangle escape in B
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your hip position when you feel the opponent beginning to circle toward their trapped arm side?",
+      "name": "They begin circling toward their trapped arm side—how do you adjust your hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Mirror their circular movement by scooting your hips in the same direction they are moving, maintaining the perpendicular angle between your legs and their neck and shoulder line. Use your non-choking leg to push off the mat and drive your hips laterally. The goal is to stay ahead of their movement so the triangle angle never opens enough for arm extraction. Active hip adjustment is the single most important defensive skill against this reversal."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the reversal from triangle escape in B
     },
     {
       "@type": "Question",
-      "name": "What sweep opportunity does the opponent's heavy forward stacking pressure create for the triangle holder?",
+      "name": "What sweep does their heavy forward stacking pressure open up for you as triangle holder?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The heavy forward pressure creates an over-commitment of weight that can be redirected into a sweep. By controlling the opponent's posture with your legs and using a timed hip elevation to change the direction of their momentum, you can redirect their forward drive over your body. Time the hip movement with the peak of their stack pressure when they have minimal base on one side, converting their own weight and forward drive into the sweeping force that rolls them into bottom mount."

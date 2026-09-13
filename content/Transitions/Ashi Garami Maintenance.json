@@ -249,7 +249,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the most critical connection point to maintain when your opponent begins their initial extraction attempt?",
+        "question": "Holding ashi garami: which connection point matters most when they begin extracting the leg?",
         "answer": "The inside leg hook behind the opponent's knee is the most critical connection point because it controls the primary axis of rotation for the trapped leg. Losing this hook before others allows the opponent to straighten their leg and begin systematic clearing of remaining connections. Re-establishing the inside hook should always take priority over other connection points during maintenance.",
         "answer_line": "Re-hook the inside knee first",
         "distractors": {
@@ -263,7 +263,7 @@
         }
       },
       {
-        "question": "How should you respond when your opponent explosively stands up while you maintain Outside Ashi control?",
+        "question": "Holding outside ashi: how do you respond when they explosively stand up?",
         "answer": "Follow their hip movement by scooting your hips toward them and maintaining the pinching pressure of your leg hooks. Grip the ankle or heel cord firmly to prevent the standing leg from stepping away. Use the elevation change to transition to Single Leg X-Guard or elevate into a more dominant entanglement rather than fighting the stand-up directly with pure pulling force.",
         "answer_line": "Follow hips, grip heel, elevate",
         "distractors": {
@@ -277,7 +277,7 @@
         }
       },
       {
-        "question": "What grip configuration provides the strongest upper body connection for maintaining Ashi Garami control?",
+        "question": "Which grip gives the strongest upper body connection for holding Ashi Garami?",
         "answer": "A two-on-one grip controlling the opponent's ankle with one hand and heel cord with the other provides the strongest upper body connection. The bottom hand cups the heel to prevent rotation while the top hand controls the ankle to prevent extension. This double grip creates redundancy so losing one grip does not immediately compromise the entire control chain.",
         "answer_line": "Two-on-one: ankle and heel cord",
         "distractors": {
@@ -319,7 +319,7 @@
         }
       },
       {
-        "question": "Your opponent begins pushing your bottom knee toward the mat to open inside space - how do you adjust?",
+        "question": "In Ashi Garami they push your bottom knee to the mat for inside space—how do you adjust?",
         "answer": "Counter the knee push by driving your inside knee back to their centerline while pulling their trapped leg tighter with your grips. Make the pull with your upper body grips, and if the push partially succeeds, immediately re-pummel your inside knee back to the blocking position. Use hip rotation rather than pure knee strength to maintain the blocking angle against their push.",
         "distractors": {
           "plausible": [
@@ -361,7 +361,7 @@
         }
       },
       {
-        "question": "Your opponent has all primary hooks stripped except your two-on-one ankle grip - what chain attack keeps you in the fight?",
+        "question": "Your Ashi Garami hooks are stripped but you keep the two-on-one ankle grip—what do you chain?",
         "answer": "Use the retained two-on-one ankle grip as a control anchor to enter a straight ankle lock or re-pummel a single leg X-guard hook. Pull their foot tight to your chest, elevate your hips to re-thread an inside hook, and chain back into the entanglement rather than conceding the position. The upper body grip buys the time needed to rebuild leg connections before they fully clear.",
         "distractors": {
           "plausible": [
@@ -549,7 +549,7 @@
         }
       },
       {
-        "question": "How should you respond if your opponent successfully advances from Outside Ashi to Inside Ashi during your extraction attempt?",
+        "question": "In Ashi Garami they advance from Outside to Inside Ashi mid-extraction—how do you respond?",
         "answer": "Immediately increase defensive urgency by protecting the heel through straight leg alignment and hiding the heel behind the opponent's leg. Avoid continued extraction using the same Outside Ashi clearing sequence, as inside space dynamics have changed. Focus on re-establishing inside space control and working back to Outside Ashi positioning before attempting extraction, or transition to 50-50 to neutralize the position.",
         "answer_line": "Protect heel, rebuild outside space",
         "distractors": {

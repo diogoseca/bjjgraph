@@ -292,7 +292,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail that determines whether the backstep clears the hooks successfully?",
+        "question": "In the backstep pass from reverse X, what mechanical detail decides whether the hooks clear?",
         "answer": "Complete weight transfer to the posting leg before initiating the rotation is the most critical mechanical detail. Without full weight on the free leg, you cannot generate a committed, fluid backstep arc. Partial weight transfer leads to a hesitant step that allows the opponent to track your movement and adjust their hooks. The posting leg must serve as a stable axis for the entire rotation.",
         "answer_line": "Full weight transfer to post leg",
         "distractors": {
@@ -509,7 +509,7 @@
         }
       },
       {
-        "question": "Why is following the backstep with inversion more effective than simply resisting with hook pressure?",
+        "question": "From reverse X bottom, why follow the backstep with inversion instead of resisting with the hooks?",
         "answer": "The backstep rotation generates significant angular force that progressively degrades hook control. Fighting this force with static hook pressure expends energy against a mechanical disadvantage. Inversion converts the opponent's rotational energy into your own offensive transition—their turning back becomes your pathway to back control. The backstep inherently creates back exposure, making inversion a higher-percentage response than static resistance against committed rotations.",
         "answer_line": "Use their rotation to attack",
         "distractors": {

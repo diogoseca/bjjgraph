@@ -56,7 +56,7 @@ description: "Complete defensive guide for resisting the kneebar to ashi-garami 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most reliable cue that your opponent is transitioning from kneebar to ashi-garami rather than simply resting their kneebar pressure?",
+      "name": "What cue shows they are transitioning to ashi-garami rather than just resting the kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable cue is feeling their legs begin to shift position around your trapped leg while they maintain or tighten their arm grip. When an attacker rests, everything stays static. When they transition, you will feel their hips settle back and their legs begin loosening their kneebar configuration. The combination of released hip extension pressure with maintained arm control and leg movement is the definitive signal that a transition is underway rather than a brief rest."
@@ -72,7 +72,7 @@ description: "Complete defensive guide for resisting the kneebar to ashi-garami 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins threading their inside leg across your near hip - what defensive action has the highest success rate?",
+      "name": "They thread their inside leg across your near hip; which defense has the highest success?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotate your hips away from their threading leg while simultaneously pushing their shin off your hip with your near hand. The hip rotation closes the path their leg needs to travel across your body, while the hand push redirects the leg below your hip line. This combined action must happen before their foot plants on your far side. If their foot lands, the inside ashi-garami structure is established and this defense becomes dramatically harder. Speed of recognition and reaction is the determining factor."
@@ -80,7 +80,7 @@ description: "Complete defensive guide for resisting the kneebar to ashi-garami 
     },
     {
       "@type": "Question",
-      "name": "If you fail to escape during the transition and the attacker establishes inside ashi-garami, what should be your immediate priority?",
+      "name": "You failed to escape and they establish inside ashi-garami; what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately protect your heel by rotating your knee inward and curling your foot toward your own body to deny the attacker C-grip access on your heel bone. Simultaneously begin working your standard inside ashi-garami escape: fight to extract your heel from their grip, work to clear their inside leg from your hip, and prepare to either boot-scoot away or invert to clear the entanglement. The heel is the primary target from ashi-garami, so denying heel access buys time for a proper escape sequence."
@@ -88,7 +88,7 @@ description: "Complete defensive guide for resisting the kneebar to ashi-garami 
     },
     {
       "@type": "Question",
-      "name": "How should you manage energy when defending both the initial kneebar and the subsequent transition to ashi-garami?",
+      "name": "How should you manage energy defending the kneebar and the follow-up ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use structural defense during the kneebar phase by keeping your knee bent and posture strong without burning grip strength, reserving your explosive energy for the transition window. When you feel the kneebar pressure release, commit your saved energy to one decisive escape attempt rather than multiple half-efforts. If the escape fails and ashi-garami is established, immediately switch to efficient structural defense again to reset for the next escape window. The pattern is: conserve during established positions, explode during transitions, conserve again if caught in the new position."

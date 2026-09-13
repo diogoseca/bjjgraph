@@ -56,7 +56,7 @@ description: "How to defend against Roll to Turtle in BJJ. Recognition cues, cou
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is about to attempt Roll to Turtle from side control bottom?",
+      "name": "What are the earliest cues that bottom side control is attempting a roll to turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the opponent tucking their near-side elbow tight to their body, turning their shoulders toward the mat away from you, and building frames against your hip or shoulder. You may also feel them stop resisting your crossface and instead accept or turn into the pressure. The hip elevation or explosive upward drive is a later cue indicating commitment to the roll. Recognizing the early shoulder turn and frame-building gives you the most time to prevent or follow the escape."
@@ -64,7 +64,7 @@ description: "How to defend against Roll to Turtle in BJJ. Recognition cues, cou
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates the roll and you decide to follow rather than prevent - what is the correct grip sequence?",
+      "name": "They roll to turtle and you choose to follow — what grip sequence do you establish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As they rotate, drive your chest into their back and immediately thread your top arm over their shoulder while your bottom arm goes under their armpit to establish the seatbelt grip with hands clasped. This upper body control must be secured before attempting hooks. Only after the seatbelt is locked should you insert the near-side hook first inside their thigh, then work for the second hook. Reversing this sequence by reaching for legs first allows them to use your loose upper body control to execute granby rolls or sit-outs."
@@ -72,7 +72,7 @@ description: "How to defend against Roll to Turtle in BJJ. Recognition cues, cou
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your side control if you notice your opponent repeatedly attempting Roll to Turtle?",
+      "name": "How do you adjust your side control if they keep attempting the roll to turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to a lower hip position with more emphasis on hip-to-hip contact rather than chest pressure. Use your near-side arm to block their far hip more aggressively, preventing the hip elevation that powers the roll. Consider transitioning to kesa gatame or scarf hold variations where your body positioning makes the turn mechanically more difficult. You can also bait the roll by slightly loosening pressure, then immediately following with pre-positioned grips to convert their escape into a back take."
@@ -80,7 +80,7 @@ description: "How to defend against Roll to Turtle in BJJ. Recognition cues, cou
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully reaches turtle but you maintained chest contact throughout - what should you prioritize?",
+      "name": "They reach turtle but you kept chest contact throughout — what should you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize establishing the seatbelt grip immediately while keeping your chest heavy on their upper back. Do not let them settle into a tight defensive turtle. Drive your weight forward and down to collapse their structure while threading your arms for control. If they have already closed elbows to knees, work to insert your near hook while using chest pressure to prevent their granby roll or sit-out. The first five seconds after they reach turtle are critical - they are still organizing their defensive structure and most vulnerable to back control establishment."

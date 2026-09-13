@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "Your opponent begins extracting their trapped arm as you release the Darce grip to switch - how do you respond?",
+        "question": "As you release the darce grip to switch, they start extracting the arm. How do you respond?",
         "answer": "Immediately abandon the switch and secure front headlock control using a crossface or snap-down with your free hand. Do not chase the arm extraction while in the middle of a grip transition, as this creates a scramble you are likely to lose. Once front headlock control is re-established with their head controlled, reassess whether to re-enter the Darce, attempt the Anaconda from a fresh entry, or pursue a different front headlock attack like a guillotine or go-behind to back control.",
         "answer_line": "Abandon switch, secure headlock",
         "distractors": {
@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "How does the arm threading path differ between the Darce and Anaconda configurations during this switch?",
+        "question": "How does the arm threading path differ between the darce and anaconda in this switch?",
         "answer": "The Darce arm threads under the opponent's armpit from behind, crosses the back of the neck, and the hand locks on the far side near the opposite shoulder. The Anaconda arm threads under the opponent's near-side arm from the front, circles around the front and side of the neck, and the hand locks on the far side. The key difference is the direction of approach to the neck: Darce attacks from behind the neck while Anaconda attacks from the front. During the switch, the arm must withdraw from the behind-neck path and re-enter along the front-neck path.",
         "answer_line": "Darce behind neck, Anaconda front",
         "distractors": {
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "If the Anaconda configuration is also successfully defended after completing the switch, what chain attacks should you pursue?",
+        "question": "After switching to the anaconda and having it defended too, what chains should you pursue?",
         "answer": "If the Anaconda is also defended, you have several high-percentage chain options: initiate the Anaconda roll-through to achieve side control and continue attacking from a dominant position, transition to Dead Orchard control by stepping over the opponent's back for an enhanced finishing angle, switch back to the Darce if the opponent's Anaconda defense has re-exposed the Darce angle, or abandon the choke entirely and take the back by sliding your hooks in as the opponent turtles defensively. The key principle is never staying in a defended position - always flow to the next attack.",
         "answer_line": "Never stay, flow to next attack",
         "distractors": {
@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "How does your hip position need to change when transitioning from the Darce finishing angle to the Anaconda finishing angle?",
+        "question": "How must your hips change moving from the darce finishing angle to the anaconda angle?",
         "answer": "The Darce typically finishes with your hips positioned on the same side as your choking arm, driving perpendicular to the opponent's spine. The Anaconda finish requires your hips to move toward the opponent's far side, creating a more perpendicular angle from the opposite direction. During the switch, walk your hips around the opponent's body toward their far hip after locking the Anaconda grip. This hip repositioning is often neglected, resulting in practitioners attempting the Anaconda finish from the Darce angle, which lacks the compression needed to complete the choke.",
         "answer_line": "Walk hips to their far side",
         "distractors": {
@@ -386,7 +386,7 @@
         }
       },
       {
-        "question": "Your opponent commits to a deep chin tuck defending both Darce and Anaconda angles - what alternative approach should you consider?",
+        "question": "Their deep chin tuck defends both darce and anaconda angles. What approach should you take?",
         "answer": "When the opponent's chin tuck is neutralizing both choke angles, shift your strategy from choke finishing to positional advancement. Use the existing front headlock control to transition to mount by walking your hips over the opponent's body, take the back by circling behind them and inserting hooks, or advance to north-south for new attacking angles. A committed chin tuck often compromises the opponent's ability to defend positional advances because their arms are occupied protecting their neck. Recognize when submission persistence becomes counterproductive and capitalize on the positional control your grip provides.",
         "answer_line": "Shift to positional advancement",
         "distractors": {
@@ -510,7 +510,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is switching from Darce to Anaconda configuration?",
+        "question": "What is the earliest cue that your opponent is switching from darce to anaconda?",
         "answer": "The earliest cue is feeling the figure-four or gable grip release on the far side of your neck while chest pressure remains constant or even increases. This indicates the attacker is about to withdraw their choking arm to re-thread it along a different path. The grip release precedes the arm withdrawal by a fraction of a second, giving you the earliest possible warning that the transition is beginning. Secondary cues include the attacker's free hand moving to control your head and the choking arm beginning to pull back from behind your neck.",
         "answer_line": "Far-side grip releases first",
         "distractors": {
@@ -538,7 +538,7 @@
         }
       },
       {
-        "question": "You feel the choking pressure reduce but shoulder weight increase during the transition - what should you do immediately?",
+        "question": "During that switch you feel choke pressure drop but shoulder weight rise. What do you do?",
         "answer": "The increased shoulder weight indicates the attacker is compensating for the grip release with body pressure. Immediately use your free hand to push against their hip or shoulder to create enough space for a hip escape. The shoulder weight increase is predictable and means the attacker has committed their weight forward, making them vulnerable to being rolled if you can establish an underhook or create enough hip angle. Do not wait for the choking pressure to return in a new form - act during the pressure differential when the choke is absent but the weight is present.",
         "answer_line": "Push hip, create escape space",
         "distractors": {
@@ -566,7 +566,7 @@
         }
       },
       {
-        "question": "What is the biggest mistake defenders make when they successfully prevent the Anaconda grip from locking?",
+        "question": "After successfully blocking the anaconda grip, what mistake do defenders most often make?",
         "answer": "The biggest mistake is relaxing after preventing the grip and allowing the attacker to settle back into Darce control or attempt the switch again. Successfully blocking the Anaconda threading only buys time - it does not resolve the underlying front headlock control problem. After preventing the grip, immediately work to escape the entire position through arm extraction, posture recovery, or guard pull. If you remain in front headlock control, the attacker will simply reset and attempt the switch or another attack from the same dominant position.",
         "answer_line": "Relaxing after blocking grip",
         "distractors": {

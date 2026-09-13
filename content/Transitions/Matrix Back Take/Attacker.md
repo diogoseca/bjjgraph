@@ -74,7 +74,7 @@ description: "How to execute the Matrix Back Take in BJJ. Attacking perspective 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical connection point to maintain throughout the entire matrix back take transition?",
+      "name": "Which connection point must you keep throughout the matrix back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The near-side arm threaded under the opponent's armpit and anchored against their ribs is the most critical connection point. This arm acts as the anchor that prevents the opponent from turning into you while your body slides around them during the hip slide phase. Without maintaining this connection, the opponent can easily rotate toward you and eliminate the back take opportunity entirely, potentially recovering guard or achieving top position."
@@ -90,7 +90,7 @@ description: "How to execute the Matrix Back Take in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent sits back heavily onto their heels as you attempt to thread your leg through the elbow-knee gap. How should you respond?",
+      "name": "They sit back onto their heels as you thread a leg through the elbow-knee gap: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should immediately abandon the matrix entry and switch to a traditional seat belt back take or truck entry rather than forcing the slide. Use your near-side arm control to pull the opponent forward and off their base, which will either create the space needed to re-attempt the matrix entry from a better angle or set up an alternative back take method. Forcing the technique when the opponent has closed the entry gap will result in loss of position."
@@ -98,7 +98,7 @@ description: "How to execute the Matrix Back Take in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What makes the matrix back take particularly effective against experienced turtle defenders compared to traditional back take entries?",
+      "name": "Why does the matrix back take beat experienced turtle defenders better than standard entries?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The matrix back take bypasses traditional defensive frames through dynamic angular movement rather than attempting to fight through them with static pressure. Experienced turtle defenders excel at maintaining tight elbow-to-knee structure and defending against direct seat belt entries, but the matrix slide creates an entirely different angle of attack that circumvents their usual defensive structures. The fluid, continuous movement through the elbow-knee gap makes it very difficult for defenders to counter once the sequence has begun."
@@ -114,7 +114,7 @@ description: "How to execute the Matrix Back Take in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins turning aggressively toward you during the hip slide. What is your immediate response?",
+      "name": "They turn aggressively into you during the matrix hip slide: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your arm and leg connections and allow the turn to happen while staying connected. Their turning motion can transition you naturally into front headlock or darce control position, where you can either finish a submission or re-establish turtle top for another entry attempt. The key is that your threading arm stays anchored against their ribs, which means their turn pulls you with them rather than separating you. Never release your connections to try to fight the turn with static resistance."
@@ -431,7 +431,7 @@ The matrix back take is generally safe when practiced with proper control and aw
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced back take entry from specific guard positions using matrix movement pattern</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced back take entry from specific guard positions using matrix movement pattern</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

@@ -64,7 +64,7 @@ description: "How to defend against Bow and Arrow Choke Setup in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your attacker reaches for your collar with their free hand - should you prioritize stripping this grip or protecting your neck?",
+      "name": "They reach for your collar from gift wrap: strip the grip or protect your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must address both threats simultaneously rather than choosing one exclusively. Use your free hand to contest the collar grip by pushing their reaching hand away or peeling fingers from the collar material. At the same time, maintain passive neck defense through chin tuck and shoulder elevation on the choking side. Committing entirely to collar defense leaves the neck exposed to rear naked choke if the attacker switches attacks. Committing entirely to neck defense allows uncontested collar grip establishment."
@@ -80,7 +80,7 @@ description: "How to defend against Bow and Arrow Choke Setup in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "You feel the Gift Wrap pressure decrease on your trapped arm during the collar grip attempt - what should you do?",
+      "name": "The gift wrap pressure eases as they hunt the collar grip: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately attempt to recover the trapped arm using shoulder rotation and hip shrimping mechanics. The decreased Gift Wrap pressure indicates the attacker is shifting control emphasis to the collar grip, creating a recovery window for the trapped arm. If you can free the arm before the collar grip is fully established, you restore two-handed defensive capability that dramatically reduces the success probability of any subsequent collar grip or choke attempt. Time this recovery explosively, as the window is brief."
@@ -88,7 +88,7 @@ description: "How to defend against Bow and Arrow Choke Setup in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "The attacker has established a deep collar grip and begins rotating their hips - what are your remaining defensive options?",
+      "name": "They have a deep collar grip and start rotating their hips: what defenses remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is to address the hip rotation rather than attempting to strip the secured collar grip. Turn aggressively toward the attacker to prevent the perpendicular angle from completing. Simultaneously, use your free hand to control their far-side knee or hip to prevent them from securing the leg control that completes the bow and arrow framework. If you cannot prevent the angle, execute an emergency hip escape toward turtle position to break the back control configuration before the finish can be applied."

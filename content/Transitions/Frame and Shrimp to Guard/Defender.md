@@ -72,7 +72,7 @@ description: "How to defend against Frame and Shrimp to Guard in BJJ. Maintain l
     },
     {
       "@type": "Question",
-      "name": "Your opponent fires an explosive shrimp and creates significant hip separation—should you chase or transition?",
+      "name": "They shrimp explosively out of your leg drag — chase the leg or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition rather than chase. If a single explosive shrimp creates meaningful separation, trying to re-establish leg drag control from the new distance is a losing proposition—they will chain additional shrimps while you chase. Instead, immediately release the leg and drive into side control consolidation before they can insert a knee or establish guard. Converting to side control preserves your dominant position."

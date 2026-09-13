@@ -56,7 +56,7 @@ description: "Defend and counter the New York entry from Rubber Guard. Learn to 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel the bottom player's shin grip loosen and their hip flexors engage more firmly. What does this tell you and what should you do immediately?",
+      "name": "In rubber guard, their shin grip loosens as their hip flexors engage — what does it mean, and do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This combination of loosening grip and increased hip engagement is the primary recognition cue that a New York entry is about to be attempted. The bottom player is testing whether their hip flexors can maintain shin pressure independently before committing to the threading motion. You should immediately retract your trapped arm toward your hip and begin fighting for posture with your free hand. Acting during this testing phase, before the actual threading begins, provides your best window for preventing the transition entirely."
@@ -64,7 +64,7 @@ description: "Defend and counter the New York entry from Rubber Guard. Learn to 
     },
     {
       "@type": "Question",
-      "name": "The bottom player has caught a shallow overhook around your elbow but has not achieved shoulder-to-armpit depth. What is your recovery window and how do you exploit it?",
+      "name": "They've caught a shallow overhook at your elbow, not shoulder-deep — your window and how to use it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A shallow overhook is still extractable but the window closes rapidly. Immediately pull your elbow in a corkscrew motion toward your hip while driving your shoulder forward to create angular resistance against the overhook deepening. Simultaneously use your free hand to frame on their overhook shoulder, preventing them from swimming deeper. You have approximately 3-5 seconds before they can work the overhook to full depth. If extraction fails in this window, the overhook will lock and New York will be established."
@@ -72,7 +72,7 @@ description: "Defend and counter the New York entry from Rubber Guard. Learn to 
     },
     {
       "@type": "Question",
-      "name": "What is the primary danger of driving forward aggressively when the bottom player releases their shin grip to begin threading?",
+      "name": "What's the main risk of driving forward as they release the shin grip to thread the overhook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "While forward pressure can flatten the bottom player and break the guard structure when timed correctly, it also carries the risk of accelerating the overhook establishment. If the bottom player anticipates the forward drive, they can use your momentum to bring your arm deeper into threading range, making the overhook catch faster and deeper than it would have been from a static position. The forward drive must be timed precisely during the release phase, not during the actual swimming motion, to be effective as an escape."
@@ -88,7 +88,7 @@ description: "Defend and counter the New York entry from Rubber Guard. Learn to 
     },
     {
       "@type": "Question",
-      "name": "If the New York entry succeeds despite your defense, what is your immediate priority in the newly established position?",
+      "name": "The New York entry succeeds despite your defense — what's your immediate priority there?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the overhook from deepening further and blocking the progression to more advanced positions like Invisible Collar or Zombie. Use your free hand to grip-fight the shin-gripping hand, widen your base, and begin the systematic escape sequence for New York Top: establish base, fight for posture, extract overhook. Do not panic or attempt explosive escapes, as the New York position punishes uncontrolled movement with submission entries. Accept you are now in a defensive position and commit to methodical escape."

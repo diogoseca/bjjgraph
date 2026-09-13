@@ -106,7 +106,7 @@ description: "How to execute Guillotine Counter in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Why is hand control on the choking wrist or forearm essential, and what happens if this control is neglected?",
+      "name": "Countering a guillotine, why control the choking wrist, and what happens if you neglect it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hand control on the choking arm prevents opponent from making micro-adjustments to their grip that could dramatically increase the choke's effectiveness. Without this control, opponent can transition between guillotine variations (standard to high elbow to arm-in), adjust the angle of their forearm against your neck, or use their free hand to assist the choke. The choking arm control also provides you with feedback about their intentions and creates a physical barrier that limits how much they can tighten the submission."
@@ -114,7 +114,7 @@ description: "How to execute Guillotine Counter in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Explain the biomechanical relationship between your forward pressure and the opponent's ability to generate choking force?",
+      "name": "How does your forward pressure undermine their ability to generate choking force in the guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The guillotine choke requires opponent to create a lifting or arching motion with their torso to generate the upward pressure that closes your windpipe against their forearm. Forward pressure directly opposes this motion by driving their chest and shoulders flat to the mat, preventing them from achieving the arch. Additionally, forward pressure shifts your body weight through their core, making it mechanically difficult for them to lift or create the specific angle needed. The more vertical and flat their torso becomes, the less leverage they have on the choke."

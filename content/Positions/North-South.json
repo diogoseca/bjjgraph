@@ -55,7 +55,7 @@
       "relationship": "Alternative scarf hold pin with different control mechanics"
     },
     {
-      "name": "Reverse Kesa-Gatame",
+      "name": "Ushiro Kesa Gatame",
       "relationship": "Reverse scarf hold variation with inverted alignment"
     },
     {
@@ -375,7 +375,7 @@
         }
       },
       {
-        "question": "Your opponent starts creating frames with their forearms against your chest - what adjustment do you make?",
+        "question": "In North-South, they build forearm frames against your chest - how do you adjust?",
         "answer": "When frames are being established, you have two primary options: either collapse the frames by driving your chest pressure forward and angling your shoulders to slip past their forearms, or recognize this as a signal to transition to mount or side control. Fighting against established frames wastes energy - instead, use their frame creation as a trigger to advance position by stepping over to mount when they commit both arms to framing. Their framing arms cannot simultaneously block your leg step-over.",
         "answer_line": "Step over to mount as they frame",
         "distractors": {
@@ -417,7 +417,7 @@
         }
       },
       {
-        "question": "Your opponent explosively bridges and you feel yourself being lifted - what is your immediate response?",
+        "question": "In North-South, they bridge explosively and lift you - what is your immediate response?",
         "answer": "Immediately sprawl your hips back and widen your base, using your hands to post on the mat if needed. Ride the bridge rather than fighting it directly - their bridge will fail within 1-2 seconds due to fatigue. As they return to the mat, immediately reestablish your chest pressure and tighten your arm control. If the bridge was strong enough to create space, consider transitioning to mount during their descent when their energy is momentarily depleted.",
         "answer_line": "Sprawl, ride the bridge out",
         "distractors": {
@@ -793,7 +793,7 @@
         }
       },
       {
-        "question": "Your opponent's weight is crushing your chest and you're struggling to breathe - what adjustment do you make?",
+        "question": "Under North-South, their weight is crushing your chest - how do you adjust to breathe?",
         "answer": "Turn your body slightly to one side rather than remaining flat on your back - this angles your rib cage and creates space for lung expansion. Combine this with forearm frames against their chest to maintain the space. Time your inhales during their micro-adjustments or weight shifts, and exhale during their heavy pressure phases. Small incremental hip escapes also progressively reduce the chest-to-chest contact area.",
         "answer_line": "Turn slightly, frame to breathe",
         "distractors": {
@@ -877,7 +877,7 @@
         }
       },
       {
-        "question": "Your escape attempt is partially successful and you've created some space - how do you prevent them from re-consolidating control?",
+        "question": "You've made space escaping North-South - how do you stop them re-consolidating control?",
         "answer": "Immediately insert your knee or both knees between your bodies before they can close the distance. Maintain your frames throughout - the space you created is worthless without frames to keep it. Continue your hip escape to increase the distance. If they drive forward to re-consolidate, use the momentum to complete your turn toward guard recovery. Never pause or rest in a partial escape position - maintain constant motion toward a stable guard.",
         "answer_line": "Insert knees, keep moving to guard",
         "distractors": {
@@ -914,7 +914,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the North-South position and distinguishes it from side control?",
+      "question": "What body alignment defines North-South and distinguishes it from side control?",
       "answer": "North-South is defined by perpendicular, head-to-head body alignment in which the top player's torso faces the opposite direction from the bottom player, chest draped over the opponent's head and upper chest. Unlike side control, where the bodies lie roughly parallel and the top player faces the opponent's side, North-South positions the two heads near each other with torsos pointing away from one another. This 180-degree opposition is what gives the position its name and its signature downward compression across the sternum and shoulders. The perpendicular geometry trades some transitional fluidity for a uniquely heavy, breathing-restricting pin.",
       "answer_line": "Perpendicular, head-to-head bodies",
       "distractors": {
@@ -942,7 +942,7 @@
       }
     },
     {
-      "question": "Why does the perpendicular alignment of North-South limit certain transitions compared with parallel pins?",
+      "question": "Why does North-South's perpendicular alignment limit transitions compared with parallel pins?",
       "answer": "Because the bodies point in opposite directions, the top player cannot simply slide a knee across the belt line the way they would from a parallel pin like side control. Reaching mount or knee-on-belly requires first rotating roughly ninety degrees back toward the opponent's hips, which momentarily reduces chest pressure and creates a window. This is why North-South is often treated as a checkpoint rather than an endpoint. The same geometry that makes the pin heavy and hard to escape also makes advancing out of it more committal for the top player.",
       "answer_line": "Must rotate 90° to advance",
       "distractors": {
@@ -1012,7 +1012,7 @@
       }
     },
     {
-      "question": "How does North-South relate to the surrounding pinning positions like side control, mount, and turtle?",
+      "question": "How does North-South relate to side control, mount, and turtle?",
       "answer": "North-South sits within a web of dominant pins as a rotational hub: it is commonly entered from side control by circling to the head, and it can advance to mount or knee-on-belly by rotating back down toward the hips. When the bottom player turns inward to escape the pressure, they frequently expose their back and end up in turtle, opening back-take opportunities. This positions North-South as a connective checkpoint rather than a dead-end, sharing escape and control principles with side control while offering distinct perpendicular pressure that the parallel pins do not.",
       "answer_line": "Rotational hub linking pins",
       "distractors": {

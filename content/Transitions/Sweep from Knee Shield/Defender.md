@@ -88,7 +88,7 @@ description: "Learn to defend and counter the Sweep from Knee Shield in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "The bottom player creates a strong angle after hip escaping—how do you shut down the sweep from this position?",
+      "name": "Passing knee shield half guard: how do you kill the sweep once they hip escape to an angle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their hip escape by adjusting your body angle to match theirs—do not let them achieve an angle advantage. Drive your crossface pressure into the direction they escaped to flatten them back square. Simultaneously control their near-side arm with your free hand to prevent or remove the underhook. If their angle is already established, consider switching your passing approach to match the new geometry rather than fighting back to the original alignment."

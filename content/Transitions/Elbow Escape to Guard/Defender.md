@@ -64,7 +64,7 @@ description: "How to prevent and counter the Elbow Escape to Guard in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Your choking pressure is being reduced by the elbow wedge but the bottom player has not yet hip escaped—what is your best response?",
+      "name": "Their elbow wedge is easing your choke but they have not hip escaped — best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attempt to strip the wedge by driving your choking forearm deeper and rotating your wrist to slide past the elbow point. Simultaneously increase perpendicular chest pressure to pin them before they can begin the hip escape. If stripping fails within 2-3 seconds, immediately transition your strategy—either follow their anticipated hip escape direction or begin converting to back control before they create significant space."
@@ -80,7 +80,7 @@ description: "How to prevent and counter the Elbow Escape to Guard in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the bottom player from chaining multiple hip escapes to progressively create space?",
+      "name": "How do you stop the bottom player chaining hip escapes to build space under your choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow each hip escape by walking your hips and chest with them, maintaining chest-to-back connection throughout. Keep your head glued to their far shoulder as an anchor point—if your head stays connected, your body follows. Use short lateral steps rather than jumping to follow, which could create momentary airspace. The goal is to deny any cumulative space creation by matching their movement step for step."
@@ -88,7 +88,7 @@ description: "How to prevent and counter the Elbow Escape to Guard in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "What adjustment prevents the gi-reinforced elbow wedge variant where the bottom player grabs their own collar?",
+      "name": "How do you stop the gi elbow wedge where they grip their own collar to reinforce it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must prevent the collar grip by controlling their wedging hand before it reaches the collar. If you feel the elbow wedge insert, immediately grab their wrist or hand with your free hand and pull it away from their collar before they can establish the reinforcing grip. Once the collar grip locks in, the wedge becomes extremely difficult to strip because it's no longer dependent on arm strength alone—the gi material provides structural reinforcement."

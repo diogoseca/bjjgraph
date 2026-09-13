@@ -74,7 +74,7 @@ description: "Execute the ankle lock counter with expert technique. Step-by-step
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the very first action you must take when caught in straight ankle lock control before any grip fighting?",
+      "name": "Caught in a straight ankle lock, what must you do first, before any grip fighting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish boot defense by immediately plantarflexing your trapped foot, pointing your toes downward and tucking them behind or under the attacker's armpit. This removes the dorsiflexion angle needed for the submission finish and creates the structural foundation for all subsequent counter work. Grip fighting without boot defense leaves you vulnerable to the finish."
@@ -82,7 +82,7 @@ description: "Execute the ankle lock counter with expert technique. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Why is driving forward toward the attacker more effective than pulling backward to escape the ankle lock?",
+      "name": "Why is driving forward into the ankle lock attacker better than pulling your foot backward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling backward extends your ankle into the exact breaking angle the attacker needs, tightening their grip and increasing submission leverage. Driving forward compresses the attacker's guard, eliminates their arching space needed for finishing mechanics, and weakens their grip by stacking their hips. Forward pressure simultaneously defends the submission and initiates the guard pass, while backward movement only helps the attacker."
@@ -98,7 +98,7 @@ description: "Execute the ankle lock counter with expert technique. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins threading their inside leg behind your knee as you drive forward. What adjustment do you make?",
+      "name": "As you drive forward, they thread their inside leg behind your knee. What adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately redirect your hip angle by stepping your free leg laterally rather than continuing straight forward. The attacker is transitioning to inside ashi-garami, using your forward momentum to help establish the more dominant entanglement. Stepping laterally denies the inside leg position before it completes. If the inside leg is already deep, accelerate your pass to clear their guard entirely before they can consolidate the new position."

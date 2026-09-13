@@ -72,7 +72,7 @@ description: "Master defending the far side armbar from knee on belly. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What should you prioritize if the attacker has already captured your far wrist and is beginning to sit back?",
+      "name": "They've captured your far wrist from KOB and are sitting back: what do you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the attacker is sitting back with your wrist captured, immediately bend your elbow and rotate your thumb toward the ceiling to strengthen the joint structure. Simultaneously reach your free hand to grip your own wrist, creating a two-hand defensive connection. Then focus on controlling the leg across your face by pushing it toward the attacker's body. Finally, bridge your hips and begin turning toward the trapped arm to initiate a stack defense or hitchhiker escape sequence."
@@ -88,7 +88,7 @@ description: "Master defending the far side armbar from knee on belly. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What escape opportunities become available if you successfully prevent the far side armbar but remain under knee on belly?",
+      "name": "You blocked the far side armbar but are still under KOB: what escapes open up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After blocking the armbar attempt, the attacker's grip structure has been disrupted and they need to re-establish collar and belt control. This grip transition creates a window for standard knee on belly escapes: frame on the knee and hip escape to recover guard, turn into the attacker for an underhook, or use the momentary instability to initiate a technical stand-up. The failed armbar attempt actually improves your escape chances because the attacker must rebuild their entire control framework from scratch."

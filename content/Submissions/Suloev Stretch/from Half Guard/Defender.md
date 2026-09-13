@@ -58,7 +58,7 @@ description: "How to defend against Suloev Stretch in BJJ. Recognition, escape p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a Suloev Stretch is being set up, and what should your immediate response be?",
+      "name": "What is the earliest cue that a Suloev Stretch is coming, and how should you react?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is your opponent cupping or controlling your lower leg or ankle from top half guard rather than working standard passing grips. This indicates they are isolating your leg for a compression attack. Your immediate response should be to straighten the targeted leg forcefully, pushing your heel away from your buttocks while framing against their chest or hips to prevent them from driving forward. Simultaneously, work to recover your knee shield or full guard to remove the leg isolation that enables the entry."
@@ -66,7 +66,7 @@ description: "How to defend against Suloev Stretch in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "At what point during the Suloev Stretch should you tap rather than continue attempting to escape, and why is this decision critical?",
+      "name": "When should you tap to the Suloev Stretch instead of escaping, and why does that timing matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should tap immediately once the figure-four is fully locked (ankle hooked, knees squeezed) and the attacker begins applying hip extension pressure that you cannot prevent through leg straightening or rotation. At this stage, the compression forces on the posterior knee joint (PCL) and calf muscle escalate extremely rapidly with each degree of hip extension. Attempting late-stage escapes - bridging, rolling, or explosive movement - with the lock secured adds rotational forces to existing compression, dramatically increasing the risk of PCL tears, meniscus damage, and calf muscle tears. The window between 'feeling pressure' and 'injury occurring' is very small with this submission."
@@ -74,7 +74,7 @@ description: "How to defend against Suloev Stretch in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "Why is straightening the trapped leg considered the highest-percentage early defense against the Suloev Stretch?",
+      "name": "Why is straightening the trapped leg the best early defense to the Suloev Stretch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Straightening the leg removes the fundamental mechanical requirement of the submission - the bent knee angle that allows calf-to-hamstring compression. The Suloev Stretch requires the knee to be bent at approximately 90-120 degrees to create the dual compression of the calf muscle against the hamstring and bending stress on the posterior knee. When the leg is straight, neither compression mechanism can function, and the attacker's figure-four loses its mechanical advantage entirely. This defense is most effective before the figure-four is locked, as the leg configuration hasn't yet created a structure that prevents extension."
@@ -82,7 +82,7 @@ description: "How to defend against Suloev Stretch in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "How does turning toward the attacker help neutralize the Suloev Stretch, and what are the risks of attempting this defense too late?",
+      "name": "How does turning toward the attacker beat the Suloev Stretch, and what is the risk of doing it late?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning toward the attacker disrupts the perpendicular 'T' shape body position that generates the compression force. The Suloev Stretch requires the attacker's hips to extend forward in line with the trapped leg's compression axis. When you rotate toward them, this axis shifts and the hip extension drives at an angle rather than directly into the compression, significantly reducing submission effectiveness. The risk of attempting this late (after the figure-four is locked and pressure has begun) is that the rotation adds torsional force to the knee joint that is already under compression stress, potentially causing meniscus damage or ACL/PCL injury from the combined rotational and compression forces."
@@ -90,7 +90,7 @@ description: "How to defend against Suloev Stretch in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "What defensive training approach best prepares you to handle Suloev Stretch attempts in live sparring?",
+      "name": "How should you train defense against the Suloev Stretch for live rolling?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective training approach focuses on recognition and early-stage prevention rather than late-stage escape drilling. Begin by having a partner slowly demonstrate the entry sequence so you can identify each recognition cue - the ankle control, the step-over, the figure-four establishment. Then drill immediate responses at each stage: leg straightening against ankle control, framing and leg extraction against the step-over, and rotation against partial figure-four. Progressively increase the speed and resistance of your partner's entries. Critically, always tap immediately once the lock is fully established in training - do not practice 'escaping' from a fully locked Suloev Stretch, as this builds dangerous habits that can lead to injury."
@@ -98,7 +98,7 @@ description: "How to defend against Suloev Stretch in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "What is the earliest and most important warning sign that you are being attacked with a Suloev Stretch?",
+      "name": "What is the earliest warning sign that you are caught in a Suloev Stretch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The fold of your lower leg with your heel being driven toward your own buttock; recognizing this before the figure-four locks is your best chance to straighten the leg and escape safely."

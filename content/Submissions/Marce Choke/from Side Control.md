@@ -323,8 +323,7 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 - [[Positions/North-South]]
 - [[Positions/Side Control/Kesa Gatame]]
 - [[Positions/Knee on Belly]]
-- [[Positions/Side Control/Scarf Hold Position]]
-- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 
 
 </section>

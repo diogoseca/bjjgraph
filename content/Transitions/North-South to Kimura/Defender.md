@@ -64,7 +64,7 @@ description: "How to defend against North-South to Kimura in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker slide their hand under your arm and grip your wrist - what is your immediate response?",
+      "name": "They slide a hand under your arm and grip your wrist for the North-South Kimura: immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clasp your hands together or grab your own belt, shorts, or gi lapel with the threatened hand to create an anchor that prevents the cross-body feed. Simultaneously, use your free arm to frame against the attacker's chest or shoulder to create distance. This two-part defense addresses both the immediate grip threat and the positional pressure. However, recognize this is a temporary defense - the attacker will switch attacks to force you to release. Be prepared to transition to a different defensive response when they change their approach."
@@ -72,7 +72,7 @@ description: "How to defend against North-South to Kimura in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "When should you attempt to bridge during the North-South to Kimura transition, and why is timing critical?",
+      "name": "Defending the North-South Kimura, when should you bridge and why is that timing critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal bridging window occurs when the attacker shifts their weight laterally to establish the figure-four grip, which temporarily narrows their base and moves their center of gravity to one side. Timing is critical because bridging against a settled attacker with wide base and forward weight is nearly impossible - your bridge cannot generate enough force to displace their distributed weight. However, during their grip transition, their weight shifts create a brief vulnerability where a directional bridge toward their Kimura side can disrupt their balance and potentially allow arm recovery or positional escape."
@@ -88,7 +88,7 @@ description: "How to defend against North-South to Kimura in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked the figure-four grip and is beginning to walk their knees toward your head - what are your remaining options?",
+      "name": "They've locked the figure-four and are walking their knees toward your head: what options remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this advanced stage, your options are limited but not zero. First, attempt an explosive bridge toward their Kimura side before they complete the angle adjustment, as this is your last window before the grip becomes fully operational. Second, turn hard into the attacker and fight to insert your knee for half guard, accepting the risk of potential back exposure. Third, straighten your arm forcefully to open the figure-four loop, understanding that this may expose you to an armbar switch. The key is immediate action - any delay at this stage allows the attacker to complete the Kimura Trap position where escape probability drops below 15%."

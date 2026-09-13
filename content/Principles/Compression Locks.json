@@ -496,5 +496,22 @@
       "duration": 124,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Compression Locks applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "slicer",
+      "compression lock",
+      "muscle compression",
+      "calf crush",
+      "bicep compression"
+    ],
+    "families": [
+      "Bicep Slicer",
+      "Calf Slicer",
+      "Arm Crush",
+      "Kesa Gatame Arm Crush"
+    ]
+  }
 }

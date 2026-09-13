@@ -64,7 +64,7 @@ description: "How to defend against Snap Down to Front Headlock in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent loading your weight forward with a slight pull before the explosive snap - what should you do?",
+      "name": "You feel them loading your weight forward just before the snap down: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The loading phase is your critical reaction window. Immediately recover posture by driving your hips underneath you and pulling your head back while simultaneously stripping their grip with a two-on-one break. Alternatively, use their forward pull as timing for a level change and shoot a takedown, since their weight commitment forward compromises their ability to sprawl. The worst response is to simply resist the pull with muscular tension, as this gives them the resistance they need to time the explosive snap."
@@ -72,7 +72,7 @@ description: "How to defend against Snap Down to Front Headlock in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "After being successfully snapped down, why is it dangerous to immediately try to stand up without controlling the attacker's choking arm?",
+      "name": "After being snapped down, why is standing up dangerous without controlling their choking arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standing up without controlling the choking arm is dangerous because the upward extension of your body tightens any neck control the attacker has, particularly guillotine-style grips. As you drive upward, your neck extends against their forearm, essentially finishing the choke for them. You must first secure the choking arm at the wrist or elbow, pulling it away from your neck to create space, before attempting to stand. Controlling the arm neutralizes the submission threat during your posture recovery."

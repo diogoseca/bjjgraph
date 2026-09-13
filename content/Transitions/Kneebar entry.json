@@ -253,7 +253,7 @@
         }
       },
       {
-        "question": "Your opponent begins bending their knee and pulling back as you initiate the entry - how do you respond?",
+        "question": "They bend the knee and pull back as you enter the kneebar; how do you respond?",
         "answer": "Maintain tight ankle grip and follow their leg movement with your hips, staying connected. If they successfully retract, their heel often becomes exposed as they bend the knee - immediately transition back to heel hook attack before they can re-establish defense.",
         "answer_line": "Follow hips, then attack heel",
         "distractors": {
@@ -295,7 +295,7 @@
         }
       },
       {
-        "question": "Opponent turns toward you and starts to come on top during your entry - what adjustment prevents this counter?",
+        "question": "They turn toward you and start coming on top during your kneebar entry; what stops it?",
         "answer": "Your inside leg hook behind their hip or across their body is specifically designed to prevent this turn. If they begin rotating, drive your inside leg hook deeper and use it to off-balance them. You can also accept the scramble and transition to back take as they rotate.",
         "answer_line": "Drive inside leg hook deeper",
         "distractors": {
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "Your opponent has strong inside position and you cannot easily access their heel - what sequence initiates the kneebar entry?",
+        "question": "They have strong inside position in 50-50; what first move opens your kneebar entry?",
         "answer": "When opponent controls inside position, shrimp your hips to create a 45-degree angle while maintaining ankle grip. This angular shift bypasses their inside control advantage and opens the path to triangling your legs above their knee. The hip angle is the critical first movement that makes the entry possible despite their positional advantage.",
         "answer_line": "Shrimp to 45-degree angle",
         "distractors": {
@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "What grip adjustment is required when transitioning from heel hook attempt to kneebar entry mid-exchange?",
+        "question": "What grip change is needed switching from heel hook to kneebar entry mid-exchange?",
         "answer": "Shift your grip from cupping the heel to controlling the ankle and lower shin area. Your heel-cupping hand slides to the Achilles while your other hand reinforces from the top of the foot. This grip repositioning secures their foot for the armpit trap rather than heel exposure, and must happen smoothly without releasing all control.",
         "answer_line": "Slide grip from heel to ankle",
         "distractors": {
@@ -491,7 +491,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is switching from heel hook to kneebar entry?",
+        "question": "What is the earliest cue your opponent is switching from heel hook to kneebar entry?",
         "answer": "The earliest cue is the grip change - when the attacker shifts from cupping your heel to controlling your ankle and lower shin, they are repositioning for the foot trap. Simultaneously, you will feel them shrimping their hips away to create a perpendicular angle. React to the grip change immediately by bending your knee.",
         "answer_line": "Grip shifts from heel to ankle",
         "distractors": {
@@ -505,7 +505,7 @@
         }
       },
       {
-        "question": "Your opponent has trapped your foot in their armpit but has not yet triangled their legs - what is the highest percentage defense?",
+        "question": "They trapped your foot in their armpit but have not triangled their legs; best defense?",
         "answer": "Turn your hips aggressively toward the attacker while using your free hand to post on their hip and push. This combines hip rotation to collapse their angle with hand pressure to create space for foot extraction. The key is acting before the leg triangle closes above your knee, as once both controls are set, escape probability drops significantly.",
         "answer_line": "Turn in, post hand, pull foot free",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "The kneebar is fully locked with both foot trap and leg triangle established - what emergency defense gives you the best chance of survival?",
+        "question": "The kneebar is locked with foot trap and leg triangle; what emergency defense remains?",
         "answer": "Clasp both hands around your own knee to resist the extension, then drive your hips forward toward the attacker to reduce the hyperextension angle. Simultaneously try to peel their top leg off your thigh by pushing at the knee. This is a survival position only - if you cannot create meaningful improvement within a few seconds, tap immediately to protect your knee ligaments.",
         "answer_line": "Clasp knee, drive hips forward",
         "distractors": {

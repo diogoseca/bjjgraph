@@ -162,6 +162,15 @@ export class Journey {
        *  ingest. For journeys about the PRE-PAINT window (a visitor who leaves while the loader
        *  is still up) — the readiness gate is downstream of everything such a test observes. */
       unready?: boolean;
+      /** boot the PRE-SPLIT graph: one hub node per site, no derived pair. This replaced
+       *  `?dual=legacy` in v1.158.1, when that query param was deleted — the app now reads no
+       *  parameter that can change the render, and `window.__NEURAL_NO_PAIRS__` is reachable only
+       *  from here. It exists for ONE caller, `dual-consumers.spec.ts`, which needs the same build
+       *  booted twice to diff the pre-split graph against the paired one; that differential is the
+       *  oracle for the `cal.ev` index-remap trap (CLAUDE.md 6.6). The flag is re-registered on
+       *  EVERY boot, true or false, and Playwright runs init scripts in registration order, so the
+       *  latest boot's value wins and a `noPairs` boot can never leak into the next one. */
+      noPairs?: boolean;
     } = {},
   ) {
     if (!(this.page as any).__ngInit) {
@@ -359,6 +368,11 @@ export class Journey {
     // same amount again rather than arriving instantly on the previous boot's accumulated clock.
     this.st.simMs = 0;
     this.st.wallT0 = Date.now();
+    // Re-registered every boot so the LAST registration wins (see `noPairs` above): passing the
+    // value rather than only registering when true is what stops it leaking into a later boot.
+    await this.page.addInitScript((v) => {
+      (window as any).__NEURAL_NO_PAIRS__ = v;
+    }, !!opts.noPairs);
     try {
       await this.page.goto(path, { waitUntil: "commit" });
     } catch {
@@ -696,6 +710,43 @@ export class Journey {
    *  overlays must each re-enable `pointer-events`, it also retries through interception. Both
    *  turned "proven clickable by mouse" into a claim the assertion did not make. This one refuses to
    *  scroll, and names the element that is actually under the cursor when something else is. */
+  /**
+   * The element's laid-out box, waited for rather than snatched.
+   *
+   * `locator.boundingBox()` returns NULL for an element that is present but not yet laid out, or
+   * that was replaced between resolving the locator and measuring it — and the pane re-renders on
+   * deck hydration, which lands later on a slow CI box than on a dev machine. Read straight into
+   * `const box = (await x.boundingBox())!`, that null becomes
+   * `TypeError: Cannot read properties of null (reading 'width')`, which reads like a broken
+   * selector and is really a race. It cost a red curated gate on v1.158.2 that passed on a re-run
+   * of the identical job, with byte-identical app and content.
+   *
+   * `retries: 0` is deliberate here (see playwright.config.ts) — "a retry hides a rails bug" — so
+   * the answer is not to re-run the test, it is to stop reading a box before there is one. This
+   * waits for the element to be visible and to report a real box, then measures once.
+   *
+   * It does NOT weaken anything: an element that never lays out still fails, by timeout, naming
+   * itself. Assert on the returned box exactly as before.
+   */
+  async boxOf(selector: string, what?: string) {
+    const label = what || selector;
+    const loc = this.page.locator(selector);
+    await expect(loc, `${label}: never became visible, so it has no box to measure`).toBeVisible();
+    let box = await loc.boundingBox();
+    if (!box) {
+      // visible but not yet measurable (a re-render landed between the two calls) — one settle
+      await this.page.waitForTimeout(50);
+      box = await loc.boundingBox();
+    }
+    if (!box) {
+      throw new Error(
+        `${label}: visible but reported no bounding box twice. Either an ancestor has zero size, ` +
+        `or the element is being replaced faster than it can be measured.`,
+      );
+    }
+    return box;
+  }
+
   async clickByMouse(selector: string, what?: string) {
     const label = what || selector;
     const hit = await this.page.evaluate((sel) => {
@@ -764,13 +815,17 @@ export class Journey {
       if (idx < 0) throw new Error(`position not found: ${pos}`);
       a.rigStart(idx); // test rail: next startRoll begins here (deterministic role=top)
     }, position);
-    // intro (3.2s) + roll-start toast + landing + options dealt — pump until the hand exists
-    for (let i = 0; i < 12; i++) {
+    // intro (3.2s) + the staged arrival (6.2s, v1.168.0: kicker → name → hand-off) + landing +
+    // options dealt — pump until the hand exists
+    for (let i = 0; i < 16; i++) {
       await this.advance(1000);
-      const n = await this.page.evaluate(
-        () => ((window as W).__neural.optionIdxs || []).length,
-      );
-      if (n > 0) break;
+      const ready = await this.page.evaluate(() => {
+        const a = (window as W).__neural;
+        // Cards mount at the reveal now, before the label hand-off finishes. A journey
+        // that asks to land must reach the visible node, not stop on the intro overlay.
+        return (a.optionIdxs || []).length > 0 && a._arriveGlideUntil == null;
+      });
+      if (ready) break;
     }
     // settle before returning: from here on, the
     // landing question either exists or this state does not ask one

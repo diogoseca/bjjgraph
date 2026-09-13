@@ -70,7 +70,7 @@ description: "How to execute Spine Lock in BJJ. Attacking perspective with setup
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the PRIMARY safety consideration that makes spine locks more dangerous than most joint locks?",
+      "name": "What makes spine locks more dangerous than most joint locks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The spinal column contains the spinal cord and affects multiple vertebrae simultaneously rather than a single joint. Injury to the spine can result in permanent neurological damage, paralysis, or chronic pain conditions that are far more severe than joint injuries. Additionally, spinal injuries often don't provide the same immediate pain feedback as joint locks, meaning opponents may not recognize the danger until damage occurs."
@@ -78,7 +78,7 @@ description: "How to execute Spine Lock in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "What body position must be established before attempting a spine lock, and why is this prerequisite critical?",
+      "name": "What position must be secured before applying a spine lock, and why is that prerequisite critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Truck position must be fully secured with the opponent's leg controlled and their body inverted before attempting compression. This is critical because attempting spinal compression without secure control can result in uncontrolled movement during application, significantly increasing injury risk. The Truck provides the necessary leverage, angle, and stability to apply pressure in a controlled manner."
@@ -86,7 +86,7 @@ description: "How to execute Spine Lock in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "Why must spine lock pressure be applied over 5-7 seconds minimum in training, and what can happen if this guideline is violated?",
+      "name": "Why apply spine lock pressure over at least 5-7 seconds, and what happens if you don't?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Gradual application over 5-7 seconds allows the training partner to recognize the submission and tap safely before injury occurs. The spine doesn't provide immediate pain signals like joints, so slow application is essential for safety awareness. Rapid application can cause disc herniation, vertebral compression fractures, or nerve damage before the opponent can respond. This minimum timeframe also allows both practitioners to maintain control and communication."
@@ -102,7 +102,7 @@ description: "How to execute Spine Lock in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "If an opponent begins explosive scrambling movement while you have spine lock pressure applied, what is the correct immediate response?",
+      "name": "Your opponent scrambles explosively while you have spine lock pressure on: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately reduce all compression pressure to prevent injury during uncontrolled movement. Explosive motion combined with spinal compression can cause severe injury. The practitioner should prioritize safety by releasing pressure, reassessing control, and either re-establishing position properly or transitioning to a different technique. Never maintain submission pressure during chaotic scrambles involving spinal compression."

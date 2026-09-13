@@ -82,7 +82,7 @@ description: "How to defend against Monoplata from Guard in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "When the attacker begins leg threading for the monoplata, what specific defensive action should you take with your body position?",
+      "name": "As the attacker threads their leg for the monoplata, what should you do with your body position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your weight forward into the attacker by stacking your chest onto their guard while simultaneously pulling your trapped elbow tight to your ribs. This forward pressure collapses the space they need to complete the leg threading and prevents them from achieving the perpendicular body angle that powers the submission. Additionally, use your free hand to push on their hip or thigh on the side they are angling toward, disrupting their ability to create the rotation needed for the figure-four. The combination of stacking pressure and arm retraction addresses both the limb isolation and the positional angle simultaneously."
@@ -90,7 +90,7 @@ description: "How to defend against Monoplata from Guard in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "What makes the forward roll escape from monoplata riskier than the same escape from a standard omoplata?",
+      "name": "Why is the forward roll escape riskier from a monoplata than from a standard omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In a standard omoplata, the forward roll relieves shoulder pressure because the attacker's legs are positioned on the outside of your arm and the rolling motion rotates your shoulder back toward neutral. In the monoplata, the figure-four configuration traps your arm between the attacker's legs, so a forward roll can actually increase rotational torque on the shoulder if the attacker maintains the figure-four through the roll. The attacker can follow the roll while keeping the leg lock intact, arriving in a top position with the submission still applied. This makes the forward roll a last-resort option that should only be attempted when the attacker's free leg has not yet blocked your far hip."

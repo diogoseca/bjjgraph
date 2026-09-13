@@ -58,7 +58,7 @@ description: "How to defend against Americana from Mount in BJJ. Recognition, es
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an americana is being set up from mount, and what should your immediate response be?",
+      "name": "What is the earliest cue an americana is coming from mount, and your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent capturing your wrist with their same-side hand while shifting their weight forward onto your chest. Your immediate response should be to use your free hand to attack the grip at the thumb side while simultaneously pulling your captured wrist back toward your chest. You have approximately 1-2 seconds before the figure-four grip is established. If you cannot break the grip immediately, begin bridging toward the trapped arm side to disrupt their base and prevent them from completing the isolation."
@@ -66,7 +66,7 @@ description: "How to defend against Americana from Mount in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "Why should you bridge toward the trapped arm side rather than away from it when defending the americana?",
+      "name": "Why bridge toward the trapped arm side rather than away when defending the americana?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridging toward the trapped arm side is more effective because the attacker has committed their weight forward and to that side to pin your shoulder, creating a narrow base in that direction. Their posting arm is occupied controlling your wrist rather than maintaining base. Bridging into this compromised base has the highest chance of disrupting their position. Bridging the opposite direction drives into their strong side where they have a wider base and better ability to absorb the movement, wasting your energy without meaningful position change."
@@ -74,7 +74,7 @@ description: "How to defend against Americana from Mount in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "If the americana figure-four grip is fully locked and finishing pressure is beginning, what is your emergency defense sequence?",
+      "name": "The americana is locked and pressure is starting — what is your emergency defense sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When caught in a locked americana with pressure being applied, execute the following sequence: First, attempt to straighten your trapped arm fully to remove the 90-degree angle required for the submission - this buys immediate time. Second, if you cannot straighten the arm, clasp your hands together or grab your own lapel to create a connection point that resists the rotation. Third, simultaneously bridge explosively toward the trapped arm side to disrupt the attacker's base. Fourth, use any momentary space created by the bridge to begin hip escaping. You must accept that this is an emergency situation and prioritize immediate action over energy conservation."
@@ -82,7 +82,7 @@ description: "How to defend against Americana from Mount in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "When you straighten your arm to defend the americana, what follow-up threat must you immediately prepare for?",
+      "name": "After straightening your arm to defend the americana from mount, what attack must you expect?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Straightening your arm to defend the americana directly exposes you to the mounted armbar. A skilled attacker will maintain wrist control, swing their leg over your face, and transition to the armbar finish. You must be prepared to immediately bend your arm again and pull it across your chest if you feel them beginning the armbar transition, or follow their rotation and use the positional change to escape mount. The straight arm defense should be viewed as a temporary measure that buys time for a bridge or hip escape, not as a final defensive position."
@@ -90,7 +90,7 @@ description: "How to defend against Americana from Mount in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "What arm positioning should you maintain throughout mount bottom to prevent the americana from being attempted in the first place?",
+      "name": "How should you position your arms under mount to prevent the americana entirely?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your elbows tight against your ribs with your hands positioned near your chin and collar area, creating a compact defensive shell. Never extend your arms to push on the opponent's chest, face, or hips - this is the most common way the americana setup begins. When you need to frame for escapes, use short forearm frames against the opponent's hips rather than extended arm pushes. If you must reach, keep your elbow bent and retract immediately after the frame is used. The goal is to never present a straight or isolated arm that the attacker can capture and control for the americana wrist isolation."

@@ -4,7 +4,7 @@
 
 ---
 title: "Modern No-Gi Passing System | BJJ System | BJJ Graph"
-description: "Master modern no-gi guard passing with systematic pressure, connection control, and dynamic transitions. Complete framework for defeating contemporary guards."
+description: "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master modern no-gi guard passing with systematic pressure, connec
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Modern No-Gi Passing System",
-  "description": "Master modern no-gi guard passing with systematic pressure, connection control, and dynamic transitions. Complete framework for defeating contemporary guards.",
+  "description": "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Modern-No-Gi-Passing-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -140,7 +140,7 @@ description: "Master modern no-gi guard passing with systematic pressure, connec
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Modern No-Gi Passing System",
-  "description": "The Modern No-Gi Passing System is a pressure-and-connection framework for defeating contemporary gripless guards, using headquarters control, systematic connection breaking, and dynamic floating passes to advance safely past the legs to dominant position.",
+  "description": "Modern no-gi passing involves choosing a route around, through or under the legs while managing guard recovery.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -159,13 +159,11 @@ description: "Master modern no-gi guard passing with systematic pressure, connec
 
 ## What is Modern No-Gi Passing System?
 
-**The Modern No-Gi Passing System is a pressure-and-connection framework for defeating contemporary gripless guards, using headquarters control, systematic connection breaking, and dynamic floating passes to advance safely past the legs to dominant position.**
+**Modern no-gi passing involves choosing a route around, through or under the legs while managing guard recovery.**
 
-The Modern No-Gi Passing System represents the evolution of guard passing for contemporary grappling, addressing the unique challenges of passing without gi grips. This comprehensive framework integrates pressure-based control, dynamic floating passes, and leg entanglement awareness to systematically defeat modern guard structures including butterfly, half guard, and leg-based guards. The system emphasizes connection breaking, hip pressure application, and transitional fluidity rather than static gripping strategies.
+Modern no-gi passing involves choosing a route around, through or under the legs while managing guard recovery. Use this guide to connect your preferred pass to a response when the first route closes, then check whether you can stabilize the pin.
 
-Unlike traditional gi-based passing, this system prioritizes body positioning, weight distribution, and constant forward pressure to nullify the mobility advantages of no-gi guard players. The framework incorporates headquarters position as a central hub, allowing the passer to systematically break down defensive structures while maintaining offensive initiative. Each passing sequence includes both finishing mechanics and recovery protocols when opponents create scrambles or re-guard attempts.
-
-The system's effectiveness stems from its adaptability to different guard types and body types, with specific solutions for common defensive reactions. By mastering this framework, practitioners develop the ability to maintain consistent passing pressure while reading and exploiting defensive patterns in real-time, making it essential for competitive no-gi grappling.
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -174,15 +172,37 @@ The system's effectiveness stems from its adaptability to different guard types 
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Modern No-Gi Passing System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 20 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="systematically-attacking-the-guard-by-gordon-ryan">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">Systematically Attacking The Guard</h3>
+<p class="product-card__instructor">with Gordon Ryan</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Passers who know individual passes but struggle to connect them against resistance.</p>
+<p class="product-card__blurb">Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=modern-no-gi-passing-system&utm_term=systematically-attacking-the-guard-by-gordon-ryan" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematically-attacking-the-guard-by-gordon-ryan" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -303,6 +323,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Choose the section for the guard you encounter most often and compare its responses with this page’s sequence.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=modern-no-gi-passing-system&utm_term=systematically-attacking-the-guard-by-gordon-ryan" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematically-attacking-the-guard-by-gordon-ryan" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Systematically Attacking The Guard &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -410,5 +441,16 @@ The system requires progressive drilling that builds from static technical work 
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Start each round in the same passing position. Track whether you cleared the legs and held the resulting pin, and where recovery began.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=modern-no-gi-passing-system&utm_term=systematically-attacking-the-guard-by-gordon-ryan" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematically-attacking-the-guard-by-gordon-ryan" data-system-slug="systems/modern-no-gi-passing-system" data-system-name="Modern No-Gi Passing System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Systematically Attacking The Guard &rarr;</a></p>
+</section>
+
+
 
 </main>

@@ -68,7 +68,7 @@ description: "Defend against the Bow and Arrow Choke from Seat Belt back control
     },
     {
       "@type": "Question",
-      "name": "What is the most effective timing window for defending the Bow and Arrow from Seat Belt back control?",
+      "name": "When is the best moment to defend the bow and arrow from seat belt back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective defensive window is the moment the attacker releases their over-shoulder hand from the seat belt to reach for your collar. During this 1-2 second transition, their control is compromised because they have voluntarily broken half of the seat belt structure. Immediately two-on-one their transitioning hand to prevent it from reaching collar depth. This window closes rapidly once the collar grip is secured, so defensive reactions must be trained as automatic responses to the feel of the seat belt loosening."
@@ -76,7 +76,7 @@ description: "Defend against the Bow and Arrow Choke from Seat Belt back control
     },
     {
       "@type": "Question",
-      "name": "What defensive options remain once the attacker has secured a deep collar grip but has not yet hooked their leg?",
+      "name": "Bow and arrow: their collar grip is deep but the leg hook is not set — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the collar secured but no leg hook, your best options are: first, aggressively strip the pants grip to prevent the attacker from establishing the extension anchor; second, immediately begin turning your body toward the attacker to disrupt the choking angle before they can set the leg hook; third, use your near-side hand to block the attacker's leg from swinging over and hooking behind your thigh. Without the leg hook, the attacker cannot generate full extension force, which significantly reduces the choke's finishing power and buys time for further defense."

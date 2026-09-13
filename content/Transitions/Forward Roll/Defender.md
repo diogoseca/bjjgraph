@@ -56,7 +56,7 @@ description: "How to counter the Forward Roll escape from turtle in BJJ. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent in turtle is about to attempt a forward roll?",
+      "name": "Earliest cues your opponent in turtle is about to attempt a forward roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are a sudden tightening of chin tuck beyond normal turtle posture, weight shifting forward onto the hands as they begin to post for the roll, and legs coiling under the hips with feet going flat on the mat to load for explosive drive. You may also feel their upper back round more dramatically and detect hand fighting or grip stripping activity as they free their arms to post. Recognizing these cues before the roll initiates gives you the maximum window to prevent or counter the escape."
@@ -64,7 +64,7 @@ description: "How to counter the Forward Roll escape from turtle in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a forward roll and you have seatbelt control but no hooks. Should you follow the roll or release and circle to side control?",
+      "name": "They forward roll while you have a seatbelt and no hooks: follow the roll or go to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With seatbelt control and no hooks, following the roll is generally the higher percentage option because the seatbelt provides sufficient connection to ride through the rotation. As opponent rolls, maintain your grip and keep your chest connected to their back. You will arrive with them on their back and your seatbelt intact, often in a better position for hook insertion than the original turtle. However, if you feel your seatbelt grip weakening during the roll, immediately release and circle to side control rather than arriving in a scramble with no control."
@@ -88,7 +88,7 @@ description: "How to counter the Forward Roll escape from turtle in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining chest-to-back connection more important than grip strength when countering forward rolls?",
+      "name": "Why does chest-to-back connection beat grip strength for countering forward rolls?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest-to-back connection provides continuous tactile feedback about your opponent's weight distribution, breathing patterns, and micro-movements that telegraph the roll attempt before it initiates. Grip strength alone cannot prevent a roll if there is space between your bodies for the opponent to duck under and roll through. The chest connection eliminates that space and means any forward movement by the opponent directly moves you as well, making it physically harder for them to generate the separation needed to roll. Grips can break under explosive movement, but body-to-body pressure is harder to escape because it covers a larger surface area."

@@ -72,7 +72,7 @@ description: "How to defend against Double Leg Entry in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured both your legs despite your sprawl attempt - what is your immediate defensive priority?",
+      "name": "They've secured both your legs despite your sprawl: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to prevent them from completing the takedown to a dominant position like side control. If their grip is on your legs, use your hands to control their head by pushing it down and to the side to deny their drive. Simultaneously, work to free one leg by limp-legging (relaxing and extracting it from their grip) while maintaining the other in a defensive position. If you cannot free your legs, transition proactively to pulling closed guard by wrapping your legs around their waist before they can dump you to the mat on your back. This converts a defensive crisis into a familiar guard position where you can work offensively. Never allow yourself to be taken down flat without establishing some form of guard retention."

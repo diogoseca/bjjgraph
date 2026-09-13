@@ -72,7 +72,7 @@ description: "Defend the Sweep from New York in BJJ. Learn recognition cues, bas
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the shin grip and you feel them begin to bridge—what is your immediate sequence of defensive actions?",
+      "name": "New York top: they release the shin grip and start to bridge—your defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately spread your knees wide to widen your base, simultaneously drop your hips heavy toward the mat, and post your free hand firmly on the mat toward the overhook side. These three actions—widen, drop, post—must happen nearly simultaneously within the 1-2 second window before the bridge reaches full power. Do not attempt to pull away or rise up, as both movements assist the sweep mechanics."

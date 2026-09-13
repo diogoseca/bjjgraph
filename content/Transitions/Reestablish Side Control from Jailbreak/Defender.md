@@ -56,7 +56,7 @@ description: "Defend against Side Control reestablishment from Jailbreak. Comple
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your primary response when you feel the top player driving crossface to shut down your jailbreak?",
+      "name": "Your primary response when the top player crossfaces to shut down your jailbreak?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When crossface pressure intensifies, you have a split-second decision point. If the crossface is still developing and you have momentum, accelerate the escape with explosive hip generation to complete the roll before the pin is fully established. If the crossface has already pinned your head to the mat, abandon the jailbreak and immediately transition to a contingency option—either diving underneath for deep half guard or recovering half guard frames with knee shield insertion. Continuing to force a blocked escape wastes energy and accomplishes nothing."
@@ -80,7 +80,7 @@ description: "Defend against Side Control reestablishment from Jailbreak. Comple
     },
     {
       "@type": "Question",
-      "name": "When should you completely abandon the jailbreak attempt and accept half guard recovery as your best outcome?",
+      "name": "When do you abandon the jailbreak and settle for recovering half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the jailbreak when three conditions are met simultaneously: the top player has established strong crossface pinning your head flat, your underhook has been significantly compromised by their whizzer or arm control, and you have expended significant energy on failed escape attempts. At this point, continuing to force the jailbreak guarantees failure and depletes resources needed for half guard defense. Immediately transition to recovering knee shield and traditional half guard frames to establish a defensible position."

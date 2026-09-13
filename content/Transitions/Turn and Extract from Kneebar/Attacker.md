@@ -82,7 +82,7 @@ description: "Master the turn and extract escape from kneebar control. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent has tight kneebar control and begins driving their hips forward for the finish - what is your immediate response?",
+      "name": "They have tight kneebar control and drive their hips forward to finish. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately initiate explosive hip rotation toward the attacker while simultaneously bending the captured knee and pulling the heel toward your glute. Post your free hand on the mat for base. The key is committing fully to the rotation before the extension reaches a critical angle where the knee is at risk. Hesitation allows the attacker to achieve full extension, at which point this escape becomes significantly more dangerous to attempt and you should consider tapping."

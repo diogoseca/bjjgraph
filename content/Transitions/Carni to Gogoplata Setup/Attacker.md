@@ -80,7 +80,7 @@ description: "Execute the Carni to Gogoplata Setup as the attacker. Step-by-step
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary trigger that signals the opportunity to attempt the Carni to Gogoplata transition?",
+      "name": "What trigger signals the chance to go from Carni to the gogoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is the opponent driving forward with stack pressure to escape the Carni entanglement. This forward drive brings their neck and upper body into range of your legs, creating the space and angle necessary to thread your shin across their throat. Without this forward pressure, the threading distance is too great and the attempt becomes telegraphed and easily defended."
@@ -120,7 +120,7 @@ description: "Execute the Carni to Gogoplata Setup as the attacker. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "How do you maintain control over the opponent while transitioning from leg entanglement to throat control?",
+      "name": "In the Carni to gogoplata, how do you keep control while shifting to throat control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain bottom leg engagement with the opponent's lower body throughout the transition. This leg acts as an anchor preventing the opponent from backing away. Simultaneously, shift one hand from heel control to the opponent's head or collar to pull them forward into the threading shin. The combination of lower body anchor and upper body pull maintains continuous pressure throughout the positional change."

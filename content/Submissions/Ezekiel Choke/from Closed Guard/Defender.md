@@ -84,7 +84,7 @@ description: "Defend the Ezekiel Choke from closed guard bottom. Recognize sleev
     },
     {
       "@type": "Question",
-      "name": "What sweeps are most effective as counters when the opponent commits to an Ezekiel from inside your closed guard?",
+      "name": "Which sweep best counters an opponent committing to an Ezekiel inside your closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip bump sweep is the highest percentage counter because the attacker must lower their posture and commit weight forward, creating ideal conditions for the bump. The pendulum sweep is also effective because the attacker's arms are occupied with the choke, eliminating their ability to post and defend the sweep. Additionally, if you open guard deliberately, the triangle attack is viable since one of the attacker's arms is deep inside their own sleeve, creating the arm-in arm-out configuration that triangles require."

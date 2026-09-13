@@ -44,3 +44,102 @@
 /Transitions/Kimura-from-Half-Guard /Submissions/Kimura/from-Half-Guard 301
 /Transitions/Toe-Hold-from-Estima-Lock/* /Submissions/Toe-Hold/from-Estima-Lock/:splat 301
 /Transitions/Toe-Hold-from-Estima-Lock /Submissions/Toe-Hold/from-Estima-Lock 301
+
+# v1.171.0 — the Kesa Gatame collapse. Three positions existed twice, once under the judo name and
+# once under the English one (Kesa Gatame / Scarf Hold Position, Kuzure Kesa-Gatame / Modified Scarf
+# Hold, Reverse Kesa-Gatame / Reverse Scarf Hold), each with its own copy of the same technique set.
+# The judo names are canonical and uniformly spelled (Kesa Gatame, Kuzure Kesa Gatame, Ushiro Kesa
+# Gatame); the English names are aliases[] on the canonical file, so regenerate_redirects.py emits
+# their lowercase alias rules itself. What it cannot emit is a rule for a page that no longer exists:
+# the three deleted hubs, the renamed Reverse-Kesa-Gatame hub, 16 deleted technique twins and the
+# 31 technique pages renamed to carry the canonical position name. Splat first, then exact.
+/Positions/Side-Control/Modified-Scarf-Hold/* /Positions/Side-Control/Kuzure-Kesa-Gatame/:splat 301
+/Positions/Side-Control/Modified-Scarf-Hold /Positions/Side-Control/Kuzure-Kesa-Gatame 301
+/Positions/Side-Control/Reverse-Kesa-Gatame/* /Positions/Side-Control/Ushiro-Kesa-Gatame/:splat 301
+/Positions/Side-Control/Reverse-Kesa-Gatame /Positions/Side-Control/Ushiro-Kesa-Gatame 301
+/Positions/Side-Control/Reverse-Scarf-Hold/* /Positions/Side-Control/Ushiro-Kesa-Gatame/:splat 301
+/Positions/Side-Control/Reverse-Scarf-Hold /Positions/Side-Control/Ushiro-Kesa-Gatame 301
+/Positions/Side-Control/Scarf-Hold-Position/* /Positions/Side-Control/Kesa-Gatame/:splat 301
+/Positions/Side-Control/Scarf-Hold-Position /Positions/Side-Control/Kesa-Gatame 301
+/Submissions/Americana/from-Modified-Scarf-Hold/* /Submissions/Americana/from-Kuzure-Kesa-Gatame/:splat 301
+/Submissions/Americana/from-Modified-Scarf-Hold /Submissions/Americana/from-Kuzure-Kesa-Gatame 301
+/Submissions/Americana/from-Reverse-Kesa-Gatame/* /Submissions/Americana/from-Ushiro-Kesa-Gatame/:splat 301
+/Submissions/Americana/from-Reverse-Kesa-Gatame /Submissions/Americana/from-Ushiro-Kesa-Gatame 301
+/Submissions/Americana/from-Reverse-Scarf-Hold/* /Submissions/Americana/from-Ushiro-Kesa-Gatame/:splat 301
+/Submissions/Americana/from-Reverse-Scarf-Hold /Submissions/Americana/from-Ushiro-Kesa-Gatame 301
+/Submissions/Americana/from-Scarf-Hold-Position/* /Submissions/Americana/from-Kesa-Gatame/:splat 301
+/Submissions/Americana/from-Scarf-Hold-Position /Submissions/Americana/from-Kesa-Gatame 301
+/Submissions/Arm-Triangle/from-Modified-Scarf-Hold/* /Submissions/Arm-Triangle/from-Kuzure-Kesa-Gatame/:splat 301
+/Submissions/Arm-Triangle/from-Modified-Scarf-Hold /Submissions/Arm-Triangle/from-Kuzure-Kesa-Gatame 301
+/Submissions/Arm-Triangle/from-Reverse-Kesa-Gatame/* /Submissions/Arm-Triangle/from-Ushiro-Kesa-Gatame/:splat 301
+/Submissions/Arm-Triangle/from-Reverse-Kesa-Gatame /Submissions/Arm-Triangle/from-Ushiro-Kesa-Gatame 301
+/Submissions/Arm-Triangle/from-Reverse-Scarf-Hold/* /Submissions/Arm-Triangle/from-Ushiro-Kesa-Gatame/:splat 301
+/Submissions/Arm-Triangle/from-Reverse-Scarf-Hold /Submissions/Arm-Triangle/from-Ushiro-Kesa-Gatame 301
+/Submissions/Arm-Triangle/from-Scarf-Hold-Position/* /Submissions/Arm-Triangle/from-Kesa-Gatame/:splat 301
+/Submissions/Arm-Triangle/from-Scarf-Hold-Position /Submissions/Arm-Triangle/from-Kesa-Gatame 301
+/Submissions/Belly-Down-Armbar/from-Modified-Scarf-Hold/* /Submissions/Belly-Down-Armbar/from-Kuzure-Kesa-Gatame/:splat 301
+/Submissions/Belly-Down-Armbar/from-Modified-Scarf-Hold /Submissions/Belly-Down-Armbar/from-Kuzure-Kesa-Gatame 301
+/Submissions/Belly-Down-Armbar/from-Scarf-Hold-Position/* /Submissions/Belly-Down-Armbar/from-Kesa-Gatame/:splat 301
+/Submissions/Belly-Down-Armbar/from-Scarf-Hold-Position /Submissions/Belly-Down-Armbar/from-Kesa-Gatame 301
+/Submissions/Kimura/from-Modified-Scarf-Hold/* /Submissions/Kimura/from-Kuzure-Kesa-Gatame/:splat 301
+/Submissions/Kimura/from-Modified-Scarf-Hold /Submissions/Kimura/from-Kuzure-Kesa-Gatame 301
+/Submissions/Kimura/from-Reverse-Kesa-Gatame/* /Submissions/Kimura/from-Ushiro-Kesa-Gatame/:splat 301
+/Submissions/Kimura/from-Reverse-Kesa-Gatame /Submissions/Kimura/from-Ushiro-Kesa-Gatame 301
+/Submissions/Kimura/from-Reverse-Scarf-Hold/* /Submissions/Kimura/from-Ushiro-Kesa-Gatame/:splat 301
+/Submissions/Kimura/from-Reverse-Scarf-Hold /Submissions/Kimura/from-Ushiro-Kesa-Gatame 301
+/Submissions/Kimura/from-Scarf-Hold-Position/* /Submissions/Kimura/from-Kesa-Gatame/:splat 301
+/Submissions/Kimura/from-Scarf-Hold-Position /Submissions/Kimura/from-Kesa-Gatame 301
+/Submissions/North-South-Choke/from-Modified-Scarf-Hold/* /Submissions/North-South-Choke/from-Kuzure-Kesa-Gatame/:splat 301
+/Submissions/North-South-Choke/from-Modified-Scarf-Hold /Submissions/North-South-Choke/from-Kuzure-Kesa-Gatame 301
+/Submissions/North-South-Choke/from-Reverse-Scarf/* /Submissions/North-South-Choke/from-Ushiro-Kesa-Gatame/:splat 301
+/Submissions/North-South-Choke/from-Reverse-Scarf /Submissions/North-South-Choke/from-Ushiro-Kesa-Gatame 301
+/Transitions/Bridge-Escape-from-Modified-Scarf-Hold/* /Transitions/Bridge-Escape-from-Kuzure-Kesa-Gatame/:splat 301
+/Transitions/Bridge-Escape-from-Modified-Scarf-Hold /Transitions/Bridge-Escape-from-Kuzure-Kesa-Gatame 301
+/Transitions/Bridge-Escape-from-Reverse-Scarf-Hold/* /Transitions/Bridge-Escape-from-Ushiro-Kesa-Gatame/:splat 301
+/Transitions/Bridge-Escape-from-Reverse-Scarf-Hold /Transitions/Bridge-Escape-from-Ushiro-Kesa-Gatame 301
+/Transitions/Bridge-Escape-from-Scarf-Hold/* /Transitions/Bridge-Escape-from-Kesa-Gatame/:splat 301
+/Transitions/Bridge-Escape-from-Scarf-Hold /Transitions/Bridge-Escape-from-Kesa-Gatame 301
+/Transitions/Bridge-from-Modified-Scarf-Hold/* /Transitions/Bridge-from-Kuzure-Kesa-Gatame/:splat 301
+/Transitions/Bridge-from-Modified-Scarf-Hold /Transitions/Bridge-from-Kuzure-Kesa-Gatame 301
+/Transitions/Bridge-from-Reverse-Kesa-Gatame/* /Transitions/Bridge-from-Ushiro-Kesa-Gatame/:splat 301
+/Transitions/Bridge-from-Reverse-Kesa-Gatame /Transitions/Bridge-from-Ushiro-Kesa-Gatame 301
+/Transitions/Bridge-from-Scarf-Hold-Position/* /Transitions/Bridge-from-Kesa-Gatame/:splat 301
+/Transitions/Bridge-from-Scarf-Hold-Position /Transitions/Bridge-from-Kesa-Gatame 301
+/Transitions/Escape-Modified-Scarf-Hold/* /Transitions/Escape-Kuzure-Kesa-Gatame/:splat 301
+/Transitions/Escape-Modified-Scarf-Hold /Transitions/Escape-Kuzure-Kesa-Gatame 301
+/Transitions/Escape-Reverse-Kesa-Gatame/* /Transitions/Escape-Ushiro-Kesa-Gatame/:splat 301
+/Transitions/Escape-Reverse-Kesa-Gatame /Transitions/Escape-Ushiro-Kesa-Gatame 301
+/Transitions/Escape-Reverse-Scarf-Hold/* /Transitions/Escape-Ushiro-Kesa-Gatame/:splat 301
+/Transitions/Escape-Reverse-Scarf-Hold /Transitions/Escape-Ushiro-Kesa-Gatame 301
+/Transitions/Escape-Scarf-Hold-Position/* /Transitions/Escape-Kesa-Gatame/:splat 301
+/Transitions/Escape-Scarf-Hold-Position /Transitions/Escape-Kesa-Gatame 301
+/Transitions/Frame-Escape-from-Kuzure-Kesa/* /Transitions/Frame-Escape-from-Kuzure-Kesa-Gatame/:splat 301
+/Transitions/Frame-Escape-from-Kuzure-Kesa /Transitions/Frame-Escape-from-Kuzure-Kesa-Gatame 301
+/Transitions/Frame-from-Reverse-Scarf-Hold/* /Transitions/Frame-from-Ushiro-Kesa-Gatame/:splat 301
+/Transitions/Frame-from-Reverse-Scarf-Hold /Transitions/Frame-from-Ushiro-Kesa-Gatame 301
+/Transitions/Kesa-Gatame-to-Modified-Scarf-Hold/* /Transitions/Kesa-Gatame-to-Kuzure-Kesa-Gatame/:splat 301
+/Transitions/Kesa-Gatame-to-Modified-Scarf-Hold /Transitions/Kesa-Gatame-to-Kuzure-Kesa-Gatame 301
+/Transitions/Kesa-Gatame-to-Reverse-Kesa-Gatame/* /Transitions/Kesa-Gatame-to-Ushiro-Kesa-Gatame/:splat 301
+/Transitions/Kesa-Gatame-to-Reverse-Kesa-Gatame /Transitions/Kesa-Gatame-to-Ushiro-Kesa-Gatame 301
+/Transitions/Kimura-Trap-to-Reverse-Scarf-Hold/* /Transitions/Kimura-Trap-to-Ushiro-Kesa-Gatame/:splat 301
+/Transitions/Kimura-Trap-to-Reverse-Scarf-Hold /Transitions/Kimura-Trap-to-Ushiro-Kesa-Gatame 301
+/Transitions/Modified-Scarf-to-Kesa-Gatame/* /Transitions/Kuzure-Kesa-Gatame-to-Kesa-Gatame/:splat 301
+/Transitions/Modified-Scarf-to-Kesa-Gatame /Transitions/Kuzure-Kesa-Gatame-to-Kesa-Gatame 301
+/Transitions/Modified-Scarf-to-Mount/* /Transitions/Kuzure-Kesa-Gatame-to-Mount/:splat 301
+/Transitions/Modified-Scarf-to-Mount /Transitions/Kuzure-Kesa-Gatame-to-Mount 301
+/Transitions/Reverse-Kesa-to-North-South/* /Transitions/Ushiro-Kesa-Gatame-to-North-South/:splat 301
+/Transitions/Reverse-Kesa-to-North-South /Transitions/Ushiro-Kesa-Gatame-to-North-South 301
+/Transitions/Reverse-Kesa-to-Side-Control/* /Transitions/Ushiro-Kesa-Gatame-to-Side-Control/:splat 301
+/Transitions/Reverse-Kesa-to-Side-Control /Transitions/Ushiro-Kesa-Gatame-to-Side-Control 301
+/Transitions/Reverse-Scarf-to-North-South/* /Transitions/Ushiro-Kesa-Gatame-to-North-South/:splat 301
+/Transitions/Reverse-Scarf-to-North-South /Transitions/Ushiro-Kesa-Gatame-to-North-South 301
+/Transitions/Reverse-Scarf-to-Side-Control/* /Transitions/Ushiro-Kesa-Gatame-to-Side-Control/:splat 301
+/Transitions/Reverse-Scarf-to-Side-Control /Transitions/Ushiro-Kesa-Gatame-to-Side-Control 301
+/Transitions/Scarf-Hold-to-Mount/* /Transitions/Kesa-Gatame-to-Mount/:splat 301
+/Transitions/Scarf-Hold-to-Mount /Transitions/Kesa-Gatame-to-Mount 301
+/Transitions/Scarf-Hold-to-Side-Control/* /Transitions/Kesa-Gatame-to-Side-Control/:splat 301
+/Transitions/Scarf-Hold-to-Side-Control /Transitions/Kesa-Gatame-to-Side-Control 301
+/Transitions/Side-Control-to-Scarf-Hold-Position/* /Transitions/Side-Control-to-Kesa-Gatame/:splat 301
+/Transitions/Side-Control-to-Scarf-Hold-Position /Transitions/Side-Control-to-Kesa-Gatame 301
+/Transitions/Turn-In-from-Reverse-Kesa/* /Transitions/Turn-In-from-Ushiro-Kesa-Gatame/:splat 301
+/Transitions/Turn-In-from-Reverse-Kesa /Transitions/Turn-In-from-Ushiro-Kesa-Gatame 301

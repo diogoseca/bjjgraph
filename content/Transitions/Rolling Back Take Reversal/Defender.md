@@ -56,7 +56,7 @@ description: "How to defend against Rolling Back Take Reversal in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three sequential conditions your opponent needs to execute the Rolling Back Take Reversal?",
+      "name": "What three sequential conditions does the rolling back take reversal from body triangle require?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your opponent needs arm control (two-on-one on your choking arm to prevent posting), a hip angle (hips turned toward the triangle lock side to create a rotation axis), and sufficient momentum (committed rolling motion through 180 degrees). Disrupting any single condition stops the technique entirely, so your defense should target whichever condition is earliest in development."
@@ -64,7 +64,7 @@ description: "How to defend against Rolling Back Take Reversal in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent pulling your choking arm across their body with a strong two-on-one grip - what is your immediate response?",
+      "name": "From back control they pull your choking arm across with a two-on-one — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your opposite arm firmly on the mat to create an anchor that prevents the roll from completing. Simultaneously drive your chest forward into their back to flatten them and squeeze the body triangle tighter. If you cannot free your choking arm, the posted opposite arm becomes your primary defense against the rolling momentum. Do not attempt to finish the choke while your arm is being pulled across."
@@ -72,7 +72,7 @@ description: "How to defend against Rolling Back Take Reversal in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining chest-to-back connection the most important preventive measure against this reversal?",
+      "name": "Why is chest-to-back connection the key prevention against the rolling back take reversal?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest-to-back connection prevents the opponent from creating the hip angle needed to initiate the roll. Without this angle, the rotation is mechanically impossible regardless of their arm control or commitment. When your chest is tight to their back and driving forward, their hips cannot turn toward the triangle side, eliminating the technique at its foundation. This is why the reversal typically succeeds only when the back controller lifts up to hunt for submissions."
@@ -80,7 +80,7 @@ description: "How to defend against Rolling Back Take Reversal in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has created a hip angle and you feel rotational momentum beginning - should you release the body triangle?",
+      "name": "They have a hip angle and rotational momentum — should you release the body triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not release the body triangle once the roll has initiated with momentum. Releasing mid-rotation removes your connection to the opponent and results in a worse scramble position. Instead, post your arm aggressively on the mat to block the rotation, drive your weight forward, and use the triangle lock itself to maintain connection. Only consider releasing the triangle preemptively before the roll begins, transitioning to mount or hooks as a preventive measure."

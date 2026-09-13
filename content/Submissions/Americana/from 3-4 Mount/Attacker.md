@@ -82,7 +82,7 @@ description: "Execute the Americana shoulder lock from 3-4 Mount. Setup grips, f
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Americana from 3-4 Mount primarily attack, and how does the figure-four create the submission mechanism?",
+      "name": "Which structures does the Americana attack, and how does the figure-four create the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Americana primarily attacks the shoulder joint through forced external rotation, stressing the rotator cuff complex (supraspinatus, infraspinatus, teres minor, subscapularis) and the glenohumeral joint capsule. The figure-four grip creates a lever system where the pinned wrist acts as a fulcrum and the elbow as the lever arm. As the wrist paints toward the hip and the elbow lifts, the shoulder is forced into external rotation beyond its natural range, creating increasing stress on the rotator cuff tendons and joint capsule until the opponent taps."
@@ -90,7 +90,7 @@ description: "Execute the Americana shoulder lock from 3-4 Mount. Setup grips, f
     },
     {
       "@type": "Question",
-      "name": "What physical indicators tell you the opponent's shoulder joint is approaching its breaking point during the Americana finishing sequence?",
+      "name": "Finishing the Americana, what signs show the shoulder is nearing its structural limit?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include: the opponent's facial expression changes to show genuine distress rather than competitive discomfort, their body stiffens and becomes rigid rather than continuing defensive movement, you feel a progressive tightening and resistance in the joint that indicates end-range, and often the opponent begins verbal distress before a formal tap. You should also feel the elbow approaching maximum elevation relative to the pinned wrist. Never push through sudden resistance jumps—these indicate the joint is at its structural limit. Always apply pressure slowly enough to recognize these indicators before injury occurs."
@@ -114,7 +114,7 @@ description: "Execute the Americana shoulder lock from 3-4 Mount. Setup grips, f
     },
     {
       "@type": "Question",
-      "name": "Your opponent straightens their arm as you attempt to secure the figure-four grip—what adjustment do you make?",
+      "name": "They straighten the arm as you secure the Americana figure-four from 3-4 Mount—what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A straightened arm is a gift from the 3-4 Mount position. Immediately maintain your wrist control and transition to an armbar attack. The straight arm is perfectly positioned for the armbar from the asymmetric mount angle—your posted leg is already in position to swing over their face, and the arm extension provides the elbow hyperextension angle needed for the finish. Keep the wrist grip, shift your hips toward their head, swing the posted leg over their face, and sit back to complete the armbar. This Americana-to-armbar chain is one of the highest-percentage transitions in mount offense."
@@ -122,7 +122,7 @@ description: "Execute the Americana shoulder lock from 3-4 Mount. Setup grips, f
     },
     {
       "@type": "Question",
-      "name": "What is the most common finishing error that allows opponents to escape the Americana from 3-4 Mount?",
+      "name": "What is the most common finishing error that lets opponents escape the Americana from 3-4 Mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common finishing error is lifting your chest weight off the opponent's shoulder during the rotation phase. When the attacker sits upright to apply more arm force, the opponent's shoulder lifts off the mat and gains rotational freedom. This rotational freedom absorbs the external rotation force of the figure-four, preventing the submission from reaching the breaking point. The opponent can then rotate their shoulder enough to relieve pressure and work their arm free. The correction is maintaining heavy chest pressure directly on the near shoulder throughout the entire finishing arc—your sternum should stay pressed into their deltoid from grip lock through tap."

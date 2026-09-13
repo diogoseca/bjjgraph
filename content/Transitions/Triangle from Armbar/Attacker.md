@@ -80,7 +80,7 @@ description: "Master the Triangle from Armbar as the attacker. Learn to read arm
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent defends the armbar by clasping their hands together tightly—what specifically creates the triangle opportunity from this defensive posture?",
+      "name": "They clasp their hands to defend the armbar: what exactly opens the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Clasped hands defense requires the opponent to bend their trapped arm and bring their head forward and down toward your hips to create the structural connection between their hands. This broken posture positions their head within reach of your legs for the triangle, while the clasped hands mean one arm is already trapped across their centerline. The defensive posture that protects the elbow simultaneously exposes the neck—the clasped hands cannot simultaneously defend both the armbar extension and the triangle entry."
@@ -88,7 +88,7 @@ description: "Master the Triangle from Armbar as the attacker. Learn to read arm
     },
     {
       "@type": "Question",
-      "name": "What is the single most critical element you must maintain throughout the entire leg reconfiguration phase?",
+      "name": "What must you maintain throughout the leg reconfiguration from armbar to triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip control on the opponent's trapped arm at the wrist or forearm. This grip is the non-negotiable anchor of the transition because it serves three functions simultaneously: it prevents the opponent from retracting the arm (which would eliminate the triangle entry), it maintains arm isolation for the potential armbar if the triangle fails, and it ensures one arm stays inside the triangle configuration as you lock your legs. Losing this grip during the transition window is the primary cause of failed triangle-from-armbar attempts."
@@ -104,7 +104,7 @@ description: "Master the Triangle from Armbar as the attacker. Learn to read arm
     },
     {
       "@type": "Question",
-      "name": "What angle should your body achieve relative to your opponent after locking the triangle, and why is this specific geometry essential?",
+      "name": "What body angle should you reach after locking the triangle, and why is it essential?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your body should be angled 30-45 degrees off the opponent's centerline, with your choking leg's knee pointing toward their trapped shoulder. This angle is essential because it aligns the compression surfaces of your legs with the carotid arteries on both sides of the opponent's neck. A parallel position produces shoulder-to-shoulder pressure that the opponent can endure indefinitely, while the perpendicular angle creates the diagonal compression vector across the neck that restricts blood flow to the brain. The angle is the difference between an annoying squeeze and an effective choke."
@@ -112,7 +112,7 @@ description: "Master the Triangle from Armbar as the attacker. Learn to read arm
     },
     {
       "@type": "Question",
-      "name": "Your opponent stacks forward aggressively after you lock the triangle—what is your tactical response?",
+      "name": "They stack forward hard after you lock the triangle from armbar: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the forward drive by angling your hips to the side and pulling their head down with both hands to prevent them from achieving full stack. If the stack is powerful enough to lift your hips off the mat, transition to omoplata by releasing the triangle lock and pivoting your hips toward the trapped arm side—their forward stack actually creates the perfect angle for omoplata entry. You can also consider sweeping to mounted triangle by timing a hip bump during their forward drive. The worst response is to simply squeeze harder against the stack, which wastes leg energy without stopping the positional deterioration."
@@ -120,7 +120,7 @@ description: "Master the Triangle from Armbar as the attacker. Learn to read arm
     },
     {
       "@type": "Question",
-      "name": "Which grip configuration should you use on the trapped arm, and how does it change between the armbar phase and the triangle phase?",
+      "name": "How should your grip on the trapped arm change from the armbar phase to the triangle phase?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the armbar phase, use a two-handed grip controlling the wrist with thumbs on the inside of the forearm. As you initiate the triangle transition, transfer primary control to the lead hand (closest to the wrist) with a firm C-grip around the wrist. After the triangle locks, your grip priority shifts: use one hand to pull the trapped arm diagonally across the opponent's throat, and the other hand to grip behind their head and pull it down. The arm grip transitions from isolation-focused (armbar) to amplification-focused (using the arm as a choking bar inside the triangle)."

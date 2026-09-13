@@ -1,6 +1,6 @@
 {
   "name": "Rubber Guard to Triangle System",
-  "description": "Master Rubber Guard to Triangle System. Framework connecting rubber guard control to triangle submissions with systematic transitions and positions.",
+  "description": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -13,8 +13,8 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "The Rubber Guard to Triangle System is a 10th Planet offensive framework that chains rubber guard control through the Mission Control and New York checkpoints to set up high-percentage triangle chokes and linked submissions from closed guard.",
-  "overview": "Developed within Eddie Bravo's 10th Planet methodology, this framework reimagines the closed guard as an aggressive submission platform rather than a holding position. It uses extreme flexibility and unorthodox grips to break posture, control distance, and manufacture triangle opportunities that are difficult to defend, while emphasizing the angles and leverage generated through hip mobility under constant offensive pressure. Unlike traditional closed guard approaches, the system relies on active leg positioning and grip creativity to generate submission threats while simultaneously defending against passes. The framework connects multiple control positions - from Mission Control to New York to the finishing triangle - creating a systematic pathway that even accounts for opponent escape attempts. Practitioners learn to use their legs as offensive weapons while their hands control critical angles, inverting the traditional closed guard paradigm where the hands do the work and the legs merely maintain position.",
+  "summary": "A triangle attempt from rubber guard depends on the arm position and angle you create first.",
+  "overview": "A triangle attempt from rubber guard depends on the arm position and angle you create first. Use this guide to study that branch of the guard. Eddie Bravo’s broader rubber guard course provides context; check its syllabus for the details you want to study.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "**Posture Control Through Leg Position** - Use high guard and rubber guard positions to break and maintain broken posture rather than relying solely on grip fighting",
     "**Dominant Angles Before Submission** - Systematically work through control positions (Mission Control, New York) to create optimal triangle entry angles",
@@ -475,6 +475,21 @@
           "Commit fully to one submission"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "the-ultimate-rubber-guard-by-eddie-bravo",
+      "title": "The Ultimate Rubber Guard",
+      "instructor": "Eddie Bravo",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard.",
+      "best_for": "Students exploring 10th Planet guard connections. Check the syllabus for your chosen branch; this is broader than a single finish.",
+      "study_focus": "For the omoplata route, start in Volume 1. Bottom half guard and further guard variations appear in Volume 4.",
+      "practice_tip": "Choose a control you can enter comfortably. Practise maintaining posture control without pulling your knee into a forced range."
     }
   ]
 }

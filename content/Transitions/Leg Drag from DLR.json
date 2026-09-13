@@ -266,7 +266,7 @@
         }
       },
       {
-        "question": "Your opponent re-hooks their DLR immediately after you strip it—how do you prevent this recurring problem?",
+        "question": "They keep re-hooking DLR right after you strip it. How do you stop this recurring?",
         "answer": "The most common reason for re-hooking is a gap between the hook strip and the leg redirect. You must make these movements continuous rather than sequential—as the hook clears, the leg is already being pulled across their centerline. Additionally, circle your freed leg backward and away from their hooking foot to make re-threading mechanically difficult. If they consistently re-hook despite this, switch to a backstep pass that uses their hook commitment against them by stepping behind and around it.",
         "answer_line": "Make strip and drag one motion",
         "distractors": {
@@ -294,7 +294,7 @@
         }
       },
       {
-        "question": "During the leg drag attempt, your opponent transitions to Single Leg X-Guard—what went wrong and how do you adjust?",
+        "question": "They hit single leg X during your leg drag from DLR. What went wrong and how do you adjust?",
         "answer": "This counter occurs when you create space by lifting the leg too high during the drag or when you fail to control the far leg. The bottom player threads their free leg under your base and hooks your thigh. To prevent this, keep the drag trajectory tight and low to their body and control or block their far leg with your free hand. If they achieve the transition, immediately backstep to disengage their hooks before they can elevate for a sweep.",
         "answer_line": "Keep drag tight, block far leg",
         "distractors": {
@@ -308,7 +308,7 @@
         }
       },
       {
-        "question": "What are the ideal conditions that signal the highest-percentage moment to initiate the leg drag from DLR?",
+        "question": "What signals the highest-percentage moment to start the leg drag from DLR?",
         "answer": "The optimal timing window is immediately after successfully stripping the ankle grip while the bottom player is reaching to re-grip. During this moment, their DLR hook has lost its primary support structure and they are transitioning between offensive postures. The secondary window is when the bottom player attempts to transition from DLR to another guard such as Reverse DLR or X-Guard, as their hook commitment changes during the transition, creating vulnerability to redirection.",
         "answer_line": "Right after stripping their grip",
         "distractors": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "Your opponent keeps an extremely tight DLR hook that you cannot strip directly—what alternative approach leads to the leg drag?",
+        "question": "Their DLR hook is too tight to strip. What alternative entry gets you to the leg drag?",
         "answer": "Instead of fighting the hook directly, use a backstep motion to extract your leg by stepping backward and around the hook. As your leg clears from behind, the bottom player's leg is already extended and available for the drag. This backstep-to-drag sequence converts their defensive hook retention into a passing pathway. Alternatively, collapse forward to flatten their hips with pressure, which weakens the hook's mechanical advantage, then redirect into the drag as the hook loosens under your weight.",
         "answer_line": "Backstep around the tight hook",
         "distractors": {
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "What is the most critical body position to maintain as you complete the drag and transition to leg drag control?",
+        "question": "What body position is most critical as you finish the DLR drag into leg drag control?",
         "answer": "Your chest must connect diagonally to their far-side hip or shoulder while your near hip drives into their near-side hip. This cross-body pressure angle prevents them from turning toward you to recover guard or turning away without giving up their back. Your posted leg should be on the drag side with your knee next to their hip, and your weight should be driving forward and down through skeletal alignment rather than muscular effort. Releasing this diagonal connection before upper body control is established allows immediate guard recovery.",
         "answer_line": "Chest diagonal to far hip",
         "distractors": {
@@ -492,7 +492,7 @@
         }
       },
       {
-        "question": "Your DLR hook has been cleared and your leg is being pulled across—what is the highest-percentage defensive action at this point?",
+        "question": "Your DLR hook is cleared and your leg is being dragged across. Highest-percentage defense?",
         "answer": "At this stage, re-establishing the DLR hook is unlikely to succeed. Your highest-percentage option is to hip escape in the direction of the drag while inserting your far knee as a shield between you and the passer. This prevents them from establishing the hip-to-hip pressure that completes the control position. Even ending up in half guard rather than DLR is a successful defense—you have prevented full leg drag consolidation and maintained a guard with offensive options.",
         "answer_line": "Hip escape, shield with knee",
         "distractors": {

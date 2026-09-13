@@ -64,7 +64,7 @@ description: "How to defend against Two-on-One to Back Take in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a two-on-one and begins the cross-body pull - which direction should you circle and why?",
+      "name": "They have a two-on-one and start the cross-body pull — which way do you circle and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circle toward the controlled arm side, not away from it. Circling toward the controlled arm closes the angle the attacker is trying to create, brings your hips back to square with their centerline, and reduces the leverage of the cross-body pull by shortening the distance your arm can be dragged. Circling away from the controlled arm is the most common defensive error because it intuitively feels like you are moving away from danger, but it actually opens the angle and brings your back closer to the attacker's chest."
@@ -72,7 +72,7 @@ description: "How to defend against Two-on-One to Back Take in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "At what point in the two-on-one sequence does defense become significantly harder, and what should you do before reaching that point?",
+      "name": "When does two-on-one defense get much harder, and what must you do before then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defense becomes significantly harder once the cross-body pull has rotated your shoulders past approximately 30-45 degrees and the attacker has cleared their head past your controlled arm. Before this point, simple grip stripping and hip re-squaring can neutralize the position. After this point, the attacker has structural advantage and multiple pathway options. The critical defensive window is the first one to two seconds after grip establishment, when immediate grip fighting and hip adjustment can prevent the position from deteriorating to the point where back access becomes likely."
@@ -88,7 +88,7 @@ description: "How to defend against Two-on-One to Back Take in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "What is the defensive body position you should maintain throughout the two-on-one exchange to minimize back exposure?",
+      "name": "What body position should you hold through the two-on-one exchange to limit back exposure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a low center of gravity with knees bent and hips loaded underneath your shoulders, keeping your hips square to the attacker at all times. Your chin should be slightly tucked with your controlled arm's elbow pulled tight toward your centerline rather than extended away from your body. Your free arm stays active in front of your chest ready to strip grips, frame, or counter-attack. Feet should be shoulder-width apart with weight balanced to allow quick lateral movement toward the controlled arm side. This compact, squared position minimizes the angles available for back access."

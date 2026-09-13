@@ -52,7 +52,7 @@ description: "Essential defensive guide against the omoplata finish from control
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the omoplata finish is being initiated from control position?",
+      "name": "As defender, what are the earliest cues that the omoplata finish is starting from control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the attacker securing a grip on your belt or far hip, and beginning to adjust their hip angle to perpendicular. You will feel increased pressure from their shin across your upper back as they drive their knee down, and their body will begin rising as they sit up tall. Recognizing these setup movements gives you the best chance to initiate escape before the finishing pressure becomes overwhelming."
@@ -60,7 +60,7 @@ description: "Essential defensive guide against the omoplata finish from control
     },
     {
       "@type": "Question",
-      "name": "When should you tap to the omoplata to prevent injury, and what signals indicate you are approaching the danger threshold?",
+      "name": "When should you tap to the omoplata, and what signals mean you are nearing injury?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap when you feel sharp pain in the shoulder joint, when you sense the shoulder reaching the end of its natural range of external rotation, or when the pressure transitions from uncomfortable to painful. Warning signals include a stretching sensation deep in the shoulder capsule, inability to resist the rotation with muscular effort, and the feeling that the shoulder is about to pop or shift. Tap early and tap clearly. Shoulder injuries from omoplatas are among the most serious in BJJ and often require surgical intervention."

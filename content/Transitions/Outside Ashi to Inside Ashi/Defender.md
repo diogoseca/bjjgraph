@@ -56,7 +56,7 @@ description: "Master defending against the Outside Ashi to Inside Ashi counter-e
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is attempting a counter-entanglement from Outside Ashi-Garami Top?",
+      "name": "What are the earliest cues that your opponent is counter-entangling out of your outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are changes in opponent's free leg activity and hip angle. When they stop trying to extract their trapped leg and instead begin rotating their hips toward your legs while their free leg moves laterally toward your hip, they are initiating a counter-entanglement. Their hands may shift from defensive frames to reaching for your legs. A sudden decrease in escape urgency combined with active hip rotation toward your body is the clearest early warning indicator."
@@ -64,7 +64,7 @@ description: "Master defending against the Outside Ashi to Inside Ashi counter-e
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining constant submission pressure the most effective preemptive defense against counter-entanglement attempts?",
+      "name": "Why is constant submission pressure the best preemptive defense against counter-entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Constant submission pressure forces the opponent to dedicate their attention and physical resources to protecting their heel and defending the immediate submission threat. A practitioner who is actively defending a heel hook cannot simultaneously execute the hip rotation, leg threading, and grip establishment required for counter-entanglement. The combined mental and physical demands of submission defense override the ability to initiate complex offensive transitions against you."
@@ -72,7 +72,7 @@ description: "Master defending against the Outside Ashi to Inside Ashi counter-e
     },
     {
       "@type": "Question",
-      "name": "When should you choose to disengage your ashi garami rather than continue fighting the counter-entanglement?",
+      "name": "When should you disengage your outside ashi instead of fighting their counter-entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Disengage when the opponent has successfully threaded their leg across your hip and is actively establishing heel control on your leg. At this point, fighting to maintain your original ashi garami while their inside ashi is being consolidated creates a race you are likely to lose. Early disengagement to half guard or standing preserves your positional options and prevents you from being trapped in the opponent's offensive leg entanglement. The critical decision point is when their free leg crosses your hip line with apparent control."
@@ -80,7 +80,7 @@ description: "Master defending against the Outside Ashi to Inside Ashi counter-e
     },
     {
       "@type": "Question",
-      "name": "How does the tightness of your leg triangle directly relate to your vulnerability to counter-entanglement?",
+      "name": "How does your leg triangle's tightness relate to your vulnerability to counter-entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your leg triangle tightness is inversely proportional to your vulnerability. A tight triangle with no gaps between your legs and the opponent's trapped leg eliminates the threading lanes necessary for counter-entanglement. The opponent's free leg literally cannot cross your hip if your legs are clamped firmly around their limb with no space. Every gap in your triangle represents a potential threading path. Maintaining constant squeeze pressure—especially during grip transitions and submission attempts when your focus shifts—is the single most important defensive measure."

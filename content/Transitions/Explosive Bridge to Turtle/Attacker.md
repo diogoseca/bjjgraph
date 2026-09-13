@@ -92,7 +92,7 @@ description: "How to execute Explosive Bridge to Turtle in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent drops their weight and flattens their hips when you attempt to bridge - how do you adjust?",
+      "name": "In mounted crucifix bottom, they flatten your hips when you bridge: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Wait for their attack setup, as any submission attempt requires them to shift weight forward or adjust position, compromising their base. Alternatively, fake the bridge one direction to draw their weight, then explosively commit the opposite direction. You can also chain small movements to bait reactions before committing to the explosive attempt when their counter-positioning creates vulnerability."
@@ -100,7 +100,7 @@ description: "How to execute Explosive Bridge to Turtle in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What should you do if the opponent already has a choke grip established before you attempt this escape?",
+      "name": "Escaping mounted crucifix bottom, what if they already have a choke grip set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the immediate choke threat before attempting the bridge escape. The explosive bridge can actually accelerate a blood choke by driving your neck against their grip. First work to strip their choking grip or create defensive space at your neck through posture adjustments and whatever arm mobility you have. Only commit to the positional escape once the immediate submission threat is neutralized."

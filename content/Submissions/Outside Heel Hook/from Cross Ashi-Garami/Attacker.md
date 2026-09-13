@@ -78,7 +78,7 @@ description: "Learn to finish the outside heel hook from cross ashi-garami. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the boot defense by flexing their knee hard and pulling their heel to their hip—what adjustment prevents escape?",
+      "name": "They boot-defend, heel pinned to hip; what adjustment stops the escape from cross ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your outside leg cross to apply outward rotational pressure on their shin while simultaneously pulling their foot toward your chest with an ankle grip. If the boot is deeply committed and the heel cannot be exposed, transition to a toe hold by redirecting your grip to the toes and ball of the foot, or enter a kneebar by releasing the cross and attacking the extended knee line. The boot defense exposes different submission opportunities that punish the bent-leg configuration."
@@ -94,7 +94,7 @@ description: "Learn to finish the outside heel hook from cross ashi-garami. Step
     },
     {
       "@type": "Question",
-      "name": "What are the key safety considerations when applying the outside heel hook from cross ashi-garami in training?",
+      "name": "What are the safety essentials when drilling the outside heel hook in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Always apply rotation progressively over a minimum of 5-7 seconds—never use sudden explosive force. Release immediately upon any tap signal, including verbal taps, hand taps, foot taps, or any vocal distress. Recognize that knee ligament damage from heel hooks can occur without pain warning—the ligaments may tear before the opponent feels pain. Train only with experienced partners who understand leg lock safety. Never continue past the first sign of discomfort, and never test flexibility limits."
@@ -102,7 +102,7 @@ description: "Learn to finish the outside heel hook from cross ashi-garami. Step
     },
     {
       "@type": "Question",
-      "name": "How should you release the outside heel hook after a tap to prevent injury during the release itself?",
+      "name": "How do you release the outside heel hook after a tap without injuring their knee?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, immediately stop all rotational pressure on the heel. Then release the figure-four or heel cup grip so the foot is no longer controlled. Remove hip pressure and leg extension so the opponent's leg is free to move. Allow the opponent to straighten their leg naturally—do not manipulate it for them. Never apply any rotation during the release phase, as even small rotational movements during release can damage already-stressed ligaments. Check your partner's condition before resuming training."
@@ -110,7 +110,7 @@ description: "Learn to finish the outside heel hook from cross ashi-garami. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts grip fighting aggressively to strip your heel cup—what is the critical adjustment to maintain control?",
+      "name": "They grip fight to strip your heel cup; what adjustment keeps control in cross ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Secure the initial heel cup from underneath first, using the hand closest to the mat to wrap under the heel. This bottom-up grip is significantly harder to strip than a top-down grip because the opponent must reach past your forearm. If they break one hand free, immediately re-establish with a reinforced grip variation such as an S-grip or figure-four. Simultaneously increase knee clamp pressure to keep them occupied with leg defense rather than hand fighting."

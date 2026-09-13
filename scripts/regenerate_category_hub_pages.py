@@ -24,6 +24,8 @@ from dataclasses import dataclass
 from datetime import datetime
 import argparse
 
+from _slug import slugify
+
 
 @dataclass
 class ContentItem:
@@ -302,7 +304,28 @@ class CategoryHubPageGenerator:
                 uncategorized.append(item)
         
         content_lines = []
-        
+
+        if category_name == "Systems":
+            # Each former h3 added a permalink SVG and a duplicate TOC row. At 83 systems
+            # those wrappers exceed the page budget. Keep every link and description in
+            # compact rows, plus the existing name anchors for bookmarked hub fragments.
+            def append_system_rows(system_items):
+                for item in system_items:
+                    anchor = slugify(item.name)
+                    content_lines.append(
+                        f'- <span id="{anchor}"></span>**{_wikilink(item)}** — {item.description}'
+                    )
+                content_lines.append("")
+
+            for cat, cat_items in sorted(categorized.items()):
+                content_lines.append(f"## {cat.replace('-', ' ').title()}\n")
+                append_system_rows(cat_items)
+            if uncategorized:
+                if categorized:
+                    content_lines.append("## Other Techniques\n")
+                append_system_rows(uncategorized)
+            return "\n".join(content_lines)
+
         # Add categorized items
         for cat, cat_items in sorted(categorized.items()):
             cat_title = cat.replace("-", " ").title()

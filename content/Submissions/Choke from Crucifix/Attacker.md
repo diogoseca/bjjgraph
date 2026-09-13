@@ -78,7 +78,7 @@ description: "How to execute Choke from Crucifix in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What is the correct anatomical target for choke from crucifix, and what is the dangerous incorrect target?",
+      "name": "What is the correct target for the choke from crucifix, and the dangerous wrong target?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct target is bilateral compression of the carotid arteries on both sides of the neck using a V-shaped arm position - bicep on one carotid, forearm blade on the other. The dangerous incorrect target is crushing the trachea (windpipe) with flat forearm pressure. Trachea crushing causes unnecessary pain, potential serious injury to the throat, and is actually less effective for achieving the tap. Proper technique should restrict blood flow to the brain (opponent cannot think clearly) rather than air flow (opponent feels pain and panic)."

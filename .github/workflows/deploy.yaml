@@ -141,6 +141,9 @@ jobs:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/apply_affiliate_ref.py
 
+      - name: Publish agent discovery and Markdown articles
+        run: npm run regenerate:agents
+
       # Must follow the stamp: the gate treats a leftover REPLACE_ME as fatal only when
       # AFFILIATE_REF is set, so running it first would fail on a placeholder that the
       # previous step was about to replace.
@@ -240,7 +243,8 @@ jobs:
 
       # Fast representative gate. The complete suite runs sharded before merges to main.
       - name: Curated journey gate (Playwright E2E)
-        timeout-minutes: 12
+        # Match preview: the 250-test serial suite needs more than 12 minutes.
+        timeout-minutes: 20
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)

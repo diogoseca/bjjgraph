@@ -58,7 +58,7 @@ description: "Defend against the omoplata from Russian Leg Lasso. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize the omoplata from Russian Leg Lasso is being initiated versus a standard sweep attempt?",
+      "name": "From Russian leg lasso, how do you tell an omoplata entry from a sweep attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key differentiator is the direction of the hip pivot. For sweeps, the opponent's hips load toward you to generate sweeping force. For the omoplata, the opponent pivots their hips perpendicular and away from the lasso side, beginning to swing their leg over your shoulder rather than using it for rotational sweep mechanics. You will also feel the sleeve grip tighten significantly as they prepare for the transition, and the collar grip will pull your posture down rather than to the side."
@@ -90,7 +90,7 @@ description: "Defend against the omoplata from Russian Leg Lasso. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How does defending the omoplata from Russian Leg Lasso differ from defending a standard omoplata from closed guard?",
+      "name": "How does defending the Russian leg lasso omoplata differ from a closed guard omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Russian Leg Lasso omoplata gives less warning because the attacking leg is already threaded through your arm in the lasso configuration, eliminating the visible leg-swinging motion that signals a standard omoplata entry. The defensive windows are narrower because the attacker skips the initial leg positioning step. However, the lasso-to-omoplata transition requires the attacker to unwind and rethread the leg, creating a brief mechanical vulnerability during the conversion that does not exist in standard omoplata setups. Defending requires earlier recognition based on hip pivot cues rather than leg movement cues."

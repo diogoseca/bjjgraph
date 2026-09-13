@@ -106,7 +106,7 @@ description: "How to execute X-Guard Elevation Sweep in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base and drops their hips as you begin inserting X-Guard hooks - how do you adjust?",
+      "name": "They widen their base and drop hips as you insert X-guard hooks from grasshopper — adjust how?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the elevation sweep and transition to leg entanglement entries. Their lowered hips and wide base make vertical elevation ineffective but create vulnerability to Ashi Garami or Single Leg X-Guard entries. Use your existing hook contact to thread into inside ashi, or redirect to a rolling kneebar. The defensive posture that stops the sweep actually assists leg attack transitions."

@@ -58,7 +58,7 @@ description: "Complete defensive guide against the guillotine choke from guillot
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive action you should take when you feel a guillotine grip establishing around your neck?",
+      "name": "What is your first action when you feel a guillotine grip closing around your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin down toward your chest to protect the trachea and reduce the attacker's access to the carotid arteries. Simultaneously, begin posture recovery by driving your hips forward and stacking your hands on the opponent's body. The chin tuck buys critical time by reducing the effectiveness of the choke while you work on grip fighting and posture recovery. Every second of delay before these actions makes escape exponentially harder."
@@ -74,7 +74,7 @@ description: "Complete defensive guide against the guillotine choke from guillot
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available against the guillotine choke from different positional contexts?",
+      "name": "What guillotine defenses are available from top position versus from bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From top position: posture up using hands stacked on opponent's hips, hand fight the grip, or pass to side control to set up Von Flue counter. From bottom position being guillotined: work underhook on choking side and circle to change angle, or strip the grip and recover guard. The positional context determines which defense is most effective—top position generally offers better escape options because you can use your body weight and gravity to assist posture recovery."
@@ -82,7 +82,7 @@ description: "Complete defensive guide against the guillotine choke from guillot
     },
     {
       "@type": "Question",
-      "name": "Why is pulling straight backward the wrong defensive response to a guillotine and what should you do instead?",
+      "name": "Why is pulling straight back wrong against the guillotine, and what should you do instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling straight backward extends the neck into the choking forearm, actually increasing compression on the carotid arteries and trachea. This is the most common defensive error and it accelerates the submission. Instead, drive forward and upward—push your hips toward the opponent while driving your head toward the ceiling. This stacks the opponent, reduces the angle of the choke, and creates the space needed for head extraction. Forward pressure combined with posture is the correct escape direction."

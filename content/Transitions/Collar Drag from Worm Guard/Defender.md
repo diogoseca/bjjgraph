@@ -64,7 +64,7 @@ description: "Defend the collar drag from worm guard in BJJ. Recognition cues, p
     },
     {
       "@type": "Question",
-      "name": "Why is stepping backward an unreliable defense against the collar drag when worm guard is established?",
+      "name": "Why is stepping back an unreliable defense to the collar drag once worm guard is set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The worm guard lapel wrap specifically immobilizes your lead leg by wrapping the lapel around it, preventing you from stepping backward. Since stepping back is the natural defensive response to being pulled forward, the worm guard eliminates your strongest defensive mechanism. This is why the collar drag from worm guard is significantly more effective than from standard open guard positions."
@@ -72,7 +72,7 @@ description: "Defend the collar drag from worm guard in BJJ. Recognition cues, p
     },
     {
       "@type": "Question",
-      "name": "Your opponent has obtained a deep collar grip and you feel the drag is imminent - what is your highest percentage defensive response?",
+      "name": "In worm guard, they get a deep collar grip and the drag is coming: your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your weight forward and down immediately while posting your far hand to prevent face-down collapse. Your forward drive counteracts their pulling force and makes it impossible for them to sit up underneath you. Simultaneously work to strip the collar grip with your other hand. If you successfully pin them flat, their collar drag loses all power because they cannot complete the sit-up motion needed to come around to front headlock."

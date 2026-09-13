@@ -80,7 +80,7 @@ description: "How to execute X-Guard to Ashi Transition in BJJ. Attacking perspe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is the top hook maintained as an anchor point during the transition while the bottom hook is released first?",
+      "name": "Going X-guard to ashi garami, why keep the top hook as anchor and release the bottom hook first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The top hook positioned above the knee provides superior leverage and control over opponent's leg while you reconfigure your bottom leg. If you release the top hook first, opponent can easily pull their leg free or step over you. The top hook's position above the knee joint gives you mechanical advantage to control their leg's movement while your bottom leg transitions from hip hook to inside position. This sequential release ensures continuous control throughout the transition."
@@ -96,7 +96,7 @@ description: "How to execute X-Guard to Ashi Transition in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "How does the inside leg position prevent opponent's primary escape mechanism, and why must it cross their centerline?",
+      "name": "In Ashi Garami, how does the inside leg block their escape, and why must it cross centerline?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside leg crossed over opponent's centerline and wedged against their far hip prevents them from rotating away toward their trapped leg side, which is the highest-percentage escape from Ashi positions. If the inside leg is shallow and doesn't cross centerline, opponent can simply turn their hips and torso away, using rotation to extract their leg from entanglement. Deep inside position creates a physical barrier that blocks this rotation, forcing them to defend through different, lower-percentage methods. The deeper the inside position, the more rotational control you possess."
@@ -104,7 +104,7 @@ description: "How to execute X-Guard to Ashi Transition in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Why must heel control be established simultaneously with leg positioning rather than sequentially afterward?",
+      "name": "Why establish heel control at the same time as your leg position, not after?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Delaying heel control creates a window where opponent can establish their own defensive grips on their trapped leg, making it extremely difficult to break their controls and secure the heel. Once opponent's hands are on their own leg with good positioning, they can defend indefinitely by fighting hand battles. Simultaneous establishment of heel control and leg configuration overwhelms opponent's ability to defend both aspects at once, ensuring you secure the critical control points before they can mount defensive responses. This timing principle is fundamental to all leg entanglement entries."
@@ -120,7 +120,7 @@ description: "How to execute X-Guard to Ashi Transition in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What is the relationship between hip-to-hip connection distance and control effectiveness in Ashi positions?",
+      "name": "In Ashi positions, how does hip-to-hip distance affect your control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip-to-hip connection distance is inversely proportional to control effectiveness and submission threat in all Ashi variations. Every inch of space between your hip and opponent's hip exponentially increases their ability to create frames, withdraw their leg, or establish defensive positioning. Tight hip connection maximizes your leverage over their leg while minimizing their ability to generate escape movements. This principle is so fundamental that maintaining hip-to-hip pressure should be treated as the primary control mechanism, even above leg configuration adjustments."
@@ -439,9 +439,9 @@ This transition enters leg entanglement territory where submissions can occur ra
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Critical entry pathway from X-guard positions to leg entanglements</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Common entry pathway from guard positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Conversion pathway from x-guard position to leg entanglement positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Critical entry pathway from X-guard positions to leg entanglements</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Common entry pathway from guard positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Conversion pathway from x-guard position to leg entanglement positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

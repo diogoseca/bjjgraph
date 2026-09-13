@@ -56,7 +56,7 @@ description: "Defend against the Double Jump to Side Control transition. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the opponent is transitioning from Double Jump to side control rather than continuing back-take attempts?",
+      "name": "Which cues tell you they're going from Double Jump to side control rather than your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include feeling one leg hook begin to withdraw from inside your thigh while crossface pressure simultaneously intensifies, the top player's chest pressure shifting from centered on your spine toward one shoulder indicating the lateral direction, and feeling their hips begin to walk around your body in small steps rather than maintaining the stationary position behind you. The combination of hook withdrawal with increased upper body pressure signals the side control transition."
@@ -72,7 +72,7 @@ description: "Defend against the Double Jump to Side Control transition. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent has extracted one hook and is walking their hips laterally—what is your immediate defensive response?",
+      "name": "They've pulled one hook and are walking their hips laterally: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately initiate a sit-out in the opposite direction of their lateral movement, using the asymmetric weight distribution to your advantage. Post your far hand on the mat and rotate your hips away from the direction they are walking. Their commitment to the lateral path makes it difficult to follow your opposite-direction movement. If the sit-out timing has passed, turn to face the opponent and insert your knee frame between bodies before they reach perpendicular alignment."
@@ -80,7 +80,7 @@ description: "Defend against the Double Jump to Side Control transition. Recogni
     },
     {
       "@type": "Question",
-      "name": "Why is static sealed turtle defense ineffective against the side control transition despite being effective against back takes?",
+      "name": "Why does sealed turtle stop back takes but fail against the side control transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Static sealed turtle with tucked elbows and protected back prevents hook elevation to back control by closing the pathways the top player needs for traditional back-take entries. However, this same sealed posture leaves the lateral pathway completely open because the defender is not actively resisting the hip walk-around. The tight defensive shell that blocks back access creates a stable surface for the top player to maintain pressure while walking their hips to side control alignment."

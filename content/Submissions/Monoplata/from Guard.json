@@ -309,7 +309,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the minimum time you should take to apply finishing pressure in the monoplata during training?",
+        "question": "What is the minimum time to apply finishing pressure on the monoplata in training?",
         "answer": "You should take a minimum of 5-7 seconds to apply finishing pressure in training. This extremely slow application allows your partner ample time to recognize the danger and tap, preventing serious shoulder injuries. Competition pace should never be used in training for shoulder locks due to the high injury risk.",
         "safety_critical": true,
         "answer_line": "Minimum 5-7 seconds, slow",
@@ -339,7 +339,7 @@
         }
       },
       {
-        "question": "Describe the proper figure-four leg configuration in the monoplata and why it is mechanically important?",
+        "question": "How is the monoplata figure-four formed with the legs, and why does it matter mechanically?",
         "answer": "The figure-four is created by bringing your far-side leg underneath the opponent's trapped arm and hooking your far-side ankle behind your near-side knee. This creates a closed loop around their arm that prevents escape and allows you to squeeze and create rotational pressure. The figure-four is mechanically superior to other leg configurations because it distributes force evenly, prevents the opponent from straightening their arm, and allows you to apply consistent pressure through simple leg squeezing rather than complex body movements.",
         "safety_critical": false,
         "answer_line": "Far leg under arm, hook near knee",
@@ -384,7 +384,7 @@
         }
       },
       {
-        "question": "What are the critical control points that must be established before attempting to finish the monoplata?",
+        "question": "Which control points must be set before finishing the monoplata from closed guard?",
         "answer": "The critical control points are: (1) complete arm isolation with the opponent's arm extended past your hip line, (2) wrist control to prevent hand fighting, (3) secure figure-four leg lock around the arm, (4) control of opponent's posture using your free leg to block their far hip or shoulder, (5) proper perpendicular body angle, and (6) prevention of their base recovery. All six control points should be established before applying any finishing pressure to ensure both effectiveness and safety.",
         "safety_critical": false,
         "answer_line": "Arm, wrist, figure-4, posture",
@@ -414,7 +414,7 @@
         }
       },
       {
-        "question": "Your opponent starts posturing up aggressively during the monoplata setup - what grip adjustment prevents escape?",
+        "question": "Your opponent postures up hard during the monoplata setup—what grip adjustment stops the escape?",
         "answer": "When the opponent postures up, immediately reinforce your wrist control by switching to a two-on-one grip on their trapped arm. Pull their elbow toward your chest while maintaining your leg configuration. If they create significant distance, transition your near-side hand to grip behind their tricep or elbow, pulling it across your body. The key is maintaining constant tension on the arm - any slack allows them to extract it. Consider using your legs to pull them back down by squeezing your thighs toward their head.",
         "safety_critical": false,
         "answer_line": "Two-on-one grip, pull elbow in",
@@ -459,7 +459,7 @@
         }
       },
       {
-        "question": "In competition, what is the point of no return where the opponent can no longer safely escape the monoplata?",
+        "question": "In the monoplata, what marks the point where your opponent can no longer escape safely?",
         "answer": "The point of no return occurs when your figure-four is fully locked with no arm mobility remaining, your body angle is perpendicular, and their shoulder begins to internally rotate past neutral. At this stage, any explosive escape attempt risks serious shoulder injury. The opponent's only safe options are to tap immediately or attempt a slow, controlled posture recovery before pressure is applied. Recognizing this point is critical - once reached, you control the submission's outcome and should apply pressure gradually to allow a safe tap.",
         "safety_critical": true,
         "answer_line": "Figure-4 locked, perpendicular angle",
@@ -643,7 +643,7 @@
         }
       },
       {
-        "question": "When the attacker begins leg threading for the monoplata, what specific defensive action should you take with your body position?",
+        "question": "As the attacker threads their leg for the monoplata, what should you do with your body position?",
         "answer": "Drive your weight forward into the attacker by stacking your chest onto their guard while simultaneously pulling your trapped elbow tight to your ribs. This forward pressure collapses the space they need to complete the leg threading and prevents them from achieving the perpendicular body angle that powers the submission. Additionally, use your free hand to push on their hip or thigh on the side they are angling toward, disrupting their ability to create the rotation needed for the figure-four. The combination of stacking pressure and arm retraction addresses both the limb isolation and the positional angle simultaneously.",
         "safety_critical": false,
         "answer_line": "Stack chest forward, elbow in",
@@ -658,7 +658,7 @@
         }
       },
       {
-        "question": "What makes the forward roll escape from monoplata riskier than the same escape from a standard omoplata?",
+        "question": "Why is the forward roll escape riskier from a monoplata than from a standard omoplata?",
         "answer": "In a standard omoplata, the forward roll relieves shoulder pressure because the attacker's legs are positioned on the outside of your arm and the rolling motion rotates your shoulder back toward neutral. In the monoplata, the figure-four configuration traps your arm between the attacker's legs, so a forward roll can actually increase rotational torque on the shoulder if the attacker maintains the figure-four through the roll. The attacker can follow the roll while keeping the leg lock intact, arriving in a top position with the submission still applied. This makes the forward roll a last-resort option that should only be attempted when the attacker's free leg has not yet blocked your far hip.",
         "safety_critical": true,
         "answer_line": "Figure-four can hold through roll",

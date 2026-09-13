@@ -74,7 +74,7 @@ description: "Master the attacker perspective for countering the Estima Lock in 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first mechanical action you should take when you recognize an Estima Lock has been secured on your foot?",
+      "name": "Caught in an Estima Lock, what is the first mechanical action you should take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately counter-rotate your ankle by turning your toes outward and driving your heel downward. This reduces the rotational pressure on the ankle joint and Achilles tendon that makes the Estima Lock dangerous. Counter-rotation must happen before any extraction attempt because pulling the foot out without addressing rotation can increase torque and cause injury."
@@ -82,7 +82,7 @@ description: "Master the attacker perspective for countering the Estima Lock in 
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their Estima Lock grip and you feel increasing pressure on your ankle—what signals indicate you should tap rather than continue escaping?",
+      "name": "In the Estima Lock, what signs mean you should tap rather than keep escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately when you experience sharp pain in the ankle joint or Achilles tendon, feel the ankle being twisted beyond normal range of motion, lose the ability to counter-rotate effectively, or recognize that the opponent's mechanical completion of the lock leaves no viable escape angle. Preserving joint health and training longevity always takes priority over escaping any single submission attempt."
@@ -90,7 +90,7 @@ description: "Master the attacker perspective for countering the Estima Lock in 
     },
     {
       "@type": "Question",
-      "name": "Why must you establish frames on the opponent's hips before attempting to break their grip on your foot?",
+      "name": "Why frame on their hips before breaking their Estima Lock grip on your foot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Framing on the opponent's hips prevents them from driving forward and consolidating pressure while you work the grip break. Without frames, breaking the grip becomes a pure hand-fighting contest where the opponent maintains superior structural position and can simply re-grip while maintaining the same mechanical advantage. Frames create the structural foundation for all subsequent escape mechanics."
@@ -98,7 +98,7 @@ description: "Master the attacker perspective for countering the Estima Lock in 
     },
     {
       "@type": "Question",
-      "name": "You begin counter-rotating but your free leg is flat on the mat doing nothing—what immediate adjustment improves your escape chances?",
+      "name": "You counter-rotate but your free leg lies flat on the mat. What adjustment improves your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Position your free foot on the opponent's hip, inner thigh, or behind their knee and push firmly to create distance. The free leg is your most powerful escape tool because it generates pushing force that reduces the opponent's mechanical advantage on your trapped foot. An active free leg creates the space needed for grip disruption and extraction while making it harder for the opponent to maintain tight hip-to-calf contact."
@@ -114,7 +114,7 @@ description: "Master the attacker perspective for countering the Estima Lock in 
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the Estima Lock grip and immediately drives forward to pass your guard—how do you respond?",
+      "name": "They release the Estima Lock and drive forward to pass. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish open guard structure by placing both feet on their hips and creating distance with active leg frames before they can close the gap. The moment of grip release is a critical transition window where you must prioritize guard recovery over any other action. Secure at least one upper body grip on their sleeve, collar, or wrist to prevent uncontested distance closure and passing pressure."

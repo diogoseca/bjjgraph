@@ -1,0 +1,256 @@
+{
+  "name": "Eduardo Telles Gi Octopus Guard System",
+  "description": "Explore Eduardo Telles Gi Octopus Guard System with a matched BJJ Fanatics course, practical study steps, partner drills, and connected technique references.",
+  "summary": "The Eduardo Telles Gi Octopus Guard System is a study framework for connecting octopus sweeps and back takes while accounting for gi grips.",
+  "tags": [
+    "bjj",
+    "system",
+    "gi"
+  ],
+  "system_type": "Guard System",
+  "difficulty_level": "Intermediate",
+  "overview": "A gi grip can change both the available entry and the response to a sweep. Eduardo Telles's Octopus With Pajamas gives this guide a specific gi focus, linking half-guard and closed-guard situations with butterfly-assisted movement and back exposure. Use that narrower brief when comparing it with Craig Jones's no-gi Octopus guide. The aim here is to recognise a few repeatable choices in your existing guard, rather than collect every variation at once.\n\nThe sequence and drills below are original BJJGraph study suggestions, not a course transcript or an official instructor curriculum. Use the linked demonstrations for technical detail, then compare one selected lesson with a controlled partner round.",
+  "key_principles": [
+    "The sleeve contact depends on clothing and changes the available connection; it cannot be copied unchanged into no-gi.",
+    "The posting choice changes your base and helps explain how the movement is supported.",
+    "The partner response may expose their back, but that exposure must still be connected to stable rear control.",
+    "Both partners should understand the starting contact and intended direction of movement.",
+    "Their grips and body constraints differ, so success in one entry does not show the other is reliable.",
+    "Whether the new top position is controlled or the partner can recover before the transition is complete."
+  ],
+  "key_components": [
+    {
+      "component_name": "Choose a familiar gi guard",
+      "description": "Start from half guard with agreed grips and identify where the overback connection becomes available.",
+      "purpose": "Give the choose a familiar gi guard stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Compare the posting options",
+      "description": "Practise the basic sweep and its elbow-post variation separately, noticing how each changes your base.",
+      "purpose": "Give the compare the posting options stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Read the sweep defense",
+      "description": "Allow one defensive post and decide whether the back is available or whether the sweep needs to be reset.",
+      "purpose": "Give the read the sweep defense stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Connect a butterfly option",
+      "description": "Introduce the butterfly-assisted branch only when both partners can identify the direction of the intended movement.",
+      "purpose": "Give the connect a butterfly option stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Transfer to closed guard",
+      "description": "Study how the sleeve-grip entry changes the same decision and compare it with the original half-guard round.",
+      "purpose": "Give the transfer to closed guard stage a concrete objective before connecting it to the next exchange."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Choose a familiar gi guard",
+      "description": "Start from half guard with agreed grips and identify where the overback connection becomes available."
+    },
+    {
+      "step_number": 2,
+      "phase": "Compare the posting options",
+      "description": "Practise the basic sweep and its elbow-post variation separately, noticing how each changes your base."
+    },
+    {
+      "step_number": 3,
+      "phase": "Read the sweep defense",
+      "description": "Allow one defensive post and decide whether the back is available or whether the sweep needs to be reset."
+    },
+    {
+      "step_number": 4,
+      "phase": "Connect a butterfly option",
+      "description": "Introduce the butterfly-assisted branch only when both partners can identify the direction of the intended movement."
+    },
+    {
+      "step_number": 5,
+      "phase": "Transfer to closed guard",
+      "description": "Study how the sleeve-grip entry changes the same decision and compare it with the original half-guard round."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "Using the gi lesson as a no-gi grip prescription",
+      "solution": "Identify which contact depends on clothing before attempting to transfer the drill."
+    },
+    {
+      "obstacle": "Adding a roll before understanding the base",
+      "solution": "Return to the basic sweep and practise the change of weight cooperatively."
+    },
+    {
+      "obstacle": "Ignoring the partner after the sweep",
+      "solution": "Continue only far enough to establish top control or identify the back exposure."
+    },
+    {
+      "obstacle": "Treating two entry positions as identical",
+      "solution": "Record the half-guard and closed-guard results separately."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Starting-position recognition",
+      "description": "Check whether the practitioner can describe the relevant control from Half Guard.",
+      "proficiency_indicators": [
+        "Names the starting position",
+        "Identifies the first useful contact",
+        "Explains why the chosen lesson fits this exchange"
+      ]
+    },
+    {
+      "metric_name": "Reaction recognition",
+      "description": "Assess the decision when the partner stops the first option.",
+      "proficiency_indicators": [
+        "Names the defensive response",
+        "Pauses at the point the original option is lost",
+        "Chooses a supported continuation or reset"
+      ]
+    },
+    {
+      "metric_name": "Endpoint quality",
+      "description": "Review the position reached after the selected movement.",
+      "proficiency_indicators": [
+        "Can name the intended endpoint",
+        "Checks the partner still has an escape response",
+        "Separates a transient opening from sustained control"
+      ]
+    },
+    {
+      "metric_name": "Practice transfer",
+      "description": "Compare the same task as agreed resistance and partner reactions change.",
+      "proficiency_indicators": [
+        "Repeats the starting conditions",
+        "Records the first point of failure",
+        "Chooses one specific adjustment for the next round"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice suggestion: start from Half Guard and give the partner one agreed response. Work through the first two stages cooperatively, then stop each repetition at the chosen control or recovery endpoint. Add another reaction only when both partners can explain what changed. Keep submission entries controlled and release immediately on a tap or request to stop. Review the lost connection before adding speed.",
+    "progression_path": [
+      {
+        "stage": "Recognise",
+        "focus": "Start from half guard with agreed grips and identify where the overback connection becomes available."
+      },
+      {
+        "stage": "Rehearse",
+        "focus": "Practise the basic sweep and its elbow-post variation separately, noticing how each changes your base."
+      },
+      {
+        "stage": "Respond",
+        "focus": "Allow one defensive post and decide whether the back is available or whether the sweep needs to be reset."
+      },
+      {
+        "stage": "Connect",
+        "focus": "Study how the sleeve-grip entry changes the same decision and compare it with the original half-guard round."
+      }
+    ],
+    "common_mistakes": [
+      "Using the gi lesson as a no-gi grip prescription",
+      "Adding a roll before understanding the base",
+      "Ignoring the partner after the sweep",
+      "Treating two entry positions as identical"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Starting guard for examining trapped-leg control and the transition into the next exchange."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "Alternative guard entry where posture and gi grips change the available choices."
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "Reference for the hook-assisted elevation branch of the sweep sequence."
+    },
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "Endpoint used to check whether following back exposure produced a stable position."
+    },
+    {
+      "name": "Turtle",
+      "content_type": "Position",
+      "relationship": "Transition position where hook access, rear grips and the exit direction must be assessed."
+    },
+    {
+      "name": "Reverse Half Guard",
+      "content_type": "Position",
+      "relationship": "Orientation comparison for the reverse-half entry and back-taking branch."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Balance reference for changing posts or limb controls without giving away the position."
+    },
+    {
+      "name": "Action and Reaction",
+      "content_type": "Principle",
+      "relationship": "Principle for choosing a continuation from the partner response instead of forcing a fixed chain."
+    },
+    {
+      "name": "Positional Sparring",
+      "content_type": "Principle",
+      "relationship": "Practice structure for repeating a specified position, partner response, and endpoint."
+    },
+    {
+      "name": "Position-Over-Submission Approach",
+      "content_type": "Principle",
+      "relationship": "Decision rule for retaining or recovering control before chasing an unsupported finish."
+    },
+    {
+      "name": "Craig Jones Octopus Guard System",
+      "content_type": "System",
+      "relationship": "Compare the gi and no-gi study focus before selecting an Octopus Guard instructional."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What makes the closed-guard sleeve entry specifically relevant to gi practice?",
+      "answer": "The sleeve contact depends on clothing and changes the available connection; it cannot be copied unchanged into no-gi."
+    },
+    {
+      "question": "Why compare the basic octopus sweep with the elbow-post variation?",
+      "answer": "The posting choice changes your base and helps explain how the movement is supported."
+    },
+    {
+      "question": "How can sweep defense influence the decision to follow the back?",
+      "answer": "The partner response may expose their back, but that exposure must still be connected to stable rear control."
+    },
+    {
+      "question": "What should be established before adding a butterfly-assisted octopus branch?",
+      "answer": "Both partners should understand the starting contact and intended direction of movement."
+    },
+    {
+      "question": "Why keep half-guard and closed-guard practice results separate?",
+      "answer": "Their grips and body constraints differ, so success in one entry does not show the other is reliable."
+    },
+    {
+      "question": "What should be checked immediately after a sweep?",
+      "answer": "Whether the new top position is controlled or the partner can recover before the transition is complete."
+    }
+  ],
+  "products": [
+    {
+      "id": "octopus-with-pajamas-by-eduardo-telles",
+      "title": "Octopus With Pajamas",
+      "instructor": "Eduardo Telles",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A directly matched instructional companion for connecting octopus sweeps and back takes while accounting for gi grips. Review its published contents and sample to judge the teaching approach.",
+      "best_for": "Gi practitioners with a working half guard or closed guard who want a compact introduction to octopus sweeps and back-taking decisions.",
+      "study_focus": "Compare the half-guard sweep with its elbow-post variation, then study the closed-guard sleeve option and the sweep-to-back relationship.",
+      "practice_tip": "BJJGraph suggestion: begin with 'Choose a familiar gi guard' from Half Guard. Record which partner response interrupts the plan and revisit that lesson before adding another branch."
+    }
+  ]
+}

@@ -332,7 +332,7 @@
         }
       },
       {
-        "question": "If the opponent successfully strips your lapel during the transition, what is your immediate response?",
+        "question": "In Ringworm to Worm Guard, they strip your lapel mid-transition: what is your immediate response?",
         "answer": "Immediately transition to an alternative guard position using your remaining grips. If you have sleeve control, transition to Spider Guard or Lasso Guard. If you have collar grip, work to De La Riva or Collar Sleeve Guard. Do not attempt to re-establish the lapel guard from a compromised position.",
         "answer_line": "Switch to guard from remaining grip",
         "distractors": {
@@ -360,7 +360,7 @@
         }
       },
       {
-        "question": "How do you manage grip endurance when working extended lapel guard sequences that include this transition?",
+        "question": "How do you manage grip endurance across extended lapel guard sequences into Worm Guard?",
         "answer": "Let the mechanical structure of the lapel wrap carry the control load rather than relying on raw grip strength. Once the lapel is properly threaded and wrapped around your shin, the friction and wrapping tension maintain control with minimal hand effort. Save explosive grip engagement for the actual transition moment and sweep attempts. If grip fatigue sets in, execute the transition to Worm Guard quickly since its deeper threading requires less active gripping to maintain.",
         "answer_line": "Let the wrap carry the load",
         "distractors": {
@@ -374,7 +374,7 @@
         }
       },
       {
-        "question": "Your opponent keeps their base low and wide, preventing you from creating space for the transition - what alternative approach works?",
+        "question": "Their base is low and wide, blocking your Ringworm to Worm Guard transition: what alternative works?",
         "answer": "Initiate a sweep attempt from Ringworm Guard to force the opponent to react and shift their weight. When they post a hand or adjust their base defensively, the momentary weight redistribution creates space under their leg. Use that opening to execute the lapel rethread rather than completing the original sweep. This sweep-to-transition chain converts their defensive reactions into transition opportunities.",
         "answer_line": "Fake a sweep to open space",
         "distractors": {
@@ -514,7 +514,7 @@
         }
       },
       {
-        "question": "Why is it strategically important to prevent the transition from completing rather than dealing with Worm Guard afterward?",
+        "question": "Why prevent the Ringworm to Worm Guard transition instead of defending Worm Guard afterward?",
         "answer": "Worm Guard provides significantly deeper mechanical control than Ringworm Guard, with more powerful sweeps, better submission entries, and tighter restrictions on the top player's movement. Preventing the transition keeps the bottom player in the less threatening Ringworm position. The energy cost of defending against established Worm Guard is substantially higher than interrupting the transition.",
         "answer_line": "Worm Guard is far harder to escape",
         "distractors": {
@@ -528,7 +528,7 @@
         }
       },
       {
-        "question": "Your opponent starts hip escaping and you feel the lapel tension decrease - what is your immediate sequence of actions?",
+        "question": "They hip escape and the lapel tension drops: what is your immediate sequence of actions?",
         "answer": "Immediately drive your hips forward and down to eliminate the space created by their hip escape. Simultaneously use your nearest hand to grip the lapel material where it is loosening around your leg and begin peeling it away. If you can control their lapel-gripping hand with your other hand, do so to prevent them from completing the rethread. Priority is denying space first, then attacking the grip.",
         "answer_line": "Close space, then strip the grip",
         "distractors": {
@@ -556,7 +556,7 @@
         }
       },
       {
-        "question": "What visual and tactile cues distinguish an actual transition attempt from normal Ringworm Guard adjustments?",
+        "question": "What cues distinguish a real Worm Guard transition attempt from routine Ringworm adjustments?",
         "answer": "An actual transition attempt is characterized by a deliberate hip escape creating a new angle, simultaneous strengthening of the secondary grip on your sleeve or collar, and the lapel hand sliding along the material rather than simply adjusting tension. Normal adjustments maintain consistent tension direction. The transition involves a clear directional change in how the lapel is being fed - from around the outside of your leg to under and through it.",
         "answer_line": "Hip angle change + grip sliding",
         "distractors": {

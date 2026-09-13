@@ -98,7 +98,7 @@ description: "How to execute Back Take from Ashi in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent is defending your heel hook by keeping their knee rotated away but maintains a low, compact posture without sitting up - what should you do?",
+      "name": "From inside ashi they defend the heel hook staying low and compact: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not force the back take. Continue threatening leg attacks to provoke the forward reaction you need. Alternate between straight ankle lock pressure, toe hold threats, and kneebar setups to force them to address your leg control. Each defensive adjustment they make requires them to engage their hands and shift weight. Eventually they must sit up or reach forward to address the persistent threats, and that is your window. Patience here is critical - forcing the back take against a low, compact defender almost always fails."
@@ -421,7 +421,7 @@ This transition involves releasing leg control and moving dynamically to opponen
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Critical transition converting leg entanglement control to back control when opponent successfully defends submissions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Critical transition converting leg entanglement control to back control when opponent successfully defends submissions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

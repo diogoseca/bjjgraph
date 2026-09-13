@@ -96,7 +96,7 @@ description: "How to execute Stack Pass in BJJ. Complete attacking guide with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent secures a collar grip and starts pulling your head down as you initiate the stack - how do you respond?",
+      "name": "They pull your head down by the collar as you start the stack: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, do not continue driving forward with a compromised head position, as this feeds directly into a guillotine. Strip the collar grip immediately using a two-on-one grip break by grabbing their wrist with both hands and pushing toward their thumb while rotating away. Once freed, re-establish your passing grips and tuck your chin to the side before resuming forward pressure. If the grip is too deep, posture up fully to break their pulling angle before stripping, then re-initiate the stack with proper head placement on the passing side."
@@ -419,7 +419,7 @@ The stack pass places significant pressure on the opponent's neck, cervical spin
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Pressure-based pass offering clear scoring criteria when stabilized</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/IBJJF-Strategy-Guide" data-cta="related-system-card" data-system-slug="systems/ibjjf-strategy-guide" data-system-name="IBJJF Strategy Guide" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">IBJJF Strategy Guide</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Pressure-based pass offering clear scoring criteria when stabilized</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

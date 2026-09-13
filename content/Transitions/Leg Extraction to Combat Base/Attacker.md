@@ -98,7 +98,7 @@ description: "How to execute Leg Extraction to Combat Base in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins extending the lockdown aggressively while you prepare to extract - what adjustment do you make?",
+      "name": "Your opponent aggressively extends the lockdown as you prepare to extract — what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not attempt extraction while they actively extend. Their grip strength is maximum during extension. Instead, drive your weight forward through your chest into their upper body, compressing their space and reducing the effectiveness of their extension. Wait for them to relax the lockdown to reset their attack, then time your extraction during that brief window of reduced tension."

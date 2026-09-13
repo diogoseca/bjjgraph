@@ -90,7 +90,7 @@ description: "Master the turtle turn execution from side control bottom. Learn f
     },
     {
       "@type": "Question",
-      "name": "Your opponent blocks your turn by driving a heavy crossface - how do you adjust your escape strategy?",
+      "name": "Turning to turtle from side control bottom, a heavy crossface blocks you. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the crossface blocks the turn, switch strategies rather than fighting through it. Options include using a stronger bridge combined with far-side underhook to create more space, switching to a hip escape toward the opponent instead of away, or threatening a guard recovery with your far-side leg to force the opponent to address a different threat. This may lighten the crossface pressure enough for a subsequent turn attempt from a different angle."
@@ -114,7 +114,7 @@ description: "Master the turtle turn execution from side control bottom. Learn f
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins inserting a hook as you complete the turn to turtle - what is your immediate response?",
+      "name": "They start inserting a hook as you finish turning to turtle. What is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately kick your leg back and away from the hooking foot while simultaneously initiating a sit-through to the opposite side. Do not allow the hook to settle because the window for defending a single hook is small. If the hook sets before you can clear it, shift your defensive priority to preventing the second hook and the seatbelt grip while working a sit-through or granby roll escape. Speed of response is critical during this transition moment."

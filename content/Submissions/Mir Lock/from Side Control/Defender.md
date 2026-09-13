@@ -58,7 +58,7 @@ description: "How to defend against Mir Lock in BJJ. Recognition, escape paths, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical early defensive action when you feel your arm being isolated from bottom side control?",
+      "name": "What is the most critical early defense when your arm is being isolated under side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical early defensive action is to grip your own belt, gi lapel, or pants with the threatened hand to create an anchor that prevents the attacker from extending your arm and establishing the figure-four grip. This must happen before the attacker locks the figure-four, because once the grip is secured and the elbow begins to elevate, your defensive options narrow dramatically. Simultaneously, you should pull your elbow tight toward your ribs and begin hip escaping to create distance from the attacker's chest pressure."

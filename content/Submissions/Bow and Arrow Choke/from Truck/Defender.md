@@ -58,7 +58,7 @@ description: "Defend the Bow and Arrow Choke from Truck. Recognition cues, colla
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the Bow and Arrow Choke from Truck is being set up rather than another truck attack?",
+      "name": "In the Truck, how do you tell a bow and arrow setup from other truck attacks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cue is the opponent's non-boot hand releasing upper body control and reaching toward your gi collar rather than reaching for your far arm (twister) or adjusting leg position (calf slicer). You may also feel increased boot pressure as they brace for the collar reach, and their chest pressure may shift as they adjust angle for collar access."
@@ -90,7 +90,7 @@ description: "Defend the Bow and Arrow Choke from Truck. Recognition cues, colla
     },
     {
       "@type": "Question",
-      "name": "What is the defensive priority hierarchy when caught in the Truck with a Bow and Arrow being attempted?",
+      "name": "Caught in the Truck with a bow and arrow coming — what is your defensive priority order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The priority hierarchy is: first, protect the neck by tucking chin and fighting the collar grip with your near hand. Second, prevent the grip from going past the chin using hand fighting and chin positioning. Third, if the grip is established, strip it with two-on-one before extension begins. Fourth, address boot pressure and leg entanglement. Fifth, execute an escape to guard recovery. Neck protection always comes first because the choke is the immediate danger."

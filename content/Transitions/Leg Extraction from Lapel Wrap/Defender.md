@@ -64,7 +64,7 @@ description: "How to defend against Leg Extraction from Lapel Wrap in BJJ. Maint
     },
     {
       "@type": "Question",
-      "name": "Your opponent has created significant slack in the wrap and is about to strip the grip - what is your best option?",
+      "name": "Your lapel wrap has slack and is about to be stripped — what is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the wrap is nearly lost, transition to Worm Guard or Squid Guard by re-threading the lapel into an alternative configuration rather than fighting a losing grip battle. Release the current grip and quickly re-thread before they can clear the material entirely. Maintaining some form of lapel control is far better than losing all guard control and being passed immediately."
@@ -72,7 +72,7 @@ description: "How to defend against Leg Extraction from Lapel Wrap in BJJ. Maint
     },
     {
       "@type": "Question",
-      "name": "Why is threatening attacks during the extraction more effective than simply holding the grip tighter?",
+      "name": "Why threaten attacks during their lapel extraction instead of just gripping harder?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip strength alone is a finite resource that the opponent can overcome through systematic peeling and slack creation. Threatening sweeps and back takes forces the opponent into a dilemma where committing to extraction leaves them vulnerable to position loss. This defensive aggression disrupts their extraction timing and forces them to abort attempts to defend, which is far more sustainable than a pure grip-strength battle."
@@ -80,7 +80,7 @@ description: "How to defend against Leg Extraction from Lapel Wrap in BJJ. Maint
     },
     {
       "@type": "Question",
-      "name": "When the opponent turns their shoulders during extraction, why is this the ideal moment to attack the back?",
+      "name": "Why is their shoulder turn during the lapel extraction the ideal moment to take the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shoulder turn exposes the back angle that is normally protected when they face you squarely. During extraction, their hands are committed to the lapel material rather than defending underhooks or seatbelt grips, and their weight is shifted to the free leg making them vulnerable to being pulled off-balance. This combination of exposed angle, committed hands, and compromised base creates the highest-percentage back take opportunity from the position."
@@ -88,7 +88,7 @@ description: "How to defend against Leg Extraction from Lapel Wrap in BJJ. Maint
     },
     {
       "@type": "Question",
-      "name": "What secondary grip provides the most defensive value when the opponent begins their extraction sequence?",
+      "name": "Which secondary grip gives you the most defensive value as their extraction begins?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A far-side collar grip provides the most defensive value because it allows you to break their posture, assist with sweeping mechanics, and create the angular off-balancing needed for back take attempts. The collar grip also survives independently if the lapel wrap is broken, giving you continued control to transition to another guard system rather than being immediately passed."

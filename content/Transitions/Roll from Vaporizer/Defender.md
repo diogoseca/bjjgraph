@@ -50,7 +50,7 @@ description: "Learn to defend the Roll from Vaporizer in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to roll rather than continue with standard Vaporizer attacks?",
+      "name": "On top in Vaporizer, what's the earliest cue they're rolling rather than attacking normally?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest and most reliable cue is feeling the lockdown configuration begin to loosen while the underhook simultaneously tightens or deepens. In standard Vaporizer attacks like the Electric Chair or Old School sweep, the lockdown tightens as the attack develops. When the lockdown loosens but the underhook intensifies, this signals a transition away from lockdown-based attacks toward a rolling movement that requires the underhook as its primary connection point rather than the leg entanglement."
@@ -66,7 +66,7 @@ description: "Learn to defend the Roll from Vaporizer in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How does defending the Roll from Vaporizer differ from defending standard Vaporizer sweeps like the Old School?",
+      "name": "How does defending the roll from Vaporizer differ from defending an Old School sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standard Vaporizer sweeps such as the Old School are defended by maintaining wide base and resisting lateral rolling forces. The roll defense is fundamentally different because the movement direction is forward and rotational rather than lateral. Sprawling and driving weight downward is more effective against the roll than widening your base, because the roll requires space underneath your body to thread through. For sweeps you widen your base laterally; for rolls you flatten and compress the space vertically. Recognizing which attack is coming determines your defensive response."

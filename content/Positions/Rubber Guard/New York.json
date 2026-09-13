@@ -93,7 +93,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts driving their shin deeper across your back - what immediate adjustment should you make?",
+        "question": "In New York, they drive their shin deeper across your back: what adjustment do you make?",
         "answer": "Immediately widen your base by spreading your knees apart to create a stable triangular foundation. This prevents being swept and gives you a platform to begin fighting for posture. Simultaneously, use your free hand to grip-fight against their shin-controlling hand to prevent them from consolidating deeper control. Do not attempt to pull backward while they have strong shin control, as this will accelerate their advancement to more dominant positions.",
         "answer_line": "Widen base, grip-fight their hand",
         "distractors": {
@@ -149,7 +149,7 @@
         }
       },
       {
-        "question": "What adjustments should you make when the opponent drives forward aggressively trying to advance to Chill Dog or Gogoplata?",
+        "question": "In New York, they drive forward toward Chill Dog or gogoplata: what adjustments do you make?",
         "answer": "When they drive forward, use their momentum against them by accepting the forward pressure momentarily while stacking them. Drive your shoulder into their hips and begin to walk your knees forward to flatten them. This stacking defense neutralizes both Chill Dog and Gogoplata threats because it removes the hip elevation they need. From the stacked position, you can begin working to extract your arm and pass to side control.",
         "answer_line": "Stack them, flatten their hips",
         "distractors": {
@@ -485,7 +485,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts widening their base and circling away from your overhook - what adjustment do you make?",
+        "question": "Holding New York, they widen base and circle away from your overhook: what do you do?",
         "answer": "Immediately rotate your hips to follow their movement while tightening your overhook grip. As they widen base and circle, this creates the perfect opening for Carni position - rotate your body toward the overhook side and begin threading your leg for omoplata control. Their base widening actually compromises their ability to resist the rotational movement. If they stop circling, use the angle you've gained to threaten the omoplata sweep.",
         "answer_line": "Rotate hips, thread for omoplata",
         "distractors": {
@@ -513,7 +513,7 @@
         }
       },
       {
-        "question": "How do you distribute your weight and hip position to maintain New York against a strong posture recovery attempt?",
+        "question": "How do you set weight and hips to hold New York against a strong posture recovery?",
         "answer": "Keep your hips angled slightly toward the overhook side rather than flat on your back. This angle loads their weight onto the compromised trapped arm side. Your core must remain engaged continuously to maintain hip elevation - the moment you relax, they can drive forward. Pull with your shin grip to maintain constant downward pressure on their shoulders. Small circular hip adjustments prevent them from establishing a stable platform for posture recovery.",
         "answer_line": "Hips angled toward overhook side",
         "distractors": {
@@ -569,7 +569,7 @@
         }
       },
       {
-        "question": "You feel your hip flexibility failing and can't maintain shin-to-shoulder connection - what's your recovery protocol?",
+        "question": "In New York, your hips fail and you lose shin-to-shoulder connection: what do you do?",
         "answer": "Immediately transition to your strongest available attack before control degrades completely. If you can threaten triangle or armbar, do so now while you still have overhook control. If that's not available, pull them into tighter closed guard while maintaining the overhook - this gives you recovery time while keeping offensive options. Never simply release and return to neutral closed guard if you can avoid it, as this wastes the positional advantage you created. Use the time in closed guard to rest your hips before re-attempting New York.",
         "answer_line": "Attack now or tighten closed guard",
         "distractors": {
@@ -583,7 +583,7 @@
         }
       },
       {
-        "question": "How do you manage energy expenditure during extended New York control while maintaining offensive threat?",
+        "question": "How do you conserve energy holding New York while keeping offensive threat?",
         "answer": "New York control is structurally efficient - the opponent expends more energy defending than you do attacking. Use your skeletal structure rather than muscular effort by keeping your overhook locked at the joint rather than squeezing constantly. Your shin grip should use finger strength positioned for leverage rather than pure grip strength. Cycle through attack threats every 5-10 seconds to keep them reactive, but commit fully only when you feel genuine openings. This prevents the energy waste of uncommitted attacks while maintaining constant pressure.",
         "answer_line": "Use structure, not muscle",
         "distractors": {
@@ -869,7 +869,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the New York position and distinguishes it from ordinary closed guard?",
+      "question": "What configuration defines the New York position versus ordinary closed guard?",
       "answer": "New York is defined by two simultaneous control points held by the bottom player: a deep overhook wrapping one of the top player's arms, and the bottom player's own shin pulled high across the top player's upper back, secured by a same-side grip on that shin near the ankle. Unlike closed guard, where the legs simply encircle the waist and posture can be re-established by sitting up, the shin-across-the-back component actively pins the top player's head and shoulders forward so upright posture is mechanically blocked. The overhook removes one posting arm rather than merely framing against it. Together these create a closed kinetic chain between the bottom player's leg, hand, and the top player's upper body that neither player can ignore, which is why New York functions as an attacking hub rather than a neutral holding position.",
       "answer_line": "Deep overhook + shin across back",
       "distractors": {
@@ -883,7 +883,7 @@
       }
     },
     {
-      "question": "Why is the closed kinetic chain formed by the shin-grip so central to how New York behaves for both players?",
+      "question": "Why is the shin-grip's closed kinetic chain central to how New York behaves?",
       "answer": "The bottom player's hand gripping their own shin links their leg, torso, and grip into a single closed loop wrapped across the top player's upper back. Because both ends of the force are anchored to the same body, the loop resists opening far better than an open frame that relies on pushing against the opponent. For the top player this means brute-force posture recovery fails, since pulling backward tensions the loop rather than breaking it, and the correct answer is to attack the grip or the shin's angle rather than fight the head directly. For the bottom player it means the position is self-reinforcing only while that hand-to-shin connection is live, so the loop is simultaneously the source of control and the single point of failure both players fight over.",
       "answer_line": "Loop resists opening under load",
       "distractors": {
@@ -897,7 +897,7 @@
       }
     },
     {
-      "question": "What weight and posture dynamic between the two players determines whether New York holds or collapses?",
+      "question": "What weight and posture dynamic decides whether New York holds or collapses?",
       "answer": "New York holds when the top player's posture stays broken forward and their weight loads onto the trapped-arm side, because the overhook has removed that side's posting base. The bottom player keeps their hips angled toward the overhook side rather than flat, which channels the top player's weight onto the compromised corner and denies a stable platform. If the top player can drive their weight forward and down to flatten the bottom player's hips, the shin-to-shoulder connection is compressed out and the loop opens. The tension is therefore a race between the bottom player maintaining hip elevation and angle versus the top player forcing the hips flat, and whoever wins that exchange controls whether the configuration survives.",
       "answer_line": "Trapped-side weight keeps it",
       "distractors": {
@@ -911,7 +911,7 @@
       }
     },
     {
-      "question": "Why is hip and lower-back flexibility a defining constraint of the New York configuration for both roles?",
+      "question": "Why is hip and lower-back flexibility a defining constraint of New York for both roles?",
       "answer": "The position only exists while the bottom player's shin can reach across and stay pinned to the top player's upper back, which demands deep hip flexion and rotation held under load. A practitioner without that range cannot seat the shin high enough, so the control degrades into ordinary closed guard regardless of grip strength. Because the whole structure depends on that shin-to-shoulder connection, flexibility failure is a shared clock: as the bottom player's hips fatigue the loop loosens on its own, which is precisely the window the top player is timing their escape against. This is why New York is treated as a time-limited transitional position rather than a place either player can rest.",
       "answer_line": "Shin must reach high under load",
       "distractors": {
@@ -953,7 +953,7 @@
       }
     },
     {
-      "question": "How does New York differ from Mission Control, and why is that difference significant to both players?",
+      "question": "How does New York differ from Mission Control, and why does that matter to both players?",
       "answer": "Mission Control is the entry-level rubber guard hold where the bottom player keeps one leg high on the top player's shoulder and pins the trapped arm, prioritizing stability and posture control over immediate attack. New York advances from it by committing the shin across the back and securing the same-side self-grip on that shin, trading some of that stability for a far more aggressive posture break and direct access to the submission web. The significance is that Mission Control is a relatively safe parking spot the bottom player can hold and reset from, whereas New York is a live attacking configuration with a ticking flexibility clock. For the top player this means the threat level and the correct urgency of the escape both rise sharply the moment Mission Control converts into New York.",
       "answer_line": "New York adds shin self-grip",
       "distractors": {
@@ -967,7 +967,7 @@
       }
     },
     {
-      "question": "Why does breaking the top player's posture before establishing New York matter to the resulting configuration?",
+      "question": "Why must the top player's posture be broken before establishing New York?",
       "answer": "New York requires the top player already hunched forward so the shin can be seated high on the upper back and the overhook swum in deep; against an upright, based-out opponent neither control point can be established without fighting their full structure. Attempting entry on good posture wastes energy and typically fails, because the top player can simply drive in and flatten the bottom player before the loop closes. This is why the position is entered from an already-compromised posture, usually broken down first from closed guard, and it explains a shared truth of the configuration: New York is a consequence of a prior posture break, not the tool that creates one. The top player's counter-strategy mirrors this, since restoring even partial posture begins to strip the shin's angle and reopen their base.",
       "answer_line": "Requires posture already broken",
       "distractors": {

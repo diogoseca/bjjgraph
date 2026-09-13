@@ -76,7 +76,7 @@ description: "How to execute Omoplata from Guard in BJJ. Attacking perspective w
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary direction of hip extension when finishing the Omoplata, and why is this critical for safety?",
+      "name": "Which direction do your hips extend to finish the omoplata, and why does that matter for safety?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hips extend horizontally forward toward opponent's head, not upward or at an angle. This is critical for safety because forward extension creates progressive, controlled pressure on the shoulder joint that the partner can tap to early. Upward or jerking motions can cause immediate injury without warning, particularly rotator cuff tears or shoulder dislocations. The slow, forward extension allows gradual pressure application and gives clear feedback for when to stop."
@@ -84,7 +84,7 @@ description: "How to execute Omoplata from Guard in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Why must you maintain hip connection to opponent's back during the Omoplata finish, and what escape does this prevent?",
+      "name": "Why keep your hips connected to their back in the omoplata, and which escape does it stop?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip connection (your glutes and lower back flush to their back with zero space) prevents opponent from rolling forward over their trapped shoulder, which is the most common and highest-percentage escape from the Omoplata. Without this connection, they can easily roll through and escape the submission, often ending up in your guard or passing to side control. The hip connection also allows you to ride their roll if they attempt it, converting their escape into a sweep to mount or back take."
@@ -92,7 +92,7 @@ description: "How to execute Omoplata from Guard in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What are the minimum three tap signals you must recognize when applying the Omoplata, and what is the immediate first step of the release protocol?",
+      "name": "Which three tap signals must you recognize in the omoplata, and what is the first release step?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three mandatory tap signals are verbal tap or 'tap' vocalization, physical hand tap on partner or mat, and physical foot tap on mat. Additionally, any distress vocalization or irregular movement must be treated as a tap. The immediate first step of release protocol is to stop all hip extension and forward pressure instantly - before doing anything else. Only after stopping pressure should you retract hips backward and begin releasing the leg triangle."
@@ -100,7 +100,7 @@ description: "How to execute Omoplata from Guard in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "How does the Omoplata function as both a submission and a sweeping position, and what common defensive reactions create sweep opportunities?",
+      "name": "How is the omoplata both submission and sweep, and which defensive reactions create the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Omoplata creates mechanical pressure that forces opponent into predictable reactions. When they feel shoulder pressure, most opponents will either roll forward over their trapped shoulder or turn away toward the trapped arm. The forward roll can be ridden to sweep to mount position while maintaining the leg triangle. The turning motion exposes their back for a back take. This dual-threat nature makes the Omoplata valuable even when the submission finish is low percentage - the position forces movement that creates scoring opportunities."
@@ -108,7 +108,7 @@ description: "How to execute Omoplata from Guard in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What is the purpose of the overhook grip during the leg swing transition, and when is it safe to release this grip?",
+      "name": "What does the overhook do during the omoplata leg swing, and when is it safe to release?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The overhook grip (armpit sealed to their tricep, hand reaching to opposite lat or belt) prevents opponent from extracting their trapped arm during the vulnerable leg swing transition. Your arm creates a secondary trap while your leg is moving through the air. It is only safe to release this overhook once your leg triangle is fully locked and secured, creating the primary control system. Releasing too early allows easy arm extraction and position escape."
@@ -116,7 +116,7 @@ description: "How to execute Omoplata from Guard in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Why is the Omoplata considered particularly dangerous for training partners with pre-existing shoulder injuries or instability?",
+      "name": "Why is the omoplata especially dangerous for partners with prior shoulder injury or instability?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Omoplata applies rotational force and external rotation pressure directly to the shoulder joint and rotator cuff complex, which are commonly injured areas in grappling. Partners with previous shoulder dislocations often have permanent instability and reduced tolerance for rotational pressure, meaning they can suffer re-injury with much less force than someone with healthy shoulders. Additionally, rotator cuff injuries may not be fully healed even after returning to training, and the Omoplata's specific pressure vector can re-tear partially healed tissue. Training partners must communicate shoulder injury history, and practitioners should avoid finishing Omoplatas on partners with shoulder issues."

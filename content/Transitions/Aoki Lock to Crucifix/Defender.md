@@ -56,7 +56,7 @@ description: "How to defend against Aoki Lock to Crucifix in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive priority when you recognize the Aoki Lock to Crucifix transition is being attempted?",
+      "name": "What is your top defensive priority when the Aoki Lock to crucifix is being attempted?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Protecting the far arm from capture is the single most important priority. The crucifix requires bilateral arm control—without capturing the second arm, the attacker cannot complete the transition and must revert to Aoki Lock. Keep the far arm tucked tight to your body and turn toward the attacker to deny access. Even if the Aoki Lock shoulder pressure is uncomfortable, maintaining far arm protection prevents the catastrophic positional downgrade to crucifix."
@@ -72,7 +72,7 @@ description: "How to defend against Aoki Lock to Crucifix in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why is recovering to turtle position considered a favorable outcome even though turtle is itself a vulnerable position?",
+      "name": "Why is recovering to turtle a good outcome versus letting them finish the crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turtle is vastly preferable to crucifix because in turtle you retain the use of both arms for defense, can protect your neck, and have multiple escape pathways including granby rolls, sit-throughs, and technical standups. In crucifix, both arms are trapped, your neck is fully exposed, and escape rates drop below 25% even at advanced levels. Accepting the positional sacrifice to turtle prevents the far worse outcome of consolidated crucifix where submission becomes nearly inevitable."
@@ -80,7 +80,7 @@ description: "How to defend against Aoki Lock to Crucifix in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent intensifies Aoki Lock pressure before attempting the crucifix—how do you manage both threats simultaneously?",
+      "name": "They ramp up Aoki Lock pressure before going for the crucifix. How do you handle both?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain internal shoulder rotation on the trapped arm to resist the Aoki Lock pressure while keeping the far arm tucked tight to deny crucifix capture. Do not sacrifice far arm protection to address shoulder discomfort unless the shoulder lock reaches genuinely dangerous levels. If pressure becomes dangerous, tap—but recognize that the intensified pressure is often bait designed to force a far arm reaction rather than a genuine finishing attempt. Monitor whether the attacker's hips are moving toward you (finishing) or rotating behind you (transitioning)."
@@ -88,7 +88,7 @@ description: "How to defend against Aoki Lock to Crucifix in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "You attempted to extract your near arm but failed—how do you prevent the attacker from consolidating crucifix?",
+      "name": "Your near-arm extraction from the Aoki Lock failed. How do you stop the crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After a failed extraction attempt, immediately re-tuck your far arm and create continuous movement—do not freeze in place. The attacker will try to capitalize on your failed attempt by completing the hip transition while you are momentarily disrupted. Chain into a secondary defense: either attempt a forward roll to create a scramble, or bridge and turn to disrupt their hip positioning. Continuous movement prevents the attacker from settling into the consolidated crucifix configuration even if they have partial control of both arms."

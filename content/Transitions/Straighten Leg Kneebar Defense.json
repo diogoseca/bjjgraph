@@ -252,7 +252,7 @@
         }
       },
       {
-        "question": "Your opponent has bottom ashi garami kneebar control and begins pulling your leg toward extension—what is your immediate defensive priority?",
+        "question": "They start extending your leg from bottom ashi kneebar control: what is your immediate priority?",
         "answer": "Your immediate priority is engaging your quadriceps to maintain knee bend while simultaneously rotating your hips toward the attacker. Do not try to pull your leg out first—focus on denying the hyperextension angle by changing the direction of force. Plant your free foot and begin creating forward pressure to reduce their ability to bridge their hips into the finish.",
         "answer_line": "Bend knee, rotate hips in",
         "distractors": {
@@ -280,7 +280,7 @@
         }
       },
       {
-        "question": "In which direction should you drive your extension force against a kneebar, and why does a straight backward pull on the leg fail?",
+        "question": "Which way should you drive extension against a kneebar, and why does a straight pull fail?",
         "answer": "Drive the knee toward full extension while simultaneously rotating your hips toward the attacker, so the force runs at an angle that misaligns their fulcrum rather than straight back. A pure backward pull pits your single trapped leg against their two-arm grip plus hip bridge in a straight line they are built to win. Angling the force shortens their lever and lets your posted free leg and hips contribute whole-body power instead of isolated quad strength.",
         "answer_line": "Rotate hips, angle the force",
         "distractors": {
@@ -294,7 +294,7 @@
         }
       },
       {
-        "question": "How should you adjust your defense if the opponent switches from kneebar to a heel hook during your leg extension attempt?",
+        "question": "They switch from kneebar to heel hook as you extend your leg: how do you adjust your defense?",
         "answer": "If the opponent transitions to a heel hook, immediately change your defensive priorities from leg extension to foot and ankle control. Bring your heel toward your buttock and turn your toes toward the attacker's chest to hide the heel. The straighten leg defense specifically counters knee hyperextension—it does not protect against rotational forces on the knee and ankle that heel hooks create. Recognize the switch quickly and apply the appropriate heel hook defense.",
         "answer_line": "Heel to butt, toes to chest",
         "distractors": {
@@ -308,7 +308,7 @@
         }
       },
       {
-        "question": "Your straightening attempt stalls and the attacker re-breaks your knee back to a bent position — what chain of options keeps you in the fight?",
+        "question": "Your leg-straightening stalls and they re-bend your knee: what chain of options keeps you alive?",
         "answer": "Do not keep grinding the same failed extension. Use the brief grip shift during their re-break to insert a hip escape and create a new angle, then re-attempt extension along that fresh line. If their grip migrates toward your foot, switch to defending the ankle and heel by pointing your toes and hiding the heel. If they fully reset control, abandon the knee battle entirely and hunt a reversal or 50-50 entry rather than burning energy on a losing position.",
         "answer_line": "Hip escape, then reassess",
         "distractors": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "What is the most common mistake practitioners make when attempting the straighten leg defense, and how does it leave them vulnerable?",
+        "question": "What is the most common mistake in the straighten-leg kneebar defense, and why does it fail?",
         "answer": "The most common mistake is attempting to straighten the leg using only quad strength without creating a proper hip angle first. This results in a brute-force contest where the attacker's two-arm pull plus hip bridge typically overpowers the defender's single-leg push. Without hip rotation to change the force angle, the defender burns energy rapidly while the attacker maintains optimal leverage, eventually leading to exhaustion and submission.",
         "answer_line": "Quad-only, no hip rotation",
         "distractors": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "After successfully straightening your leg and breaking free from kneebar control, what position should you immediately pursue?",
+        "question": "After straightening your leg free of the kneebar, which position should you take immediately?",
         "answer": "After extraction, immediately advance to half guard top by stepping over the prone attacker and establishing chest-to-chest pressure. Do not remain standing or create distance, as this allows the attacker to re-engage with another leg entry or recover guard. Consolidate half guard top by driving crossface pressure, controlling the nearside arm, and beginning your passing sequence while the attacker is still recovering from the failed submission attempt.",
         "answer_line": "Step to half guard top",
         "distractors": {
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "What grip configuration on your leg is most dangerous for the kneebar attacker, and how does it affect your defense strategy?",
+        "question": "Which grip on your leg makes the kneebar most dangerous, and how must your defense change?",
         "answer": "A tight figure-four grip with elbows pinched and the leg pulled across the attacker's chest creates the most dangerous configuration. This grip distributes holding force across both arms and creates a mechanical advantage that is very difficult to overcome with leg extension alone. Against this grip, you must combine hip rotation with leg extension and specifically target the grip break by rotating your foot to create angular pressure on their interlocked hands before attempting full extraction.",
         "answer_line": "Figure-four, elbows pinched",
         "distractors": {
@@ -490,7 +490,7 @@
         }
       },
       {
-        "question": "What is your best counter when the opponent successfully begins straightening their leg against your kneebar control?",
+        "question": "They start straightening their leg out of your kneebar: what is your best counter?",
         "answer": "The most effective counter is to immediately drive your hips forward while sharply re-breaking the leg bend with a quick pull. If the leg is approaching full extension, transition to a straight ankle lock by adjusting your grip to the foot and ankle rather than fighting a losing battle for knee control. Alternatively, if their foot rotation creates an opening, switch to a toe hold or heel hook that capitalizes on the newly available rotational angle.",
         "answer_line": "Drive hips, re-break the knee",
         "distractors": {
@@ -504,7 +504,7 @@
         }
       },
       {
-        "question": "When maintaining kneebar control, what adjustment prevents the opponent from easily straightening their leg?",
+        "question": "Holding a kneebar, what adjustment stops them straightening their leg?",
         "answer": "Prevent leg straightening by maintaining constant hip-to-knee connection with forward hip drive, keeping the leg pulled tight across your chest with elbows pinched together, and using your legs to control their hip rotation. If your hips separate from their knee joint, you lose the fulcrum needed for finishing pressure, and their quadriceps can overpower your arms. The key is using your entire body structure to maintain the bent-knee position rather than relying on arm strength alone.",
         "answer_line": "Hip-to-knee connection tight",
         "distractors": {
@@ -518,7 +518,7 @@
         }
       },
       {
-        "question": "Your opponent has partially straightened their leg and is beginning to extract—what is your decision-making framework?",
+        "question": "Their leg is partly straightened and extracting from your kneabar: what is your decision framework?",
         "answer": "Assess whether you can re-break the leg within two seconds. If yes, sharply drive hips forward and re-pull the leg to bent position. If the leg is past 80% extension, immediately transition to an alternative attack rather than fighting a losing position. Options include switching to straight ankle lock, transitioning to heel hook via saddle entry, or releasing and re-engaging with a fresh leg attack entry from open guard. Never burn energy fighting a fully straightened leg—transition immediately.",
         "answer_line": "Re-break fast or switch attack",
         "distractors": {

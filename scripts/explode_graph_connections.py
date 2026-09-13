@@ -88,6 +88,12 @@ def build_graph_index():
                     transitions_out.append({
                         "transition": t.get("transition", ""),
                         "role": role,
+                        # `, 0` survives here deliberately: this index is DIAGNOSTIC only. Nothing
+                        # reads this field arithmetically — Phase 2 reads t_out["transition"] and
+                        # len(transitions_out), and nothing else (grep "transitions_out" in this file)
+                        # — and the value has already been through load_json's
+                        # reduce_to_scalar(frame="nogi"), so a nulled no-gi cell arrives here as None
+                        # whatever this default says. It fires only on a MISSING key: 0 of 5,086 cells.
                         "attempt_probability": t.get("attempt_probability", 0),
                     })
 
@@ -98,6 +104,12 @@ def build_graph_index():
                 transitions_out.append({
                     "transition": t.get("transition", ""),
                     "role": "neutral",
+                    # `, 0` survives here deliberately: this index is DIAGNOSTIC only. Nothing
+                    # reads this field arithmetically — Phase 2 reads t_out["transition"] and
+                    # len(transitions_out), and nothing else (grep "transitions_out" in this file)
+                    # — and the value has already been through load_json's
+                    # reduce_to_scalar(frame="nogi"), so a nulled no-gi cell arrives here as None
+                    # whatever this default says. It fires only on a MISSING key: 0 of 5,086 cells.
                     "attempt_probability": t.get("attempt_probability", 0),
                 })
 
@@ -315,28 +327,130 @@ def renormalize_probabilities(transitions_array):
     New entry gets min(existing)/2, floored to 1%, per ruleset; existing entries
     scale proportionally with largest-remainder rounding so each frame sums to 100.
     Accepts legacy scalar or {gi,nogi} map values; always writes maps back.
+
+    Returns the per-frame coverage record ``{"scaled": [...], "absent": [...],
+    "allzero": [...], "skipped_cells": <int>}`` — every frame this function looked at
+    lands in exactly one of the first three, so the caller can print a POSITIVE count and
+    refuse a run that renormalized nothing (CLAUDE.md §6.6). The old signature returned
+    None and printed nothing, so a frame that was skipped and a frame that was never
+    reached produced identical output.
+
+    ``skipped_cells`` is the count of null cells this call EXCLUDED from a distribution it
+    still scaled — the mixed case, where the frame exists but some of its edges do not. It
+    is separate from ``absent`` (a frame with no live cell at all) because that is the only
+    one of the two the caller can see from the other keys, and because the mixed case is
+    the common one: a role with 2 nulls among 13 live cells rescales the other 11 and the
+    two nulls silently do not participate. §6.6 says a skip path PRINTS, and "scaled every
+    cell" must not read the same as "scaled the cells that were left".
+
+    THE NULL CONTRACT (scripts/_ruleset.py). A ``null`` cell means "this edge does not
+    exist in that ruleset", which is NOT ``0`` ("exists, ~never attempted"). A null must
+    therefore never be summed, never be scaled, and never be the target of a positional
+    write-back. The pre-null code did all three: ``.get(rs) or 0`` coerced a null into the
+    arithmetic on the loop's first line, and ``zip(existing, scaled)`` then wrote the
+    scaler's integer straight back into the cell that coercion had invented. Measured on
+    a Lapel Guard TOP fixture with its two ``nogi: 0`` cells nulled and one entry
+    appended: ``{'gi': 15, 'nogi': None}`` -> ``{'gi': 14, 'nogi': 0}`` and
+    ``{'gi': 10, 'nogi': None}`` -> ``{'gi': 10, 'nogi': 0}``. Both frames still summed to
+    exactly 100 afterwards, so validate:graph agreed — and this script runs THIRD in
+    ``npm run regenerate``, ahead of that gate, so the resurrection was laundered through
+    it. Hence the ``live`` partition below: it carries (transition, cell) pairs so the
+    write-back is keyed to the cell whose value was actually read, and there is no
+    "skip the nulls" branch left for a later reader to forget.
     """
     if len(transitions_array) < 2:
-        return
+        # A first-and-only edge OWNS its role's whole distribution, so it has to say so.
+        # This used to be reachable-but-harmless: the caller seeded {gi:0, nogi:0} and a
+        # lone {0,0} entry made validate_graph_integrity ERROR LOUDLY on a frame summing
+        # to 0. Once the caller seeds nulls instead (see add_ref), a lone {None,None}
+        # entry makes present_rulesets() read [] — the role has no frames, so NO per-frame
+        # sum check runs on it at all and the gate goes quietly green on an edge that
+        # exists in no ruleset. Loud wrong -> silent wrong is the worst trade in this repo,
+        # so write the only value that is both well-formed and checkable.
+        # UNREACHABLE TODAY: 0 of 272 role containers in content/Positions have an empty
+        # transitions array, so nothing takes this branch on the current corpus. Recount
+        # before quoting that (§6.9):
+        #   python3 -c "import json,glob;print(sum(1 for p in glob.glob('content/Positions/**/*.json',recursive=True) for d in [json.load(open(p))] for c in [d.get('top'),d.get('bottom'),d] if isinstance(c,dict) and isinstance(c.get('transitions'),list) and not c['transitions']))"
+        if len(transitions_array) == 1:
+            transitions_array[0]["attempt_probability"] = {rs: 100 for rs in RULESETS}
+            print("  renormalize: sole transition in this role — set to 100 in both frames "
+                  "(no distribution to scale against)")
+            return {"scaled": list(RULESETS), "absent": [], "allzero": [], "skipped_cells": 0}
+        return {"scaled": [], "absent": [], "allzero": [], "skipped_cells": 0}
 
     existing = transitions_array[:-1]
     new_entry = transitions_array[-1]
 
     for t in transitions_array:
-        t["attempt_probability"] = as_map(t.get("attempt_probability", 0))
+        # No `, 0` default: a MISSING attempt_probability asserts nothing, and as_map(0)
+        # would turn that silence into "this edge exists in both rulesets and is never
+        # attempted". as_map(None) is {gi:None, nogi:None} — unasserted, which is honest.
+        # Zero instances today (0 of 5,086 cells in content/Positions lack the key), so
+        # this is a contract fix on a dormant path, not a change to any current output.
+        t["attempt_probability"] = as_map(t.get("attempt_probability"))
+
+    scaled_frames, absent_frames, allzero_frames = [], [], []
+    skipped_cells = 0   # null cells excluded from a frame that was still scaled
 
     for rs in RULESETS:
-        probs = [t["attempt_probability"].get(rs) or 0 for t in existing]
-        if not any(probs):
+        cells = [(t, t["attempt_probability"].get(rs)) for t in existing]
+        live = [(t, c) for t, c in cells if c is not None]
+
+        if not live:
+            # The role has no edges at all in this ruleset. A new edge cannot exist in a
+            # frame the role it hangs off does not have, so the new entry stays null here.
+            absent_frames.append(rs)
+            new_entry["attempt_probability"][rs] = None
+            print(f"  renormalize: frame '{rs}' absent for this role "
+                  f"({len(cells)} null cells) — new edge nulled too")
             continue
+
+        probs = [c for _, c in live]
+        if not any(probs):
+            # Every live cell is a real, authored 0: there is no distribution to scale
+            # (and `p / total` would divide by zero). Distinct from `not live` above, and
+            # keeping the two apart is the whole point of the contract — the pre-null code
+            # collapsed both into one silent `continue` and could not tell them apart.
+            #
+            # The new edge gets 0, NOT null, and the difference is the whole ABSENT-vs-ZERO
+            # distinction this file is about: the frame EXISTS here (its cells are 0, and 0
+            # is available), so an edge inside it exists too, at 0% — whereas in the `not
+            # live` branch above the frame does not exist at all and the new edge must not
+            # either. Writing None here would say "this edge is unavailable in a ruleset
+            # where every sibling edge is available", which no input asserted; it would also
+            # be a gratuitous divergence from the pre-null behaviour on a frame that has no
+            # nulls in it. (An all-zero frame sums to 0 and validate_graph_integrity fails
+            # it either way — this branch chooses which KIND of wrong the exploder hands the
+            # gate, and 0 is the loud one.)
+            allzero_frames.append(rs)
+            skipped_cells += len(cells) - len(live)
+            new_entry["attempt_probability"][rs] = 0
+            print(f"  renormalize: frame '{rs}' all-zero over {len(live)} live cells "
+                  f"({len(cells) - len(live)} null) — nothing to scale, new edge set to 0")
+            continue
+
+        if len(live) < len(cells):
+            # The mixed case, and the one this function is most often in: the frame exists,
+            # but some of its edges do not. Those cells are out of `total`, out of the
+            # largest-remainder split and out of the zip that writes the result back — so
+            # nothing about them is inferable from the numbers that come out. Say it, or
+            # "renormalized the whole frame" and "renormalized what was left of it" print
+            # the same line (§6.6).
+            skipped_cells += len(cells) - len(live)
+            print(f"  renormalize: frame '{rs}' — {len(cells) - len(live)} of {len(cells)} "
+                  f"cells absent (null); scaling the remaining {len(live)}")
         smallest = min(p for p in probs if p > 0)
         new_prob = max(1, int(smallest) // 2)
         target = 100 - new_prob
         total = sum(probs)
         scaled = largest_remainder_round([p / total * target for p in probs], target)
-        for t, v in zip(existing, scaled):
+        for (t, _), v in zip(live, scaled):
             t["attempt_probability"][rs] = v
         new_entry["attempt_probability"][rs] = new_prob
+        scaled_frames.append(rs)
+
+    return {"scaled": scaled_frames, "absent": absent_frames, "allzero": allzero_frames,
+            "skipped_cells": skipped_cells}
 
 
 def apply_actions(actions, positions, transitions, dry_run=False):
@@ -374,10 +488,27 @@ def apply_actions(actions, positions, transitions, dry_run=False):
                 results.append({"action": action, "status": "skip", "reason": "already referenced"})
                 continue
 
-            # Add new reference (probability set by renormalize)
-            new_entry = {"transition": transition_name, "attempt_probability": {"gi": 0, "nogi": 0}}
+            # Add new reference (probability set by renormalize). Seed with NULLS, not
+            # zeros: under the null contract a 0 claims "this edge exists in this ruleset
+            # and is ~never attempted", which is a claim this code has no basis to make
+            # about an edge it is inventing. renormalize_probabilities fills in one cell
+            # per frame the role actually has and leaves the rest None. The old {gi:0,
+            # nogi:0} seed MINTED a cell in frames the role does not have — measured on a
+            # Lapel Guard bottom fixture with all 11 nogi cells nulled, the appended entry
+            # came out {'gi': 2, 'nogi': 0}: a no-gi edge in a role with no no-gi edges,
+            # inherited straight from this literal because the frame loop skipped it.
+            # SURVIVING MUTANT, recorded here so nobody later reads this line as covered
+            # (CLAUDE.md §6.3): flipping this seed back to {"gi": 0, "nogi": 0} turns NO
+            # claim red. It is unobservable by construction now — every branch of
+            # renormalize_probabilities writes this entry's cell explicitly (a number when
+            # the frame scales, 0 when the frame is all-zero, None when the frame is
+            # absent), so the seed is belt-and-braces, not the fix. Keep it null anyway: a
+            # branch added later that forgets to write leaves "unasserted" behind instead
+            # of "exists in both rulesets at 0%", and unasserted is the safe default.
+            new_entry = {"transition": transition_name,
+                         "attempt_probability": {rs: None for rs in RULESETS}}
             trans_array.append(new_entry)
-            renormalize_probabilities(trans_array)
+            coverage = renormalize_probabilities(trans_array)
 
             if not dry_run:
                 save_json(pos_path, data)
@@ -386,6 +517,7 @@ def apply_actions(actions, positions, transitions, dry_run=False):
                 "action": action,
                 "status": "applied" if not dry_run else "dry_run",
                 "file": str(pos_path),
+                "renormalized": coverage,
             })
 
         elif action["action"] == "create_stub":
@@ -405,12 +537,22 @@ def apply_actions(actions, positions, transitions, dry_run=False):
                 "description": f"TODO: Add description for {name} - must be 140-180 characters for SEO meta description validation requirements here.",
                 "tags": ["bjj", "technique", "TODO"],
                 "from_position": from_pos,
+                # {gi,nogi} maps, not bare scalars. Every forked probability in the corpus
+                # is a map (calibration-v2, scripts/_ruleset.py); this stub emitted legacy
+                # scalars and got away with it only because `npm run regenerate` happens to
+                # run migrate:ruleset immediately after this script, which mirrors them
+                # into exactly these maps. That is a schedule, not a contract: run the
+                # exploder alone (or under --strict-ruleset) and the stub is off-contract
+                # the moment it lands. A mirrored pair is the honest seed for a TODO stub —
+                # it asserts the edge exists in both rulesets, which is what an unreviewed
+                # placeholder means; a null would assert the opposite, that it exists in
+                # neither, and no human has said that yet.
                 "outcomes": [
-                    {"to": to_pos, "probability": 70, "result": "success"},
-                    {"to": failure_pos, "probability": 20, "result": "failure"},
-                    {"to": "TODO", "probability": 10, "result": "counter"},
+                    {"to": to_pos, "probability": {"gi": 70, "nogi": 70}, "result": "success"},
+                    {"to": failure_pos, "probability": {"gi": 20, "nogi": 20}, "result": "failure"},
+                    {"to": "TODO", "probability": {"gi": 10, "nogi": 10}, "result": "counter"},
                 ],
-                "success_rate": 50,
+                "success_rate": {"gi": 50, "nogi": 50},
                 "overview": "TODO" * 100,
                 "related_content": [
                     {"name": "TODO", "relationship": "TODO"},
@@ -552,6 +694,25 @@ def main():
     print(f"  Applied: {len(applied)}")
     print(f"  Skipped: {len(skipped)}")
 
+    # §6.6 positive coverage for the null contract. Every add_ref renormalizes at least one
+    # frame or the edge it just appended exists in no ruleset at all, so print the tally
+    # every run and hard-fail on a zero that had work to do. Without this, "renormalized
+    # every frame" and "silently skipped every frame" printed the same two lines above.
+    renorms = [r["renormalized"] for r in results if r.get("renormalized")]
+    fr_scaled = sum(len(c["scaled"]) for c in renorms)
+    fr_absent = sum(len(c["absent"]) for c in renorms)
+    fr_allzero = sum(len(c["allzero"]) for c in renorms)
+    fr_skipped = sum(c.get("skipped_cells", 0) for c in renorms)
+    print(f"  Frames renormalized: {fr_scaled}  "
+          f"(absent: {fr_absent}  all-zero: {fr_allzero}  "
+          f"null cells excluded from a scaled frame: {fr_skipped}  "
+          f"over {len(renorms)} add_ref)")
+    null_contract_failed = bool(renorms) and not fr_scaled
+    if null_contract_failed:
+        print("ERROR: every add_ref renormalized 0 frames — the appended edges live in no "
+              "ruleset. Refusing to report success on a corpus write that asserted nothing.",
+              file=sys.stderr)
+
     # Save report
     report = {
         "issues": issues,
@@ -562,6 +723,12 @@ def main():
             "actions_planned": len(actions),
             "applied": len(applied),
             "skipped": len(skipped),
+            # the null-contract coverage, banked in the artifact as well as printed, so a
+            # later reader can tell a run that scaled nothing from a run with nothing to do
+            "frames_scaled": fr_scaled,
+            "frames_absent": fr_absent,
+            "frames_all_zero": fr_allzero,
+            "null_cells_excluded": fr_skipped,
         },
     }
 
@@ -570,7 +737,7 @@ def main():
         json.dump(report, f, indent=2, ensure_ascii=False)
     print(f"\nReport saved to: {REPORT_PATH}")
 
-    return 0
+    return 1 if null_contract_failed else 0
 
 
 if __name__ == "__main__":

@@ -76,7 +76,7 @@ description: "Master attacking the Cross Collar Choke from High Mount. Step-by-s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Cross Collar Choke target, and how does the choking mechanism work?",
+      "name": "What does the cross collar choke target, and how does the choking mechanism work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Cross Collar Choke targets both carotid arteries on the lateral sides of the neck, restricting blood flow to the brain. The wrist blades of both hands create a scissoring action across the neck when the elbows are pulled down and the chest expands. This is a blood choke, not an airway choke—proper technique compresses the carotid arteries bilaterally while the trachea passes between the wrists without direct compression. Unconsciousness occurs within 5-8 seconds of effective bilateral carotid restriction."
@@ -84,7 +84,7 @@ description: "Master attacking the Cross Collar Choke from High Mount. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "How do you recognize the breaking point where the choke transitions from uncomfortable pressure to effective carotid compression?",
+      "name": "How do you recognize when the cross collar choke turns into real carotid compression?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The breaking point occurs when both wrist blades are properly aligned against the carotid arteries and the elbows begin pulling down toward the hips. You feel a distinct tightening as the collar material cinches around the neck. The opponent's resistance typically changes—they may begin tapping immediately, their face may flush or become pale, and their defensive movements become less coordinated. The transition from pressure to effective choke happens quickly once both grips are deep and the finishing angle is correct."
@@ -108,7 +108,7 @@ description: "Master attacking the Cross Collar Choke from High Mount. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "What finishing error causes tracheal compression instead of carotid compression, and how do you correct it?",
+      "name": "Which finishing error crushes the trachea instead of the carotids, and how do you fix it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Squeezing the arms inward using bicep strength drives the forearms directly into the front of the throat, compressing the trachea. This causes pain and coughing but does not restrict blood flow effectively, allowing the opponent to endure the choke for extended periods. The correction is to finish by pulling both elbows down toward your hips while expanding your chest forward—this creates a spreading, scissoring action that presses the wrist blades against the lateral carotid arteries while the trachea passes untouched between the wrists."
@@ -116,7 +116,7 @@ description: "Master attacking the Cross Collar Choke from High Mount. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts fighting your first collar grip by grabbing your sleeve—what adjustment prevents escape while capitalizing on their defense?",
+      "name": "They grab your sleeve to fight your first collar grip from high mount—what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When they grab your sleeve, their arm is now extended and exposed. First, use your free hand to pin their gripping hand to your arm, trapping it in an extended position. Then you have two options: strip their grip and continue with the choke, or immediately pivot to an armbar on their extended arm. The key insight is that their defensive grip is also an arm extension that you can exploit. If you choose to continue the choke, use your body weight to drive through their sleeve grip rather than engaging in a hand-fighting exchange."

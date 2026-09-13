@@ -56,7 +56,7 @@ description: "Master defending the Standing Back Control Entry in BJJ. Learn to 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "When during the Standing Back Control Entry transition is the attacker most vulnerable to your defensive actions?",
+      "name": "During the standing back control entry, when is the attacker most vulnerable to your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The attacker is most vulnerable during the mid-transition phase when the body angle is changing from horizontal to approximately forty-five degrees. At this point, their hooks must adapt to the leg angle change, their seatbelt tension is disrupted by the torso angle shift, and their balance is compromised between two stable platforms. This window lasts only one to two seconds, so defensive timing must be precise."
@@ -72,7 +72,7 @@ description: "Master defending the Standing Back Control Entry in BJJ. Learn to 
     },
     {
       "@type": "Question",
-      "name": "What is the primary risk of dropping back to seated position when the attacker is following you to standing?",
+      "name": "With the back taken, what's the main risk of sitting back down as they follow you to standing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary risk is that your downward movement may help the attacker consolidate their controls. If they anticipate the sit-back, they can use your downward momentum to drive their hooks deeper and tighten their chest-to-back connection, resulting in more secure grounded back control than they had before the transition attempt. The sit-back is only effective when the attacker has already committed their weight and balance to the upward follow."

@@ -82,7 +82,7 @@ description: "How to execute the Transition to Z-Guard from Knee Shield Half Gua
     },
     {
       "@type": "Question",
-      "name": "What conditions must exist in your knee shield half guard before you can attempt the Z-Guard transition?",
+      "name": "What conditions must exist in knee shield half guard before attempting the Z-guard transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips must retain mobility and not be flattened to the mat. You need at least one controlling grip (underhook preferred) on the opponent's upper body. The opponent's crossface must be neutralized or absent so your head and shoulders can move. Your bottom leg hook must be secure on the opponent's trapped leg. Your current knee shield must have enough structural integrity to survive the momentary instability during elevation."
@@ -90,7 +90,7 @@ description: "How to execute the Transition to Z-Guard from Knee Shield Half Gua
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that distinguishes a successful Z-Guard elevation from a failed one?",
+      "name": "Z-guard elevation: what mechanical detail separates a successful attempt from a failed one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The coordination between hip elevation and knee travel is the critical mechanical detail. The hip bridge or hip escape must create vertical space before the knee begins its upward journey. If you try to drive the knee upward without first lifting the opponent's weight off the shield through hip movement, the knee meets direct resistance and the transition stalls or gets stuffed. The hip moves first, the knee follows into the created space."

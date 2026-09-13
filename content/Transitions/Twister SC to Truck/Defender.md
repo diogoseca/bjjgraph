@@ -56,7 +56,7 @@ description: "Defend against the Twister Side Control to Truck transition with e
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single highest-priority defensive action when you feel the attacker inserting their foot against your hip?",
+      "name": "You feel their foot going in against your hip for the truck — what is your top priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use your free hand to push the attacker's foot away from your hip while simultaneously hip escaping to create distance. Boot pressure is the foundational control mechanism of the truck - without it, the figure-four lacks torque and the perpendicular alignment lacks its fulcrum. Clearing the boot before it generates torque is far easier than removing it once the attacker has weight behind it. Accept temporary reduction in upper body defense to address this priority."
@@ -72,7 +72,7 @@ description: "Defend against the Twister Side Control to Truck transition with e
     },
     {
       "@type": "Question",
-      "name": "Your attacker has begun threading their far leg for the figure-four but has not locked it yet - what is your best response?",
+      "name": "They are threading the far leg for the figure-four but haven't locked it — what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forcefully straighten your trapped leg to prevent the interlocking configuration from completing, creating a gap between your leg and the attacker's threading leg. Immediately extract your leg through this gap before the attacker can re-attempt the figure-four. Do not hold the straight-leg position statically as this exposes you to calf slicer attacks. The straightening must be a dynamic disruption followed by immediate extraction."
@@ -88,7 +88,7 @@ description: "Defend against the Twister Side Control to Truck transition with e
     },
     {
       "@type": "Question",
-      "name": "What specific body positioning minimizes your vulnerability during the attacker's transition attempt?",
+      "name": "What body position limits your vulnerability as they go from Twister side control to the truck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your hips elevated rather than flat, maintain your free leg posted for base, tuck your chin to protect the neck, and keep your trapped leg actively resisting by preventing knee bend that facilitates figure-four threading. Position your defensive hand near your hip to address boot insertion while your other hand maintains frames against the attacker's upper body. This positioning addresses both the leg entanglement and upper body control threats simultaneously."

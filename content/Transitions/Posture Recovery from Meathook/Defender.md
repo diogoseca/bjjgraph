@@ -56,7 +56,7 @@ description: "Master defending against Posture Recovery from Meathook as the bot
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "The top player posts their free arm wide and begins internally rotating their trapped shoulder—what are they preparing and how should you respond?",
+      "name": "In Meathook, they post wide and internally rotate the trapped shoulder — what's coming, and reply?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "They are loading rotational pre-tension for an explosive spiral arm extraction. The wide base provides leverage and the internal rotation sets up the corkscrew motion. Respond immediately by tightening the shin hook pressure, pulling your knee toward your chest to deepen the hook angle, and reinforcing your head grip. Additionally, consider preemptive hip adjustment toward triangle angle so their extraction attempt feeds directly into your next submission."
@@ -64,7 +64,7 @@ description: "Master defending against Posture Recovery from Meathook as the bot
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully extracts their arm from the Meathook and begins driving posture upward—what is your highest-percentage counter?",
+      "name": "They extract from your Meathook and drive posture up — your highest-percentage counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their upward drive with a hip pivot to take their back. The space they create for posture recovery simultaneously exposes their hips for hook insertion. As they drive up, shoot your hips behind theirs and thread your hooks inside their thighs. Their posture recovery momentum actually assists your back take entry. This is why the back take counter has 20% probability in the outcome model—it is a real and dangerous threat during every recovery attempt."
@@ -80,7 +80,7 @@ description: "Master defending against Posture Recovery from Meathook as the bot
     },
     {
       "@type": "Question",
-      "name": "The top player is attempting incremental grip stripping on your collar control rather than explosive extraction—how should you adapt your defense?",
+      "name": "In Meathook, they strip your collar grip incrementally instead of exploding — how do you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against incremental grip stripping, you cannot simply wait—your energy cost in Meathook is high and time works against static holding. Accelerate your attack timeline. Begin transitioning toward your highest-percentage submission immediately rather than trying to outlast their systematic approach. The incremental strategy is designed to be patient, so force urgency by threatening finishes that demand their attention shift from grip stripping to survival."

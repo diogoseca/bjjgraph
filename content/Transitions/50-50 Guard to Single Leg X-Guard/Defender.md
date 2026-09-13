@@ -56,7 +56,7 @@ description: "How to defend against 50-50 Guard to Single Leg X-Guard in BJJ. Re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest physical cue that your opponent is attempting this transition from 50-50 bottom?",
+      "name": "What is the earliest cue they are going from 50-50 bottom to Single Leg X-Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a strong lateral hip escape motion where their hips move sideways rather than remaining flat. This hip escape creates the extraction angle needed for their outside leg to clear the entanglement. You may also feel their grip tighten on your ankle as they establish the anchor needed for the transition. Recognizing this motion within the first second gives you the maximum window to counter effectively."
@@ -72,7 +72,7 @@ description: "How to defend against 50-50 Guard to Single Leg X-Guard in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already established a butterfly hook behind your knee - is forward pressure still the correct response?",
+      "name": "They have a butterfly hook behind your knee—is forward pressure still the right response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No, forward pressure after the butterfly hook is established is counterproductive. Once the hook is in place, your forward momentum loads your weight onto their hook, accelerating their sweep from the developing Single Leg X-Guard. At this point, switch to disengagement by backstepping to extract your leg from the new configuration, or address the hook directly by clearing it before it becomes the foundation of a full Single Leg X-Guard."
@@ -80,7 +80,7 @@ description: "How to defend against 50-50 Guard to Single Leg X-Guard in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "What is your optimal defensive strategy if opponent has broken your heel grip but not yet begun the extraction?",
+      "name": "They broke your heel grip but have not started the extraction—what is your best strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-establish heel control before they can initiate the hip escape. Without heel threat, they have no reason to delay the transition. Alternatively, drive hips forward aggressively to flatten them and prevent the hip escape motion, then re-establish grips from the improved control position. The grip break is their first prerequisite, so denying progress at this stage prevents the entire sequence."

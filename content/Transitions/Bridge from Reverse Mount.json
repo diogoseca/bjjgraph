@@ -283,7 +283,7 @@
         }
       },
       {
-        "question": "Your opponent successfully rides your first bridge attempt and resettles in reverse mount—what should you do next?",
+        "question": "They ride your first bridge and resettle in reverse mount: what do you do next?",
         "answer": "Immediately execute a second bridge in the opposite direction to exploit their weight redistribution from countering the first bridge. Their base will be adjusted to defend the original direction, making them vulnerable to the opposite angle. If the double bridge fails, switch to an entirely different escape method such as a hip escape or frame-based technique to prevent becoming predictable.",
         "answer_line": "Bridge again, opposite direction",
         "distractors": {
@@ -353,7 +353,7 @@
         }
       },
       {
-        "question": "What body types or opponent characteristics make the bridge from reverse mount more or less effective?",
+        "question": "How do opponent body types affect the bridge escape from reverse mount bottom?",
         "answer": "The bridge is more effective against taller or lighter opponents whose weight is distributed over a larger area and whose base in reverse mount may be less compact. It is less effective against heavier, stockier opponents who can sink dense weight onto your torso. Against heavier opponents, the double bridge sequence or switching to hip escapes may be necessary. Regardless of opponent size, timing the bridge with their movement remains the most important success factor.",
         "answer_line": "Timing matters most, any body type",
         "distractors": {
@@ -496,7 +496,7 @@
         }
       },
       {
-        "question": "Why should you treat a successful bridge displacement as an advancement opportunity rather than a position loss?",
+        "question": "Why treat a successful bridge from reverse mount bottom as your chance to advance, not a loss?",
         "answer": "When the bottom player bridges successfully and begins turning to turtle, their movement actually assists your transition to back control. By following their rotation and maintaining chest-to-back contact, you can insert hooks and establish seatbelt control during their turn. The bridge displaces you from reverse mount—an inherently transitional position—directly into a back take sequence, which leads to the superior 4-point back control position. Treating it as an opportunity rather than a loss keeps you offensive.",
         "answer_line": "Follow rotation into back take",
         "distractors": {
@@ -524,7 +524,7 @@
         }
       },
       {
-        "question": "What is the primary risk of holding reverse mount too long instead of transitioning when bridge attempts begin?",
+        "question": "What is the main risk of holding reverse mount once bridge attempts start?",
         "answer": "Reverse mount is inherently transitional with limited sustainability. Each bridge attempt the bottom player makes degrades your positional control even if none fully succeed—your energy expenditure increases, your base gets tested repeatedly, and the bottom player identifies your weakest angles. Staying in reverse mount past the first bridge attempt means you are fighting against the position's natural instability rather than converting it. Transitioning to standard mount or back control within the first few seconds eliminates the bridge threat entirely.",
         "answer_line": "Transition fast, don't linger",
         "distractors": {

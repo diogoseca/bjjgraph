@@ -82,7 +82,7 @@ description: "How to execute Arm Triangle from Top in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent is pushing against your head with their near arm from side control bottom—how do you convert this into an arm triangle entry?",
+      "name": "From side control top, they push your head with their near arm; how do you enter the arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Swim your head underneath their pushing arm by dipping your chin and threading your head to the opposite side of their forearm, trapping their arm against their own neck with your shoulder. As their arm crosses their centerline, immediately press your temple into the shoulder-neck pocket and begin locking the gable grip behind their head. Their defensive push has created the exact arm configuration you need—capitalize before they recognize the danger and retract."
@@ -98,7 +98,7 @@ description: "How to execute Arm Triangle from Top in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "You have the arm triangle locked but your opponent bridges toward the choking side—what adjustment do you make?",
+      "name": "You have the arm triangle locked and they bridge toward the choking side; what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Absorb the bridge by widening your base slightly and dropping your hips heavier into the mat. Do not release the grip or abandon the position. Their bridge toward the choking side actually helps tighten the configuration by driving their own shoulder deeper into the choke. As they return to the mat after the bridge, increase your squeeze angle by driving your choking shoulder forward and pulling your elbow tighter to your ribs. The bridge is the lowest-percentage counter precisely because it assists the choke mechanics."

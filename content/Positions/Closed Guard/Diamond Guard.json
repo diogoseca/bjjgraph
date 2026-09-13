@@ -402,7 +402,7 @@
         }
       },
       {
-        "question": "Your opponent starts climbing their hips up your back for a triangle from diamond guard — what is your response?",
+        "question": "Your opponent climbs their hips up your back for a triangle from diamond guard — what do you do?",
         "answer": "Drop your hips, drive forward into them and get your trapped-side shoulder past their thigh before the leg crosses, then stack toward the trapped arm. Retreating backward is what lets them finish the climb. If the arm is already isolated, bring it back inside their legs rather than trying to pull it out.",
         "answer_line": "Drive forward and stack",
         "distractors": {
@@ -755,7 +755,7 @@
         }
       },
       {
-        "question": "Your opponent begins driving their hips backward to recover posture — how do you maintain the diamond frame?",
+        "question": "Your opponent drives their hips back to rebuild posture — how do you keep the diamond frame?",
         "answer": "Increase heel pressure into their lower back by actively squeezing your hamstrings and pulling your heels toward your glutes. Simultaneously deepen the overhook by pulling your elbow tighter to your ribs and increase the head control pull. If they generate significant backward momentum, use it offensively by sitting up into a hip bump sweep as their weight shifts posteriorly. The critical principle is that backward hip drive from the opponent creates sweep opportunities — their defensive movement becomes your offensive trigger.",
         "answer_line": "Deepen frame, hip bump sweep",
         "distractors": {
@@ -797,7 +797,7 @@
         }
       },
       {
-        "question": "Your opponent uses their free hand to push against your head-controlling wrist — what adjustment preserves your control?",
+        "question": "Your opponent pushes your head-control wrist in diamond guard — how do you preserve control?",
         "answer": "Switch your head control grip from behind the neck to a deeper position by cupping the crown of their head or grabbing the far collar. Their free hand pushing your wrist creates a predictable committed position — their only free limb is occupied with grip fighting. Use this moment to threaten a submission with the overhook side, such as a kimura or omoplata entry, which punishes their decision to commit their free hand to grip fighting rather than base or escape. The submission threat forces them to abandon the wrist fight.",
         "answer_line": "Deepen grip, threaten submission",
         "distractors": {
@@ -811,7 +811,7 @@
         }
       },
       {
-        "question": "Why does diamond guard create an energy advantage for the guard player, and how should you exploit this asymmetry?",
+        "question": "Why does diamond guard favor the guard player on energy, and how do you exploit that?",
         "answer": "Maintaining the diamond requires relatively low energy because the overhook and head control are structural controls that use skeletal alignment and connective tissue rather than muscular effort. The closed guard legs reinforce the posture break passively. In contrast, escaping requires the top player to actively fight multiple control points simultaneously using significant muscular effort. Exploit this by being patient and cycling through submission threats at a sustainable pace, forcing the opponent to expend energy defending each threat while your energy expenditure remains minimal.",
         "answer_line": "Cycle threats, stay patient",
         "distractors": {
@@ -825,7 +825,7 @@
         }
       },
       {
-        "question": "Your opponent partially strips your overhook so it slides from their tricep to their wrist — how do you recover full diamond control?",
+        "question": "Your diamond guard overhook slips from their tricep to their wrist — how do you rebuild control?",
         "answer": "Do not release the shallow overhook to attempt a full re-establishment, as this gives the opponent a momentarily free arm. Instead, increase head control pressure to maintain broken posture while working the overhook back to depth. Walk your overhook hand back up their arm by gripping their sleeve or wrist, then re-pummel your arm over their bicep using a circular motion. If the overhook continues slipping, immediately transition to a submission entry that uses the current grip — a wrist-level overhook can still initiate an omoplata rotation or convert into a wrist-control triangle setup.",
         "answer_line": "Keep head control, rebuild overhook",
         "distractors": {
@@ -904,7 +904,7 @@
       }
     },
     {
-      "question": "Why do the overhook and head control function as one interdependent system rather than two separate grips?",
+      "question": "Why do the overhook and head control work as one interdependent system, not two separate grips?",
       "answer": "The overhook pulls one shoulder down and across the body while the head control pulls the head down and forward, producing two converging force vectors that meet at the opponent's trapped side. Neither vector alone breaks posture reliably, but together they trap the opponent between forces that cannot both be answered at once. Addressing the head pull requires movement that deepens the overhook's bite, and freeing the arm requires movement that feeds the head deeper. Losing either element collapses the geometry, which is why the position is defined by the pairing, not by either grip in isolation.",
       "answer_line": "Interdependent converging forces",
       "distractors": {
@@ -960,7 +960,7 @@
       }
     },
     {
-      "question": "Why does binding the near shoulder and head into a single unit make the diamond a rigid structure rather than two independent grips?",
+      "question": "Why does binding the near shoulder and head together make the diamond a rigid structure?",
       "answer": "Because the overhook and head control lock the opponent's near shoulder and head together, the two grips stop behaving as separate controls and instead move as one coupled block. Rotating the head cannot happen without also moving the trapped shoulder, and the shoulder cannot travel without dragging the head, so neither element has an independent degree of freedom. This coupling is what lets a low-effort frame resist force from multiple directions: pressure applied to one anchor is transmitted through the shared structure to the other. The bound shoulder-head unit is therefore the mechanical reason the diamond holds posture broken as a single rigid loop.",
       "answer_line": "Shoulder and head move as one",
       "distractors": {

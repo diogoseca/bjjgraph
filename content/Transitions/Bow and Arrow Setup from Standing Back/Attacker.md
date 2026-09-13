@@ -96,7 +96,7 @@ description: "Master attacking with the Bow and Arrow Setup from Standing Back C
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your collar grip immediately after you release the seat belt—how do you respond?",
+      "name": "They strip your collar grip right after you release the seat belt on standing back: what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately return to the seat belt configuration by reclaiming the over-shoulder and under-armpit control. Do not persist with a lost collar grip attempt while lacking upper body control. Re-establish the seat belt, confirm chest-to-back pressure and hook security, then threaten the rear naked choke again to recreate the window for a second collar grip attempt."
@@ -112,7 +112,7 @@ description: "Master attacking with the Bow and Arrow Setup from Standing Back C
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base and drops their weight when they feel the collar grip—what adjustment do you make?",
+      "name": "They widen their base and drop weight when they feel your collar grip: what do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than pulling them backward against their base, use the collar grip to break their posture forward and downward. When their head drops below their hips, their wide base becomes irrelevant because their center of gravity has shifted. Alternatively, use your hooks to execute a lateral trip while maintaining the collar grip to off-balance them sideways where their wide stance provides no resistance."

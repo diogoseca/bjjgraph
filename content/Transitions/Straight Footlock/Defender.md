@@ -56,7 +56,7 @@ description: "How to defend against Straight Footlock in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "The attacker has their forearm seated behind your Achilles and begins hip extension - what is your highest priority defensive action?",
+      "name": "They seat the forearm behind your Achilles and start extending: what is your top defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "External hip rotation is the highest priority because it immediately changes the angle of dorsiflexion force, relieving Achilles pressure regardless of how strong the attacker's grip is. Rotate your hip outward aggressively while keeping your knee bent. If rotation is blocked by their leg control, explosively sit up to collapse their extension angle. Do not waste time on grip fighting once extension has begun, as the finishing window compresses to seconds."
@@ -64,7 +64,7 @@ description: "How to defend against Straight Footlock in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why should the boot defense be established before the attacker initiates extension rather than during the finish?",
+      "name": "Why set the boot defense before their extension starts rather than during the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The boot defense creates a structural barrier that prevents the forearm from seating behind the Achilles tendon. Once the forearm is already seated and extension begins, the boot becomes far less effective because the fulcrum is already established and dorsiflexion pressure is already being generated. Establishing the boot proactively forces the attacker to address it before they can initiate the finish, buying the defender time and creating opportunities for grip stripping or hip rotation escapes."
@@ -72,7 +72,7 @@ description: "How to defend against Straight Footlock in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "You successfully rotate your hip during the finish attempt but only partially escape - what danger does this create?",
+      "name": "You rotate your hip but only partially escape the footlock: what danger does that create?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A partial hip rotation can transition the attacker directly into Outside Ashi-Garami or Inside Ashi-Garami depending on the rotation direction and their leg configuration. These advanced entanglements introduce heel hook threats that are far more dangerous than the original straight ankle lock. If your rotation stalls partway, you must either complete the full rotation to extract your foot or immediately reverse direction and try the sit-up counter instead. Staying in a half-rotated position is the worst outcome."

@@ -74,7 +74,7 @@ description: "Master crucifix maintenance from the attacker perspective. Systema
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three interconnected control points in crucifix maintenance and why must all three remain engaged simultaneously?",
+      "name": "What are crucifix maintenance's three control points, and why must all three stay engaged?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three control points are: (1) the leg triangle trapping the near arm through figure-four configuration, (2) hand control on the far arm via wrist grip, overhook, or kimura grip, and (3) chest-to-back pressure preventing turning and rolling. All three must remain engaged because they form an interdependent system—losing the leg triangle frees the near arm for defense, losing far arm control enables frames and neck defense, and losing chest pressure allows turning and angle creation that defeats both arm controls. Each point reinforces the others."
@@ -82,7 +82,7 @@ description: "Master crucifix maintenance from the attacker perspective. Systema
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins shrimping their hips away from you during crucifix maintenance—what is the correct response and why?",
+      "name": "They shrimp their hips away during crucifix maintenance. What do you do and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Execute a hip switch to follow their movement and maintain perpendicular alignment to their new body axis. Do not remain stationary while they change angle, as each unanswered shrimp alters the geometry of the leg trap and creates extraction space. The hip switch should be a smooth, flowing adjustment that re-establishes your perpendicular position from their new angle. Simultaneously increase chest pressure to limit their shrimping range and re-squeeze the leg triangle at the adjusted angle."
@@ -98,7 +98,7 @@ description: "Master crucifix maintenance from the attacker perspective. Systema
     },
     {
       "@type": "Question",
-      "name": "How do submission threats function as maintenance tools in the crucifix, and what is the optimal balance between attacking and maintaining?",
+      "name": "How do submission threats aid crucifix maintenance, and how do you balance attack and control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Submission threats force the opponent to divert their attention and energy from escape to survival, making them reactive rather than proactive. When you threaten a choke, the opponent must use their free hand and mental focus to defend the neck rather than working to free their trapped arm. The optimal balance is maintaining at least one hand on the far arm at all times while using the other to create threats. The kimura grip is particularly valuable because it simultaneously controls the far arm and threatens a submission, achieving both objectives with one configuration."
@@ -106,7 +106,7 @@ description: "Master crucifix maintenance from the attacker perspective. Systema
     },
     {
       "@type": "Question",
-      "name": "What tactile cues indicate an opponent is about to attempt an explosive arm extraction, and how should you respond?",
+      "name": "What tactile cues warn of an explosive arm extraction from crucifix, and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key cues include: increasing tension in the trapped arm as the opponent builds force for a pull, subtle hip shifting to create a better extraction angle, grip changes on any contact points as they prepare to redirect energy, and a brief pause in breathing that precedes explosive effort. When you detect these cues, immediately squeeze the leg triangle tighter by pulling knees together and adjusting the crossing angle. Simultaneously shift your weight to resist the extraction direction and threaten the neck to create a competing defensive priority."
@@ -114,7 +114,7 @@ description: "Master crucifix maintenance from the attacker perspective. Systema
     },
     {
       "@type": "Question",
-      "name": "What is the most critical grip requirement when controlling the far arm, and when should you transition between grip types?",
+      "name": "What is the key requirement for far-arm control in crucifix, and when do you switch grip types?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical requirement is that the far arm never becomes completely free—any grip is better than no grip. The wrist grip provides maximum manipulation ability and is ideal for initial control. Transition to overhook when the opponent is actively pulling their arm to their body, as the overhook handles inward force better. Transition to kimura grip when the position is stable and you want to add a submission dimension while maintaining control. Transition between grips during moments when the opponent is focused on the leg trap rather than the far arm, minimizing the risk during the brief transition window."

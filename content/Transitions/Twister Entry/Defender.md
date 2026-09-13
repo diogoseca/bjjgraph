@@ -56,7 +56,7 @@ description: "How to defend against Twister in BJJ. Recognition cues, defensive 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your first defensive priority when you recognize the attacker is positioning for a Twister entry from cross body ride?",
+      "name": "You sense a Twister entry from cross body ride — what is your first defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your first priority is clamping your knees together tightly to eliminate the thigh gap the attacker needs for hook threading. This physical barrier prevents the initial hook from penetrating between your legs. Simultaneously maintain active turtle structure with your hips up and elbows tight rather than flattening, which would spread your knees and create the exact opening the attacker is seeking. Address the leg defense before worrying about the seatbelt grip, because the hook threading is the critical action that advances the attacker's position."
@@ -64,7 +64,7 @@ description: "How to defend against Twister in BJJ. Recognition cues, defensive 
     },
     {
       "@type": "Question",
-      "name": "The attacker's hook has threaded between your thighs but the figure-four is not yet locked — what is your escape window?",
+      "name": "Their hook is threaded but the figure-four isn't locked — what is your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have a brief two to four second window before the figure-four locks where a single hook can still be cleared. Straighten your near-side leg forcefully using hip extension to push the attacker's shin out from between your thighs. Simultaneously clamp your far-side knee down to prevent the attacker's second leg from completing the figure-four. If straightening fails, immediately execute a sit-through to turn and face the attacker, using the rotational momentum to dislodge the partially-set hook before it anchors. Speed is critical because once the figure-four locks, extraction requires fundamentally different and lower-percentage techniques."
@@ -72,7 +72,7 @@ description: "How to defend against Twister in BJJ. Recognition cues, defensive 
     },
     {
       "@type": "Question",
-      "name": "Why is bridging explosively a dangerous response when the figure-four is locked and your spine is rotated?",
+      "name": "Why is an explosive bridge dangerous once the figure-four is locked and your spine is rotated?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the figure-four is locked, it converts your explosive bridge force into additional spinal rotation rather than generating escape momentum. The bridge drives your hips upward but the figure-four redirects that force into twisting your lower body further away from your upper body, dramatically increasing the torque on your cervical and thoracic spine. This can cause disc herniation, ligament damage, or nerve compression. The correct response is to first reduce rotation by turning into the attacker to align your spine, then address the leg entanglement through controlled technical extraction rather than explosive movement."
@@ -80,7 +80,7 @@ description: "How to defend against Twister in BJJ. Recognition cues, defensive 
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between the attacker consolidating cross body ride versus initiating a Twister entry?",
+      "name": "How do you tell cross body ride consolidation from the start of a Twister entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During standard cross body ride consolidation, the attacker's pressure is predominantly downward through their chest with their legs providing base on the mat. When initiating a Twister entry, the attacker's near-side knee walks behind your hip line, their hip drive shifts forward into your lower back, and their chest pressure includes a forward loading component. You may feel their leg beginning to slide between your thighs from behind rather than remaining posted on the mat. The key distinguishing factor is the attacker's lower body becoming independently active while their upper body maintains pressure — this split between upper and lower body action signals the Twister entry has begun."
@@ -88,7 +88,7 @@ description: "How to defend against Twister in BJJ. Recognition cues, defensive 
     },
     {
       "@type": "Question",
-      "name": "When should you accept half guard recovery rather than continuing to fight the Twister entry from turtle?",
+      "name": "Defending the Twister entry from turtle, when should you concede and recover half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept half guard recovery as soon as the initial hook has anchored deep enough that your straightening defense fails to eject it. At this point, continuing to fight from turtle while the attacker works the figure-four completion puts you at increasing risk of the full Twister lockup. Executing an immediate sit-through to face the attacker and recover half guard removes you from the Twister system entirely and places you in a position with well-established offensive and defensive options. Half guard bottom against a former cross body rider is a dramatically better position than Twister Control bottom. Do not let positional pride about conceding turtle keep you in a deteriorating situation."

@@ -64,7 +64,7 @@ description: "Complete defensive guide against the Underhook Sweep from Pocket H
     },
     {
       "@type": "Question",
-      "name": "Why is driving forward pressure dangerous when your opponent has a deep underhook in pocket half guard?",
+      "name": "Why is driving forward dangerous when they have a deep underhook in pocket half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pressure shifts your center of gravity over the opponent's trapped leg side, which is exactly the direction the sweep attacks. The deep underhook converts your forward momentum into pulling force that tips you over their body. The more you drive forward, the more energy you provide for the come-up sweep. This is the fundamental dilemma of pocket half guard top - pressure feeding sweeps while lack of pressure allows back takes and offensive transitions."
@@ -72,7 +72,7 @@ description: "Complete defensive guide against the Underhook Sweep from Pocket H
     },
     {
       "@type": "Question",
-      "name": "Your opponent has reached the elbow post and is beginning the hip thrust - what is your best defensive response?",
+      "name": "They reach the elbow post and start the hip thrust in pocket half: best defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, prevention has failed and you must resist the sweep in progress. Immediately base out wide with your free leg posted far to the side while driving your whizzer arm down to pin their underhook arm. Lower your center of gravity by dropping your hips. If you can stall the sweep at this point, the bottom player will be in an awkward dogfight-like position where you can re-settle your weight and work to flatten them. Do not try to drive forward as this accelerates the sweep."
@@ -80,7 +80,7 @@ description: "Complete defensive guide against the Underhook Sweep from Pocket H
     },
     {
       "@type": "Question",
-      "name": "How should your base differ when defending against the underhook sweep versus maintaining standard pocket half guard top pressure?",
+      "name": "How should your base differ defending the underhook sweep versus normal pocket half top pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standard pocket half guard top pressure uses a narrow, forward-weighted base to flatten the opponent. When defending the underhook sweep specifically, you need to widen your base laterally with your free leg posted out and shift your weight slightly back rather than forward. This creates a wider triangle of support that resists the lateral toppling force of the sweep. The trade-off is reduced flattening pressure, which is why actively stripping the underhook is preferable to passively defending in a widened base."

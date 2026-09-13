@@ -12,7 +12,7 @@
 //      `sv` (this member's OWN side) which `ingest` prefers over `s[0]`, so the premise itself
 //      may have moved out from under the disclosure.
 //
-// Both paths are walked in one session: the default (pair) and `?dual=legacy`, the one escape
+// Both paths are walked in one session: the default (pair) and the noPairs control group, the
 // hatch that skips the derivation.
 //
 //   flock /tmp/bjj-pw.lock node tests/artifacts/_position_color_probe.mjs
@@ -21,8 +21,13 @@ import { chromium } from "@playwright/test"
 const BASE = process.env.BASE || "http://localhost:8080"
 const browser = await chromium.launch()
 
-async function walk(path) {
+async function walk(path, noPairs = false) {
   const page = await browser.newPage()
+  // v1.158.1: `?dual=legacy` is gone. The pre-split graph is reachable only through the flag the
+  // DSL uses, and it MUST be set before the bundle boots — passing the old param would now be
+  // silently ignored and this probe would compare the paired graph against itself, which is the
+  // repo's own "absence produces a plausible answer" failure wearing a probe's clothes.
+  if (noPairs) await page.addInitScript(() => { window.__NEURAL_NO_PAIRS__ = true })
   await page.goto(BASE + path, { waitUntil: "domcontentloaded" })
   await page.waitForFunction(() => window.__neural && window.__neural.nodes && window.__neural.nodes.length, null, { timeout: 60000 })
   const out = await page.evaluate(() => {
@@ -66,7 +71,7 @@ async function walk(path) {
 }
 
 const pair = await walk("/")
-const legacy = await walk("/?dual=legacy")
+const legacy = await walk("/", true)
 
 const show = (tag, r) => {
   console.log("\n== %s ==", tag)
@@ -80,6 +85,6 @@ const show = (tag, r) => {
     r.bottomView.considered, r.bottomView.paintedFromTheOtherSide)
 }
 show("DEFAULT (the pair, v1.125.0)", pair)
-show("?dual=legacy (hubs, the pre-v1.125.0 render)", legacy)
+show("noPairs control group (hubs, the pre-v1.125.0 render)", legacy)
 
 await browser.close()

@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "What grip or frame positioning should you maintain during the heel drag to prevent the opponent from advancing?",
+        "question": "During the heel drag escape from mount, what frames stop them advancing?",
         "answer": "Both hands should frame on the opponent's hips or lower ribcage using forearm frames rather than extended arms. This prevents advancement to high mount during the escape attempt while avoiding the arm exposure that creates Americana or armbar opportunities. The frames also provide the structural support needed for the directional bridging motion that creates the hooking space. Keep elbows pinned tight to your body throughout the entire sequence.",
         "answer_line": "Forearm frames on hips, elbows in",
         "distractors": {
@@ -328,7 +328,7 @@
         }
       },
       {
-        "question": "Your opponent counters your heel drag by lifting their foot and driving their knee toward your armpit - how do you adjust?",
+        "question": "Heel drag countered: they lift the foot and drive the knee to your armpit. How do you adjust?",
         "answer": "When the opponent lifts their foot to avoid the hook, immediately switch to an elbow escape on the same side. The knee driving toward your armpit creates space on the opposite hip that you can exploit with a hip escape and knee insertion. The heel drag attempt becomes a setup for the elbow escape, creating a two-attack chain where defending one opens the other. This chain is the foundation of systematic mount defense.",
         "answer_line": "Switch to elbow escape, same side",
         "distractors": {
@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "If the heel drag partially succeeds but the opponent begins extracting their leg before you establish half guard, what follow-up options exist?",
+        "question": "Heel drag half-works but they start extracting the leg before half guard. What follow-ups exist?",
         "answer": "Immediately reattempt the drag with a more decisive pull while simultaneously turning to your side to create the half guard angle. If the leg is almost free, transition to a deep half guard entry by threading underneath their body before they fully extract. Alternatively, use the partial entanglement to insert a butterfly hook that transitions to butterfly half guard, which offers different offensive options than standard half guard recovery.",
         "answer_line": "Re-pull hard, turn to half guard",
         "distractors": {
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "What distinguishes the near-side heel drag from the cross-body variation in terms of setup and application?",
+        "question": "How do near-side and cross-body heel drag escapes differ in setup and application?",
         "answer": "The near-side heel drag uses the same-side heel to hook the opponent's nearest foot, requiring less hip mobility and covering a shorter distance, making it the default high-percentage option. The cross-body variation uses the opposite foot to reach across, requiring greater hip mobility and a larger bridge for space creation. The cross-body version is primarily used when the near-side foot has been retracted or when the opponent has adapted to defend the standard version, offering a different angle of attack.",
         "answer_line": "Near side: shorter reach, default",
         "distractors": {
@@ -517,7 +517,7 @@
         }
       },
       {
-        "question": "When should you transition to technical mount rather than fighting to maintain standard mount against an active heel drag?",
+        "question": "Escaping mount, when should you switch to technical mount instead of fighting a heel drag?",
         "answer": "Transition when the opponent's heel has partially caught your foot and their legs are actively closing. Rather than fighting to extract your foot from an increasingly tight entanglement, use the leg activity and space to insert your far hook behind their body. This converts their successful escape attempt into a more dominant position for you and threatens back control. The decision point is roughly one second after the heel catches; if you cannot free your foot in that window, transition immediately.",
         "answer_line": "When heel catches, insert far hook",
         "distractors": {

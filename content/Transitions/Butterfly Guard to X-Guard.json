@@ -278,7 +278,7 @@
         }
       },
       {
-        "question": "Your opponent posts their right leg forward after your butterfly elevation attempt - describe the exact hip slide direction and body angle you need?",
+        "question": "They post their right leg after your butterfly elevation: what hip slide direction and body angle?",
         "answer": "You should slide your hips toward the right side, positioning your body perpendicular to their right leg in a T-shape. Your left shoulder (inside shoulder) should point toward their posted right foot as you slide underneath. This perpendicular angle allows your legs to properly create the X configuration with maximum leverage. Sliding straight backward or at the wrong angle results in hooks that lack the proper leverage to control and sweep effectively.",
         "answer_line": "Slide right, T-shape perpendicular",
         "distractors": {
@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "What are the two opposing forces your legs create once X-Guard is fully established and why do they matter?",
+        "question": "Once X-Guard is set, what two opposing forces do your legs create, and why do they matter?",
         "answer": "The outside leg across the hip pushes away from you while the inside leg behind the knee pulls toward you. These opposing forces create powerful off-balancing that destabilizes the opponent by splitting their base in two directions simultaneously. The push-pull dynamic is what makes X-Guard such an effective sweeping position because the opponent cannot counter both forces at once. Proper hook placement with active tension in both directions is critical for maintaining this mechanical advantage.",
         "answer_line": "Push hip, pull knee off-balance",
         "distractors": {
@@ -320,7 +320,7 @@
         }
       },
       {
-        "question": "Your opponent begins stepping their targeted leg backward mid-transition before your X-Guard hooks are locked - what is your immediate response?",
+        "question": "They step the targeted leg back before your X-Guard hooks lock: what is your immediate response?",
         "answer": "Scoot your hips forward aggressively following their retreating leg while maintaining contact with your remaining butterfly hook and upper body grips. If they fully clear the leg, immediately switch to the opposite leg as your new target since their weight has shifted in that direction. If you cannot capture either leg, recover to seated guard or shin-to-shin position using your grips to prevent them from establishing a passing position. Never stay flat on your back chasing a failed entry.",
         "answer_line": "Follow the leg or switch sides",
         "distractors": {
@@ -348,7 +348,7 @@
         }
       },
       {
-        "question": "How does the butterfly to X-Guard transition differ in no-gi versus gi, and what grip adjustments are needed?",
+        "question": "How does butterfly to X-Guard differ in no-gi, and what grip adjustment replaces gi grips?",
         "answer": "In no-gi, you cannot rely on sleeve and collar grips for posture control and forward pressure. Instead, establish a strong underhook on one side while maintaining the butterfly hook on the same side. The underhook replaces the pulling function of gi grips, controlling the opponent's posture and preventing backward retreat during the hip slide. Wrist control on the opposite arm provides secondary connection. The mechanics of elevation and hip sliding remain identical, but the entry window is often shorter because no-gi grips are less secure, requiring more explosive timing.",
         "answer_line": "Same-side underhook does the work",
         "distractors": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "question": "If your initial butterfly sweep is completely shut down and the opponent maintains a very wide low base without posting forward, what should you do instead of forcing X-Guard?",
+        "question": "Your butterfly sweep fails and they keep a wide low base without posting: what do you do instead?",
         "answer": "When the opponent maintains a wide low base without posting forward, the conditions for X-Guard entry do not exist. Instead, chain to alternative attacks from butterfly that specifically target wide bases: arm drags to back control exploit the space created by their wide stance, or collar drags that pull them off their centerline. You can also attempt asymmetric elevation targeting one side to force a directional post, or transition to half butterfly to create new angles. Forcing X-Guard against a settled, balanced opponent results in a failed entry and energy waste.",
         "answer_line": "Arm drag to the back instead",
         "distractors": {
@@ -552,7 +552,7 @@
         }
       },
       {
-        "question": "Your opponent has begun sliding their hips toward your right leg but has not yet secured the deep knee hook - what are your best defensive options?",
+        "question": "They slide hips toward your right leg but lack the deep knee hook: what is your best defense?",
         "answer": "At this mid-transition moment you have three primary options ranked by effectiveness: first, retract your right leg immediately by stepping it back before the inside hook threads behind the knee. Second, drive your right knee firmly to the mat to smash through the hook placement attempt and flatten their guard. Third, post both hands on their hips to frame and prevent the hip slide from progressing further underneath you. The choice depends on your balance and grip situation, but leg retraction is highest percentage if you have sufficient base to execute it without falling forward.",
         "answer_line": "Retract leg before hook threads",
         "distractors": {
@@ -566,7 +566,7 @@
         }
       },
       {
-        "question": "What body positioning changes in the opponent should alert you that an X-Guard entry is being attempted rather than a standard butterfly sweep?",
+        "question": "What cue tells you an X-Guard entry is coming rather than a standard butterfly sweep?",
         "answer": "The key distinguishing cue is the opponent's body angle rotation. In a standard butterfly sweep, the opponent elevates you directly overhead or to one side while maintaining a facing angle toward you. In an X-Guard entry, the opponent rotates their shoulders perpendicular to your posted leg, sliding their hips underneath rather than elevating overhead. You will also notice one butterfly hook release while the other maintains deep contact, and their upper body pulls laterally rather than upward. Recognizing this perpendicular rotation is the earliest reliable indicator of X-Guard entry versus sweep.",
         "answer_line": "Shoulders rotate perpendicular",
         "distractors": {

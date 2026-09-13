@@ -259,7 +259,7 @@
         }
       },
       {
-        "question": "When defending a butterfly sweep, why is driving your chest down and sprawling your hips back more effective than simply widening your base?",
+        "question": "Against a butterfly sweep, why is sprawling chest down and hips back better than just widening base?",
         "answer": "Driving your chest down and sprawling attacks the mechanical principle of the butterfly sweep which relies on elevating your hips with their hooks while pulling your upper body forward. By driving your chest into their face and upper chest and sprawling your hips back, you create a downward pressure vector that their hooks cannot overcome, while simultaneously increasing the distance between your center of gravity and their elevating force. Simply widening base leaves your hips elevated and vulnerable to the lifting motion, whereas the sprawl fundamentally breaks their sweep mechanics.",
         "answer_line": "Sprawl chest down, hips back",
         "distractors": {
@@ -287,7 +287,7 @@
         }
       },
       {
-        "question": "How does the concept of following the sweep differ from blocking the sweep, and when is each appropriate?",
+        "question": "How does following a sweep differ from blocking it, and when is each appropriate?",
         "answer": "Blocking the sweep means directly opposing the sweep direction with your base and pressure, stopping their momentum completely. Following the sweep means moving with their sweep direction while maintaining superior position, essentially letting them move you while you stay on top and in control. Blocking is appropriate when you have strong base and recognize the sweep early enough to stop it with minimal effort. Following is superior when the sweep has momentum and blocking would require excessive energy, when you want to use their momentum to pass around their committed leg, or when following leads to an even better position than where you started.",
         "answer_line": "Follow if momentum, block early",
         "distractors": {
@@ -315,7 +315,7 @@
         }
       },
       {
-        "question": "Why is maintaining forward pressure important even while defending a sweep, and what is the risk of pulling away from the guard?",
+        "question": "Why keep forward pressure while defending a sweep, and what is the risk of pulling away?",
         "answer": "Maintaining forward pressure while defending a sweep keeps you in passing position ready to immediately capitalize when the sweep is defended, prevents opponent from easily resetting to their preferred guard, and maintains offensive initiative. Pulling away from the guard sacrifices your passing position, gives opponent time and space to establish strong guard structure, allows them to choose their best guard variation, and mentally shifts momentum in their favor. The correct mindset is solving the sweep problem while staying in the fight, not retreating to safety.",
         "answer_line": "Keep pressure, stay engaged",
         "distractors": {
@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "Your opponent attempts a hip bump sweep and you successfully base out - what is the optimal immediate follow-up?",
+        "question": "You base out against their hip bump sweep. What is the best immediate follow-up?",
         "answer": "The optimal follow-up is to immediately drive forward with your chest into their guard while circling your hips to one side to begin a guard pass. Their hip bump attempt has lifted their hips off the mat, creating space between their back and the ground. By driving forward immediately, you flatten them back to the mat while they are off-balance from the failed sweep. Simultaneously, attack one of their legs with a knee slice, leg drag, or toreando motion. The failed hip bump leaves them with compromised grips and disrupted hip position.",
         "answer_line": "Drive chest forward, circle pass",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "What is the most common timing mistake when attempting to counter an opponent's sweep from bottom position?",
+        "question": "What is the most common timing mistake when countering the top player's sweep defense?",
         "answer": "The most common timing mistake is initiating your counter-sweep while your opponent is still in their defensive shell rather than waiting for them to commit to defending your initial sweep. Effective counter-sweeping requires patience to threaten your first sweep convincingly enough that they commit their weight, base, or grips to stopping it. Only when they have made this defensive commitment are they vulnerable to your counter. Rushing the counter before they have committed means you are attempting to sweep a balanced and ready opponent.",
         "answer_line": "Wait for their commitment",
         "distractors": {
@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "Your opponent establishes De La Riva hook and begins loading a sweep - how do you address this while maintaining passing position?",
+        "question": "They set a De La Riva hook and load a sweep. How do you handle it and keep passing position?",
         "answer": "First, strip the pant grip on your far leg that anchors their De La Riva hook, using a two-on-one break or pushing their knee inward across their centerline. Simultaneously, backstep your hooked leg to reduce their hook depth and take away their leverage angle. Drive your knee forward through their guard while establishing a collar or lapel grip to control their upper body. The key is not retreating from the hook but rather circling through it while maintaining forward pressure, which often converts directly into a leg drag or knee slice passing opportunity.",
         "answer_line": "Strip grip, backstep, drive knee",
         "distractors": {
@@ -371,7 +371,7 @@
         }
       },
       {
-        "question": "An opponent with strong butterfly hooks elevates you and begins the sweep - the sweep is already in motion, what do you do?",
+        "question": "Their butterfly sweep is already in motion and you are elevated. What do you do?",
         "answer": "When the butterfly sweep is already in motion, do not fight the direction. Instead, follow the sweep by posting your far hand on the mat in the direction you are being swept, then immediately circle your hips away from their hooks and drive your chest back into them as your body rotation breaks the hook connection. This converts their sweep momentum into your passing angle. The critical detail is posting and circling rather than bracing, because bracing against a committed butterfly sweep wastes energy and usually fails. By following and redirecting, you use their energy expenditure against them.",
         "answer_line": "Post far hand, circle, drive back",
         "distractors": {
@@ -483,7 +483,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your butterfly sweep is stuffed because the top player sprawled and drove their chest into you - what is your immediate recovery sequence?",
+        "question": "They sprawl and drive their chest in to stuff your butterfly sweep. What is your recovery sequence?",
         "answer": "Immediately retract your butterfly hooks and replace them with feet on their hips to create distance. Simultaneously recover your grips to collar and sleeve rather than the underhook you used for the sweep. Shrimp your hips back to create space and establish a neutral open guard or transition to a different guard system like De La Riva or collar-sleeve guard. The critical error would be to keep trying to re-elevate with the hooks against their sprawled weight.",
         "answer_line": "Retract hooks, shrimp, reguard",
         "distractors": {
@@ -497,7 +497,7 @@
         }
       },
       {
-        "question": "How do you determine whether to chain to a secondary sweep or abandon to guard recovery after your first sweep is countered?",
+        "question": "After a countered sweep, how do you decide between chaining to another sweep or recovering guard?",
         "answer": "The decision hinges on the top player's weight commitment. If they have overcommitted their base in one direction to defend your first sweep, chain to the opposite direction sweep because their weight distribution creates the vulnerability. If they maintained centered base and simply neutralized your sweep without overcommitting, abandon to guard recovery because a secondary sweep against a balanced opponent has low probability of success and further compromises your guard. Read their hip position: shifted hips mean chain, centered hips mean recover.",
         "answer_line": "Chain if hips shifted, else recover",
         "distractors": {
@@ -525,7 +525,7 @@
         }
       },
       {
-        "question": "Your scissor sweep fails because the top player posts their leg back - your top leg is still across their body. What should you do?",
+        "question": "Your scissor sweep fails as they post back, your top leg still across them. What do you do?",
         "answer": "Use the leg that is across their body as a frame rather than a sweep tool. Convert it into a knee shield by pulling your knee to your chest and positioning your shin across their torso to create distance. Simultaneously recover your collar grip with your free hand and establish a knee shield half guard or reguard to open guard. The leg across their body is an asset for framing even though it failed as a sweep tool. Never leave it passively draped across them where they can pin it and pass.",
         "answer_line": "Convert leg to knee shield",
         "distractors": {
@@ -539,7 +539,7 @@
         }
       },
       {
-        "question": "When should you choose to create a scramble rather than attempt a clean reguard after a failed sweep?",
+        "question": "After a failed sweep, when should you create a scramble instead of attempting a clean reguard?",
         "answer": "Choose scramble when the top player has already advanced past your leg frames and is beginning to establish a passing position where clean reguard is no longer mechanically possible. If their shoulder is past your hip line or they have cleared your legs to one side, a clean reguard requires them to retreat, which they will not do voluntarily. In this case, explosive movement like a granby roll, inversion, or sit-through creates chaos that prevents them from consolidating the pass. The scramble is the emergency option when systematic guard recovery has been preempted.",
         "answer_line": "Scramble when reguard is blocked",
         "distractors": {

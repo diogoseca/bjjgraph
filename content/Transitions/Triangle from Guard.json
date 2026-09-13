@@ -258,7 +258,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary goal of Triangle from Guard and how does it differ from a standard closed guard triangle setup?",
+        "question": "What is the goal of the Mission Control triangle, and how does it differ from closed guard?",
         "answer": "The primary goal is to transition from Mission Control into a locked Triangle Control position. Unlike a standard closed guard triangle that requires creating angle and isolating head and arm from scratch, the Mission Control triangle leverages pre-existing shoulder isolation, broken posture, and arm isolation. The opponent is already structurally compromised, making the entry significantly higher-percentage because half the work is already done by the Mission Control position.",
         "answer_line": "Lock triangle from Mission Control",
         "distractors": {
@@ -272,7 +272,7 @@
         }
       },
       {
-        "question": "What specific movement from the opponent serves as the optimal trigger for initiating the leg swing across their face?",
+        "question": "Which opponent movement best triggers the leg swing across the face from Mission Control?",
         "answer": "The opponent's postural recovery attempt, specifically when they drive weight backward and lift their head to escape Mission Control. This upward movement creates the space needed for the leg to cross the face and actually assists the transition because the opponent's defensive momentum carries their head into the closing triangle. Attempting the entry while the opponent's posture is fully broken down is significantly harder because there is no space for the leg to travel.",
         "answer_line": "Head rises as they posture up",
         "distractors": {
@@ -286,7 +286,7 @@
         }
       },
       {
-        "question": "Your opponent posts their free hand on the mat during your triangle entry attempt. How do you adjust your execution?",
+        "question": "They post a free hand on the mat during your triangle entry: how do you adjust?",
         "answer": "The posted hand creates base that can prevent the angle cut and assist their stacking defense. Immediately attack the posting arm by pushing it across your body, which both eliminates their base and can isolate a second arm for an armbar threat. Alternatively, use the posting arm as leverage to complete a more aggressive hip pivot for the angle, sweeping them over the posted arm. A posted hand actually creates a vulnerability if recognized and attacked rather than ignored.",
         "answer_line": "Push posted arm across your body",
         "distractors": {
@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "Why is it critical to maintain at least one hand on head control throughout the entire leg transition?",
+        "question": "Why must you keep at least one hand on head control through the whole leg transition?",
         "answer": "Head control prevents the opponent from recovering posture during the vulnerable transition window when the outside leg is moving from shoulder control to the neck. Without head control, the opponent can lift their head and create enough space to prevent the leg from crossing or to begin a stacking defense before the triangle locks. Even a momentary release of all head control can provide enough time for posture recovery that kills the attack entirely. One hand stays on the head while the other can assist leg placement if needed.",
         "answer_line": "Blocks posture recovery mid-switch",
         "distractors": {
@@ -314,7 +314,7 @@
         }
       },
       {
-        "question": "What is the mechanical difference between squeezing the triangle without an angle versus cutting a perpendicular angle first?",
+        "question": "Mechanically, why does cutting a perpendicular angle beat squeezing the triangle square-on?",
         "answer": "Without an angle, leg pressure compresses the front and back of the neck, which is uncomfortable but does not restrict blood flow to the brain. Cutting a perpendicular angle repositions the legs so that one thigh compresses one carotid artery while the opponent's own trapped shoulder compresses the other carotid artery. This bilateral arterial compression is what causes the blood choke that leads to unconsciousness. The angle is the difference between a squeeze and an actual choke.",
         "answer_line": "Angle compresses both carotids",
         "distractors": {
@@ -328,7 +328,7 @@
         }
       },
       {
-        "question": "Your opponent begins stacking you after you lock the figure-four but before you cut the angle. What are your options?",
+        "question": "They stack you after you lock the figure-four but before you cut the angle: what are your options?",
         "answer": "Three primary options exist. First, accept the stack and use their forward pressure to roll into an omoplata by uncrossing the legs and rotating underneath, converting their defensive stack into an offensive sweep or submission. Second, use the stack momentum to elevate into a higher triangle position, scooting your hips backward to create a sharper angle despite their forward pressure. Third, if the stack is severe, release to a scramble and re-enter Mission Control using your remaining hooks and head control rather than fighting a losing battle from a stacked position.",
         "answer_line": "Roll into omoplata off the stack",
         "distractors": {
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "If the opponent successfully extracts their arm to the outside during your triangle attempt, what is your best immediate follow-up?",
+        "question": "They extract the arm to the outside during your triangle attempt: what is your best follow-up?",
         "answer": "The extracted arm is now extended and vulnerable. The highest-percentage follow-up is an immediate armbar on the extended arm by controlling the wrist, pinching knees together, and elevating hips to hyperextend the elbow. The arm extraction movement naturally extends the arm into the perfect armbar position. Alternatively, if armbar angle is poor, retain your leg position on their neck and re-pummel the arm back inside using an underhook motion, or transition back to Mission Control using remaining leg and head control to reset the attack.",
         "answer_line": "Armbar the extracted arm",
         "distractors": {
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "How does hip elevation change throughout the Triangle from Guard sequence, and why does each phase require different hip height?",
+        "question": "How does hip elevation change through each phase of the Mission Control triangle, and why?",
         "answer": "In Mission Control, hips are elevated to maintain the high guard and shoulder isolation. During the leg transition, hips must elevate further to create space for the leg to swing across the face. After locking the figure-four, hips drive upward to tighten the triangle and prevent the opponent from creating space. During the angle cut, hips maintain elevation while pivoting laterally. For the finish, maximum hip elevation drives the thigh deeper into the neck. At no point should hips drop to the mat, as every phase of the technique requires elevation for structural integrity.",
         "answer_line": "Hips rise each phase, never drop",
         "distractors": {
@@ -515,7 +515,7 @@
     ],
     "flashcards": [
       {
-        "question": "Why is explosive posture recovery the wrong response when you feel the bottom player's outside leg begin lifting from your far shoulder?",
+        "question": "Why is explosive posture recovery wrong when their outside leg lifts off your far shoulder?",
         "answer": "Explosive posture recovery creates the exact space and momentum the bottom player needs to swing the leg across your face and into triangle position. The triangle entry from Mission Control is specifically designed to exploit postural recovery attempts. Your upward driving movement carries your head into the closing triangle, and the space you create by extending your spine allows the leg to travel across your face unobstructed. The correct response is forward stacking pressure that collapses the available space rather than expanding it.",
         "answer_line": "Feeds your head into the triangle",
         "distractors": {
@@ -529,7 +529,7 @@
         }
       },
       {
-        "question": "What are the three defensive timelines you must manage simultaneously when the triangle entry begins from Mission Control?",
+        "question": "Which three defensive timelines must you manage as the triangle entry starts from Mission Control?",
         "answer": "The three defensive timelines are: first, prevent the leg from crossing the face entirely by driving forward with stacking pressure and turning the head; second, if the leg crosses, prevent the figure-four lock by maintaining shoulder width and head position that creates structural resistance against the closing legs; third, if the lock establishes, prevent the angle cut by controlling the bottom player's hips and squaring your alignment to their centerline. Each timeline has progressively worse odds of escape, making the first timeline the highest priority defensive action.",
         "answer_line": "Stop leg, stop lock, stop the angle",
         "distractors": {
@@ -543,7 +543,7 @@
         }
       },
       {
-        "question": "The bottom player has locked the triangle but has not yet cut the angle. What is your highest-priority defensive action and why?",
+        "question": "They locked the triangle but haven't cut the angle: what is your top defensive action and why?",
         "answer": "Your highest priority is preventing the angle cut by immediately controlling the bottom player's far hip with your free hand while driving your hips forward to square your centerline to theirs. The angle is what converts the triangle from a positional squeeze into an arterial blood choke. Without the perpendicular angle, the triangle applies uncomfortable pressure but cannot achieve bilateral carotid compression needed for unconsciousness. Denying the angle buys substantial time to work systematic escape sequences from inside a locked but ineffective triangle configuration.",
         "answer_line": "Deny the angle—pin the far hip",
         "distractors": {
@@ -557,7 +557,7 @@
         }
       },
       {
-        "question": "You successfully extract your trapped arm during the triangle entry. What position should you expect to reach, and what is your immediate priority?",
+        "question": "You free your trapped arm during the triangle entry: what position results and what comes first?",
         "answer": "With the arm extracted, you should reach closed guard position since the shoulder isolation that defines Mission Control is broken. Your immediate priority is posture recovery, establishing strong grips on the bottom player's hips or biceps, and beginning your guard opening sequence. Do not celebrate the escape by relaxing, as the bottom player will immediately attempt to re-establish rubber guard control or transition to alternative attacks. Maintain forward pressure and grip fighting to prevent them from pulling you back into Mission Control.",
         "answer_line": "Posture up in closed guard",
         "distractors": {
@@ -571,7 +571,7 @@
         }
       },
       {
-        "question": "How do you distinguish between a genuine escape window and a baited opening designed to trigger your triangle entry?",
+        "question": "How do you tell a real escape window from bait meant to trigger the triangle from Mission Control?",
         "answer": "A genuine escape window occurs when the bottom player's hip elevation drops, their grip control weakens simultaneously on both head and arm, and their outside leg settles into a static position rather than tensing for movement. A baited opening typically shows only reduced head pulling pressure while hip elevation remains high, the outside leg begins subtle repositioning or tensing for the swing, and the trapped arm control actually tightens rather than relaxing. The key tell is the outside leg: if it is coiling or shifting position while head control lightens, the bottom player is setting up the triangle entry, not losing control.",
         "answer_line": "Outside leg static = real window",
         "distractors": {

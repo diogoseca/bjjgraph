@@ -114,7 +114,7 @@ description: "Execute the Kimura Counter via Roll from bottom. Step-by-step roll
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward with heavy crossface pressure as you attempt the roll - how do you respond?",
+      "name": "From the Kimura trap on bottom, they crossface and drive hard as you roll — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their forward drive as fuel for the technique by converting the roll into a Rolling Kimura sweep instead, which leverages their forward momentum to come up on top. Alternatively, frame on their crossface shoulder with your free arm to create just enough space for hip rotation, then time the roll to coincide with a surge in their forward pressure. Their own momentum, properly redirected, powers the transition more effectively than your own force."

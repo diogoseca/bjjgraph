@@ -6,7 +6,6 @@
   *{box-sizing:border-box;}
   @keyframes ngFadeUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
   @keyframes ngHintFade{0%{opacity:0;}12%,68%{opacity:.5;}100%{opacity:0;}}
-  @keyframes ngIntroLife{0%{opacity:0;transform:translateY(10px);}20%{opacity:1;transform:translateY(0);}77%{opacity:1;transform:translateY(0);}100%{opacity:0;transform:translateY(0);}}
   @keyframes ngTabPulse{0%,100%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 0 rgba(120,160,255,.34);}50%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 7px rgba(120,160,255,0);}}
   .ng-optionrow{-ms-overflow-style:none;scrollbar-width:none;mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);}
   .ng-optionrow::-webkit-scrollbar{height:0;display:none;}
@@ -20,10 +19,6 @@
      horizontally centres a left:50% overlay: the card enters half its own width to the right and
      snaps into place when the animation ends. Anything centred that way needs this variant. */
   @keyframes ngCardInX{from{opacity:0;transform:translate(-50%,8px);}to{opacity:1;transform:translate(-50%,0);}}
-  /* the landing card's More ▸ body — it unfolds downward inside a card that is already there,
-     so it fades and rises a few pixels rather than sliding a whole surface in. NB it must NOT
-     translate on X: the card itself is centred with translateX(-50%) and this is a child. */
-  @keyframes ngMoreIn{from{opacity:0;transform:translateY(-4px);}to{opacity:1;transform:translateY(0);}}
   @keyframes ngNudge{0%,100%{transform:translateX(0);}50%{transform:translateX(5px);}}
   @keyframes ngDeckExpire{0%{filter:grayscale(0) brightness(1);opacity:1;}55%{filter:grayscale(.35) brightness(.92);opacity:.92;}100%{filter:grayscale(1) brightness(.5);opacity:.34;}}
   @keyframes ngPulseChip{0%,100%{box-shadow:0 0 0 0 rgba(120,170,255,.5);}50%{box-shadow:0 0 0 6px rgba(120,170,255,0);}}
@@ -105,7 +100,6 @@
      held landscape is 844x390, i.e. 844px WIDE, so the old width-only rule never fired on it —
      see CLAUDE.md. A thumb drags the tray and needs no affordance. */
   @media (max-width:767px), (max-height:500px){
-    .ng-seemore{display:none!important;}
   }
   /* the share cue rides above the chip on every viewport (v1.99.0 — the pill is gone) */
   @media (max-width:640px){
@@ -114,9 +108,6 @@
     .ng-acctwrap{top:auto!important;bottom:28px!important;right:14px!important;} /* the pill's old band seat (v1.99.0) */
     .ngAcctChip{padding:7px!important;} /* avatar-only chip still makes a 44px touch target */
     .ng-logo .ng-word,.ng-logo .ng-kbd{display:none!important;}
-    .ng-intro{top:54px!important;left:16px!important;}
-    .ng-intro>div:first-child{font-size:21px!important;}
-    .ng-intro>div:last-child{font-size:12px!important;max-width:228px!important;margin-top:8px!important;}
     .ng-drill{width:88vw!important;}
     .ngAcctChip>span:first-child{display:none!important;}
     .ngSignupCta{display:none!important;}
@@ -125,7 +116,8 @@
     .ng-legendkey{display:none!important;}
     .ng-winbar{width:104px!important;}
     .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
-    .ng-landcard{bottom:206px!important;width:calc(100vw - 20px)!important;max-height:34vh!important;padding:11px 12px 10px!important;}
+    .ng-landcard{bottom:206px!important;max-height:34vh!important;}
+    .ng-landcard,.ng-landmore.open{width:calc(100vw - 20px)!important;padding:11px 12px 10px!important;}
     /* the replay bar shares the card's dock, at every width — see its rule above */
     .ng-replaybar{bottom:206px!important;width:calc(100vw - 20px)!important;padding:8px 10px!important;}
     /* ── THE BOTTOM THUMB BAND HAS THREE TENANTS ──────────────────────────────────────────
@@ -152,8 +144,17 @@
   /* \u2500\u2500 P2: beat beacon / defense vignette / coach / film shimmer \u2500\u2500 */
   .ng-beacon{animation:ngBeacon 1.5s ease-in-out infinite;border-radius:12px;}
   @keyframes ngBeacon{0%,100%{box-shadow:0 0 0 0 rgba(126,224,168,0),0 0 10px 1px rgba(126,224,168,.28)}50%{box-shadow:0 0 0 3px rgba(126,224,168,.22),0 0 22px 5px rgba(126,224,168,.5)}}
-  .ng-vignette{position:fixed;inset:0;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 68%,rgba(226,58,48,.5) 100%);animation:ngHeartbeat 1s ease-in-out infinite;}
-  @keyframes ngHeartbeat{0%,100%{opacity:.5}12%{opacity:1}24%{opacity:.55}34%{opacity:.9}48%{opacity:.5}}
+  /* THE VIGNETTE IS A HEARTBEAT IN SLOW MOTION (owner: "more chill, more slow motion of a heart
+     beat really realistic like max payne … but more modern fluid movement"). Cardiac anatomy,
+     not a sine: S1 (lub — the strong closing, a sharp ~160ms attack) then S2 (dub — softer,
+     ~0.9s later) then a long diastole where the edge settles; the whole cycle runs at 3.2s,
+     about a third of a resting heart's real speed. Two channels move together: opacity (the
+     red rising) and scale (the edge CONTRACTING inward on each beat — the element is oversized
+     by 7% so the squeeze never uncovers a corner). Attack and decay carry different easings,
+     set per keyframe, so the rise snaps and the fall drains — the retired 1s ease-in-out
+     sawtooth was the "panic" the owner asked to calm. Reduced motion: still, low fog (below). */
+  .ng-vignette{position:fixed;inset:-7%;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 50%,rgba(184,30,28,.3) 72%,rgba(226,58,48,.85) 100%);opacity:.36;will-change:opacity,transform;animation:ngHeartbeat 3.2s linear infinite;}
+  @keyframes ngHeartbeat{0%{opacity:.34;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}5%{opacity:1;transform:scale(.955);animation-timing-function:cubic-bezier(.4,0,.25,1)}18%{opacity:.44;transform:scale(1);animation-timing-function:cubic-bezier(.12,.8,.3,1)}23.5%{opacity:.74;transform:scale(.975);animation-timing-function:cubic-bezier(.4,0,.2,1)}46%{opacity:.35;transform:scale(1);animation-timing-function:ease-in-out}100%{opacity:.34;transform:scale(1)}}
   /* ══ THE Z LADDER (v1.95.1) — root overlay plane: direct children of #neural-root. ══
      The app wrap is position:fixed = its OWN stacking context, so its internal z values
      (pane 8, tray 4, dossier 5 …) never compete out here; the wrap paints at level 0 and
@@ -162,8 +163,8 @@
                                                         replay bar 8
         10-49  ambient attention fx                   — reward toast 14 · vignette 44
         50-79  coaching                               — coach 70 · combo pop 72
-        90-99  DELIBERATE temporary screens           — account menu 90 · modal (settings/
-               legal/auth/search) + roll-from confirm 95
+        90-99  DELIBERATE temporary screens           — More reading card + account menu 90 ·
+               modal (settings/legal/auth/search) + roll-from confirm 95
      Principle (third stacking bug of this family — menu-under-landcard, coach-over-card,
      landcard-over-Settings): a screen the user asked for must NEVER be underdrawn by an
      ambient gameplay overlay, and a deliberate screen's scrim takes the input. Anything
@@ -179,9 +180,60 @@
      its own copy. That overlap is why the coach suppressed the card entirely, which in turn deleted
      the landing question from every cold visitor's first decision. Docking the coach above the
      graph leaves the card its own space and both stay fully clickable. */
+  .ng-seat-star{touch-action:manipulation;transition:color .18s ease;}
+  .ng-seat-star svg{opacity:.48;transition:opacity .18s ease,filter .18s ease;}
+  .ng-seat-star:hover svg,.ng-seat-star:focus-visible svg,.ng-seat-star[aria-expanded="true"] svg{opacity:1;}
+  .ng-seat-star[data-list-saved="true"] svg{opacity:1;filter:drop-shadow(0 0 4px rgba(239,198,109,.22));}
+  .ng-seat-star:focus-visible{outline:2px solid #efc66d;outline-offset:1px;}
+  @media(prefers-reduced-motion:reduce){.ng-seat-star,.ng-seat-star svg{transition:none;}}
   /* P1b: the question-first landing card — docked directly above the options tray, so the
      read order is identity -> film -> question -> your hand, top to bottom. */
-  .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
+  .ng-landcard,.ng-landmore.open{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
+  /* One stable viewport for the whole deck, including revealed recall answers. Long content
+     scrolls inside; changing questions never resizes the card or the film row above it. */
+  .ng-landcard.ng-land-deck{width:min(560px,calc(100vw - 40px));height:256px;padding:16px 18px;overscroll-behavior:contain;scroll-padding-block:12px;}
+  .ng-land-deck [data-land-q]{padding-bottom:44px;}
+  .ng-land-deck [data-land-nav]{position:absolute;left:0;right:0;bottom:0;height:44px;z-index:3;pointer-events:none;background:linear-gradient(180deg,rgba(17,20,34,0),#111422 40%);}
+  .ng-land-deck [data-land-nav] button{position:absolute;bottom:0;width:44px;height:44px;display:flex;align-items:center;justify-content:center;padding:0;border:0;border-radius:12px;background:none;color:#8797b3;cursor:pointer;pointer-events:auto;}
+  .ng-land-deck [data-land-prev]{left:2px;}
+  .ng-land-deck [data-land-next]{right:2px;}
+  .ng-land-deck [data-land-nav] button[hidden]{display:none;}
+  @media(hover:hover){.ng-land-deck [data-land-nav] button:hover{color:#e0e9ff;background:rgba(126,160,255,.08);}}
+  .ng-land-deck [data-land-q]>div:first-child{font-size:14px!important;line-height:1.4!important;}
+  .ng-land-deck [data-land-mc-opt]{min-height:44px;font-size:13px!important;white-space:normal!important;overflow-wrap:anywhere;padding:10px 12px!important;}
+  .ng-land-deck [data-land-recall]{font-size:13px;}
+  .ng-land-deck [data-land-recall] button{min-height:44px!important;}
+  .ng-land-deck button:focus-visible{outline:2px solid #9cbcff;outline-offset:2px;}
+  @media(max-width:640px){
+    .ng-landcard.ng-land-deck{height:248px;}
+    .ng-land-deck [data-land-q]>div:first-child{font-size:13px!important;}
+  }
+  /* Short portrait screens trade thumbnail size for reading space; expanded video keeps its
+     inline important dimensions. Long answers remain scrollable, with full-size touch targets. */
+  @media(max-width:699px) and (max-height:700px){
+    .ng-has-land-deck .ng-landfilm .ng-clip{height:64px!important;}
+  }
+  /* Landscape is a two-column composition, not a cropped portrait layout. */
+  @media(min-width:700px) and (max-height:540px){
+    .ng-has-land-deck .ng-landcard.ng-land-deck{left:28vw;width:calc(56vw - 40px);height:calc(100dvh - 112px);padding:12px 14px;}
+    .ng-has-land-deck .ng-optionrow{left:56vw!important;padding-left:12px!important;padding-right:12px!important;}
+    .ng-has-land-deck .ng-landfilm{left:78vw!important;width:calc(44vw - 24px)!important;}
+    .ng-has-land-deck .ng-landmore{left:28vw;}
+    .ng-has-land-deck .ng-landmore.open{width:calc(56vw - 40px)!important;}
+    .ng-has-land-deck .ng-landfilm .ng-clip{height:64px!important;}
+  }
+  .ng-landstack{--back-step-x:3px;position:fixed;left:50%;transform:translateX(-50%);z-index:4;pointer-events:none;}
+  .ng-landstack>div{transform:translate(calc(var(--back-index)*var(--back-step-x)),calc(var(--back-index)*3px));position:absolute;inset:0;border:1px solid rgba(130,150,190,.3);border-radius:15px;background:linear-gradient(180deg,#20263b,#171c2e);box-shadow:1px 2px 3px rgba(0,0,0,.22);}
+  @media(max-width:640px){.ng-landstack{--back-step-x:2px;}}
+  /* More starts as a pill below the hand, then that SAME root-plane sibling takes the real
+     .ng-landcard shell. Open, it is NOT a scrollport (v1.175.0, owner: "when I scroll this card
+     should go under the fold too so it should be long"): no max-height, no overflow, top-docked
+     under the timed card at its content height, and the whole reading column — film, timed card,
+     this card, the pushed-down hand — translates together (`_readApply`). touch-action:none so a
+     phone drag reaches that column instead of rubber-banding the document. */
+  .ng-landmore{position:fixed;left:50%;transform:translateX(-50%);z-index:5;pointer-events:none;}
+  .ng-landmore.open{bottom:auto!important;max-height:none!important;overflow:visible!important;z-index:90!important;touch-action:none;}
+  .ng-landmore.open>div:first-child{padding-bottom:9px;transform:none!important;}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
   /* the last three seconds are FELT (v1.134.0): the card itself pulses with the countdown */
   /* .ng-clock-hot is a MARKER CLASS with no rule (v1.135.1). It used to carry
@@ -267,6 +319,6 @@
   .ng-clip{isolation:isolate;}
   .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
   @keyframes ngShimmer{to{background-position:-130% 0}}
-  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new],.ng-account-menu,.ng-replaybar,.ng-replaybar .ng-replay-dot{animation:none!important}}
+  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-landmore.open,.ng-combo-pop,.ng-momentum,.ng-challenge-continue,.ng-challenge-lesson[data-frontier],.ng-belt-bar>b,.ng-belt-bar>b[data-new],.ng-account-menu,.ng-replaybar,.ng-replaybar .ng-replay-dot{animation:none!important}}
 </style>
 <script src="technique-content.js"></script>

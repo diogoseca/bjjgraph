@@ -64,7 +64,7 @@ description: "How to defend against X-Guard Sweep in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Why is lowering your center of gravity the most important immediate response to X-Guard establishment?",
+      "name": "Why is lowering your center of gravity the first response once X-guard is established on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lowering your hips reduces the distance the sweeper can elevate your legs, directly neutralizing the upward force vector that creates off-balancing. A low, wide base distributes your weight across a broader surface area, requiring significantly more force to displace. Standing tall concentrates all your weight on the single controlled leg, maximizing the sweeper's mechanical advantage and making any elevation translate directly into loss of balance."
@@ -72,7 +72,7 @@ description: "How to defend against X-Guard Sweep in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has deep X-Guard hooks and is beginning to elevate your far leg. What is your defensive priority sequence?",
+      "name": "They have deep X-guard hooks and are lifting your far leg — what is your defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, immediately lower your hips and widen your base to resist the elevation. Second, use your free hand to strip their ankle grip while maintaining a posting hand for balance recovery. Third, once the grip is broken, circle your far leg backward to extract it from the X-hook using a rotational stepping motion rather than a straight pull. If extraction fails, drive forward pressure through the trapped leg to flatten their hips and collapse the elevation angle before they can add rotational force."
@@ -88,7 +88,7 @@ description: "How to defend against X-Guard Sweep in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defense if the sweeper transitions from X-Guard Sweep to a leg entanglement entry?",
+      "name": "How do you adjust when the X-guard sweeper switches to a leg entanglement entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the sweeper abandons the sweep for leg entanglements, your defensive priorities shift from base maintenance to leg extraction and knee line control. Immediately retract your hips away from the sweeper, keep your knee above their hip line, and avoid allowing them to consolidate ashi garami or saddle position. Use your free leg to pummel inside their hooks and create distance. The transition from sweep defense to leg lock defense requires recognizing the moment they release upper body grips in favor of leg control."

@@ -100,7 +100,7 @@ description: "How to execute Osoto Gari in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "Why might combining Osoto Gari with Kouchi Gari be more effective than attempting Osoto Gari alone against experienced opponents?",
+      "name": "Why chain Kouchi Gari into Osoto Gari rather than attacking Osoto alone?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The combination exploits the fundamental principle of action and reaction. When you attack with Kouchi Gari (inside reap), experienced opponents will typically shift their weight backward and away from the attack. This reactive weight shift actually sets up the perfect position for Osoto Gari on the opposite leg, as they're now loaded on the leg you want to reap. The initial attack creates the off-balancing that makes the second technique high-percentage. This type of combination attacking is essential at advanced levels where single techniques are easily defended."

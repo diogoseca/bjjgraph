@@ -56,7 +56,7 @@ description: "Defend against the Roll Escape from Cross Body Ride in BJJ. Learn 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is preparing a roll rather than a hip escape?",
+      "name": "As the rider, what earliest cue shows they are loading a roll rather than a hip escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The direction of force loading is the primary differentiator. A hip escape loads laterally—you feel the bottom player's hips pressing sideways against your chest contact. A roll loads rotationally—you feel the hips coiling with the near shoulder dropping toward the mat. The rotational loading creates a brief moment of increased pressure as the bottom player coils before exploding, whereas the hip escape produces more gradual lateral displacement. Additionally, the bottom player's arms tucking tight to their body and hands going to the neck signals a committed roll setup rather than a frame-based hip escape."
@@ -72,7 +72,7 @@ description: "Defend against the Roll Escape from Cross Body Ride in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "How do you prevent your weight distribution from becoming asymmetric, which is the condition the roll escape exploits?",
+      "name": "As the rider, how do you keep your weight from becoming the asymmetry the roll escape exploits?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Center your chest pressure across the middle of the bottom player's upper back rather than shifting toward either shoulder. Keep your hips back and slightly to the side with your base leg posted wide for stability in all directions. Use a near-side hip hook or knee to anchor the bottom player rather than shifting your bodyweight to one side. When adjusting grips or preparing transitions, maintain core engagement to prevent inadvertent weight shifts that create the asymmetry the roll requires. Think of your weight as a blanket covering their entire back rather than a point pressing into one side."
@@ -80,7 +80,7 @@ description: "Defend against the Roll Escape from Cross Body Ride in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully initiates a roll and you are following into back control—what is the critical grip you must maintain during the transition?",
+      "name": "They roll and you follow into back control: which grip must you maintain through the transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The harness or seatbelt grip on the upper body is the critical connection that must be maintained throughout the transition. Without this upper body control, the bottom player can complete their guard recovery during the roll even if you successfully follow their movement. The harness grip ensures that you arrive at the bottom player's back with control already established, allowing you to focus on hook insertion rather than re-establishing upper body grips from scratch. Prioritize the over-shoulder arm especially, as it provides both control and immediate choke threat upon arriving in back control."

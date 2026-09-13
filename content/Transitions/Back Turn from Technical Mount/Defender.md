@@ -50,7 +50,7 @@ description: "Guide to countering the back turn from technical mount top. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first physical cue that tells you the bottom player is about to turn from technical mount?",
+      "name": "What's the first cue that the bottom player is about to turn from technical mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the far shoulder dropping toward the mat, typically accompanied by the opponent's head turning away from you. This shoulder rotation precedes hip movement and gives you a critical half-second advantage for response. The arm tuck follows immediately after, with the opponent pulling their threatened elbow tight to their body. Recognizing the shoulder drop gives you maximum time to decide between following to back control or maintaining arm control for armbar."
@@ -58,7 +58,7 @@ description: "Guide to countering the back turn from technical mount top. Recogn
     },
     {
       "@type": "Question",
-      "name": "When should you commit to the armbar catch versus following to back control during the opponent's turn?",
+      "name": "During their turn, when do you commit to the armbar instead of following to the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Commit to armbar if you maintain solid wrist control through the first quarter of the opponent's rotation—their turning motion actually creates better armbar mechanics by extending the arm as the body rotates away from it. Commit to back take if wrist control slips during the initial rotation or if the opponent has tucked the arm so tightly that armbar angle is lost. The decision point occurs within the first one to two seconds of rotation and must be made decisively—straddling both options results in achieving neither."
@@ -66,7 +66,7 @@ description: "Guide to countering the back turn from technical mount top. Recogn
     },
     {
       "@type": "Question",
-      "name": "How do you transition your leg position from technical mount to back control when following the opponent's turn?",
+      "name": "Following their turn from technical mount, how do your legs become back control hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your stepped leg (the one over the opponent's body) becomes your first hook as they rotate—as their body turns, your leg naturally falls into hook position on the near side. Use this leg immediately as an anchor while your other leg swings around to establish the second hook on the far side. The key is that the stepped leg transitions smoothly from mount control to hook control without requiring you to reposition—the opponent's rotation does the positioning work for you if you maintain hip contact throughout."
@@ -82,7 +82,7 @@ description: "Guide to countering the back turn from technical mount top. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates the turn but stops halfway and attempts to recover guard instead—how do you capitalize?",
+      "name": "They start the turn, stall halfway, and try to recover guard: how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A half-turn is the worst position for the bottom player because it simultaneously exposes the back and leaves the arm vulnerable. If they stall mid-rotation, immediately re-establish arm control on the now-extended limb and drive your weight back into technical mount. Their half-turned position weakens their framing ability on both sides. If the arm is available, commit to the armbar finish since their rotated torso actually improves your attacking angle. Never allow them to settle in the half-turned position—attack immediately before they can choose a direction."

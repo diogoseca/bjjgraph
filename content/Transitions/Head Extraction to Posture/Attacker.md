@@ -84,7 +84,7 @@ description: "How to execute Head Extraction to Posture in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent's hips suddenly drop to mat level while maintaining gogoplata - what opportunity does this create?",
+      "name": "Trapped in gogoplata: their hips suddenly drop to the mat. What opportunity does that create?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This is your window to stack forward with pressure, driving your weight into them while working to extract your head as the submission loosens significantly."
@@ -92,7 +92,7 @@ description: "How to execute Head Extraction to Posture in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What are the two primary submission threats you must defend against if your escape movement is imperfect?",
+      "name": "Escaping gogoplata: which two submissions threaten you if your escape movement is imperfect?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Triangle choke if your escape movement allows them to switch the leg configuration as the shin slides off, and omoplata if you turn toward the attacking leg exposing your shoulder. Each escape direction has specific counter-threats requiring different defensive responses."

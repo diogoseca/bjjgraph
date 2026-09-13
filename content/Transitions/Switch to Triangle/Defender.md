@@ -56,7 +56,7 @@ description: "How to defend against Switch to Triangle in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is the moment of successfully defending the initial attack actually the most dangerous moment for the triangle switch?",
+      "name": "Why is the moment you defend the armbar the most dangerous one for the triangle switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Successfully defending the initial attack is most dangerous because your defensive movement creates the exact conditions the triangle requires. Pulling your arm back from the armbar isolates it on one side of your body (one-arm-in). Your focus shifts to relief that the first attack failed, creating a cognitive gap. Your posture often collapses forward from the effort of arm extraction. The opponent has already established their angle from the initial attack setup. All these factors combine to make the transition between defending one attack and recognizing the next the highest-vulnerability window for the triangle switch."
@@ -64,7 +64,7 @@ description: "How to defend against Switch to Triangle in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What defensive arm positioning prevents the opponent from establishing the triangle configuration during the switch?",
+      "name": "Defending the switch to triangle: how should you position both arms to deny the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key is maintaining arm symmetry - never allowing one arm inside the triangle frame while the other stays outside. During initial attack defense, keep both elbows tight to your ribcage and recover your arm toward your own centerline rather than pulling it to the outside. If one arm is inside the opponent's legs, immediately push the other arm inside as well or extract the trapped arm before the opponent can capitalize. The triangle specifically requires one arm in and one arm out, so denying this asymmetric configuration eliminates the submission threat regardless of the opponent's hip angle or leg position."
@@ -80,7 +80,7 @@ description: "How to defend against Switch to Triangle in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "At what stage of the triangle switch is defense most effective, and why does effectiveness decrease at each subsequent stage?",
+      "name": "At which stage of the triangle switch is defense most effective, and why do later stages fail?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defense is most effective at the earliest stage - preventing the hip angle change during the initial attack defense. At this point, you have full posture, both arms available, and the opponent has not yet achieved the geometric prerequisites. Once the angle is established, defense becomes harder because the opponent's leverage improves with perpendicular positioning. After the leg crosses the neck, you lose access to posture-based defenses and must rely on grip fighting and stacking. Once the figure-four locks, you are fighting against the full mechanical advantage of their leg muscles compressing your carotid arteries with decreasing time before unconsciousness. Each stage reduces your options and increases urgency."

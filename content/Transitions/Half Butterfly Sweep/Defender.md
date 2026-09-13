@@ -64,7 +64,7 @@ description: "Defend and counter the Half Butterfly Sweep in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why does posting your hand on the mat create new vulnerability even though it stops the immediate sweep?",
+      "name": "Why does posting your hand create new vulnerability even though it stops the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "While the hand post creates an emergency base that blocks the sweep in one direction, it commits your weight to that side and removes one arm from your defensive structure. This creates openings for the opponent to switch to an old school sweep targeting the weakened opposite side, or attack an arm drag to back take on the posted arm. The hand post is an emergency measure that demands immediate follow-up repositioning."
@@ -72,7 +72,7 @@ description: "Defend and counter the Half Butterfly Sweep in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates the sweep with a coordinated hook drive and underhook pull - what is your immediate response?",
+      "name": "They hit a coordinated hook drive and underhook pull—what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sprawl your hips back hard while posting your far hand wide for emergency base. Simultaneously drive your shoulder into their chest to collapse their seated posture and break their structural alignment. Do not resist the elevation force by staying rigid, as this plays into the sweep mechanics. If the sweep is already past the tipping point, flow with the motion and immediately work guard recovery rather than fighting a lost position."
@@ -80,7 +80,7 @@ description: "Defend and counter the Half Butterfly Sweep in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How should you manage weight distribution when your opponent has an active butterfly hook loaded and ready?",
+      "name": "How do you manage your weight when they have a butterfly hook loaded and ready?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your hips low and heavy with weight distributed diagonally away from the butterfly hook side. Your near hip should press into the opponent's body while your far leg provides a wide base post. Avoid committing your center of gravity forward over the butterfly hook, as this is precisely the loading condition the opponent needs. Think of your weight distribution as a tripod resisting force from the sweep direction."

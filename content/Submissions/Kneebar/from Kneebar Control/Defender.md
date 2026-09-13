@@ -84,7 +84,7 @@ description: "Defend against the kneebar from kneebar control position. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your attacker is applying rhythmic hip pulses to break your bent-knee defense - how should you respond?",
+      "name": "The attacker uses rhythmic hip pulses on your bent-knee kneebar defense: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Counter rhythmic hip pulses by timing your hip rotation with their pulses—as they drive forward, rotate your hips toward them to redirect the force away from direct hyperextension. Simultaneously, use your free leg to push against their hip during each pulse to create incremental separation. If their pulses are weakening your defense over time, prioritize immediate escape attempts during the brief relaxation phase between pulses rather than waiting until your hamstring endurance fails completely."

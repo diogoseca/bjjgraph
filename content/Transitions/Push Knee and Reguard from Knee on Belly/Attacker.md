@@ -90,7 +90,7 @@ description: "Learn to execute the push knee and reguard escape from Knee on Bel
     },
     {
       "@type": "Question",
-      "name": "Your opponent responds to your push by sliding their knee across toward mount — how do you prevent this?",
+      "name": "They slide their knee toward mount as you push it off — how do you stop that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert your knee shield immediately as you push. The shin barrier between your bodies prevents the opponent from sliding their knee across to mount. If you feel them shifting toward mount, prioritize the knee shield over completing the guard closure — a knee shield half guard position is far better than ending up in full mount under consolidated control."

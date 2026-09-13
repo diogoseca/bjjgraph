@@ -76,7 +76,7 @@ description: "Master the offensive Standing RNC from Rear Clinch. Learn seatbelt
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly as you begin sliding the choking arm under—what techniques can overcome this defense?",
+      "name": "Standing rear clinch: what beats a tight chin tuck as you slide the choking arm under?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three primary options exist for defeating the chin tuck. First, use your head to apply lateral pressure on the side of their jaw, leveraging your skull against their mandible to pry the chin up and create space for the forearm. Second, walk the opponent backward to force postural extension that naturally lifts their chin as they fight to maintain balance. Third, apply the choke over the chin as a jaw crush—the discomfort forces them to lift their chin to relieve pressure on their mandible, at which point you slide the forearm under. The key is having multiple solutions and reading which one the opponent's body position makes most available."
@@ -92,7 +92,7 @@ description: "Master the offensive Standing RNC from Rear Clinch. Learn seatbelt
     },
     {
       "@type": "Question",
-      "name": "During the standing choke attempt, your opponent grabs your choking wrist with both hands and begins peeling your arm away—how do you proceed?",
+      "name": "Standing RNC: they two-on-one your choking wrist and start peeling, how do you proceed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent commits both hands to a two-on-one grip strip on your choking arm, they have temporarily abandoned other defensive options. Your primary response is to switch arms—release the trapped choking arm, re-establish seatbelt control, and immediately attack with the opposite arm while their hands are still committed to the wrong side. Alternatively, use their hand commitment as an opportunity to transition to a takedown, since with both hands occupied fighting your arm they cannot defend level changes or base breaks. Never engage in a prolonged grip fighting battle on a single arm—switch or change the attack vector."
@@ -100,7 +100,7 @@ description: "Master the offensive Standing RNC from Rear Clinch. Learn seatbelt
     },
     {
       "@type": "Question",
-      "name": "What is the correct position of the forearm blade relative to the opponent's neck for an effective and safe carotid choke?",
+      "name": "Where should the forearm blade sit on the neck for an effective and safe standing RNC?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The radial bone (thumb side) of the forearm should be positioned across the front of the neck with the bony edge pressing against both carotid arteries simultaneously. The crook of the elbow should be approximately centered on the opponent's chin or slightly below it. The wrist should be rotated slightly so the flat of the forearm does not compress the trachea. When properly positioned, the choking arm creates a V-shape around the neck where the forearm presses one carotid and the bicep presses the other, while the trachea sits in the open space of the V. This positioning is both more effective for finishing and significantly safer than tracheal compression."
@@ -108,7 +108,7 @@ description: "Master the offensive Standing RNC from Rear Clinch. Learn seatbelt
     },
     {
       "@type": "Question",
-      "name": "You have the figure-four locked but the opponent is walking forward aggressively, creating space and threatening to break your base—what adjustment maintains finishing pressure?",
+      "name": "Figure-four locked standing but they walk forward and break your base, what keeps the pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting their forward momentum, use it against them by switching to a walk-back finishing strategy. Plant your feet and sit your weight backward, pulling their upper body toward you while maintaining the locked figure-four. Alternatively, step to one side and use angular pressure to redirect their forward drive into a circular path that compromises their base. If forward movement continues to threaten your stability, deliberately sit to the ground while maintaining the choke, pulling guard or establishing hooks as you descend. The transition to ground actually consolidates the submission because you gain the stability of hooks and mat pressure."
@@ -116,7 +116,7 @@ description: "Master the offensive Standing RNC from Rear Clinch. Learn seatbelt
     },
     {
       "@type": "Question",
-      "name": "What physical indicators suggest the choke is effectively compressing the carotid arteries and the opponent may be approaching unconsciousness?",
+      "name": "What signs show your standing RNC is compressing the carotids and unconsciousness is near?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Effective carotid compression produces several observable indicators: the opponent's resistance weakens progressively rather than suddenly, their grip fighting becomes slower and less coordinated, their body may sag or lean as muscle tone decreases, and their breathing pattern may change to shallow or irregular. The face and ears may become flushed or discolored from blood pressure changes. Critically, an effective blood choke often produces little to no coughing or gagging—those symptoms indicate tracheal compression, not carotid restriction. If the opponent suddenly stops all movement or their body goes completely limp, release immediately as unconsciousness has occurred."

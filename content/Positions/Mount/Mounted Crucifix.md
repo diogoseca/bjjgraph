@@ -394,6 +394,14 @@ The mounted crucifix also serves as an excellent teaching position for understan
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Side-Crucifix-System" data-cta="related-system-card" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Side Crucifix System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Comparison position for limb isolation; its mounted orientation differs from a side pin.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

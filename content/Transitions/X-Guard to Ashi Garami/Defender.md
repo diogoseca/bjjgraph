@@ -56,7 +56,7 @@ description: "How to defend against X-Guard to Ashi Transition in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting this transition rather than a standard X-Guard sweep?",
+      "name": "What is the earliest cue that they're going to Ashi Garami rather than sweeping you from X-Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the release of the bottom hook from your hip while the top hook remains engaged above your knee. In a standard X-Guard sweep, both hooks work together to create elevation and directional force. When the bottom hook releases unilaterally, it signals a reconfiguration attempt rather than a sweep. You may also feel the characteristic hip escape movement as they begin creating perpendicular angle. A sweep attempt maintains bilateral hook engagement; a transition attempt creates asymmetric hook configuration. Recognizing this asymmetry within the first second gives you the maximum defensive window."
@@ -64,7 +64,7 @@ description: "How to defend against X-Guard to Ashi Transition in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is pulling your trapped leg backward the worst defensive response, and what should you do instead?",
+      "name": "Why is pulling your trapped leg back the worst Ashi defence, and what should you do instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Backward leg extraction extends your leg into their control zone, shifts your weight onto your back heel, and creates exactly the conditions the attacker needs: an extended leg with accessible heel and a defender whose balance is compromised backward. Instead, drive your knee forward and down to collapse the X-Guard structure and deny them the extended leg they need for Ashi configuration. Forward knee drive shortens the distance between your heel and your hip, making heel control harder, while simultaneously driving pressure into their body that disrupts their hip escape angle. If you must disengage, step laterally rather than pulling straight backward."
@@ -80,7 +80,7 @@ description: "How to defend against X-Guard to Ashi Transition in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established partial Ashi with inside leg across your hip but has not yet secured your heel - what is your best defensive action?",
+      "name": "They have the inside leg across your hip but no heel control yet—what is your best defence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately address the heel. Tuck your foot behind your own buttock by bending your knee maximally, making your heel as inaccessible as possible. Simultaneously use both hands to control their wrists or forearms, preventing them from reaching your heel. From this defensive shell, work to clear their inside leg from your hip by pushing it down and stepping over. Without heel control, the Ashi position lacks finishing capability, buying you time to systematically deconstruct their leg configuration. Do not attempt to stand or posture up, as this extends your leg and exposes the heel."
@@ -88,7 +88,7 @@ description: "How to defend against X-Guard to Ashi Transition in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive strategy when facing an opponent who threatens both sweeps and Ashi entries from X-Guard?",
+      "name": "How do you defend an X-Guard player threatening both sweeps and Ashi entries?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The dual-threat system creates a dilemma where defending sweeps (staying heavy forward) enables Ashi entries, and defending Ashi (pulling leg back) enables sweeps. The solution is to avoid both extremes by maintaining a moderate forward-leaning posture with active grip fighting. Rather than committing to one defensive strategy, stay mobile and address each threat as it presents. Specifically, maintain moderate forward pressure with wide base to resist sweeps, keep your knee bent with heel retracted to deny Ashi entries, and use grip fighting to prevent your opponent from establishing the controls needed for either attack. The goal is to keep them in X-Guard without allowing them to develop any one attack to completion."

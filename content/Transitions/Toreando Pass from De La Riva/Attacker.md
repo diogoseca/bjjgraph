@@ -98,7 +98,7 @@ description: "Complete attacking guide for the Toreando Pass from De La Riva Gua
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-establishes their DLR hook immediately after you strip their ankle grip. How do you adjust?",
+      "name": "They re-establish the DLR hook right after you strip their ankle grip: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not force the pass through an active hook. Instead, restart the grip strip and hook removal sequence, recognizing that the opponent's re-hook was faster than your transition. Increase your tempo by combining the grip strip and hook clear into one flowing motion rather than treating them as separate steps. Consider changing to a backstep method for hook removal, as it physically removes your leg from the hook's reach rather than trying to collapse it in place."

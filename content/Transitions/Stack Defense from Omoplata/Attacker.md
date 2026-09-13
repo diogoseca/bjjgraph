@@ -90,7 +90,7 @@ description: "Master the attacker perspective for stack defense from omoplata. L
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far hand wide during the stack attempt to prevent the sweep—how do you adjust your defense?",
+      "name": "They post their far hand wide against your omoplata stack—how do you adjust from the bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts wide with their far hand, they are creating base to prevent the lateral sweep. Adjust by increasing your pull on their belt or hip to break their posting arm's connection to the mat. Alternatively, use your free hand to attack their posting arm by grabbing the wrist to remove the post or threading for an underhook that eliminates their base. The wide post means their weight is forward and vulnerable to a strong lateral redirection once you remove their posting support."

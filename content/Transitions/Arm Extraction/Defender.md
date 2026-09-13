@@ -56,7 +56,7 @@ description: "How to defend against Arm Extraction in BJJ. Recognition cues, def
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is beginning an arm extraction attempt from bottom side control?",
+      "name": "What is the earliest cue that bottom side control is starting an arm extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player beginning to rotate their trapped-side shoulder upward and away from the mat, even by just a few degrees. This subtle shoulder rotation precedes the actual arm extraction by several movements and indicates they are creating the space pathway needed to thread their elbow through. You may also feel a change in their body tension—increased rigidity in their frames combined with small hip adjustments that signal a deliberate escape sequence is beginning. Recognizing this early allows you to apply counter-pressure before meaningful space is created."
@@ -64,7 +64,7 @@ description: "How to defend against Arm Extraction in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Why is transitioning to mount during an arm extraction attempt often more effective than simply trying to maintain side control?",
+      "name": "Why is taking mount during their arm extraction better than just holding side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the bottom player creates space for arm extraction, they are simultaneously creating the space you need to transition to mount. Their shrimping motion moves their hips away from you, which opens the pathway for your leg to step over. Attempting to maintain side control against strong frames requires constant energy expenditure and is a holding action at best. Transitioning to mount converts their escape energy into your positional advancement, puts them in a worse position than they started, and scores additional points in competition. The key is timing the step-over to coincide with their hip escape movement."
@@ -72,7 +72,7 @@ description: "How to defend against Arm Extraction in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a strong frame against your shoulder and is beginning to rotate—what is your immediate priority?",
+      "name": "They frame strongly on your shoulder and start rotating. What is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to eliminate the frame before it becomes load-bearing. Drive your crossface shoulder into their neck and face while simultaneously sprawling your hips low and heavy against their hips. This dual pressure from above (crossface) and below (hip pressure) collapses the space their frame is trying to create. If the frame is already too strong to collapse directly, switch your approach: either transition to north-south to change the angle and render their frame ineffective, or step over to mount using the space their frame created. Never engage in a static pushing contest against a well-established frame—change the angle or change the position."
@@ -80,7 +80,7 @@ description: "How to defend against Arm Extraction in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the bottom player from inserting their knee after they have partially extracted their arm?",
+      "name": "How do you stop the bottom player inserting a knee after partly extracting their arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once partial extraction occurs, your near-side hand must immediately drop to control their far-side hip, blocking the hip escape that precedes knee insertion. Simultaneously drive your hips forward and low, closing the gap between your hips and theirs that the knee needs to pass through. If their knee is already beginning to enter, use your own knee to pin their thigh to the mat and prevent the shield from establishing. The critical principle is denying hip escape—without the shrimping motion, they cannot create the angle needed to insert their knee regardless of arm position."
@@ -88,7 +88,7 @@ description: "How to defend against Arm Extraction in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "When is it appropriate to abandon side control maintenance and instead attack submissions during opponent's escape attempt?",
+      "name": "When should you leave side control maintenance and attack a submission during their escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack submissions when your opponent's escape movements expose their arms in vulnerable positions—specifically when their arm is mid-extraction and extended between bodies, or when they push with extended arms creating isolation opportunities. The americana is available when their near-side arm pushes against your neck with the elbow flared. The kimura presents when they reach across their body during the threading motion. The arm triangle becomes available when their far arm crosses their own neck during framing. The key timing indicator is when they commit their arm to a specific escape pathway—this commitment temporarily fixes the arm in a position you can attack before they complete the extraction."

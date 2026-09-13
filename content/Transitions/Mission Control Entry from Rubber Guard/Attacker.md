@@ -74,7 +74,7 @@ description: "Execute the Mission Control entry from Rubber Guard with precise g
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the grip transition from rubber guard to Mission Control?",
+      "name": "When is the best moment to switch grips from rubber guard into Mission Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is immediately after deepening the posture break when the opponent's head is pulled maximally toward your chest and their weight is loaded forward onto the trapped shoulder. This moment provides the longest reaction time during the grip switch because the opponent must first recover posture before they can defend the transition. Attempting the switch while the opponent is actively fighting posture creates a contested vulnerability window."
@@ -90,7 +90,7 @@ description: "Execute the Mission Control entry from Rubber Guard with precise g
     },
     {
       "@type": "Question",
-      "name": "What is the single most critical mechanical detail that determines whether Mission Control will hold or collapse?",
+      "name": "Which mechanical detail most determines whether Mission Control holds or collapses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip depth on the shin. The overhook must secure the shin just below the knee rather than grabbing shallowly at the ankle or foot. A deep shin grip creates strong shoulder isolation through leverage, whereas a shallow ankle grip provides insufficient mechanical advantage and slips under defensive pressure. The difference between a locked Mission Control and a collapsing one is often the 6-8 inches of grip depth difference."

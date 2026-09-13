@@ -84,7 +84,7 @@ description: "How to execute Hook Sweep from Butterfly Guard in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their right hand to the mat as you attempt a hook sweep to your left. What are your best options?",
+      "name": "They post their right hand as you hook sweep left: what are your best options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts to stop the sweep, three high-percentage responses are available. First, switch to sweeping the opposite direction because their posted hand has removed base from the right side. Second, attack the posted arm with a kimura grip since it is extended and weight-bearing, making it vulnerable to shoulder lock isolation. Third, use the committed post as an arm drag entry point to take the back, since the opponent cannot retract the arm without being swept. The key principle is recognizing the post as an opportunity rather than a complete defensive success."
@@ -108,7 +108,7 @@ description: "How to execute Hook Sweep from Butterfly Guard in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "Why does deep hook placement near the hip crease produce more sweeping power than a shallow hook near the knee?",
+      "name": "Why does a hook at the hip crease sweep better than a shallow hook near the knee?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Deep hook placement near the hip crease positions your lifting force close to the opponent's center of gravity, allowing you to control and displace their mass efficiently. A shallow hook near the knee creates a much longer moment arm between the force application point and the opponent's center of mass, meaning you must generate significantly more force to achieve the same rotational effect. Additionally, deep hooks are mechanically more secure because the thigh narrows toward the knee, making shallow hooks prone to slipping off during explosive movements. Deep placement also traps the opponent's hip mobility, preventing them from sprawling backward to neutralize the sweep."

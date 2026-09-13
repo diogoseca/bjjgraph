@@ -4,7 +4,7 @@
 
 ---
 title: "Danaher Straight Jacket System | BJJ System | BJJ Graph"
-description: "Master systematic back control progression from seat belt to straight jacket configuration. Comprehensive framework for upper body immobilization and submission chains."
+description: "Covers back alignment, hand fighting, straightjacket control and transitions into rear strangles. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master systematic back control progression from seat belt to strai
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Danaher Straight Jacket System",
-  "description": "Master systematic back control progression from seat belt to straight jacket configuration. Comprehensive framework for upper body immobilization and submission chains.",
+  "description": "Covers back alignment, hand fighting, straightjacket control and transitions into rear strangles. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Danaher-Straight-Jacket-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -140,7 +140,7 @@ description: "Master systematic back control progression from seat belt to strai
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Danaher Straight Jacket System",
-  "description": "The Danaher Straight Jacket System is John Danaher's systematic back-attack framework that progressively immobilizes the opponent's upper body—seat belt to gift wrap to crossed-arm straight jacket—stripping away all hand defense before finishing with the rear naked choke.",
+  "description": "Reaching the back is the start of the exchange.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -159,13 +159,11 @@ description: "Master systematic back control progression from seat belt to strai
 
 ## What is Danaher Straight Jacket System?
 
-**The Danaher Straight Jacket System is John Danaher's systematic back-attack framework that progressively immobilizes the opponent's upper body—seat belt to gift wrap to crossed-arm straight jacket—stripping away all hand defense before finishing with the rear naked choke.**
+**Reaching the back is the start of the exchange.**
 
-The Danaher Straight Jacket System represents one of the most comprehensive and systematically developed back control frameworks in modern Brazilian Jiu-Jitsu. Developed by renowned coach John Danaher, this system transforms the traditional back mount position into a multi-layered control hierarchy that progressively eliminates opponent defensive options while creating high-percentage submission opportunities. Unlike conventional back attack approaches that focus primarily on the rear naked choke, the Straight Jacket System emphasizes upper body immobilization through strategic grip configurations that severely restrict opponent hand fighting capabilities.
+Reaching the back is the start of the exchange. This system connects chest-to-back alignment, hand fighting and arm trapping so that control can survive an opponent’s escape attempts. Work on retaining the position before adding the strangle.
 
-The system's name derives from its primary control mechanism: a specific arrangement of grips and body positioning that mirrors the restrictive effect of a strait jacket, systematically removing the opponent's ability to defend their neck or create escape opportunities. This methodology integrates seamlessly with Danaher's broader back attack philosophy, which prioritizes positional dominance and control point hierarchy over opportunistic submission attempts. The framework includes detailed protocols for initial back take entries, progressive control consolidation, defensive hand neutralization, and systematic submission sequences that flow logically from the established control position.
-
-What distinguishes the Straight Jacket System from other back attack approaches is its emphasis on creating true dilemmas for opponents - every defensive action opens a specific offensive opportunity, and every escape attempt can be converted into submission leverage. The system has proven particularly effective in high-level competition, where opponents possess sophisticated back defense knowledge. By understanding and implementing the Straight Jacket principles, practitioners develop the ability to maintain back control against increasingly resistant opponents while creating finishing opportunities with remarkable consistency across different body types and resistance levels.
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -174,15 +172,37 @@ What distinguishes the Straight Jacket System from other back attack approaches 
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Danaher Straight Jacket System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 28 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="back-attacks-enter-the-system-by-john-danaher">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">Back Attacks Enter The System</h3>
+<p class="product-card__instructor">with John Danaher</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students who reach the back but lose control while trying to finish.</p>
+<p class="product-card__blurb">Covers back alignment, hand fighting, straightjacket control and transitions into rear strangles.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=danaher-straight-jacket-system&utm_term=back-attacks-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="back-attacks-enter-the-system-by-john-danaher" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -301,6 +321,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Begin with alignment and the roles of the strangle hand and control hand, then study arm trapping.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=danaher-straight-jacket-system&utm_term=back-attacks-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="back-attacks-enter-the-system-by-john-danaher" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Back Attacks Enter The System &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -414,5 +445,16 @@ The Straight Jacket System requires progressive drilling that emphasizes muscle 
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Start from back control and give your partner one escape direction. Keep chest-to-back connection before adding hand fighting.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=danaher-straight-jacket-system&utm_term=back-attacks-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="back-attacks-enter-the-system-by-john-danaher" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Back Attacks Enter The System &rarr;</a></p>
+</section>
+
+
 
 </main>

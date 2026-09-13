@@ -90,7 +90,7 @@ description: "Defend the toe hold from Toe Hold Control. Complete guide to recog
     },
     {
       "@type": "Question",
-      "name": "What defensive opportunities are created when the attacker momentarily loosens their grip to transition to a different leg lock?",
+      "name": "Toe hold control: what escape opportunity opens when the attacker loosens grip to switch attacks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip transitions create a critical escape window because the attacker must partially release the figure-four to reconfigure for the new attack. Use this moment to immediately establish inside position on their leg through counter-entanglement, or work rapid guard recovery to open guard with defensive hooks. This grip loosening during transitions is often the best escape opportunity available—recognize and exploit it immediately rather than waiting for the attacker to settle into a new control position where escape will be harder."

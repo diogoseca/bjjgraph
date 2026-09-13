@@ -78,7 +78,7 @@ description: "How to execute Rolling Omoplata in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What are the key differences between a rolling omoplata and a traditional static omoplata in terms of setup and execution?",
+      "name": "How does the rolling omoplata differ from the traditional omoplata in setup and execution?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The rolling omoplata is initiated from dynamic scrambles, transitions, or failed sweeps rather than established guard positions. It involves a rolling motion (similar to a granby roll) to capture the opponent's arm during movement, whereas the traditional omoplata is set up from static positions like closed guard or spider guard with deliberate leg positioning. The rolling version requires better timing and spatial awareness because both grapplers are in motion. The rolling omoplata often captures posting arms during scrambles, while the traditional version usually attacks arms that are already controlled in guard. The dynamic momentum of the rolling version makes it harder to defend once initiated, but also requires more technical precision to execute correctly."
@@ -86,7 +86,7 @@ description: "How to execute Rolling Omoplata in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "If your opponent begins rolling forward through your rolling omoplata attempt, what should you do and why?",
+      "name": "Your opponent rolls forward through your rolling omoplata attempt—what do you do and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your outside hand on the mat and redistribute your weight to block their forward momentum while maintaining hip pressure on their shoulder. If they successfully complete the roll, follow through and transition to back control, as you'll be in position to take their back. The key is not to resist their momentum entirely but to control it and ensure you maintain a dominant position. Never try to force the omoplata if they're successfully rolling through, as this can create awkward angles and injury risk. Following their momentum to back control creates a seamless offensive transition and maintains your attacking position."
@@ -94,7 +94,7 @@ description: "How to execute Rolling Omoplata in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "Why is controlling the opponent's head with your leg critical in the Rolling Omoplata, and what happens if you neglect this detail?",
+      "name": "Why is leg control of the head critical in the rolling omoplata, and what happens if you neglect it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg across the head prevents the opponent from turning into the submission (internal rotation of the shoulder), which is one of the primary escapes from omoplata positions. Without head control, the opponent can rotate their body toward you, reducing the shoulder lock pressure and potentially escaping to a neutral or top position. The head control also prevents them from posturing up and creating the space needed to extract their arm. Additionally, this leg breaking their posture downward increases the effectiveness of the shoulder pressure by maintaining the proper angle. Neglecting head control typically results in an easy escape or even a reversal."
@@ -102,7 +102,7 @@ description: "How to execute Rolling Omoplata in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What should you immediately do if your training partner taps during the rolling motion before you've completed the position?",
+      "name": "What should you do if your partner taps during the roll before the omoplata position is complete?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately stop all rolling motion and release leg pressure on their shoulder and head. Do not complete the roll or attempt to 'finish' the position. Extend your hips backward to create space and allow them to safely extract their arm. The tap during the rolling motion indicates they feel vulnerable to injury from the momentum or angle, and continuing could cause serious shoulder damage. After releasing, check on your partner's shoulder mobility and comfort level before continuing training. This situation emphasizes the importance of controlled, telegraphed rolling motion in training rather than explosive or surprise entries."
@@ -110,7 +110,7 @@ description: "How to execute Rolling Omoplata in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What type of flexibility and mobility is required for the Rolling Omoplata, and what are the risks of attempting it without adequate preparation?",
+      "name": "What mobility does the rolling omoplata require, and what are the risks of attempting it without it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The technique requires excellent hip mobility for the inverted rolling motion, similar to granby rolls or other inversion techniques. You need sufficient lower back flexibility to control your body position throughout the roll, and shoulder mobility to maintain arm control while your own body rotates. Hamstring flexibility helps with leg positioning around the opponent's head and shoulder. Attempting this technique without adequate mobility can result in incomplete rolls that leave you in vulnerable positions, inability to generate the proper angle for the submission, or even injury to your own lower back, hips, or neck from forced positioning. The rolling motion under load requires body awareness that comes from progressive flexibility development, not forced attempts."

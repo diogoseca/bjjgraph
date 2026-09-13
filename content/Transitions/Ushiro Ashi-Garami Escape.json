@@ -246,7 +246,7 @@
         }
       },
       {
-        "question": "Why must you control the opponent's inside knee throughout the escape, and what happens if you neglect it?",
+        "question": "Why control their inside knee throughout the ushiro ashi-garami escape, and what if you don't?",
         "answer": "The inside knee is the gateway to saddle and honey hole transitions. If you neglect it while clearing the outside leg, the opponent can step their inside leg through to establish saddle position, which is a significantly worse entanglement than ushiro. Maintaining inside knee control with at least one hand prevents this positional advancement and keeps the escape path viable throughout the extraction sequence.",
         "answer_line": "Control inside knee vs saddle",
         "distractors": {
@@ -260,7 +260,7 @@
         }
       },
       {
-        "question": "Your opponent begins accelerating their heel hook grip as you start clearing their outside leg—how do you adjust?",
+        "question": "Escaping ushiro ashi-garami, they accelerate their heel hook grip as you clear the outside leg?",
         "answer": "Immediately pause outside leg clearing and redirect both hands to strip the heel hook grip, breaking it at the thumbs or peeling their fingers. If the grip is too deep to strip safely, abandon the direct extraction and commit to a Granby roll through turtle to clear both legs through rotational momentum. Never continue a slow extraction against an active finishing grip—either neutralize the grip or change the escape path entirely.",
         "answer_line": "Strip grip or Granby to turtle",
         "distractors": {
@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "Your opponent's outside leg re-crosses over your knee after you initially cleared it—what went wrong and how do you prevent this?",
+        "question": "Their outside leg re-crosses your knee after you cleared it: why, and how do you prevent it?",
         "answer": "The re-cross occurs because the pushing frame on their hip was released prematurely or your knee angle allowed them to recapture. Prevent it by maintaining the free leg pushing frame throughout clearing and angling your trapped knee inward toward your own centerline rather than leaving it neutral. The inward knee angle creates a smaller target for re-crossing while the sustained push keeps their legs at maximum distance.",
         "answer_line": "Keep push frame, angle knee in",
         "distractors": {
@@ -330,7 +330,7 @@
         }
       },
       {
-        "question": "When your escape is blocked and the opponent begins transitioning to saddle, what is the optimal emergency response?",
+        "question": "Ushiro ashi-garami escape blocked and they start entering saddle: what is your emergency response?",
         "answer": "Immediately commit to a Granby roll toward turtle rather than fighting the saddle entry. Once the opponent begins stepping through for saddle, you have a narrow window where rotational escape is still possible before they lock the configuration. Trying to reverse the saddle entry by pushing their leg back is lower percentage than using the rotation already built into your inversion to complete the roll through to turtle, where the entanglement geometry breaks down.",
         "answer_line": "Granby roll to turtle now",
         "distractors": {
@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "What is the critical difference between escaping ushiro ashi-garami versus standard ashi-garami positions?",
+        "question": "What key difference separates escaping ushiro ashi-garami from standard ashi-garami?",
         "answer": "In ushiro, your hips are already inverted from a prior escape attempt, which changes the available leverage angles for both defender and attacker. Standard ashi-garami escape relies heavily on hip movement away from the entanglement, but in ushiro your hips face the opposite direction, making continued rotation (Granby roll) more natural than reversing the inversion. The reversed configuration also changes which of the opponent's legs is the primary threat—the inside leg becomes the saddle transition danger rather than just a secondary control point.",
         "answer_line": "Hips inverted, favors Granby",
         "distractors": {
@@ -485,7 +485,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the most reliable indicator that your opponent is about to begin the outside leg clearing phase of their escape?",
+        "question": "What cue shows your opponent is starting the outside leg clearing phase of their ushiro escape?",
         "answer": "The most reliable indicator is when the opponent places their free foot on your hip or inner thigh to establish a pushing frame while simultaneously gripping your inside knee with both hands. This combination signals they are about to initiate the distance creation and hip rotation needed to peel your outside leg off their trapped knee. Attack their heel or drive your hips forward immediately when you detect this setup.",
         "answer_line": "Foot on hip + both hands on knee",
         "distractors": {
@@ -499,7 +499,7 @@
         }
       },
       {
-        "question": "Your outside leg cross has been cleared but your inside leg still controls their thigh deeply—what is the highest-percentage response?",
+        "question": "Your outside leg cross is cleared but your inside leg still has their thigh: best response?",
         "answer": "Immediately transition to saddle by stepping your inside leg through to the far side of their trapped thigh. This is the optimal response because the inside leg already has the deep control needed for saddle entry, and the cleared outside leg creates the space for the step-through. Saddle is a positional upgrade from ushiro with higher submission finishing rates. Attempting to re-establish the outside leg cross is lower percentage than completing the saddle transition.",
         "answer_line": "Step inside leg through to saddle",
         "distractors": {
@@ -513,7 +513,7 @@
         }
       },
       {
-        "question": "How do you exploit the moment when your opponent shifts both hands from heel protection to inside knee control?",
+        "question": "They move both hands from heel defense to your inside knee: how do you exploit that moment?",
         "answer": "When both hands leave heel defense to grip your inside knee, their dorsiflexion often weakens as their attention splits between multiple tasks. This creates a window to accelerate your heel hook attack with both hands while their foot protection is compromised. Secure a deep grip on the heel and begin the rotational finish before they can redirect a hand back to defense. The opponent cannot effectively fight your inside knee and protect their heel simultaneously.",
         "answer_line": "Attack heel while hands split",
         "distractors": {
@@ -527,7 +527,7 @@
         }
       },
       {
-        "question": "Your opponent commits to a Granby roll during the escape—should you maintain the entanglement or follow to back control?",
+        "question": "They commit to a Granby roll escaping ushiro: hold the entanglement or follow to the back?",
         "answer": "Follow to back control rather than fighting the roll. A committed Granby roll generates rotational momentum that progressively degrades the figure-four entanglement regardless of how tightly you hold. Following the rotation maintains chest-to-back contact and allows you to transition into a back take pursuit where you can establish hooks and harness control. Stubbornly holding the leg entanglement against rolling momentum typically results in losing both the entanglement and positional access.",
         "answer_line": "Follow roll, take the back",
         "distractors": {
@@ -541,7 +541,7 @@
         }
       },
       {
-        "question": "What hip pressure adjustment prevents the opponent's pushing frame from generating effective extraction distance?",
+        "question": "What hip pressure stops their foot-on-hip frame from creating extraction distance in ushiro?",
         "answer": "Drive your hips forward and downward toward the opponent's trapped leg rather than allowing their foot-on-hip push to create separation. This forward pressure collapses the space between your lower body and theirs, reducing the effectiveness of their pushing frame by shortening its lever arm. Simultaneously, angle your hips slightly toward their trapped leg side to load weight through the entanglement. The key is proactive pressure rather than reactive holding.",
         "answer_line": "Drive hips forward, load weight",
         "distractors": {

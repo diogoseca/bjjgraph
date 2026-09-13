@@ -98,7 +98,7 @@ description: "Complete attacker's guide to the Feet on Hips Tripod Sweep. Step-b
     },
     {
       "@type": "Question",
-      "name": "Your tripod sweep attempt fails and your opponent does not fall - what is the most likely mechanical error?",
+      "name": "Your tripod sweep fails and they stay standing: what is the likely mechanical error?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common mechanical failure is poor timing of the three-point attack. If the hip push, ankle hook, and hand grip do not engage simultaneously, the opponent has time to adjust their base between each force application. Typically the push arrives before the ankle controls are fully set, giving the opponent a free leg to step backward and recover. The fix is ensuring all three forces fire at the same instant rather than sequentially."

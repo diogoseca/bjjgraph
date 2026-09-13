@@ -56,7 +56,7 @@ description: "How to defend against the High Mount Transition from Gogoplata Con
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most important recognition cue that the attacker is transitioning from gogoplata to mount?",
+      "name": "What is the key cue that they are leaving the gogoplata to take mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable cue is the release of the foot from behind your head combined with decreasing shin pressure on the throat. When both of these occur simultaneously, the attacker has committed to the positional transition. Their hand releasing their own ankle is the earliest visual indicator, followed by the hip escape movement."
@@ -72,7 +72,7 @@ description: "How to defend against the High Mount Transition from Gogoplata Con
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the gogoplata and you successfully frame on their hips - what should your next action be?",
+      "name": "They release the gogoplata and you frame on their hips — what is your next action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately posture up and create maximum distance while the attacker is still on bottom without established grips. Drive your weight back through your hips, straighten your spine, and work to disengage from the guard entirely. Do not stay in close range where they can re-establish rubber guard or transition to triangle. Create enough space to begin a guard pass or reset to a neutral standing position."
@@ -80,7 +80,7 @@ description: "How to defend against the High Mount Transition from Gogoplata Con
     },
     {
       "@type": "Question",
-      "name": "When is trapping the leg for half guard recovery a better option than framing to prevent mount entirely?",
+      "name": "When is trapping the leg for half guard better than framing to stop the mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Trap the leg when the attacker has already cleared the hip escape and their leg is actively swinging over your body, making hip frames insufficient to stop the mount. At this stage, framing is too late to prevent mount but the leg is crossing your centerline where it can be caught. Half guard recovery becomes the realistic best-case outcome when the initial defensive window has passed."

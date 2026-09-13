@@ -56,7 +56,7 @@ description: "Complete guide to preventing clinch breaks in BJJ. Learn grip main
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "The opponent begins stripping your collar tie with a two-on-one grip break - how do you prevent the clinch break before it starts?",
+      "name": "They two-on-one strip your collar tie: how do you stop the clinch break before it starts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to an alternative control point rather than fighting to maintain the collar tie against a two-on-one break. Switch to an underhook on the same side or a body lock before the grip strip is complete, maintaining at least one strong anchor point throughout the transition. The goal is to never have zero connections to the opponent, so transitioning grips proactively is more effective than defending a grip that is being systematically removed."
@@ -72,7 +72,7 @@ description: "Complete guide to preventing clinch breaks in BJJ. Learn grip main
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully creates two feet of separation during a break attempt but has not yet circled to create an angle - what immediate action prevents full disengagement?",
+      "name": "They break the clinch to two feet of separation but haven't circled yet - what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward immediately with a penetration step toward their centerline, closing the gap before they can circle. Reach for their collar, wrist, or elbow with an extended hand to re-establish a connection point, then use that grip to pull yourself back into clinch range. Speed is critical because the window between initial separation and angle creation is approximately one to two seconds. If they begin circling before you close, cut off their circle direction by stepping laterally toward the side they are moving to rather than chasing behind them."
@@ -80,7 +80,7 @@ description: "Complete guide to preventing clinch breaks in BJJ. Learn grip main
     },
     {
       "@type": "Question",
-      "name": "How do you adjust your clinch strategy against an opponent who repeatedly attempts clinch breaks throughout the match?",
+      "name": "How do you adapt your clinch game against someone who keeps attempting clinch breaks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tighten your grip configurations earlier in each clinch engagement and prioritize body lock or double underhook controls that are harder to frame against. Vary your counters between snap-downs, forward pressure, and level changes so the opponent cannot predict your response. Consider using their break tendencies offensively by timing takedown entries to coincide with their backward weight shifts, converting their escape attempts into your offensive entries. An opponent who is focused on breaking the clinch is often vulnerable to takedowns because their attention is on separation rather than takedown defense."

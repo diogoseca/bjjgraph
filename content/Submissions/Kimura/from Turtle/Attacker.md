@@ -76,7 +76,7 @@ description: "How to execute Kimura from Turtle in BJJ. Attacking perspective wi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum time frame you should use when applying rotational pressure during the Kimura from turtle in training, and why is this critical?",
+      "name": "How slowly should you apply Kimura rotation from turtle in training, and why does that matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must apply rotational pressure slowly and progressively over a minimum of 3-5 seconds in training. This is critical because the shoulder joint is extremely vulnerable to injury, and explosive or rapid application can cause rotator cuff tears, shoulder dislocation, or labrum damage before your partner can safely tap. The slow application allows your partner time to recognize the danger, make the decision to tap, and signal submission before injury occurs. In training, the goal is technical development and safety, not speed of submission."
@@ -84,7 +84,7 @@ description: "How to execute Kimura from Turtle in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What are the proper immediate steps to take when your training partner taps to the Kimura from turtle?",
+      "name": "Your partner taps to the Kimura from turtle. What are the proper immediate steps?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upon recognizing any tap signal (verbal, hand tap, foot tap, or distress signal), you must immediately: (1) Stop all rotational pressure on the shoulder while maintaining grip control; (2) Maintain the positional control while releasing rotational torque; (3) Gently lower the arm back to neutral position; (4) Slowly release the figure-four grip; (5) Allow your partner to move their shoulder freely and assess condition; (6) Check verbally with your partner before continuing training. Never release abruptly or allow the arm to snap back, as this can also cause injury."
@@ -92,7 +92,7 @@ description: "How to execute Kimura from Turtle in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Kimura from turtle attack, and what makes the shoulder particularly vulnerable to this submission?",
+      "name": "What does the Kimura from turtle attack anatomically, and why is the shoulder so vulnerable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Kimura attacks the shoulder joint complex, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral joint, the glenoid labrum, and associated ligaments. The shoulder is particularly vulnerable because it sacrifices stability for mobility - it has the greatest range of motion of any joint in the body but relies primarily on soft tissue structures rather than bony architecture for stability. The figure-four grip creates a powerful lever that rotates the humerus against these structures, applying force that exceeds their tensile strength if proper control isn't maintained."
@@ -100,7 +100,7 @@ description: "How to execute Kimura from Turtle in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to keep the opponent's elbow tight to your body during the Kimura from turtle, and what happens if you allow space?",
+      "name": "Attacking the Kimura from turtle, why keep their elbow tight to you, and what if space opens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keeping the opponent's elbow tight to your ribcage throughout the submission is critical because this connection creates the leverage needed for the shoulder lock and maintains structural integrity of the position. If you allow the elbow to float away from your body, you lose leverage immediately, making the submission weak and easily defendable. The opponent can then use the space to turn their body, relieve pressure on the shoulder, or completely escape the submission. The elbow-to-body connection is what transforms the figure-four grip into an effective submission mechanism rather than just a controlling grip."
@@ -108,7 +108,7 @@ description: "How to execute Kimura from Turtle in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Describe the optimal body angle when attacking the Kimura from turtle and explain why this positioning is superior to attacking from directly behind the opponent?",
+      "name": "Kimura from turtle: what body angle is best, and why is it better than from directly behind?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal body angle is approximately 45-90 degrees perpendicular to the opponent's torso, rather than directly behind them. This perpendicular positioning provides several advantages: (1) Better access to thread your arm under theirs and establish the figure-four grip; (2) Superior leverage for applying rotational pressure to the shoulder; (3) Better ability to prevent them from rolling forward or standing up to escape; (4) Easier to maintain chest-to-shoulder contact throughout the submission; (5) Creates better angle for using body weight and hip pressure to control their posture. Attacking from directly behind makes grip establishment difficult, reduces leverage, and allows opponent to easily roll forward or stand to escape."
@@ -116,7 +116,7 @@ description: "How to execute Kimura from Turtle in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What should you do if your opponent secures a defensive grip on their own gi or belt while you're attempting the Kimura from turtle?",
+      "name": "They grip their own gi or belt against your Kimura from turtle. How should you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent secures a defensive grip on their gi or belt, you should recognize this as an effective defense and respond appropriately rather than forcing through with excessive pressure. Options include: (1) Use your free hand to methodically strip their defensive grip; (2) Adjust your angle or increase hip pressure to make maintaining the grip painful or untenable; (3) Use body weight and positional pressure to force them to release the grip to defend their base; (4) Transition to a different attack (such as taking the back or establishing crucifix control) while maintaining your dominant position. Never use explosive or excessive force to overcome the defensive grip, as this significantly increases injury risk and violates training safety protocols."

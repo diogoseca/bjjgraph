@@ -64,7 +64,7 @@ description: "Defend the knee slice pass from seated guard in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent's knee has already landed across your thigh and they are driving forward - what is your highest-priority action?",
+      "name": "Their knee has landed across your thigh and they drive forward: what is your top priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is preventing the crossface from settling. Use your near-side forearm to frame against their neck or shoulder, turning their head away or preventing them from driving their shoulder across your jaw. Without the crossface, you can still turn into them, fight for the underhook, and initiate sweeps from half guard. If the crossface establishes before you frame, you will be flattened on your back with severely limited offensive and defensive options."
@@ -72,7 +72,7 @@ description: "Defend the knee slice pass from seated guard in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is the underhook the most critical grip to establish when defending in half guard after a knee slice entry?",
+      "name": "After a knee slice entry, why is the underhook the most critical grip in half guard bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The underhook on the trapped-leg side provides the primary offensive pathway for sweeps, back takes, and guard recoveries from half guard. Without it, you are relegated to purely defensive framing while the passer methodically works through to side control. With the underhook, you threaten the old school sweep, the back take from half guard, and the dogfight position, all of which force the passer to defend rather than advance. The underhook transforms your position from survival mode to active attack mode."
@@ -80,7 +80,7 @@ description: "Defend the knee slice pass from seated guard in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "When is the optimal timing to attempt a technical standup against a knee slice attempt from seated guard?",
+      "name": "In seated guard, when is the best timing to technical standup against a knee slice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing is during the grip-fighting phase before the passer has established both collar and pants grips. Once they control your collar, the standup becomes significantly harder because they can snap you back down. The best window opens when the passer is reaching for their second grip since they are momentarily off-balance and committed to the grip fight, giving you a clean window to post and stand. Attempting the standup after the passer has committed their weight forward risks being snapped down to front headlock."

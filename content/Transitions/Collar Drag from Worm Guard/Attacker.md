@@ -74,7 +74,7 @@ description: "Execute the collar drag from worm guard to achieve front headlock 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why does the worm guard lapel wrap make the collar drag significantly more effective than the same drag from standard open guard?",
+      "name": "Why is the collar drag stronger from worm guard than from standard open guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lapel wrap immobilizes the opponent's lead leg, preventing them from stepping backward to resist the forward pulling force. In standard open guard, the opponent can simply step back when pulled, absorbing the drag energy. With the leg trapped by the lapel, their only options are to post with their hands or try to strip the grip, both of which create exploitable reactions for the attacker."
@@ -98,7 +98,7 @@ description: "Execute the collar drag from worm guard to achieve front headlock 
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts both hands on the mat as you execute the collar drag - how do you capitalize on this defensive response?",
+      "name": "They post both hands as you collar drag from worm guard: how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both hands posting on the mat means the opponent has no hands available to defend their neck or control your body. Continue the drag motion while circling to the side to establish front headlock. Their posted hands actually help you because they cannot frame against your sit-up or control your head. Once you arrive at front headlock, their posted position is already the bent-over posture you need them in for choke attacks."

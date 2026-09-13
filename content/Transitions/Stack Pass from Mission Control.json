@@ -270,7 +270,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their hips for an omoplata as you initiate the stack—how do you respond?",
+        "question": "They start rotating their hips for an omoplata as you stack: how do you respond?",
         "answer": "Immediately squeeze your elbows even tighter and pull your trapped arm across your body toward the opposite hip to prevent the arm from being isolated. If the rotation continues, posture up and circle toward their head to extract the arm before they can flatten you. The key is recognizing the hip rotation early—once the omoplata is fully locked, escape becomes much harder.",
         "answer_line": "Squeeze elbows, pull arm across",
         "distractors": {
@@ -326,7 +326,7 @@
         }
       },
       {
-        "question": "Your opponent successfully shrimps away during the stack and begins re-establishing grips—what is your adjustment?",
+        "question": "They shrimp away during your stack and re-grip Mission Control: what do you do?",
         "answer": "If they create enough distance to re-establish Mission Control grips, abandon the stack attempt and immediately switch to posture recovery as your primary escape strategy. Continuing to chase a failed stack attempt wastes energy and gives them time to re-establish full control. Recognize when the stack has lost its effectiveness and transition to alternative escapes rather than forcing a defended technique.",
         "answer_line": "Abandon stack, recover posture",
         "distractors": {
@@ -459,7 +459,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest tactile cues that your opponent is initiating a stack pass rather than a posture recovery attempt?",
+        "question": "Which tactile cues mark a stack pass rather than a posture recovery attempt?",
         "answer": "The earliest cues are the opponent's hands moving to your hips or upper thighs rather than fighting your head control grips, their chin tucking to their chest, their elbows drawing tight against their body, and forward pressure increasing through their hips rather than upward extension through their spine. Posture recovery involves upward driving; stacking involves forward compression—the force vector direction is the key differentiator.",
         "answer_line": "Forward pressure through hips",
         "distractors": {

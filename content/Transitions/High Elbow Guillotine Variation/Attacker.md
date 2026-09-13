@@ -74,7 +74,7 @@ description: "How to execute High Elbow Guillotine Variation in BJJ. Attacking p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical advantage of the high elbow configuration over a standard guillotine finish?",
+      "name": "What is the mechanical advantage of the high elbow guillotine over a standard finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The elevated elbow creates a longer lever arm that generates exponentially more pressure on the carotid arteries using skeletal structure rather than muscular effort. Combined with the hip angle pulling the head toward the opposite hip, this produces a scissoring blood choke that finishes rapidly with minimal energy expenditure compared to standard guillotine mechanics where the elbow stays low."
@@ -90,7 +90,7 @@ description: "How to execute High Elbow Guillotine Variation in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "What hip angle creates the scissoring pressure that distinguishes high elbow from standard guillotine?",
+      "name": "What hip angle creates the scissoring pressure of the high elbow guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip escape toward the side opposite your choking arm, creating approximately 45 degrees of angle relative to opponent's spine. This positions your body diagonally. When you pull their head toward your hip while the elevated elbow drives in the opposite direction, the opposing forces create the scissoring action that compresses both carotid arteries simultaneously."
@@ -98,7 +98,7 @@ description: "How to execute High Elbow Guillotine Variation in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on your hip while you hold Hindulotine - how do you adjust to attempt high elbow?",
+      "name": "They post a hand on your hip in Hindulotine — how do you adjust for the high elbow?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your non-choking hand to strip their posting hand while simultaneously hip escaping away from that side. This removes their base and creates the angle needed for elbow elevation. Alternatively, use closed guard to pull them tight and eliminate the posting opportunity before transitioning to the high elbow configuration."
@@ -106,7 +106,7 @@ description: "How to execute High Elbow Guillotine Variation in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin hard - what micro-adjustment increases finishing pressure without releasing the grip?",
+      "name": "They tuck their chin — what adjustment adds pressure without releasing your guillotine grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walk your choking arm higher by making small climbing movements with your wrist, using the elevated elbow as a lever to pry under their chin. Simultaneously increase hip angle away from opponent and pull more aggressively toward your opposite hip. The combination of higher grip placement and increased diagonal stretch overcomes chin tuck defense."
@@ -114,7 +114,7 @@ description: "How to execute High Elbow Guillotine Variation in BJJ. Attacking p
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between trachea pressure and carotid pressure in high elbow execution?",
+      "name": "In the high elbow guillotine, how does carotid pressure differ from trachea pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Carotid pressure targets blood supply to the brain and causes unconsciousness within seconds when applied correctly. Trachea pressure restricts breathing and is painful but takes much longer to be effective. High elbow mechanics create carotid compression by angling the wrist blade and pulling toward opposite hip rather than straight down toward chest."

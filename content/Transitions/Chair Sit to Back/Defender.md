@@ -56,7 +56,7 @@ description: "How to defend against Chair Sit to Back in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical defensive window during the chair sit sequence and why does it close so quickly?",
+      "name": "Defending chair sit from turtle, when is the critical escape window and why does it close fast?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical defensive window exists between when the attacker threads their blocking leg across your thigh and when they connect their seatbelt grip. This window closes quickly because the blocking leg provides temporary hip control that replaces the attacker's hand grip, and once the seatbelt connects, you face both upper body control and lower body barrier simultaneously. During this brief gap, the attacker's hands are transitioning between grips, creating a moment of reduced control where explosive movement has the highest probability of success."
@@ -64,7 +64,7 @@ description: "How to defend against Chair Sit to Back in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why is sitting through toward the blocking leg side often your best defensive option despite the risk of truck position?",
+      "name": "Why is sitting through toward the blocking leg your best chair sit defense despite the truck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sitting through toward the blocking leg side works because the attacker's base is weakest in that direction - they are sitting with their weight on one hip and their blocking leg is committed across your thigh. Moving in this direction disrupts their seated structure and exploits the fact that their posted far leg cannot effectively block lateral movement. While the sit-through can lead to truck position if the attacker maintains their grips, the truck represents a less immediately dangerous position than full back control with hooks, and the scramble created often allows further escape opportunities."
@@ -72,7 +72,7 @@ description: "How to defend against Chair Sit to Back in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "What should your immediate priority be if the attacker has already established the seatbelt grip from chair sit?",
+      "name": "They've got the seatbelt from chair sit: what is your immediate defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the seatbelt is established, your priority shifts from preventing the grip to preventing your turtle structure from being broken onto your side. Use your hands to fight the seatbelt grip using two-on-one control on the choking arm, tuck your chin tight to your chest, and maintain the strongest possible four-point base to resist being pulled sideways. You are now in a survival situation where you must delay the back take long enough to find an escape opportunity, rather than being in the proactive defensive window where explosive movement could have prevented the position entirely."
@@ -80,7 +80,7 @@ description: "How to defend against Chair Sit to Back in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why is it a mistake to try to turn toward the attacker through the blocking leg during chair sit defense?",
+      "name": "Defending chair sit, why is turning toward them through the blocking leg a mistake?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The blocking leg is specifically positioned as a mechanical barrier to prevent exactly this rotation. Attempting to turn through it means you are pushing against a rigid structural frame (the attacker's shin across your thigh) that is designed to absorb this force. The effort wasted trying to turn through the barrier depletes your energy without creating meaningful positional improvement, while the correct escape directions (forward drive or sit-through toward the blocking leg side) exploit the attacker's structural weaknesses rather than fighting against their strengths."
@@ -88,7 +88,7 @@ description: "How to defend against Chair Sit to Back in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How can you use grip fighting to prevent the attacker from establishing the seatbelt during the chair sit transition?",
+      "name": "Defending chair sit from turtle, how do you grip fight to deny the seatbelt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As soon as you recognize the chair sit setup, tuck your elbows tightly to your ribs to create a physical barrier against arm threading. Use your near arm to block the attacker's bottom arm from reaching under your armpit by pressing your elbow down and keeping your arm tight to your torso. Simultaneously, your far hand can control the attacker's top arm at the wrist or sleeve to prevent them from reaching over your shoulder. This grip fighting must happen while you are also generating explosive movement, so it functions as a delay tactic rather than a complete defense."

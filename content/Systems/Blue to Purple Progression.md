@@ -170,6 +170,8 @@ The Blue to Purple Belt Progression represents a critical transition in the Braz
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill Blue to Purple Progression?
@@ -303,6 +305,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -415,5 +419,7 @@ Purple belt progression requires structured drilling that emphasizes repetition,
 
 
 </section>
+
+
 
 </main>

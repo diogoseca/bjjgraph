@@ -104,7 +104,7 @@ description: "Execute the hip escape from front headlock to recover guard in BJJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls heavy with their hips dropped just as you begin the hip escape - how do you adjust?",
+      "name": "They sprawl heavy with hips dropped as you begin the front headlock hip escape; how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not force the escape against heavy sprawl pressure. Instead, re-establish your defensive frames and wait for the next timing window. Use small bridges and micro-shrimps to gradually improve your angle without fully committing to the escape. If the opponent's sprawl is consistently shutting down your hip escape, switch to a sit-through variation which works better against dropped hips, or attempt a granby roll that uses the opponent's forward pressure as momentum for the roll."

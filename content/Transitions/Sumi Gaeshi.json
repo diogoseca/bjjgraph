@@ -294,7 +294,7 @@
         }
       },
       {
-        "question": "Your opponent sprawls and widens their base as you begin to create the entry angle. How do you adjust?",
+        "question": "They sprawl and widen their base as you build the Sumi Gaeshi angle: how do you adjust?",
         "answer": "When the opponent sprawls in reaction to your angle creation, the Sumi Gaeshi entry is compromised because their hips are now distant and their weight is back. Transition to a single leg X-guard entry by threading your inside leg between theirs, or switch to an ankle pick on the near leg since their weight distribution has shifted backward. You can also use the sprawl reaction to pull guard to butterfly and reset the attack from seated position.",
         "answer_line": "Thread inside leg to X-guard",
         "distractors": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand on the mat as you execute the throw and stops halfway through the arc. What do you do?",
+        "question": "They post a hand and stall your Sumi Gaeshi halfway through the arc: what do you do?",
         "answer": "When the opponent posts a hand during the throw, they create a structural vulnerability in that posted arm. Immediately redirect your attack to the posted arm by securing a kimura grip on the wrist and elbow, or continue your rotation while pulling their posting arm across your body to complete the sweep to side control. The posted arm is bearing their weight and cannot be retracted quickly, making it an ideal submission target. If neither option is available, use the momentum to establish closed guard with strong grip control.",
         "answer_line": "Attack the posted arm, kimura",
         "distractors": {
@@ -378,7 +378,7 @@
         }
       },
       {
-        "question": "If your initial Sumi Gaeshi attempt is blocked but you maintain grips and butterfly hooks, what chain attacks are available?",
+        "question": "Your Sumi Gaeshi is blocked but grips and hooks remain: what chain attacks are available?",
         "answer": "With grips and butterfly hooks maintained after a failed Sumi Gaeshi, several high-percentage follow-ups are available. You can immediately attempt a standard butterfly sweep to the opposite side since the opponent's base is likely shifted from defending. Entry to X-guard or single leg X-guard is available by threading your hooking leg deeper. You can reattempt the Sumi Gaeshi to the other side if the opponent over-corrects their base. Finally, pulling into closed guard resets the engagement if all sweeping options are exhausted.",
         "answer_line": "Butterfly sweep opposite side",
         "distractors": {
@@ -512,7 +512,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that a Sumi Gaeshi attempt is developing, and what should your immediate response be?",
+        "question": "What is the earliest cue of a Sumi Gaeshi, and what is your immediate response?",
         "answer": "The earliest cue is the opponent stepping laterally to create an off-angle while maintaining strong forward-pulling grips on your upper body. Your immediate response should be to circle in the same direction they are stepping to deny the angle, while simultaneously stripping or weakening their dominant pulling grip. Reacting at this stage gives you the widest range of defensive options and requires the least energy to neutralize the attack.",
         "answer_line": "Circle with them, strip grip",
         "distractors": {
@@ -540,7 +540,7 @@
         }
       },
       {
-        "question": "Your opponent has already placed their foot on your hip and is beginning to drop backward. What is your best option at this point?",
+        "question": "Their foot is on your hip and they are dropping back for Sumi Gaeshi: what is your best option?",
         "answer": "At this late stage, pure resistance is unlikely to work. Your best option is to drive your hips sharply back and down while turning your body perpendicular to the throwing direction, which changes the angle of the arc and prevents the circular completion. If the throw is past the tipping point, transition to damage control by securing a grip on their collar or arm during the throw, tucking your chin to protect your landing, and immediately closing your guard as you land to prevent them from following through to mount.",
         "answer_line": "Turn perpendicular, drop hips",
         "distractors": {
@@ -554,7 +554,7 @@
         }
       },
       {
-        "question": "How do you convert a partially successful Sumi Gaeshi into a guard recovery rather than allowing mount?",
+        "question": "How do you turn a partly successful Sumi Gaeshi against you into guard recovery, not mount?",
         "answer": "The critical moment is during the airborne phase and landing. Maintain at least one grip on the thrower throughout the throw so you have a control point when you land. As you hit the mat, immediately hip escape to create enough angle to insert your legs between you and the thrower. Lock your ankles behind their back before they can posture up and drive past your legs. If full closed guard is not possible, establish butterfly hooks or half guard immediately. The key is that your legs must be active the moment you land rather than landing flat and waiting.",
         "answer_line": "Hip escape, insert legs fast",
         "distractors": {
@@ -568,7 +568,7 @@
         }
       },
       {
-        "question": "What grip fighting strategy reduces the probability of a successful Sumi Gaeshi before the throw is even attempted?",
+        "question": "What grip fighting best reduces the chance of a Sumi Gaeshi before it is attempted?",
         "answer": "Deny the cross-collar grip and the deep underhook, which are the two highest-control grip configurations for Sumi Gaeshi. Fight the collar grip with same-side hand strip using two-on-one breaks if necessary. Against underhooks, use overhooks or whizzers to prevent deep penetration under your arms. Keep your elbows tight to your body to deny space for grip establishment. Proactively control one of their sleeves or wrists, which eliminates half of their gripping options and forces them to work with a weaker single-grip configuration that provides insufficient control for the throw.",
         "answer_line": "Deny cross-collar and underhook",
         "distractors": {

@@ -88,7 +88,7 @@ description: "How to prevent Arm Extraction to Turtle in BJJ. Maintain Aoki Lock
     },
     {
       "@type": "Question",
-      "name": "Your opponent chains multiple hip escapes in alternating directions - what is the correct defensive response?",
+      "name": "They chain hip escapes in alternating directions. What is your correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Match their directional changes with your own hip adjustments, maintaining pressure alignment through each transition. Focus on keeping your leg squeeze constant even as you reposition. The opponent is trying to create cumulative loosening through repeated adjustments. Your goal is to make each re-angle as tight as the original position. If you fall behind their movement tempo, prioritize maintaining entanglement over maintaining perfect pressure angle."

@@ -255,7 +255,7 @@
         }
       },
       {
-        "question": "What is the purpose of the small bridge before executing the shrimp, and what happens if you skip this step?",
+        "question": "Why bridge before shrimping from bottom side control, and what happens if you skip it?",
         "answer": "The micro-bridge unweights your hips by momentarily lifting them off the mat, which creates the mobility necessary for the hip escape movement. When your hips are weighted and pressed into the mat by opponent's pressure, they cannot move laterally or rotationally. The bridge transfers your weight momentarily to your shoulders and feet, freeing your hips to execute the shrimping motion. Without the bridge, your shrimp will be weak and ineffective because your hips remain pinned to the mat.",
         "answer_line": "Bridge unweights hips to move",
         "distractors": {
@@ -269,7 +269,7 @@
         }
       },
       {
-        "question": "Why is angular shrimping more effective than shrimping in a straight line directly away from your opponent?",
+        "question": "Why shrimp at an angle rather than straight back from bottom side control?",
         "answer": "Angular shrimping creates a vector that is harder for opponent to follow and generates more functional space for guard recovery. When you shrimp straight back, opponent can simply walk forward on their knees to maintain pressure. However, when you shrimp at an angle (typically 45 degrees), opponent must adjust their entire body position to follow, which takes more time and effort. Additionally, angular movement allows you to create space specifically where you need it—between your hip and opponent's chest—while potentially using the mat boundary to your advantage.",
         "answer_line": "Angle makes space they can't chase",
         "distractors": {
@@ -311,7 +311,7 @@
         }
       },
       {
-        "question": "Your opponent drives their shoulder into your face while maintaining heavy hip pressure—how do you adjust your frame positioning?",
+        "question": "Under a heavy crossface and hip pressure, how do you adjust your frames to shrimp out?",
         "answer": "When opponent applies heavy crossface pressure, your primary frame must address the shoulder pressure first. Place your far-side forearm across their neck or chin, creating a wedge that prevents them from driving further into your face. Your near-side arm should frame against their hip to maintain hip separation. If the crossface is too heavy to frame against directly, turn your head away from the pressure and use your far arm to post against their shoulder while focusing your escape angle away from the crossface direction. The key is accepting you cannot fight the pressure directly—instead, redirect your escape vector.",
         "answer_line": "Frame the crossface, redirect angle",
         "distractors": {
@@ -325,7 +325,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand on the mat to block your hip escape direction—how do you adjust your shrimp angle?",
+        "question": "They post a hand to block your shrimp direction from bottom side control — how do you adjust?",
         "answer": "When opponent posts a hand to block your primary shrimp direction, reverse your shrimp angle immediately. Push off your near-side foot and shrimp toward the opposite side, exploiting the fact that their posted hand reduces their base and mobility on that side. This reversal catches them committed to the wrong angle. Alternatively, use their posted arm as a target—swim your near arm under their posting arm to establish an underhook, then combine the underhook with a shrimp to create a sweep opportunity rather than just escaping.",
         "answer_line": "Reverse shrimp away from posted hand",
         "distractors": {
@@ -339,7 +339,7 @@
         }
       },
       {
-        "question": "What grip positions should you prioritize securing immediately after successfully inserting your knee shield?",
+        "question": "After inserting your knee shield from bottom side control, which grips do you secure first?",
         "answer": "After inserting the knee shield, immediately secure a collar grip with your top hand (the hand on the same side as your top knee) to prevent opponent from flattening you back out. Your bottom hand should control their sleeve or wrist on your knee-shield side to prevent them from clearing your knee. This collar-sleeve combination creates offensive guard retention that threatens sweeps while maintaining the space you created. Without these grips, opponent can simply pressure through your knee shield and re-establish side control.",
         "answer_line": "Collar grip top, sleeve grip bottom",
         "distractors": {
@@ -528,7 +528,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the single most important defensive action to prevent an opponent's shrimp escape from side control?",
+        "question": "What single defensive action best stops a shrimp escape from your side control?",
         "answer": "Maintaining heavy crossface pressure is the most critical defensive action because it prevents the opponent from turning onto their near-side hip, which is the essential prerequisite for any effective shrimp. Without the ability to rotate their hips, the shrimp becomes structurally impossible regardless of how strong their leg drive is. The crossface creates a wedge that pins their head and shoulders flat, denying the rotation needed to generate angular hip movement. All other defensive elements—hip pressure, following movement, blocking knee insertion—become secondary when the crossface is properly maintained.",
         "answer_line": "Maintain heavy crossface pressure",
         "distractors": {
@@ -542,7 +542,7 @@
         }
       },
       {
-        "question": "Your opponent has successfully shrimped and is attempting to insert their knee shield—what is your immediate defensive priority?",
+        "question": "They shrimped and are inserting a knee shield — what is your immediate priority on top?",
         "answer": "Your immediate priority is to drive your near-side hip into the space between your bodies to block the knee insertion before it crosses your centerline. Simultaneously, drive your shoulder forward and downward to collapse any remaining space. If the knee is partially inserted, use your hand to control their shin and push it back down while re-establishing hip-to-hip pressure. Speed is critical here—once the knee shield is fully established, re-passing becomes a separate and more difficult task than simply maintaining side control through prevention.",
         "answer_line": "Drive near hip in to block knee",
         "distractors": {
@@ -556,7 +556,7 @@
         }
       },
       {
-        "question": "How should you adjust your weight distribution when you feel your opponent beginning to establish frames for a shrimp escape?",
+        "question": "How do you adjust your weight on top as they build frames for a shrimp escape?",
         "answer": "Shift your weight distribution lower by driving your hips downward into their hips rather than keeping weight primarily on their upper body. This denies the hip space needed for the shrimp. Simultaneously, use your near-side arm to control their framing elbow—either by pinning it to their body or redirecting their frame angle away from the effective pushing direction. Your chest weight should increase on their shoulder and face through the crossface while your hips sink heavily onto their pelvis, creating two anchor points that resist both the turning and the lateral hip movement.",
         "answer_line": "Sink hips low, control framing elbow",
         "distractors": {
@@ -584,7 +584,7 @@
         }
       },
       {
-        "question": "Your opponent chains three rapid shrimps and you're struggling to maintain connection—what systemic adjustment prevents this situation?",
+        "question": "They chain rapid shrimps and you can't stay connected — what systemic fix stops this?",
         "answer": "The systemic adjustment is to address the root cause rather than chasing individual shrimps. First, improve your initial crossface to prevent the hip rotation that enables effective shrimping. Second, control their near-side elbow to deny frame re-establishment between shrimps. Third, rather than following multiple shrimps laterally, transition your pressure angle—switch to north-south or walk your body toward their head to change the dynamic entirely. The opponent is exploiting your pattern of lateral following; breaking that pattern with a positional transition forces them to abandon the shrimp chain and address your new angle.",
         "answer_line": "Switch angle instead of chasing",
         "distractors": {

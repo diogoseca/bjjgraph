@@ -74,7 +74,7 @@ description: "Execute the Shoulder of Justice to Mount transition with precision
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent has been under Shoulder of Justice pressure for thirty seconds and suddenly stops resisting and flattens out — what does this signal about your timing for the mount transition?",
+      "name": "They flatten out and stop resisting under shoulder of justice — what does that say about mounting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent flattening out and stopping active resistance signals defensive fatigue and is the optimal window for initiating the mount transition. Their hips are stationary, their frames have collapsed, and their near arm is likely pinned under your chest weight. This is the highest-percentage moment to execute the step-over because they lack the energy and positioning to insert frames or time defensive escapes. Begin walking your base into position immediately while maintaining pressure."
@@ -98,7 +98,7 @@ description: "Execute the Shoulder of Justice to Mount transition with precision
     },
     {
       "@type": "Question",
-      "name": "You begin stepping over and your opponent immediately inserts their near-side knee between your bodies — what went wrong in your setup?",
+      "name": "They insert their near knee as you step over to mount — what went wrong in your setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The near-side arm was not sufficiently controlled before initiating the step-over. When the near arm is free, the opponent can use it to create enough space to pump their knee upward and insert a knee shield or half guard entanglement. The correction is to always verify near-arm control before beginning the transition. If the knee does get inserted, switch to a knee slice pass to complete the transition rather than trying to force the mount step-over over the knee obstruction."
@@ -114,7 +114,7 @@ description: "Execute the Shoulder of Justice to Mount transition with precision
     },
     {
       "@type": "Question",
-      "name": "In which direction should you drive your weight during the step-over to maintain continuous pressure on the opponent?",
+      "name": "Which direction should your weight drive during the step-over to mount to keep pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your weight forward and slightly downward through the shoulder contact point into the opponent's jaw and upper chest. This forward vector maintains the pressure relationship throughout the transition and prevents the opponent from creating space. The forward drive also naturally lightens your legs for the step-over motion. Driving weight laterally or upward creates gaps in the pressure chain that allow defensive reactions. Think of your shoulder as a piston driving forward through the transition."

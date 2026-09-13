@@ -66,7 +66,7 @@ description: "How to defend against Pressure Pass through Center in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun their forward drive and your legs are being pinned - what is your best remaining defensive option?",
+      "name": "Grasshopper guard bottom: they drive forward and pin your legs. Best remaining defensive option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Execute a Granby roll immediately in the direction of their drive. Use their forward momentum to assist your shoulder roll rather than fighting against it. As you roll through, your legs will naturally retract from their pin, and you can immediately wrap them around the passer's waist for closed guard upon completing the rotation. If the Granby roll window has also passed, transition to framing against their shoulders and hip escaping laterally to recover half guard."

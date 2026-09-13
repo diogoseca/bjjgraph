@@ -84,7 +84,7 @@ description: "How to execute Crab Ride to Back in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent sits to their hip and begins turning into you during the transition - how do you adjust?",
+      "name": "Crab ride top: your opponent sits to their hip and turns into you. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent turns into you, maintain strong near arm control and use your hook to prevent the hip movement initially. If they successfully begin the turn, follow their motion and transition to alternative positions like crucifix or truck rather than forcing the back take and potentially losing position entirely. Their turning motion often exposes the far arm for crucifix entry or creates leg entanglement opportunities for truck position. This demonstrates the principle of following opponent movement rather than rigid technique application."
@@ -100,7 +100,7 @@ description: "How to execute Crab Ride to Back in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What are the key differences between the roll-to-back and slide-to-back variations of this technique?",
+      "name": "Crab ride to back: when do you use the roll-to-back versus the slide-to-back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The roll-to-back variation is used when the opponent is flattened in turtle with minimal space underneath. You execute a controlled roll to your side while pulling them with you, ending with them in front and you on their back. The slide-to-back variation is used when there is space underneath the opponent. You slide your hips through while pulling them back into you, transitioning to back mount without a full roll. Both require maintained seat belt control and deep hooks, but the choice depends on the opponent's posture and available space."
@@ -108,7 +108,7 @@ description: "How to execute Crab Ride to Back in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent traps your bottom hook with their leg during the transition - what is the correct response?",
+      "name": "Crab ride to back: your opponent traps your bottom hook with their leg. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept the single hook position temporarily rather than fighting to free it immediately, as that struggle creates space for escape. Maintain tight seat belt control as your priority and use your free leg to post and adjust your angle. The trapped hook actually serves as an anchor point, and you can use it as a pivot to work for better positioning. If the entanglement deepens, consider transitioning to truck control where the leg configuration becomes advantageous for twister or calf slicer attacks while preserving the path to back control."
@@ -427,7 +427,7 @@ The Crab Ride to Back transition is generally safe when practiced with proper co
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Related back-taking technique from turtle that uses similar body lock transitional control</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Berimbolo" data-cta="related-system-card" data-system-slug="systems/berimbolo" data-system-name="Berimbolo" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Berimbolo</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Related back-taking technique from turtle that uses similar body lock transitional control</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

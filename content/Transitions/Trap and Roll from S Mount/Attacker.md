@@ -96,7 +96,7 @@ description: "Execute the Trap and Roll escape from S Mount bottom. Master bridg
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the bridge will displace the opponent?",
+      "name": "What bridge detail decides whether you displace the opponent in trap and roll from S mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bridge direction is the single most important mechanical factor. Bridging straight up allows the opponent to simply ride the motion and settle back down with zero displacement. The bridge must be directed at approximately forty-five degrees toward the opponent's posted foot side to create rotational displacement that their perpendicular position cannot absorb. This diagonal force attacks the structural weakness inherent in the S Mount configuration."

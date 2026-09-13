@@ -56,7 +56,7 @@ description: "Defend and counter the complete guard pass from quarter guard bott
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the top player is attempting to complete the pass from quarter guard?",
+      "name": "What are the earliest cues that the top player is completing the pass from quarter guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are increased crossface shoulder pressure driving harder against your face, the top player's near-side hand moving to specifically target your remaining knee shield or hook, forward hip advancement past your centerline with weight shifting diagonally, and the beginning of circular leg extraction movement against your remaining hook. These cues typically appear one to two seconds before the full pass is committed."
@@ -88,7 +88,7 @@ description: "Defend and counter the complete guard pass from quarter guard bott
     },
     {
       "@type": "Question",
-      "name": "What adjustments should you make when you feel the top player beginning to extract their trapped leg?",
+      "name": "You feel the top player extracting their leg from quarter guard: what adjustments?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tighten remaining leg engagement by squeezing your knees together, pull your underhook tighter to prevent their upper body from advancing simultaneously, and hip escape away from the extraction direction to create a new defensive angle. If extraction continues despite these adjustments, transition immediately to deep half guard by getting underneath their weight, or establish a butterfly hook with your free leg that disrupts their base during the transitional moment."

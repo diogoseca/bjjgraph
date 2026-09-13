@@ -220,19 +220,19 @@ The position demands active hip movement and constant angle adjustment to remain
 
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (7% of attempts)
 
-- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (0% of attempts)
+- **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (gi only)
 
 - **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** (20% of attempts)
 
-- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (0% of attempts)
+- **[[Transitions/Lapel to Spider Guard/Attacker|Lapel to Spider Guard]]** (gi only)
 
-- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (0% of attempts)
+- **[[Transitions/Lapel to Lasso Guard/Attacker|Lapel to Lasso Guard]]** (gi only)
 
 - **[[Transitions/Collar Sleeve to De La Riva/Attacker|Collar Sleeve to De La Riva]]** (9% of attempts)
 
 - **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** (16% of attempts)
 
-- **[[Transitions/Collar Sleeve Sweep/Attacker|Collar Sleeve Sweep]]** (0% of attempts)
+- **[[Transitions/Collar Sleeve Sweep/Attacker|Collar Sleeve Sweep]]** (gi only)
 
 - **[[Transitions/Collar Sleeve to Spider Guard/Attacker|Collar Sleeve to Spider Guard]]** (1% of attempts)
 
@@ -378,9 +378,9 @@ The position demands active hip movement and constant angle adjustment to remain
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Common entry point for establishing lapel controls from traditional open guard</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Gi-specific guard for grip-based control and sweeps</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Primary open guard system built on gi-specific grips</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Common entry point for establishing lapel controls from traditional open guard</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Gi-specific guard for grip-based control and sweeps</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Primary open guard system built on gi-specific grips</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

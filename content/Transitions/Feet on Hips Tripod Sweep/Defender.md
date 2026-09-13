@@ -64,7 +64,7 @@ description: "Defend against the Feet on Hips Tripod Sweep with recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the hook behind your ankle but has not yet gripped your far ankle - what should you do?",
+      "name": "They've hooked behind your ankle but haven't gripped your far ankle yet: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately backstep the hooked ankle by pulling it straight back and stepping away from the hook before the hand grip completes the three-point control system. Without the far ankle grip, the sweep cannot generate the multi-directional force needed to topple you. Simultaneously drive your weight forward through your hips and maintain pants grips on their knees to make backward sweeping mechanically more difficult."
@@ -80,7 +80,7 @@ description: "Defend against the Feet on Hips Tripod Sweep with recognition cues
     },
     {
       "@type": "Question",
-      "name": "How do you defend against the tripod and sickle sweep combination when both are threatened from the same position?",
+      "name": "Standing, how do you defend the tripod and sickle sweep threats at the same time?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key is maintaining a centered, balanced base that resists both backward and lateral sweeping forces simultaneously rather than overcommitting to defend one direction. Keep your weight evenly distributed between both feet rather than favoring one side. When defending the tripod by backstepping, do so at a diagonal angle that does not load your weight entirely onto the remaining stance leg where a sickle sweep would catch you. Active pants grips at the knees prevent both sweep configurations from establishing their necessary foot positions."

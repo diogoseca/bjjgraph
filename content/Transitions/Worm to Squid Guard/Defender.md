@@ -56,7 +56,7 @@ description: "Defend against the Worm to Squid Guard transition as the top playe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating the worm to squid guard transition?",
+      "name": "What earliest cue shows your opponent is starting the worm to squid guard transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a decrease in lapel tension around your leg. Before any visible leg movement begins, the bottom player must start loosening the worm guard lapel connection to reconfigure it. This tension change is tactile rather than visual and can be felt as reduced pulling pressure on your trapped leg. Experienced practitioners learn to distinguish between intentional loosening for a transition versus natural grip fatigue through repeated exposure."
@@ -64,7 +64,7 @@ description: "Defend against the Worm to Squid Guard transition as the top playe
     },
     {
       "@type": "Question",
-      "name": "Why is the transition window the optimal time to strip the lapel rather than when the guard is fully established?",
+      "name": "Why strip the lapel during the worm to squid transition rather than once the guard is set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the bottom player is actively reducing their own lapel tension and repositioning their control structure. This means the lapel is already partially loosened and their attention is divided between maintaining control and executing the reconfiguration. Attempting to strip against a fully established worm or squid guard means fighting maximum tension and focused defense. The transition window offers significantly reduced resistance and divided attention from the bottom player."
@@ -72,7 +72,7 @@ description: "Defend against the Worm to Squid Guard transition as the top playe
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their hips while increasing sleeve grip pressure - should you drive forward or step back?",
+      "name": "They rotate hips and tighten the sleeve grip toward squid guard — drive forward or step back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward with controlled pressure. Hip rotation combined with sleeve grip reinforcement indicates they are creating the angle for leg threading while using the grip to prevent disengagement. Forward pressure disrupts their rotation by loading their guard structure and making it harder to thread the leg through your base. Stepping back gives them the space and time they need to complete the reconfiguration uncontested."
@@ -80,7 +80,7 @@ description: "Defend against the Worm to Squid Guard transition as the top playe
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the deep squid guard hook from establishing once the leg has partially threaded through?",
+      "name": "With their leg partly threaded, how do you stop the deep squid guard hook from setting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately squeeze your knees together and drop your hips slightly to close the space the hook needs to set deep. If their foot is already past your legs, use your near-side hand to push their heel outward before they can curl it behind your knee. The hook is only structurally dangerous when it sets deep behind the knee, so even partially dislodging it significantly weakens the resulting squid guard and may force them to abort the transition."
@@ -88,7 +88,7 @@ description: "Defend against the Worm to Squid Guard transition as the top playe
     },
     {
       "@type": "Question",
-      "name": "What passing strategy should you implement after successfully stripping the lapel during the transition?",
+      "name": "After stripping the lapel during the worm to squid transition, what passing strategy follows?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After stripping the lapel, immediately advance with a high-tempo pass before they can re-establish any lapel control. Toreando or leg drag passes are most effective because they capitalize on the now-absent lapel restriction that previously limited your lateral movement. The bottom player will be momentarily disoriented from losing their primary control system. Do not hesitate or allow a reset, as they will attempt to re-feed the lapel and re-establish guard within seconds."

@@ -70,7 +70,7 @@ description: "How to execute Triangle from Closed Guard in BJJ. Attacking perspe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is creating approximately 90 degrees of angle essential for triangle effectiveness, and what happens if you stay directly underneath your opponent?",
+      "name": "Why does the triangle need a 90-degree angle, and what happens if you stay square underneath?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The 90-degree angle prevents the opponent from stacking you and driving forward with their weight to break the triangle's structure. When you're directly underneath them, they can use gravity and forward pressure to compress you, making it impossible to maintain the triangle configuration or extend your hips for the finish, and their driving pressure can lead to a guard pass. The perpendicular angle also optimizes the choking geometry by ensuring their neck is properly positioned relative to your leg and their own trapped shoulder."
@@ -78,7 +78,7 @@ description: "How to execute Triangle from Closed Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What is the actual mechanism that creates unconsciousness in a properly executed triangle choke, and which anatomical structures are being compressed?",
+      "name": "What actually causes the tap in a triangle choke, and which structures are compressed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The triangle choke creates unconsciousness by compressing both carotid arteries and jugular veins simultaneously, cutting off blood flow to the brain. One side of the neck is compressed by your choking knee/shin, while the other side is compressed by the opponent's own trapped shoulder being driven into their neck. This bilateral compression of the vascular structures (not the trachea/airway) causes rapid loss of consciousness typically within 5-10 seconds if not defended. The shoulder wedge is critical - without the opponent's shoulder trapped inside, the choke cannot compress both sides of the neck effectively."
@@ -86,7 +86,7 @@ description: "How to execute Triangle from Closed Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Why does the choking pressure in triangle come from hip extension rather than squeezing your legs together, and how does this relate to energy efficiency?",
+      "name": "Why should triangle pressure come from hip extension rather than squeezing your legs together?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip extension generates more sustainable choking pressure because it uses the large glutes, hamstrings, and core rather than the small adductors. When you extend your hips toward the ceiling while pulling the opponent's head down, you create a lever system where your entire body weight and structural alignment generate the choking force. Squeezing your legs together laterally exhausts the smaller inner-thigh adductor muscles quickly without creating proper bilateral compression of the neck. The hip extension method lets you maintain pressure much longer with far less fatigue."
@@ -94,7 +94,7 @@ description: "How to execute Triangle from Closed Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What are the safety protocols you must follow regarding release timing and pressure application when practicing triangle chokes in training?",
+      "name": "What are the release-timing and pressure rules for drilling triangle chokes in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must release the triangle immediately upon any tap signal - verbal, physical tap with hand or foot, or any distress signal. If your partner goes limp or stops resisting, release immediately even without tap and check their awareness. During application, pressure must be applied progressively over minimum 5-7 seconds in training, never jerking or spiking the choke at full speed. Partner must always have clear access to tap with at least one arm. After release, push opponent's head away gently and allow them to recover posture slowly. Never maintain any pressure after tap or loss of consciousness, and never use competition finishing speed during drilling or positional training."
@@ -102,7 +102,7 @@ description: "How to execute Triangle from Closed Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "How do you transition from triangle to armbar when the opponent defends by turning toward your choking leg, and why does this create a natural submission chain?",
+      "name": "Triangle: they turn toward your choking leg. How do you switch to the armbar and why does it work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent turns toward the choking leg to relieve pressure on their neck, they naturally expose their trapped arm to armbar. To transition: maintain your triangle lock initially, pivot your body to follow their turn while releasing your top leg from across their back, swing that leg over their face and fall back for armbar on the trapped arm. This works because their defensive turn extends and straightens the trapped arm while removing it from defending their neck - they must choose between defending the triangle (keeping arm bent and close) or defending the armbar (keeping arm straight and away). This creates a true submission dilemma where defending one attack opens the other."
@@ -110,7 +110,7 @@ description: "How to execute Triangle from Closed Guard in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What should you do immediately if your partner's breathing sounds unusual, they show distress signals, or they appear to be losing consciousness during triangle application?",
+      "name": "Triangle: your partner sounds distressed or seems to be fading. What do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately open your legs and release the triangle completely without waiting for a tap. Push their head away gently, allow them to recover their posture, and check their awareness by speaking to them. If they appear unconscious or unresponsive, ensure they're breathing, position them safely (recovery position if needed), and monitor them until they're fully aware. Never continue training until they've confirmed they're okay. This is critical because loss of consciousness can occur rapidly (within seconds) and continuing pressure after unconsciousness can cause serious brain injury. Unusual breathing, gurgling sounds, or sudden loss of resistance are emergency signals requiring immediate release."

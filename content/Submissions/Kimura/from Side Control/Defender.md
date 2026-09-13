@@ -58,7 +58,7 @@ description: "How to defend against Kimura from Side Control in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important preventive action to stop the Kimura from Side Control before it develops?",
+      "name": "Under side control, what single preventive action best stops the Kimura from starting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your near elbow tightly connected to your ribcage at all times when under side control. The Kimura cannot be initiated without first separating your elbow from your body to isolate the arm. By maintaining this connection through lat engagement and conscious positioning, you eliminate the very first step of the submission sequence. This is a passive defense that costs minimal energy and should be maintained as a default posture whenever you are on the bottom of side control."
@@ -66,7 +66,7 @@ description: "How to defend against Kimura from Side Control in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "At what stage of the Kimura attack should you tap to avoid injury, and what signals indicate you have passed the safe defense window?",
+      "name": "Caught in a Kimura, when should you tap, and what signals show safe defense is gone?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should tap when you feel the combination of elbow elevation and rotational pressure beginning to stress the shoulder joint, particularly if your escape attempts have failed and the attacker has secured hip control with their knee. Warning signals include sharp pain in the anterior shoulder, the feeling of your arm being pushed past its natural range of motion, and the inability to prevent further rotation. Never try to tough it out once genuine shoulder stress is present - the joint can dislocate suddenly without gradual warning. In training, always err on the side of tapping early."
@@ -74,7 +74,7 @@ description: "How to defend against Kimura from Side Control in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Why is turning into the attacker (toward their legs) the preferred escape direction rather than turning away?",
+      "name": "Escaping the Kimura, why turn into the attacker rather than away from them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning into the attacker reduces the rotational angle on your shoulder, directly counteracting the submission mechanics. The Kimura finishes by rotating your hand behind your back - turning into the attacker moves your body in the same direction as the rotation, relieving pressure. Additionally, turning into them disrupts their side control base and can create scramble opportunities or back take positions. Turning away (giving your back) does the opposite: it increases rotational leverage on your shoulder and exposes your back to hooks and chokes, making both the submission and positional situation worse simultaneously."
@@ -82,7 +82,7 @@ description: "How to defend against Kimura from Side Control in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured the figure-four grip but has not yet elevated your elbow - what defensive sequence gives you the best chance of escaping?",
+      "name": "They have the figure-four but haven't lifted your elbow yet. What defensive sequence works best?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, immediately clasp your hands together or grip your own belt/pants to anchor your arm and prevent elevation. Second, begin turning your hips toward the attacker's legs to reduce the available rotation angle. Third, use your far hand to attack their top-hand grip on the figure-four, prying fingers or pushing their wrist to break the grip structure. Fourth, if the grip loosens, immediately pull your elbow back tight to your ribs and resume standard side control escape. This sequence addresses the immediate threat while creating a pathway back to a defensible position."
@@ -90,7 +90,7 @@ description: "How to defend against Kimura from Side Control in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defense if you realize you are caught in a late-stage Kimura with elevation already applied?",
+      "name": "Caught in a late-stage Kimura with elevation already applied, how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In a late-stage Kimura with elevation already applied, your options are limited and you must act decisively. If there is any space, roll your entire body in the direction the attacker is rotating your arm - essentially rolling with the submission to relieve pressure while creating a scramble. If you cannot roll, tap immediately rather than risking shoulder injury. Never attempt to muscle out of a late-stage Kimura with pure strength, as the mechanical disadvantage is too great and you risk catastrophic shoulder damage. The key lesson is that late-stage defense is emergency defense - the real battle was lost when the grip and elevation were established."

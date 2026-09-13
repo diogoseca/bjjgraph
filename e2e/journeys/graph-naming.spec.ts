@@ -547,7 +547,7 @@ test("@curated no position label the graph draws carries its role", async ({ pag
     }
     return { titled, roled, bad }
   })
-  expect(corpus.titled, "every position hub really is titled with a role — that is the hazard").toBe(136)
+  expect(corpus.titled, "every position hub really is titled with a role — that is the hazard").toBe(133) // census:positions
   expect(corpus.roled, `and the graph prints none of them (${JSON.stringify(corpus.bad)})`).toBe(0)
 
   // ...AND ON THE GLASS, which is what stops this journey from being a re-implementation of the
@@ -653,8 +653,22 @@ test("@curated a qualified technique name is drawn as two lines, not one long on
   page,
 }) => {
   const j = journey(page)
-  await j.boot("/Positions/Side-Control/Bottom")
+  // Mount/Bottom, not Side-Control/Bottom (v1.171.0): the boot state is only a FRAME that must
+  // contain an isolated, ambiguous, qualified pair. The Kesa Gatame collapse re-embedded 27
+  // nodes around Side Control and the old frame lost its last candidate (`clear >= 300` found
+  // nothing); measured over ten states at 1440x900, Mount/Bottom's `Ezekiel Choke from Mount`
+  // clears by 1874px — the most room of any frame, so a future re-layout is least likely to
+  // take it away. Side-Control/Top, Closed-Guard/Bottom and Turtle/Bottom also have none.
+  await j.boot("/Positions/Mount/Bottom")
   await j.advance(6000)
+
+  // Pixel differences need the same camera for both frames. The arrival flight can
+  // still be settling after the content is revealed; take a lease at its current view.
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a.holdCamera()
+    a.camTarget = { cx: a.cam.cx, cy: a.cam.cy, vw: a.cam.vw }
+  })
 
   // a technique pair with a real qualifier, well clear of other nodes in its own label bands
   const pick = await page.evaluate(() => {
@@ -873,4 +887,126 @@ test("@curated zoomed out, the focus label says the side and not the category", 
       m.rich.kicker.toUpperCase(),
       `and never names the category — the shape already does (drew "${m.rich.kicker}")`,
     ).not.toContain(w)
+})
+
+/**
+ * A QUALIFIER STAYS A SUBTITLE AT EVERY LOD (v1.173.2). @curated
+ *
+ * Owner, on `Trap and Roll from Mount / DEFENDING`: the lower role could follow its orb far enough
+ * away that the two subtitle rows stopped reading as one group. At merge scale `pairGroup` stands
+ * down and `richLabel` used `displayName`, which put `from Mount` back into the headline entirely.
+ *
+ * The exact reported node is the control. While split, the lower role follows the same baseline
+ * rhythm as the qualifier instead of opening an orb-sized hole. Once merged, the renderer still
+ * publishes and draws the short headline plus its separate qualifier; zoom changes geometry, not
+ * naming structure.
+ */
+test("@curated a qualified focus keeps a compact subtitle stack when zooming out", async ({
+  page,
+}) => {
+  const j = journey(page)
+  await j.boot("/Transitions/Trap-and-Roll-from-Mount/Defender")
+
+  // One real canvas frame at each LOD is the subject. Base links do not participate in labels;
+  // suppressing that pass keeps this focused render deterministic on software-rasterized runners
+  // while the positive count proves the full shipped graph was ingested before isolation.
+  const { edgeCount, focus, role, split, merged } = await page.evaluate(() => {
+    const a = (window as Any).__neural
+    const idx = a._urlSeedIdx
+    const n = a.nodes[idx]
+    if (!n || n.t !== "Trap and Roll from Mount" || n.role !== "defender")
+      throw new Error(`reported URL resolved to ${n ? `${n.t}/${n.role}` : "nothing"}`)
+    const partner = a.nodes[n.pi]
+    if (!partner) throw new Error("reported node has no pair")
+    const edgeCount = a.links.length
+    a.links = []
+    a.ripples = []
+    a.trail = []
+    a.optionIdxs = []
+    a._focusIdxSet = null
+    a._sessionNodes = []
+    a._dangerSet = null
+    a._pathDim = false
+    a.introDone = true
+    a.focusIdx = idx
+    a.currentPos = idx
+    a.playerRole = a._urlSeedRole || "top"
+    a.paused = true
+    a.pulse = null
+    a.activeMove = null
+    a._hover = null
+    a._arriveLabelT = null
+    a.alpha = 1
+    a.now = 10
+    a.startTime = 0
+    a.cam.cx = n.x
+    a.cam.cy = (n.y + partner.y) / 2
+    const drawAt = (scale: number) => {
+      a.cam.vw = a.W / scale
+      a.cam.lvw = Math.log(a.cam.vw)
+      a.draw()
+      const label = a._lastPairLabel || a._lastRichLabel
+      const inkAt = (y: number, above: number, below: number) => {
+        if (!label || y == null) return 0
+        const canvas: HTMLCanvasElement = a.canvas
+        const ctx = canvas.getContext("2d")!
+        const dpr = canvas.width / canvas.clientWidth
+        const x = Math.max(0, Math.floor((label.ox - 2) * dpr))
+        const top = Math.max(0, Math.floor((y - above) * dpr))
+        const width = Math.max(1, Math.min(canvas.width - x, Math.ceil(260 * dpr)))
+        const height = Math.max(1, Math.min(canvas.height - top, Math.ceil((above + below) * dpr)))
+        const data = ctx.getImageData(x, top, width, height).data
+        let ink = 0
+        for (let i = 0; i < data.length; i += 4)
+          if (0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2] > 70) ink++
+        return ink
+      }
+      return {
+        lodK: a._lodK,
+        pair: a._lastPairLabel,
+        rich: a._lastRichLabel,
+        ink: label && {
+          name: inkAt(label.nameY, label.namePx, 3),
+          qual: inkAt(label.qualY, 12, 3),
+          role: inkAt(label.subY == null ? label.roleY : label.subY, 12, 3),
+        },
+      }
+    }
+    return {
+      edgeCount,
+      focus: n.t,
+      role: n.role,
+      split: drawAt(3),
+      merged: drawAt(1),
+    }
+  })
+
+  expect(edgeCount, "the isolated frame came from the full shipped graph").toBeGreaterThan(2000)
+  expect(focus).toBe("Trap and Roll from Mount")
+  expect(role).toBe("defender")
+  expect(split.lodK, "the reported label starts with its two role orbs split").toBeGreaterThan(0.5)
+  expect(split.pair, "the focused pair drew its label group").toBeTruthy()
+  expect(split.pair.main).toBe("Trap and Roll")
+  expect(split.pair.qual).toBe("from Mount")
+  expect(split.pair.sub).toBe("DEFENDING")
+  expect(split.pair.above, "DEFENDING is the lower role").toBe(false)
+  expect(
+    split.pair.subY - split.pair.qualY,
+    "the two subtitle rows keep the same baseline rhythm as the title and qualifier",
+  ).toBeCloseTo(split.pair.qualY - split.pair.nameY, 1)
+  expect(split.ink.name, "the title row is visible on the canvas").toBeGreaterThan(30)
+  expect(split.ink.qual, "the qualifier row is visible on the canvas").toBeGreaterThan(10)
+  expect(split.ink.role, "the role row is visible on the canvas").toBeGreaterThan(10)
+
+  expect(merged.lodK, "the same label reached merge scale").toBeLessThan(0.5)
+  expect(merged.pair, "the split-pair group stood down").toBeFalsy()
+  expect(merged.rich, "the merged focus drew its rich label").toBeTruthy()
+  expect(merged.rich.name, "the headline stays short").toBe("Trap and Roll")
+  expect(merged.rich.qual, "the origin remains its own subtitle").toBe("from Mount")
+  expect(
+    merged.rich.qualY,
+    "the qualifier has a rendered baseline below the headline",
+  ).toBeGreaterThan(merged.rich.nameY)
+  expect(merged.ink.name, "the merged title row is visible on the canvas").toBeGreaterThan(30)
+  expect(merged.ink.qual, "the merged qualifier row is visible on the canvas").toBeGreaterThan(10)
 })

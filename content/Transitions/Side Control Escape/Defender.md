@@ -56,7 +56,7 @@ description: "How to maintain side control against escape attempts in BJJ. Recog
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical control point to maintain when the bottom player initiates a bridge-and-shrimp escape?",
+      "name": "Which control point matters most when the bottom player bridges and shrimps?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface is the most critical control point because it prevents the bottom player from turning their hips toward you, which is the essential step for guard recovery. Without hip rotation, even successful bridging and shrimping cannot lead to guard recovery because the bottom player cannot insert their knees between your bodies. By driving your forearm or bicep across their face and neck, you control their head position which dictates their spine and hip orientation. If you must choose between maintaining crossface or hip-to-hip pressure, prioritize the crossface because you can resettle your hips afterward, but losing head control allows immediate hip rotation that is very difficult to reverse."
@@ -64,7 +64,7 @@ description: "How to maintain side control against escape attempts in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "How should you respond when the bottom player successfully creates space and begins inserting a knee shield?",
+      "name": "How do you respond on top once they create space and start inserting a knee shield?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the bottom player begins inserting a knee shield, attempting to drive back into tight side control is usually a losing battle because their shin creates a powerful structural frame. Instead, immediately transition your strategy: either step over for mount before the knee shield is fully established by bringing your far leg over their body, or accept the transitional position and begin working a half guard passing sequence using crossface pressure and knee slice mechanics. You can also retreat to knee on belly to maintain top control while resetting your passing approach. The critical mistake is fighting the knee shield directly, which wastes energy and allows the bottom player to consolidate their recovered guard."
@@ -72,7 +72,7 @@ description: "How to maintain side control against escape attempts in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Why should you use the bottom player's escape attempts as triggers for position advancement rather than simply resettling?",
+      "name": "Why treat their side control escape attempts as triggers to advance rather than just resettling?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom player's escape movements create predictable reactions and body positions that actually facilitate position advancement when recognized correctly. When they bridge, their hips elevate creating space for you to slide your knee across for mount. When they turn their hips, they expose their back for potential back take sequences. When they extend frames, their arms become vulnerable to submission attacks. Simply resettling after each escape attempt creates a war of attrition that the bottom player eventually wins through cumulative progress. By converting their escape movements into triggers for advancement, you transform a defensive exchange into an offensive one where their best defensive option still results in positional degradation for them."

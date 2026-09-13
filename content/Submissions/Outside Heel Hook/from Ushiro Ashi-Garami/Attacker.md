@@ -108,7 +108,7 @@ description: "Learn to attack the outside heel hook from ushiro ashi-garami with
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts counter-rotating during your finishing sequence—what adjustment prevents escape?",
+      "name": "They counter-rotate during your finish in ushiro ashi; what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent counter-rotates, immediately tighten your figure-four leg squeeze to maintain entanglement integrity and follow their hip rotation with your outside leg. If they rotate toward you, increase knee squeeze pressure to prevent them from clearing. If they rotate away, evaluate whether to follow to back control or transition to saddle. Only continue the heel hook if your grip remains solid and the rotation is not degrading your finishing angle—otherwise the positional transition offers higher value than a deteriorating submission attempt."

@@ -78,7 +78,7 @@ description: "Complete guide to finishing the omoplata from established control.
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins tucking their chin and loading weight forward for a roll escape - what immediate adjustment prevents this?",
+      "name": "From omoplata control, they tuck their chin and load forward to roll — what stops it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tighten your grip on their belt or far hip to anchor their hips to the mat and block the forward momentum needed for the roll. Simultaneously increase your shin pressure across their upper back to flatten them. If the roll has already initiated, do not fight it but instead follow through and transition to back control by maintaining your leg position and inserting hooks as they complete the rotation. The belt grip controls whether the roll happens at all."
@@ -86,7 +86,7 @@ description: "Complete guide to finishing the omoplata from established control.
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the shoulder joint has reached its breaking point and a tap is imminent?",
+      "name": "Which signs show the shoulder has reached its limit and a tap is imminent in the omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Indicators include the opponent suddenly tensing their entire body and stopping all escape attempts, audible distress sounds or sharp inhalation, the trapped arm going limp or the hand opening from a fist, the opponent's free hand moving toward you or the mat to tap rather than continuing defensive posting, and visible elevation of the shoulder blade away from the ribcage indicating the joint is at maximum rotation. Any of these signals should prompt you to hold current pressure without increasing it."
@@ -110,7 +110,7 @@ description: "Complete guide to finishing the omoplata from established control.
     },
     {
       "@type": "Question",
-      "name": "Your opponent partially postures up and you feel your shin sliding off their back - what grip adjustment prevents losing the position?",
+      "name": "They posture and your shin slides off their back — what grip change saves omoplata control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pull with your belt or hip grip to bring them back down while simultaneously driving your knee back toward the mat to reseat the shin across their upper back. If the shin has slipped too far, use your free hand to grab their wrist on the trapped arm side to prevent arm extraction while you reposition. If they achieve significant posture, abandon the finish and transition to the omoplata sweep by driving forward into their elevated center of gravity, which is actually easier to sweep when they are upright."

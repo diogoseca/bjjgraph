@@ -80,7 +80,7 @@ description: "Defend the guard pass from flattened half guard. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has both crossface and far hip control as they begin extraction. What is your best defensive option?",
+      "name": "They have crossface and far hip control and start extracting: your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With both controls established, your best option is to attempt a deep half guard entry if their hips rise during the extraction, or to clamp the hook as tightly as possible while working your inside elbow toward their hip line to create a frame. The far hip control limits your shrimp, so you must look for the micro-opportunities when their hand shifts or their pressure adjusts. Focus on getting your inside elbow to their hip as the immediate priority, as this single frame can create enough space for a follow-up shrimp."

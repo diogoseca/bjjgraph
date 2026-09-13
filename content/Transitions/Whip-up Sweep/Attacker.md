@@ -82,7 +82,7 @@ description: "How to execute Whip-up Sweep in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent is sitting back with their weight on their heels while you have lockdown established - should you attempt the whip-up?",
+      "name": "They sit back on their heels while you have lockdown: should you attempt the whip-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No - the whip-up needs the opponent's forward pressure, so against rearward weight you attack Old School or Electric Chair instead. The sweep works by exploiting their forward weight commitment, while those two attacks exploit rearward weight distribution. This forward/backward dilemma is the core of the lockdown offensive system - defending one attack opens the other."
@@ -98,7 +98,7 @@ description: "How to execute Whip-up Sweep in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "What direction of force does the lockdown extension create, and how does it complement the upper-body drive?",
+      "name": "What force does the lockdown extension create, and how does it complement the upper-body drive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lockdown extension pulls the opponent's trapped leg backward toward your hips while the upper-body drive pushes their torso forward and upward. These opposing forces create a rotational moment that collapses the opponent's base by moving their upper body and lower body in opposite directions simultaneously. The extension breaks their structural integrity so the upper-body whip-up encounters minimal resistance."
@@ -106,7 +106,7 @@ description: "How to execute Whip-up Sweep in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "During the whip-up, your opponent posts their far hand on the mat to prevent being swept - how do you adjust?",
+      "name": "They post their far hand to stop your whip-up: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts their hand, they create a wide base that stops the sweep but exposes their back. Use this as an opportunity to circle behind them with your underhook. Drive your head past their shoulder on the underhook side while releasing the lockdown, and insert your near-side hook behind their knee. Their posted hand anchors them in place, making it difficult to turn and face you as you take their back."
@@ -114,7 +114,7 @@ description: "How to execute Whip-up Sweep in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Why is it important to maintain the lockdown throughout the entire whip-up motion rather than releasing it early?",
+      "name": "Why keep the lockdown throughout the whip-up instead of releasing it early?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keeping the lockdown both powers the off-balancing extension and stops the opponent from freeing their trapped leg to re-base and pass. Releasing early lets the opponent free the leg, step wide, and re-establish a passing position, which nullifies the sweep entirely. Only release after reaching dogfight or when committing to a back take where you no longer need the leg control."

@@ -74,7 +74,7 @@ description: "Execute the Frame from Shoulder of Justice as the bottom player. S
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How does the Frame from Shoulder of Justice differ from the Frame Escape from Shoulder of Justice in terms of objective?",
+      "name": "How does Frame from Shoulder of Justice differ in objective from the Frame Escape version?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Frame from Shoulder of Justice aims to degrade the position to standard side control bottom by disrupting the 45-degree shoulder pressure angle, giving access to the full range of side control escapes. The Frame Escape from Shoulder of Justice aims for complete guard recovery to half guard. This technique is a partial improvement that serves as the first step in a multi-technique escape chain rather than a standalone escape."
@@ -90,7 +90,7 @@ description: "Execute the Frame from Shoulder of Justice as the bottom player. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent collapses your frame by driving heavier weight through their shoulder. What is the correct response?",
+      "name": "They collapse your frame with heavier shoulder weight under Shoulder of Justice — response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain the frame through skeletal alignment rather than escalating to muscular resistance. If the frame fully collapses, retract the arm tight to your ribs and wait for the next micro-adjustment to re-insert the wedge. Do not extend the arm further as a reaction to the increased pressure, as this is precisely the kimura-exposing response the pressure is designed to provoke."
@@ -98,7 +98,7 @@ description: "Execute the Frame from Shoulder of Justice as the bottom player. S
     },
     {
       "@type": "Question",
-      "name": "What is the optimal amount of hip escape needed for this technique, and why is a large hip escape counterproductive?",
+      "name": "How much hip escape does this frame need, and why is a big hip escape counterproductive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Only two to four inches of hip escape is needed to reinforce the frame's disruption of the shoulder pressure angle. A large hip escape creates significant space that the opponent can use to advance to mount before you have established a knee shield, which is not part of this technique's objective. The small hip escape changes the angle without creating the space that invites mount transition."
@@ -106,7 +106,7 @@ description: "Execute the Frame from Shoulder of Justice as the bottom player. S
     },
     {
       "@type": "Question",
-      "name": "How do you confirm that the Shoulder of Justice has been successfully degraded to standard side control?",
+      "name": "How do you confirm Shoulder of Justice has been degraded to standard side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The jaw is no longer under direct shoulder blade attack from a concentrated 45-degree angle. The opponent's pressure feels diffused across your chest rather than focused through a single point on your jaw. Their shoulder may still be heavy but has lost the specific alignment into your temporomandibular joint that creates the intense discomfort and dilemma system of the Shoulder of Justice."
@@ -114,7 +114,7 @@ description: "Execute the Frame from Shoulder of Justice as the bottom player. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent reaches for a kimura grip when your forearm separates slightly during frame insertion. How fast must you react?",
+      "name": "Your forearm separates and they reach for a kimura during frame insertion — how fast must you react?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must retract the arm to your ribcage within one to two seconds before the opponent secures a two-on-one grip on your wrist. The kimura window is brief if you react quickly because the opponent must release their pressure base to reach for the grip. Immediately clamp your elbow to your ribs and grip your own shorts or belt. Abandoning one frame attempt is far better than losing the arm to a kimura from this position."

@@ -309,7 +309,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their hips toward you while you're establishing the cup grip — what adjustment prevents escape?",
+        "question": "They rotate their hips toward you as you set the Honey Hole cup grip—what prevents escape?",
         "answer": "Immediately drive your outside leg deeper across their hip to pin them flat, and follow their rotation with your own hips to maintain perpendicular alignment. Do not release the triangle to chase the rotation — instead, tighten the triangle and accelerate your grip sequence. If they commit heavily to rotation, the heel is momentarily more exposed, so capitalize by securing the cup grip during their movement rather than after they settle.",
         "safety_critical": false,
         "answer_line": "Follow hips, tighten triangle",
@@ -369,7 +369,7 @@
         }
       },
       {
-        "question": "Your cup grip is shallow and you feel the opponent's foot sliding — how do you adjust without losing position?",
+        "question": "Your cup grip is shallow and their foot is sliding—how do you adjust without losing position?",
         "answer": "Do not release and re-grip, as this creates an escape window. Instead, use your secondary hand to push the ball of the opponent's foot toward you, which feeds the heel deeper into your primary hand. Simultaneously squeeze your elbows tighter together to prevent any further slippage. If the foot continues sliding despite adjustment, release the heel attempt entirely, re-establish positional control, and re-expose the heel properly before attempting the grip again.",
         "safety_critical": false,
         "answer_line": "Push foot in, squeeze elbows",
@@ -384,7 +384,7 @@
         }
       },
       {
-        "question": "Why is the heel hook from Honey Hole considered more dangerous than heel hooks from other leg entanglements?",
+        "question": "Why is the Honey Hole heel hook more dangerous than from other leg entanglements?",
         "answer": "The inside leg triangle of Honey Hole prevents the opponent from rotating their knee in alignment with the heel hook force, which is the primary defense against rotational leg locks. In outside ashi or standard ashi positions, the opponent can rotate their knee to match the direction of force, reducing ligament stress. The Honey Hole triangle locks the knee in place while the heel is rotated, creating maximum shear force across the ligaments with no available escape mechanism once the grip is established.",
         "safety_critical": true,
         "answer_line": "Triangle blocks knee rotation",
@@ -414,7 +414,7 @@
         }
       },
       {
-        "question": "In a competition setting, how do you adjust your finishing approach when the referee is watching for submission signals?",
+        "question": "In competition, how do you adjust your Honey Hole heel hook finish with the referee watching?",
         "answer": "In competition, secure the full control sequence before attacking the heel to demonstrate positional dominance and avoid premature stalling calls. Apply the finish decisively but progressively — competition application is faster than training but still controlled, taking 2-3 seconds of escalating pressure. Maintain the position after the tap signal until the referee intervenes. If the opponent does not tap, continue progressive pressure and look for the referee to stop the match. Never release because you assume the opponent should have tapped.",
         "safety_critical": false,
         "answer_line": "Control first, finish progressively",
@@ -429,7 +429,7 @@
         }
       },
       {
-        "question": "Your opponent defends by hiding their heel deep against their own body — what submission chain should you pursue?",
+        "question": "They hide the heel deep against their own body in Honey Hole—what submission chain follows?",
         "answer": "Transition to the kneebar by extending their trapped leg and driving downward pressure on the knee joint. The boot-hiding defense actually straightens the leg and exposes the knee for kneebar finish. If they bend the knee to defend the kneebar, the heel re-emerges for the heel hook. This creates a binary dilemma: straighten the leg to hide the heel and expose the knee, or bend the knee to protect it and expose the heel. Alternate between threats based on their defensive choice.",
         "safety_critical": false,
         "answer_line": "Kneebar, then back to heel hook",
@@ -594,7 +594,7 @@
         }
       },
       {
-        "question": "What is the highest-percentage defensive response when you first feel the Honey Hole triangle forming?",
+        "question": "What is the highest-percentage defense when you first feel the Honey Hole triangle forming?",
         "answer": "Explosive hip rotation toward the opponent's legs to enter 50-50 guard is the highest-percentage escape. This must be executed within 1-2 seconds of feeling the triangle form, before the opponent secures your heel. The rotation neutralizes their inside position advantage by creating symmetrical entanglement. Commit fully with maximum force — partial rotation fails and worsens your position. This escape becomes dramatically less effective once the opponent has upper body control or heel access.",
         "safety_critical": false,
         "answer_line": "Rotate hips into 50-50 fast",

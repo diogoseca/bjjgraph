@@ -84,7 +84,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Side Control
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the arm triangle is properly locked and the opponent has passed the point of no escape?",
+      "name": "What shows the side control arm triangle is locked and they've passed the point of no escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke is properly locked when the opponent's trapped shoulder bone is pressing firmly into their own neck with zero space between your chest and their body, your hip is dropped to the mat on the trapped-arm side, and your head is sealed to the mat on the far side. The opponent has passed the point of no escape when they cannot create any frame with their free hand, cannot generate an effective bridge, and their defensive movements become visibly weaker and less coordinated. Facial color changes indicate the blood restriction is taking effect."
@@ -92,7 +92,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Side Control
     },
     {
       "@type": "Question",
-      "name": "What control must be established before transitioning from side control crossface to the head-and-arm arm triangle grip?",
+      "name": "Before switching to the head-and-arm grip from side control, what must secure the trapped arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before releasing the crossface grip, the attacker must pin the opponent's near arm against their own neck using full chest weight compression. The trapped arm must be completely immobilized by body pressure with no gap between the opponent's shoulder and their neck. If chest pressure does not fully secure the arm before the grip switch begins, the opponent will retract their arm during the vulnerable transition moment and the arm triangle opportunity is lost."
@@ -100,7 +100,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Side Control
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts bridging toward the trapped-arm side as you walk to the finishing angle - what adjustment prevents escape?",
+      "name": "Your opponent bridges toward the trapped arm as you walk to the finishing angle—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your far-side hand on the mat and widen your base toward the direction of the bridge to absorb the explosive movement without losing the head-and-arm grip. Keep your chest heavy on the opponent's face and shoulder throughout the bridge. Once the bridge peaks and the opponent settles back to the mat, immediately resume walking to the perpendicular angle. If the bridge is powerful enough to compromise your grip or angle, settle back into side control and re-establish the setup rather than forcing a finish from a compromised position."

@@ -76,7 +76,7 @@ description: "How to execute Chin Strap Guillotine in BJJ. Attacking perspective
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum time you should take to apply finishing pressure in the chin strap guillotine during training?",
+      "name": "How long should applying finishing pressure in the chin strap guillotine take in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should take a minimum of 3-5 seconds to apply finishing pressure during training, always progressing slowly and progressively. This allows your training partner ample time to recognize the danger and tap safely. Never apply sudden or explosive pressure to any neck submission in training. The speed should be slow enough that your partner can tap at any point before feeling serious discomfort. In drilling, you should apply even less pressure - only enough for your partner to feel the position and mechanics."
@@ -108,7 +108,7 @@ description: "How to execute Chin Strap Guillotine in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "How should you position the opponent's head from the front headlock to create the proper chin strap angle?",
+      "name": "Where should your opponent's head be to create the chin strap angle from the front headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should position the opponent's head clearly to one side of your body rather than centered in front of you. This lateral positioning is crucial because it creates the proper angle for your choking arm to thread deeply under their chin and reach across toward their far ear. If their head is centered, you won't be able to get the deep penetration needed for the chin strap - you'll end up with a weak traditional guillotine position instead. The side positioning also allows your shoulder to drive into the side of their neck effectively, creating the necessary pressure on the near-side carotid artery."

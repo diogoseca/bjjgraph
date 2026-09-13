@@ -110,6 +110,11 @@
       "principle_name": "Posture",
       "relationship_type": "Extension",
       "description": "Breaking opponent's posture relies fundamentally on leverage - creating fulcrum points and applying force through favorable lever arm ratios to overcome their structural stability and base."
+    },
+    {
+      "principle_name": "Limb Isolation",
+      "relationship_type": "Complementary",
+      "description": "Separating a limb from its supporting connections makes its lever easier to control."
     }
   ],
   "application_contexts": [
@@ -393,6 +398,11 @@
       "name": "Posture",
       "content_type": "Principle",
       "relationship": "Relies fundamentally on leverage to create fulcrum points and apply force through favorable lever arm ratios to overcome opponent's structural stability"
+    },
+    {
+      "name": "Limb Isolation",
+      "content_type": "Principle",
+      "relationship": "Separating a limb from its supporting connections makes its lever easier to control."
     }
   ],
   "flashcards": [
@@ -542,5 +552,9 @@
       "duration": 363,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Levers can guide how any position, transition, or submission is performed, prevented, or trained. Its application includes top, bottom, attacker, and defender."
+  }
 }

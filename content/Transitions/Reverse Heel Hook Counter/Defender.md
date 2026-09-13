@@ -56,7 +56,7 @@ description: "How to defend against Reverse Heel Hook Counter in BJJ. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You are attacking from ushiro ashi-garami and feel your opponent's hips rotating toward your leg. What does this indicate?",
+      "name": "Attacking from ushiro ashi-garami, their hips rotate toward your leg. What does that mean?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This rotation toward your attacking leg rather than away indicates the opponent is initiating a reverse heel hook counter rather than a standard escape. Standard escapes involve rotating away to clear legs, while counter-attacks require rotating toward your leg to establish entanglement. You should immediately assess your grip depth and decide whether to accelerate your finish or withdraw your leg."
@@ -64,7 +64,7 @@ description: "How to defend against Reverse Heel Hook Counter in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your heel hook grip is shallow and your opponent has begun threading their leg between yours. Should you race to finish?",
+      "name": "Your heel hook grip is shallow and they're threading a counter leg. Should you race to finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No — with a shallow grip, withdraw your attacking leg and reset before their counter-entanglement completes. Racing to finish is a losing strategy because their counter will establish before your finish materializes. Reset your ushiro control with tighter inside leg pressure, and re-attack with better grip establishment before adjusting again."
@@ -80,7 +80,7 @@ description: "How to defend against Reverse Heel Hook Counter in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "How do you determine whether you have enough grip advantage to win a leg lock exchange if the counter is established?",
+      "name": "What tells you whether you'll win the leg lock exchange once their counter is established?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Evaluate grip depth, positional timing, and finishing proximity — if you had deep grip before their counter began, you typically win. Grip depth asks whether your heel hook grip is past the point of no return or still establishing; positional timing asks whether you had your grip before they entered counter position; finishing proximity asks how many adjustments remain before your submission is complete. If both grips are establishing simultaneously, the exchange is a coin flip."
@@ -88,7 +88,7 @@ description: "How to defend against Reverse Heel Hook Counter in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully establishes inside ashi-garami on your leg during the counter. What is the most dangerous mistake at this point?",
+      "name": "They establish inside ashi-garami on your leg in the counter. What is the most dangerous mistake?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most dangerous mistake is freezing or becoming indecisive. Once the counter is established, you must immediately commit to a plan: either finish your heel hook if your grip is deeper, engage in the exchange if grips are equal, or release your attack and address your own defense if their position is superior. Hesitation allows them to solidify their position while your grip remains static, progressively worsening your odds in the exchange."

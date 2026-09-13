@@ -56,7 +56,7 @@ description: "How to defend against Lapel Grip Break and Posture Recovery in BJJ
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing to attempt a sweep when the top player is breaking your Ringworm Guard grip?",
+      "name": "When is the best moment to sweep as the top player breaks your Ringworm Guard lapel grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal sweep window is when the top player commits both hands to the two-on-one grip strip. At this moment, they have sacrificed their posting ability and base integrity, making them maximally vulnerable to off-balancing. Use the remaining lapel tension combined with leg elevation to direct the sweep toward their trapped leg side where their base is weakest."
@@ -64,7 +64,7 @@ description: "How to defend against Lapel Grip Break and Posture Recovery in BJJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially stripped the lapel grip but has not yet secured the tail - what should you prioritize?",
+      "name": "They partly stripped your lapel but haven't secured the tail — what do you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-grip and retighten the lapel before they complete the strip and secure the tail themselves. Pull the lapel tail back toward your hip while simultaneously using your legs to create distance or frames that disrupt their hand positioning. Speed of re-gripping is critical because once they control the tail, your Ringworm Guard is effectively neutralized."
@@ -72,7 +72,7 @@ description: "How to defend against Lapel Grip Break and Posture Recovery in BJJ
     },
     {
       "@type": "Question",
-      "name": "Why should you maintain secondary controls beyond just the lapel grip when defending against this technique?",
+      "name": "Why keep controls beyond the lapel grip when defending the Ringworm Guard grip break?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The top player's grip break is specifically designed to address the lapel control. If the lapel is your only control point, its removal leaves you with nothing. Secondary controls through sleeve grips, butterfly hooks, shin shields, and hip positioning create a layered defense where losing the lapel still leaves you with functional guard retention. These layers also create the offensive threats that disrupt their systematic extraction."
@@ -80,7 +80,7 @@ description: "How to defend against Lapel Grip Break and Posture Recovery in BJJ
     },
     {
       "@type": "Question",
-      "name": "The top player begins standing up during their grip break - how does this change your defensive strategy?",
+      "name": "The top player stands up during their grip break — how does your defense change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standing creates distance and height advantage that favors their grip strip, so you must counter by following their elevation. Extend your hips upward, place feet on their hips, and maintain close connection through leg engagement. Their elevated center of gravity actually makes them more vulnerable to sweeps if you can maintain the lapel connection. Use the standing posture against them by loading their weight forward through the lapel."

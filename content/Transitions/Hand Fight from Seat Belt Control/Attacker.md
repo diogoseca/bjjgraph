@@ -80,7 +80,7 @@ description: "Master the hand fight from seat belt back control bottom position.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent has a strong gable grip connecting their seat belt - which arm should you prioritize stripping first and why?",
+      "name": "They have a gable-gripped seat belt on your back — which arm do you strip first and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize the over-shoulder arm because it serves as both the primary choking platform and the structural keystone of the seat belt configuration. The over-arm provides the diagonal downward force that pins your shoulder and creates the angle needed for rear naked choke entry. Once the over-arm is stripped, the under-arm alone cannot maintain the same level of control or submission threat, making subsequent escape significantly easier. The under-arm without the over-arm becomes a single underhook with limited controlling power."
@@ -88,7 +88,7 @@ description: "Master the hand fight from seat belt back control bottom position.
     },
     {
       "@type": "Question",
-      "name": "During your hand fight attempt, your opponent begins sliding their forearm toward your neck - what is your immediate response?",
+      "name": "Mid grip fight, their forearm slides toward your neck — immediate response from back bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the grip break and return both hands to neck defense. Tuck your chin harder to your chest and use a two-on-one grip on their advancing forearm to pull it away from your throat. Only resume hand fighting once the choke threat is fully neutralized and your neck defense is re-established. The hand fight can always be restarted from zero, but allowing a choke to lock in during the grip fight may end the match within seconds as the rear naked choke compresses carotid arteries rapidly."
@@ -104,7 +104,7 @@ description: "Master the hand fight from seat belt back control bottom position.
     },
     {
       "@type": "Question",
-      "name": "How do you prevent your opponent from immediately re-gripping after you strip one arm of the seat belt?",
+      "name": "After stripping one seat belt arm, how do you stop them from immediately re-gripping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After stripping the over-arm, immediately pin it against your body by trapping it between your elbow and hip or by controlling the wrist against your torso with one hand. Maintain constant downward pressure on the stripped arm while transitioning your remaining free hand to begin attacking the under-arm. The critical error is releasing the stripped arm entirely to address the second grip with both hands, which allows instant re-connection. Keep the first arm physically controlled throughout the entire remaining sequence until you transition to an escape."
@@ -112,7 +112,7 @@ description: "Master the hand fight from seat belt back control bottom position.
     },
     {
       "@type": "Question",
-      "name": "Your opponent switches from seat belt to a gift wrap grip when you begin hand fighting - how should you adjust your defense?",
+      "name": "They switch from seat belt to gift wrap as you hand fight — how do you adjust your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recognize that the transition between grip configurations creates a brief window of reduced control where opponent must release one or both connection points to reconfigure. This transition moment offers the best escape opportunity - use it to immediately initiate hip escape or begin turning into your opponent. If they complete the gift wrap before you can escape, address this new configuration with arm extraction and rotation toward the trapped arm side, which is a different technical sequence than seat belt stripping."

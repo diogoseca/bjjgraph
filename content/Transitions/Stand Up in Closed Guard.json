@@ -281,7 +281,7 @@
         "answer_line": "Staggered stance, triangle base"
       },
       {
-        "question": "Your opponent grabs your collar with both hands as you begin to post your first foot—how do you respond?",
+        "question": "They grab both collars as you post your first foot to stand in closed guard. Response?",
         "answer": "Abort the standing attempt and immediately address the grips before continuing. Use a two-on-one grip break on the more dominant collar grip first, typically the cross collar grip, by grabbing their wrist with both hands and pushing it toward their centerline while pulling your collar free. Once the primary grip is broken, address the secondary grip. Only resume the standing sequence once both collar grips are neutralized, as standing into double collar grips virtually guarantees being pulled back down.",
         "answer_line": "Break both grips before standing",
         "distractors": {
@@ -323,7 +323,7 @@
         }
       },
       {
-        "question": "Your opponent shoots their hips up for an armbar as you post your foot to stand—what caused this vulnerability and how do you prevent it?",
+        "question": "They hip up for an armbar as you post to stand in closed guard. Cause and prevention?",
         "answer": "This vulnerability occurs when you lean forward during the foot post, placing your weight over the opponent's hips rather than keeping it over your own base. The forward lean brings your arm within range of their hip elevation for armbar attacks. Prevent this by driving upward and slightly backward when posting your foot, keeping your elbows tight to your body rather than extended, and maintaining both hands pressed down on their hips so they cannot create the upward hip angle needed for the armbar entry. If caught mid-transition, immediately drive your weight back and retract your arm.",
         "answer_line": "Don't lean forward; keep arm tight",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "What is the most common grip configuration the bottom player uses to prevent your stand-up and how do you address it?",
+        "question": "Which grip combination best stops your stand-up from closed guard, and how do you strip it?",
         "answer": "The most effective anti-stand-up grip combination is a cross collar grip paired with a same-side sleeve grip. The collar grip enables posture breaking and pulling you back down, while the sleeve grip prevents you from establishing hand position on their hips and controls one arm for submission threats. Address these grips sequentially, breaking the collar grip first with a two-on-one break since it poses the greater threat to your posture, then stripping the sleeve grip before re-establishing both hands on their hips and initiating the stand.",
         "answer_line": "Cross collar + same-side sleeve",
         "distractors": {
@@ -379,7 +379,7 @@
         "answer_line": "After grips cleared, foot posted"
       },
       {
-        "question": "If the bottom player blocks your stand by climbing their guard high onto your upper back, what chain attack opens the break?",
+        "question": "They climb their closed guard high onto your upper back to block your stand. How do you break it?",
         "answer": "Drop your hips and hand-walk one of their feet down off your back, or pin one knee across your centerline to flatten the ankle lock against the mat. Alternatively, sit your hips back and step one leg through to load their legs to one side, converting the failed straight break into a leg-pin or stack that pries the ankles apart. The principle is to break the high lock by attacking the feet directly or by changing the angle so gravity again loads the crossed ankles.",
         "distractors": {
           "plausible": [
@@ -520,7 +520,7 @@
         }
       },
       {
-        "question": "Your opponent has achieved a full standing position and your guard is about to break from gravity pressure—what is your best defensive transition?",
+        "question": "You're standing and your closed guard is about to be broken by gravity. What's your best transition?",
         "answer": "Rather than desperately holding closed guard against unsustainable pressure, proactively open your guard and immediately establish feet on both hips with active collar and sleeve grips. This voluntary transition to open guard maintains your offensive capability and defensive structure, whereas being forcibly broken open typically results in your legs being controlled without any defensive grips in place. The key is making this transition before the guard breaks, not after.",
         "answer_line": "Proactively open guard, grip up",
         "distractors": {
@@ -534,7 +534,7 @@
         }
       },
       {
-        "question": "What sweep has the highest percentage success rate during your opponent's transition from kneeling to standing?",
+        "question": "Which sweep is highest percentage as they move from kneeling to standing in your closed guard?",
         "answer": "The hip bump sweep is the highest percentage option during this transition because it directly exploits the primary vulnerability of the stand-up: the forward weight shift and narrowing base as one knee lifts off the mat. By timing the hip bump to coincide with their upward drive, you redirect their transitional momentum laterally against their compromised base. The flower sweep is a strong secondary option that uses their upward momentum against them when they commit to the standing motion.",
         "answer_line": "Hip bump sweep",
         "distractors": {
@@ -562,7 +562,7 @@
         }
       },
       {
-        "question": "How should you adjust your guard retention strategy once your opponent has fully established a stable standing position?",
+        "question": "Once they are stably standing, how should you adjust your closed guard retention plan?",
         "answer": "Once they are fully standing with a stable staggered stance, shift your strategy from trying to maintain closed guard to establishing the best possible open guard position. Climb your guard as high as possible on their torso to delay the break, then proactively open guard with feet on hips and established collar and sleeve grips before the guard is forcibly broken. This transitions you into an organized open guard with offensive capability rather than a scramble. Key grips to establish before opening are cross-collar and same-side sleeve, which provide immediate sweep and submission options from open guard.",
         "answer_line": "Climb high, then open with grips",
         "distractors": {

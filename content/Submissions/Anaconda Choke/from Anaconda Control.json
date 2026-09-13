@@ -423,7 +423,7 @@
         }
       },
       {
-        "question": "What is the proper body position for finishing the Anaconda choke after establishing the figure-four grip?",
+        "question": "What body position finishes the anaconda choke once the figure-four grip is locked?",
         "answer": "Roll to your side (the side of your choking arm) with your back on the mat and opponent on their side facing away from you. Bring your knees up toward your chest in a ball position. From here, squeeze elbows together to tighten the figure-four, expand your chest by arching slightly, and drive hips forward toward opponent's body. This combination of elbow squeeze, chest expansion, and hip pressure creates the finishing mechanism.",
         "safety_critical": false,
         "answer_line": "Roll to side, ball up, squeeze",
@@ -498,7 +498,7 @@
         }
       },
       {
-        "question": "Your opponent begins straightening their trapped arm during your Anaconda attempt - what adjustment prevents escape?",
+        "question": "They straighten the trapped arm during your anaconda — what adjustment stops the escape?",
         "answer": "When opponent straightens their trapped arm, you have two options: if you can react quickly, use your legs to hook their straightening arm and pull it back into the trapped position against their neck. If their arm has already straightened significantly, immediately transition to the Darce choke by adjusting your choking arm to thread on the opposite side of their neck. The arm straightening defense opens the Darce angle perfectly, making this a seamless chain.",
         "safety_critical": false,
         "answer_line": "Hook with legs or chain to Darce",
@@ -697,7 +697,7 @@
         }
       },
       {
-        "question": "When caught in a fully locked Anaconda after the roll, what is the correct survival and escape sequence?",
+        "question": "Caught in a fully locked anaconda after the roll, what is your survival and escape sequence?",
         "answer": "First, use your free hand to attack the grip at the point where their hands connect - pull on their top wrist to create any space at all around your neck. Simultaneously, work to straighten your trapped arm even partially. If you can create breathing space, bridge explosively toward your opponent while continuing to attack their grip. Use the bridge momentum to turn into them and recover a scramble position. If the choke is fully locked with no space and you cannot effectively fight the grip, tap immediately - the Anaconda causes unconsciousness in 3-5 seconds once both carotids are compressed.",
         "safety_critical": true,
         "answer_line": "Peel the grip, bridge, turn in",
@@ -712,7 +712,7 @@
         }
       },
       {
-        "question": "Why is circling direction critical when escaping Anaconda control, and which direction should you move?",
+        "question": "Which way should you circle to escape anaconda control, and why does direction matter?",
         "answer": "Circle away from the choking arm side - this means moving toward your free-side shoulder. Circling in this direction works against the constricting loop by creating the angle that opens the choke and allows your trapped arm to escape. Circling toward the choking arm (the wrong direction) tightens the loop around your neck and drives your shoulder deeper into your own carotid. The correct circling direction also creates distance from your opponent's hips, reducing their ability to drive finishing pressure.",
         "safety_critical": false,
         "answer_line": "Circle toward your free shoulder",
@@ -727,7 +727,7 @@
         }
       },
       {
-        "question": "Your opponent has locked the figure-four but has not yet rolled - what defensive window exists and how do you exploit it?",
+        "question": "They locked the figure-four but have not rolled yet — how do you use this window?",
         "answer": "This is a critical defensive window because the Anaconda is significantly harder to finish from the top position without the roll. Use your free hand to post on their hip or thigh to prevent the roll. Simultaneously, work to straighten your trapped arm. If you can prevent the roll and extract your arm, the choke collapses. Even if you cannot free the arm, denying the roll forces your opponent to hold the Anaconda from top where hip pressure is unavailable, giving you time to hand fight and eventually escape. Keep your base wide and low to resist the roll.",
         "safety_critical": false,
         "answer_line": "Post on hip, block the roll",

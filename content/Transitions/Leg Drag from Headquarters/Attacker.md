@@ -90,7 +90,7 @@ description: "Complete attacking guide for the leg drag pass from headquarters. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent pushes your knee with their foot-on-hip while you are in headquarters - how do you convert this into a leg drag?",
+      "name": "They push your hip with a foot from headquarters. How do you turn that into a leg drag?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The foot-on-hip push straightens their leg and exposes the ankle for grip. Capture the pushing foot at the ankle with your control hand, strip it off your hip by pulling laterally, and immediately execute the drag motion across their centerline. Their own pushing force creates momentum that assists the drag. The key timing detail is capturing the ankle before they retract the foot, which requires reading the push as it initiates rather than reacting after the fact."
@@ -114,7 +114,7 @@ description: "Complete attacking guide for the leg drag pass from headquarters. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins recovering half guard by hooking your trailing leg during your leg drag attempt - what adjustment do you make?",
+      "name": "They hook your trailing leg for half guard during your leg drag. What adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent catches a half guard hook during the drag, do not abandon the drag entirely. Continue driving your upper body control forward while using your free leg to backstep out of the half guard hook. The upper body control prevents the opponent from consolidating half guard even if they momentarily catch your leg. Alternatively, accept the half guard catch and immediately transition your weight to a knee slice or smash pass from the new half guard position, using the momentum from the failed drag to power the alternative pass."

@@ -68,7 +68,7 @@ description: "How to execute Tani Otoshi in BJJ. Attacking perspective with setu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical principle that makes Tani Otoshi effective despite being a sacrifice throw?",
+      "name": "What mechanical principle makes Tani Otoshi work despite sacrificing your own base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary principle is creating a rigid mechanical obstacle (your blocking leg) below the opponent's center of gravity while simultaneously pulling their upper body forward and across your body. This creates a lever system where their forward momentum and body weight work against them, making it nearly impossible to maintain balance once properly executed. The sacrifice of your own base is compensated by the overwhelming mechanical advantage created through the leg block combined with rotational pulling force from upper body grips."
@@ -76,7 +76,7 @@ description: "How to execute Tani Otoshi in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Why is the lateral angle step critical to Tani Otoshi's success, and what happens if you attempt the throw from directly in front of your opponent?",
+      "name": "Why is the lateral angle step vital in Tani Otoshi, and what fails if you attack head-on?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lateral angle step (typically 45 degrees) is critical because it positions your blocking leg across the opponent's leg line while simultaneously loading their weight onto the leg you intend to block. Attempting from directly in front means your blocking leg would need to wrap around further, giving opponent time to react and step over. The angle also creates rotational momentum that amplifies the throw. Without proper angle, the throw becomes a strength contest rather than a technical leverage advantage."
@@ -84,7 +84,7 @@ description: "How to execute Tani Otoshi in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Your opponent is aggressively driving forward with collar tie pressure - how does this create an opportunity for Tani Otoshi?",
+      "name": "They drive forward with a collar tie. How does that open the Tani Otoshi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pressure loads the opponent's weight onto their front foot, which is exactly the weight distribution Tani Otoshi exploits. Instead of fighting the pressure, use it by taking a lateral step to create your angle while they continue driving forward. Their forward momentum adds to the rotational force of the throw when you drop and block. The key is redirecting their forward energy laterally rather than absorbing it. Time the drop for the moment their weight is most committed forward, typically during a strong push or step."
@@ -100,7 +100,7 @@ description: "How to execute Tani Otoshi in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "You attempt Tani Otoshi but your opponent steps over your blocking leg - what are your two best immediate tactical responses?",
+      "name": "They step over your Tani Otoshi blocking leg. What are your two best immediate responses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First option: immediately transition to a single leg attack on the leg that stepped over your block, as it is now extended and isolated forward. Drive into the single leg as you come up from your dropped position. Second option: convert to butterfly guard by inserting hooks behind both of their knees from your seated position. This maintains offensive initiative and prevents opponent from capitalizing on your failed throw. Never remain static in the failed position waiting for them to pass."
@@ -108,7 +108,7 @@ description: "How to execute Tani Otoshi in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "How should you adjust Tani Otoshi execution against an opponent who is significantly taller than you?",
+      "name": "How do you adjust Tani Otoshi against a significantly taller opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against taller opponents, close distance more aggressively in the setup phase to negate their reach advantage. Your blocking leg should target lower on their leg (upper shin area rather than knee) since their longer limbs create more leverage to step over higher blocks. Pull their upper body down more aggressively during the throw to overcome their height advantage. Consider using collar ties or head control to break their posture before attempting the throw. The lateral step may need to be slightly deeper to create proper angle given their longer stride length."

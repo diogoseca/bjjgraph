@@ -76,7 +76,7 @@ description: "How to execute Rolling Kneebar in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins back stepping away from your grasshopper guard - how does this affect your Rolling Kneebar timing?",
+      "name": "They back step away from your grasshopper guard; how does that affect rolling kneebar timing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The back step creates the ideal moment to initiate the Rolling Kneebar. Their retreating motion creates space for your roll and provides directional momentum that facilitates the technique. Initiate the roll immediately as they commit to the back step, using their movement to carry your rotation."
@@ -92,7 +92,7 @@ description: "How to execute Rolling Kneebar in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand and sprawls as you initiate the roll - what adjustment should you make?",
+      "name": "They post and sprawl as you start the rolling kneebar; what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the sprawl stops your roll, immediately convert to an inside heel hook by retracting the trapped leg toward your hips and rotating to outside ashi position. The sprawl often exposes their heel for this counter-attack while their posted hand prevents them from defending the new submission angle."

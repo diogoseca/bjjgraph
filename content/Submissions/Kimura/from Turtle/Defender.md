@@ -58,7 +58,7 @@ description: "How to defend against Kimura from Turtle in BJJ. Recognition, esca
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important preventive action to avoid the Kimura from turtle before it begins?",
+      "name": "In turtle, what single preventive action best stops the Kimura before it starts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important preventive action is keeping your elbows tight to your ribs and knees throughout the turtle position, never extending or posting with a straight arm when an opponent is at your side. The Kimura requires the attacker to thread their arm underneath yours, which is only possible when your elbow separates from your body. By maintaining a tight defensive shell with elbows glued to your sides, you deny the initial access needed for the figure-four grip. This is far more effective than any late-stage escape because it prevents the submission from ever developing."
@@ -66,7 +66,7 @@ description: "How to defend against Kimura from Turtle in BJJ. Recognition, esca
     },
     {
       "@type": "Question",
-      "name": "If the figure-four grip is locked and you feel rotational pressure beginning, what should your immediate priority be and why?",
+      "name": "The figure-four is locked from turtle and rotation is starting. What is your first priority and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority must be clamping the trapped arm's elbow as tightly as possible to your own body while simultaneously grabbing your own wrist, lapel, or belt with your trapped hand. This creates a structural defense that prevents the attacker from generating the rotational torque needed to damage the shoulder. The reason this takes priority over positional escape is safety - if you try to roll or move before neutralizing the rotational pressure, you risk the attacker finishing the submission during your movement. Stabilize the shoulder first, then work your positional escape. If the pressure is already causing pain, tap immediately rather than attempting a late escape."
@@ -74,7 +74,7 @@ description: "How to defend against Kimura from Turtle in BJJ. Recognition, esca
     },
     {
       "@type": "Question",
-      "name": "Why should you roll toward the trapped arm side rather than away from it when escaping the Kimura from turtle?",
+      "name": "Escaping the Kimura from turtle, why roll toward the trapped arm rather than away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rolling toward the trapped arm side is biomechanically correct because it reduces the Kimura's rotational angle and disrupts the attacker's leverage. The Kimura works by rotating your forearm toward your lower back, driving your wrist behind you (internal rotation) - rolling toward the trapped arm moves your body in the same direction as the lock's force, taking the slack out of the rotation and neutralizing it. Rolling away from the trapped arm (toward the attacker) actually accelerates the Kimura's rotational mechanism and can cause the attacker to finish the submission during your escape attempt. The correct roll pulls the attacker over you and typically results in guard or half guard recovery where the Kimura angle is neutralized."
@@ -82,7 +82,7 @@ description: "How to defend against Kimura from Turtle in BJJ. Recognition, esca
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured the Kimura grip from turtle but has not yet broken your base - what is the optimal escape sequence?",
+      "name": "They have the Kimura grip from turtle but your base is intact. What is the best escape sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the grip established but your base still intact, execute this sequence: (1) Immediately clamp your trapped elbow to your ribcage and grab your own wrist or belt with the trapped hand; (2) Begin moving your hips toward the trapped arm side, lowering your hip to the mat on that side; (3) Continue the rotation by sitting through toward the trapped arm, pulling the attacker's weight over you; (4) As you rotate, insert your near-side knee as a guard hook between you and the attacker; (5) Complete the turn to establish half guard or closed guard facing the attacker. Throughout this sequence, maintain your defensive grip on the trapped arm and keep the elbow pinned. The attacker's inability to prevent your rotation when they haven't broken your base makes this a high-percentage escape."
@@ -90,7 +90,7 @@ description: "How to defend against Kimura from Turtle in BJJ. Recognition, esca
     },
     {
       "@type": "Question",
-      "name": "What tactile and positional cues should alert you that a Kimura attack is developing from turtle before the grip is established?",
+      "name": "In turtle, what cues warn you a Kimura is developing before the grip is set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Several early warning cues indicate a developing Kimura: (1) The opponent shifts from behind you to a perpendicular angle at your side, which you feel as their weight moving from your back to your shoulder area; (2) You feel a hand controlling your wrist or tricep with a pulling sensation away from your body; (3) The opponent's arm begins threading under your arm, which you feel as forearm contact moving from the outside to the inside of your tricep; (4) Their chest pressure concentrates on one shoulder blade rather than across your upper back; (5) Their hips drive forward into your side rather than sitting behind you. Recognizing any combination of these cues should trigger immediate arm retraction and positional change before the figure-four can be established."
