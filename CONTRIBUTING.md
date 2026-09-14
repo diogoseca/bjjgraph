@@ -2,79 +2,67 @@
 
 The best contribution is a correction to the graph.
 
-If a position is missing a move, a probability feels wrong, a counter lands in the wrong place, or a note teaches the wrong thing, open an issue or a pull request. A short issue with a source, a match example, or a clear technical argument is useful.
+If a move is missing, a probability looks wrong or an outcome lands in the wrong state, open a [GitHub issue](https://github.com/diogoseca/bjjgraph/issues) or a pull request against the authored JSON. Include the state, role, ruleset and a source or technical argument. You do not need to run the project to report a correction.
 
 ## Propose a correction
 
-1. Find the authored JSON under `content/`.
-2. Change the smallest file that owns the fact.
-3. Run the validators below.
-4. Open one pull request for one correction.
+Work from `dev` and target your PR at `dev`. Keep one change per PR.
 
-Useful starting points:
+- `content/Positions/`: relatively stable states and each role's attempted moves.
+- `content/Transitions/`: transient states, including passes, sweeps, entries and escapes.
+- `content/Submissions/`: submission attempts, their possible outcomes and safety material; family hubs group related occurrences.
 
-- `content/Positions/` — which moves are offered from a position, and with what attempt weight.
-- `content/Transitions/` — transitions, sweeps, passes, entries and their outcomes.
-- `content/Submissions/` — finishes, safety notes and finish outcomes.
-- `docs/Content.md` — writing standards, wikilinks and source-file conventions.
-- `docs/Architecture.md` — how the graph model is built.
+Never edit `.md` files under `content/`. They are generated output and will be overwritten. Edit the JSON that owns the fact. Attacker and defender explanations are authored there too, not invented by the page templates.
 
-Never edit `.md` files under `content/`. They are generated output and will be overwritten. Edit the `.json` beside them, or the pipeline that emits them.
+## Content rules
+
+- Author probabilities as `{gi, nogi}` maps. Attempt weights sum to 100 per position role and ruleset; outcome weights sum to 100 per present ruleset.
+- `null` means an edge is unavailable in that ruleset. `0` means it exists with zero weight. Do not replace one with the other.
+- Give each technique a canonical `from_position`. Check that every offered move belongs to the correct role and that its outcomes have plausible destinations.
+- Outcomes target a position role-node, a real submission or `game-over`, never a bare position hub, a family hub or the technique itself. Only submission finishes reach `game-over`.
+- Wikilinks need a category prefix and exact case, for example `[[Positions/Mount]]`. The terminal alias `[[game-over]]` is the exception. Verify the target exists.
+- Submissions require safety guidance, tap recognition and immediate-release instructions. Do not treat a validator as a technical or safety review.
+
+Read [Content](docs/Content.md) for the authoring contract and the exact scope of each check; [Architecture](docs/Architecture.md) explains the representations and pipeline. State boundaries, mechanics and probability estimates still need practitioner review. Passing checks is not black-belt panel validation.
 
 ## Commands
 
-Install once:
+Use Node 22 and Python 3.11, matching CI. Install the Python dependencies in a virtual environment:
 
 ```sh
 npm install
-```
-
-Fast checks for content changes:
-
-```sh
+python3 -m pip install jsonschema jinja2
+# Edit the authored JSON, then run the fast checks.
 npm run validate:json
 npm run validate:graph
 ```
 
-Before a content pull request is ready:
+Before a content PR is ready, run the full chain:
 
 ```sh
 npm run regenerate:build
+npm run serve                 # http://localhost:8080
 ```
 
-That full command validates, regenerates generated Markdown and graph payloads, then builds the static site. It is the expensive but honest check for content work.
+**Full regeneration is not a read-only check.** It can invoke paid AI enrichment, normalize source data and regenerate Markdown, graph and app artifacts. It also needs the layout dependencies (`node2vec`, `umap-learn`, `networkx`) and the configured content-generation tooling. Read the pipeline section in [Architecture](docs/Architecture.md) before starting it. Never commit credentials.
 
-For local viewing after a build:
+## Review and staging
 
-```sh
-npm run serve
-```
+Explain what changed and why. For a probability, state the evidence or assumption that moved it. For an outcome, explain why the new destination fits the exchange. Keep unrelated generated changes out of the PR.
 
-Then open `http://localhost:8080`.
+Stage files by explicit path. Avoid broad adds that can pick up generated or local artifacts. Do not push directly to `dev` or merge your own PR without maintainer approval.
 
-## Pull request shape
-
-Keep one change per PR. One missing edge, one probability correction, one typo class, one code fix. Small PRs are easier to review and easier to revert.
-
-Explain what changed and why. If you changed a probability, say what evidence or reasoning moved it. If you changed an outcome, say where the move now lands and why that state is better.
-
-Do not include generated churn unless the change requires it. If you ran `npm run regenerate:build`, include the generated files that command intentionally changed and nothing else.
-
-Stage files by explicit path. Avoid broad adds that can pick up generated or local artifacts.
-
-## Bots
-
-Several scheduled bots open PRs for content improvement, proofreading, votes and link checks. Bot PRs are reviewed like human PRs. If a bot changes something wrong, comment with the correction or open a follow-up PR against the authored JSON.
+Bot PRs get the same review as human ones. A generated suggestion must still be technically sound; a passing schema is not approval to publish it.
 
 ## Code areas
 
-- `neural/` — the front-end app.
-- `scripts/` — validators, regenerators, calibration and build helpers.
-- `e2e/` — Playwright journeys and DSL.
-- `source/` — Quartz static-site package.
+- `neural/`: the front-end app.
+- `scripts/`: validators, regenerators, calibration and build helpers.
+- `e2e/`: Playwright journeys and DSL.
+- `source/`: the static-site package.
 
-Before touching the app, read `CLAUDE.md` section 6. It is the list of traps already found the hard way: overlays, canvas geometry, harness behavior, persistence, IDs and gates.
+Before touching the app, read [CLAUDE.md](CLAUDE.md) section 6. Use the checks for the area you changed; do not run paid content regeneration for an app-only fix.
 
-## License
+## Licence
 
-BJJGraph is distributed under the PolyForm Noncommercial 1.0.0 license. See `LICENSE.md`.
+Contributions are distributed under the project's [PolyForm Noncommercial 1.0.0 licence](LICENSE.md). The project is source-available, not open source.

@@ -1,471 +1,486 @@
 # BJJGraph Content Standards
 
+These standards cover authored content, its generated pages, and the estimates used by the graph.
+Schema requirements and automated checks are identified separately from editorial guidance.
+A valid file is not necessarily an accurate account of Brazilian Jiu-Jitsu.
+
+## States, Roles, and Review
+
+**State** is the umbrella term:
+
+- **Position:** a relatively stable configuration of the players. Stable does not mean motionless,
+  effortless, or free of opposing forces. Maintaining a position requires active adjustments.
+- **Transition:** a transient state involving motion, forces, and players actively attempting to
+  change the state. It is not merely an edge between two positions.
+- **Submission:** a transient attacking state with a possible terminal finish. A defended or failed
+  attempt can continue into another state; entering a submission does not guarantee `game-over`.
+
+Author the configuration, actions, roles, and possible outcomes explicitly. The conceptual model
+is not a promise that the UI pauses at every transient state.
+
+The graph's navigable role nodes are distinct from its edgeless reference hubs and from the visual
+projection used by the app. Top/Bottom describe position roles; Attacker/Defender describe roles in
+an attempted technique. A position family can have its own role states as well as a reference hub.
+A submission family hub summarizes variants rather than representing an attempt from one origin.
+Systems, Principles, and Learning entries are reference material, not additional places in a roll.
+See [Architecture](Architecture.md) for the data representations and [Neural](Neural.md) for UI behavior.
+
+### Practitioner Review
+
+Probabilities are authored and calibrated **modeled estimates**, checked for specific structural
+and arithmetic properties by validators. They are not match statistics or expert-validated truth,
+and remain open to correction.
+
+A panel of black-belt BJJ practitioners should review:
+
+- State boundaries, including whether an entry describes a position, transition, or submission.
+- Which player can perform an action, its canonical origin, and the roles at each outcome target.
+- Gi/no-gi equipment requirements and competition-rule, age, and skill restrictions.
+- Attempt and outcome estimates, their assumptions, and plausible failures and counters.
+- Body mechanics, instructional clarity, training progressions, and safety guidance.
+
+This is needed review, not a claim that such a panel has validated the corpus. Schema gates,
+graph checks, community votes, and AI-assisted enrichment or calibration cannot substitute for it.
+Record the evidence and scope of any actual review rather than inferring approval from a passing gate.
+
 ## Content Workflow
 
-### Editing Content (JSON-First)
+### Edit JSON First
 
-1. **Edit JSON source** in `content/*.json` (e.g., `content/Positions/Mount.json`)
-2. **Validate & Regenerate** with `npm run regenerate`
-3. **Test build** with `npm run dev`
+1. Edit the source JSON under `content/`, including nested variants, using the applicable schema.
+2. Run the focused checks below and read their warnings as well as their exit status.
+3. Regenerate the affected outputs, inspect the resulting pages, and build before shipping content.
 
-Never edit `.md` files in `content/` directly — they are regenerated from `.json` source files.
+Do not edit a generated `.md` that has a JSON source. Edit its JSON for data or its Jinja template
+for layout. Some standalone Markdown pages, such as `content/Game Over.md`, are not JSON-generated.
 
----
+### Checks and Generation Are Different
 
-## Success Rates (Critical)
+```bash
+# Local checks; these do not invoke the AI content rewrite.
+npm run validate:json
+python3 scripts/validate_json.py --all --strict --strict-ruleset
+npm run validate:graph
 
-> **Corrected v1.130.0.** This section previously documented a tri-level
-> `(Success Rate: Beginner X%, Intermediate Y%, Advanced Z%)` format. **That format does not
-> exist**: zero of ~1,500 content files use it, no validator mentions "Beginner", and the
-> templates render a single percent. CLAUDE.md carried the same phantom, so the two documents
-> corroborated each other against the whole corpus. The real shape is below.
+# Render authored JSON into Markdown without AI enrichment.
+npm run regenerate:md
 
-### Format
+# Full content pipeline and site build; may invoke paid AI and change source JSON.
+npm run regenerate:build
 
-Success rates are authored as a **per-ruleset `{gi, nogi}` map** in the source JSON:
-
-```jsonc
-"success_rate": { "gi": 50, "nogi": 50 }
+# Build and serve, or serve an existing build.
+npm run dev
+npm run serve
 ```
 
-Each outcome carries the same shape, and each frame sums to 100 independently:
+`validate:graph` reads authored content **and the existing generated `graph.json` and vote store**.
+It does not regenerate a stale graph. `regenerate:md` only updates Markdown, not graph or app data.
+Use `npm run regenerate:graph` for the graph pipeline, including layout, ordinals, and strength;
+`npm run regenerate:neural` rebuilds the app bundle and its payload. These are generation commands,
+not read-only checks. The broader dependency order is documented in [Architecture](Architecture.md).
 
-```jsonc
-"outcomes": [
-  { "to": "Mount/Top", "probability": { "gi": 50, "nogi": 50 }, "result": "success" }
-]
+`npm run regenerate` includes issue discovery, `regenerate:json`, connection expansion, ruleset
+migration, graph validation, Markdown and category hubs, votes, graph generation, explorer, and
+Neural output. `regenerate:json` can call Claude; `regenerate:json:fast` only removes its inter-file
+wait and is **not** an AI-free validation shortcut. `regenerate:build` runs that chain and then
+builds the site. `npm run dev` builds and serves but does not run the content regeneration chain.
+
+## Probabilities and Published Rates
+
+### Source Contract
+
+Author technique `success_rate`, outcome `probability`, and position-choice `attempt_probability`
+as two-key `{gi, nogi}` maps. Each non-null cell is an integer from 0 to 100.
+The schemas retain legacy scalar alternatives; `--strict-ruleset` adds stricter migration checks.
+Do not use the obsolete Beginner/Intermediate/Advanced success-rate format.
+
+- `null` means the edge or rate does not exist in that ruleset.
+- `0` means it exists but has zero modeled probability. It is not an equipment-exclusion marker.
+- For each position role, non-null attempt cells sum to 100 in each present ruleset frame.
+- For each transition or submission attempt, non-null outcome cells sum to 100 in each present frame.
+- If every cell of a frame is null, that frame is absent and its sum check is explicitly skipped.
+  An entire nonempty distribution absent in both frames is an error, as is a success rate absent
+  in both frames. A bare `null` is not a replacement for a map.
+- Keep an authored success rate coherent with the total of its `success` outcomes. Do not describe
+  this editorial requirement as a source-level equality gate: the graph coherence check compares
+  the **emitted scalar** headline with emitted success outcomes, with a tolerance of one point.
+
+Position metrics have their own schema, often `{value, description}` objects. Do not convert every
+numeric field to a ruleset map indiscriminately. Point values, duration, and vote counts are not odds.
+
+This is a **partial excerpt**, not a complete schema-valid document, from
+`content/Transitions/100% Sweep.json`. The name is not a claim of guaranteed success:
+
+```json
+{
+  "from_position": "Closed Guard/Bottom",
+  "success_rate": { "gi": 50, "nogi": 50 },
+  "outcomes": [
+    { "to": "Mount/Top", "probability": { "gi": 50, "nogi": 50 }, "result": "success" },
+    { "to": "Closed Guard/Bottom", "probability": { "gi": 35, "nogi": 35 }, "result": "failure" },
+    { "to": "Side Control/Bottom", "probability": { "gi": 15, "nogi": 15 }, "result": "counter" }
+  ]
+}
 ```
 
-### Rules
+### Authored Values Are Not Always Published Values
 
-| Rule | Description |
-|------|-------------|
-| **Shape** | `{gi, nogi}` map — never a bare scalar in source |
-| **Values** | 0-100 integers only |
-| **Per frame** | `gi` and `nogi` are independent; each outcome set sums to 100 within its own frame |
-| **Coherence** | `success_rate` must equal the sum of the `success` outcome cells (gated by `validate:graph`) |
-| **A frame may be 0** | A gi-only or no-gi-only technique legitimately scores 0 in the other frame |
+`scripts/apply_calibration.py` writes eligible success-rate **priors** to `templates/votes.json`.
+It does not write content outcome distributions, attempt probabilities, or community vote totals.
+Proposals not flagged for human review can apply automatically; flagged proposals need a review
+entry or override. These flags and provenance fields do not establish black-belt panel approval.
 
-### How it renders
+For each ruleset, `folded_rate` in `scripts/_votes.py` blends a usable prior with the community rate,
+weighted by the prior's pseudo-count and `max(0, vote_count - 30)`. Thirty is the seed count, not
+thirty observed votes. With no votes above the seed, a usable prior determines the rate. Without a
+usable prior, the community rate is returned. Do not call every seeded rate real community evidence.
 
-`graph.json` carries the **folded no-gi scalar** as `successRate`, plus the pair as
-`successRateByRuleset`, so existing consumers stay scalar. The page renders the same folded
-value (`templates/Transitions/TEMPLATE-DUAL.md.jinja2`), so page text, graph and game agree:
+The graph emitter overrides matched technique role-node headlines with those folded rates.
+`successRate` is the rounded no-gi scalar; matched entries also carry `successRateByRuleset`.
+Defender rates complement attacker rates. Scalar outcome distributions are rescaled to the new
+headline, preserving proportions within success and non-success groups before integer rounding;
+absent rates or outcome cells cause that rescale to be skipped and counted.
 
-```
-**Success Rate**: 50%
-```
+The Markdown renderer also uses folded no-gi rates for technique headlines, falling back to authored
+rates when no usable vote entry is found. It preserves a source-marked absent frame instead of
+printing a percentage for it. Its outcome table still comes from the authored distribution, not
+the graph's rescaled one. Therefore do not promise that source JSON, every page table, and game odds
+are identical. Inspect both the source and emitted representation when investigating a discrepancy.
 
-The published number is a Bayesian blend of the calibrated prior and real community votes —
-see `scripts/apply_calibration.py` and `scripts/_votes.py`.
+## Wikilinks and References
 
----
-
-## Wikilinks
-
-### Format
+Use category-prefixed paths in authored wikilinks:
 
 ```markdown
-[[Category/Page Name]]
+[[Positions/Mount]]
+[[Transitions/Knee Slice Pass]]
+[[Submissions/Rear Naked Choke]]
 ```
 
-**Examples:** `[[Positions/Mount]]`, `[[Transitions/Armbar from Mount]]`, `[[Submissions/Rear Naked Choke]]`
+Match the actual path and filename case, including nested variant directories. Omit `.md`.
+Verify the target exists before adding a link. `[[game-over]]` is the special bare alias defined
+by `content/Game Over.md`.
 
-### Rules
+Structured JSON references are a different contract. Fields such as `transition`, `from_position`,
+and `outcomes[].to` use technique names or role-qualified names as their schema requires; do not
+wrap them all in wikilink syntax. Generated templates resolve these references into page links.
 
-- Must include category path prefix (e.g., `Positions/`, `Transitions/`, `Submissions/`)
-- Must match exact filename (case-sensitive)
-- No `.md` extension in link
-- Verify target file exists before adding
-- **Exception:** `[[game-over]]` uses bare format (no prefix)
+`validate:json` checks configured structured reference fields, with alias and name-normalization
+fallbacks. It is **not a scan of every wikilink in arbitrary prose or generated Markdown**. Many
+reference findings are non-blocking by default; `--strict` treats those findings as failures.
+A clean schema check does not prove that all published links resolve.
 
-### Validation
+### Attribution and External Sources
 
-Run `npm run validate:json` to check all wikilinks resolve.
+Use sources that support the specific mechanic or claim, and distinguish an instructor's approach
+from a universal rule. Do not invent citations, video IDs, product links, or claimed endorsements.
+Summarize in your own words and retain attribution.
 
----
+Use the fields the selected schema supports. Learning has optional `references` entries with
+required `title` and `author`. `sameAs`, where supported, identifies the **same entity** on an
+authoritative external site; it is not a general bibliography. Film-study provenance belongs in
+`clips`. An external URL or a source's reputation alone does not validate probabilities or safety.
 
-## Required Sections by Content Type
+## Required Authored Content
+
+The JSON schema selected for the file is authoritative for field types, required keys, and array
+bounds. A schema's descriptive prose can be more aspirational than its actual constraints.
+Do not copy a different content type's section list as if it were interchangeable.
+
+### Answer-First Summary
+
+All schema-backed content types require a root `summary`, with a schema length of 30–300 characters.
+Editorially, write one self-contained definition sentence, roughly 15–40 words. Avoid promotional
+claims and keep it distinct from `overview`, which should supply context rather than repeat it.
+Templates render summaries as bold leads and emit `DefinedTerm` JSON-LD on canonical hub/single pages.
+There is no guarantee that a search or answer engine will quote them.
 
 ### Positions
 
-| Section | Requirements |
-|---------|--------------|
-| State Properties | Point value, position type, risk level, energy cost |
-| Transitions | Array of `{transition, attempt_probability}` per role |
-| Visual Description | 4-8 sentences describing body positioning |
-| Key Principles | 5-7 fundamental concepts |
-| Decision Tree | Min 3 if/else conditions with probabilities |
-| Common Mistakes | Min 5 mistakes with consequences/corrections |
-| Training Drills | Min 3 practice progressions |
-| Related Positions | Min 3 linked positions |
+DUAL and FAMILY positions author separate `top` and `bottom` objects. SINGLE positions put their
+instructional fields at the root. A SINGLE authoring shape does not mean that every neutral
+configuration in the current corpus uses it.
 
-**Transition requirements:**
-- Min 4 transitions per role (Top/Bottom)
-- `attempt_probability` values must sum to 100% per role
-- Each `transition` must reference a valid Transition by name
+| Content | Required fields or guidance |
+|---|---|
+| Identity and overview | Root summary and overview; DUAL/FAMILY role names, descriptions, tags, and overviews are authored, not generated prose |
+| State properties | `point_value`, `position_type`, `risk_level`, `energy_cost`, `time_sustainability` |
+| Configuration and entry | `state_invariants` with anatomical detail, plus `prerequisites` |
+| Instruction | `key_principles`, `decision_tree`, `common_errors`, `training_drills` |
+| Choices | `transitions[]` entries with `transition` and `attempt_probability` |
+| Related material and metrics | Role `related_content` and `position_metrics`; root related fields vary by template |
+| Variants | FAMILY adds `variations`; use the real variant names and slugs |
 
-### Transitions (Attacker/Defender Model)
+There is no universal schema requirement for a separate “Visual Description” section or four
+transitions per role. Describe body configuration in the overview and invariants. DUAL/SINGLE
+schemas specify 5–7 key principles, at least three decision-tree entries, five common errors, and
+three drills. FAMILY has its own root and role requirements; consult it rather than imposing one
+uniform count across all positions.
 
-Transitions generate 3 pages: Hub, Attacker, Defender.
+A position's choice list can reference a transition or a submission attempt. Match the technique's
+canonical origin and performing role. Do not add a technically invalid move to satisfy a list size.
 
-**Hub-level requirements:**
+### Transitions and Submission Attempts
 
-| Section | Requirements |
-|---------|--------------|
-| Overview & Properties | Name, `from_position` (Position/Role format) |
-| Outcomes | Array of outcomes with `to`, `probability`, `result` |
-| Related Content | Min 3 related entries |
+DUAL techniques generate a hub page and Attacker/Defender pages from **authored** role content.
+Templates arrange that content; they do not invent the defender's explanation.
 
-**Attacker page requirements:**
+| Authored role field | Attacker | Defender |
+|---|---|---|
+| Identity | `name`, `description`, `overview` | `name`, `description`, `overview` |
+| Key principles | 5–7 | 5–7 |
+| Entry or recognition | At least 4 `setup_requirements` | At least 3 `recognition_cues` |
+| Execution or response | At least 6 `execution_steps`, each with step number, action, description | At least 3 `defensive_options` |
+| Counters and outcomes | At least 3 `common_counters` | At least 1 `favorable_outcomes` entry |
+| Errors | At least 5, with consequence and correction | At least 3, with consequence and correction |
+| Training | At least 4 `training_progressions` | At least 3 `training_progressions` |
+| Assessment | At least 5 `flashcards` | At least 3 `flashcards` |
 
-| Section | Requirements |
-|---------|--------------|
-| Overview | Detailed attacking perspective (4+ sentences) |
-| Key Principles | Min 5 fundamental concepts |
-| Setup Requirements | Min 4 prerequisites |
-| Execution Steps | Min 6 numbered steps with action + description |
-| Common Counters | Min 3 with `targets_outcome` linking to `outcomes[].to` |
-| Common Errors | Min 5 with consequence and correction |
-| Training Progressions | Min 4 phases |
-| Knowledge Assessment | Min 5 technical questions |
-| Safety Considerations | Required text section |
+Transition attackers additionally require a `safety_considerations` string. Submission attempts
+instead require the shared root safety object, and their defender requires at least two
+`escape_paths`. Submission execution steps may include `timing`; submission flashcards may carry
+`safety_critical: true`. “Knowledge Assessment” is a rendered section label, not a replacement
+for the technique schema's `flashcards` key.
 
-**Defender page requirements:**
+Technique roots require summary, overview, description, tags, success rate, outcomes, related
+content, and both role objects. Transition roots require `from_position`. Submission DUAL also
+requires classification, target anatomy, `starting_position`, `from_positions`, and related
+submissions. Its schema does not require `from_position`, but a navigable attempt should still
+have one unambiguous role-qualified canonical origin. Broader reading lists are not extra origins.
 
-| Section | Requirements |
-|---------|--------------|
-| Overview | Detailed defending perspective |
-| Key Principles | Min 5 fundamental concepts |
-| Recognition Cues | Min 3 signs the technique is being attempted |
-| Defensive Options | Min 3 with `targets_outcome` linking to `outcomes[].to` |
-| Favorable Outcomes | Min 1 with outcome position and how to achieve |
-| Common Errors | Min 3 with consequence and correction |
-| Knowledge Assessment | Min 3 technical questions |
-| Training Progressions | Min 3 phases |
+Submission FAMILY records require `is_family` and variant/reference metadata with shared safety
+content. They generate one family page, not Attacker/Defender pages. They do not require `outcomes`
+and must not be treated as navigable submission attempts.
 
-**Outcome requirements:**
-- Min 2 outcomes per transition (success + failure or counter)
-- `probability` values must sum to 100%
-- `result` must be: `success`, `failure`, or `counter`
-- `to` must use Position/Role format (e.g., `"Mount/Top"`) or `"game-over"`
-- `targets_outcome` values in attacker/defender must match an `outcomes[].to` value
+### Outcomes and Instructional Targets
 
-### Submissions (Attacker/Defender Model)
+For an attempt, author a useful distribution of success, failure, and counter possibilities.
+Prefer 3–5 meaningful outcomes when the technique supports them; the DUAL schemas enforce a
+minimum of **two**, not a universal 3–5 range.
 
-Submissions generate 3 pages: Hub, Attacker, Defender. Same attacker/defender pattern as Transitions with additions.
+- `success`: the attempt achieves its intended result, which need not be a terminal finish.
+- `failure`: the attempt fails, possibly retaining or losing the starting configuration.
+- `counter`: the opponent successfully counters the attempt.
 
-**Hub-level requirements:**
+Use a role-qualified position target, a real non-family submission attempt, or `game-over` as
+appropriate to the model. Do not target bare position hubs or submission family hubs. Only
+submission finishes should reach `game-over`; a transition that directly finishes is misclassified.
+Returning to the origin position after an unsuccessful technique is legitimate; targeting the
+technique's own node is not. These are modeling requirements, not a claim that every one is
+exhaustively checked by the JSON validator.
 
-| Section | Requirements |
-|---------|--------------|
-| Safety Notice | **MANDATORY** - First visible content with warning |
-| Overview & Properties | Type, target anatomy, category |
-| Outcomes | **REQUIRED** - Array of outcomes (was previously optional) |
-| Safety Considerations | Shared object at hub level |
+| Instructional reference | Contract |
+|---|---|
+| `attacker.common_counters[].targets_outcome` | Optional in the schema; when present, use an authored outcome target |
+| `defender.defensive_options[].targets_outcome` | Required by the DUAL schemas |
+| `defender.favorable_outcomes[].outcome` | Required by the DUAL schemas |
 
-**Attacker page:** Same as Transition attacker, plus execution steps may include `timing` field.
+These fields must match a value in `outcomes[].to` exactly. The semantic check tests set membership,
+not whether precisely one row has that target, and it does not verify that the described defense
+can actually produce it. `validate:json` reports mismatches as non-blocking unless `--strict` is
+used; `validate:graph` also checks them. Some placeholder values are skipped by the implementation.
+That is not permission to publish placeholders.
 
-**Defender page:** Same as Transition defender, plus:
+### Systems, Principles, and Learning
 
-| Section | Requirements |
-|---------|--------------|
-| Escape Paths | Min 2 submission-specific escape routes |
+- **Systems:** author the system type, difficulty, principles, components, implementation sequence,
+  obstacles, assessment metrics, training methodology, related content, and root flashcards.
+  Curated `products` are optional. Verify a product URL before setting `link_status` to `live`,
+  record `link_checked`, and preserve disclosure in the generated link surface. Never include
+  private affiliate identifiers or commercial terms in content.
+- **Principles:** author application and complexity levels, development timeline, component skills,
+  relationships, application contexts, decision framework, errors, training approaches,
+  developmental metrics, related content, root flashcards, and `graph_applicability`.
+- **Learning:** author the category, key takeaways, BJJ applications, common mistakes, training
+  exercises, `knowledge_assessment`, and related content. This type uses `knowledge_assessment`,
+  unlike technique role decks. External `references` are optional.
 
-**Submission-specific rules:**
-- `outcomes[]` is mandatory (no submissions without outcomes)
-- `safety_considerations` stays at hub level (shared between roles)
-- Knowledge assessment items can have `safety_critical: true` flag
+## Flashcards
 
----
+For Positions, Transitions, and Submissions, question strings are limited by schema to 100
+characters, including spaces and punctuation. Ask one clear question in plain BJJ language.
+Preserve the mechanic, player perspective, and safety conditions; put explanation in the answer.
 
-## Answer-First Summary (Required)
+```bash
+# Corpus question-length audit
+python3 scripts/rewrite_questions.py --check
 
-Every content type carries a **required** root-level `summary`: ONE self-contained sentence (~15-40 words) that DEFINES the entity, written answer-first so AI answer engines can quote it. It renders as a bold lead under the page heading plus a `DefinedTerm` JSON-LD block on canonical (hub/single) pages. The `overview` must NOT repeat it — start the overview with context/history instead.
+# Resumable question-only AI rewrite; changes source and may incur costs
+python3 scripts/rewrite_questions.py --apply
+```
+
+There is no universal 5–20-card bound. DUAL/SINGLE position role decks use 6–8 cards, technique roles
+have the minima listed above, and Systems/Principles use 6–20. FAMILY position role decks are not
+required in the same way as DUAL role decks. Follow the selected schema and author useful questions,
+not filler to reach a preferred count.
+
+### Authored Tiers and Aggregation
+
+- Author role-specific cards in `top`/`bottom` or `attacker`/`defender`.
+- Position `flashcards_position` holds role-independent configuration knowledge.
+- Position-family `flashcards_family` holds family-wide concepts and is inherited by variants.
+  These are authored shared tiers, not a prohibition on all hub-level authoring.
+- Standalone dual-position hubs aggregate role cards; position-family hubs use their authored
+  family tier. Submission family hubs aggregate variant cards rather than authoring a separate deck.
+- Principles and Systems author root flashcards.
+
+The graph emitter deduplicates cards and carries position tiers separately. Preserve optional
+curated `answer_line` and `distractors` fields when editing an existing card; the full answer is
+still the explanatory detail.
+
+The current Neural deck exporter reads Positions, Transitions and Submissions. Root flashcards
+in Principles and Systems remain authored graph content but do not reach those playable decks;
+`build_flashcards` in `scripts/regenerate_neural_data.py` reports the unaccounted cards. Their
+schema requirement does not establish that the app delivers them.
+
+### Question Focus by State Type
+
+**Positions:** maintenance and escape, depending on role. Cover weight distribution, base, frames,
+grips, pressure, common retention errors, opponent movement, and energy use. For example:
+“How do you shut down the elbow escape from Mount?”
+
+**Transitions:** timing and execution within a transient state. Cover entry conditions, force
+direction, coordination, common failures, opponent responses, and follow-ups when blocked.
+For example: “What is the most critical body movement in Scissor Sweep?”
+
+**Submissions:** control, finishing mechanics, defensive recognition, and safe release. Cover target
+anatomy, limits of control, failed attempts, escape opportunities, and injury risks. Do not teach a
+universal “point of no escape” or encourage waiting for visible pain before releasing. For example:
+“What must the attacker do when a partner taps during an Armbar?”
+
+## Safety
+
+All content should address material risks. Submission DUAL and FAMILY schemas require a shared
+`safety_considerations` object with:
+
+- At least two `injury_risks`, each with `injury`, `severity`, and `recovery_time`.
+- `application_speed` guidance.
+- At least three `tap_signals` and three `release_protocol` entries.
+- At least two `training_restrictions`.
+
+The fields' presence and counts are machine-checkable; medical accuracy and safe instruction are
+not. Do not invent recovery guarantees to fill `recovery_time`. Explain uncertainty and avoid
+presenting the field as individualized medical advice.
+
+Keep warnings prominent and before execution instructions. Current submission templates place an
+early safety callout after the summary and metadata, with full safety guidance later; “first visible
+content” is not an accurate description of their output. Inspect the rendered page when changing
+safety copy or templates.
+
+Teach early tapping, recognition of verbal and physical stop signals, and immediate release when
+a partner taps or calls stop. Stop on suspected injury or impaired responsiveness rather than
+waiting for a formal tap. Training restrictions and progressions should fit the technique,
+partners, ruleset, and qualified supervision. Do not prescribe a universal week-by-week escalation
+schedule or imply that elapsed time makes a dangerous technique safe.
 
 ## Curation-Safe Regeneration
 
-`regenerate_content_json.py` enriches content via Claude without damaging the graph: it PRESERVES every `transitions[]` entry (positions) and `from_position` / `outcomes[].to` targets (transitions/submissions) — dropping a transition re-orphans a submission and is rejected (blocking retry). `attempt_probability` may be retuned; sums are auto-normalized to exactly 100 per role after Claude returns. `products` (Systems) and `clips` (all categories) are curated data stripped from the AI contract and re-merged verbatim on save.
+`scripts/regenerate_content_json.py` checks that enrichment has not dropped existing position
+transition names, changed a technique's canonical `from_position`, or dropped existing outcome
+targets. This protects selected structural fields, not every possible editorial invariant.
 
-## Film-Study Clips (`clips`)
+Curated Systems `products`, root/role `clips`, and flashcard `answer_line`/`distractors` are excluded
+from the AI response contract and restored on save. Position attempt probabilities are restored
+from the original by transition name before normalization. Do not describe the current save path
+as freely retuning those authored occurrence estimates. Probability groups are normalized per
+present ruleset frame; normalization does not establish empirical accuracy.
 
-Curated YouTube clips (max 4 per holder) teaching the technique/position, ideally by its recognized legend (Craig Jones → body lock, Gordon Ryan → pressure passing, Roger Gracie → cross collar…). Role-nested like flashcards: `top`/`bottom` + root overview for positions, `attacker`/`defender` for techniques (root = general fallback), root-only for family hubs (derived union of children) and principles.
+Review the source changes even after these checks pass. A structurally preserved edge can still
+have an incorrect explanation, inappropriate role, or unsafe instruction.
 
-Clip shape: `{id, title, by, start?, end?, vertical, channel, duration, verified}` — `id` is a machine-verified 11-char YouTube ID; `start`/`end` define a loop; `vertical` marks Shorts; `channel`/`duration`/`verified` are provenance (stripped from the front-end bundle). **Never AI-authored, never hand-invented**: sourced by `npm run clips:source` (LLM plans legend+queries → yt-dlp real search → LLM curates from real results only → oEmbed + Shorts-thumbnail verification → apply), re-checked by `npm run clips:verify` (add `--prune` to drop dead videos), reviewed via `clips_sourcing/review.html` (`npm run clips:report`) — prune bad picks by deleting them from the content JSON. The Neural app renders clips in the node dossier (film-study strip); position hub clips union into both role dossiers at build time. Generated markdown pages render a "Film Study" section (native YouTube embeds via the OFM transformer, start/end trim params honored, lazy-loaded) plus an ItemList/VideoObject JSON-LD block. Duration policies by content type: techniques shorts-first (~30s motion loops, ≤75s preferred); rescue/top-up slots may carry ≤10min focused instructionals; Principles carry 1 short hook + 1-2 deep concept lectures (5-25min).
+## Film-Study Clips
 
-## Flashcards Guidelines
+Curate clips for the exact technique and player role, prioritizing clear, attributable instruction.
+The schema allows up to four clips per holder. Positions support root overview clips and role
+clips; techniques support root fallback clips and Attacker/Defender clips; Principles and submission
+family pages can carry root clips. Availability in a schema does not mean every category has an
+automated sourcing slot.
 
-For **positions, submissions, and transitions**, every authored question must be **100 characters or fewer**, including spaces and punctuation, on every role and shared tier. Ask one clear question in plain BJJ language; preserve the mechanic, perspective, and safety conditions. Keep explanations in the answer. The JSON schemas enforce the limit. Use `python3 scripts/rewrite_questions.py --check` to audit the corpus, or `--apply` for a resumable, question-only AI sweep that preserves answers and choices.
-
-The `flashcards` array (5-20 Q&A pairs) should be tailored to each content type's nature:
-
-**Authoring vs aggregation (hub/leaf):** flashcards are authored at the **leaf/role** level — `top`/`bottom` for positions, `attacker`/`defender` for transitions/submissions, or the flat root for principles/systems. **Hub pages aggregate** their children's cards at build time (`regenerate_graph.py` dedupes top+bottom; family hubs dedupe all variants); role/specific pages show only their own. Author cards on the leaves — never on a family hub.
-
-### Positions = Stable States (Focus: RETENTION)
-
-Positions are stable configurations where you can rest, plan, and choose your next action.
-Questions should focus on **how to maintain the position**.
-
-**Required topics:**
-1. Weight distribution for control
-2. Base fundamentals
-3. Common retention errors
-4. Shutting down primary escapes
-5. Essential grips for maintenance
-6. Pressure application
-7. Anticipating opponent movement
-8. Energy management
-
-**Example questions:**
-- "How should weight be distributed to maintain Mount?"
-- "What mistake most commonly leads to losing Side Control?"
-- "How do you shut down the elbow escape from Mount?"
-
-### Transitions = States in Motion (Focus: EXECUTION)
-
-Transitions are actions that move you between positions. They have uncertainty (outcomes).
-Questions should focus on **technical execution and timing**.
-
-**Required topics:**
-1. Optimal timing to attempt
-2. Entry requirements/conditions
-3. Key mechanical details
-4. Common failure points
-5. Required grips
-6. Direction of force application
-7. Opponent's likely response
-8. Chain attacks if blocked
-
-**Example questions:**
-- "When is the optimal moment to attempt Hip Bump Sweep?"
-- "What is the most critical body movement in Scissor Sweep?"
-- "If Armbar from Guard fails, what follow-up options exist?"
-
-### Submissions = Motion with Finish (Focus: FINISHING)
-
-Submissions are transitions ending with a tap (game-over). They require both motion AND finishing mechanics.
-Questions should focus on **mechanics that force the tap** and **safety**.
-
-**Required topics:**
-1. Anatomical target
-2. How to know when properly applied
-3. Control requirements before finishing
-4. Point of no escape for opponent
-5. Common finishing errors
-6. Grip adjustments during finish
-7. Injury risks if not released
-8. Signs opponent is about to tap
-
-**Example questions:**
-- "What anatomical structure does Rear Naked Choke attack?"
-- "At what point can the opponent no longer escape the Armbar?"
-- "What injury can occur if Heel Hook is not released on tap?"
-
----
-
-## Safety Requirements (Submissions Only)
-
-### Mandatory Elements
-
-```markdown
-## Safety Notice
-
-Warning: [Submission Name] targets [anatomy] and can cause [injury type].
-Training this technique requires [partner communication/careful application].
-
-### Injury Risks
-
-| Risk | Severity | Recovery Time |
-|------|----------|---------------|
-| [Specific injury] | High/Medium/Low | [Time range] |
-
-### Tap Recognition
-
-- Verbal tap ("tap" or "stop")
-- Hand tap on opponent's body or mat
-- Foot tap on mat
-- Any repeated gesture indicating submission
-
-### Release Protocol
-
-1. Immediately release [specific grip/pressure]
-2. Support partner's [affected body part]
-3. Allow recovery time before continuing
-```
-
-### Training Progressions (6 Phases)
-
-| Phase | Focus |
-|-------|-------|
-| Weeks 1-2 | Position and grip mechanics only, no pressure |
-| Weeks 3-4 | Light controlled pressure, partner taps early |
-| Weeks 5-8 | Moderate pressure with clear communication |
-| Weeks 9-12 | Increasing resistance, positional sparring |
-| Week 13+ | Live drilling with trusted partners |
-| Ongoing | Regular technique refinement, partner safety check-ins |
-
----
-
-## YAML Frontmatter Templates
-
-### Position Frontmatter
-
-```yaml
----
-title: "[Position Name] | BJJ Position Guide | BJJ Graph"
-description: "Master [Position Name] in BJJ. Complete guide covering control, techniques, transitions. Success rates included."
-tags:
-  - positions
-  - [category]
-  - [skill-level]
----
-```
-
-### Transition Frontmatter
-
-```yaml
----
-title: "[Technique Name] | BJJ Technique | BJJ Graph"
-description: "Learn [Technique Name] in BJJ. Step-by-step from [Start] to [End]. Success rate: N%."
-tags:
-  - transitions
-  - [category]
-  - [skill-level]
----
-```
-
-### Submission Frontmatter
-
-```yaml
----
-title: "[Submission Name] | BJJ Submission | BJJ Graph"
-description: "Master [Submission Name] safely. Complete guide with safety protocols, execution steps, and training progressions."
-tags:
-  - submissions
-  - [category]
-  - [skill-level]
----
-```
-
----
-
-## Validation
-
-### Run Before Every Commit
+Only `id` and `title` are schema-required. Optional fields are `by`, `start`, `end`, `vertical`,
+`channel`, `duration`, `verified`, and `upload_date`. IDs must match the 11-character YouTube shape;
+that regex does not establish that a video exists. Start/end are seconds. Provenance dates and
+uploader metadata are not practitioner endorsements.
 
 ```bash
-npm run regenerate:build
+# AI-assisted planning/curation of real search results, verification, and application
+npm run clips:source
+
+# Network re-verification; refreshes verification metadata in source JSON
+npm run clips:verify
+
+# Also remove confirmed dead or embedding-disabled clips; transient errors are kept
+npm run clips:verify -- --prune
+
+# Generate the local review report
+npm run clips:report
 ```
 
-### What Validation Checks
+Sourcing uses yt-dlp search results, AI-assisted selection from those results, and machine video
+checks. “Never AI-authored” here means never invent IDs or let general content enrichment replace
+curated clips; it does not mean the sourcing pipeline has no AI step. The generated
+`clips_sourcing/review.html` report supports human inspection. Delete unsuitable selections from
+the content JSON and regenerate the report.
 
-- Success rate coherence (`success_rate` equals the sum of its `success` outcome cells, per frame)
-- Wikilink resolution (all targets exist)
-- Required sections present
-- YAML schema compliance
-- Safety sections for submissions
-- **Probability sums** (see below)
+`validate:json` rejects inverted loop bounds but only warns about duplicate IDs and end times past
+the recorded duration. Network availability checks belong to `verify_clips.py`; neither tool checks
+whether the clip teaches the right mechanic safely. Watch the selected segment and confirm its
+role, attribution, and safety before relying on it.
 
-### Probability Validation Rules
+The app's dossier payload keeps player fields (`id`, `start`, `end`, `vertical`, `title`, `by`), not
+provenance metadata. Position root clips supplement both role dossiers. Generated Markdown also
+renders film-study embeds and video structured data. Prefer focused technique demonstrations;
+longer concept instruction can be appropriate for Principles. Duration preferences are editorial
+sourcing choices, not a universal schema-enforced policy.
 
-The state machine model requires probability sums to equal 100%:
+## Generated Frontmatter and Validation Scope
 
-| Schema Element | Field | Must Sum To |
-|---------------|-------|-------------|
-| Position role (Top/Bottom) | `transitions[].attempt_probability` | 100% |
-| Transition | `outcomes[].probability` | 100% |
+Do not paste frontmatter boilerplate into generated pages. Jinja templates own page titles,
+descriptions, role-specific presentation, and JSON-LD. For example, the DUAL position, transition,
+and submission hub templates emit `title` and authored `description`; they do not emit the old
+three-item `tags` frontmatter example. Required JSON tags and generated YAML fields are not the
+same contract. Inspect the selected template when changing metadata.
 
-**Example validation errors:**
+| Check | What it establishes | What it does not establish |
+|---|---|---|
+| `validate:json` | JSON Schema requirements, probability sums and null handling, selected references and semantic checks | All prose wikilinks, safe mechanics, or expert agreement; default severity permits some findings |
+| `validate:graph` | Content connectivity/reference audits, probability checks, emitted headline coherence and defender complements, vote/prior checks | A fresh graph, universal per-source rate equality, or complete BJJ correctness |
+| `regenerate:md` | Schema-backed rendering and explicit render failures | Correct graph payloads or a built site |
+| `clips:verify` | Current machine video checks and refreshed metadata | Instructional relevance, copyright permission, or safety review |
 
-```
-ERROR: Mount/Top transitions sum to 95% (expected 100%)
-ERROR: Armbar from Mount outcomes sum to 110% (expected 100%)
-```
+Read the named errors and warnings, fix the source or template responsible, then regenerate the
+relevant outputs. Passing automation is evidence only for the conditions actually checked.
 
-**Outcome result types:**
-- `success` - Technique achieves intended goal
-- `failure` - Technique fails, position maintained or regressed
-- `counter` - Opponent successfully counters
+## Schema Reference
 
-### `targets_outcome` Validation
+| Type | Schema |
+|---|---|
+| Position family | `templates/Positions/TEMPLATE-FAMILY.json` |
+| Position dual role | `templates/Positions/TEMPLATE-DUAL.json` |
+| Position single | `templates/Positions/TEMPLATE-SINGLE.json` |
+| Transition | `templates/Transitions/TEMPLATE-DUAL.json` |
+| Submission attempt | `templates/Submissions/TEMPLATE-DUAL.json` |
+| Submission family reference hub | `templates/Submissions/TEMPLATE-FAMILY.json` |
+| System | `templates/Systems.json` |
+| Principle | `templates/Principles.json` |
+| Learning | `templates/Learning.json` |
 
-Attacker and Defender sections use `targets_outcome` to link actions to specific outcomes:
-
-| Field | Location | Validates Against |
-|-------|----------|-------------------|
-| `attacker.common_counters[].targets_outcome` | Transition/Submission | `outcomes[].to` |
-| `defender.defensive_options[].targets_outcome` | Transition/Submission | `outcomes[].to` |
-| `defender.favorable_outcomes[].outcome` | Transition/Submission | `outcomes[].to` |
-
-**Rules:**
-- Each `targets_outcome` value must match exactly one `outcomes[].to` value
-- Values use Position/Role format (e.g., `"Mount/Top"`, `"Closed Guard/Bottom"`, `"game-over"`)
-- `TODO` values are skipped during validation
-
-### Fixing Validation Errors
-
-The validation output shows files needing fixes. Edit the JSON source files directly in `content/` (e.g., `content/Positions/Mount.json`).
-
----
-
-## Complete Schema Reference
-
-For full schema details, see the JSON template files:
-
-**Positions** (`templates/Positions/`):
-- `TEMPLATE-FAMILY.json` — Family positions (hub + top + bottom + variants)
-- `TEMPLATE-DUAL.json` — Dual positions (top + bottom)
-- `TEMPLATE-SINGLE.json` — Single/neutral positions
-
-**Transitions** (`templates/Transitions/`):
-- `TEMPLATE-DUAL.json` — Transitions with attacker/defender structure
-
-**Submissions** (`templates/Submissions/`):
-- `TEMPLATE-DUAL.json` — Submission variants with attacker/defender + outcomes
-- `TEMPLATE-FAMILY.json` — Submission family hubs (informational, no graph node)
-
----
-
-## Quick Reference
-
-| Do | Don't |
-|----|-------|
-| Edit JSON in `content/` | Edit markdown (`.md`) in `content/` |
-| Run validation before commits | Skip validation |
-| Verify wikilinks exist | Guess at link targets |
-| Use integer success rates 0-100 | Use decimals or percentages > 100 |
-| Put safety notice first for submissions | Bury safety information |
-| Use `game-over` for terminal state | Use `Won by Submission` or `Lost by Submission` |
-| Ensure `attempt_probability` sums to 100% | Leave probability sums incomplete |
-| Ensure `outcomes` probability sums to 100% | Have outcomes that don't sum correctly |
-| Use `result` types: success/failure/counter | Invent custom result types |
-| Ensure `targets_outcome` matches `outcomes[].to` | Use targets_outcome values not in outcomes |
-| Use Position/Role format in `outcomes[].to` | Use bare position names without role suffix |
-
-## Principle graph applicability
+## Principle Graph Applicability
 
 Principles describe both performing a mechanic and denying it. Author `graph_applicability`
-in each principle JSON, separately from the short `related_content` reading list:
+separately from the short `related_content` reading list:
 
-- `scope: "all"` covers every graph site, including future additions. Use it for a principle
-  that can guide either participant across positions, transitions, and submissions.
-- `scope: "specific"` combines the reading list, exact submission `families`, reverse principle
-  references, and reviewed `terms` found in instructional prose. Terms match whole words or
-  phrases, ignoring case; quizzes, clips, and related-link text are excluded. Choose mechanical
-  phrases carefully: "spine" is too broad for cranks, while "spinal lock" is useful.
-- Matching techniques also include their starting positions. Applicability does not spread to
-  every neighboring technique: an air choke from Mount does not make every Mount attack an air
-  choke. Family selectors include all variants and fail generation when unresolved.
-- `rationale` explains the scope. Specific matches carry compact per-technique term evidence in
-  their on-demand dossier. These are editorial coverage rules, not a claim that a term must
-  appear whenever a principle applies; add family or reading-list links for implicit examples.
+- `scope: "all"` covers every graph site, including future additions. Use it for a principle that
+  can guide either participant across positions, transitions, and submissions.
+- `scope: "specific"` combines reading-list links, exact submission `families`, reverse principle
+  references, and reviewed `terms` in selected instructional fields. Terms match whole words or
+  phrases without case sensitivity; flashcards, clips, and related-link fields are excluded.
+  Choose mechanical phrases carefully rather than matching a broad anatomical word indiscriminately.
+- Matching techniques also include their starting positions. Applicability does not spread to every
+  neighboring technique. Family selectors include variants and fail generation when unresolved.
+- `rationale` explains the scope. Dossiers carry term evidence for specific matches. These are
+  editorial membership rules, not proof that a term must appear whenever a principle applies.
+  Use explicit family or reading-list references for implicit examples.
 
-The emitter stores universal membership as one flag and specific membership as a hexadecimal bitset of permanent share
-ordinals, never graph array indexes. The app resolves these once, highlights both role partners,
-and respects the selected gi/no-gi graph. Opening a principle frames the whole graph in the visible area beside the reading pane
-(or above it on phones). The member
-list loads 60 rows at a time; pagination never limits graph highlighting.
-
-The additions and broader interpretation of posture draw on [BJJ Mental Models’ core mechanics](https://www.bjjmentalmodels.com/core-mechanics),
-[its alignment framework](https://www.bjjmentalmodels.com/first-principles), and
-[Grapplearts’ explanation of elbow-knee connection](https://www.grapplearts.com/the-bjj-formula/).
+The emitter stores universal membership as a flag and specific membership as a hexadecimal bitset
+of permanent share ordinals, not graph array indexes. Inspect the resulting membership as well as
+the prose: a successful term match can still be a poor technical match.

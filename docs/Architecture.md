@@ -1,768 +1,534 @@
 # BJJGraph Architecture
 
-## Playable submission states
-
-A submission occurrence is a state with its own attacker and defender choices. Its origin
-remains metadata: Americana from Mount and Americana from Side Control keep distinct IDs,
-role decks, outcomes, and links. Entering an attack opens that state. Exactly one **Finish**
-action resolves its terminal outcome; switching attacks enters the next submission first.
-
-`neural/submission-states.json` explicitly records continuations and legacy control aliases.
-An alias is justified only when the old control record describes the same established lock;
-Back Control, Front Headlock, Ashi Garami, Kimura Trap, and distinct triangle configurations
-remain independent. Old control URLs and outcome targets resolve to the corresponding
-submission seat, while duplicate control orbs are hidden. Stored IDs and ordinals remain intact.
-The FLOW evaluator retains those authored control vertices internally so this visual projection
-does not discard probability mass.
-
-`scripts/submission_choices.py` compiles the catalog alongside the authored submission records.
-The attacker sees Finish plus zero or more named continuations. The defender sees authored
-responses, with attacker-relative outcome roles flipped once. Response success can retain the
-submission threat; it is announced as continued defense rather than an escape. Per-state
-overrides correct the primary triangle and armbar escape destinations.
-
-The same choices row separates **Your options** from **Opponent threats**. Threat colors and
-signed points follow the resulting state from the player’s future seat, including role reversals;
-opponent ownership does not force a red value. Their labeled base odds use the authored success
-rate (its complement for a defensive response), without applying the player’s practice bonuses.
-They are readable, but cannot be executed through clicks, shortcuts, or the move dispatcher. Labels
-name only the action or destination (Finish, Attack Kimura, Take the back); durable full names
-remain available in study content and history. Response choices and their explanations load together on entry
-from `submission-details/`. A loading or retry state holds the hand until that complete set
-is ready; a late response cannot replace a subsequently chosen state.
-
-The three arm attacks retaining the triangle entanglement have separate source records. Their
-initial probabilities are model estimates, not measured success rates; future calibration can
-replace those values without changing their state identity. The catalog is deliberately
-explicit: shared family or adjacency alone never establishes a valid continuation.
-
-Pinned by `tests/submission_states.test.mjs` (both roles and rulesets, alias equivalence,
-triangle branches, role-preserving escapes and entry semantics) and
-`e2e/journeys/submission-choices.spec.ts` (actual cards, attack entry and threat/keyboard isolation).
-
-## JSON-First Content Pipeline
-
-BJJGraph transforms structured JSON into a static site:
-
-```
-content/*.json  →  templates/*.md.jinja2  →  content/*.md  →  Quartz Build  →  Cloudflare Pages
-    (SOURCE)          (TEMPLATES)              (GENERATED)       (BUILD)         (DEPLOY)
-```
-
-### Pipeline Components
-
-1. **JSON Source Files** (`content/`)
-
-   - `content/Positions/*.json` - Individual position state data (85+ files)
-   - `content/Transitions/*.json` - Individual transition technique data (1000+ files)
-   - `content/Submissions/*.json` - Individual submission data (150+ files)
-
-2. **JSON Schemas + Jinja2 Templates** (`templates/`)
-
-   - `templates/Positions/TEMPLATE-*.json` - Position schema definitions
-   - `templates/Transitions/TEMPLATE-DUAL.json` - Transition schema
-   - `templates/Submissions/TEMPLATE-DUAL.json` - Submission variant schema
-   - `templates/Submissions/TEMPLATE-FAMILY.json` - Submission family hub schema
-   - `templates/**/*.md.jinja2` - Generate markdown + SEO schema markup
-   - `templates/Principles.json`, `Systems.json` - Aggregate data files
-
-3. **Generated Markdown** (`content/*.md`)
-
-   - Content pages with YAML frontmatter
-   - Path-prefixed wikilinks for internal navigation (e.g., `[[Positions/Mount]]`)
-   - Schema.org JSON-LD for SEO
-
-4. **Quartz Build** (`npx quartz build`)
-
-   - Static HTML generation
-   - Graph visualization (D3.js)
-   - Full-text search (Flexsearch)
-   - Component rendering (Preact)
-
-5. **Deploy** - Cloudflare Pages with Lighthouse CI and IndexNow
-
----
-
-## Position "Playing As" Model
-
-Positions follow a chess-like architecture where position = board state and Top/Bottom = which side you play.
-
-### Structure
-
-```
-Position (Hub Page)     = Board state (e.g., "Mount")
-├── Top (Role Page)     = Playing as White (maintain, submit)
-└── Bottom (Role Page)  = Playing as Black (escape, reverse)
-```
-
-### File Organization
-
-```
-Positions/
-├── Mount.md           # Hub page (visual graph node; data layer has Mount/Top + Mount/Bottom role-nodes)
-└── Mount/
-    ├── Top.md         # Playing as top (submissions, control)
-    └── Bottom.md      # Playing as bottom (escapes, reversals)
-```
-
-### Graph Rules (two representations — don't conflate)
-
-**Data model — `graph.json` (role-based state machine):**
-
-- Each position emits **role-nodes** `Mount/Top` and `Mount/Bottom` that **carry the edges** — distinct states (you are in one _or_ the other).
-- The bare **hub** entry (`Mount`) only aggregates flashcards and has **no edges**. Neutral positions (Standing/Clinch) are a single node; `game-over` is the terminal sink.
-
-**Rendered graph — `globalGraphLayout.json` (visual projection):**
-
-- **Collapses positions to hub nodes** (Top/Bottom merged) to prevent on-screen redundancy — this is the only sense in which "hub pages are the graph nodes." The state machine itself runs on role-nodes.
-
-See CLAUDE.md → "Graph Topology — canonical model & invariants" for the full edge/direction/sink contract.
-
-**SHIPPED (v1.125.0):** the visual hub-collapse is gone from the DEFAULT view. Every dual state
-renders as TWO adjacent nodes (Top/Bottom, Attacker/Defender) on an isometric ground plane, and
-`?dual=legacy` is the escape hatch back to one node per site. **No file on the wire changed** —
-`graph-data.json`, `globalGraphLayout.json` and `node_ordinals.json` are untouched, because both
-roles were already in the data model and the split is derived at ingest (`_deriveDualPairs`). The
-rep member IS the hub node, so hub ids, share ordinals and page URLs are unaffected; only the
-partner mints an id. Details and measurements: `docs/Changelog-Archive.md` → v1.125.0. The design questions behind it — and the cutover plan that was superseded by
-being unnecessary — live in [DualPairMigration.md](DualPairMigration.md).
-
----
-
-## Transition & Submission "Playing As" Model
-
-Transitions and Submissions follow the same hub-and-role pattern as Positions, using **Attacker/Defender** instead of Top/Bottom.
-
-### Structure
-
-```
-Transition (Hub Page)         = Technique overview, outcomes, both perspectives
-├── Attacker (Role Page)      = Executing the technique (setup, steps, counters)
-└── Defender (Role Page)      = Defending against it (recognition, escapes, options)
-```
-
-### File Organization
-
-```
-Transitions/
-├── Armbar from Mount.md           # Hub page (canonical graph node)
-└── Armbar from Mount/
-    ├── Attacker.md                # Execution perspective
-    └── Defender.md                # Defense perspective
-
-Submissions/
-├── Rear Naked Choke.md            # Hub page with safety info
-└── Rear Naked Choke/
-    ├── Attacker.md                # Finishing mechanics
-    └── Defender.md                # Escape paths, recognition
-```
-
-### Graph Rules (Transitions & Submissions)
-
-- **Each Transition/Submission splits into role-nodes (v1.48.0+)**, mirroring positions' Top/Bottom: an edgeless `<slug>` **hub** (flashcard aggregator), `<slug>/attacker` (outcomes/successRate as authored), and `<slug>/defender` (the SAME exchange role-flipped: outcome roles flipped, results re-perspectived, `successRate = 100 − attacker`). The data layer is thus a fully role-typed alternating game; the **visual layer stays hub-collapsed** (`globalGraphLayout.json` = one node/technique with an `[attacker, defender]` strength pair). `validate_graph` asserts the pairing + edgeless hub + successRate complement.
-- **`outcomes[]` are the outgoing edges (on the role-nodes)** — `success | failure | counter`, summing to 100; each `to` resolves to a position **role-node**, a real **submission**, or **`game-over`** (never a bare hub or family hub). The defender node's `to` targets are the attacker's, role-flipped.
-- **Submission success → `game-over`** (the single sink); only submissions reach it. `is_family: true` hubs are aggregators with **no** edges (not graph nodes).
-- **`targets_outcome`** links role-specific actions to specific entries in `outcomes[]`.
-
-### Transition JSON Structure
-
-Source JSON in `content/Transitions/*.json`:
-
-```json
-{
-  "name": "Armbar from Mount",
-  "from_position": "Mount/Top",
-  "outcomes": [
-    { "to": "Armbar Control/Top", "probability": 55, "result": "success" },
-    { "to": "Mount/Top", "probability": 30, "result": "failure" },
-    { "to": "Closed Guard/Bottom", "probability": 15, "result": "counter" }
-  ]
-}
-```
-
-Attacker/Defender content (execution steps, counters, defensive options) is **generated by Jinja2 templates**, not stored in the source JSON.
-
-### Submission Differences
-
-Submissions use the same attacker/defender pattern with additions:
-
-- `outcomes[]` is **required on executable submission variants** (the graph nodes — e.g. `Armbar from Mount`), which must have probabilistic outcomes. **Family hubs** (`is_family: true`, e.g. `Armbar`) are aggregator pages, **not** graph nodes, and have **no** `outcomes` — their variants carry them. `validate_graph_integrity.py` therefore exempts `is_family` files from the outcomes check.
-- `safety_considerations` stays at **hub level** (shared between roles)
-- Defender has `escape_paths[]` (submission-specific escape routes)
-
----
-
-## Quartz Configuration
-
-### Core Files
-
-| File                        | Purpose                              |
-| --------------------------- | ------------------------------------ |
-| `source/quartz.config.ts`   | Site configuration, theme, analytics |
-| `source/quartz.layout.ts`   | Component placement                  |
-| `source/quartz/components/` | Preact UI components                 |
-| `source/quartz/plugins/`    | Content transformers and emitters    |
-
-### Forward Components development library
-
-The Neural interface has a standalone, no-auth development catalog that does not boot the
-production game runtime:
-
-- `/dev/components/` inventories reusable primitives, HUD, graph, decision, study, explorer,
-  dossier, overlay, feedback, and progression components with state variants.
-- `/dev/screens/` composes those building blocks into deterministic gameplay states from boot
-  through roll end, plus independent left/right/both-pane layouts, restart hygiene, terminal
-  states, Game Knowledge, Challenges, Collection, study, explorer, settings, onboarding, and
-  responsive stress cases.
-- `/dev/use-cases/` composes screens into timestamped animation, notification, and interaction
-  timelines. Each important gameplay motion family and notification has an inspectable static
-  timepoint, while focused playback advances through the same frames at 0.5x, 1x, or 2x.
-- `/dev/user-journeys/` composes use cases into configurable end-to-end chapters. The shipped
-  journeys cover a first roll, Challenge progression, defeat-and-recovery, an advanced momentum
-  run, and Collection acknowledgements.
-- `/dev/sounds/` is a separate production-audio tool. It documents and previews the default
-  Neural runtime's canonical electrical/space cue catalog in each real gameplay context; it is
-  not a fifth composition layer.
-- `/dev/` is the hierarchy hub: Components -> Screens -> Use Cases -> User Journeys, plus the
-  separate Neural Sound Lab. The dashed use-case and user-journey routes are canonical; undashed
-  spellings redirect for compatibility.
-- All four libraries share source-controlled fixtures, renderers, and design tokens in `forward/`.
-- All five development routes share navigation and use the same persistent catalog-rail behavior.
-  Desktop keeps the full list visible; constrained viewports move that list into a focus-managed
-  drawer with Escape/backdrop close behavior. Item dropdowns are not used as a substitute for
-  browsing a library or sound group.
-- Viewport controls cover fluid, 320px, phone, 400x875, tablet, desktop, and short-landscape
-  containers. Catalog item, viewport, variant, graph node, and player role are permalinked in
-  the URL hash.
-- Node controls are generated from the canonical role nodes in `graph.json`: positions expose
-  Top/Bottom, while transitions and executable submissions expose Attacker/Defender. The build
-  groups role nodes by hub and writes the compact preview inventory to
-  `source/public/dev/shared/entities.json`; curated fixtures are an explicit offline fallback.
-- Context-bearing landing cards, questions, option hands, film strips, study cards, technique
-  sheets, dossiers, checkpoints, and complete screens all consume the same selected entity and
-  role context.
-- Use-case and user-journey timelines preserve that entity and role context, add device and
-  playback controls, permalink the selected timepoint, and show every timeline screen together
-  below the focused preview.
-- `forward/shared/sequence-registry.js` is the declarative timeline source. Use cases define
-  millisecond timepoints with a screen state, motion name, and motion progress; journeys reference
-  those use cases as named chapters. `sequence-catalog.js` owns filtering, keyboard and playback
-  controls, mobile selection, hash restoration, and rendering.
-- The detail model is represented explicitly as collapsed landing detail, expanded dossier
-  detail, and SEO/AI text projections rather than separate competing content sources. SEO/AI
-  projections are labeled `output-only`; they are never presented as Neural runtime screens.
-- `component-registry.js` and `screen-registry.js` attach machine-readable production provenance
-  to every entry: source files, runtime method/template section, stable DOM or React ref handles,
-  and `runtime`/`output-only` classification. Inline-only surfaces use their real refs (for
-  example, `dossierSheetRef`) instead of invented CSS selectors. `build_forward_components.mjs`
-  rejects duplicate IDs, incomplete provenance, and missing source files before publishing
-  `/dev/`.
-- `neural/src/sound.src.js` is the single source for both the production `NGSound` engine and
-  `NG_SOUND_CATALOG`. The Forward build evaluates that source in an isolated VM, rejects missing
-  metadata, duplicate beats, invalid durations, missing required outcome cues, or an absent
-  engine, then writes `sounds/sound-engine.js` and `sounds/sound-catalog.json`.
-- Forward derives the base `.ng-*` motion and responsive rules from `neural/src/helmet.html` at
-  build time, then applies frame-scoped catalog layout rules. Renderers mirror the persistent
-  shell in `neural/src/xdc-template.html` and the dynamic structures in
-  `neural/src/app.src.jsx`, including Explore, Challenges, Collection, Game Knowledge, Flashcards,
-  Settings, dossiers, option detail, landing questions, defense, momentum, and center events.
-- Game Knowledge is the only mastery score. Challenge tracks label content difficulty and remain
-  open independently of that score; the catalog does not restore the retired Belt Path or content
-  locks. Restart previews model the immediate center event and engine cleanup, not a confirmation
-  dialog.
-
-`npm run build:forward` copies the artifact into `source/public/dev/`. The normal
-`npm run build` command runs this after Quartz so the routes survive the output-directory reset.
-The dev and production deployment workflows also invoke `build:forward` explicitly because they
-call Quartz directly. Deployments run the `@curated` Playwright gate; the complete core suite is
-built once and sharded across four runners for pull requests targeting `main`, weekly confidence
-runs, and manual dispatches.
-
-### Neural Challenges and Rewards
-
-Neural has two independent progression axes:
-
-| Axis | Meaning | Can gate gameplay? |
-| --- | --- | --- |
-| **Game Knowledge** | Frequency-weighted recall mastery across the graph | No |
-| **Challenges** | Evidence that a player performed useful actions or completed study goals | No |
-
-The pane's three tabs are **Explore · Challenges · Last rolls** (the third tab's view id and
-settings keys remain `history` internally). There is no Collection tab — rewards live in a shelf at
-the foot of Challenges — and there is no Game Knowledge header: the score's one exposure is the
-Explore tab subtitle. Full behaviour: [Neural.md](Neural.md). The five Challenge tracks label content difficulty (White through Black) and are all
-selectable from a fresh profile. Track names do not claim or award real-world rank.
-
-Challenge definitions are declarative in `neural/src/challenge-definitions.src.js`; pure matching,
-progress, reward, migration, reset, and merge helpers live in `challenge-engine.src.js`. The
-imperative pane composition is in `challenge-ui.src.js`, and pinned-cue/reward feedback is in
-`challenge-feedback.src.js`. `neural/build/build.mjs` composes these modules after the main class.
-
-#### Evidence and access rules
-
-- `fx()` sends existing gameplay beats through Challenge matching.
-- Snapshot reconciliation covers historical lesson, checkpoint, recall, mastery, and capstone
-  evidence without replaying historical feedback.
-- Lessons are open across all tracks. A checkpoint requires the selected unit's lesson evidence.
-- Optional content capstones require the selected track's checkpoints. They record proof and never
-  open or close other tracks.
-- Patches acknowledge meaningful milestones. Mat Coins are mint-once jokes with no balance,
-  spending, exchange, or gameplay effect.
-- Guest progress is local; offline completions remain local and sync when connectivity returns.
-
-#### v2 persistence and cloud reconciliation
-
-The existing Neural v2 blob adds:
+## State glossary
+
+**State** is the umbrella term for the configurations and exchanges represented by the model.
+
+- **Position:** a relatively stable configuration. Stable does not mean motionless or free of
+  force; players can maintain pressure, adjust grips and contest control within a position.
+- **Transition:** a transient state involving motion, forces and players actively trying to
+  change the state. It is a first-class technique node, not merely an edge between positions.
+- **Submission:** a transient attacking state with a possible terminal finish. Entering one
+  does not guarantee a tap. Defense, failure and changes of attack can continue the exchange.
+- **Role node:** one participant's perspective on a state. Positions use Top/Bottom;
+  transitions and submissions use Attacker/Defender. These are not interchangeable axes:
+  an attacker can be physically on the bottom.
+- **Reference hub:** an edgeless entry that groups content or flashcards. It is not an extra
+  playable state. A hub's identity can also name a site in the visual projection.
+
+These definitions describe the conceptual model, not a promise that the interface pauses at
+every transient state. The source records, generated graph, visual projection and game loop
+have different responsibilities, described below.
+
+Probabilities are authored or calibrated **model estimates**, not match statistics or
+expert-validated predictions. Validators check structure and selected consistency rules; bots
+can suggest corrections. Neither establishes that a technique, state boundary or probability
+is sound BJJ. A panel of black-belt BJJ practitioners should review state boundaries,
+role/origin/target validity, rule and equipment applicability, probabilities, mechanics and
+safety. That review is needed, not claimed to have happened. All estimates remain open to
+correction. The site is a study companion, not a substitute for supervised instruction.
+
+## Architecture at a glance
 
 ```text
-challenges: { [id]: { progress, done, t } }
-badges:     { [id]: { t } }
-coins:      { [id]: { t, context? } }
+Authored content JSON + schemas/templates
+  |-- Markdown generator --> content Markdown --> Quartz --> static articles
+  |-- graph emitter ------> graph.json
+                              |-- layout + strength + ordinals
+                              |-- Neural data emitter --> compact graph + lazy content chunks
+
+Neural source + HTML/CSS --> bundle builder --> browser game overlay
+Static articles + emitted assets -----------> source/public --> Cloudflare Pages
+Forward fixtures + renderers ---------------> source/public/dev
 ```
 
-Challenge progress merges by **MAX**, completion by **OR**, and badges/coins by **UNION**. Settings
-continue to use per-key timestamp last-write-wins. A fresh device pulls before its first push.
-Legacy `tut.done` migrates into the 20 White objectives, while `path`/`tree` view preferences map to
-`challenges`/`explore`. Compatibility identifiers remain internal and must not reintroduce the
-retired Tutorial or content-lock UI.
+The layers must not be conflated:
 
-### Key Configuration
+| Layer | Owner | Responsibility |
+| --- | --- | --- |
+| Authored content | `content/**/*.json`, `templates/` | Technique identities, role-specific prose, probabilities, safety and relationships |
+| Generated data model | [regenerate_graph.py](../scripts/regenerate_graph.py) | Role nodes, technique outcomes, origin metadata, reference hubs and published rates |
+| Layout projection | [regenerate_graph_layout.py](../scripts/regenerate_graph_layout.py) | Site-level coordinates and links in `source/quartz/static/globalGraphLayout.json` |
+| Browser payload | [regenerate_neural_data.py](../scripts/regenerate_neural_data.py) | Join graph, layout, content and ordinals into compact runtime data |
+| Game runtime | [app.src.jsx](../neural/src/app.src.jsx) | Player seats, legal choices, outcome resolution, learning surfaces and drawing |
+| Static site | [quartz.config.ts](../source/quartz.config.ts), [quartz.layout.ts](../source/quartz.layout.ts) | Crawlable articles, metadata, navigation and the app loader |
 
-```typescript
-// quartz.config.ts
-const config: QuartzConfig = {
-  configuration: {
-    pageTitle: "BJJ Graph",
-    enableSPA: true, // Single-page app navigation
-    enablePopovers: true, // Hover previews for links
-    analytics: {
-      provider: "posthog", // PostHog analytics
-    },
-  },
-};
+## Authored content and generated pages
+
+JSON is the authored source for the content pipeline. Edit the JSON or the relevant template,
+not its generated Markdown sibling. Hand-maintained utility pages, such as
+[Game Over](../content/Game%20Over.md), are separate from those generated articles.
+
+The corpus is organized under `content/Positions/`, `Transitions/`, `Submissions/`, `Systems/`,
+`Principles/` and `Learning/`. Technique occurrences can live in nested family directories.
+For example:
+
+```text
+content/Positions/Mount.json
+content/Positions/Mount.md
+content/Positions/Mount/Top.md
+content/Positions/Mount/Bottom.md
+
+content/Submissions/Americana/from Mount.json
+content/Submissions/Americana/from Mount.md
+content/Submissions/Americana/from Mount/Attacker.md
+content/Submissions/Americana/from Mount/Defender.md
 ```
 
-### Layout Zones
+Schemas live in `templates/Positions/TEMPLATE-*.json`,
+`templates/Transitions/TEMPLATE-DUAL.json` and `templates/Submissions/TEMPLATE-*.json`.
+The matching Jinja2 templates render hub and role pages. Top-level category templates and
+catalogs also live under `templates/`. [regenerate_md_from_json.py](../scripts/regenerate_md_from_json.py)
+selects the rendering path.
 
-```typescript
-// quartz.layout.ts — post-excision (v1.80.0). The page is SEO/crawler surface; the app is Neural.
-export const sharedPageComponents: SharedLayout = {
-  head: Component.Head(),
-  header: [],
-  afterBody: [
-    Component.AuthUI(), // load-bearing: installs the window.__bjjAuth seam
-    Component.Search(),
-    Component.NeuralMount(), // boots the Neural app bundle
-    Component.SnapshotButton(), // localhost-only dev camera
-  ],
-  footer: Component.Footer({ links: {} }),
-};
+**Attacker and Defender bodies are authored in JSON.** Templates lay out their overviews,
+execution steps, defensive options, counters and flashcards; they do not invent those bodies.
+Submission records additionally carry shared `safety_considerations` and defender
+`escape_paths`. Submission family records marked `is_family: true` aggregate variants and
+are not executable submissions.
 
-export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [
-    ...breadcrumbs, // gated on SHOW_BREADCRUMBS
-    Component.ArticleTitle(),
-    Component.ContentMeta({ showReadingTime: false }),
-  ],
-  left: [Component.DesktopOnly(Component.CategoryNav())],
-  right: [Component.DesktopOnly(Component.TableOfContents())],
-};
-```
+Generated pages include frontmatter, path-prefixed wikilinks and schema markup. A source
+reference such as `Mount/Top` is not itself a browser URL. Generated page paths preserve the
+content directory structure and case; graph keys are normalized slugs. Use the existing slug
+and path helpers rather than guessing how to translate between them. Content conventions are
+in [Content.md](Content.md); crawlable output is covered in [SEO.md](SEO.md).
 
-The v1.80.0 legacy excision deleted the whole legacy page UI — `VictoryDisplay`, `TreeExplorer`,
-`TreeDrawer`, `MoveCards`, `OutcomeCards`, `SystemProgress`, `Flashcard`, the `Graph` /
-`BackgroundGraph` PixiJS components, the training strip + its two modals, `TopBar`, `ContentPanel`
-and `?variant=legacy` itself. Do not restore them from an older revision of this document: four
-components in `afterBody` is the whole always-on surface, and gameplay, training and the graph all
-live in the Neural bundle (`neural/src/`). `e2e/journeys/legacy-gone.spec.ts` is the gate.
+### Probability shapes
 
-**Registration is the only reachability rail.** Quartz's `ComponentResources` emitter collects CSS
-and JS exclusively from the components a layout (or an emitter) actually registers, so an
-unregistered component contributes zero emitted bytes. v1.79.2 pruned the upstream components this
-fork never registered — Explorer/ExplorerNode, Darkmode, Backlinks, RecentNotes, Comments (giscus),
-PageTitle, TagList, Spacer, MobileOnly, NotDesktop — plus the unregistered transformers
-(Citations, Latex, HardLineBreaks, OxHugoFlavouredMarkdown, RoamFlavoredMarkdown), the CNAME
-emitter, the ExplicitPublish filter, 20 unused i18n locales, and the vendored upstream
-`source/docs/`. `scripts/check_build_fingerprint.py` is the proof: it compares the emitted file
-manifest and the index.css / prescript.js / postscript.js hashes against a pre-prune baseline in
-`tests/artifacts/build_fingerprint.json`. Run it in default mode after any such refactor (never
-`--strict` — `CreatedModifiedDate` makes HTML bodies differ between checkouts).
+Author `attempt_probability`, `success_rate` and outcome `probability` using `{gi, nogi}` maps.
+Each present ruleset frame sums independently: attempt weights per position role, outcome
+weights per technique. A `null` cell means the edge does not exist in that frame; `0` means
+it exists with zero modeled weight. An all-null frame is absent, not a numeric distribution.
+An edge absent in both frames is a defect, not a way to delete it silently.
 
-**Two confounders make a stored baseline non-portable between checkouts.** Compare it against a
-baseline captured in the SAME checkout, or the gate reports failures it did not cause:
+The schemas still accept legacy scalar values, and [_ruleset.py](../scripts/_ruleset.py)
+can mirror them into both frames. That compatibility is not the recommended authoring shape.
+The schemas also permit two or more outcomes; do not describe them as enforcing a universal
+three-to-five-outcome limit.
 
-- `source/quartz/static/neural/` is gitignored generated output, and the `Static` emitter copies
-  that tree wholesale. A checkout that has never run `regenerate:neural` emits ~2,932 fewer files
-  than one that has — nothing to do with the change under test.
-- `index.xml` is the "last 10 notes" RSS feed, and `generateRSSFeed` sorts by `modified` date. Every
-  `content/*.md` path is passed to git as `../content/...` relative to `source/`, which git cannot
-  resolve, so every page falls through to filesystem mtime. A fresh checkout stamps all 4,618 files
-  within the same millisecond, so the feed's membership is decided by sub-millisecond write order.
-  `index.xml` is therefore mtime-derived in exactly the way the gate exempts HTML bodies for, but
-  its size IS compared.
-
-The portable protocol, used to clear v1.79.2: build the pre-change tree and the post-change tree in
-the same checkout and diff the two manifests directly. Both produced 6,240 files with zero
-additions, zero removals, zero size differences across all 6,192 HTML pages, and byte-identical
-`index.css` (103,198 B), `prescript.js` (3,194 B) and `postscript.js` (1,457,060 B).
-
----
-
-## Neural Data Delivery (v1.80.4)
-
-The app's data is generated by `scripts/regenerate_neural_data.py` into `source/quartz/static/neural/`
-(gitignored; CI regenerates it, the `Static` emitter copies it). Until v1.80.4 a first visit pulled
-**39.3MB raw / 10.1MB gzip** of it before a move was possible — the direct cause of a real-user LCP
-P75 of 13,764ms with 80% Poor while CLS sat at 0.017/100% Good. It is now **2.4MB / 355KB**.
-
-| file | role | fetched |
-|---|---|---|
-| `graph-data.json` | the state machine the game runs on | boot |
-| `flashcards/_index.json` | deck manifest: `{"<Name>\|<Role>": [cat, n]}` + `shared` (see below) | boot |
-| `flashcards/<fnv1a32(deckKey)>.json` | `{deckKey: {cat, role, cards}}` — one deck | on demand |
-| `content/<fnv1a32(key)>.json` | `{key: dossier}` — one node's dossier (`window.NG_CONTENT` is the cache) | on demand |
-| `curriculum.json` | belts/units/lessons + `scoreWeights` (`{div, p, t}`, compact — the whole-corpus table `gameScore` sums) | boot |
-| `systems.json` | the authored course library | first read |
-
-Two payloads were **deleted**, not shrunk: `flashcards.json` (16.4MB, every card of all 2,924
-decks) and `technique-content.js` (21.2MB, `window.NG_CONTENT` for every node, loaded as a
-`<script>` by `variant.inline.ts`). Nothing emits or reads a monolith any more — tooling that
-needs the whole corpus assembles it from the chunks through `scripts/_neural_decks.py` (the
-exhaustive `validate:mc` audit, `_curriculum.py`, `draft_curriculum.py`, `regen_mc_answers.py`) or
-`e2e/decks.ts` (Playwright). The generator deletes a stale monolith if it finds one, because the
-output dir is gitignored and an old copy would keep failing the payload gate.
-
-**Chunk addressing is derived, not stored.** `fnv1a32(key)` (FNV-1a over UTF-16 code units) is the
-app's own `qhash()`, ported byte-identically in `scripts/_neural_content.fnv1a32`. That removed
-~110KB of filenames from the manifest — the key already names the deck — and removed the slug
-collision bookkeeping with it: a chunk holds a `{key: value}` map, so a hash collision means two
-entries share a file and both still resolve.
-
-**Residency is a timeline, and three things depend on it being handled honestly:**
-
-1. **The belt must not move.** `deckMastery` computes `Σ min(stage,3)/3 ÷ n` from the persisted
-   grades when a deck's cards are absent — identical arithmetic to the resident branch, because an
-   ungraded card contributes 0 either way. `n` comes from the manifest. Without this a manifest
-   boot reads every deck at 0 and `gameScore` (memoised on `_stageVer`) reports a white belt for
-   the session. `_bumpStageVer()` is the single writer of `_stageVer`, shared by grades and
-   hydration.
-2. **Snapshots must be refreshed.** `_cardsOf(d)` returns a live reference but `_entryForKey`
-   `.slice()`s it, so an open study surface holds a copy: `_onDeckHydrated` and
-   `_restudy(key)` rebuild the entry, and `onFlashcardsReady` no longer calls `buildDrillPanel`
-   while `_paneStudyActive()` (it resets `deck`/`_drillView`, which wiped an open deck when a
-   chunk landed). `_qkDecks` is invalidated on every hydration.
-3. **The RNG stream must not depend on the network.** See `_warmMcPool` in
-   `neural/src/app.src.jsx`: MC distractor pooling consults up to three tiers (authored, own deck,
-   graph neighbours, then a bounded walk over every deck), so whether a chunk had arrived would
-   decide how many draws happen. It is made a precondition instead — a dry pass inside an RNG
-   transaction (`_rngBegin`/`_rngRollback`), hydrate what it asked for, repeat, then draw for real.
-   An unwarmed consult emits an `mc_pool_cold` beat.
-
-**Four rules the lazy path must not break (v1.80.5, all covered by
-`tests/neural_residency_contract.test.mjs`):**
-
-- **The warm pass is lazy, and it aborts at the first cold deck.** It used to pre-fetch the
-  landing deck *and every graph neighbour* before its first dry pass — an unbounded fan-out paid on
-  every landing for a pool 85.5% of cards never consult. The dry pass names what it actually
-  reached (`_mcCold` records it and throws), so a card with authored distractors costs zero
-  fetches, and the global tier's walk over 2,924 keys can no longer become dozens of them.
-- **A failed chunk is a condition, not a verdict.** `hydrateDeck` never caches a failure as
-  success: the stub survives, `n` keeps its authority, `deck_fetch_failed` fires, and the next
-  reader retries (3 consecutive failures → 20s cooldown). `deckStatus(key)` distinguishes
-  `pending` / `loading` / `failed` / `empty` / `ready` / `missing`, and the surfaces say which.
-- **Credit is residency-independent.** The manifest ships `shared`: `fnv1a32(question)` → deck
-  indexes, for every question carried by 2+ decks (451 of 21,334 — 10.6KB raw / 4.3KB gzip). The
-  blended hierarchy's cross-deck credit (`noteCardDone` → `_sharedDecksFor`) therefore pays the
-  same however the chunks happen to have landed. The old resident-scan (`_qkDecks`) remains only
-  as the fallback for a boot with no index.
-- **Counts come from `n`.** Every deck row reads `_deckCountLabel(key)`; `_histRow`,
-  `updateDrillTab` and the landing chip read `_deckCardCount`. A cold visitor is shown the real
-  size of the corpus, not the size of their download. `_pruneStaleGrades` drops grades for
-  questions a landed chunk does not carry (guarded on `cards.length === n`), so the two branches of
-  `deckMastery` converge on one definition instead of disagreeing about retired cards.
-
-## Gameplay Audio & Terminal Effects
-
-Gameplay audio is synthesized at runtime with the Web Audio API; there are no downloaded sound
-files or audio dependencies. There is ONE engine: `neural/src/sound.src.js` (`NGSound`), which
-owns both the runtime and the canonical cue catalog `NG_SOUND_CATALOG`.
-
-| Concern           | Neural runtime                                             |
-| ----------------- | ---------------------------------------------------------- |
-| Sound engine      | `neural/src/sound.src.js` (`NGSound`)                      |
-| Catalog           | `NG_SOUND_CATALOG`, in the same production source          |
-| User control      | Neural `sound` and `soundVolume` settings                  |
-| Persistence       | Neural progress/settings blob                              |
-| Browser lifecycle | Lazy gesture-unlocked context; destroyed on app teardown   |
-| Output safety     | Compressor, six-voice cap, 40ms spacing, 100ms beat dedupe |
-
-The legacy Quartz variant had a second engine (`scripts/gameAudio.ts`, `GAME_SOUND_CATALOG`, gated
-on `BJJSettings.soundEnabled`). It was **deleted in v1.80.0** along with the rest of the legacy
-front-end — do not reintroduce a second catalog of default-runtime sounds.
-
-The default cue language is contextual rather than arcade-like: filtered current and spatial scans
-support ordinary decisions; correct moves and recall proof connect like synapses; opponent turns
-and defense use radar and shield fields; checkpoints, stripes, and belt progression use
-progressively richer constellations. Victory gets a full star-jump fanfare, while defeat uses a
-long reactor shutdown with a recoverable final harmonic. Interface cues remain near the noise
-floor, and unmapped routine beats remain silent.
-
-Neural test mode never creates an `AudioContext`; it logs the selected patch and volume to
-`soundLog`, and all synthesis variation uses deterministic `app.rng("sfx")`. The production
-context initializes only after a user gesture and closes on SPA teardown. The legacy daily-goal
-cue is claimed once per local day through `DailyProgress.goalCelebrated`; disabling legacy sound
-closes its context immediately. Browsers without Web Audio degrade without blocking gameplay.
-
-`/dev/sounds/` is a noindex Forward developer tool in `forward/sounds/`. It loads a build-copied
-version of the production Neural engine, documents every catalog cue's beat, trigger, duration,
-and sonic character, and offers isolated volume-controlled previews and a stop control. It is
-source-controlled under `forward/` because `build:forward` deliberately replaces
-`source/public/dev` after Quartz; a Quartz emitter at that path would be deleted.
-
----
-
-## State Machine Data Model
-
-BJJ Graph content represents a probabilistic state machine with **transitions as first-class nodes**:
-
-```
-Position ──[attempt %]──> Transition ──[outcome %]──> Position/Transition/Submission
-```
-
-- **Positions** = States (nodes) with Top/Bottom roles
-- **Transitions** = Technique nodes with probabilistic outcomes
-- **Terminal State** = `game-over` (single sink node for all submissions)
-
-### Graph Architecture
-
-The graph uses a **Position-Transition-Position** model:
-
-1. From a Position (with role), you can **attempt** various Transitions
-2. Each Transition has multiple possible **outcomes** based on success/failure/counter
-3. Outcomes lead to other Positions, Transitions, or terminal state
-
-This models the reality of BJJ: attempting a technique doesn't guarantee a specific result.
-
-### Position Data Structure
-
-Positions define available transitions per role with attempt probabilities:
+This is one actual entry from `Mount.json`'s `top.transitions` array, not a complete hand:
 
 ```json
 {
-  "name": "Mount",
-  "top": {
-    "state_properties": {
-      "point_value": 4,
-      "position_type": "Offensive/Controlling",
-      "risk_level": "Low",
-      "energy_cost": "Low"
-    },
-    "transitions": [
-      { "name": "Armbar from Mount", "attempt_probability": 25 },
-      { "name": "Cross Collar Choke", "attempt_probability": 20 },
-      { "name": "Transition to Back Control", "attempt_probability": 30 },
-      { "name": "Maintain Mount", "attempt_probability": 25 }
-    ]
-  },
-  "bottom": {
-    "state_properties": {
-      "point_value": -4,
-      "position_type": "Defensive",
-      "risk_level": "High",
-      "energy_cost": "High"
-    },
-    "transitions": [
-      { "name": "Elbow Escape", "attempt_probability": 35 },
-      { "name": "Upa Escape", "attempt_probability": 25 },
-      { "name": "Hip Escape", "attempt_probability": 30 },
-      { "name": "Frame and Survive", "attempt_probability": 10 }
-    ]
-  }
+  "transition": "Mount to Armbar",
+  "attempt_probability": { "gi": 6, "nogi": 7 }
 }
 ```
 
-**Validation rules:**
+The reference key is **`transition`**, not `name`. It can resolve to a transition or an
+executable submission. The full role's array, not this excerpt, supplies the distribution.
 
-- `attempt_probability` values MUST sum to 100% per role
-- Each `name` must reference an existing Transition by name
-
-### Transition Data Structure
-
-Transitions are technique nodes with probabilistic outcomes:
+This excerpt from [100% Sweep](../content/Transitions/100%25%20Sweep.json) includes its complete
+outcome distribution but omits the instructional fields required for a complete source record:
 
 ```json
 {
-  "name": "Armbar from Mount",
-  "from_position": "Mount/Top",
-  "execution_complexity": "Medium",
-  "energy_cost": "Medium",
-  "physical_requirements": {
-    "strength": "Low",
-    "flexibility": "Medium",
-    "coordination": "High",
-    "speed": "Medium"
-  },
+  "name": "100% Sweep",
+  "from_position": "Closed Guard/Bottom",
+  "success_rate": { "gi": 50, "nogi": 50 },
   "outcomes": [
-    { "to": "Armbar Control", "probability": 55, "result": "success" },
-    { "to": "Mount", "probability": 30, "result": "failure" },
-    { "to": "Closed Guard", "probability": 15, "result": "counter" }
+    { "to": "Mount/Top", "probability": { "gi": 50, "nogi": 50 }, "result": "success" },
+    { "to": "Closed Guard/Bottom", "probability": { "gi": 35, "nogi": 35 }, "result": "failure" },
+    { "to": "Side Control/Bottom", "probability": { "gi": 15, "nogi": 15 }, "result": "counter" }
   ]
 }
 ```
 
-**Validation rules:**
+`success`, `failure` and `counter` describe the outcome from the authored attacker's
+perspective. Returning to the origin position after a failed technique is legitimate:
+position -> technique -> original position is not a technique self-loop.
 
-- `from_position` format: `"Position/Role"` (e.g., `"Mount/Top"`, `"Closed Guard/Bottom"`)
-- `outcomes` probability values MUST sum to 100%
-- `result` must be one of: `success`, `failure`, `counter`
-- `to` can be: Position name, Transition name, or `"game-over"`
+## Generated graph model
 
-### Outcome Result Types
+[regenerate_graph.py](../scripts/regenerate_graph.py) emits `graph.json`.
 
-| Result    | Description                                       | Example                                     |
-| --------- | ------------------------------------------------- | ------------------------------------------- |
-| `success` | Technique achieves intended goal                  | Armbar from Mount -> Armbar Control         |
-| `failure` | Technique fails, position maintained or regressed | Armbar from Mount -> Mount (stay)           |
-| `counter` | Opponent successfully counters                    | Armbar from Mount -> Closed Guard (escaped) |
+- Position role nodes such as `mount/top` and `mount/bottom` carry outgoing attempts.
+  The bare `mount` hub holds reference content without outgoing attempts. Standing Position,
+  Clinch and Open Guard also have Top/Bottom nodes; being conceptually neutral does not remove
+  their role split.
+- Each executable technique has an edgeless `<slug>` hub and `<slug>/attacker` and
+  `<slug>/defender` nodes. Outcome distributions live on the role nodes. The defender view
+  flips position-role targets and reinterprets results; its success rate complements the
+  attacker's rate. This derived exchange is separate from the authored defender prose.
+- A position attempt's emitted `target` names the technique's base slug. Consumers select its
+  attacker role node to read the exchange; the base reference does not give the hub edges.
+- `from_position` becomes structured origin metadata such as `fromPositionId` and `fromRole`.
+  It is not an additional outcome edge.
+- Submission family hubs are reference aggregators, not playable technique occurrences.
 
-### Terminal State
+The intended topology is:
 
-All submission finishes connect to `game-over`, the single terminal state:
-
-```json
-{
-  "name": "Armbar Finish",
-  "from_position": "Armbar Control/Top",
-  "outcomes": [
-    { "to": "game-over", "probability": 70, "result": "success" },
-    { "to": "Armbar Control", "probability": 20, "result": "failure" },
-    { "to": "Closed Guard", "probability": 10, "result": "counter" }
-  ]
-}
+```text
+Position/Role --attempt weight--> Transition/Attacker --outcome weight--> Position/Role or Submission
+Position/Role --attempt weight--> Submission/Attacker --outcome weight--> Position/Role, Submission or game-over
 ```
 
-The `game-over` page (`content/game-over.md`) is a sink node representing match end via submission. This replaces the previous `Won by Submission` / `Lost by Submission` architecture.
+Only a submission finish should reach `game-over`. The terminal page is `content/Game Over.md`,
+whose `game-over` alias resolves `[[game-over]]`. A transition that establishes a grip or
+changes position is not a finish merely because its name mentions a submission. Keep each
+executable occurrence's identity and origin unambiguous; do not author the same executable
+name in both Transitions and Submissions as competing records.
 
-### Transition Types (Submission Modeling)
+Outcome targets should resolve to position role nodes, real submission occurrences or
+`game-over`, not reference hubs. Graph validation is described under [Checks and their limits](#checks-and-their-limits);
+these modeling rules are not all equivalent to hard schema constraints.
 
-Transitions model three distinct types of technique attempts. The type determines the outcome structure:
+### Published rates and rulesets
 
-#### Type A: Direct Submissions
+The emitter reads source content and published rates from `templates/votes.json` through
+[_votes.py](../scripts/_votes.py). Where a published rate matches a technique, it overrides the
+headline and the scalar outcome distribution is rescaled to that headline. Source
+`success_rate` and source success-outcome mass therefore must not be assumed identical to the
+published graph without inspecting this step.
 
-No intermediate control position. The technique either finishes or fails immediately.
+`graph.json` is not a verbatim copy of the source's probability maps. Position edges carry
+`attemptProbability` folded to no-gi and `attemptProbabilityByRuleset`. Technique outcomes are
+folded scalars; published rate overrides carry `successRateByRuleset` alongside `successRate`.
+The compact browser payload can omit a per-frame rate equal to the scalar. Do not infer that
+every generated probability field retains a complete pair just because source uses maps.
 
+Runtime availability is a separate reachability calculation. `frame_reachable` in the Neural
+emitter walks from the standing role nodes. `EXCLUDING_FRAMES` currently applies exclusion to
+no-gi; the gi findings are reported rather than used as a blanket legality filter. In the app,
+`rsAllows` and `_rulesetMask` filter consumers. This is not a complete competition-rules engine,
+and a technique's name is not a reliable equipment test.
+
+## Visual projection and runtime interpretation
+
+`regenerate_graph_layout.py` projects the role-based graph onto sites, using node2vec and UMAP
+for coordinates. `globalGraphLayout.json` is an input to the Neural emitter, not the graph file
+the app fetches. Strength enrichment is owned by
+[enrich_graph_strength.py](../scripts/enrich_graph_strength.py) and
+[score_graph_nodes.py](../scripts/score_graph_nodes.py).
+
+The emitted `graph-data.json` remains site-based. At ingest, `_deriveDualPairs` derives the
+Top/Bottom or Attacker/Defender pair for the canvas. The representative member retains the
+site's id, URL and share ordinal; its partner is a derived member. `?dual=legacy` is no longer
+a rendering switch. The unsplit control path is test-only (`__NEURAL_NO_PAIRS__`).
+
+Site adjacency and playable hands are different things. Shared site adjacency supports graph
+and reference consumers. `optionsFor` applies role, origin and ruleset restrictions when dealing
+a positional hand; it has an origin-relaxed fallback and must not relax the performer role.
+The positional branch of `opponentDefend` now calls `optionsFor` for the opposite physical role,
+rather than treating every adjacent technique as an opponent move.
+
+The `s` strength pair means `[top, bottom]` on positions and `[attacker, defender]` on techniques.
+Use `valIdx(node)` for player-relative technique values instead of applying `roleIdx()` to both
+shapes. Lists and sharing use site identity through `siteIdOf`; browser array indexes are not
+persistent identifiers. [node_ordinals.json](../node_ordinals.json) is an append-only mapping
+maintained by [regenerate_node_ordinals.py](../scripts/regenerate_node_ordinals.py). Existing
+ordinals must not be renumbered or reused.
+
+The game interprets the model rather than replaying a physical match. `resolve` uses a
+player-modified success check and `drawOutcome` samples the corresponding outcome branch.
+`moveChance` combines the published estimate with practice, question, opponent and gameplay
+modifiers. `solve_edge_values.py` supplies model-relative move values, and
+`neural/src/flow.src.js` supplies learning-priority calculations. Those values are estimates
+under their own modeled policies, not measured coaching effectiveness.
+
+### Playable submission states
+
+A submission occurrence has its own attacker and defender choices. Americana from Mount and
+Americana from Side Control remain distinct occurrences with separate origin metadata, role
+decks and outcomes. Entering an attack opens its state; it does not immediately resolve a tap.
+
+[submission-states.json](../neural/submission-states.json) explicitly lists control aliases,
+continuations, short labels and defense overrides.
+[submission_choices.py](../scripts/submission_choices.py) compiles it with the source records.
+Shared family membership or adjacency alone does not establish a valid continuation.
+
+- The attacker receives exactly one **Finish** action, plus any cataloged continuations allowed
+  in the current frame. Finish resolves the submission's outcome distribution; it is not a
+  guaranteed terminal result. Switching to another submission enters that attack first.
+- The defender receives named responses compiled from authored `defensive_options`, with
+  attacker-relative position roles flipped once. Primary triangle and armbar responses have
+  explicit destination overrides. A successful response can leave the threat active, so the
+  interface distinguishes continued defense from an actual escape.
+- The choices row separates **Your options** from **Opponent threats**. Threats are previews,
+  not executable player actions. Their signed value follows the player's resulting seat;
+  opponent ownership alone does not make a destination unfavorable. Their base odds use the
+  published success rate, or its complement for a response, without player practice bonuses.
+- Responses and explanations load together from `submission-details/`. The hand waits for the
+  complete payload and offers retry on failure. A request token and state/role check prevent a
+  late response from replacing a later landing.
+- Aliases apply only to listed control records that represent the same established lock.
+  `canonicalState` redirects those seats and hides duplicate control orbs without deleting
+  stored identities or ordinals. Back Control, Front Headlock, Ashi Garami and Kimura Trap are
+  not collapsed by this catalog. FLOW retains authored control vertices internally so this
+  display projection does not discard their probability mass.
+- Kimura, Americana and Armbar from Triangle Control have separate source records and explicit
+  continuations. Their numeric estimates do not establish that the distinctions or mechanics
+  have received practitioner review.
+
+The runtime entry points are `submissionOptions`, `submissionDefenses`, `enterAttempt`,
+`enterDefense` and `canonicalState` in `app.src.jsx`. Related regression cases live in
+[submission_states.test.mjs](../tests/submission_states.test.mjs) and
+[submission-choices.spec.ts](../e2e/journeys/submission-choices.spec.ts); they exercise choice
+ownership, alias seats, selected triangle branches, entry versus finish, and delayed payloads.
+They do not validate the underlying BJJ mechanics.
+
+## Neural bundle and data delivery
+
+[neural/build/build.mjs](../neural/build/build.mjs) composes the imperative app class, its HTML
+skeleton and supporting modules into `neural/dist/neural.js` and `neural.css`. The `.jsx` filename
+does not mean the production game uses React rendering: the builder supplies the small ref and
+template runtime used by `xdc-template.html`. `helmet.html` supplies the base styles and
+`props.json` supplies build defaults.
+
+The data emitter writes `source/quartz/static/neural/`. Quartz copies these generated assets
+into `source/public/static/neural/`; the loader uses `/static/neural/` as the data base.
+
+| Payload, relative to the data base | Purpose | Loaded |
+| --- | --- | --- |
+| `app/neural.js`, `app/neural.css` | Browser runtime and styles | Boot |
+| `graph-data.json` | Compact nodes, links, rates, outcomes, availability and value tables | Boot |
+| `flashcards/_index.json` | Deck inventory, card counts and shared-question credit index | Boot |
+| `curriculum.json` | Lessons, checkpoints, content tracks and modeled score weights | Boot |
+| `flashcards/<hash>.json` | Cards for a requested deck | On demand |
+| `content/<hash>.json` | Technique/position dossier or reference-page body | On demand |
+| `submission-details/<hash>.json` | Submission responses and explanations | On submission entry |
+| `systems.json`, `concepts.json` | Reference indexes and graph memberships | On first use |
+
+Chunk addressing uses `fnv1a32` in [_neural_content.py](../scripts/_neural_content.py), matching
+the app's `qhash` over UTF-16 code units. Files contain key-to-value maps, so hash collisions can
+share a file without replacing distinct keys. Deck keys use `<Name>|<Role>`; reference bodies
+use `<Name>|Principle`, `<Name>|Learning` or `<Name>|System` in the shared dossier chunk space.
+
+Lazy loading has behavioral consequences:
+
+- `_cardsOf(d)` is the card accessor. A manifest stub is truthy but has no cards.
+- The manifest's `n` supplies counts and the denominator for `deckMastery` before hydration.
+  Persisted grades must not disappear from the displayed score because a deck is cold.
+- `_onDeckHydrated` refreshes study entries that took a snapshot of the cards.
+- `hydrateDeck` leaves a failed request retryable rather than caching it as an empty deck.
+- `_warmMcPool` discovers and hydrates required distractor decks in an RNG transaction before
+  the real question draw. Network timing must not choose the random branch.
+- `_docBody` loads reference bodies through the shared content cache. Principles, Learning and
+  Systems are pages, not places: opening one displays its body and highlights referenced
+  techniques without starting or seating a roll.
+
+## Static shell, authentication and navigation
+
+There is one game front-end: Neural. Quartz remains the static-site generator and provides
+articles, `<head>` metadata, JSON-LD, search and navigation. The retired legacy game UI is not
+an alternate mode; `?variant=legacy` is accepted but ignored.
+
+The shared layout registers `AuthUI`, `Search`, `NeuralMount` and `SnapshotButton` after the
+body. Article title and metadata appear before content, optional breadcrumbs depend on
+`SHOW_BREADCRUMBS`, and the side columns register `CategoryNav` and `TableOfContents`.
+Component registration controls which component resources are bundled.
+
+`NeuralMount` registers [variant.inline.ts](../source/quartz/components/scripts/variant.inline.ts).
+It loads the bundle once, mounts on full and SPA navigation, and registers teardown before the
+next body replacement. The static article is hidden by a client-side attribute while the app
+owns the screen. No-JS visitors can read the article; a missing bundle or synchronous mount
+failure removes that hiding rule. This is not a guarantee that every later runtime failure
+recovers automatically.
+
+`AuthUI` renders no interface, but its
+[authUI.inline.ts](../source/quartz/components/scripts/authUI.inline.ts) imports the Supabase
+module that installs `window.__bjjAuth` and completes OAuth redirect handling. Neural uses that
+facade for its own sign-in interface and cloud progress. Removing the apparently empty
+component breaks those responsibilities. `CategoryNav` remains the persistent navigation on
+the static surface; article-only SEO checks do not prove its usability.
+
+Analytics and auth configuration are environment-backed in `quartz.config.ts`. Keep private
+account links and credentials out of public documentation. Built analytics injection has a
+separate configured-key check and a keyless fixture check; see [SEO.md](SEO.md).
+
+## Learning, challenges and persistence
+
+The pane is manually controlled with **Explore**, **Challenges** and **Last rolls** tabs.
+`history` remains the internal id for Last rolls. Opening the pane pauses play; closing it only
+releases the pause the pane itself took. The roll loop does not automatically open it.
+Game Knowledge is a modeled, weighted recall score. Challenge tracks organize learning
+objectives and content difficulty; neither is a real-world rank credential or a lock on other
+tracks. Rewards appear inside Challenges, not in a separate Collection tab.
+
+| Source module | Responsibility |
+| --- | --- |
+| `neural/src/challenge-definitions.src.js` | Declarative objectives, tracks, badges and coins |
+| `neural/src/challenge-engine.src.js` | Event matching, progress, rewards, migration and merging |
+| `neural/src/challenge-ui.src.js` | Pane composition and track/lesson navigation |
+| `neural/src/challenge-feedback.src.js` | Challenge feedback and reward presentation |
+| `templates/curriculum.json`, `scripts/_curriculum.py` | Authored curriculum and build-side validation/resolution |
+| `neural/src/lists.src.js`, `lists-codec.src.js` | List storage, site membership and share encoding |
+| `neural/src/flow.src.js` | Role-sensitive learning-priority model |
+
+Gameplay `fx()` beats feed challenge matching; snapshot reconciliation credits persisted
+lesson, checkpoint and recall evidence without replaying old celebrations. Tracks remain
+selectable, while checkpoints and optional capstones have their own evidence prerequisites.
+Patches and Mat Coins record achievements; coins are collectibles, not a spendable currency.
+
+The v2 progress blob includes settings, study/recall evidence, schedules, challenge progress,
+collectibles, lists and FLOW counters. `_progressBlob`, `_saveProgress`, `_pullAndMerge` and
+`_pushCloud` in `app.src.jsx` own persistence. Guest progress is local; authenticated progress
+can reconcile with Supabase. A device pulls before its first cloud push. Failed sync retains
+local state, with later saves/auth activity providing another opportunity to sync.
+
+Merge rules differ by field:
+
+| Data | Merge rule |
+| --- | --- |
+| Challenge progress/completion | Maximum progress and logical OR completion |
+| Badges, coins and explored-state evidence | Union |
+| Recall/stage evidence | Per-key maximum |
+| Settings | Per-key timestamp last-write-wins; no deletion tombstone |
+| Lists | Add-wins union, including items; a stale device can restore a deletion |
+| FLOW counts | Per-device counters merged by maximum, summed when read |
+| SRS schedules | Later review date wins; same-day ties prefer the smaller interval, with a successful winner retaining a larger prior interval where applicable |
+
+A retired settings key should stop being read rather than be repeatedly deleted and restored
+by sync. Legacy tutorial evidence is migrated by `ngMigrateWhiteChallenges`; its compatibility
+fields do not imply that the old Tutorial or content-lock UI still exists. Detailed behavior is
+in [Neural.md](Neural.md).
+
+## Gameplay audio
+
+[sound.src.js](../neural/src/sound.src.js) owns both `NGSound` and `NG_SOUND_CATALOG`.
+It synthesizes cues with Web Audio rather than downloading sound files. Gameplay beats select
+contextual patches; unmapped beats remain silent. Settings `sound` and `soundVolume` are part
+of normal progress persistence.
+
+The audio context is created on a pointer or keyboard gesture and stopped during teardown.
+A compressor, beat deduplication and rate/concurrency limits control output. Major cues are
+exempt from the ordinary active-patch cap and spacing rule, so these are not absolute voice
+limits or a hearing-safety guarantee. Missing Web Audio does not block gameplay.
+
+Test mode creates no `AudioContext` and records selected cues in `soundLog`. Production
+variation uses the app's `rng("sfx")`. There is no second legacy Quartz audio engine.
+
+## Forward development catalog
+
+Forward is a standalone, no-auth design catalog under `forward/`. It does **not** boot the
+production game. Its screens are fixtures and renderers, not proof that every depicted surface
+still exists or behaves identically in Neural.
+
+- `/dev/` indexes the catalog.
+- `/dev/components/` lists primitives and composed components with variants.
+- `/dev/screens/` assembles deterministic screen states.
+- `/dev/use-cases/` presents timestamped interaction and motion frames.
+- `/dev/user-journeys/` composes those frames into chapters.
+- `/dev/sounds/` previews the production audio engine and cue catalog separately.
+
+`forward/shared/component-registry.js`, `screen-registry.js` and `sequence-registry.js` own
+catalog definitions. Shared renderers, fixtures, design tokens and hash-based controls provide
+entity/role, viewport and timeline selection. The build derives the entity inventory from
+`graph.json` and copies base styles from `helmet.html`; these shared inputs do not make the
+renderers a second implementation of the game contract.
+
+[build_forward_components.mjs](../scripts/build_forward_components.mjs) checks IDs, required
+provenance metadata and referenced source files, writes `shared/entities.json`, and copies the
+production audio source/catalog. `runtime` and `output-only` provenance labels distinguish
+intended runtime surfaces from article projections, but do not enforce behavioral parity.
+`validate:forward` checks fixture rendering and frame contracts, not equivalence with Neural.
+
+`npm run build:forward` replaces `source/public/dev/`. It runs after Quartz because Quartz
+clears the output directory. Both deploy workflows invoke it explicitly.
+
+## Build and deployment commands
+
+[package.json](../package.json) is the command source of truth. From the repository root:
+
+```bash
+# Install Node dependencies, Chromium and generate the Neural bundle/data.
+# Python and its required packages must already be available.
+npm run bootstrap
+
+# Build the static site from current Markdown and generated static assets, then serve it.
+npm run build
+npm run serve
+
+# After editing only Neural source, refresh the bundle served by the existing site.
+npm run dev:neural:app
+
+# Refresh both the Neural bundle and data in the existing served site.
+npm run dev:neural
 ```
-Position/Top → [Direct Submission] → game-over (success) / Position (failure) / Position (counter)
+
+`npm run build` does **not** rebuild the Neural bundle or regenerate authored content.
+It builds Quartz, generates redirects/headers and crawler text, builds Forward and the share
+shell, checks the payload budget, stamps configured affiliate references and publishes agent
+discovery/Markdown exports. `npm run dev` is build followed by serve.
+
+The full content chain is:
+
+```text
+regenerate:issues -> regenerate:json -> regenerate:explode -> migrate:ruleset
+  -> validate:graph -> regenerate:md -> regenerate:hubs -> regenerate:votes
+  -> regenerate:graph -> regenerate:explorer -> regenerate:neural
 ```
 
-**Examples:** Americana from Mount, Ezekiel from Mount, Cross Collar Choke, Wristlock
+`npm run regenerate:build` runs that chain and then the site build. The `regenerate:json` step
+can invoke a paid model to rewrite content; it is not a harmless validation command.
+`regenerate:json:fast` removes its inter-request interval, not the model work.
 
-```json
-{
-  "name": "Americana from Mount",
-  "from_position": "Mount/Top",
-  "outcomes": [
-    { "to": "game-over", "probability": 55, "result": "success" },
-    { "to": "Mount", "probability": 30, "result": "failure" },
-    { "to": "Half Guard", "probability": 15, "result": "counter" }
-  ]
-}
+`npm run regenerate:graph` is an umbrella:
+
+```text
+graph-base -> graph-layout -> ordinals -> graph-strength
 ```
 
-#### Type B: Submission Setups (Two-Step)
+Running only `regenerate:graph-base` does not preserve strength enrichment. Layout generation
+needs its Python/ML dependencies. A partial chain must include every step that mutates the
+artifact it intends to publish.
 
-A distinct control position exists between the setup and the finish. Two transitions are needed:
+### Delivery boundaries
 
-```
-Position/Top → [Setup] → Control Position → [Finish] → game-over
-```
+- [deploy.yaml](../.github/workflows/deploy.yaml) publishes `main` to production;
+  [deploy-dev.yaml](../.github/workflows/deploy-dev.yaml) publishes `dev` to the preview.
+  Both regenerate Neural assets, build Quartz, run their listed content/surface gates and the
+  curated journey suite, then deploy `source/public` to Cloudflare Pages.
+- Deploy workflows invoke build steps explicitly rather than calling root `npm run build`.
+  Add a new emitted artifact to both workflows as well as the local command.
+- [e2e-full.yml](../.github/workflows/e2e-full.yml) builds one site and runs the complete core
+  suite in four shards on PRs targeting `main` or `dev`, on its weekly schedule, and manually.
+- [ci-validate.yml](../.github/workflows/ci-validate.yml) provides path-filtered PR checks and
+  checks on pushes to `dev`. It regenerates Neural data for data-dependent checks but does not
+  build the complete Quartz site. Its checks are not interchangeable with deployment checks.
+- [votes-refresh.yml](../.github/workflows/votes-refresh.yml) deliberately runs graph-base and
+  graph-strength without layout/ordinal regeneration. Its dependency setup and staged artifacts
+  support that narrower update, not the whole graph umbrella.
+- [build_share_shell.mjs](../scripts/build_share_shell.mjs) emits the `/l` shell and manifest;
+  Cloudflare Pages Functions under `functions/` provide share previews.
+- [regenerate_agent_discovery.py](../scripts/regenerate_agent_discovery.py) runs after the build
+  and affiliate stamping. It exports discovery files and Markdown from sitemap-listed,
+  indexable built articles, not private account data or the raw source corpus.
 
-**Examples:** Armbar (→ Armbar Control → Armbar Finish), Triangle (→ Triangle Control → Triangle Finish), Omoplata, RNC, Bow and Arrow
+No fixed page counts, bundle sizes or build timings are promised here. The emitted artifacts,
+budget files and actual command output provide the current measurements.
 
-```json
-// Step 1: Setup transition
-{
-  "name": "Armbar from Mount",
-  "from_position": "Mount/Top",
-  "outcomes": [
-    { "to": "Armbar Control", "probability": 55, "result": "success" },
-    { "to": "Mount", "probability": 30, "result": "failure" },
-    { "to": "Closed Guard", "probability": 15, "result": "counter" }
-  ]
-}
+## Checks and their limits
 
-// Step 2: Finish transition (separate file)
-{
-  "name": "Armbar Finish",
-  "from_position": "Armbar Control/Top",
-  "outcomes": [
-    { "to": "game-over", "probability": 70, "result": "success" },
-    { "to": "Armbar Control", "probability": 20, "result": "failure" },
-    { "to": "Closed Guard", "probability": 10, "result": "counter" }
-  ]
-}
-```
+These are available commands, not a claim that every workflow runs every check:
 
-#### Type C: Positional Control Tools
+| Command | Scope |
+| --- | --- |
+| `npm run validate:json` | Authored JSON against schemas |
+| `npm run validate:graph` | Content references, probability sums, graph/rate coherence and other named integrity findings |
+| `npm run validate:ordinals` | Persistent share identity mapping |
+| `npm run validate:seats` | Role-appropriate authored deck content |
+| `npm run validate:availability` / `validate:surfaces` | Derived ruleset availability and consumers of that mask |
+| `npm run validate:score-coverage:gate` | Score coverage of attemptable techniques in a frame |
+| `npm run validate:flow` | FLOW numerical self-check and content ratchet |
+| `npm run validate:curriculum` / `validate:mc` | Curriculum integrity and multiple-choice viability |
+| `npm run validate:schema` / `validate:seo` | Schema-markup parsing and built crawlable-surface checks |
+| `npm run validate:headers` / `validate:payload` | Emitted headers and payload budgets |
+| `npm run validate:affiliate` | Disclosure and verified-link surface rules |
+| `npm run validate:analytics` / `validate:analytics:nokey` | Built analytics injection and the independent keyless fixture |
+| `npm run validate:forward` | Catalog fixture rendering |
+| `npm run test:units` | Root Node unit suites |
+| `npm test` / `npm run test:curated` | Core browser journeys / deployment subset |
 
-Grip-based or entanglement techniques that force transitions but don't directly threaten submission. These **never** have `game-over` in their outcomes.
+Read a check's severity and inputs before claiming enforcement. For example, the graph audit's
+`from_position_role_mismatch` is a warning, and the JSON schemas accept shapes broader than the
+recommended authoring contract. The Neural emitter's `_join_report` reports certain content
+join findings without failing unless `BJJ_JOIN_STRICT=1` is set. A successful command therefore
+does not imply that every reference, join or BJJ assertion has been validated.
 
-```
-Inferior Position → [Control Tool] → Better Position (success) / Same Position (failure)
-```
+The static article, live game and Forward mocks need separate review. Schema and graph gates
+cannot validate practitioner mechanics or safety, and browser journeys cannot establish that
+the model's probabilities predict a real roll.
 
-**Examples:** Kimura Trap from Bottom, Lockdown from Half Guard, Overhook from Closed Guard
-
-```json
-{
-  "name": "Kimura Trap from Bottom",
-  "from_position": "Mount/Bottom",
-  "outcomes": [
-    { "to": "Kimura Trap", "probability": 60, "result": "success" },
-    { "to": "Mount", "probability": 25, "result": "failure" },
-    { "to": "Half Guard", "probability": 15, "result": "counter" }
-  ]
-}
-```
-
-### Submissions vs Transitions
-
-**Submissions** (in `content/Submissions/`) are state machine nodes with educational content. They contain:
-
-- Safety protocols (injury risks, tap signals, release protocol)
-- Execution steps and training progressions
-- Position-specific variations
-
-**Transitions** (in `content/Transitions/`) are state machine edges. They carry:
-
-- `from_position` (where the technique starts)
-- `outcomes[]` (probabilistic results)
-- `success_rates` (beginner/intermediate/advanced)
-
-The same technique can exist as both a Transition and a Submission. The Transition carries the game engine data; the Submission carries the educational content. When they overlap, the **Transition's `success_rates` are authoritative** for the state machine.
-
-### Naming Rules
-
-- Position-dependent techniques MUST include the starting position: `"Americana from Mount"`, `"Armbar from Guard"`, NOT just `"Americana"`
-- `from_position` MUST use `"Position/Role"` format: `"Mount/Top"`, `"Closed Guard/Bottom"`
-- `outcomes[].to` references existing Position names or `"game-over"`
-- Only Type A (direct submissions) may have `"game-over"` in outcomes
-
----
-
-## Build Performance
-
-| Metric              | Value       |
-| ------------------- | ----------- |
-| Cold build          | ~15 seconds |
-| Incremental rebuild | ~500ms      |
-| Total pages         | 267+        |
-| SPA navigation      | Instant     |
-
----
-
-## External Resources
-
-- **Quartz Documentation**: https://quartz.jzhao.xyz/
-- **PostHog Analytics**: https://us.posthog.com/project/236155
-- **Live Site**: https://bjjgraph.org
+Further reading: [Content.md](Content.md), [Neural.md](Neural.md), [SEO.md](SEO.md),
+[Quartz documentation](https://quartz.jzhao.xyz/), [live site](https://bjjgraph.org).

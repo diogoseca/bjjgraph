@@ -1,103 +1,142 @@
-<p align="center">
-  <img src="branding/icon-256.png" width="96" alt="">
-</p>
-
-<h1 align="center">BJJGraph</h1>
+<h1 align="center"><img src="branding/icon-256.png" width="40" alt=""> BJJGraph</h1>
 
 <p align="center">
-  Brazilian jiu-jitsu as a state machine you can explore, drill and play.<br>
-  <a href="https://bjjgraph.org"><b>bjjgraph.org</b></a> · free · no signup
+  Brazilian jiu-jitsu as a playable state machine, where positions, transitions and submission attempts are all states.
 </p>
 
 <p align="center">
-  <a href="https://github.com/diogoseca/bjjgraph/releases/latest"><img src="https://img.shields.io/github/v/release/diogoseca/bjjgraph?label=release" alt="latest release"></a>
-  <a href="https://github.com/diogoseca/bjjgraph/commits/main"><img src="https://img.shields.io/github/last-commit/diogoseca/bjjgraph/main?label=main" alt="last commit"></a>
-  <a href="LICENSE.md"><img src="https://img.shields.io/badge/licence-PolyForm%20Noncommercial-2B4CA0" alt="PolyForm Noncommercial"></a>
+  <a href="https://dev.bjjgraph.pages.dev"><b>Try the dev preview</b></a> ·
+  <a href="https://bjjgraph.org">Published site</a> ·
+  <a href="#the-data">Get the data</a> ·
+  <a href="CONTRIBUTING.md">Contribute</a><br>
+  Free to use in your browser. No account required. Source-available, noncommercial licence.
 </p>
 
-<p align="center"><img src="branding/readme-graph.png" width="860" alt="The BJJGraph graph with a hand of moves dealt from a position"></p>
+<!-- SCREENSHOT SOURCE: https://dev.bjjgraph.pages.dev/Positions/Mount/Top; captured 2026-09-14 at 1440x900. The app normalizes this URL to /Positions/Mount. -->
+<p align="center">
+  <a href="https://dev.bjjgraph.pages.dev/Positions/Mount/Top"><img src="branding/readme-graph.png" width="800" alt="The dev deployment at Mount, top role, with a flashcard, film-study clips and a hand of submission attacks and transitions"></a><br>
+  <sub>Dev preview: Mount from the top. This README describes the dev branch; the published site can differ.</sub>
+</p>
 
-Jiu-jitsu is taught as a list of techniques and played as a state machine. You are always in some position, you have a handful of moves worth attempting from there, and each attempt has a real chance of working, failing, or getting countered. BJJGraph is that map, written down.
+| Explore | Drill | Roll |
+|---|---|---|
+| Follow connected states and study both players' roles. | Review flashcards with spaced repetition and film-study clips. | Choose an attack, pass, escape or continuation and play out its possible outcomes. |
 
-<!-- COUNTS: derived from content/ at PR time. Do not hand-edit; see "Numbers" below. -->
-- **133 positions**, each split into a top and a bottom role
-- **1,025 transitions and 353 submissions**, each split into attacker and defender
-- every edge carries an **attempt probability** and an outcome distribution (**success / failure / counter**)
-- every probability is authored **per ruleset**, so gi and no-gi each resolve as their own graph
+## A state is not always a position
 
-Two things the graph knows that a technique list cannot:
+A roll never leaves the state machine. It changes **which kind of state** the players are in.
 
-- Resolve it for no-gi and **104 techniques and 18 position role-nodes stop existing**. Nobody wrote a list of gi-only moves; nothing reads a name. The nine lapel and grip guards fall out because you can no longer reach them from standing over no-gi's own probabilities.
-- In the no-gi graph, the knee slice pass is the most-attempted technique: offered from 41 positions, with a **54%** success rate. The triangle setup is third: offered from 22 positions, with a **28%** success rate.
+| State | What it represents |
+|---|---|
+| **Position** | A relatively stable configuration, such as mount or closed guard. Players can still move, apply pressure and fight for control. Stable does not mean motionless. |
+| **Transition** | A transient state: players are moving, applying forces and actively trying to change the configuration. A pass, sweep or escape is a state in the model, not just an arrow between positions. |
+| **Submission** | A transient attacking state, like a transition, with the possibility of ending the game. An established attack can be finished, defended or changed into something else. Entering it is not the same as getting a tap. |
 
-## Use it
+**The arrows connect states.** Attempt weights describe which techniques are attempted from a position and role. Outcome probabilities describe where an attempt can lead: success, failure or a counter. A submission finish can reach `game-over`; an unsuccessful attempt continues the exchange.
 
-**Explore.** The whole graph on one canvas. Every position and technique is a node; the edges are what you can actually do from there, with the odds on them.
+Positions have **Top / Bottom** perspectives. Transitions and submissions have **Attacker / Defender** perspectives. The role is part of the state, not a label for who is winning. Reference hubs group those perspectives for reading; they are not extra playable states.
 
-**Drill.** Spaced-repetition flashcards generated from every node, with a belt per deck that tracks recall, not exposure. Progress lives in your browser; sign in with Google only if you want it on more than one device.
+The app interprets this model rather than stopping on every intermediate node. On dev, submission attacks have their own choices, including a separate **Finish** action. The [architecture reference](docs/Architecture.md) separates the authored graph from its display and runtime behavior.
 
-**Roll.** Start in a position. You are dealt the moves that are legal from there, ranked by how much better each is than the ordinary choice. Pick one under the clock. The outcome is drawn from the authored distribution, and you land somewhere new.
+## Study it, then try a decision
 
-**Share.** Build a list of techniques and hand it to a training partner as one link.
+- **Explore from either side.** Open a state, read its explanation, watch a teaching clip, or follow a connected technique. Principles and systems highlight related material without starting a roll.
+- **Drill what you want to retain.** Flashcards and per-deck mastery track recall. These are study measures, not a Brazilian jiu-jitsu rank.
+- **Roll through the model.** Pick from the available moves and see where the exchange goes. The question has a timer; choosing a move does not. The simulation is not a prediction of your next sparring round.
+- **Share a class or game plan.** Collect techniques into a list and send a partner one link.
+
+Progress stays in your browser. Sign in only if you want cross-device sync.
 
 ## The data
 
-The full graph ships with every release as a single JSON file. No login, no API key.
+<!-- COUNTS: derived from this dev-based tree at PR time (2026-09-14). Recompute with the commands in "Reproduce the numbers"; do not copy counts from the published site. -->
+| Authored JSON files | Count |
+|---|---:|
+| Positions | **133** |
+| Transitions | **1,025** |
+| Submissions | **353** |
 
-| file | size | what |
-|---|---|---|
-| [`graph.json`](https://github.com/diogoseca/bjjgraph/releases/latest/download/graph.json) | 50 MB | positions, transitions, submissions, principles, systems; every edge with its per-ruleset probabilities |
-| [`graph.json.gz`](https://github.com/diogoseca/bjjgraph/releases/latest/download/graph.json.gz) | 7 MB | the same, gzipped |
-| [`content/`](content/) | | the authored source: one JSON per position and technique, and the Markdown notes generated from them |
+These are source-file counts, not the number of playable orbs. Submission files include **63 family hubs**, which group occurrences rather than model executable attacks. Source probabilities are authored per ruleset, with distinct gi and no-gi values.
+
+| Read or download | What you get |
+|---|---|
+| [`graph.json`](graph.json) | The full graph in this checkout: role nodes, attempt weights, outcomes, flashcards and reference material. **49,794,486 bytes** at this revision. |
+| [`content/`](content/) | Authored JSON alongside generated Markdown pages. Edit the JSON, not the Markdown. |
+| [Published release data](https://github.com/diogoseca/bjjgraph/releases/latest) | Downloadable `graph.json` and `graph.json.gz`. Releases follow production and may differ from dev. No API key required. |
+| [`CITATION.cff`](CITATION.cff) | Citation metadata for this project. |
 
 ```sh
-# the legal moves from bottom closed guard, with attempt weight per ruleset and success rate
+# Authored offers from bottom closed guard, not a runtime-filtered hand.
 jq '.positions["closed-guard/bottom"].transitions[] | {technique, attemptProbabilityByRuleset, successRate}' graph.json
 
-# one technique: performer role, per-ruleset success rate, and where each outcome lands
+# One transient state's performer role, success rates and destinations.
 jq '.transitions["kneebar-from-grasshopper/attacker"] | {fromRole, successRateByRuleset, outcomes}' graph.json
 ```
 
-**Where the probabilities come from, and what they are not.** They are authored estimates: written per technique, calibrated per ruleset with the project's calibration scripts, and checked by graph-integrity validation on every change (attempt weights sum to 100 per position, outcomes sum to 100 per technique, no dangling edges, no self-loops). They are not match statistics. Every figure lives in a versioned source file under `content/`, so any of them can be disputed with a pull request, and arguing with a number is the most useful thing a reader can do here. The model is described in [docs/Architecture.md](docs/Architecture.md).
+### Two findings you can recompute
+
+- **Reachability changes with the ruleset.** The no-gi walk excludes **104 techniques and 18 position role-nodes**. Those roles belong to nine guard sites: Collar Sleeve, Inverted Lasso, Lapel, Lasso, Piranha, Ringworm, Russian Leg Lasso, Squid and Worm. The walk follows the frame's probabilities from standing; it does not match guard names.
+- **Attempt weight and success rate answer different questions.** Summing the authored no-gi attempt weights across all position-role rows puts **Knee Slice Pass first** (577 points across 41 rows) and **Triangle Setup third** (368 across 22). Their emitted attacker success rates are **53.6%** and **28%**. These sums give each source row equal weight, including unreachable rows; they are not roll frequencies, match statistics or a recommendation ranking.
+
+<details>
+<summary><b>Reproduce the numbers</b></summary>
+
+Count authored files in this checkout:
+
+```sh
+find content/Positions -name '*.json' | wc -l
+find content/Transitions -name '*.json' | wc -l
+find content/Submissions -name '*.json' | wc -l
+```
+
+Emit the local payload before checking availability, so the validator checks the shipped wire as well as the source graph:
+
+```sh
+python3 scripts/regenerate_neural_data.py
+npm run validate:availability
+```
+
+Read `counts.nogi` and `excluded.nogi.positions` in [`tests/artifacts/ruleset_availability.json`](tests/artifacts/ruleset_availability.json). The ranking uses `positions[*].transitions[].attemptProbabilityByRuleset.nogi`, grouped by `target`, excluding null cells; success rates come from `transitions["<target>/attacker"].successRate`. Hubs carry no attempt rows. The [content standards](docs/Content.md) explain why `null` is not zero.
+
+</details>
+
+## What the numbers do not prove
+
+Probabilities are **authored estimates**, checked by schema and graph validators and open to correction by pull request. Calibration and community feedback can change them. A graph that is internally consistent can still be wrong about jiu-jitsu.
+
+State boundaries, technical descriptions, safety, ruleset assumptions and probability estimates need review by a **panel of black-belt Brazilian jiu-jitsu practitioners**. This README does not claim that validation has happened. Generated content and passing automated checks are not substitutes for it.
+
+Use this alongside coached practice, not as permission to attempt a submission or as a measure of anyone's belt level. If a claim looks wrong, [open a correction](CONTRIBUTING.md) with the state, role, ruleset and your reasoning.
 
 ## How it is built
 
-```
-content/*.json  →  templates/*.jinja2  →  content/*.md  →  static site  →  the app, mounted on top
-   (source)           (structure)          (generated)      (SEO, no-JS)     (neural/)
+```text
+Authored JSON → Jinja2 templates → generated Markdown → static pages
+      └──────→ graph data + deferred study chunks ────→ canvas app
 ```
 
-The authored JSON is the only source of truth. Jinja2 templates turn it into Markdown; a static-site build (a [Quartz](https://quartz.jzhao.xyz/) fork under `source/`, MIT) turns that into a page per node with a real `<article>`, `<head>` and JSON-LD, which is what crawlers and no-JS visitors get. The app in `neural/` is one canvas component mounted over those pages; it loads a compact wire of the graph, the flashcard manifest and the curriculum, and everything else on demand. Hosted on Cloudflare Pages, with a Pages Function for share-link previews. Optional account sync through Supabase; anonymous use is complete.
+- **Content and pipeline:** [`content/`](content/), [`templates/`](templates/) and [`scripts/`](scripts/). The data, schema and build contracts are documented in [Architecture](docs/Architecture.md) and [Content](docs/Content.md).
+- **App:** [`neural/`](neural/), with the main imperative canvas component in `neural/src/app.src.jsx`. It loads a compact graph, deck manifest and curriculum, then fetches study content as needed.
+- **Static build:** [Quartz](https://quartz.jzhao.xyz/), the MIT project under [`source/`](source/), emits the pages and crawlable fallback beneath the app.
+- **Delivery:** Cloudflare Pages and share-preview Functions in [`functions/`](functions/). Supabase provides optional account sync; PostHog provides analytics.
+- **Checks:** validators in `scripts/`, node tests in [`tests/`](tests/) and Playwright journeys in [`e2e/`](e2e/).
 
 ## Contributing
 
-The most valuable contribution is a correction. If a number looks wrong, a technique is missing from a position, or an outcome lands somewhere it should not, open an issue or a pull request against the JSON in `content/`. Everything else is generated from it.
+A correction is more useful than a new feature built on a wrong assumption. Propose one through an issue or a PR against the authored JSON. Include the evidence or technical reasoning that changed your answer.
 
 ```sh
-npm install                  # Node 20+
-# edit content/Positions/Mount.json, content/Transitions/Knee Slice Pass.json, …
-npm run regenerate:build     # validate → regenerate → build (the full chain)
-npm run serve                # http://localhost:8080
+npm run validate:json
+npm run validate:graph
+npm run regenerate:build
 ```
 
-Rules that will save you a round-trip: never edit `.md` files under `content/` (they are regenerated); attempt probabilities sum to 100 per role and per ruleset; every outcome must resolve to a real role-node, a real submission, or `game-over`; wikilinks are path-prefixed and case-sensitive. `npm run validate:json` and `npm run validate:graph` are the same checks CI runs. [CONTRIBUTING.md](CONTRIBUTING.md) has the details; [docs/Content.md](docs/Content.md) has the content standards.
+The full regeneration command can invoke paid AI content enrichment and rewrites generated artifacts. Read [CONTRIBUTING.md](CONTRIBUTING.md) for prerequisites and the workflow before running it. Never edit generated `content/*.md`; keep one change per PR and stage files by explicit path. Bot PRs receive the same review as human ones.
 
-Code contributions are welcome too. The app is deliberately one imperative component (`neural/src/app.src.jsx`, heavily commented); the pipeline is Python under `scripts/`; the end-to-end suite is Playwright under `e2e/`. Read [CLAUDE.md](CLAUDE.md) §6 before touching the app: it is the list of things that have already cost a long debugging loop.
+For app work, read [CLAUDE.md](CLAUDE.md) section 6 before editing. It records the implementation traps that are not obvious from a screenshot.
 
-Several bots maintain the corpus on a schedule: a weekly content-improvement pass, a proofreading audit of edges and probabilities, a link-rot check on the film-study clips, and a votes refresh. Their PRs are reviewed like anyone else's.
+## Licence and contact
 
-## Numbers
+**Source-available, not open source.** BJJGraph uses the [PolyForm Noncommercial 1.0.0 licence](LICENSE.md). Noncommercial use is permitted under its terms; commercial use requires separate permission. The licence text is authoritative.
 
-The counts in this README are derived from `content/` when the README is updated, not typed. The current corpus is always `find content/Positions -name '*.json' | wc -l` and friends; release notes carry the counts for that release. If a number here disagrees with the tree, the tree is right.
-
-## Licence
-
-[PolyForm Noncommercial 1.0.0](LICENSE.md). Free to use, study, copy and share for any noncommercial purpose, including teaching and research; the content stays free for the people who train. Commercial use needs permission. That is a deliberate choice for a project whose value is the corpus, not a claim to be open source in the OSI sense.
-
-## Contact
-
-Anything about the corpus or the app: open an issue. Anything else: [Diogo Seca on GitHub](https://github.com/diogoseca).
-
-## Credits
-
-Built on [Quartz](https://quartz.jzhao.xyz/) (MIT) for the static build, [Supabase](https://supabase.com/) for optional sync, [Cloudflare Pages](https://pages.cloudflare.com/) for hosting, [PostHog](https://posthog.com/) for product analytics. Made by [Diogo Seca](https://github.com/diogoseca).
+For the corpus or app, [open a GitHub issue](https://github.com/diogoseca/bjjgraph/issues). For a human conversation, contact [Diogo Seca on LinkedIn](https://www.linkedin.com/in/diogoseca/).
