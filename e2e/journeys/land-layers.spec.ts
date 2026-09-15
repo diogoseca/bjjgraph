@@ -331,6 +331,11 @@ test("geometry: a put-away hand gives the card its slot while preserving More ab
   await j.land("Mount Top")
   await seedFilm(page)
   await j.advance(1200)
+  // The frame pump advances game time, not the browser's CSS animation clock.
+  // Measure the settled card; its entrance translateY briefly reduces this gap.
+  await page.locator(".ng-landcard").evaluate(async (el) => {
+    await Promise.all(el.getAnimations().map((animation) => animation.finished))
+  })
   const before = await page.evaluate(() => {
     const a = (window as any).__neural
     const r = a._landEl.getBoundingClientRect()
