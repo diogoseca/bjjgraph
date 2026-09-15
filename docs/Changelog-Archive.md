@@ -33,6 +33,7 @@ Newest first. Where a narrative's own label disagrees with git, the real shippin
 given and the label is kept as an alias — **the labels in this document are not reliable keys**:
 four separate commits are titled `v1.107.0`, nine are titled `v1.80.3`.
 
+- **v1.182.12**: [README and linked documentation describe dev](#v118212-readme-and-linked-documentation-describe-dev)
 - **v1.182.0** — [Capture beside the graph seat](#v11820--capture-beside-the-graph-seat)
 - **v1.176.0** — [THREE POSITIONS THAT EXISTED TWICE: THE KESA GATAME COLLAPSE, AND "AKA" ON THE WIRE](#v1-176-0-three-positions-that-existed-twice-the-k)
 - **v1.175.0** — [THE READING COLUMN, AND THE COUNT GOES QUIET](#v1-175-0-the-reading-column-and-the-count-goes-quiet)
@@ -7232,3 +7233,37 @@ Validation: 260 unit tests passed. The curated run passed 251/253; its two stati
 came from the reused build (old GET snapshot probe and missing system HTML). A full `npm run build`
 passed, then both failures and all five focused selection/arrival cases passed together (7/7).
 The fresh first-hand payload was 379,366 bytes gzip against the 387,400-byte ceiling.
+
+## v1.182.12: README and linked documentation describe dev
+
+Revised the first README commit, `24caa7030`, after owner and dev-steward review. The opening
+now defines state as the umbrella: positions are relatively stable configurations, transitions
+are transient states with motion and force, and submission attempts can finish or continue.
+The README does not claim that a black-belt practitioner panel has validated the model.
+
+Replaced the production screenshot with an unmodified browser capture from
+`https://dev.bjjgraph.pages.dev/Positions/Mount/Top` (normalized by the app to `/Positions/Mount`),
+at 1440x900. The page and loaded Neural bundle stayed on the dev host. GitHub's Markdown API
+rendered the README; a local preview checked the first screen at desktop and phone widths.
+This is presentation evidence, not an app regression gate.
+
+Architecture and Content were audited against the current source, schemas, emitters and
+workflows. Removed contradictory role/neutral-node accounts, obsolete UI switches, generated-
+instead-of-authored role prose, misleading validation guarantees and guaranteed submission
+finishes. Documented source/published rate differences, optional/non-blocking checks, paid
+regeneration, playable submission choices and the unexported Principles/Systems flashcard gap.
+Restored CLAUDE.md unchanged from origin/dev; its generated-file references pass once the
+payload is emitted, matching CI's prerequisite order. LinkedIn remains the human contact channel.
+
+Measured this tree: 133 position, 1,025 transition and 353 submission JSON files, including
+63 submission family hubs; graph.json is 49,794,486 bytes. No-gi reachability excludes 104
+techniques and 18 role-nodes. Summed authored no-gi attempt weights put Knee Slice Pass first
+(577 points, 41 role rows, emitted success rate 53.6%) and Triangle Setup third
+(368 points, 22 rows, 28%). These sums include unreachable source rows and are not simulated
+traffic or match statistics.
+
+Verification: schema validation passed with non-blocking findings; graph validation reported
+zero errors and seven warnings. Availability compared 1,448 wire nodes to the walk with zero
+disagreements. Both README jq examples ran. Link checks resolved 74 relative references;
+six external URLs returned HTTP 200, while LinkedIn returned 999 to curl and was retained as
+requested. Practitioner validation and a full built-site/browser regression run are not claimed.
