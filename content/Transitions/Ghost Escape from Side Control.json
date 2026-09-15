@@ -291,7 +291,7 @@
         }
       },
       {
-        "question": "What are the two most common failure points that cause this escape to result in turtle rather than guard?",
+        "question": "What two errors make the ghost escape end in turtle instead of direct guard recovery?",
         "answer": "The first is threading the knee too late, after the turn has completed and the gap has closed, which forces the standard ghost escape turtle outcome. The second is insufficient frame pressure against the opponent's hip during the turn, which allows them to follow your rotation closely enough that there is no gap for the knee to enter. Both failures convert the technique into the standard ghost escape rather than achieving direct guard recovery.",
         "answer_line": "Late knee, weak hip frame",
         "distractors": {
@@ -319,7 +319,7 @@
         }
       },
       {
-        "question": "Your opponent drives heavy crossface pressure as you set up the ghost escape. How does this affect your approach?",
+        "question": "They crossface heavily as you set up the ghost escape; how does that change your approach?",
         "answer": "Heavy crossface pressure actually assists the ghost escape because you turn in the direction the crossface pushes you rather than fighting against it. The crossface energy converts into turning momentum. However, heavy crossface often comes with reduced hip pressure, which is exactly the condition this technique requires. Use the crossface direction to fuel your turn while exploiting the lighter hip contact to execute the knee thread.",
         "answer_line": "Turn with the crossface push",
         "distractors": {
@@ -333,7 +333,7 @@
         }
       },
       {
-        "question": "The opponent follows your turn closely and blocks the knee insertion. What is your immediate adjustment?",
+        "question": "They follow your ghost escape turn and block the knee insertion; what is your adjustment?",
         "answer": "Accept the turtle position rather than forcing a failed knee thread. Complete the standard ghost escape rotation to hands and knees, then immediately work guard recovery from turtle via sit-through, granby roll, or technical stand-up. The turn itself still creates a valuable escape from side control even when the knee insertion fails. Forcing the knee against a closely following opponent wastes energy and may stall you in a vulnerable mid-rotation position.",
         "answer_line": "Accept turtle, then recover guard",
         "distractors": {
@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "How should you establish open guard controls immediately after completing the knee thread and facing the opponent?",
+        "question": "After threading the knee and facing them, how do you establish open guard controls?",
         "answer": "The instant your knee clears and you face the opponent, your primary hand must secure a grip on their nearest sleeve or wrist to prevent them from immediately driving forward to re-pass. Your secondary hand controls their collar, far sleeve, or frames against their shoulder. Your feet should be immediately active on their hips or shins to manage distance. Guard without active grips and foot engagement is not sustainable and will be re-passed within seconds.",
         "answer_line": "Grip sleeve, frame, feet active",
         "distractors": {
@@ -361,7 +361,7 @@
         }
       },
       {
-        "question": "What is the primary mechanical principle that makes the Ghost Escape effective compared to traditional shrimping escapes?",
+        "question": "What mechanical principle makes the ghost escape work better than a standard shrimp escape?",
         "answer": "The Ghost Escape uses circular rotational motion rather than linear shrimping movement. This creates angles that disrupt the top player's perpendicular weight distribution in ways they cannot easily follow, because their base is designed to resist lateral movement, not rotational movement. The circular path also generates momentum that compounds through the escape.",
         "answer_line": "Circular motion beats their base",
         "distractors": {
@@ -389,7 +389,7 @@
         }
       },
       {
-        "question": "Your opponent has heavy crossface pressure and is blocking your hip with their near hand. How do you create the conditions for a Ghost Escape?",
+        "question": "With a heavy crossface and their hand blocking your hip, how do you create the ghost escape?",
         "answer": "First establish a frame against their shoulder with your far arm to create minimal separation. Then use a short explosive bridge into the opponent to momentarily lift their chest weight, which also forces a reaction in their hip-blocking hand. The moment their weight shifts upward from the bridge, explosively rotate your hips away to begin the ghost motion before they can resettle.",
         "answer_line": "Bridge to lift, then rotate",
         "distractors": {
@@ -417,7 +417,7 @@
         }
       },
       {
-        "question": "What is the most critical step that practitioners commonly fail to execute, and why does it stall the escape?",
+        "question": "Which ghost escape step is most commonly missed, and why does it stall the escape?",
         "answer": "The bottom arm extraction is the most commonly failed step. As the body rotates, the arm closest to the mat must be actively pulled across the torso with the elbow tight to the ribs. Without this extraction, the arm gets trapped underneath the body, physically preventing the rotation from completing. Practitioners must drill this extraction in isolation until it becomes automatic.",
         "answer_line": "Extract bottom arm early",
         "distractors": {
@@ -431,7 +431,7 @@
         }
       },
       {
-        "question": "Your opponent begins stepping over to mount as you initiate hip rotation. What are your two response options?",
+        "question": "They step over toward mount as you start the ghost escape rotation; what are your two options?",
         "answer": "Option one: keep your bottom knee tight to your chest to physically block the leg from crossing over, which buys time to either complete the rotation or abandon and re-frame. Option two: accelerate the rotation dramatically, completing the escape to turtle before the mount is fully established. The choice depends on how far the mount transition has progressed when you recognize it.",
         "answer_line": "Block with knee or speed up",
         "distractors": {
@@ -614,7 +614,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest cue that the opponent is setting up the ghost escape to guard rather than a standard hip escape?",
+        "question": "As top player, what earliest cue shows a ghost escape to guard rather than a hip escape?",
         "answer": "The earliest cue is the opponent establishing a forearm frame against your hip rather than against your shoulder or neck. Traditional hip escapes use shoulder frames to create space to shrimp toward you, while the ghost escape to guard uses the hip frame to prevent you from following the turn away from you. The frame placement tells you which direction the escape will go.",
         "answer_line": "Frame against your hip, not neck",
         "distractors": {
@@ -712,7 +712,7 @@
         }
       },
       {
-        "question": "Your opponent initiates a Ghost Escape and their hips have already rotated 90 degrees. What is your best counter at this stage?",
+        "question": "Their hips have rotated 90 degrees into the ghost escape; what is your best counter now?",
         "answer": "At this stage the rotation is too advanced to flatten them back to side control. Your best option is to step over to mount by swinging your far leg across their turning body, or to follow the rotation and immediately secure seatbelt control for a back take as they complete to turtle. Trying to push them flat at this point will likely fail and waste your positional opportunity.",
         "answer_line": "Step to mount or take the back",
         "distractors": {
@@ -726,7 +726,7 @@
         }
       },
       {
-        "question": "How should you adjust your side control maintenance when facing an opponent known to use the Ghost Escape?",
+        "question": "How do you maintain side control against an opponent known for the Ghost Escape?",
         "answer": "Against a known Ghost Escape practitioner, prioritize maximum hip-to-hip contact with your hips slightly behind theirs to block rotation. Actively strip any frames they attempt to establish. Stay alert for the bridge-to-rotation combination, and be prepared to immediately sprawl or step to mount at the first sign of circular hip movement. Keep your weight more distributed toward their hips than their upper body.",
         "answer_line": "Hips behind theirs, strip frames",
         "distractors": {
@@ -740,7 +740,7 @@
         }
       },
       {
-        "question": "When the bottom player completes the Ghost Escape to turtle, what should your immediate priorities be?",
+        "question": "They complete the Ghost Escape to turtle: what are your immediate priorities on top?",
         "answer": "Immediately pursue seatbelt or harness control by driving your chest onto their back and securing the over-under grip. Do not allow space between your chest and their back. Prevent them from standing by keeping your hips close to theirs and begin working to insert hooks for full back control. The first 2-3 seconds after they reach turtle are your best window before they can initiate guard recovery or a technical stand-up.",
         "answer_line": "Seatbelt now, deny the stand-up",
         "distractors": {

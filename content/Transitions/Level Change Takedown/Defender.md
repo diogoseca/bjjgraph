@@ -56,7 +56,7 @@ description: "Master defending the level change takedown in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest visual cue that indicates your opponent is about to shoot a level change takedown?",
+      "name": "What is the earliest cue that your opponent is about to shoot a level change takedown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent's hips beginning to drop as their knees bend, often accompanied by a slight forward lean and their eyes dropping toward your lower body. This occurs fractions of a second before the penetration step begins and represents the optimal timing window for initiating your sprawl defense. The hip drop changes their silhouette noticeably and should trigger an automatic defensive reaction through trained pattern recognition."
@@ -64,7 +64,7 @@ description: "Master defending the level change takedown in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent shoots a double leg and has both hands secured behind your knees - what is your defensive priority?",
+      "name": "They shoot a double and have both hands behind your knees: what's your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, sprawling alone may be insufficient since they already have leg control. Your priority shifts to getting your hips away from their driving force while establishing a whizzer overhook on their near arm and crossfacing with your other hand. Drive your hip into their shoulder to reduce their forward drive, then work to circle your hips away from their head side while fighting to peel their gripping hands off your legs one at a time."
@@ -72,7 +72,7 @@ description: "Master defending the level change takedown in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How do you adjust your standing posture to make level change takedowns more difficult for your opponent?",
+      "name": "How should you set your standing posture to make level change takedowns harder?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a slightly lower athletic stance with knees bent and weight distributed toward the balls of your feet. Keep your hips back slightly so your center of gravity sits behind your front foot rather than directly over it. Maintain active hand fighting to deny clean gripping and entry angles. Use circular footwork to prevent the attacker from establishing a direct line to your legs. This combination of posture, distance, and movement forces attackers to shoot from poor angles and longer distances."
@@ -80,7 +80,7 @@ description: "Master defending the level change takedown in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "After successfully sprawling on your opponent's shot, what offensive option provides the highest positional return?",
+      "name": "After a successful sprawl, which offensive option gives the highest positional return?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The front headlock position offers the highest offensive return after a successful sprawl. As you drive your weight onto their upper back, circle toward their head to establish a front headlock with one arm around their neck and the other controlling their near arm. From this position, you can attack with snap downs to turtle them, set up guillotines or anaconda chokes, or use the head control to spin behind for a back take. The key is transitioning immediately from defense to offense rather than passively returning to neutral."

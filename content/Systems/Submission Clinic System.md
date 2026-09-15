@@ -4,7 +4,7 @@
 
 ---
 title: "Submission Clinic System | BJJ System | BJJ Graph"
-description: "Master systematic submission hunting from dominant positions in BJJ. Learn to chain attacks, create dilemmas, and maintain control while presenting constant submission threats."
+description: "Explores the kimura grip as a control that connects positional transitions and submission options. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -69,7 +69,7 @@ description: "Master systematic submission hunting from dominant positions in BJ
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Submission Clinic System",
-  "description": "Master systematic submission hunting from dominant positions in BJJ. Learn to chain attacks, create dilemmas, and maintain control while presenting constant submission threats.",
+  "description": "Explores the kimura grip as a control that connects positional transitions and submission options. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Submission-Clinic-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -154,7 +154,7 @@ description: "Master systematic submission hunting from dominant positions in BJ
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Submission Clinic System",
-  "description": "The Submission Clinic System is an attack framework that establishes dominant control first, then chains submission threats from mount, back, side control, and guard so each defensive reaction the opponent gives opens the next finish.",
+  "description": "A submission chain begins with a control you can maintain.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -173,13 +173,11 @@ description: "Master systematic submission hunting from dominant positions in BJ
 
 ## What is Submission Clinic System?
 
-**The Submission Clinic System is an attack framework that establishes dominant control first, then chains submission threats from mount, back, side control, and guard so each defensive reaction the opponent gives opens the next finish.**
+**A submission chain begins with a control you can maintain.**
 
-Born from the modern competitive emphasis on relentless finishing pressure, the Submission Clinic System grew out of the realization that a dominant position is only valuable when it is converted into threats. Rather than hunting for isolated finishes, this system emphasizes positional dominance first, then creates multiple submission threats that force the opponent into defensive dilemmas. Each defensive reaction opens new attacking pathways, creating an endless cycle of threats.
+A submission chain begins with a control you can maintain. Choose one attack, identify the defense it draws, and connect that reaction to a second option. The kimura instructional below is one focused way to study that process.
 
-This system integrates seamlessly across mount, back control, side control, and guard positions, teaching practitioners to maintain control while presenting constant submission danger. The key is never committing fully to one submission, but rather using each attempt to improve position or transition to the next threat. By mastering this system, practitioners develop the ability to finish opponents who are desperately defending, using their defensive reactions as the roadmap to victory.
-
-The Submission Clinic System is particularly effective in competition and high-level training because it removes the opponent's ability to rest or recover. Every moment in a dominant position becomes an opportunity for attack, and every defensive movement creates new vulnerabilities. This constant pressure breaks down even experienced grapplers, leading to either submission or complete positional dominance.
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -188,15 +186,37 @@ The Submission Clinic System is particularly effective in competition and high-l
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Submission Clinic System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 30 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="kimura-enter-the-system-by-john-danaher">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">Kimura: Enter The System</h3>
+<p class="product-card__instructor">with John Danaher</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students building a connected attack around one grip. This is a kimura focus, not a survey of every submission.</p>
+<p class="product-card__blurb">Explores the kimura grip as a control that connects positional transitions and submission options.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=submission-clinic-system&utm_term=kimura-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="kimura-enter-the-system-by-john-danaher" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -334,6 +354,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Use the positional-control sections to study how the grip can remain useful when the direct finish is blocked.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=submission-clinic-system&utm_term=kimura-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="kimura-enter-the-system-by-john-danaher" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Kimura: Enter The System &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -460,5 +491,16 @@ The Submission Clinic System requires extensive positional drilling combined wit
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Pick one kimura entry from the map. Ask your partner to hide the hand and practise a controlled positional transition.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=submission-clinic-system&utm_term=kimura-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="kimura-enter-the-system-by-john-danaher" data-system-slug="systems/submission-clinic-system" data-system-name="Submission Clinic System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Kimura: Enter The System &rarr;</a></p>
+</section>
+
+
 
 </main>

@@ -64,7 +64,7 @@ description: "How to defend against Arm Extraction and Pass in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your attacker has established the shoulder pin and is gripping your wrist - what is your best defensive response?",
+      "name": "They have the shoulder pin and your wrist. What is your best defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, pure arm resistance is unlikely to succeed since the shoulder pin has broken your arm's structural support. Switch to timing-based defense: wait for the attacker to shift their hips toward your legs to create extraction space, then explosively sit through to half guard during that moment when their inside leg hook pressure decreases. The hip shift is their most vulnerable moment."
@@ -72,7 +72,7 @@ description: "How to defend against Arm Extraction and Pass in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "How do you recognize that the Arm Extraction and Pass is being attempted versus a standard back take from Crackhead Control?",
+      "name": "How do you tell an arm extraction from a back take out of Crackhead Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key recognition cue is the direction of the attacker's weight shift. For back takes, they shift their weight laterally to establish hooks and seat belt control. For arm extraction, they drive weight forward onto your shoulder blade while their near hand reaches for your wrist or forearm. The forward chest commitment to the shoulder pin is the definitive signal that differentiates extraction from back take attempts."
@@ -80,7 +80,7 @@ description: "How to defend against Arm Extraction and Pass in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "The extraction has succeeded and the attacker is transitioning to side control - what is your emergency defense?",
+      "name": "The extraction worked and they are moving to side control. What is your emergency defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately attempt to insert your near knee between your bodies as the attacker's hips transition from chair-sit to side control sprawl. This is the last window before full side control is established. Your knee must beat their near hand to your far hip. If the knee insertion succeeds, you recover half guard with offensive options. If it fails, focus on immediate framing and side control escape sequences rather than trying to return to turtle."

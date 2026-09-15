@@ -319,7 +319,7 @@
         }
       },
       {
-        "question": "Your opponent has a strong two-on-one grip on your choking arm wrist preventing any advancement - what grip-breaking strategy do you employ?",
+        "question": "From harness, they have two-on-one on your choking wrist — how do you break the grip?",
         "answer": "Use your free hand to peel their top grip starting with the pinky finger and peeling outward. Alternatively, swim your underhook hand over their defending forearm to strip their grip from above. A third option is the push-pull method where you push their defending elbow away with your free hand while simultaneously pulling the choking arm forward. If grip fighting stalls, threaten an armbar on their extended defending arm to create a choke-versus-armbar dilemma that forces them to release.",
         "safety_critical": false,
         "answer_line": "Peel pinky, or swim underhook",
@@ -349,7 +349,7 @@
         }
       },
       {
-        "question": "Your opponent tucks their chin tightly to their chest and you cannot slide the forearm under - how do you clear this barrier?",
+        "question": "From harness, their tight chin tuck blocks your forearm — how do you clear it safely?",
         "answer": "Three primary methods exist. First, use your free hand to cup the forehead and gently tilt the head backward to create space under the chin. Second, walk the choking forearm across the face from ear to chin, using the jawline as a ramp to slide underneath. Third, apply the choke over the chin - the jawbone acts as a painful lever that pressures the opponent into lifting their chin voluntarily. Avoid cranking the neck sideways, which risks cervical spine injury.",
         "safety_critical": false,
         "answer_line": "Tilt head back, or ramp via jaw",
@@ -379,7 +379,7 @@
         }
       },
       {
-        "question": "You have the choking arm under the chin but cannot lock the figure-four because the opponent is blocking your support hand - what finishing alternative exists?",
+        "question": "Arm is under the chin but they block your support hand — what finishing alternative works?",
         "answer": "Apply the short choke variation by using your free hand to push the back of the opponent's head forward into the choking forearm rather than locking a figure-four. Alternatively, use a palm-to-palm grip with the choking arm under the chin and both hands clasped together, squeezing by pulling toward your chest while expanding. Both alternatives sacrifice mechanical efficiency but can produce a tap when the standard figure-four is unavailable due to active hand defense.",
         "safety_critical": false,
         "answer_line": "Short choke: push head into arm",
@@ -394,7 +394,7 @@
         }
       },
       {
-        "question": "What is the proper application speed for the Rear Naked Choke in training and what are the risks of applying it too quickly?",
+        "question": "How fast should you apply the rear naked choke in training, and what are the risks of rushing?",
         "answer": "Apply the squeeze slowly and progressively over 3-5 seconds minimum in training. Never snap or jerk the choke tight. Rapid application risks carotid artery injury, trachea damage if alignment is imperfect, and cervical spine strain from sudden force. The partner must have full awareness of building pressure to respond with a timely tap. In training, treat every choke as if the partner might not feel it immediately and always prioritize their safety over the finish.",
         "safety_critical": true,
         "answer_line": "Squeeze slow, 3-5 seconds",
@@ -424,7 +424,7 @@
         }
       },
       {
-        "question": "Your opponent begins turning their body toward your choking arm side while you have the arm partially advanced - how do you adjust?",
+        "question": "From harness, they turn toward your choking arm side — how do you adjust?",
         "answer": "Follow the turn by adjusting your hook position and maintaining chest-to-back contact. Use the underhook arm to block their hip rotation by pulling their far hip toward you. Drive your top hook deeper to prevent further rotation. If they commit fully to the turn, capitalize by advancing the choking arm during the movement since their defensive hands may shift to assist the turn. Alternatively, transition to mounted triangle or crucifix if the turn exposes their arm.",
         "safety_critical": false,
         "answer_line": "Follow turn, block hip, deepen hook",

@@ -108,7 +108,7 @@ description: "How to execute Knee Slice from Half in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What direction of force should your knee apply during the slice, and how does this differ from simply pressing down?",
+      "name": "In the knee slice, what force direction should your knee apply instead of pressing down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The force should be diagonal - driving your knee toward their far hip at approximately 45 degrees while simultaneously applying downward hip pressure. This differs from pressing straight down because pure downward force gets blocked by their thigh and creates a stalemate. The diagonal vector cuts across the grain of their leg, separating their knees apart while your hip weight prevents them from simply rotating to follow your movement. Think of it as slicing across, not pressing through."
@@ -424,6 +424,16 @@ The knee slice pass is generally safe for both practitioners when performed corr
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Lucas-Lepri-Half-Guard-Passing-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri Half Guard Passing System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">One available passing route</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lucas-Lepri-Knee-Cut-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri Knee Cut System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Core cutting movement</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Vagner-Rocha-Float-Passing-System" data-cta="related-system-card" data-system-slug="systems/vagner-rocha-float-passing-system" data-system-name="Vagner Rocha Float Passing System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Vagner Rocha Float Passing System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Passing branch to compare</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

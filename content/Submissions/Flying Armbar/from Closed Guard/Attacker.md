@@ -76,7 +76,7 @@ description: "How to execute Flying Armbar in BJJ. Attacking perspective with se
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the absolute priority when landing a flying armbar in training, even above securing the submission?",
+      "name": "What is the top priority when landing a flying armbar in training, above the finish itself?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The absolute priority is controlling your landing to avoid injuring your training partner. You must land gently, allow your partner to base with their free hand, and never spike or slam onto their extended arm. Partner safety takes complete precedence over submission success in training. This means consciously controlling your descent and being prepared to release the technique entirely if the landing becomes uncontrolled. A successful tap means nothing if your partner is injured in the process."
@@ -84,7 +84,7 @@ description: "How to execute Flying Armbar in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "What anatomical structure does the flying armbar attack, and what are the specific indicators that the breaking point is being reached?",
+      "name": "What does the flying armbar attack, and what signs show the breaking point is being reached?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The flying armbar attacks the elbow joint, specifically hyperextending the elbow by applying force against the natural bending direction. The breaking point indicators include: the opponent's arm becoming fully extended with no remaining slack, feeling increasing tension in the ligaments as you apply hip pressure, the opponent's body beginning to rise off the mat as they try to relieve pressure, and visible straightening of the arm beyond its natural range. In training, you must recognize these signs and apply pressure slowly enough that your partner can tap before injury occurs."
@@ -92,7 +92,7 @@ description: "How to execute Flying Armbar in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Why is two-on-one grip control essential before initiating the jumping motion, and what can happen if this grip is insufficient?",
+      "name": "Why is two-on-one control needed before you jump for the flying armbar, and what if it slips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Two-on-one grip control (one hand on wrist, one on sleeve) is essential because once you leave the ground, you cannot re-establish control if the arm slips free. Insufficient grip allows the opponent to pull their arm back during your aerial rotation, resulting in a failed technique where you land without control, vulnerable to being passed or mounted. The grip must be tested by pulling before jumping - if the arm moves easily, the grip is inadequate for an aerial attack. Strong grip control is the foundation that makes the entire technique possible."
@@ -108,7 +108,7 @@ description: "How to execute Flying Armbar in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "What is the minimum application time for finishing pressure in training, and why is this timeframe non-negotiable?",
+      "name": "How long should the flying armbar finish take in training, and why is that non-negotiable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The minimum application time for finishing pressure in training is 5-7 seconds from initial pressure to full extension. This timeframe is non-negotiable because the elbow joint is extremely vulnerable when already loaded by your body weight from the aerial entry. Rapid application can cause catastrophic ligament tears before your partner can tap. The slow application allows your partner to feel the pressure building, make a conscious decision to tap, and signal that tap clearly. Even if they don't tap immediately, the slow pressure gives you time to feel resistance and stop before causing injury. Competition speed has no place in drilling flying submissions."
@@ -116,7 +116,7 @@ description: "How to execute Flying Armbar in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins posturing up and stacking you forward after you've landed - what immediate adjustment prevents escape and maintains submission control?",
+      "name": "They posture and stack you after you land the flying armbar — what adjustment keeps control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When being stacked, immediately angle your body 45 degrees toward your outside shoulder rather than staying flat. This creates space for your hips and prevents compression. Simultaneously, pull their wrist strongly toward your opposite shoulder to maintain arm isolation and angle the elbow away from their centerline. If the stack is severe, consider releasing the submission and transitioning to triangle or omoplata rather than fighting from a compromised position where control is diminishing and injury risk to both parties increases."

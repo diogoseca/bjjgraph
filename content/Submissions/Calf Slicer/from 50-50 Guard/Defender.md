@@ -76,7 +76,7 @@ description: "Defend against the calf slicer from 50-50 Guard with recognition c
     },
     {
       "@type": "Question",
-      "name": "Why does straightening your leg expose you to a different submission threat, and how do you manage this tradeoff?",
+      "name": "Straightening your leg beats the 50-50 calf slicer but opens what threat, and how do you manage it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Straightening the trapped leg removes the bent-knee angle needed for the calf slicer but simultaneously exposes the heel that was previously hidden from heel hook attacks. Manage this tradeoff by straightening the leg only enough to prevent effective compression while maintaining some knee bend, and immediately address heel protection through grip fighting and knee rotation once the calf slicer threat is neutralized. The goal is dynamic defense that prevents both attacks rather than fully committing to one defensive posture."

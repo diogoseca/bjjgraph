@@ -303,8 +303,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 - [[Positions/Side Control/Kesa Gatame]]
 - [[Positions/North-South]]
 - [[Positions/Knee on Belly]]
-- [[Positions/Side Control/Scarf Hold Position]]
-- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 - [[Positions/Turtle]]
 
 

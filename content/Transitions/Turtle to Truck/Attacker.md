@@ -82,7 +82,7 @@ description: "How to execute Turtle to Truck in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Why is perpendicular body positioning essential for the Truck, and what happens if you remain parallel to your opponent?",
+      "name": "Why must you be perpendicular for the Truck, and what fails if you stay parallel?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Perpendicular positioning creates the proper leverage angles for all Truck submissions, particularly the Twister and calf slicers. It also prevents the opponent from sitting back into you or standing up effectively. If you remain parallel (alongside them), you lose the mechanical advantage for submissions, they can more easily defend by turning into you or standing, and you cannot create the proper spine compression needed for the Twister. The perpendicular angle is what makes the Truck geometry work."
@@ -98,7 +98,7 @@ description: "How to execute Turtle to Truck in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent stands up explosively before you complete the leg triangle in the Truck entry?",
+      "name": "They stand explosively before you lock the Truck triangle: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your grip on their far leg at all costs and use it to either trip them back down to turtle with a technical sweep, or if they fully stand, transition to a single leg takedown setup. The leg grip gives you positional control even if the Truck entry fails. Alternatively, if they're partially standing, you can switch to a single leg X-guard entry or use the momentum to take their back. Never simply release the leg without a plan, as that wastes all your setup work."
@@ -106,7 +106,7 @@ description: "How to execute Turtle to Truck in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What is the relationship between the Truck position and the larger Twister system, and what other positions can you transition to from Truck?",
+      "name": "How does the Truck fit the Twister system, and what positions can you reach from it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Truck serves as a central hub within the Twister system - it's the gateway position that provides access to multiple high-percentage submissions and positions. From Truck, you can transition to Twister Control for the Twister submission, various calf slicer finishes, back control with hooks, or the Banana Split. The Truck is valuable because it creates a submission dilemma - if opponent defends the leg attacks, you can take the back; if they defend the back, you can attack the legs. Understanding these connections makes the Truck exponentially more dangerous than treating it as an isolated position."
@@ -114,7 +114,7 @@ description: "How to execute Turtle to Truck in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What are the three primary control points you must maintain throughout the Truck transition to prevent escape?",
+      "name": "What three control points must you keep throughout the Turtle to Truck transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, the far leg grip with your reaching arm controls their mobility and prevents them from extracting their leg. Second, the leg triangle lock created by your own legs immobilizes their trapped leg and creates the structural foundation. Third, upper body control through a collar tie, cross face, or shoulder grip prevents explosive movement and standing. These three control points work together - losing any one makes the position significantly weaker. Advanced practitioners maintain all three simultaneously during the entire transition sequence."
@@ -432,8 +432,8 @@ When practicing the Truck transition, ensure controlled execution to avoid knee 
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">General transition pathway into Truck Position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Advanced progression when opponent defends lockdown attacks</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">General transition pathway into Truck Position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lockdown-to-Electric-Chair-System" data-cta="related-system-card" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lockdown to Electric Chair System</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Advanced progression when opponent defends lockdown attacks</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

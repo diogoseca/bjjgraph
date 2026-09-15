@@ -50,7 +50,7 @@ description: "Prevent guard recovery from your triangle control as the bottom pl
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanism that makes the triangle choke effective, and how does the escape attack this mechanism?",
+      "name": "What makes the triangle choke work, and how does the escape attack that mechanism?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The triangle choke works by compressing the trapped shoulder into one carotid artery while the thigh compresses the other carotid artery, creating bilateral blood flow restriction to the brain. The escape attacks this mechanism by moving the trapped arm across the centerline, removing the shoulder from its position against the carotid artery. Once the shoulder crosses the midline, the compression is unilateral only and the choke cannot be finished, regardless of squeeze pressure."
@@ -74,7 +74,7 @@ description: "Prevent guard recovery from your triangle control as the bottom pl
     },
     {
       "@type": "Question",
-      "name": "What physical sensation indicates that you should immediately transition from triangle to armbar rather than continuing to fight for the choke?",
+      "name": "What sensation tells you to switch from the triangle to the armbar instead of squeezing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you feel the opponent's trapped arm sliding past your centerline—the point where their forearm crosses your belly button line—the triangle choke becomes structurally compromised regardless of your squeeze strength. At this point, the trapped shoulder no longer compresses the far carotid artery effectively. The feeling is a distinct loss of the locked sensation where their arm was pinned against your thigh. This centerline crossing is your transition trigger: immediately uncross your ankles and attack the armbar on the arm that is already partially extended from their extraction attempt."
@@ -82,7 +82,7 @@ description: "Prevent guard recovery from your triangle control as the bottom pl
     },
     {
       "@type": "Question",
-      "name": "How does hip elevation change the urgency of the attacker's escape, and what should you focus on to maximize hip extension pressure?",
+      "name": "How does hip elevation change their escape urgency, and how do you maximize extension?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip elevation directly controls the intensity of the carotid compression. When you elevate your hips off the mat using your shoulders as a base and extend your legs, the triangle transforms from a holding position to an active finishing mechanism. Focus on three elements to maximize pressure: first, curl your upper body toward the opponent to reduce the distance your hips need to travel; second, squeeze your knees together rather than just extending the legs; third, maintain head control to prevent the opponent from creating the postural angle that relieves the compression. Maximum hip extension with proper angle creates a finish window of five to ten seconds."

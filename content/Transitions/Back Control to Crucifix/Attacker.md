@@ -82,7 +82,7 @@ description: "How to execute Back Control to Crucifix in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "What defensive reaction from the opponent creates the optimal window for initiating the crucifix transition?",
+      "name": "Which defensive reaction from your opponent opens the crucifix transition from back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent commits both hands to defending the rear naked choke by grabbing your choking wrist or their own collar, their arms become extended away from their body and vulnerable to control. This defensive posture is exactly what the crucifix transition exploits. The opponent's own defensive frames become the mechanism for their entrapment. Without this arm extension, attempting the transition is premature and likely to fail because there is no space to insert the knee over a tucked arm."
@@ -98,7 +98,7 @@ description: "How to execute Back Control to Crucifix in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps their elbows glued to their ribs and refuses to extend their arms to defend the choke. How do you create the opening?",
+      "name": "They keep elbows glued to their ribs and won't defend the choke—how do you open the crucifix entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase the choke threat intensity by adjusting your choking arm deeper under the chin and closing the rear naked choke grip tighter. Most opponents will eventually commit at least one hand to neck defense when the choke becomes credible. Alternatively, use a gift wrap by pulling their near arm across their own neck, or threaten an armbar by isolating one arm with your hands. Any genuine submission threat forces a defensive reaction that opens the crucifix entry window."
@@ -114,7 +114,7 @@ description: "How to execute Back Control to Crucifix in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "During the transition you feel opponent beginning to roll toward you. What adjustment preserves your attacking position?",
+      "name": "Mid-crucifix transition you feel them rolling toward you—what adjustment keeps your attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drop your weight through the bottom hook and drive your hips into their back to stop the roll momentum. If the roll has already started, maintain chest-to-back connection and follow the roll rather than fighting it, which allows you to end up in mounted crucifix or standard mount. The key is never separating from their back. If you lose connection during the roll, the position degrades to a scramble. Keep the shin locked on the near arm regardless of which direction the roll goes."

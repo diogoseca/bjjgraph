@@ -269,7 +269,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their hips forcefully away from your kneebar pressure - what is your immediate response?",
+        "question": "They rotate their hips hard away from your kneebar pressure—what is your immediate response?",
         "answer": "Follow their rotation by adjusting your hip angle to match their movement direction rather than fighting their rotation head-on. If they rotate away from you, this often exposes saddle entry opportunities - consider threading your legs to transition. If you maintain kneebar focus, shift your body to stay perpendicular to their knee as they turn. Never anchor your position while they rotate freely, as this creates the distance they need to extract.",
         "answer_line": "Follow rotation, angle in",
         "distractors": {
@@ -283,7 +283,7 @@
         }
       },
       {
-        "question": "Why is cycling between submission pressure bursts and consolidation phases more effective than constant pressure?",
+        "question": "Why cycle pressure bursts with consolidation phases instead of constant kneebar pressure?",
         "answer": "Constant maximum pressure depletes your energy rapidly without producing the finish, because the opponent can adopt a static defensive posture and wait for your grip to fatigue. Cycling creates two advantages: the brief pressure bursts force the opponent to react defensively, which reveals their escape strategy and creates momentary grip-loosening opportunities; the consolidation phases allow you to retighten control and recover grip endurance. Each cycle extracts defensive information while preserving your energy.",
         "answer_line": "Cycle burst and consolidate",
         "distractors": {
@@ -297,7 +297,7 @@
         }
       },
       {
-        "question": "What grip configuration provides the best balance between control and endurance for kneebar maintenance?",
+        "question": "Which grip best balances control and endurance for holding a kneebar?",
         "answer": "A gable grip with elbows squeezed tight against the leg, positioned around the lower calf and Achilles area, provides optimal endurance. The key is distributing holding force across your chest, lats, and squeezed elbows rather than relying on forearm grip strength. Your arms position and guide the leg while your torso clamps it. This configuration can sustain control for several minutes compared to pure grip-dependent holds that fatigue within 30-60 seconds.",
         "answer_line": "Gable grip, elbows tight",
         "distractors": {
@@ -311,7 +311,7 @@
         }
       },
       {
-        "question": "At what point should you abandon kneebar control maintenance and transition to an alternative position?",
+        "question": "When should you abandon kneebar control and transition to another position?",
         "answer": "Transition when you observe progressive control deterioration despite active maintenance efforts for approximately 15-20 seconds. Specific indicators include: hip-to-knee gap that you cannot close despite repeated attempts, grip slippage that continues after reconfiguration, or opponent establishing a frame that you cannot collapse. The critical insight is transitioning while you still retain enough positional advantage to choose your exit point - either to alternative leg attacks like ankle locks and toe holds, or to guard passing.",
         "answer_line": "After 15-20s no progress",
         "distractors": {
@@ -339,7 +339,7 @@
         }
       },
       {
-        "question": "Your grips are starting to fatigue after thirty seconds of maintenance - what adjustment prevents position loss?",
+        "question": "Your kneebar grips fatigue after 30 seconds; what adjustment prevents losing the position?",
         "answer": "Immediately transition from grip-dependent control to weight-based control. Drop your chest heavily onto the trapped leg, letting body weight replace forearm squeeze. Shift to a gable grip if using figure-four, as gable requires less finger strength. Reduce the frequency of pressure bursts to conserve remaining grip endurance. If fatigue is severe, either commit to a final finish attempt within the next 5 seconds or transition to a position that requires less grip - such as passing to side control - before your grip fails completely and the opponent escapes on their terms.",
         "answer_line": "Shift to weight, not grip",
         "distractors": {
@@ -514,7 +514,7 @@
         }
       },
       {
-        "question": "Your push frame against the attacker's hip fails and they pin your free leg - what is your immediate priority?",
+        "question": "Your hip frame fails and they pin your free leg in the kneebar; what is your priority?",
         "answer": "Immediately refocus on maximizing knee bend on the trapped leg and begin working to free your pinned leg through hip escaping and circular ankle movement. With both legs controlled, your defensive options narrow to upper body frames and explosive bridging. Use your hands to grab your own shin and reinforce the knee bend. If possible, hook their controlling arm with your free hand to begin disrupting their grip. Avoid panicking into a flat, extended position - maintain defensive composure and work incrementally to recover your free leg before attempting the next escape.",
         "answer_line": "Max knee bend, free the leg",
         "distractors": {

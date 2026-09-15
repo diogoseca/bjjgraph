@@ -56,7 +56,7 @@ description: "How to defend against Distance Creation to Reset in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a distance creation reset rather than a passing attempt?",
+      "name": "What earliest cue shows your opponent is resetting distance rather than passing your lapel guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when opponent secures wrist control on your lapel-gripping hand while simultaneously straightening their posture rather than driving forward. A passer drives into you with pressure; a resetter controls your grip hand and extends upward. This two-action combination—grip control plus postural extension—distinguishes reset intent from passing intent."
@@ -64,7 +64,7 @@ description: "How to defend against Distance Creation to Reset in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has just cleared your worm guard wrap and is beginning the explosive backstep—what is the optimal defensive response?",
+      "name": "They cleared your worm guard wrap and are backstepping — what is your best defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sit up aggressively and pursue the back take, using their backward momentum to create the angle for your rotation behind them. Their weight shifting backward during the backstep means their base is momentarily compromised and their arms are occupied. Alternatively, insert a De La Riva hook on their stepping leg to maintain guard connection even if the lapel configuration is lost."
@@ -72,7 +72,7 @@ description: "How to defend against Distance Creation to Reset in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is transitioning to De La Riva guard preferable to conceding open guard when your lapel configuration is stripped?",
+      "name": "Your lapel guard is stripped: why recover De La Riva instead of conceding open guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "De La Riva guard maintains an active offensive position with hook control and upper body grips, preserving your ability to sweep and attack. Conceding open guard gives the opponent exactly what they wanted—a neutral restart where their passing skills apply against your flat guard. DLR forces them to solve a new guard problem rather than enjoying a clean reset to their preferred passing stance."
@@ -88,7 +88,7 @@ description: "How to defend against Distance Creation to Reset in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What is the primary risk of attempting the sit-up back take too aggressively during opponent's distance creation?",
+      "name": "What is the main risk of forcing the sit-up back take as they create distance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If your timing is off and opponent anticipates the sit-up, they can sprawl or circle away, leaving you in a seated position without any guard configuration while they stand in dominant posture with fresh grips. The sit-up must be timed to the backstep moment when their weight is shifting and their arms are occupied with clearing—committing too early or too late turns your counter into their opportunity."

@@ -60,7 +60,7 @@ description: "Defend against the calf slicer from twister control. Recognition c
     },
     {
       "@type": "Question",
-      "name": "When should you tap to the calf slicer from twister control rather than continue attempting to escape?",
+      "name": "When should you tap to the calf slicer from twister control rather than keep escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately when you feel sharp pain in the calf muscle, when the shin is fully seated behind your knee and your lower leg is being folded past ninety degrees, or when you cannot generate any movement to reduce compression despite effort. Because the entangled twister position may limit your ability to physically tap with your hands, use verbal taps or any clear vocalization. Never wait for pain to become severe, as calf compression injuries occur rapidly once the position is locked."
@@ -68,7 +68,7 @@ description: "Defend against the calf slicer from twister control. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What is the primary defensive strategy against the calf slicer before it is fully established from twister control?",
+      "name": "What is the primary defense before the calf slicer is fully set from twister control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary defense is straightening your leg before the opponent can fully fold it and establish the shin fulcrum. Push your heel away from your hip while engaging your quadriceps to resist the folding action. Simultaneously work to extract your leg from the overall twister entanglement. If you prevent the lower leg from being folded past ninety degrees, the compression becomes significantly less effective and you maintain time to work your broader escape."
@@ -76,7 +76,7 @@ description: "Defend against the calf slicer from twister control. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What common defensive mistake makes the calf slicer from twister control significantly more dangerous?",
+      "name": "Which defensive mistake makes the calf slicer from twister control far more dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most dangerous mistake is attempting to explosively roll or bridge while the calf slicer is partially applied. This explosive movement can drive your own calf harder against the opponent's shin fulcrum, dramatically increasing compression force beyond what the opponent intended to apply. The sudden spike in pressure can cause immediate muscle tearing or knee ligament damage. Instead, work calmly to straighten the leg through controlled technical movement."
@@ -84,7 +84,7 @@ description: "Defend against the calf slicer from twister control. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What defensive options remain available once the calf slicer from twister control is partially applied but not yet fully locked?",
+      "name": "What defenses remain once the twister control calf slicer is partly applied but not locked?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary remaining options include straightening your leg against the fold to reduce compression, working to slip your knee forward past the opponent's shin to eliminate the fulcrum contact point, and fighting to extract your leg from the overall twister entanglement. You can also attempt to turn into your opponent to change the compression angle. Each option becomes progressively less viable as the position deepens, so early decisive action is critical."

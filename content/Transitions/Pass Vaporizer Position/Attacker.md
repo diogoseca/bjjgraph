@@ -90,7 +90,7 @@ description: "Complete guide to passing the Vaporizer position from top. Learn l
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully re-locks the lockdown after your first extraction attempt - how do you adjust your approach?",
+      "name": "They re-lock the lockdown after your first extraction from vaporizer: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Return to knee-toward-mat orientation and increase shoulder pressure to limit their ability to reposition. Consider switching to the backstep extraction variant, which changes the extraction angle and often catches the bottom player off-guard. Also evaluate whether your underhook neutralization was sufficient - re-locking often indicates the bottom player retained enough upper body control to manipulate your leg back into the figure-four."
@@ -106,7 +106,7 @@ description: "Complete guide to passing the Vaporizer position from top. Learn l
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins increasing whip-up pressure and threatening the Electric Chair as you start extraction - what is your immediate response?",
+      "name": "They whip up and threaten the Electric Chair as you extract: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the extraction temporarily and drive your weight back with hips heavy and low. The Electric Chair requires hip elevation and leg separation, so keeping hips heavy directly counters the setup. Widen your base to resist the lateral rolling that accompanies the Electric Chair entry. Once the immediate threat subsides, restart extraction from this more stable defensive position rather than trying to rush through the danger."

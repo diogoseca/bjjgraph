@@ -84,7 +84,7 @@ description: "How to execute Standing to Single Leg X in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Why should you immediately attempt a sweep after establishing Single Leg X position rather than holding the position statically?",
+      "name": "Why attack for the sweep right after establishing Single Leg X instead of holding it static?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediate sweep attempts are critical because static Single Leg X positions allow opponents to stabilize their base, establish defensive grips on your pants or belt, and begin methodical passing sequences. The strongest offensive moment is the transition itself - when the opponent is still adjusting to the new position and their base is compromised from your entry. By elevating and attacking within 1-2 seconds of establishing the position, you capitalize on their instability and prevent defensive adjustments. Static positions in modern BJJ are fundamentally weaker than dynamic, constantly-threatening positions."
@@ -100,7 +100,7 @@ description: "How to execute Standing to Single Leg X in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "What timing cue should you recognize from a standing position to execute the most successful Single Leg X entry?",
+      "name": "From standing, what timing cue signals the best moment to enter Single Leg X?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing window occurs when the opponent steps forward or shifts their weight onto their lead leg. During this weight transfer, their base is temporarily compromised and they cannot effectively sprawl backward. Additionally, their forward momentum works in your favor as you drop levels and pull them into the position. Advanced practitioners recognize subtle weight shifts before the actual step occurs, reading hip movement and postural changes. Attempting the entry when the opponent's weight is evenly distributed or favoring their back leg significantly reduces success rates, as they can easily sprawl or disengage."
@@ -108,7 +108,7 @@ description: "How to execute Standing to Single Leg X in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Where exactly should the inside hook be positioned on the opponent's leg for maximum control in Single Leg X?",
+      "name": "Where exactly should your inside hook sit on their leg for maximum Single Leg X control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside hook must be positioned directly across the back of the opponent's knee joint, with your shin creating horizontal pressure behind their knee and your foot hooking around to their inner thigh area. This specific placement allows you to control the knee joint itself rather than just the thigh muscle. When you elevate with this hook position, you can bend their leg to approximately 90 degrees, compromising their base and creating sweep leverage. Hooks placed too high on the thigh provide insufficient control and allow leg extraction, while hooks too low at the ankle lack the leverage needed for effective sweeps."

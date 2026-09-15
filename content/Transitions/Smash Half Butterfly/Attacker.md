@@ -74,7 +74,7 @@ description: "Execute the Smash Half Butterfly pass with systematic pressure to 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical body position adjustment that neutralizes the butterfly hook's lifting power?",
+      "name": "In the smash from half butterfly top, what adjustment kills the hook's lifting power?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Dropping your hips below the hook's leverage point while driving chest pressure diagonally across the bottom player's body toward the hook side. This combination removes the mechanical advantage the hook needs to generate upward force by placing your center of gravity below its optimal operating angle and flattening the bottom player's hips to eliminate rotational freedom."
@@ -82,7 +82,7 @@ description: "Execute the Smash Half Butterfly pass with systematic pressure to 
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to commit to the smash rather than another passing option from half butterfly top?",
+      "name": "From half butterfly top, when should you commit to the smash over other passes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Commit to the smash when you have already secured upper body control (crossface or underhook) and the bottom player is holding the hook passively to maintain position rather than actively elevating for a sweep. If they are mid-elevation or scrambling for the underhook, address that threat first—the smash works best against a defensive, retention-focused hook, not an attacking one."
@@ -90,7 +90,7 @@ description: "Execute the Smash Half Butterfly pass with systematic pressure to 
     },
     {
       "@type": "Question",
-      "name": "Your opponent elevates with their butterfly hook just as you begin lowering your hips—how do you recover?",
+      "name": "They elevate with the butterfly hook as you lower your hips: how do you recover?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your base by sprawling both feet outward and drive your chest forward into their upper body. If they achieve partial elevation, swim your near-side arm under their lifting leg and redirect the sweep momentum laterally rather than allowing straight-over elevation. Re-establish chest-to-chest pressure before reattempting the smash sequence."

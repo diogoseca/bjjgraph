@@ -52,7 +52,7 @@ description: "Defend against the toe hold from leg entanglement in BJJ. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that a toe hold from leg entanglement is being set up before the grip is locked?",
+      "name": "How do you spot a toe hold being set up from leg entanglement before the grip locks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest recognition cue is the attacker's near hand shifting from controlling your ankle or heel to cupping the top of your foot near the toes. This is followed by their far arm beginning to thread under the sole of your foot to establish the figure-four. You may also feel their upper body angle changing to create a rotational line perpendicular to your shin, and their hips driving closer to your ankle. Acting during this setup phase, before the figure-four consolidates, provides the widest range of defensive options."
@@ -68,7 +68,7 @@ description: "Defend against the toe hold from leg entanglement in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available against the toe hold from leg entanglement at each stage of the attack?",
+      "name": "What toe hold defenses are available at each stage of the attack from leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the early grip phase (attacker reaching for toes), you have maximum options: strip the grip, retract the foot, extend the leg, or counter-attack their legs. During the figure-four consolidation phase, effective defenses narrow to grip stripping at the wrist connection and leg extension to remove rotational angle. Once the full figure-four is locked with hips close and elbows cinched, your primary option is to extend the leg powerfully or initiate a counter-entanglement. Once rotation begins with all control elements locked, the only safe option is to tap immediately."
@@ -76,7 +76,7 @@ description: "Defend against the toe hold from leg entanglement in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Why is pulling your foot straight back toward your body a dangerous defensive response to the toe hold?",
+      "name": "Why is pulling your foot straight back toward your body a dangerous toe hold defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling the foot back toward your body while the figure-four is engaged actually worsens the submission by increasing the ankle's bend into the rotational plane. The figure-four grip acts as a fulcrum, so retracting the foot increases the lever arm and amplifies the rotational force on your ankle ligaments rather than relieving it. The correct response is either to extend the leg to straighten the ankle and remove the rotational angle, or to strip the grip at the weakest point (the wrist-to-wrist connection) before attempting any foot movement."

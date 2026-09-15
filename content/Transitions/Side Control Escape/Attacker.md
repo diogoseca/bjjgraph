@@ -68,7 +68,7 @@ description: "How to execute Side Control Escape in BJJ. Systematic frame-based 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it essential to turn your hips toward the opponent rather than just creating space with shrimping?",
+      "name": "Escaping side control, why turn your hips toward them instead of only shrimping for space?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning the hips toward the opponent is critical because guard recovery requires getting your knees between you and your opponent to insert knee shield or butterfly hooks. Simply creating linear space while remaining flat on your back allows the opponent to easily follow your movement and resettle their position, negating the space you created. By rotating the hips during the escape, you convert linear distance into the angular positioning needed for guard structure insertion. The hip rotation also changes the pressure dynamics - the opponent can no longer drive straight down through their chest onto yours, and must reorient their passing approach entirely."
@@ -100,7 +100,7 @@ description: "How to execute Side Control Escape in BJJ. Systematic frame-based 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins transitioning to knee on belly as you create space - how do you adjust your escape?",
+      "name": "They shift to knee on belly as you create space — how do you adjust your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent transitions to knee on belly, immediately redirect your frames to address the new threat rather than continuing the side control escape against empty space. Push against their knee with both hands while shrimping your hips toward the direction of their posted leg. The knee on belly position is inherently less stable than settled side control, which creates better guard recovery opportunities. If they commit to maintaining knee on belly, the space created allows you to potentially take their back as they focus on balance. The key is recognizing the transition early through the weight shift off your chest and adapting your frames immediately to the new pressure vector."

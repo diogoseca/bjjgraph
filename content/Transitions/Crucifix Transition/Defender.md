@@ -56,7 +56,7 @@ description: "How to defend against Crucifix Transition in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a crucifix entry rather than continuing a standard choke attack?",
+      "name": "What earliest cue tells you they are entering the crucifix rather than continuing the choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling your opponent's control arm shift from maintaining the harness to actively pushing your elbow across your centerline. In a standard choke attack, the control arm stays locked in the harness while the choking arm advances toward your chin. When the control arm begins redirecting your arm instead, this signals the transition to crucifix entry and you must react immediately."
@@ -80,7 +80,7 @@ description: "How to defend against Crucifix Transition in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How should you modify your grip fighting approach to defend both the choke and the crucifix simultaneously?",
+      "name": "How do you grip fight from standing back control to defend the choke and the crucifix at once?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Fight the choking hand using short, compact movements with your elbows staying within six inches of your ribs at all times. Use wrist rotation and two-on-one grip breaks at close range rather than reaching fully behind your head to grab opponent's hands. This compact grip fighting style addresses the choke threat while keeping your elbows close enough to deny the arm extension needed for crucifix entry. Accept that this style is slightly less effective against the choke but dramatically reduces crucifix vulnerability."
@@ -88,7 +88,7 @@ description: "How to defend against Crucifix Transition in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent abandons the crucifix attempt and returns to threatening the choke - how should you adjust your defense?",
+      "name": "They drop the crucifix attempt and return to the choke. How do you adjust your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain heightened elbow awareness even after the crucifix attempt fails. Your opponent has now shown you they hunt for the crucifix, meaning future grip fighting must be even more disciplined. Continue using compact movements near your ribs. Recognize that they may cycle between choke threats and crucifix attempts to catch you in a moment of extended grip fighting. Consider dropping to turtle preemptively if you cannot maintain both choke defense and elbow discipline simultaneously."

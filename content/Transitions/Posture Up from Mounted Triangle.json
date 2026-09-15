@@ -249,7 +249,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent begins tightening their triangle lock while you are in mounted triangle - what is your immediate priority before attempting to posture?",
+        "question": "Caught in a mounted triangle, they tighten the lock: what is your priority before posturing?",
         "answer": "Address the immediate choking threat by tucking your chin aggressively toward your trapped arm shoulder and bending the trapped arm tight to your body. This buys time by reducing the choking angle and protecting against armbar. Only after establishing these defensive foundations should you begin frame placement and posture work, as attempting to posture without chin tuck accelerates the choke and reduces your survival window.",
         "answer_line": "Tuck chin, bend trapped arm in",
         "distractors": {
@@ -277,7 +277,7 @@
         }
       },
       {
-        "question": "You have established a frame and begun posturing, but the opponent pulls your head back down forcefully - how do you respond?",
+        "question": "Mounted triangle: you frame and start posturing, but they pull your head back down. Response?",
         "answer": "Do not fight the head pull directly with neck strength as this wastes energy against their leverage advantage. Instead, reset your chin tuck, maintain frame contact against their hip, and wait for the next opportunity. The opponent must shift weight or adjust grip to execute the pull, and the moment after completion creates a brief window where their control is lighter. Use that moment to re-initiate the posture attempt with a simultaneous hip escape in the opposite direction.",
         "answer_line": "Reset chin tuck, wait, retry",
         "distractors": {
@@ -305,7 +305,7 @@
         }
       },
       {
-        "question": "Your opponent releases the triangle and starts consolidating standard mount as you posture up - how do you capitalize on this transition?",
+        "question": "In a mounted triangle, they release the lock to take mount as you posture. How do you capitalize?",
         "answer": "The moment the opponent releases the triangle lock is your best escape window. Immediately insert your knee as a shield between your bodies before they can settle their mount. The triangle release requires them to move their legs, creating a brief moment where their base is compromised. Drive your hip frame hard to create additional space and begin a full hip escape sequence toward half guard. Speed is critical because every fraction of a second of delay allows them to re-establish mount pressure.",
         "answer_line": "Insert knee shield immediately",
         "distractors": {
@@ -333,7 +333,7 @@
         }
       },
       {
-        "question": "You have successfully disrupted the triangle angle but your trapped arm is still caught between the opponent's legs - what is the extraction technique?",
+        "question": "Mounted triangle: the angle is broken but your arm is still trapped. How do you extract it?",
         "answer": "With the triangle angle disrupted but the arm still trapped, rotate your shoulder on the trapped arm side forward into the opponent's inner thigh to create additional slack. Then slide your elbow past their thigh by retracting it along your own ribcage in a pulling motion. Maintain the hip frame throughout to prevent the opponent from re-closing the distance. If the arm will not come free in one motion, use small pulsing hip escapes to incrementally walk it free rather than one explosive pull that could expose you to a re-locked triangle.",
         "answer_line": "Rotate shoulder, slide elbow free",
         "distractors": {
@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "The posture up is not working because the opponent's triangle lock is too tight - what alternative escape should you pursue?",
+        "question": "Mounted triangle: the lock is too tight for posture-up. Which escape should you pursue instead?",
         "answer": "If the triangle is fully locked with proper angle, posturing becomes extremely low percentage. Transition to alternative escapes: fight the ankle-behind-knee connection to disrupt the lock configuration, attempt bridge-based escapes that attack the opponent's base stability rather than the triangle structure directly, or work a frame-and-shrimp escape that prioritizes lateral movement. The key recognition is that different escape techniques work at different stages of triangle tightness, and posture up is most effective before the lock is fully cinched.",
         "answer_line": "Fight ankle-knee, bridge, shrimp",
         "distractors": {
@@ -466,7 +466,7 @@
     ],
     "flashcards": [
       {
-        "question": "The bottom player has established a strong frame against your hip and is beginning to create posture - what is your immediate response?",
+        "question": "Holding a mounted triangle, they frame on your hip and start posturing. Immediate response?",
         "answer": "First attempt to strip the frame by controlling their wrist and pushing it past your hip. If you cannot strip it within two seconds, transition to attacking the extended arm with an armbar by pivoting your hips toward that arm. Simultaneously use your free hand to maintain head control and prevent further posture development. The frame represents the foundation of their entire escape structure and removing it collapses their escape before it can develop.",
         "answer_line": "Strip frame, then attack armbar",
         "distractors": {
@@ -480,7 +480,7 @@
         }
       },
       {
-        "question": "What is the primary defensive adjustment when the bottom player begins hip escaping laterally during their posture attempt?",
+        "question": "Holding a mounted triangle, they hip escape laterally to posture. What adjustment do you make?",
         "answer": "Follow their hip escape by re-angling your own hips in the same direction to maintain the triangle's choking geometry. Your triangle effectiveness depends on the angle between your squeezing thighs and their neck, so when they move laterally you must rotate to preserve that angle. Simultaneously pull the head down toward the side they are escaping from to prevent them from creating the space needed for arm extraction and guard recovery.",
         "answer_line": "Re-angle hips, pull head down",
         "distractors": {
@@ -494,7 +494,7 @@
         }
       },
       {
-        "question": "You feel your triangle lock beginning to loosen as the bottom player disrupts the ankle-behind-knee connection - should you fight to maintain it or transition?",
+        "question": "Mounted triangle: they disrupt your ankle-knee lock. Fight to keep the triangle or transition?",
         "answer": "Make one quick attempt to re-lock the triangle by adjusting your ankle position and squeezing your knees together. If the re-lock fails within two to three seconds, immediately transition to either armbar if their arm is accessible or consolidate standard mount. Fighting a losing triangle battle wastes energy and creates increasingly dangerous escape windows for the bottom player. A deliberate transition to mount maintains positional dominance rather than losing the position entirely through attrition.",
         "answer_line": "Try re-lock, else transition",
         "distractors": {
@@ -508,7 +508,7 @@
         }
       },
       {
-        "question": "The bottom player is making small incremental frame adjustments rather than explosive escape attempts - how do you prevent their systematic escape?",
+        "question": "Holding a mounted triangle against small, systematic frame adjustments: how do you shut it down?",
         "answer": "Recognize that systematic escapes are more dangerous than explosive ones because they preserve the bottom player's energy while steadily degrading your control. Counter by actively tightening your triangle angle through hip adjustments, increasing squeeze pressure in pulses to force defensive reactions, and threatening submissions such as armbar or tighter choke that demand their immediate attention. The goal is to make them react to your attacks rather than methodically executing their escape plan.",
         "answer_line": "Pulse squeeze, threaten submissions",
         "distractors": {

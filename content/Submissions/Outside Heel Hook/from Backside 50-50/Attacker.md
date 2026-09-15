@@ -82,7 +82,7 @@ description: "Execute the Outside Heel Hook from Backside 50-50 with systematic 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Outside Heel Hook primarily attack and why is this significant for safety?",
+      "name": "Which structures does the outside heel hook attack, and why does that matter for safety?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The outside heel hook primarily attacks the lateral collateral ligament (LCL), the posterolateral corner structures, and can also damage the anterior cruciate ligament (ACL) and meniscus through rotational shearing forces. This is critically significant for safety because these knee ligaments provide minimal proprioceptive feedback before structural failure—unlike chokes where you feel pressure building, heel hooks can cause serious ligament tears before the defender feels significant pain. This is why controlled application and early tapping are non-negotiable."
@@ -90,7 +90,7 @@ description: "Execute the Outside Heel Hook from Backside 50-50 with systematic 
     },
     {
       "@type": "Question",
-      "name": "What are the reliable indicators that the submission is approaching the breaking point for the defender's knee?",
+      "name": "Which cues signal the outside heel hook is nearing the breaking point for their knee?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Reliable breaking point indicators include feeling the heel rotation suddenly become easier as ligamentous resistance decreases, hearing or feeling a subtle pop or shift in the knee joint, and the defender's body suddenly stiffening or jerking. However, the critical safety point is that these indicators may appear simultaneously with or after structural damage has already occurred. This is why the attacker must apply rotation progressively and the defender must tap at the first sensation of rotational pressure on their knee, not wait for pain."
@@ -122,7 +122,7 @@ description: "Execute the Outside Heel Hook from Backside 50-50 with systematic 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip if the opponent begins pulling their heel away during the finishing sequence?",
+      "name": "Your opponent pulls their heel from your grip mid-finish; how do you adjust your grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent starts pulling their heel from your grip during the finish, first tighten your figure-four or Gable grip reinforcement rather than chasing with your primary hand. Then increase your leg squeeze to re-pin their leg in the entanglement. If their heel extraction continues, immediately redirect to an alternative attack: transition your grip above the knee for a kneebar threat, or use their straightening leg to attack a toe hold. Chasing a slipping heel grip with increasing force risks losing position entirely."

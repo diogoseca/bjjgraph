@@ -56,7 +56,7 @@ description: "Master the Reguard to Butterfly Guard defense from the top perspec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is attempting to reguard to butterfly guard?",
+      "name": "What are the earliest cues that they are reguarding to butterfly guard from hook control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for sudden framing on your shoulders or biceps combined with increased hook pumping activity. You will feel the opponent begin driving their hooks upward with more urgency while simultaneously creating structural frames to generate separation. The combination of increased hook activity and upper body framing signals the reguard attempt, and your window to prevent it is before the hip escape completes—typically a one-to-two second window from first recognition."

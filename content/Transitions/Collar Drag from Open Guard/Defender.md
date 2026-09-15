@@ -56,7 +56,7 @@ description: "Defend and counter the collar drag from open guard. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive priority when you feel a deep collar grip being established from open guard bottom?",
+      "name": "Defending open guard bottom, what's your first priority when they get a deep collar grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the grip immediately before it becomes the foundation for a collar drag. Use a two-on-one grip break where both hands address the gripping wrist, peeling fingers from the collar while pushing their hand toward their centerline. The collar drag cannot function without a secure grip, so grip prevention is the most energy-efficient defense. Do not ignore the grip and continue passing, as this leaves a loaded threat ready to fire at the worst possible moment."
@@ -72,7 +72,7 @@ description: "Defend and counter the collar drag from open guard. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your posture has been broken by a collar drag and the opponent is circling toward front headlock - what immediate recovery do you execute?",
+      "name": "A collar drag broke your posture and they circle to front headlock: your immediate recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive upward explosively with your legs while tucking your chin to protect against guillotine attempts. Simultaneously, fight the head control with your hands by pushing against the opponent's controlling elbow or wrist. Circle your body toward the opponent rather than away, which creates the angle needed to recover posture and prevents them from establishing chest-to-back connection. If you cannot recover posture, immediately pull guard or shoot for a single leg to prevent the front headlock from being consolidated."

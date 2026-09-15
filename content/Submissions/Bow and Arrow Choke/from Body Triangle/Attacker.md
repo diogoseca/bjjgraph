@@ -84,7 +84,7 @@ description: "Step-by-step guide to finishing the bow and arrow choke from body 
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin deeply and shrugs their shoulders during your collar grip attempt - what adjustment prevents them from blocking the grip?",
+      "name": "From body triangle, they tuck chin and shrug against your collar grip — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Work the collar grip behind the chin rather than trying to force it over the chin. Use your free hand to frame against their forehead or temple to create separation between their chin and chest. Pulse the body triangle pressure to force them to prioritize breathing, which often causes them to momentarily lift their chin. Time the collar feed during that breathing window when their defensive posture relaxes."
@@ -108,7 +108,7 @@ description: "Step-by-step guide to finishing the bow and arrow choke from body 
     },
     {
       "@type": "Question",
-      "name": "What makes the body triangle variant of the bow and arrow more secure than the standard version with hooks?",
+      "name": "Why is the bow and arrow more secure from body triangle than from standard hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The body triangle eliminates the opponent's primary escape mechanism—hip rotation and turning into the attacker. With standard hooks, the defender can systematically clear hooks and turn to face the attacker during the choke setup, breaking the choking angle. The body triangle's figure-four lock prevents this rotation entirely, allowing the attacker to commit both hands fully to the choke without positional risk. Additionally, the breathing restriction from the triangle creates a compounding pressure that accelerates the finish."

@@ -64,7 +64,7 @@ description: "How to defend against Ringworm Guard to Worm Guard in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Why is it strategically important to prevent the transition from completing rather than dealing with Worm Guard afterward?",
+      "name": "Why prevent the Ringworm to Worm Guard transition instead of defending Worm Guard afterward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Worm Guard provides significantly deeper mechanical control than Ringworm Guard, with more powerful sweeps, better submission entries, and tighter restrictions on the top player's movement. Preventing the transition keeps the bottom player in the less threatening Ringworm position. The energy cost of defending against established Worm Guard is substantially higher than interrupting the transition."
@@ -72,7 +72,7 @@ description: "How to defend against Ringworm Guard to Worm Guard in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts hip escaping and you feel the lapel tension decrease - what is your immediate sequence of actions?",
+      "name": "They hip escape and the lapel tension drops: what is your immediate sequence of actions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your hips forward and down to eliminate the space created by their hip escape. Simultaneously use your nearest hand to grip the lapel material where it is loosening around your leg and begin peeling it away. If you can control their lapel-gripping hand with your other hand, do so to prevent them from completing the rethread. Priority is denying space first, then attacking the grip."
@@ -88,7 +88,7 @@ description: "How to defend against Ringworm Guard to Worm Guard in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "What visual and tactile cues distinguish an actual transition attempt from normal Ringworm Guard adjustments?",
+      "name": "What cues distinguish a real Worm Guard transition attempt from routine Ringworm adjustments?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "An actual transition attempt is characterized by a deliberate hip escape creating a new angle, simultaneous strengthening of the secondary grip on your sleeve or collar, and the lapel hand sliding along the material rather than simply adjusting tension. Normal adjustments maintain consistent tension direction. The transition involves a clear directional change in how the lapel is being fed - from around the outside of your leg to under and through it."

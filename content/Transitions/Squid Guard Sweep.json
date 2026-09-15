@@ -267,7 +267,7 @@
         }
       },
       {
-        "question": "Your opponent widens their base and lowers their hips when they feel your sweep setup — how do you adjust your attack?",
+        "question": "They widen their base and lower their hips against your squid guard sweep—how do you adjust?",
         "answer": "Switch your attack target from the sweep to a back take via inversion or berimbolo entry. Their wide base and lowered hips — while effective against the lateral sweep — creates exactly the exposure needed for you to invert underneath them and access their back. The defensive posture that defeats the sweep opens the back take, and the defensive posture that protects the back opens the sweep. This dilemma is the foundation of the Squid Guard system.",
         "answer_line": "Invert to attack the back",
         "distractors": {
@@ -295,7 +295,7 @@
         }
       },
       {
-        "question": "Your opponent strips your sleeve grip and begins posting their free hand to resist the sweep — what immediate adjustment do you make?",
+        "question": "They strip your sleeve grip and post the free hand against the squid sweep—what do you do?",
         "answer": "Target the posting arm with your now-free hand by controlling the wrist or elbow to remove the post. If you can strip their post even momentarily, the already-loaded sweep completes immediately since their base collapses without the post. If stripping the post fails, redirect your attack to the posting arm itself — the extended arm is vulnerable to armbar, omoplata, or triangle entries that force them to retract it, reopening the sweep opportunity.",
         "answer_line": "Attack the posting arm",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "The sweep fails and your opponent begins stepping around your guard to pass — what chain attack should you pursue?",
+        "question": "The squid sweep fails and they step around to pass—what chain attack do you pursue?",
         "answer": "If they step around toward your head side, follow with an inversion to recover hook placement or transition to Reverse De La Riva to maintain guard retention from the new angle. If they step toward your legs, use the still-active lapel tension to pull them back into sweep range or transition to Lasso Guard by redirecting the lapel wrap to their arm. The key principle is maintaining at least one control point during the failed sweep to prevent a clean pass — any remaining grip or hook gives you a foundation to rebuild your guard or launch a counter-attack.",
         "answer_line": "Keep a control point, chain up",
         "distractors": {
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "How do you distinguish between attempting the sweep and setting up a back take from the same Squid Guard configuration?",
+        "question": "From the same squid guard setup, what tells you to sweep versus take the back?",
         "answer": "The initial setup is identical — same grips, same hook, same angle. The decision point comes from reading the opponent's defensive choice. If they keep a narrow base with weight centered, sweep laterally since they lack the wide base to resist. If they widen their base and drop their hips, invert for the back take since the wide stance creates space underneath them. This shared setup is what makes the dilemma effective — the opponent cannot determine your intended attack until you commit, and their defensive choice against one attack opens the other.",
         "answer_line": "Read narrow vs wide base",
         "distractors": {
@@ -493,7 +493,7 @@
         }
       },
       {
-        "question": "Your opponent begins loading your weight forward with lapel tension — what immediate base adjustment prevents the sweep?",
+        "question": "They load your weight forward with lapel tension—what base change stops the squid sweep?",
         "answer": "Shift your hips backward and drop your center of gravity by bending your knees while maintaining upright spinal posture. This counters the forward pull by moving your center of gravity behind your base rather than in front of it. Simultaneously, widen your base laterally on the side opposite the sweep direction to create a broader platform that resists the rotational force. Avoid leaning forward to compensate for the pull, as this accelerates the weight-loading that powers the sweep.",
         "answer_line": "Hips back, drop and widen base",
         "distractors": {
@@ -507,7 +507,7 @@
         }
       },
       {
-        "question": "How do you differentiate between a Squid Guard Sweep setup and a back take setup when the initial configuration looks identical?",
+        "question": "From squid guard, how do you tell a sweep setup from a back take setup?",
         "answer": "Watch the bottom player's hip angle and non-threading leg position. For the sweep, they hip escape to create a lateral angle with the non-threading leg driving across your body. For the back take, they begin inverting underneath you with the non-threading leg swinging behind your hip line. The critical moment of differentiation is the hip movement direction — lateral for sweep, rotational underneath for inversion. Your defensive response must match: widen base for sweep defense, sprawl and pressure for inversion defense.",
         "answer_line": "Hip escape lateral vs rotational",
         "distractors": {
@@ -535,7 +535,7 @@
         }
       },
       {
-        "question": "The sweep has already begun and you are mid-rotation — what recovery action minimizes positional loss?",
+        "question": "The squid sweep has started and you are mid-rotation—what recovery limits positional loss?",
         "answer": "Post your free hand wide on the mat in the direction you are being swept and drive your weight over the posting arm while simultaneously pulling your near knee toward your chest to insert a knee shield. If you cannot stop the rotation entirely, the goal shifts to damage control — recover to half guard rather than conceding full mount. This requires accepting the partial positional loss while preventing the worst outcome. Frame immediately upon landing to prevent the sweeper from consolidating mount.",
         "answer_line": "Post hand wide, insert knee shield",
         "distractors": {

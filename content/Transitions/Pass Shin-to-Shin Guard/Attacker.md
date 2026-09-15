@@ -114,7 +114,7 @@ description: "Complete attacking guide to passing Shin-to-Shin Guard. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains strong sleeve and collar grips despite your grip fighting—how do you modify your approach?",
+      "name": "They keep strong sleeve and collar grips in shin-to-shin: how do you modify your passing approach?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent maintains strong upper body grips, avoid forward-pressure passing entirely as it feeds into their sweep mechanics through the grip structure. Instead, use movement-based clearing through circling and backsteps that do not require driving into their grip control. Break grips methodically during movement rather than statically, and consider resetting to standing range if the grip battle is consistently lost to restart the exchange."

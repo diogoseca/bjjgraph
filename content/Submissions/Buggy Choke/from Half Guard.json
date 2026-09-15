@@ -341,7 +341,7 @@
         }
       },
       {
-        "question": "What should you do if your opponent successfully defends the Buggy Choke by freeing their trapped arm?",
+        "question": "Your buggy choke fails because they free the trapped arm — what do you do next?",
         "answer": "Maintain your positional control and immediately transition to alternative attacks rather than losing the position entirely. Common transitions include the electric chair sweep/submission, old school sweep, deep half guard, or taking the back if they overcommit to escaping. The key is to stay offensive and use their defensive movement to set up the next attack.",
         "safety_critical": false,
         "answer_line": "Chain into sweep or back take",
@@ -386,7 +386,7 @@
         }
       },
       {
-        "question": "Why is the Buggy Choke particularly effective from bottom half guard compared to other submission options?",
+        "question": "Why is the buggy choke so effective from bottom half guard?",
         "answer": "The Buggy Choke is effective from bottom half guard because it uses the opponent's forward pressure against them—when they try to flatten you or consolidate position, they unknowingly move into the optimal angle for the choke. It allows a smaller, defensive player to finish a larger opponent using mechanics rather than strength. Additionally, the setup is deceptive; opponents often don't recognize the threat until it's deeply locked, unlike more obvious submissions like armbars where the threat is apparent earlier.",
         "safety_critical": false,
         "answer_line": "Uses their own forward pressure",
@@ -401,7 +401,7 @@
         }
       },
       {
-        "question": "Your opponent starts to posture up during your Buggy Choke attempt - what adjustment prevents escape?",
+        "question": "They start posturing up during your buggy choke — what adjustment stops the escape?",
         "answer": "When opponent begins posturing, immediately extend your legs to break their posture down while turning harder into them to maintain your angle. Use your half guard hook to prevent them from standing or backing away. If they create significant space, you may need to follow them up, transitioning the choke attempt into a sweep or back take rather than abandoning the position entirely. The key is using your legs as anchors while your upper body maintains the choking configuration.",
         "safety_critical": false,
         "answer_line": "Extend legs, turn in harder",
@@ -416,7 +416,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make during the finish if opponent begins defending with their free hand?",
+        "question": "Their free hand fights your buggy choke grip — what adjustment do you make?",
         "answer": "If opponent's free hand begins fighting your grip, tighten your choking arm's connection to your body or leg anchor, making it harder to pry loose. You can also use your own free hand to control their defending wrist, pinning it to your body or trapping it between you. The critical adjustment is ensuring your primary choking mechanism—the shoulder and arm pressure—remains intact even if you need to sacrifice some grip configuration. Never release your core choking structure to hand fight.",
         "safety_critical": false,
         "answer_line": "Tighten core grip, pin wrist",
@@ -431,7 +431,7 @@
         }
       },
       {
-        "question": "What indicators tell you the choke is properly positioned on the carotid arteries versus the windpipe?",
+        "question": "In the buggy choke, what tells you the pressure is on the carotids and not the windpipe?",
         "answer": "Proper carotid compression causes the opponent's face to flush red, their eyes may bulge slightly, and they typically tap quickly (within seconds) as blood flow is restricted. Windpipe compression causes choking, coughing, and panic but opponents can often endure it longer while suffering. You should feel your shoulder bone pressing into the soft tissue on the side of their neck, not the front cartilage of the throat. The angle of your body should be perpendicular enough that pressure naturally goes to the side.",
         "safety_critical": true,
         "answer_line": "Face flushes, fast tap",
@@ -491,7 +491,7 @@
         }
       },
       {
-        "question": "Your opponent begins to stiffen and their movement slows noticeably during the finish - what does this indicate?",
+        "question": "They stiffen and slow down as you finish the buggy choke — what does that mean?",
         "answer": "Decreased activity and stiffening are indicators of approaching loss of consciousness from carotid compression. This is a critical safety moment requiring heightened awareness of tap signals. The opponent may be unable to tap. If you notice these signs without a tap, consider releasing slightly to check responsiveness before continuing.",
         "safety_critical": true,
         "answer_line": "Signals approaching unconsciousness",
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "Your opponent starts to straighten and extract the trapped crossface arm during the finish - what adjustment do you make?",
+        "question": "They straighten and start extracting the crossface arm from your buggy choke — what now?",
         "answer": "Re-pin the wrist immediately before they can posture, because the trapped arm is one wall of the choke. If the arm is already gone, transition to lockdown to break their posture and threaten the Electric Chair, keeping constant offensive pressure rather than holding a choke that has lost its second wall.",
         "safety_critical": false,
         "answer_line": "Re-pin the wrist immediately",
@@ -805,7 +805,7 @@
         }
       },
       {
-        "question": "How do you recognize that the bottom player is transitioning from control to an active Buggy Choke finish?",
+        "question": "How do you recognize half guard bottom shifting from control into a buggy choke finish?",
         "answer": "The transition is signaled by the bottom player chambering their knee up toward their own head, your crossface arm suddenly feeling pinned and unable to straighten, their hand reaching toward their own shin to close a loop around your head, and compression building on the sides of your neck. These combined changes mean they are sealing the choke rather than just holding half guard.",
         "safety_critical": false,
         "answer_line": "Knee chambers, hand nears shin",

@@ -64,7 +64,7 @@ description: "Complete guide to defending the Backstep from Single Leg X-Guard. 
     },
     {
       "@type": "Question",
-      "name": "Why is chasing with the hip hook more effective than holding a static hook position against the backstep?",
+      "name": "Defending the SLX backstep, why is chasing with the hip hook better than holding it static?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The backstep works by rotating past the plane of your hooks' mechanical advantage. A static hook loses contact as the top player's hip rotates beyond its engagement angle. A chasing hip hook follows the rotation and re-engages on the far side of their hip, maintaining the SLX configuration despite the rotational attempt. The dynamic hook tracks movement rather than relying on a fixed angle that the rotation is specifically designed to defeat."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the Backstep from Single Leg X-Guard. 
     },
     {
       "@type": "Question",
-      "name": "Your hip hook has been stripped and the top player begins rotating - what is your best remaining defensive option?",
+      "name": "Your SLX hip hook is stripped and they start rotating: what is your best remaining defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the hip hook stripped, your best remaining defense is to maximize inside hook tension on their ankle while simultaneously threading your free leg toward an ashi garami entry on their rotating leg. The inside hook alone can slow the rotation enough to create time, and their commitment to rotating actually exposes their leg to entanglement. If the ashi entry is not available, use the inside hook tension to pull yourself toward them and insert a knee to recover half guard before they can consolidate side control."

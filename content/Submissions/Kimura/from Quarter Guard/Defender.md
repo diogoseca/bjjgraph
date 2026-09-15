@@ -82,7 +82,7 @@ description: "Defend against the Kimura from Quarter Guard. Learn recognition cu
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available once the figure-four is fully locked but rotation has not started?",
+      "name": "Under quarter guard top, what defenses remain once the figure-four locks but rotation hasn't begun?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the figure-four locked pre-rotation, your best options are: bridge toward the trapped arm side to disrupt the attacker's base and potentially roll through; grab your own wrist with your free hand to fight straightening the arm; turn your body aggressively into the attacker to reduce the available rotational angle; or use your legs to hook the attacker's leg and create leverage for a bridge escape. These options diminish rapidly once rotation begins."

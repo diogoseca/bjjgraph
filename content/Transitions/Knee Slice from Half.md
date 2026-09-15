@@ -348,6 +348,16 @@ The Knee Slice from Half Guard serves as a central technique in virtually all mo
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Lucas-Lepri-Half-Guard-Passing-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri Half Guard Passing System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">One available passing route</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lucas-Lepri-Knee-Cut-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri Knee Cut System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Core cutting movement</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Vagner-Rocha-Float-Passing-System" data-cta="related-system-card" data-system-slug="systems/vagner-rocha-float-passing-system" data-system-name="Vagner Rocha Float Passing System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Vagner Rocha Float Passing System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Passing branch to compare</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

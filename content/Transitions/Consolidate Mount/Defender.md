@@ -64,7 +64,7 @@ description: "How to defend against Consolidate Mount in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has settled mount and is beginning to insert grapevine hooks. What is your defensive priority?",
+      "name": "Your opponent is starting to insert grapevine hooks from mount — what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the grapevines from being fully established. Straighten your legs and use heel pressure to push the attacker's feet outward before they can hook inside your thighs. If one grapevine is already in, focus on preventing the second while simultaneously framing on the hips and attempting a hip escape to the side of the free leg."
@@ -72,7 +72,7 @@ description: "How to defend against Consolidate Mount in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How do you recognize when the attacker is transitioning from low mount consolidation to walking their knees toward high mount?",
+      "name": "How do you recognize the mounted opponent moving from low mount toward high mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key recognition cues are: the attacker releases grapevines and begins shifting weight forward, you feel knee pressure advancing along your ribs toward your armpits, and the attacker's frames shift from controlling your arms at hip level to controlling your arms at shoulder level. This transition creates a brief window where the attacker's base is compromised as they move one knee at a time."
@@ -88,7 +88,7 @@ description: "How to defend against Consolidate Mount in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has eliminated your frames and is walking knees toward high mount. What is your last viable defensive option?",
+      "name": "Your frames are gone and they're walking knees to high mount — what is your last option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is to time an explosive hip escape to the moment the attacker lifts one knee to advance. As they shift weight to walk that knee up, their base becomes asymmetric for a split second. Use that instant to shrimp hard toward the side of the advancing knee, creating enough space to insert your elbow and then knee between bodies for half guard recovery."

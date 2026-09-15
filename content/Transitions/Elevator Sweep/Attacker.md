@@ -80,7 +80,7 @@ description: "How to execute the Elevator Sweep from butterfly guard in BJJ. Att
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it essential to maintain an upright seated posture rather than lying back during the elevator sweep setup?",
+      "name": "Why stay upright instead of lying back when setting up the elevator sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "An upright posture is critical because it allows you to generate upward lifting force with your hooks and core muscles. When lying back, you lose the mechanical advantage of your legs and core working together, making it nearly impossible to lift opponent's weight effectively. The upright position also keeps your weight mobile and makes it easier to create angles, adjust grips, and transition if needed. Additionally, sitting up prevents opponent from easily stacking or flattening you, which would completely shut down the sweep."
@@ -88,7 +88,7 @@ description: "How to execute the Elevator Sweep from butterfly guard in BJJ. Att
     },
     {
       "@type": "Question",
-      "name": "What is the purpose of creating a 15-20 degree angle before executing the elevator sweep, and which direction should this angle face?",
+      "name": "Why create a 15-20 degree angle before the elevator sweep, and which way should it face?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The angle is created toward the overhook side and serves to attack the corner of opponent's base rather than their strongest frontal base. When you sweep straight back, opponent can defend equally in all directions. By creating the angle, you're attacking where they have the least stability - the corner created by the overhook control. This angle also aligns your lifting force with the direction of the sweep, making the technique more efficient. The angle essentially loads more of their weight onto the side you're sweeping to, making it harder for them to post or recover."
@@ -96,7 +96,7 @@ description: "How to execute the Elevator Sweep from butterfly guard in BJJ. Att
     },
     {
       "@type": "Question",
-      "name": "How should you coordinate the hook lift and upper body pull during the sweep execution, and why is this coordination important?",
+      "name": "How should the hook lift and arm pull be timed in the elevator sweep, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hook lift and arm pull must fire simultaneously as one unified explosive movement, overwhelming the opponent's ability to defend both at once. Legs push up and extend while the arms pull down and rotate in the sweep direction. This coordination is essential because each component alone is insufficient: if you only pull with the arms, the opponent can base with their legs, and if you only lift with the hooks, they can post with their arms or counterbalance with their upper body. The simultaneous action creates an irresistible force that completes the sweep."
@@ -112,7 +112,7 @@ description: "How to execute the Elevator Sweep from butterfly guard in BJJ. Att
     },
     {
       "@type": "Question",
-      "name": "What are the critical grip requirements for the elevator sweep, and how do they differ between gi and no-gi?",
+      "name": "Which grips does the elevator sweep require, and how do they differ in gi and no-gi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In gi, use a deep overhook gripping the lat or back of the gi; in no-gi, replace it with a seatbelt grip, hands clasped over the shoulder and under the armpit. In gi, the opposite hand controls their collar, sleeve, or establishes an underhook. Both configurations serve the same purpose: controlling the opponent's upper body rotation and preventing them from creating distance or posting. The grip must be tight enough that pulling with the arms creates immediate rotational force on the opponent's torso."
@@ -120,7 +120,7 @@ description: "How to execute the Elevator Sweep from butterfly guard in BJJ. Att
     },
     {
       "@type": "Question",
-      "name": "Why is head position against opponent's chest critical for elevator sweep success, and what specifically does it prevent?",
+      "name": "Why is head position on their chest critical for the elevator sweep, and what does it prevent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pressing your head tight to the opponent's chest on the overhook side stops them posting the overhooked arm, the most common defense to this sweep. When your head creates pressure and connection, the opponent cannot extend or post that arm to create base, nor create any space to generate counterforce or adjust their posture. Keeping your head tight also makes it harder for them to apply a crossface or create angles for passing your guard. The ear-to-sternum connection makes your grips and hooks effective by eliminating space."

@@ -74,7 +74,7 @@ description: "Learn to execute the counter sweep from leg entanglement. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary timing trigger that signals the counter sweep is available from leg entanglement bottom?",
+      "name": "What timing trigger signals the counter sweep is available from leg entanglement bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is when the opponent releases their upper body control of your torso to secure finishing grips on your foot or ankle. This transition from positional control to submission finishing creates a base vulnerability because the opponent must redirect their grip structure from controlling your center of mass to manipulating your extremity. During this grip transition, their weight typically shifts backward or laterally, and their ability to prevent your forward hip drive is momentarily compromised."
@@ -90,7 +90,7 @@ description: "Learn to execute the counter sweep from leg entanglement. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a tight ashi garami with crossed ankles behind your knee—should you attempt the counter sweep immediately?",
+      "name": "Their ashi garami has ankles crossed behind your knee — attempt the counter sweep now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No, you should not attempt the counter sweep with crossed ankles behind your knee. The ankle cross creates a locked entanglement structure that prevents the hip displacement necessary for the sweep, and attempting to force through it may expose your knee to dangerous torque. First break the ankle cross by prying at the locking ankle with your free hand or using hip rotation to create enough slack to separate their feet. Only after loosening the entanglement should you look for the sweep timing window."
@@ -98,7 +98,7 @@ description: "Learn to execute the counter sweep from leg entanglement. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What is the critical post-sweep action that most practitioners neglect after successfully coming to top position?",
+      "name": "What critical action do most practitioners neglect right after landing the counter sweep on top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most commonly neglected action is immediately clearing the leg entanglement after achieving top position. Many practitioners relax momentarily once they feel themselves on top, but the opponent's legs are still configured in an attacking structure. If the entanglement is not immediately addressed, the opponent can re-enter their leg lock attack from bottom position, often from a better angle since your legs are still threaded through their control structure. The sweep and leg extraction must be treated as one continuous movement."
@@ -106,7 +106,7 @@ description: "Learn to execute the counter sweep from leg entanglement. Step-by-
     },
     {
       "@type": "Question",
-      "name": "How does the direction of your sweep relate to the opponent's weight commitment during their leg attack?",
+      "name": "How should your counter sweep direction relate to their weight commitment during their leg attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sweep should be directed perpendicular to or along the same vector as the opponent's weight commitment. If they lean back for a heel hook, sweep forward into the space they vacated in front of their body. If they shift laterally for a kneebar, sweep them further in that lateral direction. Sweeping against their weight commitment means driving into their strongest base, which drastically reduces success probability. Reading and matching the opponent's weight distribution vector is the fundamental skill that determines whether the sweep generates enough off-balance to succeed."
@@ -114,7 +114,7 @@ description: "Learn to execute the counter sweep from leg entanglement. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What distinguishes the sit-up counter sweep variant from the rolling counter sweep variant in terms of when each is appropriate?",
+      "name": "What determines whether you use the sit-up or the rolling counter sweep from leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sit-up counter sweep is appropriate when the opponent leans back significantly to finish a heel hook, creating a large gap in their forward base that can be exploited by driving your hips forward and sitting up over them. The rolling counter sweep is appropriate when the opponent has a shallow entanglement without full knee line control, allowing rotational movement through the position. The key differentiator is the depth of the entanglement—deep, tight entanglements favor the sit-up because rotation is restricted, while shallow entanglements allow the rolling motion that uses momentum to break grip structure."

@@ -267,7 +267,7 @@
     ],
     "flashcards": [
       {
-        "question": "When should you deploy the aggressive escape to open guard rather than continuing the incremental frame-and-shrimp approach?",
+        "question": "When should you use the aggressive open guard escape instead of frame-and-shrimp?",
         "answer": "Deploy the aggressive escape when the incremental approach has created some angular separation and loosened the grip but stalled after two to three attempts, and the opponent is beginning to re-settle their weight. The prior work has compromised the grip enough for the explosive movement to succeed, but further incremental attempts face diminishing returns. Also deploy when you feel the opponent's weight shift or elevate momentarily, creating a window for the larger movement. Never deploy as the first escape attempt against a fully locked grip.",
         "answer_line": "After 2-3 stalled frames loosen grip",
         "distractors": {
@@ -281,7 +281,7 @@
         }
       },
       {
-        "question": "What is the critical difference in rolling direction between the granby roll escape and the anaconda finishing rotation?",
+        "question": "How does the granby escape's rolling direction differ from the anaconda finishing rotation?",
         "answer": "The anaconda finish involves the top player rolling you toward your trapped arm side, which tightens the circular compression. The granby escape rolls you away from the trapped arm side, which opens the compression angle and disrupts the grip mechanics. Rolling in the wrong direction feeds your neck into the choke and can cause immediate submission. The correct direction always moves your body so that your neck separates from the choking arm rather than compressing further into it.",
         "answer_line": "Granby rolls away from trapped arm",
         "distractors": {
@@ -295,7 +295,7 @@
         }
       },
       {
-        "question": "Your granby roll is partially stuffed and you end up on your side with the grip still partially engaged - what is your immediate response?",
+        "question": "Your granby is stuffed and you land on your side with the grip partly on: what next?",
         "answer": "Do not attempt a second granby roll from this compromised position. Instead, immediately switch to the multi-shrimp chain taking advantage of the new angle the partial roll created. The partial roll has changed the compression angle even if it did not break the grip, and this new angle often provides better hip escape mechanics than the original flat position. Use whatever angular gain the partial roll achieved to fuel the shrimp chain, and focus on establishing leg frames from the side-lying position.",
         "answer_line": "Shrimp-chain off the new angle",
         "distractors": {
@@ -323,7 +323,7 @@
         }
       },
       {
-        "question": "How does the opponent's weight distribution determine which aggressive escape variant you should use?",
+        "question": "How does their weight distribution decide which aggressive dead orchard escape you use?",
         "answer": "Elevated hips favor the granby roll because the space under your shoulders allows loading weight for the inversion and the opponent's high center of gravity makes it harder for them to stuff the roll. Settled heavy weight favors the multi-shrimp chain because there is insufficient space for the granby loading phase, but the shrimp chain can generate distance even under heavy pressure through cumulative small movements. If the opponent's weight is transitioning between states, that transition moment is the optimal window for either variant.",
         "answer_line": "High hips granby, heavy shrimp chain",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent releases the dead orchard grip during your escape and starts driving toward side control - how do you adjust your objective?",
+        "question": "They release the dead orchard grip and drive to side control: how does your objective change?",
         "answer": "Immediately pivot from escape-focused movement to guard retention. The dead orchard grip releasing is actually a partial success, so your priority shifts from breaking a choke to preventing a pass. Get your legs between bodies before the opponent establishes crossface and hip control. Even getting to half guard represents a significant positional improvement from dead orchard. Do not continue the rolling or shrimping movement beyond what is needed to establish guard frames, as excessive movement without the opponent's grip provides nothing and may create passing angles.",
         "answer_line": "Shift instantly to guard retention",
         "distractors": {
@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "What specific upper body grip should you prioritize after establishing leg frames in open guard recovery?",
+        "question": "After getting leg frames in open guard recovery, which upper body grip do you prioritize?",
         "answer": "Prioritize controlling the arm that was performing the anaconda choke. In gi, grip their sleeve at the wrist of the choking arm. In no-gi, control the wrist or bicep of that arm. This grip serves dual purpose: it prevents the opponent from re-establishing any front headlock or anaconda configuration, and it creates an asymmetric control that you can use for sweeps and guard attacks. Controlling the formerly choking arm is psychologically effective as well, removing their primary offensive tool and forcing them to develop a new attacking strategy from open guard top.",
         "answer_line": "Control the choking arm's wrist",
         "distractors": {
@@ -507,7 +507,7 @@
         }
       },
       {
-        "question": "When should you strategically release the dead orchard grip and transition to side control instead of fighting to maintain it?",
+        "question": "When should you release the dead orchard grip and take side control instead?",
         "answer": "Release when you feel your grip depth has moved past the point of submission viability, specifically when your hand position has slipped back toward the near shoulder rather than past the far shoulder. Also release when the bottom player has created significant hip angle that you cannot close within two to three hip adjustments. The decision calculus is simple: side control top is a dominant position worth 3 points, while fighting for a compromised dead orchard risks the bottom player escaping entirely to open guard where you have zero advantage.",
         "answer_line": "Grip slips back toward near shoulder",
         "distractors": {
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "How do you prevent the multi-shrimp chain from building cumulative distance against your dead orchard control?",
+        "question": "How do you stop the multi-shrimp chain from building distance against dead orchard?",
         "answer": "Match each shrimp with your own hip adjustment in the same direction, maintaining the compression angle throughout the chain. The key is anticipating the chain rather than reacting to individual shrimps. When you feel the first rapid shrimp, immediately begin walking your hips in the same direction with equivalent urgency. Your hip adjustments should be slightly ahead of their shrimps rather than trailing behind. If you fall behind the chain by even one shrimp, the cumulative distance becomes difficult to recover.",
         "answer_line": "Match each shrimp, walk hips ahead",
         "distractors": {
@@ -535,7 +535,7 @@
         }
       },
       {
-        "question": "Your opponent attempts a granby roll and you successfully stuff it - what should your immediate follow-up be?",
+        "question": "You stuff their granby roll from dead orchard: what is your immediate follow-up?",
         "answer": "Immediately increase the dead orchard pressure by driving your shoulder harder into their trapped shoulder and walking your choking arm grip deeper. The failed granby attempt has expended significant energy and likely left the bottom player slightly disoriented from the attempted inversion. This is the optimal moment to attempt the anaconda finish, as their defensive resources are temporarily depleted. Do not simply maintain the current pressure level - actively advance toward the submission during this recovery window.",
         "answer_line": "Drive pressure, push anaconda finish",
         "distractors": {
@@ -549,7 +549,7 @@
         }
       },
       {
-        "question": "How does the aggressive escape create different counter-opportunities compared to the standard frame-and-shrimp escape?",
+        "question": "How do their aggressive escapes create different counters than frame-and-shrimp escapes?",
         "answer": "The aggressive escape extends the bottom player's body and commits them to large movements that create vulnerability windows not present in the incremental escape. During a committed granby roll, the bottom player temporarily abandons their defensive frame to generate rotation, and a successful stuff leaves them in a worse position than before. During the multi-shrimp chain, their energy expenditure is dramatically higher, creating fatigue opportunities. The trade-off is that these openings are brief and require quick recognition, whereas the incremental escape provides fewer openings but also fewer counter-attack opportunities.",
         "answer_line": "Bigger commitment, bigger openings",
         "distractors": {

@@ -24,6 +24,8 @@ test("restart mid-defense: no ghost tap, no ladder drop, defense state fully dis
   await j.rig("opp-finish", [0.01])
   await j.rig("opp-sub-pick", [0.01])
   await j.pick(options[0])
+  await j.advance(3000)
+  await j.pick(options[0]) // attempt the finish from the established submission
   await j.advanceUntil("caught", 20000)
   await expect(page.locator("[data-panic]")).toBeVisible()
 
@@ -62,10 +64,14 @@ test("restart mid-sweep: the cancelled needle does not haunt the canvas", async 
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
-  const options = await j.optionTitles()
+  const target = await page.evaluate(() => {
+    const a = (window as any).__neural
+    return a._optList.find((o: any) => o.node.ty === "transitions")?.node.t
+  })
+  expect(target, "a resolving transition to interrupt").toBeTruthy()
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.pick(options[0])
+  await j.pick(target)
   await j.advanceUntil("sweep_start", 20000)
   await j.advance(300) // mid-hold, before the 1.08s landing fires
 
@@ -89,6 +95,8 @@ test("odds refresh routes back to normal math after a defense is abandoned", asy
   await j.rig("opp-finish", [0.01])
   await j.rig("opp-sub-pick", [0.01])
   await j.pick(options[0])
+  await j.advance(3000)
+  await j.pick(options[0]) // attempt the finish from the established submission
   await j.advanceUntil("caught", 20000)
 
   await page.evaluate(() => (window as any).__neural.resetRoll())

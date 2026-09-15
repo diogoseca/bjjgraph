@@ -90,7 +90,7 @@ description: "How to execute Arm Triangle Setup in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their near-side elbow tight against their body—how do you create the opening for the arm triangle?",
+      "name": "From north-south, they tuck the near elbow tight; how do you open the arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your knee or hip to bump their elbow outward, creating separation between the arm and their torso. Alternatively, threaten a kimura attack on the same arm, which forces them to straighten or extend it defensively. Once the arm moves away from their body, immediately secure the underhook and drive it across their centerline before they can retract it."
@@ -98,7 +98,7 @@ description: "How to execute Arm Triangle Setup in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "What is the most critical hip movement during the transition from North-South to the arm triangle finishing position?",
+      "name": "What is the key hip movement transitioning from north-south into the arm triangle finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip walk must be performed in small, incremental steps while maintaining constant chest contact with the opponent. Walking the hips too quickly or jumping to side control creates a gap between your torso and theirs, allowing guard recovery or arm extraction. Each step should transfer weight progressively to the choking-side shoulder while keeping the hips low and sprawled."
@@ -106,7 +106,7 @@ description: "How to execute Arm Triangle Setup in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Why does the arm triangle finish require a side control angle rather than the perpendicular North-South angle?",
+      "name": "Why does the arm triangle finish need a side control angle instead of north-south?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The side control angle positions your shoulder directly into the opponent's jaw and neck, creating the downward compression needed for the choke. In North-South, the angle of pressure is across the chest rather than into the neck, which pins but does not create bilateral carotid compression. The side angle also allows you to drop your ear to the mat and use your body weight as the primary squeezing force through the shoulder."

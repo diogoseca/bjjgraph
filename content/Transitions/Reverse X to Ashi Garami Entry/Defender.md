@@ -56,7 +56,7 @@ description: "How to defend against Reverse X to Ashi Garami Entry in BJJ. Recog
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical moment to initiate your defense against the Reverse X to Ashi Garami Entry?",
+      "name": "When is the most critical moment to defend the reverse X to ashi garami entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical defensive window is when the attacker's secondary leg disengages from your hip to begin the transfer across your body. At this moment, only the primary hook behind your knee maintains their control, making it the weakest point in the transition. Immediate backstep or forward pressure during this window has the highest success rate."
@@ -72,7 +72,7 @@ description: "How to defend against Reverse X to Ashi Garami Entry in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the cross-body clamp but not yet secured knee line control - what is your immediate priority?",
+      "name": "They have the cross-body clamp but no knee line control yet. What is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately straighten your trapped leg and turn your knee outward to deny heel exposure. Without knee line control, the attacker cannot threaten submissions even if the Ashi structure is partially established. Simultaneously begin systematic leg extraction by addressing the primary hook behind your knee with downward knee pressure to create slack for lateral extraction."
@@ -88,7 +88,7 @@ description: "How to defend against Reverse X to Ashi Garami Entry in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "What defensive adjustment should you make if you see the attacker's grip shift from collar or belt to heel cup or ankle grip?",
+      "name": "They switch from collar or belt grip to a heel cup. What defensive adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A grip shift to heel cup or ankle indicates the attacker is transitioning from sweep mode to leg entanglement mode. Immediately strip the new grip before it consolidates and either backstep your trapped leg or drive forward with heavy pressure. The grip change is a reliable indicator that the Ashi entry is imminent and demands an immediate defensive response."

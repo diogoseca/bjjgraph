@@ -547,7 +547,9 @@
             "properties": {
               "question": {
                 "type": "string",
-                "pattern": ".*\\?$"
+                "pattern": ".*\\?$",
+                "maxLength": 100,
+                "description": "Question ending with a question mark. Use one clear, simple question, at most 100 characters including spaces and punctuation. Preserve the tested mechanic and role; put explanations in the answer."
               },
               "answer": {
                 "type": "string",
@@ -748,7 +750,9 @@
             "properties": {
               "question": {
                 "type": "string",
-                "pattern": ".*\\?$"
+                "pattern": ".*\\?$",
+                "maxLength": 100,
+                "description": "Question ending with a question mark. Use one clear, simple question, at most 100 characters including spaces and punctuation. Preserve the tested mechanic and role; put explanations in the answer."
               },
               "answer": {
                 "type": "string",

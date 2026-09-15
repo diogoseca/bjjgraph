@@ -112,7 +112,7 @@ description: "Complete guide to executing the Triangle from Spider Guard in BJJ.
     },
     {
       "@type": "Question",
-      "name": "What specific grip configuration maximizes your control during the transition from spider guard to triangle?",
+      "name": "Which grip configuration gives the most control transitioning from spider guard to triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The pulling-side grip should be a deep four-finger sleeve grip at or above the elbow, allowing you to direct the arm across your centerline with mechanical authority. The pushing-side grip should be maintained until the triangle leg is fully over the shoulder, then can transition to a head-control grip pulling their head downward or a same-side collar grip. Never release both sleeve grips simultaneously—maintain at least one control point at all times during the transition."

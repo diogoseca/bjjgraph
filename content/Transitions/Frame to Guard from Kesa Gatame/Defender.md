@@ -50,7 +50,7 @@ description: "Counter the frame to guard escape from Kesa Gatame top. Guide cove
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest indicator that your opponent is about to attempt a frame escape from Kesa Gatame?",
+      "name": "Under kesa gatame, what is the earliest cue your opponent is starting a frame escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is their far arm beginning to move toward your face or neck rather than remaining in a defensive position. You may also notice them planting their feet flat with bent knees, their hips beginning to angle away, or their breathing becoming more controlled and deliberate rather than panicked. React to the arm movement immediately before the frame achieves structural alignment that makes it much harder to defeat."
@@ -58,7 +58,7 @@ description: "Counter the frame to guard escape from Kesa Gatame top. Guide cove
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when you feel frames beginning to push against your face?",
+      "name": "Holding kesa gatame, how do you adjust your weight as their frames push your face?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your chest and shoulder forward through the frame rather than pulling away from it, increasing the pressure angle that makes the frame harder to sustain. Simultaneously lower your hips to prevent space creation at the hip line. Your weight should shift forward and downward, using gravity to collapse the frame before it achieves the skeletal alignment that would make it structurally sound and nearly impossible to defeat with pressure alone."

@@ -56,7 +56,7 @@ description: "How to defend against Counter Leg Attack in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a Counter Leg Attack rather than a standard escape?",
+      "name": "What is the earliest cue that they're doing a Counter Leg Attack rather than a normal escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the direction of hip rotation. Standard escapes involve hips moving away from you to create extraction distance. Counter Leg Attack requires hips rotating toward your free leg to create threading angle. When you feel the opponent's hips shifting toward your non-entangled side rather than away from you, they are setting up the counter rather than escaping. This directional difference is the critical early warning sign."
@@ -64,7 +64,7 @@ description: "How to defend against Counter Leg Attack in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully hooked behind your free leg's knee - what is the optimal response at this stage?",
+      "name": "They hook behind your free leg's knee from Inside Sankaku — what is the best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, stripping the hook is difficult and often counterproductive. The optimal response is to transition to Saddle by using your legs to capture both of their legs in a double entanglement. Use the fact that their free leg is now committed to hooking you to redirect it into your entanglement structure. If Saddle transition is not available, immediately begin defending your own heel and prepare for 50-50 grip fighting rather than wasting energy fighting the established hook."
@@ -72,7 +72,7 @@ description: "How to defend against Counter Leg Attack in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How should you position your free leg during Inside Sankaku to prevent the Counter Leg Attack from being attempted?",
+      "name": "How should you carry your free leg in Inside Sankaku to prevent the Counter Leg Attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your free leg retracted with the knee bent toward your chest, shin angled across opponent's hip line. This creates a physical barrier against threading while maintaining your base. Only extend the leg briefly when posting for balance adjustments, then immediately retract. The leg should feel like a coiled spring - ready to push or block but never passively dangling where opponent can hook behind the knee. Active management of this leg is the primary prevention tool."
@@ -80,7 +80,7 @@ description: "How to defend against Counter Leg Attack in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "You recognize the counter-attack beginning but already have strong two-handed heel grips - should you address the counter or finish the submission?",
+      "name": "You see the counter starting but already have strong heel grips — finish or defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you have strong heel grips with your wrist blade properly positioned against the Achilles tendon, finish the submission immediately. The counter-attack requires several seconds to complete the full threading and figure-four configuration, while a properly set heel hook finishes in under two seconds. However, if your grips are preliminary and you are still working toward the finish, address the counter first by retracting your free leg, because a poorly positioned submission attempt will fail and the counter will succeed while you are distracted."
@@ -88,7 +88,7 @@ description: "How to defend against Counter Leg Attack in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What is the strategic advantage of transitioning to Saddle when opponent attempts Counter Leg Attack?",
+      "name": "Why is moving to Saddle advantageous when they attempt the Counter Leg Attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transitioning to Saddle captures both opponent's legs in your entanglement rather than just one, which eliminates their counter-attack entirely while dramatically increasing your control and submission percentage. The Saddle sits at the apex of the leg entanglement hierarchy - it offers the tightest control, best heel exposure, and highest submission rate. Opponent's counter-entry motion actually assists this transition because their free leg moves toward your entanglement structure rather than away from it."

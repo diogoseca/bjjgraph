@@ -58,7 +58,7 @@ description: "Defend and escape the Darce choke from leg drag position. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a Darce is being attempted from leg drag, and what should your immediate response be?",
+      "name": "What is the earliest cue of a Darce from leg drag, and your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent releasing their crossface or shoulder control and beginning to shoot their near arm under your neck. Your immediate response should be a sharp chin tuck combined with a shoulder shrug on the near side to close the neck-armpit channel, plus framing against their threading shoulder with your hands. This must happen within the first half-second of recognizing the attempt—every moment of delay allows the arm to advance deeper and makes defense exponentially harder."
@@ -66,7 +66,7 @@ description: "Defend and escape the Darce choke from leg drag position. Recognit
     },
     {
       "@type": "Question",
-      "name": "Why is turning away from the opponent the wrong defensive reaction when you feel a Darce being set up?",
+      "name": "Why is turning away wrong when you feel a Darce being set up on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning away opens the neck-armpit channel wider by separating your chin from your shoulder on the near side, giving the opponent more space to thread their arm through. It also exposes your back, which can lead to an even worse position if the Darce fails. The correct response is to turn INTO the opponent, which closes the channel by driving your chin toward the near shoulder and creating structural resistance against the threading arm. This is counterintuitive because the natural reaction to choking pressure is to turn away, which is why drilling the correct response is essential."
@@ -82,7 +82,7 @@ description: "Defend and escape the Darce choke from leg drag position. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent has the Darce partially locked but has not yet sprawled their hips—what escape option is still available?",
+      "name": "The Darce is partly locked but their hips haven't sprawled — what escape remains?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before the hip sprawl, you still have space to work. Your best option is to explosively posture upward while simultaneously pulling your trapped arm toward your hip to extract it from inside the choke. The opponent's grip is at its weakest before they add hip pressure. You can also try driving forward into the opponent to stack your weight on them, which compresses their arms and reduces their ability to squeeze. The key is acting immediately—once the hips sprawl, the mechanical advantage shifts decisively to the attacker and these escapes become nearly impossible."

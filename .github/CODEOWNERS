@@ -1,0 +1,44 @@
+# CODEOWNERS — the paths no bot may change without a human reading the diff.
+#
+# WHY THIS FILE EXISTS (2026-09-02). Seven workflows write to this repo on a schedule —
+# five open PRs against main (content-improvement, analytics-content-improvement,
+# proofread, validation-fixer, votes-refresh); two push directly to branches of their own
+# (keepalive to its marker file, seo-monitor to `seo-reports`) and touch nothing below.
+# The paths listed here are the trust boundary of the email and auth surface: the
+# Cloudflare Worker that sends as coach@bjjgraph.org, the Pages Functions that run with
+# the project's environment (which today holds the Supabase service-role key — see the
+# email plan's "service key in Pages" decision), the SQL that defines RLS, the workflows
+# that deploy all of it and sync the secrets, and the client files that decide which
+# Supabase project every visitor's browser talks to. One unreviewed line in any of them
+# is a credential leak or a phishing relay, and a bot cannot tell the difference between
+# a refactor and an exfiltration.
+#
+# WHAT IT DOES NOT DO ON ITS OWN. GitHub only enforces this file through branch
+# protection: Settings > Branches > main > "Require a pull request before merging" >
+# "Require review from Code Owners". Until that toggle is on, this file is documentation.
+# It applies to pull requests only; a direct push to a protected branch is governed by
+# the same protection rule, not by this file.
+#
+# Paths are matched against the repository root. Later lines take precedence, so keep
+# the broad directories first and any narrower exception after them.
+
+# The workflows, the secrets they sync, and this file itself.
+/.github/                                              @diogoseca
+
+# The digest Worker: sends mail as coach@bjjgraph.org, reads Supabase with the service key.
+/workers/                                              @diogoseca
+
+# Pages Functions: /unsubscribe (service-role writes), /l share shell, anything added later.
+# Every file here runs with the Pages project's environment on every deployed branch.
+/functions/                                            @diogoseca
+
+# Schema and RLS. Applied by hand in the SQL editor, never from CI — but the repo copy is
+# what the next migration is written against.
+/supabase/                                             @diogoseca
+
+# The client half of the same boundary: the auth façade (window.__bjjAuth, the OAuth
+# redirect-back, pullNeural/pushNeural) and the emitter that stamps the Supabase URL and
+# publishable key into every page. A change here can point the whole site at another
+# project without touching a single server-side file.
+/source/quartz/components/scripts/supabase.ts          @diogoseca
+/source/quartz/plugins/emitters/componentResources.ts  @diogoseca

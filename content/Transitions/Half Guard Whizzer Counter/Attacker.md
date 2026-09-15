@@ -92,7 +92,7 @@ description: "How to execute the Half Guard Whizzer Counter in BJJ. Top-game per
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives into you and comes up to their knees instead of staying flat under the whizzer - what do you do?",
+      "name": "They drive up to their knees instead of staying flat under your whizzer—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their upward momentum rather than fighting to flatten them back down. Maintain the armpit seal and keep their arm elevated, then ride the whizzer up with them and convert directly to a back take or a front headlock as they come to their knees. The whizzer that controls their arm in half guard transitions cleanly to back control or front-headlock attacks when the opponent stands up into it, so read the drive and flow into the standing follow-up instead of resisting it."
@@ -100,7 +100,7 @@ description: "How to execute the Half Guard Whizzer Counter in BJJ. Top-game per
     },
     {
       "@type": "Question",
-      "name": "After establishing overhook control from the whizzer counter, how do you decide between passing and taking the back?",
+      "name": "With overhook control from the whizzer counter, how do you choose between passing and the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Read the opponent's reaction. If they stay flat and defensive under your pressure, free your trapped leg and pass to side control while keeping the overhook to prevent guard recovery. If they turn away from the whizzer to escape the shoulder pressure, follow their hips and take the back, using the elevated arm and your free hand to ride into back control. Overhook control is a transitional position, so commit to the correct follow-up within a few seconds based on which way they react rather than holding statically."

@@ -56,7 +56,7 @@ description: "Complete guide to defending and countering the Sweep from Z-Lock H
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three variables you must manage simultaneously to defend the Sweep from Z-Lock Half Guard?",
+      "name": "Which three variables must you manage at once to defend the Z-lock half guard sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three critical defensive variables are base width (keeping your free leg posted wide for structural bracing), weight placement (distributing weight centrally rather than committing fully forward), and underhook denial (preventing or stripping the opponent's underhook that serves as the sweep's steering mechanism). Managing all three simultaneously makes the sweep extremely difficult to execute regardless of the attacker's skill level."
@@ -64,7 +64,7 @@ description: "Complete guide to defending and countering the Sweep from Z-Lock H
     },
     {
       "@type": "Question",
-      "name": "Why is driving heavy crossface pressure both a defensive tool and a potential vulnerability against this sweep?",
+      "name": "Why is heavy crossface pressure both a defense and a liability against the Z-lock half guard sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Crossface pressure is defensive because it flattens the opponent's hip angle and reduces their mechanical advantage for the sweep. However, it becomes a vulnerability when you commit excessive bodyweight forward to drive the crossface, because the forward weight commitment is exactly what the sweeper needs to fire the compound off-balance. The solution is controlled crossface using upper body positioning rather than full bodyweight commitment, maintaining your center of gravity over your base."
@@ -72,7 +72,7 @@ description: "Complete guide to defending and countering the Sweep from Z-Lock H
     },
     {
       "@type": "Question",
-      "name": "You feel both of the opponent's legs activating simultaneously - lockdown pulling and butterfly pushing. What is your immediate response?",
+      "name": "You feel their lockdown pull and butterfly hook push fire together—what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your far hand wide on the mat in the direction you feel yourself being rotated. This structural post must happen before you pass the tipping point of the sweep. Simultaneously widen your base by stepping your free leg out. If the post stabilizes you, follow up by driving your weight back toward center and re-establishing heavy top pressure. The key is speed of reaction - once the compound off-balance reaches full momentum, posting becomes ineffective."

@@ -100,7 +100,7 @@ description: "Learn to attack with the Kimura from Quarter Guard top position. S
     },
     {
       "@type": "Question",
-      "name": "How does the quarter guard position create unique advantages for the kimura compared to standard half guard top?",
+      "name": "How does quarter guard top create better Kimura opportunities than standard half guard top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Quarter guard provides superior kimura opportunities because your hips have advanced past the opponent's centerline, giving you more weight distribution over their upper body. The bottom player's compromised position forces them to use their arms more aggressively for frames and underhooks, creating frequent arm exposure windows. Their reduced leg control also limits the hip movement needed for effective bridge escapes during the finish."
@@ -108,7 +108,7 @@ description: "Learn to attack with the Kimura from Quarter Guard top position. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges toward the trapped arm during the finishing sequence—how do you maintain control?",
+      "name": "Quarter guard Kimura: they bridge toward the trapped arm mid-finish—how do you keep control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widen your base by stepping your far leg out while keeping your near knee tight to their hip. Drop your weight heavily through your chest onto their upper body to flatten them back down. If the bridge continues despite weight adjustment, follow the roll direction and maintain the grip—you can finish the kimura from the resulting position or transition to side control with the grip intact."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Kimura from Quarter Guard top position. S
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make if your opponent's wrist becomes difficult to control during rotation?",
+      "name": "Quarter guard Kimura: their wrist gets hard to control during rotation—what grip adjustments help?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Deepen the figure-four by sliding your gripping hand further past their wrist toward their forearm, increasing the contact surface area for control. Squeeze your elbows together to compress the grip configuration. If the grip continues slipping, pause the rotation and reposition your hands with a fresh grip before continuing rather than rushing the finish with compromised control."

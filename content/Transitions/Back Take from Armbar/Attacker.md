@@ -90,7 +90,7 @@ description: "Learn to execute the back take from armbar control in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands and begins turning toward you during your armbar attempt - what is your immediate response?",
+      "name": "They clasp their hands and turn into you during your armbar: what's your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately begin the back take transition by shifting your top hand to their far shoulder while maintaining bottom hand contact on their hip. Lift your face-side leg to allow their rotation to continue, and thread your bottom leg as the first hook around their far hip as their back opens. The opponent's clasped hands and turning tell you the armbar is well-defended, making the back take the higher-percentage option."

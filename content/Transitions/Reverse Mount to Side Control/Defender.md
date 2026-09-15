@@ -56,7 +56,7 @@ description: "Learn to defend the Reverse Mount to Side Control transition. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that your opponent is initiating a rotation from reverse mount toward side control?",
+      "name": "What is the earliest tactile cue that they're rotating from reverse mount to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is an asymmetric shift in weight distribution on your torso, where pressure increases on one side and decreases on the other as the opponent begins pivoting their hips. This is often preceded by their hand moving to block your far hip, which is the standard preparatory action. Recognizing these cues early gives you the maximum defensive window before the rotation completes."
@@ -64,7 +64,7 @@ description: "Learn to defend the Reverse Mount to Side Control transition. Reco
     },
     {
       "@type": "Question",
-      "name": "Why is defending during the rotation significantly more effective than escaping after side control is established?",
+      "name": "Why defend during the rotation rather than escape after side control is established?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the rotation, the top player's base is temporarily compromised as they transition between two stable positions. Their weight distribution is in flux, their knees are repositioning, and they lack the crossface control that makes side control so difficult to escape. Side control has a roughly 70% retention rate once consolidated, whereas the mid-rotation phase offers a genuine opportunity for reversal or guard recovery because the top player cannot simultaneously maintain full control and complete a positional transition."
@@ -72,7 +72,7 @@ description: "Learn to defend the Reverse Mount to Side Control transition. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent places their hand on your far hip from reverse mount - what does this signal and how should you respond?",
+      "name": "From reverse mount they place a hand on your far hip. What does it signal and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip block is the standard preparatory action before initiating rotation to side control. This signals that the rotation is imminent, giving you a critical early warning window. Begin preparing your defensive response immediately: position your near-side knee for insertion, prepare your bridge by planting your feet, and tense your core. Act during the rotation itself rather than the preparatory phase, as bridging against a stable reverse mount is ineffective."
@@ -80,7 +80,7 @@ description: "Learn to defend the Reverse Mount to Side Control transition. Reco
     },
     {
       "@type": "Question",
-      "name": "What makes the knee insertion defense effective against this transition, and when exactly should you attempt it?",
+      "name": "Why does knee insertion work against this rotation, and exactly when should you attempt it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Knee insertion exploits the momentary gap between your hip and the opponent's body that naturally occurs during hip rotation. As the opponent's hips pivot, their control over your hip space briefly loosens. Insert your near-side knee into this gap during mid-rotation, aiming to get your knee between your hip and their rotating body. The timing window is narrow, roughly half a second, making it essential to initiate the movement at the first confirmed rotational cue rather than waiting."
@@ -88,7 +88,7 @@ description: "Learn to defend the Reverse Mount to Side Control transition. Reco
     },
     {
       "@type": "Question",
-      "name": "If your defensive attempts fail and the opponent achieves side control, what should your immediate priority be?",
+      "name": "Your defense fails and they reach side control. What is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish defensive frames with your forearms against the opponent's shoulder and hip before they can fully settle their weight and consolidate grips. Protect your neck from crossface by turning your chin toward the opponent and creating a frame against their incoming shoulder. The first three to five seconds after side control establishment represent a secondary defensive window where the position is not yet fully consolidated, and frames created during this period are significantly more effective than those attempted after the opponent has settled their full weight."

@@ -100,7 +100,7 @@ description: "Learn to attack the heel hook from 50-50 Guard. Step-by-step execu
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins hiding their heel by rotating their knee inward 5 seconds into your attack - what is the correct tactical response?",
+      "name": "Your opponent hides the heel 5 seconds into your 50-50 attack—what is the correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After 5 seconds of unsuccessful heel exposure attempts against active defense, transition to a higher-percentage alternative rather than forcing the heel hook. Primary options are kneebar by controlling above the knee joint, back take by releasing the leg entanglement and circling behind, or transition to Inside Ashi-Garami or Honey Hole for better heel exposure angles. Continuing to force the heel exposure wastes energy and allows the defender to strengthen their defense."

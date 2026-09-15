@@ -64,7 +64,7 @@ description: "How to maintain your guillotine choke against defensive escape att
     },
     {
       "@type": "Question",
-      "name": "Why is pulling guard a critical tool for the guillotine attacker when the defender creates hip distance?",
+      "name": "When the defender creates hip distance, why is pulling guard key for the guillotine attacker?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling guard restores the attacker's hip connection to the defender's body, re-establishing the body-as-fulcrum leverage that makes the guillotine mechanically sound. Without hip connection, the choke relies solely on arm strength which is insufficient against a properly framed defense. Closed guard also prevents the defender from completing the circling motion that breaks the choke's structural alignment, and hip elevation from guard adds upward force that drives the forearm deeper into the defender's neck."

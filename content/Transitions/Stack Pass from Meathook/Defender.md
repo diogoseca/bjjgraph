@@ -56,7 +56,7 @@ description: "Defend against the Stack Pass from Meathook as the bottom Rubber G
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why does the stack pass actually create opportunities for the bottom Meathook player rather than purely threatening their position?",
+      "name": "Why does their stack attempt create opportunities for the bottom meathook player?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The stack pass drives the top player forward, which is the exact direction that feeds into gogoplata, triangle, and omoplata setups from Meathook. Their forward momentum carries them deeper into submission range while their commitment to the stack limits their ability to retreat or change direction. A properly countered stack attempt is more dangerous for the passer than maintaining neutral Meathook."
@@ -64,7 +64,7 @@ description: "Defend against the Stack Pass from Meathook as the bottom Rubber G
     },
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is about to attempt a stack pass from your Meathook?",
+      "name": "What are the earliest cues that they'll stack pass your meathook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The top player tucks their chin firmly and turns their head away from the hooking leg, posts their free arm wide at approximately 45 degrees for driving base, and shifts weight forward with shoulder pressing into your hip. Their trapped arm stops individual extraction attempts and tucks tight. Recognizing these cues early gives you time to pre-position for counter-attacks before their momentum builds."
@@ -72,7 +72,7 @@ description: "Defend against the Stack Pass from Meathook as the bottom Rubber G
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun stacking you with good chin protection preventing gogoplata. What alternative defensive response should you employ?",
+      "name": "They stack you with chin tucked, killing the gogoplata: what do you do instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip escape laterally before full compression immobilizes your hips. Lateral movement prevents the direct compression angle needed for arm extraction and creates angles for triangle or omoplata transitions. Maintain hook control during the lateral escape if possible, but prioritize hip mobility over hook retention. The angle change opens new submission pathways that bypass their chin protection."
@@ -80,7 +80,7 @@ description: "Defend against the Stack Pass from Meathook as the bottom Rubber G
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your shin hook positioning when you recognize a stack attempt versus a standard arm extraction attempt?",
+      "name": "How does your shin hook placement differ against a stack versus an arm extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During a stack attempt, consider transitioning the shin from tricep isolation position toward the throat for gogoplata entry, rotating your hip slightly and extending the hooking leg to intercept their forward drive. During standard arm extraction, maintain the tricep position for maximum isolation leverage. The attack angle changes based on the opponent's escape direction: forward drive feeds gogoplata, lateral pull maintains arm isolation."

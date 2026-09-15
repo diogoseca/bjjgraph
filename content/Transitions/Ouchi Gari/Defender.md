@@ -64,7 +64,7 @@ description: "How to defend against Ouchi Gari in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Why is stepping back with the attacked leg a risky defensive option despite being the most instinctive response?",
+      "name": "Why is stepping back with the attacked leg risky against Ouchi Gari?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stepping back is risky because it plays directly into the attacker's combination game. The Ouchi Gari to Kouchi Gari combination specifically exploits this defensive movement—as you retract your lead leg, your weight shifts onto it during the step, making it the ideal target for the minor inner reap follow-up. Additionally, stepping backward shifts your weight onto your heels and compresses your stance, reducing your ability to resist the continued forward pressure. The step back only works if executed early enough that you can re-establish a wide, stable base before the attacker chains their next technique."
@@ -72,7 +72,7 @@ description: "How to defend against Ouchi Gari in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured a deep collar grip and begins pulling you backward while stepping in - you cannot break the grip in time. What is your best defensive option?",
+      "name": "They have a deep collar grip and step in for Ouchi and you cannot strip it: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a deep collar grip already established and kuzushi in progress, your best option is to lower your center of gravity immediately by bending your knees and widening your stance while driving your hips forward into the opponent. This creates a strong base that resists the backward pull. Simultaneously, use your free hand to pummel for an underhook on the side opposite the collar grip, which gives you counter-attacking options and disrupts their throwing angle. If the reap begins, sprawl your hips back decisively rather than trying to retract the leg. As a last resort, pull guard to a strong position like closed guard or De La Riva before the throw reaches full force, converting their attack into your ground game entry on your terms."
@@ -80,7 +80,7 @@ description: "How to defend against Ouchi Gari in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "How does defending Ouchi Gari differ when the attacker uses a no-gi underhook setup versus a traditional gi collar grip?",
+      "name": "How does Ouchi Gari defense change against a no-gi underhook setup versus a gi collar grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a gi collar grip, the attacker has precise directional control for kuzushi, so the defender must prioritize grip breaking—strip the collar grip and the throw loses its primary control mechanism. With a no-gi underhook setup, the attacker controls through body-to-body pressure rather than a single grip point, making it impossible to simply strip a grip. Defense against the underhook version requires whizzer (overhook) control to prevent the attacker from pulling you off-balance, combined with hip positioning that blocks the reaping entry. The no-gi version typically happens at closer range, giving the defender less time to react but also more options for counter-wrestling including underhook recovery, hip switches, and body lock counter-throws."
@@ -88,7 +88,7 @@ description: "How to defend against Ouchi Gari in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "After successfully defending an Ouchi Gari attempt, what offensive opportunities does the defender gain?",
+      "name": "After stuffing an Ouchi Gari attempt, what offense opens up for you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A failed Ouchi Gari leaves the attacker momentarily vulnerable because their weight is committed forward on a single base leg while their reaping leg is extended behind or between your legs. If you defended by stepping back, you can immediately counter-attack with Kouchi Gari or Osoto Gari while they are recovering their stance. If you sprawled, you can secure a front headlock and attack with snap downs, guillotines, or go-behind sequences. The attacker's forward momentum after a missed throw also makes them vulnerable to sacrifice throws like Sumi Gaeshi or Tomoe Nage. The key principle is that every failed attack creates a window of vulnerability—the defender who capitalizes on this window rather than simply resetting gains a significant competitive advantage."

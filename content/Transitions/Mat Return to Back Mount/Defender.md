@@ -56,7 +56,7 @@ description: "How to defend against Mat Return to Back Mount in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first thing you should do when you recognize your opponent is initiating a mat return from standing back control?",
+      "name": "What should you do first when you recognize a mat return from standing back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your base and sprawl your hips back while maintaining grip fighting on the harness. The wider stance makes your base significantly harder to break, and the hip sprawl removes the leverage the attacker needs to kick out your legs or trip you. You must address the base-breaking attempt before it gains momentum, as once your stance is compromised the takedown becomes very difficult to stop."
@@ -72,7 +72,7 @@ description: "How to defend against Mat Return to Back Mount in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has initiated the mat return and you are being driven to the mat - what should your arms do during the descent?",
+      "name": "You are being driven to the mat by a mat return: what should your arms do on the way down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your arms tucked tight to your body with elbows close to your ribs and hands protecting your neck. Do not post a straight arm into the mat, which risks shoulder or wrist injury and fails to stop the descent. Instead, use a breakfall technique with flat palm contact on the mat upon landing and immediately transition your hands to fight any hook insertion attempts by the attacker."
@@ -80,7 +80,7 @@ description: "How to defend against Mat Return to Back Mount in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How does the defender's base position influence which direction the attacker will attempt the mat return?",
+      "name": "How does your base position determine which direction they will attack the mat return?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The attacker reads your weight distribution through their chest connection and attacks the direction where your base is weakest. If your weight is forward, they take you backward. If you lean to one side, they attack the opposite side. Understanding this allows you to deliberately shift your weight to bait the attacker into a direction where you have prepared a counter, or to keep your weight centered so no single direction presents an easy takedown."

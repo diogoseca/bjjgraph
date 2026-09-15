@@ -106,7 +106,7 @@ description: "Complete guide to executing the Combat Base to Headquarters transi
     },
     {
       "@type": "Question",
-      "name": "Your opponent inserts a butterfly hook under your thigh as you begin driving your knee forward—how do you adjust?",
+      "name": "Passing to headquarters, they insert a butterfly hook under your thigh: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop the forward advance immediately and address the hook before it generates elevation. Post your free hand on the mat for emergency base stability. Drive the hooked leg's knee downward toward the mat to strip the butterfly hook using your hip weight rather than muscular force. Once the hook is stripped, quickly re-establish your controlling grip on the opponent's leg and resume the knee drive before they can reinsert the hook. If the hook is too deep, reset to full combat base and clear it from a stable position."

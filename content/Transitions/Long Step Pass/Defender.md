@@ -72,7 +72,7 @@ description: "How to defend against Long Step Pass in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your opponent has landed the long step and is beginning to establish crossface - what is your last-resort defensive sequence?",
+      "name": "They landed the long step and are getting the crossface: what is your last-resort defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the crossface is being established, immediately get your near-side forearm across the passer's throat or under their chin to create a frame that prevents full crossface completion. Simultaneously begin hip escaping toward the passer's legs (not away from them) to create angle. Use your far hand to fight for an underhook or frame on their far shoulder. Your goal shifts from preventing the pass to recovering half guard by inserting your near knee between their legs before they can circle to full side control."
@@ -88,7 +88,7 @@ description: "How to defend against Long Step Pass in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "What grip fighting priorities should you maintain to prevent the Long Step Pass from being initiated?",
+      "name": "Which grip fighting priorities keep them from ever initiating the Long Step Pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First priority is preventing the passer from controlling both of your knees or pants simultaneously, as this is the grip configuration that enables the angle creation. Use two-on-one grip breaks immediately when they grab your pants. Second priority is maintaining at least one foot on their hip to control distance and prevent them from closing the gap needed for the long step. Third priority is controlling one of their sleeves or wrists to limit their grip options and prevent them from establishing crossface or underhook control during the pass attempt."

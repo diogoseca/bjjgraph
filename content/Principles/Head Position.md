@@ -148,7 +148,7 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Head Position",
-  "description": "Head Position is the BJJ principle of controlling an opponent's head to dictate their spinal alignment, posture, and movement options, because steering the head steers the spine, and the spine governs the body's entire structure.",
+  "description": "Head Position is the placement and control of the head relative to the spine, hips, and opponent. Protecting your own alignment and redirecting theirs affects balance, guard play, passing, pins, escapes, and submission exchanges from either role.",
   "inDefinedTermSet": "https://bjjgraph.org/Principles/"
 }
 </script>
@@ -205,7 +205,7 @@ description: "Master Head Position in BJJ. Learn biomechanical principles, contr
 
 ## What is Head Position?
 
-**Head Position is the BJJ principle of controlling an opponent's head to dictate their spinal alignment, posture, and movement options, because steering the head steers the spine, and the spine governs the body's entire structure.**
+**Head Position is the placement and control of the head relative to the spine, hips, and opponent. Protecting your own alignment and redirecting theirs affects balance, guard play, passing, pins, escapes, and submission exchanges from either role.**
 
 Across every phase of grappling, from the standing clinch to back control, the head behaves like the steering wheel of the body, which is why elite competitors treat controlling it as a first-order priority rather than an afterthought. Unlike a discrete technique, head control is a conceptual framework that applies in every position: the biomechanical reality is that the head leads the spine, and the spine organizes force generation, defensive framing, and offensive options. Offensively, head control breaks posture, pins shoulders, and opens submission chains; defensively, protecting your own head preserves mobility, prevents chokes, and keeps escape routes alive. Because a single high-quality head connection can neutralize an opponent's strongest structural advantages, the ability to establish and, critically, maintain it through transitions often decides who controls the exchange and who is forced to react.
 
@@ -448,7 +448,9 @@ Create training circuits where you start in various positions with opponent havi
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Fundamental principle underlying all front headlock control mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Fundamental principle underlying all front headlock control mechanics</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Cage-Clinch-to-Ground-System" data-cta="related-system-card" data-system-slug="systems/cage-clinch-to-ground-system" data-system-name="Cage Clinch to Ground System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Cage Clinch to Ground System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Alignment to examine during clinch exchanges</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Jimmy-Sheptock-Single-Leg-System" data-cta="related-system-card" data-system-slug="systems/jimmy-sheptock-single-leg-system" data-system-name="Jimmy Sheptock Single Leg System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Jimmy Sheptock Single Leg System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Posture throughout the entry</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

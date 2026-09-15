@@ -70,9 +70,11 @@ test("every shipped deck is mintable, and every mintable key ships a deck", () =
   const mint = new Set(APP.nodes.map((n) => APP.deckKeyFor(n).key));
   const shipped = new Set(Object.keys(DECKS));
 
-  // non-triviality floor FIRST: an empty node list would satisfy set equality perfectly.
-  assert.ok(shipped.size >= 2900, `manifest starved: ${shipped.size} decks`);
-  assert.ok(APP.nodes.length >= 2900, `node set starved: ${APP.nodes.length}`);
+  // non-triviality floor FIRST: an empty node list would satisfy set equality perfectly. The floor
+  // IS the census count (a `>=` against today's corpus), so a deliberate content move re-arms it
+  // with `npm run census:update` and an accidental loss still trips it.
+  assert.ok(shipped.size >= 2896, `manifest starved: ${shipped.size} decks`); // census:members
+  assert.ok(APP.nodes.length >= 2896, `node set starved: ${APP.nodes.length}`); // census:members
 
   const unreachable = [...shipped].filter((k) => !mint.has(k));
   assert.deepEqual(unreachable, [], `${unreachable.length} shipped deck(s) the app cannot ask for`);
@@ -83,15 +85,20 @@ test("every shipped deck is mintable, and every mintable key ships a deck", () =
 
 // ── 2: EACH MEMBER RESOLVES TO ITS OWN SEAT ─────────────────────────────────────────────────
 
-// 1326, not 1331: v1.154.2 collapsed five moves that were authored as BOTH a transition and a
+// 1328, not 1331: v1.154.2 collapsed five moves that were authored as BOTH a transition and a
 // submission — a type error under the owner's ruling that a move whose success edge reaches the
 // game-over sink IS a submission and may not also exist as a transition record. The five
-// transition twins were deleted whole (their ordinals retired, never reused). The number stays
-// HARD-CODED on purpose: it is a tripwire for silent corpus loss, so a drift here should be
-// explained in a commit, not absorbed by deriving it from the same source it is checking.
-test("all 1,326 technique sites: the rep keys |Attacker and the partner keys |Defender", () => {
+// transition twins were deleted whole (their ordinals retired, never reused), taking the count
+// to 1326. v1.156.0 then added TWO nodes and took it back to 1328: `Half Guard to Kimura Trap`,
+// which restores the success arrival into kimura-trap/bottom that the collapse removed (under a
+// non-colliding name, so it does NOT recreate a twin — its success edge reaches a position, not
+// the sink), and `Achilles Lock from Inside Ashi-Garami`, the first authored member of the only
+// family hub that had none. The number stays HARD-CODED on purpose: it is a tripwire for silent
+// corpus loss, so a drift here should be explained in a commit, not absorbed by deriving it from
+// the same source it is checking.
+test("every technique site: the rep keys |Attacker and the partner keys |Defender", () => {
   const tech = SITES.filter((n) => n.ty !== "positions");
-  assert.equal(tech.length, 1326, "the technique site count itself");
+  assert.equal(tech.length, 1315, "the technique site count itself"); // census:techSites
   let checked = 0;
   for (const rep of tech) {
     const partner = APP.nodes.find((m) => m.id === rep.pairId);
@@ -100,12 +107,12 @@ test("all 1,326 technique sites: the rep keys |Attacker and the partner keys |De
     assert.equal(APP.deckKeyFor(partner).role, "Defender", partner.id);
     checked += 2;
   }
-  assert.equal(checked, 2652, "positive coverage: every technique seat was read");
+  assert.equal(checked, 2630, "positive coverage: every technique seat was read"); // census:techMembers
 });
 
-test("all 136 position sites: the rep keys |Top and the partner keys |Bottom", () => {
+test("every position site: the rep keys |Top and the partner keys |Bottom", () => {
   const pos = SITES.filter((n) => n.ty === "positions");
-  assert.equal(pos.length, 136);
+  assert.equal(pos.length, 133); // census:positions
   let checked = 0;
   for (const rep of pos) {
     const partner = APP.nodes.find((m) => m.id === rep.pairId);
@@ -113,7 +120,7 @@ test("all 136 position sites: the rep keys |Top and the partner keys |Bottom", (
     assert.equal(APP.deckKeyFor(partner).role, "Bottom", partner.id);
     checked += 2;
   }
-  assert.equal(checked, 272);
+  assert.equal(checked, 266); // census:roleHands
 });
 
 // ── 3: THE ROLL STILL OVERRIDES THE MEMBER, AND LEGACY IS UNTOUCHED ─────────────────────────
@@ -128,9 +135,11 @@ test("standing on a position, the SIDE YOU PLAY wins over the member's own stamp
   assert.equal(b.deckKeyFor(b.nodes[rep.idx]).role, "Top");
 });
 
-test("?dual=legacy is byte-identical: with no stamped role, techniques fall back to |Attacker", () => {
-  // The escape hatch ships no pairs, so no node carries `role`. Both fixes must be the identity
-  // there or the flag stops being an escape hatch.
+test("the pre-split graph is byte-identical: with no stamped role, techniques fall back to |Attacker", () => {
+  // The pre-split graph ships no pairs, so no node carries `role`. Both fixes must be the identity
+  // there or the control group stops being a control group. (Renamed in v1.158.1: this never used
+  // the `?dual=legacy` param it was named after — it simulates the pre-split graph by deleting
+  // `role` in JS — so the rename is the test finally saying what it does.)
   const a = app((x) => { for (const n of x.nodes) delete n.role; });
   const tech = a.nodes.filter((n) => n.ty !== "positions");
   assert.ok(tech.length > 2000);
@@ -139,7 +148,7 @@ test("?dual=legacy is byte-identical: with no stamped role, techniques fall back
 
 // ── 4: THE FIX MUST NOT MOVE THE HAND ───────────────────────────────────────────────────────
 
-test("the dealt hand is untouched: every option is the rep member, on all 272 states", () => {
+test("ordinary position options use Attacker decks; submission defenses use their own state contract", () => {
   // The claim that made `deckRole` safe to change was that `_deriveDualPairs` hands the attempt
   // edge to the PERFORMER side, so `optionsFor` can only ever deal a rep. That is reasoning, and
   // reasoning is what §6.5 says gets this repo into trouble — so it is measured instead, over the
@@ -155,7 +164,7 @@ test("the dealt hand is untouched: every option is the rep member, on all 272 st
   a._rsOk = new Uint8Array(a.nodes.length).fill(1);
   a.flashcards = { decks: {} }; a.prep = {}; a.rec = {}; a.stage = {}; a.srs = {}; a._sharp = {};
   let states = 0, options = 0, moved = 0;
-  for (const p of a.nodes.filter((n) => n.ty === "positions")) {
+  for (const p of a.nodes.filter((n) => n.ty === "positions" && !n.cal?.stateAlias)) {
     a.currentPos = p.idx;
     a.playerRole = p.role === "bottom" ? "bottom" : "top";
     let o;
@@ -169,7 +178,7 @@ test("the dealt hand is untouched: every option is the rep member, on all 272 st
       if (n.role === "defender" || a.deckKeyFor(n).role !== "Attacker") moved++;
     }
   }
-  assert.equal(states, 272, "every position seat deals a hand");   // positive coverage
-  assert.equal(options, 1326, "and the whole corpus of dealt options was read");
+  assert.equal(states, 242, "distinct positions each deal both seats"); // census:positionChoiceSeats
+  assert.equal(options, 1213, "ordinary position options, excluding projected submission aliases"); // census:positionChoiceCards
   assert.equal(moved, 0, `${moved} dealt option(s) resolved to a Defender deck`);
 });

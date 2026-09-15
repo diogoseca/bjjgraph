@@ -84,7 +84,7 @@ description: "How to execute Inside Heel Hook from Ushiro in BJJ. Attacking pers
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts rotating toward turtle as you establish your heel grip—what should you prioritize?",
+      "name": "They rotate toward turtle as you set your heel grip from ushiro. What do you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must make a split-second decision based on grip quality. If your heel grip is solid and the heel is properly trapped against your torso, accelerate the finish before they complete rotation. If your grip is weak or the heel isn't properly exposed, follow their rotation to back control rather than losing the position entirely for a low-percentage finish attempt."

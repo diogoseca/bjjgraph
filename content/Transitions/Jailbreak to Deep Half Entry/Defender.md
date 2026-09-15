@@ -56,7 +56,7 @@ description: "How to defend against Jailbreak to Deep Half Entry in BJJ. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that opponent is switching from jailbreak roll to deep half entry?",
+      "name": "What is the earliest cue they are switching from the jailbreak roll to a deep half entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the direction change in their hip movement - instead of rotating away from you as in the standard jailbreak roll, their hips drop toward the mat and rotate to face your far hip. Their underhook will simultaneously tighten and pull downward rather than across. Recognizing this directional shift before their head passes your hip line is critical for successful defense."
@@ -72,7 +72,7 @@ description: "How to defend against Jailbreak to Deep Half Entry in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "How do you balance defending the deep half dive without opening yourself to the standard jailbreak roll?",
+      "name": "How do you defend the deep half dive without opening the standard jailbreak roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain neutral weight distribution rather than committing heavily in either direction. Instead of basing wide to defend the roll or driving forward to prevent the dive, focus on attacking the underhook with whizzer and crossface control. This neutral approach removes the bottom player's primary tool without creating the directional weight commitment they need for either technique to succeed."
@@ -80,7 +80,7 @@ description: "How to defend against Jailbreak to Deep Half Entry in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already gotten their head past your hip line and is wrapping your far leg - what is your best response?",
+      "name": "Their head is past your hip line and they're wrapping your far leg — best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this point, you are in deep half guard and must transition to deep half top defense. Immediately establish crossface pressure to flatten them, widen your base with your free leg, and begin working to extract your trapped leg. The defensive window for preventing the entry has passed, so accepting the position and applying deep half top principles is more productive than trying to reverse a completed entry."

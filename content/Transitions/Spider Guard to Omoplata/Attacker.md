@@ -74,7 +74,7 @@ description: "How to execute Spider Guard to Omoplata in BJJ. Attacking perspect
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical grip element to maintain during the entire transition from spider guard to omoplata?",
+      "name": "Which grip must you keep throughout the spider guard to omoplata transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The attacking-side sleeve grip must be maintained from initial spider guard control through the leg swing and until the omoplata position is fully secured with leg pressure and body weight. Without this grip, the opponent can withdraw their arm at any point during the transition, collapsing the entire attack. The grip should be deep at or above the elbow using four fingers inside the sleeve for maximum retention strength."
@@ -82,7 +82,7 @@ description: "How to execute Spider Guard to Omoplata in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Your opponent reacts to your spider guard pressure by posting their hand on the mat and leaning forward - how do you capitalize on this?",
+      "name": "In spider guard they post a hand on the mat and lean forward: how do you get the omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts forward, their weight commitment and arm extension create the ideal window for the omoplata entry. Their posted arm is extended and their base has shifted forward, making it difficult to withdraw the arm quickly. Immediately strengthen your sleeve grip on the posting arm, remove your non-attacking foot to the mat for leverage, and execute the explosive leg swing over their shoulder while they are committed forward. Their forward weight makes it harder for them to back away or widen their base in time."
@@ -98,7 +98,7 @@ description: "How to execute Spider Guard to Omoplata in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "What are the three primary conditions that must exist before you initiate the spider guard to omoplata attack?",
+      "name": "Which three conditions must exist before you launch the spider guard to omoplata attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, you must have a secure deep sleeve grip on the attacking-side arm that the opponent cannot easily strip. Second, the opponent's weight must be committed forward or their arm must be extended, creating vulnerability in the shoulder line. Third, their base must be narrow enough that they cannot immediately post wide to block your leg swing. Without all three conditions present, the attack has a very low probability of success and leaves you vulnerable to guard passes."

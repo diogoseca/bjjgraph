@@ -88,7 +88,7 @@ description: "Master defending against Ashi Garami maintenance with systematic e
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent successfully advances from Outside Ashi to Inside Ashi during your extraction attempt?",
+      "name": "In Ashi Garami they advance from Outside to Inside Ashi mid-extraction—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase defensive urgency by protecting the heel through straight leg alignment and hiding the heel behind the opponent's leg. Avoid continued extraction using the same Outside Ashi clearing sequence, as inside space dynamics have changed. Focus on re-establishing inside space control and working back to Outside Ashi positioning before attempting extraction, or transition to 50-50 to neutralize the position."

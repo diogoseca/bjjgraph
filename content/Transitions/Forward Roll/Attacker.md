@@ -98,7 +98,7 @@ description: "How to execute the Forward Roll escape from turtle in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "What should you do immediately after completing a forward roll to prevent your opponent from re-establishing control?",
+      "name": "Right after completing a forward roll from turtle, what stops them re-establishing control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish seated guard by shooting your feet toward the opponent's hips and bringing your hands up in defensive frames against their shoulders or chest. There must be zero pause between completing the roll and establishing guard. Creating distance with your feet prevents the opponent from closing the gap and re-establishing turtle top or passing to side control. If the opponent is close, use your feet on their hips to push and create space before they can settle their weight."
@@ -114,7 +114,7 @@ description: "How to execute the Forward Roll escape from turtle in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent has seatbelt control but no hooks from turtle top. Is this the right moment to attempt a forward roll?",
+      "name": "They have a seatbelt but no hooks on your turtle: is now the moment to forward roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a viable window but requires reading the specific details. Seatbelt without hooks means opponent has upper body control but cannot follow your hip movement with their legs. The key factor is whether their weight is committed forward over your shoulders or sitting back on their heels. If forward-heavy, the roll can use their momentum. If sitting back, their seatbelt grip may stall your roll. The optimal approach is to initiate hand fighting to loosen the choking arm grip first, then roll explosively when you feel their grip weaken or they transition grips. If both hooks were in, the forward roll becomes much lower percentage."

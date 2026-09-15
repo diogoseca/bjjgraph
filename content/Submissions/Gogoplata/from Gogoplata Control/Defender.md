@@ -58,7 +58,7 @@ description: "How to defend against Gogoplata in BJJ. Recognition, escape paths,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to address the attacker's head control grips before attempting to remove the shin from your throat?",
+      "name": "Why strip the head control grips before pushing the gogoplata shin off your throat?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The attacker's two-hand head control generates the primary force that drives your throat into the shin bone. If you attempt to push the shin away while the head is still being pulled forward, you are fighting against the combined force of both their arms pulling your head plus the stationary shin. This is a losing battle. By stripping the head control first, you remove the pulling force that creates the choking pressure, which simultaneously makes posture recovery possible and allows the shin to be dislodged through distance creation rather than direct force against the leg."
@@ -66,7 +66,7 @@ description: "How to defend against Gogoplata in BJJ. Recognition, escape paths,
     },
     {
       "@type": "Question",
-      "name": "What makes the gogoplata uniquely dangerous compared to other choke submissions from a defender's safety perspective?",
+      "name": "For the defender, what makes the gogoplata uniquely dangerous among chokes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The gogoplata attacks the trachea directly with the hard shin bone, creating an air choke that can cause structural damage to the windpipe. Unlike blood chokes (rear naked choke, triangle) that compress the carotid arteries and cause reversible unconsciousness, tracheal compression from the gogoplata can crush or collapse the windpipe, resulting in permanent airway damage requiring surgical repair. This means the defender must tap earlier and more decisively than with blood chokes, as the window between 'uncomfortable' and 'seriously injured' is much narrower. Defenders should never attempt to tough out a locked gogoplata."
@@ -74,7 +74,7 @@ description: "How to defend against Gogoplata in BJJ. Recognition, escape paths,
     },
     {
       "@type": "Question",
-      "name": "At what point in the gogoplata sequence should a defender escalate their defensive urgency to maximum, and what should they do?",
+      "name": "When should a gogoplata defender escalate to maximum urgency, and what should they do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maximum defensive urgency should engage the instant you feel a hard bony surface (the shin) making contact with the front of your throat while your posture is broken. At this point, you have seconds before the attacker secures full head control and the choke becomes extremely dangerous. Your immediate response should be to tuck your chin, turn your head toward the attacker's knee, and explosively drive your hips backward while simultaneously fighting their grip on your head with both hands. If these actions do not create immediate space within 2-3 seconds, you should tap rather than continuing to fight a locked tracheal choke."
@@ -82,7 +82,7 @@ description: "How to defend against Gogoplata in BJJ. Recognition, escape paths,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established rubber guard and you feel their leg beginning to thread across your face - what is the correct sequence of defensive actions?",
+      "name": "Their rubber guard leg starts threading across your face — what defensive sequence follows?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct sequence is: First, immediately drive your posture upward and backward using your core and hips, not just your neck. Second, simultaneously use your near-side hand to frame against their hip or leg to create space, preventing the leg from completing its arc across your throat. Third, fight any head control grips with your far-side hand to prevent them from pulling your face into the incoming shin. Fourth, if the leg continues advancing despite your posture recovery attempt, turn your chin strongly toward the direction the leg is coming from to prevent the shin from settling across the front of your trachea. The critical element is speed - every half-second of delay reduces your escape probability significantly."

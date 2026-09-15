@@ -74,7 +74,7 @@ description: "Complete guide to executing the Transition to Shoulder of Justice 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal shoulder angle for establishing Shoulder of Justice pressure from the transition?",
+      "name": "What shoulder angle best applies Shoulder of Justice pressure from side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal angle is approximately 45 degrees directed toward the opponent's far shoulder, using the shoulder blade as the primary contact point against the jaw and temporomandibular joint. This angle prevents the opponent from turning their head back toward you and creates a pressure vector through their cervical spine. Driving straight down is less effective because it allows head rotation and escape initiation."
@@ -82,7 +82,7 @@ description: "Complete guide to executing the Transition to Shoulder of Justice 
     },
     {
       "@type": "Question",
-      "name": "Why must hip connection be maintained throughout the chest walk-up rather than just at the start and finish?",
+      "name": "Why must hip connection never break during the chest walk-up to Shoulder of Justice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Any momentary disconnection of your hips from the opponent's near hip line during the walk-up creates a window for shrimping escape. The chest walk-up is the most vulnerable phase of the transition because your weight is shifting forward, and if your hips lift even briefly, a skilled opponent will exploit that space to insert a knee for half guard recovery or begin a shrimping sequence that defeats the transition entirely."
@@ -90,7 +90,7 @@ description: "Complete guide to executing the Transition to Shoulder of Justice 
     },
     {
       "@type": "Question",
-      "name": "Your opponent creates a strong forearm frame against your neck as you begin the chest walk-up. How do you respond?",
+      "name": "They frame a forearm on your neck as you begin the chest walk-up: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have two primary options depending on frame strength. First, use your body weight to collapse the frame by walking your pressure into it incrementally rather than trying to push through it with arm strength. Second, if the frame is structurally sound with elbow-to-knee connection, attack the extended arm with a kimura grip, converting their defensive frame into an offensive opportunity. Never try to muscle through a well-structured frame."

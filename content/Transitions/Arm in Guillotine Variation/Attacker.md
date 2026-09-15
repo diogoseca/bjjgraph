@@ -82,7 +82,7 @@ description: "How to execute the arm-in guillotine variation from top guillotine
     },
     {
       "@type": "Question",
-      "name": "When should you commit to arm-in finishing mechanics rather than trying to remove the trapped arm for a standard guillotine?",
+      "name": "With their arm trapped in your guillotine, when do you commit to arm-in mechanics vs strip it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Commit to arm-in mechanics immediately upon recognizing the trapped arm—do not waste time trying to remove it. The arm-in variation is higher percentage when the arm is already trapped because fighting to remove it creates transitional moments the opponent can exploit to escape or improve position. The trapped arm actually assists the choke by adding compression. The only exception is if your grip depth is too shallow to finish with the arm inside, in which case you may need to briefly adjust before re-committing to either arm-in or standard finishing."
@@ -90,7 +90,7 @@ description: "How to execute the arm-in guillotine variation from top guillotine
     },
     {
       "@type": "Question",
-      "name": "What is the primary direction of force application during the arm-in guillotine finish from top position?",
+      "name": "What is the main direction of force for the arm-in guillotine finish from top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary force application is a combination of elbow elevation (driving the choking elbow toward the ceiling) and hip extension (driving hips forward and down). The elbow elevation creates a scissoring action that compresses the neck between the forearm blade and the trapped shoulder, while the hip extension generates structural pressure through the entire body rather than relying on arm strength. The secondary force vector is the chest driving into the back of the opponent's head, preventing posture recovery and maintaining the broken-posture configuration that enables the choke."
@@ -114,7 +114,7 @@ description: "How to execute the arm-in guillotine variation from top guillotine
     },
     {
       "@type": "Question",
-      "name": "Your opponent attempts to turn toward the choking arm to extract their trapped arm—what is your response?",
+      "name": "They turn toward your choking arm to free the trapped arm; how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent turns toward the choking arm, immediately elevate your elbow higher and increase hip pressure on the trapped-arm side to prevent the extraction. Follow their rotation with your hips so they cannot create the extraction angle. If they continue turning despite your adjustment, you have two options: increase torque and drive your shoulder into their back to reverse their rotation, or recognize the turn as a transition opportunity and switch to an anaconda or darce configuration while their arm and head are still controlled. Never let them complete the full rotation without either re-trapping or transitioning to an alternative attack."

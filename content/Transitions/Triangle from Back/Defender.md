@@ -64,7 +64,7 @@ description: "How to defend against Triangle from Back in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Why does committing both hands to a two-on-one grip on the choking arm create vulnerability to the triangle entry?",
+      "name": "Why does a two-on-one grip on the choking arm expose you to the triangle from the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When both hands grip the choking arm low near your chest, your shoulders naturally open and your far-side arm is occupied and unable to block anything above shoulder level. This creates the exact gap above the shoulder that the attacker needs to thread the triangle leg through. Additionally, with both hands committed low, you have no available hand to intercept or push away the incoming leg. The attacker reads this two-handed commitment as the trigger for the triangle entry specifically because it guarantees an unobstructed path for the leg."
@@ -72,7 +72,7 @@ description: "How to defend against Triangle from Back in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "The attacker's leg has cleared your shoulder but the figure-four is not yet locked - what is your immediate response?",
+      "name": "Their leg cleared your shoulder but the figure-four isn't locked: what do you do now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grab the attacker's ankle or shin on the leg that just cleared your shoulder and push it back over before they can bring their other leg up to lock the figure-four. You have approximately 2-3 seconds in this window. Use your hand closest to the leg and drive it forcefully back over the shoulder while simultaneously shrugging that shoulder upward to create additional clearance. If you cannot push the leg off, immediately begin working to extract your arm from inside the developing triangle before the lock tightens."
@@ -80,7 +80,7 @@ description: "How to defend against Triangle from Back in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How should you distribute your defensive attention between the rear naked choke and the triangle entry threat?",
+      "name": "How do you split your defensive attention between the rear naked choke and triangle entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than committing both hands entirely to choke defense, maintain a split-attention defensive posture. Keep one hand actively controlling the choking arm wrist with a strong C-grip while positioning the other hand near your shoulder line where it can monitor and block leg threading attempts. Alternate which hand fights the choke every few seconds to prevent the attacker from reading a static pattern. This split approach is more demanding than static two-on-one defense but eliminates the binary vulnerability the attacker is trying to exploit."
@@ -88,7 +88,7 @@ description: "How to defend against Triangle from Back in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked the triangle from the back with your arm trapped - what is your escape priority sequence?",
+      "name": "Caught in a triangle from the back with an arm trapped: what is your escape priority sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, protect your chin by tucking it tight to your chest and turning your face toward the non-choking leg side to buy time against the blood choke. Second, grip the attacker's choking leg at the ankle or behind the knee with your free hand to prevent them from tightening further. Third, work to extract your trapped arm by gripping your own wrist and pulling the elbow across your centerline while rotating your shoulder. Fourth, once the arm is free, immediately hip escape and turn toward the side where the triangle pressure is reduced. The sequence is: protect chin, control leg, extract arm, escape position. Skipping steps or reversing the order dramatically reduces escape probability."

@@ -58,7 +58,7 @@ description: "Defend the Short Choke from Gift Wrap position. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize the Short Choke from Gift Wrap is being set up before the forearm reaches your neck?",
+      "name": "How do you spot a Short Choke from Gift Wrap before the forearm reaches your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key recognition cues include the attacker repositioning their free arm near your neck while maintaining the Gift Wrap with the other arm, the attacker's head moving toward the back of your skull to create a wedging angle, and changes in their chest pressure as they drive weight higher on your back. When you feel these adjustments, immediately tuck your chin and bring your free hand to your neck to block the forearm insertion path."
@@ -82,7 +82,7 @@ description: "Defend the Short Choke from Gift Wrap position. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why is preventing the forearm insertion more important than trying to recover the trapped arm during an active choke attempt?",
+      "name": "Why defend the forearm insertion before trying to free your trapped arm in the Gift Wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recovering the trapped arm takes multiple seconds of sustained effort with hip rotation and shoulder movement. During this time, your neck is completely undefended because your free hand is occupied with arm recovery mechanics. The attacker can thread and seat the forearm in under two seconds against an undefended neck. Defending the immediate choke threat takes priority because the time to submission is much shorter than the time to arm recovery."

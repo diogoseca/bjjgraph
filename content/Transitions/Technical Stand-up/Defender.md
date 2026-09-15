@@ -56,7 +56,7 @@ description: "How to defend against Technical Stand-up in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical timing window for disrupting a technical stand-up, and what happens if you miss it?",
+      "name": "When must you disrupt a technical stand-up, and what changes if you miss that window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical window is during the hip elevation phase — the 1-2 seconds between when the opponent's hips begin to leave the mat and when their trail leg completes its swing through. During this window, the opponent is committed to the movement but has only two stable base points (posting hand and lead foot), making them structurally vulnerable to forward pressure or base collapse. If you miss this window and the trail leg plants, the opponent now has a strong sprinter stance with full weight on both feet, making them extremely difficult to drive backward and giving them access to defensive sprawls, snap-downs, and counter-attacks."
@@ -64,7 +64,7 @@ description: "How to defend against Technical Stand-up in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Why is controlling the posting arm considered the highest-priority defensive action against the technical stand-up?",
+      "name": "Why is controlling the posting arm the top defensive priority against a technical stand-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posting arm is the structural keystone of the tripod base — without it, the opponent cannot elevate their hips high enough for the trail leg to swing through, and the entire movement collapses. The posting arm supports approximately 30-40% of body weight during hip elevation, so removing it eliminates the mechanical foundation of the technique. Unlike the lead leg barrier, which primarily blocks your advance, the posting arm is load-bearing and cannot be easily replaced mid-movement. Controlling it early forces the opponent to abort entirely, while controlling the lead leg only partially disrupts the sequence."
@@ -72,7 +72,7 @@ description: "How to defend against Technical Stand-up in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully stands up from seated guard — what should your immediate tactical response be?",
+      "name": "Your opponent completes a technical stand-up from seated guard: what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the stand-up completes successfully, immediately close distance and re-engage with grips rather than allowing neutral standing at distance. Establish a collar tie or underhook to prevent them from simply disengaging. If you had strong grips before the stand-up, use them to immediately snap down to front headlock or shoot for a takedown while opponent is still finding their balance in the new stance. The worst response is to stand at distance passively — this rewards the stand-up and resets completely. Alternatively, if you are a guard player yourself, consider pulling guard to transition to your own bottom game rather than engaging in a standing battle."
@@ -80,7 +80,7 @@ description: "How to defend against Technical Stand-up in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How do you differentiate between a genuine technical stand-up attempt and a feint designed to create a sweep opening?",
+      "name": "How do you tell a committed technical stand-up from a feint set up to bait a sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A genuine stand-up shows full commitment: posting hand firmly planted with locked elbow, hip elevation beginning immediately after posting, and trail leg actively preparing to swing. A feint typically shows posting hand placement without weight commitment, partial hip elevation that stalls, and the opponent's eyes tracking your reaction rather than focused on completing the movement. The key tell is weight transfer — in a real stand-up, the opponent shifts significant weight onto the posting hand and lead foot, which you can feel through your grips. In a feint, weight stays centered on the hips. If you rush forward against a feint, you overcommit and walk into the sweep they actually intended."
@@ -88,7 +88,7 @@ description: "How to defend against Technical Stand-up in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What grip combination is most effective for preventing technical stand-up initiation from seated guard top position?",
+      "name": "Which grip combination best stops a technical stand-up from starting in seated guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A cross-collar grip combined with same-side sleeve or wrist control on the arm the opponent intends to post with is the most effective prevention grip. The collar grip breaks their posture and prevents them from sitting fully upright, which is required to establish the posting hand behind their hip. The sleeve grip on the posting arm directly prevents them from placing the hand on the mat. This combination forces them to spend time fighting grips before they can even begin the stand-up sequence, giving you time to advance your passing position. The collar grip is particularly important because even without the sleeve grip, it alone prevents the upright posture needed for effective posting."

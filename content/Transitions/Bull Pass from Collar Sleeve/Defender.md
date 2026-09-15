@@ -56,7 +56,7 @@ description: "Defend the Bull Pass from Collar Sleeve Guard. Recognition cues, g
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a bull pass is being attempted from your collar sleeve guard?",
+      "name": "What is the earliest cue that a bull pass is coming against your collar sleeve guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when the passer grabs your sleeve-gripping wrist or forearm with their free hand to establish a two-on-one grip break. This setup precedes the actual grip break by one to two seconds and gives you the maximum defensive preparation time. Immediately upon feeling the two-on-one, tighten your grip, curl your wrist, and prepare for hip escape movement."

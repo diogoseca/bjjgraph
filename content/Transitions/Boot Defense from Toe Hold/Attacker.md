@@ -82,7 +82,7 @@ description: "Learn the Boot Defense from Toe Hold attacker execution. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent's figure-four grip is locked—which hand should you target first with two-on-one control?",
+      "name": "Their toe hold figure-four is locked: which hand do you attack first with two-on-one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Target the top hand of the figure-four configuration first, as removing the top hand collapses the entire grip structure. Push this hand toward the bottom hand to break the figure-four chain. The top hand provides the rotational force while the bottom hand serves as the anchor, so removing the force-generating hand immediately reduces submission threat and opens the path for leg extraction."
@@ -90,7 +90,7 @@ description: "Learn the Boot Defense from Toe Hold attacker execution. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Why is circular leg extraction superior to pulling straight back when escaping after the boot defense?",
+      "name": "After the boot defense, why extract the leg circularly instead of pulling straight back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circular extraction uses hip rotation to guide the knee in a spiral path that exploits natural gaps in the opponent's grip configuration rather than fighting their grip strength at its strongest angle. Linear pulling creates additional stress on the ankle and simply reinforces the opponent's control line. The circular motion generates angular momentum that assists the escape while minimizing joint stress."
@@ -98,7 +98,7 @@ description: "Learn the Boot Defense from Toe Hold attacker execution. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "You deploy the boot but feel your opponent shifting their hips to a perpendicular angle—what is happening and how do you respond?",
+      "name": "You boot the toe hold and feel their hips turn perpendicular: what is coming, and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent is transitioning from the toe hold to a kneebar attack, exploiting the straightened leg that the boot creates. Immediately bend your knee and pull it toward your chest to prevent the extension they need for kneebar completion. This requires abandoning the rigid boot structure in favor of the bent-knee defense, recognizing that the submission threat has fundamentally changed."
@@ -106,7 +106,7 @@ description: "Learn the Boot Defense from Toe Hold attacker execution. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "At what point during the toe hold sequence should the boot defense be deployed for maximum effectiveness?",
+      "name": "When in the toe hold sequence should you deploy the boot defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Deploy the boot immediately upon recognizing the opponent's hands configuring around your foot in the toe hold grip pattern, before any rotational pressure begins. The boot is most effective as a preemptive defense during grip establishment rather than a reactive response to applied rotation. Every second of delay reduces effectiveness because rotational force progressively compromises ankle structural integrity."

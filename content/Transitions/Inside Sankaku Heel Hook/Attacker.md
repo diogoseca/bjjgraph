@@ -80,7 +80,7 @@ description: "Complete attacker guide for the Inside Sankaku Heel Hook. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent is actively hiding their heel by pressing it against their hip—what systematic approach do you use to force exposure?",
+      "name": "They hide the heel against their hip in Inside Sankaku. How do you systematically force exposure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply steady forward hip pressure to create tension on their hip flexor, making the hidden position exhausting to maintain. Simultaneously use your inside leg to slightly elevate their knee, which changes the angle and makes heel hiding harder. If they maintain the hide, threaten a toe hold by grabbing their toes—this forces them to address a different submission vector, often momentarily exposing the heel as they adjust their defense. The key is creating a dilemma where defending one threat exposes another."
@@ -88,7 +88,7 @@ description: "Complete attacker guide for the Inside Sankaku Heel Hook. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window to transition from positional control to the heel hook submission attempt?",
+      "name": "From Inside Sankaku, when should you switch from positional control to the heel hook attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window opens when three conditions align simultaneously: your hip connection is fully established with no gap, the knee line is controlled so the opponent cannot rotate defensively, and either the heel is already exposed or you have a clear path to strip the protection. Additionally, the opponent should be in a reactive rather than proactive defensive mode—meaning they are responding to your pressure rather than executing a pre-planned escape sequence. Attempting the heel hook during an active escape attempt significantly reduces success rates."
@@ -96,7 +96,7 @@ description: "Complete attacker guide for the Inside Sankaku Heel Hook. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Where exactly should your wrist blade be positioned relative to the opponent's heel anatomy for maximum breaking efficiency?",
+      "name": "Where exactly should your wrist blade sit on their heel for an efficient inside heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The blade (ulnar/pinky side) of your wrist should be positioned directly against the Achilles tendon at the base of the calcaneus (heel bone), sitting in the natural groove between the bottom of the calf muscle and the top of the heel. Your fingers wrap around the heel bone itself from the outside. This placement creates a fulcrum point that transmits rotational force most efficiently to the knee's ligaments. Placement too high on the calf reduces leverage, and too low on the foot shifts force away from the knee."
@@ -112,7 +112,7 @@ description: "Complete attacker guide for the Inside Sankaku Heel Hook. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What critical mechanical detail distinguishes a properly applied inside heel hook from an ineffective one?",
+      "name": "What mechanical detail separates a properly applied inside heel hook from an ineffective one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical distinction is rotational alignment perpendicular to the knee's natural bending axis. A properly applied inside heel hook rotates the heel away from the knee in the direction that loads the MCL and ACL—specifically, the heel rotates laterally while the knee is prevented from following. An ineffective attempt applies force along the knee's natural bending plane (flexion/extension) rather than against its rotational resistance. The entanglement must prevent the opponent from rotating their entire body with the force, so knee line control is inseparable from the submission mechanics."
@@ -120,7 +120,7 @@ description: "Complete attacker guide for the Inside Sankaku Heel Hook. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a rolling escape by dipping their shoulder and loading their hip to rotate—how do you respond?",
+      "name": "They dip a shoulder and load their hip to roll out of Inside Sankaku. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your weight down into the entanglement by pulling their trapped knee tighter to your body with your legs. Use your outside hand to post on the mat or grab their far hip to block the rotation before it develops momentum. If they commit fully to the roll, follow the rolling motion while maintaining your grip—their roll can actually improve your finishing angle as it often transitions the position toward Saddle where you have even tighter control. The key is reading the roll early from the shoulder and hip loading cues rather than reacting after it's initiated."

@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "Your opponent threads one leg deeply behind your knee while you are still in combat base - what determines whether you should back step or address the hook directly?",
+        "question": "They thread a leg behind your knee in combat base: what decides stripping the hook vs back stepping?",
         "answer": "Hook depth and secondary control decide it: strip a shallow, unsupported hook by hand, but back step once the hook is deep or reinforced. If the hook is shallow and the opponent has not yet secured a second control point such as an ankle grip or hip clamp, you can strip the hook directly with your hand. If the hook is deep and the opponent is beginning to rotate or secure additional control, the back step is necessary because direct stripping will be too slow and risks tightening the entanglement.",
         "distractors": {
           "plausible": [
@@ -374,7 +374,7 @@
         }
       },
       {
-        "question": "If your back step clears the entanglement but the opponent recovers butterfly hooks, what chain attack should you use?",
+        "question": "Your back step clears the entanglement but they recover butterfly hooks: what chain attack follows?",
         "answer": "Chain immediately into a butterfly smash or over-under pass, driving your shoulder into their chest and pinning one butterfly hook flat with hip pressure. Alternatively, if they elevate with the hooks, back step again or switch to a leg drag by controlling the ankle of their near leg and dragging it across your body.",
         "distractors": {
           "plausible": [
@@ -553,7 +553,7 @@
         }
       },
       {
-        "question": "What makes the Back Step Pass particularly dangerous compared to other passing techniques against grasshopper guard?",
+        "question": "Why is the back step especially dangerous against grasshopper guard compared to other passes?",
         "answer": "The back step specifically targets grasshopper guard's primary weakness: the reliance on maintaining continuous leg contact with the passer. By extracting backward at an angle rather than driving through the guard, the passer avoids feeding into your sweeping and entanglement mechanics while simultaneously opening a direct path to side control.",
         "answer_line": "Exploits reliance on leg contact",
         "distractors": {
@@ -567,7 +567,7 @@
         }
       },
       {
-        "question": "How should you adjust your grasshopper guard structure if you know your opponent frequently uses the back step?",
+        "question": "How do you adjust your grasshopper guard against an opponent who back steps often?",
         "answer": "Maintain deeper hooks with your legs wrapped further behind the passer's knees rather than shallow shin-on-shin contact. Keep your secondary leg ready to immediately redirect to the base leg if the primary hook is stripped. Accelerate your attack timeline from grasshopper—commit to sweeps or leg entries faster to force the passer to defend rather than initiate their back step.",
         "answer_line": "Deepen hooks, attack faster",
         "distractors": {

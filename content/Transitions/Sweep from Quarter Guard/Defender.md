@@ -56,7 +56,7 @@ description: "Learn to defend against the Sweep from Quarter Guard as the top pl
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the bottom player is setting up a sweep from quarter guard?",
+      "name": "What are the earliest cues that the bottom player is setting up a sweep from quarter guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include the bottom player fighting aggressively for underhook depth rather than defending the pass, their hips escaping away to create an angle rather than staying flat, their free leg posting on the mat with foot flat rather than hooking or framing, and their free hand reaching for your far hip rather than framing against your chest. These combined actions indicate sweep preparation rather than guard recovery."
@@ -72,7 +72,7 @@ description: "Learn to defend against the Sweep from Quarter Guard as the top pl
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep underhook and begins driving upward—what is your immediate defensive priority?",
+      "name": "Quarter guard top: they get a deep underhook and drive upward—your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to sprawl your hips backward and drive your crossface shoulder into their neck to flatten them back down. This removes your center of gravity from the sweep arc and uses your weight advantage to counter their underhook leverage. Simultaneously begin stripping the underhook by overhooking their arm and driving their elbow toward the mat. If sweep momentum is already committed, base out with your far hand and post wide to absorb force."
@@ -80,7 +80,7 @@ description: "Learn to defend against the Sweep from Quarter Guard as the top pl
     },
     {
       "@type": "Question",
-      "name": "When is it better to commit to completing the pass rather than defending the sweep from quarter guard top?",
+      "name": "From quarter guard top, when is finishing the pass better than defending the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Commit to pass completion when you recognize sweep setup indicators but still have a clear passing lane available before the sweep can be fully initiated. If the bottom player's underhook is still developing and their angle is minimal, aggressive pass completion is often the highest-percentage defensive option. However, if all sweep prerequisites are established, focus on neutralizing the sweep first before resuming pass progression to avoid being caught mid-transition."

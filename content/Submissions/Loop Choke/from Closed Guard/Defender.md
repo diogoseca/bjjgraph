@@ -74,7 +74,7 @@ description: "How to defend the Loop Choke from Closed Guard in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Why does pulling backward away from the opponent make the loop choke tighter rather than creating escape space?",
+      "name": "Why does pulling backward away from the attacker tighten the loop choke instead of freeing you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The loop choke uses a self-tightening mechanism where the collar wraps around the neck in a loop configuration. Pulling backward increases the distance between your neck and the opponent's grip anchor point, which pulls the collar tighter around your neck like tightening a drawstring. The collar acts as a noose where any increase in distance between the two ends of the loop translates to decreased circumference around the neck. The correct defensive movement is to drive forward toward the opponent to create slack in the loop, which is counterintuitive but mechanically sound."

@@ -87,26 +87,25 @@ test.describe("Challenge curriculum @curated", () => {
     }
   });
 
-  test("a lesson row reads INLINE and locates its node — it never takes the pane over", async ({
+  test("a lesson row selects its node and URL while keeping its cards inline", async ({
     page,
   }) => {
-    // v1.105.2 (owner): "we don't want content that opens in the sidebar and takes over the
-    // whole sidebar, nor do we want the sidebar to close" — the row click is now the ▸'s inline
-    // Q&A plus a PANE-AWARE camera flight. This test used to assert the takeover (deckOpen +
-    // _session) and read camTarget±60 — the exact assertion style share-camera canon forbids.
-    // It now PROJECTS the node through the draw transform and asserts it landed in the VISIBLE
-    // region (right of the 360px pane), which is what "navigate but keep the sidebar open" means.
+    // Start on Mount Top, then choose Mount Bottom: even the other role of the same
+    // technique must replace the selection. A camera-only flight cannot satisfy this.
     const j = journey(page);
     await j.boot("/");
     await j.hydrateAll();
     await j.land("Mount Top");
     await openChallenges(page);
+    await expect(page.locator(".ng-challenge-ladder [data-list-add]")).toHaveCount(0);
+    const previousFocus = await page.evaluate(() => (window as any).__neural.focusIdx);
 
     const lesson = UNIT1.lessons[0];
     await page
       .locator(`.ng-challenge-lesson[data-lesson="${lesson.deckKey}"]`)
       .click();
     await j.advance(2500); // let the camera converge on its target
+    await expect(page).toHaveURL(/\/Positions\/Mount\/Bottom(?:\?|$)/);
 
     const state = await page.evaluate((deckKey) => {
       const app = (window as any).__neural;
@@ -115,9 +114,11 @@ test.describe("Challenge curriculum @curated", () => {
       const W = app.W || 1200;
       const scale = W / cam.vw;
       const sx = (node.x - cam.cx) * scale + W / 2;
-      const sy = (node.y - cam.cy) * scale + (app.H || 800) / 2;
+      const sy = (app._LY(node) - cam.cy) * scale + (app.H || 800) / 2;
       return {
         sx, sy, W, H: app.H || 800,
+        focus: app.focusIdx,
+        selectedId: app.nodes[app.focusIdx].id,
         paneOpen: !!app.deckShown,
         takeover: !!app._paneStudyActive(),
         miniOpen: !!document.querySelector(`[data-mini-deck="${deckKey}"]`),
@@ -129,6 +130,8 @@ test.describe("Challenge curriculum @curated", () => {
     expect(state.takeover, "and is never taken over by the row click").toBe(false);
     expect(state.navVisible, "the tab nav survives — you can still see where you are").toBe(true);
     expect(state.miniOpen, "the inline Q&A opened in place").toBe(true);
+    expect(state.focus, "the previous node is deselected").not.toBe(previousFocus);
+    expect(state.selectedId).toBe("Positions/Mount/Bottom");
     // the node is in the VISIBLE region: right of the pane, inside the viewport, roughly centred
     expect(state.sx, "right of the 360px pane").toBeGreaterThan(360);
     expect(state.sx).toBeLessThan(state.W);
@@ -136,6 +139,49 @@ test.describe("Challenge curriculum @curated", () => {
     expect(state.sy).toBeLessThan(state.H);
     const visCentre = 360 + (state.W - 360) / 2;
     expect(Math.abs(state.sx - visCentre), "centred in the VISIBLE half, not the viewport").toBeLessThan(120);
+  });
+
+  test("technique rows replace selection and history without list stars", async ({ page }) => {
+    const j = journey(page);
+    await j.boot("/", { keepTutorial: true });
+    await j.hydrateAll();
+    await j.land("Mount Top");
+    await openChallenges(page);
+
+    const picks = [
+      { key: "Upa Escape|Attacker", id: "Transitions/Upa-Escape" },
+      { key: "Kimura from Guard|Attacker", id: "Submissions/Kimura/from-Guard" },
+    ];
+    let previous = await page.evaluate(() => (window as any).__neural.focusIdx);
+    for (const pick of picks) {
+      const row = page.locator(`.ng-challenge-lesson[data-lesson="${pick.key}"]`);
+      await row.scrollIntoViewIfNeeded();
+      await j.clickByMouse(`.ng-challenge-lesson[data-lesson="${pick.key}"]`);
+      await j.advance(2500);
+      await expect(page).toHaveURL(new RegExp("/" + pick.id + "(?:\\?|$)"));
+      const selected = await page.evaluate(() => {
+        const a = (window as any).__neural;
+        return { index: a.focusIdx, id: a.nodes[a.focusIdx].id, history: history.length };
+      });
+      expect(selected.index).not.toBe(previous);
+      expect(selected.id).toBe(pick.id);
+      await expect(page.locator(".ng-challenge-ladder [data-list-add]")).toHaveCount(0);
+      await expect(page.locator(`[data-mini-deck="${pick.key}"]`)).toBeVisible();
+      await expect(page.locator("[data-view='challenges']")).toHaveAttribute("aria-pressed", "true");
+
+      // Choosing the same row again keeps its cards open without duplicating history.
+      await row.click();
+      await j.advance(1000);
+      expect(await page.evaluate(() => history.length)).toBe(selected.history);
+      await expect(page.locator(`[data-mini-deck="${pick.key}"]`)).toBeVisible();
+      previous = selected.index;
+    }
+    await page.goBack();
+    await j.advance(1500);
+    expect(await page.evaluate(() => {
+      const a = (window as any).__neural;
+      return a.nodes[a.focusIdx].id;
+    })).toBe(picks[0].id);
   });
 
   test("finishing a lesson records Challenge evidence without locking other lessons", async ({
@@ -299,16 +345,14 @@ test.describe("Challenge curriculum @curated", () => {
     expect(focus!.focusActive).toBe(true);
   });
 
-  test("the ladder explains itself once, not once per belt", async ({ page }) => {
+  test("the ladder carries no prose, per belt or overall", async ({ page }) => {
     const j = journey(page);
     await j.boot("/");
     await openChallenges(page);
 
-    // ONE plain line for the whole ladder; the per-track prose block is display-retired
-    await expect(page.locator(".ng-ladder-note")).toHaveCount(1);
-    await expect(page.locator(".ng-ladder-note")).toContainText(
-      "Every lesson is open",
-    );
+    // v1.162.0: the last corridor-wide line is gone too — the per-track prose block was
+    // display-retired in v1.96.0, and .ng-ladder-note followed it.
+    await expect(page.locator(".ng-ladder-note")).toHaveCount(0);
     await expect(
       page
         .locator(".ng-challenge-curriculum")

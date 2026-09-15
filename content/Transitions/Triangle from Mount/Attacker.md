@@ -96,7 +96,7 @@ description: "How to execute Triangle from Mount in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent is defending mount by keeping both elbows glued to their ribs. How do you create the arm isolation needed for the triangle entry?",
+      "name": "They keep both elbows glued to their ribs under mount: how do you isolate an arm for the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack with Americana or Ezekiel choke setups that force them to move their arms defensively. When they push against your chest to stop the Americana, one arm naturally extends outside while the other remains trapped. Alternatively, use cross-face pressure to force their head to turn, which typically opens one arm for isolation. The triangle entry comes from their defensive reaction to another attack, not from directly trying to separate their arms."
@@ -112,7 +112,7 @@ description: "How to execute Triangle from Mount in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "You have locked the triangle from mount but the opponent is not tapping. What is the most likely mechanical error?",
+      "name": "Your mounted triangle is locked but they aren't tapping: what is the likely mechanical error?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most likely error is squeezing straight-on without adjusting your hip angle. A triangle locked with hips parallel to the opponent compresses the trachea (an airway choke that is painful but survivable) rather than the carotid arteries (a blood choke that causes unconsciousness). Rotate your hips 30-45 degrees perpendicular to the opponent so your inner thighs compress across both carotid arteries. Also ensure you are pulling the opponent's head down to eliminate defensive space."
@@ -120,7 +120,7 @@ description: "How to execute Triangle from Mount in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "During the leg swing, your opponent bridges hard and you feel your base destabilizing. What should you do?",
+      "name": "They bridge hard during your leg swing and your base is going: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free hand wide on the mat and drive your mounted knee deeper into their ribs to re-anchor. If the bridge is too powerful to maintain position, abandon the triangle attempt immediately and resettle into 3-4 Mount or side control. Forcing a compromised triangle entry against an active bridge is the most common way to lose mount entirely. It is always better to retain mount and restart the setup than to lose position chasing a half-locked triangle."

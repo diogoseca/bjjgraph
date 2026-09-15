@@ -249,7 +249,7 @@
         }
       },
       {
-        "question": "Why must you immediately establish your own grips or create distance after breaking an opponent's grip?",
+        "question": "Why must you re-grip or create distance right after breaking your opponent's grip?",
         "answer": "Breaking a grip creates only a momentary window of advantage that lasts 1-2 seconds. If you don't capitalize on this window by establishing your own superior grips or creating distance with frames, your opponent will simply re-establish their grips and you've wasted energy without gaining any tactical advantage. The follow-up action is what transforms a grip break from a defensive reaction into an offensive opportunity.",
         "answer_line": "Re-grip or frame instantly",
         "distractors": {
@@ -277,7 +277,7 @@
         }
       },
       {
-        "question": "Your opponent has a deep cross-collar grip and is starting to pull your posture down - what is the optimal timing to initiate the break?",
+        "question": "From open guard bottom, when should you break a deep cross-collar grip pulling you down?",
         "answer": "The optimal timing is immediately, before the grip consolidates into full posture control. As soon as you feel the collar grip tighten and pressure begin on your neck, bring both hands to their gripping wrist and push their hand down toward your belt line while simultaneously extending your spine and framing with your legs. Waiting even 2-3 seconds allows them to establish head control and compound the grip with their other hand, making the break exponentially harder.",
         "answer_line": "Break instantly before it sets",
         "distractors": {
@@ -291,7 +291,7 @@
         }
       },
       {
-        "question": "Your opponent switches from a sleeve grip to a collar grip the instant you begin your two-on-one break - how do you adjust?",
+        "question": "Your opponent switches sleeve to collar as you start a two-on-one break. How do you adjust?",
         "answer": "Immediately redirect your two-on-one to address the new collar grip since collar grips are almost always higher priority than sleeve grips due to posture and choke threats. Use the hand closest to their switching hand to intercept and control their wrist before the collar grip consolidates. The key is tracking their hand during the switch rather than completing the now-irrelevant sleeve break. This read-and-react ability separates intermediate from advanced grip fighters.",
         "answer_line": "Redirect to the new collar grip",
         "distractors": {
@@ -333,7 +333,7 @@
         }
       },
       {
-        "question": "What are the specific grip requirements for executing a successful collar grip break from open guard bottom?",
+        "question": "What grips do you need to break a collar grip from open guard bottom?",
         "answer": "You need to establish a C-grip on their gripping wrist with your same-side hand, placing your thumb on the back of their wrist and fingers wrapping underneath. Your opposite hand then grips their sleeve material just above the wrist or on their forearm. Both grips must be secured before initiating the break. Your legs should maintain frames on their hips or shoulders throughout to prevent them from driving forward while you commit both hands to the break.",
         "answer_line": "C-grip wrist, frame with legs",
         "distractors": {
@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "Your grip break attempt fails and your opponent now has a deeper grip than before - what is the correct recovery sequence?",
+        "question": "Your grip break fails and their grip gets deeper. What is the recovery sequence?",
         "answer": "First, immediately re-establish your defensive frames with your legs to prevent positional advancement. Do not attempt the same grip break again right away. Instead, create distance with a hip escape to give yourself space and time. Reassess the grip - if it deepened because your angle was wrong, adjust your body position before the next attempt. If it deepened because they reinforced with their second hand, address the reinforcing hand first to isolate the primary grip again. Sometimes the best response is to transition to an offensive technique that the deep grip actually enables, such as using a deep collar grip against them for a sweep entry.",
         "answer_line": "Frame, hip escape, reassess",
         "distractors": {
@@ -467,7 +467,7 @@
     ],
     "flashcards": [
       {
-        "question": "Why is maintaining multiple connection points the most important defensive principle against grip breaks?",
+        "question": "Why are multiple connection points your best defense against grip breaks?",
         "answer": "Multiple connection points create redundancy in your control structure so that losing any single grip does not eliminate your tactical advantage. If you have both a collar grip and a pant grip, your opponent must successfully break both to gain free movement. This forces them to commit more time and energy to grip fighting while you maintain at least partial control throughout the exchange. It also gives you options for which grip to sacrifice and which to defend.",
         "answer_line": "Redundant grips, harder to strip",
         "distractors": {
@@ -481,7 +481,7 @@
         }
       },
       {
-        "question": "When your opponent establishes a strong two-on-one on your gripping hand, what is the optimal defensive response?",
+        "question": "Your opponent gets a strong two-on-one on your gripping hand. Best response?",
         "answer": "Rather than fighting a losing battle against their two-on-one mechanical advantage, switch to an alternative grip before the break completes. Release the contested grip voluntarily while your other hand establishes a new connection point - a different collar depth, a cross-grip, or a pant grip. This preserves your energy, maintains control continuity, and often catches the opponent off-guard since they prepared for the break but not for your immediate re-engagement at a different control point.",
         "answer_line": "Release, re-grip elsewhere fast",
         "distractors": {
@@ -523,7 +523,7 @@
         }
       },
       {
-        "question": "Your opponent has just broken your primary collar grip - what should your immediate recovery sequence look like?",
+        "question": "Your opponent just broke your collar grip in open guard. What is your recovery sequence?",
         "answer": "Within the first second after the break, your freed hand should already be reaching for a new control point rather than pausing. Immediately seek either a re-grip at a different collar depth, a cross-collar grip, or a same-side sleeve grip to maintain some connection. Simultaneously, your other hand should tighten whatever secondary grip it already holds to prevent total loss of control. If no secondary grip exists, use the freed hand to frame against their shoulder or bicep while you re-establish grips, preventing them from capitalizing on the momentary freedom with positional advancement.",
         "answer_line": "Freed hand re-grips instantly",
         "distractors": {

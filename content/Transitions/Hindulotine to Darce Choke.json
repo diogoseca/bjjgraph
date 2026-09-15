@@ -273,7 +273,7 @@
         }
       },
       {
-        "question": "Your opponent retracts their defensive frame as soon as they feel you release the guillotine grip - what adjustment do you make?",
+        "question": "They pull their frame back as you release the guillotine for the Darce — how do you adjust?",
         "answer": "Immediately return to the guillotine finish since their frame removal reopens the original attack. The frame retraction means they chose to accept guillotine pressure rather than Darce pressure, making the original submission viable again. This creates a dilemma where either choice benefits you.",
         "answer_line": "Snap back to the guillotine",
         "distractors": {
@@ -371,7 +371,7 @@
         }
       },
       {
-        "question": "Your opponent blocks arm threading by pinching their elbow tight against their ribs - what is your response?",
+        "question": "They pinch their elbow to their ribs to block your Darce threading — what is your response?",
         "answer": "Use your threading arm to apply inward pressure against their elbow while simultaneously adjusting your hip angle to create a better penetration path. If the block is strong, reapply guillotine pressure to force them to re-establish the frame, then reattempt the threading when the frame reappears. The guillotine threat is the tool that opens the Darce entry.",
         "answer_line": "Reapply guillotine to reopen frame",
         "distractors": {
@@ -540,7 +540,7 @@
         }
       },
       {
-        "question": "Your opponent has partially threaded the Darce arm but has not locked the grip - what is your best defensive action?",
+        "question": "They have partly threaded the Darce arm but have not locked the grip — what is your best defense?",
         "answer": "Drive forward aggressively to flatten the attacker while simultaneously working to extract your trapped arm. The forward pressure denies them the hip angle needed to lock the figure-four grip and generate finishing torque. Use your free hand to push against their hip or threading arm while walking your knees past their hips to establish a passing position.",
         "answer_line": "Drive forward, extract trapped arm",
         "distractors": {

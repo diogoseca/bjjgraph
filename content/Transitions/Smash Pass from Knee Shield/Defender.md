@@ -56,7 +56,7 @@ description: "Defend against the Smash Pass from Knee Shield in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel the opponent driving your knee shield laterally across your body—what is your first defensive action?",
+      "name": "Your knee shield is being driven laterally across your body. First defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately frame on their far shoulder with your free hand to create counter-pressure against the lateral drive, and simultaneously hip escape in the opposite direction of the shield's travel. This combination of framing and hip movement re-establishes the shield angle before it crosses your centerline. If the shield has already passed the midpoint, abandon the re-shield attempt and transition to deep half guard by diving underneath their hips."
@@ -64,7 +64,7 @@ description: "Defend against the Smash Pass from Knee Shield in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that a smash pass is being initiated rather than a knee slice?",
+      "name": "Which early cues show a smash pass rather than a knee slice against your knee shield?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The smash pass is distinguished by the passer angling their body at approximately 45 degrees to your shield while driving shoulder pressure into your upper chest rather than slicing their knee through a gap. The passer's grip will target your shield leg ankle for lateral control rather than seeking to separate your knees. You will feel lateral force on your shield moving it across your body, whereas a knee slice produces a splitting force between your knees."
@@ -88,7 +88,7 @@ description: "Defend against the Smash Pass from Knee Shield in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "The passer has established crossface and is driving into you—what underhook strategy can you use to counter?",
+      "name": "Smashed under a crossface from knee shield: how do you time an underhook to counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Wait for the passer to commit forward pressure during the shield collapse phase, then swim your near arm underneath their far armpit to establish a deep underhook. The timing is critical—attempt the underhook when their weight is forward and their near arm is occupied with crossface pressure. Once the underhook is established, immediately begin elevating to dogfight by driving off your bottom foot and pulling your underhook arm upward. The forward momentum the passer used for the smash becomes a liability during the underhook sweep."

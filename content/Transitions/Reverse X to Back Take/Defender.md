@@ -80,7 +80,7 @@ description: "How to defend against Reverse X to Back Take in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already started inverting and their shoulders are rotating - is it too late to defend?",
+      "name": "They're inverting and their shoulders are rotating for your back. Is it too late to defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "It is not too late if they have not yet established chest-to-back connection. You have a critical window between the start of the inversion and the completion of back control. Immediately post your near hand on the mat and turn aggressively to face them. Drive your weight forward to flatten their inversion attempt. If you can deny the chest-to-back connection, you can force a scramble even from a partially completed inversion. The defense only becomes extremely difficult once they have both seatbelt grip and chest connection established."

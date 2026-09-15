@@ -56,7 +56,7 @@ description: "Defend against the Saddle Entry counter-entanglement from Outside 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is preparing a Saddle Entry rather than a standard escape?",
+      "name": "What is the earliest cue your opponent is entering saddle rather than escaping outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent planting their free leg firmly on the mat in a posting position while simultaneously controlling your foot or ankle with their hands. Standard escape attempts involve pulling the leg straight out or standing up to create distance, while saddle entry preparation involves accepting the entanglement and establishing rotational base. When you see them settle into the position rather than fighting to leave it, they are likely planning a counter-entanglement."
@@ -64,7 +64,7 @@ description: "Defend against the Saddle Entry counter-entanglement from Outside 
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining constant submission pressure the best prevention against counter-entanglement attempts?",
+      "name": "Why does constant submission pressure best prevent their counter-entanglement from outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Constant submission pressure forces your opponent to dedicate both hands to protecting their own heel and ankle, leaving them no free hands to control your foot which is a prerequisite for the backstep. Additionally, submission threat keeps their mental focus on defense rather than offense. An opponent who is actively defending a heel hook cannot simultaneously plan and execute a counter-entanglement rotation requiring precise timing and committed movement."
@@ -72,7 +72,7 @@ description: "Defend against the Saddle Entry counter-entanglement from Outside 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the backstep and their heel becomes briefly exposed - should you release your triangle to pursue the heel hook?",
+      "name": "Their heel is briefly exposed as they backstep: should you release your triangle to chase it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No, you should not release your triangle to pursue the heel hook. Instead, maintain your triangle squeeze while reaching for the heel with your upper body. Releasing the triangle to chase the heel gives the opponent exactly what they need to complete the rotation unimpeded. If you can catch the heel while maintaining leg control, you get both the submission opportunity and the prevention of the counter-entanglement. If you cannot reach the heel without releasing the triangle, prioritize maintaining your triangle control."
@@ -80,7 +80,7 @@ description: "Defend against the Saddle Entry counter-entanglement from Outside 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your outside ashi-garami control to specifically defend against the backstep entry?",
+      "name": "How do you adjust outside ashi-garami control to defend the backstep saddle entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "To defend specifically against the backstep, focus on three adjustments: first, keep your outside leg crossing high on their thigh rather than low near the knee, making it harder for them to rotate over; second, maintain active pulling pressure with your inside leg to keep their trapped leg deep in your entanglement; third, angle your hips slightly away from their free leg posting side to reduce the rotational leverage they can generate. These adjustments make the backstep significantly more difficult without compromising your submission options."
@@ -88,7 +88,7 @@ description: "Defend against the Saddle Entry counter-entanglement from Outside 
     },
     {
       "@type": "Question",
-      "name": "If the opponent successfully enters saddle despite your prevention attempts, what is your immediate defensive priority?",
+      "name": "If they complete the saddle entry anyway, what is your immediate defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is hiding your heel by rotating your knee inward toward your centerline while flexing your foot. Do not attempt an immediate escape, as the opponent has just established position and their control mechanics are strongest during initial consolidation. After protecting the heel, begin systematic grip fighting on their hands to prevent them from securing heel control. Only after addressing grips should you begin working hip clears and leg extraction through the established saddle escape hierarchy."

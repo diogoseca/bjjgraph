@@ -62,7 +62,7 @@ description: "How to defend against Saddle Entry from Top in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most effective moment to defend the saddle entry, and what should you do at that moment?",
+      "name": "When is the best moment to defend the saddle entry from top, and what do you do then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective moment is when the attacker first establishes two-handed control on your near leg, before any step-over has begun. At this moment, immediately retract your knee to your chest while turning your hip away from the attacker and use your hands to strip the ankle grip. This denies the fundamental requirement for the entry. Every subsequent defensive opportunity is progressively harder because the attacker gains mechanical advantages with each phase of the entry they complete."
@@ -70,7 +70,7 @@ description: "How to defend against Saddle Entry from Top in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has stepped over your leg but has not yet locked their feet - what is your best defensive action?",
+      "name": "They have stepped over your leg but not locked their feet: what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bring your far leg over the attacker's body and head to clear your knee past their leg configuration. This prevents the saddle from locking because the attacker cannot create the triangle entanglement if your knee clears their hip line. Simultaneously, push on their hips with your far foot to create separation. This requires hip mobility and timing, but it is the highest-percentage defense at this specific stage of the entry because it addresses the mechanical requirement of the lock itself."
@@ -94,7 +94,7 @@ description: "How to defend against Saddle Entry from Top in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "The saddle has fully locked and your opponent is beginning to control your heel - what is your priority sequence?",
+      "name": "The saddle is locked and they are attacking your heel: what is your priority sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Priority one: protect the heel by rotating your knee inward toward your centerline and keeping your foot flexed. This makes the heel inaccessible for hook attacks. Priority two: fight the opponent's grips on your ankle and foot with both hands using two-on-one grip breaks. Priority three: frame on their hips with your free leg to reduce their ability to tighten the position. Priority four: only after grips are addressed and hip pressure is reduced, begin moving your body toward the opponent to extract your leg. Never pull away explosively as this magnifies joint stress and submission effectiveness."

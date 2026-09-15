@@ -250,7 +250,7 @@
         }
       },
       {
-        "question": "Your opponent begins tracking your movement and rotating their inversion to follow - how should you respond?",
+        "question": "Passing grasshopper guard, they rotate their inversion to track your cartwheel: response?",
         "answer": "Abort the cartwheel attempt and immediately circle back to your original side. Use their rotation against them by attacking the now-exposed opposite angle, as their commitment to following you has created an opening elsewhere.",
         "answer_line": "Abort, attack opposite angle",
         "distractors": {
@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "The opponent extends their legs at you during your cartwheel initiation - what adjustment should you make?",
+        "question": "They extend their legs at you as you start the cartwheel pass: what adjustment?",
         "answer": "Increase your cartwheel height and rotation speed to clear the extended legs, maintaining commitment to the pass. Alternatively, if their legs catch you early in the movement, convert immediately to a back step pass rather than forcing the incomplete cartwheel.",
         "answer_line": "Speed up, or convert to back step",
         "distractors": {
@@ -479,7 +479,7 @@
         }
       },
       {
-        "question": "Your opponent has already planted their hand and begun the cartwheel - what is your best defensive option at this point?",
+        "question": "The passer has planted their hand and started the cartwheel: your best defense now?",
         "answer": "At this late stage, your best option is to execute a Granby roll underneath their aerial trajectory, rolling to face them and reestablishing guard contact as they land. Alternatively, prepare to catch their hips with your legs as they land, wrapping closed guard before they consolidate side control. Attempting to intercept with legs at this point is usually too late.",
         "answer_line": "Granby roll, meet them landing",
         "distractors": {
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "The passer feints a cartwheel to one side then switches direction - how do you avoid being caught by this misdirection?",
+        "question": "The passer feints a cartwheel one way then switches: how do you avoid the misdirection?",
         "answer": "Avoid committing both legs to one side when you detect lateral movement. Keep one leg as a mobile barrier and the other as a base leg, so you can quickly pivot your inversion angle when the direction changes. React to the hand plant rather than the initial circling - the actual cartwheel requires a committed hand on the mat, which is harder to fake than footwork.",
         "answer_line": "React to hand plant, not feet",
         "distractors": {

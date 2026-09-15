@@ -80,7 +80,7 @@ description: "How to counter the Rolling Escape from Aoki Lock top. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates the roll and you follow with chest connection - what must you do immediately as they complete the rotation?",
+      "name": "You follow their roll from Aoki lock with chest contact; what must you do as they finish turning?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert hooks inside their thighs before they can establish guard frames. Your legs, which were entangled around their arm, must transition to hip control hooks as the roll changes the positional relationship. Simultaneously convert your existing upper body control to seatbelt or harness grip. The transition window is approximately one to two seconds before they can post and face you."

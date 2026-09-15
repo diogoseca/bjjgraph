@@ -303,7 +303,7 @@
         }
       },
       {
-        "question": "Your opponent begins extracting their trapped leg the moment you release your standard inside hook - how do you respond?",
+        "question": "They extract the trapped leg the instant you release your inside hook for K-Guard—response?",
         "answer": "Do not chase the retreating leg with the K-Guard hook configuration. Instead, immediately follow their retreating leg with your hips by scooting forward, and engage your outside leg as a butterfly hook on whatever part of their leg remains in range. From there, pursue single leg X-Guard or standard butterfly guard depending on the distance created. The key is recognizing within the first half-second that the K-Guard entry window has closed and transitioning to the best available alternative guard rather than forcing a failed reconfiguration.",
         "answer_line": "Scoot hips, hook butterfly guard",
         "distractors": {
@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "Your opponent establishes a strong crossface during your hook switch attempt - should you continue the K-Guard entry?",
+        "question": "They crossface hard mid hook-switch: should you continue the K-guard entry from half guard?",
         "answer": "No — a strong crossface during the hook switch means the entry window has closed, so abort the K-Guard attempt. The crossface will flatten your spine, eliminate the hip angle needed for the hook inversion, and allow the opponent to drive through to a pass. Immediately abort the entry by recovering your standard half guard inside hook and use your frame to fight off the crossface. Once you have reestablished distance and hip angle, you can reattempt the entry on their next forward pressure commitment. Alternatively, use the crossface pressure to redirect into a deep half entry by diving underneath their weight.",
         "distractors": {
           "plausible": [
@@ -359,7 +359,7 @@
         "answer_line": "No, abort and recover hook"
       },
       {
-        "question": "If your K-Guard entry succeeds but the opponent immediately begins smashing to neutralize your hooks, what chain attack should you pursue?",
+        "question": "Your K-guard is in but they smash your hooks — which chain attack do you take?",
         "answer": "When the opponent drives heavy forward pressure into your established K-Guard, use their forward commitment against them. The primary chain is to load the butterfly hook with their weight and transition to a deep half entry by diving underneath, or redirect into an X-Guard or single leg X-Guard entry by extending your hooks and creating elevation. Their smash pressure actually provides the forward momentum needed for these transitions. The key principle is that heavy forward commitment in K-Guard opens underneath transitions, while sitting back opens elevation-based sweeps.",
         "answer_line": "Dive to deep half or X-Guard",
         "distractors": {
@@ -478,7 +478,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting to transition from half guard to K-Guard?",
+        "question": "From half guard top, what is the earliest cue they are entering K-guard?",
         "answer": "The earliest cue is the deliberate shrimp creating hip angle combined with increased inside arm frame pressure against your shoulder. These precursor movements happen before any hook change and are the bottom player creating the prerequisites for the hook rotation. The shrimp provides the hip clearance needed for the inversion while the frame increase creates distance protection. Recognizing these movements gives you the maximum defensive window before the hook switch begins.",
         "answer_line": "Shrimp and rising frame pressure",
         "distractors": {
@@ -506,7 +506,7 @@
         }
       },
       {
-        "question": "Your opponent has successfully established K-Guard with both hooks under active tension - what is your systematic approach to neutralize it?",
+        "question": "They have K-guard with both hooks active: what is your systematic way to neutralize it?",
         "answer": "Do not attempt to strip individual hooks, as this creates the off-balancing dynamics the K-Guard system exploits. Instead, work systematically: first, establish crossface or underhook control on their upper body. Second, drive your hips forward and low to compress both hooks simultaneously rather than fighting them individually. Third, control their far hip to prevent the angle changes that power their sweeps. Fourth, work to flatten their spine by driving your shoulder into their chest. Only attempt to pass once their hook tension is degraded and their angle generation is limited.",
         "answer_line": "Crossface, compress, control hip",
         "distractors": {
@@ -520,7 +520,7 @@
         }
       },
       {
-        "question": "How should you adjust your half guard top strategy against an opponent known to frequently enter K-Guard?",
+        "question": "How do you adjust half guard top against an opponent who often enters K-guard?",
         "answer": "Against a known K-Guard player, prioritize crossface control and spine flattening from the start of half guard top. Keep constant chest-to-chest pressure to deny the frame distance they need for the hook switch. Maintain your trapped leg heavy with forward weight commitment to make the inversion mechanically difficult. Consider a backstep passing approach that removes your leg from entanglement range rather than forward pressure passes that load your weight onto their hooks. Grip fight aggressively to control their inside arm and deny the frame that protects their transition.",
         "answer_line": "Crossface early, deny frame",
         "distractors": {
@@ -534,7 +534,7 @@
         }
       },
       {
-        "question": "What is the correct defensive response if you feel your opponent's inside hook begin to disengage from standard position?",
+        "question": "Half guard top: their inside hook starts to disengage — what is your correct response?",
         "answer": "The instant you feel the inside hook disengage, you have two primary options based on your current control. If you have crossface and upper body control established, immediately increase forward pressure to flatten them before the hook rotation completes, simultaneously driving your trapped knee down to reinstate the half guard entanglement. If you do not have upper body control, immediately sprawl your trapped leg backward to extract it from the loosened entanglement while widening your base. Speed of reaction matters more than technique selection in this window.",
         "answer_line": "Flatten and drive knee, or sprawl",
         "distractors": {

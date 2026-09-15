@@ -254,7 +254,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical requirement during the circular walk from Jailbreak to North-South?",
+        "question": "Walking from Jailbreak to north-south, what is the key mechanical requirement?",
         "answer": "The most critical requirement is maintaining continuous chest-to-chest pressure throughout the entire transition arc. Any gap in pressure creates an opportunity for the bottom player to retract their legs, create frames, or hip escape to recover guard. Your chest must remain heavy on their upper body as your feet walk around. Think of your chest as a fixed pivot point that stays pinned to their torso while your lower body rotates around it in small controlled increments.",
         "answer_line": "Keep chest pressure constant",
         "distractors": {
@@ -310,7 +310,7 @@
         }
       },
       {
-        "question": "How does the direction of force application change during this transition compared to standard pressure passing?",
+        "question": "In North-South Recovery from Jailbreak, how does force direction differ from pressure passing?",
         "answer": "During standard pressure passing from Jailbreak, force is applied forward through the bottom player's center line to drive past leg barriers. During the North-South Recovery, the force vector rotates from forward to downward as you transition from parallel to perpendicular alignment. The chest pressure shifts from driving into their chest horizontally to compressing their rib cage vertically. The bottom player's leg frames were configured to resist forward pressure and become irrelevant against the perpendicular downward force.",
         "answer_line": "Forward pressure shifts down",
         "distractors": {
@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "Your opponent creates strong forearm frames during the walk-around - should you power through them or adjust?",
+        "question": "They build strong forearm frames during your walk-around to north-south — power through or adjust?",
         "answer": "Never try to power through established frames as this wastes energy and stalls your momentum. Instead, angle your shoulders to slip past their forearms by shifting the direction of your pressure slightly. Alternatively, recognize that their extended arms create exposure for kimura or americana attacks. You can also abandon the North-South Recovery and use their committed framing posture against them by transitioning to mount since their arms are occupied with frames rather than available for blocking the leg step-over.",
         "answer_line": "Angle shoulders past frames",
         "distractors": {
@@ -466,7 +466,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest recognition cues that the top player is attempting a North-South Recovery rather than a standard pass?",
+        "question": "From Jailbreak bottom, what earliest cues show a North-South Recovery rather than a standard pass?",
         "answer": "The earliest cue is a shift in the top player's weight distribution toward your head combined with their feet beginning to walk in a circular arc rather than driving forward through your center line. You will feel crossface pressure increasing as they anchor their upper body before pivoting, and their hip drive changes from forward to lateral. The pressure against your extended legs simultaneously decreases as they redirect energy away from the leg barriers. Recognizing this weight shift within the first two steps gives you the maximum defensive window.",
         "answer_line": "Weight shifts to head, feet arc",
         "distractors": {
@@ -480,7 +480,7 @@
         }
       },
       {
-        "question": "Your leg barriers are being bypassed as the top player walks around - what is your immediate defensive response?",
+        "question": "Your Jailbreak leg barriers are being bypassed as they walk around — immediate defensive response?",
         "answer": "Immediately retract your legs from the extended Jailbreak position and work to insert a knee shield between your bodies. Your extended legs were defending against forward passes but are now irrelevant against the circular movement. Pull your knees toward your chest while simultaneously hip escaping to follow the top player's direction of travel. The goal is to get your legs between your bodies before they complete the perpendicular alignment. Every fraction of a second matters since North-South is dramatically harder to escape than half guard.",
         "answer_line": "Retract legs, knee shield in",
         "distractors": {
@@ -494,7 +494,7 @@
         }
       },
       {
-        "question": "How do you prevent arm isolation once the top player has established partial perpendicular alignment?",
+        "question": "They reach partial perpendicular alignment on you — how do you prevent arm isolation?",
         "answer": "Keep your elbows tight against your ribs with forearms creating structural frames against the top player's chest. Never extend your arms away from your torso or allow them to cross your centerline, as both positions create easy kimura opportunities. If you feel them working to isolate one arm, immediately pull that elbow back tight to your body and use a hip escape to create an angle that makes the isolation grip harder to maintain. Active hand fighting throughout the transition is essential to prevent the arm control that characterizes consolidated North-South.",
         "answer_line": "Elbows tight, hand fight",
         "distractors": {
@@ -508,7 +508,7 @@
         }
       },
       {
-        "question": "What is the fundamental difference in defensive priority when facing a North-South Recovery versus a standard guard pass from Jailbreak?",
+        "question": "From Jailbreak bottom, how does defending a North-South Recovery differ from a standard pass?",
         "answer": "Against standard passes from Jailbreak, your primary defense is maintaining extended leg barriers to block forward movement. Against the North-South Recovery, leg barriers are irrelevant since the attacker bypasses them through circular movement. Your defensive priority shifts from lower body leg engagement to upper body framing and hip escapes that follow the top player's movement direction. Failure to make this mental shift results in lying with extended legs while the opponent walks around them to establish dominant North-South control.",
         "answer_line": "Shift focus: legs to upper body",
         "distractors": {

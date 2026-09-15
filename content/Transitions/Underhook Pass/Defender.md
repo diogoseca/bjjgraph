@@ -62,7 +62,7 @@ description: "How to defend against Underhook Pass in BJJ. Recognition cues, def
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you feel the opponent beginning to thread their underhook from half guard top?",
+      "name": "Facing the underhook pass, what is your most important action as they thread the underhook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important action is immediately fighting to maintain or re-establish your side-facing posture by turning aggressively toward the top player. Use your bottom elbow as a structural post and drive your top knee into their hip as a frame. The underhook pass depends entirely on flattening you; if you can maintain your side-facing angle, the pass cannot progress regardless of how deep their underhook reaches. Every second you delay this response makes the eventual flattening significantly harder to prevent."
@@ -70,7 +70,7 @@ description: "How to defend against Underhook Pass in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Why is attempting a bridge-and-roll escape against an established underhook and crossface position usually counterproductive?",
+      "name": "Why is bridge-and-roll counterproductive against a set underhook and crossface?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bridge-and-roll requires your opponent to be relatively square on top of you with their weight distributed centrally. When the top player has a deep underhook, their weight is distributed diagonally across your body with their base posted wide. The bridge lifts your hips off the mat, which actually helps the top player extract their trapped leg since you are creating the space they need for leg clearance. Additionally, the rolling motion turns you away from them, potentially exposing your back. Hip escape movements that create lateral distance are far more effective because they address the actual problem of the crossface and underhook pressure angle."
@@ -78,7 +78,7 @@ description: "How to defend against Underhook Pass in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "At what specific point during the underhook pass sequence does your window for successful defense narrow most dramatically?",
+      "name": "During the underhook pass, at what point does your defensive window narrow most?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical threshold is the moment both your shoulder blades contact the mat simultaneously while the top player maintains their crossface and hip control. Before this point, you retain hip mobility, framing capability, and the ability to create angles that disrupt the pass. After being fully flattened, your defensive options reduce to high-energy explosive escapes with significantly lower success rates. The practical implication is that all high-percentage defensive actions (pummeling for underhook, inserting knee shield, hip escaping to angle) must happen before the flattening is complete. Training should emphasize recognizing the approach to this threshold and reacting immediately."
@@ -86,7 +86,7 @@ description: "How to defend against Underhook Pass in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "How do you use a knee shield defensively when you have already lost the underhook battle against the top player?",
+      "name": "How do you use a knee shield after losing the underhook battle from half guard bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the underhook battle is lost, immediately insert your top knee across the top player's hip line, placing your shin diagonally across their torso with your foot hooking their opposite hip. This knee shield creates a structural frame that prevents the chest-to-chest connection the top player needs to flatten you. Position the shield at mid-torso height - too high allows them to smash it down, too low allows them to step over. Use your hands to reinforce the shield by controlling their collar or bicep. The knee shield buys time to either re-enter the underhook battle from a safer position or transition to other half guard variations like deep half or butterfly half."
@@ -94,7 +94,7 @@ description: "How to defend against Underhook Pass in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your opponent has the underhook and crossface but has not yet controlled your near hip - what defensive opportunity does this create?",
+      "name": "They have underhook and crossface but not your near hip: what opening does that give you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Without near hip control, you retain the ability to hip escape, which is the foundation of all guard recovery sequences from this position. Immediately execute an aggressive hip escape away from the top player, simultaneously framing on their shoulder with your near hand to prevent them from following your movement. This lateral distance creation opens the possibility of inserting your far leg across their body to recover closed guard, or at minimum re-establishing a knee shield that negates their underhook advantage. The hip control grip is the second anchor point of the pass after the underhook - if they only have one anchor, your defensive probability increases dramatically."

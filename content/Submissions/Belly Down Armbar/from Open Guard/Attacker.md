@@ -108,7 +108,7 @@ description: "Learn to attack the belly down armbar finish from open guard. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts retracting their arm as you initiate the hip angle — what adjustment prevents escape?",
+      "name": "Your opponent retracts the arm as you set your hip angle from open guard—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the arm retraction happens early before the leg is over the head, immediately transition to an omoplata or triangle attempt using the momentum and perpendicular angle you have already created. Do not chase the retracting arm aggressively as this exposes you to being stacked. The same hip angle that sets up the armbar creates excellent entry angles for omoplata and triangle attacks, making the arm retraction a trigger for chain attacks rather than a failed sequence."

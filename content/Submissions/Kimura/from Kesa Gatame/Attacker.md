@@ -100,7 +100,7 @@ description: "Learn to attack the Kimura from Kesa Gatame with expert grip trans
     },
     {
       "@type": "Question",
-      "name": "What distinguishes the finishing mechanics of the Kimura from Kesa Gatame compared to standard side control?",
+      "name": "How does the Kimura finish from Kesa Gatame differ mechanically from side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The perpendicular body angle in Kesa Gatame creates a different rotational platform. Instead of rotating the arm while positioned parallel to the opponent, you drive the rotation through your torso and hips from a perpendicular angle, generating force through core rotation rather than shoulder and arm strength. The pre-loaded arm trap under your armpit also means the elbow is already close to your body, creating a tighter fulcrum from the start. This angle often makes the finish faster and harder to defend."

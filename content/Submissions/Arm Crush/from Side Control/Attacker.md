@@ -94,7 +94,7 @@ description: "How to execute Arm Crush in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "If you hear popping or grinding sounds from the opponent's shoulder during application, what should you do immediately?",
+      "name": "You hear popping in their shoulder during the Arm Crush — what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release all pressure immediately - both the crushing compression and any rotational torque. These sounds indicate that structural damage is occurring to the shoulder joint, likely involving the rotator cuff, labrum, or joint capsule. Continuing pressure after these sounds can cause severe, potentially career-ending injuries. Stop training, check on your partner verbally, and allow them to assess their shoulder mobility before continuing."
@@ -110,7 +110,7 @@ description: "How to execute Arm Crush in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Arm Crush attack and why is this combination particularly effective?",
+      "name": "Which structures does the Arm Crush attack, and why is that combination so effective?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Arm Crush primarily attacks the shoulder joint complex including the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral joint capsule, and the labrum. The effectiveness comes from attacking these structures through two vectors simultaneously - vertical compression crushing the joint surfaces together and rotational torque stressing the rotator cuff tendons. This multi-directional stress overwhelms the joint's structural integrity faster than single-vector attacks like a standard Americana."

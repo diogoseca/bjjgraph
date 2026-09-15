@@ -74,7 +74,7 @@ description: "Master the offensive mechanics of transitioning from mount to tech
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary trigger that signals the optimal moment to initiate the Mount to Technical Mount transition?",
+      "name": "What triggers the optimal moment to go from mount to technical mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is the opponent turning to their side or initiating a hip escape from mount. When the bottom player rotates their hips and shoulders away from you, this creates the angle and space necessary to post the far leg. Attempting the transition against a flat, centered opponent sacrifices mount stability without creating the angles needed for effective technical mount. The opponent's movement—whether voluntary escape or forced by your pressure—is what makes the transition mechanically sound."
@@ -82,7 +82,7 @@ description: "Master the offensive mechanics of transitioning from mount to tech
     },
     {
       "@type": "Question",
-      "name": "Your opponent is defending mount by staying completely flat and refusing to turn—how do you create the opening for technical mount?",
+      "name": "They stay flat in mount and refuse to turn — how do you create the technical mount opening?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply heavy cross-face pressure with your shoulder driving into their jaw to force the head turn, which naturally causes the body to follow. Alternatively, threaten a high-percentage submission like the Americana or cross collar choke that requires them to use their hands defensively—any arm movement creates the reaction you need. You can also walk your knees up toward their armpits to force a defensive hip escape. The key is creating a dilemma where their defensive movement generates the angle you need."
@@ -90,7 +90,7 @@ description: "Master the offensive mechanics of transitioning from mount to tech
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail that distinguishes a successful leg post from one that creates escape opportunities?",
+      "name": "What detail makes the posted leg in technical mount safe rather than escapable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posted leg must be positioned close to the opponent's body with the shin perpendicular to their torso and foot flat on the mat, creating a tight tripod base. A leg posted too far away creates a gap that allows knee shield insertion, half guard recovery, or full escape underneath. The posted foot should be within touching distance of the opponent's hip, and the shin should act as a wall preventing rotation back. Simultaneously, the near-side hook must be inserted to complete the cage around the opponent."
@@ -114,7 +114,7 @@ description: "Master the offensive mechanics of transitioning from mount to tech
     },
     {
       "@type": "Question",
-      "name": "How does the hook insertion coordinate with the leg post, and what happens if they are performed sequentially rather than simultaneously?",
+      "name": "How must the hook and leg post be timed, and what happens if you post first then hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hook insertion and leg post should occur as one coordinated movement, not two separate actions. As the far leg swings out to post, the near leg simultaneously threads underneath the opponent's body. If performed sequentially—posting first, then inserting the hook—there is a gap where no hook prevents the opponent from spinning their hips back to guard. This timing window is enough for a competent bottom player to recover half guard or create a scramble. Simultaneous execution creates the technical mount cage in one motion, eliminating the escape window."

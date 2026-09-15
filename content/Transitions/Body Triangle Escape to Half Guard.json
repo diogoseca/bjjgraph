@@ -294,7 +294,7 @@
         }
       },
       {
-        "question": "Your opponent's triangle is locked tightly with the crossing leg entering from your left side – which direction do you turn and why?",
+        "question": "Their triangle leg crosses from your left side: which way do you turn to escape, and why?",
         "answer": "Turn toward your left side, toward the triangle leg. This reduces the effective squeezing angle by aligning your torso with the direction of the crossing leg rather than remaining perpendicular to it. Turning left also positions your left hand closer to the lock point behind your opponent's knee where the foot is tucked, enabling the clearing attempt.",
         "answer_line": "Turn left toward the triangle leg",
         "distractors": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "Your opponent begins attacking a rear naked choke as you start clearing the triangle – how do you respond?",
+        "question": "They attack a rear naked choke as you start clearing the body triangle: how do you respond?",
         "answer": "Immediately abandon the clearing attempt and return both hands to neck defense. Tuck your chin deeply and establish two-on-one control on the choking arm. Never try to race the choke by rushing the clear – the choke finishes faster than the clear completes. Wait for the opponent's next grip transition to create a new window for resuming the clearing attempt.",
         "answer_line": "Abandon clear, defend neck",
         "distractors": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "If the body triangle escape to half guard is blocked and the opponent re-locks the triangle, what alternatives do you pursue?",
+        "question": "If your half guard escape fails and they re-lock the body triangle, what alternatives remain?",
         "answer": "Switch to hip escape toward turtle as an alternative destination, which attacks a different angle and forces the opponent to adjust their defensive positioning. If the opponent tightens to prevent all turning, attempt the bridge-and-roll variation which uses upward pressure instead of lateral movement. Alternating between escape directions prevents the opponent from settling into a single defensive pattern.",
         "answer_line": "Switch to turtle or bridge-roll",
         "distractors": {
@@ -519,7 +519,7 @@
         }
       },
       {
-        "question": "What is your optimal response when the opponent successfully pushes your foot out from behind your knee?",
+        "question": "Your opponent pushes your triangle foot out from behind your knee: what is your best response?",
         "answer": "Immediately attempt to re-drive the foot behind your knee before they can establish a blocking frame with their elbow or forearm. If the re-lock is not possible within one to two seconds, transition to standard hooks by inserting both feet inside their thighs while maintaining seatbelt control. Do not spend extended time trying to re-lock a clearly compromised triangle while the opponent is actively hip escaping toward guard recovery.",
         "answer_line": "Re-drive fast or switch to hooks",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "Why is attacking the neck the most effective counter when your opponent begins the triangle clearing sequence?",
+        "question": "Why is attacking the neck your best counter once they start clearing your body triangle?",
         "answer": "Neck attacks create an impossible resource allocation problem – the opponent must defend the choke with their hands, but clearing the triangle also requires their hands. They cannot do both simultaneously. Every second they spend returning to neck defense is a second they cannot work on the triangle clearing, and repeated choke threats deplete their energy and mental composure under the breathing restriction your triangle creates.",
         "answer_line": "Forces hands to choose one job",
         "distractors": {
@@ -547,7 +547,7 @@
         }
       },
       {
-        "question": "What positional adjustments maintain your triangle's effectiveness when the opponent turns toward the crossing leg?",
+        "question": "How do you keep your body triangle effective when they turn toward the crossing leg?",
         "answer": "Follow their turning motion by adjusting your hips to stay perpendicular to their torso rather than allowing them to align with your squeeze direction. Pull their shoulders back toward you with the seatbelt and drive your chest tighter against their back. Increase momentary squeeze pressure during the turn to discourage continued rotation and potentially force them to abandon the turning attempt entirely.",
         "answer_line": "Follow turn, stay perpendicular",
         "distractors": {

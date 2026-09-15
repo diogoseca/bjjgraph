@@ -74,7 +74,7 @@ description: "Master the attacker perspective for Outside Ashi to Inside Ashi co
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical safety check before initiating the counter-entanglement from Outside Ashi-Garami Top?",
+      "name": "What safety check comes first before counter-entangling from outside ashi bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must verify that your heel is protected and not exposed to immediate heel hook or ankle lock finishing threat. If your heel is accessible to the opponent, any counter-entanglement attempt diverts your attention from the most immediate danger—a submission that can cause serious knee ligament injury. Always protect the heel first by rotating your hip internally and tucking your foot before considering any offensive transition."
@@ -90,7 +90,7 @@ description: "Master the attacker perspective for Outside Ashi to Inside Ashi co
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their leg triangle the moment you begin threading your free leg—how do you adjust your approach?",
+      "name": "They tighten the triangle as you thread your free leg to inside ashi: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to the gradual pummeling approach, using small incremental advances of your leg rather than one explosive movement. Alternatively, threaten a counter heel hook on their controlling leg to force them to loosen their triangle defensively—this creates a dilemma where defending the heel hook opens the threading lane. If neither approach works, return to pure escape options and wait for a better counter-entanglement window to present itself."
@@ -98,7 +98,7 @@ description: "Master the attacker perspective for Outside Ashi to Inside Ashi co
     },
     {
       "@type": "Question",
-      "name": "Why is threading your leg across the hip crease critical rather than positioning higher on the ribs or waist?",
+      "name": "Why thread your leg across the hip crease rather than higher on the ribs or waist for inside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip crease is the biomechanical control point for rotational control in inside ashi-garami. Placing your leg across the hip prevents the opponent from rotating their hips to escape and creates the mechanical leverage needed for both position retention and submission finishing. Threading above the hip on ribs or waist provides no rotational control and is easily cleared by the opponent's hands because it lacks the structural lock that hip-level placement provides."
@@ -114,7 +114,7 @@ description: "Master the attacker perspective for Outside Ashi to Inside Ashi co
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins attacking your exposed heel during your counter-entanglement attempt—what is the correct immediate response?",
+      "name": "They attack your exposed heel mid counter-entanglement: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the counter-entanglement and return to heel protection as the absolute priority. Tuck your heel inward by rotating your hip internally, establish defensive frames on the opponent's hips, and re-secure your defensive posture. Only after your heel is confirmed safe should you reassess whether a counter-entanglement window still exists. Never continue an offensive transition while under immediate submission threat to your own leg."

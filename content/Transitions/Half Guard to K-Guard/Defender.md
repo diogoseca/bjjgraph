@@ -56,7 +56,7 @@ description: "How to defend against the Transition to K-Guard from Half Guard To
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting to transition from half guard to K-Guard?",
+      "name": "From half guard top, what is the earliest cue they are entering K-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the deliberate shrimp creating hip angle combined with increased inside arm frame pressure against your shoulder. These precursor movements happen before any hook change and are the bottom player creating the prerequisites for the hook rotation. The shrimp provides the hip clearance needed for the inversion while the frame increase creates distance protection. Recognizing these movements gives you the maximum defensive window before the hook switch begins."
@@ -72,7 +72,7 @@ description: "How to defend against the Transition to K-Guard from Half Guard To
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully established K-Guard with both hooks under active tension - what is your systematic approach to neutralize it?",
+      "name": "They have K-guard with both hooks active: what is your systematic way to neutralize it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not attempt to strip individual hooks, as this creates the off-balancing dynamics the K-Guard system exploits. Instead, work systematically: first, establish crossface or underhook control on their upper body. Second, drive your hips forward and low to compress both hooks simultaneously rather than fighting them individually. Third, control their far hip to prevent the angle changes that power their sweeps. Fourth, work to flatten their spine by driving your shoulder into their chest. Only attempt to pass once their hook tension is degraded and their angle generation is limited."
@@ -80,7 +80,7 @@ description: "How to defend against the Transition to K-Guard from Half Guard To
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your half guard top strategy against an opponent known to frequently enter K-Guard?",
+      "name": "How do you adjust half guard top against an opponent who often enters K-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a known K-Guard player, prioritize crossface control and spine flattening from the start of half guard top. Keep constant chest-to-chest pressure to deny the frame distance they need for the hook switch. Maintain your trapped leg heavy with forward weight commitment to make the inversion mechanically difficult. Consider a backstep passing approach that removes your leg from entanglement range rather than forward pressure passes that load your weight onto their hooks. Grip fight aggressively to control their inside arm and deny the frame that protects their transition."
@@ -88,7 +88,7 @@ description: "How to defend against the Transition to K-Guard from Half Guard To
     },
     {
       "@type": "Question",
-      "name": "What is the correct defensive response if you feel your opponent's inside hook begin to disengage from standard position?",
+      "name": "Half guard top: their inside hook starts to disengage — what is your correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The instant you feel the inside hook disengage, you have two primary options based on your current control. If you have crossface and upper body control established, immediately increase forward pressure to flatten them before the hook rotation completes, simultaneously driving your trapped knee down to reinstate the half guard entanglement. If you do not have upper body control, immediately sprawl your trapped leg backward to extract it from the loosened entanglement while widening your base. Speed of reaction matters more than technique selection in this window."

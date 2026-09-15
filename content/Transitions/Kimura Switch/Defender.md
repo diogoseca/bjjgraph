@@ -88,7 +88,7 @@ description: "How to defend against Kimura Switch in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between the attacker adjusting their Aoki Lock and initiating a Kimura Switch?",
+      "name": "How do you tell an Aoki Lock adjustment apart from the start of a Kimura Switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Aoki Lock adjustments involve the attacker tightening leg entanglement, repositioning hip pressure, or changing their posted leg angle while maintaining leg-based control throughout. The Kimura Switch is distinguished by the attacker's hand releasing hip or far-side control to reach toward your wrist, combined with a shift in their body angle from parallel to perpendicular alignment. The key tell is their hand moving from positional control to grip hunting on your arm."

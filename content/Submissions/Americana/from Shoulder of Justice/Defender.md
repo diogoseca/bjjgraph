@@ -74,7 +74,7 @@ description: "Defend against the Americana from Shoulder of Justice. Recognition
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available once the figure-four grip is locked but the paint has not started?",
+      "name": "The figure-four is locked but the paint hasn't started — what defenses do you have?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your best option is to immediately grip your own wrist, belt, or lapel with your near hand to create a secondary barrier against the paint motion. Simultaneously attempt to bridge toward the trapped arm side to disrupt the opponent's base and reduce the effective paint angle. If you can time a shrimp during the opponent's weight adjustment before they pin the elbow, you may create enough space to begin guard recovery. The key is acting immediately — every second of delay reduces your success probability as the opponent consolidates the grip and pins the elbow."
@@ -90,7 +90,7 @@ description: "Defend against the Americana from Shoulder of Justice. Recognition
     },
     {
       "@type": "Question",
-      "name": "What is the single most important defensive principle against the Americana from Shoulder of Justice?",
+      "name": "What is the single most important defensive principle against the Shoulder of Justice Americana?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your near arm tight to your body at all times despite the intense jaw pressure. The entire americana attack depends on you extending your near arm — the shoulder pressure exists specifically to provoke this reaction. By gripping your own collar, belt, or opposite wrist and keeping your elbow pinned to your ribs, you deny the opponent the arm extension they need. Accept the jaw discomfort as temporary and focus on systematic escape timing rather than reactive arm extension that plays directly into the opponent's attack plan."

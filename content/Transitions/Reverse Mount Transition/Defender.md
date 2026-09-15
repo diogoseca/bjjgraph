@@ -64,7 +64,7 @@ description: "How to defend against the Reverse Mount Transition in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate your opponent is attempting the Reverse Mount Transition?",
+      "name": "From north-south bottom, what are the earliest cues of a reverse mount transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are a shift in chest pressure from your sternum toward your abdomen as the opponent slides their weight toward your hips, a loosening of their arm control from North-South as they prepare hands for the spin, and the feeling of their knees and legs beginning to move around your head and shoulder area as they initiate the rotation."
@@ -80,7 +80,7 @@ description: "How to defend against the Reverse Mount Transition in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the spin and is seated in reverse mount - what is your immediate priority?",
+      "name": "Your opponent completes the spin into reverse mount. What is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is arm protection. Bring your arms tight to your chest with elbows pinched to your ribs to deny the opponent easy armbar targets. Once arms are protected, begin working to turn and face the opponent by hip escaping and creating angles. Do not attempt explosive bridges from established reverse mount as they are easily absorbed by the seated opponent."
@@ -96,7 +96,7 @@ description: "How to defend against the Reverse Mount Transition in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "What continuous defensive habits in North-South bottom make the Reverse Mount Transition harder for your opponent to initiate?",
+      "name": "Which habits from north-south bottom make the reverse mount transition harder to initiate?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining active forearm frames against the opponent's chest, performing continuous small hip escapes to prevent them from settling comfortably, keeping elbows tight to deny arm isolation, and threatening escapes that force the opponent to focus on maintaining North-South rather than advancing. A defensive active bottom player creates an unstable platform that makes the precise weight transfer required for the spin much more difficult."

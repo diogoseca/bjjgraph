@@ -252,7 +252,7 @@
     ],
     "flashcards": [
       {
-        "question": "What grip combination provides the most reliable control for initiating a knee slice from seated guard?",
+        "question": "Which grip combination best controls a seated guard for a knee slice entry?",
         "answer": "A collar grip with the lead hand combined with a same-side pants grip at the knee provides the most reliable control. The collar grip prevents the opponent from sitting up, standing, or creating distance, while the pants grip controls their primary defensive tool. This combination allows you to simultaneously restrict their mobility and create the angle necessary for the knee slice entry. Some practitioners prefer a sleeve grip, but the collar provides superior posture control against the seated base.",
         "answer_line": "Collar + same-side pants grip",
         "distractors": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "Your knee slice gets stuck in half guard with the opponent fighting for the underhook - what is your immediate priority?",
+        "question": "Your knee slice stalls in half guard as they fight for the underhook: what is your priority?",
         "answer": "Your immediate priority is establishing or maintaining the crossface to prevent the opponent from completing the underhook. If they already have the underhook, apply a whizzer on their underhook arm while driving shoulder pressure to flatten them back to the mat. Do not try to extract your trapped leg while they have an active underhook because this exposes your back to a back take. Neutralize their upper body offense first through crossface and pressure, then work on extracting the leg through standard half guard passing mechanics.",
         "answer_line": "Crossface, then whizzer if lost",
         "distractors": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "How does the knee slice from seated guard differ mechanically from a knee slice initiated from half guard top?",
+        "question": "How does a knee slice from seated guard differ mechanically from one from half guard top?",
         "answer": "The knee slice from seated guard must first close the distance gap that the seated player maintains with posted hands and extended legs. This requires grip fighting and precise timing that the half guard knee slice does not need. From half guard, the passer is already chest-to-chest with one leg trapped, so the knee slice is a continuation of existing pressure. From seated guard, the passer must bridge open space, land the knee correctly, and establish upper body control in one fluid motion, making grip setup and entry timing far more critical to success.",
         "answer_line": "Must close distance first",
         "distractors": {
@@ -364,7 +364,7 @@
         }
       },
       {
-        "question": "Why should you avoid attempting the knee slice when the opponent has established strong collar and sleeve grips on you?",
+        "question": "Why avoid the knee slice when they have strong collar and sleeve grips on you?",
         "answer": "When the opponent controls your collar and sleeve simultaneously, they can break your posture, redirect your movement, and execute sweeps as you drive forward. The knee slice requires forward weight commitment, which their grips can exploit by pulling you off-balance or channeling your momentum into a sweep. You must break at least one of their grips before initiating the slice. Entering the knee slice against double grips is one of the most common errors that leads to being swept or pulled into closed guard.",
         "answer_line": "Break a grip before entering",
         "distractors": {
@@ -511,7 +511,7 @@
         }
       },
       {
-        "question": "Your opponent's knee has already landed across your thigh and they are driving forward - what is your highest-priority action?",
+        "question": "Their knee has landed across your thigh and they drive forward: what is your top priority?",
         "answer": "Your highest priority is preventing the crossface from settling. Use your near-side forearm to frame against their neck or shoulder, turning their head away or preventing them from driving their shoulder across your jaw. Without the crossface, you can still turn into them, fight for the underhook, and initiate sweeps from half guard. If the crossface establishes before you frame, you will be flattened on your back with severely limited offensive and defensive options.",
         "answer_line": "Frame to stop the crossface",
         "distractors": {
@@ -525,7 +525,7 @@
         }
       },
       {
-        "question": "Why is the underhook the most critical grip to establish when defending in half guard after a knee slice entry?",
+        "question": "After a knee slice entry, why is the underhook the most critical grip in half guard bottom?",
         "answer": "The underhook on the trapped-leg side provides the primary offensive pathway for sweeps, back takes, and guard recoveries from half guard. Without it, you are relegated to purely defensive framing while the passer methodically works through to side control. With the underhook, you threaten the old school sweep, the back take from half guard, and the dogfight position, all of which force the passer to defend rather than advance. The underhook transforms your position from survival mode to active attack mode.",
         "answer_line": "Underhook fuels sweeps/back takes",
         "distractors": {
@@ -539,7 +539,7 @@
         }
       },
       {
-        "question": "When is the optimal timing to attempt a technical standup against a knee slice attempt from seated guard?",
+        "question": "In seated guard, when is the best timing to technical standup against a knee slice?",
         "answer": "The optimal timing is during the grip-fighting phase before the passer has established both collar and pants grips. Once they control your collar, the standup becomes significantly harder because they can snap you back down. The best window opens when the passer is reaching for their second grip since they are momentarily off-balance and committed to the grip fight, giving you a clean window to post and stand. Attempting the standup after the passer has committed their weight forward risks being snapped down to front headlock.",
         "answer_line": "Before both grips are set",
         "distractors": {

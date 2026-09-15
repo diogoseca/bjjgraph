@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "Your opponent sits back to remove forward pressure when they feel you setting up the sweep—what is your best response?",
+        "question": "Reverse half guard bottom: they sit back and remove pressure as you set up the sweep—response?",
         "answer": "When the opponent withdraws pressure, the sweep loses its force vector and should be abandoned immediately. Instead, capitalize on their withdrawal by transitioning to deep half guard entry, standard half guard recovery, or back take attempts. Their backward weight shift creates space that was not previously available, opening alternative attacks. Use the sweep threat as bait—their fear of being swept creates the space that enables other techniques in your reverse half guard system.",
         "answer_line": "Abandon sweep, attack the space",
         "distractors": {
@@ -374,7 +374,7 @@
         }
       },
       {
-        "question": "What distinguishes a failed sweep that stays in reverse half guard from one that results in side control bottom?",
+        "question": "After a failed reverse half sweep, what decides if you stay there or end up under side control?",
         "answer": "A failed sweep that stays in reverse half guard occurs when the opponent simply stops the rotation but does not advance—you retain your leg entanglement and return to the starting position. Side control bottom results when the opponent both stops the sweep and capitalizes by extracting their trapped leg and passing during your compromised positioning. The difference is whether you maintain leg control during the failure. If leg control holds, you stay in reverse half; if it breaks during the failed attempt, the opponent passes.",
         "answer_line": "Whether leg entanglement holds",
         "distractors": {
@@ -530,7 +530,7 @@
         }
       },
       {
-        "question": "Your opponent tightens their leg clamp and you feel their hips beginning to rotate—what is your immediate response?",
+        "question": "In reverse half guard bottom, their leg clamp tightens and their hips rotate—your response?",
         "answer": "Immediately post your hand wide on the sweep-side and sit your hips back to remove forward pressure. This two-part response addresses both the rotational force with a structural base and the energy source by withdrawing the forward drive. Do not attempt to resist through upper body stiffness. Additionally, begin working to extract your trapped leg from the entanglement to permanently remove the sweep threat.",
         "answer_line": "Post wide, sit hips back",
         "distractors": {

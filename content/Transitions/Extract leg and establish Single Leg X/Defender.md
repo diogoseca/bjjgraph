@@ -66,7 +66,7 @@ description: "How to defend against leg extraction to Single Leg X-Guard in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your opponent's extraction is nearly complete and their leg is sliding free - what is your best tactical option?",
+      "name": "Their leg is nearly free of your Leg Knot: what is your best tactical option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When extraction is nearly complete, attempting to retain the original entanglement is usually futile and wastes energy. You have two viable options: capitalize on the angle change to advance to Saddle by crossing your leg over their now-exposed knee line during the transition, or disengage completely by pulling your own leg back and immediately sprawling to top position before they can establish Single Leg X hooks. The choice depends on whether their knee line is exposed (advance to Saddle) or protected (disengage and pass)."
@@ -82,7 +82,7 @@ description: "How to defend against leg extraction to Single Leg X-Guard in BJJ.
     },
     {
       "@type": "Question",
-      "name": "How do you prevent your forward driving pressure from being used against you in a Granby roll counter?",
+      "name": "Driving into the Leg Knot, how do you keep your forward pressure from fueling a Granby roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Control your forward pressure by driving into opponent's hips rather than over their body. Keep a wide base with your free leg posted diagonally to maintain balance if they attempt to invert. Distribute your weight through your chest onto their thigh rather than leaning your center of gravity past their body. If you feel them begin to invert, immediately pull back your hips and redirect your pressure downward rather than forward, removing the momentum they need for the Granby roll."

@@ -4,7 +4,7 @@
 
 ---
 title: "Rubber Guard to Triangle System | BJJ System | BJJ Graph"
-description: "Master Rubber Guard to Triangle System. Framework connecting rubber guard control to triangle submissions with systematic transitions and positions."
+description: "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Rubber Guard to Triangle System. Framework connecting rubbe
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Rubber Guard to Triangle System",
-  "description": "Master Rubber Guard to Triangle System. Framework connecting rubber guard control to triangle submissions with systematic transitions and positions.",
+  "description": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Rubber-Guard-to-Triangle-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -148,7 +148,7 @@ description: "Master Rubber Guard to Triangle System. Framework connecting rubbe
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Rubber Guard to Triangle System",
-  "description": "The Rubber Guard to Triangle System is a 10th Planet offensive framework that chains rubber guard control through the Mission Control and New York checkpoints to set up high-percentage triangle chokes and linked submissions from closed guard.",
+  "description": "A triangle attempt from rubber guard depends on the arm position and angle you create first.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -167,9 +167,11 @@ description: "Master Rubber Guard to Triangle System. Framework connecting rubbe
 
 ## What is Rubber Guard to Triangle System?
 
-**The Rubber Guard to Triangle System is a 10th Planet offensive framework that chains rubber guard control through the Mission Control and New York checkpoints to set up high-percentage triangle chokes and linked submissions from closed guard.**
+**A triangle attempt from rubber guard depends on the arm position and angle you create first.**
 
-Developed within Eddie Bravo's 10th Planet methodology, this framework reimagines the closed guard as an aggressive submission platform rather than a holding position. It uses extreme flexibility and unorthodox grips to break posture, control distance, and manufacture triangle opportunities that are difficult to defend, while emphasizing the angles and leverage generated through hip mobility under constant offensive pressure. Unlike traditional closed guard approaches, the system relies on active leg positioning and grip creativity to generate submission threats while simultaneously defending against passes. The framework connects multiple control positions - from Mission Control to New York to the finishing triangle - creating a systematic pathway that even accounts for opponent escape attempts. Practitioners learn to use their legs as offensive weapons while their hands control critical angles, inverting the traditional closed guard paradigm where the hands do the work and the legs merely maintain position.
+A triangle attempt from rubber guard depends on the arm position and angle you create first. Use this guide to study that branch of the guard. Eddie Bravo’s broader rubber guard course provides context; check its syllabus for the details you want to study.
+
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -178,15 +180,37 @@ Developed within Eddie Bravo's 10th Planet methodology, this framework reimagine
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Rubber Guard to Triangle System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 22 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">The Ultimate Rubber Guard</h3>
+<p class="product-card__instructor">with Eddie Bravo</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students exploring 10th Planet guard connections. Check the syllabus for your chosen branch; this is broader than a single finish.</p>
+<p class="product-card__blurb">Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=rubber-guard-to-triangle-system&utm_term=the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -304,6 +328,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>For the omoplata route, start in Volume 1. Bottom half guard and further guard variations appear in Volume 4.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=rubber-guard-to-triangle-system&utm_term=the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Ultimate Rubber Guard &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -417,5 +452,16 @@ Begin with static position holds to develop the hip flexibility and muscle memor
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Choose a control you can enter comfortably. Practise maintaining posture control without pulling your knee into a forced range.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=rubber-guard-to-triangle-system&utm_term=the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Ultimate Rubber Guard &rarr;</a></p>
+</section>
+
+
 
 </main>

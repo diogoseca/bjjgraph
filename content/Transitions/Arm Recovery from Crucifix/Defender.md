@@ -56,7 +56,7 @@ description: "Prevent arm recovery escapes from crucifix in BJJ. Maintain domina
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What visual and tactile cue most reliably indicates the bottom player is about to attempt arm recovery?",
+      "name": "Which cue most reliably signals the bottom player is about to attempt arm recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable cue is the free arm shifting from neck defense to pushing or framing against your controlling leg. This is the necessary precursor to arm extraction because the bottom player cannot create mechanical leverage against the leg trap without repositioning their free arm. When you feel their hand leave the neck area and contact your thigh or knee, they are committing to an escape attempt, and you should immediately respond with either a choke threat or increased squeeze pressure."
@@ -64,7 +64,7 @@ description: "Prevent arm recovery escapes from crucifix in BJJ. Maintain domina
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully freed their arm and is establishing frames—what is your most effective immediate response?",
+      "name": "They freed the arm and are framing. What is your most effective immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition immediately to back control rather than fighting to re-establish crucifix from a compromised position. The window to re-trap the arm is extremely small once frames are established, and attempting to chase the arm typically results in losing all positional advantage. By securing hooks and seatbelt control for standard back control, you maintain a dominant position with high submission probability rather than risking a scramble trying to recover a position that has already been broken."
@@ -80,7 +80,7 @@ description: "Prevent arm recovery escapes from crucifix in BJJ. Maintain domina
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your body position when the bottom player hip escapes away from the trapped arm?",
+      "name": "How do you adjust when the bottom player hip escapes away from the trapped arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their hip escape by adjusting your own hips in the same direction to maintain perpendicular alignment to their torso. Keep your chest tight against their upper back and shoulders throughout the adjustment, never allowing space to open between your bodies. Simultaneously increase the squeeze on the leg triangle to compensate for any slack created during the movement. The goal is to neutralize their angle change completely so that from their perspective, the escape created zero net positional change."

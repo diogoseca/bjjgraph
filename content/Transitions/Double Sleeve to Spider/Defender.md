@@ -56,7 +56,7 @@ description: "Learn to defend the Double Sleeve to Spider Guard transition. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting the Double Sleeve to Spider transition?",
+      "name": "What is the earliest cue that they are moving from double sleeve to spider guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in sleeve pulling direction—shifting from horizontal pulls toward their hips to slightly downward pulls that aim to extend your arms. This precedes the foot movement and signals their intention to bring your biceps into foot range. The foot sliding upward from the hip is a secondary cue that confirms the transition, but by then you have less time to react preemptively."
@@ -80,7 +80,7 @@ description: "Learn to defend the Double Sleeve to Spider Guard transition. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully places one foot on your bicep—what immediate action prevents full spider guard establishment?",
+      "name": "They get one foot on your bicep: what stops them completing spider guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circle toward the hooked side while simultaneously working to strip the sleeve grip on that side. Circling reduces the hook's effectiveness because the angle change shortens their leg line and compromises their extension. While addressing that hook, keep your other elbow pinned to prevent the second hook. If you can strip the grip on the hooked side, the foot loses its controlling connection and can be pushed off easily."
@@ -88,7 +88,7 @@ description: "Learn to defend the Double Sleeve to Spider Guard transition. Reco
     },
     {
       "@type": "Question",
-      "name": "What passing strategy should you employ if you successfully strip grips during the transition window?",
+      "name": "You strip their grips during the transition to spider: how do you pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish your own grips on their pants at the knees and drive forward with controlled pressure. The opponent is in a transitional state with feet between positions and at least one grip broken—this is the optimal passing window. Toreando pass or leg drag pass are the highest-percentage options because you can redirect their legs before they re-establish any guard structure. Do not pause after the grip strip—immediate forward advancement is critical."

@@ -98,7 +98,7 @@ description: "How to execute Hindulotine to Darce Choke in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent retracts their defensive frame as soon as they feel you release the guillotine grip - what adjustment do you make?",
+      "name": "They pull their frame back as you release the guillotine for the Darce — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately return to the guillotine finish since their frame removal reopens the original attack. The frame retraction means they chose to accept guillotine pressure rather than Darce pressure, making the original submission viable again. This creates a dilemma where either choice benefits you."

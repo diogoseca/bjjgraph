@@ -80,7 +80,7 @@ description: "Learn to defend the Triangle from Armbar transition in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent locks the triangle but has not yet adjusted the angle—what is your immediate tactical priority?",
+      "name": "They lock the triangle from armbar but haven't angled off yet: what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately square your hips to the attacker's centerline and drive forward with stacking pressure. The triangle choke requires a 30-45 degree angle between the attacker's body and yours to achieve effective carotid compression. By squaring up and stacking before they can angle off, you neutralize the choking geometry even though the lock is established. From this squared, stacked position, work systematic triangle escapes: posture recovery, arm extraction, and eventually passing the guard. Time is critical because the attacker will actively fight to reestablish the angle."

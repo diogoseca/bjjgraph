@@ -407,7 +407,7 @@ description: "Complete guide to all BJJ positions. Learn the positional hierarch
     {
       "@type": "ListItem",
       "position": 64,
-      "name": "Kuzure Kesa-Gatame",
+      "name": "Kuzure Kesa Gatame",
       "url": "https://bjjgraph.org/Positions/kuzure-kesa-gatame"
     },
     {
@@ -485,360 +485,342 @@ description: "Complete guide to all BJJ positions. Learn the positional hierarch
     {
       "@type": "ListItem",
       "position": 77,
-      "name": "Modified Scarf Hold",
-      "url": "https://bjjgraph.org/Positions/modified-scarf-hold"
-    },
-    {
-      "@type": "ListItem",
-      "position": 78,
       "name": "Mount",
       "url": "https://bjjgraph.org/Positions/mount"
     },
     {
       "@type": "ListItem",
-      "position": 79,
+      "position": 78,
       "name": "Mounted Crucifix",
       "url": "https://bjjgraph.org/Positions/mounted-crucifix"
     },
     {
       "@type": "ListItem",
-      "position": 80,
+      "position": 79,
       "name": "Mounted Triangle",
       "url": "https://bjjgraph.org/Positions/mounted-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 81,
+      "position": 80,
       "name": "New York",
       "url": "https://bjjgraph.org/Positions/new-york"
     },
     {
       "@type": "ListItem",
-      "position": 82,
+      "position": 81,
       "name": "New York Control",
       "url": "https://bjjgraph.org/Positions/new-york-control"
     },
     {
       "@type": "ListItem",
-      "position": 83,
+      "position": 82,
       "name": "North-South",
       "url": "https://bjjgraph.org/Positions/north-south"
     },
     {
       "@type": "ListItem",
-      "position": 84,
+      "position": 83,
       "name": "Old School",
       "url": "https://bjjgraph.org/Positions/old-school"
     },
     {
       "@type": "ListItem",
-      "position": 85,
+      "position": 84,
       "name": "Omoplata Control",
       "url": "https://bjjgraph.org/Positions/omoplata-control"
     },
     {
       "@type": "ListItem",
-      "position": 86,
+      "position": 85,
       "name": "Open Guard",
       "url": "https://bjjgraph.org/Positions/open-guard"
     },
     {
       "@type": "ListItem",
-      "position": 87,
+      "position": 86,
       "name": "Outside Ashi-Garami",
       "url": "https://bjjgraph.org/Positions/outside-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 88,
+      "position": 87,
       "name": "Overhook Control",
       "url": "https://bjjgraph.org/Positions/overhook-control"
     },
     {
       "@type": "ListItem",
-      "position": 89,
+      "position": 88,
       "name": "Overhook Guard",
       "url": "https://bjjgraph.org/Positions/overhook-guard"
     },
     {
       "@type": "ListItem",
-      "position": 90,
+      "position": 89,
       "name": "Piranha Guard",
       "url": "https://bjjgraph.org/Positions/piranha-guard"
     },
     {
       "@type": "ListItem",
-      "position": 91,
+      "position": 90,
       "name": "Pocket Half Guard",
       "url": "https://bjjgraph.org/Positions/pocket-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 92,
+      "position": 91,
       "name": "Quarter Guard",
       "url": "https://bjjgraph.org/Positions/quarter-guard"
     },
     {
       "@type": "ListItem",
-      "position": 93,
+      "position": 92,
       "name": "Rear Triangle",
       "url": "https://bjjgraph.org/Positions/rear-triangle"
     },
     {
       "@type": "ListItem",
-      "position": 94,
+      "position": 93,
       "name": "Reverse De La Riva Guard",
       "url": "https://bjjgraph.org/Positions/reverse-de-la-riva-guard"
     },
     {
       "@type": "ListItem",
-      "position": 95,
+      "position": 94,
       "name": "Reverse Half Guard",
       "url": "https://bjjgraph.org/Positions/reverse-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 96,
-      "name": "Reverse Kesa-Gatame",
-      "url": "https://bjjgraph.org/Positions/reverse-kesa-gatame"
-    },
-    {
-      "@type": "ListItem",
-      "position": 97,
+      "position": 95,
       "name": "Reverse Mount",
       "url": "https://bjjgraph.org/Positions/reverse-mount"
     },
     {
       "@type": "ListItem",
-      "position": 98,
-      "name": "Reverse Scarf Hold",
-      "url": "https://bjjgraph.org/Positions/reverse-scarf-hold"
-    },
-    {
-      "@type": "ListItem",
-      "position": 99,
+      "position": 96,
       "name": "Reverse X-Guard",
       "url": "https://bjjgraph.org/Positions/reverse-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 100,
+      "position": 97,
       "name": "Ringworm Guard",
       "url": "https://bjjgraph.org/Positions/ringworm-guard"
     },
     {
       "@type": "ListItem",
-      "position": 101,
+      "position": 98,
       "name": "Rodeo Ride",
       "url": "https://bjjgraph.org/Positions/rodeo-ride"
     },
     {
       "@type": "ListItem",
-      "position": 102,
+      "position": 99,
       "name": "Rubber Guard",
       "url": "https://bjjgraph.org/Positions/rubber-guard"
     },
     {
       "@type": "ListItem",
-      "position": 103,
+      "position": 100,
       "name": "Russian Cowboy",
       "url": "https://bjjgraph.org/Positions/russian-cowboy"
     },
     {
       "@type": "ListItem",
-      "position": 104,
+      "position": 101,
       "name": "Russian Leg Lasso",
       "url": "https://bjjgraph.org/Positions/russian-leg-lasso"
     },
     {
       "@type": "ListItem",
-      "position": 105,
+      "position": 102,
       "name": "S Mount",
       "url": "https://bjjgraph.org/Positions/s-mount"
     },
     {
       "@type": "ListItem",
-      "position": 106,
+      "position": 103,
       "name": "Saddle",
       "url": "https://bjjgraph.org/Positions/saddle"
     },
     {
       "@type": "ListItem",
-      "position": 107,
-      "name": "Scarf Hold Position",
-      "url": "https://bjjgraph.org/Positions/scarf-hold-position"
-    },
-    {
-      "@type": "ListItem",
-      "position": 108,
+      "position": 104,
       "name": "Seat Belt Control Back",
       "url": "https://bjjgraph.org/Positions/seat-belt-control-back"
     },
     {
       "@type": "ListItem",
-      "position": 109,
+      "position": 105,
       "name": "Seated Guard",
       "url": "https://bjjgraph.org/Positions/seated-guard"
     },
     {
       "@type": "ListItem",
-      "position": 110,
+      "position": 106,
       "name": "Shin-to-Shin Guard",
       "url": "https://bjjgraph.org/Positions/shin-to-shin-guard"
     },
     {
       "@type": "ListItem",
-      "position": 111,
+      "position": 107,
       "name": "Shoulder of Justice",
       "url": "https://bjjgraph.org/Positions/shoulder-of-justice"
     },
     {
       "@type": "ListItem",
-      "position": 112,
+      "position": 108,
       "name": "Side Control",
       "url": "https://bjjgraph.org/Positions/side-control"
     },
     {
       "@type": "ListItem",
-      "position": 113,
+      "position": 109,
       "name": "Single Leg X-Guard",
       "url": "https://bjjgraph.org/Positions/single-leg-x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 114,
+      "position": 110,
       "name": "Spider Guard",
       "url": "https://bjjgraph.org/Positions/spider-guard"
     },
     {
       "@type": "ListItem",
-      "position": 115,
+      "position": 111,
       "name": "Squid Guard",
       "url": "https://bjjgraph.org/Positions/squid-guard"
     },
     {
       "@type": "ListItem",
-      "position": 116,
+      "position": 112,
       "name": "Standing Back Control",
       "url": "https://bjjgraph.org/Positions/standing-back-control"
     },
     {
       "@type": "ListItem",
-      "position": 117,
+      "position": 113,
       "name": "Standing Guard",
       "url": "https://bjjgraph.org/Positions/standing-guard"
     },
     {
       "@type": "ListItem",
-      "position": 118,
+      "position": 114,
       "name": "Standing Position",
       "url": "https://bjjgraph.org/Positions/standing-position"
     },
     {
       "@type": "ListItem",
-      "position": 119,
+      "position": 115,
       "name": "Standing Rear Clinch",
       "url": "https://bjjgraph.org/Positions/standing-rear-clinch"
     },
     {
       "@type": "ListItem",
-      "position": 120,
+      "position": 116,
       "name": "Straight Ankle Lock Control",
       "url": "https://bjjgraph.org/Positions/straight-ankle-lock-control"
     },
     {
       "@type": "ListItem",
-      "position": 121,
+      "position": 117,
       "name": "Technical Mount",
       "url": "https://bjjgraph.org/Positions/technical-mount"
     },
     {
       "@type": "ListItem",
-      "position": 122,
+      "position": 118,
       "name": "Toe Hold Control",
       "url": "https://bjjgraph.org/Positions/toe-hold-control"
     },
     {
       "@type": "ListItem",
-      "position": 123,
+      "position": 119,
       "name": "Triangle Control",
       "url": "https://bjjgraph.org/Positions/triangle-control"
     },
     {
       "@type": "ListItem",
-      "position": 124,
+      "position": 120,
       "name": "Triangle Escape Position",
       "url": "https://bjjgraph.org/Positions/triangle-escape-position"
     },
     {
       "@type": "ListItem",
-      "position": 125,
+      "position": 121,
       "name": "Truck",
       "url": "https://bjjgraph.org/Positions/truck"
     },
     {
       "@type": "ListItem",
-      "position": 126,
+      "position": 122,
       "name": "Turtle",
       "url": "https://bjjgraph.org/Positions/turtle"
     },
     {
       "@type": "ListItem",
-      "position": 127,
+      "position": 123,
       "name": "Twister Control",
       "url": "https://bjjgraph.org/Positions/twister-control"
     },
     {
       "@type": "ListItem",
-      "position": 128,
+      "position": 124,
       "name": "Twister Side Control",
       "url": "https://bjjgraph.org/Positions/twister-side-control"
     },
     {
       "@type": "ListItem",
-      "position": 129,
+      "position": 125,
       "name": "Ushiro Ashi-Garami",
       "url": "https://bjjgraph.org/Positions/ushiro-ashi-garami"
     },
     {
       "@type": "ListItem",
-      "position": 130,
+      "position": 126,
+      "name": "Ushiro Kesa Gatame",
+      "url": "https://bjjgraph.org/Positions/ushiro-kesa-gatame"
+    },
+    {
+      "@type": "ListItem",
+      "position": 127,
       "name": "Vaporizer",
       "url": "https://bjjgraph.org/Positions/vaporizer"
     },
     {
       "@type": "ListItem",
-      "position": 131,
+      "position": 128,
       "name": "Williams Guard",
       "url": "https://bjjgraph.org/Positions/williams-guard"
     },
     {
       "@type": "ListItem",
-      "position": 132,
+      "position": 129,
       "name": "Worm Guard",
       "url": "https://bjjgraph.org/Positions/worm-guard"
     },
     {
       "@type": "ListItem",
-      "position": 133,
+      "position": 130,
       "name": "X-Guard",
       "url": "https://bjjgraph.org/Positions/x-guard"
     },
     {
       "@type": "ListItem",
-      "position": 134,
+      "position": 131,
       "name": "Z-Guard",
       "url": "https://bjjgraph.org/Positions/z-guard"
     },
     {
       "@type": "ListItem",
-      "position": 135,
+      "position": 132,
       "name": "Z-Lock Half Guard",
       "url": "https://bjjgraph.org/Positions/z-lock-half-guard"
     },
     {
       "@type": "ListItem",
-      "position": 136,
+      "position": 133,
       "name": "Zombie",
       "url": "https://bjjgraph.org/Positions/zombie"
     }
@@ -1112,29 +1094,17 @@ Master Zombie position in BJJ. Defensive turtle variation with unique lockdown m
 
 Master Kesa Gatame (Scarf Hold) in BJJ. Strategic guide covering control mechanics, submissions, escapes, and transitions with complete perspective analysis for both bottom and top players.
 
-### [[Positions/Side Control/Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]]
+### [[Positions/Side Control/Kuzure Kesa Gatame|Kuzure Kesa Gatame]]
 
 Master modified scarf hold in BJJ. Strategic guide covering control mechanics, submission setups, and escape prevention with complete perspective analysis.
-
-### [[Positions/Side Control/Modified Scarf Hold|Modified Scarf Hold]]
-
-Master Modified Scarf Hold in BJJ. Complete guide covering control mechanics, submission setups, and escape prevention with detailed perspective analysis.
-
-### [[Positions/Side Control/Reverse Kesa-Gatame|Reverse Kesa-Gatame]]
-
-Master Reverse Kesa-Gatame in BJJ. Strategic guide covering pin mechanics, escape techniques, and submission attacks from both bottom and top perspectives.
-
-### [[Positions/Side Control/Reverse Scarf Hold|Reverse Scarf Hold]]
-
-Master Reverse Scarf Hold (Ushiro Kesa Gatame) in BJJ. Complete guide covering defensive survival, offensive control, and transitions from both perspectives.
-
-### [[Positions/Side Control/Scarf Hold Position|Scarf Hold Position]]
-
-Master Scarf Hold (Kesa Gatame) in BJJ. Traditional judo pinning position with perpendicular control angle. Complete guide covering bottom escapes and top control strategies.
 
 ### [[Positions/Side Control|Side Control]]
 
 Master Side Control in BJJ with complete guides for top pressure, submissions, escapes, and transitions. Techniques for dominant control and defensive recovery.
+
+### [[Positions/Side Control/Ushiro Kesa Gatame|Ushiro Kesa Gatame]]
+
+Master Ushiro Kesa Gatame in BJJ. Strategic guide covering pin mechanics, escape techniques, and submission attacks from both bottom and top perspectives.
 
 
 ## Triangle Control

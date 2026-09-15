@@ -56,7 +56,7 @@ description: "Defend the Worm Guard Sweep in BJJ. Recognition cues, base managem
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a worm guard sweep is being initiated rather than a collar drag or other attack?",
+      "name": "What earliest cue shows a worm guard sweep rather than a collar drag is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest distinguishing cue is the attacker angling their hips perpendicular to your body, which is specific to sweep setup. Collar drags require the attacker to stay more directly underneath you to pull forward and sit up. When you see hip angling combined with legs repositioning under your hips, the sweep is being loaded rather than a forward-pulling attack like the collar drag."
@@ -64,7 +64,7 @@ description: "Defend the Worm Guard Sweep in BJJ. Recognition cues, base managem
     },
     {
       "@type": "Question",
-      "name": "Why is stripping the lapel more strategically valuable than simply widening your base against the sweep?",
+      "name": "Why is stripping the lapel more valuable than just widening your base against a worm guard sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widening your base only addresses the current sweep attempt while leaving the worm guard intact for future attacks. Stripping the lapel eliminates the entire worm guard control system, neutralizing not just the sweep but all associated attacks including collar drags, back takes, and guard transitions. It solves the root cause rather than treating the symptom, and leaves you in a favorable open guard passing position."
@@ -72,7 +72,7 @@ description: "Defend the Worm Guard Sweep in BJJ. Recognition cues, base managem
     },
     {
       "@type": "Question",
-      "name": "Your opponent has loaded the sweep and you feel your weight being elevated - what is your highest percentage response at this late stage?",
+      "name": "Being elevated by the worm guard sweep, what is your highest percentage late response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is to post aggressively with your free hand on the mat in the direction of the sweep and simultaneously try to extract your trapped leg from the lapel wrap. If you can post and maintain connection to the mat, you can arrest the rotation even with the elevation in progress. If the sweep completes despite posting, focus on landing in side control or half guard rather than being swept cleanly to mount by extending your posting arm and inserting a knee as you land."
@@ -80,7 +80,7 @@ description: "Defend the Worm Guard Sweep in BJJ. Recognition cues, base managem
     },
     {
       "@type": "Question",
-      "name": "How does defending the worm guard sweep differ from defending standard butterfly or De La Riva sweeps?",
+      "name": "How does defending the worm guard sweep differ from defending butterfly or De La Riva sweeps?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical difference is that normal sweeps allow you to step your swept leg to recover base, whereas the worm guard lapel wrap immobilizes the trapped leg, removing your primary recovery mechanism. This means standard sweep defense principles like stepping and re-basing are unreliable. Instead, you must either prevent the sweep from loading through setup disruption or remove the lapel constraint entirely. Defensive strategies must account for the loss of leg mobility."
@@ -88,7 +88,7 @@ description: "Defend the Worm Guard Sweep in BJJ. Recognition cues, base managem
     },
     {
       "@type": "Question",
-      "name": "When should you attempt forward pressure versus disengagement as a defensive strategy against the sweep?",
+      "name": "Against the worm guard sweep, when do you use forward pressure versus disengagement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use forward pressure when the attacker is beginning to angle their hips but has not yet loaded the sweep, as your weight pins them flat and prevents the hip angle needed for the mechanics. Use disengagement and lapel stripping when you have positional space and time to address the grip without being under immediate sweep threat. Avoid forward pressure if the attacker has already loaded the sweep with legs under your hips, as forward pressure at that point feeds directly into the overhead balloon sweep variation."

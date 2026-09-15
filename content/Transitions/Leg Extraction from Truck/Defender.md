@@ -64,7 +64,7 @@ description: "Counter the leg extraction from truck as the top player. Maintain 
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the truck entanglement and transition to back control during an extraction attempt?",
+      "name": "Holding the truck, when should you release it and transition to back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to back control when your hook tightening is no longer effectively stopping the ankle rotation, the knee has driven outward creating visible angular separation, and the hip rotation has begun. At this point, the three-dimensional spiral is too advanced to counter through tightening alone. Proactively release the entanglement and insert hooks before the leg fully clears, timing the transition to the moment just before complete extraction when the bottom player's focus is on the final pull rather than defending hook insertion."
@@ -72,7 +72,7 @@ description: "Counter the leg extraction from truck as the top player. Maintain 
     },
     {
       "@type": "Question",
-      "name": "How do you use the calf slicer threat to counter extraction attempts without losing positional control?",
+      "name": "Holding the truck, how do you use the calf slicer threat to stop extraction without losing control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply calf slicer pressure as a disruptive threat rather than a full commitment. When you feel the knee driving outward during extraction, apply compression on the calf to force the bottom player to bend their knee sharply and abandon the outward drive. This resets their extraction progress without requiring you to shift your weight significantly or release upper body control. Only escalate to a full calf slicer commitment when the submission is clearly available."

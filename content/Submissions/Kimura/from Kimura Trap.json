@@ -14,18 +14,18 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint (glenohumeral) and elbow",
   "starting_position": "Kimura Trap",
-  "from_position": "Kimura Trap/Top",
+  "from_position": "Kimura Trap/Bottom",
   "from_positions": [
     "Kimura Trap",
     "Half Guard",
-    "Side Control",
-    "North-South"
+    "Lockdown",
+    "Deep Half Guard"
   ],
   "success_rate": {
     "gi": 50,
     "nogi": 50
   },
-  "summary": "The Kimura from Kimura Trap is a figure-four shoulder lock that finishes the Kimura Trap control system by rotating the opponent's trapped arm behind their back, attacking the glenohumeral joint and threatening dislocation from either top or bottom.",
+  "summary": "The Kimura from Kimura Trap is a figure-four shoulder lock finished from underneath: the bottom player who owns the grip rotates the opponent's trapped arm behind their back, attacking the glenohumeral joint while the half guard entanglement denies the escape.",
   "overview": "Within the broader Kimura Trap framework, this finish represents the system's primary submission threat and the natural conclusion of its grip-based control. The mechanism applies rotational force against the glenohumeral joint by driving the opponent's hand behind their back in a controlled arc motion. Unlike isolated Kimura attempts from side control or guard, this finish benefits from the systematic control infrastructure already established through the Kimura Trap position—the opponent's arm is deeply compromised, their base disrupted, and defensive options severely constrained by the preceding positional control and grip depth.\n\nThe finishing mechanics demand precise angle creation through walking the feet toward the opponent's head, progressive rotational pressure coordinated with hip positioning rather than arm strength, and unwavering chest pressure that prevents the opponent from creating escape space. The figure-four grip structure multiplies mechanical advantage at the shoulder joint, making the finish achievable even against significantly stronger opponents when proper technique and angle are applied consistently.\n\nStrategically, the Kimura from Kimura Trap creates compounding dilemmas: defending the finish typically forces the opponent to compromise positional integrity, opening sweeps, back takes, or transitions to alternative submissions like the Americana or armbar. Even when the finish itself does not produce the tap, the constant rotational threat creates defensive reactions that advance the attacker's position, embodying modern BJJ's emphasis on interconnected attacking systems rather than isolated techniques.",
   "safety_considerations": {
     "injury_risks": [
@@ -75,7 +75,7 @@
       "result": "success"
     },
     {
-      "to": "Kimura Trap/Top",
+      "to": "Kimura Trap/Bottom",
       "probability": {
         "gi": 30,
         "nogi": 30
@@ -83,7 +83,7 @@
       "result": "failure"
     },
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": {
         "gi": 20,
         "nogi": 20
@@ -93,19 +93,19 @@
   ],
   "variations_and_setups": [
     {
-      "variation_name": "Walk-Around Top Finish",
-      "description": "Standard Kimura finish from Kimura Trap Top where the attacker walks feet in an arc toward the opponent's head to create the optimal perpendicular finishing angle, then drives the trapped wrist behind the opponent's back using progressive chest pressure and hip rotation.",
-      "when_to_use": "When you have established deep Kimura grip from side control or half guard top and the opponent's defensive grips have been neutralized"
-    },
-    {
-      "variation_name": "North-South Transition Finish",
-      "description": "Spinning to north-south position while maintaining the Kimura grip to attack from a different angle. The north-south alignment changes the direction of rotational force and often catches opponents who have adapted their defense to the standard side angle.",
-      "when_to_use": "When the opponent successfully defends the standard finishing angle by keeping their elbow tight to their body or when their defensive grip is strong from the side position"
+      "variation_name": "Come-Up Finish From Bottom",
+      "description": "The standard bottom finish. Hip-escape onto the near side, post on the near elbow and come up until your chest faces the trapped arm, then drive the wrist behind their back as your torso turns. The half guard or lockdown holds their base so they cannot follow the rotation or drive you flat.",
+      "when_to_use": "The default whenever you own the grip from Kimura Trap Bottom and can get your hips off the mat."
     },
     {
       "variation_name": "Rolling Kimura from Bottom",
       "description": "From Kimura Trap Bottom, using hip elevation and the opponent's forward pressure to roll them over while maintaining the figure-four grip. The rolling momentum generates rotational force on the shoulder as you arrive in top position with the finish already loaded.",
-      "when_to_use": "When in Kimura Trap Bottom and the opponent drives forward aggressively, providing momentum that can be redirected into the rolling finish"
+      "when_to_use": "When the opponent drives forward aggressively, providing momentum that can be redirected into the roll."
+    },
+    {
+      "variation_name": "Lockdown Hold Finish",
+      "description": "Close the lockdown on the trapped leg before rotating, so the opponent cannot post out or step over as the shoulder loads. The legs do the holding that a top player would do with chest weight, which makes this the highest-percentage version against a heavier opponent.",
+      "when_to_use": "Against a bigger, base-heavy opponent who would otherwise simply flatten you and wait."
     }
   ],
   "related_submissions": [
@@ -118,50 +118,50 @@
   "related_content": [
     {
       "name": "Kimura Trap",
-      "relationship": "Primary starting position providing the grip control infrastructure for the finish"
+      "relationship": "Starting position — the bottom seat owns the figure-four grip and this is its finish"
     },
     {
       "name": "Half Guard",
-      "relationship": "Common entry point where Kimura grip is established before transitioning to Kimura Trap"
+      "relationship": "Primary entry — the grip is established from half guard bottom before the trap consolidates"
     },
     {
-      "name": "Side Control",
-      "relationship": "Alternative entry position where the Kimura grip can be secured on an exposed arm"
+      "name": "Half Guard to Kimura Trap",
+      "relationship": "The entry that puts you in this seat with the grip already closed"
+    },
+    {
+      "name": "Lockdown",
+      "relationship": "Common leg configuration underneath the grip; it is what stops the opponent disengaging"
     },
     {
       "name": "Back Control",
-      "relationship": "Transition target when opponent rolls to defend the Kimura finish"
-    },
-    {
-      "name": "North-South",
-      "relationship": "Alternative finishing platform providing different rotational angle on the shoulder"
+      "relationship": "Transition target when the opponent turns away from the grip to defend"
     },
     {
       "name": "Americana",
-      "relationship": "Related shoulder lock from the same positional family with reversed rotational direction"
+      "relationship": "The same figure-four redirected into external rotation, finished from the same seat"
     },
     {
-      "name": "Arm Triangle",
-      "relationship": "Chain submission available when opponent defends Kimura by bringing arm across their neck"
+      "name": "Kimura Sweep",
+      "relationship": "The sweep taken from this grip when the opponent defends the finish by posting"
     }
   ],
   "attacker": {
     "name": "from Kimura Trap Attacker",
     "description": "Learn to finish the Kimura from Kimura Trap as the attacker. Step-by-step guide to grip mechanics, finishing angles, and progressive shoulder lock application in BJJ.",
-    "overview": "Executing the Kimura from Kimura Trap requires mastering the transition from positional control to active submission finishing. The attacker must recognize the precise moment when the opponent's defensive structure has deteriorated enough to begin the finishing sequence—attempting too early against intact defenses wastes energy and may compromise the grip. The process involves creating the proper finishing angle by walking feet toward the opponent's head in an arc, generating rotational force through hip positioning and body mechanics rather than arm strength alone, and maintaining heavy chest pressure throughout to prevent the opponent from creating escape space or rolling out of the submission. The key distinction from standard Kimura finishes is that the Kimura Trap system provides superior grip depth, sustained control, and multiple layers of positional dominance that enable a methodical, high-percentage finishing approach where the opponent's defensive options are systematically eliminated before the final rotational pressure is applied.",
+    "overview": "Executing the Kimura from Kimura Trap means finishing a shoulder lock from underneath, and the whole difference from the top version is where the control comes from. You have no weight to give: the anchor is your LEGS. The half guard entanglement or lockdown is what stops the opponent standing up, backing out, or driving past to flatten you, and if you lose it the grip controls nothing. You create the finishing angle by hip-escaping onto your side and coming up onto your near elbow and shoulder, turning your chest toward them — not by walking your feet around their head, which is a top mechanic and is not available to you. The rotational force comes from your torso turning as you come up, plus your legs pulling their base out from under them. Recognise the moment: attempting the finish while you are still flat on your back is the single most common way this is wasted, because a flat spine gives you no arc to rotate through. From here the finish has two legitimate routes — complete it from the bottom as you come onto your side, or roll them and arrive on top with the lock already loaded.",
     "key_principles": [
       "Verify deep figure-four grip positioning near the opponent's elbow before committing to the finish—shallow grips near the wrist lack sufficient leverage",
-      "Create the finishing angle by walking feet in an arc toward the opponent's head rather than attempting to finish from a squared-up position",
-      "Generate rotational force through hip positioning, body weight transfer, and chest pressure rather than relying on arm strength to crank the submission",
-      "Maintain heavy chest pressure throughout the entire finishing sequence to prevent the opponent from posturing, bridging, or creating escape space",
+      "Create the finishing angle by hip-escaping onto your side and coming up onto your near elbow, never by walking your feet around their head — that is the top finish and you do not have it",
+      "Generate rotational force by turning your torso as you come up and by pulling their base with your legs, not by weight and not by arm strength",
+      "Keep the leg entanglement live for the entire sequence — the half guard or lockdown is your only substitute for the top player's chest pressure, and without it the grip controls nothing",
       "Break defensive grips systematically before applying final rotational pressure rather than trying to power through clasped hands",
       "Apply the finish with slow progressive pressure in a smooth arc motion, never jerking or spiking the arm behind the opponent's back"
     ],
     "setup_requirements": [
       "Deep figure-four Kimura grip established near the opponent's elbow with secure wrist-on-wrist or wrist-on-forearm connection",
-      "Chest pressure pinning the opponent's upper body to the mat with hips low and heavy",
+      "Half guard or lockdown entanglement intact on the opponent's near leg, denying them the option to stand, back out or step over",
       "Opponent's defensive grips neutralized or weakened to the point where rotational force can overcome remaining resistance",
-      "Finishing angle created with feet walked toward opponent's head, establishing perpendicular body positioning for maximum leverage",
+      "Your hips off the mat and your near shoulder able to lift — a flattened spine leaves no arc to rotate the arm through",
       "Opponent's far-side arm controlled or neutralized to prevent frames that could create escape space during the finish"
     ],
     "execution_steps": [
@@ -173,14 +173,14 @@
       },
       {
         "step_number": 2,
-        "action": "Establish Heavy Chest Pressure",
-        "description": "Drive your shoulder and chest weight downward into the opponent's upper torso, pinning their shoulders to the mat. Your hips should be low and sprawled with weight distributed through your chest rather than resting on your knees. This pressure prevents the opponent from bridging, creating space, or generating the explosive movement needed to escape.",
+        "action": "Anchor With the Legs",
+        "description": "Confirm the half guard entanglement on the opponent's near leg, closing the lockdown if their base is strong. This is the bottom player's substitute for chest pressure: it is what prevents them standing, backing away, or stepping over to flatten you while your arm is committed to the grip.",
         "timing": "Continuous throughout the entire finishing sequence"
       },
       {
         "step_number": 3,
         "action": "Create Finishing Angle",
-        "description": "Walk your feet in a gradual arc toward the opponent's head while maintaining chest contact. Each small step increases the angle between your body and theirs, creating greater mechanical advantage on their shoulder joint. The goal is to achieve a roughly perpendicular position where your body is angled across their torso at approximately ninety degrees.",
+        "description": "Hip-escape onto your near side and come up onto your near elbow, turning your chest toward the opponent. Each degree you turn increases the angle between your torso and their shoulder line, which is where the leverage comes from. The goal is to get your chest facing their trapped arm rather than the ceiling — finishing while flat on your back leaves no arc to rotate through.",
         "timing": "5-8 seconds of progressive angle adjustment with small deliberate steps"
       },
       {
@@ -198,7 +198,7 @@
       {
         "step_number": 6,
         "action": "Paint Hand Behind Back",
-        "description": "Continue the arc motion driving the opponent's hand behind their back and below their waistline. The arc should follow a path that takes the hand outward from their body, then backward and downward behind their back. Maintain chest pressure to prevent them from rolling to relieve the shoulder pressure as the rotational force increases.",
+        "description": "Continue the arc motion driving the opponent's hand behind their back and below their waistline. The arc should follow a path that takes the hand outward from their body, then backward and downward behind their back. Keep your legs pulling their base and your near elbow posted so they cannot follow the rotation by turning into you or by flattening you back down.",
         "timing": "3-5 seconds of controlled progressive rotation"
       },
       {
@@ -213,25 +213,25 @@
         "counter": "Opponent clasps hands together using gable grip or S-grip to prevent arm rotation",
         "effectiveness": "High",
         "your_response": "Use systematic grip breaks: insert knee between their hands, peel top hand with your free hand, or apply stepover pressure. If grip persists, walk angle further toward their head to increase baseline shoulder pressure even without rotation.",
-        "targets_outcome": "Kimura Trap/Top"
+        "targets_outcome": "Kimura Trap/Bottom"
       },
       {
         "counter": "Opponent straightens trapped arm and attempts to extract from figure-four grip",
         "effectiveness": "Medium",
         "your_response": "Maintain wrist control and immediately switch to armbar by swinging your leg over their face while keeping the wrist trapped. Their straightened arm actually facilitates the armbar transition. If armbar is not available, re-bend the arm and re-establish figure-four depth.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Half Guard/Bottom"
       },
       {
         "counter": "Opponent bridges and rolls toward the Kimura side to relieve shoulder pressure and create scramble",
         "effectiveness": "Medium",
         "your_response": "Follow their roll by maintaining the Kimura grip and transitioning to back control as they expose their back. Use their rolling momentum to swing your top leg over and establish hooks. The grip ensures offensive threat throughout the transition.",
-        "targets_outcome": "Kimura Trap/Top"
+        "targets_outcome": "Kimura Trap/Bottom"
       },
       {
         "counter": "Opponent tucks elbow extremely tight to their ribcage preventing any finishing angle development",
         "effectiveness": "High",
         "your_response": "Walk feet further toward their head to create an even sharper angle that gradually pries the elbow away from the body. Alternatively, transition to north-south position where the different leverage angle often opens the elbow. Use the Kimura threat to advance position to mount if the finish stalls.",
-        "targets_outcome": "Kimura Trap/Top"
+        "targets_outcome": "Kimura Trap/Bottom"
       }
     ],
     "common_errors": [
@@ -241,9 +241,9 @@
         "correction": "Walk feet in arc toward opponent's head to create perpendicular finishing angle, then use hip rotation and body weight to drive the finish rather than arm muscles"
       },
       {
-        "error": "Releasing chest pressure during the finishing sequence to focus entirely on arm manipulation",
+        "error": "Finishing flat on your back instead of coming up onto your near elbow and side",
         "consequence": "Opponent creates escape space through bridging or hip movement, may roll out of submission or recover guard position entirely",
-        "correction": "Maintain heavy chest pressure throughout the entire finishing sequence—the chest pin and the arm rotation must work simultaneously as a coordinated system"
+        "correction": "Hip-escape and post on the near elbow BEFORE the rotation starts — a flat spine has no arc to rotate through, and the finish becomes an arm-strength contest you will lose from underneath"
       },
       {
         "error": "Attempting to power through the opponent's clasped-hand defense rather than breaking grips systematically",
@@ -268,7 +268,7 @@
       {
         "error": "Starting the finishing sequence before the opponent's defensive grips and posture have been sufficiently broken down",
         "consequence": "Low-percentage submission attempt against intact defensive structure, wasting energy and potentially losing the Kimura grip position entirely",
-        "correction": "Systematically neutralize defensive grips, establish dominant angle, and confirm chest pressure before initiating the rotational finishing phase"
+        "correction": "Systematically neutralize defensive grips, come up onto your side to establish the angle, and confirm the leg entanglement is still holding before initiating the rotational finishing phase"
       }
     ],
     "training_progressions": [
@@ -279,8 +279,8 @@
       },
       {
         "phase": "Phase 2: Dominant Angles",
-        "focus": "Walking feet and creating finishing angle",
-        "description": "From established Kimura Trap Top, practice walking feet in arc toward opponent's head while maintaining chest pressure. Focus on smooth weight transfer during each step. Partner remains passive. Develop the coordination of maintaining grip, chest pressure, and foot movement simultaneously."
+        "focus": "Hip-escaping to the angle and coming up onto the elbow",
+        "description": "From established Kimura Trap Bottom, practise hip-escaping onto the near side and posting on the elbow while keeping the figure four closed and the lockdown live. Partner remains passive. Develop the coordination of holding the grip, holding the legs, and turning the torso simultaneously."
       },
       {
         "phase": "Phase 3: Finishing Mechanics",
@@ -315,7 +315,7 @@
         }
       },
       {
-        "question": "What are the key indicators that your opponent's shoulder is approaching the mechanical limit during the Kimura finish?",
+        "question": "What signs show their shoulder is nearing its limit during the Kimura finish?",
         "answer": "Primary indicators include involuntary facial grimacing, verbal distress signals, the opponent's body beginning to rotate involuntarily toward the direction of pressure, and visible strain in the shoulder musculature. The trapped arm begins to move more freely as soft tissue resistance decreases near the structural limit. You must release before reaching actual failure—the tap should come well before the breaking point, and you must apply pressure slowly enough to allow it.",
         "safety_critical": true,
         "answer_line": "Grimace, distress, involuntary roll",
@@ -330,10 +330,10 @@
         }
       },
       {
-        "question": "What control must be established before transitioning from Kimura Trap position to the active finishing sequence?",
-        "answer": "Before attempting the finish, verify deep figure-four grip near the opponent's elbow, heavy chest pressure pinning their upper body, a cleared finishing angle with feet walked toward the opponent's head, and the opponent's defensive grips broken or significantly weakened. Attempting the finish without all prerequisites established results in a low-percentage attempt that wastes energy and often allows the opponent to escape or counter.",
+        "question": "What must be controlled before moving from the Kimura Trap into the finishing sequence?",
+        "answer": "Before attempting the finish, verify a deep figure-four grip near the opponent's elbow, an intact half guard or lockdown entanglement holding their base, your hips off the mat with your near elbow posted so your chest turns toward them, and their defensive grips broken or significantly weakened. Attempting the finish without all four results in a low-percentage attempt that wastes energy and often lets them flatten you and pass.",
         "safety_critical": false,
-        "answer_line": "Deep figure-four, pressure, angle",
+        "answer_line": "Grip, legs, angle, then defence",
         "distractors": {
           "plausible": [
             "Wrist grip and squared hips",
@@ -345,8 +345,8 @@
         }
       },
       {
-        "question": "At what point during the Kimura finish does the opponent lose the ability to effectively defend through muscular resistance alone?",
-        "answer": "The critical threshold occurs when the opponent's hand is driven past the plane of their own back with the elbow pinned close to their torso. Once the wrist crosses behind the hip line while the attacker maintains chest pressure and perpendicular angle, the mechanical disadvantage becomes too severe for muscular defense alone to prevent the finish. Before this point, grip defense and positional movement remain viable defensive options for the opponent.",
+        "question": "When can the opponent no longer defend the Kimura Trap finish by muscle alone?",
+        "answer": "The critical threshold occurs when the opponent's hand is driven past the plane of their own back with the elbow pinned close to their torso. Once the wrist crosses behind the hip line while you hold the angle from your side and the leg entanglement still denies them their base, the mechanical disadvantage becomes too severe for muscular defence alone. Before that point, grip defence and posturing away remain viable for them.",
         "safety_critical": false,
         "answer_line": "Wrist past hip line, elbow pinned",
         "distractors": {
@@ -360,10 +360,10 @@
         }
       },
       {
-        "question": "Your opponent begins to posture up and create space during your Kimura finish attempt—what adjustment prevents escape?",
-        "answer": "Immediately drive your chest pressure downward while pulling the Kimura grip tight against your own torso. Walk your feet closer to create a tighter angle that restricts their ability to posture. If they create significant space, abandon the immediate finish and re-consolidate the Kimura Trap position by resettling weight and pulling their arm across your chest. The grip must be maintained throughout—never release it to chase the posture.",
+        "question": "They posture up and make space during your Kimura Trap finish: what adjustment stops the escape?",
+        "answer": "Follow them up rather than trying to hold them down — you have no weight to pin with. Come higher onto your near elbow and shoulder as they posture, keep the figure four pulled tight to your own chest, and use the lockdown or half guard to break their base so their posture costs them their balance. If they genuinely clear the space, abandon the immediate finish and re-consolidate the trap; never release the grip to chase their posture.",
         "safety_critical": false,
-        "answer_line": "Drive chest down, tighten angle",
+        "answer_line": "Follow up; break the base",
         "distractors": {
           "plausible": [
             "Widen base and wait it out",
@@ -375,7 +375,7 @@
         }
       },
       {
-        "question": "How should you adjust your grip during the finishing sequence if your opponent's arm is slippery from sweat?",
+        "question": "How do you adjust the Kimura grip when their arm is slippery with sweat?",
         "answer": "Switch from a standard wrist-on-wrist grip to a deeper figure-four where your hand wraps around your own forearm rather than just gripping the wrist, creating a larger contact surface that resists slipping. Additionally, squeeze your elbows together to create compression that locks the configuration in place regardless of friction. In no-gi, the monkey grip with thumbless configuration on the opponent's wrist provides the most secure connection.",
         "safety_critical": false,
         "answer_line": "Deeper figure-four, elbows squeezed",
@@ -390,7 +390,7 @@
         }
       },
       {
-        "question": "Why is it critical to apply the Kimura finish with slow progressive pressure rather than explosive jerking force?",
+        "question": "Why must the Kimura finish be slow and progressive rather than explosive?",
         "answer": "The shoulder joint is highly susceptible to catastrophic injury from sudden rotational force. Explosive application can cause full dislocation, labral tears, or rotator cuff ruptures before the opponent has time to recognize the danger and tap. Progressive pressure allows the defender to feel the submission developing and submit safely. In training, slow application develops superior technique while preventing injuries that can sideline training partners for many months.",
         "safety_critical": true,
         "answer_line": "Prevents sudden catastrophic injury",
@@ -405,7 +405,7 @@
         }
       },
       {
-        "question": "What is the optimal competition strategy for finishing the Kimura when your opponent is stalling by clasping their hands?",
+        "question": "In competition they stall by clasping their hands: how do you finish the Kimura?",
         "answer": "Maintain the Kimura grip and positional pressure to accumulate advantages while systematically working to break the clasp. Use your free hand or stepover techniques to separate their hands—insert your knee between their clasped hands or peel their top hand with your free hand. If the grip persists, transition the threat by walking to north-south or threatening the back take, which forces them to address new threats and often releases the clasp reflexively.",
         "safety_critical": false,
         "answer_line": "Break clasp, threaten back take",
@@ -420,7 +420,7 @@
         }
       },
       {
-        "question": "Your opponent rolls toward the Kimura side during your finish attempt from top position—how do you capitalize on this movement?",
+        "question": "They roll toward the Kimura side during your finish from bottom: how do you capitalize?",
         "answer": "Follow their roll by maintaining the Kimura grip absolutely and using their rotational momentum to transition to back control. As they roll, swing your top leg over to establish hooks while keeping the figure-four intact throughout the transition. From the new back control position, you have a choice: finish the Kimura from behind, or release one hand to secure a seatbelt grip for traditional back attacks like the rear naked choke.",
         "safety_critical": false,
         "answer_line": "Follow roll, take the back",
@@ -435,7 +435,7 @@
         }
       },
       {
-        "question": "What distinguishes a high-percentage Kimura finish from a low-percentage attempt in terms of body positioning?",
+        "question": "What body positioning separates a high-percentage Kimura finish from a low-percentage one?",
         "answer": "A high-percentage finish features the attacker's body perpendicular to the opponent with feet walked toward the head, chest heavy on the opponent's torso, the Kimura grip deep near the elbow, and the finishing arc driving the hand behind and below the opponent's back. A low-percentage attempt typically shows the attacker squared up rather than angled, weight resting on their knees rather than driving through the opponent's chest, and grip positioned near the wrist providing insufficient leverage.",
         "safety_critical": false,
         "answer_line": "Angled, chest heavy, deep grip",
@@ -450,7 +450,7 @@
         }
       },
       {
-        "question": "Why is application speed more critical for the Kimura from north-south compared to Kimuras from other positions?",
+        "question": "Why does the north-south Kimura demand slower application than Kimuras from other positions?",
         "answer": "The north-south angle creates significantly more leverage on the shoulder joint than traditional side control or guard-based Kimuras. The perpendicular body position and the combination of lifting and rotating away from the head generates extreme torque with minimal effort. This deceptive leverage means that what feels like moderate pressure to the person applying it can be intense joint stress for the recipient. Partners may not have sufficient time to recognize danger and tap before injury occurs if the submission is applied quickly. Therefore, extremely slow application (5-7 seconds minimum) is essential to give partners adequate opportunity to tap safely.",
         "safety_critical": true,
         "answer_line": "Deceptive torque, so go slower",
@@ -465,7 +465,7 @@
         }
       },
       {
-        "question": "What are the minimum three tap signals you must recognize when applying the Kimura from north-south, and why is constant monitoring essential?",
+        "question": "What three tap signals must you watch for in the north-south Kimura, and why monitor constantly?",
         "answer": "The three primary tap signals are: (1) verbal tap or submission call, (2) physical hand tap on your body or the mat, and (3) physical foot tap on the mat. Additionally, any distress vocalization, panic signal, or rapid head movement should be treated as a tap. Constant monitoring is essential because the north-south position covers much of opponent's upper body, potentially limiting their ability to tap with their free hand. Combined with the rapid onset of joint stress from the favorable leverage angle, you must watch for any indication of submission—including non-standard signals—and release immediately. Partners may panic if they cannot tap clearly, increasing injury risk.",
         "safety_critical": true,
         "answer_line": "Verbal, hand tap, foot tap",
@@ -495,7 +495,7 @@
         }
       },
       {
-        "question": "What anatomical structures does the Kimura from north-south primarily attack, and what are the breaking point indicators?",
+        "question": "What does the north-south Kimura attack, and what are the breaking point indicators?",
         "answer": "The Kimura primarily attacks the glenohumeral (shoulder) joint, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, subscapularis, teres minor), the anterior shoulder capsule, and the labrum. Breaking point indicators include: opponent's arm begins to visibly rotate beyond natural range of motion, partner's facial expression shows sudden distress or pain, audible popping or grinding sounds from the joint, visible muscle trembling in the shoulder complex, and partner suddenly going limp or stopping all resistance. You should never approach these indicators in training—always stop well before any breaking point.",
         "safety_critical": true,
         "answer_line": "Rotator cuff, capsule, labrum",
@@ -510,7 +510,7 @@
         }
       },
       {
-        "question": "Why is maintaining chest pressure throughout the submission attempt more important than in other top positions?",
+        "question": "Why does chest pressure matter more in north-south than in other top positions?",
         "answer": "North-south control relies heavily on chest pressure to prevent opponent's hip escape and rotation. Unlike side control where you have more points of control (crossface, hip positioning), north-south offers fewer control mechanisms. Your chest pressure is the primary tool preventing opponent from shrimping away or turning into you. If you lighten this pressure while attempting the Kimura, opponent can create the hip movement necessary to escape or reverse position. Additionally, the perpendicular body alignment in north-south means your weight distribution must remain constant—any shift away from the chest pressure allows opponent to exploit the gap. Maintain heavy chest pressure throughout the entire submission sequence to ensure positional security.",
         "safety_critical": false,
         "answer_line": "Fewer control points than side",
@@ -525,7 +525,7 @@
         }
       },
       {
-        "question": "What is the biomechanical advantage created by the perpendicular hip position in the north-south Kimura?",
+        "question": "What leverage advantage does perpendicular hip positioning give the north-south Kimura?",
         "answer": "The perpendicular hip position (your hips at a 90-degree angle to opponent's body) creates optimal leverage for the Kimura because it allows you to rotate their arm away from their head while maintaining stable base and control. When your hips are perpendicular, rotating your upper body naturally creates torque on their shoulder joint without requiring significant strength. This angle also prevents opponent from following the rotation by turning their body—their hips are pinned by your chest pressure while your perpendicular positioning allows you freedom of movement. If your hips were parallel to theirs, you would lose this mechanical advantage and have to muscle the submission, reducing effectiveness and increasing escape opportunities.",
         "safety_critical": false,
         "answer_line": "Rotates arm without needing strength",
@@ -540,7 +540,7 @@
         }
       },
       {
-        "question": "How do you adjust your attack when opponent defends by rolling toward the submission, and what higher-value position can you secure?",
+        "question": "They roll toward your north-south Kimura: how do you adjust, and what better position can you take?",
         "answer": "When opponent rolls toward the Kimura to relieve shoulder pressure, you must follow their rotation while maintaining the figure-four grip initially. As they turn into you, their back becomes exposed. At this point, you have a choice: either maintain the Kimura grip and continue applying pressure from the new angle, or release the wrist control and transition to back control by establishing the seat belt grip (one arm over their shoulder, one under their armpit). The back control transition is often higher-value because back control offers multiple submission opportunities and awards maximum points in competition. The key is recognizing that their rolling defense, while effective against the Kimura, creates a different vulnerability you can exploit.",
         "safety_critical": false,
         "answer_line": "Follow roll, transition to back",
@@ -555,7 +555,7 @@
         }
       },
       {
-        "question": "Your opponent starts to posture up by pushing their hips toward the ceiling and creating space—what adjustment prevents escape?",
+        "question": "They bridge their hips up to make space in north-south: what adjustment stops the escape?",
         "answer": "When opponent bridges or drives their hips upward, immediately drop your hips lower and widen your knee base to absorb the movement and maintain stability. Keep your chest pressure driving downward through their sternum to prevent them from creating the space needed to escape. If they generate significant momentum, temporarily pause the rotational pressure on the Kimura but maintain the grip configuration. Once they settle back down, reestablish your perpendicular hip angle and resume the submission sequence. Never sacrifice positional control to chase the finish—your ability to maintain the position allows you to reattempt the submission once they stop moving.",
         "safety_critical": false,
         "answer_line": "Drop hips, widen base, pause",
@@ -570,7 +570,7 @@
         }
       },
       {
-        "question": "What grip adjustments are necessary when opponent begins straightening their arm to slip out of the figure-four?",
+        "question": "They start straightening their arm out of the figure-four: what grip adjustments do you make?",
         "answer": "When opponent attempts to straighten their arm to escape, immediately tighten your figure-four by pulling your wrist grip closer to your chest and driving your controlling elbow (the one over their arm) downward toward the mat. This creates a barrier preventing full arm extension. Simultaneously, increase the upward lifting pressure on their elbow to maintain the bent-arm position. If they've already significantly straightened the arm, consider transitioning to an armbar by releasing the figure-four and stepping over their head while maintaining wrist control. The key is recognizing early when they're attempting to straighten—once fully extended, the Kimura opportunity is lost.",
         "safety_critical": false,
         "answer_line": "Tighten grip, pin elbow down",
@@ -585,7 +585,7 @@
         }
       },
       {
-        "question": "What is the point of no escape for the Kimura from north-south, and what control requirements must be established before reaching it?",
+        "question": "Where is the north-south Kimura's point of no escape, and what control must precede it?",
         "answer": "The point of no escape occurs when you have established: (1) secure figure-four grip with your elbow positioned directly over their elbow preventing straightening, (2) their wrist controlled and beginning to rotate past the parallel line with their body, (3) perpendicular hip positioning with stable base preventing their bridge from disrupting you, and (4) continuous chest pressure pinning their torso to the mat. Once all four elements are in place and you begin the rotational pressure, the opponent's only effective defense is to tap. Before reaching this point, opponent can still defend by hiding the arm, straightening the elbow, or bridging with enough force to disrupt your base. Ensure all control requirements are met before committing to the finish.",
         "safety_critical": false,
         "answer_line": "Grip, wrist past line, hips set",
@@ -600,7 +600,7 @@
         }
       },
       {
-        "question": "What are the most common finishing errors that allow opponents to escape the Kimura from north-south?",
+        "question": "What are the most common finishing errors that let people escape the north-south Kimura?",
         "answer": "The most common finishing errors are: (1) applying only rotation without sufficient upward elbow pressure, allowing opponent to keep elbow tight to body; (2) releasing chest pressure while focusing on the arm attack, permitting hip escape; (3) having hips parallel instead of perpendicular, reducing leverage and allowing opponent to rotate with the pressure; (4) loose figure-four grip that allows opponent to slip the wrist and straighten arm; (5) rushing the finish without establishing all control points first; and (6) failing to follow opponent's rolling defense, allowing them to relieve pressure. Each error represents a breakdown in the systematic approach—the submission requires all elements working together.",
         "safety_critical": false,
         "answer_line": "No elbow lift, lost chest pressure",
@@ -615,7 +615,7 @@
         }
       },
       {
-        "question": "In competition, when should you abandon the Kimura from north-south and transition to an alternative attack or position?",
+        "question": "In competition, when should you abandon the north-south Kimura and switch attacks?",
         "answer": "Abandon the Kimura attempt when: (1) opponent successfully hides their arm tight to their body for more than 3-4 seconds despite your attempts to extract it; (2) your base becomes significantly compromised and you risk being swept or reversed; (3) opponent is rolling away from you (not into you) creating distance and breaking your chest pressure; (4) you've lost the figure-four grip and cannot quickly reestablish it; or (5) time pressure in competition requires a faster scoring option. In these scenarios, transition to north-south choke if they're framing, take mount if they're turning toward you, or secure back control if they've exposed their back during defense. Never force a submission at the expense of losing position entirely.",
         "safety_critical": false,
         "answer_line": "Arm hidden, base lost, rolling away",
@@ -674,7 +674,7 @@
     ],
     "recognition_cues": [
       "Opponent's figure-four grip tightens and their hands begin actively rotating your wrist away from your body rather than simply holding position",
-      "Opponent walks their feet in an arc toward your head while maintaining or increasing chest pressure, creating a perpendicular finishing angle",
+      "The bottom player hip-escapes onto their near side and posts on their elbow, turning their chest toward you — the angle is being built and the finish is next",
       "Opponent shifts weight forward and begins driving your trapped arm toward the mat behind your back with progressive force",
       "Opponent's hips lower and create downward rotational pressure on your shoulder that was not present during the control phase"
     ],
@@ -682,21 +682,21 @@
       {
         "action": "Clasp hands together using gable grip or S-grip to form a connected structure preventing arm rotation",
         "when_to_use": "As soon as you feel the opponent begin rotating your wrist away from your body or tightening grip for the finish",
-        "targets_outcome": "Kimura Trap/Top",
+        "targets_outcome": "Kimura Trap/Bottom",
         "if_successful": "Prevents the finish and buys time to work positional escape while forcing the attacker to break your grip before progressing",
         "risk": "Opponent may peel your grip apart using knee insertion, free hand leverage, or stepover techniques"
       },
       {
         "action": "Straighten the trapped arm and pull through the opponent's figure-four grip to extract the arm completely",
         "when_to_use": "When the opponent's grip is shallow near your wrist rather than deep near your elbow, giving you sufficient leverage to straighten",
-        "targets_outcome": "Half Guard/Top",
+        "targets_outcome": "Half Guard/Bottom",
         "if_successful": "Extract arm completely and immediately recover guard position by inserting knee shield",
         "risk": "If the arm straightens but doesn't escape the figure-four, it becomes exposed to a straight armbar transition"
       },
       {
         "action": "Bridge explosively toward the Kimura side to disrupt the attacker's angle and create positional scramble",
         "when_to_use": "When the attacker commits weight forward to create finishing pressure, narrowing their base and becoming vulnerable to being rolled",
-        "targets_outcome": "Kimura Trap/Top",
+        "targets_outcome": "Kimura Trap/Bottom",
         "if_successful": "Relieves immediate shoulder pressure, disrupts the finishing angle, and may create opportunity to recover position or reverse",
         "risk": "Attacker may follow the roll and transition to back control while maintaining the Kimura grip"
       }
@@ -708,7 +708,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Half Guard/Top",
+        "outcome": "Half Guard/Bottom",
         "how": "Successfully extract the trapped arm by straightening through the figure-four grip or timing an escape during the attacker's angle transition, then immediately recover half guard by inserting a knee shield"
       }
     ],
@@ -736,8 +736,8 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest recognition cues that indicate a Kimura finish is being initiated from Kimura Trap?",
-        "answer": "The earliest cues include the attacker's feet beginning to walk in an arc toward your head, a shift in their chest pressure from holding to actively driving, their grip tightening and beginning to rotate your wrist down behind your back, and increased downward pressure from their hips. Recognizing these early signals provides a critical window where defensive options like clasping hands and initiating hip movement remain viable before the finish becomes difficult to stop.",
+        "question": "What are the earliest cues that a Kimura finish is starting from the Kimura Trap?",
+        "answer": "The earliest cues include the bottom player hip-escaping onto their near side, their near elbow posting so their chest turns toward you, the lockdown or half guard tightening on your leg, and their grip beginning to rotate your wrist down behind your back. Recognising these early gives you a critical window where clasping your hands and driving forward to flatten them are still viable.",
         "safety_critical": false,
         "answer_line": "Feet walk, grip tightens",
         "distractors": {
@@ -781,7 +781,7 @@
         }
       },
       {
-        "question": "Your hands are clasped but the attacker is systematically peeling your grip apart—what is your next defensive option?",
+        "question": "Your clasped grip is being peeled apart: what is your next defensive option?",
         "answer": "Before your grip is fully broken, transition to your next defensive layer. Bridge explosively toward the Kimura side to disrupt the attacker's angle while simultaneously attempting to straighten your trapped arm to slip through the figure-four. If the arm straightens, immediately pull it to your chest and begin guard recovery through knee shield insertion. If the bridge fails to create separation, tuck the elbow tight to your ribs and use body rotation to face the attacker.",
         "safety_critical": false,
         "answer_line": "Bridge hard, straighten trapped arm",
@@ -811,7 +811,7 @@
         }
       },
       {
-        "question": "Why should you roll toward the attacker rather than away when the Kimura figure-four is locked from north-south?",
+        "question": "Why roll toward the attacker rather than away when their north-south figure-four is locked?",
         "answer": "Rolling toward the attacker (into the Kimura) follows the direction of rotational force, which reduces the angle of stress on your shoulder joint. Rolling away from the attacker moves your body in the same direction they are applying rotational pressure, which compounds the torque and accelerates the submission. By rolling into them, you effectively take away their leverage angle and may force them to release the grip to maintain position. Additionally, rolling toward the attacker can expose their back, creating a reversal opportunity. This is counterintuitive for many practitioners who instinctively try to move away from danger, but the biomechanics of the Kimura make rolling toward the attacker the safer and more effective defensive option.",
         "safety_critical": true,
         "answer_line": "Follows the rotation, less torque",
@@ -826,7 +826,7 @@
         }
       },
       {
-        "question": "At what point during the Kimura from north-south sequence should you tap, and why is early tapping especially important from this position?",
+        "question": "When should you tap to the north-south Kimura, and why is early tapping vital there?",
         "answer": "You should tap as soon as you feel meaningful rotational pressure on your shoulder that you cannot stop with your remaining defensive options. From north-south, early tapping is especially critical because the perpendicular leverage angle creates deceptive force—the attacker can generate extreme torque with relatively small movements, meaning the gap between 'uncomfortable pressure' and 'structural damage' is much shorter than with Kimuras from other positions. The north-south position also restricts your ability to monitor your own shoulder position visually, making it harder to gauge how close you are to injury. When in doubt, tap immediately. A shoulder injury from a Kimura can require months of recovery and potentially surgery, making ego-driven late tapping extremely dangerous.",
         "safety_critical": true,
         "answer_line": "Tap fast, leverage is deceptive",
@@ -841,7 +841,7 @@
         }
       },
       {
-        "question": "What are the earliest recognition cues that a Kimura from north-south is being set up, and what is your immediate response?",
+        "question": "What are the earliest cues of a north-south Kimura setup, and your immediate response?",
         "answer": "The earliest cues are: the attacker's hand sliding underneath your forearm to reach for your wrist, a weight shift to one side as they begin threading their arm over yours, and any adjustment of their hips to a more perpendicular angle. Your immediate response at the first cue is to pull your elbow tight to your ribs and turn your forearm inward, denying the wrist control they need to establish the figure-four. Simultaneously, begin fighting their grip hand with your free hand to strip any wrist control before it consolidates. This early intervention is your highest-percentage defensive window—each subsequent stage of the Kimura setup reduces your defensive options dramatically.",
         "safety_critical": false,
         "answer_line": "Elbow to ribs, deny wrist control",
@@ -856,8 +856,8 @@
         }
       },
       {
-        "question": "Your attacker has a loose figure-four grip but has not begun rotating yet—what escape sequence gives you the best chance of recovery?",
-        "answer": "With a loose figure-four and no rotation, you are in the last high-percentage defensive window. Execute this sequence: first, attempt to straighten your trapped arm explosively to break the figure-four configuration before it tightens. If the arm cannot be straightened, immediately bridge explosively toward the side of the trapped arm while hip escaping in the same direction. This bridge disrupts the attacker's perpendicular hip alignment and chest pressure simultaneously. As their base is disrupted, work to insert your knee between your bodies to recover half guard. The key is committing fully to this escape attempt with timing and explosiveness—a half-hearted bridge against a consolidating figure-four will fail and waste the energy you need for subsequent attempts.",
+        "question": "Their figure-four is loose and not yet rotating: what escape sequence works best?",
+        "answer": "With a loose figure-four and no rotation, you are in the last high-percentage defensive window. First, attempt to straighten your trapped arm explosively to break the figure-four before it tightens. If the arm cannot be straightened, drive forward and flatten them onto their back — a bottom player with no angle has no finish — while working your entangled leg free. The key is committing fully with timing and explosiveness; a half-hearted drive against a consolidating figure-four wastes the energy you need for the next attempt.",
         "safety_critical": false,
         "answer_line": "Straighten arm, then bridge hard",
         "distractors": {
@@ -871,7 +871,7 @@
         }
       },
       {
-        "question": "How does defending the Kimura from north-south differ from defending it from side control, and why do standard side control Kimura defenses fail here?",
+        "question": "Why do side control Kimura defenses fail against the north-south Kimura?",
         "answer": "The fundamental difference is the attacker's leverage angle. From side control, the Kimura rotation moves your arm toward your hips with the attacker parallel to your body, giving you opportunities to straighten the arm, grip fight, or hip escape along their body line. From north-south, the attacker is perpendicular, which means their body rotation naturally generates shoulder torque without requiring significant arm strength. Standard side control defenses like gripping your belt or grabbing your own thigh are less effective because the north-south angle can overwhelm static grips more easily. Additionally, the chest pressure from north-south restricts your breathing and hip mobility more severely than side control, limiting the explosive movement available for escapes. You must defend earlier from north-south and be more willing to tap, because the submission develops faster and with less warning.",
         "safety_critical": false,
         "answer_line": "Perpendicular torque beats grips",

@@ -56,7 +56,7 @@ description: "Complete guide to preventing the reguard from Double Jump top in B
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting to reguard from Double Jump bottom?",
+      "name": "What is the earliest cue that the bottom player is attempting a reguard from Double Jump?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the establishment of forearm frames against your chest or shoulders combined with a shift from offensive to defensive energy. This defensive framing indicates the bottom player is transitioning from sweep and entry attempts to guard recovery mode. Responding immediately to frame establishment with increased forward pressure gives you the best chance of preventing the reguard before the hip escape that follows."
@@ -72,7 +72,7 @@ description: "Complete guide to preventing the reguard from Double Jump top in B
     },
     {
       "@type": "Question",
-      "name": "Your opponent has extracted one leg and is sweeping the other around your waist - what is your best option?",
+      "name": "They freed one leg and are swinging the other around your waist—what is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If one leg is already sweeping around, your best option is to address the half guard situation by driving your hip toward the mat on the hooking side to prevent the second leg from completing the closure. Initiate a knee slice or pressure pass through the partially closed legs before the ankle lock completes. Accepting a half guard passing opportunity is strategically superior to being caught in a fully locked closed guard."

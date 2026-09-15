@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "Your opponent begins hiding their heel by rotating their knee inward 5 seconds into your attack - what is the correct tactical response?",
+        "question": "Your opponent hides the heel 5 seconds into your 50-50 attack—what is the correct response?",
         "answer": "After 5 seconds of unsuccessful heel exposure attempts against active defense, transition to a higher-percentage alternative rather than forcing the heel hook. Primary options are kneebar by controlling above the knee joint, back take by releasing the leg entanglement and circling behind, or transition to Inside Ashi-Garami or Honey Hole for better heel exposure angles. Continuing to force the heel exposure wastes energy and allows the defender to strengthen their defense.",
         "safety_critical": false,
         "answer_line": "Chain to kneebar or back take",
@@ -405,7 +405,7 @@
         }
       },
       {
-        "question": "How does the 50-50 Guard starting position change the heel hook compared to attacking from the Saddle or Inside Ashi-Garami?",
+        "question": "How does a heel hook from 50-50 differ from one from the Saddle or Inside Ashi-Garami?",
         "answer": "The 50-50 Guard creates a symmetrical entanglement where both practitioners have equal leg access, unlike the Saddle or Inside Ashi-Garami where the attacker has built-in positional advantage. This means the attacker must first win the inside position battle before the heel becomes accessible. The defender also has mirror counter-attack potential throughout the exchange, requiring the attacker to balance offense with defending their own heel. The symmetry reduces success rate but offers unique chain opportunities.",
         "safety_critical": false,
         "answer_line": "Symmetrical, must win inside first",
@@ -435,7 +435,7 @@
         }
       },
       {
-        "question": "Why is the heel hook considered more dangerous than other joint locks, and how does this affect training approach?",
+        "question": "Why is the heel hook more dangerous than other joint locks, and how should that shape training?",
         "answer": "The heel hook is more dangerous because knee ligaments lack significant pain receptors that would provide warning before structural failure. Unlike an armbar where progressive elbow pain signals increasing danger, the heel hook can rupture the ACL, MCL, or LCL before the defender feels meaningful discomfort. This means the attacker bears primary responsibility for controlled application speed. Training must always use slow progressive pressure over 5-7 seconds minimum, and both partners must understand tap signals and release protocols.",
         "safety_critical": true,
         "answer_line": "No pain warning before injury",

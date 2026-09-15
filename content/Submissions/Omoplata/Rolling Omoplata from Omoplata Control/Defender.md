@@ -58,7 +58,7 @@ description: "How to defend against Rolling Omoplata in BJJ. Recognition, escape
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a rolling omoplata is being attempted, and what should your immediate response be?",
+      "name": "What is the earliest cue a rolling omoplata is coming, and what should your immediate response be?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling your posting or extended arm being controlled while your opponent begins loading onto their shoulders in an inverted rolling motion during a scramble or transition. Your immediate response should be to retract your arm forcefully toward your body, pulling your elbow tight to your ribs while simultaneously posturing up to deny the rolling momentum. This must happen within the first 1-2 seconds of recognition, because once the roll is completed and legs are positioned around your shoulder, defensive options become significantly more limited and energy-intensive."
@@ -66,7 +66,7 @@ description: "How to defend against Rolling Omoplata in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "Why is the forward roll escape considered high-risk despite being effective, and what precautions should you take?",
+      "name": "Why is the forward roll escape from the omoplata high-risk, and what precautions should you take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The forward roll escape is high-risk because it can transition the attacker directly to back control if they follow your momentum and maintain upper body connection. Additionally, rolling forward while your shoulder is under torque can cause injury if the angle is wrong or the attacker maintains hip pressure during your roll. To mitigate these risks, time the roll for when the attacker is extending their hips (not when they're adjusting position), roll diagonally toward your free shoulder to create an angle that makes back-take harder, and post your free hand to control the speed. Most importantly, tuck your chin and protect your neck during the roll to prevent the attacker from catching a rear choke during the transition."
@@ -74,7 +74,7 @@ description: "How to defend against Rolling Omoplata in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "At what stage of the rolling omoplata attack does tapping become the safest option rather than continuing to defend?",
+      "name": "At what stage of the rolling omoplata is tapping safer than continuing to defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tapping becomes the safest option once the attacker has achieved all three finishing criteria: their hips are perpendicular to your spine with direct pressure on your shoulder joint, your arm is fully extended and you cannot retract it or grip your clothing, and their leg across your head prevents you from turning or posturing. At this point, continued resistance primarily risks shoulder injury rather than creating viable escape opportunities. The shoulder joint can fail catastrophically with minimal additional pressure once these conditions are met. In training, tapping at this stage preserves your training longevity - no technique is worth a torn rotator cuff or dislocated shoulder. In competition, the same calculation applies unless the match stakes justify the injury risk."
@@ -90,7 +90,7 @@ description: "How to defend against Rolling Omoplata in BJJ. Recognition, escape
     },
     {
       "@type": "Question",
-      "name": "What body positioning should you maintain during scrambles to minimize your vulnerability to rolling omoplata attacks?",
+      "name": "What positioning during scrambles minimizes your vulnerability to rolling omoplata attacks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During scrambles, maintain bent elbows with arms close to your body rather than posting with extended arms whenever possible. When you must post for base, use your fist or forearm rather than an open palm with a straight arm, as this makes wrist capture significantly harder. Keep your hips heavy and your weight centered rather than distributed through your hands, which reduces the number of moments where your arms are vulnerable. Maintain awareness of your opponent's hip orientation - if their hips begin rotating toward your shoulder while you're posting, immediately retract that arm. Finally, avoid turning your back during scrambles as this creates the exact arm exposure that loads the rolling omoplata entry."

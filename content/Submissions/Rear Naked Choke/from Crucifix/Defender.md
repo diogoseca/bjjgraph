@@ -58,7 +58,7 @@ description: "Defend the Rear Naked Choke from Crucifix. Recognition cues, defen
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the attacker is transitioning from crucifix control to the Rear Naked Choke attempt?",
+      "name": "From crucifix bottom, what tells you they're switching to a rear naked choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key recognition cues include the attacker loosening or shifting their grip on your far arm, their body angle changing to align the choking arm with your neck, and a weight shift as they prepare to commit. The most definitive signal is feeling your far arm released entirely—at this point the choke transition is actively happening and you have 1-2 seconds to establish neck defense before the forearm reaches your chin. Early recognition dramatically improves defensive success rates."
@@ -66,7 +66,7 @@ description: "Defend the Rear Naked Choke from Crucifix. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "What is the safest response if the choke is fully locked with the figure-four secured behind your head?",
+      "name": "Caught in a fully locked RNC from crucifix with the figure-four behind your head — what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately using any available signal—verbal tap, hand tap on the attacker's body or the mat, or foot tap on the mat. A properly locked RNC from crucifix produces unconsciousness within 4-8 seconds and has virtually zero escape rate when both arms are compromised by the crucifix configuration. Fighting a locked choke from this position wastes energy and risks loss of consciousness. Tapping to a fully secured submission from the most dominant finishing position in grappling is the correct and safe decision."
@@ -74,7 +74,7 @@ description: "Defend the Rear Naked Choke from Crucifix. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available when the attacker threads their forearm under your chin but has not locked the figure-four?",
+      "name": "Their forearm is under your chin from crucifix but unlocked — what defenses do you have?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the forearm is under the chin but the figure-four is not locked, use your freed hand for two-on-one defense—grip the choking wrist and pull it away from your neck while turning your chin toward the crook of the elbow to reduce compression. Simultaneously work to extract the trapped arm from the leg triangle through hip movement. If you can strip the choking grip, immediately address the crucifix position before the attacker reattempts. Time is critical because once the figure-four locks, effective defense becomes nearly impossible."
@@ -82,7 +82,7 @@ description: "Defend the Rear Naked Choke from Crucifix. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "Why is the transition moment when the attacker releases your far arm the most important defensive window?",
+      "name": "Why is the moment they release your far arm from crucifix your key defensive window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the only moment when the attacker has voluntarily reduced their control over the position—they have released one control point to commit to the choke. This brief window is your best opportunity because you have a free hand for immediate neck defense, the attacker's weight is shifting during the transition creating potential instability, and their attention is split between maintaining the leg triangle trap and threading the choking arm. Every second of delay in exploiting this window decreases your probability of successful defense."

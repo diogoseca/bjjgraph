@@ -90,7 +90,7 @@ description: "Complete guide to executing the back turn from technical mount bot
     },
     {
       "@type": "Question",
-      "name": "Why is a half-committed turn more dangerous than either staying in technical mount or completing the full turn?",
+      "name": "Why is a half-committed turn from technical mount worse than staying or fully turning?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A half-turn creates simultaneous vulnerability to both armbar and back attacks without the defensive benefits of either position. In technical mount, your arms are threatened but you can still frame and escape. With a completed back turn, your back is exposed but your arms are protected and tucked. A half-turn exposes your back while keeping your arm extended and available for armbar—the opponent can choose the higher-percentage attack from two options rather than being limited to one."
@@ -98,7 +98,7 @@ description: "Complete guide to executing the back turn from technical mount bot
     },
     {
       "@type": "Question",
-      "name": "Your opponent blocks your initial rotation attempt by driving their weight onto your far shoulder—how do you adjust?",
+      "name": "They block your turn by driving weight onto your far shoulder: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the rotation is blocked, do not force the turn repeatedly as this wastes energy and telegraphs your intent. Instead, switch to a hip escape in the opposite direction to create space, or use the momentum change to attempt a bridge and roll to the blocked side where the opponent's weight is now committed. The blocked turn may actually create an opening for a different escape because the opponent has shifted their weight to prevent your rotation, compromising their balance on the other side."

@@ -285,7 +285,7 @@
         }
       },
       {
-        "question": "What happens if you lift your posted leg through the air rather than sliding it along the mat during retraction?",
+        "question": "Why must the posted leg slide along the mat rather than lift during retraction to mount?",
         "answer": "Lifting the leg eliminates your tripod base entirely for a brief moment, creating a period where your weight is supported only by the inside knee and your upper body. During this airborne phase, your balance is severely compromised and the opponent can bridge you off with minimal effort, or hip escape freely since your downward pressure is reduced to a single contact point. Sliding maintains ground contact throughout, preserving your ability to post and adjust if the opponent reacts during the transition.",
         "answer_line": "Slide leg, never lift it",
         "distractors": {
@@ -313,7 +313,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make when transitioning from arm isolation grips to mount control grips?",
+        "question": "Which grips do you swap to as you consolidate from Technical Mount armbar grips into mount?",
         "answer": "Release the wrist and elbow grips used for armbar setup and immediately transition to mount-appropriate controls. The priority grip is the crossface—thread your arm under their head and drive your shoulder into their jaw. The secondary grip depends on context: collar grip for gi choke threats, underhook on the far side for control, or posting hand for base. The grip transition should happen before the leg moves, not simultaneously, so that you never have a moment without dominant upper body control during the consolidation.",
         "answer_line": "Crossface before leg moves",
         "distractors": {
@@ -327,7 +327,7 @@
         }
       },
       {
-        "question": "How does maintaining mat contact with the retracting foot affect the overall success of this transition?",
+        "question": "How does keeping the retracting foot on the mat affect this transition's success?",
         "answer": "Mat contact with the sliding foot preserves a three-point base structure throughout the entire retraction, meaning you always have at least the inside knee, upper body pressure, and the retracting foot in contact with the ground. This continuous base allows you to stop mid-retraction if the opponent initiates a counter, post for balance if they bridge, or accelerate the completion if you sense urgency. Without mat contact, you transition through a two-point phase where any disruption from below can topple your position entirely.",
         "answer_line": "Keeps three-point base intact",
         "distractors": {
@@ -355,7 +355,7 @@
         }
       },
       {
-        "question": "What direction should your weight be driven during the posted leg retraction to prevent the bottom player from creating space?",
+        "question": "Which direction do you drive your weight during the posted leg retraction to deny them space?",
         "answer": "Your weight should be driven forward and downward through your hips into the opponent's torso throughout the entire retraction. The direction of force is anterior—toward the opponent's head—rather than straight down. This forward vector pins their hips flat and prevents the hip escape motion that requires space between your hips and their torso. If your weight shifts backward or upward during the leg slide, even momentarily, the opponent gains the gap needed to insert a knee or begin shrimping. Drive your belt line toward their sternum while the leg moves behind you.",
         "answer_line": "Forward and down toward head",
         "distractors": {
@@ -369,7 +369,7 @@
         }
       },
       {
-        "question": "After successfully consolidating to mount, what attacks should you immediately threaten to capitalize on the transition?",
+        "question": "After consolidating to mount, which attack should you immediately threaten?",
         "answer": "The moments immediately following consolidation are prime attacking time because the defender has just expended energy attempting to counter the transition and may be momentarily flat with compromised frames. Immediately threaten an Americana on whichever arm is nearest to your settling position, as the crossface established during consolidation often exposes the far arm. If they defend by tucking elbows, transition to collar grip threats or advance toward high mount while their frames are still recovering. The consolidation itself becomes an attacking setup when you flow directly from settling into the next offensive cycle without pause.",
         "answer_line": "Americana on the near arm",
         "distractors": {
@@ -497,7 +497,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary visual cue that the top player is transitioning from technical mount to standard mount?",
+        "question": "Which cue shows the top player is switching from technical mount to standard mount?",
         "answer": "The most reliable cue is the release of arm isolation grips—when the top player lets go of your wrist or elbow and transitions to crossface or collar control, they are abandoning the armbar pursuit and preparing to consolidate. This grip change typically precedes the leg movement by one to two seconds, giving you advance warning. The posted leg then begins sliding backward along the mat rather than maintaining its perpendicular position, confirming the consolidation is underway.",
         "answer_line": "Release of arm isolation grips",
         "distractors": {
@@ -525,7 +525,7 @@
         }
       },
       {
-        "question": "What defensive structure should you maintain before the transition begins to capitalize on the escape window?",
+        "question": "Which defensive structure should you hold before that transition starts to use the escape window?",
         "answer": "Before the transition begins, you should have forearm frames established against the opponent's hips or lower chest with elbows bent and tight to your body. Your hips should be slightly angled rather than perfectly flat, with your escape-side leg coiled and ready to drive a hip escape. Your arms must be protected with elbows close to your ribs—never extended. This pre-positioned defensive structure allows you to react within the one-to-two second transition window rather than needing to build your escape from scratch when the cue appears.",
         "answer_line": "Forearm frames, hips angled",
         "distractors": {
@@ -553,7 +553,7 @@
         }
       },
       {
-        "question": "How should you respond if the top player aborts the transition mid-way and returns to technical mount?",
+        "question": "They abort the switch to mount and return to technical mount. How do you respond?",
         "answer": "If the top player aborts and re-posts their leg, immediately reset your defensive structure—re-establish forearm frames, return to your pre-escape positioning, and prepare for the next attempt. Do not continue your escape movement once the technical mount is re-established, as you will be moving into the tripod base rather than exploiting a transition gap. Stay patient and conserve energy for the next consolidation attempt, which will likely come soon since the top player clearly wanted to leave technical mount. Use the interim to improve your frame positioning for the next window.",
         "answer_line": "Reset frames, don't overcommit",
         "distractors": {

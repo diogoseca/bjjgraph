@@ -98,7 +98,7 @@ description: "How to execute Grasshopper Sweep in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base and sits their hips back when you establish Grasshopper Guard - how do you adjust?",
+      "name": "Your opponent widens their base and sits back against grasshopper guard. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When an opponent adopts this wide, hips-back defensive posture, the Grasshopper Sweep becomes very low percentage because they have removed their weight from your elevation zone. Transition to leg entanglement attacks like Inside Ashi entry where their wide base creates a vulnerability, or move to Single Leg X Guard for alternative sweeps."
@@ -106,7 +106,7 @@ description: "How to execute Grasshopper Sweep in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What is the most critical body positioning detail for maintaining a stable platform during the sweep?",
+      "name": "What body positioning detail keeps your platform stable during the grasshopper sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Weight must be distributed evenly across both shoulder blades throughout the entire sweep. Rolling onto one shoulder destroys the stable platform needed for symmetric hip drive and typically causes the sweep to fail laterally rather than generating the vertical force required to elevate the opponent."

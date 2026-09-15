@@ -86,7 +86,7 @@ description: "Learn to execute the Kimura shoulder lock from Lasso Guard top. Co
     },
     {
       "@type": "Question",
-      "name": "Your opponent straightens their captured arm and pulls their elbow tight to their body—what adjustment prevents escape?",
+      "name": "Lasso guard top Kimura: they straighten the arm and pin the elbow to their body—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch the attack direction to an Americana by redirecting the wrist pressure toward the mat rather than rotating behind the back. The straight arm defense that blocks the Kimura rotation actually exposes the opponent to the Americana's opposite-direction pressure. Alternatively, use the grip disruption to advance your passing position since the defensive focus has likely weakened the lasso."
@@ -110,7 +110,7 @@ description: "Learn to execute the Kimura shoulder lock from Lasso Guard top. Co
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges and rolls toward the Kimura side during your finishing attempt—how do you respond?",
+      "name": "Lasso guard top Kimura: they bridge and roll toward the Kimura side—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the roll while maintaining the figure-four grip, allowing the momentum to carry you into a mounted or side control Kimura position. Keep your grip locked and elbows tight as you transition through the roll. The opponent's bridge actually improves your finishing position by removing the ground as a brace for their shoulder, often making the submission tighter after the position change."

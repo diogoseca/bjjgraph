@@ -56,7 +56,7 @@ description: "Defend against the Rubber Guard to Closed Guard transition from th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from Rubber Guard to Closed Guard?",
+      "name": "What's the earliest cue your opponent is switching from rubber guard to closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in the bottom player's hand configuration—specifically, the hand that was securing their own foot or shin in the rubber guard position releasing that grip and moving to establish a collar or behind-the-head grip. This grip change precedes the actual leg movement and signals the transition before the control gap opens. Secondary cues include feeling reduced arm trap pressure and seeing the opponent's gaze shift to their grip hand."
@@ -64,7 +64,7 @@ description: "Defend against the Rubber Guard to Closed Guard transition from th
     },
     {
       "@type": "Question",
-      "name": "What specific defensive action gives you the highest probability of opening the guard during this transition?",
+      "name": "Which defensive action best opens the guard during the rubber-to-closed guard switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage action is combining explosive posture recovery with a simultaneous hip retreat during the two-to-three second window when the leg is mid-slide. Specifically, plant both hands on the opponent's hips, straighten your arms while lifting your head and chest, and drive your hips backward away from their body. This creates maximum separation at the moment of minimum control, making it extremely difficult for the opponent to cross ankles before you establish distance."
@@ -72,7 +72,7 @@ description: "Defend against the Rubber Guard to Closed Guard transition from th
     },
     {
       "@type": "Question",
-      "name": "Why is it important to address the replacement grips before the opponent completes the ankle lock behind your back?",
+      "name": "Why attack their replacement grips before their ankles lock behind your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the opponent completes the ankle lock with crossed ankles and has strong replacement grips on your collar or head, you face a fully established closed guard with a prepared attacker. The replacement grips provide the posture control that the rubber guard leg previously maintained, meaning the transition created no net reduction in the opponent's control quality. By stripping these grips during the transition window, you force the opponent to complete the ankle crossing without posture control, resulting in a weak closed guard that can be immediately opened."
@@ -80,7 +80,7 @@ description: "Defend against the Rubber Guard to Closed Guard transition from th
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases their rubber guard foot grip but maintains a deep collar grip pulling your head down—what is your priority action?",
+      "name": "They free the rubber guard foot but keep a deep collar grip on you—what's your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your priority is breaking the collar grip before the leg completes its slide to waist level. Use a two-on-one grip break on the collar hand—grab their gripping wrist with both hands and push it toward their opposite hip while simultaneously lifting your posture. The deep collar grip is the primary mechanism preventing your posture recovery, and removing it during the transition window is more valuable than trying to prevent the leg movement. Without the collar grip, even a completed ankle crossing results in a weak closed guard you can open."

@@ -56,7 +56,7 @@ description: "Learn to defend against the Roll from Chill Dog escape. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is preparing to roll forward from Chill Dog?",
+      "name": "What is the earliest cue that the bottom player is preparing to roll forward from Chill Dog?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a subtle forward weight shift onto the hands, often accompanied by a slight widening of hand placement on the mat. The bottom player needs to test whether forward space exists before committing to the roll. You may also feel a momentary increase in muscular tension through their back as they prepare for the explosive push-off. When you detect this forward shift, immediately increase your downward chest pressure and tighten your grip on their near hip to shut down the roll before it starts."
@@ -64,7 +64,7 @@ description: "Learn to defend against the Roll from Chill Dog escape. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates the roll and has already begun rotating - is it better to try to stop the roll or follow it?",
+      "name": "Their Chill Dog roll is already rotating — better to stop it or follow it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the roll has genuinely begun with momentum, it is almost always better to follow it than to try to stop it mid-rotation. Attempting to stop a roll in progress usually results in losing contact entirely as the bottom player's momentum carries them through and away from you. Following the roll with tight chest-to-back contact positions you to insert hooks and establish back control as they land. The key is committing to following within the first quarter-rotation - hesitation results in losing the physical connection entirely."
@@ -72,7 +72,7 @@ description: "Learn to defend against the Roll from Chill Dog escape. Recognitio
     },
     {
       "@type": "Question",
-      "name": "How should you position your weight to preemptively discourage roll attempts without overcommitting forward?",
+      "name": "On top in Chill Dog, how do you position your weight to deter rolls without overcommitting forward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Distribute your weight primarily through your chest onto the bottom player's upper back between the shoulder blades, angled slightly downward at approximately 45 degrees rather than directly forward. Keep your hips low and close to their body rather than elevated above them. This downward angle makes forward rolling extremely difficult because the bottom player cannot generate the upward lift needed to initiate rotation. Avoid pushing straight forward as this actually assists their roll by providing forward momentum they can redirect into the rotation."
@@ -80,7 +80,7 @@ description: "Learn to defend against the Roll from Chill Dog escape. Recognitio
     },
     {
       "@type": "Question",
-      "name": "The bottom player's roll attempt fails and they immediately chain to a Granby roll - how do you counter the chain?",
+      "name": "Their Chill Dog forward roll fails and they chain into a Granby — how do you counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When a forward roll transitions to a lateral Granby, immediately shift your weight to the side they are rolling toward and drop your hip to block their rotation path. Your near arm should reach under their rolling shoulder to stop the inversion while your far hand controls their hip. The key insight is that the failed forward roll leaves them momentarily displaced from their proper Chill Dog defensive structure, making the chain escape less powerful than a fresh Granby attempt from a settled position. Use this structural disadvantage to drive them flat before the Granby builds momentum."

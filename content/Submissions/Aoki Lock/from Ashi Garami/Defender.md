@@ -58,7 +58,7 @@ description: "How to defend against Aoki Lock in BJJ. Recognition, escape paths,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an Aoki Lock is being attempted and why is early recognition critical for defense?",
+      "name": "What is the earliest cue that an Aoki Lock is coming, and why does spotting it early matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent beginning to weave their inside leg through the gap between their outside leg and your trapped leg while in ashi garami. This threading motion is the setup for the figure-four configuration. Early recognition is critical because defensive options diminish exponentially once the figure-four is locked - extraction before the lock is completed has a dramatically higher success rate than any defense attempted after the closed loop is established and compression begins."
@@ -74,7 +74,7 @@ description: "How to defend against Aoki Lock in BJJ. Recognition, escape paths,
     },
     {
       "@type": "Question",
-      "name": "When should you tap to an Aoki Lock and why is fighting through the lock particularly dangerous compared to other leg submissions?",
+      "name": "When should you tap to an Aoki Lock, and why is riding it out unusually dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately once the figure-four is fully locked and compression is engaged. Fighting through the Aoki Lock is exceptionally dangerous because it attacks multiple anatomical structures simultaneously - plantar fascia, ankle ligaments, achilles tendon, calf muscle, and shin periosteum all receive stress at the same time. Unlike a heel hook where damage is concentrated on knee ligaments, the Aoki Lock's distributed force means damage accumulates across all structures faster than pain accurately signals the severity. By the time you realize the lock is truly dangerous, multiple structures may already be compromised."
@@ -82,7 +82,7 @@ description: "How to defend against Aoki Lock in BJJ. Recognition, escape paths,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun threading their inside leg but the figure-four is not yet locked - what is your highest-percentage defensive action?",
+      "name": "Their inside leg is threading but the figure-four isn't locked — what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pull your knee to your chest while rotating your hip internally, extracting the trapped leg before the figure-four closes. Simultaneously use your hands to push against their threading leg to slow or prevent the cross. This extraction must be explosive and committed - half-measures allow them to complete the lock. If extraction fails on the first attempt, immediately transition to aggressive forward posturing to collapse their hip extension angle before they can engage compression."
@@ -90,7 +90,7 @@ description: "How to defend against Aoki Lock in BJJ. Recognition, escape paths,
     },
     {
       "@type": "Question",
-      "name": "How does maintaining dorsiflexion help defend against the Aoki Lock and what are its limitations as a sole defensive strategy?",
+      "name": "How does dorsiflexion help against the Aoki Lock, and why isn't it enough on its own?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Dorsiflexion (pulling toes toward your shin) directly opposes the plantar flexion component of the Aoki Lock, making it harder for the attacker to seat your foot in the optimal compression pocket and reducing the extension force on your achilles and plantar fascia. However, dorsiflexion alone is insufficient because the Aoki Lock also generates compression across the shin and calf through the leg squeeze, which creates intense pressure regardless of foot position. Dorsiflexion buys time and reduces one vector of attack but must be combined with leg extraction or structural disruption to achieve a complete defense."

@@ -80,7 +80,7 @@ description: "Master executing guard pulls from ground position in BJJ. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent sprawls hard and drives their hips back as you initiate the guard pull from ground - how do you adjust your technique?",
+      "name": "They sprawl and drive their hips back as you pull guard from the ground. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain collar grip tension and abandon the closed guard attempt. Instead, insert butterfly hooks or establish shin-to-shin contact as intermediate control. Use their sprawling momentum to set up a collar drag that pulls them past you, or transition to seated guard with feet on hips. The key adjustment is recognizing the sprawl early and redirecting to a guard variation that works with their retreating hips rather than forcing closed guard against backward pressure."
@@ -96,7 +96,7 @@ description: "Master executing guard pulls from ground position in BJJ. Step-by-
     },
     {
       "@type": "Question",
-      "name": "You establish collar and sleeve grips but your opponent posts their free hand firmly on your hip to create distance - what is your response?",
+      "name": "You have collar and sleeve, but they post a hand on your hip for distance. Response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the posting arm with a two-on-one grip break, pulling their wrist across your body to eliminate the frame while maintaining your collar grip connection. Alternatively, angle your body 45 degrees toward the side opposite their post, bypassing the frame laterally. If neither works immediately, use your feet on their hips to create a momentary push that disrupts their posting structure, then immediately shoot your legs around their waist during the brief moment their frame is compromised."
@@ -120,7 +120,7 @@ description: "Master executing guard pulls from ground position in BJJ. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your guard pull attempt results in your legs landing on only one side of your opponent's hip - how do you recover to closed guard?",
+      "name": "Your guard pull leaves both legs on one side of their hip. How do you recover closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately hip escape toward the side where your legs are positioned to create the angle needed to swing your far leg across their body. Maintain collar grip tension to prevent them from posturing away during the adjustment. Use your near leg as a hook on their hip to maintain connection while your far leg swings around to complete the wrap. If they begin to pass toward the open side, abandon closed guard recovery and transition to half guard or De La Riva hook on the near leg to retain guard engagement."

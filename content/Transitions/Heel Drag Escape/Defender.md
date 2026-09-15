@@ -72,7 +72,7 @@ description: "Learn to prevent and counter the Heel Drag Escape from mount. Foot
     },
     {
       "@type": "Question",
-      "name": "When should you transition to technical mount rather than fighting to maintain standard mount against an active heel drag?",
+      "name": "Escaping mount, when should you switch to technical mount instead of fighting a heel drag?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when the opponent's heel has partially caught your foot and their legs are actively closing. Rather than fighting to extract your foot from an increasingly tight entanglement, use the leg activity and space to insert your far hook behind their body. This converts their successful escape attempt into a more dominant position for you and threatens back control. The decision point is roughly one second after the heel catches; if you cannot free your foot in that window, transition immediately."

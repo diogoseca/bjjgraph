@@ -114,7 +114,7 @@ description: "How to execute the Transition to Piranha Guard from Lapel Guard bo
     },
     {
       "@type": "Question",
-      "name": "In which direction should force be applied once bilateral tension is established on the threaded collar?",
+      "name": "With bilateral tension on the threaded collar in Piranha Guard, how does each hand pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The front hand pulls the collar toward your chest and slightly upward, while the rear hand pulls toward your hip and downward. This opposing force vector creates a rotational pull through the leg fulcrum that breaks the opponent's posture forward and down. The legs act as a force multiplier — small hand movements translate into large postural disruptions because the fulcrum converts linear pulls into angular breaking pressure."

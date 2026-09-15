@@ -114,7 +114,7 @@ description: "Master the Butterfly Smash attack in BJJ. Step-by-step guide to co
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to pin the collapsed hook with your shin rather than relying on body weight alone?",
+      "name": "Why pin the collapsed butterfly hook with your shin instead of body weight alone?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Body weight alone allows the opponent to hip escape or shrimp away, creating enough space to re-insert the hook underneath you. Your shin creates a physical barrier that blocks hook re-insertion regardless of their hip movement direction. The shin pin also frees your upper body to work on controlling their remaining free leg and establishing half guard grips, whereas relying on body weight requires maintaining heavy static pressure that limits your ability to progress toward passing."

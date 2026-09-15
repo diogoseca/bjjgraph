@@ -56,7 +56,7 @@ description: "How to defend against Leg Drag to Inside Ashi in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from leg drag pass to inside ashi entry?",
+      "name": "Earliest cue that the leg drag passer is switching to an inside ashi entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when the attacker's chest pressure lifts off your shoulder or hip and their weight shifts backward toward your legs. This release of forward passing pressure, combined with a reinforced grip on your dragged leg and a dropping of their hip level, signals the shift from passing to leg attack. Recognizing this moment is critical because it represents the widest defensive window."
@@ -72,7 +72,7 @@ description: "How to defend against Leg Drag to Inside Ashi in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established inside ashi-garami with knee line control but has not yet gripped your heel—what is your priority?",
+      "name": "They have inside ashi with knee line control but no heel grip yet — your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to strip the outside leg hook that controls your knee line. Use both hands to push their shin off the top of your knee while simultaneously straightening your trapped leg. Without knee line control, the attacker cannot maintain tight ashi-garami and cannot effectively finish heel hooks. Only after clearing the knee line should you attempt full leg extraction, as trying to pull your leg free against the knee hook is ineffective."
@@ -88,7 +88,7 @@ description: "How to defend against Leg Drag to Inside Ashi in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "If you are fully caught in inside ashi-garami with the attacker gripping your heel, what is the safe escape sequence?",
+      "name": "Fully caught in inside ashi with your heel gripped: what is the safe escape sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, address the heel grip by fighting their hands with both of yours—strip fingers, break the figure-four configuration, or rotate your foot to free the heel. Second, remove the knee line control by pushing their outside leg off your knee. Third, straighten your leg and create hip separation. Never attempt to explosively yank your leg free while they grip your heel, as this can cause the heel hook to engage and damage your knee ligaments. The sequence is always: clear grip, clear hooks, extract leg."

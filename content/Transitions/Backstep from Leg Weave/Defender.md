@@ -80,7 +80,7 @@ description: "Master defending the backstep from leg weave. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your far-side hook catches the stepping leg but the passer is still applying heavy upper body pressure - what do you do?",
+      "name": "Your hook catches their stepping leg but their upper body pressure is heavy: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Holding the hook alone is not sustainable because the passer will strip it while maintaining their upper body anchor. You must address the upper body control simultaneously. Frame against their crossface shoulder to create head space, then use the stalled moment to re-establish your near-side frames. The hook buys you time but does not resolve the position - use that time to rebuild your full defensive structure including frames, hip angle, and underhook battle rather than just holding the hook and hoping."

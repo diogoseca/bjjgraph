@@ -100,7 +100,7 @@ description: "Learn to attack with the belly down armbar from Kesa Gatame. Step-
     },
     {
       "@type": "Question",
-      "name": "At what point during the belly down armbar sequence does the opponent's realistic escape window close?",
+      "name": "In the belly down armbar from kesa gatame, when does their escape window close?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical point of no escape occurs when the attacker has fully committed to the belly-down prone position with knees squeezed together and the opponent's arm isolated between the thighs with proper thumb-up alignment. Before this point, during the step-over and rotation phases, the defender has realistic escape opportunities through arm extraction, following the rotation, or explosive bridging. Once the prone position is locked, the mechanical advantage is overwhelming."

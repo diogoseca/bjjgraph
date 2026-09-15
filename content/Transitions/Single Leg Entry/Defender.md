@@ -56,7 +56,7 @@ description: "How to defend against Single Leg Entry in BJJ. Recognition cues, d
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your highest-priority physical movement the instant you recognize an opponent's single leg entry?",
+      "name": "What is your highest-priority movement the instant you recognize a single leg shot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-priority movement is dropping your hips back and down in a sprawl, driving your weight onto the opponent's upper back through your hips rather than your hands. This must happen before any upper body technique like crossface, whizzer, or guillotine. The hip sprawl removes your legs from the attacker's target zone, kills their forward momentum, and places you in a structurally dominant position. Attempting upper body techniques without first defending with your hips is the most common defensive failure, because no amount of hand fighting compensates for having your hips directly over the attacker's shoulder where they can lift you."
@@ -64,7 +64,7 @@ description: "How to defend against Single Leg Entry in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Why is turning your knee outward more effective than pulling straight backward when trying to extract a captured leg?",
+      "name": "Why turn your knee outward rather than pull straight back to free a captured leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning the knee outward exploits the structural weakness in the attacker's clasped grip. Their hands are interlocked behind your thigh, creating maximum holding strength in the forward-backward plane. When you pull straight back, you fight directly against their strongest grip orientation and their entire shoulder/arm system. Rotating your knee outward creates a lateral force that presses against the small gap between their hands and wrists, which is the weakest point in any clasped grip. Additionally, the outward rotation of your knee changes the shape of your thigh, making it harder for them to maintain the tight clamp. This principle applies universally - always escape grips by attacking their weakest angle rather than their strongest."
@@ -72,7 +72,7 @@ description: "How to defend against Single Leg Entry in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "How should your defensive strategy differ when facing an opponent who mixes single leg entries with guard pulls?",
+      "name": "How does your defense change against someone mixing single leg shots with guard pulls?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When facing an opponent who mixes takedowns with guard pulls, you cannot commit fully to sprawling because dropping your hips back on a guard pull attempt gives them exactly the angle and distance they want to establish their preferred guard. Instead, maintain a more upright defensive posture with active hands in the pocket, ready to either sprawl on a genuine shot or drive forward on a guard pull. The key distinction is reading their hip level and hand position: a genuine single leg entry shows explosive hip drop with both hands targeting your leg, while a guard pull shows grip establishment followed by a controlled sit. When uncertain, the safest response is a half-sprawl with hands controlling their collar and sleeve, which defends both attacks adequately without committing fully to either defensive pattern."
@@ -80,7 +80,7 @@ description: "How to defend against Single Leg Entry in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent shoots a single leg and secures your leg with a tight grip, but they have poor head position with their head in your centerline - what is the optimal counter?",
+      "name": "They finish a single leg grip but with their head in your centerline: what's the optimal counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker has centerline head position during a single leg, this is the optimal moment for a guillotine counter. Wrap your arm around their neck immediately, securing a chin strap or arm-in guillotine configuration. Your other hand should control their far wrist or post on their shoulder to prevent them from driving through the takedown. The centerline head position means their neck is perfectly exposed and both your arms have access to the choking line. Even if the guillotine does not finish, establishing this grip forces them to abandon the single leg to address the choke threat. This is why experienced wrestlers emphasize outside head position so heavily - centerline head position during a single leg is a critical tactical error that opens the attacker to the most dangerous counter available."
@@ -88,7 +88,7 @@ description: "How to defend against Single Leg Entry in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "After successfully defending a single leg attempt and establishing front headlock control, what are your immediate offensive priorities?",
+      "name": "You stuffed the single leg and have a front headlock: what are your immediate offensive priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priorities from front headlock after a stuffed single leg are: first, prevent the opponent from recovering their posture by maintaining downward pressure on their head and controlling their far shoulder or tricep. Second, begin circling toward their far side to improve your angle and open up offensive options. Third, choose your primary attack based on their reaction - if they try to stand straight up, snap them back down and threaten a guillotine; if they try to back out, follow with a go-behind to back control; if they turtle defensively, attack with a darce or anaconda choke. The critical principle is treating the stuffed shot as an offensive opportunity rather than simply resetting to standing. The attacker is in a compromised posture with broken balance, and this advantage is temporary - exploit it immediately before they recover."

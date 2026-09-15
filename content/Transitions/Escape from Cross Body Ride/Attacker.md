@@ -82,7 +82,7 @@ description: "Learn to execute the Escape from Cross Body Ride in BJJ. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent has heavy shoulder pressure driving you toward the mat - how do you create the initial space needed to escape?",
+      "name": "Under heavy shoulder pressure in cross body ride, how do you create the initial space to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting the pressure directly, wait for the rider to shift weight during a grip adjustment or transition attempt. Use that momentary lightening to execute an explosive hip switch away from the pressure direction while simultaneously posting your near-side forearm against their hip. The combination of timing and frame placement creates space even against riders who are significantly heavier than you."
@@ -98,7 +98,7 @@ description: "Learn to execute the Escape from Cross Body Ride in BJJ. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Why is it important to chain multiple escape attempts rather than relying on a single explosive movement?",
+      "name": "Why chain escape attempts from cross body ride instead of one explosive movement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Single escape attempts are easily scouted and countered by experienced riders who anticipate the direction and adjust their weight accordingly. Chaining creates a dilemma where the rider's defensive reaction to the first attempt opens the path for the second attempt. This forces the rider to make split-second decisions under pressure, increasing the probability that they commit their weight incorrectly and allow the escape to succeed."

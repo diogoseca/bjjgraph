@@ -56,7 +56,7 @@ description: "How to defend against Posture Recovery to Closed Guard in BJJ. Mai
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is about to attempt Posture Recovery to Closed Guard?",
+      "name": "From Crackhead Control top, what is the earliest cue they're about to recover closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling their near-side hand post against your hip or shoulder to establish a frame. This frame creation is the prerequisite for every guard recovery variation and indicates the bottom player is transitioning from defensive movement to committed escape. Recognizing and responding to the frame within the first half-second is the key defensive advantage."
@@ -80,7 +80,7 @@ description: "How to defend against Posture Recovery to Closed Guard in BJJ. Mai
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a strong frame and stripped your seatbelt grip - what is your immediate recovery sequence?",
+      "name": "In Crackhead Control, they frame strongly and strip your seatbelt — your recovery sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, drive your hips forward aggressively to maintain pressure and deny space despite the lost grip. Second, use your freed hand to immediately apply crossface pressure to flatten their posture and destroy the effectiveness of their frame. Third, re-establish your controlling grip on their far-side arm or shoulder while maintaining the crossface and hip pressure. Never chase the stripped grip - redirect to crossface control which addresses the more immediate threat."
@@ -88,7 +88,7 @@ description: "How to defend against Posture Recovery to Closed Guard in BJJ. Mai
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the bottom player from using your forward drive to accelerate their guard closure?",
+      "name": "From Crackhead Control top, how do you keep your forward drive from feeding their guard closure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your weight driving through your hips onto their lower back rather than committing your chest over their shoulder line. When you drive forward with hips, your center of gravity stays behind the point where they need to rotate under you. If you over-commit your upper body forward past their shoulders, they can use that momentum to pull you over and into their guard. The distinction is hip drive versus upper body lean - hip drive maintains control, upper body lean gets exploited."

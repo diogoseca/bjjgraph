@@ -84,7 +84,7 @@ description: "How to execute Squid Guard Entry in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to retract their posting arm as you initiate the lapel feed—what adjustment maintains guard?",
+      "name": "They retract their posting arm as you feed the lapel for squid guard—how do you keep guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your collar grip to prevent them from creating distance, then immediately transition to spider guard or lasso guard using the same lapel fabric. Feed the lapel into a bicep wrap instead of completing the squid configuration. This converts their defensive retraction into a different guard configuration rather than losing all control."

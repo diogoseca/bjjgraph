@@ -10,7 +10,7 @@
   *{box-sizing:border-box;}
   @keyframes ngFadeUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
   @keyframes ngHintFade{0%{opacity:0;}12%,68%{opacity:.5;}100%{opacity:0;}}
-  @keyframes ngIntroLife{0%{opacity:0;transform:translateY(10px);}20%{opacity:1;transform:translateY(0);}77%{opacity:1;transform:translateY(0);}100%{opacity:0;transform:translateY(0);}}
+  @keyframes ngTabPulse{0%,100%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 0 rgba(120,160,255,.34);}50%{box-shadow:0 6px 26px rgba(0,0,0,.4),0 0 0 7px rgba(120,160,255,0);}}
   .ng-optionrow{-ms-overflow-style:none;scrollbar-width:none;mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 36px,#000 calc(100% - 36px),transparent 100%);scroll-padding:0 28px;}
   .ng-optionrow::-webkit-scrollbar{height:0;display:none;}
   .ng-optionrow > *{scroll-snap-align:center;}
@@ -41,16 +41,12 @@
     .ng-acctwrap{top:auto!important;bottom:28px!important;right:14px!important;} /* the pill's old band seat (v1.99.0) */
     .ngAcctChip{padding:7px!important;} /* avatar-only chip still makes a 44px touch target */
     .ng-logo .ng-word,.ng-logo .ng-kbd{display:none!important;}
-    .ng-intro{top:54px!important;left:16px!important;}
-    .ng-intro>div:first-child{font-size:21px!important;}
-    .ng-intro>div:last-child{font-size:12px!important;max-width:228px!important;margin-top:8px!important;}
     .ng-drill{width:88vw!important;}
     .ngAcctChip>span:first-child{display:none!important;}
     .ngSignupCta{display:none!important;}
     .ng-evtoast{width:86vw!important;}
     .ng-optionrow{padding:10px 12px 6px!important;gap:9px!important;}
     .ng-legendkey{display:none!important;}
-    .ng-seemore{display:none!important;}
     .ng-winbar{width:104px!important;}
     .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
   }
@@ -97,9 +93,9 @@
     <div ref="{{ modalCardRef }}" style="width:min(440px,90vw);background:linear-gradient(180deg,rgba(26,30,52,.99),rgba(18,21,38,.99));border:1px solid rgba(130,150,190,.2);border-radius:18px;box-shadow:0 24px 70px rgba(0,0,0,.65);overflow:hidden;animation:ngCardIn .28s ease both;"></div>
   </div>
 
-  <!-- brand: revamped dice-graph logo + wordmark (top-left, persistent) -->
-  <button type="button" aria-label="Open learning panel" class="ng-logo" onClick="{{ toggleExplorer }}" style="position:absolute;top:24px;left:34px;pointer-events:auto;cursor:pointer;display:flex;align-items:center;gap:10px;z-index:9;border:0;background:transparent;padding:0;text-align:left;font-family:inherit;">
-    <span class="ng-logo-mark" aria-hidden="true"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="6" cy="6" r="2.5"></circle><circle cx="18" cy="7" r="2.5"></circle><circle cx="11" cy="18" r="2.5"></circle><path d="m8.2 7.3 7.4-.2M7.3 8.2l2.5 7.4m6.5-6.4-3.8 6.7"></path></svg></span>
+  <!-- Panel opener: a labeled menu on mobile, the wordmark and open hint on desktop. -->
+  <button type="button" aria-label="Menu — open learning panel" class="ng-logo" onClick="{{ toggleExplorer }}" style="position:absolute;top:24px;left:34px;pointer-events:auto;cursor:pointer;display:flex;align-items:center;gap:10px;z-index:9;border:0;background:transparent;padding:0;text-align:left;font-family:inherit;">
+    <span class="ng-menu-label"><svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg><span>Menu</span></span>
     <div style="display:flex;flex-direction:column;gap:3px;">
       <span ref="{{ brandFontRef }}" class="ng-word" style="font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:500;letter-spacing:-.005em;color:#cbd4e6;line-height:1;transition:opacity .9s ease,color .2s;">bjjgraph<span style="color:#6b7691;">.org</span></span>
       <span class="ng-kbd" style="display:flex;align-items:center;gap:5px;font-size:9.5px;font-weight:600;color:#6b7691;background:transparent;border-radius:6px;padding:1px 0 0;letter-spacing:.03em;width:max-content;opacity:.6;transition:opacity .2s,color .2s;">
@@ -113,12 +109,6 @@
        fully turn-based — nothing advances without a commit, so play/pause/restart controlled
        nothing a player needed. The question clock never pauses (that is the test); restart is
        free roam (background click twice) + click any node. -->
-
-  <!-- persistent status HUD (top-left, after intro) -->
-  <div class="ng-intro" style="position:absolute;top:72px;left:36px;pointer-events:none;animation:ngIntroLife 6.5s cubic-bezier(.2,.7,.2,1) .4s both;">
-    <div style="font-size:28px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;line-height:1.05;">Roll the graph.</div>
-    <div style="font-size:13px;color:#9aa3b8;margin-top:11px;max-width:300px;line-height:1.5;font-weight:400;">A live roll plays out across the map. Every move is yours — only the questions are on the clock.</div>
-  </div>
 
   <!-- mobile dossier sheet: drops from the top, leaves options + win bar + drill row visible below -->
   <div ref="{{ dossierSheetRef }}" style="display:none;position:absolute;top:0;left:0;right:0;height:70%;z-index:8;background:linear-gradient(180deg,rgba(18,21,38,.985),rgba(13,15,28,.985));border-bottom:1px solid rgba(130,150,190,.24);border-radius:0 0 20px 20px;box-shadow:0 20px 54px rgba(0,0,0,.55);overflow-y:auto;pointer-events:auto;padding-top:44px;box-sizing:border-box;transform:translateY(-102%);transition:transform .34s cubic-bezier(.2,.7,.2,1);"></div>
@@ -136,9 +126,7 @@
 
   <!-- options tray (bottom of play area) -->
   <div ref="{{ optionsRef }}" class="ng-optionrow" style="position:absolute;bottom:84px;left:0;right:0;z-index:4;pointer-events:none;display:flex;gap:12px;align-items:flex-end;justify-content:safe center;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;padding:14px 24px 8px;-webkit-overflow-scrolling:touch;"></div>
-  <!-- "see more" docks ABOVE the tray (v1.123.0). `bottom` here is a FIRST-FRAME GUESS only —
-       _dockOptionHint overwrites it from the row's measured height, which has no constant. -->
-  <div ref="{{ optionHintRef }}" class="ng-seemore" onClick="{{ scrollOptions }}" style="position:absolute;bottom:238px;right:24px;z-index:3;pointer-events:none;cursor:pointer;opacity:0;transition:opacity .55s cubic-bezier(.4,0,.2,1),color .15s;display:flex;align-items:center;gap:5px;font-size:9.5px;font-weight:600;letter-spacing:.08em;color:#7e8aa8;text-transform:uppercase;">see more<span style="font-size:11px;display:inline-block;">&rarr;</span></div>
+  <!-- (the "see more →" hint that docked above the tray, v1.123.0, was DELETED in v1.171.1 — owner) -->
 
   <!-- option detail: a bottom sheet that expands in place (no dimming overlay) -->
   <div ref="{{ optDetailRef }}" style="position:absolute;left:0;right:0;bottom:0;margin:0 auto;width:min(660px,94vw);height:340px;z-index:6;opacity:0;pointer-events:none;transition:opacity .26s cubic-bezier(.2,.7,.2,1),transform .34s cubic-bezier(.2,.7,.2,1),height .34s cubic-bezier(.2,.7,.2,1);display:flex;flex-direction:column;background:linear-gradient(180deg,rgba(27,31,53,.995),rgba(17,20,36,.995));border:1px solid rgba(130,150,190,.22);border-bottom:none;border-top-left-radius:20px;border-top-right-radius:20px;box-shadow:0 -16px 60px rgba(0,0,0,.55);overflow:hidden;"></div>

@@ -56,7 +56,7 @@ description: "How to prevent and defend the Transition to Shoulder of Justice fr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from standard side control to Shoulder of Justice?",
+      "name": "What is the earliest cue that side control is shifting to Shoulder of Justice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the opponent begin to walk their chest forward toward your head while maintaining side control. This forward movement precedes the shoulder angle change and is the moment when defensive action is most effective. You may also notice them adjusting their near-side hand to trap your arm, which is a setup action that precedes the chest walk-up."
@@ -72,7 +72,7 @@ description: "How to prevent and defend the Transition to Shoulder of Justice fr
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully established the Shoulder of Justice and you are in significant discomfort. What should you NOT do and why?",
+      "name": "Under a locked-in Shoulder of Justice, what must you NOT do, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should not extend your near arm to push their shoulder away, bring your far arm across your face for protection, or turn your face into the pressure to relieve jaw pain. Each of these reactive movements is specifically what the attacker is trying to provoke: the extended near arm opens a kimura, the crossed far arm creates an arm triangle, and turning in opens north-south and back-take transitions. Instead, breathe through your nose, maintain micro-frames, and wait for the attacker to shift weight during a transition or submission attempt."
@@ -80,7 +80,7 @@ description: "How to prevent and defend the Transition to Shoulder of Justice fr
     },
     {
       "@type": "Question",
-      "name": "What defensive option gives you the best chance of escaping once the Shoulder of Justice is already established?",
+      "name": "What gives you the best escape chance once Shoulder of Justice is already locked in?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Timing a shrimp escape when the attacker shifts weight for a submission attempt or positional advancement gives you the best chance. When they initiate a kimura, mount transition, or north-south spin, their base changes and hip connection lightens momentarily. Use that window for a deliberate hip escape to insert a knee for half guard. This requires patience and the discipline to wait for the right moment rather than forcing an escape under maximum pressure."

@@ -82,7 +82,7 @@ description: "Complete defense guide for the Kimura from Lasso Guard. Learn earl
     },
     {
       "@type": "Question",
-      "name": "What immediate action should you take the moment you feel a figure-four grip threading under your arm?",
+      "name": "In lasso guard, what do you do the instant you feel a figure-four thread under your arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grab the nearest anchor point—your own belt, lapel, pants, or opposite wrist—with the threatened hand to prevent the attacker from generating any rotation. This buys critical time to begin hip escape and bridge sequences. Without an anchor grip, the attacker can finish the submission almost immediately once the figure-four locks, leaving no time for positional defense or escape attempts."
@@ -90,7 +90,7 @@ description: "Complete defense guide for the Kimura from Lasso Guard. Learn earl
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available if you recognize the Kimura before the figure-four is established?",
+      "name": "In lasso guard, how do you defend a Kimura you spot before the figure-four is established?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary defense is immediate arm retraction—pull your elbow tight to your hip and grip your own lapel or belt to anchor the arm in a safe position. This denies the space the attacker needs to thread the figure-four. You can also use hip movement to angle away from the attacker, preventing the chest pressure they need to flatten your hips. Releasing a collar grip is always preferable to defending a locked shoulder lock."

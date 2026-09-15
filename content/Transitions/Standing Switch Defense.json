@@ -253,7 +253,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first physical sensation that indicates your opponent is initiating a switch from the standing rear clinch?",
+        "question": "What is the first tactile cue that your opponent is starting a switch from standing rear clinch?",
         "answer": "The first sensation is a sudden downward shift in your opponent's hips and center of gravity combined with the feeling of their hand or arm reaching backward between or around your legs. This hip drop is the mechanical prerequisite for the switch because the opponent needs to lower their center to create the pivot point for the 180-degree rotation. Recognizing this tactile cue before visual confirmation allows you to begin your defensive response within the first fraction of a second.",
         "answer_line": "Hip drop + hand thru legs",
         "distractors": {
@@ -267,7 +267,7 @@
         }
       },
       {
-        "question": "Your opponent drops their hips and you feel their right hand reaching between your legs from the right side - what specific defensive actions do you take in the first two seconds?",
+        "question": "They drop hips and reach their right hand between your legs: what do you do in the first 2 seconds?",
         "answer": "In the first second, widen your base by stepping both feet outward and bend your knees to drop your center of gravity. Simultaneously drive your hips forward into their lower back to eliminate rotational clearance. In the second second, clamp your right elbow tightly against your right hip to trap their switch hand while tightening your left arm's grip around their upper body. This combination of structural resistance and hand trapping prevents the switch from developing momentum.",
         "answer_line": "Widen base, hip drive, trap hand",
         "distractors": {
@@ -309,7 +309,7 @@
         }
       },
       {
-        "question": "Your opponent partially completes a switch and is now facing perpendicular to you with their hips turned 90 degrees - how do you recover?",
+        "question": "Their switch is half done, hips turned 90 degrees: how do you recover the rear clinch?",
         "answer": "At 90 degrees of rotation, the switch is at its most vulnerable recovery point. Immediately step your lead foot in the direction of their rotation to re-align your chest behind their back. Use your remaining grip to pull their shoulders back toward you while driving your hips forward and to the side to re-establish the chest-to-back angle. If you cannot recover the full rear clinch, transition immediately to a body lock takedown using their compromised base, or disengage to neutral standing before they complete the remaining 90 degrees of rotation.",
         "answer_line": "Step in, pull shoulders back",
         "distractors": {
@@ -323,7 +323,7 @@
         }
       },
       {
-        "question": "How does your defensive response differ when the opponent attempts a switch very early with minimal momentum versus when they have already generated significant rotational force?",
+        "question": "How does switch defense differ against an early low-momentum attempt versus one with momentum?",
         "answer": "An early switch attempt with minimal momentum can be stopped simply by driving your hips forward and squeezing your grip tighter, as the opponent has not yet created enough force to overcome structural resistance. When the opponent has generated significant rotational momentum, fighting the rotation directly wastes energy and is ineffective. Instead, follow their rotation by stepping your feet in the same direction, maintaining your position behind them by circling with their movement. Use their momentum to re-drag them into your control once they decelerate, or transition to a mat return that utilizes their forward energy.",
         "answer_line": "Block early, follow late rotation",
         "distractors": {
@@ -450,7 +450,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the critical mechanical prerequisite that must be established before reaching your switch hand back?",
+        "question": "Before reaching your switch hand back, what mechanical prerequisite must you establish?",
         "answer": "You must drop your hips sharply below the controller's hip level before reaching back. This hip drop serves two essential purposes: it creates the pivot point around which your body will rotate 180 degrees, and it generates downward momentum that briefly disrupts the controller's forward pressure. Without this hip drop, reaching back simply exposes your arm to trapping without creating any rotational force. The hip drop should be sudden and explosive to minimize the controller's reaction window.",
         "answer_line": "Drop hips below controller's level",
         "distractors": {
@@ -464,7 +464,7 @@
         }
       },
       {
-        "question": "Your initial switch attempt was stuffed by the controller driving their hips forward - what are your best follow-up options?",
+        "question": "Your switch is stuffed by their forward hip drive: what are your best follow-ups?",
         "answer": "Three primary follow-ups exist. First, chain immediately into a sit-out by dropping to one knee and pivoting away from the controller's forward pressure, converting their hip drive into an opening behind them. Second, attempt the switch to the opposite side while their weight is committed forward, exploiting the directional commitment of their defense. Third, drop level and shoot a single leg or double leg, using their forward weight distribution as vulnerability to a level-change takedown. The key principle is never pausing after a stuffed switch but immediately flowing to the next escape in the chain.",
         "answer_line": "Sit-out, switch other side, shoot",
         "distractors": {
@@ -478,7 +478,7 @@
         }
       },
       {
-        "question": "How do you identify the optimal moment to attempt the switch when the controller has a tight bodylock?",
+        "question": "Against a tight bodylock, how do you identify the best moment to attempt the switch?",
         "answer": "The optimal window occurs during grip transitions when the controller shifts from one grip configuration to another, such as moving from bodylock to seatbelt or adjusting hand position after a re-grip. During these transitions, there is a brief moment of reduced structural control where the grip is not fully locked. Additionally, when the controller initiates their own movement such as attempting a mat return or changing angle, their weight shifts create momentary mechanical weakness. The switch should be timed to exploit these windows rather than attempted against a fully locked, stationary bodylock.",
         "answer_line": "During their grip transitions",
         "distractors": {
@@ -492,7 +492,7 @@
         }
       },
       {
-        "question": "Why is it strategically important to alternate between switching directions rather than always attempting to the same side?",
+        "question": "Why alternate switch directions instead of always attacking the same side?",
         "answer": "Alternating switch directions prevents the controller from pre-positioning their defense. If you always switch to the right, the controller can permanently offset their hips to the right and pre-clamp their right elbow, effectively neutralizing your technique before it begins every time. By threatening switches to both sides, you force the controller to maintain a centered, neutral defense that cannot fully commit to blocking either direction. This bilateral threat creates the strategic uncertainty needed for any single switch attempt to succeed against a prepared and experienced defender.",
         "answer_line": "Prevents pre-set one-sided defense",
         "distractors": {

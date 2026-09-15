@@ -341,7 +341,7 @@
         }
       },
       {
-        "question": "Your opponent is driving forward aggressively from turtle top - how does this affect your rolling timing?",
+        "question": "They drive forward hard on your turtle; how does that affect your rolling escape timing?",
         "answer": "Aggressive forward pressure is actually the optimal trigger for the roll because the opponent's weight has committed past their base, making them unable to quickly change direction when you rotate. Time your roll initiation at the peak of their forward drive, using their own momentum to accelerate your rotation. Your frames absorb the initial pressure, then convert to redirecting force as you begin the roll. Less muscular effort is required when working with their energy rather than against it. The danger is rolling too early before they fully commit, which gives them time to abort and follow, or too late when they have already flattened you and eliminated your rolling space.",
         "answer_line": "Use their forward drive as trigger",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "Your opponent has already initiated the roll and is halfway through the rotation - what is your highest-percentage response?",
+        "question": "They are halfway through rolling from turtle to guard; what is your best response?",
         "answer": "Follow the roll by keeping your chest attached to their back and circling in the same direction as their rotation. Do not resist or pull backward, as this creates separation that guarantees they complete the roll into guard. Instead, use their rolling momentum to advance your own position - insert the near-side hook during the rotation and secure seatbelt control. When they complete the roll, you should arrive in back control rather than being separated. The key is maintaining physical connection throughout the transition rather than fighting against the rotation's direction.",
         "answer_line": "Follow, insert hook, take the back",
         "distractors": {
@@ -526,7 +526,7 @@
         }
       },
       {
-        "question": "How do you differentiate between a genuine roll attempt and a feint designed to open alternative escapes?",
+        "question": "From turtle top, how do you tell a committed roll attempt from a feint?",
         "answer": "A genuine roll attempt shows committed shoulder loading where the bottom player's weight transfers onto one shoulder with chin tucked and hips beginning to elevate. A feint typically shows the initial frame creation and shoulder movement but without the full weight commitment to the rolling shoulder. Watch for hip elevation - if their hips begin driving upward with real force, the roll is committed. If the hip movement is minimal or reverses direction, they are likely setting up a sit-through, technical standup, or directional change. Respond to feints by maintaining centered pressure rather than over-committing to one counter direction.",
         "answer_line": "Committed shoulder load, hips drive",
         "distractors": {

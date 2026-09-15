@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "Your opponent begins pulling their trapped arm free as you initiate hip rotation - what is the critical mechanical detail that prevents extraction?",
+        "question": "They start pulling the trapped arm free as you rotate — what detail prevents extraction?",
         "answer": "The controlling leg must maintain inward knee pressure against their upper arm or bicep throughout the hip rotation. Think of your shin and calf as a vise on their arm. As you rotate, actively drive your controlling knee down and inward rather than allowing it to lift. If their arm slides past your knee line, abort the transition immediately and relock the crucifix rather than continuing with compromised arm control.",
         "answer_line": "Knee vise inward on their arm",
         "distractors": {
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "What entry conditions must exist before you should attempt this transition rather than attacking directly from crucifix?",
+        "question": "What conditions must exist before leaving crucifix for S mount instead of attacking directly?",
         "answer": "The transition is warranted when the opponent has successfully defended crucifix choke attempts by tucking their chin tightly, but their trapped arm remains fully isolated. If their arm is also partially escaping, stay in crucifix and re-secure first. The transition requires a stable crucifix with settled opponent - attempting during active escape sequences dramatically increases failure rate. You should also have forward weight established, not be in a recovery position from a recent bridge defense.",
         "answer_line": "Stable crucifix, arm isolated",
         "distractors": {
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "You complete the transition but your opponent immediately starts hip escaping toward your back - how do you chain your next attack?",
+        "question": "After reaching S mount they hip escape toward your back — how do you chain your attack?",
         "answer": "Their hip escape toward your back actually feeds the armbar finish. Follow their movement by leaning back slightly while maintaining wrist control, allowing their escape momentum to extend their trapped arm. Pinch your knees tight, scoop their arm across your hip line, and fall back to complete the armbar. Their escape direction is the same direction needed for arm extension. If they reverse direction, settle heavy in S Mount and consolidate before attacking again.",
         "answer_line": "Follow escape, extend, fall back",
         "distractors": {
@@ -516,7 +516,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their hips while in mounted crucifix - what is your immediate defensive response?",
+        "question": "They begin rotating their hips in mounted crucifix — what is your immediate defense?",
         "answer": "The instant you detect hip rotation, bridge explosively toward the side of the extracting leg. This direction attacks their weakest balance point during the transition. Simultaneously pull your trapped arm toward your centerline, exploiting the reduced pressure from the departing leg. If the bridge disrupts their balance enough to prevent the transition, immediately attempt arm extraction. If the bridge fails, transition to collar grip defense on the trapped arm before S Mount consolidates.",
         "answer_line": "Bridge toward extracting leg",
         "distractors": {

@@ -110,9 +110,6 @@
 .ng-evcenter > small:last-child,.ng-evcenter > p{margin-top: 9px;color: #8e9bb7;font-size: 12px;letter-spacing: 0;}
 .ng-evcenter.is-defeat > span{color: #ff9298;}
 .paused-chip{position: absolute;top: 76px;left: 50%;z-index: 11;display: flex;align-items: center;gap: 6px;transform: translateX(-50%);padding: 6px 9px;border: 1px solid rgba(150,170,210,0.16);border-radius: 999px;color: #8d9ab5;background: rgba(17,20,35,0.74);font-size: 8px;font-weight: 800;letter-spacing: 0.1em;}
-.ng-intro{position: absolute;top: 79px;left: 28px;z-index: 3;max-width: 300px;}
-.ng-intro h1{margin: 0;font: 700 29px/1.05 "Space Grotesk",sans-serif;}
-.ng-intro p{margin: 9px 0 0;color: #8c98b2;font-size: 11px;line-height: 1.5;}
 .graph-loader{position: absolute;inset: 0;z-index: 50;display: grid;align-content: center;justify-items: center;gap: 8px;background: #1a1a2e;}
 .graph-loader span{width: 34px;height: 34px;border: 2px solid rgba(150,170,210,0.18);border-top-color: #789fff;border-radius: 50%;animation: ngSpin 0.8s linear infinite;}
 .graph-loader small{color: #74809a;font-size: 10px;}

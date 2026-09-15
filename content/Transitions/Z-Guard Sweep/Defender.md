@@ -56,7 +56,7 @@ description: "Defend the Z-Guard Sweep in BJJ. Complete guide to recognizing swe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel the bottom player beginning to extend their knee shield forcefully while pulling your collar - what is your immediate response?",
+      "name": "The bottom player extends the knee shield hard while pulling your collar—what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately strip the collar grip with a two-on-one grip break, pulling their hand away from your collar while simultaneously dropping your hips and widening your base. Address the pulling force first because the knee shield extension alone cannot generate sufficient rotational torque for the sweep. Once the grip is stripped, the sweep mechanism is neutralized and you can resume your passing strategy from a stable base position."
@@ -72,7 +72,7 @@ description: "Defend the Z-Guard Sweep in BJJ. Complete guide to recognizing swe
     },
     {
       "@type": "Question",
-      "name": "The bottom player has secured a deep collar grip and is coming up on their shoulder blade with an angled body position - what should you prioritize?",
+      "name": "They have a deep collar grip and are coming onto their shoulder at an angle—what do you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize stripping the collar grip immediately since the angled body position combined with the deep grip indicates the sweep is being loaded. Use a two-on-one grip break, pushing their gripping hand toward their own chest to break the collar hold. Simultaneously drop your hip weight directly onto their angled hips to eliminate the space they need for the lateral hip drive. If you cannot strip the grip quickly, post your far hand on the mat as an emergency brace while driving your crossface pressure to flatten them out of the angle."

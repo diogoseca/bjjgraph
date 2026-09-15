@@ -329,7 +329,7 @@ At the highest levels of competition, the arm triangle from side control remains
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Arm Triangle/from High Mount]]
 - [[Submissions/Arm Triangle/from Kesa Gatame]]
-- [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame]]
+- [[Submissions/Arm Triangle/from Kuzure Kesa Gatame]]
 - [[Submissions/Americana/from Side Control]]
 - [[Submissions/Kimura/from Side Control]]
 - [[Transitions/Anaconda Choke]]

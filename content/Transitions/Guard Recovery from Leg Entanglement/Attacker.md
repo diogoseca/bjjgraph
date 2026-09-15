@@ -74,7 +74,7 @@ description: "Complete guide to executing guard recovery from leg entanglement. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent has inside ashi garami with a C-grip on your heel — what is your first action before attempting any extraction?",
+      "name": "They have inside ashi with a C-grip on your heel — what do you do before any extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the C-grip on your heel immediately using both hands. Grab your own foot and pull it toward your buttock while peeling their fingers off the heel bone. Do not attempt any leg extraction or hip escape until the heel grip is completely broken, because any extraction movement with the heel exposed creates ideal finishing angles for ankle locks and heel hooks. Only after the heel is secured against your own body should you begin the extraction sequence."
@@ -90,7 +90,7 @@ description: "Complete guide to executing guard recovery from leg entanglement. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your hip frame and begins advancing from basic ashi to saddle during your recovery attempt — how do you respond?",
+      "name": "They strip your hip frame and advance from ashi toward the saddle — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop the extraction sequence immediately and address the positional advancement as the new priority. The saddle is a significantly more dominant entanglement with multiple submission pathways, so preventing its establishment takes precedence over continuing your recovery. Re-establish your hip frame by fighting their advancing leg, use your hands to block their far leg from crossing over your trapped leg, and hip escape to create the angle needed to prevent the saddle configuration from completing."
@@ -98,7 +98,7 @@ description: "Complete guide to executing guard recovery from leg entanglement. 
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail when stripping the opponent's inside hook from across your hip?",
+      "name": "What is the key mechanical detail when stripping their inside hook off your hip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The strip must be coordinated with a hip escape in the direction away from the hook. Using hands alone to push the hook away is insufficient because the opponent can simply re-pummel with hip pressure. By hip escaping simultaneously, you add your entire body's lateral force to the hand strip, creating a directional mismatch the opponent cannot easily counter. Push their inside leg toward the mat with both hands while hip escaping in the opposite direction to create maximum separation force."
@@ -106,7 +106,7 @@ description: "Complete guide to executing guard recovery from leg entanglement. 
     },
     {
       "@type": "Question",
-      "name": "After successfully extracting your leg, your opponent immediately shoots to re-entangle your freed leg — how do you prevent re-entry?",
+      "name": "After extracting your leg, they shoot to re-entangle it — how do you block re-entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert your knee between you and the opponent immediately upon extraction, establishing half guard before they can secure any grip on your freed leg. If they have already grabbed the leg, sprawl your hips back to create distance while framing on their head or shoulder. Guard recovery is not complete when the leg comes free — it is complete when you have established a defensive guard structure that blocks re-entry. The knee shield or half guard hook creates this barrier."

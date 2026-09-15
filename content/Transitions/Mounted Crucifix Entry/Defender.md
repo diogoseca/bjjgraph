@@ -56,7 +56,7 @@ description: "How to defend against Mounted Crucifix Entry in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is reaching across your body to defend the armbar the most common mistake that leads to crucifix entry?",
+      "name": "Why does reaching across your body to defend the armbar lead straight into the crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you reach across your body to grip your own wrist or the defender's arm during armbar defense, your far arm crosses your centerline directly into the path where the opponent will thread their leg. This motion essentially delivers your arm into the trap. The attacker does not need to hunt for your arm - your defensive instinct presents it. Instead, defend the armbar by gripping your own collar with the trapped hand and framing with your far arm on your side of the body."
@@ -72,7 +72,7 @@ description: "How to defend against Mounted Crucifix Entry in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their hips in S Mount - what does this signal and how should you respond?",
+      "name": "They start rotating their hips in S mount — what does it signal and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip rotation from S Mount signals the beginning of a leg threading attempt for the crucifix entry. The attacker needs to rotate their pelvis to create the angle for their shin to clear your arm. Immediately pull your far arm tight to your body, frame against their hip to prevent the rotation from completing, and execute a hip escape toward their legs. The hip escape changes the angle between your bodies, making the rotational thread mechanically more difficult to complete."
@@ -88,7 +88,7 @@ description: "How to defend against Mounted Crucifix Entry in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Both your arms are trapped and the opponent has established the crucifix - what is your immediate priority?",
+      "name": "Both arms are trapped and the crucifix is set — what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority shifts from crucifix prevention to submission defense. Tuck your chin tightly to your chest and elevate your shoulders toward your ears to protect your neck, as choke attacks become the primary threat. Do not waste energy trying to immediately extract both arms against established knee pressure. Instead, focus on small hip movements to create incremental space in the arm traps, targeting extraction of one arm at a time. Once one arm is free, you can address the remaining arm trap and begin mount escape sequences."

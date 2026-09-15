@@ -56,7 +56,7 @@ description: "Defend against the Russian Lasso to De La Riva transition. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that indicates the guard player is about to transition from Russian Lasso to De La Riva?",
+      "name": "What's the earliest tactile cue of a Russian lasso to De La Riva switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a decrease in lasso pressure on your trapped arm. When the guard player relaxes the threading to prepare for leg extraction, you will feel the binding effect on your arm loosen. This happens before any visible hip movement or leg repositioning and provides the maximum reaction time for counter-measures. Simultaneously, you may notice the collar grip tightening as they reinforce their anchor before the switch."
@@ -64,7 +64,7 @@ description: "Defend against the Russian Lasso to De La Riva transition. Recogni
     },
     {
       "@type": "Question",
-      "name": "Why is the backstep defense more effective during the extraction phase than after the DLR hook is established?",
+      "name": "Why is backstepping better during the leg extraction than after the DLR hook is set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the extraction phase, the guard player's leg is in transit between two positions and cannot exert controlling force in either the lasso or DLR configuration. A backstep at this moment removes your lead leg from the hook's path while the guard player has no mechanism to follow your movement. Once the DLR hook is established behind your knee, backsteping actually strengthens the hook by loading the opponent's leg against the back of your knee joint."
@@ -72,7 +72,7 @@ description: "Defend against the Russian Lasso to De La Riva transition. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent's lasso pressure decreases but their collar grip tightens simultaneously - what does this indicate and how should you respond?",
+      "name": "Lasso pressure drops while their collar grip tightens—what does it mean and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This combination strongly indicates an imminent guard transition. The collar grip tightening is the guard player reinforcing their anchor before extracting the lasso leg. Respond immediately by either stripping the collar grip with a two-on-one break while their attention is on the leg transition, or backstep your lead leg while posting your hand on their hip to create distance. Do not wait for the leg extraction to confirm the transition."
@@ -88,7 +88,7 @@ description: "Defend against the Russian Lasso to De La Riva transition. Recogni
     },
     {
       "@type": "Question",
-      "name": "After successfully preventing the DLR transition and landing in open guard top, what should your immediate priority be?",
+      "name": "You stop the DLR switch and land in open guard top—what's your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish passing grips before the guard player can re-establish a specific guard system. Control their legs by gripping pants at the knees or ankles to prevent them from inserting hooks or frames. The guard player is momentarily in their weakest configuration without specific guard controls. Drive into a passing sequence immediately rather than allowing them time to recover Russian Lasso, DLR, or any other specific guard structure."

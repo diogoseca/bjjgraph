@@ -64,7 +64,7 @@ description: "How to defend the Underhook Sweep from Butterfly Guard in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "They have a deep underhook and are loading your weight onto their hook - what is your emergency response?",
+      "name": "They have a deep underhook and are loading you onto their butterfly hook: emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Whizzer the underhook arm, drop your weight back off the hook, base wide, and drive a crossface to flatten their shoulders. You must address all three elements at once - the underhook, the loaded hook, and your base - because a whizzer alone while your weight stays on the hook will still result in being elevated or giving up the back."
@@ -80,7 +80,7 @@ description: "How to defend the Underhook Sweep from Butterfly Guard in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "You whizzer and they extend their legs to come up to the dogfight - what happened and how do you respond?",
+      "name": "You whizzer and they extend their legs up to dogfight: what went wrong and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You over-drove the whizzer forward, feeding them the momentum to come up underneath you toward your back. Re-square your chest to them, pull your hips back to break their angle, and re-flatten them before they circle behind. The lesson is that a whizzer must be paired with hips-back pressure, never a forward weight commitment."

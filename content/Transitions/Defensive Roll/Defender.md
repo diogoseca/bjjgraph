@@ -56,7 +56,7 @@ description: "How to prevent the Defensive Roll escape from Twister Control. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three conditions the bottom player needs for a successful Defensive Roll, and how do you deny each one?",
+      "name": "What three conditions does the defensive roll need, and how do you deny each from twister control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three conditions are: momentary loosening of leg control (deny by maintaining constant tight leg entanglement even during grip transitions), a free posting arm (deny by controlling or pinning their free arm), and committed hip drive in the rolling direction (deny by maintaining heavy chest pressure that compresses their ability to load their hips). Removing any single condition prevents the roll."
@@ -64,7 +64,7 @@ description: "How to prevent the Defensive Roll escape from Twister Control. Rec
     },
     {
       "@type": "Question",
-      "name": "You feel the bottom player tuck their chin and begin tensing their core. What should your immediate response be?",
+      "name": "The bottom player tucks their chin and tenses their core in twister control — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "These are classic preparation signals for the Defensive Roll. Immediately tighten your leg entanglement, drive your chest pressure heavier into their upper back, and look to control their free arm. If possible, accelerate your own attack sequence - either commit to the Twister finish or transition to an alternative submission. The goal is to either finish before they roll or remove the conditions needed for the escape."

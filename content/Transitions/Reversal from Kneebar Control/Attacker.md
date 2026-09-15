@@ -98,7 +98,7 @@ description: "Learn to execute the reversal from kneebar control bottom in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand behind them and begins scooting away during the reversal - how do you adjust?",
+      "name": "Defending your kneebar, they post behind and scoot away—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts and scoots, immediately chase with your hips to maintain connection. If you close the distance quickly, the sit-up drive becomes available since their posted hand means their weight is shifted backward. If they create too much distance to sweep, redirect back to the kneebar attack since their posting arm is now occupied and their knee defense may be weakened. Never stall between sweep and submission attempts."

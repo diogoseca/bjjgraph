@@ -63,13 +63,13 @@ test("defense drama: caught → panic drill → escape odds pump → relief", as
   await j.boot("/")
   await j.land("Mount Top")
 
-  // rig a failed move whose fail path hands initiative to an opponent FINISH (enterDefense)
-  const options = await j.optionTitles()
+  // This transition's counter gives up half guard bottom, where the opponent can attack.
+  // A submission entry now arrives at its own state; it cannot fail like a finish attempt.
   await j.rig("resolve", [0.99])       // our move fails
   await j.rig("outcome", [0.99])       // draw a non-success outcome
   await j.rig("opp-finish", [0.01])    // opponent goes for the kill
   await j.rig("opp-sub-pick", [0.01])
-  await j.pick(options[0])
+  await j.pick("Consolidate Mount")
   // chunked pump: one long advance would blow through the defense window before we can drill
   await j.advanceUntil("caught", 20000)
 

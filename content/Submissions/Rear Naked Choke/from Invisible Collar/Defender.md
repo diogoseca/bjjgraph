@@ -58,7 +58,7 @@ description: "Defend the Rear Naked Choke from Invisible Collar. Recognize the c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the invisible collar grip is being used as bait for an RNC rather than a direct finishing threat?",
+      "name": "How do you tell an invisible collar grip is bait for an RNC rather than a real finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The attacker applies intermittent collar pressure rather than progressive finishing force, maintains patient positioning despite having grip depth, and appears to be monitoring your hand positioning rather than focusing on deepening their own grip. If the collar pressure feels like it is inviting your defensive reaction rather than building toward a finish, they are likely setting up the RNC switch."

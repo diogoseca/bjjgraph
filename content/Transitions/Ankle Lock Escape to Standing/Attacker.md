@@ -104,7 +104,7 @@ description: "Master executing the ankle lock escape to standing. Complete guide
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins wrapping their legs around your trapped leg as you initiate the escape - what adjustment is required?",
+      "name": "They start wrapping their legs around your trapped leg as you stand: what adjustment is needed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately prioritize addressing the leg wrap over the ankle grip. Use your free leg to kick or push down on their bottom leg while rotating your hip to prevent the triangle from completing. Once the leg triangle is fully established, standing escape becomes exponentially harder and you should transition to alternative defenses. The leg control must be addressed within two to three seconds of initiation or the standing escape window closes."
@@ -120,7 +120,7 @@ description: "Master executing the ankle lock escape to standing. Complete guide
     },
     {
       "@type": "Question",
-      "name": "What should you do if your initial grip break attempt fails but you have partially loosened the ankle control?",
+      "name": "Your grip break fails but the ankle control is partly loosened: what do you do next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain the partial advantage by keeping pressure against the weakened grip while immediately re-establishing your frames. Use the momentary looseness to rotate your hip and pull your knee closer to your chest, reducing the extension that gives the attacker leverage. Do not reset completely or pause. Build on partial progress by transitioning to your second grip break attempt or combining the partial break with aggressive hip rotation for extraction."
@@ -432,7 +432,7 @@ The ankle joint and Achilles tendon are vulnerable structures that can sustain s
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Key defensive transition for escaping ankle lock control and returning to a safe standing position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Key defensive transition for escaping ankle lock control and returning to a safe standing position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

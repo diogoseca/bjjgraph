@@ -285,7 +285,7 @@
         }
       },
       {
-        "question": "Your opponent begins tucking their chin and loading weight forward for a roll escape - what immediate adjustment prevents this?",
+        "question": "From omoplata control, they tuck their chin and load forward to roll — what stops it?",
         "answer": "Immediately tighten your grip on their belt or far hip to anchor their hips to the mat and block the forward momentum needed for the roll. Simultaneously increase your shin pressure across their upper back to flatten them. If the roll has already initiated, do not fight it but instead follow through and transition to back control by maintaining your leg position and inserting hooks as they complete the rotation. The belt grip controls whether the roll happens at all.",
         "safety_critical": false,
         "answer_line": "Anchor hips with belt grip and shin",
@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "What are the key indicators that the shoulder joint has reached its breaking point and a tap is imminent?",
+        "question": "Which signs show the shoulder has reached its limit and a tap is imminent in the omoplata?",
         "answer": "Indicators include the opponent suddenly tensing their entire body and stopping all escape attempts, audible distress sounds or sharp inhalation, the trapped arm going limp or the hand opening from a fist, the opponent's free hand moving toward you or the mat to tap rather than continuing defensive posting, and visible elevation of the shoulder blade away from the ribcage indicating the joint is at maximum rotation. Any of these signals should prompt you to hold current pressure without increasing it.",
         "safety_critical": true,
         "answer_line": "Body tenses, arm goes limp",
@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "Your opponent partially postures up and you feel your shin sliding off their back - what grip adjustment prevents losing the position?",
+        "question": "They posture and your shin slides off their back — what grip change saves omoplata control?",
         "answer": "Immediately pull with your belt or hip grip to bring them back down while simultaneously driving your knee back toward the mat to reseat the shin across their upper back. If the shin has slipped too far, use your free hand to grab their wrist on the trapped arm side to prevent arm extraction while you reposition. If they achieve significant posture, abandon the finish and transition to the omoplata sweep by driving forward into their elevated center of gravity, which is actually easier to sweep when they are upright.",
         "safety_critical": false,
         "answer_line": "Pull belt down, reseat the knee",
@@ -375,7 +375,7 @@
         }
       },
       {
-        "question": "Your opponent extracts their trapped arm halfway out of the omoplata - what is the highest percentage follow-up attack?",
+        "question": "Your opponent pulls their arm halfway out of the omoplata — what is the best follow-up attack?",
         "answer": "The highest percentage follow-up when the arm is partially extracted is the triangle choke. Their head is already positioned between your legs from the omoplata configuration, and as they pull the arm free, they create the asymmetric arm position needed for the triangle. Throw your leg that was across their back over the back of their neck and lock the triangle figure-four. The transition is fast because you are already in the correct body position and only need to reconfigure your legs rather than create an entirely new attacking angle.",
         "safety_critical": false,
         "answer_line": "Triangle choke over the neck",
@@ -390,7 +390,7 @@
         }
       },
       {
-        "question": "In competition with 30 seconds remaining, how do you accelerate the omoplata finish while maintaining safety?",
+        "question": "With 30 seconds left, how do you speed up the omoplata finish while staying safe?",
         "answer": "Accelerate the finish by perfecting your control rather than increasing force speed. Immediately secure the deepest possible belt grip and flatten the opponent with maximum shin pressure. Sit up explosively to a tall perpendicular position and lean away to load the shoulder quickly. Drive hips forward with steady progressive pressure. The acceleration comes from eliminating the setup time between control and finish, not from applying force faster. You can compress a 15-second finishing sequence into 6-8 seconds by being more decisive in your positioning while still maintaining safe progressive pressure on the joint.",
         "safety_critical": false,
         "answer_line": "Tighten control fast, not force",
@@ -405,7 +405,7 @@
         }
       },
       {
-        "question": "What distinguishes the omoplata finish from omoplata control versus finishing during the initial entry?",
+        "question": "How does finishing the omoplata from established control differ from finishing during the entry?",
         "answer": "From established control, the opponent's defensive window has narrowed considerably. The forward roll, posturing, and arm extraction are their only remaining options, whereas during entry they could have defended the leg threading, blocked the hip switch, or maintained posture before control was established. The control position means you already have the belt grip, perpendicular hip angle, and shin across the back established. The finish is purely about progressive pressure application and counter defense rather than simultaneously securing control and attacking. This is why the finish rate from established control is significantly higher than from entry positions.",
         "safety_critical": false,
         "answer_line": "Control is finish-only, no setup",
@@ -531,7 +531,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest recognition cues that the omoplata finish is being initiated from control position?",
+        "question": "As defender, what are the earliest cues that the omoplata finish is starting from control?",
         "answer": "The earliest cues are the attacker securing a grip on your belt or far hip, and beginning to adjust their hip angle to perpendicular. You will feel increased pressure from their shin across your upper back as they drive their knee down, and their body will begin rising as they sit up tall. Recognizing these setup movements gives you the best chance to initiate escape before the finishing pressure becomes overwhelming.",
         "safety_critical": false,
         "answer_line": "Belt grip taken, hips turning in",
@@ -546,7 +546,7 @@
         }
       },
       {
-        "question": "When should you tap to the omoplata to prevent injury, and what signals indicate you are approaching the danger threshold?",
+        "question": "When should you tap to the omoplata, and what signals mean you are nearing injury?",
         "answer": "Tap when you feel sharp pain in the shoulder joint, when you sense the shoulder reaching the end of its natural range of external rotation, or when the pressure transitions from uncomfortable to painful. Warning signals include a stretching sensation deep in the shoulder capsule, inability to resist the rotation with muscular effort, and the feeling that the shoulder is about to pop or shift. Tap early and tap clearly. Shoulder injuries from omoplatas are among the most serious in BJJ and often require surgical intervention.",
         "safety_critical": true,
         "answer_line": "Sharp pain or end-range rotation",

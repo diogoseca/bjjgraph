@@ -90,7 +90,7 @@ description: "How to execute Spider Guard Pass in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent switches to De La Riva guard during your spider guard pass attempt?",
+      "name": "Passing spider guard, your opponent switches to De La Riva: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately address the DLR hook by either circling your trapped leg away from the hook while stripping remaining grips, or backstepping to face the opponent and enter a different passing position like leg drag or over-under. The key is recognizing the guard transition early and not allowing the DLR hook to establish fully, which would require a completely different passing approach and reset your passing sequence."

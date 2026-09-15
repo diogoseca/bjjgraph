@@ -412,6 +412,7 @@ Flow roll at 50% intensity with the specific focus of maintaining structural ali
 - **[[Kuzushi]]** (Complementary): Breaking the opponent's balance (Kuzushi) often involves breaking their structure first. A sweep that disrupts structural alignment at the hips or shoulders destabilizes the opponent more effectively than one that merely pushes their center of gravity.
 - **[[Forward Pressure]]** (Extension): Forward pressure relies on structural alignment to transmit driving force through the skeleton into the opponent. Without structure, forward pressure degrades into pushing, which is both less effective and more fatiguing.
 - **[[Cross Face Control]]** (Extension): An effective crossface depends on structural alignment from the attacking shoulder through the core and into the hips. The crossface pressure comes from body structure, not arm strength — the shoulder drives through bone-stacked alignment into the opponent's face.
+- **[[Alignment]]** (Complementary): Limb structure must work with spinal posture and base rather than being assessed alone.
 
 
 ### Related Content
@@ -427,6 +428,7 @@ Flow roll at 50% intensity with the specific focus of maintaining structural ali
 - [[Principles/Kuzushi|Kuzushi]] (Principle) - Off-balancing often works by breaking the opponent's structure rather than merely displacing their center of gravity
 - [[Positions/Side Control|Side Control]] (Position) - The premier position for demonstrating structural pressure — top side control with proper bone stacking produces the heaviest pressure in BJJ
 - [[Positions/Mount|Mount]] (Position) - Mount requires dynamic structural management — shifting between pressure structure and submission structure as the tactical need changes
+- [[Principles/Alignment|Alignment]] (Principle) - Limb structure must work with spinal posture and base rather than being assessed alone.
 
 
 </section>

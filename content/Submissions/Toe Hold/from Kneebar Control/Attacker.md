@@ -92,7 +92,7 @@ description: "Learn to attack with the toe hold from kneebar control. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "What is the most vulnerable moment during the kneebar-to-toe-hold transition, and how do you minimize risk?",
+      "name": "What is the riskiest moment in the kneebar-to-toe-hold transition, and how do you limit it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most vulnerable moment is when both hands release the kneebar grip configuration and reach for the toe hold grip. During this window, arm control is temporarily absent and the opponent can attempt to extract their leg. Minimize risk by maintaining strong leg entanglement hooks throughout the transition and executing the grip switch as quickly as possible while keeping hips connected to the opponent's knee."
@@ -108,7 +108,7 @@ description: "Learn to attack with the toe hold from kneebar control. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts straightening their leg while you have a partially established toe hold grip - what should you do?",
+      "name": "They straighten the leg while your toe hold grip is only partial—what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately release the toe hold grip and transition back to the kneebar attack. The leg extension that strips the toe hold simultaneously re-exposes the knee joint to hyperextension, which is the core mechanic of this chain attack. Fighting to maintain the toe hold against a straightening leg wastes the better submission opportunity and reduces your finishing percentage."

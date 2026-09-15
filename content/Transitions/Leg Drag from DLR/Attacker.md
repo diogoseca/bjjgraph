@@ -82,7 +82,7 @@ description: "Execute the leg drag pass from De La Riva Guard. Step-by-step grip
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-hooks their DLR immediately after you strip it—how do you prevent this recurring problem?",
+      "name": "They keep re-hooking DLR right after you strip it. How do you stop this recurring?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common reason for re-hooking is a gap between the hook strip and the leg redirect. You must make these movements continuous rather than sequential—as the hook clears, the leg is already being pulled across their centerline. Additionally, circle your freed leg backward and away from their hooking foot to make re-threading mechanically difficult. If they consistently re-hook despite this, switch to a backstep pass that uses their hook commitment against them by stepping behind and around it."
@@ -98,7 +98,7 @@ description: "Execute the leg drag pass from De La Riva Guard. Step-by-step grip
     },
     {
       "@type": "Question",
-      "name": "During the leg drag attempt, your opponent transitions to Single Leg X-Guard—what went wrong and how do you adjust?",
+      "name": "They hit single leg X during your leg drag from DLR. What went wrong and how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This counter occurs when you create space by lifting the leg too high during the drag or when you fail to control the far leg. The bottom player threads their free leg under your base and hooks your thigh. To prevent this, keep the drag trajectory tight and low to their body and control or block their far leg with your free hand. If they achieve the transition, immediately backstep to disengage their hooks before they can elevate for a sweep."
@@ -106,7 +106,7 @@ description: "Execute the leg drag pass from De La Riva Guard. Step-by-step grip
     },
     {
       "@type": "Question",
-      "name": "What are the ideal conditions that signal the highest-percentage moment to initiate the leg drag from DLR?",
+      "name": "What signals the highest-percentage moment to start the leg drag from DLR?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing window is immediately after successfully stripping the ankle grip while the bottom player is reaching to re-grip. During this moment, their DLR hook has lost its primary support structure and they are transitioning between offensive postures. The secondary window is when the bottom player attempts to transition from DLR to another guard such as Reverse DLR or X-Guard, as their hook commitment changes during the transition, creating vulnerability to redirection."

@@ -4,7 +4,7 @@
 
 ---
 title: "Marcelo Garcia Guillotine System | BJJ System | BJJ Graph"
-description: "Master Marcelo Garcia's high-percentage guillotine system. Learn systematic entries, grip variations, and finishing mechanics for competition success."
+description: "Focuses on Marcelo’s guillotine approach, including entries and adjustments when the opponent defends or passes. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Marcelo Garcia Guillotine System",
-  "description": "Master Marcelo Garcia's high-percentage guillotine system. Learn systematic entries, grip variations, and finishing mechanics for competition success.",
+  "description": "Focuses on Marcelo’s guillotine approach, including entries and adjustments when the opponent defends or passes. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Marcelo-Garcia-Guillotine-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -140,7 +140,7 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Marcelo Garcia Guillotine System",
-  "description": "The Marcelo Garcia Guillotine System is a high-percentage front-headlock framework that chains guillotine grips, guard pulls, sweeps, and back takes into an interconnected attack web effective in gi and no-gi, even against larger opponents.",
+  "description": "A guillotine game needs more than a finishing grip.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -159,9 +159,11 @@ description: "Master Marcelo Garcia's high-percentage guillotine system. Learn s
 
 ## What is Marcelo Garcia Guillotine System?
 
-**The Marcelo Garcia Guillotine System is a high-percentage front-headlock framework that chains guillotine grips, guard pulls, sweeps, and back takes into an interconnected attack web effective in gi and no-gi, even against larger opponents.**
+**A guillotine game needs more than a finishing grip.**
 
-Marcelo Garcia's guillotine system represents one of the most refined and effective submission frameworks in modern Brazilian Jiu-Jitsu. Built on decades of competition experience and thousands of successful finishes, this system transforms the guillotine from an opportunistic submission into a systematic attacking weapon. The framework encompasses multiple entry points, grip variations, and finishing positions, all connected through a logical decision tree that responds to opponent reactions. Garcia's approach emphasizes high-elbow positioning, precise hand placement, and the integration of guillotine attacks with sweeps and back takes. What distinguishes this system is its adaptability across positions - from standing clinches to guard pulls to turtle attacks - making it equally effective in gi and no-gi contexts. The methodology prioritizes connection and control over raw strength, allowing practitioners of all sizes to implement the system successfully against larger opponents.
+A guillotine game needs more than a finishing grip. This guide connects head control, entries and recovery when the opponent changes angle or tries to pass. Use it to identify the moment where you lose the head before adding more variations.
+
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -170,15 +172,37 @@ Marcelo Garcia's guillotine system represents one of the most refined and effect
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Marcelo Garcia Guillotine System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 25 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="the-marcelotine-by-marcelo-garcia">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">The Marcelotine</h3>
+<p class="product-card__instructor">with Marcelo Garcia</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students refining a guillotine game rather than looking for a general front headlock overview.</p>
+<p class="product-card__blurb">Focuses on Marcelo’s guillotine approach, including entries and adjustments when the opponent defends or passes.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=marcelo-garcia-guillotine-system&utm_term=the-marcelotine-by-marcelo-garcia" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-marcelotine-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -296,6 +320,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Compare the entry and recovery sections with the situations where you currently lose the head.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=marcelo-garcia-guillotine-system&utm_term=the-marcelotine-by-marcelo-garcia" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-marcelotine-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Marcelotine &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -405,5 +440,16 @@ The guillotine system requires isolation drilling of individual components befor
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Choose one entry and practise keeping the head controlled as your partner changes angle. Add finishing mechanics only under supervision.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=marcelo-garcia-guillotine-system&utm_term=the-marcelotine-by-marcelo-garcia" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-marcelotine-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Marcelotine &rarr;</a></p>
+</section>
+
+
 
 </main>

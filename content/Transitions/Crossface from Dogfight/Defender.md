@@ -56,7 +56,7 @@ description: "Learn to defend and counter the Crossface from Dogfight in BJJ. Re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest tactile cues that indicate your opponent is about to attempt a crossface in the dogfight?",
+      "name": "In dogfight, what earliest tactile cues warn you a crossface is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are a tightening of the whizzer with the opponent's elbow pulling close to their ribs, their near shoulder beginning to angle toward your face rather than maintaining neutral position, and a subtle lowering of their hips signaling preparation for gravitational pressure. You may also feel their head shift to the far side of your body, creating the fulcrum angle needed for the crossface rotation. Recognizing these pre-attack signals gives you a one-to-two-second window to preempt the crossface."
@@ -64,7 +64,7 @@ description: "Learn to defend and counter the Crossface from Dogfight in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you feel crossface pressure being applied in dogfight?",
+      "name": "Feeling crossface pressure in dogfight, what is your single most important defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The single most important action is tucking your chin toward your underhook side and driving your forehead into the opponent's chest or neck. This prevents the crossface from turning your head—which is the primary mechanism by which the crossface breaks posture. When the head stays turned toward the underhook, the opponent cannot generate the rotational force needed to flatten you. This chin tuck must be combined with continued forward pressure through the underhook."

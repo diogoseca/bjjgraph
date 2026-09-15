@@ -72,7 +72,7 @@ description: "How to defend against Lapel to Lasso Transition in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent has just begun rotating their hips perpendicular after you cleared their lapel—what is your immediate response?",
+      "name": "They cleared your lapel and start rotating their hips perpendicular: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive aggressive forward pressure immediately by dropping your hips and chest toward the opponent to flatten their perpendicular angle. The hip rotation is the mechanical prerequisite for lasso threading—without that angle, the shin cannot cross your arm effectively. Smashing their hips flat eliminates the transition geometry and puts you in a dominant passing position with their guard structure compromised."
@@ -80,7 +80,7 @@ description: "How to defend against Lapel to Lasso Transition in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "How does keeping your elbows tight prevent the lasso entry, and what common passing habit works against this?",
+      "name": "How do tight elbows stop the lasso entry, and what passing habit undermines that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lasso requires threading the shin through the gap between your elbow and shoulder. When elbows are pinched to your ribs, this gap closes and the shin physically cannot cross your arm. The common habit that works against this is reaching with extended arms to establish grips or break the opponent's grips during passing—each time you extend your arm, you open the threading channel. Grip fight with compact arm positions."
@@ -88,7 +88,7 @@ description: "How to defend against Lapel to Lasso Transition in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "You feel the opponent's shin beginning to slide across your tricep—is it too late to defend, and what should you do?",
+      "name": "Their shin starts sliding across your tricep: is it too late to defend, and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "It is not too late if the lasso has not yet achieved full extension and tension. Immediately step over the threading leg by lifting your foot and planting it on the far side of their hip, which removes your arm from the threading path entirely. Simultaneously pull your elbow tight and circle away from the lasso side. The key is that an incomplete lasso without full extension provides minimal control—you can still escape during the threading process before the opponent straightens their leg and tensions the grip."

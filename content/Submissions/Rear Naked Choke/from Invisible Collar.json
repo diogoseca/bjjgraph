@@ -359,7 +359,7 @@
         }
       },
       {
-        "question": "Your opponent manages to get one hand inside the choke before the figure-four locks—what grip adjustment maintains finishing pressure?",
+        "question": "One hand gets inside before your figure-four locks — what grip keeps finishing pressure?",
         "answer": "Do not try to overpower their defending hand. Switch to a short choke by gripping your own wrist instead of the bicep, which narrows the choke circumference and can trap their defending hand against their own neck. Alternatively, use your free hand to peel their fingers from your wrist one at a time. Their hand inside the choke actually increases pressure on one carotid if you can complete the lock around it.",
         "safety_critical": false,
         "answer_line": "Grip own wrist, short choke",
@@ -419,7 +419,7 @@
         }
       },
       {
-        "question": "How do you create the collar-to-RNC dilemma effectively against an experienced opponent who knows the switch?",
+        "question": "How do you build a real collar-to-RNC dilemma against an opponent who knows the switch?",
         "answer": "Against experienced opponents, the collar threat must be genuinely dangerous before the RNC switch becomes viable. Incrementally deepen the collar grip over 15-30 seconds with periodic squeezing to demonstrate real finishing intent. Only attempt the switch when you feel the opponent escalate to two-handed defense. If they only commit one hand, continue deepening. Chain multiple collar-RNC-collar cycles to deteriorate their defensive timing over time rather than relying on a single transition attempt.",
         "safety_critical": false,
         "answer_line": "Deepen collar until two-hand defense",
@@ -554,7 +554,7 @@
     ],
     "flashcards": [
       {
-        "question": "How do you recognize that the invisible collar grip is being used as bait for an RNC rather than a direct finishing threat?",
+        "question": "How do you tell an invisible collar grip is bait for an RNC rather than a real finish?",
         "answer": "The attacker applies intermittent collar pressure rather than progressive finishing force, maintains patient positioning despite having grip depth, and appears to be monitoring your hand positioning rather than focusing on deepening their own grip. If the collar pressure feels like it is inviting your defensive reaction rather than building toward a finish, they are likely setting up the RNC switch.",
         "safety_critical": false,
         "answer_line": "Intermittent pressure, not finishing",

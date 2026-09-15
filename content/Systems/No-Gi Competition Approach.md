@@ -170,6 +170,8 @@ Modern no-gi competition has matured into a discipline with its own rule sets â€
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill No-Gi Competition Approach?
@@ -302,6 +304,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -410,5 +414,7 @@ No-gi competition training should emphasize specific situational drilling with p
 
 
 </section>
+
+
 
 </main>

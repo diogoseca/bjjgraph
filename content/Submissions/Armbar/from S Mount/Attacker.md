@@ -108,7 +108,7 @@ description: "Execute the Armbar from S Mount with precision. Step-by-step finis
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up and stack you during the lean-back phase—what adjustment prevents escape?",
+      "name": "S mount armbar: they stack you as you lean back — what adjustment prevents the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent stacks, pull their wrist toward your hip rather than reaching overhead, which kills their stacking angle. Simultaneously, hook your near leg behind their head to prevent them from posturing up further. If stacking continues, consider transitioning to a belly-down armbar by following their movement and rotating your body to pin them face-down. The critical mistake is trying to lean back further against a stacking opponent—this creates space and weakens your control."
@@ -116,7 +116,7 @@ description: "Execute the Armbar from S Mount with precision. Step-by-step finis
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make when the opponent rotates their arm to change the submission angle?",
+      "name": "How do you adjust your grip when they rotate the arm during the S mount armbar finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent rotates their arm so the thumb points downward or sideways, you must correct the rotation before finishing. Use your two-on-one grip to rotate their forearm back to thumb-up position by torquing at the wrist. If they actively fight the rotation, switch your grip to control above the elbow and use your hips to force the proper alignment. The armbar requires the elbow's hinge joint to face your hips—any other orientation reduces finishing effectiveness and may allow the arm to bend rather than hyperextend."

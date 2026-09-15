@@ -410,7 +410,7 @@
         }
       },
       {
-        "question": "What anatomical structure does the armbar from back specifically target, and what indicates the breaking point is near?",
+        "question": "Which joint does the armbar from back target, and what shows the breaking point is near?",
         "answer": "The armbar targets the elbow joint, specifically hyperextending the humeroulnar joint where the ulna articulates with the humerus. The breaking point is indicated when the arm is fully straightened with no bend remaining at the elbow, opponent's resistance suddenly decreases as they can no longer muscularly defend, and you feel the arm beginning to hyperextend beyond its natural range of motion. At this point, any additional hip lift creates immediate injury risk.",
         "safety_critical": true,
         "answer_line": "Elbow joint, fully straight",
@@ -425,7 +425,7 @@
         }
       },
       {
-        "question": "Your opponent starts to posture up and stack you during the armbar finish - what adjustment prevents escape?",
+        "question": "Armbar from back: they posture up and stack you during the finish — what adjustment stops it?",
         "answer": "Immediately angle your body perpendicular to opponent by swiveling your hips away from them while maintaining the arm tight to your chest. Push on their face or head with your leg to prevent stacking, and consider hooking their far leg with your free leg to off-balance them. Keep your hips heavy and low rather than elevated. If stacking continues, you may need to release the armbar and transition to triangle or return to back control rather than fighting a losing battle from a compromised position.",
         "safety_critical": false,
         "answer_line": "Angle hips away, block the stack",
@@ -440,7 +440,7 @@
         }
       },
       {
-        "question": "What is the point of no escape in the armbar from back, and how do you recognize when you've achieved it?",
+        "question": "What is the point of no escape in the armbar from back, and how do you recognize it?",
         "answer": "The point of no escape occurs when the arm is fully isolated with proper thumb-up alignment, both hands control the wrist with the arm pinned across your sternum, knees are pinched tight trapping the shoulder, and your hips are positioned perpendicular to the arm with ability to extend. At this point, opponent cannot rotate their arm, pull it free, or stack effectively. You recognize it by feeling zero movement capability in their trapped arm - any attempt to escape only increases pressure on the elbow joint.",
         "safety_critical": false,
         "answer_line": "Arm pinned, knees trap, hips set",
@@ -470,7 +470,7 @@
         }
       },
       {
-        "question": "In competition, what finishing strategy maximizes your success rate while maintaining control if the initial armbar is defended?",
+        "question": "Armbar from back in competition: how do you finish if your first attempt is defended?",
         "answer": "Apply steady, incrementally increasing hip pressure rather than explosive bursts, which allows you to feel opponent's defensive reactions and adjust accordingly. If they bend the arm, maintain position and wait for fatigue to straighten it. If they attempt to roll, follow with your hips connected. Always maintain the option to transition to rear triangle if they successfully defend with bent arm, or return to back control with hooks if the armbar position becomes compromised. Never abandon control entirely - cycling between threats from the same position exhausts defenders faster than committing fully to escapes.",
         "safety_critical": false,
         "answer_line": "Steady pressure, cycle threats",
@@ -640,7 +640,7 @@
         }
       },
       {
-        "question": "Your arm has been isolated and the attacker's leg is already over your head - what is your emergency escape protocol?",
+        "question": "Armbar from back: arm isolated and their leg is over your head — what is your escape protocol?",
         "answer": "First, maximize your elbow bend by pulling your fist toward your own chest with everything you have. Second, immediately turn your shoulders toward the trapped arm side and drive forward to stack the attacker's hips. Third, if you can create enough angle, thread your elbow toward the attacker's hip to begin extracting the arm between their legs. Fourth, if stacking fails, bridge explosively toward the trapped arm side to attempt an inversion. Throughout all of this, never let the arm straighten. If you feel the arm approaching full extension, tap immediately rather than risk injury.",
         "safety_critical": true,
         "answer_line": "Bend elbow, turn in, stack them",
@@ -670,7 +670,7 @@
         }
       },
       {
-        "question": "When defending the armbar from back, when should you tap rather than continue fighting the submission?",
+        "question": "Defending the armbar from back, when should you tap instead of fighting the submission?",
         "answer": "You should tap immediately when you feel your arm approaching full extension and you cannot maintain the bend despite maximum effort, when the attacker's hips begin to rise and you feel increasing pressure on your elbow joint, or when you are in a compromised position where continued resistance would require your arm to straighten. In training, tap early and tap often. The elbow joint has no gradual failure point - it goes from resistance to catastrophic injury very quickly. There is no shame in tapping to a well-executed armbar, but there is significant consequence in refusing to tap and suffering a preventable injury.",
         "safety_critical": true,
         "answer_line": "Tap early, before it straightens",

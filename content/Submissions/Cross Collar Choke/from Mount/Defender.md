@@ -68,7 +68,7 @@ description: "Defend the Cross Collar Choke from Mount with grip stripping, post
     },
     {
       "@type": "Question",
-      "name": "Why is extending your arms to push the opponent away a dangerous defensive response to the Cross Collar Choke?",
+      "name": "Why is pushing them away with extended arms a dangerous cross collar choke defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extended arms create immediate armbar and Americana opportunities from mount. The opponent can abandon the choke attempt and transition to a joint lock on the extended limb, which may be even harder to defend than the original choke. This compounds the danger by giving the attacker a second high-percentage submission option. Proper defense uses two-on-one grip control with elbows kept tight to the body."
@@ -84,7 +84,7 @@ description: "Defend the Cross Collar Choke from Mount with grip stripping, post
     },
     {
       "@type": "Question",
-      "name": "What are the visual and tactile recognition cues that a Cross Collar Choke is being set up from Mount?",
+      "name": "What visual and tactile cues show a cross collar choke is being set up from mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Visual cues include the opponent reaching cross-body toward your far collar, dropping chest weight forward, and threading a second hand under the first arm. Tactile cues include feeling fingers inserting inside your collar behind your neck, wrist bone pressure against the side of your neck, and increasing cross-face pressure from the forearm of the gripping arm. Recognizing these early allows defense at the grip stage rather than the finish."

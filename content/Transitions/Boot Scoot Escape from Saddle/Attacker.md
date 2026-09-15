@@ -88,7 +88,7 @@ description: "Complete guide to executing the Boot Scoot Escape from Saddle. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent follows your first hip scoot by driving their hips forward to close the distance—how do you adjust?",
+      "name": "They chase your first hip scoot out of the saddle: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Re-establish your free leg frame on their hip immediately and apply stronger push-off force on the next scoot. If they are consistently following your retreat, increase the rhythm and speed of your scoots to outpace their forward drive. You can also angle your scoots diagonally rather than straight back, which makes it harder for them to follow directly and creates lateral space that degrades the entanglement from a different angle."
@@ -104,7 +104,7 @@ description: "Complete guide to executing the Boot Scoot Escape from Saddle. Ste
     },
     {
       "@type": "Question",
-      "name": "When is the boot scoot escape most likely to succeed, and when should you choose an alternative defense?",
+      "name": "When does the boot scoot escape from saddle work, and when should you pick another defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The boot scoot works best when the opponent has established saddle position but has not yet consolidated optimal hip pressure and finishing grips—particularly before they secure the heel. If they are still settling into position or adjusting their angle, the window is open. If they have already achieved tight perpendicular alignment with heavy hip pressure and are gripping your heel, the boot scoot is unlikely to generate enough distance and counter-entangling to 50-50 or tapping may be more appropriate."

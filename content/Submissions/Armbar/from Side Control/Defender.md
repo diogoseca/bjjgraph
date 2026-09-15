@@ -58,7 +58,7 @@ description: "How to defend and escape the Armbar from Side Control in BJJ. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an armbar from side control is being attempted, and what should your immediate response be?",
+      "name": "What is the earliest cue of an armbar from side control, and what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when the attacker releases their crossface to begin controlling your near wrist or forearm, often accompanied by a weight shift toward your head. Your immediate response should be to pull your elbow tight to your ribs, denying the arm isolation. If you can prevent the arm from being separated from your body, the armbar sequence cannot proceed. This is your highest-percentage defensive window."
@@ -74,7 +74,7 @@ description: "How to defend and escape the Armbar from Side Control in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "When caught in the finished armbar position, what immediate action prevents the tap and what must follow?",
+      "name": "Caught in a finished armbar, what immediate action prevents the finish and what must follow it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clasp your hands together (gable grip, S-grip, or grabbing your own wrist) to prevent the arm from extending. This is an emergency defense that buys 3-10 seconds at most. You must immediately follow with an active escape: stack forward by driving your weight over the attacker to close the hip extension angle, or begin rotating your elbow toward the mat to extract the arm. Stalling in the clasped-hand position without working an escape will result in the grip being broken and the submission finished."
@@ -82,7 +82,7 @@ description: "How to defend and escape the Armbar from Side Control in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "What is the critical safety consideration when defending an armbar that is already being applied with pressure?",
+      "name": "What is the key safety consideration when defending an armbar already pressuring your elbow?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the attacker has already begun extending your elbow and you feel pressure on the joint, you must tap immediately rather than attempting a last-second escape. The elbow joint can be permanently damaged in less than a second once extension pressure is applied past the joint's natural limit. No positional recovery is worth risking a torn ligament or dislocated elbow. Tap early, tap often, and learn to defend the position earlier in the sequence during drilling."
@@ -90,7 +90,7 @@ description: "How to defend and escape the Armbar from Side Control in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your arm is isolated but the attacker has not yet stepped over your head - what specific actions can prevent the submission from progressing?",
+      "name": "Your arm is isolated but they haven't stepped over your head — what stops the armbar progressing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the arm isolated but the leg not yet over your head, you have multiple options: grip fight aggressively to recover your arm to your body by bending the elbow and pulling it across your chest; bridge toward the attacker to disrupt their base before they can lift their leg; begin turning your hips toward the attacker to deny the perpendicular angle; or grab the attacker's leg as it begins to lift to physically prevent the step-over. This is the golden window for defense—exploit it aggressively."

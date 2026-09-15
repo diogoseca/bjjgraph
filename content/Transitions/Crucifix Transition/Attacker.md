@@ -98,7 +98,7 @@ description: "How to execute Crucifix Transition in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent extends their arm but keeps their elbow bent at ninety degrees - can you still capture it?",
+      "name": "From standing back control, can you capture their arm if their elbow stays bent at ninety degrees?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A bent arm at ninety degrees with a tight elbow is difficult to capture for the crucifix transition. You need the arm sufficiently extended where the elbow moves away from their body. If they maintain tight elbows while grip fighting, attack the neck directly since they are not defending it, or use this positioning to break them down to grounded back control."

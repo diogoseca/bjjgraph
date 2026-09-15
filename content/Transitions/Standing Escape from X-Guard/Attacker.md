@@ -80,7 +80,7 @@ description: "Complete guide to executing the Standing Escape from X-Guard as th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the correct sequence for addressing the three X-Guard control points during the Standing Escape?",
+      "name": "What order should you address the three X-guard control points in the standing escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct sequence is: strip the ankle grip first to free the leg for eventual extraction, collapse the outside leg frame second to eliminate the distance management that protects the bottom player's elevation, then extract the inside hook last once the elevation has been smothered. Reversing this order — trying to extract the inside hook first — actually strengthens the bottom player's sweep power because the outside frame maintains the distance needed for effective elevation."
@@ -88,7 +88,7 @@ description: "Complete guide to executing the Standing Escape from X-Guard as th
     },
     {
       "@type": "Question",
-      "name": "Why should you turn your knee outward during inside hook extraction rather than pulling straight back?",
+      "name": "Escaping X-guard, why turn your knee outward instead of pulling the leg straight back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling the leg straight backward deepens the hook pocket behind the knee because posterior extension creates a tighter crease for the hook to sit in. External rotation of the hip turns the knee outward, which changes the geometry of the hook contact — the cylindrical shape of the lower leg becomes angled relative to the hook, creating a ramp that the hook slides off rather than sinking into. Combined with a circular stepping path, this rotation mechanically strips the hook without requiring grip strength."
@@ -96,7 +96,7 @@ description: "Complete guide to executing the Standing Escape from X-Guard as th
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-hooks immediately after you strip their inside hook — what adjustment should you make?",
+      "name": "They re-hook right after you strip their inside X-guard hook. What adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent re-hooks after partial extraction, you likely failed to adequately smother their elevation before attempting extraction. Return to the smothering phase by driving your weight forward and down onto their torso to eliminate their hip bridging power. Once they cannot elevate, re-attempt the extraction with emphasis on creating more distance after the hook clears — step back further and laterally to exit their hooking range completely rather than remaining close enough for them to re-enter."
@@ -112,7 +112,7 @@ description: "Complete guide to executing the Standing Escape from X-Guard as th
     },
     {
       "@type": "Question",
-      "name": "Your opponent transitions from X-Guard to Single Leg X during your escape attempt — what happened and how do you respond?",
+      "name": "They switch from X-guard to single leg X during your escape. What happened and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This transition indicates your inside hook extraction loosened the deep hook but did not fully clear it — the hook slid from behind the knee to the hip crease, which is the defining feature of Single Leg X. Respond by immediately recognizing the position change and adapting your escape: pump your trapped leg forward to break the bottom player's hip connection to your leg, then drive your knee through and past their guard structure. Do not continue the X-Guard escape sequence because the control geometry has fundamentally changed and requires SLX-specific extraction mechanics."

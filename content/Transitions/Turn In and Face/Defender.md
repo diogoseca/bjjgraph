@@ -72,7 +72,7 @@ description: "How to defend against Turn In and Face in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your bottom player has initiated the turn and is halfway through the rotation — what is your highest-percentage response?",
+      "name": "They're halfway through the turn in and face—what is your highest-percentage response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At the halfway point, preventing the rotation through pressure alone is unlikely to succeed because momentum has built. Your highest-percentage response is to release the buggy choke grips and immediately follow the rotation by inserting your near hook and establishing seat belt control for a back take. The bottom player's own turning momentum carries you into back control if you follow their hips rather than fighting the rotation. This converts their escape attempt into a worse position for them."

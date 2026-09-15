@@ -170,6 +170,8 @@ International Brazilian Jiu-Jitsu Federation competition operates under a points
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill IBJJF Strategy Guide?
@@ -302,6 +304,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -412,5 +416,7 @@ IBJJF competition preparation requires scenario-based positional sparring with s
 
 
 </section>
+
+
 
 </main>

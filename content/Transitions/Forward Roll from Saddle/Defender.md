@@ -50,7 +50,7 @@ description: "Learn to defend against the forward roll escape from saddle. Recog
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is preparing a forward roll escape from saddle?",
+      "name": "Earliest cue your opponent is preparing a forward roll escape from saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in their grip fighting behavior—they stop actively fighting your leg configuration grips and begin posting their free hand on the mat. This indicates a transition from incremental escape methodology to explosive escape. You may also feel a forward weight shift through your entanglement as they begin loading the roll. The combination of reduced grip fighting and forward weight commitment should trigger an immediate response to increase hip pressure and control the posting hand."

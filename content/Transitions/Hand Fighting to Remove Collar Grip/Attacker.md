@@ -96,7 +96,7 @@ description: "How to execute hand fighting to remove collar grip in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent has deep invisible collar and is starting to apply pressure—what is your emergency response sequence?",
+      "name": "Caught in a deep invisible collar as pressure builds. What is your emergency defense sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck chin as tight as possible to limit choking angle. Bring both hands to their choking wrist using two-on-one control. Bridge explosively toward the collar side while pulling their wrist away from your neck. Even a partial grip break significantly reduces finishing pressure. Maintain wrist control after breaking the grip to prevent re-establishment while transitioning to escape."
@@ -112,7 +112,7 @@ description: "How to execute hand fighting to remove collar grip in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent switches to rear naked choke attempt when you start fighting their collar grip—how do you manage this transition?",
+      "name": "Defending the invisible collar, they switch to an RNC attempt. How do you handle the switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep their original choking wrist trapped against your chest with continued two-on-one control. When they try to swim their arm free to switch attacks, they create a moment where neither attack is fully committed. Use this transition window to hip escape toward the side opposite their trapped arm. Their uncommitted state during the switch is your best escape opportunity."

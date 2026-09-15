@@ -56,7 +56,7 @@ description: "Learn to defend and counter ground guard pulls in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting to pull guard from a ground position?",
+      "name": "Earliest cue that your opponent is pulling guard from a seated or ground position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the establishment of a deep collar grip with visible tension loading through their arm toward your neck or upper back. This grip precedes all other guard pull mechanics and signals intent to pull. Secondary early cues include their hips shifting forward with knees opening wider than normal seated posture, and their free hand reaching for your sleeve or wrist to establish the secondary connection. Reacting at the collar grip stage gives you maximum time to implement defensive responses before the explosive pull phase begins."
@@ -64,7 +64,7 @@ description: "Learn to defend and counter ground guard pulls in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established strong collar grip and is loading their hips for the pull - what is the highest-priority defensive action?",
+      "name": "They have a strong collar grip and are loading their hips to pull. Top defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest priority is simultaneously breaking the collar grip and sprawling your hips back in one coordinated motion. Use a two-on-one grip break where both hands strip their collar grip while your hips drive backward to create distance. If you cannot break the grip immediately, the sprawl alone buys time by moving your hips beyond their leg wrapping range. Do not attempt to pass or advance while they have loaded pulling tension, as forward movement will accelerate the guard pull rather than counter it."
@@ -72,7 +72,7 @@ description: "Learn to defend and counter ground guard pulls in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "What base adjustment prevents being pulled into closed guard when opponent initiates from seated position?",
+      "name": "Which base adjustment keeps you from being pulled into closed guard by a seated opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lower your center of gravity by bending your knees deeper and widening your stance beyond shoulder width. Shift your weight distribution toward your heels rather than your toes, which counters forward pulling force. Keep your hips back with a slight posterior tilt that makes it structurally difficult to be pulled forward. Position your feet in a staggered stance with one foot slightly behind to provide braking force against the pull. This athletic base allows you to absorb pulling pressure through your legs and core rather than being pulled off-balance."
@@ -80,7 +80,7 @@ description: "Learn to defend and counter ground guard pulls in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully gets their legs around your waist but has not locked ankles yet - what is the optimal defensive window?",
+      "name": "Their legs are around your waist but ankles aren't locked. What is your defensive window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your critical two-to-three second window before guard consolidation. Immediately drive both hands to their hips and push your body upright while arching your back to create maximum distance between your torso and theirs. Simultaneously work one hand under their top leg and push the knee toward the mat to prevent ankle lock. If you can posture up and push one leg down before they cross ankles, you convert a potential closed guard into an open guard where you have passing options. Speed is essential as this window closes once ankles lock."
@@ -88,7 +88,7 @@ description: "Learn to defend and counter ground guard pulls in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How does your hand positioning change when you recognize a ground guard pull versus a standard standing guard pull?",
+      "name": "How should your hand placement differ against a ground guard pull versus a standing one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a ground guard pull, your hands should prioritize hip-level frames rather than the chest-level posture control used against standing pulls. Place both hands on opponent's hips or inner thighs to create a structural barrier at the exact level where their legs will attempt to wrap. This frame placement intercepts the leg wrap at its origin point rather than fighting it after legs are already around your body. Against standing pulls, hands typically control posture at collar and elbow level since the threat comes from being pulled downward. The different threat vectors require different frame heights and angles."

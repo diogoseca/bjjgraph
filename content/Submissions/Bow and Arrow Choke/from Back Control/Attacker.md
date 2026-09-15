@@ -76,7 +76,7 @@ description: "Learn to attack the Bow and Arrow Choke from back control. Step-by
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Bow and Arrow Choke primarily target, and how does the collar create compression?",
+      "name": "What does the Bow and Arrow Choke target, and how does the collar create compression?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Bow and Arrow Choke targets both carotid arteries on the sides of the neck. The gi collar material wraps across the front of the neck with the reinforced seam and wrist blade pressing into one carotid while the collar fabric compresses the other. The two-directional pull between the collar hand and the leg grip tightens this loop progressively, creating bilateral blood flow restriction that leads to unconsciousness within seconds of full application."
@@ -84,7 +84,7 @@ description: "Learn to attack the Bow and Arrow Choke from back control. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent is defending the collar grip with both hands on your wrist. What adjustment creates a submission opportunity?",
+      "name": "From back control, they fight your collar grip with both hands — what attack opens up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent commits both hands to fighting the collar grip, their neck is completely undefended against the rear naked choke. Transition immediately to an RNC attempt by releasing or maintaining the collar while your free arm snakes under the chin. The opponent cannot simultaneously fight the collar and defend the RNC, creating a fundamental dilemma. If they release the collar to defend the RNC, re-establish the collar grip deeper."
@@ -108,7 +108,7 @@ description: "Learn to attack the Bow and Arrow Choke from back control. Step-by
     },
     {
       "@type": "Question",
-      "name": "What are the immediate steps you must take when your training partner goes unconscious from this choke?",
+      "name": "What are the immediate steps when your partner goes unconscious from the bow and arrow?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately release all grips and pressure the moment you detect unconsciousness, which presents as sudden loss of muscle tension, arms dropping, or no response to verbal cues. Place the partner on their back, elevate their legs above heart level to restore blood flow to the brain, and monitor for breathing. Most people regain consciousness within 10-20 seconds. Do not shake them or apply stimulation. If they do not regain consciousness within 20 seconds, call for medical assistance immediately. Stay with them until they are fully alert and oriented."
@@ -116,7 +116,7 @@ description: "Learn to attack the Bow and Arrow Choke from back control. Step-by
     },
     {
       "@type": "Question",
-      "name": "During the transition from seatbelt to collar grip, your opponent begins turning to face you. What is the correct response?",
+      "name": "They start turning toward you during the seatbelt-to-collar transition — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you have already established the collar grip, maintain it and use your remaining hook to slow their rotation. Pull the collar tight to prevent them from completing the turn, as the collar itself becomes a rotation check. If the collar is not yet secured, abandon the bow and arrow attempt and re-establish the seatbelt to maintain back control, as losing the back is a far worse outcome than missing one submission attempt. Position retention always takes priority over submission attempts."

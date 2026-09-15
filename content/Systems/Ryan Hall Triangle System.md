@@ -188,6 +188,8 @@ The system integrates seamlessly with modern guard play, particularly from close
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill Ryan Hall Triangle System?
@@ -326,6 +328,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -451,5 +455,7 @@ Hall's triangle system requires systematic drilling progressions that build from
 
 
 </section>
+
+
 
 </main>

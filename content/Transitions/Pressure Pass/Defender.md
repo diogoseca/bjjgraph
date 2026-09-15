@@ -72,7 +72,7 @@ description: "How to defend against Pressure Pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established crossface and is clearing your near leg - what is your best option at this stage?",
+      "name": "They have the crossface and are clearing your near leg. What is your best option now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is to immediately get your hand inside the crossface to create a frame against their neck, then execute a strong hip escape away from the passing direction while simultaneously working to reinsert your near knee as a shield. If the leg is already cleared, you must bridge into the passer to disrupt their balance, then hip escape in the opposite direction to recover at least half guard. The priority is preventing full side control consolidation rather than returning to open guard."

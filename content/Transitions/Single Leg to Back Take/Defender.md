@@ -64,7 +64,7 @@ description: "How to defend against Single Leg to Back Take in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why is continuing to turn away from the single leg the worst defensive response when the attacker begins climbing?",
+      "name": "Why is continuing to turn away the worst answer once they climb to your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Continuing to turn away accelerates the attacker's transition by giving them the exact angle and momentum they need to reach your back. Each degree of additional rotation puts them closer to full back control. The turn was an appropriate defense against the takedown, but the moment the attack shifts from takedown to back take, you must reverse your rotation and square back up. Recognizing this shift is the critical defensive skill."

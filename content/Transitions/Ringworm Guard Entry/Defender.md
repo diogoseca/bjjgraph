@@ -94,7 +94,7 @@ description: "How to defend against Ringworm Guard Entry in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the ringworm configuration with both leg and arm trapped—what is your best escape strategy?",
+      "name": "In the ringworm configuration your leg and arm are both trapped: what is your best escape plan?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Identify which control point is weaker and address it first. Typically the arm wrap is newer and less consolidated than the leg entanglement. Work to strip the arm portion using both hands while maintaining heavy hip pressure to prevent sweep loading. If the arm wrap is too deep, backstep around the leg entanglement while keeping shoulders square to prevent back exposure. Accept half guard as a favorable outcome rather than fighting for full reset."
@@ -102,7 +102,7 @@ description: "How to defend against Ringworm Guard Entry in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How does your weight distribution need to change when defending against ringworm entry compared to standard worm guard?",
+      "name": "How should your weight differ when defending ringworm entry versus standard worm guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against standard worm guard, you can distribute weight forward to pressure and work extraction. Against developing ringworm, you must keep weight slightly back and centered to avoid committing forward momentum that feeds into sweep mechanics. Keep your center of gravity over your free leg rather than the trapped leg, and avoid leaning into the arm capture side where your weight aids the bottom player's configuration."

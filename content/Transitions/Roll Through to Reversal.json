@@ -321,7 +321,7 @@
         }
       },
       {
-        "question": "If opponent maintains a tight guillotine grip as you initiate the roll, should you continue or abort?",
+        "question": "Rolling from front headlock bottom against a tight guillotine grip: continue the roll or abort?",
         "answer": "Continue the roll while maintaining your chin tuck and arm control. The rolling motion itself actually helps break the guillotine angle by changing the pressure vectors and disrupting their grip mechanics as your body rotates through. Aborting mid-roll with a guillotine grip often leaves you in a worse position—stuck halfway with the choke still engaged. The key is ensuring your chin stays tucked and you complete the roll quickly. Hesitation with an active guillotine is more dangerous than committed completion.",
         "answer_line": "Continue, chin tucked",
         "distractors": {
@@ -335,7 +335,7 @@
         }
       },
       {
-        "question": "How does the roll through create tactical advantages for your other front headlock escapes even when you don't use it?",
+        "question": "How does threatening the roll through help your other front headlock escapes even unused?",
         "answer": "The threat of the roll through forces opponents to moderate their forward pressure, because committing too much weight forward makes them vulnerable to being rolled. This reduced forward pressure creates more space and lighter control, which directly benefits your other escapes—technical standups become easier with less weight on you, circling away requires less force, and arm drag escapes have more room to operate. Even an unsuccessful roll attempt that you abort cleanly shifts your opponent's weight backward, creating an immediate window for standup.",
         "answer_line": "Forces lighter, cautious pressure",
         "distractors": {
@@ -363,7 +363,7 @@
         }
       },
       {
-        "question": "During training, your roll attempts keep stalling mid-rotation—what is the most likely mechanical error?",
+        "question": "Your roll through from front headlock bottom stalls midway — what's the likely mechanical error?",
         "answer": "The most likely cause is insufficient compactness during the roll—your body is too extended rather than forming a tight ball. When your hips are not tucked under and your torso is not curled, the rotation axis becomes unstable and friction increases. The correction is to focus on bringing your hips directly under your shoulders before initiating, tucking your chin tighter, and driving more explosively off your toes. A secondary cause could be releasing arm control of the choking arm, which allows the opponent to post and physically block the rotation.",
         "answer_line": "Body too extended, not compact",
         "distractors": {
@@ -501,7 +501,7 @@
         }
       },
       {
-        "question": "You feel your opponent grip your choking arm tightly and begin to compact their body—what is your immediate response?",
+        "question": "On top of a front headlock, they grip your choking arm and compact — what's your immediate response?",
         "answer": "Sprawl your hips back immediately while increasing downward chest pressure to flatten them. The arm grip and body compaction are the two primary pre-roll cues that indicate the roll attempt is imminent. Your sprawl must be reactive and automatic—waiting even one second after these cues appear may be too late. Simultaneously, widen your base by stepping your posting foot out to create a physical barrier against the roll direction. This two-part response of sprawling back and widening base defeats most roll attempts.",
         "answer_line": "Sprawl hips, widen base",
         "distractors": {
@@ -515,7 +515,7 @@
         }
       },
       {
-        "question": "The opponent's roll has already initiated and you cannot stop it—what is the best defensive strategy?",
+        "question": "Their roll through from front headlock bottom has started and you can't stop it — what do you do?",
         "answer": "Follow the roll direction and work to take the back rather than fighting the momentum. As the opponent rotates through, circle with their motion and look to insert hooks and establish back control. This converts their escape attempt into an even worse position for them. Fighting against an initiated roll with arm strength typically fails and results in a clean reversal to front headlock bottom. The ability to transition from counter-roll defense to back take requires practice but yields the best outcome from a bad situation.",
         "answer_line": "Follow roll, take the back",
         "distractors": {
@@ -529,7 +529,7 @@
         }
       },
       {
-        "question": "How does your front headlock attacking style need to change against opponents who threaten the roll through?",
+        "question": "How must your front headlock attacking style change against opponents threatening the roll through?",
         "answer": "You must shift from aggressive forward-driving pressure to controlled downward pressure with better base management. Keep your hips slightly further back than normal, maintain a wider stance, and use sprawl-like positioning even while attacking. Your submissions should come from grip manipulation and angle changes rather than driving your weight forward over the opponent. This more disciplined approach sacrifices some immediate submission pressure but eliminates the roll through vulnerability while still maintaining dominant control.",
         "answer_line": "Downward pressure, wider base",
         "distractors": {

@@ -64,7 +64,7 @@ description: "Defend against the Backside 50-50 Entry from Inside Ashi Garami. R
     },
     {
       "@type": "Question",
-      "name": "Why is leg extraction during the entry attempt more effective than after the attacker completes the transition?",
+      "name": "Why is extracting your leg during the Backside 50-50 entry easier than after it completes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the entry, the attacker's control is reduced from three points (inside leg, outside leg hook, heel grip) to two points (outside leg hook, heel grip) because they must remove their inside leg to begin rotation. This creates the narrowest but most effective defensive window. After the transition completes, the attacker has re-established three points of control in the mirrored 50-50 configuration plus chest-to-back pressure, making extraction significantly more difficult."
@@ -72,7 +72,7 @@ description: "Defend against the Backside 50-50 Entry from Inside Ashi Garami. R
     },
     {
       "@type": "Question",
-      "name": "Your heel is currently well-defended and the attacker initiates the entry - should you maintain heel defense or switch to anti-rotation defense?",
+      "name": "As the Backside 50-50 entry starts, do you keep defending the heel or switch to anti-rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch immediately to anti-rotation defense. Your heel defense was solving the right problem from inside ashi, but the attacker is now bypassing it entirely by changing positions. Maintaining heel defense while they rotate behind you means you will have a well-defended heel from a much worse position. Redirect your defensive energy to turning to face them, blocking their rotation path, or extracting your leg. The positional threat of Backside 50-50 outweighs the submission threat from inside ashi."

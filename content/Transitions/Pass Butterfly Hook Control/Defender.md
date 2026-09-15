@@ -80,7 +80,7 @@ description: "Complete guide to defending against butterfly hook control passes 
     },
     {
       "@type": "Question",
-      "name": "What determines whether you should attempt a sweep or transition to alternative guard when the pass begins?",
+      "name": "What decides whether you sweep or switch guards when the butterfly pass starts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The timing of your recognition determines your options. If you recognize the pass within the first one to two seconds of initiation while both hooks are still active, you have time for a sweep attempt. If one hook is already partially compromised, sweeping becomes risky and transitioning to half guard or knee shield is safer. The quality of your remaining grips also factors in—strong grips with both hooks favor sweep attempts while compromised grips favor immediate guard transitions."
@@ -88,7 +88,7 @@ description: "Complete guide to defending against butterfly hook control passes 
     },
     {
       "@type": "Question",
-      "name": "Your opponent stands up during their pass attempt, removing your hook elevation angle—what do you do?",
+      "name": "They stand mid-pass, killing your butterfly elevation angle: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition from butterfly hooks to X-guard or single leg X-guard by extending one hook underneath their standing leg while gripping their far ankle. Standing removes the butterfly hook elevation angle but creates the distance and leg positioning needed for X-guard entries. The transition must be immediate—if you remain seated with shallow hooks against a standing opponent, they will simply step around your guard. Use your grips to control their posture while you reconfigure your legs."

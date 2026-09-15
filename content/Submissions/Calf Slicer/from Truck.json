@@ -340,7 +340,7 @@
         "answer_line": "Compresses muscle, not just joint"
       },
       {
-        "question": "What are the three primary injury risks from improperly applied calf slicers and why is progressive application critical?",
+        "question": "What are the three main calf slicer injury risks, and why is progressive application critical?",
         "answer": "The three primary risks are calf muscle tear, posterior knee ligament (PCL) damage, and compartment syndrome from extreme compression. Specifically: (1) tear or rupture of the gastrocnemius/soleus from excessive compression force, (2) posterior knee ligament damage, particularly to the PCL, from hyperflexion under load, and (3) compartment syndrome from extreme muscle compression causing swelling within the fascial compartment. Progressive application over 5-7 seconds is critical because muscle and nerve tissue need time to signal distress to the brain; sudden, explosive application can cause tissue damage before pain signals register, meaning the opponent taps after injury has already occurred rather than before. Slow application allows the pain response to build proportionally with the mechanical stress, ensuring the tap occurs before the tissue failure threshold is reached.",
         "safety_critical": true,
         "distractors": {
@@ -355,7 +355,7 @@
         "answer_line": "Tear, PCL, compartment syndrome"
       },
       {
-        "question": "How does the truck position's hip twist contribute to the effectiveness of the calf slicer submission?",
+        "question": "How does the truck position's hip twist make the calf slicer effective?",
         "answer": "The truck's hip twist stops the opponent extending their hips or rotating the knee outward, locking the leg at the ideal compression angle. With their hips twisted, back facing you, and legs trapped, they cannot generate the hip extension power needed to straighten the leg and relieve the compression, and they cannot rotate the knee outward — a primary defensive mechanism against calf compression. The twisted position also breaks their base: they can't post hands effectively to create space or generate escape momentum. The position locks the leg in the optimal angle for compression while removing their ability to use strength or flexibility to defend, which is why establishing full truck control before attempting the submission is non-negotiable.",
         "safety_critical": false,
         "distractors": {
@@ -370,7 +370,7 @@
         "answer_line": "Blocks hip extension, knee turn"
       },
       {
-        "question": "Why should you transition rather than increase pressure if a properly applied calf slicer doesn't produce a tap within 7-8 seconds?",
+        "question": "Why transition instead of adding pressure if a correct calf slicer gets no tap in 7-8 seconds?",
         "answer": "If a correct calf slicer gets no tap within 7-8 seconds, adding pressure only raises injury risk, so transition to another attack instead. No tap by then indicates one of three situations: (1) the opponent has exceptional pain tolerance and will not tap until injury occurs, (2) their anatomical structure or conditioning makes them resistant to this compression angle, or (3) subtle positional details are preventing full compression despite feeling correct. In all three cases, increasing pressure raises injury risk without increasing submission probability. Transitioning to alternative attacks (Twister, Banana Split, back control) maintains offensive momentum while respecting safety boundaries. This matters especially with compression submissions because tissue damage can occur even when pain signals are suppressed by adrenaline or pain tolerance — the 7-8 second rule ensures you're using technique and position rather than forcing injury.",
         "safety_critical": true,
         "distractors": {
@@ -400,7 +400,7 @@
         }
       },
       {
-        "question": "How do you transition from a defended calf slicer to the Twister, and why is this combination particularly effective?",
+        "question": "How do you go from a defended calf slicer to the Twister, and why is that combination effective?",
         "answer": "When they straighten the leg to defend, release the calf compression and rotate your hips higher up their back into Twister control. As the leg straightens, slide your bottom hook higher toward their hip and rotate your chest toward their head, then reach over and control their far-side head/neck with a deep grip, pulling it toward you while your top leg maintains hip control — classic Twister control position. The combination is particularly effective because: (1) their leg-straightening defense actually helps you advance position by removing the leg obstacle between you and their head, (2) they spend energy and focus defending the lower body, leaving the upper body vulnerable, (3) the transition happens in their defensive moment, when they feel they're escaping and aren't mentally prepared for a new attack, and (4) both submissions emerge from truck position, creating a legitimate dilemma where defending one opens the other.",
         "safety_critical": false,
         "distractors": {
@@ -415,7 +415,7 @@
         "answer_line": "Rotate hips higher into Twister"
       },
       {
-        "question": "Your opponent begins straightening their leg during the calf slicer attempt - what specific indicators tell you when to abandon the finish versus when to maintain pressure?",
+        "question": "Truck calf slicer: as they straighten the leg, which cues say abandon versus keep pressure?",
         "answer": "Shin position is the critical indicator: if your shin slides off the calf muscle belly, abandon the finish and transition immediately. Abandon when their leg is gaining extension rapidly despite your hip pressure, you feel your shin sliding off the calf muscle belly toward the achilles, or maintaining the position requires sacrificing upper body control. Continue with pressure when their leg extension is slow and labored (indicating fatigue), your shin remains positioned across the calf muscle belly, and you can increase hip drive to counter their extension. If the shin is sliding off target, the submission is lost regardless of how much force you apply — the moment you recognize it moving off the muscle belly, transition to Twister or Banana Split rather than chasing a mechanically compromised finish.",
         "safety_critical": false,
         "distractors": {
@@ -430,7 +430,7 @@
         "answer_line": "Shin slips off calf, bail out"
       },
       {
-        "question": "What are the key differences between finishing the calf slicer in training versus competition, and why must training application always remain slower?",
+        "question": "Why must calf slicer application always stay slower in training than in competition?",
         "answer": "Training application must always keep the 5-7 second progressive window; only actual competition justifies full-speed application. In competition, the calf slicer can be applied at full speed once the position is secured, with the understanding that the opponent accepts competition-level risk. The difference exists because: (1) training partners didn't sign up for competition-level injury risk during regular practice, (2) repeated high-speed applications create cumulative muscle damage even without acute injury, (3) a reputation as a safe training partner is essential for long-term development, and (4) learning precise mechanics requires slow application anyway. Even in competition-simulation rounds, maintain training speed — training should always prioritize partner safety over submission completion rates.",
         "safety_critical": true,
         "distractors": {
@@ -445,7 +445,7 @@
         "answer_line": "Training keeps the 5-7s ramp"
       },
       {
-        "question": "How do you recognize compartment syndrome symptoms during or after applying a calf slicer, and what is the correct response?",
+        "question": "How do you recognize compartment syndrome after a calf slicer, and what is the correct response?",
         "answer": "Warning signs include pain disproportionate to injury, numbness or tingling in the foot, extreme calf tightness, and pale or bluish skin. Additional symptoms are pain that worsens with passive toe extension and tightness that doesn't resolve. If any of these appear during training, immediately stop all activity, do not massage or compress the area, keep the leg elevated at heart level, and seek emergency medical attention. Compartment syndrome is a medical emergency that can cause permanent muscle damage or limb loss if not treated within hours, which is why the release protocol emphasizes monitoring for these symptoms and allowing 30+ seconds for assessment before continuing. If a training partner reports unusual symptoms after a calf slicer attempt, treat it seriously regardless of how light you thought the application was.",
         "safety_critical": true,
         "distractors": {
@@ -460,7 +460,7 @@
         "answer_line": "Stop, leg at heart level, ER"
       },
       {
-        "question": "What specific body positioning allows you to maintain truck control while applying the calf slicer without losing upper body pressure?",
+        "question": "How do you keep truck control and upper body pressure while applying the calf slicer?",
         "answer": "The key is keeping your chest connected to their upper back while rotating your hips toward their legs for the submission. Your inside arm (the one closest to their head) maintains the harness grip or posts near their shoulder to prevent them rolling toward you. Your outside arm controls the heel for compression. Your top leg drives over their hip continuously, acting as an anchor that connects upper and lower body control. The common mistake is fully rotating toward their legs, which removes chest pressure and allows escape. Instead, think of your body as a diagonal across theirs - chest on upper back, hips rotated toward legs, with your top leg as the bridge maintaining connection between the two control points.",
         "safety_critical": false,
         "answer_line": "Chest glued to their upper back",
@@ -475,7 +475,7 @@
         }
       },
       {
-        "question": "When your opponent posts their hand to create space under their hips, what is the immediate priority and why?",
+        "question": "In truck, they post a hand for space under their hips—what is your immediate priority and why?",
         "answer": "The immediate priority is increasing chest pressure on their upper back to flatten them, not fighting the posted hand directly. When they post, they're creating space to potentially straighten their leg or roll - addressing the cause (space) is more effective than fighting the symptom (the post). Drop your weight lower on their back, potentially switching from harness to crossface control if needed. Once they're flattened again, their post becomes ineffective. Fighting the posted hand directly often leads to a grip battle that takes your attention away from the submission and allows them to continue creating space. By addressing the upper body control problem first, you remove the structural support their post relies on.",
         "safety_critical": false,
         "answer_line": "Flatten them with chest pressure",
@@ -490,7 +490,7 @@
         }
       },
       {
-        "question": "What anatomical structures does the calf slicer actually compress, and how does this create the submission?",
+        "question": "What does the calf slicer actually compress, and how does that produce the tap?",
         "answer": "The slicer squeezes the gastrocnemius and soleus between your shin and the opponent's own hamstring and femur, while hyperflexing the knee. As you pull their heel toward their hamstring while wedging your shin across the calf belly, the muscle is compressed between these hard surfaces — your shin bone anteriorly and their hamstring/femur posteriorly. The knee joint simultaneously experiences hyperflexion stress on the posterior cruciate ligament and posterior joint capsule. The submission works through dual mechanisms: intense muscle compression pain creating immediate tap urgency, plus joint stress adding urgency as the knee approaches its flexion limit. The gastrocnemius is particularly vulnerable because it crosses both the knee and ankle joints, so compression at the calf affects the entire muscle's tension system.",
         "safety_critical": false,
         "distractors": {
@@ -618,7 +618,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first physical sensation that tells you a calf slicer is being set up from truck, and what should your immediate response be?",
+        "question": "What is the first sensation that a calf slicer is coming from truck, and how do you respond?",
         "answer": "The first sensation is the attacker's shin bone sliding or being positioned behind your calf muscle, creating a bone-on-muscle contact that feels distinctly different from the normal truck leg entanglement. You may also feel them releasing their upper body grip to reach for your heel. Your immediate response should be to begin extending your trapped leg before they establish the heel grip and compression angle. Every second of delay makes defense exponentially harder because once the attacker controls your heel and drives compression, the submission is nearly locked. Early recognition and immediate leg extension is the single most important defensive skill for this submission.",
         "safety_critical": false,
         "answer_line": "Feel shin on calf, extend leg",
@@ -648,7 +648,7 @@
         }
       },
       {
-        "question": "When should you tap to a calf slicer rather than continue defending, and why is early tapping especially important for compression submissions?",
+        "question": "When should you tap to a calf slicer instead of defending, and why tap early on compressions?",
         "answer": "Tap immediately when: you feel sharp knee pain (indicating ligament stress rather than muscle compression), when your heel is fully pinned to your hamstring with the shin wedge deep and you cannot initiate any leg extension, or when you feel numbness or unusual tightness in the calf that suggests vascular compromise. Early tapping is especially important for compression submissions because tissue damage can occur before pain becomes unbearable. Unlike chokes where you lose consciousness as a natural failsafe, or joint locks where pain escalates clearly before the break, calf slicers can tear muscle fibers at compression levels that some practitioners can tolerate through pain. Compartment syndrome can also develop from sustained compression without obvious external trauma. The cost of tapping early is a positional reset; the cost of tapping late can be weeks or months of rehabilitation.",
         "safety_critical": true,
         "answer_line": "Tap at sharp knee pain, numbness",
@@ -663,7 +663,7 @@
         }
       },
       {
-        "question": "How does clearing the attacker's boot (foot on your hip) affect your ability to escape the calf slicer?",
+        "question": "How does clearing the attacker's boot off your hip help you escape the truck calf slicer?",
         "answer": "The boot is the engine of the entire truck position. It creates the lateral torque that twists your hips, breaks your base, and prevents you from generating the hip extension power needed to straighten your leg. When you clear the boot, several things happen simultaneously: the hip twist reduces, allowing you to square your hips; your base improves because you can now post more effectively; and critically, your ability to straighten your trapped leg dramatically increases because the rotational restriction on your hips is removed. Clearing the boot doesn't directly stop the calf compression, but it removes the positional foundation that makes the compression mechanically viable. Without boot pressure, the attacker must choose between maintaining the calf slicer with reduced control or abandoning it to re-establish truck position.",
         "safety_critical": false,
         "answer_line": "Kills hip twist, restores base",
@@ -678,7 +678,7 @@
         }
       },
       {
-        "question": "Your opponent has the calf slicer partially set but hasn't achieved full compression yet - what specific sequence of defensive actions gives you the best chance of escape?",
+        "question": "Calf slicer partly set from truck: what defensive sequence gives the best chance of escape?",
         "answer": "The optimal defensive sequence is: (1) Immediately begin extending your trapped leg with controlled force to prevent full compression from being established, (2) Simultaneously tuck your chin and protect your far arm against your body to prevent the Twister transition that leg extension enables, (3) Use your free hand to fight the attacker's heel grip - if you can strip their grip on your heel, the compression mechanism is broken even if the shin wedge remains, (4) Work to clear the boot pressure on your hip with whatever hand becomes available, (5) Once boot is cleared and leg is extended, use the improved hip mobility to rotate back to neutral alignment, and (6) Extract your leg from the remaining entanglement and recover to half guard or turtle. This sequence addresses threats in order of urgency: immediate submission, secondary submission transition, positional control, and finally position recovery.",
         "safety_critical": false,
         "answer_line": "Extend, guard neck, strip grip",

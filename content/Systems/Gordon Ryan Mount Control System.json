@@ -1,0 +1,250 @@
+{
+  "name": "Gordon Ryan Mount Control System",
+  "description": "Explore Gordon Ryan Mount Control System with a matched BJJ Fanatics course, practical study steps, partner drills, and connected technique references.",
+  "summary": "The Gordon Ryan Mount Control System is a study framework for maintaining mount through escape reactions before isolating an arm for a submission.",
+  "tags": [
+    "bjj",
+    "system",
+    "no-gi"
+  ],
+  "system_type": "Control System",
+  "difficulty_level": "Intermediate",
+  "overview": "Reaching mount and keeping mount are different training problems. This guide gives the second problem its own practice structure before adding attacks. Gordon Ryan's mount course provides the technical companion: its syllabus links entries, maintenance, arm isolation and high-mount developments, with rolling analysis for comparison. Use the footage to form questions about your own exchanges; a successful demonstration does not establish that the same control is already reliable in your rounds.\n\nThe sequence and drills below are original BJJGraph study suggestions, not a course transcript or an official instructor curriculum. Use the linked demonstrations for technical detail, then compare one selected lesson with a controlled partner round.",
+  "key_principles": [
+    "Begin from a familiar side pin and identify the contact that should survive the transition to mount.",
+    "Give the bottom partner a bridge or knee-elbow recovery objective and study what changes before the escape succeeds.",
+    "Explore the cross-wrist or underhook route while measuring whether your base remains stable.",
+    "Compare staying low with advancing toward high mount or S mount when the arms and hips allow it.",
+    "Add one agreed submission entry and record whether the positional control survives the attempt."
+  ],
+  "key_components": [
+    {
+      "component_name": "Rehearse the arrival",
+      "description": "Begin from a familiar side pin and identify the contact that should survive the transition to mount.",
+      "purpose": "Give the rehearse the arrival stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Test one escape direction",
+      "description": "Give the bottom partner a bridge or knee-elbow recovery objective and study what changes before the escape succeeds.",
+      "purpose": "Give the test one escape direction stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Isolate without rushing",
+      "description": "Explore the cross-wrist or underhook route while measuring whether your base remains stable.",
+      "purpose": "Give the isolate without rushing stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Change the mount height",
+      "description": "Compare staying low with advancing toward high mount or S mount when the arms and hips allow it.",
+      "purpose": "Give the change the mount height stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Connect an attack and review",
+      "description": "Add one agreed submission entry and record whether the positional control survives the attempt.",
+      "purpose": "Give the connect an attack and review stage a concrete objective before connecting it to the next exchange."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Rehearse the arrival",
+      "description": "Begin from a familiar side pin and identify the contact that should survive the transition to mount."
+    },
+    {
+      "step_number": 2,
+      "phase": "Test one escape direction",
+      "description": "Give the bottom partner a bridge or knee-elbow recovery objective and study what changes before the escape succeeds."
+    },
+    {
+      "step_number": 3,
+      "phase": "Isolate without rushing",
+      "description": "Explore the cross-wrist or underhook route while measuring whether your base remains stable."
+    },
+    {
+      "step_number": 4,
+      "phase": "Change the mount height",
+      "description": "Compare staying low with advancing toward high mount or S mount when the arms and hips allow it."
+    },
+    {
+      "step_number": 5,
+      "phase": "Connect an attack and review",
+      "description": "Add one agreed submission entry and record whether the positional control survives the attempt."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "Counting arrival as sustained control",
+      "solution": "Continue the round through the first agreed escape attempt."
+    },
+    {
+      "obstacle": "Advancing higher despite unstable base",
+      "solution": "Re-establish balance before trying to improve the attacking position."
+    },
+    {
+      "obstacle": "Chasing an arm while a knee enters",
+      "solution": "Review which control was released before the recovery began."
+    },
+    {
+      "obstacle": "Copying a rolling sequence without its trigger",
+      "solution": "Pause at the partner reaction and identify why the transition became available."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Starting-position recognition",
+      "description": "Check whether the practitioner can describe the relevant control from Mount.",
+      "proficiency_indicators": [
+        "Names the starting position",
+        "Identifies the first useful contact",
+        "Explains why the chosen lesson fits this exchange"
+      ]
+    },
+    {
+      "metric_name": "Reaction recognition",
+      "description": "Assess the decision when the partner stops the first option.",
+      "proficiency_indicators": [
+        "Names the defensive response",
+        "Pauses at the point the original option is lost",
+        "Chooses a supported continuation or reset"
+      ]
+    },
+    {
+      "metric_name": "Endpoint quality",
+      "description": "Review the position reached after the selected movement.",
+      "proficiency_indicators": [
+        "Can name the intended endpoint",
+        "Checks the partner still has an escape response",
+        "Separates a transient opening from sustained control"
+      ]
+    },
+    {
+      "metric_name": "Practice transfer",
+      "description": "Compare the same task as agreed resistance and partner reactions change.",
+      "proficiency_indicators": [
+        "Repeats the starting conditions",
+        "Records the first point of failure",
+        "Chooses one specific adjustment for the next round"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice suggestion: start from Mount and give the partner one agreed response. Work through the first two stages cooperatively, then stop each repetition at the chosen control or recovery endpoint. Add another reaction only when both partners can explain what changed. Keep submission entries controlled and release immediately on a tap or request to stop. Review the lost connection before adding speed.",
+    "progression_path": [
+      {
+        "stage": "Recognise",
+        "focus": "Begin from a familiar side pin and identify the contact that should survive the transition to mount."
+      },
+      {
+        "stage": "Rehearse",
+        "focus": "Give the bottom partner a bridge or knee-elbow recovery objective and study what changes before the escape succeeds."
+      },
+      {
+        "stage": "Respond",
+        "focus": "Explore the cross-wrist or underhook route while measuring whether your base remains stable."
+      },
+      {
+        "stage": "Connect",
+        "focus": "Add one agreed submission entry and record whether the positional control survives the attempt."
+      }
+    ],
+    "common_mistakes": [
+      "Counting arrival as sustained control",
+      "Advancing higher despite unstable base",
+      "Chasing an arm while a knee enters",
+      "Copying a rolling sequence without its trigger"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Primary top pin for studying maintenance and the cost of advancing an attack."
+    },
+    {
+      "name": "High Mount",
+      "content_type": "Position",
+      "relationship": "Advanced mount height to investigate once arm position and base permit the transition."
+    },
+    {
+      "name": "S Mount",
+      "content_type": "Position",
+      "relationship": "Angled mount configuration used when studying supported upper-body attack entries."
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Side-pin reference for identifying pressure, inside frames and positional recovery."
+    },
+    {
+      "name": "Mounted Triangle",
+      "content_type": "Position",
+      "relationship": "Submission-control position reached after sufficient arm isolation from mount."
+    },
+    {
+      "name": "Arm Triangle",
+      "content_type": "Submission",
+      "relationship": "Head-and-arm attack family connected to mount control and arm isolation."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Balance reference for changing posts or limb controls without giving away the position."
+    },
+    {
+      "name": "Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "Principle for testing whether the pin survives a grip change or attack."
+    },
+    {
+      "name": "Positional Sparring",
+      "content_type": "Principle",
+      "relationship": "Practice structure for repeating a specified position, partner response, and endpoint."
+    },
+    {
+      "name": "Position-Over-Submission Approach",
+      "content_type": "Principle",
+      "relationship": "Decision rule for retaining or recovering control before chasing an unsupported finish."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "In Gordon Ryan Mount Control System, what should the rehearse the arrival stage investigate?",
+      "answer": "Begin from a familiar side pin and identify the contact that should survive the transition to mount."
+    },
+    {
+      "question": "In Gordon Ryan Mount Control System, what should the test one escape direction stage investigate?",
+      "answer": "Give the bottom partner a bridge or knee-elbow recovery objective and study what changes before the escape succeeds."
+    },
+    {
+      "question": "In Gordon Ryan Mount Control System, what should the isolate without rushing stage investigate?",
+      "answer": "Explore the cross-wrist or underhook route while measuring whether your base remains stable."
+    },
+    {
+      "question": "In Gordon Ryan Mount Control System, what should the change the mount height stage investigate?",
+      "answer": "Compare staying low with advancing toward high mount or S mount when the arms and hips allow it."
+    },
+    {
+      "question": "In Gordon Ryan Mount Control System, what should the connect an attack and review stage investigate?",
+      "answer": "Add one agreed submission entry and record whether the positional control survives the attempt."
+    },
+    {
+      "question": "How should you respond to this practice problem: counting arrival as sustained control?",
+      "answer": "Continue the round through the first agreed escape attempt."
+    }
+  ],
+  "products": [
+    {
+      "id": "systematically-attacking-from-top-pins-mount-by-gordon-ryan",
+      "title": "Systematically Attacking From Top Pins: Mount",
+      "instructor": "Gordon Ryan",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/systematically-attacking-from-top-pins-mount-by-gordon-ryan?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A directly matched instructional companion for maintaining mount through escape reactions before isolating an arm for a submission. Review its published contents and sample to judge the teaching approach.",
+      "best_for": "No-gi top players who reach mount but lose it during bridges, knee-elbow recovery, or early submission attempts.",
+      "study_focus": "Prioritise the mount-maintenance material, then study the cross-wrist and underhook pathways into arm isolation before watching the rolling commentary.",
+      "practice_tip": "BJJGraph suggestion: begin with 'Rehearse the arrival' from Side Control. Record which partner response interrupts the plan and revisit that lesson before adding another branch."
+    }
+  ]
+}

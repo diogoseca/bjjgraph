@@ -80,7 +80,7 @@ description: "Master the attacking grip switch from toe hold to straight ankle l
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What defensive response from the defender creates the optimal timing window to switch from toe hold to straight ankle lock?",
+      "name": "Which defensive reaction opens the switch from toe hold to straight ankle lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing window opens when the defender commits to boot defense or internal foot rotation to neutralize the toe hold's rotational pressure. This defensive posture, while effective against the toe hold, simultaneously exposes the Achilles tendon by flattening the foot and presenting the posterior ankle. The defender's commitment to one defensive plane creates vulnerability on the perpendicular attack plane."

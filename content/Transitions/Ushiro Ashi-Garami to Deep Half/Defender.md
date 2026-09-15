@@ -56,7 +56,7 @@ description: "How to defend against Ushiro Ashi-Garami to Deep Half in BJJ. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that indicates the bottom player is attempting a deep half entry rather than a standard turtle escape?",
+      "name": "What early cue shows the bottom player is entering deep half rather than escaping to turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the direction of hip movement changing from lateral rotation away from you to a downward and inward direction toward your far hip. In a turtle escape, the hips rotate away laterally. In the deep half entry, the hips drop downward and the torso angles underneath your center of gravity. You may also feel their hands pushing your inside knee away from their centerline, which is the preparatory movement for threading underneath."
@@ -64,7 +64,7 @@ description: "How to defend against Ushiro Ashi-Garami to Deep Half in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your bottom opponent pushes your inside knee away and begins threading underneath - what is the highest-percentage defensive response?",
+      "name": "They push your inside knee away and thread underneath: highest-percentage defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage response is to drive your inside leg deeper on their thigh to transition toward saddle or honey hole, converting their escape attempt into a worse position. Their threading motion creates the pathway for your inside leg to advance past their knee line. This punishes the escape attempt rather than merely preventing it, and even if they abort the deep half entry, you have achieved a superior entanglement position."
@@ -72,7 +72,7 @@ description: "How to defend against Ushiro Ashi-Garami to Deep Half in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Why is the bottom player's free arm underhook on your far leg the critical point of no return in this transition?",
+      "name": "Why is their free-arm underhook on your far leg the point of no return in this deep half entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The far leg underhook serves as the anchor point that commits the bottom player to the deep half guard path and prevents you from disengaging cleanly. Once established, the underhook guides their body along the threading path, creates the control structure for deep half consolidation, and prevents you from simply stepping away. Before the underhook, you can sprawl or disengage. After it, you must fight from inside the deep half guard structure."
@@ -80,7 +80,7 @@ description: "How to defend against Ushiro Ashi-Garami to Deep Half in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "When should you disengage the leg entanglement entirely rather than attempting to maintain or deepen your control?",
+      "name": "When should you abandon the ushiro entanglement instead of deepening it against a deep half entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Disengage when the bottom player has successfully threaded their head and shoulders past your hip line and is actively establishing the far leg underhook. At this point, continued entanglement is counterproductive because your leg configuration for ushiro ashi-garami actually assists their deep half consolidation by keeping your leg positioned for their hooks. Releasing and scrambling to top position before deep half hooks are set gives you a passing position rather than a sweeping liability."
@@ -88,7 +88,7 @@ description: "How to defend against Ushiro Ashi-Garami to Deep Half in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "How does your grip adjustment timing create the window that the bottom player exploits for the deep half entry?",
+      "name": "How does your grip-switch timing in ushiro create the window for their deep half entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you transition your hands from control grips to heel hook finishing grips, you momentarily reduce inside leg pressure and shift your upper body focus to the submission. This creates a one-to-two second window where the bottom player can push your inside knee away and initiate threading. The solution is maintaining continuous leg pressure during all grip transitions by adjusting one hand at a time and never releasing both control points simultaneously."

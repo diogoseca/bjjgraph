@@ -84,7 +84,7 @@ description: "Execute the Armbar from High Mount in BJJ. Step-by-step mechanics 
     },
     {
       "@type": "Question",
-      "name": "What indicators tell you the armbar is reaching the breaking point and you must control your application speed?",
+      "name": "What signs show the high mount armbar is at the breaking point and you must slow down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the defender's arm reaching full extension with the elbow crease aligned against your hips, the defender's body beginning to rise off the mat as they follow the pressure, visible straightening of the arm with the defender unable to re-bend it, and the defender's verbal or physical reactions indicating pain. At this point, any additional hip elevation must be slow and controlled. If the defender has not tapped and the arm is fully extended, hold the position rather than driving further."
@@ -100,7 +100,7 @@ description: "Execute the Armbar from High Mount in BJJ. Step-by-step mechanics 
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up and sit toward you during the finishing phase—what adjustment prevents escape?",
+      "name": "They posture and sit up during the high mount armbar finish — what adjustment stops it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg crossing the defender's face and throat is your primary posture control tool. Drive the calf down across their neck and use your hamstring to pull their head back to the mat. Simultaneously, angle your body slightly away from them to increase the distance they need to cover to stack you. If they continue to posture successfully, triangle your legs over their head and under their arm to create an additional control layer. Never sacrifice the hip-to-elbow connection to fight the posture."
@@ -116,7 +116,7 @@ description: "Execute the Armbar from High Mount in BJJ. Step-by-step mechanics 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip when the defender begins rotating their arm during the finishing sequence?",
+      "name": "How do you adjust when the defender rotates their arm during the high mount armbar finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the defender rotates their arm so the thumb points to the side rather than upward, the hyperextension angle changes and the submission loses effectiveness. Counter by adjusting your hip angle to match their rotation, squeezing your knees tighter to restrict further rotation, and pulling their wrist firmly to your chest to maintain the thumb-up orientation. You can also slightly cross your ankles over their chest for additional rotational control. If they fully rotate the arm, consider transitioning to a belly-down armbar variation."

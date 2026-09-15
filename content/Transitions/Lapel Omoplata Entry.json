@@ -275,7 +275,7 @@
         }
       },
       {
-        "question": "Your opponent begins rolling forward as you establish the omoplata—what adjustment maintains control?",
+        "question": "They roll forward as you establish the lapel omoplata — how do you keep control?",
         "answer": "Follow the roll by maintaining your leg across their back and controlling their near hip. As they roll, you have two options: come up to mounted omoplata position for top control, or allow the roll while maintaining shoulder pressure to finish from the other side. Never release control during the roll.",
         "answer_line": "Follow roll, keep hip control",
         "distractors": {
@@ -317,7 +317,7 @@
         }
       },
       {
-        "question": "What chain attacks are available if the opponent prevents the omoplata entry by retracting their arm?",
+        "question": "They retract their arm to stop the lapel omoplata — what chain attacks remain?",
         "answer": "If the arm escapes but you've created the rotational angle, transition to triangle setup as their head may still be trapped. Alternatively, use your momentum to complete a sweep since they've likely compromised their base by retracting. The lapel control enables multiple follow-ups from the same entry attempt.",
         "answer_line": "Triangle, or finish the sweep",
         "distractors": {
@@ -476,7 +476,7 @@
         }
       },
       {
-        "question": "Your opponent has their leg halfway over your shoulder—what is the highest-percentage escape at this stage?",
+        "question": "Their leg is halfway over your shoulder for the omoplata — what is your best escape now?",
         "answer": "At this intermediate stage, clasp your hands together immediately to prevent full arm isolation, then drive your weight forward and circle toward the opponent to reduce the shoulder rotation angle. If they continue establishing control despite your hand clasp, transition to the forward roll escape before they sit up and secure full omoplata control with hip and belt grips.",
         "answer_line": "Clasp hands, drive forward",
         "distractors": {
@@ -490,7 +490,7 @@
         }
       },
       {
-        "question": "How should you modify your posting strategy against an opponent who plays lapel guard with omoplata threats?",
+        "question": "How should you post against an opponent playing lapel guard with omoplata threats?",
         "answer": "Rather than posting with an extended arm when defending sweeps, use knee-based posting and hip drops to maintain base. Keep your hands close to your body and use your knees and hips for balance adjustments. When you must post a hand, retract it immediately after stabilizing rather than leaving it extended. This eliminates the target the omoplata entry requires.",
         "answer_line": "Post with knees, retract hand fast",
         "distractors": {
@@ -504,7 +504,7 @@
         }
       },
       {
-        "question": "What makes defending omoplata from lapel guard harder than defending omoplata from standard closed guard?",
+        "question": "Why is defending the omoplata from lapel guard harder than from closed guard?",
         "answer": "The lapel configuration creates a persistent fabric anchor that prevents the standard omoplata defense of posturing away. In closed guard, you can posture up and stack to kill the attack angle. In lapel guard, the lapel wrap physically restricts your ability to create distance, meaning you must address both the fabric barrier and the arm trap simultaneously rather than relying on posture alone.",
         "answer_line": "Lapel fabric blocks posture escape",
         "distractors": {

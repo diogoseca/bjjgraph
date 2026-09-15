@@ -72,7 +72,7 @@ description: "Learn to maintain Reverse Mount against escape attempts. Strategie
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between the bottom player's preparatory movements and their committed escape attempt?",
+      "name": "How do you tell their preparatory movements from a committed reverse mount escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Preparatory movements are small hip adjustments and weight shifts that create incremental angles — these are the early shrimping motions. The committed escape is marked by shoulder rotation, explosive bridge, and directional turn with full body engagement. The preparatory phase is where weight adjustment counters are most effective. Once the committed turn begins, switching to back take via hook insertion becomes the higher-percentage response rather than trying to re-flatten them."

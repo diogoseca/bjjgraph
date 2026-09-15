@@ -76,7 +76,7 @@ description: "How to execute Estima Lock to Ashi Garami in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What defensive signals indicate you should initiate this transition rather than continuing the Estima Lock attempt?",
+      "name": "Attacking the Estima Lock, what defensive signals tell you to switch to ashi garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key defensive signals include: opponent successfully counter-rotating their ankle to reduce lock pressure, opponent hiding their heel by pointing toes away from your control, opponent establishing strong frames on your hips that prevent finishing mechanics, and opponent creating sufficient space that the inverted grip configuration loses its submission threat. Recognizing these signals within 2-3 seconds prevents wasted energy on a compromised position."
@@ -92,7 +92,7 @@ description: "How to execute Estima Lock to Ashi Garami in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sitting up and posting their hands as you initiate the transition—how do you adjust?",
+      "name": "Estima Lock to ashi garami: they sit up and post as you transition. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free hand (the one not maintaining foot control) to push their chest back down while completing the leg thread with urgency. If they achieve strong posture before you can flatten them, consider abandoning the ashi garami transition in favor of pursuing top position through leg drag, using their extended leg as a passing handle rather than submission target."

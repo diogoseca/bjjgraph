@@ -58,7 +58,7 @@ description: "Learn to defend against the Baratoplata from Crackhead Control. Re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that a Baratoplata from Crackhead Control is being set up rather than another attack?",
+      "name": "How do you tell a baratoplata from crackhead control is coming rather than another attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cue is feeling the attacker release their overhook grip while maintaining shin pressure across your neck. In standard crackhead control, the overhook is maintained for sweeps and gogoplata setups, so releasing it while keeping leg pressure signals a baratoplata attempt. You will then feel an arm threading underneath your trapped arm between your forearm and the attacker's shin. The key distinction from gogoplata setup is that gogoplata involves the shin angling toward your throat, while baratoplata involves the overhook hand moving underneath your arm."

@@ -299,9 +299,7 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 ## From Which Positions?
 
 - [[Positions/Side Control/Kesa Gatame]]
-- [[Positions/Side Control/Kuzure Kesa-Gatame]]
-- [[Positions/Side Control/Scarf Hold Position]]
-- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 
 
 </section>
@@ -316,7 +314,7 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 - [[Submissions/Ezekiel Choke]]
 - [[Submissions/Armbar]]
 - [[Positions/Side Control/Kesa Gatame]] - Primary source position providing the arm isolation and chest pressure foundation for this submission
-- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold variant offering alternative arm isolation entry to the Americana
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Modified scarf hold variant offering alternative arm isolation entry to the Americana
 - [[Positions/Side Control]] - Parent position family sharing lateral control principles and submission chains
 - [[Positions/Kimura Trap]] - Alternative shoulder lock control accessible when opponent rotates arm inward to defend Americana
 - [[Positions/North-South]] - Transition option when Americana fails and opponent creates space, maintaining top control

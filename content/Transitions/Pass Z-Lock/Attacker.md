@@ -74,7 +74,7 @@ description: "Complete guide to passing Z-Lock Half Guard from the top position.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important control to establish before attempting any leg extraction from Z-Lock Half Guard?",
+      "name": "What control must you establish first, before any leg extraction, when passing Z-lock half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface and shoulder pressure must be established as the absolute first priority. Without dominant upper body control pinning the opponent's head away and driving weight through the shoulder into their chest, any leg extraction attempt creates space that the bottom player exploits for sweeps, underhook recovery, or Z-Lock re-establishment. The crossface prevents the bottom player from turning to follow your movement during the pass."
@@ -82,7 +82,7 @@ description: "Complete guide to passing Z-Lock Half Guard from the top position.
     },
     {
       "@type": "Question",
-      "name": "Why must you address the lockdown and butterfly hook components sequentially rather than simultaneously?",
+      "name": "Passing Z-lock, why strip the lockdown and butterfly hook sequentially rather than at once?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attempting to strip both components at once requires you to lighten pressure on at least one side, creating the space the bottom player needs to activate their offensive game. By addressing the lockdown first through knee extension and ankle stripping while maintaining heavy pressure on the butterfly hook side, you eliminate one threat without opening the other. Once the lockdown is broken, you can redirect all passing pressure to compress and neutralize the butterfly hook."
@@ -90,7 +90,7 @@ description: "Complete guide to passing Z-Lock Half Guard from the top position.
     },
     {
       "@type": "Question",
-      "name": "Your opponent recovers their underhook while you are midway through stripping the lockdown. What do you do?",
+      "name": "Passing Z-lock, they regain the underhook while you are stripping the lockdown. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the leg work and address the underhook. Apply whizzer control on their underhook arm while intensifying crossface pressure to flatten their angle. The underhook gives them sweep and back take pathways that are more dangerous than the Z-Lock itself. Once you neutralize the underhook through whizzer pressure and re-flatten them to the mat, resume the lockdown stripping sequence from where you left off."
@@ -106,7 +106,7 @@ description: "Complete guide to passing Z-Lock Half Guard from the top position.
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the bottom player from transitioning to deep half guard during your Z-Lock passing sequence?",
+      "name": "How do you stop the bottom player entering deep half during your Z-lock passing sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Deep half entry requires the bottom player to get their head underneath your hips and duck under your pressure. Prevent this by maintaining heavy hip-to-hip contact that eliminates the space needed to duck under. If you feel them beginning to angle toward deep half by turning their back and sliding underneath, immediately drop your hips lower and intensify forward shoulder pressure. If the deep half entry progresses beyond the initial stage, abandon the forward pass and backstep to address the new position."

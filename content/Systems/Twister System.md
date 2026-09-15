@@ -188,6 +188,8 @@ The Twister System has proven effective at the highest levels of no-gi competiti
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill Twister System?
@@ -336,6 +338,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -455,5 +459,7 @@ The Twister System requires structured drilling that builds from foundational lo
 
 
 </section>
+
+
 
 </main>

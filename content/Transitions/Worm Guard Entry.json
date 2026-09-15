@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail that determines whether the Worm Guard weave holds under pressure?",
+        "question": "What mechanical detail decides whether a Worm Guard weave holds under pressure?",
         "answer": "The depth of the threading under the opponent's thigh is the most critical mechanical detail. A shallow wrap that crosses the surface of the thigh will slide off under tension, providing no structural control. The lapel must travel deep underneath the thigh from outside to inside, emerging near the groin line, so that the fabric locks around the cylindrical shape of the leg and cannot be shaken loose by the opponent stepping or pulling back.",
         "answer_line": "Thread deep, outside to inside",
         "distractors": {
@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "Your opponent recognizes the entry and begins backsteping away from the threading side—how do you adjust?",
+        "question": "Your opponent backsteps away from the threading side during your Worm Guard entry — adjust how?",
         "answer": "Follow their hip movement with your own hip escape to maintain alignment with their retreating lead leg. Use your framing foot on their hip to track their movement and prevent full disengagement. If they commit to a full backstep, abandon the Worm Guard Entry and transition to De La Riva Guard on their new lead leg, or use their rotation to set up a back take by following their turning momentum.",
         "answer_line": "Hip escape, track with foot",
         "distractors": {
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "If the Worm Guard Entry is blocked but you maintain the lapel grip, what chain attacks are available?",
+        "question": "If the Worm Guard entry fails but you keep the lapel grip, what attacks chain from there?",
         "answer": "With the lapel still extracted, transition to Squid Guard Entry by redirecting the lapel around the opponent's arm instead of their leg. Alternatively, use the lapel grip to load a Lapel Elevator Sweep if the opponent is driving forward. If the opponent creates distance, the lapel grip facilitates a Lapel to De La Riva transition where the hook can reset the threading opportunity. The lapel grip itself is valuable even without the complete Worm Guard weave.",
         "answer_line": "Flow to Squid Guard or DLR",
         "distractors": {
@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "How do you prevent the opponent from simply stripping the lapel off your shin once the Worm Guard is established?",
+        "question": "With Worm Guard set, how do you stop your opponent stripping the lapel off your shin?",
         "answer": "Eliminate all slack immediately after connecting the lapel to your shin by pulling tight and angling your hips perpendicular to the opponent. Maintain your secondary grip on their sleeve to restrict their hand movement. Your near-side knee should be slightly bent and pulled toward your chest, creating structural tension that holds the lapel in place through skeletal alignment rather than grip strength alone. If they reach for the lapel, their posture breaks forward into sweep territory.",
         "answer_line": "No slack, hips perpendicular",
         "distractors": {
@@ -514,7 +514,7 @@
         }
       },
       {
-        "question": "Why is pulling straight backward ineffective against the Worm Guard Entry compared to lateral movement?",
+        "question": "Against a Worm Guard entry, why is pulling straight back worse than moving laterally?",
         "answer": "Pulling straight backward maintains the channel under your thigh where the lapel travels, so the threading can continue or even accelerate as you create space. The bottom player's leg frames track your backward movement easily. Lateral backsteping, by contrast, removes your lead leg from the weave path entirely by changing the angle. The lapel cannot complete its circuit around a leg that is no longer in the threading channel, forcing the entry to fail regardless of the bottom player's grip quality.",
         "answer_line": "Straight back keeps channel open",
         "distractors": {
@@ -528,7 +528,7 @@
         }
       },
       {
-        "question": "Your opponent has completed the Worm Guard weave and established tension—what defensive approach should you take?",
+        "question": "Your opponent completed and tensioned the Worm Guard weave — what defensive approach now?",
         "answer": "Once the weave is complete and tensioned, shift from grip-fighting to positional counter-passing. The backstep pass around the Worm Guard is the primary solution, using lateral movement and angle changes to navigate around the lapel barrier rather than trying to strip it. Attempting to rip the lapel free with grip strength alone typically fails against a properly tensioned configuration and wastes significant energy. Address the completed Worm Guard as a passing problem, not a grip-fighting problem.",
         "answer_line": "Backstep pass around the weave",
         "distractors": {
@@ -542,7 +542,7 @@
         }
       },
       {
-        "question": "How should you position your lead leg to minimize the threading channel available to the bottom player?",
+        "question": "How should you position your lead leg to deny the threading channel for Worm Guard?",
         "answer": "Drive your lead knee toward the mat and keep your thigh heavy by loading weight onto that leg. Bend your knee to reduce the clearance between your thigh and the mat surface. Pinch your knee inward rather than leaving it flared wide. This compressed, heavy leg position minimizes the channel through which the lapel must travel, forcing the bottom player to create space through hip escapes and framing before they can initiate any threading attempt. The heavier and more compressed your lead leg, the harder the entry becomes.",
         "answer_line": "Bend knee, weight it heavy",
         "distractors": {

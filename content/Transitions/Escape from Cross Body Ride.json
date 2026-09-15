@@ -259,7 +259,7 @@
         }
       },
       {
-        "question": "Your opponent has heavy shoulder pressure driving you toward the mat - how do you create the initial space needed to escape?",
+        "question": "Under heavy shoulder pressure in cross body ride, how do you create the initial space to escape?",
         "answer": "Rather than fighting the pressure directly, wait for the rider to shift weight during a grip adjustment or transition attempt. Use that momentary lightening to execute an explosive hip switch away from the pressure direction while simultaneously posting your near-side forearm against their hip. The combination of timing and frame placement creates space even against riders who are significantly heavier than you.",
         "answer_line": "Time hip switch to their shift",
         "distractors": {
@@ -287,7 +287,7 @@
         }
       },
       {
-        "question": "Why is it important to chain multiple escape attempts rather than relying on a single explosive movement?",
+        "question": "Why chain escape attempts from cross body ride instead of one explosive movement?",
         "answer": "Single escape attempts are easily scouted and countered by experienced riders who anticipate the direction and adjust their weight accordingly. Chaining creates a dilemma where the rider's defensive reaction to the first attempt opens the path for the second attempt. This forces the rider to make split-second decisions under pressure, increasing the probability that they commit their weight incorrectly and allow the escape to succeed.",
         "answer_line": "Chains force bad weight commits",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "How should you adjust your escape strategy if the rider transitions from perpendicular pressure to attempting a back take?",
+        "question": "The rider shifts from cross body pressure to a back take: how do you adjust your escape?",
         "answer": "When the rider transitions from cross body pressure to back take attempts, their weight typically shifts from driving across your back to pulling backward to insert hooks. This creates forward space that was previously blocked by their chest. Use this shift to drive forward and either stand to base or execute a sit-through that takes advantage of the reduced downward pressure. The back take attempt actually creates better escape opportunities than settled cross body pressure if you recognize the timing window.",
         "answer_line": "Drive forward into new space",
         "distractors": {
@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "What is the most common failure point that leads to the opponent achieving back control during this escape?",
+        "question": "What is the most common failure that lets the rider take your back during this escape?",
         "answer": "The most common failure occurs when the escaper creates space with the hip switch but fails to establish the underhook before attempting the reversal turn. Without the underhook controlling the rider's upper body, the space created by the hip escape allows the rider to slide their hooks in and transition directly to back control. The underhook serves as both a reversal tool and a barrier that prevents hook insertion during the transition.",
         "answer_line": "Space made, no underhook secured",
         "distractors": {
@@ -371,7 +371,7 @@
         }
       },
       {
-        "question": "During a competition, your first escape attempt is blocked and you feel your energy dropping - what is your strategy?",
+        "question": "Your first cross body ride escape is blocked and you are tiring: what is your strategy?",
         "answer": "Immediately return to a defensive turtle shell with chin tucked and elbows tight rather than forcing additional escape attempts while fatigued. Take several controlled breaths to partially recover energy, then attempt a different escape direction than your first attempt. If the rider has adjusted to block your primary escape angle, switch to a sit-through or standing escape rather than repeating the same hip-switch pattern. Manage energy carefully because each failed attempt makes subsequent attempts harder against an adaptive opponent.",
         "answer_line": "Turtle, breathe, switch direction",
         "distractors": {
@@ -497,7 +497,7 @@
         }
       },
       {
-        "question": "Your opponent creates space with a hip escape and you cannot re-establish cross body pressure - what is the optimal response?",
+        "question": "They hip escape and you cannot recover cross body pressure: what is the optimal response?",
         "answer": "Rather than fighting to recover cross body ride from a losing position, capitalize on the space by inserting hooks and transitioning to full back control. The bottom player's hip escape has already created the leg access you need for hook insertion. Maintain harness grip on the upper body while threading your hooks inside their thighs. This converts their escape attempt into a worse position for them, rewarding your ability to adapt rather than rigidly maintain one configuration.",
         "answer_line": "Insert hooks, take the back",
         "distractors": {
@@ -525,7 +525,7 @@
         }
       },
       {
-        "question": "When is it better to let the escape partially succeed and transition to back control rather than fighting to maintain cross body ride?",
+        "question": "When is taking the back better than fighting to keep cross body ride?",
         "answer": "When the bottom player has already created significant hip space and established a frame that you cannot easily strip, attempting to fight back to cross body ride wastes energy and often fails anyway. The better option is to immediately begin inserting hooks while the bottom player is focused on completing their reversal. Back control is a superior position to cross body ride, scoring four points versus zero, so using the escape attempt as a transition opportunity actually improves your position rather than merely defending a deteriorating one.",
         "answer_line": "Abandon ride, take the back",
         "distractors": {

@@ -50,7 +50,7 @@ description: "Master defending against the Guillotine Escape via Posture. Learn 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you feel the opponent beginning to posture out of your guillotine?",
+      "name": "Holding a guillotine, what is the single most important response when they start posturing out?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Close your guard immediately by locking your ankles behind their back. This is the highest-priority response because closed guard adds tremendous compression to the choke through leg pressure, prevents the opponent from walking their knees forward to create their escape angle, and establishes the platform needed for hip bump sweeps if the choke itself is successfully defended."
@@ -58,7 +58,7 @@ description: "Master defending against the Guillotine Escape via Posture. Learn 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun posturing and your standard guillotine grip is being stripped—what adjustment maintains the submission threat?",
+      "name": "They are posturing and stripping your standard guillotine: what adjustment keeps the threat?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to high elbow guillotine by driving your choking elbow toward the ceiling and rotating your wrist so the blade of your forearm attacks behind the opponent's chin rather than across the front of the throat. This variation is significantly more resistant to posture escapes because it compresses the carotid arteries from a posterior angle that posture recovery cannot easily address."
@@ -74,7 +74,7 @@ description: "Master defending against the Guillotine Escape via Posture. Learn 
     },
     {
       "@type": "Question",
-      "name": "What determines whether you should maintain the guillotine grip or release it and focus on guard retention?",
+      "name": "Holding a guillotine, what determines whether to keep the grip or switch to guard retention?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Evaluate grip depth and the opponent's posture level. If your forearm is still deep across the throat and the opponent has only partial posture, maintain the grip and adjust mechanics. If the grip has slipped to a shallow position and the opponent has near-full posture, release the grip and immediately transition to guard retention to prevent being passed. Holding a compromised guillotine wastes energy and delays the guard recovery that prevents positional loss."

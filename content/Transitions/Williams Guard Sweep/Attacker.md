@@ -74,7 +74,7 @@ description: "Master the Williams Guard Sweep execution in BJJ. Step-by-step gui
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal moment to initiate the Williams Guard Sweep relative to your opponent's defensive reactions?",
+      "name": "When should you launch the Williams Guard Sweep relative to your opponent's defensive reaction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal moment is during the opponent's weight shift caused by their defensive reaction to shoulder lock pressure. When they pull their arm back or shift weight backward to relieve shoulder lock pressure, their base narrows and their center of gravity transitions momentarily. This transitional window is when the butterfly hook elevation is most effective because they cannot simultaneously defend the submission and maintain maximum base stability."
@@ -82,7 +82,7 @@ description: "Master the Williams Guard Sweep execution in BJJ. Step-by-step gui
     },
     {
       "@type": "Question",
-      "name": "What grip configuration must be established before attempting the sweep and why is the figure-four essential?",
+      "name": "Which grip must be set before the Williams Guard Sweep, and why is the figure-four essential?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The figure-four shoulder lock grip must be secured with your bottom arm threaded behind the opponent's tricep and your top hand gripping your own wrist. The figure-four is essential because it creates a mechanical lock that prevents the opponent from posting their controlled arm during the sweep. A simpler grip like a wrist grab would allow them to pull free under the rotational forces of the sweep, eliminating the core advantage of sweeping from shoulder lock control."
@@ -90,7 +90,7 @@ description: "Master the Williams Guard Sweep execution in BJJ. Step-by-step gui
     },
     {
       "@type": "Question",
-      "name": "What is the specific role of the butterfly hook in generating sweep momentum and how does it differ from arm-based pulling?",
+      "name": "In the Williams Guard Sweep, what does the butterfly hook do that arm pulling cannot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The butterfly hook provides the primary elevation force by lifting the opponent's thigh upward, shifting their center of gravity above their base. Unlike arm-based pulling which creates lateral force, the hook generates vertical displacement that fundamentally destabilizes the opponent's base. The hook leverages your leg strength—the strongest muscle group—against their balance, while the shoulder lock grip provides directional control rather than primary force generation."
@@ -106,7 +106,7 @@ description: "Master the Williams Guard Sweep execution in BJJ. Step-by-step gui
     },
     {
       "@type": "Question",
-      "name": "How should force be directed during the sweep—what is the relationship between shoulder lock drive and hook elevation?",
+      "name": "In the Williams Guard Sweep, how do shoulder lock drive and hook elevation relate?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Force must be applied as a coordinated rotational moment, not two separate actions. The shoulder lock drives forward and across the opponent's body while the butterfly hook lifts their near thigh simultaneously. These forces create a rotation around the axis of the opponent's far knee. The shoulder lock prevents posting on the near side while the hook removes ground contact on the near side, leaving only the far leg as a support point which cannot sustain the rotational load."

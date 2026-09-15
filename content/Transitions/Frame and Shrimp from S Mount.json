@@ -267,7 +267,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent has tight hip-to-shoulder pressure and you cannot create any frame space - what adjustment creates the initial opening?",
+        "question": "Under S mount with no space to frame, what creates the initial opening?",
         "answer": "Use a short bridge upward (not a full bridge escape) to momentarily lift the opponent's hips and create a split-second gap between their hip and your shoulder. Your frame hand must enter this gap during the bridge, not after the opponent settles back. The bridge provides maybe half a second of reduced pressure, which is enough to wedge your forearm into position if the timing is precise.",
         "answer_line": "Short bridge, insert hand mid-lift",
         "distractors": {
@@ -295,7 +295,7 @@
         }
       },
       {
-        "question": "During the escape, your opponent momentarily releases your wrist to readjust their grip - how do you capitalize on this window?",
+        "question": "They release your trapped wrist to regrip in S mount — how do you use that window?",
         "answer": "Immediately pull your trapped arm back tight to your body and re-grip your collar with maximum commitment. Simultaneously execute the frame and shrimp with full explosiveness since the opponent has temporarily lost their primary arm control. This is your highest-percentage escape window, giving you one to two seconds of reduced resistance before they re-establish control.",
         "answer_line": "Re-grip collar, explode now",
         "distractors": {
@@ -323,7 +323,7 @@
         }
       },
       {
-        "question": "Your frame creates space but the opponent immediately follows your hip movement and closes the distance - what chain technique solves this problem?",
+        "question": "Your shrimp from S mount is followed and space closes — what chain solves this?",
         "answer": "Execute a second and third immediate shrimp in the same direction without resetting your frame position. Rapid chained shrimps create cumulative distance faster than the opponent can follow from their perpendicular position, because their narrow S Mount base makes lateral tracking mechanically difficult. After two to three rapid shrimps, sufficient space should open for knee insertion.",
         "answer_line": "Chain rapid shrimps, same way",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Where exactly should your free hand frame against the opponent, and why is this specific placement critical?",
+        "question": "Escaping S mount, where should your free hand frame and why does that spot matter?",
         "answer": "Frame directly on the opponent's near hip bone at the iliac crest, not their thigh, chest, or upper body. The hip bone is the structural center of their base and the origin point of their weight transfer. Framing here mechanically prevents them from shifting their hips to follow your shrimp. Framing on their upper body allows independent hip adjustment, defeating the purpose entirely.",
         "answer_line": "Frame on the near hip bone",
         "distractors": {
@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "If your knee insertion is blocked and you cannot establish half guard after multiple shrimps, what is your immediate backup plan?",
+        "question": "Shrimps from S mount aren't getting your knee in — what's your backup plan?",
         "answer": "If repeated shrimps and knee insertion attempts fail, transition to a bridge-based escape while the opponent adjusts to counter your shrimping direction. The opponent's focus on preventing lateral escape often compromises their defense against vertical bridges. Alternatively, if significant lateral distance exists but knee insertion remains blocked, continue shrimping to rotate toward turtle position, removing the armbar threat entirely.",
         "answer_line": "Bridge escape or roll to turtle",
         "distractors": {
@@ -379,7 +379,7 @@
         }
       },
       {
-        "question": "How does the Frame and Shrimp exploit the specific structural weakness of S Mount compared to standard mount?",
+        "question": "How does Frame and Shrimp exploit S mount's structural weakness versus regular mount?",
         "answer": "S Mount's perpendicular body angle creates a narrower base for the top person compared to standard mount's chest-to-chest square positioning. This narrow base makes it mechanically difficult for the top person to track lateral hip movement without compromising their own stability. The Frame and Shrimp exploits this by creating lateral distance through shrimping, which is more effective against the narrow perpendicular base than vertical bridges.",
         "answer_line": "Narrow base can't track sideways",
         "distractors": {
@@ -507,7 +507,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is about to attempt a Frame and Shrimp escape?",
+        "question": "In S mount, what's the earliest cue they're about to frame and shrimp?",
         "answer": "The first sign is typically their free hand moving toward your near hip or their feet adjusting to a flat, posted position on the mat. These preparatory movements precede the actual escape by one to two seconds, giving you time to preemptively tighten control by driving your hip weight down and securing their trapped arm more firmly before the frame and shrimp begins.",
         "answer_line": "Free hand reaching for your hip",
         "distractors": {
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "How should you adjust your weight distribution when you feel your opponent begin to shrimp laterally?",
+        "question": "Holding S mount, how do you adjust your weight when they start shrimping laterally?",
         "answer": "Shift your weight forward and down through your hip into their shoulder while simultaneously scooting your hips in the same lateral direction they are escaping. Your weight should drive through the point where your hip contacts their shoulder, acting like a tracking point. Avoid sitting up or lifting your hips, as this creates the space they need to establish the frame and accelerate their escape.",
         "answer_line": "Drive weight down, track hips",
         "distractors": {
@@ -535,7 +535,7 @@
         }
       },
       {
-        "question": "When is it appropriate to abandon S Mount and transition to another position during an escape attempt?",
+        "question": "When should you give up S mount for another position during their escape?",
         "answer": "Transition to standard mount if the opponent creates enough space that your perpendicular angle is significantly compromised but you still maintain top position. It is better to secure mount and re-attempt S Mount later than to fight from a deteriorating S Mount where hip-to-shoulder connection is lost. Never stay in a compromised S Mount because the opponent may complete their escape to half guard while you struggle to maintain an untenable position.",
         "answer_line": "Shift to mount if angle lost",
         "distractors": {

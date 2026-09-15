@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "What should you do if opponent secures finishing grips on your head before you can initiate the escape?",
+        "question": "They secure finishing grips on your head before your twister roll through escape: what do you do?",
         "answer": "Do not attempt the roll if finishing grips are secured as this will tighten the submission and risk serious neck injury. Instead, prioritize hand fighting to break the finishing grips, or tap if the submission is locked in. Safety takes priority over escape attempts.",
         "answer_line": "Hand fight the grips, or tap",
         "distractors": {
@@ -334,7 +334,7 @@
         }
       },
       {
-        "question": "Your free leg cannot find a solid posting angle because opponent is blocking it - what alternative initiates the roll?",
+        "question": "In twister control, your posting leg is blocked — what else can initiate the roll through escape?",
         "answer": "Use your upper body frames to generate the initial rotational force instead. Push forcefully off the mat with your near-side elbow and forearm while simultaneously driving your far-side shoulder into the rotation. You can also use a modified shoulder roll entry where your shoulder contacts the mat first and generates momentum through upper body rotation rather than leg posting.",
         "answer_line": "Push off elbow, shoulder first",
         "distractors": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "question": "The Roll Through Escape fails and you remain in Twister Control - what is the correct chain attack sequence?",
+        "question": "Your roll through escape fails and you're still in twister control — what should you chain into?",
         "answer": "Immediately return to defensive framing and neck protection rather than reattempting the same escape. Switch to hip escape to guard or bridge and turn to turtle as secondary options. If opponent loosened their leg control during your attempt even slightly, a leg extraction escape may now be available. Chain between these options based on which control points weakened during the failed roll attempt.",
         "answer_line": "Reframe first, then hip escape",
         "distractors": {
@@ -497,7 +497,7 @@
         }
       },
       {
-        "question": "Your opponent has already committed to the roll with full momentum - what is the optimal defensive response?",
+        "question": "Your opponent commits fully to a roll through escape from twister control — how do you respond?",
         "answer": "Follow the rotation maintaining chest-to-back connection and upper body control rather than resisting statically. As they complete the roll, immediately transition to back control by inserting hooks and establishing seatbelt grip before they can create distance. Static resistance against committed rotational momentum is ineffective and results in complete loss of position.",
         "answer_line": "Follow, then insert hooks fast",
         "distractors": {
@@ -539,7 +539,7 @@
         }
       },
       {
-        "question": "What vulnerability does the Roll Through Escape create that the defender can exploit for a guillotine?",
+        "question": "What opening does the roll through escape give the top player for a guillotine?",
         "answer": "During the midpoint of the roll, the bottom player's chin and neck become temporarily exposed as their defensive frames are occupied generating and maintaining rotational momentum. Their tucked chin position naturally loosens as they focus on completing the rotation. This window allows the defender to catch a guillotine grip around the neck, converting the escape attempt into a submission opportunity from front headlock control.",
         "answer_line": "Neck exposed mid-roll",
         "distractors": {

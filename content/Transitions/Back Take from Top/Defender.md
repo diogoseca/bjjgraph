@@ -50,7 +50,7 @@ description: "How to defend against Back Take from Top in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical window of vulnerability during the attacker's transition that you should exploit?",
+      "name": "From Hindulotine top, what window in their back take transition should you exploit?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical window occurs when the attacker releases their guillotine grip to transition to seat belt control. During this brief moment, neither the choke nor the positional control is fully established, creating your best opportunity to frame, create distance, and either complete your turn to face the opponent or establish a tight defensive turtle."
@@ -58,7 +58,7 @@ description: "How to defend against Back Take from Top in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent follows your turn with chest pressure and begins threading their arm over your shoulder - what is your immediate response?",
+      "name": "They follow your turn with chest pressure and thread an arm over your shoulder: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clamp your elbow tight to your ribs on the side where they are threading their arm, creating a physical barrier to seat belt establishment. Simultaneously drop your hips low to the mat and bring your knees together to deny hook entry. Use your opposite hand to grip fight their reaching arm, preventing them from locking their hands together across your chest."

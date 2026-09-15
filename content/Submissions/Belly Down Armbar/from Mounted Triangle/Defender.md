@@ -52,7 +52,7 @@ description: "Defend and escape the belly down armbar finish from mounted triang
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a belly down armbar transition is being initiated from mounted triangle?",
+      "name": "What is the earliest cue that a belly down armbar is starting from mounted triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when the attacker shifts from controlling your head or posture to gripping your wrist with both hands while maintaining the mounted triangle. This two-handed wrist control is the essential prerequisite for the belly down transition and should trigger immediate defensive action before any rotation begins."
@@ -60,7 +60,7 @@ description: "Defend and escape the belly down armbar finish from mounted triang
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to tap early once the attacker reaches full belly-down position with proper hip placement?",
+      "name": "Why tap early once the attacker is fully belly down with hips set on your elbow?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The belly-down position creates enormous mechanical advantage over the elbow joint. The attacker's full body weight drives through the hips into the elbow while the wrist is lifted, generating hyperextension force that can damage the ulnar collateral ligament and joint capsule faster than most practitioners can process the pain and signal a tap. Resisting once the position is fully established risks serious and potentially permanent elbow injury."
@@ -68,7 +68,7 @@ description: "Defend and escape the belly down armbar finish from mounted triang
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available during the rotation phase before the attacker reaches belly-down position?",
+      "name": "What defenses remain during the rotation, before the attacker reaches belly down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three primary options exist during rotation: first, aggressively retract the elbow by bending the arm and pulling it tight to the ribcage; second, bridge explosively into the direction of the rotation to disrupt the attacker's base and prevent completion; third, turn your body into the attacker and follow their rotational momentum to prevent them from reaching prone position and scramble to recover guard. All three become ineffective once belly-down is established."

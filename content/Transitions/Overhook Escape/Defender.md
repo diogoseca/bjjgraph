@@ -72,7 +72,7 @@ description: "How to maintain New York Control and counter the Overhook Escape i
     },
     {
       "@type": "Question",
-      "name": "Your overhook is being extracted despite deepening your grip - what systematic transition preserves your offensive position?",
+      "name": "Your overhook is being extracted despite a deeper grip: what transition keeps you attacking?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to Crackhead Control by bringing your controlling leg to their head and establishing shin pressure across their face and shoulder. From Crackhead Control, you can re-enter Mission Control and rebuild your rubber guard structure. The key is recognizing when overhook retention is failing and transitioning before the arm is fully free, rather than fighting a losing grip battle."
@@ -88,7 +88,7 @@ description: "How to maintain New York Control and counter the Overhook Escape i
     },
     {
       "@type": "Question",
-      "name": "What defensive adjustment should you make when the top player establishes a wide, low base before extraction?",
+      "name": "From New York control, how do you adjust when the top player builds a wide, low base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase leg pressure across their back by actively pulling your knee toward their far shoulder, and use your free hand to control their head and pull it down toward your chest. The wide base stabilizes them against sweeps but does not protect against increased downward pressure that collapses their posture. Forcing their head and shoulders down reduces the space and leverage available for the spiral extraction motion."

@@ -80,7 +80,7 @@ description: "Execute the Underhook Sweep from Dogfight to reverse position in B
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum depth required for the underhook before attempting the sweep, and why does a shallow underhook fail?",
+      "name": "How deep must the underhook be for the dogfight sweep, and why does a shallow one fail?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The underhook must reach at minimum the opponent's far lat, ideally their far shoulder blade. A shallow underhook that only contacts the near hip or ribcage lacks sufficient lever length to generate the rotational force needed to topple the opponent over their trapped knee. The deeper the underhook penetrates, the greater the mechanical advantage and the harder it is for the opponent to strip the grip through whizzer pressure."
@@ -96,7 +96,7 @@ description: "Execute the Underhook Sweep from Dogfight to reverse position in B
     },
     {
       "@type": "Question",
-      "name": "Your opponent defends the underhook sweep by posting their far hand wide on the mat. How do you respond?",
+      "name": "They post their far hand wide to defend your dogfight underhook sweep: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The wide far-hand post exposes their far side and creates an immediate back take opportunity. Rather than forcing the sweep against their reinforced base, circle your underhook toward a seatbelt grip, drive your chest into their exposed back, and begin establishing back control. The wide post that defends the sweep simultaneously removes their primary defense against the back take, creating a built-in offensive chain."
@@ -104,7 +104,7 @@ description: "Execute the Underhook Sweep from Dogfight to reverse position in B
     },
     {
       "@type": "Question",
-      "name": "What is the optimal direction of force for the sweep and why is a straight-forward drive less effective?",
+      "name": "What force direction finishes the dogfight underhook sweep, and why is straight forward weaker?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal force direction is diagonal—across the opponent's centerline and over their trapped knee. A straight-forward drive attacks the opponent's strongest balance axis, where they can brace against linear force using their entire body structure. The diagonal drive attacks the weakest point in their base, rotating them over the trapped knee where they have no posting ability, converting the contest from a strength match into a leverage-based technique."
@@ -120,7 +120,7 @@ description: "Execute the Underhook Sweep from Dogfight to reverse position in B
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward with heavy whizzer and crossface pressure as you attempt to set up the sweep. What adjustment do you make?",
+      "name": "They drive in with heavy whizzer and crossface as you set the dogfight sweep: what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting their forward pressure head-on, redirect it by either entering deep half guard underneath their momentum or by absorbing the drive momentarily and timing a counter-sweep as their weight shifts past their base. If the whizzer pressure is manageable, use their forward commitment against them by loading your drive in the opposite direction of their force, catching them off-balance as their center of gravity moves too far forward."

@@ -56,7 +56,7 @@ description: "Complete defensive guide against the Transition to 3-4 Mount. Lear
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that tells you the opponent is preparing to transition to 3-4 Mount?",
+      "name": "From bottom mount, what is the earliest cue they are preparing a 3-4 Mount transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling a new grip being established without an immediate submission follow-up—when the opponent secures a collar grip, crossface, or wrist pin from settled mount without attacking, they are likely anchoring for a positional adjustment. The next cue is feeling pressure increase on one side of your torso as they load weight laterally in preparation for leg extraction on the opposite side. Recognizing this grip-then-shift pattern gives you the maximum window for defensive action."
@@ -64,7 +64,7 @@ description: "Complete defensive guide against the Transition to 3-4 Mount. Lear
     },
     {
       "@type": "Question",
-      "name": "Why is the transition window your best opportunity for defense rather than waiting until 3-4 Mount is settled?",
+      "name": "Why defend during the 3-4 Mount transition rather than after the position is settled?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the leg extraction, the opponent temporarily reduces their contact points from four (two knees, two lower legs) to three (one knee, one leg, one posting foot), and their base narrows during the movement. This momentary reduction in control creates gaps in pressure that allow frame insertion and hip escape with significantly less effort than escaping the consolidated position. Once the foot is posted and the mounted knee is driven deep, the asymmetric base is actually more resistant to bridging than standard mount, making late defense much harder."
@@ -72,7 +72,7 @@ description: "Complete defensive guide against the Transition to 3-4 Mount. Lear
     },
     {
       "@type": "Question",
-      "name": "Your opponent loads weight to your left side and begins extracting their right leg. Where do you direct your hip escape?",
+      "name": "They load weight to your left and extract their right leg: which way do you hip escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Direct your hip escape toward the right side—toward the extracting leg. This is the side where pressure is momentarily reduced as the leg clears your body and before the foot is posted. Your hip escape into the lighter side meets minimal resistance and creates the best angle for knee insertion into half guard. Escaping toward the left (heavy) side would push directly into the opponent's concentrated weight and committed grip, making the escape far more difficult and energy-intensive."

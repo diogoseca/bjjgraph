@@ -90,7 +90,7 @@ description: "Execute the armbar setup from double sleeve guard with precision. 
     },
     {
       "@type": "Question",
-      "name": "You begin the hip pivot but your opponent starts stacking their weight forward over you - what technique adjustment prevents the stack?",
+      "name": "Armbar from double sleeve: they stack their weight forward — what adjustment beats the stack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent drives forward to stack, redirect your rotation angle to accommodate the pressure rather than fighting it directly. Angle your hips away from the stacking direction. If the stack is too advanced to complete the armbar, immediately transition to a triangle setup by swinging your far leg over their neck, since their forward drive places their head in the ideal position for triangle entry. Their stacking momentum becomes your setup energy for the alternative attack."
@@ -106,7 +106,7 @@ description: "Execute the armbar setup from double sleeve guard with precision. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent pulls one arm completely free during the setup - how do you chain to another attack rather than resetting?",
+      "name": "Armbar from double sleeve: they rip one arm free — how do you chain to another attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When one arm escapes, immediately assess which arm is still controlled. If the target arm is free but you hold the other sleeve, switch your attack to the opposite arm by reversing your rotation direction. If the non-target arm is free, accelerate your pivot since they now lack the ability to frame against your incoming leg. If grip recovery is difficult, transition to a tripod sweep using the remaining sleeve grip and your feet, as the opponent's focus on arm recovery compromises their base."
@@ -114,7 +114,7 @@ description: "Execute the armbar setup from double sleeve guard with precision. 
     },
     {
       "@type": "Question",
-      "name": "What direction of force should your pulling hand apply to the target sleeve to maximize arm isolation?",
+      "name": "Armbar from double sleeve: which direction do you pull the target sleeve to isolate the arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pull the target sleeve diagonally across your body toward your opposite hip, not straight down toward the mat. This diagonal pull creates arm isolation by separating the arm from the opponent's torso along two vectors simultaneously: across their centerline and toward the mat. The diagonal direction also pre-loads the rotational angle for your hip pivot, making the subsequent movement shorter and more explosive. Combined with the foot-on-bicep push, this creates a scissors-like force that locks the arm in position."

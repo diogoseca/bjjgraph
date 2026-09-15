@@ -278,7 +278,7 @@
         }
       },
       {
-        "question": "Your opponent begins threading a leg inside yours as you initiate the stack - what adjustment do you make?",
+        "question": "They thread a leg inside yours as you start the stack: what adjustment do you make?",
         "answer": "Immediately halt forward pressure and address the leg control issue by squaring your hips and pinning both legs together again. Attempting to continue the stack with compromised leg control leads directly to ashi garami or other leg entanglements. Reset the leg control before resuming.",
         "answer_line": "Stop, re-pin both legs",
         "distractors": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "question": "Your opponent defends the stack with a Granby roll to their left side - what chain attack do you use?",
+        "question": "They Granby roll to their left against your stack: what do you chain into?",
         "answer": "As they Granby roll left, immediately follow their rotation by stepping your right leg over and pulling their far leg across your body for a leg drag. Their rolling momentum exposes their back angle, making the leg drag high-percentage. If the leg drag is unavailable, redirect into a toreando pass by controlling both ankles and redirecting their legs to the mat on the side they rolled toward. Never let them complete the Granby and re-establish guard without pursuing a follow-up pass.",
         "answer_line": "Follow with a leg drag",
         "distractors": {
@@ -511,7 +511,7 @@
         }
       },
       {
-        "question": "Your opponent has secured control of both legs and begins driving forward - what is your defensive sequence?",
+        "question": "They control both your legs and drive forward: what is your defensive sequence?",
         "answer": "First, frame both hands against their shoulders to slow the forward drive and buy time. Second, attempt to pummel at least one leg free by circling your foot outside their grip. If leg recovery fails, immediately initiate a Granby roll in the direction of their dominant pressure before compression removes your mobility. Do not waste energy fighting the stack statically - either recover legs or roll. Decisive early action prevents being trapped in the worst phase of the stack.",
         "answer_line": "Frame, free a leg, then Granby",
         "distractors": {
@@ -539,7 +539,7 @@
         }
       },
       {
-        "question": "How do you convert a failed stack defense into the best available position rather than being passed to side control?",
+        "question": "Your stack defense fails: how do you avoid conceding side control?",
         "answer": "If the stack is nearly complete and you cannot prevent the pass, focus on controlling the direction of the pass by using your arms to steer their body to one side while initiating a hip escape in the opposite direction. As they clear your legs, immediately shoot your nearest knee across their hip line to recover half guard rather than conceding full side control. Even partial guard recovery from a failed stack defense gives you a fighting position with sweep and submission options.",
         "answer_line": "Steer pass, shoot knee to half",
         "distractors": {

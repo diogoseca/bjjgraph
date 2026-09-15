@@ -413,7 +413,7 @@
         }
       },
       {
-        "question": "What are the indicators that an armbar is reaching the breaking point and requires immediate release or tap?",
+        "question": "What signs show a mounted armbar has reached the breaking point and needs release or a tap?",
         "answer": "The breaking point is signaled by full arm extension with no bend left, a tight joint with no give, distress sounds, or small pops in the elbow. Other indicators: the elbow sits directly centered over your hip crease with no space remaining, and the opponent begins to scream or show visible distress. In training, both partners should recognize these signs — the attacker to stop before damage, the defender to tap before injury. Any one of these indicators means the submission is complete or imminent.",
         "safety_critical": true,
         "distractors": {
@@ -428,7 +428,7 @@
         "answer_line": "Full extension, no give, pops"
       },
       {
-        "question": "Your opponent starts to posture up and turn toward you during the finish - what grip adjustment maintains control?",
+        "question": "They posture and turn into you during the mount armbar finish — what adjustment keeps control?",
         "answer": "When opponent attempts to posture and turn, immediately squeeze your knees tighter together to control their head and prevent rotation. Simultaneously, pull their wrist tighter to your chest while scooting your hips closer to their shoulder to eliminate space. If they continue turning, switch your grip so your bottom hand controls their wrist while your top hand reaches around to grip their far shoulder or control their turning direction. This grip adjustment maintains the arm angle while preventing the escape. You can also hook their near leg with your bottom foot to prevent them from completing the rotation.",
         "safety_critical": false,
         "answer_line": "Squeeze knees, wrist to chest",
@@ -473,7 +473,7 @@
         "answer_line": "Glue tricep to your chest"
       },
       {
-        "question": "In competition, what finishing strategies maximize armbar success rate while maintaining safety awareness?",
+        "question": "In competition, how do you finish the mount armbar with high success while staying safe?",
         "answer": "In competition, secure every control point before extending and use smooth progressive pressure — perfect position beats explosive force. Establish all controls before committing, since rushed attempts allow escapes; walk your hips closer to the shoulder before extending to eliminate escape space; keep the arm tight to your chest throughout; and be ready to transition to a triangle or back take if they defend. Release immediately on the tap regardless of competition intensity — intentionally injuring an opponent with a spike or jerk is unsportsmanlike and potentially illegal.",
         "safety_critical": true,
         "distractors": {
@@ -658,7 +658,7 @@
         }
       },
       {
-        "question": "Your attacker has both legs over you but your hands are still clasped - what is your escape sequence?",
+        "question": "Both their legs are over you in the mount armbar but your hands stay clasped — escape sequence?",
         "answer": "With hands clasped and both legs over, execute this sequence: (1) Keep your arms bent and hands locked together - this is your primary defense preventing extension; (2) Begin turning your entire body toward the trapped arm side, driving your shoulder toward the mat; (3) As you turn, start walking your feet toward the attacker's head to create stacking pressure; (4) Drive forward aggressively to collapse their hip extension by stacking your weight onto them; (5) As their hips flatten, extract your elbow by continuing the turn and pulling your arm to your chest; (6) Immediately recover to closed guard or establish top position. The entire sequence requires maintaining the hand clasp until your arm is free.",
         "safety_critical": false,
         "answer_line": "Stack forward, turn to trapped arm",

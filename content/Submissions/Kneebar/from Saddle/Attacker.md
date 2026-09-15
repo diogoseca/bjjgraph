@@ -76,7 +76,7 @@ description: "How to execute the kneebar from Saddle position in BJJ. Attacking 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the kneebar from Saddle primarily attack, and what is the mechanism of injury?",
+      "name": "Which structures does the kneebar from Saddle attack, and by what mechanism of injury?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kneebar primarily attacks the posterior cruciate ligament (PCL) through hyperextension of the knee joint. The mechanism involves positioning the opponent's knee above your hip crease as a fulcrum, then extending your hips upward while pulling the ankle downward, creating opposing forces that push the knee beyond its natural extension range. Secondary structures at risk include the medial and lateral collateral ligaments, which resist valgus and varus forces respectively, and the menisci, which can tear under compressive or rotational loading if the ankle is not properly controlled during application."
@@ -84,7 +84,7 @@ description: "How to execute the kneebar from Saddle position in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Why must you apply kneebar finishing pressure progressively over 5-7 seconds in training rather than explosively?",
+      "name": "Why must kneebar pressure from Saddle build over 5-7 seconds in training rather than explosively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee joint has minimal tolerance for hyperextension, and the transition from safe pressure to catastrophic ligament damage occurs extremely rapidly compared to other submissions. Explosive application can cause immediate PCL tears, MCL ruptures, and meniscus damage before the training partner has time to recognize the danger and tap. Unlike chokes where consciousness provides a gradual warning, knee hyperextension offers almost no warning zone between controlled pressure and structural failure. The Saddle's superior control makes this especially dangerous because the opponent cannot easily relieve pressure through positional movement. Progressive application over 5-7 seconds gives your partner adequate time to feel the increasing danger and tap safely."
@@ -100,7 +100,7 @@ description: "How to execute the kneebar from Saddle position in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts sitting up aggressively to strip your ankle grip during the kneebar attempt - what immediate adjustment secures the position?",
+      "name": "Your opponent sits up to strip your ankle grip during the kneebar from Saddle: what secures it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your free leg forcefully against their chest or shoulder to push them back down, re-establishing the distance frame that prevents them from reaching your hands. Simultaneously tighten your Saddle leg configuration to prevent any leg extraction during their movement. If they continue to generate significant sitting-up force despite your frame, transition your attack back toward the heel hook, which requires them to defend in the opposite direction by hiding their heel rather than closing distance. This forces them to choose between sitting up into heel hook vulnerability or staying down in kneebar vulnerability."
@@ -108,7 +108,7 @@ description: "How to execute the kneebar from Saddle position in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between using hip extension versus back arching for kneebar finishing pressure?",
+      "name": "For the kneebar finish, what is the key difference between hip extension and arching your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip extension engages the glutes and posterior chain to drive the hips upward toward the ceiling, creating efficient and controlled hyperextension pressure against the opponent's knee fulcrum. Back arching instead uses the spinal erectors and creates an arc that generates minimal actual pressure on the knee joint while placing dangerous compressive load on the attacker's own lumbar spine. The hip extension motion is sustainable, powerful, and controllable, allowing precise pressure modulation. Back arching is weak, potentially injurious to the attacker, and creates jerky uncontrolled pressure that makes safe training impossible."
@@ -116,7 +116,7 @@ description: "How to execute the kneebar from Saddle position in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make if the opponent's ankle begins to rotate during kneebar finishing pressure?",
+      "name": "What grip adjustment do you make if the ankle starts rotating during your kneebar from Saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately stop all hip extension pressure, as continued hyperextension with rotation creates compound loading that attacks the ACL in addition to the PCL, dramatically increasing injury severity. Reinforce your prayer grip by bringing both elbows tight to your body and pulling the ankle deeper into your armpit area for greater rotational stability. Re-orient their toes to point directly away from you and use your forearms to create a rigid cage around the ankle that prevents further rotation. Only resume progressive pressure once the ankle is fully stabilized in the correct orientation. If you cannot prevent rotation, release the submission entirely."

@@ -307,7 +307,7 @@
         "transition": "Bow and Arrow Choke from Rear Triangle",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -439,7 +439,7 @@
         }
       },
       {
-        "question": "After your opponent successfully defends the triangle choke attempt, how do you reset without losing position?",
+        "question": "Rear triangle: they defend the choke — how do you reset without losing position?",
         "answer": "Maintain the triangle lock structure even when the choke is defended. Immediately transition to attacking the trapped arm for armbar or the free arm for kimura control. If opponent creates too much space defending the choke, tighten the triangle and re-establish chest pressure before cycling to the next attack. Never abandon the position just because one submission fails.",
         "answer_line": "Keep lock, cycle to arm attacks",
         "distractors": {
@@ -780,7 +780,7 @@
         }
       },
       {
-        "question": "Your opponent starts to angle their hips more aggressively to finish the choke - what adjustment do you make?",
+        "question": "Caught in a rear triangle, they angle their hips to finish — what adjustment do you make?",
         "answer": "Grip the opponent's choking leg at the ankle or behind the knee with your free hand to prevent further hip adjustment. Simultaneously attempt to create rotation by turning your body toward the non-choking leg side. Use your trapped arm to push against the opponent's leg rather than trying to pull it out. These combined actions disrupt their finishing angle.",
         "answer_line": "Grip choking leg, rotate away",
         "distractors": {
@@ -822,7 +822,7 @@
         }
       },
       {
-        "question": "How do you recognize when the triangle is transitioning to an armbar and what is your immediate response?",
+        "question": "How do you recognize a rear triangle becoming an armbar, and what is your response?",
         "answer": "The armbar transition shows when opponent begins extending their hips away while pulling down on your trapped arm and shifting their body perpendicular to yours. Immediate response is to keep your trapped arm bent and tight to your body, clasp your hands together if possible, and turn your body toward the trapped arm side to prevent elbow extension.",
         "answer_line": "Bend arm, clasp hands, turn in",
         "distractors": {
@@ -864,7 +864,7 @@
         }
       },
       {
-        "question": "After successfully extracting your trapped arm, what is the immediate follow-up to complete the escape?",
+        "question": "You free your trapped arm from the rear triangle — what is the immediate follow-up?",
         "answer": "Once the arm is extracted, immediately use it to frame against opponent's hip or leg while shrimping your hips away. Work to insert your bottom knee between your bodies to create a barrier. Continue turning toward the non-choking leg side while maintaining the frame. Target turtle position first as an interim goal, then work to recover guard or stand. Never stop moving once the arm is free.",
         "answer_line": "Frame, shrimp, knee, turtle",
         "distractors": {
@@ -910,7 +910,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the Rear Triangle and distinguishes it from standard back control?",
+      "question": "What configuration defines the Rear Triangle and separates it from standard back control?",
       "answer": "The Rear Triangle is a back-control variation in which one leg is threaded under the opponent's near armpit and across the back of their neck, then locked into a figure-four by tucking that ankle into the crook of the opposite knee. This encloses the opponent's head together with one trapped arm inside a single closed loop, rather than merely hooking both legs around the torso as in standard back mount. The trapped arm is the defining feature: it occupies the space beside the neck that would otherwise allow blood flow and let the defender frame. Because the legs both control and choke, the top player's hands are freed for secondary attacks, which is the trade-off that separates this hybrid from a pure positional back ride.",
       "answer_line": "Leg + arm locked in figure-four",
       "distractors": {
@@ -938,7 +938,7 @@
       }
     },
     {
-      "question": "What role does the trapped arm play in making the Rear Triangle a functioning choke rather than a mere leg entanglement?",
+      "question": "What role does the trapped arm play in making the Rear Triangle an actual choke?",
       "answer": "The trapped arm acts as the mechanical wedge that fills the loop, pressing the opponent's own shoulder and bicep into the near-side carotid as the triangle tightens. Without an arm inside, the loop would surround only the neck and leave slack that the defender could rotate or slip out of. With the arm in, every increment of knee compression drives the shoulder deeper into the artery, so the trapped limb is effectively choking its own owner. This is why the entire positional battle centers on that arm: its presence defines the position, and its extraction dissolves the choke back into ordinary back control.",
       "answer_line": "Arm wedges shoulder into neck",
       "distractors": {
@@ -952,7 +952,7 @@
       }
     },
     {
-      "question": "How does hip angle relative to the trapped-arm side govern the tightness of the Rear Triangle for both players?",
+      "question": "How does hip angle relative to the trapped-arm side govern Rear Triangle tightness?",
       "answer": "Angling the hips toward the trapped-arm side aligns the cutting edge of the triangle across the carotid rather than squarely across the back of the neck, sharpening the blood-choke pressure. Squared-up hips leave the compression diffuse and give the defender room to posture and rotate. For the bottom player, this same geometry is why turning the face toward the non-choking-leg side reduces effectiveness. The angle is a shared axis of the position: whoever wins the fight over hip orientation relative to the trapped arm controls how sharply the loop bites.",
       "answer_line": "Angle hips to trapped-arm side",
       "distractors": {
@@ -980,7 +980,7 @@
       }
     },
     {
-      "question": "How does the Rear Triangle differ from the Body Triangle despite both being figure-four leg configurations from the back?",
+      "question": "How does the Rear Triangle differ from the Body Triangle despite both being figure-fours?",
       "answer": "The Body Triangle wraps both legs around the opponent's torso, functioning purely as a control and posture-breaking device with no direct strangle threat from the legs themselves. The Rear Triangle instead encircles the neck and one arm, so the same figure-four becomes an active choke rather than a torso clamp. This shifts the position from a patient control platform toward an immediate submission dilemma, and it commits one leg to the neck instead of leaving both around the waist. The two share the figure-four mechanic but differ fundamentally in what is trapped and therefore in what the position threatens.",
       "answer_line": "Rear triangle chokes the neck",
       "distractors": {
@@ -994,7 +994,7 @@
       }
     },
     {
-      "question": "Why does the Rear Triangle create a submission dilemma that neither player can neutralize by defending a single threat?",
+      "question": "Why does the Rear Triangle create a dilemma the defender cannot solve one threat at a time?",
       "answer": "The closed loop simultaneously exposes the trapped arm to armbar-style extension and the neck to strangulation, so any defensive commitment to one relieves the other. Defending the choke by fighting the leg tends to straighten and offer the trapped arm, while protecting the arm by keeping it bent and tight leaves the carotid compressed. Because the top player's hands are free while the legs maintain control, threats can be cycled faster than the defender can re-solve each one. This dilemma, not any single finish, is the strategic essence of the position and what makes it more dangerous than plain back control.",
       "answer_line": "Defend one, expose the other",
       "distractors": {
@@ -1008,7 +1008,7 @@
       }
     },
     {
-      "question": "What determines whether the Rear Triangle progresses toward a finish or dissolves back into an adjacent position?",
+      "question": "What determines whether a Rear Triangle progresses to a finish or dissolves?",
       "answer": "The pivotal variable is the status of the trapped arm inside the loop: while it remains wedged, the position holds its choke and armbar threats intact. If the defender extracts that arm, the loop loses its wedge and the position degrades toward standard back control, seatbelt control, or a scramble to turtle. Conversely, if the defender over-rotates trying to face the attacker, the position can convert into a crucifix rather than release. The shared boundary conditions are therefore arm extraction on one side and over-rotation on the other, with a sustained closed loop being the only state that keeps it a true Rear Triangle.",
       "answer_line": "Trapped arm status decides it",
       "distractors": {

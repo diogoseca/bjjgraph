@@ -116,6 +116,11 @@
       "principle_name": "Control Maintenance",
       "relationship_type": "Extension",
       "description": "Base maintenance is the foundational layer of control maintenance. Without stable base, all other control mechanisms become ineffective regardless of grips or positioning."
+    },
+    {
+      "principle_name": "Alignment",
+      "relationship_type": "Complementary",
+      "description": "Base supplies the support points that alignment coordinates with posture and limb structure."
     }
   ],
   "application_contexts": [
@@ -388,6 +393,11 @@
       "name": "Kuzushi",
       "content_type": "Principle",
       "relationship": "Concept that targets base vulnerabilities, understanding both concepts enhances performance"
+    },
+    {
+      "name": "Alignment",
+      "content_type": "Principle",
+      "relationship": "Base supplies the support points that alignment coordinates with posture and limb structure."
     }
   ],
   "flashcards": [
@@ -532,5 +542,9 @@
       "duration": 890,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Base can guide how any position, transition, or submission is performed, prevented, or trained. Its application includes top, bottom, attacker, and defender."
+  }
 }

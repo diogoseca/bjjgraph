@@ -50,7 +50,7 @@ description: "How to defend against Frame and Distance Creation in BJJ. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical time window for countering Frame and Distance Creation before it becomes effective?",
+      "name": "What is the critical window to counter frame and distance creation from straight ankle lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical window is the first 2-3 seconds after the opponent begins establishing frames on your upper body. Before they achieve full arm extension with skeletal alignment, their frames can be cleared relatively easily by swimming inside. Once structural alignment is established with two contact points, the distance becomes exponentially harder to close."
@@ -58,7 +58,7 @@ description: "How to defend against Frame and Distance Creation in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes strong frames and creates significant distance - should you continue fighting for the ankle lock or transition?",
+      "name": "They frame and make real distance from your ankle lock: keep fighting for it or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition immediately to inside ashi-garami or another superior leg entanglement. Once frames create significant distance, the ankle lock becomes mechanically compromised because your breaking leverage depends on proximity. Stubbornly holding a weakened ankle lock wastes energy and allows the opponent to complete their escape. Use their framing commitment as an opportunity to advance position."
@@ -82,7 +82,7 @@ description: "How to defend against Frame and Distance Creation in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent pushes frames with both arms while their free leg drives into your hip - how do you address this multi-directional pressure?",
+      "name": "They push both arm frames while their free leg drives your hip: how do you handle both?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize addressing the leg push first by tightening your leg wrap and blocking their free leg from gaining leverage on your hip. The leg push amplifies the arm frames, so neutralizing it reduces overall pressure significantly. Once the leg push is controlled, swim inside the arm frames to close distance. Attempting to address only the arm frames while the leg continues pushing leads to accumulated distance and eventual escape."

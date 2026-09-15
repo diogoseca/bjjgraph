@@ -272,7 +272,7 @@
         }
       },
       {
-        "question": "Why must arm extraction use circular rather than linear movement, and what specific direction should the elbow rotate?",
+        "question": "Escaping Williams Guard: why circular arm extraction, and which way should the elbow rotate?",
         "answer": "Linear pulling works directly against the figure-four grip's mechanical advantage, increasing pressure on the shoulder joint rather than reducing it. Circular movement changes the angle of force application, gradually disengaging the grip structure by working around its strength rather than against it. The elbow should rotate inward toward your own centerline, as this direction opposes the figure-four's rotational control and reduces the shoulder lock angle. The rotation must be small and controlled—large circles telegraph your intent and allow the opponent to adjust their grip.",
         "answer_line": "Small circles, elbow toward center",
         "distractors": {
@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "What grips should you establish with your free hand during posture recovery and which grips are dangerous?",
+        "question": "Escaping Williams Guard, what should your free hand grip, and which grips are dangerous?",
         "answer": "Your free hand should prioritize positional support near your own centerline during extraction phases, then transition to head control or hip control once posture is partially recovered. Never post your free hand on the mat near the opponent's hip—this creates immediate vulnerability to triangle setup and provides a sweep fulcrum. Once posture is achieved, establish bilateral grip control on the opponent's biceps or hips to prevent Williams Guard re-establishment and begin closed guard passing work.",
         "answer_line": "Centerline first, then head or hip",
         "distractors": {
@@ -328,7 +328,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their hips for an omoplata as you create space during extraction—how do you respond?",
+        "question": "Escaping Williams Guard, they rotate their hips for an omoplata as you make space. Response?",
         "answer": "Drive forward immediately to stack and prevent the hip rotation from completing. The omoplata requires a specific hip angle relative to your shoulder that forward stacking pressure collapses. This is one of the few moments where forward drive is appropriate during Williams Guard escape—the stack simultaneously addresses the omoplata threat and can accelerate your arm extraction as the compressed position changes the shoulder lock angle. Once the omoplata threat is neutralized, resume your systematic posture recovery from the improved position.",
         "answer_line": "Stack forward to kill the angle",
         "distractors": {
@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "After recovering posture and reaching closed guard top, what passing sequence should you initiate and why is immediate action critical?",
+        "question": "After escaping Williams Guard to closed guard top, what do you do and why act immediately?",
         "answer": "Initiate your highest-percentage guard opening sequence immediately—typically standing guard break or systematic grip establishment leading to knee pressure break. Immediate action is critical because the opponent will begin working to re-isolate your arm and rebuild Williams Guard, and the window between posture recovery and guard re-establishment is narrow. Your recent escape also means the opponent's grips are disrupted and their guard structure is transitional, creating a temporary vulnerability that disappears within seconds if you allow them to resettle.",
         "answer_line": "Pass immediately, window closes fast",
         "distractors": {
@@ -470,7 +470,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting systematic posture recovery rather than simply resisting the shoulder lock?",
+        "question": "Holding Williams Guard: earliest cue they are posturing systematically, not just resisting?",
         "answer": "The earliest and most reliable cue is small circular elbow movements rather than static resistance or linear pulling. Linear pulling indicates untrained escape attempts, while circular movement signals a systematic extraction sequence that will progress through defined phases. Additional confirming cues include widening their knee base, repositioning their free arm toward centerline, and controlled breathing—all indicating a practiced approach that must be countered proactively before it gains momentum.",
         "answer_line": "Small circular elbow movement",
         "distractors": {
@@ -484,7 +484,7 @@
         }
       },
       {
-        "question": "Why is the opponent's backward weight shift the optimal moment for hip bump sweep, and how do you time it correctly?",
+        "question": "In Williams Guard, why is their backward weight shift ideal for the hip bump, and how time it?",
         "answer": "During the backward weight shift, the opponent has deliberately reduced their forward base resistance and committed their center of gravity posteriorly. A hip bump sweep directed forward at this moment encounters minimal resistance because their weight is already moving in the opposite direction. Time the sweep by feeling for the pressure reduction on your hips—when their chest lifts away and hip pressure decreases, they have committed to the backward shift and your bridge will meet their weakest defensive angle.",
         "answer_line": "Bump forward as their chest lifts",
         "distractors": {
@@ -498,7 +498,7 @@
         }
       },
       {
-        "question": "How should you adjust your defensive strategy if the opponent achieves partial arm extraction but has not yet recovered posture?",
+        "question": "Williams Guard: they partially extract the arm but have no posture yet. How do you adjust?",
         "answer": "Partial extraction without posture recovery represents a transitional moment where the opponent is between defensive phases. Immediately attempt to re-isolate the arm by swimming your grip back to figure-four position before they can complete extraction. If re-isolation fails, transition your strategy from Williams Guard maintenance to active closed guard attacks—pull them into broken posture using legs and collar control, establishing traditional closed guard offense where your sweep and submission chains remain viable even without the shoulder lock.",
         "answer_line": "Re-isolate arm, else attack guard",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "What offensive transitions become available when your opponent attempts to posture from Williams Guard?",
+        "question": "What attacks open up for you when your opponent tries to posture out of your Williams Guard?",
         "answer": "Multiple offensive transitions open during posture attempts. The space created during arm extraction enables omoplata entry by swinging your leg over the exposed shoulder. Their backward weight shift opens hip bump sweeps and flower sweeps. If they post their free arm for base, triangle and kimura entries become available. If they stand, the angle change may enable back take entries or leg entanglements. Each phase of their escape corresponds to specific offensive windows—the skilled defender converts escape attempts into attacking opportunities.",
         "answer_line": "Omoplata, sweep, triangle, back take",
         "distractors": {

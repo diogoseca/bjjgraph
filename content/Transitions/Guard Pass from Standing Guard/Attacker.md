@@ -74,7 +74,7 @@ description: "Complete attacker guide to the standing guard pass in BJJ. Master 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical error that exposes you to sweeps during the commitment phase of a standing guard pass?",
+      "name": "Passing from standing: what error most exposes you to sweeps when you commit?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Leaning forward with your weight past your feet is the most dangerous error during commitment. When your center of gravity extends beyond your base, the guard player can redirect your momentum laterally or overhead using hooks and grips. The correction is keeping hips back while generating passing movement through lateral footwork, ensuring your weight stays centered over your feet throughout the directional commitment."
@@ -82,7 +82,7 @@ description: "Complete attacker guide to the standing guard pass in BJJ. Master 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established collar and sleeve grips while you are standing in their guard—what is the correct sequence to neutralize these grips before passing?",
+      "name": "Standing in their guard with collar and sleeve grips on you — in what order do you break them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the collar grip first as it represents the greater threat to your posture, using a two-on-one grip break where both hands work to peel their grip. Once the collar grip is stripped, immediately establish your own control on their leg before addressing the sleeve grip. Never attempt to break both grips simultaneously as this leaves you without defensive frames against being pulled forward into their guard."
@@ -90,7 +90,7 @@ description: "Complete attacker guide to the standing guard pass in BJJ. Master 
     },
     {
       "@type": "Question",
-      "name": "How do you determine which side to pass when facing a guard player with symmetric defensive positioning?",
+      "name": "How do you pick a passing side against a guard player with symmetric defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Test both sides with small lateral feints, observing which direction generates a slower or weaker defensive response. Additionally, assess their grip configuration and pass toward the side where they have weaker grip control. If their defensive structure appears truly symmetric, commit to your stronger passing side and use the speed advantage of your preferred direction to create a timing edge over their reaction."
@@ -98,7 +98,7 @@ description: "Complete attacker guide to the standing guard pass in BJJ. Master 
     },
     {
       "@type": "Question",
-      "name": "What is the correct hand transition sequence when clearing the opponent's legs to establish side control?",
+      "name": "Clearing their legs to side control: what is the correct hand transition sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As your hips clear past the opponent's hip line, the near hand transitions from leg control to crossface position across their jaw and neck while the far hand moves from their other leg to their far hip to block guard recovery. This transition must overlap—maintain at least one point of leg control until upper body control is established, never releasing both legs simultaneously as this creates a window for guard re-insertion."
@@ -106,7 +106,7 @@ description: "Complete attacker guide to the standing guard pass in BJJ. Master 
     },
     {
       "@type": "Question",
-      "name": "Your initial passing direction is blocked by a strong shin shield—how do you adjust mid-pass without losing positional control?",
+      "name": "A shin shield blocks your passing direction — how do you adjust mid-pass safely?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately change direction rather than forcing through the shin shield. Maintain your existing grips on their legs while explosively redirecting your footwork to the opposite side. The shin shield takes a moment to reposition, creating a timing advantage for your redirection. If the second direction is also blocked, return to standing control position and reset rather than chaining multiple failed attempts that deplete energy and telegraph your patterns."

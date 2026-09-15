@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "Your opponent strips your sleeve grip mid-transition while your hooks are between positions - what do you do?",
+        "question": "They strip your sleeve grip as your hooks move between reverse X and X-guard. What do you do?",
         "answer": "Rely on your secondary grip on belt or far collar to maintain posture control while completing the transition as quickly as possible. Do not pause or abort solely due to losing the sleeve grip, as the hook reconfiguration is more critical than the grip in the moment. Once in stable X-Guard position, immediately re-establish the sleeve grip before launching any sweep attacks.",
         "answer_line": "Rely on collar/belt, finish fast",
         "distractors": {
@@ -505,7 +505,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their hips and you feel the primary hook loosening - what is your immediate response?",
+        "question": "You feel the primary reverse X hook loosen as they rotate their hips. What is your response?",
         "answer": "Immediately backstep your controlled leg at an angle, driving your hips away from the bottom player while stripping their sleeve grip with your free hand. The angular backstep is critical because straight backward movement loads their remaining hook. As you extract your leg, transition directly to Headquarters Position by driving your knee to the mat and establishing control over their now-freed leg before they can recover guard.",
         "answer_line": "Angle backstep, strip sleeve grip",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "What is the risk of attempting a backstep too early before the hooks have actually begun transitioning?",
+        "question": "What is the risk of backstepping reverse X-guard before their hooks begin transitioning?",
         "answer": "If you backstep while the bottom player still has fully engaged Reverse X-Guard hooks, their strong hook configuration can redirect your backward movement into a sweep. The primary hook behind your knee combined with their hip elevation creates a powerful fulcrum, and your backstep momentum can be used against you. Wait for the definitive loosening of the primary hook before committing to the extraction.",
         "answer_line": "Gets swept via hook fulcrum",
         "distractors": {

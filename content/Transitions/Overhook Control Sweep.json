@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "Your opponent strips your overhook by rotating their shoulder forcefully during the sweep attempt - what do you do?",
+        "question": "They rip their shoulder free of your overhook during the sweep: what do you do?",
         "answer": "Immediately convert the failed overhook into an arm drag by catching their wrist or elbow as it pulls free. Their arm extraction motion creates backward momentum that you can redirect into a back take by circling behind them. If the arm drag window has passed, immediately establish frames and recover to open guard before they can capitalize on the lost control. Do not chase the failing overhook grip; transition proactively to the next best option.",
         "answer_line": "Convert to arm drag/back take",
         "distractors": {
@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "If the sweep is blocked and you remain in overhook control, what chain attacks should you threaten next?",
+        "question": "With the overhook sweep blocked but overhook intact, what chain attacks do you threaten?",
         "answer": "The primary chain attacks after a blocked sweep are: Kimura entry when opponent pulls their arm back against the overhook, arm drag to back take when opponent attempts to posture away, guillotine or front headlock entry when opponent drives forward to prevent another sweep attempt, and a re-attempt of the sweep from a different angle or variant. The key is reading which defensive adjustment the opponent makes after blocking the sweep and selecting the corresponding chain attack.",
         "answer_line": "Kimura, arm drag, guillotine",
         "distractors": {
@@ -495,7 +495,7 @@
         }
       },
       {
-        "question": "Your opponent has established a tight overhook and begins inserting a butterfly hook - what is your immediate response?",
+        "question": "They have a tight overhook and start inserting a butterfly hook: what is your response?",
         "answer": "Immediately address the hook by pushing their hooking leg down with your hand or knee, then drive your weight forward to flatten their hips and eliminate the space needed for hook elevation. Simultaneously work to strip the overhook by rotating your shoulder. The hook and the overhook together create the sweep; removing either one neutralizes the threat. Prioritize the hook if you cannot strip the overhook quickly.",
         "answer_line": "Flatten hips, push hook down",
         "distractors": {
@@ -523,7 +523,7 @@
         }
       },
       {
-        "question": "How do you defend the bridge-based overhook sweep variant when the bottom player has no butterfly hook?",
+        "question": "How do you defend the bridge overhook sweep when the bottom player has no butterfly hook?",
         "answer": "Against the bridge variant, drive your weight forward and down onto the bottom player's hips to prevent them from generating the upward hip drive needed for the bridge. Spread your knees wide to create maximum base against the rotational force. Keep your head tight to their body rather than posturing up, as the bridge is most effective when your weight is high. If you feel the bridge initiate, immediately flatten your hips and sprawl your legs back to absorb the force.",
         "answer_line": "Weight down, knees wide, head tight",
         "distractors": {

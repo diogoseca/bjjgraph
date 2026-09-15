@@ -64,7 +64,7 @@ description: "Defend the Reversal from Leg Knot as the top player. Maintain base
     },
     {
       "@type": "Question",
-      "name": "How should you adjust base positioning to prevent the reversal without sacrificing submission pressure?",
+      "name": "In leg knot top, how do you set your base to stop the reversal without losing the submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a wider base with your free hand available for posting while keeping your submission-gripping hand active on the trapped foot. Position at a slight angle toward the anticipated sweep direction to pre-load your base against the reversal force. Never commit both hands simultaneously to the submission grip, always keeping one available for base recovery."
@@ -72,7 +72,7 @@ description: "Defend the Reversal from Leg Knot as the top player. Maintain base
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins explosive hip rotation for the reversal - what is your immediate defensive response?",
+      "name": "In leg knot top, they start explosive hip rotation for the reversal—what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your free hand on the mat toward the sweeping direction to resist the rotational force. Simultaneously drop your weight and tighten the leg entanglement by squeezing your knees together. If the rotation is too powerful to resist through posting, transition with the movement and attempt to advance to Saddle position using the bottom player's own momentum rather than fighting against it."
@@ -88,7 +88,7 @@ description: "Defend the Reversal from Leg Knot as the top player. Maintain base
     },
     {
       "@type": "Question",
-      "name": "What is the primary risk if you ignore the reversal threat and focus entirely on finishing your submission?",
+      "name": "In leg knot top, what is the main risk of ignoring the reversal to finish your submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Committing both hands to finishing a submission eliminates your ability to post and maintain base entirely. The bottom player's sweep will succeed because you have no posting arm available, and you may end up mounted with your opponent in the dominant position. An aggressive finish attempt during a reversal also creates rotational forces that can compromise your own joints if the sweep completes mid-submission."

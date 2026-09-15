@@ -80,7 +80,7 @@ description: "Counter the bridge escape from mounted triangle. Maintain triangle
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the bottom player from chaining the bridge into a hip escape on the opposite side?",
+      "name": "How do you stop the bottom player chaining their bridge into an opposite-side hip escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After absorbing the initial bridge by posting wide on one side, immediately re-center your weight and adjust your posting leg position to cover the opposite direction. The hip escape chain is the most dangerous follow-up to a failed bridge because your weight commits to one side during the posting adjustment. Address this by keeping your hips mobile and re-settling quickly after the bridge dissipates rather than maintaining a prolonged wide post that leaves the other side vulnerable."

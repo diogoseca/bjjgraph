@@ -104,7 +104,7 @@ description: "How to execute the Transition to K-Guard from Half Guard Bottom. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins extracting their trapped leg the moment you release your standard inside hook - how do you respond?",
+      "name": "They extract the trapped leg the instant you release your inside hook for K-Guard—response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not chase the retreating leg with the K-Guard hook configuration. Instead, immediately follow their retreating leg with your hips by scooting forward, and engage your outside leg as a butterfly hook on whatever part of their leg remains in range. From there, pursue single leg X-Guard or standard butterfly guard depending on the distance created. The key is recognizing within the first half-second that the K-Guard entry window has closed and transitioning to the best available alternative guard rather than forcing a failed reconfiguration."

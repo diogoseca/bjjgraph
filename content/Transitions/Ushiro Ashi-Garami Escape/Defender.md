@@ -56,7 +56,7 @@ description: "How to defend against Ushiro Ashi-Garami Escape in BJJ. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most reliable indicator that your opponent is about to begin the outside leg clearing phase of their escape?",
+      "name": "What cue shows your opponent is starting the outside leg clearing phase of their ushiro escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable indicator is when the opponent places their free foot on your hip or inner thigh to establish a pushing frame while simultaneously gripping your inside knee with both hands. This combination signals they are about to initiate the distance creation and hip rotation needed to peel your outside leg off their trapped knee. Attack their heel or drive your hips forward immediately when you detect this setup."
@@ -64,7 +64,7 @@ description: "How to defend against Ushiro Ashi-Garami Escape in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your outside leg cross has been cleared but your inside leg still controls their thigh deeply—what is the highest-percentage response?",
+      "name": "Your outside leg cross is cleared but your inside leg still has their thigh: best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to saddle by stepping your inside leg through to the far side of their trapped thigh. This is the optimal response because the inside leg already has the deep control needed for saddle entry, and the cleared outside leg creates the space for the step-through. Saddle is a positional upgrade from ushiro with higher submission finishing rates. Attempting to re-establish the outside leg cross is lower percentage than completing the saddle transition."
@@ -72,7 +72,7 @@ description: "How to defend against Ushiro Ashi-Garami Escape in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "How do you exploit the moment when your opponent shifts both hands from heel protection to inside knee control?",
+      "name": "They move both hands from heel defense to your inside knee: how do you exploit that moment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When both hands leave heel defense to grip your inside knee, their dorsiflexion often weakens as their attention splits between multiple tasks. This creates a window to accelerate your heel hook attack with both hands while their foot protection is compromised. Secure a deep grip on the heel and begin the rotational finish before they can redirect a hand back to defense. The opponent cannot effectively fight your inside knee and protect their heel simultaneously."
@@ -80,7 +80,7 @@ description: "How to defend against Ushiro Ashi-Garami Escape in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent commits to a Granby roll during the escape—should you maintain the entanglement or follow to back control?",
+      "name": "They commit to a Granby roll escaping ushiro: hold the entanglement or follow to the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow to back control rather than fighting the roll. A committed Granby roll generates rotational momentum that progressively degrades the figure-four entanglement regardless of how tightly you hold. Following the rotation maintains chest-to-back contact and allows you to transition into a back take pursuit where you can establish hooks and harness control. Stubbornly holding the leg entanglement against rolling momentum typically results in losing both the entanglement and positional access."
@@ -88,7 +88,7 @@ description: "How to defend against Ushiro Ashi-Garami Escape in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "What hip pressure adjustment prevents the opponent's pushing frame from generating effective extraction distance?",
+      "name": "What hip pressure stops their foot-on-hip frame from creating extraction distance in ushiro?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips forward and downward toward the opponent's trapped leg rather than allowing their foot-on-hip push to create separation. This forward pressure collapses the space between your lower body and theirs, reducing the effectiveness of their pushing frame by shortening its lever arm. Simultaneously, angle your hips slightly toward their trapped leg side to load weight through the entanglement. The key is proactive pressure rather than reactive holding."

@@ -106,7 +106,7 @@ description: "Learn to execute the stack pass from inverted guard. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "In which direction should you angle your stacking pressure, and why is straight-forward driving suboptimal?",
+      "name": "Which way should you angle stacking pressure, and why is driving straight forward worse?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Angle your stacking pressure slightly to one side rather than driving straight forward. Straight-forward stacking allows the opponent to maintain a symmetrical defensive structure where they can recover guard in either direction when pressure releases. Angling to one side creates a clear passing lane, forces the opponent's legs to one side of your body, and facilitates the transition to half guard top rather than returning to a neutral confrontation where they can re-establish inverted guard."

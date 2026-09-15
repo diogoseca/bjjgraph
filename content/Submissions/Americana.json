@@ -98,11 +98,11 @@
     "Knee on Belly",
     "North-South",
     "Kesa Gatame",
-    "Kuzure Kesa-Gatame",
-    "Modified Scarf Hold",
+    "Kuzure Kesa Gatame",
     "High Mount",
     "S Mount",
-    "Modified Mount"
+    "Modified Mount",
+    "Triangle Control"
   ],
   "related_submissions": [
     {
@@ -261,16 +261,12 @@
       "slug": "from-kimura-trap"
     },
     {
-      "name": "from Kuzure Kesa-Gatame",
+      "name": "from Kuzure Kesa Gatame",
       "slug": "from-kuzure-kesa-gatame"
     },
     {
       "name": "from Modified Mount",
       "slug": "from-modified-mount"
-    },
-    {
-      "name": "from Modified Scarf Hold",
-      "slug": "from-modified-scarf-hold"
     },
     {
       "name": "from Mount",
@@ -281,20 +277,12 @@
       "slug": "from-north-south"
     },
     {
-      "name": "from Reverse Kesa-Gatame",
-      "slug": "from-reverse-kesa-gatame"
-    },
-    {
-      "name": "from Reverse Scarf Hold",
-      "slug": "from-reverse-scarf-hold"
+      "name": "from Ushiro Kesa Gatame",
+      "slug": "from-ushiro-kesa-gatame"
     },
     {
       "name": "from S Mount",
       "slug": "from-s-mount"
-    },
-    {
-      "name": "from Scarf Hold Position",
-      "slug": "from-scarf-hold-position"
     },
     {
       "name": "from Shoulder of Justice",
@@ -307,6 +295,10 @@
     {
       "name": "from Technical Mount",
       "slug": "from-technical-mount"
+    },
+    {
+      "name": "Americana from Triangle Control",
+      "slug": "from-triangle-control"
     }
   ],
   "clips": [

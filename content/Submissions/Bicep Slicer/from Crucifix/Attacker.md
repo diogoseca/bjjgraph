@@ -76,7 +76,7 @@ description: "How to execute Bicep Slicer in BJJ. Attacking perspective with set
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary safety concern when applying the bicep slicer, and what application speed should be used in training?",
+      "name": "What are the bicep slicer's main injury risks, and how slowly should you apply it in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary safety concerns are bicep muscle tears and elbow hyperextension injuries. In training, the bicep slicer must be applied EXTREMELY SLOWLY over a minimum of 5-7 seconds with constant communication. The submission attacks both the bicep muscle (compression) and elbow joint (hyperextension), making it capable of causing severe injury if applied suddenly or explosively. Training partners must be experienced enough to recognize the submission early and tap immediately."
@@ -116,7 +116,7 @@ description: "How to execute Bicep Slicer in BJJ. Attacking perspective with set
     },
     {
       "@type": "Question",
-      "name": "What mechanical principle creates the finishing pressure in the bicep slicer, and how should force be applied?",
+      "name": "What mechanism creates the bicep slicer's pressure, and how should you apply the force?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bicep slicer works through a scissoring or plier-like mechanism where your shin acts as one jaw and your forearm/chest acts as the other jaw, with the opponent's arm trapped between them. The force is created by pulling the wrist toward your chest while simultaneously pushing your shin deeper behind the elbow. This compression crushes the bicep muscle against the humerus bone while hyperextending the elbow joint. Force should be applied using bodyweight and hip pressure rather than just arm strength, with smooth and progressive application rather than sudden jerking movements."

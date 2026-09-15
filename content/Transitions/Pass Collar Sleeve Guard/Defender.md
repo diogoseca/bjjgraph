@@ -56,7 +56,7 @@ description: "Defend against collar sleeve guard passes in BJJ. Learn grip reten
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a direct collar sleeve guard pass?",
+      "name": "What is the earliest cue that they will attempt a direct collar sleeve pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when the passer brings both hands toward your collar-gripping wrist, establishing two-on-one control. This telegraph indicates they are prioritizing grip elimination over lateral movement, signaling a direct pass attempt rather than a toreando or leg drag. Recognizing this two-on-one setup gives you maximum time to prepare defensive responses, either by strengthening your collar grip or positioning your legs for counter-attacks."

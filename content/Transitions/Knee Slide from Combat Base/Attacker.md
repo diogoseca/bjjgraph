@@ -90,7 +90,7 @@ description: "Complete guide to executing the Knee Slide from Combat Base. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent inserts a knee shield just as you begin the knee slide—how do you adjust your passing strategy?",
+      "name": "They insert a knee shield as you start the knee slide from combat base—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent inserts a knee shield, do not force the knee slide through the frame. Use your crossface shoulder pressure to flatten their shield knee toward the mat while shifting your hips to the opposite side. If the shield holds, transition to a smash pass by driving your shoulder into their knee shield and walking your hips around, or switch to a long step pass by stepping your lead leg over their shield to the far side."

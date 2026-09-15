@@ -90,7 +90,7 @@ description: "Learn to execute the heel strip escape from Ashi Garami. Two-on-on
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a tight Gable grip on your heel in Inside Ashi—how do you establish your two-on-one?",
+      "name": "They have a tight Gable grip on your heel in inside ashi — how do you get your two-on-one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Target the wrist of the hand that is directly cupping under your heel. In a Gable grip, breaking the hand connection is the priority. Wedge your fingers between their clasped hands at the wrist junction, then pry the controlling hand off your heel using both hands for leverage. If the Gable grip is too strong, create angle by hip-escaping to reduce their leverage before re-attempting the pry."
@@ -106,7 +106,7 @@ description: "Learn to execute the heel strip escape from Ashi Garami. Two-on-on
     },
     {
       "@type": "Question",
-      "name": "Your opponent switches from heel hook to toe hold grip as you begin your heel strip—how do you adjust?",
+      "name": "They switch from heel hook to toe hold as you start your heel strip — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recognize the submission switch immediately and redirect your defense. For a toe hold, the primary danger is foot rotation rather than heel exposure. Straighten your leg to resist the toe hold rotation and work to free your foot from their figure-four grip. The two-on-one strip mechanics still apply but target a different grip configuration and force direction."

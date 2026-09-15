@@ -92,7 +92,7 @@ description: "How to execute Controlled Descent in BJJ. Step-by-step guide to sa
     },
     {
       "@type": "Question",
-      "name": "Your opponent has tight harness control and is attempting rear naked choke - how do you time the Controlled Descent?",
+      "name": "When do you time the Controlled Descent against a rear naked choke from standing back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Execute the descent when opponent is reaching for the choke (transitioning their grip from harness to choking position) rather than when they have consolidated the choke grip. This timing exploits the moment when their control is loosest - one hand is moving from control to attack, creating a window where the descent disrupts their submission attempt."

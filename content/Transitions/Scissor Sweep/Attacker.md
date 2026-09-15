@@ -68,7 +68,7 @@ description: "How to execute Scissor Sweep in BJJ. Attacking perspective with se
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal angle to create with your body relative to your opponent when setting up the Scissor Sweep?",
+      "name": "What body angle to your opponent should you create when setting up the scissor sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your body should be positioned approximately 45-90 degrees perpendicular to your opponent. This angle is critical because it creates the leverage necessary for the scissoring leg motion to be effective. Being too square to the opponent reduces leverage and makes the sweep much weaker."
@@ -92,7 +92,7 @@ description: "How to execute Scissor Sweep in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Where should your bottom leg (the pushing leg) be positioned for maximum effectiveness in the Scissor Sweep?",
+      "name": "Where should your bottom pushing leg sit for an effective scissor sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom leg should be positioned across the opponent's lower abdomen or belt line, with your shin making firm contact. This placement provides optimal leverage - too high (near the chest) loses sweeping power and allows the opponent to step over easily, while too low (near the hips) reduces the mechanical advantage of the scissor motion."
@@ -424,7 +424,7 @@ The Scissor Sweep is generally one of the safer techniques in BJJ when practiced
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Classic sweep integrated into guard switching sequences</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Dynamic-Guard-System" data-cta="related-system-card" data-system-slug="systems/dynamic-guard-system" data-system-name="Dynamic Guard System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Dynamic Guard System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Classic sweep integrated into guard switching sequences</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

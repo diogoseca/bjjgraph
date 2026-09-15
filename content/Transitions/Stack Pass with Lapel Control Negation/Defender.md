@@ -56,7 +56,7 @@ description: "How to defend against Stack Pass with Lapel Control Negation in BJ
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting the stack pass against your Ringworm Guard?",
+      "name": "What is the earliest cue that they're stacking your Ringworm Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when the opponent drops their shoulder into your thigh on the trapped-leg side and begins driving their hips forward. This shoulder contact combined with forward hip drive is the hallmark setup for the stack. You may also notice them securing a pants grip at your far knee or hip, which signals they are establishing control for the stacking sequence. The moment you feel your hips beginning to lift off the mat involuntarily, the stack is already progressing and you need to respond immediately."
@@ -72,7 +72,7 @@ description: "How to defend against Stack Pass with Lapel Control Negation in BJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent has achieved significant compression and you can feel the lapel losing tension. What is your best defensive option at this point?",
+      "name": "They've compressed you and your lapel tension is fading: what's your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, your best option shifts from retention to counter-offense or guard transition. Attempt an immediate sweep using the remaining lapel tension combined with the opponent's forward weight commitment. If a sweep is not available, transition to an inverted guard position or switch your lapel configuration to a different guard variant before the grip is stripped. Pure retention at this compression level is unlikely to succeed because the geometric advantage has shifted to the passer."

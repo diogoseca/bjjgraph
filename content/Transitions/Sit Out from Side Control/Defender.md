@@ -56,7 +56,7 @@ description: "Defend against the sit-out escape from side control in BJJ. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most reliable early indicator that your opponent is about to attempt a sit-out from side control bottom?",
+      "name": "Top player: what early cue shows they are setting up a sit-out from side control bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable indicator is the opponent creating a strong pushing frame specifically against your hip with their near-side forearm while simultaneously attempting to generate space at their own hips. This frame creates the separation they need to insert a knee and build base, which is the required precursor to any sit-out. When you feel this combination of hip-directed frame pressure and the opponent turning to their side, the sit-out is imminent. Secondary indicators include planting a hand firmly on the mat with fingers pointing away from you."
@@ -64,7 +64,7 @@ description: "Defend against the sit-out escape from side control in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent has reached turtle during a sit-out attempt - should you try to flatten them back to side control or attack the back?",
+      "name": "They reach turtle during a sit-out: flatten them back to side control or attack the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the back immediately. Once the opponent has established a structural base in turtle with arms and knees supporting their weight, attempting to re-flatten them requires significant energy and has low success rate because the turtle structure resists downward pressure effectively. Instead, immediately establish a seatbelt grip with your chest driving into their upper back and begin inserting hooks. The turtle position that precedes the sit-out is exactly where back takes are highest percentage, and the opponent must pass through this vulnerable window to complete their escape."
@@ -72,7 +72,7 @@ description: "Defend against the sit-out escape from side control in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your side control positioning when you recognize your opponent relies on wrestling-based escapes like the sit-out?",
+      "name": "How do you adjust side control against an opponent who uses wrestling sit-out escapes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Preemptively address the sit-out by maintaining lower and heavier hip-to-hip contact than you would against a purely BJJ shrimping escape game. Keep your near-side hand actively controlling their far hip rather than focusing solely on head control, which directly blocks the knee insertion that precedes every sit-out. Position your hips slightly behind theirs rather than directly on top to remove the space needed for base building. Additionally, be prepared to immediately transition to back control if they reach turtle, because wrestling-trained opponents execute the sit-out rotation faster than you can re-flatten them."

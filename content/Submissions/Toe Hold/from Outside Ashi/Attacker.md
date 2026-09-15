@@ -82,7 +82,7 @@ description: "Master attacking with the toe hold from Outside Ashi-Garami. Figur
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the toe hold primarily attack and how does force transmit through the kinetic chain?",
+      "name": "Which structures does the toe hold attack, and how does force travel up the kinetic chain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The toe hold attacks multiple structures simultaneously through rotational force. The primary targets are the lateral ankle ligaments (anterior talofibular, calcaneofibular, and posterior talofibular ligaments) and the metatarsal joints of the foot. Secondary stress transmits through the tibial-fibular connection to the knee joint, particularly threatening the lateral collateral ligament and meniscus. This multi-joint chain is what makes the toe hold especially dangerous—structural failure can occur at the ankle, the knee, or both simultaneously."
@@ -90,7 +90,7 @@ description: "Master attacking with the toe hold from Outside Ashi-Garami. Figur
     },
     {
       "@type": "Question",
-      "name": "What are the indicators that your opponent is approaching their structural breaking point during the toe hold finish?",
+      "name": "What signs show your opponent is nearing structural failure during a toe hold finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include sudden involuntary muscular tension in the opponent's leg as their body reflexively resists the rotation, audible gasps or sharp inhalations indicating acute pain onset, frantic grip-breaking attempts or pulling motions that increase in urgency, verbal distress signals or cursing, and visible facial grimacing. Critically, the toe hold's structural failure threshold is dangerously close to its pain threshold, meaning damage can begin at the same moment the opponent first feels significant pain. At the first sign of these indicators, be prepared for an immediate tap and release."
@@ -114,7 +114,7 @@ description: "Master attacking with the toe hold from Outside Ashi-Garami. Figur
     },
     {
       "@type": "Question",
-      "name": "What is the most common finishing error that reduces toe hold effectiveness and how do you correct it?",
+      "name": "What is the most common toe hold finishing error, and how do you correct it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common finishing error is gripping too high on the foot or ankle rather than cupping the ball of the foot and toes. Gripping the shin or upper ankle reduces the mechanical lever arm and diminishes rotational force dramatically. The grip must cup the metatarsal heads, creating maximum distance between the fulcrum point (your forearm positioned under the ankle) and the force application point (your hands on the toes and ball). This distance determines the torque generated. Gripping high essentially creates a weak calf slicer rather than an effective toe hold."
@@ -122,7 +122,7 @@ description: "Master attacking with the toe hold from Outside Ashi-Garami. Figur
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip if the opponent's foot becomes sweaty and starts slipping during the finishing sequence?",
+      "name": "Toe hold: their foot is sweaty and slipping during the finish. How do you adjust your grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "For slippery feet, adjust your grip by interlocking your fingers more deeply in the figure-four and squeezing your elbows together to create compression-based control rather than relying solely on friction. Press the foot harder against your chest using your entire upper body, not just your arms, to maintain the fulcrum connection. You can also modify the figure-four by gripping your own wrist rather than your hand for a mechanically tighter lock. Never compensate for grip loss by applying explosive force—if the grip fails completely, release and re-establish rather than spiking."

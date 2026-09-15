@@ -58,7 +58,7 @@ description: "Complete defense guide against Rear Naked Choke from Rear Triangle
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest moment you can recognize the RNC attack from rear triangle and what should your immediate response be?",
+      "name": "From rear triangle bottom, when can you first spot the RNC, and what do you do then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest recognition point is when the opponent releases their control on your free arm or seatbelt grip and begins swimming their hand toward your chin line. Your immediate response is to tuck your chin firmly to your chest, shrug your shoulders up, and bring your free hand to your collarbone ready to intercept the choking wrist. Acting in this early window is the difference between a stalled attack and a locked choke."
@@ -82,7 +82,7 @@ description: "Complete defense guide against Rear Naked Choke from Rear Triangle
     },
     {
       "@type": "Question",
-      "name": "What defensive adjustments should you make if the opponent begins squeezing the triangle legs harder while setting up the RNC?",
+      "name": "They squeeze the rear triangle harder while setting up the RNC — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the triangle squeeze intensifies, immediately grip the opponent's top leg at the ankle or behind the knee with your free hand to resist further tightening. Turn your chin toward the non-choking side and press your trapped arm's elbow against the inner thigh of the bottom triangle leg to create a wedge. Use short controlled breaths through your nose to manage the restricted blood flow. These combined actions prevent the triangle from finishing on its own and maintain enough defensive structure to fight the incoming RNC."

@@ -80,7 +80,7 @@ description: "Execute the aggressive Dead Orchard escape to open guard in BJJ. S
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "When should you deploy the aggressive escape to open guard rather than continuing the incremental frame-and-shrimp approach?",
+      "name": "When should you use the aggressive open guard escape instead of frame-and-shrimp?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Deploy the aggressive escape when the incremental approach has created some angular separation and loosened the grip but stalled after two to three attempts, and the opponent is beginning to re-settle their weight. The prior work has compromised the grip enough for the explosive movement to succeed, but further incremental attempts face diminishing returns. Also deploy when you feel the opponent's weight shift or elevate momentarily, creating a window for the larger movement. Never deploy as the first escape attempt against a fully locked grip."
@@ -88,7 +88,7 @@ description: "Execute the aggressive Dead Orchard escape to open guard in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference in rolling direction between the granby roll escape and the anaconda finishing rotation?",
+      "name": "How does the granby escape's rolling direction differ from the anaconda finishing rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The anaconda finish involves the top player rolling you toward your trapped arm side, which tightens the circular compression. The granby escape rolls you away from the trapped arm side, which opens the compression angle and disrupts the grip mechanics. Rolling in the wrong direction feeds your neck into the choke and can cause immediate submission. The correct direction always moves your body so that your neck separates from the choking arm rather than compressing further into it."
@@ -96,7 +96,7 @@ description: "Execute the aggressive Dead Orchard escape to open guard in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "Your granby roll is partially stuffed and you end up on your side with the grip still partially engaged - what is your immediate response?",
+      "name": "Your granby is stuffed and you land on your side with the grip partly on: what next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not attempt a second granby roll from this compromised position. Instead, immediately switch to the multi-shrimp chain taking advantage of the new angle the partial roll created. The partial roll has changed the compression angle even if it did not break the grip, and this new angle often provides better hip escape mechanics than the original flat position. Use whatever angular gain the partial roll achieved to fuel the shrimp chain, and focus on establishing leg frames from the side-lying position."
@@ -112,7 +112,7 @@ description: "Execute the aggressive Dead Orchard escape to open guard in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "How does the opponent's weight distribution determine which aggressive escape variant you should use?",
+      "name": "How does their weight distribution decide which aggressive dead orchard escape you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Elevated hips favor the granby roll because the space under your shoulders allows loading weight for the inversion and the opponent's high center of gravity makes it harder for them to stuff the roll. Settled heavy weight favors the multi-shrimp chain because there is insufficient space for the granby loading phase, but the shrimp chain can generate distance even under heavy pressure through cumulative small movements. If the opponent's weight is transitioning between states, that transition moment is the optimal window for either variant."
@@ -120,7 +120,7 @@ description: "Execute the aggressive Dead Orchard escape to open guard in BJJ. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the dead orchard grip during your escape and starts driving toward side control - how do you adjust your objective?",
+      "name": "They release the dead orchard grip and drive to side control: how does your objective change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pivot from escape-focused movement to guard retention. The dead orchard grip releasing is actually a partial success, so your priority shifts from breaking a choke to preventing a pass. Get your legs between bodies before the opponent establishes crossface and hip control. Even getting to half guard represents a significant positional improvement from dead orchard. Do not continue the rolling or shrimping movement beyond what is needed to establish guard frames, as excessive movement without the opponent's grip provides nothing and may create passing angles."

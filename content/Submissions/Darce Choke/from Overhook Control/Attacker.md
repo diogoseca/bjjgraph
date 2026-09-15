@@ -78,7 +78,7 @@ description: "Learn to execute the Darce Choke from Overhook Control with expert
     },
     {
       "@type": "Question",
-      "name": "What indicator tells you the choke is positioned correctly for a blood choke rather than a windpipe crush?",
+      "name": "What tells you your Darce is set as a blood choke, not a windpipe crush?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When positioned correctly as a blood choke, the forearm blade sits against the lateral neck over the sternocleidomastoid muscle rather than centered on the trachea. The opponent will not cough or gasp for air but instead will feel immediate lightheadedness and pressure behind their eyes. If you hear choking or gagging sounds, your forearm is too far forward on the throat and you need to adjust the angle laterally to target the carotid arteries instead."
@@ -94,7 +94,7 @@ description: "Learn to execute the Darce Choke from Overhook Control with expert
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins posturing up as you attempt to thread the choking arm - what adjustment prevents escape?",
+      "name": "They posture up as you thread the Darce from overhook — what do you switch to?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent postures, abandon the Darce entry and capitalize on their upward movement with an alternative attack. Drive your overhook weight downward while shooting for a Kimura grip on their rising arm, or release the overhook entirely to hit an arm drag as they create space. Never chase the Darce against a posturing opponent because the neck angle becomes inaccessible. Return to the overhook decision tree and wait for the next forward pressure reaction."
@@ -110,7 +110,7 @@ description: "Learn to execute the Darce Choke from Overhook Control with expert
     },
     {
       "@type": "Question",
-      "name": "What grip adjustment do you make if your choking arm cannot reach your opposite bicep during the figure-four?",
+      "name": "Your Darce arm can't reach your opposite bicep for the figure-four — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you cannot reach the bicep, the arm has not been threaded deep enough. Do not accept a shallow grip on the forearm as this converts the technique into an ineffective crank. Release partial pressure, drive your shoulder forward to collapse the opponent's posture further, and re-thread your arm deeper. Use your chest weight to compress their head and shoulder closer together, shortening the distance your arm must travel. If anatomy prevents a deep grip, transition to an Anaconda or arm triangle instead."

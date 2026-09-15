@@ -98,7 +98,7 @@ description: "Learn to execute the Body Lock to Standing transition. Tactical gu
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains a strong base and your body lock takedown attempts have failed three times - how do you decide between continuing to attack versus disengaging?",
+      "name": "After three failed body lock takedowns, how do you decide between attacking again and disengaging?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Assess three factors: grip fatigue level, scoring context, and remaining attack variety. If your grip strength is declining and continued holding risks losing the body lock entirely to a grip break, disengage proactively while you still have energy for an explosive separation. If competition scoring penalizes stalling, the reset prevents a penalty. If you have exhausted your primary attack chains without success, the reset allows re-entry from a different angle. However, if untried attack options remain and your grip is strong, continuing to attack is likely superior."
@@ -114,7 +114,7 @@ description: "Learn to execute the Body Lock to Standing transition. Tactical gu
     },
     {
       "@type": "Question",
-      "name": "Your opponent shoots a double leg the moment you begin releasing your body lock grip - what went wrong and how do you correct it?",
+      "name": "They shoot a double as you release the body lock: what went wrong and how do you fix it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The error was telegraphing the disengage through preliminary grip loosening or weight shifting before your frames were established. Your opponent read the intention and timed their shot to exploit the transition gap. The correction involves maintaining full chest pressure and grip tension until the exact moment of explosive separation. Do not gradually loosen your grip. Instead, transition from locked grip directly to hip frames in a single swift motion and execute the push-off immediately, giving no readable cues. If the shot does land, sprawl immediately and transition to front headlock control."

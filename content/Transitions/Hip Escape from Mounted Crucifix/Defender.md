@@ -56,7 +56,7 @@ description: "Prevent the hip escape from mounted crucifix in BJJ. Guide to main
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt the hip escape from mounted crucifix?",
+      "name": "What is the earliest cue that they will attempt the hip escape from mounted crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent firmly planting both feet on the mat and loading their hips by pressing their lower back into the ground. This preparatory position is necessary to generate bridging force and typically occurs one to two seconds before the explosive movement. Secondary cues include changes in breathing pattern, subtle hip rocking, and core tensing. Recognizing these preparatory movements allows you to preemptively tighten control before the escape begins."
@@ -80,7 +80,7 @@ description: "Prevent the hip escape from mounted crucifix in BJJ. Guide to main
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps timing their escape attempts to your submission setups - how do you break this pattern?",
+      "name": "They time their crucifix escapes to your submission setups; how do you break that pattern?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Vary your attack rhythm by feinting submissions without fully committing, forcing the opponent to react defensively without receiving the weight shift they rely on for escape timing. Alternate between genuine submission threats and pressure maintenance phases so the opponent cannot predict when the weight shift will occur. You can also bait the escape by simulating a weight shift and then immediately tightening control when they initiate the bridge, catching them in a compromised position with depleted energy."

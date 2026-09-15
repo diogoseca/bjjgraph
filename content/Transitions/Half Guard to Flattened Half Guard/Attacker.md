@@ -74,7 +74,7 @@ description: "Master the half guard flattening technique to neutralize bottom pl
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the correct order of control points to establish when flattening your opponent from half guard top?",
+      "name": "In what order do you establish control points to flatten your opponent from half guard top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Secure the crossface first, then deny the underhook, and only then walk your hips forward to collapse their frames. The crossface turns their head away and prevents near-side arm framing, and it comes first because it provides the most immediate structural advantage and enables everything else in the sequence. Deny the underhook by controlling their near arm with your far-side hand or a whizzer, then walk the hips forward to finish collapsing their frames."
@@ -82,7 +82,7 @@ description: "Master the half guard flattening technique to neutralize bottom pl
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a strong knee shield preventing you from establishing chest-to-chest contact. How do you collapse it without using your hands?",
+      "name": "Their knee shield blocks chest contact—how do you collapse it without using your hands?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips and body weight directly into the knee shield's shin, using forward pressure to fold the shin flat against their body. Simultaneously pin their bottom knee to the mat with your near-side knee to remove the shield's structural foundation. The knee shield collapses under sustained body weight pressure, not from being pushed by hands, which would create space between your chest and theirs."
@@ -98,7 +98,7 @@ description: "Master the half guard flattening technique to neutralize bottom pl
     },
     {
       "@type": "Question",
-      "name": "Your opponent is fighting hard for the underhook as you attempt to flatten them. What are your two primary responses?",
+      "name": "They fight hard for the underhook as you flatten them—what are your two primary responses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Whizzer their underhook arm while driving the crossface harder, or switch to a Kimura grip if they overcommit the arm. The strong whizzer (overhook) combined with increased crossface pressure limits their leverage and prevents them from turning to their side. The Kimura option targets their exposed arm when they overcommit, creating a submission threat that forces them to retract the arm and abandon the underhook battle."
@@ -106,7 +106,7 @@ description: "Master the half guard flattening technique to neutralize bottom pl
     },
     {
       "@type": "Question",
-      "name": "You have successfully flattened your opponent but they begin small hip escapes to create space. What is the optimal response?",
+      "name": "You've flattened them but they start small hip escapes—what is the optimal response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their hip escape with your pressure by adjusting your angle to close the gap they create. Use their shrimping motion as a trigger to initiate your passing sequence rather than fighting to reset the flat position. Their hip escape creates the angle needed for a knee slice pass, so time your knee advancement to coincide with their movement rather than resisting it."
@@ -114,7 +114,7 @@ description: "Master the half guard flattening technique to neutralize bottom pl
     },
     {
       "@type": "Question",
-      "name": "What is the primary grip or control position that must be maintained throughout the entire flattening sequence?",
+      "name": "Which control must be maintained without interruption throughout the flattening sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface must be maintained throughout the entire transition without interruption. Losing the crossface immediately allows the bottom player to turn to face you, re-establish frames, recover their knee shield, and return to active half guard. All other grip changes and position adjustments should happen sequentially while the crossface remains the constant anchor point."

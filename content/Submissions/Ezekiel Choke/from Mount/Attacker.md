@@ -76,7 +76,7 @@ description: "Learn to attack with the Ezekiel Choke from mount. Step-by-step sl
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Ezekiel Choke from Mount primarily compress to achieve the submission?",
+      "name": "Which anatomical structures does the Ezekiel Choke from mount compress to finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Ezekiel Choke targets the carotid arteries on both sides of the neck through bilateral compression. The blade of the forearm presses against one carotid while the sleeve-grip forearm compresses the other side, creating a blood choke that restricts cerebral blood flow. Proper forearm angle ensures arterial compression rather than tracheal pressure, which is both more effective and safer than a windpipe crush."
@@ -84,7 +84,7 @@ description: "Learn to attack with the Ezekiel Choke from mount. Step-by-step sl
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a strong chin tuck as you position the blade forearm from mount - what adjustment ensures the choke reaches the throat?",
+      "name": "They chin tuck as you place the blade forearm from mount — how do you reach the throat?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Angle the blade hand entry from the side of the neck rather than trying to drive directly over the chin. Use your sleeve-grip hand to momentarily push the jaw upward while simultaneously dropping your body weight to create a brief opening for the forearm to slide beneath the chin to the throat. From mount, you can also shift toward high mount to change the attack angle. If the chin tuck is fully established before your forearm crosses, consider transitioning to a cross collar choke or americana rather than forcing the Ezekiel against a set defense."
@@ -100,7 +100,7 @@ description: "Learn to attack with the Ezekiel Choke from mount. Step-by-step sl
     },
     {
       "@type": "Question",
-      "name": "During the finishing squeeze from mount, your opponent plants their feet and loads an explosive bridge - how do you respond?",
+      "name": "They load an explosive bridge as you squeeze the Ezekiel from mount — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the choke is nearly locked with the forearm fully across the throat and the loop closed, drive your hips forward and down while widening your knees to absorb the bridge and accelerate the finish before the sweep develops. If the choke setup is still incomplete and the bridge is developing force, release the choke immediately and post one or both hands to defend the sweep. Maintaining mount is more valuable than chasing a partially established Ezekiel, because you retain the dominant position and can reattempt once you resecure control."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Ezekiel Choke from mount. Step-by-step sl
     },
     {
       "@type": "Question",
-      "name": "Your sleeve grip begins to slip as you apply finishing pressure from mount - what grip adjustment maintains the choking structure?",
+      "name": "Your sleeve grip slips as you finish the Ezekiel from mount — what grip adjustment holds it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the sleeve grip begins slipping during the finish, curl your fingers tighter around the cuff fabric and pull your grip-hand elbow closer to your ribs to take up slack in the sleeve. Simultaneously increase body weight pressure through the blade forearm to maintain choking compression while you resecure the grip. If the grip has slipped to the point where only fingertips remain in the cuff, the structural integrity of the choke is compromised. In that case, release smoothly, re-establish mount control with hands on the mat, and set up a fresh attempt with a deeper grip rather than fighting a failing structure."

@@ -64,7 +64,7 @@ description: "Master defending the Toreando Pass from Seated Guard. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has redirected both your legs to your left side—what is the correct immediate response?",
+      "name": "They push both your legs to your left from seated guard: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately hip escape to your left (the same direction your legs were pushed) while sitting up on your right elbow or hand. This matches the direction of the pass, keeping your hips facing the passer rather than giving them your back. As you hip escape, pull your knees to your chest to shorten the lever the passer is controlling. If the passer commits to passing to your right side, your leftward hip escape puts you in position to reinsert your legs between you and the passer. Never hip escape in the opposite direction as this turns your back."
@@ -80,7 +80,7 @@ description: "Master defending the Toreando Pass from Seated Guard. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why is sitting up and closing guard an effective counter to the toreando, and when should you not attempt it?",
+      "name": "Why does sitting up to close guard counter the toreando, and when should you not try it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sitting up and closing guard works because the toreando requires the passer to grip your legs, which means their hands are occupied and cannot prevent you from wrapping your legs around their waist. The counter is most effective when the passer is close enough to reach your legs but has not yet redirected them. Do not attempt it when the passer has already redirected your legs to one side and is mid-lateral-step, as your legs are pinned and you cannot close guard. Also avoid it if the passer has strong collar grips that prevent you from sitting up."

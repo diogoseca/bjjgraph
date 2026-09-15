@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "Your opponent begins transitioning to Inside Ashi-Garami as you start creating space - how do you adjust your extraction?",
+        "question": "Extracting from 50-50 bottom, they shift to inside ashi: how do you adjust the extraction?",
         "answer": "Accelerate the extraction immediately because Inside Ashi-Garami provides far superior control and heel exposure than standard 50-50. If their transition is incomplete, you have a window where their hooks are loose during reconfiguration. If they complete the transition, abort extraction and address the more dangerous position first by re-establishing heel defense and grip fighting from the new configuration before reattempting.",
         "answer_line": "Accelerate if transition incomplete",
         "distractors": {
@@ -490,7 +490,7 @@
         }
       },
       {
-        "question": "Your opponent begins aggressive two-on-one grip breaks on your heel control - what is the optimal response?",
+        "question": "Holding 50-50, they attack your heel grip two-on-one: what is your best response?",
         "answer": "Immediately escalate your offensive threat by tightening your heel hook finishing position while they dedicate both hands to grip breaking. This creates a race condition: they must break your grip before you finish the submission. Their two-on-one commitment to grip fighting means they have zero hands defending the heel hook, making this your highest-percentage finishing window during the entire exchange.",
         "answer_line": "Tighten heel hook, race to finish",
         "distractors": {
@@ -504,7 +504,7 @@
         }
       },
       {
-        "question": "When should you transition from maintaining 50-50 to pursuing Inside Ashi-Garami during opponent's extraction?",
+        "question": "When should you give up retaining 50-50 and switch to inside ashi during their extraction?",
         "answer": "Transition when you recognize that 50-50 retention is failing despite your best grip fighting and hip following efforts. The key indicator is when opponent has broken your primary heel grip and achieved partial hip separation. Rather than fighting to re-establish a compromised 50-50, use their extraction momentum to reposition your hooks into Inside Ashi-Garami configuration, converting a losing retention battle into a positional advancement.",
         "answer_line": "When primary grip breaks, hips gap",
         "distractors": {
@@ -532,7 +532,7 @@
         }
       },
       {
-        "question": "How does maintaining offensive pressure throughout the extraction attempt benefit your retention strategy?",
+        "question": "How does constant submission pressure help you retain 50-50 during their extraction?",
         "answer": "Constant submission threats force opponent to split their attention between extraction mechanics and submission defense, significantly slowing or preventing the escape. An opponent who must simultaneously break grips, protect their heel, create space, and maintain defensive knee rotation cannot execute the extraction sequence with full efficiency. Each submission threat they must address costs them time, energy, and focus that would otherwise go toward escaping.",
         "answer_line": "Splits their focus, slows escape",
         "distractors": {

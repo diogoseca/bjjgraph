@@ -56,7 +56,7 @@ description: "How to defend against Reverse X to Single Leg X Entry in BJJ. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating Reverse X to Single Leg X Entry?",
+      "name": "What is the earliest cue your opponent is entering single leg X from reverse X?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling your opponent's far hook behind your knee loosen or release while simultaneously their ankle or heel grip tightens. This combination indicates they are preparing to reconfigure hooks - abandoning the behind-knee position while reinforcing the anchor grip that holds the entire transition together. Reacting to this initial cue gives you the maximum defensive window before the new position establishes."
@@ -64,7 +64,7 @@ description: "How to defend against Reverse X to Single Leg X Entry in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Why is driving forward the correct defensive response rather than stepping backward during the transition?",
+      "name": "Why drive forward rather than step back during their reverse X to single leg X entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stepping backward provides the attacker with exactly the space and momentum they need to complete the hip rotation and establish Single Leg X hooks. Forward pressure during the hook reconfiguration window collapses the attacker's structure at their weakest point, when they have released one set of hooks but not yet established another. The attacker's lack of structural integrity during this window means forward pressure can flatten them and lead directly to a passing position."
@@ -80,7 +80,7 @@ description: "How to defend against Reverse X to Single Leg X Entry in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "If you successfully strip the attacker's ankle grip during the transition, what should your immediate follow-up be?",
+      "name": "You strip their ankle grip during the single leg X entry. What is your immediate follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately step your freed leg back to create distance while maintaining control of their upper body. Do not simply stand in place - the attacker will attempt to re-grab your ankle or transition to butterfly hooks or seated guard to maintain some form of engagement. Step back to clear their range, then re-engage from a neutral standing position where you can choose your passing approach. Alternatively, if you can maintain forward pressure, drive immediately to headquarters or knee-on-belly to capitalize on their momentary lack of guard structure."
@@ -88,7 +88,7 @@ description: "How to defend against Reverse X to Single Leg X Entry in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the transition and established full Single Leg X - what defensive priorities should you now focus on?",
+      "name": "They complete full single leg X on you. What are your defensive priorities now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once Single Leg X is established, shift to Single Leg X top defensive principles: widen your base with your free leg positioned diagonally away from sweep direction, bend your knees to lower center of gravity, align your trapped knee toward the opponent to reduce their leverage, and actively strip their sleeve and upper body grips that enhance sweeping power. Address the bottom hook first as it represents the primary sweeping threat, then work to clear the top hook. Do not attempt to explosively rip your leg free as this rarely works and exhausts you."

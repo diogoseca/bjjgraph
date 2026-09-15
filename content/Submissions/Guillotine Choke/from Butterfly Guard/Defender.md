@@ -74,7 +74,7 @@ description: "Defend the Guillotine Choke from Butterfly Guard. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What is the primary defensive priority when you feel a guillotine grip being established from butterfly guard?",
+      "name": "What is your first defensive priority as a guillotine grip is set from butterfly guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary priority is preventing the grip from locking. Strip the choking wrist with both hands immediately while it is still loose, before the attacker can connect their hands. A loose single-hand guillotine grip is relatively easy to peel away, but once both hands lock together with elbows pinched, the grip becomes extremely difficult to break and your options narrow to angle changes and stacking rather than grip stripping."
@@ -90,7 +90,7 @@ description: "Defend the Guillotine Choke from Butterfly Guard. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What defensive options remain if the attacker has already locked a full grip and begun falling back with hook elevation?",
+      "name": "The guillotine grip is locked and they fall back with hooks elevated — what defense remains?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is to drive forward aggressively to stack the attacker, pinning their hips to the mat to eliminate hook elevation power. Simultaneously work to clear at least one hook by pushing the knee to the mat. If you can flatten them and remove the hooks, the choke loses most of its finishing power and you can work to strip the grip from top position. If you cannot escape, tap immediately rather than risking unconsciousness."

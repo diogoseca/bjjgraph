@@ -10,7 +10,7 @@ import { journey } from "../dsl"
  * regression gate for the core loop; if gameplay breaks, pushes stop.
  */
 
-const script = async (j: ReturnType<typeof journey>) => {
+const script = async (j: ReturnType<typeof journey>, page: any) => {
   await j.boot("/")
   await j.land("Mount Top")
 
@@ -37,8 +37,10 @@ const script = async (j: ReturnType<typeof journey>) => {
   // commit with a rigged-successful resolve + rigged outcome draw
   await j.rig("resolve", [0.01]) // < moveChance ⇒ success
   await j.rig("outcome", [0.01]) // first outcome bucket (success target)
+  const isSubmission = await page.evaluate((t: string) => (window as any).__neural.nodes.find((n: any) => n.t === t)?.ty === "submissions", target)
   await j.pick(target)
-  await j.advance(6000) // travel + impact + landing (or finish)
+  await j.advance(6000) // travel + landing (or impact)
+  if (isSubmission) { await j.pick(target); await j.advance(6000) }
   await j.expectBeat("commit")
 
   const beats = (await j.beats()).map((b) => b.beat)
@@ -47,14 +49,14 @@ const script = async (j: ReturnType<typeof journey>) => {
 }
 
 test("golden path: land → read → drill → pick → hit @curated", async ({ page }) => {
-  const run = await script(journey(page))
+  const run = await script(journey(page), page)
   expect(run.trail.length).toBeGreaterThanOrEqual(1)
   await journey(page).keyframe("golden-path-final")
 })
 
 test("golden path replays deterministically (frame-exact)", async ({ page }) => {
-  const run1 = await script(journey(page))
-  const run2 = await script(journey(page)) // fresh boot inside script
+  const run1 = await script(journey(page), page)
+  const run2 = await script(journey(page), page) // fresh boot inside script
   expect(run2.options).toEqual(run1.options)
   expect(run2.trail).toEqual(run1.trail)
   expect(run2.beats).toEqual(run1.beats)
@@ -76,6 +78,8 @@ test("win path: rigged submission finish ends the roll", async ({ page }) => {
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
   await j.pick(sub!)
+  await j.advance(3000)
+  await j.pick(sub!) // Finish from the established submission state
   await j.advance(8000)
   await j.expectBeat("finish")
   expect(await j.lastOutcome()).toBe("win")

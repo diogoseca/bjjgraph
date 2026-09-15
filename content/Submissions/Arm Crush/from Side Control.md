@@ -313,8 +313,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 - [[Positions/Side Control]]
 - [[Positions/North-South]]
-- [[Positions/Side Control/Kuzure Kesa-Gatame]]
-- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 - [[Positions/Shoulder of Justice]]
 
 
@@ -333,7 +332,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 - [[Submissions/North-South Choke]]
 - [[Submissions/Wrist Lock]]
 - [[Positions/Side Control]] - Primary attacking position - establishes the control needed for submission setup
-- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Ideal setup position - arm is already trapped in perfect configuration
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Ideal setup position - arm is already trapped in perfect configuration
 - [[Positions/North-South]] - Alternative position - allows Arm Crush variation from opposite angle
 - [[Transitions/Side Control to North-South]] - Position change - if opponent begins escaping side control
 - [[Positions/Kimura Trap]] - Related system - Arm Crush can be integrated into Kimura-based attack sequences

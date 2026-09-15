@@ -56,7 +56,7 @@ description: "Master defending the backstep back take from reverse half guard. R
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is initiating a backstep from reverse half guard?",
+      "name": "In reverse half guard, what are the earliest cues your opponent is starting a backstep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first cue is a change in weight distribution—you feel the opponent's weight shift from both legs to the trapped leg side as they prepare to lift the free leg. Simultaneously, their upper body grip may tighten or transition from crossface to seatbelt configuration. These weight and grip changes typically precede the stepping motion by one to two seconds, providing your defensive window for reaction."

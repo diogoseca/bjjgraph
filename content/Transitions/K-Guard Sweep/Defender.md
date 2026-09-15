@@ -80,7 +80,7 @@ description: "Master defending the K-Guard Sweep in BJJ. Recognition cues, defen
     },
     {
       "@type": "Question",
-      "name": "Your opponent attempts the K-Guard Sweep and you successfully defend - what immediate action prevents a follow-up attack?",
+      "name": "You defended the K-guard sweep — what immediate action prevents their follow-up attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After defending the initial sweep, immediately re-establish dominant grips and forward pressure to prevent the bottom player from reloading hooks for another attempt or transitioning to secondary attacks like back takes or leg entanglements. Control their far hip, drive crossface pressure to flatten their spine, and begin systematic passing. The brief window after a failed sweep is your best opportunity to advance position, as their guard structure is temporarily weakened from the offensive commitment."

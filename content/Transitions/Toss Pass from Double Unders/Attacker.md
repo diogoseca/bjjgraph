@@ -82,7 +82,7 @@ description: "Master the Toss Pass attacker strategy from Double Unders. Step-by
     },
     {
       "@type": "Question",
-      "name": "How does grip positioning differ between the standard stack pass and the toss pass from double unders?",
+      "name": "How does the grip differ between a standard stack pass and the toss pass from double unders?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "For the toss pass, the grip should be slightly asymmetric compared to the centered grip used for stacking. Shift your clasped hands subtly toward the side you intend to toss, pre-loading the lateral vector while still appearing to drive forward. The grip must remain deep behind the opponent's back to maintain control throughout the explosive redirection - shallow grips will separate during the toss motion, releasing the legs prematurely."
@@ -90,7 +90,7 @@ description: "Master the Toss Pass attacker strategy from Double Unders. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent is successfully framing against your forward pressure with stiff arms on your shoulders - how do you transition to the toss pass?",
+      "name": "They stiff-arm your shoulders against your stack pressure — how do you switch to the toss pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their stiff arm frames are oriented to resist vertical stacking pressure, making this the ideal moment for the toss pass. Continue driving forward to maintain their frame commitment, then explosively redirect their legs laterally to the side where their frame is weaker. The stiff arms cannot redirect quickly enough to resist the lateral force, and by the time they attempt to adjust, your chest should already be dropping to the mat on the passing side."

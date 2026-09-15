@@ -98,7 +98,7 @@ description: "Learn to complete the guard pass from flattened half guard. Expert
     },
     {
       "@type": "Question",
-      "name": "Why should you curl your heel toward your buttock during extraction rather than extending the leg straight?",
+      "name": "Completing the pass from flattened half, why curl your heel to your glute when extracting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Curling the heel makes your lower leg compact and spherical, which is extremely difficult for the opponent to catch with a last-ditch re-hook. An extended straight leg presents the ankle and calf as easy targets for re-hooking. Additionally, the curled position places your leg in the correct configuration for establishing side control base immediately upon clearing the hook, eliminating the pause between extraction and position consolidation."

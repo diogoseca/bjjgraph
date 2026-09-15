@@ -68,7 +68,7 @@ description: "How to execute the High Mount Transition from Gogoplata Control in
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What defensive movement from your opponent creates the optimal opportunity for high mount transition?",
+      "name": "Which defensive movement best opens the gogoplata-to-high-mount transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward defensive movement such as rolling forward, driving into you, or attempting to posture through the gogoplata creates the optimal opportunity. This forward momentum assists the transition by providing upward energy that you redirect into mount establishment. Lateral escapes do not provide the same momentum advantage."
@@ -84,7 +84,7 @@ description: "How to execute the High Mount Transition from Gogoplata Control in
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on your hip as you attempt to swing your leg over - what adjustment do you make?",
+      "name": "They post a hand on your hip as you swing your leg over from gogoplata — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Swim your knee inside their posting arm before they can fully establish the frame, using your hip escape momentum to beat their hand. Alternatively, transition to knee on belly as an intermediate position, using that platform to clear the frame before advancing to mount. Do not fight the frame directly with strength."
@@ -92,7 +92,7 @@ description: "How to execute the High Mount Transition from Gogoplata Control in
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between landing in high mount versus low mount after this transition?",
+      "name": "After this transition, why does landing in high mount beat landing in low mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "High mount with knees in armpits severely limits opponent's bridge power and hip escape options, making retention much easier. Low mount allows full bridge range of motion and stronger shrimping. The momentum from transition should carry you directly into high mount position rather than settling in low mount."
@@ -108,7 +108,7 @@ description: "How to execute the High Mount Transition from Gogoplata Control in
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully traps your leg in half guard during the transition - what is your response?",
+      "name": "They trap your leg in half guard during the gogoplata-to-mount transition — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept half guard top as a temporary position rather than fighting to free the leg immediately. Maintain heavy upper body pressure to prevent guard recovery and work standard half guard passing sequences. The half guard top is still significant positional advancement from bottom gogoplata control."

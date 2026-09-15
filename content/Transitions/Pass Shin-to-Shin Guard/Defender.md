@@ -56,7 +56,7 @@ description: "Complete defensive guide against Shin-to-Shin Guard passing attemp
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a pass attempt is beginning from the top of your shin-to-shin guard?",
+      "name": "What is the earliest cue that a pass is starting against your shin-to-shin guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the passer establishing dominant upper body grips, particularly contesting your sleeve control and securing collar or lapel grips. This grip fighting precedes any physical clearing attempt and signals their intention to pass. Responding at this stage by reinforcing your own grips and increasing shin pressure gives you maximum defensive advantage before clearing even begins."
@@ -88,7 +88,7 @@ description: "Complete defensive guide against Shin-to-Shin Guard passing attemp
     },
     {
       "@type": "Question",
-      "name": "What determines whether you should reinforce the shin connection or transition to a different guard position?",
+      "name": "In shin-to-shin, what determines whether you reinforce the shin connection or switch guards?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Reinforce when your shin angle and pressure are still generating effective off-balancing force, your upper body grips are intact, and the passer's clearing attempt is not progressing despite their effort. Transition when the shin connection angle has deteriorated below effective leverage, the passer has established grip dominance over your upper body, or their clearing movements are creating space you can redirect into Single Leg X or X-Guard entries rather than wasting on reconnection."

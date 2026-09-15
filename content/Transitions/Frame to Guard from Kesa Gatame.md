@@ -330,7 +330,7 @@ The frame to guard escape integrates into the complete Kesa Gatame bottom escape
 
 - [[Transitions/Back Take from Kesa Gatame]] - Alternative escape exploiting the exposed back unique to Kesa Gatame geometry
 
-- [[Transitions/Frame Escape from Kuzure Kesa]] - Similar frame-based escape from the related modified scarf hold position
+- [[Transitions/Frame Escape from Kuzure Kesa Gatame]] - Similar frame-based escape from the related modified scarf hold position
 
 - [[Positions/Side Control]] - Parent category of the Kesa Gatame position family
 
@@ -338,7 +338,7 @@ The frame to guard escape integrates into the complete Kesa Gatame bottom escape
 
 - [[Positions/Mount]] - Counter risk position if opponent capitalizes on escape movement to advance
 
-- [[Transitions/Frame from Reverse Scarf Hold]] - Similar frame escape technique applied from the reverse scarf hold variation
+- [[Transitions/Frame from Ushiro Kesa Gatame]] - Similar frame escape technique applied from the reverse scarf hold variation
 
 
 </section>

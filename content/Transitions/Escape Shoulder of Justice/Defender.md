@@ -56,7 +56,7 @@ description: "Maintain Shoulder of Justice control against escape attempts. Comp
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is preparing a planned escape rather than enduring passively?",
+      "name": "What is the earliest cue that they are preparing an escape rather than just enduring?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest and most reliable cue is the bottom player establishing deliberate nasal breathing with a steady rhythm. This indicates they have shifted from panic or passive endurance to active escape preparation, as controlled breathing is the necessary first step of any systematic escape from Shoulder of Justice. Secondary cues include their far foot planting flat on the mat and their near forearm beginning to create a subtle wedge against your chest."
@@ -64,7 +64,7 @@ description: "Maintain Shoulder of Justice control against escape attempts. Comp
     },
     {
       "@type": "Question",
-      "name": "Why is hip-to-hip connection more important than shoulder pressure intensity for preventing the escape?",
+      "name": "Why does hip-to-hip connection prevent the escape better than heavy shoulder pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip-to-hip connection physically blocks the primary escape mechanism, which is the hip escape that creates lateral distance. Shoulder pressure creates discomfort and provokes reactions, but it is the hip connection that actually prevents the bottom player's hips from moving away. A top player with moderate shoulder pressure but excellent hip connection is far more difficult to escape than one with maximum shoulder pressure but disconnected hips, because the bottom player can shrimp away regardless of jaw discomfort."
@@ -72,7 +72,7 @@ description: "Maintain Shoulder of Justice control against escape attempts. Comp
     },
     {
       "@type": "Question",
-      "name": "The bottom player creates a forearm micro-frame without extending their arm. Should you attack the arm?",
+      "name": "They build a forearm micro-frame without extending the arm: should you attack that arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No; a correct micro-frame stays inside the centerline, so collapse it with pressure instead of trying to isolate the arm. A properly executed micro-frame keeps the arm within the bottom player's centerline and is not vulnerable to kimura or americana attacks. Attempting to isolate a protected arm requires you to release pressure and shift your weight — exactly the weight shift the bottom player is waiting for to execute their hip escape. Instead, increase your shoulder pressure angle and drive your weight through the micro-frame to collapse it structurally while maintaining hip connection."

@@ -74,7 +74,7 @@ description: "How to execute Stack Pass with Lapel Control Negation in BJJ. Atta
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical principle that makes the stack pass effective against Ringworm Guard's lapel wrap?",
+      "name": "Why does stacking work against the Ringworm Guard lapel wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stacking the opponent folds their body so that the distance between the lapel wrap point on your leg and the opponent's gripping hand shortens dramatically. This shortening creates slack in the lapel configuration because the wrap was taut when the opponent was extended. The compression reduces the wrap's mechanical advantage, making the grip easier to break and the leg easier to extract. Without the stack, the lapel remains taut and nearly impossible to strip against a committed grip."
@@ -82,7 +82,7 @@ description: "How to execute Stack Pass with Lapel Control Negation in BJJ. Atta
     },
     {
       "@type": "Question",
-      "name": "Your opponent hip escapes during the stack attempt and re-tensions the lapel wrap. How do you adjust?",
+      "name": "They hip escape and re-tension the lapel during your stack: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their hip escape by redirecting your driving angle to match their new centerline position. Do not continue driving in the original direction, as this creates a sweeping angle the opponent can exploit. If they have created significant space and the lapel is fully re-tensioned, it is better to disengage from the stack attempt entirely and reset to a standing extraction or switch to a different passing approach like the Long Step Around Ringworm rather than forcing a compromised stack."
@@ -106,7 +106,7 @@ description: "How to execute Stack Pass with Lapel Control Negation in BJJ. Atta
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-grips the lapel within a second of you stripping it. What are you doing wrong and how do you fix it?",
+      "name": "They re-grip the lapel instantly after you strip it: what's the fix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common cause is treating the grip strip and leg extraction as two separate actions with a pause between them. They must be drilled as one continuous motion where the leg is already pulling backward the instant the lapel comes free. Additionally, you should stuff the freed lapel tail under the opponent's body or behind their back immediately after stripping to make it physically unreachable. If re-gripping persists, consider controlling their grip-fighting wrist for 1-2 seconds after the strip to buy time for extraction."

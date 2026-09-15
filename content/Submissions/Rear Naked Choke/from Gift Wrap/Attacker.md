@@ -70,7 +70,7 @@ description: "How to finish the Rear Naked Choke from Gift Wrap. Step-by-step gu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Rear Naked Choke from Gift Wrap compress to produce unconsciousness?",
+      "name": "Which structures does the RNC from gift wrap compress to produce unconsciousness?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke compresses both carotid arteries simultaneously, restricting blood flow to the brain. The radial bone of the forearm presses against one carotid artery while the bicep muscle compresses the opposite carotid. The crook of the elbow aligns with the center of the throat to avoid tracheal pressure. This bilateral compression can produce unconsciousness within 6-10 seconds of a properly applied choke."
@@ -78,7 +78,7 @@ description: "How to finish the Rear Naked Choke from Gift Wrap. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "Why is the Gift Wrap arm trap critical to the success rate of this RNC variation compared to a standard back mount RNC?",
+      "name": "Why does the gift wrap arm trap raise the RNC success rate over a standard back mount RNC?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Gift Wrap removes one of the defender's hands from the neck defense equation. Standard RNC defense relies on two-handed grip fighting to prevent the choking arm from seating under the chin. With one arm trapped across the body, the defender can only use a single hand for chin defense, which is fundamentally insufficient against a patient attacker. This reduction from two-handed to one-handed defense is what elevates the success rate from roughly 40% to 65%."
@@ -86,7 +86,7 @@ description: "How to finish the Rear Naked Choke from Gift Wrap. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts using their free hand to push your choking arm away from their chin - what grip adjustment do you make?",
+      "name": "From gift wrap, their free hand pushes your choking arm off the chin — what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the defender pushes your choking arm outward, swim your hand inside their defending wrist and re-angle your approach from the opposite side of the chin. Alternatively, use your non-choking hand to peel their defending grip by controlling their wrist, then immediately return to threading the choking arm under the chin. The key insight is that they only have one hand to defend with, so any time they commit it to blocking one angle, the opposite angle opens."
@@ -94,7 +94,7 @@ description: "How to finish the Rear Naked Choke from Gift Wrap. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "What are the key safety considerations when applying the Rear Naked Choke from Gift Wrap in training?",
+      "name": "What are the key safety points when applying the RNC from gift wrap in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply pressure progressively over 3-5 seconds minimum—never snap or jerk the choke. Ensure the forearm is positioned across the carotid arteries, not the trachea, by aligning the elbow crook with the throat center. Monitor your partner continuously for tap signals including verbal taps, hand taps, foot taps, or going limp. Release immediately on any tap signal and guide them to a side-lying recovery position. Never hold past the tap for any reason."
@@ -110,7 +110,7 @@ description: "How to finish the Rear Naked Choke from Gift Wrap. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "What is the point of no return in this submission where the defender can no longer effectively escape?",
+      "name": "In the RNC from gift wrap, at what point can the defender no longer escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no return occurs when the figure-four configuration is fully locked—choking hand gripping the opposite bicep, support hand behind the head, and chest expansion begins. At this stage, single-hand defense cannot break the grip structure and the defender's trapped arm has been released too late to contribute meaningfully. Before this point, any disruption during the grip transition can prevent the finish. After the lock, the only defense is tapping."

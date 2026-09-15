@@ -78,7 +78,7 @@ description: "Learn to finish the rear naked choke from standing back control. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly and you cannot thread your forearm under — what adjustment creates the opening?",
+      "name": "Standing back control: they tuck the chin hard, how do you create the opening for the RNC?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Thread the forearm along the jawline rather than fighting to go under the chin directly. Apply pressure to the mandible which forces the chin upward and creates the gap. Alternatively, use the knuckle of your index finger as a wedge along the jaw line to create space. You can also threaten a level change or takedown to force their hands away from their neck, then thread when the chin lifts reactively during the balance adjustment."
@@ -86,7 +86,7 @@ description: "Learn to finish the rear naked choke from standing back control. S
     },
     {
       "@type": "Question",
-      "name": "What are the key differences between finishing the choke standing versus following the opponent to the ground?",
+      "name": "How does finishing the RNC standing differ from following your opponent to the ground?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standing finishes rely on dynamic balance management and exploiting brief defensive windows while the opponent's hands are occupied with balance. Ground finishes provide stability through mat friction and hooks, allowing a more patient squeeze. The standing position gives less time but more defensive overload opportunities. Most high-level finishes occur during the transition — the descent splits the opponent's attention between fall protection and choke defense, creating the best window to complete the lock."
@@ -94,7 +94,7 @@ description: "Learn to finish the rear naked choke from standing back control. S
     },
     {
       "@type": "Question",
-      "name": "What indicators tell you the choke is properly positioned on the carotid arteries rather than the trachea?",
+      "name": "What tells you the standing RNC is on the carotids rather than the trachea?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A properly positioned blood choke produces steady bilateral pressure without significant pain complaints from the training partner. The opponent will feel lightheaded and their vision may narrow before feeling unable to breathe. If the opponent reports sharp pain in the throat, coughs, or gags, the forearm is likely on the trachea. The elbow should be centered on the sternum with the forearm blade sitting in the soft tissue lateral to the windpipe on the choking side."
@@ -110,7 +110,7 @@ description: "Learn to finish the rear naked choke from standing back control. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to turn their shoulders explosively while you have the harness but no choke locked — how do you respond?",
+      "name": "Standing back control with harness but no choke: how do you answer an explosive shoulder turn?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the rotation by circling with the opponent while maintaining chest-to-back connection and harness grip. Do not fight their momentum head-on. If they complete a partial turn and you lose back angle, transition to a front headlock or arm triangle setup rather than forcing back control against their rotation. If they only turn slightly, use the momentum to take them down and establish grounded back control where their rotation options are limited by the mat."

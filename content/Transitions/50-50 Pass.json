@@ -313,7 +313,7 @@
         }
       },
       {
-        "question": "Your opponent establishes a strong two-handed grip on your heel during the pass attempt - what immediate action should you take?",
+        "question": "They get a strong two-handed heel grip during your 50-50 pass—what do you do immediately?",
         "answer": "Immediately abandon the pass and address the heel hook threat. Use both hands to break their grip on your heel, starting with the hand cupping your heel. Only after successfully breaking their grips should you resume the passing sequence. Forcing the pass with a heel hook grip secured will result in submission or serious injury.",
         "answer_line": "Abandon pass, break heel grips",
         "distractors": {
@@ -327,7 +327,7 @@
         }
       },
       {
-        "question": "What direction should you rotate your knee when opponent threatens an inside heel hook during extraction?",
+        "question": "Which way do you rotate your knee when they threaten an inside heel hook during extraction?",
         "answer": "Rotate your knee inward toward your opposite hip. This takes tension off the heel hook mechanism by aligning your knee and heel, reducing the rotational torque that causes injury. The inward knee rotation is the primary defensive mechanism against inside heel hooks throughout the passing sequence.",
         "answer_line": "Rotate knee inward, toward hip",
         "distractors": {
@@ -341,7 +341,7 @@
         }
       },
       {
-        "question": "Your opponent attempts to re-entangle by threading their leg back between yours after you extract your bottom leg - how do you prevent this?",
+        "question": "After extracting your bottom leg, how do you stop them threading a leg back to re-entangle?",
         "answer": "Immediately step your top leg over their body as one continuous motion with the bottom leg extraction. Do not pause between movements. Additionally, drive your crossface pressure harder to flatten them on their back, reducing their hip mobility. Keep your extracted leg wide and away from re-entanglement range while your top leg steps over.",
         "answer_line": "One motion: extract then step over",
         "distractors": {
@@ -355,7 +355,7 @@
         }
       },
       {
-        "question": "What grip adjustments are necessary when transitioning from leg extraction to side control consolidation?",
+        "question": "What grip adjustments are needed moving from leg extraction to side control in the 50-50 pass?",
         "answer": "During extraction, your hands control opponent's hips and grips. As you step over, your near-side arm transitions to an underhook position on their far side while your crossface arm maintains head and shoulder control. Never release both grips simultaneously - one hand maintains control while the other transitions. This ensures continuous pressure throughout the passing sequence.",
         "answer_line": "Never release both grips at once",
         "distractors": {
@@ -397,7 +397,7 @@
         }
       },
       {
-        "question": "Your opponent is using a pumping hip motion to prevent you from creating consistent space for extraction - how do you adapt?",
+        "question": "They pump their hips to deny you space for extraction—how do you adapt the 50-50 pass?",
         "answer": "Match their rhythm and use their own hip return motion against them. As they pump their hips back toward you, use that moment of contact to re-establish your upper body pressure. When they extend again, immediately extract an inch further than before. Combine this with increasing crossface pressure each cycle to progressively flatten them and reduce their hip mobility over several pumping cycles.",
         "answer_line": "Match rhythm, extract inch by inch",
         "distractors": {
@@ -411,7 +411,7 @@
         }
       },
       {
-        "question": "What is the critical difference in force direction between the bottom leg extraction and the top leg step-over?",
+        "question": "How does force direction differ between the bottom leg extraction and the top leg step-over?",
         "answer": "The bottom leg extraction requires a circular pulling motion - knee draws toward your own chest first, then the leg extends rearward and laterally away from the entanglement. The top leg step-over uses a forward-and-over arc, driving the leg across opponent's torso toward the far hip with your weight following behind it. The extraction is a withdrawal; the step-over is an advance. Combining both as one fluid motion prevents re-entanglement.",
         "answer_line": "Withdrawal pull vs forward advance",
         "distractors": {
@@ -530,7 +530,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first recognition cue that your opponent is initiating a 50-50 pass rather than attacking a submission?",
+        "question": "What first tells you they are passing from 50-50 rather than attacking a submission?",
         "answer": "The primary cue is shoulder pressure driving forward into your chest combined with a crossface. Submission attackers typically sit back or angle their hips for heel exposure, while passers drive their weight forward and up to establish control over your upper body. The crossface specifically indicates passing intent because it prevents you from sitting up, which is unnecessary for leg lock attacks.",
         "answer_line": "Forward crossface pressure = pass",
         "distractors": {
@@ -544,7 +544,7 @@
         }
       },
       {
-        "question": "Your opponent has freed their bottom leg and is about to step over - what is the critical timing window for re-entanglement?",
+        "question": "They freed their bottom leg and are about to step over—when is your re-entanglement window?",
         "answer": "The window exists between bottom leg extraction and the moment the top leg clears your hip line. This is typically a half-second to one-second gap. Thread your freed leg back between their legs during this window, targeting the space between their thighs. If the top leg has already crossed your hip, the window has closed and you must transition to half guard retention or framing instead.",
         "answer_line": "Gap before top leg clears hip",
         "distractors": {
@@ -586,7 +586,7 @@
         }
       },
       {
-        "question": "Your opponent uses a pumping motion to progressively extract their leg - how do you counter this specific passing strategy?",
+        "question": "They pump to progressively extract their leg in the 50-50 pass—how do you counter that?",
         "answer": "Match their rhythm by following each pump with your own hip scoot toward them, never allowing the gap to widen. Additionally, use their forward pressure phase (when they drive back into you) as your window to secure deeper entanglement and grip their heel. The pumping motion temporarily lightens their hip pressure on the return phase, which is your best moment to sit up and break their upper body control.",
         "answer_line": "Sit up on their return phase",
         "distractors": {

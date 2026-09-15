@@ -360,7 +360,7 @@
         }
       },
       {
-        "question": "If the opponent blocks your initial turn attempt and resettles their weight, what chain of follow-up techniques should you employ?",
+        "question": "Your turn to face from Zombie is blocked and they resettle. What should you chain into?",
         "answer": "After a blocked turn attempt, immediately re-establish your Zombie frames and lockdown tension rather than attempting a second turn. Chain to Old School Sweep if the opponent drove forward during their counter, Deep Half entry if they settled heavy chest pressure, or Electric Chair setup if their lockdown leg became exposed during the exchange. The blocked turn often reveals information about the opponent's passing strategy that makes the follow-up technique more effective. If none of these are available, simply defend and wait for the next turning window rather than forcing a second attempt.",
         "answer_line": "Reset frames, chain to sweep",
         "distractors": {

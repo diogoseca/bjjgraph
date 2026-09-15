@@ -114,7 +114,7 @@ description: "Master the attacker perspective of the Whizzer from Deep Half Guar
     },
     {
       "@type": "Question",
-      "name": "In which direction should you drive pressure through the whizzer to most effectively flatten your opponent?",
+      "name": "Which direction should you drive whizzer pressure to flatten a deep half player?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive pressure diagonally downward and toward the mat through the overhook while your hips sprawl backward. The force vector should push the bottom player's shoulder and upper body flat against the mat, collapsing the wedge they created with their head and shoulder under your hip. Driving purely downward without the backward component still leaves them room to rotate, while driving purely backward without downward pressure allows them to maintain elevation."

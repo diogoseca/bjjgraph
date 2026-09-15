@@ -82,7 +82,7 @@ description: "How to execute Deep Half Entry in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Why is proper head position critical during deep half entry, and where should your head be positioned?",
+      "name": "During deep half entry, where should your head be and why is that position critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Proper head position is critical because it prevents the opponent from applying shoulder pressure that could flatten you out and shut down the entry. Your head should be positioned below the line of the opponent's hips, with your face looking toward their far hip rather than up at their chest. This low head position removes the angle they need to apply downward pressure and allows you to complete the rotation underneath their center of gravity."
@@ -90,7 +90,7 @@ description: "How to execute Deep Half Entry in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on the mat and begins to limp leg backward out of your underhook - how do you adjust?",
+      "name": "Your opponent posts and limp legs out of your deep half underhook — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately follow the retreating leg by scooting your hips forward to maintain connection. If you can re-secure the underhook, pull the leg tight and continue with the entry. If the leg is fully extracted, do not remain flat on your back. Transition to single leg X guard by hooking their remaining leg with your feet, or sit up aggressively to pursue a single leg takedown on the retreating leg. The key is recognizing the counter within the first second and transitioning rather than fighting to save a lost position."
@@ -428,7 +428,7 @@ Deep half entry is generally a low-risk technique when practiced with proper pro
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Transition sequence when knee shield is flattened</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Transition sequence when knee shield is flattened</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

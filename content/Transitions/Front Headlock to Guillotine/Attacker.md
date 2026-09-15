@@ -76,7 +76,7 @@ description: "How to execute Front Headlock to Guillotine in BJJ. Attacking pers
     },
     {
       "@type": "Question",
-      "name": "Why is it important to time the guillotine transition when the opponent is moving rather than when they are static?",
+      "name": "Why time the front headlock to guillotine when they are moving rather than static?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack when the opponent moves because motion extends their neck and splits their attention, opening the window to slide your grip deep. When they try to stand or drive forward, their neck naturally extends and their defensive awareness is divided between the movement and defending the choke, letting you slide your arm deeper and establish the grip before they can react. Their momentum also helps you pull them into the guillotine position. By contrast, a static opponent can focus entirely on defense, keeping their chin tucked and posture strong, making proper grip depth much more difficult to secure."
@@ -84,7 +84,7 @@ description: "How to execute Front Headlock to Guillotine in BJJ. Attacking pers
     },
     {
       "@type": "Question",
-      "name": "What are the three primary body positions from which a guillotine choke can be finished, and what are the advantages of each?",
+      "name": "From what three positions can you finish a guillotine, and what does each offer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three primary guillotine finishing positions are closed guard, standing with legs wrapped, and standing with feet on the ground. Closed guard provides excellent control of the opponent's hips and posture, prevents them from standing or creating distance, and lets you use hip extension to add pressure. Standing with legs wrapped maximizes pressure by hanging your full body weight on their neck, but requires good conditioning and can be defended by an opponent with a very strong base. Standing with feet on the ground maintains mobility and allows quick transitions to other positions — useful in self-defense or MMA contexts where going to guard is risky — but provides less overall control. The choice depends on the situation, your physical attributes, and the opponent's defensive tendencies."
@@ -92,7 +92,7 @@ description: "How to execute Front Headlock to Guillotine in BJJ. Attacking pers
     },
     {
       "@type": "Question",
-      "name": "How should you respond if the opponent successfully tucks their chin before you can secure deep hand positioning?",
+      "name": "They tuck the chin before you get depth on the guillotine; how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent establishes a strong chin tuck before you achieve proper depth, forcing the guillotine is ineffective and wastes energy. Instead, you should maintain front headlock control and transition to alternative attacks: the darce choke, anaconda choke, or back take are all high-percentage options from this position. You can also use short chopping motions with your forearm to try to create openings to deepen your grip, or wait for the opponent to make another movement that creates an opportunity. The key is to not abandon your positional control by committing to a weak guillotine that won't work."
@@ -100,7 +100,7 @@ description: "How to execute Front Headlock to Guillotine in BJJ. Attacking pers
     },
     {
       "@type": "Question",
-      "name": "What is the mechanical difference between a guillotine that attacks the trachea versus one that attacks the carotid arteries, and why does this matter?",
+      "name": "How do trachea and carotid guillotines differ mechanically, and why does that matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A guillotine that attacks the trachea (windpipe) is positioned across the throat with the forearm creating crushing pressure on the front of the neck. While painful and potentially effective, it can be defended by a strong chin tuck and risks injury to the trachea. A properly executed guillotine attacks the carotid arteries by positioning the wrist bone under the chin with the forearm creating a V-shape on the sides of the neck. This version causes loss of consciousness by cutting off blood flow to the brain rather than air, making it faster acting (4-6 seconds) and harder to defend. The high-elbow guillotine variation specifically targets the arteries by changing the angle of pressure. Understanding this difference allows you to adjust your technique based on the situation and opponent's defenses."
@@ -108,7 +108,7 @@ description: "How to execute Front Headlock to Guillotine in BJJ. Attacking pers
     },
     {
       "@type": "Question",
-      "name": "Describe the proper sequence of upper body movements when transitioning from front headlock to guillotine while pulling guard?",
+      "name": "What is the upper body sequence for the front headlock to guillotine while pulling guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Slide the choking arm deep, lock your grip under their body, sit back pulling them into closed guard, then crunch elbows and extend hips to finish. In detail, the sequence is one fluid motion: 1) Maintain chest pressure on the opponent's head while sliding your choking arm deeper around their neck until your wrist passes their throat; 2) Bring your free hand underneath their body and clasp it with your choking hand on the far side of their neck; 3) As the grip locks, simultaneously sit back and pull their upper body down into you while keeping your elbows tight to your sides; 4) Pull them into closed guard by wrapping your legs around their waist; 5) Once guard is closed, adjust your hips to come forward and under their chest while pulling their head down; 6) Finish by crunching your elbows together while lifting your wrist bone into their chin and extending your hips forward. Each movement flows into the next without pauses, and chest-to-chest pressure is maintained throughout the entire sequence."
@@ -404,7 +404,7 @@ When practicing the Front Headlock to Guillotine transition, both partners must 
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Key transition for turtle attacks and front headlock control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Key transition for turtle attacks and front headlock control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

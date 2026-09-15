@@ -1,0 +1,246 @@
+{
+  "name": "Lachlan Giles K-Guard System",
+  "description": "Explore Lachlan Giles K-guard with a focused study plan for entries, guard recovery, opponent posture, and controlled transitions into lower-body positions.",
+  "summary": "The Lachlan Giles K-Guard System is an independent BJJGraph guide to k-guard decisions, connecting positional control, opponent reactions, and a practical route into offense.",
+  "tags": [
+    "bjj",
+    "system",
+    "guard",
+    "no-gi"
+  ],
+  "system_type": "Guard System",
+  "difficulty_level": "Advanced",
+  "overview": "K-guard gives the bottom player a way to approach a leg from an outside-position guard. The route is different when the opponent kneels, uses combat base, or stands. An entry that ignores their posture can lose the framing leg before a useful connection is established. This study guide treats the entry, the resulting control, and any eventual submission as separate decisions.\n\nThe course syllabus distinguishes entries against kneeling, combat-base, and standing opponents, then develops lower-body offense. The study plan here concentrates on reaching and retaining the position before finishing mechanics. No Gi Open Guard Volume 1: K Guard by Lachlan Giles is the optional instructional companion. The drills, stages, and assessments below are original BJJGraph study suggestions; use the course demonstrations and coaching for the detailed mechanics.",
+  "key_principles": [
+    "Choose the entry from the opponent's posture.",
+    "Preserve a framing leg while approaching the near leg.",
+    "Create room for rotation instead of forcing it under pressure.",
+    "Identify the target position before leaving your current guard.",
+    "Keep guard recovery available if the entry fails.",
+    "Separate control of the knee line from submission finishing."
+  ],
+  "key_components": [
+    {
+      "component_name": "Posture classification",
+      "description": "Compare kneeling, combat-base, and standing starts before selecting the corresponding entry task.",
+      "purpose": "Avoid treating different distances as identical."
+    },
+    {
+      "component_name": "Leg and frame connection",
+      "description": "Identify which leg manages space and which contact approaches the opponent's lower body.",
+      "purpose": "Keep the entry connected to guard retention."
+    },
+    {
+      "component_name": "Rotation space",
+      "description": "Pause before turning and check whether the shoulders and hips can move within comfortable range.",
+      "purpose": "Remove pressure before attempting unfamiliar rotation."
+    },
+    {
+      "component_name": "Destination control",
+      "description": "Name the leg-control position you intend to reach and verify it before adding an attack.",
+      "purpose": "Prevent a loose leg catch from counting as a completed entry."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Choose a posture",
+      "description": "Start with a kneeling opponent and state the framing and leg-control objectives."
+    },
+    {
+      "step_number": 2,
+      "phase": "Build the connection",
+      "description": "Rehearse the selected entry slowly while keeping a usable barrier to the opponent's torso."
+    },
+    {
+      "step_number": 3,
+      "phase": "Check room to rotate",
+      "description": "Stop when movement is blocked; recover space or return to open guard rather than forcing the turn."
+    },
+    {
+      "step_number": 4,
+      "phase": "Confirm the destination",
+      "description": "End at the agreed control position without finishing pressure and describe what keeps the opponent connected."
+    },
+    {
+      "step_number": 5,
+      "phase": "Change the starting height",
+      "description": "Repeat with combat base or standing and identify which entry requirements have changed."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The entry is attempted from too far away.",
+      "solution": "Return to making a useful connection before rotating toward a leg."
+    },
+    {
+      "obstacle": "The framing leg is cleared early.",
+      "solution": "Pause at the lost barrier and practise guard recovery before repeating the entry."
+    },
+    {
+      "obstacle": "Rotation becomes a flexibility test.",
+      "solution": "Select a smaller range and have a coach check the movement under cooperative conditions."
+    },
+    {
+      "obstacle": "Every leg catch becomes an immediate submission attempt.",
+      "solution": "Use control-only rounds with a named destination and no finishing pressure."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Posture recognition",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Selects a task appropriate to kneeling or standing",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Frame continuity",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Preserves space while connecting to the leg",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Rotation control",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Stops when movement is blocked",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Destination accuracy",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Distinguishes a leg catch from stable control",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice plan: Use three separate starting rounds: kneeling, one knee raised, and standing. Reach a controlled K-guard connection or recover open guard; stop before any leg-lock finish. Keep the starting position consistent long enough to compare the same problem across repetitions. Add one defensive option at a time and record the first lost connection rather than only the final result.",
+    "progression_path": [
+      {
+        "stage": "Choose a posture",
+        "focus": "Start with a kneeling opponent and state the framing and leg-control objectives."
+      },
+      {
+        "stage": "Build the connection",
+        "focus": "Rehearse the selected entry slowly while keeping a usable barrier to the opponent's torso."
+      },
+      {
+        "stage": "Check room to rotate",
+        "focus": "Stop when movement is blocked; recover space or return to open guard rather than forcing the turn."
+      },
+      {
+        "stage": "Confirm the destination",
+        "focus": "End at the agreed control position without finishing pressure and describe what keeps the opponent connected."
+      }
+    ],
+    "common_mistakes": [
+      "The entry is attempted from too far away.",
+      "The framing leg is cleared early.",
+      "Rotation becomes a flexibility test."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "K-Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing k-guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Open Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing k-guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Combat Base",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing k-guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "De La Riva Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing k-guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Reverse De La Riva Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing k-guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Single Leg X-Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing k-guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Structures that preserve space during the guard exchange."
+    },
+    {
+      "name": "Distance Control",
+      "content_type": "Principle",
+      "relationship": "Spacing behind the entry and recovery decisions."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Support to observe before selecting a sweep or coming up."
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Connections that give the chosen movement its purpose."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why separate standing and kneeling K-guard entries?",
+      "answer": "Their distance, available space, and weight distribution differ, so a familiar entry may need different controls or timing."
+    },
+    {
+      "question": "What is the framing leg contributing during an entry?",
+      "answer": "It helps preserve space between the bodies while other contacts approach the leg and establish the intended angle."
+    },
+    {
+      "question": "What should happen if rotation is blocked?",
+      "answer": "Recover space or return to a usable guard instead of forcing the shoulders or hips through the opponent's pressure."
+    },
+    {
+      "question": "Does reaching a leg mean the entry is finished?",
+      "answer": "No. Check the agreed control position and whether the opponent remains connected before treating the entry as successful."
+    },
+    {
+      "question": "Why practise entries without submission finishes?",
+      "answer": "Control-only rounds expose problems with distance and connection without letting a tap obscure an unstable entry."
+    },
+    {
+      "question": "What is a useful fallback when the leg connection disappears?",
+      "answer": "Restore open guard with workable frames, then reassess the opponent's posture rather than continuing an unsupported rotation."
+    }
+  ],
+  "products": [
+    {
+      "id": "no-gi-open-guard-volume-1-k-guard-by-lachlan-giles",
+      "title": "No Gi Open Guard Volume 1: K Guard",
+      "instructor": "Lachlan Giles",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/no-gi-open-guard-volume-1-k-guard-by-lachlan-giles?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "The course syllabus distinguishes entries against kneeling, combat-base, and standing opponents, then develops lower-body offense. The study plan here concentrates on reaching and retaining the position before finishing mechanics.",
+      "best_for": "No-gi guard players with basic positional familiarity who want to study k-guard. This is a focused companion rather than a complete beginner curriculum.",
+      "study_focus": "Review the positional strategy in volume one and entry controls in volume three, then choose the posture-specific entry section relevant to your rounds.",
+      "practice_tip": "BJJGraph drill: Use three separate starting rounds: kneeling, one knee raised, and standing. Reach a controlled K-guard connection or recover open guard; stop before any leg-lock finish."
+    }
+  ]
+}

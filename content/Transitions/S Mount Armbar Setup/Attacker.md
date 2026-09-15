@@ -88,7 +88,7 @@ description: "Execute the S Mount Armbar Setup in BJJ. Step-by-step guide coveri
     },
     {
       "@type": "Question",
-      "name": "Your opponent grips their own collar with the trapped hand as you begin the fall-back - how do you respond?",
+      "name": "S-mount armbar: they grab their own collar as you fall back—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the collar grip before continuing the transition. Use both hands to pry their fingers off the collar one at a time, or wedge your forearm under their wrist to lever the grip open. If the grip is too strong to break, switch to a mounted triangle by threading your leg under their chin, as the bent arm creates the necessary opening for the triangle configuration."

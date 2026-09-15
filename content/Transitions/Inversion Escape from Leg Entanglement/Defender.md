@@ -56,7 +56,7 @@ description: "Prevent the inversion escape from your leg entanglement by recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest tactile cues that indicate an opponent is setting up an inversion escape from your leg entanglement?",
+      "name": "What are the earliest cues that they're setting up an inversion escape from your entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the opponent placing their free foot on your hip to create a pushing frame, and the opponent posting a hand on the mat behind them in preparation for the roll. These setup actions must occur before the inversion can begin, and recognizing them gives you the maximum reaction window. Additional cues include the opponent tucking their chin, shifting weight toward one shoulder, and a sudden increase in activity after a passive period. Feeling the free leg frame is often the most reliable cue because it provides direct tactile feedback."
@@ -64,7 +64,7 @@ description: "Prevent the inversion escape from your leg entanglement by recogni
     },
     {
       "@type": "Question",
-      "name": "Why is following the inversion sometimes better than trying to block it, and how do you decide which response to use?",
+      "name": "When should you follow an inversion rather than block it, and how do you decide?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Following the inversion is better when the roll has already developed significant momentum and blocking would require more force than your static position can generate. Trying to block a committed inversion through grip strength alone often results in losing the grip and the entanglement entirely. Following the roll allows you to maintain your leg configuration and grips through the dynamic movement, re-establishing control after the rotation completes. The decision point is whether the inversion is still in setup phase (block it) or has begun rotating with committed momentum (follow it). If you feel your control points being stressed by rotational force, follow rather than fight."
@@ -72,7 +72,7 @@ description: "Prevent the inversion escape from your leg entanglement by recogni
     },
     {
       "@type": "Question",
-      "name": "How should you position your body to make inversion escapes as difficult as possible for your opponent?",
+      "name": "How should you position your body to make inversion escapes as hard as possible for them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain heavy hip pressure driving into the opponent's trapped thigh to eliminate the space needed for rotation. Pinch your knees together around the trapped leg to create a clamp that resists angular displacement. Keep your chest low and your weight distributed over the opponent's leg rather than behind them. Control or neutralize their free leg to remove the framing tool they need for initial separation. Stay tight to their body with no gaps, as every inch of space between you makes the inversion more viable. The ideal control makes the opponent feel completely locked in place with no room to initiate rolling movement."
@@ -80,7 +80,7 @@ description: "Prevent the inversion escape from your leg entanglement by recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent's inversion attempt fails halfway through and they are now on their back with legs partially exposed - what should you do?",
+      "name": "Their inversion fails halfway and they're on their back with legs exposed: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately capitalize on the failed inversion by advancing your position. The opponent's partial roll has likely disrupted their defensive structure and exposed their legs at angles favorable for saddle entry. Backstep into saddle position while the opponent is still recovering from the failed escape attempt. If saddle entry is not available, re-tighten the original entanglement by closing all gaps that developed during the inversion attempt. The worst response is to passively wait for the opponent to recover their defensive posture before re-engaging - the window after a failed escape is your best opportunity to advance."
@@ -88,7 +88,7 @@ description: "Prevent the inversion escape from your leg entanglement by recogni
     },
     {
       "@type": "Question",
-      "name": "What is the risk of attacking the heel during the opponent's inversion, and when is it worth attempting?",
+      "name": "What's the risk of hunting the heel during their inversion, and when is it worth it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attacking the heel during an active inversion carries the risk of losing all positional control if the grip is missed, as you release structural retention to reach for a dynamic target. It is worth attempting only when you have strong positional control with your legs, the heel is clearly exposed during the rotation, and you can secure the grip without compromising your leg configuration. Against opponents with powerful granby rolls, heel hunting during the inversion is usually lower percentage than following the roll and attacking after re-establishing control. It is highest percentage when the opponent's inversion is slow or hesitant, giving you time to secure the grip before they generate full rotational momentum."

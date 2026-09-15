@@ -92,7 +92,7 @@ description: "How to execute Reverse the entanglement to Outside Ashi in BJJ. At
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hands wide and bases out when you attempt the reversal - how do you adjust?",
+      "name": "They post wide and base out against your leg knot reversal to outside ashi. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent bases out effectively, the Outside Ashi angle becomes difficult to achieve. Adjust by redirecting into 50-50 Guard entry instead, which requires less rotation angle. Alternatively, threaten heel hook from current position to force them to address the submission, creating the weight shift you need for the original reversal."

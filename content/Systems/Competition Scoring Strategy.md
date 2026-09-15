@@ -170,6 +170,8 @@ In modern competitive Brazilian Jiu-Jitsu, the gap between champions and contend
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill Competition Scoring Strategy?
@@ -303,6 +305,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -415,5 +419,7 @@ Competition scoring strategy development requires specific drilling protocols th
 
 
 </section>
+
+
 
 </main>

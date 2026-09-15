@@ -98,7 +98,7 @@ description: "Execute the Bull Pass from Seated Guard with expert technique. Ste
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that separates a successful Bull Pass from a failed attempt?",
+      "name": "What mechanical detail separates a successful bull pass from seated guard from a failed one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical detail is the simultaneous coordination of the leg push and hip advancement. The legs must be pushed to the side at the exact same moment your hips drive forward into the space being created. If the leg push happens first without hip drive, the opponent has time to reframe. If the hips drive first without leg control, you run directly into their defensive frames."

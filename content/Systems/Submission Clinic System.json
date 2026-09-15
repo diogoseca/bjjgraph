@@ -1,6 +1,6 @@
 {
   "name": "Submission Clinic System",
-  "description": "Master systematic submission hunting from dominant positions in BJJ. Learn to chain attacks, create dilemmas, and maintain control while presenting constant submission threats.",
+  "description": "Explores the kimura grip as a control that connects positional transitions and submission options. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -14,8 +14,8 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "summary": "The Submission Clinic System is an attack framework that establishes dominant control first, then chains submission threats from mount, back, side control, and guard so each defensive reaction the opponent gives opens the next finish.",
-  "overview": "Born from the modern competitive emphasis on relentless finishing pressure, the Submission Clinic System grew out of the realization that a dominant position is only valuable when it is converted into threats. Rather than hunting for isolated finishes, this system emphasizes positional dominance first, then creates multiple submission threats that force the opponent into defensive dilemmas. Each defensive reaction opens new attacking pathways, creating an endless cycle of threats.\n\nThis system integrates seamlessly across mount, back control, side control, and guard positions, teaching practitioners to maintain control while presenting constant submission danger. The key is never committing fully to one submission, but rather using each attempt to improve position or transition to the next threat. By mastering this system, practitioners develop the ability to finish opponents who are desperately defending, using their defensive reactions as the roadmap to victory.\n\nThe Submission Clinic System is particularly effective in competition and high-level training because it removes the opponent's ability to rest or recover. Every moment in a dominant position becomes an opportunity for attack, and every defensive movement creates new vulnerabilities. This constant pressure breaks down even experienced grapplers, leading to either submission or complete positional dominance.",
+  "summary": "A submission chain begins with a control you can maintain.",
+  "overview": "A submission chain begins with a control you can maintain. Choose one attack, identify the defense it draws, and connect that reaction to a second option. The kimura instructional below is one focused way to study that process.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Position before submission - establish dominant control before hunting finishes",
     "Create submission chains - every defense opens a new attack",
@@ -531,6 +531,21 @@
           "Pace slowly to save energy"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "kimura-enter-the-system-by-john-danaher",
+      "title": "Kimura: Enter The System",
+      "instructor": "John Danaher",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Explores the kimura grip as a control that connects positional transitions and submission options.",
+      "best_for": "Students building a connected attack around one grip. This is a kimura focus, not a survey of every submission.",
+      "study_focus": "Use the positional-control sections to study how the grip can remain useful when the direct finish is blocked.",
+      "practice_tip": "Pick one kimura entry from the map. Ask your partner to hide the hand and practise a controlled positional transition."
     }
   ]
 }

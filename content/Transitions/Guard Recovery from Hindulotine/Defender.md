@@ -56,7 +56,7 @@ description: "Prevent guard recovery from Hindulotine as the top player in BJJ. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What specific structural advantage does the Hindulotine position give you as the top player during guard recovery?",
+      "name": "What structural advantage does the Hindulotine give you as the top player during their recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Hindulotine's rotational mechanics leave the bottom player's hips angled with one side of their back partially exposed rather than square to you. This angular displacement creates a structural weakness in their guard on the exposed side that does not exist in standard guillotine recovery. You can exploit this by circling toward the exposed flank where their guard has no structural integrity, advancing to side control or back take before they can rotate their hips to face you."
@@ -64,7 +64,7 @@ description: "Prevent guard recovery from Hindulotine as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Why is preventing hip realignment your primary defensive objective during Hindulotine guard recovery?",
+      "name": "Why is preventing hip realignment your main defensive goal during Hindulotine guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom player's guard cannot become structurally sound until their hips rotate to face you squarely. While their hips remain at the Hindulotine angle, there is a persistent weakness on the exposed side that allows passing advancement. Preventing hip realignment - by pinning their hip, driving pressure on the turned angle, or advancing past the exposed side - maintains this structural advantage indefinitely and makes their guard recovery attempts ineffective regardless of their grip work or leg positioning."
@@ -72,7 +72,7 @@ description: "Prevent guard recovery from Hindulotine as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "The bottom player successfully establishes a knee shield on the exposed side before you can circle past - what is your adjusted strategy?",
+      "name": "They get a knee shield on the exposed side before you circle past—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the knee shield establishes on the exposed side, switch to pressure passing by driving crossface into the knee shield to flatten their angle and prevent the far leg from completing guard recomposition. You can also redirect the near knee across their body with your hand while driving your hip past it. If the shield is fully established and stable, consider resetting to a passing stance and engaging the guard from a standard passing position rather than continuing to fight the angular advantage."
@@ -80,7 +80,7 @@ description: "Prevent guard recovery from Hindulotine as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing for your advancement attempt relative to the bottom player's grip transition?",
+      "name": "When should you advance relative to the bottom player's Hindulotine grip transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is the moment the bottom player begins releasing the Hindulotine choking grip but before they complete the conversion to overhook or collar control. During this grip transition, their arms are neither choking nor effectively framing, creating a brief period where they have minimal upper body control. This window typically lasts one to two seconds and represents your highest-percentage moment for advancement because the bottom player cannot resist your circling movement with their arms in transition."
@@ -88,7 +88,7 @@ description: "Prevent guard recovery from Hindulotine as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Your circling attempt is blocked by a knee shield but the bottom player's hips are still angled - how do you maintain your advantage?",
+      "name": "A knee shield blocks your circle but their hips are still angled—how do you keep the advantage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Even with the knee shield blocking your primary circling path, the angular hip position still provides an advantage because the bottom player's far leg cannot yet complete the guard structure. Drive your chest pressure into the knee shield while using your near hand to control their far knee or hip, preventing the second leg from establishing guard. Work to push the knee shield across their body using your hip pressure, which collapses their barrier without requiring you to circle around it. The angular hips mean they cannot generate full rotational power to resist your crossface pressure."

@@ -52,7 +52,7 @@ description: "Defend the Clock Choke from Invisible Collar with early grip recog
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize the Clock Choke from Invisible Collar is being set up before walking pressure begins?",
+      "name": "How do you recognize an invisible collar clock choke being set up before the walk begins?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Monitor the attacker's over-hook hand during back control. If it migrates from your shoulder toward your collar with fingers beginning to penetrate the gi material near your neck, an invisible collar is being established. Additional cues include the attacker shifting weight forward, beginning to remove hooks, and reaching their free hand toward your far hip for anchoring. Any collar finger contact during back control should trigger immediate defensive response."
@@ -76,7 +76,7 @@ description: "Defend the Clock Choke from Invisible Collar with early grip recog
     },
     {
       "@type": "Question",
-      "name": "Why is hip escaping toward the non-choking side more effective than crawling forward when defending the clock choke walk?",
+      "name": "Why is hip escaping to the non-choking side better than crawling forward in the clock choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Crawling forward actually assists the attacker by maintaining the choking angle and can pull the collar tighter as you move away from the fixed grip. Lateral hip escape toward the non-choking side changes the rotational angle the attacker needs for the choke, reducing collar pressure and creating space to turn and face the attacker. The directional choice is critical—escaping toward the choking side can feed directly into the choke's mechanics."
@@ -84,7 +84,7 @@ description: "Defend the Clock Choke from Invisible Collar with early grip recog
     },
     {
       "@type": "Question",
-      "name": "How do you manage the submission chain threat when the attacker transitions from invisible collar clock choke to rear naked choke?",
+      "name": "The attacker switches from invisible collar clock choke to RNC - how do you defend that switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker releases the collar to switch to RNC, a brief window opens where their choking arm is uncommitted between positions. Use this transition moment to trap their switching arm by clamping it against your chest or tucking it under your armpit. Simultaneously initiate a hip escape since their grip structure is weakest during the switch. The key is recognizing the collar release as an opportunity rather than simply waiting for the next attack to develop."

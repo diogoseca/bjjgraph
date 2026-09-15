@@ -72,7 +72,7 @@ description: "How to defend against Side Control to North-South in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent's feet are walking around your head and you feel pressure shifting - what is your immediate priority?",
+      "name": "Their feet are walking around your head from side control: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is inserting a frame against their hip or chest to slow the rotation while simultaneously hip escaping toward their legs. The frame buys you time by blocking their circular path, and the hip escape creates distance to insert your knee for guard recovery. You must act within the first 1-2 seconds of detecting the movement. If you delay beyond the halfway point of their rotation, switch to turning toward turtle instead."
@@ -88,7 +88,7 @@ description: "How to defend against Side Control to North-South in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the transition and established North-South with double underhooks - what is your escape priority?",
+      "name": "They have north-south with double underhooks: what is your escape priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With double underhooks established, your first priority is controlled breathing to prevent panic and energy depletion. Then begin small hip escapes to create incremental space, fighting for inside wrist control to break one underhook at a time. Target the weaker grip first and work to free that arm for framing. Once you have one arm free, frame against their chest and accelerate your hip escape to insert a knee. Accept that this will take multiple small movements rather than one explosive attempt."
@@ -96,7 +96,7 @@ description: "How to defend against Side Control to North-South in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defense if the transition attempt is past the halfway point and frames cannot prevent completion?",
+      "name": "Their north-south spin is past halfway and frames won't stop it: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the transition is past the halfway point, abandon frame-based prevention and switch to following the opponent's rotation by turning to turtle position. Turn toward them with elbows tight and chin tucked, establishing defensive turtle before they can consolidate North-South. Turtle offers more escape options than North-South bottom, including standing up, granby rolls, and sit-out escapes. Protect your neck immediately upon reaching turtle to prevent front headlock submissions."

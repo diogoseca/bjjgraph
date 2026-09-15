@@ -68,7 +68,7 @@ description: "Master executing the transition from back control to cross body ri
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary trigger that signals you should transition to cross body ride rather than fight to maintain standard back control?",
+      "name": "What signals you should switch from back control to a cross body ride instead of fighting for hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trigger is when your lower body control through hooks is being successfully compromised but your upper body harness or seatbelt grip remains intact. Specifically, when the opponent strips one or both hooks and begins curling into turtle, this creates the lateral angle opportunity. Fighting to re-insert hooks against an opponent who is actively defending them wastes energy and risks losing the position entirely, while the cross body ride converts their defensive success into your lateral advancement."
@@ -84,7 +84,7 @@ description: "Master executing the transition from back control to cross body ri
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your near-side hook and begins turning their hips away from you. Which direction do you rotate and why?",
+      "name": "They strip your near hook and turn their hips away—which way do you rotate, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotate in the same direction the opponent is turning, following their movement rather than opposing it. This is because moving with their momentum allows you to maintain chest contact while your hips swing around to the perpendicular angle naturally. If you rotate against their direction, you create separation as both bodies move apart. Following their turn also positions your near-side knee perfectly to block their far hip once you arrive at the cross body ride angle."
@@ -92,7 +92,7 @@ description: "Master executing the transition from back control to cross body ri
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between the halfway point of this transition and the completed cross body ride position?",
+      "name": "How does the halfway point of the back to cross body ride transition differ from the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The halfway point is the most vulnerable moment because you have neither the hook control of back control nor the perpendicular pressure of cross body ride. At this halfway position, your hips are angled diagonally with insufficient base on either side, and the opponent has maximum escape options. The completed cross body ride has three established control points: perpendicular chest pressure, near-side knee in the hip, and far-side leg posted for base. This is why the transition must be committed and decisive rather than tentative."
@@ -100,7 +100,7 @@ description: "Master executing the transition from back control to cross body ri
     },
     {
       "@type": "Question",
-      "name": "How does the near-side knee function differently in cross body ride compared to a hook in standard back control?",
+      "name": "How does the near-side knee in cross body ride work differently from a hook in back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In standard back control, the hook wraps inside the opponent's thigh from behind, controlling hip rotation through entanglement. In cross body ride, the near-side knee drives into the opponent's hip from the side, acting as a wedge or post that prevents sit-through escapes and guard recovery. The hook controls through wrapping and entangling while the knee controls through blocking and pressure. The knee position also anchors the top player's base, creating a stable tripod with the far-side posting foot."

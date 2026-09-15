@@ -50,7 +50,7 @@ description: "Defend against the Mount to Modified Mount transition in BJJ. Lear
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest reliable cue that the top player is moving from standard mount into modified mount?",
+      "name": "What is the earliest cue that mount is becoming modified mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the knees walking up toward your armpits with the weight riding higher onto your chest, usually followed by pressure shifting diagonally onto one knee as they prepare to free the other leg. Recognizing this hip climb is critical because it precedes the actual post. If you wait until the foot plants and the hips rotate, the bridge is already defeated and the armbar is loading; reacting to the climb gives you the window to insert a knee shield or pin your arm before the position consolidates."

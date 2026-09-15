@@ -90,7 +90,7 @@ description: "Master the attacker perspective for guard recovery from double und
     },
     {
       "@type": "Question",
-      "name": "What frame structure provides the most effective initial separation against double unders stacking pressure?",
+      "name": "What frame structure best creates initial separation against double unders stacking pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A cross-face frame with both forearms positioned against the opponent's jawline and neck creates the strongest initial separation. This structure uses skeletal alignment through the forearms and elbows rather than muscular pushing, meaning it can be sustained against significantly heavier opponents. The frame must anchor at the elbows against your own ribcage to prevent collapse under forward drive."
@@ -98,7 +98,7 @@ description: "Master the attacker perspective for guard recovery from double und
     },
     {
       "@type": "Question",
-      "name": "In which direction should you direct your escape energy when stacked in double unders, and why not straight into the opponent?",
+      "name": "Which direction should your escape energy go under double unders, and why not straight back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Direct your energy laterally through a hip escape rather than pushing straight back against their forward stack. Pushing directly into the passer pits your arms against their full body weight and the strongest vector of their pressure, which you cannot win. Escaping to the side redirects that committed forward drive past you, opening the angle and space beneath their underhooks that the near-side leg needs to extract."
@@ -106,7 +106,7 @@ description: "Master the attacker perspective for guard recovery from double und
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their grip and drives harder as you begin establishing frames - how do you adjust your recovery approach?",
+      "name": "They tighten grips and drive harder as you frame under double unders—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting their forward drive directly, redirect the energy laterally by hip escaping to one side while maintaining your frame angle. Their increased forward pressure actually assists your lateral escape when combined with proper hip movement because their commitment prevents them from adjusting laterally. Use their force vector against them to create the angle needed for leg extraction."

@@ -114,7 +114,7 @@ description: "Execute the grip fight escape from rear triangle bottom. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "In which direction should you push the opponent's ankle to most effectively break the figure-four lock?",
+      "name": "Escaping a rear triangle, which direction do you push the ankle to break the figure-four?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Push the ankle toward the opponent's far hip, perpendicular to the direction the ankle enters the knee crook. Most practitioners make the mistake of pulling the ankle straight out along its entry path, which fights the tightest part of the lock. By pushing perpendicular, you slide the ankle out of the groove with significantly less force required. Think of it as peeling the ankle sideways rather than pulling it backward through the lock."

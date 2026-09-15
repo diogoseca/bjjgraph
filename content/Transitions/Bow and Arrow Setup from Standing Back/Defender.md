@@ -64,7 +64,7 @@ description: "Learn to defend and escape the Bow and Arrow Setup from Standing B
     },
     {
       "@type": "Question",
-      "name": "Your attacker has secured a deep collar grip but has not yet initiated the sit-down—what are your defensive priorities?",
+      "name": "They have a deep collar grip from standing back but have not sat down: what are your priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the collar grip immediately using two-on-one hand control before they initiate the takedown. Grab their gripping wrist with both hands and peel the fingers from the collar fabric while simultaneously hunching your shoulders and tucking your chin to make the grip harder to maintain. If the grip cannot be broken, widen your base to resist the sit-down and prepare to turn into the attacker during the inevitable takedown attempt."
@@ -80,7 +80,7 @@ description: "Learn to defend and escape the Bow and Arrow Setup from Standing B
     },
     {
       "@type": "Question",
-      "name": "Why is turning into the attacker during the takedown transition more effective than resisting the takedown directly?",
+      "name": "Why is turning into the attacker better than resisting their back-control takedown outright?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Resisting the takedown directly creates a strength contest that favors the attacker, who has gravity and collar grip leverage working in their favor. Turning into the attacker uses their downward momentum to power your rotation, allows you to break back exposure while they are between standing and grounded positions with compromised control, and positions you to recover guard rather than being taken to grounded back control."
@@ -96,7 +96,7 @@ description: "Learn to defend and escape the Bow and Arrow Setup from Standing B
     },
     {
       "@type": "Question",
-      "name": "The attacker feints the rear naked choke but immediately transitions to the collar grip attempt—how does this change your defensive priorities?",
+      "name": "They feint the RNC then go for your collar: how does that change your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The feint means the attacker is using the RNC threat to bait your hands high before switching to the collar. Instead of committing both hands fully to the choke defense, keep one hand positioned to intercept the collar grip transition. Develop awareness of the attacker's over-shoulder arm path—if it moves toward your collar rather than under your chin, redirect your defensive hand to intercept the collar grip immediately. Training to distinguish the RNC entry from the collar reach by feel prevents the feint from creating the opening the attacker needs."

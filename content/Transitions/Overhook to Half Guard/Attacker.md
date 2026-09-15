@@ -80,7 +80,7 @@ description: "Learn to execute the Overhook to Half Guard transition from bottom
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your overhook grip is starting to weaken as the top player systematically strips your control - when is the optimal moment to initiate the transition to half guard?",
+      "name": "When should you leave overhook control for half guard as the top player strips your grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal moment is when you still have sufficient overhook control to manage the top player's posture but recognize that the grip will fail within the next 3-5 seconds. Initiating the transition while you still have the overhook as a controlling frame gives you the best chance of threading your leg safely. Waiting until the overhook completely fails leaves you in an uncontrolled scramble where the top player can easily pass to side control. The overhook serves as your managing frame during the transition, so it must still be functional when you begin."
@@ -88,7 +88,7 @@ description: "Learn to execute the Overhook to Half Guard transition from bottom
     },
     {
       "@type": "Question",
-      "name": "What hip position must be established before attempting to thread your inside leg into the half guard entanglement?",
+      "name": "What hip position is required before threading your inside leg into half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must create a diagonal hip angle by executing a hip escape away from the top player's pressure direction. Your hips should be angled at approximately 30-45 degrees from flat rather than lying directly on your back. This angle creates the space between your bodies needed to thread the inside leg through, and positions your inside knee to enter the gap between the top player's legs. Without this hip angle, there is insufficient space for leg insertion and the top player's weight pins you flat, making the thread mechanically impossible."
@@ -104,7 +104,7 @@ description: "Learn to execute the Overhook to Half Guard transition from bottom
     },
     {
       "@type": "Question",
-      "name": "You've begun threading your leg but the top player drives heavy chest-to-chest pressure forward - how do you complete the transition?",
+      "name": "You are threading your leg and they drive chest-to-chest: how do you finish the half guard entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their forward momentum to your advantage rather than fighting against it. Maintain the overhook grip firmly while accelerating your hip escape in the opposite direction of their drive. Their forward pressure actually assists the half guard entry by bringing their trapped leg deeper between yours. Simultaneously post your outside foot on their hip to create a frame that prevents complete smashing. Complete the leg thread and close the half guard lock before releasing the hip frame. Their forward commitment makes extraction harder once your hooks are set."
@@ -112,7 +112,7 @@ description: "Learn to execute the Overhook to Half Guard transition from bottom
     },
     {
       "@type": "Question",
-      "name": "What grip transition must occur as you move from overhook control to established half guard position?",
+      "name": "What grip transition happens as you move from overhook control into half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary grip transition moves from the overhook armpit seal to either an underhook on the trapped leg side for sweeping offense, a knee shield frame with your outside shin for distance management, or collar and wrist control for submission threats. The overhook grip must be maintained throughout the entire leg threading phase and released only after the half guard hooks are fully secured. The free arm transitions from its secondary control point to establishing the complementary grip for your chosen half guard variation. There must be no gap between releasing the overhook and establishing new half guard controls."
@@ -120,7 +120,7 @@ description: "Learn to execute the Overhook to Half Guard transition from bottom
     },
     {
       "@type": "Question",
-      "name": "In which direction should your primary hip movement travel during the leg threading phase to maximize space creation?",
+      "name": "Which direction should your hips travel while threading the leg into half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips should move diagonally away from the overhook side and slightly downward toward the mat. This diagonal hip escape creates maximum space on the insertion side while maintaining connection through the overhook on the opposite side. The movement should not be purely lateral, which would break the overhook prematurely, nor purely backward, which fails to create insertion space. The diagonal angle generates a pocket between your hip and the top player's leg where your inside knee can enter cleanly without requiring excessive force."

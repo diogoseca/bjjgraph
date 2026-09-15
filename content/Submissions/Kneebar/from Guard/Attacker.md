@@ -70,7 +70,7 @@ description: "How to execute Kneebar from Guard in BJJ. Attacking perspective wi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must you apply kneebar pressure progressively over 5-7 seconds in training rather than explosively?",
+      "name": "Why must you apply kneebar pressure over 5-7 seconds in training instead of explosively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Progressive pressure over 5-7 seconds gives your partner time to feel the danger and tap before the knee is injured. Explosive application can cause immediate catastrophic injury — PCL tears, MCL ruptures, and meniscus damage — before your partner even recognizes the danger. The knee is extremely vulnerable to hyperextension, and unlike many other submissions there is minimal safe zone between no pressure and the injury threshold, so injuries often require surgery and months of recovery. This is especially critical from leg entanglement, where control is already established and finishing pressure can be applied very quickly."
@@ -86,7 +86,7 @@ description: "How to execute Kneebar from Guard in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Why must you maintain tight heel control throughout the entire kneebar, and what happens if the heel rotates during application?",
+      "name": "Why keep the heel controlled tightly throughout the kneebar, and what if the heel rotates?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tight heel control is essential because any space between the heel and your chest allows escape. More critically, if the heel rotates or turns during pressure application, it adds dangerous rotational torque to the knee joint, exponentially increasing injury risk. This rotation can cause ACL tears in addition to the primary PCL and collateral ligament damage from hyperextension. The heel must be locked tightly to your chest with toes pointing straight away from you, controlled rigidly by both arms in a prayer grip to prevent any rotation during the submission."

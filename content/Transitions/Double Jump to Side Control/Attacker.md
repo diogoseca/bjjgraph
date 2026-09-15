@@ -80,7 +80,7 @@ description: "Learn to execute the Double Jump to Side Control transition. Step-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "When is the optimal timing to abandon back-take attempts and transition to side control from Double Jump?",
+      "name": "When should you abandon back takes from Double Jump and go to side control instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing is when the opponent has successfully defended multiple back-take attempts by maintaining a tight turtle shell with elbows tucked, chin protected, and hips sealed against hook elevation. The transition should be initiated while you still have strong upper body control through crossface or harness—not after the position has begun deteriorating. If the opponent's defense is focused entirely on preventing back exposure with a sealed posture, the lateral pathway to side control is typically open."

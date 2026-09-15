@@ -374,7 +374,7 @@
         "transition": "Clock Choke",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -395,7 +395,7 @@
         "transition": "Loop Choke from Turtle",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -422,7 +422,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary grip configuration for controlling turtle and why is it essential before attempting hooks?",
+        "question": "Attacking turtle, what grip must be secured before hooks, and why first?",
         "answer": "The seatbelt grip (over-under harness) is the primary control for turtle and must be secured before attempting hooks. One arm goes over the opponent's shoulder and the other under their armpit, with the hands clasped together. This upper-body control prevents the opponent from turning into you, sitting to guard, or standing up. Without upper body control first, hook attempts are easily defended and you risk losing the position entirely.",
         "distractors": {
           "plausible": [
@@ -450,7 +450,7 @@
         }
       },
       {
-        "question": "Your opponent begins a technical standup attempt from turtle - what immediate actions prevent them from reaching their feet?",
+        "question": "On top of turtle, they start a technical standup - how do you stop them reaching their feet?",
         "answer": "Drive your chest weight forward and down at a 45-degree angle the moment they post a hand, collapsing their base before the hips rise. Simultaneously wedge your near-side knee tight against their hip bone to block the hip from elevating. If they manage to get one leg under them, hook that leg with your arm or underhook their far arm to pull them back to the mat. The critical window is before their trail leg swings through to plant, and prevention through constant heavy pressure is always preferable to reacting after they initiate.",
         "distractors": {
           "plausible": [
@@ -861,7 +861,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the essential body position for maintaining a defensive turtle that protects against both chokes and back takes?",
+        "question": "What body position makes a defensive turtle safe from both chokes and back takes?",
         "answer": "The essential defensive turtle requires a rounded back with chin tucked tightly to chest, elbows glued to the inside of your knees creating a protective shell, and hips elevated off the mat with weight distributed evenly across all four points of contact. This configuration protects the neck from chokes by eliminating space, prevents underhook penetration that leads to flattening and back takes, and maintains mobility for dynamic escapes. The rounded spine and tucked chin specifically defend the carotid arteries from arm-in chokes.",
         "answer_line": "Chin tucked, elbows to knees",
         "distractors": {
@@ -903,7 +903,7 @@
         }
       },
       {
-        "question": "Your opponent begins inserting a hook while you're in turtle - what is the proper defensive response?",
+        "question": "In turtle, they start inserting a hook - what is your defensive response?",
         "answer": "Immediately kick your leg back and away from their hooking attempt while simultaneously rotating your hips away from that side. Do not let the hook settle - if you feel them threading their foot inside your thigh, extend your leg explosively to strip the hook before they can secure it. If the first hook is secured, immediately work to prevent the second hook by turning toward the hook side and looking to sit through or granby roll. A single hook is recoverable; allowing both hooks to set dramatically reduces escape probability.",
         "answer_line": "Kick leg back, rotate hips away",
         "distractors": {
@@ -931,7 +931,7 @@
         }
       },
       {
-        "question": "Your opponent commits their weight forward for a front headlock attack - what opportunity does this create?",
+        "question": "In turtle, they commit weight forward for a front headlock - what does this open for you?",
         "answer": "Forward weight commitment for front headlock creates excellent sit-through opportunities. As they drive forward, their base becomes compromised and they cannot follow you laterally. Execute a quick sit-through to the opposite side of their choking arm, threading your near leg through and turning to face them. This often leads directly to half guard or closed guard recovery. The key is timing - wait for them to commit their weight before initiating the sit-through, or they can easily follow and maintain control.",
         "answer_line": "Sit-through away from choke arm",
         "distractors": {
@@ -1005,7 +1005,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What configuration of the body defines the turtle position and distinguishes it from a guard-passed pin?",
+      "question": "What body configuration defines turtle and separates it from a guard-passed pin?",
       "answer": "Turtle is a four-point posture — hands under shoulders, knees under hips, back rounded, rear exposed — with no one pinned flat. Unlike a pin such as side control or mount, the bottom player is not flattened supine; they retain a live four-point base and mobility while the other player works from behind or the side. The tucked, rounded shell trades rear exposure for submission protection, denying the front of the body while giving up the back. It is the transitional junction between being passed and either recovering guard or conceding the back.",
       "distractors": {
         "plausible": [
@@ -1019,7 +1019,7 @@
       "answer_line": "Four-point base, not flattened"
     },
     {
-      "question": "Why is turtle universally treated as a transitional position rather than a resting or stable one for either player?",
+      "question": "Why is turtle transitional rather than a resting position for either player?",
       "answer": "Turtle is transitional because it is unstable for both players: the bottom's back is exposed and the top has no hooks secured. The bottom player's base is mobile and their back is exposed, while the top player has not yet established harness, hooks, or a finish. Any pause lets the bottom recover guard or stand, or lets the top lock in control. Both players are racing the same clock — the bottom to escape before control sets, the top to advance before the escape fires — which is why constant motion, not settling, governs the exchange for both sides.",
       "distractors": {
         "plausible": [
@@ -1033,7 +1033,7 @@
       "answer_line": "Unstable for both, no one settled"
     },
     {
-      "question": "What are the primary control points that decide who wins the turtle exchange, regardless of which player you are?",
+      "question": "Which control points decide the turtle exchange for either player?",
       "answer": "The decisive control points are the seatbelt/harness on the upper body, the hooks (foot insertions) into the hips or thighs, and the connection between the two players' hips. Whoever governs the upper-body grip and prevents or secures hook insertion dictates the direction of the exchange. The bottom fights to keep elbows tight to knees so no underhooks penetrate, while the top fights to thread arms inside and connect hip-to-hip. Control of the upper body must precede hooks, because hooks alone without harness are easily kicked free.",
       "answer_line": "Seatbelt, hooks, hip connection",
       "distractors": {
@@ -1075,7 +1075,7 @@
       }
     },
     {
-      "question": "Why is the neck simultaneously the highest-priority target and the highest-priority defense in turtle?",
+      "question": "Why is the neck both the top's main target and the bottom's main defense in turtle?",
       "answer": "The exposed rear and lowered head put the neck in constant reach of front headlock and back chokes, making it the top's most direct finish and the bottom's most urgent thing to protect. The bottom defends by tucking the chin to the chest and rounding the upper back, eliminating the space an arm needs to encircle the throat. The top attacks by prying the head up or threading an arm across the throat when the chin lifts. This shared focus on the neck is why lifting the head is the single most punished error in the position.",
       "answer_line": "Rear exposure keeps chokes in reach",
       "distractors": {
@@ -1089,7 +1089,7 @@
       }
     },
     {
-      "question": "How do the bottom player's frames and elbow-to-knee connection define the structural integrity of turtle?",
+      "question": "How do the bottom player's frames and elbow-to-knee connection hold turtle together?",
       "answer": "The bottom's defensive shell depends on elbows glued to the inside of the knees and forearms available as frames against the top's hips and chest. This connection closes the gaps an underhook would penetrate, so the top cannot separate hip control from shoulder control - the split that collapses the position. When elbows flare, underhooks thread in and the structure fails toward flattening or a back take. The frames also manage distance and pressure, letting the bottom feel weight shifts and preserve the mobility that keeps turtle a live transition rather than a pin.",
       "answer_line": "Elbows glued to knees seal gaps",
       "distractors": {
@@ -1103,7 +1103,7 @@
       }
     },
     {
-      "question": "What separates turtle from its neighboring positions like back control and front headlock, and how does it flow into them?",
+      "question": "How does turtle differ from back control and front headlock, and how does it flow into them?",
       "answer": "Turtle is the unresolved midpoint: from it the top can advance to back control by inserting hooks with harness, or to front headlock by circling to the head and threatening the neck, while the bottom can recover to closed or half guard, stand up, or roll to guard. Back control resolves the rear-exposure gamble in the top's favor with hooks secured; front headlock resolves it by capturing the head and neck. Guard recovery resolves it in the bottom's favor by re-facing the opponent. Turtle itself has no hooks and no guard yet - it is the branching node before those outcomes are decided.",
       "answer_line": "Turtle has no hooks, no guard yet",
       "distractors": {

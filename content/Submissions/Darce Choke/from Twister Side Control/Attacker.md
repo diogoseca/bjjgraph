@@ -78,7 +78,7 @@ description: "Learn to attack the Darce Choke from Twister Side Control with det
     },
     {
       "@type": "Question",
-      "name": "What defensive response from the bottom player creates the primary entry window for this Darce variant?",
+      "name": "Which defensive reaction from Twister side control opens this Darce entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The turn-in response, where the bottom player rotates toward the top player to relieve spinal torque and create defensive frames. This rotation displaces the near arm away from the neck, opens the gap between the neck and shoulder needed for arm threading, and brings the chin away from the chest. This natural defensive movement against the Twister threat is precisely what creates the Darce opportunity, forming the core dilemma of the position."
@@ -86,7 +86,7 @@ description: "Learn to attack the Darce Choke from Twister Side Control with det
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly and fights your threading hand with both arms - what adjustment prevents this defense from succeeding?",
+      "name": "They tuck the chin and hand-fight your Darce thread — what adjustment beats it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Control the blocking wrist with your free hand and peel it away from the neck, or increase shoulder pressure to force the chin upward before re-attempting the thread. If hand fighting persists, use your body weight to drive the near shoulder deeper into the mat, which structurally forces the chin up regardless of muscular resistance. You can also feint the Twister to force them to redirect defensive attention away from the Darce entry."
@@ -94,7 +94,7 @@ description: "Learn to attack the Darce Choke from Twister Side Control with det
     },
     {
       "@type": "Question",
-      "name": "What indicates you have reached the point of no escape when finishing the Darce from Twister Side Control?",
+      "name": "Finishing the Darce from Twister side control, what marks the point of no escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when the figure-four grip is locked with the threading arm deep past the chin, hips have walked perpendicular to create tight choke geometry, and chest pressure is driving the trapped shoulder into the neck. At this stage, the bilateral carotid compression is structurally locked and even strong defensive bridging cannot create enough space to relieve the pressure. The defender's only option is to tap."
@@ -110,7 +110,7 @@ description: "Learn to attack the Darce Choke from Twister Side Control with det
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make if the initial figure-four connection feels loose or has slack?",
+      "name": "Your Darce figure-four from Twister side control feels loose — what do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walk your hips further toward the opponent's head to increase the perpendicular angle and mechanically tighten the grip. Ensure your threading arm is deep enough that your hand reaches the far-side bicep rather than stopping at the forearm. Pull your elbows tighter together before applying finishing pressure. If slack persists, you may need to re-thread the arm deeper rather than attempting to compensate with squeezing force on an improperly set grip."

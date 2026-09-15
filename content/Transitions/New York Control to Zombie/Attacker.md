@@ -92,7 +92,7 @@ description: "How to execute New York Control to Zombie in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward aggressively as you attempt to establish lockdown - what immediate adjustment do you make?",
+      "name": "They drive forward as you set lockdown for the Zombie from New York — what's your adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish a strong near-side frame against their chest or shoulder to prevent being flattened. Shrimp your hips away from them to create space. If lockdown cannot be completed due to their pressure, abandon the Zombie attempt and transition to standard half guard retention with knee shield - a partial lockdown with no upper body control against a driving opponent leads to getting smashed."

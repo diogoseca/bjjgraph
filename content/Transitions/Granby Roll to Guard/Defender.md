@@ -64,7 +64,7 @@ description: "How to defend against Granby Roll to Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already begun the granby roll and is past the halfway point—what is your best defensive response?",
+      "name": "Holding a buggy choke, your opponent's granby roll is past halfway. Best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop trying to prevent the roll and immediately switch to following it. Maintain chest-to-back connection as they rotate, hook their near leg with your leg, and establish a seatbelt grip as they complete the inversion. Your goal shifts from maintaining Buggy Choke to converting to back control. Fighting a roll with full momentum wastes energy and costs you the connection needed for the back take."
@@ -80,7 +80,7 @@ description: "How to defend against Granby Roll to Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How should your weight distribution change when defending against the granby versus maintaining the Buggy Choke attack?",
+      "name": "Defending a granby versus holding the buggy choke, how should your weight shift?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During active Buggy Choke attack, weight is distributed between chest pressure and hip control in roughly equal measure. When defending the granby, shift more weight forward onto their shoulders and upper back to counter the backward hip bump that initiates the escape. Keep your hips low but drive your chest diagonally downward toward their far shoulder, creating a pinning vector that opposes the rotational direction of the granby."
@@ -88,7 +88,7 @@ description: "How to defend against Granby Roll to Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully completes the granby roll and lands facing you—what is your immediate priority?",
+      "name": "Your opponent completes the granby and lands facing you. What is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately address their legs before they can close guard or establish foot-on-hip frames. Drive forward with your hips while controlling their knees or ankles to prevent guard closure. If you cannot prevent guard establishment within the first two seconds, accept the guard position and begin working your guard passing sequence rather than scrambling wildly. The critical error is hesitating in no-man's-land where they can lock closed guard while you have no base."

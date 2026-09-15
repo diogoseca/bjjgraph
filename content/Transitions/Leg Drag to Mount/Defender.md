@@ -64,7 +64,7 @@ description: "How to defend against Leg Drag to Mount in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stepping their far leg over while driving heavy crossface pressure—what is your immediate defensive sequence?",
+      "name": "Defending leg drag to mount: they step the far leg over with heavy crossface — your sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, use your far hand to block or redirect the crossface to prevent being flattened completely. Simultaneously, hip escape slightly away from the passer to create space at your near hip. Then drive your near knee between your body and the passer's torso as they step over, establishing a knee shield. The frame buys time, the hip escape creates space, and the knee shield stops the mount. All three happen nearly simultaneously."
@@ -88,7 +88,7 @@ description: "How to defend against Leg Drag to Mount in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "If the mount has already been partially completed with one leg over, what is your best remaining defensive option?",
+      "name": "They already have one leg over from the leg drag — your best remaining defence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If one leg is already over but they haven't settled their weight, immediately begin your mount escape rather than trying to prevent the mount. Bridge toward the side where they stepped over to disrupt their settling, then hip escape to insert a knee before they establish grapevines or hooks. The transition from partial mount to settled mount is itself a window—act before they consolidate. Waiting for them to settle makes escape significantly harder."

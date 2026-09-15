@@ -84,7 +84,7 @@ description: "How to execute the Loop Choke from Side Control in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "What is the minimum time period you should take to apply full pressure in the loop choke from side control during training?",
+      "name": "How long should you take to reach full loop choke pressure from side control in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The minimum application time is 3-5 seconds from initial tightness to full pressure. This progressive application is a critical safety requirement that gives your training partner adequate time to recognize the choke and tap safely. Competition-speed application is never appropriate in training and significantly increases injury risk, particularly tracheal damage from sudden collar tightening. The choke should tighten gradually through controlled sprawl pressure, allowing your partner to feel the progression and tap at any point during the sequence."
@@ -92,7 +92,7 @@ description: "How to execute the Loop Choke from Side Control in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins shrimping away while you have the deep collar grip established from side control - what adjustment prevents escape and can accelerate the finish?",
+      "name": "They shrimp away while you hold the deep collar grip in side control: what adjustment finishes it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent shrimps away, follow their hip movement by driving your shoulder forward while maintaining collar grip depth. The shrimping motion can actually tighten the collar around their neck if you keep the grip deep and drive forward with your chest, because their movement creates distance that stretches the collar tight. Use the collar grip as a tether to pull yourself back into chest contact. If they create significant distance, hip-switch to follow them rather than reaching. The key is that your collar grip converts their escape movement into choking pressure when you maintain forward drive."
@@ -100,7 +100,7 @@ description: "How to execute the Loop Choke from Side Control in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "What tactile and visual indicators confirm the loop choke is properly positioned before applying finishing pressure from side control?",
+      "name": "What indicators confirm the loop choke from side control is set before you finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include: your deep collar grip has four fingers past the trachea with the thumb against the side of the neck, your forearm lies diagonally across the centerline of their throat with collar fabric on both sides, the near lapel grip creates visible tension across their neck toward your opposite hip, your chest and shoulder are driving weight into their upper body, and you feel the collar tightening symmetrically around both sides of their neck rather than crushing the front of the throat. When you begin light sprawl pressure, the opponent should show signs of bilateral carotid compression—face color change and immediate defensive reaction—rather than coughing or gasping which indicates an air choke."
@@ -108,7 +108,7 @@ description: "How to execute the Loop Choke from Side Control in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "You have been applying committed finishing pressure for 6 seconds with no tap - what should you do and why?",
+      "name": "Six seconds of committed loop choke pressure from side control and no tap: what do you do, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release the pressure and reset your grips rather than continuing to force the choke. If no tap occurs within 5-6 seconds of committed pressure, the setup is almost certainly incorrect—typically a shallow grip creating an air choke rather than a blood choke, or improper sprawl angle that fails to generate bilateral compression. Continuing to force a poorly positioned choke causes unnecessary tracheal discomfort, wastes energy, and creates injury risk without a realistic chance of finishing. Reset to side control, re-establish crossface control, and either attempt a fresh grip with proper depth or transition to a different submission."
@@ -116,7 +116,7 @@ description: "How to execute the Loop Choke from Side Control in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "How does the perpendicular angle of side control change the finishing vectors compared to applying the loop choke from mount?",
+      "name": "How does side control's perpendicular angle change the loop choke finishing vector versus mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From side control, the primary finishing force comes from horizontal tension created by sprawling the hips back while driving the shoulder forward, rather than the gravitational downward pressure used from mount. The perpendicular body alignment means you cannot simply drop your weight through the choke as you would from mount. Instead, the sprawl creates a stretching force that pulls the collar tight across the neck horizontally. Your shoulder acts as the forward anchor while your hips pull the collar taut in the opposite direction. This requires coordinating diagonal grip vectors with the sprawl motion to create compound compression on the carotid arteries."

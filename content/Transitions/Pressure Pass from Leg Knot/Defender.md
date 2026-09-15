@@ -56,7 +56,7 @@ description: "Defend against the Pressure Pass from Leg Knot in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from leg lock attacks to a pressure pass attempt?",
+      "name": "In Leg Knot, earliest cue that your opponent is switching from leg attacks to a pressure pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent reaching forward for your head, collar, or far shoulder while simultaneously driving their chest weight down onto your torso. This represents a fundamental shift from the typical leg lock attacking posture where the opponent maintains distance and focuses on your lower body. The forward weight transfer and upper body reaching are the clearest signals that a pressure pass is beginning and that your defensive priority should shift from heel protection to frame establishment."
@@ -64,7 +64,7 @@ description: "Defend against the Pressure Pass from Leg Knot in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the crossface and is beginning the knee slide extraction - what defensive sequence gives you the best chance of preventing the pass?",
+      "name": "Leg Knot bottom: they have the crossface and start the knee slide. Best defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the crossface already established, your primary option is a hip escape to create enough space for a knee shield insertion. Shrimp your hips away from the crossface side while simultaneously inserting your top knee across the opponent's body as a frame. This transitions you to Half Guard Bottom with a knee shield, which provides distance management and prevents the opponent from completing the pass to side control. The secondary option is to bridge into the crossface to disrupt the opponent's pressure and create a momentary window for re-entanglement."
@@ -72,7 +72,7 @@ description: "Defend against the Pressure Pass from Leg Knot in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Why should you prioritize re-entanglement over guard recovery when defending the pressure pass from Leg Knot?",
+      "name": "Defending the pressure pass from Leg Knot, why prioritize re-entanglement over guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Re-entanglement preserves your offensive leg lock threats and returns the position to a state where you have active attacking capability. Guard recovery, while safe, surrenders the entire leg entanglement battle and places you in a reactive defensive guard position where the opponent retains the initiative. By re-entangling, you force the opponent back into the leg lock exchange where your defensive efforts transform into offensive opportunity, creating a much more favorable positional outcome than simply recovering to half guard or closed guard."
@@ -80,7 +80,7 @@ description: "Defend against the Pressure Pass from Leg Knot in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How can you use the opponent's forward weight commitment during the pressure pass as a sweep opportunity?",
+      "name": "Defending the pressure pass from Leg Knot, how do you turn their forward weight into a sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent drives heavy forward pressure for the crossface or during the extraction phase, their weight distribution becomes top-heavy and vulnerable to lateral redirection. By timing a bridge at a 45-degree angle into their committed weight, you can redirect their momentum over your shoulder for a sweep. The key is timing the bridge to coincide with their maximum forward commitment, when their base is narrowest and their ability to post is most compromised by the extraction mechanics occupying their attention and positioning."

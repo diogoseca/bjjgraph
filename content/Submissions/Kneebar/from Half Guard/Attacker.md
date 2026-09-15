@@ -70,7 +70,7 @@ description: "How to execute Kneebar from Half Guard in BJJ. Attacking perspecti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical principle that creates the kneebar submission, and why is hip positioning critical?",
+      "name": "What mechanical principle creates the kneebar, and why is your hip position critical to it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kneebar creates hyperextension of the knee joint by using your torso as a fulcrum point. Your body (positioned at their knee) acts as the pivot, while your hips driving upward on one side and your arms controlling the ankle on the other side create opposing forces that hyperextend the joint. Hip positioning is critical because only by achieving perpendicular alignment can you create this leverage system—if you're not perpendicular, you're pulling against their leg strength rather than using mechanical advantage to attack the joint structure."
@@ -78,7 +78,7 @@ description: "How to execute Kneebar from Half Guard in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Why is controlling the opponent's hip essential before finishing the kneebar, and what happens if you neglect this control?",
+      "name": "Why must you control their hip before finishing the kneebar, and what happens if you neglect it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip control prevents the opponent from rotating their body, which is the primary escape mechanism from kneebar positions. The knee joint can only be hyperextended when the leg is relatively straight and unable to rotate. If you neglect hip control, the opponent can rotate their knee inward (toward you) or rotate their entire body, which either removes pressure from the joint or allows them to extract their leg entirely. Many failed kneebar attempts result from attacking the leg without first securing the hip to prevent rotation."
@@ -94,7 +94,7 @@ description: "How to execute Kneebar from Half Guard in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "What is the correct transition sequence from bottom half guard to kneebar position, and what must be maintained throughout?",
+      "name": "What is the entry sequence from bottom half guard to kneebar, and what must be kept throughout?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sequence is: (1) Establish underhook and off-balance opponent forward; (2) Shrimp hips out to begin rotation toward perpendicular angle; (3) Swing top leg over opponent's back/hip while maintaining bottom leg control; (4) Complete rotation to perpendicular position with both legs isolating the trapped leg; (5) Secure hip control with hands; (6) Position knee joint on centerline; (7) Apply progressive hip extension. Throughout this entire sequence, you must maintain constant tension with your bottom leg hook—never release the half guard until your new position is fully established. Loss of connection during transition allows the opponent to extract their leg and pass your guard."
@@ -102,7 +102,7 @@ description: "How to execute Kneebar from Half Guard in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent begins to rotate their knee inward during the kneebar, and what alternative submission might this defense open?",
+      "name": "They rotate their knee inward during your kneebar: how do you respond, and what submission opens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent rotates their knee inward (bringing their heel toward you), immediately use your hands to grab their foot and forcibly rotate it back outward (toes away from you) to restore proper kneebar alignment. Maintain tight leg control to prevent full rotation. However, this inward rotation defense also creates an opportunity to transition to a toe hold—as they rotate their foot toward you, you can catch it and transition to the toe hold grip (figure-four grip on their foot) and finish that submission instead. This demonstrates the interconnected nature of leg lock systems where one defense opens another attack."
@@ -110,7 +110,7 @@ description: "How to execute Kneebar from Half Guard in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "What specific injuries can result from improperly applied kneebars, and why is progressive pressure application critical?",
+      "name": "What injuries can a poorly applied kneebar cause, and why is progressive pressure critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Improperly applied kneebars (particularly when jerked or spiked rapidly) can cause: posterior cruciate ligament (PCL) tears requiring 6-12 months recovery with surgery, medial collateral ligament (MCL) damage requiring 4-8 weeks recovery, patellar tendon strains or ruptures requiring 3-6 months recovery, and meniscus tears that may require surgery. Progressive pressure application (3-5 seconds minimum) is critical because knee ligaments have relatively poor proprioception compared to other joints—the pain response is delayed, meaning injury can occur before the person realizes they need to tap. Slow application gives the nervous system time to register danger and allows the training partner adequate time to recognize the submission and tap safely."

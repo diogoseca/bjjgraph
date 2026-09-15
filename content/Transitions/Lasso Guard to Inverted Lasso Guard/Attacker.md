@@ -82,7 +82,7 @@ description: "How to execute the transition to inverted lasso guard. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Why must the inversion roll travel diagonally across the shoulder blade rather than straight backwards?",
+      "name": "Why must the inversion roll go diagonally across the shoulder blade instead of straight back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A diagonal roll toward the lasso side maintains constant tension on the lasso hook throughout the movement because your body stays close to the connection point on the opponent's arm. Rolling straight backwards pulls your body away from the trapped arm, creating momentary slack that allows the opponent to retract their arm and escape the lasso entirely. The diagonal path also produces a better final angle for berimbolo entries and overhead sweeps because your hips end up oriented toward the opponent's centerline rather than pointing away from them."
@@ -98,7 +98,7 @@ description: "How to execute the transition to inverted lasso guard. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "What grip configuration must be maintained throughout the inversion, and what happens if the sleeve grip breaks mid-roll?",
+      "name": "Which grip must you keep through the lasso inversion, and what if it breaks mid-roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must maintain a palm-up sleeve grip on the same side as the lasso hook, pulling continuously toward your chest to keep the system under tension. If the sleeve grip breaks mid-roll, the entire inversion loses its offensive potential because you cannot control the opponent's arm trajectory or prevent them from retracting the lassoed limb. In this scenario, do not continue fighting for the inversion. Immediately recover to open guard by using your legs to create distance and re-establish grips from a stable position. Continuing inverted without sleeve control leaves you exposed with no guard retention."
@@ -106,7 +106,7 @@ description: "How to execute the transition to inverted lasso guard. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the lasso hook tightens or loosens during the inversion?",
+      "name": "What detail decides whether the lasso hook tightens or loosens during the inversion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shin must maintain continuous pressing contact against the opponent's tricep throughout the roll, with the foot hooked behind their shoulder or lat. During a properly executed inversion, the lasso should actually tighten because your body weight now assists the downward pulling force on the hook. The critical mechanical detail is keeping the lasso leg extended and the shin actively pressing outward against the arm during the roll. If you allow the leg to bend or retract toward your body during the transition, the hook loosens and the opponent can extract their arm. Think of the lasso leg as a rigid lever that the inversion amplifies."
@@ -114,7 +114,7 @@ description: "How to execute the transition to inverted lasso guard. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "What are the primary differences between the rolling inversion entry and the hip switch inversion entry?",
+      "name": "How does the rolling inversion entry differ from the hip switch entry to inverted lasso?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The rolling inversion is a full backwards roll using momentum to carry you onto the shoulders in one fluid motion. It requires more space behind you but produces the strongest initial angle for immediate berimbolo entries. The hip switch inversion is a two-step process where you first rotate your hips to the opposite side before inverting, creating an angular change that precedes the full roll. The hip switch is slower but maintains tighter lasso control throughout and works when the opponent is applying heavy forward pressure that would block a full rolling entry. The hip switch also disguises the inversion because the initial movement looks like a standard sweep setup."

@@ -70,7 +70,7 @@ description: "How to execute Armbar from Guard in BJJ. Attacking perspective wit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critically important to apply armbar pressure slowly and progressively in training rather than using competition speed?",
+      "name": "Why apply armbar pressure slowly and progressively in training rather than at competition speed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Slow, progressive application allows your training partner adequate time to recognize the danger and tap before injury occurs. Elbow joints can be damaged in fractions of a second with explosive pressure, potentially requiring surgery and months of recovery. The elbow joint has less sensory feedback than other joints, so partners may not feel pain until structural damage is already occurring. Training is about learning and improvement, not injury, so controlled application is essential for long-term training partner relationships and safety culture."
@@ -78,7 +78,7 @@ description: "How to execute Armbar from Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What is the primary mechanical reason why proper hip positioning is essential for armbar effectiveness?",
+      "name": "Why is hip position mechanically essential to the armbar from guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips act as the fulcrum point for the lever system that creates the armbar. When hips are elevated and tight to the opponent's shoulder, you create a short lever arm for opponent's elbow (their upper arm) and a long lever arm for your control (your legs and torso). This mechanical advantage allows you to generate tremendous pressure with minimal effort. If hips drop to the mat, you lose this leverage and opponent can often escape or defend the submission even with proper arm control."
@@ -94,7 +94,7 @@ description: "How to execute Armbar from Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What should you do immediately if your training partner taps or shows any sign of distress during armbar application?",
+      "name": "What must you do the instant your partner taps or shows distress during an armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release all pressure immediately by stopping hip extension and releasing leg control. Do not wait or gradually reduce pressure—the release must be instant and complete. Open your legs, allow the arm to return to safe position, and check with your partner about their elbow condition before continuing training. Even slight delays in releasing after a tap can cause serious injury and destroy training partner trust."
@@ -110,7 +110,7 @@ description: "How to execute Armbar from Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "How does the leg position over opponent's head contribute to armbar control and what happens if this detail is neglected?",
+      "name": "How does the leg over the head control the armbar from guard, and what if you neglect it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg over the head stops the opponent posturing up or turning into you, while giving you a base point for rotation and the perpendicular angle. It acts as both control and base simultaneously, making it essential for a successful finish. If it is never established or is lost, the opponent can sit up, regain posture, turn toward you, and either escape the armbar entirely or pass to side control."

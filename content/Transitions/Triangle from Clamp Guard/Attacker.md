@@ -74,7 +74,7 @@ description: "Complete attacking guide for the Triangle from Clamp Guard. Step-b
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent begins pulling their trapped arm straight back rather than circling outward — how does this change your attack selection from clamp guard?",
+      "name": "They pull the trapped arm straight back, not circling out: which clamp guard attack do you take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A straight-back pull extends the arm along its length, which deepens the armbar angle rather than opening the triangle window. The triangle requires lateral space between the neck and shoulder, which circular extraction creates but straight-back pulling does not. When you feel the straight-back pull, redirect your attack to the armbar from clamp guard by extending your hips into the arm while controlling the wrist. The straight-back extraction actually makes the armbar higher-percentage because the opponent is voluntarily straightening the arm you need extended."
@@ -82,7 +82,7 @@ description: "Complete attacking guide for the Triangle from Clamp Guard. Step-b
     },
     {
       "@type": "Question",
-      "name": "What is the critical hip angle adjustment needed immediately after shooting the choking leg over the opponent's shoulder?",
+      "name": "After shooting the choking leg over the shoulder, what hip angle adjustment makes it a blood choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must hip escape to angle your body approximately 30-45 degrees off the opponent's centerline, with the choking leg's knee directed toward the trapped arm's shoulder. This perpendicular angle aligns the compression vectors so that the choking leg presses one carotid artery while the trapped arm presses the other. Without this angle, the squeeze creates pressure on the front of the throat rather than the arteries, which is uncomfortable but not a blood choke and can be endured indefinitely."
@@ -90,7 +90,7 @@ description: "Complete attacking guide for the Triangle from Clamp Guard. Step-b
     },
     {
       "@type": "Question",
-      "name": "You have shot your leg over the shoulder but the opponent immediately postures up before you can lock the triangle — what is your response?",
+      "name": "They posture up before you can lock the triangle from clamp guard: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grab the back of the opponent's head with both hands and pull it down into your chest while curling your leg tighter across their neck. If you can reach the lock, even loosely, close it and then work the angle and tightness afterward — a locked triangle with bad angle is recoverable, but an unlocked triangle against posture is not. If the head pull fails and they achieve full posture, retract your leg and re-establish the clamp rather than fighting a losing battle for a triangle against extended posture."
@@ -106,7 +106,7 @@ description: "Complete attacking guide for the Triangle from Clamp Guard. Step-b
     },
     {
       "@type": "Question",
-      "name": "Your opponent turns their shoulder inward to reduce the choking pressure after you lock the triangle — how do you adapt your attack?",
+      "name": "They turn the shoulder inward to kill the pressure after you lock the triangle: how do you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inward shoulder turn creates an excellent omoplata entry because the opponent has voluntarily rotated the shoulder joint toward the overhook position. Pivot your hips to swing your leg over their turned shoulder and transition to omoplata control. Alternatively, the turned shoulder exposes the back of the arm for an armbar by extending your hips while maintaining the triangle lock. The key insight is that the shoulder turn solves the choke but opens two other submissions — let the opponent's defense select your next attack."
@@ -114,7 +114,7 @@ description: "Complete attacking guide for the Triangle from Clamp Guard. Step-b
     },
     {
       "@type": "Question",
-      "name": "Why is the triangle from clamp guard considered higher-percentage than triangle entries from standard closed guard?",
+      "name": "Why is the triangle from clamp guard higher-percentage than from standard closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In closed guard, the triangle requires three steps: breaking posture, isolating one arm, and then shooting the leg over the shoulder. In clamp guard, the arm is already isolated with the shin-on-bicep control, and the leg is already near the shoulder. This eliminates the two most difficult and failure-prone steps, reducing the entry to a single leg shoot when the window opens. The clamp also prevents the opponent from symmetrically defending with both arms since one arm is already trapped and unable to contribute to the posture battle."

@@ -308,7 +308,7 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 
 - **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (26% of attempts)
 
-- **[[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|Cross Collar Choke from 3-4 Mount]]** (0% of attempts)
+- **[[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|Cross Collar Choke from 3-4 Mount]]** (gi only)
 
 - **[[Transitions/3-4 Mount to S Mount/Attacker|3-4 Mount to S Mount]]** (8% of attempts)
 

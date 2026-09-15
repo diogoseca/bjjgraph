@@ -64,7 +64,7 @@ description: "How to defend against Mounted Crucifix to S Mount in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their hips while in mounted crucifix - what is your immediate defensive response?",
+      "name": "They begin rotating their hips in mounted crucifix — what is your immediate defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The instant you detect hip rotation, bridge explosively toward the side of the extracting leg. This direction attacks their weakest balance point during the transition. Simultaneously pull your trapped arm toward your centerline, exploiting the reduced pressure from the departing leg. If the bridge disrupts their balance enough to prevent the transition, immediately attempt arm extraction. If the bridge fails, transition to collar grip defense on the trapped arm before S Mount consolidates."

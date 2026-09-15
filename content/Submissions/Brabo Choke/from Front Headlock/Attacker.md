@@ -70,7 +70,7 @@ description: "How to execute Brabo Choke in BJJ. Attacking perspective with setu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary safety difference between a properly executed blood choke and an air choke, and why does the Brabo Choke require deep arm insertion?",
+      "name": "Why must the Brabo arm be threaded deep, and how does a blood choke differ from an air choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A blood choke (properly executed Brabo) compresses the carotid arteries causing rapid unconsciousness within 5-10 seconds, then releases safely with immediate recovery. An air choke compresses the trachea causing panic and pain but takes much longer to be effective, and can cause serious tracheal damage. Deep arm insertion ensures your forearm crosses the front of the neck at the correct angle to compress carotids rather than crush the trachea. Shallow insertion results in painful but less effective air choke that risks injury."
@@ -78,7 +78,7 @@ description: "How to execute Brabo Choke in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "What is the correct response if your training partner's body suddenly goes limp during Brabo Choke application?",
+      "name": "Your partner goes limp while you apply the Brabo choke — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately release all pressure by opening your grip and removing your arm from their neck smoothly. Your partner has lost consciousness and continuing pressure is extremely dangerous. Allow them to recover in a safe position, monitor their breathing, and give them several minutes before resuming training. If they don't regain consciousness within 10-15 seconds, seek medical help immediately. This scenario emphasizes why progressive pressure and attention to tap signals is critical in training."
@@ -86,7 +86,7 @@ description: "How to execute Brabo Choke in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Describe the proper body angle for finishing the Brabo Choke and explain why this angle is mechanically superior to staying parallel with the opponent?",
+      "name": "What body angle finishes the Brabo, and why is it better than staying parallel?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal finishing angle is perpendicular to the opponent's spine, with your chest across their upper back and your head near their far shoulder. This perpendicular angle creates a scissoring effect where your forearm compresses the near-side carotid while your shoulder drives into the side of their neck, pressing their own shoulder against the far-side carotid. The mechanical advantage comes from using your entire body weight and shoulder pressure rather than just arm strength. Parallel positioning loses this leverage and allows opponent to defend by turning into you or posturing up."
@@ -94,7 +94,7 @@ description: "How to execute Brabo Choke in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Why is the bicep grip crucial for the Brabo Choke, and what happens if the grip is too loose or too high on the arm?",
+      "name": "Why does the Brabo bicep grip matter, and what happens if it's loose or too high?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bicep grip (or wrist grip) creates a closed circuit that locks your arms in a tight loop around the opponent's neck and trapped arm. This prevents the opponent from creating space by turning their head or pulling your arm loose. If the grip is too high or loose, space exists in the circuit allowing the opponent to turn their chin toward you and relieve pressure on the carotids. A deep, tight bicep grip eliminates this escape space and ensures maximum mechanical efficiency of the choking mechanism."
@@ -102,7 +102,7 @@ description: "How to execute Brabo Choke in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "What are the key differences between the Brabo Choke and the Darce Choke, and when might you choose one over the other?",
+      "name": "How does the Brabo differ from the Darce, and when do you pick each?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Brabo and Darce are closely related with subtle differences in entry angle and finishing mechanics. The Brabo traditionally refers to threading under the near arm from front headlock when opponent's arm is tight to their body, while Darce often implies threading from side control or when the arm is slightly away from body. Some practitioners use the terms interchangeably. The practical difference is angle of entry: Brabo setup assumes opponent is defending with tight elbows from bottom, while Darce assumes you're attacking from a top control position. Choose based on which entry presents itself in the scramble or position you're attacking from."
@@ -110,7 +110,7 @@ description: "How to execute Brabo Choke in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "How should you adjust the Brabo Choke if your opponent attempts to roll toward you, and why is this actually beneficial for finishing?",
+      "name": "Your opponent rolls toward you during the Brabo — how do you adjust and why does it help?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If opponent rolls toward you during Brabo application, follow the roll while maintaining your grip and chest pressure on their back. The rolling motion often actually tightens the choke because it prevents them from posturing up or creating space. Follow through the roll and you'll land in a modified mount or side control position with the choke still locked, often in a better finishing position. The key is not to resist the roll but to use it - maintain your grip circuit and keep your chest connected to their back throughout the movement. This adjustment transforms their escape attempt into a submission completion."

@@ -114,7 +114,7 @@ description: "Master the grip sequencing, timing, and foot placement needed to e
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward with heavy pressure as you reach for the collar - what is your response?",
+      "name": "They drive forward heavily as you reach for the collar from open guard: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Absorb the forward drive with your feet on their hips, using leg extension to maintain distance. If your feet are already positioned, you can use their forward momentum against them by pulling the collar during their drive, which amplifies the off-balancing force. If the pressure is too strong to maintain distance, abandon the collar sleeve attempt and transition to butterfly guard hooks (using their forward pressure for elevation sweeps) or close your legs for closed guard. Never fight for collar sleeve grips from a compromised, compressed position."

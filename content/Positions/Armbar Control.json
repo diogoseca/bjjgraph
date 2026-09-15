@@ -921,7 +921,7 @@
       }
     },
     {
-      "question": "Why is the hip-to-shoulder relationship the single most important geometric feature of this position?",
+      "question": "Why is the hip-to-shoulder relationship the key geometry of Armbar Control?",
       "answer": "The controlling player's hips serve as the fulcrum over which the elbow is levered, so the closer the hip bone sits to the trapped shoulder, the shorter the moment arm the opponent can exploit to defend. Any gap between hip and shoulder gives the trapped player room to bend the arm, rotate, or spin out. When the connection is tight, hip elevation translates almost directly into hyperextension force on the elbow. Both players contest this exact distance: one fights to close it, the other fights to open it.",
       "answer_line": "Hips are fulcrum, closer is better",
       "distractors": {
@@ -977,7 +977,7 @@
       }
     },
     {
-      "question": "How does Armbar Control differ mechanically from adjacent positions like Triangle Control or the Kimura Trap?",
+      "question": "How does Armbar Control differ mechanically from Triangle Control or the Kimura Trap?",
       "answer": "All three isolate a limb, but Armbar Control attacks the elbow through straight-line hyperextension over a hip fulcrum, whereas Triangle Control uses the legs to strangle the neck while trapping one arm inside the noose. The Kimura Trap isolates the same arm but attacks the shoulder through internal rotation rather than extending the elbow. Because these positions share the arm-isolation entry, a defense that bends the trapped arm often converts an armbar threat into an omoplata or kimura, and a stack often flows into a triangle. The distinction that defines Armbar Control specifically is the extended arm plus hip-fulcrum extension vector, not merely the isolated limb.",
       "answer_line": "Straight elbow extension over hip",
       "distractors": {

@@ -56,7 +56,7 @@ description: "Learn to defend against the reversal from kneebar control in BJJ. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is transitioning from kneebar attack to sweep attempt?",
+      "name": "What is the earliest cue that they are switching from kneebar attack to a sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in hip movement direction. During a kneebar attack, the bottom player drives their hips forward into your knee for extension. When transitioning to a sweep, their hips begin moving rotationally or laterally. You may also feel the arm grip pressure shift from a downward pull toward your feet to a lateral pull across their body. These changes typically precede the sweep by one to two seconds, providing a critical defensive window."
@@ -80,7 +80,7 @@ description: "Learn to defend against the reversal from kneebar control in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent inserts a butterfly hook under your thigh while maintaining kneebar grips - what is your immediate response?",
+      "name": "They insert a butterfly hook under your thigh while keeping kneebar grips—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your base by stepping your free leg out laterally and posting your hand on the mat. Then actively kick out the inserted hook by straightening your hooked leg and driving your knee toward the mat. If the hook cannot be removed quickly, shift your weight onto the hooked leg to flatten it against the mat, removing the elevation angle the attacker needs. Do not ignore the hook as it represents imminent sweep danger that escalates rapidly."

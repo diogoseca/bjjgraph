@@ -90,7 +90,7 @@ description: "Complete guide to executing the Butterfly Half Guard Sweep. Setup 
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far hand on the mat when you begin to elevate with the butterfly hook - how do you adjust?",
+      "name": "They post their far hand as you elevate with the butterfly hook: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hand post is an opportunity to switch attacks. Transition to the 100% sweep or old school sweep, which specifically exploit the hand post by attacking the now-weakened opposite side. Their posted hand commits weight to one direction, making them vulnerable to sweeps targeting the other direction. This action-reaction chain is fundamental to the butterfly half guard offensive system and should be drilled as an automatic response."
@@ -106,7 +106,7 @@ description: "Complete guide to executing the Butterfly Half Guard Sweep. Setup 
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls their hips back and applies heavy crossface pressure, shutting down your butterfly hook elevation - what is your best response?",
+      "name": "They sprawl and crossface hard, killing your butterfly hook elevation: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to deep half guard by diving underneath their hips and sliding your head toward their far hip. Their sprawl position actually facilitates this entry because their hips are back and weight is forward over your upper body, creating the space needed to swim underneath. Alternatively, if you can maintain the half guard trap, switch to lockdown and use the whip-up motion to create a new offensive angle. Do not continue forcing the butterfly sweep against a sprawled opponent."

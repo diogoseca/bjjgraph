@@ -74,7 +74,7 @@ description: "Learn to execute the Counter Roll from Matrix. Step-by-step guide 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary indicator that you should abandon the Matrix back take and redirect to the counter roll?",
+      "name": "What tells you to abandon the Matrix back take and redirect into the counter roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary indicator is when your rotational momentum encounters defensive resistance that exceeds your ability to continue the arc toward the back. This includes the opponent's base widening significantly, weight driving down on your hips, active sprawling that flattens your rotation, or counter-rotation that reverses your momentum. The key is reading this resistance early rather than fighting through it, because forcing a failing Matrix wastes momentum you need for the redirect."
@@ -82,7 +82,7 @@ description: "Learn to execute the Counter Roll from Matrix. Step-by-step guide 
     },
     {
       "@type": "Question",
-      "name": "Why must the leg trajectory change happen during continuous motion rather than as a separate action after stopping?",
+      "name": "Why must the leg trajectory change happen during continuous motion in the counter roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pausing the rolling motion to change direction creates a static moment where you are inverted or compromised with no defensive structure. Any pause gives the opponent time to capitalize on your vulnerable position with sprawl pressure, crossface, or pass attempts. The continuous motion of the redirect uses the remaining momentum to power the leg capture, making the entire sequence one fluid action rather than a stop-and-restart that the opponent can easily predict and counter."
@@ -98,7 +98,7 @@ description: "Learn to execute the Counter Roll from Matrix. Step-by-step guide 
     },
     {
       "@type": "Question",
-      "name": "Your counter roll has succeeded and you have captured the opponent's leg in half guard—what must you establish immediately?",
+      "name": "Your counter roll captured their leg in half guard — what must you establish immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish an active half guard structure by fighting for the underhook on the trapped leg side while framing with your outside arm to prevent crossface and chest-to-chest pressure. You must also get onto your side rather than remaining flat on your back, as being on your side enables hip mobility, angle creation, and access to sweeps and back takes from the half guard position. Passive flat-on-back half guard will be passed quickly."
@@ -106,7 +106,7 @@ description: "Learn to execute the Counter Roll from Matrix. Step-by-step guide 
     },
     {
       "@type": "Question",
-      "name": "What grips or connection points must you maintain throughout the counter roll, and why are they non-negotiable?",
+      "name": "Which connection must you keep through the counter roll, and why is it non-negotiable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must keep at least one active connection to the opponent throughout the redirect—typically a grip on their near leg or pants, or a developing leg hook. Without this connection you rotate independently and arrive separated from the opponent with no entanglement, having traded a defended Matrix for an open scramble. The grip pulls the opponent's near leg into your forming half guard and ensures they travel with your roll rather than simply watching you spin away into empty space."

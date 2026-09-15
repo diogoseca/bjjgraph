@@ -64,7 +64,7 @@ description: "Complete guide to defending the Knee Slide from Combat Base. Early
     },
     {
       "@type": "Question",
-      "name": "When is the latest possible moment to successfully defend a knee slide, and what defense works at that point?",
+      "name": "What is the latest moment you can defend a knee slide, and what defense works then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The latest effective defense point is when the opponent's knee has begun crossing your thigh but has not yet reached the mat on the far side. At this stage, clamp your legs tightly around their cutting leg to establish half guard retention, immediately insert a knee shield with your inside leg, and frame against their crossface shoulder to prevent being flattened. Once the knee completes its cut to the mat, defensive options drop dramatically and you must transition to side control bottom escape strategies instead."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the Knee Slide from Combat Base. Early
     },
     {
       "@type": "Question",
-      "name": "Your crossface defense has failed and the passer has heavy shoulder pressure—what is your emergency recovery sequence?",
+      "name": "Your crossface defense failed and the passer is heavy on you—what is your emergency recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When crossface defense fails, immediately protect your neck by tucking your chin and turning your face toward the passer. Get your near-side elbow to the mat as a wedge to prevent being completely flattened. Pummel your inside arm for an underhook while using your legs to clamp the cutting knee for half guard. From this compromised position, work to reinsert a knee shield by hip escaping and framing against the passer's hip. The priority shifts from preventing the pass to retaining half guard, which is significantly better than conceding full side control."

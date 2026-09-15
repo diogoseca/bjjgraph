@@ -299,7 +299,7 @@
         }
       },
       {
-        "question": "After completing the turn, your opponent drives forward with chest pressure — what is your immediate response?",
+        "question": "After your turn in and face, they drive chest pressure—what is your immediate response?",
         "answer": "Establish inside frames immediately with both forearms against the opponent's chest and shoulders to prevent them from closing distance. Then execute a sharp hip escape away from the opponent while maintaining frame contact to create space for leg insertion. The frames must be the immediate priority — without them, the opponent converts to side control or mount before guard can be recovered.",
         "answer_line": "Frames first, then hip escape",
         "distractors": {
@@ -313,7 +313,7 @@
         }
       },
       {
-        "question": "How do you determine whether to attempt Turn In and Face versus sitting to half guard from Buggy Choke bottom?",
+        "question": "From buggy choke bottom, how do you choose turn in and face over sitting to half guard?",
         "answer": "Turn In and Face is optimal when you retain enough posture and hip mobility to generate rotational momentum, and the opponent's body pressure has not fully flattened you. Sit to half guard is preferable when body pressure is heavy but grips are relatively shallow, as the sitting motion requires less rotational space. If fully flattened with deep grips and heavy pressure, accepting a controlled transition to back control may be the best option.",
         "answer_line": "Turn if mobile, not flattened",
         "distractors": {
@@ -341,7 +341,7 @@
         }
       },
       {
-        "question": "Your opponent releases the buggy choke grips mid-turn and shoots for a guillotine — what is your counter?",
+        "question": "They drop the buggy choke and shoot a guillotine mid-turn—what is your counter?",
         "answer": "Keep your chin tucked throughout the rotation to limit neck exposure. If you feel guillotine grips establishing, immediately swim your near arm to an underhook position which blocks the chin strap and prevents the lock from closing. If the guillotine is partially locked, continue the turn to face the opponent and pass your head to the choke side while applying shoulder pressure to break the grip open.",
         "answer_line": "Chin tucked, swim to underhook",
         "distractors": {
@@ -509,7 +509,7 @@
         }
       },
       {
-        "question": "Your bottom player has initiated the turn and is halfway through the rotation — what is your highest-percentage response?",
+        "question": "They're halfway through the turn in and face—what is your highest-percentage response?",
         "answer": "At the halfway point, preventing the rotation through pressure alone is unlikely to succeed because momentum has built. Your highest-percentage response is to release the buggy choke grips and immediately follow the rotation by inserting your near hook and establishing seat belt control for a back take. The bottom player's own turning momentum carries you into back control if you follow their hips rather than fighting the rotation. This converts their escape attempt into a worse position for them.",
         "answer_line": "Follow hips, take the back",
         "distractors": {

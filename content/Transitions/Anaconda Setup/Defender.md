@@ -56,7 +56,7 @@ description: "How to defend against Anaconda Setup in BJJ. Recognition cues, def
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you feel your opponent beginning to thread their arm for an anaconda setup?",
+      "name": "What's your single most important reaction as they thread an arm for the anaconda?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your near-side arm tight to your ribs with your elbow glued to your body and your hand near your chin. The anaconda requires trapping your arm against your neck, so removing your arm from the available space denies the fundamental mechanical requirement of the choke. This should be your first reflex before any escape attempt, because if the arm-in configuration is denied, the anaconda cannot be completed regardless of how deep the attacker threads."
@@ -64,7 +64,7 @@ description: "How to defend against Anaconda Setup in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun threading their arm under your neck but hasn't locked the grip yet - should you sit back to guard or circle away?",
+      "name": "Their thread is underway but ungripped: sit back to guard or circle away, and on what basis?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on how deep the threading is and your arm position. If the threading is shallow and your near arm is still free, sitting back to guard is highest percentage because it completely removes you from the front headlock position. If the threading is moderate and your arm is partially trapped, circling away from the choking arm side while fighting their wrist is safer because sitting back with a partially locked grip can result in the attacker following you down and finishing mounted. The key indicator is whether your near arm is free - if yes, sit back; if partially trapped, circle and fight the arm."
@@ -80,7 +80,7 @@ description: "How to defend against Anaconda Setup in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "How do you time a technical standup escape against the anaconda setup, and what conditions must exist?",
+      "name": "When do you time a technical standup against the anaconda setup, and what must be true?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The standup must be timed when the attacker's weight is high on your back and their hips are elevated, which creates space underneath you to drive upward. The conditions required are: the grip is not yet locked, your chin is tucked, and you have at least one hand free to post on the mat for the standup. Explode upward by posting your hands, extending your legs, and turning to face the opponent in one explosive sequence. If the attacker's weight is low and their chest is heavy on your back, the standup will stall and leave you in a worse position."
@@ -88,7 +88,7 @@ description: "How to defend against Anaconda Setup in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your opponent switches from anaconda threading to Darce threading because you tucked your near arm - what does this tell you and how should you adjust?",
+      "name": "You tucked your near arm and they switch to a darce: what does that tell you and how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This tells you that your arm-tucking defense was successful in denying the anaconda, but now the attacker is targeting your far arm instead by threading from the opposite side. You need to adjust by now protecting the far arm while maintaining your near-arm tuck. The Darce requires them to underhook your far arm and thread under your neck from that side. Create distance by circling toward the Darce side (opposite direction from anaconda defense), fight their threading arm, and look for opportunities to sit back to guard or stand up while they are transitioning between attacks."
@@ -96,7 +96,7 @@ description: "How to defend against Anaconda Setup in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "What is the optimal direction to circle when defending the anaconda setup, and why does direction matter?",
+      "name": "Which way should you circle against the anaconda setup, and why does direction matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circle away from the choking arm side - meaning if they are threading their right arm under your neck, circle to your left. This direction matters because circling away from the choking arm increases the distance their arm must travel to complete the loop, making it progressively harder to secure the grip. Circling toward the choking arm compresses the space and actually assists the threading by shortening the distance. Additionally, circling away tends to open space for guard recovery or standup attempts as the attacker must chase your movement."

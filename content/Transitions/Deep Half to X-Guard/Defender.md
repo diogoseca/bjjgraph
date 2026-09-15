@@ -56,7 +56,7 @@ description: "Defend against the Deep Half to X-Guard transition with early reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that indicates the bottom player is transitioning from deep half to X-Guard?",
+      "name": "What is the earliest cue that the bottom player is switching from deep half to X-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the loosening or release of the deep underhook on your far leg. In deep half guard, this underhook is the primary control mechanism, so any voluntary loosening indicates the bottom player is preparing to reconfigure their hooks. You may also feel their hips beginning to rotate from the inverted deep half angle toward a perpendicular position. Both cues precede the actual hook threading and provide the critical early warning window needed for effective defense."
@@ -64,7 +64,7 @@ description: "Defend against the Deep Half to X-Guard transition with early reco
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when you feel the bottom player's underhook loosening?",
+      "name": "How do you adjust your weight when you feel their deep half underhook loosening?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift your weight slightly forward and drive crossface pressure into the bottom player's jaw and upper body. This forward weight commitment flattens their upper body to prevent the hip rotation needed for X-Guard entry, and drives your trapped knee forward past their hook entry zone. However, do not overcommit forward — maintain enough balance to adjust if they switch from the X-Guard attempt back to a deep half sweep that capitalizes on your forward pressure."
@@ -72,7 +72,7 @@ description: "Defend against the Deep Half to X-Guard transition with early reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent has threaded one hook behind your knee but has not established the outside leg - what is the optimal defensive response?",
+      "name": "They have one hook behind your knee but no outside leg yet — what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With only the inside hook set, the X-Guard is not yet functional. Immediately drive your hooked knee downward and outward to make the hook shallow while driving crossface pressure to prevent the outside leg from reaching your hip. If you can push their inside hook below your knee joint, it loses control effectiveness. Simultaneously use your free hand to block their outside leg from crossing your hip line. Without the outside leg frame, the inside hook alone cannot generate sweep leverage."
@@ -80,7 +80,7 @@ description: "Defend against the Deep Half to X-Guard transition with early reco
     },
     {
       "@type": "Question",
-      "name": "What grip or pressure point most effectively prevents the bottom player from completing the perpendicular angle needed for X-Guard?",
+      "name": "What pressure best stops the bottom player reaching the perpendicular angle for X-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Crossface pressure on their jaw and upper body is the most effective control. The perpendicular angle requires hip rotation, which is powered by turning the head and shoulders first. By driving your shoulder or forearm across their face and pinning their head to the mat facing away from the rotation direction, you mechanically prevent the hip rotation from occurring. Secondary control through a hand on their far hip further restricts the rotational movement needed to complete the transition."

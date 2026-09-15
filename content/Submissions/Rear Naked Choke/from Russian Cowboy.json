@@ -307,7 +307,7 @@
         }
       },
       {
-        "question": "Your opponent's grip fighting suddenly weakens and their arms drop from defending their neck—what should you do immediately?",
+        "question": "RNC from Russian Cowboy: their grip fighting suddenly weakens and hands drop, what do you do?",
         "answer": "Immediately check for signs of unconsciousness rather than continuing to squeeze. A sudden drop in defensive effort often indicates the blood choke is taking effect and the opponent may be losing consciousness without being able to tap. Release pressure, check responsiveness by calling their name, and if they are unconscious, place them in recovery position and monitor breathing. Never assume they are giving up—always verify consciousness.",
         "safety_critical": true,
         "answer_line": "Check consciousness, don't squeeze",
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "At what point in the RNC sequence from Russian Cowboy is the defender effectively past the point of escape?",
+        "question": "RNC from Russian Cowboy: at what point is the defender past realistic escape?",
         "answer": "Once the figure-four is fully locked with the choking hand gripping the opposite bicep and the free hand positioned behind the head, the defender's escape options drop dramatically. At this stage, two-on-one grip strips become mechanically inefficient against the locked figure-four, and the diagonal stretch from the hook prevents the body curl needed to relieve pressure. The defender's best remaining option is an immediate tap rather than prolonged resistance that risks unconsciousness.",
         "safety_critical": false,
         "answer_line": "Figure-four locked, hand behind head",
@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "Your opponent manages to wedge two fingers under your choking forearm during the squeeze—what grip adjustment prevents them from creating space?",
+        "question": "RNC from Russian Cowboy: they wedge fingers under your forearm, what grip change kills the space?",
         "answer": "Rather than fighting their fingers directly, shift to a palm-to-palm grip variation by releasing the bicep grip and clasping both hands together behind the opponent's head in a Gable grip or S-grip. This changes the compression vector and eliminates the gap their fingers were exploiting. Simultaneously increase the diagonal stretch through your hook to extend their body, which pulls the neck deeper into whatever grip configuration you hold. Switching grip style is faster than stripping fingers.",
         "safety_critical": false,
         "answer_line": "Switch to Gable grip on head",
@@ -367,7 +367,7 @@
         }
       },
       {
-        "question": "How does the single leg hook specifically contribute to the finishing mechanics of the RNC from Russian Cowboy?",
+        "question": "How does the single hook in Russian Cowboy contribute to the RNC finish?",
         "answer": "The hook creates a diagonal stretch by pulling the opponent's hips in one direction while the upper body drives the opposite way. This extending force prevents the defensive curl where the opponent tucks their chin and rounds their shoulders to protect the neck. The stretched body position also makes it mechanically harder for the opponent to generate the hip movement needed to escape or the arm strength needed for grip fighting. Without active hook engagement during the squeeze, the choke loses roughly thirty percent of its mechanical efficiency.",
         "safety_critical": false,
         "answer_line": "Diagonal stretch blocks chin tuck",
@@ -382,7 +382,7 @@
         }
       },
       {
-        "question": "Why must the RNC be applied progressively over three to five seconds in training rather than snapped on quickly?",
+        "question": "Why apply the RNC progressively over three to five seconds in training instead of snapping it on?",
         "answer": "Progressive application gives the training partner time to recognize increasing pressure and signal a tap before the choke reaches dangerous levels. Blood chokes can cause unconsciousness in as little as four seconds once both carotid arteries are fully compressed. A sudden snap application can render a partner unconscious before they have any opportunity to tap, creating risk of prolonged blood flow restriction, potential brain injury, and secondary injuries from falling. Competition speed application is reserved only for actual competition.",
         "safety_critical": true,
         "answer_line": "Gives partner time to tap",
@@ -397,7 +397,7 @@
         }
       },
       {
-        "question": "Your opponent is defending the RNC by tucking their chin aggressively and pinning it to their chest—what finishing strategy works against this defense?",
+        "question": "RNC from Russian Cowboy: what finish works against a hard chin tuck to the chest?",
         "answer": "Apply a palm-to-palm squeeze that compresses through the jawline rather than requiring clean forearm-to-neck contact. Cup your choking hand over the chin area and clasp your other hand over it, then squeeze elbows together while expanding your chest. The pressure transmits through the jaw into the carotid arteries beneath. Alternatively, maintain patient chin-line pressure with your forearm while using the hook stretch to extend their body—the extension gradually weakens their chin tuck as their muscles fatigue under the stretch.",
         "safety_critical": false,
         "answer_line": "Palm-to-palm squeeze on the jaw",
@@ -412,7 +412,7 @@
         }
       },
       {
-        "question": "What immediate actions must you take if your training partner loses consciousness during RNC application?",
+        "question": "What must you do immediately if your partner goes unconscious during an RNC?",
         "answer": "Immediately release all choking pressure and remove your arms from around their neck. Gently lower them to the mat and place them in a side-lying recovery position to protect the airway. Call their name and gently shake their shoulder to check responsiveness. Most people regain consciousness within ten to thirty seconds. Do not allow them to stand up immediately after regaining consciousness. If they do not regain consciousness within thirty seconds, call for medical assistance immediately. Stay calm and monitor their breathing continuously.",
         "safety_critical": true,
         "answer_line": "Release, recovery position, monitor",
@@ -578,7 +578,7 @@
         }
       },
       {
-        "question": "Your opponent has secured the figure-four but has not fully applied the squeeze yet—what is your best defensive option?",
+        "question": "Defending RNC from Russian Cowboy: they have the figure-four but no squeeze yet, what is best?",
         "answer": "With the figure-four already locked, grip stripping becomes very difficult. Your best option is to immediately tuck your chin hard into the crook of their elbow while pulling their choking wrist down with both hands to create any space between their forearm and your neck. Simultaneously begin an explosive hip escape toward their free leg side—this is your last positional escape window before the squeeze tightens. If you cannot create space or escape within a few seconds, tap immediately rather than fighting a locked figure-four to exhaustion and risking unconsciousness.",
         "safety_critical": true,
         "answer_line": "Chin into the crook of their elbow",
@@ -593,7 +593,7 @@
         }
       },
       {
-        "question": "You have been defending the RNC grip fight for thirty seconds and your arms are fatiguing—how should you manage this situation?",
+        "question": "Defending the RNC grip fight for thirty seconds with fatiguing arms, how do you manage it?",
         "answer": "Sustained grip fighting against an RNC is an energy battle you will eventually lose if you remain purely defensive. Rather than continuing to grip fight indefinitely, use a brief burst of energy for a decisive escape attempt: bridge hard toward the free leg side while stripping the choking arm and immediately turn to face the opponent. If this escape fails and you are too fatigued to maintain effective two-on-one defense, tap before your grip strength drops below the threshold needed to prevent the choke from locking. Controlled tapping when defense is failing is always preferable to involuntary unconsciousness.",
         "safety_critical": true,
         "answer_line": "Burst escape, then tap if it fails",

@@ -56,7 +56,7 @@ description: "How to defend against the transition from Anaconda Control to Dead
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from anaconda finish to dead orchard setup?",
+      "name": "What is the earliest cue that they're switching from anaconda finish to dead orchard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the grip begin to walk incrementally deeper past your far shoulder without a corresponding increase in squeezing pressure. An anaconda finish attempt involves maximal squeeze. Dead orchard transition involves deliberate positional deepening without maximum effort squeeze. The shift from squeezing to walking is the first signal that the attacker has changed strategy from immediate finish to extended control."
@@ -64,7 +64,7 @@ description: "How to defend against the transition from Anaconda Control to Dead
     },
     {
       "@type": "Question",
-      "name": "Why is the transitional phase your best escape opportunity rather than waiting for the position to establish?",
+      "name": "Why is the transition itself your best escape window rather than waiting for dead orchard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the attacker is deliberately dismantling aspects of their existing control structure to rebuild at deeper levels. Grip adjustments create momentary looseness, hip repositioning narrows their base, and the focus on positional improvement divides their attention between maintaining current control and achieving new positioning. These transitional gaps do not exist once dead orchard is locked in and the attacker has consolidated all control elements at the deeper level."
@@ -72,7 +72,7 @@ description: "How to defend against the transition from Anaconda Control to Dead
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins walking their hips toward your head. What specific defensive movement counters this repositioning?",
+      "name": "They walk their hips toward your head: what movement counters that repositioning?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Scoot your own hips in the same direction the attacker is walking, matching their movement step-for-step to maintain parallel hip alignment. This denies them the perpendicular angle that dead orchard requires. Simultaneously, use your free arm to frame against their shoulder to resist the changing pressure angle. If you can maintain parallel hip alignment, the attacker cannot achieve the downward compression vector that characterizes dead orchard, keeping them in standard anaconda where your escape options are broader."
@@ -88,7 +88,7 @@ description: "How to defend against the transition from Anaconda Control to Dead
     },
     {
       "@type": "Question",
-      "name": "Your free arm frame is being stripped by the attacker's free arm. How do you maintain defensive structure?",
+      "name": "They're stripping your free-arm frame: how do you keep defensive structure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When your frame is being stripped, immediately replace it with a different defensive structure. Options include: switching your frame target from shoulder to the choking arm's elbow, using your free hand to grip their wrist and fight the grip directly, or posting your free hand on the mat and beginning a hip escape movement that changes the angle of engagement. The critical principle is never allowing both the frame loss and the grip deepening to happen simultaneously. Sacrifice some frame quality to maintain neck defense if necessary."

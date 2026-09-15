@@ -98,7 +98,7 @@ description: "Master the attacker perspective for Technical Stand Up from Open G
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between posting your hand too far back versus at the correct distance?",
+      "name": "In the technical stand up, how does posting too far back differ from correct posting distance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the posting hand is too far behind your body, the distance between your hand and feet creates a flat, weak tripod that requires more muscular effort to elevate the hips and generates less upward force. The correct posting distance is approximately six inches directly behind your hip, which creates a steep, powerful tripod angle. This close posting position allows your arm to act as a strong piston that drives your hips up efficiently rather than supporting your weight at a mechanical disadvantage."

@@ -80,7 +80,7 @@ description: "Learn to prevent hook insertion from seat belt back control. Defen
     },
     {
       "@type": "Question",
-      "name": "How do you balance defending hooks with defending the choke when the attacker uses neck threats to distract from insertion?",
+      "name": "How do you defend hooks and the choke when they use neck threats to open your legs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain knee clamp as an automatic, passive defense that requires no hand involvement. Your hands should prioritize neck defense—chin tucked, hands protecting the collar line, and controlling the choking wrist. This dual-layer approach defends both threats simultaneously: legs handle hook defense passively while hands handle choke defense actively. When the attacker threatens the choke to open your legs, do not release the knee clamp to use your hands more aggressively on the grip. Instead, increase knee pressure while relying on chin tuck and minimal hand defense for the neck."

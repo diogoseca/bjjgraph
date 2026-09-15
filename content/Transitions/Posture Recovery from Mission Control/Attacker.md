@@ -96,7 +96,7 @@ description: "Learn to execute posture recovery from Mission Control as the top 
     },
     {
       "@type": "Question",
-      "name": "Your opponent's hip elevation momentarily drops while you are trapped in Mission Control - how do you capitalize?",
+      "name": "Trapped in Mission Control, their hip elevation drops briefly — how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your weight slightly backward while lifting your chin and chest to begin posture recovery. Dropped hips weaken the entire high guard structure. Simultaneously strip remaining head control grips and use the structural opening to begin extracting your trapped arm. This window is brief, so prioritize posture recovery over arm extraction if you can only accomplish one action."
@@ -112,7 +112,7 @@ description: "Learn to execute posture recovery from Mission Control as the top 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins transitioning from Mission Control to New York as you attempt posture recovery - what adjustment do you make?",
+      "name": "Recovering posture, they start shifting Mission Control to New York — what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pause posture recovery and address the New York transition before it completes. Drive your trapped elbow tight to your body to prevent the deeper underhook that New York requires. Use your free hand to fight the grip change occurring at your forearm. If the New York transition completes, you face an even more difficult escape, so preventing the transition takes absolute priority over continuing posture recovery."

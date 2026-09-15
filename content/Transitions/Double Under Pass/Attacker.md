@@ -74,7 +74,7 @@ description: "How to execute Double Under Pass in BJJ. Attacking perspective wit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical element to establish before attempting to clear the opponent's legs in the double under pass?",
+      "name": "What must you establish before clearing the legs in the double under pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical element is establishing heavy, constant chest-to-chest pressure while maintaining deep bilateral underhooks. Without this consolidated pressure, the opponent can easily create space with frames, recover guard, or execute sweeps. The pressure must be so dominant that the opponent's mobility is severely restricted before you begin the lateral movement to clear legs."
@@ -90,7 +90,7 @@ description: "How to execute Double Under Pass in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What should you do if the opponent successfully frames on your head and begins creating distance during the pass?",
+      "name": "They frame on your head and make distance during the double under pass: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive through their frames by lowering your head position and increasing downward chest pressure while circling toward the side of the frame. Do not allow vertical space to develop—instead, continuously drop your weight onto them. If necessary, transition your head to the opposite side of their body while maintaining underhook control, negating the mechanical advantage of their frame."
@@ -106,7 +106,7 @@ description: "How to execute Double Under Pass in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins inserting their knee to recover half guard as you initiate lateral movement—how do you adjust?",
+      "name": "They insert a knee for half guard as you step laterally in the double under pass: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately stop the lateral movement and drive your hips back down onto their hips to prevent the knee from penetrating further. Lower your chest pressure and use your near-side underhook to control their bottom leg, pinning it to the mat. If the knee is already partially inserted, transition to a half guard passing sequence by maintaining your underhook control, establishing crossface, and working to clear the half guard hook before resuming the pass."
@@ -114,7 +114,7 @@ description: "How to execute Double Under Pass in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the most control when your hands are clasped behind the opponent's back in the double under position?",
+      "name": "Which hand grip behind their back gives the most control in the double under position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A gable grip (palm-to-palm with fingers interlocked) provides the strongest connection and is preferred for maximum control. This grip allows you to squeeze your elbows together, tightening the underhooks and preventing the opponent from creating any space. The gable grip also facilitates the stacking variation when needed and provides better control when lifting or manipulating the opponent's hips during the pass."
@@ -435,7 +435,7 @@ The double under pass is generally a safe technique for both practitioners when 
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Passing variation using bilateral underhook control for pressure application</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Bernardo-Faria-Pressure-System" data-cta="related-system-card" data-system-slug="systems/bernardo-faria-pressure-system" data-system-name="Bernardo Faria Pressure System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Bernardo Faria Pressure System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Passing variation using bilateral underhook control for pressure application</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

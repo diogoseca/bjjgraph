@@ -50,7 +50,7 @@ description: "Defend against the Matrix to Side Control transition in BJJ. Recog
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest cues that the top player is transitioning from Matrix defense to a side control pass attempt?",
+      "name": "As bottom player, what are the first cues the top player is passing out of Matrix defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are a shift in the top player's weight distribution—moving from wide defensive base to forward pressure onto your torso—and the beginning of active grip stripping on your belt or pants connections. You will also feel crossface pressure increasing across your face as they begin turning your head away. Recognizing these cues in the first one to two seconds provides the maximum defensive window."
@@ -58,7 +58,7 @@ description: "Defend against the Matrix to Side Control transition in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Your Matrix rotation has been blocked and the top player is driving you flat—what is your primary defensive action?",
+      "name": "Your Matrix rotation is blocked and they are driving you flat: what is your primary defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Create forearm frames against the opponent's shoulders or hips immediately to resist the flattening pressure. Simultaneously fight to stay on your side by scooting your hips away from the opponent. Being on your side preserves your ability to create angles, insert knee shields, and recover guard. Once you are flat on your back with no frames, side control consolidation becomes extremely difficult to prevent regardless of your technical ability."
@@ -74,7 +74,7 @@ description: "Defend against the Matrix to Side Control transition in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "The top player has established crossface control but has not yet secured your far hip—what opportunity does this create?",
+      "name": "They have the crossface but not your far hip yet: what defensive opportunity does that open?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This incomplete consolidation leaves your hips mobile while your upper body is controlled. You can use this window to insert a knee shield or butterfly hook between your bodies before hip control is established. Alternatively, the hip freedom allows you to shrimp away to create enough distance for a full guard recovery. The key is acting immediately on the hip freedom rather than focusing on fighting the crossface, which is already established."
@@ -82,7 +82,7 @@ description: "Defend against the Matrix to Side Control transition in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "How does maintaining grip connection to the top player help your defense even after your rotation is blocked?",
+      "name": "With your Matrix rotation blocked, how do keeping your grips still help your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintained grips provide three defensive benefits: first, they allow you to threaten a secondary Matrix rotation that forces the top player to maintain defensive width rather than narrowing for the pass. Second, grips give you leverage to resist flattening pressure and create movement through pulling and pushing against the opponent's structure. Third, grips enable sweep attempts during the transition when the opponent's base is compromised by the shift from defensive to offensive posture."

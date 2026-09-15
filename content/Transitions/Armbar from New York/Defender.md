@@ -72,7 +72,7 @@ description: "Learn to defend and escape the armbar from New York rubber guard. 
     },
     {
       "@type": "Question",
-      "name": "Your arm is partially trapped and the opponent has begun pivoting but the leg has not yet crossed your face — what sequence should you execute?",
+      "name": "Defending New York armbar: they are pivoting but the leg has not crossed — what sequence do you run?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical defensive window. Execute three actions in rapid sequence: first, bend your trapped arm aggressively and turn your thumb toward your body to strengthen the elbow structure. Second, use your free hand to push against the leg that is beginning to swing over, blocking or redirecting it downward. Third, simultaneously drive your weight forward into a stacking position to flatten the opponent's hips and halt the pivot. If you can prevent the leg from crossing while stacking, the armbar attempt fails and you return to New York top position."
@@ -88,7 +88,7 @@ description: "Learn to defend and escape the armbar from New York rubber guard. 
     },
     {
       "@type": "Question",
-      "name": "What should your defensive priorities be if the armbar is already fully established with knees pinched?",
+      "name": "New York armbar already locked with knees pinched — what are your defensive priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the armbar is fully established, switch to standard armbar defense principles: keep your arm bent at all costs with thumb pointing toward the ceiling, grip your own wrist with your free hand to reinforce the bend, and begin stacking by driving your hips forward and walking your feet toward the opponent's head. Control the leg across your face by pushing it toward the opponent with your free hand when available. The goal shifts from preventing the armbar to surviving it long enough to execute a hitchhiker escape or stack pass. Accept that escape from this stage is significantly harder and requires patience and technical precision."

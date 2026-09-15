@@ -108,7 +108,7 @@ description: "How to execute Stack Pass from Inversion in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins threading a leg inside yours as you initiate the stack - what adjustment do you make?",
+      "name": "They thread a leg inside yours as you start the stack: what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately halt forward pressure and address the leg control issue by squaring your hips and pinning both legs together again. Attempting to continue the stack with compromised leg control leads directly to ashi garami or other leg entanglements. Reset the leg control before resuming."

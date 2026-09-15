@@ -56,7 +56,7 @@ description: "Defend the collar sleeve to spider guard transition. Learn to reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary vulnerability window during the collar sleeve to spider guard transition that you should exploit?",
+      "name": "Passing collar sleeve, which window in the spider guard transition should you exploit?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary vulnerability occurs when the bottom player releases their collar grip to reach for your second sleeve. During this 1-2 second window, they lose their primary upper body pulling control and have only their feet on your biceps for distance management. This is the optimal moment to drive forward with pressure, strip the remaining sleeve grip, or establish your own dominant grips, because the bottom player cannot pull you into their guard structure or effectively off-balance you without the collar grip."
@@ -64,7 +64,7 @@ description: "Defend the collar sleeve to spider guard transition. Learn to reco
     },
     {
       "@type": "Question",
-      "name": "Why is it more effective to prevent spider guard establishment during the transition than to dismantle it after it is set up?",
+      "name": "Why disrupt the spider guard transition rather than dismantle spider guard once it's set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once spider guard is fully established with bilateral sleeve grips and feet on biceps, the bottom player has a complete push-pull control system that requires systematic grip breaking to overcome. During the transition, only half the system is in place. Disrupting the transition means fighting against incomplete control rather than a fully integrated guard, requiring less energy, less time, and less technical dismantling. Additionally, the bottom player's attention is divided during the transition, making them less able to counter your defensive actions."
@@ -72,7 +72,7 @@ description: "Defend the collar sleeve to spider guard transition. Learn to reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins walking their foot from your hip up to your bicep - what immediate action prevents the spider guard transition?",
+      "name": "Their foot walks from your hip to your bicep: what stops the spider guard transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately lower your elbow on that side to pin their foot below your bicep, preventing them from establishing the elevated hook position that spider guard requires. Simultaneously step that leg back to create distance and reduce the bottom player's ability to extend their leg to your arm. If you can strip their sleeve grip on that side at the same time, you eliminate both the hook and the grip, forcing them to restart their guard setup from scratch."
@@ -80,7 +80,7 @@ description: "Defend the collar sleeve to spider guard transition. Learn to reco
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your passing strategy when you successfully prevent the spider guard transition?",
+      "name": "You stop their spider guard transition: how should you adjust your passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After disrupting the transition, the bottom player is in a compromised collar sleeve guard with potentially weakened grips and disrupted hip positioning. Immediately initiate a passing sequence before they can re-establish their preferred guard. A toreando pass or knee cut is effective because the bottom player's feet are displaced from their optimal framing positions and their grip structure is incomplete. The key is capitalizing on the disrupted guard within 2-3 seconds before they can resettle into collar sleeve or attempt another guard transition."

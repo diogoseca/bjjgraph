@@ -112,7 +112,7 @@ description: "Execute Crackhead Control Entry from Rubber Guard bottom. Master t
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between the leg position in Mission Control versus Crackhead Control?",
+      "name": "How does the leg position differ between Mission Control and Crackhead Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In Mission Control, the shin runs horizontally across the opponent's upper back with the foot secured by the same-side hand, functioning primarily as a posture control tool. In Crackhead Control, the leg repositions higher to apply direct downward pressure on the opponent's shoulder of the isolated arm. The leg transitions from a back-control tool to a shoulder-compression tool, fundamentally changing the mechanical function from general posture management to specific arm isolation and shoulder loading."

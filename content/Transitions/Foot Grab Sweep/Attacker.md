@@ -88,7 +88,7 @@ description: "How to execute the Foot Grab Sweep in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What mechanical principles make the foot grab sweep effective despite an opponent potentially being larger and stronger?",
+      "name": "What mechanics make the foot grab sweep work against a bigger, stronger opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The foot grab sweep works through leverage and base manipulation rather than strength. By controlling one foot while the opponent's weight is on the other leg, you eliminate half their base. The circular, rotational sweeping motion creates force perpendicular to their remaining base, making it geometrically impossible to maintain balance regardless of strength. Hip elevation and full body rotation generate force far exceeding what arm strength alone could produce."
@@ -96,7 +96,7 @@ description: "How to execute the Foot Grab Sweep in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your foot grab sweep when facing an opponent who consistently posts their hand to defend?",
+      "name": "How do you adjust the foot grab sweep against someone who always posts a hand?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against hand-posting opponents, you have several options: attack the posting arm with kimura or armbar while maintaining foot control; increase the speed and explosiveness of your sweep to overcome the post; change the angle of your sweep to go around the posted hand; or use the posting action as a cue to transition to alternative attacks like arm drags or back takes. Advanced practitioners can fake the foot grab to bait the post, then attack the exposed arm."

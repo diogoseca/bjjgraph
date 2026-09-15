@@ -56,7 +56,7 @@ description: "Defend and escape the cross face pass from flattened half guard. R
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up a cross face pass rather than simply maintaining flattened half guard?",
+      "name": "What earliest cue shows top player is setting up a cross face pass, not just holding you flat?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is their feet beginning to walk laterally toward the trapped leg side while maintaining or increasing crossface pressure. Simple position maintenance involves static pressure without lateral movement, while the pass setup involves deliberate foot-walking creating the angle needed for leg extraction. Detecting this lateral movement early provides the maximum window for defensive action before the angle becomes sufficient."
@@ -64,7 +64,7 @@ description: "Defend and escape the cross face pass from flattened half guard. R
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure during the pass - where should your defensive hands be positioned?",
+      "name": "Under heavy crossface pressure in flattened half, where do you put your two hands?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your near-side hand should fight for the underhook on their far side, providing structural resistance against further flattening. Your far-side hand should frame against their hip or bicep to create minimal space for hip movement. Avoid extending either hand toward their head or chest, which exposes your arms to kimura and americana submissions without improving your defensive positioning against the pass."
@@ -88,7 +88,7 @@ description: "Defend and escape the cross face pass from flattened half guard. R
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins extracting their trapped leg with a windshield-wiper motion - what is the highest priority defensive action?",
+      "name": "They windshield-wiper the trapped leg free. What is your top defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clamp your leg hook tighter by squeezing your knees together and pulling your heels toward your buttocks to increase hook grip strength. Simultaneously execute a sharp hip escape toward the trapped leg side to remove the angle the passer created for extraction. If the hook is already significantly compromised, transition immediately to inserting your knee for a knee shield before they complete the pass, as recovering full hook control once extraction has begun is rarely successful."

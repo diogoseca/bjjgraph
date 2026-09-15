@@ -64,7 +64,7 @@ description: "How to defend against Hook Leg and Take Back in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What is the first thing you should do if the attacker successfully inserts their near-side hook during your escape?",
+      "name": "They insert their near-side hook during your escape: what do you do first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clamp your thighs together to trap the hooking foot and prevent it from seating deep inside your thigh. Then rotate your body toward the hook side to prevent the second hook from entering. Addressing the first hook before the second arrives is critical because single-hook back control is far more escapable than double hooks, and the rotation toward the trapped leg creates half guard geometry."
@@ -72,7 +72,7 @@ description: "How to defend against Hook Leg and Take Back in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is stripping the harness grip during the sit-up more effective than stripping it after hooks are established?",
+      "name": "Why strip the harness grip during the sit-up rather than after hooks are in?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the sit-up, the attacker's grip structure is in transition and their body is adjusting to follow your movement, making the harness grip less consolidated and more vulnerable to stripping. After hooks are established, the attacker has a stable base with lower body anchoring that reinforces their harness grip through structural connection. Stripping the harness during transition eliminates the upper body control that makes hook insertion effective."
@@ -80,7 +80,7 @@ description: "How to defend against Hook Leg and Take Back in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has one hook in and is reaching for the second - what defensive option gives you the best positional outcome?",
+      "name": "They have one hook in and reach for the second: which defense gives the best position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Trap the inserted hook by clamping your thighs and immediately rotate toward the hook side while stripping the harness grip with your hands. This creates a half guard position where the attacker's inserted leg becomes trapped between your legs and you are now facing them. Half guard bottom is dramatically better than back control bottom, and the rotation prevents the second hook from ever arriving."

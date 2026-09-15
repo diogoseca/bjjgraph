@@ -74,7 +74,7 @@ description: "Execute the mounted triangle to S mount transition with systematic
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most critical control element that must be maintained throughout the entire transition from mounted triangle to S mount?",
+      "name": "Which control must never be lost while going from mounted triangle to S mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Wrist control on the trapped arm is the absolute non-negotiable element. Without continuous wrist or arm control, the opponent will extract the trapped arm the instant the triangle lock is released, eliminating both the submission threat and the positional advantage. Both hands should maintain grip on the wrist and elbow or bicep throughout all leg movements. The arm isolation achieved in mounted triangle is the primary asset being transferred to S mount."
@@ -82,7 +82,7 @@ description: "Execute the mounted triangle to S mount transition with systematic
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a strong chin tuck defending your mounted triangle choke - what signals tell you to transition to S mount rather than continue squeezing?",
+      "name": "They chin tuck against your mounted triangle — what signals to switch to S mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include: the opponent's chin is firmly tucked making the choke angle impossible, their defensive framing is strong enough to prevent angle adjustment, you are expending significant energy squeezing without progress toward the finish, and crucially, their trapped arm is still isolated and accessible. If the arm is well-controlled but the choke is not progressing after 10-15 seconds of committed effort, the S mount transition preserves your advantage by converting to a different submission angle rather than burning energy on a stalling position."
@@ -90,7 +90,7 @@ description: "Execute the mounted triangle to S mount transition with systematic
     },
     {
       "@type": "Question",
-      "name": "During the transition, your opponent bridges powerfully just as you unlock the triangle - how do you respond?",
+      "name": "They bridge hard just as you unlock the triangle for S mount — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your head-side foot wide to absorb the bridge momentum and drive your hip weight down into their shoulder. If the bridge is manageable, ride it out and continue the transition once they settle. If the bridge is powerful enough to threaten your position, abandon the S mount transition entirely and re-establish the mounted triangle lock or drop back to high mount. Never fight a strong bridge mid-transition with an incomplete base - positional security always takes priority over submission advancement."
@@ -106,7 +106,7 @@ description: "Execute the mounted triangle to S mount transition with systematic
     },
     {
       "@type": "Question",
-      "name": "What is the optimal direction of force through your hips during the transition and upon settling into S mount?",
+      "name": "Which direction should hip force drive during the S mount transition and on settling?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hip force should drive forward and downward into the opponent's near shoulder joint throughout the entire transition. Before unlocking the triangle, your hip pins the shoulder. During leg movement, your hip maintains that pinning pressure as your anchor point. Upon settling into S mount, the hip-to-shoulder connection is the primary control mechanism, driving your hip bone into their deltoid to eliminate space. This forward-and-down force vector prevents bridging, pins the arm, and creates the leverage angle needed for the armbar."
@@ -114,7 +114,7 @@ description: "Execute the mounted triangle to S mount transition with systematic
     },
     {
       "@type": "Question",
-      "name": "Your opponent hip escapes toward your legs during the leg repositioning phase - is this a problem or an opportunity?",
+      "name": "They hip escape toward your legs as you reposition for S mount — problem or opportunity?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is actually neutral to slightly helpful for your transition. Their hip escape moves their lower body away from you, but your control point is their shoulder, not their hips. As long as you maintain hip-to-shoulder pressure and wrist control, their lower body movement does not compromise your position. In fact, their shrimping action can help separate their upper body from their lower body, making the S mount perpendicular alignment easier to achieve. Follow their movement by scooting your hips to stay connected to the shoulder."

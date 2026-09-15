@@ -58,7 +58,7 @@ description: "Master defensive strategies against the Standing RNC from Rear Cli
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel the opponent's arm sliding from seatbelt toward your neck—what is your immediate three-step defensive response?",
+      "name": "Standing rear clinch: their arm slides from seat belt to your neck, what three steps do you take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Step one: tuck your chin immediately to your chest as hard as possible, creating a physical barrier against the forearm entering under your jaw. Step two: bring both hands to the opponent's choking arm wrist in a two-on-one configuration, gripping their wrist to prevent further advancement. Step three: begin pulling their wrist across your body and down while maintaining chin tuck, working to return their arm to the seatbelt position or strip it away entirely. These three actions should happen nearly simultaneously within the first 1-2 seconds of recognizing the threat."
@@ -66,7 +66,7 @@ description: "Master defensive strategies against the Standing RNC from Rear Cli
     },
     {
       "@type": "Question",
-      "name": "What is the hierarchy of defensive priorities when trapped in standing back control with a choke threat, and why does order matter?",
+      "name": "Trapped in standing back control under a choke threat, what is the defensive priority order and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hierarchy is: (1) protect the neck—prevent the choke from locking because a completed RNC can produce unconsciousness in under 10 seconds, making it the most time-critical threat; (2) fight the choking arm grips—strip or control the arm to remove the submission threat and create space for positional work; (3) address hooks and body control—prevent consolidation of lower body control that would limit your hip mobility; (4) attempt positional escape—use hip movement, turns, or controlled descent to escape back exposure. Skipping steps causes failures because addressing lower-priority threats while ignoring higher-priority ones (like fighting hooks while the choke locks) results in submission."
@@ -74,7 +74,7 @@ description: "Master defensive strategies against the Standing RNC from Rear Cli
     },
     {
       "@type": "Question",
-      "name": "The opponent has fully locked the figure-four behind your head—what defensive options remain available to you?",
+      "name": "The figure-four is locked behind your head standing; what defensive options remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a locked figure-four, options narrow significantly but are not zero. Pull down on the choking arm wrist with two-on-one grip to create any space between the forearm and your carotid arteries, buying time. Simultaneously, tuck your chin as deep as possible into the crook of their elbow to place your chin bone against their forearm, creating a bony barrier. Execute a controlled drop to the ground to change the angle and potentially loosen the lock during the transition. On the ground, work to turn toward the choking arm side to reduce the compression angle. If none of these work and the choke is fully sunk, tap immediately—there is no shame in tapping to a fully locked standing RNC, and the risk of injury or unconsciousness from a standing position makes late taps extremely dangerous."
@@ -82,7 +82,7 @@ description: "Master defensive strategies against the Standing RNC from Rear Cli
     },
     {
       "@type": "Question",
-      "name": "What should you do immediately if you feel lightheadedness, tunnel vision, or dimming awareness during a standing RNC?",
+      "name": "What do you do if you feel lightheaded or see tunnel vision during a standing RNC?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately without hesitation. These symptoms indicate effective carotid compression is occurring and unconsciousness may follow within seconds. In a standing position, losing consciousness creates extreme danger from uncontrolled falls that can cause concussion, spinal injury, or other serious trauma. There is no tactical advantage to fighting through these warning signs—the choke is working and delay only increases injury risk. Tap verbally, with your hands, or with your feet, using whatever signal is fastest. If you cannot tap, make any vocal sound to alert your training partner and the coach."
@@ -90,7 +90,7 @@ description: "Master defensive strategies against the Standing RNC from Rear Cli
     },
     {
       "@type": "Question",
-      "name": "Your opponent is pulling you backward while applying the choke—how can you use this momentum defensively?",
+      "name": "They pull you backward while choking from standing; how do you use that momentum defensively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting against their backward pull, use the momentum to execute a controlled sit-through or roll. As they pull you backward, sit your hips down and to one side, transitioning to a seated or turtle position where you have better defensive leverage and the choke angle changes. Alternatively, drive backward explosively into them to disrupt their base and potentially cause them to stumble or release the choke to catch their balance. The backward pull actually creates an opportunity because the opponent is momentarily committed to one direction, making lateral movement or level changes more effective as counters."
@@ -98,7 +98,7 @@ description: "Master defensive strategies against the Standing RNC from Rear Cli
     },
     {
       "@type": "Question",
-      "name": "How can you distinguish between effective carotid compression and a tracheal crush from the defender's perspective, and why does this distinction matter for your defensive urgency?",
+      "name": "As defender, how do you tell carotid compression from a tracheal crush, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Carotid compression produces a feeling of pressure on the sides of the neck, progressive lightheadedness, narrowing of vision, and a sensation of the head filling with pressure—often with minimal pain initially. A tracheal crush produces sharp pain in the center of the throat, difficulty breathing, coughing, and gagging sensations. The distinction matters critically for defensive urgency: carotid compression can cause unconsciousness in 6-10 seconds with little warning, meaning you have a very narrow window to escape or tap. A tracheal choke is extremely uncomfortable but takes significantly longer to produce unconsciousness, giving you more time to work defensive escapes. If you feel the hallmarks of carotid compression—lightheadedness, vision changes, head pressure—your defensive timeline is measured in single-digit seconds."

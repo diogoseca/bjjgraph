@@ -461,7 +461,7 @@
         }
       },
       {
-        "question": "Your opponent starts to lift their head and posture up while you have front headlock - what immediate adjustment do you make?",
+        "question": "Holding a front headlock, they lift their head and posture up. What adjustment do you make?",
         "answer": "Immediately increase downward pressure through your chest while snapping their head back down. If they continue to posture despite pressure, this is actually an opportunity - transition directly to a guillotine grip by threading your arm deeper under their chin as their neck extends. Their posturing movement exposes the neck and makes the guillotine more available. The key is recognizing that their defensive movement opens an offensive opportunity rather than trying to simply maintain the original control.",
         "answer_line": "Snap chin down, take guillotine",
         "distractors": {
@@ -489,7 +489,7 @@
         }
       },
       {
-        "question": "How should you apply pressure in front headlock to maximize control while minimizing your own energy expenditure?",
+        "question": "How do you apply front headlock pressure for maximum control with minimum energy?",
         "answer": "Use skeletal structure and body weight rather than muscular effort. Let your chest drop heavily onto their upper back while keeping your own posture relatively relaxed. Your legs should be spread wide in a sprawl-like base, providing stability without requiring constant muscular engagement. Avoid death-gripping with your arms - use them primarily for directional control while your body weight does the heavy work. This approach allows you to maintain oppressive pressure for extended periods without fatiguing your grip or arms.",
         "answer_line": "Weight and structure, not muscle",
         "distractors": {
@@ -503,7 +503,7 @@
         }
       },
       {
-        "question": "Your opponent successfully tucks their chin and denies your choke attempts - what systematic response do you employ?",
+        "question": "Your opponent tucks their chin and blocks your front headlock chokes - what is your response?",
         "answer": "First, recognize that chin tucking only defends against the immediate choke but keeps them trapped in a bad position. Switch your attack to either positional advancement or alternative submissions. You can flatten them to side control by driving forward and stepping over, transition to back control if they try to escape laterally, or attack the near arm with a kimura grip since their hands are occupied defending the neck. The systematic response is never to force the blocked choke but to chain to whatever their defense opens.",
         "answer_line": "Chain to pass, back, or kimura",
         "distractors": {
@@ -517,7 +517,7 @@
         }
       },
       {
-        "question": "How do you recover control if the opponent creates space between your chest and their back during front headlock?",
+        "question": "Space opens between your chest and their back in front headlock - how do you recover control?",
         "answer": "Immediately follow their movement to eliminate the space before it grows. If they shrimp or hip away, step your feet to follow and re-establish chest contact. If they're lifting up, snap them back down while driving your weight forward. Never let space persist - the moment you feel their back leave your chest, that's your signal to move. The worst response is to try holding static position with arm strength while they create distance. Movement matches movement.",
         "answer_line": "Follow immediately, close space",
         "distractors": {
@@ -869,7 +869,7 @@
         }
       },
       {
-        "question": "Your opponent is setting up an anaconda choke - you feel your arm getting trapped. What is your immediate response?",
+        "question": "You feel your arm trapped as they set up an anaconda choke - what is your immediate response?",
         "answer": "Circle away from the trapped arm side immediately. The anaconda requires your arm trapped against your neck, so moving toward that side makes the choke tighter. By circling away, you create the angle that makes it harder for them to finish while potentially extracting your trapped arm. As you circle, keep fighting the choking arm and look to recover guard or stand. If the grip is too deep to circle out, consider rolling through toward the trapped arm side to invert and potentially recover guard, though this is riskier.",
         "answer_line": "Circle away from trapped arm",
         "distractors": {
@@ -911,7 +911,7 @@
         }
       },
       {
-        "question": "How do you defend against your opponent flattening you from front headlock to set up chokes or back take?",
+        "question": "How do you stop being flattened under a front headlock into chokes or a back take?",
         "answer": "Maintain space between your chest and the mat at all costs. Keep your knees under your hips in a ready position rather than letting your legs extend behind you. If they drive forward, you can post with your hands and create the base needed to stand or circle. Your hips must remain mobile and ready to move. If you feel yourself getting flattened, immediately work to get your knees back under you and either stand up or circle to create angle. Once fully flattened with legs extended, your escape options become extremely limited.",
         "answer_line": "Knees under hips, keep space",
         "distractors": {
@@ -925,7 +925,7 @@
         }
       },
       {
-        "question": "Your opponent has loose front headlock control but you're fatigued - should you rest or continue working to escape?",
+        "question": "Fatigued under a loose front headlock - should you rest or keep working to escape?",
         "answer": "Continue working to escape, but do so efficiently rather than explosively. Loose control means their submission threat is reduced, but it also represents your best opportunity to escape before they retighten. Use technical escapes rather than explosive ones to conserve energy - steady circling, methodical hand fighting, and patient positioning. Resting allows them to recover their control and energy while you remain in a dangerous position. The concept of 'resting' in front headlock bottom is largely a myth - you're burning energy just surviving, so you might as well direct that energy toward escape.",
         "answer_line": "Escape efficiently, don't rest",
         "distractors": {
@@ -939,7 +939,7 @@
         }
       },
       {
-        "question": "What is the relationship between your escape direction and the opponent's submission attempts from front headlock?",
+        "question": "How should their submission attempt determine your escape direction under a front headlock?",
         "answer": "Your escape direction should generally be perpendicular to or away from their primary attack angle. For guillotines, the choke tightens if you drive into them, so circle to the sides or roll through. For anaconda, escape away from your trapped arm side. For darce, the trapped arm is opposite, so escape toward the darce side. For back takes, they typically step toward one side, so escape the opposite direction. Reading which submission they're setting up tells you which escape direction is safest. Escaping directly into their attack line is the worst choice in all scenarios.",
         "answer_line": "Escape away from their attack angle",
         "distractors": {
@@ -1013,7 +1013,7 @@
       }
     },
     {
-      "question": "How does head control combine with far-side arm or shoulder control to make the front headlock a cage?",
+      "question": "How do head control and far-side arm or shoulder control cage the front headlock?",
       "answer": "Head control alone lets the opponent rotate their body freely, so it is insufficient to hold the position. The controlling player's second hand must occupy the far shoulder or arm, which pins the opponent's torso and prevents it from spinning out from under the chest. Together the head wrap and the far-arm control form a cage around the upper body that shuts down both rolling and standing escapes. This is why the position is fundamentally a two-point control: neck plus far shoulder, not neck alone.",
       "answer_line": "Head wrap plus far shoulder cages",
       "distractors": {

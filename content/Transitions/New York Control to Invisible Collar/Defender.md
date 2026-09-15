@@ -58,7 +58,7 @@ description: "Defend against the New York Control to Invisible Collar transition
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a committed gogoplata attempt and a feint designed to set up the invisible collar transition?",
+      "name": "Defending New York bottom: how do you tell a real gogoplata from an invisible collar feint?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A committed gogoplata involves the shin driving directly toward the throat with hip extension, while the invisible collar feint directs the shin behind the neck with hip rotation toward the overhook side. Watch the direction of hip movement: gogoplata requires hips pushing forward and up, while the invisible collar setup requires lateral hip rotation. The hand positioning also differs, as the invisible collar feint involves the free hand reaching toward the own ankle rather than the opponent's head."
@@ -66,7 +66,7 @@ description: "Defend against the New York Control to Invisible Collar transition
     },
     {
       "@type": "Question",
-      "name": "If the invisible collar is successfully established, what immediate defensive posture should you adopt?",
+      "name": "They lock the invisible collar on you — what defensive posture do you adopt immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin aggressively toward your chest to limit the angle available for gogoplata extension. Bring both hands to the shin behind your neck and begin working to strip it by pushing the ankle away from your body. Keep your hips heavy and resist the urge to posture, as posturing drives your neck into the shin pressure. Begin systematic hip escape toward the side opposite the shin to create space for removal."
@@ -82,7 +82,7 @@ description: "Defend against the New York Control to Invisible Collar transition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has attempted this transition twice and returned to New York both times - how should you exploit their persistence?",
+      "name": "They've tried the invisible collar transition twice and reset — how do you exploit that persistence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bait the third attempt by appearing to settle passively in New York Control, then time an explosive posture recovery during the overhook release that you now anticipate. Each failed attempt teaches you the attacker's specific setup tells and timing. Alternatively, preemptively strip the controlling leg from the shoulder when you sense the hip rotation beginning, converting their transition attempt into a complete guard break before they can even begin the shin slide."

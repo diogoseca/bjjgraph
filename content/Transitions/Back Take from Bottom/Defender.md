@@ -56,7 +56,7 @@ description: "How to defend against Back Take from Bottom in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from guillotine to back take?",
+      "name": "From bottom Hindulotine, what's the earliest cue they're switching from guillotine to back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the sudden decrease in guillotine choking pressure combined with the attacker's arm remaining across your neck and chest rather than releasing completely. You will feel their grip open but their forearm staying in contact, which indicates they are converting the choking arm into the overhook component of a seatbelt rather than disengaging entirely."
@@ -64,7 +64,7 @@ description: "How to defend against Back Take from Bottom in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why is stopping your turn and re-facing the attacker sometimes a better defensive choice than completing the rotation?",
+      "name": "Why is stopping your turn and re-facing the attacker sometimes better than completing the rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stopping the turn and re-facing denies the back exposure entirely, returning you to the Hindulotine where you face a known threat (the guillotine) rather than the unknown of a scramble. Completing the turn risks the attacker following your rotation with seatbelt control already established. Re-facing also resets the positional dynamic to your advantage since you can resume systematic guillotine defense from a position you understand."
@@ -72,7 +72,7 @@ description: "How to defend against Back Take from Bottom in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has released the guillotine and their arm is crossing your chest - what specific defensive action should you take with your hands?",
+      "name": "They released the guillotine and their arm crosses your chest: what should your hands do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grab the overhook arm with both hands using a two-on-one grip, controlling their wrist and forearm before they can clasp hands with their underhook arm. Pull their overhook arm away from your chest and toward the mat while simultaneously tucking your opposite elbow tight to block the underhook from getting deep. This prevents the seatbelt from locking and gives you time to re-face or create distance."
@@ -88,7 +88,7 @@ description: "How to defend against Back Take from Bottom in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How should you address hook insertion attempts if the attacker has already established partial seatbelt control?",
+      "name": "They have partial seatbelt control: how do you stop their hooks from entering?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your knees pinched together and hips low to the mat to create a physical barrier against hook entry. Use your bottom hand to control the attacker's top leg at the knee, preventing it from threading inside your thigh. Simultaneously work to strip the seatbelt with your top hand. If one hook enters, immediately trap it by closing your legs around their foot while continuing to fight the seatbelt. Preventing both hooks from entering simultaneously is the critical defensive threshold."

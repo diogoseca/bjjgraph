@@ -76,7 +76,7 @@ description: "How to execute Collar Drag in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Why must you control the opposite arm when executing a collar drag, and what happens if you neglect it?",
+      "name": "In a standing collar drag, why control the far arm, and what happens if you don't?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlling the opposite arm prevents opponent from posting that hand on your body or the mat, which would allow them to maintain their base and prevent rotation. Without arm control, opponent can extend their free arm as a post, creating a triangular base structure that resists the rotational force of the drag. The arm control also creates opposing vectors—one grip pulls them toward you while the other pushes away, creating torque that rotates their upper body. Additionally, controlling both points limits their ability to grip fight or attack you during the technique execution."
@@ -84,7 +84,7 @@ description: "How to execute Collar Drag in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Your opponent circles away from your collar drag direction instead of allowing the rotation—what are your options?",
+      "name": "Standing collar drag: they circle away instead of rotating, so what are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent circles away, you have three high-percentage options: First, immediately switch direction and collar drag to the opposite side, using their defensive momentum against them. Second, use their backward/circular movement to snap them down into front headlock position, as their circling creates forward vulnerability. Third, fake completing the original drag while actually transitioning to arm drag, duck-under, or single leg on the side they are circling toward. The key principle is that their defensive movement always opens something else—never fight against their reaction, redirect to attack what they have exposed."
@@ -92,7 +92,7 @@ description: "How to execute Collar Drag in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between pulling with your arms versus pulling with your hips during a collar drag?",
+      "name": "In the collar drag, what's the difference between pulling with your arms and your hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling with arms alone generates minimal force and is easily defended because arm strength is limited compared to the opponent's entire body structure. Pulling with hips means initiating the movement with hip rotation and core engagement, where your arms act as connection points but the power comes from your center mass rotating. This generates significantly more force, is harder to defend, and allows you to maintain the technique even against larger, stronger opponents. The visual cue is that hip-driven collar drags show the athlete's entire body rotating, while arm-only drags show just the upper body pulling with feet remaining static."
@@ -420,7 +420,8 @@ The Collar Drag is a relatively safe technique when practiced correctly, but sev
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Fundamental dragging mechanic that underpins many lapel-based sweeps</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Fundamental dragging mechanic that underpins many lapel-based sweeps</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem Ankle Pick System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Related grip-and-movement setup</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

@@ -76,7 +76,7 @@ description: "How to execute Ushiro Ashi-Garami Escape in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Why must you control the opponent's inside knee throughout the escape, and what happens if you neglect it?",
+      "name": "Why control their inside knee throughout the ushiro ashi-garami escape, and what if you don't?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside knee is the gateway to saddle and honey hole transitions. If you neglect it while clearing the outside leg, the opponent can step their inside leg through to establish saddle position, which is a significantly worse entanglement than ushiro. Maintaining inside knee control with at least one hand prevents this positional advancement and keeps the escape path viable throughout the extraction sequence."
@@ -84,7 +84,7 @@ description: "How to execute Ushiro Ashi-Garami Escape in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins accelerating their heel hook grip as you start clearing their outside leg—how do you adjust?",
+      "name": "Escaping ushiro ashi-garami, they accelerate their heel hook grip as you clear the outside leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pause outside leg clearing and redirect both hands to strip the heel hook grip, breaking it at the thumbs or peeling their fingers. If the grip is too deep to strip safely, abandon the direct extraction and commit to a Granby roll through turtle to clear both legs through rotational momentum. Never continue a slow extraction against an active finishing grip—either neutralize the grip or change the escape path entirely."

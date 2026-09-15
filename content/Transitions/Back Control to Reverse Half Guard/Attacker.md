@@ -90,7 +90,7 @@ description: "Master executing the backstep from back control to reverse half gu
     },
     {
       "@type": "Question",
-      "name": "Your defender strips your bottom hook and immediately shrimps away - how do you adjust the backstep timing?",
+      "name": "Your defender strips the bottom hook and shrimps away—how do you adjust the backstep timing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the defender shrimps away after stripping the hook, you must accelerate the backstep and follow their hip movement simultaneously. Drive your chest into their retreating hips while threading the backstep leg between their legs. The shrimping motion actually assists the backstep by creating the space your leg needs to thread through, but you must stay connected to prevent full separation."
@@ -106,7 +106,7 @@ description: "Master executing the backstep from back control to reverse half gu
     },
     {
       "@type": "Question",
-      "name": "Once you establish reverse half guard top, what determines whether you pursue a back take or a guard pass?",
+      "name": "From reverse half guard top, what decides whether you take the back or pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The defender's reaction determines your choice. If they turn toward you attempting to face you and recover guard, follow their rotation and pursue the back take by inserting hooks. If they flatten defensively or try to shrimp away from you, commit to the leg drag or knee slice pass to advance to side control. Read their movement within two to three seconds and commit fully."

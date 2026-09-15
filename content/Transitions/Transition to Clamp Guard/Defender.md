@@ -58,7 +58,7 @@ description: "Learn to defend and counter the Transition to Clamp Guard. Recogni
     },
     {
       "@type": "Question",
-      "name": "Why is circular arm extraction more effective than pulling straight back against an established clamp?",
+      "name": "Why is circular arm extraction better than pulling straight back out of an established clamp?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The clamp uses a wedge mechanic created by the hip angle — the shin presses across the bicep at an angle that tightens under direct pulling force, similar to a Chinese finger trap. Circular extraction changes the force vector to one the clamp is not designed to resist. The outward rotation moves the arm around the edge of the shin rather than against the flat pressing surface, requiring significantly less force to clear. Additionally, circular motion disrupts the guard player's hip angle, further weakening the clamp mechanics."
@@ -66,7 +66,7 @@ description: "Learn to defend and counter the Transition to Clamp Guard. Recogni
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to drive forward rather than retract when defending against the clamp entry?",
+      "name": "When should you drive forward instead of retracting against the clamp entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward only when you recognize the hip escape but before the shin has threaded across your bicep. At this stage, the forward drive collapses the space the opponent needs for the clamping angle and can advance your passing position. If the shin is already on the bicep, do not drive forward because the clamp tightens with forward pressure and the guard player can use your momentum for sweeps. The decision point is shin contact: no contact means drive, contact means retract or rotate."

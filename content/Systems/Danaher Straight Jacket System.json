@@ -1,6 +1,6 @@
 {
   "name": "Danaher Straight Jacket System",
-  "description": "Master systematic back control progression from seat belt to straight jacket configuration. Comprehensive framework for upper body immobilization and submission chains.",
+  "description": "Covers back alignment, hand fighting, straightjacket control and transitions into rear strangles. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -13,8 +13,8 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "summary": "The Danaher Straight Jacket System is John Danaher's systematic back-attack framework that progressively immobilizes the opponent's upper body—seat belt to gift wrap to crossed-arm straight jacket—stripping away all hand defense before finishing with the rear naked choke.",
-  "overview": "The Danaher Straight Jacket System represents one of the most comprehensive and systematically developed back control frameworks in modern Brazilian Jiu-Jitsu. Developed by renowned coach John Danaher, this system transforms the traditional back mount position into a multi-layered control hierarchy that progressively eliminates opponent defensive options while creating high-percentage submission opportunities. Unlike conventional back attack approaches that focus primarily on the rear naked choke, the Straight Jacket System emphasizes upper body immobilization through strategic grip configurations that severely restrict opponent hand fighting capabilities.\n\nThe system's name derives from its primary control mechanism: a specific arrangement of grips and body positioning that mirrors the restrictive effect of a strait jacket, systematically removing the opponent's ability to defend their neck or create escape opportunities. This methodology integrates seamlessly with Danaher's broader back attack philosophy, which prioritizes positional dominance and control point hierarchy over opportunistic submission attempts. The framework includes detailed protocols for initial back take entries, progressive control consolidation, defensive hand neutralization, and systematic submission sequences that flow logically from the established control position.\n\nWhat distinguishes the Straight Jacket System from other back attack approaches is its emphasis on creating true dilemmas for opponents - every defensive action opens a specific offensive opportunity, and every escape attempt can be converted into submission leverage. The system has proven particularly effective in high-level competition, where opponents possess sophisticated back defense knowledge. By understanding and implementing the Straight Jacket principles, practitioners develop the ability to maintain back control against increasingly resistant opponents while creating finishing opportunities with remarkable consistency across different body types and resistance levels.",
+  "summary": "Reaching the back is the start of the exchange.",
+  "overview": "Reaching the back is the start of the exchange. This system connects chest-to-back alignment, hand fighting and arm trapping so that control can survive an opponent’s escape attempts. Work on retaining the position before adding the strangle.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Upper body immobilization takes precedence over lower body control - restrict hand fighting before establishing hooks",
     "Progressive control hierarchy - advance through defined control levels rather than rushing to submissions",
@@ -491,6 +491,21 @@
           "Skip straight to full mount"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "back-attacks-enter-the-system-by-john-danaher",
+      "title": "Back Attacks Enter The System",
+      "instructor": "John Danaher",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Covers back alignment, hand fighting, straightjacket control and transitions into rear strangles.",
+      "best_for": "Students who reach the back but lose control while trying to finish.",
+      "study_focus": "Begin with alignment and the roles of the strangle hand and control hand, then study arm trapping.",
+      "practice_tip": "Start from back control and give your partner one escape direction. Keep chest-to-back connection before adding hand fighting."
     }
   ]
 }

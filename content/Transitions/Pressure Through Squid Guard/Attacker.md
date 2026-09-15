@@ -90,7 +90,7 @@ description: "Learn systematic pressure passing through Squid Guard. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that separates successful pressure passing from stalling?",
+      "name": "Pressure passing squid guard: what mechanical detail separates a working pass from stalling?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The direction of your weight transfer must align with or redirect the lapel tension vector rather than fighting perpendicular to it. Driving your shoulder through the bottom player's frames while keeping your hips below your shoulders creates a downward compression angle that collapses their guard structure. If your hips rise above your shoulders, you lose the compression angle and create space they can exploit."

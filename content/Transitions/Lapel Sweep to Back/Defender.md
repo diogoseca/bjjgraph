@@ -72,7 +72,7 @@ description: "How to defend against Lapel Sweep to Back in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has the lapel wrapped and grabs your far sleeve—what is your immediate defensive priority?",
+      "name": "They have your lapel wrapped and grab your far sleeve — what is your first defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is freeing the controlled sleeve through a wrist circle or grip break, then posting that hand on the mat for base. A posted hand simultaneously eliminates the back take pathway and provides base against the sweep, collapsing the entire dilemma at once. Addressing the sleeve first is more efficient than fighting the lapel because posting solves both problems."
@@ -88,7 +88,7 @@ description: "How to defend against Lapel Sweep to Back in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How should you address the lapel configuration if the attacker has a deep worm guard wrap behind your knee?",
+      "name": "How do you clear a deep worm guard wrap from behind your knee?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Control the attacker's gripping hand with your same-side hand to prevent them from adjusting the wrap, then use your free hand to systematically unwind the fabric from behind your knee. Work the lapel off by straightening your leg and using small circular motions rather than explosive pulling. The wrap is mechanical, not muscular, so technical unwinding beats force. Alternatively, backstep to change the angle of the wrap, reducing its effectiveness while you address the configuration."

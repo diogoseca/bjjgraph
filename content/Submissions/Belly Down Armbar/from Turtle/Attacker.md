@@ -84,7 +84,7 @@ description: "Execute the belly down armbar from turtle top. Master arm isolatio
     },
     {
       "@type": "Question",
-      "name": "How does the arm isolation challenge from turtle differ from attacking the belly down armbar from armbar control?",
+      "name": "How does arm isolation from turtle differ from the belly down armbar from armbar control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From armbar control, the arm is already isolated between your legs with hips positioned at the shoulder — you simply need to transition from supine to prone. From turtle, the opponent's arms are typically protected in an elbows-to-knees shell, meaning you must first create arm exposure through pressure, grip fighting, or exploiting defensive reactions like posting. This additional isolation step makes the turtle entry lower percentage but also less expected, as the opponent may not recognize the armbar threat until the step-over is already in progress."
@@ -92,7 +92,7 @@ description: "Execute the belly down armbar from turtle top. Master arm isolatio
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains a tight elbows-to-knees turtle and refuses to post — what technique creates the arm isolation needed for the belly down armbar?",
+      "name": "Your opponent holds a tight elbows-to-knees turtle and won't post—how do you isolate an arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the elbow peel technique: maintain heavy chest pressure on their upper back with one hand while using your other hand to grip their elbow and physically pry it away from their knee. Drive your peeling hand upward and outward to create separation, then immediately secure two-on-one wrist control on the exposed arm before they can re-tuck. The chest pressure prevents them from rotating or standing during the peel, creating the necessary window for arm isolation."
@@ -100,7 +100,7 @@ description: "Execute the belly down armbar from turtle top. Master arm isolatio
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the belly-down position is properly established before attempting the finish?",
+      "name": "What tells you the belly-down position is properly set before you attempt the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hip crease should be in direct contact with the back of the opponent's elbow or upper arm with zero gap — no daylight visible between your body and their arm. Your knees should be pinched tightly together around the trapped arm creating a secure vice. The opponent's wrist should be pulled tight to your chest centerline with their thumb oriented upward. Your chest should be flat toward the mat with body weight settled through the arm. If any of these elements are missing, adjust before committing to the extension."
@@ -108,7 +108,7 @@ description: "Execute the belly down armbar from turtle top. Master arm isolatio
     },
     {
       "@type": "Question",
-      "name": "During the step-over transition, your opponent initiates a granby roll — what is the correct response?",
+      "name": "Your opponent granby rolls during your step-over from turtle—what is the correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you have secure wrist control, follow the roll while maintaining your grip and adjust your step-over to match their new angle. Their rotation often actually facilitates completing the belly-down position from the new orientation. If the granby begins before your wrist control is secure, immediately abort the step-over attempt, drive your chest weight back down onto their shoulders to halt the roll, and return to standard turtle top control. Never chase a granby with a loose grip — you will lose both the arm and the position."
@@ -116,7 +116,7 @@ description: "Execute the belly down armbar from turtle top. Master arm isolatio
     },
     {
       "@type": "Question",
-      "name": "What is the proper application speed for the belly down armbar finish in training, and why does this position require extra caution?",
+      "name": "How slowly should you apply the belly down armbar in training, and why the extra caution?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply the finish over a minimum of 3-5 seconds from establishment of the prone position to full extension. The belly-down position requires extra caution because your entire body weight drops through the opponent's arm with gravity assistance, generating significantly more force than a standard supine armbar with less perceived effort from the attacker. This force amplification means the breaking point can arrive faster than expected. Always apply progressively and give your partner time to recognize the submission and tap before the joint reaches its end range."

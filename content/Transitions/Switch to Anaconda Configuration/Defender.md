@@ -56,7 +56,7 @@ description: "How to defend against Switch to Anaconda Configuration in BJJ. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest proprioceptive cue that the attacker is initiating the anaconda switch from buggy choke?",
+      "name": "Under buggy choke, what is the earliest cue you feel that they are switching to the anaconda?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the sudden release of collar tension from the threading arm. During the buggy choke, you feel lateral pulling pressure on your far-side collar. When this pressure disappears, it means the attacker has released the collar grip and is redirecting the arm toward a neck encirclement. This collar release precedes the actual neck wrap by a fraction of a second and represents your earliest defensive window."
@@ -64,7 +64,7 @@ description: "How to defend against Switch to Anaconda Configuration in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Why is sitting to half guard a viable defensive option during the anaconda switch but not during consolidated buggy choke control?",
+      "name": "Why can you sit to half guard during the anaconda switch but not under settled buggy choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During consolidated buggy choke control, the attacker's chest pressure and hip weight are fully committed to flattening the turtle. During the anaconda switch, the attacker must momentarily shift their weight and arm positioning to execute the grip change, which creates a 1-2 second window of reduced chest pressure. This pressure reduction allows the hip movement needed to drop to half guard, which is not possible when the full buggy choke control is maintained."
@@ -72,7 +72,7 @@ description: "How to defend against Switch to Anaconda Configuration in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Your attacker releases the collar and you feel their arm beginning to curl around your neck—should you tuck your chin or extract your near arm first?",
+      "name": "Their arm curls toward your neck for the anaconda—tuck your chin or extract your near arm first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tuck your chin first. The chin tuck is faster to execute and immediately blocks the neck encirclement from achieving choking depth. Arm extraction takes longer and requires more complex movement. If you tuck first, you buy time for the arm extraction as a secondary action. If you attempt arm extraction first without chin protection, the attacker may complete the neck wrap before the arm escapes, leaving you choked with the arm still trapped."
@@ -88,7 +88,7 @@ description: "How to defend against Switch to Anaconda Configuration in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "The attacker has the choking arm around your neck but has not yet connected the support arm under your far armpit—what is your highest percentage escape at this stage?",
+      "name": "Their anaconda arm is on your neck but the support arm isn't under your far armpit—best escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extract your near arm from the head-and-arm trap while simultaneously driving forward with a chin tuck. Without the support arm connected, the figure-four cannot lock, which means the grip is structurally incomplete. By extracting the near arm at this stage, you remove the bilateral compression element entirely. The attacker is left with a loose neck wrap that cannot generate submission-level pressure and must abandon the anaconda to pursue a guillotine or front headlock instead."

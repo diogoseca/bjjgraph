@@ -58,7 +58,7 @@ description: "Defend against the ankle lock from X-Guard in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is transitioning from X-Guard sweeps to an ankle lock attempt?",
+      "name": "What are the earliest cues your opponent is switching from X-guard sweeps to an ankle lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the attacker releasing their upper body grips to reach for your ankle with both hands, their hips rotating to face your trapped leg rather than staying angled for sweeps, increased isolation of your foot as hook configuration shifts from elevation-based mechanics to clamping Ashi Garami control, and their chest driving toward your ankle rather than maintaining upward sweep pressure. Recognizing these cues provides a two-to-three second window to extract your foot before the figure-four grip is secured."
@@ -66,7 +66,7 @@ description: "Defend against the ankle lock from X-Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "The attacker has already secured a figure-four grip on your ankle — what is your best defensive sequence?",
+      "name": "They have a figure-four grip on your ankle — what is your defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Begin boot defense by pointing your toes and flexing your foot to create space between the Achilles tendon and the attacker's wrist blade. Simultaneously rotate your knee inward toward the attacker to reduce ankle extension leverage. With your free leg, post on the attacker's hip or bicep to create a frame preventing them from achieving full hip extension. If these defenses stall the submission, work to strip the figure-four grip by inserting your free hand between their clasped hands and peeling the top hand away. Throughout this sequence remain ready to tap immediately if pressure becomes dangerous to your ankle or Achilles tendon."
@@ -74,7 +74,7 @@ description: "Defend against the ankle lock from X-Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent is attempting the ankle lock but has not yet achieved perpendicular body alignment — how do you exploit this positioning error?",
+      "name": "Their ankle lock lacks perpendicular body alignment — how do you exploit that error?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker lacks perpendicular alignment, their hip extension produces significantly less mechanical advantage for the finish. Immediately step your free leg over their body toward the side they should be angling to, which both disrupts their angle creation and initiates a guard pass. Simultaneously drive your trapped knee toward them to reduce distance and collapse their submission structure. This counter-offensive approach is more effective than passive grip fighting because it forces the attacker to abandon the submission to defend against the pass rather than simply adjusting their angle."
@@ -82,7 +82,7 @@ description: "Defend against the ankle lock from X-Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to address the ankle lock attempt immediately rather than waiting to assess the threat level?",
+      "name": "Why defend the ankle lock from X-guard immediately instead of waiting to assess the threat?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The ankle lock from X-Guard is a gateway submission — even if the initial lock lacks sufficient tightness to finish, the attacker's grip and leg configuration naturally transition into Ashi Garami positions where heel hooks, toe holds, and kneebars become available. Passive waiting allows the attacker to incrementally improve position quality. Additionally, the straight ankle lock can finish suddenly when the attacker adjusts their angle or hip extension, and Achilles tendon injuries can occur with surprisingly little additional force once the joint is loaded. Immediate defensive action while the submission is still developing provides the highest probability of complete escape."

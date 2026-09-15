@@ -98,7 +98,7 @@ description: "How to execute Lapel Triangle Setup in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts posturing aggressively when they feel the triangle threat—how do you use their reaction?",
+      "name": "In the lapel triangle setup, how do you use your opponent's aggressive posturing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their aggressive posturing forward actually aids your hip elevation for the triangle entry. Use their forward momentum by timing your hip escape and leg swing to coincide with their drive. Alternatively, their posture attempt often opens the omoplata angle if they successfully defend the triangle—flow to the shoulder lock instead."

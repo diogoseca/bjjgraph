@@ -56,7 +56,7 @@ description: "How to defend against Crackhead Control to Carni in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is attempting the Crackhead Control to Carni transition rather than standard defensive movement?",
+      "name": "On top of Crackhead Control, what hip cue signals a Carni transition rather than normal defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a directional change in the bottom player's hip movement. Standard crackhead defense uses horizontal circling, while the carni transition setup angles the hips underneath your body toward your near leg. You may also feel them aggressively strip your grip on their inside arm, which is a prerequisite for the inversion. Recognizing this directional shift within the first moment is what allows early prevention."
@@ -64,7 +64,7 @@ description: "How to defend against Crackhead Control to Carni in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why does your forward weight commitment in the chair-sit position create vulnerability to this transition?",
+      "name": "Why does your forward weight in the chair-sit make you vulnerable to the Carni transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The forward weight commitment loads your mass onto the bottom player's lower back, but simultaneously creates space underneath your hips and compromises your ability to retract quickly. This space is exactly what the bottom player threads through during the inversion. The more forward you commit, the larger the window for their entry and the slower your defensive reaction because your hips must travel further to retract."
@@ -72,7 +72,7 @@ description: "How to defend against Crackhead Control to Carni in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially established the inside leg hook but has not yet completed the full carni entanglement - what is your best response?",
+      "name": "They have a partial inside leg hook but no full carni yet. What is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Step your free leg over their body to block the completion of the entanglement while simultaneously driving your trapped leg's knee toward the mat to prevent them from locking the figure-four. If the step-over is successful, immediately transition to back control by following their partially inverted body. Do not try to simply pull your leg free against the partial hook as this often feeds deeper into the entanglement."
@@ -80,7 +80,7 @@ description: "How to defend against Crackhead Control to Carni in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "When is it better to disengage entirely from crackhead control rather than defend the transition in place?",
+      "name": "When should you disengage from Crackhead Control top instead of defending the Carni?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Disengage when the transition is partially established and your defensive options are limited, meaning they have inside positioning but you have not yet been fully captured. Losing crackhead control top to return to standing is far preferable to being caught in a completed carni where you face heel hook, saddle, and back take threats. Accept the positional loss and re-engage from standing on your terms."
@@ -88,7 +88,7 @@ description: "How to defend against Crackhead Control to Carni in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How should you manage your near leg positioning to prevent the carni entry throughout the crackhead control exchange?",
+      "name": "On top of Crackhead Control, how should you position your near leg to deny the Carni entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your near leg retracted and compact rather than posted wide or forward. A wide-posted leg is easier for the bottom player to capture during their inversion. When you sense increased hip activity from the bottom player, pull your near leg even closer to your body or shift it behind their hip line entirely. The less accessible your near leg is, the harder the carni entry becomes regardless of their timing."

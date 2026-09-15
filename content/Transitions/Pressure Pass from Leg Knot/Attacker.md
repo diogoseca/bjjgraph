@@ -82,7 +82,7 @@ description: "Execute the Pressure Pass from Leg Knot as the top player. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins re-hooking your ankle with their free leg as you attempt the knee slide extraction - how do you respond?",
+      "name": "Leg Knot top: they re-hook your ankle as you knee slide out. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase forward chest pressure immediately to restrict their hip movement, then accelerate your knee past their hooking foot rather than retreating. The key is to drive through the re-hook attempt rather than pulling back, because retreating gives them the space to complete the re-entanglement. If the re-hook is already deep, pause, re-establish pressure, strip the hook with your free hand, and restart the extraction with tighter mechanics."
@@ -114,7 +114,7 @@ description: "Execute the Pressure Pass from Leg Knot as the top player. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts both hands on your shoulders and creates distance during the upper body control phase - what is your correction?",
+      "name": "Leg Knot top: they post both hands on your shoulders and make space. What is your correction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Swim your arms inside their extended elbows using circular motions to break the frame structure, then immediately re-establish the crossface. Use your bodyweight dropping forward to collapse their arm frames rather than engaging in a hand-fighting battle at arm's length. Extended arm frames are energy-expensive for the bottom player and unsustainable against heavy forward pressure, so driving your weight into the frames forces them to choose between maintaining arms or protecting their legs."

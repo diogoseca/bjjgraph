@@ -64,7 +64,7 @@ description: "How to defend against Seat Belt Control Back in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is the moment when the attacker releases crucifix leg control the critical escape window for the defender?",
+      "name": "Why is the attacker releasing crucifix leg control the key escape window for the defender?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker releases their crucifix leg entanglement to begin sliding behind you, there is a brief window where their lower body control is absent. During this moment, your arms may also be freed from the leg trap, and the attacker's base is compromised as they reposition. An explosive bridge and turn during this release can recover half guard or create a scramble before back control consolidates."
@@ -72,7 +72,7 @@ description: "How to defend against Seat Belt Control Back in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your attacker has locked the seat belt but has not yet inserted hooks - what is your immediate defensive priority?",
+      "name": "They have the seat belt but no hooks yet; what is your immediate defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prevent hook insertion by keeping your legs active and straightened, denying the attacker's feet entry inside your thighs. Simultaneously begin turning toward the attacker to disrupt their back angle. Back control without hooks is significantly easier to escape than with hooks established, so even a few seconds of hook denial creates meaningful escape opportunities. Frame against their hip to prevent further settling."
@@ -88,7 +88,7 @@ description: "How to defend against Seat Belt Control Back in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How should you distribute your defensive effort between grip fighting the seat belt and preventing the hip slide?",
+      "name": "How do you split defensive effort between fighting the seat belt and blocking the hip slide?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both threats must be addressed simultaneously rather than sequentially. Use one arm to fight or disrupt the seat belt grip while using your other arm to frame against the attacker's hip to block their slide behind you. Focusing exclusively on grip fighting allows the hip slide to complete, while focusing only on the hip frame allows the seat belt to tighten and eventually collapse your frame through compression."

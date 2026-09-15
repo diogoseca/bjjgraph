@@ -92,7 +92,7 @@ description: "How to enter Double Unders from Open Guard top in BJJ. Scoop both 
     },
     {
       "@type": "Question",
-      "name": "Since committing both arms removes your ability to post, what keeps your back safe during this entry?",
+      "name": "With both arms committed to double unders, what keeps your back safe during the entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your head position, chest pressure, and wide base replace the missing post. Driving your head into the opponent's chest or near hip blocks their rotation toward your back, dropping chest weight onto the thighs consolidates the stack, and a wide base on the balls of your feet lets you ride a bridge or lateral roll without being turned over. Without these, the committed posture invites back-takes and reversals."
@@ -100,7 +100,7 @@ description: "How to enter Double Unders from Open Guard top in BJJ. Scoop both 
     },
     {
       "@type": "Question",
-      "name": "When the opponent inserts a strong knee shield before you complete both underhooks, what is the better adjustment than forcing the symmetric entry?",
+      "name": "They get a knee shield before you finish both underhooks: what is the better adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop fighting to force both arms in against the established frame and instead commit to the single underhook you already secured, transitioning to a leg-weave or over-under control on the framing side. Chasing both legs against a knee shield only creates space and stalls; redirecting to a one-side pressure control keeps your advantage and avoids resetting to neutral."

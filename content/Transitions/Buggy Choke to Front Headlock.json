@@ -238,7 +238,7 @@
         }
       },
       {
-        "question": "Your opponent strips your deep collar grip but you still have chin strap control - what immediate action do you take?",
+        "question": "They strip your deep collar grip but you keep the chin strap: what do you do immediately?",
         "answer": "Immediately begin circling toward their head while maintaining chin strap pressure. Use the grip strip as the trigger for transition rather than attempting to re-establish the buggy choke. The chin strap provides sufficient control to complete the front headlock entry if you move immediately.",
         "answer_line": "Circle to head, keep chin strap",
         "distractors": {
@@ -308,7 +308,7 @@
         }
       },
       {
-        "question": "When should you convert the transition directly to a guillotine rather than establishing front headlock?",
+        "question": "When should you go straight to a guillotine instead of establishing the front headlock?",
         "answer": "Convert directly to guillotine when the opponent drops their head during the turning motion, creating immediate arm-in or high elbow guillotine opportunity. The lowered head position makes guillotine higher percentage than establishing front headlock first and then attacking.",
         "answer_line": "When they drop head mid-turn",
         "distractors": {
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "If the front headlock is blocked and the opponent begins recovering turtle, what chain attack sequence should you pursue?",
+        "question": "Front headlock blocked and they recover turtle: what chain attack sequence do you pursue?",
         "answer": "If the front headlock establishment fails, immediately reassess based on the opponent's posture. If they retract to tight turtle with chin tucked, re-engage with a fresh buggy choke threading attempt or transition to seatbelt control for a back take. If they post an arm, attack the crucifix. The chain never resets to neutral; every defensive posture reveals a new entry point in the turtle attack system.",
         "answer_line": "Rethread choke or seatbelt back",
         "distractors": {
@@ -487,7 +487,7 @@
         }
       },
       {
-        "question": "Your attacker begins circling toward your head after releasing the buggy choke threading arm - what is your immediate response?",
+        "question": "They release the threading arm and circle toward your head: what is your immediate response?",
         "answer": "Immediately counter-circle in the opposite direction while using both hands to strip the remaining chin strap or collar tie grip. The counter-circling creates angular separation that makes it harder for the attacker to arrive at front headlock angle. If the grip strip succeeds, you return to neutral turtle with full escape options. If it fails, the counter-circle still delays the front headlock and may create a scramble opportunity.",
         "answer_line": "Counter-circle, strip the grip",
         "distractors": {
@@ -501,7 +501,7 @@
         }
       },
       {
-        "question": "Why is the turning defense against the buggy choke simultaneously the setup for the front headlock entry?",
+        "question": "Why is turning out of the buggy choke also the setup for their front headlock entry?",
         "answer": "The turning motion that relieves buggy choke pressure rotates your body to face partially away from the attacker, which is precisely the angle they need for front headlock control. Your turn exposes the side of your neck and positions the attacker's circling path directly toward your head. This is why you must prepare secondary defenses while turning - the turn solves one problem but creates another if you do not anticipate the follow-up transition.",
         "answer_line": "Turn exposes neck to their angle",
         "distractors": {
@@ -515,7 +515,7 @@
         }
       },
       {
-        "question": "You feel the attacker's chest weight shifting from your back toward your near shoulder - what does this signal and how should you respond?",
+        "question": "Their chest weight shifts to your near shoulder: what does it signal and how do you respond?",
         "answer": "This weight shift signals the transition from buggy choke vertical pressure to front headlock diagonal pressure. The attacker is moving from behind you to perpendicular. Respond immediately by framing against their shoulder with your near arm to prevent them from settling the perpendicular angle, while simultaneously sitting out or standing up. Once the diagonal pressure fully establishes, escape becomes significantly more difficult.",
         "answer_line": "Frame shoulder, sit out now",
         "distractors": {

@@ -1,6 +1,6 @@
 {
   "name": "Danaher Front Headlock System",
-  "description": "Master the Front Headlock System in BJJ. Comprehensive control framework with guillotine, anaconda, darce pathways and back attacks. Systematic methodology for dominant finishing.",
+  "description": "A focused companion for linking front headlock control with guillotine, darce and anaconda attacks. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -15,8 +15,8 @@
   ],
   "system_type": "Control System",
   "difficulty_level": "Advanced",
-  "summary": "The Danaher Front Headlock System is a control-and-submission framework that uses head-and-arm control from the front headlock to chain guillotine, anaconda, and darce chokes with back-exposure attacks, forcing opponents into continuous defensive dilemmas.",
-  "overview": "Developed by John Danaher and proven at the highest levels of competition by his athletes, the front headlock framework transforms a traditionally transitional control into a complete offensive ecosystem. Rather than treating the front headlock as a brief stop on the way to a takedown or guard pass, the system treats it as a destination from which the match can be won. It operates on the principle that head-and-arm control offers unparalleled influence over an opponent's movement and posture while simultaneously opening access to multiple high-percentage finishing sequences.\n\nAt its core, the front headlock system is built around three primary finishing pathways: the guillotine choke family, the anaconda/darce choke family, and back exposure sequences. Each pathway contains multiple variations and entries, creating a decision tree that forces opponents into continuous defensive dilemmas. The beauty of the system lies in its interconnectedness - defensive reactions to one attack directly feed into setups for others, creating a self-reinforcing cycle of offensive pressure.\n\nWhat distinguishes Danaher's approach is the emphasis on systematic progression through clearly defined stages: entry, consolidation, breaking structure, and finishing. This methodical framework removes guesswork and provides practitioners with clear decision points based on opponent reactions. The system has produced exceptional results in both gi and no-gi competition, with athletes like Gordon Ryan and Garry Tonon using it to dominate opponents at the highest levels of the sport.",
+  "summary": "The front headlock offers several paths, but chasing a choke can cost the position.",
+  "overview": "The front headlock offers several paths, but chasing a choke can cost the position. Start with head and shoulder control, recognize how the opponent turns, and choose between a strangle and a route behind them.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Head and arm control establishes dominant leverage over opponent's upper body movement and posture",
     "Breaking down opponent's defensive structure through systematic shoulder pressure and cross-face control",
@@ -508,6 +508,21 @@
           "Skip static reps, spar immediately"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "the-front-headlock-system-by-john-danaher",
+      "title": "The Front Headlock System",
+      "instructor": "John Danaher",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A focused companion for linking front headlock control with guillotine, darce and anaconda attacks.",
+      "best_for": "No-gi students who want a plan after a snapdown or defended takedown.",
+      "study_focus": "Compare the control and strangle sections with the attack choices in this system.",
+      "practice_tip": "Choose one front headlock entry and one response to your partner circling away. Practise the transition before adding a finish."
     }
   ]
 }

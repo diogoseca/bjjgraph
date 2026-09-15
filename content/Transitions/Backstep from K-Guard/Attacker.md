@@ -90,7 +90,7 @@ description: "Learn to execute the Backstep from K-Guard as the top player. Step
     },
     {
       "@type": "Question",
-      "name": "What grip must you maintain throughout the backstep to prevent the bottom player from following your movement?",
+      "name": "Backstepping from K-guard top, which grip stops the bottom player from following you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upper body control through crossface, collar grip, or underhook is essential throughout the entire backstep. This grip anchors the bottom player's torso stationary while your lower body changes position. Without this anchor, the bottom player hip escapes in the direction of your backstep, maintaining their guard structure despite the directional change. The far hip control serves as a secondary anchor that blocks their primary escape route."
@@ -98,7 +98,7 @@ description: "Learn to execute the Backstep from K-Guard as the top player. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent catches Single Leg X-Guard during your backstep attempt - what is the correct response?",
+      "name": "Your opponent catches single leg X during your backstep from K-guard: what is the correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your free hand on the mat and address the SLX hooks before they consolidate. Drive your hip forward to compress their hook structure and prevent elevation. You can attempt a backstep from SLX or transition to a standard SLX passing sequence such as a knee slide or hip switch. The key is not to panic and pull away, which gives them the distance needed to complete the sweep."

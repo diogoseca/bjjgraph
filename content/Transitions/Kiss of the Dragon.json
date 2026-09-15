@@ -261,7 +261,7 @@
         }
       },
       {
-        "question": "Your opponent is in turtle with their weight sitting back on their heels rather than forward on their hands. Should you attempt the Kiss of the Dragon?",
+        "question": "Top turtle: their weight sits back on their heels—should you attempt Kiss of the Dragon?",
         "answer": "No — when their weight sits back on their heels, the space under their hips collapses, so the Kiss of the Dragon entry is not available. You cannot get your head and shoulders below their hip line without that space. Instead, threaten traditional back take attempts like seatbelt entry or crab ride first, which forces the opponent to commit weight forward into their defensive shell to resist. Once they shift forward, the space opens and the Kiss of the Dragon becomes viable. Reading and manipulating weight distribution is essential for consistent success with this technique.",
         "distractors": {
           "plausible": [
@@ -317,7 +317,7 @@
         }
       },
       {
-        "question": "Your opponent begins to follow your roll by turning their body to match your rotation. How do you adjust?",
+        "question": "Kiss of the Dragon: they turn to follow your roll—how do you adjust?",
         "answer": "If you catch the tracking early, accelerate your roll and rapidly switch grips to complete the back take before they match your rotation. If they are successfully keeping pace with your movement, abort the complete somersault and transition to alternative positions such as leg entanglements or a scramble position. Forcing a back take against an opponent who is rotating with you typically results in a neutral scramble where you have lost your positional advantage from top turtle.",
         "distractors": {
           "plausible": [
@@ -359,7 +359,7 @@
         }
       },
       {
-        "question": "What is the most important mechanical detail for maintaining a safe, smooth roll during the inversion?",
+        "question": "Kiss of the Dragon: what is the key mechanical detail for a safe, smooth inversion?",
         "answer": "The most critical mechanical detail is maintaining a tucked chin with a fully rounded spine throughout the entire rotation. This creates a wheel-like shape that allows smooth rolling over your shoulder and upper back. A flat back causes jarring impact, slower rotation, and risks serious neck or spine injury. The rounded shape also facilitates maintaining grip connection because your body follows a smooth arc rather than bouncing or catching during the somersault. Practitioners should master comfortable forward rolls in isolation before ever attempting this technique with a partner.",
         "answer_line": "Tuck chin, round the spine",
         "distractors": {
@@ -373,7 +373,7 @@
         }
       },
       {
-        "question": "If the back take is defended and you end up in a scramble, what positions should you look to establish?",
+        "question": "Kiss of the Dragon back take is defended into a scramble—what positions do you seek?",
         "answer": "When the clean back take is denied, your rolling momentum naturally positions you for several alternative attacks. Leg entanglements such as single leg X or inside ashi garami are accessible because your body is already below your opponent's hips. If the opponent has sat to guard, your forward momentum can carry you into a top passing position. If you end up chest-to-chest, immediately work to re-establish top turtle control or transition to front headlock. The key principle is never accepting a neutral scramble when your initial rolling momentum gives you an advantage in reaching one of these secondary positions.",
         "answer_line": "Leg entanglement or headlock",
         "distractors": {
@@ -499,7 +499,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is setting up the Kiss of the Dragon rather than a traditional back take?",
+        "question": "Turtle defense: earliest cue they are setting up Kiss of the Dragon, not a standard back take?",
         "answer": "The earliest cue is the opponent shifting from directly behind your turtle to a 45-degree angle on one side while their head begins to drop below your hip level. Traditional back takes involve pressure from above and behind, while the Kiss of the Dragon requires the attacker to position at an angle and lower their center of gravity. Additionally, their grip transitions from downward pressing control to lateral pulling tension, indicating they are preparing to use the grip as a rolling anchor rather than for standard back take mechanics.",
         "answer_line": "45° angle, head drops below hip",
         "distractors": {
@@ -513,7 +513,7 @@
         }
       },
       {
-        "question": "Why is sitting your weight back toward your heels the most effective preventive defense against the Kiss of the Dragon?",
+        "question": "Why does sitting your weight back on your heels best prevent the Kiss of the Dragon?",
         "answer": "The Kiss of the Dragon requires the attacker to get their head and shoulders underneath the defender's hips. When you sit your weight back toward your heels, you collapse the space between your hips and the mat, eliminating the entry path the attacker needs for their somersault. This is the most effective prevention because it denies the fundamental mechanical requirement of the technique. The trade-off is increased vulnerability to front headlock attacks, but this represents a less dangerous exchange than conceding full back control.",
         "answer_line": "Denies space under the hips",
         "distractors": {
@@ -527,7 +527,7 @@
         }
       },
       {
-        "question": "Your opponent has already begun rolling underneath you. Is it better to try to stop their rotation or to follow it?",
+        "question": "They have begun rolling under your turtle—stop their rotation or follow it?",
         "answer": "Once the roll has initiated, attempting to stop it by posting or bracing is generally ineffective because the attacker's momentum and grip connection make the somersault difficult to halt mid-rotation. Instead, follow the rotation direction by turning your body to match their movement and sitting through to guard recovery. By matching their rotational direction, you prevent them from arriving behind you and convert the situation into a scramble where back control is denied. The critical timing distinction is that prevention works before the roll starts, but once rolling begins, flowing with the movement produces better outcomes than resisting it.",
         "answer_line": "Follow rotation, sit to guard",
         "distractors": {
@@ -541,7 +541,7 @@
         }
       },
       {
-        "question": "How should you adjust your turtle defense when you know your opponent has the Kiss of the Dragon in their game?",
+        "question": "How do you adjust your turtle when you know they use the Kiss of the Dragon?",
         "answer": "When facing a known Kiss of the Dragon practitioner, modify your turtle strategy in several ways. Keep your weight distributed more toward your heels rather than forward on your hands. Prioritize stripping any hip or belt grips immediately rather than focusing solely on defending seatbelt entries from above. Stay aware of the opponent's angle relative to your body and react to any shift from directly behind to a side angle. Consider transitioning from turtle more quickly to guard recovery or standing, reducing the time the opponent has to set up the technique. You can also keep one arm posted on the mat on the opponent's side, blocking their ability to lower their head past your hip line.",
         "answer_line": "Weight back, strip hip grips",
         "distractors": {

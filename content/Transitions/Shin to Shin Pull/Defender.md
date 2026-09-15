@@ -56,7 +56,7 @@ description: "How to defend against Shin to Shin Pull in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an opponent is about to attempt a shin-to-shin pull, and how should you respond?",
+      "name": "What is the earliest cue an opponent will pull shin-to-shin, and how should you react?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent establishing a strong same-side sleeve or wrist grip combined with a subtle weight shift to their rear foot. This grip is the prerequisite for effective off-balancing during the pull. Your immediate response should be to strip or contest this grip using a two-on-one grip break before they can begin sitting. Denying this single grip eliminates the pulling force that makes the technique dangerous, forcing them to reset their grip sequence."
@@ -64,7 +64,7 @@ description: "How to defend against Shin to Shin Pull in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why is circling laterally more effective than retreating straight backward when defending the shin-to-shin pull?",
+      "name": "Why is circling laterally better than straight retreat against the shin-to-shin pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Straight backward retreat preserves the perpendicular shin angle that creates the guard player's leverage, and the retreating momentum makes it difficult to change direction for passing. Lateral circling breaks the perpendicular angle because the guard player must adjust their hip positioning to maintain connection, which takes time and creates gaps in their control. Additionally, lateral movement positions you for passing entries when the connection breaks, whereas straight retreat simply creates distance that the guard player can close by scooting forward."
@@ -72,7 +72,7 @@ description: "How to defend against Shin to Shin Pull in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already established shin-to-shin guard with a strong sleeve grip—what is your priority sequence for escaping?",
+      "name": "They have shin-to-shin plus a strong sleeve grip — what is your escape sequence in order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, address the sleeve grip through systematic grip breaking rather than trying to clear the shin while the grip remains intact. Second, once grip control is contested, begin circling to break the shin angle while maintaining your base and posture. Third, immediately advance into passing pressure the moment the shin connection weakens rather than backing away, as distance allows the guard player to re-establish. The critical error is reversing this sequence—trying to clear the shin first leaves you vulnerable to the off-balancing pull that the sleeve grip generates."
@@ -80,7 +80,7 @@ description: "How to defend against Shin to Shin Pull in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "When is it appropriate to drive forward with pressure as a defense against the shin-to-shin pull, and when is it dangerous?",
+      "name": "When is driving forward a sound defense to the shin-to-shin pull, and when is it dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pressure is appropriate in the early phase when the opponent is still sitting down and has not yet established both strong shin angle and sleeve grip simultaneously. Their guard structure is weakest during the transition from standing to seated. Forward pressure becomes dangerous once they have consolidated both the perpendicular shin connection and a controlling upper body grip, because at that point your forward weight loads directly onto the lever they use for sweeps. Read the guard player's grip and shin quality before committing forward—pressure into a fully consolidated shin-to-shin guard is the primary way defenders get swept."

@@ -56,7 +56,7 @@ description: "Learn to defend against the Sweep from Leg Weave. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that tells you the bottom player is setting up the sweep rather than a standard escape?",
+      "name": "Passing leg weave, what earliest cue shows the sweep setup rather than a standard escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest differentiating cue is the bottom player's near arm swimming under your armpit for an underhook rather than framing against your neck or shoulder. Standard escapes prioritize frames for creating distance, while the sweep prioritizes the underhook for creating rotational leverage. When you feel the arm swimming motion rather than a pushing frame, immediately respond with underhook denial by driving your shoulder down and swimming your own arm inside to maintain inside position."
@@ -72,7 +72,7 @@ description: "Learn to defend against the Sweep from Leg Weave. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "The bottom player has the underhook and is turning onto their side. You feel the sweep is imminent. What is your best option?",
+      "name": "Passing leg weave: they get the underhook and turn on their side—your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your best option is to backstep your weaved leg free and circle away from the sweep direction rather than trying to resist the rotational force directly. The backstep removes the trapped leg from the equation and can convert the bottom player's side-facing position into back exposure for you. If backstep is not available, post your far hand wide immediately, sprawl your hips back, and work to strip the underhook. Direct resistance by driving forward at this stage is the worst option because it plays directly into the sweep mechanics."
@@ -88,7 +88,7 @@ description: "Learn to defend against the Sweep from Leg Weave. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your passing approach when you know the bottom player is skilled at the sweep from leg weave?",
+      "name": "How do you adjust your leg weave passing against a bottom player skilled at the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a skilled sweeper, avoid committing full forward pressure in the leg weave and instead use lateral passing angles like knee slice or backstep that do not require driving your weight directly forward over their centerline. Maintain strong underhook denial as a constant priority rather than an afterthought, and keep at least one hand available for posting at all times. Consider using the leg weave as a brief transitional control rather than a sustained passing platform, moving quickly to a completed pass before the bottom player can organize their sweep setup."

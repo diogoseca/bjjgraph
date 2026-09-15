@@ -325,7 +325,7 @@
         }
       },
       {
-        "question": "Your opponent begins posturing up while you have the deep collar grip established but have not yet opened your guard - what adjustment prevents escape?",
+        "question": "They start to posture up while you hold the deep collar grip in closed guard: what do you do?",
         "answer": "Immediately use your legs to pull their hips forward while driving your heels into their lower back, collapsing their posture back down. Simultaneously, use the head control hand to pull their head toward your chest. If they generate significant upward force, use that momentum to initiate the loop choke sequence by opening your guard and turning into the choke as they rise. Their upward posturing can actually help deepen the collar grip as the collar slides further around the neck during the positional change.",
         "safety_critical": false,
         "answer_line": "Heels to back, break posture down",
@@ -340,7 +340,7 @@
         }
       },
       {
-        "question": "Why is the turning motion essential to finishing the Loop Choke rather than simply pulling the collar grip?",
+        "question": "Why is the turning motion essential to finish the loop choke, rather than just pulling the collar?",
         "answer": "The turning motion is what wraps the collar around the opponent's neck in a loop configuration. Without rotation, the collar grip creates linear pressure on only one side of the neck rather than the circumferential bilateral compression needed for an effective blood choke. The turn converts a single-point collar grip into a 270-degree wrap around the neck that compresses both carotid arteries simultaneously. Additionally, the self-tightening nature of the loop means that the opponent's own resistance against the turn increases the choking pressure.",
         "safety_critical": false,
         "answer_line": "Turn wraps collar into a loop",
@@ -355,7 +355,7 @@
         }
       },
       {
-        "question": "What should you do if the loop choke does not produce a tap within 6 seconds of applying full finishing pressure?",
+        "question": "No tap after 6 seconds of full loop choke pressure from closed guard: what should you do?",
         "answer": "If the choke has not produced a tap within 6 seconds, the setup is likely incorrect - most commonly the collar grip is too shallow, creating an air choke rather than a blood choke. You should release the pressure and either reset the grip to achieve proper depth or transition to a different attack. Continuing to force a poorly positioned choke is both ineffective and dangerous, as prolonged air choke pressure risks tracheal damage without achieving submission. A properly positioned blood choke produces a tap within 3-5 seconds.",
         "safety_critical": true,
         "answer_line": "Release and reset the grip",
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "What grip depth indicators confirm the collar is properly positioned before initiating the turning motion?",
+        "question": "What grip depth indicators confirm the collar is set before you turn into the loop choke?",
         "answer": "Key indicators of proper grip depth include: all four fingers have passed the trachea and are positioned against the side or back of the neck, the thumb presses against the lateral side of the neck creating a C-shape around the neck's vascular structures, the collar material has no slack between your hand and the opponent's neck, and when you apply light tension you can feel the collar tightening around the sides of the neck rather than across the front of the throat. If you feel the collar pressing on the adam's apple or windpipe, the grip is too shallow and must be deepened before turning.",
         "safety_critical": false,
         "answer_line": "Fingers past trachea, C-shape",
@@ -385,7 +385,7 @@
         }
       },
       {
-        "question": "Your opponent defends by driving their weight forward into you after you establish the collar grip - how do you exploit this reaction?",
+        "question": "They drive their weight forward after you get the collar grip: how do you exploit that reaction?",
         "answer": "Forward pressure from the opponent can be converted into a sweep or used to accelerate the choke. For the choke, their forward drive brings their neck deeper into the collar grip and reduces the distance you need to turn. Use their momentum to assist your hip escape and rotation, turning underneath them as they drive forward. Alternatively, abandon the loop choke and transition to a pendulum sweep or flower sweep, using their forward weight commitment against them. Their inability to posture means they cannot defend both the choke and the sweep simultaneously.",
         "safety_critical": false,
         "answer_line": "Ride momentum into sweep or choke",
@@ -430,7 +430,7 @@
         }
       },
       {
-        "question": "In competition, what attack sequences create the highest percentage entries into the loop choke from closed guard?",
+        "question": "Which attack sequences give the highest-percentage loop choke entries from closed guard?",
         "answer": "The highest percentage entries come from creating dilemmas where collar defense opens sweep vulnerability. Threaten a hip bump sweep to force the opponent to drive forward, then insert the collar grip as they commit their weight. Alternatively, attack with a cross collar choke to force both their hands to defend the collar, then switch to the loop choke grip configuration while their hands are occupied. The guillotine threat from a head-and-arm position can force them to tuck their chin and posture, creating the collar opening needed for the deep grip. Chain these attacks continuously so the opponent is always one reaction behind.",
         "safety_critical": false,
         "answer_line": "Chain sweep and choke threats",
@@ -445,7 +445,7 @@
         }
       },
       {
-        "question": "How does maintaining closed guard during setup differ strategically from opening guard early for the turning motion?",
+        "question": "Why keep the guard closed during loop choke setup instead of opening it early to turn?",
         "answer": "Keeping the guard closed during setup locks the opponent within range and prevents them from creating the distance needed to strip the collar grip or escape entirely. The closed guard forces them to fight the grip while compressed, with their posture broken and mobility restricted by your legs. Opening the guard prematurely surrenders this controlling structure before the attack is ready, giving the opponent space to posture, stand, or begin passing. The correct sequence is to complete all grip work while the guard is closed, then open the guard only at the moment you initiate the turning motion, so the opponent has minimal time to react to the positional change.",
         "safety_critical": false,
         "answer_line": "Keep them locked in until the turn",
@@ -613,7 +613,7 @@
         }
       },
       {
-        "question": "Why does pulling backward away from the opponent make the loop choke tighter rather than creating escape space?",
+        "question": "Why does pulling backward away from the attacker tighten the loop choke instead of freeing you?",
         "answer": "The loop choke uses a self-tightening mechanism where the collar wraps around the neck in a loop configuration. Pulling backward increases the distance between your neck and the opponent's grip anchor point, which pulls the collar tighter around your neck like tightening a drawstring. The collar acts as a noose where any increase in distance between the two ends of the loop translates to decreased circumference around the neck. The correct defensive movement is to drive forward toward the opponent to create slack in the loop, which is counterintuitive but mechanically sound.",
         "safety_critical": false,
         "answer_line": "Distance tightens the collar loop",

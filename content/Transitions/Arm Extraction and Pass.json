@@ -256,7 +256,7 @@
         }
       },
       {
-        "question": "Your opponent explosively posts their extracted arm as you transition - what is your immediate response?",
+        "question": "They explosively post the extracted arm as you transition. What is your immediate response?",
         "answer": "Immediately attack the posted arm with a kimura grip before completing the pass. The extended arm is vulnerable to shoulder lock attacks. Alternatively, redirect to north-south transition to avoid the frame entirely rather than fighting against it.",
         "answer_line": "Attack kimura on posted arm",
         "distractors": {
@@ -312,7 +312,7 @@
         }
       },
       {
-        "question": "What should be your first control priority immediately upon completing the transition to side control?",
+        "question": "What is your first control priority on arriving in side control after the arm extraction?",
         "answer": "Far hip control is the first priority. Your near hand must immediately block opponent's far hip to prevent knee insertion and half guard recovery. This takes precedence over crossface establishment - control the hip first, then adjust upper body control.",
         "answer_line": "Block far hip with near hand",
         "distractors": {
@@ -326,7 +326,7 @@
         }
       },
       {
-        "question": "Your opponent clamps their arm tight to their body and resists standard extraction - how do you adapt?",
+        "question": "They clamp the arm tight to their body against your extraction. How do you adapt?",
         "answer": "Switch to the kimura-assisted extraction variant. Establish a kimura grip on the trapped arm to threaten a shoulder lock. The submission threat forces them to extend and defend the lock, which simultaneously creates the space needed to clear the arm. If the kimura threat itself fails, the arm is now extended enough for standard extraction.",
         "answer_line": "Switch to kimura-assisted extraction",
         "distractors": {
@@ -354,7 +354,7 @@
         }
       },
       {
-        "question": "The extraction succeeds but opponent immediately inserts a knee as you settle side control - what went wrong and how do you fix it?",
+        "question": "They insert a knee as you settle after extraction. What went wrong and how do you fix it?",
         "answer": "You failed to prioritize far hip control during the transition phase. The near hand must block the opponent's far hip before completing crossface or upper body adjustments. To fix this mid-transition, immediately drive your near knee into their hip to block knee insertion while your hand catches up. Alternatively, accept the half guard position and pass from there rather than losing everything trying to fight the knee out.",
         "answer_line": "Drive knee into hip block",
         "distractors": {
@@ -499,7 +499,7 @@
         }
       },
       {
-        "question": "Your attacker has established the shoulder pin and is gripping your wrist - what is your best defensive response?",
+        "question": "They have the shoulder pin and your wrist. What is your best defensive response?",
         "answer": "At this stage, pure arm resistance is unlikely to succeed since the shoulder pin has broken your arm's structural support. Switch to timing-based defense: wait for the attacker to shift their hips toward your legs to create extraction space, then explosively sit through to half guard during that moment when their inside leg hook pressure decreases. The hip shift is their most vulnerable moment.",
         "answer_line": "Sit through during their hip shift",
         "distractors": {
@@ -513,7 +513,7 @@
         }
       },
       {
-        "question": "How do you recognize that the Arm Extraction and Pass is being attempted versus a standard back take from Crackhead Control?",
+        "question": "How do you tell an arm extraction from a back take out of Crackhead Control?",
         "answer": "The key recognition cue is the direction of the attacker's weight shift. For back takes, they shift their weight laterally to establish hooks and seat belt control. For arm extraction, they drive weight forward onto your shoulder blade while their near hand reaches for your wrist or forearm. The forward chest commitment to the shoulder pin is the definitive signal that differentiates extraction from back take attempts.",
         "answer_line": "Forward chest pressure on shoulder",
         "distractors": {
@@ -527,7 +527,7 @@
         }
       },
       {
-        "question": "The extraction has succeeded and the attacker is transitioning to side control - what is your emergency defense?",
+        "question": "The extraction worked and they are moving to side control. What is your emergency defense?",
         "answer": "Immediately attempt to insert your near knee between your bodies as the attacker's hips transition from chair-sit to side control sprawl. This is the last window before full side control is established. Your knee must beat their near hand to your far hip. If the knee insertion succeeds, you recover half guard with offensive options. If it fails, focus on immediate framing and side control escape sequences rather than trying to return to turtle.",
         "answer_line": "Insert knee before hip is blocked",
         "distractors": {

@@ -76,7 +76,7 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Darce choke target, and how does the arm-triangle configuration produce the submission?",
+      "name": "What does the Darce compress, and how does the arm-triangle structure make it work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Darce choke targets the bilateral carotid arteries on both sides of the neck. The arm-triangle configuration uses the attacker's arms on one side and the opponent's own trapped shoulder and arm on the other side to create compression from both directions simultaneously. This bilateral carotid compression restricts blood flow to the brain, producing unconsciousness within 4-8 seconds when properly applied. The opponent's trapped arm is essential—it fills the space on one side of the neck and provides the counter-pressure that makes the choke effective."
@@ -84,7 +84,7 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What are the indicators that the Darce choke is reaching the breaking point where the opponent must tap or lose consciousness?",
+      "name": "What signs show your Darce has reached the point where they must tap or go out?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the opponent's defensive movements becoming weaker or more frantic, their face changing color, their grip strength on your arms weakening noticeably, and any gurgling or unusual breathing sounds. The opponent may also stop actively defending and become still. At this point, maintain awareness for a tap signal but also be prepared for unconsciousness without a tap. The transition from active defense to passive acceptance happens rapidly with blood chokes, so constant vigilance is essential."
@@ -100,7 +100,7 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "At what point during the Darce sequence does the submission become inescapable, and what defines this threshold?",
+      "name": "At what point in the Darce does it become inescapable, and what defines that threshold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Darce becomes inescapable once the figure-four grip fully locks with the arm trapped inside the triangle and you begin sprawling your hips. Once the grip is secured and hip pressure is applied, the opponent cannot create enough space to extract their arm or relieve the carotid compression through strength alone. Before the grip locks, the opponent can still posture, frame, or fight the threading arm. The critical transition is the moment the free hand clasps the bicep and the threading hand moves behind the head—after this, the mechanical advantage overwhelmingly favors the attacker."

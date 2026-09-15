@@ -90,7 +90,7 @@ description: "How to execute Bridge and Turn to Turtle escape from North-South i
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins reaching for a kimura grip on your near arm—how does this affect your escape timing?",
+      "name": "They reach for a kimura on your near arm in north-south: how does that change your bridge timing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This creates an excellent timing window for the escape. As they reach for the grip, their weight shifts off your chest momentarily and their attention focuses on securing the arm rather than maintaining pressure. Execute the bridge immediately as they begin reaching, before they can complete the grip. Their commitment to the submission attempt leaves them vulnerable to being displaced by your bridge."

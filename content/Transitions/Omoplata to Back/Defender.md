@@ -64,7 +64,7 @@ description: "How to defend the Omoplata to Back transition in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why is rolling at a diagonal angle more effective than rolling straight forward when defending this transition?",
+      "name": "Why is rolling diagonally better than straight forward when defending omoplata to back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rolling straight forward follows the exact trajectory the attacker has drilled to follow. Their outside leg rides your shoulder perfectly when you roll in the direction they expect. Rolling at a diagonal angle forces the attacker's hip to disconnect from your shoulder because the angle change pulls their leg off your shoulder line. This creates the separation needed to turn and face before they can re-establish connection and insert hooks."
@@ -72,7 +72,7 @@ description: "How to defend the Omoplata to Back transition in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "If the attacker has already established one hook and the seatbelt after your roll, what is your defensive priority sequence?",
+      "name": "They have one hook and the seatbelt after your roll: what is your defensive priority sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, protect your neck immediately using chin tuck and two-on-one grip control on the choking arm. Second, strip the seatbelt by fighting the choking arm away from your neck. Third, turn toward the hook side to begin facing the attacker, which naturally disrupts their hook. Do not skip straight to fighting hooks because the seatbelt is what prevents your rotation, and an undefended neck means submission before escape. Address threats from most to least immediate."
@@ -80,7 +80,7 @@ description: "How to defend the Omoplata to Back transition in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "What recognition cue tells you the attacker plans to follow your roll rather than finish the omoplata?",
+      "name": "Which cue shows the attacker plans to follow your roll rather than finish the omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The attacker's hip staying glued to your shoulder rather than shifting away to finish the shoulder lock. When they plan to follow, their outside leg remains heavy on your shoulder and their weight shifts forward onto you. When they plan to finish the omoplata, they sit back, create distance from your shoulder, and apply rotational pressure. Recognizing this distinction before committing to the roll allows you to choose between explosive angled rolling or posturing up to escape the omoplata directly."

@@ -318,7 +318,7 @@
         }
       },
       {
-        "question": "In which direction should you drive pressure through the whizzer to most effectively flatten your opponent?",
+        "question": "Which direction should you drive whizzer pressure to flatten a deep half player?",
         "answer": "Drive pressure diagonally downward and toward the mat through the overhook while your hips sprawl backward. The force vector should push the bottom player's shoulder and upper body flat against the mat, collapsing the wedge they created with their head and shoulder under your hip. Driving purely downward without the backward component still leaves them room to rotate, while driving purely backward without downward pressure allows them to maintain elevation.",
         "answer_line": "Diagonal down and back pressure",
         "distractors": {
@@ -332,7 +332,7 @@
         }
       },
       {
-        "question": "Your opponent feels the whizzer locking and immediately tries to enter electric chair by establishing lockdown on your trapped leg - how do you respond?",
+        "question": "They chase electric chair by locking down your trapped leg as your whizzer sets: response?",
         "answer": "Immediately focus on preventing the lockdown before it locks. Straighten your trapped leg and drive your knee toward the mat to remove the bend they need to establish the figure-four lockdown. If you can prevent lockdown, the electric chair entry fails and you can continue with the whizzer pass. If the lockdown is already established, you must disengage the whizzer temporarily to break the lockdown by prying their feet apart, then re-establish the overhook once your leg is free.",
         "answer_line": "Straighten leg, knee to mat",
         "distractors": {
@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "If your initial whizzer attempt fails to flatten your opponent and they maintain hip elevation, what follow-up techniques should you chain?",
+        "question": "Your whizzer fails to flatten them and they keep hip elevation: what do you chain into?",
         "answer": "If the whizzer alone is insufficient, immediately add aggressive crossface pressure from your free arm to create a two-point flattening system. If they still maintain elevation, consider transitioning the whizzer grip to a kimura by reaching for their wrist, which creates a submission threat that forces them to release the underhook. Alternatively, abandon the whizzer approach entirely and switch to a backstep pass or standing pass that uses different mechanics to address the deep half position.",
         "answer_line": "Add crossface, then kimura grip",
         "distractors": {
@@ -464,7 +464,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first physical cue that tells you the top player is establishing a whizzer on your underhook?",
+        "question": "What is the first cue that the top player is whizzering your deep half underhook?",
         "answer": "The first cue is feeling the top player's arm threading over the top of your underhooking bicep with clamping pressure pulling downward. You will feel their forearm or upper arm pressing against the outside of your bicep or shoulder, and their elbow beginning to close against their own ribs. This is distinct from normal crossface pressure because it targets your arm specifically rather than your head. Recognizing this within the first second gives you the maximum window to counter.",
         "answer_line": "Arm threads over bicep, clamps",
         "distractors": {
@@ -478,7 +478,7 @@
         }
       },
       {
-        "question": "Your opponent has locked a tight whizzer and is beginning to sprawl - what is your immediate priority?",
+        "question": "They lock a tight whizzer and start to sprawl on your deep half: immediate priority?",
         "answer": "Your immediate priority is maintaining hip elevation. Bridge your hips toward the ceiling using your bottom leg and core strength. If your hips reach the mat, the positional battle is lost regardless of your other actions. Secondary priority is assessing whether you can establish lockdown before they straighten their trapped leg, which would transition the battle to the electric chair system. If neither hip elevation nor lockdown is achievable within 2-3 seconds, begin transitioning to an alternative guard.",
         "answer_line": "Bridge hips, keep elevation",
         "distractors": {
@@ -520,7 +520,7 @@
         }
       },
       {
-        "question": "What sweep becomes available when the top player overcommits their weight forward through the whizzer?",
+        "question": "Which sweep opens up when the top player overcommits forward through the whizzer?",
         "answer": "When the top player drives too aggressively forward through the whizzer without maintaining wide lateral base, the homer simpson sweep or a bridge-based reversal becomes available. Their overcommitted weight creates forward momentum that you can redirect by bridging and rolling underneath them. The whizzer itself helps this reversal because the opponent's arm is committed to the overhook and cannot post to prevent the roll. However, this only works when their free leg base is narrow, so you must feel for their weight distribution before committing to the bridge.",
         "answer_line": "Bridge roll, Homer Simpson sweep",
         "distractors": {

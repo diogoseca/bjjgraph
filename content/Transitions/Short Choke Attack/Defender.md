@@ -64,7 +64,7 @@ description: "How to defend against Short Choke Attack in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your attacker begins pushing your forehead to tilt your head and expose your throat - what is your defensive response?",
+      "name": "They push your forehead to tilt your head for the short choke — how do you defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Resist the forehead pressure by driving your chin down hard toward your chest while simultaneously turning your face toward the side the attacker is trying to access. Use your free hand to grip fight their forehead hand away or redirect it. If you cannot prevent the tilt, use hip movement to change the angle and deny the threading path from the new head position."
@@ -88,7 +88,7 @@ description: "How to defend against Short Choke Attack in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your attacker has threaded their arm under your chin but has not yet connected the figure-four grip - what should you do?",
+      "name": "Their arm is under your chin but the figure-four isn't locked yet — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use your free hand to grip their threading arm at the wrist and pull it down toward your chest, preventing the figure-four connection. Simultaneously turn your chin toward their threading arm to reduce the choking angle. This narrow window before grip completion is your last high-percentage defensive opportunity, so commit fully to stripping the arm rather than splitting focus between multiple defensive actions."
@@ -96,7 +96,7 @@ description: "How to defend against Short Choke Attack in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How does defending the Short Choke differ from defending a standard rear naked choke from back control?",
+      "name": "How does defending the short choke differ from defending an RNC from back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical difference is that you have only one free arm instead of two for defensive grip fighting. Standard RNC defense relies on two-on-one grip control on the choking arm, but from Gift Wrap Bottom your trapped arm cannot participate. This means every defensive action with your free arm must be more precise and efficiently timed, and you must supplement hand defense with chin positioning, hip angles, and shoulder shrugs that do not require arm involvement."

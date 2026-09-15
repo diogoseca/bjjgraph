@@ -58,7 +58,7 @@ description: "How to defend against Flying Kneebar in BJJ. Recognition, escape p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most effective defense against the flying kneebar and during which phase of the attack should it be applied?",
+      "name": "What is the best defense to the flying kneebar, and at what phase should you apply it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective defense is pulling your targeted leg back and changing stance during the pre-contact phase, before the attacker leaves the ground. This works because the flying kneebar requires your lead leg to be stationary and weight-bearing for the attacker to establish grip and complete rotation. By recognizing the setup cues (angle change, penetration step, hands reaching toward your ankle) and immediately withdrawing the target, you deny the entry entirely with zero risk. This defense has approximately 80-90% success rate compared to 30-40% for post-contact escapes."
@@ -66,7 +66,7 @@ description: "How to defend against Flying Kneebar in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "Why should you turn toward your trapped leg rather than away from it when caught in a flying kneebar?",
+      "name": "Caught in a flying kneebar, why turn toward the trapped leg rather than away from it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning toward the trapped leg (into the attacker) collapses the kneebar angle by bringing your knee joint out of the hyperextension plane. This rotation moves your knee into flexion rather than extension, directly counteracting the submission mechanics. Turning away from the trapped leg has the opposite effect - it opens the kneebar angle and can add dangerous rotational torque to the knee, potentially tearing the MCL or meniscus. Additionally, turning into the attacker positions you to face them and begin driving forward for top position recovery, while turning away leaves you in a worse positional situation."
@@ -82,7 +82,7 @@ description: "How to defend against Flying Kneebar in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "Your opponent has caught you in a flying kneebar and their hip is behind your knee but their legs are not yet locked together. What specific escape sequence gives you the highest chance of getting free?",
+      "name": "Flying kneebar: their hip is behind your knee but legs aren't locked yet — how do you escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In this 1-2 second window before full consolidation, immediately perform three actions simultaneously: (1) bend your trapped knee maximally by pulling your heel toward your buttock, (2) clasp both hands behind your own hamstring to create a structural barrier against extension, and (3) begin turning your body toward your trapped leg. The combination of knee bend and rotation collapses the kneebar angle while their loose leg configuration gives you freedom to turn. Continue rotating until you can face the attacker, then drive forward with your free leg to establish top pressure and begin extracting your trapped leg."
@@ -90,7 +90,7 @@ description: "How to defend against Flying Kneebar in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "What specific recognition cues differentiate a flying kneebar setup from a standard guard pull or single leg attempt?",
+      "name": "Which cues distinguish a flying kneebar setup from a guard pull or single leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The flying kneebar setup is distinguished by three unique cues: (1) the attacker positions at a 30-45 degree angle from your centerline rather than directly in front (guard pulls are typically frontal, single legs come from center or slight angle), (2) both hands reach toward your lead ankle simultaneously rather than grabbing collar/sleeve for guard pull or shooting level for single leg, and (3) the attacker's jump trajectory goes upward and laterally around your leg rather than downward for a guard pull or forward for a takedown. The angular positioning is the most reliable indicator - no other common technique requires that specific 30-45 degree setup angle combined with ankle-level hand positioning."

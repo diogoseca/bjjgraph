@@ -106,7 +106,7 @@ description: "Master the attacker's approach to standing up from Ashi Garami. St
     },
     {
       "@type": "Question",
-      "name": "When is standing up from ashi garami the optimal tactical choice versus continuing the leg lock exchange?",
+      "name": "When is standing up from ashi garami better than continuing the leg lock exchange?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standing up is optimal when the leg lock exchange has stalled with the opponent maintaining strong defensive positioning that prevents hierarchy advancement, when you recognize a bilateral threat where the opponent's counter-attacks are more dangerous than your offensive options, when you want to reset the engagement from a different entry angle, or when energy management considerations favor disengagement over continued ground exchange. It is not optimal when you have clear advancement pathways or finishing opportunities available."

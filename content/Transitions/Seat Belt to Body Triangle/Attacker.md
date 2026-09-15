@@ -90,7 +90,7 @@ description: "Master the attacker's guide to transitioning from seat belt to bod
     },
     {
       "@type": "Question",
-      "name": "Your crossing leg is halfway across the defender's torso when they grab it with both hands — what do you do?",
+      "name": "Your crossing leg is halfway across and they grab it with both hands; what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recognize that both of the defender's hands on your leg means zero hands defending their neck. You have two viable options: immediately attack the rear naked choke since the neck is undefended, which forces them to release your leg to defend; or use increased seat belt pressure and hip drive to pin their arms against their body while completing the threading with mechanical advantage. The defender grabbing your leg is actually an offensive opportunity if you recognize it quickly."

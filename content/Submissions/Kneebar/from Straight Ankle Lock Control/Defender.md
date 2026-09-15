@@ -82,7 +82,7 @@ description: "Defend the kneebar from straight ankle lock control. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available when the attacker has fully established the kneebar position with leg triangle and foot control?",
+      "name": "What defenses remain once the attacker has fully locked the kneebar with leg triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the position is fully established, your options narrow significantly. Maintain aggressive knee flexion as your primary defense while attempting to create rotation by turning your body toward the attacker. Use your free leg to push on their hips or hook behind their body for leverage. If the attacker begins applying progressive extension and your knee starts straightening despite your resistance, tap immediately rather than risking ligament damage trying to escape a fully locked position."

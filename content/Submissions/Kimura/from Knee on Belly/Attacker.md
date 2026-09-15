@@ -78,7 +78,7 @@ description: "Learn to attack the Kimura from Knee on Belly. Step-by-step guide 
     },
     {
       "@type": "Question",
-      "name": "Why does the Knee on Belly position provide superior leverage for the Kimura compared to side control?",
+      "name": "Why does knee on belly give better Kimura leverage than side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The elevated hip position from KOB places the attacker's center of gravity higher than the defender's shoulder plane, allowing gravity to assist both the grip capture and the rotational finish. The top player's weight drives downward through the figure-four rather than requiring horizontal force generation. This height advantage also makes it harder for the bottom player to bridge effectively because they must lift against the concentrated knee pressure."

@@ -82,7 +82,7 @@ description: "Defend the Darce Choke from Twister Side Control with recognition 
     },
     {
       "@type": "Question",
-      "name": "The attacker has threaded the arm under your chin but has not yet connected the figure-four grip - what defensive options remain?",
+      "name": "The Darce arm is under your chin but the grip isn't locked — what defenses remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this intermediate stage, pummel your trapped arm by rotating the shoulder and swimming the elbow through to create space between the forearm and your neck. Use your free hand to push against the threading arm's bicep to prevent it from reaching the far side. If neither succeeds, turning away to expose your back is a last resort that denies the choke finish at the cost of positional concession. Act immediately, as the window closes rapidly once the arm is threaded."
@@ -90,7 +90,7 @@ description: "Defend the Darce Choke from Twister Side Control with recognition 
     },
     {
       "@type": "Question",
-      "name": "How should you prioritize defensive concerns when facing both Darce and Twister threats simultaneously from Twister Side Control?",
+      "name": "Under Twister side control, how do you prioritize defending the Darce and the Twister?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the most immediate threat first. If the attacker is actively threading the choking arm, defend the neck with chin tuck and elbow clamp before worrying about spinal rotation. If the attacker is pursuing the Twister, protect the spine first. The key insight is that defending the Darce (keeping shoulders square) and defending the Twister (preventing spinal rotation) require different body positions, so you must correctly identify which threat is active and respond accordingly rather than trying to defend both simultaneously."

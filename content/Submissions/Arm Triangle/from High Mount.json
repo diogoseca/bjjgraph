@@ -77,7 +77,6 @@
     "Anaconda Choke",
     "Arm in Guillotine",
     "Arm Triangle from Kesa Gatame",
-    "Arm Triangle from Scarf Hold Position",
     "Armbar",
     "Ezekiel Choke"
   ],
@@ -309,7 +308,7 @@
         }
       },
       {
-        "question": "Your opponent tucks their elbows tight to defend armbar attempts from high mount - how do you create the arm triangle setup?",
+        "question": "Your opponent tucks their elbows in high mount — how do you set up the arm triangle?",
         "answer": "When the opponent tucks their elbows defensively, use cross-face pressure to push their near arm across their own neck. Slide your forearm across their jaw line while driving your weight forward, steering the arm past their centerline. The tucked elbow position actually assists this push because the arm is already close to the neck. Once the arm crosses their centerline, immediately pin it with chest pressure before they can retract it.",
         "safety_critical": false,
         "answer_line": "Cross-face, push arm to neck",
@@ -339,7 +338,7 @@
         }
       },
       {
-        "question": "You have locked the head-and-arm grip from high mount but the opponent bridges explosively to prevent you from stepping over - what adjustment do you make?",
+        "question": "Head-and-arm locked from high mount, they bridge before your step-over — what do you adjust?",
         "answer": "Post your far-side hand wide on the mat and drop your base low to absorb the bridge rather than fighting it rigidly. If the bridge is strong enough to roll you, maintain the head-and-arm grip through the transition and finish from bottom position using a guard arm triangle. Do not release the grip to rebase. If the bridge fails, immediately step over and walk to the perpendicular finishing angle before the opponent can generate another explosive bridge attempt.",
         "safety_critical": false,
         "answer_line": "Post wide, drop base, keep grip",
@@ -369,7 +368,7 @@
         }
       },
       {
-        "question": "During the grip transition from high mount to arm triangle, the opponent starts pulling their trapped arm free - what is your immediate response?",
+        "question": "Their trapped arm starts slipping out during the high mount arm triangle switch — what now?",
         "answer": "If the arm is sliding free during the grip transition, do not chase the arm triangle from a compromised position. Instead, immediately drive your chest weight back down onto the arm to re-pin it, or release the transition entirely and return to consolidated high mount control. From high mount you can re-isolate the arm using cross-face pressure once the position is stabilized. Forcing a grip transition on a partially freed arm results in a loose, ineffective choke that wastes energy and position.",
         "safety_critical": false,
         "answer_line": "Re-pin the arm, rebuild mount",
@@ -384,7 +383,7 @@
         }
       },
       {
-        "question": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no escape?",
+        "question": "What shows the arm triangle from high mount is locked and escape is nearly impossible?",
         "answer": "The choke is properly locked when you feel the opponent's trapped shoulder bone pressing firmly into their neck with no space between your chest and their body. Their face may begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated, and their free arm framing loses force. If they cannot create any meaningful frame with their free hand and cannot bridge effectively to disrupt your angle, they have passed the point of no escape and the finish is imminent.",
         "safety_critical": false,
         "answer_line": "No space, weak frame, color change",
@@ -414,7 +413,7 @@
         }
       },
       {
-        "question": "Your opponent creates a strong frame with their free arm against your shoulder to prevent chest compression at the finishing angle - how do you eliminate this defense?",
+        "question": "Arm triangle: they frame the free arm on your shoulder at the finish angle — how do you clear it?",
         "answer": "Swim your free hand inside their far-side elbow to strip the frame from underneath rather than trying to muscle through it from above. Simultaneously walk your hips further toward their head, which collapses the space their frame creates and reduces their mechanical advantage. As you advance past the frame, your chest weight makes the frame progressively weaker. If the frame is extremely strong, use your head pressure on the far side to eliminate the space the frame is trying to create.",
         "safety_critical": false,
         "answer_line": "Swim inside elbow, walk hips up",
@@ -429,7 +428,7 @@
         }
       },
       {
-        "question": "How does the arm triangle from high mount integrate into systematic mount attack chains for competition finishing?",
+        "question": "How does the arm triangle fit into a mount attack chain for finishing in competition?",
         "answer": "The arm triangle operates as part of a cyclical attack chain from high mount. Armbar threats force the opponent to retract and tuck their arms defensively, which positions the arms near the neck for the arm triangle push. Choke threats force the opponent to extend arms and create frames, exposing armbars. Each defense to one attack creates the setup for the next. In competition, patient practitioners use this cycle to progressively exhaust defensive options until the arm triangle or another submission in the chain succeeds.",
         "safety_critical": false,
         "answer_line": "Each defense opens the next attack",
@@ -607,7 +606,7 @@
         }
       },
       {
-        "question": "The attacker has locked the head-and-arm grip but has not yet stepped over to the finishing angle - what escape options remain?",
+        "question": "Head-and-arm locked from high mount but they haven't stepped over — what escapes remain?",
         "answer": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees, which prevents them from establishing the perpendicular finishing angle. Simultaneously frame against their hips with your free arm to prevent them from stepping over. If you can face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge explosively toward the trapped-arm side during their step-over attempt to recover guard.",
         "safety_critical": false,
         "answer_line": "Turn in, to knees, frame hips",

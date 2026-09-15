@@ -56,7 +56,7 @@ description: "Overcome Old School Sweep defense in BJJ half guard. Bottom player
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that your Old School Sweep is being successfully defended and you should transition to an alternative attack?",
+      "name": "How do you know your old school sweep is fully defended and it is time to switch attacks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary indicators are: a deep whizzer clamped tight against your underhooking arm limiting your pulling leverage, heavy crossface pressure turning your head away from the sweep direction, and a wide base with the free leg posted at an angle. When all three defensive elements are established, continuing the sweep will fail. The key is recognizing this within two to three seconds of feeling the defense lock in, rather than burning energy on a doomed attempt."
@@ -64,7 +64,7 @@ description: "Overcome Old School Sweep defense in BJJ half guard. Bottom player
     },
     {
       "@type": "Question",
-      "name": "When the top player sprawls to defend your sweep, what alternative attacks become available from the space created?",
+      "name": "When the top player sprawls to defend your old school sweep, what attack does the space open?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sprawl creates space underneath the top player's hips that enables deep half guard entry by releasing the underhook and diving your head underneath their hips. It also widens the distance between their legs, potentially opening Electric Chair entries if you can redirect the lockdown force to split their base. Additionally, the sprawl can shift their weight distribution forward, creating a different sweeping angle if you time a re-attempt during their recovery."
@@ -80,7 +80,7 @@ description: "Overcome Old School Sweep defense in BJJ half guard. Bottom player
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between forcing a defended sweep and flowing to an alternative attack?",
+      "name": "What is the key difference between forcing a defended sweep and flowing to another attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forcing a defended sweep burns energy against an established structural defense, telegraphs your intentions, and progressively degrades your offensive position as the top player capitalizes on your predictability to advance their passing pressure. Flowing to an alternative attack uses the opponent's defensive commitments against them, maintaining offensive initiative while exploiting the specific vulnerabilities each defensive element creates. The flow approach conserves energy and keeps the opponent reacting to your transitions."

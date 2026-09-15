@@ -56,7 +56,7 @@ description: "How to defend against Triangle from Guard in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is explosive posture recovery the wrong response when you feel the bottom player's outside leg begin lifting from your far shoulder?",
+      "name": "Why is explosive posture recovery wrong when their outside leg lifts off your far shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive posture recovery creates the exact space and momentum the bottom player needs to swing the leg across your face and into triangle position. The triangle entry from Mission Control is specifically designed to exploit postural recovery attempts. Your upward driving movement carries your head into the closing triangle, and the space you create by extending your spine allows the leg to travel across your face unobstructed. The correct response is forward stacking pressure that collapses the available space rather than expanding it."
@@ -64,7 +64,7 @@ description: "How to defend against Triangle from Guard in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What are the three defensive timelines you must manage simultaneously when the triangle entry begins from Mission Control?",
+      "name": "Which three defensive timelines must you manage as the triangle entry starts from Mission Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three defensive timelines are: first, prevent the leg from crossing the face entirely by driving forward with stacking pressure and turning the head; second, if the leg crosses, prevent the figure-four lock by maintaining shoulder width and head position that creates structural resistance against the closing legs; third, if the lock establishes, prevent the angle cut by controlling the bottom player's hips and squaring your alignment to their centerline. Each timeline has progressively worse odds of escape, making the first timeline the highest priority defensive action."
@@ -72,7 +72,7 @@ description: "How to defend against Triangle from Guard in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "The bottom player has locked the triangle but has not yet cut the angle. What is your highest-priority defensive action and why?",
+      "name": "They locked the triangle but haven't cut the angle: what is your top defensive action and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is preventing the angle cut by immediately controlling the bottom player's far hip with your free hand while driving your hips forward to square your centerline to theirs. The angle is what converts the triangle from a positional squeeze into an arterial blood choke. Without the perpendicular angle, the triangle applies uncomfortable pressure but cannot achieve bilateral carotid compression needed for unconsciousness. Denying the angle buys substantial time to work systematic escape sequences from inside a locked but ineffective triangle configuration."
@@ -80,7 +80,7 @@ description: "How to defend against Triangle from Guard in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "You successfully extract your trapped arm during the triangle entry. What position should you expect to reach, and what is your immediate priority?",
+      "name": "You free your trapped arm during the triangle entry: what position results and what comes first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the arm extracted, you should reach closed guard position since the shoulder isolation that defines Mission Control is broken. Your immediate priority is posture recovery, establishing strong grips on the bottom player's hips or biceps, and beginning your guard opening sequence. Do not celebrate the escape by relaxing, as the bottom player will immediately attempt to re-establish rubber guard control or transition to alternative attacks. Maintain forward pressure and grip fighting to prevent them from pulling you back into Mission Control."
@@ -88,7 +88,7 @@ description: "How to defend against Triangle from Guard in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a genuine escape window and a baited opening designed to trigger your triangle entry?",
+      "name": "How do you tell a real escape window from bait meant to trigger the triangle from Mission Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A genuine escape window occurs when the bottom player's hip elevation drops, their grip control weakens simultaneously on both head and arm, and their outside leg settles into a static position rather than tensing for movement. A baited opening typically shows only reduced head pulling pressure while hip elevation remains high, the outside leg begins subtle repositioning or tensing for the swing, and the trapped arm control actually tightens rather than relaxing. The key tell is the outside leg: if it is coiling or shifting position while head control lightens, the bottom player is setting up the triangle entry, not losing control."

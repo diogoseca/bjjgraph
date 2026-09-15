@@ -84,7 +84,7 @@ description: "Learn to attack with the Bow and Arrow Choke from Seat Belt back c
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts fighting your collar grip with both hands before you can get depth - what adjustment prevents them from stripping it?",
+      "name": "From seatbelt back control, they fight your collar with both hands — how do you get your depth?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent commits both hands to fighting your collar grip, they are no longer defending the RNC. Immediately switch to a rear naked choke attempt or short choke, forcing them to release your collar hand to defend their neck. Once their hands move to neck defense, quickly re-acquire the collar grip with the depth you need. This grip-switch creates a recurring dilemma where defending one threat opens the other. You can also use your free hand to peel their defensive grip off your collar hand momentarily while driving deeper in one smooth motion."
@@ -100,7 +100,7 @@ description: "Learn to attack with the Bow and Arrow Choke from Seat Belt back c
     },
     {
       "@type": "Question",
-      "name": "At what point during the Bow and Arrow sequence does the choke become effectively inescapable for the defender?",
+      "name": "When does the bow and arrow from seatbelt back control become effectively inescapable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke becomes nearly inescapable once three conditions are met simultaneously: the collar grip is deep behind the neck with the lapel taut across the throat, the pants grip is secured at the knee preventing rotation, and the top leg is hooked behind the opponent's thigh with initial extension begun. Once all three control points are locked and extension begins, the defender's available defensive responses drop dramatically because they cannot address the collar, pants grip, and leg hook simultaneously. Before this triple-lock is achieved, the defender still has realistic escape windows."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Bow and Arrow Choke from Seat Belt back c
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip if the collar starts riding up over the opponent's chin during extension?",
+      "name": "How do you adjust if the collar rides up over their chin during the extension?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the collar rides over the chin, do not jerk it down forcefully as this risks jaw and TMJ injury. Instead, slightly reduce extension pressure, use your collar-grip hand to reposition the lapel lower on the neck by pulling it slightly downward and across before re-extending. You can also increase the downward angle of your pull by dropping your elbow closer to the mat. In training, if the collar is firmly lodged on the chin, release and reset the grip rather than forcing through a jaw crush. In competition, maintaining steady pressure will often cause the chin to slip as the opponent fatigues."

@@ -56,7 +56,7 @@ description: "Defend against posture recovery attempts from Chill Dog bottom. Ma
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that tells you the top player is attempting a posture transition rather than a back take?",
+      "name": "Chill Dog bottom: earliest cue that the top player wants a posture transition, not a back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the shift in grip focus from your neck and upper back (which targets seatbelt and harness control for back takes) to your hips and armpits (which targets underhook leverage for the posture transition). This grip change is the clearest signal that their intention has shifted from back control to positional transition. You may also feel the pressure change from sustained downward compression to intermittent upward lifting force."
@@ -72,7 +72,7 @@ description: "Defend against posture recovery attempts from Chill Dog bottom. Ma
     },
     {
       "@type": "Question",
-      "name": "The top player has established a deep underhook under your near hip and is beginning to lift — what is your best counter option?",
+      "name": "Chill Dog bottom: they get a deep near-hip underhook and start lifting. Best counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your best option is the barrel roll back take, but only if the top player has committed both arms to the lift. If they have only one underhook, the roll is risky because they can post with their free hand. With both arms committed, wait until you feel your weight lifting off the mat, then tuck your near shoulder and rotate your hips toward the near side. The top player's own lifting momentum helps propel the rotation. If the timing window has passed, immediately transition to catching half guard with your near leg to establish a strong defensive guard position."
@@ -80,7 +80,7 @@ description: "Defend against posture recovery attempts from Chill Dog bottom. Ma
     },
     {
       "@type": "Question",
-      "name": "Why is closed guard bottom actually a favorable recovery position after a successful posture transition by the top player?",
+      "name": "After the top player's posture transition, why is closed guard bottom a favorable position for you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Closed guard bottom is an offensive position where you control the opponent's hips with your legs, can break their posture with combined arm and leg pressure, and have access to numerous sweeps and submissions. Compared to Chill Dog bottom, which is purely defensive with no submission threats and limited advancement options, closed guard bottom gives you the initiative to attack. The key is that you must immediately establish offensive grips and break posture before the top player settles into a strong passing base."

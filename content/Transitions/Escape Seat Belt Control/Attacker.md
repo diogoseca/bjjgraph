@@ -82,7 +82,7 @@ description: "Master the systematic seat belt escape from back control. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent feels your grip fighting and immediately tightens their seat belt while driving chest pressure harder - how do you adjust?",
+      "name": "They tighten the seat belt and drive harder as you grip fight: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Add hip movement to complement the grip fighting rather than relying on hand strength alone. Execute small hip escapes while maintaining the two-on-one grip to weaken the seat belt from multiple angles simultaneously. The combination of grip pulling and hip angle creation is far more effective than either in isolation. If the opponent tightens dramatically, wait for their next weight shift or submission attempt, which will temporarily weaken their grip structure and create a higher-percentage escape window."
@@ -106,7 +106,7 @@ description: "Master the systematic seat belt escape from back control. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your grip break succeeds but you cannot clear the bottom hook - what alternative path should you take?",
+      "name": "Your grip break works but you cannot clear the bottom hook: what path do you take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the seat belt broken but the bottom hook still engaged, shift to a lateral escape by sliding your hips down toward the hook side and working to face the opponent from a side-lying position. Alternatively, execute a back door escape by sliding your shoulder blades down past the opponent's hips while their upper body control is compromised. The broken seat belt provides a limited window before the opponent re-establishes grips, so committing to an alternative rather than continuing to fight the hook is essential."
@@ -114,7 +114,7 @@ description: "Master the systematic seat belt escape from back control. Step-by-
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between this escape and the back door escape in terms of when each is optimal?",
+      "name": "When is the seat belt escape optimal instead of the back door escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The seat belt escape is optimal when the opponent's grip is the primary control mechanism and their hooks are manageable or partially cleared. It works best against opponents who rely heavily on the harness structure. The back door escape is optimal when the opponent's hooks are deep but their grip is loose, allowing lateral sliding movement. Choose the seat belt escape when you can effectively grip fight but cannot move your hips freely, and the back door escape when your hips have mobility but the opponent's grip is too strong for direct breaking."

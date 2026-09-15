@@ -72,7 +72,7 @@ description: "Master defending against the Cross Body to Side Control transition
     },
     {
       "@type": "Question",
-      "name": "Why is recovering half guard preferable to remaining in turtle when the flatten is partially successful?",
+      "name": "Why recover half guard rather than stay in turtle once the flatten partly succeeds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the flatten has partially succeeded and your turtle structure is compromised, remaining in a degraded turtle position means you have neither the defensive advantages of a strong turtle nor the offensive options of a guard position. Half guard, while not ideal, provides established defensive frames, sweep opportunities, and guard recovery pathways that a collapsed turtle does not. The transition from compromised turtle to half guard preserves your options."

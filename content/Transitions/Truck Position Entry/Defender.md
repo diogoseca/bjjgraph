@@ -56,7 +56,7 @@ description: "How to defend against Truck Position Entry in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three elements the attacker needs to complete the Truck Position Entry, and how can you disrupt each one?",
+      "name": "What three elements does the truck entry require, and how do you disrupt each?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The attacker needs a controlled descent, a threaded leg hook, and a completed roll. Disrupt the descent by maintaining standing position or controlling your own drop to a squared, flat turtle. Disrupt the hook by keeping hips flat with elbows tucked or stripping the hook with your hands before it crosses your centerline. Disrupt the roll by sitting through to face the attacker or driving your hips flat to the mat to create friction that prevents the lateral rolling motion."
@@ -64,7 +64,7 @@ description: "How to defend against Truck Position Entry in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker's shin beginning to slide under your hip as your knees hit the mat. What is your immediate response?",
+      "name": "You feel their shin sliding under your hip as your knees hit the mat—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use both hands to grab the attacker's hooking leg and push it away from your centerline before it can cross to the far side. Simultaneously drive your hips flat to the mat and squeeze your knees together to close the channel the hook is threading through. Accept that your neck is momentarily less defended and rely on chin tuck and shoulder positioning for neck protection during this critical moment. If the hook clears before you can strip it, switch to sit-through defense."
@@ -72,7 +72,7 @@ description: "How to defend against Truck Position Entry in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Why is an uncontrolled descent from standing particularly dangerous against an attacker who knows the Truck entry?",
+      "name": "Why is an uncontrolled descent so dangerous against someone hunting the truck entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "An uncontrolled descent allows the attacker to guide the angle and speed of your fall, directing you onto the side where their hook threading angle is optimal. During an uncontrolled drop, your defensive structure is not yet formed: elbows are not tucked, hips are not squared, and you have no conscious control over your landing position. This gives the attacker the maximum window to thread the hook before you can establish any defensive shell. A controlled descent on your own terms denies the attacker this angular advantage."
@@ -80,7 +80,7 @@ description: "How to defend against Truck Position Entry in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "When should you prioritize stripping the leg hook versus maintaining neck defense during the Truck entry attempt?",
+      "name": "During a truck entry attempt, when do you strip the hook instead of defending your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize stripping the leg hook when you feel it actively threading under your hip during the descent. The Truck position is arguably more dangerous than standing back control because it opens multiple submission paths including the Twister spine lock. Use structural neck defense through chin tuck and shoulder shrugging rather than hand-based defense, which frees your hands to address the hook. Once the hook is stripped or prevented, you can return hand attention to neck defense from turtle."
@@ -88,7 +88,7 @@ description: "How to defend against Truck Position Entry in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your attacker is driving you down at an angle, clearly setting up the Truck entry. You cannot stay standing. What is the optimal defensive descent strategy?",
+      "name": "They're driving you down at an angle for the truck and you can't stay up—how do you descend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you must go to ground, execute a deliberate drop in the opposite direction from where the attacker is angling you. If they are pushing you to the right for a right-side hook, drop your weight to the left and square your hips. Tuck your elbows immediately on landing and drive your hips flat. This forces the attacker to either abandon the Truck entry and follow to standard back control, or attempt the hook on the wrong angle where their leg position is not optimal. Controlling the direction of your descent is more important than the speed."

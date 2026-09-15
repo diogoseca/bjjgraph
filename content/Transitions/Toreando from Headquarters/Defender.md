@@ -56,7 +56,7 @@ description: "Complete defensive guide against the Toreando pass from Headquarte
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is setting up a Toreando rather than a knee cut from Headquarters?",
+      "name": "What early cues show a toreando rather than a knee cut is coming from headquarters?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key differentiator is the grip transition from single-leg headquarters control to bilateral grips on both legs at the knee line. The passer's weight shifts upward and backward to create upright posture for lateral movement rather than driving forward for a knee cut. You will feel downward pressure on both legs simultaneously as the passer attempts to flatten your hips, and their head lifts away from your centerline rather than driving across it. A knee cut setup drives the passer's shoulder forward into crossface position, while a toreando setup pulls the passer's upper body away."
@@ -64,7 +64,7 @@ description: "Complete defensive guide against the Toreando pass from Headquarte
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already gripped both your legs at the knee line and begins pushing them laterally - what is your immediate defensive response?",
+      "name": "They have both your knees gripped and push laterally — your immediate defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip escape toward the passing direction, not away from it, while inserting your near knee between your bodies to intercept the passer's lateral path. Your hips must follow the passer's movement to close the gap and catch their trailing leg for half guard. Simultaneously, fight to break or weaken at least one grip by cupping the passer's wrist and peeling their hand off your knee. If you can break the near-side grip, retract that leg immediately and establish a knee shield to arrest the passing motion."
@@ -80,7 +80,7 @@ description: "Complete defensive guide against the Toreando pass from Headquarte
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defense if the Toreando succeeds and the passer has cleared your legs but has not yet established crossface?",
+      "name": "They cleared your legs with the toreando but have no crossface yet — how do you defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately frame with your near forearm across the passer's neck and shoulder to prevent the crossface from being established, while simultaneously hip escaping to create enough space to insert your near knee for guard recovery. This narrow window between leg clearance and crossface establishment is your last realistic opportunity to prevent full side control consolidation. If you focus only on your legs at this point, the crossface will pin you flat and make all subsequent recovery attempts dramatically harder. Upper body frame defense takes absolute priority over leg recovery in this critical moment."

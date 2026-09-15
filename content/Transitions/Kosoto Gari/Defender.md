@@ -72,7 +72,7 @@ description: "How to defend against Kosoto Gari in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a deep collar grip and you feel the initial forward push - what is your optimal defensive sequence?",
+      "name": "Your opponent has a deep collar grip and pushes forward for Kosoto Gari — how do you defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your optimal sequence is to first resist the forward push with core engagement rather than leaning back, keeping your weight centered on the balls of both feet. Immediately initiate a two-on-one grip break on the collar grip using your same-side hand to peel their fingers while your opposite hand controls their wrist. Simultaneously circle your feet away from the direction of the pull to deny the 45-degree angle. If the grip break succeeds, re-engage from neutral. If it fails, prepare to either step back and defend the chain or drive forward aggressively to stuff the attack before the sweep coordinates."
@@ -88,7 +88,7 @@ description: "How to defend against Kosoto Gari in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "How should your defensive strategy change when facing an opponent who chains Kosoto Gari with Kouchi Gari?",
+      "name": "How should your defense change against an opponent chaining Kosoto Gari with Kouchi Gari?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a combination fighter, the simple step-back defense becomes dangerous because they anticipate the weight transfer to your opposite leg. Instead, prioritize grip fighting to deny the collar control needed to initiate either technique. If grips are established, use forward driving pressure rather than backward stepping, as this disrupts both the Kosoto Gari setup and eliminates the retreating step that triggers Kouchi Gari. Alternatively, maintain constant circular movement that prevents your weight from settling on either leg long enough to be targeted. The defensive priority shifts from reacting to the sweep to proactively denying the conditions both techniques require."

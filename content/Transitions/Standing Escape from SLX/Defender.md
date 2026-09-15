@@ -64,7 +64,7 @@ description: "Defend against the Standing Escape from SLX by maintaining hooks, 
     },
     {
       "@type": "Question",
-      "name": "You feel the top player successfully clear your top hip hook - should you immediately try to replace it or transition to a different position?",
+      "name": "They clear your top SLX hook: do you replace it or transition to another position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This depends on the speed and commitment of their clearing. If they cleared it casually and have not yet addressed your bottom ankle wrap, immediately replace the top hook from a different angle while their attention is on celebrating the clear. However, if they cleared it decisively and are already reaching for your bottom hook, transition proactively to Ashi Garami or inside Ashi by redirecting your free leg into a leg entanglement configuration. Stubbornly fighting for a single hook re-insertion against a committed escape often results in losing everything."
@@ -80,7 +80,7 @@ description: "Defend against the Standing Escape from SLX by maintaining hooks, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has cleared both hooks and is beginning to step backward - what is your last-resort defense before they fully disengage?",
+      "name": "Both your SLX hooks are cleared and they're stepping back. What's your last-resort defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately sit up explosively and grab the nearest part of their retreating leg - ankle, heel, pants cuff, or shin. This arrests the extraction and creates a connection point you can use to pull yourself toward them or re-insert hooks from close range. Simultaneously, use your free leg to chase their retreating leg by inserting a butterfly hook or reaching for their far ankle. The key is speed - every fraction of a second they step further away reduces your ability to reconnect. If you cannot reach their leg, transition immediately to seated guard and prepare to re-engage from there."

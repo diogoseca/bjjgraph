@@ -786,7 +786,7 @@
       "answer_line": "Win via position, not aggression"
     },
     {
-      "question": "Why does maintaining connection points matter more than grip strength in holding any leg entanglement?",
+      "question": "Why do connection points matter more than grip strength for holding a leg entanglement?",
       "answer": "A leg entanglement is held by a system of contact points, the inside leg hook, the outside hook or foot bind, hip-to-hip pressure, and upper-body control, working together rather than by any single strong grip. When one connection is briefly abandoned during a transition between variants, the opponent gets the gap needed to extract the leg or reverse the position entirely. This is why sound methodology advances position incrementally, giving up one contact point only as the next is secured, so control is never fully released. Explosive movement that sacrifices multiple connections at once is the most common way entanglements collapse, even when the finishing mechanics were otherwise correct.",
       "answer_line": "A system of points, not one grip",
       "distractors": {
@@ -830,7 +830,7 @@
   ],
   "flashcards_position": [
     {
-      "question": "What configuration defines an Ashi Garami leg entanglement and distinguishes it from ordinary guard positions?",
+      "question": "What configuration defines ashi garami and separates it from ordinary guard positions?",
       "answer": "Ashi Garami exists when your legs entangle and isolate one of the opponent's legs against your hip, controlling its knee line and hip together. Unlike top-bottom guard hierarchies, both players occupy a roughly horizontal plane where neither has a decisive gravitational advantage, and both can potentially attack the isolated leg. The entanglement pins the trapped leg's rotation and extension, which is what converts a mere leg grab into a controlling position. This shared reciprocal structure, rather than positional dominance from above, is what makes it a leg-entanglement family rather than a conventional guard.",
       "distractors": {
         "plausible": [
@@ -844,7 +844,7 @@
       "answer_line": "Legs entangle to trap one leg"
     },
     {
-      "question": "Why is control of the inside space between the two players' hips considered the master variable in every Ashi Garami exchange?",
+      "question": "Why is inside space between the hips the master variable in every ashi garami exchange?",
       "answer": "Inside space is the master variable because whoever fills it with a knee or hip controls the trapped leg's rotation and blocks the opponent's reversal. Inside space refers to the gap between the entangling player's hip and the trapped leg, and occupying it dictates the mechanics of the position. Controlling it prevents the trapped leg from rotating free and blocks the opponent from establishing their own inside position to reverse the entanglement. Because advancement up the hierarchy from Outside Ashi toward Saddle is essentially a series of inside-space gains, the player who owns that pocket determines who can advance and who must defend. This is why both players fight for the inside line before either commits to a submission or an extraction.",
       "distractors": {
         "plausible": [
@@ -872,7 +872,7 @@
       }
     },
     {
-      "question": "What is the positional hierarchy in Ashi Garami and what does climbing it actually change mechanically?",
+      "question": "What is the ashi garami hierarchy, and what does climbing it change mechanically?",
       "answer": "The hierarchy runs Outside Ashi-Garami, Inside Ashi-Garami, Cross Ashi-Garami, then Saddle, with each step adding inside-space and knee-line control. Climbing the hierarchy progressively rotates the entangling player toward the inside of the leg, which both tightens control and increases the natural exposure of the opponent's heel. Higher positions raise finishing percentage precisely because they combine tighter isolation of the leg with easier access to the heel and knee. The hierarchy is therefore not arbitrary ranking but a map of increasing mechanical leverage over the same trapped limb.",
       "distractors": {
         "plausible": [
@@ -886,7 +886,7 @@
       "answer_line": "Tighter knee line, more heel shown"
     },
     {
-      "question": "Why are many Ashi Garami variations described as bilateral or reciprocal threat positions rather than one-directional control?",
+      "question": "Why are many ashi garami variations reciprocal threats rather than one-way control?",
       "answer": "In configurations like 50-50 and other symmetrical entanglements, each player has entangled a leg of the other, so both sit inside a mirror-image structure with comparable access to a submission. This bilateral quality means an aggressive action by one player often simultaneously exposes their own leg to counterattack. Positional quality within the hierarchy, rather than who initiated, decides who is actually winning the exchange, because the player with superior inside space and heel access can attack while the other must defend. This reciprocity is why leg entanglements reward patience and position over speed and force from either side.",
       "answer_line": "Quality, not who struck first",
       "distractors": {
@@ -900,7 +900,7 @@
       }
     },
     {
-      "question": "Why does maintaining connection points matter more than raw pressure for stability in a leg entanglement?",
+      "question": "Why do connection points matter more than raw pressure for leg entanglement stability?",
       "answer": "Connection points are the specific contacts that hold the structure together, principally the inside leg hook, the pinch of the knees, hip-to-leg pressure, and any upper-body grip on the trapped limb. Because Ashi Garami operates in a horizontal plane without a heavy top player driving weight down, control comes from these mechanical hooks rather than from gravity or crushing pressure. If any connection point is lost during a transition, the trapped leg gains rotational or extension freedom and the entanglement can unravel for either player. This is why both players prioritize preserving connections through every angle change, treating the position as a linkage that fails at its weakest joint.",
       "answer_line": "Hooks and grips hold it, not weight",
       "distractors": {
@@ -928,7 +928,7 @@
       }
     },
     {
-      "question": "What are the natural entry pathways into Ashi Garami and why do they cluster around hook-based guards?",
+      "question": "What are the natural entries to ashi garami, and why do they cluster in hook guards?",
       "answer": "Ashi Garami is most commonly reached from hook-based guards such as Single Leg X-Guard, De La Riva, Reverse De La Riva, K-Guard, and X-Guard, because those positions already establish a leg hook and partial control of the opponent's leg. Since the defining feature of the entanglement is isolating a leg between one's own, a guard that already hooks and elevates a leg only needs to complete the trap and secure the inside space to arrive at Outside Ashi. These pathways also share the leg-drag and inside-hook mechanics that let a player transition without surrendering connection to the target leg. This is why the leg-lock game is tightly coupled to modern hook guards rather than to classical closed or half guard.",
       "answer_line": "From hook guards: SLX, DLR, K, X",
       "distractors": {

@@ -56,7 +56,7 @@ description: "How to defend against Closed Guard to Omoplata in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an omoplata is being set up from closed guard, and what is your immediate response?",
+      "name": "What is the earliest cue an omoplata is coming from closed guard, and your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the opponent establish an overhook or deep sleeve grip on one arm while simultaneously hip escaping to create angle. Your immediate response should be to withdraw the targeted arm by pulling your elbow sharply back to your hip while driving your chest upright to re-establish posture. Addressing this at the grip and angle phase prevents the entire omoplata sequence from developing. If you wait until you feel the leg swinging, you have already missed the optimal defensive window."
@@ -72,7 +72,7 @@ description: "How to defend against Closed Guard to Omoplata in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has threaded their leg over your shoulder and is beginning to sit up - is it better to roll forward or attempt to stack at this point?",
+      "name": "Their leg is over your shoulder and they start sitting up: stack or roll forward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, the decision depends on how far they have rotated. If they are just beginning to sit up and their chest is not yet perpendicular to your spine, the stack is still viable - drive hard forward, pin their shoulders flat, and work to extract your arm. If they have already achieved the perpendicular chest position with their weight over your back, the stack window has closed and the forward roll becomes the better option. Roll over your trapped shoulder explosively and prepare to turn immediately to prevent them from taking your back."
@@ -80,7 +80,7 @@ description: "How to defend against Closed Guard to Omoplata in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the attacker from transitioning to back control when you execute the forward roll escape?",
+      "name": "Rolling forward out of the omoplata, how do you stop them taking your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key is rolling speed and immediate directional change upon landing. Roll explosively over the trapped shoulder toward the opponent's feet rather than straight forward. As soon as you land, immediately post your far hand on the mat and rotate your hips to face the opponent. Your first priority after the roll is getting your back off the mat and establishing a guard position facing them. If you pause on your belly or roll slowly, the attacker will follow with hooks and seatbelt grip to secure back control. The transition from roll to facing position must be one continuous motion."
@@ -88,7 +88,7 @@ description: "How to defend against Closed Guard to Omoplata in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "What defensive grip should you use as an emergency measure when fully caught in omoplata, and why is it only a temporary solution?",
+      "name": "What emergency grip do you use when caught in omoplata, and why is it only temporary?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Clasp your hands together in a gable grip or grab your own belt or gi pants to prevent the attacker from extending your arm behind your back. This prevents the finish by denying them the arm extension needed for shoulder rotation. However, it is only temporary because the attacker can shift to sweeping you from this position, use their hands to systematically break your grip, or transition to alternative attacks like wrist locks on your clasped hands. While gripping, you must immediately begin working a real escape - either the stack or forward roll - rather than simply holding and hoping."

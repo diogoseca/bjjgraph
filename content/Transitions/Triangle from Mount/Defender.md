@@ -56,7 +56,7 @@ description: "How to defend against Triangle from Mount in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point at which you can defend the Triangle from Mount, and why is early defense critical?",
+      "name": "When is the earliest point to defend the mounted triangle, and why does early defense matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest and most effective defensive point is during the arm isolation phase, before the attacker establishes the arm-in/arm-out configuration. At this stage, you can prevent the triangle entirely by keeping both elbows tight to your ribs, using two-on-one grip fighting to strip wrist control, and maintaining symmetrical arm positioning. Early defense is critical because each subsequent phase—leg swing, triangle lock, angle adjustment—becomes progressively harder to defend. Once the triangle is fully locked from mount, your escape percentage drops dramatically compared to preventing the setup."
@@ -64,7 +64,7 @@ description: "How to defend against Triangle from Mount in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has pinned your right wrist to your chest and is beginning to shift weight forward. What should you do immediately?",
+      "name": "They pin your right wrist to your chest and shift weight forward in mount: what do you do at once?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use your free left hand to grip your right wrist or the attacker's controlling hand and execute a two-on-one grip break, pulling your right arm free while turning your body slightly toward the right side. Simultaneously tighten both elbows to your ribs to deny the arm-in/arm-out separation. If you cannot break the grip, bridge explosively toward the attacker's posted leg side—the forward weight shift that precedes the leg swing compromises their base. Do not wait for the leg to start moving; the wrist pin plus forward weight shift is the final warning before the triangle attempt commits."
@@ -72,7 +72,7 @@ description: "How to defend against Triangle from Mount in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "You are caught in a partially locked mounted triangle with one arm trapped. What are your immediate defensive priorities in order?",
+      "name": "Caught in a partly locked mounted triangle with one arm trapped: what are your priorities in order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Priority one: bend your trapped arm aggressively and grip your own collar, wrist, or the attacker's thigh to prevent arm extension into armbar. Priority two: tuck your chin toward your chest and turn your head toward the trapped arm side to reduce the choking angle available to the attacker. Priority three: frame your free arm against the attacker's hip to prevent them from fully settling their weight and consolidating the position. Priority four: begin systematic hip escapes toward the side of the attacker's top leg, working to create enough space to insert your knee and begin guard recovery. These priorities address the three simultaneous threats—triangle choke, armbar, and positional consolidation—in order of immediacy."
@@ -80,7 +80,7 @@ description: "How to defend against Triangle from Mount in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How should you time a bridge escape attempt when caught under a mounted triangle, and what direction should you bridge?",
+      "name": "When and in which direction should you bridge to escape a mounted triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Time the bridge when the attacker commits weight to a finishing adjustment—either when they reach to pull your head down for the choke, when they adjust their hip angle for better compression, or when they shift grips between control and finishing positions. These moments redistribute their weight and temporarily reduce their base stability. Bridge at a 45-degree angle toward the side of the attacker's bottom leg (the leg that forms the base of the triangle lock), as this is where their structural support is weakest. A vertical bridge is ineffective against mounted triangle because the attacker's leg configuration naturally absorbs upward force."
@@ -88,7 +88,7 @@ description: "How to defend against Triangle from Mount in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent transitions from mounted triangle to armbar on your trapped arm. How do you adjust your defense mid-transition?",
+      "name": "They switch from mounted triangle to armbar on your trapped arm: how do you adjust mid-transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The armbar transition requires the attacker to pivot their hips and release some triangle compression, creating a brief defensive window. Immediately bend your trapped arm as hard as possible, pulling your elbow toward your hip and gripping your own wrist with your free hand to create a two-on-one defense. As the attacker pivots for the armbar, their hip movement often creates space—use this to turn your body toward them and begin working your elbow toward the mat on their far side. The hip pivot that enables their armbar simultaneously reduces their mount control, making guard recovery through hip escape more viable than when the triangle was fully locked."

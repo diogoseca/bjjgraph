@@ -64,7 +64,7 @@ description: "How to defend against S-Mount Transition in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent grips your near-side wrist with both hands and begins loading weight forward - what do you do immediately?",
+      "name": "They grip your wrist two-on-one and load weight forward from mount—what do you do now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pull your near-side arm tight to your body, bending the elbow and gripping your own collar to prevent extension. Frame on their hip with your free hand and bridge explosively toward the posted leg side before their legs begin moving. This is the earliest and highest-percentage defensive window - acting now prevents the transition from starting rather than trying to stop it midway."

@@ -56,7 +56,7 @@ description: "How to defend the Knee Through pass in BJJ. Recognition cues, defe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you recognize the Knee Through pass is being initiated?",
+      "name": "What is the single most important defensive action when the knee through is being initiated?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establishing the near side underhook is the highest-priority defensive action because it simultaneously prevents the passer from aligning their pressure, creates offensive threats through sweeps and back takes, and forces the passer to address your underhook before continuing the pass. The underhook battle determines the outcome of most half guard exchanges, and winning it early essentially prevents the Knee Through from ever reaching its execution phase. Without the underhook, you are reduced to reactive frame-based defense with lower success rates."
@@ -64,7 +64,7 @@ description: "How to defend the Knee Through pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Why does staying on your side rather than flat on your back dramatically improve your defensive options against the Knee Through?",
+      "name": "Why does staying on your side instead of flat improve your defense against the knee through?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Staying on your side preserves hip mobility for hip escapes, angle creation, and guard recovery movements that are impossible when flat on your back. The side position also reduces the surface area available for the passer's chest pressure, making their crossface less effective and their weight distribution less dominant. From your side, you can generate the rotational force needed for sweeps and can more easily insert a knee shield or transition to deep half guard. Being flat eliminates all of these options and allows the passer to apply maximum crushing pressure."
@@ -72,7 +72,7 @@ description: "How to defend the Knee Through pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "At what point during the Knee Through pass does your defensive window effectively close, and what should you do if you reach that point?",
+      "name": "When does your defensive window against the knee through close, and what do you do then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The defensive window closes once the passer's knee has driven past your thigh line and they are actively clearing their foot over your bottom leg. At this point, prevention and disruption defenses are no longer viable. Your only remaining option is to immediately begin working side control escape sequences, focusing on creating frames against their settling weight and beginning the hip escape to half guard recovery before they fully consolidate the position. Attempting to re-guard during the clearing phase typically fails and wastes energy that would be better spent on early side control defense."
@@ -80,7 +80,7 @@ description: "How to defend the Knee Through pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "How can you use the passer's forward commitment during the Knee Through to set up a deep half guard entry?",
+      "name": "How can you use the passer's forward commitment in the knee through to enter deep half?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the passer commits heavy forward pressure and aligns their weight for the knee drive, their center of gravity shifts forward and upward relative to your body. This creates space underneath their hips that you can exploit by diving your head and upper body below their waist line while maintaining your leg entanglement. The passer's own forward pressure actually assists your entry because they cannot quickly reverse their weight direction. The key is timing the dive to coincide with their pressure commitment rather than attempting it when they have neutral base. Once in deep half, their forward pressure works against them as it feeds your sweeping mechanics."
@@ -88,7 +88,7 @@ description: "How to defend the Knee Through pass in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established crossface and is beginning to align their hips for the Knee Through, but you cannot win the underhook. What is your best alternative defense?",
+      "name": "They have crossface and are aligning for the knee through, but you can't get the underhook—now what?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert a knee shield across their chest or hip line before they can close the distance completely. The knee shield creates a structural barrier that prevents chest-to-chest contact and forces the passer to address the frame before continuing the knee drive. From the knee shield position, you can threaten sweeps, create angles through hip movement, and potentially re-establish the underhook fight from a better angle. If the knee shield is also being defeated, transition immediately to deep half guard entry before the passer achieves full alignment, using their forward pressure to assist the entry underneath their base."

@@ -56,7 +56,7 @@ description: "Defend against the inversion from reverse half guard top. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an inversion attempt is being set up from reverse half guard bottom?",
+      "name": "What is the earliest cue that reverse half guard bottom is setting up an inversion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player establishing a frame on your hip or thigh with their near arm while beginning to shift weight onto their near shoulder. This posting frame creates the space needed to initiate the rotation. Recognizing this action before any hip rotation begins gives you the maximum time to shut down the attempt through crossface pressure, arm control, or increased forward pressure on their shoulders."
@@ -64,7 +64,7 @@ description: "Defend against the inversion from reverse half guard top. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already initiated the granby roll—what is your highest-percentage counter at this point?",
+      "name": "They've already started the granby roll from reverse half guard: what's your best counter now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the rotation is in progress, fighting against it is mechanically disadvantaged. Your best option is to follow the rotation by circling toward their exposed back. As they pass through the inverted position, work to insert hooks and establish seat belt control. The inverted phase is their point of maximum vulnerability. Committing to the back take during this window is significantly higher percentage than trying to stop a rotation that already has momentum."
@@ -80,7 +80,7 @@ description: "Defend against the inversion from reverse half guard top. Recognit
     },
     {
       "@type": "Question",
-      "name": "How should you adjust if the bottom player alternates between inversion attempts and face-the-opponent escape attempts?",
+      "name": "How do you adjust when they alternate between inverting and turning to face you from half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain balanced pressure that prevents both options by keeping your chest low on their body and controlling the near arm. If you overcommit to preventing the inversion by driving pressure toward the far shoulder, you may open the path for them to turn toward you. If you overcommit to preventing the face turn by driving pressure toward the near shoulder, you open the rotation angle. Stay centered with heavy hips and address each specific escape as the bottom player commits to it rather than anticipating."

@@ -74,7 +74,7 @@ description: "How to execute Switch to Anaconda Configuration in BJJ. Attacking 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary trigger that signals the correct timing to switch from buggy choke to anaconda configuration?",
+      "name": "From buggy choke top, what signals the right moment to switch to the anaconda?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is the opponent rotating their torso toward your choking arm to relieve collar pressure. Their far shoulder drops while the near shoulder rises, exposing the head-and-arm channel needed for the anaconda. This rotation creates the mechanical angle that makes the anaconda viable while simultaneously weakening the original buggy choke angle."
@@ -82,7 +82,7 @@ description: "How to execute Switch to Anaconda Configuration in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Why must the opponent's near arm remain trapped between their head and your body for the anaconda to be effective?",
+      "name": "Why must their near arm stay trapped by their head for the anaconda to work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trapped arm is essential because the anaconda choke works through bilateral carotid compression. The choking arm compresses one carotid while the opponent's own trapped shoulder and arm compress the opposite carotid as you squeeze. Without the trapped arm, the choke becomes a one-sided neck crank that is far less effective and easier to defend. The trapped arm acts as a fulcrum that amplifies the compression force."
@@ -90,7 +90,7 @@ description: "How to execute Switch to Anaconda Configuration in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin hard and drives forward when you begin redirecting your arm around their neck—how do you adjust?",
+      "name": "Switching to anaconda, they tuck their chin hard and drive forward—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the anaconda switch and return to the original buggy choke collar grip since the opponent has re-created the angle for that attack. Alternatively, use a front headlock snapdown to break their forward drive and re-expose the neck. The chin tuck with forward drive specifically defends the anaconda angle, so forcing the switch against this defense wastes position and energy."
@@ -98,7 +98,7 @@ description: "How to execute Switch to Anaconda Configuration in BJJ. Attacking 
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between when to choose the anaconda switch versus the darce switch from buggy choke top?",
+      "name": "From buggy choke top, what decides between switching to anaconda versus darce?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choice depends on which arm is deeper and the opponent's arm position. Choose anaconda when your threading arm is already circling the neck from the near side and the opponent's near arm is trapped inside. Choose darce when you can thread your arm from the far side through the neck-armpit channel. The anaconda wraps neck-first then connects under the armpit, while the darce threads under the armpit first then connects around the neck."

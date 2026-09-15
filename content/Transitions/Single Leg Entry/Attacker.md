@@ -74,7 +74,7 @@ description: "How to execute Single Leg Entry in BJJ. Attacking perspective with
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is proper level change mechanics essential for single leg entry success, and what are the key components of an effective level change?",
+      "name": "Why is the level change essential to the single leg, and what are its key components?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Proper level change drops your hips below the opponent's hips, letting you penetrate their base and secure the leg without being sprawled on. Key components include explosive hip and knee flexion that drops your center of gravity rapidly, maintaining an upright chest position to preserve structural power, keeping eyes on target throughout the movement, and executing the penetration step simultaneously with the level drop. Without proper level change, you remain too high and vulnerable to sprawl defense, guillotines, and front headlock attacks. The level change must be committed and explosive rather than gradual or tentative."
@@ -82,7 +82,7 @@ description: "How to execute Single Leg Entry in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What is the optimal head positioning during single leg entry and why is this position critical for both offensive success and defensive safety?",
+      "name": "Where should your head be on a single leg entry, and why does it matter offensively and defensively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your head tight to the opponent's hip or lower abdomen on the outside of their body, driving constant forward pressure throughout. Offensively this blocks their hips from moving backward into a sprawl, maintains your structural connection to their base, and lets your forward drive break their balance. Defensively, the outside head position keeps your neck away from their centerline and choking arm, protecting you from guillotine chokes. The head serves as both a pressure point for control and a defensive shield against submission attacks."
@@ -90,7 +90,7 @@ description: "How to execute Single Leg Entry in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "How should you adapt your finishing technique based on opponent's defensive reaction, and what are the three most common counters with their appropriate responses?",
+      "name": "How do you adapt the single leg finish to the sprawl, whizzer, and guillotine counters?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Adapting your finish based on opponent's reaction is fundamental to single leg success. The three most common counters are: (1) Sprawl - respond by switching to double leg, transitioning to ankle pick, or circling to different angle while maintaining leg control; (2) Whizzer - respond by using it against them to transition to outside position, executing far side trip or dump, or accepting guard pull to single leg X; (3) Guillotine - respond by maintaining tight head-to-hip position, completing takedown despite grip, or hand fighting the choking arm while adjusting head position. The key is to maintain leg control throughout all adaptations and read their weight distribution to select the highest-percentage finish option available rather than forcing a predetermined outcome."
@@ -98,7 +98,7 @@ description: "How to execute Single Leg Entry in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What are the most critical errors practitioners make during single leg entry and how do these errors compromise technique effectiveness?",
+      "name": "What are the most critical single leg entry errors, and how does each compromise the technique?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical errors are insufficient level change, a shallow penetration step, a loose leg grip, poor head positioning, and telegraphing the shot. Insufficient level change leaves you too upright and open to sprawls and guillotines; a shallow penetration step that stops too far from the opponent's base prevents securing control and allows easy escape; a loose leg grip with a gap between shoulder and hip lets the opponent extract the leg and sprawl; head position in the centerline or away from the opponent creates guillotine vulnerability and loses forward pressure; and telegraphing intention through an obvious setup lets the opponent anticipate and prepare defense. Each error fundamentally compromises the mechanical advantage of the single leg, either by failing to establish proper control or by creating defensive opportunities for the opponent."
@@ -106,7 +106,7 @@ description: "How to execute Single Leg Entry in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "Describe the progression from initial standing position through completion, including the relationship between grip fighting, timing recognition, and explosive execution?",
+      "name": "How do grip fighting, timing recognition, and explosive execution combine in a single leg entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The progression is grip fighting to create an opening, recognizing the timing window, then explosive level change and penetration as one fluid motion. Grip fighting or hand-fighting advantage from standing controls the opponent's movement and disguises your entry timing. From that setup you recognize the optimal moment based on the opponent's weight distribution, stance, and defensive awareness. Execution requires explosive level change simultaneous with the penetration step, dropping your hips well below the opponent's while stepping deep into their base; immediately upon penetration you secure the leg with both arms while establishing head-to-hip pressure. These elements are sequential but must appear as one motion — grip fighting creates the opening, timing recognition identifies the window, and explosive execution capitalizes on it before the opponent reacts. Speed from setup to completion is critical, as hesitation at any point allows the opponent to establish defenses."
@@ -114,7 +114,7 @@ description: "How to execute Single Leg Entry in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What role does the penetration step play in single leg entry success, and where should your lead foot be positioned relative to opponent's base?",
+      "name": "What does the penetration step do on a single leg, and where should your lead foot land?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The penetration step sets how close your hips get to the opponent's base; your lead foot should land about 12-18 inches behind their heel. That closeness directly affects your ability to control their leg and prevent escape. The foot lands either between their legs or to the outside of the target leg depending on variation. This deep placement gets your hips close to the opponent, establishing the proper angle for leg capture and creating the mechanical advantage needed to finish. A shallow penetration step that lands too far from their base is one of the most common errors, resulting in weak control and easy defensive extraction of the leg."
@@ -441,9 +441,10 @@ When practicing single leg entries, execute with controlled application to avoid
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Wrestling-based takedown adapted for MMA timing and cage work</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Common attack this system defends against</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Competition Preparation System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative takedown system for competition offensive strategies</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Standing-Defense-Strategy" data-cta="related-system-card" data-system-slug="systems/standing-defense-strategy" data-system-name="Standing Defense Strategy" data-member-count="27"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Standing Defense Strategy</span><span class="system-card__unlocks-badge">Unlocks 27 techniques</span><span class="system-card__blurb">Common attack this system defends against</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/MMA-Crossover-Strategy" data-cta="related-system-card" data-system-slug="systems/mma-crossover-strategy" data-system-name="MMA Crossover Strategy" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">MMA Crossover Strategy</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Wrestling-based takedown adapted for MMA timing and cage work</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Competition-Preparation-System" data-cta="related-system-card" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Competition Preparation System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Alternative takedown system for competition offensive strategies</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Jimmy-Sheptock-Single-Leg-System" data-cta="related-system-card" data-system-slug="systems/jimmy-sheptock-single-leg-system" data-system-name="Jimmy Sheptock Single Leg System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Jimmy Sheptock Single Leg System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Initial connection to the leg</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

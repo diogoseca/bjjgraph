@@ -74,7 +74,7 @@ description: "Learn to execute the Outside to Ushiro Ashi-Garami transition. Mas
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first physical indication that your opponent is committing to an inversion escape from Outside Ashi-Garami?",
+      "name": "What is the first sign your opponent is committing to an inversion escape from outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first indication is a shift in their hip orientation where they begin turning their hips away from you rather than fighting to square up or extract directly. You will feel their trapped leg rotating internally as their far hip drops toward the mat. Their free hand often reaches behind them to post for the inversion, and their upper body begins turning away from your control. Recognizing this commitment early gives you the critical head start needed to initiate your follow sequence before they build momentum."
@@ -82,7 +82,7 @@ description: "Learn to execute the Outside to Ushiro Ashi-Garami transition. Mas
     },
     {
       "@type": "Question",
-      "name": "Why is following the rotation more effective than fighting it when your opponent inverts from Outside Ashi-Garami?",
+      "name": "Why follow your opponent's inversion from outside ashi rather than fight the rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Fighting the rotation pits your leg squeeze against their entire body's rotational momentum, which is an energy-losing battle that rarely succeeds against committed inversion. Following the rotation allows you to use their energy to fuel your transition, maintaining control with minimal expenditure while arriving in Ushiro Ashi-Garami where you retain offensive submission options. The mechanical advantage shifts dramatically in your favor when you work with the movement rather than against it."
@@ -90,7 +90,7 @@ description: "Learn to execute the Outside to Ushiro Ashi-Garami transition. Mas
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins inverting but your outside leg has slipped above their knee line - what adjustment is needed?",
+      "name": "They invert and your outside leg has slipped above their knee line: what adjustment is needed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If your outside leg has ridden up above their knee, you have lost the critical crossing point needed for effective figure-four control. During the follow, actively pull your outside leg back down to cross over their knee line rather than their upper thigh. Use the rotation itself as an opportunity to reposition by momentarily lightening the outside leg and threading it to the correct crossing position as the angle changes. Failing to correct this results in a loose triangle that cannot maintain effective Ushiro control."
@@ -106,7 +106,7 @@ description: "Learn to execute the Outside to Ushiro Ashi-Garami transition. Mas
     },
     {
       "@type": "Question",
-      "name": "Your opponent accelerates their inversion and you feel the figure-four loosening - what immediate action do you take?",
+      "name": "They accelerate the inversion and your figure-four loosens: what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately squeeze your legs together and pull your inside foot toward your hip to re-tighten the figure-four before continuing the follow. Do not continue the transition with a loose triangle as this guarantees leg extraction. If re-tightening is not possible due to their speed, consider switching to a back take by following their rotation to turtle and establishing hooks rather than forcing a degraded Ushiro Ashi-Garami position with insufficient control."

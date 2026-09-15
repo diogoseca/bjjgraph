@@ -254,7 +254,7 @@
         }
       },
       {
-        "question": "Your opponent begins loading for a sweep as you commit both hands to grip breaking - how do you adjust?",
+        "question": "They load for a sweep while both your hands are grip breaking in Ringworm Guard — what now?",
         "answer": "Immediately abort the grip break attempt and address the sweep by widening your base and posting with one hand. The sweep is a more immediate threat than the grip. Once you neutralize the sweep attempt, reset and begin the grip break sequence again. It is better to restart than to get swept while tunnel-visioning on the grip.",
         "answer_line": "Abort grip, post & widen base",
         "distractors": {
@@ -310,7 +310,7 @@
         }
       },
       {
-        "question": "Your opponent switches to a Worm Guard configuration as you begin your grip break - what indicates this transition?",
+        "question": "What signs show your opponent is switching from Ringworm Guard to Worm Guard mid-grip-break?",
         "answer": "Watch for them re-threading the lapel around a different part of your leg or body, changing their leg position from Ringworm-specific hooks to Worm Guard frames, or feeding the lapel to their other hand. These indicate configuration change. Stop your current sequence and assess the new position before continuing with the appropriate counter.",
         "answer_line": "Lapel re-threaded to new spot",
         "distractors": {
@@ -470,7 +470,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the optimal timing to attempt a sweep when the top player is breaking your Ringworm Guard grip?",
+        "question": "When is the best moment to sweep as the top player breaks your Ringworm Guard lapel grip?",
         "answer": "The optimal sweep window is when the top player commits both hands to the two-on-one grip strip. At this moment, they have sacrificed their posting ability and base integrity, making them maximally vulnerable to off-balancing. Use the remaining lapel tension combined with leg elevation to direct the sweep toward their trapped leg side where their base is weakest.",
         "answer_line": "Sweep as they grip-strip 2-on-1",
         "distractors": {
@@ -484,7 +484,7 @@
         }
       },
       {
-        "question": "Your opponent has partially stripped the lapel grip but has not yet secured the tail - what should you prioritize?",
+        "question": "They partly stripped your lapel but haven't secured the tail — what do you prioritize?",
         "answer": "Immediately re-grip and retighten the lapel before they complete the strip and secure the tail themselves. Pull the lapel tail back toward your hip while simultaneously using your legs to create distance or frames that disrupt their hand positioning. Speed of re-gripping is critical because once they control the tail, your Ringworm Guard is effectively neutralized.",
         "answer_line": "Re-grip and retighten lapel fast",
         "distractors": {
@@ -498,7 +498,7 @@
         }
       },
       {
-        "question": "Why should you maintain secondary controls beyond just the lapel grip when defending against this technique?",
+        "question": "Why keep controls beyond the lapel grip when defending the Ringworm Guard grip break?",
         "answer": "The top player's grip break is specifically designed to address the lapel control. If the lapel is your only control point, its removal leaves you with nothing. Secondary controls through sleeve grips, butterfly hooks, shin shields, and hip positioning create a layered defense where losing the lapel still leaves you with functional guard retention. These layers also create the offensive threats that disrupt their systematic extraction.",
         "answer_line": "Keep sleeve, hooks, and hip control",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "The top player begins standing up during their grip break - how does this change your defensive strategy?",
+        "question": "The top player stands up during their grip break — how does your defense change?",
         "answer": "Standing creates distance and height advantage that favors their grip strip, so you must counter by following their elevation. Extend your hips upward, place feet on their hips, and maintain close connection through leg engagement. Their elevated center of gravity actually makes them more vulnerable to sweeps if you can maintain the lapel connection. Use the standing posture against them by loading their weight forward through the lapel.",
         "answer_line": "Follow up: hips up, feet on hips",
         "distractors": {

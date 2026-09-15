@@ -82,7 +82,7 @@ description: "Learn to recover standard half guard from Reverse Half Guard as th
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining the half guard leg hook critical throughout the rotation and what happens if you lose it?",
+      "name": "Why must you keep the half guard hook through the rotation, and what if you lose it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The half guard hook is the only thing preventing the opponent from freely extracting their leg during the rotation. If you lose the hook, the opponent immediately steps over to mount, side control, or knee on belly—positions far worse than reverse half guard. The hook serves as both a positional anchor that holds the opponent in half guard and a rotational anchor that gives your bridge and hip movement something to pivot around during the turn."
@@ -90,7 +90,7 @@ description: "Learn to recover standard half guard from Reverse Half Guard as th
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a seatbelt grip on your back before you could begin rotating—what is your recovery strategy?",
+      "name": "They get a seatbelt before you start rotating from reverse half — what is your strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the choking arm (the arm across your neck) first by gripping their wrist with both hands and pulling it across your body to your far hip. Pin their wrist against your body with your elbow. Then immediately accelerate the rotation toward them using the momentum of the grip strip. The seatbelt must be addressed before rotation continues—attempting to rotate with the seatbelt engaged allows the opponent to follow your rotation and establish full back control with hooks."
@@ -98,7 +98,7 @@ description: "Learn to recover standard half guard from Reverse Half Guard as th
     },
     {
       "@type": "Question",
-      "name": "Why is knee shield half guard a better initial recovery target than closed guard from reverse half guard?",
+      "name": "Why is knee shield half guard a better first target than closed guard from reverse half?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Knee shield half guard requires only enough rotation to face the opponent and insert one knee, which can be achieved relatively quickly from the reverse position. Closed guard requires complete rotation plus extracting your legs from the half guard entanglement and wrapping both around the opponent's torso—a much longer sequence with more vulnerability windows. Knee shield provides immediate structural defense that stops the opponent's advancement, giving you a stable platform to then work toward full guard recovery if desired."
@@ -106,7 +106,7 @@ description: "Learn to recover standard half guard from Reverse Half Guard as th
     },
     {
       "@type": "Question",
-      "name": "What role does head positioning play during the rotation from reverse half guard to standard half guard?",
+      "name": "What role does head position play in rotating from reverse half to standard half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your head acts as a wedge during the rotation. By driving your head under the opponent's chin or against their chest, you create the physical space needed for your shoulders and torso to rotate underneath their weight. The head wedge also prevents the opponent from flattening you back down with crossface pressure, because your head position forces their chin up and limits their ability to drive their shoulder into your face. Without active head positioning, the rotation stalls because there is no space creation mechanism for the turn."
@@ -114,7 +114,7 @@ description: "Learn to recover standard half guard from Reverse Half Guard as th
     },
     {
       "@type": "Question",
-      "name": "Your rotation stalls at approximately 90 degrees—you are on your side but not yet facing the opponent—what grip should you prioritize and why?",
+      "name": "Your rotation stalls on your side at 90 degrees — which grip do you prioritize and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize the underhook on the side closest to the opponent. At 90 degrees, you have enough chest orientation to swim your near arm under the opponent's armpit. The underhook at this stage serves dual purposes: it prevents the opponent from re-crossfacing you back to the fully reversed position, and it provides a pulling anchor that drives the remaining rotation from 90 degrees to full face-to-face orientation. Without the underhook at this critical midpoint, the opponent's crossface pressure will stall or reverse your rotation progress."

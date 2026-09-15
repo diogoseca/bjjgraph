@@ -108,6 +108,14 @@ await cp(source, output, {
     !path.endsWith(".DS_Store") && path !== resolve(source, "package.json"),
 });
 
+// THE DIGEST EMAIL'S OWN CODE, copied rather than duplicated. /dev/email/ renders the real
+// email by importing these two, so the preview cannot drift from what the Worker sends; they
+// live under workers/ because that is who ships them, and the browser cannot import from there.
+await mkdir(resolve(output, "email"), { recursive: true });
+for (const f of ["render.js", "fixtures.js"]) {
+  await copyFile(resolve(root, "workers/digest", f), resolve(output, "email", f));
+}
+
 const soundSourcePath = resolve(root, "neural/src/sound.src.js");
 const soundSource = await readFile(soundSourcePath, "utf8");
 const soundSandbox = {};

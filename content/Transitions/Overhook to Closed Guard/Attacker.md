@@ -98,7 +98,7 @@ description: "Complete guide to executing the Overhook to Closed Guard transitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand on the mat while you hold the overhook - how do you capitalize on this?",
+      "name": "You hold an overhook and they post their free hand on the mat: how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their posted hand is committed to the mat and unavailable for defending the guard closure. Immediately attack the posted arm with a kimura grip or use the opening to accelerate your hip walk since they cannot frame against your hip. Alternatively, their forward weight shift from posting actually assists your closure by bringing their waist closer to your hips."

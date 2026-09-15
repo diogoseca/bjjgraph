@@ -80,7 +80,7 @@ description: "Learn to recover guard position from triangle control as the trapp
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to turn toward the trapped arm side rather than away from it during triangle escape?",
+      "name": "Why turn toward the trapped arm side rather than away when escaping the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning toward the trapped arm side opens the choking angle by removing the trapped shoulder from its position pressing against the carotid artery on the far side of the neck. When you turn away from the trapped arm, the shoulder is driven deeper into the neck, actually increasing the choking pressure. Additionally, turning toward the trapped arm creates the alignment needed to push the arm across the opponent's centerline, which is the primary mechanism for eliminating the shoulder-neck compression that makes the triangle lethal."
@@ -88,7 +88,7 @@ description: "Learn to recover guard position from triangle control as the trapp
     },
     {
       "@type": "Question",
-      "name": "What is the highest-priority action when first caught in a triangle before beginning the escape sequence?",
+      "name": "What is the top priority the moment you are caught in a triangle, before escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest priority is establishing upright posture to relieve the immediate choking pressure. Without posture, the bottom player can finish the triangle within seconds by pulling your head down and squeezing. Posture creates distance between your neck and their thigh, buying time for the systematic escape sequence. Once posture is established, you have significantly more time to work the escape methodically rather than rushing under choke pressure."
@@ -104,7 +104,7 @@ description: "Learn to recover guard position from triangle control as the trapp
     },
     {
       "@type": "Question",
-      "name": "Your opponent uncrosses their ankles and begins swinging their leg over your face during your escape—what is happening and how do you respond?",
+      "name": "They uncross their ankles and swing a leg over your face — what is it and how do you react?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent is transitioning from triangle to armbar. When they uncross their ankles, the triangle choke threat diminishes but the armbar threat emerges as they swing their leg over your head to create the hip extension control needed for the arm lock. Immediately stack your weight forward by driving your chest into the opponent and turn toward the armbar side while pulling your elbow tight against your body. The stack prevents the hip extension needed to finish the armbar, and turning toward the attack side removes the leverage angle they need."
@@ -112,7 +112,7 @@ description: "Learn to recover guard position from triangle control as the trapp
     },
     {
       "@type": "Question",
-      "name": "After extracting from the triangle and settling in closed guard top, what should your immediate priorities be?",
+      "name": "After escaping the triangle into closed guard top, what are your immediate priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priorities shift from survival to offense within three seconds of settling in closed guard top. First, establish posture by straightening your spine and placing hands on the opponent's hips or chest. Second, secure passing grips—collar and hip in gi, head and hip in no-gi. Third, begin guard opening sequences before the opponent can reorganize their submission threats from closed guard. Treating the recovery as complete only when you have passing initiative prevents the bottom player from launching another triangle or sweep attempt from the closed guard position."
@@ -120,7 +120,7 @@ description: "Learn to recover guard position from triangle control as the trapp
     },
     {
       "@type": "Question",
-      "name": "What specific grip should your free hand establish first, and why is this grip more important than immediately attempting to extract your trapped arm?",
+      "name": "Which grip does your free hand take first, and why before extracting the trapped arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip the opponent's locking ankle—the foot that is hooked behind the knee of the top leg. This grip is more important than immediate arm extraction because it controls the structural integrity of the triangle lock itself. Without this grip, every inch of arm progress you make can be reset by the opponent re-tightening their lock. The ankle grip limits their ability to adjust angle and squeeze pressure, creating a stable platform from which your subsequent arm extraction can accumulate permanent positional gains rather than being repeatedly reset."

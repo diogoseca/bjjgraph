@@ -324,7 +324,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary mechanical principle that makes the Russian Leg Lasso dangerous for the top player?",
+        "question": "What mechanical principle makes the Russian Leg Lasso dangerous for the passer?",
         "answer": "The lasso creates a pulley-like fulcrum around which the guard player generates rotational force. When the top player leans forward or commits weight into the lasso, they amplify this mechanical advantage exponentially, making sweeps nearly unstoppable. Understanding this principle is essential because it dictates that passers must maintain upright posture with hips back rather than applying forward pressure.",
         "answer_line": "Lasso acts as rotational fulcrum",
         "distractors": {
@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their hips to initiate a sweep - what immediate adjustment should you make?",
+        "question": "They rotate their hips to start a sweep from Russian Leg Lasso — what do you adjust?",
         "answer": "Immediately widen your stance and shift your weight away from the sweep direction while maintaining upright posture. Sprawl your hips back and down to lower your center of gravity. Simultaneously control their non-lasso leg to prevent them from completing the rotation. Never fight the sweep by leaning into it, as this amplifies their rotational force.",
         "answer_line": "Widen stance, sprawl hips back",
         "distractors": {
@@ -422,7 +422,7 @@
         }
       },
       {
-        "question": "Your opponent starts elevating their hips aggressively to set up an overhead sweep - what should you do?",
+        "question": "They elevate their hips for an overhead sweep from Russian Leg Lasso — what do you do?",
         "answer": "Immediately sprawl your hips back and down while driving your weight through your legs rather than forward. Control their hips or belt with your free hand to prevent elevation. Step back with your trapped-arm side leg to remove the base they need for the overhead motion. If they've already committed to the elevation, consider following their movement and transitioning to a back take rather than fighting the sweep directly.",
         "answer_line": "Sprawl back, control their hips",
         "distractors": {
@@ -878,7 +878,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the Russian Leg Lasso and distinguishes it from standard lasso guard?",
+      "question": "What configuration defines the Russian Leg Lasso versus standard lasso guard?",
       "answer": "The defining feature is a deep lasso where the bottom player threads their shin across the opponent's tricep with the foot positioned high near or past the shoulder, then reinforces it with a same-side sleeve grip and an opposite-side collar grip. Standard lasso guard typically uses a shallower wrap and a single sleeve control, whereas the Russian variation layers collar plus sleeve onto the deep lasso to create multiple simultaneous control points. This added grip web trades some energy and mobility for greater rotational leverage and posture control. The result is a more binding, less easily extracted configuration built specifically to defeat sophisticated passing.",
       "answer_line": "Deep lasso plus collar and sleeve",
       "distractors": {
@@ -892,7 +892,7 @@
       }
     },
     {
-      "question": "Why is the lasso described as a pulley or fulcrum, and how does that mechanic govern the exchange for both players?",
+      "question": "Why is the lasso called a pulley, and how does that mechanic govern play for both players?",
       "answer": "The threaded leg wraps the opponent's arm and converts the guard player's hip and grip tension into rotational torque, acting like a fulcrum that redirects force around a fixed point rather than pushing linearly. For the bottom player this generates sweep power with relatively little strength; for the top player, any forward weight commitment feeds directly into that rotation and amplifies the off-balancing. This shared mechanic is why the position rewards the bottom player for creating angle and punishes the top player for leaning in. Both competitors are fundamentally fighting over the geometry of that pulley rather than raw strength.",
       "answer_line": "Converts hip tension into torque",
       "distractors": {
@@ -920,7 +920,7 @@
       }
     },
     {
-      "question": "How does distance management determine whether the Russian Leg Lasso remains viable during an exchange?",
+      "question": "How does distance management decide whether the Russian Leg Lasso stays viable?",
       "answer": "The position has a functional distance window: if the opponent closes to chest-to-chest range, their weight pins the guard player flat and negates the lasso's rotational mechanics entirely. If distance grows too far, the grips lose tension and the lasso can be extracted. Both players therefore fight over the same middle range, where grips stay taut and the pulley still generates torque. This makes distance the single dynamic variable that dictates who holds the mechanical advantage at any moment.",
       "answer_line": "Mid-range preserves the torque",
       "distractors": {
@@ -962,7 +962,7 @@
       }
     },
     {
-      "question": "How does the Russian Leg Lasso relate to and differ from adjacent open guards like Spider Guard, Collar Sleeve, and De La Riva?",
+      "question": "How does the Russian Leg Lasso compare to spider guard, collar sleeve, and De La Riva?",
       "answer": "It shares Spider Guard's extension-and-grip principles and overlaps heavily with Collar Sleeve's grip configuration, and it frequently integrates with De La Riva through the non-lasso leg, making it a hub within the modern open-guard system. The key difference is the deep leg-lasso binding of the arm, which Spider and Collar Sleeve lack, giving the Russian variation a mechanical arm trap rather than pure grip tension. Because the grips overlap, players flow between these guards as the opponent defends, treating Russian Leg Lasso as one configuration in a connected chain. Understanding these adjacencies matters because the position rarely exists in isolation.",
       "answer_line": "Shares grips, adds deep arm trap",
       "distractors": {

@@ -84,7 +84,7 @@ description: "Attack with the Kimura from S Mount in BJJ. Step-by-step execution
     },
     {
       "@type": "Question",
-      "name": "What defensive reaction from your opponent signals the ideal moment to transition from armbar threat to Kimura attack?",
+      "name": "From S Mount, what defensive reaction signals the moment to switch from armbar threat to Kimura?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent bends their trapped arm to defend the armbar, pulling their hand toward their body or gripping their own collar, this creates the ideal Kimura window. The bent-arm position exposes the wrist for figure-four grip acquisition while simultaneously removing the armbar threat. This bent-arm defense is the trigger to initiate the Kimura rather than continuing to fight for arm extension."
@@ -100,7 +100,7 @@ description: "Attack with the Kimura from S Mount in BJJ. Step-by-step execution
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts straightening their arm while you are establishing the figure-four grip - what adjustment prevents escape?",
+      "name": "S Mount: they straighten the arm as you set the figure-four—what adjustment prevents escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the Kimura grip attempt and transition to the armbar finish, since the opponent has voluntarily extended their arm into the exact position the armbar requires. This is the fundamental Kimura-armbar dilemma from S Mount. The extended arm is mechanically indefensible against a properly applied armbar from this position, so their defense against one attack feeds directly into the other."

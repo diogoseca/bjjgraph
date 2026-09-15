@@ -80,7 +80,7 @@ description: "Complete guide to defending against the Overhook Guard pass from b
     },
     {
       "@type": "Question",
-      "name": "How should you transition defensively if your overhook is completely stripped and the opponent has shoulder pressure established?",
+      "name": "Your overhook is stripped and they have shoulder pressure: how do you transition defensively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately create frames with both forearms against their shoulder and hip to prevent further advancement. Hip escape to create space and work to insert a knee shield or recover half guard. If frames fail, focus on preventing the crossface by turning your head toward them and fighting for an underhook on the near side. The priority shifts from guard retention to damage control. Accepting half guard is better than being flattened in side control."

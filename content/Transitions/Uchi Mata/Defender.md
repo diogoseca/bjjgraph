@@ -64,7 +64,7 @@ description: "How to defend against Uchi Mata in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a collar grip and keeps attempting Uchi Mata entries - what systematic approach prevents repeated attempts?",
+      "name": "They have a collar grip and keep entering for Uchi Mata — how do you stop the repeated attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the root cause by denying the grip configuration that enables the throw. Strip or break the collar grip using two-on-one grip breaks, and immediately establish your own dominant grip before they can re-grip. If you cannot break the grip, nullify it by maintaining low hip position and slight lateral angle so the collar grip cannot generate effective forward kuzushi. Counter-grip aggressively: establish your own collar tie or underhook on the throwing side to control their rotation. Additionally, use movement to prevent them from setting their feet for the entry. An opponent who is constantly adjusting footwork to match your circling cannot settle into the throwing stance needed for Uchi Mata."
@@ -72,7 +72,7 @@ description: "How to defend against Uchi Mata in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker's hip make contact with yours and their leg starting to sweep - what are your remaining options at this late stage?",
+      "name": "Their hip is on yours and the Uchi Mata sweep has started — what options remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage your options are limited but not zero. First, drop your weight explosively by bending your knees and sitting your hips down and back, making yourself as heavy as possible on the leg being swept. This may prevent the lift from generating enough force to complete the throw. Second, attempt to hop over the sweeping leg with your target leg if you have any remaining base, though this requires exceptional timing. Third, if the throw is clearly going to succeed, focus on controlling the landing by gripping the attacker tightly and turning your body to land on your side rather than flat on your back, which may allow you to immediately recover to turtle or half guard rather than conceding full side control. Accept the throw but minimize the positional damage."
@@ -88,7 +88,7 @@ description: "How to defend against Uchi Mata in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "What body position should you maintain in the clinch to make yourself a difficult target for Uchi Mata?",
+      "name": "What clinch posture makes you a hard target for Uchi Mata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a slightly crouched stance with your hips pushed back and knees bent, keeping your center of gravity low. Your weight should be distributed evenly or slightly rearward across both feet rather than loaded onto either leg. Keep a slight lateral angle rather than squaring up directly with the attacker, as Uchi Mata works best against an opponent who is directly facing the thrower. Active footwork with small adjustments prevents the attacker from settling into their entry stance. Your arms should maintain frames against their shoulders and biceps with bent elbows, not extended, creating a structure that prevents their hip from closing distance to yours. This posture simultaneously defends against forward throws like Uchi Mata and backward throws like Osoto Gari."

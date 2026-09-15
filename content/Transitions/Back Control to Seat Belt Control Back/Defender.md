@@ -56,7 +56,7 @@ description: "How to prevent seat belt establishment from back control in BJJ. L
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the tactile cues that indicate your opponent is attempting to establish a seat belt from general back control?",
+      "name": "What tactile cues tell you your opponent is building a seat belt from general back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You will feel the opponent release one or both of their existing grips, followed by an arm sliding over your shoulder toward the opposite side of your chest. Their chest pressure may briefly increase as they stabilize before the transition. You may also feel their hooks drive deeper or their body angle shift as they create a platform for the grip change. The key recognition window is the moment between grip release and new grip establishment—this is both your danger zone and your opportunity for escape."
@@ -64,7 +64,7 @@ description: "How to prevent seat belt establishment from back control in BJJ. L
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully threaded the over-arm but has not connected hands yet—what is your priority action?",
+      "name": "Their over-arm is threaded but their hands aren't connected yet—what is your priority action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately two-on-one grip the threading over-arm at the wrist and pull it toward your hip to prevent it from staying across your chest. Simultaneously, tuck your opposite elbow tight to your ribs to block the under-arm from threading underneath. If you can strip the over-arm before hands connect, the seat belt attempt fails completely. The seconds between arm threading and hand connection represent your last high-percentage prevention window—once hands are connected, the structural integrity makes grip breaking exponentially harder."
@@ -72,7 +72,7 @@ description: "How to prevent seat belt establishment from back control in BJJ. L
     },
     {
       "@type": "Question",
-      "name": "Why is the seat belt grip specifically more dangerous than other back control grips, and how does this inform your defensive priorities?",
+      "name": "Why is the seat belt more dangerous than other back grips, and how should that shape your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The seat belt creates opposing diagonal force vectors—the over-arm pushes down while the under-arm pushes up—which prevents rotation in either direction. Other grips like double underhooks only control in one vector, allowing rotational escapes. This means once the seat belt is established, your escape options narrow dramatically because the primary escape mechanism of turning to face your opponent is precisely what the grip is designed to prevent. This informs your priorities: preventing seat belt establishment should be treated as nearly as important as defending the choke itself."
@@ -88,7 +88,7 @@ description: "How to prevent seat belt establishment from back control in BJJ. L
     },
     {
       "@type": "Question",
-      "name": "How does recognizing the grip transition window change your escape strategy compared to defending against established seat belt control?",
+      "name": "How does attacking the grip transition window differ from escaping an established seat belt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition window, the opponent has voluntarily weakened their own control by releasing existing grips. This creates a brief period where their upper body control is at its lowest point, making explosive escapes like hip escape to turtle or turning to face significantly more viable. Against established seat belt control, these same escapes require breaking a connected structural grip first, which costs far more energy and has lower success rates. The practical implication is that you should be prepared to attack the transition window aggressively even if you have been playing patient defense up to that point."

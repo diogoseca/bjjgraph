@@ -58,7 +58,7 @@ description: "Defend and escape the Armbar from Technical Mount in BJJ. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you recognize the armbar being set up from Technical Mount?",
+      "name": "What is your first priority when you recognize an armbar from technical mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grip your own collar or clasp your hands together, keeping the threatened elbow bent at 90 degrees or greater. This bent-arm position is structurally resistant to extension and buys time for secondary defensive actions. The grip must be established before the attacker secures full two-on-one wrist control — once they have both hands on your wrist with the arm extended, the submission is effectively complete and only the tap remains."
@@ -82,7 +82,7 @@ description: "Defend and escape the Armbar from Technical Mount in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your arm is partially extended and the attacker has completed the swing-over but has not yet applied finishing pressure — what defensive sequence should you execute?",
+      "name": "Armbar: they've swung over, your arm is partly extended, no finish yet — how do you defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Clasp your hands together or grip your collar to prevent further arm extension. Simultaneously turn your body toward the trapped arm so your elbow angles downward rather than upward, changing the hyperextension angle and buying time. Use your free hand to push on the attacker's near knee to create space. If you can sit up toward the attacker, you relieve extension pressure and may be able to stack them for guard recovery. If the arm becomes fully extended despite these efforts, tap immediately to avoid injury."
@@ -90,7 +90,7 @@ description: "Defend and escape the Armbar from Technical Mount in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "What is the hitchhiker escape and when should you attempt it against the Armbar from Technical Mount?",
+      "name": "What is the hitchhiker escape from an armbar, and when should you attempt it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hitchhiker escape involves rotating your entire body in the direction of the trapped arm's thumb — essentially rolling toward your belly. This rotation changes the angle of the elbow relative to the attacker's hips, relieving hyperextension pressure and allowing you to pull the elbow past the fulcrum point. Attempt this escape when the attacker has completed the swing-over and begun sitting back but before they squeeze knees fully or engage maximum hip elevation. The escape requires committed rotational movement and works best when combined with pulling the elbow tight to your ribs during the rotation."

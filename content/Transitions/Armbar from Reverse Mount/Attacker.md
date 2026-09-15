@@ -90,7 +90,7 @@ description: "Master the offensive armbar attack from reverse mount. Learn arm i
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail during the transition from reverse mount to armbar control?",
+      "name": "What is the most critical mechanical detail going from reverse mount to armbar control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining continuous hip pressure on the opponent's torso throughout the entire pivot is the single most important mechanical detail. Many practitioners lift their hips during the leg swing, creating space that allows the opponent to bridge, hip escape, or turn. The hips must stay heavy and connected, using a sliding or turntable-style pivoting motion rather than lifting and re-placing. This continuous contact eliminates the escape window."
@@ -106,7 +106,7 @@ description: "Master the offensive armbar attack from reverse mount. Learn arm i
     },
     {
       "@type": "Question",
-      "name": "What grip configuration is required on the opponent's arm for a successful armbar from reverse mount?",
+      "name": "What grip configuration on the arm is required for the armbar from reverse mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A two-point grip system is essential for reliable control. One hand grips the wrist maintaining distal control to prevent retraction, while the other hand controls at the elbow or proximal forearm to guide arm positioning and prevent bending. The wrist grip is typically established first with the same-side hand reaching behind, then reinforced by the second hand. Single-point grips at the wrist alone allow the opponent to bend and retract the arm during the pivot."

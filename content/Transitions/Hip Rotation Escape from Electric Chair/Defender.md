@@ -50,7 +50,7 @@ description: "Defend against the hip rotation escape from Electric Chair in BJJ.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is preparing to abandon the electric chair for a hip rotation escape?",
+      "name": "What is the earliest cue they are bailing from the electric chair to a hip rotation escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a decrease in lockdown tension combined with repositioning of the underhook arm. When the bottom player shifts their underhook from a sweeping grip to a deeper pivot grip, and simultaneously reduces the pulling pressure on your trapped leg, they are transitioning from attacking to escaping. This typically happens before the ankle control is released and provides the maximum reaction window for defensive response."
@@ -66,7 +66,7 @@ description: "Defend against the hip rotation escape from Electric Chair in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your opponent completes the rotation to turtle despite your defensive efforts - what should your immediate priorities be?",
+      "name": "They reach turtle despite your defense: what are your priorities, in order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediate priorities in order: first, establish chest-to-back pressure to prevent them from creating space. Second, secure seatbelt or harness control with your arms around their upper body. Third, prevent their first escape attempt by reading their weight distribution and blocking the most likely escape direction. Only after upper body control is secured should you work to insert hooks for full back control. Rushing to hooks without upper body control allows easy granby rolls and sit-throughs."
@@ -74,7 +74,7 @@ description: "Defend against the hip rotation escape from Electric Chair in BJJ.
     },
     {
       "@type": "Question",
-      "name": "How do you determine whether to attempt a backstep pass or drive forward to flatten during the escape attempt?",
+      "name": "During their escape, how do you choose between a backstep pass and driving forward to flatten?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on the bottom player's leg position during the lockdown release. If their legs open wide during the release creating a clear passing lane on one side, the backstep pass is higher percentage because you can thread your leg through before they close the space. If their legs stay relatively close together and they are rotating quickly, the forward pressure to flatten is more effective because it addresses the rotation directly rather than trying to pass around it."
@@ -82,7 +82,7 @@ description: "Defend against the hip rotation escape from Electric Chair in BJJ.
     },
     {
       "@type": "Question",
-      "name": "What are the risks of overcommitting to preventing the escape versus allowing turtle and attacking from there?",
+      "name": "Risks of overcommitting to stopping the escape versus letting turtle happen and attacking?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Overcommitting to prevention, particularly through excessive forward drive, can backfire if the bottom player uses your momentum to power their rotation. You may also end up off-balance and in a scramble if the prevention fails. Allowing turtle and attacking from top is lower risk but gives the opponent time to establish defensive posture. The optimal approach is moderate prevention pressure with readiness to transition to turtle attacks if the escape succeeds, rather than going all-in on either strategy."

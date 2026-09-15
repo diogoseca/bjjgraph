@@ -45,7 +45,7 @@ description: "Master offensive strategies from Modified Mount. Learn stability m
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from Modified Mount",
-      "text": "From this position, attempt Cross Collar Choke from Modified Mount. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke from Modified Mount. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 5
     },
     {

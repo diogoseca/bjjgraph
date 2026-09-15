@@ -98,7 +98,7 @@ description: "Master executing the level change takedown. Step-by-step guide cov
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the highest percentage finish after completing the penetration step on a double leg?",
+      "name": "After the penetration step on a double leg, which grip finishes highest percentage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Locking your hands behind both knees in a gable grip while your chest is pressed against their thighs provides the strongest finishing position. Your head should be on the inside of their hip with your ear pressed against their body. From this position, drive forward and turn the corner by stepping your outside foot behind their near leg, creating a trip that takes them directly to their back and allows immediate transition past their legs to side control."
@@ -106,7 +106,7 @@ description: "Master executing the level change takedown. Step-by-step guide cov
     },
     {
       "@type": "Question",
-      "name": "During your shot entry, your opponent begins wrapping a guillotine around your neck - what determines whether you continue or abort?",
+      "name": "They start a guillotine during your shot: what decides whether you drive through or abort?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical factor is your head position relative to their hip. If your head is on the inside of their hip with strong forward pressure, continue driving through to side control where the guillotine loses most of its effectiveness due to the angle change and your body weight pressuring their grip. If your head is on the outside with their hips squared and a deep grip locked around your neck, abort by posturing up immediately, stripping the grip with both hands, and disengaging before they close their guard."

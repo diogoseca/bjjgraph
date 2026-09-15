@@ -78,7 +78,7 @@ description: "Learn to attack with the toe hold from cross ashi-garami. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Why does the cross ashi-garami position make the toe hold more effective than from standard ashi-garami?",
+      "name": "Why is the toe hold stronger from cross ashi-garami than from standard ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossed-leg configuration in cross ashi-garami immobilizes the opponent's hip more effectively than parallel leg positioning in standard ashi. The wedge created by the crossed legs prevents the opponent from rotating their hip to relieve pressure or retract their foot. This means the rotational force from the toe hold grip transfers directly to the ankle joint rather than being absorbed by hip movement. The superior hip control also prevents the most common toe hold defense of simply pulling the foot free."
@@ -86,7 +86,7 @@ description: "Learn to attack with the toe hold from cross ashi-garami. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent curls their toes and flexes their foot into a boot defense as you reach for the toe hold grip - what is your response?",
+      "name": "They use a boot defense as you reach for the toe hold in cross ashi: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not force the grip against the boot defense. Instead, use your elbow to work under the sole of the foot and pry the grip open, or simply wait patiently for the foot to relax since maintaining active foot flexion is exhausting. The more strategic response is to recognize that the boot defense often exposes the heel by changing foot position, creating an opportunity to transition to a heel hook. Use the toe hold threat as a setup to force the defensive reaction that opens the higher-percentage heel hook."
@@ -94,7 +94,7 @@ description: "Learn to attack with the toe hold from cross ashi-garami. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What is the correct grip configuration for the toe hold and why should you never grip individual toes?",
+      "name": "What is the correct toe hold grip, and why should you never grip individual toes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct grip is a figure-four (kimura-style) configuration where your bottom hand wraps under the foot sole with the palm across the ball of the foot, and your top hand grips your own wrist over the toes. This distributes force across the entire forefoot. Gripping individual toes concentrates force on small bones that fracture easily, creates a weak grip that is simple to strip, and generates localized injury rather than the clean rotational pressure on the ankle that produces a controlled tap."
@@ -102,7 +102,7 @@ description: "Learn to attack with the toe hold from cross ashi-garami. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Why must you apply the toe hold slowly, and what makes this submission particularly dangerous regarding pain signals?",
+      "name": "Why must the toe hold be applied slowly, and how do pain signals make it dangerous?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The toe hold generates structural damage to ankle ligaments before the defender experiences significant pain. Unlike chokes where the sensation of pressure provides clear warning, the ankle's ligaments can be stretched or torn while the defender still feels only moderate discomfort. This disconnect between damage and pain means training partners may not tap in time if pressure is applied quickly. Application must take 5-7 seconds minimum with frequent pauses, giving the partner time to assess their joint integrity and tap before injury occurs."
@@ -110,7 +110,7 @@ description: "Learn to attack with the toe hold from cross ashi-garami. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent straightens their leg forcefully to defend the toe hold - how should you adapt your attack?",
+      "name": "They forcefully straighten the leg against your cross ashi toe hold: how do you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Leg straightening to defend the toe hold actually creates an opportunity for a higher-percentage heel hook or straight ankle lock. The extended knee provides optimal leverage for heel hook rotation and eliminates the defensive knee flexion that makes heel hooks difficult. Rather than fighting to maintain the toe hold against a straightened leg, transition your grip from the foot to the heel and attack with a heel hook. This toe-hold-to-heel-hook chain is one of the most effective combinations from cross ashi-garami."

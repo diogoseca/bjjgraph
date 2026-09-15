@@ -64,7 +64,7 @@ description: "How to defend against Roll Through to Reversal in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent grip your choking arm tightly and begin to compact their body—what is your immediate response?",
+      "name": "On top of a front headlock, they grip your choking arm and compact — what's your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sprawl your hips back immediately while increasing downward chest pressure to flatten them. The arm grip and body compaction are the two primary pre-roll cues that indicate the roll attempt is imminent. Your sprawl must be reactive and automatic—waiting even one second after these cues appear may be too late. Simultaneously, widen your base by stepping your posting foot out to create a physical barrier against the roll direction. This two-part response of sprawling back and widening base defeats most roll attempts."
@@ -72,7 +72,7 @@ description: "How to defend against Roll Through to Reversal in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "The opponent's roll has already initiated and you cannot stop it—what is the best defensive strategy?",
+      "name": "Their roll through from front headlock bottom has started and you can't stop it — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the roll direction and work to take the back rather than fighting the momentum. As the opponent rotates through, circle with their motion and look to insert hooks and establish back control. This converts their escape attempt into an even worse position for them. Fighting against an initiated roll with arm strength typically fails and results in a clean reversal to front headlock bottom. The ability to transition from counter-roll defense to back take requires practice but yields the best outcome from a bad situation."
@@ -80,7 +80,7 @@ description: "How to defend against Roll Through to Reversal in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How does your front headlock attacking style need to change against opponents who threaten the roll through?",
+      "name": "How must your front headlock attacking style change against opponents threatening the roll through?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must shift from aggressive forward-driving pressure to controlled downward pressure with better base management. Keep your hips slightly further back than normal, maintain a wider stance, and use sprawl-like positioning even while attacking. Your submissions should come from grip manipulation and angle changes rather than driving your weight forward over the opponent. This more disciplined approach sacrifices some immediate submission pressure but eliminates the roll through vulnerability while still maintaining dominant control."

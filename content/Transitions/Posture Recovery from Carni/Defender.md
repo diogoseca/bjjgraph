@@ -80,7 +80,7 @@ description: "Complete guide to preventing posture recovery from Carni bottom. M
     },
     {
       "@type": "Question",
-      "name": "What is the risk of aggressively applying heel hook finish as the opponent drives forward with stacking pressure?",
+      "name": "In Carni, what is the risk of aggressively finishing the heel hook as they stack forward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Applying aggressive heel hook during dynamic forward pressure significantly increases injury risk for both practitioners. The opponent's forward momentum combined with rotational heel hook force can cause sudden, uncontrollable knee ligament damage before either person can react to tap. The safer approach is to use the heel hook threat to stall forward pressure and create transition opportunities rather than attempting to finish during active stacking movement."

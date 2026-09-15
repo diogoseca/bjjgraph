@@ -84,7 +84,7 @@ description: "How to execute Reverse De La Riva Recovery in BJJ. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your ankle grip and immediately drives their knee forward to initiate a knee slice—what is your recovery sequence?",
+      "name": "They strip your ankle grip and drive a knee slice—what is your recovery sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish a frame on their advancing knee with your near-side arm to arrest the knee slice. Simultaneously hip escape away from the slicing direction to create the angle for hook recovery. Your priority is getting your inside leg back underneath their near leg before their knee reaches the mat. If the knee slice is too advanced, transition your frame to their shoulder and switch to butterfly hook recovery or technical standup rather than forcing RDLR reinsertion from a severely compromised angle."
@@ -100,7 +100,7 @@ description: "How to execute Reverse De La Riva Recovery in BJJ. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "How do active frames differ from passive frames during recovery, and why does this distinction matter?",
+      "name": "How do active frames differ from passive frames in RDLR recovery, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Active frames generate real distance by driving through locked elbows and shoulder engagement, creating space for hip escape execution. Passive frames merely resist collapse without producing movement. During recovery, passive frames are insufficient because the opponent already has forward momentum—you need frames that push them back while you simultaneously shrimp away. The combination of pushing frame and retreating hips creates double the distance compared to either action alone."

@@ -58,7 +58,7 @@ description: "Defend against the lockdown break from Z-Lock Half Guard bottom. R
     },
     {
       "@type": "Question",
-      "name": "Why is immediate re-gripping more effective than waiting for the hooks to be fully stripped before attempting recovery?",
+      "name": "Why re-grip the Z-Lock while hooks are partly stripped instead of after full extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Re-gripping while the hooks still have partial contact requires significantly less energy and movement than recovering from scratch after full extraction. When hooks are partially stripped, you only need to tighten the configuration rather than re-establish it against an opponent actively preventing re-entry. Additionally, the moment of partial strip is when the top player is most focused on completing the extraction, making them less attentive to your upper body counter-attacks."

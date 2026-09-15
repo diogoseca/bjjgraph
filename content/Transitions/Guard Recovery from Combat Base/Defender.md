@@ -56,7 +56,7 @@ description: "Prevent guard recovery from combat base as the top player in BJJ. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating guard recovery from under your combat base?",
+      "name": "From combat base top, what is the earliest cue they're starting to recover guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the creation of a forearm frame across your collarbone or shoulder. This frame precedes all other recovery mechanics and signals that the bottom player is establishing the structural barrier needed to initiate hip escape movement. Addressing this frame within the first second—by swimming past it, stripping the grip, or driving crossface pressure to collapse it—prevents the entire recovery chain from developing."
@@ -64,7 +64,7 @@ description: "Prevent guard recovery from combat base as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully inserts a shin frame across your midsection during their guard recovery—what is your highest-percentage response?",
+      "name": "They insert a shin frame across your midsection — what is your best response from combat base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting the shin frame directly, which engages a losing leverage battle against their skeletal structure, advance your knee past the frame and work to establish half guard top position. Drive your crossface shoulder into their chin while sliding your knee through the gap between their shin and their far leg. Converting their partial recovery into a half guard passing position is more efficient than attempting to reset to combat base."
@@ -72,7 +72,7 @@ description: "Prevent guard recovery from combat base as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your combat base when you feel the bottom player beginning a hip escape beneath you?",
+      "name": "How do you adjust combat base when you feel them starting to hip escape underneath?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their hip movement by adjusting your posted knee to track their near hip, preventing them from creating the lateral angle they need for recovery. Drive your weight through your chest and shoulder into their frame to collapse it during the escape. If they generate significant angle, immediately advance your knee toward their centerline to cut off the shin frame insertion path rather than allowing them to establish the intermediate barrier."
@@ -80,7 +80,7 @@ description: "Prevent guard recovery from combat base as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "When is it strategically better to stand up from combat base rather than drive forward against a guard recovery attempt?",
+      "name": "When is standing up from combat base better than driving forward against guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standing is strategically superior when the bottom player has already established a strong shin frame and their far leg is beginning to circle behind your back, making guard closure imminent. At this point, driving forward risks being pulled into closed guard with broken posture. Standing creates vertical distance that removes their leg attachment options and allows you to initiate standing passes or resettle combat base with superior angle. However, you must immediately control their legs upon standing to prevent open guard establishment."

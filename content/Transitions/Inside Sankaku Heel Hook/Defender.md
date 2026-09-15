@@ -56,7 +56,7 @@ description: "Complete defender guide for surviving the Inside Sankaku Heel Hook
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the correct defensive priority sequence when trapped in Inside Sankaku facing a heel hook attempt?",
+      "name": "What is the correct defensive priority order when facing a heel hook in Inside Sankaku?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct priority sequence is: (1) Protect the heel immediately by hiding it against your own hip with toes turned inward, (2) Fight any grips the opponent establishes using two-on-one grip stripping, (3) Work on positional escape through hip movement and leg extraction only after the submission threat is neutralized. Reversing this order—attempting escape before protecting the heel—is the most common cause of injury from heel hooks because the heel becomes exposed during escape movements."
@@ -64,7 +64,7 @@ description: "Complete defender guide for surviving the Inside Sankaku Heel Hook
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a wrist blade grip against your Achilles and their second hand is reaching for reinforcement—what do you do?",
+      "name": "They have a wrist blade on your Achilles and are reaching to reinforce it. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical intervention window. Use both hands immediately to strip their primary gripping hand before the two-on-one is established. Target their wrist and peel it away from your Achilles by pushing their hand toward your toes and away from the Achilles groove. Once their reinforcement hand connects, the grip becomes exponentially harder to break. If you cannot strip the grip before reinforcement is established and they begin applying rotation, tap immediately—the window for safe escape has closed."
@@ -80,7 +80,7 @@ description: "Complete defender guide for surviving the Inside Sankaku Heel Hook
     },
     {
       "@type": "Question",
-      "name": "When is counter-entangling to 50-50 Guard a viable defensive strategy versus when should you focus on extraction?",
+      "name": "From Inside Sankaku bottom, when is counter-entangling to 50-50 viable instead of extracting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Counter-entangling to 50-50 is viable when the opponent creates space between their legs during their submission attempt—typically when they overcommit to reaching for your heel with both hands. The gap allows your free leg to thread into the entanglement. Focus on extraction instead when your hips have space to move backward and the opponent's figure-four is loosening. Counter-entanglement is riskier because bringing your second leg closer to the opponent can lead to Saddle if the threading fails. Extraction is generally the safer default strategy."

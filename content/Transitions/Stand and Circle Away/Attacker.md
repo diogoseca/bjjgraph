@@ -106,7 +106,7 @@ description: "How to execute Stand and Circle Away in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "How do you recognize when the Stand and Circle Away is not viable and you should choose an alternative escape?",
+      "name": "When is Stand and Circle Away from a front headlock too risky, so you pick another escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Stand and Circle Away becomes high-risk when the opponent has a deep, fully consolidated grip with hands locked (gable grip or S-grip), heavy sprawled hips with settled weight distribution, or has already begun tightening a specific submission. Standing into a locked grip adds your own upward force to their choke pressure. In these situations, ground-based escapes like the Granby Roll, guard recovery through circling on the knees, or a roll-through reversal offer higher success probability. The ideal window for standing escape is during grip transitions, when opponent is adjusting attacks, or before they consolidate control."
@@ -114,7 +114,7 @@ description: "How to execute Stand and Circle Away in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent feels you starting to stand and transitions to a guillotine grip — how do you adjust mid-escape?",
+      "name": "They switch to a guillotine grip as you stand from the front headlock. How do you adjust mid-escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your chin tucked aggressively and maintain control of the choking arm. If the guillotine locks before you can strip it, do not continue standing upward as this feeds the choke. Instead, immediately circle to the choking arm side and sit through to pull half guard, positioning yourself on the guillotine arm's side where the choke is weakest. From half guard with your head on the correct side, the guillotine becomes very difficult to finish and you can work standard guillotine defense. The key is recognizing the grip change early and adapting your escape vector rather than continuing the original plan."

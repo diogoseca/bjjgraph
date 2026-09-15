@@ -64,7 +64,7 @@ description: "How to defend against Arm Triangle Setup in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to avoid turning away from the attacker when you feel the arm triangle developing?",
+      "name": "Caught in a developing arm triangle from north-south, why must you not turn away from the attacker?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning away from the attacker rotates your trapped arm deeper into your own neck, increasing the compression on your carotid artery. It also assists the attacker's hip walk by moving in the same direction they need to transition to side control. The instinct to turn away feels like escape but mechanically accelerates the choke. Instead, bridge and turn toward the attacker to create space on the near side and disrupt the arm-across-neck configuration."
@@ -72,7 +72,7 @@ description: "How to defend against Arm Triangle Setup in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your arm is already across your neck and the attacker is locking the grip—what is your highest-percentage defensive option?",
+      "name": "Your arm is across your neck and they are locking the grip; what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is inserting your near-side knee between your bodies during the hip walk phase to recover half guard. The half guard hook prevents the attacker from achieving the side control angle needed for maximum compression and creates enough positional disruption to work toward arm extraction. Fighting the grip directly at this stage has a very low success rate because the attacker has mechanical advantage through their locked hands and chest pressure."
@@ -88,7 +88,7 @@ description: "How to defend against Arm Triangle Setup in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "During which phase of the arm triangle setup is the attacker's base most vulnerable to a defensive bridge?",
+      "name": "During which phase of the north-south arm triangle setup is the attacker's base weakest to a bridge?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The attacker's base is most vulnerable during the hip walk phase when they are transitioning from perpendicular North-South alignment toward a lateral side control angle. During this movement their weight distribution shifts progressively to one side, their knees are in motion rather than planted, and they cannot post effectively because both hands are committed to the grip. A well-timed bridge during mid-walk catches them between positions where they have neither North-South stability nor side control stability."

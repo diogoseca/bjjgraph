@@ -1,0 +1,205 @@
+{
+  "aliases": {
+    "Armbar Control": "Armbar from Armbar Control",
+    "Triangle Control": "Triangle Choke from Triangle Control",
+    "Gogoplata Control": "Gogoplata from Gogoplata Control",
+    "Omoplata Control": "Omoplata from Omoplata Control",
+    "Kneebar Control": "Kneebar from Kneebar Control",
+    "Straight Ankle Lock Control": "Straight Ankle Lock from Straight Ankle Lock Control",
+    "Guillotine Control": "Guillotine Choke from Guillotine Control",
+    "Anaconda Control": "Anaconda Choke from Anaconda Control",
+    "Darce Control": "Darce Choke from Darce Control",
+    "Aoki Lock Control": "Aoki Lock from Aoki Lock Control",
+    "Estima Lock Control": "Estima Lock from Estima Lock Control",
+    "Toe Hold Control": "Toe Hold from Toe Hold Control"
+  },
+  "continuations": {
+    "Belly Down Armbar from Armbar Control": [
+      "Armbar from Armbar Control",
+      "Back Take from Armbar",
+      "Kimura from Armbar Control",
+      "Omoplata from Armbar Control",
+      "Triangle from Armbar"
+    ],
+    "Omoplata from Armbar Control": [
+      "Armbar from Armbar Control",
+      "Back Take from Armbar",
+      "Belly Down Armbar from Armbar Control",
+      "Kimura from Armbar Control",
+      "Triangle from Armbar"
+    ],
+    "Armbar from Armbar Control": [
+      "Back Take from Armbar",
+      "Belly Down Armbar from Armbar Control",
+      "Kimura from Armbar Control",
+      "Omoplata from Armbar Control",
+      "Triangle from Armbar"
+    ],
+    "Kimura from Armbar Control": [
+      "Armbar from Armbar Control",
+      "Back Take from Armbar",
+      "Belly Down Armbar from Armbar Control",
+      "Omoplata from Armbar Control",
+      "Triangle from Armbar"
+    ],
+    "Triangle Choke from Triangle Control": [
+      "Inverted Triangle from Triangle Control",
+      "Triangle to Armbar",
+      "Triangle to Back",
+      "Triangle to Omoplata",
+      "Kimura from Triangle Control",
+      "Americana from Triangle Control",
+      "Armbar from Triangle Control"
+    ],
+    "Inverted Triangle from Triangle Control": [
+      "Triangle Choke from Triangle Control",
+      "Triangle to Armbar",
+      "Triangle to Back",
+      "Triangle to Omoplata"
+    ],
+    "Gogoplata from Gogoplata Control": [
+      "High Mount Transition",
+      "Mission Control Recovery"
+    ],
+    "Omoplata from Omoplata Control": [
+      "Omoplata to Back",
+      "Omoplata to Sweep"
+    ],
+    "Kneebar from Kneebar Control": [
+      "Kneebar to 50-50 Transition",
+      "Kneebar to Ashi Garami",
+      "Toe Hold from Kneebar Control"
+    ],
+    "Toe Hold from Kneebar Control": [
+      "Kneebar from Kneebar Control",
+      "Kneebar to 50-50 Transition",
+      "Kneebar to Ashi Garami"
+    ],
+    "Straight Ankle Lock from Straight Ankle Lock Control": [],
+    "Ten Finger Guillotine from Guillotine Control": [
+      "Arm in Guillotine from Guillotine Control",
+      "Guillotine Choke from Guillotine Control",
+      "High Elbow Guillotine from Guillotine Control"
+    ],
+    "High Elbow Guillotine from Guillotine Control": [
+      "Arm in Guillotine from Guillotine Control",
+      "Guillotine Choke from Guillotine Control",
+      "Ten Finger Guillotine from Guillotine Control"
+    ],
+    "Guillotine Choke from Guillotine Control": [
+      "Arm in Guillotine from Guillotine Control",
+      "High Elbow Guillotine from Guillotine Control",
+      "Ten Finger Guillotine from Guillotine Control"
+    ],
+    "Arm in Guillotine from Guillotine Control": [
+      "Guillotine Choke from Guillotine Control",
+      "High Elbow Guillotine from Guillotine Control",
+      "Ten Finger Guillotine from Guillotine Control"
+    ],
+    "Anaconda Choke from Anaconda Control": [
+      "Anaconda to Side Control",
+      "Back Take from Anaconda"
+    ],
+    "Darce Choke from Darce Control": [
+      "Darce to Anaconda Switch"
+    ],
+    "Aoki Lock from Aoki Lock Control": [],
+    "Estima Lock from Estima Lock Control": [
+      "Estima Lock to Ashi Garami",
+      "Estima Lock to Saddle",
+      "Kneebar from Estima Lock",
+      "Toe Hold from Estima Lock"
+    ],
+    "Toe Hold from Estima Lock": [
+      "Estima Lock from Estima Lock Control",
+      "Estima Lock to Ashi Garami",
+      "Estima Lock to Saddle",
+      "Kneebar from Estima Lock"
+    ],
+    "Kneebar from Toe Hold Control": [
+      "Toe Hold from Toe Hold Control",
+      "Toe Hold to Ashi Garami",
+      "Toe Hold to Straight Ankle Lock"
+    ],
+    "Toe Hold from Toe Hold Control": [
+      "Kneebar from Toe Hold Control",
+      "Toe Hold to Ashi Garami",
+      "Toe Hold to Straight Ankle Lock"
+    ],
+    "Kimura from Triangle Control": [
+      "Triangle Choke from Triangle Control",
+      "Americana from Triangle Control",
+      "Armbar from Triangle Control"
+    ],
+    "Americana from Triangle Control": [
+      "Triangle Choke from Triangle Control",
+      "Kimura from Triangle Control",
+      "Armbar from Triangle Control"
+    ],
+    "Armbar from Triangle Control": [
+      "Triangle Choke from Triangle Control",
+      "Kimura from Triangle Control",
+      "Americana from Triangle Control"
+    ]
+  },
+  "defense_overrides": {
+    "Triangle Choke from Triangle Control": [
+      {
+        "label": "Posture up",
+        "to": "open-guard/top",
+        "action": "Recover posture and clear the triangle entanglement.",
+        "when_to_use": "Before the attacker has secured an effective finishing angle.",
+        "risk": "Posturing without protecting the neck and trapped arm can expose the finish."
+      },
+      {
+        "label": "Stack escape",
+        "to": "half-guard/top",
+        "action": "Use the authored Stack Escape from Triangle to clear the entanglement and recover top half guard.",
+        "when_to_use": "When the attacker\u2019s alignment allows a controlled stack and leg clearance.",
+        "risk": "The attacker may switch to the Omoplata."
+      }
+    ],
+    "Armbar from Armbar Control": [
+      {
+        "label": "Hitchhiker escape",
+        "to": "turtle/bottom",
+        "action": "Follow the authored hitchhiker escape path to extract the arm and recover turtle.",
+        "when_to_use": "When rotational space remains and the arm is not already secured under finishing pressure.",
+        "risk": "The attacker may follow into a belly-down armbar."
+      },
+      {
+        "label": "Stack escape",
+        "to": "closed-guard/top",
+        "action": "Protect the arm and use the stack defense to extract it and recover on top.",
+        "when_to_use": "When forward movement is available without loading the trapped elbow.",
+        "risk": "The attacker may change the armbar angle or switch submissions."
+      }
+    ]
+  },
+  "labels": {
+    "Triangle to Armbar": "Attack armbar",
+    "Triangle to Omoplata": "Attack Omoplata",
+    "Triangle to Back": "Take the back",
+    "Posture Up from Triangle": "Posture up",
+    "Stack Escape from Triangle": "Stack escape",
+    "Kimura to Back Take": "Take the back",
+    "Back Take from Armbar": "Take the back",
+    "Belly Down Armbar Transition": "Switch to belly-down armbar",
+    "Kimura from Triangle Control": "Attack Kimura",
+    "Americana from Triangle Control": "Attack Americana",
+    "Armbar from Triangle Control": "Attack straight arm lock",
+    "Omoplata to Back": "Take the back",
+    "Omoplata to Sweep": "Sweep to top",
+    "Kneebar to 50-50 Transition": "Move to 50/50",
+    "Kneebar to Ashi Garami": "Move to Ashi Garami",
+    "Anaconda to Side Control": "Move to side control",
+    "Back Take from Anaconda": "Take the back",
+    "Darce to Anaconda Switch": "Attack Anaconda",
+    "Estima Lock to Ashi Garami": "Move to Ashi Garami",
+    "Estima Lock to Saddle": "Move to Saddle",
+    "Kneebar from Estima Lock": "Attack Kneebar",
+    "Toe Hold from Estima Lock": "Attack Toe Hold",
+    "Toe Hold to Ashi Garami": "Move to Ashi Garami",
+    "Toe Hold to Straight Ankle Lock": "Attack straight ankle lock"
+  }
+}

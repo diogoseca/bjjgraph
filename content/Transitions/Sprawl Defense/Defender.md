@@ -56,7 +56,7 @@ description: "How to counter the sprawl in BJJ. Strategies for completing takedo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your immediate priority when you feel your opponent's hips driving back during your takedown attempt?",
+      "name": "Shooting a takedown, you feel their hips drive back: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to maintain your own hip position by keeping your knees underneath you and preventing your body from being driven flat to the mat. Simultaneously, tuck your chin to your chest to protect your neck from front headlock and guillotine attempts. These two actions - hip preservation and neck protection - must happen reflexively before you consider any offensive continuation or escape. If you lose both hip position and neck safety, recovery becomes exponentially harder."
@@ -72,7 +72,7 @@ description: "How to counter the sprawl in BJJ. Strategies for completing takedo
     },
     {
       "@type": "Question",
-      "name": "Your opponent has sprawled and is beginning to wrap their arm around your head - how do you prevent the front headlock from being established?",
+      "name": "They sprawled and are wrapping your head: how do you stop the front headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use your near-side hand to fight their wrapping arm at the wrist or inside the elbow, creating a frame that prevents them from closing the loop around your head. Keep your chin buried in your chest so they cannot get under your chin for a guillotine. Simultaneously, use your other hand to post on their hip or shoulder to create space and prevent their chest from settling onto your back. If you can prevent them from locking their hands together and keep your chin tucked, the front headlock cannot be fully consolidated and you maintain escape options."
@@ -96,7 +96,7 @@ description: "How to counter the sprawl in BJJ. Strategies for completing takedo
     },
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is about to sprawl on your takedown attempt?",
+      "name": "What are the earliest cues that your opponent is about to sprawl on your shot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are a sudden backward shift of their hips, their hands moving toward your head and shoulders, and their weight transferring from the balls of their feet toward their toes as they prepare to drive hips back. If you feel their hands make contact with the back of your head before you have secured deep grips on their legs, the sprawl is imminent and you should either accelerate your penetration dramatically or abort the shot and recover standing position before the weight settles."

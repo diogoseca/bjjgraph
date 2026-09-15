@@ -104,7 +104,7 @@ description: "How to execute Tarikoplata Setup in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains a completely static defense in Meathook, neither pressing forward nor pulling back—why is this the optimal timing for the Tarikoplata?",
+      "name": "From Meathook, why is a completely static defense the ideal moment for the Tarikoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A static defense eliminates the Gogoplata trigger (forward pressure) and the Baratoplata trigger (backward extraction). The opponent thinks they are denying you both attacks by staying still. But static defense leaves their arm in the exact position needed for the omoplata leg transition—bent at 90 degrees, shoulder loaded, posture broken. Their immobility gives you time to execute the multi-step Tarikoplata entry without defensive interruption."
@@ -112,7 +112,7 @@ description: "How to execute Tarikoplata Setup in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "During the leg transition from Meathook to omoplata angle, what is the most common failure point and how do you prevent it?",
+      "name": "In the Meathook-to-omoplata leg transition, what is the common failure and how do you avoid it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common failure is releasing shin hook pressure too early during the transition, creating a control gap where the opponent extracts their arm. The solution is overlapping control phases: maintain the shin hook against the tricep until your leg has fully cleared the shoulder and reached the omoplata position. Your wrist grip should be established before the final release of hook pressure. Never create a moment where the arm is uncontrolled."

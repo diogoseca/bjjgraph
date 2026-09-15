@@ -76,7 +76,7 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the outside heel hook primarily attack and how does the rotational direction determine which ligaments are stressed?",
+      "name": "Which structures does the outside heel hook stress, and how does rotation direction decide this?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The outside heel hook attacks the LCL, posterolateral corner, and ACL by rotating the heel outward while the leg clamp holds the knee stationary. This lateral (outward) rotation creates torsional stress concentrated on the lateral side of the knee. It is distinct from the inside heel hook, which rotates the heel inward and primarily attacks the medial collateral ligament (MCL). The meniscus is also at risk from both rotational directions due to the shearing forces created between the femur and tibia."
@@ -84,7 +84,7 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent is hiding their heel using boot defense with toes curled and foot rotated inward - what adjustments do you make to expose the heel?",
+      "name": "They hide the heel with boot defense; how do you expose it from leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent uses boot defense, you have several options. First, use your free hand to fight for the heel by gripping the top of their foot and prying it open to expose the heel bone. Second, transition to a straight ankle lock that attacks the exposed Achilles tendon and ankle joint without requiring heel access. Third, consider switching to the inside heel hook angle, because the foot rotation that hides the outside heel actually exposes the inside heel. Fourth, you can advance your entanglement to a tighter position like the saddle, where the increased control makes boot defense much harder to maintain."
@@ -92,7 +92,7 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
     },
     {
       "@type": "Question",
-      "name": "What is the proper heel cup grip placement and why is gripping the toes or midfoot insufficient for finishing?",
+      "name": "Where must the heel cup sit, and why are toe or midfoot grips too weak to finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The proper heel cup places the blade of the wrist directly across the Achilles tendon with fingers wrapping around the calcaneus (heel bone). This creates a rigid rotational lever that transmits force directly into the knee joint through the tibia. Gripping the toes or midfoot is insufficient because the foot's many small joints and flexible ligaments absorb and dissipate rotational force before it reaches the knee. The midfoot bends and flexes under pressure rather than transmitting rotation, resulting in a weak finish that experienced grapplers can outlast. The heel bone is the only rigid structure that creates a direct mechanical connection to the knee through the ankle."
@@ -100,7 +100,7 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
     },
     {
       "@type": "Question",
-      "name": "Your hips have drifted several inches away from your opponent's thigh during the finishing attempt - what is the consequence and how do you correct it?",
+      "name": "Your hips drift off their thigh mid-finish; what does that cost and how do you fix it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip drift costs you knee line control and rotational leverage, so stop rotating and scoot your hips back tight against their thigh before finishing. The space you created allows the opponent to straighten their leg and begin extracting from the entanglement, and the increased distance reduces your rotational leverage because your body is no longer in tight mechanical connection with their trapped leg. Once your hips are pressed firmly against their thigh again, re-establish your knee clamp and verify your hooks are deep before resuming the finishing sequence. Never try to finish from a loose position."
@@ -108,7 +108,7 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins clearing the knee line by pushing your hips above their knee during your finishing attempt - how do you respond?",
+      "name": "They push your hips above their knee line mid-finish; how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent clears the knee line, your heel hook access is lost because your body is now positioned above the knee rather than below it. Immediately re-pummel your inside hook deeper behind their knee and scoot your hips back below the knee line. If they are actively straightening their leg during the clearance, recognize the opportunity to transition to a kneebar attack that capitalizes on the extended leg. If they fully clear and begin recovering guard, you can disengage and accept the Open Guard/Top position rather than fighting for a submission from a mechanically disadvantaged angle. The worst response is to increase rotation pressure from above the knee line, which is both ineffective and potentially dangerous."
@@ -116,7 +116,7 @@ description: "Learn to attack with the outside heel hook from leg entanglement. 
     },
     {
       "@type": "Question",
-      "name": "What role does hip extension play in generating finishing force for the outside heel hook and why is arm strength alone insufficient?",
+      "name": "How does hip extension generate heel hook finishing force, and why are arms alone not enough?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip extension is the primary force generator, recruiting the glutes, hamstrings, and core to drive rotational torque through the whole kinetic chain. Your arms and grip function as the structural connection between your body and the opponent's heel, but the actual rotational power comes from your hips driving forward while your torso rotates as a unit. Arm strength alone is insufficient because the forearm muscles fatigue rapidly under sustained isometric load, producing inconsistent pressure that experienced opponents can outlast. The body-rotation method also produces smoother, more controlled pressure that is safer for training partners."

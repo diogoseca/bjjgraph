@@ -90,7 +90,7 @@ description: "Execute the Dead Orchard Control escape in BJJ. Step-by-step guide
     },
     {
       "@type": "Question",
-      "name": "Your opponent increases shoulder pressure and begins walking hips toward your head - what does this indicate and how do you respond?",
+      "name": "They add shoulder pressure and walk hips toward your head: what is this and your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This indicates the opponent is committing to the anaconda finishing rotation, which is the highest-threat scenario in dead orchard control. Respond by either matching their hip rotation to prevent them from achieving the finishing angle, or execute a forward roll in the direction of their rotation to use their momentum against them. The forward roll can invert the position and create guard recovery opportunity. Staying static during this rotation guarantees the submission finish."
@@ -106,7 +106,7 @@ description: "Execute the Dead Orchard Control escape in BJJ. Step-by-step guide
     },
     {
       "@type": "Question",
-      "name": "What determines whether you should extract the trapped arm or insert a knee frame after creating hip angle?",
+      "name": "What decides between extracting the trapped arm and inserting a knee frame after making angle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip depth determines the choice. If the trapped arm has some freedom at the elbow and can be retracted toward your hip with moderate effort, extract it since this breaks the dead orchard mechanics entirely. If the arm is deeply trapped and extraction would require fighting directly against the grip, insert a knee frame between your body and the opponent's chest instead. The knee frame prevents them from re-settling weight and creates a pathway to half guard recovery without needing to fight the grip directly."
@@ -114,7 +114,7 @@ description: "Execute the Dead Orchard Control escape in BJJ. Step-by-step guide
     },
     {
       "@type": "Question",
-      "name": "How do you maintain effective breathing when your airway is partially restricted in Dead Orchard Control?",
+      "name": "How do you breathe when your airway is partly restricted in Dead Orchard Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Focus on slow, controlled nasal breathing rather than mouth breathing. Accept that full breaths are impossible and work with a consistent rhythm of shallow nasal breaths. Exhale during movements such as hip escapes and frame adjustments, and inhale during brief pauses. The body can function on restricted oxygen for longer than most practitioners realize if panic is avoided. Breath-holding or rapid gasping accelerates fatigue and reduces the time available for technical escape execution."

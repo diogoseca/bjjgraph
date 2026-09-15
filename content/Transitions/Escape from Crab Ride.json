@@ -277,7 +277,7 @@
         }
       },
       {
-        "question": "Why should you combine hip escape movement with hand-assisted hook stripping rather than using arms alone?",
+        "question": "Why combine hip escape with hand-assisted hook stripping instead of using arms alone?",
         "answer": "The opponent's hooking leg is significantly stronger than your arm in a static pulling contest. Hip escape movement reduces the hook's depth by moving your hip away from the foot, decreasing the leverage the hook has on your body. Once the hook is shallow from hip displacement, a hand assist easily clears it. Without hip movement, you fight the full strength of their leg hook with just your arm, which drains energy and rarely succeeds against a committed opponent.",
         "answer_line": "Hip movement weakens the hook first",
         "distractors": {
@@ -291,7 +291,7 @@
         }
       },
       {
-        "question": "Your opponent deepens their hook and increases chest pressure when you attempt to shrimp away - how do you adjust?",
+        "question": "They deepen the hook and add chest pressure as you shrimp from crab ride: how do you adjust?",
         "answer": "When the opponent commits forward pressure and deepens the hook in response to your shrimp, switch to a Granby roll escape. Their forward weight commitment actually helps the inversion by providing momentum, and their deep hook means their base is compromised on the far side. The key is recognizing that their counter to one escape variant creates the opening for a different variant. Alternatively, a sit-out toward the hooked side can exploit their forward commitment.",
         "answer_line": "Switch to a Granby roll",
         "distractors": {
@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "Your escape attempt fails and you feel the opponent inserting a second hook - what is the immediate protocol?",
+        "question": "Your crab ride escape fails and they insert a second hook: what is your immediate protocol?",
         "answer": "Immediately abandon the crab ride escape and transition to back control defensive protocol. Tuck chin aggressively, establish two-on-one grip control on whichever arm threatens your neck, and begin the back escape sequence of protecting neck first, then addressing hooks and upper body control. Continuing to fight the crab ride escape once the second hook is in wastes time in a now-different and more dangerous position.",
         "answer_line": "Abandon escape, defend neck",
         "distractors": {
@@ -389,7 +389,7 @@
         }
       },
       {
-        "question": "What grip should you prioritize controlling on the opponent's upper body before initiating the escape?",
+        "question": "Before escaping crab ride, which upper body grip should you prioritize controlling?",
         "answer": "Prioritize controlling whichever grip threatens your neck most directly. If they have a collar grip or seatbelt configuration, the choking arm must be managed first through two-on-one control or stripping. If they have an underhook, overhook it and clamp it to your body. The upper body grip management prevents the opponent from following your hip movement during the escape and reduces submission threats during the transition.",
         "answer_line": "Control the choking arm first",
         "distractors": {
@@ -508,7 +508,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the most important control element to maintain when the opponent begins their escape attempt?",
+        "question": "Riding crab ride, which control element matters most once they begin escaping?",
         "answer": "Chest-to-back pressure is the most important element because it limits the space available for hip escape movement, slows the escape, and maintains your weight advantage. While the hook provides the anchor, it is the chest pressure that prevents the explosive hip displacement needed to strip the hook. Opponents who can create space between your chest and their back have dramatically higher escape success rates regardless of hook depth.",
         "answer_line": "Chest-to-back pressure",
         "distractors": {

@@ -82,7 +82,7 @@ description: "Learn to execute the Shin-to-Shin to Single Leg X-Guard entry. Ste
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the strongest anchor for preventing opponent disengagement during the entry?",
+      "name": "Which grips best anchor the shin-to-shin to single leg X entry against disengagement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A same-side sleeve grip combined with a cross-collar or far-side lapel grip creates the strongest pulling anchor. The sleeve grip prevents the opponent from posting their hand to resist the weight loading, while the collar grip breaks their posture forward and commits their weight over the trapped leg. In no-gi, wrist control and collar tie serve the same function."
@@ -90,7 +90,7 @@ description: "Learn to execute the Shin-to-Shin to Single Leg X-Guard entry. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stepping their trapped leg backward as you initiate the thread—how do you adjust?",
+      "name": "They step the trapped leg back as you thread for single leg X — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If they begin retreating during the early threading phase, you can either follow with your hips to maintain connection range, or abandon the SLX entry and redirect to a pulling sweep that uses their backward momentum against them. If your inside leg has already begun wrapping, accelerate the thread and grip their ankle directly to prevent full retraction."
@@ -98,7 +98,7 @@ description: "Learn to execute the Shin-to-Shin to Single Leg X-Guard entry. Ste
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail that distinguishes a secure inside leg wrap from one the opponent can easily escape?",
+      "name": "What detail makes the single leg X inside leg wrap secure rather than easily escaped?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The depth of the wrap around the ankle is the critical factor. Your instep must hook behind their Achilles tendon with the wrap continuing above the ankle joint, not just resting loosely across the front of their shin. This deep hook creates a mechanical lock that requires the opponent to address the wrap specifically rather than simply pulling their leg free."
@@ -106,7 +106,7 @@ description: "Learn to execute the Shin-to-Shin to Single Leg X-Guard entry. Ste
     },
     {
       "@type": "Question",
-      "name": "Which direction should your force be applied through the shin connection to optimally load the opponent's weight for entry?",
+      "name": "Which force direction through the shin connection best loads their weight for the SLX entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply force diagonally upward and slightly toward the opponent's far side through the shin connection. This direction both elevates their leg slightly—making retraction harder—and shifts their weight laterally over the trapped leg. Pure forward pressure is less effective because it allows backsteps, while lateral loading commits their balance to a point they cannot easily recover from."
@@ -114,7 +114,7 @@ description: "Learn to execute the Shin-to-Shin to Single Leg X-Guard entry. Ste
     },
     {
       "@type": "Question",
-      "name": "Your first SLX entry attempt is blocked by the opponent clearing your shin—what immediate chain attack should you pursue?",
+      "name": "Your SLX entry is blocked when they clear your shin — what chain attack follows immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the shin is cleared, the opponent often creates space by stepping back or circling. This movement frequently exposes opportunities for a collar drag to take them off-balance, a direct transition to De La Riva guard on the clearing leg, or a technical stand-up to single leg. The key is having a predetermined secondary attack so the failed entry flows immediately into the next threat."

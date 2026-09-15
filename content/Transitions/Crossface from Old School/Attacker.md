@@ -80,7 +80,7 @@ description: "Execute the Crossface from Old School to pass lockdown half guard.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent begins pumping the lockdown aggressively as you start the crossface - how do you adjust your approach?",
+      "name": "Old School top: they pump the lockdown as you start the crossface. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately sprawl your hips slightly back while maintaining chest pressure to neutralize the pump's sweeping leverage. Do not fight the pump by pulling your leg, as this feeds their mechanics. Wait for the pumping rhythm to slow, then resume the crossface drive during a pause between pumps. The sprawl removes the leverage angle they need while your weight keeps them pinned."
@@ -88,7 +88,7 @@ description: "Execute the Crossface from Old School to pass lockdown half guard.
     },
     {
       "@type": "Question",
-      "name": "What is the most critical body position element that makes the crossface effective from Old School Top?",
+      "name": "What body position element matters most for an effective crossface from Old School top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest-to-chest weight distribution with hips low is the critical element. The crossface derives its power from body weight transferred through the chest and shoulder, not from arm strength. When chest weight is properly committed forward onto the opponent's sternum, the crossface becomes a structural force they cannot frame against, while simultaneously preventing the hip movement they need for sweeps and guard recovery."
@@ -104,7 +104,7 @@ description: "Execute the Crossface from Old School to pass lockdown half guard.
     },
     {
       "@type": "Question",
-      "name": "Your opponent frames against your crossface shoulder with their forearm - what does this tell you and how do you respond?",
+      "name": "They frame your crossface shoulder with a forearm. What does that tell you, and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The frame indicates they have released head control to create the frame, which is actually favorable because head control was one of the structures you needed to break. Swim your crossface hand inside their framing forearm and re-establish crossface below the frame. Their frame becomes ineffective once you are below it, and they have already given up the more dangerous head control grip voluntarily."

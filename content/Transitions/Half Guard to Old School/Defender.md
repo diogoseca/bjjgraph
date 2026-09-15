@@ -88,7 +88,7 @@ description: "How to defend and prevent the Transition to Old School in BJJ half
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established lockdown and underhook but not yet secured head control - what is your best defensive option?",
+      "name": "They have lockdown and underhook but no head control yet — your best defensive option from top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your last high-percentage window. Drive your crossface pressure dramatically harder to turn their head away and prevent them from reaching for head control with their far arm. Simultaneously deepen your whizzer to limit the underhook's range of motion and prevent them from positioning their shoulder under your center of gravity. If you can flatten them back to the mat before head control is secured, the Old School position is incomplete and their sweep leverage is significantly reduced. Consider transitioning to Kimura attack on their underhooking arm if they overcommit to the position."

@@ -96,7 +96,7 @@ description: "Complete guide to executing the Cartwheel Escape from Omoplata in 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has their leg over your shoulder but has not gripped your belt yet - how do you assess whether to attempt the cartwheel escape?",
+      "name": "Leg over your shoulder, no belt grip yet: how do you assess whether to cartwheel out?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Check three things rapidly: first, whether their free leg is hooking your far leg, which would block the roll; second, whether they are beginning to sit up, which signals imminent hip control; third, whether you have clear mat space ahead for the roll. If the leg hook is absent, they remain on their back, and space is available, commit immediately and decisively to the forward roll before the window closes."
@@ -120,7 +120,7 @@ description: "Complete guide to executing the Cartwheel Escape from Omoplata in 
     },
     {
       "@type": "Question",
-      "name": "The omoplata holder grabs your belt as you begin loading weight forward - what is the correct response?",
+      "name": "They grab your belt as you load forward for the cartwheel omoplata escape: what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the cartwheel escape immediately. The belt grip anchors your hips and prevents the forward momentum needed for the roll. Attempting to force through the grip wastes energy and worsens your position. Instead, transition to alternative defenses: drive your hips back to relieve shoulder pressure while working to strip the belt grip, use posture recovery by walking your knees back and creating an upright position, or employ the stack defense by driving forward pressure onto the opponent to flatten them."

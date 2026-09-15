@@ -74,7 +74,7 @@ description: "Learn to recover guard from guillotine control as the bottom playe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the critical first action before releasing a failing guillotine grip to ensure safe guard recovery?",
+      "name": "What must you do before releasing a failing guillotine to recover guard safely?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Position your legs as distance barriers before releasing the guillotine—place feet on the opponent's hips or insert butterfly hooks under their thighs. This ensures continuous distance management throughout the grip transition, preventing the opponent from collapsing into passing pressure during the brief window when your arms are switching from choke to frames."
@@ -82,7 +82,7 @@ description: "Learn to recover guard from guillotine control as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "Why is it important to release the guillotine proactively rather than waiting for the opponent to fully extract their head?",
+      "name": "Why release a failing guillotine proactively instead of waiting until their head is out?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Proactive release preserves your grip strength for framing and allows you to control the transition timing. When you wait for full extraction, the opponent dictates when and how the position changes, they have already planned their next passing action, and your forearms are exhausted from maintaining a failing choke, making your subsequent frames weak and easily collapsed."
@@ -90,7 +90,7 @@ description: "Learn to recover guard from guillotine control as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "Your opponent postures explosively as you release the guillotine and begins establishing passing grips—what is your recovery priority?",
+      "name": "They posture explosively and grab passing grips as you release the guillotine—what's your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately chase with feet on hips to maintain connection and extend your legs to push them away while securing at least one collar or sleeve grip. The feet-on-hips position converts their explosive posture into a long-range open guard engagement where your legs control distance. Without this immediate chase, the opponent creates free space to choose their passing angle and grip setup."
@@ -106,7 +106,7 @@ description: "Learn to recover guard from guillotine control as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "How does the hip escape timing differ in guard recovery from guillotine control compared to guard recovery from a standard passing position?",
+      "name": "How does hip escape timing in guillotine recovery differ from recovery against a normal pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In guillotine recovery, the hip escape must coincide with the grip release rather than being a reaction to passing pressure. You are creating the angle proactively during a planned transition, not escaping from an established passing position. This means the hip escape happens simultaneously with the hand transition, requiring more coordination but allowing better timing since you control when the movement sequence begins."
@@ -114,7 +114,7 @@ description: "Learn to recover guard from guillotine control as the bottom playe
     },
     {
       "@type": "Question",
-      "name": "What specific grip should your choking hand transition to during the release, and in which direction should the force be applied?",
+      "name": "After releasing the guillotine, what grip should your choking hand take and in what direction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choking hand should transition to a collar grip or cross-face frame on the opponent's far shoulder, applying force diagonally downward and away from your body. This direction prevents the opponent from driving forward through your centerline while maintaining head control that was partially established by the guillotine position. The diagonal force vector creates a structural frame that uses skeletal alignment rather than muscular strength."

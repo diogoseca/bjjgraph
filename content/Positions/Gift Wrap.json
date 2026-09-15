@@ -104,7 +104,7 @@
         }
       },
       {
-        "question": "Your opponent begins explosively bridging to create space for arm recovery - what adjustment do you make?",
+        "question": "Your opponent bridges explosively to free the trapped arm from Gift Wrap - how do you adjust?",
         "answer": "When opponent bridges, drive your hips forward into their lower back to flatten them while simultaneously tightening your arm threading under their armpit. Use your hooks or body triangle to absorb the bridging energy. The key is anticipating the bridge and loading your weight forward before they complete the movement, rather than reacting after the bridge creates space.",
         "answer_line": "Drive hips forward, flatten them",
         "distractors": {
@@ -174,7 +174,7 @@
         }
       },
       {
-        "question": "How do you distribute your weight optimally to maintain Gift Wrap without excessive energy expenditure?",
+        "question": "How should you distribute your weight to hold Gift Wrap without burning energy?",
         "answer": "Settle your chest weight directly onto the opponent's upper back through gravity rather than active squeezing. Your hips should drive forward into their lower back creating a wedge effect. Let the arm threading create the control angle through proper positioning rather than gripping with maximum force. Keep your body relaxed between submission attempts while maintaining structural alignment. The arm trap itself should feel nearly effortless when the diagonal line across their chest is correctly angled.",
         "answer_line": "Settle weight, let gravity do it",
         "distractors": {
@@ -188,7 +188,7 @@
         }
       },
       {
-        "question": "What is the immediate threat hierarchy you should address when your opponent partially recovers their trapped arm?",
+        "question": "Your opponent partially recovers the trapped arm from Gift Wrap - what do you attack first?",
         "answer": "If they begin recovering the arm, immediately attack the exposed neck since their hand fighting ability temporarily decreases during recovery attempts. The rear naked choke becomes highest percentage when they use their free arm to push against your controlling arm, as this removes their neck protection. Alternatively, if the arm recovers fully, immediately re-engage the Gift Wrap before they establish two-handed defense.",
         "answer_line": "Attack the neck immediately",
         "distractors": {
@@ -449,7 +449,7 @@
         "transition": "Bow and Arrow Choke Setup",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -588,7 +588,7 @@
         }
       },
       {
-        "question": "Your opponent begins attacking the rear naked choke with their arm already under your chin - what is your immediate response?",
+        "question": "Their arm is already under your chin from Gift Wrap - what is your immediate response?",
         "answer": "Immediately use your free hand to grip fight the choking arm, pulling it down and away from your neck while simultaneously tucking your chin hard toward your chest. Turn your body slightly toward the choking arm side to reduce the angle. Do not waste time on arm recovery when a choke is imminent - defend the choke first, then address the position.",
         "answer_line": "Grip fight arm, tuck chin hard",
         "distractors": {
@@ -630,7 +630,7 @@
         }
       },
       {
-        "question": "Your opponent starts transitioning toward mount while maintaining the Gift Wrap - how should you respond?",
+        "question": "Your opponent moves toward mount while keeping the Gift Wrap - how do you respond?",
         "answer": "As they shift toward mount, use this weight transfer to bridge and create hip movement. Shrimp your hips away from the direction they are moving and try to insert a knee or shin as a frame. The mount transition momentarily reduces their back control pressure, creating an escape window. Time your hip escape to coincide with their weight shift rather than fighting against settled control.",
         "answer_line": "Bridge, shrimp away, frame knee",
         "distractors": {
@@ -972,7 +972,7 @@
       }
     },
     {
-      "question": "Why must the trapped arm be kept high across the chest toward the opposite shoulder rather than low near the hip?",
+      "question": "Why keep the trapped arm high across the chest rather than low near the hip in Gift Wrap?",
       "answer": "Keeping the arm high maintains the diagonal control line and denies the trapped player the shoulder rotation needed to extract the limb. When the arm drifts low toward the waist or hip, it aligns with the body's natural rotational path and mechanical leverage opens up to slide it free. The high position also keeps the neck and free-arm framing lanes compromised, preserving the position's threats. This high-arm principle is the single most important maintenance detail of the configuration and holds true regardless of which player is being considered.",
       "answer_line": "Denies shoulder rotation to escape",
       "distractors": {
@@ -986,7 +986,7 @@
       }
     },
     {
-      "question": "How does the arm trap create the diagonal control line, and what makes that line mechanically strong?",
+      "question": "How does the Gift Wrap arm trap build the diagonal control line, and why is that line strong?",
       "answer": "An arm is threaded under the trapped player's armpit and the wrist or lower forearm is secured on the far side, so the limb crosses the torso from one armpit to the opposite shoulder. This diagonal routing means the trapped arm can no longer travel along its natural rotational arc, because any extraction attempt must fight across the line rather than along it. Gripping low on the wrist or forearm maximizes leverage over the limb with minimal strength. The lock is positional and skeletal, so it holds even when both players fatigue.",
       "answer_line": "Crosses natural rotation path",
       "distractors": {
@@ -1028,7 +1028,7 @@
       }
     },
     {
-      "question": "Why is the chest-to-back connection a defining invariant of the Gift Wrap, and what happens mechanically when it breaks?",
+      "question": "Why is chest-to-back connection essential to Gift Wrap, and what happens when it breaks?",
       "answer": "The chest-to-back connection is what glues the two bodies into a single unit, eliminating the gap the trapped player would otherwise use to rotate their shoulder and slide the limb free. It also keeps the arm trap tight, because the diagonal control line depends on the torsos staying stacked rather than separating. When space opens between chest and back, the shoulder gains room to rotate, the trapped arm finds its extraction path, and the whole configuration begins to revert toward ordinary back control. This is why the connection is listed as a state invariant alongside the arm trap and the leg anchor rather than treated as an optional detail.",
       "answer_line": "Eliminates gap for shoulder turn",
       "distractors": {
@@ -1042,7 +1042,7 @@
       }
     },
     {
-      "question": "What is the mechanical risk of maintaining the arm trap through pain compression rather than positioning?",
+      "question": "What is the risk of holding the Gift Wrap arm trap by pain compression instead of positioning?",
       "answer": "The Gift Wrap is designed to immobilize the arm through skeletal alignment and the diagonal line, not through cranking the shoulder into a pain response. Relying on compression fatigues the controlling arm, wastes energy, and can produce an unintended shoulder-lock submission or a referee intervention rather than clean positional control. Correct maintenance uses the threading angle and chest connection so the trap feels nearly effortless when the diagonal is set properly. This principle keeps the position sustainable and preserves it as a control platform rather than a rushed finish.",
       "answer_line": "Fatigues you, risks bad stoppage",
       "distractors": {

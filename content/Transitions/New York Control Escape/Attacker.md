@@ -106,7 +106,7 @@ description: "Complete guide to executing the New York Control Escape from top p
     },
     {
       "@type": "Question",
-      "name": "The bottom player shoots their shin toward your neck for a gogoplata during your escape - what is your immediate response?",
+      "name": "Escaping New York top, they shoot a shin at your neck for a gogoplata — first response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tuck your chin firmly to your chest to close the throat and prevent the shin from settling across your trachea. Drive your head toward the mat on the side away from the incoming shin to reduce the angle. If possible, stack their hips by driving forward momentarily to compress the shin arc. As a last resort, stand up explosively to create distance that eliminates the shin-to-throat angle. Prevention is superior to reaction - maintaining chin-to-chest posture throughout the escape eliminates most gogoplata opportunities before they develop."

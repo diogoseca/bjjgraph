@@ -88,7 +88,7 @@ description: "Master the Dead Orchard to Darce Switch from the attacker perspect
     },
     {
       "@type": "Question",
-      "name": "How do you maintain control during the brief window when neither the anaconda nor darce grip is fully secured?",
+      "name": "Switching Dead Orchard to darce, how do you keep control while neither grip is secured?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the grip transition window, maintain control through constant shoulder pressure driving into the opponent's trapped shoulder and head. Your chest must remain connected to their upper back to prevent distance creation. Use your free hand to control their far hip or post for base. The shoulder pressure serves as your primary anchor point while your choking arm re-threads from anaconda to darce configuration."
@@ -104,7 +104,7 @@ description: "Master the Dead Orchard to Darce Switch from the attacker perspect
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully defends the switch by tucking their chin and clamping their elbow - what is your best follow-up?",
+      "name": "They defend the switch with a chin tuck and elbow clamp. What is your best follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent defends with chin tuck and elbow clamp, do not force the darce grip deeper. Instead, use their defensive shell against them by transitioning to mount or north-south where their tight defensive posture becomes a liability since they cannot frame effectively. Alternatively, return to the dead orchard anaconda configuration if your arm is still positioned to re-establish that grip. Maintain offensive momentum rather than stalling on a defended transition."

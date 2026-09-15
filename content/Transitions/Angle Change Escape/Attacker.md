@@ -106,7 +106,7 @@ description: "How to execute Angle Change Escape in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "During your angle change, opponent releases the gogoplata and begins setting up a triangle - what went wrong and how do you respond?",
+      "name": "Mid angle-change escape they release the gogoplata for a triangle: what went wrong and what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your near-side arm likely drifted away from your torso during the escape, creating the opening for arm isolation. Immediately posture up and bring the exposed arm tight to your body. Address the triangle defense before continuing escape rather than trying to complete angle change."

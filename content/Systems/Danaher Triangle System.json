@@ -1,0 +1,247 @@
+{
+  "name": "Danaher Triangle System",
+  "description": "Explore Danaher triangle control through entries, orientation changes and connected arm attacks, with specific course guidance and practical BJJGraph study tasks.",
+  "summary": "The Danaher Triangle System is a BJJGraph study framework connecting triangle entry and control with the different orientations an opponent's movement can create.",
+  "overview": "Triangles Enter The System is a direct companion for comparing front, opposite, rear, side and reverse triangle situations. The vendor syllabus includes setup work, transitions from preliminary control to a completed configuration, and connections to arm attacks. This makes it useful when a familiar front-triangle attempt changes shape during a defensive turn.\n\nThe following plan is BJJGraph's own way to organise practice. Start with one configuration and learn to recognise what is enclosed and what remains free. Then compare a neighbouring orientation without assuming that every change preserves a viable choke. The linked submission pages support further reading, while a coach or the course demonstrations supplies the actual movement details.",
+  "tags": [
+    "bjj",
+    "system",
+    "triangle",
+    "no-gi",
+    "submission-chain"
+  ],
+  "system_type": "Submission Chain",
+  "difficulty_level": "Intermediate",
+  "key_principles": [
+    "Recognise the controlled head-and-arm relationship before naming the triangle variation.",
+    "Separate initial trapping from securing the intended configuration.",
+    "Use orientation changes as information about control, not as automatic finishing opportunities.",
+    "Keep arm attacks available only when their own control requirements are present.",
+    "Choose entries that fit your current guard or top game.",
+    "Do not force the neck or rush a transition to make a loose triangle work."
+  ],
+  "key_components": [
+    {
+      "component_name": "Initial head-and-arm capture",
+      "description": "Study the moment one arm is enclosed and compare that initial capture with the control required for the chosen triangle configuration.",
+      "purpose": "Distinguish an entry opportunity from a secured position."
+    },
+    {
+      "component_name": "Configuration completion",
+      "description": "Observe whether changing leg position preserves the original capture or lets the defender recover their arm.",
+      "purpose": "Locate the most fragile part of the transition."
+    },
+    {
+      "component_name": "Orientation recognition",
+      "description": "Name the attacker's relationship to the defender in the front, rear or side situation being studied.",
+      "purpose": "Make variation selection a response to the actual position."
+    },
+    {
+      "component_name": "Arm-attack branches",
+      "description": "Identify when a controlled arm offers a separate attack and when changing objectives would release the entire triangle position.",
+      "purpose": "Evaluate an alternative without treating it as guaranteed."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Choose a front-triangle starting point",
+      "description": "Use a familiar guard entry and stop once the head-and-arm capture is recognisable."
+    },
+    {
+      "step_number": 2,
+      "phase": "Compare capture and configuration",
+      "description": "Rehearse the move from preliminary capture to the intended leg configuration. Let the defender show where their arm could become free."
+    },
+    {
+      "step_number": 3,
+      "phase": "Introduce a slow turn",
+      "description": "Allow one coached change of orientation and name the triangle situation that remains, if any."
+    },
+    {
+      "step_number": 4,
+      "phase": "Check the alternative arm attack",
+      "description": "Pause when an arm becomes available. Decide whether its control supports a separate attack or whether retaining the triangle is preferable."
+    },
+    {
+      "step_number": 5,
+      "phase": "Return to the entry",
+      "description": "Repeat from the same guard context with either of the agreed reactions. Stop when control disappears and record which transition needs review."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The attacker names a variation but cannot explain the control.",
+      "solution": "Describe where the head and enclosed arm sit before rehearsing its finish."
+    },
+    {
+      "obstacle": "The arm escapes while the legs are reconfigured.",
+      "solution": "Shorten the transition and check the initial capture with a coach."
+    },
+    {
+      "obstacle": "Every defensive turn triggers a new submission attempt.",
+      "solution": "Add a deliberate pause to assess whether either control remains usable."
+    },
+    {
+      "obstacle": "Too many triangle variations are studied simultaneously.",
+      "solution": "Compare one starting configuration with one neighbouring orientation until their differences are clear."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Capture recognition",
+      "description": "Assess whether the initial head-and-arm relationship is clear.",
+      "proficiency_indicators": [
+        "Names the enclosed arm",
+        "Recognises incomplete capture",
+        "Can pause without squeezing"
+      ]
+    },
+    {
+      "metric_name": "Transition retention",
+      "description": "Check whether leg reconfiguration preserves the entry.",
+      "proficiency_indicators": [
+        "Identifies arm withdrawal",
+        "Retains a recognisable position",
+        "Can describe the lost connection"
+      ]
+    },
+    {
+      "metric_name": "Orientation discrimination",
+      "description": "Compare two triangle situations in slow practice.",
+      "proficiency_indicators": [
+        "Names the starting orientation",
+        "Recognises a changed orientation",
+        "Distinguishes a lost triangle from a variation"
+      ]
+    },
+    {
+      "metric_name": "Branch selection",
+      "description": "Observe decisions when a separate arm attack appears.",
+      "proficiency_indicators": [
+        "Checks arm control",
+        "Can retain the triangle instead",
+        "Resets when neither option is secure"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph suggests comparing two snapshots: initial front-triangle capture and the intended completed configuration. Have the partner give one slow turning response and pause again. Name which control survives before considering another triangle or an arm attack. Keep the neck comfortable and use a coach to select movements suitable for both partners.",
+    "progression_path": [
+      {
+        "stage": "Capture",
+        "focus": "Recognise the enclosed head-and-arm relationship."
+      },
+      {
+        "stage": "Configuration",
+        "focus": "Maintain capture while adjusting the legs."
+      },
+      {
+        "stage": "Orientation",
+        "focus": "Compare the starting triangle with one coached neighbouring form."
+      },
+      {
+        "stage": "Branching",
+        "focus": "Evaluate a retained triangle against one separate arm attack."
+      }
+    ],
+    "common_mistakes": [
+      "Treating the name of a triangle as proof that it is controlled.",
+      "Pulling on the neck to compensate for a loose configuration.",
+      "Learning several branches before retaining the first capture."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Triangle Control",
+      "content_type": "Position",
+      "relationship": "The primary control reference."
+    },
+    {
+      "name": "Triangle Choke",
+      "content_type": "Submission",
+      "relationship": "Front-triangle family background."
+    },
+    {
+      "name": "Rear Triangle Choke",
+      "content_type": "Submission",
+      "relationship": "A different orientation for comparison."
+    },
+    {
+      "name": "Triangle Choke Side",
+      "content_type": "Submission",
+      "relationship": "Side-orientation reference."
+    },
+    {
+      "name": "Inverted Triangle",
+      "content_type": "Submission",
+      "relationship": "Another triangle family entry for later study."
+    },
+    {
+      "name": "Armbar",
+      "content_type": "Submission",
+      "relationship": "An arm-attack branch requiring separate control."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "A familiar entry context."
+    },
+    {
+      "name": "Clamp Guard",
+      "content_type": "Position",
+      "relationship": "A related upper-body trapping position."
+    },
+    {
+      "name": "Clamps",
+      "content_type": "Principle",
+      "relationship": "Useful vocabulary for retained capture."
+    },
+    {
+      "name": "Submission Chains",
+      "content_type": "Principle",
+      "relationship": "Frames the relationship between distinct attacks."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why is preliminary triangle capture different from a completed configuration?",
+      "answer": "The initial capture may enclose the head and one arm while still allowing escape during leg adjustment; both stages need separate attention."
+    },
+    {
+      "question": "What should you identify after a defender turns inside a triangle?",
+      "answer": "Identify the remaining head-and-arm control and the resulting orientation before deciding whether another triangle remains available."
+    },
+    {
+      "question": "When is an armbar a reasonable branch from triangle control?",
+      "answer": "Only when the armbar's own control requirements are present; an exposed arm alone does not guarantee a useful transition."
+    },
+    {
+      "question": "How can triangle variations be studied without collecting disconnected moves?",
+      "answer": "Compare one retained starting configuration with one neighbouring orientation and describe exactly what changes between them."
+    },
+    {
+      "question": "What does an escaping arm during leg adjustment indicate?",
+      "answer": "It identifies a gap between capture and configuration, so review that transition before adding more finishing effort."
+    },
+    {
+      "question": "Why should you avoid forcing a loose triangle with the neck?",
+      "answer": "It obscures the actual control problem and can create discomfort; reset and review the configuration with a coach instead."
+    }
+  ],
+  "products": [
+    {
+      "id": "triangles-enter-the-system-by-john-danaher",
+      "title": "Triangles Enter The System",
+      "instructor": "John Danaher",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A dedicated triangle reference covering multiple orientations, entries and connections to arm attacks.",
+      "best_for": "Students ready to compare triangle configurations; it is broader than a first closed-guard triangle lesson and includes advanced branches.",
+      "study_focus": "Start with the capture-to-configuration material, then compare the front-triangle section with one later orientation.",
+      "practice_tip": "BJJGraph suggestion: pause before and after leg reconfiguration and ask whether the same arm is still controlled."
+    }
+  ]
+}

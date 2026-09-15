@@ -297,7 +297,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary mechanical principle that creates the kneebar submission, and why is hip positioning critical?",
+        "question": "What mechanical principle creates the kneebar, and why is your hip position critical to it?",
         "answer": "The kneebar creates hyperextension of the knee joint by using your torso as a fulcrum point. Your body (positioned at their knee) acts as the pivot, while your hips driving upward on one side and your arms controlling the ankle on the other side create opposing forces that hyperextend the joint. Hip positioning is critical because only by achieving perpendicular alignment can you create this leverage system—if you're not perpendicular, you're pulling against their leg strength rather than using mechanical advantage to attack the joint structure.",
         "safety_critical": false,
         "answer_line": "Hips perpendicular; torso is fulcrum",
@@ -312,7 +312,7 @@
         }
       },
       {
-        "question": "Why is controlling the opponent's hip essential before finishing the kneebar, and what happens if you neglect this control?",
+        "question": "Why must you control their hip before finishing the kneebar, and what happens if you neglect it?",
         "answer": "Hip control prevents the opponent from rotating their body, which is the primary escape mechanism from kneebar positions. The knee joint can only be hyperextended when the leg is relatively straight and unable to rotate. If you neglect hip control, the opponent can rotate their knee inward (toward you) or rotate their entire body, which either removes pressure from the joint or allows them to extract their leg entirely. Many failed kneebar attempts result from attacking the leg without first securing the hip to prevent rotation.",
         "safety_critical": false,
         "answer_line": "Control hip to stop rotation",
@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "What is the correct transition sequence from bottom half guard to kneebar position, and what must be maintained throughout?",
+        "question": "What is the entry sequence from bottom half guard to kneebar, and what must be kept throughout?",
         "answer": "The sequence is: (1) Establish underhook and off-balance opponent forward; (2) Shrimp hips out to begin rotation toward perpendicular angle; (3) Swing top leg over opponent's back/hip while maintaining bottom leg control; (4) Complete rotation to perpendicular position with both legs isolating the trapped leg; (5) Secure hip control with hands; (6) Position knee joint on centerline; (7) Apply progressive hip extension. Throughout this entire sequence, you must maintain constant tension with your bottom leg hook—never release the half guard until your new position is fully established. Loss of connection during transition allows the opponent to extract their leg and pass your guard.",
         "safety_critical": false,
         "answer_line": "Keep bottom leg control throughout",
@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "How should you respond if your opponent begins to rotate their knee inward during the kneebar, and what alternative submission might this defense open?",
+        "question": "They rotate their knee inward during your kneebar: how do you respond, and what submission opens?",
         "answer": "If the opponent rotates their knee inward (bringing their heel toward you), immediately use your hands to grab their foot and forcibly rotate it back outward (toes away from you) to restore proper kneebar alignment. Maintain tight leg control to prevent full rotation. However, this inward rotation defense also creates an opportunity to transition to a toe hold—as they rotate their foot toward you, you can catch it and transition to the toe hold grip (figure-four grip on their foot) and finish that submission instead. This demonstrates the interconnected nature of leg lock systems where one defense opens another attack.",
         "safety_critical": false,
         "answer_line": "Twist foot outward or hit toe hold",
@@ -372,7 +372,7 @@
         }
       },
       {
-        "question": "What specific injuries can result from improperly applied kneebars, and why is progressive pressure application critical?",
+        "question": "What injuries can a poorly applied kneebar cause, and why is progressive pressure critical?",
         "answer": "Improperly applied kneebars (particularly when jerked or spiked rapidly) can cause: posterior cruciate ligament (PCL) tears requiring 6-12 months recovery with surgery, medial collateral ligament (MCL) damage requiring 4-8 weeks recovery, patellar tendon strains or ruptures requiring 3-6 months recovery, and meniscus tears that may require surgery. Progressive pressure application (3-5 seconds minimum) is critical because knee ligaments have relatively poor proprioception compared to other joints—the pain response is delayed, meaning injury can occur before the person realizes they need to tap. Slow application gives the nervous system time to register danger and allows the training partner adequate time to recognize the submission and tap safely.",
         "safety_critical": true,
         "answer_line": "Ease in slowly — no early warning",
@@ -387,7 +387,7 @@
         }
       },
       {
-        "question": "Your opponent begins to posture up and straighten their back during your kneebar attempt—what adjustment prevents escape and why does this work?",
+        "question": "They posture up during your half guard kneebar: what adjustment prevents escape, and why?",
         "answer": "When the opponent postures up, immediately pull your top leg tighter across their hip or lower back to prevent them from creating distance. Simultaneously, squeeze your knees together harder to maintain the figure-four configuration on their leg. Use your grip on their hip to pull them back toward you rather than letting them create space. This works because the kneebar relies on maintaining the fulcrum position—if they can posture up and pull their knee away from your torso centerline, the leverage system fails. Your top leg acts as a barrier preventing their weight from shifting backward.",
         "safety_critical": false,
         "answer_line": "Pull top leg tight, squeeze knees",
@@ -402,7 +402,7 @@
         }
       },
       {
-        "question": "What anatomical structure is the primary target of the kneebar, and what are the warning signs that you're approaching the breaking point?",
+        "question": "What does the kneebar primarily target, and what warning signs show you are near the breaking point?",
         "answer": "The primary anatomical targets are the posterior cruciate ligament (PCL), the patellar tendon, and the surrounding ligaments of the knee joint. The kneebar attacks the knee through hyperextension. Warning signs approaching the breaking point include: (1) Visible straightening or hyperextension of the leg beyond normal range; (2) Partner beginning to panic or show distress before tapping; (3) Feeling the leg become increasingly rigid as ligaments reach their limit; (4) Any popping or clicking sounds during application. In training, you should never approach these indicators—the goal is to reach the 'tap threshold' where pressure is felt but no damage is imminent.",
         "safety_critical": true,
         "answer_line": "Knee ligaments; stop at rigidity",
@@ -417,7 +417,7 @@
         }
       },
       {
-        "question": "During competition, when is the optimal moment to accelerate your kneebar finish, and what factors indicate a high-percentage finishing window?",
+        "question": "In competition, when should you accelerate the kneebar finish, and what marks a good window?",
         "answer": "The optimal moment to accelerate the finish in competition is when: (1) Your hip control is completely secured and the opponent cannot rotate; (2) Your leg isolation is locked tight with both legs and the figure-four configuration is established; (3) Their knee joint is perfectly centered on your torso; (4) The opponent's hands are occupied defending or trapped (not protecting their knee). High-percentage indicators include: opponent's weight committed in a direction that assists your finish, their free leg is unable to post or base, and they're focused on upper body escapes rather than addressing the leg attack. Never rush the finish until all control points are secured.",
         "safety_critical": false,
         "answer_line": "Extend once hips and legs locked",
@@ -432,7 +432,7 @@
         }
       },
       {
-        "question": "How do you adjust your grip configuration if your opponent is wearing a gi versus in no-gi competition, and why does this matter for the finish?",
+        "question": "How do your kneebar grips differ in gi versus no-gi, and why does that matter for the finish?",
         "answer": "In gi, you can grip the belt or pants at the hip for superior hip control—the fabric provides excellent purchase for preventing rotation. For the finish, you can also grip their pants leg near the ankle to control foot rotation. In no-gi, you must cup the hip bone directly with your palm or hook behind their far thigh, which requires more precise positioning and stronger grip strength. The ankle control in no-gi typically involves cupping the heel or wrapping your arm around the ankle/foot. Gi grips allow more margin for error in positioning because the friction and material control compensate for small adjustments. No-gi requires tighter body-to-body connection throughout.",
         "safety_critical": false,
         "answer_line": "Gi: belt grip; no-gi: cup hip",
@@ -447,7 +447,7 @@
         }
       },
       {
-        "question": "What is the point of no escape for your opponent during a properly executed kneebar, and what should happen immediately before reaching this point?",
+        "question": "What marks the point of no escape in the kneebar, and what must happen before reaching it?",
         "answer": "The point of no escape occurs when: (1) Your hips have begun the extension arch; (2) Their knee joint is centered on your torso with the back of their knee pressed against your body; (3) Your legs are locked in figure-four with their leg completely isolated; and (4) Their hip rotation has been eliminated through your hand control. Before reaching this point in training, the opponent should have ample opportunity to tap—you should be applying pressure gradually over 3-5 seconds minimum. The 'point of no escape' should coincide with the tap, not precede it. In competition, this is when you can accelerate pressure knowing the submission is mechanically complete.",
         "safety_critical": true,
         "answer_line": "Hips arch, leg fully isolated",
@@ -462,7 +462,7 @@
         }
       },
       {
-        "question": "Your leg control starts slipping during the transition from half guard—what immediate grip adjustment maintains the attack and prevents your opponent from escaping?",
+        "question": "Your leg control slips during the half guard kneebar entry: what immediate grip adjustment keeps it?",
         "answer": "If leg control slips, immediately pinch your knees together tightly while using your near-side hand to grab their ankle or heel and pull it toward your hip. This emergency grip replaces the leg isolation temporarily. Simultaneously, use your free hand to re-establish hip control to prevent them from rotating out. If you cannot recover the leg isolation quickly, consider abandoning the kneebar attempt and transitioning to either: (1) A toe hold by catching their foot as it rotates; (2) Return to half guard by re-establishing your bottom hook; or (3) Transition to 50-50 position if they're extracting backward. Never chase a submission with compromised control—either recover your position or transition intelligently.",
         "safety_critical": false,
         "answer_line": "Pinch knees, re-grip their ankle",
@@ -581,7 +581,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the single most dangerous defensive mistake when caught in a kneebar from half guard, and why does it increase injury risk?",
+        "question": "What is the most dangerous error when caught in a half guard kneebar, and why is it so risky?",
         "answer": "The most dangerous mistake is pulling your trapped leg straight backward away from the attacker. This is catastrophically counterproductive because it extends your knee further into the hyperextension plane, loads more force onto the fulcrum point (the attacker's torso), and removes the bend in your knee that provides structural protection. Instead, you must drive your hips toward the attacker to collapse the space needed for the lever system while simultaneously bending your knee and rotating it inward to deny the extension angle.",
         "safety_critical": true,
         "answer_line": "Pulling the trapped leg back",
@@ -596,7 +596,7 @@
         }
       },
       {
-        "question": "At what stage of the kneebar sequence is defense most effective, and what specific actions should you take at that stage?",
+        "question": "At what stage is kneebar defense most effective, and what actions should you take then?",
         "answer": "Defense is most effective during the early transition phase when the attacker begins rotating their hips to perpendicular alignment but has not yet established full leg isolation or hip control. At this stage, immediately drive heavy crossface pressure forward to flatten them back to the mat, use your free hand to control their top leg (preventing it from swinging over your back), and re-establish your base by widening your free leg. The goal is to deny perpendicular alignment entirely, which eliminates the kneebar threat at its source.",
         "safety_critical": false,
         "answer_line": "Early: crossface, block leg swing",
@@ -611,7 +611,7 @@
         }
       },
       {
-        "question": "If the attacker has fully locked the kneebar position with figure-four leg isolation and hip control, what is the correct emergency defense sequence before tapping?",
+        "question": "The kneebar is locked with figure-four and hip control: what emergency defense comes before tapping?",
         "answer": "The emergency sequence is: (1) Immediately bend your trapped knee as much as possible by engaging your hamstring—a bent knee cannot be hyperextended; (2) Rotate your knee inward toward the attacker to misalign the hyperextension angle; (3) Use your hands to fight their hip grip, specifically prying their fingers off your hip or belt; (4) Drive your hips forward toward them to collapse the fulcrum distance; (5) If these actions create any slack in their leg isolation, immediately work to extract your leg. If at any point you feel sharp pain or cannot bend your knee, TAP IMMEDIATELY—the kneebar can cause ligament damage before pain fully registers.",
         "safety_critical": true,
         "answer_line": "Bend knee, rotate in, fight grip",

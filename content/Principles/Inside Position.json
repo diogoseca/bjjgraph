@@ -123,6 +123,11 @@
       "principle_name": "Cross Face Control",
       "relationship_type": "Extension",
       "description": "The crossface is an application of inside position for the head — driving your shoulder and forearm across the opponent's face occupies the inside space between their head and the mat, controlling their head position and enabling top pressure."
+    },
+    {
+      "principle_name": "Elbow-Knee Connection",
+      "relationship_type": "Complementary",
+      "description": "The elbow-knee barrier protects inside space; separating it gives the opponent a route to control."
     }
   ],
   "application_contexts": [
@@ -399,6 +404,11 @@
       "name": "Forward Pressure",
       "content_type": "Principle",
       "relationship": "Inside position enables effective forward pressure by placing the driving force inside the opponent's defensive structure"
+    },
+    {
+      "name": "Elbow-Knee Connection",
+      "content_type": "Principle",
+      "relationship": "The elbow-knee barrier protects inside space; separating it gives the opponent a route to control."
     }
   ],
   "flashcards": [
@@ -534,5 +544,9 @@
       "duration": 499,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Inside Position can guide how any position, transition, or submission is performed, prevented, or trained. Its application includes top, bottom, attacker, and defender."
+  }
 }

@@ -64,7 +64,7 @@ description: "How to defend against Basic Butterfly Sweep in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent shift their hips to create an angle while pulling your collar forward - what should your immediate defensive response be?",
+      "name": "They angle their hips and pull your collar for a butterfly sweep: what is your immediate defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip angle shift combined with collar pull indicates imminent sweep initiation. Your immediate response should be to post your hand on the mat on the side they are angling toward, simultaneously driving your hips back to reduce forward weight over their hooks. If possible, break the collar grip by stripping it with your free hand while maintaining the post. After stabilizing, work to re-establish upright posture and begin addressing their grip control to prevent a secondary attempt. Do not try to drive forward into them as this feeds directly into the sweep mechanics."
@@ -88,7 +88,7 @@ description: "How to defend against Basic Butterfly Sweep in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How should your defensive approach change when facing a butterfly guard player who chains sweeps with submission attempts?",
+      "name": "How should your defense adapt against a butterfly player chaining sweeps with submissions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a butterfly guard player who integrates submissions like guillotines, kimuras, and arm drags with sweep attempts, your defensive priorities shift. You must protect your neck by keeping chin tucked and posture tall, fight for inside position with your arms to deny underhooks and collar ties, and avoid overcommitting to single-side posting which exposes arms to kimura attacks. The key adaptation is maintaining a more conservative and centered base rather than committing heavily to one side for posting. Use distance management and grip denial as primary defenses rather than hand posting, and time your passing attempts for moments between the opponent's offensive sequences rather than during active sweep-submission chains."

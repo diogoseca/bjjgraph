@@ -1,0 +1,138 @@
+{
+ "note": "Node enumerations in the app bundle that deliberately do NOT consult the per-ruleset mask. Enforced by `npm run validate:surfaces` (scripts/check_ruleset_surfaces.py): a new enumeration fails CI until it is either filtered with rsAllows/rsAllowsIdx or added here WITH A REASON. An entry that matches no site also fails — a stale exemption is an un-reviewed decision outliving the code it was about. Keys are file::function::expression, never line numbers, because those drift. THE RECURRING DISTINCTION: material the app DEALS obeys the ruleset; the player's own RECORD (lists, history, mastered/explored) does not, because hiding what someone already did or was sent misrepresents it.",
+ "gate": "scripts/check_ruleset_surfaces.py",
+ "exempt": {
+  "neural/src/app.src.jsx::ingest::nodes[a]": {
+   "fn": "ingest",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "nodes[a]",
+   "reason": "GEOMETRY, and it runs BEFORE the mask exists. These are the pairing, de-overlap and lift passes. Filtering here would not hide a node, it would MOVE every orb on the map: `deg` is counted before the link filter deliberately so radii cannot shift, and the de-overlap solution is a function of the whole node set. Excluded nodes are FLAGGED, never removed (removal would also shift the cal.ew / cal.ev node-index joins and change RNG stream membership)."
+  },
+  "neural/src/app.src.jsx::ingest::nodes[b]": {
+   "fn": "ingest",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "nodes[b]",
+   "reason": "GEOMETRY, and it runs BEFORE the mask exists. These are the pairing, de-overlap and lift passes. Filtering here would not hide a node, it would MOVE every orb on the map: `deg` is counted before the link filter deliberately so radii cannot shift, and the de-overlap solution is a function of the whole node set. Excluded nodes are FLAGGED, never removed (removal would also shift the cal.ew / cal.ev node-index joins and change RNG stream membership)."
+  },
+  "neural/src/app.src.jsx::ingest::nodes[j]": {
+   "fn": "ingest",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "nodes[j]",
+   "reason": "GEOMETRY, and it runs BEFORE the mask exists. These are the pairing, de-overlap and lift passes. Filtering here would not hide a node, it would MOVE every orb on the map: `deg` is counted before the link filter deliberately so radii cannot shift, and the de-overlap solution is a function of the whole node set. Excluded nodes are FLAGGED, never removed (removal would also shift the cal.ew / cal.ev node-index joins and change RNG stream membership)."
+  },
+  "neural/src/app.src.jsx::ingest::nodes[i]": {
+   "fn": "ingest",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "nodes[i]",
+   "reason": "GEOMETRY, and it runs BEFORE the mask exists. These are the pairing, de-overlap and lift passes. Filtering here would not hide a node, it would MOVE every orb on the map: `deg` is counted before the link filter deliberately so radii cannot shift, and the de-overlap solution is a function of the whole node set. Excluded nodes are FLAGGED, never removed (removal would also shift the cal.ew / cal.ev node-index joins and change RNG stream membership)."
+  },
+  "neural/src/app.src.jsx::ingest::nodes[p]": {
+   "fn": "ingest",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "nodes[p]",
+   "reason": "GEOMETRY, and it runs BEFORE the mask exists. These are the pairing, de-overlap and lift passes. Filtering here would not hide a node, it would MOVE every orb on the map: `deg` is counted before the link filter deliberately so radii cannot shift, and the de-overlap solution is a function of the whole node set. Excluded nodes are FLAGGED, never removed (removal would also shift the cal.ew / cal.ev node-index joins and change RNG stream membership)."
+  },
+  "neural/src/app.src.jsx::ingest::nodes[q]": {
+   "fn": "ingest",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "nodes[q]",
+   "reason": "GEOMETRY, and it runs BEFORE the mask exists. These are the pairing, de-overlap and lift passes. Filtering here would not hide a node, it would MOVE every orb on the map: `deg` is counted before the link filter deliberately so radii cannot shift, and the de-overlap solution is a function of the whole node set. Excluded nodes are FLAGGED, never removed (removal would also shift the cal.ew / cal.ev node-index joins and change RNG stream membership)."
+  },
+  "neural/src/app.src.jsx::ingest::nodes[order[ii]": {
+   "fn": "ingest",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "nodes[order[ii]",
+   "reason": "GEOMETRY, and it runs BEFORE the mask exists. These are the pairing, de-overlap and lift passes. Filtering here would not hide a node, it would MOVE every orb on the map: `deg` is counted before the link filter deliberately so radii cannot shift, and the de-overlap solution is a function of the whole node set. Excluded nodes are FLAGGED, never removed (removal would also shift the cal.ew / cal.ev node-index joins and change RNG stream membership)."
+  },
+  "neural/src/app.src.jsx::ingest::nodes[order[jj]": {
+   "fn": "ingest",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "nodes[order[jj]",
+   "reason": "GEOMETRY, and it runs BEFORE the mask exists. These are the pairing, de-overlap and lift passes. Filtering here would not hide a node, it would MOVE every orb on the map: `deg` is counted before the link filter deliberately so radii cannot shift, and the de-overlap solution is a function of the whole node set. Excluded nodes are FLAGGED, never removed (removal would also shift the cal.ew / cal.ev node-index joins and change RNG stream membership)."
+  },
+  "neural/src/app.src.jsx::ingest::nodes[n.pi]": {
+   "fn": "ingest",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "nodes[n.pi]",
+   "reason": "GEOMETRY, and it runs BEFORE the mask exists. These are the pairing, de-overlap and lift passes. Filtering here would not hide a node, it would MOVE every orb on the map: `deg` is counted before the link filter deliberately so radii cannot shift, and the de-overlap solution is a function of the whole node set. Excluded nodes are FLAGGED, never removed (removal would also shift the cal.ew / cal.ev node-index joins and change RNG stream membership)."
+  },
+  "neural/src/app.src.jsx::nodeForKey::for (const n of this.nodes": {
+   "fn": "nodeForKey",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "for (const n of this.nodes",
+   "reason": "IDENTITY JOIN, not a surface. It answers 'which node owns this deck key'. A ruleset filter here would return -1 for an excluded node, and every caller reads -1 as 'no verdict' rather than 'excluded' — inverting the meaning. The callers that DEAL (weakSpots, _weakSpotsLegacy, bucketTechniques' system branch, mcDistractors) each apply the mask themselves, on the answer."
+  },
+  "neural/src/app.src.jsx::_onCurriculum::this._idIndex.get(": {
+   "fn": "_onCurriculum",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "The curriculum has its OWN per-frame mechanism and it predates the mask: `_lessonLive(l)` intersects a lesson's authored `frames` with its technique's availability, and gates unitComplete, openLessonStudy, startCheckpoint and the checkpoint-fail path. `_curriculumIdxSet` is the path-view FOG set, and an excluded node is not drawn at all, so its fog membership cannot be seen."
+  },
+  "neural/src/app.src.jsx::_lessonNodeIdx::this._idIndex.get(": {
+   "fn": "_lessonNodeIdx",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "Same as `_onCurriculum`: the lesson layer's frame test is `_lessonLive`, which is stricter than the mask (it also honours the lesson's authored `frames` override)."
+  },
+  "neural/src/app.src.jsx::startBeltTest::this._idIndex.get(": {
+   "fn": "startBeltTest",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "The capstone's authored seat goes straight to `rollFromPosition`, which refuses an excluded node and announces why. Guarding here as well would duplicate the decision — and the belt's technique POOL beside it is already per-frame (`belt.pool[frame]`, computed by `_curriculum.compute_pools`)."
+  },
+  "neural/src/app.src.jsx::renderExplorer::nodes[0]": {
+   "fn": "renderExplorer",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "nodes[0]",
+   "reason": "`nodes[0]` of a group the enclosing `buildExplorer` already filtered with `rsAllows`. Re-testing the first member of a filtered list is noise."
+  },
+  "neural/src/app.src.jsx::siteIdOf::this._idIndex.get(": {
+   "fn": "siteIdOf",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "LIST CONTENT IS A RECORD. A class a coach posted stays what they posted: normalising or filtering the stored ids would silently shrink a received class and re-encode a SHORTER share code, breaking a link already posted in a WhatsApp group. What is DEALT from a list obeys the ruleset — see `openListSession`, which filters the queue and the camera set."
+  },
+  "neural/src/app.src.jsx::addToList::this._idIndex.get(": {
+   "fn": "addToList",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "List content — see `siteIdOf`. Capturing is the player's own act on their own record; refusing to store a node because of today's ruleset would lose it when they flip back."
+  },
+  "neural/src/app.src.jsx::listIdxs::this._idIndex.get(": {
+   "fn": "listIdxs",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "List content — see `siteIdOf`. This is the READ half of the same record, and both halves must agree or the rows and the share code diverge. The two consumers that light or deal from it filter on the answer: `setFocusIdxSet` (the graph highlight chokepoint) and `openListSession` (the drill queue)."
+  },
+  "neural/src/app.src.jsx::listItemName::this._idIndex.get(": {
+   "fn": "listItemName",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "List content — see `siteIdOf`. It renders the stored name of a row that is deliberately still shown."
+  },
+  "neural/src/app.src.jsx::_listItemRow::this._idIndex.get(": {
+   "fn": "_listItemRow",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "The ROW is a record and stays (see `siteIdOf`); the ▶ on it is a real seat and is guarded where every seat path funnels, in `rollFromPosition`."
+  },
+  "neural/src/app.src.jsx::_sharedBlock::this._idIndex.get(": {
+   "fn": "_sharedBlock",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "The 'Shared with you' block is someone else's class, authored in THEIR ruleset — the one surface where hiding rows would misrepresent what was sent. Rows stay; the ▶ is guarded at `rollFromPosition` and the drill queue at `openListSession`."
+  },
+  "neural/src/app.src.jsx::_openSharedListFromUrl::this._idIndex.get(": {
+   "fn": "_openSharedListFromUrl",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "this._idIndex.get(",
+   "reason": "The DECODE must stay whole or a /l/<code> arrival silently drops members and the recipient's saved copy differs from the sender's. Filtering happens where the list is used, not where it is read."
+  },
+  "neural/src/app.src.jsx::famDossierNode::nodes[0]": {
+   "fn": "famDossierNode",
+   "file": "neural/src/app.src.jsx",
+   "snippet": "nodes[0]",
+   "reason": "`nodes[0]` of a family's member list, used to pick a representative for the family dossier's header. The members come from an already-filtered group."
+  }
+ }
+}

@@ -64,7 +64,7 @@ description: "Defend the Old School Position Sweep from half guard top. Recognit
     },
     {
       "@type": "Question",
-      "name": "You feel the opponent beginning aggressive lockdown pumps - what does this signal and how should you respond?",
+      "name": "They start pumping the lockdown hard beneath you: what does it signal and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Aggressive lockdown pumping signals imminent sweep initiation, as the opponent is breaking your base before committing to the rotation. Immediately respond by posting your free leg wider at 45 degrees, driving your whizzer deeper, and increasing crossface pressure. You can also pre-empt by sprawling your hips slightly back while maintaining chest pressure, which removes the leverage the lockdown pump is trying to create."

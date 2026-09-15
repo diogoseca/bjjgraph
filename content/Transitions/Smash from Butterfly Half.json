@@ -295,7 +295,7 @@
         "answer_line": "Drop hip bone onto hook thigh"
       },
       {
-        "question": "Your opponent re-inserts their butterfly hook immediately after you pinned it - what went wrong and how do you adjust?",
+        "question": "Your pinned butterfly hook gets re-inserted. What went wrong and how do you fix it?",
         "answer": "The re-insertion indicates insufficient chest-to-chest connection during the pin phase. When your chest lifts even slightly off their upper body, their hip mobility returns and they can thread their foot back under your thigh. The adjustment is to maintain heavier forward shoulder pressure while pinning the hook, keeping your weight distributed across their torso as a unified pressure system rather than isolating the hip pressure from the upper body control. Additionally, consider switching to the hip switch pin variant where you rotate laterally to trap their foot between your shin and the mat.",
         "answer_line": "Chest lifted off their torso",
         "distractors": {
@@ -337,7 +337,7 @@
         "answer_line": "Forward-down at 45 degrees"
       },
       {
-        "question": "Your opponent frames against your shoulder and begins hip escaping as you initiate the smash - how do you respond?",
+        "question": "Smashing butterfly half, they frame your shoulder and hip escape. How do you respond?",
         "answer": "Drive through the frame by walking your shoulder pressure forward incrementally rather than trying to blast through it. Swim your underhook deeper underneath their framing arm to strip its structure. Use your head position to create additional pressure against their frame-side shoulder. If the frame is particularly strong, use your free hand to push their elbow past your head, collapsing the frame from its weakest point. The key is progressive pressure rather than explosive force against a solid frame.",
         "answer_line": "Walk shoulder pressure forward",
         "distractors": {
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "Your smash attempt is stalled because the bottom player establishes a strong knee shield as you killed the hook - what is your next option?",
+        "question": "Your smash stalls as they build a knee shield after you killed the hook. Next option?",
         "answer": "Transition to a knee slice pass by using the downward pressure you have already established. Step your outside foot wide, angle your passing knee across their thigh, and slice through the knee shield while maintaining shoulder pressure. The smash has already accomplished the primary goal of killing the butterfly hook. The knee shield is a lower-threat defensive structure than the butterfly hook. Alternatively, switch to a long step pass by bringing your free leg over their bottom leg while driving their knee shield flat with hip pressure.",
         "answer_line": "Transition to knee slice pass",
         "distractors": {
@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "You have killed the butterfly hook but cannot free your trapped leg from half guard - what is the correct approach?",
+        "question": "Hook is dead but your leg is still trapped in half guard. Correct extraction approach?",
         "answer": "Maintain heavy upper body pressure to prevent guard recovery while working the trapped leg progressively. Use small windshield wiper motions rotating your knee outward rather than pulling straight back, as rotational extraction is mechanically stronger against a squeeze. Drive your trapped knee toward the mat on the far side of their body to create the extraction angle. If the squeeze is very tight, briefly switch your hips to create a small bump that loosens their grip, then immediately slide your knee through before they re-establish the squeeze.",
         "answer_line": "Windshield wiper knee outward",
         "distractors": {
@@ -379,7 +379,7 @@
         }
       },
       {
-        "question": "How should your weight be distributed between upper body and hips during the different phases of the smash?",
+        "question": "How should weight shift between upper body and hips across phases of the butterfly half smash?",
         "answer": "During the initial control phase, weight favors the upper body at roughly 60-40 to establish crossface dominance and break posture. During the hook-killing phase, weight shifts to roughly 40-60 favoring the hips as you drive your hip bone onto the butterfly hook to pin it. During the extraction phase, weight returns to upper body emphasis at 60-40 to prevent guard recovery while your legs work the extraction. Throughout all phases, avoid concentrating weight entirely on either end, as this creates instability and opens sweep or recovery opportunities.",
         "answer_line": "Upper, hip, upper: 60/40 shift",
         "distractors": {
@@ -512,7 +512,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest tactile indicators that your opponent is about to initiate the smash from butterfly half guard?",
+        "question": "Which tactile cues warn that a smash from butterfly half guard is coming?",
         "answer": "The earliest indicators are a deepening of crossface pressure with increased jaw and neck contact, a settling of hip weight onto the butterfly hook side rather than distributed evenly, and the posting of their free leg noticeably wider than normal. You will feel their chest driving forward and downward into yours with increasing intensity, and their passing movements will stop as they commit to settling weight rather than attempting lateral or backstep passes. These cues precede the full smash by several seconds, providing a window for proactive defense.",
         "answer_line": "Deeper crossface, hip settling",
         "distractors": {
@@ -526,7 +526,7 @@
         }
       },
       {
-        "question": "Your opponent drives your butterfly hook flat to the mat and starts applying heavy crossface pressure - what is your immediate response?",
+        "question": "Your butterfly hook is flattened and the crossface is heavy. Immediate response?",
         "answer": "Immediately abandon the butterfly hook battle and transition to an alternative guard. The best option is deep half guard: release the dead hook, dive your head underneath their far hip, and thread your body underneath theirs. This completely changes the positional dynamic from one where smash pressure is dominant to one where you have sweeping leverage from underneath. If deep half is not available, transition to knee shield by inserting your shin across their hip, or lock down their trapped leg with a figure-four to establish lockdown guard.",
         "answer_line": "Abandon hook, go deep half",
         "distractors": {
@@ -554,7 +554,7 @@
         }
       },
       {
-        "question": "Your opponent commits their weight forward heavily to kill your butterfly hook - how can you use their momentum against them?",
+        "question": "They commit weight forward to kill your butterfly hook. How do you use that momentum?",
         "answer": "Their forward weight commitment creates the perfect conditions for a butterfly sweep or elevation. As they drive forward, load their weight onto your hook by slightly drawing your knee toward your chest to create an angle, then extend explosively through your hip and hook while pulling their upper body with your underhook or collar grip. Their forward momentum adds to the sweep's power rather than needing to be overcome. The timing window is narrow but high-percentage, as they cannot both commit weight for the smash and defend the elevation simultaneously.",
         "answer_line": "Elevate them over your hook",
         "distractors": {
@@ -568,7 +568,7 @@
         }
       },
       {
-        "question": "You have lost your butterfly hook but still have half guard control - what guard transition gives you the best chance of recovery?",
+        "question": "Butterfly hook lost but half guard kept: which guard transition gives the best recovery?",
         "answer": "Deep half guard is the highest-percentage recovery option because it converts the top player's pressure advantage into your own sweeping leverage. Slide your head underneath their hips on the trapped leg side, wrapping their leg deeply while maintaining the half guard entanglement. From deep half, the smash pressure becomes irrelevant because you are positioned underneath rather than in front of them. If deep half is not accessible, inserting a knee shield across their hip creates immediate distance and prevents chest-to-chest pressure, giving you time to rebuild offensive structure or transition to a Z-guard framework.",
         "answer_line": "Recover into deep half guard",
         "distractors": {

@@ -78,7 +78,7 @@ description: "Learn to finish the Neck Crank from Mounted Crucifix. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Why does the mounted crucifix make the neck crank significantly more effective than from other positions?",
+      "name": "Why is the neck crank far more effective from mounted crucifix than from other positions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The mounted crucifix traps both of the opponent's arms with the attacker's legs, completely eliminating defensive frames. In any other position, the defender can wedge a hand between their chin and chest, push against the attacker's arms, or create angles with their hands. From mounted crucifix, the defender has zero upper-body tools to resist the head manipulation. Combined with mount weight pinning the torso flat, the attacker has free hands operating against a fully immobilized opponent."
@@ -94,7 +94,7 @@ description: "Learn to finish the Neck Crank from Mounted Crucifix. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly to their chest to prevent your grip—what adjustment allows you to still finish?",
+      "name": "Your opponent tucks their chin against your neck crank grip—what adjustment still finishes it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch from targeting the chin to an over-the-crown grip that attacks forward flexion (curling the head toward the chest) instead of lateral rotation. Alternatively, use your forearm as a wedge under the chin to pry it away from the chest, or threaten an armbar on a trapped arm to force the opponent to move their shoulders, which naturally lifts the chin. The armbar feint is particularly effective because arm defense and chin defense compete for the same postural resources."
@@ -102,7 +102,7 @@ description: "Learn to finish the Neck Crank from Mounted Crucifix. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "What is the correct speed of force application for the neck crank, and why is this critical for safety?",
+      "name": "How fast should neck crank force be applied, and why is that speed critical for safety?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Force must be applied slowly and progressively over 3-5 seconds minimum, never with explosive or jerking movements. This is critical because the cervical spine provides minimal proprioceptive warning before catastrophic failure—unlike a joint lock where the defender feels increasing pain along a gradient, spinal compression can transition from uncomfortable to structurally damaging in a fraction of a second. Slow application gives the defender adequate time to recognize the submission and tap before the injury threshold is reached."

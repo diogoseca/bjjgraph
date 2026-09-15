@@ -363,7 +363,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts elevating with their hooks while maintaining collar grip - what immediate base adjustment do you make?",
+        "question": "They elevate with hooks while holding your collar — what base adjustment do you make?",
         "answer": "Widen your knee base immediately while driving your hips backward and down toward the mat. This lowers your center of gravity and removes the angle the hooks need for effective elevation. Simultaneously break the collar grip by stripping it with both hands or swimming your head through, as the grip is what allows them to direct your weight during the sweep. Without the collar control, their elevation becomes undirected force you can redirect.",
         "answer_line": "Widen base, strip collar grip",
         "distractors": {
@@ -461,7 +461,7 @@
         }
       },
       {
-        "question": "Your opponent partially sweeps you but you post your hand to stop the sweep - how do you recover to stable position?",
+        "question": "You post a hand to stop their butterfly sweep — how do you recover a stable base?",
         "answer": "From the posted position, immediately drive your shoulder and head forward into their upper body while walking your base back underneath you. Do not try to lift your posted hand until your base is stable - instead use it as a pivot point while you bring your knees back to wide position. Once base is recovered, strip any grips they have before resuming your passing strategy. If they maintain strong control during your recovery, consider standing up rather than fighting to re-establish kneeling base.",
         "answer_line": "Drive forward, walk base back",
         "distractors": {
@@ -842,7 +842,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts driving heavy chest pressure to flatten you - what immediate adjustment do you make?",
+        "question": "In butterfly bottom, they drive heavy chest pressure to flatten you — what adjustment do you make?",
         "answer": "First, post one hand behind you on the mat to create a frame preventing you from being driven flat. Simultaneously pull with your collar or underhook grip while pumping your hooks upward to create space. The combination of posting, pulling, and hook elevation should restore your upright posture. If you cannot restore posture, transition to half butterfly or closed guard before being completely flattened - a flat position eliminates your hook leverage entirely.",
         "answer_line": "Post hand, pull grip, pump hooks",
         "distractors": {
@@ -870,7 +870,7 @@
         }
       },
       {
-        "question": "How do you shut down the primary butterfly smash threat when opponent drives their knee through your hooks?",
+        "question": "They drive a knee through your butterfly hooks to smash — how do you shut it down?",
         "answer": "When you feel them loading weight onto one knee to drive through, immediately remove the same-side hook and hip escape in that direction, transitioning to deep half guard by getting your shoulder under their driving leg. The key is recognizing the smash early - once their knee passes your hip line, the smash is already successful. Alternatively, you can elevate explosively before they commit their weight, turning their forward momentum into sweep momentum.",
         "answer_line": "Remove hook, go deep half",
         "distractors": {
@@ -940,7 +940,7 @@
         }
       },
       {
-        "question": "Your sweep attempt fails and opponent passes to half guard - how do you prevent full guard pass and recover?",
+        "question": "Your butterfly sweep fails and they pass to half guard — how do you stop the pass and recover?",
         "answer": "Immediately frame against their crossface with your inside arm and establish an underhook with your outside arm. Your bottom knee should shield against them completing the pass while your top leg looks to re-establish butterfly hook or go to knee shield. The underhook is critical - without it, they'll flatten you and complete the pass. From this defensive half guard, you can work back to butterfly if you secure the underhook, or transition to deep half by getting under their base.",
         "answer_line": "Frame crossface, get underhook",
         "distractors": {
@@ -1000,7 +1000,7 @@
       }
     },
     {
-      "question": "Why is upright, elevated posture a shared structural requirement in this position rather than a role-specific preference?",
+      "question": "Why is upright posture a shared requirement in butterfly hook control, not just a bottom preference?",
       "answer": "Butterfly Hook Control functions only while the seated player's head and chest stay above hip level, because the hooks generate lift by extending against a torso that is stacked over the base. If that player is flattened to their back, the insteps lose their lever angle and can no longer transfer force into the top player. Correspondingly, the top player's entire game is organized around driving that posture down, since collapsing it neutralizes the hooks without having to remove them. The contest over the seated player's spinal posture is therefore the central mechanical battle both sides are fighting.",
       "answer_line": "Posture up keeps hooks effective",
       "distractors": {
@@ -1028,7 +1028,7 @@
       }
     },
     {
-      "question": "What role does the coordination between upper-body connection and the hooks play in the position's mechanics?",
+      "question": "How do upper-body connection and the hooks work together in butterfly hook control?",
       "answer": "An isolated hook only elevates a leg; it becomes an off-balancing force when paired with an upper-body connection such as a collar tie, underhook, or wrist control that fixes the opponent's torso. The upper-body grip supplies the anchor and direction while the hook supplies the vertical lift, so the two act as a single coupled lever. This is why the position is fundamentally a two-point control system rather than a leg game. For the top player the mirror logic holds: breaking either the upper connection or the hook connection alone is enough to defuse the coupled action.",
       "answer_line": "Pair upper grip with hook lift",
       "distractors": {
@@ -1042,7 +1042,7 @@
       }
     },
     {
-      "question": "Why is Butterfly Hook Control characterized as thriving on the opponent's pressure rather than on distance?",
+      "question": "Why does butterfly hook control thrive on your opponent's pressure rather than on distance?",
       "answer": "Unlike distance-based guards that use frames to keep an opponent away, this position converts an engaging opponent's forward and downward force into elevation and rotational momentum. When the top player drives weight forward, that weight loads onto the hooks, which can then redirect it into a sweep arc instead of resisting it head-on. A passive top player who refuses to commit pressure actually starves the hooks of the force they redirect. This dependence on borrowed momentum is what makes the configuration reward close, committed engagement from both sides.",
       "answer_line": "Redirects opponent's forward force",
       "distractors": {
@@ -1070,7 +1070,7 @@
       }
     },
     {
-      "question": "How does Butterfly Hook Control differ mechanically from half guard and X-guard, its immediate neighbors?",
+      "question": "How does butterfly hook control differ mechanically from half guard and X-guard?",
       "answer": "In half guard the bottom player traps one of the opponent's legs between their own, trading mobility for control of a single limb, whereas butterfly hooks the insides of both thighs without capturing a leg. X-guard extends the same inside-hooking principle beneath a standing opponent, using an X-shaped foot configuration under one leg to control a fully upright base rather than a kneeling one. Butterfly Hook Control specifically addresses a kneeling or combat-base opponent at seated range, which is why the opponent standing typically forces a transition out to X-guard or single-leg X. Recognizing these boundaries is what tells both players when the position has ended and a new one has begun.",
       "answer_line": "Hooks both thighs, kneeling opp",
       "distractors": {

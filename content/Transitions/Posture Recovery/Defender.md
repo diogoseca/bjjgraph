@@ -64,7 +64,7 @@ description: "How to prevent Posture Recovery in BJJ. Recognition cues, grip ret
     },
     {
       "@type": "Question",
-      "name": "Why is attacking during posture recovery attempts more effective than purely defensive grip retention?",
+      "name": "From closed guard bottom, why attack during their posture recovery instead of just holding grips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Purely defensive grip retention is a battle of attrition that the top player eventually wins through repeated attempts and superior leverage from top position. Attacking during recovery is more effective because the recovery movement creates predictable body mechanics and momentary vulnerabilities. Extended arms create armbar opportunities, weight shifting backward creates hip bump sweep openings, and asymmetric arm positions create triangle entries. Offensive counters end the positional exchange decisively rather than prolonging a defensive struggle that depletes your grip endurance."

@@ -58,7 +58,7 @@ description: "How to defend against the Armbar Finish in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive action you should take when you recognize the attacker is initiating the armbar finish?",
+      "name": "Caught in armbar control: what is your first defensive action as they begin the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately bend your trapped elbow to 90 degrees or tighter and rotate your forearm so the thumb points toward the ceiling. Simultaneously, use your free hand to grip your trapped wrist, your own lapel, or clasp your hands together to reinforce the bent-arm position. These two actions—bending and connecting—address the attacker's primary finishing requirement (arm extension) and buy critical seconds for positional escape work."
@@ -66,7 +66,7 @@ description: "How to defend against the Armbar Finish in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your arm is still bent but the attacker's hips are tight to your shoulder and their knees are pinching hard—what escape should you prioritize?",
+      "name": "Armbar defense: arm still bent but their hips are tight and knees pinched — which escape first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With tight hip-to-shoulder proximity and strong knee pinch, the hitchhiker escape is your highest-percentage option. Rotate your thumb toward your own head (hitchhiker position), slide your elbow across the attacker's body using the rotational motion, and turn your entire body toward the trapped arm side to reach turtle. The thumb rotation makes it mechanically difficult for the attacker to maintain wrist control, and the turning motion creates the angle needed to extract the arm. The stack defense is less effective here because their hips are already locked tight against your shoulder."
@@ -82,7 +82,7 @@ description: "How to defend against the Armbar Finish in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "The attacker is applying progressive bridge pressure and your grip defense is weakening—what is your emergency response?",
+      "name": "Armbar bridge pressure is building and your grip is failing — what is your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When grip defense is failing, you must immediately commit to a positional escape rather than trying to re-strengthen the grip. Your two emergency options are: (1) explosive stack—plant your feet and drive your hips forward into the attacker to fold their body and neutralize the bridge angle, or (2) bridge and roll toward the trapped arm side to invert the position. Both require full commitment and explosive movement. Half-measures at this stage lead to arm extension and submission. If neither escape is available because your mobility is fully compromised, tap immediately."

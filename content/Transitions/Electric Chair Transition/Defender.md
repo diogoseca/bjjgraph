@@ -56,7 +56,7 @@ description: "How to defend against Electric Chair Transition in BJJ. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an Electric Chair Transition is being initiated from lockdown?",
+      "name": "Earliest cue that an Electric Chair transition is starting from the lockdown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player establishing a deep underhook reaching across your back to your far lat or belt area. This grip change signals their intent to transition from standard lockdown retention to the Electric Chair attack sequence. Recognizing and contesting this underhook immediately is your best defensive opportunity, as all subsequent Electric Chair mechanics depend on this upper body control being established."
@@ -64,7 +64,7 @@ description: "How to defend against Electric Chair Transition in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Why is sitting back or leaning away from the pressure the worst defensive response to the Electric Chair?",
+      "name": "Why is sitting back away from the pressure the worst response to the Electric Chair?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Leaning back creates space for the bottom player to achieve full hip extension and the perpendicular angle that maximizes splitting pressure. The Electric Chair mechanism requires the attacker to elevate your trapped leg and angle their body - both actions become easier when you create distance. Forward pressure compresses their space, limits hip extension, and prevents the angle creation that makes the position dangerous."
@@ -72,7 +72,7 @@ description: "How to defend against Electric Chair Transition in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured the underhook and is reaching for your ankle - what is your best defensive action in this moment?",
+      "name": "They have the underhook and are reaching for your ankle — best defensive action right now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This grip change is the attacker's most vulnerable moment because they've released upper body control to reach for the ankle. Immediately drive heavy crossface pressure forward to flatten them while pulling your near foot away from their reaching hand. If you can deny the ankle grip while maintaining forward pressure, the Electric Chair loses its splitting action and reverts to a standard lockdown battle you can work to escape."
@@ -96,7 +96,7 @@ description: "How to defend against Electric Chair Transition in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins elevating your leg and you feel the splitting pressure increasing - what is your systematic escape sequence?",
+      "name": "They elevate your leg and the splitting pressure builds — what is your escape sequence in order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, drive your chest weight forward aggressively to deny further angle creation. Second, use your free hand to attack the ankle grip by prying their fingers or pulling your foot away. Third, drive your free leg's knee toward the mat on the lockdown side to counter the elevation force. Fourth, work to separate their lockdown feet by using knee pressure against their triangle. The key is addressing these in order rather than scrambling, as each step reduces the position's effectiveness incrementally."

@@ -64,7 +64,7 @@ description: "How to defend against Jailbreak to Turtle in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your bottom opponent has a deep underhook and their hips start turning - what is your immediate response?",
+      "name": "Bottom player has a deep underhook and their hips start turning — immediate response as top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately sprawl your hips back and widen your base laterally. This removes the forward weight commitment that powers the inversion and makes your center of gravity too far back to be rolled. Simultaneously work to strip the underhook with a deep whizzer or overhook. Do not continue driving forward—your forward pressure is the energy source the bottom player needs to execute the roll."

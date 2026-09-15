@@ -84,7 +84,7 @@ description: "How to enter the Estima Lock from Single Leg X-Guard in BJJ. Attac
     },
     {
       "@type": "Question",
-      "name": "What is the defining mechanical difference between the Estima Lock and a straight ankle lock during this entry?",
+      "name": "Mechanically, how does the Estima lock differ from a straight ankle lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Estima Lock inverts the foot so the heel rides higher than the toes, with the forearm bladed across the instep acting as a fulcrum and the heel cupped as a fixed anchor. Rotational torque is applied around that fixed heel, whereas a straight ankle lock attacks the foot in its natural position with a more linear extension. The inversion is what makes it an Estima."

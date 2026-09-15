@@ -88,7 +88,7 @@ description: "Learn to execute the Escape from Crab Ride in BJJ. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "Why should you combine hip escape movement with hand-assisted hook stripping rather than using arms alone?",
+      "name": "Why combine hip escape with hand-assisted hook stripping instead of using arms alone?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's hooking leg is significantly stronger than your arm in a static pulling contest. Hip escape movement reduces the hook's depth by moving your hip away from the foot, decreasing the leverage the hook has on your body. Once the hook is shallow from hip displacement, a hand assist easily clears it. Without hip movement, you fight the full strength of their leg hook with just your arm, which drains energy and rarely succeeds against a committed opponent."
@@ -96,7 +96,7 @@ description: "Learn to execute the Escape from Crab Ride in BJJ. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "Your opponent deepens their hook and increases chest pressure when you attempt to shrimp away - how do you adjust?",
+      "name": "They deepen the hook and add chest pressure as you shrimp from crab ride: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent commits forward pressure and deepens the hook in response to your shrimp, switch to a Granby roll escape. Their forward weight commitment actually helps the inversion by providing momentum, and their deep hook means their base is compromised on the far side. The key is recognizing that their counter to one escape variant creates the opening for a different variant. Alternatively, a sit-out toward the hooked side can exploit their forward commitment."

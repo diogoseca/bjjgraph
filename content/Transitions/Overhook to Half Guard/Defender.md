@@ -56,7 +56,7 @@ description: "Learn to defend against the Overhook to Half Guard transition as t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel the bottom player beginning to hip escape and their inside knee moving toward your legs - what is the most effective immediate response?",
+      "name": "They hip escape and drive their inside knee toward your legs: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips forward immediately and increase chest-to-chest pressure to eliminate the space the bottom player needs for leg insertion. Simultaneously sprawl your threatened leg backward to prevent their knee from entering between your legs. Use your crossface arm to turn their face away from the insertion side, which limits their hip mobility and prevents the diagonal angle. Speed is critical because the transition window is only 2-3 seconds, and addressing it in the first second prevents the movement entirely."
@@ -64,7 +64,7 @@ description: "Learn to defend against the Overhook to Half Guard transition as t
     },
     {
       "@type": "Question",
-      "name": "What is the critical timing window for preventing the overhook to half guard transition, and why does early recognition matter?",
+      "name": "When must you stop the overhook to half guard entry, and why does early recognition matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical window is during the initial hip escape movement, before the bottom player's inside knee enters between your legs. Once the knee penetrates past your thigh line, preventing full half guard establishment becomes significantly more difficult and requires extraction rather than prevention. This window typically lasts 2-3 seconds from the moment you detect the hip escape initiation. Responding within the first second by driving pressure forward and controlling the hip line prevents the transition entirely, while responding after the second second means fighting against partially established hooks."
@@ -72,7 +72,7 @@ description: "Learn to defend against the Overhook to Half Guard transition as t
     },
     {
       "@type": "Question",
-      "name": "The bottom player has threaded one leg between yours but hasn't secured deep hooks - how do you prevent full half guard consolidation?",
+      "name": "They threaded a leg but lack deep hooks: how do you stop full half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your caught knee to the mat, pinning their hooking leg underneath your weight and preventing them from establishing the full clamp. Use your hands to push their outside knee away from your body, creating distance that loosens their leg lock. Begin your pass by shifting your hips perpendicular to their body and driving forward through the incomplete entanglement. The key is that an incomplete hook means they lack the control to resist a determined passing attempt. Do not settle into their half guard; use this transition moment to advance through to side control."
@@ -80,7 +80,7 @@ description: "Learn to defend against the Overhook to Half Guard transition as t
     },
     {
       "@type": "Question",
-      "name": "What base configuration gives you the best ability to prevent and counter the overhook to half guard transition?",
+      "name": "What base best prevents and counters the overhook to half guard transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A compact base with your near foot posted flat on the mat and hips kept low and heavy over the bottom player's hip line eliminates the space they need for the hip escape. Your chest should maintain forward pressure into their overhook shoulder, compressing their ability to create the diagonal angle needed for leg insertion. Avoid widening your base, as wider stances create larger gaps between your legs that make the threading path easier. This compact configuration allows you to sprawl backward immediately if they attempt the leg thread while maintaining consistent passing pressure."
@@ -88,7 +88,7 @@ description: "Learn to defend against the Overhook to Half Guard transition as t
     },
     {
       "@type": "Question",
-      "name": "You successfully prevent the half guard hook but the bottom player still maintains their overhook control - what should your next action be?",
+      "name": "You stop their half guard hook but they keep the overhook: what is your next action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the transition denied but overhook still active, immediately work to advance your position through a passing sequence. The bottom player is now in a weakened state because their transition failed, their overhook may be loosening from the exertion, and they must reassess their options. Use this 1-2 second window of defensive confusion to initiate a knee slice pass over their hip or a pressure pass driving your weight through their frame. The failed transition creates a brief moment where their guard structure is compromised and their mental attention is divided between maintaining the overhook and planning their next move."

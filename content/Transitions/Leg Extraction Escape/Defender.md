@@ -64,7 +64,7 @@ description: "How to defend against Leg Extraction Escape from gogoplata control
     },
     {
       "@type": "Question",
-      "name": "Your opponent places both hands on your hips and begins pressing downward - what does this indicate and how should you respond?",
+      "name": "They place both hands on your hips and press down — what does that mean and how do you answer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both hands on hips indicates a systematic leg extraction attempt rather than panicked struggling. Respond by immediately engaging your core to resist the downward pressure, pulling your foot deeper behind their head with both hands, and using your non-choking leg to post on the mat for additional hip elevation support. Their committed hand position means they cannot address the foot behind their head simultaneously."
@@ -88,7 +88,7 @@ description: "How to defend against Leg Extraction Escape from gogoplata control
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully pushes your foot over their head with one hand - what is your immediate response?",
+      "name": "They push your gogoplata foot over their head with one hand — your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the foot clears their head, the gogoplata is structurally broken and cannot be recovered from this position. Immediately switch to plan B: if their head is still between your legs with posture broken, lock up a triangle. If they are posturing away, recover closed guard by bringing both legs inside and locking your ankles. Do not waste time trying to re-establish the foot behind their head as the momentum has shifted."

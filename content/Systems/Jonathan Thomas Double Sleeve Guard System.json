@@ -1,0 +1,246 @@
+{
+  "name": "Jonathan Thomas Double Sleeve Guard System",
+  "description": "Study Jonathan Thomas double sleeve guard with a gi-focused plan for grip access, leg-barrier changes, opponent posture, sweep decisions, and controlled resets.",
+  "summary": "The Jonathan Thomas Double Sleeve Guard System is an independent BJJGraph guide to double sleeve guard decisions, connecting positional control, opponent reactions, and a practical route into offense.",
+  "tags": [
+    "bjj",
+    "system",
+    "guard",
+    "gi"
+  ],
+  "system_type": "Guard System",
+  "difficulty_level": "Intermediate",
+  "overview": "Controlling both sleeves can limit the passer's ability to grip or post, but the feet still need to do a job. A player who keeps pulling the sleeves while losing every leg barrier may be passed with both hands still attached. This guide treats the grips and the changing leg configuration as one system, with opponent posture determining the next task.\n\nThe published course links double-sleeve control with De La Riva, lasso/spider, and posture-specific attacks. This study plan concentrates on grip-and-leg coordination and sweep selection rather than presenting every submission in the course. Double Sleeve Guard by Jonathan Thomas is the optional instructional companion. The drills, stages, and assessments below are original BJJGraph study suggestions; use the course demonstrations and coaching for the detailed mechanics.",
+  "key_principles": [
+    "Sleeve control and leg barriers must work together.",
+    "Read the opponent's height before choosing foot placement.",
+    "Identify what each grip prevents before increasing tension.",
+    "Release and rebuild a grip when keeping it compromises the hand or position.",
+    "Use one familiar leg configuration before adding several guards.",
+    "Select a sweep from the available post and stance."
+  ],
+  "key_components": [
+    {
+      "component_name": "Grip access",
+      "description": "Establish two sleeve connections cooperatively and identify what each hand prevents the passer from doing.",
+      "purpose": "Give the grip battle a positional purpose."
+    },
+    {
+      "component_name": "Leg-barrier coordination",
+      "description": "Match a familiar foot or shin contact to the upper-body connection as the passer changes distance.",
+      "purpose": "Prevent sleeve pulling from replacing guard structure."
+    },
+    {
+      "component_name": "Posture response",
+      "description": "Compare standing and kneeling starts and observe how the available sweep direction changes.",
+      "purpose": "Choose an attack from the opponent's actual base."
+    },
+    {
+      "component_name": "Guard transition",
+      "description": "Move between a small pair of familiar leg configurations while keeping useful sleeve control or rebuilding it.",
+      "purpose": "Connect the guard without collecting unrelated variations."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Explain the grips",
+      "description": "Begin with double sleeves and name which post or grip each connection limits."
+    },
+    {
+      "step_number": 2,
+      "phase": "Establish a leg barrier",
+      "description": "Choose one familiar De La Riva or lasso/spider configuration and check how it supports distance."
+    },
+    {
+      "step_number": 3,
+      "phase": "Change the passer's height",
+      "description": "Let the partner stand or drop one knee and pause to identify the new base."
+    },
+    {
+      "step_number": 4,
+      "phase": "Match a sweep",
+      "description": "Practise one coached sweep suited to the current stance and available arm control."
+    },
+    {
+      "step_number": 5,
+      "phase": "Rebuild after a grip break",
+      "description": "Let one sleeve grip be cleared; recover a playable guard before restarting the original configuration."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The player keeps the sleeves while the feet lose contact.",
+      "solution": "Pause the pass and restore a meaningful leg barrier instead of increasing pulling force."
+    },
+    {
+      "obstacle": "A standing sweep is repeated against a kneeling base.",
+      "solution": "Separate starting-height rounds and identify the relevant change in support."
+    },
+    {
+      "obstacle": "Grip strain is treated as necessary control.",
+      "solution": "Reset and review grip mechanics; preserve the hand rather than holding through discomfort."
+    },
+    {
+      "obstacle": "Every available guard is added before one works.",
+      "solution": "Choose two familiar leg configurations and one transition to study at a time."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Grip purpose",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Explains what each sleeve connection limits",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Leg coordination",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Maintains a useful barrier as distance changes",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Posture reading",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Adjusts the task when a knee drops",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    },
+    {
+      "metric_name": "Recovery quality",
+      "description": "Review this specific decision during constrained positional rounds.",
+      "proficiency_indicators": [
+        "Rebuilds guard after one grip is cleared",
+        "Can identify the contact or reaction that changed this decision.",
+        "Uses the observation to choose the next focused repetition."
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice plan: Keep the initial sleeve grips fixed while the passer alternates standing and one knee down. Rebuild a suitable foot or shin barrier before selecting a sweep; reset when grips become strained. Keep the starting position consistent long enough to compare the same problem across repetitions. Add one defensive option at a time and record the first lost connection rather than only the final result.",
+    "progression_path": [
+      {
+        "stage": "Explain the grips",
+        "focus": "Begin with double sleeves and name which post or grip each connection limits."
+      },
+      {
+        "stage": "Establish a leg barrier",
+        "focus": "Choose one familiar De La Riva or lasso/spider configuration and check how it supports distance."
+      },
+      {
+        "stage": "Change the passer's height",
+        "focus": "Let the partner stand or drop one knee and pause to identify the new base."
+      },
+      {
+        "stage": "Match a sweep",
+        "focus": "Practise one coached sweep suited to the current stance and available arm control."
+      }
+    ],
+    "common_mistakes": [
+      "The player keeps the sleeves while the feet lose contact.",
+      "A standing sweep is repeated against a kneeling base.",
+      "Grip strain is treated as necessary control."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Double Sleeve Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing double sleeve guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "De La Riva Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing double sleeve guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Spider Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing double sleeve guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Lasso Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing double sleeve guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Seated Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing double sleeve guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Open Guard",
+      "content_type": "Position",
+      "relationship": "Positional reference for comparing double sleeve guard entries, controls, or recovery destinations."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Structures that preserve space during the guard exchange."
+    },
+    {
+      "name": "Distance Control",
+      "content_type": "Principle",
+      "relationship": "Spacing behind the entry and recovery decisions."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Support to observe before selecting a sweep or coming up."
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Connections that give the chosen movement its purpose."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why can a player be passed while still holding both sleeves?",
+      "answer": "Sleeve grips alone do not stop the torso from being controlled if the feet and knees no longer maintain a useful barrier."
+    },
+    {
+      "question": "What should determine a change of foot placement?",
+      "answer": "Read the opponent's height, distance, and support so the new contact preserves space and supports the next action."
+    },
+    {
+      "question": "Why explain the purpose of each sleeve grip?",
+      "answer": "Knowing which post or grip it limits helps select a sweep and reveals when the connection is no longer useful."
+    },
+    {
+      "question": "How should a standing-to-kneeling change be practised?",
+      "answer": "Pause after the height change and identify the new support before choosing a leg configuration or repeating the previous sweep."
+    },
+    {
+      "question": "What should happen if keeping a sleeve grip strains the hand?",
+      "answer": "Release or reset and review the grip rather than treating discomfort as proof that the control is working."
+    },
+    {
+      "question": "What is a useful response to losing one sleeve grip?",
+      "answer": "Recover a playable guard with the remaining contacts and rebuild grip access before demanding the original double-sleeve attack."
+    }
+  ],
+  "products": [
+    {
+      "id": "double-sleeve-guard-by-jonathan-thomas",
+      "title": "Double Sleeve Guard",
+      "instructor": "Jonathan Thomas",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "The published course links double-sleeve control with De La Riva, lasso/spider, and posture-specific attacks. This study plan concentrates on grip-and-leg coordination and sweep selection rather than presenting every submission in the course.",
+      "best_for": "Gi guard players with basic positional familiarity who want to study double sleeve guard. This is a focused companion rather than a complete beginner curriculum.",
+      "study_focus": "Begin with the guard concepts and basic control in part one. Compare lasso/spider defenses in part two before choosing a standing or kneeling response from part four.",
+      "practice_tip": "BJJGraph drill: Keep the initial sleeve grips fixed while the passer alternates standing and one knee down. Rebuild a suitable foot or shin barrier before selecting a sweep; reset when grips become strained."
+    }
+  ]
+}

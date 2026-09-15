@@ -74,7 +74,7 @@ description: "How to execute Sweep to Mount in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary biomechanical difference between the Sweep to Mount and the Butterfly Sweep with Guillotine from Hindulotine?",
+      "name": "How does the Sweep to Mount differ mechanically from the Butterfly Sweep with Guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Sweep to Mount uses a hip bump bridge mechanic where feet are planted on the mat and explosive bridging creates the off-balance, while the Butterfly Sweep with Guillotine uses butterfly hooks inside the opponent's thighs to elevate and redirect their forward momentum. The hip bump variant works when hooks are unavailable and relies on directional bridging force rather than opponent's forward pressure."
@@ -114,7 +114,7 @@ description: "How to execute Sweep to Mount in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Where should the primary force for the sweep originate, and what is the consequence of generating force from the wrong source?",
+      "name": "Where must the Sweep to Mount force come from, and what happens if it comes from elsewhere?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Primary sweep force must originate from the hip bridge and core rotation through planted feet. If you generate force primarily through arm pulling on the guillotine grip, your grip fatigues within seconds, the sweep lacks sufficient power to off-balance a resisting opponent, and you risk losing the guillotine entirely as your forearms burn out. Arms direct the force vector while hips provide the power."

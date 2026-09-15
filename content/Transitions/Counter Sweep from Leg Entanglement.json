@@ -256,7 +256,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary timing trigger that signals the counter sweep is available from leg entanglement bottom?",
+        "question": "What timing trigger signals the counter sweep is available from leg entanglement bottom?",
         "answer": "The primary trigger is when the opponent releases their upper body control of your torso to secure finishing grips on your foot or ankle. This transition from positional control to submission finishing creates a base vulnerability because the opponent must redirect their grip structure from controlling your center of mass to manipulating your extremity. During this grip transition, their weight typically shifts backward or laterally, and their ability to prevent your forward hip drive is momentarily compromised.",
         "answer_line": "Releases torso grip for foot lock",
         "distractors": {
@@ -284,7 +284,7 @@
         }
       },
       {
-        "question": "Your opponent has a tight ashi garami with crossed ankles behind your knee—should you attempt the counter sweep immediately?",
+        "question": "Their ashi garami has ankles crossed behind your knee — attempt the counter sweep now?",
         "answer": "No, you should not attempt the counter sweep with crossed ankles behind your knee. The ankle cross creates a locked entanglement structure that prevents the hip displacement necessary for the sweep, and attempting to force through it may expose your knee to dangerous torque. First break the ankle cross by prying at the locking ankle with your free hand or using hip rotation to create enough slack to separate their feet. Only after loosening the entanglement should you look for the sweep timing window.",
         "answer_line": "No, break ankle cross first",
         "distractors": {
@@ -298,7 +298,7 @@
         }
       },
       {
-        "question": "What is the critical post-sweep action that most practitioners neglect after successfully coming to top position?",
+        "question": "What critical action do most practitioners neglect right after landing the counter sweep on top?",
         "answer": "The most commonly neglected action is immediately clearing the leg entanglement after achieving top position. Many practitioners relax momentarily once they feel themselves on top, but the opponent's legs are still configured in an attacking structure. If the entanglement is not immediately addressed, the opponent can re-enter their leg lock attack from bottom position, often from a better angle since your legs are still threaded through their control structure. The sweep and leg extraction must be treated as one continuous movement.",
         "answer_line": "Clear the entanglement immediately",
         "distractors": {
@@ -312,7 +312,7 @@
         }
       },
       {
-        "question": "How does the direction of your sweep relate to the opponent's weight commitment during their leg attack?",
+        "question": "How should your counter sweep direction relate to their weight commitment during their leg attack?",
         "answer": "The sweep should be directed perpendicular to or along the same vector as the opponent's weight commitment. If they lean back for a heel hook, sweep forward into the space they vacated in front of their body. If they shift laterally for a kneebar, sweep them further in that lateral direction. Sweeping against their weight commitment means driving into their strongest base, which drastically reduces success probability. Reading and matching the opponent's weight distribution vector is the fundamental skill that determines whether the sweep generates enough off-balance to succeed.",
         "answer_line": "Sweep into their vacated space",
         "distractors": {
@@ -326,7 +326,7 @@
         }
       },
       {
-        "question": "What distinguishes the sit-up counter sweep variant from the rolling counter sweep variant in terms of when each is appropriate?",
+        "question": "What determines whether you use the sit-up or the rolling counter sweep from leg entanglement?",
         "answer": "The sit-up counter sweep is appropriate when the opponent leans back significantly to finish a heel hook, creating a large gap in their forward base that can be exploited by driving your hips forward and sitting up over them. The rolling counter sweep is appropriate when the opponent has a shallow entanglement without full knee line control, allowing rotational movement through the position. The key differentiator is the depth of the entanglement—deep, tight entanglements favor the sit-up because rotation is restricted, while shallow entanglements allow the rolling motion that uses momentum to break grip structure.",
         "answer_line": "Deep entanglement favors sit-up",
         "distractors": {
@@ -340,7 +340,7 @@
         }
       },
       {
-        "question": "Your opponent posts their free hand to block your counter sweep attempt—what should your immediate response be?",
+        "question": "They post their free hand to block your counter sweep from bottom leg entanglement. What now?",
         "answer": "Immediately attack the posting arm with a kimura grip or two-on-one control. The posting arm is extended and weight-bearing, making it vulnerable to upper body attacks. By threatening a kimura or armbar on the posting arm, you force the opponent to choose between maintaining their base against your sweep or protecting their arm. If they retract the posting arm to defend, the base is removed and you can re-attempt the sweep. This creates a dilemma where the opponent cannot simultaneously maintain their post and protect their arm.",
         "answer_line": "Attack the posting arm, kimura",
         "distractors": {
@@ -354,7 +354,7 @@
         }
       },
       {
-        "question": "Why is the counter sweep from leg entanglement considered a strategic deterrent beyond its direct positional value?",
+        "question": "Beyond the position gained, why is the counter sweep a strategic deterrent against leg attackers?",
         "answer": "The counter sweep changes the game theory of leg lock exchanges by punishing opponents who sacrifice positional control for submission attempts. When an opponent knows you have a reliable counter sweep, they must maintain better upper body control and base during their leg attacks, which directly reduces their finishing effectiveness. This creates a meta-game advantage where your sweep threat forces the opponent into a dilemma between optimizing their leg attack mechanics (which opens the sweep) and maintaining defensive base (which reduces their submission percentage). The deterrent effect is often more valuable than the sweep itself.",
         "answer_line": "Forces base vs finish dilemma",
         "distractors": {
@@ -482,7 +482,7 @@
     ],
     "flashcards": [
       {
-        "question": "What specific grip transition during your leg attack creates the greatest vulnerability to the counter sweep?",
+        "question": "Which grip transition in your leg attack most exposes you to the counter sweep from bottom?",
         "answer": "The most vulnerable moment is when you release upper body control of the opponent's torso to secure both hands on their foot for a finishing grip. This transition removes the primary barrier preventing the opponent from sitting up and driving forward. During this grip transition, the opponent's torso is uncontrolled and their posting arm is free, creating the ideal conditions for the counter sweep. To mitigate this, maintain at least one point of upper body contact until the absolute final moment of the finishing sequence.",
         "answer_line": "Both hands leave torso for foot",
         "distractors": {
@@ -510,7 +510,7 @@
         }
       },
       {
-        "question": "What is the earliest recognition cue that indicates your opponent is preparing a counter sweep from bottom leg entanglement?",
+        "question": "What is the earliest cue that the bottom player is setting up a counter sweep from leg entanglement?",
         "answer": "The earliest cue is a change in the opponent's arm activity—specifically when they shift from defending the leg attack with their hands near their captured leg to freeing their arms and reaching toward the mat for a posting position. This arm repositioning precedes the hip drive by several seconds and indicates the opponent has mentally transitioned from defense to counter-offense. Recognizing this arm shift gives you the maximum response window to re-establish upper body control or adjust your base before the sweep is initiated.",
         "answer_line": "Arms shift toward posting",
         "distractors": {

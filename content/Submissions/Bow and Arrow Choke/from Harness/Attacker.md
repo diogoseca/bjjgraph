@@ -76,7 +76,7 @@ description: "Complete guide to executing the Bow and Arrow Choke from Harness. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Bow and Arrow Choke target and how does the collar create compression?",
+      "name": "What does the bow and arrow choke compress, and how does the collar create that compression?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Bow and Arrow Choke targets the carotid arteries on both sides of the neck. The collar material wraps across the front and sides of the neck, and when tension is applied through extension, the gi fabric compresses against both carotid arteries simultaneously, restricting blood flow to the brain. The wrist bone of the gripping hand acts as a fulcrum against one carotid while the collar fabric crosses the opposite side, creating bilateral compression that causes unconsciousness within 5-10 seconds of a properly applied choke."
@@ -84,7 +84,7 @@ description: "Complete guide to executing the Bow and Arrow Choke from Harness. 
     },
     {
       "@type": "Question",
-      "name": "During the grip transition from seatbelt to collar, your opponent begins to turn toward you — what adjustment prevents the escape?",
+      "name": "From harness, they turn toward you during the seatbelt-to-collar transition — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the collar attempt and re-engage the seatbelt grip to re-establish full positional control. Drive your choking-arm-side hook deeper while pulling with the underhook to flatten the opponent back out. Only re-attempt the collar feed once the opponent is settled and their defensive attention has shifted back to the rear naked choke threat. Forcing the collar grip during a turn sacrifices the dominant back position for a low-percentage submission attempt."
@@ -92,7 +92,7 @@ description: "Complete guide to executing the Bow and Arrow Choke from Harness. 
     },
     {
       "@type": "Question",
-      "name": "What are the critical control requirements that must be established before committing to the collar grip feed?",
+      "name": "What control must be established before you release the seatbelt to feed the collar grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before releasing the seatbelt for the collar, you must have: a deep hook inserted on the choking-arm side with the instep controlling the inner thigh, a tight underhook arm that can maintain upper body control independently, solid chest-to-back connection with your weight distributed through your core, and the opponent in a relatively stable defensive posture rather than mid-escape. The underhook alone must be sufficient to prevent the opponent from turning or creating space during the 1-2 second window when the choking hand is transitioning to the collar."
@@ -100,7 +100,7 @@ description: "Complete guide to executing the Bow and Arrow Choke from Harness. 
     },
     {
       "@type": "Question",
-      "name": "Your collar grip is established but the opponent has tucked their chin tightly — how do you complete the finish?",
+      "name": "Your collar grip is set but their chin is tucked tight — how do you finish the bow and arrow?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, use the leg hook extension to stretch the opponent's body, which naturally forces the shoulders to open and reduces the effectiveness of the chin tuck. If the chin remains tucked, apply the choke over the chin — the jaw pressure creates significant discomfort that either forces a tap directly or causes the opponent to lift their chin to relieve the jaw pain, at which point the collar slides into proper position across the neck. You can also use micro-adjustments by walking your hips further away to increase the extension angle, which amplifies pressure regardless of chin position."
@@ -108,7 +108,7 @@ description: "Complete guide to executing the Bow and Arrow Choke from Harness. 
     },
     {
       "@type": "Question",
-      "name": "What indicates that you have passed the point of no escape when finishing the Bow and Arrow from Harness?",
+      "name": "What tells you the bow and arrow from harness has passed the point of no escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when three conditions are met simultaneously: the collar grip is four-fingers deep and seated behind the neck with slack eliminated, the leg hook is secured at the knee crease preventing the opponent from curling inward, and the attacker has fallen to the choking-arm side and begun extension. Once all three are established, the only remaining defense is to tap. Any attempt to strip the collar at this point requires releasing the leg defense, which accelerates the extension, and any attempt to free the leg opens the collar tighter across the neck."
@@ -116,7 +116,7 @@ description: "Complete guide to executing the Bow and Arrow Choke from Harness. 
     },
     {
       "@type": "Question",
-      "name": "What are the key safety considerations when applying the Bow and Arrow Choke, and how quickly can unconsciousness occur?",
+      "name": "How fast can the bow and arrow cause unconsciousness, and how should you apply it safely?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Bow and Arrow is a blood choke that can cause unconsciousness within 5-10 seconds of full application. Apply pressure slowly and progressively over 3-5 seconds minimum to allow the opponent time to recognize the danger and tap. Never jerk or spike the extension. Watch for loss of resistance, which indicates the opponent may be losing consciousness — release immediately even without a tap signal. In training, always apply at controlled speed and release instantly on any tap signal. If a partner goes unconscious, release all pressure, elevate their legs, and monitor breathing until they recover."

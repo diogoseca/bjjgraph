@@ -282,7 +282,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail that determines whether the stack pass succeeds or fails?",
+        "question": "What single mechanical detail decides whether the double-unders stack pass works?",
         "answer": "The most critical detail is maintaining continuous chest-to-thigh pressure throughout the entire stacking progression without any momentary breaks in contact. Even a fraction of a second where your chest lifts off their thighs creates space for hip movement, frame insertion, or leg separation. The chest connection is the channel through which your body weight transfers into their legs. Your arms maintain grip, but your chest creates the compression that makes the position inescapable. Progressive knee walking without chest separation is the fundamental skill.",
         "answer_line": "Never break chest-to-thigh contact",
         "distractors": {
@@ -310,7 +310,7 @@
         }
       },
       {
-        "question": "What grip configuration provides the most secure connection for maintaining the stack throughout heavy resistance?",
+        "question": "Which grip and placement best holds the double-unders stack against heavy resistance?",
         "answer": "The gable grip with palms pressed together behind the opponent's lower back provides the strongest connection for maintaining the stack under heavy resistance. The S-grip is a secondary option offering slightly less raw strength but better endurance for extended sequences. In gi, gripping the belt provides an even more secure anchor point. The grip must be positioned low on the opponent's back near the belt line rather than high near the shoulders. A high grip allows the opponent to create space below the grip by arching their back.",
         "answer_line": "Gable grip low near belt line",
         "distractors": {
@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "What is the primary direction of force application during the stack pass and how does it change through the technique?",
+        "question": "How does your force direction change through the phases of the stack pass?",
         "answer": "The force direction transitions through three distinct phases. Initially, force is horizontal, driving forward through your chest into their thighs to establish the pressure connection. During the stacking phase, force rotates to approximately forty-five degrees, combining forward and upward vectors as your knees walk forward and fold their body. At peak stack, force becomes nearly vertical, driving straight down through their compressed body into the mat. Understanding this force rotation is critical because attempting vertical force too early fails to fold the opponent, while maintaining horizontal force too long stalls the stacking progression.",
         "answer_line": "Horizontal, then 45°, then vertical",
         "distractors": {
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand on your shoulder and begins turning to their right side during the stack - how do you adjust?",
+        "question": "They post on your shoulder and turn right during the stack: how do you adjust?",
         "answer": "Follow the direction of their turn by shifting your head position to their right hip, using their turning momentum to accelerate the pass to that side. Their shoulder post weakens as you drive past the angle they create. Walk your right knee forward and outward to circle past their right hip while maintaining your left underhook. The turning motion actually assists your pass completion if you follow it rather than fight it, because it creates asymmetric defense where one side opens as they commit to turning.",
         "answer_line": "Follow the turn to their hip",
         "distractors": {
@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "The opponent successfully prevents your stack pass by establishing strong hip frames - what chain attack should you transition to?",
+        "question": "Their hip frames stop your stack pass: which pass do you chain into?",
         "answer": "When hip frames block the forward stack, transition to the toss pass by releasing one underhook and redirecting their legs laterally to the opposite side, using their frame extension against them. Their extended arms create leverage for the toss. Alternatively, if they turn to one side during their frame defense, transition to a leg drag by pulling their near leg across your body. The key principle is recognizing that defensive reactions to the stack pass always expose a different passing lane, so chain passing from the stack uses their defense as the setup for the next technique.",
         "answer_line": "Toss pass off their frame",
         "distractors": {
@@ -366,7 +366,7 @@
         }
       },
       {
-        "question": "How should you distribute your weight during the peak stacking phase to prevent being reversed while maintaining pass readiness?",
+        "question": "How should you distribute weight at peak stack to stay safe and ready to pass?",
         "answer": "At peak stack, approximately seventy percent of your weight should drive downward through your chest into their folded legs, with the remaining thirty percent distributed through your knees and toes for base stability. Your center of gravity must stay over your knees rather than tipping forward past them, which would make you vulnerable to forward rolls or reversals. Keep one foot slightly wider than the other to create triangulated base. The weight must feel heavy on the opponent but your legs must remain mobile enough to step laterally when you begin the passing phase.",
         "answer_line": "70% chest down, 30% base",
         "distractors": {
@@ -380,7 +380,7 @@
         }
       },
       {
-        "question": "What indicators tell you the stack compression is sufficient and you should begin clearing legs to complete the pass?",
+        "question": "Which cues tell you the stack is deep enough to start clearing legs?",
         "answer": "Three indicators signal readiness: the opponent's legs go limp or stop actively resisting the compression, their breathing becomes labored and shallow from spinal compression restricting their diaphragm, and their frame attempts weaken noticeably as their structural leverage diminishes in the fully stacked position. The clearest mechanical indicator is when you can feel their hips loaded above their shoulders with their back curved and weight resting on their shoulder blades. At this point, hip escape is biomechanically impossible and the pass completion window is open.",
         "answer_line": "Hips loaded above their shoulders",
         "distractors": {
@@ -505,7 +505,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is initiating a stack pass from double unders?",
+        "question": "What is the earliest cue that they're starting a stack pass from double unders?",
         "answer": "The earliest cue is feeling the opponent shift from maintaining static double unders pressure to actively walking their knees forward toward your head. You will feel their chest pressure angle changing from horizontal to diagonal as their hips begin to drive upward. This is the critical moment to act because once their knees have walked past your hip line, the stacking compression develops rapidly and your escape options narrow significantly with each additional step forward.",
         "answer_line": "Knees start walking toward head",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "When should you commit to the deep half guard entry versus attempting to maintain frames and prevent the stack?",
+        "question": "When do you switch from framing to a deep half entry against the stack?",
         "answer": "Commit to deep half entry when your hip frames are being overcome and you can feel your hips beginning to elevate off the mat despite your resistance. This is the transition point where continued framing becomes inefficient but the stack has not yet developed enough compression to prevent rotation. The deep half dive uses the opponent's forward pressure as entry momentum, so attempting it too early wastes the mechanical advantage of their committed weight. Attempting it too late fails because full compression prevents the necessary rotation underneath their body.",
         "answer_line": "When hips start to elevate",
         "distractors": {

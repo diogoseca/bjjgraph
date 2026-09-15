@@ -92,7 +92,7 @@ description: "Learn to execute the Estima Lock finish from Estima Lock control. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins counter-rotating their ankle to neutralize the lock angle—what adjustment should you make before the angle is fully compromised?",
+      "name": "They counter-rotate the ankle against your Estima Lock — what adjustment saves the angle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately deepen the forearm fulcrum by sliding it further toward the toes to increase your mechanical advantage against their counter-rotation. Simultaneously increase hip drive pressure into their calf to prevent their leg from creating the space needed for effective counter-rotation. If these adjustments fail and the angle is neutralized, transition to a toe hold by adjusting your grip to attack the now-exposed toe line rather than forcing a compromised Estima Lock angle."
@@ -100,7 +100,7 @@ description: "Learn to execute the Estima Lock finish from Estima Lock control. 
     },
     {
       "@type": "Question",
-      "name": "What physical indicators tell you the submission has reached the point of no escape for the defender?",
+      "name": "In the Estima Lock, what tells you the defender has passed the point of no escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape is indicated by the forearm fulcrum being fully seated across the mid-foot with no slack in the figure-four grip, the opponent's heel locked immobile in the crook of your grip hand, hip pressure maintaining continuous contact with their calf eliminating retraction space, and the opponent's free leg either controlled or unable to create sufficient frame pressure to displace your hips. When all four of these conditions are simultaneously met and you feel resistance through the ankle ligaments during the dorsiflexion drive, the mechanical completion is imminent."

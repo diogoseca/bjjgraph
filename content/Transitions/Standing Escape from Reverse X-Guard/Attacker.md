@@ -80,7 +80,7 @@ description: "Execute the Standing Escape from Reverse X-Guard as the top player
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent increases hip elevation and pulls your sleeve strongly as you start widening your base - how do you adjust?",
+      "name": "In reverse X, they elevate hips and pull your sleeve as you widen your base. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips forward immediately to flatten their elevation while stripping the sleeve grip with your free hand. The increased elevation actually makes them more vulnerable to forward pressure because their shoulders are further from the mat. Maintain your widened base and apply downward pressure through your hips before attempting hook removal. If the elevation is too strong, consider switching to a backstep pass rather than continuing the standing escape."
@@ -96,7 +96,7 @@ description: "Execute the Standing Escape from Reverse X-Guard as the top player
     },
     {
       "@type": "Question",
-      "name": "The bottom player begins transitioning to Single Leg X-Guard as you strip their primary hook - what should you do?",
+      "name": "They switch to single leg X as you strip their reverse X hook. What should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately address the Single Leg X entry by pushing their hooking foot down and stepping your free leg back to create a wider angle. Single Leg X requires less hook depth than Reverse X, so they can establish it quickly during your transition. Rather than continuing the standing escape, shift to a passing approach appropriate for Single Leg X, such as a backstep or long step. The key is recognizing the transition before they consolidate the new guard."
@@ -112,7 +112,7 @@ description: "Execute the Standing Escape from Reverse X-Guard as the top player
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs your ankle with both hands as you attempt to step your extracted leg backward - how do you clear this grip?",
+      "name": "They grab your ankle two-handed as you step your leg back from reverse X. How do you clear it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a sharp circular motion with your foot to strip their grip rather than pulling straight back, which allows them to maintain control. Rotate your foot outward while simultaneously shifting your weight to the free leg. If the grip is too strong to strip, step your free leg forward to create a new angle that makes their grip alignment ineffective, then extract laterally rather than straight back. Never try to muscle through an established two-hand ankle grip."

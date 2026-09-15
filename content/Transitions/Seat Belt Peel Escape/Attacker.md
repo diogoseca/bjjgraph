@@ -82,7 +82,7 @@ description: "Master the Seat Belt Peel Escape execution from back control botto
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a gable grip for their seat belt connection - how does this change your peeling approach compared to a wrist grab?",
+      "name": "How does peeling a gable-gripped seat belt differ from peeling a wrist grab?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A gable grip (palm-to-palm with fingers interlocked) is stronger against direct pulling force but weaker against rotational peeling because the fingers can be individually addressed. Focus the peel on rotating their top hand rather than pulling straight away. Strip individual fingers starting with the pinky side while maintaining diagonal pull direction. A wrist grab is weaker overall but the wrist is harder to individually strip, so use steady progressive force on the entire wrist with emphasis on the diagonal shear angle."
@@ -98,7 +98,7 @@ description: "Master the Seat Belt Peel Escape execution from back control botto
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases their seat belt voluntarily as you begin peeling - what does this indicate and how should you respond?",
+      "name": "They release the seat belt as you peel; what does that mean and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A voluntary seat belt release during your peel attempt almost always indicates the opponent is transitioning to a direct choke attack, using the hand separation as an opportunity to slide their forearm under your chin. This is the most dangerous counter to the peel escape. Immediately abandon the peel and return both hands to neck defense, tucking your chin hard and establishing two-on-one control on whatever arm is moving toward your neck. Do not continue the escape sequence until the choking threat is neutralized."
@@ -114,7 +114,7 @@ description: "Master the Seat Belt Peel Escape execution from back control botto
     },
     {
       "@type": "Question",
-      "name": "What should you do if your peel attempt partially succeeds - you weaken the grip but cannot fully separate the hands?",
+      "name": "Your seat belt peel weakens the grip but can't separate the hands; what do you do next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A partial peel success is still valuable because it degrades the opponent's grip quality and forces them to expend energy rebuilding their connection. Maintain whatever grip degradation you achieved, execute a small hip escape to capitalize on the reduced control, then immediately attempt a second peel while their grip is still weakened. Multiple partial successes accumulate into full separation. The opponent's grip endurance is finite, and each peel attempt taxes their forearm muscles. Do not abandon partial progress to try a completely different escape."

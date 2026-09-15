@@ -80,7 +80,7 @@ description: "Master Leg Extraction from Cross Ashi-Garami. Step-by-step guide t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must the outside crossing leg be cleared before the inside hook when escaping cross ashi specifically?",
+      "name": "Escaping cross ashi, why clear the outside crossing leg before the inside hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The outside cross creates the wedge geometry that distinguishes cross ashi from standard ashi garami. This crossed configuration prevents linear leg withdrawal by trapping the leg between two converging points of pressure. Clearing the inside hook first while the cross remains intact accomplishes nothing because the cross still blocks extraction. Removing the outside cross first collapses the wedge effect, reducing the entanglement to something resembling loose standard ashi where the inside hook alone provides much weaker retention. The clearing sequence must match the structural hierarchy of the position."
@@ -88,7 +88,7 @@ description: "Master Leg Extraction from Cross Ashi-Garami. Step-by-step guide t
     },
     {
       "@type": "Question",
-      "name": "Your opponent loosens their cross to reach for a deeper heel grip - how do you exploit this adjustment window?",
+      "name": "They loosen the cross to reach for a deeper heel grip — how do you use that window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the primary extraction window in cross ashi. When the opponent releases or loosens the cross to reach for the heel, immediately use both hands to strip the heel grip attempt before it sets, then capitalize on the loosened cross by pushing their crossing shin below your ankle line. Execute the full extraction sequence during the gap before they can re-establish the cross. The key is recognizing that their grip transition creates a two to three second window where neither the cross nor the heel grip is fully secured."
@@ -104,7 +104,7 @@ description: "Master Leg Extraction from Cross Ashi-Garami. Step-by-step guide t
     },
     {
       "@type": "Question",
-      "name": "You begin clearing the outside cross but the opponent immediately re-crosses before you can extract - what should you do?",
+      "name": "You clear the outside cross but they re-cross before you extract — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent re-crosses immediately, it means you released the pin on the cleared cross too early or attempted to extract before fully clearing the gap. Reset your clearing sequence and try again, but this time maintain the pin on the cleared cross with one hand throughout the entire extraction phase rather than releasing it to use both hands elsewhere. If they consistently re-cross faster than you can extract, consider switching to the Counter Entangle from Cross Ashi to enter 50-50 instead, as this alternative does not require clearing the cross entirely."
@@ -120,7 +120,7 @@ description: "Master Leg Extraction from Cross Ashi-Garami. Step-by-step guide t
     },
     {
       "@type": "Question",
-      "name": "Your opponent advances from cross ashi toward saddle during your extraction attempt - what is your immediate response?",
+      "name": "They advance from cross ashi toward the saddle mid-extraction — your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the extraction immediately. Saddle configuration locks the entanglement far beyond what leg extraction can address. Transition to Boot Scoot Escape from Saddle or Forward Roll from Saddle, which are designed for the deeper control structure. The critical insight is recognizing the advancement early through their outside leg stepping over your hip and immediately switching escape methods rather than continuing an extraction that has zero chance of success against consolidated saddle control."

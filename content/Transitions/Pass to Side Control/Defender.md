@@ -56,7 +56,7 @@ description: "How to defend against Pass to Side Control in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important grip to maintain when defending against the pass from 50-50 bottom?",
+      "name": "Defending the pass from bottom 50-50, which single grip matters most to maintain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Two-handed control on opponent's ankle or foot is the most critical grip. This grip directly prevents leg extraction, which is the fundamental mechanism of the pass. Without ankle control, you cannot re-hook their leg or prevent extraction. Maintaining this grip forces opponent to spend time and energy grip fighting before they can begin any extraction sequence."
@@ -64,7 +64,7 @@ description: "How to defend against Pass to Side Control in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has broken your ankle grip and begun extracting their inside leg - what is the highest priority defensive action?",
+      "name": "Bottom 50-50: they broke your ankle grip and are extracting a leg. What is your top priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-hook their extracting leg with your own legs before it fully clears, while simultaneously framing against their shoulder with your near arm to prevent chest pressure from pinning you flat. If the re-hook fails, hip escape laterally and insert your knee to block their forward drive. The critical principle is acting during extraction, not after both legs clear."
@@ -88,7 +88,7 @@ description: "How to defend against Pass to Side Control in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Why is defending during the grip fighting phase more effective than defending during the extraction phase?",
+      "name": "Defending the 50-50 pass, why defend during the grip fight rather than during leg extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During grip fighting, opponent has not yet established chest pressure or begun extracting legs, meaning you have maximum mobility and grip access. Once extraction begins, their chest weight pins you and their leg is already partially free, reducing your defensive options dramatically. Early defense when you have full range of motion and grip access has roughly double the success rate of late-stage defense."

@@ -308,7 +308,7 @@
         }
       },
       {
-        "question": "Your opponent attempts to redirect the lapel around your leg to transition to worm guard—what is your response?",
+        "question": "Pressure passing lapel guard, they redirect the lapel toward worm guard. Your response?",
         "answer": "Continue your forward pressure and immediately backstep before the worm configuration completes. Your forward momentum should prevent them from completing the wrap around your leg. If you recognize the transition early, you can extract your leg before they secure the new position. If worm guard establishes despite this, abandon pressure passing and switch to backstep mechanics.",
         "answer_line": "Backstep before worm wrap sets",
         "distractors": {
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "Your opponent frames hard with their free arm and creates distance—what is the critical direction of force to maintain your pass?",
+        "question": "Pressure passing lapel guard, they frame hard and make space: what force direction saves the pass?",
         "answer": "The critical force direction is diagonal-forward into the opponent's far shoulder, not straight down. Driving diagonally collapses their framing arm by compressing it at an angle it cannot structurally support. Simultaneously underhook or control the framing arm with your collar-grip hand to strip the frame entirely, then immediately re-close the distance with renewed chest pressure.",
         "answer_line": "Diagonal into their far shoulder",
         "distractors": {
@@ -364,7 +364,7 @@
         }
       },
       {
-        "question": "If the pressure pass stalls and you cannot complete the angle change, what chain attacks are available?",
+        "question": "Your pressure pass through squid stalls before the angle change: what chain attacks are available?",
         "answer": "If the pressure pass stalls, your established forward momentum creates immediate options. You can transition to a double under pass by shooting both arms under their legs while maintaining the pressure. Alternatively, convert to a stack pass by driving their legs toward their head vertically. If they open their guard structure to address your pressure, a knee slice or leg drag becomes available through the gap they create.",
         "answer_line": "Double unders, stack, or knee slice",
         "distractors": {
@@ -496,7 +496,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is committing to a pressure pass rather than a technical lapel clearing approach?",
+        "question": "In lapel guard, earliest cue they are committing to a pressure pass rather than clearing the lapel?",
         "answer": "The earliest cue is when your opponent stops fighting the lapel wrap and instead drops their hips low while driving their chest forward toward yours. A technical passer would be working to extract their arm or strip your grip—a pressure passer accepts the entanglement and commits their weight forward. The deep collar grip with their free hand and head dropping to shoulder level confirm the pressure commitment.",
         "answer_line": "Hips drop, chest drives forward",
         "distractors": {
@@ -510,7 +510,7 @@
         }
       },
       {
-        "question": "Why is the sit-up back take the highest-percentage counter to the pressure pass, and what makes the timing window critical?",
+        "question": "Why is the sit-up back take the best counter to the pressure pass, and when is the timing window?",
         "answer": "The pressure passer has committed their weight forward with one arm trapped in your lapel, creating a path behind them that a well-timed sit-up exploits. Their trapped arm cannot post to prevent your rotation, and their forward weight commitment means they cannot easily retreat. The timing window is between their level change and chest contact—too early and they have not committed enough, too late and their crossface pins you flat.",
         "answer_line": "Between level change and contact",
         "distractors": {
@@ -524,7 +524,7 @@
         }
       },
       {
-        "question": "Your opponent has established chest-to-chest contact and is beginning to walk legs around—the sit-up window is closed. What is your best defensive sequence?",
+        "question": "Lapel guard: they get chest contact and walk their legs, sit-up gone. Best defensive sequence?",
         "answer": "Create a strong forearm frame against their crossface shoulder to prevent them from settling their full weight. Hip escape away from the direction they are walking to re-establish distance. Use your legs actively to create frames or insert hooks. If you can create enough space, reconfigure to half guard with knee shield as a minimum defensive position. The frame must be established before their crossface locks your head in place.",
         "answer_line": "Frame, hip escape, half guard shield",
         "distractors": {
@@ -552,7 +552,7 @@
         }
       },
       {
-        "question": "What should you do if you recognize the pressure pass but have already lost significant distance and your opponent is halfway through the leg walk?",
+        "question": "Lapel guard: you spot the pressure pass late, with them halfway around your legs. What do you do?",
         "answer": "At this late stage, commit to frame-based survival and guard recovery rather than attempting the sit-up. Establish forearm frames on their shoulder, protect your neck from crossface, and work aggressively to insert a knee between your bodies to recover half guard. Half guard with knee shield is a strong fallback position that resets the exchange. Accepting half guard rather than fighting a losing battle for full guard retention preserves energy for the next exchange.",
         "answer_line": "Frame up, insert knee, half guard",
         "distractors": {

@@ -76,7 +76,7 @@ description: "How to execute Kimura from Standing in BJJ. Attacking perspective 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must the opponent's elbow be elevated above shoulder height before applying rotational pressure in the standing Kimura?",
+      "name": "In the standing Kimura, why lift their elbow above shoulder height before rotating?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Elbow elevation above shoulder height is biomechanically critical because it pre-loads the shoulder joint into vulnerable position, compromises the opponent's ability to use lat and pectoral muscles for defensive strength, forces them onto their toes disrupting base, and maximizes the mechanical advantage of the figure-four grip. Low elbow position allows opponent to use major muscle groups for defense and provides minimal submission pressure regardless of rotation applied."
@@ -84,7 +84,7 @@ description: "How to execute Kimura from Standing in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What is the minimum time frame for applying rotational pressure in training, and why is this safety protocol essential for standing Kimura applications?",
+      "name": "How slowly should you apply rotation in a standing Kimura in training, and why that long?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Minimum 5-7 seconds of progressive, incremental rotation is required in training for standing Kimura applications. This extended timeframe (longer than ground Kimuras) is essential because: standing position increases fall risk and impact injury potential, shoulder joint damage occurs rapidly under rotational stress, tap signal visibility and recognition is more difficult in standing exchanges, and partner has less ability to verbally communicate distress while maintaining balance. The standing environment amplifies all injury risks, requiring proportionally slower application speeds and heightened awareness."
@@ -92,7 +92,7 @@ description: "How to execute Kimura from Standing in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Describe the proper sequence for releasing a standing Kimura after receiving a tap signal, including fall prevention considerations?",
+      "name": "How do you release a standing Kimura after the tap, including safe descent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upon tap recognition: (1) Immediately cease all rotational pressure while maintaining grip stability to prevent sudden release, (2) Actively guide partner safely to ground if still standing using Kimura grip as control handle, (3) Release wrist grip first allowing arm to decompress, (4) Release shoulder control while supporting their arm, (5) Allow partner to externally rotate shoulder back to neutral position at their own pace, (6) Assess for injury and ensure clear communication before continuing. The key principle is controlled, sequential release that prevents both continued submission pressure and sudden uncontrolled arm release that could cause secondary injury."
@@ -100,7 +100,7 @@ description: "How to execute Kimura from Standing in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "When opponent defends standing Kimura by counter-rotating toward their trapped arm, what are the two highest percentage responses and why?",
+      "name": "They counter-rotate toward the trapped arm in a standing Kimura. What are the best two responses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two highest percentage responses are: (1) Follow their rotation while increasing elbow elevation and transition to back take by stepping behind them as they turn, converting their defensive rotation into back control entry with Kimura grip maintained, or (2) Use their rotational momentum to off-balance them with outside trip or inside trip, taking them to ground in dominant position with submission intact. Both responses capitalize on opponent's committed movement rather than fighting against it, exemplifying the principle of using opponent's energy and reactions to create submission-or-position dilemmas. Attempting to stop or reverse their rotation typically fails against determined defense."
@@ -108,7 +108,7 @@ description: "How to execute Kimura from Standing in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What environmental safety considerations are mandatory before attempting standing Kimura in training, and what injuries are these precautions designed to prevent?",
+      "name": "What mat-space precautions are required before drilling standing Kimuras, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Mandatory environmental precautions include: verifying 6-8 feet of clear matted space in all directions, positioning away from walls and equipment, ensuring no other training pairs in fall radius, and confirming adequate mat thickness for potential falls from standing height. These precautions prevent head trauma and concussions from uncontrolled falls onto hard surfaces, fractures or dislocations from impact with walls or equipment, and collision injuries with other practitioners. Standing submissions create inherent fall risk that ground techniques don't present, requiring proactive environmental management as non-negotiable safety protocol."
@@ -116,7 +116,7 @@ description: "How to execute Kimura from Standing in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Why is the standing Kimura considered a systematic position rather than purely a submission, and what strategic opportunities does this create?",
+      "name": "Why is the standing Kimura a control position, not just a submission, and what does that open up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The standing Kimura functions as a systematic control position because the figure-four grip creates a steering mechanism that controls opponent's entire body, not just the arm. This systematic nature creates multiple strategic pathways: forced takedowns where opponent drops to escape shoulder pressure, back take opportunities when opponent counter-rotates, guard pull reactions that land you in dominant passing position, and submission finishes in multiple positions (standing, transition, or ground). Advanced practitioners use standing Kimura as a position-control system that creates cascading dilemmas - opponent must choose between accepting takedown, giving back, or tapping to submission. This multi-pathway approach defines systematic position versus isolated submission technique."

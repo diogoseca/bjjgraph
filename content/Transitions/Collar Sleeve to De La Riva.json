@@ -258,7 +258,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary trigger that signals you should transition from collar sleeve guard to De La Riva guard?",
+        "question": "What triggers the switch from collar sleeve guard to De La Riva?",
         "answer": "The primary trigger is the opponent standing up or committing weight to their lead leg from your collar sleeve guard. When the opponent stands, the collar pull loses effectiveness because the distance increases and their posture straightens. De La Riva guard exploits standing posture through the hook's leverage on the knee and hip, making it the superior guard choice against upright opponents. Without this standing trigger, staying in collar sleeve guard is usually more effective.",
         "answer_line": "Opponent stands, weight forward",
         "distractors": {
@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "What is the correct grip conversion sequence and why should you never release both grips simultaneously?",
+        "question": "In the collar sleeve to DLR switch, what's the grip order, and why never drop both grips?",
         "answer": "Convert the sleeve grip to ankle control first while maintaining the collar grip throughout. Only after the ankle grip is secured and the hook is set with tension should you evaluate whether to maintain or convert the collar grip. Releasing both grips simultaneously creates a control vacuum where the opponent has complete freedom to pass, smash, or disengage. Even a half-second gap with no grips allows an experienced passer to initiate a sequence that is extremely difficult to recover from.",
         "answer_line": "Sleeve to ankle, keep collar",
         "distractors": {
@@ -503,7 +503,7 @@
         }
       },
       {
-        "question": "How should your passing strategy change if the transition succeeds and you find yourself in established DLR guard?",
+        "question": "They complete the DLR transition on you: how does your passing strategy change?",
         "answer": "Switch from collar sleeve passing strategies to DLR-specific counters. Priority becomes stripping the ankle grip first, then addressing the hook through backstep or smash pressure. Do not attempt lateral toreando passes without first clearing the hook, as the DLR hook converts your lateral passing momentum into sweeping momentum. Consider long step passes or backstep passes that specifically address the hook position. Maintain posture and hip distance to prevent berimbolo entries.",
         "answer_line": "Strip ankle grip, then clear hook",
         "distractors": {

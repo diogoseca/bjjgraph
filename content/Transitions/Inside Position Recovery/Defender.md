@@ -64,7 +64,7 @@ description: "How to defend against Inside Position Recovery in BJJ. Maintain le
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully creates hip angle but has not yet freed their leg—what is your best response?",
+      "name": "They create hip angle but haven't freed the leg from your leg drag. What is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Backstep to follow their hip movement while maintaining tight leg control, re-angling your position to close the space they created. Simultaneously increase your crossface or shoulder pressure to prevent them from continuing the extraction. If the angle is too great, abandon the leg drag and immediately consolidate to side control with a strong crossface before they can insert hooks."
@@ -72,7 +72,7 @@ description: "How to defend against Inside Position Recovery in BJJ. Maintain le
     },
     {
       "@type": "Question",
-      "name": "Why is it more effective to advance position than to fight statically against your opponent's frames?",
+      "name": "Why is advancing position better than fighting statically against their frames from leg drag?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Fighting statically against frames becomes an energy war that you will eventually lose because the bottom player can generate structural force through skeletal alignment while you must use muscular effort to resist. Advancing position changes the problem entirely—instead of holding them down, you threaten new attacks that force them to abandon their recovery sequence and address the new threat."
@@ -88,7 +88,7 @@ description: "How to defend against Inside Position Recovery in BJJ. Maintain le
     },
     {
       "@type": "Question",
-      "name": "How should you manage the trade-off between maintaining leg drag control and advancing to side control?",
+      "name": "How do you balance holding leg drag control against advancing to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Leg drag is inherently transitional and should not be held longer than necessary. If your opponent is actively working recovery, you should be advancing rather than maintaining. The decision point is when they establish a frame—if you can collapse the frame with pressure, maintain the drag. If they create any hip angle, immediately transition to side control consolidation rather than fighting a losing battle for leg control."

@@ -84,7 +84,7 @@ description: "Learn to attack with the Ezekiel Choke from closed guard top. Step
     },
     {
       "@type": "Question",
-      "name": "How do you recognize that the choke is properly locked and the opponent has passed the point of no escape?",
+      "name": "How do you know the Ezekiel from closed guard is locked past the point of no escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke is properly locked when both the sleeve grip hand and blade forearm form a complete closed circuit around the neck with no space for the chin to tuck back in. The point of no escape is reached when your head drops beside theirs as a wedge, your chest weight commits forward through the structure, and both forearms are squeezing inward with no slack. At this stage, the opponent's attempts to pull the forearm away become biomechanically insufficient."
@@ -100,7 +100,7 @@ description: "Learn to attack with the Ezekiel Choke from closed guard top. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to hip escape while you are establishing the sleeve grip. What adjustment prevents the attack from being disrupted?",
+      "name": "They hip escape as you set the sleeve grip for the Ezekiel — what adjustment saves the attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drop your hips heavy and drive forward into the opponent to flatten them and eliminate their hip escape angle. Keep your knees wide for lateral stability so their shrimping cannot off-balance you. If they create significant angle before you can flatten them, abandon the attempt, recover posture, and reset to try again when they return to a square position. Chasing the choke against a successful hip escape leads to positional disaster."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Ezekiel Choke from closed guard top. Step
     },
     {
       "@type": "Question",
-      "name": "How should you adjust if the opponent tucks their chin to block the blade forearm from crossing the throat?",
+      "name": "Ezekiel from closed guard: how do you adjust when they tuck the chin against the blade forearm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent tucks their chin, angle the blade hand entry from the side of the neck rather than attempting to drive directly over the chin. Use your sleeve-grip hand to momentarily push their jaw upward, creating a brief opening for the blade forearm to slide underneath to the throat. In some cases, the choke still applies effective pressure across the chin because the jaw transmits compressive force to the underlying carotid structures, though this is less clean than direct throat contact."

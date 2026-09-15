@@ -50,7 +50,7 @@ description: "Learn to defend against the Z-Guard to Half Guard transition as th
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that tells you the bottom player is preparing to transition from Z-Guard to Half Guard?",
+      "name": "What is the earliest cue that the bottom player is switching from Z-Guard to half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player deepening their underhook by driving their arm further underneath your armpit and reaching toward your far shoulder blade or lat. This underhook deepening typically precedes the knee shield withdrawal by one to three seconds, as the bottom player needs to secure their offensive control before removing their primary defensive barrier. Recognizing this preparatory movement gives you time to apply the whizzer or strip the underhook before the transition begins."
@@ -58,7 +58,7 @@ description: "Learn to defend against the Z-Guard to Half Guard transition as th
     },
     {
       "@type": "Question",
-      "name": "What is the most effective defensive timing for capitalizing on the Z-Guard to Half Guard transition?",
+      "name": "When is the best moment to capitalize on their Z-Guard to Half Guard transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective timing is to drive your crossface and shoulder pressure forward at the exact moment the knee shield begins dropping. This is a narrow window of approximately one second where the bottom player has removed their defensive barrier but has not yet established the close-range body connection that powers their sweeps. Reacting before the shield drops means fighting against the active frame. Reacting after the transition completes means facing an established half guard with underhook. The sweet spot is during the retraction itself."
@@ -66,7 +66,7 @@ description: "Learn to defend against the Z-Guard to Half Guard transition as th
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip priorities when you recognize the bottom player is about to transition from Z-Guard to Half Guard?",
+      "name": "How do you shift grip priorities once you read the Z-Guard to Half Guard transition coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately shift your grip priority to preventing or stripping the underhook using whizzer control or direct shoulder pressure into their underhooking arm. Your secondary priority becomes controlling their far-side collar or arm to prevent them from using your forward pressure for sweeps. Release any grips that are not serving these two objectives and redirect your hands to the underhook battle and far-side control. The underhook is the enabler of the entire transition, so denying it is more effective than any other defensive response."
@@ -74,7 +74,7 @@ description: "Learn to defend against the Z-Guard to Half Guard transition as th
     },
     {
       "@type": "Question",
-      "name": "The bottom player successfully withdraws their knee shield and establishes a deep underhook in half guard - what is your immediate recovery strategy?",
+      "name": "They withdraw the knee shield and get a deep underhook in half guard—how do you recover?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the transition is complete with a deep underhook established, immediately apply a strong whizzer on the underhook side and drive your shoulder weight down into their chest to limit their hip mobility. Secure their far-side collar or arm to prevent the old school sweep from developing. From this position, work to strip the underhook through sustained hip pressure and whizzer torque rather than trying to force a pass. Alternatively, if their underhook is too deep to strip, consider a kimura grip on the underhooking arm to create a passing opportunity from the kimura trap position."

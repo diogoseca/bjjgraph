@@ -74,7 +74,7 @@ description: "Execute the Re-pull Half Guard from Dogfight to safely retreat fro
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most critical action that must occur before any downward movement during the re-pull?",
+      "name": "What must happen before any downward movement in the re-pull to half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee shield or primary frame must be inserted before initiating any descent. This frame creates the barrier that prevents the opponent from following you down with chest-to-chest pressure. Without the frame in place before moving, the transition degenerates into an uncontrolled collapse where the opponent can drive you flat and begin passing immediately. The window for frame insertion exists only while you still have the upright structural integrity of the dogfight posture."
@@ -82,7 +82,7 @@ description: "Execute the Re-pull Half Guard from Dogfight to safely retreat fro
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a strong whizzer and is driving you backward with crossface pressure. You decide to re-pull half guard. What body angle should you land at and why?",
+      "name": "Re-pulling half guard under a whizzer and crossface, what landing angle do you take and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should land on your outside hip with shoulders angled approximately 45 degrees from the mat, facing the opponent. Landing flat on your back eliminates hip mobility needed for shrimping and guard retention, allows the opponent to establish crushing chest pressure, and removes all offensive capability. The side angle preserves hip escape mechanics, distributes the opponent's downward pressure across your skeletal frame rather than absorbing it through your sternum, and keeps your underhook and knee shield accessible for immediate offensive action."
@@ -90,7 +90,7 @@ description: "Execute the Re-pull Half Guard from Dogfight to safely retreat fro
     },
     {
       "@type": "Question",
-      "name": "How do you maintain the half guard leg entanglement during the transition from kneeling dogfight to supine half guard?",
+      "name": "How do you keep the leg entanglement while dropping from dogfight to supine half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain constant inward squeeze pressure with both legs throughout the entire descent, treating the trapped leg as an anchor that must not be released under any circumstances. As your hips lower to the mat, your legs naturally transition from the kneeling clamp configuration to the supine half guard entanglement. The critical moment is during the hip-to-mat landing when the entanglement tends to loosen—consciously squeeze your knees together and hook your outside foot behind the opponent's trapped leg to maintain control. If you feel the leg beginning to slip free, abort the re-pull and either recover the clamp or transition to closed or butterfly guard."
@@ -114,7 +114,7 @@ description: "Execute the Re-pull Half Guard from Dogfight to safely retreat fro
     },
     {
       "@type": "Question",
-      "name": "Your opponent follows your re-pull with heavy forward pressure, driving into your frames as you descend. How do you redirect this energy?",
+      "name": "They drive hard into your frames as you re-pull half guard — how do you redirect that energy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the knee shield as a redirecting surface rather than a rigid wall. Angle the knee shield slightly to one side so the opponent's forward momentum carries past your centerline rather than stacking directly into your guard. If they overcommit to the forward drive, this creates an opportunity to redirect them into a deep half guard entry by ducking underneath their pressure, or to use their momentum for an immediate sweep attempt. The key is treating their forward energy as a resource to be redirected rather than a force to be absorbed through static resistance."

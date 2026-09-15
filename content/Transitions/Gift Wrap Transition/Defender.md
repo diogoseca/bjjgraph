@@ -72,7 +72,7 @@ description: "How to defend against Gift Wrap Transition in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your arm is being pulled across your chest but the grip transfer is not yet complete - what do you do?",
+      "name": "Your arm is pulled across your chest but the grip transfer is incomplete: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the incomplete grip transfer with two-on-one hand fighting. Both your hands should target the attacker's grip on your wrist, stripping it before the threading arm can secure the transfer. Simultaneously, rotate your trapped shoulder forward and toward the mat to reduce the angle the attacker needs to complete the wrap. This must be done explosively because the grip transfer window is brief - once the threading hand secures your wrist, the mechanical advantage shifts decisively to the attacker."
@@ -88,7 +88,7 @@ description: "How to defend against Gift Wrap Transition in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "The attacker feints a choke to bait your arms open - how should you respond without exposing yourself to the Gift Wrap?",
+      "name": "They feint a choke from high mount: how do you defend without giving up the Gift Wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defend the choke with minimal arm extension. Tuck your chin hard and use your hands close to your neck rather than pushing away on their arms. If you must push, use one short frame while keeping the other arm completely retracted against your ribs. The attacker wants you to extend both arms in a panic response to the choke threat because that creates the arm isolation needed for the Gift Wrap. Disciplined, compact defense forces them to actually commit to the choke rather than using it as bait."

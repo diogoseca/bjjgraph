@@ -58,7 +58,7 @@ description: "Defend the belly down armbar from New York rubber guard. Recognize
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize the belly down armbar from New York is being set up before the leg crosses over your head?",
+      "name": "How do you recognize the New York belly down armbar setup before their leg crosses your head?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker releasing their shin grip while maintaining the deep overhook, indicating they are transitioning from guard retention to submission setup. You will also feel their hips begin to elevate and angle perpendicular to your body as they create space for the leg swing. Their focus shifts from pulling your head down to controlling your wrist area. React immediately to these cues by fighting for posture recovery and pulling your elbow back toward your hip before the leg completes its path over your head."
@@ -74,7 +74,7 @@ description: "Defend the belly down armbar from New York rubber guard. Recognize
     },
     {
       "@type": "Question",
-      "name": "What is the highest-percentage defensive window during the belly down armbar transition from New York?",
+      "name": "When is the highest-percentage defensive window against the belly down armbar from New York?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage window is between the attacker releasing their shin grip and their leg fully crossing over your head. During this 1-2 second window, the attacker's control structure is temporarily weakened because they have abandoned the shin control that maintained New York but have not yet established the leg clamp for the armbar. Use this window to explosively recover posture by driving your head upward and pulling your trapped elbow back toward your hip. If you miss this window, the next opportunity is during the belly down rotation before wrist control is secured, but this is significantly lower percentage."

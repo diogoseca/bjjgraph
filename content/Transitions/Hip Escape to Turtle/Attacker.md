@@ -98,7 +98,7 @@ description: "How to execute Hip Escape to Turtle from body triangle in BJJ. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent increases their squeeze dramatically when you begin turning - what adjustment should you make?",
+      "name": "Escaping a body triangle, they squeeze harder as you turn: what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pause the escape attempt temporarily and focus on breathing management. The increased squeeze is metabolically costly for them and cannot be maintained indefinitely. Wait for them to adjust their grip or need to relax slightly, then resume your escape. Forcing the escape against maximum squeeze wastes your energy under breathing restriction."

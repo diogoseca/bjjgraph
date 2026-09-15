@@ -90,7 +90,7 @@ description: "Learn to execute the Sweep from Leg Weave as the bottom player. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent is defending by keeping their weight back rather than driving forward. How do you adjust your approach?",
+      "name": "Leg weave bottom: they keep their weight back instead of driving—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the passer keeps their weight back, the sweep timing window is not available because their center of gravity is behind your body rather than over it. Instead of forcing the sweep, use this defensive posture against them by transitioning to knee shield recovery or deep half guard entry, both of which become easier when the passer is not driving forward pressure. Alternatively, use your underhook to pull them forward and create the weight commitment you need, essentially baiting the forward drive that opens the sweep window."
@@ -106,7 +106,7 @@ description: "Learn to execute the Sweep from Leg Weave as the bottom player. St
     },
     {
       "@type": "Question",
-      "name": "The passer posts their far hand wide to stop your sweep attempt mid-roll. What went wrong and how do you prevent this?",
+      "name": "Your leg weave sweep is stopped by their wide far-hand post—what went wrong?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You failed to control the passer's far arm before initiating the sweep. The far-side arm control is the second critical grip after the underhook. Before committing to the bridge, secure their far sleeve, wrist, or tricep with your far hand to eliminate their posting option. In no-gi, overhook the far arm or cup the tricep. With both the underhook and far arm controlled, the passer has no effective mechanism to stop the rotational force of the sweep."

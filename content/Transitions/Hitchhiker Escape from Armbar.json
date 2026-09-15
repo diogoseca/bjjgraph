@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "Your hitchhiker escape stalls mid-rotation and the opponent begins re-tightening control - what are your options?",
+        "question": "Your hitchhiker escape stalls mid-rotation as they re-tighten: what are your options?",
         "answer": "If stalled mid-rotation, you face the worst-case angle where your arm is vulnerable from a new direction. You have two options: recommit with a second explosive bridge to complete the rotation before they re-establish control, or reverse direction and return to your original defensive position to reset. Never remain static at the mid-rotation angle. If returning to start, immediately re-clasp hands and rebuild your primary defense to attempt the escape again when a better window appears.",
         "answer_line": "Recommit or reverse, not static",
         "distractors": {
@@ -378,7 +378,7 @@
         }
       },
       {
-        "question": "Your opponent posts their far foot on the mat during the armbar - how does this affect your hitchhiker escape attempt?",
+        "question": "They post their far foot during the armbar: how does that affect your hitchhiker escape?",
         "answer": "A posted far foot gives the opponent a base to follow your rotation, making the belly-down armbar transition much easier for them. Recognize this by feeling reduced weight through their near leg. Adjust by accelerating your rotation to outpace their follow, or target the posted leg with your free hand to disrupt their base before rotating. If they are already tracking your movement effectively, consider switching to a stack escape instead, as their posted foot actually makes them more vulnerable to being driven backward.",
         "answer_line": "Accelerate rotation or attack base",
         "distractors": {
@@ -546,7 +546,7 @@
         }
       },
       {
-        "question": "Your opponent has tight leg control across your face but only a wrist grip - what is your best approach?",
+        "question": "In the armbar they have tight leg control but only a wrist grip: best hitchhiker approach?",
         "answer": "This scenario favors the hitchhiker escape because wrist-only control is the weakest grip configuration for preventing rotation. Begin the thumb rotation immediately while using your free hand to push their top leg (across your face) toward their body. The combination of arm rotation breaking the wrist grip angle and leg displacement creates a compound escape where both control points deteriorate simultaneously. Execute explosively once you feel their wrist grip start to slip.",
         "answer_line": "Rotate thumb, push their top leg",
         "distractors": {
@@ -695,7 +695,7 @@
         }
       },
       {
-        "question": "Your opponent has partially rotated and is now perpendicular to you - what transition should you pursue?",
+        "question": "Your armbar opponent rotates until perpendicular to you: what transition do you take?",
         "answer": "If they have achieved significant rotation, transition to the belly-down armbar by following their rotation and maintaining your grip. As they turn face-down, keep your hips connected to their shoulder and your legs controlling their upper body. The belly-down position gives you a stronger finishing angle because their face-down orientation eliminates the bridging defense they rely on from supine.",
         "answer_line": "Transition to belly-down armbar",
         "distractors": {
@@ -765,7 +765,7 @@
         }
       },
       {
-        "question": "Your opponent has begun rotating and you cannot finish the standard armbar - what is your highest-percentage transition?",
+        "question": "They start a hitchhiker rotation from your armbar: your highest-percentage transition?",
         "answer": "Follow the rotation and transition to a belly-down armbar. As the opponent turns, maintain your wrist grip and turn your body in the same direction, ending up with your chest facing the mat and their arm still controlled. This position actually provides a stronger finishing angle than the standard armbar because your body weight drives directly into the hyperextension. If wrist control is lost during the transition, immediately switch to triangle as backup.",
         "answer_line": "Follow to belly-down armbar",
         "distractors": {
@@ -793,7 +793,7 @@
         }
       },
       {
-        "question": "When is it appropriate to release the armbar and transition to triangle during a Hitchhiker Escape attempt?",
+        "question": "When should you drop the armbar for a triangle against a hitchhiker escape?",
         "answer": "Transition to triangle when the opponent has rotated past 45 degrees and your armbar leverage is clearly compromised but you still have leg control over their upper body. Their rotation naturally separates their head from their trapped arm, creating the angle needed for triangle entry. Swing your far leg over their head as they continue turning and lock the triangle before they can complete the escape to turtle or half guard. This is a higher-percentage response than forcing a deteriorating armbar.",
         "answer_line": "Past 45°, still have leg control",
         "distractors": {

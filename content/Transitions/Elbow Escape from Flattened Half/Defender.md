@@ -56,7 +56,7 @@ description: "Learn to prevent and counter the elbow escape from flattened half 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating an elbow escape from flattened half guard?",
+      "name": "Earliest cue that the bottom player is starting an elbow escape from flattened half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the opponent's bottom elbow begin to turn toward the mat and press into the space between your hip and their body. This subtle movement precedes the visible hip escape and represents the initial structural wedge insertion. Recognizing this tactile cue through your chest and hip contact allows you to counter before the escape gains momentum by immediately driving your hips forward to collapse the developing frame."
@@ -64,7 +64,7 @@ description: "Learn to prevent and counter the elbow escape from flattened half 
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully creates a small space with their elbow wedge and begins a hip escape - what is your highest-percentage response?",
+      "name": "They wedge an elbow in and start hip escaping — what is your highest-percentage response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately initiate your knee slice pass by driving your trapped knee across their thigh line in the direction of their hip escape. Their lateral movement creates the exact angle you need for the knee slice, and their commitment to the escape means their attention and defensive structure are oriented toward space creation rather than pass defense. This converts their escape attempt into your passing opportunity, which is more effective than simply trying to re-flatten them."
@@ -72,7 +72,7 @@ description: "Learn to prevent and counter the elbow escape from flattened half 
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining dynamic pressure more effective than maximum static pressure when defending against the elbow escape?",
+      "name": "Why beat the elbow escape with dynamic pressure rather than maximum static pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maximum static pressure allows the opponent to map the pressure distribution and systematically work around it through incremental adjustments. Dynamic pressure that flows and follows their movements prevents them from establishing a predictable escape pattern. When you follow their hip escapes with your own positional adjustments, you deny them the space consolidation that the technique requires, while also preserving your own energy more efficiently."

@@ -64,7 +64,7 @@ description: "Master defending the Sweep from Double Jump in BJJ. Learn recognit
     },
     {
       "@type": "Question",
-      "name": "What is your primary defensive response when you feel your hips being elevated by the Double Jump hooks?",
+      "name": "Defending the Double Jump sweep, what do you do as your hips are elevated by their hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post your far hand wide on the mat and sprawl your hips back to flatten your base and reduce the elevation effect. The wide post creates a tripod structure that resists the lateral redirect even if the elevation succeeds partially. Simultaneously, work to free your near arm if it is controlled, as the posting alone may not be sufficient if the sweep angle is properly aligned toward your trapped arm side."

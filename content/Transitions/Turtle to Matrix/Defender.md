@@ -56,7 +56,7 @@ description: "How to defend against the Transition to Matrix entry from turtle b
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the attacker is setting up a Matrix entry rather than a standard back take?",
+      "name": "In turtle, what is the earliest cue they are setting up a Matrix entry, not a standard back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker walking their knees laterally to create angle while maintaining chest pressure, rather than staying centered behind you and working for hooks or seatbelt directly. A standard back take involves the attacker staying behind you; the Matrix involves them moving perpendicular to your torso. Feeling the pressure shift from centered on your upper back to angled against your near-side ribs confirms the Matrix entry is being set up."
@@ -72,7 +72,7 @@ description: "How to defend against the Transition to Matrix entry from turtle b
     },
     {
       "@type": "Question",
-      "name": "The attacker has established a deep arm anchor under your armpit and is beginning to insert their leg. What is your best option?",
+      "name": "They have a deep arm anchor under your armpit and are inserting their leg: what is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your best option at this late stage is an aggressive turn into the attacker before the leg insertion completes. Rotate your torso forcefully toward the attacker's body to eliminate the back-take angle. The deeply threaded arm becomes a liability in a face-to-face position. If turning is not possible due to the arm anchor's depth, execute an explosive granby roll away from the entry direction to separate from their connections and recover guard."
@@ -80,7 +80,7 @@ description: "How to defend against the Transition to Matrix entry from turtle b
     },
     {
       "@type": "Question",
-      "name": "How does the attacker's commitment to Matrix entry create counter-attacking opportunities for the defender?",
+      "name": "How does their commitment to the Matrix entry create counters for you in turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The attacker's angular movement shifts their weight distribution to one side and compromises their base. When they commit to threading their arm and creating the perpendicular angle, their ability to follow you in the opposite direction is reduced. This creates opportunities for granby rolls away from the entry direction, technical standups exploiting the unbalanced top pressure, and guard recovery through the space created on the side they moved away from. Their offensive commitment is your defensive opportunity."
@@ -88,7 +88,7 @@ description: "How to defend against the Transition to Matrix entry from turtle b
     },
     {
       "@type": "Question",
-      "name": "What role does the far-hip grip play in the attacker's entry, and how does stripping it affect the transition?",
+      "name": "In the Matrix entry, what does their far-hip grip do, and what changes if you strip it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The far-hip grip controls your ability to rotate your hips away from the entry direction. It anchors your orientation so the attacker can thread arm and leg without you simply turning away. Stripping this grip restores your hip rotation freedom, which means you can turn to face the attacker, adjust your base angle, or rotate away from the entry. Without hip control, the attacker's angular movement becomes disconnected from your body position, making the entry far less effective."

@@ -56,7 +56,7 @@ description: "Learn to defend the Re-flatten from Dogfight as the bottom player.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that indicates the top player is initiating a re-flatten attempt?",
+      "name": "Earliest cue from bottom dogfight that the top player is starting a re-flatten?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the tightening of the whizzer grip combined with the opponent beginning to shift their shoulder toward your jaw for crossface placement. Before the hip drive phase begins, you can feel increased whizzer torque pulling your underhook arm downward and the opponent's chest beginning to lower as they prepare to drive forward. Recognizing these preparatory adjustments gives you the maximum response window to counter."
@@ -64,7 +64,7 @@ description: "Learn to defend the Re-flatten from Dogfight as the bottom player.
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a strong crossface and is beginning to drive their hips forward - what is your best defensive option at this stage?",
+      "name": "They have a strong crossface and are driving their hips in — your best option from dogfight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, maintaining upright dogfight posture is becoming difficult, so the best option is to drop your level and enter deep half guard before the flattening pressure completes. Duck under the opponent's driving pressure by threading your body underneath them, using your underhook arm to control their far leg as you transition. This converts a deteriorating defensive position into an offensive deep half guard where you have strong sweeping options available."

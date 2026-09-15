@@ -80,7 +80,7 @@ description: "Complete guide to passing Piranha Guard as the top player. Grip-br
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal moment to transition from grip fighting to committing to a passing lane against Piranha Guard?",
+      "name": "Passing piranha guard, when should you stop grip fighting and commit to a passing lane?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal passing window opens immediately after you successfully clear the primary lapel threading from between the opponent's legs, before they can re-feed the collar or transition to an alternative guard. Watch for the moment their grip structure temporarily weakens during your stripping sequence or when they overcommit to a sweep attempt. Never attempt to pass while any significant lapel tension remains intact—the grip-clearing phase must be complete before lateral commitment begins."

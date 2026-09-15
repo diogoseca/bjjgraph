@@ -50,7 +50,7 @@ description: "Prevent guard recovery from double sleeve guard as the top player 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the highest-percentage moment to advance your pass when your opponent is in double sleeve guard?",
+      "name": "When is the best moment to advance your pass against double sleeve guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage moment is immediately after stripping one or both sleeve grips, within the two-to-three-second window before the bottom player can retract their legs and close guard. This window exists because the bottom player's extended leg position—designed for pushing and controlling at distance—becomes a liability without grip support, as extended legs without grips are easy to redirect or pass around."
@@ -58,7 +58,7 @@ description: "Prevent guard recovery from double sleeve guard as the top player 
     },
     {
       "@type": "Question",
-      "name": "Why is blocking the bottom player's far hip critical to preventing guard recovery from double sleeve guard?",
+      "name": "Why is blocking the bottom player's far hip critical to stopping guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The far hip is the pivot point for the hip escape that creates the angle necessary for guard closure. Without a lateral hip escape, the bottom player cannot create the diagonal relationship between their body and yours that allows the far leg to thread behind your back efficiently. By pinning or blocking the far hip with your hand or knee, you force the bottom player to attempt guard closure from a flat, symmetrical position, which requires significantly more flexibility and speed to achieve."
@@ -66,7 +66,7 @@ description: "Prevent guard recovery from double sleeve guard as the top player 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins retracting their legs after you strip one sleeve grip—should you chase the legs or drive forward?",
+      "name": "They retract their legs after you strip a sleeve grip—chase the legs or drive forward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward with your entire body rather than chasing retracting legs with your hands. Reaching for legs overextends your arms and pulls your weight forward over a compromised base, potentially allowing the bottom player to use your momentum to pull you into closed guard. Driving forward with your body keeps your base stable, applies pressure through your chest that pins their hips flat, and prevents the hip escape needed for guard closure while maintaining your ability to establish combat base."
@@ -74,7 +74,7 @@ description: "Prevent guard recovery from double sleeve guard as the top player 
     },
     {
       "@type": "Question",
-      "name": "You strip both sleeve grips but the bottom player immediately shoots a cross collar grip—how does this change your passing approach?",
+      "name": "You strip both sleeves but they grab a cross collar grip—how does that change your pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The cross collar grip gives the bottom player an anchor for pulling your posture forward and accelerating their guard closure. You must address this grip before committing to forward advancement. Use a two-on-one grip break on the collar grip hand by peeling their fingers while stepping laterally to create an angle that diminishes the grip's pulling effectiveness. Only advance forward once the collar grip is broken or neutralized, as driving into a strong collar grip feeds directly into their recovery mechanics and potentially into cross collar choke threats from closed guard."
@@ -82,7 +82,7 @@ description: "Prevent guard recovery from double sleeve guard as the top player 
     },
     {
       "@type": "Question",
-      "name": "What body position should you maintain when driving forward after a grip strip to prevent being pulled into closed guard?",
+      "name": "What posture keeps you from being pulled into closed guard as you drive forward after a grip strip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your spine upright with your chest leading rather than your head, hips driving forward through your legs rather than from upper body lean. Your elbows should stay tight to your body to prevent arm isolation for submissions. Distribute your weight through your knees and hips rather than through your hands, which keeps your center of gravity stable and prevents the bottom player from using your forward momentum against you. The key is driving hip pressure through their centerline while keeping your posture high enough to retreat if their legs begin closing around your torso."

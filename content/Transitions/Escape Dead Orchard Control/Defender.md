@@ -64,7 +64,7 @@ description: "Prevent the Dead Orchard Control escape as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "The bottom player successfully creates hip angle despite your pressure - should you fight to re-establish the original angle or transition?",
+      "name": "They create hip angle despite your pressure: do you re-set the angle or transition, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This depends on the degree of angle created and your remaining grip depth. If the angle is minor and your grip is still deep past their far shoulder, walk your hips to re-establish the compression angle while maintaining shoulder pressure. If the angle is significant and you feel the grip becoming shallow, immediately transition to back control or darce switch rather than fighting for a position that has been structurally compromised. The decision point is grip depth - once the grip becomes shallow, the choke percentage drops dramatically."
@@ -80,7 +80,7 @@ description: "Prevent the Dead Orchard Control escape as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your hip position when the bottom player begins their hip escape movement away from the trapped arm?",
+      "name": "How do you adjust your hips when they shrimp away from the trapped arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walk your hips in the same direction as their hip escape to maintain the compression angle between your chest and their back. Use small stepping adjustments rather than large jumps that create momentary space. Your chest must stay connected to their upper back throughout the adjustment. If they shrimp away from the trapped arm side, step your far hip toward their head while keeping your near hip heavy on their body. This preserves the circular compression angle that makes the choke effective and prevents the angular separation they need to reduce choke pressure."
@@ -88,7 +88,7 @@ description: "Prevent the Dead Orchard Control escape as the top player in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "You have been maintaining Dead Orchard Control for 30 seconds and feel your grip fatiguing while the bottom player continues working escapes - what is the correct strategic decision?",
+      "name": "Your Dead Orchard grip is fatiguing while they keep escaping: what is the right decision?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to positional advancement rather than continuing to fight with a weakening grip. A fatigued grip becomes progressively easier for the bottom player to escape, and the energy differential widens with each passing second. Your best options are releasing the dead orchard to take back control by stepping over and inserting hooks, or transitioning to a darce grip which uses different muscle groups. If neither is available, flatten the bottom player and advance to side control or north-south while you still have enough grip strength to control the transition. Fighting to maintain a compromised grip is the worst option because it burns your remaining energy while the bottom player's escape probability increases with each rep."

@@ -68,7 +68,7 @@ description: "Defend the Ezekiel Choke from side control bottom. Recognize cross
     },
     {
       "@type": "Question",
-      "name": "What escape opportunities does the attacker's Ezekiel setup create for the defender from side control bottom?",
+      "name": "What escape window does the attacker's Ezekiel setup open for you on side control bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Ezekiel setup creates escape opportunities because the attacker must transition their crossface hand from positional control to sleeve grip duty, briefly weakening their head control. This window allows hip escapes that would normally be blocked by the crossface. Additionally, the attacker's mental focus shifts from maintaining position to establishing the choke, creating a split-attention moment that experienced defenders can exploit. The hip escape to half guard recovery is the highest percentage counter, timed specifically to the grip transition phase."
@@ -76,7 +76,7 @@ description: "Defend the Ezekiel Choke from side control bottom. Recognize cross
     },
     {
       "@type": "Question",
-      "name": "Your top opponent has already threaded their sleeve grip and is positioning the blade forearm toward your throat—what is your highest priority action?",
+      "name": "On side control bottom, they set the sleeve grip and blade forearm — what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is an immediate chin tuck combined with a two-on-one forearm block using both hands against the incoming blade forearm before it crosses the center of your throat. Do not attempt a hip escape at this stage because your hands are needed for the forearm defense. Once you successfully block the forearm and the attacker either abandons or loosens the attempt, immediately transition both hands to framing against the shoulder and hip for a hip escape before they can re-attempt the choke."
@@ -84,7 +84,7 @@ description: "Defend the Ezekiel Choke from side control bottom. Recognize cross
     },
     {
       "@type": "Question",
-      "name": "Why is turning away from the attacker a dangerous defensive response to the Ezekiel from side control?",
+      "name": "Why is turning away from the attacker a dangerous answer to the Ezekiel from side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning away from the attacker exposes your back, which is an even more dominant position for the opponent. They can abandon the Ezekiel attempt and immediately transition to back control by inserting hooks, establishing a seatbelt grip, or even finishing the choke from the back position where it becomes harder to defend. If you must turn, always turn toward the attacker to close the choking angle and fight for an underhook, which gives you a constructive escape path rather than a positional disaster."

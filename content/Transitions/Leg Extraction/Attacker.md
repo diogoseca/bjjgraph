@@ -90,7 +90,7 @@ description: "How to execute Leg Extraction in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins tightening their grip as you establish frames—should you continue the extraction or pause?",
+      "name": "Escaping Estima lock control, they tighten as you frame — continue extracting or pause?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pause the extraction attempt when the opponent tightens significantly. Forcing through increased pressure can cause injury and rarely succeeds. Instead, maintain your frames, re-establish strong counter-rotation, and wait for the next opportunity when they adjust position or their grip fatigues. Patience is critical in leg lock defense."

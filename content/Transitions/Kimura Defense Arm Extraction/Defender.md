@@ -56,7 +56,7 @@ description: "Master the defender perspective against Kimura Defense Arm Extract
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most important adjustment when you feel the opponent beginning to straighten the trapped arm?",
+      "name": "Holding a Kimura grip, you feel them straightening the trapped arm — what adjustment matters most?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pull your elbows tight to your body and curl your torso slightly forward, shortening the distance between your grip and your core. This creates a structural lock where the opponent must overcome your entire upper body frame rather than just your hand grip. Simultaneously shift your hip angle to change the direction the arm is being driven, forcing them to restart their extraction mechanics from a different angle."
@@ -64,7 +64,7 @@ description: "Master the defender perspective against Kimura Defense Arm Extract
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand wide and begins walking hips backward - what sweep opportunity does this create?",
+      "name": "They post wide and walk their hips back to extract the arm — what sweep does that open for you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their posted hand creates a base vulnerability on the opposite side. Use the Kimura grip to pull their trapped arm across their body while bridging into the open side. The wide post and backward hip movement shifts their center of gravity away from their base, making them extremely susceptible to the Old School Sweep or a Kimura sweep that attacks the unprotected angle created by their committed extraction posture."

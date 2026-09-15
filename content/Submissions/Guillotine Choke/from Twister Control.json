@@ -372,7 +372,7 @@
         }
       },
       {
-        "question": "Your opponent begins posturing up aggressively as you transition to the guillotine grip. What adjustment prevents escape?",
+        "question": "Your opponent postures up as you take the guillotine from Twister Control—what stops the escape?",
         "answer": "Pull guard immediately by releasing leg entanglement and wrapping your legs around the opponent's waist in closed guard. Use your legs to break their posture by pulling your heels toward your glutes. This removes their base and leverages your entire lower body to prevent the postural escape. Once their posture is broken in guard, re-tighten the grip and finish.",
         "safety_critical": false,
         "answer_line": "Pull guard, break posture with legs",
@@ -387,7 +387,7 @@
         }
       },
       {
-        "question": "What grip adjustment maximizes blood choke effectiveness versus creating a neck crank from this position?",
+        "question": "From Twister Control, what grip makes a blood choke rather than a neck crank?",
         "answer": "Angle your hips to the choking arm side so the blade of the forearm aligns with the carotid artery rather than pressing across the trachea. Use a high-elbow grip where the non-choking hand clasps the choking wrist with the elbow pointing upward. Curl the torso rather than pulling laterally. A properly angled blood choke finishes faster, causes less pain, and is safer than a crank.",
         "safety_critical": true,
         "answer_line": "Blade on carotid, not trachea",
@@ -417,7 +417,7 @@
         }
       },
       {
-        "question": "In competition, how does the scoring change when you transition from Twister Control to a guillotine with guard pull?",
+        "question": "How does scoring change if you leave Twister Control to pull guard for a guillotine?",
         "answer": "Transitioning from Twister Control top to pulling guard for the guillotine finish results in losing any advantage or control points associated with the top position. Under most rulesets, pulling guard scores no points and may result in a penalty in some organizations. The trade-off is worthwhile only if the guillotine grip is secure enough to finish, because failing the submission from guard bottom is a significant positional downgrade.",
         "safety_critical": false,
         "answer_line": "You lose top-control points",
@@ -533,7 +533,7 @@
     ],
     "flashcards": [
       {
-        "question": "What visual and tactile cues indicate the attacker is transitioning from Twister Control to a guillotine?",
+        "question": "What cues show the attacker switching from Twister Control to a guillotine?",
         "answer": "The primary cues are the release of the attacker's Twister grip on your head or arm, the feeling of their forearm threading under your chin, and a shift in chest pressure from your back toward your neck and shoulders. A turn-in escape that feels unexpectedly easy often indicates the attacker is encouraging the turn to access your neck for the guillotine.",
         "safety_critical": false,
         "answer_line": "Forearm threads under your chin",

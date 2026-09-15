@@ -80,7 +80,7 @@ description: "Master the attacker's approach to Cross Body to Side Control. Step
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical principle when transitioning from cross body ride to side control?",
+      "name": "What is the key mechanical principle in passing from cross body ride to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pressure must precede movement. You must first collapse the opponent's turtle structure through sustained shoulder pressure before attempting to slide into the side control position. Trying to transition while the opponent still has a strong turtle base creates space and scramble opportunities that defeat the purpose of the technique."
@@ -88,7 +88,7 @@ description: "Master the attacker's approach to Cross Body to Side Control. Step
     },
     {
       "@type": "Question",
-      "name": "When should you choose to flatten to side control rather than pursue a back take from cross body ride?",
+      "name": "When should you flatten to side control instead of hunting the back from cross body ride?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Choose the side control transition when the opponent demonstrates strong turtle defense that prevents back exposure—tight elbows, hidden neck, solid posting structure, or effective hook defense. If multiple back take attempts have been defended and the opponent is successfully maintaining their defensive shell, flattening to side control provides reliable positional advancement rather than stalling in a control position."

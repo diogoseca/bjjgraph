@@ -257,7 +257,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the single most important thing to establish before beginning leg extraction from a failed double jump?",
+        "question": "What must you establish before extracting your legs from a failed double jump?",
         "answer": "Forearm frames on the opponent's shoulder and hip must be established before starting any leg extraction. Without these frames, the opponent will collapse their weight onto your chest during the extraction phase, flattening you and converting the retreat into a worse position than the failed entry. The frames create the space buffer that makes sequential leg extraction possible.",
         "answer_line": "Frame forearms on shoulder, hip",
         "distractors": {
@@ -285,7 +285,7 @@
         }
       },
       {
-        "question": "Your double jump entry stalls and the opponent begins driving heavy crossface pressure—what do you do?",
+        "question": "Your double jump stalls and they drive a heavy crossface: what do you do?",
         "answer": "Immediately prioritize your forearm frame against their shoulder to manage the crossface pressure. Use the pressure as a cue to begin the escape rather than fighting to complete the entry. The crossface indicates the opponent has defended successfully, and continuing the entry against established crossface will only result in being flattened. Begin sequential leg extraction while the frame holds their weight at distance.",
         "answer_line": "Frame shoulder, begin escape",
         "distractors": {
@@ -327,7 +327,7 @@
         }
       },
       {
-        "question": "What is the most common counter an opponent will attempt during your escape, and how do you address it?",
+        "question": "What counter will they most likely use during this escape, and how do you address it?",
         "answer": "The most common counter is driving heavy crossface pressure during the leg extraction phase to flatten you and prevent frame maintenance. Address this by ensuring your shoulder frame is established before extraction begins, using hip escape motion to angle away from the crossface, and inserting the knee shield as early as possible to create a structural barrier that their crossface pressure cannot bypass.",
         "answer_line": "Frame vs crossface, add shield",
         "distractors": {
@@ -511,7 +511,7 @@
         }
       },
       {
-        "question": "Your opponent successfully establishes frames and begins extracting their legs—what is your best response?",
+        "question": "They frame and begin extracting their legs from double jump: what is your best response?",
         "answer": "If frames are established and extraction is underway, shift focus from preventing the escape to capitalizing on the transition. Target the moment between inside leg extraction and knee shield insertion with a knee slice or backstep pass. Their legs are reorganizing and briefly vulnerable. Chain your passing attempts against their retreating guard rather than trying to drive them back into the failed double jump position.",
         "answer_line": "Knee slice as legs reorganize",
         "distractors": {

@@ -56,7 +56,7 @@ description: "Complete guide to defending and escaping the Hindulotine finish. L
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that indicates the opponent is transitioning from Hindulotine control to an active finishing attempt?",
+      "name": "What is the earliest cue that they are shifting from Hindulotine control to the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a shift in the opponent's weight distribution from maintaining positional control to driving downward and forward through the choking arm. You will feel increased pressure on your neck, often accompanied by their hip angle changing as they rotate perpendicular to your spine. Their legs may also widen for base stability, signaling commitment to the finish rather than continued positional maintenance."
@@ -64,7 +64,7 @@ description: "Complete guide to defending and escaping the Hindulotine finish. L
     },
     {
       "@type": "Question",
-      "name": "Why is bridging directly into the opponent's pressure ineffective as a primary escape from the Hindulotine finish?",
+      "name": "Why is bridging straight into their pressure a poor primary Hindulotine escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridging directly into the opponent's pressure is ineffective because their weight is already positioned to drive downward through the choke, and the rotational mechanics mean your forward energy increases their torque. Your bridge lifts your hips but does not address the rotational pressure on your neck. Instead, bridge at an angle toward the choking arm side to change your spine alignment, using the bridge as a setup for directional escape rather than a direct counter to the choking force."
@@ -72,7 +72,7 @@ description: "Complete guide to defending and escaping the Hindulotine finish. L
     },
     {
       "@type": "Question",
-      "name": "Your opponent has the Hindulotine locked and begins rotating their hips to finish - what is your highest-priority defensive action?",
+      "name": "They have the Hindulotine locked and start rotating their hips — highest-priority defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is to get your hands inside the choking grip to create a wedge between their forearm and your neck. Even a partial hand insertion reduces choking pressure significantly and buys critical time. Simultaneously, begin turning your body toward their choking arm side to align your spine with their rotation, which reduces the rotational torque. These two actions together can reduce finish pressure substantially and create opportunities for grip-breaking escapes."
@@ -80,7 +80,7 @@ description: "Complete guide to defending and escaping the Hindulotine finish. L
     },
     {
       "@type": "Question",
-      "name": "What body position minimizes the effectiveness of the Hindulotine finish when you cannot immediately escape?",
+      "name": "If you cannot escape the Hindulotine yet, what body position minimizes the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn to face the same direction as the attacker's choking arm, aligning your spine as parallel to their body as possible. This eliminates the perpendicular angle that generates rotational torque. Tuck your chin firmly and establish hand contact with the choking grip as a wedge. Keep your body connected to theirs rather than creating space, as space allows them to readjust their angle. This survival position requires transitioning to active escape before you fatigue."

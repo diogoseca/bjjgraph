@@ -98,7 +98,7 @@ description: "How to execute Mount Escape to Half Guard Back Take in BJJ. Comple
     },
     {
       "@type": "Question",
-      "name": "How does the seat belt establishment differ in this back take compared to a standard back take from standing?",
+      "name": "How does seat belt establishment here differ from a standard back take from standing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In this chain, the underhook arm naturally becomes the over-shoulder arm of the seat belt as you circle behind. The transition is organic—you do not need to release the underhook and re-grip. Your underhook slides across their chest to their far shoulder while your other arm threads under their armpit. This is smoother than a standing back take where you must establish the seat belt from scratch. The key is maintaining the underhook throughout the circle rather than releasing it at any point."

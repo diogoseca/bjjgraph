@@ -76,7 +76,7 @@ description: "How to enter Inside Sankaku from Single Leg X-Guard in BJJ. Attack
     },
     {
       "@type": "Question",
-      "name": "What two actions must happen simultaneously to convert single leg X-guard into the Inside Sankaku figure-four?",
+      "name": "Which two actions must happen at once to enter inside sankaku from single leg X?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must spin your hips underneath the captured leg and fold your outside leg up and over the opponent's thigh at the same time. Spinning without folding loses the leg because nothing traps the thigh, and folding without spinning leaves the heel safely outside your centerline so no inside heel hook is available. Coordinating both as one motion is the mechanical key to the entry, finished by crossing the outside leg under the inside leg to lock the figure-four."
@@ -92,7 +92,7 @@ description: "How to enter Inside Sankaku from Single Leg X-Guard in BJJ. Attack
     },
     {
       "@type": "Question",
-      "name": "The opponent rotates their knee outward to clear the knee line as you fold your leg over - what is the best branch?",
+      "name": "They rotate the knee out as you fold your leg over for inside sankaku: what is the branch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their rotation rather than fighting it. As they turn the knee out to clear the inside heel, they expose the outside heel, so switch your entanglement to Outside Ashi-Garami and attack the outside heel hook instead. If they keep turning past that, chain into Saddle. The principle is that the rotation defending one heel hook opens the other, so you redirect rather than force the original entry."
@@ -100,7 +100,7 @@ description: "How to enter Inside Sankaku from Single Leg X-Guard in BJJ. Attack
     },
     {
       "@type": "Question",
-      "name": "What three control points confirm you have actually arrived in Inside Sankaku before you consider a finish?",
+      "name": "Which three control points confirm you have arrived in inside sankaku before finishing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, hip-to-hip connection so the opponent cannot create extraction distance. Second, knee-line control with the figure-four crossed and your knees pinched so they cannot rotate out. Third, inside heel exposure with the opponent's heel rotated toward your centerline. Only when all three are present have you completed the entry; attacking the heel hook before they are established sacrifices position and creates an uncontrolled, dangerous submission attempt."

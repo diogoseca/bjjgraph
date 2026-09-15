@@ -101,7 +101,7 @@ description: "Master Paper Cutter Choke in BJJ. Complete guide with safety proto
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Paper Cutter Choke?", "acceptedAnswer": { "@type": "Answer", "text": "The Paper Cutter Choke is a gi blood choke from side control and other top pins, where the attacker feeds a deep cross-collar grip and saws the forearm across the far carotid to force the tap." } },
-    { "@type": "Question", "name": "What positions can you finish the Paper Cutter Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Paper Cutter Choke from Kuzure Kesa-Gatame." } },
+    { "@type": "Question", "name": "What positions can you finish the Paper Cutter Choke from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Paper Cutter Choke from Kuzure Kesa Gatame." } },
     { "@type": "Question", "name": "Is the Paper Cutter Choke dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Paper Cutter Choke targets the Carotid arteries (bilateral compression). Primary risk: Loss of consciousness from carotid artery compression. Tap early and release immediately on the tap." } }
   ]
 }
@@ -175,7 +175,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
-| [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 50% | [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Defender|Defend →]] |
+| [[Submissions/Paper Cutter Choke/from Kuzure Kesa Gatame|Kuzure Kesa Gatame]] | Top | 62% | [[Submissions/Paper Cutter Choke/from Kuzure Kesa Gatame/Attacker|Attack →]] | [[Submissions/Paper Cutter Choke/from Kuzure Kesa Gatame/Defender|Defend →]] |
 
 
 </div>

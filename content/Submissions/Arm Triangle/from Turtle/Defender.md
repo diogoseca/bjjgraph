@@ -58,7 +58,7 @@ description: "Learn to defend and escape the arm triangle choke from turtle. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that an arm triangle is being set up from turtle, and why is early recognition critical?",
+      "name": "What is the earliest cue of an arm triangle from turtle, and why does catching it early matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the attacker's near-side arm beginning to slide under your chin while their chest pressure increases on your upper back, combined with a shift in control from your hips to your head and shoulder area. Early recognition is critical because the arm triangle setup has distinct phases with decreasing defensive effectiveness—once the figure-four grip locks, escape probability drops dramatically. Defending during the arm-threading phase is far easier than after the grip is established."

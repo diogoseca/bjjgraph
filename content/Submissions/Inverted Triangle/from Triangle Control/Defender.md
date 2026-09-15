@@ -58,7 +58,7 @@ description: "Learn to defend and escape the Inverted Triangle from Triangle Con
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that an inverted triangle transition is being initiated from standard triangle control?",
+      "name": "How do you recognize a transition from standard triangle control to the inverted triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cues are the attacker uncrossing their ankles from the standard figure-four configuration while maintaining their head control grip, followed by lateral hip movement toward the opposite side from the standard triangle angle. You will feel the leg pressure direction shifting and the attacker's grip tightening on your head or trapped arm just before the rotation begins. Early recognition during the ankle uncrossing phase provides the maximum defensive window."

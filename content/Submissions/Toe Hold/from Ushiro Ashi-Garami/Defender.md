@@ -58,7 +58,7 @@ description: "Defend the toe hold from ushiro ashi-garami with early recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that a toe hold from ushiro ashi-garami is being set up before the grip is established?",
+      "name": "How do you recognize a toe hold setup from ushiro ashi-garami before the grip is established?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cues are the attacker releasing one or both hands from leg or hip control to reach toward your foot, feeling an arm threading underneath your Achilles tendon, and noticing the attacker's torso angling toward your outside hip. The earliest cue is the attacker squeezing their leg entanglement tighter while their hands move toward your foot, indicating they are securing leg control before transitioning to the toe hold grip."
@@ -74,7 +74,7 @@ description: "Defend the toe hold from ushiro ashi-garami with early recognition
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available against the toe hold from ushiro ashi-garami at each stage of the attack?",
+      "name": "What are your toe hold defenses at each stage of the attack from ushiro ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before grip establishment: control the attacker's wrists to prevent the figure-four and work systematic leg extraction. During grip establishment: forceful dorsiflexion combined with pulling your foot toward your body to deny rotation angle. After grip is locked: counter-entangle the attacker's free leg to create a positional reversal, or roll toward the rotation direction to relieve pressure while stripping the grip. If rotation has fully engaged the ligaments: tap immediately to prevent injury."

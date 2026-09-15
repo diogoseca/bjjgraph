@@ -64,7 +64,7 @@ description: "How to defend against Turtle to Back Take in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established chest pressure but no grips yet - what is the optimal moment to escape?",
+      "name": "They have chest pressure on your turtle but no grips yet. When should you escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the highest-percentage escape window because the attacker has only one control layer established. You should explode immediately into either a sit-through, standup, or granby roll before they can secure seatbelt grip. Once the seatbelt is locked, your escape probability drops by approximately half. The transition from chest pressure to seatbelt grip takes only one to two seconds, so this window is extremely brief and must be exploited with immediate decisive action rather than waiting to see what the attacker does next."
@@ -88,7 +88,7 @@ description: "How to defend against Turtle to Back Take in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has one hook inserted and is working for the second - what is your best defensive action?",
+      "name": "They have one hook in and are working for the second. What is your best defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With one hook already set, your window for easy escape has narrowed significantly. Focus on preventing the second hook by pressing your elbow tight against your hip on the threatened side, trapping the attacker's leg between your elbow and hip. Simultaneously, begin working to clear the established hook by extending your trapped leg and using your same-side hand to push their heel out. If you can clear the first hook before the second is set, immediately explode into a sit-through toward the cleared side. The critical principle is that one hook is recoverable but two hooks plus seatbelt is extremely difficult to escape."

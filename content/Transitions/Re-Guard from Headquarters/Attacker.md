@@ -76,7 +76,7 @@ description: "How to execute Re-Guard from Headquarters in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What is the mechanical reason for recovering the near-side leg before the far-side leg in most guard recovery sequences?",
+      "name": "Why recover the near-side leg before the far-side leg when re-guarding?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The near-side leg requires less distance to travel and less space to recover because it's already closer to the gap between you and your opponent. By recovering it first, you establish an initial guard structure (knee shield or hook) that helps maintain the space you've created, making far-side leg recovery easier. Additionally, the near-side leg can function as a frame itself once recovered, actively preventing opponent pressure while you work to recover the far-side leg. Sequential recovery is more mechanically efficient than trying to recover both legs simultaneously through the same limited space."
@@ -84,7 +84,7 @@ description: "How to execute Re-Guard from Headquarters in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "How should you modify your recovery strategy when your opponent is using heavy forward pressure versus when they're maintaining distance and control?",
+      "name": "How does re-guarding change against heavy forward pressure versus a distance-control passer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against heavy forward pressure, use that pressure to facilitate larger hip escapes or granby rolls, essentially using their momentum to help create space. Don't fight force with force through frames; instead, redirect their pressure to create angles. Against opponent maintaining distance and control, focus on breaking their grips and frames that keep you at bay, then aggressively close distance to recover guard structure. The first scenario requires using their energy; the second requires generating your own movement to break their control structure."
@@ -92,7 +92,7 @@ description: "How to execute Re-Guard from Headquarters in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What are the primary indicators that you should abandon full guard recovery and transition to an alternative defensive position like turtle or technical standup?",
+      "name": "When should you abandon guard recovery for turtle or technical standup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon full guard recovery when: opponent has secured strong crossface and underhook combination that severely limits hip mobility; you've attempted 2-3 recovery sequences without creating sufficient space; opponent has transitioned to controlling your legs directly, making recovery mechanically impossible; or your energy is depleting faster than your opponent's. At these decision points, maintaining fight sustainability through tactical position changes is smarter than exhausting yourself in failed recovery attempts. Transitioning to turtle, technical standup, or accepting half guard allows you to continue defending from structured positions rather than being passed while depleted."
@@ -100,7 +100,7 @@ description: "How to execute Re-Guard from Headquarters in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining a position on your side rather than flat on your back critical for successful guard recovery from Headquarters?",
+      "name": "Why is staying on your side rather than flat critical to re-guarding from Headquarters?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Being on your side provides dramatically superior hip mobility compared to being flat on your back. When you're on your side, your hip can rotate through a much larger range of motion, allowing for more effective and extensive shrimping. Additionally, being on your side makes your frames more structurally sound because they're pushing at better angles relative to your body's core strength. Flat on your back, your frames are weaker, your hips are immobilized, and opponent can settle their weight more effectively. The side position is the foundation for all effective guard recovery mechanics."
@@ -108,7 +108,7 @@ description: "How to execute Re-Guard from Headquarters in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "How does the concept of chaining multiple recovery attempts differ from relying on single perfect technique execution?",
+      "name": "How does chaining recovery attempts differ from relying on one perfect escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chaining multiple attempts acknowledges that against skilled opponents, single-attempt success rates are low, so you must link 2-4 recovery attempts in sequence, using each attempt to create options for the next. If the first shrimp doesn't create enough space, immediately chain into a second shrimp at a different angle. If direct recovery is shut down, chain into deep half entry or granby roll. This approach maintains constant defensive pressure on the opponent, forcing them to defend multiple threats rather than countering one technique and consolidating. Chaining transforms defense from binary success/failure into a sustained defensive system with multiple branches and options."

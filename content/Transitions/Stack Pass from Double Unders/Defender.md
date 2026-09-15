@@ -56,7 +56,7 @@ description: "Learn to defend the Stack Pass from Double Unders in BJJ. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating a stack pass from double unders?",
+      "name": "What is the earliest cue that they're starting a stack pass from double unders?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the opponent shift from maintaining static double unders pressure to actively walking their knees forward toward your head. You will feel their chest pressure angle changing from horizontal to diagonal as their hips begin to drive upward. This is the critical moment to act because once their knees have walked past your hip line, the stacking compression develops rapidly and your escape options narrow significantly with each additional step forward."
@@ -72,7 +72,7 @@ description: "Learn to defend the Stack Pass from Double Unders in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "When should you commit to the deep half guard entry versus attempting to maintain frames and prevent the stack?",
+      "name": "When do you switch from framing to a deep half entry against the stack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Commit to deep half entry when your hip frames are being overcome and you can feel your hips beginning to elevate off the mat despite your resistance. This is the transition point where continued framing becomes inefficient but the stack has not yet developed enough compression to prevent rotation. The deep half dive uses the opponent's forward pressure as entry momentum, so attempting it too early wastes the mechanical advantage of their committed weight. Attempting it too late fails because full compression prevents the necessary rotation underneath their body."

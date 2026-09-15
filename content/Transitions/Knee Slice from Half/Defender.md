@@ -56,7 +56,7 @@ description: "How to defend against Knee Slice from Half in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first thing you should address when you recognize the knee slice pass is being attempted?",
+      "name": "What should you address first when you recognize a knee slice pass starting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first priority is denying the crossface. Frame on the opponent's bicep or shoulder with your forearm to prevent their shoulder from crossing your face. Without the crossface, the passer cannot flatten you or control your head orientation, which severely limits the effectiveness of the entire pass. This should happen before you worry about the knee position or underhook battle."
@@ -64,7 +64,7 @@ description: "How to defend against Knee Slice from Half in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the crossface and their knee is starting to slide across your thigh - what is your best remaining defensive option?",
+      "name": "They have the crossface and their knee is sliding across your thigh: what defense is best now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your highest-percentage option is diving into deep half guard. Use their committed forward pressure to slide your head underneath their hip line while wrapping your arm around their far thigh. Their forward momentum actually assists your entry into deep half. From there, their knee slice is completely neutralized and you gain access to powerful sweeps like the waiter sweep and old school sweep that can reverse the position entirely."

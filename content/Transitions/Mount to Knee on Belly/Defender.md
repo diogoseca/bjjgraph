@@ -50,7 +50,7 @@ description: "Learn to defend the Mount to Knee on Belly transition. Recognize s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest visual cues that the top player is preparing to transition from mount to knee on belly?",
+      "name": "What are the earliest cues that the top player is setting up knee on belly from mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include the top player shifting to an asymmetric base by posting one foot out wide, adjusting grips to collar and belt simultaneously, leaning weight forward through their hands and chest, and opening their knees from the tight mount position. Any combination of these asymmetric base adjustments signals an imminent KOB transition. Recognizing these cues early gives you the maximum defensive window to initiate frames or hip escapes before the transition completes."
@@ -66,7 +66,7 @@ description: "Learn to defend the Mount to Knee on Belly transition. Recognize s
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins posting their foot wide and shifting weight forward from mount - what should your immediate response be?",
+      "name": "From mount bottom, they post a foot wide and lean forward — your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate response should be to frame on their far hip with your near hand and begin shrimping your hips away from the side where they posted their foot. This hip escape creates the angle needed to either prevent the knee landing on your solar plexus or to insert your legs between theirs to catch the transitioning leg. The critical error is waiting until the knee is already on your torso, as the concentrated pressure makes all subsequent defensive actions significantly harder. React to the base change, not the knee placement."
@@ -82,7 +82,7 @@ description: "Learn to defend the Mount to Knee on Belly transition. Recognize s
     },
     {
       "@type": "Question",
-      "name": "How should you chain defensive actions if your initial frame against the transition fails and the knee lands?",
+      "name": "Your frame fails and their knee lands on your torso — how do you chain your escape actions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the initial frame fails and the knee lands on your torso, immediately shift from prevention to escape mode. First, turn to your side facing away from the knee pressure to reduce the surface area and create hip escape angles. Second, frame on their posted knee and far hip to prevent full weight settlement. Third, execute a hip escape away from the knee while inserting a knee shield or butterfly hook to begin guard recovery. Do not pause between these actions, as each creates incremental space that makes the next step possible, and stopping allows the top player to consolidate full KOB control."

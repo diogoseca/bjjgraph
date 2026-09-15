@@ -489,7 +489,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is about to attempt an escape from body lock?",
+        "question": "Earliest cue that the bottom player is about to attempt a body lock escape?",
         "answer": "The earliest cue is aggressive hand fighting against your locked grip, specifically when you feel their hands reaching behind to peel at your fingers or wrists. This precedes all physical escape movements and indicates they are targeting your grip as the first step. Secondary early cues include sudden base widening and level dropping, which signal preparation for explosive hip movement. Recognizing these pre-escape indicators allows you to increase pressure and tighten control before the escape develops momentum.",
         "answer_line": "Hands peeling at your grip",
         "distractors": {
@@ -517,7 +517,7 @@
         }
       },
       {
-        "question": "Why is maintaining chest-to-back connection more important than grip strength alone when defending against the escape?",
+        "question": "Why does chest-to-back connection matter more than grip strength in defending the body lock?",
         "answer": "Chest-to-back connection provides primary control through surface area contact and weight transfer that cannot be broken by hand fighting alone. Even if your grip loosens momentarily, the chest connection prevents your opponent from creating the angular displacement needed for escape. Grip strength alone without chest connection allows opponents to rotate within the grip circle. The chest connection transfers your entire body weight into their center of mass, while the grip only uses arm strength. Prioritizing chest connection allows you to maintain control even during grip transitions.",
         "answer_line": "Blocks rotation via body weight",
         "distractors": {
@@ -531,7 +531,7 @@
         }
       },
       {
-        "question": "When is it strategically correct to release your body lock grip voluntarily during an escape defense?",
+        "question": "When is it correct to release your body lock grip voluntarily while defending an escape?",
         "answer": "Release the grip voluntarily only when you can immediately establish an equal or superior control position, such as transitioning to front headlock when the opponent turns and lowers their head, or switching to a seatbelt harness when hooks are being inserted. Never release the grip into empty space or based on speculation that a better position might appear. The release must be part of a planned transition with the next control already being established as the grip opens. A controlled release to front headlock maintains offensive pressure despite losing the locked configuration.",
         "answer_line": "Only into a planned transition",
         "distractors": {

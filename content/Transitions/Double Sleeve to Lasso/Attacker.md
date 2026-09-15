@@ -96,7 +96,7 @@ description: "Learn to execute the Double Sleeve to Lasso guard transition. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent pulls their arm back forcefully as you begin threading - what immediate adjustment do you make?",
+      "name": "They yank that arm back as you start threading for the lasso: what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately redirect your threading attempt to the opposite arm, which is now relatively extended from the pulling motion on the other side. If the opposite arm is also retracted, convert the foot that was beginning to thread into a foot-on-bicep spider guard hook on the same arm instead. Never chase a retracted arm by trying to pull it back toward you, as this wastes energy and creates openings for the opponent to advance their passing grips while you are overcommitted."

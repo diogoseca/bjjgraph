@@ -72,7 +72,7 @@ description: "How to defend against Worm Guard Entry in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Why is pulling straight backward ineffective against the Worm Guard Entry compared to lateral movement?",
+      "name": "Against a Worm Guard entry, why is pulling straight back worse than moving laterally?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling straight backward maintains the channel under your thigh where the lapel travels, so the threading can continue or even accelerate as you create space. The bottom player's leg frames track your backward movement easily. Lateral backsteping, by contrast, removes your lead leg from the weave path entirely by changing the angle. The lapel cannot complete its circuit around a leg that is no longer in the threading channel, forcing the entry to fail regardless of the bottom player's grip quality."
@@ -80,7 +80,7 @@ description: "How to defend against Worm Guard Entry in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the Worm Guard weave and established tension—what defensive approach should you take?",
+      "name": "Your opponent completed and tensioned the Worm Guard weave — what defensive approach now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the weave is complete and tensioned, shift from grip-fighting to positional counter-passing. The backstep pass around the Worm Guard is the primary solution, using lateral movement and angle changes to navigate around the lapel barrier rather than trying to strip it. Attempting to rip the lapel free with grip strength alone typically fails against a properly tensioned configuration and wastes significant energy. Address the completed Worm Guard as a passing problem, not a grip-fighting problem."
@@ -88,7 +88,7 @@ description: "How to defend against Worm Guard Entry in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "How should you position your lead leg to minimize the threading channel available to the bottom player?",
+      "name": "How should you position your lead leg to deny the threading channel for Worm Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your lead knee toward the mat and keep your thigh heavy by loading weight onto that leg. Bend your knee to reduce the clearance between your thigh and the mat surface. Pinch your knee inward rather than leaving it flared wide. This compressed, heavy leg position minimizes the channel through which the lapel must travel, forcing the bottom player to create space through hip escapes and framing before they can initiate any threading attempt. The heavier and more compressed your lead leg, the harder the entry becomes."

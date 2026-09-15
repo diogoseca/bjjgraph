@@ -76,7 +76,7 @@ description: "How to execute Mount Control in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins loading weight to their right side for a bridge. What do you do before they explode?",
+      "name": "Your mounted opponent loads to their right side to bridge: what do you do before they explode?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your right hand wide on the mat to their right side and shift your hips slightly right to load that base. As they bridge, sprawl your hips back while keeping the post firm. This preemptive positioning means their bridge pushes into your strongest base rather than catching you off-balance."
@@ -100,7 +100,7 @@ description: "How to execute Mount Control in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent is chaining escapes - bridge, then immediately hip escape when you counter. How do you break this chain?",
+      "name": "Your mounted opponent chains bridge into hip escape: how do you break the chain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After countering the bridge, don't fully re-settle your weight before the hip escape comes. Instead, keep your blocking knee on their hip and maintain sprawled hips until they commit to abandoning the hip escape. Only then re-establish full mount pressure. The key is recognizing that re-centering too quickly invites the chain; stay in counter-position longer than feels necessary."

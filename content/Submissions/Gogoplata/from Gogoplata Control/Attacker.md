@@ -84,7 +84,7 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "What anatomical structure does the gogoplata primarily attack, and how does this differ from blood chokes?",
+      "name": "What does the gogoplata primarily attack, and how does that differ from a blood choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The gogoplata primarily attacks the trachea (windpipe) by compressing it with the hard shin bone. This creates an air choke that restricts breathing. In contrast, blood chokes like the rear naked choke or triangle target the carotid arteries on either side of the neck, restricting blood flow to the brain. The gogoplata can also compress the carotid arteries secondarily when properly applied, creating a hybrid effect. The key difference is that tracheal compression can cause structural damage to the airway, while blood chokes cause reversible unconsciousness without damaging structures. This is why the gogoplata requires more careful application."
@@ -92,7 +92,7 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "What is the primary physical requirement that determines whether a practitioner should attempt the gogoplata?",
+      "name": "What physical requirement determines whether you should attempt the gogoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip flexibility is the primary physical requirement for the gogoplata. The practitioner must be able to bring their shin across the opponent's throat while simultaneously maintaining high guard control and keeping the opponent's posture broken. This requires the ability to achieve extreme hip flexion and external rotation. Without sufficient flexibility, attempting to force the position can result in injury to the practitioner's hip, knee, or ankle. Practitioners should develop this flexibility through dedicated stretching, yoga, or similar training before attempting the submission in live situations. If your hips cannot comfortably achieve the required position, the gogoplata is not suitable for your current body capabilities."
@@ -100,7 +100,7 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "What indicators tell you the opponent has reached the point of no escape and the finish is inevitable?",
+      "name": "In the gogoplata, what indicates the opponent has reached the point of no escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when three conditions are simultaneously met: your shin is locked across the trachea with the blade of the bone creating pressure, your hands have secured deep control behind their head preventing any posture recovery, and your non-choking leg is hooked over their back eliminating their ability to create distance. At this point, you'll feel their defensive movements become weaker and less coordinated as the choke begins affecting them. They may begin tapping frantically, making distressed sounds, or their body may start going limp. Any of these signals means the finish is imminent and you should be prepared to release immediately upon the tap."
@@ -108,7 +108,7 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up during your gogoplata attempt - what adjustment prevents escape while maintaining the submission threat?",
+      "name": "They start to posture up during your gogoplata — what adjustment keeps the threat alive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent begins posturing, immediately pull harder with your hands on their head while simultaneously squeezing your knees together to trap their arms. Your non-choking leg should hook deeper over their back, pulling them forward. If they continue gaining posture despite these adjustments, you have two options: either abandon the gogoplata and transition to triangle choke using their upward momentum to swing your leg across, or switch to omoplata by following their arm with your hips. The key is recognizing early when posture recovery is happening and either countering it immediately or flowing to an alternative attack rather than stubbornly holding a compromised position."
@@ -116,7 +116,7 @@ description: "How to execute Gogoplata in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "What should you do immediately if your opponent goes limp or stops resisting during a gogoplata attempt?",
+      "name": "Your opponent goes limp during your gogoplata attempt — what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "IMMEDIATELY release all pressure by removing your shin from their throat and releasing head control. Allow their head to return to a neutral position and remove your top leg from over their head completely. Lower your hips and release all pressure. Check on your training partner's condition immediately - they may have lost consciousness or suffered an injury. Do not continue training until you have confirmed they are okay and they have had adequate recovery time (minimum 2-3 minutes). If they lost consciousness, they should not continue training that day and should seek medical evaluation. Loss of resistance during a tracheal choke can indicate serious airway compromise or loss of consciousness, both of which require immediate cessation of the technique and medical assessment."

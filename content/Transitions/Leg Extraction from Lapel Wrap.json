@@ -271,7 +271,7 @@
         }
       },
       {
-        "question": "Your opponent begins a sweeping motion while both your hands are committed to grip breaking - what is the correct response?",
+        "question": "They start a sweep while both your hands work the lapel grip break — correct response?",
         "answer": "Immediately widen your base with your free leg and drop your hips lower rather than completing the grip break. Post with your extraction hand if necessary to prevent the sweep. Accept that you need to restart the extraction sequence rather than fighting through the sweep attempt, which typically accelerates position loss.",
         "answer_line": "Widen base, post, restart",
         "distractors": {
@@ -369,7 +369,7 @@
         }
       },
       {
-        "question": "After successfully extracting your leg, what is the most common mistake that leads to immediate re-establishment of the lapel guard?",
+        "question": "After extracting from the lapel wrap, what mistake most often lets them re-establish it?",
         "answer": "Failing to clear the loose lapel material away from your legs before transitioning to combat base. The freed lapel hangs near your knee area and the opponent can snatch it and re-thread within seconds. You must push the material toward them or to the side and immediately establish distance through your transition to the next position.",
         "answer_line": "Failing to clear loose lapel",
         "distractors": {
@@ -383,7 +383,7 @@
         }
       },
       {
-        "question": "Your opponent has both a deep lapel wrap and a collar grip on your far side - which grip do you address first and why?",
+        "question": "They have a deep lapel wrap plus a far-side collar grip — which do you address first and why?",
         "answer": "Address the collar grip first because it enables them to break your posture and create the angular off-balancing that powers their sweeps. The lapel wrap alone restricts mobility but requires the collar grip to generate real sweeping force. Once the collar grip is neutralized, the extraction becomes significantly safer because their offensive threat from the position is reduced.",
         "answer_line": "Neutralize the collar grip first",
         "distractors": {
@@ -524,7 +524,7 @@
         }
       },
       {
-        "question": "Your opponent has created significant slack in the wrap and is about to strip the grip - what is your best option?",
+        "question": "Your lapel wrap has slack and is about to be stripped — what is your best option?",
         "answer": "When the wrap is nearly lost, transition to Worm Guard or Squid Guard by re-threading the lapel into an alternative configuration rather than fighting a losing grip battle. Release the current grip and quickly re-thread before they can clear the material entirely. Maintaining some form of lapel control is far better than losing all guard control and being passed immediately.",
         "answer_line": "Re-thread into Worm/Squid Guard",
         "distractors": {
@@ -538,7 +538,7 @@
         }
       },
       {
-        "question": "Why is threatening attacks during the extraction more effective than simply holding the grip tighter?",
+        "question": "Why threaten attacks during their lapel extraction instead of just gripping harder?",
         "answer": "Grip strength alone is a finite resource that the opponent can overcome through systematic peeling and slack creation. Threatening sweeps and back takes forces the opponent into a dilemma where committing to extraction leaves them vulnerable to position loss. This defensive aggression disrupts their extraction timing and forces them to abort attempts to defend, which is far more sustainable than a pure grip-strength battle.",
         "answer_line": "Creates dilemma, disrupts timing",
         "distractors": {
@@ -552,7 +552,7 @@
         }
       },
       {
-        "question": "When the opponent turns their shoulders during extraction, why is this the ideal moment to attack the back?",
+        "question": "Why is their shoulder turn during the lapel extraction the ideal moment to take the back?",
         "answer": "The shoulder turn exposes the back angle that is normally protected when they face you squarely. During extraction, their hands are committed to the lapel material rather than defending underhooks or seatbelt grips, and their weight is shifted to the free leg making them vulnerable to being pulled off-balance. This combination of exposed angle, committed hands, and compromised base creates the highest-percentage back take opportunity from the position.",
         "answer_line": "Hands busy, angle exposed",
         "distractors": {
@@ -566,7 +566,7 @@
         }
       },
       {
-        "question": "What secondary grip provides the most defensive value when the opponent begins their extraction sequence?",
+        "question": "Which secondary grip gives you the most defensive value as their extraction begins?",
         "answer": "A far-side collar grip provides the most defensive value because it allows you to break their posture, assist with sweeping mechanics, and create the angular off-balancing needed for back take attempts. The collar grip also survives independently if the lapel wrap is broken, giving you continued control to transition to another guard system rather than being immediately passed.",
         "answer_line": "Far-side collar grip",
         "distractors": {

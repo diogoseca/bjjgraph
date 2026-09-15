@@ -78,7 +78,7 @@ description: "Complete attacking guide for the Kimura from Knee Shield Half Guar
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on the mat while you have knee shield established—what is your immediate sequence?",
+      "name": "They post a hand while you hold knee shield half guard: what is your Kimura sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately capture the posting wrist with your near hand using a C-grip, pulling it toward your hip to break their base. Thread your far arm under their tricep and establish the figure-four grip while maintaining your knee shield throughout. Only begin creating the finishing angle with hip escapes after the figure-four is fully locked and your elbows are tight to your body."
@@ -86,7 +86,7 @@ description: "Complete attacking guide for the Kimura from Knee Shield Half Guar
     },
     {
       "@type": "Question",
-      "name": "What indicates you have reached the point where you should stop applying rotational pressure in training?",
+      "name": "When should you stop applying Kimura rotation in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop immediately upon any tap signal—verbal, hand tap, or foot tap. In training, also monitor for the shoulder approaching maximum internal rotation (visible resistance in the joint), visible discomfort or tension in the trapped arm, and any verbal distress. Shoulder locks cause gradual damage before acute pain, so apply pressure slowly enough that your partner has adequate time to recognize danger and tap before structural damage occurs."
@@ -94,7 +94,7 @@ description: "Complete attacking guide for the Kimura from Knee Shield Half Guar
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands together in a gable grip to defend the rotation—how do you break through?",
+      "name": "They clasp a gable grip to defend your knee shield Kimura: how do you break through?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive the captured elbow toward the mat to stretch the gable grip at its weakest point while maintaining your perpendicular angle. Walk your figure-four grip toward the opponent's fingers where grip strength is lowest. You can also use your knee shield to push and off-balance them, disrupting their grip connection. If the grip will not break, transition to using the kimura control as a sweep handle rather than forcing the finish."

@@ -58,7 +58,7 @@ description: "Defend the Inside Heel Hook from Honey Hole in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent has just established the inside leg triangle but has not yet reached for your heel—what is your immediate defensive priority?",
+      "name": "They just locked the inside leg triangle but haven't found your heel: what do you do first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hide your heel immediately by pressing it tightly against your own hip, rotating your knee inward and flexing your foot. Your near hand should reach down to grab your own ankle or shin to assist in keeping the heel protected. This is a time-critical action—you have approximately 1-2 seconds before they begin reaching for the heel, and every fraction of a second of hesitation reduces your escape probability dramatically. Do not assess the situation first; react with trained heel-hiding reflex."
@@ -66,7 +66,7 @@ description: "Defend the Inside Heel Hook from Honey Hole in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "What are the definitive indicators that you must tap immediately rather than continue escape attempts?",
+      "name": "In Honey Hole, what signs mean you must tap now instead of continuing to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately when: (1) opponent has secured a reinforced figure-four grip on your heel with their wrist blade against your Achilles tendon, (2) you feel ANY rotational pressure beginning on your heel, or (3) you cannot freely move your foot within their grip. The inside heel hook can cause complete ligament failure in under one second once the breaking threshold is reached—there is no time to evaluate mid-submission. If you are debating whether to tap, you should already be tapping. No training round or competition match is worth surgical knee reconstruction."
@@ -74,7 +74,7 @@ description: "Defend the Inside Heel Hook from Honey Hole in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent momentarily loosens their leg triangle while adjusting their grip—what escape opportunity does this create and how do you exploit it?",
+      "name": "Their leg triangle loosens as they regrip: what escape does this open and how do you take it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The loosened triangle is your primary escape window and it closes in 1-2 seconds maximum. Immediately commit to explosive counter-entanglement rotation toward their legs to enter 50-50 Guard, or pump your hips backward explosively while framing with your free leg on their hip to create extraction distance. Do not hesitate to choose between options—pick one and commit fully. A half-committed escape attempt wastes the window and may actually help them retighten by providing movement they can follow and clamp down on."
@@ -82,7 +82,7 @@ description: "Defend the Inside Heel Hook from Honey Hole in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How should you use grip fighting defensively when trapped in Honey Hole with the opponent reaching for your heel?",
+      "name": "Trapped in Honey Hole as they reach for your heel, how do you grip fight defensively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use two-on-one grip fighting targeting the opponent's thumb and wrist. Both hands should attack the gripping hand—strip at the thumb which is the weakest point of their grip. Fight their initial reaching hand before they establish the reinforced figure-four Kimura grip, because once both hands are locked the grip becomes nearly impossible to break. Between grip-fighting exchanges, maintain heel hiding with your ankle hand and continue attempting positional escapes. Grip fighting is a delay tactic, not a solution—you must escape the position, not just prevent the submission indefinitely."
@@ -90,7 +90,7 @@ description: "Defend the Inside Heel Hook from Honey Hole in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "After tapping to an inside heel hook in training, what should you analyze about your defense to improve for next time?",
+      "name": "After tapping to an inside heel hook, what should you review about your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Analyze the critical decision points in reverse order: (1) When did the position become inescapable—could you have tapped earlier to protect your knee? (2) What entry did they use to establish Honey Hole and at what point could you have prevented it? (3) Did you hesitate after feeling the triangle form instead of reacting immediately? (4) Were your escape attempts fully committed or half-hearted? (5) Did you grip-fight effectively before they established the finishing configuration? Prevention and early-stage escape are far more trainable than late-stage defense. Most heel hook finishes occur because the defender failed to react in the first 1-2 seconds of entanglement."

@@ -302,7 +302,7 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 
 - **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (20% of attempts)
 
-- **[[Submissions/Cross Collar Choke/from Modified Mount/Attacker|Cross Collar Choke from Modified Mount]]** (0% of attempts)
+- **[[Submissions/Cross Collar Choke/from Modified Mount/Attacker|Cross Collar Choke from Modified Mount]]** (gi only)
 
 - **[[Submissions/Kimura/from Modified Mount/Attacker|Kimura from Modified Mount]]** (11% of attempts)
 

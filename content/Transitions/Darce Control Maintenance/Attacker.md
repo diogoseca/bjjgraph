@@ -74,7 +74,7 @@ description: "Master the attacker's approach to maintaining Darce Control in BJJ
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical factor in maintaining darce control and why does it matter more than grip strength?",
+      "name": "What matters most for holding darce control, and why does it beat grip strength?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip depth is the most critical factor. The choking arm must be threaded deep with the elbow past the opponent's spine and the hand reaching toward their far hip. Depth matters more than grip strength because a deep grip creates mechanical advantage where body weight compression alone can maintain the choke threat, while a shallow grip requires constant muscular squeezing that fatigues rapidly and allows arm extraction."
@@ -82,7 +82,7 @@ description: "Master the attacker's approach to maintaining Darce Control in BJJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pulling their trapped arm free during darce maintenance - how do you immediately respond?",
+      "name": "In darce control, your opponent starts pulling the trapped arm free. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your elbow deeper past their spine while simultaneously increasing shoulder pressure into the side of their head to limit their movement capacity. Pinch your elbows tighter together to close the gap they are exploiting. If they get the arm partially free, quickly switch to a tighter grip configuration such as gable grip. The key is addressing the extraction attempt with deeper penetration rather than simply squeezing harder on the existing grip."
@@ -90,7 +90,7 @@ description: "Master the attacker's approach to maintaining Darce Control in BJJ
     },
     {
       "@type": "Question",
-      "name": "Why should your hips be positioned perpendicular to your opponent's spine rather than directly behind them?",
+      "name": "In darce control, why keep your hips perpendicular to their spine rather than behind them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Perpendicular hip positioning creates the optimal choking angle by allowing your body weight to compress laterally across the opponent's neck rather than straight down. It also neutralizes their ability to bridge straight back into you and improves your base stability against rolling escapes in either direction. Direct positioning behind the opponent gives them a clear bridging path and reduces the choking mechanics of the arm-in configuration."
@@ -98,7 +98,7 @@ description: "Master the attacker's approach to maintaining Darce Control in BJJ
     },
     {
       "@type": "Question",
-      "name": "How should you manage your energy during an extended darce maintenance phase lasting more than 30 seconds?",
+      "name": "How do you manage energy during darce control lasting over 30 seconds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use structural weight placement rather than muscular tension for the baseline hold. Breathe steadily through your nose and keep arms relatively relaxed in the grip shape while your shoulder and chest provide compression through body weight. Apply active squeezing only in short bursts when deepening the grip or countering escape attempts. Between bursts, return to structural pressure. This cycling approach allows sustained maintenance without the rapid fatigue that comes from constant muscular squeezing."
@@ -106,7 +106,7 @@ description: "Master the attacker's approach to maintaining Darce Control in BJJ
     },
     {
       "@type": "Question",
-      "name": "What grip configuration should you use when your opponent persistently hand-fights your figure-four lock?",
+      "name": "Which grip should you use when they persistently hand-fight your darce figure-four?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch between grip configurations to make their targets move. Transition from figure-four to gable grip (palm-to-palm) which is harder to pry apart, or to S-grip which can be adjusted quickly. Simultaneously increase shoulder pressure to limit their free hand's reach toward your grip. If grip fighting continues, consider transitioning the free hand to a chin-strap control behind their head, which both secures the choke and removes the visible grip target they are attacking."
@@ -114,7 +114,7 @@ description: "Master the attacker's approach to maintaining Darce Control in BJJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent rolls toward the choking arm side - should you resist the roll or follow it, and what transition opportunity does this create?",
+      "name": "They roll toward your choking arm in darce control: resist or follow, and what does it open?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the roll rather than resisting it. Walking your hips in the direction of their roll while maintaining chest-to-back contact preserves your control and often tightens the choke as the angle changes. The roll creates a direct back take opportunity if you step your far leg over their body as they turn, and it can also set up a mount transition. Resisting the roll creates a strength battle that wastes energy and risks the opponent generating enough momentum to escape entirely."

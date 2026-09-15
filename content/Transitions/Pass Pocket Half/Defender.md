@@ -56,7 +56,7 @@ description: "Defend against the Pocket Half Guard pass in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that indicates the top player is beginning the Pocket Half Guard pass?",
+      "name": "What is the earliest cue that the top player is starting the pocket half guard pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is increased crossface driving pressure combined with the top player dropping their chest weight heavier onto your torso. This flattening intensification precedes the extraction phase and signals they are beginning to systematically break down your defensive structures. Recognizing this early allows you to reinforce your pocket frame or begin transitioning before the flattening is complete."
@@ -64,7 +64,7 @@ description: "Defend against the Pocket Half Guard pass in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has driven their crossface deep and begun walking their foot toward your hip - what is your highest priority response?",
+      "name": "Deep crossface and their foot walking to your hip in pocket half: what is your top priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is preventing complete flattening by immediately increasing your pocket frame pressure and hip escaping to maintain your side angle. If your hip frame is already failing, transition to deep half guard by scooting your hips underneath them while their weight is shifted forward. The worst response is passively accepting the pressure—you must act before the extraction window opens."
@@ -88,7 +88,7 @@ description: "Defend against the Pocket Half Guard pass in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "If you fail to prevent the pass and the top player clears your legs, what immediate action gives you the best recovery chance?",
+      "name": "The pocket half pass succeeds and your legs are cleared: what gives the best recovery chance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The instant you feel their leg clear your guard, immediately hip escape away from them while establishing frames against their shoulder and hip with both forearms. Your goal shifts from guard retention to guard recovery—shrimp your hips to create space, then work to insert a knee or shin between your bodies to recover half guard or knee shield. Do not allow them to settle their weight into side control without contesting the transition."

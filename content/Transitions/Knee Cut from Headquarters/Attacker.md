@@ -74,7 +74,7 @@ description: "Master executing the Knee Cut from Headquarters. Step-by-step guid
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What hip angle from the opponent signals the optimal timing to initiate the knee cut from headquarters?",
+      "name": "Knee cut from headquarters: what opponent hip angle signals the moment to cut?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing is when the opponent turns their hips toward the trapped leg side, which naturally opens a passing lane across their thigh line. This hip turn creates a gap between their legs that the cutting knee can exploit. Cutting when the opponent's hips face you squarely meets maximum resistance because both legs can defend the passing lane simultaneously."
@@ -82,7 +82,7 @@ description: "Master executing the Knee Cut from Headquarters. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes a strong frame on your shoulder as you begin the knee cut—what is your immediate adjustment?",
+      "name": "Knee cut from HQ: they frame strongly on your shoulder—what is your immediate adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the shoulder frame by swimming your elbow inside their wrist and pinning their arm to their body, or change levels by dropping your shoulder below their frame to slip underneath it. If the frame is too strong to strip directly, consider switching to a toreando or leg drag pass that attacks the angle their frame creates rather than fighting through it directly."
@@ -90,7 +90,7 @@ description: "Master executing the Knee Cut from Headquarters. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "What is the most critical biomechanical action that prevents the opponent from recovering half guard during the knee cut?",
+      "name": "Knee cut from HQ: what action most prevents them from recovering half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip drop is the most critical action. As the cutting knee crosses the thigh line, actively dropping your hip toward the mat on the passing side collapses all remaining space between your bodies. This prevents the opponent from re-inserting their knee because there is no gap between your hip and their body through which their leg can travel. Without the hip drop, space remains even after the knee crosses."
@@ -98,7 +98,7 @@ description: "Master executing the Knee Cut from Headquarters. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "During the knee cut, your opponent secures a deep underhook and begins sitting up toward your back—how do you respond?",
+      "name": "Mid knee cut they get a deep underhook and sit up toward your back—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase crossface pressure to drive their head and shoulders back to the mat, countering their upward momentum. If the crossface alone cannot flatten them, apply a whizzer on their underhook arm by overhooking it and driving your shoulder into their armpit. From the whizzer position, you can threaten a darce choke that punishes the underhook attempt or use the whizzer to flatten them and resume the knee cut."
@@ -114,7 +114,7 @@ description: "Master executing the Knee Cut from Headquarters. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "The opponent blocks your knee cut with a knee shield—what alternative passes chain naturally from this defensive reaction?",
+      "name": "Knee cut from HQ blocked by a knee shield—what passes chain from that reaction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee shield opens three natural chain passes: the smash pass by collapsing your weight laterally onto the knee shield and using it as a passing lane, the long step pass by stepping your free leg over their shield to the opposite side, or the toreando pass by disengaging the cutting knee and redirecting laterally around their legs. Each option exploits the defensive commitment the knee shield requires."

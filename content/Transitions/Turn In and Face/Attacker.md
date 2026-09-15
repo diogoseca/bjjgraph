@@ -114,7 +114,7 @@ description: "How to execute Turn In and Face in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "After completing the turn, your opponent drives forward with chest pressure — what is your immediate response?",
+      "name": "After your turn in and face, they drive chest pressure—what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish inside frames immediately with both forearms against the opponent's chest and shoulders to prevent them from closing distance. Then execute a sharp hip escape away from the opponent while maintaining frame contact to create space for leg insertion. The frames must be the immediate priority — without them, the opponent converts to side control or mount before guard can be recovered."

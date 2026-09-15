@@ -307,7 +307,7 @@
         }
       },
       {
-        "question": "Your opponent has a tight bodylock and begins lifting you off the ground - what is your immediate response?",
+        "question": "They have a tight bodylock and start lifting you off the mat — what is your immediate response?",
         "answer": "Hook one leg behind the opponent's leg to prevent full elevation, drop your hips explosively toward the mat, and simultaneously pummel your hands inside their grip to create a wedge. If they achieve partial lift, spread your legs wide to distribute weight and make the lift harder to control. Never allow both feet to leave the ground simultaneously. The combination of leg hooking, hip dropping, and weight spreading neutralizes most lifting attempts by disrupting the opponent's center of gravity alignment needed for the throw.",
         "answer_line": "Hook leg, drop hips, pummel in",
         "distractors": {
@@ -321,7 +321,7 @@
         }
       },
       {
-        "question": "What determines whether you turn toward the underhook side or overhook side during the rotation escape?",
+        "question": "Which side do you turn toward in the rotation escape from rear clinch, and what decides it?",
         "answer": "Always turn toward the underhook side because the underhook gives you structural advantage for controlling the opponent as you face them. Turning toward the overhook side results in your arm being trapped, allowing the opponent to maintain upper body control even as you face them or transition to a gift wrap. If the opponent has a seatbelt grip, turn toward the arm that goes under your armpit, which positions you to emerge with the underhook as you complete the rotation and prevents the choking arm from deepening during the turn.",
         "answer_line": "Turn toward the underhook side",
         "distractors": {
@@ -363,7 +363,7 @@
         }
       },
       {
-        "question": "Your opponent begins stepping to the side to set up a lateral trip - how do you use this movement to facilitate your escape?",
+        "question": "They step laterally to set up a trip from rear clinch — how do you use that for your escape?",
         "answer": "Step in the same direction as their lateral movement, which reduces their ability to generate the rotational force needed for the trip. As they commit weight to the stepping side, their base becomes momentarily narrow and directionally committed. Use this commitment by changing direction explosively or sitting your hips away from their base leg. The key insight is that their offensive movement creates defensive opportunities when you move with them initially, then redirect, rather than fighting their momentum head-on where they have the mechanical advantage.",
         "answer_line": "Step with them, then redirect",
         "distractors": {
@@ -377,7 +377,7 @@
         }
       },
       {
-        "question": "What is the critical mechanical difference between pulling straight forward to escape and stepping laterally?",
+        "question": "Why is stepping laterally from a rear clinch better than pulling straight forward to escape?",
         "answer": "Pulling straight forward preserves the opponent's chest-to-back alignment, allowing them to simply walk forward and maintain control by driving their hips into yours. The control structure is strongest along the front-to-back axis. Stepping laterally disrupts this alignment by creating a hip angle that forces the opponent to rotate their entire body to maintain chest-to-back connection. This rotation requirement creates a timing gap between your movement and their adjustment, which is the window for completing the grip break and turn. Lateral movement attacks the structural weakness of the clinch rather than its strength.",
         "answer_line": "Lateral step breaks their alignment",
         "distractors": {
@@ -391,7 +391,7 @@
         }
       },
       {
-        "question": "What is the primary direction of force you should apply when breaking the opponent's bodylock grip, and why is this more effective than pulling outward?",
+        "question": "Which force direction breaks a bodylock grip best, and why is it better than pulling outward?",
         "answer": "The primary force direction is downward, driving your elbow as a wedge between the opponent's wrists while peeling the top hand toward the ground. This is more effective than pulling outward because downward force leverages gravity and your body weight, while outward pulling relies solely on arm strength against the opponent's locked grip. The downward vector exploits the natural weakness of the grip configuration where the fingers of the top hand are the weakest link. Additionally, the downward strip naturally transitions into the hip angle creation and base lowering that follows in the escape sequence, making it a biomechanically efficient movement that flows into the next step rather than a separate isolated action.",
         "answer_line": "Drive elbow wedge downward",
         "distractors": {
@@ -405,7 +405,7 @@
         }
       },
       {
-        "question": "Your primary grip break and turn escape has been blocked twice because the opponent matches your lateral movement perfectly - what alternative escape chain should you employ?",
+        "question": "Your grip break and turn keeps failing as they match you laterally — what escape chain follows?",
         "answer": "Switch to a sit-out escape by dropping your hips suddenly and threading one leg between the opponent's legs while rotating your torso to face them. This changes the escape plane from lateral to vertical, which the opponent cannot counter using the same lateral matching footwork. If the sit-out is also blocked because the opponent maintains tight hip connection, transition to a drop-and-sprawl defense where you drive your hips backward and down explosively to break their forward pressure alignment. The key principle in chaining escapes is changing the plane of movement with each attempt, rotating between lateral, vertical, and directional changes to prevent the opponent from developing a pattern-based counter strategy.",
         "answer_line": "Sit-out, then drop-sprawl",
         "distractors": {
@@ -525,7 +525,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest tactile cues that indicate the opponent is beginning an escape from your standing rear clinch?",
+        "question": "What are the earliest tactile cues that your opponent is escaping your standing rear clinch?",
         "answer": "The earliest cues are changes in the opponent's grip fighting intensity on your clasped hands, sudden lowering of their center of gravity through knee bend, and lateral hip shifting that disrupts your chest-to-back alignment. These cues typically precede the actual escape attempt by one to two seconds, giving you a window to tighten your grip, increase forward pressure, and prepare to match their movement direction. The hip shift is the most reliable indicator because it signals the beginning of angle creation that precedes all rotation-based escapes.",
         "answer_line": "Hip shift disrupting alignment",
         "distractors": {
@@ -539,7 +539,7 @@
         }
       },
       {
-        "question": "When should you transition from defending the standing clinch to dragging the opponent to ground back control?",
+        "question": "When should you drag the standing rear clinch down to ground back control instead of holding it?",
         "answer": "Transition to ground back control when the opponent's hand fighting has created repeated partial grip breaks that you are increasingly struggling to re-lock, when their hip angle creation is consistently disrupting your chest-to-back alignment, or when they demonstrate that they have a timing advantage on your grip transitions. The key decision point is whether the standing clinch is becoming a net negative: if maintaining it requires more energy than transitioning to ground back control, the transition should happen immediately rather than risking a complete position loss.",
         "answer_line": "When grip control keeps failing",
         "distractors": {
@@ -553,7 +553,7 @@
         }
       },
       {
-        "question": "How do you prevent the opponent from executing a hip throw when they begin loading their hips below yours?",
+        "question": "They start loading their hips below yours for a throw — how do you stop it from rear clinch?",
         "answer": "Drive your hips forward and downward into the opponent's lower back to prevent them from getting their hips below yours, which is the prerequisite for any hip throw. Step to the same side they are rotating toward to maintain your position behind them. Pull their upper body backward using your grip to break their forward lean. If they have already partially loaded the throw, release one arm from the grip to post on their hip and block the rotation while maintaining the other arm's control. The critical detail is that a hip throw requires the thrower's hips to be lower than yours, so maintaining low hip position with forward pressure eliminates the mechanical possibility.",
         "answer_line": "Drive hips forward, stay low",
         "distractors": {
@@ -567,7 +567,7 @@
         }
       },
       {
-        "question": "What is the correct response when the opponent uses a direction-change feint during their lateral escape?",
+        "question": "How should you respond when they feint a direction change during their lateral clinch escape?",
         "answer": "Avoid overcommitting to matching the first direction. Keep your weight centered and take smaller matching steps rather than large lunging steps that create momentum in one direction. When you feel the opponent change direction, use the split-second of their directional change to tighten your grip and increase chest-to-back pressure, because the direction change also momentarily disrupts their escape mechanics. The opponent is most vulnerable during the directional transition, so using that window to re-consolidate control is more effective than trying to match every direction change perfectly.",
         "answer_line": "Take small steps, don't overcommit",
         "distractors": {

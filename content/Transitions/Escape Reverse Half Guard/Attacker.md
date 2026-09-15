@@ -98,7 +98,7 @@ description: "Execute the Escape from Reverse Half Guard as the bottom player. C
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes a strong crossface from behind during your escape attempt - how do you respond?",
+      "name": "They establish a strong crossface from behind during your escape: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop the rotation immediately and address the crossface first. Use your inside hand to frame against their crossface arm, creating enough space to move their arm past your head. Only resume the rotation after neutralizing the crossface control. Attempting to rotate through a strong crossface results in being flattened and losing all offensive capability from the position."
@@ -114,7 +114,7 @@ description: "Execute the Escape from Reverse Half Guard as the bottom player. C
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins inserting hooks for back control as you initiate your rotation - what is your response?",
+      "name": "They start inserting hooks as you begin your rotation: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your elbows tight to your body and address the hooks immediately before continuing the rotation. Scoop the hook with your hand and push it down while maintaining your leg control on their trapped leg. If the opponent gets one hook in, you must clear it before completing the rotation, as rotating with hooks established transitions you directly into a back control disadvantage."

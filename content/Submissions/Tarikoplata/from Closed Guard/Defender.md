@@ -52,7 +52,7 @@ description: "How to defend against Tarikoplata in BJJ. Recognition, escape path
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is the forward roll escape that works against standard omoplata extremely dangerous when the attacker has established tarikoplata wrist control?",
+      "name": "Why is the forward roll escape so dangerous once they have tarikoplata wrist control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The forward roll becomes dangerous because the wrist rotation component creates rotational torque on the shoulder that is amplified by rolling. In a standard omoplata, rolling forward reduces the hip-driven shoulder pressure by moving in the same direction as the force. However, with the tarikoplata's wrist rotation, rolling forward adds your body's momentum to the existing rotational stress, creating a compound shearing force on the rotator cuff that can cause immediate structural failure. The wrist grip also allows the attacker to follow your roll and maintain control throughout, meaning the escape provides no relief while dramatically increasing injury risk."
@@ -60,7 +60,7 @@ description: "How to defend against Tarikoplata in BJJ. Recognition, escape path
     },
     {
       "@type": "Question",
-      "name": "What is the optimal defensive window for preventing the tarikoplata and what specific action should you take during this window?",
+      "name": "When is the best window to stop the tarikoplata, and what do you do in it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal defensive window is during the attacker's transition from standard omoplata control to wrist grip establishment. During this brief moment, the attacker must release or reduce hip control to reach for your wrist, creating a gap in their control structure. You should immediately clasp your hands together and tuck your trapped wrist against your chest to deny the grip, then explosively recover posture while the attacker's hip control is weakened. This converts the situation back to a standard omoplata defense where all traditional escape options become viable again."
@@ -68,7 +68,7 @@ description: "How to defend against Tarikoplata in BJJ. Recognition, escape path
     },
     {
       "@type": "Question",
-      "name": "At what point during a tarikoplata attempt should you prioritize tapping over continued escape attempts?",
+      "name": "When should you stop escaping and tap in a tarikoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should tap immediately once both pressure vectors are coordinated - meaning you feel simultaneous hip extension driving into your shoulder and wrist rotation turning your palm toward your head. Once the attacker achieves perpendicular hip angle with synchronized wrist torque, the compound lock can damage the rotator cuff and labrum faster than your nervous system can process pain signals. No late-stage defensive technique offers sufficient probability of escape to justify the catastrophic injury risk. Tapping early is not a sign of weakness but a recognition that the submission has been achieved and continued resistance risks permanent damage."
@@ -76,7 +76,7 @@ description: "How to defend against Tarikoplata in BJJ. Recognition, escape path
     },
     {
       "@type": "Question",
-      "name": "How should you use your free arm defensively when caught in a tarikoplata attempt, and what common mistake do defenders make with hand placement?",
+      "name": "How should you use your free arm against a tarikoplata, and what mistake do defenders make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your free arm should be used to create base by posting wide on the mat, preventing the attacker from sweeping you forward while you work to address the wrist control on your trapped arm. The common mistake is reaching across your body to grab the attacker's gripping hand, which collapses your base and makes you vulnerable to being swept face-first into the mat. Instead, post your free hand firmly on the mat at approximately 45 degrees from your body to maintain structural stability, then use small controlled movements to address the grip once your base is secure. If you must break the wrist grip, lean your weight onto the posted arm first before reaching with brief, targeted grip-breaking motions."

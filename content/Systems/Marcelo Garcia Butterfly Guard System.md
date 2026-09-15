@@ -4,7 +4,7 @@
 
 ---
 title: "Marcelo Garcia Butterfly Guard System | BJJ System | BJJ Graph"
-description: "Master Marcelo Garcia's revolutionary butterfly guard system. Learn systematic sweeps, back takes, and transitions from the seated guard position with technical precision."
+description: "A dedicated look at Marcelo’s butterfly guard, connecting seated engagement with elevation and attacks. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Marcelo Garcia's revolutionary butterfly guard system. Lear
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Marcelo Garcia Butterfly Guard System",
-  "description": "Master Marcelo Garcia's revolutionary butterfly guard system. Learn systematic sweeps, back takes, and transitions from the seated guard position with technical precision.",
+  "description": "A dedicated look at Marcelo’s butterfly guard, connecting seated engagement with elevation and attacks. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Marcelo-Garcia-Butterfly-Guard-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -140,7 +140,7 @@ description: "Master Marcelo Garcia's revolutionary butterfly guard system. Lear
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Marcelo Garcia Butterfly Guard System",
-  "description": "The Marcelo Garcia Butterfly Guard System is a dynamic seated-guard framework that uses active butterfly hooks, an underhook, and high head position to chain elevation sweeps, arm-drag back takes, single-leg-X entries, and guillotines into forced dilemmas.",
+  "description": "Butterfly guard begins with a useful connection to the opponent’s upper body and a hook that can elevate their weight.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -159,9 +159,11 @@ description: "Master Marcelo Garcia's revolutionary butterfly guard system. Lear
 
 ## What is Marcelo Garcia Butterfly Guard System?
 
-**The Marcelo Garcia Butterfly Guard System is a dynamic seated-guard framework that uses active butterfly hooks, an underhook, and high head position to chain elevation sweeps, arm-drag back takes, single-leg-X entries, and guillotines into forced dilemmas.**
+**Butterfly guard begins with a useful connection to the opponent’s upper body and a hook that can elevate their weight.**
 
-Marcelo Garcia's Butterfly Guard System represents one of the most effective and proven guard systems in modern Brazilian Jiu-Jitsu. Built around active hooks, superior positioning, and explosive timing, this system emphasizes constant off-balancing and aggressive sweep attempts. Unlike static guard systems that rely on grips and stalling, Marcelo's approach focuses on dynamic movement, creating angles, and capitalizing on opponent reactions. The system is particularly effective in no-gi grappling where traditional gi grips are unavailable, making it essential for MMA and submission grappling competitors. At its core, the butterfly guard uses inside positioning with both feet as hooks under the opponent's thighs, combined with underhook control and head positioning to create sweeping opportunities. The beauty of this system lies in its simplicity and high success rate across all skill levels. Marcelo refined this approach through decades of competition at the highest levels, proving its effectiveness against world-class opponents. The system connects seamlessly to back takes, guillotine attacks, and transitions to other guard positions, making it a complete framework rather than isolated techniques.
+Butterfly guard begins with a useful connection to the opponent’s upper body and a hook that can elevate their weight. This guide connects seated engagement, off-balancing and follow-up attacks so that a blocked sweep can lead to another decision.
+
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -170,15 +172,37 @@ Marcelo Garcia's Butterfly Guard System represents one of the most effective and
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Marcelo Garcia Butterfly Guard System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 18 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">The Complete Butterfly Guard</h3>
+<p class="product-card__instructor">with Marcelo Garcia</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students building a seated guard who want more detail on connections and timing.</p>
+<p class="product-card__blurb">A dedicated look at Marcelo’s butterfly guard, connecting seated engagement with elevation and attacks.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=marcelo-garcia-butterfly-guard-system&utm_term=the-complete-butterfly-guard-by-marcelo-garcia" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -296,6 +320,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Start with the butterfly control and sweep material, then explore the connections to your existing guard.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=marcelo-garcia-butterfly-guard-system&utm_term=the-complete-butterfly-guard-by-marcelo-garcia" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Complete Butterfly Guard &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -403,5 +438,16 @@ Marcelo Garcia's training methodology emphasizes positional sparring from butter
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Work from seated guard against a kneeling partner. Establish your upper-body connection before testing whether the hook can elevate them.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=marcelo-garcia-butterfly-guard-system&utm_term=the-complete-butterfly-guard-by-marcelo-garcia" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Complete Butterfly Guard &rarr;</a></p>
+</section>
+
+
 
 </main>

@@ -1,4 +1,42 @@
 {
- "worklist": [],
- "detail": {}
+ "worklist": [
+  "Americana from Triangle Control|Attacker",
+  "Armbar from Triangle Control|Attacker",
+  "Half Guard to Kimura Trap|Defender",
+  "Kimura from Triangle Control|Attacker"
+ ],
+ "detail": {
+  "Americana from Triangle Control|Attacker": {
+   "cards": 5,
+   "clippable": 5,
+   "viable": 4,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.8
+  },
+  "Armbar from Triangle Control|Attacker": {
+   "cards": 5,
+   "clippable": 5,
+   "viable": 4,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.8
+  },
+  "Half Guard to Kimura Trap|Defender": {
+   "cards": 4,
+   "clippable": 4,
+   "viable": 4,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 1.0
+  },
+  "Kimura from Triangle Control|Attacker": {
+   "cards": 5,
+   "clippable": 5,
+   "viable": 4,
+   "micro": 1,
+   "clip_rate": 1.0,
+   "pool_rate": 0.8
+  }
+ }
 }

@@ -72,7 +72,7 @@ description: "Complete defensive guide against the Leg Extraction Pass. Learn to
     },
     {
       "@type": "Question",
-      "name": "How should you transition your defense when you recognize the extraction is succeeding and re-entry is no longer possible?",
+      "name": "Extraction is succeeding and re-entry is gone — how do you switch your defence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When extraction succeeds past the point of entanglement recovery, immediately transition to offensive half guard bottom rather than accepting a flat passive position. As the opponent's leg clears your hooks, use that moment to secure an underhook on their near side, insert a knee shield or butterfly hook, and establish a side-lying angle. The goal is to convert the failed entanglement into a strong half guard bottom with sweep and back take threats already loaded. This makes the opponent's extraction a pyrrhic victory because they advance from a dominant entanglement position to a contested half guard where you have offensive initiative."
@@ -80,7 +80,7 @@ description: "Complete defensive guide against the Leg Extraction Pass. Learn to
     },
     {
       "@type": "Question",
-      "name": "Why should you transition between entanglement variants rather than fighting to maintain one configuration?",
+      "name": "Why switch between entanglement variants instead of fighting to hold one configuration?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transitioning between entanglement variants resets the extraction problem the opponent has been solving. Each configuration (ashi, saddle, 50-50, outside ashi) requires different extraction mechanics, hook clearing sequences, and base positioning. When you shift from one variant to another, the opponent must reassess and restart their extraction approach for the new configuration. This keeps the opponent perpetually in the early stages of extraction rather than allowing them to reach the late stages where completion is nearly certain. The transition also creates brief moments of instability where submission opportunities or sweep openings may appear."

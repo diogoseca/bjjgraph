@@ -72,7 +72,7 @@ description: "Learn to defend against grip stripping from Zombie bottom. Maintai
     },
     {
       "@type": "Question",
-      "name": "How do you recognize that your Zombie structure is failing and you need to transition to an alternative guard?",
+      "name": "How do you know your Zombie structure has failed and it is time to switch guards?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your structure is critically failing when both your underhook and near-side frame have been neutralized, leaving only the lockdown as your remaining connection point. At this stage, maintaining the Zombie is futile — the opponent will extract their leg within seconds. The correct response is to proactively release the lockdown and immediately transition to either deep half guard by shooting underneath them, knee shield half guard by inserting your top knee, or butterfly guard by extracting your bottom hook. Making this transition voluntarily while you still have some control is far superior to having the structure completely dismantled."
@@ -80,7 +80,7 @@ description: "Learn to defend against grip stripping from Zombie bottom. Maintai
     },
     {
       "@type": "Question",
-      "name": "What body positioning adjustments help you maintain your grips longer against a skilled grip stripper?",
+      "name": "What body positioning keeps your Zombie grips alive against a skilled grip stripper?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stay turned aggressively onto your side rather than allowing yourself to be flattened. Your underhook is strongest when your chest is connected to the opponent's body. Squeeze your lockdown with your thigh adductors rather than relying on your foot hook alone — the thigh squeeze is biomechanically harder to break. Keep your framing arm with a bent elbow anchored against your ribs rather than extended, making it structurally resistant to being stripped. Most importantly, keep your hips moving with constant micro-adjustments to prevent the opponent from settling into a stable grip-breaking position."

@@ -56,7 +56,7 @@ description: "Complete defensive guide for surviving the leg drag pass from head
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from headquarters control to a leg drag attempt?",
+      "name": "Earliest cue that they are moving from headquarters control into a leg drag?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the passer's grip hand shifting from your knee area down toward your ankle or heel. This grip transition is necessary before the drag can be initiated and represents a brief window where their control is loosest. Secondary cues include their posting foot angling outward and their hips beginning to turn sideways, indicating they are loading for the lateral drive. Recognizing the grip transition provides the maximum defensive window before the drag motion generates momentum."
@@ -64,7 +64,7 @@ description: "Complete defensive guide for surviving the leg drag pass from head
     },
     {
       "@type": "Question",
-      "name": "Your opponent has gripped your ankle and begun the lateral drag motion - what is your most effective immediate counter?",
+      "name": "They gripped your ankle and started the lateral drag. Most effective immediate counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame hard at the passer's near shoulder with your arm while simultaneously hip escaping in the opposite direction of the drag. This two-point response addresses both the upper body control threat and creates lateral separation that can free your leg. If the frame holds, retract your leg by pulling your knee to your chest using explosive hip flexion. The combination of frame, hip escape, and leg retraction must happen as a coordinated burst rather than sequential actions to be effective against a committed drag motion."
@@ -72,7 +72,7 @@ description: "Complete defensive guide for surviving the leg drag pass from head
     },
     {
       "@type": "Question",
-      "name": "When is it better to concede the leg drag and recover to half guard versus fighting the drag motion directly?",
+      "name": "When should you concede the leg drag and recover half guard instead of fighting the drag?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Concede the drag when the passer has already pinned your leg with their hip and is establishing upper body control. At this point, fighting the pinned leg wastes energy without result. Instead, focus on preventing back exposure by staying face-up, establishing an underhook on the passing side, and working to hook the passer's trailing leg with your free foot to recover half guard. The half guard recovery preserves your energy for a defensible position rather than spending it on an escape attempt with low probability of success."
@@ -88,7 +88,7 @@ description: "Complete defensive guide for surviving the leg drag pass from head
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully dragged your leg but has not yet established upper body control - what is your immediate priority?",
+      "name": "They dragged your leg but have no upper body control yet. Immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the crossface or shoulder control from landing. Use your near arm to frame at their shoulder or bicep, creating a barrier that prevents them from dropping their chest onto your hip. Simultaneously, use your free leg to post on the mat and begin hip escaping to create angle. Without upper body control, the leg drag alone is not consolidated and you can still recover guard by extracting your leg through frames and hip movement. The window is approximately one to two seconds before a competent passer secures the crossface."

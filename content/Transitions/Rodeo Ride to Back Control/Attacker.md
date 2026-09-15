@@ -80,7 +80,7 @@ description: "Execute the Rodeo Ride to Back Control transition with systematic 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for inserting the first hook during the Rodeo Ride to Back Control transition?",
+      "name": "When is the optimal window to insert the first hook going from Rodeo Ride to back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing window is immediately after threatening an upper body attack such as a clock choke or collar grip that forces the opponent to defend with their hands. When the opponent commits their arms to defending the choke, their hips become momentarily unprotected and their base weakens as attention shifts upward. Redirect from the choke threat to hook insertion, exploiting the gap in their defensive coverage created by the dilemma between protecting their neck and maintaining their base."
@@ -88,7 +88,7 @@ description: "Execute the Rodeo Ride to Back Control transition with systematic 
     },
     {
       "@type": "Question",
-      "name": "What conditions must exist before you can safely begin the transition from Rodeo Ride to Back Control?",
+      "name": "What conditions must exist before you begin the Rodeo Ride to back control transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three prerequisites must be established: near-arm control that prevents the opponent from posting or creating defensive frames, sustained chest-to-back connection with hips loaded on their torso, and a posted base leg in a position allowing weight shifts without losing balance. Without near-arm control, the opponent can post and stand. Without chest connection, they have space to granby roll. Without a posted base leg, you lack stability to manage the weight shift required for hook insertion."
@@ -96,7 +96,7 @@ description: "Execute the Rodeo Ride to Back Control transition with systematic 
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail that determines whether the first hook stays in or gets immediately stripped?",
+      "name": "What mechanical detail decides whether your first hook stays in or is stripped from Rodeo Ride?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hook must be inserted with the instep seated against the opponent's inner thigh with toes pointed outward, creating a curved hooking shape that resists clearance. The foot should enter deep enough that the heel contacts the inner thigh near the groin area. Shallow hooks placed near the knee are easily stripped because the opponent can straighten their leg. Additionally, active downward heel pressure must be maintained immediately after insertion—a passive hook will be cleared by the opponent squeezing their knees together."

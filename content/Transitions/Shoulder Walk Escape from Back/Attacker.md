@@ -88,7 +88,7 @@ description: "Execute the shoulder walk escape from back control in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "Why must neck defense be maintained continuously throughout the shoulder walk rather than being addressed separately?",
+      "name": "Why must neck defense continue throughout the shoulder walk escape rather than between reps?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shoulder walk requires sustained multi-repetition movement that exposes your neck to attack during the entire sequence. If you release neck defense to focus on the escape, the opponent has ample time to sink a rear naked choke or other neck attack during the fifteen to twenty shoulder drives needed. The technique is fundamentally a dual-task coordination exercise where your top hand maintains two-on-one choking arm control while your shoulders and bottom hand execute the escape movement independently."
@@ -96,7 +96,7 @@ description: "Execute the shoulder walk escape from back control in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts following your shoulder walk by scooting their hips down with you. How do you adjust your movement pattern?",
+      "name": "They scoot their hips down to follow your shoulder walk — how do you change your movement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch from straight downward shoulder drives to diagonal angle changes, alternating between walking toward the underhook side and the overhook side. This forces the opponent to track your movement in two planes simultaneously rather than simply following a linear path. The angular displacement disrupts their hip alignment and makes it mechanically harder to maintain hook depth because their hips cannot efficiently follow diagonal movement while maintaining bilateral hook control."
@@ -120,7 +120,7 @@ description: "Execute the shoulder walk escape from back control in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "What is the primary mechanical difference between shoulder walk escape and hip escape from back control?",
+      "name": "What is the main mechanical difference between shoulder walk and hip escape from back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shoulder walk generates displacement through upper body shoulder blade drives against the mat, moving your torso downward while hooks remain relatively stationary. The hip escape generates displacement through hip movement creating lateral separation from the opponent. The shoulder walk is incremental and cumulative requiring many repetitions, while hip escapes are typically executed as single decisive movements. The shoulder walk is more effective when hooks are deep and hip escapes are difficult, while hip escapes are more effective once hooks have been made shallow through shoulder walking."

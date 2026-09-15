@@ -74,7 +74,7 @@ description: "Execute the Old School to Half Guard transition in BJJ. Step-by-st
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical timing indicator for initiating the transition from Old School to Half Guard?",
+      "name": "What timing cue tells you to leave Old School bottom for half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary indicator is when the top player has established deep whizzer control, heavy crossface pressure, and a wide base that effectively neutralizes your Old School sweep attempts. When you feel that your sweep entries are being stuffed consistently and the lockdown is creating a stalemate rather than offensive opportunities, it signals that continued Old School attacks will burn energy without result. The transition should happen proactively based on this read, not reactively after exhaustion."
@@ -82,7 +82,7 @@ description: "Execute the Old School to Half Guard transition in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep whizzer and heavy crossface in Old School—how do you create the space needed to insert a knee shield?",
+      "name": "With their deep whizzer and heavy crossface, how do you make room to insert a knee shield?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Start by sneaking a forearm frame onto their crossface shoulder while still maintaining lockdown and head control. This preliminary frame creates initial separation. When you release head control, use both hands framing on their shoulders to create a brief push-off that generates enough space for the knee to slide across their hip line. Time the knee insertion with a sharp hip escape away from them to maximize the distance created by your frames."
@@ -106,7 +106,7 @@ description: "Execute the Old School to Half Guard transition in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent feels your lockdown tension decreasing and immediately drives forward with heavy pressure—how do you respond?",
+      "name": "They feel your lockdown loosening and drive forward hard: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you've established frames before the lockdown release, use them to absorb the forward drive and redirect it to the side while completing the knee shield insertion. If the pressure overwhelms your frames before the knee shield is in place, abandon the standard half guard transition and switch to the deep half bail variant—use their forward momentum to dive underneath their hips into deep half guard, which actually benefits from their aggressive forward pressure."

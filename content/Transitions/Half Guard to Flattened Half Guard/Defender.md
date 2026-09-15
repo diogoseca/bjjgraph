@@ -62,7 +62,7 @@ description: "Defend against being flattened from half guard bottom. Learn frame
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first recognition cue that your opponent is beginning the flattening sequence from half guard top?",
+      "name": "What is the first cue that the top player is starting the flattening sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary early cue is the crossface establishment, where you feel their arm threading across your jaw and their shoulder pressure increasing on your face, turning your head away. This is the foundational control point for the entire flattening sequence. Other early signs include their hips beginning to walk forward and your knee shield starting to fold inward under increasing pressure."
@@ -70,7 +70,7 @@ description: "Defend against being flattened from half guard bottom. Learn frame
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured a crossface but you still have your knee shield intact. What is your defensive priority?",
+      "name": "They secure a crossface but your knee shield is intact—what is your defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Fight for the underhook on the trapped leg side while maintaining the knee shield. Accept the crossface as the lower-priority battle and invest your energy in establishing the underhook, which provides the structural support to maintain your side angle. With both the underhook and knee shield, you can initiate offensive sequences even with the crossface in place. Without the underhook, even a strong knee shield will eventually fold under sustained pressure."
@@ -86,7 +86,7 @@ description: "Defend against being flattened from half guard bottom. Learn frame
     },
     {
       "@type": "Question",
-      "name": "Your knee shield begins folding inward under your opponent's hip pressure. What is your layered defensive response?",
+      "name": "Your knee shield folds under their hip pressure—what is your layered defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately execute a hip escape to re-establish distance and reinsert the knee shield from the new angle. If the knee shield cannot be recovered, transition to a forearm frame on their shoulder or bicep to maintain some distance. If all frames fail, dive underneath for deep half guard entry before chest-to-chest contact is fully established. This layered sequence provides multiple fallback options rather than relying on a single defensive technique."

@@ -258,7 +258,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the critical mechanical difference between a successful and unsuccessful leg extraction attempt?",
+        "question": "Mechanically, what separates a successful truck leg extraction from a failed one?",
         "answer": "Successful extraction uses circular and rotational movement—ankle corkscrew, outward knee drive, and hip rotation—to spiral the leg through gaps in the opponent's figure-four configuration. Unsuccessful attempts pull the leg straight backward, fighting directly against the strongest axis of the opponent's control where their hooks have maximum mechanical advantage. The spiral changes resistance angles progressively while the linear pull maintains constant maximum resistance.",
         "answer_line": "Corkscrew leg through the gap",
         "distractors": {
@@ -314,7 +314,7 @@
         }
       },
       {
-        "question": "Your opponent attacks a calf slicer during your leg extraction attempt—what is your immediate response?",
+        "question": "Your opponent attacks a calf slicer during your leg extraction from the truck — what do you do?",
         "answer": "Immediately bend your knee sharply to reduce compression on the joint and prevent injury. Then assess whether the calf slicer attack has changed the geometry of the figure-four in your favor—the opponent extending your leg for the slicer often loosens the hook configuration around the ankle. If so, accelerate extraction through the new angle. If compression is significant and increasing, tap immediately to preserve training longevity rather than fighting through a locked submission.",
         "answer_line": "Bend knee, then assess angle",
         "distractors": {
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "Your extraction attempt partially loosens the entanglement but fails to fully free the leg—what should you do next?",
+        "question": "Your truck extraction partially loosens the entanglement but the leg is not free — next step?",
         "answer": "Do not reset to the starting position. The partial loosening has created improved angles for subsequent escape attempts. Immediately chain into a granby roll using the space created by the partial extraction, or execute a hip escape to compound the distance gained. Each failed but partially successful escape attempt improves the conditions for the next technique in the chain. Returning to static defense after partial progress wastes the positional gains achieved.",
         "answer_line": "Chain into granby or hip escape",
         "distractors": {
@@ -516,7 +516,7 @@
         }
       },
       {
-        "question": "When should you abandon the truck entanglement and transition to back control during an extraction attempt?",
+        "question": "Holding the truck, when should you release it and transition to back control?",
         "answer": "Transition to back control when your hook tightening is no longer effectively stopping the ankle rotation, the knee has driven outward creating visible angular separation, and the hip rotation has begun. At this point, the three-dimensional spiral is too advanced to counter through tightening alone. Proactively release the entanglement and insert hooks before the leg fully clears, timing the transition to the moment just before complete extraction when the bottom player's focus is on the final pull rather than defending hook insertion.",
         "answer_line": "When spiral is too advanced to stop",
         "distractors": {
@@ -530,7 +530,7 @@
         }
       },
       {
-        "question": "How do you use the calf slicer threat to counter extraction attempts without losing positional control?",
+        "question": "Holding the truck, how do you use the calf slicer threat to stop extraction without losing control?",
         "answer": "Apply calf slicer pressure as a disruptive threat rather than a full commitment. When you feel the knee driving outward during extraction, apply compression on the calf to force the bottom player to bend their knee sharply and abandon the outward drive. This resets their extraction progress without requiring you to shift your weight significantly or release upper body control. Only escalate to a full calf slicer commitment when the submission is clearly available.",
         "answer_line": "Apply threat, don't fully commit",
         "distractors": {

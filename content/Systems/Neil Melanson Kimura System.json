@@ -1,0 +1,247 @@
+{
+  "name": "Neil Melanson Kimura System",
+  "description": "Study Neil Melanson kimura variations with a focused course companion linking double-wrist control, guard and half-guard decisions to practical learning tasks.",
+  "summary": "The Neil Melanson Kimura System is a BJJGraph study guide for using double-wrist control across positional changes and comparing related shoulder-lock configurations.",
+  "overview": "The Filthy Kimura offers Neil Melanson's specific approach to double-wrist control, including power and Ground Marshal variations, defensive problems, and sequences from guard and half guard. It adds a distinct instructor perspective to the existing kimura material on BJJGraph.\n\nThis page supplies an original study plan rather than reproducing the course. The main question is whether a useful connection survives as the position changes. A kimura grip can help organise movement, but holding the hands together does not automatically mean the shoulder is controlled. Compare a small number of configurations and keep all joint-lock pressure out of the transition drill until a coach has checked the position.",
+  "tags": [
+    "bjj",
+    "system",
+    "kimura",
+    "no-gi",
+    "shoulder-control"
+  ],
+  "system_type": "Submission Chain",
+  "difficulty_level": "Intermediate",
+  "key_principles": [
+    "Distinguish keeping the double-wrist grip from controlling the shoulder.",
+    "Study a positional change before adding its finishing pressure.",
+    "Compare named kimura variations by their contact and alignment.",
+    "Notice whether a defensive frame blocks entry or merely changes the available branch.",
+    "Retain a guard or top-position fallback when the grip no longer provides control.",
+    "Use deliberate movement and immediate release around shoulder locks."
+  ],
+  "key_components": [
+    {
+      "component_name": "Double-wrist connection",
+      "description": "Inspect the two-on-one arm connection and identify when the defender can still move their shoulder despite the grip.",
+      "purpose": "Build a clear standard for useful control."
+    },
+    {
+      "component_name": "Variation comparison",
+      "description": "Compare a familiar kimura with one demonstrated Melanson variation while keeping the starting position the same.",
+      "purpose": "Identify the different problem the variation addresses."
+    },
+    {
+      "component_name": "Frame response",
+      "description": "Have the defender place an agreed frame and distinguish difficulty reaching the grip from difficulty moving after it is established.",
+      "purpose": "Choose a relevant study topic instead of increasing force."
+    },
+    {
+      "component_name": "Guard-to-half-guard continuity",
+      "description": "Track the targeted arm as a cooperative partner changes between agreed guard and half-guard contexts.",
+      "purpose": "Test whether the connection remains functional during movement."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Establish a reference grip",
+      "description": "Begin with a basic kimura configuration both partners know. Stop before shoulder pressure and identify the controlled arm."
+    },
+    {
+      "step_number": 2,
+      "phase": "Test shoulder freedom",
+      "description": "Let the defender make a small, agreed movement. Observe whether the grip carries useful control or merely follows the wrist."
+    },
+    {
+      "step_number": 3,
+      "phase": "Compare one variation",
+      "description": "Study a selected Melanson configuration with a coach and repeat the same movement test from the same starting point."
+    },
+    {
+      "step_number": 4,
+      "phase": "Introduce a frame",
+      "description": "Ask the defender to supply one frame. Separate the work needed to enter the grip from the work needed to move afterward."
+    },
+    {
+      "step_number": 5,
+      "phase": "Connect two contexts",
+      "description": "Rehearse an agreed guard-to-half-guard change while retaining or deliberately releasing the kimura connection. End at a stable position."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The hands stay connected while the shoulder becomes free.",
+      "solution": "Use the shoulder-freedom test and review the surrounding body position."
+    },
+    {
+      "obstacle": "Different kimura names become interchangeable.",
+      "solution": "Compare two configurations side by side and record the problem each is intended to solve."
+    },
+    {
+      "obstacle": "The attacker tries to move through a firm frame by twisting the arm.",
+      "solution": "Reset and identify whether the frame is an entry obstacle or a positional obstacle."
+    },
+    {
+      "obstacle": "Losing the kimura grip also loses guard.",
+      "solution": "Rehearse deliberate release to a familiar guard before increasing resistance."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Grip usefulness",
+      "description": "Assess whether the connection actually limits shoulder movement.",
+      "proficiency_indicators": [
+        "Identifies the targeted arm",
+        "Recognises a free shoulder",
+        "Can release without scrambling"
+      ]
+    },
+    {
+      "metric_name": "Variation understanding",
+      "description": "Explain one difference between two studied configurations.",
+      "proficiency_indicators": [
+        "Describes their contact",
+        "Keeps the test context consistent",
+        "Identifies the problem being compared"
+      ]
+    },
+    {
+      "metric_name": "Frame diagnosis",
+      "description": "Classify the defender's frame by the phase it interrupts.",
+      "proficiency_indicators": [
+        "Recognises blocked entry",
+        "Recognises blocked movement",
+        "Selects the corresponding lesson"
+      ]
+    },
+    {
+      "metric_name": "Positional continuity",
+      "description": "Observe the arm connection during a guard change.",
+      "proficiency_indicators": [
+        "Tracks the shoulder",
+        "Finds a stable endpoint",
+        "Recovers guard when control is lost"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph suggests a grip-without-finish exercise. From half guard, establish an agreed double-wrist connection and let the partner move their shoulder slightly. Compare the result with one coach-approved variation, then add a single frame. The objective is to explain the connection, not to move the shoulder farther or win a grip contest.",
+    "progression_path": [
+      {
+        "stage": "Reference",
+        "focus": "Recognise basic double-wrist control without finishing pressure."
+      },
+      {
+        "stage": "Comparison",
+        "focus": "Test one alternative configuration against the same movement."
+      },
+      {
+        "stage": "Obstruction",
+        "focus": "Identify what an agreed defensive frame changes."
+      },
+      {
+        "stage": "Continuity",
+        "focus": "Carry or deliberately release the connection during a guard transition."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming a locked grip always means a controlled shoulder.",
+      "Changing several kimura variations before understanding the first.",
+      "Using shoulder rotation to force a positional transition."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Kimura",
+      "content_type": "Submission",
+      "relationship": "The primary shoulder-lock reference."
+    },
+    {
+      "name": "Kimura Trap",
+      "content_type": "Position",
+      "relationship": "A positional use of the kimura connection."
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "A central context for the course comparison."
+    },
+    {
+      "name": "Closed Guard",
+      "content_type": "Position",
+      "relationship": "A guard context for connected attacks."
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "A top-position reference for later study."
+    },
+    {
+      "name": "Armbar",
+      "content_type": "Submission",
+      "relationship": "An alternative arm attack with separate requirements."
+    },
+    {
+      "name": "Americana",
+      "content_type": "Submission",
+      "relationship": "A related shoulder-lock configuration to distinguish."
+    },
+    {
+      "name": "Grips",
+      "content_type": "Principle",
+      "relationship": "Vocabulary for double-wrist connections."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Helps classify the defender's obstruction."
+    },
+    {
+      "name": "Connection Principles",
+      "content_type": "Principle",
+      "relationship": "Frames the control-versus-grip distinction."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why is a kimura grip not proof of shoulder control?",
+      "answer": "The hands can remain connected while the defender still moves their shoulder freely; assess the surrounding position as well as the grip."
+    },
+    {
+      "question": "How should two kimura variations be compared?",
+      "answer": "Use the same starting context and defensive movement so the difference in contact or control can be identified clearly."
+    },
+    {
+      "question": "What distinction helps diagnose a defensive frame?",
+      "answer": "Determine whether the frame prevents obtaining the grip or prevents positional movement after the grip has already been established."
+    },
+    {
+      "question": "What is a useful goal for a kimura movement drill?",
+      "answer": "Reach a stable position while tracking the targeted shoulder, or deliberately release to guard when the connection stops being useful."
+    },
+    {
+      "question": "How should shoulder-lock pressure be handled during transition practice?",
+      "answer": "Keep it out of the control drill, move deliberately and release immediately on a tap or any request to stop."
+    },
+    {
+      "question": "Why practise releasing the kimura to guard?",
+      "answer": "A reliable release gives a positional fallback when the grip no longer controls the shoulder and discourages forcing a lost attack."
+    }
+  ],
+  "products": [
+    {
+      "id": "the-filthy-kimura-by-neil-melanson",
+      "title": "The Filthy Kimura",
+      "instructor": "Neil Melanson",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A distinct kimura perspective covering double-wrist variants, frame problems and guard-to-half-guard sequences.",
+      "best_for": "Students familiar with basic kimura control who want another instructor's approach; several catch-influenced arm locks need selective coached practice.",
+      "study_focus": "Compare the foundational double-wrist material with the movement drill and half-guard sequence before adding more variations.",
+      "practice_tip": "BJJGraph suggestion: test whether the shoulder remains controlled while the hands stay connected, using no finishing pressure."
+    }
+  ]
+}

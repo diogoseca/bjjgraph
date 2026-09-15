@@ -315,7 +315,7 @@
         }
       },
       {
-        "question": "Your opponent starts straightening their trapped leg during your calf slicer setup - what adjustment prevents escape?",
+        "question": "In 50-50, they straighten the leg against your calf slicer — what do you do?",
         "answer": "Do not fight to maintain the calf slicer against a straightening leg. Instead, immediately transition back to the heel hook attack because their straightened leg now exposes the heel they were previously hiding. This creates the core dilemma of the 50-50 calf slicer and heel hook chain: bent knee allows calf slicer, straight leg allows heel hook, and the opponent cannot defend both simultaneously.",
         "safety_critical": false,
         "answer_line": "Switch to the heel hook",
@@ -390,7 +390,7 @@
         }
       },
       {
-        "question": "Your figure-four lock feels loose and the opponent is starting to extract their leg - what do you do?",
+        "question": "Your 50-50 calf slicer figure-four is loose and they're extracting — what do you do?",
         "answer": "If the figure-four lock is loose and the opponent is actively extracting, do not chase the calf slicer by applying more hip extension against an incomplete lock. Instead, reset by tightening the lock first. Scoot your hips closer to reduce the gap, re-hook your foot more deeply behind your own knee, and use your grip on their foot to pull their leg back into the compression line. If extraction has progressed too far to recover, abandon the attempt and return to standard 50-50 top control before attempting another submission entry.",
         "safety_critical": false,
         "answer_line": "Reset the hips and re-hook first",
@@ -589,7 +589,7 @@
         }
       },
       {
-        "question": "Why does straightening your leg expose you to a different submission threat, and how do you manage this tradeoff?",
+        "question": "Straightening your leg beats the 50-50 calf slicer but opens what threat, and how do you manage it?",
         "answer": "Straightening the trapped leg removes the bent-knee angle needed for the calf slicer but simultaneously exposes the heel that was previously hidden from heel hook attacks. Manage this tradeoff by straightening the leg only enough to prevent effective compression while maintaining some knee bend, and immediately address heel protection through grip fighting and knee rotation once the calf slicer threat is neutralized. The goal is dynamic defense that prevents both attacks rather than fully committing to one defensive posture.",
         "safety_critical": false,
         "answer_line": "Straighten only partway, then fight",

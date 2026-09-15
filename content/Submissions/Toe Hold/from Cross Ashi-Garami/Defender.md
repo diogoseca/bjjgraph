@@ -74,7 +74,7 @@ description: "Defend the toe hold from cross ashi-garami with early recognition 
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available against the toe hold from cross ashi-garami and when should each be employed?",
+      "name": "What are the toe hold defences from cross ashi-garami, and when is each one used?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary options in order of preference are: boot defense with active toe curl to prevent grip access (use immediately upon recognition), two-handed grip strip targeting the figure-four wrist connection (use when grip is established but rotation has not begun), and hip escape with leg extraction during the attacker's grip transition moment (use when their leg control loosens). Each defense has a specific timing window, and attempting a defense outside its window is ineffective. If all three fail and the grip locks with rotation, the only remaining option is to tap."

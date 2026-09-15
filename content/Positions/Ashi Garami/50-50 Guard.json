@@ -104,7 +104,7 @@
         }
       },
       {
-        "question": "Your opponent starts hip escaping to create angle - what immediate adjustment prevents them from equalizing?",
+        "question": "In 50-50 top, they hip escape for an angle - what adjustment stops them equalizing?",
         "answer": "Drive your hips forward and downward while following their hip movement with your own hip pressure. Simultaneously tighten your inside leg control by pressing your shin deeper into their leg structure. This reestablishes vertical pressure and prevents them from creating the angle needed to escape or counter-attack.",
         "answer_line": "Drive hips forward, follow angle",
         "distractors": {
@@ -146,7 +146,7 @@
         }
       },
       {
-        "question": "Your opponent successfully hides their heel by tucking it close to their body - what is the correct response?",
+        "question": "In 50-50 top, your opponent hides their heel by tucking it in - what should you do?",
         "answer": "Do not stubbornly chase the hidden heel. After 3-5 seconds of attempted heel exposure fails, immediately transition to alternative attacks: kneebar by controlling above the knee, back take by releasing legs and circling to their back, or transition to Inside Ashi-Garami or Honey Hole for better heel exposure angles.",
         "answer_line": "Switch attack after 3-5 seconds",
         "distractors": {
@@ -160,7 +160,7 @@
         }
       },
       {
-        "question": "Your opponent partially extracts their outside leg from the entanglement but has not yet established a guard hook - how do you recover full 50-50 control?",
+        "question": "They partly free their outside leg in 50-50 but have no hook yet - how do you recover control?",
         "answer": "Immediately drive your hips forward to close the extraction gap while using your inside leg to re-triangle around their remaining trapped leg. Simultaneously tighten your ankle grip with both hands and use your outside leg to pull their freed leg back into the entanglement configuration. The critical recovery window is 1-2 seconds between initial extraction and hook establishment. If they have already placed a butterfly hook behind your knee, do not drive forward—instead backstep to disengage entirely and re-engage from a passing position.",
         "answer_line": "Drive hips forward, retriangle leg",
         "distractors": {
@@ -527,7 +527,7 @@
         }
       },
       {
-        "question": "Your opponent secures a two-handed grip on your heel - what immediate defensive action prevents the finish?",
+        "question": "In 50-50, they get two hands on your heel - what immediate defense stops the finish?",
         "answer": "Immediately rotate your knee inward toward your opposite hip while simultaneously attacking their grip with both hands. The knee rotation takes tension off the heel hook mechanism. Use your hands to strip their grip on your heel - prioritize breaking the cupping hand first. If grip breaks fail, consider tapping early rather than risking knee damage.",
         "answer_line": "Rotate knee in, strip their grip",
         "distractors": {
@@ -555,7 +555,7 @@
         }
       },
       {
-        "question": "What hip movements prevent opponent from fully settling their weight and establishing dominant control?",
+        "question": "From 50-50 bottom, what hip movements stop them settling weight into dominant control?",
         "answer": "Maintain constant hip mobility through shrimping away to create angle, bridging to disrupt their balance, and directional hip changes that prevent them from aligning their pressure. Never remain static - even small hip adjustments of a few inches prevent opponent from fully settling and create micro-opportunities for escape or reversal.",
         "answer_line": "Constant hip movement, never static",
         "distractors": {
@@ -611,7 +611,7 @@
         }
       },
       {
-        "question": "After partially escaping a heel hook by stripping one of opponent's grips, how do you complete the defense and recover to a safe position?",
+        "question": "After stripping one heel hook grip in 50-50, how do you finish the defense and get safe?",
         "answer": "After stripping the first grip, immediately strip the second grip using two-on-one hand fighting before opponent can re-establish control. Simultaneously rotate your knee inward to remove remaining rotational tension on the joint. Once both grips are broken, create immediate distance through hip escape and either re-establish your heel defense position with knee rotated inward, initiate a planned escape sequence to standing, or counter-attack opponent's now-exposed heel. The window between breaking the first and second grip is your highest vulnerability moment.",
         "answer_line": "Strip second grip, rotate knee",
         "distractors": {
@@ -839,7 +839,7 @@
       }
     },
     {
-      "question": "Why is the 50-50 Guard described as a symmetrical or mirrored position, and what strategic consequence does that symmetry create?",
+      "question": "Why is 50-50 called symmetrical, and what does that symmetry mean strategically?",
       "answer": "The position is symmetrical because both players' legs are entangled in the same configuration facing each other, so any control one player establishes is theoretically available to the other. This mirroring means both grapplers have simultaneous access to the same submissions, primarily heel hooks against the shared trapped leg. The strategic consequence is that victory is decided not by the base position but by breaking the symmetry: one player must establish a foot-control, hip-angle, or grip advantage that the other cannot match. Until that asymmetry appears, the exchange remains a neutral hand-fight and can stall into a referee standup.",
       "answer_line": "Whoever breaks symmetry wins first",
       "distractors": {
@@ -867,7 +867,7 @@
       }
     },
     {
-      "question": "How does foot and heel exposure work in the 50-50 Guard, and why does knee rotation matter for both players?",
+      "question": "In 50-50, how does heel exposure work and why does knee rotation matter for both players?",
       "answer": "Each player's trapped inside leg has its heel exposed to the opponent's grips unless it is actively hidden, so heel exposure is a shared vulnerability rather than a one-sided threat. Rotating the knee inward toward the opposite hip takes the heel off-line and removes the rotational tension a heel hook depends on, which is why both grapplers constantly manage knee angle. The player who keeps their own heel hidden while exposing the opponent's heel gains the attacking advantage. Because the position is symmetrical, a lapse in knee rotation by either player instantly reverses who is in danger.",
       "answer_line": "Rotate knee in to hide heel",
       "distractors": {
@@ -881,7 +881,7 @@
       }
     },
     {
-      "question": "How is weight and hip height distributed between the two players in the 50-50 Guard, and why does it matter?",
+      "question": "In 50-50, how do weight and hip height divide between the players, and why does it matter?",
       "answer": "Although the leg entanglement is symmetrical, hip height breaks the equality: the player with higher hips can drive downward pressure through the pelvis into the opponent's lower abdomen, keeping them flat and limiting their ability to sit up or create angle. The lower player is pinned toward their back with reduced leverage to extract or attack. Hip mobility is therefore critical for both, since constant hip movement prevents the opponent from settling weight and preserves the ability to create the perpendicular angle submissions require. Whoever controls hip height and angle converts the neutral entanglement into an attacking platform.",
       "answer_line": "Higher hips control the exchange",
       "distractors": {
@@ -923,7 +923,7 @@
       }
     },
     {
-      "question": "What transition options let a player break out of the 50-50 stalemate into a more dominant entanglement?",
+      "question": "What transitions break a 50-50 stalemate into a more dominant entanglement?",
       "answer": "Because standard 50-50 offers no inherent advantage, players seek to convert it into asymmetrical positions where control is one-sided. Primary targets include Honey Hole (inside sankaku), which offers superior heel exposure and control, and Backside 50-50, which repositions to attack from behind the opponent's leg line. X-Guard and Single Leg X-Guard serve as sweeping alternatives when leg attacks are unavailable, off-balancing the opponent rather than isolating a leg. Recognizing when a direct submission is stalemated and flowing seamlessly to one of these positions is what separates effective 50-50 play from passive stalling.",
       "answer_line": "Go to Honey Hole or backside",
       "distractors": {

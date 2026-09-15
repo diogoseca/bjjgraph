@@ -90,7 +90,7 @@ description: "Defend the belly down armbar from Kesa Gatame with proven escape t
     },
     {
       "@type": "Question",
-      "name": "Your opponent has your wrist controlled but has not stepped over yet—what is your highest percentage response?",
+      "name": "They have your wrist in kesa gatame but have not stepped over — what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clasp both hands together using a Gable grip or S-grip to prevent arm isolation. Simultaneously, pull your trapped elbow tight against your ribcage and begin bridging into the opponent to compress the space they need for the step-over. If you can break the wrist control entirely, immediately re-establish defensive frames for standard Kesa Gatame bottom escapes. The pre-step-over phase is your best defensive window since options decrease significantly once the leg clears your head."

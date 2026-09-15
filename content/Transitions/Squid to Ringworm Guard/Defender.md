@@ -56,7 +56,7 @@ description: "Learn to defend against the Squid to Ringworm Guard transition in 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the bottom player is attempting to transition from Squid Guard to Ringworm Guard?",
+      "name": "What are the earliest cues that they are switching from squid guard to ringworm guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the lapel hand beginning to slide along the fabric rather than maintaining steady pulling tension, and the threading leg hook momentarily loosening as the bottom player prepares to adjust their leg configuration. These two cues typically precede the hip angle adjustment by one to two seconds, giving an alert defender a brief window to initiate a preemptive defensive response before the reconfiguration progresses further."
@@ -72,7 +72,7 @@ description: "Learn to defend against the Squid to Ringworm Guard transition in 
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully completes the Ringworm Guard reconfiguration—what immediate adjustments should you make to your defensive posture?",
+      "name": "They complete the ringworm reconfiguration—how do you adjust your posture on top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your base to account for Ringworm Guard's different sweeping angles compared to Squid Guard. Adjust your weight distribution to be slightly further back, as Ringworm Guard's primary sweeps pull you forward. Identify the new lapel wrap path around your leg and begin planning your grip strip from the Ringworm configuration. Do not attempt to pass immediately—first understand the new control structure and identify its specific vulnerabilities before committing to a passing sequence."
@@ -80,7 +80,7 @@ description: "Learn to defend against the Squid to Ringworm Guard transition in 
     },
     {
       "@type": "Question",
-      "name": "How do you differentiate between a genuine reconfiguration attempt and a feint designed to create sweep opportunities?",
+      "name": "How do you tell a real squid to ringworm reconfiguration from a feint?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A genuine reconfiguration involves the bottom player loosening the lapel and adjusting their hip angle simultaneously, with their free hand moving to assist the rethreading. A feint typically maintains full lapel tension while only adjusting the legs or making exaggerated grip movements designed to draw your attention. If the lapel tension remains constant despite visible grip adjustments, it is likely a feint. Respond to feints by maintaining your base rather than committing to a grip strip that could leave you off-balance."
@@ -88,7 +88,7 @@ description: "Learn to defend against the Squid to Ringworm Guard transition in 
     },
     {
       "@type": "Question",
-      "name": "What is the strategic trade-off between stripping the lapel entirely versus simply preventing the reconfiguration?",
+      "name": "Stripping the lapel outright versus just preventing the ringworm switch—what is the trade-off?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stripping the lapel entirely eliminates the bottom player's entire lapel guard system, reducing them to basic open guard and dramatically simplifying your passing challenge. However, the strip attempt requires committing both hands and risks a sweep if it fails. Preventing the reconfiguration through pressure or hand control keeps them in Squid Guard, which you have already been defending—a lower-reward but lower-risk outcome. Choose the strip when you have a clear window and solid base; choose prevention when the bottom player maintains strong secondary controls that make stripping risky."

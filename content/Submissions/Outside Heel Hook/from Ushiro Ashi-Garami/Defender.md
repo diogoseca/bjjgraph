@@ -84,7 +84,7 @@ description: "Defend the outside heel hook from ushiro ashi-garami. Recognition 
     },
     {
       "@type": "Question",
-      "name": "When should you accept turtle position rather than continuing to fight the leg extraction from ushiro?",
+      "name": "When should you accept turtle instead of fighting leg extraction from ushiro ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept turtle when the attacker's entanglement control is too deep to safely extract your leg, when their grip fighting is progressing toward heel access faster than your extraction is progressing, when you have been defending for more than five seconds without meaningful escape progress, or when your energy is depleting from repeated extraction attempts. Turtle is a significantly safer transitional position than remaining in deep ushiro entanglement under active submission threat."

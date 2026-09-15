@@ -294,7 +294,7 @@
         }
       },
       {
-        "question": "What grip configuration provides the strongest connection between upper and lower body for butterfly hook control?",
+        "question": "Which grip setup best links upper and lower body for butterfly hook control?",
         "answer": "The strongest configuration is a collar grip on one side combined with an underhook on the opposite side. The collar grip provides pulling force that directs the opponent's weight onto the same-side hook for sweeps, while the underhook prevents posting on that side and creates an arm drag threat to the back. In no-gi, a collar tie replaces the collar grip and a wrist control or two-on-one replaces the underhook, maintaining similar directional control.",
         "answer_line": "Collar one side, underhook other",
         "distractors": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "How do you maintain connection to the opponent during the most vulnerable phase of consolidation when inserting the second hook?",
+        "question": "How do you stay connected while inserting the second butterfly hook?",
         "answer": "The first hook and your primary grip serve as anchors during second hook insertion. Use a brief elevation on the first hook to shift the opponent's weight and create space under the opposite thigh for the second hook. Your grip prevents the opponent from disengaging during this moment. Never release your existing controls to reach for the second hook—instead, use hip movement and the elevation from the first hook to create the insertion angle while maintaining all current connections.",
         "answer_line": "Anchor with first hook and grip",
         "distractors": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "Your opponent breaks your collar grip while you are mid-consolidation with one hook deep—what is your immediate priority?",
+        "question": "Mid-consolidation with one deep hook, they break your collar grip: what is your priority?",
         "answer": "Immediately re-establish a grip before the opponent capitalizes on the broken connection. Your priority order is: first, maintain your existing hook depth and posture (do not sacrifice these to chase the grip); second, establish any available grip on the opponent's upper body—sleeve, wrist, collar tie, or underhook; third, resume the consolidation sequence. If the opponent uses the grip break to initiate a pass, abandon the consolidation and focus on guard retention from your current position.",
         "answer_line": "Keep hook depth, get any grip",
         "distractors": {
@@ -469,7 +469,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest recognition cues that the bottom player is attempting to consolidate butterfly hook control?",
+        "question": "What is the earliest cue that the bottom player is consolidating butterfly hook control?",
         "answer": "The earliest cues are: the bottom player posting a hand behind their hip to initiate a sit-up, increased curling pressure from one or both hooks driving deeper toward your hip creases, and aggressive grip fighting for collar or underhook control. These cues often appear in sequence—posture recovery first, then hook deepening, then grip establishment. Recognizing the first cue (the sit-up attempt) gives you the most time to intervene.",
         "answer_line": "Hand posts behind hip to sit up",
         "distractors": {
@@ -483,7 +483,7 @@
         }
       },
       {
-        "question": "Why is it more effective to prevent consolidation than to deal with established butterfly hook control?",
+        "question": "Why prevent consolidation rather than deal with established butterfly hook control?",
         "answer": "Established butterfly hook control creates a loaded offensive system where the bottom player's hooks, posture, and grips work together as a unified sweeping mechanism. Preventing consolidation means the bottom player has disconnected elements—shallow hooks, poor posture, or missing grips—that cannot generate the coordinated force needed for high-percentage sweeps. Disrupting even one element of the consolidation degrades the entire system significantly.",
         "answer_line": "Stops the unified sweep system",
         "distractors": {
@@ -497,7 +497,7 @@
         }
       },
       {
-        "question": "Your opponent has recovered seated posture and is deepening their left hook—what is your optimal defensive response?",
+        "question": "They regain seated posture and deepen their left hook: what is your best defensive response?",
         "answer": "Drive your right knee to the mat through the opponent's left hook insertion path to keep it shallow, while simultaneously fighting their upper body grips with your hands to deny the pulling control they need. If you cannot prevent the hook from deepening, immediately address the opposite hook before the bottom player achieves both deep hooks. Alternatively, stand up entirely to reset the engagement if both hooks are becoming deep—standing removes the fulcrum the hooks create.",
         "answer_line": "Knee through hook, fight grips",
         "distractors": {

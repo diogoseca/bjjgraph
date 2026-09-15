@@ -56,7 +56,7 @@ description: "Defend against the Back Take from Kesa Gatame. Guide for top playe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a back take attempt is being initiated from Kesa Gatame bottom?",
+      "name": "From Kesa Gatame top, what's the earliest cue they're starting a back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player's hips beginning to rotate toward you rather than remaining flat or shrimping away. You feel their belt line turning to face your body rather than the ceiling. This hip rotation precedes the bridge and framing that power the back take, making it the first detectable signal. Secondary cues include increased pressure from their far arm frame directed toward your back and attempts to grip your far posting arm."
@@ -72,7 +72,7 @@ description: "Defend against the Back Take from Kesa Gatame. Guide for top playe
     },
     {
       "@type": "Question",
-      "name": "What is the optimal counter-transition when the bottom player has committed to turning into you and is approaching chest-to-chest?",
+      "name": "They've turned into you toward chest-to-chest from Kesa Gatame: what's the best counter-transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal counter is transitioning to mount by stepping your far leg over their body, using their own turning momentum to facilitate the mount establishment. At the chest-to-chest phase, they have already created the hip angle that makes maintaining Kesa Gatame difficult, but their turn also creates the space for your mount transition. Attempting to force them back into Kesa Gatame at this stage is less effective than accepting the positional evolution and advancing to mount, which is worth more points and maintains your dominance."

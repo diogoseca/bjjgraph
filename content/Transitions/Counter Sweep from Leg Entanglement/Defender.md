@@ -56,7 +56,7 @@ description: "Defend and prevent the counter sweep from leg entanglement. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What specific grip transition during your leg attack creates the greatest vulnerability to the counter sweep?",
+      "name": "Which grip transition in your leg attack most exposes you to the counter sweep from bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most vulnerable moment is when you release upper body control of the opponent's torso to secure both hands on their foot for a finishing grip. This transition removes the primary barrier preventing the opponent from sitting up and driving forward. During this grip transition, the opponent's torso is uncontrolled and their posting arm is free, creating the ideal conditions for the counter sweep. To mitigate this, maintain at least one point of upper body contact until the absolute final moment of the finishing sequence."
@@ -72,7 +72,7 @@ description: "Defend and prevent the counter sweep from leg entanglement. Recogn
     },
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that indicates your opponent is preparing a counter sweep from bottom leg entanglement?",
+      "name": "What is the earliest cue that the bottom player is setting up a counter sweep from leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in the opponent's arm activity—specifically when they shift from defending the leg attack with their hands near their captured leg to freeing their arms and reaching toward the mat for a posting position. This arm repositioning precedes the hip drive by several seconds and indicates the opponent has mentally transitioned from defense to counter-offense. Recognizing this arm shift gives you the maximum response window to re-establish upper body control or adjust your base before the sweep is initiated."

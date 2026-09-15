@@ -80,7 +80,7 @@ description: "How to defend against Roll to Guard in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Why is driving your hips forward more effective than pulling your opponent backward when defending this escape?",
+      "name": "Defending the roll to guard from harness top, why beat driving hips forward pulling them back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling backward uses arm strength against the opponent's entire body momentum and core power, which is a losing leverage exchange. Driving your hips forward uses your body weight and leg drive to eliminate the space needed for rotation while keeping you connected to their back. Forward hip pressure also makes it natural to follow their movement if they do initiate, maintaining back control through the transition rather than getting separated."
@@ -88,7 +88,7 @@ description: "How to defend against Roll to Guard in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent completes a partial roll but hasn't established guard yet - what is your immediate recovery sequence?",
+      "name": "They partially roll to guard from harness bottom but have no guard yet — how do you recover control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive forward to re-establish chest-to-back contact before they can turn to face you. Re-insert hooks if they were cleared during the roll, starting with the hook on the side they rolled toward. Tighten your harness grip and pull them back into full back control position. If they are already partially turned, transition to a gift wrap or crucifix to capitalize on their exposed arm rather than fighting to return to standard back control."

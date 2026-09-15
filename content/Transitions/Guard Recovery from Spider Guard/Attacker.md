@@ -82,7 +82,7 @@ description: "Learn to recover closed guard from Spider Guard as the bottom play
     },
     {
       "@type": "Question",
-      "name": "Why should the leg retraction follow a semicircular arc rather than a straight pull-back during spider guard recovery?",
+      "name": "Why retract the legs on a semicircular arc instead of straight back from spider guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A straight pull-back creates a brief neutral position where your legs pass through a non-controlling zone, giving the opponent a window to advance a knee or establish combat base. A semicircular arc takes the feet directly from the bicep contact point around and behind the opponent's back, maintaining continuous leg engagement throughout the retraction and eliminating the gap that allows the opponent to advance past your legs."
@@ -90,7 +90,7 @@ description: "Learn to recover closed guard from Spider Guard as the bottom play
     },
     {
       "@type": "Question",
-      "name": "Your opponent stands up and creates maximum distance as you attempt to close guard from spider—what alternative recovery should you pursue?",
+      "name": "They stand and create max distance as you try to close guard from spider — what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the closed guard attempt and immediately transition to an alternative open guard that works at standing distance. Establish a De La Riva hook on their lead leg with your bottom foot, or maintain feet on their hips with a collar grip for long-range open guard. Forcing closed guard at standing distance requires you to pull them down against gravity, which is extremely energy-intensive and low-percentage. The open guard alternative maintains your guard structure at the distance available."
@@ -98,7 +98,7 @@ description: "Learn to recover closed guard from Spider Guard as the bottom play
     },
     {
       "@type": "Question",
-      "name": "What makes spider guard to closed guard one of the higher-percentage guard recoveries compared to other guard recovery transitions?",
+      "name": "Why is spider guard to closed guard a higher-percentage recovery than most transitions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Spider guard to closed guard follows a natural distance-closing trajectory—the opponent is already within arm's reach due to the sleeve grip connection, and their forward momentum from breaking grips carries them toward guard closure range. Unlike recovery from positions where the bottom player must create distance first, spider guard recovery uses the existing close-to-medium range and the opponent's own forward energy to accelerate the transition. The bottom player also typically retains at least one grip throughout the transition, maintaining continuous control."
@@ -114,7 +114,7 @@ description: "Learn to recover closed guard from Spider Guard as the bottom play
     },
     {
       "@type": "Question",
-      "name": "What specific grip should you prioritize before releasing your spider guard feet, and why is the collar grip preferred over maintaining the remaining sleeve grip?",
+      "name": "Which grip do you secure before releasing your spider feet, and why the collar over sleeve?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize a strong collar grip because it serves as the primary pulling handle to draw the opponent into guard closure range. The remaining sleeve grip controls only the opponent's arm, but the collar grip controls their entire posture and forward-backward movement. As you release your feet from the biceps, the collar grip enables you to pull them forward, using their own forward recovery momentum to accelerate the distance closure needed for guard wrapping. In no-gi, a collar tie or head control serves the same pulling function."

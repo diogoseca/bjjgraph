@@ -56,7 +56,7 @@ description: "Prevent guard recovery from Inside Ashi-Garami as the top player i
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the highest-percentage advancement option when you recognize the bottom player is disengaging from Inside Ashi-Garami?",
+      "name": "What's the highest-percentage option when they disengage from inside ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Counter-entanglement is the highest-percentage option because the bottom player's legs are most vulnerable during the disengagement phase. As they release their inside hooking leg, it becomes exposed for your counter-step, and their attention is divided between disengaging and composing guard. Securing your own ashi garami during this window reverses the positional dynamic from defensive to offensive with minimal effort, as you are capitalizing on the movement the bottom player is already creating."
@@ -64,7 +64,7 @@ description: "Prevent guard recovery from Inside Ashi-Garami as the top player i
     },
     {
       "@type": "Question",
-      "name": "When should you choose to stand rather than counter-entangle during Inside Ashi-Garami guard recovery?",
+      "name": "When should you stand instead of counter-entangling as they recover guard from inside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stand when the bottom player's leg disengagement is rapid and their legs are already transitioning toward guard barriers rather than remaining exposed for counter-entanglement. Also choose standing when you are fatigued from defending the leg attack and need to reset to a neutral position, or when your own leg lock defense skills make counter-entanglement risky. Standing creates vertical distance that denies close-range guard and allows you to establish combat base with fresh passing angles."
@@ -72,7 +72,7 @@ description: "Prevent guard recovery from Inside Ashi-Garami as the top player i
     },
     {
       "@type": "Question",
-      "name": "The bottom player has established one foot on your hip during their recovery—how do you prevent full guard recomposition?",
+      "name": "They get one foot on your hip during recovery—how do you stop full guard recomposition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip their ankle controlling the foot on your hip and redirect it either across your body for a leg drag or downward to remove the barrier. Simultaneously advance with your free hand on their other knee or hip to prevent the second leg from establishing a matching barrier. The single foot-on-hip is their intermediate barrier—address it immediately before the second leg arrives to complete the guard structure, as two legs in guard position is significantly harder to pass than one."

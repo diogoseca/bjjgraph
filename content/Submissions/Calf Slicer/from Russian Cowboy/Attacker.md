@@ -78,7 +78,7 @@ description: "Learn to attack with the calf slicer from Russian Cowboy. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What specific indicators tell you the calf slicer has reached the breaking point and you must not apply further pressure?",
+      "name": "What signs show the calf slicer has reached the breaking point and you must add no more pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the opponent's body going rigid with involuntary tension, sudden vocalization or grunting that differs from normal exertion sounds, visible blanching of the skin around the compression point, and the opponent's free limbs flailing rather than making purposeful defensive movements. Any of these signals means you are at or past the threshold for tissue damage. In training, you should never reach this point because the opponent should be tapping well before these signs appear. If you see these signs without a tap, release immediately."
@@ -94,7 +94,7 @@ description: "Learn to attack with the calf slicer from Russian Cowboy. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins straightening their trapped leg as you start threading your shin — what adjustment prevents the escape?",
+      "name": "Russian Cowboy: they straighten the leg as you thread your shin—what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use your free hand to hook behind their heel or grab their toes and pull the foot back toward their buttock, re-bending the knee before they achieve full extension. Simultaneously drive your hooking knee deeper behind their leg to block the straightening motion at the source. If they have significant extension momentum, abandon the foot capture temporarily and use both your hook and your free leg to scissor around their thigh, physically preventing the extension. Once the knee is re-bent, quickly establish the foot grip before they attempt to straighten again."

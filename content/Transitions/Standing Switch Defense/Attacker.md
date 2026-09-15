@@ -74,7 +74,7 @@ description: "Learn how to defend the standing switch as the controlling player 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first physical sensation that indicates your opponent is initiating a switch from the standing rear clinch?",
+      "name": "What is the first tactile cue that your opponent is starting a switch from standing rear clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first sensation is a sudden downward shift in your opponent's hips and center of gravity combined with the feeling of their hand or arm reaching backward between or around your legs. This hip drop is the mechanical prerequisite for the switch because the opponent needs to lower their center to create the pivot point for the 180-degree rotation. Recognizing this tactile cue before visual confirmation allows you to begin your defensive response within the first fraction of a second."
@@ -82,7 +82,7 @@ description: "Learn how to defend the standing switch as the controlling player 
     },
     {
       "@type": "Question",
-      "name": "Your opponent drops their hips and you feel their right hand reaching between your legs from the right side - what specific defensive actions do you take in the first two seconds?",
+      "name": "They drop hips and reach their right hand between your legs: what do you do in the first 2 seconds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In the first second, widen your base by stepping both feet outward and bend your knees to drop your center of gravity. Simultaneously drive your hips forward into their lower back to eliminate rotational clearance. In the second second, clamp your right elbow tightly against your right hip to trap their switch hand while tightening your left arm's grip around their upper body. This combination of structural resistance and hand trapping prevents the switch from developing momentum."
@@ -106,7 +106,7 @@ description: "Learn how to defend the standing switch as the controlling player 
     },
     {
       "@type": "Question",
-      "name": "Your opponent partially completes a switch and is now facing perpendicular to you with their hips turned 90 degrees - how do you recover?",
+      "name": "Their switch is half done, hips turned 90 degrees: how do you recover the rear clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At 90 degrees of rotation, the switch is at its most vulnerable recovery point. Immediately step your lead foot in the direction of their rotation to re-align your chest behind their back. Use your remaining grip to pull their shoulders back toward you while driving your hips forward and to the side to re-establish the chest-to-back angle. If you cannot recover the full rear clinch, transition immediately to a body lock takedown using their compromised base, or disengage to neutral standing before they complete the remaining 90 degrees of rotation."
@@ -114,7 +114,7 @@ description: "Learn how to defend the standing switch as the controlling player 
     },
     {
       "@type": "Question",
-      "name": "How does your defensive response differ when the opponent attempts a switch very early with minimal momentum versus when they have already generated significant rotational force?",
+      "name": "How does switch defense differ against an early low-momentum attempt versus one with momentum?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "An early switch attempt with minimal momentum can be stopped simply by driving your hips forward and squeezing your grip tighter, as the opponent has not yet created enough force to overcome structural resistance. When the opponent has generated significant rotational momentum, fighting the rotation directly wastes energy and is ineffective. Instead, follow their rotation by stepping your feet in the same direction, maintaining your position behind them by circling with their movement. Use their momentum to re-drag them into your control once they decelerate, or transition to a mat return that utilizes their forward energy."

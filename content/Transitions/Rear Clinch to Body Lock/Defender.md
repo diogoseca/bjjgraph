@@ -56,7 +56,7 @@ description: "Defensive strategies against the Rear Clinch to Body Lock transiti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting to convert from seatbelt to body lock?",
+      "name": "Earliest cue that they are converting seatbelt to body lock on your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the underhook arm beginning to slide downward from your armpit toward your waist. You will feel reduced pressure in the armpit area and increased contact along your ribcage and flank as the arm travels down. This typically occurs simultaneously with increased forward hip pressure from the attacker, which serves to mask the grip change. Reacting to this first sign of arm movement gives you the maximum defensive window before the lock is established."
@@ -72,7 +72,7 @@ description: "Defensive strategies against the Rear Clinch to Body Lock transiti
     },
     {
       "@type": "Question",
-      "name": "How should you defend if you feel both of the attacker's arms reaching your waist level simultaneously?",
+      "name": "You feel both of their arms reach your waist at once: how do you defend the body lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If both arms are already at waist level, the lock is imminent and your priority shifts from preventing the lock to mitigating its consequences. Get at least one hand inside the developing lock to wedge between their arms and your body, which prevents them from tightening fully. Simultaneously lower your base aggressively by bending your knees and widening your stance. If you cannot prevent the lock, immediately begin grip-breaking from the most accessible point while preparing to sit to guard. Do not freeze or wait to see what they do next, as the attacker will attack within one second of establishing the lock."
@@ -88,7 +88,7 @@ description: "Defensive strategies against the Rear Clinch to Body Lock transiti
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives increased hip pressure and you feel their underhook arm sliding - what is your immediate three-step response?",
+      "name": "You feel hip pressure and their underhook arm sliding: what three defensive steps, in order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Step one: grab the sliding arm with your nearest hand using a two-on-one grip if possible, anchoring it before it reaches your waist. Step two: simultaneously drive your hips away from the attacker with an explosive hip escape to create space between your waist and their reaching arm. Step three: if the first two actions stall the transition, use the created space to begin turning toward the attacker to face them, or if the attacker is adjusting to chase, take the opportunity to pummel your arm inside to create a defensive frame. The three actions should flow together in under two seconds."

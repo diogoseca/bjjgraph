@@ -269,7 +269,7 @@
         }
       },
       {
-        "question": "Why is maintaining chest pressure on the trapped leg crucial throughout the entire leg drag sequence?",
+        "question": "Why is chest pressure on the trapped leg crucial throughout the leg drag?",
         "answer": "Chest pressure pins the trapped leg 'dead', preventing the opponent from pulling it back to their centerline to recover guard. It also serves several other critical functions: it lets the passer use body weight rather than arm strength for control (making the pass more efficient), and it keeps the passer's base low and stable, making sweeps difficult. Without consistent chest pressure, the leg drag becomes merely a temporary leg grip that can be easily escaped.",
         "distractors": {
           "plausible": [
@@ -297,7 +297,7 @@
         "answer_line": "Swim head under or knee slice"
       },
       {
-        "question": "How does the leg drag differ from other guard passes in terms of weight distribution and body positioning?",
+        "question": "How does leg drag weight distribution and positioning differ from other guard passes?",
         "answer": "The leg drag uses angular, diagonal chest pressure across the trapped leg while the hips stay mobile to circle around it. Unlike stack passes or pressure passes where weight is directed straight down through the opponent's center mass, the passer's chest pressure is diagonal rather than directly vertical, and the hips must remain capable of circling rather than being posted in a static position. This creates a dynamic pass where the passer constantly moves around an axis (the trapped leg) rather than driving through a fixed point. The body positioning is lower and tighter to the opponent compared to long-step or toreando passes, but more mobile than smash or knee slice variations.",
         "distractors": {
           "plausible": [
@@ -339,7 +339,7 @@
         "answer_line": "Knee pant grip or two-on-one"
       },
       {
-        "question": "Your opponent begins inserting a butterfly hook as you initiate the drag - what immediate adjustment prevents guard recovery?",
+        "question": "They insert a butterfly hook as you start the leg drag. What adjustment stops guard recovery?",
         "answer": "Immediately increase downward pressure on the trapped leg while your free hand strips or flattens the hooking foot. Drive your shin across their thigh to pin the butterfly hook flat to the mat rather than allowing it to elevate under your hip. If the hook gets too deep, transition to a smash passing approach by driving your shoulder into their chest while using your shin to flatten both of their legs. The critical timing window is the first second of hook insertion — once established, the butterfly hook creates significant sweep and retention threats.",
         "distractors": {
           "plausible": [
@@ -381,7 +381,7 @@
         "answer_line": "Grips won, guard open, base set"
       },
       {
-        "question": "If your leg drag attempt is blocked and you cannot complete the pass, what chain attacks maintain your passing pressure?",
+        "question": "Your leg drag is blocked. What chain attacks keep your passing pressure alive?",
         "answer": "Chain into a knee slice, toreando, or long step, or reset to headquarters — never return to neutral. The primary chains are: (1) Transition to knee slice pass by cutting your knee across their bottom leg when they successfully frame against the drag; (2) Switch to toreando pass by releasing the drag, gripping both pant legs, and throwing their legs to the opposite side; (3) Convert to a long step pass by stepping over their bottom leg while maintaining collar control; (4) Accept headquarters position by backing out slightly while maintaining leg control, resetting to threaten multiple passing options. The key principle is that every blocked attempt should flow into another passing threat rather than disengaging completely.",
         "distractors": {
           "plausible": [
@@ -395,7 +395,7 @@
         "answer_line": "Chain to knee slice or toreando"
       },
       {
-        "question": "How do you recognize the optimal timing window to initiate a leg drag against an active guard player?",
+        "question": "How do you recognize the best timing window to start a leg drag on an active guard player?",
         "answer": "Attack the moment the opponent commits to an action that temporarily compromises their guard retention structure. The optimal windows occur when: (1) They reach for grips, momentarily removing their defensive frames; (2) They push with feet on hips to create distance, extending their legs into range for the drag; (3) They shift weight to one hip while attempting a sweep or guard transition; (4) They look away or become mentally focused on setting up their own attack. Elite passers develop the ability to bait these reactions through feints and pressure changes, creating timing windows rather than waiting for them.",
         "distractors": {
           "plausible": [
@@ -553,7 +553,7 @@
         }
       },
       {
-        "question": "Your opponent has dragged your leg across your centerline and is beginning to settle chest pressure - what is your priority sequence?",
+        "question": "They dragged your leg across and are settling chest pressure. What is your priority sequence?",
         "answer": "The priority sequence is: (1) Establish a forearm frame on their near shoulder to prevent them from fully settling their chest weight on your trapped leg; (2) Hip escape away from them to create space between your body and their chest; (3) Use the space created to bend your trapped knee and drive it back toward your own chest, pulling the leg back toward centerline; (4) If full leg recovery fails, immediately insert your free knee as a shield between your body and their chest to recover half guard. The critical principle is that you must create space through framing and hip movement before attempting leg recovery - trying to pull the leg back without first disrupting their pressure will fail against any competent passer.",
         "answer_line": "Frame, hip escape, recover knee",
         "distractors": {
@@ -567,7 +567,7 @@
         }
       },
       {
-        "question": "Why is inserting a knee shield a strong defensive recovery against a deep leg drag, and how do you execute it?",
+        "question": "Why is a knee shield a strong recovery against a deep leg drag, and how do you execute it?",
         "answer": "Knee shield recovery works because it creates a structural barrier between the passer's chest and your torso that they cannot simply pressure through. Even though you have conceded the drag position, the knee shield prevents side control consolidation and gives you a strong defensive platform from half guard. To execute it, hip escape slightly to create a gap between your body and the passer's advancing chest, then drive your inside knee upward into the space, positioning your shin across their chest or abdomen. Immediately clamp your legs on their near leg to establish half guard. From this position, you have legitimate sweep threats and can systematically work to re-guard.",
         "answer_line": "Shield knee across their chest",
         "distractors": {
@@ -595,7 +595,7 @@
         }
       },
       {
-        "question": "How should you adjust your defense when you recognize the passer is transitioning from leg drag to back take?",
+        "question": "How do you adjust when the leg drag passer is switching to a back take?",
         "answer": "When the passer begins transitioning to back take (you feel them reaching for your far shoulder to establish seat belt rather than settling into side control), you must immediately stop any defensive turning that exposes your back and instead turn toward them aggressively. Use your inside elbow to block their underhook attempt while simultaneously hip escaping to create space for guard re-insertion. If they have partially established the seat belt, prioritize getting your back to the mat rather than trying to face them, as a flat-back position prevents hook insertion. The worst response is continuing to turn away, which gives them exactly the back exposure they are seeking.",
         "answer_line": "Turn in, block the underhook",
         "distractors": {

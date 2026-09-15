@@ -287,7 +287,7 @@
         }
       },
       {
-        "question": "Your opponent has established one hook while you are in turtle - how do you adjust your guard recovery approach?",
+        "question": "They get one hook in while you are in turtle. How do you adjust your guard recovery?",
         "answer": "With one hook in, immediately address the hook before attempting rotation. Trap the hooking foot by clamping your hand on their ankle or heel, then extract your hip away from the hook side by shifting laterally. Once the hook is controlled, you have two primary options: sit through to the hook side to trap their leg in half guard, using their own hook against them, or rotate to the opposite side where the hook provides less control. The sit-through option is often higher percentage because you convert their offensive hook into your half guard entanglement. Never attempt a full rotation with an unaddressed hook as opponent will follow your movement directly into back control.",
         "answer_line": "Trap the hook, then react",
         "distractors": {
@@ -301,7 +301,7 @@
         }
       },
       {
-        "question": "What specific grip must you strip first when opponent attempts seat belt control from turtle, and in which direction do you apply force to break it?",
+        "question": "Which seat belt hand do you strip first from turtle, and in what direction do you break it?",
         "answer": "Strip the choking hand first, which is the arm that passes over your shoulder toward your neck. This is the higher-priority threat because it enables rear naked choke attacks. To break this grip, use both hands in a two-on-one configuration, peeling their wrist away from your chest by pushing their hand toward their thumb line, which is the weakest axis of any grip. Push diagonally downward and away from your neck rather than straight out. Once the choking hand is stripped, the under-arm harness hand loses most of its offensive threat and becomes easier to manage, creating the window for your rotation.",
         "answer_line": "Strip choking hand toward thumb",
         "distractors": {
@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "Your rotation succeeds but opponent immediately drives forward with a cross-face as you land on your back - what is your immediate response?",
+        "question": "Your rotation to guard works but they drive a cross-face as you land. Immediate response?",
         "answer": "Frame immediately with your forearm across their neck and jawline to stop the cross-face from flattening you. Simultaneously, use your opposite hand to grip their sleeve or wrist on the cross-facing arm to prevent them from driving through. Your legs must be active, locking closed guard immediately if possible to pull them off-base. If closed guard is not available, establish a knee shield with your near-side knee against their chest or hip to create distance. The cross-face only works if they can drive your head sideways, so your frame must address the head pressure first. Once stabilized, threaten a sweep or submission to stop their forward momentum rather than playing purely defensive.",
         "answer_line": "Frame face, grip arm, active legs",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "In which direction should you drive off your outside leg during the explosive rotation, and why is this biomechanically important?",
+        "question": "Which direction do you drive your outside leg in the turtle-to-guard rotation, and why?",
         "answer": "Drive off the outside leg in a diagonal direction, pushing backward and toward the opposite hip. This creates angular momentum that rotates your entire body as a unit rather than just twisting your torso. The outside leg acts as a pivot lever, and the diagonal push generates rotational force through your pelvis and core that turns you to face the opponent. Pushing straight back only creates linear motion without rotation, while pushing purely laterally does not generate enough turning force. The diagonal vector maximizes both the rotational component and the space creation, allowing your inside knee to thread between you and opponent as your hips turn underneath your body.",
         "answer_line": "Diagonal drive, outside leg back",
         "distractors": {
@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "Your first rotation attempt fails and opponent sprawls to flatten you - what chain of techniques can you use to still recover guard?",
+        "question": "Your turtle rotation fails and they sprawl to flatten you: what technique chain recovers guard?",
         "answer": "After a failed rotation against a sprawl, chain into a hip escape sequence by shrimping your hips away from the pressure side to create an angle. From this angled position, establish an elbow-knee frame on the flattened side to prevent them from re-centering their weight. If the frame creates enough space, attempt a second rotation from the new angle. If still pinned, transition to a granby roll by rolling over the shoulder opposite to their pressure, using their forward commitment against them. If the granby is also blocked, switch to a technical standup by posting your near-side hand on the mat, stepping your far-side foot forward, and driving up explosively. The key principle is never resting after a failed attempt but immediately chaining into the next option.",
         "answer_line": "Shrimp, frame, granby, stand",
         "distractors": {
@@ -371,7 +371,7 @@
         }
       },
       {
-        "question": "How do you decide between recovering to Closed Guard versus Half Guard versus Butterfly Guard during the rotation?",
+        "question": "Rotating out of turtle, how do you choose closed, half, or butterfly guard?",
         "answer": "The decision depends on opponent's positioning and distance during your rotation. If opponent is close and squared up with their hips between your legs as you complete rotation, Closed Guard is ideal because you can immediately lock your ankles behind their back. If one of opponent's legs is trapped or blocked during rotation, or they are offset to one side, Half Guard becomes the natural position since your inside leg is already between you. If opponent is more upright with space between your hips and theirs, Butterfly Guard with hooks inside their thighs provides better distance management and immediate sweep threats. Consider your personal strengths as well: if your Half Guard game is strongest, thread your leg intentionally during rotation.",
         "answer_line": "Match guard to opponent's angle",
         "distractors": {
@@ -385,7 +385,7 @@
         }
       },
       {
-        "question": "Your opponent shifts their weight to your left side to set up a back take - what is the optimal timing window this creates for your guard recovery?",
+        "question": "They shift weight to your left to take your back: which way and when do you rotate out of turtle?",
         "answer": "When opponent shifts weight to your left side, their right side becomes light and unsupported, creating an immediate timing window to rotate toward their right. The moment you feel their weight commit laterally is the optimal window because they cannot redirect their mass quickly enough to follow your rotation in the opposite direction. Execute the hip shift to your right simultaneously with their left-side weight commitment, then drive off your left leg to rotate toward the light side. This window lasts only a fraction of a second before they can readjust, so the rotation must be pre-loaded and explosive. Their lateral weight shift also means their hooks and grips are strongest on the committed side and weakest on the escape side.",
         "answer_line": "Rotate toward the light side",
         "distractors": {
@@ -519,7 +519,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that the bottom player is about to attempt a turtle to guard rotation?",
+        "question": "What is the earliest cue that the turtle bottom player is starting a rotation to guard?",
         "answer": "The earliest cue is a subtle lateral hip shift where the bottom player pushes their hips away from your primary weight. This creates a small gap that precedes any rotational movement. You may feel this as a slight decrease in pressure contact on one side of your chest. This hip shift is mechanically necessary before rotation can occur, so recognizing it gives you the maximum time window to counter by matching their shift with your own weight adjustment or by driving forward to collapse their base before the rotation can develop.",
         "answer_line": "Subtle lateral hip shift",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "Your opponent begins an explosive rotation and you cannot prevent it - how do you convert this into back control rather than losing position?",
+        "question": "They rotate explosively out of turtle and you can't stop it: how do you still take the back?",
         "answer": "Stay connected with your chest to their back throughout their rotation rather than trying to stop it. As they turn, your body follows their movement, keeping the seatbelt grip tight. Their rotation actually helps you insert your near-side hook because as they open their hips to face you, space appears for your foot to thread inside their thigh. Drive your hips forward into their back as they turn, using the rotational momentum to land with at least one hook already in place. The key is abandoning the idea of preventing the turn and instead using their movement as your back control entry sequence.",
         "answer_line": "Stay connected, insert hook",
         "distractors": {
@@ -547,7 +547,7 @@
         }
       },
       {
-        "question": "How do you determine whether to sprawl and flatten versus following rotation for a back take when the bottom player initiates escape?",
+        "question": "On turtle top, what decides between sprawling to flatten and following their rotation to the back?",
         "answer": "The decision depends on your current grip and hook status. If you have strong seat belt control with at least one hook secured, follow the rotation because you can convert it to full back control. If you have upper body grips but no hooks, sprawl and flatten because you lack the leg control to follow effectively and need to reset. If the bottom player's escape is in its earliest phase with just a hip shift, sprawl to prevent it entirely. If they have already committed to full explosive rotation and created significant space, following is the better option because the sprawl will not catch them in time.",
         "answer_line": "Follow if hooks are secured",
         "distractors": {
@@ -561,7 +561,7 @@
         }
       },
       {
-        "question": "The bottom player is hand fighting aggressively and has stripped your seat belt grip - what is your immediate priority?",
+        "question": "On turtle top, they strip your seatbelt while hand fighting: what is your immediate priority?",
         "answer": "Your immediate priority is re-establishing upper body control before they can rotate. Drop your weight heavily through your chest onto their upper back to compensate for lost grip control. Use your freed hands to either re-establish the seat belt from a different angle, secure double underhooks by driving your arms under their armpits, or transition to a front headlock by circling toward their head. Do not attempt to insert hooks while your upper body control is compromised, as the bottom player will use the distraction to rotate. Chest pressure buys you time while you work to re-establish dominant grips.",
         "answer_line": "Drop weight, rebuild grips",
         "distractors": {
@@ -575,7 +575,7 @@
         }
       },
       {
-        "question": "What adjustment should you make when the bottom player attempts a sit-through to half guard rather than a full rotation to closed guard?",
+        "question": "On turtle top, how do you adjust when they sit through to half guard instead of rotating fully?",
         "answer": "When you feel the bottom player sitting their hip to the mat rather than rotating fully, immediately shift your weight to the side they are sitting toward and drive your near-side knee across their hip line to prevent them from threading their leg between you. If their sit-through has already progressed, follow by walking your hips around their body toward their head, transitioning to a front headlock or maintaining top quarter position rather than allowing them to settle into half guard with an underhook. The sit-through is faster than a full rotation but travels less distance, so your window for counter-action is shorter but you need to cover less ground to maintain control.",
         "answer_line": "Block hip line, drive knee across",
         "distractors": {

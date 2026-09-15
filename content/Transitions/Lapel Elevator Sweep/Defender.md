@@ -56,7 +56,7 @@ description: "How to defend against Lapel Elevator Sweep in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three elements your opponent must establish before the Lapel Elevator Sweep becomes dangerous?",
+      "name": "Which three elements must your opponent establish for the Lapel Elevator Sweep to threaten you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three elements are lapel tension (fabric wrapped around your body with constant pulling force), butterfly hook placement (positioned high on your inner thigh as the elevation fulcrum), and sleeve or wrist control (preventing your posting hand from basing out). If you remove any single element, the compound lever system cannot function and the sweep loses most of its effectiveness."
@@ -72,7 +72,7 @@ description: "How to defend against Lapel Elevator Sweep in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the full lapel configuration with hook and sleeve grip—what is your last-resort defensive option?",
+      "name": "They have full lapel, hook and sleeve grip for the elevator sweep — what is your last resort?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free hand as wide as possible on the non-controlled side and drive your hips forward and down into the opponent to flatten the elevation angle. Simultaneously begin a backstep motion to navigate around the lapel barrier. Accept that you may expose your posting arm to omoplata—this is a calculated risk preferable to being swept cleanly to mount, which is a significantly worse positional outcome."

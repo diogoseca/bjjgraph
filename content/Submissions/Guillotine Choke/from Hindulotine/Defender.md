@@ -58,7 +58,7 @@ description: "Defend against the guillotine choke from Hindulotine. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that a Hindulotine guillotine is being set up rather than a standard guillotine?",
+      "name": "How do you recognize a Hindulotine setup rather than a standard guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key differentiator is the attacker's hip angle. In a standard guillotine, the attacker's body stays relatively square or pulls straight back. In the Hindulotine, you will feel the attacker's hips rotating to create a perpendicular angle to your spine, generating a twisting pressure on your neck rather than straight downward pull. The rotational component creates simultaneous pressure on both carotid arteries from a diagonal angle."

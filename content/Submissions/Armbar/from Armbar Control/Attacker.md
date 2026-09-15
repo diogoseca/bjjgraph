@@ -84,7 +84,7 @@ description: "How to execute the Armbar Finish in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands together in an S-grip to prevent arm extension—what are your options to break this defense?",
+      "name": "In armbar control, they S-grip their hands to block extension — how do you break that defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the grip systematically: first, maintain hip bridge pressure to fatigue their grip over 5-10 seconds. If that fails, use one hand to peel their top hand's fingers while the other hand maintains wrist control. You can also wedge your wrist into the crease of their elbow to create a bicep slicer threat that forces them to release. A fourth option is switching to figure-four grip control and using rotational torque rather than linear extension to break the clasp."
@@ -92,7 +92,7 @@ description: "How to execute the Armbar Finish in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What anatomical structure does the armbar finish attack and what is the primary force-generating movement?",
+      "name": "Which joint does the armbar finish attack, and what movement generates the force?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The armbar finish attacks the elbow joint, specifically hyperextending it against the collateral ligaments (ulnar and radial) and the annular ligament. The primary force-generating movement is the glute bridge driving hips toward the ceiling. The pubic bone acts as the fulcrum positioned behind the opponent's elbow, and hip elevation creates the hyperextension vector. This engages the largest muscle groups (glutes, hamstrings, core) rather than relying on arm strength, making the finish sustainable and powerful."
@@ -100,7 +100,7 @@ description: "How to execute the Armbar Finish in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the hitchhiker escape by rotating their thumb toward their head—what is your immediate response?",
+      "name": "They start the hitchhiker escape from your armbar control — what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clamp your top leg (the one crossing their face) tighter against their neck to block the rotational escape. If they continue turning, you have two options: follow their rotation by transitioning to a belly-down armbar position while maintaining grip, or abandon the armbar and swing your chest-side leg over their head to enter triangle control, which their turning motion actually facilitates. Do not try to force the standard finish against an active hitchhiker escape."

@@ -74,7 +74,7 @@ description: "Execute the S Mount to Mounted Triangle transition with precision.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands together to defend the armbar from S Mount - what is the optimal next action?",
+      "name": "They clasp their hands to stop your S-mount armbar—what's your best next action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to the mounted triangle by threading your head-side leg under their chin. Their clasped hands fix both arms in a bent position that is ideal for the triangle trap. Maintain wrist control on the near arm, adjust your hip angle slightly toward their head, and slide your calf under their chin. Their armbar defense has created the perfect opening for the triangle, and attempting to break their grip for the armbar is lower percentage than accepting the triangle gift."
@@ -98,7 +98,7 @@ description: "Execute the S Mount to Mounted Triangle transition with precision.
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand against your hip to block the leg threading motion - how do you adjust?",
+      "name": "They post a hand on your hip to block the leg thread—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Control their blocking arm by pinning it with your near hand or pushing it across their centerline. The arm push variant is particularly effective here: drive their forearm across their body toward the far side, which simultaneously removes the blocking frame and positions the arm inside the triangle space. If they resist the arm push strongly, switch to controlling their wrist and peeling it off your hip before re-attempting the thread. Never force the leg past a strong frame."
@@ -114,7 +114,7 @@ description: "Execute the S Mount to Mounted Triangle transition with precision.
     },
     {
       "@type": "Question",
-      "name": "The opponent begins a powerful bridge just as you start adjusting your hip angle - what is your immediate response?",
+      "name": "They bridge hard as you adjust hip angle for the mounted triangle—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free foot wide on the mat on the side they are bridging toward to create a structural brace against their upward force. Drive your hips back down into their shoulder to re-establish the weight connection. If the bridge is powerful enough to seriously compromise your base, abandon the triangle attempt entirely and drop back to standard mount to consolidate. Never continue the threading motion from an unstable base, as this almost always results in being swept to half guard bottom or worse."

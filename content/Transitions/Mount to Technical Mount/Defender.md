@@ -64,7 +64,7 @@ description: "Defend against the Mount to Technical Mount transition in BJJ. Lea
     },
     {
       "@type": "Question",
-      "name": "Why should you bridge toward the posted leg side rather than the hook side when trying to disrupt the transition?",
+      "name": "Why bridge toward the posted-leg side rather than the hook side to disrupt technical mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posted leg creates a wide but less rooted base compared to the hook side. The hook actively pulls your hips and provides the attacker with dynamic balance, making it difficult to disrupt from that direction. The posted leg relies on the foot being flat on the mat for stability—a forceful bridge toward this side creates angular pressure that the attacker must catch with their posted foot, which is harder to adjust during the transition. Bridging toward the posted leg attacks the weakest point in the attacker's base structure."
@@ -72,7 +72,7 @@ description: "Defend against the Mount to Technical Mount transition in BJJ. Lea
     },
     {
       "@type": "Question",
-      "name": "Your arms are controlled and technical mount is fully established—what is your immediate defensive priority?",
+      "name": "Technical mount is set and your arms are controlled — what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Protect the near-side arm from extension at all costs. Keep the elbow bent and glued to your ribs, using your free hand to grip your own wrist or collar for reinforcement. The attacker's primary goal from technical mount is armbar, which requires extending your arm. Every defensive action should prioritize keeping that arm bent and tight. Secondary priority is preventing the attacker from establishing wrist control on the trapped arm. If both fail, prepare for armbar defense by immediately fighting to sit up and stack as the attacker begins the swing-over."
@@ -88,7 +88,7 @@ description: "Defend against the Mount to Technical Mount transition in BJJ. Lea
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between defending this transition versus escaping from established technical mount?",
+      "name": "How does defending the technical mount entry differ from escaping it once established?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defending the transition targets the brief window of instability during the attacker's weight shift and leg posting, when their base is compromised and they are between positions. This requires reading the setup cues and reacting within a 1-2 second window. Escaping established technical mount is significantly harder because the attacker has consolidated their base, inserted the hook, and likely begun isolating your arm for submission. Prevention during the transition has roughly double the success rate of escape after establishment, making recognition and early reaction the highest priority."

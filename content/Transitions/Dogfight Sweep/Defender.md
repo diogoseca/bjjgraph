@@ -64,7 +64,7 @@ description: "Defensive guide against the Dogfight Sweep. Recognition cues, whiz
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already gripped your far knee and is driving forward—what is your last-resort defense?",
+      "name": "They've gripped your far knee and are driving: what is your last-resort dogfight sweep defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the sweep is mid-execution, your best last-resort option is to post your far hand on the mat behind you while simultaneously driving your hips back into the sweeper with maximum sprawl pressure. The hand post creates a temporary third base point that can stall the topple long enough for you to strip their far leg grip with your whizzer-side hand or circle your hips away. If the sweep is too far advanced for this, consider turning into the sweep direction and accepting turtle position rather than being swept cleanly to your back."
@@ -80,7 +80,7 @@ description: "Defensive guide against the Dogfight Sweep. Recognition cues, whiz
     },
     {
       "@type": "Question",
-      "name": "After successfully defending the Dogfight Sweep and remaining in Dogfight position, how should you capitalize?",
+      "name": "You stuff the dogfight sweep and stay in dogfight on top: how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition from defense to offense after a successful sweep defense. The sweeper has committed energy to a failed attempt and is momentarily off-balance or restructuring. Drive forward with crossface pressure to flatten them back to half guard bottom before they can set up another attack. Strip their underhook by swimming your arm inside during the moment of transition. If you can flatten them and establish crossface control, you have effectively turned their offensive Dogfight into your passing opportunity."

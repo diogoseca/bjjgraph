@@ -56,7 +56,7 @@ description: "Complete guide to defending against Z-Lock Half Guard passing atte
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your highest priority defensive action when you feel the passer beginning to establish crossface pressure?",
+      "name": "Bottom Z-lock: what is your top defensive priority as the passer starts establishing the crossface?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately fight for the underhook on the trapped leg side by threading your arm deep past their armpit toward their back or belt. The underhook prevents the passer from completing the crossface and gives you the primary offensive tool for sweeps and back takes. If the crossface is established before you can get the underhook, use your nearside arm to frame against their shoulder and create enough space to begin working the underhook back in."
@@ -64,7 +64,7 @@ description: "Complete guide to defending against Z-Lock Half Guard passing atte
     },
     {
       "@type": "Question",
-      "name": "The passer has broken your lockdown hook but your butterfly element is still active. What is your best immediate response?",
+      "name": "Bottom Z-lock: lockdown broken but your butterfly hook is still in. What is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately attempt to re-hook the lockdown before the passer transitions to addressing the butterfly component. The brief moment between lockdown strip and butterfly neutralization is your best window. If re-hooking fails, use the butterfly hook aggressively to sweep or elevate before they can compress it flat. If neither works, transition to standard butterfly half guard or deep half guard rather than fighting from a half-Z-Lock position with reduced defensive options."
@@ -72,7 +72,7 @@ description: "Complete guide to defending against Z-Lock Half Guard passing atte
     },
     {
       "@type": "Question",
-      "name": "How do you recognize the optimal moment to attempt a sweep counter during the Z-Lock passing sequence?",
+      "name": "Defending Z-lock half guard, how do you recognize the best moment to counter with a sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal sweep window occurs when the passer shifts their weight forward and down to drive their trapped knee extension for the lockdown break. This forward weight commitment temporarily compromises their lateral base, making them vulnerable to butterfly hook elevation and old school sweep entries. Watch for the passer lightening their free leg post or shifting their center of gravity past your hip line. These are the moments where their forward momentum can be redirected into a sweep."

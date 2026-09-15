@@ -56,7 +56,7 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest physical cues that indicate a bottom player is about to attempt a turtle to standing escape?",
+      "name": "On turtle top, what are the earliest cues they are about to attempt a stand-up escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are weight redistribution from four evenly distributed points to loading onto one hand and one knee in preparation for posting. You will feel the bottom player's hips begin to coil as their knees draw under their hips rather than staying wide. They may also initiate aggressive grip stripping on one side to clear space for their posting arm, or subtly shift their head position to look toward their intended escape direction. These pre-commitment cues occur one to two seconds before the explosive phase and represent your primary defensive window."
@@ -64,7 +64,7 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is upper body control more effective than lower body control for preventing the turtle to standing escape?",
+      "name": "Why does upper body control beat leg control for stopping their turtle stand-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The stand-up is powered by explosive hip extension and leg drive, which generates far more force than you can counter by holding legs or hips alone. Upper body control through seatbelt, harness, or front headlock grips prevents the bottom player from extending their spine and completing the upward movement even if their legs drive successfully. Additionally, upper body control keeps you connected to the most dangerous part of their movement, allowing you to follow them to back control if they partially stand, whereas lower body grips often break under the explosive force and leave you disconnected."
@@ -72,7 +72,7 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent partially stands with one foot planted but you still have chest pressure on their back - how do you convert this to back control?",
+      "name": "They partly stand from turtle but you still have chest pressure: how do you get back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lock the seatbelt immediately by shooting your choking arm under their chin and clasping your harness grip. Stay glued to their back with your chest maintaining contact and insert the near-side hook by threading your foot inside their planted leg's thigh. Use your body weight to pull them backward and down to the mat, or if they continue rising, ride their movement to standing back control. The critical action is securing the harness before they create distance, because once the seatbelt is locked, their standing does not escape your control but rather transitions the position from turtle back control to standing back control."
@@ -80,7 +80,7 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your strategy if the bottom player repeatedly feints stand-ups to set up alternative escapes?",
+      "name": "They repeatedly feint turtle stand-ups to set up other escapes: how do you adjust from top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a player using stand-up feints, shift your defensive priority from reactive weight driving to proactive grip establishment. If they keep feinting, use that time to systematically lock seatbelt control, which prevents both the genuine stand-up and most alternative escapes. Keep your pressure controlled rather than lunging forward on each feint, maintaining base with at least one knee grounded. Read the difference between a feint and a genuine attempt by the degree of hip commitment: genuine stand-ups involve full hip loading while feints involve only upper body movement. Once you have seatbelt secured, their feinting becomes irrelevant as you control the position."

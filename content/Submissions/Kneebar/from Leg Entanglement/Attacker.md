@@ -76,7 +76,7 @@ description: "How to execute the kneebar from leg entanglement in BJJ. Complete 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must you apply kneebar pressure progressively over 5-7 seconds in training rather than explosively?",
+      "name": "Why apply kneebar pressure progressively over 5-7 seconds in training instead of explosively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive application of the kneebar can cause immediate catastrophic knee injury including PCL tears, MCL ruptures, and meniscus damage before your training partner has time to recognize the danger and tap. The knee joint is extremely vulnerable to hyperextension, and unlike many other submissions, there is minimal safe zone between no pressure and injury threshold. Progressive application over 5-7 seconds allows your partner to feel the increasing danger and tap safely, preventing serious injuries that require surgery and months of recovery. This is especially critical from leg entanglement where the control is already established and finishing pressure can be applied very quickly."
@@ -84,7 +84,7 @@ description: "How to execute the kneebar from leg entanglement in BJJ. Complete 
     },
     {
       "@type": "Question",
-      "name": "What is the most critical positional element that determines kneebar success or failure from leg entanglement?",
+      "name": "What positional element most determines kneebar success from leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The perpendicular hip positioning is the most critical element. Your body must form a T-shape with opponent's trapped leg, with your spine at a 90-degree angle to their femur and your fulcrum positioned directly above their kneecap. This perpendicular angle creates the proper lever geometry for hyperextension and prevents opponent from sitting up or turning to face you. From leg entanglement, achieving this angle requires a deliberate hip pivot during the transition from ashi garami hooks to kneebar positioning. Without this angle, the finishing pressure dissipates laterally instead of driving through the knee joint."
@@ -92,7 +92,7 @@ description: "How to execute the kneebar from leg entanglement in BJJ. Complete 
     },
     {
       "@type": "Question",
-      "name": "Why must you maintain tight heel control throughout the kneebar, and what happens if the heel rotates during application?",
+      "name": "Why keep the heel locked tight in the kneebar, and what happens if it rotates under pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tight heel control is essential because any space between the heel and your chest allows escape and eliminates the distal anchor point of the lever. More critically, if the heel rotates or turns during pressure application, it introduces dangerous rotational torque to the knee joint. This rotation attacks the ACL in addition to the PCL already under hyperextension stress, creating a compound loading mechanism that can cause simultaneous multi-ligament injury. The heel must be locked tightly to your chest with toes pointing straight away, controlled rigidly by both arms in a prayer grip. If rotation begins under load, release all pressure immediately."
@@ -116,7 +116,7 @@ description: "How to execute the kneebar from leg entanglement in BJJ. Complete 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins straightening their leg to defend your heel hook from ashi garami - how do you recognize and execute the transition to kneebar?",
+      "name": "Your opponent straightens their leg against your ashi heel hook: how do you enter the kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The moment you feel opponent extending their leg against your entanglement hooks, recognize this as the kneebar window opening. Their defensive straightening creates exactly the leg extension the kneebar requires. Immediately release your heel hook grip configuration and transition to controlling their full lower leg by pulling the heel toward your chest. Simultaneously pivot your hips perpendicular to their now-extended leg. The key is maintaining your existing entanglement hooks during this grip transition to prevent them from retracting. Lock the figure-four leg triangle around their thigh before releasing the ashi garami hooks, ensuring continuous control throughout."

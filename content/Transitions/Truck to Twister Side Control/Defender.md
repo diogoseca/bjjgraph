@@ -56,7 +56,7 @@ description: "Defend the Truck to Twister Side Control transition in BJJ. Learn 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest physical cues that indicate the attacker is initiating the Transition to Twister Side Control?",
+      "name": "What are the earliest cues they're moving from truck to twister side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are: the attacker's chest lifts slightly and begins sliding from your upper back toward your near shoulder, they release upper body grips such as wrist control or chin strap to free their hands for rotation support, and their boot pressure angle shifts as they begin adjusting the leg hook orientation. Recognizing these cues before the rotation progresses is critical because defensive options decrease dramatically once the attacker reaches the lateral position."
@@ -64,7 +64,7 @@ description: "Defend the Truck to Twister Side Control transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "Why is the transition period itself the best defensive window rather than after the attacker arrives in Twister Side Control?",
+      "name": "Why defend during that rotation rather than after twister side control is set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the attacker's control is in flux—they have released truck-specific grips but have not yet established twister side control grips. Their weight is moving and their balance is less stable than in either static position. Their attention is divided between completing the rotation, maintaining the leg hook, and establishing new control points. This divided attention and transitional instability creates openings for frames, granby rolls, and leg extraction that are unavailable once twister side control is fully consolidated."
@@ -72,7 +72,7 @@ description: "Defend the Truck to Twister Side Control transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "Your trapped leg is still entangled and the attacker has nearly completed the rotation—what is your priority?",
+      "name": "Your leg is still entangled and they've nearly finished the rotation—what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority shifts to preventing the attacker from establishing shoulder-to-mat pressure. Use your near arm to frame against their chest or shoulder as they arrive in the lateral position, keeping your shoulder off the mat. Without shoulder pressure, the attacker cannot consolidate twister side control even with the leg entanglement. This buys time to address the leg hook from a position where spinal submissions are not yet mechanically available."

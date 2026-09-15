@@ -56,7 +56,7 @@ description: "How to prevent and counter the Transition to Z-Guard from top posi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest physical cues that indicate the bottom player is about to attempt the Z-Guard transition?",
+      "name": "Passing knee shield: earliest cues the bottom player is about to switch to Z-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are hip movement and grip adjustment. A short bridge or lateral hip escape creates the space needed for knee elevation, and this always precedes the knee movement itself. Additionally, the bottom player will often release a controlling grip momentarily to establish a deeper underhook or collar tie, which signals preparation for the transition. Recognizing these pre-movement indicators allows you to respond before the knee begins traveling."
@@ -64,7 +64,7 @@ description: "How to prevent and counter the Transition to Z-Guard from top posi
     },
     {
       "@type": "Question",
-      "name": "Why is it important to prevent the Z-Guard transition rather than just dealing with Z-Guard once it is established?",
+      "name": "Why prevent the Z-guard transition rather than just passing Z-guard once it is set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Z-Guard is significantly harder to pass than standard knee shield half guard. The elevated frame creates better distance, superior sweep angles, and direct back take access. Preventing the transition keeps the bottom player in a less advantageous position where your passing strategies are more effective. Additionally, the bottom player builds momentum through successful transitions, and each positional upgrade increases their confidence and offensive output."
@@ -72,7 +72,7 @@ description: "How to prevent and counter the Transition to Z-Guard from top posi
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins hip escaping and you feel their knee shield starting to creep upward. What is your immediate response sequence?",
+      "name": "They hip escape and their knee shield creeps upward—what is your immediate response sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, drive your hips forward to apply a pressure surge that opposes their hip escape direction. Second, use your near hand to control their knee shield leg at the knee, pressing it downward to prevent further upward travel. Third, establish or re-establish your crossface with the far hand to limit their upper body mobility. The combination of forward pressure, leg control, and crossface addresses all three mechanical requirements the bottom player needs for a successful elevation."

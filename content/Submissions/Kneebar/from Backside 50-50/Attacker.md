@@ -76,7 +76,7 @@ description: "How to execute the kneebar from Backside 50-50 in BJJ. Setup, exec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the kneebar from Backside 50-50 primarily attack, and what is the mechanism of injury?",
+      "name": "Which structure does the Backside 50-50 kneebar primarily attack, and by what injury mechanism?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kneebar primarily attacks the posterior cruciate ligament (PCL) through hyperextension of the knee joint. The mechanism involves positioning your lower abdomen or hip flexors as a fulcrum point just above the opponent's kneecap, then extending your hips upward to create a lever that forces the knee beyond its natural range of extension. Secondary structures at risk include the medial and lateral collateral ligaments, which resist valgus and varus stress respectively, and the menisci, which can tear under compressive or rotational forces if the heel is not properly controlled during application."
@@ -84,7 +84,7 @@ description: "How to execute the kneebar from Backside 50-50 in BJJ. Setup, exec
     },
     {
       "@type": "Question",
-      "name": "Why is the kneebar from Backside 50-50 considered higher percentage than kneebar entries from open guard positions?",
+      "name": "Why is the kneebar from Backside 50-50 higher percentage than kneebar entries from open guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Backside 50-50 entry provides three inherent advantages that open guard entries lack. First, the opponent faces away from you and cannot see the attack developing, eliminating their visual reaction time. Second, your chest-to-back pressure restricts their hip mobility, reducing their ability to pivot, frame, or create escape angles. Third, their legs are already partially isolated within the existing 50-50 entanglement structure, meaning you start with significant control rather than building it from scratch. These combined advantages dramatically narrow the defensive window available to the bottom player."
@@ -92,7 +92,7 @@ description: "How to execute the kneebar from Backside 50-50 in BJJ. Setup, exec
     },
     {
       "@type": "Question",
-      "name": "What are the three simultaneous control points that indicate the point of no escape for the defender?",
+      "name": "Which three simultaneous controls mark the point of no escape in the Backside 50-50 kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when you have achieved three simultaneous conditions: a fully perpendicular hip angle with your abdomen positioned as a fulcrum directly above the opponent's kneecap, a locked figure-four leg triangle preventing any possibility of leg extraction, and tight heel control with the opponent's heel pulled flush against your chest eliminating all space. Once all three elements are secured and hip extension begins, the mechanical advantage is overwhelming. Prior to achieving all three, various escapes remain viable including sitting up, grip fighting, rotating the trapped leg, or stepping the free leg over your head."
@@ -100,7 +100,7 @@ description: "How to execute the kneebar from Backside 50-50 in BJJ. Setup, exec
     },
     {
       "@type": "Question",
-      "name": "Why must you apply kneebar finishing pressure progressively over 5-7 seconds rather than explosively in training?",
+      "name": "Why must you build kneebar finishing pressure over 5-7 seconds in training rather than explosively?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee joint has minimal tolerance for hyperextension, and the transition from controlled pressure to catastrophic ligament damage occurs far more rapidly than with most other submissions. Explosive application can cause immediate PCL tears, MCL ruptures, and meniscus damage before the training partner has any opportunity to recognize the danger and tap. Unlike chokes where unconsciousness provides a gradual warning, knee hyperextension produces structural failure with almost no buffer zone between safe pressure and injury. Progressive application over 5-7 seconds allows your partner to feel the increasing danger and tap safely."
@@ -108,7 +108,7 @@ description: "How to execute the kneebar from Backside 50-50 in BJJ. Setup, exec
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts hiding their heel to defend your heel hook from Backside 50-50 - how does this create the kneebar opportunity?",
+      "name": "In Backside 50-50, how does your opponent hiding their heel create the kneebar opportunity?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent hides their heel by turning the knee inward and pulling their toes toward their shin, their defensive posture straightens and exposes the knee joint to hyperextension attack. The act of hiding the heel often requires extending the leg slightly, creating the exact alignment needed for a kneebar. You exploit this by releasing the heel hook grip, immediately securing the ankle area for kneebar control, and pivoting your hips perpendicular. The opponent cannot simultaneously hide their heel from heel hook and bend their knee to defend the kneebar, creating an unsolvable dilemma."
@@ -116,7 +116,7 @@ description: "How to execute the kneebar from Backside 50-50 in BJJ. Setup, exec
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments must you make if the opponent's heel begins to rotate during kneebar finishing pressure?",
+      "name": "During your kneebar finish, their heel starts to rotate: what grip adjustments must you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the heel begins rotating, immediately stop all finishing pressure. Heel rotation during hyperextension adds rotational torque to the knee in a plane it cannot safely absorb, creating compound loading that can cause ACL tears in addition to the PCL stress from hyperextension. Reinforce your grip by bringing both elbows tight to your body, cup the heel with overlapping hands in a reinforced prayer grip, and pull the heel deeper into your armpit area for greater rotational stability. Angle their toes directly away from you and use your forearms as a rigid cage preventing any rotation before cautiously resuming progressive pressure."

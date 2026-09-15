@@ -64,7 +64,7 @@ description: "Counter the heel strip defense when attacking from Ashi Garami. Gr
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established two-on-one control on your heel-controlling wrist—what is your best response?",
+      "name": "They get two-on-one on your heel-gripping wrist in ashi — what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release and immediately re-grip from a different angle rather than fighting the two-on-one with strength. Let go of the heel with the targeted hand, circle your wrist free from their control, and re-establish your heel grip from behind their hands. Alternatively, use the moment they are focused on your wrist to advance your leg position to Saddle or Cross Ashi, where the stronger entanglement compensates for temporary grip loss."
@@ -72,7 +72,7 @@ description: "Counter the heel strip defense when attacking from Ashi Garami. Gr
     },
     {
       "@type": "Question",
-      "name": "How should you maintain offensive pressure when your heel grip has been partially stripped by the opponent?",
+      "name": "Your heel grip is partly stripped in ashi — how do you keep offensive pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition immediately to an alternative submission—straight ankle lock or toe hold—using the same leg entanglement that remains intact. The stripped heel grip means the heel hook is temporarily unavailable, but your positional control through leg entanglement remains. Apply the alternative submission to maintain offensive pressure while simultaneously working to re-establish heel control for the primary attack."

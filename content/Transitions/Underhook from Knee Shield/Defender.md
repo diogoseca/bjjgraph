@@ -50,7 +50,7 @@ description: "Master defending the Underhook from Knee Shield in BJJ. Learn reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is about to attempt the underhook from knee shield?",
+      "name": "What is the earliest cue that the knee shield player is about to go for the underhook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in the bottom player's knee shield pressure pattern—they will either push outward harder to create a reaction or begin lowering the shield subtly. Watch for their near-side elbow moving away from their body, which indicates the arm is preparing to swim inside. If their outside hand grip changes from a defensive shoulder frame to a pulling collar or sleeve grip, this signals they are transitioning from retention to offense. Recognizing these pre-movement cues gives you time to preemptively apply crossface pressure before the underhook attempt begins."
@@ -58,7 +58,7 @@ description: "Master defending the Underhook from Knee Shield in BJJ. Learn reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a partial underhook but has not come to their knees yet—what is the highest-percentage counter?",
+      "name": "They have a partial underhook from knee shield but aren't up yet: highest-percentage counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical counter window. Immediately drive your weight forward and down while establishing a strong crossface by driving your shoulder into their jaw. Simultaneously, secure a whizzer by wrapping your arm over their underhook arm and pulling your elbow toward your hip. The combination of crossface, forward pressure, and whizzer should flatten them back to the mat before they can complete the elevation to Dogfight. The key is committing your weight forward aggressively—hesitation allows them to complete the transition."
@@ -74,7 +74,7 @@ description: "Master defending the Underhook from Knee Shield in BJJ. Learn reco
     },
     {
       "@type": "Question",
-      "name": "The bottom player successfully reaches Dogfight after establishing the underhook—what is your immediate response?",
+      "name": "They reach dogfight after getting the underhook from knee shield: your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately secure a deep whizzer by wrapping your arm over and around their underhook arm, pulling your elbow tight to your hip. Drive your shoulder into their chest and attempt to flatten them back to the mat using downward and lateral pressure. If the whizzer alone is insufficient, combine it with a crossface using your other hand and circular footwork to create angles that undermine their Dogfight base. The worst response is remaining upright in a neutral Dogfight without establishing the whizzer, as this gives the bottom player full access to sweeps and back takes."

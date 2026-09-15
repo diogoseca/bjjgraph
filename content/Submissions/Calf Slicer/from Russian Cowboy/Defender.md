@@ -66,7 +66,7 @@ description: "Defend against the calf slicer from Russian Cowboy in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "When is the correct time to tap to the calf slicer from Russian Cowboy and why is early tapping important?",
+      "name": "When should you tap to the calf slicer from Russian Cowboy, and why tap early?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately when you feel the attacker's shin locked behind your knee with your foot controlled and any compression pressure beginning through their hip extension. Do not wait to see if you can escape — the calf slicer applies force extremely quickly once the fulcrum is set, and the difference between manageable pressure and tissue damage can be less than a second of additional extension. The calf muscle, Achilles tendon, and knee ligaments are all at risk, with potential injuries ranging from weeks to months of recovery. Early tapping preserves your training longevity."
@@ -74,7 +74,7 @@ description: "Defend against the calf slicer from Russian Cowboy in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "What are the primary defensive options available before the calf slicer fulcrum is fully established?",
+      "name": "What defenses are available before the calf slicer fulcrum is set from Russian Cowboy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage defense is forcefully straightening your trapped leg the moment you feel the shin rotating behind your knee, denying the bent-knee angle necessary for the fulcrum. If the leg is already partially bent, use two-on-one grip fighting to prevent the attacker from capturing your foot, which is the final control point they need. You can also hip escape away while pushing against their hooking knee to change the angle of contact. The key principle across all defenses is acting during the transition phase before the fulcrum is locked, as defenses become dramatically less effective once the foot is captured."

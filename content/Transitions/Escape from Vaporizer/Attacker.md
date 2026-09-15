@@ -88,7 +88,7 @@ description: "Learn to escape the Vaporizer in BJJ. Step-by-step guide to cleari
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives a powerful whip-up and you feel your weight shifting to one side—what is your immediate response?",
+      "name": "Vaporizer top: they whip up and your weight shifts sideways. Immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your base by sprawling your free leg further out at a 45-degree angle and drive your shoulder pressure down into the opponent's chest. Do not attempt to resist the lateral force with upper body strength—use structural positioning to create a wider, lower center of gravity that the whip-up cannot overcome. Avoid posting your hand near their hip, as this creates a leverage point for the Old School sweep. Only resume escape work once your base is stable and the whip-up motion has been neutralized through positioning."
@@ -104,7 +104,7 @@ description: "Learn to escape the Vaporizer in BJJ. Step-by-step guide to cleari
     },
     {
       "@type": "Question",
-      "name": "You begin circulating your trapped leg and your opponent posts their outside foot to initiate the Old School sweep—how do you adjust?",
+      "name": "Vaporizer top: as you circulate your leg they post for Old School. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pause the lockdown circulation and address the sweep threat. Widen your base in the direction opposite to the intended sweep and increase your crossface pressure to limit their bridging power. The Old School sweep requires them to bridge through the underhook side—heavy crossface prevents this bridge from generating sufficient force. Only resume the lockdown escape once the sweep threat has been neutralized. Accept the delay; maintaining top position takes absolute priority over escape progress."
@@ -120,7 +120,7 @@ description: "Learn to escape the Vaporizer in BJJ. Step-by-step guide to cleari
     },
     {
       "@type": "Question",
-      "name": "Your opponent suddenly releases the lockdown during your escape—what does this likely indicate and how should you respond?",
+      "name": "Vaporizer top: they suddenly release the lockdown. What does it mean and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A voluntary lockdown release usually indicates the opponent is transitioning to a back take, Truck entry, or butterfly sweep. Do not celebrate the free leg—immediately turn your hips toward the opponent and address the positional transition they are initiating. Establish a whizzer if not already in place, drive shoulder pressure into their head, and prevent them from securing the angle needed for back control. The lockdown release creates a brief scramble that favors the prepared player. If you anticipated the release and maintained upper body control, you can immediately advance to a passing position."

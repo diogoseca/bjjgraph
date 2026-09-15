@@ -116,7 +116,7 @@ description: "Master attacking the heel hook from kneebar control. Grip transiti
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip when the opponent's foot orientation makes the standard heel hook grip difficult?",
+      "name": "From kneebar control, how do you grip when the foot's orientation blocks the standard heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the heel faces away from your centerline, use your outside hand to cup the heel first, then thread your inside arm under the ankle to establish the figure-four. If the foot is tucked, apply kneebar pressure to force them to bend the knee deeper, which brings the heel into range. For stubborn foot positions, consider switching to a palm-to-palm or S-grip configuration rather than the traditional figure-four, as this requires less precise heel positioning while still generating strong rotational control."

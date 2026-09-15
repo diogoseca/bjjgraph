@@ -88,7 +88,7 @@ description: "Defend against the Transition to Leg Hook from Half Guard Bottom. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially inserted the hook but has not yet consolidated the position. What is your best option?",
+      "name": "Top player's leg hook is partly in but not consolidated — what is your best option from the bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your best option is an immediate deep half entry, as the partial hook means their weight is already shifted and space exists underneath their body. The partial hook actually helps your deep half entry because it means their leg is already partially committed in a position you can control from deep half. Alternatively, attempt a strong bridge toward the hook side before they consolidate their three-point base. Do not try to close your knees now, as the hook is already past the point where knee pinching is effective."

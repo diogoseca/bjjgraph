@@ -64,7 +64,7 @@ description: "How to defend against Explosive Bridge to Guard Recovery in BJJ. M
     },
     {
       "@type": "Question",
-      "name": "Your opponent repeatedly plants their feet and loads their hips - how do you prevent the bridge before it happens?",
+      "name": "From north-south top, how do you kill the bridge once they plant their feet and load their hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you feel them plant their feet, immediately shift your weight forward and drive chest pressure harder into their upper body. Consider transitioning toward a submission or mount attempt to force them to use their legs defensively rather than offensively. You can also control one of their legs by hooking it with your foot to disrupt their foot placement and eliminate the stable platform they need for an effective bridge."
@@ -88,7 +88,7 @@ description: "How to defend against Explosive Bridge to Guard Recovery in BJJ. M
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges powerfully and gets both hands on your hips as frames - what is your immediate recovery?",
+      "name": "They bridge from north-south bottom and frame both hands on your hips: your immediate recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not try to push through their frames with upper body strength. Instead, windshield-wiper your hips to one side to collapse one of their arm frames, then immediately drive your weight down on the side where the frame collapsed. Simultaneously walk your knees forward past their hip line to transition toward mount. If both frames are strong, circle to one side and attack the near arm with a kimura grip, which forces them to release the frame to defend the submission."

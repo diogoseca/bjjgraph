@@ -269,7 +269,7 @@
         }
       },
       {
-        "question": "Why must you escape toward the underhook side rather than the over-hook side during the rotation phase?",
+        "question": "In back escapes, why rotate toward the underhook side rather than the over-hook side?",
         "answer": "Escaping toward the underhook side reduces the opponent's choke leverage because you are turning away from the arm that crosses your neck. When you turn toward the over-hook (choking arm) side, you feed your neck deeper into their arm, tightening any choke attempt and making submission nearly unavoidable. The underhook side also provides a natural frame angle because the opponent's underhook arm is positioned to push you away rather than pull you in, creating mechanical advantage for your rotation.",
         "answer_line": "Toward underhook, away from choke",
         "distractors": {
@@ -297,7 +297,7 @@
         }
       },
       {
-        "question": "Your opponent tightens their body triangle as you begin the hip scooting phase. How do you adjust your escape?",
+        "question": "Your opponent tightens a body triangle as you start hip scooting; how do you adjust the escape?",
         "answer": "Against a body triangle, you must first address the triangle lock before standard hook removal applies. Turn your body toward the side where the triangle locks (the crossing ankle side) to reduce the squeeze pressure on your ribs and create an angle that loosens the triangle configuration. Once the squeeze is reduced, work to push their top foot past the lock point using your hands. Only after the body triangle is broken can you resume the standard hip escape scooting sequence against what are now standard hooks.",
         "answer_line": "Turn toward the locking ankle side",
         "distractors": {
@@ -339,7 +339,7 @@
         }
       },
       {
-        "question": "Your hip escape stalls after clearing one hook but the opponent maintains the second hook and re-establishes the seatbelt. What is your next action?",
+        "question": "One hook cleared, but they re-establish the seatbelt and your escape stalls; what next?",
         "answer": "Return immediately to neck defense with chin tuck and hand fighting on the re-established seatbelt arm. Do not continue the rotation with one hook still engaged and the seatbelt re-established, as this exposes your neck during the turn. Re-strip the seatbelt using two-on-one control, then continue the escape from where you stalled. With one hook already cleared, you have a significant advantage and the second hook removal should require less hip scooting. Consider chaining into the back door escape as an alternative if the opponent has adjusted their positioning.",
         "answer_line": "Return to neck defense first",
         "distractors": {
@@ -471,7 +471,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest tactile cue that indicates the bottom player is initiating a hip escape sequence?",
+        "question": "What is the earliest tactile cue that the bottom player is starting a hip escape from back control?",
         "answer": "The earliest cue is aggressive two-on-one grip fighting on your seatbelt arm (the over-hook choking arm), where the bottom player's hands shift from passive neck protection to actively pulling your wrist and forearm away from their chin. This grip fighting precedes all hip movement in the proper escape sequence, giving you an early warning to tighten your control points before the scooting phase begins. Respond immediately by deepening hooks and driving your chin into their shoulder to increase upper body pressure.",
         "answer_line": "Two-on-one grip fight on your arm",
         "distractors": {
@@ -485,7 +485,7 @@
         }
       },
       {
-        "question": "When should you abandon back control retention and transition to mount during the opponent's hip escape?",
+        "question": "During their hip escape, when do you abandon back control and take mount instead?",
         "answer": "Transition to mount when the opponent has cleared at least one hook and their hips have rotated past forty-five degrees toward you. At this point, re-establishing back control requires fighting against their established frames and cleared hooks, which is energetically expensive and low-probability. Instead, follow their rotation by driving your chest forward over their body and swinging your top leg over before they can insert a knee for half guard. The key indicator is feeling your remaining hook losing purchase as they complete the rotation.",
         "answer_line": "One hook gone, hips past 45 deg",
         "distractors": {
@@ -499,7 +499,7 @@
         }
       },
       {
-        "question": "How do you use submission threats as a defensive tool against the hip escape without compromising your positional control?",
+        "question": "How do you threaten the choke to stall their back escape without losing your control?",
         "answer": "Threaten the choke with short, controlled attacks that force the opponent to return both hands to neck defense without fully committing your own position. Slide your choking hand toward their chin line when they release your wrist to work frames, creating immediate danger that demands their attention. Do not chase the choke deep, as this requires loosening your seatbelt and hooks. The goal is not to finish the submission but to reset their escape progress back to phase one by forcing them to re-prioritize neck defense over hook removal.",
         "answer_line": "Short choke threats, don't chase",
         "distractors": {
@@ -513,7 +513,7 @@
         }
       },
       {
-        "question": "What adjustment should you make when the opponent establishes a strong forearm frame against your hip during the escape?",
+        "question": "They frame a forearm on your hip during the back escape; what adjustment do you make?",
         "answer": "Immediately address the frame before it becomes a permanent barrier. Swim your underhook arm underneath or over the top of their framing arm to neutralize the structure. Alternatively, shift your hip angle by moving to the opposite side of their frame, collapsing the mechanical advantage it provides. You can also drive your hips forward and down against the frame to overwhelm it with your body weight before they can begin the scooting sequence that the frame is designed to support.",
         "answer_line": "Swim your arm past their frame",
         "distractors": {
@@ -527,7 +527,7 @@
         }
       },
       {
-        "question": "How does your response differ when the opponent executes the body triangle variant of the hip escape versus the standard hook version?",
+        "question": "How does defending the body triangle version of the hip escape differ from the hooks version?",
         "answer": "With a body triangle, your positional control is inherently stronger because the triangle lock provides superior hip control compared to standard hooks. When the opponent turns toward the lock side to relieve squeeze pressure, follow their turn with slight adjustments but maintain the triangle lock as your primary anchor. Focus on preventing them from pushing your crossing foot past the lock point by keeping your ankles tight and driving your locking knee forward. The body triangle gives you more time to address their escape because hook removal requires breaking the triangle first, which is a significant additional step in their escape sequence.",
         "answer_line": "Triangle is stronger, hold the lock",
         "distractors": {

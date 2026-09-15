@@ -108,7 +108,7 @@ description: "How to execute Lapel Omoplata Entry in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rolling forward as you establish the omoplata—what adjustment maintains control?",
+      "name": "They roll forward as you establish the lapel omoplata — how do you keep control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the roll by maintaining your leg across their back and controlling their near hip. As they roll, you have two options: come up to mounted omoplata position for top control, or allow the roll while maintaining shoulder pressure to finish from the other side. Never release control during the roll."

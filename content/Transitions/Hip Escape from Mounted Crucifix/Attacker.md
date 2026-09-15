@@ -74,7 +74,7 @@ description: "Execute the hip escape from mounted crucifix in BJJ. Step-by-step 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must you bridge toward the trapped-arm side rather than directly upward when initiating the hip escape?",
+      "name": "In the mounted crucifix escape, why bridge toward the trapped-arm side instead of straight up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridging toward the trapped-arm side creates specific directional disruption to the opponent's base on that side while generating momentum that feeds into the subsequent hip escape in the opposite direction. A straight-up bridge allows the opponent to ride and re-settle symmetrically. The directional bridge forces them to respond to a lateral threat, and the immediate directional change to hip escape exploits the recovery lag in their balance adjustment."
@@ -90,7 +90,7 @@ description: "Execute the hip escape from mounted crucifix in BJJ. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent squeezes their knees tighter every time you bridge - how do you adjust your escape strategy?",
+      "name": "They squeeze their knees tighter each time you bridge from mounted crucifix; how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the bridge as a feint rather than the primary escape mechanism. Bridge explosively to provoke the tightening response, then immediately relax and wait for the brief loosening that naturally follows as the opponent relaxes from their defensive squeeze. Execute the hip escape during this post-tension window. Alternatively, time your escape to coincide with their submission attempts, when their focus shifts from control to attack and leg pressure naturally decreases."
@@ -98,7 +98,7 @@ description: "Execute the hip escape from mounted crucifix in BJJ. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What grip or arm position should you establish immediately after extracting your arms from the crucifix?",
+      "name": "Right after freeing your arms from the mounted crucifix, what arm position do you establish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish forearm frames against the opponent's hips and inner thighs, creating a structural barrier that prevents re-isolation of your arms. The frames should use skeletal alignment with elbows connected to your ribcage for maximum strength. Do not extend arms or reach for the opponent's upper body, as this re-exposes the arms to leg entanglement. The priority is creating a defensive structure that converts the position to standard mount bottom."
@@ -114,7 +114,7 @@ description: "Execute the hip escape from mounted crucifix in BJJ. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your escape attempt fails and you are back in mounted crucifix with depleted energy - what is your recovery strategy?",
+      "name": "Your mounted crucifix escape fails and you are exhausted; what is your recovery strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift to energy conservation mode with controlled breathing and minimal movement to recover stamina. Maintain essential defensive positioning - chin tucked, shoulders elevated - while waiting for the opponent's next movement to create a timing window. Avoid additional explosive attempts until breathing normalizes. The opponent must also expend energy to attack, and patient defense through their submission attempts often creates better escape windows than forcing through established control when exhausted."

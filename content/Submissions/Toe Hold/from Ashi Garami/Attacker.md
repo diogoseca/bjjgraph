@@ -110,7 +110,7 @@ description: "Learn to execute the toe hold from Ashi Garami top position. Step-
     },
     {
       "@type": "Question",
-      "name": "You have the figure-four secured but your opponent straightens their leg to escape - how do you adjust?",
+      "name": "They straighten the leg against your toe hold from ashi garami: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A straightened leg compromises the toe hold mechanics because the rotational force dissipates through the extended knee rather than concentrating on the ankle. If the knee line opens, release the toe hold grip and immediately transition to an ankle lock on the now-extended leg, or re-engage your leg entanglement to re-bend the knee before reattempting."

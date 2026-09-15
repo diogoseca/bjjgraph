@@ -56,7 +56,7 @@ description: "Learn to counter the hip escape from crucifix in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a hip escape from crucifix bottom?",
+      "name": "What is the earliest cue that your opponent will attempt a hip escape from crucifix bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling their feet plant firmly on the mat, particularly the foot on the trapped arm side. This foot placement generates the driving force for the shrimp. You may also feel a subtle weight shift in their hips as they prepare to push laterally. Before visible hip movement begins, this preparatory foot and weight positioning signals the escape attempt, giving you time to preemptively tighten your squeeze and adjust your angle."
@@ -64,7 +64,7 @@ description: "Learn to counter the hip escape from crucifix in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed one hip escape and you feel slight loosening in your leg trap—should you maintain the crucifix or transition?",
+      "name": "They complete one hip escape and your crucifix leg trap loosens slightly; hold or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Assess the degree of loosening. If the arm can still be maintained with a tighter squeeze and angle adjustment, maintain the crucifix and immediately follow their hips to restore the optimal trapping angle. If the arm has significant slack and continued hip escapes are imminent, proactively transition to back control before the arm is fully extracted. The transition should happen while you still have some control—waiting until the arm is free risks losing back control entirely."

@@ -107,7 +107,7 @@
         }
       },
       {
-        "question": "Your opponent begins extending the lockdown aggressively to off-balance you - what adjustment should you make?",
+        "question": "Your opponent extends the lockdown aggressively to off-balance you — what do you do?",
         "answer": "When opponent extends the lockdown aggressively, drive your weight forward through your chest and shoulder into their upper body rather than pulling backward. Pulling back plays into their strength and opens Electric Chair opportunities. Forward pressure compresses their space and makes extensions less effective. Simultaneously, widen your free leg base to stabilize against the off-balancing force.",
         "answer_line": "Drive forward, widen base",
         "distractors": {
@@ -149,7 +149,7 @@
         }
       },
       {
-        "question": "You notice your opponent momentarily relaxes their lockdown tension to adjust their underhook grip - what should you do?",
+        "question": "Your opponent relaxes the lockdown to adjust their underhook grip — what do you do?",
         "answer": "This is the optimal window for leg extraction. When the opponent relaxes the lockdown to adjust their upper body grips, the figure-four pressure on your trapped leg decreases momentarily. Immediately initiate your extraction sequence by driving your hip into them while circling the trapped knee outward. Combine this with increased crossface pressure to prevent them from re-tightening the lockdown. These brief windows during grip transitions are your highest-percentage extraction opportunities - never attempt extraction when they are actively extending or attacking.",
         "answer_line": "Extract now, circle knee out",
         "distractors": {
@@ -163,7 +163,7 @@
         }
       },
       {
-        "question": "Your opponent secures a strong underhook while you're trapped in lockdown - what immediate response is required?",
+        "question": "Trapped in the lockdown, your opponent gets a strong underhook — what must you do immediately?",
         "answer": "Immediately address the underhook by driving heavy shoulder pressure into their face and chest while either swimming your arm over theirs to re-establish your underhook, or using your free hand to push their elbow down and away to break the underhook grip. Never allow the underhook to remain unchallenged as it enables the Old School sweep and back take opportunities.",
         "answer_line": "Swim over or strip underhook",
         "distractors": {
@@ -538,7 +538,7 @@
         }
       },
       {
-        "question": "Your opponent drives forward with heavy crossface pressure - what sweep opportunity does this create?",
+        "question": "Your opponent drives forward with heavy crossface pressure — which sweep opens up?",
         "answer": "Forward pressure from opponent creates the ideal setup for the whip-up sweep. Use their forward momentum against them by securing the underhook, extending the lockdown to load their weight, then explosively come up to your elbow and drive into them while maintaining the lockdown. Their forward pressure becomes the energy that propels you to top position or dogfight.",
         "answer_line": "Whip-up off their pressure",
         "distractors": {
@@ -580,7 +580,7 @@
         }
       },
       {
-        "question": "Your opponent sits back with their weight away from you trying to extract their leg - what attack becomes available?",
+        "question": "Your opponent sits back to extract their leg from the lockdown — what attacks open up?",
         "answer": "When opponent sits back, this opens the Old School sweep and Electric Chair submission. For Old School, secure deep underhook, post your outside leg, and drive into them while extending the lockdown. For Electric Chair, release the triangle and step over their trapped leg with your outside leg, capturing in Electric Chair configuration while maintaining the underhook for control.",
         "answer_line": "Old School or Electric Chair",
         "distractors": {
@@ -959,7 +959,7 @@
       }
     },
     {
-      "question": "What is the mechanical trade-off that defines the Lockdown, captured by \"leg triangle trades mobility for sweeps\"?",
+      "question": "What mobility does the Lockdown's leg triangle give up, and what does it gain?",
       "answer": "The figure-four leg lock immobilizes the opponent's trapped leg powerfully, but committing both of the bottom player's legs to the entanglement sacrifices the free hip and butterfly-hook mobility available in other half guards. In exchange, the bottom player gains a rigid lever to stretch and load the opponent's base for sweeps. This means the Lockdown is slow to disengage and vulnerable if the leg is extracted, but exceptionally strong at generating off-balancing power once set. Understanding this trade explains both why it retains so well and why disengaging cleanly is difficult for both players.",
       "answer_line": "Rigid lever, less hip mobility",
       "distractors": {
@@ -987,7 +987,7 @@
       }
     },
     {
-      "question": "Why must leg extraction from the Lockdown use circular, angular motion rather than pulling straight back?",
+      "question": "Why must leg extraction from the Lockdown be circular rather than a straight pull back?",
       "answer": "The crossed-ankle figure-four is engineered to resist linear backward force, so pulling the trapped leg straight out only tightens the bottom player's lock and stretches the leg into the Electric Chair. Extraction succeeds by circling the trapped knee outward and changing the angle so the ankles can no longer maintain their cross. This is why the top player combines hip pressure and angle change with the pull rather than fighting the lock head-on. The same geometry tells the bottom player to keep re-crossing the ankles and flexing the top foot to preserve the lock.",
       "answer_line": "Straight pull feeds the lock",
       "distractors": {

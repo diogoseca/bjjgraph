@@ -1,12 +1,12 @@
 {
   "summary": {
-    "transition_files": 1029,
-    "submission_files": 360,
-    "position_files": 136,
-    "total_issues": 352,
+    "transition_files": 1025,
+    "submission_files": 353,
+    "position_files": 133,
+    "total_issues": 357,
     "errors": 0,
     "warnings": 7,
-    "info": 345,
+    "info": 350,
     "orphaned_transitions": 0,
     "orphaned_submissions": 2,
     "missing_transitions": 0,
@@ -16,11 +16,28 @@
     "invalid_from_positions": 0,
     "outcome_errors": 0,
     "outcome_warnings": 6,
-    "attempt_outliers": 295,
+    "attempt_outliers": 299,
     "coherence_violations": 0,
     "successrate_incoherent": 0,
     "defender_not_complement": 0,
-    "votes_schema_violations": 0
+    "votes_schema_violations": 0,
+    "ruleset_frames_checked": 3161,
+    "ruleset_frames_absent": 1,
+    "attempt_frames_checked": 531,
+    "attempt_frames_absent": 1,
+    "outcome_frames_checked": 2630,
+    "outcome_frames_absent": 0,
+    "values_in_no_ruleset": 0,
+    "bare_null_rows": 0,
+    "successrate_nodes_compared": 2630,
+    "successrate_nodes_total": 2630,
+    "successrate_skipped_null_rate": 0,
+    "successrate_skipped_null_probability": 0,
+    "complement_pairs_compared": 1315,
+    "complement_skipped_null_rate": 0,
+    "votes_community_frames_checked": 3196,
+    "votes_prior_frames_checked": 678,
+    "votes_prior_frames_absent": 0
   },
   "issues": [
     {
@@ -38,6 +55,15 @@
       "file": "content/Submissions/Kneebar/from Backside 50-50.json",
       "from_position": "Backside 50-50/Top",
       "message": "Orphaned submission: 'Kneebar from Backside 50-50' (from: Backside 50-50/Top)"
+    },
+    {
+      "file": "content/Positions/Lapel Guard.json",
+      "name": "Lapel Guard",
+      "role": "bottom",
+      "ruleset": "nogi",
+      "type": "attempt_probability_frame_absent",
+      "message": "Lapel Guard [bottom]: attempt_probability[nogi] frame ABSENT (all cells null) — sum check SKIPPED",
+      "severity": "info"
     },
     {
       "type": "position_type_score_disagreement",
@@ -2115,6 +2141,16 @@
       "current": 1
     },
     {
+      "file": "content/Positions/Kimura Trap.json",
+      "position": "Kimura Trap",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Electric Chair Transition' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Electric Chair Transition",
+      "current": 2
+    },
+    {
       "file": "content/Positions/Lapel Guard.json",
       "position": "Lapel Guard",
       "role": "top[nogi]",
@@ -2529,40 +2565,10 @@
       "position": "Side Control",
       "role": "top[nogi]",
       "type": "attempt_negligible",
-      "message": "top[nogi]: 'Side Control to Kesa Gatame' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Side Control to Kesa Gatame",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Side Control.json",
-      "position": "Side Control",
-      "role": "top[nogi]",
-      "type": "attempt_negligible",
       "message": "top[nogi]: 'Breadcutter Choke from Side Control' has only 1% attempt probability",
       "severity": "info",
       "transition": "Breadcutter Choke from Side Control",
       "current": 1
-    },
-    {
-      "file": "content/Positions/Side Control.json",
-      "position": "Side Control",
-      "role": "top[gi]",
-      "type": "attempt_negligible",
-      "message": "top[gi]: 'Side Control to Scarf Hold Position' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Side Control to Scarf Hold Position",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Side Control.json",
-      "position": "Side Control",
-      "role": "top[nogi]",
-      "type": "attempt_negligible",
-      "message": "top[nogi]: 'Side Control to Scarf Hold Position' has only 2% attempt probability",
-      "severity": "info",
-      "transition": "Side Control to Scarf Hold Position",
-      "current": 2
     },
     {
       "file": "content/Positions/Side Control.json",
@@ -2729,9 +2735,9 @@
       "position": "Side Control",
       "role": "top[gi]",
       "type": "attempt_negligible",
-      "message": "top[gi]: 'Side Control to Kuzure Kesa-Gatame' has only 2% attempt probability",
+      "message": "top[gi]: 'Side Control to Kuzure Kesa Gatame' has only 2% attempt probability",
       "severity": "info",
-      "transition": "Side Control to Kuzure Kesa-Gatame",
+      "transition": "Side Control to Kuzure Kesa Gatame",
       "current": 2
     },
     {
@@ -2739,9 +2745,9 @@
       "position": "Side Control",
       "role": "top[nogi]",
       "type": "attempt_negligible",
-      "message": "top[nogi]: 'Side Control to Kuzure Kesa-Gatame' has only 2% attempt probability",
+      "message": "top[nogi]: 'Side Control to Kuzure Kesa Gatame' has only 2% attempt probability",
       "severity": "info",
-      "transition": "Side Control to Kuzure Kesa-Gatame",
+      "transition": "Side Control to Kuzure Kesa Gatame",
       "current": 2
     },
     {
@@ -3183,6 +3189,66 @@
       "severity": "info",
       "transition": "Suplex from Rear Clinch",
       "current": 2
+    },
+    {
+      "file": "content/Positions/Triangle Control.json",
+      "position": "Triangle Control",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Kimura from Triangle Control' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Kimura from Triangle Control",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Triangle Control.json",
+      "position": "Triangle Control",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Kimura from Triangle Control' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Kimura from Triangle Control",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Triangle Control.json",
+      "position": "Triangle Control",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Americana from Triangle Control' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Americana from Triangle Control",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Triangle Control.json",
+      "position": "Triangle Control",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Americana from Triangle Control' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Americana from Triangle Control",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Triangle Control.json",
+      "position": "Triangle Control",
+      "role": "bottom[gi]",
+      "type": "attempt_negligible",
+      "message": "bottom[gi]: 'Armbar from Triangle Control' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Armbar from Triangle Control",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Triangle Control.json",
+      "position": "Triangle Control",
+      "role": "bottom[nogi]",
+      "type": "attempt_negligible",
+      "message": "bottom[nogi]: 'Armbar from Triangle Control' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Armbar from Triangle Control",
+      "current": 1
     },
     {
       "file": "content/Positions/Turtle.json",

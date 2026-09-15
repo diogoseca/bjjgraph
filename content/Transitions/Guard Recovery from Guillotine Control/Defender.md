@@ -56,7 +56,7 @@ description: "Prevent guard recovery from guillotine control as the top player i
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the highest-percentage moment to advance past the bottom player's guard during guillotine recovery?",
+      "name": "When is the best moment to pass as the bottom player recovers guard from a guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage moment is during the grip transition window—the brief period when the bottom player's arms are switching from guillotine choking grip to defensive frames. During this window, neither their arms nor their legs are optimally positioned for guard retention, creating a gap in their defensive structure that allows forward advancement past their legs into side control."
@@ -72,7 +72,7 @@ description: "Prevent guard recovery from guillotine control as the top player i
     },
     {
       "@type": "Question",
-      "name": "The bottom player has established feet on your hips after releasing the guillotine—what is your best passing strategy?",
+      "name": "They release the guillotine and get feet on your hips—what's your best passing strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip both pants or ankles and work to stack or redirect their legs to one side for a toreando or leg-drag pass. Do not fight the feet-on-hips position by trying to walk through it, as their leg strength will outmatch your forward drive. Instead, control their legs as passing handles and use angular movement to clear their leg barriers while maintaining forward pressure to prevent them from recovering distance."
@@ -80,7 +80,7 @@ description: "Prevent guard recovery from guillotine control as the top player i
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the bottom player from inserting butterfly hooks during the guillotine release transition?",
+      "name": "How do you stop them inserting butterfly hooks during the guillotine release transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your hips heavy and low, driving your weight forward into the bottom player's thighs to deny the space needed for hook insertion. If you feel their heels beginning to hook under your thighs, immediately sprawl your hips back and down to flatten their hooks against the mat. The key is preemptive hip pressure—once butterfly hooks are established with an underhook, the bottom player has a strong sweeping platform that is much harder to neutralize than to prevent."

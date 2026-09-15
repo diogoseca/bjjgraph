@@ -76,7 +76,7 @@ description: "How to execute Japanese Necktie in BJJ. Attacking perspective with
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary choking mechanism of the Japanese Necktie, and how does it differ from a standard guillotine?",
+      "name": "How does the Japanese Necktie choke, and how does that differ from a guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Japanese Necktie uses the opponent's own trapped shoulder as part of the choking mechanism, creating bilateral carotid compression through your shoulder on one side and their shoulder on the other side of their neck. Your choking arm serves primarily to control head position rather than generate the choking pressure itself. This differs from a standard guillotine where your arms create the compression directly. The Japanese Necktie generates pressure through hip extension and shoulder drive rather than arm strength, making it effective even against larger opponents."
@@ -84,7 +84,7 @@ description: "How to execute Japanese Necktie in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "Why is the perpendicular body angle critical to the Japanese Necktie's effectiveness, and what happens if the angle is incorrect?",
+      "name": "Why is the perpendicular angle critical in the Japanese Necktie, and what if it's wrong?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The perpendicular angle (approximately 90 degrees between your torso and opponent's spine) is essential because it properly positions your shoulder against the far side of their neck while their trapped shoulder compresses the near side. If you're too parallel to their body, your shoulder won't engage the neck and the choke fails completely. If you rotate too far past perpendicular, you lose leverage and they can easily turn into you to escape or take your back. The 90-degree angle maximizes the scissoring action between your shoulder and theirs, creating optimal bilateral carotid compression."
@@ -92,7 +92,7 @@ description: "How to execute Japanese Necktie in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What are the immediate steps you must take if your training partner goes unconscious during application of the Japanese Necktie?",
+      "name": "What must you do immediately if your partner goes unconscious from a Japanese Necktie?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately release all grips and choking pressure the instant you notice loss of resistance or body going limp. Roll away from your partner to create space and remove all constriction from their neck. Check their consciousness and breathing immediately. Elevate their legs to help blood return to the brain. Monitor their breathing and be prepared to call for medical attention if they don't regain consciousness within seconds. Never shake them or apply additional stimulation. If breathing stops, begin CPR and call emergency services immediately."
@@ -100,7 +100,7 @@ description: "How to execute Japanese Necktie in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "Why is gradual pressure application (5-7 seconds minimum) essential when training the Japanese Necktie, even though the choke can work much faster?",
+      "name": "Why apply the Japanese Necktie over 5-7 seconds in training when it can finish faster?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Gradual application allows your training partner time to recognize the danger, assess their defensive options, and tap safely before losing consciousness. The Japanese Necktie can render opponents unconscious in 3-5 seconds when applied explosively, which doesn't provide adequate time for safe tapping in a training environment. Slow application also prevents trachea damage from sudden shoulder pressure and reduces risk of neck strain from rotational torque. In training, the goal is skill development and safety, not demonstrating how quickly you can choke someone unconscious. Partners who apply submissions gradually build trust and create a safer training environment for everyone."
@@ -108,7 +108,7 @@ description: "How to execute Japanese Necktie in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What is the purpose of the overhook on the opponent's near arm, and what happens if this arm trap fails during execution?",
+      "name": "What does the overhook on their near arm do, and what if that arm trap fails?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The overhook traps the opponent's arm against their body, transforming their own shoulder into part of the choking mechanism. Their trapped shoulder compresses one carotid artery while your shoulder compresses the other, creating the bilateral compression necessary for the choke. If the arm trap fails and they extract their arm, they can post with that hand to create base, turn into you to face guard, or use the free arm to hand fight and break your grips. Without the trapped arm, you lose half of the choking mechanism and the technique becomes a weak front headlock position rather than an effective submission. If the trap fails, you should immediately transition to alternative attacks like anaconda, darce, or standard guillotine."
@@ -116,7 +116,7 @@ description: "How to execute Japanese Necktie in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "How should you generate choking pressure in the Japanese Necktie, and why is using arm strength alone ineffective?",
+      "name": "How should you generate Japanese Necktie pressure, and why is arm strength alone weak?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Choking pressure should come primarily from hip extension, back arch, and shoulder drive rather than arm strength. You extend your hips forward and upward while arching your back, which drives your shoulder into one side of opponent's neck while their trapped shoulder compresses the other side. Your arms serve mainly to control head position and maintain your grip configuration, not to generate squeezing force. Using arm strength alone is ineffective because your biceps and forearms will fatigue quickly, you won't achieve sufficient pressure on the carotid arteries, and you'll telegraph the submission giving opponent time to defend. Proper technique using body mechanics allows you to finish the choke even against larger, stronger opponents."

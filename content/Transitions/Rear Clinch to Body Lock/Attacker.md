@@ -74,7 +74,7 @@ description: "Complete attacking guide for converting standing rear clinch to bo
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must you slide arms sequentially rather than releasing both grips simultaneously during the transition?",
+      "name": "Rear clinch to body lock: why slide the arms sequentially instead of releasing both grips at once?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Releasing both arms simultaneously creates a complete control void where the opponent has maximum freedom to escape or counter. By maintaining the choking arm (over-shoulder arm) in seatbelt position while the underhook arm slides down first, you preserve upper body control throughout the transition. The remaining seatbelt arm prevents the opponent from turning, creating distance, or executing reversals during the most vulnerable phase. Only after the lead arm is secured at waist level should the second arm follow to complete the lock."
@@ -90,7 +90,7 @@ description: "Complete attacking guide for converting standing rear clinch to bo
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully two-on-one fights your sliding arm mid-transition - what is the correct response?",
+      "name": "They two-on-one your sliding arm mid rear-clinch-to-body-lock transition: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the body lock attempt and return to your seatbelt configuration with the arm they are fighting. Do not try to force the grip through against a strong two-on-one defense. Re-establish full seatbelt control, increase forward hip pressure to break their posture, and wait for a better window. You can create a new opening by threatening a standing choke from the seatbelt, which will force them to redirect their hand fighting away from your converting arm, then reattempt the transition."

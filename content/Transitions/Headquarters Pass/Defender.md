@@ -56,7 +56,7 @@ description: "How to defend against Headquarters Pass in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical moment for the defender to attempt an escape during the headquarters pass sequence?",
+      "name": "Defending headquarters: when is the best moment to attempt your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical moment is during the passer's leg extraction phase, when they shift weight to pull their trapped knee free. This momentary weight transfer lightens pressure on your hips and compromises their base, creating a window for hip escapes and frame insertion. Attempting escapes when the passer is fully settled in headquarters with all controls established is far less effective than timing your movement to this transitional moment."
@@ -64,7 +64,7 @@ description: "How to defend against Headquarters Pass in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why is fighting for the underhook more important than fighting to free your trapped leg when defending headquarters?",
+      "name": "Defending headquarters: why fight for the underhook before freeing your trapped leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The underhook gives you the ability to sit up, create angle, and threaten sweeps or back takes, which forces the passer to abandon their passing sequence to address your offensive threat. Freeing your trapped leg without upper body control merely delays the pass temporarily, as the passer can re-trap the leg while their crossface keeps you flat. The underhook changes the dynamic from pure defense to an offensive counter, which is strategically superior to simply stalling the pass."
@@ -72,7 +72,7 @@ description: "How to defend against Headquarters Pass in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established headquarters with a strong crossface and is beginning to clear your far knee - what is your best defensive response?",
+      "name": "Under a headquarters crossface, they start clearing your far knee. What is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame against their crossface shoulder with your forearm to create just enough space to turn your hips, then use a strong hip escape away from the passer while simultaneously pulling your far knee back tight to your chest before they can push it fully down. If the knee shield is already compromised, immediately transition to a foot-on-hip frame with your far leg to create distance. The goal is preventing the far leg clearance because once both legs are controlled, the pass is nearly complete and recovery becomes extremely difficult."
@@ -80,7 +80,7 @@ description: "How to defend against Headquarters Pass in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "What are the three control pillars the passer needs for a successful headquarters position, and which should the defender attack first?",
+      "name": "What are the three pillars of headquarters, and which should the bottom player attack first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three pillars are crossface or shoulder pressure controlling the head and upper body, near leg control pinning the bottom hip, and the posted free leg creating the stable headquarters base. The defender should attack the crossface first because upper body freedom enables all other defensive movements. Without the crossface, you can sit up, turn onto your side, and create the angles needed for underhooks, frames, and hip escapes. Attacking the leg controls without addressing the crossface leaves you pinned flat with limited mobility regardless of your leg position."
@@ -88,7 +88,7 @@ description: "How to defend against Headquarters Pass in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How does the deep half guard entry work as a defensive counter to headquarters, and when should you attempt it?",
+      "name": "Defending headquarters: how does the deep half entry work and when should you attempt it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The deep half entry involves threading your body underneath the passer's hips by turning toward them and sliding your head and shoulders under their base while controlling their far leg with your arms. Attempt it when the passer's weight is high on your chest with their hips elevated, creating space underneath. This is a high-commitment counter - if it fails, you end up flattened with your back exposed. Only attempt it when you have enough space to get your head below their hip line and can secure a grip on their far leg to prevent them from sprawling away."

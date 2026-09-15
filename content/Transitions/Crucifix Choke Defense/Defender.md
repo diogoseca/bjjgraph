@@ -72,7 +72,7 @@ description: "Counter your opponent's choke defense from crucifix top. Maintain 
     },
     {
       "@type": "Question",
-      "name": "What is the optimal response when the bottom player turns their shoulder into your choking arm using the turn-in defense?",
+      "name": "They turn their shoulder into your choking arm from crucifix top. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shoulder turn-in creates a structural wedge that standard rear naked choke mechanics cannot overcome through force. Instead of fighting the wedge, switch to the opposite side or use a short choke variation that works with the turned shoulder rather than against it. Alternatively, the turn-in often exposes the back of the neck to neck crank pressure, and the rotation itself creates space that can be exploited by transitioning to mounted crucifix where gravity assists the choke mechanics."
@@ -80,7 +80,7 @@ description: "Counter your opponent's choke defense from crucifix top. Maintain 
     },
     {
       "@type": "Question",
-      "name": "Why is controlling the bottom player's free hand the most important tactical consideration when finishing from crucifix?",
+      "name": "Why is controlling their free hand the top priority when finishing from crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The free hand is the bottom player's only effective defensive weapon in crucifix—it enables grip fighting against the choke, creates frames, and initiates escape sequences. If the free hand is controlled, the bottom player has no mechanism to defend the choke and submission becomes virtually inevitable. Controlling the free hand before committing to the choke eliminates the need for grip fighting entirely, transforming the finish from a contested battle into an unopposed application."

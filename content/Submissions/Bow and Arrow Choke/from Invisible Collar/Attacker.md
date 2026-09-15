@@ -76,7 +76,7 @@ description: "Learn to attack with the Bow and Arrow Choke from Invisible Collar
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Bow and Arrow Choke from Invisible Collar primarily compress to achieve the submission?",
+      "name": "From invisible collar, what does the bow and arrow choke compress to get the tap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bow and arrow choke compresses both carotid arteries on the sides of the neck using the gi collar material. The collar is folded against one side of the neck while the forearm and wrist rotation press into the opposite carotid artery. This bilateral compression restricts blood flow to the brain, causing unconsciousness within 4-10 seconds if the choke is properly applied and not released."
@@ -84,7 +84,7 @@ description: "Learn to attack with the Bow and Arrow Choke from Invisible Collar
     },
     {
       "@type": "Question",
-      "name": "What physical indicators tell you the choke is properly aligned on the carotid arteries rather than the jaw or trachea?",
+      "name": "What signs tell you the choke is on the carotids rather than the jaw or trachea?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When properly aligned on the carotid arteries, the opponent's face will begin to change color rapidly, and they will feel compelled to tap within seconds rather than minutes. If the opponent can endure the pressure for more than 10 seconds while grimacing, the choke is likely on the jaw. If they are coughing or gagging, the pressure is on the trachea. A proper blood choke produces a quiet, steady pressure that the opponent cannot simply tough through."
@@ -92,7 +92,7 @@ description: "Learn to attack with the Bow and Arrow Choke from Invisible Collar
     },
     {
       "@type": "Question",
-      "name": "What control elements must be fully established before transitioning from invisible collar to the bow and arrow finish?",
+      "name": "What must be established before transitioning from invisible collar to the bow and arrow finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The invisible collar grip must have full four-finger depth with knuckles against the neck. At least one hook must be maintained for back control during transition. The seatbelt or underhook arm must be free to transition to the pant grip. Body positioning must allow rotation to the collar grip side without losing chest connection. Attempting the transition without these elements secured leads to failed attempts and lost position."
@@ -100,7 +100,7 @@ description: "Learn to attack with the Bow and Arrow Choke from Invisible Collar
     },
     {
       "@type": "Question",
-      "name": "At what point during the Bow and Arrow Choke from Invisible Collar does the technique become effectively inescapable for the defender?",
+      "name": "When does the bow and arrow from invisible collar become effectively inescapable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs once the attacker has secured both the deep collar grip and the far pant grip and has committed to the side fall with legs beginning to extend. At this stage, the opposing forces are established and the defender cannot address both control points simultaneously. Before the pant grip is secured, the defender still has realistic escape opportunities through turning or grip stripping."
@@ -108,7 +108,7 @@ description: "Learn to attack with the Bow and Arrow Choke from Invisible Collar
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts turning their body toward you as you initiate the bow and arrow hip shift - what adjustment prevents their escape?",
+      "name": "They turn toward you as you start the bow and arrow hip shift — what stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the far-side hook aggressively to block their turning hip and pull them back to a perpendicular angle. Simultaneously accelerate your pant grip reach to lock in the control point before they complete the turn. If they manage partial rotation, follow their movement and transition to a mounted variation of the bow and arrow where you end up on top with the same grip configuration, using gravity to assist the finish rather than fighting the rotation."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Bow and Arrow Choke from Invisible Collar
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your collar grip when transitioning from the invisible collar position to bow and arrow finishing mechanics?",
+      "name": "How do you adjust your collar grip going from invisible collar into the bow and arrow finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The collar grip itself does not change position during the transition. The key adjustment is in wrist orientation: as you fall to the side, rotate your wrist so your palm faces your own chest rather than facing the opponent's back. This rotation tightens the collar material against the neck and creates the proper angle for the extension finish. Avoid the temptation to regrip or adjust finger position during the transition, as this creates a window for the opponent to strip the grip."

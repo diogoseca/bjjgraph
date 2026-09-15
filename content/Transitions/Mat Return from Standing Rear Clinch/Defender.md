@@ -56,7 +56,7 @@ description: "Defend against the mat return from standing rear clinch. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that a mat return is about to be attempted from standing rear clinch?",
+      "name": "From standing rear clinch, what are the earliest cues that a mat return is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cues are a sudden tightening of the opponent's grip around your waist or upper body, a shift of their hips to one side with a lowering of their center of gravity, and increased forward and downward pressure loading onto your back. You may also feel the opponent's feet adjusting position as they prepare to sit through. The grip tightening typically occurs one to two seconds before the descent begins and is the most reliable early warning that differentiates a mat return attempt from standard clinch maintenance."
@@ -64,7 +64,7 @@ description: "Defend against the mat return from standing rear clinch. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is widening your base the most effective immediate response when you recognize a mat return attempt?",
+      "name": "Why is widening your base the best immediate answer to a mat return attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widening your base dramatically increases the amount of force required to break your balance in any direction because it creates multiple posting points that prevent being pulled laterally or backward. Combined with dropping your hips and driving them forward, the widened base forces the opponent to either abandon their mat return attempt or significantly modify their angle. This defense is mechanically effective because the mat return relies on collapsing a narrow base through the sit-through, and widening removes that mechanical advantage entirely."
@@ -72,7 +72,7 @@ description: "Defend against the mat return from standing rear clinch. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully initiates the mat return and you are descending to the ground - what is your best option at this point?",
+      "name": "They hit the mat return and you are falling: what is your best option during the descent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Focus on preventing hook insertion rather than stopping the descent. Turn your body aggressively toward the opponent during the fall to prevent them from establishing back control on landing, and immediately begin working to face them upon impact with the mat. If you can achieve even a partial turn during the descent, you may land in turtle or half guard rather than flat back control. Post your inside hand on the mat to control the landing angle and immediately address the bottom hook attempt, as this hook anchors their ground back control."
@@ -96,7 +96,7 @@ description: "Defend against the mat return from standing rear clinch. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is setting up a mat return from rear clinch?",
+      "name": "Which cues show your opponent is setting up a mat return from rear clinch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the attacker shifting their hips from directly behind you to approximately 45 degrees to one side, combined with a noticeable tightening of their grip and increased forward pressure breaking your posture. You may also feel their knees begin to bend as they prepare for the sitting motion, and their outside leg positioning behind your near leg. Recognizing these cues before the descent begins gives you maximum time to execute defensive options such as grip stripping, base widening, or pre-emptive turning."

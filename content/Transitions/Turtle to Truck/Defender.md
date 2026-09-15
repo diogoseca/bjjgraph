@@ -56,7 +56,7 @@ description: "How to defend against Turtle to Truck in BJJ. Recognition cues, de
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a Turtle to Truck transition rather than a traditional back take?",
+      "name": "In turtle, what is the earliest cue they are going for the Truck instead of a standard back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent shifting from a chest-on-back position directly behind you to a perpendicular angle against your ribs. Traditional back takes maintain behind positioning with the goal of inserting hooks and establishing seatbelt control. The Truck entry requires side-riding position to access the far leg, so the lateral weight shift is the first divergence point. A hand reaching under your body toward the far leg confirms the intent. Recognizing this shift early gives you a 2-3 second window to execute defensive action before the hook is inserted."
@@ -64,7 +64,7 @@ description: "How to defend against Turtle to Truck in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your opponent has gripped your far knee from underneath but has not yet inserted their leg hook - what is the highest percentage defensive response?",
+      "name": "They grip your far knee from underneath but have no hook in yet: what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest percentage response is an immediate explosive sit-back, driving your hips toward your heels while squeezing your knees together. This accomplishes three things simultaneously: it traps their reaching arm under your body weight making it difficult to maintain the grip, it closes the space between your legs that they need for hook insertion, and it shifts your weight posteriorly where they cannot easily redirect you. If the sit-back is decisive enough, the attacker must release the grip and reset entirely. Combine the sit-back with turning toward the attacker to face them, which further denies the perpendicular angle required for Truck entry."
@@ -72,7 +72,7 @@ description: "How to defend against Turtle to Truck in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "The attacker has partially inserted their leg hook but has not yet locked the triangle - should you attempt to stand or execute a granby roll?",
+      "name": "Their hook is partly in but the triangle isn't locked: should you stand or granby roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a partial hook but no triangle lock, the granby roll toward the side opposite the hook is generally the higher-percentage escape. Standing with a partial hook risks the attacker using your upward momentum to pull you off balance and accelerate the entry. The granby roll generates rotational force that strips the partial hook as you turn your body away from the entanglement. The key is explosive commitment to the roll before the attacker can bring their second leg over to complete the triangle. If you feel the second leg starting to come over during the roll, accelerate your rotation rather than slowing down."
@@ -80,7 +80,7 @@ description: "How to defend against Turtle to Truck in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "How does defending the Turtle to Truck transition differ from defending a traditional back take from turtle?",
+      "name": "How does defending the Truck from turtle differ from defending a traditional back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Traditional back take defense focuses on hand fighting against seatbelt grips, preventing hook insertion by keeping your hips low and elbows tight, and creating movement to prevent the attacker from settling. Truck defense requires monitoring a different attack vector entirely - the far leg and perpendicular positioning. While back take defense is primarily upper-body oriented (hands, neck, shoulder control), Truck defense demands lower-body awareness (leg positioning, hip height, knee proximity). The defensive actions also differ: sitting back stops Truck entries but can feed a traditional back take, while keeping hips elevated defends back takes but creates space for Truck entries. You must read which attack your opponent is pursuing to select the correct defensive framework."
@@ -88,7 +88,7 @@ description: "How to defend against Turtle to Truck in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked the full leg triangle and established boot pressure - what escape options remain and what is the priority sequence?",
+      "name": "They have locked the Truck triangle with boot pressure: what escapes remain, and in what order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the Truck is fully established, the priority sequence is: first, protect your neck and spine by tucking your chin and preventing the attacker from controlling your far arm for the Twister. Second, fight the boot pressure using your free hand to push or strip the foot from your hip, as removing the boot eliminates the torque that powers all attacks. Third, work to extract your trapped leg by bending it sharply and using hip rotation to create space within the triangle. Fourth, attempt a forward roll or granby roll to escape the entanglement once you have reduced at least one control point. Escape probability is significantly lower at this stage, so if submissions begin applying, tap early rather than risking spinal or knee injury."

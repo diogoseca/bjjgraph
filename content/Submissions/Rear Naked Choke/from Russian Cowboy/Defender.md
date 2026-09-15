@@ -76,7 +76,7 @@ description: "Defend the Rear Naked Choke from Russian Cowboy. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured the figure-four but has not fully applied the squeeze yet—what is your best defensive option?",
+      "name": "Defending RNC from Russian Cowboy: they have the figure-four but no squeeze yet, what is best?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the figure-four already locked, grip stripping becomes very difficult. Your best option is to immediately tuck your chin hard into the crook of their elbow while pulling their choking wrist down with both hands to create any space between their forearm and your neck. Simultaneously begin an explosive hip escape toward their free leg side—this is your last positional escape window before the squeeze tightens. If you cannot create space or escape within a few seconds, tap immediately rather than fighting a locked figure-four to exhaustion and risking unconsciousness."
@@ -84,7 +84,7 @@ description: "Defend the Rear Naked Choke from Russian Cowboy. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "You have been defending the RNC grip fight for thirty seconds and your arms are fatiguing—how should you manage this situation?",
+      "name": "Defending the RNC grip fight for thirty seconds with fatiguing arms, how do you manage it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sustained grip fighting against an RNC is an energy battle you will eventually lose if you remain purely defensive. Rather than continuing to grip fight indefinitely, use a brief burst of energy for a decisive escape attempt: bridge hard toward the free leg side while stripping the choking arm and immediately turn to face the opponent. If this escape fails and you are too fatigued to maintain effective two-on-one defense, tap before your grip strength drops below the threshold needed to prevent the choke from locking. Controlled tapping when defense is failing is always preferable to involuntary unconsciousness."

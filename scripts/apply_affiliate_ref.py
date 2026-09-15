@@ -2,7 +2,7 @@
 """apply_affiliate_ref.py — stamp the affiliate tracking ref into BUILT artifacts.
 
 WHY THIS EXISTS: every BJJFanatics product URL in content/Systems/*.json is
-authored with the literal placeholder `?ref=REPLACE_ME`. The real tracking id is a
+authored with the literal placeholder `?rfsn=REPLACE_ME`. The real tracking id is a
 DEPLOYMENT PARAMETER, not content:
   * it belongs to one affiliate account and can be rotated without touching a
     single technique;
@@ -60,6 +60,22 @@ TEXT_SUFFIXES = {".html", ".json", ".js", ".css", ".xml", ".txt"}
 # value is an HTML-injection primitive. Vendor tracking ids are opaque tokens;
 # anything outside this charset is a mis-set secret, not a ref.
 REF_RE = re.compile(r"\A[A-Za-z0-9._~%-]{1,64}\Z")
+
+
+def configured_ref() -> str:
+    """CI environment wins; local builds can use the gitignored root .env.
+
+    Read only this setting as data. Never execute or source the file.
+    """
+    if "AFFILIATE_REF" in os.environ:
+        return os.environ["AFFILIATE_REF"].strip()
+    env_file = PROJECT_ROOT / ".env"
+    if env_file.is_file():
+        for line in env_file.read_text(encoding="utf-8").splitlines():
+            key, sep, value = line.strip().partition("=")
+            if sep and key.strip() == "AFFILIATE_REF":
+                return value.strip().strip("\"'")
+    return ""
 
 
 def targets() -> list[Path]:
@@ -121,7 +137,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    ref = os.environ.get("AFFILIATE_REF", "").strip()
+    ref = configured_ref()
     if not ref:
         print(
             f"[apply_affiliate_ref] WARNING: AFFILIATE_REF is not set — leaving the "

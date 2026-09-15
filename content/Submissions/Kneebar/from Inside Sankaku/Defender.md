@@ -52,7 +52,7 @@ description: "Defend against the kneebar from Inside Sankaku. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the attacker is transitioning from heel hook to kneebar from Inside Sankaku?",
+      "name": "How do you recognise the attacker switching from heel hook to kneebar in Inside Sankaku?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary recognition cues are: the attacker releases their heel hook grip configuration and reaches toward your ankle or lower shin, you feel your foot being directed toward their armpit rather than their hands working your heel, their hip orientation shifts to face the back of your knee, and you feel increased squeeze pressure from their knees closing around your thigh above the knee joint. Recognizing these cues during the transition window is critical for successful defense."
@@ -84,7 +84,7 @@ description: "Defend against the kneebar from Inside Sankaku. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "What should you do immediately after your training partner taps to your kneebar attempt from Inside Sankaku?",
+      "name": "What must you do the instant your partner taps to your kneebar from Inside Sankaku?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately stop all hip extension and drop your hips away from the partner's knee to remove all pressure. Release the ankle from your armpit control slowly while maintaining enough positional awareness to prevent sudden movements during the release. Allow your partner to extract and straighten their leg at their own pace without rushing. Verbally confirm their knee feels normal before resuming training. The transition from locked submission to release is when many avoidable training injuries occur."

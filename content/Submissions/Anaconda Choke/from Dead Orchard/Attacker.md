@@ -76,7 +76,7 @@ description: "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Anaconda Choke from Dead Orchard primarily target, and how does the arm-in configuration create compression?",
+      "name": "What does the Dead Orchard anaconda target, and how does the arm-in setup create compression?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The finish targets bilateral compression of the carotid arteries on both sides of the neck. The arm-in configuration creates a triangle of pressure: the choking arm compresses one carotid, the opponent's own trapped arm acts as a fulcrum pressing against the opposite carotid, and the shoulder drives downward to seal the compression. This bilateral blood restriction produces unconsciousness by cutting cerebral blood flow rather than restricting the airway."
@@ -84,7 +84,7 @@ description: "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "How do you recognize when the opponent has reached the point of no escape during the finishing sequence?",
+      "name": "How do you recognize the point of no escape when finishing the anaconda from Dead Orchard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when the grip is deep past the far shoulder, hips have achieved optimal compression angle, and the opponent's defensive grips have been cleared. Physical indicators include the opponent's trapped arm going limp against their neck, cessation of active hand fighting, labored or irregular breathing patterns, and a general slowing of defensive movements. At this stage, steady pressure application will produce a tap within four to eight seconds."
@@ -100,7 +100,7 @@ description: "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your grip feels tight but the opponent is still defending after ten seconds of sustained pressure. What adjustments should you make?",
+      "name": "Your anaconda feels tight but they still defend after ten seconds — what do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First assess grip depth by feeling for your wrist bone position relative to their far shoulder. If shallow, use body movement to walk it deeper. Next, verify hip angle by checking if your chest is perpendicular to their spine. Walk hips one to two more steps toward their head if needed. Finally, check shoulder pressure height, adjusting to drive more directly into their trapped shoulder. Small positional corrections are far more effective than simply squeezing harder, which fatigues your arms without improving choke mechanics."
@@ -108,7 +108,7 @@ description: "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Why is progressive pressure application more effective than explosive squeezing for completing this choke?",
+      "name": "Why is progressive pressure better than explosive squeezing for finishing this choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Progressive pressure prevents the adrenaline-fueled panic response that explosive squeezing triggers in defenders. When squeezed suddenly, opponents generate explosive escape attempts fueled by fight-or-flight response that can create enough space to compromise the grip. Progressive pressure gradually restricts blood flow without triggering this panic threshold. Additionally, sustained progressive pressure fatigues the arms far less than explosive squeezing, allowing the attacker to maintain the attempt longer and make micro-adjustments during application."
@@ -116,7 +116,7 @@ description: "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What specific grip adjustments maintain choke effectiveness when the opponent attempts to create space by extending their trapped arm?",
+      "name": "How do you adjust your grip when they extend the trapped arm to make space in your anaconda?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent extends their trapped arm, walk your gable grip deeper toward their far shoulder while simultaneously increasing shoulder drive into their trapped shoulder to pin the arm back against their neck. If the arm extension creates significant space, temporarily release shoulder height pressure to slide the grip deeper before re-establishing the downward drive. The key is maintaining circular compression direction toward their far armpit. If the arm fully escapes the grip, immediately transition to darce control or positional advancement rather than chasing the anaconda."

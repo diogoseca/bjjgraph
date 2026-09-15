@@ -56,7 +56,7 @@ description: "How to defend against Inside Heel Hook from Ushiro in BJJ. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you recognize a heel hook attempt from ushiro?",
+      "name": "What is the single most important action when you recognize a heel hook attempt from ushiro?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain maximum dorsiflexion by flexing your foot hard toward your shin and pulling your toes up. This pulls the heel closer to your lower leg, making it extremely difficult for the attacker to establish the cupping grip needed for the finishing rotation. This must be maintained without interruption throughout the entire defensive sequence, even during grip fighting and escape attempts."
@@ -64,7 +64,7 @@ description: "How to defend against Inside Heel Hook from Ushiro in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "The attacker has trapped your heel against their chest and is beginning to rotate—what is your immediate response?",
+      "name": "They have your heel on their chest and start rotating. What is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage the submission is close to completion and you must act immediately. Use both hands to attack their grip—target the cupping hand that holds your heel first, pulling it away from their chest. Simultaneously rotate your trapped knee inward toward your opposite hip to remove rotational slack. If you cannot break the grip within 1-2 seconds, tap immediately. Do not attempt to outrun a locked-in heel hook through rotation, as this accelerates knee damage."
@@ -80,7 +80,7 @@ description: "How to defend against Inside Heel Hook from Ushiro in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your attacker loosens their inside leg control to reach for your heel—what opportunity does this create?",
+      "name": "They loosen inside leg control to reach for your heel from ushiro. What does that open up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker releases inside leg control to pursue the heel grip, they create a window for either completing your escape to turtle through unimpeded rotation, or entering counter-entanglement on their now-exposed legs. Evaluate the depth of their remaining control: if shallow, accelerate your rotation to clear the entanglement entirely. If their outside leg still controls your free leg, use the freed space to enter 50-50 by hooking their near leg."

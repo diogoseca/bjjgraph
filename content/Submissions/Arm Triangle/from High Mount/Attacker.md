@@ -84,7 +84,7 @@ description: "Step-by-step guide to finishing the arm triangle from high mount. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their elbows tight to defend armbar attempts from high mount - how do you create the arm triangle setup?",
+      "name": "Your opponent tucks their elbows in high mount — how do you set up the arm triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent tucks their elbows defensively, use cross-face pressure to push their near arm across their own neck. Slide your forearm across their jaw line while driving your weight forward, steering the arm past their centerline. The tucked elbow position actually assists this push because the arm is already close to the neck. Once the arm crosses their centerline, immediately pin it with chest pressure before they can retract it."
@@ -100,7 +100,7 @@ description: "Step-by-step guide to finishing the arm triangle from high mount. 
     },
     {
       "@type": "Question",
-      "name": "You have locked the head-and-arm grip from high mount but the opponent bridges explosively to prevent you from stepping over - what adjustment do you make?",
+      "name": "Head-and-arm locked from high mount, they bridge before your step-over — what do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your far-side hand wide on the mat and drop your base low to absorb the bridge rather than fighting it rigidly. If the bridge is strong enough to roll you, maintain the head-and-arm grip through the transition and finish from bottom position using a guard arm triangle. Do not release the grip to rebase. If the bridge fails, immediately step over and walk to the perpendicular finishing angle before the opponent can generate another explosive bridge attempt."
@@ -116,7 +116,7 @@ description: "Step-by-step guide to finishing the arm triangle from high mount. 
     },
     {
       "@type": "Question",
-      "name": "During the grip transition from high mount to arm triangle, the opponent starts pulling their trapped arm free - what is your immediate response?",
+      "name": "Their trapped arm starts slipping out during the high mount arm triangle switch — what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the arm is sliding free during the grip transition, do not chase the arm triangle from a compromised position. Instead, immediately drive your chest weight back down onto the arm to re-pin it, or release the transition entirely and return to consolidated high mount control. From high mount you can re-isolate the arm using cross-face pressure once the position is stabilized. Forcing a grip transition on a partially freed arm results in a loose, ineffective choke that wastes energy and position."

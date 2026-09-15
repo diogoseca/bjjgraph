@@ -56,7 +56,7 @@ description: "Complete guide to defending the Stack Pass while maintaining Missi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest tactile cues that your opponent is initiating a stack pass rather than a posture recovery attempt?",
+      "name": "Which tactile cues mark a stack pass rather than a posture recovery attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the opponent's hands moving to your hips or upper thighs rather than fighting your head control grips, their chin tucking to their chest, their elbows drawing tight against their body, and forward pressure increasing through their hips rather than upward extension through their spine. Posture recovery involves upward driving; stacking involves forward compression—the force vector direction is the key differentiator."

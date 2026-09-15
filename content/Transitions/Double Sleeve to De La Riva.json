@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "Your opponent drives forward with pressure as you are mid-transition. Is this dangerous or beneficial?",
+        "question": "They pressure forward mid-transition to De La Riva: is that dangerous or helpful to you?",
         "answer": "Forward pressure during the transition is generally beneficial because it commits their weight to the lead leg you are hooking, making the DLR hook bite deeper and preventing them from retracting. Accept their pressure, complete the hook insertion rapidly, and use their forward momentum to load them for an immediate DLR sweep or berimbolo entry. The main risk is if you have already released your near-side grip but not yet grabbed the ankle, as the pressure could collapse your guard before the conversion is complete.",
         "answer_line": "Beneficial, deepens the hook",
         "distractors": {
@@ -386,7 +386,7 @@
         }
       },
       {
-        "question": "If your opponent strips the far sleeve grip during the transition, what are your immediate recovery options?",
+        "question": "They strip your far sleeve during the double sleeve to DLR transition: how do you recover?",
         "answer": "If the DLR hook is already established, immediately grab their collar, belt, or re-grip the sleeve from a different angle. The DLR hook plus ankle grip provides enough lower body control to buy time for upper body grip recovery. If the hook is not yet established and you have lost the far sleeve, you need to establish any upper body control immediately, whether collar, sleeve, or wrist, before completing the hook. Operating DLR without any upper body grip is extremely vulnerable to backstep passes and leg drag passes.",
         "answer_line": "Regrip collar/sleeve immediately",
         "distractors": {
@@ -515,7 +515,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that the bottom player is attempting to transition from double sleeve to DLR?",
+        "question": "What is the earliest cue that they're switching from double sleeve guard to De La Riva?",
         "answer": "The earliest cue is the hip angle rotation: when the bottom player pushes off your far hip with their foot while pulling your near sleeve differently, their hips rotate approximately 45 degrees toward your lead leg side. This angular change precedes the actual hook insertion and gives you the maximum reaction window. The foot leaving your hip to begin threading toward the outside of your leg is the secondary confirmation cue.",
         "answer_line": "Hips rotate 45° toward your leg",
         "distractors": {
@@ -543,7 +543,7 @@
         }
       },
       {
-        "question": "Your opponent has partially established a DLR hook but has not yet converted their near-side grip. What defensive action provides the best outcome?",
+        "question": "They have a partial DLR hook but no ankle grip yet: what defense works best?",
         "answer": "Backstep your hooked leg while simultaneously stripping or controlling their near-side sleeve grip before it converts to an ankle grip. The partial hook without the ankle grip is fragile and can be cleared by stepping over their shin. Combining the backstep with grip control prevents them from completing the transition and often puts you in position for a backstep pass or leg drag. Do not drive forward at this stage, as even a partial hook with your forward pressure can be leveraged into a sweep.",
         "answer_line": "Backstep leg, strip near grip",
         "distractors": {
@@ -557,7 +557,7 @@
         }
       },
       {
-        "question": "How should you adjust your weight distribution when facing double sleeve guard to make DLR entry harder?",
+        "question": "How should you distribute your weight against double sleeve guard to deny the DLR entry?",
         "answer": "Keep your weight centered or slightly back rather than loading your lead leg. A heavy lead leg is the exact target the bottom player needs for DLR hook insertion: weighted, forward-committed, and difficult to retract. By keeping your lead leg relatively light, you can pull it back instantly when you feel the threading motion. Consider adjusting to a more square stance rather than staggered when facing aggressive guard players who favor DLR transitions from sleeve control positions.",
         "answer_line": "Keep weight back, light lead leg",
         "distractors": {

@@ -64,7 +64,7 @@ description: "Defend against the Squid Guard Sweep effectively. Learn recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins loading your weight forward with lapel tension — what immediate base adjustment prevents the sweep?",
+      "name": "They load your weight forward with lapel tension—what base change stops the squid sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift your hips backward and drop your center of gravity by bending your knees while maintaining upright spinal posture. This counters the forward pull by moving your center of gravity behind your base rather than in front of it. Simultaneously, widen your base laterally on the side opposite the sweep direction to create a broader platform that resists the rotational force. Avoid leaning forward to compensate for the pull, as this accelerates the weight-loading that powers the sweep."
@@ -72,7 +72,7 @@ description: "Defend against the Squid Guard Sweep effectively. Learn recognitio
     },
     {
       "@type": "Question",
-      "name": "How do you differentiate between a Squid Guard Sweep setup and a back take setup when the initial configuration looks identical?",
+      "name": "From squid guard, how do you tell a sweep setup from a back take setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch the bottom player's hip angle and non-threading leg position. For the sweep, they hip escape to create a lateral angle with the non-threading leg driving across your body. For the back take, they begin inverting underneath you with the non-threading leg swinging behind your hip line. The critical moment of differentiation is the hip movement direction — lateral for sweep, rotational underneath for inversion. Your defensive response must match: widen base for sweep defense, sprawl and pressure for inversion defense."
@@ -88,7 +88,7 @@ description: "Defend against the Squid Guard Sweep effectively. Learn recognitio
     },
     {
       "@type": "Question",
-      "name": "The sweep has already begun and you are mid-rotation — what recovery action minimizes positional loss?",
+      "name": "The squid sweep has started and you are mid-rotation—what recovery limits positional loss?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free hand wide on the mat in the direction you are being swept and drive your weight over the posting arm while simultaneously pulling your near knee toward your chest to insert a knee shield. If you cannot stop the rotation entirely, the goal shifts to damage control — recover to half guard rather than conceding full mount. This requires accepting the partial positional loss while preventing the worst outcome. Frame immediately upon landing to prevent the sweeper from consolidating mount."

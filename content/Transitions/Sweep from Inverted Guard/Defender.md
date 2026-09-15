@@ -64,7 +64,7 @@ description: "Learn to defend the Sweep from Inverted Guard. Recognition cues, b
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your base when facing an inverted guard player who is actively threatening sweeps?",
+      "name": "How do you set your base against an inverted guard player actively threatening sweeps?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widen your stance significantly with feet staggered rather than parallel, lower your center of gravity by bending at the knees, and position your hips back rather than over the opponent. Distribute weight primarily on your back foot to prevent forward displacement. Avoid standing upright with a narrow base as this creates an unstable platform easily disrupted by the rotational force the inverted sweep generates from below."
@@ -72,7 +72,7 @@ description: "Learn to defend the Sweep from Inverted Guard. Recognition cues, b
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured a hook behind your leg and gripped your pants - what is your immediate defensive priority?",
+      "name": "They have a hook behind your leg and a pants grip from inverted guard—your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is stripping the pants grip before the opponent generates rotational momentum. The grip is the connection point through which sweep force is transmitted, and without it the hook alone cannot complete the sweep effectively. Use both hands to peel their grip while simultaneously backstepping away from the hook side. If the grip cannot be broken quickly, drop your hips and sprawl to remove the angle the sweep requires."
@@ -88,7 +88,7 @@ description: "Learn to defend the Sweep from Inverted Guard. Recognition cues, b
     },
     {
       "@type": "Question",
-      "name": "What is the biggest mistake defenders make when an inverted sweep is mid-execution and gaining momentum?",
+      "name": "What is the biggest defensive mistake once an inverted sweep has momentum?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The biggest mistake is fighting the sweep direction by pushing against the rotational force rather than moving with it and re-basing. Once the sweep has significant momentum, attempting to resist directly wastes energy and typically fails because the rotational force exceeds what static resistance can counter. Instead, move with the sweep direction, post your hands to prevent being fully swept, and use the resulting scramble to re-establish a defensive position rather than trying to completely stop a sweep already in progress."

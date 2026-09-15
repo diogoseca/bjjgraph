@@ -90,7 +90,7 @@ description: "How to execute Stack Defense in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent secures double underhooks and begins stacking you hard. Your hips are already elevated. What is your immediate sequence of actions?",
+      "name": "They stack you hard with double underhooks and your hips are up—what is your sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, cup both hands over their shoulders and push to prevent them from driving deeper into the stack. Second, use your core to turn your hips 45 degrees to one side while pushing against their shoulder on that same side. Third, as the angle opens, insert your bottom knee as a shield between your bodies. Fourth, continue shrimping to recover full guard position or transition to half guard with the knee shield already in place. The double underhook stack requires addressing the shoulder pressure first before hip escaping because their underhooks prevent simple frame-on-hip defense."
@@ -114,7 +114,7 @@ description: "How to execute Stack Defense in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs both your ankles during a stack pass attempt, preventing hip escape. What alternative escape do you use?",
+      "name": "They grip both your ankles during a stack pass, blocking hip escape—what escape do you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When both ankles are controlled, transition to a granby roll (shoulder roll) by tucking your chin, rolling over one shoulder, and inverting to create a completely different plane of movement. The rotational momentum breaks their grip structure because hands cannot maintain strong grips on an object rotating away from them. Even if they maintain partial grips, the radical angle change eliminates all their passing momentum and forces a complete reset. After the inversion, immediately re-face your opponent and establish guard from the new angle."

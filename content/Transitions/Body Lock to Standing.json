@@ -287,7 +287,7 @@
         }
       },
       {
-        "question": "Your opponent maintains a strong base and your body lock takedown attempts have failed three times - how do you decide between continuing to attack versus disengaging?",
+        "question": "After three failed body lock takedowns, how do you decide between attacking again and disengaging?",
         "answer": "Assess three factors: grip fatigue level, scoring context, and remaining attack variety. If your grip strength is declining and continued holding risks losing the body lock entirely to a grip break, disengage proactively while you still have energy for an explosive separation. If competition scoring penalizes stalling, the reset prevents a penalty. If you have exhausted your primary attack chains without success, the reset allows re-entry from a different angle. However, if untried attack options remain and your grip is strong, continuing to attack is likely superior.",
         "answer_line": "Reset if grip fading, else attack",
         "distractors": {
@@ -315,7 +315,7 @@
         }
       },
       {
-        "question": "Your opponent shoots a double leg the moment you begin releasing your body lock grip - what went wrong and how do you correct it?",
+        "question": "They shoot a double as you release the body lock: what went wrong and how do you fix it?",
         "answer": "The error was telegraphing the disengage through preliminary grip loosening or weight shifting before your frames were established. Your opponent read the intention and timed their shot to exploit the transition gap. The correction involves maintaining full chest pressure and grip tension until the exact moment of explosive separation. Do not gradually loosen your grip. Instead, transition from locked grip directly to hip frames in a single swift motion and execute the push-off immediately, giving no readable cues. If the shot does land, sprawl immediately and transition to front headlock control.",
         "answer_line": "Keep full pressure till the break",
         "distractors": {
@@ -329,7 +329,7 @@
         }
       },
       {
-        "question": "In which direction should your force travel during the push-off separation, and why does this matter?",
+        "question": "Which direction should your push-off force travel when separating from the body lock, and why?",
         "answer": "Your force should drive horizontally forward through your locked-elbow hip frames directly into the opponent's center of mass, not downward or upward. Driving into their center of mass shifts their weight backward onto their heels, breaking their forward pressure and opening the separation gap. Because your rear foot simultaneously steps backward, the opponent is pushed one direction while you travel the other, effectively doubling the distance created in a single beat. Angling the push downward collapses into their hips without producing space, while pushing upward lifts them into a stronger base and makes you vulnerable to being pulled back into the clinch.",
         "answer_line": "Forward into their center of mass",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "You commit to the disengage but the opponent immediately closes distance and re-establishes their clinch grips before you can reset - what is your best option?",
+        "question": "They re-clinch before you can reset after disengaging the body lock: what is your best option?",
         "answer": "Abandon the idea of a full reset and weaponize the re-engagement by attacking out of the new grip exchange rather than retreating a second time. As they close, drop your level and shoot a single or double leg into their advancing momentum, or pummel for an underhook to re-establish your own body lock from the opposite angle. Retreating again only feeds their forward pressure and exposes your back-stepping base to a takedown. Treating their aggressive re-clinch as an opening to counter while their weight is committed forward turns a failed reset into a fresh offensive entry.",
         "answer_line": "Level change, shoot the takedown",
         "distractors": {
@@ -485,7 +485,7 @@
         }
       },
       {
-        "question": "Why is the grip transition phase the most vulnerable moment for the person disengaging from body lock?",
+        "question": "Why is the grip transition the most vulnerable moment for the person leaving the body lock?",
         "answer": "During the grip transition, the person disengaging has abandoned their primary control mechanism (locked hands) but has not yet established their secondary control (hip frames and distance). This creates a control vacuum lasting approximately half a second where they have neither grip control, frame control, nor defensive distance. Their weight is also transitioning backward, making them vulnerable to forward-driven attacks. This is the only phase where they cannot effectively defend a well-timed shot, making it the optimal counter-attack window.",
         "answer_line": "No grip, no frame, no distance yet",
         "distractors": {
@@ -499,7 +499,7 @@
         }
       },
       {
-        "question": "When should you choose to shoot a takedown versus pull guard versus accept the reset during a body lock disengagement?",
+        "question": "During their body lock disengage, when do you shoot, pull guard, or accept the reset?",
         "answer": "Shoot a takedown when you can time the entry to the grip transition phase and your opponent's weight is shifting backward, giving you forward momentum advantage over their retreating base. Pull guard when you prefer ground engagement and can establish control grips before sitting, or when the opponent's push-off is too explosive to counter with a standing technique. Accept the reset when the separation happens too quickly to counter effectively, and immediately establish your own dominant grips before the opponent fully resets their stance and offensive posture.",
         "answer_line": "Shoot on their backward weight shift",
         "distractors": {

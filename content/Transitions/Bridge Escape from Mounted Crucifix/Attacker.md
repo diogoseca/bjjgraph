@@ -120,7 +120,7 @@ description: "Execute the bridge escape from mounted crucifix in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "What distinguishes a successful bridge escape from an unsuccessful one in terms of physical commitment?",
+      "name": "In terms of physical commitment, what separates a successful bridge from a failed one here?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Successful bridges require full directional commitment with maximum hip extension and strong lateral drive toward the trapped arm side. Half-hearted bridges that hedge between directions or do not fully extend the hips generate insufficient force to disrupt established crucifix control. The top player's legs create a mechanical lock that only yields to substantial force applied in the correct direction. Full commitment also ensures the extraction window is at its widest at the bridge peak."

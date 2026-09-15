@@ -56,7 +56,7 @@ description: "Complete guide to defending against Overhook to Closed Guard trans
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is attempting to close their guard from overhook position?",
+      "name": "What is the earliest cue that the overhook guard player is closing their guard on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player beginning to shoulder walk or hip scoot upward toward your waist while simultaneously increasing their overhook pulling pressure. You will feel their hips shifting incrementally closer through subtle changes in leg pressure against your ribcage. Their free hand will also shift to firmly controlling your arm rather than attacking, indicating they are prioritizing guard consolidation over sweeps or submissions."
@@ -72,7 +72,7 @@ description: "Complete guide to defending against Overhook to Closed Guard trans
     },
     {
       "@type": "Question",
-      "name": "Your opponent's legs are wrapping around your waist but ankles are not yet crossed - what is your best immediate response?",
+      "name": "Their legs wrap your waist but the ankles are not crossed yet: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your last defensive window before closed guard is established. Immediately insert your elbow or forearm between their thigh and your hip to create a wedge preventing ankle crossing. Simultaneously drive your hips explosively backward and posture up to create distance. If you can prevent the ankle cross for even two seconds, the bottom player often cannot sustain the wrapping position and their legs will open, giving you a passing opportunity."

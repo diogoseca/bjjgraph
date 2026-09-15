@@ -56,7 +56,7 @@ description: "Defend against the Leg Extraction Escape from your leg entanglemen
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most effective moment to advance your entanglement when the opponent attempts leg extraction?",
+      "name": "Holding the entanglement, when is the best moment to advance as they attempt extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal advancement window is when the opponent commits both hands to stripping your foot or ankle grip. At this moment, their legs and hips are undefended because their hands are occupied with grip fighting rather than managing your hooks or blocking your hip advancement. Step your outside leg over their hip or re-pummel your inside hook deeper while their attention is focused on their hands. This creates the paradox where their grip-stripping success on one connection point results in deeper entanglement on another, effectively punishing the escape attempt."
@@ -72,7 +72,7 @@ description: "Defend against the Leg Extraction Escape from your leg entanglemen
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully strips your foot grip but you maintain the inside hook - what is your priority?",
+      "name": "They strip your foot grip but your inside hook stays — what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-establish the foot grip or advance to a deeper entanglement that does not rely on the foot grip for primary control. The inside hook alone provides temporary retention but will eventually be cleared if the opponent has free hands. Your options are: re-grip the foot from a different angle before they clear the hook, advance to saddle by stepping over with your outside leg while the hook holds them in place, or transition to a kneebar position that uses the inside hook as the primary control structure. The worst response is doing nothing because the inside hook has a limited retention window without the complementary foot grip."
@@ -80,7 +80,7 @@ description: "Defend against the Leg Extraction Escape from your leg entanglemen
     },
     {
       "@type": "Question",
-      "name": "What distinguishes a genuine extraction attempt from a feint designed to create scramble opportunities?",
+      "name": "How do you tell a genuine leg extraction attempt from a feint meant to start a scramble?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A genuine extraction attempt involves systematic connection point clearing with both hands committed to the entangled area, combined with base recovery and directional hip movement away from you. A feint typically involves only partial hand commitment with the opponent keeping one hand free for a collar drag, arm drag, or guard pull if you overreact. The telltale sign of a genuine attempt is the opponent recovering base before addressing the entanglement, because they need leverage for real extraction. A feint usually skips the base recovery step. Read the base position to differentiate: if they recover base first, it is likely genuine and you should counter accordingly."

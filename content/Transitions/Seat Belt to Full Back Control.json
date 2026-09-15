@@ -258,7 +258,7 @@
     ],
     "flashcards": [
       {
-        "question": "Why should you insert the bottom hook first rather than the top hook when consolidating back control from seat belt?",
+        "question": "Why insert the bottom hook before the top hook when consolidating back control?",
         "answer": "The bottom hook should be inserted first because it has a natural entry angle from the mat-side position and immediately anchors hip control that prevents the defender's primary escape—sliding their hips to the mat and turning away. The bottom hook also provides a stable base from which to insert the top hook, whereas inserting the top hook first leaves the bottom side uncontrolled where the defender can most easily create separation by dropping their hips to the mat.",
         "answer_line": "Bottom hook first, anchors hips",
         "distractors": {
@@ -272,7 +272,7 @@
         }
       },
       {
-        "question": "Your defender clamps their knees together tightly when you attempt to thread your first hook—what is your response?",
+        "question": "They clamp their knees as you thread your first hook from seat belt; what is your response?",
         "answer": "Do not force the hook against the clamp. Instead, use your top knee as a prying lever by placing it on top of the defender's upper thigh and driving downward pressure to separate their legs. Alternatively, threaten the rear naked choke by sliding your choking arm toward their neck—when their hands move to defend the choke, their legs typically loosen, creating the hook insertion window. The key is making them solve a problem with their hands that forces their legs to relax.",
         "answer_line": "Pry with knee or threaten choke",
         "distractors": {
@@ -286,7 +286,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail for ensuring an inserted hook is not immediately cleared?",
+        "question": "What mechanical detail most ensures an inserted hook isn't immediately cleared?",
         "answer": "Hook depth is the most critical detail. The heel must pass the midline of the defender's thigh with the instep pressing firmly against the inner thigh muscle. A deep hook requires the defender to create significant space and use both hands to clear, which compromises their neck defense. Shallow hooks near the knee can be cleared with simple knee-together motion and minimal effort. After insertion, apply constant inward calf pressure to maintain depth and resist clearing attempts.",
         "answer_line": "Heel past thigh midline, deep",
         "distractors": {
@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "During hook insertion, your defender explosively bridges and turns their hips—how do you prevent losing the position entirely?",
+        "question": "They bridge and turn explosively during hook insertion; how do you avoid losing the back?",
         "answer": "Immediately abandon the hook attempt and prioritize seat belt grip maintenance. Drive your chest forward following their movement, drop your weight low toward their hips, and tighten the seat belt grip to prevent any further rotation. Do not chase the hook during explosive movement—this creates space that accelerates the escape. Re-stabilize the seat belt control position completely, wait for the defender to settle, then reattempt hook insertion during the post-escape stillness window.",
         "answer_line": "Abandon hook, secure seat belt",
         "distractors": {
@@ -328,7 +328,7 @@
         }
       },
       {
-        "question": "How does the defender's body position change the hook insertion strategy—what do you do differently against a turtled versus a flat defender?",
+        "question": "How does hook insertion differ against a turtled defender versus a flat one?",
         "answer": "Against a turtled defender (knees under them, weight on hands and knees), use the top-hook-first variation by swinging your leg over their hip since the bottom hook entry is blocked by the mat and their tucked legs. Against a flat defender (lying on their side or stomach), use the standard bottom-hook-first approach since the bottom leg has natural access between their thighs from the mat-side angle. Against a defender on their side, adjust by inserting the hook on the exposed side first.",
         "answer_line": "Turtled: top hook over the hip",
         "distractors": {
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "You have successfully inserted your bottom hook but the defender immediately begins fighting it—should you continue with the top hook insertion or re-secure the bottom hook first?",
+        "question": "Bottom hook is in but they fight it: insert the top hook now or re-secure the bottom first?",
         "answer": "Re-secure the bottom hook first by applying strong inward calf pressure and driving the hook deeper while using seat belt pressure to limit the defender's ability to generate force against it. A poorly anchored first hook that gets cleared during second hook insertion leaves you with nothing and a compromised position. Only proceed to the top hook once the bottom hook is deep, stable, and the defender has stopped actively fighting it. The sequential approach demands that each step is completed before advancing.",
         "answer_line": "Re-secure bottom hook first",
         "distractors": {
@@ -522,7 +522,7 @@
         }
       },
       {
-        "question": "How do you balance defending hooks with defending the choke when the attacker uses neck threats to distract from insertion?",
+        "question": "How do you defend hooks and the choke when they use neck threats to open your legs?",
         "answer": "Maintain knee clamp as an automatic, passive defense that requires no hand involvement. Your hands should prioritize neck defense—chin tucked, hands protecting the collar line, and controlling the choking wrist. This dual-layer approach defends both threats simultaneously: legs handle hook defense passively while hands handle choke defense actively. When the attacker threatens the choke to open your legs, do not release the knee clamp to use your hands more aggressively on the grip. Instead, increase knee pressure while relying on chin tuck and minimal hand defense for the neck.",
         "answer_line": "Knees passive, hands defend neck",
         "distractors": {

@@ -78,7 +78,7 @@ description: "Learn to attack with the heel hook from Inside Ashi-Garami includi
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their body toward you to relieve knee pressure - what adjustment prevents their escape?",
+      "name": "They rotate toward you to relieve knee pressure in Inside Ashi—what prevents the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your inside leg harder across their hip to block the rotation and re-establish the perpendicular angle. If they continue turning, follow their movement by adjusting your body angle to maintain the rotational offset between their heel and knee. Their attempt to turn toward you often creates an opportunity to deepen the entanglement toward Honey Hole or Saddle, where your control over their rotation is significantly stronger."
@@ -86,7 +86,7 @@ description: "Learn to attack with the heel hook from Inside Ashi-Garami includi
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the strongest rotational control for finishing the heel hook from Inside Ashi-Garami?",
+      "name": "What grip gives the strongest rotational control for the Inside Ashi-Garami heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The figure-four (Kimura-style) grip provides the strongest rotational control. Position your primary wrist behind the opponent's Achilles tendon, then grip your own wrist with your secondary hand. This creates a closed kinetic chain that distributes rotational force across both forearms rather than relying on a single hand. The heel must be pinned to your chest throughout, with your forearms acting as levers that rotate the heel while your body generates the primary torque through hip extension."
@@ -94,7 +94,7 @@ description: "Learn to attack with the heel hook from Inside Ashi-Garami includi
     },
     {
       "@type": "Question",
-      "name": "You have the heel secured but your opponent is scooting their hips away to create distance - how do you maintain finishing position?",
+      "name": "They scoot their hips away while you hold the heel — how do you keep finishing position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their retreating hips by scooting your own hips toward them while maintaining the figure-four grip and leg clamp. Use your inside leg across their hip as a tether point - as they scoot away, your inside leg extends with them, maintaining connection. If they create significant distance, pull yourself toward them using the heel grip as an anchor point rather than reaching with extended arms, which weakens your finishing mechanics."
@@ -102,7 +102,7 @@ description: "Learn to attack with the heel hook from Inside Ashi-Garami includi
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the heel hook is approaching the breaking point and requires extreme caution?",
+      "name": "Which signs in your opponent warn that the heel hook is nearing the breaking point?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary indicators include feeling the opponent's knee beginning to rotate with the pressure rather than resisting it, any popping or clicking sensations transmitted through the grip, sudden changes in the opponent's breathing or vocalization, their body going rigid or suddenly limp, and feeling a 'give' in the ligament structure. In training, you must stop well before any of these indicators appear. The delayed pain response of ligament attacks means significant damage can occur before the defender feels enough pain to tap."
@@ -110,7 +110,7 @@ description: "Learn to attack with the heel hook from Inside Ashi-Garami includi
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs both your hands and attempts to strip your figure-four grip on their heel - what is your response?",
+      "name": "They grab both hands to strip your figure-four on the heel — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tighten your grip by pulling your elbows closer to your ribs and pressing the heel deeper into your chest. Use your inside leg to push their hip away, which extends the distance between their hands and your grip, making their grip-stripping effort less effective. If they persist, briefly release one hand to break their grip on your wrist, then immediately re-establish the figure-four. Alternatively, switch to applying a straight ankle lock finish which requires different grip positioning they are not defending."

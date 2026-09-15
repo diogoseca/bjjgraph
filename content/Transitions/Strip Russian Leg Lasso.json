@@ -308,7 +308,7 @@
         }
       },
       {
-        "question": "Your opponent begins elevating their hips for a sweep as you start breaking their sleeve grip - what do you do?",
+        "question": "They elevate their hips for a sweep as you break their lasso sleeve grip: what do you do?",
         "answer": "Immediately abandon the sleeve grip break and focus entirely on base recovery. Widen your stance, sprawl your hips back and down, and drive weight through your legs. A failed strip attempt is vastly preferable to being swept. Once your base is re-established and the sweep threat neutralized, restart the stripping sequence from step one. Never sacrifice base stability for grip break completion.",
         "answer_line": "Abandon grip break, recover base",
         "distractors": {
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "Why is it important to chain the strip directly into a passing attempt rather than pausing after extraction?",
+        "question": "Why chain straight into a pass after stripping the Russian lasso instead of pausing?",
         "answer": "The window between a successful lasso extraction and the opponent re-establishing a guard system is extremely narrow, typically one to three seconds for a skilled guard player. Pausing after extraction allows them to insert hooks, establish new grips, and rebuild their defensive structure. Immediately chaining into a pass exploits the brief period where the opponent has no established guard, dramatically increasing passing success rate compared to stripping and then setting up a separate passing sequence.",
         "answer_line": "Chain straight into the pass",
         "distractors": {

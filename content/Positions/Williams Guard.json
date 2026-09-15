@@ -263,7 +263,7 @@
     },
     "flashcards": [
       {
-        "question": "What is the first priority when trapped in Williams Guard Top with shoulder lock control on your arm?",
+        "question": "Caught in Williams Guard with your arm in the shoulder lock, what is your first priority?",
         "answer": "Submission defense must take absolute precedence over passing advancement. Protect your shoulder joint by maintaining proper alignment, keeping your elbow bent and close to your body, and preventing full extension or rotation into the submission. Attempting to pass while your arm remains compromised virtually guarantees either submission or sweep, so systematic arm extraction must be completed before any passing attempts.",
         "answer_line": "Protect shoulder before passing",
         "distractors": {
@@ -277,7 +277,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their hips to transition from Williams Guard to omoplata—what immediate adjustment do you make?",
+        "question": "In Williams Guard, your opponent rotates their hips for the omoplata—what do you do immediately?",
         "answer": "The moment you recognize the hip rotation signaling omoplata transition, immediately posture up and create space in the opposite direction of their rotation. Drive your weight forward over their hips while simultaneously working to clear your arm using a pressure pass or stack pass motion. The space they create during rotation is your opportunity to advance—if you stay static, the omoplata completes.",
         "answer_line": "Posture up, clear arm fast",
         "distractors": {
@@ -291,7 +291,7 @@
         }
       },
       {
-        "question": "What are the essential weight distribution principles for maintaining base while defending the shoulder lock?",
+        "question": "Defending the Williams Guard shoulder lock, how should you distribute weight to keep your base?",
         "answer": "Distribute weight primarily on your free arm (kept near centerline, not posted vulnerably) and your legs with a wide base. Your trapped arm should not bear weight as this increases submission pressure. Keep hips low and angled rather than squared to opponent's body. The goal is three-point base stability that prevents sweeps while allowing controlled movements for arm extraction.",
         "answer_line": "Weight on free arm and legs",
         "distractors": {
@@ -319,7 +319,7 @@
         }
       },
       {
-        "question": "How do you recognize when opponent is setting up a triangle from Williams Guard and how do you counter?",
+        "question": "How do you spot an incoming triangle from Williams Guard, and how do you counter it?",
         "answer": "Triangle setup is signaled by the opponent opening their guard wider, often while controlling your head or posture to create the necessary angle for leg positioning. Counter by immediately driving forward with a guard pass before they can close the triangle, or by keeping your posture tall and preventing head control. The open guard moment is your window—once legs start closing, options diminish rapidly.",
         "answer_line": "Pass forward before legs close",
         "distractors": {
@@ -759,7 +759,7 @@
         }
       },
       {
-        "question": "How do you recover Williams Guard control after a partial escape where opponent frees their arm slightly?",
+        "question": "Your opponent partly frees their arm from your Williams Guard—how do you recover control?",
         "answer": "Immediate action is critical—do not let them fully extract. Hip escape to re-angle, use your legs to block their advance, and immediately work to re-isolate the arm by swimming your grip back to figure-four position. If they've created too much space, transition to another guard (butterfly, open guard) rather than fighting for lost position. Partial escapes often expose the back as they turn to extract—read this and transition to back take if available.",
         "answer_line": "Re-isolate the arm fast",
         "distractors": {
@@ -861,7 +861,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the Williams Guard and distinguishes it from other open guards?",
+      "question": "What structural configuration defines Williams Guard versus other open guards?",
       "answer": "Williams Guard is defined by the bottom player trapping one of the opponent's arms in a figure-four shoulder-lock grip while the legs manage distance underneath. The controlling arm threads behind the opponent's tricep and the free hand grips its own wrist, isolating the shoulder joint and bending it toward its end range. This joint entrapment, rather than a collar-and-sleeve or lapel grip, is the defining control point, which is why the position functions natively in no-gi where fabric grips are unavailable. The trapped arm simultaneously serves as the submission threat and the primary steering wheel for the whole exchange.",
       "answer_line": "Figure-four shoulder lock trap",
       "distractors": {
@@ -875,7 +875,7 @@
       }
     },
     {
-      "question": "Why does the trapped arm function as a control mechanism rather than purely a submission in this position?",
+      "question": "In Williams Guard, why is the trapped arm a control mechanism and not just a submission?",
       "answer": "The figure-four on the shoulder is deep enough to threaten a finish but is used primarily to dictate the opponent's posture and deny their posting hand. Because the isolated arm cannot post to the mat or frame effectively, that player's base is reduced and their passing options collapse. Every attempt to relieve the shoulder pressure forces a specific weight shift or rotation that becomes a readable trigger. The joint threat therefore acts as leverage over the whole body, making it a control hub from which sweeps, omoplatas, triangles, and back-takes branch.",
       "answer_line": "Denies their post, not just tap",
       "distractors": {
@@ -889,7 +889,7 @@
       }
     },
     {
-      "question": "How does the interplay between shoulder-lock pressure and hip angle create the position's central dilemma?",
+      "question": "How do shoulder-lock pressure and hip angle interact to create Williams Guard's central dilemma?",
       "answer": "The shoulder lock only stays tight when the bottom player's hips are angled off the opponent's centerline, keeping the trapped limb isolated and away from the free arm. When the passing player tries to square their hips to pass or stack, they intensify the shoulder rotation and feed the submission; when they rotate away to relieve the joint, they surrender the angle and open a sweep or omoplata line. This means both players are fighting over the same angular relationship, and neither can settle. The position is inherently dynamic because any static posture resolves in favor of one player's attack.",
       "answer_line": "Neither posture can stay static",
       "distractors": {
@@ -945,7 +945,7 @@
       }
     },
     {
-      "question": "How does Williams Guard relate to and differ from adjacent guards like rubber guard and overhook guard?",
+      "question": "How does Williams Guard compare with and differ from rubber guard and overhook guard?",
       "answer": "Williams Guard shares the arm-isolation philosophy of rubber guard and overhook guard, all of which trap an opponent's limb to break posture and open attacks. It differs in that its control comes from a dedicated shoulder-lock figure-four rather than an overhooked arm or a leg-assisted head-and-arm clamp. Compared to butterfly guard it trades the pure hook-based elevation game for an upper-body joint entrapment, and it commonly transitions out to X-guard or single-leg X when the opponent posts to defend. Its uniqueness is that grip retention itself is a live submission, blurring the line between control and finish.",
       "answer_line": "Grip itself is a live submission",
       "distractors": {

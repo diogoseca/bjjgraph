@@ -76,7 +76,7 @@ description: "Learn to defend the belly down armbar from side control. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What defensive posture should you maintain in side control bottom to prevent the arm isolation that starts this attack?",
+      "name": "What bottom side control posture prevents the arm isolation that starts this armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep both elbows pinched tight to your body with hands clasped together, gripping your own wrist, or holding your collar and belt. This connected defensive structure forces the attacker to break a grip connection before isolating an arm, giving you time to recognize the threat and defend. Extended or loose arms are the primary vulnerability that enables this submission."

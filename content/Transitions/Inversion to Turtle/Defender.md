@@ -56,7 +56,7 @@ description: "How to defend against Inversion to Turtle in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent places both hands on your inside knee while in Ushiro Ashi-Garami—what does this signal and how should you respond?",
+      "name": "In Ushiro Ashi-Garami they grip your inside knee with both hands: what's coming and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both hands on your inside knee is the primary telegraph for an Inversion to Turtle attempt. They are establishing the pulling grip needed for push-pull rotational mechanics. Respond by immediately tightening your inside leg pressure on their thigh, considering a step-through to saddle to deepen entanglement, or accelerating your heel hook attack before they can redirect focus from defense to escape. Do not ignore this grip change."

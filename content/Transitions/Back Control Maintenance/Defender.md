@@ -64,7 +64,7 @@ description: "How to defend against Back Control Maintenance in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins cycling between rear naked choke threat and collar grip setup—when should you attempt your escape?",
+      "name": "They cycle between RNC threat and collar grip on your back—when do you launch your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal escape window is during the grip transition itself, when the attacker releases one grip configuration to establish another. During this brief moment, their integrated control system has a gap—the choking threat is temporarily reduced and their hands are repositioning. This is when you should execute a decisive movement such as stripping the transitioning grip or beginning your hip escape, because attempting the same escape against fully consolidated control requires far more energy and has significantly lower success probability."
@@ -80,7 +80,7 @@ description: "How to defend against Back Control Maintenance in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent transitions from standard hooks to body triangle—how does this change your escape strategy?",
+      "name": "Your opponent switches from hooks to a body triangle—how does your back escape strategy change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Body triangle eliminates the hook-removal escape path because you cannot simply slide your hips past locked legs. Your strategy shifts to addressing the body triangle directly: turn toward the locking leg side to reduce the squeeze and compress the triangle angle, then work to unlock their feet by attacking the ankle lock on the crossing foot. Alternatively, accept that lower body escape is temporarily blocked and focus entirely on upper body grip stripping and creating enough rotation to eventually face the attacker despite the body triangle, which is less effective at preventing rotation than it is at preventing downward hip escape."
@@ -88,7 +88,7 @@ description: "How to defend against Back Control Maintenance in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How should you manage energy when defending against an attacker who prioritizes positional control over immediate submissions?",
+      "name": "Defending the back against a control-first attacker, how should you manage your energy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a maintenance-focused attacker, energy conservation is paramount because their strategy explicitly relies on draining your energy through sustained pressure. Use structural defense—chin position, elbow placement against their arms, hip angle—rather than muscular resistance to maintain your defensive posture. Avoid explosive escape attempts against fully consolidated control. Instead, maintain calm breathing, accept the position temporarily, and invest energy only in calculated escape attempts timed to the attacker's grip transitions or adjustment moments. The attacker's patience is their weapon; your patience in waiting for genuine openings is the counter."

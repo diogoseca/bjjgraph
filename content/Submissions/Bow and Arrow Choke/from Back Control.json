@@ -296,7 +296,7 @@
     ],
     "flashcards": [
       {
-        "question": "What anatomical structures does the Bow and Arrow Choke primarily target, and how does the collar create compression?",
+        "question": "What does the Bow and Arrow Choke target, and how does the collar create compression?",
         "answer": "The Bow and Arrow Choke targets both carotid arteries on the sides of the neck. The gi collar material wraps across the front of the neck with the reinforced seam and wrist blade pressing into one carotid while the collar fabric compresses the other. The two-directional pull between the collar hand and the leg grip tightens this loop progressively, creating bilateral blood flow restriction that leads to unconsciousness within seconds of full application.",
         "safety_critical": true,
         "answer_line": "Both carotids, collar plus blade",
@@ -311,7 +311,7 @@
         }
       },
       {
-        "question": "Your opponent is defending the collar grip with both hands on your wrist. What adjustment creates a submission opportunity?",
+        "question": "From back control, they fight your collar grip with both hands — what attack opens up?",
         "answer": "When the opponent commits both hands to fighting the collar grip, their neck is completely undefended against the rear naked choke. Transition immediately to an RNC attempt by releasing or maintaining the collar while your free arm snakes under the chin. The opponent cannot simultaneously fight the collar and defend the RNC, creating a fundamental dilemma. If they release the collar to defend the RNC, re-establish the collar grip deeper.",
         "safety_critical": false,
         "answer_line": "Transition to naked choke",
@@ -356,7 +356,7 @@
         }
       },
       {
-        "question": "What are the immediate steps you must take when your training partner goes unconscious from this choke?",
+        "question": "What are the immediate steps when your partner goes unconscious from the bow and arrow?",
         "answer": "Immediately release all grips and pressure the moment you detect unconsciousness, which presents as sudden loss of muscle tension, arms dropping, or no response to verbal cues. Place the partner on their back, elevate their legs above heart level to restore blood flow to the brain, and monitor for breathing. Most people regain consciousness within 10-20 seconds. Do not shake them or apply stimulation. If they do not regain consciousness within 20 seconds, call for medical assistance immediately. Stay with them until they are fully alert and oriented.",
         "safety_critical": true,
         "answer_line": "Release, elevate legs, monitor",
@@ -371,7 +371,7 @@
         }
       },
       {
-        "question": "During the transition from seatbelt to collar grip, your opponent begins turning to face you. What is the correct response?",
+        "question": "They start turning toward you during the seatbelt-to-collar transition — what do you do?",
         "answer": "If you have already established the collar grip, maintain it and use your remaining hook to slow their rotation. Pull the collar tight to prevent them from completing the turn, as the collar itself becomes a rotation check. If the collar is not yet secured, abandon the bow and arrow attempt and re-establish the seatbelt to maintain back control, as losing the back is a far worse outcome than missing one submission attempt. Position retention always takes priority over submission attempts.",
         "safety_critical": false,
         "answer_line": "Hold collar or resecure seatbelt",
@@ -401,7 +401,7 @@
         }
       },
       {
-        "question": "Your opponent tucks their chin effectively against the initial collar entry. What grip adjustment bypasses this defense?",
+        "question": "Their chin tuck blocks your collar entry for the bow and arrow — what grip adjustment beats it?",
         "answer": "Use a caterpillar grip motion to walk the collar deeper incrementally rather than trying to force it past the chin in one motion. Grip the collar, pull slack through with small adjustments, regrip deeper, and repeat. You can also use your free hand to push the opponent's chin up momentarily while the collar hand feeds underneath, or switch to feeding the collar from below the chin line rather than over the top. If the chin tuck is very strong, transition to a short choke variation that works with a shallower grip placement.",
         "safety_critical": false,
         "answer_line": "Caterpillar grip, walk deeper",
@@ -416,7 +416,7 @@
         }
       },
       {
-        "question": "What distinguishes a correctly applied blood choke from a dangerous airway choke or jaw crush in the bow and arrow?",
+        "question": "In the bow and arrow, how do you tell a proper blood choke from a jaw crush or airway choke?",
         "answer": "A correctly applied blood choke positions the collar across the sides of the neck compressing the carotid arteries, producing a sensation of dimming vision and lightheadedness without significant pain. A jaw crush positions the collar too high across the mandible, causing sharp pain without effective blood restriction. An airway choke places pressure on the trachea at the front of the throat, causing choking, coughing, and potential tracheal damage. The correction is ensuring the collar sits below the chin and across the lateral neck, with the pulling direction angled to compress the sides rather than crushing the front.",
         "safety_critical": true,
         "answer_line": "Dizzy, no pain = blood choke",
@@ -431,7 +431,7 @@
         }
       },
       {
-        "question": "In competition, your bow and arrow grip is established but the opponent is defending the leg grab. What finishing alternative maintains pressure?",
+        "question": "Your bow and arrow grip is set but they defend the far leg grab — what finishing option remains?",
         "answer": "If you cannot secure the far leg, you can use your free arm to push against the opponent's far shoulder or hip to create the opposing force instead. Another option is to hook the far leg with your own leg rather than gripping it with your hand, freeing both hands for collar work. You can also transition to a sliding collar choke by bringing your free hand to grip the other side of the collar, creating a cross-collar strangle from the back. The key is maintaining collar tension throughout any grip transition so the opponent cannot use the adjustment window to escape.",
         "safety_critical": false,
         "answer_line": "Hook far leg, free hands for collar",
@@ -609,7 +609,7 @@
         }
       },
       {
-        "question": "What is the correct defensive body position when the collar grip has been locked and you cannot strip it?",
+        "question": "The bow and arrow collar grip is locked and you cannot strip it — what body position do you take?",
         "answer": "Curl your body forward into a compact ball with knees drawn toward your chest, chin tucked firmly to your sternum, and both hands controlling the choking wrist with a two-on-one grip. This shortened body position reduces the attacker's bow-and-arrow leverage by denying the extension they need to generate maximum compression. Simultaneously use hip movement to prevent the attacker from establishing the perpendicular angle. Never bridge or extend your spine, as this assists the attacker's finishing mechanics.",
         "safety_critical": false,
         "answer_line": "Curl up, chin down, strip the wrist",

@@ -56,7 +56,7 @@ description: "Defend and escape the mounted triangle squeeze in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is framing against the attacker's hip more effective than pushing against their leg during squeeze defense?",
+      "name": "Why frame on the attacker's hip rather than push their leg when defending the mounted triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip frame prevents the attacker from achieving the perpendicular angle that gives the squeeze its mechanical advantage. Without the correct angle, even strong leg compression misses the carotid arteries and applies pressure to non-vital structures. Pushing against the leg fights the entire strength of the figure-four lock plus gravity, which is mechanically futile. The hip frame addresses the root cause of choking effectiveness, while leg pushing addresses only the symptom."

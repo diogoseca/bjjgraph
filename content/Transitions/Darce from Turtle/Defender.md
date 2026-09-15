@@ -56,7 +56,7 @@ description: "How to defend against the Darce from Turtle in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a Darce attempt is beginning from turtle, and what should you do immediately?",
+      "name": "What is the earliest cue of a darce from turtle, and what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling opponent's arm begin to swim under your armpit while their chest pressure increases on your back. The immediate response is to tuck your chin hard to your chest, clamp your elbows tight to your knees to prevent deeper penetration, and begin pulling your far-side arm toward your centerline to prevent it from being trapped. Early recognition and response dramatically increases escape probability because the threading has not yet achieved the depth needed for an effective choke."
@@ -72,7 +72,7 @@ description: "How to defend against the Darce from Turtle in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked the Darce grip and is walking their hips to adjust their finishing angle - what escape do you prioritize?",
+      "name": "Their darce is locked and they're walking their hips. Which escape do you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the grip is already locked, your best option is to move with their hip walk in the same direction while working to extract your trapped arm. Use your free hand to grip your own wrist and pull the trapped arm toward your centerline. As they walk around, the movement can create momentary looseness in the grip that aids extraction. If extraction fails, attempt a granby roll in the direction of their hip movement to create a scramble before they settle into finishing position. Time is critical - every second they adjust brings you closer to submission."

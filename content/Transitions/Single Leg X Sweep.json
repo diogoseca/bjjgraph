@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "Your opponent posts their far hand on the mat as you initiate the sweep - what is the optimal adjustment?",
+        "question": "They post their far hand on the mat as you start the Single Leg X sweep: what's the adjustment?",
         "answer": "The posted hand creates an anchor point you can exploit. Attack their posted arm with your free hand to strip the post, or switch to a kiss-of-the-dragon style inversion by ducking under their base to emerge behind them for back control. Alternatively, redirect the sweep angle toward the posted hand side using waiter sweep mechanics, turning their defensive post into a liability by sweeping them over their own arm.",
         "answer_line": "Attack the post or invert",
         "distractors": {
@@ -388,7 +388,7 @@
         }
       },
       {
-        "question": "Your opponent drives heavy forward pressure and begins to flatten your guard - how do you chain to an alternative attack?",
+        "question": "They drive forward and flatten your Single Leg X: how do you chain to another attack?",
         "answer": "When the opponent drives forward, their weight commitment creates vulnerability to inversion-based attacks. Use your top leg frame as a barrier to redirect their pressure laterally rather than absorbing it. From there, you can invert underneath them for a kiss-of-the-dragon back take, transition to deep half guard by releasing the top hook and threading underneath, or convert to ashi garami by controlling the ankle and rotating your hips to entangle their leg in a submission-oriented position.",
         "answer_line": "Frame, invert, take back/leg",
         "distractors": {
@@ -527,7 +527,7 @@
         }
       },
       {
-        "question": "Your opponent has established Single Leg X and begins pulling your upper body forward - what is your immediate priority?",
+        "question": "They have Single Leg X and start pulling your upper body forward: what is your immediate priority?",
         "answer": "Your immediate priority is to strip or break their upper body grip before they can combine the pull with leg extension. Use your free hand to peel their sleeve grip or break the collar tie, then re-establish your posture by driving your hips back and lowering your base. If the grip cannot be broken quickly, post your far hand on the mat for stability while lowering your center of gravity to resist the combined pull-and-extend mechanics of the sweep.",
         "answer_line": "Strip the grip, re-posture",
         "distractors": {
@@ -555,7 +555,7 @@
         }
       },
       {
-        "question": "What base adjustments should you make when you feel the sweep beginning to succeed despite your initial defense?",
+        "question": "Single leg X sweep is succeeding despite your defense: how do you adjust your base?",
         "answer": "When the sweep is gaining momentum, immediately widen your base by stepping your free leg as far as possible in the direction opposite the sweep, post your near hand firmly on the mat for structural support, and lower your hips as much as possible to reduce the leverage advantage. If these measures are insufficient, consider tactically sitting to guard rather than being swept completely, which allows you to recover guard position on your terms rather than conceding the full sweep and top position.",
         "answer_line": "Widen base, post, sit to guard",
         "distractors": {
@@ -569,7 +569,7 @@
         }
       },
       {
-        "question": "What are the key visual and tactile cues that distinguish a Single Leg X Sweep from a transition to leg lock?",
+        "question": "Which cues tell you a single leg X sweep is instead becoming a leg lock entry?",
         "answer": "A sweep attempt is characterized by strong upward elevation through the bottom hook, rotational force through the sweeper's shoulders, and their upper body pulling you forward and to the side. In contrast, a leg lock transition shows the opponent's hips rotating away from you rather than driving upward, their hands releasing upper body grips to control your ankle or heel, and their body dropping lower rather than elevating. Recognizing this distinction early allows you to choose the appropriate defense: base and posture for sweeps versus leg extraction and defensive boot for leg attacks.",
         "answer_line": "Hips rotate away, drop low",
         "distractors": {

@@ -259,7 +259,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the optimal timing window for initiating the pass versus pursuing a back take from reverse half guard top?",
+        "question": "From reverse half top, what tells you to pass rather than take the back?",
         "answer": "Initiate the pass when the bottom player flattens defensively and faces away from you, as this indicates they are prioritizing back defense over guard recovery. If the bottom player turns their shoulders toward you to face you, abandon the pass and pursue the back take instead. The bottom player's defensive choice dictates your technique selection—never force a pass against a turning opponent or a back take against a flattened one.",
         "answer_line": "Flattens & faces away = pass",
         "distractors": {
@@ -315,7 +315,7 @@
         }
       },
       {
-        "question": "What grip or control is most essential for preventing the bottom player's guard recovery during the pass?",
+        "question": "Passing reverse half, which control is most essential to stop their guard recovery?",
         "answer": "Far hip control with your near hand is the most essential control for preventing guard recovery. The bottom player's primary defensive mechanism is shrimping their hips away to create space for knee insertion and guard recovery. Blocking the far hip eliminates this option entirely. Without far hip control, even perfect chest pressure and crossface cannot prevent a determined shrimp escape, because the bottom player's hip movement generates from below your chest contact point.",
         "answer_line": "Far hip control blocks the shrimp",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "Your opponent times a bridge during your hip switch and begins to reverse you—what went wrong and how do you respond?",
+        "question": "They bridge during your hip switch in reverse half and start reversing you: why, and what now?",
         "answer": "The bridge counter succeeds when you lift your hips during the hip switch, shifting your center of gravity high enough to be displaced. Respond immediately by abandoning the hip switch, dropping your weight flat, and re-establishing heavy chest pressure. The correction for future attempts is to keep hips low and heavy throughout the hip switch—the extraction should feel like sliding sideways rather than lifting and rotating. If the bottom player has strong bridge timing, use smaller incremental hip switches rather than one large movement.",
         "answer_line": "Drop flat and reset chest pressure",
         "distractors": {
@@ -485,7 +485,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the single most important defensive structure to maintain when defending against pass reverse half?",
+        "question": "Defending the reverse half pass, which defensive structure matters most to maintain?",
         "answer": "The leg clamp on the opponent's trapped leg is the most important defensive structure. Without active leg control, the opponent can freely extract their leg and complete the pass immediately regardless of any upper body frames or defensive movements. Every defensive action must preserve leg clamp tension as its first priority—frames, shrimps, and inversions are secondary to maintaining the leg entanglement.",
         "answer_line": "Maintain the leg clamp above all",
         "distractors": {
@@ -513,7 +513,7 @@
         }
       },
       {
-        "question": "Your opponent has strong crossface control from behind and you cannot turn to face them—what alternative defensive pathway should you pursue?",
+        "question": "A crossface from behind stops you turning in reverse half bottom: what pathway do you use instead?",
         "answer": "When the crossface prevents turning, use the inversion pathway instead. Hip escape slightly to create space under your body, then rotate underneath the opponent using your legs and hip mobility. The inversion bypasses the crossface entirely because you are moving in the opposite direction from what the crossface controls. Alternatively, focus solely on leg clamp maintenance and shrimping to recover knee shield, which does not require turning your upper body.",
         "answer_line": "Invert underneath instead of turning",
         "distractors": {
@@ -527,7 +527,7 @@
         }
       },
       {
-        "question": "What is the critical difference between defending the pass and defending the back take from reverse half guard bottom?",
+        "question": "From reverse half bottom, how does defending the pass differ from defending the back take?",
         "answer": "Defending the pass requires you to prevent leg extraction by maintaining your clamp and creating frames to block the hip switch. Defending the back take requires you to prevent the opponent from following your rotation and inserting hooks. These are opposing defensive priorities: turning to face prevents the pass but risks the back take, while flattening prevents the back take but enables the pass. You must read the opponent's intent and choose the appropriate defense for each moment.",
         "answer_line": "Turn stops pass, risks back take",
         "distractors": {
@@ -541,7 +541,7 @@
         }
       },
       {
-        "question": "Your leg clamp begins slipping during the opponent's extraction—what emergency response should you execute?",
+        "question": "Your leg clamp slips as they extract in reverse half: what is your emergency response?",
         "answer": "Immediately abandon any upper body defensive plan and redirect all effort to re-securing the leg clamp. Use both legs to recapture the opponent's leg with maximum clamping pressure. If the leg is too far extracted to recapture, immediately transition to plan B: shrimp explosively and insert your knee for a knee shield before they complete the pass to side control. The knee shield is your backup barrier when the primary leg clamp fails.",
         "answer_line": "Re-clamp or shrimp knee shield",
         "distractors": {

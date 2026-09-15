@@ -108,7 +108,7 @@ description: "How to execute Short Choke Attack in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts using their free hand to block your choking arm from threading under their chin. How do you respond?",
+      "name": "From gift wrap, they block your choking arm from threading under the chin — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain pressure and let their arm fatigue from the constant defensive effort. Their free arm blocking the choke opens pathways to armbar attack since that arm is now isolated and extended. You can also threaten the armbar to force them to retract the hand, then immediately thread the choke. The key is recognizing this as opportunity rather than obstacle."

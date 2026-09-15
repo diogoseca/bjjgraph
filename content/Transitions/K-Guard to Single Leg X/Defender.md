@@ -56,7 +56,7 @@ description: "Defend against the K-Guard to Single Leg X transition from the top
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is initiating the K-Guard to SLX transition?",
+      "name": "What is the earliest cue the bottom player is moving from K-guard to single leg X?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the inverted inside hook beginning to release from its crossed position over your trapped leg. In standard K-Guard, this hook maintains lateral pulling tension across your leg—when that tension changes or the hook begins unwinding, the bottom player is beginning the hook reconfiguration needed for SLX. Responding at this stage gives you the maximum prevention window before the transition gains momentum."
@@ -64,7 +64,7 @@ description: "Defend against the K-Guard to Single Leg X transition from the top
     },
     {
       "@type": "Question",
-      "name": "Why is a half-committed backstep more dangerous than either staying put or fully committing to the backstep?",
+      "name": "Why is a half-committed backstep worse than either staying put or backstepping fully?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A half-committed backstep creates the worst of both worlds: it provides the bottom player with the space they need for hook reconfiguration (which staying forward would deny) but does not clear your leg from their control range (which a full backstep would achieve). The half-step essentially gives them a wider workspace for threading the ankle wrap while keeping your leg within reach. Either commit fully to clear entirely, or drive forward to compress and deny."
@@ -88,7 +88,7 @@ description: "Defend against the K-Guard to Single Leg X transition from the top
     },
     {
       "@type": "Question",
-      "name": "The bottom player has partially established SLX with the ankle wrap but no hip elevation yet—what is your response priority?",
+      "name": "They have the single leg X ankle wrap but no hip elevation yet — what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing hip elevation. Lower your base by bending your knees deeply and widening your stance. Control the bottom player's outside hook by pushing their knee or foot toward the mat with your free hand. Without hip elevation, the SLX ankle wrap alone lacks the leverage for sweeps or leg attacks. Once you neutralize the elevation threat, systematically address the ankle wrap by pushing the wrapping leg toward the mat while maintaining your lowered base position."

@@ -306,7 +306,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary anatomical target of the Boston Crab and what type of injury risk does it present?",
+        "question": "What does the Boston Crab target anatomically, and what injury risk does it carry?",
         "answer": "The primary target is the lumbar spine (lower back) through hyperextension, with secondary stress on hip flexors. The main injury risk is lumbar spine strain, disc herniation, or muscle tears in the lower back region. This is why the submission must be applied extremely slowly and progressively, with constant monitoring for tap signals. The spinal compression nature makes it one of the higher-risk submissions in terms of potential for serious injury.",
         "safety_critical": true,
         "answer_line": "Lumbar spine hyperextension",
@@ -321,7 +321,7 @@
         }
       },
       {
-        "question": "Why must the Boston Crab be applied slowly over 5-7 seconds minimum, and what are the consequences of explosive application?",
+        "question": "Why apply the Boston Crab over at least 5-7 seconds, and what does explosive application risk?",
         "answer": "Slow application (5-7 seconds minimum) is mandatory because the spine requires time to respond to compression forces and the opponent needs time to recognize the submission danger and tap safely. Explosive application can cause immediate disc herniation, ligament tears, or muscle strains before the opponent can tap. The spine is particularly vulnerable to sudden hyperextension, and unlike joint locks where damage is localized, spinal injuries can have severe long-term consequences including chronic pain and mobility issues. Training partners must be able to feel the pressure building and make informed decisions about tapping.",
         "safety_critical": true,
         "answer_line": "Spine needs time to signal danger",
@@ -381,7 +381,7 @@
         }
       },
       {
-        "question": "Your opponent begins pulling their knees toward their chest during the sit-back phase - what adjustment maintains finishing pressure?",
+        "question": "They pull their knees to their chest during your sit-back—how do you keep finishing pressure?",
         "answer": "Immediately increase the forward pull on their ankles while simultaneously sitting back more aggressively to outpace their defensive leg retraction. The key is maintaining the ankle-to-hip distance that creates spinal extension. If they successfully bring their knees under their hips, the submission pressure dissipates entirely. You can also spread their ankles slightly apart which makes it biomechanically harder for them to pull knees to chest. If they continue winning the leg battle, consider transitioning to single leg attacks on the exposed ankle rather than forcing a failed Boston Crab.",
         "safety_critical": false,
         "answer_line": "Pull ankles, sit back harder",
@@ -426,7 +426,7 @@
         }
       },
       {
-        "question": "Your opponent begins attempting to roll to either side during the Boston Crab - how do you counter this escape?",
+        "question": "Your opponent tries to roll to either side in the Boston Crab—how do you counter?",
         "answer": "Counter the roll by immediately shifting your base in the opposite direction of their roll attempt, using your body weight to pin their hips in place. If they roll right, shift your weight and base left while pulling their ankles in that direction. You can also prevent rolling by keeping their ankles centered and elevating their hips higher - the more their hips are elevated, the less rotational momentum they can generate. If they successfully initiate a roll, follow the roll and transition to back control or leg entanglement rather than fighting against the rotation and potentially injuring the spine through twisting forces.",
         "safety_critical": false,
         "answer_line": "Base opposite, elevate hips",
@@ -441,7 +441,7 @@
         }
       },
       {
-        "question": "What distinguishes a finishing Boston Crab from a control-only Boston Crab in terms of body positioning?",
+        "question": "What body positioning separates a finishing Boston Crab from a control-only one?",
         "answer": "A control-only Boston Crab maintains leg control with moderate hip elevation but minimal sit-back depth - your torso remains relatively upright and opponent's spine has only slight extension. A finishing Boston Crab requires full seat commitment where your hips are completely below your shoulders, creating maximum lever arm length. The transition from control to finish occurs when you commit your weight backward past the tipping point where opponent's lumbar spine moves into significant hyperextension. In training, you should demonstrate the finishing position exists without fully loading it - show you could finish without actually applying maximum pressure.",
         "safety_critical": false,
         "answer_line": "Full seat, hips below shoulders",
@@ -456,7 +456,7 @@
         }
       },
       {
-        "question": "What are the warning signs that your Boston Crab control is failing and you should transition to another technique?",
+        "question": "What signs show your Boston Crab is failing and you should transition to something else?",
         "answer": "Warning signs include: one ankle beginning to slip from your grip despite adjustment attempts, opponent successfully getting one knee underneath their hip, opponent's upper body beginning to rise as they post on hands with strength, their legs separating despite your efforts to keep them together, or opponent generating enough hip movement to begin rotating out. When you recognize these signs, do not force the submission - transition immediately to available alternatives such as back control if you can maintain upper body connection, single leg attacks on the more controlled leg, or crab ride position to reset the attack. Forcing a failing Boston Crab risks injury from awkward pressure angles.",
         "safety_critical": false,
         "answer_line": "Knee under hip, legs slipping",
@@ -634,7 +634,7 @@
         }
       },
       {
-        "question": "When should you tap to a Boston Crab in training, and why is early tapping especially important for this submission?",
+        "question": "When should you tap to a Boston Crab in training, and why is early tapping critical here?",
         "answer": "You should tap as soon as you feel legitimate lower back pressure that you cannot reduce through active defensive movement such as knee retraction or rolling. Early tapping is critical because spinal compression submissions have a uniquely narrow margin between discomfort and structural damage compared to joint locks. With an armbar, you feel progressive pain that builds toward a break. With spinal compression, disc herniation can occur without the dramatic pain signal that precedes joint failure. Additionally, the damage may not be immediately apparent - you might feel only moderate discomfort during the submission but develop significant symptoms hours or days later. Training is never worth a spinal injury.",
         "safety_critical": true,
         "answer_line": "Tap at first real back pressure",
@@ -664,7 +664,7 @@
         }
       },
       {
-        "question": "How do you distinguish between Boston Crab setup cues and standard back control attempts from turtle?",
+        "question": "How do you tell a Boston Crab setup from a standard back take attempt from turtle?",
         "answer": "The critical distinguishing cue is where the attacker's grips shift. Standard back control attacks target your upper body with seatbelt, harness, or collar control while their legs work to insert hooks. Boston Crab setup involves the attacker releasing or deprioritizing upper body control in favor of grabbing both ankles or lower legs. You will feel their hands moving down your body from shoulders toward your hips and legs. Additionally, the attacker may shift their weight backward rather than forward, which is opposite to the typical back take trajectory. Recognizing this shift in grip targets is the earliest recognition cue and provides the maximum defensive window.",
         "safety_critical": false,
         "answer_line": "Grips shift down to your ankles",

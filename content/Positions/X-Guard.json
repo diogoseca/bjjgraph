@@ -727,7 +727,7 @@
       }
     },
     {
-      "question": "Why can an X-Guard player attack multiple off-balancing directions at once instead of a single sweep line?",
+      "question": "Why can an X-Guard player threaten several off-balancing directions instead of one sweep line?",
       "answer": "Because the opponent's base is already compromised by the isolated leg, extending one leg while retracting the other lets the bottom player redirect force toward whichever side the opponent leaves unsupported. When the opponent commits weight to defend one direction, that commitment opens the opposite angle for the sweep. This is a distinct dilemma from the sweep-versus-leglock threat: here the opponent cannot solve every sweeping vector simultaneously, so each defensive weight shift creates the next opening. Stacking directional threats this way holds across every variant of the family.",
       "answer_line": "Extend one leg, retract other",
       "distractors": {

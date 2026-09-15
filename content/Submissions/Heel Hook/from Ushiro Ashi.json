@@ -333,7 +333,7 @@
         }
       },
       {
-        "question": "What specific grip adjustment is required for the heel hook from ushiro versus a standard outside ashi-garami heel hook?",
+        "question": "How does the heel hook grip from ushiro ashi differ from outside ashi-garami?",
         "answer": "In ushiro ashi-garami, the opponent's inverted hip orientation requires the attacker to seat the blade of the wrist behind the Achilles from a more compact angle, with elbows positioned closer to the attacker's own hips rather than extended across the opponent's body. The reversed configuration means the finishing grip often requires a more parallel alignment to the opponent's body rather than the perpendicular angle used in standard outside ashi. This compact positioning compensates for the different leverage angles created by the inverted entanglement geometry.",
         "safety_critical": false,
         "answer_line": "Compact grip, elbows tucked in",
@@ -393,7 +393,7 @@
         }
       },
       {
-        "question": "Your opponent has a strong grip defense protecting their heel but your ushiro control is solid. What finishing error should you avoid?",
+        "question": "With solid ushiro control but strong heel defense, what finishing error should you avoid?",
         "answer": "The critical error is continuing to fight through established defensive grips with diminishing returns and increasing energy expenditure. Forcing the heel hook against strong two-handed grip defense has low success probability and degrades your positional control as you overcommit to grip fighting. Instead, use your stable ushiro control as a platform to transition to alternative attacks such as a straight ankle lock that bypasses heel defense, advance to saddle or honey hole for better finishing leverage, or switch to kneebar attacks that exploit the opponent's defensive grip focus.",
         "safety_critical": false,
         "answer_line": "Don't force it, switch attacks",
@@ -408,7 +408,7 @@
         }
       },
       {
-        "question": "How should grip adjustments be made during the finishing sequence if the opponent partially strips your initial heel hook grip?",
+        "question": "They partially strip your heel hook grip from ushiro — how do you re-establish it?",
         "answer": "When the opponent partially strips your grip, avoid chasing the heel with extended arms which creates space for escape. Instead, re-consolidate your leg control first by squeezing your figure-four tighter and driving your hips closer to the trapped leg. Then re-enter the grip from a different angle, often by switching from a palm-up to palm-down wrist position behind the Achilles, or by transitioning to a body lock configuration around the lower leg that makes grip stripping more difficult. The key is maintaining positional control during grip transitions rather than scrambling after the heel.",
         "safety_critical": false,
         "answer_line": "Re-consolidate legs, re-enter grip",
@@ -423,7 +423,7 @@
         }
       },
       {
-        "question": "What are your immediate obligations if your training partner does not verbally tap but shows signs of distress during heel hook application?",
+        "question": "Your partner shows distress but hasn't tapped during a heel hook — what must you do?",
         "answer": "You must release ALL rotational pressure immediately upon any sign of distress, including unusual facial expressions, gasping, sudden rigidity, or any vocalization that could indicate pain or panic. Do not wait for a formal tap signal. Knee ligaments can fail catastrophically without adequate pain warning, meaning your partner may not recognize the danger before structural damage occurs. After releasing, check on your partner's knee condition and do not resume training the submission until you have confirmed they are uninjured. Erring on the side of caution is always correct with heel hooks.",
         "safety_critical": true,
         "answer_line": "Release instantly, no tap needed",
@@ -598,7 +598,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the single most important defensive action to maintain throughout the entire heel hook defense sequence?",
+        "question": "What single defensive action must you maintain throughout a heel hook defense from ushiro?",
         "answer": "Maintaining dorsiflexion (foot flexed with toes pulled toward the shin) throughout the entire defense. This position pulls the heel closer to the lower leg, making it significantly more difficult for the attacker to seat their wrist behind the Achilles and establish a finishing grip. Even momentary relaxation of dorsiflexion during grip fighting or escape attempts creates the opening for a skilled attacker to establish the heel hook. This one action buys more defensive time than any other single technique.",
         "safety_critical": true,
         "answer_line": "Keep the foot dorsiflexed",
@@ -613,7 +613,7 @@
         }
       },
       {
-        "question": "How do you distinguish between a shallow ushiro entanglement you can escape versus a deep entanglement requiring alternative strategy?",
+        "question": "How do you tell a shallow ushiro entanglement from a deep one needing another strategy?",
         "answer": "In shallow entanglement, the attacker's inside leg has minimal control below your knee and their upper body grips have not established heel access. You can complete rotation to standing or turtle. In deep entanglement, their inside leg controls your thigh deeply, their outside leg is tight over your knee line, and they are actively working heel grips. Deep entanglement requires accepting turtle or counter-entanglement rather than forcing extraction, which would worsen heel exposure during the struggle.",
         "safety_critical": false,
         "answer_line": "Thigh trapped, knee crossed = deep",
@@ -643,7 +643,7 @@
         }
       },
       {
-        "question": "When should you accept turtle position instead of continuing to fight the leg extraction from ushiro?",
+        "question": "When should you accept turtle instead of fighting to extract your leg from ushiro?",
         "answer": "Accept turtle when the attacker's control is too deep to safely extract your leg with dorsiflexion alone, when their heel hook grip is established and continuing rotation is the only way to prevent the finish, when you have been defending for more than five seconds without measurable escape progress, or when your energy is depleting rapidly from grip fighting. Turtle is a significantly safer transitional position than remaining in deep ushiro entanglement with an active submission threat.",
         "safety_critical": false,
         "answer_line": "When control's too deep to pull out",
@@ -658,7 +658,7 @@
         }
       },
       {
-        "question": "What counter-attack opportunity exists when the attacker adjusts their grips to establish the heel hook?",
+        "question": "What counter-attack opens when they shift grips to set the heel hook from ushiro?",
         "answer": "When the attacker releases their inside leg control or shifts both hands to establish heel grips, their own legs often become exposed for counter-entanglement. During this adjustment phase, the attacker's focus shifts from position maintenance to submission finishing, creating a window where you can enter your own outside ashi-garami on their free leg or establish 50-50 guard. This transforms the exchange from pure defense into a bilateral leg lock battle that favors whoever established superior position first.",
         "safety_critical": false,
         "answer_line": "Enter ashi on their exposed leg",

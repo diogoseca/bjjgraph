@@ -72,7 +72,7 @@ description: "Learn to defend and counter the Leg Hook to Half Guard consolidati
     },
     {
       "@type": "Question",
-      "name": "Why is it sometimes better to allow the consolidation and focus on establishing good half guard bottom rather than disrupting it?",
+      "name": "Under leg hook consolidation to half guard, why sometimes allow it and build half guard bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the transition window has already passed or the top player's upper body control is too strong to disrupt, attempting forced counter-attacks wastes energy and may result in worse positioning. In such cases, focusing on establishing strong half guard bottom fundamentals—maintaining side angle, fighting for underhook, establishing knee shield, keeping frames active—creates a sustainable defensive position from which you can launch offensive sequences. A well-organized half guard bottom is better than a failed counter-attack that leaves you flattened."

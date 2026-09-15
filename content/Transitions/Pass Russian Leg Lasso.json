@@ -293,7 +293,7 @@
         }
       },
       {
-        "question": "Your opponent re-establishes their collar grip immediately after you break it - how do you adjust your approach?",
+        "question": "They re-grip your collar right after you break it in Russian leg lasso: how do you adjust?",
         "answer": "Rather than engaging in an endless grip-breaking cycle, consider transitioning to a toreando-style pass that works around the collar control, or time your grip break with a simultaneous forward drive so the guard player cannot re-grip before you have committed to the pass. You can also switch to controlling their collar-grip hand with your own grip to prevent re-establishment while you address other control points.",
         "answer_line": "Switch to toreando pass",
         "distractors": {
@@ -307,7 +307,7 @@
         }
       },
       {
-        "question": "What is the critical mechanical principle that makes the lasso dangerous, and how does your passing strategy address it?",
+        "question": "What makes the Russian leg lasso mechanically dangerous, and how does your posture address it?",
         "answer": "The lasso functions as a pulley system where the guard player's leg threaded through your arm creates a fulcrum for generating rotational force. Your passing strategy addresses this by maintaining upright posture with hips back, which minimizes the fulcrum's effectiveness, and by breaking the supporting grips that allow the guard player to amplify this rotational force through collar and sleeve control.",
         "answer_line": "Upright posture, hips back",
         "distractors": {
@@ -321,7 +321,7 @@
         }
       },
       {
-        "question": "You feel the guard player beginning to initiate a sweep as you break their sleeve grip - what is your immediate response?",
+        "question": "They start a sweep as you break their sleeve grip in Russian leg lasso: what do you do first?",
         "answer": "Immediately abandon the grip break and prioritize base recovery by sprawling your hips back and widening your stance. Once stable, resume the grip-breaking sequence. Attempting to complete the grip break while being swept results in losing position entirely. The guard player's sweep timing is often designed to exploit the exact moment of grip break when the passer's hands are occupied.",
         "answer_line": "Sprawl and recover base",
         "distractors": {
@@ -363,7 +363,7 @@
         }
       },
       {
-        "question": "How does the direction of force you apply change between the grip-breaking phase and the pass-completion phase?",
+        "question": "Passing Russian leg lasso, how does force direction change from grip breaking to completion?",
         "answer": "During grip breaking, force is directed upward and away from the guard player as you posture up, strip grips, and create distance that reduces lasso effectiveness. During pass completion, force direction reverses to forward and downward as you drive chest pressure through the guard player, close distance rapidly, and establish side control. This directional shift must happen immediately and decisively when transitioning between phases.",
         "answer_line": "Up-away, then forward-down",
         "distractors": {
@@ -518,7 +518,7 @@
         }
       },
       {
-        "question": "The passer has broken your collar grip and is beginning to work on your sleeve grip - what are your options?",
+        "question": "Your collar grip is broken and they attack the sleeve in Russian leg lasso: what are your options?",
         "answer": "You have three primary options: immediately re-establish the collar grip before they progress further in the sequence, initiate an offensive action such as a triangle or omoplata attempt that exploits the space created by their grip break, or begin transitioning to an alternative guard position such as De La Riva or Spider Guard if you assess that the Russian Leg Lasso is becoming untenable with only the lasso remaining.",
         "answer_line": "Re-grip collar or attack",
         "distractors": {
@@ -532,7 +532,7 @@
         }
       },
       {
-        "question": "How do you recognize that the Russian Leg Lasso is compromised beyond recovery and you should transition to a different guard?",
+        "question": "How do you know your Russian leg lasso is unrecoverable and it's time to switch guards?",
         "answer": "The position is compromised beyond recovery when both the collar grip and sleeve grip have been broken and the passer has established a lateral passing angle. At this point, the lasso alone cannot generate sufficient control or sweep power to be effective. Key indicators include feeling the passer's weight shifting laterally past your hip line and losing the ability to create meaningful rotational force despite maintaining the lasso thread.",
         "answer_line": "Both grips gone, angle lost",
         "distractors": {

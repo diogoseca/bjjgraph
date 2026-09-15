@@ -58,7 +58,7 @@ description: "Defend against the Rear Naked Choke from Rodeo Ride. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the absolute first defensive action when you feel the opponent's arm beginning to thread under your chin from Rodeo Ride?",
+      "name": "Defending Rodeo Ride: what is your first action as their arm threads under your chin?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin as tightly as possible to your chest and bring both hands to the throat area to create a defensive shell. Your leading hand should grab the opponent's choking wrist while your secondary hand reinforces the grip for a two-on-one strip. The goal is to prevent the forearm from passing below the chin line where it can access the carotid arteries. Every second of delay in this response dramatically increases the probability of the choke being established successfully."
@@ -66,7 +66,7 @@ description: "Defend against the Rear Naked Choke from Rodeo Ride. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is it dangerous to prioritize fighting hooks over protecting your neck during an active choke attempt?",
+      "name": "Why is fighting hooks instead of your neck dangerous during an active RNC attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Fighting hooks requires both hands and your attention directed toward your lower body, leaving your neck completely undefended against the choking arm. The RNC can produce unconsciousness in 4-10 seconds once locked, while losing hook control merely worsens your position without immediate terminal consequences. The hook threat is positional (leads to better control for the opponent) while the choke threat is immediate (leads to submission or unconsciousness). Always address the immediate lethal threat before the positional threat."
@@ -74,7 +74,7 @@ description: "Defend against the Rear Naked Choke from Rodeo Ride. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What advantages does the defender have from Rodeo Ride that are not available when defending from full back control?",
+      "name": "What defensive advantages does Rodeo Ride give you that full back control does not?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From Rodeo Ride, the opponent lacks hooks or body triangle controlling your hips, which means you retain significantly more lower body mobility for standing, rolling, and creating angles. The opponent's base is also less stable since they are relying on dynamic pressure rather than mechanical hooks, making them more vulnerable to explosive directional changes. Additionally, the opponent must divide their attention between maintaining Rodeo Ride control and executing the choke, whereas from full back control the position is secure enough that they can focus entirely on finishing."
@@ -82,7 +82,7 @@ description: "Defend against the Rear Naked Choke from Rodeo Ride. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How should you respond if the RNC grip is partially locked but not yet fully tightened from Rodeo Ride?",
+      "name": "Defending in Rodeo Ride: how do you respond when the RNC grip is partly locked but not tight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately engage two-on-one grip control on the choking arm, pulling it away from your neck while turning your head toward the crook of the opponent's elbow to create space and prevent the squeeze from being effective. Simultaneously, work to create an angle change by moving your hips—since the opponent lacks hooks, you have the mobility to shift your body position. If you can prevent the figure-four from being completed, the choke cannot generate maximum pressure, giving you time to strip the grip entirely or transition to an escape."

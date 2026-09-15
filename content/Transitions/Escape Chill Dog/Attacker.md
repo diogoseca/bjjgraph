@@ -74,7 +74,7 @@ description: "Master the Chill Dog hip escape to half guard. Learn timing, hip m
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What specific weight distribution change in your opponent signals the optimal window for initiating the hip escape?",
+      "name": "Which change in your opponent's weight signals the window to start your Chill Dog hip escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window opens when you feel your opponent's weight shift forward onto your upper back or laterally to one side. Forward pressure means their base is compromised backward, making it difficult for them to follow your lateral hip escape. A lateral shift means one side is lighter and available for escape. You can also feel for momentary lightness during grip transitions when they release one control point to establish another - this two to three second window is often the best opportunity for explosive execution."
@@ -82,7 +82,7 @@ description: "Master the Chill Dog hip escape to half guard. Learn timing, hip m
     },
     {
       "@type": "Question",
-      "name": "Why must the leg insertion happen simultaneously with the hip escape rather than as a separate movement?",
+      "name": "Why must the leg insertion happen together with the hip escape, not as a separate step?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you hip escape without immediately threading the leg, you create lateral space but no guard structure. The opponent simply follows your hip movement and re-establishes turtle top control in the new position - you have moved but gained nothing. The leg thread is what converts the hip escape into a position change by creating the half guard entanglement. Without it, you are doing a hip escape that ends in the same position. The coordination between hip escape and leg insertion is the fundamental mechanical skill of this technique."
@@ -90,7 +90,7 @@ description: "Master the Chill Dog hip escape to half guard. Learn timing, hip m
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls heavily after you initiate the hip escape, pinning your hips to the mat - how do you salvage the escape attempt?",
+      "name": "They sprawl heavily and pin your hips after your hip escape — how do you salvage the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If sprawled on before the leg threads, use the posting arm to create a frame and work a micro hip escape to create just enough space for the inside knee to slide through. Even from a flattened position, if you can get your knee between their legs, you can begin the half guard recovery. If completely flattened with no space, transition to a belly-down escape by reaching for their far ankle to break their sprawl base, then reattempt the hip escape once their weight shifts during the ankle fight."
@@ -106,7 +106,7 @@ description: "Master the Chill Dog hip escape to half guard. Learn timing, hip m
     },
     {
       "@type": "Question",
-      "name": "How do you create the escape opportunity when your opponent is maintaining perfectly centered, stable pressure?",
+      "name": "How do you create an opening when their Chill Dog pressure is perfectly centered and stable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent is stable and settled, you must create your own opening through provocation. Make small movements that force a reaction - briefly shift your weight as if attempting a Granby roll in one direction to draw their pressure that way, then immediately hip escape to the opposite side. Alternatively, bump upward with your hips to force them to rebalance. The goal is creating a momentary weight shift that you can exploit. Never wait indefinitely for an opening that may not come."
@@ -114,7 +114,7 @@ description: "Master the Chill Dog hip escape to half guard. Learn timing, hip m
     },
     {
       "@type": "Question",
-      "name": "What is the primary risk if you turn your upper body to face the opponent before the leg hook is secured?",
+      "name": "What is the main risk of turning to face them before your leg hook is secured?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning without the leg hook established exposes your back with no guard structure in place. The opponent can immediately insert hooks during your rotation and establish back control with seatbelt grip. The leg entanglement is what makes the turn safe because even if the opponent attempts to follow, their leg is trapped and they cannot freely insert hooks. Without that anchor, you are rotating into the most dangerous position in grappling - back exposure with no defensive structure."

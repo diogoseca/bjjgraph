@@ -56,7 +56,7 @@ description: "Defend against the Technical Mount to S Mount transition in BJJ. L
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating the Technical Mount to S Mount transition?",
+      "name": "What is the earliest cue that they're starting the Technical Mount to S Mount transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent shifting their weight decisively to their posted leg, which lightens their inside leg in preparation for swinging it across your torso. You may also feel a decrease in chest pressure as they begin rotating their hips away from parallel alignment. This weight shift occurs 1-2 seconds before the rotation completes, giving you a narrow but exploitable window for defensive action. Reacting at this moment rather than after the legs are positioned gives you the best chance of preventing S Mount establishment."
@@ -64,7 +64,7 @@ description: "Defend against the Technical Mount to S Mount transition in BJJ. L
     },
     {
       "@type": "Question",
-      "name": "Why is arm retraction more important than disrupting the opponent's leg movement during this transition?",
+      "name": "Why is retracting your arm more important than disrupting their legs during this S Mount entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "S Mount without arm isolation is functionally useless for the attacker—they cannot threaten the armbar, which is the entire purpose of the perpendicular position. Even if the opponent completes the full body rotation and establishes the S-shaped leg configuration, a bent arm pulled tight to your chest with a collar grip forces them to either work to re-extend the arm from a less advantageous angle or abandon S Mount entirely. Disrupting their legs addresses the symptom while arm retraction addresses the root cause of the threat."
@@ -80,7 +80,7 @@ description: "Defend against the Technical Mount to S Mount transition in BJJ. L
     },
     {
       "@type": "Question",
-      "name": "If the opponent successfully completes the rotation to S Mount despite your defensive efforts, what should you do immediately?",
+      "name": "They complete the rotation to S Mount despite your defense. What do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to S Mount bottom defensive protocols: grip your own collar with the trapped hand to keep the arm bent, control the opponent's near leg with your free hand to prevent full armbar completion, and begin hip escaping toward their legs to create distance. Do not continue fighting as if you are still in Technical Mount—the threats and defensive priorities differ in S Mount. Accepting that the transition succeeded and immediately activating appropriate defense is more effective than continuing to fight an already-completed rotation."
@@ -88,7 +88,7 @@ description: "Defend against the Technical Mount to S Mount transition in BJJ. L
     },
     {
       "@type": "Question",
-      "name": "How does the hip escape direction differ when defending this transition versus standard Technical Mount escapes?",
+      "name": "Which way do you hip escape against this S Mount entry versus a standard Technical Mount escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition specifically, you should hip escape toward the opponent's legs—the direction their body is rotating away from. This creates distance that makes completing the perpendicular angle mechanically impossible because their hips cannot reach your shoulder. In contrast, standard Technical Mount escapes often involve hip escaping toward the posted leg side to recover half guard. The directional difference matters because during the transition, the opponent's commitment to rotation means they cannot easily follow your hip escape in the opposite direction without abandoning their rotational movement entirely."

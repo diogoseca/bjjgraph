@@ -56,7 +56,7 @@ description: "Defend against Piranha Guard passing in BJJ. Guard retention strat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the top player is about to attempt a systematic pass of your Piranha Guard?",
+      "name": "What are the earliest cues that the top player is setting up a systematic piranha guard pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the passer widening their stance significantly beyond normal guard engagement width, dropping their hips lower than standard passing posture, and releasing their pressure-focused grips to begin active grip fighting against your lapel controls. When they secure an anchor grip on your pants before touching your lapel grips, they are setting up a systematic stripping sequence rather than a reactive pass attempt."
@@ -64,7 +64,7 @@ description: "Defend against Piranha Guard passing in BJJ. Guard retention strat
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully strips your primary lapel grip and begins extracting the collar—what is your immediate priority?",
+      "name": "They strip your primary lapel grip and start extracting the collar: what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to re-feed the lapel before they pull it fully above your leg line. Use your legs to clamp and trap the collar material while your hands work to re-grip the lapel below their stripping hand. If re-feeding is not possible because they have already extracted enough material, immediately transition your feet to hooks on their hips and begin establishing De La Riva or Collar Sleeve grips before they can capitalize on the cleared configuration."
@@ -80,7 +80,7 @@ description: "Defend against Piranha Guard passing in BJJ. Guard retention strat
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your hip positioning when the passer begins creating a lateral angle for their pass?",
+      "name": "The passer creates a lateral angle on your piranha guard: how do you adjust your hips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the passer creates a lateral angle, immediately rotate your hips to face them squarely rather than remaining flat. Angle your body toward the passer's new position and re-establish your hook placements relative to their changed angle. If they step to your right, rotate your hips clockwise and place your left foot on their leading hip as a frame while maintaining whatever lapel control remains. This prevents them from completing the angle and keeps your guard structure oriented toward the threat."
@@ -88,7 +88,7 @@ description: "Defend against Piranha Guard passing in BJJ. Guard retention strat
     },
     {
       "@type": "Question",
-      "name": "How do you manage the transition between Piranha Guard and an alternative guard system without leaving a passing gap?",
+      "name": "How do you switch from piranha guard to another guard without giving up a passing gap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Begin the guard transition while you still have partial lapel control rather than waiting until the configuration is fully stripped. Use your remaining lapel grip as a bridge while simultaneously establishing the primary grips of your alternative guard—for example, insert a De La Riva hook while you still have one hand on the lapel, or establish a collar sleeve grip before releasing the threaded collar entirely. The overlap period where you have grips in both guard systems is your safety margin against the passer exploiting the transition."

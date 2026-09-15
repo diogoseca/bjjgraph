@@ -62,7 +62,7 @@ description: "How to defend against guard opening in BJJ. Recognition cues, guar
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your primary defensive priority when you feel the opponent beginning to establish upright posture inside your closed guard?",
+      "name": "In closed guard, your opponent starts building upright posture. What is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your primary priority is breaking their posture immediately before they can complete the postural setup. Establish a deep cross-collar grip and combine it with aggressive heel pressure pulling their lower back toward you. Simultaneously pull their head and shoulders forward with your grip. The goal is to curl them back down before they achieve the upright spine alignment that enables opening mechanics. Acting within the first two seconds of their posture attempt is critical because once established, strong posture becomes progressively harder to break."
@@ -70,7 +70,7 @@ description: "How to defend against guard opening in BJJ. Recognition cues, guar
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established strong posture and is reaching for your pants - what sweep opportunity does this create?",
+      "name": "Your opponent postures up and reaches for your pants. What sweep does this open?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent reaches both hands toward your legs, their upper body weight shifts backward and their posting ability is eliminated because their hands are committed low. This creates the perfect timing for a hip bump sweep. Sit up explosively toward their chest while controlling one of their wrists, driving your hip into their centerline. They cannot post because their hands are reaching for your legs. Even if the sweep does not complete, it forces them to abandon the grip attempt and reset their base, buying you time to re-break their posture."
@@ -78,7 +78,7 @@ description: "How to defend against guard opening in BJJ. Recognition cues, guar
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defense when the opponent transitions from combat base to a full standing guard break?",
+      "name": "How do you adjust your closed guard defense when they go from combat base to standing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As they stand, your defensive strategy must shift from posture breaking to sweep threats and grip control. Grab both of their sleeves or wrists immediately to control their arms. Uncross your ankles and place your feet on their hips to maintain connection while they are elevated. From here, threaten elevator sweeps by hooking one leg, lumberjack sweeps by pulling both sleeves and kicking their legs, or transition to collar-sleeve open guard. The standing position gives them more opening leverage but also makes them more vulnerable to sweeps because their base is elevated."

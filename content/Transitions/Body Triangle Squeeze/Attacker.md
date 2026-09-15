@@ -82,7 +82,7 @@ description: "Complete guide to executing the body triangle squeeze submission i
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their elbows tight against their ribs to absorb the squeeze pressure - how do you adjust?",
+      "name": "They tuck their elbows to their ribs to absorb the body triangle squeeze: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their elbows distribute pressure more evenly, reducing effectiveness. Adjust by angling your squeeze to target the side without elbow protection, or use your upper body grips to strip their arms away from their torso. You can also transition to choke attacks since their hands are occupied defending the squeeze rather than protecting their neck, turning their defensive adaptation into an offensive opportunity."

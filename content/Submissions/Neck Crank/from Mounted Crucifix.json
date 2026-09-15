@@ -275,7 +275,7 @@
         }
       },
       {
-        "question": "Why does the mounted crucifix make the neck crank significantly more effective than from other positions?",
+        "question": "Why is the neck crank far more effective from mounted crucifix than from other positions?",
         "answer": "The mounted crucifix traps both of the opponent's arms with the attacker's legs, completely eliminating defensive frames. In any other position, the defender can wedge a hand between their chin and chest, push against the attacker's arms, or create angles with their hands. From mounted crucifix, the defender has zero upper-body tools to resist the head manipulation. Combined with mount weight pinning the torso flat, the attacker has free hands operating against a fully immobilized opponent.",
         "safety_critical": false,
         "answer_line": "Arms trapped, no frames possible",
@@ -305,7 +305,7 @@
         }
       },
       {
-        "question": "Your opponent tucks their chin tightly to their chest to prevent your grip—what adjustment allows you to still finish?",
+        "question": "Your opponent tucks their chin against your neck crank grip—what adjustment still finishes it?",
         "answer": "Switch from targeting the chin to an over-the-crown grip that attacks forward flexion (curling the head toward the chest) instead of lateral rotation. Alternatively, use your forearm as a wedge under the chin to pry it away from the chest, or threaten an armbar on a trapped arm to force the opponent to move their shoulders, which naturally lifts the chin. The armbar feint is particularly effective because arm defense and chin defense compete for the same postural resources.",
         "safety_critical": false,
         "answer_line": "Switch to crown grip, flex forward",
@@ -320,7 +320,7 @@
         }
       },
       {
-        "question": "What is the correct speed of force application for the neck crank, and why is this critical for safety?",
+        "question": "How fast should neck crank force be applied, and why is that speed critical for safety?",
         "answer": "Force must be applied slowly and progressively over 3-5 seconds minimum, never with explosive or jerking movements. This is critical because the cervical spine provides minimal proprioceptive warning before catastrophic failure—unlike a joint lock where the defender feels increasing pain along a gradient, spinal compression can transition from uncomfortable to structurally damaging in a fraction of a second. Slow application gives the defender adequate time to recognize the submission and tap before the injury threshold is reached.",
         "safety_critical": true,
         "answer_line": "Slow, progressive, 3-5+ seconds",
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "Your opponent starts an explosive bridge right as you lock your head grip—how do you maintain control and finish?",
+        "question": "Your opponent bridges explosively as you lock the head grip in mounted crucifix—what do you do?",
         "answer": "Post one hand briefly on the mat to ride the bridge while dropping your hips heavier onto their torso. Because their arms are trapped, the bridge lacks the structural support of a normal mount escape—they cannot post or frame. Wait for the bridge to peak and collapse, then re-secure your gable grip as they settle. The failed explosive effort actually fatigues them and creates a brief window of reduced resistance immediately after, which is the ideal moment to re-apply the crank.",
         "safety_critical": false,
         "answer_line": "Post hand, ride bridge, drop hips",
@@ -506,7 +506,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first defensive action you should take when you recognize a neck crank is being set up from mounted crucifix?",
+        "question": "With your arms trapped, what is your first defense as a neck crank is set up from mounted crucifix?",
         "answer": "Immediately tuck your chin as tightly as possible to your chest and shrug both shoulders up toward your ears. This closes the gaps around your neck that the attacker needs for grip establishment. Because your arms are trapped, this postural defense is your only available tool to deny the head grip. Simultaneously begin subtle hip movement to prevent the attacker from settling into a stable cranking platform.",
         "safety_critical": false,
         "answer_line": "Tuck chin, shrug shoulders up",
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "When should you tap to a neck crank in training, and why is early tapping essential for this particular submission?",
+        "question": "When should you tap to a neck crank, and why is early tapping essential for this submission?",
         "answer": "Tap immediately when you feel any real compressive or rotational pressure on your cervical spine—do not attempt to endure or escape once the crank engages. Unlike joint locks that provide a pain gradient before damage occurs, the cervical spine can transition from moderate discomfort to disc herniation or vertebral injury with almost no warning. The proprioceptive feedback from neck structures is poor compared to limbs, meaning by the time you feel real pain, structural damage may already be occurring. Early tapping is the only safe choice.",
         "safety_critical": true,
         "answer_line": "Immediately, no pain gradient warns",
@@ -536,7 +536,7 @@
         }
       },
       {
-        "question": "Why must arm extraction precede mount escape attempts when defending the neck crank from mounted crucifix?",
+        "question": "Why must you free an arm before attempting mount escapes against the mounted crucifix neck crank?",
         "answer": "Attempting mount escapes with arms still trapped exposes your back to the attacker, who can transition to back control while maintaining the arm entanglement—a significantly worse position. Without at least one free arm, you cannot create the defensive frames needed for standard escape mechanics like bridge-and-roll or elbow escape. Arm extraction restores your primary defensive tools, making subsequent positional escapes mechanically possible and safe.",
         "safety_critical": false,
         "answer_line": "Free an arm before escaping",

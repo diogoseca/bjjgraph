@@ -90,7 +90,7 @@ description: "Learn to execute the ankle lock from X-Guard with expert technique
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent's foot starting to flex involuntarily as you apply pressure — what does this indicate about your finishing position?",
+      "name": "Their foot flexes involuntarily as you apply the ankle lock — what does that tell you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Involuntary foot flexion indicates you are approaching the mechanical limit of the ankle joint. The opponent's body is reflexively attempting to relieve pressure on the Achilles tendon through dorsiflexion resistance. At this point, maintain steady pressure without increasing speed or force. Your grip alignment and hip extension are generating effective submission pressure. Continue progressive application and listen carefully for tap signals, as many practitioners tap verbally rather than physically when their foot is being controlled by a figure-four grip."
@@ -98,7 +98,7 @@ description: "Learn to execute the ankle lock from X-Guard with expert technique
     },
     {
       "@type": "Question",
-      "name": "What three control elements must be established before committing to the ankle lock finish from X-Guard?",
+      "name": "Which three controls must be set before finishing the ankle lock from X-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, the ankle must be isolated with a secure figure-four grip placing the radial bone directly against the Achilles tendon with the heel pinned to the chest. Second, your legs must control the opponent's hip through Ashi Garami configuration with inside leg across their near hip and outside leg hooking behind their knee. Third, your body must achieve perpendicular alignment to the trapped leg with hips elevated off the mat. Without all three elements established, the opponent retains viable escape routes and the submission lacks sufficient mechanical advantage to produce a reliable finish."
@@ -106,7 +106,7 @@ description: "Learn to execute the ankle lock from X-Guard with expert technique
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins standing up while you hold the ankle lock — at what point is their escape no longer viable?",
+      "name": "They stand up against your X-guard ankle lock — when is their escape no longer viable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their standing escape stops working once your figure-four grip is fully locked behind the Achilles and your body is perpendicular with elevated hips. From that point their standing works against them: their own body weight hangs from the trapped leg through your grip, adding downward force on the ankle. The point of no escape occurs when hip extension exceeds approximately forty-five degrees with the grip fully secured and your legs controlling the hip. However, if they stand before the grip is locked, they can often retract their foot during the transition window, so grip security is the critical threshold."
@@ -114,7 +114,7 @@ description: "Learn to execute the ankle lock from X-Guard with expert technique
     },
     {
       "@type": "Question",
-      "name": "What is the most common finishing error when applying the ankle lock from X-Guard and how does it reduce effectiveness?",
+      "name": "What is the most common finishing error with the X-guard ankle lock, and why does it fail?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common error is relying on arm strength to crank the ankle rather than using hip extension for the breaking force. When practitioners squeeze exclusively with their arms, they fatigue rapidly, the pressure becomes inconsistent, and the mechanical advantage is reduced dramatically compared to proper hip extension. The correction is to pin the ankle against the chest with the figure-four grip locked and generate all breaking force by driving the hips away from the opponent. Arms maintain grip position while hip extension provides the force vector that finishes the submission."
@@ -122,7 +122,7 @@ description: "Learn to execute the ankle lock from X-Guard with expert technique
     },
     {
       "@type": "Question",
-      "name": "Your opponent curls their toes and points their foot to relieve Achilles pressure — how do you adjust your grip to overcome this defense?",
+      "name": "They point their toes to relieve Achilles pressure — how do you adjust your ankle lock grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Slide your wrist deeper behind the ankle so the blade contacts the Achilles higher, near the calf-tendon junction where toe pointing protects less. Simultaneously, angle your body slightly toward their toes to apply a combined dorsiflexion and compression force that toe-pointing defense cannot fully address. If these grip adjustments remain insufficient, transition to a toe hold by redirecting your grip to their rigid foot, using their pointed-toe position as leverage for the rotational toe hold attack."

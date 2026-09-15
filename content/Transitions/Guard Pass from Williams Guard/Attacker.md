@@ -90,7 +90,7 @@ description: "Complete guide to passing Williams Guard from top position. Learn 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their hips to transition toward omoplata during your extraction attempt—what is your immediate response?",
+      "name": "They rotate their hips toward an omoplata as you extract your arm — what's your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive forward and posture up simultaneously to prevent the hip rotation from completing. Use your free hand to push their rotating knee off your shoulder while circling your trapped arm in the direction opposite to their rotation. The omoplata requires full hip rotation and leg positioning over your shoulder—disrupting either element prevents completion. If partially caught, aggressive stacking that drives their hips over their shoulders reduces the omoplata angle below submission threshold and may create a passing opportunity through the stack."
@@ -114,7 +114,7 @@ description: "Complete guide to passing Williams Guard from top position. Learn 
     },
     {
       "@type": "Question",
-      "name": "How does hip angle affect your vulnerability to shoulder lock submission and sweep during extraction?",
+      "name": "In Williams guard, how does your hip angle affect shoulder lock and sweep risk?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Squared hips facing directly into the bottom player optimize their shoulder lock angle by aligning your shoulder joint with their grip's maximum mechanical advantage, creating both peak submission danger and maximum sweep leverage. Angled hips reduce shoulder lock effectiveness by changing the rotational axis of the joint relative to their grip structure. The angle also limits the bottom player's sweep mechanics by removing the lateral leverage they need for omoplata and technical sweep execution. Continuous angle changes during extraction disrupt their timing and prevent them from settling into any optimized attacking position."

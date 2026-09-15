@@ -90,7 +90,7 @@ description: "Complete attacker guide for the knee slide pass from flattened hal
     },
     {
       "@type": "Question",
-      "name": "Your opponent shrimps and starts to re-insert their knee shield as you begin the slide - how do you respond?",
+      "name": "They shrimp and start re-inserting the knee shield as you begin the slide—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase your forward crossface pressure and drop your chest weight onto their torso to close the space they created with the shrimp. If their knee is only partially inserted, drive your chest over the knee to re-flatten it before the shield is established. If the knee shield is fully re-inserted, do not force through it. Reset to flattened half guard by re-collapsing their frames, then re-attempt the slide or transition to a smash pass that addresses the knee shield directly."

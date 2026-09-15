@@ -266,7 +266,7 @@
         }
       },
       {
-        "question": "Your opponent has a tight gable grip in anaconda control—how do you determine the optimal attack angle for the grip break?",
+        "question": "Caught in a tight anaconda gable grip: how do you pick your angle of attack on the grip?",
         "answer": "Identify which hand is on top by feeling with your free hand, then peel that hand's fingers toward their wrist rather than pulling the entire hand away. The top hand in a gable grip has less structural support than the bottom hand and can be separated with significantly less force than trying to break the entire grip simultaneously. Combine this with hip movement that creates torque perpendicular to their grip alignment to amplify the peeling force.",
         "answer_line": "Peel top hand toward its wrist",
         "distractors": {
@@ -280,7 +280,7 @@
         }
       },
       {
-        "question": "Why is hip movement essential during the anaconda grip break rather than relying solely on hand fighting?",
+        "question": "Why is hip movement essential to the anaconda grip break rather than hand fighting alone?",
         "answer": "Hip movement away from the opponent's chest pressure creates angular displacement that reduces the mechanical efficiency of their grip. When your hips move away, the constricting loop must stretch to maintain the same tightness, which naturally loosens the grip junction. Additionally, hip movement shifts the angle of your neck relative to their forearm, reducing choking pressure. Without hip movement, you are fighting the full structural advantage of their grip plus body weight with just your free hand.",
         "answer_line": "Move hips away from chest",
         "distractors": {
@@ -294,7 +294,7 @@
         }
       },
       {
-        "question": "During the grip break, your opponent begins stepping over your head to initiate the roll-through—what do you do?",
+        "question": "Mid grip break, they step over your head for the roll-through: what do you do?",
         "answer": "Immediately shift priority from grip break to roll prevention. Post your free hand on their stepping hip or thigh to block the step-over, then flatten your body and scoot hips away to reduce the angle they need for the roll. If the step is already mid-flight, roll with their direction to deny the dominant finishing angle. Once the roll attempt stalls, immediately return to the grip break sequence. The step-over represents the finishing sequence and must be stopped at all costs.",
         "answer_line": "Block the step, flatten out",
         "distractors": {
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "Your opponent's grip is too tight to break with your free hand alone—what alternative approach can you use?",
+        "question": "Their anaconda grip is too tight to break one-handed: what alternative do you use?",
         "answer": "Momentarily use both hands on the grip junction for a two-on-one peel. This is risky because it removes your defensive frame, but against an extremely tight grip it may be necessary. Execute the two-hand break explosively—create slack with a sharp hip bump while simultaneously peeling with both hands on the top wrist. The moment the grip separates, immediately return one hand to a defensive frame and the other to wrist control. This window is very brief so the extraction must be fully committed.",
         "answer_line": "Two-on-one peel, then reframe",
         "distractors": {
@@ -364,7 +364,7 @@
         }
       },
       {
-        "question": "What are the key mechanical differences between attacking the grip junction versus pushing the opponent's elbow?",
+        "question": "Attacking the anaconda grip junction versus pushing their elbow: how do the two differ?",
         "answer": "Attacking the grip junction directly separates the hands and eliminates the constricting loop entirely, providing the cleanest escape pathway. Pushing the elbow changes the angle of compression without breaking the grip, creating space for head extraction while the opponent's hands remain connected. The elbow push is useful when the junction is inaccessible but carries higher risk of the opponent readjusting and re-tightening. Use junction attack as the primary method and elbow push as the fallback when hand positioning prevents direct junction access.",
         "answer_line": "Junction attack, elbow as backup",
         "distractors": {
@@ -520,7 +520,7 @@
         }
       },
       {
-        "question": "Your opponent breaks your grip partially but you still have one hand on their neck—how do you recover?",
+        "question": "They partially break your anaconda grip but one hand is still on their neck: how do you recover?",
         "answer": "Do not attempt to re-establish the anaconda by re-gripping with your separated hand. Instead, use the remaining hand position to immediately transition to a guillotine grip by hooking under their chin with your forearm. Drive chest pressure to maintain head control while you secure the guillotine grip with your other hand. The partial grip break has actually created the opening for guillotine that was not available while the arm was trapped in anaconda configuration.",
         "answer_line": "Transition to guillotine grip",
         "distractors": {

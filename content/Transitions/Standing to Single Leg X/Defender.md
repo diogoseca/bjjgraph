@@ -56,7 +56,7 @@ description: "How to defend against Standing to Single Leg X in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action you can take before the opponent initiates their entry?",
+      "name": "Before your opponent enters Single Leg X, what is your single most important defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important pre-entry defense is active grip fighting to prevent the opponent from establishing the sleeve or wrist grip they need for the entry. Without this grip, the opponent cannot maintain connection during their level change and descent, meaning they risk falling to an unconnected seated position with no control. Strip grips immediately using two-on-one breaks or circular wrist movements. If you can deny the initial grip, the entire technique chain is disrupted before it begins."
@@ -64,7 +64,7 @@ description: "How to defend against Standing to Single Leg X in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already inserted their inside hook behind your knee but has not yet placed their outside foot on your hip - what do you do?",
+      "name": "Their inside hook is behind your knee but their outside foot is not yet on your hip. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the critical defensive window where you still have significant options. Immediately drive forward with heavy pressure while controlling their upper body with a crossface or collar tie. Without the outside foot frame on your hip, they cannot regulate distance or prevent your forward drive. Your goal is to flatten them before they can establish that foot. Simultaneously use your free leg to widen your base for stability. If you can collapse their structure before the outside foot is placed, you can often pass directly to side control."
@@ -80,7 +80,7 @@ description: "How to defend against Standing to Single Leg X in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "After successfully defending an entry attempt and the opponent is now seated with no hooks, what should your immediate priority be?",
+      "name": "You stuffed the Single Leg X entry and they are seated with no hooks. What is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to establish a passing position before they can recover guard or re-attempt the entry. Step forward with strong posture and begin a passing sequence - a toreando or bullfighter pass works well against a seated opponent with no hooks. Secure grips on their legs or pants to control their hip movement and prevent them from re-inserting hooks. Do not stand back and reset to neutral standing, as this simply gives them another opportunity to attempt the entry with adjusted timing. Capitalize on your successful defense by advancing to top control."
@@ -88,7 +88,7 @@ description: "How to defend against Standing to Single Leg X in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "What weight distribution should you maintain when you recognize your opponent is threatening a Single Leg X entry?",
+      "name": "When you sense a Single Leg X entry coming, what weight distribution should you keep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift your weight slightly toward your back foot, approximately 60-40 rear-favoring distribution. This positions your hips further from the opponent's entry path and allows you to sprawl backward quickly when they commit to the level change. Forward weight distribution is the worst possible scenario because it provides exactly the weight shift the opponent needs to time their entry and prevents you from moving your hips backward. Keep knees slightly bent and ready to spring backward. This stance may feel counterintuitive to aggressive grapplers, but against guard pull specialists, defensive posture preservation is essential."

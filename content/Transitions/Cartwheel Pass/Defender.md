@@ -64,7 +64,7 @@ description: "How to defend against Cartwheel Pass in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already planted their hand and begun the cartwheel - what is your best defensive option at this point?",
+      "name": "The passer has planted their hand and started the cartwheel: your best defense now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is to execute a Granby roll underneath their aerial trajectory, rolling to face them and reestablishing guard contact as they land. Alternatively, prepare to catch their hips with your legs as they land, wrapping closed guard before they consolidate side control. Attempting to intercept with legs at this point is usually too late."
@@ -88,7 +88,7 @@ description: "How to defend against Cartwheel Pass in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "The passer feints a cartwheel to one side then switches direction - how do you avoid being caught by this misdirection?",
+      "name": "The passer feints a cartwheel one way then switches: how do you avoid the misdirection?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid committing both legs to one side when you detect lateral movement. Keep one leg as a mobile barrier and the other as a base leg, so you can quickly pivot your inversion angle when the direction changes. React to the hand plant rather than the initial circling - the actual cartwheel requires a committed hand on the mat, which is harder to fake than footwork."

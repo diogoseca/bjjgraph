@@ -314,7 +314,7 @@
         }
       },
       {
-        "question": "Your opponent hides their heel during your heel hook attempt - what indicators tell you to transition to kneebar rather than fight for the heel?",
+        "question": "They hide their heel from your heel hook: what tells you to switch to the kneebar instead?",
         "answer": "Transition to kneebar when the heel is tucked deep into the armpit or behind your back where re-gripping would require releasing positional control, when the opponent has established a strong two-on-one grip defense on your heel hook hand making re-grip unlikely, or when their defensive posture straightens their leg creating ideal kneebar alignment. Fighting for the heel beyond 2-3 seconds of grip fighting wastes time and allows them to prepare escape.",
         "safety_critical": false,
         "answer_line": "Heel tucked, leg straightens",
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "Your opponent starts curling their leg to resist the extension - what adjustment prevents them from maintaining the bend?",
+        "question": "They curl their leg against your kneebar extension: what adjustment stops them holding the bend?",
         "answer": "Walk your hips further toward their foot to increase the lever arm length, which multiplies the force your hip extension generates against their hamstring curl. Simultaneously squeeze your elbows tighter together to prevent any slack in the arm clamp. If they maintain the curl despite these adjustments, their hamstring will fatigue within 15-30 seconds of sustained effort. You can also apply micro-pulses of pressure during their grip adjustments when their curl momentarily weakens.",
         "safety_critical": false,
         "answer_line": "Walk hips toward their foot",
@@ -389,7 +389,7 @@
         }
       },
       {
-        "question": "How do you maintain inside leg triangle control during the grip transition from heel hook to kneebar?",
+        "question": "How do you keep inside leg triangle control while switching grips from heel hook to kneebar?",
         "answer": "Your legs and your arms operate independently during the transition. While your arms release the heel grip and move to secure the arm clamp around the thigh, your inside leg triangle must remain locked and your outside leg must continue driving across the opponent's hip. Squeeze your triangle tighter during the hand transition to compensate for the momentary reduction in upper body control. Never unlock or loosen the triangle to facilitate the arm transition.",
         "safety_critical": false,
         "answer_line": "Triangle stays locked throughout",
@@ -404,7 +404,7 @@
         }
       },
       {
-        "question": "In competition, how do you create the heel hook to kneebar dilemma that forces the opponent into a losing choice?",
+        "question": "In competition, how do you build the heel hook to kneebar dilemma from the honey hole?",
         "answer": "Establish the heel hook threat first by actively pursuing the heel grip. When the opponent commits their hands and body positioning to defending the heel by tucking it away, their leg straightens and their hands are occupied, creating the ideal kneebar setup. The dilemma works because defending the heel hook requires curling the foot and using hands to strip grips, which leaves the knee exposed and removes their ability to grip-fight the kneebar clamp. Alternate between threats to keep them reacting rather than proactively escaping.",
         "safety_critical": false,
         "answer_line": "Heel threat forces leg to straighten",
@@ -434,7 +434,7 @@
         }
       },
       {
-        "question": "Your opponent explosively rotates their hips during your kneebar attempt - what is your immediate response?",
+        "question": "They explosively rotate their hips during your kneebar from honey hole: what is your response?",
         "answer": "Follow their rotation with your hips while maintaining the arm clamp and inside leg triangle. If they rotate toward you, use the momentum to transition to a belly-down kneebar position which provides even stronger finishing leverage. If they rotate away, your triangle should limit the rotation to prevent completion. Post your free hand on the mat for base if the rotation threatens to displace you. Never let go of the arm clamp during rotation as your grip on the leg is your anchor point for following their movement.",
         "safety_critical": false,
         "answer_line": "Follow rotation, keep clamp",
@@ -558,7 +558,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first physical cue that tells you the attacker is transitioning from heel hook to kneebar?",
+        "question": "What is the first cue that the attacker is switching from a heel hook to a kneebar?",
         "answer": "The primary cue is feeling the attacker release your heel or ankle grip and their hands moving up toward your thigh area above the knee. You will also feel their hips shift from alongside your leg to directly behind your knee joint. This grip transition takes 1-2 seconds and is your window to implement knee bend defense before the arm clamp is established.",
         "safety_critical": false,
         "answer_line": "Heel release, hands move up",
@@ -588,7 +588,7 @@
         }
       },
       {
-        "question": "What defensive options are available when the attacker has fully locked the arm clamp and begun extending?",
+        "question": "What defensive options remain once the attacker has locked the arm clamp and begun extending?",
         "answer": "Once the arm clamp is locked and extension has begun, your realistic options are extremely limited. Maximum effort knee bend may delay the finish temporarily, and explosive rotation with bridge may disrupt alignment if attempted immediately. However, if the extension is progressing and your knee is being straightened, the safest option is to tap. Attempting heroic escapes at this stage carries high injury risk with low success probability. Prevention and early defense are far more effective than late-stage attempts.",
         "safety_critical": true,
         "answer_line": "Few good options; tapping is safest",

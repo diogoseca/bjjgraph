@@ -80,7 +80,7 @@ description: "Execute the Toe Hold to Ashi Garami transition. Step-by-step guide
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What signals should trigger the decision to transition from toe hold to ashi garami rather than continuing to pursue the toe hold finish?",
+      "name": "What signs tell you to abandon the toe hold finish and transition to ashi garami instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key triggers include the opponent successfully breaking your figure-four grip through persistent wrist control, their boot defense effectively hiding the heel and preventing rotational leverage, repeated defensive rotations that prevent full pressure application, and the sense that continued toe hold pursuit is consuming energy without progressing toward the finish. The decision should be proactive rather than reactive, initiating the transition while you still have sufficient control rather than waiting until the toe hold has completely failed and control is compromised."
@@ -88,7 +88,7 @@ description: "Execute the Toe Hold to Ashi Garami transition. Step-by-step guide
     },
     {
       "@type": "Question",
-      "name": "During the grip change from figure-four to C-grip, what maintains control of the opponent's trapped leg?",
+      "name": "During the figure-four to C-grip change, what keeps the trapped leg controlled?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary control during the grip change is the clamping pressure of both legs squeezing together around the opponent's trapped limb. This leg-to-leg compression must be increased before the grip change begins, serving as the continuous control system while hands transition between grip configurations. Secondary control comes from chest-to-leg connection and maintaining at least one hand in contact with the opponent's foot or ankle throughout the transition."
@@ -96,7 +96,7 @@ description: "Execute the Toe Hold to Ashi Garami transition. Step-by-step guide
     },
     {
       "@type": "Question",
-      "name": "Where exactly should the inside leg be positioned in the resulting ashi garami and why is this placement critical?",
+      "name": "Where should your inside leg go in the resulting ashi garami, and why does that matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside leg should be positioned across the opponent's near hip with the foot planted firmly on the far side of their body, creating a barrier that prevents hip rotation. This placement is critical because it controls the opponent's ability to face you and create defensive frames, blocks their hip escape pathway, and establishes the primary rotational control that distinguishes inside ashi-garami from less dominant leg entanglement configurations."
@@ -104,7 +104,7 @@ description: "Execute the Toe Hold to Ashi Garami transition. Step-by-step guide
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sitting up aggressively during the grip transition window - how do you respond while completing the transition?",
+      "name": "They sit up hard during your grip change to ashi garami: how do you finish the transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward pressure with your chest into their lower leg to counter their sit-up momentum while accelerating the inside leg placement across their hip. Their sit-up creates a natural frame for you to push against, which can actually aid your hip scooting motion to close distance. If they persist in sitting up after you establish ashi garami, transition to saddle entry by threading your legs deeper, converting their postural recovery into a deeper entanglement rather than allowing escape."
@@ -120,7 +120,7 @@ description: "Execute the Toe Hold to Ashi Garami transition. Step-by-step guide
     },
     {
       "@type": "Question",
-      "name": "After successfully establishing inside ashi-garami, what submissions become immediately available and how do you select between them?",
+      "name": "From inside ashi-garami, which submissions open up and how do you choose between them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Inside ashi-garami provides direct access to straight ankle locks through hip extension pressure, heel hooks when the knee line is controlled and rules permit, toe holds from the new angle, and kneebars if the opponent straightens their leg defensively. Selection depends on the opponent's defensive posture: if their heel is exposed with knee line controlled, straight ankle lock is highest percentage. If they rotate their knee inward, heel hook opportunity opens. If they extend their leg to create distance, the kneebar becomes available. Read their defense and flow to the appropriate attack."

@@ -88,7 +88,7 @@ description: "Master the Knee Through from Quarter Guard attack. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "What conditions must exist in the quarter guard position before the knee through becomes a viable option?",
+      "name": "What conditions must be present in quarter guard before the knee through is viable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Four conditions must exist: your passing knee must be past the opponent's hip line by at least four inches establishing the mechanical angle for the drive, your crossface or upper body control must be sufficient to prevent the opponent from turning or creating frames, the opponent's remaining leg control must be visibly degraded to partial contact rather than full defensive engagement, and your free leg must be posted with stable base to resist sweep attempts during the transition moment. Attempting the knee through without all four conditions significantly reduces success probability."
@@ -96,7 +96,7 @@ description: "Master the Knee Through from Quarter Guard attack. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that distinguishes a successful knee drive from a failed one?",
+      "name": "What mechanical detail most separates a successful knee drive from a failed one in quarter guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical mechanical detail is maintaining a flat horizontal trajectory during the knee drive rather than lifting the knee in an arc over the opponent's leg. The flat trajectory keeps your hips heavy against the opponent throughout the transition, eliminates the space gap that allows defensive recovery, and completes the pass in the shortest possible time window. Every inch of vertical lift during the drive creates proportional space for the opponent to re-engage defensive hooks or insert frames."
@@ -104,7 +104,7 @@ description: "Master the Knee Through from Quarter Guard attack. Step-by-step gu
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand against your hip and begins hip escaping during your knee drive—how do you adjust?",
+      "name": "They post on your hip and hip escape during your knee drive from quarter guard—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent frames against your hip during the drive, immediately redirect your crossface pressure diagonally toward their far shoulder to counteract their hip escape direction. Use your free hand to strip or pin their posting arm against their body, eliminating the frame. If their hip escape has already created significant space, you may need to follow their hips and re-establish quarter guard pressure rather than forcing the knee through against an active escape. The key decision is whether the drive can complete before their escape creates enough space for guard recovery."

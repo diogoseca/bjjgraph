@@ -66,7 +66,7 @@ description: "How to defend against the Mount Escape to Half Guard Back Take cha
     },
     {
       "@type": "Question",
-      "name": "What specific body mechanics prevent the opponent from completing the come-up during your leg extraction?",
+      "name": "Defending the half guard back take, what mechanics stop their come-up as you extract your leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your shoulder and chest weight forward into the opponent as you extract, keeping your hips low and heavy rather than lifting upward. Your crossface arm should maintain constant pressure across their jaw, turning their head away from the underhook side and breaking their spinal alignment. Post your free leg wide with the knee angled outward to create a stable base that resists their upward drive. The combined effect of forward pressure, head control, and wide base eliminates the space corridor they need to rise to your hip."
@@ -74,7 +74,7 @@ description: "How to defend against the Mount Escape to Half Guard Back Take cha
     },
     {
       "@type": "Question",
-      "name": "If you feel the opponent start coming up on their underhook during extraction, what is the immediate counter?",
+      "name": "You feel them coming up on the underhook as you extract your leg: what is the counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop the extraction immediately and drive your shoulder into them with a hard crossface, sprawling your hips back and down to create downward pressure. If they have already risen partially, use a whizzer (overhook) on their underhook arm and drive them back to the mat by circling toward their head. The whizzer counters the underhook directly and can be used to spin them back flat. If they are too far into the come-up for the whizzer to work, abandon the half guard entirely and re-mount by stepping your free leg over their hip while they are still transitioning."
@@ -82,7 +82,7 @@ description: "How to defend against the Mount Escape to Half Guard Back Take cha
     },
     {
       "@type": "Question",
-      "name": "Why is settling into half guard top sometimes the best defensive choice even though it surrenders your mount?",
+      "name": "Why is settling for half guard top sometimes better than fighting to keep the mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Half guard top with a strong crossface and underhook denial is a stable, low-risk position where you maintain clear passing pathways and the opponent has limited offensive options. Attempting to re-mount or aggressively extracting against an opponent with a deep underhook and back take setup carries significant risk of giving up back control—the worst possible outcome. By accepting half guard top and passing methodically, you trade a small positional concession for complete elimination of the back take threat. The scoring math supports this: losing mount costs no points if you already scored them, but giving up the back costs four points."

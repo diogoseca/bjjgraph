@@ -64,7 +64,7 @@ description: "Defend and counter the Sweep from Electric Chair in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between the opponent setting up the sweep versus the submission from Electric Chair?",
+      "name": "On top of electric chair, how do you tell a sweep setup from the submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sweep is characterized by the opponent beginning a rolling motion toward their underhook side with coordinated hip extension. The submission involves the opponent staying more stationary while increasing outward splitting pressure through sustained hip drive. However, both threats share the same setup controls, which is why early intervention before the position is fully established is the most effective defense against both threats simultaneously."

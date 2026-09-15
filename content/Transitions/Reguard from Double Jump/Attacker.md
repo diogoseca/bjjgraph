@@ -98,7 +98,7 @@ description: "Complete guide to executing the reguard from Double Jump bottom in
     },
     {
       "@type": "Question",
-      "name": "When should you choose to reguard to closed guard versus escaping to half guard from Double Jump bottom?",
+      "name": "From Double Jump bottom, when do you reguard to closed guard versus escape to half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Reguard to closed guard when your closed guard attack system is stronger than your half guard game and you have sufficient hip mobility for the full guard closure. Choose the half guard escape when the opponent's pressure makes full guard closure unrealistic, when you need the quickest possible recovery to any stable guard, or when your half guard offensive system is well-developed. The reguard is higher risk but higher reward."

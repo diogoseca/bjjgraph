@@ -80,7 +80,7 @@ description: "Complete guide to executing the Harness Escape to Half Guard. Lear
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent has a tight harness grip but their bottom hook is loose—what is the optimal timing to initiate the escape?",
+      "name": "Harness bottom: their harness is tight but the bottom hook is loose. When do you start the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The loose bottom hook is the critical window. Immediately establish your two-on-one grip on the choking arm while using your same-side foot to push their loose hook completely off your thigh. Begin your diagonal hip escape the instant the hook clears. Do not wait for a perfect moment—the loose hook IS the moment. Every second you delay allows them to re-establish the hook or tighten their overall position."
@@ -96,7 +96,7 @@ description: "Complete guide to executing the Harness Escape to Half Guard. Lear
     },
     {
       "@type": "Question",
-      "name": "Why must you hip escape diagonally toward the underhook side rather than directly away from the opponent?",
+      "name": "Escaping harness to half guard: why hip escape diagonally toward the underhook side?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The diagonal hip escape toward the underhook side disrupts the opponent's chest-to-back alignment in two planes simultaneously—lateral and rotational. A direct escape away from the opponent only creates linear space that they can close by following your hips forward. The diagonal angle toward the underhook side specifically weakens the harness grip mechanics because it loads the underhook arm while creating slack in the over-arm, making the catch easier and the turn more effective."
@@ -104,7 +104,7 @@ description: "Complete guide to executing the Harness Escape to Half Guard. Lear
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins following your hip escape and you feel their weight shifting toward mount—how do you adjust?",
+      "name": "Escaping harness to half guard, they follow your hips and shift toward mount. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately stop your rotational turn and re-establish defensive frames. Plant your near-side elbow and knee together to create a physical barrier against the mount transition. Hip escape in the opposite direction to recover distance. If they have already partially achieved mount, frame against their hip with your near-side hand and use the space to re-insert your knee between your bodies. Only resume the half guard escape attempt once you have denied the mount and re-established your defensive structure."
@@ -120,7 +120,7 @@ description: "Complete guide to executing the Harness Escape to Half Guard. Lear
     },
     {
       "@type": "Question",
-      "name": "After catching half guard, your opponent immediately drives forward with heavy crossface pressure—what is your priority?",
+      "name": "You catch half guard from harness and they drive a heavy crossface. What is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert your knee shield immediately before addressing the crossface. The knee shield creates structural distance that prevents them from flattening you regardless of their crossface pressure. Place your shin diagonally across their torso from hip to shoulder. Once the knee shield is established, use your free hand to frame against their crossface arm while fighting for the underhook with your inside arm. The knee shield buys you time and space that makes all subsequent defensive and offensive actions possible."

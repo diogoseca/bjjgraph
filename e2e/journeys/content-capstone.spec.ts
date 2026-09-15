@@ -49,6 +49,15 @@ async function openTrack(page: any, trackId = WHITE.id) {
 }
 
 async function awaitCapstoneHand(j: any) {
+  // Arrival can now deal synchronously during the start click. Require a hand emitted
+  // AFTER this capstone started; waiting for another deal would stall a ready board.
+  const ready = await j.page.evaluate(() => {
+    const a = (window as any).__neural;
+    const start = a.beats.findLastIndex((b: any) => b.beat === "belt_test_start");
+    return !!a._beltTest && start >= 0 && a.optionIdxs.length > 0 &&
+      a.beats.slice(start + 1).some((b: any) => b.beat === "options_dealt");
+  });
+  if (ready) return j.landQuestion();
   await j.nextHand(30000);
 }
 
@@ -64,7 +73,9 @@ async function playToTap(j: any, page: any, maxMoves = 8): Promise<boolean> {
     await j.rig("resolve", [0.01]);
     await j.rig("outcome", [0.01]);
     if (submission) {
-      await j.pick(submission);
+      await j.pick(submission); // establish the submission state
+      await j.advance(3000);
+      await j.pick(submission); // its one Finish action completes the exchange
       await j.advanceUntil("roll_end", 20000);
       return true;
     }
@@ -185,27 +196,26 @@ test.describe("Content capstones @curated", () => {
     await j.advanceUntil("belt_test_start", 20000);
     await awaitCapstoneHand(j);
 
-    for (let move = 0; move < 2; move += 1) {
-      const transition = await page.evaluate(() => {
-        const app = (window as any).__neural;
-        for (const index of app.optionIdxs || []) {
-          if (app.nodes[index].ty === "transitions") return app.nodes[index].t;
-        }
-        return null;
+    // Exercise the opponent chooser from a state with both permitted and excluded
+    // finishes. Two arbitrary transitions can leave the opponent with no submission
+    // at all, so that route never established this test's vocabulary premise.
+    await j.rig("opp-finish", [0]);
+    await j.rig("opp-sub-pick", [0]);
+    await page.evaluate(() => {
+      const a = (window as any).__neural;
+      const pool = new Set(a._beltTest.names);
+      const allowed = (n: any) => pool.has(a.splitName(n.t).main.toLowerCase());
+      const state = a.nodes.find((n: any) => {
+        if (n.ty !== "positions" || !a.rsAllows(n)) return false;
+        const subs = a.optionsFor(n.idx, n.role === "top" ? "bottom" : "top")
+          .map((o: any) => a.nodes[o.idx]).filter((t: any) => t.ty === "submissions");
+        return subs.length > 1 && !allowed(subs[0]) && subs.some(allowed);
       });
-      if (!transition) break;
-      await j.rig("resolve", [0.99]);
-      await j.rig("outcome", [0.99]);
-      await j.rig("opp-finish", [0.01]);
-      await j.rig("opp-sub-pick", [0.01]);
-      await j.rig("escape", [0.01]);
-      await j.pick(transition);
-      await j.advanceUntil("opponent_attack", 25000).catch(() => {});
-      if ((await j.beats()).some((beat: any) => beat.beat === "caught")) {
-        await page.evaluate(() => (window as any).__neural.pickFirstEscape());
-        await j.nextHand(30000).catch(() => {});
-      }
-    }
+      if (!state) throw new Error("No opponent fixture with excluded-first and allowed finishes");
+      a.currentPos = state.idx;
+      a.playerRole = state.role;
+      a.opponentDefend();
+    });
 
     const attacks = (await j.beats()).filter(
       (beat: any) => beat.beat === "opponent_attack",

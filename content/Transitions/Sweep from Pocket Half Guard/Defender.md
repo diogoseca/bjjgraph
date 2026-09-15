@@ -80,7 +80,7 @@ description: "Defend against the Sweep from Pocket Half Guard as the top player.
     },
     {
       "@type": "Question",
-      "name": "What is the defensive dilemma created when the opponent threatens both this sweep and the Old School Sweep?",
+      "name": "What dilemma do the pocket half guard sweep and Old School sweep create, and how do you defend it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The directional dilemma forces you to balance weight perfectly on the midline. Sitting back to prevent the pocket sweep opens the Old School entry, while driving forward to prevent the Old School opens this sweep. The best defensive strategy is maintaining centered weight with a wide base while actively fighting the underhook, which addresses the root cause of both threats rather than reacting to each individually."

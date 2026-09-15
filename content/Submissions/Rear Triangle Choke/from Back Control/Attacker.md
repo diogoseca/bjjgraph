@@ -70,7 +70,7 @@ description: "How to execute Rear Triangle Choke in BJJ. Attacking perspective w
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must you create an angle with your hips before attempting to throw your leg over the opponent's shoulder?",
+      "name": "Rear triangle from back control: why angle your hips before throwing your leg over the shoulder?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Creating an angle (45-90 degrees) with your hips is essential because it generates the space necessary for your leg to enter between the opponent's arm and head. Without this angle, you remain directly behind the opponent where there is no room for your leg to pass over their shoulder. The angle also positions your body perpendicular to theirs, which is the optimal finishing position for the triangle choke. Attempting the technique without creating this angle first results in an awkward, loose triangle that is easily escaped."
@@ -78,7 +78,7 @@ description: "How to execute Rear Triangle Choke in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What is the minimum time you should take to apply full pressure when finishing this choke in training, and why?",
+      "name": "Finishing the rear triangle in training, what is the minimum time to apply full pressure, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must take a minimum of 4-6 seconds to apply full pressure when finishing the triangle choke from back control in training. This extended time window is critical because blood chokes can cause unconsciousness very quickly once properly applied, and your training partner needs adequate time to recognize the danger, decide to tap, and execute the tap signal. Rapid application of pressure as used in competition does not allow this safety window. The slow, progressive application also allows you to feel the technique's mechanics properly and gives your partner the opportunity to work defensive techniques safely."
@@ -86,7 +86,7 @@ description: "How to execute Rear Triangle Choke in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Which arm should be trapped inside the triangle configuration and how do you ensure it stays trapped throughout the technique?",
+      "name": "Rear triangle from back control: which arm goes inside, and how do you keep it trapped?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The arm on the same side as your choking arm should typically be trapped inside the triangle - this is the arm that the opponent uses to defend the rear naked choke. To ensure it stays trapped, you must maintain constant tension by pulling it across the opponent's neck using your choking arm or free hand. The trapped arm should be kept tight to their neck throughout the entire sequence from isolation through finish. If you lose control of this arm and it escapes the triangle, the submission becomes much weaker or fails completely. Continuous grip and pulling pressure on the trapped arm is non-negotiable for success."
@@ -94,7 +94,7 @@ description: "How to execute Rear Triangle Choke in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What are the immediate steps you must take if your training partner taps or shows any sign of distress during this submission?",
+      "name": "What must you do the moment your partner taps or shows distress in the rear triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upon any tap signal or sign of distress, you must immediately: (1) unlock your legs and open the triangle configuration, (2) release the trapped arm completely, (3) allow their head to return to neutral position, (4) reduce all pressure and hold still, (5) check that your partner is alert and breathing normally, and (6) wait for verbal confirmation before resuming any training. You must never hesitate or delay the release for any reason. Any sign of distress including unusual sounds, panic movements, or loss of resistance requires immediate complete release of the submission. This protocol prevents serious injury and demonstrates proper training partnership."
@@ -102,7 +102,7 @@ description: "How to execute Rear Triangle Choke in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Describe the proper finishing mechanics for this triangle - how do you actually create the choking pressure?",
+      "name": "How do you create the choking pressure to finish the rear triangle from back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choking pressure comes from a combination of actions: (1) squeezing your knees together to compress the triangle around the opponent's neck and trapped arm, (2) cutting the angle by rotating your hips further perpendicular to their spine (approaching 90 degrees), which tightens the triangle geometry, (3) pulling down on the opponent's head and/or trapped arm to prevent them from posturing and to bring their neck deeper into the choke, and (4) potentially pushing their head away with your free hand while pulling with your legs. The key is not just leg squeeze but the angle creation - many failed triangles from back come from squeezing without cutting the proper angle. The trapped arm also helps by taking up space in the triangle, making the choke tighter on the neck."
@@ -110,7 +110,7 @@ description: "How to execute Rear Triangle Choke in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Why is this submission considered a part of a submission chain rather than a standalone attack from back control?",
+      "name": "Why is the rear triangle from back control a chain submission rather than a standalone attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The triangle choke from back control is fundamentally a chain submission because it emerges as a response to the opponent's defense of the rear naked choke. The typical sequence is: attempt rear naked choke, opponent defends by protecting neck with hands, this defense creates the setup for triangle by bringing their arms into position, then execute triangle. This exemplifies the dilemma creation principle where defending one attack opens the path to another. Additionally, if the triangle attempt fails, you can flow back to rear naked choke, armbar on the trapped arm, or other back attacks. Viewing it as part of a chain rather than an isolated technique dramatically increases your finishing rate from back control because you are constantly presenting multiple threats that feed into each other."

@@ -74,7 +74,7 @@ description: "Execute the Buggy Choke to North-South transition in BJJ. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the primary indicators that the buggy choke is stalling and you should transition to north-south?",
+      "name": "What indicates the buggy choke is stalling and you should transition to north-south?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary stalling indicators are: the opponent has successfully fought your collar grip to a shallow depth for more than five seconds, they are maintaining chin tuck that prevents choking pressure from advancing, their breathing remains controlled rather than labored, or they have begun systematic grip stripping that is progressively reducing your control. When any combination of these indicators is present, the choke is unlikely to finish and continuing wastes energy that could be invested in positional advancement."

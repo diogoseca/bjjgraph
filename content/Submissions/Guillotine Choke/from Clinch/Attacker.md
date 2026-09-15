@@ -76,7 +76,7 @@ description: "Execute the Guillotine Choke from Clinch in BJJ. Step-by-step guid
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the standing guillotine primarily attack, and how does grip placement determine whether it functions as a blood choke or an air choke?",
+      "name": "What does the standing guillotine attack, and how does grip placement decide blood vs air choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The standing guillotine primarily targets the carotid arteries on both sides of the neck when applied as a blood choke, restricting blood flow to the brain and causing unconsciousness within seconds. When the wrist is positioned directly under the jawline with the blade of the forearm pressing laterally against the neck, it compresses the carotid arteries bilaterally. If the grip slides to the front of the throat and presses against the trachea, it becomes an air choke that restricts breathing, which is slower, more painful, and carries greater injury risk. Proper wrist placement under the chin rather than on the throat is the critical distinction between the two mechanics."
@@ -84,7 +84,7 @@ description: "Execute the Guillotine Choke from Clinch in BJJ. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up aggressively during your standing guillotine attempt - what adjustment prevents the escape?",
+      "name": "They posture up hard during your standing guillotine — what adjustment prevents the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Step forward with your lead foot to follow their posture and maintain chest-to-crown contact. Increase the downward curl of your shoulders around their head to prevent the seal from breaking. If they generate enough upward force to begin separating, immediately transition to pulling guard by sitting your hips to the mat while maintaining the guillotine grip. The guard pull converts their upward energy into a downward pull using your body weight and gravity. Never try to hold a standing guillotine against a successful posture recovery—the transition to ground guillotine control preserves the attack."
@@ -92,7 +92,7 @@ description: "Execute the Guillotine Choke from Clinch in BJJ. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "What role does hip positioning play as the fulcrum in finishing the standing guillotine, and what happens if the hip is too far back?",
+      "name": "How does your lead hip act as the standing guillotine fulcrum, and what if it is too far back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lead hip positioned against the opponent's upper chest or shoulder creates a fulcrum point that amplifies the mechanical advantage of the choke. When you curl your arms upward and arch your body, the hip acts as the pivot point that translates full-body force into concentrated pressure on the neck. If the hip is too far back, you lose this fulcrum and must generate all choking pressure through arm strength alone, which fatigues within seconds and produces insufficient compression against a resisting opponent. The hip placement effectively turns the choke from an arm-only squeeze into a full-body lever system."
@@ -100,7 +100,7 @@ description: "Execute the Guillotine Choke from Clinch in BJJ. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "What are the breaking point indicators that tell you the standing guillotine is properly set and the opponent is close to tapping?",
+      "name": "What signs tell you the standing guillotine is set and the opponent is close to tapping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include: the opponent's face changing color (becoming red or purple), their grip fighting becoming weaker and less coordinated, their body weight starting to sag downward rather than actively resisting, audible gurgling or strained breathing sounds, and their hands transitioning from strategic grip fighting to desperate pawing at your arms. The most reliable indicator is the decrease in resistance quality—a properly set guillotine causes progressive debilitation that is visible in the opponent's movement patterns deteriorating over three to five seconds. If none of these signs appear within four seconds of full pressure, the grip likely needs adjustment or a transition to the ground."
@@ -108,7 +108,7 @@ description: "Execute the Guillotine Choke from Clinch in BJJ. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly against their chest to block the forearm from seating under the jaw - how do you adjust your grip to finish?",
+      "name": "They tuck the chin so your forearm can't seat under the jaw — how do you adjust to finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase chest pressure on the crown of their head to drive their posture lower, which makes the chin tuck harder to maintain. Use short pumping motions with your choking arm, pushing deeper under the jaw with each pump rather than trying to force through in one motion. If the standard grip is blocked, transition to the high-elbow variation by raising the elbow of your choking arm above the opponent's shoulder line. This changes the angle of attack from directly under the chin to a diagonal line from above, bypassing the chin defense by compressing the neck from a steeper angle. The high-elbow position also makes the choke tighter even if there is slight space under the jaw."
@@ -116,7 +116,7 @@ description: "Execute the Guillotine Choke from Clinch in BJJ. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "What is the most common finishing error that allows opponents to escape an otherwise properly set standing guillotine?",
+      "name": "What is the most common finishing error on an otherwise well-set standing guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common error is squeezing entirely with arm strength while neglecting hip drive and body mechanics. Practitioners lock the grip correctly, achieve proper depth, but then try to muscle the finish by flexing their biceps and forearms without incorporating hip extension and the upward shearing motion. This causes rapid forearm fatigue within five to eight seconds, and the opponent simply needs to survive the initial squeeze before the grip weakens enough to escape. The correction is to treat the arms as the grip mechanism while using hip drive, chest pressure, and the arching motion of the torso to generate the actual finishing force. Body-driven guillotines can be maintained significantly longer than arm-driven ones."

@@ -113,7 +113,7 @@ description: "Master the Arm Triangle choke in BJJ. Setup from side control, exe
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What is the Arm Triangle?", "acceptedAnswer": { "@type": "Answer", "text": "The Arm Triangle, or Kata Gatame, is a head-and-arm blood choke applied from dominant top positions such as side control, mount, and north-south, converting an opponent\u0027s defensive arm into the lever that cuts off blood flow to the brain." } },
-    { "@type": "Question", "name": "What positions can you finish the Arm Triangle from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Arm Triangle from High Mount, Reverse Kesa-Gatame, Reverse Scarf Hold, Shoulder of Justice, Hindulotine, Turtle, Kesa Gatame, Kuzure Kesa-Gatame, Modified Scarf Hold, Scarf Hold Position, Side Control, Twister Side Control." } },
+    { "@type": "Question", "name": "What positions can you finish the Arm Triangle from?", "acceptedAnswer": { "@type": "Answer", "text": "You can finish the Arm Triangle from High Mount, Shoulder of Justice, Hindulotine, Kuzure Kesa Gatame, Turtle, Kesa Gatame, Side Control, Twister Side Control." } },
     { "@type": "Question", "name": "Is the Arm Triangle dangerous?", "acceptedAnswer": { "@type": "Answer", "text": "Arm Triangle targets the Carotid arteries (compressed by opponent\u0027s own shoulder and your arm). Primary risk: Loss of consciousness from blood choke. Tap early and release immediately on the tap." } }
   ]
 }
@@ -199,15 +199,11 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 | From Position | Seat | Success | Play as Attacker | Play as Defender |
 |---|---|---|---|---|
 | [[Submissions/Arm Triangle/from High Mount|High Mount]] | Top | 68% | [[Submissions/Arm Triangle/from High Mount/Attacker|Attack →]] | [[Submissions/Arm Triangle/from High Mount/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Reverse Kesa-Gatame|Reverse Kesa-Gatame]] | Top | 68% | [[Submissions/Arm Triangle/from Reverse Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Reverse Kesa-Gatame/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Reverse Scarf Hold|Reverse Scarf Hold]] | Top | 68% | [[Submissions/Arm Triangle/from Reverse Scarf Hold/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Reverse Scarf Hold/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Shoulder of Justice|Shoulder of Justice]] | Top | 68% | [[Submissions/Arm Triangle/from Shoulder of Justice/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Shoulder of Justice/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Hindulotine|Hindulotine]] | Top | 62% | [[Submissions/Arm Triangle/from Hindulotine/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Hindulotine/Defender|Defend →]] |
+| [[Submissions/Arm Triangle/from Kuzure Kesa Gatame|Kuzure Kesa Gatame]] | Top | 62% | [[Submissions/Arm Triangle/from Kuzure Kesa Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Kuzure Kesa Gatame/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Turtle|Turtle]] | Top | 62% | [[Submissions/Arm Triangle/from Turtle/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Turtle/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Kesa Gatame|Kesa Gatame]] | Top | 50% | [[Submissions/Arm Triangle/from Kesa Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Kesa Gatame/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame|Kuzure Kesa-Gatame]] | Top | 50% | [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Modified Scarf Hold|Modified Scarf Hold]] | Top | 50% | [[Submissions/Arm Triangle/from Modified Scarf Hold/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Modified Scarf Hold/Defender|Defend →]] |
-| [[Submissions/Arm Triangle/from Scarf Hold Position|Scarf Hold Position]] | Top | 50% | [[Submissions/Arm Triangle/from Scarf Hold Position/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Scarf Hold Position/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Side Control|Side Control]] | Top | 50% | [[Submissions/Arm Triangle/from Side Control/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Side Control/Defender|Defend →]] |
 | [[Submissions/Arm Triangle/from Twister Side Control|Twister Side Control]] | Top | 40% | [[Submissions/Arm Triangle/from Twister Side Control/Attacker|Attack →]] | [[Submissions/Arm Triangle/from Twister Side Control/Defender|Defend →]] |
 
@@ -244,8 +240,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 - [[Submissions/Japanese Necktie]] - Related head-and-arm choke with cranking neck pressure component
 - [[Positions/Side Control]] - Primary setup position requiring tight crossface control
 - [[Positions/Mount]] - Alternative setup position when opponent frames defensively
-- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold position allows similar arm triangle setup
-- [[Positions/Side Control/Modified Scarf Hold]] - Body positioning allows similar compression mechanics
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Modified scarf hold position allows similar arm triangle setup
 - [[Positions/North-South]] - Finishing position variation with downward shoulder pressure
 - [[Positions/Mount/Technical Mount]] - Alternative finishing position with leg control for stability
 - [[Positions/Mount/S Mount]] - Modified mount finish provides excellent angle for compression

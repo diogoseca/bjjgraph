@@ -56,7 +56,7 @@ description: "How to defend against Leg Drag While Clearing Lapel in BJJ. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt Leg Drag While Clearing Lapel?",
+      "name": "Earliest cue that they are setting up a leg drag while clearing your lapel grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary telegraph is when your opponent secures both sleeve or wrist control on your lapel-gripping hand and a low pant grip on your shin simultaneously. This dual-grip setup is the prerequisite for the technique and should trigger immediate defensive action before the drag motion begins."
@@ -72,7 +72,7 @@ description: "How to defend against Leg Drag While Clearing Lapel in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially completed the drag but has not established shoulder contact on your hip—what is your best defensive option?",
+      "name": "They partly completed the drag but have no shoulder contact on your hip. Best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame immediately on their lead shoulder with your near-side hand and hip escape aggressively toward them to re-face. Simultaneously use your free leg to post on their hip or insert between your bodies as a barrier. This window before shoulder contact is your highest-percentage recovery moment because the passer lacks the pressure to pin you down."

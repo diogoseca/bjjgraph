@@ -56,7 +56,7 @@ description: "Learn to escape and survive the Truck position in BJJ. Systematic 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your first defensive priority when the opponent re-establishes boot pressure after you partially clear it?",
+      "name": "After you partly clear the truck boot and they re-apply it, what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-engage boot fighting with your near hand while keeping the far hand defending your neck. The boot is the torque engine of the truck position, and allowing it to re-seat without resistance means all subsequent escape attempts become exponentially harder. Fight the boot every time it is re-applied, because each successful re-seating resets your escape progress to zero."

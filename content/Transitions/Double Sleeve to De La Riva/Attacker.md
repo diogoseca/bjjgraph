@@ -114,7 +114,7 @@ description: "Execute the Double Sleeve to De La Riva Guard transition. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward with pressure as you are mid-transition. Is this dangerous or beneficial?",
+      "name": "They pressure forward mid-transition to De La Riva: is that dangerous or helpful to you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pressure during the transition is generally beneficial because it commits their weight to the lead leg you are hooking, making the DLR hook bite deeper and preventing them from retracting. Accept their pressure, complete the hook insertion rapidly, and use their forward momentum to load them for an immediate DLR sweep or berimbolo entry. The main risk is if you have already released your near-side grip but not yet grabbed the ankle, as the pressure could collapse your guard before the conversion is complete."

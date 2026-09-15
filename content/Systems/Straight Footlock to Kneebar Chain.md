@@ -182,15 +182,37 @@ Developed and popularized by modern leg lock specialists, this chain has become 
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Straight Footlock to Kneebar Chain?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 28 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos</h3>
+<p class="product-card__instructor">with Craig Jones</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students who want both submissions in one instructional; the listed chapters do not establish that every footlock-to-kneebar sequence on this page is taught.</p>
+<p class="product-card__blurb">Includes straight-ankle-lock and kneebar lessons within a broader triangle-and-leg course.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=straight-footlock-to-kneebar-chain&utm_term=systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -315,6 +337,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Start with the straight-lock material in volume two before studying the wider combinations.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=straight-footlock-to-kneebar-chain&utm_term=systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -431,5 +464,16 @@ The system should be trained in progressive phases, beginning with positional co
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>BJJGraph suggestion: pause after a defensive reaction, name the available control position, then reset if neither branch is secure. Agree allowed leg attacks beforehand.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=straight-footlock-to-kneebar-chain&utm_term=systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos &rarr;</a></p>
+</section>
+
+
 
 </main>

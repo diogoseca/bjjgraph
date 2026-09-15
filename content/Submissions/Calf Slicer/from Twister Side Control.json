@@ -309,7 +309,7 @@
         }
       },
       {
-        "question": "How does the existing leg entanglement in twister side control facilitate the calf slicer setup compared to other positions?",
+        "question": "How does the leg entanglement in twister side control aid the calf slicer setup?",
         "answer": "Twister side control provides a pre-built leg control framework where the opponent's near leg is already trapped by the controlling player's leg hooks. This eliminates the need to establish new leg control from scratch, making the transition to the calf slicer more fluid and harder to anticipate. The lateral angle also provides superior hip drive mechanics for generating compression force compared to more squared-up positions.",
         "safety_critical": false,
         "answer_line": "Leg already trapped, no reset",
@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "Your opponent begins straightening their trapped leg forcefully during the compression phase — what adjustment prevents escape?",
+        "question": "Twister side control: they forcefully straighten the trapped leg—what adjustment stops the escape?",
         "answer": "Secure foot control earlier and more tightly using a figure-four ankle grip that resists extension force. Use your full body weight pressing through the shin to resist the straightening rather than relying on arm strength alone. If the leg straightens significantly, the fulcrum loses effectiveness — in this case, maintain the entanglement and transition back to twister side control attacks rather than forcing a mechanically compromised calf slicer.",
         "safety_critical": false,
         "answer_line": "Tighten figure-four, use bodyweight",
@@ -354,7 +354,7 @@
         }
       },
       {
-        "question": "At what point during the calf slicer is the defender past the point of no return where escape becomes extremely unlikely?",
+        "question": "During the calf slicer, at what point is the defender past the point of no return?",
         "answer": "Once the attacker has achieved three simultaneous conditions — shin seated behind the knee, secure two-handed foot control, and initial hip drive creating fold — escape becomes extremely difficult. The compression mechanics are locked in and the defender's leg is structurally trapped. Before all three are established, the defender has realistic escape windows at each stage. This is why attackers must secure each element sequentially rather than rushing to the finish.",
         "safety_critical": false,
         "answer_line": "Shin set, foot control, hip drive",
@@ -369,7 +369,7 @@
         }
       },
       {
-        "question": "Your opponent attempts to roll toward you during the compression phase — how do you maintain the submission?",
+        "question": "They roll toward you during the calf slicer compression—how do you keep the submission?",
         "answer": "Post your outside hand and widen your base to absorb the rolling force without losing position. Their rolling motion toward you often actually deepens the leg entanglement and can improve your compression angle rather than disrupting it. Follow their movement by adjusting your hip position to maintain the shin-behind-knee fulcrum. If they roll far enough, you may end up in an even more dominant finishing position with gravity assisting the compression.",
         "safety_critical": false,
         "answer_line": "Post hand, widen base, follow roll",
@@ -399,7 +399,7 @@
         }
       },
       {
-        "question": "What are the critical safety protocols when applying the calf slicer from twister side control in training?",
+        "question": "What safety protocols apply when drilling the calf slicer from twister side control?",
         "answer": "Apply compression at a minimum pace of 5-7 seconds from initial fold to full pressure, never spiking or jerking the movement. Monitor continuously for verbal taps, which are preferred due to the leg entanglement potentially limiting hand access for physical taps. Release immediately upon any tap signal by first stopping hip drive, then releasing the foot grip, then slowly extracting the shin. The Achilles tendon is particularly vulnerable in this position and can rupture with sudden force, so controlled application is mandatory.",
         "safety_critical": true,
         "answer_line": "Fold slowly over 5-7 seconds",
@@ -429,7 +429,7 @@
         }
       },
       {
-        "question": "In competition, what finishing adjustments maximize tap probability against a flexible opponent who is resisting the compression?",
+        "question": "In competition, how do you finish the calf slicer on a flexible opponent resisting compression?",
         "answer": "Against flexible opponents, increase the mechanical advantage by deepening the shin placement slightly toward the thicker part of the calf and using a figure-four ankle lock grip for maximum foot control. Increase hip drive incrementally rather than all at once. If standard compression is insufficient, add a slight lateral twist to the fold that attacks the Achilles tendon at an angle rather than pure compression. Combine with verbal pressure and constant positional threat to create psychological urgency alongside the physical pressure.",
         "safety_critical": false,
         "answer_line": "Deepen shin, figure-four, add twist",
@@ -571,7 +571,7 @@
         }
       },
       {
-        "question": "Your opponent has threaded their shin behind your knee but has not yet secured foot control — what is your immediate defensive response?",
+        "question": "Their shin is behind your knee but your foot is still free—what is your immediate defense?",
         "answer": "Immediately straighten the trapped leg with maximum sustained force using your quadriceps and hamstrings. A fully extended leg cannot be compressed against the fulcrum effectively. Simultaneously, use your hands to control your own foot and ankle, preventing the attacker from establishing the grip they need to generate the fold. This is the most critical defensive window — once foot control is established, escape difficulty increases dramatically.",
         "safety_critical": false,
         "answer_line": "Straighten leg, control own foot",

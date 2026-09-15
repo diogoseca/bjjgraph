@@ -100,7 +100,7 @@ description: "How to execute Tarikoplata in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "How does the wrist control component prevent the rolling escape that works against traditional omoplata?",
+      "name": "How does tarikoplata wrist control stop the forward roll escape that beats a normal omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The wrist control prevents rolling escape by creating rotational torque on the shoulder joint that makes rolling forward extremely dangerous and painful. When the wrist is gripped and rotated, any attempt to roll forward amplifies the rotational stress on the shoulder dramatically, typically forcing an immediate tap. Additionally, the wrist grip allows you to follow and control the opponent's movement if they attempt to roll, maintaining the submission throughout the escape attempt. This transforms what would be an effective escape into a path of increased danger for the opponent."
@@ -116,7 +116,7 @@ description: "How to execute Tarikoplata in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "What physical prerequisites should a practitioner have before attempting the tarikoplata in live training?",
+      "name": "What should you have before trying the tarikoplata in live training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A practitioner should have excellent hip mobility to achieve full extension, demonstrated proficiency with traditional omoplata including proper positioning and pressure control, fine motor control for coordinating hip drive with wrist rotation, understanding of shoulder anatomy and injury mechanisms, minimum purple belt experience level recommended, and thorough drilling of the technique at slow speed with cooperative partners before live application. They should also understand proper release protocols and have established trust with training partners. The tarikoplata is an advanced technique that should not be attempted by beginners due to its high injury risk when applied incorrectly."

@@ -56,7 +56,7 @@ description: "Defend against posture up escape attempts from mounted triangle to
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "The bottom player has established a strong frame against your hip and is beginning to create posture - what is your immediate response?",
+      "name": "Holding a mounted triangle, they frame on your hip and start posturing. Immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First attempt to strip the frame by controlling their wrist and pushing it past your hip. If you cannot strip it within two seconds, transition to attacking the extended arm with an armbar by pivoting your hips toward that arm. Simultaneously use your free hand to maintain head control and prevent further posture development. The frame represents the foundation of their entire escape structure and removing it collapses their escape before it can develop."
@@ -64,7 +64,7 @@ description: "Defend against posture up escape attempts from mounted triangle to
     },
     {
       "@type": "Question",
-      "name": "What is the primary defensive adjustment when the bottom player begins hip escaping laterally during their posture attempt?",
+      "name": "Holding a mounted triangle, they hip escape laterally to posture. What adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their hip escape by re-angling your own hips in the same direction to maintain the triangle's choking geometry. Your triangle effectiveness depends on the angle between your squeezing thighs and their neck, so when they move laterally you must rotate to preserve that angle. Simultaneously pull the head down toward the side they are escaping from to prevent them from creating the space needed for arm extraction and guard recovery."
@@ -72,7 +72,7 @@ description: "Defend against posture up escape attempts from mounted triangle to
     },
     {
       "@type": "Question",
-      "name": "You feel your triangle lock beginning to loosen as the bottom player disrupts the ankle-behind-knee connection - should you fight to maintain it or transition?",
+      "name": "Mounted triangle: they disrupt your ankle-knee lock. Fight to keep the triangle or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Make one quick attempt to re-lock the triangle by adjusting your ankle position and squeezing your knees together. If the re-lock fails within two to three seconds, immediately transition to either armbar if their arm is accessible or consolidate standard mount. Fighting a losing triangle battle wastes energy and creates increasingly dangerous escape windows for the bottom player. A deliberate transition to mount maintains positional dominance rather than losing the position entirely through attrition."
@@ -80,7 +80,7 @@ description: "Defend against posture up escape attempts from mounted triangle to
     },
     {
       "@type": "Question",
-      "name": "The bottom player is making small incremental frame adjustments rather than explosive escape attempts - how do you prevent their systematic escape?",
+      "name": "Holding a mounted triangle against small, systematic frame adjustments: how do you shut it down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recognize that systematic escapes are more dangerous than explosive ones because they preserve the bottom player's energy while steadily degrading your control. Counter by actively tightening your triangle angle through hip adjustments, increasing squeeze pressure in pulses to force defensive reactions, and threatening submissions such as armbar or tighter choke that demand their immediate attention. The goal is to make them react to your attacks rather than methodically executing their escape plan."

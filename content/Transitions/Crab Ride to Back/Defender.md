@@ -80,7 +80,7 @@ description: "How to defend against Crab Ride to Back in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has one hook and is reaching over your far shoulder for the seat belt - what is your defensive priority?",
+      "name": "Defending crab ride: they have one hook and reach for the seat belt. What is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the seat belt completion by using your far hand to fight their reaching arm while simultaneously initiating a sit-through toward the hook side. The reaching motion creates a momentary weight shift forward and upward that compromises their hook anchor. By dropping your near hip to the mat and turning into them during this reach, you exploit the window where their control is divided between maintaining the hook and establishing the new grip. This is the highest-percentage defensive timing in the entire transition sequence."
@@ -88,7 +88,7 @@ description: "How to defend against Crab Ride to Back in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "What defensive body position should you maintain throughout the Crab Ride sequence even before escape attempts?",
+      "name": "Defending crab ride: what body position should you hold before any escape attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a tight turtle with knees wide enough for base but not so wide that you lose hip mobility. Keep your elbows pinched to your sides to deny underhook access, chin tucked to your chest to preemptively protect the neck, and shoulders slightly shrugged to reduce the space available for the over-shoulder grip. Your weight should be actively distributed through all four posting points rather than passively sitting. This defensive posture does not escape the position but significantly slows the attacker's progression through the control sequence, buying you time to identify escape windows."

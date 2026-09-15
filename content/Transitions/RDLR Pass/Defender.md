@@ -56,7 +56,7 @@ description: "How to defend the RDLR Pass in BJJ. Recognition cues, guard retent
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "The passer begins attacking your ankle grip while maintaining chest pressure on your inside thigh—what is your immediate priority?",
+      "name": "They attack your ankle grip while pressuring your inside thigh in RDLR — first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is reinforcing the ankle grip by either switching to a two-on-one grip configuration or adjusting your grip angle to make it harder to break. Simultaneously, elevate your hips to create upward pressure that reduces the effectiveness of their chest pressure. If the grip break appears inevitable, begin setting up your transition to X-Guard or Single Leg X proactively rather than waiting for the hook to be fully stripped."
@@ -64,7 +64,7 @@ description: "How to defend the RDLR Pass in BJJ. Recognition cues, guard retent
     },
     {
       "@type": "Question",
-      "name": "What distinguishes the optimal moment for a berimbolo entry versus a waiter sweep when defending the RDLR pass?",
+      "name": "From RDLR, what tells you to choose a berimbolo versus a waiter sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The berimbolo is optimal when the passer's weight shifts backward or they stand tall, creating space underneath their hips for you to rotate. The waiter sweep is optimal when the passer drives forward with heavy pressure, loading their weight onto your hook structure. Reading their weight distribution is the key differentiator—backward weight feeds berimbolo, forward weight feeds waiter sweep. Attempting the wrong technique for the weight distribution results in failed counters."
@@ -72,7 +72,7 @@ description: "How to defend the RDLR Pass in BJJ. Recognition cues, guard retent
     },
     {
       "@type": "Question",
-      "name": "Your RDLR hook has been cleared and the passer is establishing their knee across your legs—what is the highest percentage recovery option?",
+      "name": "Your RDLR hook is cleared and their knee crosses your legs — best recovery option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip escape away from the passer immediately while using your hands to frame against their shoulder or chest to create distance. The goal is to create enough space to either re-establish an RDLR hook on their opposite leg or transition to seated guard with feet on hips. Speed is critical here—once the passer settles their knee barrier and begins circling, recovery becomes exponentially harder. If the hip escape creates any space, immediately insert your knee or shin as a frame before they can close the gap."
@@ -80,7 +80,7 @@ description: "How to defend the RDLR Pass in BJJ. Recognition cues, guard retent
     },
     {
       "@type": "Question",
-      "name": "How should you manage energy when defending against a patient passer who is systematically dismantling your RDLR structure?",
+      "name": "How do you manage energy in RDLR against a patient passer dismantling your structure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Avoid maintaining maximum tension in all grips and hooks simultaneously, as this depletes your energy rapidly. Instead, prioritize the ankle grip as the most essential control point and use pulsing pressure with your hook—alternating between high-tension offensive threats and moderate-tension maintenance. Force the passer to react to your sweep and back take threats rather than passively holding guard structure. If they are patient, you must dictate tempo by threatening techniques that require their response."
@@ -88,7 +88,7 @@ description: "How to defend the RDLR Pass in BJJ. Recognition cues, guard retent
     },
     {
       "@type": "Question",
-      "name": "The passer successfully clears your hook but you manage to re-establish RDLR on their opposite leg—what adjustment must you make to your grip configuration?",
+      "name": "You re-establish RDLR on their other leg — what must change in your grip configuration?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When switching the RDLR hook to the opposite leg, your ankle grip must also switch to control the new far ankle, and your far leg frame must reposition to address the passer's new near leg. The entire control system mirrors—your grips, frames, and hook orientation all reverse. The critical adjustment is re-establishing the ankle grip quickly, as the hook without its steering mechanism is vulnerable to immediate clearing. Use the momentum of the re-guard to immediately establish offensive threats that prevent the passer from simply repeating the clearing sequence."

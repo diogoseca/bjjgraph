@@ -290,7 +290,7 @@
         }
       },
       {
-        "question": "Your opponent drives heavy crossface pressure and you cannot turn your hips for the entry - what alternative should you attempt?",
+        "question": "Heavy crossface stops your hips turning for the deep half entry — what should you do instead?",
         "answer": "When the crossface prevents hip rotation, switch to frame recovery instead. Use micro hip escapes to create incremental space, inserting your elbow as a wedge. Build toward re-establishing a knee shield. The deep half entry requires hip mobility that severe crossface pressure eliminates, and attempting it anyway results in a stalled half-entry position worse than flattened half guard.",
         "answer_line": "Frame recovery via micro escapes",
         "distractors": {
@@ -332,7 +332,7 @@
         }
       },
       {
-        "question": "Your opponent begins a knee slice as you initiate the deep half entry - how does this affect your execution?",
+        "question": "Your opponent starts a knee slice as you dive for deep half — how should you time your entry?",
         "answer": "The knee slice actually creates an ideal entry window because the lateral weight shift raises the far hip and creates maximum space underneath. As they commit to the slice direction, their momentum makes it difficult to reverse and counter your entry. Accelerate your dive timing to coincide with their lateral movement, using their weight transfer to assist your slide underneath their base.",
         "answer_line": "Accelerate into their knee slice",
         "distractors": {
@@ -360,7 +360,7 @@
         }
       },
       {
-        "question": "How do you create the timing window yourself rather than waiting passively for the top player to shift weight?",
+        "question": "How do you force the top player's weight shift that opens the deep half entry instead of waiting?",
         "answer": "Threaten a frame recovery or underhook attempt on the surface to force the top player to react. When they increase forward pressure to counter your surface escape, their hips move closer and higher, creating the exact conditions needed for the deep half entry. This bait-and-switch uses their defensive reaction as the trigger for your actual attack, turning their pressure into your opportunity.",
         "answer_line": "Bait a frame recovery attempt",
         "distractors": {
@@ -388,7 +388,7 @@
         }
       },
       {
-        "question": "If the entry fails and you find yourself stuck halfway with one arm threaded but your body still flat, what is the recovery sequence?",
+        "question": "Your deep half entry stalls with one arm threaded but your body flat — what is the recovery?",
         "answer": "Retract your arm immediately and re-establish your half guard frame. Do not remain in the half-threaded position, as it compromises both your frame defense and your half guard hook. Pull your arm back, re-establish your elbow wedge against the opponent, and recover to standard flattened half guard defense. You can attempt the entry again when a better timing window presents itself rather than forcing through from a compromised position.",
         "answer_line": "Retract arm, rebuild half frame",
         "distractors": {
@@ -516,7 +516,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that a deep half entry is being attempted from flattened half guard?",
+        "question": "What is the earliest cue that a deep half entry is starting from flattened half guard?",
         "answer": "The earliest cue is the bottom player's near hip beginning to rotate toward your legs instead of staying flat against the mat. This hip rotation is the prerequisite for the entire entry movement. Without it, they cannot thread their arm or slide underneath your hips. Detecting this rotation before the arm thread begins gives you maximum time to counter with crossface pressure and hip sprawl.",
         "answer_line": "Near hip rotating toward legs",
         "distractors": {
@@ -530,7 +530,7 @@
         }
       },
       {
-        "question": "Why is dropping hip weight an effective counter when timed early but counterproductive when timed late?",
+        "question": "Why does dropping your hip weight beat the deep half entry early but help it if timed late?",
         "answer": "When timed early before the underhook is established, dropping hip weight removes the space underneath your hips that the bottom player needs to thread through, collapsing their entry path. When timed late after the underhook and shoulder wedge are in place, your descending weight loads directly onto their leverage system, effectively assisting their sweep mechanics. The shoulder wedge converts your downward pressure into horizontal sweep force.",
         "answer_line": "Drop weight early, not late",
         "distractors": {
@@ -544,7 +544,7 @@
         }
       },
       {
-        "question": "Your opponent has threaded their arm halfway but has not yet established the shoulder wedge - what is your best defensive response?",
+        "question": "They have threaded the arm halfway but no shoulder wedge yet — what is your best response?",
         "answer": "Immediately whizzer the threading arm with your near arm to prevent it from reaching deeper around your far leg. Simultaneously drive your crossface pressure forward and sprawl your hips back to re-flatten the bottom player. The partial thread gives you a window. Once the shoulder clears your hip and the wedge is established, the position dramatically favors the bottom player. Address the arm control now while recovery is still possible.",
         "answer_line": "Whizzer the arm, crossface, sprawl",
         "distractors": {
@@ -572,7 +572,7 @@
         }
       },
       {
-        "question": "When is it appropriate to attempt a backstep pass rather than re-flattening the bottom player during a deep half entry attempt?",
+        "question": "When should you backstep instead of re-flattening a bottom player entering deep half?",
         "answer": "The backstep is appropriate when the bottom player has committed significantly to the entry. Their frames are abandoned and their half guard hook is loosened. At this point, their commitment creates a vulnerability window where your leg can be extracted. Attempting the backstep too early before they commit gives them space without the positional compromise, and they may use the created space for frame recovery instead.",
         "answer_line": "When frames and hook are gone",
         "distractors": {

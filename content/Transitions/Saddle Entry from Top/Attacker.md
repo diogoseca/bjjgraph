@@ -74,7 +74,7 @@ description: "How to execute Saddle Entry from Top in BJJ. Attacking perspective
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Which leg should step over first when entering saddle from top position, and why is this sequencing critical?",
+      "name": "Which leg steps over first entering saddle from top, and why does that sequence matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your outside leg (furthest from opponent's hips) should step toward their hip first to create the proper entry angle. This positioning prevents opponent from rotating away and creates the geometric foundation for threading your inside leg over and under their controlled leg. Stepping with the wrong leg first creates poor angles and leaves you vulnerable to sweeps or makes the entanglement impossible to complete correctly."
@@ -82,7 +82,7 @@ description: "How to execute Saddle Entry from Top in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "What is the most critical control to maintain throughout the saddle entry transition, and what happens if you lose it?",
+      "name": "What control must you keep through the saddle entry, and what happens if you lose it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining constant hand control on the opponent's near leg (ankle and knee/thigh) throughout the entire entry sequence is most critical. If you release this control during the step-over or threading motion, the opponent will immediately retract their leg, escaping the entry entirely. This often leaves you in a vulnerable scramble position or causes complete loss of top position. The leg control should only be replaced by your leg entanglement, never released into empty space."
@@ -90,7 +90,7 @@ description: "How to execute Saddle Entry from Top in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "How should you position your inside thigh relative to the opponent's leg in the final saddle configuration, and why does this positioning matter for submission effectiveness?",
+      "name": "Where should your inside thigh sit in the finished saddle, and why does that matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your inside thigh should sit high on the opponent's inner thigh, as close to their hip as possible, with your legs forming a tight triangle around their leg. This high positioning creates maximum control over their hip rotation and prevents them from squaring their hips or clearing their knee line. When positioned too low (near their ankle), the saddle lacks mechanical advantage, allows easier foot extraction, and makes submissions extremely difficult to finish."
@@ -98,7 +98,7 @@ description: "How to execute Saddle Entry from Top in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "What should you do immediately after securing the saddle configuration to prevent the most common escape?",
+      "name": "Right after securing saddle from top, what prevents the most common escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately control the opponent's far leg with your outside arm by pinning it to your chest or controlling their knee. This prevents them from squaring their hips and clearing their knee line, which is the most high-percentage escape from saddle position. Without this control, even a well-executed entry can be escaped quickly by a knowledgeable opponent."
@@ -106,7 +106,7 @@ description: "How to execute Saddle Entry from Top in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent retracts their near leg the moment you grip it during your entry attempt - what are two effective responses?",
+      "name": "They retract the near leg as you grip it during the saddle entry: what are two responses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First option: Follow their leg retraction and transition to an alternative passing position or pursue different leg entanglement entries such as Outside Ashi or 50-50, using their defensive movement against them. Second option: Use their leg retraction to advance to a better passing position entirely, such as moving to side control or mount while they are focused on leg defense. The key principle is adaptability - when one entry path closes, immediately recognize and pursue the opened alternatives rather than forcing a defended technique."
@@ -114,7 +114,7 @@ description: "How to execute Saddle Entry from Top in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "What body orientation must you achieve after entering saddle, and why is this different from typical top positions?",
+      "name": "Which way must your upper body face after entering saddle, and why is that unusual for top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must rotate your upper body to face the opponent's trapped leg rather than maintaining chest-to-chest orientation typical of most top positions. Your chest should face their knee, not their face. This orientation is critical because it prevents opponent from obtaining upper body control, optimizes your leverage for heel and toe attacks, and positions your hips correctly for maintaining the entanglement. Failing to rotate and remaining chest-to-chest gives the opponent paths to escape and prevents effective submission attacks."
@@ -440,11 +440,11 @@ When practicing saddle entries, ensure controlled execution with clear communica
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Advanced entry to maximum control position from passing situations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced transition that expands system to heel hook attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Offensive entry to highest percentage leg attack position in system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Entry sequence accessing saddle position from top game and passing positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">No-Gi Competition Approach</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Offensive leg entanglement entry from passing</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/danaher-leg-lock-system" data-system-name="Danaher Leg Lock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Advanced entry to maximum control position from passing situations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Straight-Footlock-to-Kneebar-Chain" data-cta="related-system-card" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Straight Footlock to Kneebar Chain</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced transition that expands system to heel hook attacks</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Garry-Tonon-Leg-Lock-to-Back-System" data-cta="related-system-card" data-system-slug="systems/garry-tonon-leg-lock-to-back-system" data-system-name="Garry Tonon Leg Lock to Back System" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Garry Tonon Leg Lock to Back System</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Offensive entry to highest percentage leg attack position in system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Craig-Jones-Leg-Lock-System" data-cta="related-system-card" data-system-slug="systems/craig-jones-leg-lock-system" data-system-name="Craig Jones Leg Lock System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Craig Jones Leg Lock System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Entry sequence accessing saddle position from top game and passing positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/No-Gi-Competition-Approach" data-cta="related-system-card" data-system-slug="systems/no-gi-competition-approach" data-system-name="No-Gi Competition Approach" data-member-count="23"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">No-Gi Competition Approach</span><span class="system-card__unlocks-badge">Unlocks 23 techniques</span><span class="system-card__blurb">Offensive leg entanglement entry from passing</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

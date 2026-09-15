@@ -98,7 +98,7 @@ description: "Master the Worm to Squid Guard transition as the bottom player. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent pinches their knees together to prevent your leg from threading through - how do you create the necessary space?",
+      "name": "They pinch their knees to block your leg threading to squid guard — how do you make space?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free foot on their hip to push and create lateral pressure that forces their stance to widen. Alternatively, pull the lapel sharply to off-balance them to one side, which naturally opens a gap between their legs as they adjust their base to maintain balance. If neither approach works, abort the transition and return to worm guard attacks rather than forcing the thread against strong resistance, which usually results in a compromised position."

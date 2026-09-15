@@ -1,6 +1,6 @@
 {
   "name": "Kimura Trap System",
-  "description": "Master the Kimura Trap System in BJJ: a control-and-submission framework that chains the figure-four grip into back takes, sweeps, mounts, and finishes.",
+  "description": "Explores the kimura grip as a control that connects positional transitions and submission options. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -12,8 +12,8 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "The Kimura Trap System is a control-and-submission framework that weaponizes the figure-four (kimura) grip as a steering wheel, chaining back takes, sweeps, mount transitions, and shoulder-lock finishes so every defensive reaction opens a new attack.",
-  "overview": "Built around the figure-four (kimura) grip on the opponent's arm, this framework departs sharply from treating the kimura as an isolated submission. Instead, it recognizes the grip as a powerful control mechanism that opens multiple offensive pathways at once — controlling the opponent's posture and movement while simultaneously threatening submissions, sweeps, and transitions to dominant positions.\n\nDeveloped and refined by John Danaher and popularized through high-level competition by athletes like Gordon Ryan and Garry Tonon, the Kimura Trap System represents a paradigm shift in how grapplers approach the kimura. Rather than immediately hunting for the finish, practitioners learn to use the kimura grip as a steering wheel, directing opponents into increasingly disadvantageous positions while maintaining constant offensive pressure. The system works from multiple starting positions including side control, half guard, turtle, and even standing scenarios.\n\nThe genius of this system lies in its problem-solving approach: every defensive response from the opponent opens a different offensive opportunity. If they defend the kimura submission, you take the back. If they defend the back take, you transition to mount. If they defend the mount, the kimura finish becomes available again. This creates an inescapable dilemma where the opponent must choose which catastrophic outcome to accept, embodying the Danaher principle of systematized attack sequences.",
+  "summary": "The figure-four grip can help you move an opponent even when the kimura finish is unavailable.",
+  "overview": "The figure-four grip can help you move an opponent even when the kimura finish is unavailable. This guide connects the grip to positional control, transitions and submission choices, with attention to keeping the shoulder controlled during practice.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Use the kimura grip as a control mechanism first, submission second",
     "Create cascading dilemmas where every defensive choice leads to a different attack",
@@ -473,6 +473,21 @@
           "Wait for opponent to commit fully"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "kimura-enter-the-system-by-john-danaher",
+      "title": "Kimura: Enter The System",
+      "instructor": "John Danaher",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Explores the kimura grip as a control that connects positional transitions and submission options.",
+      "best_for": "Students building a connected attack around one grip. This is a kimura focus, not a survey of every submission.",
+      "study_focus": "Use the positional-control sections to study how the grip can remain useful when the direct finish is blocked.",
+      "practice_tip": "Pick one kimura entry from the map. Ask your partner to hide the hand and practise a controlled positional transition."
     }
   ]
 }

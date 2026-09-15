@@ -82,7 +82,7 @@ description: "Learn to convert failed sweep attempts into productive scrambles f
     },
     {
       "@type": "Question",
-      "name": "Your opponent defends your scissor sweep by posting their hand wide - how do you transition to a scramble?",
+      "name": "They post their hand wide to stop your scissor sweep: how do you turn it into a scramble?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When your opponent posts their hand against your scissor sweep, their weight shifts laterally and their base becomes temporarily compromised on the posting side. Redirect your momentum by turning toward the posting side, maintaining your collar grip, and using your bottom leg to push off the mat while your top leg disengages from the scissor position. Come to your knees on the posting side where the opponent has committed their hand to the mat, giving you an underhook opportunity since their posting arm cannot defend it simultaneously."
@@ -114,7 +114,7 @@ description: "Learn to convert failed sweep attempts into productive scrambles f
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls back when you attempt to scramble up after a failed de la riva sweep - what adjustment should you make?",
+      "name": "They sprawl as you scramble up after a failed de la Riva sweep: what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent sprawls, their hips drop back and their weight drives forward through their hands and chest. Rather than fighting the sprawl directly, redirect underneath for a deep half guard entry by threading your near shoulder under their hip line while they are committed forward. Alternatively, if you maintained collar control, snap them forward as they sprawl to pull their weight over your body and continue the sweep from the new angle. The sprawl actually removes their base from underneath them if you can redirect the forward momentum below their center of gravity."

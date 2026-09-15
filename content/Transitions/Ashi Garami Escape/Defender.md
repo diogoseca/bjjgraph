@@ -56,7 +56,7 @@ description: "How to prevent and counter the Ashi Garami Escape in BJJ. Retentio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most important moment to attempt recomposition of your ashi garami entanglement during an opponent's escape?",
+      "name": "Holding ashi garami: when is the best moment to recompose the entanglement during their escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical recomposition window is immediately after the opponent clears your bottom leg but before they address the top leg. This is a brief transitional moment where their attention and free leg are focused on the bottom leg clearance, leaving a gap to re-triangle your legs and restore the full entanglement structure. Training this as an automatic response is essential because the window lasts less than a second against experienced escape artists."
@@ -64,7 +64,7 @@ description: "How to prevent and counter the Ashi Garami Escape in BJJ. Retentio
     },
     {
       "@type": "Question",
-      "name": "How can you use an opponent's ashi garami escape attempt as an opportunity for positional advancement?",
+      "name": "Holding ashi garami: how do you turn their escape attempt into positional advancement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent rotates their hips away and begins the clearing sequence, they create space between their hips and yours that can be exploited for a backstep. As they rotate away, your outside leg can step behind their trapped leg to achieve inside ashi or saddle position, which provides superior heel exposure and finishing angles. The opponent's escape movement actually facilitates your advancement because they are creating the very space and angle you need to backstep into a dominant entanglement."
@@ -72,7 +72,7 @@ description: "How to prevent and counter the Ashi Garami Escape in BJJ. Retentio
     },
     {
       "@type": "Question",
-      "name": "Why is it risky to commit fully to a heel hook attempt while the opponent has strong frames established during their escape?",
+      "name": "Holding ashi garami: why is committing fully to a heel hook risky while their frames are strong?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Committing both hands to a heel hook grip while the opponent has strong frames means you cannot simultaneously maintain your entanglement structure with your legs and upper body grips. If the heel hook fails because of the opponent's distance and frame strength, you have no fallback position because your entanglement has loosened during the finishing attempt. The opponent can then extract through the weakened structure easily. Better strategy is to maintain entanglement integrity and wait for a moment when frames collapse or heel exposure occurs naturally during the escape sequence."
@@ -80,7 +80,7 @@ description: "How to prevent and counter the Ashi Garami Escape in BJJ. Retentio
     },
     {
       "@type": "Question",
-      "name": "What is the primary recognition cue that tells you an opponent is about to begin their ashi garami escape sequence?",
+      "name": "Holding ashi garami: what is the main cue that they are starting their escape sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable early cue is the opponent sitting up abruptly and posting both hands on your hips or knees to establish frames. This posture change signals the beginning of the escape sequence because frames are the prerequisite for creating the hip angle and distance needed for the clearing sequence. Recognizing this cue early allows you to preemptively tighten your grips on the trapped leg, begin hunting for heel control, and prepare to follow their hip rotation before they can establish the angle needed for effective leg clearing."

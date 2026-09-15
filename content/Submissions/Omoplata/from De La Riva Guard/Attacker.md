@@ -122,7 +122,7 @@ description: "Learn to attack the omoplata from De La Riva Guard with DLR leg sw
     },
     {
       "@type": "Question",
-      "name": "Your wrist control on the trapped arm is slipping as the opponent straightens it - what grip adjustment preserves the finish?",
+      "name": "DLR omoplata: they straighten the arm and your wrist grip slips — what grip fix saves the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch from a loose wrist grip to an S-grip or figure-four clamp over the forearm, pinning their hand to your hip or the mat to block elbow rotation. If the arm is straightening, bring your free hand to an overhook above their elbow and walk your hips toward their head to re-bend the arm, restoring the shoulder rotation angle before reapplying downward pressure through your chest and hips."

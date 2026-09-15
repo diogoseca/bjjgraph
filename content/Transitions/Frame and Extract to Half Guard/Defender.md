@@ -50,7 +50,7 @@ description: "How to defend against Frame and Extract to Half Guard in BJJ. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is beginning Frame and Extract to Half Guard?",
+      "name": "Earliest cue your opponent is starting frame and extract to half guard from inside sankaku?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is their far-side forearm moving toward your hip crease to establish the primary frame. This precedes the hip escape movement and is your first opportunity to intervene. Before the frame becomes load-bearing, you can strip it with minimal effort. Once established and loaded with hip escape force, the frame becomes significantly harder to remove."
@@ -58,7 +58,7 @@ description: "How to defend against Frame and Extract to Half Guard in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a solid frame against your hip and is beginning to generate hip escape distance - what is your response sequence?",
+      "name": "They frame your hip and start creating distance from inside sankaku: what is your response sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, use your near-side hand to strip or redirect their framing forearm away from your hip. Simultaneously drive your hips forward aggressively to close the gap they are creating. If the frame is too established to strip, use your outside leg to increase downward pressure on the entanglement while advancing your hips. The goal is to collapse the frame under your body weight rather than fighting it with arm strength alone."
@@ -82,7 +82,7 @@ description: "How to defend against Frame and Extract to Half Guard in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "What distinguishes a successful hip pressure response from overcommitting that allows a Granby roll counter?",
+      "name": "What separates good hip pressure from overcommitting and getting Granby rolled in inside sankaku?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Successful hip pressure maintains low center of gravity with weight distributed through your hips into the entanglement, keeping your base stable. Overcommitting means driving your upper body forward and high, shifting weight above their hips rather than into them. When your weight goes high and forward, the opponent can use your momentum to invert underneath you with a Granby roll. Keep your pressure low, heavy, and centered through the hip connection point rather than lunging forward with your torso."

@@ -90,7 +90,7 @@ description: "Execute the triangle setup from Diamond Guard. Step-by-step guide 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins recovering posture as you release head control for the grip switch — what do you do?",
+      "name": "They start rebuilding posture as you release head control for the grip switch: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If posture recovery begins during the grip switch, you have two options based on timing. If you have not yet secured wrist control, abort the triangle immediately and re-establish head control to restore the diamond frame before reattempting. If wrist control is already established, accelerate the leg shoot by committing to the quick shoot variation, using the overhook and wrist grip to maintain arm isolation while shooting the leg over the neck before posture is fully recovered."

@@ -52,7 +52,7 @@ description: "How to defend against Reverse Armbar in BJJ. Recognition, escape p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "The attacker has just pinned your arm to their chest and begins rotating toward your feet - how much time do you have to act and what should you do immediately?",
+      "name": "Reverse armbar: they pinned your arm and began rotating — how long do you have and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have approximately 2-3 seconds during the rotation phase before the attacker reestablishes leg control and the escape window closes. Immediately bend your trapped arm and grip your own collar or opposite bicep to prevent extension. Simultaneously, begin rolling your body in the same direction the attacker is rotating to prevent them from establishing the 180-degree angle they need. If rolling is not possible, bridge explosively into the attacker during mid-rotation while their base is compromised. Every fraction of a second matters—hesitation during this window typically results in a locked submission."
@@ -76,7 +76,7 @@ description: "How to defend against Reverse Armbar in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker beginning to rotate their body toward your feet while gripping your wrist - describe step by step how you execute the rolling defense?",
+      "name": "Reverse armbar from mount: how do you execute the rolling defense as they begin rotating?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As soon as you feel the rotational torque on your trapped arm, immediately initiate a roll in the same direction the attacker is rotating. Drive off your far foot and near shoulder to generate rolling momentum that matches their movement. This prevents the creation of the 180-degree angle they need for the reverse mechanics—your body follows theirs, collapsing the space between you and eliminating the leverage angle. As you roll, pull your trapped arm tight to your body and bend the elbow aggressively. The roll often results in a scramble where you can free your arm and recover to mount bottom or guard. The critical timing is initiating the roll as soon as you feel rotation begin, before the attacker builds momentum."

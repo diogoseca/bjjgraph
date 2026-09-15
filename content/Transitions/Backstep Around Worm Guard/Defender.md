@@ -50,7 +50,7 @@ description: "How to defend against Backstep Around Worm Guard in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a backstep around your worm guard?",
+      "name": "In worm guard, what is the earliest cue your opponent is about to backstep around you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a weight shift backward onto their rear foot combined with securing cross-collar and far sleeve grips. This indicates they are anchoring you in place before initiating rotational movement. Feeling their trapped leg begin to rotate outward rather than pull forward confirms the backstep is imminent."
@@ -58,7 +58,7 @@ description: "How to defend against Backstep Around Worm Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why must you choose between the sit-up back take and lapel reconfiguration quickly rather than waiting to see what develops?",
+      "name": "Why must you commit fast to either the sit-up back take or lapel reconfiguration?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both defensive windows are extremely narrow and mutually exclusive. The sit-up requires releasing your worm guard grip, while reconfiguration requires maintaining it. Attempting to do both results in a weak sit-up that gets stuffed and a compromised lapel grip that the passer clears easily. Decisive commitment within the first second gives either strategy its highest success probability."
@@ -66,7 +66,7 @@ description: "How to defend against Backstep Around Worm Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has heavy shoulder pressure pinning you flat as they begin the backstep—what is your best defensive strategy?",
+      "name": "Pinned flat by shoulder pressure as they backstep your worm guard: what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Focus on lapel reconfiguration rather than the sit-up. Use your free hand to control their far sleeve while hip escaping in the direction of their rotation. Thread the lapel deeper or redirect it to their posting arm for squid guard. The heavy shoulder pressure makes sitting up nearly impossible, so working within the guard system rather than against their pressure is the higher-percentage play."
@@ -74,7 +74,7 @@ description: "How to defend against Backstep Around Worm Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "The backstep has succeeded and your worm guard is cleared—what immediate action prevents the worst outcome?",
+      "name": "Your worm guard is cleared by the backstep: what immediate action prevents the worst outcome?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn to your knees immediately into a tight turtle position rather than remaining flat on your back. Turtle position is significantly more recoverable than flat side control—you retain guard recovery options through granby rolls, sit-throughs, and stand-ups. Staying flat allows the passer to establish crossface and hip pressure, making escape exponentially harder."
@@ -82,7 +82,7 @@ description: "How to defend against Backstep Around Worm Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How do you modify your worm guard grip to make the backstep more difficult to execute in the first place?",
+      "name": "How do you adjust your worm guard grips to make the backstep harder to start?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain aggressive same-side sleeve control to restrict the passer's ability to rotate their trapped leg. If they can't free their far arm to establish the cross-collar grip needed for the backstep, the technique becomes much harder to initiate. Additionally, keeping your hips angled rather than flat gives you faster sit-up capability if they attempt the rotation despite your grip fighting."

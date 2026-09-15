@@ -94,7 +94,7 @@ description: "How to execute Armbar from Back with Legs in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What is the correct thumb position for maximum submission effectiveness and what happens if the thumb rotates?",
+      "name": "Armbar from back with legs: where should their thumb point, and what if it rotates?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's thumb should point upward toward their head (supinated position) throughout the submission. This arm position creates maximum vulnerability in the elbow joint and ensures that hip extension creates pressure on the elbow rather than the wrist or shoulder. If the thumb rotates downward, the submission becomes significantly less effective and enables the hitchhiker escape, where opponent can rotate their arm and slip out. Incorrect thumb position may also cause wrist injury instead of proper elbow pressure, making it both less effective and potentially more dangerous."
@@ -102,7 +102,7 @@ description: "How to execute Armbar from Back with Legs in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up and stack toward you during the finish - what adjustment prevents escape?",
+      "name": "Armbar from back with legs: they posture and stack — what adjustment prevents the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent attempts to stack, immediately increase the pressure of your top leg across their face, pushing their head away and down to flatten their posture. Simultaneously, angle your hips away from their stacking direction while maintaining tight wrist control. If stacking continues, you may need to transition to a belly-down armbar by following their movement while keeping the arm isolated. The key is early recognition - once they achieve significant stacking angle, escape becomes much more likely. Proactive top leg pressure prevents the stack from initiating."

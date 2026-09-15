@@ -100,7 +100,7 @@ description: "Learn to attack the Kimura from Lockdown half guard. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins straightening their trapped arm to prevent the Kimura rotation - what adjustment do you make?",
+      "name": "From lockdown, they straighten the trapped arm against your Kimura—what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent straightens their arm, maintain the figure-four grip and keep their elbow pinched to your torso. Use short pulsing rotations to fatigue their grip rather than trying to overpower the straightened arm in one motion. If the arm remains straight, consider transitioning to a straight armbar by throwing your outside leg over their head while maintaining wrist control, using the straightened arm against them. The key is not to abandon the position but to chain to a complementary attack."

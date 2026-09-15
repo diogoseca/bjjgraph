@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: BJJGraph
+authors:
+  - family-names: Seca
+    given-names: Diogo
+url: https://bjjgraph.org
+repository-code: https://github.com/diogoseca/bjjgraph
+license: PolyForm-Noncommercial-1.0.0
+version: 1.182.11
+date-released: 2026-09-14

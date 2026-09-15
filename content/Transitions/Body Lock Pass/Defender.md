@@ -64,7 +64,7 @@ description: "How to defend against Body Lock Pass in BJJ. Recognition cues, fra
     },
     {
       "@type": "Question",
-      "name": "Why is being flattened onto your back so damaging to your defensive position against the body lock pass?",
+      "name": "Why is being flattened so damaging when defending the body lock pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Being flat on your back eliminates hip mobility, which is the foundation of all guard retention and escape mechanics. Without the ability to create angles through hip movement, you cannot re-insert knee shield, initiate hip escapes, or generate the leverage needed for sweeps. The flat position also maximizes the passer's pressure advantage because their weight drives straight through your torso into the mat with no angular displacement."
@@ -72,7 +72,7 @@ description: "How to defend against Body Lock Pass in BJJ. Recognition cues, fra
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the body lock and is beginning to flatten you - what defensive action has the highest priority?",
+      "name": "They have the body lock and are flattening you: what defensive action takes priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest priority is fighting to maintain or recover your side angle through aggressive underhook battles and hip movement. Turn into the passer and fight for the underhook on the trapped leg side. Even maintaining a partial angle dramatically increases your defensive options compared to being completely flat. If you cannot get the underhook, at minimum keep your near-side elbow connected to your knee to maintain some frame structure."
@@ -80,7 +80,7 @@ description: "How to defend against Body Lock Pass in BJJ. Recognition cues, fra
     },
     {
       "@type": "Question",
-      "name": "When should you apply the lockdown against the body lock pass, and what must you do immediately after applying it?",
+      "name": "When do you apply the lockdown against the body lock pass, and what must follow immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply the lockdown when you have been flattened and the passer begins hip-walking to clear their trapped leg. However, the lockdown is only a temporary stalling measure. Immediately after applying it, you must work to get back to your side by using the lockdown's control to create an angle, then fight for frames and underhook position. Staying flat with only a lockdown is a losing strategy against a patient passer."

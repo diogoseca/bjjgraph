@@ -76,7 +76,7 @@ description: "How to defend against Choke from Crucifix in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "What should you do if you feel the choke beginning to take effect with dimming vision or lightheadedness?",
+      "name": "You feel the crucifix choke dimming your vision - what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you feel the choke taking effect - indicated by dimming vision, tunnel vision, warmth spreading through your face, or lightheadedness - you must tap immediately. Do not attempt to tough it out or wait for an escape opportunity. Blood chokes can produce unconsciousness within 4-8 seconds of full bilateral carotid compression. The window between feeling the effects and losing consciousness is extremely narrow and unreliable. Tap using whatever method is available: verbal tap, foot tap on mat, or any vocalization. Continuing to resist at this point risks unconsciousness and potential injury. In training, there is zero shame in tapping to a properly applied choke from crucifix."

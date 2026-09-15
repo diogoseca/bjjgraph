@@ -82,7 +82,7 @@ description: "Learn to recover guard from combat base as the bottom player in BJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your shoulder frame and drives their crossface into your jaw—how do you recover?",
+      "name": "They strip your shoulder frame and crossface your jaw — how do you recover guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight the crossface directly with strength. Turn your face toward the crossface to relieve jaw pressure while shooting your near-side arm under their chin to create a new frame point. Simultaneously hip escape away from the crossface direction, as their weight commitment to the crossface creates space on the opposite side. Use this new angle to insert your knee shield before they can readjust their pressure."
@@ -106,7 +106,7 @@ description: "Learn to recover guard from combat base as the bottom player in BJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a knee slice pass during your guard recovery attempt—what adjustment prevents the pass?",
+      "name": "They start a knee slice during your guard recovery — what adjustment stops the pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the closed guard recovery and immediately transition to knee shield half guard retention. Turn into the passing direction, insert your bottom knee as a shield across their hip, and secure an underhook with your top arm. The knee shield stops their sliding knee while the underhook prevents crossface establishment. From knee shield half guard, you can work a secondary guard recovery sequence with better structural support."
@@ -114,7 +114,7 @@ description: "Learn to recover guard from combat base as the bottom player in BJ
     },
     {
       "@type": "Question",
-      "name": "What is the critical direction of force when using your frame against a combat base player's forward pressure?",
+      "name": "Framing against a combat base player's forward pressure: which direction do you aim it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Direct your frame at a forty-five degree angle toward the opponent's chin and away from your centerline rather than pushing straight back into their chest. Straight-back frames engage a strength battle you will lose against forward driving pressure. The angled frame redirects their weight past your body, converting their energy into rotational movement that carries them off-balance while creating the lateral space your hip escape needs."

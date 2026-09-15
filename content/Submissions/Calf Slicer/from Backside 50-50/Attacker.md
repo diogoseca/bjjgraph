@@ -84,7 +84,7 @@ description: "Learn to execute the calf slicer from backside 50-50 with precise 
     },
     {
       "@type": "Question",
-      "name": "Your opponent hides their heel effectively during a heel hook attempt - how does this create the calf slicer opportunity?",
+      "name": "In backside 50-50, how does their hiding the heel open the calf slicer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent bends their knee deeply to hide their heel, they position their calf directly over your shin in the entanglement. This bent-leg posture is exactly what the calf slicer requires. Thread your shin behind their bent knee, secure their foot to prevent straightening, and apply compression. Their defensive action against the heel hook directly creates the vulnerability to the calf slicer, forming a powerful submission dilemma."
@@ -100,7 +100,7 @@ description: "Learn to execute the calf slicer from backside 50-50 with precise 
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make if the opponent begins rotating their foot during the calf slicer?",
+      "name": "They rotate their foot during your backside 50-50 calf slicer — how do you adjust your grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent rotates their foot outward, shift your grip to cup the toes from the outside and pull them back toward their shin to prevent rotation and maintain compression alignment. If they rotate inward, switch to an ankle grip that controls the entire foot as a unit. Maintaining foot orientation is critical because rotation changes the compression angle and can create slack that allows the leg to straighten."

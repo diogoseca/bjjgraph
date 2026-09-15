@@ -56,7 +56,7 @@ description: "How to defend against Lapel to De La Riva in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting to transition from lapel guard to DLR?",
+      "name": "What is the earliest cue that your opponent is going from lapel guard to De La Riva?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the hip rotation—when the bottom player begins angling their hips approximately 45 degrees toward your lead leg side. This rotation precedes the leg threading by a fraction of a second and signals their intent to insert the DLR hook. Recognizing this rotation before the leg moves gives you the maximum defensive window."
@@ -64,7 +64,7 @@ description: "How to defend against Lapel to De La Riva in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a shallow DLR hook but hasn't secured a secondary grip yet—what is your best defensive action?",
+      "name": "They set a shallow De La Riva hook but no upper body grip yet: what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately fight their free hand to prevent the sleeve or collar grip from being established. A DLR hook without upper body control is significantly less dangerous—the bottom player cannot execute berimbolo, effective sweeps, or back takes without the diagonal grip system. Strip the hook with your free hand while controlling their wrist or bicep."
@@ -80,7 +80,7 @@ description: "How to defend against Lapel to De La Riva in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent threads the DLR hook and you feel their foot settling behind your knee—what are the two best immediate responses?",
+      "name": "Their De La Riva hook settles behind your knee: what are the two best immediate responses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First option: backstep by rotating 180 degrees over their hooking leg, removing your leg from the hook path and potentially passing behind their guard structure. Second option: drive heavy forward pressure immediately to flatten their hips before they can consolidate the position with secondary grips. Both must be executed with commitment—half-measures allow full DLR establishment."
@@ -88,7 +88,7 @@ description: "How to defend against Lapel to De La Riva in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How does the defender's posture and weight distribution affect the attacker's ability to complete this transition?",
+      "name": "How do your posture and weight distribution affect their lapel to De La Riva entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Heavy forward pressure with hips low denies the bottom player the space and angle needed for hook threading—they cannot rotate their hips effectively under compression. Conversely, an upright or backward-leaning posture opens the threading pathway. The defender should maintain a slightly forward-weighted posture with hips below shoulders to make the hook insertion mechanically difficult."

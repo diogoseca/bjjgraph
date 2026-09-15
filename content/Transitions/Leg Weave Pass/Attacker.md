@@ -74,7 +74,7 @@ description: "How to execute the Leg Weave Pass in BJJ. Complete attacking guide
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary purpose of threading your leg through the opponent's guard in the leg weave pass?",
+      "name": "In the leg weave pass, why thread your leg through your opponent's guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary purpose is to create a configuration that traps and immobilizes the opponent's legs beneath your shin, preventing them from using their legs to create frames, shrimp away, or recover guard. This transfers leg control responsibility from your trapped leg to your weaved leg, allowing you to extract the trapped leg without the opponent being able to re-engage their half guard."
@@ -98,7 +98,7 @@ description: "How to execute the Leg Weave Pass in BJJ. Complete attacking guide
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes a strong knee shield as you attempt to begin the weave - how do you adjust?",
+      "name": "They set a strong knee shield as you start the leg weave: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to the knee shield leg weave variation. Use your crossface-side hand to control their knee shield knee and push it downward toward their bottom leg, collapsing their defensive frame. Once the knee shield is neutralized and their legs are stacked, thread your leg through in the standard manner. Alternatively, if the knee shield is too strong to collapse, transition to a smash pass or long step pass that addresses the frame differently."

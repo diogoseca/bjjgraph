@@ -56,7 +56,7 @@ description: "How to defend against the Arm Drag Sweep in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is posting your free arm to prevent the sweep often counterproductive against the arm drag sweep specifically?",
+      "name": "Why is posting your free arm often counterproductive against the arm drag sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The arm drag sweep is a dual-threat technique where the attacker wants either the sweep or back control. When you post your free arm, you prevent the sweep but simultaneously create space on your back-exposed side and commit your remaining posting arm to a fixed position on the mat. The attacker reads the post as a signal to abandon the sweep and transition to back control, swimming around the posted arm to establish hooks. A single defensive action that solves the sweep but gifts the back is a net negative exchange since back control is a more dominant position than the side control or mount the sweep would have achieved."
@@ -64,7 +64,7 @@ description: "How to defend against the Arm Drag Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an arm drag sweep is being initiated, and what immediate defensive action should follow?",
+      "name": "What is the earliest cue of an arm drag sweep, and what should you do at once?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the combination of same-side wrist grip tightening with the opponent's opposite hand reaching toward your tricep or lat area. This dual-grip setup is distinctive because standard guard attacks typically use cross-body or collar-based grips rather than same-side wrist plus opposite upper arm. The moment you feel this specific grip configuration forming, immediately retract your elbow sharply back to your ribs while driving your posture upright and centering your weight. Early intervention at the grip-establishment phase prevents the drag from ever gaining the momentum needed for execution."
@@ -72,7 +72,7 @@ description: "How to defend against the Arm Drag Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already dragged your arm across and you feel your balance starting to shift. What is the correct emergency response?",
+      "name": "Your arm is dragged across and your balance is going. What is the emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the drag is already deep and your balance is compromised, your priority shifts from arm recovery to back protection. Circle your hips aggressively toward the drag direction, driving your chest into the opponent rather than away from them. This forward circling motion closes the back-exposure angle and can re-square your hips to theirs. Simultaneously, use your free arm to frame on their hip or shoulder (not post on the mat) to create the space needed for your hip circle. Accept that you may end up in a scramble or temporarily worse guard position, but preventing back control is worth that trade."
@@ -80,7 +80,7 @@ description: "How to defend against the Arm Drag Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How should your defensive approach differ when the arm drag is attempted from butterfly guard versus closed guard?",
+      "name": "How does defending the arm drag differ from butterfly guard versus closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From butterfly guard, the sweep threat is amplified by the butterfly hook's elevation power, so your primary concern is preventing the hook elevation. Drive your weight down and forward into the opponent while pulling your arm back, using your bodyweight to pin their hook and deny the lift. From closed guard, the sweep relies more on scissoring leg action and hip rotation, so your defense focuses on maintaining upright posture and centered base to resist the rotational force. In both cases, arm retraction is important, but the butterfly guard variant requires more emphasis on weight distribution to counter the hook, while the closed guard variant requires more emphasis on hip alignment to counter the rotation."

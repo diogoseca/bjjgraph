@@ -58,7 +58,7 @@ description: "Defend and escape the Triangle Choke from Open Guard. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest warning signs during open guard engagement that indicate a triangle is being set up?",
+      "name": "In open guard, what are the earliest signs your opponent is setting up a triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest indicators are: opponent secures a deep collar grip and begins pulling your posture down, opponent controls one of your sleeves and begins pulling it across their centerline, opponent's hips start shifting laterally to create an angle off your centerline, and one foot rises from hip control toward your shoulder or bicep. The most reliable single indicator is the hip escape to create angle—this almost always precedes a triangle attempt. Recognizing these cues allows you to address the setup before the legs even shoot."
@@ -66,7 +66,7 @@ description: "Defend and escape the Triangle Choke from Open Guard. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Once the triangle is fully locked with the angle cut, what is your highest-priority defensive action and why?",
+      "name": "Caught in a fully locked triangle with the angle cut, what is your top defensive priority and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is immediate posture recovery—driving your hips back, extending your spine, and elevating your head above the choking pressure. Posture addresses the choking mechanism directly by creating space between the attacker's thigh and your neck, reducing compression on the carotid arteries. Without posture, all other escapes become significantly harder because the squeeze tightens with every degree of forward bend. Posture also prevents the attacker from pulling your head down to complete the choke while giving you the base needed to attempt stacking or standing escapes."
@@ -90,7 +90,7 @@ description: "Defend and escape the Triangle Choke from Open Guard. Recognition 
     },
     {
       "@type": "Question",
-      "name": "If you feel yourself becoming lightheaded while defending a triangle in training, what should you do immediately?",
+      "name": "You feel lightheaded defending a triangle in training: what should you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately. Lightheadedness indicates the carotid arteries are being compressed and blood flow to your brain is restricted. Unconsciousness can follow within seconds. There is no benefit to toughing through a blood choke in training—the technique is working correctly and continuing to resist risks going unconscious, which carries risks of injury from uncontrolled falling and potential cumulative neurological effects. Tap early, analyze what allowed the triangle to lock, and work the defense in your next repetition with better awareness."

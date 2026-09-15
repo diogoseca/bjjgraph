@@ -64,7 +64,7 @@ description: "Complete guide to defending the Triangle from Spider Guard in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Why is stripping the sleeve grip before the entry more effective than defending after the triangle is partially locked?",
+      "name": "Why is stripping the sleeve grip before entry better than defending a partly locked triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the triangle is partially locked, you are fighting against the strongest muscles in the opponent's body—their legs and hips—with your neck and one arm. Before the entry, you only need to break a sleeve grip, which is an arm-versus-arm contest where your two hands against their one grip gives you the advantage. The defensive difficulty increases exponentially once the leg crosses your shoulder. Proactive grip fighting prevents the majority of triangle attempts, while reactive defense from a locked position has a significantly lower success rate."
@@ -72,7 +72,7 @@ description: "Complete guide to defending the Triangle from Spider Guard in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already swung one leg over your shoulder—what is your immediate defensive priority?",
+      "name": "They swing one leg over your shoulder from spider guard: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately posture upward while driving the threatened-side elbow toward the mat beside the opponent's hip, keeping it tight to your body. Do not allow them to close the triangle by keeping your head elevated and your trapped arm's elbow connected to your torso. If you can prevent the ankle lock behind your neck for even two to three seconds, the triangle often fails as the attacker loses the necessary compression. Simultaneously walk your knees backward to create distance and prevent them from controlling your posture with their hands."
@@ -88,7 +88,7 @@ description: "Complete guide to defending the Triangle from Spider Guard in BJJ.
     },
     {
       "@type": "Question",
-      "name": "When caught in a locked triangle, what body positioning reduces the opponent's finishing effectiveness?",
+      "name": "Locked in a triangle, what body positioning most reduces your opponent's finishing effectiveness?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Square your shoulders to the opponent's hips rather than allowing them to achieve the 30-45 degree angle they need for optimal arterial compression. Tuck your chin toward your chest on the trapped-arm side to create space between your neck and their leg. Keep the trapped arm's hand pressing against the opponent's hip to prevent them from pulling it across your neck. Use your free hand to control the opponent's choking leg at the knee, pushing it away from your neck. Every degree you reduce from their optimal angle significantly decreases the choke's effectiveness."

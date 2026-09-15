@@ -56,7 +56,7 @@ description: "Complete defensive guide against the Knee Slice from Reverse X-Gua
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a knee slice attempt is developing from Reverse X-Guard Top?",
+      "name": "In reverse X bottom, what is the earliest cue a knee slice attempt is developing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the opponent's hand actively working to strip your primary hook behind their knee, combined with an increase in forward hip pressure. These two actions together indicate they are degrading your hook structure to create the passing lane. A secondary cue is their free leg stepping wider—this base widening creates the tripod needed for a stable slice. Recognizing these cues gives you time to reinforce hooks and counter-attack before the slice materializes."
@@ -64,7 +64,7 @@ description: "Complete defensive guide against the Knee Slice from Reverse X-Gua
     },
     {
       "@type": "Question",
-      "name": "Your primary hook has been stripped and the knee slice is in motion—what is your best defensive option?",
+      "name": "Your reverse X hook is stripped and the knee slice is in motion: what defense is best?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the primary hook is stripped and the knee is actively cutting, your best option depends on timing. If the knee has not passed your midline, frame hard on the opponent's slicing hip to stall the pass and attempt to re-hook or transition. If the knee is past the midline, immediately insert your inside knee to catch half guard—this is damage limitation but preserves a guard position. The worst option is chasing a re-hook on a knee that has already committed to the slice, as this wastes energy on a low-percentage defense."

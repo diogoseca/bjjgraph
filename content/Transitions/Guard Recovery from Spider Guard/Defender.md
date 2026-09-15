@@ -56,7 +56,7 @@ description: "Prevent guard recovery from Spider Guard as the top player in BJJ.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it sometimes better to create distance rather than drive forward when the bottom player abandons spider guard for closed guard recovery?",
+      "name": "Why is creating distance sometimes better than driving forward as they close guard from spider?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom player's closed guard recovery relies on using your forward momentum as the energy source for pulling you into closure range. If you drive forward, you accelerate their recovery rather than preventing it. Creating distance denies the close range needed for guard closure and forces the bottom player to recompose an open guard at a range where your passing options are stronger. The exception is when you can drive a knee through their centerline before legs wrap, which converts forward drive into a passing opportunity."
@@ -64,7 +64,7 @@ description: "Prevent guard recovery from Spider Guard as the top player in BJJ.
     },
     {
       "@type": "Question",
-      "name": "What is the significance of the leg retraction neutral zone during spider guard to closed guard recovery?",
+      "name": "What is the significance of the neutral zone in leg retraction from spider to closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The neutral zone is the brief period when the bottom player's legs have released from spider position but have not yet wrapped behind your back in closed guard. During this zone, their legs are not controlling you in either configuration, creating a window where you can advance a knee through their centerline, control their legs for passing, or create distance. This neutral zone is the top player's highest-percentage opportunity to prevent guard closure, and it is the same gap the bottom player tries to eliminate through the semicircular arc retraction."
@@ -72,7 +72,7 @@ description: "Prevent guard recovery from Spider Guard as the top player in BJJ.
     },
     {
       "@type": "Question",
-      "name": "The bottom player has wrapped one leg behind your back during the guard closure attempt—how do you prevent the second leg from completing the closure?",
+      "name": "They wrap one leg behind your back — how do you stop the second leg from closing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Control the second leg at the knee or ankle with your free hand, pushing it down toward the mat or redirecting it across your body. Simultaneously, drive your hip forward into the gap between their legs to prevent the second leg from meeting the first behind your back. If you can keep the second leg from wrapping, you can work to extract into half guard passing position or redirect into a leg drag. Once both legs lock behind your back, prevention shifts to immediate posture establishment inside closed guard."
@@ -80,7 +80,7 @@ description: "Prevent guard recovery from Spider Guard as the top player in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your grip break has created distance but the bottom player begins retracting their legs for guard closure—should you advance forward or create more distance?",
+      "name": "You broke the grip but they retract their legs — advance forward or create more distance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Evaluate the bottom player's remaining grips before committing direction. If they still have a strong collar grip, advancing forward feeds directly into their pulling mechanism—they will use your forward momentum to accelerate guard closure. Instead, strip the collar grip first or create vertical distance by standing. However, if you can clearly drive a knee through their centerline before legs wrap, forward advancement into combat base is the correct choice. The critical factor is whether you can split their legs before they complete the wrapping arc."
@@ -88,7 +88,7 @@ description: "Prevent guard recovery from Spider Guard as the top player in BJJ.
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the bottom player from converting a failed closed guard recovery into an alternative guard like lasso or De La Riva?",
+      "name": "How do you stop them converting a failed closed guard recovery into lasso or De La Riva?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After denying closed guard closure, immediately control the bottom player's legs to prevent them from repositioning feet for alternative guard hooks. Grip their pants at the knee and push their legs toward the mat to flatten their hip mobility. If you see a foot threading toward your arm for lasso, strip it by circling your arm before the wrap completes. Maintain forward pressure to deny the space needed for guard recomposition. The window between failed closed guard recovery and alternative guard establishment is brief—you must capitalize by advancing your passing position immediately."

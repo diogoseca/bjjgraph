@@ -76,7 +76,7 @@ description: "How to execute the Waiter Sweep from Butterfly Guard in BJJ. Step-
     },
     {
       "@type": "Question",
-      "name": "What is the mechanical function of the underhook in the Waiter Sweep, and why is it called the 'waiter' position?",
+      "name": "What does the underhook do in the Waiter Sweep, and why the name 'waiter'?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The underhook serves as the primary lifting mechanism, with the arm extending upward like a waiter lifting a tray overhead. This arm creates the vertical lift component while the butterfly hook on the same side provides the elevation platform. The name derives from this characteristic motion where the forearm and hand move upward in the same position a waiter would hold when carrying a tray above shoulder height."
@@ -92,7 +92,7 @@ description: "How to execute the Waiter Sweep from Butterfly Guard in BJJ. Step-
     },
     {
       "@type": "Question",
-      "name": "What is the difference between lifting straight up versus rotating on an angle, and why does the diagonal vector matter?",
+      "name": "Waiter Sweep: why rotate on a diagonal angle instead of lifting straight up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lifting straight up creates a single vertical force vector that is easy to counter by posting downward or basing wide, and it requires significant strength. Rotating on an angle toward the underhook side creates diagonal momentum combining lifting with sideways force, making the opponent's base vulnerable in multiple directions simultaneously. This angular approach leverages rotational mechanics rather than pure strength and prevents the opponent from simply sprawling backward or posting straight down."
@@ -403,7 +403,7 @@ The Waiter Sweep is among the safest techniques in Brazilian Jiu-Jitsu with mini
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Primary sweep from deep half guard variations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Andrew-Wiltse-Half-Guard-System" data-cta="related-system-card" data-system-slug="systems/andrew-wiltse-half-guard-system" data-system-name="Andrew Wiltse Half Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Andrew Wiltse Half Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Primary sweep from deep half guard variations</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

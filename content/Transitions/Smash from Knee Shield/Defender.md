@@ -56,7 +56,7 @@ description: "Defend against the Smash from Knee Shield with early recognition a
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate your opponent is attempting to smash your knee shield?",
+      "name": "Which earliest cues show your opponent is setting up a smash on your knee shield?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three earliest cues are: their hand reaching for your knee shield ankle or pants grip, their body beginning to angle at 45 degrees rather than facing you squarely, and their shoulder pressure shifting from horizontal push into a downward compressive drive into your upper chest. Recognizing these cues before the smash sequence is fully initiated gives you the best window to defend or counter."
@@ -64,7 +64,7 @@ description: "Defend against the Smash from Knee Shield with early recognition a
     },
     {
       "@type": "Question",
-      "name": "Your opponent has gripped your ankle and started angling their body. What is your immediate defensive priority?",
+      "name": "They grip your ankle and start angling in. Immediate defensive priority for the knee shield?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is stripping or neutralizing the ankle grip before they can begin redirecting your shin. Pull your foot back toward their far hip or circle it free from their grasp. Simultaneously, hip escape to re-angle your shield perpendicular to their new body position. If you cannot strip the grip, immediately transition to plan B—frame on their shoulder to buy time or begin your deep half guard entry before the shield fully collapses."
@@ -88,7 +88,7 @@ description: "Defend against the Smash from Knee Shield with early recognition a
     },
     {
       "@type": "Question",
-      "name": "What is the biggest risk of attempting an underhook sweep while your opponent drives into your shield?",
+      "name": "Biggest risk of an underhook sweep while they drive into your knee shield?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary risk is that the opponent whizzers your underhook and uses your own forward momentum combined with their downward pressure to flatten you completely without your knee shield in place. If the underhook sweep fails, you lose your primary defensive frame and end up in the worst-case scenario—flattened half guard under heavy crossface pressure with no shield to rebuild. Time the underhook attempt precisely during their maximum forward commitment when their base is weakest."

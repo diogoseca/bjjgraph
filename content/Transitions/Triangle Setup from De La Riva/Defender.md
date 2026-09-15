@@ -64,7 +64,7 @@ description: "Learn to defend the Triangle Setup from De La Riva Guard. Recognit
     },
     {
       "@type": "Question",
-      "name": "Why is stripping the cross sleeve grip the highest-priority defensive action against this triangle setup?",
+      "name": "Why is stripping the cross sleeve grip your top priority against the De La Riva triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The cross sleeve grip is the foundation of the entire triangle setup because it guarantees arm isolation inside the triangle configuration. Without it, even if the opponent successfully shoots their leg across your neck, both your arms end up outside the triangle, making the choke impossible and escape trivial. Removing this single grip eliminates the setup entirely and forces a complete restart."
@@ -80,7 +80,7 @@ description: "Learn to defend the Triangle Setup from De La Riva Guard. Recognit
     },
     {
       "@type": "Question",
-      "name": "What is the correct response if the triangle has already locked but the opponent has not yet adjusted the finishing angle?",
+      "name": "The triangle is locked but they haven't found the finishing angle: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin to reduce choking pressure, posture up as much as possible, and work to square your body to the opponent's hips. Preventing them from achieving the 30-45 degree angle significantly reduces the choke's effectiveness and buys time for escape. Use your free hand to push on their hip to prevent angle adjustment while working your trapped arm across their body to relieve arterial compression."
@@ -88,7 +88,7 @@ description: "Learn to defend the Triangle Setup from De La Riva Guard. Recognit
     },
     {
       "@type": "Question",
-      "name": "How should you manage your elbows while playing inside DLR guard to prevent triangle setups proactively?",
+      "name": "How should you manage your elbows inside De La Riva to prevent triangle setups?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep both elbows pinched tightly to your ribcage throughout your time in the opponent's DLR guard. Never extend your arms forward or reach with straight arms, as this creates the arm separation the guard player needs for triangle entry. When grip fighting, break grips close to your body using hip rotation and wrist circles rather than arm extension. Your elbows should function as a unified frame connected to your torso at all times."

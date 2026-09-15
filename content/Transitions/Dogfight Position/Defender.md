@@ -56,7 +56,7 @@ description: "How to defend against Dogfight Position in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel the bottom player's forearm driving into your neck as they begin creating the frame—what is your immediate response?",
+      "name": "You're on top and feel their forearm framing into your neck as they start rising: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your crossface aggressively forward past their forearm while simultaneously dropping your hips lower and heavier onto their hips. The crossface must beat their frame establishment—if you can get your shoulder past their forearm and onto their jaw, their frame becomes ineffective. Combine this with your near hand pinning their far hip to prevent the hip escape that follows the frame."
@@ -64,7 +64,7 @@ description: "How to defend against Dogfight Position in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "The bottom player has posted their elbow and is halfway up—is it better to drive them back down or capitalize on the scramble?",
+      "name": "They post an elbow and are halfway up: drive them back down or take the scramble?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This depends on your whizzer depth and their hook status. If you have a deep whizzer and their hook is loosening, capitalize by circling toward their back as they rise—their turning motion during the transition exposes their back. If your whizzer is shallow and their hook is still active, drive them back down immediately using heavy crossface combined with sprawl pressure before they establish full kneeling base."
@@ -88,7 +88,7 @@ description: "How to defend against Dogfight Position in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "The bottom player successfully achieves kneeling dogfight despite your defensive efforts—what is your best immediate strategy?",
+      "name": "They reach kneeling dogfight despite your defense: what is your best immediate strategy on top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If they achieve dogfight, immediately assess the underhook battle. If you have the whizzer, use it aggressively to threaten darce choke or drive them back down with a whizzer-assisted crossface. If neither player has clear underhook advantage, fight to secure your own underhook by swimming inside. As the top player, you can also disengage by sprawling your hips back and re-engaging from a standing position, which resets the passing exchange from a more favorable angle."

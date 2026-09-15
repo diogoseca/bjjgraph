@@ -76,7 +76,7 @@ description: "How to execute Boston Crab in BJJ. Attacking perspective with setu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary anatomical target of the Boston Crab and what type of injury risk does it present?",
+      "name": "What does the Boston Crab target anatomically, and what injury risk does it carry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary target is the lumbar spine (lower back) through hyperextension, with secondary stress on hip flexors. The main injury risk is lumbar spine strain, disc herniation, or muscle tears in the lower back region. This is why the submission must be applied extremely slowly and progressively, with constant monitoring for tap signals. The spinal compression nature makes it one of the higher-risk submissions in terms of potential for serious injury."
@@ -84,7 +84,7 @@ description: "How to execute Boston Crab in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Why must the Boston Crab be applied slowly over 5-7 seconds minimum, and what are the consequences of explosive application?",
+      "name": "Why apply the Boston Crab over at least 5-7 seconds, and what does explosive application risk?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Slow application (5-7 seconds minimum) is mandatory because the spine requires time to respond to compression forces and the opponent needs time to recognize the submission danger and tap safely. Explosive application can cause immediate disc herniation, ligament tears, or muscle strains before the opponent can tap. The spine is particularly vulnerable to sudden hyperextension, and unlike joint locks where damage is localized, spinal injuries can have severe long-term consequences including chronic pain and mobility issues. Training partners must be able to feel the pressure building and make informed decisions about tapping."
@@ -116,7 +116,7 @@ description: "How to execute Boston Crab in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pulling their knees toward their chest during the sit-back phase - what adjustment maintains finishing pressure?",
+      "name": "They pull their knees to their chest during your sit-back—how do you keep finishing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase the forward pull on their ankles while simultaneously sitting back more aggressively to outpace their defensive leg retraction. The key is maintaining the ankle-to-hip distance that creates spinal extension. If they successfully bring their knees under their hips, the submission pressure dissipates entirely. You can also spread their ankles slightly apart which makes it biomechanically harder for them to pull knees to chest. If they continue winning the leg battle, consider transitioning to single leg attacks on the exposed ankle rather than forcing a failed Boston Crab."

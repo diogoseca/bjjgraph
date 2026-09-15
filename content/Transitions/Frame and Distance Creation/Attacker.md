@@ -108,7 +108,7 @@ description: "How to execute Frame and Distance Creation in BJJ. Attacking persp
     },
     {
       "@type": "Question",
-      "name": "The attacker begins transitioning to inside ashi-garami mid-escape - what does this tell you and how do you adjust?",
+      "name": "They switch to inside ashi as you frame from ankle lock: what does it mean and how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This signals the attacker read your framing attempt and chose positional advancement over finishing the ankle lock. Immediately abandon the framing sequence and address the inside ashi position with appropriate defense for that entanglement. Continuing to frame is counterproductive once the position changes fundamentally."

@@ -58,7 +58,7 @@ description: "Complete defensive guide against the heel hook from Backside 50-50
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is about to attempt a heel hook from Backside 50-50?",
+      "name": "What is the earliest cue that the bottom player is about to attempt a heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the reduction or removal of frame pressure against your chest or hips. Before any heel hook attempt, the bottom player must redirect at least one hand from defensive framing to offensive gripping. You feel this as a sudden lightening of the resistance against your forward pressure. This reduction in frame strength precedes the actual heel contact by one to two seconds and is your primary early warning signal to proactively boot your heel and prepare defensive response."
@@ -66,7 +66,7 @@ description: "Complete defensive guide against the heel hook from Backside 50-50
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a locked figure-four grip on your heel and is beginning to apply rotational force. What is your immediate response sequence?",
+      "name": "They have a figure-four locked on your heel and start rotating—what is your response sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, counter-rotate your entire body in the direction of the heel hook rotation to relieve pressure on the knee joint immediately. Second, while rotating, use your free hand to attack their grip by peeling at the wrist-to-wrist connection. Third, if grip stripping fails, continue the rotation and work to extract your heel from the elbow crook by pulling your toes toward your shin. Fourth, if extraction fails, tap rather than risk catastrophic knee injury. The tap threshold should be lower in training than in competition. Never try to tough out a locked heel hook with finishing mechanics applied."
@@ -74,7 +74,7 @@ description: "Complete defensive guide against the heel hook from Backside 50-50
     },
     {
       "@type": "Question",
-      "name": "How does your offensive strategy from Backside 50-50 top change when you know your opponent has a dangerous heel hook game from bottom?",
+      "name": "From backside 50-50 top, how do you adjust against a dangerous bottom heel hook game?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must balance offensive commitment against heel exposure risk. Avoid extended weight shifts that expose your heel during transitions. Keep your ankle dorsiflexed as a default habit. When initiating back control attempts, ensure your hands are positioned to quickly address heel defense if needed. You can also use the opponent's heel hook tendency against them by feinting offensive transitions to bait the heel hook attempt, then immediately capitalizing with back control when their hands leave frames. The key adjustment is maintaining constant heel awareness without becoming so defensive that you lose your top position advantages."

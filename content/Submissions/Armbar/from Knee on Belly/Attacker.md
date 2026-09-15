@@ -86,7 +86,7 @@ description: "Master attacking the armbar from knee on belly. Step-by-step execu
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands together to prevent the arm extension — what are your two primary responses?",
+      "name": "They clasp their hands against your knee-on-belly armbar — what are your two main responses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first response is a grip attack: wedge your forearm under their clasped hands while controlling the wrist, then pry the hands apart using your entire body rather than just finger strength. The second and often more effective response is transitioning to a belly-down armbar by rotating face-down while maintaining the arm. The belly-down position dramatically increases your breaking leverage against clasped hands because your entire body weight rotates into the grip break. Choose belly-down when the standard grip attack fails after two attempts."
@@ -102,7 +102,7 @@ description: "Master attacking the armbar from knee on belly. Step-by-step execu
     },
     {
       "@type": "Question",
-      "name": "Why should you never chase the armbar if the opponent retracts their arm before you secure wrist control?",
+      "name": "Why not chase the knee-on-belly armbar if they retract the arm before you get wrist control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chasing a retracted arm typically results in you leaning forward off your base, losing knee on belly position, and ending up in a scramble where the opponent recovers guard. The armbar from knee on belly relies on the opponent's arm being extended and isolated — without that prerequisite, the technique's mechanical advantage disappears. Instead, return to heavy knee pressure and wait for the next push reaction. The bottom player will push again because the diaphragm pressure is unsustainable, so patience costs nothing while chasing costs position."

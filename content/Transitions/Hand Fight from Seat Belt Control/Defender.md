@@ -56,7 +56,7 @@ description: "Master defending against hand fights from seat belt back control. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "When your opponent begins two-on-one attacking your over-shoulder arm, what counter-attack should you immediately threaten?",
+      "name": "They two-on-one your over-shoulder arm from back control — what counter should you threaten?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately advance your free under-armpit arm toward their throat as a choke threat. Since they've committed both hands to stripping your over-arm, their neck is completely undefended. This creates a defensive dilemma where they must either release the grip fight to defend the choke or accept the choke risk while continuing to strip. Even if the choke does not finish, it forces them to abandon the two-on-one attack and return to neck defense, resetting their progress."
@@ -80,7 +80,7 @@ description: "Master defending against hand fights from seat belt back control. 
     },
     {
       "@type": "Question",
-      "name": "What grip reinforcement strategies are most effective against technically skilled hand fighters who use wrist rotation and finger isolation?",
+      "name": "How do you reinforce your back grips against skilled wrist rotation and finger isolation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use alternating grip configurations to prevent opponent from developing a consistent stripping rhythm. Switch between gable grip, palm cup, and wrist-on-wrist connections every 15-20 seconds to force them to constantly readapt their stripping approach. Position your grip connection deeper on the far side of their body where access is more difficult. Keep elbows tight to reduce exposed forearm surface area. These micro-adjustments compound to make sustained technical hand fighting significantly more difficult for even skilled opponents."

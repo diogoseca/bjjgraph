@@ -265,7 +265,7 @@
         }
       },
       {
-        "question": "Your opponent begins reaching for a kimura grip on your near arm—how does this affect your escape timing?",
+        "question": "They reach for a kimura on your near arm in north-south: how does that change your bridge timing?",
         "answer": "This creates an excellent timing window for the escape. As they reach for the grip, their weight shifts off your chest momentarily and their attention focuses on securing the arm rather than maintaining pressure. Execute the bridge immediately as they begin reaching, before they can complete the grip. Their commitment to the submission attempt leaves them vulnerable to being displaced by your bridge.",
         "answer_line": "Bridge as they reach for grip",
         "distractors": {
@@ -321,7 +321,7 @@
         }
       },
       {
-        "question": "The opponent drops their weight and widens their base as you begin to bridge—what is the correct response?",
+        "question": "They drop weight and widen their base as you start bridging from north-south bottom: what do you do?",
         "answer": "Abort the escape attempt immediately. Continuing to bridge against their settled, widened base accomplishes nothing except wasting your energy and potentially exposing your arms to submission. Return to your defensive frames, control your breathing, and wait for a better timing window. Patience is essential—forcing against consolidated weight is a losing strategy.",
         "answer_line": "Abort, reset to frames",
         "distractors": {
@@ -538,7 +538,7 @@
         }
       },
       {
-        "question": "The opponent's bridge succeeds and they are mid-turn—should you try to re-establish North-South or follow to back control?",
+        "question": "Their bridge from north-south bottom is mid-turn: re-establish north-south or follow to the back?",
         "answer": "Follow to back control immediately. Once the turn is committed and succeeding, fighting to re-establish North-South is low-percentage and wastes the window to secure a superior position. As they rotate to all fours, secure seatbelt grip and insert your near-side hook before they can tighten their turtle shell. Back control with hooks is worth 4 points and offers higher submission probability than North-South, making the opponent's escape attempt backfire.",
         "answer_line": "Follow to back control",
         "distractors": {
@@ -566,7 +566,7 @@
         }
       },
       {
-        "question": "What distinguishes a successful follow-to-back-control from a failed one when the opponent turns to turtle?",
+        "question": "What separates a successful follow to back control from a failed one when they turn to turtle?",
         "answer": "The critical factor is speed of upper body control establishment. Successful follows involve immediately securing seatbelt grip as the opponent rotates, maintaining chest-to-back contact throughout the transition, and inserting the near-side hook before the opponent can tuck their elbows to knees in a defensive shell. Failed follows typically involve a gap in chest contact during the transition, allowing the opponent to establish a tight turtle that resists hook insertion. The seatbelt must be established during the rotation, not after the opponent reaches all fours.",
         "answer_line": "Seatbelt secured during rotation",
         "distractors": {

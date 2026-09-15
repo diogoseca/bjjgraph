@@ -90,7 +90,7 @@ description: "Complete guide to executing the Backstep Pass from Reverse X-Guard
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the backstep clears the hooks successfully?",
+      "name": "In the backstep pass from reverse X, what mechanical detail decides whether the hooks clear?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Complete weight transfer to the posting leg before initiating the rotation is the most critical mechanical detail. Without full weight on the free leg, you cannot generate a committed, fluid backstep arc. Partial weight transfer leads to a hesitant step that allows the opponent to track your movement and adjust their hooks. The posting leg must serve as a stable axis for the entire rotation."

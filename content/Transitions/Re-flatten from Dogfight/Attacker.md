@@ -88,7 +88,7 @@ description: "Learn to execute the Re-flatten from Dogfight as the top player. D
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a shallow underhook and their outside posting leg is narrow - when should you initiate the re-flatten?",
+      "name": "Their underhook is shallow and outside post is narrow — when do you start the re-flatten?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the ideal moment to initiate the re-flatten because both structural supports are compromised simultaneously. The shallow underhook means your whizzer will have maximum leverage advantage, and the narrow posting leg means less lateral base to resist your driving pressure. Attack immediately before the opponent can deepen their underhook or widen their base to restore structural integrity."
@@ -96,7 +96,7 @@ description: "Learn to execute the Re-flatten from Dogfight as the top player. D
     },
     {
       "@type": "Question",
-      "name": "What is the most critical body position element that determines whether the re-flatten succeeds or fails?",
+      "name": "Which body position element most determines whether the re-flatten from dogfight succeeds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface is the most critical element because it controls the opponent's head position, which dictates their ability to maintain forward pressure and structural integrity through the underhook. Without an effective crossface, the opponent can maintain their head position and forward drive, making the whizzer and hip pressure alone insufficient to collapse their posture."
@@ -104,7 +104,7 @@ description: "Learn to execute the Re-flatten from Dogfight as the top player. D
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your re-flatten attempt when the opponent drops their level to enter deep half guard?",
+      "name": "They drop level for deep half as you re-flatten — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent drops for deep half, maintain tight chest-to-chest connection and follow their downward movement rather than continuing to drive forward into empty space. Use your whizzer arm to block them from threading underneath your hips, and sprawl your hips slightly to increase downward pressure on their shoulders. If they complete the deep half entry, transition to deep half passing rather than forcing the re-flatten."
@@ -120,7 +120,7 @@ description: "Learn to execute the Re-flatten from Dogfight as the top player. D
     },
     {
       "@type": "Question",
-      "name": "Your opponent uses your forward driving pressure to initiate a sweep by redirecting your momentum laterally - what fundamental error caused this?",
+      "name": "They redirect your forward drive laterally into a sweep — what error caused this?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The error was overcommitting weight forward beyond your center of balance without maintaining adequate base through your posted free leg. Effective re-flattening requires controlled incremental pressure where your center of gravity stays over your knees, not projected past them. The correction is to widen your free leg base, apply pressure through hip weight transfer rather than forward lunging, and maintain the ability to retract if the opponent redirects your force."

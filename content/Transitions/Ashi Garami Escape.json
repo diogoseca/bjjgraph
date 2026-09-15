@@ -273,7 +273,7 @@
         }
       },
       {
-        "question": "Your opponent secures a heel hook grip while you are mid-escape and have already cleared their bottom leg - what do you do?",
+        "question": "Escaping ashi garami: bottom leg cleared but they get a heel hook grip — what do you do?",
         "answer": "You must immediately stop all extraction movement and address the heel control with both hands using a two-on-one grip break. Even though you have cleared the bottom leg, continuing the escape with heel control secured creates catastrophic injury risk because any rotational movement of your body while the heel is controlled applies torque directly to the knee ligaments. Break the grip completely by peeling at the thumbs, then reassess whether the bottom leg has been recomposed before continuing the clearing sequence.",
         "answer_line": "Stop moving; two-hand grip break",
         "distractors": {
@@ -315,7 +315,7 @@
         }
       },
       {
-        "question": "You are escaping from outside ashi garami and your opponent backsteps to transition to saddle position - how do you adjust your escape approach?",
+        "question": "Escaping outside ashi: they backstep toward the saddle — how do you adjust your escape?",
         "answer": "You must immediately abandon the standard ashi garami escape sequence and address the saddle position as the higher-priority threat. Saddle provides far superior heel exposure and finishing mechanics than outside ashi. Focus on preventing the position from fully establishing by controlling opponent's backstep leg and denying inside space through hip positioning. Address the new triangled leg configuration and defend the heel hook angle before returning to any extraction attempt. The urgency level escalates significantly because saddle has much higher finishing percentage than standard outside ashi.",
         "answer_line": "Prioritize defending saddle now",
         "distractors": {
@@ -343,7 +343,7 @@
         }
       },
       {
-        "question": "Why is grip fighting considered a priority before attempting major positional changes during the ashi garami escape?",
+        "question": "Why break grips before making major positional changes when escaping ashi garami?",
         "answer": "Strong grips from the opponent on your trapped leg, particularly heel control or ankle grips, provide the mechanical advantage necessary to maintain the position and finish submissions. If you attempt to clear legs or extract while the opponent maintains powerful grips, your movements will be nullified by their grip anchors and may even assist the opponent in tightening their control or securing finishing positions. Breaking grips first removes the opponent's primary control mechanism and makes the subsequent clearing and extraction steps significantly more effective and safer.",
         "answer_line": "Break grips before big moves",
         "distractors": {
@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "Your opponent has ashi garami and attempts a straight ankle lock by extending your foot - how does this change your escape priorities?",
+        "question": "Escaping ashi garami: they attack a straight ankle lock — how do your priorities change?",
         "answer": "When the opponent attacks with a straight ankle lock, your immediate priority shifts to tucking your foot by curling your toes and pointing your foot downward to prevent the achilles compression. Simultaneously, use your free leg to push on their hip to create distance and relieve pressure on the ankle. Unlike heel hook defense where you must freeze, ankle lock defense allows continued movement because the rotational knee danger is lower. Use the space created by defending the ankle lock to accelerate your leg clearing sequence, as the opponent's commitment to the ankle lock grip often loosens their entanglement structure.",
         "answer_line": "Tuck foot, push hip for space",
         "distractors": {
@@ -499,7 +499,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the most important moment to attempt recomposition of your ashi garami entanglement during an opponent's escape?",
+        "question": "Holding ashi garami: when is the best moment to recompose the entanglement during their escape?",
         "answer": "The critical recomposition window is immediately after the opponent clears your bottom leg but before they address the top leg. This is a brief transitional moment where their attention and free leg are focused on the bottom leg clearance, leaving a gap to re-triangle your legs and restore the full entanglement structure. Training this as an automatic response is essential because the window lasts less than a second against experienced escape artists.",
         "answer_line": "Right after bottom leg clears",
         "distractors": {
@@ -513,7 +513,7 @@
         }
       },
       {
-        "question": "How can you use an opponent's ashi garami escape attempt as an opportunity for positional advancement?",
+        "question": "Holding ashi garami: how do you turn their escape attempt into positional advancement?",
         "answer": "When the opponent rotates their hips away and begins the clearing sequence, they create space between their hips and yours that can be exploited for a backstep. As they rotate away, your outside leg can step behind their trapped leg to achieve inside ashi or saddle position, which provides superior heel exposure and finishing angles. The opponent's escape movement actually facilitates your advancement because they are creating the very space and angle you need to backstep into a dominant entanglement.",
         "answer_line": "Backstep to saddle as they rotate",
         "distractors": {
@@ -527,7 +527,7 @@
         }
       },
       {
-        "question": "Why is it risky to commit fully to a heel hook attempt while the opponent has strong frames established during their escape?",
+        "question": "Holding ashi garami: why is committing fully to a heel hook risky while their frames are strong?",
         "answer": "Committing both hands to a heel hook grip while the opponent has strong frames means you cannot simultaneously maintain your entanglement structure with your legs and upper body grips. If the heel hook fails because of the opponent's distance and frame strength, you have no fallback position because your entanglement has loosened during the finishing attempt. The opponent can then extract through the weakened structure easily. Better strategy is to maintain entanglement integrity and wait for a moment when frames collapse or heel exposure occurs naturally during the escape sequence.",
         "answer_line": "Keep entanglement, wait for opening",
         "distractors": {
@@ -541,7 +541,7 @@
         }
       },
       {
-        "question": "What is the primary recognition cue that tells you an opponent is about to begin their ashi garami escape sequence?",
+        "question": "Holding ashi garami: what is the main cue that they are starting their escape sequence?",
         "answer": "The most reliable early cue is the opponent sitting up abruptly and posting both hands on your hips or knees to establish frames. This posture change signals the beginning of the escape sequence because frames are the prerequisite for creating the hip angle and distance needed for the clearing sequence. Recognizing this cue early allows you to preemptively tighten your grips on the trapped leg, begin hunting for heel control, and prepare to follow their hip rotation before they can establish the angle needed for effective leg clearing.",
         "answer_line": "Opponent sits up, posts frames",
         "distractors": {

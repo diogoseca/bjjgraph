@@ -68,7 +68,7 @@ description: "Defend against the Bow and Arrow Choke from Rear Triangle. Recogni
     },
     {
       "@type": "Question",
-      "name": "What is the highest-priority defensive action when you feel the collar grip being established behind your neck?",
+      "name": "In rear triangle, the collar grip is being set behind your neck — what is your first response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use your free hand to grip-fight the attacker's collar hand with a two-on-one strip before they can establish depth past your jawline. Simultaneously tuck your chin to your chest and turn your face away from the choking arm. Speed is critical because once the grip passes the jaw and seats on the carotid, stripping becomes exponentially harder. Every second of delay reduces your defensive options significantly."
@@ -76,7 +76,7 @@ description: "Defend against the Bow and Arrow Choke from Rear Triangle. Recogni
     },
     {
       "@type": "Question",
-      "name": "What escape sequence gives you the best chance of reaching closed guard from a partially applied Bow and Arrow?",
+      "name": "What escape from a partial bow and arrow gives the best chance of reaching closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Roll toward the collar grip side while controlling the attacker's collar wrist with your free hand to prevent them from maintaining tension. Use the rolling momentum to invert under the attacker and work your legs around their waist to establish closed guard. This must be timed during the extension phase when the attacker is committing their weight backward, making it harder for them to follow your rotation forward."
@@ -84,7 +84,7 @@ description: "Defend against the Bow and Arrow Choke from Rear Triangle. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent has the collar grip but has not yet grabbed your pants - what defensive opportunity does this window provide?",
+      "name": "They have your collar but not your pants yet — what defensive opportunity does this window give?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your critical defensive window because without the pants grip the attacker cannot generate the opposing force needed for the full bow and arrow extension. Focus all effort on stripping the collar grip with your free hand using a two-on-one wrist grip. Simultaneously create rotation by turning your body toward the collar grip side to reduce the angle available for extension. If you can strip the grip now, the attacker must restart the entire setup sequence from the collar feed."

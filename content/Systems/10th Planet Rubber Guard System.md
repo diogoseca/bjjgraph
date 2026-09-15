@@ -4,7 +4,7 @@
 
 ---
 title: "10th Planet Rubber Guard System | BJJ System | BJJ Graph"
-description: "Master the 10th Planet Rubber Guard System. Eddie Bravo's revolutionary no-gi guard framework with Mission Control, New York, and submission chains. Complete technical breakdown."
+description: "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master the 10th Planet Rubber Guard System. Eddie Bravo's revoluti
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "10th Planet Rubber Guard System",
-  "description": "Master the 10th Planet Rubber Guard System. Eddie Bravo's revolutionary no-gi guard framework with Mission Control, New York, and submission chains. Complete technical breakdown.",
+  "description": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/10th-Planet-Rubber-Guard-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -140,7 +140,7 @@ description: "Master the 10th Planet Rubber Guard System. Eddie Bravo's revoluti
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "10th Planet Rubber Guard System",
-  "description": "The 10th Planet Rubber Guard System is Eddie Bravo's no-gi closed-guard framework that uses leg flexibility to break and trap an opponent's posture, chaining named controls like Mission Control and New York into triangles, omoplatas, gogoplatas, and back takes.",
+  "description": "Rubber guard uses a high leg position and upper-body connection to manage posture and create attacks.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -159,9 +159,11 @@ description: "Master the 10th Planet Rubber Guard System. Eddie Bravo's revoluti
 
 ## What is 10th Planet Rubber Guard System?
 
-**The 10th Planet Rubber Guard System is Eddie Bravo's no-gi closed-guard framework that uses leg flexibility to break and trap an opponent's posture, chaining named controls like Mission Control and New York into triangles, omoplatas, gogoplatas, and back takes.**
+**Rubber guard uses a high leg position and upper-body connection to manage posture and create attacks.**
 
-The 10th Planet Rubber Guard System represents one of the most innovative and controversial developments in modern Brazilian Jiu-Jitsu. Created by Eddie Bravo, this comprehensive guard framework leverages extreme flexibility and unconventional positioning to control opponents and create submission opportunities from closed guard. The system centers around using your legs to break posture and control your opponent's upper body while freeing your hands to attack or defend. Unlike traditional closed guard systems that rely on gi grips, the Rubber Guard was specifically designed for no-gi competition where conventional controls are less effective. The core innovation lies in using your leg as a substitute for collar control, wrapping it around the opponent's head and shoulder to break their posture while simultaneously preventing them from establishing base. This creates a unique control position from which multiple submission paths and sweeps become available. The system progresses through named control positions—Mission Control, New York, Chill Dog, Meathook—each serving as a checkpoint in the overall framework and each offering distinct offensive opportunities.
+Rubber guard uses a high leg position and upper-body connection to manage posture and create attacks. This guide maps the main controls and branches so you can choose one route to practise within a comfortable range of motion.
+
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -170,15 +172,37 @@ The 10th Planet Rubber Guard System represents one of the most innovative and co
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill 10th Planet Rubber Guard System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 24 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">The Ultimate Rubber Guard</h3>
+<p class="product-card__instructor">with Eddie Bravo</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students exploring 10th Planet guard connections. Check the syllabus for your chosen branch; this is broader than a single finish.</p>
+<p class="product-card__blurb">Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=10th-planet-rubber-guard-system&utm_term=the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -299,6 +323,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>For the omoplata route, start in Volume 1. Bottom half guard and further guard variations appear in Volume 4.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=10th-planet-rubber-guard-system&utm_term=the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Ultimate Rubber Guard &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -412,5 +447,16 @@ Begin with positional isolation drilling, spending dedicated time on each contro
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Choose a control you can enter comfortably. Practise maintaining posture control without pulling your knee into a forced range.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=10th-planet-rubber-guard-system&utm_term=the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Ultimate Rubber Guard &rarr;</a></p>
+</section>
+
+
 
 </main>

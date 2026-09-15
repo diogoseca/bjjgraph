@@ -84,7 +84,7 @@ description: "Learn to defend and escape the neck crank from Twister Control. Re
     },
     {
       "@type": "Question",
-      "name": "What is the primary escape strategy when the neck crank grip has been partially established but not fully locked?",
+      "name": "How do you escape a twister-control neck crank when the grip is partial and not yet locked?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the grip is partial, you have a narrow window to strip or loosen it with aggressive hand fighting while simultaneously working to extract your trapped leg. Use both hands to attack the attacker's grip—pushing the wrist away from your chin or peeling fingers from behind your head. If you can loosen the grip enough to create a gap, immediately turn into the opponent to reduce spinal rotation and begin working toward guard recovery. Speed and decisiveness matter here because the attacker will be working to deepen the grip while you attempt to remove it."

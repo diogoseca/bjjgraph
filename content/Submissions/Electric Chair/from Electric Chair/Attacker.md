@@ -90,7 +90,7 @@ description: "Execute the Electric Chair from lockdown half guard. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What are the visual and tactile indicators that you are approaching the breaking point of the submission?",
+      "name": "Finishing the Electric Chair, what tells you the breaking point is close?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include increasing rigidity in the opponent's resistance as they approach their flexibility limit, visible distress in facial expression or body tension, the opponent's free leg beginning to scramble or push desperately against the mat, and a noticeable change in their breathing pattern becoming rapid or shallow. The attacker should feel progressively more structural resistance followed by a point where the hip structure begins to give."
@@ -106,7 +106,7 @@ description: "Execute the Electric Chair from lockdown half guard. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "At what point during the Electric Chair does the submission become effectively inescapable for the defender?",
+      "name": "When does the Electric Chair become effectively inescapable for the defender?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The submission becomes extremely difficult to escape once the attacker has achieved full perpendicular angle with all three control points locked in and the split has progressed past approximately 70% of the opponent's flexibility range. At this point, the defender lacks the leverage to squeeze their knees back together and the attacker's mechanical advantage is overwhelming. The critical escape window is during the angle creation phase before full splitting pressure is applied."
@@ -122,7 +122,7 @@ description: "Execute the Electric Chair from lockdown half guard. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grips if the opponent begins successfully resisting the split by squeezing their knees together?",
+      "name": "They squeeze their knees together to resist your Electric Chair split — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent squeezes knees to resist, first verify your lockdown is tight by re-engaging the heel pull and ankle cross. Then adjust the splitting angle by hip escaping further to create a more perpendicular line of force against their knee squeeze. Pulsate the pressure by briefly reducing and then rapidly re-engaging the split to find gaps in their defensive contraction. If knee squeeze defense remains strong, transition to the Old School sweep to capitalize on their defensive commitment to keeping legs together."

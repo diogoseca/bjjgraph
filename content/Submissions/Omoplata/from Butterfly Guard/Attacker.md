@@ -86,7 +86,7 @@ description: "Execute the Omoplata from Butterfly Guard with hook elevation setu
     },
     {
       "@type": "Question",
-      "name": "What is the critical grip that must be maintained throughout the transition from butterfly guard to omoplata position?",
+      "name": "Which grip must you keep throughout the transition from butterfly guard to the omoplata?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The overhook on the target arm must be maintained throughout the entire transition. The armpit clamps tight over the opponent's tricep while the overhook-side hand grabs collar or wrist as backup. If this grip is lost during the hip rotation, the opponent can withdraw their arm and recover posture completely."
@@ -102,7 +102,7 @@ description: "Execute the Omoplata from Butterfly Guard with hook elevation setu
     },
     {
       "@type": "Question",
-      "name": "What tactile and visual cues indicate the omoplata has reached the shoulder's end range and a tap is imminent?",
+      "name": "What cues show the omoplata has reached the shoulder's end range and a tap is imminent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As you walk your hips away and lean forward, the opponent's shoulder reaches its rotational limit when their elbow points upward and the upper arm can no longer internally rotate. Their torso pins flat with the trapped arm wound tight; at this point even small increments of forward lean generate sharp pressure, so apply the final degrees slowly and expect the tap immediately."

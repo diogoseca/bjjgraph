@@ -56,7 +56,7 @@ description: "Defend against the Reguard from Half Butterfly as the top player. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is attempting a reguard rather than a sweep?",
+      "name": "In half butterfly top, what cue tells you they are reguarding rather than sweeping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary distinguishing cue is the direction of hip movement. For sweeps, the bottom player drives hips into you or creates lateral angle to generate off-balancing force. For the reguard, the bottom player shrimps away from the trapped-leg side while increasing frame pressure on your shoulder—they are creating distance rather than closing it. The trapped knee also moves toward their own chest in a circular path rather than pushing outward for sweep leverage."
@@ -72,7 +72,7 @@ description: "Defend against the Reguard from Half Butterfly as the top player. 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust weight distribution when the butterfly hook drives upward during a reguard attempt?",
+      "name": "In half butterfly top, how do you adjust your weight as their butterfly hook drives upward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drop your hips lower and shift weight slightly toward the butterfly hook side to smother the elevation. Do not lift your hips or lean away from the hook, as this creates space underneath that facilitates extraction. Keep your chest connected to the bottom player while widening your base with your free leg. The goal is denying the upward space the hook creates while maintaining trapped-leg pressure to prevent pummeling."
@@ -80,7 +80,7 @@ description: "Defend against the Reguard from Half Butterfly as the top player. 
     },
     {
       "@type": "Question",
-      "name": "What is the correct response if the bottom player successfully extracts the trapped leg but has not yet inserted the second hook?",
+      "name": "They extract the trapped leg but haven't inserted the second hook—what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This brief window between extraction and hook insertion is your last chance to prevent full butterfly guard. Drive forward immediately with heavy chest pressure to flatten the bottom player before they sit up. Simultaneously pinch your knees inward to block the freed leg from inserting under your thigh as a hook. If you flatten them with only one hook active, you are in a passing-advantaged position rather than facing full butterfly guard with bilateral sweeping threats."

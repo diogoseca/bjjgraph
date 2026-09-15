@@ -74,7 +74,7 @@ description: "Execute the Kneebar from Estima Lock transition in BJJ. Step-by-st
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent counter-rotates their foot to neutralize the Estima Lock pressure—what specific signals tell you the kneebar transition is available?",
+      "name": "They counter-rotate out of your Estima Lock; what signals the kneebar is available?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key signals are: diminishing rotational pressure on the ankle despite your maintained grip, the opponent's foot angle flattening as they counter-rotate, their leg beginning to straighten as they prepare to extract their foot, and their defensive focus shifting to the foot rather than maintaining overall guard structure. When the Estima Lock's effectiveness fades despite maintained grip, the opponent's defensive posture has created the alignment needed for kneebar entry. Their straightened leg provides the hyperextension pathway, and their focused foot defense creates a gap in knee protection."
@@ -82,7 +82,7 @@ description: "Execute the Kneebar from Estima Lock transition in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "What is the critical hip placement for the kneebar and why does positioning a few inches too high completely negate the submission?",
+      "name": "Where must your hip land for the kneebar, and why does a few inches too high kill it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hip bone must land directly on the crease of the opponent's knee joint—the exact point where the femur meets the tibia. If you position even a few inches too high on the thigh, your hip acts as a fulcrum above the joint rather than across it, which means your bridging motion compresses the thigh muscle rather than hyperextending the knee. The opponent can freely bend their knee when the fulcrum is above the joint, completely eliminating any submission threat. Precise hip-to-knee alignment is non-negotiable for a functional kneebar."
@@ -90,7 +90,7 @@ description: "Execute the Kneebar from Estima Lock transition in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "During the grip change from foot control to thigh control, your opponent begins pulling their leg back aggressively—how do you prevent losing the leg entirely?",
+      "name": "They yank the leg back during your foot-to-thigh grip change; how do you keep the leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Overlap your control points during the grip change rather than creating a sequential release-then-grab pattern. Begin wrapping your arms around the thigh while your original grip is still partially on the foot, using your body against their leg as a third contact point. If they pull aggressively, clamp your knees together around their leg to create friction that slows extraction while you complete the thigh grip. The key principle is maintaining at least two points of contact at all times during the transition—never allow a moment where only one hand is touching their leg."
@@ -106,7 +106,7 @@ description: "Execute the Kneebar from Estima Lock transition in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent uses their free leg to push your hips forcefully during the hip switch—what immediate adjustment prevents the transition from failing?",
+      "name": "They push your hips with their free leg during the hip switch; what adjustment saves it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the free leg push catches you mid-transition, you have two primary options depending on the push direction. If they push your hips directly away, switch to a rolling kneebar entry that uses the momentum of their push to roll through to the far side while maintaining thigh control—their push actually assists the roll. If they push laterally, underhook their free leg with your nearside arm to pin it before re-attempting the hip switch. The fundamental lesson is that the free leg must be addressed before committing to the transition; if you are already mid-switch when the push lands, convert to the rolling variant rather than fighting the push statically."

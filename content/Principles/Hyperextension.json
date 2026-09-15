@@ -547,5 +547,20 @@
       "duration": 1024,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Hyperextension applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "hyperextension",
+      "hyperextend"
+    ],
+    "families": [
+      "Armbar",
+      "Kneebar",
+      "Belly Down Armbar",
+      "Flying Armbar",
+      "Flying Kneebar"
+    ]
+  }
 }

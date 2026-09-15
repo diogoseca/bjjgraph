@@ -280,7 +280,7 @@
     ],
     "flashcards": [
       {
-        "question": "What anatomical structures does the North-South Choke target and how does bilateral compression work?",
+        "question": "What does the north-south choke target from side control, and how does bilateral compression work?",
         "answer": "The choke targets both carotid arteries simultaneously. The choking arm's bicep compresses the near-side carotid artery while the shoulder and pectoral muscles compress the far-side carotid. This bilateral occlusion cuts blood flow to the brain and produces unconsciousness within 5-10 seconds when applied correctly. The trachea may also experience secondary compression but the primary mechanism is blood choke, not air choke.",
         "safety_critical": true,
         "answer_line": "Bicep+shoulder choke both carotids",
@@ -295,7 +295,7 @@
         }
       },
       {
-        "question": "Your opponent's near-side arm is framing against your hip as you attempt to initiate the choke — what do you do?",
+        "question": "Their near arm frames your hip as you start the north-south choke from side control—what do you do?",
         "answer": "You must clear the near-side arm before threading the choking arm. Swim your underhook deeper and use your shoulder pressure to collapse their frame. Alternatively, use your crossface hand to push their wrist above their head or toward their opposite hip. If you thread the choking arm with their arm still in the way, it will block the carotid compression and the choke will not work, turning it into an uncomfortable but ineffective squeeze.",
         "safety_critical": false,
         "answer_line": "Clear the frame before threading",
@@ -310,7 +310,7 @@
         }
       },
       {
-        "question": "What is the difference between a clean blood choke and a neck crank in this position, and why does it matter?",
+        "question": "In this position, how does a clean blood choke differ from a neck crank, and why does it matter?",
         "answer": "A clean blood choke compresses both carotid arteries with the bicep and shoulder, producing unconsciousness safely with minimal pain. A neck crank occurs when the arm is too shallow (elbow at the chin rather than past it) and twists the cervical spine instead of compressing arteries. Cranks cause significant pain, risk cervical injury, and are unreliable as finishes. In training, always ensure your elbow depth passes beyond the chin to the far side of the neck before applying pressure.",
         "safety_critical": true,
         "answer_line": "Elbow past chin = clean choke",
@@ -325,7 +325,7 @@
         }
       },
       {
-        "question": "You have threaded your arm and started the transition but the choke feels loose after 5 seconds of pressure — what adjustments should you try?",
+        "question": "Your north-south choke still feels loose after several seconds—what adjustments do you try?",
         "answer": "First, walk your hips slightly further toward full north-south to change the shoulder angle. Second, turn your choking-side wrist so your palm faces the ceiling, rotating the radius bone into the carotid more effectively. Third, ensure your sprawl is complete with hips flat on the mat — elevated hips reduce shoulder pressure. If none of these adjustments produce a tighter choke, release and re-establish side control rather than holding a poor position that drains your energy.",
         "safety_critical": false,
         "answer_line": "Turn wrist palm-up, flatten hips",
@@ -340,7 +340,7 @@
         }
       },
       {
-        "question": "Why is it critical to maintain chest contact throughout the entire transition from side control to the choking position?",
+        "question": "Why must you keep chest contact through the whole walk from side control to the choking position?",
         "answer": "Chest contact serves two purposes: it prevents the opponent from creating space to insert frames, turn in, or recover guard, and it maintains the pressure that keeps the choking arm threaded deep. If you lift your chest even briefly during the transition, the opponent can bridge to create space, get their near-side arm inside the choke, or shrimp their hips away to recover half guard. The transition and the pressure are inseparable — every step of the walk toward north-south should increase compression, not relieve it.",
         "safety_critical": false,
         "answer_line": "Never lift chest during the walk",
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "Your opponent starts bridging explosively as you begin walking toward north-south — how do you maintain the choke setup?",
+        "question": "They bridge explosively as you walk toward north-south—how do you keep the choke setup?",
         "answer": "Drop your hips immediately and sprawl hard to absorb the upward force of the bridge. Keep your chest weight heavy on their face and upper chest rather than floating above them. If you maintain direct chest-to-chest contact, the bridge cannot generate enough space to be effective. If they create a momentary gap, backstep your far-side leg quickly to prevent guard recovery and re-settle your weight before continuing the walk. Bridges are most dangerous when they catch you mid-step with your weight shifting.",
         "safety_critical": false,
         "answer_line": "Sprawl heavy, stay chest-to-chest",
@@ -548,7 +548,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest warning signs that your opponent is setting up the North-South Choke from Side Control?",
+        "question": "What are the earliest signs your opponent is setting up the north-south choke from side control?",
         "answer": "The earliest signs are the crossface deepening beyond normal side control pressure with the arm sliding further under your neck, the opponent actively clearing or pinning your near-side arm, and the opponent beginning to walk their body toward north-south by stepping their far leg over your head. Any combination of these three indicates a choke setup and requires immediate defensive action before the arm thread is completed.",
         "safety_critical": false,
         "answer_line": "Crossface deepens, they walk north",
@@ -593,7 +593,7 @@
         }
       },
       {
-        "question": "What is your best defensive option if the choking arm is already threaded but the attacker has not yet sprawled into the final position?",
+        "question": "The choking arm is threaded but they have not sprawled in yet—what is your best defense?",
         "answer": "Insert your near-side arm inside the choke space to block the carotid compression. Your forearm between the opponent's bicep and your neck prevents the blood choke from engaging. Simultaneously, hip escape aggressively and fight to turn into the attacker to disrupt their base. This is a temporary measure — the arm block buys time but is not sustainable. You must use the window to either escape to guard or force the attacker to abandon the choke and reset to side control.",
         "safety_critical": false,
         "answer_line": "Frame forearm inside, hip escape",

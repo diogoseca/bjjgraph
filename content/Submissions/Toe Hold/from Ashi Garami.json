@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "You have the figure-four secured but your opponent straightens their leg to escape - how do you adjust?",
+        "question": "They straighten the leg against your toe hold from ashi garami: how do you adjust?",
         "answer": "A straightened leg compromises the toe hold mechanics because the rotational force dissipates through the extended knee rather than concentrating on the ankle. If the knee line opens, release the toe hold grip and immediately transition to an ankle lock on the now-extended leg, or re-engage your leg entanglement to re-bend the knee before reattempting.",
         "safety_critical": false,
         "answer_line": "Release, hunt the ankle lock",
@@ -367,7 +367,7 @@
         }
       },
       {
-        "question": "What distinguishes a high-percentage toe hold attempt from a low-percentage one from Ashi Garami top?",
+        "question": "What separates a high-percentage toe hold from a low-percentage one from top ashi garami?",
         "answer": "A high-percentage attempt has three elements at once: genuine foot exposure, knee-line control with the knee bent near 90 degrees, and stable base. The base must remain stable enough to maintain the position through the entire finishing sequence. Missing any one of these three elements drops the success rate dramatically.",
         "safety_critical": false,
         "distractors": {
@@ -397,7 +397,7 @@
         "answer_line": "Grip locked, ankle now loading"
       },
       {
-        "question": "Your opponent rolls toward you to relieve rotational pressure during the finish - what adjustment prevents escape?",
+        "question": "They roll toward you during your ashi garami toe hold finish: what stops the escape?",
         "answer": "Follow their roll by adjusting your hip angle to maintain the rotational vector relative to their new body orientation. Your torso must rotate with them so the figure-four continues applying medial force on the foot. If they roll far enough to fully neutralize the angle, consider releasing the toe hold and transitioning to a heel hook since their roll often exposes the heel.",
         "safety_critical": false,
         "answer_line": "Rotate hips to follow their roll",

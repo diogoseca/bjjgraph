@@ -78,7 +78,7 @@ description: "How to defeat Knee Shield Retention in BJJ. Recognition cues, pass
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps redirecting their knee shield to intercept every angle you attack from - how do you break this pattern?",
+      "name": "Passing knee shield, they keep redirecting the shield to your attack angle: how do you break it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A dynamically adjusting shield indicates strong hip mobility from the bottom player. To break this pattern, control their shield leg at the ankle or knee with one hand to physically limit their ability to redirect. Simultaneously apply crossface pressure to limit their ability to see and react to your movement. If they are tracking your movement with the shield, feint a pass in one direction to draw the shield that way, then explosively change direction to the opposite side before they can readjust. You can also grab their shield foot and physically redirect it rather than trying to go around it."
@@ -86,7 +86,7 @@ description: "How to defeat Knee Shield Retention in BJJ. Recognition cues, pass
     },
     {
       "@type": "Question",
-      "name": "When is it appropriate to stand up and disengage rather than continuing ground-based passing attempts?",
+      "name": "Passing knee shield, when should you stand and disengage instead of passing on the ground?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stand up when repeated ground-based attempts have failed and the bottom player has established strong retention with coordinated shield and grip control. Standing changes the entire dynamic by removing your body from their shield's effective range and creating new passing angles. However, standing must be done with control of their legs to prevent X-guard or single leg X entries. Grab their pants or hook their legs before standing, and immediately threaten toreando or leg drag passes that exploit the new standing angle before they can adapt their retention system to the vertical threat."

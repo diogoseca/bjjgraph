@@ -74,7 +74,7 @@ description: "Master the controlled retreat from Saddle to Inside Ashi-Garami. L
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the primary indicators that your saddle control has deteriorated to the point where a fallback is necessary?",
+      "name": "What tells you your Saddle control is broken enough to require a fallback?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key indicators are: opponent has cleared your hip pressure and can now rotate freely, opponent has established strong frames on your hips or shoulders preventing you from re-engaging pressure, your perpendicular alignment has been broken significantly, or opponent has begun successfully extracting their heel from your control. Any two of these occurring simultaneously should trigger immediate fallback. The critical distinction is between temporary resistance (which you can overcome) and structural escape (which requires positional retreat)."
@@ -90,7 +90,7 @@ description: "Master the controlled retreat from Saddle to Inside Ashi-Garami. L
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges explosively just as you begin releasing the saddle configuration—how do you adjust?",
+      "name": "They bridge explosively as you release the Saddle for the fallback: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the transition and re-clamp your saddle leg configuration around their trapped leg. Their explosive bridge creates kinetic energy that you can ride rather than fight—let their movement pass while maintaining tight leg control. Once they settle, reassess whether saddle is still viable. If their bridge successfully cleared your hip pressure, restart the fallback sequence from step one. Never continue a half-completed transition during explosive defensive movements."
@@ -98,7 +98,7 @@ description: "Master the controlled retreat from Saddle to Inside Ashi-Garami. L
     },
     {
       "@type": "Question",
-      "name": "What is the most critical leg position that must be established to create a functional inside ashi-garami?",
+      "name": "Which leg position is essential for a functional inside ashi-garami after the fallback?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside leg across the opponent's near hip with your foot planted on the far side of their body is the non-negotiable foundation. This single element provides rotational control that prevents the opponent from facing you directly, turning away, or squaring their hips. Without the inside leg across the hip, you have loose leg control but not a genuine inside ashi-garami position, and the opponent can escape through simple hip rotation."
@@ -114,7 +114,7 @@ description: "Master the controlled retreat from Saddle to Inside Ashi-Garami. L
     },
     {
       "@type": "Question",
-      "name": "After completing the fallback to inside ashi-garami, what should your immediate offensive strategy be?",
+      "name": "After falling back to inside ashi-garami, what should your immediate offense be?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First consolidate the position by squeezing legs tight and establishing perpendicular alignment. Then immediately threaten the highest-percentage submission available—typically a straight ankle lock—to force defensive reactions. Do not rush back to saddle entry. Let the opponent's defense of your ashi attacks create natural openings for position advancement. If they defend the ankle lock by rotating their knee inward, this exposes the heel for advancement to honey hole or saddle. Their defensive reactions guide your next move."

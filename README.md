@@ -1,166 +1,142 @@
-# BJJGraph
+<h1 align="center"><img src="branding/icon-256.png" width="40" alt=""> BJJGraph</h1>
 
-![Status](https://img.shields.io/badge/Status-Beta-yellow)
-![Active Development](https://img.shields.io/badge/Development-Active-green)
-[![License: PolyForm Noncommercial](https://img.shields.io/badge/License-PolyForm%20Noncommercial-blue.svg)](LICENSE)
+<p align="center">
+  Brazilian jiu-jitsu as a playable state machine, where positions, transitions and submission attempts are all states.
+</p>
 
-> **Note:** BJJGraph is under active development. Content is being expanded daily. Contributions welcome!
+<p align="center">
+  <a href="https://dev.bjjgraph.pages.dev"><b>Try the dev preview</b></a> ·
+  <a href="https://bjjgraph.org">Published site</a> ·
+  <a href="#the-data">Get the data</a> ·
+  <a href="CONTRIBUTING.md">Contribute</a><br>
+  Free to use in your browser. No account required. Source-available, noncommercial licence.
+</p>
 
-Brazilian Jiu-Jitsu knowledge graph and state machine as a static site. The project's ontology models BJJ as a state machine: positions are states, transitions are states too, and edges are the probabilistic outcomes between them.
+<!-- SCREENSHOT SOURCE: https://dev.bjjgraph.pages.dev/Positions/Mount/Top; captured 2026-09-14 at 1440x900. The app normalizes this URL to /Positions/Mount. -->
+<p align="center">
+  <a href="https://dev.bjjgraph.pages.dev/Positions/Mount/Top"><img src="branding/readme-graph.png" width="800" alt="The dev deployment at Mount, top role, with a flashcard, film-study clips and a hand of submission attacks and transitions"></a><br>
+  <sub>Dev preview: Mount from the top. This README describes the dev branch; the published site can differ.</sub>
+</p>
 
-**Production**: [bjjgraph.org](https://bjjgraph.org) | **Dev Preview**: [dev.bjjgraph.pages.dev](https://dev.bjjgraph.pages.dev)
+| Explore | Drill | Roll |
+|---|---|---|
+| Follow connected states and study both players' roles. | Review flashcards with spaced repetition and film-study clips. | Choose an attack, pass, escape or continuation and play out its possible outcomes. |
 
-## What's Inside
+## A state is not always a position
 
-### Knowledge base
+A roll never leaves the state machine. It changes **which kind of state** the players are in.
 
-- **137+ Positions** - BJJ positions as state-machine nodes (top/bottom role pages)
-- **1000+ Transitions** - Techniques as probabilistic edges between states
-- **350+ Submissions** - Terminal states and finishing techniques (with attacker/defender role pages)
-- **47 Expert Systems** - Systematic approaches (Danaher, Gordon Ryan, Eddie Bravo, etc.)
-- **59 Principles** - Fundamental BJJ principles (base, posture, framing, …)
-- **22 Learning Articles** - Strategy, training methods, and competition tactics
-- **Graph Data** - [Download graph.json](https://github.com/diogoseca/bjjgraph/releases/latest) — the full knowledge graph as structured data (also available as `.gz`)
+| State | What it represents |
+|---|---|
+| **Position** | A relatively stable configuration, such as mount or closed guard. Players can still move, apply pressure and fight for control. Stable does not mean motionless. |
+| **Transition** | A transient state: players are moving, applying forces and actively trying to change the configuration. A pass, sweep or escape is a state in the model, not just an arrow between positions. |
+| **Submission** | A transient attacking state, like a transition, with the possibility of ending the game. An established attack can be finished, defended or changed into something else. Entering it is not the same as getting a tap. |
 
-### Interactive UX
+**The arrows connect states.** Attempt weights describe which techniques are attempted from a position and role. Outcome probabilities describe where an attempt can lead: success, failure or a counter. A submission finish can reach `game-over`; an unsuccessful attempt continues the exchange.
 
-- **Background graph** - The entire knowledge graph sits behind every page as a swipeable drawer. Scroll up (or tap the top stripe) to expand it; click a node to crossfade to that page.
-- **Training mode** - Spaced-repetition flashcards (SM-2 algorithm) drawn from per-technique Q&A. Daily-goal driven, with deck filters: due / reviewing / mastered / suggested / recently explored.
-- **Roll mode** - Simulate a journey through positions: pick a starting position, then roll dice against transition probabilities. Tracks your journey for a post-roll victory display + lifetime stats.
-- **Optional Supabase sync** - Sign in with Google to sync flashcard progress and roll history across devices. Anonymous use is fully supported (everything lives in `localStorage`).
+Positions have **Top / Bottom** perspectives. Transitions and submissions have **Attacker / Defender** perspectives. The role is part of the state, not a label for who is winning. Reference hubs group those perspectives for reading; they are not extra playable states.
 
-## Quick Start
+The app interprets this model rather than stopping on every intermediate node. On dev, submission attacks have their own choices, including a separate **Finish** action. The [architecture reference](docs/Architecture.md) separates the authored graph from its display and runtime behavior.
 
-```bash
-npm install                # Installs root + source/ deps via postinstall (Node 20+)
-npm run dev                # Build + serve at http://localhost:8080 (~10 min cold build)
+## Study it, then try a decision
+
+- **Explore from either side.** Open a state, read its explanation, watch a teaching clip, or follow a connected technique. Principles and systems highlight related material without starting a roll.
+- **Drill what you want to retain.** Flashcards and per-deck mastery track recall. These are study measures, not a Brazilian jiu-jitsu rank.
+- **Roll through the model.** Pick from the available moves and see where the exchange goes. The question has a timer; choosing a move does not. The simulation is not a prediction of your next sparring round.
+- **Share a class or game plan.** Collect techniques into a list and send a partner one link.
+
+Progress stays in your browser. Sign in only if you want cross-device sync.
+
+## The data
+
+<!-- COUNTS: derived from this dev-based tree at PR time (2026-09-14). Recompute with the commands in "Reproduce the numbers"; do not copy counts from the published site. -->
+| Authored JSON files | Count |
+|---|---:|
+| Positions | **133** |
+| Transitions | **1,025** |
+| Submissions | **353** |
+
+These are source-file counts, not the number of playable orbs. Submission files include **63 family hubs**, which group occurrences rather than model executable attacks. Source probabilities are authored per ruleset, with distinct gi and no-gi values.
+
+| Read or download | What you get |
+|---|---|
+| [`graph.json`](graph.json) | The full graph in this checkout: role nodes, attempt weights, outcomes, flashcards and reference material. **49,794,486 bytes** at this revision. |
+| [`content/`](content/) | Authored JSON alongside generated Markdown pages. Edit the JSON, not the Markdown. |
+| [Published release data](https://github.com/diogoseca/bjjgraph/releases/latest) | Downloadable `graph.json` and `graph.json.gz`. Releases follow production and may differ from dev. No API key required. |
+| [`CITATION.cff`](CITATION.cff) | Citation metadata for this project. |
+
+```sh
+# Authored offers from bottom closed guard, not a runtime-filtered hand.
+jq '.positions["closed-guard/bottom"].transitions[] | {technique, attemptProbabilityByRuleset, successRate}' graph.json
+
+# One transient state's performer role, success rates and destinations.
+jq '.transitions["kneebar-from-grasshopper/attacker"] | {fromRole, successRateByRuleset, outcomes}' graph.json
 ```
 
-For iterative work, edit JSON sources in `content/`, run a targeted regenerate step (`npm run regenerate:md` for markdown only, or `npm run regenerate` for the full pipeline), then `npm run build`. The serve step alone is `npm run serve`.
+### Two findings you can recompute
+
+- **Reachability changes with the ruleset.** The no-gi walk excludes **104 techniques and 18 position role-nodes**. Those roles belong to nine guard sites: Collar Sleeve, Inverted Lasso, Lapel, Lasso, Piranha, Ringworm, Russian Leg Lasso, Squid and Worm. The walk follows the frame's probabilities from standing; it does not match guard names.
+- **Attempt weight and success rate answer different questions.** Summing the authored no-gi attempt weights across all position-role rows puts **Knee Slice Pass first** (577 points across 41 rows) and **Triangle Setup third** (368 across 22). Their emitted attacker success rates are **53.6%** and **28%**. These sums give each source row equal weight, including unreachable rows; they are not roll frequencies, match statistics or a recommendation ranking.
+
+<details>
+<summary><b>Reproduce the numbers</b></summary>
+
+Count authored files in this checkout:
+
+```sh
+find content/Positions -name '*.json' | wc -l
+find content/Transitions -name '*.json' | wc -l
+find content/Submissions -name '*.json' | wc -l
+```
+
+Emit the local payload before checking availability, so the validator checks the shipped wire as well as the source graph:
+
+```sh
+python3 scripts/regenerate_neural_data.py
+npm run validate:availability
+```
+
+Read `counts.nogi` and `excluded.nogi.positions` in [`tests/artifacts/ruleset_availability.json`](tests/artifacts/ruleset_availability.json). The ranking uses `positions[*].transitions[].attemptProbabilityByRuleset.nogi`, grouped by `target`, excluding null cells; success rates come from `transitions["<target>/attacker"].successRate`. Hubs carry no attempt rows. The [content standards](docs/Content.md) explain why `null` is not zero.
+
+</details>
+
+## What the numbers do not prove
+
+Probabilities are **authored estimates**, checked by schema and graph validators and open to correction by pull request. Calibration and community feedback can change them. A graph that is internally consistent can still be wrong about jiu-jitsu.
+
+State boundaries, technical descriptions, safety, ruleset assumptions and probability estimates need review by a **panel of black-belt Brazilian jiu-jitsu practitioners**. This README does not claim that validation has happened. Generated content and passing automated checks are not substitutes for it.
+
+Use this alongside coached practice, not as permission to attempt a submission or as a measure of anyone's belt level. If a claim looks wrong, [open a correction](CONTRIBUTING.md) with the state, role, ruleset and your reasoning.
+
+## How it is built
+
+```text
+Authored JSON → Jinja2 templates → generated Markdown → static pages
+      └──────→ graph data + deferred study chunks ────→ canvas app
+```
+
+- **Content and pipeline:** [`content/`](content/), [`templates/`](templates/) and [`scripts/`](scripts/). The data, schema and build contracts are documented in [Architecture](docs/Architecture.md) and [Content](docs/Content.md).
+- **App:** [`neural/`](neural/), with the main imperative canvas component in `neural/src/app.src.jsx`. It loads a compact graph, deck manifest and curriculum, then fetches study content as needed.
+- **Static build:** [Quartz](https://quartz.jzhao.xyz/), the MIT project under [`source/`](source/), emits the pages and crawlable fallback beneath the app.
+- **Delivery:** Cloudflare Pages and share-preview Functions in [`functions/`](functions/). Supabase provides optional account sync; PostHog provides analytics.
+- **Checks:** validators in `scripts/`, node tests in [`tests/`](tests/) and Playwright journeys in [`e2e/`](e2e/).
 
 ## Contributing
 
-### npm Scripts (Root package.json)
+A correction is more useful than a new feature built on a wrong assumption. Propose one through an issue or a PR against the authored JSON. Include the evidence or technical reasoning that changed your answer.
 
-| Command | Description |
-|---------|-------------|
-| `npm run validate:json` | Validate JSON sources against `templates/` schemas |
-| `npm run validate:graph` | Validate graph integrity (referential consistency, probability sums) |
-| `npm run regenerate:issues` | List content files that need fixes |
-| `npm run regenerate:json` | Fill TODOs / fix validation errors in JSON via Claude API |
-| `npm run regenerate:explode` | Expand graph connections (derive opponent transitions, etc.) |
-| `npm run regenerate:md` | Regenerate markdown from JSON via Jinja2 templates |
-| `npm run regenerate:hubs` | Generate category hub pages (`Positions.md`, `Transitions.md`, …) |
-| `npm run regenerate:votes` | Generate community voting data |
-| `npm run regenerate:graph` | **Umbrella**: `graph-base` (graph.json) → `graph-layout` → `ordinals` → `graph-strength`. Running only `graph-base` strips `strength` from every node |
-| `npm run regenerate:ordinals` | Mint the append-only share-link ordinal lockfile (`node_ordinals.json`) |
-| `npm run validate:ordinals` | Hard gate: no ordinal renumbered, reused or deleted — share links encode them |
-| `npm run regenerate` | The full chain, in order (see CLAUDE.md §4) |
-| `npm run build` | Build the static site (~10 min, ~5700 files) |
-| `npm run regenerate:build` | Regenerate + build (full workflow) |
-| `npm run serve` | Serve `source/public` on port 8080 (no rebuild) |
-| `npm run dev` | `build` then `serve` |
-| `npm run proofread` | Recurring LLM audit of graph edges + probabilities (intermittent use; not part of `regenerate`) |
-
-### Pre-Flight Checklist
-
-```bash
-npm run regenerate:build   # Full validation, generation, and build
-cd source && npm run check # Type checking
+```sh
+npm run validate:json
+npm run validate:graph
+npm run regenerate:build
 ```
 
-### Content Workflow
+The full regeneration command can invoke paid AI content enrichment and rewrites generated artifacts. Read [CONTRIBUTING.md](CONTRIBUTING.md) for prerequisites and the workflow before running it. Never edit generated `content/*.md`; keep one change per PR and stage files by explicit path. Bot PRs receive the same review as human ones.
 
-BJJGraph uses a **JSON-first** content system:
+For app work, read [CLAUDE.md](CLAUDE.md) section 6 before editing. It records the implementation traps that are not obvious from a screenshot.
 
-1. **Edit** JSON source files in `content/` (e.g., `content/Positions/Mount.json`)
-2. **Validate & Regenerate** with `npm run regenerate`
-3. **Test** build with `npm run dev`
+## Licence and contact
 
-Never edit `.md` files in `content/` directly — they are generated from the `.json` source files.
+**Source-available, not open source.** BJJGraph uses the [PolyForm Noncommercial 1.0.0 licence](LICENSE.md). Noncommercial use is permitted under its terms; commercial use requires separate permission. The licence text is authoritative.
 
-### Documentation
-
-| Doc | Purpose |
-|-----|---------|
-| [CLAUDE.md](CLAUDE.md) | AI development workflow |
-| [docs/Architecture.md](docs/Architecture.md) | JSON pipeline, Position model |
-| [docs/Content.md](docs/Content.md) | Content standards, validation rules |
-| [docs/SEO.md](docs/SEO.md) | Schema markup, keywords, analytics |
-
-## Technology
-
-Built on [Quartz 4.0](https://quartz.jzhao.xyz/) with:
-
-- **Graph rendering**: the Neural app's own canvas, fed by build-time data (`/static/neural/graph-data.json`); node2vec + UMAP precompute global node positions so the first paint needs no layout pass. (The old PixiJS/D3 Quartz graphs were removed in v1.80.0.)
-- **Search**: Flexsearch full-text index, lazily fetched (gzipped) on first open.
-- **Training**: flashcards, recall proof and Challenges live in the Neural app. State lives in `localStorage` under `bjj-neural-progress`; optional Supabase sync for signed-in users via the `neural` JSONB column.
-- **Auth**: Optional Supabase Auth (email/password + Google OAuth). Anonymous use is fully supported.
-- **SPA navigation**: Micromorph-style page swaps; the Neural overlay re-mounts on each soft nav.
-- **Analytics**: PostHog (skipped-flashcard events, navigation patterns, feature flags).
-- **SEO**: Quartz remains the static-site generator — every indexed URL ships a real `<article>`, `<head>` and JSON-LD that the Neural app overlays client-side. Schema markup is generated by Jinja2 templates.
-- **Mobile**: Touch gestures (pinch-zoom + drag pan the graph; one 88vw drawer for the study pane).
-
-## Project Structure
-
-```
-bjjgraph/
-├── content/               # *.json = SOURCE data, *.md = GENERATED output
-│   ├── Positions/         # 137+ positions (hub + Top/Bottom role pages)
-│   ├── Transitions/       # 1000+ transitions (hub + Attacker/Defender role pages)
-│   ├── Submissions/       # 350+ submissions (hub + Attacker/Defender role pages)
-│   ├── Systems/           # Expert systems
-│   ├── Principles/        # Fundamental principles
-│   └── Learning/          # Strategy & training articles
-├── templates/             # JSON schemas + Jinja2 templates (NOT source data)
-├── graph.json             # Generated graph data feed (committed for releases)
-├── source/                # Quartz static site generator
-│   └── quartz/            # Components, plugins, styles
-├── scripts/               # Validation, regeneration, content-bot tooling
-├── docs/                  # Project documentation
-├── branding/              # Logo + favicon assets
-├── tests/                 # Test artifacts and validation reports
-└── .github/workflows/     # CI: deploy (main/dev), content-improvement-bot,
-                           #     analytics-content-improvement, keepalives
-```
-
-## Partnership & Sponsorship
-
-BJJGraph is building the most comprehensive, systematic breakdown of grappling ever assembled. Our mission is to democratize high-level BJJ knowledge so anyone with the interest can truly study the game.
-
-We're looking for partners who share this vision—BJJ apps, gear companies, academies, and training platforms who want to help advance the sport and make world-class instruction accessible to all.
-
-**Contact**: [Diogo Seca on LinkedIn](https://www.linkedin.com/in/diogoseca/)
-
-## Deployment
-
-Hosted on **Cloudflare Pages**. Deploys are triggered by GitHub Actions.
-
-| Branch | URL | Workflow |
-|--------|-----|----------|
-| `main` | [bjjgraph.org](https://bjjgraph.org) | `.github/workflows/deploy.yaml` |
-| `dev` | [dev.bjjgraph.pages.dev](https://dev.bjjgraph.pages.dev) | `.github/workflows/deploy-dev.yaml` |
-
-Preview deployments for `dev` are also available at unique URLs (e.g., `<hash>.bjjgraph.pages.dev`) visible in the Cloudflare Pages dashboard.
-
-## Analytics
-
-- **PostHog**: https://us.posthog.com/project/236155
-- **SEO**: Schema markup on all content pages
-
-### Content quality signals
-
-When maintaining content, pay attention to two feedback channels:
-
-1. **Most-skipped flashcards** — every time a user hits **Skip** on a flashcard, the runtime fires a `flashcard_skipped` PostHog event with `{ page, technique, question }`. Aggregate these in PostHog (group by `question`) to find the questions users find broken, unclear, or off-topic — those are the first ones to rewrite.
-2. **Issues raised by open-source collaborators** — GitHub issues and PRs from the community are the highest-signal source of content problems. Triage them before adding new content.
-
-## License
-
-PolyForm Noncommercial 1.0.0 - Free for personal, educational, and non-commercial use. Commercial use requires permission. See [LICENSE](LICENSE)
-
-## Links
-
-- **Site**: https://bjjgraph.org
-- **Repository**: https://github.com/diogoseca/bjjgraph
-- **Quartz Docs**: https://quartz.jzhao.xyz/
+For the corpus or app, [open a GitHub issue](https://github.com/diogoseca/bjjgraph/issues). For a human conversation, contact [Diogo Seca on LinkedIn](https://www.linkedin.com/in/diogoseca/).

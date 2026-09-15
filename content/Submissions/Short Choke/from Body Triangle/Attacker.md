@@ -70,7 +70,7 @@ description: "Complete attacking guide for the short choke from body triangle. S
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What specific anatomical structures does the short choke from body triangle compress to produce the tap?",
+      "name": "Which anatomical structures does the short choke from body triangle compress to get the tap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The short choke compresses both carotid arteries simultaneously by seating the lapel diagonally across the neck in the grooves on either side of the trachea. The carotid arteries supply blood to the brain, and bilateral compression causes rapid cerebral ischemia that produces loss of consciousness within 8-12 seconds if unaddressed. The choke does not target the windpipe—proper placement avoids the trachea entirely."

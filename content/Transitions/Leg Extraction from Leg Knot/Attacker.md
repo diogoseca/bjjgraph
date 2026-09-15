@@ -74,7 +74,7 @@ description: "Execute Leg Extraction from Leg Knot to escape leg entanglements a
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal direction of force application during leg extraction — pulling backward or driving forward?",
+      "name": "In leg extraction from the leg knot, do you pull the leg back or drive forward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward driving pressure is the correct application. Pulling backward gives the opponent hip mobility and space to re-hook. Forward pressure through the chest and shoulders flattens the opponent's hips to the mat, severely diminishing their ability to maintain active hooks. The leg extracts as a consequence of superior positioning and pressure, not through pulling force."
@@ -106,7 +106,7 @@ description: "Execute Leg Extraction from Leg Knot to escape leg entanglements a
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts counter-entangling toward 50-50 as your leg begins clearing — what is the correct response?",
+      "name": "Your opponent counter-entangles toward 50-50 as your leg clears the leg knot — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately retract your extracting leg back into the original leg knot configuration rather than completing the extraction into 50-50. Entering 50-50 unintentionally sacrifices your top position advantage and creates a symmetric entanglement where neither player is dominant. Reset the forward pressure, re-establish upper body control, and attempt extraction again when the opponent's configuration loosens. Prevention is far easier than escaping an established 50-50."

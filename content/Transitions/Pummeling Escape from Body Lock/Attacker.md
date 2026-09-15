@@ -80,7 +80,7 @@ description: "Complete guide to executing the pummeling escape from body lock. L
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical advantage of the pummeling escape compared to direct grip-breaking methods?",
+      "name": "Why does pummeling beat direct grip-breaking as a body lock escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pummeling inserts structural wedges (your elbows and forearms) between the opponent's arms and your torso, using skeletal frames to mechanically disrupt the lock from the inside. This creates bone-on-bone leverage that is far more sustainable than the muscular effort required to pull apart locked hands from the outside. The wedge effect expands the space between their arms and your body progressively, making the lock increasingly difficult to maintain regardless of the opponent's grip strength."
@@ -96,7 +96,7 @@ description: "Complete guide to executing the pummeling escape from body lock. L
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-locks their grip immediately after your first pummel entry - how do you adjust your approach?",
+      "name": "They re-lock right after your first pummel entry — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Never pause between pummel entries. The first pummel must flow directly into the second as a continuous two-beat motion. If the opponent is consistently re-locking after your first entry, you are likely pausing too long between pummels. Increase the speed of your second arm's entry by pre-loading the opposite hip rotation during your first pummel. Alternatively, switch to the single-arm-pummel-to-whizzer variant, using one underhook plus one overhook to disrupt the lock without requiring a second pummel."

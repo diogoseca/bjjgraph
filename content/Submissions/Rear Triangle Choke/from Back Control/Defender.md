@@ -58,7 +58,7 @@ description: "How to defend against Rear Triangle Choke in BJJ. Recognition, esc
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the highest-percentage moment to defend the triangle choke from back, and what should you do at that moment?",
+      "name": "When is the best moment to defend the rear triangle from back control, and what do you do then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage defensive window is during the transition phase when the attacker shifts their hips laterally and attempts to thread their leg over your shoulder. At this moment, their back control is temporarily weakened because they must release hooks or open body triangle to reconfigure their legs. You should immediately turn toward the attacker, using your shoulder and hip to block their leg from crossing over. This prevents the triangle from being established entirely. If you miss this window and the triangle locks, your escape options become significantly harder and more energy-intensive."
@@ -66,7 +66,7 @@ description: "How to defend against Rear Triangle Choke in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "Why is it dangerous to pull your trapped arm straight outward when caught in a rear triangle, and what is the correct arm extraction method?",
+      "name": "Why is pulling the trapped arm straight out of a rear triangle wrong, and how should you extract it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling the trapped arm straight outward is dangerous because it actually tightens the triangle geometry. Straightening the arm creates more space inside the triangle for the choke to compress against your neck, and the straight arm itself becomes vulnerable to kimura or armbar attacks. The correct extraction method is to walk the arm toward your hip using small, incremental movements while keeping the elbow bent. This slides the arm out at a downward angle rather than fighting against the compression. Think of it as slipping your arm out underneath rather than pulling it through the middle of the triangle."
@@ -74,7 +74,7 @@ description: "How to defend against Rear Triangle Choke in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "If the rear triangle is fully locked and the choke is beginning to set in, what is your emergency defensive protocol?",
+      "name": "The rear triangle is locked and the choke is biting: what is your emergency defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the triangle is fully locked and the choke is biting, your emergency protocol is: (1) tuck your chin hard toward your trapped shoulder to reduce carotid compression on that side, (2) use your free hand to grab the attacker's locking ankle and attempt to peel it from their knee pit, (3) simultaneously drive your hips forward and try to stack your weight onto the attacker to disrupt their angle, (4) if you can create any space, immediately begin turning into the attacker to convert the position. If none of these work within 3-4 seconds and you feel blood pressure building in your head, tap immediately. Never risk unconsciousness in training to practice late-stage escapes."
@@ -82,7 +82,7 @@ description: "How to defend against Rear Triangle Choke in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "How does turning into the attacker help you escape the rear triangle, and what position does this create?",
+      "name": "How does turning into the attacker help you escape a rear triangle, and what position results?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning into the attacker converts the rear triangle into a front-facing triangle, which is a significantly more escapable position. From the rear, the attacker has both the triangle and back control working together, giving you almost no leverage for escape. When you turn to face them, you gain the ability to posture (straighten your spine), stack your weight onto them, and apply standard triangle escape techniques that work from inside closed guard. The turn also disrupts the perpendicular angle the attacker needs for the choke to function. You typically end up in their closed guard with the triangle still locked, but now have access to the full defensive toolkit including posture, stack-and-pass sequences, and arm extraction methods."
@@ -90,7 +90,7 @@ description: "How to defend against Rear Triangle Choke in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "What are the early recognition cues that your opponent is setting up a triangle from back control rather than continuing the RNC attack?",
+      "name": "Which early cues show your opponent is switching from RNC to a triangle from back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key recognition cues are: (1) the attacker's choking arm shifts from attacking your neck to controlling and pulling one of your arms across your body, (2) you feel the attacker's hips shifting laterally to one side rather than staying centered behind you, (3) one of the attacker's hooks disengages or their body triangle opens unexpectedly, indicating leg reconfiguration, and (4) you feel weight shifting off your back as they create the angle needed for leg insertion. The combination of arm isolation plus hip shift is the definitive signal. If you feel both of these happening simultaneously, the triangle attempt is imminent and you must react within 1-2 seconds to have a realistic chance of prevention."

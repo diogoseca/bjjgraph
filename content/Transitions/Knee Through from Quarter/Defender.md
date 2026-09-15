@@ -64,7 +64,7 @@ description: "Master defending the Knee Through from Quarter Guard in BJJ. Learn
     },
     {
       "@type": "Question",
-      "name": "When defending the knee through, what determines whether you should fight for knee shield re-insertion versus committing to a full hip escape?",
+      "name": "Defending the knee through, what decides between re-inserting the knee shield and hip escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on the space available between the opponent's hip and your body. If there is sufficient space to insert your knee—typically when the opponent has not yet committed their full weight forward—re-inserting the knee shield is more energy efficient and maintains better defensive structure. If the opponent has closed that space with heavy chest-to-chest pressure, the knee cannot physically fit between your bodies and hip escape becomes the only viable option. You must assess this within one second of recognizing the drive attempt."
@@ -72,7 +72,7 @@ description: "Master defending the Knee Through from Quarter Guard in BJJ. Learn
     },
     {
       "@type": "Question",
-      "name": "How do you use the opponent's forward commitment during the knee drive to create counter-offensive opportunities?",
+      "name": "How do you use the passer's forward commitment in the knee drive to counter-attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent commits weight forward for the knee drive, their lateral stability is temporarily compromised and their base narrows to the posted hand and one leg. This creates vulnerability to sweeps timed to this commitment moment—an underhook sweep pulling them past your body, a hip bump using their forward momentum against them, or a deep half entry that uses their forward weight to pull them over your body. The key is recognizing that the moment of maximum offensive commitment from the passer is simultaneously the moment of maximum sweep vulnerability."
@@ -80,7 +80,7 @@ description: "Master defending the Knee Through from Quarter Guard in BJJ. Learn
     },
     {
       "@type": "Question",
-      "name": "Your opponent has started the knee drive and your knee shield has been cleared—what are your remaining defensive options in priority order?",
+      "name": "Your knee shield is cleared as the knee drive starts—what are your defenses in priority order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Priority order when the knee shield is cleared: First, explosive hip escape away from the passing direction to create space for leg re-engagement before the knee fully crosses your centerline. Second, frame against the passing knee with both hands using skeletal structure to physically block further advancement while continuing to hip escape. Third, if the knee is nearly past, immediately transition to mount defense fundamentals—establish elbow-knee connection frames and prepare for bridge or elbow escape from mount rather than fighting a lost battle for quarter guard retention."
@@ -88,7 +88,7 @@ description: "Master defending the Knee Through from Quarter Guard in BJJ. Learn
     },
     {
       "@type": "Question",
-      "name": "What role does the underhook play in defending the knee through, and when should you abandon it for other defensive priorities?",
+      "name": "What does the underhook do against the knee through, and when should you abandon it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The underhook serves as both defensive anchor preventing the crossface from flattening you completely and offensive counter-threat forcing the passer to allocate resources to sweep defense. You should maintain the underhook as long as it provides either defensive or offensive value. Abandon the underhook only when maintaining it actively prevents a more critical defensive action—specifically when you need both hands to frame against an imminent knee drive that will achieve mount in the next one to two seconds. In that emergency scenario, survival takes priority over maintaining offensive threats."

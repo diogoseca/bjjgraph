@@ -56,7 +56,7 @@ description: "How to defend the Harness to Body Lock transition in BJJ. Grip fig
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "When during the Transition to Body Lock is the opponent's control at its weakest and what should you do?",
+      "name": "When is their control weakest during the harness-to-body-lock transition, and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's control is weakest while their grip is sliding from chest level to waist level, because the grip is not optimally positioned for either choking or body lock control during transit. During this window, you should execute explosive forward hip movement to break the chest-to-back connection, or grab their wrists to intercept the grip before it locks at the waist. This window lasts only one to two seconds, making recognition and immediate action essential."
@@ -64,7 +64,7 @@ description: "How to defend the Harness to Body Lock transition in BJJ. Grip fig
     },
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is transitioning to a body lock rather than re-inserting hooks?",
+      "name": "What early cues show they are going to a body lock rather than re-inserting hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are: their feet planting on the mat behind you with toes curled under instead of attempting to thread hooks inside your thighs, their chest pressure increasing as they load weight for the standing transition, and their forearms beginning to slide downward along your ribcage. The absence of hook re-insertion attempts despite available space is the clearest signal that they have committed to the body lock path rather than maintaining ground back control."
@@ -80,7 +80,7 @@ description: "How to defend the Harness to Body Lock transition in BJJ. Grip fig
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent's hip pressure from breaking your posture once the body lock is established at your waist?",
+      "name": "Once their body lock is set at your waist, how do you stop their hips breaking your posture?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drop into a wide athletic stance with knees bent deeply and feet wider than shoulder width. Lower your center of gravity by bending at the knees rather than the waist to maintain upright spine alignment. Drive your hips backward into the opponent to counteract their forward pressure. Get at least one hand inside the lock to create a wedge that prevents them from tightening further. This base maintenance buys you time to execute grip breaks, but must be established within the first second of the body lock settling."
@@ -88,7 +88,7 @@ description: "How to defend the Harness to Body Lock transition in BJJ. Grip fig
     },
     {
       "@type": "Question",
-      "name": "What is the mechanical principle behind attacking the grip during the slide rather than after it locks at the waist?",
+      "name": "Why attack their body lock grip during the slide rather than after it locks at your waist?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the slide, the opponent's forearms are moving along your torso with reduced friction and their hands are maintaining a lock that is under dynamic stress from the movement. This makes their grip structurally weaker than when it is stationary and cinched at the waist. Once the grip locks at the waist, the opponent can squeeze their elbows together, engage their core, and add hip pressure to reinforce the grip. Breaking a moving grip requires significantly less force than breaking a stationary, reinforced one, making the transition window the highest-percentage moment for defensive grip fighting."

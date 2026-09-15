@@ -74,7 +74,7 @@ description: "Execute the posture up escape from mounted triangle bottom. Step-b
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent begins tightening their triangle lock while you are in mounted triangle - what is your immediate priority before attempting to posture?",
+      "name": "Caught in a mounted triangle, they tighten the lock: what is your priority before posturing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the immediate choking threat by tucking your chin aggressively toward your trapped arm shoulder and bending the trapped arm tight to your body. This buys time by reducing the choking angle and protecting against armbar. Only after establishing these defensive foundations should you begin frame placement and posture work, as attempting to posture without chin tuck accelerates the choke and reduces your survival window."
@@ -90,7 +90,7 @@ description: "Execute the posture up escape from mounted triangle bottom. Step-b
     },
     {
       "@type": "Question",
-      "name": "You have established a frame and begun posturing, but the opponent pulls your head back down forcefully - how do you respond?",
+      "name": "Mounted triangle: you frame and start posturing, but they pull your head back down. Response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight the head pull directly with neck strength as this wastes energy against their leverage advantage. Instead, reset your chin tuck, maintain frame contact against their hip, and wait for the next opportunity. The opponent must shift weight or adjust grip to execute the pull, and the moment after completion creates a brief window where their control is lighter. Use that moment to re-initiate the posture attempt with a simultaneous hip escape in the opposite direction."
@@ -106,7 +106,7 @@ description: "Execute the posture up escape from mounted triangle bottom. Step-b
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the triangle and starts consolidating standard mount as you posture up - how do you capitalize on this transition?",
+      "name": "In a mounted triangle, they release the lock to take mount as you posture. How do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The moment the opponent releases the triangle lock is your best escape window. Immediately insert your knee as a shield between your bodies before they can settle their mount. The triangle release requires them to move their legs, creating a brief moment where their base is compromised. Drive your hip frame hard to create additional space and begin a full hip escape sequence toward half guard. Speed is critical because every fraction of a second of delay allows them to re-establish mount pressure."

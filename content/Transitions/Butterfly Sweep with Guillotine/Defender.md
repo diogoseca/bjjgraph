@@ -88,7 +88,7 @@ description: "How to defend against Butterfly Sweep with Guillotine in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their hips to load the sweep angle - what immediate action prevents the sweep?",
+      "name": "They rotate their hips to load the Hindulotine sweep: what action prevents the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Step your foot on their choking arm side wide and drop your hip on that side toward the mat. This removes your center of gravity from their sweep trajectory and makes it mechanically impossible to elevate you in the intended direction. Simultaneously begin hand fighting the guillotine grip to reduce choking pressure while your wide base neutralizes the sweep."

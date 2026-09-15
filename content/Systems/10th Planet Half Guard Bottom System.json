@@ -1,6 +1,6 @@
 {
   "name": "10th Planet Half Guard Bottom System",
-  "description": "Master 10th Planet Half Guard Bottom System with Lockdown, Electric Chair, and systematic sweeps. Eddie Bravo's revolutionary framework for bottom half guard dominance.",
+  "description": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -13,8 +13,8 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Intermediate",
-  "summary": "The 10th Planet Half Guard Bottom System is Eddie Bravo's no-gi framework that weaponizes the Lockdown leg trap to off-balance opponents and chain whip-up sweeps, the Old School, back takes, and the Electric Chair submission from bottom half guard.",
-  "overview": "Developed by Eddie Bravo as a cornerstone of 10th Planet Jiu-Jitsu, this framework grew out of the no-gi competition era where conventional gi-grip half guard sweeps were unavailable, forcing innovation around leg control rather than collar and sleeve grips. Historically, bottom half guard was treated as a defensive holding pattern; the 10th Planet approach reframes it as an offensive platform built on the Lockdown control mechanism - a unique figure-four leg configuration that traps the opponent's leg, disrupts their base, and creates multiple offensive pathways. This systematic framework connects control positions like the Lockdown and Deep Half Guard to powerful sweeps, back takes, and the signature Electric Chair submission. Unlike traditional half guard systems that rely primarily on underhooks and conventional sweeps, the 10th Planet approach emphasizes leg control, creating leverage through the Lockdown to off-balance opponents and generate explosive attacking opportunities. Through systematic application of the Lockdown's control principles, practitioners learn to dominate from what opponents perceive as a neutral or defensive position, consistently generating submission threats and positional advances.",
+  "summary": "Lockdown half guard needs upper-body position and movement to become an attacking guard.",
+  "overview": "Lockdown half guard needs upper-body position and movement to become an attacking guard. This guide connects the underhook, off-balancing and routes toward sweeps. The bottom half guard material in Eddie Bravo’s course is a starting point for studying those connections.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Lockdown control as the foundation - establish and maintain the leg trap to disrupt opponent's base and posture",
     "Active bottom position - constantly attacking and creating dilemmas rather than passively defending",
@@ -460,6 +460,21 @@
           "Abandon it, always rebuild guard"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "the-ultimate-rubber-guard-by-eddie-bravo",
+      "title": "The Ultimate Rubber Guard",
+      "instructor": "Eddie Bravo",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard.",
+      "best_for": "Students exploring 10th Planet guard connections. Check the syllabus for your chosen branch; this is broader than a single finish.",
+      "study_focus": "For the omoplata route, start in Volume 1. Bottom half guard and further guard variations appear in Volume 4.",
+      "practice_tip": "Choose a control you can enter comfortably. Practise maintaining posture control without pulling your knee into a forced range."
     }
   ]
 }

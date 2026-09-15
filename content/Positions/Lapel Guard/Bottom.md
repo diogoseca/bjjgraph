@@ -21,37 +21,37 @@ description: "Control opponents with innovative lapel grips and configurations. 
     {
       "@type": "HowToStep",
       "name": "Execute Worm Guard Entry",
-      "text": "From this position, attempt Worm Guard Entry. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Worm Guard Entry. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Squid Guard Entry",
-      "text": "From this position, attempt Squid Guard Entry. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Squid Guard Entry. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ringworm Guard Entry",
-      "text": "From this position, attempt Ringworm Guard Entry. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Ringworm Guard Entry. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Sweep to Back",
-      "text": "From this position, attempt Lapel Sweep to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Sweep to Back. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Omoplata Entry",
-      "text": "From this position, attempt Lapel Omoplata Entry. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Omoplata Entry. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lapel Triangle Setup",
-      "text": "From this position, attempt Lapel Triangle Setup. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Lapel Triangle Setup. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 6
     }
   ],
@@ -448,8 +448,8 @@ From established lapel guard, partner defends first submission attempt (triangle
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Parent category encompassing all lapel-based guard positions in the system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Modern guard system using lapel manipulation for control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Keenan-Cornelius-Lapel-Guard-System" data-cta="related-system-card" data-system-slug="systems/keenan-cornelius-lapel-guard-system" data-system-name="Keenan Cornelius Lapel Guard System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Keenan Cornelius Lapel Guard System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Parent category encompassing all lapel-based guard positions in the system</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Modern guard system using lapel manipulation for control</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

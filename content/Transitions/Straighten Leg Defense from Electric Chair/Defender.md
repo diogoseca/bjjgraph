@@ -58,7 +58,7 @@ description: "Learn to counter the Straighten Leg Defense when attacking from El
     },
     {
       "@type": "Question",
-      "name": "Your lockdown is beginning to fail against the straighten defense—what are your best transition options?",
+      "name": "Your lockdown is failing against their straighten defense: what are your best transitions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the lockdown is failing, your primary options are: convert to Old School sweep using the top player's forward pressure as directional momentum, release one hook and insert a crab ride hook for Truck entry, or use the underhook to dive underneath for Deep Half Guard entry. The worst option is continuing to fight a failing lockdown, as this wastes energy and gives the top player time to consolidate. Choose based on the top player's weight distribution—heavy forward pressure favors the sweep, neutral positioning favors the Truck transition."
@@ -66,7 +66,7 @@ description: "Learn to counter the Straighten Leg Defense when attacking from El
     },
     {
       "@type": "Question",
-      "name": "How does the top player's crossface pressure affect your ability to maintain the Electric Chair against their straighten defense?",
+      "name": "How does their crossface affect keeping the Electric Chair against the straighten defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strong crossface pressure prevents you from achieving the perpendicular angle needed for maximum Electric Chair splitting effectiveness. It limits your ability to extend your hips fully and create the splitting action because your upper body is being driven flat to the mat, reducing your mechanical advantage. To counter the crossface, use your underhook to pull yourself toward their far hip, creating the attack angle despite their pressure. If the crossface is too strong to overcome, transition to Deep Half by diving underneath rather than fighting for the angle."

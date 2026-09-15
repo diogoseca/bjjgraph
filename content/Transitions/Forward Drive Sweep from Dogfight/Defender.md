@@ -56,7 +56,7 @@ description: "Learn to defend the Forward Drive Sweep from Dogfight in BJJ. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up the Forward Drive Sweep from Dogfight?",
+      "name": "Earliest cue your opponent is setting up the forward drive sweep from dogfight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent deepening their underhook significantly toward your far shoulder, combined with their free hand reaching across to control your far hip or knee. These grip changes precede the actual drive by one to two seconds and represent the setup phase where defensive intervention is most effective. A shallow underhook at the near hip cannot generate forward drive sweep mechanics, so the deepening of the grip is the critical early warning signal."
@@ -64,7 +64,7 @@ description: "Learn to defend the Forward Drive Sweep from Dogfight in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a deep underhook and begins loading forward pressure - what is your immediate defensive priority?",
+      "name": "They get a deep underhook and load forward pressure in dogfight: what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is establishing base stability through hip sprawl and far-leg posting before the opponent generates full momentum. Drop your hips back and widen your far leg simultaneously while increasing downward whizzer pressure. The goal is to create a stable tripod base that prevents toppling within the first half-second of their forward drive. Attempting to strip the underhook at this stage is too slow and risks losing the base battle entirely."
@@ -72,7 +72,7 @@ description: "Learn to defend the Forward Drive Sweep from Dogfight in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "How does your whizzer positioning change when defending the forward drive versus defending a back take attempt?",
+      "name": "How does your whizzer differ when defending the forward drive versus a back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against the forward drive, your whizzer should pull downward and slightly backward to counteract the opponent's upward and forward driving force through the underhook. Against a back take, the whizzer must grip tighter and pull the opponent's arm across your body to prevent them from circling behind you. The directional pull is fundamentally different - anti-forward-drive whizzer pulls down to kill elevation, while anti-back-take whizzer pulls inward to prevent hip clearing."

@@ -58,7 +58,7 @@ description: "Defend against the Bow and Arrow Choke from Invisible Collar. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that your opponent is transitioning from invisible collar to the Bow and Arrow Choke specifically?",
+      "name": "What signs show your opponent is moving from invisible collar into the bow and arrow?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key indicators are the lateral hip shift to one side combined with one hook releasing while the other maintains control. This is followed by the attacker's free hand reaching across your body toward your far pant leg. The combination of hip shift, hook change, and cross-body reach distinguishes the bow and arrow setup from other invisible collar attacks like direct collar chokes or rear naked choke transitions."
@@ -74,7 +74,7 @@ description: "Defend against the Bow and Arrow Choke from Invisible Collar. Reco
     },
     {
       "@type": "Question",
-      "name": "What is the highest-priority defensive action when you feel the bow and arrow transition beginning from invisible collar?",
+      "name": "What is your top defensive priority as the bow and arrow begins from invisible collar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest priority is preventing the pant grip from being secured. Once the attacker has both the collar grip and the pant grip, the extension creates mechanical force that is extremely difficult to overcome defensively. Block their reaching hand with your near-side arm or immediately turn toward the attacker during the hip shift window. Stripping the deep collar grip is lower priority because it is harder to remove and the bow and arrow cannot be finished without the opposing pant grip force."
@@ -82,7 +82,7 @@ description: "Defend against the Bow and Arrow Choke from Invisible Collar. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured both the collar and pant grips and begins extending - what emergency escape offers the best survival chance?",
+      "name": "From invisible collar, both grips are set and they are extending — what escape gives best odds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridge hard toward the collar grip side while simultaneously pulling your far knee toward your chest to create slack in the pant grip. This combined movement reduces the stretch distance and may create enough space to turn into the attacker. If you can get your shoulders past perpendicular to the attacker's body, the choking angle weakens significantly. This is a last-resort effort and success depends on explosive timing before the full extension locks in."
@@ -90,7 +90,7 @@ description: "Defend against the Bow and Arrow Choke from Invisible Collar. Reco
     },
     {
       "@type": "Question",
-      "name": "How should you manage your energy when defending a sustained Bow and Arrow attempt from Invisible Collar?",
+      "name": "How should you manage energy while defending a sustained bow and arrow attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Focus on efficient sustained defensive posture rather than explosive bursts that deplete quickly. The chin tuck and grip monitoring should be constant low-energy efforts. Reserve explosive movement for specific moments: when the attacker releases a hook for the transition, or when they commit the free hand to the pant reach. These are the windows where explosive defense is most effective. Avoid tensing your entire body against the choke since this accelerates fatigue without meaningfully reducing pressure."

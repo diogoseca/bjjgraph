@@ -1,0 +1,326 @@
+
+
+
+
+---
+title: "Kesa Gatame to Mount | BJJ Technique | BJJ Graph"
+description: "Master the Kesa Gatame to Mount transition in BJJ. Complete guide covering step-over mechanics, timing windows, and pressure maintenance for kesa gatame advancement."
+---
+
+
+<body data-content-type="transitions-hub">
+
+<!-- Schema Markup - WebPage (canonical hub entity; carries the synonym signal on the URL we want ranking) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Kesa Gatame to Mount",
+  "description": "Master the Kesa Gatame to Mount transition in BJJ. Complete guide covering step-over mechanics, timing windows, and pressure maintenance for kesa gatame advancement.",
+  "isPartOf": { "@type": "WebSite", "name": "BJJ Graph", "url": "https://bjjgraph.org" }
+}
+</script>
+<!-- Schema Markup - Breadcrumbs -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Transitions", "item": "https://bjjgraph.org/Transitions/" },
+    { "@type": "ListItem", "position": 3, "name": "Kesa Gatame to Mount", "item": "https://bjjgraph.org/Transitions/Kesa-Gatame-to-Mount" }
+  ]
+}
+</script>
+
+
+
+
+<!-- Schema Markup - VideoObject (curated film-study clips) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kesa Gatame to Mount \u2014 Film Study",
+  "itemListElement": [
+    {
+      "@type": "VideoObject",
+      "position": 1,
+      "name": "Kesa gatame position, transition and submission",
+      "description": "Kesa Gatame to Mount film study: Kesa gatame position, transition and submission, taught by Merge Grappling coach.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XDBq3B6_P2Y/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/XDBq3B6_P2Y",
+      "url": "https://www.youtube.com/watch?v=XDBq3B6_P2Y",
+      "creator": { "@type": "Person", "name": "Merge Grappling coach" },
+      "duration": "PT138S"
+    },
+    {
+      "@type": "VideoObject",
+      "position": 2,
+      "name": "Pivot on chest to baseball slide Kesa Gatame",
+      "description": "Kesa Gatame to Mount film study: Pivot on chest to baseball slide Kesa Gatame, taught by Carlson Gracie Jr.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KV2JQHe9g0A/hqdefault.jpg",
+      "embedUrl": "https://www.youtube.com/embed/KV2JQHe9g0A",
+      "url": "https://www.youtube.com/watch?v=KV2JQHe9g0A",
+      "creator": { "@type": "Person", "name": "Carlson Gracie Jr" },
+      "duration": "PT48S"
+    }
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "name": "Kesa Gatame to Mount",
+  "description": "Kesa Gatame to Mount is a top-position advancement where you step or slide a leg across a supine opponent to move from the perpendicular scarf hold (kesa gatame) directly into full mount, the highest-scoring control in BJJ.",
+  "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
+}
+</script>
+
+
+
+<main class="content-wrapper" style="display: flex; flex-direction: column;">
+
+<div class="role-links">
+
+[[Kesa Gatame to Mount/Attacker|Play as Attacker]]
+[[Kesa Gatame to Mount/Defender|Play as Defender]]
+
+</div>
+
+<section id="overview" class="content-section">
+
+**Kesa Gatame to Mount is a top-position advancement where you step or slide a leg across a supine opponent to move from the perpendicular scarf hold (kesa gatame) directly into full mount, the highest-scoring control in BJJ.**
+
+The Kesa Gatame to Mount transition converts the perpendicular kesa gatame pin into the highest-value positional control in Brazilian Jiu-Jitsu. This advancement exploits the existing head and arm control from scarf hold as a launching platform to step or slide across the opponent's torso into full mount. The technique represents a natural progression when the bottom player's defensive reactions expose their far hip or when they turn away from the top player, creating the space necessary for the leg to clear the opponent's body.
+
+The primary challenge lies in managing the momentary vulnerability created when the top player must release or modify their head control to complete the step-over. During this brief window, the bottom player can execute bridge-and-roll mechanics, insert a knee to recover half guard, or create frames that block the mount entry entirely. The attacking player must recognize the optimal timing—typically when the opponent has committed weight to one side, exhausted a bridge attempt, or is defending a submission threat that occupies their arms and attention.
+
+Successful execution demands unbroken hip-to-hip connection throughout the entire transition. The critical error most practitioners make is lifting their hips during the step-over, creating space that the bottom player immediately exploits for escape. Instead, the top player should maintain constant downward pressure while sliding or stepping the leg across, using the far arm post for balance without transferring weight away from the opponent. The transition integrates naturally with submission threats from scarf hold—americana and arm triangle setups force defensive reactions that create ideal mounting opportunities as the bottom player's attention diverts to the submission threat.
+
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
+**Success Rate**: 55%
+
+</section>
+
+
+<section id="film-study" class="content-section">
+
+## Film Study
+
+<p class="section-subtitle">Watch Kesa Gatame to Mount in action — curated instructionals</p>
+
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=XDBq3B6_P2Y)
+
+<p class="clip-credit"><strong>Kesa gatame position, transition and submission</strong> — taught by Merge Grappling coach · 2:18 · <a href="https://www.youtube.com/watch?v=XDBq3B6_P2Y" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+<div class="film-clip">
+
+![](https://www.youtube.com/watch?v=KV2JQHe9g0A)
+
+<p class="clip-credit"><strong>Pivot on chest to baseball slide Kesa Gatame</strong> — taught by Carlson Gracie Jr · 0:48 · <a href="https://www.youtube.com/watch?v=KV2JQHe9g0A" rel="noopener">Watch on YouTube</a></p>
+
+</div>
+
+
+</section>
+
+
+<section id="possible-outcomes" class="content-section">
+
+## Possible Outcomes
+
+| Result | Position | Probability |
+|--------|----------|-------------|
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
+
+
+</section>
+
+<section class="content-section">
+
+## Attacker vs Defender
+
+| &nbsp; | Attacker | Defender |
+|--------|----------|----------|
+| **Focus** | Execute technique | Prevent or counter |
+| **Key Principles** | Maintain unbroken hip-to-hip contact throughout the entire t... | Recognize preparatory grip changes—far hip control and head ... |
+| **Options** | 7 execution steps | 4 defensive options |
+
+</section>
+
+<section id="attacker-summary" class="content-section">
+
+## Playing as Attacker
+
+[[Kesa Gatame to Mount/Attacker|→ Full Attacker Guide]]
+
+### Key Principles
+
+
+- Maintain unbroken hip-to-hip contact throughout the entire transition to eliminate escape space
+
+- Secure far hip control before releasing head control to anchor the opponent's lower body
+
+- Use submission threats as transition catalysts—americana and arm triangle setups divert defensive attention
+
+- Time the step-over immediately after the opponent's failed bridge attempt when their explosive capacity is depleted
+
+- Keep the stepping leg tight to the opponent's body during the arc to prevent knee insertion
+
+- Settle weight immediately upon clearing the opponent's body to establish mount before they can frame
+
+
+### Execution Steps
+
+
+- **Consolidate Scarf Hold Control**: Ensure tight kesa gatame positioning with your hip driving into the opponent's ribcage, their near a...
+
+- **Test Defensive Posture and Create Opening**: Apply increased hip pressure and observe the opponent's response. Threaten americana on the trapped ...
+
+- **Secure Far Hip Control**: Walk your near-side hand down to control the opponent's far hip, pants grip, or belt line while main...
+
+- **Shift Weight and Modify Head Position**: Transfer your weight forward through your hips while keeping chest pressure on the opponent's upper ...
+
+- **Execute Step-Over**: Swing your far leg over the opponent's body in a controlled arc, keeping your hips as low as possibl...
+
+- **Settle Mount Position**: As your leg clears their body, immediately drop your full weight down through both hips, pinning the...
+
+- **Establish Mount Control Grips**: Secure dominant upper body control by selecting the appropriate grip configuration based on the oppo...
+
+
+### Common Mistakes
+
+
+- **Lifting hips high during the step-over to clear the opponent's body**
+  - Consequence: Creates substantial space between your body and the opponent's torso, providing an immediate window for hip escape, knee insertion, or full bridge reversal that prevents mount establishment
+  - Correction: Keep hips as low as possible throughout the entire transition by using a tight controlled arc rather than a high step. Slide your knee across their belly rather than swinging your leg over in a wide arc.
+
+- **Releasing head control before securing far hip grip**
+  - Consequence: Opponent gains unrestricted hip mobility during the most vulnerable phase of the transition, enabling explosive bridge-and-roll or hip escape before you can complete the step-over
+  - Correction: Always establish far hip control with your near-side hand before loosening head control. The grip sequence is critical—anchor the hips first, then free the head control arm for posting.
+
+- **Attempting the transition against a fully framed and defensively active opponent**
+  - Consequence: Strong defensive frames block the step-over path and the opponent's full defensive attention makes counters highly likely, wasting energy and potentially losing scarf hold control entirely
+  - Correction: Create the opening first through submission threats, pressure cycling, or waiting for failed escape attempts before initiating the mount transition. Never force the step-over against established defenses.
+
+
+</section>
+
+<section id="defender-summary" class="content-section">
+
+## Playing as Defender
+
+[[Kesa Gatame to Mount/Defender|→ Full Defender Guide]]
+
+### Key Principles
+
+
+- Recognize preparatory grip changes—far hip control and head control release—as the earliest signals of the mount transition
+
+- Prioritize knee insertion for half guard recovery over explosive bridge attempts that may expose your back
+
+- Time your primary counter to the exact moment the attacker's leg lifts from the mat, when they have minimal base
+
+- Maintain frames on the attacker's hip and shoulder throughout the transition to block or delay the step-over
+
+- Use the attacker's submission threats as misdirection windows—appear to be defending the submission while positioning for the mount counter
+
+- Conserve explosive energy for the precise counter-timing moment rather than burning it on continuous resistance
+
+
+### Recognition Cues
+
+
+- Attacker's near-side hand walks down toward your far hip or belt line, establishing the anchor grip needed before the step-over
+
+- Attacker loosens or releases their head control grip, freeing the arm for posting during the transition
+
+- Forward weight shift through the attacker's hips with their chest pressure increasing on your upper body as they prepare to slide across
+
+- Attacker's far leg lifts slightly or repositions wider, indicating preparation for the swing-over arc
+
+- Reduced arm pressure on your trapped arm as the attacker redirects their near arm to hip control rather than arm isolation
+
+
+### Defensive Options
+
+
+- **Explosive bridge toward the attacker's stepping side at the moment their leg lifts from the mat** - When: When you detect the attacker's far leg lifting for the step-over and they have only one leg posted for base. The bridge must be timed precisely to the moment of maximum instability.
+
+- **Drive far-side knee upward and across the attacker's path to insert it between your bodies for half guard recovery** - When: As soon as you detect the step-over initiation through grip changes and weight shift. The knee must enter the path before the attacker's stepping leg clears your hip line.
+
+- **Establish strong frame on attacker's near hip with your free arm to physically block the step-over path** - When: Preemptively when you detect far hip grip establishment and suspect the mount transition is imminent. The frame must be established before the attacker releases head control.
+
+
+</section>
+
+
+<section id="variants" class="content-section hide-minimal">
+
+## Variations
+
+
+**Step-Over Mount Entry**: The classic method where the top player swings their far leg in a controlled arc over the opponent's body while maintaining chest-to-chest pressure. The stepping leg drives tight against the opponent's far hip to prevent space creation during the arc. (When to use: When you have established dominant scarf hold control and the opponent is relatively flat on their back with minimal framing ability, providing a clear path for the leg to swing over.)
+
+
+**Slide-Through Mount Entry**: A low-profile entry where the top player keeps their knee tight to the mat and slides it across the opponent's belly rather than swinging the leg over. This method reduces the airborne vulnerability window and maintains tighter hip contact throughout the transition. (When to use: When the opponent has active frames targeting your hip or when you want to minimize the transition window. Particularly effective against opponents with strong bridge-and-roll timing who capitalize on step-over momentum shifts.)
+
+
+**Walk-Around Mount Entry**: A gradual method where the top player walks their hips toward the opponent's head while maintaining chest pressure, then settles into mount as their body rotates past the perpendicular angle. This variant disguises the mount entry as a transition toward north-south. (When to use: Against opponents who are specifically defending the step-over by framing on the hip. The directional deception of appearing to move toward north-south bypasses their frame placement and allows mount entry from an unexpected angle.)
+
+
+
+</section>
+
+
+
+<section id="position-integration" class="content-section">
+
+## Position Integration
+
+The Kesa Gatame to Mount transition serves as a critical link in the top player's positional advancement chain, connecting the scarf hold control family to the mount hierarchy. This pathway represents one of the primary methods for converting a judo-derived pin into the highest-scoring position in sport BJJ. It integrates with the broader scarf hold offensive system where submission threats create the defensive reactions that open mount entries, and it feeds directly into the mount's own submission and advancement chains. Practitioners who develop this transition alongside their scarf hold submission attacks create a dual-threat system that forces the bottom player into unsolvable dilemmas—defending the submission opens the mount, and defending the mount transition opens the submission.
+
+</section>
+
+
+<section id="related-content" class="content-section">
+
+## Related Techniques
+
+
+- [[Positions/Side Control/Kesa Gatame]] - Source position from which this transition initiates
+
+- [[Positions/Mount]] - Target position representing successful transition completion
+
+- [[Positions/Half Guard]] - Counter outcome when defender inserts knee during step-over
+
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Related scarf hold variant with alternative arm positioning for mount entry
+
+- [[Transitions/Side Control to Mount]] - Parallel mount entry transition from side control positions
+
+- [[Transitions/Kuzure Kesa Gatame to Mount]] - Similar transition from modified scarf hold variant
+
+- [[Transitions/Bridge from Kesa Gatame]] - Primary defensive technique that counters this transition
+
+- [[Submissions/Americana]] - Submission threat that creates the opening for mount transition
+
+- [[Transitions/KOB to Mount]] - Alternative mount entry pathway through knee on belly
+
+
+</section>
+
+
+
+</main>

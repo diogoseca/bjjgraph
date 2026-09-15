@@ -56,7 +56,7 @@ description: "How to defend against Single Leg Takedown in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent shoots a single leg and their head is positioned on the inside of your captured leg - what counter-attack opportunity does this create?",
+      "name": "They shoot a single with their head inside your captured leg: what counter opens up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Inside head position exposes their neck to guillotine choke. Immediately secure a chin strap or arm-in guillotine grip by wrapping your near arm around their head and locking your hands together. Pull their head tight against your chest while sprawling your hips back to create downward pressure on their neck. From here you can either finish the standing guillotine, pull guard with the choke locked, or use the guillotine threat to force them to release your leg and defend the submission."
@@ -64,7 +64,7 @@ description: "How to defend against Single Leg Takedown in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What is the correct hip position and weight distribution when your opponent has captured your leg and is attempting to run the pipe?",
+      "name": "They're running the pipe on your leg: what hip position and weight distribution do you need?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips should be lowered and driven toward the mat with your weight centered over your standing foot, which should be positioned slightly behind your hip line for maximum base. Avoid leaning forward or backward - maintain a slight athletic crouch over the posting leg. The captured leg should have your knee bent to create slack in their grip rather than keeping it straight. Use your free hand to establish a whizzer on their near arm while your other hand crossfaces or posts on their head to prevent forward drive. Your center of gravity must stay directly above your standing foot's contact point with the mat."
@@ -72,7 +72,7 @@ description: "How to defend against Single Leg Takedown in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep single leg with outside head position and strong forward drive - the takedown seems inevitable. How do you minimize positional damage?",
+      "name": "They have a deep single with outside head position and will finish: how do you limit the damage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the takedown cannot be prevented, your goal shifts from defense to damage control. Secure a collar grip or overhook before hitting the mat. As you descend, immediately close your guard by wrapping your legs around their waist, converting their takedown into your closed guard rather than allowing them to pass to side control. If possible, establish a guillotine grip during the descent. The difference between landing in closed guard versus conceding side control is enormous - closed guard gives you offensive capability while side control puts you in a purely defensive position requiring energy-intensive escapes."
@@ -80,7 +80,7 @@ description: "How to defend against Single Leg Takedown in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "How do you time a sprawl correctly against a single leg shot, and what happens if your timing is early versus late?",
+      "name": "How do you time a sprawl against a single leg, and what happens if you're early or late?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal sprawl timing is the instant you feel or see the level change and forward commitment - your hips must start moving backward and downward before their hands connect with your leg. If your sprawl is early (before they commit), you telegraph your defense and they can adjust to a different attack or fake the shot entirely. If your sprawl is late (after they've secured the leg and begun driving), you lose the mechanical advantage and must rely on whizzer defense and scrambling rather than the clean sprawl. Train to react to the level change trigger rather than trying to predict when the shot is coming."
@@ -88,7 +88,7 @@ description: "How to defend against Single Leg Takedown in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What defensive adjustments should you make when your opponent consistently chains single leg attempts with double leg conversions?",
+      "name": "How do you defend an opponent who chains single leg shots into double leg conversions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against an opponent who chains single-to-double, you cannot fully commit your sprawl defense to one side because they will switch to the other leg. Instead, use a modified defense: sprawl with hips back but keep your base slightly more square than a full single-leg sprawl. Prioritize hand fighting and head position over pure hip extension. When they attempt the conversion, immediately re-sprawl to the new angle and pummel for underhooks. Consider preemptive strategies like guillotine grips or snap-downs that punish their level change before they can establish any leg control, forcing them to abandon the chain entirely."

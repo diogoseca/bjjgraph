@@ -76,7 +76,7 @@ description: "How to execute Harai Goshi in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "How does the sweeping leg action in Harai Goshi differ from a simple kick, and why is this distinction important?",
+      "name": "In Harai Goshi, how does the sweeping leg differ from a kick, and why does that matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sweeping leg action in Harai Goshi is a large, circular reaping motion using the entire leg (calf and thigh) to remove the opponent's base, rather than a striking kick with the foot. This distinction is important because a kick lacks the surface area and power to effectively remove a weight-bearing leg and can result in injury to both practitioners. The proper sweeping action creates continuous contact and force application that coordinates with hip rotation and upper body control to generate the throwing motion. The sweep should feel like scooping or harvesting rather than striking."
@@ -84,7 +84,7 @@ description: "How to execute Harai Goshi in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Explain the timing relationship between kuzushi (balance breaking), hip entry, and the leg sweep in Harai Goshi execution?",
+      "name": "In Harai Goshi, how do kuzushi, hip entry and the leg sweep relate in timing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The timing relationship follows a sequential progression: First, kuzushi must break the opponent's balance forward and slightly to the side, making them shift weight onto their toes. Second, as they react to this off-balancing by stepping forward or attempting to regain posture, you execute the hip entry, stepping across and rotating your hips into position while they are in motion. Third, the leg sweep begins as your hips make contact with their body, coordinating with your continued rotation and pulling action. The sweep must occur while they are still off-balance from the initial kuzushi and before they can establish a new base. The entire sequence flows as one continuous motion, with each element setting up the next."
@@ -92,7 +92,7 @@ description: "How to execute Harai Goshi in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "What are the key grip fighting priorities when setting up Harai Goshi in the gi versus no-gi contexts?",
+      "name": "What are the grip priorities for setting up Harai Goshi in the gi versus no-gi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In gi contexts, the priority is establishing a strong collar grip (typically with your throwing-side hand) that allows you to break posture and control their upper body rotation, combined with a sleeve or elbow grip that prevents them from posting or framing. These grips provide strong leverage points for the pulling action. In no-gi contexts, the priority shifts to securing an overhook or front headlock position on one side with an underhook or wrist control on the other, focusing on control of their shoulder and head positioning rather than their gi fabric. No-gi grips require tighter body connection and often necessitate closer range to prevent opponent from creating separation. Both contexts require maintaining grips throughout the throw to control the landing."
@@ -100,7 +100,7 @@ description: "How to execute Harai Goshi in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "How should you transition from a completed Harai Goshi throw to establishing side control, and what are the common errors in this transition?",
+      "name": "How do you follow a completed Harai Goshi into side control, and what errors are common?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The transition to side control begins before the throw is complete - you must maintain forward pressure and grip control throughout the opponent's descent, landing with your chest over their chest and your hips low. Your throwing-side hand (collar/overhook grip) controls their far shoulder to prevent them from turning into you, while your other hand controls their near arm. Common mistakes include: standing upright after the throw instead of following to the ground (allowing opponent to recover guard), releasing grips during the landing (losing control), landing too high on their chest (vulnerable to being rolled), and failing to establish immediate crossface or underhook control. The key is viewing the throw and ground position as one continuous technique rather than separate actions."
@@ -108,7 +108,7 @@ description: "How to execute Harai Goshi in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "What defensive reactions from your opponent indicate that your Harai Goshi setup is being recognized, and how should you adapt?",
+      "name": "Which defensive reactions show your Harai Goshi is read, and how should you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key defensive indicators include: opponent widening their stance and dropping their hips when you attempt to break their balance (indicates they feel the off-balancing), stepping backward or circling away from your throwing direction (recognizing hip entry), posting their far leg back when you begin rotation (defending the sweep), or establishing strong grips on your belt or legs (attempting to prevent hip rotation). Adaptations should include: transitioning to alternative throws that exploit their defensive movement (Kouchi Gari if they step back, Osoto Gari if they widen stance), feinting Harai Goshi to create openings for other techniques, or improving your kuzushi to commit them more fully before revealing your throwing intention. The ability to chain throws based on defensive reactions is essential for high-level application."

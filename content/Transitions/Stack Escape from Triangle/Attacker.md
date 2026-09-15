@@ -80,7 +80,7 @@ description: "Complete guide to executing the Stack Escape from Triangle in BJJ.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive action you should take when caught in a triangle before attempting the stack escape?",
+      "name": "What should you do first when caught in a triangle, before starting the stack escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tuck your chin immediately toward the trapped arm shoulder to create space between your neck and the opponent's thigh. This reduces arterial compression, buys time for the escape sequence, and prevents the choke from reaching critical blood flow restriction before you can establish grips and initiate the stack."
@@ -88,7 +88,7 @@ description: "Complete guide to executing the Stack Escape from Triangle in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Why is driving your hips forward and upward the critical mechanical movement in the stack escape rather than pulling backward?",
+      "name": "In the stack escape from a triangle, why drive your hips forward rather than pull back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward hip drive forces the opponent's body weight onto their shoulders and upper back, collapsing the triangle structure by changing the angle of their legs relative to your neck. This reduces squeezing power because their legs can no longer extend effectively, and it removes the perpendicular angle they need for optimal arterial compression. Pulling backward maintains the angle and allows them to extend."
@@ -96,7 +96,7 @@ description: "Complete guide to executing the Stack Escape from Triangle in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their hips to transition to an omoplata as you initiate the stack—how do you respond?",
+      "name": "They rotate their hips toward an omoplata as you start the stack escape—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pin their far shoulder to the mat with your free hand to prevent the rotation needed for the omoplata entry. Keep your trapped elbow tight to your body to deny the lever they need for the shoulder lock. If the rotation has already begun, circle away from the omoplata direction while maintaining forward stack pressure to deny completion of the pivot."
@@ -120,7 +120,7 @@ description: "Complete guide to executing the Stack Escape from Triangle in BJJ.
     },
     {
       "@type": "Question",
-      "name": "What determines whether you end up in half guard top or side control after a successful stack escape?",
+      "name": "After a successful stack escape from a triangle, what decides half guard top versus side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The speed and completeness of your leg clearance determines your final position. If you fully clear both legs and drive your knee across before the opponent recovers any leg entanglement, you achieve side control. If the opponent manages to recapture one leg during the clearance phase, you land in half guard top, which is still a successful escape requiring systematic passing to advance further."

@@ -64,7 +64,7 @@ description: "How to maintain invisible collar grip against hand fighting defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges explosively while pulling your wrist with two-on-one control—how do you counter this combined attack?",
+      "name": "Attacking the invisible collar: they bridge and pull your wrist two-on-one. How do you counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drop your hips and drive your chest weight forward into their upper back to eliminate the bridging platform. Simultaneously drive your hooks deeper toward their hips to counter the upward momentum. The bridge requires hip elevation which your forward pressure and active hooks can prevent. Without the bridge, their grip break becomes an arm-only pull that is much easier to resist with collar mechanics alone."
@@ -72,7 +72,7 @@ description: "How to maintain invisible collar grip against hand fighting defens
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the collar grip and transition to rear naked choke instead of continuing to fight for collar retention?",
+      "name": "Attacking the invisible collar: when do you abandon the collar grip and switch to the RNC?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to RNC when their two-on-one control is progressively winning the grip battle and you feel the collar slipping. The key timing is while both their hands are still committed to your wrist—release the collar and immediately swim your arm behind their neck before they can redirect their hands upward. If you wait until the collar is fully stripped, they will already be transitioning their hand defense upward."

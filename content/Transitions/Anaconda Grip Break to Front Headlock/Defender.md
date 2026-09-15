@@ -72,7 +72,7 @@ description: "Defend against anaconda grip break attempts from top position. Mai
     },
     {
       "@type": "Question",
-      "name": "Your opponent breaks your grip partially but you still have one hand on their neck—how do you recover?",
+      "name": "They partially break your anaconda grip but one hand is still on their neck: how do you recover?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not attempt to re-establish the anaconda by re-gripping with your separated hand. Instead, use the remaining hand position to immediately transition to a guillotine grip by hooking under their chin with your forearm. Drive chest pressure to maintain head control while you secure the guillotine grip with your other hand. The partial grip break has actually created the opening for guillotine that was not available while the arm was trapped in anaconda configuration."

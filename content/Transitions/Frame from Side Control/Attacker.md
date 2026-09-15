@@ -74,7 +74,7 @@ description: "Master the offensive frame technique from Side Control bottom. Com
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal forearm contact surface for creating sustainable frames under heavy side control pressure?",
+      "name": "Which forearm contact surface builds a sustainable frame under heavy side control pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The ulna bone edge of the forearm creates the strongest structural frame. Rotate your forearm so the bony edge contacts the opponent's hip bone or shoulder joint directly. This bone-on-bone contact creates a load-bearing structure that sustains under heavy pressure without muscular fatigue, unlike palm or finger contact which relies on grip strength and collapses rapidly. The key is skeletal alignment where force transfers through bone rather than through muscle contraction."
@@ -82,7 +82,7 @@ description: "Master the offensive frame technique from Side Control bottom. Com
     },
     {
       "@type": "Question",
-      "name": "Your opponent has fully settled their chest weight and you cannot insert a frame against their hip. How do you create the initial opening?",
+      "name": "They've settled chest weight and you can't insert a hip frame — how do you create the opening?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a small, controlled bridge to momentarily lighten their chest pressure. The bridge does not need to be explosive or high; even lifting your hips one inch off the mat shifts their weight distribution enough to create a frame insertion window. Time the bridge with their exhalation for maximum effect. As their weight shifts during the bridge apex, immediately insert your forearm frame against their hip before they re-settle. The bridge is a frame-enabling tool, not an escape attempt itself."
@@ -90,7 +90,7 @@ description: "Master the offensive frame technique from Side Control bottom. Com
     },
     {
       "@type": "Question",
-      "name": "Why should your elbow remain bent at approximately 90 degrees during framing rather than using a straight arm push?",
+      "name": "Why keep your framing elbow bent at 90 degrees instead of straight-arm pushing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A bent elbow frame creates a structural triangle between your forearm, upper arm, and torso that distributes force through skeletal alignment. A straight arm push relies on shoulder and tricep muscle strength which fatigues rapidly and, critically, creates an extended arm that the opponent can easily isolate for kimura or americana submissions. The 90-degree bend also keeps your elbow connected to your ribs, preventing the opponent from wedging between your arm and body to collapse the frame."
@@ -98,7 +98,7 @@ description: "Master the offensive frame technique from Side Control bottom. Com
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins walking their hips toward your head while you have a hip frame established. What adjustment do you make?",
+      "name": "They walk their hips toward your head while you hold a hip frame — what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their hip walk indicates a mount transition attempt. Immediately redirect your hip frame from their hip bone to blocking their near-side knee from stepping over your body. Drive your own near-side knee toward their advancing leg to create a knee shield barrier. The hip frame must transform into a mount prevention frame instantly because accepting mount is a worse outcome than losing the frame position. Use the space your existing frame created to execute a hip escape that gets your knee between the bodies."
@@ -106,7 +106,7 @@ description: "Master the offensive frame technique from Side Control bottom. Com
     },
     {
       "@type": "Question",
-      "name": "What is the two-point frame dilemma and why does it make the top player's consolidation more difficult?",
+      "name": "What is the two-point frame dilemma and why does it stall their side control consolidation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two-point frame dilemma uses simultaneous hip frame and shoulder frame to create a defensive structure the opponent cannot collapse with a single pressure adjustment. To collapse the hip frame, they must shift weight toward your hips, which lightens pressure on the shoulder frame and allows it to expand. To collapse the shoulder frame, they must drive chest weight forward, which lifts their hips and allows the hip frame to create space. This forces the opponent into a sequential frame-by-frame collapse rather than a single adjustment, buying time and creating multiple windows for hip escape."
@@ -114,7 +114,7 @@ description: "Master the offensive frame technique from Side Control bottom. Com
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs your framing wrist and begins pinning it to the mat. How do you respond without losing the frame?",
+      "name": "They grab your framing wrist and pin it to the mat — how do you respond without losing the frame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pull your elbow tight to your ribs and rotate your forearm inward, making the wrist grab mechanically weaker by changing the angle. If they persist, use their grip commitment as an escape window: their hands are now controlling your arm rather than maintaining crossface and underhook, which reduces their overall positional control. Execute a hip escape toward the side opposite their grip while they are occupied with your arm. If escape is not possible, maintain elbow-to-rib connection and grip your own belt or pants to prevent full arm isolation and kimura setup."

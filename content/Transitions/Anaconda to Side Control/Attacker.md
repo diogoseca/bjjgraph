@@ -114,7 +114,7 @@ description: "Master the attacking mechanics of the Anaconda to Side Control gat
     },
     {
       "@type": "Question",
-      "name": "How do you decide whether to maintain the anaconda grip or release to standard side control upon landing?",
+      "name": "On landing in side control, how do you decide whether to keep the anaconda grip or release it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Assess grip tightness immediately upon landing. If the anaconda loop remains tight with your forearm pressing against the opponent's carotid and their trapped arm still creating counter-pressure, maintain the grip and threaten the choke from side control — this creates a dual threat of submission and positional dominance. If the grip has loosened during the roll or the opponent has partially extracted their head, release the anaconda grip smoothly and transition to standard side control controls with crossface and underhook. Attempting to re-tighten a compromised grip wastes time and delays consolidation."

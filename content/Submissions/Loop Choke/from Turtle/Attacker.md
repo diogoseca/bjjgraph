@@ -76,7 +76,7 @@ description: "How to execute the Loop Choke from Turtle in BJJ. Attacking perspe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the loop choke from turtle attack, and how does the rolling mechanism create compression on these structures?",
+      "name": "What structures does the loop choke from turtle attack, and how does the roll compress them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The loop choke attacks the carotid arteries and jugular veins on both sides of the neck. The rolling mechanism creates bilateral compression by converting the attacker's body rotation into collar tension. As the attacker rolls, the collar forms a tightening loop around the neck, with the deep grip pulling one side of the collar across the carotid while the head control drives the opponent's neck into the opposite side of the collar. This rotational tightening creates compression on both carotid arteries simultaneously, restricting blood flow to the brain and causing rapid unconsciousness within 8-12 seconds of full bilateral compression."
@@ -84,7 +84,7 @@ description: "How to execute the Loop Choke from Turtle in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What indicators tell you the collar grip is deep enough to produce a blood choke rather than an air choke before you commit to the rolling finish?",
+      "name": "What tells you the collar grip is deep enough for a blood choke before you commit to the roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A properly deep grip has four fingers inserted past the trachea with knuckles reaching toward the back of the neck and the thumb pressing against the side of the neck. You should be able to feel the fabric of the collar wrapped around the lateral aspect of the neck, not just resting against the front of the throat. When you apply a light test pull, your partner should feel pressure on the sides of their neck rather than across the windpipe. If the grip feels like it is primarily compressing the front of the throat, it is too shallow and must be deepened before rolling. Additionally, the collar should feel snug around the side of the neck with minimal slack."
@@ -92,7 +92,7 @@ description: "How to execute the Loop Choke from Turtle in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a sit-out as you commit to the rolling motion - what adjustment prevents losing both the choke and your position?",
+      "name": "They start a sit-out as you commit to the roll: what saves both the choke and your position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you feel the sit-out beginning as you initiate the roll, immediately abort the rolling motion and redirect your weight back onto the opponent's upper back using your chest pressure. Maintain the deep collar grip at all costs, as it becomes a powerful control tool even if the choke attempt fails. Use the collar grip to snap their head back down toward the mat while sprawling your hips to drive weight through their shoulders. If they partially complete the sit-out, follow their hips with your body and use the collar grip to drag them back into turtle or transition to a front headlock position where the collar grip still threatens a modified loop choke finish."
@@ -100,7 +100,7 @@ description: "How to execute the Loop Choke from Turtle in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "At what point during the loop choke sequence does the technique become inescapable for the defender, and what defines this threshold?",
+      "name": "At what point does the loop choke from turtle become inescapable, and what defines that threshold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs once the rolling motion is fully committed and the collar loop has cinched tight around both sides of the neck with the attacker's body rotation complete. Specifically, when the attacker has completed the roll and ended up on their back with the collar grip tight, the opponent's head trapped in the loop, and the head control hand driving the opponent's face into the constricting collar, escape becomes functionally impossible. Before this point, the defender can still abort the choke by stripping grips, sitting out, or standing up. After the roll completes with proper grip depth, the only realistic option for the defender is to tap immediately."
@@ -108,7 +108,7 @@ description: "How to execute the Loop Choke from Turtle in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "What are the most common finishing errors that cause the loop choke from turtle to fail even when the grip appears correctly positioned?",
+      "name": "What common finishing errors make the loop choke from turtle fail despite a good-looking grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common finishing errors are: allowing slack in the collar during the rolling motion, which lets the opponent's neck slip partially free of the loop; releasing head control during the roll, allowing the opponent to withdraw their head from the tightening collar; executing a half-committed roll that stalls without completing the full rotation, resulting in no finishing pressure; and pulling the collar grip toward the ceiling after the roll rather than toward the hip, which opens the loop instead of tightening it. Each of these errors breaks the mechanical chain that converts body rotation into collar tension and results in a choke that feels tight to the attacker but has insufficient bilateral carotid compression to force the tap."
@@ -116,7 +116,7 @@ description: "How to execute the Loop Choke from Turtle in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your collar grip begins to slip during the rolling motion - what grip adjustments can save the choke attempt?",
+      "name": "Your collar grip starts slipping mid-roll on the loop choke: what grip adjustment saves it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the grip begins to slip mid-roll, immediately clamp your elbow tight to your ribs to prevent further slippage and drive your fist deeper into the collar by rotating your wrist inward. Do not try to re-grip mid-roll, as releasing and re-gripping will lose all collar tension. Instead, compensate by pulling the collar grip harder toward your hip while using your head-control hand to drive the opponent's neck more aggressively into the remaining collar tension. If the grip has slipped to the point where only your fingertips remain in the collar, abandon the choke attempt cleanly and use the remaining body contact to transition to back control or side control rather than forcing a failed choke from a compromised position."

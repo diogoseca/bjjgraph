@@ -348,7 +348,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent has established strong collar and sleeve grips and starts pulling your posture forward - what immediate adjustment do you make?",
+        "question": "Their collar and sleeve grips start pulling your posture forward — what do you adjust immediately?",
         "answer": "Drive your hips backward while simultaneously widening your knees to create a stable tripod base. Keep your chest elevated and look forward rather than down. This repositions your center of gravity behind their pulling force vector, making it mechanically inefficient for them to continue breaking your posture. Avoid fighting their pull with pure upper body strength, which is unsustainable and leads to exhaustion.",
         "answer_line": "Hips back, widen knees",
         "distractors": {
@@ -418,7 +418,7 @@
         }
       },
       {
-        "question": "Your opponent starts to hip escape and angle away as you pressure forward - what adjustment prevents guard recovery?",
+        "question": "Your opponent hip escapes and angles away as you pressure — how do you prevent guard recovery?",
         "answer": "Follow their hip movement with your body rather than letting them create angle. When they escape their hips, immediately cut your knee through the space they create toward their far hip. Use your chest to pin their near shoulder while your knee slides across their thigh line. This knee cut motion intercepts their guard recovery by occupying the space before they can insert frames or hooks. The key is reacting immediately to hip movement rather than allowing them to complete the escape and re-establish guard structure.",
         "answer_line": "Cut knee through the gap",
         "distractors": {
@@ -432,7 +432,7 @@
         }
       },
       {
-        "question": "What indicators tell you an opponent is about to attempt a pendulum or flower sweep from collar sleeve guard?",
+        "question": "What signs tell you a pendulum or flower sweep is coming from collar sleeve guard?",
         "answer": "Watch for hip elevation and angle creation as they shift their body perpendicular to yours. They will typically extend the sleeve-grip side leg while loading weight onto the opposite hip. The collar pull will intensify and change direction from straight back to angular, pulling you toward the sweeping direction. Their free leg will begin to hook behind your leg or elevate toward your shoulder. Recognizing these loading motions allows you to preemptively base out in the opposite direction of their sweep before they can generate momentum.",
         "answer_line": "Hip rise, angular collar pull",
         "distractors": {
@@ -748,7 +748,7 @@
         "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
           "gi": 9,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -762,14 +762,14 @@
         "transition": "Lapel to Spider Guard",
         "attempt_probability": {
           "gi": 6,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Lapel to Lasso Guard",
         "attempt_probability": {
           "gi": 5,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -790,7 +790,7 @@
         "transition": "Collar Sleeve Sweep",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -803,7 +803,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent starts to posture up strongly against your collar grip - what immediate adjustment do you make?",
+        "question": "Your opponent postures up hard against your collar grip — what adjustment do you make?",
         "answer": "Pull the collar at a 45-degree angle toward one of your shoulders rather than straight back toward your chest. This angular pull creates rotational force that is much harder to resist than a linear pull. Simultaneously elevate your hips and pump your legs to add lower body force to the pull. If they continue posturing, transition to a sweep that capitalizes on their backward weight shift, such as a flower sweep or sitting guard sweep, rather than fighting a losing strength battle.",
         "answer_line": "Angle pull 45°, pump hips",
         "distractors": {
@@ -873,7 +873,7 @@
         }
       },
       {
-        "question": "Your opponent breaks your sleeve grip and starts advancing their knee to pass - what recovery options do you have?",
+        "question": "They break your sleeve grip and drive their knee through to pass — how do you recover guard?",
         "answer": "Immediately hip escape away from their advancing knee while maintaining your collar grip anchor. Use your free hand to frame on their shoulder or bicep on the passing side to create space. If space allows, re-establish sleeve control before they complete the pass. If they have too much momentum, transition to lasso guard by threading your leg around their arm on the passing side, or transition to De La Riva by inserting a hook on their far leg. The collar grip gives you a connection point to work guard retention even when other grips are lost.",
         "answer_line": "Hip escape, frame, keep collar",
         "distractors": {
@@ -961,7 +961,7 @@
       }
     },
     {
-      "question": "Why does the same-side collar and sleeve pairing generate rotational rather than purely linear force?",
+      "question": "Why does the same-side collar and sleeve pairing create rotational rather than linear force?",
       "answer": "Because the two grips pull along different vectors, they form a couple, a pair of offset forces that produce torque rather than a single straight push or pull. The cross-collar grip draws one shoulder diagonally forward and down while the same-side sleeve grip anchors and extends that arm, so the opponent's upper body is twisted around its own spine instead of simply pulled forward. This rotational loading is far harder to resist than a linear pull because the opponent cannot brace against it by leaning into a single direction. The torque is what continually compromises the top player's square base and makes the position feel unstable even when their posture initially looks strong.",
       "answer_line": "Offset grips create torque",
       "distractors": {
@@ -989,7 +989,7 @@
       }
     },
     {
-      "question": "How does weight distribution and base tend to be organized between the two players in collar sleeve guard?",
+      "question": "How is weight and base organized for each player in collar sleeve guard?",
       "answer": "The bottom player keeps their hips elevated and mobile off the mat rather than flat, allowing constant angle changes that feed the rotational grips. The top player, meanwhile, must keep hips back and chest elevated with weight biased toward the free-hand side, because the sleeve grip denies them the ability to post that captured arm for base. This produces a characteristic asymmetry: one side of the top player's base is structurally weakened by the sleeve control, while the bottom player's floating hips continuously probe for the moment that base commits too far. The position is inherently unstable and rewards whoever better manages this shifting weight balance.",
       "answer_line": "Bottom floats hips, top base biased",
       "distractors": {
@@ -1017,7 +1017,7 @@
       }
     },
     {
-      "question": "How does collar sleeve guard relate to and transition between adjacent open guards like spider, lasso, and De La Riva?",
+      "question": "How does collar sleeve guard transition into spider, lasso, and De La Riva?",
       "answer": "Collar sleeve sits at a hub within the gi open-guard family and shares grip lineage with several neighbors, so the transitions are largely a matter of adding or converting a connection. Threading the free leg around the sleeve-gripped arm converts the position into lasso guard, while placing a foot in the bicep of that arm shifts it toward spider guard. Inserting a hook behind the opponent's leg blends it into De La Riva while retaining the collar and sleeve grips. Because the collar grip persists across all of these, it acts as the constant anchor that lets a player flow between guards as the opponent's positioning and passing pressure change.",
       "answer_line": "Collar grip anchors transitions",
       "distractors": {
@@ -1031,7 +1031,7 @@
       }
     },
     {
-      "question": "Why is constant hip movement and angle adjustment essential to sustaining collar sleeve guard for both players?",
+      "question": "Why must both players keep moving hips and changing angles in collar sleeve guard?",
       "answer": "A static collar sleeve guard lets the opposing player settle their weight, establish counter-grips, and begin a stable passing or defensive sequence, so stillness surrenders the position's core advantage. The rotational grip structure only produces its off-balancing torque when the bottom player's hips are actively shifting angles, typically fifteen to thirty degrees at a time, to keep reloading the collar pull from fresh directions. From the top, matching that movement is equally required, because failing to follow the changing angle allows the bottom player to create the perpendicular relationship that precedes most attacks. The position is therefore dynamic by nature: whichever player stops moving first generally cedes control of the engagement's timing.",
       "answer_line": "Stillness lets top settle, pass",
       "distractors": {

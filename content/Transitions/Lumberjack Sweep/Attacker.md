@@ -84,7 +84,7 @@ description: "How to execute Lumberjack Sweep in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent establishes a strong crossface while you're attempting the lumberjack sweep?",
+      "name": "How do you respond if they get a strong crossface during your lumberjack sweep attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the sweep attempt and transition to deep half guard or electric chair position. Use your underhook to swim deeper rather than fighting the crossface directly, as the crossface negates the sweeping leverage. Once in deep half, you can reset and attack with different techniques that work against the crossface pressure."
@@ -92,7 +92,7 @@ description: "How to execute Lumberjack Sweep in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What is the purpose of controlling the opponent's near side wrist or belt during the lumberjack sweep execution?",
+      "name": "Why control their near-side wrist or belt during the lumberjack sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlling their near side prevents them from posting that hand on the mat to block the sweep. If they can post their hand, they create a third point of contact with the ground, significantly strengthening their base and making the sweep extremely difficult to complete. Stripping or controlling this arm is essential for high-percentage sweep completion."
@@ -100,7 +100,7 @@ description: "How to execute Lumberjack Sweep in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "How does the lumberjack sweep integrate into a comprehensive half guard system, and what techniques should it chain with?",
+      "name": "Which half guard attacks should the lumberjack sweep chain with in a complete system?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lumberjack sweep functions as a primary sweeping option from half guard bottom that works particularly well against forward pressure. It chains naturally with deep half guard entries (when opponent defends with crossface), kimura attacks (when opponent posts their arm), electric chair submissions (when opponent sprawls back), and old school sweeps (when opponent shifts weight to defend lumberjack). Advanced players use the threat of the lumberjack sweep to create openings for these other techniques, developing a complete system where all options feed into each other based on opponent's defensive reactions."

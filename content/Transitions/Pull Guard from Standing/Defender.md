@@ -64,7 +64,7 @@ description: "Defend the guard pull from standing in BJJ. Recognition cues, spra
     },
     {
       "@type": "Question",
-      "name": "Your opponent has collar and sleeve grips and begins sitting backward — what is your immediate highest-percentage response?",
+      "name": "They have collar and sleeve grips and sit back to pull guard — best immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward immediately with low hips, pushing your chest into their shoulder while simultaneously driving your near knee toward the centerline between their closing legs. This forward pressure combined with the knee insertion prevents clean guard closure and converts the pull into a half guard or open guard scramble where you hold passing initiative. Do not reach down with your arms or bend at the waist, as this feeds directly into their guard with broken posture. The forward drive must be committed and explosive to arrive before their legs can lock."
@@ -80,7 +80,7 @@ description: "Defend the guard pull from standing in BJJ. Recognition cues, spra
     },
     {
       "@type": "Question",
-      "name": "What posture adjustments maximize your passing opportunities when an opponent successfully pulls guard on you?",
+      "name": "What posture should you take on top after an opponent pulls guard on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately after guard closure, establish combat base with one foot posted flat on the mat and one knee down, spine straight, head up, and hands positioned on their hips or biceps rather than the mat. This posture prevents them from breaking you down for submissions while maintaining your mobility for standing guard break sequences. Avoid settling onto both knees between their legs, as this surrenders the standing guard break option which is the highest-percentage escape from closed guard. Fight their grips immediately to prevent them from establishing the collar and sleeve control needed for their offensive sequences."
@@ -88,7 +88,7 @@ description: "Defend the guard pull from standing in BJJ. Recognition cues, spra
     },
     {
       "@type": "Question",
-      "name": "Your opponent pulls guard and immediately begins breaking your posture with collar grip and heel pressure — how do you respond in the first five seconds?",
+      "name": "They pull guard and break your posture with collar and heels — what do you do first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is posture recovery before their offense develops. Push your hips back while driving your chest forward and up to create structural resistance against their pulling forces. Place both hands firmly on their hips to create a frame that prevents them from closing distance, and focus on straightening your spine rather than fighting their grips initially. Once posture is recovered, systematically strip their most dangerous grip — usually the deep collar grip — using a two-on-one break. Only after establishing stable posture should you begin working toward guard opening, as attempting to open the guard from broken posture exposes you to immediate triangles and armbars."

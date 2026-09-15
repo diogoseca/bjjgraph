@@ -56,7 +56,7 @@ description: "How to defend against Turtle attacks in BJJ. Recognition cues, gri
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive priority when you feel your opponent establish chest contact on your back from turtle position?",
+      "name": "In turtle, what is your first defensive priority the moment they get chest contact on your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The immediate priority is preventing seat belt establishment by tucking your chin, tightening your elbows inside your knees, and preparing to fight any arm that threads over your shoulder or under your armpit. Do not wait for the grip to be clasped before reacting. Address the overhook arm the instant you feel it cross your shoulder with two hands on one grip to strip it explosively. Simultaneously, begin planning your escape direction by assessing which side the attacker's weight favors."
@@ -64,7 +64,7 @@ description: "How to defend against Turtle attacks in BJJ. Recognition cues, gri
     },
     {
       "@type": "Question",
-      "name": "Why is the granby roll most effective when the attacker's weight is committed forward rather than when they are sitting back?",
+      "name": "Why is the granby roll better when their weight is committed forward than when they sit back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The granby roll uses rotational inversion to escape, requiring space above your shoulders to initiate the backward shoulder roll. When the attacker's weight is forward and down on your upper back, their commitment in that direction means they cannot effectively follow your backward rotation, and their forward momentum works against them as you reverse direction. When the attacker sits back with their weight behind you, they can easily follow the granby roll by simply driving their weight forward into the rotation, maintaining control throughout and often ending in a superior back control position."
@@ -72,7 +72,7 @@ description: "How to defend against Turtle attacks in BJJ. Recognition cues, gri
     },
     {
       "@type": "Question",
-      "name": "Your attacker has established one hook but does not have a consolidated seat belt grip - what escape should you prioritize?",
+      "name": "They have one hook in but no consolidated seat belt. Which turtle escape should you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With one hook in but no tight upper body control, the Peterson roll becomes the highest percentage escape. Grab the attacker's far ankle on the hook side, explosively roll over your shoulder toward that ankle, and use the momentum to end in top position. The single hook actually assists your roll by providing a pivot point, and the lack of upper body control means the attacker cannot prevent the rotation. If the Peterson roll is not available, kick the hook out explosively while simultaneously turning to face the attacker before they can re-insert the hook or establish the seat belt."
@@ -80,7 +80,7 @@ description: "How to defend against Turtle attacks in BJJ. Recognition cues, gri
     },
     {
       "@type": "Question",
-      "name": "How should you chain escape attempts from turtle rather than resetting to a static position after a failed attempt?",
+      "name": "How should you chain turtle escapes instead of resetting after each failed attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After a failed escape attempt, immediately flow into a different escape direction rather than returning to static turtle. If a granby roll fails because the attacker follows your rotation, chain into a sit-through on the opposite side using the attacker's forward commitment against them. If a sit-through is blocked by the attacker's knee, immediately attempt a technical standup using the posting arm. The key principle is continuous motion: a failed escape that flows into another attempt is far more effective than resetting because each movement disrupts the attacker's control and creates micro-windows for the next attempt."
@@ -88,7 +88,7 @@ description: "How to defend against Turtle attacks in BJJ. Recognition cues, gri
     },
     {
       "@type": "Question",
-      "name": "What grip should you prioritize fighting first when the attacker begins establishing seat belt control?",
+      "name": "Which seat belt arm should you fight first as they establish it on your turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize fighting the choking-side overhook arm first because this arm crosses over your shoulder and controls the neck line, creating the foundation for rear naked choke and other finishing attacks. Stripping the overhook eliminates the immediate submission threat and significantly weakens the seat belt's ability to control your upper body rotation. Use two hands on one grip to strip the overhook arm explosively. The underhook arm is secondary because while it prevents you from turning away, it alone does not create immediate submission danger. Fighting the correct arm first buys maximum escape time with minimum defensive effort."

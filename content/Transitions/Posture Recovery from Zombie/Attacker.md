@@ -80,7 +80,7 @@ description: "Master the systematic approach to recovering posture from the Zomb
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why should you drive weight forward rather than pull backward when recovering posture from the Zombie?",
+      "name": "Recovering posture from Zombie, why drive weight forward rather than pull backward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lockdown is biomechanically designed to resist backward pulling - the bottom player's legs create maximum tension when you try to sit back or pull away. Driving forward changes the angle of force, compressing the lockdown mechanism and reducing its leverage. Forward pressure also flattens the opponent's shoulders to the mat, weakening their underhook and limiting their ability to maintain pulling control. The forward drive works with gravity rather than against the lockdown's designed resistance vector."
@@ -120,7 +120,7 @@ description: "Master the systematic approach to recovering posture from the Zomb
     },
     {
       "@type": "Question",
-      "name": "How do you differentiate between the opponent releasing lockdown intentionally versus lockdown naturally loosening during recovery?",
+      "name": "From Zombie top, how do you tell an intentional lockdown release from natural loosening?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "An intentional lockdown release feels sudden and is accompanied by the opponent's hips shooting backward to create space for closed guard recovery. Their legs will immediately begin working to close behind your back. A natural loosening from your recovery pressure is gradual, with tension slowly decreasing as your posture improves. The critical difference in your response: if you feel sudden release with hip movement, immediately drive hips forward to prevent guard closure. If you feel gradual loosening, continue your systematic recovery and transition to passing when the lockdown is fully defeated."

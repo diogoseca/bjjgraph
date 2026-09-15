@@ -74,7 +74,7 @@ description: "Master executing the inverted lasso to lasso guard recovery. Learn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary reason for maintaining constant lasso hook tension during the transition from inverted to upright guard?",
+      "name": "Why must lasso hook tension stay constant while recovering from inverted to upright lasso?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Any slack in the lasso hook, even momentarily, allows the opponent to extract their trapped arm. The lasso structure depends on continuous shin pressure against the tricep combined with the sleeve grip to create a closed system that cannot be escaped through linear pulling. Once slack appears, the opponent needs only 1-2 seconds to withdraw their arm completely, collapsing all guard control and leaving the bottom player in generic open guard with no grips."
@@ -82,7 +82,7 @@ description: "Master executing the inverted lasso to lasso guard recovery. Learn
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins driving forward with stacking pressure as you initiate the recovery from inverted lasso - how should you respond?",
+      "name": "They stack forward as you start recovering from inverted lasso: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the foot posted on their hip as a primary frame to maintain distance and prevent the stack from compressing your body. If the forward pressure is strong, convert their momentum into a sweep opportunity by redirecting their drive overhead using the pendulum return variant. Never abandon the transition attempt to fight the stack statically from the inverted position, as this plays into their pressure passing game while you remain in an energy-draining inverted posture."
@@ -90,7 +90,7 @@ description: "Master executing the inverted lasso to lasso guard recovery. Learn
     },
     {
       "@type": "Question",
-      "name": "Why should you establish the free leg hip post before initiating the rotation back to standard lasso?",
+      "name": "Why post the free foot on their hip before rotating back to standard lasso guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip post creates a distance control frame that prevents the opponent from closing space and stacking you during the vulnerable rotation phase. Without this frame, the opponent can drive forward freely and pin your hips as you rotate, blocking the transition entirely. The posted foot also serves as a pivot point that guides the rotation speed and direction, making the movement controlled rather than chaotic."
@@ -98,7 +98,7 @@ description: "Master executing the inverted lasso to lasso guard recovery. Learn
     },
     {
       "@type": "Question",
-      "name": "What determines the optimal timing for initiating the recovery from inverted to standard lasso guard?",
+      "name": "What determines the best moment to start recovering from inverted to standard lasso guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing is when the opponent's weight is neutral or shifting rather than committed in any direction. Initiating during forward pressure makes stacking likely, while initiating when they pull back risks them creating distance to extract the arm. Watch for moments when they adjust their grips, shift stance, or reset their base since these windows of neutral weight distribution allow the smoothest transition with the least counterattack risk."

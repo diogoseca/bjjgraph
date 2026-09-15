@@ -58,7 +58,7 @@ description: "How to defend and escape the Ten Finger Guillotine from Front Head
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the attacker is transitioning from front headlock control to the ten finger grip?",
+      "name": "How do you feel the attacker switching from front headlock to a ten finger guillotine grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cue is feeling the attacker's non-choking hand begin to reach underneath your torso to meet the choking hand. You may also feel the choking arm being adjusted deeper around your neck as the attacker positions the forearm blade across your throat centerline. Additionally, the attacker will often increase downward pressure on your head to break posture before committing to the grip change."
@@ -90,7 +90,7 @@ description: "How to defend and escape the Ten Finger Guillotine from Front Head
     },
     {
       "@type": "Question",
-      "name": "When defending from bottom position while the attacker applies the choke from top, what is your best escape strategy?",
+      "name": "You are on bottom under a ten finger guillotine from top: what is your best escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From bottom when the attacker has top position with the ten finger guillotine, your best strategy is to create frames against the attacker's hips and shoulders to prevent them from closing distance. Use a hip escape to create angle, then work to recover guard by getting your legs involved. If the attacker is in your closed guard attempting the finish, open guard and hip escape to one side to change the choking angle. Avoid lying flat—angle your body to reduce compression effectiveness."

@@ -509,5 +509,22 @@
       "duration": 1021,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Cranks applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "neck crank",
+      "spinal lock",
+      "spine lock",
+      "twister",
+      "jaw compression"
+    ],
+    "families": [
+      "Neck Crank",
+      "Spine Lock",
+      "Twister",
+      "Can Opener"
+    ]
+  }
 }

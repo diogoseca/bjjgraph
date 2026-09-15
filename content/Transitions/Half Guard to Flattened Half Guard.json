@@ -271,7 +271,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the correct order of control points to establish when flattening your opponent from half guard top?",
+        "question": "In what order do you establish control points to flatten your opponent from half guard top?",
         "answer": "Secure the crossface first, then deny the underhook, and only then walk your hips forward to collapse their frames. The crossface turns their head away and prevents near-side arm framing, and it comes first because it provides the most immediate structural advantage and enables everything else in the sequence. Deny the underhook by controlling their near arm with your far-side hand or a whizzer, then walk the hips forward to finish collapsing their frames.",
         "distractors": {
           "plausible": [
@@ -285,7 +285,7 @@
         "answer_line": "Crossface, underhook, then hips"
       },
       {
-        "question": "Your opponent has a strong knee shield preventing you from establishing chest-to-chest contact. How do you collapse it without using your hands?",
+        "question": "Their knee shield blocks chest contact—how do you collapse it without using your hands?",
         "answer": "Drive your hips and body weight directly into the knee shield's shin, using forward pressure to fold the shin flat against their body. Simultaneously pin their bottom knee to the mat with your near-side knee to remove the shield's structural foundation. The knee shield collapses under sustained body weight pressure, not from being pushed by hands, which would create space between your chest and theirs.",
         "answer_line": "Drive hips into shin, pin knee",
         "distractors": {
@@ -313,7 +313,7 @@
         "answer_line": "Small steps deny sweep momentum"
       },
       {
-        "question": "Your opponent is fighting hard for the underhook as you attempt to flatten them. What are your two primary responses?",
+        "question": "They fight hard for the underhook as you flatten them—what are your two primary responses?",
         "answer": "Whizzer their underhook arm while driving the crossface harder, or switch to a Kimura grip if they overcommit the arm. The strong whizzer (overhook) combined with increased crossface pressure limits their leverage and prevents them from turning to their side. The Kimura option targets their exposed arm when they overcommit, creating a submission threat that forces them to retract the arm and abandon the underhook battle.",
         "distractors": {
           "plausible": [
@@ -327,7 +327,7 @@
         "answer_line": "Whizzer plus crossface, or Kimura"
       },
       {
-        "question": "You have successfully flattened your opponent but they begin small hip escapes to create space. What is the optimal response?",
+        "question": "You've flattened them but they start small hip escapes—what is the optimal response?",
         "answer": "Follow their hip escape with your pressure by adjusting your angle to close the gap they create. Use their shrimping motion as a trigger to initiate your passing sequence rather than fighting to reset the flat position. Their hip escape creates the angle needed for a knee slice pass, so time your knee advancement to coincide with their movement rather than resisting it.",
         "answer_line": "Follow angle, time knee slice",
         "distractors": {
@@ -341,7 +341,7 @@
         }
       },
       {
-        "question": "What is the primary grip or control position that must be maintained throughout the entire flattening sequence?",
+        "question": "Which control must be maintained without interruption throughout the flattening sequence?",
         "answer": "The crossface must be maintained throughout the entire transition without interruption. Losing the crossface immediately allows the bottom player to turn to face you, re-establish frames, recover their knee shield, and return to active half guard. All other grip changes and position adjustments should happen sequentially while the crossface remains the constant anchor point.",
         "answer_line": "Maintain the crossface throughout",
         "distractors": {
@@ -355,7 +355,7 @@
         }
       },
       {
-        "question": "Your opponent dives underneath you for deep half guard as you begin walking your hips forward. How do you address this counter?",
+        "question": "They dive under you for deep half as you walk your hips forward—how do you counter?",
         "answer": "Immediately sprawl your hips back and away while driving your crossface pressure downward to pin their head. This prevents them from getting underneath your center of gravity. If they achieve deep half anyway, shift your focus to a whizzer and hip pressure to prevent the sweep rather than continuing the flattening sequence. Prevention is better than recovery, so recognize the early signs of the dive and stop hip advancement before they get under you.",
         "distractors": {
           "plausible": [
@@ -369,7 +369,7 @@
         "answer_line": "Sprawl hips back, drive crossface"
       },
       {
-        "question": "How should your weight distribution differ between chest pressure and hip pressure during the flattening process?",
+        "question": "How should chest pressure and hip pressure be balanced while flattening half guard?",
         "answer": "Chest and hip pressure must work as a unified system distributed across a broad base. Using only chest pressure allows hip escape opportunities because your hips are too high. Using only hip pressure leaves their upper body free to frame and create angles. Drive pressure through both simultaneously, with your hips staying low and heavy while your chest drives forward through the crossface connection. This broad pressure base limits their mobility in all directions.",
         "answer_line": "Chest and hips together, broad base",
         "distractors": {
@@ -500,7 +500,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first recognition cue that your opponent is beginning the flattening sequence from half guard top?",
+        "question": "What is the first cue that the top player is starting the flattening sequence?",
         "answer": "The primary early cue is the crossface establishment, where you feel their arm threading across your jaw and their shoulder pressure increasing on your face, turning your head away. This is the foundational control point for the entire flattening sequence. Other early signs include their hips beginning to walk forward and your knee shield starting to fold inward under increasing pressure.",
         "answer_line": "Feel their arm thread crossface",
         "distractors": {
@@ -514,7 +514,7 @@
         }
       },
       {
-        "question": "Your opponent has secured a crossface but you still have your knee shield intact. What is your defensive priority?",
+        "question": "They secure a crossface but your knee shield is intact—what is your defensive priority?",
         "answer": "Fight for the underhook on the trapped leg side while maintaining the knee shield. Accept the crossface as the lower-priority battle and invest your energy in establishing the underhook, which provides the structural support to maintain your side angle. With both the underhook and knee shield, you can initiate offensive sequences even with the crossface in place. Without the underhook, even a strong knee shield will eventually fold under sustained pressure.",
         "answer_line": "Fight underhook, keep knee shield",
         "distractors": {
@@ -542,7 +542,7 @@
         }
       },
       {
-        "question": "Your knee shield begins folding inward under your opponent's hip pressure. What is your layered defensive response?",
+        "question": "Your knee shield folds under their hip pressure—what is your layered defensive response?",
         "answer": "Immediately execute a hip escape to re-establish distance and reinsert the knee shield from the new angle. If the knee shield cannot be recovered, transition to a forearm frame on their shoulder or bicep to maintain some distance. If all frames fail, dive underneath for deep half guard entry before chest-to-chest contact is fully established. This layered sequence provides multiple fallback options rather than relying on a single defensive technique.",
         "answer_line": "Hip escape, frame, then deep half",
         "distractors": {

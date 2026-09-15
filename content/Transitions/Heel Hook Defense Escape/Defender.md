@@ -72,7 +72,7 @@ description: "Defend against heel hook escape attempts from Honey Hole top. Cont
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the heel hook attempt and transition to a kneebar during the opponent's escape?",
+      "name": "When should you abandon the heel hook and switch to a kneebar during their escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to kneebar when the opponent's rotational escape has loosened the triangle enough that their leg begins extending during extraction — specifically when their knee straightens past 90 degrees and moves away from their chest. At this point, heel hook access is compromised but the extended leg is perfectly positioned for kneebar control. The transition must be immediate; hesitation allows them to complete extraction."
@@ -88,7 +88,7 @@ description: "Defend against heel hook escape attempts from Honey Hole top. Cont
     },
     {
       "@type": "Question",
-      "name": "How do you maintain hip pressure when your opponent posts their free foot on your hip to create escape space?",
+      "name": "They post their free foot on your hip to escape the heel hook — how do you keep hip pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hook their free foot with your near-side hand and redirect it away from your hip, or use your elbow to knock the foot off your hip while maintaining your triangle with your legs. If you cannot remove the foot, drive your hips forward harder to overcome the pushing force they generate through the post. The critical principle is never allowing their free foot to stay posted long enough to generate sustained rotational force."

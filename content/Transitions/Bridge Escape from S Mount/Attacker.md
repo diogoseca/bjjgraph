@@ -114,7 +114,7 @@ description: "Execute the bridge escape from S Mount in BJJ. Step-by-step mechan
     },
     {
       "@type": "Question",
-      "name": "Your bridge disrupts the opponent's balance but they maintain wrist control on your near arm - what is your immediate response?",
+      "name": "Your bridge disrupts them but they keep wrist control on your near arm - immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Continue the hip escape aggressively while pulling your elbow back toward your hip with maximum force. The wrist grip is weaker than the full arm control they had in S Mount, so the hip escape creates enough distance to break the grip. If they follow your hip escape, use the momentum change to pull your arm free as they adjust. If the wrist grip holds, frame against their hip with your free hand and shrimp again before they can re-establish S Mount."

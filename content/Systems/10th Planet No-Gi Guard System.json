@@ -1,6 +1,6 @@
 {
   "name": "10th Planet No-Gi Guard System",
-  "description": "Master 10th Planet No-Gi Guard System with rubber guard, lockdown, and twister paths. Comprehensive framework from Eddie Bravo's innovative methodology with systematic sequences.",
+  "description": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -12,8 +12,8 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Advanced",
-  "summary": "The 10th Planet No-Gi Guard System is Eddie Bravo's gi-free guard framework that chains rubber guard, lockdown half guard, and the truck/twister series into a connected web of sweeps and submissions built on flexibility and unorthodox control.",
-  "overview": "Developed by Eddie Bravo in the early 2000s and propelled to fame by his match against Royler Gracie, this system grew out of a deliberate rejection of gi-dependent guard play. It integrates rubber guard positions (Mission Control, New York, Meathook), lockdown-based attacks from half guard, and the twister series from turtle positions. The system prioritizes control through unconventional grips and body positioning that cannot be replicated in gi-based training, making it particularly effective in MMA and no-gi competition.\n\nAt its core, the 10th Planet system challenges traditional guard concepts by utilizing extreme flexibility, hip mobility, and creative angles to break posture and create submission opportunities. The rubber guard series controls opponents through overhooks and leg control, while the lockdown system from half guard uses the legs to trap and sweep. The twister path provides a unique submission series from scrambles and turtle positions. Each subsystem connects through strategic transitions, creating a web of attacking options that keeps opponents constantly defending.\n\nThis system requires dedicated flexibility training and systematic drilling to master the unconventional positions. Practitioners must develop comfort in inverted positions, deep leg entanglements, and positions that feel unstable initially. The payoff is a guard game that opponents rarely encounter, providing significant tactical advantages through unfamiliarity and forcing defensive reactions that open submission opportunities.",
+  "summary": "This guide connects several 10th Planet guard ideas, including rubber guard and lockdown half guard.",
+  "overview": "This guide connects several 10th Planet guard ideas, including rubber guard and lockdown half guard. Study one control and one exit at a time. The linked Eddie Bravo instructional is particularly relevant to the rubber guard and bottom half guard portions.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Flexibility and hip mobility enable unconventional control positions",
     "Break posture through overhooks and leg control rather than gi grips",
@@ -471,6 +471,21 @@
           "Force it on untrained partners"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "the-ultimate-rubber-guard-by-eddie-bravo",
+      "title": "The Ultimate Rubber Guard",
+      "instructor": "Eddie Bravo",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard.",
+      "best_for": "Students exploring 10th Planet guard connections. Check the syllabus for your chosen branch; this is broader than a single finish.",
+      "study_focus": "For the omoplata route, start in Volume 1. Bottom half guard and further guard variations appear in Volume 4.",
+      "practice_tip": "Choose a control you can enter comfortably. Practise maintaining posture control without pulling your knee into a forced range."
     }
   ]
 }

@@ -82,7 +82,7 @@ description: "How to execute Truck Entry in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Why must the leg hook thread completely across the opponent's centerline rather than stopping halfway?",
+      "name": "For the truck entry, why must the leg hook thread fully past their centerline?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A shallow hook allows the opponent to extract their leg by simply pulling it backward or sitting back to guard because you lack the leverage to prevent this escape. Threading completely across the centerline positions your shin and knee on the far side of their body, creating a locked structure where their own body weight and skeletal structure trap your hook in place. This deep position also maximizes your control over their far hip, which is essential for completing the roll to Truck position."
@@ -90,7 +90,7 @@ description: "How to execute Truck Entry in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Your opponent rolls forward over their shoulder during your Truck Entry attempt - how should you respond?",
+      "name": "They roll forward over their shoulder during your truck entry—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your leg hook connection and follow their forward roll rather than fighting against it. If you stay attached with your hook engaged, their roll often delivers them directly into Truck position as they complete the rotation. The key is to keep chest pressure and not release your connections - their escape attempt becomes your entry mechanism. This principle of following opponent momentum is fundamental to Truck entries."
@@ -106,7 +106,7 @@ description: "How to execute Truck Entry in BJJ. Attacking perspective with setu
     },
     {
       "@type": "Question",
-      "name": "Your opponent flattens their hips to the mat as you attempt to thread the hook - what adjustment do you make?",
+      "name": "They flatten their hips as you thread the truck hook—what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent flattens their hips to deny the leg hook, you have two primary options. First, apply strong shoulder pressure to one side while pulling their far arm to force them onto their side, which re-opens the hip space for threading. Second, abandon the Truck Entry temporarily and switch to alternative turtle attacks such as Crucifix entry on the exposed arm or transition to front headlock position. The flattened hip defense is effective but leaves the opponent vulnerable to other attacks."
@@ -428,8 +428,8 @@ Truck Entry is generally a safe transition technique with minimal injury risk du
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Transitional mechanics for achieving Truck Position from various positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Entry mechanism to twister series</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Twister-System" data-cta="related-system-card" data-system-slug="systems/twister-system" data-system-name="Twister System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Twister System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Transitional mechanics for achieving Truck Position from various positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-No-Gi-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">10th Planet No-Gi Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Entry mechanism to twister series</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

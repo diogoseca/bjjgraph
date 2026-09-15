@@ -64,7 +64,7 @@ description: "How to defend against High Elbow Guillotine Variation in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your chin is tucked but you feel the attacker walking their grip higher - what adjustment prevents the finish?",
+      "name": "Your chin is tucked but they walk the grip higher — what adjustment stops the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your hands to directly attack the attacker's choking wrist, attempting to strip it downward away from your chin while simultaneously driving your near-side shoulder into the space between your neck and their forearm. Creating even a small wedge with your shoulder bone disrupts the seal needed for carotid compression. Combine this with posture recovery attempts whenever their grip loosens."
@@ -80,7 +80,7 @@ description: "How to defend against High Elbow Guillotine Variation in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "The attacker has the high elbow locked and you feel carotid compression beginning - what is your emergency response?",
+      "name": "The high elbow is locked and you feel carotid pressure — what is your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately if you feel blood flow restriction to your brain. If you choose to continue defending, your only viable option is to aggressively circle your body away from the choking arm side to collapse the scissoring angle, accepting the risk of back exposure. Simultaneously strip the choking hand with both hands. This is a last-resort defense with low success probability against a properly locked high elbow finish."

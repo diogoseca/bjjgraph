@@ -80,7 +80,7 @@ description: "Execute the Frame and Shrimp escape from S Mount bottom. Master fr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent has tight hip-to-shoulder pressure and you cannot create any frame space - what adjustment creates the initial opening?",
+      "name": "Under S mount with no space to frame, what creates the initial opening?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a short bridge upward (not a full bridge escape) to momentarily lift the opponent's hips and create a split-second gap between their hip and your shoulder. Your frame hand must enter this gap during the bridge, not after the opponent settles back. The bridge provides maybe half a second of reduced pressure, which is enough to wedge your forearm into position if the timing is precise."
@@ -96,7 +96,7 @@ description: "Execute the Frame and Shrimp escape from S Mount bottom. Master fr
     },
     {
       "@type": "Question",
-      "name": "During the escape, your opponent momentarily releases your wrist to readjust their grip - how do you capitalize on this window?",
+      "name": "They release your trapped wrist to regrip in S mount — how do you use that window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pull your trapped arm back tight to your body and re-grip your collar with maximum commitment. Simultaneously execute the frame and shrimp with full explosiveness since the opponent has temporarily lost their primary arm control. This is your highest-percentage escape window, giving you one to two seconds of reduced resistance before they re-establish control."
@@ -112,7 +112,7 @@ description: "Execute the Frame and Shrimp escape from S Mount bottom. Master fr
     },
     {
       "@type": "Question",
-      "name": "Your frame creates space but the opponent immediately follows your hip movement and closes the distance - what chain technique solves this problem?",
+      "name": "Your shrimp from S mount is followed and space closes — what chain solves this?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Execute a second and third immediate shrimp in the same direction without resetting your frame position. Rapid chained shrimps create cumulative distance faster than the opponent can follow from their perpendicular position, because their narrow S Mount base makes lateral tracking mechanically difficult. After two to three rapid shrimps, sufficient space should open for knee insertion."
@@ -120,7 +120,7 @@ description: "Execute the Frame and Shrimp escape from S Mount bottom. Master fr
     },
     {
       "@type": "Question",
-      "name": "Where exactly should your free hand frame against the opponent, and why is this specific placement critical?",
+      "name": "Escaping S mount, where should your free hand frame and why does that spot matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame directly on the opponent's near hip bone at the iliac crest, not their thigh, chest, or upper body. The hip bone is the structural center of their base and the origin point of their weight transfer. Framing here mechanically prevents them from shifting their hips to follow your shrimp. Framing on their upper body allows independent hip adjustment, defeating the purpose entirely."

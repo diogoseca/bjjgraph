@@ -74,7 +74,7 @@ description: "How to execute Fireman's Carry in BJJ. Attacking perspective with 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical component of the Fireman's Carry that determines whether the lift will be successful?",
+      "name": "What single element most determines whether the Fireman's Carry lift succeeds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The depth of the penetration step is the most critical component. Your lead foot must step deep between the opponent's legs, positioning your hips directly underneath theirs and lower than their center of gravity. Without proper penetration, you cannot generate sufficient lifting leverage, and the technique will fail regardless of how strong you are. The penetration step must place your shoulder in contact with their midsection and your hip below theirs."
@@ -114,7 +114,7 @@ description: "How to execute Fireman's Carry in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What are the key differences between executing a Fireman's Carry against an upright opponent versus one who has lowered their level?",
+      "name": "How does the Fireman's Carry differ against an upright opponent versus one who levels down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against an upright opponent, the Fireman's Carry is highly effective because the height differential allows for deep penetration and efficient leverage for the lift. However, against an opponent who has lowered their level and dropped their hips, the technique becomes much less effective and should generally be abandoned in favor of other options. When the opponent lowers their level, you cannot achieve the necessary depth of penetration, the height differential disappears making the lift mechanically inefficient, and they have a stronger base that resists the lifting motion. The Fireman's Carry specifically exploits an upright posture and high center of gravity, so technique selection should adapt to the opponent's positioning."

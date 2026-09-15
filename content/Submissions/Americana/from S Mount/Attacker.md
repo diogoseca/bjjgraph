@@ -78,7 +78,7 @@ description: "Learn to execute the Americana shoulder lock from S Mount. Detaile
     },
     {
       "@type": "Question",
-      "name": "Your opponent stops moving and becomes rigid as you apply the Americana rotation - what does this indicate and how should you respond?",
+      "name": "They go rigid as you rotate the Americana — what does this indicate and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rigidity and stillness typically indicate the opponent has reached their pain threshold and the joint is approaching its mechanical limit. They may be trying to endure rather than tap. At this point, slow your application speed and hold steady pressure rather than increasing force. Watch for verbal distress or involuntary facial grimacing as additional indicators the tap is imminent. In training, verbally ask if they want to tap rather than pushing further."
@@ -110,7 +110,7 @@ description: "Learn to execute the Americana shoulder lock from S Mount. Detaile
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs their own belt to defend the Americana grip - how do you adjust to break this defense?",
+      "name": "They grab their own belt to defend your Americana from S Mount — how do you break it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your figure-four grip and shift your hip pressure forward to increase the pin on their shoulder. Use small pulsing hip drives to fatigue their defensive grip while you work the wrist free. Alternatively, slide your wrist-controlling hand to their fingers and peel the grip one finger at a time starting with the pinky. If the belt grip holds, consider transitioning to the armbar by working to extend their arm, since the defensive grip often straightens the elbow into armbar position."

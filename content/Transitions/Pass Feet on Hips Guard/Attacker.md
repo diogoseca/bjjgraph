@@ -80,7 +80,7 @@ description: "Complete attacking guide to passing feet on hips guard in BJJ. Gri
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the optimal grip positions for initiating the pass against feet on hips guard and why are they critical?",
+      "name": "Which grips start the pass against feet on hips guard, and why are they critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Secure bilateral pants grips at or just below both knees using a pistol grip or four-finger grip inside the pants material. These specific grips are critical because the knees represent the fulcrum point of the guard player's leg extension—controlling the knees neutralizes the pushing power of the feet-on-hips frames without requiring you to fight the strongest muscles in the opponent's legs. Gripping higher on the thighs lacks sufficient mechanical advantage, while gripping at the ankles allows the guard player to maintain frame integrity."
@@ -88,7 +88,7 @@ description: "Complete attacking guide to passing feet on hips guard in BJJ. Gri
     },
     {
       "@type": "Question",
-      "name": "Your opponent has strong sleeve grips on both of your wrists while maintaining feet on hips - what is your first priority before attempting the pass?",
+      "name": "They have both your sleeves plus feet on hips: what is your first priority before passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the sleeve grips before addressing the leg frames. Sleeve control enables the guard player to transition to spider guard, lasso guard, or collar-sleeve guard, all of which are significantly harder to pass than basic feet on hips. Break grips by circling your wrists outward against their thumbs, pulling your arms sharply downward, or using a two-on-one grip break. Only after freeing your hands should you reach for pants grips at the knees to begin the passing sequence."
@@ -96,7 +96,7 @@ description: "Complete attacking guide to passing feet on hips guard in BJJ. Gri
     },
     {
       "@type": "Question",
-      "name": "During the pass, the guard player begins threading their leg for a De La Riva hook under your lead knee - how do you respond?",
+      "name": "They thread a De La Riva hook under your lead knee mid-pass: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately backstep your lead leg away from the hooking leg by pulling it backward and circling it outside their reach. Simultaneously drive forward pressure through your pants grips to flatten their hips against the mat, reducing their rotational ability needed to establish the hook. If the hook is partially set, use your same-side hand to strip it by pushing their foot off your hip or calf before it locks in. Speed of recognition is critical—once a deep De La Riva hook is established, you must switch to De La Riva passing methodology."
@@ -104,7 +104,7 @@ description: "Complete attacking guide to passing feet on hips guard in BJJ. Gri
     },
     {
       "@type": "Question",
-      "name": "What is the critical timing window for completing the frame-breaking sequence against feet on hips guard?",
+      "name": "When is the best timing to break the frames of feet on hips guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal passing windows appear during three specific moments: when the guard player adjusts their foot placement on your hips, when they release one hand to fight for grips on your sleeves or collar, and when they begin transitioning to another guard configuration like De La Riva or spider guard. During each of these moments, the bilateral symmetry of their pushing frames is momentarily compromised, creating asymmetry you can exploit to break the first frame. Attacking during settled, symmetrical frames against a guard player with established grips is the lowest-percentage timing."
@@ -112,7 +112,7 @@ description: "Complete attacking guide to passing feet on hips guard in BJJ. Gri
     },
     {
       "@type": "Question",
-      "name": "You have broken one frame and pinned the leg, but the opponent is fighting hard with their remaining foot and threatening to re-establish guard - what options do you have?",
+      "name": "You broke and pinned one frame but their other foot fights on: what are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With one frame broken and pinned, you have three primary options depending on the remaining foot's position. First, redirect the second foot with your free hand using the same lateral clearing motion, completing the toreando-style pass. Second, step your lead knee inside the remaining frame and transition to a knee cut passing position, using the already-pinned leg as your passing foundation. Third, if the guard player is pushing strongly with the remaining foot, use their extension against them by stepping laterally around the extended leg into a leg drag position. The key is maintaining control of the pinned leg while choosing your option."
@@ -120,7 +120,7 @@ description: "Complete attacking guide to passing feet on hips guard in BJJ. Gri
     },
     {
       "@type": "Question",
-      "name": "Why should you maintain constant forward pressure rather than retreating and re-engaging when your initial frame break fails?",
+      "name": "Why keep forward pressure instead of retreating after a failed frame break?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Retreating allows the guard player to reset their frames to full extension with optimal bilateral symmetry, re-establish grip control, and potentially transition to a more dangerous guard like spider or lasso. Constant forward pressure keeps their frames compressed at sub-optimal extension lengths where their pushing power is reduced. It also prevents them from sitting up to fight for grips or from hip-escaping to create angles. The recovery time after a failed frame break while maintaining pressure is seconds, while re-engaging from distance requires restarting the entire sequence."

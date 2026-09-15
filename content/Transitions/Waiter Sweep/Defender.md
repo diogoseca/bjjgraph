@@ -56,7 +56,7 @@ description: "How to defend against the Waiter Sweep in BJJ. Recognition cues, d
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important early defensive action when you feel an opponent securing an underhook from butterfly guard?",
+      "name": "What is the most important early action when they secure an underhook from butterfly guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately fight the underhook with a whizzer, re-pummel to your own underhook, or swim your arm through to deny inside position. The underhook is the most critical component of the Waiter Sweep setup and the earliest intervention point. Allowing it to be established unopposed gives the opponent the primary lifting mechanism and makes all subsequent defense significantly more difficult and energy-intensive."
@@ -64,7 +64,7 @@ description: "How to defend against the Waiter Sweep in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Why is leaning forward with your weight on your hands a dangerous instinct when you feel the opponent pulling you?",
+      "name": "Why is posting forward on your hands dangerous when they pull you in butterfly guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Leaning forward loads your weight onto the opponent's butterfly hooks, which is exactly the weight distribution the sweep requires to succeed. The opponent is pulling you forward specifically to load your mass onto their elevation platform. By posting forward on your hands, you are helping complete the sweep setup. Instead, you should sit your hips back and widen your base laterally, denying the forward weight loading the opponent needs."
@@ -72,7 +72,7 @@ description: "How to defend against the Waiter Sweep in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "When the sweep is already in motion and you post your far arm to stop it, what follow-up threat should you immediately prepare for?",
+      "name": "You post your far arm to stop the Waiter Sweep: what follow-up threat must you expect?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must immediately prepare for a back take. When you post your far arm, it extends away from your body and creates space between your arm and torso that the opponent can exploit by releasing their overhook and swimming around your back. Your posted position turns your body away from the opponent, exposing your back. As you post, keep your elbow close and be ready to retract the arm quickly if you feel the opponent releasing grips to transition to your back."
@@ -80,7 +80,7 @@ description: "How to defend against the Waiter Sweep in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "How do you decide between sprawling back and driving forward as defensive responses to the Waiter Sweep?",
+      "name": "Defending the Waiter Sweep, how do you choose between sprawling back and driving forward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sprawling back is the safer defensive option that removes hook leverage but creates distance the opponent can use for guard transitions like single leg X or deep half. Driving forward is a counter-offensive response that works when timed with the opponent's commitment to the lift—using pressure to flatten them before the rotation completes. Choose sprawling when the sweep is already well-initiated and you need to kill momentum. Choose forward pressure when you recognize the setup early and want to prevent the sequence from starting while potentially initiating a pass."
@@ -88,7 +88,7 @@ description: "How to defend against the Waiter Sweep in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "What grip should you prioritize stripping if you can only address one of the opponent's grips before the sweep?",
+      "name": "If you can strip only one grip before the Waiter Sweep, which should it be?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the overhook or collar grip on the non-underhook side. While the underhook provides the lifting mechanism, the overhook side provides the critical anti-posting control that prevents you from bracing against the sweep. Without the overhook control, you can freely post your far arm to block the rotation even if the underhook lift succeeds. The underhook alone without opposite-side control creates a one-dimensional sweep that is significantly easier to defend through posting."

@@ -74,7 +74,7 @@ description: "Master the attacker perspective for transitioning from Inside Sank
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent turns into you from Inside Sankaku bottom attempting to clear the knee line - how do you convert this into a Saddle entry?",
+      "name": "They turn into you from Inside Sankaku bottom to clear the knee line. How do you enter the Saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their rotational momentum to power your hip switch. As they turn toward you, release your outside leg from the figure-four and drive it across their thigh while rotating your hips to perpendicular alignment. Their turning motion actually assists your transition because it brings their body closer to the perpendicular angle you need. Your inside leg maintains the hook throughout to prevent them from completing their escape during the reconfiguration."
@@ -82,7 +82,7 @@ description: "Master the attacker perspective for transitioning from Inside Sank
     },
     {
       "@type": "Question",
-      "name": "What is the single most critical structural element that must be established for the Saddle to be functional rather than just a loose leg entanglement?",
+      "name": "What structural element is most critical for a functional Saddle rather than a loose entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Inside position with both legs controlling the opponent's trapped limb. Without both legs positioned on the inside of the opponent's leg, the Saddle lacks the bilateral structural cage that prevents escape. Perpendicular alignment and hip pressure are important, but they can be re-established through adjustments. If you lose inside position, the entire control structure collapses and the opponent can rotate free."
@@ -90,7 +90,7 @@ description: "Master the attacker perspective for transitioning from Inside Sank
     },
     {
       "@type": "Question",
-      "name": "During the hip switch, you feel your opponent beginning to extract their trapped leg through the momentary gap in your control - what immediate adjustment prevents the escape?",
+      "name": "They start extracting the leg through the gap during your hip switch to Saddle. What stops it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your inside leg hook deeper under their thigh and pull your knee toward your own chest to cinch the baseline control tighter. Simultaneously accelerate your hip rotation to close the gap faster rather than pausing to fight the extraction. Your hips driving forward into the leg should re-compress the space they created. If extraction continues despite this, abort the transition and re-establish the full Inside Sankaku figure-four before they complete the escape."
@@ -98,7 +98,7 @@ description: "Master the attacker perspective for transitioning from Inside Sank
     },
     {
       "@type": "Question",
-      "name": "What grip configuration should you establish first when consolidating Saddle control after the transition?",
+      "name": "Which grips should you establish first when consolidating Saddle after the transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish structural control grips before finishing grips. Your outside hand should control the opponent's ankle to prevent knee rotation, while your inside hand frames on their hip or controls their pants to maintain distance management. These positional grips stabilize the Saddle before you transition to heel control. Only after perpendicular alignment, hip pressure, and frame clearance are all secured should you move your inside hand to cup the heel for the finishing sequence."
@@ -106,7 +106,7 @@ description: "Master the attacker perspective for transitioning from Inside Sank
     },
     {
       "@type": "Question",
-      "name": "Your opponent is defending Inside Sankaku by staying completely still and hiding their heel - how do you create the opening needed for the Saddle transition?",
+      "name": "They stay still and hide the heel in Inside Sankaku. How do you create the Saddle opening?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Threaten the heel hook or toe hold to force a defensive reaction. Apply gradual pressure toward the exposed ankle area, which compels them to move their hips or commit their hands to heel protection. Any defensive movement they make creates the angle or timing window needed for the hip switch. Alternatively, use the post-and-switch variant to proactively walk your hips into perpendicular alignment without relying on their reaction."
@@ -114,7 +114,7 @@ description: "Master the attacker perspective for transitioning from Inside Sank
     },
     {
       "@type": "Question",
-      "name": "What is the correct direction of force for your hips during the transition from Inside Sankaku to Saddle?",
+      "name": "Transitioning from inside sankaku to saddle, which direction should your hips drive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips should drive forward and laterally in an arc toward perpendicular alignment with the opponent's body. The force direction transitions from the Inside Sankaku angle, where your hips face roughly the same direction as the opponent's trapped leg, to a perpendicular angle where your hips press directly into the side of their thigh. Throughout this arc, hip pressure should remain constant against the trapped leg, sliding around it rather than lifting off."

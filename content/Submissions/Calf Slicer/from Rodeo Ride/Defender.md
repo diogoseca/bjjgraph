@@ -58,7 +58,7 @@ description: "Defend the Calf Slicer from Rodeo Ride in BJJ. Recognition cues, e
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a calf slicer attempt is beginning from rodeo ride, and why is early detection critical?",
+      "name": "What is the earliest cue a calf slicer is starting from rodeo ride, and why detect it early?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the attacker shift their hip weight upward toward your shoulders, freeing their near-side leg from its base position. This weight shift must happen before the shin can be threaded behind the knee. Early detection is critical because the defense window closes rapidly—once the shin is behind the knee and the figure-four begins, escape probability drops from approximately 70% to below 30%. The difference between defending in the first second versus the third second is often the difference between easy escape and forced tap."
@@ -66,7 +66,7 @@ description: "Defend the Calf Slicer from Rodeo Ride in BJJ. Recognition cues, e
     },
     {
       "@type": "Question",
-      "name": "Why should you roll toward the attacker rather than away when caught in a calf slicer, and what mechanical advantage does this create?",
+      "name": "Caught in a calf slicer, why roll toward the attacker rather than away, and what does that do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rolling toward the attacker collapses the compression angle by reducing the distance between your calf and thigh, which decreases the effective force of the compression lock. It also disrupts the attacker's base and figure-four alignment since they are designed to work with you moving away from them. Rolling away stretches the compression further and assists the attacker's hip extension force. Additionally, rolling toward creates a scramble situation where the close quarters make it difficult for the attacker to maintain the mechanical structure needed to finish the submission."
@@ -74,7 +74,7 @@ description: "Defend the Calf Slicer from Rodeo Ride in BJJ. Recognition cues, e
     },
     {
       "@type": "Question",
-      "name": "What are the specific injury risks of the calf slicer that make early tapping essential during training?",
+      "name": "What calf slicer injury risks make early tapping essential in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The calf slicer threatens MCL and LCL knee ligament tears from hyperextension (4-12 week recovery, potentially requiring surgery), meniscus damage from rotational force during escape attempts (6-16 weeks, often requiring arthroscopic surgery), calf muscle tears from direct compression (2-6 weeks), and posterior knee capsule strain (2-4 weeks). Unlike chokes where you feel the submission approaching and have several seconds to escape, the calf slicer can cause structural knee damage before the full pain signal registers. Tapping early in training is not weakness—it is necessary self-preservation for long-term training ability."
@@ -82,7 +82,7 @@ description: "Defend the Calf Slicer from Rodeo Ride in BJJ. Recognition cues, e
     },
     {
       "@type": "Question",
-      "name": "How does keeping your legs relatively straight in turtle position affect the attacker's ability to set up the calf slicer?",
+      "name": "In turtle, how does keeping your legs fairly straight affect their calf slicer setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keeping your legs relatively straight denies the attacker the knee bend angle they need to thread their shin behind your knee. The calf slicer requires the target leg to be bent at approximately 90 degrees or more to create sufficient space behind the knee for shin insertion. With straighter legs, the attacker must first force the knee to bend before they can begin the entry, which requires additional time and gives you more opportunities to recognize and defend the attempt. The trade-off is that straighter legs reduce your base width, so maintain enough bend for stability while keeping the angle shallow enough to prevent easy threading."

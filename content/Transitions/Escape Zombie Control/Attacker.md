@@ -84,7 +84,7 @@ description: "Learn to execute the Escape Zombie Control technique in BJJ. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent anticipates your escape and drives heavy shoulder pressure as you begin releasing the lockdown - how do you adjust?",
+      "name": "They drive shoulder pressure as you release the Zombie lockdown: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the frames aren't holding, abort the escape and re-establish lockdown temporarily. If committed to the escape, redirect your frame from their chest to under their shoulder, using the upward angle to redirect their driving pressure over your head rather than into your body. Simultaneously execute a more aggressive hip escape to create distance faster than their pressure can close. The key is never fighting their forward pressure head-on - always redirect it laterally or upward."
@@ -100,7 +100,7 @@ description: "Learn to execute the Escape Zombie Control technique in BJJ. Step-
     },
     {
       "@type": "Question",
-      "name": "What determines whether you should escape to turtle versus attempting a Granby roll directly from Zombie?",
+      "name": "From Zombie bottom, what decides between escaping to turtle and rolling a Granby?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on the opponent's weight placement and your available space. If the opponent's weight is high on your shoulders with forward pressure, the Granby roll uses their momentum against them and can skip the turtle entirely, going directly to guard recovery. If the opponent's weight is lower on your hips or they have good base, the Granby requires too much space to execute and turtle is the safer intermediate step. Additionally, if the opponent is experienced with following Granby rolls, establishing turtle first gives you a controlled base from which to choose your next escape."

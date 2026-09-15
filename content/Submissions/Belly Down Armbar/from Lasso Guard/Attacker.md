@@ -98,7 +98,7 @@ description: "Learn to attack the belly down armbar from lasso guard. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stacking weight forward during the transition — what adjustment prevents escape?",
+      "name": "They stack forward during your lasso guard armbar entry — what adjustment prevents escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent stacks forward, redirect the attack to capitalize on their forward momentum. Switch to an overhead sweep using their committed weight, or abandon the armbar temporarily and transition to an omoplata or triangle entry that exploits their broken posture. Their stacking motion actually creates new submission opportunities if you adapt rather than forcing the original armbar."

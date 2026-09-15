@@ -106,7 +106,7 @@ description: "Master the attacker perspective for Strip Russian Leg Lasso. Compl
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins elevating their hips for a sweep as you start breaking their sleeve grip - what do you do?",
+      "name": "They elevate their hips for a sweep as you break their lasso sleeve grip: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the sleeve grip break and focus entirely on base recovery. Widen your stance, sprawl your hips back and down, and drive weight through your legs. A failed strip attempt is vastly preferable to being swept. Once your base is re-established and the sweep threat neutralized, restart the stripping sequence from step one. Never sacrifice base stability for grip break completion."

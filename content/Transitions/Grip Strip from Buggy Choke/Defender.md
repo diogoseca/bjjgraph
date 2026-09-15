@@ -72,7 +72,7 @@ description: "Defend against the Grip Strip from Buggy Choke transition. Learn t
     },
     {
       "@type": "Question",
-      "name": "Your opponent has released the choke and is driving toward crossface - what is your immediate defensive priority?",
+      "name": "Your opponent drops the buggy choke and drives for the crossface. Defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Block the crossface before it establishes by getting your near-side forearm or hand against their bicep or shoulder, preventing their arm from crossing your face. Simultaneously begin hip escaping away to create space for knee insertion. The crossface is the control point that makes side control consolidation possible, so denying it takes priority over any other defensive action at this moment."
@@ -80,7 +80,7 @@ description: "Defend against the Grip Strip from Buggy Choke transition. Learn t
     },
     {
       "@type": "Question",
-      "name": "How should you change your defensive frame orientation when you recognize the transition from choke to positional control?",
+      "name": "How should your frames change once the buggy choke becomes a side control transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift frames from protecting your neck and collar area for choke defense to blocking the crossface path and preventing hip-to-hip connection for side control defense. Your near-side arm should frame against the opponent's shoulder to block crossface, while your far-side arm blocks their hip advancement. This reorientation must happen instantly upon recognizing the transition cues without delay."
@@ -88,7 +88,7 @@ description: "Defend against the Grip Strip from Buggy Choke transition. Learn t
     },
     {
       "@type": "Question",
-      "name": "When is it better to attempt a granby roll versus sitting to half guard during the grip strip transition?",
+      "name": "Under the grip strip, when do you granby roll rather than sit to half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attempt the granby roll when the top player momentarily lifts their hips to reposition for side control, creating the rotational space needed for the roll to succeed. Sit to half guard when the top player maintains heavy hip pressure but releases choking grips, creating arm-based gaps but not hip-based gaps. The choice depends on which type of control gap the top player creates during their transition sequence."

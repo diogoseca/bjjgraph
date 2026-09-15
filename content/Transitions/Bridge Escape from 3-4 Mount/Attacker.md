@@ -80,7 +80,7 @@ description: "Master the bridge escape technique from 3-4 mount bottom. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What makes the 3-4 mount configuration specifically vulnerable to a directional bridge compared to traditional symmetric mount?",
+      "name": "Why is 3-4 mount more vulnerable to a directional bridge than symmetric mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posted leg in 3-4 mount creates an inherent asymmetry in base stability. The posted-leg side has fewer contact points with the bottom player's body and relies on the foot-to-mat connection for lateral stability rather than body-to-body pressure. This means a bridge directed toward the posted-leg side attacks a structurally compromised angle where the top player cannot simultaneously maintain mount pressure and resist rotational force. In symmetric mount, both sides have equal base, so directional bridging has no preferred angle to exploit."
@@ -88,7 +88,7 @@ description: "Master the bridge escape technique from 3-4 mount bottom. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent in 3-4 mount has their right knee tight to your ribs and left leg posted outside. Which direction do you bridge and why?",
+      "name": "Their right knee is tight to your ribs, left leg posted outside - which way do you bridge and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridge over your left shoulder toward the opponent's posted left leg side. The left side has compromised base because the posted foot provides less resistance to rotational force than the mounted right knee. By bridging left, you attack the weakest point in their triangular base. The right side with the mounted knee provides their strongest base connection and would require significantly more force to overcome."
@@ -96,7 +96,7 @@ description: "Master the bridge escape technique from 3-4 mount bottom. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What is the most critical grip you must establish before initiating the bridge, and what happens if you skip it?",
+      "name": "Which grip is critical before bridging from 3-4 mount, and what happens if you skip it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must control the opponent's arm on the posted-leg side, typically gripping their wrist or tricep and pulling it tight across your chest. This arm is their primary posting tool—without it trapped, they simply place their hand on the mat as you bridge, creating a tripod base that absorbs all rotational force. Skipping this grip results in the bridge stalling at the midpoint, leaving you turned on your side in a worse position with depleted energy and an opponent who is now alert to your escape attempts."
@@ -104,7 +104,7 @@ description: "Master the bridge escape technique from 3-4 mount bottom. Step-by-
     },
     {
       "@type": "Question",
-      "name": "You attempt a bridge escape but the top player posts their hand to stop the roll. What is your immediate follow-up?",
+      "name": "Your bridge escape is stopped by their hand post - what's your immediate follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the bridge reversal and convert to an elbow escape toward the opposite side. The posting reaction shifts the top player's weight and attention toward the bridge side, creating space and reduced pressure on the opposite hip. Shrimp your hips away from them on the open side, insert your near-side knee as a shield, and work to recover half guard. The bridge attempt was not wasted—it created the conditions for the secondary escape to succeed."
@@ -112,7 +112,7 @@ description: "Master the bridge escape technique from 3-4 mount bottom. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What foot placement produces the most powerful bridge, and why does the position of your feet matter so much?",
+      "name": "What foot placement makes the bridge strongest from 3-4 mount, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Plant both feet flat on the mat as close to your buttocks as possible with toes angled slightly outward for traction. Foot proximity to the hips determines bridge height and power because it maximizes the range of hip extension available—closer feet create a sharper knee angle that translates into greater vertical displacement when the hips extend. Feet placed too far away flatten the knee angle, producing a low, weak bridge that cannot generate enough upward force to displace the top player's weight from their base."
@@ -120,7 +120,7 @@ description: "Master the bridge escape technique from 3-4 mount bottom. Step-by-
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to initiate the bridge escape against an attentive top player in 3-4 mount?",
+      "name": "When should you launch the bridge escape against an attentive 3-4 mount top player?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing is when the top player reaches upward for a collar grip, shifts their weight to set up a submission, or adjusts their leg positioning. These moments raise their center of gravity and divert their attention from base maintenance. Additionally, the instant they shift weight toward the mounted-knee side to attack creates maximum vulnerability on the posted-leg side. Never bridge when they are settled low with heavy chest pressure and stable base—wait for or provoke movement that compromises their equilibrium first."

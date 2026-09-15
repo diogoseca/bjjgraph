@@ -56,7 +56,7 @@ description: "Learn to defend the Dead Orchard to Darce Switch in BJJ. Recognize
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting to switch from dead orchard to darce?",
+      "name": "What is the earliest cue your opponent is switching from Dead Orchard to darce?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a shift in pressure direction on your neck and trapped shoulder. When the opponent begins releasing the anaconda grip to re-thread for darce, you feel the circular compression around your head momentarily decrease and the angle of their arm changes. Their choking arm begins pulling away from over your head and moving toward your armpit area. This brief pressure release is your critical escape window and should trigger immediate defensive action."
@@ -64,7 +64,7 @@ description: "Learn to defend the Dead Orchard to Darce Switch in BJJ. Recognize
     },
     {
       "@type": "Question",
-      "name": "Why is the grip switch moment the best time to attempt escape rather than when either choke is fully established?",
+      "name": "Why is the grip switch the best escape moment rather than when either choke is locked?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the grip switch, neither the anaconda nor the darce is fully locked, creating a structural weakness in your opponent's control. They have temporarily released one grip configuration without fully establishing the other, meaning their control is at its weakest point. Your opponent's attention is focused on re-threading their arm rather than maintaining pressure, and their body position is transitioning between two different angles. This window typically lasts only one to two seconds, making immediate action essential."
@@ -72,7 +72,7 @@ description: "Learn to defend the Dead Orchard to Darce Switch in BJJ. Recognize
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases the anaconda pressure and moves their arm toward your armpit - what specific action prevents the darce from being established?",
+      "name": "They release anaconda pressure and move the arm to your armpit. What stops the darce?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clamp your nearside elbow tight to your ribs and turn your shoulder inward to close the gap between your arm and your body. This blocks the darce arm from threading under your armpit. Simultaneously, use your free hand to push on their shoulder or bicep to create distance. If you prevent their arm from passing under your armpit, the darce cannot be established and you have neutralized the switch attempt entirely."

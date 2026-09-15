@@ -92,7 +92,7 @@ description: "Execute the Kimura from Shoulder of Justice with precision. Step-b
     },
     {
       "@type": "Question",
-      "name": "At what point during Shoulder of Justice pressure does the kimura opportunity typically present itself?",
+      "name": "During Shoulder of Justice pressure, when does the kimura opportunity usually appear?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kimura opportunity presents when the opponent extends their near arm to push away your shoulder from their jaw. This arm extension is an instinctive pain-relief response to the intense pressure on their temporomandibular joint. The window is narrow—typically 1-2 seconds before they realize the exposure and retract. Maintaining heavy, consistent jaw pressure increases the probability and frequency of this reaction."

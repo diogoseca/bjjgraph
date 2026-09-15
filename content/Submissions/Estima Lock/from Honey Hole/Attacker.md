@@ -84,7 +84,7 @@ description: "Learn to attack the Estima Lock from Honey Hole position. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent is hiding their heel deep and curling their toes — what does this defensive posture tell you about Estima Lock opportunity?",
+      "name": "From Honey Hole, they hide the heel and curl the toes — what does that tell you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This heel-hiding defense is your primary trigger to transition to the Estima Lock. When the opponent curls their foot to hide the heel, the dorsal surface of the foot becomes exposed and accessible. Their defensive commitment to heel concealment means they cannot simultaneously protect against the Estima Lock grip without releasing the heel. This creates the attack vector misdirection that makes the Estima Lock effective from Honey Hole."
@@ -92,7 +92,7 @@ description: "Learn to attack the Estima Lock from Honey Hole position. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What control must be maintained before and during the transition from heel hook grips to Estima Lock setup?",
+      "name": "Switching from heel hook grips to the Estima Lock, what control must never slip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside leg triangle around the opponent's thigh must maintain constant tension throughout the entire grip transition. Hip pressure through the outside leg crossing their hip must remain steady to prevent rotational escapes. If either the triangle loosens or hip pressure drops during the grip change, the opponent gains a window to retract their foot or initiate escape. Your legs maintain position control independently while your arms transition between attack grips."
@@ -100,7 +100,7 @@ description: "Learn to attack the Estima Lock from Honey Hole position. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts pulling their knee toward their chest to extract their foot mid-application — how do you maintain the Estima Lock?",
+      "name": "They pull their knee to their chest mid-Estima Lock — how do you keep the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips forward to close the space they are creating while tightening the inside leg triangle around their thigh. Use your outside leg to push their hip back down, preventing the knee retraction. If your forearm is already positioned across the ankle, their knee pull can actually increase dorsiflexion pressure in your favor. If they succeed in creating significant slack, immediately switch back to heel hook attack as the extraction movement likely re-exposes the heel."
@@ -116,7 +116,7 @@ description: "Learn to attack the Estima Lock from Honey Hole position. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your initial forearm position slips off the ankle during pressure application — what grip adjustment do you make?",
+      "name": "Your forearm slips off the ankle during the Estima Lock — what grip adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop applying pressure immediately and re-establish the forearm position before continuing. Release your hand clasp, reposition the radius bone back into the ankle crease, and re-secure with a tighter gable grip with elbows pulled closer to your torso. Slippage typically occurs because the initial forearm placement was too high or the grip configuration had slack. Do not try to force the finish from a compromised forearm position as this wastes energy and risks injury from uncontrolled force vectors."

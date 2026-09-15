@@ -56,7 +56,7 @@ description: "How to defend against the Arm Drag in BJJ. Recognition cues, grip 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an arm drag is being attempted and what should your immediate response be?",
+      "name": "What is the earliest cue an arm drag is coming, and what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling a two-on-one grip on your arm with one hand on your wrist and another on your tricep, combined with lateral pulling force across your body rather than straight toward the opponent. Your immediate response should be to retract the arm sharply by bending your elbow and pulling your hand toward your own hip, while simultaneously squaring your hips to face the attacker. This eliminates the across-the-body path they need for the drag and removes the angular advantage before it develops."
@@ -64,7 +64,7 @@ description: "How to defend against the Arm Drag in BJJ. Recognition cues, grip 
     },
     {
       "@type": "Question",
-      "name": "Why is turning toward the attacker the correct response rather than turning away or pulling straight back?",
+      "name": "Why turn toward the arm dragger rather than turn away or pull straight back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning toward the attacker is correct because the arm drag only works when the attacker reaches a position behind your back. By aggressively turning your hips to face them, you eliminate the angular advantage they are creating and convert their back take attempt into a neutral face-to-face engagement. Turning away accelerates the back take by giving them a larger angle and more back exposure. Pulling straight back does not address the angular problem at all and allows them to continue circling because the direction of their movement is lateral, not linear toward you."
@@ -80,7 +80,7 @@ description: "How to defend against the Arm Drag in BJJ. Recognition cues, grip 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the arm drag and reached your back but has not yet inserted hooks - what is your defensive priority sequence?",
+      "name": "They reach your back off an arm drag with no hooks in. What is your defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to turn and face the attacker before they insert hooks, not to strip their grips. Begin by aggressively turning your hips toward them while keeping your elbows tight to your body to deny easy hook entry. Use your near-side arm to frame against their hip or thigh to create separation space. The critical window is the one to two seconds between them reaching your back and establishing the first hook. Once you are facing them, the back take is neutralized regardless of their grip position. If you cannot complete the turn, drop to a defensive turtle posture and begin standard back defense protocols."
@@ -88,7 +88,7 @@ description: "How to defend against the Arm Drag in BJJ. Recognition cues, grip 
     },
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an arm drag attempt is beginning, and what should your immediate response be?",
+      "name": "What first tells you an arm drag is starting as they grip your wrist, and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling your opponent secure your wrist with one hand while their other hand reaches toward your tricep or elbow. The immediate response should be to strip the wrist grip with a sharp circular motion, breaking the two-on-one before it is fully established. If you cannot strip the grip, immediately retract your arm by bending your elbow sharply to deny the pulling leverage they need for the diagonal drag across their body."

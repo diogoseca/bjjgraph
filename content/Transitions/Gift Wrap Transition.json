@@ -275,7 +275,7 @@
         }
       },
       {
-        "question": "Your threading arm is in position but opponent is grip-fighting your wrist control - what adjustment do you make?",
+        "question": "They grip-fight your wrist control as you thread from high mount: what adjustment do you make?",
         "answer": "Their grip fighting on your wrist control hand is occupying their free arm. Threaten their exposed neck with your threading arm side - this forces a defensive priority shift. They must choose between continuing to fight your wrist grip or defending their neck. Either choice opens an opportunity: if they release your wrist to defend neck, complete the wrap immediately. If they continue grip fighting, attack the neck.",
         "answer_line": "Threaten neck to shift priority",
         "distractors": {
@@ -303,7 +303,7 @@
         }
       },
       {
-        "question": "What makes the High Mount specifically advantageous for Gift Wrap entries compared to standard mount?",
+        "question": "Why is high mount better than standard mount for entering the Gift Wrap?",
         "answer": "High Mount positions your body higher on the opponent's chest, putting your arms in optimal position to thread under their armpits without having to reach up. The elevated position also creates more downward pressure on their upper body, making arm recovery more difficult once the trap is established. Additionally, High Mount restricts their hip mobility more severely, reducing their ability to bridge during your transition attempt.",
         "answer_line": "Arms align to thread armpits",
         "distractors": {
@@ -345,7 +345,7 @@
         "answer_line": "Two-on-one: wrist and elbow"
       },
       {
-        "question": "Your first Gift Wrap attempt fails and the opponent recovers their arm - what is your immediate next action?",
+        "question": "Your Gift Wrap fails from high mount and they recover the arm: what do you do next?",
         "answer": "Do not chase the same arm immediately. Instead, use the failed attempt as a setup for your next attack. The arm recovery movement often creates openings elsewhere - their opposite arm may have extended, their posture may have changed, or their neck may be exposed. Threaten a submission on whatever target their recovery exposed, then re-attack the Gift Wrap when they defend that new threat. Chaining attacks creates the entries that isolated attempts cannot.",
         "answer_line": "Chain attacks off new openings",
         "distractors": {
@@ -505,7 +505,7 @@
         }
       },
       {
-        "question": "Your arm is being pulled across your chest but the grip transfer is not yet complete - what do you do?",
+        "question": "Your arm is pulled across your chest but the grip transfer is incomplete: what do you do?",
         "answer": "Attack the incomplete grip transfer with two-on-one hand fighting. Both your hands should target the attacker's grip on your wrist, stripping it before the threading arm can secure the transfer. Simultaneously, rotate your trapped shoulder forward and toward the mat to reduce the angle the attacker needs to complete the wrap. This must be done explosively because the grip transfer window is brief - once the threading hand secures your wrist, the mechanical advantage shifts decisively to the attacker.",
         "answer_line": "Strip wrist grip, roll shoulder in",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "The attacker feints a choke to bait your arms open - how should you respond without exposing yourself to the Gift Wrap?",
+        "question": "They feint a choke from high mount: how do you defend without giving up the Gift Wrap?",
         "answer": "Defend the choke with minimal arm extension. Tuck your chin hard and use your hands close to your neck rather than pushing away on their arms. If you must push, use one short frame while keeping the other arm completely retracted against your ribs. The attacker wants you to extend both arms in a panic response to the choke threat because that creates the arm isolation needed for the Gift Wrap. Disciplined, compact defense forces them to actually commit to the choke rather than using it as bait.",
         "answer_line": "Minimal frame, arm stays retracted",
         "distractors": {

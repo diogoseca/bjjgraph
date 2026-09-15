@@ -299,7 +299,7 @@ Strategically, this submission functions as a natural chain attack from North-So
 ## From Which Positions?
 
 - [[Positions/North-South]]
-- [[Positions/Side Control/Reverse Kesa-Gatame]]
+- [[Positions/Side Control/Ushiro Kesa Gatame]]
 
 
 </section>

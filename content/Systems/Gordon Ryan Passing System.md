@@ -4,7 +4,7 @@
 
 ---
 title: "Gordon Ryan Passing System | BJJ System | BJJ Graph"
-description: "Master Gordon Ryan's pressure passing system for no-gi BJJ. Complete framework covering body lock passing, leg drags, and systematic guard neutralization."
+description: "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master Gordon Ryan's pressure passing system for no-gi BJJ. Comple
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Gordon Ryan Passing System",
-  "description": "Master Gordon Ryan's pressure passing system for no-gi BJJ. Complete framework covering body lock passing, leg drags, and systematic guard neutralization.",
+  "description": "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Gordon-Ryan-Passing-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -132,7 +132,7 @@ description: "Master Gordon Ryan's pressure passing system for no-gi BJJ. Comple
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Gordon Ryan Passing System",
-  "description": "The Gordon Ryan Passing System is a pressure-based no-gi guard-passing framework that combines body lock control, leg drags, and over-under stacking to systematically strip an opponent's frames and force a high-percentage pass to dominant top position.",
+  "description": "Passing becomes easier to study when you separate engagement, control and consolidation.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -151,13 +151,11 @@ description: "Master Gordon Ryan's pressure passing system for no-gi BJJ. Comple
 
 ## What is Gordon Ryan Passing System?
 
-**The Gordon Ryan Passing System is a pressure-based no-gi guard-passing framework that combines body lock control, leg drags, and over-under stacking to systematically strip an opponent's frames and force a high-percentage pass to dominant top position.**
+**Passing becomes easier to study when you separate engagement, control and consolidation.**
 
-Gordon Ryan's passing system represents the pinnacle of modern no-gi guard passing, combining relentless pressure, strategic positioning, and systematic guard neutralization. This approach prioritizes establishing dominant grips and control points before initiating passing sequences, ensuring that every movement builds toward a high-percentage pass. The system emphasizes body lock passing variations, leg drag sequences, and over-under pressure passes that have proven devastatingly effective at the highest levels of competition.
+Passing becomes easier to study when you separate engagement, control and consolidation. This guide connects those decisions in a no-gi passing game: establish useful grips, respond to the guard player’s movement and hold the position after clearing the legs.
 
-The foundation of this system lies in understanding guard passing as a control game rather than a speed game. Ryan's methodology focuses on removing the opponent's frames and defensive structures through systematic pressure application, forcing them into progressively worse positions until the pass becomes inevitable. This approach minimizes risk while maximizing control, allowing practitioners to pass the guard of elite opponents without exposing themselves to submissions or sweeps.
-
-What distinguishes this system is its adaptability to different guard types while maintaining core principles of pressure and control. Whether facing butterfly guard, half guard, or open guard variations, the system provides clear decision trees and transitional sequences that maintain offensive pressure throughout. The emphasis on grip fighting, posture control, and strategic weight distribution creates a comprehensive framework that works across skill levels and body types.
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -165,11 +163,13 @@ What distinguishes this system is its adaptability to different guard types whil
 
 
 
+
+
 <section id="unlock-this-system" class="content-section product-cards">
 
-## Unlock This System
+## Study this system with BJJ Fanatics
 
-<p class="section-subtitle">Go deeper with the instructional that built this system.</p>
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
 
 <!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
      and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
@@ -184,14 +184,14 @@ What distinguishes this system is its adaptability to different guard types whil
 <article class="product-card" data-product-id="gordon-ryan-systematically-attacking-the-guard">
 <div class="product-card__holo" aria-hidden="true"></div>
 <div class="product-card__shine" aria-hidden="true"></div>
-<div class="product-card__cover"><img src="https://placehold.co/640x360/1e293b/ffffff?text=Systematically+Attacking+The+Guard" alt="Systematically Attacking The Guard" loading="lazy" width="640" height="360" /><span class="product-card__vendor-badge">BJJFanatics</span></div>
+
 <div class="product-card__body">
 <h3 class="product-card__title">Systematically Attacking The Guard</h3>
 <p class="product-card__instructor">with Gordon Ryan</p>
-<span class="product-card__unlocks-badge">Unlocks 17 techniques in this system</span>
-<p class="product-card__blurb">Gordon Ryan's complete pressure-passing blueprint — body lock passing, leg drags, and the connection-breaking concepts behind them.</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Passers who know individual passes but struggle to connect them against resistance.</p>
+<p class="product-card__blurb">Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery.</p>
 </div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?ref=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gordon-ryan-passing-system&utm_term=gordon-ryan-systematically-attacking-the-guard" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-position="0">Get the instructional <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gordon-ryan-passing-system&utm_term=gordon-ryan-systematically-attacking-the-guard" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
 </article>
 
 </div>
@@ -309,6 +309,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Choose the section for the guard you encounter most often and compare its responses with this page’s sequence.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gordon-ryan-passing-system&utm_term=gordon-ryan-systematically-attacking-the-guard" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Systematically Attacking The Guard &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -407,5 +418,16 @@ Development of this passing system requires extensive positional drilling with p
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Start each round in the same passing position. Track whether you cleared the legs and held the resulting pin, and where recovery began.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gordon-ryan-passing-system&utm_term=gordon-ryan-systematically-attacking-the-guard" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Systematically Attacking The Guard &rarr;</a></p>
+</section>
+
+
 
 </main>

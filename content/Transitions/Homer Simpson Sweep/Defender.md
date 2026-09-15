@@ -56,7 +56,7 @@ description: "Defend the Homer Simpson Sweep from deep half guard top. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that a Homer Simpson Sweep is being initiated rather than a waiter sweep?",
+      "name": "What early cues show a Homer Simpson sweep rather than a waiter sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Homer Simpson Sweep is signaled by the bottom player reaching their free hand over your back to establish a belt or waistband grip, combined with their feet planting flat on the mat for forward driving power. The waiter sweep setup involves the bottom player's hips elevating laterally with their free hand gripping your far knee or pants rather than reaching over your back. The over-the-back grip and flat foot plant are the definitive indicators of Homer Simpson intent."
@@ -88,7 +88,7 @@ description: "Defend the Homer Simpson Sweep from deep half guard top. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the Homer Simpson come-up but you feel their underhook loosening - how do you exploit this?",
+      "name": "Their underhook loosens during the Homer Simpson come-up: how do you exploit it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A loosening underhook during the come-up is a critical defensive opportunity. Immediately drive your crossface pressure harder to flatten them while simultaneously circling your far knee upward and back to extract the trapped leg from the weakened underhook. The extraction should be a smooth circular motion - knee up, back, then down and out - rather than a straight pull. Complete the extraction to transition to half guard top or side control before the bottom player can re-secure the underhook."

@@ -76,7 +76,7 @@ description: "How to execute Granby to Closed Guard in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "What is the proper sequential order for inserting your legs when establishing closed guard from the Granby roll?",
+      "name": "Building closed guard off a granby roll, in what order do you insert your legs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside leg (closest to the opponent) must be threaded first to create an immediate frame and barrier, followed immediately by the outside leg hooking around the opponent's back. This sequential insertion maintains defensive frames throughout the movement and prevents the opponent from following you through the roll or passing your guard. Threading both legs simultaneously creates gaps that skilled opponents can exploit."
@@ -84,7 +84,7 @@ description: "How to execute Granby to Closed Guard in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "How should you adapt your Granby to Closed Guard if the opponent sprawls backward as you begin the roll?",
+      "name": "Granby to closed guard: your opponent sprawls back as you roll. How do you adapt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent sprawls backward, you should complete the roll into a seated guard position rather than attempting to force closed guard. From seated guard, you can establish butterfly hooks, work for closed guard with better positioning, or transition to other open guard systems. Attempting to force closed guard against a sprawled opponent typically results in failed guard establishment and vulnerable positioning."
@@ -92,7 +92,7 @@ description: "How to execute Granby to Closed Guard in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "What is the biomechanical purpose of keeping your chin tucked and body compact throughout the Granby roll?",
+      "name": "Why keep your chin tucked and body compact throughout the granby roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keeping the chin tucked protects the cervical spine and ensures the roll occurs across the shoulders and upper back rather than directly on the head, preventing neck injuries. The compact body position (knees to chest, elbows tight) serves multiple purposes: it protects limbs from submission attacks, creates a more efficient rotational motion with better momentum, reduces the time your back is exposed, and makes it harder for opponents to stop or counter the movement. A compact shape also allows faster completion of the technique."
@@ -108,7 +108,7 @@ description: "How to execute Granby to Closed Guard in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "What should you do if the opponent secures a grip on your leg during the Granby roll, preventing full closed guard closure?",
+      "name": "Your opponent grips your leg mid-granby so closed guard won't close. What now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept the open guard position that results from their leg control (butterfly, half guard, or single leg X-guard depending on which leg they control) rather than forcing closed guard. Work methodically to break their grip while maintaining your guard structure, or transition immediately to attacks available from that open guard position. Forcing closed guard against a strong leg grip often results in guard passing opportunities for the opponent. Advanced practitioners can use this grip as an entry to specific open guard attacks or sweeps."

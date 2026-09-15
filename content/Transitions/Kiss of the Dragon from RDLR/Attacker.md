@@ -74,7 +74,7 @@ description: "Learn to execute Kiss of the Dragon from Reverse De La Riva Guard.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What specific weight shift from the opponent creates the optimal entry window for Kiss of the Dragon?",
+      "name": "Kiss of the Dragon from RDLR: what opponent weight shift opens the entry window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window opens when the opponent shifts their weight backward or upright, creating clearance underneath their hips for the inversion. This typically occurs when they attempt to disengage from the RDLR hook, stand taller to improve their base, or shift weight to their far leg to initiate a passing sequence. The backward weight shift simultaneously creates space and loads their balance point away from the direction of your rotation, making it harder for them to sprawl defensively."
@@ -98,7 +98,7 @@ description: "Learn to execute Kiss of the Dragon from Reverse De La Riva Guard.
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between the RDLR hook depth needed for Kiss of the Dragon versus a standard RDLR sweep?",
+      "name": "Kiss of the Dragon: how must RDLR hook depth differ from a standard RDLR sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "For Kiss of the Dragon, the RDLR hook needs to be deeper around the opponent's far leg with the instep controlling behind the knee rather than a shallow calf hook. This deeper hook creates a tighter pivot point that guides your body's rotation path directly underneath the opponent's center of gravity. A shallow hook used for standard sweeps does not provide enough rotational guidance and allows your body to drift off the optimal inversion path during the threading phase, resulting in scrambles rather than clean back takes."
@@ -106,7 +106,7 @@ description: "Learn to execute Kiss of the Dragon from Reverse De La Riva Guard.
     },
     {
       "@type": "Question",
-      "name": "If your Kiss of the Dragon attempt stalls with you partially inverted between the opponent's legs, what is the safest recovery?",
+      "name": "Kiss of the Dragon stalls with you partly inverted between their legs—what is the safest recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The safest recovery is to pull your head back through the space between their legs, returning to a supine position rather than continuing a stalled rotation. Use your ankle grip and hook to maintain distance and prevent them from driving forward to pass. Re-establish your RDLR structure immediately and threaten a different technique to reset their defensive posture. Never remain stationary in the inverted position between their legs—either complete the rotation or retreat to guard."

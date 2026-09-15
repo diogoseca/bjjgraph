@@ -248,7 +248,7 @@
         }
       },
       {
-        "question": "Your opponent starts driving forward to flatten you before you can initiate the roll - how do you adjust?",
+        "question": "They drive forward to flatten you before you can start the jailbreak roll: how do you adjust?",
         "answer": "When the opponent drives forward to flatten you, focus on maintaining your underhook and creating small frames to prevent complete flattening. Wait for their weight to shift forward, which indicates they're committing to pressure - this is actually the optimal moment to execute the jailbreak. Alternatively, if flattening continues, consider switching to a deep half guard entry using the same underhook as your entry point.",
         "answer_line": "Frame, then roll on their push",
         "distractors": {
@@ -262,7 +262,7 @@
         }
       },
       {
-        "question": "How do you determine at the mid-point of the roll whether to continue to back take or settle for turtle?",
+        "question": "Mid-roll in the jailbreak, how do you decide between finishing the back take or taking turtle?",
         "answer": "At approximately 180 degrees through the roll, feel for opponent's momentum and connection. If they're actively following with their weight moving in your direction, continue accelerating through to back take. If they disengage, stop pursuing, or base out wide, settle for turtle position. The key indicator is whether you feel their pressure continuing to follow you or releasing.",
         "answer_line": "Feel if they're still chasing",
         "distractors": {
@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "Your opponent follows your roll but immediately sprawls their hips back as you reach their side - what is your adjustment?",
+        "question": "They follow your jailbreak roll but sprawl their hips back as you reach their side — adjustment?",
         "answer": "When the opponent sprawls during the transition, their hips pull away from your chest, making full back control difficult. Rather than chasing their hips, transition to crab ride by inserting one hook while controlling their far arm or lapel. The crab ride gives you an intermediate control position from which you can work to re-establish full back control once their hips settle. Alternatively, use the underhook to drag them into a front headlock position where you can reset the attack sequence.",
         "answer_line": "Transition to crab ride",
         "distractors": {
@@ -501,7 +501,7 @@
         }
       },
       {
-        "question": "You feel the bottom player beginning to invert with their underhook secured - what is your immediate decision framework?",
+        "question": "As the bottom player inverts with the underhook, what is your decision framework as top player?",
         "answer": "You must make a binary decision within the first quarter-turn of the roll. Option one: disengage by pulling your hips back and basing wide, conceding turtle position but maintaining top control. Option two: commit fully to following with maximum hip sprawl and chest pressure to ride through the roll. The critical error is half-committing, which provides the bottom player with your forward momentum while giving you no control over the rotation. Speed of decision matters more than which option you choose.",
         "answer_line": "Commit fully or disengage fast",
         "distractors": {
@@ -529,7 +529,7 @@
         }
       },
       {
-        "question": "The bottom player reaches turtle after a successful jailbreak but you prevented the back take - what are your attacking priorities?",
+        "question": "You stopped the back take and they reach turtle: what are your attacking priorities from turtle top?",
         "answer": "From turtle top, your immediate priority is establishing a controlling grip such as a seatbelt or front headlock before the bottom player can stand or sit through to guard. Attack with front headlock series including guillotine, darce, and anaconda entries. Look for opportunities to re-take the back through hook insertion or crab ride entries. Prevent the bottom player from sitting to guard by maintaining heavy chest pressure on their upper back. Do not allow a reset to standing where the positional advantage dissipates entirely.",
         "answer_line": "Seatbelt grip, then attack neck",
         "distractors": {
@@ -543,7 +543,7 @@
         }
       },
       {
-        "question": "How do you distinguish between a standard jailbreak escape attempt and the back take continuation during the roll?",
+        "question": "Mid-roll, how do you tell a turtle-bound jailbreak from a back take continuation?",
         "answer": "The standard jailbreak targets turtle and typically decelerates once the bottom player clears past the halfway rotation point. The back take continuation shows continued acceleration past 180 degrees with the underhook arm actively pulling toward your back rather than simply creating separation. You can also feel the difference in their hip trajectory - turtle-bound escapes move laterally away from you, while back take attempts curve behind you. Reading this distinction early allows you to choose disengagement for turtle-bound escapes while preparing stronger following defense against back take attempts.",
         "answer_line": "Keeps accelerating past halfway",
         "distractors": {

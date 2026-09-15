@@ -108,7 +108,7 @@ description: "Learn to attack with the Americana from Shoulder of Justice. Setup
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to bridge and roll toward you during the paint motion — what adjustment prevents escape?",
+      "name": "In Shoulder of Justice they bridge and roll during the paint — what prevents the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your far knee wider to stabilize your base against the bridge force and drop your hips heavier onto their near hip line. Do not fight the bridge directly — ride it while maintaining your figure-four grip and elbow pin. As the opponent returns to the mat after the bridge exhausts, immediately resume the paint motion with added pressure. If they continue rolling, follow to north-south while keeping the figure-four locked, as the grip translates well to the north-south angle."
@@ -116,7 +116,7 @@ description: "Learn to attack with the Americana from Shoulder of Justice. Setup
     },
     {
       "@type": "Question",
-      "name": "The opponent grabs their own belt to prevent you from painting their hand down — how do you break this defensive grip?",
+      "name": "They grip their belt to block the paint in Shoulder of Justice — how do you break that grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Three options in order of preference: First, slide your figure-four grip further down toward their fingers to attack the weakest part of their grip — finger strength fails faster than wrist strength. Second, use sharp hip bumps to jar their grip loose while maintaining your own figure-four. Third, if the grip persists for more than 3 seconds, abandon the americana and immediately switch to a kimura by reversing the rotational direction, as their grip on their own belt actually assists the kimura finish."

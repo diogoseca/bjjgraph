@@ -58,7 +58,7 @@ description: "How to defend against Kimura from Standing in BJJ. Recognition, es
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is pulling guard considered a legitimate high-percentage defense against the standing Kimura rather than a concession of position?",
+      "name": "Why is pulling guard a legitimate defense to the standing Kimura rather than a concession?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling guard removes the two most dangerous elements of the standing Kimura: fall risk from standing height and gravity-assisted rotational pressure. On the ground, the defender gains mat bracing to resist rotation, hip control through guard to manage attacker's posture, and bilateral arm access for grip fighting that isn't available while maintaining balance. The positional concession (going to bottom guard) is far less costly than the injury risk of fighting a locked standing Kimura. Additionally, the attacker must now pass guard before finishing, giving the defender time to break the grip using ground-based escape protocols. Trading a neutral standing position for a defensive guard position is a favorable exchange when the alternative is shoulder injury."
@@ -66,7 +66,7 @@ description: "How to defend against Kimura from Standing in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "What is the critical defensive window before the figure-four grip is fully established, and what specific actions should you take during this window?",
+      "name": "What should you do in the window before they complete the standing figure-four grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical window exists from the moment the attacker captures your wrist until they complete the figure-four by threading their arm under yours and gripping their own wrist. This window typically lasts 2-4 seconds. During this period, execute explosive arm retraction by pulling your elbow tight to your ribs while simultaneously using your free hand to strip the attacker's wrist grip using a two-on-one peel. Supplement the grip break with circular wrist rotation that exploits the weakness of thumb-versus-four-fingers grip. If retraction alone fails, immediately step your hips away from the attacker's angle to deny the threading arm space to complete the figure-four. Every second of delay reduces the success probability of these early-stage defenses significantly."
@@ -74,7 +74,7 @@ description: "How to defend against Kimura from Standing in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked the figure-four grip and begun elevating your elbow - your arm retraction attempts have failed. What is your immediate priority and why?",
+      "name": "The standing figure-four is locked and your elbow rising; retraction failed. What is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediate priority is lowering your base by bending your knees deeply and widening your stance to prevent being lifted onto your toes, which eliminates your defensive structure entirely. Simultaneously begin counter-rotating toward your trapped arm side to reduce the rotational leverage available to the attacker. Do not waste energy on further arm retraction attempts - the locked figure-four is mechanically too strong to break with pulling force alone. Instead, prepare for either a controlled guard pull (highest safety margin) or an aggressive forward drive to disrupt the attacker's base. The critical error at this stage is continuing to fight the grip with strength rather than transitioning to positional escape strategies."
@@ -82,7 +82,7 @@ description: "How to defend against Kimura from Standing in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "What makes the standing Kimura more dangerous than its ground-based equivalent, and how does this affect your defensive urgency?",
+      "name": "Why is the standing Kimura more dangerous than on the ground, and how should defense change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The standing Kimura is more dangerous for four compounding reasons: (1) gravity assists rotational pressure when the elbow is elevated, accelerating submission speed beyond ground-based versions, (2) the defender cannot brace against the mat with their back or hips to resist rotation, removing the primary ground-based defensive tool, (3) fall risk from standing height introduces head trauma, cervical spine, and impact fracture dangers that don't exist on the ground, and (4) the defender must split attention between balance maintenance and arm defense, reducing the cognitive resources available for either task. These factors mean defensive urgency must be dramatically higher - tap earlier, transition to guard faster, and never attempt to tough out a locked standing Kimura the way you might endure a ground version while working an escape."
@@ -90,7 +90,7 @@ description: "How to defend against Kimura from Standing in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "How do you manage the dilemma between defending the shoulder lock and defending the takedown when both are threatened simultaneously?",
+      "name": "Facing a standing Kimura and a takedown at once, which do you defend and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Always prioritize defending the shoulder lock over the takedown because shoulder damage is immediate and potentially permanent, while positional loss from a takedown is temporary and recoverable. When both threats are active, concede the takedown by pulling guard or allowing a controlled descent while focusing all defensive effort on the arm: pin elbow to ribs, counter-rotate, and strip grips. Landing in bottom guard or even bottom side control with an intact shoulder is vastly preferable to successfully defending the takedown while sustaining progressive shoulder damage. Advanced defenders use the takedown concession strategically - pulling guard during the takedown attempt disrupts the attacker's grip maintenance and creates grip-breaking windows during the transition."

@@ -56,7 +56,7 @@ description: "Learn to defend against butterfly hook consolidation in BJJ. Recog
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the bottom player is attempting to consolidate butterfly hook control?",
+      "name": "What is the earliest cue that the bottom player is consolidating butterfly hook control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are: the bottom player posting a hand behind their hip to initiate a sit-up, increased curling pressure from one or both hooks driving deeper toward your hip creases, and aggressive grip fighting for collar or underhook control. These cues often appear in sequence—posture recovery first, then hook deepening, then grip establishment. Recognizing the first cue (the sit-up attempt) gives you the most time to intervene."
@@ -64,7 +64,7 @@ description: "Learn to defend against butterfly hook consolidation in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Why is it more effective to prevent consolidation than to deal with established butterfly hook control?",
+      "name": "Why prevent consolidation rather than deal with established butterfly hook control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Established butterfly hook control creates a loaded offensive system where the bottom player's hooks, posture, and grips work together as a unified sweeping mechanism. Preventing consolidation means the bottom player has disconnected elements—shallow hooks, poor posture, or missing grips—that cannot generate the coordinated force needed for high-percentage sweeps. Disrupting even one element of the consolidation degrades the entire system significantly."
@@ -72,7 +72,7 @@ description: "Learn to defend against butterfly hook consolidation in BJJ. Recog
     },
     {
       "@type": "Question",
-      "name": "Your opponent has recovered seated posture and is deepening their left hook—what is your optimal defensive response?",
+      "name": "They regain seated posture and deepen their left hook: what is your best defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your right knee to the mat through the opponent's left hook insertion path to keep it shallow, while simultaneously fighting their upper body grips with your hands to deny the pulling control they need. If you cannot prevent the hook from deepening, immediately address the opposite hook before the bottom player achieves both deep hooks. Alternatively, stand up entirely to reset the engagement if both hooks are becoming deep—standing removes the fulcrum the hooks create."

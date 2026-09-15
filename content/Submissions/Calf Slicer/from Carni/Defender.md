@@ -68,7 +68,7 @@ description: "Defend the calf slicer from Carni position in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available when the calf slicer is partially established but not yet locked?",
+      "name": "The Carni calf slicer is partly in but not locked — what are your defensive options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two primary options are straightening your trapped leg forcefully to remove the knee angle needed for the fulcrum, or using both hands to push the attacker's shin out from behind your knee before they lock the leg triangle. Straightening the leg is mechanically stronger but re-exposes your heel to the heel hook. Pushing the shin out preserves your defensive posture but requires committing both hands. Choose based on how deeply the shin is positioned."
@@ -84,7 +84,7 @@ description: "Defend the calf slicer from Carni position in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked the calf slicer triangle and started extending their hips - what should you do?",
+      "name": "They've locked the Carni calf slicer and are extending their hips — what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage the submission is nearly complete and your options are very limited. If the pressure has not yet become severe, attempt to roll toward the attacker immediately to collapse the compression angle and create momentary slack. If this fails or if you feel significant pressure building, tap immediately. Do not attempt heroic escapes when the compression is locked because the risk of muscle tear or Achilles damage far outweighs any positional benefit from continuing to fight."

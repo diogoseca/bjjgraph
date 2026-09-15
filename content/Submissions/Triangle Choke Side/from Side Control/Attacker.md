@@ -76,7 +76,7 @@ description: "How to execute Triangle Choke Side in BJJ. Attacking perspective w
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the side triangle choke target, and how does the trapped arm contribute to the choking mechanism?",
+      "name": "What does the side triangle choke target, and how does the trapped arm create the choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The side triangle targets the carotid arteries on both sides of the neck, restricting blood flow to the brain to cause unconsciousness. The trapped arm serves as a critical wedge - when positioned across the opponent's own neck and squeezed between your thigh and their shoulder, it compresses one carotid artery while your leg compresses the other side. Without the trapped arm properly positioned across their centerline, the choke lacks the internal pressure component and becomes ineffective. The arm essentially becomes an extension of your choking mechanism, using their own limb against them."
@@ -84,7 +84,7 @@ description: "How to execute Triangle Choke Side in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to posture up and create space while you have the triangle locked - what adjustment prevents their escape?",
+      "name": "Your opponent postures and makes space in your locked side triangle: what adjustment stops it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips aggressively toward their head rather than pulling them down with your legs. This hip drive accomplishes two things: it tightens the triangle by reducing the circumference of your leg configuration, and it prevents them from creating the extension needed to posture. Simultaneously, use your free hand to control their far hip or shoulder to prevent them from bridging away. The perpendicular angle and high hip position should naturally limit their posturing ability, but you must actively pursue their head with your hips rather than passively holding the lock."
@@ -92,7 +92,7 @@ description: "How to execute Triangle Choke Side in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "At what point during the side triangle sequence does the opponent reach the point of no escape, and what indicators confirm you have secured this position?",
+      "name": "When is escape from the side triangle no longer possible, and what confirms you have it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when three conditions are met simultaneously: the trapped arm is fully across their centerline with no space to retract it, the figure-four leg lock is secured with proper perpendicular body angle, and the free arm is controlled preventing them from inserting it into the triangle. Indicators include: their breathing becomes labored and audible, their face changes color (reddening), their defensive movements become weaker and more frantic, and you can feel their carotid pulse diminishing against your thigh. Once all three control points are established, even explosive movement typically fails to create escape opportunity."
@@ -100,7 +100,7 @@ description: "How to execute Triangle Choke Side in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What are the most common finishing errors that prevent successful completion of the side triangle, and how do you correct each?",
+      "name": "What are the common finishing errors in the side triangle, and how do you fix each?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three most common finishing errors are: (1) Squeezing only with calf muscles rather than full knee adduction - correct by focusing on bringing knees toward each other using your hip adductors while maintaining the figure-four lock; (2) Maintaining parallel body alignment instead of perpendicular angle - correct by repositioning your torso to form a 'T' shape with their body and keeping hips high toward their head; (3) Neglecting free arm control allowing them to insert their hand - correct by grabbing their wrist and extending it away from their body or pinning it to the mat before applying finishing pressure. Each error individually can compromise the choke; all three must be addressed for consistent finishing."
@@ -108,7 +108,7 @@ description: "How to execute Triangle Choke Side in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make during the finish when the opponent actively defends by turning their chin down or tucking their neck?",
+      "name": "Your opponent tucks their chin defending your side triangle: what adjustments finish it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent tucks their chin, the primary adjustment is to increase the perpendicular angle by driving your hips more aggressively toward the top of their head rather than toward their face. This changes the pressure angle from front-of-neck (which their chin blocks) to side-of-neck where the carotid arteries are more exposed. Additionally, use your free hand to control their far shoulder or grab behind their head, pulling it slightly toward your hips to extend their neck. The combination of angle adjustment and head control negates the chin-tuck defense. Avoid trying to pry their chin up, which wastes energy and creates escape opportunity."
@@ -116,7 +116,7 @@ description: "How to execute Triangle Choke Side in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "SAFETY CRITICAL: What are the warning signs that your training partner is approaching unconsciousness, and what immediate actions must you take?",
+      "name": "What signs show a partner nearing unconsciousness in the side triangle, and what must you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Warning signs of approaching unconsciousness include: sudden cessation of defensive movement and resistance, body going limp or heavy, change in skin color (reddening or pallor), eyes glazing or rolling, unusual breathing patterns or breath-holding, and failure to respond to verbal check-ins. Immediate actions upon ANY of these signs: (1) Immediately release ALL leg pressure and open the triangle completely, (2) Roll them onto their side to clear the airway, (3) Elevate their legs above heart level to restore blood flow to brain, (4) Call their name and check for responsiveness, (5) Monitor breathing continuously - if absent, begin rescue breathing, (6) Seek medical attention if they don't regain consciousness within 10-15 seconds. Never shake an unconscious person or apply any further pressure."

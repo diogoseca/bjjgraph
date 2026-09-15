@@ -56,7 +56,7 @@ description: "How to defend against Shin Removal to Pass in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is beginning a systematic Shin Removal escape rather than panicking?",
+      "name": "What earliest cue shows they are doing a systematic Shin Removal rather than panicking?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when they turn their chin toward the attacking shin rather than pulling away or grabbing the leg frantically. This chin adjustment indicates they understand the proper escape mechanics and are creating breathing space as step one of the systematic sequence. A panicking opponent pulls backward or grabs the shin, while a knowledgeable opponent addresses their breathing first."
@@ -72,7 +72,7 @@ description: "How to defend against Shin Removal to Pass in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the gogoplata and recover to closed guard instead of continuing to fight for the submission?",
+      "name": "When should you abandon the gogoplata and recover closed guard instead of finishing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the gogoplata when your shin has been cleared from their throat and your foot is being removed from behind their head. At this point, the submission structure is mechanically broken and attempting to re-establish wastes time the opponent uses to complete the pass. Close your guard immediately while their posture is still compromised from the extraction effort, before they can drive into side control."
@@ -80,7 +80,7 @@ description: "How to defend against Shin Removal to Pass in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How does maintaining your own foot control behind their head prevent the systematic extraction sequence?",
+      "name": "How does holding your own foot behind their head block the shin extraction sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hands controlling your own foot behind their head preserves the closed loop anchor that makes the shin-across-throat configuration self-reinforcing. Without addressing this anchor, lateral head movement is blocked because the foot prevents the head from sliding out in any direction. If you control the foot with both hands, the opponent must first defeat your hand control before they can address the structural anchor, adding a critical layer to their escape sequence."
@@ -88,7 +88,7 @@ description: "How to defend against Shin Removal to Pass in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins moving their head laterally - what triangle transition option becomes available?",
+      "name": "They start moving their head laterally out of your gogoplata; what triangle entry opens?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As they move laterally to extract, swing your choking leg over their far shoulder while bringing your opposite leg up to lock behind the knee. Their lateral movement actually assists the triangle entry because their head is already at the angle needed for triangle lock. The key is releasing the gogoplata configuration and immediately transitioning the shin from across-throat to behind-neck position while your other leg secures the triangle closure. Their arm on the extraction side is typically inside the triangle frame."

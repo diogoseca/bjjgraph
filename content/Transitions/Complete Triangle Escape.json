@@ -295,7 +295,7 @@
         }
       },
       {
-        "question": "Your opponent begins scooting their hips to match your circular stepping direction - how do you respond?",
+        "question": "Escaping a triangle, they scoot their hips to match your circular step: how do you respond?",
         "answer": "Increase your forward stacking pressure while maintaining the circular step. The opponent cannot simultaneously maintain hip elevation for effective choking power and perform lateral hip movement to match your angle. By intensifying the stack, you force them to choose between preserving their angle which requires hip mobility and preserving their choking pressure which requires hip elevation and connection. This creates a dilemma that favors your escape progression.",
         "answer_line": "Increase stacking pressure",
         "distractors": {
@@ -323,7 +323,7 @@
         }
       },
       {
-        "question": "How do you defend against the armbar transition that commonly occurs during triangle escape attempts?",
+        "question": "How do you defend the armbar transition while escaping a triangle?",
         "answer": "Keep your trapped arm elbow pinned tightly against your ribs throughout the entire escape sequence, from initial posture recovery through complete extraction. If the opponent begins pivoting their hips for armbar isolation, turn sharply toward your trapped arm side and increase forward stacking pressure. Follow their rotation rather than pulling away, using your body weight to prevent arm extension. The key is maintaining elbow-to-rib contact which denies them the space needed to isolate and extend the arm.",
         "answer_line": "Pin elbow to ribs, turn in",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Why is it critical to immediately engage closed guard after extracting from the triangle rather than pausing?",
+        "question": "After extracting from the triangle, why engage closed guard immediately instead of pausing?",
         "answer": "Any pause between extraction and guard engagement creates a window where the opponent can re-shoot their legs for another triangle attempt, transition to alternative attacks like leg entanglements or sweeps, or establish dominant grips that prevent your guard passing. The escape converts defensive survival into offensive opportunity only when the extraction flows seamlessly into guard top posture establishment. The opponent is often momentarily disoriented after their triangle fails, making this the optimal window for passing pressure.",
         "answer_line": "Immediately close the guard",
         "distractors": {
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "What is the proper weight distribution during the stacking phase and how does improper distribution create vulnerability?",
+        "question": "During the triangle escape stack, what's the correct weight distribution and the risk if it's wrong?",
         "answer": "Weight should be driven forward through your legs and hips with a wide knee base, creating a forward and downward pressure vector through the opponent's hips toward their shoulders. Your weight must be centered over your base, never leaning forward from the upper body alone. Improper distribution such as leaning forward shifts your center of gravity ahead of your base, making you vulnerable to sweeps when the opponent releases triangle pressure, and reduces the effectiveness of the stack.",
         "answer_line": "Weight through hips, wide base",
         "distractors": {
@@ -365,7 +365,7 @@
         }
       },
       {
-        "question": "Your initial escape attempt fails and the opponent re-locks the triangle tighter - what is the correct recovery sequence?",
+        "question": "Your triangle escape fails and they re-lock tighter: what's the correct recovery sequence?",
         "answer": "Immediately halt all escape movement and re-establish fundamental defensive posture: pin trapped arm elbow to ribs, re-post free hand on opponent's hip, drive posture upward, and re-establish wide base. Take a controlled breath to verify consciousness and blood flow. Do not attempt to continue a failed escape sequence. Reset completely and reinitiate the full escape from the beginning, treating each attempt as independent. Build systematic pressure through repeated correct technique rather than escalating desperation.",
         "answer_line": "Reset posture, restart fully",
         "distractors": {
@@ -500,7 +500,7 @@
     ],
     "flashcards": [
       {
-        "question": "How do you counter the opponent's circular stepping pattern that is progressively opening your triangle lock?",
+        "question": "Their circular stepping is opening your triangle: how do you counter it?",
         "answer": "Match their circular stepping by scooting your hips laterally in the same direction, maintaining the perpendicular angle between your legs and their neck that provides maximum choking effectiveness. If stacking pressure prevents hip scooting, use your hands behind their head to create counter-rotational pulling force that resists their circular movement. When both methods fail, recognize the triangle is compromised and transition to armbar on the trapped arm.",
         "answer_line": "Scoot hips to match the angle",
         "distractors": {
@@ -514,7 +514,7 @@
         }
       },
       {
-        "question": "What is the optimal timing for transitioning from triangle to armbar during the opponent's escape attempt?",
+        "question": "When should you switch from triangle to armbar as they work their escape?",
         "answer": "The optimal armbar transition window opens when the opponent begins their rotational arm extraction, as this mechanic temporarily separates their trapped arm elbow from their ribs and positions the arm in the plane needed for armbar isolation. This moment typically occurs during Steps 4-5 of their escape sequence. Transitioning too early means releasing a still-effective triangle unnecessarily. Transitioning too late means the arm has already extracted and the opportunity has passed.",
         "answer_line": "When they begin arm extraction",
         "distractors": {
@@ -528,7 +528,7 @@
         }
       },
       {
-        "question": "Your triangle is being stacked and you cannot maintain hip elevation - what defensive options remain?",
+        "question": "Your triangle is being stacked and you can't keep hip elevation — what options remain?",
         "answer": "When stacking has fully compromised your hip elevation and triangle effectiveness, immediately evaluate secondary attack options in priority order: armbar on the trapped arm if elbow has separated from ribs, omoplata transition if your choking leg can swing over their shoulder, or at minimum re-guard to closed guard by releasing the triangle and establishing full guard closure before they can pass. Continuing to hold a structurally compromised triangle wastes energy and misses higher-percentage transition opportunities.",
         "answer_line": "Armbar, omoplata, or re-guard",
         "distractors": {

@@ -100,7 +100,7 @@ description: "How to execute Crossface Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent beginning to insert their knee for a knee shield while you have crossface - what is your immediate response?",
+      "name": "Half guard top with crossface: they start inserting a knee shield. What is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your weight forward and downward aggressively the instant you feel the knee shield starting, closing the space before their knee fully enters. Use your crossface-side hip to pin the inserting knee back down while increasing shoulder pressure. If the knee gets partially in, immediately transition to a smash pass or knee cut approach rather than fighting an established knee shield — prevention through forward pressure is always easier than passing the shield once it is set."

@@ -74,7 +74,7 @@ description: "Complete guide to passing the Overhook Guard from the top position
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary risk of attempting to rip your arm free from a deep overhook using explosive force?",
+      "name": "What is the main risk of explosively ripping your arm out of a deep overhook guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive arm extraction wastes significant energy and creates momentum that the guard player can redirect into sweeps or back takes. The pulling motion also momentarily compromises your base, making you vulnerable to hip bump sweeps. Instead, use methodical circular wrist extraction or bypass the strip entirely with a shoulder pressure pass that uses the overhook connection against the guard player."
@@ -82,7 +82,7 @@ description: "Complete guide to passing the Overhook Guard from the top position
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep overhook and keeps breaking your posture every time you try to strip the grip - how do you adjust your approach?",
+      "name": "Deep overhook keeps breaking your posture when you strip it: how do you adjust the pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch from stripping the overhook to using the shoulder pressure smash variation. Drive your weight forward through the overhooked arm into the opponent's chest, using their grip to keep them connected to you. The deep overhook actually assists this approach because the opponent cannot release without giving you your arm back. Flatten them with shoulder pressure and advance your hips while they remain anchored to your arm."
@@ -106,7 +106,7 @@ description: "Complete guide to passing the Overhook Guard from the top position
     },
     {
       "@type": "Question",
-      "name": "How does the direction of force differ between stripping the overhook grip versus using the pressure pass variation?",
+      "name": "Passing overhook guard, how does force direction differ between stripping and pressure passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When stripping the grip, force is directed away from the opponent as you extract your arm through circular wrist motions and posture. When using the pressure pass, force is directed into the opponent through your shoulder and chest, driving weight forward through the overhooked arm. The strip approach creates separation while the pressure approach eliminates separation. The correct choice depends on the depth of the overhook and the opponent's guard structure."

@@ -58,7 +58,7 @@ description: "Defend the calf slicer from inside sankaku. Recognition cues, esca
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the attacker is transitioning from heel hook to calf slicer?",
+      "name": "What is the earliest cue your opponent is switching from heel hook to calf slicer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker shifting their grip from your heel to your ankle or foot, pulling it toward their chest rather than applying rotational force. You will also feel their shin beginning to slide behind your knee crease rather than maintaining the lateral pressure used for heel hook setup. This grip change happens before the compression is established, creating a brief but critical window to react defensively."
@@ -82,7 +82,7 @@ description: "Defend the calf slicer from inside sankaku. Recognition cues, esca
     },
     {
       "@type": "Question",
-      "name": "How does your hip position relative to the attacker affect the severity of the calf slicer compression?",
+      "name": "In inside sankaku, how does your hip distance from the attacker affect calf slicer compression?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The closer your hips are to the attacker's hips, the more compression force they can generate because the fulcrum has less distance to work through. By driving your hips away and creating maximum distance from the attacker, you reduce the compression force on your calf and posterior knee. Additionally, angling your body slightly away from the attacker changes the compression vector, potentially shifting the shin off the optimal fulcrum point."
@@ -90,7 +90,7 @@ description: "Defend the calf slicer from inside sankaku. Recognition cues, esca
     },
     {
       "@type": "Question",
-      "name": "What makes the calf slicer from inside sankaku particularly dangerous compared to calf slicers from other positions?",
+      "name": "Why is the calf slicer from inside sankaku more dangerous than from other positions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside sankaku figure-four configuration locks your leg in place far more securely than other positions, making extraction extremely difficult once the shin is threaded. The entanglement prevents the hip mobility needed for standard escapes, and the attacker can chain directly between heel hook and calf slicer without releasing positional control. This creates a trapped dilemma where defending one submission directly exposes the other, reducing your defensive options significantly."

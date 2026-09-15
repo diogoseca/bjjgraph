@@ -76,7 +76,7 @@ description: "How to execute Sitting Guard Pull in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Why should you angle your body to the side rather than sitting straight backward during the guard pull?",
+      "name": "In a sitting guard pull, why angle to the side instead of sitting straight backward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sitting at an angle reduces strain on the lower back and tailbone, creates better angular positioning for establishing specific guard types like De La Riva or butterfly guard, provides better leverage for grip control, and makes it easier to track opponent's movement. The angle also naturally facilitates entry into asymmetric guard positions that are tactically stronger in modern BJJ, and it prevents the opponent from driving straight into you along your centerline."

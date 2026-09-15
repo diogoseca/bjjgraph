@@ -58,7 +58,7 @@ description: "Defend the toe hold from Outside Ashi-Garami in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a toe hold from Outside Ashi-Garami Top?",
+      "name": "What is the earliest cue that they are attacking a toe hold from outside ashi top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent redirecting their hands away from their normal defensive positioning—protecting their trapped leg or maintaining frames—and reaching toward your feet. Specifically, watch for their near-side hand moving toward the ball of your foot or your toes. This hand movement precedes the figure-four establishment by 1-2 seconds, providing a critical defensive window where grip prevention is straightforward. The physical sensation of your foot being cupped or gripped is the secondary cue, but by that point you are already behind in the defensive sequence."
@@ -66,7 +66,7 @@ description: "Defend the toe hold from Outside Ashi-Garami in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How should you manage the dilemma between defending the toe hold and maintaining your offensive leg entanglement?",
+      "name": "Toe hold defense: how do you balance stripping the grip against keeping your own entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct priority depends on the toe hold's progression stage. If you detect the grip attempt early before figure-four establishment, you can often strip the grip with one hand while maintaining your entanglement with your legs—no positional sacrifice needed. If the figure-four is locked but rotation has not started, address it immediately by stripping the cupping hand while keeping your hooks active. Only abandon your entanglement entirely if the toe hold is fully locked with active rotation that you cannot relieve through hip rotation or grip stripping. Critically, the opponent's commitment to the toe hold actually creates advancement opportunities because their hands leave their defensive positioning."
@@ -82,7 +82,7 @@ description: "Defend the toe hold from Outside Ashi-Garami in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What defensive technique provides the best chance of escaping a partially applied toe hold where rotation has already begun?",
+      "name": "What best escapes a partially applied toe hold once rotation has already begun?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotating your hips in the same direction the opponent is twisting your foot provides the most immediate pressure relief because it collapses the rotational angle between your foot and your leg. This hip rotation buys critical time to strip the figure-four grip. Combine the hip rotation with two-on-one grip fighting targeting the cupping hand (the hand wrapped around your toes and ball of foot) specifically. Once you break that cupping grip, the figure-four loses its structural integrity and you can retract your foot. The combination of hip rotation plus targeted grip stripping is significantly more effective than either technique applied alone."
@@ -98,7 +98,7 @@ description: "Defend the toe hold from Outside Ashi-Garami in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "What specific anatomical structures are most at risk from a toe hold and how does this inform your defensive urgency?",
+      "name": "Which structures does a toe hold endanger, and how should that shape your defensive urgency?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The toe hold threatens the lateral ankle ligaments (anterior talofibular, calcaneofibular) through direct rotational force, plus the metatarsal joints through compression and twist. Critically, rotational torque transmits through the tibial-fibular connection to the knee, threatening the MCL and meniscus. This multi-joint kinetic chain means that even if your ankle feels manageable, your knee may be approaching structural failure simultaneously. You cannot rely solely on ankle pain as your warning system. If you feel any rotational pressure that you cannot immediately relieve through hip rotation or grip fighting, treat it as an emergency requiring instant defensive response or immediate tap."

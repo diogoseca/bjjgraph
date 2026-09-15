@@ -96,7 +96,7 @@
     "North-South",
     "S Mount",
     "Gift Wrap",
-    "Modified Scarf Hold"
+    "Kuzure Kesa Gatame"
   ],
   "related_submissions": [
     "Kimura",
@@ -319,7 +319,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary safety concern when applying the bicep slicer, and what application speed should be used in training?",
+        "question": "What are the bicep slicer's main injury risks, and how slowly should you apply it in training?",
         "answer": "The primary safety concerns are bicep muscle tears and elbow hyperextension injuries. In training, the bicep slicer must be applied EXTREMELY SLOWLY over a minimum of 5-7 seconds with constant communication. The submission attacks both the bicep muscle (compression) and elbow joint (hyperextension), making it capable of causing severe injury if applied suddenly or explosively. Training partners must be experienced enough to recognize the submission early and tap immediately.",
         "safety_critical": true,
         "answer_line": "Tears/hyperextension, 5-7s slow",
@@ -394,7 +394,7 @@
         }
       },
       {
-        "question": "What mechanical principle creates the finishing pressure in the bicep slicer, and how should force be applied?",
+        "question": "What mechanism creates the bicep slicer's pressure, and how should you apply the force?",
         "answer": "The bicep slicer works through a scissoring or plier-like mechanism where your shin acts as one jaw and your forearm/chest acts as the other jaw, with the opponent's arm trapped between them. The force is created by pulling the wrist toward your chest while simultaneously pushing your shin deeper behind the elbow. This compression crushes the bicep muscle against the humerus bone while hyperextending the elbow joint. Force should be applied using bodyweight and hip pressure rather than just arm strength, with smooth and progressive application rather than sudden jerking movements.",
         "safety_critical": false,
         "answer_line": "Shin-chest scissor crushes bicep",
@@ -424,7 +424,7 @@
         }
       },
       {
-        "question": "Your opponent starts to roll toward the trapped arm while you have the bicep slicer partially applied—what adjustment maintains the submission?",
+        "question": "Your opponent rolls toward the trapped arm mid bicep slicer—how do you keep the submission?",
         "answer": "When the opponent rolls toward the trapped arm, maintain your body position and follow their roll while keeping your shin locked behind their elbow. Use your free leg as a hook to control their hip and prevent the full roll completion. Your weight should stay connected to their body throughout the movement. You may end up in a different position (such as transitioning from crucifix to a mounted variation), but can often maintain the submission throughout the movement by keeping the shin-elbow-wrist connection intact.",
         "safety_critical": false,
         "answer_line": "Follow roll, hook hip, keep shin",
@@ -439,7 +439,7 @@
         }
       },
       {
-        "question": "What anatomical structures are at risk during a bicep slicer, and what are the warning signs of injury?",
+        "question": "Which structures are at risk in a bicep slicer, and what are the warning signs of injury?",
         "answer": "The bicep slicer attacks three anatomical structures: the bicep muscle belly (compression trauma), the elbow joint ligaments (hyperextension stress), and the radial nerve (compression). Warning signs of potential injury include sudden sharp pain in the bicep belly, popping or tearing sensations near the elbow, numbness or tingling in the forearm or hand (nerve involvement), and the opponent going silent or stiff instead of tapping. Any of these signs require immediate release and medical evaluation.",
         "safety_critical": true,
         "answer_line": "Bicep, elbow, radial nerve",
@@ -469,7 +469,7 @@
         }
       },
       {
-        "question": "How do you adjust your grip when your opponent hand-fights aggressively to prevent wrist control during the bicep slicer setup?",
+        "question": "How do you adjust your grip when they hand-fight to deny wrist control for the bicep slicer?",
         "answer": "When facing aggressive hand-fighting, switch from a standard wrist grip to a figure-four or kimura-style grip configuration that captures their wrist using both your arms. This grip is significantly harder to break and allows you to continue pulling the wrist toward your chest despite their resistance. Alternatively, if they're defending with their free hand, consider briefly releasing to attack the defending arm instead, setting up a crucifix or transitioning to control both arms before returning to the bicep slicer.",
         "safety_critical": false,
         "answer_line": "Switch to a figure-four wrist grip",
@@ -484,7 +484,7 @@
         }
       },
       {
-        "question": "In competition, how do you adjust your finishing speed and pressure while still respecting your opponent's safety?",
+        "question": "In competition, how do you speed up the bicep slicer finish while keeping your opponent safe?",
         "answer": "In competition, you can apply the bicep slicer faster than in training, but you should still avoid explosive jerking motions that bypass the opponent's ability to tap. Apply steady, progressive pressure and give the opponent a reasonable opportunity to tap before reaching maximum compression. Even in competition, maintain awareness—if your opponent goes limp or shows signs of losing consciousness (which can happen with intense pain), release and alert the referee. A victory obtained by permanently injuring an opponent is not worth the cost to the sport and your training community.",
         "safety_critical": true,
         "answer_line": "Steady pressure, give tap chance",
@@ -613,7 +613,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the single most important defensive action when you recognize a bicep slicer is being set up?",
+        "question": "What is the single most important defense once you recognize a bicep slicer being set up?",
         "answer": "Straighten the trapped arm immediately by driving toward full elbow extension. This is the highest-percentage defense because it removes the fulcrum mechanism entirely—the bicep slicer requires a bent arm to create compression against the shin. If you can extend the elbow before the attacker secures tight wrist control, the submission becomes mechanically impossible. Every second of delay allows the attacker to deepen wrist control and close the angle, making extension progressively more difficult.",
         "safety_critical": true,
         "answer_line": "Straighten the arm immediately",
@@ -643,7 +643,7 @@
         }
       },
       {
-        "question": "Your opponent has their shin partially behind your elbow but has not secured your wrist yet—what is your best defensive sequence?",
+        "question": "Their shin is behind your elbow but your wrist is still free—what is your best defense?",
         "answer": "Immediately straighten the arm while the wrist is still free, as this is the optimal escape window. Simultaneously, use your free hand to push the shin away from behind the elbow to displace the fulcrum. These two actions together—arm extension and shin displacement—create maximum defensive effect. Once the arm is straight, immediately begin working to escape the underlying dominant position through hip escapes or bridging, because the attacker will attempt to re-establish the submission setup if you remain in the same position.",
         "safety_critical": false,
         "answer_line": "Straighten arm, push shin away",
@@ -658,7 +658,7 @@
         }
       },
       {
-        "question": "How do you distinguish between a bicep slicer setup and an armbar setup from the crucifix or mount positions?",
+        "question": "How do you tell a bicep slicer setup from an armbar setup from crucifix or mount?",
         "answer": "The key differentiator is the direction of the attacking leg. In an armbar, the attacker swings their leg over your head and face to control your upper body while extending your arm. In a bicep slicer, the attacker threads their shin behind your elbow joint while keeping your arm bent, positioning the shin perpendicular to your forearm. The tactile cue is unmistakable: a bony shin surface pressing against the back of your elbow combined with the attacker pulling your wrist toward their chest signals bicep slicer. An armbar creates pressure along the top of the arm with hip elevation.",
         "safety_critical": false,
         "answer_line": "Shin behind elbow, arm stays bent",

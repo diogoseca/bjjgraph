@@ -56,7 +56,7 @@ description: "Complete defensive guide against the knee slice pass from butterfl
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that a knee slice is being set up from butterfly half guard top?",
+      "name": "From butterfly half bottom, what are the earliest cues a knee slice is being set up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the passer dropping hip weight specifically onto your butterfly hook side to kill the elevation potential, and the passer fighting to establish a crossface by driving their shoulder into your jaw. These actions precede the actual slicing motion by several seconds and represent the setup phase where you have maximum defensive options. Secondary cues include the passer's slicing knee angling toward your far hip and their free leg posting wide to build the base for forward drive."
@@ -64,7 +64,7 @@ description: "Complete defensive guide against the knee slice pass from butterfl
     },
     {
       "@type": "Question",
-      "name": "The passer has killed your butterfly hook and is beginning the slice—what is your immediate priority?",
+      "name": "They kill your butterfly hook and start the knee slice: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is inserting a secondary defensive structure before the knee crosses the thigh line. The two highest-percentage options are inserting a knee shield by driving your inside knee across their body as a frame, or diving to deep half guard by sliding underneath them while their weight is committed forward. The choice depends on spacing—if there is room between your bodies, the knee shield is more accessible; if the passer is tight against you with heavy chest pressure, the deep half entry exploits their forward commitment."
@@ -80,7 +80,7 @@ description: "Complete defensive guide against the knee slice pass from butterfl
     },
     {
       "@type": "Question",
-      "name": "You failed to stop the knee slice early and the passer is halfway through—what recovery options remain?",
+      "name": "You missed the early stop and the knee slice is halfway through: what recovery remains?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the knee mid-slice, your options narrow significantly but are not eliminated. Frame against the slicing knee with both hands and hip escape hard in the opposite direction to create space for guard recovery. If the passer's upper body control is loose, swim your near arm for an underhook and attempt to come to turtle or dogfight before the pass consolidates. If the pass appears inevitable, begin preemptive framing for side control defense by getting your near elbow to the mat and establishing inside frames before they settle their weight."

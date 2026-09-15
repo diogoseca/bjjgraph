@@ -312,7 +312,7 @@
         }
       },
       {
-        "question": "Your opponent straightens their leg and begins retracting their foot as you secure the entry - what is your best response?",
+        "question": "They straighten and retract the leg as you enter the kneebar; what is your best response?",
         "answer": "When they straighten their leg to deny the kneebar, immediately transition to a calf slicer by threading your near leg behind their calf while maintaining hip pressure against their knee. The straight leg that defends the kneebar actually facilitates the calf slicer because the rigid leg structure becomes the lever for the compression lock. Alternatively, adjust your angle and re-pursue heel control if their foot remains within grip range.",
         "answer_line": "Switch to calf slicer",
         "distractors": {
@@ -491,7 +491,7 @@
         }
       },
       {
-        "question": "Why is pulling your leg straight backward a poor defensive choice once the attacker has partial control?",
+        "question": "Why is pulling your leg straight back a poor defense once they have partial control?",
         "answer": "Pulling straight backward extends your leg along the attacker's centerline, which is precisely the alignment they need for the hyperextension finish. You are essentially straightening your own leg into their kneebar position. Instead, rotating your hip toward the attacker collapses the extension angle by bringing your knee offline from their hip crease, making the finish mechanically impossible even with partial leg contact maintained.",
         "answer_line": "Rotate hip, don't pull straight",
         "distractors": {
@@ -505,7 +505,7 @@
         }
       },
       {
-        "question": "What is your last-resort defensive option when the attacker has consolidated the kneebar position with knees pinched?",
+        "question": "What is your last-resort defense once the kneebar is consolidated with knees pinched?",
         "answer": "The last-resort defense is aggressively bending your knee and pulling your heel toward your buttock while fighting their grip on your ankle. A deeply bent knee cannot be hyperextended regardless of how much hip pressure they apply. This is energy-intensive because you are fighting their pulling force and hip bridge simultaneously, but it prevents the finish and buys time to work the leg free or wait for a grip adjustment that creates an extraction opportunity.",
         "answer_line": "Bend knee hard, heel to hip",
         "distractors": {
@@ -519,7 +519,7 @@
         }
       },
       {
-        "question": "How should your stance and weight distribution change when you recognize your opponent is playing grasshopper guard?",
+        "question": "How should your stance and weight change when you see them playing grasshopper guard?",
         "answer": "Widen your base slightly and keep your lead leg light rather than heavily weighted. Avoid committing full bodyweight forward onto either leg. Maintain enough distance that their inverted legs cannot immediately thread behind your knee without first closing the gap. Your posture should remain upright with hips back - bending at the waist brings you closer to their entanglement range and compromises your ability to step back quickly.",
         "answer_line": "Light lead leg, keep distance",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "Your opponent begins rolling to follow your step-back - how do you prevent them from catching you during the pursuit?",
+        "question": "They roll to follow your step-back out of grasshopper guard; how do you avoid being caught?",
         "answer": "When they roll to follow your retreat, circle laterally rather than continuing straight backward. Their rolling motion commits them to a linear path, and lateral movement forces them to reorient mid-roll, which breaks their momentum and leg connection. As you circle, look for an opportunity to drive forward onto their exposed back or side as their roll fails to track you, converting their offensive pursuit into your passing opportunity.",
         "answer_line": "Circle laterally, not straight back",
         "distractors": {

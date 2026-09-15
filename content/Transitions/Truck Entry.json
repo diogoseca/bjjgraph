@@ -261,7 +261,7 @@
         }
       },
       {
-        "question": "Why must the leg hook thread completely across the opponent's centerline rather than stopping halfway?",
+        "question": "For the truck entry, why must the leg hook thread fully past their centerline?",
         "answer": "A shallow hook allows the opponent to extract their leg by simply pulling it backward or sitting back to guard because you lack the leverage to prevent this escape. Threading completely across the centerline positions your shin and knee on the far side of their body, creating a locked structure where their own body weight and skeletal structure trap your hook in place. This deep position also maximizes your control over their far hip, which is essential for completing the roll to Truck position.",
         "answer_line": "Locks under their own bodyweight",
         "distractors": {
@@ -275,7 +275,7 @@
         }
       },
       {
-        "question": "Your opponent rolls forward over their shoulder during your Truck Entry attempt - how should you respond?",
+        "question": "They roll forward over their shoulder during your truck entry—how do you respond?",
         "answer": "Maintain your leg hook connection and follow their forward roll rather than fighting against it. If you stay attached with your hook engaged, their roll often delivers them directly into Truck position as they complete the rotation. The key is to keep chest pressure and not release your connections - their escape attempt becomes your entry mechanism. This principle of following opponent momentum is fundamental to Truck entries.",
         "answer_line": "Follow the roll, keep hook locked",
         "distractors": {
@@ -303,7 +303,7 @@
         }
       },
       {
-        "question": "Your opponent flattens their hips to the mat as you attempt to thread the hook - what adjustment do you make?",
+        "question": "They flatten their hips as you thread the truck hook—what adjustment do you make?",
         "answer": "When the opponent flattens their hips to deny the leg hook, you have two primary options. First, apply strong shoulder pressure to one side while pulling their far arm to force them onto their side, which re-opens the hip space for threading. Second, abandon the Truck Entry temporarily and switch to alternative turtle attacks such as Crucifix entry on the exposed arm or transition to front headlock position. The flattened hip defense is effective but leaves the opponent vulnerable to other attacks.",
         "answer_line": "Shoulder pressure + pull far arm",
         "distractors": {
@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "Your hook is established but the opponent is actively fighting your seatbelt - should you roll immediately or wait?",
+        "question": "Truck hook is in but they're fighting the seatbelt—do you roll now or wait?",
         "answer": "You should not roll until upper body control is secured, even if the hook is deep. Rolling without the seatbelt or equivalent upper body connection allows the opponent to separate from you mid-roll, resulting in a scramble where you lose all advantage. Instead, use your hook to limit their hip movement and off-balance them while you work to secure the seatbelt. If they are successfully preventing the seatbelt, consider pulling them onto your hook side to partially complete the roll and create a tighter connection angle before finishing the grip.",
         "answer_line": "Wait, secure seatbelt first",
         "distractors": {
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "Your opponent has established a partial hook but does not yet have seatbelt control - what should you prioritize?",
+        "question": "They have a partial truck hook but no seatbelt yet—what do you prioritize?",
         "answer": "Prioritize removing the partial hook immediately before the attacker can add upper body control. Use your hands to push their foot back under your hips while simultaneously sitting back toward guard or flattening your hips to deny the hook deepening. Once the attacker adds seatbelt control to an established hook, escape probability drops significantly because they can initiate the roll. The window between partial hook and complete entry is your best opportunity to abort their attack.",
         "answer_line": "Strip the foot before grip lands",
         "distractors": {
@@ -549,7 +549,7 @@
         }
       },
       {
-        "question": "The attacker has fully established the Truck position with deep hook and seatbelt - what is your best defensive strategy?",
+        "question": "They have a deep truck hook and seatbelt—what is your best defensive strategy?",
         "answer": "Once Truck is fully established, your immediate priority shifts to defending submissions (neck protection for Twister, leg defense for Calf Slicer) while working to clear the boot pressure on your hip. Address the boot first by using your free hand to fight it while the other hand protects your neck. If you can reduce the boot pressure, attempt a granby roll or hip escape to create enough space to extract your trapped leg. Accept that escape from a fully locked Truck is low-percentage and focus on preventing the finish while looking for moments of loosened control.",
         "answer_line": "Protect neck, fight boot pressure",
         "distractors": {

@@ -90,7 +90,7 @@ description: "Learn to execute the Frame Escape from High Mount in BJJ. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent pins your right arm to the mat while maintaining high mount—how do you adjust your frame escape?",
+      "name": "They pin your right arm in high mount: how do you adjust the frame escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free left arm to create a single-sided frame against their left hip while simultaneously hip escaping toward the trapped arm side. The hip escape creates an angle that makes it harder for them to maintain the arm pin. If the pin is too strong, bridge toward the pinned side to create space, then retract the arm to defensive position before re-attempting the frame escape with both forearms available."

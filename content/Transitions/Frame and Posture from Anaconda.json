@@ -261,7 +261,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the fundamental mechanical principle behind the Frame and Posture escape from Anaconda Control?",
+        "question": "What is the core mechanical principle of the frame and posture escape from anaconda control?",
         "answer": "The anaconda choke requires chest-on-shoulder compression to create the constricting force around the neck. Frames disrupt this compression by inserting a structural barrier between the opponent's chest and your trapped shoulder, reducing the force driving the choke even without breaking the opponent's grip. By removing the chest pressure component through skeletal framing, the choking loop loosens enough to allow posture recovery and eventual head extraction through the expanded opening.",
         "answer_line": "Frame breaks chest pressure",
         "distractors": {
@@ -289,7 +289,7 @@
         }
       },
       {
-        "question": "Your frame is established but the opponent is driving forward with heavy chest pressure—what adjustment do you make?",
+        "question": "Your frame is set but they drive forward with heavy chest pressure in anaconda: what adjustment?",
         "answer": "Angle your frame to redirect their forward pressure to the side rather than absorbing it head-on. Rotate your forearm so their weight slides past your frame rather than compressing through it directly. Simultaneously increase hip movement away from their pressure vector to create angular displacement that makes their forward drive less effective. If the direct forward pressure overwhelms, shift the frame slightly lower to their hip where you have better mechanical leverage against their mass.",
         "answer_line": "Redirect pressure to the side",
         "distractors": {
@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "Your opponent switches to a darce grip during your frame and posture recovery—how do you recognize and respond?",
+        "question": "They switch from anaconda to a darce during your frame and posture: how do you spot it and react?",
         "answer": "You will feel their choking arm threading deeper across the back of your neck while their opposite hand releases and re-grips from a different angle. The pressure vector shifts from the anaconda's lateral compression to the darce's diagonal compression across the neck. Immediately redirect your frame toward the darce's compression angle, typically shifting from their shoulder to their chest or far shoulder. Circle your hips toward the darce arm side while continuing posture recovery, as this direction weakens the darce compression geometry.",
         "answer_line": "Shift frame to darce angle",
         "distractors": {
@@ -359,7 +359,7 @@
         }
       },
       {
-        "question": "What grip configuration on your frame hand provides the most structural resistance against the opponent's body weight?",
+        "question": "What frame-hand configuration gives the most structural resistance against anaconda chest pressure?",
         "answer": "An open palm with fingers spread against the opponent's shoulder or a fist pressed into their far hip provides the most structural resistance. The key is forearm alignment—your forearm must be perpendicular to the opponent's body at approximately 90 degrees with your elbow tight against your own ribs. This short-lever configuration transmits force through your skeletal structure rather than relying on muscular effort. Avoid cupping or gripping their clothing, as this engages grip muscles that fatigue quickly under sustained pressure.",
         "answer_line": "Open palm, forearm perpendicular",
         "distractors": {
@@ -482,7 +482,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting a Frame and Posture escape rather than a grip break?",
+        "question": "In anaconda, what first tells you they're framing to posture rather than breaking your grip?",
         "answer": "The Frame and Posture escape is identified by feeling the opponent's free forearm make deliberate perpendicular contact against your shoulder or hip in a structural placement. This differs from the grip break where their free hand reaches toward your grip junction on the far side of their neck. The distinction matters because frame escapes are countered through body pressure adjustment and angle changes, while grip breaks are countered by squeezing elbows together and reinforcing the grip junction.",
         "answer_line": "Forearm presses your shoulder",
         "distractors": {
@@ -496,7 +496,7 @@
         }
       },
       {
-        "question": "Your opponent has established a strong frame against your shoulder and is beginning to lift their posture—should you maintain the anaconda or transition?",
+        "question": "They've framed your shoulder and are posturing up from your anaconda — hold it or transition?",
         "answer": "If posture recovery has reached the point where your chest is separating from their shoulder and the choking pressure is noticeably diminished despite your counter-pressure attempts, transition immediately. Your best options are darce configuration, which attacks from a different angle than the frame was designed to counter, or side control, which maintains dominant positioning. Continuing to fight a failing anaconda wastes energy and risks the opponent completing the escape to front headlock with momentum.",
         "answer_line": "Transition to darce or side control",
         "distractors": {
@@ -524,7 +524,7 @@
         }
       },
       {
-        "question": "When the Frame and Posture escape is partially successful and your opponent has created significant space, what is your optimal transition?",
+        "question": "Their frame and posture created space in your anaconda — what's your best transition?",
         "answer": "Your optimal transition is to the darce configuration. Thread your choking arm deeper across their neck while the frame-created space exists—the partial space actually assists the darce threading by providing room for your arm to travel across the back of their neck. The opponent's frame was positioned for the anaconda's compression angle, not the darce's diagonal compression, making this transition highly effective against the frame escape specifically. Time the transition before posture recovery completes or you lose the head control needed for the darce.",
         "answer_line": "Transition to darce quickly",
         "distractors": {

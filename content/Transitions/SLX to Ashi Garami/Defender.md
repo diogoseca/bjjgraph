@@ -56,7 +56,7 @@ description: "Complete defensive guide against SLX to Ashi Garami. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting the SLX to Ashi Garami transition, and what should your immediate response be?",
+      "name": "What's the earliest cue of an SLX to ashi entry, and how should you answer it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is their near hand reaching toward your heel while still in SLX. Your immediate response should be two-on-one grip fighting to prevent the heel grip from being established—grab their gripping wrist with both hands and strip it away from your heel before they can secure the C-grip. This is the highest-percentage defensive intervention point because without heel control, the entire transition sequence cannot proceed."
@@ -64,7 +64,7 @@ description: "Complete defensive guide against SLX to Ashi Garami. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is stepping over the opponent's legs more effective as a defense than pulling your trapped leg backward?",
+      "name": "Why is stepping over their legs a better defense than pulling your trapped leg back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stepping over changes the angle of engagement entirely, bypassing the clamping pressure of the opponent's legs rather than fighting directly against it. Pulling backward works against the strongest axis of their leg clamp and often tightens their control. Stepping over exploits the moment when their hip hook is removed (the transition window), using the temporary gap in structural control to extract your leg laterally rather than linearly. Additionally, a successful step-over puts you in a passing position rather than just returning to neutral."
@@ -72,7 +72,7 @@ description: "Complete defensive guide against SLX to Ashi Garami. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established heel control but has not yet removed their hip hook—what defensive strategy gives you the best chance of preventing the transition?",
+      "name": "They have heel control but still have the hip hook in—how do you stop the ashi entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Focus entirely on stripping the heel grip using two-on-one hand fighting. Grab their gripping wrist with both hands and forcefully peel their fingers off your heel. Simultaneously drive your weight down to maximize downward pressure on their hips. Since they still have the hip hook in place, they cannot begin the leg repositioning phase yet, giving you time to address the grip. If you successfully strip the heel, they must restart the entire setup sequence."
@@ -80,7 +80,7 @@ description: "Complete defensive guide against SLX to Ashi Garami. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive strategy when facing an opponent who uses sweep threats to mask the ashi entry?",
+      "name": "How do you adjust when they mask the ashi entry behind sweep threats from SLX?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain awareness that the sweep threat may be a feint designed to generate your defensive posting reaction, which creates the transition window. Instead of posting your hands widely to defend sweeps (which frees your legs for their manipulation), keep your hands close to your trapped leg and defend both threats simultaneously. Lower your base by bending your knees deeper rather than posting with hands, as this defends the sweep through structural stability rather than reactive posting while keeping your hands available to fight their heel grip attempts."
@@ -88,7 +88,7 @@ description: "Complete defensive guide against SLX to Ashi Garami. Recognition c
     },
     {
       "@type": "Question",
-      "name": "After your opponent initiates the transition and begins falling to their side, what is your highest-priority defensive action?",
+      "name": "They start the ashi entry and fall to their side—what's your top defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your hips forward and down to flatten them back to the mat before they can complete the perpendicular angle. Your forward drive should target their shoulder line, using your body weight to prevent them from establishing the side-lying position. Simultaneously push their inside leg off your hip with your free hand. If they have already committed too deeply to the lateral fall, switch to stepping over their legs to extract entirely rather than trying to force them flat—a half-completed reversal leaves you in a worse position than a committed extraction."

@@ -98,7 +98,7 @@ description: "Complete guide to executing the guard pass from New York Control. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent shoots a triangle attempt as you begin extracting your arm - what is your immediate response?",
+      "name": "They shoot a triangle as you extract your arm from New York control — what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep elbows pinned tightly to your ribs and tuck your chin to your chest. If the leg begins crossing behind your neck, immediately drive your shoulder into their thigh while stacking their hips to prevent the triangle from fully locking. Do not extend your arms or try to push the leg away, as arm extension creates exactly the isolation the triangle requires to finish."

@@ -90,7 +90,7 @@ description: "Master the toreando pass execution against inverted guard. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully tracks your lateral movement with hip rotation during the toreando — how should you adjust?",
+      "name": "They track your lateral movement with hip rotation during the toreando — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the inverted player tracks your lateral movement, immediately change direction — push their legs to the opposite side and circle the other way. This directional switch exploits the momentum of their rotation, as they must stop their hip movement and reverse direction. If double-switching fails, transition to a stack pass by driving their knees toward their chest, using their committed rotation against them. The key principle is never forcing the toreando in one direction against successful tracking."
@@ -98,7 +98,7 @@ description: "Master the toreando pass execution against inverted guard. Step-by
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail that differentiates the toreando leg redirection from a simple forward push?",
+      "name": "How does the toreando leg redirection against inverted guard differ from a simple forward push?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The toreando leg redirection must be perpendicular to the opponent's spine — driving their legs laterally past their own centerline rather than pushing forward or backward. A forward push simply compresses them deeper into inversion and feeds stack pass mechanics instead, while a backward push creates distance they can use to recover seated guard. The lateral vector eliminates the rotational axis the inverted player depends on, forcing their hips flat to one side where their inversion mechanics no longer function."

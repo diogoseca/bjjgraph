@@ -74,7 +74,7 @@ description: "How to execute Turtle to Truck Entry in BJJ. Attacking perspective
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary goal of the Turtle to Truck Entry and how does it differ from a traditional back take?",
+      "name": "What is the goal of the Turtle to Truck entry, and how does it differ from a standard back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary goal is to thread a leg hook through the opponent's legs and establish the initial leg triangle that defines Truck position. Unlike a traditional back take which targets seatbelt control and hook insertion on the opponent's hips, the Truck entry targets leg entanglement that controls the opponent's lower body. This creates a fundamentally different attacking framework: the Truck opens access to the Twister submission system, calf slicers, and banana splits rather than the rear naked choke and collar attacks of standard back control."
@@ -82,7 +82,7 @@ description: "How to execute Turtle to Truck Entry in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Which leg should you thread first during the entry and why is using the wrong leg a critical mechanical error?",
+      "name": "Which leg do you thread first in the Truck entry, and why is the other leg a mistake?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must thread the near-side leg (the leg closest to the opponent's hips) first. The near leg has the correct insertion angle because your hip is already adjacent to their body, allowing a smooth scooping motion. Threading the far leg first creates an awkward body angle that compromises your base, reduces leverage for the subsequent triangle lock, and positions your weight incorrectly relative to the opponent. The near leg also benefits from your chest pressure anchoring the entry, whereas the far leg would require lifting away from the opponent to thread."
@@ -90,7 +90,7 @@ description: "How to execute Turtle to Truck Entry in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent's weight is sitting back on their heels in turtle - should you attempt the Truck entry?",
+      "name": "Their turtle weight is back on their heels: should you go for the Truck entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No — the Truck entry needs their weight forward on their hands, so a heels-back turtle means the leg entry window is closed. When the opponent's weight is back on their heels, they have explosive backward movement options including standing up, sitting through to guard, or collapsing the turtle to prevent leg access. Loading the front of their base on their hands is what limits those backward defensive reactions and exposes the near leg. If their weight is back, use alternative attacks like a traditional back take attempt or front headlock to force them to shift weight forward, creating the entry window for the Truck."
@@ -106,7 +106,7 @@ description: "How to execute Turtle to Truck Entry in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "You have threaded your hook but the opponent begins extracting their trapped leg before you lock the triangle - what is your response?",
+      "name": "Your hook is in but they extract the trapped leg before you lock the triangle: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately accelerate the triangle lock by driving your far leg over to meet your near foot. Simultaneously extend your hips away from the opponent to create tension on the trapped leg, making extraction harder. If the leg is nearly free, abandon the triangle attempt and use your threading leg to transition to a traditional back hook while re-establishing seatbelt control. The failed Truck entry has already disrupted their turtle structure, making the subsequent back take attempt higher percentage than it would have been before the entry."
@@ -114,7 +114,7 @@ description: "How to execute Turtle to Truck Entry in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "How should you generate the force for threading your leg through - explosive kick or scooping hip motion?",
+      "name": "For the Truck entry, do you thread the leg with an explosive kick or a scooping hip motion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Always use a controlled scooping hip motion rather than an explosive kick. The hip-driven motion keeps your base stable, maintains chest pressure on the opponent, and does not telegraph the entry attempt. An explosive kick lifts your weight off the opponent, creates visible movement the opponent can react to, and often causes your shin to bounce off their thigh gap instead of threading through it. The scooping motion uses your hip as the power source while your shin slides smoothly through the available space like threading a needle."

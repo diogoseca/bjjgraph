@@ -88,7 +88,7 @@ description: "How to defend against Counter Roll to Top in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent stuffs your choke attempt and immediately bridges explosively - what is your immediate response?",
+      "name": "They stuff your choke and bridge explosively from Gift Wrap — what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drop your hips flat and sprawl your weight onto their back as the absolute first response. Simultaneously post your free hand toward the direction they are rolling. If the bridge has already generated significant rotation, be prepared to release the Gift Wrap to maintain back control rather than being reversed. After stopping the roll, resettle your weight and consider transitioning to body triangle to prevent future attempts."

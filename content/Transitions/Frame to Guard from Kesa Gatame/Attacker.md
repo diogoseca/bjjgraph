@@ -74,7 +74,7 @@ description: "Master the frame to guard escape from Kesa Gatame bottom. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for establishing your initial frame against the Kesa Gatame top player?",
+      "name": "What's the best timing window to establish your first frame under Kesa Gatame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The best timing is when the top player adjusts their position, attempts a submission, or shifts weight to deepen control. Any moment where their pressure temporarily decreases or their attention diverts creates an opening for frame establishment. You can also create your own timing by bridging slightly to force a weight adjustment, then immediately establishing your frame during their recovery. Waiting passively for perfect timing wastes energy and allows them to consolidate further."
@@ -106,7 +106,7 @@ description: "Master the frame to guard escape from Kesa Gatame bottom. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward aggressively when you begin framing - how do you adjust your escape approach?",
+      "name": "They drive forward hard as you frame under Kesa Gatame — how do you adjust your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent drives forward aggressively, their weight shifts toward your head, which actually creates space at your hips. Accept the forward pressure on your frame while simultaneously executing a hip escape in the opposite direction, exploiting the space their forward drive creates at the hip line. If the forward drive overwhelms your frame entirely, redirect to a bridge-and-roll escape that converts their committed forward momentum into a reversal opportunity."

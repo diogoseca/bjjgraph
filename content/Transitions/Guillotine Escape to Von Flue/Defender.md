@@ -56,7 +56,7 @@ description: "Defend against the Von Flue choke counter to your guillotine. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up a Von Flue counter to your guillotine?",
+      "name": "Holding a guillotine, what is the earliest cue that they are setting up a Von Flue counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when your opponent stops trying to strip your guillotine grip and instead begins walking their hips laterally toward your choking arm side. This directional change indicates they have accepted your grip and plan to weaponize it against you. Most practitioners instinctively try to strip the grip first, so the shift to pass-focused lateral movement is the critical warning signal."
@@ -64,7 +64,7 @@ description: "Defend against the Von Flue choke counter to your guillotine. Reco
     },
     {
       "@type": "Question",
-      "name": "You are holding a guillotine from closed guard and feel your opponent's shoulder pressing into your neck—what should you do immediately?",
+      "name": "Guillotine from closed guard and you feel their shoulder in your neck: what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release the guillotine grip immediately without hesitation—the Von Flue choke is already in progress and every second you maintain the grip increases the bilateral compression on your neck. After releasing, use both arms to frame against the opponent's shoulders and hips, turn your head away from the shoulder pressure, and begin working standard side control bottom escape sequences."
@@ -72,7 +72,7 @@ description: "Defend against the Von Flue choke counter to your guillotine. Reco
     },
     {
       "@type": "Question",
-      "name": "How does understanding the Von Flue counter change your overall approach to guillotine attacks from bottom guard?",
+      "name": "How should the Von Flue counter change your approach to guillotines from bottom guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Understanding the Von Flue counter means you must always monitor your guard integrity simultaneously with your choke progress. The guillotine is only safe while your guard prevents the lateral pass. If you sense the guard weakening, you must either finish the choke immediately or release and recover guard rather than stubbornly holding a compromised grip that could be turned into a weapon against you."
@@ -96,7 +96,7 @@ description: "Defend against the Von Flue choke counter to your guillotine. Reco
     },
     {
       "@type": "Question",
-      "name": "You are attacking a guillotine from butterfly guard and your opponent begins passing laterally—why is this more dangerous than from closed guard and how do you respond?",
+      "name": "Guillotine from butterfly and they pass laterally: why riskier than closed guard, and what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Butterfly guard provides less lateral pass prevention than closed guard because butterfly hooks primarily resist forward and upward movement, not lateral passing. When you feel the lateral pass beginning from butterfly, you must either immediately close your guard around their waist to lock them in place, or release the guillotine and use your butterfly hooks to elevate and create distance for guard recovery. The open nature of butterfly guard means the window between pass initiation and Von Flue danger is much shorter than from closed guard."

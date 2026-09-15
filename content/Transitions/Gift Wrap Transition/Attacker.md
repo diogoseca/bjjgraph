@@ -106,7 +106,7 @@ description: "How to execute Gift Wrap Transition in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your threading arm is in position but opponent is grip-fighting your wrist control - what adjustment do you make?",
+      "name": "They grip-fight your wrist control as you thread from high mount: what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their grip fighting on your wrist control hand is occupying their free arm. Threaten their exposed neck with your threading arm side - this forces a defensive priority shift. They must choose between continuing to fight your wrist grip or defending their neck. Either choice opens an opportunity: if they release your wrist to defend neck, complete the wrap immediately. If they continue grip fighting, attack the neck."

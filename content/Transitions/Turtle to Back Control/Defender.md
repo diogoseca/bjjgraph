@@ -78,7 +78,7 @@ description: "How to defend against Turtle to Back Control in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent's arm threading under your armpit for the seatbelt. What is your immediate response?",
+      "name": "You feel their arm threading under your armpit for the seatbelt in turtle. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately use two hands to control their threading arm at the wrist or forearm, preventing them from completing the seatbelt connection. Simultaneously begin moving your hips, either sitting back toward guard or shifting laterally to create an angle that disrupts their chest-to-back alignment. The two-on-one grip gives you leverage advantage on a single arm. Do not try to fight both arms simultaneously. Controlling the choking arm specifically is highest priority because it prevents the most dangerous submissions from being set up."
@@ -86,7 +86,7 @@ description: "How to defend against Turtle to Back Control in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established seatbelt and is beginning to insert the near-side hook. What defensive options remain?",
+      "name": "They have the seatbelt and are inserting the near hook on your turtle. What options remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your options narrow but are not eliminated. Kick your near leg back explosively to prevent the hook from setting inside your thigh. Simultaneously drive your hips away from the hooking leg side. If the hook does set, immediately work to prevent the second hook by turning toward the hook side, as a single hook is still escapable. You can also attempt to sit through to half guard on the hook side, using the hook against the attacker by trapping it during your rotation. The key is not conceding both hooks, as each additional control point makes escape exponentially harder."

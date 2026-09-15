@@ -52,7 +52,7 @@ description: "Essential guide to defending and escaping the triangle choke from 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your first defensive priority when you recognize you are caught in a triangle choke from triangle control?",
+      "name": "Caught in a triangle from triangle control, what is your first defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The immediate first priority is posture recovery—driving the spine vertical to create space between your neck and the attacker's compressing legs. Posture recovery relieves the direct choking pressure and creates the vertical space needed for all subsequent escape mechanics. Without recovering posture first, attempting arm extraction or other escapes typically makes the position worse by giving the attacker space to tighten their lock."
@@ -68,7 +68,7 @@ description: "Essential guide to defending and escaping the triangle choke from 
     },
     {
       "@type": "Question",
-      "name": "Why is squaring your shoulders to the attacker's hips an important defensive action against the triangle choke?",
+      "name": "Why is squaring your shoulders to their hips important when defending the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The triangle choke is most effective when the attacker achieves a 30-45 degree angle off your centerline, which aligns their thigh and shin with both carotid arteries. By squaring your shoulders to their hips, you eliminate this angle and force the compression onto the front of the throat (trachea) rather than the sides of the neck (carotid arteries). This dramatically reduces the blood choke efficiency and buys significant time for escape mechanics."
@@ -76,7 +76,7 @@ description: "Essential guide to defending and escaping the triangle choke from 
     },
     {
       "@type": "Question",
-      "name": "What defensive options become available when the attacker attempts to transition from the triangle to an armbar?",
+      "name": "What defensive options open up as the attacker switches from triangle to armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker begins swinging their leg over your face for the armbar transition, they must partially open the triangle lock, which creates an escape window. You can pull your head free during the transition, stack your weight forward to prevent the leg from clearing your head, or extract the previously trapped arm as the attacker's grip shifts to control your wrist. The transition moment is often the best escape opportunity because the attacker temporarily sacrifices triangle tightness to change positions."

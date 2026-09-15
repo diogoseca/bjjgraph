@@ -21,37 +21,37 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
     {
       "@type": "HowToStep",
       "name": "Execute North-South to Kimura",
-      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
-      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 27% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle Setup",
-      "text": "From this position, attempt Arm Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana from Kimura Trap",
-      "text": "From this position, attempt Americana from Kimura Trap. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Kimura Defense Arm Extraction",
+      "text": "From this position, attempt Kimura Defense Arm Extraction. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -444,9 +444,11 @@ Start in Kimura Trap Top from side control. Partner cycles through defensive rea
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Related control system emphasizing arm immobilization principles similar to straight jacket methodology</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Primary control position from which the entire system operates</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
-<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Alternative attacking control when opponent extends their arm during Lockdown battles</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Straight-Jacket-System" data-cta="related-system-card" data-system-slug="systems/danaher-straight-jacket-system" data-system-name="Danaher Straight Jacket System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Straight Jacket System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Related control system emphasizing arm immobilization principles similar to straight jacket methodology</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Kimura-Trap-System" data-cta="related-system-card" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-member-count="21"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Kimura Trap System</span><span class="system-card__unlocks-badge">Unlocks 21 techniques</span><span class="system-card__blurb">Primary control position from which the entire system operates</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Alternative attacking control when opponent extends their arm during Lockdown battles</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-North-South-Choke-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-north-south-choke-system" data-system-name="Marcelo Garcia North South Choke System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia North South Choke System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">A related arm-control context.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Neil-Melanson-Kimura-System" data-cta="related-system-card" data-system-slug="systems/neil-melanson-kimura-system" data-system-name="Neil Melanson Kimura System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Neil Melanson Kimura System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">A positional use of the kimura connection.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

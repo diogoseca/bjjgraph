@@ -561,5 +561,16 @@
       "duration": 374,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Guard Passing applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "pass",
+      "passing",
+      "guard retention",
+      "retain guard"
+    ],
+    "families": []
+  }
 }

@@ -335,7 +335,7 @@
         }
       },
       {
-        "question": "What is the most common mechanical failure that causes this pass to stall, and how do you prevent it?",
+        "question": "What mechanical error most often stalls the knee slice from reverse X, and how do you avoid it?",
         "answer": "The most common failure is attempting the slice before adequately degrading the primary hook behind the knee. When the hook is still engaged, it catches the knee mid-cut and creates a tug-of-war where the bottom player can re-establish full control. Prevention requires patience during the setup phase—invest in forward pressure, grip fighting, and controlled hook stripping until you feel the hook become shallow or lose purchase. Only then commit to the explosive slice. The setup is 80% of the technique.",
         "answer_line": "Slicing before hook is degraded",
         "distractors": {
@@ -349,7 +349,7 @@
         }
       },
       {
-        "question": "Your knee slice is stuffed by a strong hip frame and a re-hook—what passing options chain off the failed attempt?",
+        "question": "Your knee slice is stuffed by a hip frame and re-hook: what passes chain off the failure?",
         "answer": "Treat the knee slice as one vector in a three-option system. If the slice stalls against a frame, switch to a backstep pass that attacks from the opposite angle, exploiting that their arms are committed to the frame. If their hooks are simply too strong to slice through, abandon the cut and drive a smash pass forward to flatten their structure. Constantly threatening all three forces the bottom player into a defensive choice they cannot fully cover, which eventually reopens the slice as their attention shifts.",
         "answer_line": "Backstep or smash, keep threatening",
         "distractors": {
@@ -363,7 +363,7 @@
         }
       },
       {
-        "question": "Your opponent transitions to Single Leg X-Guard during your knee slice attempt—what went wrong and how do you adjust?",
+        "question": "They switch to single leg X during your knee slice: what went wrong and how do you adjust?",
         "answer": "This typically happens when you commit to the slice without maintaining forward pressure, creating space the bottom player uses to redirect your leg into Single Leg X hooks. To adjust, immediately stop forward passing momentum and address the new hook configuration. Backstep with the caught leg to clear the Single Leg X structure, or apply heavy downward pressure to pin their controlling foot to the mat. To prevent this in the future, maintain constant forward hip drive throughout the slice so the bottom player cannot create the space needed for the leg redirection.",
         "answer_line": "Stop, backstep or pin the foot",
         "distractors": {
@@ -482,7 +482,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that a knee slice attempt is developing from Reverse X-Guard Top?",
+        "question": "In reverse X bottom, what is the earliest cue a knee slice attempt is developing?",
         "answer": "The earliest cue is feeling the opponent's hand actively working to strip your primary hook behind their knee, combined with an increase in forward hip pressure. These two actions together indicate they are degrading your hook structure to create the passing lane. A secondary cue is their free leg stepping wider—this base widening creates the tripod needed for a stable slice. Recognizing these cues gives you time to reinforce hooks and counter-attack before the slice materializes.",
         "answer_line": "Hook stripped, pressure, wide base",
         "distractors": {
@@ -496,7 +496,7 @@
         }
       },
       {
-        "question": "Your primary hook has been stripped and the knee slice is in motion—what is your best defensive option?",
+        "question": "Your reverse X hook is stripped and the knee slice is in motion: what defense is best?",
         "answer": "Once the primary hook is stripped and the knee is actively cutting, your best option depends on timing. If the knee has not passed your midline, frame hard on the opponent's slicing hip to stall the pass and attempt to re-hook or transition. If the knee is past the midline, immediately insert your inside knee to catch half guard—this is damage limitation but preserves a guard position. The worst option is chasing a re-hook on a knee that has already committed to the slice, as this wastes energy on a low-percentage defense.",
         "answer_line": "Frame if early, half guard if late",
         "distractors": {

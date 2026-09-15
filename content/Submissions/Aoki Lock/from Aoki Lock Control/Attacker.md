@@ -84,7 +84,7 @@ description: "Learn to execute the Aoki Lock compression from Aoki Lock control.
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts rolling explosively while you have the finish locked in — what adjustment prevents escape?",
+      "name": "Your opponent rolls explosively out of your locked Aoki Lock — how do you keep the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their roll momentum while keeping the figure-four tight and the knees squeezing together. The rotation often seats the foot deeper into plantar flexion and tightens the compression rather than relieving it. Keep your hands managing distance so they cannot create the angle to extract the foot, and if they generate enough momentum, ride the roll back into control rather than fighting it directly."

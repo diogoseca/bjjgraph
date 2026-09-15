@@ -88,7 +88,7 @@ description: "How to execute Rear Naked Choke Setup in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent has excellent chin-tucking defense and you cannot slide your forearm beneath their chin—what adjustment opens the neck?",
+      "name": "They tuck the chin so you cannot get under it: what adjustment opens the neck for the RNC?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the jaw line by sliding your forearm across their face rather than trying to go under the chin. The discomfort of your forearm bone pressing against their jaw typically forces them to turn their head or lift their chin to escape the pressure. Alternatively, use your free hand to cup their forehead and physically lift their chin, or create an angle change by shifting your hips to the choking side while pulling their far shoulder toward you with the harness grip."
@@ -104,7 +104,7 @@ description: "How to execute Rear Naked Choke Setup in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully two-on-ones your choking arm before you can insert it beneath their chin—how do you recover?",
+      "name": "They two-on-one your choking arm before you insert it under the chin: how do you recover?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free hand to strip their top grip first, targeting their wrist and peeling it away from your arm. Once you clear the top hand, their bottom grip becomes much weaker and easier to strip. Alternatively, abandon the choke temporarily and attack their now-exposed arm—the same arm they're using to defend is vulnerable to armbar from back or can be trapped in crucifix position. Their defensive commitment creates offensive openings elsewhere."
@@ -112,7 +112,7 @@ description: "How to execute Rear Naked Choke Setup in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "What creates the finishing pressure in a properly executed rear naked choke—arm flexion or chest expansion?",
+      "name": "What creates RNC finishing pressure: arm flexion or chest expansion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest expansion and back muscle engagement create the finishing pressure, not arm flexion. The finish comes from pulling your shoulders back and expanding your chest while squeezing your elbows together toward your centerline. This uses your much stronger back and chest muscles rather than your biceps and forearms, resulting in faster finishes, less energy expenditure, and more consistent success against larger opponents."
@@ -120,7 +120,7 @@ description: "How to execute Rear Naked Choke Setup in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Your choking arm is beneath the opponent's chin but feels shallow—how do you deepen your position without losing what you have?",
+      "name": "Your RNC arm is under the chin but shallow: how do you deepen it without losing position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walk your arm deeper by rotating your choking shoulder forward while pulling your elbow tight across your own body. This motion slides your forearm further across their neck without creating the space that would allow them to escape or trap your arm. Simultaneously pull their head into the choke with your non-choking hand. Never accept a shallow position—a properly deep choke finishes in 3-5 seconds while a shallow choke may not finish at all."

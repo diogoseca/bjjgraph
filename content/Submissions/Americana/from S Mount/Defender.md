@@ -66,7 +66,7 @@ description: "Defend against the Americana from S Mount. Recognition cues, escap
     },
     {
       "@type": "Question",
-      "name": "What is the safest course of action when the Americana from S Mount is fully locked with rotation past your midline?",
+      "name": "The S Mount Americana is locked with rotation past your midline — what is the safest action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately using your free hand, verbal signal, or foot tap on the mat. Once the keylock is secured with proper hip pressure and the wrist has been rotated past your body's midline, the submission is mechanically complete. Attempting to resist risks serious rotator cuff tears, shoulder capsule damage, or glenohumeral dislocation. There is no defensive technique that reliably escapes a properly locked Americana at this stage - tap early to train again tomorrow."
@@ -74,7 +74,7 @@ description: "Defend against the Americana from S Mount. Recognition cues, escap
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins threading the figure-four grip from S Mount - what defensive options are available in the first two seconds?",
+      "name": "They start threading the figure-four in S Mount — what are your options in the first two seconds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In the first two seconds before the grip fully locks: drive your elbow to the mat and pin it tight to your ribs to prevent the hand from threading under, immediately grip your own collar with the threatened hand to create an anchor point they must break, and begin hip escaping toward their legs to disrupt the perpendicular alignment. The critical window is before the keylock locks - once the figure-four is fully set, defensive options diminish dramatically."
@@ -90,7 +90,7 @@ description: "Defend against the Americana from S Mount. Recognition cues, escap
     },
     {
       "@type": "Question",
-      "name": "You successfully defend the Americana grip but remain trapped in S Mount bottom - what is your immediate next priority?",
+      "name": "You stopped the Americana but are still under S Mount — what is your next priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Return to fundamental S Mount defense: maintain bent-arm protection with collar grip, control the opponent's near leg with your free hand, and begin hip escaping toward their legs. Do not relax after preventing the Americana - you remain in severe danger of armbar, triangle, or another Americana attempt. Use the brief transition period while the opponent resets their attack to create incremental space for escape. The goal shifts from submission defense to positional escape."

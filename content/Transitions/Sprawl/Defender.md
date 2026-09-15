@@ -56,7 +56,7 @@ description: "How to continue your takedown against a sprawl in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your double leg shot gets sprawled on and you feel heavy chest pressure collapsing your posture - what is your first defensive priority?",
+      "name": "Your double is sprawled on and chest pressure collapses your posture: first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your first priority is to tuck your chin tightly to your chest and bring your elbows close to your body to protect your neck from submission attempts. The opponent's immediate goal after sprawling is to establish front headlock control and attack with guillotines, darce chokes, or anacondas. If your neck is exposed during this transition, you are likely to be caught in a choke before you can execute any recovery. Secure the chin tuck first, then assess your remaining grip connections and available recovery options."
@@ -64,7 +64,7 @@ description: "How to continue your takedown against a sprawl in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "When should you attempt to re-shoot after your initial takedown is stuffed by a sprawl rather than continuing to fight from underneath?",
+      "name": "After your shot is stuffed, when should you re-shoot rather than fight from underneath?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Re-shooting is best attempted when you can create enough separation to stand up and the opponent has not yet locked up a front headlock grip. The window typically exists in the first two to three seconds after the sprawl lands, before the opponent transitions their hands from the mat to your head and neck. If you can push off their hips, circle away, and stand to an athletic stance, an immediate re-shot catches them while they are still recovering from the sprawl position. If the opponent already has front headlock grips, attempting to disengage and re-shoot is dangerous because they will snap you down as you try to stand."
@@ -80,7 +80,7 @@ description: "How to continue your takedown against a sprawl in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your shot gets stuffed and the opponent begins circling to establish front headlock - what is the most critical thing to prevent?",
+      "name": "They stuff your shot and circle for a front headlock: what must you prevent most?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical thing to prevent is allowing the opponent to get their arm deep around your neck while simultaneously controlling your far shoulder. This dual control is what makes front headlock dangerous, because it locks you in place and sets up all their submission chains. Use your hands to fight their incoming arm at the wrist or elbow, preventing them from threading under your chin. Simultaneously, circle in the opposite direction from where they are stepping to deny them the angle they need. If you can prevent the neck grip from being established, the front headlock remains loose and your escape options stay viable."
@@ -88,7 +88,7 @@ description: "How to continue your takedown against a sprawl in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "When is pulling guard the correct response to getting sprawled on versus continuing to fight for the takedown?",
+      "name": "After being sprawled on, when is pulling guard right instead of fighting for the takedown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling guard is the correct response when the opponent has consolidated front headlock control with deep grips and active submission threats, making continued standing engagement more dangerous than conceding bottom position. Specifically, if their arm is already deep around your neck and their chest pressure is heavy, attempting to fight through creates high risk of guillotine or darce finishes. In this scenario, sitting through to closed guard or half guard while controlling their arms neutralizes the front headlock threats and puts you in a guard position you can work from. However, pulling guard should be a last resort when other recovery options have failed, not a default response to any sprawl."

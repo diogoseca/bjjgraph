@@ -56,7 +56,7 @@ description: "Defend against the reguard from butterfly half guard. Learn to pre
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is attempting a reguard rather than a sweep?",
+      "name": "Earliest cue the bottom player is reguarding from butterfly half rather than sweeping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary distinguishing cue is the direction of hip movement. For sweeps, the bottom player drives hips into you or creates lateral angle to generate off-balancing force. For the reguard, the bottom player shrimps away from the trapped leg side while maintaining or increasing frame pressure on your shoulder—they are creating distance rather than closing it. Additionally, the trapped knee begins moving toward their chest in a circular path rather than pushing outward for sweep leverage."
@@ -64,7 +64,7 @@ description: "Defend against the reguard from butterfly half guard. Learn to pre
     },
     {
       "@type": "Question",
-      "name": "Why is the moment of hip escape the best time to initiate a counter-pass rather than simply resisting?",
+      "name": "Why counter-pass during their hip escape instead of just resisting the reguard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the hip escape, the bottom player's attention and physical effort are committed to creating lateral space and pummeling the trapped knee. Their frame is serving as a space-creation tool rather than a pass-blocking structure, and their butterfly hook is functioning as an anchor rather than as an active sweeping tool. This divided focus creates an optimal window for passing because their defensive reactions are delayed by the ongoing extraction effort. A knee slice through the created space meets less resistance than it would during a neutral position."
@@ -72,7 +72,7 @@ description: "Defend against the reguard from butterfly half guard. Learn to pre
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when you feel the butterfly hook driving upward during a reguard attempt?",
+      "name": "In butterfly half guard top, how do you adjust your weight as their butterfly hook drives upward?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drop your hips lower and shift weight slightly toward the butterfly hook side to smother the elevation. Do not lift your hips or lean away from the hook, as this creates space underneath that facilitates extraction. Keep your chest connected to the bottom player's chest or shoulder while widening your base with your free leg. The goal is to deny the upward space the hook is trying to create while maintaining enough pressure on the trapped leg to prevent pummeling."
@@ -80,7 +80,7 @@ description: "Defend against the reguard from butterfly half guard. Learn to pre
     },
     {
       "@type": "Question",
-      "name": "What is the correct defensive response if the bottom player successfully extracts the trapped leg but has not yet inserted the second hook?",
+      "name": "They free the trapped leg but haven't inserted the second hook yet—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This brief window between extraction and hook insertion is your last opportunity to prevent full butterfly guard. Immediately drive forward with heavy chest pressure to flatten the bottom player before they can sit up and establish posture. Simultaneously, use your knees to pinch inward, blocking the freed leg from inserting underneath your thigh as a hook. If you can flatten them with only one hook active, you are in a passing-advantaged position similar to smash half guard rather than facing full butterfly guard."
@@ -88,7 +88,7 @@ description: "Defend against the reguard from butterfly half guard. Learn to pre
     },
     {
       "@type": "Question",
-      "name": "When is it better to let the reguard succeed and address full butterfly guard rather than fighting the extraction?",
+      "name": "When is it better to accept the reguard to full butterfly guard than fight the leg extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the bottom player has already created significant angle and their knee is well into the pummeling path, forcing resistance wastes energy and often results in scrambles where the bottom player ends up in butterfly guard anyway but with momentum advantage. It is better to accept the transition to full butterfly guard while establishing your own grips and posture preemptively—getting your hands on their biceps, securing collar or wrist control, and dropping your base low before their hooks are fully active. Controlled acceptance with preparation is superior to desperate resistance that fails."

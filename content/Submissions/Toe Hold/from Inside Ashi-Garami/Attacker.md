@@ -84,7 +84,7 @@ description: "Learn to finish the toe hold from Inside Ashi-Garami with proper f
     },
     {
       "@type": "Question",
-      "name": "Your opponent defends the straight ankle lock by rotating their knee inward - how do you transition to the toe hold?",
+      "name": "They defend your ankle lock by rotating the knee inward—how do you get the toe hold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent rotates their knee inward to defend the ankle lock, their foot naturally extends past your hip, exposing the toes and ball of the foot. Release the ankle lock grip and immediately secure the outside hand across their toes and ball of the foot before they can curl their toes. Thread your inside arm over the top of the foot to complete the figure-four. Their ankle lock defense has created the exact exposure you need for the toe hold, which is why these two attacks chain so effectively."
@@ -92,7 +92,7 @@ description: "Learn to finish the toe hold from Inside Ashi-Garami with proper f
     },
     {
       "@type": "Question",
-      "name": "What control elements must be established before attempting the toe hold finish from Inside Ashi-Garami?",
+      "name": "Which controls must be set before finishing the toe hold from inside ashi-garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before finishing, you must have the inside leg firmly across the opponent's hip controlling their rotation, the outside leg hooked behind their knee preventing leg extension, perpendicular body alignment with chest connected to their trapped leg, and the complete figure-four grip locked with elbows squeezed together. Attempting the finish without any of these elements results in either a failed submission or loss of the entire leg entanglement position. Positional control always precedes the finishing attempt."
@@ -116,7 +116,7 @@ description: "Learn to finish the toe hold from Inside Ashi-Garami with proper f
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rolling away from the toe hold rotation - what adjustment prevents their escape?",
+      "name": "They start rolling away from your toe hold rotation—what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their roll by scooting your hips in the direction they are rolling while tightening your ashi-garami leg clamp. Keep your chest connected to their leg and maintain the figure-four grip orientation relative to their foot, not relative to your body position. If they roll toward you, the rotation naturally increases so you must be ready to reduce pressure to avoid injury. If they roll away, follow them and re-angle your body to maintain the medial rotational vector on their ankle."

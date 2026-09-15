@@ -72,7 +72,7 @@ description: "How to defend against Hindulotine to Darce Choke in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially threaded the Darce arm but has not locked the grip - what is your best defensive action?",
+      "name": "They have partly threaded the Darce arm but have not locked the grip — what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive forward aggressively to flatten the attacker while simultaneously working to extract your trapped arm. The forward pressure denies them the hip angle needed to lock the figure-four grip and generate finishing torque. Use your free hand to push against their hip or threading arm while walking your knees past their hips to establish a passing position."

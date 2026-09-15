@@ -56,7 +56,7 @@ description: "Defend and prevent the counter sweep from outside ashi-garami. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from leg attacks to a sweep attempt?",
+      "name": "What is the earliest cue that your opponent is switching from leg attacks to a sweep attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in the opponent's arm activity—when they shift from controlling your heel or threatening submissions to freeing their arms and reaching toward the mat for a posting position or toward your upper body for a controlling grip. This arm repositioning precedes the hip drive by a critical window of time. Additionally, their hip angle may shift from a perpendicular submission-oriented position to a more forward-facing sweep-oriented alignment."
@@ -64,7 +64,7 @@ description: "Defend and prevent the counter sweep from outside ashi-garami. Rec
     },
     {
       "@type": "Question",
-      "name": "Why does the opponent's figure-4 necessarily loosen during their sweep attempt, and how can you exploit this?",
+      "name": "Why must their figure-four loosen to sweep from outside ashi, and how do you exploit that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent must generate hip mobility to create sweeping force, which requires relaxing the tight figure-4 squeeze that characterizes effective outside ashi control. A maximally tight figure-4 prevents the hip rotation and forward drive needed for the sweep. This loosening creates a leg extraction window that does not exist during their tight entanglement. By accelerating your leg extraction during their sweep initiation, you can escape the entanglement precisely because their sweep mechanics require loosening the control that was preventing your escape."
@@ -80,7 +80,7 @@ description: "Defend and prevent the counter sweep from outside ashi-garami. Rec
     },
     {
       "@type": "Question",
-      "name": "What is the primary risk of committing too heavily to anti-sweep defense while still in the leg entanglement?",
+      "name": "What is the main risk of over-committing to sweep defense while still stuck in outside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Over-committing to anti-sweep defense can stall your escape progress entirely, leaving you trapped in outside ashi-garami indefinitely. The opponent can then cycle between sweep threats and submission threats, keeping you reactive and unable to advance your escape sequence. The optimal approach balances sweep defense with continued escape progression—your escape movements should incorporate anti-sweep base maintenance rather than treating them as separate sequential tasks."

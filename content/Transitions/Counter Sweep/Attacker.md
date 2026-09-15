@@ -82,7 +82,7 @@ description: "How to execute Counter Sweep in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "When defending a butterfly sweep, why is driving your chest down and sprawling your hips back more effective than simply widening your base?",
+      "name": "Against a butterfly sweep, why is sprawling chest down and hips back better than just widening base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Driving your chest down and sprawling attacks the mechanical principle of the butterfly sweep which relies on elevating your hips with their hooks while pulling your upper body forward. By driving your chest into their face and upper chest and sprawling your hips back, you create a downward pressure vector that their hooks cannot overcome, while simultaneously increasing the distance between your center of gravity and their elevating force. Simply widening base leaves your hips elevated and vulnerable to the lifting motion, whereas the sprawl fundamentally breaks their sweep mechanics."
@@ -98,7 +98,7 @@ description: "How to execute Counter Sweep in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "How does the concept of following the sweep differ from blocking the sweep, and when is each appropriate?",
+      "name": "How does following a sweep differ from blocking it, and when is each appropriate?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Blocking the sweep means directly opposing the sweep direction with your base and pressure, stopping their momentum completely. Following the sweep means moving with their sweep direction while maintaining superior position, essentially letting them move you while you stay on top and in control. Blocking is appropriate when you have strong base and recognize the sweep early enough to stop it with minimal effort. Following is superior when the sweep has momentum and blocking would require excessive energy, when you want to use their momentum to pass around their committed leg, or when following leads to an even better position than where you started."
@@ -114,7 +114,7 @@ description: "How to execute Counter Sweep in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining forward pressure important even while defending a sweep, and what is the risk of pulling away from the guard?",
+      "name": "Why keep forward pressure while defending a sweep, and what is the risk of pulling away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining forward pressure while defending a sweep keeps you in passing position ready to immediately capitalize when the sweep is defended, prevents opponent from easily resetting to their preferred guard, and maintains offensive initiative. Pulling away from the guard sacrifices your passing position, gives opponent time and space to establish strong guard structure, allows them to choose their best guard variation, and mentally shifts momentum in their favor. The correct mindset is solving the sweep problem while staying in the fight, not retreating to safety."

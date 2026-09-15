@@ -50,7 +50,7 @@ description: "How to defend against Pendulum Sweep in BJJ. Recognition cues, def
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point in the Pendulum Sweep setup where defensive intervention is most effective?",
+      "name": "Defending the pendulum sweep, at what point in their setup is intervention most effective?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest and most effective defensive intervention point is when the opponent first opens their guard and begins shifting their hips to create the perpendicular angle. At this stage, the sweep has no mechanical power because the pendulum leg has not been chambered and the grips have not been fully loaded. By immediately driving your hips forward, re-centering your weight, and stripping the sleeve grip, you collapse the entire sweep setup before it develops. Waiting until the pendulum leg is extended or swinging reduces your defensive options to reactive posting, which carries submission risk."
@@ -58,7 +58,7 @@ description: "How to defend against Pendulum Sweep in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Why does posting your hand on the mat to defend the Pendulum Sweep create vulnerability to follow-up submissions?",
+      "name": "Why does posting your hand to defend the pendulum sweep expose you to follow-up submissions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you post your hand on the mat, your arm becomes extended and isolated from your torso, creating immediate opportunities for the bottom player to transition to submissions. The posted arm is vulnerable to Kimura because the opponent can secure the figure-four grip on your wrist and elbow. It is also exposed to Omoplata if the opponent threads their pendulum leg over your shoulder. Additionally, the posting often creates the arm-across-centerline position that enables Triangle Choke entries. This is why grip stripping and base re-centering are preferred over reactive posting whenever possible."
@@ -66,7 +66,7 @@ description: "How to defend against Pendulum Sweep in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already created a 45-degree hip angle and is pulling your collar - what specific base adjustment prevents the sweep?",
+      "name": "They already have a 45-degree hip angle and your collar: what base adjustment stops the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the angle is already established, immediately widen your far-side knee outward to create a broader base in the direction the sweep will travel. Simultaneously drive your hips forward toward the opponent's centerline rather than sitting back, which would assist their sweep. Use your free hand to strip or control their collar grip while pinching your elbows tight to your ribs. If you cannot strip the grip, post your far hand wide on the mat at a 45-degree angle behind you to create a tripod, but immediately look to recover your hand once the sweep threat passes to avoid submission follow-ups on the posted arm."
@@ -74,7 +74,7 @@ description: "How to defend against Pendulum Sweep in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "How should your defensive strategy change when you feel the opponent's pendulum leg rising toward the ceiling?",
+      "name": "Defending the pendulum sweep, how does your strategy change once their leg is already rising?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the pendulum leg is rising, you have entered the reactive defense phase where early prevention is no longer possible. Your priority shifts to absorbing the incoming rotational force rather than preventing the setup. Immediately widen your base as far as possible, post your far hand wide, and lower your center of gravity by sitting your hips back toward your heels. Critically, do not try to grab the rising leg, as this removes your posting hand and accelerates the sweep. Instead, accept the force redirection and focus on maintaining enough base to prevent a complete rotation, then immediately re-engage grip fighting once the sweep attempt stalls."
@@ -82,7 +82,7 @@ description: "How to defend against Pendulum Sweep in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "What is the relationship between posture maintenance and Pendulum Sweep defense, and why does broken posture make the sweep harder to defend?",
+      "name": "How does posture affect pendulum sweep defense, and why does broken posture make it harder?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strong upright posture is the foundation of Pendulum Sweep defense because it keeps your center of gravity high and centered over the opponent, maximizing your base stability against rotational force. When your posture is broken forward, your weight shifts onto your hands and upper body, creating a top-heavy position that is extremely vulnerable to the pendulum's rotational mechanics. Broken posture also brings your head and shoulders closer to the mat, shortening the distance the opponent needs to rotate you, and it compromises your ability to widen your base or post effectively. Maintaining posture with head over hips and spine straight gives you the structural integrity to resist the sweep and the mobility to re-center when the angle is created."

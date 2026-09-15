@@ -386,7 +386,7 @@
         }
       },
       {
-        "question": "Your grip fighting has weakened the harness but opponent still has one hook deep - should you attempt the roll?",
+        "question": "Rolling to guard from harness bottom: the harness is weakened but one hook is deep — roll or not?",
         "answer": "One remaining hook is manageable if the harness grip is substantially weakened. The key factor is whether the hook will prevent your rotation or allow them to follow. If the hook is on the side you are rolling toward, clear it first or redirect your roll angle. If it is on the opposite side, proceed with the roll as the rotation naturally strips that hook during the forward momentum.",
         "answer_line": "Clear or redirect around hook",
         "distractors": {
@@ -576,7 +576,7 @@
         }
       },
       {
-        "question": "Why is driving your hips forward more effective than pulling your opponent backward when defending this escape?",
+        "question": "Defending the roll to guard from harness top, why beat driving hips forward pulling them back?",
         "answer": "Pulling backward uses arm strength against the opponent's entire body momentum and core power, which is a losing leverage exchange. Driving your hips forward uses your body weight and leg drive to eliminate the space needed for rotation while keeping you connected to their back. Forward hip pressure also makes it natural to follow their movement if they do initiate, maintaining back control through the transition rather than getting separated.",
         "answer_line": "Bodyweight beats arm strength",
         "distractors": {
@@ -590,7 +590,7 @@
         }
       },
       {
-        "question": "Your opponent completes a partial roll but hasn't established guard yet - what is your immediate recovery sequence?",
+        "question": "They partially roll to guard from harness bottom but have no guard yet — how do you recover control?",
         "answer": "Immediately drive forward to re-establish chest-to-back contact before they can turn to face you. Re-insert hooks if they were cleared during the roll, starting with the hook on the side they rolled toward. Tighten your harness grip and pull them back into full back control position. If they are already partially turned, transition to a gift wrap or crucifix to capitalize on their exposed arm rather than fighting to return to standard back control.",
         "answer_line": "Re-chest-to-back, reinsert hooks",
         "distractors": {

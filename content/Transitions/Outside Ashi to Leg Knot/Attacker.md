@@ -68,7 +68,7 @@ description: "How to weave from outside ashi-garami into the Leg Knot in BJJ. Se
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important thing to maintain throughout the weave from outside ashi to the Leg Knot?",
+      "name": "What must you maintain throughout the weave from outside ashi to the Leg Knot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee pinch on the trapped leg. The over-step and thread-under must happen without ever loosening the clamp on the opponent's leg. If the pinch releases to make room for the step, the opponent slides the leg free during the transition and the entanglement is lost back to a scramble. The free-leg movement is driven by the hips, not by surrendering existing control."
@@ -92,7 +92,7 @@ description: "How to weave from outside ashi-garami into the Leg Knot in BJJ. Se
     },
     {
       "@type": "Question",
-      "name": "Your opponent kicks through and starts spinning toward single leg X as you begin the weave - what do you do?",
+      "name": "They kick through toward single leg X as you start the weave to Leg Knot: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the half-formed weave and prioritize keeping the original leg trapped. Re-pinch hard to stay in outside ashi, and either follow their rotation to re-enter the over-step on the new angle or simply hold outside ashi and wait for the next passive beat. Forcing the knot against an active spin trades a dominant entry for a 50/50 scramble, so retreating to your existing control is the correct read."

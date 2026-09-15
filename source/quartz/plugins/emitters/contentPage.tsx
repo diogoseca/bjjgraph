@@ -99,7 +99,7 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
       const allFiles = content.map((c) => c[1].data)
 
       // Build slugMap once for O(1) transclusion lookups (replaces O(n) .find() per page)
-      const slugMap = new Map<FullSlug, typeof allFiles[0]>()
+      const slugMap = new Map<FullSlug, (typeof allFiles)[0]>()
       for (const f of allFiles) {
         if (f.slug) slugMap.set(f.slug, f)
       }
@@ -107,8 +107,12 @@ export const ContentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOp
       // Render all pages (CPU-bound), then batch write to disk
       const WRITE_BATCH = 64
       const fps: FilePath[] = []
-      const pendingWrites: Array<{ ctx: typeof ctx; content: string; slug: FullSlug; ext: ".html" }> =
-        []
+      const pendingWrites: Array<{
+        ctx: typeof ctx
+        content: string
+        slug: FullSlug
+        ext: ".html"
+      }> = []
 
       let containsIndex = false
       for (const [tree, file] of content) {

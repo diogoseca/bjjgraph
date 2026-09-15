@@ -305,7 +305,7 @@
         }
       },
       {
-        "question": "Your opponent straightens their captured arm and pulls their elbow tight to their body—what adjustment prevents escape?",
+        "question": "Lasso guard top Kimura: they straighten the arm and pin the elbow to their body—what do you do?",
         "answer": "Switch the attack direction to an Americana by redirecting the wrist pressure toward the mat rather than rotating behind the back. The straight arm defense that blocks the Kimura rotation actually exposes the opponent to the Americana's opposite-direction pressure. Alternatively, use the grip disruption to advance your passing position since the defensive focus has likely weakened the lasso.",
         "safety_critical": false,
         "answer_line": "Switch to Americana",
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "Your opponent bridges and rolls toward the Kimura side during your finishing attempt—how do you respond?",
+        "question": "Lasso guard top Kimura: they bridge and roll toward the Kimura side—how do you respond?",
         "answer": "Follow the roll while maintaining the figure-four grip, allowing the momentum to carry you into a mounted or side control Kimura position. Keep your grip locked and elbows tight as you transition through the roll. The opponent's bridge actually improves your finishing position by removing the ground as a brace for their shoulder, often making the submission tighter after the position change.",
         "safety_critical": false,
         "answer_line": "Follow the roll, keep grip",
@@ -380,7 +380,7 @@
         }
       },
       {
-        "question": "What is the most common error that leads to being swept during a Kimura attempt from Lasso Guard top?",
+        "question": "What error most often gets you swept during a Kimura attempt from lasso guard top?",
         "answer": "Abandoning base by bringing both knees close together or lifting a posting leg while focusing on the submission grip. The remaining lasso leverage gives the bottom player significant sweeping power, and any compromise in the top player's base creates an immediate sweep window. Maintaining wide leg base with at least one knee posted throughout the entire attack sequence is essential for stability.",
         "safety_critical": false,
         "answer_line": "Losing wide base, knees close",
@@ -578,7 +578,7 @@
         }
       },
       {
-        "question": "What immediate action should you take the moment you feel a figure-four grip threading under your arm?",
+        "question": "In lasso guard, what do you do the instant you feel a figure-four thread under your arm?",
         "answer": "Immediately grab the nearest anchor point—your own belt, lapel, pants, or opposite wrist—with the threatened hand to prevent the attacker from generating any rotation. This buys critical time to begin hip escape and bridge sequences. Without an anchor grip, the attacker can finish the submission almost immediately once the figure-four locks, leaving no time for positional defense or escape attempts.",
         "safety_critical": false,
         "answer_line": "Grab anchor: belt or lapel",
@@ -593,7 +593,7 @@
         }
       },
       {
-        "question": "What defensive options are available if you recognize the Kimura before the figure-four is established?",
+        "question": "In lasso guard, how do you defend a Kimura you spot before the figure-four is established?",
         "answer": "The primary defense is immediate arm retraction—pull your elbow tight to your hip and grip your own lapel or belt to anchor the arm in a safe position. This denies the space the attacker needs to thread the figure-four. You can also use hip movement to angle away from the attacker, preventing the chest pressure they need to flatten your hips. Releasing a collar grip is always preferable to defending a locked shoulder lock.",
         "safety_critical": false,
         "answer_line": "Retract elbow, anchor to belt",

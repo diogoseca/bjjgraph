@@ -64,7 +64,7 @@ description: "How to defend against Progression to Zombie in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why is defense during the transition window dramatically more effective than defense after Zombie is established?",
+      "name": "Why is defending during the Zombie transition far more effective than after it is established?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the attacker's control system is temporarily weakened in three ways: shin pressure across your back decreases as the leg moves, the attacker's attention is divided between maintaining the overhook and guiding the leg, and their grip on the shin may need to adjust position. This creates a window where their control is at approximately 60-70% of full strength. Once Zombie consolidates, all three control elements are re-established at full strength with the added mechanical advantage of the higher leg position."
@@ -72,7 +72,7 @@ description: "How to defend against Progression to Zombie in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent's shin beginning to slide up your back - what is your immediate defensive response?",
+      "name": "You feel their shin sliding up your back toward Zombie. Immediate defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive forward pressure with your hips and chest to collapse the space needed for hip rotation and leg elevation. Simultaneously, use your free hand to strip their shin grip if accessible, targeting the moment when their hand is repositioning on the moving leg. If the forward drive stalls their transition, follow up with overhook extraction attempts while their control system is disrupted. Do not pull backward as this creates the space they need to complete the transition."
@@ -88,7 +88,7 @@ description: "How to defend against Progression to Zombie in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your overhook extraction attempt partially succeeds but the arm is not fully free - what is the risk and how do you manage it?",
+      "name": "Your overhook extraction is only partial: what is the risk and how do you manage it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A partial extraction where your arm is sliding out but not fully clear creates a dangerous triangle entry for the attacker. They can redirect their transitioning leg over your shoulder instead of around it, catching your partially-extracted arm inside the triangle. To manage this, commit fully to the extraction - once you start pulling, do not stop halfway. Drive your elbow tight to your ribs and rotate your forearm toward your hip in a corkscrew motion. If you feel them shooting for the triangle, immediately stuff your head forward and drive into them to prevent the leg from clearing your shoulder."

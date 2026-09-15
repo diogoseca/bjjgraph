@@ -64,7 +64,7 @@ description: "Defend against the push sweep from feet on hips guard in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your weight is already committed forward and you feel the legs beginning to extend—what is your emergency response?",
+      "name": "Your weight is forward and their legs start extending for the push sweep — emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post one hand behind you to catch your fall while simultaneously attempting to strip one foot off your hip with your other hand. Turn your body slightly to the side rather than falling straight backward, which reduces the sweep's effectiveness and creates a scramble opportunity. If the post holds, drive your hips forward to re-center your weight and strip the remaining foot. This is a last-resort defense—the goal is to recognize and respond before reaching this point."

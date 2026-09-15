@@ -100,7 +100,7 @@ description: "How to execute X Pass in BJJ. Attacking perspective with setup, ex
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to wait until the opponent is fully flattened before attempting to clear your trapped leg?",
+      "name": "In the X Pass, why flatten your opponent fully before clearing your trapped leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Clearing the leg early lets the opponent track it with their knees and hips to re-establish half guard or enter deep half. When the opponent is fully flattened with effective crossface and pressure, their ability to move their lower body is severely compromised; the flattened structure prevents them from generating the hip movement needed to follow your leg. Rushing leg extraction is the most common reason the X Pass fails against competent guard players."
@@ -108,7 +108,7 @@ description: "How to execute X Pass in BJJ. Attacking perspective with setup, ex
     },
     {
       "@type": "Question",
-      "name": "Your opponent secures a deep underhook on the trapped side mid-pass. What is your immediate response?",
+      "name": "Your opponent gets a deep underhook on the trapped side mid X Pass — immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the underhook is already established, immediately transition to an over-under pass variation. Wrap their underhook arm by weaving your arm over their shoulder and behind their back, using the underhook itself as a handle to drive them flat. This converts their offensive grip into a liability. If the underhook is shallow, you can still prevent it by driving your elbow tight to your ribs and increasing crossface pressure to flatten their shoulder back to the mat before they can deepen the grip."

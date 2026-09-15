@@ -90,7 +90,7 @@ description: "Execute the collar drag from open guard to achieve front headlock 
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical detail that differentiates an effective collar drag from an ineffective one?",
+      "name": "What pulling detail separates an effective collar drag from an ineffective one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The diagonal pulling angle is the critical mechanical differentiator. The grip must be pulled toward the mat beside your opposite hip, not straight toward your chest. This diagonal vector combines downward force with lateral redirection, preventing the opponent from posting effectively because they would need to resist in two directions simultaneously. The torso rotation amplifies this diagonal force by recruiting your entire core rather than relying on isolated arm strength."

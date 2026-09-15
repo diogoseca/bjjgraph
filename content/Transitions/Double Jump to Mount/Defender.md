@@ -72,7 +72,7 @@ description: "Defend against the Double Jump to Mount transition. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has extracted one hook and is stepping over - what is your immediate defensive response?",
+      "name": "From turtle, they extract one hook and step over: what is your immediate defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately initiate a hip escape toward the side of the extracted hook while turning your body to face the opponent and inserting your knee to establish a frame or half guard position. This hip movement creates a physical barrier that prevents the step-over from completing cleanly. Timing is critical because the hip escape must begin during the step-over motion before the attacker settles weight into mount."

@@ -98,7 +98,7 @@ description: "How to execute the Transition to Half Butterfly in BJJ. Systematic
     },
     {
       "@type": "Question",
-      "name": "Your opponent scoots their hips back and re-inserts the hook immediately after you clear it. How do you prevent this?",
+      "name": "They scoot their hips back and re-insert the hook right after you clear it: how do you prevent this?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain constant forward pressure throughout the clearing sequence so the opponent cannot create the hip distance needed to re-insert. As you clear the hook, your chest should be driving into their upper body and your cleared-side hip drops to the mat, pinning their ankle or foot with your shin. If they still re-insert, immediately re-drive the knee down rather than accepting the recovery. The key is eliminating space by staying tight and heavy."
@@ -114,7 +114,7 @@ description: "How to execute the Transition to Half Butterfly in BJJ. Systematic
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates a butterfly sweep with both hooks as you begin the clearing sequence. What is your immediate response?",
+      "name": "They start a two-hook butterfly sweep as you begin clearing: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the clearing attempt immediately and address the sweep threat. Post both hands wide on the mat, sprawl your hips backward to kill the elevation, and drive your chest down to re-flatten the bottom player. Do not try to complete the hook clear mid-sweep, as this commits your weight in the direction the opponent is trying to sweep you. After stabilizing, reset your upper body control and wait for the next clearing window when the opponent settles back to a neutral position."

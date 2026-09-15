@@ -90,7 +90,7 @@ description: "How to execute Electric Chair Transition in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far hand on the mat when you begin elevation - what are your two best options?",
+      "name": "They post their far hand as you start elevating for the Electric Chair — two best options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Option one: Use your free hand to control their posting arm by grabbing their wrist and pulling it across their body, eliminating their base. Option two: Redirect to Old School sweep since their posting commits their weight, making them vulnerable to the backward roll. Choose based on which grip is more accessible and their weight distribution."
@@ -106,7 +106,7 @@ description: "How to execute Electric Chair Transition in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "When the opponent windshield wipers their trapped leg to escape, what transition opportunity does this create?",
+      "name": "They windshield wiper the trapped leg to escape — which transition does that open?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The windshield wiper motion exposes the crab ride position and creates an immediate Truck entry opportunity. Rather than fighting to maintain the Electric Chair path against their rotation, follow their movement and transition to Truck. Their defensive rotation actually facilitates your entry to an equally dangerous attacking position."

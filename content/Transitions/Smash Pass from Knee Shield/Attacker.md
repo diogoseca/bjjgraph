@@ -74,7 +74,7 @@ description: "Complete attacker guide to the Smash Pass from Knee Shield. Learn 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent frames against your shoulder with both hands as you begin the smash pass—how do you adjust?",
+      "name": "Smash passing the knee shield, they frame your shoulder with both hands. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight the frames directly by pushing through them. Instead, swim your crossface arm underneath their near frame to re-establish shoulder-to-jaw contact. Use your controlling grip on the shield leg to continue the lateral collapse while your upper body works past their frames. If both frames are strong, adjust your angle further to redirect their pushing force away from your centerline, then re-engage the collapse from the new angle."
@@ -90,7 +90,7 @@ description: "Complete attacker guide to the Smash Pass from Knee Shield. Learn 
     },
     {
       "@type": "Question",
-      "name": "The bottom player gets an underhook as you attempt to collapse the shield—what is your immediate response?",
+      "name": "Smash passing the knee shield, they get an underhook. What is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately whizzer their underhook arm by threading your arm over theirs and clamping your elbow tight to your body. Drive your weight forward and down to prevent them from elevating to dogfight position. If the whizzer is secure, you can continue the smash sequence while controlling the underhook. If they achieve a deep underhook that you cannot whizzer, switch to a crossface cradle or front headlock position rather than continuing the pass with a compromised position."

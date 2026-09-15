@@ -955,7 +955,7 @@
       }
     },
     {
-      "question": "Why does bilateral leg coordination create a destabilizing effect that unilateral leg control cannot achieve?",
+      "question": "Why does controlling both legs destabilize more than single-leg control in the Double Jump?",
       "answer": "Engaging both legs simultaneously attacks the opponent's base on two points at once, removing the counterbalance a single-leg entanglement leaves intact. With one leg controlled, an opponent can still post and re-base off the free side, but bilateral insertion eliminates that recovery lever and forces a genuine dilemma. The synchronized motion also generates more disruptive momentum than sequential placement, which the opponent can read and defend against. This is why the position functions as a forcing mechanism rather than a mere control point.",
       "answer_line": "Removes the free-side base",
       "distractors": {
@@ -969,7 +969,7 @@
       }
     },
     {
-      "question": "Why is Double Jump understood as a transitional forcing position rather than a static holding position?",
+      "question": "Why is Double Jump a transitional forcing position rather than a static holding position?",
       "answer": "The bilateral leg configuration is inherently unstable and energy-expensive to maintain, so it cannot be held indefinitely by either player. Its value lies in the brief dilemma it imposes, which collapses as soon as the opponent recovers base or extracts a leg. Holding it statically simply drains energy and lets the opponent regain composure, so the position must immediately be converted into a sweep, back take, or advance. Both perspectives treat it as a launching point, with typical dwell times measured in single-digit seconds.",
       "answer_line": "Advantage collapses if held",
       "distractors": {
@@ -1011,7 +1011,7 @@
       }
     },
     {
-      "question": "Why is full explosive commitment essential to Double Jump, and what happens to a half-committed attempt?",
+      "question": "Why must Double Jump be fully committed, and what happens to a half-committed entry?",
       "answer": "The position depends on beating the opponent's base recovery, and only a fast, fully committed bilateral insertion moves faster than their defensive reaction. A half-committed attempt leaves the legs partway inserted, giving the opponent the moment they need to sprawl, post, or widen their base. This typically leaves the committing player in a worse position than before, having surrendered structure without gaining the leg control. The high risk of full commitment is justified by the percentage gain over slower incremental methods.",
       "answer_line": "Must outrun base recovery",
       "distractors": {
@@ -1025,7 +1025,7 @@
       }
     },
     {
-      "question": "How does Double Jump differ from adjacent single-leg-based positions like standard half guard or a lone leg hook?",
+      "question": "How does Double Jump differ from half guard or a single leg hook?",
       "answer": "Standard half guard and single leg-hook controls engage only one of the opponent's legs, preserving their free-side base and making the exchange incremental and contestable. Double Jump instead commits both legs at once, converting the exchange from a gradual battle for position into an immediate forcing dilemma. This is why it is treated as an advanced variation rather than a baseline position, trading the stability and lower energy cost of single-leg control for explosive positional change. It sits one step more aggressive and less sustainable than the positions it derives from.",
       "answer_line": "Commits both legs, not one",
       "distractors": {
@@ -1039,7 +1039,7 @@
       }
     },
     {
-      "question": "What shared dilemma does the bilateral leg configuration impose on the opponent regardless of which player holds the position?",
+      "question": "What dilemma does Double Jump's bilateral leg control impose, whichever player holds it?",
       "answer": "Because both legs are committed, the opponent faces two threats that cannot be defended simultaneously: addressing the leg entanglement opens one line of attack, while defending that line frees the legs to off-balance them. In the top turtle context this manifests as back exposure versus sweep vulnerability, and in the bottom entry context as sweep versus back-take exposure. The underlying mechanism is identical, a two-front problem created by controlling the base on both sides at once. Resolving one threat inherently concedes the other, which is what makes the position a genuine forcing mechanism.",
       "answer_line": "Two threats, can't defend both",
       "distractors": {

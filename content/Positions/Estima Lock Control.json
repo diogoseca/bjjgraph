@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "Your opponent starts sitting up and posting their free leg on the mat—what adjustment should you make?",
+        "question": "In Estima Lock Control, they sit up and post their free leg. What adjustment do you make?",
         "answer": "When the opponent sits up and posts, you should use your legs or body position to control their free leg mobility, consider transitioning to a different leg entanglement like the saddle through a backstep, or increase hip pressure against their calf to prevent further posture improvement. The sitting up motion indicates they are building frames, so you must either finish quickly or transition before they establish strong defensive positioning.",
         "answer_line": "Control free leg, finish fast",
         "distractors": {
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "Your opponent starts pulling their knee toward their chest to create slack in the lock—how do you adjust your hip positioning?",
+        "question": "In the Estima Lock, they pull their knee toward their chest for slack. How do you adjust your hips?",
         "answer": "Drive your hips forward immediately to close the gap they are creating. Your hip pressure against their calf is the fulcrum that prevents leg retraction—any slack means your hips have drifted too far from their leg. Re-establish contact by scooting your body weight toward their trapped leg and pinning their calf between your hip and the mat. Simultaneously check that your forearm lever is still properly positioned across the top of their foot.",
         "answer_line": "Drive hips forward, pin calf",
         "distractors": {
@@ -366,7 +366,7 @@
         }
       },
       {
-        "question": "Your opponent turns their foot away from the lock angle—how do you capitalize on this defensive movement?",
+        "question": "In the Estima Lock, they turn their foot away from the lock angle. How do you capitalize?",
         "answer": "When the opponent turns their foot away from the Estima Lock angle, their toes become exposed for a toe hold attack. This is a natural transition opportunity where you maintain control while adjusting your grip configuration to attack the now-available toe hold angle. The defensive movement that defeats one attack often opens another.",
         "answer_line": "Transition to toe hold",
         "distractors": {
@@ -394,7 +394,7 @@
         }
       },
       {
-        "question": "Your rotational pressure stalls and you feel the opponent's ankle stabilizing despite maintained grip—what signals tell you to transition to an alternative attack?",
+        "question": "In the Estima Lock, what signals say the ankle stabilized and you should switch attacks?",
         "answer": "Key signals include: the opponent successfully counter-rotating to neutralize your rotational angle, their free leg establishing strong defensive frames you cannot break, their hips creating space despite your pressure, or their upper body achieving seated posture with active frames on your hips. When rotational pressure stops generating increasing resistance through the ankle, the lock's effectiveness has been neutralized. Transition immediately to toe hold, ashi garami, or saddle to maintain offensive momentum.",
         "answer_line": "Ankle stabilizes, switch attack",
         "distractors": {
@@ -408,7 +408,7 @@
         }
       },
       {
-        "question": "Your opponent partially extracts their foot but remains within grip range—how do you recover control?",
+        "question": "They partly extract their foot from your Estima Lock but stay in range. How do you recover control?",
         "answer": "When partial extraction occurs but they remain in range, immediately re-address the foot control by clearing any defensive frames with your legs, re-establishing the figure-four grip before they can complete extraction, and adjusting hip pressure to prevent further foot retraction. The key is recognizing the partial escape early and addressing it before full extraction occurs.",
         "answer_line": "Re-clear frames, re-grip fast",
         "distractors": {
@@ -716,7 +716,7 @@
         }
       },
       {
-        "question": "Your opponent tightens their grip and begins applying rotational pressure—what physical signals indicate you should tap?",
+        "question": "Caught in an Estima Lock as they apply rotation, what signals mean you should tap?",
         "answer": "Tap signals include: sharp pain in the ankle joint or Achilles tendon area, sensation of the ankle being twisted beyond normal range, inability to reduce pressure through counter-rotation, loss of hip mobility preventing escape attempts, and recognition that the mechanical completion of the lock has occurred. When any of these signals appear, immediate tap preserves joint health and training longevity.",
         "answer_line": "Sharp ankle or Achilles pain",
         "distractors": {
@@ -730,7 +730,7 @@
         }
       },
       {
-        "question": "Your trapped knee straightens during an escape attempt and you immediately feel increased pressure on your ankle—what happened and how do you correct this?",
+        "question": "In an Estima Lock, your trapped knee straightens and pressure spikes. Why, and what do you do?",
         "answer": "A straight knee creates a direct line of force transmission that dramatically amplifies the Estima Lock's mechanical advantage on your ankle joint. The increased pressure occurs because all of the opponent's rotational force now transfers directly through the ankle without any absorption from the bent knee. Immediately re-bend your knee to reduce this linear force transmission. Use circular hip movements rather than linear pushing to restore your escape angles while protecting the joint.",
         "answer_line": "Re-bend the knee immediately",
         "distractors": {
@@ -744,7 +744,7 @@
         }
       },
       {
-        "question": "Your opponent tightens their grip and you realize your free leg is flat on the mat doing nothing—what immediate adjustment do you make?",
+        "question": "Caught in an Estima Lock, your free leg is flat and idle. What adjustment do you make?",
         "answer": "Activate the free leg immediately by positioning your foot on the opponent's hip, inner thigh, or behind their knee. This leg is your primary escape lever and leaving it passive surrenders critical defensive capability. Push their hips to create distance, hook their leg to generate structural instability, or establish a butterfly hook for potential elevation. The opponent's ability to maintain control depends heavily on restricting your hip mobility, and an active free leg is the most effective tool for generating the space and angles needed for extraction.",
         "answer_line": "Hook it on hip or knee",
         "distractors": {
@@ -800,7 +800,7 @@
         }
       },
       {
-        "question": "Your shoulders flatten to the mat during the defense and you lose your angle toward the trapped side—how do you recover your mobility?",
+        "question": "In an Estima Lock, your shoulders flatten and you lose your angle. How do you recover mobility?",
         "answer": "Post immediately with your far hand (the hand on the side away from the trapped leg) and drive your elbow into the mat to create a posting base. Turn your shoulders back toward the trapped leg side by bridging slightly and using the posted hand as a pivot point. Simultaneously activate your free leg to push the opponent's hips and create space that allows your upper body to recover its angle. Being flattened eliminates the hip mobility required for extraction, so recovering this angle is an urgent priority before continuing any escape attempt.",
         "answer_line": "Post far hand, turn shoulders",
         "distractors": {
@@ -846,7 +846,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural feature fundamentally distinguishes Estima Lock Control from a traditional straight ankle lock?",
+      "question": "What structural feature distinguishes the Estima Lock from a straight ankle lock?",
       "answer": "The defining feature is the inverted foot orientation, where the trapped foot is twisted so the heel sits higher than the toes and rotational torque replaces the straight-line plantar extension of a conventional ankle lock. Instead of hyperextending the ankle along its natural axis, the configuration loads the joint through rotation, stressing the ankle complex and Achilles tendon at an unnatural angle. This changes both the finishing mechanics and the escape angles, because counter-rotating the ankle rather than simply pulling the foot straight out becomes the relevant defensive lever. It is this rotational vector, not compression along the foot's length, that makes the position what it is.",
       "answer_line": "Inverted foot, rotational torque",
       "distractors": {
@@ -860,7 +860,7 @@
       }
     },
     {
-      "question": "Where is the mechanical fulcrum located in the Estima Lock configuration, and why does it matter to both players?",
+      "question": "Where is the Estima Lock's fulcrum, and why does it matter to both players?",
       "answer": "The fulcrum is formed by the controlling player's hip and forearm bearing against the trapped leg's lower shin and the top of the foot, with the heel held as the fixed point around which rotation occurs. Torque generated at the foot pivots against this braced structure, so the ankle joint is the pressure point while the shin and heel are the anchors. For the controlling player, keeping the fulcrum tight against the calf is what converts small movements into joint pressure; for the trapped player, breaking the connection between hip and calf collapses the fulcrum and neutralizes the torque. Both are therefore fighting over the same contact points, just from opposite intentions.",
       "answer_line": "Hip/forearm brace on calf",
       "distractors": {
@@ -916,7 +916,7 @@
       }
     },
     {
-      "question": "Why does control in this position depend on structural weight placement rather than grip strength alone?",
+      "question": "Why does Estima Lock control depend on structural weight placement rather than grip strength?",
       "answer": "The controlling player anchors the foot largely through hip pressure seated against the calf, letting body weight and skeletal alignment hold the trapped leg in place rather than relying on the forearms to squeeze. This matters because grip-dependent control fatigues quickly and can be broken, whereas weight bearing down through a stable base is far harder to shift and frees the hands to apply rotation. The same principle tells the trapped player where to work: disrupting the base and hip contact is more productive than fighting the hands, since it undermines the weight structure that actually holds the position. Control here is a matter of positioning and pressure vectors, not arm tension.",
       "answer_line": "Weight and base outlast grip",
       "distractors": {
@@ -930,7 +930,7 @@
       }
     },
     {
-      "question": "How does the shared control structure of Estima Lock Control let it convert into adjacent leg attacks like the toe hold or ashi garami?",
+      "question": "How does the Estima Lock's shared control let it convert into the toe hold or ashi garami?",
       "answer": "The position isolates and controls a single leg through heel fixation and foot control, and those same contact points are shared by neighboring entanglements, so it is best understood as one node in a chain of leg attacks rather than an isolated lock. When the foot turns, the exposed toes open a toe hold; when the leg configuration shifts, the entanglement flows into ashi garami or the saddle. Because the grips overlap so heavily, movement by either player tends to convert the position into an adjacent entanglement rather than ending the exchange. The distinguishing line that keeps it an Estima Lock is the rotational, inverted-foot ankle attack, not the surrounding leg configuration.",
       "answer_line": "Shared grips flow to toe hold",
       "distractors": {
@@ -944,7 +944,7 @@
       }
     },
     {
-      "question": "Why is the trapped ankle's remaining rotational range the shared danger signal that governs urgency for both players?",
+      "question": "Why does the ankle's remaining rotational range set urgency for both Estima Lock players?",
       "answer": "Because the submission works by twisting the ankle past its natural rotational range, the amount of safe rotation left is the single measure of how close the position is to finishing. As the heel is fixed and the foot torqued, the joint approaches its mechanical limit, and once that range is exhausted the ligaments and Achilles are directly threatened. The controlling player reads this range to know when the lock is consolidated enough that pressure will produce a tap, while the trapped player reads the same range to know when counter-rotation can still buy time versus when tapping is the only safe option. This shared awareness of joint range, rather than raw pain, is what dictates the pace of the exchange for both sides.",
       "answer_line": "Range left shows finish proximity",
       "distractors": {

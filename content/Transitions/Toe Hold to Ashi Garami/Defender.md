@@ -56,7 +56,7 @@ description: "Defend against the Toe Hold to Ashi Garami transition. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important moment to attempt escape during the Toe Hold to Ashi Garami transition?",
+      "name": "When is the best moment to escape during the toe hold to ashi garami transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical escape moment occurs when the attacker's figure-four grip loosens or releases to transition to C-grip heel control. This grip change creates a one-to-two-second window where neither the toe hold nor the ashi garami control is fully established, providing the best opportunity for heel extraction. The window closes rapidly once the attacker secures C-grip on the heel and completes inside leg placement across the hip."
@@ -64,7 +64,7 @@ description: "Defend against the Toe Hold to Ashi Garami transition. Recognition
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent from establishing inside leg control across your hip during the transition?",
+      "name": "How do you stop them planting their inside leg across your hip during this transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a combination of forearm frame against their knee to block the leg from crossing your hip, hip escape to create angular distance that makes the leg placement geometrically difficult, and free leg push on their hip to prevent them from closing the distance needed to plant their foot on the far side. The inside leg placement is the keystone of ashi garami control and preventing it forces the attacker back to the deteriorating toe hold or into an incomplete entanglement."
@@ -72,7 +72,7 @@ description: "Defend against the Toe Hold to Ashi Garami transition. Recognition
     },
     {
       "@type": "Question",
-      "name": "If the transition completes successfully and you find yourself in inside ashi-garami bottom, what should be your immediate defensive priority?",
+      "name": "They complete the transition and you are in inside ashi-garami bottom: what comes first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately hide your heel by internally rotating your trapped foot and pointing your toes toward your opposite leg. Simultaneously establish wrist control on the attacker's gripping hands to prevent them from securing the C-grip on your heel. Use your free leg to frame on their hips to prevent them from closing distance for submissions. Begin working systematic leg extraction through angular hip escape rather than straight pulling, and look for opportunities to counter-entangle toward 50-50 guard."
@@ -80,7 +80,7 @@ description: "Defend against the Toe Hold to Ashi Garami transition. Recognition
     },
     {
       "@type": "Question",
-      "name": "Why is staying in the defended toe hold position sometimes preferable to allowing the transition to ashi garami?",
+      "name": "Why can staying in the defended toe hold beat letting them transition to ashi garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In the toe hold position you have already established effective defense through grip fighting, boot defense, or rotational escape. The toe hold is a single-threat position where you know exactly what attack is coming and your defensive mechanics are working. Inside ashi-garami, however, is a multi-threat hub position offering the attacker straight ankle locks, heel hooks, kneebars, and transitions to saddle or honey hole. Allowing the transition dramatically expands the offensive threats you must address, making defense exponentially more difficult."
@@ -88,7 +88,7 @@ description: "Defend against the Toe Hold to Ashi Garami transition. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the grip change but you cannot extract your heel in time - what is your secondary defensive strategy?",
+      "name": "You cannot free your heel as they change grips: what is your secondary defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If heel extraction fails, immediately shift focus to preventing the inside leg from crossing your hip by framing with your forearm against their knee and hip escaping to create distance. Simultaneously rotate your trapped knee inward to limit heel exposure and begin counter-entangling with your free leg. If the transition completes fully, accept the new position and implement inside ashi-garami bottom defense rather than continuing to fight the transition after it has already succeeded. Energy conservation for the new defensive challenge is critical."

@@ -82,7 +82,7 @@ description: "Execute the Toreando pass from Double Sleeve Guard. Complete attac
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their foot on your hip as you attempt to swing their legs laterally—how do you adjust?",
+      "name": "They post a foot on your hip during the toreando from double sleeve — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the foot before continuing the toreando. Swim your elbow inside the posted foot to knock it off your hip, or step back to disengage the foot contact entirely. If the foot is deeply posted, consider switching to a knee slice on the posted-foot side, using the foot post as a pivot point for your passing angle. The worst option is trying to force the toreando through the foot frame, as this gives the opponent additional leverage to reguard or sweep."
@@ -114,7 +114,7 @@ description: "Execute the Toreando pass from Double Sleeve Guard. Complete attac
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins closing their guard as you attempt to break the second sleeve grip—what is your immediate response?",
+      "name": "They start closing guard as you break the second sleeve grip — immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately posture up with hips back and wedge your lead elbow or knee between their closing legs to prevent the lock. Keep your chest up and drive your hips away from the opponent to create distance that prevents the guard from closing. If one leg is already controlled at the pants, use that control to push their leg down and away to break the closing angle. Never allow your posture to collapse forward during this exchange, as that accelerates the guard closure."

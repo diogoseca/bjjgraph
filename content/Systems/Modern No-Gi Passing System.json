@@ -1,6 +1,6 @@
 {
   "name": "Modern No-Gi Passing System",
-  "description": "Master modern no-gi guard passing with systematic pressure, connection control, and dynamic transitions. Complete framework for defeating contemporary guards.",
+  "description": "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -11,8 +11,8 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Advanced",
-  "summary": "The Modern No-Gi Passing System is a pressure-and-connection framework for defeating contemporary gripless guards, using headquarters control, systematic connection breaking, and dynamic floating passes to advance safely past the legs to dominant position.",
-  "overview": "The Modern No-Gi Passing System represents the evolution of guard passing for contemporary grappling, addressing the unique challenges of passing without gi grips. This comprehensive framework integrates pressure-based control, dynamic floating passes, and leg entanglement awareness to systematically defeat modern guard structures including butterfly, half guard, and leg-based guards. The system emphasizes connection breaking, hip pressure application, and transitional fluidity rather than static gripping strategies.\n\nUnlike traditional gi-based passing, this system prioritizes body positioning, weight distribution, and constant forward pressure to nullify the mobility advantages of no-gi guard players. The framework incorporates headquarters position as a central hub, allowing the passer to systematically break down defensive structures while maintaining offensive initiative. Each passing sequence includes both finishing mechanics and recovery protocols when opponents create scrambles or re-guard attempts.\n\nThe system's effectiveness stems from its adaptability to different guard types and body types, with specific solutions for common defensive reactions. By mastering this framework, practitioners develop the ability to maintain consistent passing pressure while reading and exploiting defensive patterns in real-time, making it essential for competitive no-gi grappling.",
+  "summary": "Modern no-gi passing involves choosing a route around, through or under the legs while managing guard recovery.",
+  "overview": "Modern no-gi passing involves choosing a route around, through or under the legs while managing guard recovery. Use this guide to connect your preferred pass to a response when the first route closes, then check whether you can stabilize the pin.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Maintain constant forward pressure and connection control",
     "Use headquarters position as central passing hub",
@@ -457,6 +457,21 @@
           "Commit fully to first attempt"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "systematically-attacking-the-guard-by-gordon-ryan",
+      "title": "Systematically Attacking The Guard",
+      "instructor": "Gordon Ryan",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery.",
+      "best_for": "Passers who know individual passes but struggle to connect them against resistance.",
+      "study_focus": "Choose the section for the guard you encounter most often and compare its responses with this page’s sequence.",
+      "practice_tip": "Start each round in the same passing position. Track whether you cleared the legs and held the resulting pin, and where recovery began."
     }
   ]
 }

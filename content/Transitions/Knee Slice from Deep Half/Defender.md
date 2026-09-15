@@ -56,7 +56,7 @@ description: "Complete defender guide for preventing the knee slice pass from de
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a knee slice attempt is imminent from deep half guard bottom?",
+      "name": "From deep half bottom, what is the earliest cue a knee slice attempt is imminent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the establishment of strong crossface pressure combined with the opponent's free leg posting wide to the outside. The crossface is the prerequisite for the knee slice, and the wide post creates the base needed for the passing motion. Recognizing these setup elements gives you maximum time to prepare defensive responses before the knee actually begins to move."
@@ -72,7 +72,7 @@ description: "Complete defender guide for preventing the knee slice pass from de
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully drives their knee past your hip line during the slice - what is your best recovery option?",
+      "name": "In deep half bottom, their knee passes your hip line: what is your best recovery option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the knee passes your hip line, abandon sweep attempts and immediately focus on guard recovery. Use your bottom leg to hook their slicing leg and work to establish knee shield half guard. Simultaneously frame against their crossface shoulder to create enough space for the knee insertion. The priority shifts from offense to defense once the knee has cleared your hip."

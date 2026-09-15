@@ -74,7 +74,7 @@ description: "Master the mounted triangle squeeze mechanics from the attacker pe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is hip angle adjustment more important than raw squeezing force for the mounted triangle squeeze?",
+      "name": "Why does hip angle matter more than squeezing force in the mounted triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip angle determines the vector along which compression is applied to the carotid arteries. A perpendicular angle to the opponent's spine positions the thigh directly across the lateral neck while the trapped shoulder presses the opposite carotid. Without proper angle, even maximum leg compression creates pressure that misses the arteries and compresses non-vital structures. Correct angle provides mechanical advantage that multiplies the effectiveness of every unit of squeezing force applied."
@@ -82,7 +82,7 @@ description: "Master the mounted triangle squeeze mechanics from the attacker pe
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the squeeze after establishing the mounted triangle?",
+      "name": "When is the optimal window to start squeezing after establishing the mounted triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The squeeze should begin immediately after confirming three prerequisites: secure figure-four lock, at least partial posture break, and stable base. Delaying the squeeze gives the opponent time to build defensive frames and establish defensive grip sequences. However, rushing the squeeze before the lock is properly configured wastes energy on ineffective compression. The window opens the moment the triangle lock is verified and closes as the opponent establishes organized defense, typically within 5-8 seconds of triangle establishment."
@@ -90,7 +90,7 @@ description: "Master the mounted triangle squeeze mechanics from the attacker pe
     },
     {
       "@type": "Question",
-      "name": "Your opponent is defending the squeeze with an aggressive chin tuck - how do you adjust your approach?",
+      "name": "They defend your mounted triangle with an aggressive chin tuck — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pull their head more aggressively toward the trapped arm side using both hands behind the skull. The chin tuck reduces available choking angle but cannot fully prevent carotid compression if the hip angle is correct. Simultaneously, adjust your hip angle to find the line where the inner thigh clears the chin and contacts the lateral neck. If the chin tuck remains effective, consider transitioning to the armbar, as the chin tuck defense often leaves the trapped arm more exposed."
@@ -106,7 +106,7 @@ description: "Master the mounted triangle squeeze mechanics from the attacker pe
     },
     {
       "@type": "Question",
-      "name": "How do you diagnose whether your squeeze is applying effective carotid compression versus just muscular pressure?",
+      "name": "How do you tell if your squeeze is compressing the carotids rather than just muscle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Effective carotid compression produces visible signs within 5-10 seconds: the opponent's face changes color toward red or purple, their defensive movements become less coordinated, and their frame strength diminishes noticeably. If you are squeezing hard but the opponent shows no distress, the angle is incorrect and the pressure is compressing muscles or non-vital structures. The diagnostic step is to adjust angle in small increments while maintaining squeeze and observing for these effectiveness indicators."

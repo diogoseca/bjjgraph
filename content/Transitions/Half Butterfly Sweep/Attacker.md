@@ -74,7 +74,7 @@ description: "Master executing the Half Butterfly Sweep. Step-by-step guide cove
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the Half Butterfly Sweep succeeds or fails?",
+      "name": "What mechanical detail most determines success or failure of the Half Butterfly Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The simultaneous coordination of the butterfly hook drive and underhook pull as a single unified movement. Any sequencing between these two forces gives the opponent time to react, post, or adjust weight between the separate applications. The sweep generates its off-balancing power from combined diagonal force vectors that must arrive simultaneously to overwhelm the opponent's base."
@@ -82,7 +82,7 @@ description: "Master executing the Half Butterfly Sweep. Step-by-step guide cove
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far hand on the mat when you begin to elevate with the butterfly hook - how do you adjust?",
+      "name": "They post their far hand as you elevate with the butterfly hook—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hand post commits their weight to one side and removes one arm from their defensive structure. Immediately redirect your attack to exploit the weakened opposite side by switching to an old school sweep or arm drag to back take. Their posted arm cannot defend the new attack angle, and their committed weight distribution makes them vulnerable to directional changes. This is a fundamental action-reaction chain from half butterfly."
@@ -106,7 +106,7 @@ description: "Master executing the Half Butterfly Sweep. Step-by-step guide cove
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls their hips back and applies heavy crossface, shutting down your butterfly hook elevation - what is your best response?",
+      "name": "They sprawl and crossface, killing your butterfly hook elevation—what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to deep half guard by diving underneath their hips, shooting your outside arm under their hip and inverting your angle. Their sprawl position actually facilitates this entry because their hips are back and their weight is committed forward through the crossface, creating space for you to swim underneath. Do not continue forcing the butterfly sweep against a sprawled opponent as this wastes energy on a near-zero percentage attempt."

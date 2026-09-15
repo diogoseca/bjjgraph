@@ -88,7 +88,7 @@ description: "Master the Leg Extraction Escape execution from leg entanglements.
     },
     {
       "@type": "Question",
-      "name": "Why must connection points be cleared sequentially rather than attempting to rip the leg free with one explosive movement?",
+      "name": "Why clear entanglement connection points in sequence instead of one explosive rip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive ripping against multiple connection points simultaneously generates rotational force on the knee joint, which is precisely the mechanism that exposes the heel to finishing angles. Each connection point in the entanglement serves a specific control function: the foot grip controls rotation, the inside hook prevents withdrawal, and hip pressure maintains proximity. By clearing them sequentially, you eliminate each control function without creating the rotational force that makes the other connection points more dangerous. Sequential clearing also requires significantly less energy than explosive extraction, preserving your resources for the guard recovery that follows."
@@ -96,7 +96,7 @@ description: "Master the Leg Extraction Escape execution from leg entanglements.
     },
     {
       "@type": "Question",
-      "name": "Your opponent's inside hook is deeply set behind your knee and you cannot clear it with your hand - how do you modify the extraction?",
+      "name": "Their inside hook is too deep behind your knee to clear by hand — how do you extract?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the inside hook is too deep to clear manually, modify the extraction angle by shifting your hips laterally rather than pulling straight back. The lateral hip shift changes the angle between your thigh and their hook, reducing the mechanical advantage of the hook. Simultaneously, use your free leg to push against their hooking leg's hip or thigh to create leverage for the angular extraction. If the hook remains locked, this configuration likely indicates they have advanced beyond outside ashi, and you should consider transitioning to an inversion escape or boot scoot rather than forcing the extraction against a consolidated entanglement."
@@ -112,7 +112,7 @@ description: "Master the Leg Extraction Escape execution from leg entanglements.
     },
     {
       "@type": "Question",
-      "name": "After successfully extracting your leg, your opponent immediately shoots back in for your legs - what guard structure prevents re-entanglement?",
+      "name": "After extracting your leg, they dive back in — what guard structure stops re-entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Establish an active open guard with both feet placed firmly on the opponent's hips, creating a frame that prevents them from closing the distance needed for re-entanglement. Your hands should control their wrists or sleeves to prevent them from gripping your feet or pants. The feet-on-hips configuration is specifically effective because it addresses the opponent's primary re-entry pathway: they need to close hip distance and establish leg contact, which the hip frames directly prevent. If they attempt to circle around the feet, transition to a de la riva or reverse de la riva hook to maintain the defensive structure while creating your own offensive threats."
@@ -120,7 +120,7 @@ description: "Master the Leg Extraction Escape execution from leg entanglements.
     },
     {
       "@type": "Question",
-      "name": "You begin the extraction but your opponent grabs your heel mid-escape - what is your immediate response?",
+      "name": "Mid-extraction they grab your heel — what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately halt all extraction movement and address the heel grip as the highest priority threat. Straighten the trapped leg fully to reduce the opponent's finishing leverage, then apply a two-on-one wrist peel on the hand controlling your heel, stripping downward below your ankle line. Do not continue any pulling or extraction force while they have heel control, as this can amplify rotational force on your knee. Only resume the extraction sequence after the heel grip is completely cleared. This is a non-negotiable safety principle: extraction with a heel grip in place is more dangerous than remaining in the entanglement."

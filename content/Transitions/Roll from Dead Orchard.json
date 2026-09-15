@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "Your roll succeeds but the opponent follows and reaches for your hips as you land in turtle - what is your immediate response?",
+        "question": "You roll from Dead Orchard into turtle and they reach for your hips — what do you do immediately?",
         "answer": "Immediately tuck elbows tight to knees and begin active movement rather than settling into static turtle. The opponent reaching for your hips means they have not yet secured upper body control or hooks. Prioritize a granby roll, sit-through, or technical standup before they can establish seatbelt control. The window between landing in turtle and the opponent re-establishing dominant grips is approximately 2-3 seconds, and you must use that window to initiate the next escape in the chain.",
         "answer_line": "Granby roll or sit-through fast",
         "distractors": {
@@ -508,7 +508,7 @@
         }
       },
       {
-        "question": "When the roll has already been initiated, should you fight to maintain the anaconda grip or transition to back control?",
+        "question": "Their roll from Dead Orchard is past the tipping point — keep the anaconda grip or take the back?",
         "answer": "Once the roll is past the tipping point, transition to back control rather than fighting for the anaconda grip. The roll disrupts the circular compression angle that makes the choke viable, and continuing to grip fight wastes the opportunity to secure back control while the bottom player's back is maximally exposed during the rotation. Release the anaconda proactively, establish seatbelt or harness control, and focus on inserting hooks as they land in turtle. Back control with hooks is a superior position to a compromised dead orchard.",
         "answer_line": "Let go, take the back instead",
         "distractors": {
@@ -522,7 +522,7 @@
         }
       },
       {
-        "question": "How should you adjust your pressure pattern to deny the roll escape without creating other escape opportunities?",
+        "question": "How should you adjust Dead Orchard pressure to deny the roll without opening other escapes?",
         "answer": "Use controlled, incremental pressure increases rather than explosive forward drives. The roll escape exploits the specific timing window created by maximum forward weight commitment. Maintain balanced weight distribution with shoulder pressure driving downward at a 45-degree angle rather than horizontally forward. Keep hips low and connected to the opponent's body to deny hip loading. This balanced approach prevents the roll while also denying hip escape and arm extraction opportunities that might open if you sprawl too aggressively in one direction.",
         "answer_line": "Controlled pressure, hips low",
         "distractors": {
@@ -536,7 +536,7 @@
         }
       },
       {
-        "question": "Your opponent's roll stalls halfway through and they are caught in a compromised position - what is your optimal response?",
+        "question": "Their roll from Dead Orchard stalls halfway — what's your optimal response from the top?",
         "answer": "When the roll stalls, you have a brief window where the opponent is in their most vulnerable position, neither in dead orchard nor in turtle. Immediately drive your weight forward and down to flatten them while walking your hips around to re-establish the dead orchard angle. Alternatively, if their back is exposed during the stall, transition to back control grips since the mid-roll position often provides easier hook insertion than either the starting or ending positions. The key is acting decisively during the stall rather than waiting to see what they do next.",
         "answer_line": "Flatten them, retake position",
         "distractors": {

@@ -82,7 +82,7 @@ description: "How to execute Lapel to De La Riva in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stepping back as you thread your DLR hook—what adjustment maintains the transition?",
+      "name": "They step back as you thread your De La Riva hook: what adjustment keeps the transition alive?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase tension on the lapel grip to prevent their backward step while simultaneously accelerating your hook insertion. The lapel pull keeps them in range while you complete the threading motion. If they overcome the lapel tension, abort the DLR attempt and return to pure lapel guard rather than chasing a compromised position."
@@ -106,7 +106,7 @@ description: "How to execute Lapel to De La Riva in BJJ. Attacking perspective w
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy forward pressure during the transition—how do you convert this into an attack?",
+      "name": "They drive heavy forward pressure during the lapel to De La Riva transition: what attack fits?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Convert their forward momentum into a berimbolo entry or kiss of the dragon. Their forward pressure actually enables these inversion-based attacks by providing the momentum needed to rotate underneath them. Maintain the DLR hook throughout the inversion while using the lapel grip to prevent them from backing away."

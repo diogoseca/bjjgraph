@@ -90,7 +90,7 @@ description: "Learn to execute the mat return from standing rear clinch. Step-by
     },
     {
       "@type": "Question",
-      "name": "How should your hips be positioned relative to the opponent at the moment of initiating the mat return?",
+      "name": "Where should your hips be relative to your opponent as you start the mat return?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips should be offset to one side at approximately 45 degrees, not directly behind the opponent. This angle creates a mechanical advantage for pulling them down and to the side rather than straight backward, which they can more easily resist by sitting their weight. The offset hip position also determines which direction you will land, and you want to land on the side that gives you immediate access to insert your bottom hook first for foundational ground control."
@@ -98,7 +98,7 @@ description: "Learn to execute the mat return from standing rear clinch. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their inside hand on the mat as you begin the mat return descent - how do you adjust?",
+      "name": "They post their inside hand on the mat as your mat return descends: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately redirect the pulling angle away from the posted hand, taking them down to the opposite side where they have no base point. Alternatively, use your inside arm to swim under and strip the posting arm before continuing the descent. If the post is strong and well-timed, abandon the direct mat return angle and switch to an inside trip on the near leg to sweep their remaining base while maintaining your bodylock grip throughout the transition."
@@ -114,7 +114,7 @@ description: "Learn to execute the mat return from standing rear clinch. Step-by
     },
     {
       "@type": "Question",
-      "name": "After landing on the ground from a mat return, what is the priority sequence for establishing control?",
+      "name": "After landing from a mat return, in what order do you establish control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The immediate priority is bottom hook first within one to two seconds of landing, then top hook insertion, then upper body grip adjustment from standing configuration to ground-optimized seatbelt. The bottom hook is prioritized because it provides the foundational control preventing the opponent from rolling over the top or escaping upward. Many practitioners make the error of adjusting their upper body grip first, which allows the opponent to clear their hips and turn before hooks are established, losing the positional advantage entirely."

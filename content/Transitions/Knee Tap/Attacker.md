@@ -68,7 +68,7 @@ description: "How to execute Knee Tap in BJJ. Attacking perspective with setup, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is establishing upper body control before attacking the knee crucial to successful knee tap execution?",
+      "name": "Why must you establish upper body control before attacking the leg in the knee tap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upper body control prevents opponent from simply stepping back or sprawling when you attack the leg. By controlling the head or collar, you can pull their weight forward onto the leg you're attacking while preventing defensive posture recovery. Without this control, you're only attacking half their structure and they can easily base out with their hands or move their leg away from danger."
@@ -84,7 +84,7 @@ description: "How to execute Knee Tap in BJJ. Attacking perspective with setup, 
     },
     {
       "@type": "Question",
-      "name": "How should you coordinate upper and lower body movements during knee tap execution to maximize effectiveness?",
+      "name": "How do you coordinate upper and lower body movement during the knee tap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Create a see-saw effect by simultaneously pulling the head or upper body downward and backward while sweeping the knee forward and upward. This coordinated attack removes both their upper and lower posting options at the same moment, making defense nearly impossible. The timing must be synchronized - if you pull the knee without controlling the upper body, they simply post their hands. If you only control the head, they can step back with the attacked leg."
@@ -92,7 +92,7 @@ description: "How to execute Knee Tap in BJJ. Attacking perspective with setup, 
     },
     {
       "@type": "Question",
-      "name": "What head position should you maintain during knee tap entry to avoid guillotine vulnerability while maintaining effectiveness?",
+      "name": "What head position during knee tap entry avoids the guillotine while keeping the takedown working?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your head tight to opponent's ribs on the outside with your eyes looking forward or slightly upward. Your head should never drop below their hip line or come directly in front of their centerline. This outside positioning makes it geometrically difficult for them to secure front headlock control while maintaining your visibility and ability to drive through the takedown. The head acts as a control point against their ribs rather than diving low where it becomes vulnerable."
@@ -100,7 +100,7 @@ description: "How to execute Knee Tap in BJJ. Attacking perspective with setup, 
     },
     {
       "@type": "Question",
-      "name": "When transitioning from completed knee tap to side control, what are the critical control points to establish immediately?",
+      "name": "Finishing the knee tap, what control points must you establish immediately to secure side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish cross-face with your collar tie arm driving across their face to control head position, while your knee tap hand transitions to controlling their near hip to prevent hip escape. Your chest should be heavy across their torso with your weight distributed to prevent guard recovery. These controls must be established during the landing phase, not after settling, because this is when opponent is most likely to scramble back to guard or turtle. Position consolidation begins the moment they impact the mat."
@@ -108,7 +108,7 @@ description: "How to execute Knee Tap in BJJ. Attacking perspective with setup, 
     },
     {
       "@type": "Question",
-      "name": "How does the knee tap differ mechanically from the ankle pick, and when would you choose one over the other?",
+      "name": "How does the knee tap differ mechanically from the ankle pick, and when do you pick each?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee tap attacks higher on the leg where you have more leverage over the knee joint, requires less deep penetration, and allows you to maintain more upright posture reducing guillotine risk. The ankle pick attacks the lowest point requiring deeper penetration but works better when opponent has wide stance or when you have secured wrist control. Choose knee tap when you have collar tie control and opponent's weight is forward; choose ankle pick when you have wrist control or opponent is more upright with wider base."

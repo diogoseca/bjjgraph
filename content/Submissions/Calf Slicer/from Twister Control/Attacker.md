@@ -84,7 +84,7 @@ description: "Learn to attack with the calf slicer from twister control. Step-by
     },
     {
       "@type": "Question",
-      "name": "What specific advantage does twister control provide for the calf slicer compared to other entry positions?",
+      "name": "What advantage does twister control give the calf slicer over other entry positions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Twister control provides pre-existing deep leg entanglement and spinal rotation that prevent the defender from straightening their targeted leg or generating effective hip extension. The rotational constraint on the spine compromises the defender's core engagement, making it significantly harder to relieve calf compression. This combination of leg control and spinal rotation is unavailable from standard calf slicer entries like half guard or back control."
@@ -92,7 +92,7 @@ description: "Learn to attack with the calf slicer from twister control. Step-by
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your shin placement if the opponent begins to straighten their leg during the calf slicer attempt?",
+      "name": "Twister control calf slicer: how do you adjust your shin if they start straightening the leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately deepen the shin behind the knee crease by pulling your heel toward your own hip while simultaneously increasing foot control to re-fold the lower leg. If the leg is nearly straight, consider abandoning the slicer and threatening the twister finish instead, as forcing a slicer on a straightening leg reduces effectiveness and risks losing position entirely. The twister threat often re-exposes the leg."
@@ -100,7 +100,7 @@ description: "Learn to attack with the calf slicer from twister control. Step-by
     },
     {
       "@type": "Question",
-      "name": "What are the critical safety protocols when applying the calf slicer from twister control in training?",
+      "name": "What safety protocols apply when drilling the calf slicer from twister control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply compression over five to seven seconds minimum without spiking or jerking the pressure. Maintain constant awareness that the entangled twister position may prevent your partner from physically tapping with their hands, so respond immediately to verbal taps or any vocalization of distress. Release by removing shin pressure first, then unwind the leg entanglement slowly and controlledly to avoid secondary injury during the release phase."
@@ -108,7 +108,7 @@ description: "Learn to attack with the calf slicer from twister control. Step-by
     },
     {
       "@type": "Question",
-      "name": "What is the correct release sequence after your training partner taps to the calf slicer from twister control?",
+      "name": "What is the correct release sequence after a tap to the calf slicer from twister control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First release the foot grip and stop all compression pressure immediately. Second, slowly remove your shin from behind the knee crease without any jerking movements. Third, carefully unwind the leg entanglement from the twister control position. Fourth, allow your partner to extend and straighten their leg naturally before fully disengaging. Finally, check that your partner has normal sensation and full mobility in the affected leg before continuing training."

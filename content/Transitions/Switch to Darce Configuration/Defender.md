@@ -56,7 +56,7 @@ description: "How to defend against Switch to Darce Configuration in BJJ. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the attacker is switching from buggy choke to darce configuration, and what should your immediate response be?",
+      "name": "Under buggy choke, what is the earliest cue of a darce switch, and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the attacker's threading arm release the far-side collar grip and begin traveling across your upper back. Your immediate response should be to clamp your far elbow tight against your ribs to seal the armpit and prevent the threading path. This must happen within one second of sensing the collar release because the attacker's arm redirect is designed to be a continuous motion without pause."
@@ -64,7 +64,7 @@ description: "How to defend against Switch to Darce Configuration in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Why is sitting to guard during the grip transition window effective, and what are the timing requirements?",
+      "name": "Why does sitting to guard during the darce grip transition work, and what timing does it demand?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sitting to guard works because the attacker's control is momentarily reduced between releasing the buggy choke collar and establishing the darce grip. During this 1-2 second window, the attacker has incomplete neck control and reduced ability to prevent hip movement. You must commit to the sit explosively the instant you feel the collar release. Hesitating even slightly allows the attacker to re-establish pressure with the darce threading, closing the escape window permanently."
@@ -72,7 +72,7 @@ description: "How to defend against Switch to Darce Configuration in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your attacker has begun threading under your far armpit but has not locked the figure-four yet—what is your highest-percentage defensive option?",
+      "name": "They are threading under your far armpit but the figure-four is not locked—your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extract the trapped near arm immediately by gripping your own wrist with your free hand and pulling the arm out of the darce channel. The near arm serves as the compression fulcrum that makes the darce a bilateral choke rather than a one-sided squeeze. Removing this arm before the figure-four locks eliminates the choke mechanics entirely, forcing the attacker to abandon the darce and seek a different position. This window closes permanently once the figure-four grip is secured."
@@ -88,7 +88,7 @@ description: "How to defend against Switch to Darce Configuration in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "What distinguishes defending the darce switch from buggy choke versus defending a standard darce entry from turtle or front headlock?",
+      "name": "How does defending the darce switch from buggy choke differ from defending a standard darce entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key difference is the grip transition window. In a standard darce entry, the attacker threads directly from neutral control without releasing an existing grip. In the buggy choke switch, the attacker must release the collar grip before rethreading for the darce, creating a 1-2 second control gap. This window is the defender's primary advantage and does not exist in standard darce entries. However, the defender is also starting from a more compromised position with partially broken posture from the buggy choke."

@@ -68,7 +68,7 @@ description: "Defend against the omoplata from Crackhead Control. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available against the omoplata from Crackhead Control and when should each be used?",
+      "name": "What are the defenses to the omoplata from Crackhead Control, and when is each used?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three primary defenses in priority order are posturing up early before the leg thread completes, executing a forward roll before hip control is established, and stacking forward to collapse the finishing angle. Each defense has a specific timing window and attempting them outside that window either fails or worsens your position. Recognition speed and reaction timing matter more than strength for all three options."

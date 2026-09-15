@@ -72,7 +72,7 @@ description: "Learn to defend and counter the Piranha Guard Sweep in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "How should you prioritize defensive actions when caught mid-sweep with your base already compromised?",
+      "name": "Defending the Piranha guard sweep, how do you prioritize once your base is already compromised?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When caught mid-sweep, immediately post your far hand on the mat in the direction you are falling to create a tripod base and prevent complete reversal. From this posted position, drive your hips away from the opponent while working to extract your leg from their hook. If the sweep is nearly complete, transition directly to guard recovery rather than fighting the reversal, accepting momentary positional loss to establish half guard."
@@ -88,7 +88,7 @@ description: "Learn to defend and counter the Piranha Guard Sweep in BJJ. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent switches sweep direction after you post to block—what adjustment prevents the reversal?",
+      "name": "Defending Piranha guard, they switch sweep direction after you post. What prevents the reversal?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transfer your post to the new sweep direction while simultaneously dropping your center of gravity lower. The direction switch relies on you being committed to defending one side, so maintain a centered base position between posts rather than fully committing laterally. Use your hands on the mat as mobile pivot points rather than static posts, allowing rapid transfer between sides as the attacker changes sweep directions."

@@ -367,7 +367,7 @@
         }
       },
       {
-        "question": "What is the correct thumb position for maximum submission effectiveness and what happens if the thumb rotates?",
+        "question": "Armbar from back with legs: where should their thumb point, and what if it rotates?",
         "answer": "The opponent's thumb should point upward toward their head (supinated position) throughout the submission. This arm position creates maximum vulnerability in the elbow joint and ensures that hip extension creates pressure on the elbow rather than the wrist or shoulder. If the thumb rotates downward, the submission becomes significantly less effective and enables the hitchhiker escape, where opponent can rotate their arm and slip out. Incorrect thumb position may also cause wrist injury instead of proper elbow pressure, making it both less effective and potentially more dangerous.",
         "safety_critical": true,
         "answer_line": "Thumb points up, supinated",
@@ -382,7 +382,7 @@
         }
       },
       {
-        "question": "Your opponent starts to posture up and stack toward you during the finish - what adjustment prevents escape?",
+        "question": "Armbar from back with legs: they posture and stack — what adjustment prevents the escape?",
         "answer": "When opponent attempts to stack, immediately increase the pressure of your top leg across their face, pushing their head away and down to flatten their posture. Simultaneously, angle your hips away from their stacking direction while maintaining tight wrist control. If stacking continues, you may need to transition to a belly-down armbar by following their movement while keeping the arm isolated. The key is early recognition - once they achieve significant stacking angle, escape becomes much more likely. Proactive top leg pressure prevents the stack from initiating.",
         "safety_critical": false,
         "answer_line": "Drive top leg, flatten head",
@@ -412,7 +412,7 @@
         }
       },
       {
-        "question": "What should you do immediately if your partner shows distress or makes unusual sounds during application?",
+        "question": "What do you do if your partner shows distress or unusual sounds during the armbar?",
         "answer": "Immediately release all pressure by opening your legs and returning their arm to neutral position, treating any distress signal as a tap. Never wait to confirm or question unusual sounds - err on the side of caution. After releasing, verbally confirm they are okay before continuing training. Some people have difficulty tapping verbally or physically when in extreme pain or panic, so any sign of distress must be treated as a submission. This is especially critical with joint locks where permanent damage can occur in fractions of a second if someone is unable to tap properly.",
         "safety_critical": true,
         "answer_line": "Release immediately, it's a tap",
@@ -442,7 +442,7 @@
         }
       },
       {
-        "question": "What are the key indicators that tell you the submission is properly locked before applying finishing pressure?",
+        "question": "Armbar from back with legs: what shows it is locked before you apply finishing pressure?",
         "answer": "Key indicators include: their elbow is positioned directly over your hip bones, their thumb points upward toward their head, your knees are squeezed tightly together with no space around their shoulder, their wrist is pulled tight to your chest with no slack in your grip, your top leg is heavy across their face preventing rotation, and their body is relatively flat rather than angled toward you. Additionally, you should feel their arm is fully extended with no bend in the elbow before you begin hip extension. If any of these indicators are absent, improve your position before applying pressure.",
         "safety_critical": false,
         "answer_line": "Elbow on hips, thumb up, knees tight",
@@ -627,7 +627,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest point at which you can recognize an armbar from back with legs is being attempted?",
+        "question": "What is the earliest cue that they are attacking an armbar from back with legs?",
         "answer": "The earliest recognition cue is when the attacker removes their top hook while simultaneously grabbing your wrist with two hands and beginning to pull it across your body. The hook removal is the telltale sign that differentiates an armbar attempt from continued choke hunting, because the attacker needs that leg free to swing over your face. If you feel the top hook disengage and wrist pressure increase at the same time, you must immediately switch to armbar defense protocols rather than continuing standard back escape sequences.",
         "safety_critical": false,
         "answer_line": "Hook removed, wrist grabbed",

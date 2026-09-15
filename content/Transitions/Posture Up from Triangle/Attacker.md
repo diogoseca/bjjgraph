@@ -74,7 +74,7 @@ description: "Execute the Posture Up from Triangle escape in BJJ. Step-by-step g
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary force generation mechanism for the posture-up, and why is it more effective than using neck muscles?",
+      "name": "In a triangle, what generates the posture-up force, and why beat using your neck muscles?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary force comes from the posterior chain through hip extension—glutes, hamstrings, and back extensors working together. This muscle group generates substantially more force than the cervical extensors and creates a structural advantage because the hip drive addresses the core control mechanism of the triangle rather than fighting the symptom. The posterior chain can produce hundreds of pounds of extension force versus the limited capacity of isolated neck muscles."
@@ -82,7 +82,7 @@ description: "Execute the Posture Up from Triangle escape in BJJ. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a tight triangle locked and begins extending their hips for maximum pressure—should you attempt to posture up immediately?",
+      "name": "They lock a tight triangle and extend their hips hard: should you posture up right away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No—posturing up against maximum hip extension and an optimal angle is the lowest-percentage timing for the escape. First address the fundamentals: tuck your chin, establish a connected grip behind their hips, and work to square your shoulders to their hips to disrupt the choking angle. The optimal window for posture-up is before they achieve full angle adjustment and hip extension. If they have already achieved optimal position, consider alternative escapes like stacking or the triangle clear."
@@ -98,7 +98,7 @@ description: "Execute the Posture Up from Triangle escape in BJJ. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "During the posture-up, your opponent begins pulling your trapped arm across their body—what is the immediate response?",
+      "name": "Posturing in a triangle, they start pulling your trapped arm across. Immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately glue your trapped arm's elbow to your ribcage and pause the posture-up. The arm isolation indicates an armbar transition attempt, which takes priority over continuing posture recovery. Use your free hand to push their hip or leg down while keeping the elbow tight. Only resume the posture-up once you have secured the elbow position and prevented the arm from being pulled across. The armbar threat is immediate and must be addressed before continuing escape."

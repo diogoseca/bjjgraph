@@ -56,7 +56,7 @@ description: "Complete guide to defending the Roll Forward from Omoplata. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt the roll forward rather than the omoplata finish?",
+      "name": "What earliest cue shows they want the omoplata roll forward rather than the submission finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent shifting their grip from controlling your wrist or sleeve toward your belt or hip. The omoplata finish requires wrist control and lateral hip rotation, while the roll forward requires a belt grip for steering and forward hip drive. Additionally, you will feel the opponent's hips driving forward toward your shoulder rather than rotating away from you. The hip direction tells you their intent: forward drive means sweep, lateral rotation means submission finish."
@@ -64,7 +64,7 @@ description: "Complete guide to defending the Roll Forward from Omoplata. Recogn
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent securing a belt grip - should you prioritize stripping the grip or reinforcing your base?",
+      "name": "You feel them getting a belt grip from omoplata: strip the grip or reinforce your base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize stripping the grip if it is not yet fully secured, as preventing the steering grip eliminates the roll technique entirely. However, if the grip is already deep and secure, switching to base reinforcement with a wide post and hip sprawl is the safer option. A half-committed grip strip that fails leaves you with neither grip defense nor base, which is the worst possible scenario. Make a quick decision: strip early or base wide, but never get caught in between the two responses."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the Roll Forward from Omoplata. Recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent has initiated the roll and your base is failing - what is your best damage control option?",
+      "name": "They have started the omoplata roll and your base is failing: what is your best damage control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the roll is succeeding and you cannot stop it, immediately shift your focus from preventing the sweep to recovering guard as quickly as possible after landing. As you go over, tuck your elbows tight and prepare to insert a knee between your bodies the moment you land. Keep your far elbow close to your body to prevent the crossface and begin hip escaping immediately upon landing. Accepting the sweep but recovering half guard right away is far better than fighting a lost cause and ending up in a fully controlled side control position where the opponent has settled their weight."

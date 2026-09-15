@@ -90,7 +90,7 @@ description: "Learn to execute the Stack Pass from Double Unders in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the stack pass succeeds or fails?",
+      "name": "What single mechanical detail decides whether the double-unders stack pass works?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical detail is maintaining continuous chest-to-thigh pressure throughout the entire stacking progression without any momentary breaks in contact. Even a fraction of a second where your chest lifts off their thighs creates space for hip movement, frame insertion, or leg separation. The chest connection is the channel through which your body weight transfers into their legs. Your arms maintain grip, but your chest creates the compression that makes the position inescapable. Progressive knee walking without chest separation is the fundamental skill."
@@ -106,7 +106,7 @@ description: "Learn to execute the Stack Pass from Double Unders in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the most secure connection for maintaining the stack throughout heavy resistance?",
+      "name": "Which grip and placement best holds the double-unders stack against heavy resistance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The gable grip with palms pressed together behind the opponent's lower back provides the strongest connection for maintaining the stack under heavy resistance. The S-grip is a secondary option offering slightly less raw strength but better endurance for extended sequences. In gi, gripping the belt provides an even more secure anchor point. The grip must be positioned low on the opponent's back near the belt line rather than high near the shoulders. A high grip allows the opponent to create space below the grip by arching their back."
@@ -114,7 +114,7 @@ description: "Learn to execute the Stack Pass from Double Unders in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "What is the primary direction of force application during the stack pass and how does it change through the technique?",
+      "name": "How does your force direction change through the phases of the stack pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The force direction transitions through three distinct phases. Initially, force is horizontal, driving forward through your chest into their thighs to establish the pressure connection. During the stacking phase, force rotates to approximately forty-five degrees, combining forward and upward vectors as your knees walk forward and fold their body. At peak stack, force becomes nearly vertical, driving straight down through their compressed body into the mat. Understanding this force rotation is critical because attempting vertical force too early fails to fold the opponent, while maintaining horizontal force too long stalls the stacking progression."

@@ -72,7 +72,7 @@ description: "Complete defensive guide against the Russian Lasso Sweep. Learn re
     },
     {
       "@type": "Question",
-      "name": "You feel the guard player begin to elevate their hips while pulling your collar down—what should your immediate response be?",
+      "name": "Russian Lasso: they elevate their hips and pull your collar down—what do you do first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately sprawl your hips back and down to counter the forward pull, removing your weight from over the lasso fulcrum. Simultaneously work to break or strip the collar grip using your free hand in a two-on-one grip break. Widen your stance to increase base stability. These actions must happen together in the first one to two seconds—waiting longer allows the sweep to reach the point where only posting can save you."
@@ -88,7 +88,7 @@ description: "Complete defensive guide against the Russian Lasso Sweep. Learn re
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your base when you recognize you are caught in Russian Leg Lasso with sweep threats?",
+      "name": "How should you adjust your base once caught in Russian leg lasso with sweep threats?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widen your stance immediately to create the broadest possible base against rotational forces. Keep weight distributed evenly through both legs rather than favoring one side. Drive hips back to maintain upright posture and keep your center of gravity behind your base of support. Your feet should be positioned with the toes pointing slightly outward for maximum stability, and you should be prepared to post with your free hand at the first sign of rotation."

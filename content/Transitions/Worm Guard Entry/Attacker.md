@@ -114,7 +114,7 @@ description: "How to execute Worm Guard Entry in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the Worm Guard weave holds under pressure?",
+      "name": "What mechanical detail decides whether a Worm Guard weave holds under pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The depth of the threading under the opponent's thigh is the most critical mechanical detail. A shallow wrap that crosses the surface of the thigh will slide off under tension, providing no structural control. The lapel must travel deep underneath the thigh from outside to inside, emerging near the groin line, so that the fabric locks around the cylindrical shape of the leg and cannot be shaken loose by the opponent stepping or pulling back."

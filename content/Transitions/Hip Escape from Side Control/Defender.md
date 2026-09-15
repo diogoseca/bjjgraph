@@ -56,7 +56,7 @@ description: "Defend against hip escape attempts from consolidated side control.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is preparing a hip escape from consolidated side control?",
+      "name": "What is the earliest cue that they are preparing a hip escape from your consolidated side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent establishing or strengthening a far-side forearm frame against your hip or chest. This frame creation precedes any hip movement and signals that they are building the structural support needed for the bridge-and-shrimp sequence. Before they can shrimp, they must create a frame that prevents you from following, so the frame attempt is your first warning. Immediately address this by collapsing the frame through increased crossface pressure and weight distribution before they can progress to the bridge phase."
@@ -72,7 +72,7 @@ description: "Defend against hip escape attempts from consolidated side control.
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully executes a shrimp and begins inserting their knee - what is your emergency response?",
+      "name": "They shrimp and start inserting a knee under your side control; what is your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your hip weight downward onto their near-side thigh to block the knee insertion before it completes. If the knee is partially in, use your underhook hand to push their knee back down while simultaneously driving forward with your chest. If the knee shield is fully established, do not force through it - instead, transition to a half guard passing strategy such as knee slice or smash pass. Recognizing the point of no return is critical: once a full knee shield is established with both legs trapping your leg, the hip escape has succeeded and you must shift to half guard top strategy."
@@ -80,7 +80,7 @@ description: "Defend against hip escape attempts from consolidated side control.
     },
     {
       "@type": "Question",
-      "name": "When is it better to advance to mount rather than prevent the hip escape, and how do you read this opportunity?",
+      "name": "When is taking mount better than stopping their side control hip escape, and how do you read it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Advance to mount when the opponent commits fully to turning onto their side and their far hip lifts off the mat. This turning motion, while necessary for their shrimp, exposes a pathway for your far leg to step over their body. The reading is in the hip elevation and body angle: if their hips are more than 45 degrees off the mat, the mount step-over becomes higher percentage than trying to drive them flat again. The key timing is before their knee can enter the gap - you must complete the step-over while they are mid-turn, not after they have already inserted the knee shield."

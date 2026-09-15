@@ -100,7 +100,7 @@ description: "How to execute Anaconda Choke in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What is the proper body position for finishing the Anaconda choke after establishing the figure-four grip?",
+      "name": "What body position finishes the anaconda choke once the figure-four grip is locked?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Roll to your side (the side of your choking arm) with your back on the mat and opponent on their side facing away from you. Bring your knees up toward your chest in a ball position. From here, squeeze elbows together to tighten the figure-four, expand your chest by arching slightly, and drive hips forward toward opponent's body. This combination of elbow squeeze, chest expansion, and hip pressure creates the finishing mechanism."

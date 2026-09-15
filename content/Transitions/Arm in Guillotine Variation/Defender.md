@@ -72,7 +72,7 @@ description: "How to defend and escape the arm-in guillotine from bottom positio
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins driving their choking elbow toward the ceiling while you are caught in the arm-in guillotine—what immediate action should you take?",
+      "name": "They start driving the choking elbow up in the arm-in guillotine; what do you do right away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The elbow elevation signals the beginning of the finishing sequence and represents your most urgent defensive moment. Immediately tuck your chin as tightly as possible while simultaneously circling your hips hard toward the choking-arm side to reduce the compression angle. Use your free hand to post on the mat and drive your shoulder into the attacker's chest to resist the scissoring action. If the attacker is on top, try to pull them into closed guard to establish Von Flue counter-pressure potential. If you cannot meaningfully reduce the choke pressure within two to three seconds, tap immediately—the elbow elevation with arm-in configuration can produce unconsciousness very rapidly."
@@ -88,7 +88,7 @@ description: "How to defend and escape the arm-in guillotine from bottom positio
     },
     {
       "@type": "Question",
-      "name": "What hip movement is most effective for creating the space needed to extract your trapped arm from the arm-in guillotine?",
+      "name": "Which hip movement best creates space to extract your arm from the arm-in guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circle your hips toward the choking-arm side while keeping your knees underneath you for base. This lateral hip movement reduces the compression angle across your neck and simultaneously creates the geometric angle needed for arm extraction—moving toward the choke opens space between your shoulder and the attacker's forearm on the trapped side. Combine the hip circle with a shoulder rotation on the trapped side, turning your shoulder blade toward the mat to create an extraction path. Never drive your hips away from the choking arm, as this increases the compression angle and makes extraction geometrically impossible."

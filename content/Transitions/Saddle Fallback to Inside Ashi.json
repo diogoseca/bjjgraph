@@ -252,7 +252,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the primary indicators that saddle control has deteriorated to the point where initiating the fallback is necessary?",
+        "question": "What signs show saddle control has degraded enough to fall back to inside ashi?",
         "answer": "The key indicators include: opponent has cleared your hip pressure and can rotate more freely, opponent has established strong frames on your hips or shoulders preventing re-engagement, your perpendicular alignment has been significantly broken, or opponent has begun successfully extracting their heel from your control. Any two of these occurring simultaneously should trigger immediate fallback initiation. The critical distinction is between temporary resistance you can overcome versus structural compromise requiring positional retreat.",
         "answer_line": "Two structural breaks together",
         "distractors": {
@@ -280,7 +280,7 @@
         }
       },
       {
-        "question": "Your opponent bridges explosively just as you begin releasing the saddle leg configuration—how do you adjust?",
+        "question": "They bridge explosively as you start releasing the saddle configuration: how do you adjust?",
         "answer": "Immediately abort the transition and re-clamp your saddle leg configuration around their trapped leg. Their explosive bridge creates kinetic energy you should ride rather than fight—let their movement pass while maintaining tight leg control. Once they settle, reassess whether saddle is still viable or if the bridge successfully cleared enough control to necessitate restarting the fallback from step one. Never continue a half-completed transition during explosive defensive movements.",
         "answer_line": "Re-clamp and ride the bridge",
         "distractors": {
@@ -294,7 +294,7 @@
         }
       },
       {
-        "question": "What is the single most critical leg position that must be established to create a functional inside ashi-garami after the fallback?",
+        "question": "Which leg position is essential for a functional inside ashi after falling back from saddle?",
         "answer": "The inside leg across the opponent's near hip with your foot planted on the far side of their body is the non-negotiable foundation. This element provides the rotational control that prevents the opponent from facing you directly, turning away, or squaring their hips to create escape angles. Without the inside leg across the hip, you have loose leg contact but not a genuine inside ashi-garami position, and the opponent can escape through simple hip rotation or leg straightening.",
         "answer_line": "Inside leg crossed over hip",
         "distractors": {
@@ -308,7 +308,7 @@
         }
       },
       {
-        "question": "After completing the fallback to inside ashi, what should your immediate offensive strategy be rather than rushing back to saddle?",
+        "question": "After falling back to inside ashi, what should you do instead of rushing back to saddle?",
         "answer": "First consolidate the position by squeezing legs tight and establishing perpendicular alignment. Then immediately threaten a straight ankle lock to force defensive reactions from the opponent. Do not rush back to saddle entry. Let the opponent's defense of your ashi attacks create natural openings for position advancement—if they rotate their knee inward defending the ankle lock, this exposes their heel for advancement to honey hole or saddle. Their defensive choices should guide your next move rather than forcing a predetermined path.",
         "answer_line": "Consolidate, then threat ankle",
         "distractors": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "Your opponent pummels their free leg to prevent your inside leg from crossing their hip during the transition—what is your response?",
+        "question": "They pummel their free leg to block your inside leg crossing their hip: what do you do?",
         "answer": "Drive your inside leg across their hip using full hip extension rather than just knee movement, which generates significantly more penetrating force. If their pummel succeeds despite this, you have two viable options: attempt to re-enter saddle using whatever deeper entanglement you still partially maintain, or redirect to outside ashi-garami where their pummeling may have inadvertently exposed a different entry angle. Never stall in an incomplete position—commit to either completing inside ashi or transitioning to an alternative entanglement.",
         "answer_line": "Drive hip extension through",
         "distractors": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "What distinguishes a correctly timed fallback from a premature retreat that wastes a viable attacking opportunity?",
+        "question": "What separates a well-timed saddle fallback from a premature retreat?",
         "answer": "A correctly timed fallback occurs when the opponent has created structural changes to your saddle—cleared hip pressure, broken perpendicular alignment, or established frames that resist quick removal. A premature retreat abandons saddle when the opponent is merely resisting through grip fighting but has not fundamentally compromised your positional structure. The diagnostic test is whether your next saddle submission attempt would have reasonable success probability given the current control state. If the structural foundation is disrupted, fall back. If structural control persists despite active resistance, stay and work.",
         "answer_line": "Structural loss, not resistance",
         "distractors": {
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "How should you manage force application during the transition to minimize injury risk to your training partner?",
+        "question": "How should you manage force during the saddle-to-inside-ashi transition to keep it safe?",
         "answer": "Execute the transition with smooth controlled movements rather than explosive or jerky repositioning. The leg reconfiguration creates unpredictable angles on the opponent's knee and ankle joints, so controlled speed prevents accidental torque on vulnerable ligament structures. Maintain verbal communication during drilling and never snap rapidly from one configuration to another. The transition should feel like a deliberate gear shift through sequential control replacements, not a sudden violent repositioning.",
         "answer_line": "Controlled speed, keep talking",
         "distractors": {
@@ -457,7 +457,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary tactile cue indicating the attacker is initiating the fallback from saddle to inside ashi?",
+        "question": "What tactile cue tells you they are falling back from saddle to inside ashi?",
         "answer": "The most reliable cue is feeling the attacker's deeper leg configuration—figure-four or similar entanglement—loosen around your trapped leg. This is accompanied by a reduction in hip pressure as they shift weight to reconfigure their legs. You may also feel their grip change from a finishing position to a transitional ankle control grip. These changes occur in sequence and provide approximately a one to two second warning before the new position is established.",
         "answer_line": "Deep leg entanglement loosens",
         "distractors": {
@@ -471,7 +471,7 @@
         }
       },
       {
-        "question": "Why is the transition window a better escape opportunity than escaping either established saddle or established inside ashi independently?",
+        "question": "Why is that transition a better escape window than established saddle or inside ashi?",
         "answer": "During the transition, the attacker must release their deeper saddle controls before the simpler ashi structure is fully established. This creates a brief window where leg entanglement is at its weakest—the deeper configuration is gone but the new configuration is not yet complete. Neither established saddle nor established inside ashi presents this same vulnerability because in each stable position all control elements work together synergistically. The transition disrupts that synergy and creates exploitable gaps in control.",
         "answer_line": "Deep control gone, new not set",
         "distractors": {

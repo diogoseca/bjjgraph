@@ -84,7 +84,7 @@ description: "Learn to attack the Kimura from front headlock position. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent straightens their arm as you reach for the figure-four grip - what adjustment prevents escape?",
+      "name": "They straighten the arm as you reach for the figure-four from front headlock — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive their wrist toward their hip using your grip hand while simultaneously pressing your chest forward to collapse their posture further, forcing the elbow to bend by shortening the distance between their shoulder and wrist. If they maintain the straight arm, transition back to a choke threat since their extended arm is no longer protecting their neck. The choke threat forces them to bend the arm defensively, reopening the Kimura opportunity. Never fight a fully straight arm with pure grip strength."
@@ -100,7 +100,7 @@ description: "Learn to attack the Kimura from front headlock position. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "You have the figure-four locked but your opponent begins rolling toward you to relieve pressure - how do you finish?",
+      "name": "You have the front headlock Kimura locked and they roll toward you — how do you finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their roll by stepping over with your far leg and transitioning to a belly-down Kimura finish position. As they roll, maintain your grip and let their rotation actually tighten the submission rather than fighting to keep them flat. You can also step over to mount while keeping the Kimura grip, which gives you gravity assistance for the finish. The key principle is not resisting their roll but adapting your body position to maintain and increase the rotational pressure throughout their movement."
@@ -108,7 +108,7 @@ description: "Learn to attack the Kimura from front headlock position. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "What breaking point indicators tell you the shoulder is approaching its rotational limit during the Kimura?",
+      "name": "What indicators show the shoulder is nearing its rotational limit during the Kimura?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for increasing mechanical resistance in the rotation as the joint approaches end range, the opponent's entire body beginning to twist and contort to create slack, audible distress sounds or sharp breathing changes, visible tension in the shoulder and upper arm muscles, and the opponent's free hand reaching desperately toward the trapped arm. In training, you should feel a firm mechanical stop as the shoulder reaches its anatomical limit. Slow down and wait for the tap at this point rather than forcing through the barrier."
@@ -116,7 +116,7 @@ description: "Learn to attack the Kimura from front headlock position. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs their own wrist to block the Kimura rotation - what grip adjustments do you make?",
+      "name": "They grab their own wrist to block the front headlock Kimura — what grip adjustments work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert your top hand deeper into the crook of their elbow and use a prying motion to break the defensive grip apart. Alternatively, maintain the figure-four and step over to mount position, which changes the leverage angle and adds gravitational force to your advantage, often breaking their defensive grip. You can also create a pumping motion by quickly pulling the wrist away then driving it back toward their hip to shock the grip open. Never try to muscle through their clasped defense with a static sustained pull."

@@ -288,7 +288,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating toward you just as you lift your outside leg to adjust its angle - how do you respond?",
+        "question": "They rotate toward you as you lift your outside leg for the Saddle: how do you respond?",
         "answer": "Immediately replant your outside leg across their hip and drive your hips forward to re-establish Honey Hole pressure. Do not try to complete the Saddle transition during active rotation. Follow their rotation by adjusting your angle while maintaining the inside leg triangle, and wait for them to settle before reattempting the reconfiguration. Trying to force the transition during rotation creates a scramble that favors the defender.",
         "answer_line": "Replant leg, drive hips forward",
         "distractors": {
@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail when tightening the inside leg triangle during this transition?",
+        "question": "Tightening the inside leg triangle for the Saddle: what mechanical detail matters most?",
         "answer": "The ankle must be pulled deep behind the opponent's thigh, not floating loosely behind their knee. The difference between a locked triangle and a loose one is measured in inches at the ankle position. Pull your heel toward your own glute while squeezing your knees together, creating a clamp that eliminates the rotational slack defenders exploit. This tightening must happen before the outside leg adjustment.",
         "answer_line": "Pull ankle deep behind their thigh",
         "distractors": {
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "You have loosened your triangle to adjust but your opponent immediately starts pulling their knee to their chest to extract their leg - what is your immediate response?",
+        "question": "You loosen the triangle and they pull their knee to their chest: immediate response?",
         "answer": "Abandon the Saddle transition and immediately re-clamp your inside leg triangle while driving hips forward to pin their leg back down. Use your outside hand to grip their ankle or pants and pull their leg back into the entanglement. If extraction has progressed significantly, transition to Inside Ashi-Garami as a fallback position rather than fighting for a compromised Honey Hole. Speed is critical - address the extraction within one second.",
         "answer_line": "Re-clamp triangle, hips forward",
         "distractors": {
@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "The transition is blocked because your opponent maintains a strong frame with their free leg on your hip - what adjustments or chain attacks do you pursue?",
+        "question": "Their free-leg frame on your hip blocks the Saddle switch: what adjustments or attacks?",
         "answer": "First attempt to pin or redirect their framing leg using your outside hand or by hooking it with your outside foot. If the frame persists, consider attacking from the current Honey Hole position rather than forcing the Saddle. The inside heel hook, kneebar, and toe hold are all available from Honey Hole without requiring full Saddle optimization. Alternatively, use the frame removal attempt to create a timing window: as you address their frame, they may relax the leg momentarily, opening the transition opportunity.",
         "answer_line": "Pin their framing leg first",
         "distractors": {
@@ -486,7 +486,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest tactile cue that tells you the attacker is beginning a Honey Hole to Saddle transition?",
+        "question": "What is the earliest tactile cue that they are switching from Honey Hole to Saddle?",
         "answer": "The earliest cue is a shift or momentary decrease in hip pressure against your trapped leg. Before any visible leg adjustment, the attacker must redirect their weight to begin the reconfiguration. This pressure change is detectable through your trapped thigh before you can see or feel the leg adjustments. Train yourself to react to this pressure shift as the primary trigger for defensive action.",
         "answer_line": "Shift or drop in hip pressure",
         "distractors": {
@@ -500,7 +500,7 @@
         }
       },
       {
-        "question": "Your attacker begins lifting their outside leg to adjust its angle across your hip - what defensive action gives you the highest success probability?",
+        "question": "They lift their outside leg to adjust across your hip: your highest-percentage defense?",
         "answer": "Immediately drive your free leg's foot into the space vacated by their outside leg, framing your foot or shin against their hip to prevent them from replanting the outside leg in its new position. This frame blocks the critical outside leg adjustment that distinguishes Saddle from Honey Hole. While maintaining this frame, begin working hip rotation to create extraction angles. The frame buys time for the rotational escape.",
         "answer_line": "Frame foot into vacated space",
         "distractors": {
@@ -528,7 +528,7 @@
         }
       },
       {
-        "question": "How should you manage your energy when the attacker makes multiple transition attempts that you successfully defend?",
+        "question": "How do you manage energy while defending repeated Honey Hole to Saddle attempts?",
         "answer": "Each successful defense costs defensive energy through framing, rotation, and grip fighting. Recognize that the attacker is also expending energy on reconfiguration attempts. Use the rest periods between attempts to work incremental escape progress rather than fully resting. Small hip movements and grip adjustments between defensive efforts accumulate toward eventual escape. The defender who uses inter-attempt rest productively will outlast the attacker who must repeatedly restart their transition sequence.",
         "answer_line": "Work small escapes between attempts",
         "distractors": {

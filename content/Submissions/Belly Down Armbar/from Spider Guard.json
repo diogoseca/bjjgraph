@@ -282,7 +282,7 @@
         }
       },
       {
-        "question": "Your opponent starts to retract their arm by bending the elbow during your hip angle phase - what adjustment prevents the escape?",
+        "question": "From spider guard they bend the elbow to retract the arm as you angle your hips—what adjustment?",
         "answer": "Maintain maximum sleeve tension by pulling the wrist firmly toward your chest and use your foot still on their bicep to re-extend the arm by pushing outward. If they bend the elbow deeply despite these efforts, pivot your hips further toward the omoplata angle rather than forcing the armbar, converting their defensive arm retraction into an omoplata entry. Never abandon sleeve grip tension to chase the arm.",
         "safety_critical": false,
         "answer_line": "Keep tension, pivot to omoplata",
@@ -312,7 +312,7 @@
         }
       },
       {
-        "question": "What are the critical control requirements that must be established before committing to the belly-down rotation?",
+        "question": "From spider guard, what must you confirm before committing to the belly-down rotation?",
         "answer": "Three control checkpoints must be confirmed: the target arm is trapped between your thighs with knees squeezed and no visible gap, the wrist is pulled tight to your chest with both hands maintaining strong grip, and the opponent's elbow is positioned above your hip line so the fulcrum is aligned for extension. Missing any of these three elements creates an escape opportunity during the rotation when your control is temporarily reduced.",
         "safety_critical": false,
         "answer_line": "Arm trapped, wrist tight, elbow high",
@@ -342,7 +342,7 @@
         }
       },
       {
-        "question": "How should you adjust your grip on the sleeve during the transition from spider guard control to the belly-down finish?",
+        "question": "How does your sleeve grip change from spider guard control to the belly-down finish?",
         "answer": "During spider guard, your grip is a standard four-finger sleeve grip at or above elbow level. As you begin the armbar rotation, transition to gripping the wrist with both hands by walking your grips down toward the wrist while maintaining tension. In the belly-down position, both hands control the wrist area with the arm pulled tight against your chest. The grip must never fully release during any transition between these control points.",
         "safety_critical": false,
         "answer_line": "Walk grip down to the wrist",
@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "What specific indicators tell you the elbow joint is approaching its breaking point during the belly-down finish?",
+        "question": "What tells you the elbow is nearing its breaking point during the belly-down finish?",
         "answer": "Key indicators include the opponent's arm becoming rigid as they reflexively resist extension, visible straightening of the arm past its natural resting angle, the opponent's body tensing or lifting as they attempt to relieve pressure, and any vocalization of discomfort. When you feel the arm fully straighten against your hip fulcrum with no remaining bend, you are at the breaking threshold. At this point, hold steady pressure and wait for the tap rather than pushing further.",
         "safety_critical": true,
         "answer_line": "Arm fully straightens, no give",
@@ -372,7 +372,7 @@
         }
       },
       {
-        "question": "In competition, your opponent is defending by gripping their own hands together to prevent arm extension - how do you break this grip and finish?",
+        "question": "From spider guard, they clasp their hands to block extension—how do you break it and finish?",
         "answer": "From the belly-down position, use progressive hip pressure against the joined arms to fatigue the grip. You can also walk your hands down to their wrist and peel fingers individually, or create a lever by pulling their wrist laterally while maintaining hip pressure to separate the hands. Another competition-proven method is to squeeze your knees tighter and slowly extend your hips in micro-increments, which gradually overcomes static grip strength through sustained mechanical advantage.",
         "answer_line": "Hip pressure, peel the grip apart",
         "distractors": {
@@ -517,7 +517,7 @@
         }
       },
       {
-        "question": "Your arm is trapped and the attacker is beginning the belly-down rotation - what is your best remaining defensive option?",
+        "question": "Your arm is trapped and the attacker starts the belly-down rotation—what is your best defense?",
         "answer": "Your best option is to immediately bridge and turn into the attacker during the rotation before they complete the belly-down position. Drive your shoulder toward them and try to follow their rotation to prevent them from achieving the prone position. Simultaneously, bend your trapped elbow as much as possible and grip your own wrist or lapel. If the rotation completes to full belly-down, tap immediately rather than resisting extension with grip strength alone.",
         "safety_critical": true,
         "answer_line": "Bridge and turn into attacker",

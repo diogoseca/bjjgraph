@@ -84,7 +84,7 @@ description: "Attacking guide for converting Russian Cowboy single-hook control 
     },
     {
       "@type": "Question",
-      "name": "Your free leg is posted far from the opponent's body on the mat - how does this affect the hook threading and what adjustment should you make?",
+      "name": "Russian Cowboy: your free leg is posted far out—how does that hurt the hook, and what fix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A distant free leg creates a long arc that telegraphs the threading motion, giving the opponent ample time to recognize and block the insertion with their hands or shrimp away. The extended movement also tends to pull your upper body away from the opponent's back, loosening chest pressure and seatbelt control. Draw the free leg close to the opponent's body with your knee oriented toward their far hip before initiating the thread. The shorter the arc, the faster and less interceptable the insertion becomes."

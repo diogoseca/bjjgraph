@@ -74,7 +74,7 @@ description: "Complete guide to executing the Escape Z-Lock Half Guard. Learn wh
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "When should you decide to abandon the Z-Lock and escape to standard Half Guard rather than continuing to fight from the deteriorating position?",
+      "name": "When should you abandon the Z-Lock and escape to standard half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon Z-Lock when two or more sweep attempts have failed against the top player's defense, when the top player has established an unbreakable crossface that eliminates your offensive angles, when your butterfly hook is being systematically neutralized and cannot threaten elevation, or when you feel your energy expenditure exceeding your offensive output. The key indicator is that maintaining the Z-Lock has become purely defensive with no realistic offensive pathway remaining."
@@ -90,7 +90,7 @@ description: "Complete guide to executing the Escape Z-Lock Half Guard. Learn wh
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure the moment you begin releasing your butterfly hook—how do you adjust?",
+      "name": "They crossface hard as you release your butterfly hook in Z-Lock: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If crossface pressure intensifies during the escape, your inside forearm frame on their shoulder becomes critical. Drive the frame into their shoulder to create space while keeping your chin tucked to prevent the crossface from flattening you. If the pressure is overwhelming at the current level, abandon the standard half guard recovery and instead duck underneath them into deep half guard, using their forward driving pressure against them. The deep half bail variant converts their aggressive pressure into your advantage."
@@ -106,7 +106,7 @@ description: "Complete guide to executing the Escape Z-Lock Half Guard. Learn wh
     },
     {
       "@type": "Question",
-      "name": "What grips must you establish immediately upon reaching standard Half Guard to prevent the top player from capitalizing on the transition?",
+      "name": "Reaching standard half guard from Z-Lock, which grip must you establish immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Priority one is the underhook on the trapped leg side, reaching deep toward their far hip or belt line. This single grip transforms passive half guard into an offensive platform for sweeps and back takes. If the underhook is unavailable due to the top player's crossface, establish a strong knee shield with your outside shin across their hip and shoulder, creating distance and frame that prevents them from re-establishing chest-to-chest pressure. Either grip must be secured within one second of completing the leg reconfiguration."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the Escape Z-Lock Half Guard. Learn wh
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates a knee slice pass as you release your butterfly hook—what immediate response prevents the pass?",
+      "name": "They start a knee slice as you release your butterfly hook: what stops the pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your newly freed outside leg to establish an immediate knee shield blocking their slicing knee before it crosses your hip line. Your maintained lockdown on their trapped leg prevents them from completing the slice quickly, buying you time to position the knee shield. Frame with your inside arm on their crossface shoulder to prevent forward drive. If the knee shield catches their knee in time, you can redirect their slice and recover to standard half guard with the knee shield already in place as your primary defensive structure."

@@ -323,12 +323,10 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 - [[Positions/Side Control]]
 - [[Positions/Side Control/Kesa Gatame]]
-- [[Positions/Side Control/Kuzure Kesa-Gatame]]
-- [[Positions/Side Control/Modified Scarf Hold]]
-- [[Positions/Side Control/Scarf Hold Position]]
+- [[Positions/Side Control/Kuzure Kesa Gatame]]
 - [[Positions/North-South]]
 - [[Positions/Knee on Belly]]
-- [[Positions/Side Control/Reverse Kesa-Gatame]]
+- [[Positions/Side Control/Ushiro Kesa Gatame]]
 
 
 </section>
@@ -355,7 +353,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 - [[Positions/North-South]] - Transitional position offering alternative angle for Americana application
 - [[Positions/Knee on Belly]] - Alternative top position for Americana variation with enhanced control
 - [[Positions/Side Control/Kesa Gatame]] - Scarf hold variation offering similar Americana opportunities
-- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold with arm isolation ideal for Americana setup
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Modified scarf hold with arm isolation ideal for Americana setup
 
 </section>
 

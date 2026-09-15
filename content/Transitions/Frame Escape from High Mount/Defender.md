@@ -56,7 +56,7 @@ description: "Learn to counter the Frame Escape from High Mount in BJJ. Strategi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a frame escape from high mount?",
+      "name": "Earliest cue your opponent is attempting a frame escape from high mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling deliberate forearm bone pressure against your hip creases or inner thigh area, distinguishing it from general defensive arm flailing. The opponent's elbows shift from a passive tucked position to an active angled position directed outward at your pelvis. This forearm-to-hip contact precedes any hip movement and is your first opportunity to neutralize the escape before it gains momentum through combined frame-and-bump technique."
@@ -64,7 +64,7 @@ description: "Learn to counter the Frame Escape from High Mount in BJJ. Strategi
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes strong forearm frames and begins generating hip bumps—what is your optimal counter-strategy?",
+      "name": "They set strong forearm frames and start hip bumping under your high mount: best counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting the frames directly with opposing force, transition to S Mount by stepping one leg over their arm that is most exposed by the frame commitment. Their dedicated framing position isolates at least one arm in an extended configuration, which is the ideal setup for S Mount entry and subsequent armbar attack. Alternatively, drive weight aggressively forward while walking knees higher to compress the available frame space, but only if the frames have not yet established full structural integrity."
@@ -80,7 +80,7 @@ description: "Learn to counter the Frame Escape from High Mount in BJJ. Strategi
     },
     {
       "@type": "Question",
-      "name": "What position should you transition to if the opponent successfully walks your hips back to their waist level?",
+      "name": "They walk your hips back to their waist from high mount: what position do you go to?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you lose high mount and return to standard mount, immediately re-establish heavy hip pressure and begin walking your knees back up toward the armpits. If the opponent is actively chaining into mount escapes, consider transitioning to Technical Mount if they begin to turn to their side, or re-establishing high mount through grip-assisted knee advancement before they can execute a full escape. Standard mount is still extremely dominant, so maintaining composure and systematic re-advancement is more effective than panicking about the positional loss."

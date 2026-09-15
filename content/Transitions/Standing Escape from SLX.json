@@ -266,7 +266,7 @@
     ],
     "flashcards": [
       {
-        "question": "Which hook should you clear first when executing the standing escape, and what is the biomechanical reason?",
+        "question": "In the standing escape from SLX, which hook do you clear first and why?",
         "answer": "Clear the top hip hook first because it creates the elevation that gives the bottom player mechanical advantage for sweeps. The top hook lifts your trapped leg upward and away from the mat, amplifying the off-balance angle. Removing this hook drops your trapped leg closer to the mat, reducing the bottom player's leverage dramatically and making the subsequent ankle wrap removal safer and easier.",
         "answer_line": "Clear top hip hook first",
         "distractors": {
@@ -280,7 +280,7 @@
         }
       },
       {
-        "question": "Your opponent has strong sleeve grips on both your wrists while you are trapped in SLX - what is your immediate priority before attempting the escape?",
+        "question": "Trapped in SLX with both your sleeves gripped, what's your priority before escaping?",
         "answer": "Your immediate priority is breaking those sleeve grips before touching any hooks. Sleeve grips allow the bottom player to generate powerful directional pulls that compromise your base during hook clearing. Use circular grip breaks or two-on-one peel methods to free your hands. Attempting to clear hooks while your wrists are controlled is extremely dangerous because the opponent can time a sharp pull with your weight shift to execute a high-percentage sweep.",
         "answer_line": "Break sleeve grips first",
         "distractors": {
@@ -308,7 +308,7 @@
         }
       },
       {
-        "question": "During extraction, you feel the bottom player beginning to extend their legs for a sweep - what is your immediate response?",
+        "question": "Extracting from SLX, you feel them extending their legs to sweep. What's your immediate response?",
         "answer": "Immediately halt the extraction, widen your base by stepping the free leg further out to the side, and bend your free knee deeply to lower your center of gravity. Post your near hand on the mat if necessary for emergency stability. The sweep requires momentum and your continued movement to succeed - stopping your motion removes their timing window. Re-stabilize completely before resuming the extraction sequence. Do not try to outrun the sweep by extracting faster.",
         "answer_line": "Halt, widen base, lower hips",
         "distractors": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "What is the critical difference between extracting the trapped leg correctly versus the common error of ripping it free?",
+        "question": "What separates correct leg extraction from SLX from the common error of ripping it free?",
         "answer": "Correct extraction involves a smooth backward sliding motion along the mat with continuous hip drive away from the opponent, executed only after both hooks have been systematically cleared. The common error of ripping involves an explosive upward or backward yank while hooks are still partially engaged. Ripping fails because the hooks tighten under tension like a Chinese finger trap, and the explosive movement shifts your weight suddenly in ways that create sweep opportunities. Smooth extraction relies on structure and positioning, not speed.",
         "answer_line": "Slide smoothly after hooks clear",
         "distractors": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "After successfully extracting your leg and reaching standing position, your opponent immediately sits up and reaches for your ankles - how do you respond?",
+        "question": "You escape SLX to standing and they sit up reaching for your ankles. How do you respond?",
         "answer": "Use your hands to control their reaching arms or push their shoulders back while stepping backward to create distance beyond their reach. Do not stand stationary within their guard engagement range. Control at least one of their shins or feet to prevent them from scooting forward to close distance. The escape is not complete until you have established standing distance where they cannot re-engage without first standing up themselves or pulling guard.",
         "answer_line": "Control arms, step back for space",
         "distractors": {
@@ -492,7 +492,7 @@
         }
       },
       {
-        "question": "You feel the top player successfully clear your top hip hook - should you immediately try to replace it or transition to a different position?",
+        "question": "They clear your top SLX hook: do you replace it or transition to another position?",
         "answer": "This depends on the speed and commitment of their clearing. If they cleared it casually and have not yet addressed your bottom ankle wrap, immediately replace the top hook from a different angle while their attention is on celebrating the clear. However, if they cleared it decisively and are already reaching for your bottom hook, transition proactively to Ashi Garami or inside Ashi by redirecting your free leg into a leg entanglement configuration. Stubbornly fighting for a single hook re-insertion against a committed escape often results in losing everything.",
         "answer_line": "Depends on their commitment",
         "distractors": {
@@ -520,7 +520,7 @@
         }
       },
       {
-        "question": "Your opponent has cleared both hooks and is beginning to step backward - what is your last-resort defense before they fully disengage?",
+        "question": "Both your SLX hooks are cleared and they're stepping back. What's your last-resort defense?",
         "answer": "Immediately sit up explosively and grab the nearest part of their retreating leg - ankle, heel, pants cuff, or shin. This arrests the extraction and creates a connection point you can use to pull yourself toward them or re-insert hooks from close range. Simultaneously, use your free leg to chase their retreating leg by inserting a butterfly hook or reaching for their far ankle. The key is speed - every fraction of a second they step further away reduces your ability to reconnect. If you cannot reach their leg, transition immediately to seated guard and prepare to re-engage from there.",
         "answer_line": "Sit up, grab their retreating leg",
         "distractors": {

@@ -66,7 +66,7 @@ description: "How to defend against Anaconda Choke in BJJ. Recognition cues, ear
     },
     {
       "@type": "Question",
-      "name": "When caught in a fully locked Anaconda after the roll, what is the correct survival and escape sequence?",
+      "name": "Caught in a fully locked anaconda after the roll, what is your survival and escape sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, use your free hand to attack the grip at the point where their hands connect - pull on their top wrist to create any space at all around your neck. Simultaneously, work to straighten your trapped arm even partially. If you can create breathing space, bridge explosively toward your opponent while continuing to attack their grip. Use the bridge momentum to turn into them and recover a scramble position. If the choke is fully locked with no space and you cannot effectively fight the grip, tap immediately - the Anaconda causes unconsciousness in 3-5 seconds once both carotids are compressed."
@@ -74,7 +74,7 @@ description: "How to defend against Anaconda Choke in BJJ. Recognition cues, ear
     },
     {
       "@type": "Question",
-      "name": "Why is circling direction critical when escaping Anaconda control, and which direction should you move?",
+      "name": "Which way should you circle to escape anaconda control, and why does direction matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circle away from the choking arm side - this means moving toward your free-side shoulder. Circling in this direction works against the constricting loop by creating the angle that opens the choke and allows your trapped arm to escape. Circling toward the choking arm (the wrong direction) tightens the loop around your neck and drives your shoulder deeper into your own carotid. The correct circling direction also creates distance from your opponent's hips, reducing their ability to drive finishing pressure."
@@ -82,7 +82,7 @@ description: "How to defend against Anaconda Choke in BJJ. Recognition cues, ear
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked the figure-four but has not yet rolled - what defensive window exists and how do you exploit it?",
+      "name": "They locked the figure-four but have not rolled yet — how do you use this window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a critical defensive window because the Anaconda is significantly harder to finish from the top position without the roll. Use your free hand to post on their hip or thigh to prevent the roll. Simultaneously, work to straighten your trapped arm. If you can prevent the roll and extract your arm, the choke collapses. Even if you cannot free the arm, denying the roll forces your opponent to hold the Anaconda from top where hip pressure is unavailable, giving you time to hand fight and eventually escape. Keep your base wide and low to resist the roll."

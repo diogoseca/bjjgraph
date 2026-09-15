@@ -82,7 +82,7 @@ description: "Defend the Arm Triangle from Side Control. Recognize crossface set
     },
     {
       "@type": "Question",
-      "name": "The attacker has locked the head-and-arm grip but has not yet walked to the finishing angle - what escape options are available?",
+      "name": "From side control they locked head-and-arm but haven't walked to the angle—what escapes remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your last high-percentage escape window before the choke is sealed. Frame your free arm against the attacker's near hip and turn aggressively into them toward your trapped-arm side, fighting to get your knees under your body. If you can face into the attacker and prevent them from achieving the perpendicular angle, they cannot generate the chest compression needed to finish. Alternatively, bridge powerfully toward the trapped-arm side and shrimp your hips to pull them into closed guard, which disrupts the finishing angle entirely."

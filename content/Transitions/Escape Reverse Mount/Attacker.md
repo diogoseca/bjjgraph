@@ -80,7 +80,7 @@ description: "Master the Escape Reverse Mount technique from bottom position. Le
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What must be your absolute first priority when you find yourself in reverse mount bottom before initiating any escape?",
+      "name": "What is your first priority in reverse mount bottom before starting any escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Protect your neck immediately by tucking your chin and bringing both hands to defend the collar and throat area with elbows tight to your ribs. This defensive posture must be established before any escape movement because the rear naked choke is the most immediate and dangerous threat from this position. Sacrificing neck defense for escape speed can result in a tap."
@@ -96,7 +96,7 @@ description: "Master the Escape Reverse Mount technique from bottom position. Le
     },
     {
       "@type": "Question",
-      "name": "Your opponent drops their weight heavily when you begin hip escaping — how do you adjust your escape strategy?",
+      "name": "They drop heavy weight as you begin hip escaping from reverse mount: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch from larger hip escape movements to small, persistent incremental shrimps that are harder to counter with weight alone. Each micro-movement creates cumulative space that heavy weight cannot fully negate. Wait for the opponent to make a grip adjustment or weight shift before timing your bridge and turn. Patience and persistence overcome weight advantages when explosive movement cannot create sufficient displacement."
@@ -112,7 +112,7 @@ description: "Master the Escape Reverse Mount technique from bottom position. Le
     },
     {
       "@type": "Question",
-      "name": "How does the opponent's inability to see your upper body in reverse mount create an advantage for this escape?",
+      "name": "How does their inability to see your upper body in reverse mount help your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In reverse mount, the top player faces your feet and cannot see your head, shoulders, or arm movements without turning around, which compromises their base. This means your defensive posture adjustments, hip escape initiation, and bridge setup are harder for them to detect and counter compared to standard mount where they can see and feel your upper body preparations. You can build your escape incrementally with less risk of preemptive counters."
@@ -120,7 +120,7 @@ description: "Master the Escape Reverse Mount technique from bottom position. Le
     },
     {
       "@type": "Question",
-      "name": "You successfully turn but the opponent manages to insert one hook during the movement — what should you do?",
+      "name": "You turn but they insert one hook: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If one hook is inserted, immediately address it before completing the guard recovery. Use your legs to strip the hook by pushing their foot off your hip with your near-side hand while continuing to secure half guard on their other leg. If both hooks are inserted, abandon the half guard recovery and transition immediately to back escape protocol with two-on-one hand control and seated posture recovery. One hook is manageable; two hooks means the situation has changed."

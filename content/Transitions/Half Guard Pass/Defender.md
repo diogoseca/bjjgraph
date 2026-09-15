@@ -62,7 +62,7 @@ description: "How to defend against Half Guard Pass in BJJ. Recognition cues, de
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important grip for the half guard bottom player to establish, and why does it provide such a significant defensive and offensive advantage?",
+      "name": "What is the single most important grip from half guard bottom, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The underhook on the trapped-leg side is the most important grip because it simultaneously prevents the passer from flattening you with crossface pressure, provides the mechanical leverage needed for sweeps like the old school sweep, creates the pathway for back take sequences when you come up to your side, and forces the passer to address your offensive threat before they can advance their pass. Without the underhook, the bottom player is reduced to purely reactive defense."
@@ -70,7 +70,7 @@ description: "How to defend against Half Guard Pass in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "When the top player has established a strong crossface and you cannot win the underhook battle, what is your best defensive transition and why?",
+      "name": "They have a strong crossface and you can't win the underhook—what transition is best, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to deep half guard by threading underneath the passer's hips. When the passer has dominant crossface and shoulder pressure, fighting for the underhook from standard half guard becomes increasingly difficult. Deep half changes the entire positional dynamic by getting your body underneath their center of gravity, which neutralizes their crossface advantage and gives you access to high-percentage sweeps. The key is to use the crossface pressure itself as your entry - as they drive forward, you redirect underneath rather than fighting against the force."
@@ -78,7 +78,7 @@ description: "How to defend against Half Guard Pass in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "How should you time your sweep attempts relative to the passer's extraction attempts to maximize your success rate?",
+      "name": "When should you time your sweeps relative to the passer's leg extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing for sweep attempts is during the passer's leg extraction phase, specifically when they shift their weight or lift their hips to free the trapped leg. During extraction, the passer's base is compromised because they are moving their leg rather than posting it for stability. Their weight distribution shifts to accommodate the extraction movement, creating momentary imbalance. Sweeps executed at this precise moment catch the passer mid-transition when they cannot post or base effectively, dramatically increasing your success rate compared to attempting sweeps when the passer has settled stable base and pressure."
@@ -86,7 +86,7 @@ description: "How to defend against Half Guard Pass in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your opponent has stripped your underhook and is driving heavy crossface while beginning to extract their trapped leg - what is your immediate defensive sequence?",
+      "name": "They strip your underhook, crossface heavy, and start extracting—what is your defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, create an immediate frame by placing your near forearm against their hip or across their shoulder to prevent complete chest-to-chest compression. Second, hip escape away from them to re-angle your body and prevent being flattened. Third, insert your top knee as a knee shield between your bodies to create distance. Fourth, use the distance created by the knee shield to either re-pummel for the underhook or transition to deep half guard. The critical error is trying to hold the half guard passively once the underhook is lost - you must immediately transition to an alternative defensive structure."
@@ -94,7 +94,7 @@ description: "How to defend against Half Guard Pass in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Why is transitioning between half guard sub-variations more effective than committing to a single defensive position against a skilled passer?",
+      "name": "Why is flowing between half guard variations better than committing to one against a good passer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Each half guard sub-variation (knee shield, lockdown, deep half, Z-guard, butterfly half) has specific counter-techniques that experienced passers have drilled extensively. If you commit to one position, the passer identifies it, applies the rehearsed counter, and completes the pass. By flowing between variations based on their reactions, you force the passer to constantly re-assess and change their passing strategy mid-sequence. Each transition also creates a brief moment of positional chaos where sweep opportunities arise. The passer who is solving a new defensive puzzle every few seconds cannot settle into the methodical passing rhythm needed to complete the pass."

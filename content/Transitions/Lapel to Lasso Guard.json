@@ -279,7 +279,7 @@
         }
       },
       {
-        "question": "Your opponent steps over your threading leg before the lasso is established—what immediate counter preserves your guard?",
+        "question": "They step over your threading leg before the lasso is set: what counter preserves your guard?",
         "answer": "Transition immediately to De La Riva guard using the same leg. Hook their lead leg from the outside while maintaining your sleeve grip. Their step-over motion actually assists the DLR hook entry. This maintains guard continuity and offensive threats despite the failed lasso attempt.",
         "answer_line": "Switch to De La Riva guard",
         "distractors": {
@@ -335,7 +335,7 @@
         }
       },
       {
-        "question": "Your lasso is established but the opponent begins systematically working to clear it—what chain attacks keep you offensive?",
+        "question": "Your lasso is set and they work to clear it: what attack chain keeps you offensive?",
         "answer": "Threaten the sickle sweep by chopping their far leg when they posture up to address the lasso. If they drop their weight to defend the sweep, their broken posture opens triangle entries by swinging your non-lasso leg across their neck. If they back away creating distance, pursue with omoplata by rotating your hips under the trapped arm. Each defensive reaction to the lasso opens a specific follow-up attack.",
         "answer_line": "Sickle sweep, triangle, omoplata",
         "distractors": {
@@ -481,7 +481,7 @@
         }
       },
       {
-        "question": "Your opponent has just begun rotating their hips perpendicular after you cleared their lapel—what is your immediate response?",
+        "question": "They cleared your lapel and start rotating their hips perpendicular: what is your response?",
         "answer": "Drive aggressive forward pressure immediately by dropping your hips and chest toward the opponent to flatten their perpendicular angle. The hip rotation is the mechanical prerequisite for lasso threading—without that angle, the shin cannot cross your arm effectively. Smashing their hips flat eliminates the transition geometry and puts you in a dominant passing position with their guard structure compromised.",
         "answer_line": "Drive pressure, flatten their hips",
         "distractors": {
@@ -495,7 +495,7 @@
         }
       },
       {
-        "question": "How does keeping your elbows tight prevent the lasso entry, and what common passing habit works against this?",
+        "question": "How do tight elbows stop the lasso entry, and what passing habit undermines that?",
         "answer": "The lasso requires threading the shin through the gap between your elbow and shoulder. When elbows are pinched to your ribs, this gap closes and the shin physically cannot cross your arm. The common habit that works against this is reaching with extended arms to establish grips or break the opponent's grips during passing—each time you extend your arm, you open the threading channel. Grip fight with compact arm positions.",
         "answer_line": "Elbows tight close the shin gap",
         "distractors": {
@@ -509,7 +509,7 @@
         }
       },
       {
-        "question": "You feel the opponent's shin beginning to slide across your tricep—is it too late to defend, and what should you do?",
+        "question": "Their shin starts sliding across your tricep: is it too late to defend, and what do you do?",
         "answer": "It is not too late if the lasso has not yet achieved full extension and tension. Immediately step over the threading leg by lifting your foot and planting it on the far side of their hip, which removes your arm from the threading path entirely. Simultaneously pull your elbow tight and circle away from the lasso side. The key is that an incomplete lasso without full extension provides minimal control—you can still escape during the threading process before the opponent straightens their leg and tensions the grip.",
         "answer_line": "Step over leg, pull elbow tight",
         "distractors": {

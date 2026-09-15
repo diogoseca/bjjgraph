@@ -60,7 +60,7 @@ description: "How to defend against Arm Crush in BJJ. Recognition, escape paths,
     },
     {
       "@type": "Question",
-      "name": "Why is tapping immediately the correct response when the Arm Crush is fully locked and pressure is building?",
+      "name": "Why tap immediately once the Arm Crush is locked and pressure is building?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Arm Crush combines two injury mechanisms simultaneously - crushing compression and rotational torque on the shoulder. Unlike single-vector submissions where you might have seconds to work an escape, the dual-force application of the Arm Crush can cause rotator cuff tears, labrum damage, or shoulder dislocation within 1-2 seconds of maximum pressure. The shoulder joint has very limited structural tolerance for combined compression and rotation, and the damage threshold arrives much faster than with standard Americanas or Kimuras. Protecting your long-term shoulder health takes absolute priority over any competitive outcome."
@@ -84,7 +84,7 @@ description: "How to defend against Arm Crush in BJJ. Recognition, escape paths,
     },
     {
       "@type": "Question",
-      "name": "Your training partner applies the Arm Crush too quickly and you feel a sharp pain in your shoulder before you can tap - what should happen next?",
+      "name": "Your partner spikes an Arm Crush and your shoulder hurts sharply — what should happen next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Both partners should stop immediately. The injured person should remain still and avoid moving the shoulder through its range of motion until the initial pain subsides. Do not attempt to test the shoulder by rotating it forcefully. Apply ice if available. If pain persists, there is any clicking or grinding sensation, or range of motion is limited, seek medical evaluation before returning to training. The training partner should be reminded that the Arm Crush must always be applied with slow, progressive pressure in training regardless of circumstance. Report the incident to your instructor."

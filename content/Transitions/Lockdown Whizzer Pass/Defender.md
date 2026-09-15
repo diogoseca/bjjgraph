@@ -56,7 +56,7 @@ description: "Complete guide to defending the Lockdown Whizzer Pass from lockdow
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first thing you should do when you feel the top player establishing a whizzer over your underhook?",
+      "name": "You feel a whizzer coming over your underhook in the lockdown: what do you do first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately deepen your underhook by reaching past their far lat muscle or gripping their far hip. A deeper underhook shortens the whizzer's mechanical lever arm and makes it significantly harder for them to generate the rotational pressure needed to flatten you. Simultaneously, extend your lockdown and drive your shoulder into them to maintain your side angle before the flattening pressure can build."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the Lockdown Whizzer Pass from lockdow
     },
     {
       "@type": "Question",
-      "name": "Your lockdown is losing effectiveness against sustained whizzer pressure and you are being progressively flattened. What should you do?",
+      "name": "Your lockdown is failing and you're being flattened by the whizzer: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition early to an alternative position rather than holding a compromised lockdown. The best option is releasing the lockdown and diving underneath the top player for deep half guard entry, which completely escapes the whizzer pressure. Alternatively, release the lockdown and recover a knee shield to re-establish distance and defensive frames from standard half guard. The key is making this decision before you are fully flat, while you still have the hip mobility to execute the transition."

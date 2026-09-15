@@ -76,7 +76,7 @@ description: "Complete attacking guide for the North-South Choke from Side Contr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the North-South Choke target and how does bilateral compression work?",
+      "name": "What does the north-south choke target from side control, and how does bilateral compression work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke targets both carotid arteries simultaneously. The choking arm's bicep compresses the near-side carotid artery while the shoulder and pectoral muscles compress the far-side carotid. This bilateral occlusion cuts blood flow to the brain and produces unconsciousness within 5-10 seconds when applied correctly. The trachea may also experience secondary compression but the primary mechanism is blood choke, not air choke."
@@ -84,7 +84,7 @@ description: "Complete attacking guide for the North-South Choke from Side Contr
     },
     {
       "@type": "Question",
-      "name": "Your opponent's near-side arm is framing against your hip as you attempt to initiate the choke — what do you do?",
+      "name": "Their near arm frames your hip as you start the north-south choke from side control—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must clear the near-side arm before threading the choking arm. Swim your underhook deeper and use your shoulder pressure to collapse their frame. Alternatively, use your crossface hand to push their wrist above their head or toward their opposite hip. If you thread the choking arm with their arm still in the way, it will block the carotid compression and the choke will not work, turning it into an uncomfortable but ineffective squeeze."
@@ -92,7 +92,7 @@ description: "Complete attacking guide for the North-South Choke from Side Contr
     },
     {
       "@type": "Question",
-      "name": "What is the difference between a clean blood choke and a neck crank in this position, and why does it matter?",
+      "name": "In this position, how does a clean blood choke differ from a neck crank, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A clean blood choke compresses both carotid arteries with the bicep and shoulder, producing unconsciousness safely with minimal pain. A neck crank occurs when the arm is too shallow (elbow at the chin rather than past it) and twists the cervical spine instead of compressing arteries. Cranks cause significant pain, risk cervical injury, and are unreliable as finishes. In training, always ensure your elbow depth passes beyond the chin to the far side of the neck before applying pressure."
@@ -100,7 +100,7 @@ description: "Complete attacking guide for the North-South Choke from Side Contr
     },
     {
       "@type": "Question",
-      "name": "You have threaded your arm and started the transition but the choke feels loose after 5 seconds of pressure — what adjustments should you try?",
+      "name": "Your north-south choke still feels loose after several seconds—what adjustments do you try?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, walk your hips slightly further toward full north-south to change the shoulder angle. Second, turn your choking-side wrist so your palm faces the ceiling, rotating the radius bone into the carotid more effectively. Third, ensure your sprawl is complete with hips flat on the mat — elevated hips reduce shoulder pressure. If none of these adjustments produce a tighter choke, release and re-establish side control rather than holding a poor position that drains your energy."
@@ -108,7 +108,7 @@ description: "Complete attacking guide for the North-South Choke from Side Contr
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to maintain chest contact throughout the entire transition from side control to the choking position?",
+      "name": "Why must you keep chest contact through the whole walk from side control to the choking position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest contact serves two purposes: it prevents the opponent from creating space to insert frames, turn in, or recover guard, and it maintains the pressure that keeps the choking arm threaded deep. If you lift your chest even briefly during the transition, the opponent can bridge to create space, get their near-side arm inside the choke, or shrimp their hips away to recover half guard. The transition and the pressure are inseparable — every step of the walk toward north-south should increase compression, not relieve it."

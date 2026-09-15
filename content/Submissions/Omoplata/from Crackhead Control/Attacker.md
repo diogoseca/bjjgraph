@@ -78,7 +78,7 @@ description: "Learn to attack with the omoplata from Crackhead Control. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up as you begin threading your leg across their shoulder - what adjustment prevents escape?",
+      "name": "Crackhead Control: they posture as you thread your leg for the omoplata — what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the omoplata entry and switch to a triangle choke by closing your legs around their neck and arm, or return to Mission Control by resetting the shin across the back of their neck. Forcing the omoplata against a posturing opponent burns energy and creates scramble situations that favor the top player. The partially threaded leg provides a platform for alternative attacks rather than requiring a full position reset."
@@ -86,7 +86,7 @@ description: "Learn to attack with the omoplata from Crackhead Control. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What control must be established before attempting the finishing pressure, and why is it the most critical step?",
+      "name": "Which control must be set before the Crackhead Control omoplata finish, and why is it critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Two-handed control on the opponent's far hip or belt line must be established before sitting up to finish. This eliminates the forward roll escape, which is the highest-percentage defense against all omoplata variations. Without hip control, even a mechanically perfect finishing angle will fail because the opponent can simply somersault forward to relieve shoulder pressure. Securing the hip before finishing is more important than speed or angle precision."
@@ -94,7 +94,7 @@ description: "Learn to attack with the omoplata from Crackhead Control. Step-by-
     },
     {
       "@type": "Question",
-      "name": "At what point during the omoplata sequence is the opponent past the point of safe escape without risking injury?",
+      "name": "In the omoplata from Crackhead Control, when can your opponent no longer escape safely?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no safe escape occurs when the attacker has achieved the perpendicular angle with hip control established and begins sitting up with forward pressure. At this stage, the shoulder is already under significant rotational stress and explosive escape attempts risk acute injury to the rotator cuff or labrum. The shoulder's available range of motion is fully consumed, and any sudden force from either direction can cause immediate damage requiring surgical intervention."
@@ -110,7 +110,7 @@ description: "Learn to attack with the omoplata from Crackhead Control. Step-by-
     },
     {
       "@type": "Question",
-      "name": "How should your grip placement change during the transition from Crackhead Control through to the omoplata finish?",
+      "name": "How should your grips change from Crackhead Control through the omoplata finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Begin with the overhook grip on the opponent's near arm during Crackhead Control. Maintain this grip throughout the leg thread until your leg is fully across their shoulder. Then release the overhook and transition both hands to the opponent's far hip to prevent the roll escape. As you sit up to finish, one hand remains controlling the hip while the other walks forward on the mat for additional forward driving pressure. Never release the overhook before the leg thread is complete."

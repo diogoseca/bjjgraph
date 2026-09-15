@@ -76,7 +76,7 @@ description: "Step-by-step guide to finishing the Twister spinal lock from Twist
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Twister primarily attack and why are they vulnerable to rotational force?",
+      "name": "What does the twister primarily attack, and why is that structure vulnerable to rotational force?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Twister primarily attacks the cervical and thoracic spine through rotational torque, along with secondary stress on the shoulder girdle. These structures are vulnerable because the spine has limited rotational range of motion, especially when the lower body is anchored in one direction and the upper body is forced to rotate in the opposite direction. The intervertebral discs and spinal ligaments are not designed to withstand the opposing forces the twister creates between the fixed hips and rotating torso."
@@ -100,7 +100,7 @@ description: "Step-by-step guide to finishing the Twister spinal lock from Twist
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts bridging as you attempt to thread the arm—what is the correct response to maintain position?",
+      "name": "They bridge as you thread the arm from twister side control — how do you keep position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately post the outside leg wide to expand your base and absorb the bridging force. Do not chase the arm thread during the bridge—instead, ride the movement by keeping your hips heavy on the leg entanglement and your shoulder driving into their near shoulder. As the opponent settles back to the mat after the failed bridge, use that settling moment to re-establish shoulder pressure and reattempt the arm thread when they are flat and energy-depleted from the bridge effort."
@@ -116,7 +116,7 @@ description: "Step-by-step guide to finishing the Twister spinal lock from Twist
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments optimize the finishing rotation when the opponent resists through neck strength?",
+      "name": "They resist the twister finish with neck strength — what grip adjustments improve your rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent resists through neck strength alone, reposition the clasping grip lower behind the crown of the head rather than on top of it, which lengthens the lever arm and multiplies rotational force. Simultaneously, shift your hips slightly further from their head to increase the distance between the anchor point and the rotation point. These two adjustments dramatically increase mechanical advantage without requiring additional muscular force, overcoming neck strength resistance through superior leverage."

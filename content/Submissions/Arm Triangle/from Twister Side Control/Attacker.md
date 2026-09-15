@@ -84,7 +84,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Twister Side
     },
     {
       "@type": "Question",
-      "name": "How do you recognize when the opponent's defense creates the arm triangle opportunity from Twister Side Control?",
+      "name": "Which defensive reaction from your opponent opens the arm triangle in Twister Side Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The trigger is the opponent creating a near-side arm frame across their own neck to relieve shoulder pressure and lateral torque. You will feel their forearm or hand pushing against your choking arm or their own neck. This frame positions their arm exactly where it needs to be for the arm triangle. The moment you feel this defensive frame, begin the transition rather than fighting to maintain the current control."
@@ -92,7 +92,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Twister Side
     },
     {
       "@type": "Question",
-      "name": "What grip adjustment is required when transitioning from the controlling grip to arm triangle configuration?",
+      "name": "Moving from Twister Side Control to the arm triangle, what grip adjustment is required?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release the controlling grip only after chest pressure secures the trapped arm against the opponent's neck. Thread your choking arm over the top of their trapped arm and behind the back of their neck so your forearm blade crosses the far-side carotid. Lock a figure-four grip by grabbing your own bicep with the choking hand while your free hand cups behind their head, or use a gable grip for a tighter configuration."
@@ -100,7 +100,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Twister Side
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to frame against your shoulder pressure with their near arm - what adjustment capitalizes on this reaction?",
+      "name": "Your opponent frames their near arm against your shoulder pressure—how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your chest down onto their framing arm to pin it against their own neck. Once the arm is secured by your body weight, smoothly transition your choking arm over the trapped arm and behind their neck to establish the head-and-arm lock. Do not try to strip the frame - instead, use it as the foundation for the arm triangle. Their defensive action becomes the setup for your next submission."
@@ -108,7 +108,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Twister Side
     },
     {
       "@type": "Question",
-      "name": "What body angle creates maximum finishing pressure once the arm triangle is locked from Twister Side Control?",
+      "name": "What body angle gives maximum finishing pressure on the arm triangle from Twister Side Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walk your hips until they are perpendicular (90 degrees) to the opponent's body on the trapped-arm side. Drop your near hip to the mat and place your head on the mat on the far side of their head. Your chest should be directly over their face. This angle allows your expanding chest and body weight to drive the opponent's shoulder into their own carotid while your forearm compresses the other side."
@@ -116,7 +116,7 @@ description: "Step-by-step guide to finishing the Arm Triangle from Twister Side
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the arm triangle is properly locked and the opponent is approaching the point of no escape?",
+      "name": "What tells you the arm triangle is locked and your opponent is past the point of no escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke is properly locked when you can feel the opponent's trapped shoulder bone pressing firmly into their neck with no space between your chest and their body. Their face will begin changing color as blood flow restricts. Their defensive movements become weaker and less coordinated. If they cannot create any frame with their free hand and cannot bridge effectively, they have passed the point of no escape."

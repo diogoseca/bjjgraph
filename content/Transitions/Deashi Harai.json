@@ -298,7 +298,7 @@
         }
       },
       {
-        "question": "What should you do with your grips if the opponent successfully defends the sweep by pulling their leg back?",
+        "question": "They defend your Deashi Harai by pulling the leg back. What do you do with your grips?",
         "answer": "Maintain your grips and immediately flow to an alternative technique that capitalizes on their backward movement and now-weighted rear leg. Options include Kosoto Gari or Kouchi Gari on the rear leg, or using their backward momentum to break their balance directly backward with forward pressure from your grips. The key is not to abandon your grips and start over, but to maintain connection and adapt to their defensive movement.",
         "answer_line": "Keep grips, flow to Kosoto/Kouchi",
         "distractors": {
@@ -340,7 +340,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand on the mat as they begin to fall from your Deashi Harai—how do you adjust?",
+        "question": "They post a hand on the mat as they fall from your Deashi Harai. How do you adjust?",
         "answer": "If the opponent posts their hand, your upper body grip work was insufficient. Increase the lifting and backward pull with your collar grip to elevate their posture and deny the posting hand access to the mat. If the post is already established, maintain your grips and immediately circle toward the posted arm side to collapse it, or transition to a second sweep attempt on their remaining base leg. The post indicates you need to emphasize the tsurikomi (lifting-pulling) action more aggressively in your grip work.",
         "answer_line": "Lift/pull collar more, deny post",
         "distractors": {
@@ -354,7 +354,7 @@
         }
       },
       {
-        "question": "What specific grip configuration gives you the best control for chaining Deashi Harai with Kouchi Gari?",
+        "question": "Which grip configuration best lets you chain Deashi Harai into Kouchi Gari?",
         "answer": "A standard collar-and-sleeve configuration works best for this combination because it allows rapid directional changes in your kuzushi (off-balancing). For Deashi Harai, you pull backward and to the side with the collar grip. When the opponent defends by pulling their lead foot back and weighting their rear leg, you maintain the same grips but redirect the pull forward and downward toward the now-weighted rear foot for Kouchi Gari. The sleeve grip prevents them from posting throughout both attempts, making it a seamless two-attack sequence.",
         "answer_line": "Collar/sleeve grips, redirect pull",
         "distractors": {
@@ -368,7 +368,7 @@
         }
       },
       {
-        "question": "How do you create the forward weight transfer in an opponent who is being defensive and keeping their weight back?",
+        "question": "How do you create forward weight transfer in an opponent keeping their weight back?",
         "answer": "Against a backward-leaning opponent, use a sequence of grip manipulations rather than a single pull. First, apply strong forward pushing pressure through both grips to force them to brace backward, then abruptly switch to a sharp backward pull. The opponent's reflexive forward correction to regain balance after your push creates the weight transfer onto the lead foot. You can also take a deliberate backstep to create space they instinctively step forward to close. The key is creating a push-pull rhythm that eventually catches their forward step.",
         "answer_line": "Push then pull, catch the step",
         "distractors": {
@@ -509,7 +509,7 @@
     ],
     "flashcards": [
       {
-        "question": "Why is breaking the sleeve grip more important than breaking the collar grip when defending against Deashi Harai?",
+        "question": "Defending Deashi Harai, why break the sleeve grip before the collar grip?",
         "answer": "The sleeve grip controls the rotational force that prevents you from posting or recovering balance once the sweep connects. Without the sleeve grip, the opponent cannot drive your arm across your body or prevent you from using that arm for balance recovery. While the collar grip provides the lifting action, a sweep with only a collar grip gives you a free arm to post, step through, or push away. Removing the sleeve grip eliminates the coordinated three-point attack that makes the technique effective.",
         "answer_line": "Sleeve stops posting, blocks arm",
         "distractors": {
@@ -523,7 +523,7 @@
         }
       },
       {
-        "question": "Your opponent has attempted Deashi Harai and you successfully retracted your lead leg—what should you expect next and how do you prepare?",
+        "question": "You retracted your lead leg against Deashi Harai. What comes next and how do you prepare?",
         "answer": "Expect an immediate follow-up attack on your now heavily-weighted rear leg, most likely Kosoto Gari or Kouchi Gari. When you retract your lead leg, all your weight shifts to the rear foot, creating the exact weight-commitment condition your opponent needs for a different sweep. Prepare by immediately redistributing your weight back to center, stepping your retracted foot down quickly to re-establish a balanced base, and maintaining your grip control to limit their ability to redirect their kuzushi. Anticipating the combination is more important than celebrating your successful defense.",
         "answer_line": "Expect Kosoto/Kouchi on rear leg",
         "distractors": {
@@ -537,7 +537,7 @@
         }
       },
       {
-        "question": "At what point in the Deashi Harai sequence is counter-attacking most viable, and what makes this timing window effective?",
+        "question": "When is countering Deashi Harai most viable, and why is that timing window effective?",
         "answer": "The optimal counter-attack window is the instant the opponent lifts their sweeping foot from the mat to initiate the arc toward your ankle. At this moment, they are standing on a single support leg with their weight committed to the sweep direction, making them highly vulnerable to forward pressure. A well-timed Ouchi Gari or forward drive into their support leg exploits their compromised base. This window is narrow—too early and they haven't committed, too late and the sweep has already connected. Reading the angular positioning and grip tightening that precede the sweep helps you anticipate this moment.",
         "answer_line": "Counter when their foot lifts",
         "distractors": {
@@ -551,7 +551,7 @@
         }
       },
       {
-        "question": "How does stance width affect your vulnerability to Deashi Harai, and what is the optimal defensive stance?",
+        "question": "How does stance width affect Deashi Harai vulnerability, and what stance is optimal?",
         "answer": "A stance that is too narrow makes you unstable and easy to off-balance with grip manipulation, while a stance that is too wide creates long, committed weight transfers between steps that give the opponent large timing windows. The optimal defensive stance is approximately shoulder-width with a slight stagger, knees bent to lower center of gravity, and weight distributed 50/50 between both feet on the balls of your feet. This allows rapid weight redistribution without committing fully to either leg. Crucially, avoid locking into any single stance configuration—keep your feet alive with subtle adjustments.",
         "answer_line": "Shoulder-width, weight 50/50",
         "distractors": {
@@ -565,7 +565,7 @@
         }
       },
       {
-        "question": "What is the difference between defending Deashi Harai in gi versus no-gi, and how should your defensive priorities shift?",
+        "question": "How does defending Deashi Harai differ in gi versus no-gi, and how do your priorities shift?",
         "answer": "In gi, the opponent has persistent sleeve and collar grips that allow sustained kuzushi control, meaning the threat is ongoing as long as grips are maintained. Your primary defense is grip fighting to deny the controlling configuration. In no-gi, the opponent relies on collar ties, wrist control, and overhooks that are more transient and easier to break but require closer distance. No-gi Deashi Harai typically comes from clinch range with less warning. Your defensive priorities shift from grip breaking (gi) to distance management and head position (no-gi), since the collar tie is the primary control mechanism that replaces the gi collar grip.",
         "answer_line": "No-gi: fight distance, not grips",
         "distractors": {

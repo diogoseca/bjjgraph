@@ -112,7 +112,7 @@ description: "How to execute the Inverted Triangle in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail that determines whether the inverted triangle will finish?",
+      "name": "What mechanical detail most determines whether the inverted triangle finishes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip angle after completing the inversion is the most critical detail. You must angle your hips 30-45 degrees off the opponent's centerline with your choking leg's knee pointing toward their trapped shoulder. A flat, parallel body position creates weak choking pressure that opponents can defend indefinitely."
@@ -433,7 +433,8 @@ The inverted triangle involves significant rotation of your body while maintaini
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Chain progression option from high guard control positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Rubber-Guard-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-rubber-guard-system" data-system-name="10th Planet Rubber Guard System" data-member-count="24"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">10th Planet Rubber Guard System</span><span class="system-card__unlocks-badge">Unlocks 24 techniques</span><span class="system-card__blurb">Chain progression option from high guard control positions</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Triangle-System" data-cta="related-system-card" data-system-slug="systems/danaher-triangle-system" data-system-name="Danaher Triangle System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Triangle System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Another triangle family entry for later study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

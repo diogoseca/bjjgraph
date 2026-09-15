@@ -56,7 +56,7 @@ description: "How to defend against Back Door Escape in BJJ. Recognition cues, d
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting the Back Door Escape rather than arm extraction?",
+      "name": "What earliest cue shows they're doing a Back Door Escape rather than extracting the trapped arm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the defender placing their free hand on your near hip as a frame while simultaneously turning their shoulders toward you rather than pulling their trapped arm laterally. This combination of hip frame plus inward shoulder rotation is unique to the back door setup and distinct from arm extraction, where the defender pulls their arm across their body and turns away from you."
@@ -64,7 +64,7 @@ description: "How to defend against Back Door Escape in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating toward you with a strong hip frame—what is your immediate defensive priority?",
+      "name": "They rotate toward you with a strong hip frame against your Darce—what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is closing the gap behind your choking arm by walking your hips backward and driving your elbow tight to your own hip. This must happen before the defender's head can thread through the opening. Simultaneously, increase downward chest pressure to flatten them and eliminate the base they need for rotation. Do not focus on squeezing the choke—address the positional escape first."
@@ -72,7 +72,7 @@ description: "How to defend against Back Door Escape in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the Darce grip and transition to north-south instead of fighting to maintain the choke?",
+      "name": "When should you drop the Darce and go to north-south instead of fighting for the choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the Darce and transition to north-south when the defender's head has already begun clearing your choking arm and you cannot close the gap. At this point, the choking structure is compromised and continuing to squeeze wastes energy while the defender completes the escape. By releasing proactively and sprawling to north-south, you convert a failed submission into dominant top control rather than losing all positional advantage."
@@ -88,7 +88,7 @@ description: "How to defend against Back Door Escape in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Your opponent's back door escape partially succeeds and they emerge into turtle—how do you capitalize?",
+      "name": "Their back door escape gets them to turtle: how do you capitalize from your Darce control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As the defender exits through the back door into turtle, immediately release the Darce grip and transition to turtle top attack. Establish a seatbelt or harness control on their upper body before they can complete their guard recovery. The defender's escape direction naturally brings them close to your body, which is actually advantageous for taking the back. Insert your near-side hook while driving chest pressure onto their upper back to prevent the standup or granby roll that would complete their escape to guard."

@@ -72,7 +72,7 @@ description: "Defend against Shin-to-Shin entry from Headquarters top. Learn to 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully inserted their shin across yours — what is the highest-percentage immediate response?",
+      "name": "From top headquarters, they have inserted their shin across yours — best immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately control their upper body by establishing collar grip or cross-face before they can complete their grip sequence. A shin connection without upper body control is significantly weaker. Simultaneously begin circling your posting leg toward the outside rather than driving forward or lifting. The circle motion changes the angle of the shin contact and can break the perpendicular connection. Do not panic and abandon position — a partially established shin-to-shin is still manageable if you deny them upper body grips and begin systematic clearing."
@@ -80,7 +80,7 @@ description: "Defend against Shin-to-Shin entry from Headquarters top. Learn to 
     },
     {
       "@type": "Question",
-      "name": "How should you modify your headquarters passing approach against an opponent who frequently attempts shin-to-shin entries?",
+      "name": "How should you adapt top headquarters passing against a frequent shin-to-shin entry threat?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a shin-to-shin specialist, minimize the weight shift windows by using explosive, committed passing transitions rather than slow positional adjustments. Keep your posting leg further from their free leg by widening your base. Prioritize upper body grip control to deny them the preliminary grip that anchors the insertion. Consider leading with passes that move your posting leg away from their reach, such as backstep passes or far-side leg drags, rather than knee cuts that keep your posting leg within range."

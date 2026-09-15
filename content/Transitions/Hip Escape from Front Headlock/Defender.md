@@ -56,7 +56,7 @@ description: "Counter the hip escape from front headlock in BJJ. Maintain front 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a hip escape from front headlock bottom?",
+      "name": "What is the earliest cue that they will attempt a hip escape from front headlock bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is increased hand fighting activity on your choking arm combined with their outside hand posting firmly on your hip or thigh. This framing action precedes the actual hip escape movement and signals that they are establishing the mechanical prerequisites for the escape. Recognizing this setup phase gives you the maximum reaction time to increase sprawl pressure and shut down the escape before it begins, rather than reacting after they have already generated lateral movement."
@@ -64,7 +64,7 @@ description: "Counter the hip escape from front headlock in BJJ. Maintain front 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when you feel the opponent beginning to bridge underneath you?",
+      "name": "How do you adjust your weight in front headlock when you feel them bridging underneath you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drop your hips lower and drive your chest forward into their upper back, counteracting the upward force of their bridge. Spread your legs wider for a more stable sprawl base and dig your toes into the mat for traction. The goal is to make your weight feel heavier during the exact moment they are trying to create space. Do not lift your hips or shift backward, as this creates the exact space they need for the lateral hip escape that follows the bridge."
@@ -72,7 +72,7 @@ description: "Counter the hip escape from front headlock in BJJ. Maintain front 
     },
     {
       "@type": "Question",
-      "name": "When should you abandon front headlock retention and transition to side control during an opponent's hip escape?",
+      "name": "During their hip escape, when do you give up the front headlock and take side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to side control when the opponent has achieved enough lateral angle that your chest is no longer driving directly into their upper back and your head control has become loose. This typically occurs when their hips have moved more than twelve inches laterally and they begin inserting a knee frame. At this point, maintaining front headlock control becomes a losing battle and the superior strategic choice is capitalizing on their turned hips to advance to side control by stepping over their body while maintaining shoulder pressure to prevent guard closure."

@@ -88,7 +88,7 @@ description: "Learn to recover knee shield from flattened half guard as the bott
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure as you begin hip escaping - how do you continue the recovery?",
+      "name": "They crossface heavily as you hip escape from flattened half: how do you keep recovering?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept the crossface and focus on maintaining your underhook rather than fighting the head position directly. Use your underhook arm to brace against their far shoulder while executing smaller, more controlled hip escapes toward your trapped leg side. The underhook prevents the crossface from completely pinning you, and each hip escape compounds even under heavy pressure. Time your shrimps with moments when the opponent adjusts their crossface angle and pressure briefly lightens."

@@ -1,0 +1,250 @@
+{
+  "name": "Danaher Side Crucifix System",
+  "description": "Explore Danaher Side Crucifix System with a matched BJJ Fanatics course, practical study steps, partner drills, and connected technique references.",
+  "summary": "The Danaher Side Crucifix System is a study framework for separating the arms from a side pin and choosing an upper-body attack without abandoning control.",
+  "tags": [
+    "bjj",
+    "system",
+    "pinning"
+  ],
+  "system_type": "Control System",
+  "difficulty_level": "Intermediate",
+  "overview": "A side pin can feel secure while offering little access to either arm. This study guide focuses on the transition from holding the torso to isolating an arm. John Danaher's Side Crucifix course is a specific companion for that problem, with underhook acquisition, arm pinning, chancery control and routes between upper-body submissions. The side-pin arrangement studied here should not be confused with assuming every technique from a rear crucifix transfers unchanged.\n\nThe sequence and drills below are original BJJGraph study suggestions, not a course transcript or an official instructor curriculum. Use the linked demonstrations for technical detail, then compare one selected lesson with a controlled partner round.",
+  "key_principles": [
+    "Compare acquiring the underhook during a transition with trying to obtain it after the side pin has settled.",
+    "Identify which arm is being controlled by your upper body and which is being pinned by the lower body.",
+    "Let the partner attempt to recover the trapped arm while you focus on base and connection.",
+    "Choose a demonstrated kimura, triangle or armbar continuation and stop before applying finishing pressure.",
+    "Use the partner reaction to decide whether to retain the side pin, change the attack orientation, or reset."
+  ],
+  "key_components": [
+    {
+      "component_name": "Secure a usable underhook",
+      "description": "Compare acquiring the underhook during a transition with trying to obtain it after the side pin has settled.",
+      "purpose": "Give the secure a usable underhook stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Separate the arm-control jobs",
+      "description": "Identify which arm is being controlled by your upper body and which is being pinned by the lower body.",
+      "purpose": "Give the separate the arm-control jobs stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Test the pin before attacking",
+      "description": "Let the partner attempt to recover the trapped arm while you focus on base and connection.",
+      "purpose": "Give the test the pin before attacking stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Study one submission branch",
+      "description": "Choose a demonstrated kimura, triangle or armbar continuation and stop before applying finishing pressure.",
+      "purpose": "Give the study one submission branch stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Recover when the pin changes",
+      "description": "Use the partner reaction to decide whether to retain the side pin, change the attack orientation, or reset.",
+      "purpose": "Give the recover when the pin changes stage a concrete objective before connecting it to the next exchange."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Secure a usable underhook",
+      "description": "Compare acquiring the underhook during a transition with trying to obtain it after the side pin has settled."
+    },
+    {
+      "step_number": 2,
+      "phase": "Separate the arm-control jobs",
+      "description": "Identify which arm is being controlled by your upper body and which is being pinned by the lower body."
+    },
+    {
+      "step_number": 3,
+      "phase": "Test the pin before attacking",
+      "description": "Let the partner attempt to recover the trapped arm while you focus on base and connection."
+    },
+    {
+      "step_number": 4,
+      "phase": "Study one submission branch",
+      "description": "Choose a demonstrated kimura, triangle or armbar continuation and stop before applying finishing pressure."
+    },
+    {
+      "step_number": 5,
+      "phase": "Recover when the pin changes",
+      "description": "Use the partner reaction to decide whether to retain the side pin, change the attack orientation, or reset."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "Confusing the side pin with a rear crucifix",
+      "solution": "Identify the torso orientation and trapped limbs before selecting a lesson."
+    },
+    {
+      "obstacle": "Reaching for a finish before fixing the elbow",
+      "solution": "Return to the arm-isolation problem and see whether the partner can reconnect their arm."
+    },
+    {
+      "obstacle": "Losing balance while changing leg position",
+      "solution": "Rehearse the leg change with cooperative movement before adding an escape attempt."
+    },
+    {
+      "obstacle": "Testing joint locks at scramble speed",
+      "solution": "Use catch-and-release entries with a partner who understands the stop signal."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Starting-position recognition",
+      "description": "Check whether the practitioner can describe the relevant control from Side Control.",
+      "proficiency_indicators": [
+        "Names the starting position",
+        "Identifies the first useful contact",
+        "Explains why the chosen lesson fits this exchange"
+      ]
+    },
+    {
+      "metric_name": "Reaction recognition",
+      "description": "Assess the decision when the partner stops the first option.",
+      "proficiency_indicators": [
+        "Names the defensive response",
+        "Pauses at the point the original option is lost",
+        "Chooses a supported continuation or reset"
+      ]
+    },
+    {
+      "metric_name": "Endpoint quality",
+      "description": "Review the position reached after the selected movement.",
+      "proficiency_indicators": [
+        "Can name the intended endpoint",
+        "Checks the partner still has an escape response",
+        "Separates a transient opening from sustained control"
+      ]
+    },
+    {
+      "metric_name": "Practice transfer",
+      "description": "Compare the same task as agreed resistance and partner reactions change.",
+      "proficiency_indicators": [
+        "Repeats the starting conditions",
+        "Records the first point of failure",
+        "Chooses one specific adjustment for the next round"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice suggestion: start from Side Control and give the partner one agreed response. Work through the first two stages cooperatively, then stop each repetition at the chosen control or recovery endpoint. Add another reaction only when both partners can explain what changed. Keep submission entries controlled and release immediately on a tap or request to stop. Review the lost connection before adding speed.",
+    "progression_path": [
+      {
+        "stage": "Recognise",
+        "focus": "Compare acquiring the underhook during a transition with trying to obtain it after the side pin has settled."
+      },
+      {
+        "stage": "Rehearse",
+        "focus": "Identify which arm is being controlled by your upper body and which is being pinned by the lower body."
+      },
+      {
+        "stage": "Respond",
+        "focus": "Let the partner attempt to recover the trapped arm while you focus on base and connection."
+      },
+      {
+        "stage": "Connect",
+        "focus": "Use the partner reaction to decide whether to retain the side pin, change the attack orientation, or reset."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the side pin with a rear crucifix",
+      "Reaching for a finish before fixing the elbow",
+      "Losing balance while changing leg position",
+      "Testing joint locks at scramble speed"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Side-pin reference for identifying pressure, inside frames and positional recovery."
+    },
+    {
+      "name": "Mounted Crucifix",
+      "content_type": "Position",
+      "relationship": "Comparison position for limb isolation; its mounted orientation differs from a side pin."
+    },
+    {
+      "name": "Crucifix",
+      "content_type": "Position",
+      "relationship": "Related rear control used to compare trapped-arm configurations and transitions."
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Primary top pin for studying maintenance and the cost of advancing an attack."
+    },
+    {
+      "name": "Kimura",
+      "content_type": "Submission",
+      "relationship": "Upper-body submission family connected to arm isolation and changes of pin."
+    },
+    {
+      "name": "Triangle Choke",
+      "content_type": "Submission",
+      "relationship": "Related submission family whose orientation changes the required control."
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Balance reference for changing posts or limb controls without giving away the position."
+    },
+    {
+      "name": "Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "Principle for testing whether the pin survives a grip change or attack."
+    },
+    {
+      "name": "Positional Sparring",
+      "content_type": "Principle",
+      "relationship": "Practice structure for repeating a specified position, partner response, and endpoint."
+    },
+    {
+      "name": "Position-Over-Submission Approach",
+      "content_type": "Principle",
+      "relationship": "Decision rule for retaining or recovering control before chasing an unsupported finish."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "In Danaher Side Crucifix System, what should the secure a usable underhook stage investigate?",
+      "answer": "Compare acquiring the underhook during a transition with trying to obtain it after the side pin has settled."
+    },
+    {
+      "question": "In Danaher Side Crucifix System, what should the separate the arm-control jobs stage investigate?",
+      "answer": "Identify which arm is being controlled by your upper body and which is being pinned by the lower body."
+    },
+    {
+      "question": "In Danaher Side Crucifix System, what should the test the pin before attacking stage investigate?",
+      "answer": "Let the partner attempt to recover the trapped arm while you focus on base and connection."
+    },
+    {
+      "question": "In Danaher Side Crucifix System, what should the study one submission branch stage investigate?",
+      "answer": "Choose a demonstrated kimura, triangle or armbar continuation and stop before applying finishing pressure."
+    },
+    {
+      "question": "In Danaher Side Crucifix System, what should the recover when the pin changes stage investigate?",
+      "answer": "Use the partner reaction to decide whether to retain the side pin, change the attack orientation, or reset."
+    },
+    {
+      "question": "How should you respond to this practice problem: confusing the side pin with a rear crucifix?",
+      "answer": "Identify the torso orientation and trapped limbs before selecting a lesson."
+    }
+  ],
+  "products": [
+    {
+      "id": "master-the-move-the-side-crucifix-by-john-danaher",
+      "title": "Master The Move: The Side Crucifix",
+      "instructor": "John Danaher",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A directly matched instructional companion for separating the arms from a side pin and choosing an upper-body attack without abandoning control. Review its published contents and sample to judge the teaching approach.",
+      "best_for": "Top players who can maintain side control and want to study arm isolation and connected attacks in greater detail.",
+      "study_focus": "Start with obtaining and retaining an underhook, then compare the near-arm pinning methods before choosing a chancery or shin-pin attack.",
+      "practice_tip": "BJJGraph suggestion: begin with 'Secure a usable underhook' from Side Control. Record which partner response interrupts the plan and revisit that lesson before adding another branch."
+    }
+  ]
+}

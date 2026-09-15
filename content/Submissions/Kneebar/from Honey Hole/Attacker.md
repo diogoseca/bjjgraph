@@ -84,7 +84,7 @@ description: "Learn to attack the kneebar from Honey Hole position. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent hides their heel during your heel hook attempt - what indicators tell you to transition to kneebar rather than fight for the heel?",
+      "name": "They hide their heel from your heel hook: what tells you to switch to the kneebar instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to kneebar when the heel is tucked deep into the armpit or behind your back where re-gripping would require releasing positional control, when the opponent has established a strong two-on-one grip defense on your heel hook hand making re-grip unlikely, or when their defensive posture straightens their leg creating ideal kneebar alignment. Fighting for the heel beyond 2-3 seconds of grip fighting wastes time and allows them to prepare escape."
@@ -100,7 +100,7 @@ description: "Learn to attack the kneebar from Honey Hole position. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts curling their leg to resist the extension - what adjustment prevents them from maintaining the bend?",
+      "name": "They curl their leg against your kneebar extension: what adjustment stops them holding the bend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walk your hips further toward their foot to increase the lever arm length, which multiplies the force your hip extension generates against their hamstring curl. Simultaneously squeeze your elbows tighter together to prevent any slack in the arm clamp. If they maintain the curl despite these adjustments, their hamstring will fatigue within 15-30 seconds of sustained effort. You can also apply micro-pulses of pressure during their grip adjustments when their curl momentarily weakens."

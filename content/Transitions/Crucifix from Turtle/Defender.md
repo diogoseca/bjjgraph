@@ -56,7 +56,7 @@ description: "How to defend against Crucifix from Turtle in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a crucifix from turtle, and what should your immediate response be?",
+      "name": "What earliest cue warns of a crucifix from turtle, and what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling your near-side wrist or triceps being grabbed while the opponent maintains chest-to-back pressure. Your immediate response should be to tighten your elbow-to-knee connection on both sides and begin creating movement through hip shifts or directional changes. If possible, retract the controlled arm and reset to a tighter turtle. Acting at this first phase has the highest success rate because the opponent has not yet established any hooks or bilateral arm control."
@@ -72,7 +72,7 @@ description: "How to defend against Crucifix from Turtle in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has trapped your near arm with their legs and is controlling your far wrist - which arm should you prioritize freeing first?",
+      "name": "Their legs trap your near arm and their hand holds your far wrist. Which arm do you free first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize freeing the hand-controlled far arm first because it has more extraction potential than the leg-trapped arm. The hand grip is weaker than the mechanical lock of the leg triangle, so incremental movements and grip fighting have a higher chance of success. Once the far arm is free, it can immediately be used for neck defense and to create frames that facilitate extracting the leg-trapped arm. Attempting to free the leg-trapped arm first usually requires hip movement that the opponent can feel and counter."
@@ -88,7 +88,7 @@ description: "How to defend against Crucifix from Turtle in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "You feel the opponent's leg beginning to thread over your far shoulder - what is your last-chance defensive action?",
+      "name": "Their leg is threading over your far shoulder. What is your last-chance defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately turn your body toward the opponent (into the leg) while explosively shrimping your hips away. This combination collapses the angle they need for the crucifix and may cause their leg to slip off your shoulder. Simultaneously, pull your far arm tight to your chest and try to duck your shoulder under their leg. If the leg clears your shoulder despite your defense, immediately accept the position has been lost and transition your focus entirely to neck defense and freeing the hand-controlled arm."

@@ -274,7 +274,7 @@
         }
       },
       {
-        "question": "Your opponent maintains an extremely tight underhook on your far leg that you cannot break - what alternative approach should you consider?",
+        "question": "Passing deep half, their underhook on your far leg won't break: what pass should you use?",
         "answer": "If the deep underhook is unbreakable through standard grip fighting and pressure, switch to a backstep pass rather than forcing the knee slice. The backstep works with the opponent's underhook grip rather than against it, stepping your trapped leg back and around to pass in the opposite direction. Continuing to force the knee slice against an unbreakable underhook wastes energy and creates sweep opportunities.",
         "answer_line": "Switch to backstep pass",
         "distractors": {
@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "You feel your opponent beginning to elevate their hips as you start the knee slice - how do you adjust?",
+        "question": "In deep half top, they start elevating their hips as you begin the knee slice: how do you adjust?",
         "answer": "Immediately increase forward and downward pressure through your crossface and chest to kill their elevation. Drop your hips lower and widen your posted leg base. If the elevation is significant, abort the knee slice attempt temporarily, focus on flattening them completely, and only reattempt once their hips are back on the mat and their elevation threat is neutralized.",
         "answer_line": "Flatten them, kill elevation",
         "distractors": {
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "Your opponent frames on your hip with their free hand during the knee slice - what grip adjustment solves this?",
+        "question": "They frame on your hip during your knee slice from deep half: what grip adjustment solves it?",
         "answer": "Swim your near arm inside their framing arm to remove the frame, or pin their framing wrist to the mat with your hand while driving forward with increased crossface pressure. The swim-through is preferred as it positions your arm for a potential underhook that strengthens the pass. If the frame is very strong, use forehead pressure against their framing arm to walk it down before swimming through.",
         "answer_line": "Swim arm inside the frame",
         "distractors": {
@@ -386,7 +386,7 @@
         }
       },
       {
-        "question": "Your knee slice stalls halfway and the opponent begins recovering their underhook - what chain attack opens up?",
+        "question": "Your knee slice stalls and they recover the deep half underhook: what chain attack opens up?",
         "answer": "When the slice stalls and the opponent re-establishes deep half leverage, abandon forcing the slice and chain into a backstep pass, using their underhook commitment against them by stepping the trapped leg back and around. Alternatively, if their far arm is exposed during the scramble, attack a kimura grip to occupy the arm before resetting your passing pressure.",
         "answer_line": "Backstep pass or kimura",
         "distractors": {
@@ -515,7 +515,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that a knee slice attempt is imminent from deep half guard bottom?",
+        "question": "From deep half bottom, what is the earliest cue a knee slice attempt is imminent?",
         "answer": "The earliest cue is the establishment of strong crossface pressure combined with the opponent's free leg posting wide to the outside. The crossface is the prerequisite for the knee slice, and the wide post creates the base needed for the passing motion. Recognizing these setup elements gives you maximum time to prepare defensive responses before the knee actually begins to move.",
         "answer_line": "Crossface plus wide leg post",
         "distractors": {
@@ -543,7 +543,7 @@
         }
       },
       {
-        "question": "Your opponent successfully drives their knee past your hip line during the slice - what is your best recovery option?",
+        "question": "In deep half bottom, their knee passes your hip line: what is your best recovery option?",
         "answer": "Once the knee passes your hip line, abandon sweep attempts and immediately focus on guard recovery. Use your bottom leg to hook their slicing leg and work to establish knee shield half guard. Simultaneously frame against their crossface shoulder to create enough space for the knee insertion. The priority shifts from offense to defense once the knee has cleared your hip.",
         "answer_line": "Hook leg, build knee shield",
         "distractors": {

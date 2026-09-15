@@ -120,7 +120,7 @@ description: "Master the attacker perspective for Guillotine Escape via Posture.
     },
     {
       "@type": "Question",
-      "name": "Your opponent hip bumps you as you drive upward to posture—what went wrong and how do you prevent it?",
+      "name": "They hip bump you as you posture out of a guillotine: what went wrong and how do you prevent it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You likely drove too vertically without sufficient forward base pressure. The hip bump sweep exploits upward momentum by redirecting it into a lateral roll. Prevent this by maintaining a wide base with your posted hand, keeping your center of gravity forward over the opponent rather than rising straight up, and driving your shoulder into their chest as you posture to prevent the bridge angle."

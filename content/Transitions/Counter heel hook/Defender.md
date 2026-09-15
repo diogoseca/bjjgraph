@@ -80,7 +80,7 @@ description: "How to defend against Counter heel hook in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured a figure-four grip on your heel and begins rotating - what is your immediate action?",
+      "name": "They lock a figure-four on your heel in 50-50 and start rotating. What is your immediate action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately. Once a figure-four grip is locked with rotational pressure initiated, the window for safe defense has closed. Knee ligament damage occurs in under 2 seconds from this position. No grip strip or positional escape can reliably prevent injury faster than the submission finishes. Protecting your training longevity is always more valuable than avoiding a tap in practice."
@@ -88,7 +88,7 @@ description: "How to defend against Counter heel hook in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "What preventive measures should you take during your own heel hook attack to minimize counter vulnerability?",
+      "name": "During your own heel hook attack, what habits minimize your vulnerability to a counter heel hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your attacking knee rotated inward even while finishing your own heel hook, keeping your heel tucked close to your body or behind your opposite knee. Use your inside leg to frame against opponent's hip, which both controls distance and blocks their reach toward your heel. Attack with controlled posture rather than overcommitting forward, which exposes your heel. These preventive habits make the counter far more difficult to initiate."

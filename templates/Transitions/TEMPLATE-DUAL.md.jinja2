@@ -69,7 +69,7 @@ description: "{{ description }}"
       "creator": { "@type": "Person", "name": {{ clip.by | tojson }} }
       {%- endif %}
       {%- if clip.duration %},
-      "duration": "PT{{ clip.duration }}S"
+      "duration": {{ ("PT" ~ (clip.duration) ~ "S") | jsonstr }}
       {%- endif %}
       {%- if clip.upload_date %},
       "uploadDate": {{ clip.upload_date | tojson }}
@@ -86,8 +86,8 @@ description: "{{ description }}"
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "{{ name }}",
-  "description": "{{ summary }}",
+  "name": {{ name | jsonstr }},
+  "description": {{ summary | jsonstr }},
   "inDefinedTermSet": "https://bjjgraph.org/Transitions/"
 }
 </script>
@@ -127,7 +127,7 @@ description: "{{ description }}"
 {{ overview }}
 
 **From Position**: [[{{ resolve(from_position.split('/')[0]) }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
-**Success Rate**: {{ success_rate }}%
+**Success Rate**: {{ success_rate | pct }}
 
 </section>
 
@@ -158,8 +158,12 @@ description: "{{ description }}"
 | Result | Position | Probability |
 |--------|----------|-------------|
 {% for outcome in outcomes -%}
-| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to.split('/')[0] if '/' in outcome.to else outcome.to) }}]] | {{ outcome.probability }}% |
+| {{ outcome.result | capitalize }} | [[{{ resolve(outcome.to.split('/')[0] if '/' in outcome.to else outcome.to) }}]] | {{ outcome.probability | pct }} |
 {% endfor %}
+{%- set _absence_note = outcomes | outcomes_absence_note %}
+{%- if _absence_note %}
+{{ _absence_note }}
+{% endif %}
 
 </section>
 

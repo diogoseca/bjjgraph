@@ -4,7 +4,7 @@
 
 ---
 title: "Kimura Trap System | BJJ System | BJJ Graph"
-description: "Master the Kimura Trap System in BJJ: a control-and-submission framework that chains the figure-four grip into back takes, sweeps, mounts, and finishes."
+description: "Explores the kimura grip as a control that connects positional transitions and submission options. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master the Kimura Trap System in BJJ: a control-and-submission fra
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Kimura Trap System",
-  "description": "Master the Kimura Trap System in BJJ: a control-and-submission framework that chains the figure-four grip into back takes, sweeps, mounts, and finishes.",
+  "description": "Explores the kimura grip as a control that connects positional transitions and submission options. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Kimura-Trap-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -140,7 +140,7 @@ description: "Master the Kimura Trap System in BJJ: a control-and-submission fra
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Kimura Trap System",
-  "description": "The Kimura Trap System is a control-and-submission framework that weaponizes the figure-four (kimura) grip as a steering wheel, chaining back takes, sweeps, mount transitions, and shoulder-lock finishes so every defensive reaction opens a new attack.",
+  "description": "The figure-four grip can help you move an opponent even when the kimura finish is unavailable.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -159,13 +159,11 @@ description: "Master the Kimura Trap System in BJJ: a control-and-submission fra
 
 ## What is Kimura Trap System?
 
-**The Kimura Trap System is a control-and-submission framework that weaponizes the figure-four (kimura) grip as a steering wheel, chaining back takes, sweeps, mount transitions, and shoulder-lock finishes so every defensive reaction opens a new attack.**
+**The figure-four grip can help you move an opponent even when the kimura finish is unavailable.**
 
-Built around the figure-four (kimura) grip on the opponent's arm, this framework departs sharply from treating the kimura as an isolated submission. Instead, it recognizes the grip as a powerful control mechanism that opens multiple offensive pathways at once — controlling the opponent's posture and movement while simultaneously threatening submissions, sweeps, and transitions to dominant positions.
+The figure-four grip can help you move an opponent even when the kimura finish is unavailable. This guide connects the grip to positional control, transitions and submission choices, with attention to keeping the shoulder controlled during practice.
 
-Developed and refined by John Danaher and popularized through high-level competition by athletes like Gordon Ryan and Garry Tonon, the Kimura Trap System represents a paradigm shift in how grapplers approach the kimura. Rather than immediately hunting for the finish, practitioners learn to use the kimura grip as a steering wheel, directing opponents into increasingly disadvantageous positions while maintaining constant offensive pressure. The system works from multiple starting positions including side control, half guard, turtle, and even standing scenarios.
-
-The genius of this system lies in its problem-solving approach: every defensive response from the opponent opens a different offensive opportunity. If they defend the kimura submission, you take the back. If they defend the back take, you transition to mount. If they defend the mount, the kimura finish becomes available again. This creates an inescapable dilemma where the opponent must choose which catastrophic outcome to accept, embodying the Danaher principle of systematized attack sequences.
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -174,15 +172,37 @@ The genius of this system lies in its problem-solving approach: every defensive 
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Kimura Trap System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 21 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="kimura-enter-the-system-by-john-danaher">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">Kimura: Enter The System</h3>
+<p class="product-card__instructor">with John Danaher</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students building a connected attack around one grip. This is a kimura focus, not a survey of every submission.</p>
+<p class="product-card__blurb">Explores the kimura grip as a control that connects positional transitions and submission options.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=kimura-trap-system&utm_term=kimura-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="kimura-enter-the-system-by-john-danaher" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -294,6 +314,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Use the positional-control sections to study how the grip can remain useful when the direct finish is blocked.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=kimura-trap-system&utm_term=kimura-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="kimura-enter-the-system-by-john-danaher" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Kimura: Enter The System &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -399,5 +430,16 @@ The Kimura Trap System should be developed through progressive layering of compl
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Pick one kimura entry from the map. Ask your partner to hide the hand and practise a controlled positional transition.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=kimura-trap-system&utm_term=kimura-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="kimura-enter-the-system-by-john-danaher" data-system-slug="systems/kimura-trap-system" data-system-name="Kimura Trap System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Kimura: Enter The System &rarr;</a></p>
+</section>
+
+
 
 </main>

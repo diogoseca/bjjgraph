@@ -74,7 +74,7 @@ description: "Learn to execute the elbow escape from flattened half guard. Syste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical principle that makes the elbow wedge effective against heavy top pressure?",
+      "name": "Why is the elbow wedge effective against heavy top pressure in flattened half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The elbow wedge uses skeletal alignment rather than muscular effort to resist the opponent's body weight. The point of the elbow creates a structural frame where bone supports bone, meaning the frame can be maintained indefinitely without significant energy expenditure. Pushing with arm muscles against body weight causes rapid fatigue, while the skeletal wedge leverages your body's structure against gravity and forward pressure."
@@ -82,7 +82,7 @@ description: "Learn to execute the elbow escape from flattened half guard. Syste
     },
     {
       "@type": "Question",
-      "name": "Your opponent senses your hip escape and immediately drives forward to close the space - how do you respond?",
+      "name": "Mid elbow escape, your opponent drives forward to close the space — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use their forward drive against them by timing your next hip escape to coincide with their weight commitment. As they drive forward, their weight shifts onto you in a predictable vector. Execute your hip escape perpendicular to their drive direction, using their momentum to amplify the space creation. The key is anticipating their reaction and having the next movement ready rather than pausing after each gain."
@@ -90,7 +90,7 @@ description: "Learn to execute the elbow escape from flattened half guard. Syste
     },
     {
       "@type": "Question",
-      "name": "Why must you hip escape toward the trapped leg side rather than the free leg side during this escape?",
+      "name": "In the elbow escape, why hip escape toward the trapped leg side, not the free leg side?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Escaping toward the trapped leg side keeps your chest facing the opponent, maintaining defensive orientation and preventing back exposure. Moving toward the free leg side requires turning away from the opponent, which skilled top players recognize as a back take opportunity. They follow your rotation and secure hooks before you can complete the guard recovery, converting your escape into a worse positional outcome."
@@ -106,7 +106,7 @@ description: "Learn to execute the elbow escape from flattened half guard. Syste
     },
     {
       "@type": "Question",
-      "name": "You successfully recover to half guard but your opponent immediately begins pressure passing again - what should your first action be?",
+      "name": "You recover half guard and your opponent resumes pressure passing — what is your first action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish your knee shield or primary frame before the opponent can re-flatten you. The most common error is resting after the escape, which allows the opponent to re-initiate their pressure passing sequence. Your first action upon recovering half guard should be inserting the knee shield, securing the underhook, and threatening an immediate sweep or back take to force them into a defensive reaction rather than continued passing."
@@ -114,7 +114,7 @@ description: "Learn to execute the elbow escape from flattened half guard. Syste
     },
     {
       "@type": "Question",
-      "name": "What is the correct breathing technique during the elbow escape when chest compression restricts your diaphragm?",
+      "name": "How should you breathe during the elbow escape while their chest compresses your diaphragm?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use tactical breathing by taking small controlled breaths timed with your hip escape movements. During each hip escape, the brief reduction in chest pressure as you create space provides a window for a small breath. Avoid attempting full deep breaths which are impossible under compression and trigger panic responses. Focus on maintaining steady oxygen flow through frequent small breaths rather than infrequent large ones."

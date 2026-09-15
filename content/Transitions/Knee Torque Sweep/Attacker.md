@@ -74,7 +74,7 @@ description: "Complete guide to executing the Knee Torque Sweep from half guard 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What body position must you establish before attempting the knee torque sweep from half guard bottom?",
+      "name": "What body position must you establish before the knee torque sweep from half guard bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must establish a side angle facing the opponent rather than lying flat on your back. This is achieved through hip escape mechanics that turn your body onto its side, creating the leverage foundation needed to generate rotational force on the opponent's knee. Without this side angle, the legs cannot produce sufficient torque to compromise the opponent's base structure because the scissoring action requires lateral hip orientation."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the Knee Torque Sweep from half guard 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins extracting their trapped leg mid-sweep attempt. What is your immediate response?",
+      "name": "They start extracting the trapped leg mid knee torque sweep—what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to guard retention rather than forcing the failed sweep. Insert a knee shield or hip escape to re-establish distance before they can complete the extraction and advance to a passing position. If their knee is still partially accessible, attempt to reguard to closed guard or transition to butterfly guard using the remaining hook as a butterfly hook for an immediate elevation sweep attempt."

@@ -170,11 +170,13 @@ As mixed martial arts matured beyond its early grappling-dominant era, competito
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill MMA Crossover Strategy?
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 27 techniques it strings together.</p>
+<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 26 techniques it strings together.</p>
 
 - **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
 - **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
@@ -296,6 +298,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -378,6 +382,7 @@ MMA Crossover Strategy requires integrated training that combines striking and g
 
 ## Which Positions, Transitions, and Principles Connect to This System?
 
+- [[Systems/Cage Clinch to Ground System|Cage Clinch to Ground System]] (System) - Focused study plan linking cage clinch, a takedown, and stable top control with a directly matched Neiman Gracie course
 - [[Systems/No-Gi Competition Approach|No-Gi Competition Approach]] (System) - Foundational no-gi system that provides technical base for MMA adaptation
 - [[Systems/Competition Strategy|Competition Strategy]] (System) - Strategic framework for match planning and opponent-specific preparation
 - [[Systems/Danaher Front Headlock System|Danaher Front Headlock System]] (System) - Core system for MMA front headlock control and guillotine finishes
@@ -407,9 +412,10 @@ MMA Crossover Strategy requires integrated training that combines striking and g
 - [[Principles/Escape Fundamentals|Escape Fundamentals]] (Principle) - Core escape principles including sprawl mechanics for takedown defense and bottom escapes
 - [[Principles/Chin Protection|Chin Protection]] (Principle) - Critical safety principle for preventing knockout damage
 - [[Principles/Base|Base]] (Principle) - Fundamental principle adapted for strike-aware balance and posture
-- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Pacing principle accounting for increased cardio demands of MMA
 
 
 </section>
+
+
 
 </main>

@@ -256,7 +256,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the optimal timing window for initiating the hip escape during the leg weave escape sequence?",
+        "question": "Escaping the leg weave, when is the best moment to start your hip escape?",
         "answer": "The optimal timing window occurs when the top player shifts their weight to advance their passing position, either driving forward for a smash pass or laterally for a knee slice. During these weight transfers, their ability to maintain the weave depth is momentarily reduced. The bridge creates an additional micro-window by disrupting their settled weight distribution. Initiating the hip escape during this combined window of weight shift plus bridge disruption gives the highest probability of creating sufficient space for knee insertion.",
         "answer_line": "Weight shift plus bridge disruption",
         "distractors": {
@@ -298,7 +298,7 @@
         }
       },
       {
-        "question": "Your knee shield insertion is consistently being collapsed by the passer - what mechanical adjustment should you make?",
+        "question": "The passer keeps collapsing your knee shield from leg weave — what mechanical fix?",
         "answer": "Drive the shin deeper across the passer's torso so it angles toward their far shoulder rather than sitting vertically in front of their chest. Angle your knee outward slightly to create a wider wedge effect. The shin bone should be the contact surface rather than just the knee point. Additionally, ensure your hip escape has created sufficient angle before attempting insertion, since a knee shield inserted from a flat position lacks the structural support that comes from being on your side.",
         "answer_line": "Angle shin deep to far shoulder",
         "distractors": {
@@ -312,7 +312,7 @@
         }
       },
       {
-        "question": "How should you adjust the escape when the passer has an extremely strong crossface that prevents your hip escape?",
+        "question": "Escaping leg weave, how do you adjust when their crossface is too strong to hip escape?",
         "answer": "When the crossface is too strong for a lateral hip escape, redirect your escape pathway downward toward deep half guard rather than fighting the crossface directly. Use your near-side arm to underhook their trapped leg and dive your head underneath their base. The deep half entry uses their forward crossface pressure against them by converting it into momentum for your descent underneath. This transforms a defensive problem into an offensive entry.",
         "answer_line": "Redirect and dive to deep half",
         "distractors": {
@@ -326,7 +326,7 @@
         }
       },
       {
-        "question": "What grip should you prioritize immediately after successfully recovering half guard from the leg weave?",
+        "question": "After recovering half guard from the leg weave, which grip do you fight for first?",
         "answer": "The near-side underhook is the highest priority grip immediately after recovering half guard. It provides both defensive protection against the passer re-establishing their passing position and offensive options for sweeps and back takes. Without the underhook, the passer can easily re-establish crossface control and reinitiate their leg weave. Fight for the underhook while your knee shield maintains the space created during the escape.",
         "answer_line": "Near-side underhook",
         "distractors": {
@@ -340,7 +340,7 @@
         }
       },
       {
-        "question": "The passer begins backstepping when you create angle during your hip escape - how do you prevent back exposure?",
+        "question": "The passer backsteps as you create angle escaping leg weave — how do you avoid giving your back?",
         "answer": "Maintain your shoulders within 45 degrees of the mat throughout the hip escape and keep your chest oriented toward the passer rather than turning away. Your near-side elbow should stay connected to your knee to prevent the passer from circling behind you. If you feel them beginning to circle toward your back, immediately flatten back to the mat and reset your frames rather than continuing the escape. A reset from leg weave bottom is far preferable to giving up back control.",
         "answer_line": "Stay flat, elbow-knee connected",
         "distractors": {
@@ -482,7 +482,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that tells you the bottom player is about to attempt the escape?",
+        "question": "Holding the leg weave, what is the earliest cue that bottom is starting their escape?",
         "answer": "The earliest cue is the bottom player's near-side forearm beginning to wedge against your neck or shoulder. This frame establishment is the mandatory first step of the escape sequence, and without it no hip escape will be effective. When you feel this forearm pressure beginning, immediately drive your shoulder into the frame to prevent it from setting. This preemptive response shuts down the entire escape chain at its origin point.",
         "answer_line": "Forearm wedging on neck/shoulder",
         "distractors": {
@@ -496,7 +496,7 @@
         }
       },
       {
-        "question": "How should you adjust your weight distribution when you feel the bottom player bridging underneath you?",
+        "question": "Holding the leg weave, how do you adjust your weight when they bridge underneath you?",
         "answer": "Lower your hips and widen your base slightly by posting your free leg further from your body. Absorb the bridge by relaxing your weight downward rather than stiffening against it. The bridge is meant to create a momentum window for the hip escape, so by settling your weight into the bridge rather than resisting it rigidly, you deny the disruption they need. Keep your chest connected to their body throughout so you follow any movement that results from the bridge.",
         "answer_line": "Lower hips, absorb, stay connected",
         "distractors": {
@@ -524,7 +524,7 @@
         }
       },
       {
-        "question": "When is it better to abandon the leg weave and transition to a different pass rather than fighting to maintain position?",
+        "question": "When should you abandon the leg weave and switch to another pass instead of holding it?",
         "answer": "Transition to a different pass when the bottom player has successfully recovered their knee shield with proper hip angle and the underhook battle is contested. At this point, the leg weave advantage is largely neutralized and you are fighting from standard half guard top rather than the superior leg weave position. Recognizing this transition point and immediately switching to an appropriate half guard pass saves energy and maintains offensive initiative.",
         "answer_line": "Shield set, underhook contested",
         "distractors": {

@@ -56,7 +56,7 @@ description: "How to defend against Back Step in BJJ. Recognition cues, defensiv
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a back step rather than a standard leg extraction?",
+      "name": "What's the earliest cue they're back stepping rather than just extracting the leg from your ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the direction of their pressure and weight shift. A standard leg extraction involves the opponent pulling their leg backward and away from you, shifting weight rearward. A back step involves the opposite - the opponent drives forward with chest pressure onto your upper body while their free hand reaches to clear your top leg. This forward commitment is the distinguishing signal that differentiates a pass attempt from an escape attempt and should trigger your defensive response immediately."
@@ -64,7 +64,7 @@ description: "How to defend against Back Step in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "Why does threatening a heel hook serve as an effective defense against the back step, even if you cannot finish the submission?",
+      "name": "Why does threatening a heel hook defend the back step even if you can't finish it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The heel hook threat creates a dilemma for the opponent: if they continue the back step while your heel hook grip is engaged, the rotational force of their stepping motion combined with your grip can cause serious knee injury. This forces them to stop their pass, address the submission threat by stripping your grips, and restart their sequence. Even an imperfect heel hook attempt buys you critical seconds to re-establish your posture and tighten your leg entanglement. The threat is often as effective as the actual submission in disrupting the pass."
@@ -72,7 +72,7 @@ description: "How to defend against Back Step in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already cleared your top leg and is mid-step - what defensive option gives you the best chance of preventing the pass?",
+      "name": "They've cleared your top leg mid back step: what best prevents the pass now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is guard recovery rather than trying to re-establish the broken leg entanglement. As their leg clears over your body, immediately work to insert your near knee between your bodies to establish a knee shield or half guard. Your hands should be creating frames on their shoulders and hips to prevent them from settling their weight. The window for this recovery is extremely short - you must act during their stepping motion before they drive shoulder pressure and establish crossface control."
@@ -88,7 +88,7 @@ description: "How to defend against Back Step in BJJ. Recognition cues, defensiv
     },
     {
       "@type": "Question",
-      "name": "When is attempting a counter-roll or inversion the right defensive choice versus simply recovering guard?",
+      "name": "From ashi, when is a counter-roll or inversion better than recovering guard against the back step?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The counter-roll is appropriate when the opponent commits aggressively to the back step with significant forward momentum and their weight is already passing over your body. In this scenario, their committed momentum can be redirected by inverting underneath them. Guard recovery is the better choice when the opponent is methodically and slowly executing the back step with controlled pressure, because their controlled weight distribution makes inversion extremely difficult and likely to fail. Assess their speed and commitment - explosive passes invite inversions, methodical passes require positional guard recovery."

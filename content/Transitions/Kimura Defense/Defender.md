@@ -50,7 +50,7 @@ description: "How to maintain Kimura control when your opponent defends. Grip re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most important grip adjustment when your opponent begins circling their trapped arm with the lock direction?",
+      "name": "Finishing a kimura, they circle the trapped arm with the lock — what grip adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent circles their arm with the lock, you must immediately tighten the figure-four by pulling your elbows into your own body and closing any space between your chest and their tricep. Simultaneously walk your feet toward their head to increase the finishing angle, which counteracts the pressure relief they gain from the arm circle. The key is converting their defensive movement into a deeper finishing position rather than fighting the circle with static resistance."
@@ -58,7 +58,7 @@ description: "How to maintain Kimura control when your opponent defends. Grip re
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges explosively and begins rolling forward over their trapped shoulder - what is your immediate response?",
+      "name": "You have the kimura and they bridge and roll forward over the trapped shoulder — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight the roll statically. Maintain your grip connection and follow their rolling momentum by stepping over their body as they rotate. Your goal is to arrive in mount or back control on the other side of the roll with the kimura grip still intact. Plant your far foot wide for base during the transition and keep your chest connected to their back or shoulder throughout. Attempting to block the roll with dead weight usually results in grip failure and positional loss."
@@ -66,7 +66,7 @@ description: "How to maintain Kimura control when your opponent defends. Grip re
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent from using their free hand to attack your base during kimura defense?",
+      "name": "Holding the kimura, how do you stop their free hand from attacking your base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Control their free arm through chest pressure that pins their far shoulder to the mat, limiting their reaching ability. Position your head low and tight against their ribcage on the opposite side, making it difficult for them to push your head or shoulder effectively. When you feel their free hand contacting your hip for a push, immediately sprawl your hips back to remove the leverage point they need for the bridge. Their free hand is only dangerous when combined with hip elevation, so denying the bridge neutralizes the pushing threat."

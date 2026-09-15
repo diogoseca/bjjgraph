@@ -80,7 +80,7 @@ description: "Execute the Matrix escape when your back take rotation stalls. Ste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important indicator that your Matrix rotation has stalled and you need to initiate the escape?",
+      "name": "What best tells you your Matrix rotation has stalled and you must start escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important indicator is loss of rotational momentum combined with feeling the opponent's weight settling onto your body. When your hips stop moving through the rotation arc and you feel downward pressure from the opponent rather than the free space of continued rotation, the attack has been successfully defended. Secondary indicators include inability to thread your legs further around the opponent and feeling their base widen against your rotation. The critical skill is recognizing this within the first half-second."
@@ -96,7 +96,7 @@ description: "Execute the Matrix escape when your back take rotation stalls. Ste
     },
     {
       "@type": "Question",
-      "name": "Your rotation stalls and you feel the opponent beginning to slide their arm under your chin—what is your immediate response?",
+      "name": "Your Matrix rotation stalls and their arm slides under your chin: what is your first response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin to your chest and bring your nearest hand to your jawline to create a frame blocking further penetration of their arm. Do not attempt any positional escape until the neck is secured. Once chin protection is established, use the hand that is framing your jaw to strip or redirect their choking arm while simultaneously beginning hip retraction with your core. The neck must be the absolute first priority because a choke grip established during the escape transition is extremely difficult to defend while also trying to recover position."

@@ -331,7 +331,7 @@
         }
       },
       {
-        "question": "Your bridge disrupts the opponent's balance but they maintain wrist control on your near arm - what is your immediate response?",
+        "question": "Your bridge disrupts them but they keep wrist control on your near arm - immediate response?",
         "answer": "Continue the hip escape aggressively while pulling your elbow back toward your hip with maximum force. The wrist grip is weaker than the full arm control they had in S Mount, so the hip escape creates enough distance to break the grip. If they follow your hip escape, use the momentum change to pull your arm free as they adjust. If the wrist grip holds, frame against their hip with your free hand and shrimp again before they can re-establish S Mount.",
         "answer_line": "Hip escape, pull elbow to hip",
         "distractors": {
@@ -387,7 +387,7 @@
         }
       },
       {
-        "question": "Your bridge successfully displaces the opponent but they scramble to re-mount rather than falling to the side - how do you prevent the re-mount?",
+        "question": "Your bridge displaces them but they scramble to re-mount - how do you stop the re-mount?",
         "answer": "As soon as you feel the opponent scrambling to recover mount, accelerate your hip escape and get your near knee across their hip line as a barrier. This knee shield prevents them from settling their hips back onto your torso. Frame against their chest with both arms to maintain distance while threading your far leg around their waist. If they are persistent, use the knee shield to create enough space to insert butterfly hooks rather than closed guard, as butterfly guard provides immediate sweep threats that discourage them from pressing forward into mount.",
         "answer_line": "Knee shield, frame, thread legs",
         "distractors": {
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "How should you adjust your weight distribution when you feel the bottom player plant their feet for a bridge?",
+        "question": "You feel the bottom player plant their feet to bridge from S mount - how do you adjust weight?",
         "answer": "Immediately lower your center of gravity by driving your hips tighter into their shoulder and leaning your upper body slightly forward. Increase the downward pressure through your hip-to-shoulder connection point. Widen your posted leg for additional base if possible. The goal is to make your weight as heavy and low as possible over the connection point before the bridge generates maximum force, absorbing the upward drive before it can displace you.",
         "answer_line": "Lower hips, drive into shoulder",
         "distractors": {
@@ -535,7 +535,7 @@
         }
       },
       {
-        "question": "Your opponent bridges explosively and creates significant upward displacement - what is the highest-percentage transition to capitalize?",
+        "question": "They bridge explosively and displace you upward from S mount - best transition to capitalize?",
         "answer": "If the bridge loosens their collar grip or exposes the trapped arm at all, immediately attack the armbar by pulling their wrist toward your chest and leaning back while squeezing your knees. The bridge momentum often extends their arm for you. If the arm stays protected but you are being displaced, transition laterally to re-establish S Mount from a different angle rather than fighting directly against the bridge force. Use their energy against them.",
         "answer_line": "Attack armbar if arm exposed",
         "distractors": {

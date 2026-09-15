@@ -1,6 +1,6 @@
 {
   "name": "Back Attack System",
-  "description": "Master systematic back attack sequences in BJJ. Comprehensive framework covering entries, control mechanics, and submission chains with expert analysis.",
+  "description": "Covers back alignment, hand fighting, straightjacket control and transitions into rear strangles. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -11,8 +11,8 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
-  "summary": "The Back Attack System is a control-first offensive framework that secures harness and hook control behind the opponent, then chains the rear naked choke, armbar, bow and arrow, and crucifix so each defensive reaction opens the next finish.",
-  "overview": "In Brazilian Jiu-Jitsu's positional hierarchy, back control sits at the very top: it is the only dominant position where the opponent cannot see your hands, cannot bring their own strongest submissions to bear, and faces a constant choke threat to the most vulnerable target on the body. The Back Attack System organizes that advantage into a repeatable process rather than a lucky scramble, treating taking the back, keeping the back, and finishing from the back as three connected disciplines that reinforce one another. Practitioners learn to enter from turtle, guard, standing, and transitional scrambles, lock in seatbelt-and-hooks control that survives explosive escapes, and grind through a submission loop in which choke defense feeds the armbar, armbar defense feeds the bow and arrow, and stubborn hand-fighting feeds the crucifix.\n\nThe system's defining philosophy is patience. Because the back is so overwhelmingly dominant, rushing a single finish usually trades a permanent advantage for a low-percentage gamble, so the attacker maintains relentless positional pressure and lets the opponent's defensive choices dictate which submission opens next. This approach integrates naturally with front-headlock series, turtle attacks, and leg-entanglement games, all of which can funnel a defending opponent into back exposure. Mastering these mechanics converts a practitioner from an opportunistic back-taker into a systematic hunter who can reliably capture and hold the most decisive position in grappling.",
+  "summary": "A connected back game needs an entry, a way to stay attached and a response to the defender’s hands.",
+  "overview": "A connected back game needs an entry, a way to stay attached and a response to the defender’s hands. Use this guide to link those decisions, then practise the point where your control usually breaks down.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Position before submission - secure control before attacking",
     "Harness control creates submission opportunity - seatbelt grip is foundational",
@@ -494,6 +494,21 @@
           "Ignore their frames, force choke"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "back-attacks-enter-the-system-by-john-danaher",
+      "title": "Back Attacks Enter The System",
+      "instructor": "John Danaher",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Covers back alignment, hand fighting, straightjacket control and transitions into rear strangles.",
+      "best_for": "Students who reach the back but lose control while trying to finish.",
+      "study_focus": "Begin with alignment and the roles of the strangle hand and control hand, then study arm trapping.",
+      "practice_tip": "Start from back control and give your partner one escape direction. Keep chest-to-back connection before adding hand fighting."
     }
   ]
 }

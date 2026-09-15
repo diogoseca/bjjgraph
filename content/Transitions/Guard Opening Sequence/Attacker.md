@@ -82,7 +82,7 @@ description: "How to execute guard opening in BJJ. Step-by-step posture, grip fi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep cross-collar grip and is starting to pull your head down - what do you do before attempting any guard opening?",
+      "name": "They hold a deep cross-collar grip and pull your head down. What before opening the guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the collar grip immediately before any opening attempt. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away from the grip. Once freed, immediately control their sleeve to prevent re-gripping. Then re-establish your posture by driving your chest forward and hips back before resuming the opening sequence. Never attempt to open the guard while an opponent has a deep collar grip."
@@ -98,7 +98,7 @@ description: "How to execute guard opening in BJJ. Step-by-step posture, grip fi
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent's ankles start to unlock during your standing break - what is the critical next action?",
+      "name": "You feel their ankles unlock during your standing break. What is the critical next action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The instant the ankles separate, immediately redirect one of their legs across their body with your grip while stepping your hips back. Maintain the other leg's position and do not pause to celebrate or reassess. Your grips should already be positioned on their pants at the knees so this redirection is instantaneous — push their top knee across their centerline as your hips move back. Any hesitation allows re-closing. Flow directly into your passing grip configuration and begin your chosen pass in one continuous motion."
@@ -114,7 +114,7 @@ description: "How to execute guard opening in BJJ. Step-by-step posture, grip fi
     },
     {
       "@type": "Question",
-      "name": "Your opponent is significantly stronger than you and you cannot muscle their guard open - what mechanical adjustments increase your leverage?",
+      "name": "You can't muscle open a stronger opponent's closed guard. What mechanical change adds leverage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch from arm-based pulling to hip-based opening mechanics. In the standing break, ensure your hips drive forward as the primary force while your arms merely hold position on their knees - your hip extensors generate far more force than your arm flexors. In combat base, use your posted knee as a wedge driven by your entire body weight sitting back, not arm pulling. Additionally, consider the log splitter variation where you isolate one knee with a two-on-one grip and turn your hips to apply rotational force. Leverage always defeats strength when mechanics are correct."

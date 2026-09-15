@@ -1,6 +1,6 @@
 {
   "name": "Lockdown to Electric Chair System",
-  "description": "Master the Lockdown to Electric Chair System in BJJ. Eddie Bravo's systematic half guard framework connecting control to sweeps and submissions with detailed progressions.",
+  "description": "Directly covers lockdown entries, the underhook-to-electric-chair route, reversals and back entries. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -13,8 +13,8 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
-  "summary": "The Lockdown to Electric Chair System is Eddie Bravo's 10th Planet half guard framework that uses the lockdown leg trap to chain the Electric Chair, Old School sweeps, and back takes into a continuous attacking dilemma.",
-  "overview": "Developed by Eddie Bravo as a cornerstone of the 10th Planet Jiu-Jitsu methodology, this framework emerged from no-gi half guard play where conventional bottom-position survival was reframed as an offensive launching point. The system transforms the traditionally defensive half guard position into an aggressive attacking platform by utilizing the lockdown control to break down opponent posture, create sweeping opportunities, and threaten submissions. The lockdown itself—achieved by trapping the opponent's leg with a figure-four configuration using your legs—serves as both a control mechanism and the foundation for multiple offensive sequences. From this control position, practitioners can transition seamlessly between the Electric Chair submission threat, Old School sweep variations, and back-take opportunities, creating a multi-layered dilemma that forces opponents into reactive defense. The system emphasizes constant pressure application, hip movement precision, and the ability to chain attacks together when initial attempts are defended, embodying the principle that effective half guard play requires transitioning from passive defense to active offense.",
+  "summary": "The electric chair route develops from lockdown control, an underhook and a change in the opponent’s balance.",
+  "overview": "The electric chair route develops from lockdown control, an underhook and a change in the opponent’s balance. Study those pieces before the finish. Tom DeBlass’s course directly covers the entry and electric chair route from his own perspective.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Lockdown control as foundation - secure the figure-four leg trap before attempting sweeps or submissions",
     "Constant hip pressure and movement - never remain static, always working angles and creating discomfort",
@@ -476,6 +476,21 @@
           "Bridge and roll to escape bottom"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "the-lockdown-blueprint-by-tom-deblass",
+      "title": "The Lockdown Blueprint",
+      "instructor": "Tom DeBlass",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Directly covers lockdown entries, the underhook-to-electric-chair route, reversals and back entries.",
+      "best_for": "Half guard players working on this particular chain. Tom teaches his own approach to the position.",
+      "study_focus": "Start with the entry and underhook-to-electric-chair chapters, then compare the forward and backward reversals.",
+      "practice_tip": "Practise obtaining the underhook and moving your partner’s balance. Work on the sweep with controlled range rather than forcing the stretch."
     }
   ]
 }

@@ -74,7 +74,7 @@ description: "Execute the Grip Strip from Buggy Choke to transition from a stall
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary indicator that you should abandon the buggy choke and execute the grip strip transition?",
+      "name": "What tells you to abandon the buggy choke and switch to the grip strip to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the choke has stalled for 3-5 seconds despite sustained pressure, with the bottom player maintaining effective defensive grips or frames that prevent the choking arm from deepening. Continued effort on the stalled choke burns energy without progress while the transition to side control preserves positional advantage and offensive momentum."
@@ -90,7 +90,7 @@ description: "Execute the Grip Strip from Buggy Choke to transition from a stall
     },
     {
       "@type": "Question",
-      "name": "What is the first control point you must establish when arriving in side control after the grip strip?",
+      "name": "After the grip strip from buggy choke, what control point do you establish first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface must be established as the absolute first priority upon arriving in side control. Crossface control prevents the bottom player from turning their head toward you, which blocks guard recovery, turtle re-establishment, and most escape sequences. No other positional adjustment matters until the crossface is locked in and head movement is controlled."
@@ -98,7 +98,7 @@ description: "Execute the Grip Strip from Buggy Choke to transition from a stall
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-grips their defensive frame immediately after you strip it - what adjustment should you make?",
+      "name": "Your opponent re-grips their frame right after you strip it. What adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to a two-on-one grip break on their strongest defensive grip, or maintain partial choke pressure with one hand while stripping with the other to prevent simultaneous re-gripping. If re-gripping persists, increase body pressure to weaken the defensive structure before attempting the strip again rather than repeatedly stripping and allowing re-gripping in a cycle."
@@ -106,7 +106,7 @@ description: "Execute the Grip Strip from Buggy Choke to transition from a stall
     },
     {
       "@type": "Question",
-      "name": "How does the grip strip from buggy choke create a dilemma for the bottom player within the turtle attack system?",
+      "name": "How does the grip strip from buggy choke create a dilemma for the bottom player?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip strip forces the bottom player to choose between defending the choke and defending the positional transition. If they grip fight aggressively to prevent the choke, they must maintain frames that the top player will strip before transitioning. If they prepare to defend the transition by changing frame orientation, they reduce their choke defense, potentially allowing the submission to finish."
@@ -114,7 +114,7 @@ description: "Execute the Grip Strip from Buggy Choke to transition from a stall
     },
     {
       "@type": "Question",
-      "name": "What is the ideal timing window for executing the entire grip strip to side control consolidation sequence?",
+      "name": "How fast should the grip strip to side control consolidation be completed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The entire transition from choke abandonment to side control consolidation should be completed within 2-3 seconds. Any longer creates excessive transitional instability where the bottom player can exploit gaps in control. The speed requirement means each step must flow directly into the next without pauses for assessment or readjustment during the sequence."

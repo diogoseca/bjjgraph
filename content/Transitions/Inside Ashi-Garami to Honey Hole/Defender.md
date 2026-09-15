@@ -56,7 +56,7 @@ description: "How to defend against Inside Ashi-Garami to Honey Hole in BJJ. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting the Inside Ashi-Garami to Honey Hole transition?",
+      "name": "What is the earliest cue that your opponent is going from inside ashi to Honey Hole?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest and most reliable cue is feeling the attacker's outside leg unhook from behind your knee and begin withdrawing toward their body. This precedes the actual threading motion and gives you the maximum defensive window. Secondary cues include their hip bridge upward and any brief loosening of inside leg pressure across your hip. Reacting at this early stage gives you the best chance of successful defense."
@@ -72,7 +72,7 @@ description: "How to defend against Inside Ashi-Garami to Honey Hole in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Your opponent threatens a straight ankle lock and then immediately begins withdrawing their outside leg - how do you split your defensive attention?",
+      "name": "They threaten an ankle lock then withdraw their outside leg. How do you split your attention?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defend the ankle lock with your arms and upper body by controlling their grip and rotating your foot, but keep your lower body awareness focused on their leg movement. The submission threat is often a deliberate setup for the transition rather than a genuine finishing attempt. When you feel their outside leg unhook, immediately shift priority to blocking the threading path with your free leg, even if it means accepting slightly more pressure on the ankle lock temporarily."
@@ -80,7 +80,7 @@ description: "How to defend against Inside Ashi-Garami to Honey Hole in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "When is counter-threading to 50-50 the correct defensive choice rather than attempting to block the transition entirely?",
+      "name": "When should you counter-thread to 50-50 instead of blocking the Honey Hole entry outright?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Counter-threading is correct when the attacker's outside leg has already entered the gap between your legs and blocking is no longer possible. At this stage, preventing the thread is too late, but you can still race to establish symmetrical entanglement before they complete their triangle. 50-50 bottom is a significantly better position than Honey Hole bottom because it provides equal attacking and defensive options rather than the extreme asymmetry of Honey Hole."
@@ -88,7 +88,7 @@ description: "How to defend against Inside Ashi-Garami to Honey Hole in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "What should you do if the attacker successfully establishes Honey Hole despite your defensive efforts?",
+      "name": "What should you do once your opponent locks up Honey Hole despite your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately shift to Honey Hole bottom defense protocols: protect your heel by rotating your knee inward, fight their heel grip with both hands, and attempt explosive rotation toward their legs to counter-entangle into 50-50 before they secure breaking mechanics. Do not continue trying to undo the threading - the triangle is locked. Every second in Honey Hole increases submission danger exponentially, so escape attempts must be immediate and fully committed."

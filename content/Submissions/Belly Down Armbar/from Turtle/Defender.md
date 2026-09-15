@@ -52,7 +52,7 @@ description: "Defend the belly down armbar from turtle position. Learn recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive principle for preventing the belly down armbar from turtle?",
+      "name": "What is the most important principle for preventing the belly down armbar from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining the elbows-to-knees defensive shell at all times. The belly down armbar requires arm isolation as its first step, and this isolation cannot happen if your elbows remain glued to your inner knees. Every turtle defensive movement — guard recovery, stand-up, scramble — should be executed while minimizing the time any arm spends away from this protective structure. The attacker is specifically watching for arm exposure, so denying it eliminates the attack before it begins."
@@ -60,7 +60,7 @@ description: "Defend the belly down armbar from turtle position. Learn recogniti
     },
     {
       "@type": "Question",
-      "name": "How should you tap to the belly down armbar from turtle, and why is early tapping especially important for this submission?",
+      "name": "How should you tap to the belly down armbar from turtle, and why tap early?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap verbally by clearly saying 'tap' and simultaneously tap physically with your free hand on the attacker's body or the mat. Tap early — as soon as you feel the arm straightening against your resistance and the pressure is clearly overwhelming your defense. Early tapping is especially critical for the belly-down armbar because the prone position generates force through body weight and gravity simultaneously, meaning the breaking point arrives much faster than with standard armbar positions. The attacker may not fully perceive how much force they are generating, making partner communication essential."
@@ -68,7 +68,7 @@ description: "Defend the belly down armbar from turtle position. Learn recogniti
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to attempt arm retraction during the belly down armbar attack from turtle?",
+      "name": "When is the best moment to retract your arm during a belly down armbar attack from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window is during the step-over transition when the attacker lifts their far leg to cross your body. At this moment, their weight shifts laterally and their grip mechanics are momentarily compromised by the body repositioning. This window lasts approximately one to two seconds. Before this window, the attacker's turtle top control makes retraction difficult. After this window, the belly-down position is established and arm retraction against body weight becomes nearly impossible. React immediately when you feel the weight shift, do not wait to confirm the step-over is happening."
@@ -76,7 +76,7 @@ description: "Defend the belly down armbar from turtle position. Learn recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established wrist control from turtle top and you feel them begin the step-over — what should your free hand be doing?",
+      "name": "They have wrist control from turtle top and begin the step-over—what should your free hand do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your free hand has two primary options depending on timing. First priority: reach across and block the attacker's stepping leg by grabbing their thigh or knee to physically prevent them from completing the step-over transition. This is the highest-percentage option because it stops the attack in its most vulnerable phase. Second priority: if the leg is already past the blocking point, immediately use your free hand to grip your own trapped wrist and reinforce the bent-arm defensive position, preventing the attacker from straightening your arm after they establish belly-down. Never leave the free hand idle on the mat."
@@ -84,7 +84,7 @@ description: "Defend the belly down armbar from turtle position. Learn recogniti
     },
     {
       "@type": "Question",
-      "name": "Why is stacking defense ineffective against the belly down armbar, and what should you do instead once the prone position is established?",
+      "name": "Why does stacking fail against the belly down armbar, and what should you do instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stacking works against the standard supine armbar because it disrupts the attacker's hip bridge and finishing angle when they are face-up. In the belly-down position, the attacker's weight already drives downward with gravity, so driving forward into them actually increases compression on your trapped arm rather than relieving it. Instead, turn toward your trapped arm and bridge laterally or roll into the attacker to disrupt their prone alignment. The effective defensive movement is rotational, aimed at breaking the angle between their hips and your elbow, not linear forward pressure."

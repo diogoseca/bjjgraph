@@ -90,7 +90,7 @@
         }
       },
       {
-        "question": "Your opponent starts pulling the lapel tighter and creating an angle - what adjustment should you make?",
+        "question": "Passing Ringworm Guard, they tighten the lapel and build an angle—what adjustment?",
         "answer": "When the opponent tightens the lapel and creates angles, you should immediately address the secondary grips they're establishing with their free hands. Control their grip-fighting hand to prevent them from securing collar or sleeve grips that facilitate sweeps. Simultaneously, work to square your hips and maintain heavy pressure through your free leg to resist the angular off-balancing.",
         "answer_line": "Control their grip-fighting hand",
         "distractors": {
@@ -345,21 +345,21 @@
         "transition": "Lapel Grip Break and Posture Recovery",
         "attempt_probability": {
           "gi": 28,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Leg Extraction from Lapel Wrap",
         "attempt_probability": {
           "gi": 21,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Stack Pass with Lapel Control Negation",
         "attempt_probability": {
           "gi": 13,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -723,7 +723,7 @@
         "transition": "Ringworm Sweep to Back Control",
         "attempt_probability": {
           "gi": 30,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -744,7 +744,7 @@
         "transition": "Lapel Sweep to Back",
         "attempt_probability": {
           "gi": 17,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -758,7 +758,7 @@
         "transition": "Ringworm Guard to Worm Guard",
         "attempt_probability": {
           "gi": 16,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -801,7 +801,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines Ringworm Guard and distinguishes it from a standard open guard?",
+      "question": "What structure defines Ringworm Guard and separates it from standard open guard?",
       "answer": "Ringworm Guard is defined by the bottom player threading the top player's own lapel around the top player's leg, then securing the lapel tail near their own hip or chest. This creates a mechanical tether that ties one of the top player's legs to the bottom player's control system, rather than relying on hand grips alone. Unlike standard open guard, where grips can be released and re-fought freely, the lapel wrap acts as a semi-permanent leash that persists even when the bottom player's hands are occupied elsewhere. This leg-to-body connection is the single feature that makes the position what it is.",
       "answer_line": "Lapel leashes the leg to your hip",
       "distractors": {
@@ -829,7 +829,7 @@
       }
     },
     {
-      "question": "How does the lapel tether alter the top player's base and weight distribution compared to a free-legged pass?",
+      "question": "How does the Ringworm lapel tether change the top player's base and weight distribution?",
       "answer": "With one leg leashed to the bottom player, the top player loses the ability to freely step, post, or redistribute weight through that limb, forcing them to carry most of their base on the free leg. This restricted base makes their weight distribution predictable and pushes them into a narrower stance that is easier to off-balance. Committing weight forward over the trapped leg opens a direct sweeping angle, so the top player must keep their center of gravity biased toward the free side. The mechanical disadvantage is symmetrical: the same tether that gives the bottom player leverage is precisely what compromises the top player's foundation.",
       "answer_line": "Base shifts to the free leg",
       "distractors": {
@@ -899,7 +899,7 @@
       }
     },
     {
-      "question": "Why does the rigid lapel connection between the two bodies reward methodical movement over explosive bursts?",
+      "question": "Why does the rigid Ringworm lapel connection reward methodical movement over explosive bursts?",
       "answer": "Because the wrap rigidly links the trapped leg to the bottom player's body, energy put into the connection travels through the lapel rather than dissipating freely. When the top player explodes to escape, the lapel acts as a lever that lets the bottom player redirect that momentum into a sweep instead of a clean exit. This coupling is why hasty, forceful movement backfires and why exchanges in Ringworm Guard tend to be incremental and controlled rather than scrambly. The tether effectively turns committed force into leverage the wrap can borrow against.",
       "answer_line": "Wrap redirects force into a sweep",
       "distractors": {

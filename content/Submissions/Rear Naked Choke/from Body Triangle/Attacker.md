@@ -100,7 +100,7 @@ description: "Finish the Rear Naked Choke from Body Triangle with systematic han
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin aggressively and you cannot thread the forearm directly — what grip adjustment breaks through?",
+      "name": "From body triangle, their chin tuck blocks your forearm — what grip adjustment gets through?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack from the side by sliding the choking hand along the jawline from the ear rather than forcing through the center. Use the non-choking hand to frame against the forehead, tilting the head away from the choking side. Alternatively, use a short choke variation where forearm pressure across the jaw acts as a lever to pry the chin open, then transition to standard RNC once the defense breaks. The body triangle squeeze limits the defender's ability to maintain a strong chin tuck under sustained pressure."

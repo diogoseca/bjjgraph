@@ -74,7 +74,7 @@ description: "Complete guide to finishing the Hindulotine choke from top positio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal hip angle relative to the opponent's spine for generating maximum rotational torque during the Hindulotine finish?",
+      "name": "What hip angle to their spine generates maximum torque in the Hindulotine finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Position your hips at approximately 45-90 degrees perpendicular to the opponent's spine. This perpendicular angle transforms your body into a rotational lever, allowing core rotation to generate torque through the grip. The exact angle depends on your body proportions and the opponent's neck size, but the key principle is creating an angle where hip rotation directly translates into choking pressure rather than pulling the opponent toward you."
@@ -82,7 +82,7 @@ description: "Complete guide to finishing the Hindulotine choke from top positio
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin tightly during your finishing attempt - how do you adjust to complete the choke?",
+      "name": "They tuck their chin hard during your Hindulotine — how do you adjust to finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walk your choking arm higher on the neck through incremental adjustments while maintaining constant baseline pressure. Simultaneously increase your hip angle to generate more rotational torque. The rotation works around the chin tuck by compressing from the sides rather than pulling straight into the chin. If the chin tuck persists, apply pressure through the jaw itself, which creates enough discomfort to force a tap or create an opening for the forearm to slide deeper."
@@ -98,7 +98,7 @@ description: "Complete guide to finishing the Hindulotine choke from top positio
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to roll through your base during the finishing sequence - what is your immediate response?",
+      "name": "They start rolling through your base during the Hindulotine finish — immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hip into their shoulder on the rolling side and sprawl your weight backward to remove their rolling leverage. Your wide tripod base should already have one leg posted on their rolling side to prevent this. If the roll succeeds despite your defense, follow while maintaining the grip and transition to a guard-based guillotine finish. Prevention through wide base positioning is always more reliable than reacting to a roll already in progress."

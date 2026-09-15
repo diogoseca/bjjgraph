@@ -329,7 +329,7 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Arm Triangle/from Side Control]]
 - [[Submissions/Arm Triangle/from Kesa Gatame]]
-- [[Submissions/Arm Triangle/from Kuzure Kesa-Gatame]]
+- [[Submissions/Arm Triangle/from Kuzure Kesa Gatame]]
 - [[Submissions/Arm Triangle/from Hindulotine]]
 - [[Submissions/Americana/from Shoulder of Justice]]
 - [[Transitions/Anaconda Choke]]

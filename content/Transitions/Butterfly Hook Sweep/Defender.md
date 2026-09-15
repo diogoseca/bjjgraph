@@ -72,7 +72,7 @@ description: "Complete guide to defending the Butterfly Hook Sweep. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes an overhook and begins scooting their hips—what immediate defensive action do you take?",
+      "name": "They get an overhook and start scooting their hips: what is your immediate defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip or pummel free from the overhook immediately because it traps your posting arm and removes your primary sweep defense. Circle your trapped arm downward and inward toward your hip while driving your shoulder forward into their chest. If you cannot free the arm, shift your base toward the overhook side so your weight sits behind their intended sweep direction, forcing them to sweep into your base rather than away from it."

@@ -56,7 +56,7 @@ description: "Learn to recognize and defend the Inside Sankaku to Saddle transit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel the attacker's hips beginning to rotate and their outside leg releasing from the figure-four - what is your immediate priority?",
+      "name": "You feel their hips rotating and outside leg leaving the figure-four: what's your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Simultaneously establish a frame on their rotating hip with your free leg to block perpendicular alignment while preparing to extract your trapped leg through the gap created by the figure-four release. Your hands should address heel protection first, then assist with either frame reinforcement or leg extraction. The key is acting during this specific transition window when control is weakest rather than waiting for the Saddle to consolidate."
@@ -64,7 +64,7 @@ description: "Learn to recognize and defend the Inside Sankaku to Saddle transit
     },
     {
       "@type": "Question",
-      "name": "Why is turning into the attacker the worst possible defensive reaction during an Inside Sankaku to Saddle transition?",
+      "name": "Why is turning into the attacker the worst reaction during an inside sankaku to saddle entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning into the attacker provides the exact rotational angle they need to achieve perpendicular alignment. The hip switch entry specifically relies on the opponent turning toward them, which brings the defender's body into the perpendicular position that defines Saddle. Your rotation effectively does half the attacker's work for them. Instead, always create distance or counter-rotate away from the attacker to deny them the angle."
@@ -72,7 +72,7 @@ description: "Learn to recognize and defend the Inside Sankaku to Saddle transit
     },
     {
       "@type": "Question",
-      "name": "The attacker has achieved partial perpendicular alignment but has not yet established inside position with both legs - what escape opportunity exists?",
+      "name": "They reach partial perpendicular alignment without inside position on both legs: how do you escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Without bilateral inside position, the Saddle lacks its structural cage around your trapped leg. Use your free leg to pummel inside between their legs, preventing them from completing the inside position. Simultaneously hip escape to create extraction angle. This is a critical but brief window because once both their legs achieve inside position, the entanglement becomes exponentially harder to escape. Attack this specific structural weakness aggressively."
@@ -88,7 +88,7 @@ description: "Learn to recognize and defend the Inside Sankaku to Saddle transit
     },
     {
       "@type": "Question",
-      "name": "The attacker's Saddle entry fails and they fall back to Inside Sankaku - should you feel relieved or concerned?",
+      "name": "Their saddle entry fails and they return to inside sankaku: should you be relieved or concerned?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Concerned, but in a constructive way. The failed Saddle attempt means the attacker is specifically hunting for the transition, so they will attempt it again. Use the recovery moment to improve your own position within Inside Sankaku: re-establish strong heel protection, optimize your framing, and position your free leg for the next defensive action. Each failed attempt teaches you their specific entry timing and angle, which you can use to improve your defensive response on subsequent attempts."

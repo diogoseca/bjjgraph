@@ -56,7 +56,7 @@ description: "Learn to defend against the Rolling Escape from Anaconda as the co
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest warning signs that your opponent is preparing a rolling escape from anaconda control?",
+      "name": "What are the earliest signs your opponent is setting up a rolling escape from your anaconda?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest indicators are lateral hip walking where the opponent shifts their hips away from your body to create a rolling angle, and repositioning of their free hand from grip fighting at your wrist to posting on the mat beside their trapped shoulder. You may also notice a sudden increase in body tension, a shift in breathing pattern, or the trapped shoulder beginning to drop toward the mat as they load weight for the roll."
@@ -80,7 +80,7 @@ description: "Learn to defend against the Rolling Escape from Anaconda as the co
     },
     {
       "@type": "Question",
-      "name": "What is the optimal response if you successfully follow the roll but your grip has loosened slightly?",
+      "name": "You follow their anaconda roll but your grip loosened slightly; what is the best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-establish chest-to-shoulder pressure in the new dead orchard position while squeezing your elbows back together. The dead orchard finishing position allows you to use your body weight to re-tighten the grip through positioning rather than muscular effort. Walk your hips slightly to adjust the finishing angle while maintaining continuous shoulder pressure. If the grip has loosened beyond recovery, transition immediately to side control or front headlock rather than attempting to salvage a compromised anaconda."

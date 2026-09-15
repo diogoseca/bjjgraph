@@ -272,7 +272,7 @@
     ],
     "flashcards": [
       {
-        "question": "What anatomical structures does the Bow and Arrow Choke target, and how does the stretching mechanic compress them?",
+        "question": "From rodeo ride, what does the bow and arrow target and how does the stretch compress it?",
         "answer": "The Bow and Arrow targets both carotid arteries simultaneously through bilateral compression. The cross-collar grip pulls the lapel across one side of the neck while your forearm presses against the opposite carotid. The stretching force from extending your body while anchoring the far leg tightens this collar-to-forearm compression without requiring grip strength, creating efficient blood flow restriction to the brain.",
         "safety_critical": true,
         "answer_line": "Bilateral carotid compression",
@@ -287,7 +287,7 @@
         }
       },
       {
-        "question": "What are the reliable indicators that the choke is reaching the breaking point and the opponent will likely tap?",
+        "question": "What signs indicate the choke is working and your opponent is close to tapping?",
         "answer": "Key indicators include: the opponent's defensive grip fighting becomes weaker and less coordinated, their body begins to go limp or stops resisting the stretch, their breathing becomes audible or labored, and their face changes color visibly. If you feel the opponent stop actively defending and their muscle tension drops, the choke is effective and you should maintain steady pressure while watching for tap signals rather than increasing force.",
         "safety_critical": true,
         "answer_line": "Limp body, labored breathing",
@@ -317,7 +317,7 @@
         }
       },
       {
-        "question": "Your opponent begins stripping your collar grip by peeling your fingers with both hands—what adjustment prevents this escape?",
+        "question": "They peel your collar grip with both hands — what adjustment stops this escape?",
         "answer": "If the opponent commits both hands to stripping your collar grip, they have abandoned their turtle base entirely. Punish this by immediately driving your weight forward to flatten them while pulling the collar grip deeper. With both their hands occupied on grip fighting, they cannot post or maintain turtle structure. Alternatively, if the grip is being successfully stripped, release and immediately transition to a back take—both their hands are occupied and cannot defend hook insertion.",
         "safety_critical": false,
         "answer_line": "Drive forward, flatten and pull deep",
@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "How does the far leg grip contribute to the finishing mechanics, and what happens if you lose it during the extension?",
+        "question": "How does the far leg grip drive the finish, and what if you lose it during the extension?",
         "answer": "The far leg grip creates the second anchor point that generates opposing force against the collar pull. Without it, the opponent's entire body slides with the collar pull, eliminating the stretching compression across the neck. If you lose the leg grip during extension, immediately re-grip the pant leg or knee crease before continuing. If you cannot re-establish leg control, abandon the bow and arrow and transition back to Rodeo Ride control rather than forcing a finish without proper mechanics.",
         "safety_critical": false,
         "answer_line": "Leg anchors stretch; re-grip if lost",
@@ -392,7 +392,7 @@
         }
       },
       {
-        "question": "Your opponent starts sitting back toward closed guard during your collar grip threading—what adjustment prevents this escape?",
+        "question": "From rodeo ride, they sit back toward closed guard as you thread the collar — how do you adjust?",
         "answer": "When the opponent sits back, immediately widen your posted leg stance and drop your hips lower to resist the pull. Drive your chest pressure forward into their upper back to counteract their backward momentum. If you already have the collar grip secured, follow their sit-back and transition to a standard bow and arrow finish from behind them—their sit-back actually helps your positioning if you maintain the collar grip. If the grip is not yet established, abandon the choke attempt and re-establish Rodeo Ride control before they complete the guard recovery.",
         "safety_critical": false,
         "answer_line": "Widen base, drive chest forward",
@@ -407,7 +407,7 @@
         }
       },
       {
-        "question": "In competition, how do you set up the Bow and Arrow from Rodeo Ride using the Clock Choke as a feint?",
+        "question": "In competition, how do you use a clock choke feint to set up the bow and arrow from rodeo ride?",
         "answer": "Threaten the Clock Choke by walking toward the opponent's head with your near-side hand gripping their collar. Most experienced opponents will defend by tucking their chin aggressively and protecting the near-side collar with both hands. This defensive commitment turns their head away from you and exposes the far-side collar—exactly the grip you need for the Bow and Arrow. Thread the cross-collar grip on the exposed far side while they are occupied defending the Clock Choke threat, then transition to the bow and arrow configuration before they can readjust their defense.",
         "safety_critical": false,
         "answer_line": "Feint clock choke to bait far collar",

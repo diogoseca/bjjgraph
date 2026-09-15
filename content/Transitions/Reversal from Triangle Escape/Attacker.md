@@ -74,7 +74,7 @@ description: "Complete guide to executing the reversal from triangle escape in B
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary indicator that the triangle structure is weakened enough to attempt the reversal?",
+      "name": "What tells you the triangle is weak enough to attempt the stack reversal?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary indicator is a noticeable decrease in leg pressure around your neck combined with your opponent's hips being elevated and loaded onto their shoulders from your stacking pressure. You should be able to breathe comfortably and feel space between the choking leg and your neck. If the squeeze is still tight and your blood flow is compromised, the triangle has not been sufficiently weakened and you must continue stacking before attempting the lateral pass."
@@ -82,7 +82,7 @@ description: "Complete guide to executing the reversal from triangle escape in B
     },
     {
       "@type": "Question",
-      "name": "Why must you step toward the trapped arm side rather than the free arm side during the circular movement?",
+      "name": "Why must you circle toward the trapped arm side rather than the free arm side?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stepping toward the trapped arm side opens the triangle structure by widening the angle between your shoulder and the opponent's locking leg, creating space for arm extraction. Moving toward the free arm side tightens the triangle by driving your neck deeper into the choking angle the opponent needs to finish the submission. The direction of circular movement is biomechanically critical and getting it wrong accelerates the choke rather than defeating it."
@@ -90,7 +90,7 @@ description: "Complete guide to executing the reversal from triangle escape in B
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins re-locking their triangle as you initiate the lateral step - how do you respond?",
+      "name": "They begin re-locking the triangle as you start the lateral step—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase your forward stacking pressure before continuing the lateral movement. Drive your weight more aggressively onto their shoulders to compromise their hip mobility and prevent them from re-establishing the tight leg configuration. Do not continue the lateral pass against a re-tightening triangle. Reset to deeper stacking and only reattempt the circular movement when you feel the pressure decrease again around your neck."

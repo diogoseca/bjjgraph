@@ -56,7 +56,7 @@ description: "How to defend against Takedown to Grounded Back Control in BJJ. Re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three timing windows for defending the mat return, and which has the highest success rate?",
+      "name": "What are the three windows to defend the mat return, and which succeeds most?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three windows are: before the attacker commits their weight to the descent, during the fall when control is most compromised, and immediately upon landing before hooks consolidate. The first window - before commitment - has the highest success rate because you can still use standing escape mechanics, the attacker's weight has not yet created irresistible downward force, and you have maximum mobility to fight grips and shift your base. Each subsequent window narrows your options significantly."
@@ -64,7 +64,7 @@ description: "How to defend against Takedown to Grounded Back Control in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "Your attacker begins shifting their hips laterally and you feel rotational pressure on your harness - what immediate action should you take?",
+      "name": "You feel their hips shift laterally and rotational pull on the harness. What do you do at once?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately sprawl your hips back and away from the direction of their lateral shift while using two-on-one grip control on the choking arm wrist. The sprawl prevents them from dropping below your center of gravity, and the grip strip degrades their primary control mechanism. Simultaneously shift your weight toward the side they are pulling from, making their rotational force less effective. This combined defensive response addresses both the base break and the grip control that enable the mat return."
@@ -72,7 +72,7 @@ description: "How to defend against Takedown to Grounded Back Control in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "Why is preemptive turtle often a better defensive outcome than being taken down at the attacker's chosen angle?",
+      "name": "Why is preemptive turtle often better than being taken down at the attacker's angle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Preemptive turtle gives you control over your own descent, landing with your defensive structural frame already intact: elbows to knees, chin tucked, rounded back. The attacker's preferred landing places you on your side with thighs exposed for immediate hook insertion. When you dictate the descent to turtle, you deny the side-landing angle, force the attacker to work from turtle top rather than immediate back control, and retain access to multiple escape pathways including granby rolls, sit-throughs, and technical standups that are unavailable from flat back control."
@@ -80,7 +80,7 @@ description: "How to defend against Takedown to Grounded Back Control in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "Your attacker has locked the seatbelt and is beginning to sit their hips down - is it too late to prevent the takedown?",
+      "name": "Seatbelt locked and they start sitting their hips down. Can the takedown still be stopped?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "It depends on how far they have committed. If their hips have not yet dropped below yours, aggressive sprawling and grip fighting can still prevent the descent. If their hips are already below yours and their weight is pulling you downward, preventing the takedown entirely is unlikely. At this point, shift your defensive focus to controlling the landing: drop to your knees into tight turtle before they can dictate the angle, clamp your thighs to prevent hook insertion during the fall, or commit to an explosive turn to recover facing position during the descent."
@@ -96,7 +96,7 @@ description: "How to defend against Takedown to Grounded Back Control in BJJ. Re
     },
     {
       "@type": "Question",
-      "name": "How does the defender's choice between turning into the attacker versus dropping to turtle change based on the attacker's grip configuration?",
+      "name": "How does their seatbelt grip quality decide between turning in and dropping to turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the attacker has a loose or compromised seatbelt grip, turning is higher percentage because their reduced upper body control cannot follow your rotation effectively. If the attacker has a locked, deep seatbelt with the choking arm threatening the neck, dropping to turtle is safer because turning against a locked seatbelt often results in the choke tightening during rotation. The grip assessment must happen in real time: two-on-one grip test the seatbelt strength, and if it is loose, turn; if it is tight, turtle."

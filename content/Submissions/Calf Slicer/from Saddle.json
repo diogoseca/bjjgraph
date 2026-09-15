@@ -279,7 +279,7 @@
         }
       },
       {
-        "question": "Your opponent hides their heel after you establish the saddle—how does this create the calf slicer opportunity?",
+        "question": "From saddle, how does your opponent hiding their heel create the calf slicer opportunity?",
         "answer": "When the opponent rotates their knee inward to hide the heel from heel hook attacks, they bend their knee and create the exact configuration needed for the calf slicer. Their bent leg positions the calf directly over your shin, and their heel-hiding rotation means they cannot straighten the leg without re-exposing the heel. This defensive dilemma is the primary tactical reason the calf slicer pairs so effectively with heel hooks from saddle.",
         "safety_critical": false,
         "answer_line": "Bent knee sets up the fold",
@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "Your opponent starts straightening their trapped leg during the fold—what adjustment prevents escape?",
+        "question": "Saddle calf slicer: they start straightening the trapped leg—what adjustment stops the escape?",
         "answer": "Drive your hips forward aggressively into their thigh to counter their extension force. Simultaneously pull their foot harder toward your chest. If they achieve partial extension, you have two options: increase hip drive to re-bend the leg, or abandon the calf slicer and immediately transition to a heel hook attack since their straightening motion re-exposes the heel. Never fight a losing battle against leg extension when the heel hook is available.",
         "safety_critical": false,
         "answer_line": "Drive hips, or switch to heel hook",
@@ -369,7 +369,7 @@
         }
       },
       {
-        "question": "How do you maintain saddle control while transitioning your hands from heel hook grips to calf slicer grips?",
+        "question": "How do you keep saddle control while switching hands from heel hook grips to calf slicer grips?",
         "answer": "The transition must be sequential, not simultaneous. First, ensure your leg entanglement is tight with strong hip pressure. Release one hand from the heel hook grip while the other maintains contact. Move the free hand to the opponent's foot for calf slicer control. Only after the first hand is secured on the foot do you release the second hand and complete the grip transition. Your legs carry the positional burden throughout.",
         "safety_critical": false,
         "answer_line": "Sequential hand swap, legs hold",
@@ -384,7 +384,7 @@
         }
       },
       {
-        "question": "What competition strategy considerations affect when to attempt the calf slicer versus heel hook from saddle?",
+        "question": "In competition, when should you attack the calf slicer instead of the heel hook from saddle?",
         "answer": "In submission-only formats, the calf slicer serves as a secondary threat that forces opponents out of heel-hiding defense, reopening the higher-percentage heel hook. In points-based competition, the calf slicer may be preferred when time is limited because it generates faster taps once the fold is locked. In rulesets where heel hooks are illegal but calf slicers are permitted at your belt level, it becomes the primary attack. Always verify ruleset legality before competition.",
         "safety_critical": false,
         "answer_line": "Slicer reopens the heel hook",

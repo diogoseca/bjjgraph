@@ -82,7 +82,7 @@ description: "How to execute Turtle Flatten to Side Control in BJJ. Attacking pe
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps their elbows tight to their knees in a strong defensive turtle — how do you create the opening for the flatten?",
+      "name": "They hold a tight turtle with elbows to knees. How do you create the opening to flatten them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use upper body pressure to force a reaction. Drive your chest weight onto their shoulders at an angle, forcing them to post a hand or shift weight to one side to maintain balance. The moment they post or shift, they create a structural asymmetry that makes lateral flattening effective. Alternatively, threaten a back take or choke to force them to defend with their arms, which opens the hip line for the flatten grip. The key is making them react rather than trying to force the flatten against a perfectly set defensive structure."
@@ -106,7 +106,7 @@ description: "How to execute Turtle Flatten to Side Control in BJJ. Attacking pe
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to eliminate the pause between flattening the opponent and sliding to side control?",
+      "name": "Why must there be no pause between flattening the turtle and sliding to side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Any pause gives the opponent a recovery window. A flattened opponent can immediately re-turtle by posting their elbows and knees, hip escape into half guard, or create frames to push you away. The flat-on-belly position is not inherently controllable — it only becomes dominant when you consolidate side control with crossface and underhook. The transition from flatten to side control must be one continuous motion because the opponent's escape options multiply with every second they have to reorganize their defensive structure."

@@ -50,7 +50,7 @@ description: "Defend the entry into Williams Guard from Butterfly Guard. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the clearest early sign that a butterfly opponent is entering Williams Guard rather than just sweeping?",
+      "name": "What early sign shows a butterfly opponent is entering Williams Guard, not just sweeping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The defining cue is a deep overhook on one of your arms combined with the bottom player angling their hips away from your free arm. A routine butterfly exchange focuses on hooks and elevation, but a tight overhook that folds your elbow toward their chest while they shrimp off-angle signals a shoulder-lock entry, giving you a narrow window to strip the grip before the figure-four closes."

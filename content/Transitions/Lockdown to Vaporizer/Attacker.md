@@ -90,7 +90,7 @@ description: "Complete guide to executing the Transition to Vaporizer from Lockd
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes a strong whizzer as you attempt to secure the underhook - how do you adjust your entry?",
+      "name": "They whizzer as you reach for the underhook: how do you adjust your Vaporizer entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent commits to a whizzer, you have two primary adjustments: First, switch to an overhook Vaporizer entry by wrapping over their whizzering arm and using that grip for leverage instead. Second, exploit the whizzer commitment by transitioning directly toward the Electric Chair, since their whizzer arm is occupied and cannot defend the leg split. The whizzer actually helps you because it pulls them closer and prevents them from posting that arm. Never engage in a prolonged strength battle against the whizzer."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the Transition to Vaporizer from Lockd
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far hand on the mat to resist being rolled during your whip-up attempt - what attack does this expose?",
+      "name": "They post their far hand against your whip-up: which attack does that post expose?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A posted far hand creates the ideal setup for the Old School sweep. Their posted hand becomes a fixed point that prevents them from basing in that direction when you sweep. To capitalize, post your outside foot on the mat behind you, bridge toward their posted hand while maintaining the underhook pull, and use the lockdown extension to lift their trapped leg. They face a dilemma: removing the post to defend the sweep means the whip-up succeeds, but keeping the post means the Old School sweep has high probability of success."

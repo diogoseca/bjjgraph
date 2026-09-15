@@ -300,7 +300,7 @@
     ],
     "flashcards": [
       {
-        "question": "What anatomical structures does the High Elbow Guillotine specifically target and how does the elbow position affect compression?",
+        "question": "What does the High Elbow Guillotine target, and how does elbow height affect compression?",
         "answer": "The High Elbow Guillotine targets both carotid arteries simultaneously. The blade of the wrist or forearm compresses the near-side carotid directly, while the elevated elbow closes the far-side carotid by pressing it against the attacker's chest and shoulder. This bilateral compression produces a blood choke that causes unconsciousness within seconds when fully applied, as opposed to a tracheal crush that primarily causes pain.",
         "safety_critical": false,
         "answer_line": "Both carotids, bilateral blood choke",
@@ -330,7 +330,7 @@
         }
       },
       {
-        "question": "Your opponent starts hand fighting your choking wrist during the grip transition—what adjustment prevents the strip?",
+        "question": "They hand fight your choking wrist during the grip transition — how do you stop the strip?",
         "answer": "Pin your elbows tight to your ribs and keep the choking forearm connected to your chest wall, eliminating the space needed for effective hand fighting. Rotate your body slightly toward the choking side to increase downward pressure on their grip hand. If they momentarily break your clasp, re-grip immediately at the wrist rather than trying to re-establish the full palm-to-palm configuration, then complete the elbow elevation before they can re-engage their hand fight.",
         "safety_critical": false,
         "answer_line": "Elbows pinned to your ribs",
@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "What are the critical indicators that the choke is properly set and the opponent is approaching the point of no escape?",
+        "question": "Which signs show the high elbow choke is set and escape is nearly impossible?",
         "answer": "Key indicators include the opponent's hand fighting becoming weaker or less coordinated, a visible color change in the face (reddening or darkening), the opponent's breathing becoming labored or producing gurgling sounds, and the cessation of active escape attempts replaced by static tension. The point of no escape occurs when the elbow reaches full ceiling height with zero gap between forearm and neck—at this point even releasing one hand from the grip maintains enough compression to produce unconsciousness.",
         "safety_critical": true,
         "answer_line": "Defense fades, face darkens",
@@ -390,7 +390,7 @@
         }
       },
       {
-        "question": "Your opponent begins passing your guard while you hold the guillotine grip—what is the correct decision and why?",
+        "question": "They start passing while you hold the guillotine grip: what do you do and why?",
         "answer": "You must either finish the submission immediately before they consolidate the pass, or release the grip and address the guard pass with standard retention. Holding the guillotine grip while the opponent passes to side control exposes you to the Von Flue choke, where their shoulder pressure on your neck reverses the submission. The decision depends on how deep and tight your choke is—if the elbow is fully elevated and compression is bilateral, you can finish through the pass; if the grip is compromised, release immediately.",
         "safety_critical": false,
         "answer_line": "Finish fast or let the grip go",
@@ -405,7 +405,7 @@
         }
       },
       {
-        "question": "In competition, what finishing adjustments maximize your success rate when the opponent is actively defending?",
+        "question": "In competition, how do you adjust the high elbow guillotine finish against active defense?",
         "answer": "In competition, use rapid grip switching between standard and high elbow configurations to prevent the defender from settling into a single defensive pattern. Time the elbow elevation to coincide with the opponent's exhalation when their neck is momentarily thinner. Walk your hips toward the choking side to increase the lever arm. If the opponent stalls your finish, threaten positional advancement to mount or back control—their defensive reaction to the position threat often opens the neck for the choke finish.",
         "safety_critical": false,
         "answer_line": "Switch grips, time their exhale",
@@ -537,7 +537,7 @@
     ],
     "flashcards": [
       {
-        "question": "How do you recognize that the attacker is transitioning from a standard guillotine to the high elbow variation?",
+        "question": "What cues show the attacker is switching from a standard to a high elbow guillotine?",
         "answer": "The primary cues are the attacker's elbow beginning to rise vertically toward the ceiling rather than squeezing horizontally, a grip change from standard palm-to-palm to a wrist-level clasp, and increased pressure shifting from the front of your throat to behind and beneath your jawline. You may also feel the attacker's hips begin extending forward as they coordinate the finishing mechanics.",
         "safety_critical": false,
         "answer_line": "Elbow rises, grip moves to wrist",

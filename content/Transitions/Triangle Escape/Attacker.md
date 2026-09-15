@@ -92,7 +92,7 @@ description: "How to execute Triangle Escape in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "How does stacking pressure help escape the triangle, and what are common mistakes when attempting to stack?",
+      "name": "How does stacking help you escape a triangle, and what stacking mistakes are common?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stacking drives the opponent's weight toward their shoulders, forcing their hips to rise and disrupting the angle needed for effective choking pressure. It also prevents them from using their hips to extend and finish. Common mistakes include stacking without first establishing posture, using only upper body instead of driving from the legs, and failing to maintain the stack while circling. The stack must be maintained throughout the entire escape sequence."
@@ -100,7 +100,7 @@ description: "How to execute Triangle Escape in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What are the two most common submissions opponent will transition to if you escape the triangle poorly, and how do you defend them?",
+      "name": "Which two submissions follow a poor triangle escape, and how do you defend each?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two most common transitions are armbar and omoplata. For armbar defense, keep your trapped arm bent and tight to your body, clasp hands together if possible, and turn toward the trapped arm side to prevent extension. For omoplata defense, recognize the transition early and either complete your circle escape before they establish control, or roll forward through the omoplata. Both require maintaining awareness of your arm position throughout the escape attempt."
@@ -424,7 +424,7 @@ Triangle escapes involve defending against a choke that restricts blood flow to 
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Understanding opponent&#x27;s escape options improves system effectiveness</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Understanding opponent&#x27;s escape options improves system effectiveness</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

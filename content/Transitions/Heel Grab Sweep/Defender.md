@@ -56,7 +56,7 @@ description: "How to defend against Heel Grab Sweep in BJJ. Recognition cues, de
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive priority when you recognize the opponent is setting up a Heel Grab Sweep?",
+      "name": "Defending the heel grab sweep, what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first priority is breaking their heel grips before they can coordinate the sweep. Both hands on your heel bone is the critical control point that enables the rotational pull component of the sweep. Strip their grips by pushing their hands off with your free hand or peeling their fingers, then immediately address your base positioning. Without heel control, the opponent can only push with their legs, which is far less effective as a sweeping mechanism."
@@ -80,7 +80,7 @@ description: "How to defend against Heel Grab Sweep in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your opponent has both hands on your heel and begins the explosive extension - what emergency defense do you use?",
+      "name": "They have both hands on your heel and extend explosively — what is your emergency defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the sweep has already been initiated with the explosive extension, your emergency response is to immediately post your hand on the mat behind you in the direction you are falling to prevent a full sweep completion. Simultaneously try to turn your body toward the opponent rather than falling flat backward, which can allow you to establish a scramble position rather than conceding full top control. This is a last-resort option, as effective defense should prevent reaching this stage through earlier grip fighting and base management."

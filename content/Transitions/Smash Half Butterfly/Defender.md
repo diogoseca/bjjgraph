@@ -80,7 +80,7 @@ description: "Defend and counter the Smash Half Butterfly pass in BJJ. Learn rec
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your frames when the top player begins driving angular pressure toward the hook side?",
+      "name": "Bottom of half butterfly: how do you frame as they drive angular pressure to the hook side?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift your primary frame to the far-side shoulder or bicep to create a wedge against the angular drive. Your near-side hand should control the crossface arm to prevent deep shoulder pressure under your chin. The frame should be angled to redirect their pressure away from your hook rather than trying to stop it head-on—work at an angle perpendicular to their driving direction for maximum mechanical efficiency."

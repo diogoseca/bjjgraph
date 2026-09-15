@@ -90,7 +90,7 @@ description: "Complete defensive guide against the outside heel hook from outsid
     },
     {
       "@type": "Question",
-      "name": "Your boot defense has been stripped and the attacker is reaching for your heel - what immediate action should you take?",
+      "name": "Your boot defense is stripped and they reach for your heel; what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately attempt to re-establish the boot defense by pulling your heel back behind your opposite knee or tucking it against your body. Simultaneously use your hands to grip-fight against the attacker's reaching hand, focusing on controlling their wrist to prevent the heel cup from being established. If you cannot re-hide the heel, begin straightening your leg for extraction before the figure-four grip locks. If the grip locks with your heel cupped, prepare to tap early once any rotational pressure begins."

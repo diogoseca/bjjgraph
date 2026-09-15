@@ -70,7 +70,7 @@ description: "How to execute the Marce Choke in BJJ. Attacking perspective with 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary anatomical target of the Marce Choke and why is it more effective than targeting the trachea?",
+      "name": "What does the Marce Choke target anatomically, and why is that better than the trachea?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary target is the carotid arteries on both sides of the neck, which supply blood to the brain. Targeting the carotid arteries creates a blood choke that causes unconsciousness in 3-8 seconds by restricting blood flow to the brain, whereas tracheal compression (air choke) is more painful, takes longer, and gives the opponent more time to escape or defend. Blood chokes are also safer when properly applied and released promptly because they don't damage the windpipe structure."
@@ -78,7 +78,7 @@ description: "How to execute the Marce Choke in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to feed the lapel deep across the opponent's neck rather than gripping shallow near their collar?",
+      "name": "Why feed the lapel deep across the neck instead of gripping shallow near the collar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Feeding the lapel deep (4-6 inches past their shoulder) ensures that the material crosses their neck at the optimal angle to compress both carotid arteries simultaneously. A shallow grip only affects the front of the throat, creating a painful but ineffective air choke that the opponent can defend much more easily. The deep feed creates a V-shape across the neck with the apex under the chin, which is the biomechanically sound position for bilateral carotid compression and successful completion of the technique."
@@ -86,7 +86,7 @@ description: "How to execute the Marce Choke in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What should you do immediately if your training partner goes limp or unresponsive during the Marce Choke?",
+      "name": "What do you do immediately if your partner goes limp during the Marce Choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release the choke immediately by letting go of the lapel grip and removing all body weight from their torso and neck. Check their responsiveness and breathing. Typically, they will regain consciousness within seconds if they simply passed out from the blood choke. Ensure they are breathing normally and alert them to what happened. Never continue pressure after unconsciousness, and always allow adequate recovery time before resuming training. If they don't regain consciousness within 10-15 seconds, call for medical help immediately."
@@ -94,7 +94,7 @@ description: "How to execute the Marce Choke in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What is the mechanical principle that makes the Marce Choke effective, and how does body positioning contribute to this principle?",
+      "name": "What mechanical principle finishes the Marce Choke, and how does your positioning create it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Marce Choke uses the principle of creating a ligature (noose) around the neck using the lapel, with your body weight providing the constricting force rather than just arm strength. By driving your chest downward perpendicular to their neck while maintaining the lapel grip, you create opposing forces: the lapel pulls from one direction while your body weight pushes from another, tightening the noose effect around the carotid arteries. This mechanical advantage means less energy expenditure while generating maximum choking pressure, making it extremely difficult for the opponent to defend even if they're stronger than you."
@@ -102,7 +102,7 @@ description: "How to execute the Marce Choke in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "What is the most effective defensive response from the bottom position against the Marce Choke, and how should the top player prevent this defense?",
+      "name": "What is the bottom player's best defense to the Marce Choke, and how do you prevent it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective defense is for the bottom player to turn into the top player, escaping to their side or recovering guard before the choke is fully established. This works because it removes the perpendicular pressure angle that makes the choke effective. To prevent this defense, the top player must control the opponent's near arm (preventing frames), maintain heavy shoulder pressure to keep them flat, and establish the lapel grip quickly before they can initiate their turn. If the opponent begins turning successfully, it's often better to transition to back control or another submission rather than forcing the Marce Choke from a compromised position."
@@ -110,7 +110,7 @@ description: "How to execute the Marce Choke in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "How should you progressively apply pressure during the Marce Choke in training, and why is this timing critical?",
+      "name": "How fast should you build Marce Choke pressure in training, and why does that timing matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In training, you should apply pressure progressively over 3-5 seconds minimum, starting light and gradually increasing to give your partner clear awareness of the danger and adequate time to tap. This is critical because blood chokes can cause unconsciousness quickly - often within 3-8 seconds of full pressure - and if you apply maximum pressure instantly, your partner may not have time to recognize the danger and tap before losing consciousness. Progressive application builds trust in training, prevents injuries, allows learning of the technique and its defenses, and develops the sensitivity needed to control the submission effectively in competition."

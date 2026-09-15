@@ -56,7 +56,7 @@ description: "Learn to maintain the Vaporizer and counter escape attempts in BJJ
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "The top player establishes a strong whizzer over your underhook—how does this change your offensive strategy from the Vaporizer?",
+      "name": "In the Vaporizer, the top player whizzers your underhook. How does your attack change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The whizzer reduces your underhook's effectiveness for the whip-up motion and lateral sweeps, but it creates the conditions for the Electric Chair. When the top player commits their arm to the whizzer, their defensive attention is split between upper body control and lockdown maintenance. Increase your lockdown extension to elevate their trapped leg while using your non-underhook hand to control their far leg. Their whizzer commitment actually prevents them from defending the leg split needed for the Electric Chair. Alternatively, maintain lockdown pressure and wait for them to shift focus to the lockdown, then re-activate the whip-up when their whizzer loosens."
@@ -64,7 +64,7 @@ description: "Learn to maintain the Vaporizer and counter escape attempts in BJJ
     },
     {
       "@type": "Question",
-      "name": "You feel the top player beginning to successfully circulate their trapped leg and create slack in the lockdown—what is your highest-percentage response?",
+      "name": "Vaporizer bottom: they start circulating the trapped leg and slack appears. Best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Actively counter the circulation by squeezing your knees together and extending the trapped leg in the opposite rotational direction. Simultaneously increase underhook pulling pressure to break their base and divide their attention between maintaining the whizzer and continuing the circulation. If the lockdown continues to degrade despite these adjustments, transition immediately to a sweep or back take rather than fighting to maintain a weakening control point. A proactive positional transition while you still have partial control produces far better results than losing the lockdown entirely and being passed."
@@ -80,7 +80,7 @@ description: "Learn to maintain the Vaporizer and counter escape attempts in BJJ
     },
     {
       "@type": "Question",
-      "name": "The top player has nearly cleared the lockdown—should you fight to re-establish it or transition to a different attack?",
+      "name": "Vaporizer bottom: with the lockdown nearly cleared, do you re-establish it or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Almost always transition rather than fight to re-establish. Attempting to re-lock a nearly cleared lockdown is low percentage and positions you in a scramble where the top player has momentum. Instead, use whatever control remains—even a loose hook or the underhook—to transition to a back take, butterfly sweep, or seated guard. The transition should be initiated the moment you recognize the lockdown is failing, not after it fully clears. The underhook is your most valuable asset during this transition; maintain it at all costs and use it to create your next attacking position."

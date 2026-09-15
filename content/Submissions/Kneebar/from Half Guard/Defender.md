@@ -52,7 +52,7 @@ description: "How to defend against Kneebar from Half Guard in BJJ. Recognition,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most dangerous defensive mistake when caught in a kneebar from half guard, and why does it increase injury risk?",
+      "name": "What is the most dangerous error when caught in a half guard kneebar, and why is it so risky?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most dangerous mistake is pulling your trapped leg straight backward away from the attacker. This is catastrophically counterproductive because it extends your knee further into the hyperextension plane, loads more force onto the fulcrum point (the attacker's torso), and removes the bend in your knee that provides structural protection. Instead, you must drive your hips toward the attacker to collapse the space needed for the lever system while simultaneously bending your knee and rotating it inward to deny the extension angle."
@@ -60,7 +60,7 @@ description: "How to defend against Kneebar from Half Guard in BJJ. Recognition,
     },
     {
       "@type": "Question",
-      "name": "At what stage of the kneebar sequence is defense most effective, and what specific actions should you take at that stage?",
+      "name": "At what stage is kneebar defense most effective, and what actions should you take then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defense is most effective during the early transition phase when the attacker begins rotating their hips to perpendicular alignment but has not yet established full leg isolation or hip control. At this stage, immediately drive heavy crossface pressure forward to flatten them back to the mat, use your free hand to control their top leg (preventing it from swinging over your back), and re-establish your base by widening your free leg. The goal is to deny perpendicular alignment entirely, which eliminates the kneebar threat at its source."
@@ -68,7 +68,7 @@ description: "How to defend against Kneebar from Half Guard in BJJ. Recognition,
     },
     {
       "@type": "Question",
-      "name": "If the attacker has fully locked the kneebar position with figure-four leg isolation and hip control, what is the correct emergency defense sequence before tapping?",
+      "name": "The kneebar is locked with figure-four and hip control: what emergency defense comes before tapping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The emergency sequence is: (1) Immediately bend your trapped knee as much as possible by engaging your hamstring—a bent knee cannot be hyperextended; (2) Rotate your knee inward toward the attacker to misalign the hyperextension angle; (3) Use your hands to fight their hip grip, specifically prying their fingers off your hip or belt; (4) Drive your hips forward toward them to collapse the fulcrum distance; (5) If these actions create any slack in their leg isolation, immediately work to extract your leg. If at any point you feel sharp pain or cannot bend your knee, TAP IMMEDIATELY—the kneebar can cause ligament damage before pain fully registers."

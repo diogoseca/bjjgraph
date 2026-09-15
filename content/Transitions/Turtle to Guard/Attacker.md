@@ -84,7 +84,7 @@ description: "How to execute Turtle to Guard recovery in BJJ. Complete attacking
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established one hook while you are in turtle - how do you adjust your guard recovery approach?",
+      "name": "They get one hook in while you are in turtle. How do you adjust your guard recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With one hook in, immediately address the hook before attempting rotation. Trap the hooking foot by clamping your hand on their ankle or heel, then extract your hip away from the hook side by shifting laterally. Once the hook is controlled, you have two primary options: sit through to the hook side to trap their leg in half guard, using their own hook against them, or rotate to the opposite side where the hook provides less control. The sit-through option is often higher percentage because you convert their offensive hook into your half guard entanglement. Never attempt a full rotation with an unaddressed hook as opponent will follow your movement directly into back control."
@@ -92,7 +92,7 @@ description: "How to execute Turtle to Guard recovery in BJJ. Complete attacking
     },
     {
       "@type": "Question",
-      "name": "What specific grip must you strip first when opponent attempts seat belt control from turtle, and in which direction do you apply force to break it?",
+      "name": "Which seat belt hand do you strip first from turtle, and in what direction do you break it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the choking hand first, which is the arm that passes over your shoulder toward your neck. This is the higher-priority threat because it enables rear naked choke attacks. To break this grip, use both hands in a two-on-one configuration, peeling their wrist away from your chest by pushing their hand toward their thumb line, which is the weakest axis of any grip. Push diagonally downward and away from your neck rather than straight out. Once the choking hand is stripped, the under-arm harness hand loses most of its offensive threat and becomes easier to manage, creating the window for your rotation."
@@ -108,7 +108,7 @@ description: "How to execute Turtle to Guard recovery in BJJ. Complete attacking
     },
     {
       "@type": "Question",
-      "name": "Your rotation succeeds but opponent immediately drives forward with a cross-face as you land on your back - what is your immediate response?",
+      "name": "Your rotation to guard works but they drive a cross-face as you land. Immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame immediately with your forearm across their neck and jawline to stop the cross-face from flattening you. Simultaneously, use your opposite hand to grip their sleeve or wrist on the cross-facing arm to prevent them from driving through. Your legs must be active, locking closed guard immediately if possible to pull them off-base. If closed guard is not available, establish a knee shield with your near-side knee against their chest or hip to create distance. The cross-face only works if they can drive your head sideways, so your frame must address the head pressure first. Once stabilized, threaten a sweep or submission to stop their forward momentum rather than playing purely defensive."

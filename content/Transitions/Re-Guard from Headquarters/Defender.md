@@ -56,7 +56,7 @@ description: "How to prevent guard recovery from Headquarters in BJJ. Consolidat
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why should the passer prioritize upper body control over leg control when preventing a re-guard from Headquarters?",
+      "name": "Why should the passer prioritize upper body control over leg control to stop the re-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upper body control (crossface, underhook, chest pressure) eliminates the hip mobility that powers all leg recovery mechanics. The bottom player's legs can only recover if their hips can generate shrimping movement, and hip movement requires the ability to turn onto their side with shoulder freedom. By controlling the head and shoulders first, you neutralize the engine that drives leg recovery rather than fighting the symptoms. Chasing legs is reactive and disadvantageous because the bottom player has superior leg dexterity from their position."
@@ -64,7 +64,7 @@ description: "How to prevent guard recovery from Headquarters in BJJ. Consolidat
     },
     {
       "@type": "Question",
-      "name": "Your opponent executes a strong hip escape and begins pulling their near-side knee through - what is your highest-percentage response?",
+      "name": "They hip escape and pull their near knee through — your highest-percentage response on top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than trying to push their knee back out, transition immediately into a knee slice pass using their partially recovered knee as the passing lane. Drive your near-side knee through the gap alongside their recovering knee, using their own movement to create the angle for your pass. This converts their defensive action into your offensive opportunity. If you try to simply block the knee, you're fighting their leg strength with your arm strength in a disadvantageous exchange, and they can simply chain into another shrimp angle."
@@ -72,7 +72,7 @@ description: "How to prevent guard recovery from Headquarters in BJJ. Consolidat
     },
     {
       "@type": "Question",
-      "name": "What is the critical timing window for the passer to consolidate from Headquarters before re-guard becomes likely?",
+      "name": "How long does the passer have after clearing the legs to consolidate before re-guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The passer has approximately 1-3 seconds after clearing the legs to establish upper body control before the bottom player initiates effective recovery. This window begins when your legs clear their guard structure and ends when they establish their first structural frame on your hip or shoulder. Use this window to immediately drive crossface, secure underhook, and drop chest weight. If you spend this window adjusting grips, repositioning your base, or hesitating on which pass to attempt, the bottom player will establish frames that make consolidation significantly harder."
@@ -80,7 +80,7 @@ description: "How to prevent guard recovery from Headquarters in BJJ. Consolidat
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a bottom player committing to a shrimp recovery versus setting up a granby roll?",
+      "name": "How do you tell a shrimp recovery from a granby roll setup as the passer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A shrimp recovery shows the bottom player driving their hips linearly away from you while maintaining frames, with their back largely facing the ceiling and feet planting on the mat for push-off power. A granby roll setup shows the bottom player tucking their chin, loading weight onto their shoulder, and curling their hips upward rather than away - the motion is rotational rather than linear. When you detect the rotational setup, immediately sprawl your hips back and downward to remove the space underneath you that the granby needs. Against the linear shrimp, follow forward with your hips to close the distance."
@@ -88,7 +88,7 @@ description: "How to prevent guard recovery from Headquarters in BJJ. Consolidat
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a knee shield after partially recovering from Headquarters - what systematic options remain for completing the pass?",
+      "name": "They insert a knee shield after partly recovering — what options complete the pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a knee shield established, you have three primary options: first, smash pass by collapsing your weight laterally across their knee shield to pin it and walk around to side control; second, backstep over the knee shield to establish reverse headquarters on the opposite side; third, address the knee shield with a knee slice by stapling their bottom leg and sliding your knee through above their shield while maintaining crossface. The worst response is trying to simply push through the knee shield with forward pressure, which reinforces their guard structure. Accept that full open guard recovery was prevented and work the half guard passing game methodically."

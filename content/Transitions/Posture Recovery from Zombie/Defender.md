@@ -64,7 +64,7 @@ description: "Learn to prevent and counter the top player's posture recovery fro
     },
     {
       "@type": "Question",
-      "name": "When should you choose to release lockdown and recover closed guard versus maintaining lockdown control?",
+      "name": "Holding Zombie, when should you release lockdown to recover closed guard instead of keeping it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release lockdown and recover closed guard when three conditions are met: the opponent has established strong crossface preventing you from maintaining chest-to-chest connection, your lockdown tension is diminishing because their posture recovery is well advanced, and you still have enough hip mobility to shrimp back and close your guard before they can react. If any of these conditions is not met, maintain lockdown. Releasing too early wastes the positional advantage you built, while releasing too late means you will not have the space needed to close guard."
@@ -72,7 +72,7 @@ description: "Learn to prevent and counter the top player's posture recovery fro
     },
     {
       "@type": "Question",
-      "name": "How do you use the Old School Sweep threat to prevent posture recovery without fully committing to the sweep?",
+      "name": "How do you threaten the Old School Sweep from Zombie to stall posture recovery without committing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Initiate the Old School Sweep motion by posting on your far foot and driving your hips toward the opponent, creating the initial elevation that signals sweep danger. This forces the top player to immediately widen their base and drop weight forward to defend, which resets their recovery progress. You do not need to complete the sweep - the threat alone disrupts their recovery sequence. Return to your lockdown control position after they react defensively. This constant threatening keeps them defensive and unable to commit fully to recovery."
@@ -80,7 +80,7 @@ description: "Learn to prevent and counter the top player's posture recovery fro
     },
     {
       "@type": "Question",
-      "name": "Your lockdown is starting to lose tension because the opponent is compressing your legs with hip pressure - what do you do?",
+      "name": "Your Zombie lockdown loses tension as they compress your legs with hip pressure — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, re-engage the lockdown by hooking your foot deeper behind their calf and re-squeezing your thighs together with renewed effort. If the compression has advanced too far for re-engagement, immediately transition to one of two options: initiate a sweep attempt while you still have partial lockdown control, using whatever remaining tension you have to off-balance them, or begin the tactical lockdown release sequence by framing with your arms, shrimping your hips back, and working to close your guard. Never hold a failing lockdown passively."
@@ -88,7 +88,7 @@ description: "Learn to prevent and counter the top player's posture recovery fro
     },
     {
       "@type": "Question",
-      "name": "What is the most dangerous phase of the opponent's posture recovery from your perspective as the defender?",
+      "name": "Defending Zombie, which phase of their posture recovery is most dangerous for you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most dangerous phase is when the opponent has established crossface and begun driving their weight forward but has not yet extracted their leg from the lockdown. At this point, they have upper body control limiting your offensive options, but they are applying maximum downward pressure on your lockdown which is progressively weakening your leg grip. If you do not act during this window - either by launching an aggressive sweep or transitioning to closed guard - you will reach a point where both your lockdown and your upper body grips are compromised simultaneously, leading to the pass."

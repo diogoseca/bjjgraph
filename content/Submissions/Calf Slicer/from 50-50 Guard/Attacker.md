@@ -92,7 +92,7 @@ description: "Learn to attack the calf slicer from 50-50 Guard with step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts straightening their trapped leg during your calf slicer setup - what adjustment prevents escape?",
+      "name": "In 50-50, they straighten the leg against your calf slicer — what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight to maintain the calf slicer against a straightening leg. Instead, immediately transition back to the heel hook attack because their straightened leg now exposes the heel they were previously hiding. This creates the core dilemma of the 50-50 calf slicer and heel hook chain: bent knee allows calf slicer, straight leg allows heel hook, and the opponent cannot defend both simultaneously."

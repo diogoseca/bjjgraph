@@ -64,7 +64,7 @@ description: "How to defend against Hip Bump Sweep in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your opponent opens their guard and you see them plant a hand behind their hip - what should your immediate reaction be?",
+      "name": "Your opponent opens guard and posts a hand behind their hip; what is your immediate reaction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the primary recognition cue that a Hip Bump Sweep is being initiated. Your immediate reaction should be to drive your hips backward while simultaneously widening your base and fighting to strip their grip on your wrist or sleeve. Do not wait for the explosive bump before reacting. The posting hand behind their hip means they are committing to the sweep, and you have a narrow window between guard opening and full bump commitment to neutralize the threat through posture recovery."
@@ -72,7 +72,7 @@ description: "How to defend against Hip Bump Sweep in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "How should you defend differently against the Hip Bump when you know the attacker chains it with Kimura and Guillotine?",
+      "name": "How do you defend the hip bump when they chain it with Kimura and guillotine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against an attacker who uses the full chain attack system, avoid predictable single-response defenses. If you always post your hand, they will exploit the Kimura. If you always pull your arm back, they will attack the Guillotine. The optimal defense is preventing the sweep from being initiated through posture maintenance. When the sweep is already in motion, vary between posting (but retracting quickly), sprawling, and grip stripping. The key is unpredictability - never give them the same defensive pattern twice in a row, and always be prepared for the follow-up attack corresponding to your chosen defense."
@@ -80,7 +80,7 @@ description: "How to defend against Hip Bump Sweep in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "What base adjustments should you make when you recognize the Hip Bump Sweep setup is being established?",
+      "name": "What base adjustments do you make when you recognize a hip bump sweep setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your knees beyond shoulder width to increase your base of support against the diagonal sweep force. Shift your weight slightly toward your heels rather than forward onto your knees. Drop your hips slightly to lower your center of gravity. If possible, angle your body so you are not perfectly square to the attacker, reducing the effectiveness of their diagonal bump angle. These adjustments transform your base from a narrow target easily displaced laterally into a wide, stable platform that absorbs the hip bump force."

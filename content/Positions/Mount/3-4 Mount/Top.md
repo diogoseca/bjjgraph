@@ -51,7 +51,7 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke from 3-4 Mount",
-      "text": "From this position, attempt Cross Collar Choke from 3-4 Mount. This technique is attempted in 0% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke from 3-4 Mount. This technique exists in the gi ruleset only; it does not occur in no-gi.",
       "position": 6
     }
   ],

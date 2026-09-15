@@ -64,7 +64,7 @@ description: "How to defend against Hand Control to Extract in BJJ. Maintain gog
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a two-on-one on your primary gripping hand and is peeling your fingers - what is your best immediate response?",
+      "name": "They two-on-one and peel your gogoplata grip — best immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Elevate your hips explosively to tighten the submission while simultaneously using your free hand to push their head deeper into the choke. If the grip is about to be fully broken, transition to triangle by swinging your choking leg over their far shoulder before they can posture. Do not fight the two-on-one with grip strength alone."
@@ -72,7 +72,7 @@ description: "How to defend against Hand Control to Extract in BJJ. Maintain gog
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the gogoplata and transition to triangle rather than fighting to maintain your grip?",
+      "name": "When should you abandon the gogoplata for the triangle instead of fighting for the grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when your primary grip hand has been stripped and the opponent has begun lateral head movement. At this point, re-gripping requires pulling your foot back through defended space, which is low percentage. The triangle is immediately available because their posture is broken and their arms are committed to the hand fight, making the leg-over-shoulder entry high percentage."
@@ -88,7 +88,7 @@ description: "How to defend against Hand Control to Extract in BJJ. Maintain gog
     },
     {
       "@type": "Question",
-      "name": "Your opponent turns their chin toward your shin during the escape - what does this signal and how should you respond?",
+      "name": "They turn their chin toward your shin during the gogoplata — what does it signal and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chin rotation toward the shin creates breathing space by moving the trachea slightly off the direct compression line. This signals a calm, technically aware opponent preparing for methodical escape rather than panicking. Respond by pulling your foot deeper and using your free hand to turn their chin back away from the shin, restoring the direct compression angle before they can establish hand fighting position."

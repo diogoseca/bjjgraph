@@ -56,7 +56,7 @@ description: "How to defend against Standing Escape from Invisible Collar in BJJ
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is preparing a Standing Escape from Invisible Collar?",
+      "name": "What's the earliest cue that they're preparing a standing escape from your invisible collar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the defender establishing two-on-one grip control on your collar-gripping wrist. Before any postural change or weight shift occurs, they must first address the collar grip to make standing safe. When you feel a second hand contact your collar wrist and begin pulling it away from their neck, this is the definitive signal that a standing escape is being prepared. Responding at this stage—by deepening the grip or transitioning attacks—is far more effective than waiting for the standing motion itself."
@@ -72,7 +72,7 @@ description: "How to defend against Standing Escape from Invisible Collar in BJJ
     },
     {
       "@type": "Question",
-      "name": "Your opponent has reached their feet and begins peeling your bottom hook—what is the optimal timing for a mat return?",
+      "name": "They stand and start peeling your bottom hook. When do you time the mat return?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal mat return timing is after they commit their free hand to grabbing your bottom hook instep but before they successfully strip it. At this moment, one of their hands is occupied with hook removal and the other maintains wrist control on your collar hand, meaning they have zero defensive hands available for base. Drive your hips explosively forward while extending your legs to create downward momentum. Hook their far ankle with your top foot to prevent them from stepping out of the collapse."
@@ -80,7 +80,7 @@ description: "How to defend against Standing Escape from Invisible Collar in BJJ
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your collar grip strategy when the defender successfully creates slack through two-on-one wrist fighting?",
+      "name": "They create collar slack with two-on-one wrist fighting. How do you adjust your collar attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If two-on-one wrist fighting has already created significant collar slack, forcing the grip deeper may not be viable. Instead, use the situation tactically—release the collar grip suddenly and shoot for a rear naked choke while both their hands are committed to your collar wrist. The unexpected release creates a window where their defensive hands are misallocated. Alternatively, maintain the shallow collar while transitioning to body triangle, accepting that the choke is temporarily neutralized but preserving positional dominance for future attacks."
@@ -88,7 +88,7 @@ description: "How to defend against Standing Escape from Invisible Collar in BJJ
     },
     {
       "@type": "Question",
-      "name": "What distinguishes a Standing Escape attempt from a lateral hip escape attempt in terms of early recognition and defensive response?",
+      "name": "How do you tell a standing escape from a lateral hip escape early, and how does your defense differ?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key distinction is the direction of weight shift and foot positioning. A lateral hip escape shifts weight sideways with both feet typically remaining on the ground or one knee driving, aiming to create lateral separation. A Standing Escape shifts weight forward onto one posted foot with the knee bent at 90 degrees, creating a vertical launch platform. The chin tuck is more aggressive in standing preparation, and you may feel a momentary pause as they assess grip depth before committing. Defensive response differs because hip escapes require lateral pressure to counter, while standing attempts require forward chest pressure and immediate hook tightening to prevent the vertical drive."

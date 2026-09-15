@@ -242,7 +242,7 @@
         "answer_line": "Whip up to dogfight or top"
       },
       {
-        "question": "Your opponent is sitting back with their weight on their heels while you have lockdown established - should you attempt the whip-up?",
+        "question": "They sit back on their heels while you have lockdown: should you attempt the whip-up?",
         "answer": "No - the whip-up needs the opponent's forward pressure, so against rearward weight you attack Old School or Electric Chair instead. The sweep works by exploiting their forward weight commitment, while those two attacks exploit rearward weight distribution. This forward/backward dilemma is the core of the lockdown offensive system - defending one attack opens the other.",
         "distractors": {
           "plausible": [
@@ -270,7 +270,7 @@
         }
       },
       {
-        "question": "What direction of force does the lockdown extension create, and how does it complement the upper-body drive?",
+        "question": "What force does the lockdown extension create, and how does it complement the upper-body drive?",
         "answer": "The lockdown extension pulls the opponent's trapped leg backward toward your hips while the upper-body drive pushes their torso forward and upward. These opposing forces create a rotational moment that collapses the opponent's base by moving their upper body and lower body in opposite directions simultaneously. The extension breaks their structural integrity so the upper-body whip-up encounters minimal resistance.",
         "answer_line": "Pull leg back, drive torso up",
         "distractors": {
@@ -284,7 +284,7 @@
         }
       },
       {
-        "question": "During the whip-up, your opponent posts their far hand on the mat to prevent being swept - how do you adjust?",
+        "question": "They post their far hand to stop your whip-up: how do you adjust?",
         "answer": "When the opponent posts their hand, they create a wide base that stops the sweep but exposes their back. Use this as an opportunity to circle behind them with your underhook. Drive your head past their shoulder on the underhook side while releasing the lockdown, and insert your near-side hook behind their knee. Their posted hand anchors them in place, making it difficult to turn and face you as you take their back.",
         "answer_line": "Circle to their back, insert hook",
         "distractors": {
@@ -298,7 +298,7 @@
         }
       },
       {
-        "question": "Why is it important to maintain the lockdown throughout the entire whip-up motion rather than releasing it early?",
+        "question": "Why keep the lockdown throughout the whip-up instead of releasing it early?",
         "answer": "Keeping the lockdown both powers the off-balancing extension and stops the opponent from freeing their trapped leg to re-base and pass. Releasing early lets the opponent free the leg, step wide, and re-establish a passing position, which nullifies the sweep entirely. Only release after reaching dogfight or when committing to a back take where you no longer need the leg control.",
         "distractors": {
           "plausible": [
@@ -354,7 +354,7 @@
         }
       },
       {
-        "question": "What body position adjustment is needed before initiating the whip-up if you are lying flat on your back?",
+        "question": "Lying flat in lockdown, what position change is needed before initiating the whip-up?",
         "answer": "You must turn onto your underhook-side hip before initiating the whip-up. Lying flat provides no structural support for the upward drive and makes it a pure sit-up motion against the opponent's weight. Turning to the hip creates an angle where skeletal structure supports the elevation, and the drive becomes diagonal into the opponent rather than straight upward. This hip turn is typically combined with the initial lockdown extension that begins the sweep sequence.",
         "answer_line": "Turn onto underhook-side hip",
         "distractors": {
@@ -368,7 +368,7 @@
         }
       },
       {
-        "question": "Your opponent begins extracting their trapped leg mid-sweep by straightening and pulling backward - what is your immediate response?",
+        "question": "They straighten and pull their trapped leg out mid whip-up: immediate response?",
         "answer": "Abandon re-locking the lockdown and immediately convert your elevation into an underhook half guard sweep or a butterfly hook sweep. If you are at elbow or hand level, switch to the traditional underhook half guard sweep or insert a butterfly hook with your now-free inside leg. Trying to re-lock the lockdown while partially elevated wastes the momentum you have already generated and leaves you in a vulnerable half-committed position.",
         "distractors": {
           "plausible": [
@@ -529,7 +529,7 @@
         }
       },
       {
-        "question": "Why is sitting back on your heels an effective defense against the whip-up but a dangerous position overall?",
+        "question": "Why does sitting on your heels stop the whip-up but still leave you in danger?",
         "answer": "Sitting back removes the forward weight that the whip-up needs to exploit, making the sweep mechanically impossible because there is no momentum to redirect upward. However, sitting back creates the exact conditions needed for the Old School sweep and Electric Chair submission, both of which require the opponent's weight to shift backward. The lockdown system is built on this dilemma, so sitting back only works if you are simultaneously prepared to defend the counter-attacks it opens.",
         "answer_line": "Blocks whip-up, opens Old School",
         "distractors": {
@@ -543,7 +543,7 @@
         }
       },
       {
-        "question": "Your opponent has begun the whip-up and reached their elbow with the underhook secured - what is your best defensive option at this point?",
+        "question": "They reach their elbow in the whip-up with the underhook secured: best defensive option now?",
         "answer": "At this late stage, post your free hand far to the threatened side and sprawl your hips away to create a tripod base that prevents the sweep from completing to full reversal. Accept that you will likely end up in a dogfight scramble rather than preventing the elevation entirely. In dogfight, immediately fight for your own underhook and work to re-establish top control or circle to a dominant angle. Trying to flatten them back down at this point usually fails and wastes energy.",
         "answer_line": "Post hand wide, sprawl to tripod",
         "distractors": {
@@ -571,7 +571,7 @@
         }
       },
       {
-        "question": "What weight distribution pattern best prevents the whip-up while still allowing you to work toward passing?",
+        "question": "What weight distribution prevents the whip-up while still letting you work toward passing?",
         "answer": "Distribute weight forward through your chest and shoulder pressure onto their upper torso for control, but keep your hips relatively low and back with your center of gravity centered over your knees rather than loaded forward past them. Your free leg posts wide at approximately 45 degrees for lateral stability. This creates enough pressure to flatten the bottom player and restrict their hip mobility without committing the forward momentum that the whip-up exploits. Small adjustments allow you to shift between pressure and extraction work.",
         "answer_line": "Chest pressure, hips low and back",
         "distractors": {

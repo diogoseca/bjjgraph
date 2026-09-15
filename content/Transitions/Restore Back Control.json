@@ -229,7 +229,7 @@
         }
       },
       {
-        "question": "Your opponent has cleared your bottom hook but your top hook and seat belt remain—what is your immediate priority?",
+        "question": "They clear your bottom hook but your top hook and seat belt remain—what is your priority?",
         "answer": "Immediately drive your chest deeper into their back to prevent them from sliding their hips to the mat. Then follow their hip movement with your own hips and work to re-insert the bottom hook by curling your leg under their thigh. The bottom hook is priority because it prevents the most common escape completion—the hip slide to mat that allows them to turn into you. Do not sacrifice chest connection to chase the hook.",
         "answer_line": "Drive chest deep, re-insert hook",
         "distractors": {
@@ -285,7 +285,7 @@
         }
       },
       {
-        "question": "What is the optimal timing window for beginning the restoration sequence after the opponent clears a hook?",
+        "question": "What is the optimal timing window to begin restoring back control after a hook is cleared?",
         "answer": "The optimal window is within the first one to two seconds after the hook is cleared, before the opponent can chain their hook clearance into a secondary escape action like turning or scooting hips away. During this brief window, the opponent is still committed to the clearing motion and has not yet redirected their energy toward the next phase of escape. Delaying beyond this window allows them to build momentum in a new escape direction, making restoration exponentially harder. Immediate recognition and response during the clearing motion itself produces the highest restoration success rate.",
         "answer_line": "First 1-2 seconds after clearing",
         "distractors": {
@@ -299,7 +299,7 @@
         }
       },
       {
-        "question": "Your opponent clears your bottom hook and immediately begins turning toward the underhook side—how do you adjust your force direction?",
+        "question": "They clear your bottom hook and turn to the underhook side—where do you direct your force?",
         "answer": "Shift your weight and drive diagonally across their turning direction rather than pulling them back. Use your chest pressure to angle toward the side they are turning away from, cutting off the rotation arc. Simultaneously, your top hook becomes the critical anchor—drive it deeper to create a pivot point that limits their turning radius. Use your overhook arm to cross-face or frame against their jaw to redirect the turn. The goal is to intercept the rotation rather than reverse it, converting their turning energy into an angle that actually facilitates your bottom hook re-insertion from the new position.",
         "answer_line": "Drive diagonal, anchor top hook",
         "distractors": {
@@ -313,7 +313,7 @@
         }
       },
       {
-        "question": "What grip configuration should you prioritize when the seat belt is fully stripped but both hooks remain?",
+        "question": "Your seat belt is stripped but both hooks remain—which grip should you prioritize?",
         "answer": "With both hooks intact but no upper body grip, immediately secure a collar grip (gi) or a chinstrap-style grip under the jaw (no-gi) with your choking-side hand. This grip creates an immediate submission threat that the opponent must address with their hands rather than continuing to work on hook clearance. Your non-choking hand should reach across their body to control the far hip or wrist, preventing them from turning. The combination of hooks plus a new upper body threat often produces a stronger control configuration than the original compromised seat belt because the opponent must now defend a fresh attack while already partially fatigued from their escape effort.",
         "answer_line": "Collar grip or chinstrap now",
         "distractors": {
@@ -327,7 +327,7 @@
         }
       },
       {
-        "question": "How do you integrate body triangle as a restoration tool when standard hook re-insertion is being actively prevented?",
+        "question": "They keep stripping your re-inserted hooks—how do you use a body triangle to restore control?",
         "answer": "When the opponent is successfully stripping or blocking individual hooks, the body triangle offers a fundamentally different control mechanism that bypasses their hook defense. To transition, use your top leg to swing over and across their waist while the bottom leg comes underneath to lock the triangle at the ankle. This requires only one clean leg entry rather than two separate hook insertions, and the interlocked legs are far more difficult to strip than individual hooks. The trade-off is reduced mobility and slightly less ability to adjust angles, but the control stability is significantly higher. Initiate the body triangle transition when you recognize the opponent has developed a reliable pattern of stripping your re-inserted hooks within seconds.",
         "answer_line": "Lock a body triangle instead",
         "distractors": {
@@ -341,7 +341,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand on the mat during the escape attempt—what opportunity does this create for restoration?",
+        "question": "They post a hand on the mat while escaping the back—what opportunity does that create?",
         "answer": "A posted hand means the opponent has removed one arm from their defensive grip fighting, which opens two immediate opportunities. First, the exposed arm can be attacked with a gift wrap by threading your choking arm over their posting arm and securing their wrist against their own body, simultaneously creating a submission entry and restoring upper body control. Second, if the post is near-side, it opens a crucifix entry where you can trap their arm between your legs while maintaining chest contact. In either case, the posting hand represents a commitment of their defensive resource to base rather than escape, creating a window where your hook re-insertion faces less resistance because they have fewer hands available to fight your feet.",
         "answer_line": "Attack the post: gift wrap/crucifix",
         "distractors": {
@@ -470,7 +470,7 @@
         }
       },
       {
-        "question": "What should your immediate priority be when you feel the attacker's chest pressing deeper into your back during your escape?",
+        "question": "Escaping the back, you feel their chest pressing deeper into you—what is your priority?",
         "answer": "Create hip distance immediately. The attacker is prioritizing chest connection because it is their primary anchor for restoration. Drive your hips away from them by scooting forward or bridging to create space. Once chest connection is broken, their hooks and grips become much less effective. Do not stop to fight their grips—address the chest pressure first.",
         "answer_line": "Create hip distance now",
         "distractors": {
@@ -498,7 +498,7 @@
         }
       },
       {
-        "question": "You have cleared both hooks but the attacker still has a strong seat belt grip—what escape sequence should you follow?",
+        "question": "You cleared both hooks but they keep a strong seat belt—what escape sequence follows?",
         "answer": "With both hooks cleared, your legs are free to move but the seat belt maintains upper body connection. First, scoot your hips forward and away to stretch out the chest-to-back connection, making the seat belt the only remaining control point. Then use two-on-one grip fighting on the choking arm to break or weaken the seat belt. As the grip loosens, immediately turn toward the underhook side to face the opponent. The key is creating maximum hip distance before committing to the turn, because the seat belt without hooks lacks the lower body control to follow your rotation effectively.",
         "answer_line": "Stretch space, break seat belt",
         "distractors": {

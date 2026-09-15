@@ -100,7 +100,7 @@ description: "How to execute Elevation Sweep to Mount in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base significantly when you attempt the elevation - what is your response?",
+      "name": "They widen their base as you attempt the Reverse X elevation — what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent widens base, the direct elevation becomes difficult. Immediately transition to the technical Reverse X-Guard Sweep that works with their lateral base extension, or follow their widening movement to establish Single Leg X-Guard. Their wide stance actually creates vulnerability to directional sweeps that exploit the lateral imbalance."

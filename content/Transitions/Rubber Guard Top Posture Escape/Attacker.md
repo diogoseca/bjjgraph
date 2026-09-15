@@ -90,7 +90,7 @@ description: "Execute the Rubber Guard posture escape from top position. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins advancing from Mission Control toward New York position while you are still framing. How do you adjust your escape urgency?",
+      "name": "They advance from Mission Control toward New York while you frame; how do you adjust urgency?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase urgency immediately because the New York position adds omoplata threat and enhanced arm control that makes escape significantly more difficult. Accelerate the frame-and-push sequence on their controlling knee to disrupt the advancement before they can establish the New York grip configuration. If they complete the transition, you must address the new grip before continuing the standard escape protocol."

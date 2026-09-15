@@ -42,6 +42,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from urllib.parse import parse_qs, urlsplit
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DOC = PROJECT_ROOT / "CLAUDE.md"   # section 7 holds the canonical disclosure block
@@ -163,6 +164,16 @@ def check_generated_pages(errors: list[str], canon: str) -> tuple[int, int]:
                               f"link — dead copy, remove it or restore the link")
             continue
         monetised += 1
+        # Repeated recommendations each need their own disclosure. Checking only
+        # the first anchor would miss a missing disclosure halfway down the guide.
+        for section in re.findall(r"<section\b[^>]*>.*?</section>", src, re.S):
+            if 'data-affiliate="true"' not in section:
+                continue
+            first_link = section.find('data-affiliate="true"')
+            disclosure = section.find(canon)
+            if disclosure < 0 or disclosure > first_link or not _no_details_between(section, 0, first_link):
+                errors.append(f"content/Systems/{md.name}: a course section lacks its own "
+                              "canonical, uncollapsed disclosure before the link")
         if d < 0:
             errors.append(f"content/Systems/{md.name}: has a sponsored affiliate link with NO "
                           f"disclosure — this is the compliance failure the gate exists for")
@@ -223,6 +234,13 @@ def check_products(errors: list[str], warnings: list[str], strict_stale: bool) -
             url = str(p.get("affiliate_url") or "")
             if not url.startswith("https://"):
                 errors.append(f"{where}: a live product's affiliate_url must be https: {url!r}")
+            if str(p.get("vendor", "")).lower() == "bjjfanatics":
+                parsed = urlsplit(url)
+                query = parse_qs(parsed.query)
+                if parsed.hostname != "bjjfanatics.com" or not re.fullmatch(r"/products/[a-z0-9-]+", parsed.path):
+                    errors.append(f"{where}: BJJ Fanatics recommendations must link to a specific product")
+                if query.get("rfsn") != ["REPLACE_ME"] or "ref" in query:
+                    errors.append(f"{where}: use rfsn=REPLACE_ME; the build supplies the referral value")
             age = (today - dt.date.fromisoformat(checked)).days
             if age > STALE_DAYS:
                 msg = (f"{where} ({p.get('title')!r}): last verified {checked} ({age} days ago) — "

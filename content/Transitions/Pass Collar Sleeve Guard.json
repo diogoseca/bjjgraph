@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "Your opponent re-grips your collar with their opposite hand just as you strip the sleeve grip - how do you adjust?",
+        "question": "They re-grip your collar with the opposite hand as you strip the sleeve: how do you adjust?",
         "answer": "If they re-grip with the opposite hand, you now have a positional advantage because their arms are crossed, limiting their defensive range. Instead of resetting to break the new grip, immediately drive forward with chest pressure since crossed arms cannot generate the same pulling power or create effective frames. Use the drive-through momentum to flatten them and establish crossface before they can uncross their arms and reorganize their guard structure.",
         "answer_line": "Drive forward - arms are crossed",
         "distractors": {
@@ -372,7 +372,7 @@
         }
       },
       {
-        "question": "The pass attempt is blocked and the opponent begins re-establishing collar sleeve grips - what chain attack do you pursue?",
+        "question": "Your pass is blocked and they rebuild collar sleeve grips: what chain attack do you take?",
         "answer": "Rather than retreating to restart the same pass, immediately transition to a complementary passing technique. If you still have forward position, switch to a knee cut or knee slide that uses the forward momentum you have already generated. If they are re-gripping while you have lateral angle, convert to a toreando or leg drag. The key principle is that a failed direct pass creates openings for lateral passes because the guard player's grip re-establishment focuses their attention on the collar and sleeve rather than leg defense.",
         "answer_line": "Chain into knee cut or leg drag",
         "distractors": {
@@ -504,7 +504,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is about to attempt a direct collar sleeve guard pass?",
+        "question": "What is the earliest cue that they will attempt a direct collar sleeve pass?",
         "answer": "The earliest cue is when the passer brings both hands toward your collar-gripping wrist, establishing two-on-one control. This telegraph indicates they are prioritizing grip elimination over lateral movement, signaling a direct pass attempt rather than a toreando or leg drag. Recognizing this two-on-one setup gives you maximum time to prepare defensive responses, either by strengthening your collar grip or positioning your legs for counter-attacks.",
         "answer_line": "Both hands attack your grip wrist",
         "distractors": {

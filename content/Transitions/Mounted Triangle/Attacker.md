@@ -100,7 +100,7 @@ description: "How to execute Mounted Triangle in BJJ. Attacking perspective with
     },
     {
       "@type": "Question",
-      "name": "The opponent is defending by keeping both elbows tight to their body - how do you create the arm isolation needed?",
+      "name": "They keep both elbows tight to their body — how do you isolate an arm for the mounted triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack with collar chokes or cross-face pressure to force them to use their hands defensively. When they reach up to defend their neck, immediately capture the extended arm. Alternatively, use americana or kimura setups to force arm extension. The key principle is creating dilemmas—threaten something they must defend with their arms, then capitalize on the reaching motion."
@@ -398,7 +398,8 @@ The Mounted Triangle applies significant pressure to the carotid arteries causin
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced triangle variation from mount position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Ryan-Hall-Triangle-System" data-cta="related-system-card" data-system-slug="systems/ryan-hall-triangle-system" data-system-name="Ryan Hall Triangle System" data-member-count="28"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Ryan Hall Triangle System</span><span class="system-card__unlocks-badge">Unlocks 28 techniques</span><span class="system-card__blurb">Advanced triangle variation from mount position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gordon-Ryan-Mount-Control-System" data-cta="related-system-card" data-system-slug="systems/gordon-ryan-mount-control-system" data-system-name="Gordon Ryan Mount Control System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gordon Ryan Mount Control System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Submission-control position reached after sufficient arm isolation from mount.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

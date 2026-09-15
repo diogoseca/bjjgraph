@@ -56,7 +56,7 @@ description: "Learn to defend the Smash Pocket Half in BJJ. Recognition cues, es
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a smash attempt is beginning, and why is early detection critical?",
+      "name": "What is the earliest cue a smash is starting in pocket half, and why detect it early?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the top player dramatically increasing their chest weight onto your torso while simultaneously driving their head toward your jaw on the crossface side. Early detection is critical because the smash is a progressive compression technique - each step makes the next step easier for the attacker and harder for you to counter. If you recognize and respond during the first step, you have multiple effective defensive options. By the third or fourth step, your options are severely limited and escape becomes significantly more difficult."
@@ -80,7 +80,7 @@ description: "Learn to defend the Smash Pocket Half in BJJ. Recognition cues, es
     },
     {
       "@type": "Question",
-      "name": "What defensive option should you choose if your underhook has been partially stripped but you still have hip frame intact?",
+      "name": "Pocket half: underhook partly stripped but hip frame intact. Which defense do you choose?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a partially stripped underhook but intact hip frame, your best option is to immediately transition to Knee Shield Half Guard. Use the remaining pocket space from your hip frame to insert your knee between your bodies and establish a shin frame across the opponent's chest or hip. This transitions you from a compromised pocket position to a defensive guard with strong distance management. Attempting to re-establish the deep underhook against a dominant crossface is typically a losing battle that wastes energy better spent on guard transitions."

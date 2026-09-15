@@ -62,7 +62,7 @@ description: "How to defend against Spider Guard Pass in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "The passer has just broken your right sleeve grip and is reaching to pin your right knee—what should you do immediately?",
+      "name": "The passer broke your right sleeve grip and reaches to pin that knee: what do you do now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You have a critical window before the knee is pinned. Either re-grip the right sleeve by using your right foot to push their right arm back into range while your hand shoots for the cuff, or immediately thread your right leg under and over their right arm to establish lasso guard on that side. The worst option is to do nothing and allow the knee pin, as this gives the passer a stable platform to address your remaining left-side spider hook."
@@ -70,7 +70,7 @@ description: "How to defend against Spider Guard Pass in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why is transitioning to an alternative guard preferable to re-establishing spider guard once both grips are broken?",
+      "name": "With both spider grips broken, why switch guards instead of rebuilding spider guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once both grips are broken, the passer has already advanced past the control range where spider guard is effective. Trying to re-establish spider guard requires getting your feet back on their biceps and re-gripping their sleeves, which is nearly impossible when they are driving forward with pressure and controlling your knees. Transitioning to half guard, closed guard, or seated guard works with the passer's forward momentum rather than against it, giving you a much higher probability of maintaining a guard structure."

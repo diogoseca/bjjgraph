@@ -328,7 +328,7 @@
         }
       },
       {
-        "question": "Your opponent strips your ankle grip while your hook is only partially threaded - what is your immediate response?",
+        "question": "Your DLR ankle grip is stripped with the hook half-threaded: what is your immediate response?",
         "answer": "Immediately retract the hook and reset to open guard rather than trying to maintain a compromised position. A hook without the anchoring ankle grip provides no meaningful control and leaves your leg extended and vulnerable to pinning and passing. Re-establish the ankle grip from open guard and reattempt the entry with proper sequencing.",
         "answer_line": "Retract hook, reset guard",
         "distractors": {
@@ -484,7 +484,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting to establish DLR from open guard?",
+        "question": "What is the earliest cue your opponent is entering De La Riva from open guard?",
         "answer": "The earliest cue is your opponent reaching for your near ankle or pant leg on the hooking side while simultaneously angling their hips to create a perpendicular relationship to your stance. This grip attempt precedes the hook thread and represents the ideal intervention point where a simple grip strip or backstep denies the entire entry sequence.",
         "answer_line": "Reach for ankle + angle hips",
         "distractors": {
@@ -540,7 +540,7 @@
         }
       },
       {
-        "question": "Your opponent has gripped your ankle but has not yet threaded the hook - what is your optimal response?",
+        "question": "They have your ankle but have not threaded the DLR hook: what is your optimal response?",
         "answer": "Immediately strip the ankle grip using a two-on-one break or by circling your foot and pulling your leg back sharply. This is the highest-value intervention point because the ankle grip is the prerequisite for the hook entry. Without it, the opponent cannot anchor their threading attempt. After stripping, immediately advance passing pressure before they re-grip.",
         "answer_line": "Strip ankle grip immediately",
         "distractors": {

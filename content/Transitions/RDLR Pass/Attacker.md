@@ -104,7 +104,7 @@ description: "How to execute the RDLR Pass in BJJ. Complete attacking guide cove
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins elevating their hips and rotating their shoulders toward the mat during your pass attempt—what is happening and how do you respond?",
+      "name": "They elevate hips and rotate shoulders down as you pass RDLR — what is it and your answer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "They are initiating a berimbolo or kiss of the dragon back take entry. Immediately backstep your hooked leg while driving your chest forward and down toward their hips to remove the space they need to complete the inversion. Use your far hip grip to turn their hips away from you, preventing them from completing the rotation underneath. If they have committed deeply, transition to a bodylock and drive them flat."

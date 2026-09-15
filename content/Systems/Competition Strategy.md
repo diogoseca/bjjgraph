@@ -178,6 +178,8 @@ Competitive Brazilian Jiu-Jitsu rewards practitioners who can convert technical 
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill Competition Strategy?
@@ -311,6 +313,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -428,5 +432,7 @@ Competition strategy development requires three-phase drilling methodology: isol
 
 
 </section>
+
+
 
 </main>

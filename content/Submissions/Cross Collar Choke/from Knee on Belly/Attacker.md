@@ -92,7 +92,7 @@ description: "Learn how to attack with the cross collar choke from knee on belly
     },
     {
       "@type": "Question",
-      "name": "What indicates you have achieved sufficient grip depth for an effective blood choke versus a trachea crush?",
+      "name": "From knee on belly, what shows your grip is deep enough for a blood choke, not a trachea crush?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sufficient depth means your knuckles contact the side of the opponent's neck at jaw level through the collar fabric, and the collar wraps around the lateral neck covering the carotid artery. If your knuckles are pressing against the front of the throat or your grip is at chest level, the grip is too shallow and will produce trachea pressure. You should feel the collar fabric making a clean path from your grip around the side of the neck—the collar itself becomes the choking surface, not your fist."
@@ -100,7 +100,7 @@ description: "Learn how to attack with the cross collar choke from knee on belly
     },
     {
       "@type": "Question",
-      "name": "Why must you maintain KOB pressure throughout the grip acquisition sequence rather than dropping to finish position early?",
+      "name": "Why keep knee-on-belly pressure through grip acquisition instead of dropping to finish early?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "KOB pressure serves a dual purpose: it creates diaphragm compression that forces the opponent to use their hands for breathing relief rather than collar defense, and it pins them flat to prevent the hip movement needed for guard recovery. If you drop early with only one grip secured, the opponent regains full mobility and can sit up, bridge, or shrimp to strip the grip and escape. The knee pressure is what makes the collar accessible—removing it prematurely eliminates your primary advantage."
@@ -108,7 +108,7 @@ description: "Learn how to attack with the cross collar choke from knee on belly
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sitting up into you as you insert the second grip—what adjustment prevents them from closing the distance?",
+      "name": "They start sitting up as you insert the second grip from knee on belly—what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your established first collar grip to push their head and shoulders back to the mat by straightening your gripping arm and driving your elbow toward the mat. Simultaneously spike your KOB pressure by driving your hips forward and down. If they succeed in partially sitting up, you can use the collar grip to redirect their momentum back down. Only if they fully close the distance and threaten guard recovery should you abandon the choke and work to re-pass."

@@ -66,7 +66,7 @@ description: "How to defend the weave from outside ashi-garami into the Leg Knot
     },
     {
       "@type": "Question",
-      "name": "What is the worst mistake a defender can make against the weave to the Leg Knot, and what should they do instead?",
+      "name": "Defending the weave to Leg Knot, what is the worst mistake and what should you do instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The worst mistake is going passive and letting the opponent settle, remove slack, and lace the legs together unopposed. Passivity consolidates the knot with inside heel control and collapses your escape options. Instead, stay active from outside ashi: keep the trapped leg kicking or limp-legging to deny slack, frame the over-step with your free leg, and react at the over-step so you can extract early or spin to single leg X before the knot sets."

@@ -78,7 +78,7 @@ description: "Step-by-step guide to finishing the calf slicer from saddle positi
     },
     {
       "@type": "Question",
-      "name": "Your opponent hides their heel after you establish the saddle—how does this create the calf slicer opportunity?",
+      "name": "From saddle, how does your opponent hiding their heel create the calf slicer opportunity?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent rotates their knee inward to hide the heel from heel hook attacks, they bend their knee and create the exact configuration needed for the calf slicer. Their bent leg positions the calf directly over your shin, and their heel-hiding rotation means they cannot straighten the leg without re-exposing the heel. This defensive dilemma is the primary tactical reason the calf slicer pairs so effectively with heel hooks from saddle."
@@ -102,7 +102,7 @@ description: "Step-by-step guide to finishing the calf slicer from saddle positi
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts straightening their trapped leg during the fold—what adjustment prevents escape?",
+      "name": "Saddle calf slicer: they start straightening the trapped leg—what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips forward aggressively into their thigh to counter their extension force. Simultaneously pull their foot harder toward your chest. If they achieve partial extension, you have two options: increase hip drive to re-bend the leg, or abandon the calf slicer and immediately transition to a heel hook attack since their straightening motion re-exposes the heel. Never fight a losing battle against leg extension when the heel hook is available."

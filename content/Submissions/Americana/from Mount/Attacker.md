@@ -70,7 +70,7 @@ description: "How to execute Americana from Mount in BJJ. Attacking perspective 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum time you should take to apply finishing pressure on an americana in training, and why?",
+      "name": "In training, what is the minimum time to apply americana finishing pressure, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should take a minimum of 3-5 seconds to apply finishing pressure on an americana in training. This slow, controlled application allows your training partner time to recognize the danger, assess whether to defend or tap, and signal submission before injury occurs. The shoulder joint is particularly vulnerable to rotator cuff tears, and sudden or jerking movements can cause serious injuries that require months of recovery or even surgery. Training is about learning and improvement, not injuring partners."
@@ -78,7 +78,7 @@ description: "How to execute Americana from Mount in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What are the primary anatomical targets of the americana submission, and what type of pressure creates the finishing mechanism?",
+      "name": "Which anatomical structures does the americana attack, and what pressure finishes it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The americana attacks the shoulder joint complex, finishing through forced external rotation while the shoulder blade is pinned to the mat. Specifically, it targets the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule itself. Rotating the shoulder beyond its natural range while the scapula is trapped creates extreme stress on the rotator cuff tendons and the anterior shoulder capsule. The elbow joint and bicep tendon are also placed under secondary stress during the technique."
@@ -86,7 +86,7 @@ description: "How to execute Americana from Mount in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to pin the opponent's shoulder to the mat before applying rotational pressure, and what happens if you don't?",
+      "name": "Why must you pin their shoulder before rotating in the americana, and what if you don't?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pinning the opponent's shoulder to the mat is critical because it creates a fixed point around which the rotational leverage can work. When the shoulder is properly pinned, the opponent cannot follow their arm as you rotate it, which creates the actual submission pressure on the joint. If you fail to pin the shoulder adequately, the opponent can simply roll their shoulder forward or follow their arm, completely relieving the pressure and escaping the submission. The pin also prevents them from using their body rotation to counter your leverage."
@@ -94,7 +94,7 @@ description: "How to execute Americana from Mount in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "If your opponent straightens their arm completely to defend the americana, what is the highest-percentage follow-up attack?",
+      "name": "If they fully straighten the arm to defend the americana from mount, what is the best follow-up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent straightens their arm completely to defend the americana, the highest-percentage follow-up attack is the mounted armbar. You should maintain your grip on their wrist throughout the transition, swing your leg over their face, and fall back for the armbar while keeping control of the arm. The straight arm defense actually places them in perfect position for this transition. This demonstrates the principle of submission chains - one defensive movement against a submission should expose them to a different attack."
@@ -102,7 +102,7 @@ description: "How to execute Americana from Mount in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What is the proper elbow position relative to the shoulder plane during an americana, and why does this matter?",
+      "name": "Where should their elbow sit relative to the shoulder plane during an americana, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's elbow should be at or below the plane of their shoulder during an americana - never above it. This positioning is crucial because it creates the proper angle for external rotation pressure on the shoulder joint and prevents the opponent from escaping by extending their arm straight. If the elbow rises above shoulder level, the mechanical advantage is lost, and the opponent can more easily defend or escape. Maintaining this relationship requires proper body positioning and weight distribution from the top player."
@@ -110,7 +110,7 @@ description: "How to execute Americana from Mount in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What are all the acceptable ways a training partner can signal a tap when caught in an americana, and why must you know all of them?",
+      "name": "Which tap signals must you recognize during an americana, and why know all of them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Acceptable taps include verbal taps, hand taps on you or the mat, foot taps on the mat, head shakes, and any distress vocalization. In detail: (1) verbal tap - saying 'tap' or making any distress vocalization, (2) physical hand tap on opponent or mat with minimum 2 taps, (3) physical foot tap on the mat, (4) head shake or nodding if hands are trapped, and (5) any unusual vocalization or distress signal. You must recognize all of these because in the americana one or both of the opponent's hands may be trapped or controlled, limiting their tapping options. Missing a tap signal can result in serious injury to your training partner. Always err on the side of caution - if you think they might be tapping or in distress, release immediately and ask."

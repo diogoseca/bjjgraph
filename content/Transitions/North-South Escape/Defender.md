@@ -64,7 +64,7 @@ description: "How to defend against North-South Escape in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully turns to their side and is fighting to insert a knee shield - what is your best response?",
+      "name": "Holding north-south, they turn to their side and fight for a knee shield — best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting to flatten them back into north-south, transition immediately to side control by hip-switching to face them. Their turning motion has already compromised north-south alignment, making side control the higher-percentage dominant position to secure. Drive your crossface shoulder into their jaw as you transition to prevent further turning, and immediately establish underhook control to begin your side control retention sequence."
@@ -80,7 +80,7 @@ description: "How to defend against North-South Escape in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Why is dynamic pressure adjustment more effective than static weight placement against a skilled bottom player?",
+      "name": "Holding north-south, why is dynamic pressure better than static weight on a skilled escaper?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A skilled bottom player uses cumulative micro-movements - small shrimps, incremental frame adjustments, and progressive hip escapes - that each create millimeters of space. Static weight fails to address this because it cannot follow lateral movement. Dynamic adjustment means constantly shifting your pressure angle to close gaps as they appear, matching their movement with counter-movement. This proactive approach prevents space accumulation while static weight allows it to compound over multiple escape cycles."
@@ -88,7 +88,7 @@ description: "How to defend against North-South Escape in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent bridges explosively while you are reaching for a kimura grip - how do you recover control?",
+      "name": "They bridge explosively as you reach for a kimura from north-south — how do you recover control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the kimura attempt and post both hands on the mat to prevent being rolled. Sprawl your hips backward and widen your base to ride out the bridge momentum. As their bridge collapses from gravity and fatigue, immediately drive your chest back into their sternum and re-establish arm control. The lesson is clear: never fully commit to submissions when you sense escape energy building. Use the failed bridge as an opportunity to re-consolidate heavier pressure while they are momentarily exhausted from the explosive effort."

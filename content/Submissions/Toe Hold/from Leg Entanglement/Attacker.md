@@ -70,7 +70,7 @@ description: "Learn to attack with the toe hold from leg entanglement. Step-by-s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the toe hold primarily attack and how does the rotational force create the submission?",
+      "name": "Which structures does the toe hold attack, and how does the rotation create the submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The toe hold primarily attacks the lateral and medial collateral ligaments of the ankle, the midfoot (Lisfranc) joint complex, and the plantar fascia. The figure-four grip creates a lever on the forefoot that generates rotational torque around the ankle's axis. As the toes are twisted inward toward the opponent's midline (medial rotation), the ligaments on the opposite side of the rotation are stretched beyond their elastic limit. Secondary stress transfers through the ankle to the knee via the tibia, which is why knee injuries can also occur from toe holds applied with excessive force or speed."
@@ -78,7 +78,7 @@ description: "Learn to attack with the toe hold from leg entanglement. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to posture up and straighten their captured leg while you have a partial figure-four grip - what adjustment prevents escape?",
+      "name": "They posture up and straighten the captured leg on your partial grip—what prevents escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent straightens their leg, you have two immediate options based on grip depth. If the figure-four is partially established, pull your elbows tighter to your body and drive your hips forward to close the gap their extension created, then complete the grip and finish. If they have created too much distance for the toe hold to remain viable, immediately transition to a kneebar attack by clamping their now-extended leg between your thighs and falling to the opposite side. The extended leg that defeats the toe hold actually improves kneebar mechanics. Never chase a toe hold on a fully straightened leg."
@@ -86,7 +86,7 @@ description: "Learn to attack with the toe hold from leg entanglement. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "What control requirements must be established before committing to the toe hold finish from leg entanglement?",
+      "name": "Which controls must be set before committing to the toe hold from leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before committing to the toe hold, you must have: (1) at least one hook securely behind the opponent's knee maintaining your body below the knee line, (2) hips driven forward with minimal distance to the captured ankle, (3) your entangled legs controlling or restricting the opponent's free leg to prevent counter-rotation and push-off escapes, and (4) clear access to the foot with the forefoot exposed. Attempting the toe hold without these four control elements results in a low-percentage attack that wastes energy and creates escape opportunities for the opponent."
@@ -94,7 +94,7 @@ description: "Learn to attack with the toe hold from leg entanglement. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "At what point during the toe hold application is the opponent past the point of no escape and must tap?",
+      "name": "When is the opponent past the point of no escape and obliged to tap to the toe hold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no escape occurs when three conditions are simultaneously met: the figure-four grip is fully locked with elbows cinched to the ribcage, the hips are flush against the ankle eliminating all space, and the torso rotation has begun generating inward pressure on the ankle ligaments. Once all three are established, the defender cannot strip the grip, cannot create distance, and cannot counter-rotate effectively. The submission becomes a matter of increasing rotational pressure until the tap. Experienced defenders recognize this convergence point and tap before damage occurs rather than attempting to escape once all three elements are locked in."
@@ -102,7 +102,7 @@ description: "Learn to attack with the toe hold from leg entanglement. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "What are the most common finishing errors that cause the toe hold to fail against a resisting opponent?",
+      "name": "Which finishing errors most often make the toe hold fail against a resisting opponent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three most common finishing errors are: (1) generating rotation through arm strength alone instead of full-body torso rotation, which produces insufficient force and rapid fatigue, (2) allowing the hips to drift away from the ankle during the rotation, which gives the opponent space to relieve pressure and extract their foot, and (3) failing to complete the elbow-to-ribcage connection before rotating, which creates a loose lever that the opponent can pry apart. Each of these errors independently reduces finishing percentage, and when combined they make the submission nearly impossible against competent defenders."
@@ -110,7 +110,7 @@ description: "Learn to attack with the toe hold from leg entanglement. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your figure-four grip when the opponent aggressively grip fights and keeps breaking your initial hold?",
+      "name": "Toe hold: they keep stripping your figure-four grip. How do you adjust the grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When standard figure-four grips keep getting stripped, switch to a kimura-style double wrist lock where both hands interlock around the foot with overlapping wrist control. This grip is structurally stronger against prying because breaking it requires separating two interlocking grips simultaneously rather than stripping one hand. Alternatively, re-grip by threading your arm deeper under the foot so your elbow passes the centerline of their sole, making the grip harder to reach and strip. If neither works, use the grip fighting as a setup for heel hook entries since the opponent's hands are occupied stripping your toe hold grip rather than defending their heel."

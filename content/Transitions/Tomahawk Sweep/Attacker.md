@@ -74,7 +74,7 @@ description: "How to execute Tomahawk Sweep in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical difference between a Tomahawk Sweep and a traditional X-Guard elevation sweep?",
+      "name": "Mechanically, how does the Tomahawk Sweep differ from a standard X-Guard elevation sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Tomahawk Sweep uses a diagonal chopping motion of the top hook to create rotational force, unlike the vertical lift of traditional X-Guard sweeps. This angular approach compromises the opponent's base through rotation rather than pure elevation, making it more effective against opponents with strong vertical posture and a wide stance. The scissoring action of both hooks working at opposing angles creates a force that cannot be resisted by a single post."
@@ -90,7 +90,7 @@ description: "How to execute Tomahawk Sweep in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully posts their hand out wide during your Tomahawk Sweep attempt. What adjustments should you make?",
+      "name": "They post a hand wide against your Tomahawk Sweep: what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than forcing the failed sweep, immediately transition to alternative attacks. Switch to single leg X-guard to attack their now-weighted posted-side leg, or use the posted hand as a new leverage point to increase your sweep angle. You can also abandon the sweep entirely and transition to technical standup for a single leg takedown or enter Ashi Garami positions for leg attacks. The key is recognizing the failed attempt early and flowing to the next option rather than burning energy on a blocked sweep."

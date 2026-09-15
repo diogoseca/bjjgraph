@@ -56,7 +56,7 @@ description: "Learn to defend against scramble attempts after stuffing sweeps in
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you recognize your opponent initiating a scramble after their failed sweep?",
+      "name": "Most important defensive action when they scramble after their failed sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your crossface through their jawline to the far side while dropping your hips low and applying forward sprawl pressure. The crossface prevents the underhook that powers the entire scramble entry sequence. Without the underhook, the opponent cannot build a stable base to their knees and their scramble attempt collapses. Timing is critical because the crossface must be established before the opponent turns fully to their side and threads their arm for the underhook."
@@ -64,7 +64,7 @@ description: "Learn to defend against scramble attempts after stuffing sweeps in
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when your opponent begins building up from bottom position?",
+      "name": "How do you distribute your weight as the bottom player starts building up in the scramble?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drop your hips low and drive weight forward through your chest and shoulder into the opponent's upper body, pressing diagonally downward toward the mat rather than straight down. Avoid having your weight centered over your own knees, which creates space underneath for deep half guard entries or underhook access. The goal is to compress the space between the opponent and the mat, making it mechanically impossible for them to build up. Keep your base wide enough to prevent being tipped if they redirect the scramble laterally."
@@ -72,7 +72,7 @@ description: "Learn to defend against scramble attempts after stuffing sweeps in
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established an underhook during the scramble entry - what is your recovery sequence?",
+      "name": "They get an underhook during the scramble entry: what is your recovery sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, immediately overhook the underhooking arm with a deep whizzer to prevent them from driving through to top position. Second, circle your hips away from the underhook side to reduce their leverage and create a less favorable angle for their drive. Third, use the whizzer to pull their elbow above their shoulder, weakening the underhook structurally. Fourth, drive your crossface back through as you strip the underhook. If the underhook is too deep to strip, switch to a front headlock position by circling toward their head side and applying a snap-down."

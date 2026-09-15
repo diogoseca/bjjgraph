@@ -78,7 +78,7 @@ description: "Learn to execute the calf slicer from inside sankaku. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "What defensive posture from your opponent creates the ideal opening for transitioning from heel hook to calf slicer?",
+      "name": "From inside sankaku, which defensive posture opens the switch from heel hook to calf slicer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent straightens their trapped leg to defend the heel hook — either by booting their foot forward, hiding their heel against their hip, or extending their knee to prevent rotation — they create space behind the knee crease that allows shin threading. The very act of neutralizing the rotational heel hook threat opens the linear compression threat of the calf slicer."
@@ -94,7 +94,7 @@ description: "Learn to execute the calf slicer from inside sankaku. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "What is the correct speed of application for the calf slicer in training and what happens if applied too fast?",
+      "name": "How fast should you apply the calf slicer in training, and what happens if you go too fast?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply pressure over a minimum of 5-7 seconds in training, using gradual steady force and never spiking or jerking. The calf slicer produces intense pain very rapidly once the fulcrum is properly positioned, and your partner may not have adequate time to signal a tap if pressure is applied at competition speed. Fast application risks serious calf muscle tears, posterior cruciate ligament sprains, and potential Achilles tendon damage."

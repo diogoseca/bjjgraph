@@ -64,7 +64,7 @@ description: "Defensive guide for surviving and escaping the Gift Wrap from Back
     },
     {
       "@type": "Question",
-      "name": "Why is the attacker's seatbelt release during the threading transition the best moment to attempt escape?",
+      "name": "Why is their seatbelt release during Gift Wrap threading your best moment to escape the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker releases the seatbelt to free the threading arm, their upper body control is at its weakest point during the entire back control sequence. They have transitioned from a connected two-arm control to a single-arm wrist grip plus a free arm that is mid-motion. This momentary gap in upper body control reduces the force they can apply to prevent your hip escape or bridge, creating the widest escape window before the gift wrap re-establishes superior control."
@@ -72,7 +72,7 @@ description: "Defensive guide for surviving and escaping the Gift Wrap from Back
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins threading their arm under your armpit—what is the correct immediate defensive response?",
+      "name": "They thread an arm under your armpit from back control: what is your immediate defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clamp your elbow tight to your ribs and rotate your shoulder inward to close the space under your armpit. This blocks the threading path and prevents the arm from passing through. Simultaneously, begin a hip escape away from the threading side to create distance and reduce the attacker's chest-to-back pressure. If the arm is already partially through, rotate your entire torso toward the attacker to shorten the threading path and prevent the arm from crossing your midline."

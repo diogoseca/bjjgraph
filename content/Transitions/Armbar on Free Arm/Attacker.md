@@ -92,7 +92,7 @@ description: "How to execute Armbar on Free Arm in BJJ. Attacking perspective wi
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand on the mat to create a frame during Gift Wrap - how do you adjust?",
+      "name": "Gift wrap: they post their free hand on the mat as a frame — how do you adjust the armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A posted hand is an ideal opportunity because the arm is extended and bearing weight, making it difficult to retract quickly. Secure wrist control on the posted hand with your non-Gift-Wrap arm, then immediately begin threading your leg over their head. The weight they have committed to the post actually works against them by preventing arm retraction during your transition."

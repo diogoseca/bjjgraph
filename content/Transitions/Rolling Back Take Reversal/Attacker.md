@@ -92,7 +92,7 @@ description: "How to execute Rolling Back Take Reversal in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent squeezes the body triangle extremely tight and you cannot create a hip angle - how do you adjust?",
+      "name": "The body triangle is too tight to make a hip angle — how do you set up the rolling reversal?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A very tight squeeze makes the roll more difficult because you cannot create the necessary hip angle to initiate rotation. Work standard escape techniques first (hip escape, pressure toward the mat, attacking the locked foot) to create some space and reduce pressure before attempting the roll. The technique requires slight hip mobility to execute properly, so address the squeeze before committing."

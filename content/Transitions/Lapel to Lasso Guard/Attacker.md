@@ -108,7 +108,7 @@ description: "How to execute Lapel to Lasso Transition in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your opponent steps over your threading leg before the lasso is established—what immediate counter preserves your guard?",
+      "name": "They step over your threading leg before the lasso is set: what counter preserves your guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition immediately to De La Riva guard using the same leg. Hook their lead leg from the outside while maintaining your sleeve grip. Their step-over motion actually assists the DLR hook entry. This maintains guard continuity and offensive threats despite the failed lasso attempt."

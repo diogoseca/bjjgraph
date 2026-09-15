@@ -100,7 +100,7 @@ description: "How to invert from De La Riva Guard in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent steps the hooked leg back and circles away as you begin to invert. What is the correct response?",
+      "name": "Inverting from De La Riva, they step the hooked leg back and circle away. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the retreating leg by extending your hook and switching to a Reverse De La Riva hook, or, if the angle is lost, abandon the inversion early and recover open guard rather than chasing onto your neck. Re-pummel the hook and re-establish your grip before reattempting. Never keep spinning onto a loaded neck just because the opponent has moved."

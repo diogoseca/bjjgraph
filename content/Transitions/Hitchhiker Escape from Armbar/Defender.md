@@ -66,7 +66,7 @@ description: "Prevent the Hitchhiker Escape from your armbar in BJJ. Learn to re
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially rotated and is now perpendicular to you - what transition should you pursue?",
+      "name": "Your armbar opponent rotates until perpendicular to you: what transition do you take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If they have achieved significant rotation, transition to the belly-down armbar by following their rotation and maintaining your grip. As they turn face-down, keep your hips connected to their shoulder and your legs controlling their upper body. The belly-down position gives you a stronger finishing angle because their face-down orientation eliminates the bridging defense they rely on from supine."

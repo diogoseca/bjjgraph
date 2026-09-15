@@ -68,7 +68,7 @@ description: "How to invert from De La Riva into Grasshopper Guard in BJJ. Attac
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important thing to maintain throughout the inversion from De La Riva to Grasshopper?",
+      "name": "What must you maintain throughout the inversion from De La Riva to Grasshopper guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The De La Riva hook. It is the anchor that keeps you tethered to the opponent's leg as you roll, ensuring you surface from the inversion still connected to their base rather than spinning out into open space where the pass completes. Releasing the hook is the most common reason this transition fails."

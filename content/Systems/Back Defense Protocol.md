@@ -4,7 +4,7 @@
 
 ---
 title: "Back Defense Protocol | BJJ System | BJJ Graph"
-description: "Master back defense in BJJ with systematic escape protocols. Learn hand fighting, hip escapes, and recovery strategies. Complete defensive framework for all skill levels."
+description: "Study back-control escapes through hand fighting, hook management, and guard recovery, with a BJJGraph practice guide to Brian Glick's BJJ Fanatics course."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master back defense in BJJ with systematic escape protocols. Learn
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Back Defense Protocol",
-  "description": "Master back defense in BJJ with systematic escape protocols. Learn hand fighting, hip escapes, and recovery strategies. Complete defensive framework for all skill levels.",
+  "description": "Study back-control escapes through hand fighting, hook management, and guard recovery, with a BJJGraph practice guide to Brian Glick's BJJ Fanatics course.",
   "url": "https://bjjgraph.org/Systems/Back-Defense-Protocol",
   "isPartOf": {
     "@type": "WebSite",
@@ -161,7 +161,9 @@ description: "Master back defense in BJJ with systematic escape protocols. Learn
 
 **The Back Defense Protocol is a systematic defensive framework for escaping back control by prioritizing chin protection and hand fighting first, then using frames, hip escapes, and hook removal to recover guard or a neutral position.**
 
-Back control is widely considered the most dominant position in Brazilian Jiu-Jitsu, handing the attacker the seatbelt grip, two hooks, and direct access to the neck — which is precisely why a structured escape methodology matters more here than almost anywhere else on the mat. This protocol replaces panicked scrambling with a disciplined hierarchy of defensive actions: protect the neck, fight the grips, build frames, hip escape, clear the hooks, and recover guard or standing. Each phase is deliberately sequenced so that survival is never sacrificed for escape speed — the practitioner only advances to the next stage once the previous threat is neutralized. The framework scales from fundamental survival techniques for beginners to advanced re-guard strategies for experienced grapplers, and because it targets the position rather than any single submission, it remains effective against rear naked chokes, collar chokes, body-triangle control, and arm attacks alike. Mastering this protocol builds the calm, methodical mindset needed to work back to safety under sustained pressure.
+Start by identifying what currently prevents your escape: access to your neck, control of your shoulders, or control of your hips. Protecting the neck remains a priority while you improve the other two. Moving your hips without accounting for the attacking hands can turn a positional problem into a submission.
+
+This is an independent BJJGraph practice framework. Brian Glick's Only Way Out: Dynamic Back Escapes is a directly relevant optional instructional: its published syllabus includes defensive hand fighting, escapes to either side, body triangles, and guard recovery. Use the course for technical demonstrations and this page to organize partner practice. Begin with one starting configuration and one recoverable destination; add the attacker's reactions once you can explain why the initial escape works.
 
 </section>
 
@@ -170,15 +172,37 @@ Back control is widely considered the most dominant position in Brazilian Jiu-Ji
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Back Defense Protocol?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 23 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="only-way-out-dynamic-back-escapes-by-brian-glick">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">Only Way Out: Dynamic Back Escapes</h3>
+<p class="product-card__instructor">with Brian Glick</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Grapplers who want detailed work on escaping back control. This is a positional study choice rather than a general escape curriculum.</p>
+<p class="product-card__blurb">A focused match for this guide: the published syllabus connects hand fighting, hook management, body-triangle escapes, and guard recovery.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=back-defense-protocol&utm_term=only-way-out-dynamic-back-escapes-by-brian-glick" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="only-way-out-dynamic-back-escapes-by-brian-glick" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -293,6 +317,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Begin with the rear-mount overview and defensive hand-fighting fundamentals, then choose the overhook-side or underhook-side escape section that matches your starting position.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=back-defense-protocol&utm_term=only-way-out-dynamic-back-escapes-by-brian-glick" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="only-way-out-dynamic-back-escapes-by-brian-glick" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Only Way Out: Dynamic Back Escapes &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -308,36 +343,32 @@ Key points:
 <section id="assessment-metrics" class="content-section">
 
 ## How to Measure Your Progress
-**Survival Time Under Back Control**: Measure how long you can maintain defensive position without getting submitted when starting from established back control during positional sparring
+**Threat recognition**: Review which threat you addressed first in each round.
 Proficiency indicators:
-- Beginner: 30-60 seconds against equal skill opponents
-- Intermediate: 2-3 minutes against equal skill opponents
-- Advanced: Can survive indefinitely while working escapes against equal skill opponents
-- Expert: Can survive and escape against higher belts regularly
+- Identify the choking arm before moving.
+- Notice when an arm becomes trapped.
+- Pause positional progress when neck defense breaks down.
 
 
-**Escape Success Rate**: Track percentage of back control situations where you successfully return to guard or neutral position during live training
+**Upper-body freedom**: Observe whether your escape changes shoulder control.
 Proficiency indicators:
-- Beginner: 20-30% escape rate against equal skill
-- Intermediate: 50-60% escape rate against equal skill
-- Advanced: 70-80% escape rate against equal skill
-- Expert: 60%+ escape rate against higher skill opponents
+- Explain which grip prevents your turn.
+- Keep hand protection during the initial movement.
+- Recognize when the attacker reconnects chest to back.
 
 
-**Technical Efficiency During Escape**: Evaluate whether escapes follow systematic protocol versus random explosive movements. Coach or training partner assessment of technique quality.
+**Hook management**: Track which lower-body control blocks recovery.
 Proficiency indicators:
-- Follows chin protection protocol automatically without thinking
-- Creates frames before attempting hip movement
-- Executes hip escapes in proper sequence
-- Maintains defensive integrity throughout entire escape process
+- Distinguish two hooks from a body triangle.
+- Clear the blocking hook without ignoring the hands.
+- Reset the drill when the starting configuration changes.
 
 
-**Recovery Position Quality**: Assess what position you achieve after escaping back control and how secure that position is
+**Stable recovery**: Record the position reached and whether it can be held.
 Proficiency indicators:
-- Beginner: Reaches turtle or open guard but often gets passed immediately
-- Intermediate: Establishes closed guard or combat base with basic control
-- Advanced: Recovers to closed guard with strong grips and posture control
-- Expert: Can choose recovery position strategically and establish immediate advantage
+- Recover guard with usable frames.
+- Avoid treating a brief turn as a completed escape.
+- Identify the attacker's first reattachment attempt.
 
 
 
@@ -352,12 +383,10 @@ Proficiency indicators:
 Begin with static positional drilling where partner has back control but doesn't actively finish. Practice the full escape sequence slowly, focusing on each phase. Progress to progressive resistance where partner defends your escape attempts but doesn't counter-attack. Finally, add full resistance positional sparring with back control as starting position. Dedicate at least 10 minutes per training session to back escape drilling, rotating partners to experience different body types and control styles. Film your escapes periodically to identify technical breakdowns in your protocol.
 
 ### Progression Path
-**Foundation Phase** (Focus: Master basic chin protection and frame creation. Build comfort being in back control without panicking.) - Weeks 1-4
-**Technical Development Phase** (Focus: Learn complete hip escape sequences. Practice clearing hooks methodically. Develop sensitivity to opponent's weight distribution.) - Weeks 5-12
-**Integration Phase** (Focus: Combine all elements into fluid escape sequences. Begin recognizing which escape variation to use based on opponent's control style.) - Weeks 13-24
-**Refinement Phase** (Focus: Develop high-percentage escapes that work consistently. Learn to defend while simultaneously setting up escapes. Begin countering opponent's adjustments.) - Months 7-12
-**Advanced Application Phase** (Focus: Escape against higher belts regularly. Develop ability to recover to advantageous positions. Integrate re-guard strategies seamlessly.) - Year 2+
-**Mastery Phase** (Focus: Teach others the protocol effectively. Develop personalized variations based on body type. Escape becomes automatic under stress.) - Year 3+
+**Recognize the controls** (Focus: Map the hands, shoulder connection, and leg configuration with a cooperative partner.)
+**Build one route** (Focus: Practice a single escape to guard from a consistent starting configuration.)
+**Add a reaction** (Focus: Let the partner reattach a hook or change hand control so you can identify the next problem.)
+**Integrate resistance** (Focus: Use short positional rounds; progress when the sequence remains controlled, not after a fixed number of weeks.)
 
 
 ### Common Mistakes
@@ -404,5 +433,16 @@ Begin with static positional drilling where partner has back control but doesn't
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>BJJGraph drill: start with a seatbelt and two hooks, agree on light resistance, and score a repetition only after the neck is protected and you have stabilized a guard recovery.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=back-defense-protocol&utm_term=only-way-out-dynamic-back-escapes-by-brian-glick" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="only-way-out-dynamic-back-escapes-by-brian-glick" data-system-slug="systems/back-defense-protocol" data-system-name="Back Defense Protocol" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Only Way Out: Dynamic Back Escapes &rarr;</a></p>
+</section>
+
+
 
 </main>

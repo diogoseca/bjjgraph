@@ -74,7 +74,7 @@ description: "How to defend against Boston Crab in BJJ. Recognition, escape path
     },
     {
       "@type": "Question",
-      "name": "When should you tap to a Boston Crab in training, and why is early tapping especially important for this submission?",
+      "name": "When should you tap to a Boston Crab in training, and why is early tapping critical here?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should tap as soon as you feel legitimate lower back pressure that you cannot reduce through active defensive movement such as knee retraction or rolling. Early tapping is critical because spinal compression submissions have a uniquely narrow margin between discomfort and structural damage compared to joint locks. With an armbar, you feel progressive pain that builds toward a break. With spinal compression, disc herniation can occur without the dramatic pain signal that precedes joint failure. Additionally, the damage may not be immediately apparent - you might feel only moderate discomfort during the submission but develop significant symptoms hours or days later. Training is never worth a spinal injury."
@@ -90,7 +90,7 @@ description: "How to defend against Boston Crab in BJJ. Recognition, escape path
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between Boston Crab setup cues and standard back control attempts from turtle?",
+      "name": "How do you tell a Boston Crab setup from a standard back take attempt from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical distinguishing cue is where the attacker's grips shift. Standard back control attacks target your upper body with seatbelt, harness, or collar control while their legs work to insert hooks. Boston Crab setup involves the attacker releasing or deprioritizing upper body control in favor of grabbing both ankles or lower legs. You will feel their hands moving down your body from shoulders toward your hips and legs. Additionally, the attacker may shift their weight backward rather than forward, which is opposite to the typical back take trajectory. Recognizing this shift in grip targets is the earliest recognition cue and provides the maximum defensive window."

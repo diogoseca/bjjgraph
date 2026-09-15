@@ -56,7 +56,7 @@ description: "How to counter the Elbow Escape to Remove Hooks in BJJ. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating the elbow escape to remove hooks?",
+      "name": "Earliest cue that your opponent is starting the elbow escape to strip your hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent's elbow dropping inside their hip toward your ankle or instep. This precedes the actual hip escape and hook clearance by one to two seconds. Recognizing this elbow wedge positioning gives you a window to respond before they generate the lateral hip movement that actually clears the hook. Secondary cues include subtle hip shifting away from one hook and legs beginning to angle inward."
@@ -64,7 +64,7 @@ description: "How to counter the Elbow Escape to Remove Hooks in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Why is switching to body triangle an effective counter to the elbow escape, and what is the timing window?",
+      "name": "Why does switching to body triangle beat the elbow escape, and what is the timing window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Body triangle eliminates the hook-by-hook removal mechanic entirely because your legs are locked in a single structure that cannot be addressed with elbow wedges. The timing window is before the opponent gains leverage on your first hook—once you feel the elbow wedge establishing contact, you have approximately two to three seconds to transition your hooks into body triangle configuration before they begin the hip escape that clears the hook."
@@ -72,7 +72,7 @@ description: "How to counter the Elbow Escape to Remove Hooks in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent clears your first hook but has not yet secured it with their legs—what is your highest-percentage response?",
+      "name": "They cleared your first hook but have not trapped it yet — highest-percentage response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-insert the cleared hook before they can triangle their legs around it. Drive your foot back inside their thigh while simultaneously increasing forward chest pressure to limit their hip mobility. The window between hook clearance and leg trap is typically less than two seconds, so you must react instantly. If re-insertion fails, consolidate your remaining hook and switch to body triangle with your free leg crossing over to lock the triangle."
@@ -80,7 +80,7 @@ description: "How to counter the Elbow Escape to Remove Hooks in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your submission pressure when you feel the opponent beginning to work on your hooks?",
+      "name": "How should you adjust submission pressure when they start working on your hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase choking pressure or initiate a new submission threat immediately. The opponent's decision to work on hooks means they are either diverting a hand from neck defense or using their elbows, both of which create submission openings. Tighten your collar grip, begin working your choking arm deeper, or shift to an armbar threat on their exposed arm. The goal is to create a dilemma where they cannot address hooks without increasing their submission risk."
@@ -88,7 +88,7 @@ description: "How to counter the Elbow Escape to Remove Hooks in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "What weight distribution adjustment best prevents hook clearance when you detect the escape beginning?",
+      "name": "Which weight distribution best prevents hook clearance once you detect the elbow escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift your weight toward the hook being attacked by angling your hips in that direction and driving your chest pressure down on that side of their back. This makes the threatened hook significantly heavier and harder to clear with the elbow wedge. Simultaneously, curl the heel of your threatened hook deeper toward their far hip to increase the distance the elbow must travel to push it free. Avoid leaning away from the attack, which lightens the hook and makes clearance easier."

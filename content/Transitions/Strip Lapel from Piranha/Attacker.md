@@ -74,7 +74,7 @@ description: "Learn to execute the Strip Lapel from Piranha as the top player. S
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the correct sequence for stripping lapel grips when the bottom player has both hands controlling the material?",
+      "name": "Stripping the Piranha lapel when they grip the material with both hands, what is the correct order?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Break the strongest grip first—typically the hand closest to where the lapel exits through their legs, as this grip anchors the entire threading configuration. Use a two-on-one grip break by controlling their wrist and peeling fingers outward while pushing their forearm away from the material. Only then address the secondary grip, as removing the anchor point weakens the entire control system and makes the second break significantly easier."
@@ -90,7 +90,7 @@ description: "Learn to execute the Strip Lapel from Piranha as the top player. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-grips the lapel immediately after you break their primary grip—how do you adjust your approach?",
+      "name": "They re-grip the lapel right after you break the primary grip: how do you adjust the strip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to a continuous pressure approach rather than sequential grip breaks. Maintain constant downward pressure on their re-gripping hand with your forearm while using your other hand to extract the lapel in a single motion. Alternatively, change levels by dropping your weight into the strip, making it harder for them to re-establish grips while they are bearing your pressure and dealing with the mechanical disadvantage."

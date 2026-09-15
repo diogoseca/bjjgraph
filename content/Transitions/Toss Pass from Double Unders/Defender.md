@@ -56,7 +56,7 @@ description: "Defend the Toss Pass from Double Unders in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate a toss pass is being attempted rather than a standard stack pass?",
+      "name": "What early cues show a toss pass rather than a standard stack pass is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key differentiators are a shift in the opponent's grip behind your back toward one side, a change in their head position toward the opposite side of the intended toss, and a momentary lightening of pure downward pressure as they prepare to redirect laterally. If you feel the pressure change from purely vertical to slightly angled, the toss is likely imminent. The opponent's feet may also reposition to allow hip rotation."
@@ -64,7 +64,7 @@ description: "Defend the Toss Pass from Double Unders in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun the toss motion and your legs are being redirected to the left - what is your best immediate defensive response?",
+      "name": "They start the toss and your legs are swept to the left — best immediate defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As your legs are being swept left, immediately fight to insert your right knee across their body to establish a knee shield or hook their left leg for half guard. Simultaneously, your left hand should frame against their right shoulder or hip to create space on the landing side. Do not try to resist the toss direction - use the momentum to turn your hips and begin guard recovery on the side where they will attempt to establish side control."
@@ -72,7 +72,7 @@ description: "Defend the Toss Pass from Double Unders in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive frame orientation when you suspect the opponent may attempt a toss pass?",
+      "name": "How should you orient your frames when you suspect a toss pass from double unders?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift from bilateral vertical frames to diagonal frames that can resist lateral force from either direction. Instead of both hands pushing against their shoulders, position one forearm across their neck and the other on their hip, creating a diagonal frame structure that resists force from multiple directions. This diagonal orientation means that whether they continue stacking vertically or redirect laterally, at least one of your frames maintains structural integrity."

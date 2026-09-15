@@ -84,7 +84,7 @@ description: "How to execute Position reversal sweep to top in BJJ. Attacking pe
     },
     {
       "@type": "Question",
-      "name": "Your opponent drops their hips and widens their base when you attempt elevation—what adjustment should you make?",
+      "name": "Bottom 50-50: they drop their hips and widen their base against your elevation. What adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When opponent drops hips low, the reversal sweep becomes low percentage. Switch strategies to either leg extraction escape to standing or transition to Single Leg X-Guard by using their low base against them. Their heavy hips position actually facilitates Single Leg X entry because their weight is committed downward."

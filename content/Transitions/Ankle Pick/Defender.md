@@ -56,7 +56,7 @@ description: "How to defend against the Ankle Pick takedown in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that an ankle pick attempt is developing, and what should your immediate response be?",
+      "name": "What is the earliest cue an ankle pick is coming, and what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when your opponent establishes a firm collar tie and begins circling laterally to create a 45-degree angle while pulling your head down and forward. Your immediate response should be to fight the collar tie with a two-on-one grip break or establish your own dominant collar tie. Simultaneously, lighten your lead foot and begin circling in the opposite direction to deny the angle. Addressing the collar tie at this stage prevents the entire attack chain from developing and is far more energy-efficient than reacting to the level change later."
@@ -64,7 +64,7 @@ description: "How to defend against the Ankle Pick takedown in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why is pulling guard a better defensive option than sprawling once the attacker has secured a heel cup grip on your ankle?",
+      "name": "Once they cup your heel for the ankle pick, why pull guard instead of sprawling?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the heel cup is locked, sprawling actually assists the attacker because it drives your hips backward, adding to the rotational force they are creating with their ankle pull and upper body drive. The sprawl works against you mechanically at this stage. Pulling guard converts their takedown momentum into your guard game, allowing you to establish closed guard or another guard position where you have offensive options. The guard pull gives you control over the descent and prevents the worst-case scenario of being driven flat to the mat into bottom side control without guard recovery."
@@ -72,7 +72,7 @@ description: "How to defend against the Ankle Pick takedown in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "How does your weight distribution need to change when you recognize your opponent has established the 45-degree angle for an ankle pick?",
+      "name": "How should your weight shift once your opponent gets the 45-degree ankle pick angle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you recognize the angle has been established, immediately shift more weight to your rear foot and lighten your lead foot so it can be retracted quickly. Your lead foot should maintain mat contact but carry minimal weight, almost like a probe rather than a load-bearing post. This dynamic distribution means that even if the attacker reaches your ankle, there is minimal weight commitment that they can exploit for rotational collapse. Combine this weight shift with lateral circling away from their angle to further disrupt their attack timing."
@@ -80,7 +80,7 @@ description: "How to defend against the Ankle Pick takedown in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent drops for the ankle pick and their head ends up inside your body line between your hips. What counter opportunity does this create?",
+      "name": "They drop for the ankle pick with their head inside your hips. What counter opens up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker's head ends up inside your body line, this is a critical positional error on their part that opens a guillotine counter. Immediately secure an arm-in guillotine or chin strap grip around their neck with your near arm, then close your guard or pull guard to lock the submission. Their level change has brought their neck directly into your attacking range and their forward momentum makes it difficult for them to retract. This is the highest-risk scenario for the attacker and the reason proper ankle pick technique demands that the head stay on the outside of the defender's body."
@@ -88,7 +88,7 @@ description: "How to defend against the Ankle Pick takedown in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between defending an ankle pick in the setup phase versus the execution phase?",
+      "name": "How does ankle pick defense differ between the setup phase and the execution phase?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In the setup phase, before the level change, your defense focuses on prevention: break the collar tie, deny the angle through circular footwork, and keep your lead foot light and mobile. These are low-energy, high-percentage defensive actions that stop the attack before it begins. In the execution phase, after the level change has started, your defense shifts to reaction: sprawl if the heel cup has not been secured, or pull guard if it has. The execution phase requires explosive movement and split-second decision-making about whether to sprawl or sit. Confusing these phases leads to the most common defensive errors like sprawling after the grip is locked or trying to grip-fight when you should be reacting explosively to a committed level change."

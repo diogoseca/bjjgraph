@@ -74,7 +74,7 @@ description: "Complete guide to executing the Bodylock Pass from Seated Guard. S
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal grip placement for the body lock, and why does this location provide maximum control?",
+      "name": "Where do you clasp the body lock from seated guard, and why does that spot control best?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal grip placement is at the lower rib to waist level where the opponent's torso is narrowest. This provides maximum mechanical advantage because your arms have the shortest circumference to control, creating the tightest possible squeeze. Placing the lock too high allows it to slide off during bridging, while placing it too low gives insufficient control over the opponent's upper body and posture."
@@ -82,7 +82,7 @@ description: "Complete guide to executing the Bodylock Pass from Seated Guard. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts both hands behind them for base as you approach - how do you exploit this positioning?",
+      "name": "They post both hands behind them in seated guard: how do you exploit it for the bodylock pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When both hands are posted behind the opponent, their arms cannot frame against your incoming level change. This is the ideal timing window because they must choose between maintaining their base and defending the lock. Execute an explosive level change and shoot directly for the body lock, driving your head into their chest before they can bring their hands forward to create any defensive frame structure."
@@ -98,7 +98,7 @@ description: "Complete guide to executing the Bodylock Pass from Seated Guard. S
     },
     {
       "@type": "Question",
-      "name": "The opponent inserts a butterfly hook just as you establish the lock - what is your immediate response?",
+      "name": "They insert a butterfly hook as your bodylock sets: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pinch your knees together to neutralize the hook's lifting power while driving your weight forward and downward. Do not try to remove the hook with your hands, as this would compromise the body lock. Instead, use your forward drive to flatten the opponent despite the hook, removing its leverage angle. As they go flat, the hook loses its mechanical effectiveness and you can complete the pass through continuous pressure."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the Bodylock Pass from Seated Guard. S
     },
     {
       "@type": "Question",
-      "name": "What happens if you release the bodylock before fully clearing the opponent's legs, and how do you confirm it is safe to release?",
+      "name": "When is it safe to release the bodylock, and what happens if you let go too early?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Releasing early allows the opponent to immediately reinsert their legs for half guard or full guard recovery, completely negating the pass. The bodylock should be maintained until your hips have cleared past the opponent's thigh line and you feel no leg contact between your hips and their guard structure. The safe release point is when you can establish crossface pressure and your hips are positioned on the far side of their body with no leg obstruction remaining."

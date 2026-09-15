@@ -72,7 +72,7 @@ description: "How to defend against Rotate to Carni in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "What defensive position should you prioritize if you recognize the rotation too late to prevent Carni?",
+      "name": "You recognize the rotation to Carni too late to stop it; what should you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If Carni is already being established, prioritize protecting your shoulder by keeping your trapped arm's elbow tight to your body and turning your shoulder inward to reduce the omoplata angle. Begin working to extract your arm using a hitchhiker-style escape before the bottom player secures wrist control. Accept the positional loss and focus on preventing the submission rather than trying to reverse a position that is already established."

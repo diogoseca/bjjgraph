@@ -98,7 +98,7 @@ description: "Learn to execute the Reguard from Pocket Half Guard as the bottom 
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives a knee slice the moment you create space with your hip escape—how do you respond?",
+      "name": "From pocket half guard, they knee slice the instant your hip escape makes space—what now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize the knee shield insertion above all other steps. Drive your knee directly across the opponent's slicing path to block their knee from crossing your thigh line. The knee shield is the single most important defensive element in the reguard—it stops the pass and simultaneously establishes the structural foundation of the recovered standard half guard. If the knee slice is already past your hip, abandon the reguard and focus on quarter guard recovery or closed guard retention instead."
@@ -114,7 +114,7 @@ description: "Learn to execute the Reguard from Pocket Half Guard as the bottom 
     },
     {
       "@type": "Question",
-      "name": "Why is the half guard leg entanglement the most critical element to maintain throughout the transition?",
+      "name": "Why is keeping the half guard leg entanglement critical throughout the pocket half reguard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg entanglement is the structural foundation that makes both pocket half guard and standard half guard exist. If the entanglement is lost during the transition between the two guard configurations, there is no guard to recover to—the opponent simply extracts their leg and completes the pass while you are between positions with neither established. The bottom leg must maintain its trapping role throughout regardless of what the top leg and upper body are doing during the reguard."

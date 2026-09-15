@@ -56,7 +56,7 @@ description: "How to defend against Guard Pull in BJJ. Recognition cues, defensi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when you recognize your opponent is about to pull guard?",
+      "name": "What is the single most important action when you see them about to pull guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Breaking their primary grip connection before they commit to sitting is the highest-priority defensive action. Without grips, the guard pull becomes a simple sit-down that leaves the puller in a disadvantaged seated position with no guard structure or posture control. Target the collar grip first as it provides the most pulling power, using a two-on-one strip or circular break. If you can deny the grip connection, every other aspect of the guard pull fails regardless of the puller's timing or technique."
@@ -64,7 +64,7 @@ description: "How to defend against Guard Pull in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already sat and is closing their guard around your waist - what prevents them from locking their ankles?",
+      "name": "They've sat and are closing guard around your waist — how do you stop the ankle lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your base by stepping one knee outward and driving your hip forward on the same side. This creates a wider circumference that makes it difficult for them to close their ankles behind your back. Simultaneously post one hand on their hip to create distance between your torso and their legs. If their ankles are nearly locked, use your hand to push down on one of their thighs while hip-switching to the same side. The key is reacting before the lock is complete, as once ankles are crossed the closed guard is established and you must begin a full guard opening sequence."
@@ -80,7 +80,7 @@ description: "How to defend against Guard Pull in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "In competition, your opponent pulls guard and you are now standing over them in open guard - what is your tactical priority?",
+      "name": "They pulled guard and you're standing in their open guard — what is your tactical priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate tactical priority is establishing grips on their legs or pants while maintaining upright posture, then beginning a systematic passing approach before they can establish their preferred guard hooks and grips. Control their knee line by gripping both pants at the knees and pushing them to one side. Do not rush forward into their guard structure, which feeds their game. Instead, use methodical footwork and grip fighting to deny their guard hooks while working toward a passing angle. In IBJJF rules, you also have the advantage of potential advantages for guard pass attempts, so a controlled passing approach generates scoring pressure."

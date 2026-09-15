@@ -56,7 +56,7 @@ description: "Prevent posture recovery against your triangle choke in BJJ. Maint
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three interconnected defensive mechanisms for preventing posture recovery, and why must they work together?",
+      "name": "Holding a triangle, what three mechanisms stop posture recovery, and why must they work together?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three mechanisms are: active head control pulling the head down, hip extension maintaining choking pressure, and angle preservation at 30-45 degrees off the opponent's centerline. They must work together because each individually is insufficient against a technically correct posture-up. Head control alone is overpowered by posterior chain hip drive. Hip extension without proper angle is geometrically weak. Angle without head control allows posture space. Together they create compounding resistance that exceeds the sum of individual parts."
@@ -64,7 +64,7 @@ description: "Prevent posture recovery against your triangle choke in BJJ. Maint
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent posting their free hand firmly on your hip and beginning to walk their knees forward - what is the earliest defensive response?",
+      "name": "In your triangle, they post on your hip and walk their knees forward: earliest response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest response is to pull down aggressively on their head with both hands while simultaneously extending your hips and squeezing your knees together. This pre-emptive defensive engagement addresses the posture attempt before meaningful upward force is generated. Additionally, use your free leg or hip movement to disrupt their knee-walking by shifting your angle, making it harder for them to establish stable base underneath their center of gravity."
@@ -72,7 +72,7 @@ description: "Prevent posture recovery against your triangle choke in BJJ. Maint
     },
     {
       "@type": "Question",
-      "name": "Your opponent has gained partial posture despite your defensive efforts - should you continue fighting for triangle or transition to armbar?",
+      "name": "They gain partial posture in your triangle: keep the triangle or switch to armbar, and how decide?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Evaluate whether your triangle structure retains two or more of these elements: hip elevation capability, intact figure-four lock with active pressure, and perpendicular angle producing visible distress in the opponent. If two or more elements are lost, the triangle is definitively compromised and you should transition to armbar on the trapped arm before the extraction window closes. The armbar transition is most effective when the opponent's elbow has separated from their ribs during posture recovery, creating the isolation angle you need."
@@ -80,7 +80,7 @@ description: "Prevent posture recovery against your triangle choke in BJJ. Maint
     },
     {
       "@type": "Question",
-      "name": "How does understanding that the opponent's posture recovery is hip-driven inform your defensive strategy?",
+      "name": "How does knowing their triangle posture-up is hip-driven shape your defense of the triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Knowing the posture is hip-driven means your defense must address their hip movement and base positioning rather than just fighting the head position. If they used neck muscles alone, simple head pulling would suffice. Against hip drive, you must prevent their hips from moving forward and upward. Use your triangle lock to restrict their hip mobility, extend your own hips to create opposing force, squeeze your knees to compress their shoulder structure, and disrupt their base by not allowing stable knee positioning underneath their center of gravity."
@@ -88,7 +88,7 @@ description: "Prevent posture recovery against your triangle choke in BJJ. Maint
     },
     {
       "@type": "Question",
-      "name": "Your opponent is incrementally gaining posture through repeated controlled extensions rather than explosive attempts - how do you disrupt this systematic approach?",
+      "name": "In your triangle, they posture incrementally instead of explosively. How do you disrupt that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Counter their incremental approach by varying your defensive timing and intensity to prevent them from finding a sustainable rhythm. Alternate between pulling their head down forcefully and releasing slightly to bait an overcommitment to upward drive that opens sweep or armbar opportunities. Adjust your angle unpredictably to force them to constantly recalibrate their squaring effort. The goal is converting their systematic sequence into a reactive scramble where they cannot execute the controlled incremental approach that makes hip-driven posture recovery effective."

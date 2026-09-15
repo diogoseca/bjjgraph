@@ -58,7 +58,7 @@ description: "How to defend against Triangle from Spider Guard in BJJ. Recogniti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical defensive window for preventing the triangle from spider guard, and what specific actions should you take during this window?",
+      "name": "What is the key window to stop a spider guard triangle, and what do you do in it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical defensive window is during the arm isolation and hip pivot phase—after opponent begins pushing your arm across their centerline but before their leg crosses your neck. During this window, immediately strip the sleeve grip controlling your arm using a two-on-one grip break, drive your hips back to restore posture, and retract the arm being isolated back to your centerline. If you can deny the arm isolation, the triangle entry cannot proceed. This is far easier than escaping a locked triangle."
@@ -66,7 +66,7 @@ description: "How to defend against Triangle from Spider Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Why should you never stand up explosively when caught in a triangle during training, and what should you do instead?",
+      "name": "Why never stand up explosively when caught in a triangle in training, and what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standing up explosively when caught in a triangle creates serious slam risk for your training partner, potentially causing spinal cord injury, concussion, or neck damage if you lose balance or deliberately slam. This is one of the most dangerous scenarios in training. Instead, stay calm and work a systematic escape: first address the angle by walking your body back to square alignment with the attacker, then work posture recovery by driving hips back and looking up, and finally attempt arm extraction once the angle and posture are addressed. Controlled standing can be part of the escape but must never be panicked or explosive."
@@ -74,7 +74,7 @@ description: "How to defend against Triangle from Spider Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "When caught in a fully locked triangle with proper angle, what is the correct sequence of defensive priorities to escape?",
+      "name": "Caught in a fully locked, angled triangle, what is the correct order of defensive priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct defensive sequence is: (1) Protect your neck by tucking your chin and preventing the arm from being pulled across your body—keep the trapped arm straight and posted on their hip. (2) Address the angle by walking your knees and hips back to square your body with the attacker, which reduces the diagonal compression on your carotid arteries. (3) Recover posture by driving your hips back and looking upward, creating distance between your head and their hips. (4) Extract the trapped arm by straightening it toward their hip once the angle is neutralized. (5) Break the triangle open by controlling their top leg and pushing it over your head. This sequence must be followed in order—skipping steps wastes energy and rarely succeeds."
@@ -82,7 +82,7 @@ description: "How to defend against Triangle from Spider Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "How do you recognize that a triangle attempt is coming from spider guard before the leg is thrown over your neck?",
+      "name": "From spider guard, how do you spot a triangle coming before the leg crosses your neck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key recognition cues include: opponent releases one foot from your bicep while maintaining the other foot and sleeve grip (indicating they're freeing the leg for the throw), their hips begin pivoting to one side creating angle (the fundamental setup motion), one of your arms is being pulled across their centerline via sleeve grip (arm isolation for the one-in-one-out configuration), and your posture starts breaking forward as they combine foot pressure with grip pulls. Recognizing any of these cues should trigger immediate defensive action: strip the sleeve grip, recover posture, and retract the isolated arm before the leg crosses your neck."
@@ -90,7 +90,7 @@ description: "How to defend against Triangle from Spider Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What is the danger of bending your trapped arm when caught in a triangle, and what is the correct arm position for defense?",
+      "name": "Why is bending the trapped arm in a triangle dangerous, and what arm position is correct?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bending the trapped arm while inside the triangle creates a devastating self-inflicted choke—your own bent forearm and shoulder compress against your carotid artery, providing the second compression point the attacker needs without them even pulling your arm across. This is the most common reason triangles finish quickly against beginners. The correct defensive position is to keep the trapped arm completely straight, driving the palm or fist into the opponent's hip bone as a structural frame. A straight arm cannot be compressed against your own neck and creates distance that reduces overall triangle tightness. Maintain this straight-arm frame while working the angle correction and posture recovery."

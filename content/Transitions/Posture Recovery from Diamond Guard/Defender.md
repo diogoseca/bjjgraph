@@ -64,7 +64,7 @@ description: "Defend against posture recovery from diamond guard in BJJ. Learn t
     },
     {
       "@type": "Question",
-      "name": "When should you convert from diamond guard to a triangle attempt during the opponent's posture recovery?",
+      "name": "From diamond guard, when should you convert to a triangle during their posture recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Convert to a triangle when the top player has successfully begun circling their head past your head control and their chin is rotating toward the overhook side. At this moment their head is in a predictable arc, their posture is partially recovering, and their neck is exposed on the non-overhook side. Release head control and swing your leg from the overhook side over their neck while they are mid-circle. Their own head movement carries them into the triangle path. Converting too early (before they commit to the circle) wastes the diamond position."
@@ -80,7 +80,7 @@ description: "Defend against posture recovery from diamond guard in BJJ. Learn t
     },
     {
       "@type": "Question",
-      "name": "Why does the diamond guard create an energy advantage for the bottom player and how do you exploit this?",
+      "name": "Why does diamond guard give the bottom player an energy advantage, and how do you exploit it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The diamond frame uses structural alignment and skeletal connection rather than muscular effort, so maintaining it costs minimal energy. The top player must actively fight two converging control points using significant muscular effort against a closed geometric structure. Exploit this by being patient and cycling through low-energy submission threats that force continued defensive responses. Each recovery attempt drains the top player's resources while your energy expenditure stays low. After 2-3 failed recovery attempts, the top player's grip fighting becomes weaker and submissions become higher percentage."

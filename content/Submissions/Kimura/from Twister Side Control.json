@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "What makes the roll-through defense ineffective against the Kimura from Twister Side Control compared to traditional side control?",
+        "question": "Why does the roll-through defense fail against a Kimura from twister side control?",
         "answer": "The leg entanglement characteristic of Twister Side Control restricts the bottom player's hip rotation, which is the foundation of the roll-through defense. In traditional side control, the defender can bridge and roll over the Kimura-side shoulder to relieve pressure and potentially reverse. From Twister Side Control, the leg hook pins the near hip and prevents the coordinated hip movement needed to execute this escape. This mechanical restriction is the primary advantage of attacking the Kimura from this position.",
         "safety_critical": false,
         "answer_line": "Leg hook blocks hip rotation",
@@ -331,7 +331,7 @@
         }
       },
       {
-        "question": "Your opponent grabs their own shorts to prevent arm rotation during the Kimura finish - what are your options?",
+        "question": "They grab their own shorts against your Kimura from twister side control. What are your options?",
         "answer": "You have several options when the defender grips their shorts or leg. First, attempt to pry their grip open one finger at a time while maintaining figure-four pressure. Second, use a pulsing motion with your figure-four to fatigue their grip over time. Third, transition to a straight armbar by extending their arm and swinging your leg over their head while keeping wrist control. Fourth, maintain the Kimura position and threaten other submissions to force them to release the grip defensively. The leg entanglement keeps them pinned during any of these transitions.",
         "safety_critical": false,
         "answer_line": "Pry grip, pulse, or switch armbar",
@@ -361,7 +361,7 @@
         }
       },
       {
-        "question": "How should you coordinate wrist rotation and elbow lift when finishing the Kimura from this position?",
+        "question": "Finishing this Kimura, how do you coordinate wrist rotation with elbow lift?",
         "answer": "The wrist and elbow must move simultaneously as a coordinated pair. Rotate the wrist toward the defender's lower back using your gripping hand while lifting the elbow away from the mat using your forearm as a lever within the figure-four structure. Pure wrist rotation without elbow lift creates insufficient shoulder torque, while pure elbow lift without wrist rotation creates a crank rather than a proper Kimura. The combined vector produces the diagonal force line that attacks the shoulder joint at its weakest angle.",
         "safety_critical": false,
         "answer_line": "Rotate wrist, lift elbow together",
@@ -376,7 +376,7 @@
         }
       },
       {
-        "question": "What are the key safety considerations when applying the Kimura from Twister Side Control in training?",
+        "question": "What are the key safety considerations for drilling the Kimura from twister side control?",
         "answer": "Apply rotation slowly over 3-5 seconds minimum, never jerking or spiking. The lateral angle from Twister Side Control generates significant torque with minimal effort, making sudden application particularly dangerous. Ensure your partner has at least one free hand or foot available to tap. Listen for verbal taps or distress sounds, as the bottom position may restrict physical tapping. Release immediately upon any tap signal by stopping rotation first, then returning the arm to neutral, then releasing the grip. Never test a partner's pain tolerance after they tap.",
         "safety_critical": true,
         "answer_line": "Rotate slowly over 3-5 seconds",
@@ -391,7 +391,7 @@
         }
       },
       {
-        "question": "How do you properly release the Kimura after your training partner taps to prevent post-submission injury?",
+        "question": "After the tap, how do you release the Kimura to avoid post-submission injury?",
         "answer": "Release follows a specific sequence: first, immediately stop all rotational pressure the instant the tap is detected. Second, slowly return the arm toward its neutral position by externally rotating the wrist back toward the starting point. Third, release the figure-four grip completely. Fourth, allow your partner to self-assess their shoulder mobility before continuing training. Never release the arm suddenly or allow it to spring back, as the sudden position change can cause additional strain on already-stressed structures. Maintain body position until you are certain the arm has been returned safely.",
         "safety_critical": true,
         "answer_line": "Stop, return arm, then release",
@@ -406,7 +406,7 @@
         }
       },
       {
-        "question": "In competition, how does the Kimura from Twister Side Control fit into a broader submission strategy?",
+        "question": "In competition, how does the Kimura from twister side control fit a broader submission strategy?",
         "answer": "The Kimura functions as one prong of a three-threat system from Twister Side Control alongside the twister and darce choke. In competition, you establish the position and begin threatening the twister first, as this forces defensive arm extension. When the defender frames to prevent spinal rotation, the Kimura becomes available on the extended near arm. If they retract arms to defend the Kimura, the twister threat returns. Competitors who understand this dynamic cycle between threats based on defensive reactions, making each individual submission more effective because the defense for one opens another.",
         "safety_critical": false,
         "answer_line": "Cycle twister, kimura, darce",
@@ -575,7 +575,7 @@
         }
       },
       {
-        "question": "What defensive options are available against the Kimura from Twister Side Control at different stages?",
+        "question": "Defending the Kimura from twister side control, what options exist at each stage of the attack?",
         "answer": "Defense is stage-dependent. Before the grip: keep elbows tight and deny wrist access. During grip transition: fight the wrist grip immediately and exploit the attacker's reduced shoulder pressure to hip escape. With figure-four partially set: straighten the arm to break the angle or retract the elbow forcefully. With figure-four locked: grab your own shorts or thigh as a temporary anchor to stall rotation. During rotation: tap before injury occurs. The earlier you engage defensive action, the higher your success probability.",
         "safety_critical": false,
         "answer_line": "Stage-based: deny, retract, anchor",

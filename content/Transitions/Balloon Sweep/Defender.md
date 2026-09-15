@@ -72,7 +72,7 @@ description: "How to defend against the Balloon Sweep in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent opens their guard and you feel a butterfly hook being inserted under your thigh. What is the correct defensive sequence?",
+      "name": "You feel a butterfly hook under your thigh as their guard opens: what is the correct defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your base by stepping your far knee out wide. Strip or fight the collar grip with your free hand using a two-on-one break. Push your hips backward to remove weight from the hook and restore upright posture. Control their legs or hips to prevent them from completing the angle shift. If the hook is already deep, stand up in base rather than trying to remove it from a kneeling position, as standing eliminates the mechanical advantage the hook provides."

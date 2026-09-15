@@ -3,18 +3,19 @@
   "products": [
     {
       "id": "marcelo-garcia-x-guard-formula",
-      "title": "The X-Guard Formula",
+      "title": "The Marcelo X Guard",
       "instructor": "Marcelo Garcia",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/the-x-guard-formula-by-marcelo-garcia?ref=REPLACE_ME",
-      "link_status": "dead",
-      "link_checked": "2026-08-09",
-      "image": "https://placehold.co/640x360/1e293b/ffffff?text=The+X-Guard+Formula",
-      "blurb": "The X-Guard from its creator — entries, sweeps, and back takes that work against bigger, stronger opponents.",
-      "price_usd": 87
+      "affiliate_url": "https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Connects butterfly and shin-to-shin entries with X-guard balance control and sweeping options.",
+      "best_for": "Guard players who want to move underneath a standing opponent and finish on top.",
+      "study_focus": "Begin with an entry you already use, then compare the stand-up, tilt and push-back sweep options.",
+      "practice_tip": "Practise one entry and ask your partner to shift their weight. Choose the sweep direction from their balance rather than forcing a preset finish."
     }
   ],
-  "description": "Master Marcelo Garcia's X-Guard System. Complete framework from entries to sweeps, back takes, and submission chains. Competition-proven systematic approach to X-Guard mastery.",
+  "description": "Connects butterfly and shin-to-shin entries with X-guard balance control and sweeping options. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -26,8 +27,8 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Advanced",
-  "summary": "The Marcelo Garcia X-Guard System is a competition-proven guard framework that uses deep leg-hook elevation and off-balancing from underneath the opponent to chain sweeps, back takes, and submissions into interconnected dilemmas.",
-  "overview": "Marcelo Garcia's X-Guard System represents one of the most dominant guard frameworks in modern Brazilian Jiu-Jitsu. This systematic approach transforms the X-Guard from a single position into a comprehensive attacking platform that seamlessly connects entries, sweeps, back takes, and submissions. Unlike traditional guards that rely on grips and frames, the X-Guard uses precise leg positioning and weight distribution to create mechanical advantages that work against opponents of any size. The system's genius lies in its interconnected nature - every defensive response from the opponent opens a new attacking opportunity, creating the dilemmas that define high-level guard play. Marcelo refined this system through years of competition at the highest levels, developing entry sequences from standing, seated, and butterfly positions that flow naturally into powerful sweeping mechanics. The X-Guard's core principle of elevating and off-balancing the opponent while maintaining control through leg hooks creates opportunities for both sweeps and transitions to more dominant positions like the back or mount.",
+  "summary": "X-guard gives you a way to work underneath a standing opponent and affect their balance.",
+  "overview": "X-guard gives you a way to work underneath a standing opponent and affect their balance. Connect a familiar butterfly or shin-to-shin entry to one sweep, then learn how your choice changes when the opponent shifts their weight.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Elevation and off-balancing through precise leg hook positioning",
     "Multiple entry pathways from standing, seated, and butterfly guard",

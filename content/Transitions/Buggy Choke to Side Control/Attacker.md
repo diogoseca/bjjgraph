@@ -76,7 +76,7 @@ description: "How to execute Buggy Choke to Side Control in BJJ. Attacking persp
     },
     {
       "@type": "Question",
-      "name": "When should you recognize that transitioning to side control is preferable to continuing the choke attempt?",
+      "name": "When is transitioning to side control better than continuing the buggy choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when the opponent has stripped grips to shallow depth, recovered significant posture, or established defensive frames that prevent choking pressure from progressing. Generally, if 2-3 seconds of grip fighting has not improved your position, the transition becomes higher percentage than forcing the choke. The decision point is when their defense is effective but their hip position remains compromised."

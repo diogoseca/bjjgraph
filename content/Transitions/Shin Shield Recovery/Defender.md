@@ -64,7 +64,7 @@ description: "How to defend against Shin Shield Recovery in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins threading their knee upward while you have crossface established - what is your immediate response?",
+      "name": "They thread their knee up while you have the crossface; what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately drive your shoulder forward and down into their upper chest, collapsing the space their knee is trying to occupy. Drop your hips heavy against their hips to prevent the hip escape that creates insertion angle. If the knee continues rising, use your free hand to control their shield ankle or pants grip and redirect the shin downward or laterally while maintaining crossface with your other arm. The crossface is your strongest asset here because it prevents them from turning their shoulder up to create the angle that supports the shield."
@@ -80,7 +80,7 @@ description: "How to defend against Shin Shield Recovery in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your hip position to prevent the space creation needed for shin shield insertion?",
+      "name": "How should you position your hips to deny the space needed for shin shield insertion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your hips as low and heavy as possible against the opponent's hips, distributing your weight through hip-to-hip contact rather than through your knees or hands. When you feel the bottom player begin to shrimp, follow their hip movement immediately by sliding your hips in the same direction to maintain contact and deny the angle they need. Avoid raising your hips to create base, as this opens the vertical space their knee needs to thread through. Your hips should feel like they are glued to the opponent's hips, eliminating the gap between bodies at the waist line."
@@ -88,7 +88,7 @@ description: "How to defend against Shin Shield Recovery in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "The bottom player has partially inserted their shin but has not yet secured an underhook - what is your best passing approach?",
+      "name": "Their shin is partly in but they have no underhook yet; what is your best passing approach?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the ideal moment to accelerate your knee slice pass. With their shin partially inserted but no upper body anchor, drive your crossface shoulder hard into their jaw while slicing your trapped knee across their thigh line. Their developing shin shield lacks the structural support to resist a committed knee slice without the underhook to maintain angle and outward pressure. Simultaneously control their near wrist to prevent the underhook from establishing during your pass. The goal is to complete the pass through the partially formed barrier before the bottom player can finalize their defensive structure."

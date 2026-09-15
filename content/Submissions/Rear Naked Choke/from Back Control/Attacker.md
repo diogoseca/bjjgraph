@@ -76,7 +76,7 @@ description: "Learn to finish the rear naked choke from back control. Step-by-st
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the rear naked choke target, and how does it produce unconsciousness?",
+      "name": "Which structures does the rear naked choke compress, and how does that cause unconsciousness?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The rear naked choke targets both carotid arteries on the lateral sides of the neck, compressing them simultaneously to restrict blood flow to the brain. The forearm blade compresses one carotid while the bicep of the supporting arm compresses the other. This bilateral vascular compression creates rapid cerebral hypoxia, which can produce unconsciousness in as few as four to six seconds when the choke is fully locked with proper forearm placement and sealed figure-four configuration."
@@ -84,7 +84,7 @@ description: "Learn to finish the rear naked choke from back control. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a strong two-on-one grip on your choking arm with both hands wrapped around your wrist — what systematic approach breaks this defense?",
+      "name": "They have two-on-one on your choking wrist from back control — how do you break it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free hand to target the weakest link in their grip chain, typically the fingers of the top hand. Peel individual fingers to break the grip, then immediately pummel the freed choking arm toward the neck before they can re-establish the defense. Alternatively, use a wrist rotation combined with elbow drive to power through a weakened grip. If the two-on-one persists, switch to attacking their defending arms with a gift wrap or transition to armbar from back, forcing them to release the wrist defense to address the new threat."
@@ -100,7 +100,7 @@ description: "Learn to finish the rear naked choke from back control. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "During the choking arm insertion, your opponent tucks their chin tightly to their chest — how do you create space to thread the arm underneath?",
+      "name": "They tuck their chin as you insert the choking arm — how do you make space underneath?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Push their forehead back with your supporting palm to tilt the head and open a gap between chin and chest. Alternatively, use a windshield-wiper pummeling motion with the choking arm to swim underneath the chin through the narrow gap, or shift your hips to one side so the angle change opens the far side of the neck. If the chin tuck is extremely tight, threaten an alternative attack like a collar grip or arm attack to force them to address the new threat, momentarily opening the neck."
@@ -116,7 +116,7 @@ description: "Learn to finish the rear naked choke from back control. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "How should you release the rear naked choke after your partner taps, and what monitoring is required?",
+      "name": "After your partner taps to the rear naked choke, how do you release and monitor them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Upon receiving any tap signal, immediately release the choking arm and remove all pressure from the neck. Release hooks or body triangle to free your partner's body. Gently guide them to a side-lying recovery position rather than letting them collapse face-down. Monitor their consciousness and breathing for at least thirty seconds. If they lost consciousness, keep them lying on their side, do not allow them to stand, and wait until they are fully alert and oriented before allowing any further activity. If consciousness does not return within fifteen seconds, seek immediate medical assistance."

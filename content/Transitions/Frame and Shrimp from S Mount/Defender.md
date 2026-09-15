@@ -56,7 +56,7 @@ description: "Counter the Frame and Shrimp escape from S Mount top. Maintain dom
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a Frame and Shrimp escape?",
+      "name": "In S mount, what's the earliest cue they're about to frame and shrimp?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first sign is typically their free hand moving toward your near hip or their feet adjusting to a flat, posted position on the mat. These preparatory movements precede the actual escape by one to two seconds, giving you time to preemptively tighten control by driving your hip weight down and securing their trapped arm more firmly before the frame and shrimp begins."
@@ -64,7 +64,7 @@ description: "Counter the Frame and Shrimp escape from S Mount top. Maintain dom
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when you feel your opponent begin to shrimp laterally?",
+      "name": "Holding S mount, how do you adjust your weight when they start shrimping laterally?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift your weight forward and down through your hip into their shoulder while simultaneously scooting your hips in the same lateral direction they are escaping. Your weight should drive through the point where your hip contacts their shoulder, acting like a tracking point. Avoid sitting up or lifting your hips, as this creates the space they need to establish the frame and accelerate their escape."
@@ -72,7 +72,7 @@ description: "Counter the Frame and Shrimp escape from S Mount top. Maintain dom
     },
     {
       "@type": "Question",
-      "name": "When is it appropriate to abandon S Mount and transition to another position during an escape attempt?",
+      "name": "When should you give up S mount for another position during their escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to standard mount if the opponent creates enough space that your perpendicular angle is significantly compromised but you still maintain top position. It is better to secure mount and re-attempt S Mount later than to fight from a deteriorating S Mount where hip-to-shoulder connection is lost. Never stay in a compromised S Mount because the opponent may complete their escape to half guard while you struggle to maintain an untenable position."

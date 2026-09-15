@@ -1,0 +1,258 @@
+{
+  "name": "Lachlan Giles Body Lock Passing System",
+  "description": "Study body-lock passing with a focused Lachlan Giles course match, practical partner drills, clear decisions, and ways to review your progress.",
+  "tags": [
+    "bjj",
+    "system",
+    "no-gi",
+    "body-lock-passing"
+  ],
+  "system_type": "Passing System",
+  "difficulty_level": "Intermediate",
+  "summary": "The Lachlan Giles Body Lock Passing System connects torso control, hip restriction, knee clearance, and final leg extraction into a close-range route through the guard.",
+  "overview": "Body-lock passing makes it useful to separate holding the opponent from clearing the legs. A tight connection can still stall if the near knee remains between you. This study plan asks you to identify the first barrier in each exchange, work on that barrier, and continue until the final leg is free.\n\nThe Body Lock Pass by Lachlan Giles is the matched instructional. The course organizes body-lock entries, pinning, knee clearance, and finishing, with narrated sparring to show those stages in context. The drills, sequence, and assessment criteria below are an original BJJGraph study plan; use them to organize practice alongside the course and feedback from a coach.",
+  "key_principles": [
+    "Check whether the hips are controlled before trying to clear a knee.",
+    "Distinguish the near-knee barrier from the final trapped leg.",
+    "Keep a usable base as the defender tries to elevate or turn.",
+    "Rebuild the connection when a grip change opens space.",
+    "Finish each practice pass with a defined control objective."
+  ],
+  "key_components": [
+    {
+      "component_name": "Torso connection",
+      "description": "Begin with the defender seated and work only to a coach-checked body lock, then pause to test whether the hips can freely turn.",
+      "purpose": "Separate reaching the opponent from establishing useful control."
+    },
+    {
+      "component_name": "Near-knee barrier",
+      "description": "Start with the grip already established and let the defender preserve one knee between you; work on clearing that single barrier.",
+      "purpose": "Make the first leg-clearing task observable."
+    },
+    {
+      "component_name": "Final-leg extraction",
+      "description": "Begin just beyond the near knee and continue until the remaining leg is free or the defender recovers guard.",
+      "purpose": "Avoid treating partial clearance as a completed pass."
+    },
+    {
+      "component_name": "Control after clearance",
+      "description": "Once both legs are free, let the defender attempt one immediate frame-and-hip recovery before resetting.",
+      "purpose": "Connect the passing finish to stable top control."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Torso connection",
+      "description": "BJJGraph study task: Begin with the defender seated and work only to a coach-checked body lock, then pause to test whether the hips can freely turn.",
+      "key_points": [
+        "Separate reaching the opponent from establishing useful control."
+      ]
+    },
+    {
+      "step_number": 2,
+      "phase": "Near-knee barrier",
+      "description": "BJJGraph study task: Start with the grip already established and let the defender preserve one knee between you; work on clearing that single barrier.",
+      "key_points": [
+        "Make the first leg-clearing task observable."
+      ]
+    },
+    {
+      "step_number": 3,
+      "phase": "Final-leg extraction",
+      "description": "BJJGraph study task: Begin just beyond the near knee and continue until the remaining leg is free or the defender recovers guard.",
+      "key_points": [
+        "Avoid treating partial clearance as a completed pass."
+      ]
+    },
+    {
+      "step_number": 4,
+      "phase": "Control after clearance",
+      "description": "BJJGraph study task: Once both legs are free, let the defender attempt one immediate frame-and-hip recovery before resetting.",
+      "key_points": [
+        "Connect the passing finish to stable top control."
+      ]
+    },
+    {
+      "step_number": 5,
+      "phase": "Connect and review",
+      "description": "Link the first two practiced tasks in a constrained round, then add the next stage only when both partners can identify the cue and stopping condition. Record the earliest control failure and return to that stage for the next set."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "The lock feels tight but neither knee clears.",
+      "solution": "Start with the lock in place and isolate the near-knee task instead of squeezing harder."
+    },
+    {
+      "obstacle": "The defender rotates freely under the grip.",
+      "solution": "Pause and check the grip placement, hip connection, and base with a coach."
+    },
+    {
+      "obstacle": "The final leg stays trapped after the first knee passes.",
+      "solution": "Drill extraction from that intermediate position with a single guard-recovery option."
+    },
+    {
+      "obstacle": "The defender recovers guard as the hands release.",
+      "solution": "Keep the finishing exchange in the drill and test one gradual grip transfer."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Torso connection",
+      "description": "Separate reaching the opponent from establishing useful control.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for torso connection.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    },
+    {
+      "metric_name": "Near-knee barrier",
+      "description": "Make the first leg-clearing task observable.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for near-knee barrier.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    },
+    {
+      "metric_name": "Final-leg extraction",
+      "description": "Avoid treating partial clearance as a completed pass.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for final-leg extraction.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    },
+    {
+      "metric_name": "Control after clearance",
+      "description": "Connect the passing finish to stable top control.",
+      "proficiency_indicators": [
+        "Can describe the starting condition for control after clearance.",
+        "Recognizes the agreed defensive response without prompting.",
+        "Can identify where the task broke down and select a relevant reset."
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice suggestion: Begin with the defender seated and work only to a coach-checked body lock, then pause to test whether the hips can freely turn. Then connect it to near-knee barrier. Compare the first lost control point after each round. Keep the first repetitions cooperative and agree on resistance, space, and reset conditions. Once the starting task is clear, add one defensive option at a time and compare the result with the intended control objective.",
+    "progression_path": [
+      {
+        "stage": "1. Torso connection",
+        "focus": "Separate reaching the opponent from establishing useful control. Use the corresponding component drill before broadening the defender's choices."
+      },
+      {
+        "stage": "2. Near-knee barrier",
+        "focus": "Make the first leg-clearing task observable. Use the corresponding component drill before broadening the defender's choices."
+      },
+      {
+        "stage": "3. Final-leg extraction",
+        "focus": "Avoid treating partial clearance as a completed pass. Use the corresponding component drill before broadening the defender's choices."
+      },
+      {
+        "stage": "4. Control after clearance",
+        "focus": "Connect the passing finish to stable top control. Use the corresponding component drill before broadening the defender's choices."
+      }
+    ],
+    "common_mistakes": [
+      "The lock feels tight but neither knee clears.",
+      "The defender rotates freely under the grip.",
+      "The final leg stays trapped after the first knee passes.",
+      "The defender recovers guard as the hands release."
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Seated Guard",
+      "content_type": "Position",
+      "relationship": "Entry context for closing into torso control"
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "Hooks to account for while approaching"
+    },
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Common intermediate leg entanglement"
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Control objective after the legs clear"
+    },
+    {
+      "name": "Mount",
+      "content_type": "Position",
+      "relationship": "Alternative destination after passing"
+    },
+    {
+      "name": "Body Lock",
+      "content_type": "Position",
+      "relationship": "Related torso connection to compare with the passing grip"
+    },
+    {
+      "name": "Half Guard Pass",
+      "content_type": "Transition",
+      "relationship": "Related final-leg clearance route"
+    },
+    {
+      "name": "Base",
+      "content_type": "Principle",
+      "relationship": "Balance during close-range passing"
+    },
+    {
+      "name": "Hip Pressure",
+      "content_type": "Principle",
+      "relationship": "Hip contact during the pass"
+    },
+    {
+      "name": "Control Maintenance",
+      "content_type": "Principle",
+      "relationship": "Continuity while changing grips"
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why can a tight body lock still fail to produce a pass?",
+      "answer": "The connection may control the torso while a knee still blocks your route; identify and solve the leg barrier separately."
+    },
+    {
+      "question": "What should you distinguish after clearing the first knee?",
+      "answer": "Passing the near knee and freeing the final trapped leg are separate tasks, and either can require its own drill."
+    },
+    {
+      "question": "What should the defender do in an entry-only round?",
+      "answer": "Try to preserve useful hip movement and prevent the agreed torso connection, then reset when either objective is clear."
+    },
+    {
+      "question": "How can narrated rolling help this study plan?",
+      "answer": "Pause at changes between entry, knee clearance, and finishing, then compare the observed problem with your own rounds."
+    },
+    {
+      "question": "What should happen after the last leg clears?",
+      "answer": "Continue into an agreed top-control objective while the partner attempts one immediate recovery."
+    },
+    {
+      "question": "When should you rebuild the body-lock connection?",
+      "answer": "Rebuild it when the defender can freely rotate or recover space instead of forcing the pass from deteriorating control."
+    }
+  ],
+  "products": [
+    {
+      "id": "the-body-lock-pass-by-lachlan-giles",
+      "title": "The Body Lock Pass",
+      "instructor": "Lachlan Giles",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "The course organizes body-lock entries, pinning, knee clearance, and finishing, with narrated sparring to show those stages in context.",
+      "best_for": "No-gi players who prefer close contact and want a staged passing project. This page focuses on the main pass rather than the course's closed-guard opening material.",
+      "study_focus": "Study the entry and pinning material first, then knee clearance and finishing; use the narrated rounds to identify where a stage changes.",
+      "practice_tip": "BJJGraph practice suggestion: Begin with the defender seated and work only to a coach-checked body lock, then pause to test whether the hips can freely turn. Then connect it to near-knee barrier. Compare the first lost control point after each round."
+    }
+  ]
+}

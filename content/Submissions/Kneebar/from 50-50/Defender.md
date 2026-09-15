@@ -58,7 +58,7 @@ description: "How to defend against Kneebar from 50-50 in BJJ. Recognition, esca
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up a kneebar from 50-50, and what should your immediate response be?",
+      "name": "What is the earliest cue your opponent is setting up a 50-50 kneebar, and how should you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is your opponent reaching for your foot and beginning to pull it toward their armpit. Your immediate response must be to retract your foot by pulling your heel toward your buttock while rotating your knee inward. This prevents them from establishing the primary anchor point (foot in armpit) that the entire kneebar depends on. Every second of delay after this cue makes escape progressively more difficult."
@@ -90,7 +90,7 @@ description: "How to defend against Kneebar from 50-50 in BJJ. Recognition, esca
     },
     {
       "@type": "Question",
-      "name": "Your opponent has captured your foot in their armpit but has not yet positioned their hip across your knee - what is the optimal defensive action at this stage?",
+      "name": "They have your foot in their armpit but their hip is not yet across your knee: what do you do now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, immediately sit up aggressively and face your opponent while simultaneously fighting to retract your foot from their armpit using both hands. Sitting up changes the angle of your leg relative to their body, preventing them from achieving the perpendicular alignment needed for the kneebar. Establish upper body grips (cross-face, collar, or underhook) as you sit up to maintain the face-to-face engagement. This is your last high-percentage window before the submission becomes dangerous—once their hip crosses your knee joint, sitting up becomes much more difficult."

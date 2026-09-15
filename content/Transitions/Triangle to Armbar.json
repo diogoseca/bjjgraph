@@ -334,7 +334,7 @@
         }
       },
       {
-        "question": "Your opponent keeps their elbow glued tight to their body, preventing arm isolation. What options do you have?",
+        "question": "They glue the elbow to their body, blocking arm isolation for the armbar: what are your options?",
         "answer": "When the opponent clamps their elbow tight, return to triangle choke pressure to force them to use that arm defensively. You can also attack the opposite arm if it reaches inside the triangle during their defensive adjustment. A third option is to use a gift wrap grip by reaching under their armpit and controlling their far wrist, which forces the near arm to separate from the body. The key principle is that static elbow defense cannot be maintained indefinitely against active triangle pressure.",
         "answer_line": "Reapply choke to force the arm out",
         "distractors": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "question": "Describe the optimal body angle relationship between you and your opponent during the armbar finish from this transition?",
+        "question": "What body angle to your opponent do you want for the armbar finish off the triangle?",
         "answer": "Your body should be perpendicular (90 degrees) to your opponent's torso, with your hips aligned across their shoulder line and the trapped arm secured across your centerline. The leg across their face provides downward pressure preventing them from turning into you, while the other leg hooks behind their shoulder or across their chest. This perpendicular alignment maximizes leverage on the elbow joint while minimizing the opponent's ability to roll, stack, or escape the position.",
         "answer_line": "Perpendicular, hips on shoulder line",
         "distractors": {
@@ -404,7 +404,7 @@
         }
       },
       {
-        "question": "What entry conditions must exist before you should attempt this transition rather than continuing the triangle choke?",
+        "question": "What conditions justify switching from the triangle choke to the armbar instead of finishing?",
         "answer": "Attempt the transition when the opponent has successfully reduced the choking pressure of your triangle through posture, hand positioning, or shoulder rotation, but has not escaped the leg configuration. Specifically, look for their trapped arm actively pushing against your thigh or hip rather than being compressed against their own neck. If the triangle choke is still viable and the opponent is fading, finish the choke rather than transitioning. The armbar transition is a response to effective triangle defense, not a replacement for a working choke.",
         "answer_line": "Choke fading, arm pushes free",
         "distractors": {
@@ -566,7 +566,7 @@
         }
       },
       {
-        "question": "Your opponent has completed the pivot and has both hands on your wrist. What is your defensive priority?",
+        "question": "They complete the pivot with both hands on your wrist for the armbar: what is your priority?",
         "answer": "At this late stage, your immediate priority is preventing full arm extension by bending the elbow aggressively, rotating your thumb toward the ceiling, and clasping your hands together if possible. Simultaneously, use your hips and legs to drive forward into a stacking position to compress their finishing space. This buys time to work a hitchhiker escape by rotating the elbow across your body while turning to turtle, or to strip one of their hands from your wrist to begin systematic arm extraction.",
         "answer_line": "Bend elbow, thumb up, clasp hands",
         "distractors": {
@@ -594,7 +594,7 @@
         }
       },
       {
-        "question": "What body position should you maintain to make the transition as difficult as possible for your opponent?",
+        "question": "What body position makes the triangle-to-armbar transition hardest for your opponent?",
         "answer": "Keep your weight driving forward with your head pressing into the opponent's chest or solar plexus. Your trapped arm's elbow should be pinned tightly to your ribs with your hand gripping your own collar or lapel. Your free hand should control the opponent's far hip or bicep to prevent their pivot. Your hips should stay heavy and square to the opponent rather than allowing them to angle off. This compressed forward position eliminates the space needed for the pivot and prevents the opponent from falling back into armbar position.",
         "answer_line": "Drive forward, pin elbow to ribs",
         "distractors": {

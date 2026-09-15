@@ -56,7 +56,7 @@ description: "Comprehensive defense guide for stopping the knee slide from flatt
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a knee slide is about to be attempted from flattened half guard?",
+      "name": "What is the earliest cue that a knee slide is coming from flattened half guard bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the top player shifting their hips laterally toward the passing side. This hip displacement creates the angular lane needed for the knee to travel across your thigh line. Before the knee moves, you will feel the weight distribution change as their hips shift. Recognizing this cue gives you the maximum defensive window to respond before the slide momentum begins."
@@ -64,7 +64,7 @@ description: "Comprehensive defense guide for stopping the knee slide from flatt
     },
     {
       "@type": "Question",
-      "name": "Why should you prioritize blocking the knee over fighting the crossface when defending the knee slide?",
+      "name": "Why prioritize blocking the knee over fighting the crossface when defending the knee slide?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface is uncomfortable but does not directly complete the guard pass. The knee crossing your thigh line does. If you split your attention between both, neither defense gets enough commitment to succeed. By accepting the crossface temporarily and directing all defensive effort to the knee path, you address the immediate threat of position loss. Once the passing attempt is neutralized, you can then work on crossface removal and frame recovery."
@@ -72,7 +72,7 @@ description: "Comprehensive defense guide for stopping the knee slide from flatt
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun the knee slide and their knee is approaching your thigh line - what is your last effective defensive option?",
+      "name": "Their knee is nearing your thigh line in the slide—what is your last effective defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your last effective option is a committed hip escape timed with their forward weight transfer, combined with immediate knee shield insertion. As their weight shifts to drive the knee through, their base is momentarily compromised. Use this instant to shrimp your hips away hard and jam your knee into the space between your bodies. This must be done as one explosive, committed movement because you will not get a second chance at this timing. If the knee has already crossed your thigh line, transition immediately to side control defensive frames."
@@ -88,7 +88,7 @@ description: "Comprehensive defense guide for stopping the knee slide from flatt
     },
     {
       "@type": "Question",
-      "name": "How should your defensive approach change if the knee slide has already progressed past the point of no return?",
+      "name": "How should your defense change once the knee slide is past the point of no return?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the knee has crossed your thigh line and the leg is being extracted, do not waste energy fighting for half guard retention. Immediately transition your defensive effort to preparing for side control defense. Get your near-side elbow tight to your hip, establish a frame on their shoulder with your far arm, and begin turning your hips to face them rather than remaining flat. Early preparation for side control defense from the moment you recognize the pass is complete gives you the best chance of executing an immediate escape before they consolidate."

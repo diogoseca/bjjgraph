@@ -56,7 +56,7 @@ description: "Comprehensive guide to preventing and countering leg pummeling esc
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that indicates your opponent is about to attempt leg pummeling rather than another escape method?",
+      "name": "Holding the saddle, what earliest cue shows they are pummeling rather than escaping another way?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in the opponent's free leg behavior—instead of framing on your hips to push you away (which signals boot scoot or standard escape), the free leg moves toward the space between your controlling hooks with an insertion angle. This is often preceded by a subtle hip escape toward you rather than away, which creates the angle change needed for the pummel. Recognizing this directional difference—toward your hooks versus toward your hips—gives you the maximum reaction window."
@@ -64,7 +64,7 @@ description: "Comprehensive guide to preventing and countering leg pummeling esc
     },
     {
       "@type": "Question",
-      "name": "When should you choose to attack a submission during the pummeling attempt versus re-locking your controlling configuration?",
+      "name": "Holding the saddle during their pummel, when do you attack a submission versus re-lock control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the submission when the opponent has clearly committed both hands to framing and their free leg to insertion, leaving their heel unprotected during the transition. Re-lock your configuration when the opponent is still in the early stages of pummeling with their hands split between heel protection and framing. The decision point is the opponent's hand positioning—if both hands are on your legs creating frames, their heel is exposed; if one hand guards the heel, re-locking control is the higher-percentage response."
@@ -72,7 +72,7 @@ description: "Comprehensive guide to preventing and countering leg pummeling esc
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent from using the hip switch pummel variant against your saddle control?",
+      "name": "Holding the saddle, how do you shut down the hip switch pummel variant?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip switch pummel relies on the opponent rotating their hips dramatically to create space. Counter this by maintaining heavy hip pressure directly into their trapped thigh and using your top controlling leg to block their hip rotation. When you feel the hip switch beginning, drive your weight forward and slightly toward the direction of their rotation to shut down the angle change before it creates the gap needed for insertion. Your hip pressure should feel like a wedge that gets tighter when they attempt to rotate."
@@ -80,7 +80,7 @@ description: "Comprehensive guide to preventing and countering leg pummeling esc
     },
     {
       "@type": "Question",
-      "name": "What is the correct response if the opponent successfully inserts their knee between your controlling legs but has not yet completed the full pummel?",
+      "name": "They insert their knee between your saddle legs but haven't finished the pummel — response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a critical decision point with a narrow window. Squeeze your controlling legs together on their inserted knee to trap it in place—this prevents further insertion while maintaining partial control. Simultaneously assess whether you can re-lock your triangle or figure-four around both their trapped leg and their inserted knee. If the insertion is too deep for re-locking, transition immediately to either a submission attempt on the now-exposed heel or a strategic disengage to guard passing position. Do not remain in a half-compromised saddle hoping the situation improves."

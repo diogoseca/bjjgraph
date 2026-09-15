@@ -82,7 +82,7 @@ description: "How to execute Guillotine Defense in BJJ. Complete guide to escapi
     },
     {
       "@type": "Question",
-      "name": "Why is creating hip distance critical to guillotine defense, and what happens if you fail to create this distance?",
+      "name": "Why is creating hip distance critical in guillotine defense, and what happens if you fail to?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip distance is critical because opponent can use their own hips as an additional fulcrum point, dramatically increasing choking pressure and leverage. If you fail to create distance, opponent can pull your head down toward their hips while lifting their hips, creating a vice-like compression that makes escape nearly impossible. Distance removes their ability to use their body as leverage, reducing the choke to arm strength alone which is far more defendable."
@@ -90,7 +90,7 @@ description: "How to execute Guillotine Defense in BJJ. Complete guide to escapi
     },
     {
       "@type": "Question",
-      "name": "What is the correct direction to circle when defending a standard guillotine choke, and why is circling the other way worse?",
+      "name": "Defending a standard guillotine, which way do you circle, and why is the other way worse?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should circle toward the side of the choking arm (into the choke), not away from it. Circling toward the choking side while driving your shoulder forward creates angles where the guillotine's structure breaks down because the wrist fulcrum loses alignment with your carotid arteries. Circling away actually tightens the choke by allowing opponent to use their non-choking arm more effectively and maintain better structural alignment of the submission."
@@ -98,7 +98,7 @@ description: "How to execute Guillotine Defense in BJJ. Complete guide to escapi
     },
     {
       "@type": "Question",
-      "name": "How does the defensive strategy change when defending a high-elbow guillotine versus a standard guillotine?",
+      "name": "How does your defense change against a high-elbow guillotine versus a standard one?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In a high-elbow guillotine, the fulcrum point shifts from the wrist to the elbow crease, requiring your frame to address the elbow position rather than the wrist. The high-elbow variation is generally tighter and more dangerous, requiring faster and more aggressive defensive movements. You must maintain even stricter posture control and apply more forward pressure to counter the increased leverage. The circular motion must be more pronounced and quicker than standard guillotine defense."
@@ -106,7 +106,7 @@ description: "How to execute Guillotine Defense in BJJ. Complete guide to escapi
     },
     {
       "@type": "Question",
-      "name": "Why should you never pull guard or voluntarily go to bottom position when defending a guillotine from standing?",
+      "name": "Why should you never pull guard when defending a guillotine from standing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling guard when caught in a standing guillotine voluntarily gives your opponent their optimal finishing position - closed guard with guillotine locked and hip leverage available. From standing, gravity works in your favor, making their guillotine mechanically weaker since they cannot use hip elevation. Going to bottom transforms a defendable standing guillotine into a high-percentage submission threat, significantly reducing your escape probability from roughly 70% standing to potentially 30% or less from guard bottom."
@@ -114,7 +114,7 @@ description: "How to execute Guillotine Defense in BJJ. Complete guide to escapi
     },
     {
       "@type": "Question",
-      "name": "What role does controlling opponent's free hand play in guillotine defense, and what can happen if you ignore it?",
+      "name": "In guillotine defense, why control their free hand, and what happens if you ignore it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlling opponent's free hand prevents them from adjusting their grip configuration mid-escape, which could transform a defendable guillotine into a higher-percentage variation like high-elbow or chin strap. If you ignore the free hand, opponent can switch grips, trap your defending arm for an arm-in variation, or readjust their fulcrum point to counter your defensive movements. Many escapes fail not because the initial defense was wrong, but because the opponent adapted their attack while the defender focused only on head extraction."

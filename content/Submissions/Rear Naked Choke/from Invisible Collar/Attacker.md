@@ -108,7 +108,7 @@ description: "Learn to attack with the Rear Naked Choke from Invisible Collar. M
     },
     {
       "@type": "Question",
-      "name": "Your opponent manages to get one hand inside the choke before the figure-four locks—what grip adjustment maintains finishing pressure?",
+      "name": "One hand gets inside before your figure-four locks — what grip keeps finishing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not try to overpower their defending hand. Switch to a short choke by gripping your own wrist instead of the bicep, which narrows the choke circumference and can trap their defending hand against their own neck. Alternatively, use your free hand to peel their fingers from your wrist one at a time. Their hand inside the choke actually increases pressure on one carotid if you can complete the lock around it."

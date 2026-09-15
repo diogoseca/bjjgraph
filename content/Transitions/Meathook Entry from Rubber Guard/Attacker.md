@@ -80,7 +80,7 @@ description: "Execute the Meathook Entry from Rubber Guard bottom. Master the 10
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the defining mechanical action that distinguishes the Meathook Entry from other Rubber Guard advancements?",
+      "name": "Which mechanical action defines the Meathook entry versus other rubber guard advancements?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The defining action is climbing the controlling shin high over the opponent's trapped arm so it presses directly against the tricep, hooking the limb and suspending it. Unlike Crackhead Control which pulls the arm cross-body, the Meathook Entry elevates the leg over the shoulder line to create a shin-over-tricep lever that isolates the arm and breaks posture simultaneously."

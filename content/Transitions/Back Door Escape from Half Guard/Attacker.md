@@ -74,7 +74,7 @@ description: "Master the Back Door Escape from Half Guard as the bottom player. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What body position indicates the back door escape is the optimal choice over conventional half guard techniques?",
+      "name": "What position tells you the back door escape beats conventional half guard bottom options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The back door escape becomes optimal when you are flattened in half guard with opponent's crossface controlling your head and their underhook preventing you from coming up to your side. If you cannot win the underhook battle after two or three attempts and opponent's weight is driving you flat, continuing to fight toward the opponent wastes energy and invites further deterioration. The key indicator is that your ability to hip escape toward the opponent has been neutralized by their crossface and forward pressure."
@@ -114,7 +114,7 @@ description: "Master the Back Door Escape from Half Guard as the bottom player. 
     },
     {
       "@type": "Question",
-      "name": "How should you handle the transition if the opponent has already started establishing grips on your back?",
+      "name": "They start getting grips on your back mid back door escape—how do you handle the transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent gets grips during the transition, prioritize completing the turtle base first before addressing the grips. A solid four-point turtle structure gives you the foundation to fight grips effectively, whereas fighting grips without a base leaves you vulnerable to being flattened or rolled. Once in turtle, immediately begin hand fighting the most threatening grip first, typically the choking hand in any seatbelt configuration, while maintaining tight elbows-to-knees defensive structure throughout."
@@ -425,7 +425,7 @@ The back door escape is generally low-risk for joint injuries since it does not 
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Deep Half Guard escape and reversal pathway integrated when Lockdown is countered</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/10th-Planet-Half-Guard-Bottom-System" data-cta="related-system-card" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">10th Planet Half Guard Bottom System</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Deep Half Guard escape and reversal pathway integrated when Lockdown is countered</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Guard System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

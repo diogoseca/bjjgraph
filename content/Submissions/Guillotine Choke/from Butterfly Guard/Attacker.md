@@ -78,7 +78,7 @@ description: "Learn to attack the Guillotine Choke from Butterfly Guard with ste
     },
     {
       "@type": "Question",
-      "name": "How do you recognize when the choke has reached the point where escape becomes nearly impossible for the defender?",
+      "name": "In the butterfly guard guillotine, how do you know escape has become nearly impossible?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Escape becomes nearly impossible when the grip is fully locked with elbows pinched, the head is tight to your chest, and hooks are elevated with hips arched. At this stage the opponent cannot posture, cannot strip the grip with hand fighting, and cannot stack because the elevated hooks prevent forward drive. The arched hips create the stretching force that completes the mechanics, leaving the tap as their only remaining option."
@@ -94,7 +94,7 @@ description: "Learn to attack the Guillotine Choke from Butterfly Guard with ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up while you have a loose guillotine grip - what adjustment prevents escape?",
+      "name": "They posture up while your butterfly guard guillotine grip is loose — what stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent postures against a loose guillotine, immediately sweep them with the same-side butterfly hook rather than fighting posture with arm strength. Drive the hook on the same side as your choking arm upward while pulling their upper body across with the guillotine grip. Their posture recovery raises their center of gravity and weakens their base, making the sweep high-percentage, and if it fails you can re-engage the guillotine when they return to a defensive posture."
@@ -102,7 +102,7 @@ description: "Learn to attack the Guillotine Choke from Butterfly Guard with ste
     },
     {
       "@type": "Question",
-      "name": "What is the most common finishing error that allows opponents to survive the Guillotine from Butterfly Guard?",
+      "name": "What is the most common finishing error with the guillotine from butterfly guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common error is squeezing only with the arms while neglecting full-body mechanics. Without hip arch and hook elevation, the choke lacks the opposing forces needed to compress the carotid arteries against a resisting opponent. The arms fatigue quickly and the opponent can outlast the squeeze. The correction is to engage the entire posterior chain: arch hips upward, drive hooks into the thighs, and pull elbows toward the sternum simultaneously."
@@ -110,7 +110,7 @@ description: "Learn to attack the Guillotine Choke from Butterfly Guard with ste
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip if the opponent tucks their chin to block the choking arm from reaching the carotid?",
+      "name": "They tuck the chin to block your guillotine arm from the carotid — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to a high elbow Marcelotine configuration by rotating the choking elbow above the opponent's spine and pulling the wrist deeper across the throat. This angle attacks over the jaw line and bypasses chin defense because the forearm compresses the neck from a higher angle that the tucked chin cannot block. Alternatively, transition to an arm-in guillotine that traps the opponent's defending hand alongside their neck."

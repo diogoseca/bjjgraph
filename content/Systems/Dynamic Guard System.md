@@ -170,6 +170,8 @@ Emerging from the modern competitive guard game, the Dynamic Guard System reject
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill Dynamic Guard System?
@@ -296,6 +298,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -400,5 +404,7 @@ The Dynamic Guard System requires progressive drilling that builds from isolated
 
 
 </section>
+
+
 
 </main>

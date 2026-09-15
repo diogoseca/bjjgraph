@@ -84,7 +84,7 @@ description: "Learn to attack the omoplata from double sleeve guard. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to posture up as you swing your leg over their shoulder — what adjustment prevents escape?",
+      "name": "Double sleeve omoplata: they posture as your leg swings over — what adjustment stops escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Convert immediately to a triangle threat by bringing your opposite leg across their neck while they create the space by posturing. Their upward movement actually helps you get your second leg into position. Alternatively, if your leg has already cleared, use the sleeve grip to pull their arm deeper behind your hip while squeezing your knees together harder to lock the arm in place before they complete the posture-up. The key is not fighting their posture directly but using their movement to transition to a different threat."
@@ -116,7 +116,7 @@ description: "Learn to attack the omoplata from double sleeve guard. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grips as you transition from the double sleeve setup to the omoplata finish?",
+      "name": "How should your grips change from double sleeve guard into the omoplata finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip transitions follow a clear sequence: maintain both sleeve grips during the cross-pull and angle creation phase. Keep the target-side sleeve grip throughout the leg swing to prevent arm extraction. Release the far-side sleeve grip once your leg clears the shoulder and clamp is secured — your legs now control the arm. Your hands transition to: one hand posting behind you for the sit-up, then that hand reaches for the belt or far hip. The other hand assists the sit-up and then controls the opponent's near-side hip or pushes their far shoulder to flatten them."

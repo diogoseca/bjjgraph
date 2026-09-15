@@ -268,7 +268,7 @@
         }
       },
       {
-        "question": "Your opponent begins fighting hard for an underhook as you start extracting your hooked leg - how do you respond?",
+        "question": "They fight hard for an underhook as you extract your hooked leg to half guard — response?",
         "answer": "Immediately halt the leg extraction and address the underhook threat first. Apply heavy shoulder pressure through the crossface to drive their shoulder back to the mat. If needed, use a whizzer with your far arm to control their underhook attempt. Only resume the leg repositioning once the underhook is neutralized and upper body control is re-established. Continuing the leg transition while losing the underhook battle typically results in being swept.",
         "answer_line": "Stop leg, crossface, whizzer",
         "distractors": {
@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "What is the optimal base position for the posted foot after completing the consolidation to half guard top?",
+        "question": "Passing leg hook to half guard top, how should your posted foot be based after consolidating?",
         "answer": "The posted foot should be wide and flat on the mat, positioned roughly perpendicular to the bottom player's body to create maximum stability against sweeping forces from multiple directions. The foot should be far enough from your body to create a wide base but close enough that you can drive hip pressure forward into the bottom player. Avoid posting on toes, as this creates instability and reduces the surface area of your base. The posted foot, trapped leg, and chest pressure create a stable tripod.",
         "answer_line": "Wide, flat, perpendicular foot",
         "distractors": {
@@ -508,7 +508,7 @@
         }
       },
       {
-        "question": "Why is it sometimes better to allow the consolidation and focus on establishing good half guard bottom rather than disrupting it?",
+        "question": "Under leg hook consolidation to half guard, why sometimes allow it and build half guard bottom?",
         "answer": "If the transition window has already passed or the top player's upper body control is too strong to disrupt, attempting forced counter-attacks wastes energy and may result in worse positioning. In such cases, focusing on establishing strong half guard bottom fundamentals—maintaining side angle, fighting for underhook, establishing knee shield, keeping frames active—creates a sustainable defensive position from which you can launch offensive sequences. A well-organized half guard bottom is better than a failed counter-attack that leaves you flattened.",
         "answer_line": "Failed counter worse than base",
         "distractors": {

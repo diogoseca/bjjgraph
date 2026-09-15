@@ -69,7 +69,7 @@ description: "{{ description }}"
       "creator": { "@type": "Person", "name": {{ clip.by | tojson }} }
       {%- endif %}
       {%- if clip.duration %},
-      "duration": "PT{{ clip.duration }}S"
+      "duration": {{ ("PT" ~ (clip.duration) ~ "S") | jsonstr }}
       {%- endif %}
       {%- if clip.upload_date %},
       "uploadDate": {{ clip.upload_date | tojson }}
@@ -86,8 +86,8 @@ description: "{{ description }}"
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
-  "name": "{{ name }}",
-  "description": "{{ summary }}",
+  "name": {{ name | jsonstr }},
+  "description": {{ summary | jsonstr }},
   "inDefinedTermSet": "https://bjjgraph.org/Positions/"
 }
 </script>
@@ -204,7 +204,7 @@ description: "{{ description }}"
 ### Available Transitions
 
 {% for t in bottom_summary.transitions %}
-- **[[{{ resolve(t.transition) }}/Attacker|{{ t.transition }}]]** ({{ t.attempt_probability }}% of attempts)
+- **[[{{ resolve(t.transition) }}/Attacker|{{ t.transition }}]]** ({{ t.attempt_probability | pct(' of attempts') }})
 {% endfor %}
 
 ### Common Mistakes
@@ -233,7 +233,7 @@ description: "{{ description }}"
 ### Available Transitions
 
 {% for t in top_summary.transitions %}
-- **[[{{ resolve(t.transition) }}/Attacker|{{ t.transition }}]]** ({{ t.attempt_probability }}% of attempts)
+- **[[{{ resolve(t.transition) }}/Attacker|{{ t.transition }}]]** ({{ t.attempt_probability | pct(' of attempts') }})
 {% endfor %}
 
 ### Common Mistakes

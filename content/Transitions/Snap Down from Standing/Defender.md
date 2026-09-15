@@ -64,7 +64,7 @@ description: "Defend the snap down from standing in BJJ. Recognition cues, postu
     },
     {
       "@type": "Question",
-      "name": "What is your immediate physical response when you feel sudden downward pressure on your head from a collar tie?",
+      "name": "You feel sudden downward pressure from their collar tie standing. Immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hips forward and extend your spine upward while simultaneously beginning to circle laterally. Do not pull your head straight back against the force. Your hips moving forward counteracts the forward weight shift the opponent is trying to exploit, while the lateral circle moves you perpendicular to their pulling direction. Simultaneously, your hands should address the grip: one hand fights the collar tie at the wrist while the other maintains your own offensive grip or frames on their shoulder."
@@ -72,7 +72,7 @@ description: "Defend the snap down from standing in BJJ. Recognition cues, postu
     },
     {
       "@type": "Question",
-      "name": "Your opponent snaps your head down and is beginning to establish front headlock control - what are your immediate recovery priorities?",
+      "name": "Snapped down and they're starting a front headlock: what are your immediate priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First priority is protecting your neck by tucking your chin to your chest to prevent guillotine access. Second priority is getting one hand on their choking arm at the wrist or elbow to prevent them from locking up a submission grip. Third priority is movement: either drive forward to stand up if their weight is high, or circle to the side to prevent them from settling their chest on your back. Speed is critical because every second in transition favors the opponent's control consolidation."
@@ -88,7 +88,7 @@ description: "Defend the snap down from standing in BJJ. Recognition cues, postu
     },
     {
       "@type": "Question",
-      "name": "Your posture has been broken by the snap and you are bent forward with the opponent's arm around your head - should you try to stand back up or accept the position change?",
+      "name": "Snapped down with their arm around your head: stand back up or accept the position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on how deep their control is. If their arm is loosely around your head and they have not yet established chest pressure on your back, explosively drive upward by extending your hips and posting your hands on their body to create separation. Standing removes most front headlock submissions. However, if they have deep arm control with chest-to-back connection and far shoulder control, attempting to stand will likely result in a tighter guillotine or choke. In that case, accept the position change and immediately begin proper front headlock bottom defense: chin tucked, hand fighting the choking arm, and working to circle or sit to guard."

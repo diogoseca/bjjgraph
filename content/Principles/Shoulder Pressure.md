@@ -295,15 +295,15 @@ Mastery of shoulder pressure fundamentally changes a practitioner's top game, tr
 
 **Kesa Gatame**: Press shoulder into opponent's face while sitting heavy on chest, creating uncomfortable pressure that motivates escape attempts into submission traps
 
-**Reverse Scarf Hold**: Drive shoulder into opponent's jaw to turn their head away while controlling near arm, using shoulder as primary control mechanism for the entire position
+**Ushiro Kesa Gatame**: Drive shoulder into opponent's jaw to turn their head away while controlling near arm, using shoulder as primary control mechanism for the entire position
 
 **Headquarters Position**: Apply shoulder pressure to opponent's knee or thigh while passing guard, using weight to flatten defensive structures and prevent re-guard
 
-**Modified Scarf Hold**: Use shoulder to control opponent's head and upper body while transitioning to higher mount or submission positions, maintaining pressure throughout movement
+**Kuzure Kesa Gatame**: Use shoulder to control opponent's head and upper body while transitioning to higher mount or submission positions, maintaining pressure throughout movement
 
-**Reverse Kesa-Gatame**: Drive shoulder into opponent's chest while facing away, using bodyweight to create crushing pressure on ribcage and restrict breathing capacity
+**Ushiro Kesa Gatame**: Drive shoulder into opponent's chest while facing away, using bodyweight to create crushing pressure on ribcage and restrict breathing capacity
 
-**Kuzure Kesa-Gatame**: Apply maximum shoulder pressure to opponent's face and jaw while sprawling hips back, creating extremely heavy concentrated pressure through skeletal alignment that is difficult to defend against
+**Kuzure Kesa Gatame**: Apply maximum shoulder pressure to opponent's face and jaw while sprawling hips back, creating extremely heavy concentrated pressure through skeletal alignment that is difficult to defend against
 
 **Half Guard**: Use shoulder to drive into opponent's chest while cutting knee across, preventing them from recovering guard by pinning upper body to mat during the pass
 

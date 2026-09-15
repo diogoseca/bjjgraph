@@ -82,7 +82,7 @@ description: "Learn to execute the Estima Lock Counter Roll from bottom position
     },
     {
       "@type": "Question",
-      "name": "In which direction must you roll relative to your trapped foot, and why is this mechanically critical?",
+      "name": "Estima Lock Counter Roll: which way must you roll relative to the trapped foot, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must roll toward the trapped foot side, aligning your body rotation with the lock's force vector. This momentarily neutralizes the rotational torque on your ankle rather than amplifying it. Rolling away from the trapped foot multiplies rotational stress on the ankle joint because your body's momentum works with the submission pressure rather than against it. The directional choice is the single most important safety factor in the technique."
@@ -90,7 +90,7 @@ description: "Learn to execute the Estima Lock Counter Roll from bottom position
     },
     {
       "@type": "Question",
-      "name": "Your opponent increases hip pressure the moment you begin posting your free leg—how do you adjust your escape strategy?",
+      "name": "Estima Lock bottom: they add hip pressure as you post your free leg. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increased hip pressure when you begin posting signals the opponent has recognized your counter roll setup. Rather than forcing the roll against heavy hip pressure, redirect the free leg post into a conventional defensive frame—push their hips away to create space for leg extraction or angle change escape instead. The counter roll requires sufficient space for rotation, and fighting through consolidated hip pressure dramatically increases ankle injury risk. Use the posting motion as a transition to conventional defense."
@@ -98,7 +98,7 @@ description: "Learn to execute the Estima Lock Counter Roll from bottom position
     },
     {
       "@type": "Question",
-      "name": "Your free leg keeps slipping off the posting position during roll attempts—what adjustment improves stability?",
+      "name": "Estima Lock Counter Roll: your posting foot keeps slipping. What makes the post stable?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Position the ball of the foot firmly planted on the mat with toes dug in for traction, or hook slightly behind the opponent's hip bone for a more secure contact point. The post should be close enough to your body to generate power without overextending—too far away sacrifices force generation and stability. Ensure the knee angle drives force in the rolling direction rather than vertically upward. The posting position determines the entire roll's power and direction, so instability here undermines the technique completely."
@@ -106,7 +106,7 @@ description: "Learn to execute the Estima Lock Counter Roll from bottom position
     },
     {
       "@type": "Question",
-      "name": "You are midway through the roll and feel the opponent adjusting their grip to follow your rotation—what is the correct response?",
+      "name": "Mid counter roll from the Estima Lock, they follow your rotation with their grip. Response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accelerate through the completion of the roll rather than hesitating. The opponent following the rotation is attempting to maintain the lock or transition to saddle. Stopping midway allows them to consolidate in a potentially worse position. By driving through with increased hip engagement and immediately establishing top chest pressure upon completion, you force them to address your positional control rather than their grip adjustment. The roll's momentum is your primary advantage—preserving it is essential."
@@ -114,7 +114,7 @@ description: "Learn to execute the Estima Lock Counter Roll from bottom position
     },
     {
       "@type": "Question",
-      "name": "After completing the roll, your opponent still has a grip on your foot and begins transitioning—how do you handle the grip while maintaining top position?",
+      "name": "After the counter roll, they still grip your foot. How do you strip it and keep top position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish chest pressure by driving your sternum into their shoulder to prevent them from sitting up or creating space for re-engagement. Use two-on-one hand fighting to strip the grip, addressing the hand closest to your ankle first as it carries the most residual submission threat. Keep your trapped leg's knee bent to prevent them from re-extending it into a new lock configuration. If they begin transitioning toward a toe hold, straighten your leg and drive hips forward simultaneously to break the grip angle."

@@ -58,7 +58,7 @@ description: "How to defend against Omoplata from Guard in BJJ. Recognition, esc
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three critical defensive windows during an Omoplata attempt, and which has the highest escape percentage?",
+      "name": "What are the three defensive windows against the omoplata, and which offers the best escape odds?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three windows are: (1) Before the leg swings over the shoulder - highest percentage, where posture maintenance and arm extraction prevent the position entirely; (2) During the transition before the attacker sits up - moderate difficulty, where forward roll and stack defenses are available; (3) Once the attacker establishes full finishing position with hip connection - lowest percentage, where options narrow to emergency roll or tap. Window one is exponentially easier because you are preventing the position rather than escaping it. Each subsequent window requires more effort, carries more injury risk, and has lower success probability."
@@ -66,7 +66,7 @@ description: "How to defend against Omoplata from Guard in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "Why is tapping preferable to attempting a late forward roll when full Omoplata finishing pressure is already applied?",
+      "name": "Why tap rather than attempt a late forward roll once full omoplata pressure is on?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When full finishing pressure is applied, the shoulder joint is already under significant rotational stress. Attempting a forward roll at this stage combines your body weight and momentum with the existing pressure on the shoulder, potentially causing catastrophic injury including dislocation, labrum tear, or complete rotator cuff rupture. The roll itself requires pushing off the trapped arm, which drives the shoulder further into the compromised position. Tapping preserves shoulder health for long-term training. A single Omoplata tap costs nothing; a shoulder reconstruction costs months of recovery and may permanently limit your grappling ability."
@@ -74,7 +74,7 @@ description: "How to defend against Omoplata from Guard in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "How does turning your palm up during the Omoplata reduce shoulder pressure, and why is this alone insufficient as an escape?",
+      "name": "How does turning your palm up ease omoplata pressure, and why is it not an escape by itself?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning the palm up (supination) externally rotates the forearm and partially counteracts the internal rotation being forced on the shoulder by the Omoplata pressure. This changes the angle of force on the rotator cuff and glenohumeral joint, reducing the acute rotational stress and buying additional time before the tap threshold. However, it is insufficient as a standalone escape because it does not address the leg triangle trapping the arm or the hip connection driving the pressure. The attacker can adjust by tightening their leg squeeze and walking their hips closer, eventually overcoming the supination defense. It must be combined with a forward roll, stack, or arm extraction to actually escape."
@@ -90,7 +90,7 @@ description: "How to defend against Omoplata from Guard in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "Your opponent has swung their leg over your shoulder but has not yet established hip connection or sat up - what is your optimal escape sequence?",
+      "name": "Their leg is over your shoulder but they haven't sat up yet — what is your escape sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the second defensive window with moderate escape probability. Immediately drive your weight forward and down to flatten the opponent on their back, preventing the sit-up that establishes finishing position. Simultaneously tuck your trapped elbow tight to your ribs and begin pulling it back toward your body. Use your far hand to push against their hip or control their far leg to prevent them from walking their hips closer. If you can flatten them and begin extracting the arm, work to pass their guard to side control. If they begin sitting up despite your pressure, immediately switch to a committed forward roll before they establish hip connection. The key is acting immediately during this transition window rather than waiting."
@@ -98,7 +98,7 @@ description: "How to defend against Omoplata from Guard in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "What signals indicate you should tap immediately rather than continue attempting escape from a locked Omoplata?",
+      "name": "Which signals mean you should tap to a locked omoplata instead of continuing to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately when: you feel sharp pain at the shoulder joint line rather than just muscle stretch; your trapped arm has been fully rotated with elbow past your hip line and you cannot create any movement; the attacker has full hip connection with their weight driving forward and your far arm is controlled preventing any escape; you have already failed an escape attempt and are now flattened with pressure increasing. Additionally, if you feel any popping, clicking, or sudden change in shoulder joint tension, tap instantly as these indicate structural failure beginning. Never push through shoulder pain hoping it will resolve - shoulder injuries in the Omoplata position escalate rapidly once tissue limits are reached."

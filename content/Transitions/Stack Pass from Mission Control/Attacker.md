@@ -90,7 +90,7 @@ description: "Complete guide to executing the Stack Pass from Mission Control. L
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their hips for an omoplata as you initiate the stack—how do you respond?",
+      "name": "They start rotating their hips for an omoplata as you stack: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately squeeze your elbows even tighter and pull your trapped arm across your body toward the opposite hip to prevent the arm from being isolated. If the rotation continues, posture up and circle toward their head to extract the arm before they can flatten you. The key is recognizing the hip rotation early—once the omoplata is fully locked, escape becomes much harder."

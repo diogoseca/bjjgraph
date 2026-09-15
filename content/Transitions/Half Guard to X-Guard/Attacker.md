@@ -74,7 +74,7 @@ description: "Complete attacking guide for the Half Guard to X-Guard transition.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical body position adjustment before attempting to insert the butterfly hook from half guard?",
+      "name": "What body position adjustment is critical before inserting the butterfly hook from half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must hip escape to create an angle that positions your hips underneath the opponent before inserting the butterfly hook. Attempting hook insertion while flat on your back allows the top player to drive crossface pressure and flatten you, making the transition impossible. The hip escape creates the space and angle needed to thread your leg behind their knee joint."
@@ -82,7 +82,7 @@ description: "Complete attacking guide for the Half Guard to X-Guard transition.
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure when you begin hip escaping - how do you adjust your entry strategy?",
+      "name": "They crossface heavily as you hip escape for X-guard — how do you adjust your entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When heavy crossface prevents standard hip escape, redirect into a deep half guard entry instead, using the opponent's forward pressure to assist getting underneath them. From deep half, you can then thread into X-Guard from an even deeper angle. Alternatively, frame against the crossface with your forearm to create enough space for a quick hip escape, then immediately insert the hook before they can re-establish flattening pressure."
@@ -106,7 +106,7 @@ description: "Complete attacking guide for the Half Guard to X-Guard transition.
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins standing up when they feel your butterfly hook insertion - what opportunity does this create?",
+      "name": "They stand up as you insert the butterfly hook for X-guard — what opportunity is that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "An opponent standing up actually improves your X-Guard entry by creating space underneath for you to slide into position. Follow their upward movement by deepening your hooks and elevating your hips. Their standing posture makes them more vulnerable to X-Guard sweeps because they have a higher center of gravity and reduced ability to use chest pressure to collapse your guard structure."

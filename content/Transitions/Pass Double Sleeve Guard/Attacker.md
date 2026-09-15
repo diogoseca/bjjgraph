@@ -90,7 +90,7 @@ description: "Complete attacking guide for passing Double Sleeve Guard. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent pulls your sleeve grips forward aggressively — what does this indicate and how should you respond?",
+      "name": "They pull your sleeve grips hard forward: what does it signal and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pulling indicates they are loading a sweep attempt, likely a scissor sweep, push sweep, or technical stand-up. Immediately widen your base by stepping your feet wider apart and sit your hips back firmly. Do not fight the pull with your arms as this wastes energy. Use your structural posture to resist while waiting for them to commit their energy forward, then initiate your grip break when their pulling force relaxes."
@@ -114,7 +114,7 @@ description: "Complete attacking guide for passing Double Sleeve Guard. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent transitions one foot to your bicep as you attempt to break their grip — how do you adjust?",
+      "name": "They put a foot on your bicep as you break their sleeve grip: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the bicep hook immediately before it settles into a full spider guard configuration. Swim your elbow inside the foot to knock it off the bicep, or step back sharply to remove the contact point entirely. If the foot establishes firmly, you may need to transition your passing approach to address spider guard mechanics rather than continuing with the double sleeve passing sequence, as spider guard with one sleeve grip is significantly stronger defensively."

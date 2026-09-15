@@ -267,7 +267,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand on the mat as they drop, blocking your leg from threading underneath. How do you adjust?",
+        "question": "They post a hand as they drop, blocking your truck hook—how do you adjust?",
         "answer": "Use your chest pressure to drive the opponent's upper body past their posting hand, collapsing their arm and creating the space needed for your hook. Alternatively, change the angle of your hook entry by swinging your leg slightly more toward their far hip rather than directly under their center. If the post is too strong, abandon the Truck entry and transition to a standard back take by inserting hooks, then look for Truck entry opportunities later from grounded back control.",
         "answer_line": "Chest pressure collapses the post",
         "distractors": {
@@ -309,7 +309,7 @@
         }
       },
       {
-        "question": "The opponent grabs your hooking leg with both hands during the entry. What opportunity does this create?",
+        "question": "They grab your hooking leg with both hands during the truck entry—what does that open?",
         "answer": "When the opponent commits both hands to stripping your leg hook, their neck and arms become completely undefended. This creates an immediate opportunity to attack the rear naked choke by sliding your choking arm under their chin while they focus on your leg. Alternatively, you can switch to hooking with the opposite leg on their other side while their hands are occupied. Their defensive choice to address your leg has traded neck defense for leg defense, which is a favorable exchange for the attacker.",
         "answer_line": "Attack RNC while neck's undefended",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent stays completely upright in standing back control and refuses to drop. Should you force the Truck entry?",
+        "question": "They stay upright in standing back control—should you force the truck entry?",
         "answer": "No — against strong standing posture, attack with chokes, a body triangle, or mat returns until they lower their base. The Truck Position Entry specifically exploits the descent from standing to ground. Threaten the rear naked choke to force defensive reactions, apply a body triangle to compromise their base, or execute a mat return takedown; these attacks often force the opponent to eventually lower their base and create the Truck entry opportunity. Forcing a Truck entry against a postured standing opponent results in losing back control entirely.",
         "distractors": {
           "plausible": [
@@ -351,7 +351,7 @@
         "answer_line": "No, attack chokes/triangle first"
       },
       {
-        "question": "What submissions become immediately available after successfully entering Truck from standing back control?",
+        "question": "Which submissions open immediately once you enter the truck from standing back control?",
         "answer": "The Truck opens the full Twister system: the Twister, Calf Slicer, Banana Split, and alternative back takes. The Twister is a spine lock applied by controlling the far leg and adding rotational torque; the Calf Slicer comes from triangling your legs around the opponent's trapped leg; the Banana Split is a groin stretch from controlling both legs and spreading them apart; and back takes come from releasing the Truck and inserting hooks. The Calf Slicer is often the fastest available attack since your leg is already in position, while the Twister requires additional leg control setup.",
         "distractors": {
           "plausible": [
@@ -379,7 +379,7 @@
         "answer_line": "Posts as brake, then locks leg"
       },
       {
-        "question": "During the descent your opponent flattens their hips to the mat instead of landing on hands and knees. How does this affect your hook threading?",
+        "question": "They land belly-down instead of on hands and knees—how does that affect your hook threading?",
         "answer": "A flat hip position on the mat eliminates the space underneath the opponent's body that you need for threading the hook. To counter this, you must use your chest pressure to angle the opponent onto their side during the descent rather than allowing them to go belly-down. Drive your weight into one shoulder to create asymmetric pressure, forcing them to land laterally. If they succeed in flattening, switch to spiral ride pressure from top position and work to create hip space by lifting their near hip with your knee before reattempting the hook.",
         "answer_line": "Angle them onto their side",
         "distractors": {
@@ -521,7 +521,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the three elements the attacker needs to complete the Truck Position Entry, and how can you disrupt each one?",
+        "question": "What three elements does the truck entry require, and how do you disrupt each?",
         "answer": "The attacker needs a controlled descent, a threaded leg hook, and a completed roll. Disrupt the descent by maintaining standing position or controlling your own drop to a squared, flat turtle. Disrupt the hook by keeping hips flat with elbows tucked or stripping the hook with your hands before it crosses your centerline. Disrupt the roll by sitting through to face the attacker or driving your hips flat to the mat to create friction that prevents the lateral rolling motion.",
         "answer_line": "Descent, hook, roll, disrupt each",
         "distractors": {
@@ -535,7 +535,7 @@
         }
       },
       {
-        "question": "You feel the attacker's shin beginning to slide under your hip as your knees hit the mat. What is your immediate response?",
+        "question": "You feel their shin sliding under your hip as your knees hit the mat—what do you do?",
         "answer": "Immediately use both hands to grab the attacker's hooking leg and push it away from your centerline before it can cross to the far side. Simultaneously drive your hips flat to the mat and squeeze your knees together to close the channel the hook is threading through. Accept that your neck is momentarily less defended and rely on chin tuck and shoulder positioning for neck protection during this critical moment. If the hook clears before you can strip it, switch to sit-through defense.",
         "answer_line": "Grab leg, hips flat, knees squeeze",
         "distractors": {
@@ -549,7 +549,7 @@
         }
       },
       {
-        "question": "Why is an uncontrolled descent from standing particularly dangerous against an attacker who knows the Truck entry?",
+        "question": "Why is an uncontrolled descent so dangerous against someone hunting the truck entry?",
         "answer": "An uncontrolled descent allows the attacker to guide the angle and speed of your fall, directing you onto the side where their hook threading angle is optimal. During an uncontrolled drop, your defensive structure is not yet formed: elbows are not tucked, hips are not squared, and you have no conscious control over your landing position. This gives the attacker the maximum window to thread the hook before you can establish any defensive shell. A controlled descent on your own terms denies the attacker this angular advantage.",
         "answer_line": "Attacker guides your fall angle",
         "distractors": {
@@ -563,7 +563,7 @@
         }
       },
       {
-        "question": "When should you prioritize stripping the leg hook versus maintaining neck defense during the Truck entry attempt?",
+        "question": "During a truck entry attempt, when do you strip the hook instead of defending your neck?",
         "answer": "Prioritize stripping the leg hook when you feel it actively threading under your hip during the descent. The Truck position is arguably more dangerous than standing back control because it opens multiple submission paths including the Twister spine lock. Use structural neck defense through chin tuck and shoulder shrugging rather than hand-based defense, which frees your hands to address the hook. Once the hook is stripped or prevented, you can return hand attention to neck defense from turtle.",
         "answer_line": "Strip hook, defend neck structurally",
         "distractors": {
@@ -577,7 +577,7 @@
         }
       },
       {
-        "question": "Your attacker is driving you down at an angle, clearly setting up the Truck entry. You cannot stay standing. What is the optimal defensive descent strategy?",
+        "question": "They're driving you down at an angle for the truck and you can't stay up—how do you descend?",
         "answer": "If you must go to ground, execute a deliberate drop in the opposite direction from where the attacker is angling you. If they are pushing you to the right for a right-side hook, drop your weight to the left and square your hips. Tuck your elbows immediately on landing and drive your hips flat. This forces the attacker to either abandon the Truck entry and follow to standard back control, or attempt the hook on the wrong angle where their leg position is not optimal. Controlling the direction of your descent is more important than the speed.",
         "answer_line": "Drop opposite angle, square hips",
         "distractors": {

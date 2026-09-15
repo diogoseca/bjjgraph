@@ -90,7 +90,7 @@ description: "How to execute Leg Extraction from Lapel Wrap in BJJ. Systematic g
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a sweeping motion while both your hands are committed to grip breaking - what is the correct response?",
+      "name": "They start a sweep while both your hands work the lapel grip break — correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your base with your free leg and drop your hips lower rather than completing the grip break. Post with your extraction hand if necessary to prevent the sweep. Accept that you need to restart the extraction sequence rather than fighting through the sweep attempt, which typically accelerates position loss."

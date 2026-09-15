@@ -52,7 +52,7 @@ description: "How to defend against Monoplata from Mount in BJJ. Recognition, es
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up a monoplata from mount, and what should your immediate response be?",
+      "name": "What is the earliest cue of a monoplata setup from mount, and what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when the attacker isolates one of your arms from high mount while simultaneously controlling your head or far arm. Your immediate response should be to pull the isolated arm back tight to your body, deny the high mount by bumping your hips to prevent knee advancement, and ensure your free hand is ready to grab their leg if they begin the threading motion. Preventing arm isolation is your highest-percentage defense."
@@ -60,7 +60,7 @@ description: "How to defend against Monoplata from Mount in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to tap immediately once the monoplata figure-four is fully locked with hip extension pressure, rather than attempting to fight through it?",
+      "name": "Why tap immediately once the monoplata figure-four is locked with hip extension?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The monoplata applies rotational force to the shoulder joint through both internal rotation from the leg squeeze and external leverage from hip extension. Once these forces are applied simultaneously with a locked figure-four, the rotator cuff tendons and labrum are under catastrophic stress that can cause tearing in under two seconds. Unlike a choke where you may have a window to escape, shoulder damage from a locked monoplata is immediate and permanent. Surgical repair requires 3-12 months recovery."
@@ -68,7 +68,7 @@ description: "How to defend against Monoplata from Mount in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "Your opponent has swung their leg over your head but hasn't yet locked the figure-four - what defensive actions give you the best chance of preventing the submission?",
+      "name": "Bottom mount: their leg is over your head but the figure-four isn't locked, what is your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In this critical window, immediately grab their threading leg with your free hand at the ankle or shin to physically block the figure-four from closing. Simultaneously bridge toward the trapped arm side to exploit the attacker's compromised base during the transition. Keep your trapped arm bent and tight to your body. If you can prevent the feet from locking together, the monoplata cannot generate finishing pressure and the attacker must either reset to mount or attempt a different attack."
@@ -76,7 +76,7 @@ description: "How to defend against Monoplata from Mount in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "What is the difference between early-stage and late-stage monoplata defense, and why does timing determine which strategy you should use?",
+      "name": "How does early monoplata defense differ from late, and why does timing decide which you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Early-stage defense (before the figure-four closes) focuses on prevention: grabbing the threading leg, bridging to disrupt the transition, and keeping your arm from being isolated. These defenses have high success rates because they attack the technique before it reaches completion. Late-stage defense (figure-four locked) shifts to damage mitigation: clasping hands to prevent arm extension, turning toward the trapped arm to reduce leverage, and preparing to tap. Late-stage escapes are low-percentage because the mechanical advantage strongly favors the attacker once the lock is complete."
@@ -84,7 +84,7 @@ description: "How to defend against Monoplata from Mount in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your standard mount defense posture when you recognize that your opponent is specifically setting up the monoplata rather than traditional mount submissions?",
+      "name": "How should you adjust your mount defense when you recognize a monoplata setup specifically?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you recognize monoplata intent, maintain standard mount defense fundamentals (elbows tight, chin tucked, active hips) but add specific adjustments: prioritize keeping your arms symmetrically positioned close to your body to deny arm isolation on either side, increase hip activity with micro-bridges to prevent the attacker from settling into high mount, and position your free hand near your chest ready to intercept the threading leg. Do not abandon your fundamental defensive posture to address the specific threat—your core mount defense is your best prevention against the monoplata setup."

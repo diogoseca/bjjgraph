@@ -98,7 +98,7 @@ description: "Execute the Twister Side Control to Back Take with systematic prec
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far arm to brace against the mat and prevent you from circling to their back - how do you adjust?",
+      "name": "They post their far arm on the mat to block your circle to the back — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the posted arm as an opportunity rather than an obstacle. The posting arm is weight-bearing and cannot be used for defensive frames or grip fighting. Increase forward chest pressure to load weight onto their posted arm, then work your seatbelt grip around their posted arm to isolate it. Alternatively, swim your choking arm under their posted arm to establish an underhook that helps you circle to the back while their arm is committed to posting."
@@ -106,7 +106,7 @@ description: "Execute the Twister Side Control to Back Take with systematic prec
     },
     {
       "@type": "Question",
-      "name": "What is the critical hip position that determines success or failure during the final phase of this transition?",
+      "name": "Taking the back from Twister side control, what hip height decides success or failure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your hips must drop below the opponent's hip line during the transition to back control. If your hips remain level with or above the opponent's hips, you ride high on their back and they can bridge and roll you over. Dropping your hips below theirs creates a low center of gravity that makes your back control stable and resistant to reversal attempts. This low hip position also enables effective hook insertion by angling your legs downward into the thigh gap."
@@ -114,7 +114,7 @@ description: "Execute the Twister Side Control to Back Take with systematic prec
     },
     {
       "@type": "Question",
-      "name": "How do you maintain control continuity when releasing the Twister Side Control leg hook to insert back control hooks?",
+      "name": "How do you keep control while swapping the Twister side control leg hook for back hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Control continuity requires the seatbelt grip to be carrying the entire control load before any leg movement begins. Once the seatbelt is secure, release the leg entanglement gradually while driving your chest forward to prevent any gap. The near-side hook must be inserted immediately as the leg clears, ensuring that at no point during the transition are both legs free without established back control hooks. The transition should feel like exchanging one control system for another rather than releasing and re-establishing."

@@ -64,7 +64,7 @@ description: "Defend against the Standing Guard Pull in BJJ. Recognition cues, c
     },
     {
       "@type": "Question",
-      "name": "How should your body weight distribution change the moment you recognize a guard pull is being initiated?",
+      "name": "How should your weight shift the instant you read a guard pull coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately shift your weight slightly forward onto the balls of your feet and engage your core to resist the pulling force. Lower your center of gravity by bending your knees to maintain base while preparing to drive forward. Do not sit your hips back or lean away—this creates the distance the puller needs. Your weight should be distributed to enable an explosive forward drive that can crash through the developing guard structure. Think of loading your hips to spring forward rather than bracing backward against the pull."
@@ -80,7 +80,7 @@ description: "Defend against the Standing Guard Pull in BJJ. Recognition cues, c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has pulled guard and established sleeve grips but has not yet inserted hooks—what is your immediate priority?",
+      "name": "They pulled guard with sleeve grips but no hooks yet: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is advancing your hips past the opponent's leg line before they insert hooks. Drive your lead knee forward between their thighs and drop your weight to pin their hips while stripping or pummeling past their sleeve grips. The hooks are more dangerous than the grips—sleeve grips without hooks create pulling force but no structural guard, while hooks without grips still create a functional guard framework. Address the legs first by advancing past them, then deal with the grip fighting from a dominant half guard or headquarters position."

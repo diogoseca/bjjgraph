@@ -114,7 +114,7 @@ description: "How to execute Reverse Heel Hook Counter in BJJ. Attacking perspec
     },
     {
       "@type": "Question",
-      "name": "Your counter entry is successful but opponent accelerates their finish during the exchange. What determines who wins?",
+      "name": "In a reverse heel hook counter exchange, what decides which player finishes first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Leg lock exchanges favor whoever established position first, has superior finishing mechanics, and maintains better defensive posture on their own leg. If you entered after they already had deep control, they likely finish first. The counter is most effective when initiated during their adjustment phase before deep grip establishment."

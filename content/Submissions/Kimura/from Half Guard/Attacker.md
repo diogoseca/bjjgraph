@@ -70,7 +70,7 @@ description: "How to execute Kimura from Half Guard in BJJ. Attacking perspectiv
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum application time for shoulder rotation during training, and why is this critical?",
+      "name": "How long should Kimura shoulder rotation take in training, and why does that matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The minimum application time is 3-5 seconds of progressive, smooth rotation. This is critical because the shoulder joint is extremely vulnerable to sudden torque, and rapid application can cause rotator cuff tears, shoulder dislocation, or labral damage before the partner has time to recognize the danger and tap. Slow application in training protects your partner's long-term health while still teaching proper finishing mechanics. Competition speed is faster but should never involve jerking motions."
@@ -78,7 +78,7 @@ description: "How to execute Kimura from Half Guard in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "What are the three primary threats created by the Kimura from half guard, and how does the opponent's defense determine which path you take?",
+      "name": "What three threats does the half guard Kimura create, and how does their defense pick your path?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three primary threats are: (1) the Kimura submission itself through shoulder rotation, (2) the sweep to top position when opponent posts their free hand, and (3) the back take when opponent turns into the grip to relieve pressure. The opponent's defensive choice determines your path: if they stay stationary and defend the rotation, continue to submission; if they post out, execute the sweep; if they turn toward you, take the back. This trilemma structure makes the position so powerful."
@@ -102,7 +102,7 @@ description: "How to execute Kimura from Half Guard in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "Why must you keep the opponent's elbow isolated close to their body and off the mat during Kimura setup and execution?",
+      "name": "Why keep their elbow tight to their body and off the mat during the half guard Kimura?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keeping the elbow isolated close to the ribs and off the mat maintains the structural vulnerability of the shoulder joint. If their elbow touches the mat, they gain a posting base that allows them to generate counter-pressure and escape the rotational mechanics of the submission. The isolated elbow position maximizes leverage for shoulder rotation while minimizing their defensive options. This positional detail is the difference between a tight, high-percentage submission and a defended escape opportunity."
@@ -110,7 +110,7 @@ description: "How to execute Kimura from Half Guard in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "What is the proper grip configuration for the Kimura figure-four, and what common grip mistake reduces effectiveness?",
+      "name": "What is the correct Kimura figure-four grip, and which grip error weakens it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The proper figure-four uses a palm-to-palm or wrist-to-wrist grip where you control the opponent's wrist with one hand and grip your own wrist with the other hand, creating a closed loop. The common mistake is gripping your own fingers instead of wrist, which creates a weaker connection that can be broken under pressure. Another error is crossing your arms incorrectly so that rotation moves the wrong direction. The figure-four should be tight and secure before any rotational pressure is applied."

@@ -64,7 +64,7 @@ description: "Counter the hip escape from truck as the top player. Maintain truc
     },
     {
       "@type": "Question",
-      "name": "When should you transition from maintaining truck to establishing back control during an escape attempt?",
+      "name": "During their escape, when do you leave the truck to take back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to back control when the bottom player has created enough distance through hip escapes that your leg entanglement is loosening and their trapped leg shows active extraction movement. The decision point is when maintaining truck requires more energy and creates more risk than transitioning. If you feel their knee circling or ankle rotating within your entanglement, the truck is compromised and back control insertion should begin immediately."
@@ -80,7 +80,7 @@ description: "Counter the hip escape from truck as the top player. Maintain truc
     },
     {
       "@type": "Question",
-      "name": "What is the most effective counter when the bottom player successfully creates distance with their first hip escape?",
+      "name": "What is your best counter once they create distance with their first hip escape from truck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their movement immediately by driving your hips forward and re-establishing chest-to-back connection before they can execute a second hip escape. The bottom player's escape depends on cumulative distance from sequential shrimps, so closing the gap after the first movement resets their progress. Simultaneously increase boot pressure and tighten leg entanglement to make their second attempt more difficult than their first."

@@ -312,7 +312,7 @@
         }
       },
       {
-        "question": "Your extraction attempt stalls halfway - the arm is partially free but opponent is adjusting. What do you do?",
+        "question": "Your extraction stalls with the arm half free as they adjust. What do you do?",
         "answer": "You must make an immediate binary decision: commit fully to completing extraction or abort completely and return to base attacks. A partially extracted arm in limbo is the worst-case scenario because it gives the opponent time to re-trap at a different angle. If the entanglement is loose enough to continue, accelerate through to turtle. If opponent is tightening, withdraw the arm and reset entirely.",
         "answer_line": "Commit fully or abort fully",
         "distractors": {
@@ -326,7 +326,7 @@
         }
       },
       {
-        "question": "Your opponent follows your hip movement and re-angles their pressure. How do you chain escape attempts?",
+        "question": "They follow your hips and re-angle their pressure. How do you chain escape attempts?",
         "answer": "Continue creating new angles rather than fighting from a static position. Chain multiple hip escape movements together in alternating directions - escape right, then left, then right again. Each directional change forces opponent to readjust their pressure angle, and they cannot maintain optimal tightness while constantly repositioning. Use each adjustment moment as a potential extraction window.",
         "answer_line": "Chain alternating hip angles",
         "distractors": {
@@ -526,7 +526,7 @@
         }
       },
       {
-        "question": "Your opponent chains multiple hip escapes in alternating directions - what is the correct defensive response?",
+        "question": "They chain hip escapes in alternating directions. What is your correct response?",
         "answer": "Match their directional changes with your own hip adjustments, maintaining pressure alignment through each transition. Focus on keeping your leg squeeze constant even as you reposition. The opponent is trying to create cumulative loosening through repeated adjustments. Your goal is to make each re-angle as tight as the original position. If you fall behind their movement tempo, prioritize maintaining entanglement over maintaining perfect pressure angle.",
         "answer_line": "Match angles, keep squeeze on",
         "distractors": {

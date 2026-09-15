@@ -74,7 +74,7 @@ description: "Learn to defend the cross collar choke from body triangle. Recogni
     },
     {
       "@type": "Question",
-      "name": "Why should collar grip defense be prioritized over body triangle escape when the attacker begins collar work?",
+      "name": "Why defend the collar grips before escaping the body triangle once collar work begins?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The cross collar choke is the immediate finishing threat that can end the match in seconds. The body triangle, while uncomfortable, is a controlling position that does not directly produce a submission. Addressing the body triangle while ignoring collar grips allows the attacker to set up an uncontested choke, whereas defending the collar first neutralizes the immediate danger and gives you time to work the positional escape."
@@ -90,7 +90,7 @@ description: "Learn to defend the cross collar choke from body triangle. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your attacker switches between collar grip attempts and rear naked choke setups - how should you adjust your defense?",
+      "name": "The attacker alternates collar grips and RNC setups - how should you divide your hands?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep one hand always positioned to defend the neck and the other fighting collar grips. When the attacker switches to RNC, redirect your collar-defense hand to neck protection. When they switch back to collar, move one hand to collar defense. Avoid committing both hands to one threat, as this opens the other submission pathway. Accept that you cannot fully prevent both attacks and focus on surviving long enough to create an escape opportunity."

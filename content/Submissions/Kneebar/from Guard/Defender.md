@@ -52,7 +52,7 @@ description: "How to defend against Kneebar from Guard in BJJ. Recognition, esca
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to tap immediately when finishing pressure begins on a kneebar rather than attempting a late escape?",
+      "name": "Why must you tap as kneebar finishing pressure begins rather than attempt a late escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee joint has minimal tolerance for hyperextension compared to other joints, and the transition from controlled pressure to catastrophic ligament damage can occur in less than one second. Unlike chokes where unconsciousness provides a gradual warning, knee hyperextension can cause immediate PCL tears, MCL ruptures, and meniscus damage before you have time to execute an escape. Attempting explosive escapes under finishing pressure adds dangerous rotational forces that compound the injury risk. The cost of tapping is restarting the roll; the cost of a late escape attempt is potentially 6-12 months of surgical recovery."
@@ -60,7 +60,7 @@ description: "How to defend against Kneebar from Guard in BJJ. Recognition, esca
     },
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating a kneebar from guard, and what should your immediate response be?",
+      "name": "What is the earliest cue that your opponent is starting a kneebar from guard, and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling your opponent open their guard while simultaneously gripping your ankle or pants near your knee and beginning to pivot their hips. This hip rotation is the critical tell - their body starts turning perpendicular to your trapped leg. Your immediate response must be to drive your weight forward, maintain your posture, and deny the space they need to complete the perpendicular pivot. Place your free hand on their hip to prevent the rotation and keep your knees driving into them to collapse the distance. Acting in this first 1-2 second window gives you the highest probability of shutting down the attack entirely."
@@ -68,7 +68,7 @@ description: "How to defend against Kneebar from Guard in BJJ. Recognition, esca
     },
     {
       "@type": "Question",
-      "name": "Why should you move toward the attacker rather than pulling away when defending a kneebar from guard?",
+      "name": "Why should you move toward the attacker rather than pull away when defending a kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kneebar's mechanical leverage requires distance between the attacker's hips (the fulcrum) and your heel (the lever arm). Pulling away increases this distance and actually strengthens the submission by driving your heel deeper into their control and creating a longer lever arm for hyperextension. Moving toward the attacker collapses this distance, reducing or eliminating the lever arm they need. Sitting up and driving your chest toward them also allows you to reach their hands for grip fighting to strip heel control, and a bent knee driven forward is biomechanically resistant to hyperextension."
@@ -76,7 +76,7 @@ description: "How to defend against Kneebar from Guard in BJJ. Recognition, esca
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the perpendicular angle but has not locked the leg triangle yet - what specific defensive actions should you take in this window?",
+      "name": "They have the perpendicular angle but no leg triangle yet: what do you do in this window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grab your own knee or shin with BOTH hands, interlocking your fingers or using a gable grip for maximum security. Pull your trapped leg tight to your chest to prevent the attacker from threading their inside leg across your thigh. Simultaneously begin posturing up by driving your hips forward and lifting your chest. Use your free leg to step toward the attacker's head, looking for the opportunity to step over and establish a defensive hook. This combined defense of grip protection and posture recovery attacks two elements the attacker needs: leg isolation and your positional weakness. Time is critical in this window - every second of delay makes the leg triangle lock more likely."
@@ -84,7 +84,7 @@ description: "How to defend against Kneebar from Guard in BJJ. Recognition, esca
     },
     {
       "@type": "Question",
-      "name": "Why is attempting an explosive rotational escape the most dangerous defensive error when a kneebar finish is being applied?",
+      "name": "Why is an explosive rotational escape the most dangerous error once the kneebar finish starts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive rotation while the knee is under hyperextension pressure adds torque to the joint in a plane it is not designed to resist. The knee primarily moves in flexion and extension; adding rotational force under hyperextension load attacks the anterior cruciate ligament (ACL) in addition to the posterior cruciate ligament (PCL) already under stress from the hyperextension. This compound loading mechanism can cause simultaneous multi-ligament injury, which is catastrophically worse than a single-ligament tear. Multi-ligament knee injuries often require multiple surgeries, 12+ months of rehabilitation, and may result in permanent instability. A controlled tap preserves all ligaments intact."

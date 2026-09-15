@@ -88,7 +88,7 @@ description: "Execute the Kimura from Diamond Guard as the bottom player. Step-b
     },
     {
       "@type": "Question",
-      "name": "How does the existing overhook facilitate the Kimura grip establishment compared to starting from scratch?",
+      "name": "For the Kimura from diamond guard, how does the overhook help compared to building the grip fresh?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The overhook provides continuous arm control throughout the grip transition, eliminating the most difficult aspect of Kimura attacks — initially isolating and controlling the opponent's arm. Without the overhook, you must simultaneously break grips, control the arm, and thread the figure-four against active resistance. The diamond guard overhook has already accomplished arm isolation, so you only need to add the wrist control and convert the overhook into the second half of the figure-four, making the transition significantly faster and higher percentage."

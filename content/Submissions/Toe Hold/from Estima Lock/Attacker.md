@@ -78,7 +78,7 @@ description: "How to execute the toe hold from Estima Lock. Step-by-step grip tr
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts counter-rotating their ankle against your Estima Lock—how does this create the toe hold opportunity?",
+      "name": "How does your opponent counter-rotating their ankle against the Estima Lock open the toe hold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent counter-rotates to defend the Estima Lock, they change the angle of their forefoot relative to your grip position. This defensive rotation exposes their toes and ball of foot for the cupping grip that the Estima Lock forearm position previously blocked. Their active defense of one attack is precisely what creates vulnerability to the other, making the chain highly effective against technically skilled defenders."
@@ -94,7 +94,7 @@ description: "How to execute the toe hold from Estima Lock. Step-by-step grip tr
     },
     {
       "@type": "Question",
-      "name": "What is the minimum application speed for the toe hold and why is this a safety-critical requirement?",
+      "name": "What is the minimum toe hold application time, and why is that safety-critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The toe hold must be applied over a minimum of five to seven seconds from initial grip establishment to full pressure. The small joints of the foot and ankle have very low injury thresholds compared to larger joints like the knee or shoulder. Rapid application can cause ligament tears, toe fractures, or Lisfranc injuries before the defender has time to recognize the danger and tap. In training, always err on the side of slower application."
@@ -110,7 +110,7 @@ description: "How to execute the toe hold from Estima Lock. Step-by-step grip tr
     },
     {
       "@type": "Question",
-      "name": "Your rotational pressure stalls and the opponent stabilizes their ankle despite your maintained grip—what should you do?",
+      "name": "Your toe hold rotation stalls and they stabilise the ankle despite your grip—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When rotational pressure stalls, do not simply increase arm force. Instead, adjust your body angle to find a new rotational vector by circling your hips. If the opponent has genuinely neutralized your angle through counter-rotation and framing, transition back to the Estima Lock or flow to an alternative leg attack rather than forcing a mechanically compromised finish. Forcing stalled pressure wastes energy and risks losing the position entirely."

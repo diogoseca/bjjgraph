@@ -56,7 +56,7 @@ description: "How to defend against Gift Wrap to Technical Mount in BJJ. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the Gift Wrap to Technical Mount transition is being attempted?",
+      "name": "What is the earliest cue that the Gift Wrap to technical mount transition is starting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the far side hook disengaging while the near side hook pressure increases or shifts to actively direct your hip rotation. This hook removal is necessary for the attacker to clear their knee across your body and is the most reliable early warning signal. Defensive action should begin the instant this is felt."
@@ -72,7 +72,7 @@ description: "How to defend against Gift Wrap to Technical Mount in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your attacker has removed their far hook and you feel the rotation beginning - what is your immediate two-step defensive sequence?",
+      "name": "Their far hook is out and rotation begins: what two-step defense do you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, post your free foot on the mat and bridge your hips to prevent flattening while simultaneously shrimping your hips away from the attacker. Second, use your free arm to create a structural frame against the attacker's transitioning knee with your elbow bent, blocking it from crossing your hip line. These two actions work together - the hip movement creates distance while the frame blocks advancement."

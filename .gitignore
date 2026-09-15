@@ -109,8 +109,12 @@ e2e/tests/
 e2e/paired/
 
 # Dev snapshot captures (written by scripts/dev-serve.mjs; see CLAUDE.md "Dev Snapshots").
-# Only this subdir — the rest of tests/artifacts/ is tracked.
+# Ignore specific run outputs; baselines and budgets in tests/artifacts/ stay tracked.
 tests/artifacts/snapshots/
+# Content regeneration reports (recreated per run; validation lists precede repairs).
+tests/artifacts/all_content_files_to_fix.txt
+tests/artifacts/all_content_validated_and_ready_to_hook.txt
+tests/artifacts/explode_report.json
 # Replay artifacts: run outputs of scripts/triple_replay.sh + the replay-digest spec. Regenerable,
 # per-run, and only meaningful compared against each other within one invocation.
 tests/artifacts/triple_replay/

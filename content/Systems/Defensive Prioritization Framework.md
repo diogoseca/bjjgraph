@@ -170,6 +170,8 @@ Most practitioners accumulate escapes as a disconnected collection of techniques
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill Defensive Prioritization Framework?
@@ -296,6 +298,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -396,5 +400,7 @@ The framework is best developed through progressive resistance drilling that beg
 
 
 </section>
+
+
 
 </main>

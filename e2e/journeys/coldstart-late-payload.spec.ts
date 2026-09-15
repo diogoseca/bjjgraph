@@ -21,9 +21,16 @@ import { journey } from "../dsl";
  * wall-clock assertions: sim time is pumped by the spec, so the ordering is exact on any machine.
  *
  * MIND THE ORIGIN. `afterSim` counts from BOOT, the same origin as the timeline above — so the
- * EIGHTEEN-second silence between the hand and the decks is `afterSim: 25`, and the assertion that
- * pins it measures `releasedAtSim - (sim clock when the hand was dealt)`, not lateness from boot.
- * Declared as 18 and measured from boot, this spec modelled 13 of the 18 seconds it quoted.
+ * silence between the hand and the decks is `afterSim: 25`, and the assertion that pins it
+ * measures `releasedAtSim - (sim clock when the hand was dealt)`, not lateness from boot.
+ * Declared as 18 and measured from boot, this spec once modelled 13 of the 18 seconds it quoted.
+ *
+ * v1.168.0 MOVED ONE OF THE TWO EVENTS. The deck payload's 25.3s is a NETWORK fact and did not
+ * change; the hand is a UI fact and did — the staged arrival deals it at ~10.2s (intro 3.2 +
+ * arrival 6.2 + the deal), where the probe's build dealt at 7.0. The window this spec exists to
+ * pin — the visitor playing their opening decision with no question, no definition, no film —
+ * is therefore now ~15s, and the floor below is 25 − 10.2, minus the 1s the sim pump quantizes
+ * by: 14. A mutant serving the decks instantly still goes red by ~24s.
  */
 
 type Mark = {
@@ -82,7 +89,7 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
   // reached without stubbing anything on the app: the real fetch is simply still in flight.
   const j = journey(page);
   // afterSim is measured from BOOT, the same origin as the measured timeline — so the production skew
-  // (hand @7.0s, decks @25.3s: eighteen seconds of silence between them) is `afterSim: 25`, not 18.
+  // (decks @25.3s from boot; the hand @~10.2s since v1.167.0) is `afterSim: 25`, not the gap.
   // Declared as 18, with the harness dealing this hand at sim 5.0s, it modelled 13 of those 18
   // seconds — which is why the assertion at the bottom measures the gap FROM THE HAND, not from boot.
   await j.boot("/", {
@@ -153,7 +160,7 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
     "the card the visitor is STILL looking at gains its question",
   ).toBe(1);
 
-  // the timeline is the evidence: requested near sim-zero, served ~18 simulated seconds later
+  // the timeline is the evidence: requested near sim-zero, served ~25 simulated seconds later
   const tl = j.payloadTimeline().filter((p) => /flashcards\/_index\.json/.test(p.url));
   expect(tl.length, "the deck payload was requested exactly once").toBe(1);
   expect(
@@ -161,13 +168,14 @@ test("cold start: the harness can hold a payload back, and the app plays its fir
     "asked for during boot, before any sim time was pumped",
   ).toBe(0);
   // THE SKEW IS A GAP BETWEEN TWO EVENTS, so it is measured between them. Asserting only
-  // `releasedAtSim >= 18000` measured lateness from BOOT and quietly counted the ~7 seconds the
+  // `releasedAtSim >= 18000` measured lateness from BOOT and quietly counted the seconds the
   // visitor spent waiting for the hand as part of the silence they endured WITH it.
   expect(
     tl[0].releasedAtSim! - handAtSim,
-    `the decks land at least 18 simulated seconds AFTER the hand was dealt — the production skew ` +
-      `(hand @7.0s, decks @25.3s). hand at ${handAtSim}ms, payload ${JSON.stringify(tl[0])}`,
-  ).toBeGreaterThanOrEqual(18000);
+    `the decks land at least 14 simulated seconds AFTER the hand was dealt — the production skew ` +
+      `(decks @25.3s from boot, hand @~10.2s under the v1.168.0 staged arrival). ` +
+      `hand at ${handAtSim}ms, payload ${JSON.stringify(tl[0])}`,
+  ).toBeGreaterThanOrEqual(14000);
 });
 
 test("cold start: a spine step that arrives too EARLY is stamped out of order", async ({

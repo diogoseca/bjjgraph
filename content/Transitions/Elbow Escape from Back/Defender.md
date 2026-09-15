@@ -58,7 +58,7 @@ description: "Complete guide to defending against the elbow escape from your bac
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your hook depth when you feel an elbow frame building pressure against your top leg?",
+      "name": "How do you adjust hook depth when their elbow frame pressures your top leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your hook deeper by actively pulling your heel toward the opponent's far hip, increasing muscular engagement to resist the elbow frame. Simultaneously drive your hips forward to maintain hip-to-hip connection and eliminate the space the opponent needs for their downward hip escape. The combination of deeper hooks and forward hip pressure counters both the frame leverage and the hip escape direction."
@@ -74,7 +74,7 @@ description: "Complete guide to defending against the elbow escape from your bac
     },
     {
       "@type": "Question",
-      "name": "What seatbelt adjustment prevents the opponent from successfully stripping your harness grip during the escape?",
+      "name": "Which seatbelt adjustment stops them stripping your harness grip during their escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Clasp your hands tightly together at the centerline of the opponent's chest with your choking arm over their shoulder and control arm under their armpit. When they begin stripping, drive your chest pressure forward into their back to create compression that makes grip breaking mechanically harder. You can also switch to a higher seatbelt position with your choking arm across their throat."

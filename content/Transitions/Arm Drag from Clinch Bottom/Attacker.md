@@ -74,7 +74,7 @@ description: "Complete guide to executing the arm drag from clinch bottom. Step-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the correct direction of pull for the arm drag, and why does this direction matter mechanically?",
+      "name": "Which direction do you pull the arm drag from clinch, and why does that vector work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pull the opponent's wrist diagonally toward your near hip, not horizontally across your body. This diagonal pull direction matters because it creates rotational force on the opponent's torso, turning their shoulders away from you and exposing the back. A horizontal pull leaves you squared up to them with no angular advantage, requiring additional steps to reach the back. The diagonal angle also keeps your elbows tight to your body, maximizing mechanical efficiency."
@@ -82,7 +82,7 @@ description: "Complete guide to executing the arm drag from clinch bottom. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a strong collar tie and is pressuring you forward in the clinch. How do you create the arm extension needed to initiate the arm drag?",
+      "name": "They have a strong collar tie and pressure. How do you get the extension to arm drag?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use a sharp push-pull sequence to disrupt their collar tie control. First, push their elbow upward to momentarily break the collar tie pressure, forcing them to re-extend their arm to re-establish the grip. In that moment of re-extension, capture their wrist with your drag hand and their tricep with your guide hand. Alternatively, execute a snap down attempt that they resist by posting their hands forward, which creates the arm extension you need. The key principle is creating a reaction that forces their arm to extend rather than reaching for a retracted arm."
@@ -98,7 +98,7 @@ description: "Complete guide to executing the arm drag from clinch bottom. Step-
     },
     {
       "@type": "Question",
-      "name": "What grip configuration should you use for the two-on-one control, and how does it differ between gi and no-gi?",
+      "name": "Which two-on-one grips do you use for the clinch arm drag, and how do gi and no-gi differ?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In both contexts, the fundamental configuration is the same: drag hand on the wrist and guide hand on the tricep. In no-gi, use a C-grip on the wrist crease where the hand meets the forearm, and a full grip on the tricep muscle belly. In gi, you can grip the sleeve at the wrist with your drag hand for superior control and use a pistol grip on the sleeve near the elbow with your guide hand. The gi grips allow for more sustained control if the initial drag attempt is defended, while no-gi requires faster execution because grips can be stripped more easily."
@@ -106,7 +106,7 @@ description: "Complete guide to executing the arm drag from clinch bottom. Step-
     },
     {
       "@type": "Question",
-      "name": "You execute the arm drag and clear the opponent's centerline, but they begin turning to face you before you can establish the seatbelt. What is your immediate response?",
+      "name": "Your arm drag clears their centerline but they turn back before you get the seatbelt: response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accelerate your chest-to-back connection by driving your forehead into the back of their shoulder on the outside while wrapping your guide arm around their waist. If they are already partially turned, transition to a body lock on the near side and use your body weight to drag them to the mat before they complete the turn. If they fully re-square, you should immediately re-engage in the clinch with inside position since you are now on their outside angle, which gives you the advantage for a second drag attempt, a duck under, or a single leg entry."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the arm drag from clinch bottom. Step-
     },
     {
       "@type": "Question",
-      "name": "What are the critical mechanical details of the initial wrist grip that determine whether the drag will succeed or fail?",
+      "name": "What details of the initial wrist grip decide whether the clinch arm drag works?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The wrist grip must be a firm C-grip placed precisely on the wrist joint with your thumb on top of the forearm and fingers wrapped underneath. Gripping too far up the forearm gives the opponent leverage to rotate their arm free. Gripping the hand allows them to strip by opening their fingers. The grip pressure must be maintained through the entire drag motion without slipping. Your wrist should stay neutral, not flexed, to maintain maximum grip strength throughout the pull. The grip is a connection point, not the power source - your body weight and hip rotation generate the force."

@@ -104,7 +104,7 @@ description: "Learn to execute the push sweep from feet on hips guard. Step-by-s
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a strong symmetrical base and resists your straight backward push—how do you adjust?",
+      "name": "They resist your straight backward push sweep with a strong even base — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Direct the push slightly off-center by applying more pressure through one foot than the other, aiming to collapse one side of their base. Alternatively, transition to an asymmetric push sweep where one foot pushes while the other hooks behind their knee to prevent recovery. A third option is abandoning the push sweep and transitioning to a tripod sweep or sickle sweep that attacks their wide lateral base instead."

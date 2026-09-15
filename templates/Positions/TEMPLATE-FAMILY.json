@@ -184,7 +184,8 @@
           "question": {
             "type": "string",
             "pattern": ".*\\?$",
-            "description": "Question about family-wide principles/dynamics"
+            "description": "Question about family-wide principles/dynamics. Use one clear, simple question, at most 100 characters including spaces and punctuation. Preserve the tested mechanic and role; put explanations in the answer.",
+            "maxLength": 100
           },
           "answer": {
             "type": "string",
@@ -238,7 +239,8 @@
           "question": {
             "type": "string",
             "pattern": ".*\\?$",
-            "description": "Question about this position's role-agnostic mechanics"
+            "description": "Question about this position's role-agnostic mechanics. Use one clear, simple question, at most 100 characters including spaces and punctuation. Preserve the tested mechanic and role; put explanations in the answer.",
+            "maxLength": 100
           },
           "answer": {
             "type": "string",
@@ -1237,7 +1239,8 @@
           "question": {
             "type": "string",
             "pattern": ".*\\?$",
-            "description": "Question about position mechanics, strategy, or technique"
+            "description": "Question about position mechanics, strategy, or technique. Use one clear, simple question, at most 100 characters including spaces and punctuation. Preserve the tested mechanic and role; put explanations in the answer.",
+            "maxLength": 100
           },
           "answer": {
             "type": "string",

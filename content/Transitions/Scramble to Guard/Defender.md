@@ -50,7 +50,7 @@ description: "How to defend against Scramble to Guard in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest indicators that the bottom player is preparing to initiate the Scramble to Guard?",
+      "name": "What are the earliest signs the bottom player is about to scramble out of your Twister Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest indicators are persistent hand-fighting against your leg hooks with increasing urgency, a shift from panicked shallow breathing to deliberate controlled breaths, the bottom player tucking their chin and creating neck protection frames, and their free leg beginning to load against the mat or your body in preparation for explosive hip drive. These signs typically appear 3-5 seconds before the actual scramble initiation."
@@ -58,7 +58,7 @@ description: "How to defend against Scramble to Guard in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent frees their trapped leg during a scramble attempt. Should you fight to re-establish Twister Control or transition?",
+      "name": "They free the trapped leg from your Twister Control: re-trap it or transition to something else?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition immediately to the best available alternative position rather than fighting to re-establish Twister Control. Once the leg is free, the mechanical foundation for rotational control is gone. Attempting to re-trap the leg while the bottom player has momentum wastes energy and time. Instead, follow their turning movement and work to establish back control with hooks, or if their neck is exposed during the turn, transition to guillotine or front headlock. Securing a dominant alternative position is far superior to chasing a lost one."
@@ -74,7 +74,7 @@ description: "How to defend against Scramble to Guard in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "What is the single most important control point to maintain when you sense a scramble attempt is coming?",
+      "name": "Which single control point matters most when you sense a Twister Control scramble coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg entanglement is the single most critical control point. Without the trapped leg, the bottom player can freely rotate their hips to reduce spinal twist and face you for guard recovery. Tighten your hooks by squeezing your knees together, pulling your heels in, and using your hand to reinforce the leg control if necessary. Every other aspect of Twister Control - the rotation, the submission threat, the positional dominance - depends on maintaining this leg anchor. Upper body control is secondary to leg entanglement integrity."
@@ -82,7 +82,7 @@ description: "How to defend against Scramble to Guard in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "The bottom player successfully turns to face you but you maintain head control. What is your best positional transition?",
+      "name": "They turn to face you but you keep head control; what is your best positional transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you have head control as they complete the turn, immediately work to establish a front headlock or guillotine position. Drive your weight onto their shoulders and sprawl your hips back to prevent them from sitting up into guard. From front headlock you can threaten guillotine, darce, anaconda, or transition to back control by spinning behind them. This converts their partially successful escape into a new controlling position where you retain offensive initiative. The critical action is sprawling heavy immediately so they cannot complete guard recovery while you hold their head."

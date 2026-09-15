@@ -90,7 +90,7 @@ description: "How to execute the John Wayne Sweep in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully withdraws their hips backward as you create your angle - how should you adjust?",
+      "name": "They pull their hips back as you build your John Wayne sweep angle — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent withdraws their hips, immediately follow their backward momentum by transitioning to X-guard or single leg X-guard. Keep your top butterfly hook active while inserting your bottom hook behind their knee as they move back. Alternatively, transition to seated guard with ankle pick entries or follow them to standing and attack with wrestling-based takedowns. The key is recognizing that their backward movement creates different opportunities rather than fighting against it."
@@ -98,7 +98,7 @@ description: "How to execute the John Wayne Sweep in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "What biomechanical principles make the butterfly hooks effective during the elevation phase of this sweep?",
+      "name": "What biomechanics make the butterfly hooks work during the John Wayne sweep elevation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The butterfly hooks create leverage by positioning your feet under your opponent's center of gravity at their hip and thigh junction. When you extend your legs, you create a first-class lever where your hips are the fulcrum, your extending legs are the effort arm, and your opponent's upper body is the resistance arm. The close proximity of your hips to theirs maximizes mechanical advantage. The hooks also prevent lateral escape by controlling the inside thigh position, forcing the opponent's weight to rotate over you rather than stepping out."
@@ -114,7 +114,7 @@ description: "How to execute the John Wayne Sweep in BJJ. Attacking perspective 
     },
     {
       "@type": "Question",
-      "name": "How does the John Wayne Sweep integrate with other butterfly guard attacks to create a systematic approach?",
+      "name": "How does the John Wayne sweep fit with your other butterfly guard attacks as a system?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The John Wayne Sweep works synergistically with arm drags, basic butterfly sweeps, and X-guard entries. If the opponent defends the pistol break, you attack kimura. If they withdraw their hips, you enter X-guard. If they drive forward with an underhook, you execute a basic butterfly sweep to that side. If they remain neutral, you arm drag to a back take. This creates a decision tree where every defensive reaction opens a different offensive opportunity, embodying the dilemma creation that defines effective guard systems."

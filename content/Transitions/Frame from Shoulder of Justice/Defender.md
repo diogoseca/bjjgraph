@@ -56,7 +56,7 @@ description: "Prevent the Frame from Shoulder of Justice by maintaining pressure
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that the bottom player is attempting a frame at your shoulder junction?",
+      "name": "Holding Shoulder of Justice, what's the earliest tactile cue they're framing your shoulder junction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the bottom player's near forearm rotating against your shoulder junction from a flat position to an angled wedge position. This rotation creates a bony ridge contact that feels distinctly different from a passive arm lying against your body. The rotation precedes any weight displacement and is the optimal moment to collapse the frame before it achieves structural alignment."
@@ -64,7 +64,7 @@ description: "Prevent the Frame from Shoulder of Justice by maintaining pressure
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining hip-to-hip connection more important than increasing shoulder pressure intensity for preventing the frame technique?",
+      "name": "Why does hip-to-hip connection beat more shoulder pressure for stopping this frame?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The frame technique requires only a small two-to-four-inch hip escape to reinforce the angle disruption. Hip connection physically blocks this movement regardless of frame quality. Increasing shoulder pressure without hip connection may actually help the bottom player by creating a forward weight commitment that the frame can redirect. Connected hips prevent the reinforcing hip escape that makes the frame permanent."
@@ -72,7 +72,7 @@ description: "Prevent the Frame from Shoulder of Justice by maintaining pressure
     },
     {
       "@type": "Question",
-      "name": "The bottom player has partially established a frame and your shoulder angle is disrupted. Should you re-establish Shoulder of Justice or advance to mount?",
+      "name": "Your Shoulder of Justice angle is disrupted by their frame — reset it or advance to mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Advance to mount. Once the shoulder angle is disrupted, re-establishing the precise 45-degree alignment requires resettling your entire position, which creates extended weight shifts the bottom player can exploit for further escape. Advancing to mount capitalizes on the current positional state and eliminates the framing problem entirely by moving to a position where shoulder pressure is not the primary control mechanism."
@@ -80,7 +80,7 @@ description: "Prevent the Frame from Shoulder of Justice by maintaining pressure
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a frame attempt that exposes the arm to kimura and one that is properly protected?",
+      "name": "How do you tell a kimura-exposed frame from a properly protected one under side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A properly protected frame keeps the elbow connected to the ribs with the forearm rotating in place, never creating visible space between the elbow and the torso. A kimura-vulnerable frame shows clear separation between the elbow and the ribs, with the forearm extending outward beyond the body centerline. Only attack the kimura when you see this separation, as reaching for a protected arm wastes the opportunity and reduces your pressure control."

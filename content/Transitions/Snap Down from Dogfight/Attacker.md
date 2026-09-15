@@ -82,7 +82,7 @@ description: "Execute the snap down from dogfight to establish front headlock co
     },
     {
       "@type": "Question",
-      "name": "Why must you release the whizzer fully before executing the snap rather than maintaining partial whizzer control?",
+      "name": "In the dogfight snap down, why fully release the whizzer instead of keeping partial control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining partial whizzer control splits your grip between two incompatible objectives—controlling the opponent's arm and controlling their head. This half-commitment produces a weak snap that lacks the explosive force needed to break posture and also compromises your whizzer control. Full commitment to the collar tie allows maximum pulling force and proper body mechanics for the snap. The whizzer release also creates a momentary void that the opponent's forward-driving underhook falls into, actually enhancing the snap's effectiveness by removing the resistance their arm was pressing against."
@@ -90,7 +90,7 @@ description: "Execute the snap down from dogfight to establish front headlock co
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hands strongly after the snap breaks their posture partially. How do you complete the front headlock establishment?",
+      "name": "After the snap, they post hard on their hands. How do you finish the front headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts their hands to resist, circle laterally while maintaining collar tie control rather than continuing to pull straight down against their skeletal posting structure. Circling breaks the alignment of their arm posts and forces them to reposition their hands, creating windows where their base momentarily weakens. You can also use your free hand to attack one of their posting arms by pulling it out, collapsing that side of their base and completing the postural breakdown. Never engage in a straight pulling contest against posted arms."
@@ -98,7 +98,7 @@ description: "Execute the snap down from dogfight to establish front headlock co
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference in hip position between the snap initiation and the front headlock consolidation?",
+      "name": "How does your hip position differ between the snap and front headlock consolidation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During snap initiation, your hips are relatively close to the opponent to generate the pulling angle and transfer your level change into the snap force. During front headlock consolidation, your hips must sprawl back and away from the opponent, creating distance that prevents them from re-engaging the underhook and recovering their kneeling posture. This hip position change is one of the most commonly missed details—practitioners who keep their hips close after snapping allow the opponent to pummel back to the underhook and re-establish dogfight, negating the successful snap."
@@ -106,7 +106,7 @@ description: "Execute the snap down from dogfight to establish front headlock co
     },
     {
       "@type": "Question",
-      "name": "How does the direction of the snap force differ from a straight downward pull, and why does this matter biomechanically?",
+      "name": "How should snap direction differ from a straight downward pull, and why biomechanically?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The snap should be directed at a forty-five degree angle, pulling the opponent's head downward and toward your own chest simultaneously. A straight downward pull is easily resisted because the opponent's arms can post directly beneath their shoulders in alignment with the force. The diagonal pull angle loads the opponent's weight forward past their center of gravity, causing them to pitch forward onto their hands rather than absorbing the force through their base. This diagonal vector also brings their head closer to your body, facilitating the chest-to-back connection needed for front headlock consolidation."
@@ -114,7 +114,7 @@ description: "Execute the snap down from dogfight to establish front headlock co
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward with an explosive underhook as you attempt the snap. The forward drive overpowers your snap attempt. What is the correct response?",
+      "name": "Their explosive underhook drive overpowers your snap from dogfight. Correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the snap attempt and focus on base recovery. If the opponent's forward drive is overwhelming your snap, continuing to pull will result in being driven backward and potentially swept to half guard bottom. Disengage the collar tie, re-establish your whizzer or crossface, and use their forward momentum to guide them past you with a matador-style redirection rather than absorbing the force head-on. Once you have stabilized, reset in dogfight and wait for the next opportunity when their forward pressure is strong but not overwhelming."

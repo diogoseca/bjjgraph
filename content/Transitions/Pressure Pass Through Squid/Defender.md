@@ -56,7 +56,7 @@ description: "How to defend against Pressure Pass Through Squid in BJJ. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is committing to a pressure pass rather than a technical lapel clearing approach?",
+      "name": "In lapel guard, earliest cue they are committing to a pressure pass rather than clearing the lapel?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when your opponent stops fighting the lapel wrap and instead drops their hips low while driving their chest forward toward yours. A technical passer would be working to extract their arm or strip your grip—a pressure passer accepts the entanglement and commits their weight forward. The deep collar grip with their free hand and head dropping to shoulder level confirm the pressure commitment."
@@ -64,7 +64,7 @@ description: "How to defend against Pressure Pass Through Squid in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Why is the sit-up back take the highest-percentage counter to the pressure pass, and what makes the timing window critical?",
+      "name": "Why is the sit-up back take the best counter to the pressure pass, and when is the timing window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The pressure passer has committed their weight forward with one arm trapped in your lapel, creating a path behind them that a well-timed sit-up exploits. Their trapped arm cannot post to prevent your rotation, and their forward weight commitment means they cannot easily retreat. The timing window is between their level change and chest contact—too early and they have not committed enough, too late and their crossface pins you flat."
@@ -72,7 +72,7 @@ description: "How to defend against Pressure Pass Through Squid in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established chest-to-chest contact and is beginning to walk legs around—the sit-up window is closed. What is your best defensive sequence?",
+      "name": "Lapel guard: they get chest contact and walk their legs, sit-up gone. Best defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Create a strong forearm frame against their crossface shoulder to prevent them from settling their full weight. Hip escape away from the direction they are walking to re-establish distance. Use your legs actively to create frames or insert hooks. If you can create enough space, reconfigure to half guard with knee shield as a minimum defensive position. The frame must be established before their crossface locks your head in place."
@@ -88,7 +88,7 @@ description: "How to defend against Pressure Pass Through Squid in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "What should you do if you recognize the pressure pass but have already lost significant distance and your opponent is halfway through the leg walk?",
+      "name": "Lapel guard: you spot the pressure pass late, with them halfway around your legs. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, commit to frame-based survival and guard recovery rather than attempting the sit-up. Establish forearm frames on their shoulder, protect your neck from crossface, and work aggressively to insert a knee between your bodies to recover half guard. Half guard with knee shield is a strong fallback position that resets the exchange. Accepting half guard rather than fighting a losing battle for full guard retention preserves energy for the next exchange."

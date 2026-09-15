@@ -92,7 +92,7 @@ description: "How to execute Leg Recovery to De La Riva in BJJ. Complete guide t
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains heavy shoulder pressure and refuses to shift weight—how do you create an extraction window?",
+      "name": "Under leg drag control, they keep heavy shoulder pressure — how do you make an extraction window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your free leg to push against their hip or hook behind their knee, which forces them to adjust their base or risk losing balance. Alternatively, threaten with your collar grip by pulling them forward or attempt to sit up, which forces them to address the upper body threat and momentarily reduces pressure on your trapped leg. Never force extraction against fully settled pressure."

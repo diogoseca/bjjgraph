@@ -76,7 +76,7 @@ description: "How to execute Flying Kneebar in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum application time in training for a flying kneebar finish, and why is this critical?",
+      "name": "How long should a flying kneebar finish take in training, and why is that critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The minimum application time is 5-7 seconds of progressive pressure in training. This is critical because the knee joint has multiple ligaments (PCL, MCL, LCL) that can be damaged simultaneously with fast application, and the dynamic entry often masks early pain signals. Slow progression allows training partners to recognize the submission and tap before structural damage occurs. Unlike chokes where unconsciousness provides a safety mechanism, knee submissions cause permanent ligament damage before the pain becomes unbearable."
@@ -84,7 +84,7 @@ description: "How to execute Flying Kneebar in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What are the three most critical body positioning elements that must be correct before applying extension pressure?",
+      "name": "Which three positioning elements must be correct before extending on the flying kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, your hip must be positioned directly behind the opponent's knee joint (not on thigh, not too low). Second, the opponent's ankle must be pulled tight to your chest with both hands, creating zero slack in the system. Third, your leg configuration must be locked with inside leg across hip (foot hooked), outside leg over torso, and knees squeezed together to prevent rotation. Without all three elements aligned, finishing pressure either fails completely or applies dangerous torque from incorrect angles."
@@ -100,7 +100,7 @@ description: "How to execute Flying Kneebar in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "If an opponent turns into the kneebar (rotates toward the trapped leg) during your finish, what is the immediate tactical response and why?",
+      "name": "They rotate toward the trapped leg as you finish the flying kneebar — what do you do and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to heel hook position or counter-rotate with them to maintain perpendicular alignment. When they turn into the kneebar, their knee rotates inward which exposes the heel and removes kneebar pressure. Attempting to force the kneebar against their rotation creates dangerous multi-directional pressure on knee ligaments. The heel hook conversion is natural because your leg configuration is already correct - you simply shift your grip from ankle to heel and adjust your finishing angle. This creates a submission dilemma where defending one attack opens the other."
@@ -108,7 +108,7 @@ description: "How to execute Flying Kneebar in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What physical prerequisites must a practitioner have before attempting flying kneebar in live training?",
+      "name": "What physical prerequisites should you have before attempting flying kneebars in live training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Practitioners must demonstrate: (1) Proficient breakfall ability from various angles and rotations, tested through dedicated ukemi (breakfall) training. (2) Core strength sufficient to control rotation speed and body positioning mid-air, verified through related drills like granby rolls. (3) Hip flexibility to configure legs properly around opponent's leg without strain. (4) Spatial awareness and proprioception to track body position during rotation. (5) Understanding of kneebar finishing mechanics from static positions. (6) Minimum rank of brown belt or 5+ years experience. (7) Completion of 8-12 weeks crash pad drilling progression with zero resistance."

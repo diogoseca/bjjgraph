@@ -56,7 +56,7 @@ description: "Learn to defend the High Guard to Rubber Guard transition from top
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting the High Guard to Rubber Guard transition?",
+      "name": "What is the earliest cue that they are climbing from high guard into rubber guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling your opponent's hips rising and their guard climbing higher on your torso beyond the normal waist position, combined with a strong collar pull breaking your posture and an overhook attempt on your near arm. These signals indicate rubber guard entry within seconds. Early recognition at the posture break phase provides the best defensive window."

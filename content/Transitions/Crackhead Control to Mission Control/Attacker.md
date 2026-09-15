@@ -90,7 +90,7 @@ description: "How to execute Crackhead Control to Mission Control in BJJ. Attack
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins recovering posture while you're in Crackhead Control - how do you time the transition?",
+      "name": "Crackhead Control: your opponent recovers posture. When do you switch to Mission Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Initiate transition during the opponent's posture recovery attempt, not after they've fully recovered. Their upward movement creates the timing window - as they commit weight backward, you elevate hips and reposition. The opponent's momentary relief when sensing the overhook loosening reduces their defensive tension, making Mission Control establishment easier."

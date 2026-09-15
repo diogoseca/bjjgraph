@@ -80,7 +80,7 @@ description: "Execute posture recovery to escape triangle chokes in BJJ. Step-by
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent cups both hands behind your head and pulls forcefully downward while squeezing their triangle tighter - what is your immediate response?",
+      "name": "In a triangle, they cup your head, pull down hard and squeeze tighter. Immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain your chin firmly tucked to chest and focus on generating upward force through hip drive rather than fighting the head pull directly. Walk your knees forward to establish your base under your center of gravity, then engage your posterior chain through hip extension to build posture incrementally against their pulling force. The posterior chain generates substantially more force than their arms can pull, provided your base is properly positioned. Never attempt to lift your head against their pull using neck muscles alone."
@@ -88,7 +88,7 @@ description: "Execute posture recovery to escape triangle chokes in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "What is the most critical spine alignment required for successful posture recovery against a locked triangle?",
+      "name": "What spine alignment is essential for posturing out of a locked triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The spine must achieve vertical alignment from tailbone through the crown of the head, creating a structural column that distributes the triangle's compressive force along the entire spinal structure rather than concentrating it on the neck. The chin must remain firmly tucked throughout to protect the carotid arteries, and the chest must drive forward and upward simultaneously. This vertical column, combined with squared shoulders relative to the opponent's hips, disrupts both the vertical compression and the angular geometry that power the triangle choke."
@@ -96,7 +96,7 @@ description: "Execute posture recovery to escape triangle chokes in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "You feel the triangle loosening momentarily as your opponent readjusts their figure-four leg position - how do you exploit this window?",
+      "name": "Caught in a triangle, you feel it loosen as they readjust the figure four. How do you exploit it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately accelerate your posture recovery with an urgent, committed hip drive while maintaining forward stacking pressure - urgency here means seizing the moment, not jerking explosively, which would feed the choke. This adjustment window is the highest-percentage moment for posture gain because the triangle structure is temporarily compromised during the leg repositioning. Simultaneously begin stepping toward your trapped arm side and continue the upward drive. The key is recognizing these windows through tactile sensitivity, as the loosening is brief and the opponent will re-cinch within seconds."
@@ -120,7 +120,7 @@ description: "Execute posture recovery to escape triangle chokes in BJJ. Step-by
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pivoting their hips to isolate your trapped arm for an armbar transition during your posture attempt - how do you respond?",
+      "name": "In a triangle, they pivot their hips for an armbar as you posture. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pin your trapped arm elbow firmly against your ribs and turn your body toward the trapped arm side. Increase forward stacking pressure onto their hips to limit the mobility they need for the armbar pivot. If they commit to opening the triangle for the armbar, follow their hip rotation by stepping around toward your trapped arm side while maintaining forward drive. Never pull backward, as this gives them the arm extension they need to finish. The stacking pressure restricts their hip movement for both the triangle and the armbar."

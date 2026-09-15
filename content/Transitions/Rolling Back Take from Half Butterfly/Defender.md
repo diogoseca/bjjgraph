@@ -56,7 +56,7 @@ description: "Defend the Rolling Back Take from Half Butterfly with early recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that signals a rolling back take attempt rather than a standard butterfly sweep?",
+      "name": "What earliest cue distinguishes a rolling back take from a standard butterfly sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical differentiator is the bottom player ducking their head beneath your arm on the underhook side. A standard butterfly sweep involves driving you laterally or overhead while maintaining upward head position, but the rolling back take requires the head to thread under your armpit. When you feel the underhook deepening AND their head dropping below your armpit level simultaneously, they are committing to the roll rather than a conventional sweep."
@@ -64,7 +64,7 @@ description: "Defend the Rolling Back Take from Half Butterfly with early recogn
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep underhook and begins lowering their head toward your armpit - what is your immediate defensive response?",
+      "name": "They have a deep underhook and start dropping their head toward your armpit — how do you defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply an overhook or whizzer on their underhook arm while simultaneously driving your weight forward and down through your chest onto their shoulder. This combination limits the underhook's rotational power and closes the space under your armpit needed for head clearance. If the whizzer alone is insufficient, add a crossface with your free hand to drive their head back up and prevent them from completing the duck-under sequence."
@@ -72,7 +72,7 @@ description: "Defend the Rolling Back Take from Half Butterfly with early recogn
     },
     {
       "@type": "Question",
-      "name": "How should your hip positioning change when defending the rolling back take compared to defending standard half butterfly sweeps?",
+      "name": "How does hip positioning differ defending the rolling back take vs standard butterfly sweeps?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against standard sweeps, you keep hips heavy and drive forward to neutralize the butterfly hook's elevation. Against the rolling back take specifically, you need to add a sprawling component where your hips drop back and away from the underhook side. This sprawl removes the rotational pathway the bottom player needs and makes their rolling arc too long to maintain body connection. The key difference is the backward hip drive rather than purely forward pressure."
@@ -80,7 +80,7 @@ description: "Defend the Rolling Back Take from Half Butterfly with early recogn
     },
     {
       "@type": "Question",
-      "name": "The rolling motion has already begun and you feel yourself being carried forward - what is your best recovery option?",
+      "name": "The rolling back take has begun and you're being carried forward — what's your best recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight the rotation directly. Instead, accelerate through the scramble by turning into the bottom player as they come around your back. Post your hands and immediately begin turning to face them before they can establish hooks. Your goal shifts from preventing the back take to winning the resulting scramble by turning to face them before they consolidate back control. The faster you accept the position change and commit to the counter-scramble, the better your recovery chances."
@@ -88,7 +88,7 @@ description: "Defend the Rolling Back Take from Half Butterfly with early recogn
     },
     {
       "@type": "Question",
-      "name": "What defensive grip should you prioritize when you feel the underhook deepening past the danger threshold?",
+      "name": "Which defensive grip do you prioritize as their underhook deepens past the danger threshold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish an overhook or whizzer grip on the underhook arm by clamping your armpit down on their upper arm and rotating your forearm over their tricep. This whizzer must be tight enough to prevent their hand from reaching your far hip. Simultaneously, use your free hand to crossface or push on their forehead to prevent the head duck. The combination of whizzer controlling arm depth and crossface preventing head positioning neutralizes both prerequisites for the roll."

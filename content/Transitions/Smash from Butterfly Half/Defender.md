@@ -56,7 +56,7 @@ description: "Master defending the smash pass from butterfly half guard. Learn t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest tactile indicators that your opponent is about to initiate the smash from butterfly half guard?",
+      "name": "Which tactile cues warn that a smash from butterfly half guard is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest indicators are a deepening of crossface pressure with increased jaw and neck contact, a settling of hip weight onto the butterfly hook side rather than distributed evenly, and the posting of their free leg noticeably wider than normal. You will feel their chest driving forward and downward into yours with increasing intensity, and their passing movements will stop as they commit to settling weight rather than attempting lateral or backstep passes. These cues precede the full smash by several seconds, providing a window for proactive defense."
@@ -64,7 +64,7 @@ description: "Master defending the smash pass from butterfly half guard. Learn t
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives your butterfly hook flat to the mat and starts applying heavy crossface pressure - what is your immediate response?",
+      "name": "Your butterfly hook is flattened and the crossface is heavy. Immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the butterfly hook battle and transition to an alternative guard. The best option is deep half guard: release the dead hook, dive your head underneath their far hip, and thread your body underneath theirs. This completely changes the positional dynamic from one where smash pressure is dominant to one where you have sweeping leverage from underneath. If deep half is not available, transition to knee shield by inserting your shin across their hip, or lock down their trapped leg with a figure-four to establish lockdown guard."
@@ -80,7 +80,7 @@ description: "Master defending the smash pass from butterfly half guard. Learn t
     },
     {
       "@type": "Question",
-      "name": "Your opponent commits their weight forward heavily to kill your butterfly hook - how can you use their momentum against them?",
+      "name": "They commit weight forward to kill your butterfly hook. How do you use that momentum?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their forward weight commitment creates the perfect conditions for a butterfly sweep or elevation. As they drive forward, load their weight onto your hook by slightly drawing your knee toward your chest to create an angle, then extend explosively through your hip and hook while pulling their upper body with your underhook or collar grip. Their forward momentum adds to the sweep's power rather than needing to be overcome. The timing window is narrow but high-percentage, as they cannot both commit weight for the smash and defend the elevation simultaneously."
@@ -88,7 +88,7 @@ description: "Master defending the smash pass from butterfly half guard. Learn t
     },
     {
       "@type": "Question",
-      "name": "You have lost your butterfly hook but still have half guard control - what guard transition gives you the best chance of recovery?",
+      "name": "Butterfly hook lost but half guard kept: which guard transition gives the best recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Deep half guard is the highest-percentage recovery option because it converts the top player's pressure advantage into your own sweeping leverage. Slide your head underneath their hips on the trapped leg side, wrapping their leg deeply while maintaining the half guard entanglement. From deep half, the smash pressure becomes irrelevant because you are positioned underneath rather than in front of them. If deep half is not accessible, inserting a knee shield across their hip creates immediate distance and prevents chest-to-chest pressure, giving you time to rebuild offensive structure or transition to a Z-guard framework."

@@ -56,7 +56,7 @@ description: "Learn to prevent the Deep Half Entry from Flattened Half Guard. Re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a deep half entry is being attempted from flattened half guard?",
+      "name": "What is the earliest cue that a deep half entry is starting from flattened half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player's near hip beginning to rotate toward your legs instead of staying flat against the mat. This hip rotation is the prerequisite for the entire entry movement. Without it, they cannot thread their arm or slide underneath your hips. Detecting this rotation before the arm thread begins gives you maximum time to counter with crossface pressure and hip sprawl."
@@ -64,7 +64,7 @@ description: "Learn to prevent the Deep Half Entry from Flattened Half Guard. Re
     },
     {
       "@type": "Question",
-      "name": "Why is dropping hip weight an effective counter when timed early but counterproductive when timed late?",
+      "name": "Why does dropping your hip weight beat the deep half entry early but help it if timed late?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When timed early before the underhook is established, dropping hip weight removes the space underneath your hips that the bottom player needs to thread through, collapsing their entry path. When timed late after the underhook and shoulder wedge are in place, your descending weight loads directly onto their leverage system, effectively assisting their sweep mechanics. The shoulder wedge converts your downward pressure into horizontal sweep force."
@@ -72,7 +72,7 @@ description: "Learn to prevent the Deep Half Entry from Flattened Half Guard. Re
     },
     {
       "@type": "Question",
-      "name": "Your opponent has threaded their arm halfway but has not yet established the shoulder wedge - what is your best defensive response?",
+      "name": "They have threaded the arm halfway but no shoulder wedge yet — what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately whizzer the threading arm with your near arm to prevent it from reaching deeper around your far leg. Simultaneously drive your crossface pressure forward and sprawl your hips back to re-flatten the bottom player. The partial thread gives you a window. Once the shoulder clears your hip and the wedge is established, the position dramatically favors the bottom player. Address the arm control now while recovery is still possible."
@@ -88,7 +88,7 @@ description: "Learn to prevent the Deep Half Entry from Flattened Half Guard. Re
     },
     {
       "@type": "Question",
-      "name": "When is it appropriate to attempt a backstep pass rather than re-flattening the bottom player during a deep half entry attempt?",
+      "name": "When should you backstep instead of re-flattening a bottom player entering deep half?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The backstep is appropriate when the bottom player has committed significantly to the entry. Their frames are abandoned and their half guard hook is loosened. At this point, their commitment creates a vulnerability window where your leg can be extracted. Attempting the backstep too early before they commit gives them space without the positional compromise, and they may use the created space for frame recovery instead."

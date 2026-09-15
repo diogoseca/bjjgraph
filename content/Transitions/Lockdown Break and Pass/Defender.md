@@ -56,7 +56,7 @@ description: "How to defend against Lockdown Break and Pass in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your primary goal as the defender when your opponent begins the Lockdown Break and Pass sequence?",
+      "name": "As the lockdown player, what's your main goal when they start breaking and passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your primary goal is to maintain the lockdown's figure-four configuration by keeping the foot triangle tight and hip extension active, while simultaneously threatening sweeps and submissions that force the opponent to abandon their extraction attempt. If the lockdown cannot be maintained, transitioning to Deep Half Guard before the leg fully clears is the secondary objective."
@@ -64,7 +64,7 @@ description: "How to defend against Lockdown Break and Pass in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent completely relax their trapped leg—what does this indicate and how do you respond?",
+      "name": "They fully relax their trapped leg in your lockdown: what does it mean and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This indicates they are employing the limp leg concept to reduce the lockdown's grip effectiveness. Respond by increasing your hip extension to compensate for the reduced rigidity. Pull your heel down harder and actively squeeze the foot triangle tighter. Immediately threaten the Old School sweep to force them to re-engage their leg muscles for base, which restores the lockdown's control."
@@ -72,7 +72,7 @@ description: "How to defend against Lockdown Break and Pass in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent reaches down with their free hand to separate your feet at the foot triangle—what is your counter?",
+      "name": "They reach down to separate your foot triangle: what's your counter from the lockdown?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When they release upper body control to reach for the foot triangle, immediately capitalize by threatening the Old School sweep or pulling their far ankle for the Electric Chair submission. Their hand being committed downward means they cannot defend the sweep or maintain crossface. This creates a dilemma: abandon the foot break to defend the sweep, or risk being swept while breaking the lock."
@@ -80,7 +80,7 @@ description: "How to defend against Lockdown Break and Pass in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "How do you recognize the point of no return when the lockdown is failing and you should transition to Deep Half Guard?",
+      "name": "How do you know the lockdown is past saving and you must go to deep half?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical indicator is when the foot triangle opens and the opponent's knee begins driving successfully toward your hip. At this point, re-engaging the lockdown becomes increasingly unlikely. Additionally, if the opponent has established strong forward pressure with crossface control and you feel their heel clearing your legs, the lockdown is mechanically compromised. Transition to Deep Half Guard immediately by diving under toward their far hip."
@@ -96,7 +96,7 @@ description: "How to defend against Lockdown Break and Pass in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has broken the foot triangle but hasn't fully extracted their leg yet—what is your best option?",
+      "name": "Your foot triangle is broken but their leg hasn't cleared: what's your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately transition to Deep Half Guard by releasing the compromised lockdown, diving underneath toward their far hip, and securing a deep underhook around their far thigh. This must happen before their leg fully clears—the partially extracted position actually facilitates the Deep Half entry because their leg is already loosened from your control. Waiting any longer results in a completed pass to side control."

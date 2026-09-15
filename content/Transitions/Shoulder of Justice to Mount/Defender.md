@@ -56,7 +56,7 @@ description: "Defend against the Shoulder of Justice to Mount transition in BJJ.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest physical cues that indicate your opponent is about to attempt the mount transition from Shoulder of Justice?",
+      "name": "What are the earliest cues your opponent is about to mount from shoulder of justice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include: the opponent walking their near-side knee closer to your hip line which narrows their base, increased forward pressure through the shoulder as they load weight onto their upper body to lighten their legs, tightening of their control on your near-side arm to prevent frame insertion, and subtle rotation of their chest angle from perpendicular toward a mount-facing orientation. Recognizing these early signals allows you to begin positioning your defense before the step-over begins."
@@ -64,7 +64,7 @@ description: "Defend against the Shoulder of Justice to Mount transition in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins walking their knee up your hip — what is the highest-percentage defensive response at this moment?",
+      "name": "They start walking their knee up your hip toward mount — best defensive response now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert your near-side knee between your body and the opponent's chest immediately as their base narrows. This knee creates a physical barrier that blocks the step-over path and gives you a wedge to begin recovering toward half guard. Time this insertion to the moment their weight shifts forward, as that is when their ability to drive your knee back down is most compromised. Combine the knee insertion with a small hip escape to create the angle needed for the knee to reach its blocking position."
@@ -72,7 +72,7 @@ description: "Defend against the Shoulder of Justice to Mount transition in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Why is timing your primary defensive action during the step-over more effective than attempting to defend before the transition begins?",
+      "name": "Why time your main defense during the step-over rather than before the mount transition starts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defending before the transition begins means fighting against an opponent with full base stability and optimal weight distribution, which heavily favors the attacker. During the step-over itself, the attacker's base is at its narrowest, one leg is in the air, and their weight is distributed across your centerline rather than anchored to the mat. This creates the maximum vulnerability window where your defensive force has the greatest mechanical advantage. However, your positioning for defense should begin with the early cues."
@@ -80,7 +80,7 @@ description: "Defend against the Shoulder of Justice to Mount transition in BJJ.
     },
     {
       "@type": "Question",
-      "name": "What happens if you bridge too early before your opponent has committed their weight to the step-over?",
+      "name": "What happens if you bridge before they commit weight to the step-over to mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridging too early wastes energy against a fully based opponent who can simply ride the bridge using their stable far knee post and shoulder pressure anchor. The bridge achieves no positional improvement because the opponent's base is still intact and can absorb the force. Additionally, premature bridging depletes your energy reserves, leaving you weaker for the critical defensive window when the actual step-over occurs. Save explosive movements for the moment of maximum opponent vulnerability."
@@ -88,7 +88,7 @@ description: "Defend against the Shoulder of Justice to Mount transition in BJJ.
     },
     {
       "@type": "Question",
-      "name": "How does maintaining hip mobility throughout the Shoulder of Justice pin prepare you to defend the mount transition?",
+      "name": "How does keeping your hips mobile under shoulder of justice help you defend the mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining hip mobility through constant micro-adjustments to your hip angle prevents the opponent from achieving a completely static pin where your defensive options are minimized. Mobile hips allow you to immediately execute hip escapes or knee insertions when transition cues appear, without needing to first break free from a fully consolidated pinning position. If your hips become completely flat and immobile under pressure, you lose the ability to insert your knee or angle your body for defense when the step-over begins."

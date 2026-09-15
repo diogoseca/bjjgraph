@@ -273,7 +273,7 @@
         }
       },
       {
-        "question": "Your opponent has a deep toe hold grip and begins applying moderate rotational pressure - what determines whether you should attempt counter rotation or tap?",
+        "question": "With a deep toe hold building pressure, what decides between counter rotation and tapping?",
         "answer": "The determining factor is whether the submission has reached maximum locked torque. Counter rotation must be initiated before the toe hold is fully locked at peak pressure. If you feel the joint is at or near its rotational limit with significant pain and no room for movement, tap immediately. The technique requires anticipatory timing during the pressure build-up phase, not reactive movement through an already-locked submission.",
         "answer_line": "Counter before the lock maxes out",
         "distractors": {
@@ -301,7 +301,7 @@
         }
       },
       {
-        "question": "You begin counter rotating but feel the opponent release their toe hold grip and start threading their leg across your hip line - what is happening and how do you respond?",
+        "question": "They drop the toe hold and thread a leg across your hip — what is happening and what do you do?",
         "answer": "The opponent is abandoning the toe hold to transition into the saddle position, which is significantly more dangerous as it exposes you to inside heel hook attacks. Immediately stop your rotation and focus on preventing the far hook by using your free leg to block their leg from crossing your hip line. Prioritize inside position control over completing the rotation. If you can prevent full saddle establishment, work back to half guard or open guard instead.",
         "answer_line": "Block the far hook, stop rotating",
         "distractors": {
@@ -492,7 +492,7 @@
         }
       },
       {
-        "question": "Your opponent begins counter rotating and your toe hold grip is losing effectiveness - should you tighten the grip or transition?",
+        "question": "Your toe hold is failing as they counter rotate — tighten the grip or transition?",
         "answer": "Transition rather than tighten. Once the counter rotation has neutralized the angular relationship between your grip and their ankle, increasing grip pressure creates dangerous and unpredictable force vectors without improving submission probability. Instead, use their rotation as a transition opportunity to thread your leg into saddle position, which converts their escape attempt into a worse entanglement for them.",
         "answer_line": "Transition to saddle, don't tighten",
         "distractors": {
@@ -506,7 +506,7 @@
         }
       },
       {
-        "question": "How do you prevent the opponent from establishing the 50-50 hook with their free leg during counter rotation?",
+        "question": "How do you stop them from getting the 50-50 hook during their counter rotation?",
         "answer": "Use your hip positioning and free leg to block their free leg from hooking around your leg during the rotation. Position your hip close to their rotating body to limit the space available for their hook, and use your non-entangled leg to actively push their free leg away or pin it against the mat. Denying this hook prevents the 50-50 structure from forming and keeps you in a dominant entanglement position.",
         "answer_line": "Block leg with hip and knee",
         "distractors": {

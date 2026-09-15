@@ -56,7 +56,7 @@ description: "How to defend against Butterfly Sweep in BJJ. Recognition cues, de
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important body position detail for preventing the butterfly sweep from being initiated?",
+      "name": "On top of butterfly guard, what body position detail best prevents the sweep from starting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keeping your hips back and low with weight distributed through your knees rather than leaning forward over opponent's hooks. When your hips are behind your shoulders, opponent cannot load your weight onto their hooks effectively, which is the prerequisite for any butterfly sweep variation. This hip position simultaneously limits how much elevation the hooks can generate and reduces the forward momentum available for the bottom player to redirect. Maintaining this posture requires active awareness because natural grappling instincts often lead to leaning forward to apply pressure, which is exactly what feeds the sweep."
@@ -64,7 +64,7 @@ description: "How to defend against Butterfly Sweep in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a deep underhook and is starting to pull you forward while elevating one hook. What is your immediate defensive priority?",
+      "name": "They get a deep underhook and elevate a hook in butterfly guard: your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is posting your hand on the mat on the side the hook is elevating, while simultaneously driving your hip down on that same side to kill the elevation. The post must happen before full rotation begins. Simultaneously, use your other hand to attack the underhook by driving a whizzer or swimming your arm back inside. Do not try to pull away from the underhook by creating distance, as this gives the bottom player the angle they need. After stopping the immediate sweep threat, work to strip the underhook before the next attempt. If the post feels too late and rotation has begun, sprawl backward explosively to remove your weight from the hooks entirely."
@@ -72,7 +72,7 @@ description: "How to defend against Butterfly Sweep in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Why is sprawling backward sometimes more effective than posting the hand when defending the butterfly sweep?",
+      "name": "Why can sprawling back beat a hand post when defending the butterfly sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sprawling backward removes your entire body weight from the hooks simultaneously, eliminating the elevation power that drives the sweep. A hand post only blocks the rotational direction and can be overcome if the bottom player generates sufficient momentum or if they redirect the sweep to the opposite side. Sprawling also has the advantage of being direction-neutral, meaning it works regardless of which side the sweep is aimed at, whereas a hand post only blocks one direction and leaves you vulnerable to the other. However, sprawling is most effective early in the sweep sequence before directional commitment. Once full rotation has begun, a hand post is faster and more practical than a full sprawl."
@@ -80,7 +80,7 @@ description: "How to defend against Butterfly Sweep in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "How can you use grip fighting from the top position to prevent butterfly sweep attempts before they start?",
+      "name": "On top of butterfly guard, how do you grip fight to stop sweeps before they start?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Proactive grip fighting prevents the bottom player from assembling sweep prerequisites. Prioritize denying the underhook by keeping your elbows tight and fighting for inside position with your own underhooks or collar ties. If in gi, strip collar grips immediately by two-on-one breaking before they can be used to break your posture. Control at least one of opponent's wrists to prevent them from establishing the bilateral control needed for high-percentage sweeps. When you control the grip exchange, the bottom player must spend energy fighting for grips rather than executing sweeps, which shifts the tactical initiative to you and creates windows for passing attempts."
@@ -88,7 +88,7 @@ description: "How to defend against Butterfly Sweep in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "After successfully defending a butterfly sweep attempt, what should your immediate follow-up action be?",
+      "name": "After stuffing a butterfly sweep attempt, what should you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately initiate a passing sequence before the opponent can re-establish optimal guard structure. After a failed sweep, the bottom player's grips are disrupted, their posture may be compromised from the attempt, and their hooks may be partially displaced. This creates a brief window where their guard retention capability is degraded. The specific pass depends on the defense used: after a hand post, drive the posted hand side forward into a knee slice or pressure pass; after a sprawl, follow forward pressure into a smash pass or over-under configuration; after stripping grips, immediately establish your own dominant grips for a toreando or body lock pass."

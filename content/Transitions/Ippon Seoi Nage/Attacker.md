@@ -76,7 +76,7 @@ description: "How to execute Ippon Seoi Nage in BJJ. Attacking perspective cover
     },
     {
       "@type": "Question",
-      "name": "What is the primary purpose of kuzushi before attempting the entry, and how do you create it in a live match?",
+      "name": "What is kuzushi for before an Ippon Seoi Nage entry, and how do you create it in a live match?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Kuzushi breaks your opponent's stable base and shifts their weight forward onto their toes, creating a window where they cannot effectively resist the throw. In live matches, you create kuzushi through push-pull grip fighting rhythm, preceding foot sweeps like Kouchi Gari that force forward recovery steps, or fake guard pulls that make opponents posture upward. The key is that kuzushi is earned through a sequence of actions, not applied as a single isolated pull before the throw."
@@ -84,7 +84,7 @@ description: "How to execute Ippon Seoi Nage in BJJ. Attacking perspective cover
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on your hip during your entry step, blocking your hip insertion. How do you respond?",
+      "name": "They post a hand on your hip during your seoi nage entry, blocking hip insertion: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts on your hip, the Seoi Nage is effectively stuffed and forcing it will fail. Immediately redirect to a different attack that exploits their defensive posture. Their posted arm and widened stance creates vulnerability to Tai Otoshi, where their extended arm becomes the fulcrum, or Kouchi Gari targeting their advanced front foot. You can also snap their posted arm down and switch to an Ankle Pick. The critical principle is recognizing the failed entry instantly and transitioning rather than forcing."
@@ -100,7 +100,7 @@ description: "How to execute Ippon Seoi Nage in BJJ. Attacking perspective cover
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for committing to the Seoi Nage entry during a standing grip exchange?",
+      "name": "During a standing grip exchange, when should you commit to the Ippon Seoi Nage entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing is when your opponent's weight shifts forward, either from your kuzushi actions, their own aggressive forward pressure, or their defensive recovery from a preceding attack like a foot sweep. Specifically, the moment after a Kouchi Gari or Ouchi Gari forces a forward step is ideal because their momentum is already moving in the direction of the throw. Attempting the entry when the opponent is pulling backward or circling away dramatically reduces success rate."
@@ -108,7 +108,7 @@ description: "How to execute Ippon Seoi Nage in BJJ. Attacking perspective cover
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully sprawls backward during your entry. What are your immediate chain attack options?",
+      "name": "They sprawl back during your Ippon Seoi Nage entry: what are your chain attacks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent sprawls backward, their lead leg becomes exposed and their weight shifts to their heels. Immediately transition to an Ankle Pick on the near leg, which is now bearing most of their weight. Alternatively, drop to a Single Leg on the same near leg by switching your grip from the sleeve to behind their knee. If neither leg attack is available, use your established grips to pull guard with advantageous sleeve control already in place, converting the failed throw into a favorable guard entry."

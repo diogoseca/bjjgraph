@@ -58,7 +58,7 @@ description: "How to defend against Calf Slicer from Truck in BJJ. Recognition, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first physical sensation that tells you a calf slicer is being set up from truck, and what should your immediate response be?",
+      "name": "What is the first sensation that a calf slicer is coming from truck, and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The first sensation is the attacker's shin bone sliding or being positioned behind your calf muscle, creating a bone-on-muscle contact that feels distinctly different from the normal truck leg entanglement. You may also feel them releasing their upper body grip to reach for your heel. Your immediate response should be to begin extending your trapped leg before they establish the heel grip and compression angle. Every second of delay makes defense exponentially harder because once the attacker controls your heel and drives compression, the submission is nearly locked. Early recognition and immediate leg extension is the single most important defensive skill for this submission."
@@ -74,7 +74,7 @@ description: "How to defend against Calf Slicer from Truck in BJJ. Recognition, 
     },
     {
       "@type": "Question",
-      "name": "When should you tap to a calf slicer rather than continue defending, and why is early tapping especially important for compression submissions?",
+      "name": "When should you tap to a calf slicer instead of defending, and why tap early on compressions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately when: you feel sharp knee pain (indicating ligament stress rather than muscle compression), when your heel is fully pinned to your hamstring with the shin wedge deep and you cannot initiate any leg extension, or when you feel numbness or unusual tightness in the calf that suggests vascular compromise. Early tapping is especially important for compression submissions because tissue damage can occur before pain becomes unbearable. Unlike chokes where you lose consciousness as a natural failsafe, or joint locks where pain escalates clearly before the break, calf slicers can tear muscle fibers at compression levels that some practitioners can tolerate through pain. Compartment syndrome can also develop from sustained compression without obvious external trauma. The cost of tapping early is a positional reset; the cost of tapping late can be weeks or months of rehabilitation."
@@ -82,7 +82,7 @@ description: "How to defend against Calf Slicer from Truck in BJJ. Recognition, 
     },
     {
       "@type": "Question",
-      "name": "How does clearing the attacker's boot (foot on your hip) affect your ability to escape the calf slicer?",
+      "name": "How does clearing the attacker's boot off your hip help you escape the truck calf slicer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The boot is the engine of the entire truck position. It creates the lateral torque that twists your hips, breaks your base, and prevents you from generating the hip extension power needed to straighten your leg. When you clear the boot, several things happen simultaneously: the hip twist reduces, allowing you to square your hips; your base improves because you can now post more effectively; and critically, your ability to straighten your trapped leg dramatically increases because the rotational restriction on your hips is removed. Clearing the boot doesn't directly stop the calf compression, but it removes the positional foundation that makes the compression mechanically viable. Without boot pressure, the attacker must choose between maintaining the calf slicer with reduced control or abandoning it to re-establish truck position."
@@ -90,7 +90,7 @@ description: "How to defend against Calf Slicer from Truck in BJJ. Recognition, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has the calf slicer partially set but hasn't achieved full compression yet - what specific sequence of defensive actions gives you the best chance of escape?",
+      "name": "Calf slicer partly set from truck: what defensive sequence gives the best chance of escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal defensive sequence is: (1) Immediately begin extending your trapped leg with controlled force to prevent full compression from being established, (2) Simultaneously tuck your chin and protect your far arm against your body to prevent the Twister transition that leg extension enables, (3) Use your free hand to fight the attacker's heel grip - if you can strip their grip on your heel, the compression mechanism is broken even if the shin wedge remains, (4) Work to clear the boot pressure on your hip with whatever hand becomes available, (5) Once boot is cleared and leg is extended, use the improved hip mobility to rotate back to neutral alignment, and (6) Extract your leg from the remaining entanglement and recover to half guard or turtle. This sequence addresses threats in order of urgency: immediate submission, secondary submission transition, positional control, and finally position recovery."

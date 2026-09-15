@@ -64,7 +64,7 @@ description: "How to defend against Rolling Kneebar in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your opponent in grasshopper guard shifts their hips laterally toward your leg and loads onto one shoulder - what should you do immediately?",
+      "name": "From grasshopper guard they shift hips toward your leg and load a shoulder; what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the primary recognition cue for the Rolling Kneebar initiation. Immediately post your hand on the mat on the side they are rolling toward and sprawl your hips backward and away. This removes the space they need for the roll and denies their rotational momentum. Do not wait to confirm the attack - the hip shift is sufficient to trigger your defensive response."
@@ -80,7 +80,7 @@ description: "How to defend against Rolling Kneebar in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "The attacker has completed the roll and achieved belly-down position with your leg trapped - what defensive dilemma do you face?",
+      "name": "They finish the rolling kneebar roll belly-down on your leg; what dilemma do you face?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You face a kneebar-versus-calf-slicer dilemma. Keeping your leg straight allows the kneebar finish through hip bridge hyperextension. Bending your knee maximally defends the kneebar but exposes you to calf slicer attacks if the attacker threads their leg through. You must balance knee bend with active hip rotation toward the attacker while working to extract your foot from their grip."

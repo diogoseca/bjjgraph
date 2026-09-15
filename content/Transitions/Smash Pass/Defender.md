@@ -56,7 +56,7 @@ description: "How to defend the Smash Pass in BJJ. Recognition cues, defensive f
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive priority when your opponent initiates a smash pass from half guard top?",
+      "name": "Defending a smash pass from half guard bottom, what is your top defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The single most important priority is maintaining your side angle and preventing being flattened onto your back. Once your shoulders are pinned flat to the mat, the top player's crossface pressure becomes maximally effective and your hip mobility is severely compromised. All subsequent defensive options depend on maintaining enough side angle to create frames, generate hip escape movement, and threaten offensive counters. Fighting to stay on your side should take priority over every other defensive action."
@@ -72,7 +72,7 @@ description: "How to defend the Smash Pass in BJJ. Recognition cues, defensive f
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a deep crossface and is beginning to flatten you - what is your highest-percentage defensive response?",
+      "name": "A deep crossface is flattening you in half guard. Highest-percentage defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With a deep crossface already established, your highest-percentage response is to frame against their far hip with your near-side arm while hip escaping away from them to create enough space to re-insert your knee shield. Simultaneously, use your far-side hand to fight the crossface at their wrist or forearm. If you cannot strip the crossface, transitioning to deep half guard by ducking under their chest and securing their far leg gives you a new defensive platform with strong sweep options. The key is acting immediately rather than accepting the flattened position."
@@ -88,7 +88,7 @@ description: "How to defend the Smash Pass in BJJ. Recognition cues, defensive f
     },
     {
       "@type": "Question",
-      "name": "How does the defensive approach differ when facing a smash pass versus a dynamic knee slice pass from half guard?",
+      "name": "How does defending a smash pass differ from defending a knee slice from half guard bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against the smash pass, defense centers on preventing the crossface, maintaining side angle, and using frames to manage the slow progressive pressure. The defender has more time to react but must be proactive to avoid being incrementally crushed. Against the knee slice, defense requires faster reactions because the pass uses speed and angle changes rather than pressure. Knee slice defense focuses on blocking the knee cut with frames at the hip and maintaining inside leg hooks to prevent the knee from crossing. The smash pass defender needs endurance and frame management; the knee slice defender needs timing and hip mobility."

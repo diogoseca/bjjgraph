@@ -56,7 +56,7 @@ description: "Learn to defend and prevent the reversal from flattened half guard
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a reversal attempt is developing rather than a frame recovery?",
+      "name": "In flattened half guard top, what cue shows a reversal rather than just frame recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key distinguishing cue is the depth and direction of the underhook. Frame recovery underhooks stay relatively shallow at armpit depth, while reversal underhooks drive deep past your center line toward your lat or far hip. Additionally, the bottom player's free hand positioning reveals intent - framing on your shoulder indicates recovery, while gripping your hip or belt indicates sweep intent. Recognizing underhook depth early gives you the most time to implement preventive measures."
@@ -64,7 +64,7 @@ description: "Learn to defend and prevent the reversal from flattened half guard
     },
     {
       "@type": "Question",
-      "name": "Why is posting your far hand a reactive defense rather than a preventive one, and what are its limitations?",
+      "name": "Why is posting your far hand a reactive defense here, and what are its limitations?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Posting the far hand only becomes necessary after the bridge has initiated, meaning you have already failed to prevent the reversal prerequisites. While effective at stopping the sweep, posting removes your hand from hip control duties, potentially allowing the bottom player to insert their knee for guard recovery through a different pathway. The limitation is that you trade one defensive problem for another, which is why proactive underhook denial is the superior strategy."
@@ -72,7 +72,7 @@ description: "Learn to defend and prevent the reversal from flattened half guard
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your base and pressure when you feel the bottom player tightening their half guard hook?",
+      "name": "You feel the bottom player tighten their half guard hook—how do you adjust base and pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A tightening hook signals sweep preparation. Respond by widening your base slightly on the underhook side, increasing your crossface pressure to limit their ability to generate bridge power, and beginning active leg extraction work. Do not wait for the bridge to start. The hook tightening is a preparatory action that gives you a window to deny the prerequisites before the explosive phase begins. Work to loosen the hook through hip circling and knee positioning while maintaining chest pressure."
@@ -80,7 +80,7 @@ description: "Learn to defend and prevent the reversal from flattened half guard
     },
     {
       "@type": "Question",
-      "name": "Your opponent executes the bridge and you feel yourself beginning to tip - what is the emergency recovery sequence?",
+      "name": "Their bridge catches you and you start to tip—what is the emergency recovery sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the bridge catches you and you begin to tip, immediately post your far hand as wide as possible to create emergency base. Simultaneously drop your hips toward the mat on the posting side to lower your center of gravity. If the sweep continues despite the post, prepare to recover guard rather than fighting the reversal from a losing position. The worst response is going stiff and toppling - staying relaxed and posting gives you the best chance of maintaining position or at minimum recovering to a neutral guard position rather than being swept to full side control."

@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "Your opponent secures double underhooks and begins stacking you hard. Your hips are already elevated. What is your immediate sequence of actions?",
+        "question": "They stack you hard with double underhooks and your hips are up—what is your sequence?",
         "answer": "First, cup both hands over their shoulders and push to prevent them from driving deeper into the stack. Second, use your core to turn your hips 45 degrees to one side while pushing against their shoulder on that same side. Third, as the angle opens, insert your bottom knee as a shield between your bodies. Fourth, continue shrimping to recover full guard position or transition to half guard with the knee shield already in place. The double underhook stack requires addressing the shoulder pressure first before hip escaping because their underhooks prevent simple frame-on-hip defense.",
         "answer_line": "Cup both shoulders, stop the drive",
         "distractors": {
@@ -364,7 +364,7 @@
         }
       },
       {
-        "question": "Your opponent grabs both your ankles during a stack pass attempt, preventing hip escape. What alternative escape do you use?",
+        "question": "They grip both your ankles during a stack pass, blocking hip escape—what escape do you use?",
         "answer": "When both ankles are controlled, transition to a granby roll (shoulder roll) by tucking your chin, rolling over one shoulder, and inverting to create a completely different plane of movement. The rotational momentum breaks their grip structure because hands cannot maintain strong grips on an object rotating away from them. Even if they maintain partial grips, the radical angle change eliminates all their passing momentum and forces a complete reset. After the inversion, immediately re-face your opponent and establish guard from the new angle.",
         "answer_line": "Granby roll to invert and reset",
         "distractors": {
@@ -392,7 +392,7 @@
         }
       },
       {
-        "question": "Your opponent begins a stack pass but then switches to a leg drag as you hip escape to the right. How do you adjust your defense?",
+        "question": "They switch from a stack to a leg drag as you hip escape right—how do you adjust?",
         "answer": "As soon as you feel the directional change from stacking pressure to lateral leg drag control, immediately establish a reverse De La Riva hook with your right foot on their far hip to prevent them from consolidating the drag. Simultaneously, use your left hand to frame on their near-side knee or hip to create distance. If they have already secured the drag, turn into them by posting your left hand and coming up to your knees to face them, preventing the back exposure that makes leg drags dangerous. The key is recognizing the transition point between stack and drag, which occurs when their pressure shifts from forward to lateral.",
         "answer_line": "Hook reverse DLR, frame the knee",
         "distractors": {
@@ -548,7 +548,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent establishes strong frames on your hips during your stack pass. What are your options to overcome these frames?",
+        "question": "They frame strongly on your hips during your stack pass—how do you beat the frames?",
         "answer": "You have several options: swim one arm inside their frame and collapse it by driving your elbow past their wrist, then chest-pressure through the gap; use a two-on-one grip to strip one of their framing hands and pin it to the mat or their body; or redirect your angle by stepping to one side to make their straight-ahead frames structurally ineffective. The swim-through is highest percentage when their frames are on your hips, while redirection works better when frames are on your shoulders. Avoid simply pushing harder into established frames as this wastes energy.",
         "answer_line": "Swim through, strip grip, or angle",
         "distractors": {
@@ -562,7 +562,7 @@
         }
       },
       {
-        "question": "Your opponent hip escapes to the right during your stack pass, creating a 45-degree angle. How do you convert this into a successful pass?",
+        "question": "They hip escape right to a 45-degree angle during your stack pass—how do you finish the pass?",
         "answer": "Their rightward hip escape opens a passing lane to your left. Immediately redirect from the stack to a knee cut pass by sliding your left knee across their right thigh, using the angle they created as your passing path rather than fighting against it. Control their right hip with your left hand and their far collar or shoulder with your right hand to prevent them from following your movement. Alternatively, if their legs are accessible, transition to a leg drag by pinning both legs to your right side and passing to their left, using their own hip escape angle against them.",
         "answer_line": "Knee cut through the open lane",
         "distractors": {
@@ -576,7 +576,7 @@
         }
       },
       {
-        "question": "When is the optimal moment to secure ankle or pant grips during a stack pass to prevent the opponent's stack defense?",
+        "question": "When is the best moment to secure ankle or pant grips during a stack pass?",
         "answer": "The optimal moment is after you have initially driven forward and broken their guard open but before they have established frames on your body. In this transitional window, their hands are typically still adjusting from guard grips to defensive frames, giving you a brief opportunity to control their ankles or pants without being framed away. If you wait until after frames are established, reaching for ankles means releasing pressure and allowing their defense to consolidate. Securing leg control early eliminates the hip escape foundation of their entire defensive sequence.",
         "answer_line": "Grab legs before frames are set",
         "distractors": {
@@ -590,7 +590,7 @@
         }
       },
       {
-        "question": "How do you recognize whether an opponent will attempt a granby roll versus a standard hip escape during stack defense?",
+        "question": "How do you tell a granby roll from a standard hip escape during their stack defense?",
         "answer": "A granby roll is signaled by the opponent tucking their chin to one side, posting one hand behind their own shoulder on the mat, and beginning to shift weight onto their upper back and shoulder rather than their hips. Their eyes will look toward the direction of the intended roll. In contrast, a standard hip escape shows the opponent pushing off with their feet, turning their hips laterally, and maintaining frames with both hands against your body. Recognizing the granby setup allows you to counter by driving your weight forward and down through their chest, pinning their shoulders to the mat and preventing the inversion.",
         "answer_line": "Chin tuck and shoulder post = granby",
         "distractors": {

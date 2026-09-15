@@ -64,7 +64,7 @@ description: "How to defend against Standing Reset to Open Guard in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stripping your collar grip before standing. What does this signal and how should you respond?",
+      "name": "They strip your collar grip before standing: what does that signal and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This signals an experienced passer who understands that the collar grip is the primary mechanism for loading their weight forward and preventing the stand. Respond by switching to a sleeve grip on the same arm they used to strip, which maintains upper body connection and creates a new pulling vector. Alternatively, immediately establish a foot-on-hip frame that replaces the collar grip's forward-loading function with mechanical pushing distance control."
@@ -72,7 +72,7 @@ description: "How to defend against Standing Reset to Open Guard in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "The opponent has achieved full standing height and begins circular stepping for extraction. What is your highest-percentage counter?",
+      "name": "They reach full standing and circle-step to extract: what is your highest-percentage counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage counter at this stage is following the rotation with a back-take entry. As the opponent circles away from your strong side, their far-side back angle opens progressively. Elevate your hips and thread a hook behind their far knee while using the remaining lapel tension to pull yourself toward their back. The rotation they need for extraction is mechanically identical to the rotation that exposes their back for the take. If the back take fails, you can still transition to De La Riva guard using the same hip elevation movement."

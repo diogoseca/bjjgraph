@@ -84,7 +84,7 @@ description: "Attack the Bow and Arrow Choke from Truck. Collar grip setup from 
     },
     {
       "@type": "Question",
-      "name": "How does the Truck position's perpendicular angle change the collar grip setup compared to standard back control?",
+      "name": "How does the Truck's perpendicular angle change the bow and arrow collar setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Truck's perpendicular alignment means the attacker is beside the opponent with one leg trapped, giving early access to the far collar before back control is fully established. However, the perpendicular angle cannot finish the bow on its own: the attacker must release the figure-four and climb up to genuine back control with a seatbelt and hooks to reach the finishing geometry. The advantage is timing, feeding the collar early, not eliminating the climb to the back."
@@ -92,7 +92,7 @@ description: "Attack the Bow and Arrow Choke from Truck. Collar grip setup from 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stripping your collar grip with both hands during setup - what immediate opportunity does this create?",
+      "name": "In the Truck, they strip your collar grip with both hands — what does that open up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent commits both hands to stripping the collar, they cannot simultaneously defend the twister or calf slicer. Immediately redirect to the twister by controlling their now-undefended far arm and initiating spinal rotation, or attack the calf slicer by extending the trapped leg while their hands are occupied high on the collar. This is the core dilemma principle of the truck position."

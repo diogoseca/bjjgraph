@@ -84,7 +84,7 @@ description: "Learn to attack the toe hold from ushiro ashi-garami with proper g
     },
     {
       "@type": "Question",
-      "name": "How does the ushiro ashi-garami configuration change the finishing mechanics compared to a standard toe hold?",
+      "name": "How does ushiro ashi-garami change the toe hold finishing mechanics versus a standard toe hold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The ushiro configuration reverses the opponent's hip orientation, which changes the optimal rotation direction for the finish. The attacker must angle their rotational force toward the opponent's outside hip rather than following standard toe hold angles. This reversed geometry actually limits the defender's ability to rotate their hips to relieve pressure, making the toe hold mechanically tighter once the grip is properly established."
@@ -92,7 +92,7 @@ description: "Learn to attack the toe hold from ushiro ashi-garami with proper g
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stripping your figure-four grip at the wrist connection during the toe hold attempt - what adjustment prevents the escape?",
+      "name": "Toe hold: they strip your figure-four at the wrist. What adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Deepen your wrist grip by pulling your gripping hand closer to your own body, shortening the lever arm they need to pry apart. If they continue fighting the grip, immediately transition your upper hand toward the heel to threaten a heel hook instead. The grip strip defense creates heel exposure, so the transition to heel hook capitalizes on their defensive reaction rather than fighting a losing grip battle."
@@ -100,7 +100,7 @@ description: "Learn to attack the toe hold from ushiro ashi-garami with proper g
     },
     {
       "@type": "Question",
-      "name": "What indicators tell you the opponent is approaching their breaking point during the toe hold application?",
+      "name": "What indicators show your opponent is nearing their breaking point during the toe hold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include the opponent's leg becoming rigid and resisting further rotation, a noticeable change in their breathing pattern such as holding breath or sharp exhales, their free hand abandoning grip fighting to tap, verbal signals of distress, and the ankle reaching the end range of its natural rotation where the ligaments begin to stretch. When you feel the ankle reaching maximum rotation resistance, slow your application further."
@@ -108,7 +108,7 @@ description: "Learn to attack the toe hold from ushiro ashi-garami with proper g
     },
     {
       "@type": "Question",
-      "name": "What are the critical control requirements you must verify before transitioning from entanglement control to the toe hold grip?",
+      "name": "What must you verify before releasing your hands from ushiro ashi-garami to grip the toe hold?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before releasing any hand to grip the foot, verify that your figure-four leg entanglement is secure with knees squeezed together, your inside leg has deep thigh control preventing opponent escape, the opponent's foot is accessible and not hidden behind your hip, and your outside leg is actively controlling their free leg. Releasing hand control prematurely without these checks allows the opponent to escape the entanglement entirely."

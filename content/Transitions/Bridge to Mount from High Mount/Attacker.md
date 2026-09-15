@@ -120,7 +120,7 @@ description: "Learn to execute the explosive Bridge to Mount from High Mount bot
     },
     {
       "@type": "Question",
-      "name": "The opponent grapevines your legs when you attempt to bridge - how do you adjust your escape approach?",
+      "name": "They grapevine your legs as you bridge from high mount bottom: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When grapevined, full bridges become mechanically compromised because your legs cannot generate sufficient leverage for explosive hip extension. Switch to small hip bumps combined with forearm frame creation against their hips. Use micro-movements to gradually work their knees downward. Attempt to hook one of their grapevining feet with yours to break the configuration before resuming bridge attempts with full leverage."

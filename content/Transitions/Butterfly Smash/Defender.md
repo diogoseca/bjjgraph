@@ -56,7 +56,7 @@ description: "How to defend against Butterfly Smash in BJJ. Recognition cues, de
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that a butterfly smash is being initiated rather than a different pass?",
+      "name": "What is the earliest cue that a butterfly smash is coming rather than another pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the passer driving their forehead into your chest or sternum while keeping their elbows tight to their body and lowering their hips. This combination of head pressure, tight elbows, and low center of gravity distinguishes the butterfly smash from standing passes or speed passes. The passer is committing to forward pressure rather than creating distance, which signals their intent to collapse your structure rather than move around your legs."
@@ -64,7 +64,7 @@ description: "How to defend against Butterfly Smash in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining upright seated posture the single most important defensive priority against the butterfly smash?",
+      "name": "Why is upright seated posture the top defensive priority against the butterfly smash?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Butterfly hooks generate their sweeping and defensive power through the angle created by the seated posture - the hooks need upward leverage to elevate the passer. When you are flat on your back, the hooks point forward rather than upward, losing all mechanical advantage. The passer's entire strategy is to flatten you because a flat opponent cannot generate hook elevation, making the hook-clearing sequence easy. Upright posture is the foundation that makes every other defensive option possible."
@@ -88,7 +88,7 @@ description: "How to defend against Butterfly Smash in BJJ. Recognition cues, de
     },
     {
       "@type": "Question",
-      "name": "Your hooks are still active but the passer has established a strong collar grip and is beginning to drive forward - what is your immediate priority?",
+      "name": "Hooks still active, but they get a strong collar grip and drive forward: what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is breaking or neutralizing that collar grip before the passer can convert it into chest pressure that flattens your posture. Use both hands to strip the grip by peeling fingers, or counter-grip their sleeve to redirect the pulling force. Simultaneously, increase your hook pressure upward to resist the forward drive. If you cannot break the grip within two to three seconds, establish a frame on their shoulder on the gripping side while preparing to either sweep or transition to an alternative guard position."

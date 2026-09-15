@@ -68,7 +68,7 @@ description: "How to execute the Knee Through pass in BJJ. Complete attacking gu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must shoulder pressure be established before attempting to extract the trapped leg in the Knee Through pass?",
+      "name": "Why must shoulder pressure come before extracting the trapped leg in the knee through?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shoulder pressure compresses the opponent's defensive frames and limits their ability to create space for guard recovery. Without proper upper body control, the opponent can easily use their hands and knee shield to prevent the pass or execute sweeps. The pressure also prevents them from sitting up or establishing an effective underhook. Attempting to pass with just leg movement allows the opponent to maintain active frames and control the distance, making the pass almost impossible against a competent bottom player."
@@ -84,7 +84,7 @@ description: "How to execute the Knee Through pass in BJJ. Complete attacking gu
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes a strong underhook on your near side while you are setting up the Knee Through. How do you respond?",
+      "name": "They get a strong near-side underhook as you set up the knee through—how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The underhook must be addressed immediately because it is the half guard player's most dangerous offensive tool. You can apply a strong whizzer to neutralize the underhook and fight to re-establish your own, switch to a Knee Slice Pass variation that works with their underhook rather than against it, or exploit the space their underhook creates by stepping over into mount. Continuing to force the Knee Through against a strong underhook typically results in being driven to your back or swept because the underhook gives them the leverage to off-balance your passing structure."
@@ -92,7 +92,7 @@ description: "How to execute the Knee Through pass in BJJ. Complete attacking gu
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to drive the knee in a straight line rather than cutting across the body during the Knee Through?",
+      "name": "Why drive the knee straight rather than cutting across the body in the knee through?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Driving straight through penetrates directly into the opponent's guard structure along the same vector as your shoulder pressure, creating a unified force that is extremely difficult to redirect. Cutting across at an angle separates your knee movement from your pressure line, exposing your leg to recapture and putting you off-balance for sweeps. The straight-line drive also allows you to maintain better shoulder connection throughout the movement, while an angled cut often requires you to rise up and sacrifice the pressure that makes the pass work."
@@ -100,7 +100,7 @@ description: "How to execute the Knee Through pass in BJJ. Complete attacking gu
     },
     {
       "@type": "Question",
-      "name": "What conditions must exist before you should attempt the Knee Through pass rather than an alternative half guard pass?",
+      "name": "What conditions favor the knee through over other half guard passes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Knee Through requires dominant upper body control with crossface established, the opponent's underhook denied or controlled, and the opponent playing a relatively static defensive half guard. It excels when you can negate their frames with sustained pressure. Choose alternative passes when the opponent has an established underhook, is using dynamic leg configurations like Deep Half Guard or Lockdown, has an active knee shield creating significant distance, or is actively threatening sweeps that require immediate defensive attention before you can commit to passing."

@@ -50,7 +50,7 @@ description: "Learn to prevent the Knee Shield to Closed Guard recovery as the t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting to close guard from knee shield?",
+      "name": "Passing knee shield, what is the earliest cue they are closing guard on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in their knee shield pressure from offensive pushing with sweep threats to purely distance-creating pushing, combined with a diagonal hip escape motion away from you. When the bottom player shifts from threatening sweeps to creating maximum distance with their frame while their hips begin angling away, they are setting up the leg extraction. Recognizing this shift before the hip escape completes gives you the reaction time to shut down the attempt."
@@ -66,7 +66,7 @@ description: "Learn to prevent the Knee Shield to Closed Guard recovery as the t
     },
     {
       "@type": "Question",
-      "name": "What is your best recovery option if you recognize the extraction attempt too late and their leg is already partially freed?",
+      "name": "You spot the leg extraction late and their leg is partly free: what is your best recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately control their extracting leg at the knee or ankle, preventing them from swinging it fully around your back to lock ankles. Step your far leg back and angle your body to create a passing angle rather than allowing guard closure. If you can trap their partially freed leg between your arm and body before they complete the wrap, you establish an open guard passing position rather than being pulled into closed guard."
@@ -74,7 +74,7 @@ description: "Learn to prevent the Knee Shield to Closed Guard recovery as the t
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully closes guard on you after the recovery—what immediate actions minimize the positional damage?",
+      "name": "They close full guard on you from knee shield: what immediate actions limit the damage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately establish strong posture by sitting upright with your spine straight and head positioned directly over your hips. Place both hands on their hips to create distance and prevent them from breaking your posture for attacks. Begin the standard closed guard top survival sequence: posture first, then grip fight, then guard opening. The faster you establish posture after guard closure, the fewer offensive options they can develop against you."

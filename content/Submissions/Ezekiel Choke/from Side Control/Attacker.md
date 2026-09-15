@@ -90,7 +90,7 @@ description: "Learn to attack with the Ezekiel Choke from side control top. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins turning their body away from you during the blade forearm placement—what adjustment prevents the choke from failing?",
+      "name": "They turn away as you place the blade forearm from side control — what adjustment saves it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent turns away, follow their movement by walking your knees toward their head side while maintaining hip pressure. The turning motion can actually assist the choke by exposing more of the near-side carotid to the blade forearm. Drive the blade forearm deeper as they turn and use your chest weight to prevent them from completing the turn to turtle. If they create enough angle to threaten a full turn, abandon the choke and re-establish crossface to prevent giving up the back."
@@ -98,7 +98,7 @@ description: "Learn to attack with the Ezekiel Choke from side control top. Step
     },
     {
       "@type": "Question",
-      "name": "What specific control elements must be established before committing to the Ezekiel finish from side control?",
+      "name": "What control must be established before committing to the Ezekiel finish from side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before committing, you must have established crossface with the underhook arm positioned near the neck, heavy hip-to-hip pressure limiting the opponent's hip mobility, and ideally the opponent's hands occupied with framing rather than protecting their neck. The sleeve grip must be threaded four fingers deep past the inner seam for strip resistance. Without secured hip pressure especially, the opponent will hip escape during your grip transition, converting your dominant side control into a half guard situation."
@@ -106,7 +106,7 @@ description: "Learn to attack with the Ezekiel Choke from side control top. Step
     },
     {
       "@type": "Question",
-      "name": "How do you recognize that the choking structure is fully locked and the opponent has passed the point of no escape?",
+      "name": "How do you recognize the side control Ezekiel is locked past the point of no escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The choke is fully locked when both forearms form a closed circuit around the neck with the blade forearm beneath the chin on the throat, no slack exists in the loop, and your chest weight is committed forward through the structure. The point of no escape is reached when your head drops beside theirs as a wedge preventing face turning, both elbows are tight to your body, and the opponent's attempts to push the forearm away with framing hands cannot overcome the combined body weight and scissoring tension in the structure."
@@ -114,7 +114,7 @@ description: "Learn to attack with the Ezekiel Choke from side control top. Step
     },
     {
       "@type": "Question",
-      "name": "What is the most common mechanical error that converts the side control Ezekiel from a blood choke into an ineffective pressure hold?",
+      "name": "What common error turns the side control Ezekiel into a pressure hold rather than a choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common error is attempting to finish with forearm squeeze alone without driving upper body weight through the choking structure. From the perpendicular side control angle, arm strength alone cannot generate sufficient bilateral closing force to compress both carotid arteries simultaneously. The correction is to drop the head and chest into the structure, using the entire upper body as a unified pressure mechanism. Think of the forearms as the frame and your body weight as the force that closes it."
@@ -122,7 +122,7 @@ description: "Learn to attack with the Ezekiel Choke from side control top. Step
     },
     {
       "@type": "Question",
-      "name": "During the finish, your sleeve grip begins slipping because the gi is soaked with sweat—what grip adjustment maintains the choke?",
+      "name": "Your sleeve grip slips on a sweat-soaked gi during the side control Ezekiel — what fixes it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the sleeve grip slips, deepen the grip by threading more of your fingers and palm through the cuff opening rather than gripping tighter with fingertips. Curl your fingers around the inner seam of the cuff to create a hook grip that resists slipping. If the cuff is too saturated, you can grip the sleeve material higher up the forearm where there is more fabric to bunch. As an immediate alternative, commit fully to the finish before the grip deteriorates further since the choke may already have sufficient closing force to produce a tap."

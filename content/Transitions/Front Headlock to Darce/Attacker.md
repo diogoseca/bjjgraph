@@ -74,7 +74,7 @@ description: "How to execute Front Headlock to Darce in BJJ. Attacking perspecti
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical control point to establish before attempting to circle to the Darce finishing position?",
+      "name": "What control must you establish before circling to the Darce finish from front headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The near hip control is the most critical point to establish before circling. Without controlling the opponent's near hip, they can execute a granby roll or other defensive roll to escape before you establish the finishing position. The hip control should be established immediately after locking the figure-four arm configuration. Think of it as the checkpoint that gates the entire circling phase."
@@ -82,7 +82,7 @@ description: "How to execute Front Headlock to Darce in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins to circle away from your choking arm while you have the front headlock - how do you capitalize on this movement?",
+      "name": "In a front headlock, they circle away from your choking arm; how do you enter the Darce?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their circling away from your choking arm is the ideal trigger for the Darce entry. As they circle, their far arm naturally opens up, creating the gap you need to thread your underhook. Follow their movement and insert your free arm under their far armpit while they are in motion. Their own defensive movement actually facilitates your submission setup. The key is timing the underhook insertion to coincide with their circular motion rather than fighting against a static position."
@@ -90,7 +90,7 @@ description: "How to execute Front Headlock to Darce in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Which direction should you circle when transitioning from front headlock to Darce finishing position?",
+      "name": "Which direction do you circle when going from front headlock to the Darce finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should always circle toward the choking side - the same side as your arm that is around the opponent's neck. This brings your body perpendicular to theirs and tightens the choke structure naturally. Circling away from the choking side creates an incorrect angle where the choke cannot be effectively finished. Visualize walking your chest toward their far hip."
@@ -98,7 +98,7 @@ description: "How to execute Front Headlock to Darce in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "What is the proper response if your opponent successfully grabs your leg and drives forward as you attempt to circle?",
+      "name": "Circling for the Darce, they grab your leg and drive forward; how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent grabs your leg and drives forward, switch to an anaconda choke or guillotine instead of forcing the Darce. Adjust your arm position for the anaconda, or take the guillotine if they drive their head up. You can also sprawl your hips back while maintaining downward head pressure to counter their forward drive. The key is to maintain control and flow to alternative attacks rather than forcing a compromised Darce."

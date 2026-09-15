@@ -64,7 +64,7 @@ description: "Defend against the standing guard break in closed guard. Learn rec
     },
     {
       "@type": "Question",
-      "name": "Your opponent has achieved a full standing position and your guard is about to break from gravity pressure—what is your best defensive transition?",
+      "name": "You're standing and your closed guard is about to be broken by gravity. What's your best transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than desperately holding closed guard against unsustainable pressure, proactively open your guard and immediately establish feet on both hips with active collar and sleeve grips. This voluntary transition to open guard maintains your offensive capability and defensive structure, whereas being forcibly broken open typically results in your legs being controlled without any defensive grips in place. The key is making this transition before the guard breaks, not after."
@@ -72,7 +72,7 @@ description: "Defend against the standing guard break in closed guard. Learn rec
     },
     {
       "@type": "Question",
-      "name": "What sweep has the highest percentage success rate during your opponent's transition from kneeling to standing?",
+      "name": "Which sweep is highest percentage as they move from kneeling to standing in your closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip bump sweep is the highest percentage option during this transition because it directly exploits the primary vulnerability of the stand-up: the forward weight shift and narrowing base as one knee lifts off the mat. By timing the hip bump to coincide with their upward drive, you redirect their transitional momentum laterally against their compromised base. The flower sweep is a strong secondary option that uses their upward momentum against them when they commit to the standing motion."
@@ -88,7 +88,7 @@ description: "Defend against the standing guard break in closed guard. Learn rec
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your guard retention strategy once your opponent has fully established a stable standing position?",
+      "name": "Once they are stably standing, how should you adjust your closed guard retention plan?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once they are fully standing with a stable staggered stance, shift your strategy from trying to maintain closed guard to establishing the best possible open guard position. Climb your guard as high as possible on their torso to delay the break, then proactively open guard with feet on hips and established collar and sleeve grips before the guard is forcibly broken. This transitions you into an organized open guard with offensive capability rather than a scramble. Key grips to establish before opening are cross-collar and same-side sleeve, which provide immediate sweep and submission options from open guard."

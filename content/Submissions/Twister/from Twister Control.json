@@ -326,7 +326,7 @@
         }
       },
       {
-        "question": "Your opponent begins aggressively hand fighting to prevent your chin strap — what adjustment prevents escape?",
+        "question": "They hand fight hard against your chin strap in twister control — what stops the escape?",
         "answer": "First isolate and pin the far-side wrist against their body using your chest pressure and free hand before reattempting the chin strap. If they continue defending with both hands, use your body weight to flatten their defensive arm between your bodies. The key is removing their primary defensive tool before threading, not fighting through active hand defense which risks losing leg control as your attention shifts upward.",
         "safety_critical": false,
         "answer_line": "Pin far wrist, then thread grip",
@@ -401,7 +401,7 @@
         }
       },
       {
-        "question": "Your chin strap grip is shallow and the opponent is defending their chin effectively — what should you do?",
+        "question": "Your chin strap is shallow and they defend the chin well from twister control — what should you do?",
         "answer": "If the chin strap cannot be established deeply despite proper wrist isolation, do not force it. Maintain your leg entanglement and transition to alternative attacks that exploit the opponent's chin-defense posture. A calf slicer attacks the trapped leg while they focus on chin defense. A banana split exploits their hip immobility. Transition to back control if the entanglement allows. Forcing a shallow chin strap risks both losing position and applying dangerous concentrated pressure on the jaw rather than proper spinal torque.",
         "safety_critical": false,
         "answer_line": "Switch to calf slicer/banana split",
@@ -600,7 +600,7 @@
         }
       },
       {
-        "question": "Your opponent has started threading their arm under your chin — what immediate defensive action should you take?",
+        "question": "They begin threading an arm under your chin from twister control — what is your immediate defense?",
         "answer": "Immediately tuck your chin tightly to your chest and use both hands to create a barrier preventing the forearm from seating under your jaw. Grip your own head or interlock your fingers behind your neck to create a chin-protection shell. Simultaneously, begin working your trapped leg free since the opponent's focus on the chin strap creates a window to address the leg entanglement. Do not rely on chin defense alone as it is a temporary measure.",
         "safety_critical": false,
         "answer_line": "Tuck chin, hand barrier, free leg",

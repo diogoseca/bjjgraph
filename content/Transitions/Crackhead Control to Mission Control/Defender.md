@@ -56,7 +56,7 @@ description: "How to defend against Crackhead Control to Mission Control in BJJ.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary escape window during the Crackhead Control to Mission Control transition and why does it exist?",
+      "name": "Why does the Crackhead to Mission Control switch create an escape window, and when is it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary escape window occurs during the grip transition when the bottom player releases the deep overhook but has not yet established head control for Mission Control. This window exists because the bottom player cannot simultaneously maintain Crackhead Control and establish Mission Control - they must temporarily sacrifice their primary control mechanism, creating a brief period where neither control is fully active."
@@ -64,7 +64,7 @@ description: "How to defend against Crackhead Control to Mission Control in BJJ.
     },
     {
       "@type": "Question",
-      "name": "Your opponent's overhook begins loosening while their hips drive upward - what does this tell you and how should you respond?",
+      "name": "Their overhook loosens as their hips drive up. What does this mean and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This indicates the transition has been initiated - hip elevation is the foundational step before the overhook release. You should prepare to act immediately. As the overhook fully releases, explosively recover posture by driving your head up and hips back, or extract the trapped arm by circling it outward. Do not wait for the head control to establish - the moment between overhook release and head control is your narrowest but most valuable escape opportunity."
@@ -80,7 +80,7 @@ description: "How to defend against Crackhead Control to Mission Control in BJJ.
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a genuine transition attempt and a feint designed to bait your escape reaction?",
+      "name": "Crackhead to Mission Control: how do you tell a real transition from a feint baiting your escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A genuine transition shows all mechanical indicators in sequence: hip elevation first, then leg repositioning toward the shoulder, then overhook loosening. A feint typically shows only one indicator - usually a momentary overhook loosening without the corresponding hip elevation or leg movement. If hips remain flat and the leg stays in position, the overhook change is likely a grip adjustment or bait rather than a genuine transition to Mission Control."

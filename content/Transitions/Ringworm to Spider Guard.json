@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "The opponent drives forward with pressure just as you release the lapel - what is your immediate response?",
+        "question": "They drive forward just as you release the lapel for Spider Guard: what is your response?",
         "answer": "Use your already-established spider hook on one side to push them back while framing with your free hand against their shoulder or chest. If the forward pressure is too strong, convert it into a sweep opportunity by extending under them or use a butterfly hook with your free leg to redirect their momentum overhead. The key is using their forward energy against them rather than trying to stop it directly.",
         "answer_line": "Push with hook, frame free hand",
         "distractors": {
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "If your first attempt at the transition fails and you fall back to Ringworm Guard, what should you assess before trying again?",
+        "question": "Your Ringworm to Spider Guard attempt fails and you land back in Ringworm: what do you assess?",
         "answer": "Assess why the attempt failed by identifying whether it was a timing issue, grip acquisition problem, or opponent recognition of the transition. Check that your lapel wrap is still functional and retighten if needed. Evaluate whether the opponent has adjusted their arm defense to specifically counter sleeve grips. Consider varying your approach by trying the hybrid variant or lasso detour on the next attempt to avoid being predictable.",
         "answer_line": "Diagnose why, retighten, vary",
         "distractors": {
@@ -462,7 +462,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary vulnerability in the bottom player's guard during the Ringworm to Spider Guard transition?",
+        "question": "What is the bottom player's main vulnerability during the Ringworm to Spider Guard transition?",
         "answer": "The primary vulnerability is the grip exchange moment when the bottom player releases the lapel wrap to capture the second sleeve. During this brief window of approximately one to two seconds, neither the Ringworm Guard's lapel control nor Spider Guard's sleeve-and-bicep system is fully active, creating a control gap that the top player can exploit with forward pressure or grip prevention.",
         "answer_line": "Grip exchange control gap",
         "distractors": {
@@ -476,7 +476,7 @@
         }
       },
       {
-        "question": "Why is retreating and creating distance a poor defensive response when the bottom player attempts this transition?",
+        "question": "Why is retreating a poor response to their Ringworm to Spider Guard transition?",
         "answer": "Spider Guard requires distance to function effectively since the bottom player needs space to extend their legs and place feet on your biceps. Retreating provides exactly the distance they need and makes Spider Guard establishment easier. Instead, closing distance by driving forward during the transition denies the space required for spider hooks and forces the bottom player into close-range positions where Spider Guard cannot be maintained.",
         "answer_line": "Close distance, deny space",
         "distractors": {
@@ -504,7 +504,7 @@
         }
       },
       {
-        "question": "Your opponent has secured one sleeve grip and is reaching for the second - what is your best response?",
+        "question": "They have one sleeve grip and reach for the second toward Spider Guard: what is your best response?",
         "answer": "Address the immediate threat of the second sleeve grip by controlling their reaching hand with your free arm while simultaneously driving your trapped arm downward toward their hip to reduce the effectiveness of their single spider hook. If you prevent the second grip, you face a half-spider configuration that is much easier to pass than full Spider Guard. You can then systematically address the single grip and begin your passing sequence.",
         "answer_line": "Block second grip, drive arm down",
         "distractors": {

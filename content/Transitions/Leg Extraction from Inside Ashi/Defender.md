@@ -64,7 +64,7 @@ description: "Defend against leg extraction from Inside Ashi-Garami. Techniques 
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully clears your inside leg from their hip—how should you respond rather than trying to re-establish the same position?",
+      "name": "They clear your inside leg off their hip — how do you respond instead of re-establishing it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the space created by their hip clearance as an opportunity to thread your legs into a more advanced entanglement. Advance to saddle by threading your now-cleared inside leg deeper into the entanglement behind their knee, or transition to honey hole by crossing your feet around their trapped leg in a tighter configuration. Their escape movement creates the exact space needed for positional advancement. Fighting to re-establish the same inside leg position is less effective than flowing forward to a stronger position."
@@ -80,7 +80,7 @@ description: "Defend against leg extraction from Inside Ashi-Garami. Techniques 
     },
     {
       "@type": "Question",
-      "name": "Your opponent stands up while their leg is still trapped—what defensive adjustment prevents the standing extraction?",
+      "name": "They stand with their leg still in your inside ashi — what stops the standing extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow them up by pulling your body closer using their trapped leg as an anchor, preventing them from creating the distance needed for standing extraction. Drive your inside leg deeper across their hip and hook their standing leg with your free leg to destabilize their base. If they commit to standing fully, use the elevation to transition to single leg X-guard position from your ashi configuration, converting their standing attempt into a sweep opportunity."

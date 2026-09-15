@@ -74,7 +74,7 @@ description: "Defend against the outside heel hook from saddle with recognition 
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available against the outside heel hook from saddle at different stages of the attack?",
+      "name": "What defenses are available at each stage of an outside heel hook from the saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before the grip is established: rotate your knee outward to hide the lateral heel and fight the attacker's hand positioning. During grip transition: use two-on-one grip fighting to strip the heel cup before the figure-four connects. After figure-four is locked: counter-rotate your body to reduce rotational stress while working grip breaks. Once rotation is actively loading the knee: tap immediately, as escape is no longer safely possible at this stage."
@@ -82,7 +82,7 @@ description: "Defend against the outside heel hook from saddle with recognition 
     },
     {
       "@type": "Question",
-      "name": "Why is it dangerous to explosively pull your leg away when the attacker has heel control in the outside heel hook?",
+      "name": "Why is explosively yanking your leg out dangerous once they have heel control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive leg retraction creates kinetic energy that adds to the rotational force already being applied to your knee by the attacker's grip. Instead of helping you escape, the pulling motion accelerates the very mechanics that cause ligament damage. The correct response is to move your body toward the attacker to reduce extension and rotational stress, then systematically address their grips before attempting any leg movement."

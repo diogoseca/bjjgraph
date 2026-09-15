@@ -74,7 +74,7 @@ description: "Master the attacker perspective for Standing Back Control Entry in
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three primary control points that must be maintained throughout the Standing Back Control Entry?",
+      "name": "What three control points must be maintained throughout the standing back control entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three control points are hooks inside the opponent's thighs for hip control, seatbelt or harness grip for upper body control, and chest-to-back connection for weight distribution and positional dominance. All three must be maintained simultaneously throughout the transition from horizontal to vertical, as losing any single control point during the transition creates escape windows the opponent will exploit."
@@ -90,7 +90,7 @@ description: "Master the attacker perspective for Standing Back Control Entry in
     },
     {
       "@type": "Question",
-      "name": "Your opponent plants their feet and begins loading their hips to stand - what is your immediate response?",
+      "name": "From back control, they plant their feet and load their hips to stand. Immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tighten your seatbelt grip by pulling elbows in, drive hooks deeper inside their thighs, and engage your hips flush against their lower back to eliminate any space. Begin your upward hip engagement before they fully commit to the stand-up so you are synchronized with their movement rather than reacting to it after they have already created separation."

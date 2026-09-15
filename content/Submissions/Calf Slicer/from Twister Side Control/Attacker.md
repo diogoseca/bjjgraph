@@ -84,7 +84,7 @@ description: "Step-by-step guide to executing the calf slicer from twister side 
     },
     {
       "@type": "Question",
-      "name": "How does the existing leg entanglement in twister side control facilitate the calf slicer setup compared to other positions?",
+      "name": "How does the leg entanglement in twister side control aid the calf slicer setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Twister side control provides a pre-built leg control framework where the opponent's near leg is already trapped by the controlling player's leg hooks. This eliminates the need to establish new leg control from scratch, making the transition to the calf slicer more fluid and harder to anticipate. The lateral angle also provides superior hip drive mechanics for generating compression force compared to more squared-up positions."
@@ -92,7 +92,7 @@ description: "Step-by-step guide to executing the calf slicer from twister side 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins straightening their trapped leg forcefully during the compression phase — what adjustment prevents escape?",
+      "name": "Twister side control: they forcefully straighten the trapped leg—what adjustment stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Secure foot control earlier and more tightly using a figure-four ankle grip that resists extension force. Use your full body weight pressing through the shin to resist the straightening rather than relying on arm strength alone. If the leg straightens significantly, the fulcrum loses effectiveness — in this case, maintain the entanglement and transition back to twister side control attacks rather than forcing a mechanically compromised calf slicer."
@@ -108,7 +108,7 @@ description: "Step-by-step guide to executing the calf slicer from twister side 
     },
     {
       "@type": "Question",
-      "name": "At what point during the calf slicer is the defender past the point of no return where escape becomes extremely unlikely?",
+      "name": "During the calf slicer, at what point is the defender past the point of no return?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the attacker has achieved three simultaneous conditions — shin seated behind the knee, secure two-handed foot control, and initial hip drive creating fold — escape becomes extremely difficult. The compression mechanics are locked in and the defender's leg is structurally trapped. Before all three are established, the defender has realistic escape windows at each stage. This is why attackers must secure each element sequentially rather than rushing to the finish."
@@ -116,7 +116,7 @@ description: "Step-by-step guide to executing the calf slicer from twister side 
     },
     {
       "@type": "Question",
-      "name": "Your opponent attempts to roll toward you during the compression phase — how do you maintain the submission?",
+      "name": "They roll toward you during the calf slicer compression—how do you keep the submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your outside hand and widen your base to absorb the rolling force without losing position. Their rolling motion toward you often actually deepens the leg entanglement and can improve your compression angle rather than disrupting it. Follow their movement by adjusting your hip position to maintain the shin-behind-knee fulcrum. If they roll far enough, you may end up in an even more dominant finishing position with gravity assisting the compression."

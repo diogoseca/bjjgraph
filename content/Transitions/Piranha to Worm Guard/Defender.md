@@ -56,7 +56,7 @@ description: "Defend against the Piranha to Worm Guard transition in BJJ. Learn 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is initiating a Piranha to Worm Guard transition rather than maintaining standard Piranha Guard attacks?",
+      "name": "What is the earliest cue that the bottom player is going from Piranha guard into worm guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player's hip angle changing from square (facing you directly for Piranha attacks) to angled toward your lead leg, typically accompanied by their outside foot seeking a DLR hook behind your knee or calf. Standard Piranha attacks like pendulum sweeps use symmetrical hip positioning, so the asymmetric hip shift toward one of your legs specifically signals the worm guard evolution. This hip angle change typically precedes the grip transfer by one to two seconds, giving you a reaction window."
@@ -72,7 +72,7 @@ description: "Defend against the Piranha to Worm Guard transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins the transition and you feel the DLR hook setting on your left leg—what specific leg adjustment denies the worm wrap?",
+      "name": "Their DLR hook is setting on your left leg for the worm wrap: what leg adjustment denies it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Step your left foot backward and to the right, circling it outward away from their DLR hook while keeping your weight on your right leg for balance. This motion simultaneously breaks the DLR hook angle and moves your thigh out of the lapel feed path. As you circle, push their hooking foot off your leg with your left hand if possible. The key is outward circular motion rather than straight backward stepping, because circling changes the angle continuously rather than just creating linear distance."
@@ -88,7 +88,7 @@ description: "Defend against the Piranha to Worm Guard transition in BJJ. Learn 
     },
     {
       "@type": "Question",
-      "name": "When is it better to allow the transition to Piranha Guard/Bottom rather than aggressively fighting for the Open Guard/Bottom outcome?",
+      "name": "When is it better to let them fail back to Piranha guard than to fight hard for open guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Allow the transition to fail back to Piranha Guard when your aggressive grip stripping would compromise your base or when you are not confident in your timing. A mistimed grip strip can actually strengthen their Piranha position by pulling your collar tighter into their control, and an overly aggressive forward drive can power their sweep. If you are uncertain about the timing, simply deny the DLR hook by stepping back, which forces a failed transition without risking a counter-sweep. Save the aggressive lapel strip for moments when you clearly feel the single-hand control transfer."

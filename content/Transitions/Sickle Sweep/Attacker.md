@@ -108,7 +108,7 @@ description: "How to execute the Sickle Sweep from De La Riva Guard in BJJ. Atta
     },
     {
       "@type": "Question",
-      "name": "Your opponent steps their far leg back to widen their base as you begin the sickle motion - what is your best response?",
+      "name": "They step their far leg back to widen base as you start the Sickle Sweep — best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent widens their base by stepping back, the Sickle Sweep becomes very difficult to complete. The best response is to immediately transition to X-Guard or Single Leg X-Guard by collecting their near leg with your bottom leg, threading under their hips, and adjusting your hook position. Their widened stance actually makes these transitions easier because they've committed weight to the far leg, making the near leg lighter and easier to load onto your hooks."

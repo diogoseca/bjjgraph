@@ -84,7 +84,7 @@ description: "Learn to attack with the Kimura from Armbar Control. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent clasps their hands together to block the kimura rotation - what is your immediate adjustment?",
+      "name": "They clasp their hands to block the kimura rotation — what is your immediate adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Wedge your top hand between their clasped hands and lever them apart using a peeling motion. If the grip is too strong, maintain your figure-four and use your legs to apply sustained downward pressure on their head while keeping rotational tension on the shoulder. Their grip will fatigue before your positional control does. You can also switch back to armbar if they straighten their arm to re-clasp."
@@ -92,7 +92,7 @@ description: "Learn to attack with the Kimura from Armbar Control. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical difference between finishing an armbar and finishing a kimura from the same armbar control position?",
+      "name": "Mechanically, how does finishing a kimura differ from an armbar from armbar control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The armbar uses linear extension force through hip elevation against a straightened elbow joint, with the fulcrum at the elbow. The kimura uses rotational force through internal rotation of a bent arm, driving the wrist toward the lower back, with the fulcrum at the shoulder. The armbar requires arm straightness while the kimura requires arm bend. Both use hip-to-shoulder proximity but the force vector changes from vertical extension to rotation of the shoulder."

@@ -74,7 +74,7 @@ description: "Master attacking Ashi Garami maintenance with systematic connectio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical connection point to maintain when your opponent begins their initial extraction attempt?",
+      "name": "Holding ashi garami: which connection point matters most when they begin extracting the leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The inside leg hook behind the opponent's knee is the most critical connection point because it controls the primary axis of rotation for the trapped leg. Losing this hook before others allows the opponent to straighten their leg and begin systematic clearing of remaining connections. Re-establishing the inside hook should always take priority over other connection points during maintenance."
@@ -82,7 +82,7 @@ description: "Master attacking Ashi Garami maintenance with systematic connectio
     },
     {
       "@type": "Question",
-      "name": "How should you respond when your opponent explosively stands up while you maintain Outside Ashi control?",
+      "name": "Holding outside ashi: how do you respond when they explosively stand up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their hip movement by scooting your hips toward them and maintaining the pinching pressure of your leg hooks. Grip the ankle or heel cord firmly to prevent the standing leg from stepping away. Use the elevation change to transition to Single Leg X-Guard or elevate into a more dominant entanglement rather than fighting the stand-up directly with pure pulling force."
@@ -90,7 +90,7 @@ description: "Master attacking Ashi Garami maintenance with systematic connectio
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the strongest upper body connection for maintaining Ashi Garami control?",
+      "name": "Which grip gives the strongest upper body connection for holding Ashi Garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A two-on-one grip controlling the opponent's ankle with one hand and heel cord with the other provides the strongest upper body connection. The bottom hand cups the heel to prevent rotation while the top hand controls the ankle to prevent extension. This double grip creates redundancy so losing one grip does not immediately compromise the entire control chain."
@@ -114,7 +114,7 @@ description: "Master attacking Ashi Garami maintenance with systematic connectio
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pushing your bottom knee toward the mat to open inside space - how do you adjust?",
+      "name": "In Ashi Garami they push your bottom knee to the mat for inside space—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Counter the knee push by driving your inside knee back to their centerline while pulling their trapped leg tighter with your grips. Make the pull with your upper body grips, and if the push partially succeeds, immediately re-pummel your inside knee back to the blocking position. Use hip rotation rather than pure knee strength to maintain the blocking angle against their push."

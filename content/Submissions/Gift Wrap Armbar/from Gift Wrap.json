@@ -297,7 +297,7 @@
     ],
     "flashcards": [
       {
-        "question": "What anatomical structure does the Gift Wrap Armbar primarily attack, and what makes the gift wrap control increase the finish rate?",
+        "question": "What does the gift wrap armbar attack, and why does the gift wrap raise the finish rate?",
         "answer": "The Gift Wrap Armbar hyperextends the elbow joint, and the gift wrap removes the opponent's second arm from the armbar defense. The extension stresses the ulnar collateral ligament and joint capsule against their natural range of motion. Because the trapped arm cannot clasp hands, frame against your legs, or add a second arm to resist, the defense collapses into a single-arm problem, dramatically favoring the attacker and raising the finish rate.",
         "safety_critical": false,
         "distractors": {
@@ -312,7 +312,7 @@
         "answer_line": "Traps 2nd arm, elbow hyperextends"
       },
       {
-        "question": "What are the visible indicators that the opponent's elbow is approaching the breaking point during the armbar extension?",
+        "question": "During the gift wrap armbar extension, what visible signs show the elbow is near breaking?",
         "answer": "The elbow nears breaking when the arm is fully straight, the bicep and forearm visibly tense in resistance, and the opponent shows sudden distress. The arm may also tremble under the extension pressure, and audible distress vocalizations or sudden body tension are further signals. At this stage, slow your hip elevation immediately and allow time for the tap—continuing aggressive extension past these signs risks injury.",
         "safety_critical": true,
         "distractors": {
@@ -342,7 +342,7 @@
         "answer_line": "Gift wrap, base, wrist control"
       },
       {
-        "question": "At what point during the Gift Wrap Armbar sequence does the submission become inescapable for the defender?",
+        "question": "At what point does the gift wrap armbar become inescapable for the defender?",
         "answer": "It becomes inescapable once the legs clamp the head and chest with knees squeezed, the hips sit under the elbow, and the wrist is tight to your chest. At that point the leg barrier, hip fulcrum, and wrist control form a closed mechanical system, so the defender cannot rotate the elbow, stack forward, or bridge effectively. Any defensive movement at this stage typically accelerates the hyperextension rather than relieving it.",
         "safety_critical": false,
         "distractors": {
@@ -357,7 +357,7 @@
         "answer_line": "Knees clamped, hips under elbow"
       },
       {
-        "question": "What is the most common finishing error that allows opponents to survive the Gift Wrap Armbar even from a locked position?",
+        "question": "What finishing error lets opponents survive a locked gift wrap armbar?",
         "answer": "The most common finishing error is attempting to extend the arm by pulling with the hands and arms rather than elevating the hips. Hand pulling lacks sufficient force to overcome a resisting opponent, fatigues quickly, and can inadvertently lift the attacker's hips away from the fulcrum position beneath the elbow. The correction is to pin the wrist to the chest and generate all finishing pressure through a hip bridge, which engages the glutes, hamstrings, and core—muscles vastly more powerful than the arms.",
         "safety_critical": false,
         "answer_line": "Pulling with arms, not hips",
@@ -372,7 +372,7 @@
         }
       },
       {
-        "question": "How should you adjust your grip if the opponent begins rotating their wrist during the finishing extension?",
+        "question": "They rotate their wrist during the gift wrap armbar extension — how do you adjust your grip?",
         "answer": "If the opponent rotates their wrist, move your grip to the forearm just above the wrist, a wider control surface that resists rotation. Additionally, squeeze your knees tighter to prevent the elbow from rotating out of plane, and angle your hips slightly toward the opponent's thumb-side to maintain the correct hyperextension vector. If the wrist fully rotates thumb-down, consider transitioning to a belly-down armbar finish.",
         "safety_critical": false,
         "distractors": {
@@ -387,7 +387,7 @@
         "answer_line": "Grip forearm, squeeze knees tighter"
       },
       {
-        "question": "What is the appropriate speed for applying the finishing extension, and what should you do if you feel a pop or crack before the opponent taps?",
+        "question": "How fast should you extend the gift wrap armbar, and what if you feel a pop before the tap?",
         "answer": "The finishing extension should be applied progressively over 2-4 seconds with smooth hip elevation. Never jerk, bounce, or spike the extension. If you feel or hear a pop, crack, or sudden loss of resistance before the opponent taps, release immediately regardless of whether a formal tap occurred. These sensations indicate potential ligament or joint damage. Stop the roll, check on your partner, and seek medical evaluation. Continuing after structural failure can cause permanent injury.",
         "safety_critical": true,
         "answer_line": "Slow extension, release on pop",
@@ -402,7 +402,7 @@
         }
       },
       {
-        "question": "How does the Gift Wrap Armbar create a strategic dilemma with choke attacks, and how should you exploit this in competition?",
+        "question": "How does the gift wrap armbar pair with choke threats to create a dilemma in competition?",
         "answer": "The gift wrap forces the opponent's free arm to choose between defending the neck against chokes and staying retracted from the armbar. When they extend that arm to fight your choking hand, it becomes vulnerable to the armbar; when they retract it, the neck opens for the rear naked choke. In competition, alternate genuine choke threats with armbar entries, read which defense the opponent prioritizes, and attack the opposite target—establishing this pattern forces reactive defense that you control.",
         "distractors": {
           "plausible": [
@@ -416,7 +416,7 @@
         "answer_line": "Alternate choke and armbar threats"
       },
       {
-        "question": "During the finishing extension, your opponent manages to sit up partially despite your leg across their face - what immediate adjustment prevents the escape?",
+        "question": "They sit up despite your leg across their face — what adjustment stops the armbar escape?",
         "answer": "When the opponent begins sitting up, your leg across the face is either too light or positioned too high on the forehead. Drop your hamstring lower to seat it on the jawline rather than the forehead, creating a stronger mechanical barrier against their posturing force. Simultaneously, angle your body slightly away from them by scooting your hips back, which increases the distance they need to cover to complete the sit-up. If they continue rising, hook your heel behind their far shoulder to create a more secure anchor point. The combination of heavy leg pressure on the jaw and angular retreat creates a wall that is far more effective than simply pushing with the leg.",
         "safety_critical": false,
         "answer_line": "Seat leg on jaw, angle hips back",
@@ -431,7 +431,7 @@
         }
       },
       {
-        "question": "You have the armbar locked with hips elevated but the opponent maintains a slight bend in the arm and resists extension through bicep strength - what finishing detail breaks through this resistance?",
+        "question": "Armbar locked but they resist with a bent arm — what finishing detail breaks that resistance?",
         "answer": "Against bent-arm resistance, pure hip elevation alone may be insufficient because the opponent's bicep is strongest in a partially flexed position. Apply the breaking-the-line adjustment by angling the captured wrist slightly toward your centerline rather than holding it directly over your sternum. This subtle wrist redirection changes the force vector so the extension pressure attacks the elbow at a less mechanically advantageous angle for the bicep, reducing their resistance capacity. Additionally, pulse your hip elevation in small increments rather than attempting one sustained bridge, as each incremental pulse advances the extension past the opponent's ability to reset their resistance. Maintain constant adductor squeeze throughout to prevent any elbow rotation that would relieve the pressure angle.",
         "safety_critical": false,
         "answer_line": "Angle wrist in, pulse hip bridges",
@@ -491,7 +491,7 @@
         "answer_line": "Arm straight, rotation stops, firm"
       },
       {
-        "question": "Your opponent rotates their thumb down so their pinky points to the ceiling — what grip adjustment restores the finish?",
+        "question": "They rotate thumb-down, pinky to the ceiling — what grip adjustment restores the armbar?",
         "answer": "Re-rotate the opponent's wrist thumb-up so the elbow points at the ceiling and realigns with the hyperextension axis. A pinky-up arm shifts the lever onto the shoulder, and the elbow lock is lost until the joint is brought back into plane.",
         "safety_critical": false,
         "distractors": {
@@ -521,7 +521,7 @@
         "answer_line": "Knees pinched, leg on face, pinned"
       },
       {
-        "question": "You are cranking hard but the opponent isn't tapping and the arm won't straighten — what is the likely error?",
+        "question": "You're cranking the armbar but the arm won't straighten — what is the likely error?",
         "answer": "There is space between your thigh and their elbow, or your knees have opened. Re-pinch the knees, slide the elbow to your hip crease, and finish on the fulcrum rather than trying to muscle the extension.",
         "safety_critical": false,
         "answer_line": "Elbow slipped off thigh fulcrum",
@@ -536,7 +536,7 @@
         }
       },
       {
-        "question": "If the opponent bends the elbow and grabs their own lapel or belt to stall, what is your highest-percentage adjustment?",
+        "question": "They bend the elbow and grab their own belt to stall your armbar — what is your best fix?",
         "answer": "Strip the stalling grip by peeling or stepping on the hand, or convert to a same-arm Americana or kimura to break it. Once the grip breaks and the arm is free, return to the straight-arm extension to finish.",
         "safety_critical": false,
         "distractors": {
@@ -690,7 +690,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the most critical timing window for defending the Gift Wrap Armbar, and what should you do during it?",
+        "question": "What is the key window to defend the gift wrap armbar, and what should you do in it?",
         "answer": "The most critical window is during the attacker's hip shift phase before their far leg swings over your head. At this point, the attacker has committed to abandoning pure back control but has not yet locked the armbar position. Turn your hips and shoulders toward the attacker to collapse the armbar angle, and retract your free arm tight to your body with hands clasped. Once the leg crosses your face and the hips are in position, defensive options decrease dramatically.",
         "safety_critical": false,
         "answer_line": "Turn into attacker on hip shift",
@@ -705,7 +705,7 @@
         }
       },
       {
-        "question": "Why is extending your free arm to push the attacker away a dangerous mistake when defending the Gift Wrap Armbar?",
+        "question": "Why is extending your free arm to push away dangerous against the gift wrap armbar?",
         "answer": "Extending the free arm provides the attacker with exactly the arm isolation they need to complete the armbar setup. The push creates wrist exposure that allows two-on-one grip, the extension removes the arm from the protected position near your ribs, and the straight arm is already partially in the finishing position. Instead, keep the elbow glued to the ribs and use hip movement and body turning for defensive actions rather than arm-based responses.",
         "safety_critical": false,
         "answer_line": "It hands over the arm isolation",
@@ -735,7 +735,7 @@
         }
       },
       {
-        "question": "How does the gift wrap arm trap change your standard armbar defense strategy compared to a normal armbar?",
+        "question": "How does the gift wrap arm trap change your armbar defense compared to a normal armbar?",
         "answer": "The gift wrap fundamentally changes armbar defense because your primary defensive tool—clasping both hands together—is unavailable. With one arm trapped, you cannot create the two-on-one grip that normally prevents arm isolation. You must rely entirely on arm retraction, body rotation, and hip movement for defense rather than grip-based resistance. This means defense must happen earlier during the setup phase rather than during the finishing phase, because late-stage armbar defense requires both arms.",
         "safety_critical": false,
         "answer_line": "Can't clasp hands, defend earlier",
@@ -750,7 +750,7 @@
         }
       },
       {
-        "question": "What is the best recovery strategy if the attacker fails the Gift Wrap Armbar but still maintains the gift wrap arm trap?",
+        "question": "Their gift wrap armbar failed but the arm trap remains — what is your recovery priority?",
         "answer": "If the armbar fails and you return to gift wrap control, immediately address the two persistent problems in priority order. First, protect your neck with the free hand since the attacker will likely switch back to choke attacks. Second, begin working the trapped arm recovery using hip and shoulder rotation rather than arm strength. Use the attacker's positional readjustment after the failed armbar as a window for escape attempts, as their base may be temporarily compromised from the transition back to standard gift wrap control.",
         "safety_critical": false,
         "answer_line": "Protect neck first, then recover arm",

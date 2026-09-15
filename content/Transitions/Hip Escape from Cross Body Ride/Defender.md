@@ -56,7 +56,7 @@ description: "Defend against the hip escape from cross body ride in BJJ. Learn t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest indicator that the bottom player is preparing a hip escape from your cross body ride?",
+      "name": "What is the earliest cue that the bottom player is preparing a hip escape from your cross body ride?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest indicator is feeling a forearm or hand posting against your hip or thigh. This frame is the essential setup for any effective hip escape—without it, the bottom player cannot generate sufficient lateral force to escape the ride. Secondary indicators include subtle hip loading, where they shift weight toward you before exploding away, and a change in breathing pattern that signals preparation for explosive effort. When you feel the frame establish, immediately address it by driving your hip into their frame to collapse it or begin preparing your own transition."
@@ -64,7 +64,7 @@ description: "Defend against the hip escape from cross body ride in BJJ. Learn t
     },
     {
       "@type": "Question",
-      "name": "The bottom player successfully creates space with a hip escape—should you re-establish the ride or transition to back control?",
+      "name": "They hip escape and create space: do you re-establish the ride or take the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This depends on the amount of space created. If the separation is minimal with six inches or less of displacement, re-establishing the ride by following their movement and driving your chest back down is the higher-percentage option. If significant space has opened with more than a foot of separation, attempting to close that gap risks giving them time to recover guard. In this case, immediately transition to back control by securing a seatbelt grip and inserting your near-side hook while the position is still in flux."
@@ -72,7 +72,7 @@ description: "Defend against the hip escape from cross body ride in BJJ. Learn t
     },
     {
       "@type": "Question",
-      "name": "How do you maintain cross body ride pressure against a bottom player who chains multiple consecutive hip escapes?",
+      "name": "How do you keep cross body ride pressure against chained consecutive hip escapes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against chained hip escapes, you must match their rhythm and direction, following each escape laterally while maintaining chest contact. After their second or third consecutive escape attempt, the bottom player will often pause from accumulated fatigue—this is the moment to decisively advance your position. You can also break their chain by changing your own pressure angle mid-sequence, switching from perpendicular to diagonal orientation or inserting a far-side hook during the brief pause between escape attempts."

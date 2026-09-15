@@ -77,8 +77,7 @@
     "Side Control",
     "North-South",
     "Knee on Belly",
-    "Kuzure Kesa-Gatame",
-    "Modified Scarf Hold",
+    "Kuzure Kesa Gatame",
     "Kesa Gatame",
     "Shoulder of Justice"
   ],
@@ -100,7 +99,7 @@
       "relationship": "Related shoulder lock from scarf hold variant with similar arm trapping configuration"
     },
     {
-      "name": "Americana from Kuzure Kesa-Gatame",
+      "name": "Americana from Kuzure Kesa Gatame",
       "relationship": "Related finish from modified scarf hold where arm is already in ideal crushing position"
     },
     {
@@ -122,7 +121,7 @@
       "relationship": "Related system - Arm Crush can be integrated into Kimura-based attack sequences"
     },
     {
-      "name": "Kuzure Kesa-Gatame",
+      "name": "Kuzure Kesa Gatame",
       "relationship": "Ideal setup position - arm is already trapped in perfect configuration"
     },
     {

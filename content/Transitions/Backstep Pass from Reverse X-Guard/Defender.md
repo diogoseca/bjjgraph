@@ -64,7 +64,7 @@ description: "Complete defensive guide for the Backstep Pass from Reverse X-Guar
     },
     {
       "@type": "Question",
-      "name": "Why is following the backstep with inversion more effective than simply resisting with hook pressure?",
+      "name": "From reverse X bottom, why follow the backstep with inversion instead of resisting with the hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The backstep rotation generates significant angular force that progressively degrades hook control. Fighting this force with static hook pressure expends energy against a mechanical disadvantage. Inversion converts the opponent's rotational energy into your own offensive transition—their turning back becomes your pathway to back control. The backstep inherently creates back exposure, making inversion a higher-percentage response than static resistance against committed rotations."

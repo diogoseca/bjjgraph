@@ -58,7 +58,7 @@ description: "Defend the Outside Heel Hook from Backside 50-50 in BJJ. Complete 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first defensive action when you recognize an Outside Heel Hook attempt from backside 50-50?",
+      "name": "What is your first defensive action against an outside heel hook from backside 50-50?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The absolute first priority is hiding your heel through aggressive internal knee rotation—turn your knee inward and pull your toes toward your shin. This must happen before any grip fighting, framing, or escape attempt. The heel must become inaccessible to the attacker's grip before you address anything else. Every fraction of a second the heel remains exposed increases the probability of the attacker establishing a finishing grip."
@@ -82,7 +82,7 @@ description: "Defend the Outside Heel Hook from Backside 50-50 in BJJ. Complete 
     },
     {
       "@type": "Question",
-      "name": "How does the backside 50-50 position make heel hook defense more difficult compared to standard 50-50?",
+      "name": "Why is heel hook defense harder in backside 50-50 than in standard 50-50?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Backside 50-50 creates three specific defensive disadvantages. First, the attacker's chest-to-back pressure pins your hips, removing the hip rotation that is the primary heel hook defense mechanism in standard 50-50. Second, your back is to the attacker, eliminating visual feedback on their grip progression so you cannot see what they are doing with their hands. Third, your framing options are limited because you cannot easily push against their chest from the backside position. In standard 50-50, the face-to-face orientation provides visual information, framing access, and more effective hip mobility."

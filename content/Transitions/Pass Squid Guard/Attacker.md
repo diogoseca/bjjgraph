@@ -104,7 +104,7 @@ description: "Complete guide to passing Squid Guard as the top player. Systemati
     },
     {
       "@type": "Question",
-      "name": "How should your base and weight distribution differ when facing Squid Guard compared to standard open guards?",
+      "name": "How should your base and weight differ against squid guard versus standard open guards?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against Squid Guard, you need a significantly wider stance with lower hips and bent knees to resist the constant directional pull of the lapel tension. Standard open guard passing often uses a more mobile, upright stance, but the lapel creates persistent off-balancing force that will topple a narrow base. Distribute weight across both legs rather than favoring the passing side, and be prepared to counterbalance by shifting weight opposite to the direction of lapel pull."

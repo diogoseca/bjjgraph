@@ -64,7 +64,7 @@ description: "How to defend against Extract legs and stand up in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins aggressive two-on-one grip breaks on your heel control - what is the optimal response?",
+      "name": "Holding 50-50, they attack your heel grip two-on-one: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately escalate your offensive threat by tightening your heel hook finishing position while they dedicate both hands to grip breaking. This creates a race condition: they must break your grip before you finish the submission. Their two-on-one commitment to grip fighting means they have zero hands defending the heel hook, making this your highest-percentage finishing window during the entire exchange."
@@ -72,7 +72,7 @@ description: "How to defend against Extract legs and stand up in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "When should you transition from maintaining 50-50 to pursuing Inside Ashi-Garami during opponent's extraction?",
+      "name": "When should you give up retaining 50-50 and switch to inside ashi during their extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when you recognize that 50-50 retention is failing despite your best grip fighting and hip following efforts. The key indicator is when opponent has broken your primary heel grip and achieved partial hip separation. Rather than fighting to re-establish a compromised 50-50, use their extraction momentum to reposition your hooks into Inside Ashi-Garami configuration, converting a losing retention battle into a positional advancement."
@@ -88,7 +88,7 @@ description: "How to defend against Extract legs and stand up in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "How does maintaining offensive pressure throughout the extraction attempt benefit your retention strategy?",
+      "name": "How does constant submission pressure help you retain 50-50 during their extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Constant submission threats force opponent to split their attention between extraction mechanics and submission defense, significantly slowing or preventing the escape. An opponent who must simultaneously break grips, protect their heel, create space, and maintain defensive knee rotation cannot execute the extraction sequence with full efficiency. Each submission threat they must address costs them time, energy, and focus that would otherwise go toward escaping."

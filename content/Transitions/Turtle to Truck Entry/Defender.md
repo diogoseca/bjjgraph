@@ -56,7 +56,7 @@ description: "How to defend against Turtle to Truck Entry in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a Truck entry rather than a standard back take?",
+      "name": "In turtle, what is the earliest cue they are going for the Truck rather than a standard back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker shifting from central chest pressure on your spine to lateral pressure against your ribs while dropping their hips low against your near hip. A standard back take maintains central pressure and seeks seatbelt control, while the Truck entry requires a perpendicular angle and lateral hip contact. The secondary cue is feeling their far arm diving underneath your torso toward your far knee rather than reaching over your shoulder for harness grips."
@@ -64,7 +64,7 @@ description: "How to defend against Turtle to Truck Entry in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why is keeping your weight slightly rearward in turtle the most important preventive measure against the Truck entry?",
+      "name": "Why is keeping your weight slightly rearward in turtle the key defense against the Truck entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rearward weight distribution gives you explosive backward movement options (sit-back, standup) that directly counter the entry requirements. The Truck entry requires the defender's weight to be forward on their hands, which loads the front of the base and limits backward reactions. With rearward weight, you can instantly sit back to crush the reaching arm, stand explosively to both feet, or drive your hips backward to destroy the perpendicular angle the attacker needs. Forward weight commits you to the exact position the attacker is exploiting."
@@ -72,7 +72,7 @@ description: "How to defend against Turtle to Truck Entry in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has gripped your far leg but has not yet threaded their hook - what is your best defensive action?",
+      "name": "They grip your far leg but have not threaded their hook yet: what is your best defense in turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately straighten and pull your far leg away from their grip while simultaneously driving your far knee toward the mat. This removes the target limb from the threading path. Simultaneously use your near-side elbow to block or push against their reaching arm. If you cannot break the grip, execute an explosive sit-back to crush their arm between your legs and remove the forward base they need. The critical window is narrow: once the threading leg begins moving, these defenses become significantly harder to execute successfully."
@@ -88,7 +88,7 @@ description: "How to defend against Turtle to Truck Entry in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the hook thread and is beginning to lock the triangle - is it too late to defend?",
+      "name": "They finished the hook thread and are locking the Truck triangle: is it too late to defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "It is not too late but the defensive options have narrowed significantly. You must immediately fight the triangle lock by straightening your trapped leg explosively before the figure-four completes, while simultaneously driving your hips away from the attacker to create tension that makes locking difficult. If the triangle begins to close, transition your defense from entry prevention to Truck bottom escape: protect your neck, fight the boot pressure on your hip, and work toward granby roll or leg extraction escapes. The key is recognizing that the defense has shifted from entry denial to position escape and adapting your response accordingly."

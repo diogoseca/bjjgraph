@@ -56,7 +56,7 @@ description: "Learn to defend against the Escape Zombie Control in BJJ. Techniqu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest indicators that the bottom player is abandoning their Zombie game for an escape attempt?",
+      "name": "What earliest signs show the bottom player is abandoning Zombie offense to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest indicators are changes in grip priority and body positioning. The bottom player shifts from fighting for underhook (offensive) to establishing a frame against your chest (defensive escape setup). Their lockdown tension changes from active stretching for sweeps to passive holding. Their far-side arm moves from attacking your wrists to protecting their own neck. These subtle shifts precede the actual escape by one to two seconds, giving you a critical reaction window to shut down the escape or prepare your counter."
@@ -64,7 +64,7 @@ description: "Learn to defend against the Escape Zombie Control in BJJ. Techniqu
     },
     {
       "@type": "Question",
-      "name": "When the bottom player begins their escape, should you try to maintain Zombie top or transition to back take?",
+      "name": "As they escape Zombie, should you hold Zombie top or switch to taking the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This depends on timing. If you catch the escape attempt early - during frame establishment before lockdown release - you should maintain Zombie top by collapsing their frames and re-establishing heavy pressure. However, once the lockdown has been released and the bottom player is turning, attempting to maintain Zombie top is wasted effort since the position's control structure has been broken. At that point, immediately transition to back take mode, threading your seatbelt and hunting for hooks during their most vulnerable phase."
@@ -72,7 +72,7 @@ description: "Learn to defend against the Escape Zombie Control in BJJ. Techniqu
     },
     {
       "@type": "Question",
-      "name": "How do you balance pressure that prevents the escape with avoiding overcommitment that enables Granby rolls?",
+      "name": "How do you pressure to stop the Zombie escape without overcommitting into a Granby roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Apply pressure diagonally rather than straight forward. Drive your shoulder into their face and chest at an angle that both collapses their frames and maintains your lateral base. Keep your far-side knee posted wide to prevent being rolled. If you feel them begin any rolling motion, immediately shift your hips to the opposite side and drive perpendicular to their roll direction. Think of your pressure as a wedge rather than a battering ram - it should prevent movement in multiple directions simultaneously."

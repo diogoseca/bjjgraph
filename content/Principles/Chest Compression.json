@@ -514,5 +514,19 @@
       "duration": 395,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Chest Compression applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "chest compression",
+      "compress the chest",
+      "compress the ribcage",
+      "restrict breathing",
+      "chest pressure"
+    ],
+    "families": [
+      "Kesa Gatame Arm Crush"
+    ]
+  }
 }

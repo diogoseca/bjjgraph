@@ -64,7 +64,7 @@ description: "How to defend against Lumberjack Sweep in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "Why is sprawling your hips back more effective than driving forward when the sweep is already in motion?",
+      "name": "Why sprawl your hips back rather than drive forward once the lumberjack sweep is in motion?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Driving forward adds your own momentum to the rotational force the bottom player is generating, effectively helping them complete the sweep. Sprawling back removes your weight from above their hips, eliminates the forward pressure they are redirecting, and widens your base to resist rotation. The sweep requires your weight committed forward over their hips to work, so pulling away neutralizes the core mechanic."
@@ -72,7 +72,7 @@ description: "How to defend against Lumberjack Sweep in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "You feel the bottom player's underhook lifting your armpit and their hips driving upward beneath you - what is your immediate defensive sequence?",
+      "name": "Their underhook lifts your armpit and their hips drive up: what is your defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, post your near hand on the mat to create a third base point that resists rotation. Second, sprawl your hips back hard to pull your weight away from their underhook side. Third, apply whizzer pressure with your far arm to crush down on their underhook. Fourth, if you can stabilize, drive crossface to flatten them. If the sweep continues despite these defenses, extract your trapped leg during the scramble and work to complete the pass rather than getting swept to bottom."
@@ -80,7 +80,7 @@ description: "How to defend against Lumberjack Sweep in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "What makes the posted hand vulnerable during lumberjack sweep defense, and how should you protect it?",
+      "name": "Why is your posted hand vulnerable during lumberjack sweep defense, and how do you protect it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you post your hand on the mat to block the sweep, the bottom player can release their sweep attempt and transition to a kimura attack on the posted arm, since the posting position exposes the shoulder joint. Protect against this by keeping your elbow slightly bent rather than locked straight, maintaining awareness of their free hand movement, and being prepared to retract the posted arm if you feel them shifting grip toward a shoulder lock. If they commit to the kimura, circle your hand toward their head and use your base to defend."
@@ -88,7 +88,7 @@ description: "How to defend against Lumberjack Sweep in BJJ. Recognition cues, d
     },
     {
       "@type": "Question",
-      "name": "How does the defender's crossface pressure mechanically prevent the lumberjack sweep from succeeding?",
+      "name": "How does crossface pressure mechanically stop the lumberjack sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The crossface drives the bottom player's head and shoulders flat to the mat, preventing them from turning onto their side to create the 45-degree angle essential for sweep leverage. Without this angle, their hips cannot position beneath your center of gravity, and the underhook cannot generate the diagonal lifting force needed for rotation. The crossface also creates discomfort that forces the bottom player to address the pressure rather than continuing the sweep setup, buying time to establish complete top control."

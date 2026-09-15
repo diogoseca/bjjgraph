@@ -328,7 +328,7 @@
         }
       },
       {
-        "question": "What is the most vulnerable moment during the kneebar-to-toe-hold transition, and how do you minimize risk?",
+        "question": "What is the riskiest moment in the kneebar-to-toe-hold transition, and how do you limit it?",
         "answer": "The most vulnerable moment is when both hands release the kneebar grip configuration and reach for the toe hold grip. During this window, arm control is temporarily absent and the opponent can attempt to extract their leg. Minimize risk by maintaining strong leg entanglement hooks throughout the transition and executing the grip switch as quickly as possible while keeping hips connected to the opponent's knee.",
         "safety_critical": false,
         "answer_line": "Grip switch: keep hooks, be fast",
@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "Your opponent starts straightening their leg while you have a partially established toe hold grip - what should you do?",
+        "question": "They straighten the leg while your toe hold grip is only partial—what should you do?",
         "answer": "Immediately release the toe hold grip and transition back to the kneebar attack. The leg extension that strips the toe hold simultaneously re-exposes the knee joint to hyperextension, which is the core mechanic of this chain attack. Fighting to maintain the toe hold against a straightening leg wastes the better submission opportunity and reduces your finishing percentage.",
         "safety_critical": false,
         "answer_line": "Release toe hold, attack kneebar",
@@ -388,7 +388,7 @@
         }
       },
       {
-        "question": "What grip adjustment should you make if the opponent dorsiflexes their foot aggressively to deny the toe hold?",
+        "question": "They dorsiflex hard to deny the toe hold—what grip adjustment do you make?",
         "answer": "When the opponent boots or dorsiflexes to deny the grip, you have two primary options. First, you can wait for the dorsiflexion to fatigue, which typically occurs within 10-15 seconds of sustained effort, then re-establish the grip as their foot relaxes. Second, you can shift your attack angle and approach the foot from underneath the ankle rather than over the top, or transition to a straight ankle lock targeting the Achilles tendon instead.",
         "safety_critical": false,
         "answer_line": "Wait out the boot, then re-grip",
@@ -403,7 +403,7 @@
         }
       },
       {
-        "question": "In competition, what strategic advantage does the kneebar-to-toe-hold chain provide over attacking either submission individually?",
+        "question": "In competition, why is the kneebar-to-toe-hold chain better than either attack alone?",
         "answer": "The chain creates a binary defensive dilemma where each defense opens the other attack. Bending the knee to defend the kneebar exposes the foot for the toe hold. Straightening the leg to defend the toe hold re-exposes the knee for the kneebar. This forces the opponent to choose which submission to defend rather than having a single defensive strategy, dramatically increasing the attacker's finishing probability compared to isolated attacks.",
         "safety_critical": false,
         "answer_line": "Forces a lose-lose defense",
@@ -515,7 +515,7 @@
     ],
     "flashcards": [
       {
-        "question": "How do you recognize that a toe hold from kneebar control is being set up rather than a continued kneebar attack?",
+        "question": "How do you tell a toe hold setup from a continued kneebar attack from kneebar control?",
         "answer": "The primary recognition cue is feeling the attacker release their kneebar grip around your lower leg and redirect their hands toward your foot and toes. You will feel the pressure shift from linear hyperextension against your knee to a reaching or cupping sensation around your forefoot. If you feel a hand wrapping over the top of your toes and another arm threading under your ankle, the toe hold transition is underway.",
         "safety_critical": false,
         "answer_line": "Grip shifts from shin to foot",
@@ -575,7 +575,7 @@
         }
       },
       {
-        "question": "What is the defensive dilemma created by the kneebar-to-toe-hold chain, and how should you manage it?",
+        "question": "What defensive dilemma does the kneebar-to-toe-hold chain create, and how do you manage it?",
         "answer": "The dilemma is that bending the knee to defend the kneebar exposes the foot for the toe hold, while straightening the leg to defend the toe hold re-exposes the knee for the kneebar. Managing this requires alternating defensive postures rather than committing entirely to one position. The best strategy is to defend the kneebar with a bent knee while actively managing foot position through dorsiflexion and toe concealment, then use hip rotation to escape the entanglement entirely rather than trading between the two submission threats indefinitely.",
         "safety_critical": false,
         "answer_line": "Guard knee, hide foot, rotate out",

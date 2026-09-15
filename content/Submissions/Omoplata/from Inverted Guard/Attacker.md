@@ -84,7 +84,7 @@ description: "Learn to attack the omoplata from inverted guard. Step-by-step exe
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts to posture up as you thread your leg over their shoulder - what adjustment prevents escape?",
+      "name": "Inverted guard omoplata: they posture as you thread your leg — what adjustment prevents escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pull their wrist sharply to your chest while simultaneously accelerating your leg thread and hip rotation. The posturing motion actually assists your rotation if you use their upward momentum to swing to perpendicular faster. Clamp your legs tight the moment you feel them rising and use their posture break attempt as energy for your own transition. If they posture before your leg is threaded, abort and re-establish inverted guard rather than forcing a compromised entry."

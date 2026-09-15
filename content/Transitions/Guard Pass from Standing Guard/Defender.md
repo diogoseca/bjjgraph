@@ -56,7 +56,7 @@ description: "Complete defensive guide for preventing the standing guard pass in
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three most reliable recognition cues that a standing guard pass is about to be initiated?",
+      "name": "What three cues show a standing guard pass is about to start against you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three primary cues are: first, the passer systematically strips your grips without re-engaging in grip fighting, clearing the path for passing. Second, they establish bilateral control of both your legs at the knees or pants simultaneously, removing your ability to create asymmetric defensive angles. Third, they begin lateral stepping with a weight shift to one side, signaling the directional commitment phase is imminent and the pass is about to begin."
@@ -64,7 +64,7 @@ description: "Complete defensive guide for preventing the standing guard pass in
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established control of both your pants at the knee and begins stepping laterally to your right—what is your immediate defensive response?",
+      "name": "They control both your pant knees and step laterally to your right — what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately turn your hips to face their passing direction and insert your left shin as a shield across their hip line. Use your left hand to grip their passing-side sleeve or wrist to break their lateral momentum. Simultaneously hip escape away from their passing direction to increase the distance they must travel. The shin shield combined with the hip escape creates a physical barrier and distance that forces them to either change direction or abandon the pass attempt entirely."
@@ -80,7 +80,7 @@ description: "Complete defensive guide for preventing the standing guard pass in
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the passer from establishing bilateral leg control when you are playing open guard from bottom?",
+      "name": "From open guard bottom, how do you stop them establishing bilateral leg control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your feet active and between your body and the passer's hands at all times. Use your feet on their hips, biceps, or collar to create distance and prevent them from simultaneously controlling both legs. When they grip one leg, use the free leg to push on their hip or shoulder to create an angle that prevents them from reaching the second leg. Maintain at least one controlling grip on their sleeve or collar to restrict their ability to reach for bilateral control."

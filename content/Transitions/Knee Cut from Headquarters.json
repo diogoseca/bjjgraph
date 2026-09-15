@@ -261,7 +261,7 @@
     ],
     "flashcards": [
       {
-        "question": "What hip angle from the opponent signals the optimal timing to initiate the knee cut from headquarters?",
+        "question": "Knee cut from headquarters: what opponent hip angle signals the moment to cut?",
         "answer": "The optimal timing is when the opponent turns their hips toward the trapped leg side, which naturally opens a passing lane across their thigh line. This hip turn creates a gap between their legs that the cutting knee can exploit. Cutting when the opponent's hips face you squarely meets maximum resistance because both legs can defend the passing lane simultaneously.",
         "answer_line": "Hips turn toward trapped leg",
         "distractors": {
@@ -275,7 +275,7 @@
         }
       },
       {
-        "question": "Your opponent establishes a strong frame on your shoulder as you begin the knee cut—what is your immediate adjustment?",
+        "question": "Knee cut from HQ: they frame strongly on your shoulder—what is your immediate adjustment?",
         "answer": "Strip the shoulder frame by swimming your elbow inside their wrist and pinning their arm to their body, or change levels by dropping your shoulder below their frame to slip underneath it. If the frame is too strong to strip directly, consider switching to a toreando or leg drag pass that attacks the angle their frame creates rather than fighting through it directly.",
         "answer_line": "Swim elbow inside, pin arm",
         "distractors": {
@@ -289,7 +289,7 @@
         }
       },
       {
-        "question": "What is the most critical biomechanical action that prevents the opponent from recovering half guard during the knee cut?",
+        "question": "Knee cut from HQ: what action most prevents them from recovering half guard?",
         "answer": "The hip drop is the most critical action. As the cutting knee crosses the thigh line, actively dropping your hip toward the mat on the passing side collapses all remaining space between your bodies. This prevents the opponent from re-inserting their knee because there is no gap between your hip and their body through which their leg can travel. Without the hip drop, space remains even after the knee crosses.",
         "answer_line": "Drop hip as knee crosses",
         "distractors": {
@@ -303,7 +303,7 @@
         }
       },
       {
-        "question": "During the knee cut, your opponent secures a deep underhook and begins sitting up toward your back—how do you respond?",
+        "question": "Mid knee cut they get a deep underhook and sit up toward your back—how do you respond?",
         "answer": "Immediately increase crossface pressure to drive their head and shoulders back to the mat, countering their upward momentum. If the crossface alone cannot flatten them, apply a whizzer on their underhook arm by overhooking it and driving your shoulder into their armpit. From the whizzer position, you can threaten a darce choke that punishes the underhook attempt or use the whizzer to flatten them and resume the knee cut.",
         "answer_line": "Crossface, then whizzer",
         "distractors": {
@@ -331,7 +331,7 @@
         }
       },
       {
-        "question": "The opponent blocks your knee cut with a knee shield—what alternative passes chain naturally from this defensive reaction?",
+        "question": "Knee cut from HQ blocked by a knee shield—what passes chain from that reaction?",
         "answer": "The knee shield opens three natural chain passes: the smash pass by collapsing your weight laterally onto the knee shield and using it as a passing lane, the long step pass by stepping your free leg over their shield to the opposite side, or the toreando pass by disengaging the cutting knee and redirecting laterally around their legs. Each option exploits the defensive commitment the knee shield requires.",
         "answer_line": "Smash, long step, or toreando",
         "distractors": {
@@ -359,7 +359,7 @@
         }
       },
       {
-        "question": "Your cutting knee crosses the thigh line but the opponent locks their legs around your shin—what technique do you use to extract your leg?",
+        "question": "Your cutting knee crossed but they lock their legs on your shin—how do you extract it?",
         "answer": "Use the windshield-wiper shin extraction by rotating your foot outward in an arc while maintaining constant downward hip pressure. The rotation creates a circular motion that peels your shin through their leg lock without lifting your leg and creating space. If the leg lock is too tight, increase crossface pressure to distract them while you work the extraction, or accept the half guard top position and transition to a standard knee slice pass sequence from there.",
         "answer_line": "Windshield-wiper the shin out",
         "distractors": {
@@ -373,7 +373,7 @@
         }
       },
       {
-        "question": "Why is it critical to maintain downward pressure on the trapped leg throughout the entire knee cut sequence?",
+        "question": "Knee cut from HQ: why keep downward pressure on the trapped leg the whole sequence?",
         "answer": "Continuous downward pressure on the trapped leg restricts the opponent's hip mobility, which is the foundation of all their defensive options. If pressure is released even momentarily, the opponent can use that window to hip escape, re-angle their hips, insert a knee shield, or recover full guard structure. The trapped leg pressure also serves as the anchor point from which the cutting knee generates its diagonal wedge force.",
         "answer_line": "Restricts hip mobility fully",
         "distractors": {
@@ -520,7 +520,7 @@
         }
       },
       {
-        "question": "Your opponent begins the knee cut and you have no knee shield in place—what is your best defensive action?",
+        "question": "They start the knee cut and you have no knee shield—what is your best defensive action?",
         "answer": "Frame on the passer's hip on the cutting side with your near hand to physically block the knee's advance while simultaneously hip escaping away from the cutting direction to create distance. If there is enough space, insert your knee between your bodies to establish a late knee shield. If the knee is already too close, secure the underhook on the cutting side and sit up to threaten a sweep that exploits the passer's forward commitment.",
         "answer_line": "Frame hip, hip escape away",
         "distractors": {

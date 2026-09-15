@@ -56,7 +56,7 @@ description: "Learn to counter the Escape from Crab Ride in BJJ. Guide covering 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most important control element to maintain when the opponent begins their escape attempt?",
+      "name": "Riding crab ride, which control element matters most once they begin escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest-to-back pressure is the most important element because it limits the space available for hip escape movement, slows the escape, and maintains your weight advantage. While the hook provides the anchor, it is the chest pressure that prevents the explosive hip displacement needed to strip the hook. Opponents who can create space between your chest and their back have dramatically higher escape success rates regardless of hook depth."

@@ -88,7 +88,7 @@ description: "Master executing the Lasso Guard Stack Pass. Step-by-step guide to
     },
     {
       "@type": "Question",
-      "name": "Why should you keep your trapped arm tight to your body during the stack rather than pulling it free?",
+      "name": "During a lasso stack pass, why keep your trapped arm tight rather than pulling it free?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling the trapped arm outward re-extends the lasso leg and actually increases the bottom player's mechanical leverage against your shoulder. Keeping the arm pinned to your ribcage allows the stacking compression to naturally change the angle between your arm and their shin, degrading the lasso's effectiveness without requiring a forceful grip break. The compression does the work for you as the folded angle removes the lasso's perpendicular force vector."

@@ -88,7 +88,7 @@ description: "Learn to execute the Forward Drive Sweep from Dogfight in BJJ. Ste
     },
     {
       "@type": "Question",
-      "name": "What grip control must be established on the opponent's far side before committing to the forward drive?",
+      "name": "Before committing to the forward drive from dogfight, what far-side control must you have?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must control the opponent's far hip, belt line, or far knee with your free hand before committing to the drive. This grip eliminates their primary base recovery option - the far leg post. Without this control, the opponent can simply step their far leg backward or laterally to create an unbreakable tripod base. The grip should be firm enough to prevent posting but positioned to allow you to maintain your own balance during the drive."
@@ -104,7 +104,7 @@ description: "Learn to execute the Forward Drive Sweep from Dogfight in BJJ. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes a deep whizzer and begins sprawling their hips back as you initiate the forward drive - how do you adjust?",
+      "name": "They deep whizzer and sprawl as you start the forward drive from dogfight: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent sprawls against your forward drive, their defensive posture creates opportunities for chain attacks. Immediately assess whether to redirect into a Dogfight Sweep by changing your sweep angle laterally to attack their now-extended base, or duck under into a Deep Half Guard entry using their sprawl momentum to slide beneath them. The key is recognizing within one second that the forward drive has stalled and committing to the redirect rather than continuing to push against a sprawled opponent."
@@ -120,7 +120,7 @@ description: "Learn to execute the Forward Drive Sweep from Dogfight in BJJ. Ste
     },
     {
       "@type": "Question",
-      "name": "Your forward drive attempt stalls because the opponent posts their far leg wide - what chain attack do you transition to?",
+      "name": "Forward drive stalls as they post the far leg wide: what chain attack do you take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent's wide far leg post opens two primary chain attacks. First, the Dogfight Sweep becomes available because their extended far leg is now vulnerable to being controlled and swept. Second, the wide post opens their hip angle, potentially exposing their back for a back take transition. Read which option is more available based on their upper body positioning - if their whizzer stays tight, attack the far leg with the Dogfight Sweep; if their whizzer loosens to maintain base, circle behind for the back take."

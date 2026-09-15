@@ -80,7 +80,7 @@ description: "Learn to execute the Roll Defense from Anaconda as the defender ca
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the specific physical cues that signal the anaconda attacker is about to initiate the roll-through?",
+      "name": "What physical cues signal the anaconda attacker is about to start the roll-through?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cues are the attacker shifting their weight to one side, repositioning their hips behind or beside your body, and stepping one leg over your back or to the far side. You will feel their chest pressure change angle as they load for the rotation, and their grip may tighten as they prepare to commit. The hip repositioning is the most reliable indicator because the roll requires their hips to be aligned with the intended rotation direction."
@@ -112,7 +112,7 @@ description: "Learn to execute the Roll Defense from Anaconda as the defender ca
     },
     {
       "@type": "Question",
-      "name": "After successfully defending the roll, your opponent still has the anaconda grip locked - what escape should you chain to immediately?",
+      "name": "You stop the anaconda roll but their grip is still locked: what escape do you chain into?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The best immediate follow-up depends on the grip status. If the grip loosened during the defended roll, attack it with a grip-break sequence targeting the clasped hands while recovering turtle structure. If the grip remains tight, chain into a hip escape away from the choking arm to create angle for guard recovery. The key principle is to exploit the brief disruption the defended roll creates in the attacker's control before they can reset their positioning and attempt another finish."
@@ -120,7 +120,7 @@ description: "Learn to execute the Roll Defense from Anaconda as the defender ca
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates a very fast, explosive roll that overwhelms your post - how do you adapt mid-roll?",
+      "name": "Their anaconda roll is so fast it overwhelms your post: how do you adapt mid-roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition immediately to the roll-with counter variant. Rather than fighting the unstoppable momentum, go with the roll but aggressively fight the grip during the rotation and scramble to deny the finishing angle upon landing. Focus on keeping your chest facing the mat rather than exposing your back to the ceiling. Use the brief moment of weightlessness during the roll to create space at the neck and fight to end up in turtle or half guard rather than flat on your back in side control."

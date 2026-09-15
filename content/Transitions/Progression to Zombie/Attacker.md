@@ -76,7 +76,7 @@ description: "How to execute Progression to Zombie in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins slowly extracting their overhook-trapped arm as you start the transition - how do you respond?",
+      "name": "Starting the Zombie transition, they slowly extract the overhooked arm. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tighten overhook grip immediately and convert their extraction attempt into a triangle setup by shooting your transitioning leg over their shoulder rather than around it. Their arm extraction naturally positions the arm inside your guard as it pulls back, creating the perfect triangle entry. The extraction attempt becomes an offensive opportunity rather than a defensive success for them."
@@ -84,7 +84,7 @@ description: "How to execute Progression to Zombie in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "What are the two critical grips needed for successful Progression to Zombie and how do they function?",
+      "name": "Which two grips does Progression to Zombie require, and what does each do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Two critical grips must be maintained: the deep overhook around opponent's tricep with shoulder-to-armpit pressure preventing arm extraction, and the shin grip near the ankle with hand positioned to guide leg elevation. The overhook functions as the immovable anchor throughout the transition while the shin grip repositions progressively as the leg moves higher, adjusting its angle to maintain control at each new elevation."
@@ -108,7 +108,7 @@ description: "How to execute Progression to Zombie in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent explodes forward with posture as your leg begins moving higher - what is the correct response?",
+      "name": "Mid-transition to Zombie, they explode their posture up. Correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abandon the Zombie transition immediately and return to New York control. Use their forward momentum against them by transitioning to Chill Dog setup or shooting for a triangle as they drive in. Their aggressive forward movement actually assists these alternative attacks because it brings their head closer and compresses the space needed for control. Never fight against explosive posture recovery during mid-transition - redirect their energy instead."

@@ -106,7 +106,7 @@ description: "Step-by-step guide to executing the Transition to Leg Hook from Ha
     },
     {
       "@type": "Question",
-      "name": "How does the bottom player most commonly counter the hook insertion, and what is the optimal prevention?",
+      "name": "How does half guard bottom most often counter your leg hook insertion, and how do you prevent it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common high-percentage counter is ducking underneath during the weight shift to enter deep half guard. The bottom player uses the momentary space created during hook threading to swim their head under your body and establish deep half control. Prevention requires keeping hips low throughout insertion, maintaining heavy forward chest pressure, and using hip rotation rather than elevation for the hook motion. If you feel them beginning to duck, immediately sprawl your hips back and drive your weight down."

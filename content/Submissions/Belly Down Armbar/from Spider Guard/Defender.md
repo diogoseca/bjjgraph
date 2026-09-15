@@ -68,7 +68,7 @@ description: "Defend and escape the belly down armbar finish from Spider Guard. 
     },
     {
       "@type": "Question",
-      "name": "Your arm is trapped and the attacker is beginning the belly-down rotation - what is your best remaining defensive option?",
+      "name": "Your arm is trapped and the attacker starts the belly-down rotation—what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your best option is to immediately bridge and turn into the attacker during the rotation before they complete the belly-down position. Drive your shoulder toward them and try to follow their rotation to prevent them from achieving the prone position. Simultaneously, bend your trapped elbow as much as possible and grip your own wrist or lapel. If the rotation completes to full belly-down, tap immediately rather than resisting extension with grip strength alone."

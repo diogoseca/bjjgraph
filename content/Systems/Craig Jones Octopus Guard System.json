@@ -1,0 +1,256 @@
+{
+  "name": "Craig Jones Octopus Guard System",
+  "description": "Explore Craig Jones Octopus Guard System with a matched BJJ Fanatics course, practical study steps, partner drills, and connected technique references.",
+  "summary": "The Craig Jones Octopus Guard System is a study framework for turning a half-guard exchange into a sweep, back exposure, or a controlled return to the feet.",
+  "tags": [
+    "bjj",
+    "system",
+    "no-gi"
+  ],
+  "system_type": "Guard System",
+  "difficulty_level": "Intermediate",
+  "overview": "Pressure passing can leave a guard player choosing between staying pinned and entering a scramble they do not understand. This guide examines an over-the-back connection as a way to organise that decision. Craig Jones's Octopus Guard 2.0 is the selected no-gi companion because its syllabus develops crossface problems, reversals, headlock responses and turtle continuations. Start with one half-guard situation before exploring the later branches.\n\nThe sequence and drills below are original BJJGraph study suggestions, not a course transcript or an official instructor curriculum. Use the linked demonstrations for technical detail, then compare one selected lesson with a controlled partner round.",
+  "key_principles": [
+    "The remaining leg connection and upper-body freedom change which entry or recovery is available.",
+    "It can prevent the upper-body turn needed for the overback connection, so address that pressure before forcing the reach.",
+    "Check whether the post creates back exposure, preserves a sweep route, or requires a return to guard.",
+    "You still need a connection that survives the partner turning, disengaging, or standing.",
+    "The neck-control problem becomes immediate; stop chasing the original sweep and study the appropriate defensive response.",
+    "A repeatable half-guard start, one agreed response, and a clear endpoint such as top control or a recovered guard."
+  ],
+  "key_components": [
+    {
+      "component_name": "Recognise the starting pin",
+      "description": "Distinguish a retained half guard from a completed side pin before choosing an overback entry.",
+      "purpose": "Give the recognise the starting pin stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Address upper-body pressure",
+      "description": "Study how crossface pressure affects access to the overback connection; do not force the reach through an established pin.",
+      "purpose": "Give the address upper-body pressure stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Test a reversal",
+      "description": "Choose one sweep and identify the moment the top partner can post or turn to stop it.",
+      "purpose": "Give the test a reversal stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Follow the exposed back",
+      "description": "When the partner changes their facing, compare a back-following route with returning to a stable guard.",
+      "purpose": "Give the follow the exposed back stage a concrete objective before connecting it to the next exchange."
+    },
+    {
+      "component_name": "Recover from a headlock response",
+      "description": "Use a controlled reset to study the headlock or turtle branch that actually appeared in the preceding exchange.",
+      "purpose": "Give the recover from a headlock response stage a concrete objective before connecting it to the next exchange."
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step_number": 1,
+      "phase": "Recognise the starting pin",
+      "description": "Distinguish a retained half guard from a completed side pin before choosing an overback entry."
+    },
+    {
+      "step_number": 2,
+      "phase": "Address upper-body pressure",
+      "description": "Study how crossface pressure affects access to the overback connection; do not force the reach through an established pin."
+    },
+    {
+      "step_number": 3,
+      "phase": "Test a reversal",
+      "description": "Choose one sweep and identify the moment the top partner can post or turn to stop it."
+    },
+    {
+      "step_number": 4,
+      "phase": "Follow the exposed back",
+      "description": "When the partner changes their facing, compare a back-following route with returning to a stable guard."
+    },
+    {
+      "step_number": 5,
+      "phase": "Recover from a headlock response",
+      "description": "Use a controlled reset to study the headlock or turtle branch that actually appeared in the preceding exchange."
+    }
+  ],
+  "common_obstacles": [
+    {
+      "obstacle": "Reaching before freeing the upper body",
+      "solution": "Return to the crossface problem and identify the contact blocking the turn."
+    },
+    {
+      "obstacle": "Calling every side pin octopus guard",
+      "solution": "Name what is still trapped and what has already been passed before choosing the next drill."
+    },
+    {
+      "obstacle": "Chasing a back take after losing contact",
+      "solution": "Recover a familiar guard or stop at the lost connection before adding another attack."
+    },
+    {
+      "obstacle": "Treating provocative lesson titles as technical guarantees",
+      "solution": "Judge the option against the partner response and study the detailed demonstration."
+    }
+  ],
+  "assessment_metrics": [
+    {
+      "metric_name": "Starting-position recognition",
+      "description": "Check whether the practitioner can describe the relevant control from Half Guard.",
+      "proficiency_indicators": [
+        "Names the starting position",
+        "Identifies the first useful contact",
+        "Explains why the chosen lesson fits this exchange"
+      ]
+    },
+    {
+      "metric_name": "Reaction recognition",
+      "description": "Assess the decision when the partner stops the first option.",
+      "proficiency_indicators": [
+        "Names the defensive response",
+        "Pauses at the point the original option is lost",
+        "Chooses a supported continuation or reset"
+      ]
+    },
+    {
+      "metric_name": "Endpoint quality",
+      "description": "Review the position reached after the selected movement.",
+      "proficiency_indicators": [
+        "Can name the intended endpoint",
+        "Checks the partner still has an escape response",
+        "Separates a transient opening from sustained control"
+      ]
+    },
+    {
+      "metric_name": "Practice transfer",
+      "description": "Compare the same task as agreed resistance and partner reactions change.",
+      "proficiency_indicators": [
+        "Repeats the starting conditions",
+        "Records the first point of failure",
+        "Chooses one specific adjustment for the next round"
+      ]
+    }
+  ],
+  "training_methodology": {
+    "drilling_approach": "BJJGraph practice suggestion: start from Half Guard and give the partner one agreed response. Work through the first two stages cooperatively, then stop each repetition at the chosen control or recovery endpoint. Add another reaction only when both partners can explain what changed. Keep submission entries controlled and release immediately on a tap or request to stop. Review the lost connection before adding speed.",
+    "progression_path": [
+      {
+        "stage": "Recognise",
+        "focus": "Distinguish a retained half guard from a completed side pin before choosing an overback entry."
+      },
+      {
+        "stage": "Rehearse",
+        "focus": "Study how crossface pressure affects access to the overback connection; do not force the reach through an established pin."
+      },
+      {
+        "stage": "Respond",
+        "focus": "Choose one sweep and identify the moment the top partner can post or turn to stop it."
+      },
+      {
+        "stage": "Connect",
+        "focus": "Use a controlled reset to study the headlock or turtle branch that actually appeared in the preceding exchange."
+      }
+    ],
+    "common_mistakes": [
+      "Reaching before freeing the upper body",
+      "Calling every side pin octopus guard",
+      "Chasing a back take after losing contact",
+      "Treating provocative lesson titles as technical guarantees"
+    ]
+  },
+  "related_content": [
+    {
+      "name": "Half Guard",
+      "content_type": "Position",
+      "relationship": "Starting guard for examining trapped-leg control and the transition into the next exchange."
+    },
+    {
+      "name": "Side Control",
+      "content_type": "Position",
+      "relationship": "Side-pin reference for identifying pressure, inside frames and positional recovery."
+    },
+    {
+      "name": "Back Control",
+      "content_type": "Position",
+      "relationship": "Endpoint used to check whether following back exposure produced a stable position."
+    },
+    {
+      "name": "Turtle",
+      "content_type": "Position",
+      "relationship": "Transition position where hook access, rear grips and the exit direction must be assessed."
+    },
+    {
+      "name": "Butterfly Guard",
+      "content_type": "Position",
+      "relationship": "Reference for the hook-assisted elevation branch of the sweep sequence."
+    },
+    {
+      "name": "Front Headlock",
+      "content_type": "Position",
+      "relationship": "Counter-position that changes the neck-defense priority during a scramble."
+    },
+    {
+      "name": "Frames",
+      "content_type": "Principle",
+      "relationship": "Principle for restoring useful inside contact before attempting larger movement."
+    },
+    {
+      "name": "Action and Reaction",
+      "content_type": "Principle",
+      "relationship": "Principle for choosing a continuation from the partner response instead of forcing a fixed chain."
+    },
+    {
+      "name": "Positional Sparring",
+      "content_type": "Principle",
+      "relationship": "Practice structure for repeating a specified position, partner response, and endpoint."
+    },
+    {
+      "name": "Position-Over-Submission Approach",
+      "content_type": "Principle",
+      "relationship": "Decision rule for retaining or recovering control before chasing an unsupported finish."
+    },
+    {
+      "name": "Eduardo Telles Gi Octopus Guard System",
+      "content_type": "System",
+      "relationship": "Compare the gi and no-gi study focus before selecting an Octopus Guard instructional."
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "Why distinguish retained half guard from a completed side pin before reaching over the back?",
+      "answer": "The remaining leg connection and upper-body freedom change which entry or recovery is available."
+    },
+    {
+      "question": "What does a strong crossface change about an octopus entry?",
+      "answer": "It can prevent the upper-body turn needed for the overback connection, so address that pressure before forcing the reach."
+    },
+    {
+      "question": "What should you read when the partner posts to stop the sweep?",
+      "answer": "Check whether the post creates back exposure, preserves a sweep route, or requires a return to guard."
+    },
+    {
+      "question": "Why does seeing the back not complete the back take?",
+      "answer": "You still need a connection that survives the partner turning, disengaging, or standing."
+    },
+    {
+      "question": "What changes when a headlock is established during an octopus scramble?",
+      "answer": "The neck-control problem becomes immediate; stop chasing the original sweep and study the appropriate defensive response."
+    },
+    {
+      "question": "What makes the first octopus practice round useful?",
+      "answer": "A repeatable half-guard start, one agreed response, and a clear endpoint such as top control or a recovered guard."
+    }
+  ],
+  "products": [
+    {
+      "id": "octopus-guard-2-0-by-craig-jones",
+      "title": "Octopus Guard 2.0",
+      "instructor": "Craig Jones",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/octopus-guard-2-0-by-craig-jones?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A directly matched instructional companion for turning a half-guard exchange into a sweep, back exposure, or a controlled return to the feet. Review its published contents and sample to judge the teaching approach.",
+      "best_for": "No-gi half-guard players who want an overback route into reversals and scrambles; readers seeking a gi-specific treatment can compare the Eduardo Telles guide.",
+      "study_focus": "Begin with half guard versus side control and the crossface discussion; then compare the sweeping material with the later headlock and turtle sections.",
+      "practice_tip": "BJJGraph suggestion: begin with 'Recognise the starting pin' from Half Guard. Record which partner response interrupts the plan and revisit that lesson before adding another branch."
+    }
+  ]
+}

@@ -82,7 +82,7 @@ description: "Complete guide to executing the Transition to 3-4 Mount from stand
     },
     {
       "@type": "Question",
-      "name": "Your opponent has both elbows tight defending collar choke attempts from mount. How does this create an opportunity for the 3-4 Mount transition?",
+      "name": "Your mounted opponent tucks both elbows against collar chokes: how does that open 3-4 Mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When both elbows are tucked tight, the opponent's arms are committed to neck defense and cannot establish frames or grips to exploit your base change. Their tight arm positioning also means they cannot insert knee shields during the extraction window. This defensive posture creates an ideal transition opportunity because the primary counters to the 3-4 Mount entry—framing, gripping your leg, and knee insertion—are all neutralized by their elbow-tight position. Transition to 3-4 Mount, then attack the Americana or armbar that their elbow position exposes."
@@ -90,7 +90,7 @@ description: "Complete guide to executing the Transition to 3-4 Mount from stand
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between a high-arc and low-arc knee extraction, and why does it matter?",
+      "name": "For the 3-4 Mount knee extraction, what is the difference between a high and low arc, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A high-arc extraction lifts the knee upward and over the opponent's hip, creating visible space between your body and theirs that telegraphs the movement and allows frame insertion. A low-arc extraction slides the knee outward along the mat surface, maintaining proximity to the opponent's body throughout the movement. The low arc matters because it preserves the seal between your hip and their torso, preventing the gap that experienced opponents exploit for knee shield insertion or hip escape initiation. The difference in outcome is significant—high-arc extraction fails against competent defenders approximately twice as often as low-arc technique."
@@ -98,7 +98,7 @@ description: "Complete guide to executing the Transition to 3-4 Mount from stand
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a strong hip escape toward your right side as you attempt to extract your right leg. What is your immediate response?",
+      "name": "They hip escape right as you extract your right leg for 3-4 Mount: what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abort the extraction and drive both knees back inside to standard mount. Drop your hips and flatten your weight onto their torso to kill the hip escape momentum. Re-establish settled mount pressure, then wait for the opponent to settle before reattempting. Continuing the extraction into an active hip escape compounds their movement with your base change, creating a high probability of losing mount entirely. The correct response is always to prioritize position retention over completing a transition that has been countered."

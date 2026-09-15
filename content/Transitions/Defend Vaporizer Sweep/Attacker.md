@@ -74,7 +74,7 @@ description: "Learn to defend Vaporizer sweeps from top position. Step-by-step g
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent initiates a strong whip-up and you feel your weight shifting laterally - what is your immediate first response?",
+      "name": "They whip up hard and your weight shifts sideways in vaporizer top — what is your first response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your base by sprawling your free leg out to the side opposite the sweep direction and lower your hips toward the mat. This creates a wider platform that resists the rotational force of the whip-up. Simultaneously drive your shoulder into their chest to limit their hip driving ability. The instinct to post your hand should be overridden by the base widening response, as a hand post near their hip creates a lever point they can exploit for the Old School sweep."
@@ -90,7 +90,7 @@ description: "Learn to defend Vaporizer sweeps from top position. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between defending an Old School sweep versus a rolling back take from the Vaporizer?",
+      "name": "How does defending an old school sweep differ from defending a rolling back take from vaporizer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Old School sweep operates on a lateral rolling plane where the bottom player uses their posted foot and underhook to roll you sideways. Defense requires widening base in the opposite direction of the roll. The rolling back take operates on a rotational plane where they attempt to rotate your body to expose your back for Truck entry. Defense requires turning your hips toward them rather than allowing rotation away. Misidentifying the attack and applying the wrong defense can accelerate the technique rather than stopping it."
@@ -106,7 +106,7 @@ description: "Learn to defend Vaporizer sweeps from top position. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "Your opponent's lockdown is very tight and you cannot make progress clearing it - what alternative approach should you consider?",
+      "name": "You cannot clear their tight lockdown from vaporizer top — what alternative approach works?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the lockdown cannot be cleared through circulation, shift focus to neutralizing their upper body control completely. By establishing dominant crossface pressure and eliminating their underhook, you remove their ability to generate meaningful sweep threats even with the lockdown intact. This buys time to work the lockdown from a safer position. Alternatively, consider pointing the knee to mat and walking your free foot to create a passing angle that works around the lockdown rather than through it."
@@ -114,7 +114,7 @@ description: "Learn to defend Vaporizer sweeps from top position. Step-by-step g
     },
     {
       "@type": "Question",
-      "name": "How should your grip strategy change when you feel the bottom player transitioning from an Old School sweep to an Electric Chair attempt?",
+      "name": "They switch from old school to electric chair — how does your grip and base strategy change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the bottom player transitions to Electric Chair, they need to release the lockdown partially and control your far leg for the split. Your grip priority shifts from whizzer defense against the underhook to actively squeezing your knees together and blocking access to your far leg. Use your hands to control their wrist or forearm reaching for your far leg. Keep hips low and legs tight rather than maintaining the wide base for Old School defense, as the wide base actually facilitates the Electric Chair leg separation."

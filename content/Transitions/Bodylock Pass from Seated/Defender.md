@@ -56,7 +56,7 @@ description: "Defend against the Bodylock Pass from Seated Guard with recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest visual cue that your opponent is attempting a bodylock pass rather than a leg-based pass?",
+      "name": "What is the earliest cue that they are going for a bodylock pass, not a leg pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent's arms reaching wide around your body rather than targeting your legs, pants, or sleeves. Combined with a sudden level drop and forward shoulder drive aimed at your chest rather than your lower body, this signals a bodylock entry. Leg-based passes begin with grip fighting on your lower body, while the bodylock pass targets your torso directly with wide arm positioning."
@@ -72,7 +72,7 @@ description: "Defend against the Bodylock Pass from Seated Guard with recognitio
     },
     {
       "@type": "Question",
-      "name": "Why is the technical standup the highest-percentage defense against the bodylock pass, and when does this option expire?",
+      "name": "Why is the technical standup the best bodylock pass defense, and when does it expire?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The technical standup is highest-percentage because it completely removes you from the seated position where the bodylock pass is effective, resetting to standing where different engagement rules apply. This option expires once the attacker has closed to clinch range and initiated their explosive level change, approximately when they are within one arm's length of your torso. After this point, attempting to stand exposes your hips to the bodylock with even greater force."
@@ -80,7 +80,7 @@ description: "Defend against the Bodylock Pass from Seated Guard with recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a tight bodylock but has not yet cleared your legs - what guard recovery prevents the pass?",
+      "name": "They have a tight bodylock but have not cleared your legs: what guard recovery stops the pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Closing your guard by wrapping your legs around the attacker's waist is the strongest immediate guard recovery because it prevents them from using the windshield wiper hip motion needed to clear your legs. With closed guard established, the bodylock becomes less effective as the attacker cannot drive past your leg barrier. From closed guard you can then work standard guard attacks while the attacker must first break open your guard before reattempting the pass."

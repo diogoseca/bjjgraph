@@ -74,7 +74,7 @@ description: "Learn to execute the Frame and Posture escape from Anaconda Contro
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the fundamental mechanical principle behind the Frame and Posture escape from Anaconda Control?",
+      "name": "What is the core mechanical principle of the frame and posture escape from anaconda control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The anaconda choke requires chest-on-shoulder compression to create the constricting force around the neck. Frames disrupt this compression by inserting a structural barrier between the opponent's chest and your trapped shoulder, reducing the force driving the choke even without breaking the opponent's grip. By removing the chest pressure component through skeletal framing, the choking loop loosens enough to allow posture recovery and eventual head extraction through the expanded opening."
@@ -90,7 +90,7 @@ description: "Learn to execute the Frame and Posture escape from Anaconda Contro
     },
     {
       "@type": "Question",
-      "name": "Your frame is established but the opponent is driving forward with heavy chest pressure—what adjustment do you make?",
+      "name": "Your frame is set but they drive forward with heavy chest pressure in anaconda: what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Angle your frame to redirect their forward pressure to the side rather than absorbing it head-on. Rotate your forearm so their weight slides past your frame rather than compressing through it directly. Simultaneously increase hip movement away from their pressure vector to create angular displacement that makes their forward drive less effective. If the direct forward pressure overwhelms, shift the frame slightly lower to their hip where you have better mechanical leverage against their mass."

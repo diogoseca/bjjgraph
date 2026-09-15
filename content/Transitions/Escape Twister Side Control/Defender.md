@@ -56,7 +56,7 @@ description: "Prevent the escape from twister side control by maintaining leg en
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the key recognition cues that indicate the bottom player has begun a trained escape sequence?",
+      "name": "In twister side control, which cues show the bottom player has begun a trained escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cues are: hands moving to grab their own knee or thigh indicating spine protection initiation, deliberate frame building with bent elbows against your shoulder or hip, controlled hip extension against your leg hook, and the body turning toward your legs rather than away. Trained escape attempts are characterized by calm sequential movements rather than panicked explosive efforts, and recognizing this early allows targeted counter-pressure."
@@ -72,7 +72,7 @@ description: "Prevent the escape from twister side control by maintaining leg en
     },
     {
       "@type": "Question",
-      "name": "How do you create offensive dilemmas that prevent the bottom player from completing their escape sequence?",
+      "name": "From twister side control, how do you create dilemmas that stall the bottom player's escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Structure your attacks so each defensive priority the bottom player addresses opens a different threat. When they remove hands from spine protection to build frames, threaten the twister submission. When they focus on protecting their spine, drive shoulder pressure to prevent frame creation. When they begin leg extraction, threaten submissions on the exposed arm. This forces constant resetting of their escape progress."
@@ -80,7 +80,7 @@ description: "Prevent the escape from twister side control by maintaining leg en
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a rolling escape by using your forward pressure against you—how should you respond?",
+      "name": "They use your forward pressure for a rolling escape from twister side control: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately widen your base by posting your outside leg and shifting weight distribution away from the over-committed forward position. If the roll has already begun, maintain your seatbelt or shoulder control and follow the roll, using their momentum to transition directly to back control rather than fighting the rotation. Prevention is ideal—maintain balanced weight distribution to eliminate the rolling escape opportunity entirely."

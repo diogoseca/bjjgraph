@@ -334,7 +334,7 @@
         }
       },
       {
-        "question": "Your opponent begins rolling forward as you apply omoplata pressure—what immediate adjustment prevents the escape?",
+        "question": "Rubber guard omoplata: they roll forward under your pressure — what adjustment stops the escape?",
         "answer": "Follow their roll by driving your hips forward and maintaining wrist control on the trapped arm. As they complete the roll, transition to mount while keeping the wrist trapped, converting the escape attempt into a positional advancement to mount with continued submission threat on the arm.",
         "safety_critical": false,
         "answer_line": "Follow roll, keep wrist trapped",
@@ -424,7 +424,7 @@
         }
       },
       {
-        "question": "Why is attempting the omoplata directly from Mission Control without progressing to New York a common finishing error?",
+        "question": "Why is attacking the omoplata from Mission Control without reaching New York a finishing error?",
         "answer": "Mission Control positions the leg across the opponent's back but not at the correct geometric angle to clear over the shoulder cleanly. New York repositions the leg to cross over the shoulder, providing the rotation axis needed for the omoplata. Skipping New York results in the leg getting stuck on the shoulder, triggering a scramble where the opponent typically recovers posture.",
         "safety_critical": false,
         "answer_line": "Leg sticks on shoulder, no angle",
@@ -439,7 +439,7 @@
         }
       },
       {
-        "question": "What is the proper protocol for applying finishing pressure to prevent injury to your training partner?",
+        "question": "How should you apply omoplata finishing pressure to keep your training partner safe?",
         "answer": "Apply pressure gradually over 4-6 seconds using body weight rather than jerking or spiking the shoulder rotation. Lean forward progressively while monitoring your partner's response. Never apply competition-speed finishing pressure in training. Maintain awareness of their tap access at all times and release instantly at the first signal of any kind.",
         "safety_critical": true,
         "answer_line": "Gradual pressure over 4-6 seconds",

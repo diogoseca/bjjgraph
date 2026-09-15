@@ -252,7 +252,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first defensive action you should take when caught in a triangle before attempting the stack escape?",
+        "question": "What should you do first when caught in a triangle, before starting the stack escape?",
         "answer": "Tuck your chin immediately toward the trapped arm shoulder to create space between your neck and the opponent's thigh. This reduces arterial compression, buys time for the escape sequence, and prevents the choke from reaching critical blood flow restriction before you can establish grips and initiate the stack.",
         "answer_line": "Tuck chin toward trapped arm",
         "distractors": {
@@ -266,7 +266,7 @@
         }
       },
       {
-        "question": "Why is driving your hips forward and upward the critical mechanical movement in the stack escape rather than pulling backward?",
+        "question": "In the stack escape from a triangle, why drive your hips forward rather than pull back?",
         "answer": "Forward hip drive forces the opponent's body weight onto their shoulders and upper back, collapsing the triangle structure by changing the angle of their legs relative to your neck. This reduces squeezing power because their legs can no longer extend effectively, and it removes the perpendicular angle they need for optimal arterial compression. Pulling backward maintains the angle and allows them to extend.",
         "answer_line": "Collapses the triangle's angle",
         "distractors": {
@@ -280,7 +280,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their hips to transition to an omoplata as you initiate the stack—how do you respond?",
+        "question": "They rotate their hips toward an omoplata as you start the stack escape—how do you respond?",
         "answer": "Immediately pin their far shoulder to the mat with your free hand to prevent the rotation needed for the omoplata entry. Keep your trapped elbow tight to your body to deny the lever they need for the shoulder lock. If the rotation has already begun, circle away from the omoplata direction while maintaining forward stack pressure to deny completion of the pivot.",
         "answer_line": "Pin far shoulder, keep elbow tight",
         "distractors": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "What determines whether you end up in half guard top or side control after a successful stack escape?",
+        "question": "After a successful stack escape from a triangle, what decides half guard top versus side control?",
         "answer": "The speed and completeness of your leg clearance determines your final position. If you fully clear both legs and drive your knee across before the opponent recovers any leg entanglement, you achieve side control. If the opponent manages to recapture one leg during the clearance phase, you land in half guard top, which is still a successful escape requiring systematic passing to advance further.",
         "answer_line": "Speed of full leg clearance",
         "distractors": {
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "Your opponent pulls your head down with both hands as you attempt to posture for the stack—what is your immediate adjustment?",
+        "question": "They pull your head down as you posture for the stack escape—what is your adjustment?",
         "answer": "Drive your chin into their sternum and use your posted leg to generate upward force through your entire body with your core fully engaged. Keep your spine straight rather than fighting the pull with just neck muscles. Walk your posted foot closer to their hip to create a stronger mechanical angle for posture recovery, using your leg strength rather than upper body alone to overcome their head control.",
         "answer_line": "Drive chin to sternum, push with leg",
         "distractors": {
@@ -471,7 +471,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting a stack escape from your triangle?",
+        "question": "What is the earliest cue that they are starting a stack escape from your triangle?",
         "answer": "The primary early cue is the opponent posting a foot on the mat near your hip and beginning to shift their weight from knees to feet. This weight redistribution is the earliest indication of a stack attempt and provides the maximum window for preemptive angle adjustment through hip escaping before they generate full stacking pressure with bilateral hip grips.",
         "answer_line": "Opponent posts foot near hip",
         "distractors": {
@@ -485,7 +485,7 @@
         }
       },
       {
-        "question": "When should you abandon the triangle and transition to omoplata instead of continuing to fight the stack?",
+        "question": "When should you leave the triangle for the omoplata instead of fighting the stack?",
         "answer": "Transition to omoplata when you can no longer maintain the perpendicular angle needed for effective arterial compression despite hip adjustments. If your back is being driven flat and your legs are losing their squeeze angle with the opponent's hips clearly above your shoulders, the stack has progressed beyond triangle recovery. The omoplata transition must be initiated before the opponent begins clearing your legs from around their neck.",
         "answer_line": "Lose the perpendicular angle",
         "distractors": {
@@ -513,7 +513,7 @@
         }
       },
       {
-        "question": "Your opponent has established grips on both your hips and is beginning to stand—what is your priority defensive action?",
+        "question": "They grip both your hips and start to stand out of your triangle—what is your priority?",
         "answer": "Your priority is maintaining head control by pulling their head down with both hands or gripping behind their neck. If you break their posture before they fully stand, the stack loses its driving foundation. Simultaneously begin hip escaping to the choking leg side to re-establish your angle. If the posture break fails and they achieve full standing posture, immediately prepare for the omoplata transition rather than continuing to fight from a deteriorating triangle.",
         "answer_line": "Break posture, pull head down",
         "distractors": {

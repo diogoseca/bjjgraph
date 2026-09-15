@@ -112,7 +112,7 @@ description: "Learn to execute the stack pass from inverted lasso guard. Step-by
     },
     {
       "@type": "Question",
-      "name": "How does the stack mechanically create slack in the lasso hook, and why is this necessary before arm extraction?",
+      "name": "How does stacking create slack in the lasso, and why is that needed before arm extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lasso hook works by threading the bottom player's leg through your arm with tension maintained by hip elevation and sleeve grip. When you stack the bottom player by folding their knees toward their face, this shortens the distance between their hip and shoulder, which reduces the circumference of the loop their leg makes around your arm. This slack is necessary because the lasso's mechanical strength comes from structural tension — once slack exists, your arm can be withdrawn through the loosened loop without fighting the full resistance of the taut hook."
@@ -120,7 +120,7 @@ description: "Learn to execute the stack pass from inverted lasso guard. Step-by
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical difference between executing the stack from standing versus kneeling?",
+      "name": "What is the mechanical trade-off between stacking from standing versus kneeling?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Standing stack provides more gravitational advantage and compressive force because your full body weight drives downward through the opponent without being partially supported by your own knees. However, standing sacrifices lateral base stability and recovery options if the stack fails or the opponent initiates a sweep. Kneeling stack offers better lateral stability through the posted knee and greater ability to absorb sweep attempts, but generates less compression. Choose standing when you have clear timing and angle, kneeling when the situation is uncertain."

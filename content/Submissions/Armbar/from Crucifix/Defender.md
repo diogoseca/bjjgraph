@@ -58,7 +58,7 @@ description: "How to defend against Armbar from Crucifix in BJJ. Recognition, es
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical early defensive action when you recognize the armbar from crucifix is being set up?",
+      "name": "Defending the armbar from crucifix: what is your most critical early defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical early action is establishing a defensive grip immediately - grab your own opposite wrist, lapel, or belt with the hand being attacked, and pull your elbow tight to your centerline. This prevents the arm extension that makes the armbar possible. This grip must be established before your opponent fully isolates the arm, as breaking an established defensive grip requires significant effort and buys substantial time for further escape attempts. The defensive grip is your first line of defense and everything else builds on top of it."
@@ -82,7 +82,7 @@ description: "How to defend against Armbar from Crucifix in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "Your arm is being extended and you cannot maintain your defensive grip - what is the correct sequence of emergency defensive actions?",
+      "name": "Your crucifix armbar defensive grip is failing as the arm extends — what is the correct sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the defensive grip fails and the arm begins extending: (1) Immediately initiate the hitchhiker rotation by turning your thumb toward the mat and rotating your body toward the attacked arm to relieve elbow pressure, (2) Simultaneously attempt an explosive bridge toward the side of the trapped arm to disrupt your opponent's hip positioning, (3) If the elbow pressure does not relieve within one second of these combined actions, TAP IMMEDIATELY - do not wait for pain or popping sounds. Your elbow can sustain permanent damage in less than a second once past the extension threshold. Ego has no place in this decision - a tap preserves your training longevity."
@@ -98,7 +98,7 @@ description: "How to defend against Armbar from Crucifix in BJJ. Recognition, es
     },
     {
       "@type": "Question",
-      "name": "What is the first thing you should do when you feel the attacker transitioning from choke to armbar in the crucifix?",
+      "name": "In the crucifix, what do you do first when the attacker switches from choke to armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately retract the free arm toward your body, bending the elbow and tucking it tight against your ribs. The attacker's transition from choke to armbar requires them to capture your wrist—if the arm is already retracted before they establish grip, the armbar attempt fails at its earliest stage. Do not wait to confirm the armbar attack; respond to the first recognition cue by pulling the arm in preemptively."

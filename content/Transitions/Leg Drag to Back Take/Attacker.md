@@ -98,7 +98,7 @@ description: "How to execute Leg Drag to Back Take in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far hand and begins sitting up during your back take attempt - how do you respond?",
+      "name": "They post their far hand and start sitting up during your back take from leg drag. Response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase forward pressure with your shoulder driving into their back. Control their posting arm by including it in your seatbelt grip or transition to crucifix if they extend it. Do not allow them to create the posture needed for technical standup."

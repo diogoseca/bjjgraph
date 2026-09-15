@@ -56,7 +56,7 @@ description: "Learn to defend the Spider Sweep in BJJ. Recognition cues, base ad
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel your weight being loaded to one side as the bottom player initiates the Spider Sweep - what immediate action prevents the sweep completion?",
+      "name": "You feel your weight loading to one side as they start the spider sweep: what stops it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your same-side hand firmly on the mat toward the sweep direction to create a structural block against the rotation. Simultaneously widen your base by stepping your far foot outward to redistribute your weight. This combination of posting and base widening removes the weight imbalance that the sweep needs to complete. However, be aware that posting exposes your arm to triangle and omoplata transitions, so you must follow the post with an immediate grip break and base reset."
@@ -72,7 +72,7 @@ description: "Learn to defend the Spider Sweep in BJJ. Recognition cues, base ad
     },
     {
       "@type": "Question",
-      "name": "The bottom player has established the angle and is pulling your sleeve strongly - how do you counter at this stage?",
+      "name": "They have the angle and are pulling hard on your sleeve: how do you counter now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, the sweep is partially loaded and reactive defense becomes critical. Use a two-on-one grip break on the pulling sleeve by grabbing their gripping hand with both of your hands and stripping it while simultaneously stepping back with the foot on the sweep side to shift your weight away from the sweep direction. If the grip break fails, post immediately with your same-side hand and circle toward the sweep direction to neutralize the angle rather than fighting against the rotational force directly."
@@ -88,7 +88,7 @@ description: "Learn to defend the Spider Sweep in BJJ. Recognition cues, base ad
     },
     {
       "@type": "Question",
-      "name": "You successfully resist the initial sweep attempt but the bottom player maintains both grips - what should you do next?",
+      "name": "You stuffed the spider sweep but they keep both grips: what should you do next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately begin systematic grip breaking before they can re-angle and attempt again. Target one grip at a time using a two-on-one break: grab their gripping hand with both hands and strip it while stepping back. The moment one grip breaks, immediately transition to a passing action, controlling their now-free leg with your hand and initiating a toreando or knee slice pass before they can re-grip. Staying in spider guard with both grips intact after defending one sweep just gives them a second opportunity."

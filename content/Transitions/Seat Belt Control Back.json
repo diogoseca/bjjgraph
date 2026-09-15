@@ -268,7 +268,7 @@
         }
       },
       {
-        "question": "Your opponent starts rolling through before you can lock your seat belt grip - what adjustment do you make?",
+        "question": "They roll before you lock the seat belt from mounted crucifix; what adjustment do you make?",
         "answer": "Follow the roll while maintaining whatever upper body contact you have established. Keep your chest connected to their back throughout the roll and you will arrive in mount on the other side. If you cannot maintain back exposure, accept the mount position and re-establish crucifix control rather than losing position entirely by fighting the roll.",
         "answer_line": "Follow roll, keep chest connected",
         "distractors": {
@@ -310,7 +310,7 @@
         }
       },
       {
-        "question": "Your opponent frames against your hip with their free hand as you attempt to slide behind them - how do you address this?",
+        "question": "They frame your hip as you slide behind them from mounted crucifix; how do you clear it?",
         "answer": "Use your knee to clear their framing hand by driving it across their arm while simultaneously pulling your seat belt grip tighter. The grip pull collapses their structural defense and takes away the space they need for effective framing. Once their frame is broken, immediately continue your hip slide before they can re-establish. Do not release seat belt to address the frame.",
         "answer_line": "Knee clears frame, pull grip tight",
         "distractors": {
@@ -324,7 +324,7 @@
         }
       },
       {
-        "question": "What determines whether you should insert hooks or establish body triangle upon completing the transition?",
+        "question": "After taking the back, what decides between inserting hooks and locking a body triangle?",
         "answer": "Body triangle provides superior control against opponents with strong hip escape abilities or larger opponents where hooks may be stripped. Hooks allow more mobility for position adjustments and some finishing variations. Choose body triangle when you prioritize control and plan to finish with arm attacks or gi chokes. Choose hooks when you want mobility for rear naked choke angle adjustments or if opponent is smaller where hooks provide sufficient control.",
         "answer_line": "Triangle=control, hooks=mobility",
         "distractors": {
@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "How does head positioning during the transition affect your finishing options once back control is established?",
+        "question": "How does your head placement in the transition affect finishing options on the back?",
         "answer": "Your head should be on the same side as your over-arm (the arm that crosses over their shoulder and becomes your choking arm). This head position protects you from counters that target head control and puts you in optimal position for rear naked choke. Wrong-side head placement requires adjustment before finishing and exposes you to counter-attacks during that adjustment period.",
         "answer_line": "Head on same side as over-arm",
         "distractors": {
@@ -380,7 +380,7 @@
         }
       },
       {
-        "question": "If your seat belt is locked but you cannot slide your hips behind the opponent, what chain attack should you consider?",
+        "question": "Seat belt locked but you can't slide your hips behind them; what attack chain do you use?",
         "answer": "If the hip slide is blocked, use your seat belt control to attack directly from the mounted position. The over-arm is already positioned for a short choke or can thread deeper for a rear naked choke attempt from a modified mount angle. You can also use the grip to pull opponent onto their side, exposing their back further and creating a new angle for the hip slide. Alternatively, return to mounted crucifix submissions since you still maintain dominant control.",
         "answer_line": "Attack RNC/choke from mount angle",
         "distractors": {
@@ -521,7 +521,7 @@
         }
       },
       {
-        "question": "Why is the moment when the attacker releases crucifix leg control the critical escape window for the defender?",
+        "question": "Why is the attacker releasing crucifix leg control the key escape window for the defender?",
         "answer": "When the attacker releases their crucifix leg entanglement to begin sliding behind you, there is a brief window where their lower body control is absent. During this moment, your arms may also be freed from the leg trap, and the attacker's base is compromised as they reposition. An explosive bridge and turn during this release can recover half guard or create a scramble before back control consolidates.",
         "answer_line": "Bridge & turn when legs release",
         "distractors": {
@@ -535,7 +535,7 @@
         }
       },
       {
-        "question": "Your attacker has locked the seat belt but has not yet inserted hooks - what is your immediate defensive priority?",
+        "question": "They have the seat belt but no hooks yet; what is your immediate defensive priority?",
         "answer": "Prevent hook insertion by keeping your legs active and straightened, denying the attacker's feet entry inside your thighs. Simultaneously begin turning toward the attacker to disrupt their back angle. Back control without hooks is significantly easier to escape than with hooks established, so even a few seconds of hook denial creates meaningful escape opportunities. Frame against their hip to prevent further settling.",
         "answer_line": "Deny hooks, turn into attacker",
         "distractors": {
@@ -563,7 +563,7 @@
         }
       },
       {
-        "question": "How should you distribute your defensive effort between grip fighting the seat belt and preventing the hip slide?",
+        "question": "How do you split defensive effort between fighting the seat belt and blocking the hip slide?",
         "answer": "Both threats must be addressed simultaneously rather than sequentially. Use one arm to fight or disrupt the seat belt grip while using your other arm to frame against the attacker's hip to block their slide behind you. Focusing exclusively on grip fighting allows the hip slide to complete, while focusing only on the hip frame allows the seat belt to tighten and eventually collapse your frame through compression.",
         "answer_line": "Fight grip and frame hip at once",
         "distractors": {

@@ -72,7 +72,7 @@ description: "How to defend against Rolling Back Take in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your attacker commits to the roll and you feel yourself being pulled over - what is the best mid-roll defensive action?",
+      "name": "You're being pulled over by a rolling back take from turtle — what's the best mid-roll defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the roll is committed and you are being pulled over, your best action is to aggressively turn your hips and shoulders toward the attacker during the rotation. Use their rolling momentum to help you face them rather than ending up with your back to them. This is essentially converting their back take attempt into a scramble where you recover guard. The key is turning toward the attacker, never away, and keeping your arms tight to prevent them from maintaining the connection needed to establish hooks upon landing."

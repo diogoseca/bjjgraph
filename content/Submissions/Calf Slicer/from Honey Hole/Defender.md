@@ -76,7 +76,7 @@ description: "Defend against the calf slicer from Honey Hole. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins folding your foot toward your buttock and you feel increasing calf pressure - what is your immediate response?",
+      "name": "They fold your foot toward your buttock and calf pressure builds — what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Fire your quadriceps to straighten your leg with maximum explosive force. Simultaneously push against the attacker's hip with your free leg to create separation. If straightening fails to break the fold within the first second, assess whether the compression is progressing. If the attacker has hip drive engaged and the fold is deepening, tap immediately rather than continuing to fight. The window between manageable compression and tissue damage is extremely narrow with this submission."
@@ -84,7 +84,7 @@ description: "Defend against the calf slicer from Honey Hole. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why is the calf slicer from Honey Hole particularly dangerous compared to calf slicers from other positions?",
+      "name": "Why is the calf slicer from honey hole more dangerous than from other positions?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Honey Hole's inside leg triangle creates an exceptionally stable fulcrum that cannot be displaced through normal defensive movement. Unlike calf slicers from open positions where the defender can create space or change the compression angle, the triangle locks the shin fulcrum in place against the back of the knee. Additionally, the Honey Hole already limits escape options before the calf slicer is even attempted, meaning the defender has fewer tools available. The combination of stable fulcrum, limited mobility, and restricted escape paths makes this variant significantly more dangerous than free-form calf slicers."

@@ -56,7 +56,7 @@ description: "Defensive guide to maintaining Russian Cowboy against escape attem
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest tactile cue that the bottom player is initiating an escape attempt from Russian Cowboy?",
+      "name": "Riding Russian Cowboy, what is the earliest tactile cue the bottom player is escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is typically the bottom player beginning aggressive hand fighting on your seatbelt grip, specifically targeting your choking arm wrist with a two-on-one grip to pull it below their chin. This hand fighting precedes any positional movement and signals that the escape sequence has begun. Responding immediately by re-establishing seatbelt depth and threatening the choke can shut down the escape before frame creation or hip movement begins."
@@ -64,7 +64,7 @@ description: "Defensive guide to maintaining Russian Cowboy against escape attem
     },
     {
       "@type": "Question",
-      "name": "When the bottom player creates space through a hip escape, should you try to pull them back or follow their movement?",
+      "name": "Riding Russian Cowboy: when they hip escape, do you pull them back or follow their movement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Always follow their movement rather than trying to pull them back. Pulling against their hip escape is energy-inefficient and often fails because they are using structural mechanics while you would be using muscular effort. Instead, ride their shrimping motion by adjusting your hook angle to match their new hip position and driving your chest forward into the space they create. Following their movement allows you to maintain contact and control while conserving energy for the sustained positional battle."
@@ -72,7 +72,7 @@ description: "Defensive guide to maintaining Russian Cowboy against escape attem
     },
     {
       "@type": "Question",
-      "name": "How do you decide between re-consolidating Russian Cowboy and advancing to full back control when the escape creates space?",
+      "name": "Riding Russian Cowboy, how do you decide between re-consolidating and taking full back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision depends on how much space exists and where the bottom player's legs are positioned. If the space is minimal and your hook is still engaged, re-consolidate by driving chest forward and tightening the seatbelt. If the bottom player has created significant hip separation that exposes their far-side inner thigh, this is your window to thread the second hook and advance to full back control. The key indicator is whether you can reach their far thigh with your free foot without releasing your seatbelt grip—if yes, advance; if no, re-consolidate."
@@ -80,7 +80,7 @@ description: "Defensive guide to maintaining Russian Cowboy against escape attem
     },
     {
       "@type": "Question",
-      "name": "Your bottom player has stripped your seatbelt and is beginning to turn to face you—what is your priority response?",
+      "name": "Russian Cowboy top: they strip your seatbelt and start turning in. What is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the turn from completing by driving your shoulder into the back of their head or neck while re-establishing upper body control through an overhook, underhook, or re-securing the seatbelt. If they have already rotated significantly, switch your strategy to maintaining the hook and using it to prevent them from achieving full guard—pulling them back into a back-exposed position using the hook as a lever. Never abandon the hook to chase the upper body control, as the hook provides the rotational control needed to prevent guard recovery."
@@ -88,7 +88,7 @@ description: "Defensive guide to maintaining Russian Cowboy against escape attem
     },
     {
       "@type": "Question",
-      "name": "What submission threat is most effective for interrupting an escape sequence and forcing the bottom player back to defensive hand fighting?",
+      "name": "Riding Russian Cowboy, which submission threat best forces them back to hand fighting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The rear naked choke threat is the most effective interrupter because it carries immediate finishing danger that forces the bottom player to abandon all other defensive priorities and return to two-on-one hand fighting on your choking arm. Even without fully committing to the choke, walking your hand toward their chin while adjusting your seatbelt grip forces a defensive response. The key is threatening credibly without overcommitting—maintain your hook depth and chest pressure while using the choke threat as a positional tool rather than a finishing attempt."

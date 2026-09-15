@@ -82,7 +82,7 @@ description: "Learn to execute the body lock takedown from clinch. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent sprawls their hips back as you begin driving forward with the body lock - how do you adjust?",
+      "name": "They sprawl their hips back as you drive with the body lock: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent sprawls, their hips move away from you but their upper body stays relatively close due to the body lock grip. This creates an opportunity to switch from a forward drive to a lateral drop by stepping to the side and pulling them across your hip, converting their backward resistance into rotational vulnerability. Alternatively, if the sprawl creates enough space, you can release the body lock on one side and immediately shoot for a single leg on their now weight-heavy lead leg. The key is recognizing the sprawl early and redirecting rather than fighting against their defensive angle."
@@ -114,7 +114,7 @@ description: "Learn to execute the body lock takedown from clinch. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent pummel-wins an underhook as you attempt to close the body lock grip - what is your immediate response?",
+      "name": "They win an underhook as you try to close the body lock: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not continue forcing the body lock closure against an established underhook, as this will fail and waste energy. Instead, address the underhook first by either re-pummeling aggressively to recover inside position, or transitioning to an alternative attack that uses the opponent's underhook against them. A snap down becomes highly available because the opponent's underhook commits their weight forward, and an arm drag on the underhook arm can expose their back. Once you have neutralized or recovered from their underhook, re-attempt the body lock closure. The body lock requires at minimum one underhook to establish properly."

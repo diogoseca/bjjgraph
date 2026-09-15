@@ -82,7 +82,7 @@ description: "How to execute Buggy Choke to Front Headlock in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your deep collar grip but you still have chin strap control - what immediate action do you take?",
+      "name": "They strip your deep collar grip but you keep the chin strap: what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately begin circling toward their head while maintaining chin strap pressure. Use the grip strip as the trigger for transition rather than attempting to re-establish the buggy choke. The chin strap provides sufficient control to complete the front headlock entry if you move immediately."

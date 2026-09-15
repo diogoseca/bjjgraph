@@ -90,7 +90,7 @@ description: "Master reestablishing Side Control from Jailbreak as the top playe
     },
     {
       "@type": "Question",
-      "name": "Your crossface is established but the bottom player still manages to begin inverting—what adjustment do you make?",
+      "name": "Your crossface is set but they still start inverting for the jailbreak: what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the bottom player begins inverting despite your crossface, the underhook is likely still providing enough structural support to power the escape. Immediately establish a whizzer over their underhooking arm while maintaining crossface. If the inversion is already significantly advanced past the 45-degree threshold, switch strategy from prevention to following the momentum—drive forward over the top of their roll to establish front headlock or turtle top control rather than fighting a roll that has already developed substantial momentum."
@@ -114,7 +114,7 @@ description: "Master reestablishing Side Control from Jailbreak as the top playe
     },
     {
       "@type": "Question",
-      "name": "What should you do if the bottom player abandons the jailbreak and transitions to deep half guard entry?",
+      "name": "They abandon the jailbreak and go for deep half guard: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the bottom player switches from jailbreak to deep half entry, immediately recognize the shift by their movement underneath your body rather than away from it. Sprawl your hips back to prevent them from reaching full deep half position, as deep half becomes significantly more dangerous once they secure your far leg. Establish a whizzer on their underhooking arm and drive crossface pressure to flatten their approach. If they achieve full deep half despite your defense, switch to standard deep half passing techniques."

@@ -56,7 +56,7 @@ description: "How to defend against Aoki Lock to Back Control in BJJ. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from Aoki Lock to a back take?",
+      "name": "What is the earliest cue your opponent is leaving the Aoki Lock to take your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a sudden release or significant reduction of shoulder lock pressure while your opponent maintains or increases body contact. When the rotational shoulder pressure disappears but their chest drives forward into your back, they have abandoned the submission and are initiating the back take. This tactile shift from rotational to linear pressure is the primary early warning signal."
@@ -64,7 +64,7 @@ description: "How to defend against Aoki Lock to Back Control in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Why is the transition window between grip release and seatbelt establishment your best defensive opportunity?",
+      "name": "Why is the gap between grip release and seatbelt your best defensive window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During this brief window, your opponent has abandoned their strongest control mechanism, the leg-entangled shoulder lock, and has not yet established their next control mechanism, the seatbelt grip with hooks. Their hands are transitioning between grips and their legs are repositioning from shoulder control to hook position. This is the moment of minimum control where defensive actions like turning in, creating distance, or establishing frames have the highest probability of success."
@@ -88,7 +88,7 @@ description: "How to defend against Aoki Lock to Back Control in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "How do you prevent your rolling escape from Aoki Lock from becoming a free back take for your opponent?",
+      "name": "How do you keep your rolling escape from the Aoki Lock from gifting your back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before committing to a forward roll, test whether your opponent is maintaining body contact by doing a small directional feint. If they are glued to your back and matching your movement, the forward roll will deliver you directly into their back control. Instead, change escape direction by turning toward them, sprawling flat, or executing a sit-through to a different angle. Only commit to the full roll when you feel genuine separation between your back and their chest."

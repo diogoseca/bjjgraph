@@ -323,7 +323,7 @@
         }
       },
       {
-        "question": "What is the primary direction of force when pulling the opponent's arm into the Gift Wrap configuration?",
+        "question": "From back control, in what direction do you pull their arm into the Gift Wrap?",
         "answer": "The primary force direction is diagonal—pulling the opponent's arm from their trapped-arm shoulder across their sternum toward the opposite shoulder. This diagonal path creates the longest control line across the opponent's chest and maximizes the mechanical advantage of the wrap. Pulling straight across horizontally or downward toward the waist creates a shorter, weaker control line that the opponent can defeat through shoulder rotation or arm extraction.",
         "answer_line": "Diagonal across the sternum",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent defends the Gift Wrap by grabbing their own wrist to anchor the arm—how do you respond?",
+        "question": "They grab their own wrist to anchor against your Gift Wrap from the back: how do you respond?",
         "answer": "Attack the anchoring grip with two-on-one grip breaking, peeling their fingers from their own wrist or gi. Alternatively, switch to attacking the neck with the free hand, which forces them to release the anchor grip to defend the choke. The moment they release the anchor to fight the choke, immediately re-capture the now-freed wrist and complete the threading. This creates a dilemma between defending the gift wrap and defending the choke.",
         "answer_line": "Attack neck to force release",
         "distractors": {
@@ -498,7 +498,7 @@
         }
       },
       {
-        "question": "Why is the attacker's seatbelt release during the threading transition the best moment to attempt escape?",
+        "question": "Why is their seatbelt release during Gift Wrap threading your best moment to escape the back?",
         "answer": "When the attacker releases the seatbelt to free the threading arm, their upper body control is at its weakest point during the entire back control sequence. They have transitioned from a connected two-arm control to a single-arm wrist grip plus a free arm that is mid-motion. This momentary gap in upper body control reduces the force they can apply to prevent your hip escape or bridge, creating the widest escape window before the gift wrap re-establishes superior control.",
         "answer_line": "Upper body control weakest",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "Your opponent begins threading their arm under your armpit—what is the correct immediate defensive response?",
+        "question": "They thread an arm under your armpit from back control: what is your immediate defense?",
         "answer": "Immediately clamp your elbow tight to your ribs and rotate your shoulder inward to close the space under your armpit. This blocks the threading path and prevents the arm from passing through. Simultaneously, begin a hip escape away from the threading side to create distance and reduce the attacker's chest-to-back pressure. If the arm is already partially through, rotate your entire torso toward the attacker to shorten the threading path and prevent the arm from crossing your midline.",
         "answer_line": "Clamp elbow tight, hip escape",
         "distractors": {

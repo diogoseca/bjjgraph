@@ -88,7 +88,7 @@ description: "Learn to defend against the stand up from combat base in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent has double pant grips and is pinning your knees down as they stand—how do you create defensive opportunities?",
+      "name": "They pin your knees with pant grips as they stand from combat base. How do you make an opening?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When both knees are pinned by pant grips, you cannot insert hooks or close guard through conventional means. Instead, use your hands to break one grip using a two-on-one peel, prioritizing the grip controlling your dominant attacking leg. Once one leg is free, immediately insert a hook—either a De La Riva hook around their standing leg or a foot on their hip for distance management. If grips cannot be broken, hip escape to create an angle that makes their bilateral grip control less effective."

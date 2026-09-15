@@ -72,7 +72,7 @@ description: "How to maintain body triangle and prevent Hip Escape to Turtle in 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially broken your figure-four lock and inserted their elbow as a frame - what should you do?",
+      "name": "They break your body triangle and frame with an elbow: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If re-establishing the body triangle is not immediately possible due to the elbow frame, transition to standard hooks by threading your feet inside their thighs before they can rotate to turtle. Maintain your seatbelt grip throughout this transition. Fighting to re-lock the triangle against a well-placed elbow frame wastes time and energy while the opponent continues progressing toward turtle. Accept the downgrade to hooks rather than losing back control entirely."
@@ -88,7 +88,7 @@ description: "How to maintain body triangle and prevent Hip Escape to Turtle in 
     },
     {
       "@type": "Question",
-      "name": "What is the risk of following your opponent's hip escape too aggressively with your own hip adjustment?",
+      "name": "What is the risk of following their hip escape too aggressively from back control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Over-committing your hip movement to follow their escape can compromise your own base and stability. If they suddenly reverse direction or execute a granby roll, your forward momentum makes it difficult to adjust and you may lose chest-to-back connection entirely. Follow their movement with controlled adjustments rather than lunging, and maintain enough base on the mat to absorb directional changes without losing your position."

@@ -114,7 +114,7 @@ description: "Complete attacker guide for the Gift Wrap from Back transition. Le
     },
     {
       "@type": "Question",
-      "name": "What is the primary direction of force when pulling the opponent's arm into the Gift Wrap configuration?",
+      "name": "From back control, in what direction do you pull their arm into the Gift Wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary force direction is diagonal—pulling the opponent's arm from their trapped-arm shoulder across their sternum toward the opposite shoulder. This diagonal path creates the longest control line across the opponent's chest and maximizes the mechanical advantage of the wrap. Pulling straight across horizontally or downward toward the waist creates a shorter, weaker control line that the opponent can defeat through shoulder rotation or arm extraction."

@@ -64,7 +64,7 @@ description: "Defend against the Roll from Dead Orchard in BJJ. Guide for the to
     },
     {
       "@type": "Question",
-      "name": "When the roll has already been initiated, should you fight to maintain the anaconda grip or transition to back control?",
+      "name": "Their roll from Dead Orchard is past the tipping point — keep the anaconda grip or take the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the roll is past the tipping point, transition to back control rather than fighting for the anaconda grip. The roll disrupts the circular compression angle that makes the choke viable, and continuing to grip fight wastes the opportunity to secure back control while the bottom player's back is maximally exposed during the rotation. Release the anaconda proactively, establish seatbelt or harness control, and focus on inserting hooks as they land in turtle. Back control with hooks is a superior position to a compromised dead orchard."
@@ -72,7 +72,7 @@ description: "Defend against the Roll from Dead Orchard in BJJ. Guide for the to
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your pressure pattern to deny the roll escape without creating other escape opportunities?",
+      "name": "How should you adjust Dead Orchard pressure to deny the roll without opening other escapes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use controlled, incremental pressure increases rather than explosive forward drives. The roll escape exploits the specific timing window created by maximum forward weight commitment. Maintain balanced weight distribution with shoulder pressure driving downward at a 45-degree angle rather than horizontally forward. Keep hips low and connected to the opponent's body to deny hip loading. This balanced approach prevents the roll while also denying hip escape and arm extraction opportunities that might open if you sprawl too aggressively in one direction."
@@ -80,7 +80,7 @@ description: "Defend against the Roll from Dead Orchard in BJJ. Guide for the to
     },
     {
       "@type": "Question",
-      "name": "Your opponent's roll stalls halfway through and they are caught in a compromised position - what is your optimal response?",
+      "name": "Their roll from Dead Orchard stalls halfway — what's your optimal response from the top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the roll stalls, you have a brief window where the opponent is in their most vulnerable position, neither in dead orchard nor in turtle. Immediately drive your weight forward and down to flatten them while walking your hips around to re-establish the dead orchard angle. Alternatively, if their back is exposed during the stall, transition to back control grips since the mid-roll position often provides easier hook insertion than either the starting or ending positions. The key is acting decisively during the stall rather than waiting to see what they do next."

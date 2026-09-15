@@ -56,7 +56,7 @@ description: "Learn to defend and prevent the seat belt to body triangle transit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the attacker is attempting the body triangle transition rather than just adjusting their hooks?",
+      "name": "What is the earliest cue they are threading a body triangle rather than adjusting hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling one hook begin to withdraw from inside your thigh while simultaneously experiencing increased seat belt pressure and chest compression. Normal hook adjustments maintain the hook inside your thigh — they shift position but don't withdraw. The threading attempt requires the hook to come completely out of your thigh to cross your torso. Additionally, the attacker's hip pressure often increases against the mat as they establish a stable threading base, which feels different from the dynamic hip movement of standard back control."
@@ -64,7 +64,7 @@ description: "Learn to defend and prevent the seat belt to body triangle transit
     },
     {
       "@type": "Question",
-      "name": "Why is defending during the threading phase far more effective than defending after the body triangle locks?",
+      "name": "Why is defending during the threading phase more effective than after the triangle locks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the threading phase, the attacker has voluntarily reduced their leg control from two independent hooks to a single hook plus a crossing leg that provides no control until locked. This is the weakest point of their back control during the entire transition. After the lock closes, you face a unified mechanical structure that eliminates your primary escape pathways — hook clearing — and adds breathing restriction that compounds over time. Defending during threading requires one well-timed hip escape; escaping an established body triangle requires sustained technical work under physiological stress."
@@ -72,7 +72,7 @@ description: "Learn to defend and prevent the seat belt to body triangle transit
     },
     {
       "@type": "Question",
-      "name": "Your hands are already defending your neck when you feel the threading begin — how do you defend without compromising neck protection?",
+      "name": "Your hands are already defending your neck as threading starts; how do you defend the legs?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your hips and legs as the primary defense rather than your hands. Execute an immediate hip escape away from the remaining hook, which creates distance that prevents the crossing leg from completing its path. Simultaneously bring your knees together and tuck them toward your chest, which physically blocks the threading leg's path across your torso without requiring any hand involvement. Your hands remain on neck defense throughout. This hip-and-knee defense is actually more effective than hand blocking because it addresses the root mechanic of the transition."
@@ -80,7 +80,7 @@ description: "Learn to defend and prevent the seat belt to body triangle transit
     },
     {
       "@type": "Question",
-      "name": "The body triangle has just locked but the attacker has not yet established full squeeze pressure — what immediate action gives you the best escape chance?",
+      "name": "The body triangle just locked but they haven't squeezed yet; what gives the best escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attack the figure-four lock immediately before the attacker settles their weight and begins squeezing. Target the foot tucked behind their knee — push it out of the knee crease using your nearest hand while simultaneously turning your hips toward the triangle leg side. The first 3-5 seconds after the lock closes offer the best clearing opportunity because the attacker is still adjusting their position and the lock has not yet been reinforced by sustained squeeze pressure. Once they settle and squeeze, clearing becomes exponentially more difficult."
@@ -88,7 +88,7 @@ description: "Learn to defend and prevent the seat belt to body triangle transit
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your overall escape strategy when you realize the attacker is likely to attempt the body triangle transition?",
+      "name": "How do you adjust your escape plan once you sense they will attempt a body triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift from methodical hook-clearing escapes to more urgent, timing-based defensive actions. Increase your hip activity to make the attacker's threading timing-dependent rather than available at will. Consider initiating your own escape attempt precisely when they begin the transition — their commitment to the threading reduces their ability to counter your escape, creating a race condition where their positional upgrade competes with your escape. If you cannot prevent the transition, begin working standard body triangle escapes immediately rather than wasting energy on hook-clearing sequences that no longer apply."

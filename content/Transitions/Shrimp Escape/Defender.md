@@ -56,7 +56,7 @@ description: "How to defend against Shrimp Escape in BJJ. Recognition cues, defe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action to prevent an opponent's shrimp escape from side control?",
+      "name": "What single defensive action best stops a shrimp escape from your side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintaining heavy crossface pressure is the most critical defensive action because it prevents the opponent from turning onto their near-side hip, which is the essential prerequisite for any effective shrimp. Without the ability to rotate their hips, the shrimp becomes structurally impossible regardless of how strong their leg drive is. The crossface creates a wedge that pins their head and shoulders flat, denying the rotation needed to generate angular hip movement. All other defensive elements—hip pressure, following movement, blocking knee insertion—become secondary when the crossface is properly maintained."
@@ -64,7 +64,7 @@ description: "How to defend against Shrimp Escape in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully shrimped and is attempting to insert their knee shield—what is your immediate defensive priority?",
+      "name": "They shrimped and are inserting a knee shield — what is your immediate priority on top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to drive your near-side hip into the space between your bodies to block the knee insertion before it crosses your centerline. Simultaneously, drive your shoulder forward and downward to collapse any remaining space. If the knee is partially inserted, use your hand to control their shin and push it back down while re-establishing hip-to-hip pressure. Speed is critical here—once the knee shield is fully established, re-passing becomes a separate and more difficult task than simply maintaining side control through prevention."
@@ -72,7 +72,7 @@ description: "How to defend against Shrimp Escape in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when you feel your opponent beginning to establish frames for a shrimp escape?",
+      "name": "How do you adjust your weight on top as they build frames for a shrimp escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift your weight distribution lower by driving your hips downward into their hips rather than keeping weight primarily on their upper body. This denies the hip space needed for the shrimp. Simultaneously, use your near-side arm to control their framing elbow—either by pinning it to their body or redirecting their frame angle away from the effective pushing direction. Your chest weight should increase on their shoulder and face through the crossface while your hips sink heavily onto their pelvis, creating two anchor points that resist both the turning and the lateral hip movement."
@@ -88,7 +88,7 @@ description: "How to defend against Shrimp Escape in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent chains three rapid shrimps and you're struggling to maintain connection—what systemic adjustment prevents this situation?",
+      "name": "They chain rapid shrimps and you can't stay connected — what systemic fix stops this?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The systemic adjustment is to address the root cause rather than chasing individual shrimps. First, improve your initial crossface to prevent the hip rotation that enables effective shrimping. Second, control their near-side elbow to deny frame re-establishment between shrimps. Third, rather than following multiple shrimps laterally, transition your pressure angle—switch to north-south or walk your body toward their head to change the dynamic entirely. The opponent is exploiting your pattern of lateral following; breaking that pattern with a positional transition forces them to abandon the shrimp chain and address your new angle."

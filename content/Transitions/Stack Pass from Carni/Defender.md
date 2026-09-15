@@ -56,7 +56,7 @@ description: "Complete guide to defending against the Stack Pass from Carni bott
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a stack pass rather than a standard leg extraction from Carni?",
+      "name": "What is the earliest cue they are stack passing rather than extracting the leg from Carni?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent's shoulder driving forward into your hips combined with their free foot posting wider toward your head, indicating they are establishing a base for forward walking pressure rather than sitting back to extract their leg. Standard extraction involves backward movement and grip fighting; the stack pass involves forward commitment with chest weight. Recognizing this directional difference gives you a critical two-to-three second window to implement your counter."
@@ -80,7 +80,7 @@ description: "Complete guide to defending against the Stack Pass from Carni bott
     },
     {
       "@type": "Question",
-      "name": "What is the risk of attempting an aggressive heel hook finish as the opponent drives forward with stack pass pressure?",
+      "name": "Why is finishing an aggressive heel hook risky as they drive a stack pass from Carni?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Attempting aggressive heel hook during dynamic forward stacking pressure significantly increases injury risk for both practitioners. The opponent's forward momentum combined with rotational heel hook force creates sudden, potentially uncontrollable torque on the knee joint. The safer approach is to use the heel hook threat to stall forward pressure and create transition windows for saddle entry or inversion rather than attempting to finish during active forward movement. Reserve aggressive finishing pressure for static control positions."

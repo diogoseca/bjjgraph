@@ -82,7 +82,7 @@ description: "Learn to defend the Arm Triangle from Kesa Gatame. Recognize the g
     },
     {
       "@type": "Question",
-      "name": "The attacker has locked the head-and-arm grip but has not yet walked to the finishing angle - what escape options remain?",
+      "name": "Head-and-arm locked from Kesa Gatame, angle not yet walked — what escapes remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your last high-percentage escape window. Turn into the attacker toward your trapped-arm side and fight to get to your knees. Simultaneously frame against their hips with your free arm to prevent them from walking to the perpendicular angle. If you can get your knees under you and face into the attacker, they cannot generate the chest compression needed to finish. Alternatively, bridge toward the trapped-arm side and pull them into closed guard to eliminate the finishing angle."

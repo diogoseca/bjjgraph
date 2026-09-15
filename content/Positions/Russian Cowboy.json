@@ -91,7 +91,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent begins to bridge and turn their shoulders toward you - what immediate adjustment should you make to maintain control?",
+        "question": "In Russian Cowboy, your opponent bridges and turns toward you: how do you keep control?",
         "answer": "When opponent bridges toward you, immediately drive your chest weight forward and down into their upper back while simultaneously deepening your leg hook by pulling your heel toward your buttock. Use your seatbelt grip to pull their shoulder back toward the mat and angle your hips away from their turning direction. This combination of increased chest pressure and hook engagement creates a counter-rotation force that prevents them from completing the turn and reestablishes your dominant angle.",
         "answer_line": "Drive chest down, deepen hook",
         "distractors": {
@@ -105,7 +105,7 @@
         }
       },
       {
-        "question": "What are the essential grip configurations for maintaining Russian Cowboy control and which takes priority?",
+        "question": "Which grips maintain Russian Cowboy control, and which one takes priority?",
         "answer": "The primary grip is the seatbelt with the choking arm over the shoulder and underhook arm beneath the armpit, hands clasped together on the sternum. Secondary options include over-under control with wrist grip on the far arm, or collar tie combined with underhook. The seatbelt takes priority because it simultaneously threatens the choke, controls upper body rotation, and creates the asymmetric tension needed to prevent escape. Without proper seatbelt alignment, the position degrades quickly regardless of how well the hook is positioned.",
         "answer_line": "Seatbelt - shoulder + underhook",
         "distractors": {
@@ -119,7 +119,7 @@
         }
       },
       {
-        "question": "How should weight be distributed between your chest, hooking leg, and posting leg to maximize control retention?",
+        "question": "How should you distribute weight between chest, hooking leg, and posting leg in Russian Cowboy?",
         "answer": "Approximately 50-60% of weight should drive through your chest into opponent's upper back, 25-30% through the hooking leg creating downward and rotational pressure, and 15-20% through the posting leg for balance and adjustment capability. The chest weight prevents forward escape, the hook creates the rotational control that defines the position, and the light posting leg allows rapid repositioning. Common error is too much weight on posting leg which makes the position static and easier to escape.",
         "answer_line": "Most weight: chest, then hook",
         "distractors": {
@@ -147,7 +147,7 @@
         }
       },
       {
-        "question": "When your opponent creates a strong frame against your chest, what pressure application technique restores control?",
+        "question": "Your opponent frames hard against your chest in Russian Cowboy: how do you restore control?",
         "answer": "Against a chest frame, angle your body to create diagonal pressure rather than fighting directly into their frame. Shift your hips toward their head while maintaining hook depth, which changes the force vector and makes their frame less effective. Simultaneously use your underhook to drive their elbow toward their hip, collapsing the frame structure. If they persist, use your hook to pull their hips toward you while angling your chest the opposite direction, creating a stretching force that breaks down their defensive posture.",
         "answer_line": "Angle hips, collapse their elbow",
         "distractors": {
@@ -161,7 +161,7 @@
         }
       },
       {
-        "question": "Your opponent suddenly shrimps their hips explosively - how do you anticipate and manage this movement?",
+        "question": "Your opponent shrimps explosively from under Russian Cowboy: how do you manage it?",
         "answer": "Anticipate hip movement by maintaining constant tension through your hook and monitoring their hip alignment. When you feel their hips load for the shrimp, immediately extend your hook leg to match their movement while driving your chest forward to prevent space creation. The key is following their hips with your hook rather than trying to anchor statically. Advanced practitioners actually use opponent's shrimp as an entry to truck by riding the movement and threading the second leg hook as they create space.",
         "answer_line": "Extend hook, drive chest forward",
         "distractors": {
@@ -189,7 +189,7 @@
         }
       },
       {
-        "question": "Opponent manages to partially extract their hooked leg - what recovery sequence restores full control?",
+        "question": "Your opponent partly extracts the hooked leg in Russian Cowboy: what do you restore first?",
         "answer": "Immediately prioritize re-establishing the hook before addressing anything else. Drive your knee back under their thigh while simultaneously pulling with your seatbelt to bring their upper body back toward you - this creates the space needed for hook re-insertion. If they've extracted significantly, transition your free leg over their body while maintaining chest contact to establish a temporary crucifix-style pin, then work to reinsert the original hook. Never release upper body control to chase the hook or you'll lose the position entirely.",
         "answer_line": "Re-hook first: knee under thigh",
         "distractors": {
@@ -427,7 +427,7 @@
         "transition": "Bow and Arrow Choke from Russian Cowboy",
         "attempt_probability": {
           "gi": 15,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -525,7 +525,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent begins setting up the rear naked choke while maintaining Russian Cowboy - what is your immediate defensive priority sequence?",
+        "question": "Your opponent starts a rear naked choke from Russian Cowboy: what is your first priority?",
         "answer": "Immediately address the choking arm using two-on-one grip fighting before any positional escape attempts. Pull the choking arm below your chin line while tucking your chin to your chest. Grip their wrist with both hands and pull it toward your sternum while turning your chin away from the choking arm. Only after you've neutralized the immediate choke threat should you begin working on the leg hook and creating escape angles. Attempting positional escape while the choke is being set will likely result in finishing the choke during your movement.",
         "answer_line": "Two-on-one the choking arm first",
         "distractors": {
@@ -539,7 +539,7 @@
         }
       },
       {
-        "question": "What are the critical frames you need to establish when trapped in Russian Cowboy bottom and in what order?",
+        "question": "Which frames do you need under Russian Cowboy, and in what order?",
         "answer": "First frame is chin to chest and hands protecting the neck from choke setups - this is survival priority. Second frame is elbow to the mat on the side of the hook creating a base point that prevents being completely stretched out. Third frame is your near-side hand posted against their hip or thigh to create separation for hip movement. The sequence matters because without neck protection you can be finished, without the elbow base you can't generate escape movement, and without the hip frame you can't create the space needed to extract your hooked leg.",
         "answer_line": "Neck first, then elbow, then hip",
         "distractors": {
@@ -567,7 +567,7 @@
         }
       },
       {
-        "question": "When your opponent advances their hook deeper toward truck position, what is your best defensive response?",
+        "question": "Your opponent deepens their hook toward the truck: what is your best defensive response?",
         "answer": "Immediately post your far hand on the mat and hip escape toward the direction your opponent is pulling. This counteracts their rotation rather than fighting it directly. Simultaneously use your near hand to grip their hooking ankle and push it away from your body while extending your hooked leg. The combination of hip escape movement and active leg extraction is more effective than pure static resistance. If they've already achieved significant hook depth, consider transitioning to turtle as an intermediate position rather than trying to fully extract the leg.",
         "answer_line": "Hip escape, strip hooking ankle",
         "distractors": {
@@ -595,7 +595,7 @@
         }
       },
       {
-        "question": "Your escape attempt partially succeeds but opponent still has upper body control - how do you complete the recovery?",
+        "question": "Your escape is partial but they keep upper body control: how do you complete the recovery?",
         "answer": "If you've freed the hook but they maintain seatbelt, immediately rotate to face them while keeping your chin protected and elbows tight. Work to establish inside position with your arms - underhooks or frames against their biceps. Your priority is getting your hips facing them before they can re-establish the hook. If you've broken the seatbelt but they still have the hook, control their hooking ankle with both hands if needed and use it as a pivot point to rotate your body out. Never stop moving during this critical transition phase or they'll reconsolidate control.",
         "answer_line": "Rotate to face, frame the biceps",
         "distractors": {
@@ -861,7 +861,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines the Russian Cowboy and separates it from standard back control?",
+      "question": "What structure defines Russian Cowboy and separates it from standard back control?",
       "answer": "Russian Cowboy is an asymmetric back-control variant defined by a single deep leg hook threaded under the opponent's near-side leg rather than the two-hook symmetric seat of standard back mount. The hooking foot rides across the inner thigh toward the groin, giving rotational leverage on that hip while the free leg posts or drapes for base. This one-in/one-out structure biases control diagonally toward the hooked side instead of the balanced pinch of both hooks in. That asymmetry is what makes the position a live bridge between back control and the truck, since only one more leg needs to be threaded to complete a truck entanglement.",
       "answer_line": "One deep hook, not two hooks",
       "distractors": {
@@ -875,7 +875,7 @@
       }
     },
     {
-      "question": "Why does the single deep leg hook function as the position's primary control mechanism rather than a mere secondary attachment?",
+      "question": "Why is the single deep hook Russian Cowboy's primary control, not a secondary attachment?",
       "answer": "The hook is threaded under the near leg and levered across the inner thigh, so it converts the leg into a lever that controls the opponent's hip line and spine rotation. Because it acts on the hip rather than just the ankle, it stretches the opponent's near side and resists their attempt to square their hips back to neutral or turn toward guard. This rotational anchor is what pins the bottom player onto their side with shoulders off the mat, the defining posture of the exchange. A hook that only catches the ankle or shin loses this hip-level leverage and lets the configuration collapse back toward loose turtle.",
       "answer_line": "Levers hip, not just the ankle",
       "distractors": {
@@ -903,7 +903,7 @@
       }
     },
     {
-      "question": "How does Russian Cowboy differ mechanically from the truck, and why is the boundary between them so fluid?",
+      "question": "How does Russian Cowboy differ mechanically from the truck, and why is the boundary fluid?",
       "answer": "In the truck both of the opponent's legs are entangled and the controlling player is typically underneath, controlling the lower body for twister and calf-slicer angles, whereas Russian Cowboy keeps only one leg hooked while riding the back with chest-to-back contact from above. The shared element is that single threaded leg, so any rotation that lets the second leg be threaded converts Russian Cowboy directly into the truck. This is why the two positions blur together during scrambles and why a roll often decides which of the two results. The distinction is essentially one leg controlled and riding versus two legs entangled and inverted.",
       "answer_line": "One leg riding vs two entangled",
       "distractors": {
@@ -945,7 +945,7 @@
       }
     },
     {
-      "question": "How is defensive tension distributed across the opponent's body in Russian Cowboy, and why does that asymmetry create mechanical pressure?",
+      "question": "How does Russian Cowboy split the opponent's defense, and why does that asymmetry pressure them?",
       "answer": "The hook loads one hip and the seatbelt loads the opposite shoulder, so the opponent's defensive resources are split diagonally and cannot be concentrated in one place. This uneven, stretched distribution keeps the base broken and prevents the bottom player from stacking their frames on a single threat. Unlike symmetric back control where both hooks pinch evenly and the opponent can center their defense, the asymmetry forces them to choose which end to prioritize while the other end advances. That inability to defend both the rotated hip and the controlled shoulder at once is the core reason the configuration generates so much offensive pressure.",
       "answer_line": "Splits defense: hip and shoulder",
       "distractors": {
@@ -959,7 +959,7 @@
       }
     },
     {
-      "question": "What relationship does Russian Cowboy hold to the crab ride, and how do their hook configurations differ?",
+      "question": "How does Russian Cowboy relate to the crab ride, and how do their hooks differ?",
       "answer": "Both are single-oriented back-control variants that ride the opponent from behind and feed into truck and twister pathways, but they differ in how the leg is engaged. Russian Cowboy threads one hook deep under the near leg and levers across the inner thigh to control the hip from the side, while the crab ride rides from a higher, more elevated seat with a different hook orientation on the opponent's lower body. Both trade the balanced stability of two-in back control for rotational leverage on the lower body and quicker access to leg entanglements. Recognizing which hook configuration is established tells both players which transitions and escape directions are live.",
       "answer_line": "Same family, different hook angle",
       "distractors": {

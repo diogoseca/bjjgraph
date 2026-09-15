@@ -98,7 +98,7 @@ description: "How to execute Sit to Half Guard in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent follows your sit and begins inserting hooks for back control - what adjustment do you make?",
+      "name": "Sitting out of the buggy choke, they start inserting hooks: what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accelerate your hip escape away from opponent while prioritizing facing them over protecting your back. Turn aggressively toward opponent, insert knee shield, and accept that brief back exposure is preferable to allowing hook establishment. Speed and commitment defeat the back take attempt."

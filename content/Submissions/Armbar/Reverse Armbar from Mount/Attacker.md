@@ -70,7 +70,7 @@ description: "How to execute Reverse Armbar in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical safety consideration when applying extension pressure in the reverse armbar?",
+      "name": "What is the key safety rule for applying extension pressure in the reverse armbar from mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Never apply extension pressure while still rotating or before completely securing the reversed position. The extension must be slow and progressive (3-5 seconds minimum) and only applied after the 180-degree rotation is complete and legs are repositioned. Applying pressure during rotation creates unpredictable angles that can cause serious ligament damage to the elbow."
@@ -78,7 +78,7 @@ description: "How to execute Reverse Armbar in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "During the rotation phase, you feel your opponent's arm starting to separate from your chest - what immediate adjustment do you make?",
+      "name": "During the rotation their arm starts separating from your chest—what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately stop the rotation and re-secure the arm pin before continuing. Pull their tricep tighter against your sternum by squeezing your elbows to your sides and drawing their wrist deeper across your chest. The arm pin to chest is the foundational control that prevents escape during the vulnerable rotation phase. Any space between their arm and your chest allows them to bend their elbow or pull free. Only resume rotation once you have confirmed zero daylight between their arm and your torso, as forcing through a compromised pin will lose the submission entirely."

@@ -74,7 +74,7 @@ description: "Complete guide to executing the sit-out escape from BJJ side contr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary mechanical advantage of the sit-out compared to standard shrimping escapes from side control?",
+      "name": "Mechanically, how does the sit-out differ from shrimping escapes from side control bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sit-out generates rotational force around a posted hand pivot point, creating a completely different escape vector than lateral shrimping. While shrimping moves the hips laterally to create space for guard recovery, the sit-out rotates the entire body 180 degrees to face the opponent directly. This rotational movement is harder for the top player to follow because it requires them to change their entire control orientation, whereas they can easily chase lateral shrimps by following hip movement along the same plane."
@@ -82,7 +82,7 @@ description: "Complete guide to executing the sit-out escape from BJJ side contr
     },
     {
       "@type": "Question",
-      "name": "When your opponent maintains a crushing crossface that blocks direct base-building, how should you modify the sit-out entry?",
+      "name": "A crushing crossface blocks base-building: how do you modify the sit-out entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the peek-out variation by first clearing your head underneath the opponent's near arm. Create an initial frame with your far arm against their hip, bridge explosively to create momentary space, then slide your head under their crossface arm. Once your head is clear of the obstruction, you can build base without the crossface blocking your movement. The bridge timing is critical and must be sharp enough to create the space for head clearance before the opponent can re-settle their weight."
@@ -98,7 +98,7 @@ description: "Complete guide to executing the sit-out escape from BJJ side contr
     },
     {
       "@type": "Question",
-      "name": "Your posted hand collapses during the rotation phase of the sit-out - what went wrong and how do you correct it?",
+      "name": "Your posted hand collapses mid sit-out rotation: what went wrong and how do you fix it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The post likely failed because the hand was placed too close to the body, positioned too far underneath the shoulder, or the wrist was not locked firm. The correction is to plant the hand slightly forward and outside shoulder width with a straight locked wrist and fingers pointing away from the opponent. The arm should have a slight bend to absorb force without collapsing. Additionally, driving off the far foot too aggressively without sufficient post structural strength creates the collapse. Build post strength through specific drilling before attempting at full speed."
@@ -106,7 +106,7 @@ description: "Complete guide to executing the sit-out escape from BJJ side contr
     },
     {
       "@type": "Question",
-      "name": "What are the grip and frame requirements before initiating the sit-out motion from side control bottom?",
+      "name": "What grips or frames do you need before starting a sit-out from side control bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You do not need traditional grappling grips to execute the sit-out. Instead you need structural frames. Your near-side forearm should create space against the opponent's hip or ribcage, and your far hand should control their crossface arm or post against their head. The critical requirement is that your frames have created enough separation at the hips to insert a knee and begin building a turtle-like base. Once in the base position, your hands transition from defensive frames to the posting configuration needed for the sit-out pivot."
@@ -114,7 +114,7 @@ description: "Complete guide to executing the sit-out escape from BJJ side contr
     },
     {
       "@type": "Question",
-      "name": "During the sit-out rotation, the opponent circles toward your back and begins establishing hooks - what is your immediate response?",
+      "name": "Mid sit-out they circle to your back and start inserting hooks: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accelerate the rotation to complete the sit-out before hooks can be fully secured. If the near hook is partially inserted, immediately sit your hips to the mat on the opposite side and turn to face them while using your hands to fight the hook out. If both hooks begin entering, abandon the sit-out and address the back control threat by getting your shoulders to the mat and fighting the seatbelt grip. The worst outcome is a half-completed sit-out where you are in unstable turtle with hooks partially established. Commit fully in one direction."

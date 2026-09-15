@@ -1,6 +1,6 @@
 {
   "name": "Roger Gracie Fundamental System",
-  "description": "Master Roger Gracie's fundamental system: positional dominance through precise technique. Learn the methodical approach that defined a champion's game.",
+  "description": "A focused closed-guard companion covering Roger’s arm attacks, cross choke and sweeping options. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -13,8 +13,8 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
-  "summary": "The Roger Gracie Fundamental System is a gi-based, position-first framework that wins by chaining flawless basics — methodical guard passing to mount to the cross collar choke — executed so precisely opponents cannot escape even knowing what is coming.",
-  "overview": "Roger Gracie is widely regarded as the greatest gi competitor in BJJ history, winning ten World Championships largely by submitting elite opponents with the most basic techniques in the art. His approach rejects flashy or exotic moves in favor of high-percentage fundamentals drilled to absolute perfection, proving that depth of mastery in a small number of techniques outperforms breadth of technical knowledge. The method centers on achieving dominant positions through methodical advancement, maintaining overwhelming control, and finishing with basic submissions executed so cleanly that opponents cannot escape despite knowing exactly what is coming.\n\nAt its core, the system follows the classical positional hierarchy religiously: guard pass to side control, side control to mount, mount to submission. Roger's implementation proved so dominant that he tapped multiple world champions with techniques they had defended thousands of times before. The edge lies not in the techniques themselves but in precision of execution — timing, pressure application, leverage, and grip optimization developed through countless hours of deliberate practice. Every movement serves a purpose, every grip is optimized, and every position transition follows mechanical principles that maximize efficiency while minimizing risk.",
+  "summary": "This guide explores a fundamentals-led game built around posture, positional control and connected attacks.",
+  "overview": "This guide explores a fundamentals-led game built around posture, positional control and connected attacks. Roger’s closed-guard instructional is a focused companion for the bottom-game portion; the wider system also includes passing and top control.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Perfect execution of fundamental techniques beats complex advanced techniques performed poorly",
     "Positional dominance must be established and maintained before attempting submissions",
@@ -459,6 +459,21 @@
           "Chase the escape, abandon base"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "the-roger-gracie-closed-guard-system-by-roger-gracie",
+      "title": "The Roger Gracie Closed Guard System",
+      "instructor": "Roger Gracie",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "A focused closed-guard companion covering Roger’s arm attacks, cross choke and sweeping options.",
+      "best_for": "Gi students developing closed-guard offense. It covers one part of a wider fundamentals game.",
+      "study_focus": "Compare the closed-guard attacks and sweep choices with the posture reactions you encounter in training.",
+      "practice_tip": "Start in closed guard and work on breaking posture. Choose one attack and one follow-up when your partner restores their base."
     }
   ]
 }

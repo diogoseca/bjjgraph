@@ -56,7 +56,7 @@ description: "Learn to defend and counter the back control to cross body ride tr
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning to cross body ride rather than simply adjusting hooks?",
+      "name": "What earliest cue tells you they're taking a cross body ride rather than just adjusting hooks?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the opponent's hips begin rotating laterally while their chest pressure remains constant or increases on your back. A hook adjustment feels like the opponent's legs momentarily disengage and re-engage from the same direction. A cross body ride transition feels like the opponent's lower body is swinging to one side while their upper body stays pinned to your back. The harness grip also typically tightens noticeably as they prepare for the rotational shift."
@@ -64,7 +64,7 @@ description: "Learn to defend and counter the back control to cross body ride tr
     },
     {
       "@type": "Question",
-      "name": "Why is the transition moment the optimal escape window rather than waiting until cross body ride is established?",
+      "name": "Why escape during the shift to cross body ride rather than after it's established?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the opponent's base is temporarily compromised because they are between two stable positions. Their hooks are disengaged, their hips are moving, and their weight distribution is shifting from behind to beside you. This creates approximately a one to two second window where their ability to follow your defensive movement is reduced. Once cross body ride is fully established with chest pressure, near-side knee, and far-side base, the three control points create a stable tripod that is dramatically harder to disrupt."
@@ -72,7 +72,7 @@ description: "Learn to defend and counter the back control to cross body ride tr
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the transition and is now in full cross body ride. What is your defensive priority sequence?",
+      "name": "Your opponent has full cross body ride—what is your first defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First priority is protecting your neck and near-side arm by keeping your chin tucked and elbows tight to your ribs. Second priority is preventing the opponent from flattening you by maintaining knee elevation and hip mobility. Third priority is creating movement through small hip adjustments that prevent the opponent from settling their weight. Fourth priority is chaining escape attempts using sit-outs, hip escapes, and granby rolls in combination rather than committing to single efforts. Accept that escape from consolidated cross body ride requires patience and chained attempts rather than a single explosive movement."
@@ -80,7 +80,7 @@ description: "Learn to defend and counter the back control to cross body ride tr
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defense if the opponent transitions to cross body ride from your left side versus your right side?",
+      "name": "How does your cross body ride defense change depending on which side they arrive from?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The defensive principles remain the same regardless of side, but the direction of your escape attempts must match the side of the transition. Your sit-out should be directed toward the same side the opponent is arriving from, as this turns you to face them before they consolidate. Your hip escape should be directed away from their arriving knee to create maximum separation. The near-side arm on the side they are arriving from is the arm most at risk for isolation, so prioritize tucking that elbow even more tightly than the far arm."

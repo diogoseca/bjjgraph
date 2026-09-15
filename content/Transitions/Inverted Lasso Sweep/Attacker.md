@@ -106,7 +106,7 @@ description: "Master the attacker perspective for the Inverted Lasso Sweep. Step
     },
     {
       "@type": "Question",
-      "name": "What grip adjustments should you make if the opponent actively fights your sleeve control during setup?",
+      "name": "In the inverted lasso sweep setup, how do you adjust when they fight your sleeve grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent actively fights the sleeve grip, first reinforce it with a temporary two-on-one grip to break their resistance, then re-establish single-hand control. If the grip breaks entirely, you must either immediately re-grip before they extract the lassoed arm or transition to an alternative attack that does not require the sleeve connection, such as a triangle entry using the lasso hook to control their posture. Never attempt the sweep without the sleeve grip secured, as the pulling connection is essential for generating the rotational force that powers the overhead trajectory."

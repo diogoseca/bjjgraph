@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "After your opponent partially escapes but you maintain some grip control, how do you recover full position?",
+        "question": "Toe hold: they partially escape but you keep some grip — how do you recover position?",
         "answer": "Do not attempt to re-establish the exact same position from weakened control. Instead, transition systematically through the leg lock hierarchy - if they've created distance, pursue outside ashi entry. If they've straightened their leg, transition to kneebar. Use their partial escape to enter a fresh attacking position rather than fighting to rebuild the degraded toe hold control.",
         "answer_line": "Enter fresh attack, don't rebuild",
         "distractors": {
@@ -686,7 +686,7 @@
         }
       },
       {
-        "question": "Your opponent begins applying rotational pressure to your ankle - what are the warning signs you should tap?",
+        "question": "They apply rotational pressure to your ankle in a toe hold — when should you tap?",
         "answer": "Tap immediately when you feel significant rotational stress on the ankle joint with no escape available, when the knee begins to torque in an unnatural direction, or when grip breaking attempts are failing against locked submission mechanics. With toe holds, the injury timeline is extremely short - ligament damage can occur within fractions of a second once the breaking mechanics are applied. Career longevity is more valuable than any single training round.",
         "answer_line": "Tap at first ankle rotation stress",
         "distractors": {
@@ -728,7 +728,7 @@
         }
       },
       {
-        "question": "Your opponent loosens their grip momentarily to transition to heel hook - what opportunity does this create?",
+        "question": "They loosen the toe hold grip to switch to a heel hook — what does that open for you?",
         "answer": "This grip transition creates a critical window for escape. Use this moment to establish inside position on their leg through inside ashi entry, or immediately work guard replacement to open guard. The grip loosening during transitions is often the best escape opportunity you'll get - recognize and exploit it immediately rather than waiting for them to settle into a new control position.",
         "answer_line": "Exploit the gap - inside ashi entry",
         "distractors": {
@@ -914,7 +914,7 @@
       }
     },
     {
-      "question": "How does control of the knee line govern the amount of rotational leverage available in this position?",
+      "question": "How does knee-line control govern rotational leverage in toe hold control?",
       "answer": "The ankle can only be torqued effectively when the knee is pinned so the lower leg cannot follow the foot's rotation and dissipate the force. Whoever controls the knee line, typically through hip and chest positioning against the thigh, determines whether foot rotation loads the ankle joint or simply spins the whole leg harmlessly. When the knee is free to rotate with the foot, the submission leverage evaporates; when the knee is trapped, the foot becomes a lever against a fixed point. This is why the contest over the position is really a contest over knee-line control, not just the foot grip itself.",
       "answer_line": "Pinned knee makes foot a lever",
       "distractors": {
@@ -984,7 +984,7 @@
       }
     },
     {
-      "question": "Why is control considered a prerequisite to the finish rather than something applied simultaneously in this position?",
+      "question": "Why must toe hold control be complete before the finish rather than applied at the same time?",
       "answer": "The rotational break happens over a very short window, so if the foot grip, knee line, and body angle are not already locked when rotation begins, the opponent can spin the knee or extract the leg the instant they feel pressure. Applying torque before control is established simply telegraphs the threat and triggers a defensive scramble. Both players understand the position as a sequence in which control must be absolute first, because a premature finish attempt usually surrenders the position entirely. This control-before-submission logic is the defining tempo of the position and the reason it doubles as a positional hub rather than a pure finishing move.",
       "answer_line": "Lock control fully before rotating",
       "distractors": {

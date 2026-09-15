@@ -52,7 +52,7 @@ description: "How to defend against the kneebar from Saddle in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to tap immediately when kneebar finishing pressure begins from the Saddle rather than attempting a late escape?",
+      "name": "Why tap immediately once kneebar pressure starts from Saddle rather than attempting a late escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Saddle provides structural control that prevents the defender from easily relieving hyperextension pressure through positional movement, unlike kneebars from less controlled positions. The knee joint has minimal tolerance for hyperextension, and the transition from controlled pressure to catastrophic ligament damage can occur in less than one second. The Saddle's perpendicular alignment and leg entanglement mean the attacker can generate significant finishing force with minimal effort. Attempting explosive escapes under finishing pressure adds dangerous rotational forces that compound the injury risk, potentially causing multi-ligament damage requiring multiple surgeries and over 12 months of rehabilitation. The cost of tapping is restarting the roll; the cost of a late escape is potentially career-ending."
@@ -60,7 +60,7 @@ description: "How to defend against the kneebar from Saddle in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is transitioning from heel hook to kneebar from the Saddle?",
+      "name": "What is the earliest cue the attacker is switching from heel hook to kneebar in the Saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the opponent release their heel hook grip configuration and move both hands toward your ankle and lower shin area. This grip transition is the defining moment that distinguishes a kneebar attempt from a heel hook attempt. You may also feel them adjusting your leg position by scooting their hips or pulling your lower leg to center your knee above their hip crease. Acting in this grip transition window provides the highest probability of successful defense because the opponent's hand control is momentarily weakened while they switch between grip configurations, and their Saddle legs alone are holding you in position."
@@ -68,7 +68,7 @@ description: "How to defend against the kneebar from Saddle in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why should you drive your body toward the opponent rather than pulling your leg away when defending the kneebar from Saddle?",
+      "name": "Why drive toward the attacker rather than pull your leg away when defending the Saddle kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kneebar's mechanical leverage requires distance between the attacker's hip crease fulcrum and your ankle. Pulling away increases this distance, strengthening the lever arm and actually making the hyperextension worse by driving your ankle deeper into their grip. Moving toward the opponent collapses the distance between the fulcrum and your body, reducing the lever arm to near zero and neutralizing the hyperextension mechanics. Additionally, closing distance allows you to reach their hands for grip fighting and positions your body where your knee can bend more easily, both of which contribute to defending the finish."
@@ -76,7 +76,7 @@ description: "How to defend against the kneebar from Saddle in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "How do you manage the submission dilemma between heel hook and kneebar defense when trapped in the Saddle?",
+      "name": "How do you handle the heel hook versus kneebar dilemma when trapped in the Saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key is maintaining a moderate defensive posture that addresses both threats simultaneously rather than fully committing to defending one. Keep a moderate knee bend that prevents full hyperextension for the kneebar while keeping the heel partially hidden from heel hook access. Use grip fighting to address whichever attack the opponent is currently loading. When they transition grips between attacks, use that transition window for escape attempts rather than trying to perfect defense against the currently loaded submission. Accept that you cannot fully prevent both attacks simultaneously, and focus on survival and incremental escape progress rather than complete defensive shutdown."
@@ -84,7 +84,7 @@ description: "How to defend against the kneebar from Saddle in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why is attempting an explosive rotational escape the most dangerous defensive error when a kneebar finish is being applied from Saddle?",
+      "name": "Why is an explosive rotational escape the worst error under a kneebar finish from Saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive rotation while the knee is under hyperextension pressure adds torque in a plane the knee joint is not designed to withstand. The knee primarily moves in flexion and extension, and adding rotational force under hyperextension load simultaneously attacks the anterior cruciate ligament in addition to the posterior cruciate ligament already under stress. This compound loading mechanism can cause simultaneous multi-ligament injury, which is catastrophically worse than a single-ligament tear and often requires multiple reconstructive surgeries, 12 or more months of rehabilitation, and may result in permanent joint instability. The Saddle's structural control makes this error especially dangerous because the entanglement amplifies rotational forces rather than allowing them to dissipate."

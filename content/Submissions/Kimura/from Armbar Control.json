@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "Your opponent clasps their hands together to block the kimura rotation - what is your immediate adjustment?",
+        "question": "They clasp their hands to block the kimura rotation — what is your immediate adjustment?",
         "answer": "Wedge your top hand between their clasped hands and lever them apart using a peeling motion. If the grip is too strong, maintain your figure-four and use your legs to apply sustained downward pressure on their head while keeping rotational tension on the shoulder. Their grip will fatigue before your positional control does. You can also switch back to armbar if they straighten their arm to re-clasp.",
         "safety_critical": false,
         "answer_line": "Wedge hand, peel grip apart",
@@ -321,7 +321,7 @@
         }
       },
       {
-        "question": "What is the critical mechanical difference between finishing an armbar and finishing a kimura from the same armbar control position?",
+        "question": "Mechanically, how does finishing a kimura differ from an armbar from armbar control?",
         "answer": "The armbar uses linear extension force through hip elevation against a straightened elbow joint, with the fulcrum at the elbow. The kimura uses rotational force through internal rotation of a bent arm, driving the wrist toward the lower back, with the fulcrum at the shoulder. The armbar requires arm straightness while the kimura requires arm bend. Both use hip-to-shoulder proximity but the force vector changes from vertical extension to rotation of the shoulder.",
         "safety_critical": false,
         "answer_line": "Rotation vs linear extension",
@@ -396,7 +396,7 @@
         }
       },
       {
-        "question": "Your opponent begins straightening their arm while you already have the figure-four grip secured - what adjustment do you make?",
+        "question": "They straighten the arm after you've locked the figure-four — what adjustment do you make?",
         "answer": "If the arm straightens while you hold the figure-four, you have two immediate options. First, if the arm is nearly straight, release the figure-four and immediately transition back to the standard armbar finish by pulling the wrist to your chest and elevating hips. Second, if the arm is partially bent, maintain the figure-four and use it to re-bend the arm by pulling their wrist toward their shoulder, then continue the kimura rotation once bend is re-established.",
         "safety_critical": false,
         "answer_line": "Switch to armbar if straight",
@@ -411,7 +411,7 @@
         }
       },
       {
-        "question": "What indicates you have reached the point of no escape when finishing the Kimura from Armbar Control?",
+        "question": "What tells you the Kimura from Armbar Control has passed the point of no escape?",
         "answer": "The point of no escape is reached when three conditions align simultaneously: the opponent's elbow is pinned firmly against your chest creating an immovable fulcrum, your hips are anchored tight against their shoulder preventing any forward escape, and the internal rotation has moved their forearm past the plane of their own torso. Once the forearm passes behind the line of their back, the rotational leverage becomes mechanically impossible to resist through strength alone.",
         "safety_critical": false,
         "answer_line": "Elbow pinned, forearm past torso",
@@ -426,7 +426,7 @@
         }
       },
       {
-        "question": "How does the Kimura from Armbar Control differ strategically from a Kimura applied from side control or mount?",
+        "question": "How does the Kimura from Armbar Control differ strategically from side control or mount?",
         "answer": "From armbar control, the kimura benefits from pre-existing arm isolation and leg control over the upper body that other positions must establish separately. The legs prevent sitting up without needing cross-face or underhook control. The hip-to-shoulder proximity is already established. However, the trade-off is that the attacker's base is less stable than in side control or mount, making the position more vulnerable to rolling counters and bridge escapes. The grip transition window is also narrow since the opponent may straighten their arm at any point.",
         "safety_critical": false,
         "answer_line": "Less stable base, arm pre-isolated",

@@ -90,7 +90,7 @@ description: "Defend against the Kimura from flattened half guard. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How should you use the grip clasp defense to create positional improvement rather than just stalling?",
+      "name": "As defender, how do you turn the Kimura grip clasp into positional improvement, not stalling?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The grip clasp buys time but is not a permanent solution — the attacker will eventually break it through leverage. Use the stalling window to begin hip escaping toward your trapped leg side, incrementally creating the space needed to re-establish your knee shield or elbow frame. Each small hip movement compounds while your grip holds the rotation at bay. The objective is to convert defensive time into positional recovery so that when the grip eventually breaks, you have already improved your position enough to prevent the finish."

@@ -76,7 +76,7 @@ description: "How to execute Estima Lock to Saddle in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins counter-rotating their ankle during your Estima Lock attempt—what specific signals tell you to initiate the backstep?",
+      "name": "Your opponent counter-rotates their ankle in the Estima Lock: what signals it's time to backstep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key signals include: diminished pressure on the ankle despite maintaining your grip, the opponent's foot beginning to point away from the lock angle, their hips starting to create space, or their free leg establishing frames. These indicators show their defense is succeeding and continuing the Estima Lock yields diminishing returns while the leg entanglement structure remains exploitable through transition."

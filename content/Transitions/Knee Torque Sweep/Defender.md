@@ -56,7 +56,7 @@ description: "Defend against the Knee Torque Sweep from half guard top. Recognit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest visual cue that your opponent is setting up a knee torque sweep from half guard bottom?",
+      "name": "What is the earliest cue that they are setting up a knee torque sweep from half guard bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent repositioning their legs from standard half guard hooks into a scissors-like configuration around your trapped knee, with one leg moving behind and one in front of the knee joint. This is typically accompanied by the opponent turning sharply onto their side and fighting aggressively for the underhook, signaling they are creating the structural foundation needed for the rotational sweep."

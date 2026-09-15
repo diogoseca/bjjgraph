@@ -46,7 +46,7 @@
       "relationship": "Transition option when opponent creates space while shrimping"
     },
     {
-      "name": "Kuzure Kesa-Gatame",
+      "name": "Kuzure Kesa Gatame",
       "relationship": "Alternative pressure position with similar control objectives"
     },
     {
@@ -615,7 +615,7 @@
         }
       },
       {
-        "question": "Your opponent shifts weight toward your head to increase pressure - what escape opportunity does this create?",
+        "question": "Under the Shoulder of Justice, they shift weight toward your head: what escape does this open?",
         "answer": "When opponent shifts weight toward your head, their hips become lighter on your hip line, creating a potential bridge and roll opportunity. Their forward weight shift also makes them vulnerable if you can time a coordinated bridge that disrupts their base. Additionally, you may be able to sneak your hips out toward your feet for a technical stand-up attempt if you can create the initial angle.",
         "answer_line": "Bridge and roll, hips light",
         "distractors": {
@@ -933,7 +933,7 @@
       }
     },
     {
-      "question": "How does connecting the top hips to the opponent's near hip line define this position's control dynamic?",
+      "question": "In the Shoulder of Justice, how does tying your hips to their near hip define control?",
       "answer": "The hip connection blocks the bottom player's primary escape vector, which is shrimping the hips away to create the space needed for guard recovery. It also transfers the top player's body weight through their center of mass into the shoulder contact point, producing unified whole-body pressure rather than isolated upper-body pressing. When the hips disconnect or rise, the bottom player can immediately shrimp underneath and begin recovering guard. The low, heavy hip tie is therefore as load-bearing to the position as the shoulder contact itself.",
       "answer_line": "Blocks shrimp, unifies pressure",
       "distractors": {
@@ -1003,7 +1003,7 @@
       }
     },
     {
-      "question": "What shared dynamic makes this a low-sustainability position for the bottom player and a time-limited one for the top player?",
+      "question": "Why is the Shoulder of Justice unsustainable for the bottom player and time-limited on top?",
       "answer": "For the bottom player, the concentrated jaw pressure creates constant physical misery and a psychological push to make reactive movements, so tolerance and defensive structure erode quickly. For the top player, holding a single-point pressure vector demands continuous micro-adjustment as the head repositions, and pressing with muscle rather than skeletal weight burns energy fast. The result is a mutual clock: the bottom player is racing to relieve pressure before making an error, while the top player is racing to convert reactions into a submission or advancement before fatigue sets in. Neither side is meant to hold the static position indefinitely, which is why it functions as a launching point rather than a resting pin.",
       "answer_line": "Mutual clock: pain vs fatigue",
       "distractors": {

@@ -287,7 +287,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the two primary pressure points that create the Von Flue choke, and why is the opponent's own arm critical to the technique?",
+        "question": "What two pressure points create the Von Flue choke, and why is their own arm essential?",
         "answer": "The two primary pressure points are: 1) Your shoulder driving into one side of their neck to compress one carotid artery, and 2) Their own arm (from the guillotine grip) which crosses their neck and compresses the opposite carotid artery. The opponent's arm is critical because it creates half of the choke for you—without their guillotine grip, the shoulder pressure alone would be insufficient. This is why the technique works as a counter-submission: their offensive weapon becomes the instrument of their own defeat.",
         "safety_critical": false,
         "answer_line": "Shoulder + their own guillotine arm",
@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "Why must you apply the Von Flue choke progressively over 3-5 seconds rather than with sudden pressure, and what are the safety consequences of rushing the application?",
+        "question": "Why apply the Von Flue over 3-5 seconds, and what is the risk of sudden pressure?",
         "answer": "Progressive application over 3-5 seconds is critical for safety because it gives your training partner time to recognize the danger and tap before losing consciousness. Blood chokes can cause unconsciousness in as little as 5-7 seconds once properly applied, but the onset can be sudden. If you apply explosive pressure, your partner may lose consciousness before they can tap, leading to potential brain injury from oxygen deprivation. The gradual application allows them to feel the pressure building and make the decision to tap or release their grip before reaching the point of no return. This is a fundamental safety principle for all training with blood chokes.",
         "safety_critical": true,
         "answer_line": "Gives partner time to tap safely",
@@ -317,7 +317,7 @@
         }
       },
       {
-        "question": "What is the correct action to take the moment your opponent releases their guillotine grip during a Von Flue choke attempt?",
+        "question": "The moment they release their guillotine grip during your Von Flue, what should you do?",
         "answer": "The moment your opponent releases their guillotine grip, you must immediately remove all shoulder pressure from their neck and consolidate your side control position. Continuing to apply pressure after they've released their grip is both unnecessary and dangerous—the submission is complete when they let go of their offensive grip. Your goal was to force them to release the guillotine, and once achieved, the technique is finished. Continuing to apply pressure would be applying a choke to a defenseless opponent, which violates safety principles and good training partnership.",
         "safety_critical": true,
         "answer_line": "Ease off neck, secure side control",
@@ -332,7 +332,7 @@
         }
       },
       {
-        "question": "How does walking your hips toward the opponent's head improve the Von Flue choke's effectiveness, and what defensive option does it remove?",
+        "question": "How does walking your hips toward their head improve the Von Flue, and what escape does it remove?",
         "answer": "Walking your hips toward the opponent's head creates a more acute angle between your body and theirs, which increases the downward and forward pressure of your shoulder into their neck. This improved angle makes the carotid compression more direct and effective. Additionally, this hip position removes the opponent's ability to use their legs to push your hips away and create distance—their primary escape mechanism from side control. With your hips high and close to their head, they lose the leverage needed to bridge or push effectively, trapping them in the submission.",
         "safety_critical": false,
         "answer_line": "Sharper angle, removes leg push",
@@ -347,7 +347,7 @@
         }
       },
       {
-        "question": "Why is shoulder placement on the neck (not the jaw) critical for the Von Flue choke to function properly?",
+        "question": "Why must the shoulder sit on the neck rather than the jaw for the Von Flue to work?",
         "answer": "The shoulder must be placed on the soft tissue of the neck, lateral to the trachea and below the jawline, because this is where the carotid artery runs. Pressure on the jaw or chin creates pain and discomfort but does not compress the carotid artery, meaning no blood choke occurs. The Von Flue is a blood choke (cutting off blood flow to the brain), not an air choke (cutting off breathing), so proper targeting of the carotid is essential. If your shoulder is on the jaw, the opponent will feel pain but can survive indefinitely, whereas proper neck placement creates a true choke that will cause unconsciousness within seconds.",
         "safety_critical": false,
         "answer_line": "Jaw doesn't compress the carotid",
@@ -362,7 +362,7 @@
         }
       },
       {
-        "question": "What are at least three valid tap signals a partner might use when caught in a Von Flue choke, and why is recognizing these signals especially important for this submission?",
+        "question": "What tap signals might a partner use in a Von Flue, and why does recognizing them matter here?",
         "answer": "Valid tap signals include: 1) Verbal tap (calling out 'tap' or making verbal distress sounds), 2) Physical hand tap on your body or the mat, 3) Physical foot tap on the mat, 4) Releasing the guillotine grip immediately, and 5) Body going limp (indicating unconsciousness). Recognizing these signals is especially important for the Von Flue because the opponent's arms may be trapped in their own guillotine grip, limiting their ability to tap with their hands. Verbal taps become particularly important, as does watching for their grip to loosen (which often indicates impending unconsciousness). You must be hypersensitive to any indication they want to tap, including changes in their breathing or grip pressure.",
         "safety_critical": true,
         "answer_line": "Verbal or foot tap; arms trapped",
@@ -377,7 +377,7 @@
         }
       },
       {
-        "question": "Your opponent is stubbornly holding their guillotine grip despite your shoulder pressure. What indicators suggest they are approaching unconsciousness, and what should you do?",
+        "question": "They stubbornly hold the guillotine — what signs of impending unconsciousness mean release now?",
         "answer": "Key indicators of impending unconsciousness include: their grip beginning to loosen without them intentionally releasing, their body going slack or limp, changes in their breathing pattern (becoming irregular or stopping), their skin color changing (flushing or becoming pale), and lack of purposeful movement or resistance. If you observe any of these signs, you must immediately release all pressure and check their consciousness. Do not wait for a tap—a stubborn opponent may pass out before they decide to tap. The moment you sense they're approaching unconsciousness, the training round is over regardless of whether they formally surrendered.",
         "safety_critical": true,
         "answer_line": "Grip loosens, body goes slack",
@@ -392,7 +392,7 @@
         }
       },
       {
-        "question": "You've established the Von Flue position but your opponent's legs are actively pushing your hips away. What adjustment secures the finish?",
+        "question": "Their legs push your hips away from the Von Flue position — what adjustment secures the finish?",
         "answer": "When facing leg pressure pushing your hips away, immediately walk your hips higher toward their head in small incremental steps. This accomplishes two things: it increases the downward angle of your shoulder pressure (making the choke tighter) and it removes the leverage their legs have to push you. The higher your hips travel toward their head, the less effective their leg push becomes because they lose the angle needed to generate force. Keep your chest heavy and maintain the crossface throughout this adjustment. If they create significant distance despite this, consider transitioning to mount while keeping shoulder pressure on the neck.",
         "safety_critical": false,
         "answer_line": "Walk hips higher toward their head",
@@ -407,7 +407,7 @@
         }
       },
       {
-        "question": "Why does the Von Flue work specifically against opponents holding a guillotine from bottom position but not against other defensive configurations?",
+        "question": "Why does the Von Flue only work against an opponent holding a guillotine from the bottom?",
         "answer": "The Von Flue only works against opponents holding a guillotine because their own arm creates half of the choking mechanism. When they hold the guillotine grip from bottom, their forearm crosses their own neck, compressing one carotid artery from the inside. Your shoulder then compresses the opposite carotid from the outside. Without their guillotine grip in place, your shoulder pressure alone only compresses one side of the neck, which is insufficient to cause a blood choke. This is why the technique is specifically a counter to the guillotine—it weaponizes their offensive grip against them. Against other defensive positions, this same shoulder pressure would at best be uncomfortable but not create a submission.",
         "safety_critical": false,
         "answer_line": "Their grip supplies half the choke",
@@ -422,7 +422,7 @@
         }
       },
       {
-        "question": "During competition, your opponent is caught in your Von Flue but neither taps nor releases their grip as time expires. What is the correct response?",
+        "question": "Time expires with your Von Flue on and no tap or grip release — what is the correct response?",
         "answer": "You must release the submission immediately when time expires, regardless of how close the finish seemed. In competition, the referee will stop the match and you cannot continue the submission after time. From a safety perspective, your opponent may have been about to go unconscious but time saved them. Never try to hold the submission hoping the referee doesn't notice time has expired. Additionally, this scenario demonstrates why competition finishing requires faster pressure application than training—in competition, you may need to apply firmer pressure within the rules to get the tap before time runs out, while always maintaining control to release instantly when required.",
         "safety_critical": true,
         "answer_line": "Release the instant time expires",
@@ -437,7 +437,7 @@
         }
       },
       {
-        "question": "What crossface grip configuration provides the best control during the Von Flue, and how does it enhance the finishing mechanics?",
+        "question": "Which crossface grip best controls the Von Flue, and how does it improve the finish?",
         "answer": "The optimal crossface configuration has your near arm crossing their face with your hand gripping behind their far shoulder or hooking under their far armpit. This grip serves multiple functions: it locks your shoulder in position against their neck by creating a closed circuit of control, it prevents them from turning their head toward you which would relieve the choke, and it allows you to actively drive additional pressure through your shoulder by pulling with your crossface arm. The elbow should stay tight to their near side to eliminate space. This grip configuration transforms the crossface from passive head control into an active pressure multiplier for the choke.",
         "safety_critical": false,
         "answer_line": "Hand behind far shoulder/armpit",
@@ -452,7 +452,7 @@
         }
       },
       {
-        "question": "Your training partner has been caught in two Von Flue chokes this session and now seems reluctant to attempt guillotines. How should you interpret this and what training adjustment should you make?",
+        "question": "Your partner now avoids guillotines after two Von Flues — how do you read this and adjust training?",
         "answer": "This reluctance demonstrates the secondary strategic value of the Von Flue—it serves as a deterrent that changes opponent behavior. When training partners know you can counter their guillotine with the Von Flue, they become hesitant to hold the grip from bottom position, which actually makes your guard passing easier. However, for their development, you should now give them space to practice guillotines without immediately countering with the Von Flue. Consider alternating rounds where you allow the guillotine to develop so they can work their technique, versus rounds where you apply the counter. Good training partnership means developing both practitioners, not just demonstrating your counters repeatedly.",
         "safety_critical": false,
         "answer_line": "Alternate rounds; let them work it",
@@ -482,7 +482,7 @@
         }
       },
       {
-        "question": "Your opponent has a tight guillotine and you need to pass — which direction do you pass to set up the Von Flue?",
+        "question": "They have a tight guillotine as you pass — which direction do you pass to set up the Von Flue?",
         "answer": "You pass toward the choking arm, not away from it, dropping your near-side shoulder onto the exposed carotid so their wrapping arm completes the strangle. Passing away frees their guillotine and removes the choke entirely.",
         "safety_critical": false,
         "answer_line": "Pass toward the choking arm",
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "As you settle the shoulder, the opponent tries to elevate their hips to finish their guillotine — what prevents them?",
+        "question": "As you settle the Von Flue shoulder, they elevate their hips to finish — what stops them?",
         "answer": "Maintaining a heavy, forward head with your hips back keeps your posture ahead of their elevation, denying the angle they need to finish the guillotine while your shoulder continues sealing their carotid.",
         "safety_critical": false,
         "answer_line": "Heavy forward head, hips back",
@@ -542,7 +542,7 @@
         }
       },
       {
-        "question": "The pressure feels close but not quite enough to finish — what adjustment increases it without losing position?",
+        "question": "The Von Flue is close but not finishing — what adjustment adds pressure without losing position?",
         "answer": "Walk your feet and hips toward the opponent's head to drive your shoulder progressively deeper into the carotid. The Von Flue requires no grip change, so ratcheting with your base is the safest way to add pressure.",
         "safety_critical": false,
         "answer_line": "Walk hips/feet toward their head",
@@ -587,7 +587,7 @@
         }
       },
       {
-        "question": "In a no-gi match an opponent jumps a guillotine from bottom and refuses to let go — how do you turn that defense into a finish?",
+        "question": "No-gi, they jump a guillotine from bottom and won't let go — how do you turn that into a finish?",
         "answer": "Recognize the Von Flue is available, pass toward the choking arm, drop your shoulder onto the exposed carotid, establish chest pressure with a heavy head, and walk your hips in to finish. The threat also deters future deep guillotines.",
         "safety_critical": false,
         "answer_line": "Pass toward arm, seat shoulder",
@@ -728,7 +728,7 @@
     ],
     "flashcards": [
       {
-        "question": "Why does your own guillotine grip become dangerous when your opponent passes to side control, and what is the biomechanical mechanism that creates the Von Flue choke?",
+        "question": "Why does your guillotine grip endanger you once they pass, and how does the Von Flue work?",
         "answer": "When you hold a guillotine from bottom side control, your forearm crosses your own neck and compresses one carotid artery from the inside. Your opponent's shoulder then compresses the opposite carotid from the outside. Together, these two pressure points create a bilateral blood choke—your grip provides half the mechanism while their shoulder provides the other half. From inside your guard, the guillotine attacks their neck. But once they pass to side control, the same grip geometry now attacks your own neck because their shoulder can drive into the exposed side while your arm handles the other side. The positional change transforms your offensive weapon into a self-inflicted vulnerability.",
         "safety_critical": true,
         "answer_line": "Your own arm seals one carotid",
@@ -743,7 +743,7 @@
         }
       },
       {
-        "question": "At what specific moment during a guard pass should you release your guillotine grip to avoid Von Flue danger, and what are the consequences of releasing too late?",
+        "question": "When exactly should you release your guillotine during their pass, and what if you release too late?",
         "answer": "You should release the guillotine grip the moment your opponent's hips clear your legs and they begin establishing side control—when their chest starts dropping perpendicular to your torso and your guard retention has failed. Releasing too late means their shoulder is already positioned on your neck with their weight committed, and the choke may already be partially locked. At that point, simply releasing the grip may not be enough because the shoulder pressure has already compressed one carotid, and you now need to actively escape the side control pressure as well. The earlier you release, the more time and energy you have for defensive framing before they can set up the Von Flue.",
         "safety_critical": true,
         "answer_line": "The moment their hips clear guard",
@@ -758,7 +758,7 @@
         }
       },
       {
-        "question": "You are holding a guillotine and feel your opponent beginning to pass your guard. Your guillotine feels tight and you believe you might still finish. How do you evaluate whether to hold or release?",
+        "question": "Your guillotine feels tight as they start passing — how do you decide whether to hold or release?",
         "answer": "Evaluate based on three factors: 1) Are their hips still inside your guard or have they cleared to the side? If inside, the guillotine is still viable. If cleared, release immediately. 2) Is their head being pulled down into the choke, or are they posturing up and driving past you? If they're sinking, hold. If they're passing, release. 3) Can you feel their shoulder making contact with your neck? If yes, the Von Flue is already being set up and you must release immediately regardless of how tight your grip feels. The critical insight is that a tight guillotine grip from bottom side control hurts you, not them—the tighter you squeeze, the more you compress your own carotid against your forearm.",
         "safety_critical": false,
         "answer_line": "Hips still inside guard = hold",
@@ -773,7 +773,7 @@
         }
       },
       {
-        "question": "What is the correct body positioning after releasing a guillotine to defend the Von Flue, and why should you turn toward rather than away from your opponent?",
+        "question": "After releasing the guillotine, how should you position, and why turn toward rather than away?",
         "answer": "After releasing the guillotine, immediately establish forearm frames against their chest and shoulder, keep your elbows tight to your body, and turn your body toward the opponent rather than away. Turning toward them reduces the angle their shoulder can create against your neck and allows you to use your legs against their hips to push them away or re-establish guard. Turning away is dangerous because it exposes your back for potential back takes and can actually press your neck deeper into their shoulder, worsening the choke. The toward-turn also puts you in the correct position for standard side control escapes including hip escapes and guard recovery sequences.",
         "safety_critical": false,
         "answer_line": "Frame and turn toward opponent",
@@ -788,7 +788,7 @@
         }
       },
       {
-        "question": "You feel shoulder pressure on your neck while holding a guillotine from bottom and you realize the Von Flue is partially locked. What is the emergency escape sequence?",
+        "question": "You feel shoulder pressure and the Von Flue is partly locked — what is the emergency escape?",
         "answer": "This is an emergency requiring immediate action in this order: 1) Release the guillotine grip completely and without hesitation—every fraction of a second you hold it deepens the choke. 2) Use the freed arm closest to their hips to push against their hip or thigh to create distance. 3) Bridge explosively toward them to disrupt their shoulder pressure and create space. 4) Insert your knee between your bodies to establish half guard. 5) If you cannot insert the knee, continue bridging and framing until you create enough space to turn toward them and recover guard. The critical first step is always releasing the guillotine—nothing else works while you are holding the grip that creates half the choke against yourself. In training, if you feel lightheaded at any point during this sequence, tap immediately.",
         "safety_critical": true,
         "answer_line": "Release grip, frame, bridge out",
@@ -818,7 +818,7 @@
         }
       },
       {
-        "question": "Your guillotine is deep but the top player drops their shoulder onto your neck — what is the highest-percentage defense?",
+        "question": "Your guillotine is deep but they drop the shoulder onto your neck — what is the best defense?",
         "answer": "Release the guillotine immediately and turn in to recover guard or scramble before the carotid is sealed. A surrendered grip and a conceded pass are far better than going unconscious clinging to the choke.",
         "safety_critical": false,
         "answer_line": "Release grip, turn in to guard",
@@ -848,7 +848,7 @@
         }
       },
       {
-        "question": "If you feel light-headed while defending a Von Flue and your arms are trapped, how should you signal?",
+        "question": "You feel lightheaded defending a Von Flue with your arms trapped — how do you signal?",
         "answer": "Tap verbally or with your foot or leg immediately — do not wait for a hand tap, since your arms are often trapped in the guillotine. Early tapping prevents unconsciousness and brain injury from carotid compression.",
         "safety_critical": true,
         "answer_line": "Tap verbally or with your foot",

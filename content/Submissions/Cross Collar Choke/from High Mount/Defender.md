@@ -66,7 +66,7 @@ description: "Defend the Cross Collar Choke from High Mount in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "How do you create an effective escape window when the attacker is working collar grips from high mount?",
+      "name": "How do you create an escape window while they work collar grips from high mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The escape window opens when the attacker commits their second hand to the collar, removing it from posting position. This creates a momentary base weakness on the side where they were posting. Time your bridge toward that side—their inability to post makes the bridge more effective. Additionally, any grip transition where the attacker adjusts hand position creates a brief window where their weight shifts. Read these weight shifts and use them to initiate hip escapes or bridges."

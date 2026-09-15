@@ -56,7 +56,7 @@ description: "Master defending the Sweep from Inside Sankaku. Learn to recognize
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest warning sign that the bottom player is setting up a sweep rather than focusing purely on escape?",
+      "name": "On top in inside sankaku, what earliest sign shows a sweep setup rather than pure escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest warning sign is the bottom player establishing upper body grips on your wrist, forearm, or body while simultaneously hiding their heel. Pure escape attempts focus on leg extraction and hip movement away from you, while sweep setups require upper body connection to eliminate your posting base. The combination of heel hiding plus upper body grip establishment is the distinctive indicator of sweep intent."
@@ -80,7 +80,7 @@ description: "Master defending the Sweep from Inside Sankaku. Learn to recognize
     },
     {
       "@type": "Question",
-      "name": "Your opponent briefly releases heel protection to grab your wrist for the sweep - should you attack the heel or defend the sweep?",
+      "name": "Inside sankaku top: they free their heel to grab your wrist—attack the heel or defend the sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This presents a tactical dilemma. If the heel exposure is clear and you can secure grips quickly, attacking the heel forces them to abandon the sweep and return to defense. However, reaching aggressively for the heel shifts your weight forward, which enables the sweep. The safest approach is to threaten the heel with one hand while maintaining base with the other, forcing the bottom player to release their sweep grip to re-protect the heel without you committing your balance."

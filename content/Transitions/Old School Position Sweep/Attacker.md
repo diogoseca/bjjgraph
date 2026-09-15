@@ -80,7 +80,7 @@ description: "Execute the Old School Position Sweep from half guard lockdown. St
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure and begins flattening you onto your back - what adjustment maintains your sweeping position?",
+      "name": "They crossface hard and flatten you: what adjustment keeps your Old School sweeping position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately pump the lockdown by extending your legs forcefully to create space and prevent being flattened. Simultaneously pull your underhook tighter and drive your head into their chest on the underhook side. If you feel yourself going flat despite these adjustments, transition to deep half guard entry rather than fighting a losing battle for the side angle. The angle is the foundation of the sweep - once flat, your rotational leverage disappears entirely."
@@ -96,7 +96,7 @@ description: "Execute the Old School Position Sweep from half guard lockdown. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully posts their far hand on the mat to prevent the sweep rotation - how do you adjust?",
+      "name": "They post their far hand to block the Old School sweep rotation: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to the back take variation rather than fighting through the post. Maintain your underhook and lockdown while using the momentum to come up on the underhook side. Circle behind the opponent while the lockdown prevents them from turning to face you. The posted hand commits their weight to one direction, making the back take angle available. Alternatively, increase head control pressure to collapse the posting arm before it fully extends."

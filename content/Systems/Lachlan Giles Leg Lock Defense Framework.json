@@ -1,6 +1,6 @@
 {
   "name": "Lachlan Giles Leg Lock Defense Framework",
-  "description": "Master defensive leg lock strategies from ADCC champion Lachlan Giles. Comprehensive framework covering prevention, escape mechanics, and systematic counter-attacks.",
+  "description": "Includes knee-line concepts, heel-hook prevention, counters and 50/50 positioning alongside attacking material. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "defense-system",
@@ -12,8 +12,8 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Advanced",
-  "summary": "The Lachlan Giles Leg Lock Defense Framework is a defensive system that neutralizes heel hooks and ankle locks through early entanglement prevention, hip alignment, position-danger recognition, and systematic clearing sequences that work regardless of flexibility or strength.",
-  "overview": "The Lachlan Giles Leg Lock Defense Framework represents one of the most comprehensive and scientifically-informed approaches to defending leg attacks in modern Brazilian Jiu-Jitsu. Developed through extensive competition experience at the highest levels including ADCC, this system emphasizes prevention over reaction, teaching practitioners to recognize and neutralize leg entanglement threats before they fully develop. The framework is built on understanding the mechanical hierarchy of leg lock positions, from least to most dangerous, and provides specific defensive protocols for each stage of entanglement. Rather than relying on strength or flexibility, Giles' methodology focuses on proper positioning, hip alignment, and systematic counter-mechanics that work regardless of physical attributes. The system integrates seamlessly with modern guard retention principles while specifically addressing the unique challenges posed by contemporary leg lock specialists who build their entire games around the lower body.",
+  "summary": "Leg-lock defense starts before a finishing grip is secured.",
+  "overview": "Leg-lock defense starts before a finishing grip is secured. This guide focuses on recognizing entanglements, protecting the heel and recovering the knee line. Lachlan’s 50/50 instructional offers relevant prevention and counter material alongside its attacking curriculum.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "Prevention over escape - recognize entanglement patterns early and shut them down before full control is established",
     "Hierarchical understanding - know which positions are immediately dangerous versus those that allow time for systematic escape",
@@ -480,6 +480,21 @@
           "Ignore ankle locks, focus knees"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "leg-lock-anthology-50-50-by-lachlan-giles",
+      "title": "Leg Lock Anthology: 50/50",
+      "instructor": "Lachlan Giles",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Includes knee-line concepts, heel-hook prevention, counters and 50/50 positioning alongside attacking material.",
+      "best_for": "Students studying 50/50 defense. This is an attack-and-defense course, not a defense-only programme.",
+      "study_focus": "Start with the knee-line concepts and defending-the-heel-hook sections before exploring counterattacks.",
+      "practice_tip": "Have your coach set a safe starting position. Rehearse the early escape and reset before a finishing grip is established."
     }
   ]
 }

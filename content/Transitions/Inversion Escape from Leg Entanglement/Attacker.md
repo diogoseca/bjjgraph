@@ -80,7 +80,7 @@ description: "Execute the inversion escape from leg entanglement with proper rol
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical safety check before initiating the inversion escape from a leg entanglement?",
+      "name": "What safety check must you make before starting an inversion escape from a leg entanglement?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before initiating the inversion, you must verify that the opponent has not secured a deep heel grip with figure-four finishing configuration. If the heel is already controlled with rotational pressure being applied, the inversion will amplify the mechanical stress on the knee ligaments and can cause catastrophic injury. The heel must be hidden with your foot flexed and knee rotated inward before any rolling motion begins. If the heel is compromised, switch to grip fighting or an alternative non-rotational escape."
@@ -88,7 +88,7 @@ description: "Execute the inversion escape from leg entanglement with proper rol
     },
     {
       "@type": "Question",
-      "name": "Your opponent is adjusting their grip from ankle control to heel control - is this a good moment to attempt the inversion?",
+      "name": "They're switching from ankle control to heel control: is this a good moment to invert?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes, this is one of the optimal timing windows for the inversion escape. During grip transitions, the opponent's structural control is momentarily weakened because they have released one control point before fully establishing the next. The brief moment between releasing the ankle grip and securing the heel grip creates a gap in their control structure where the rotational force of the inversion can overcome their retention. You must be ready to exploit this window instantly, as it lasts less than a second against experienced leg lockers."
@@ -112,7 +112,7 @@ description: "Execute the inversion escape from leg entanglement with proper rol
     },
     {
       "@type": "Question",
-      "name": "Your inversion attempt is halfway through but the opponent has followed your roll and maintained grip on your ankle - what should you do?",
+      "name": "Mid-inversion they follow your roll and keep the ankle grip: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent follows the roll and maintains ankle control, abort the full inversion and convert the momentum into a scramble. Post on both hands, use the rotational energy to kick your legs free, and immediately work to establish any guard position rather than trying to complete the original escape path. The partial inversion has disrupted the opponent's original entanglement structure even if they maintained grip, so the scramble is still preferable to a static entanglement. Do not attempt to re-roll or force the extraction against active resistance."

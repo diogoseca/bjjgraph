@@ -400,7 +400,7 @@
         }
       },
       {
-        "question": "What are the entry requirements that must exist before you can attempt a knee slice from half guard top?",
+        "question": "What entry conditions must exist before attempting a knee slice from half guard top?",
         "answer": "Four conditions must exist: trapped leg partially freed or shin above the thigh line, upper-body control, knee shield neutralized, and a stable base. Upper body control is established through a crossface or collar grip, the opponent's knee shield must be neutralized or absent, and your base must be stable enough to commit forward pressure without risk of being swept. Attempting the slice without these conditions leads to failed passes and potential sweeps.",
         "distractors": {
           "plausible": [
@@ -555,7 +555,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that a knee slice pass is about to be initiated from half guard top?",
+        "question": "From half guard bottom, what is the earliest cue that a knee slice is coming?",
         "answer": "The earliest cue is the passer establishing a collar grip or crossface with their lead hand while their trailing hand reaches for your far hip or pant leg. This dual grip setup is the prerequisite for the slice and should trigger immediate defensive framing. Additionally, watch for their head positioning to the far side and their knee beginning to angle diagonally across your thigh.",
         "answer_line": "Collar/crossface + far-hip grip",
         "distractors": {
@@ -583,7 +583,7 @@
         }
       },
       {
-        "question": "Your opponent has begun the knee slice and their knee is halfway across your thigh. What are your best options at this point?",
+        "question": "Their knee slice is halfway across your thigh: what are your best options now?",
         "answer": "At the halfway point, your best options are a deep half guard entry by ducking under their hips as they drive forward, or an aggressive underhook on the trapped-leg side combined with a hip escape to create enough angle to re-insert your knee. A direct knee shield is likely too late at this stage. If neither option is available, prepare to turn to turtle as a last resort to avoid conceding side control, then immediately work to stand or reguard from turtle.",
         "answer_line": "Deep half or underhook escape",
         "distractors": {
@@ -611,7 +611,7 @@
         }
       },
       {
-        "question": "What is the danger of attempting an underhook recovery when the passer has already established crossface control?",
+        "question": "Why is reaching for the underhook risky once the passer has the crossface locked?",
         "answer": "When the passer has an established crossface, reaching for the underhook exposes your arm to kimura attacks because the crossface pins your shoulder and limits your ability to withdraw the reaching arm. The passer can catch the reaching arm with their far hand while maintaining crossface with the near arm, isolating your shoulder in a vulnerable position. You must first address the crossface by framing against it or pummeling your head free before committing to the underhook battle.",
         "answer_line": "Exposes arm to kimura",
         "distractors": {
@@ -625,7 +625,7 @@
         }
       },
       {
-        "question": "How do you prevent the passer from re-establishing the knee slice after you successfully recover your knee shield?",
+        "question": "After recovering your knee shield, how do you stop them re-establishing the knee slice?",
         "answer": "After recovering knee shield, immediately establish offensive grips that keep the passer reactive: collar grip to threaten collar drags, sleeve grip to prevent them re-establishing their own grips, and use the knee shield to create distance for angle creation. Threatening sweeps from the knee shield position forces the passer to defend rather than re-setup. A purely defensive knee shield without offensive threat will eventually be passed as the passer methodically works to smash or circumvent it.",
         "answer_line": "Offensive grips, threaten sweeps",
         "distractors": {
@@ -639,7 +639,7 @@
         }
       },
       {
-        "question": "What makes the deep half guard entry an effective counter to the knee slice, and when does it become too late to attempt it?",
+        "question": "Why does deep half counter the knee slice, and when is it too late to dive under?",
         "answer": "Deep half guard works because the passer's forward driving pressure during the knee slice actually assists your entry underneath their hips. You redirect their downward momentum to shoot underneath them, establishing sweeping angles that negate the slice entirely. It becomes too late when the passer's knee has fully cleared your thigh line and they have begun consolidation, as you will be diving under someone who is no longer above you but beside you, resulting in being flattened in a worse position.",
         "answer_line": "Use their forward pressure",
         "distractors": {

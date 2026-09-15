@@ -74,7 +74,7 @@ description: "Learn to execute the Escape from Truck as the attacker. Step-by-st
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent increases boot pressure and begins setting up the twister grip on your far arm - what is your immediate response?",
+      "name": "Truck bottom: they add boot pressure and set the twister grip on your far arm. Response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately prioritize neck defense by tucking your chin tight and using both hands to fight the twister grip on your far arm. Do not attempt explosive escape movements that would expose your cervical spine. Systematically fight the grip while maintaining chin tuck, then work to clear the boot pressure once the twister threat is neutralized, since the boot generates the torque enabling the twister finish."
@@ -90,7 +90,7 @@ description: "Learn to execute the Escape from Truck as the attacker. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "You successfully clear the boot but your leg remains trapped in the figure-four entanglement - how do you proceed?",
+      "name": "Truck bottom: boot is cleared but your leg is still in the figure four. How do you proceed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the boot cleared, shift focus to leg extraction by circling your trapped ankle inward and rotating your hip to create angular separation within the figure-four entanglement. Use small incremental shrimping movements rather than one explosive pull. If direct extraction fails within a few attempts, initiate the granby roll which uses rotational momentum to break through remaining leg control."
@@ -106,7 +106,7 @@ description: "Learn to execute the Escape from Truck as the attacker. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent transitions from twister setup to calf slicer attack during your escape attempt - how do you adjust?",
+      "name": "Truck bottom: they switch from twister to calf slicer mid-escape. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent switches from twister to calf slicer, your trapped leg is being extended and compressed at the knee. Immediately bend your knee sharply to reduce joint pressure and buy time. Then use the opponent's changed weight distribution and commitment to the leg attack to initiate your forward roll escape. The transition between attacks creates a brief window where their positional control is less stable than during either settled attack."
@@ -114,7 +114,7 @@ description: "Learn to execute the Escape from Truck as the attacker. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "What hip movement is essential for creating the space needed to extract the trapped leg from truck entanglement?",
+      "name": "What hip movement creates the space to extract your trapped leg from the truck?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip rotation away from the opponent combined with shrimping movement is essential for creating extraction space. By rotating your hips and driving them away from the truck top player, you create angular separation between your trapped leg and their entangling legs, making it possible to circle your ankle free. This movement must be coordinated with boot clearing since the boot prevents effective hip rotation."

@@ -87,7 +87,7 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Kimura from Kimura Trap",
-  "description": "The Kimura from Kimura Trap is a figure-four shoulder lock that finishes the Kimura Trap control system by rotating the opponent's trapped arm behind their back, attacking the glenohumeral joint and threatening dislocation from either top or bottom.",
+  "description": "The Kimura from Kimura Trap is a figure-four shoulder lock finished from underneath: the bottom player who owns the grip rotates the opponent's trapped arm behind their back, attacking the glenohumeral joint while the half guard entanglement denies the escape.",
   "inDefinedTermSet": "https://bjjgraph.org/Submissions/"
 }
 </script>
@@ -97,7 +97,7 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 
-**The Kimura from Kimura Trap is a figure-four shoulder lock that finishes the Kimura Trap control system by rotating the opponent's trapped arm behind their back, attacking the glenohumeral joint and threatening dislocation from either top or bottom.**
+**The Kimura from Kimura Trap is a figure-four shoulder lock finished from underneath: the bottom player who owns the grip rotates the opponent's trapped arm behind their back, attacking the glenohumeral joint while the half guard entanglement denies the escape.**
 <div class="principle-meta">
 <span class="meta-chip">Joint Lock</span>
 <span class="meta-chip">Shoulder Lock</span>
@@ -123,7 +123,7 @@ The finishing mechanics demand precise angle creation through walking the feet t
 
 Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defending the finish typically forces the opponent to compromise positional integrity, opening sweeps, back takes, or transitions to alternative submissions like the Americana or armbar. Even when the finish itself does not produce the tap, the constant rotational threat creates defensive reactions that advance the attacker's position, embodying modern BJJ's emphasis on interconnected attacking systems rather than isolated techniques.
 
-**Starting Position**: [[Positions/Kimura Trap]] · **From**: [[Positions/Kimura Trap]] (Top)
+**Starting Position**: [[Positions/Kimura Trap]] · **From**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 
@@ -199,11 +199,11 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 - Verify deep figure-four grip positioning near the opponent's elbow before committing to the finish—shallow grips near the wrist lack sufficient leverage
 
-- Create the finishing angle by walking feet in an arc toward the opponent's head rather than attempting to finish from a squared-up position
+- Create the finishing angle by hip-escaping onto your side and coming up onto your near elbow, never by walking your feet around their head — that is the top finish and you do not have it
 
-- Generate rotational force through hip positioning, body weight transfer, and chest pressure rather than relying on arm strength to crank the submission
+- Generate rotational force by turning your torso as you come up and by pulling their base with your legs, not by weight and not by arm strength
 
-- Maintain heavy chest pressure throughout the entire finishing sequence to prevent the opponent from posturing, bridging, or creating escape space
+- Keep the leg entanglement live for the entire sequence — the half guard or lockdown is your only substitute for the top player's chest pressure, and without it the grip controls nothing
 
 - Break defensive grips systematically before applying final rotational pressure rather than trying to power through clasped hands
 
@@ -215,9 +215,9 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 - **Consolidate Kimura Grip Depth**: Verify your figure-four grip is positioned deep near the opponent's elbow, not their wrist. Tighten ...
 
-- **Establish Heavy Chest Pressure**: Drive your shoulder and chest weight downward into the opponent's upper torso, pinning their shoulde...
+- **Anchor With the Legs**: Confirm the half guard entanglement on the opponent's near leg, closing the lockdown if their base i...
 
-- **Create Finishing Angle**: Walk your feet in a gradual arc toward the opponent's head while maintaining chest contact. Each sma...
+- **Create Finishing Angle**: Hip-escape onto your near side and come up onto your near elbow, turning your chest toward the oppon...
 
 - **Break Defensive Grips**: If the opponent has clasped their hands together or grabbed their own clothing to prevent arm rotati...
 
@@ -235,9 +235,9 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
   - Consequence: Rapid energy depletion with low finishing percentage, especially against strong opponents who can resist arm-only pressure indefinitely
   - Correction: Walk feet in arc toward opponent's head to create perpendicular finishing angle, then use hip rotation and body weight to drive the finish rather than arm muscles
 
-- **Releasing chest pressure during the finishing sequence to focus entirely on arm manipulation**
+- **Finishing flat on your back instead of coming up onto your near elbow and side**
   - Consequence: Opponent creates escape space through bridging or hip movement, may roll out of submission or recover guard position entirely
-  - Correction: Maintain heavy chest pressure throughout the entire finishing sequence—the chest pin and the arm rotation must work simultaneously as a coordinated system
+  - Correction: Hip-escape and post on the near elbow BEFORE the rotation starts — a flat spine has no arc to rotate through, and the finish becomes an arm-strength contest you will lose from underneath
 
 - **Attempting to power through the opponent's clasped-hand defense rather than breaking grips systematically**
   - Consequence: Wasted energy and failed submission attempt, often resulting in loss of the Kimura grip entirely as fatigue sets in from fighting the defensive connection
@@ -273,7 +273,7 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 - Opponent's figure-four grip tightens and their hands begin actively rotating your wrist away from your body rather than simply holding position
 
-- Opponent walks their feet in an arc toward your head while maintaining or increasing chest pressure, creating a perpendicular finishing angle
+- The bottom player hip-escapes onto their near side and posts on their elbow, turning their chest toward you — the angle is being built and the finish is next
 
 - Opponent shifts weight forward and begins driving your trapped arm toward the mat behind your back with progressive force
 
@@ -298,13 +298,13 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 ## Variations
 
 
-**Walk-Around Top Finish**: Standard Kimura finish from Kimura Trap Top where the attacker walks feet in an arc toward the opponent's head to create the optimal perpendicular finishing angle, then drives the trapped wrist behind the opponent's back using progressive chest pressure and hip rotation. (When to use: When you have established deep Kimura grip from side control or half guard top and the opponent's defensive grips have been neutralized)
+**Come-Up Finish From Bottom**: The standard bottom finish. Hip-escape onto the near side, post on the near elbow and come up until your chest faces the trapped arm, then drive the wrist behind their back as your torso turns. The half guard or lockdown holds their base so they cannot follow the rotation or drive you flat. (When to use: The default whenever you own the grip from Kimura Trap Bottom and can get your hips off the mat.)
 
 
-**North-South Transition Finish**: Spinning to north-south position while maintaining the Kimura grip to attack from a different angle. The north-south alignment changes the direction of rotational force and often catches opponents who have adapted their defense to the standard side angle. (When to use: When the opponent successfully defends the standard finishing angle by keeping their elbow tight to their body or when their defensive grip is strong from the side position)
+**Rolling Kimura from Bottom**: From Kimura Trap Bottom, using hip elevation and the opponent's forward pressure to roll them over while maintaining the figure-four grip. The rolling momentum generates rotational force on the shoulder as you arrive in top position with the finish already loaded. (When to use: When the opponent drives forward aggressively, providing momentum that can be redirected into the roll.)
 
 
-**Rolling Kimura from Bottom**: From Kimura Trap Bottom, using hip elevation and the opponent's forward pressure to roll them over while maintaining the figure-four grip. The rolling momentum generates rotational force on the shoulder as you arrive in top position with the finish already loaded. (When to use: When in Kimura Trap Bottom and the opponent drives forward aggressively, providing momentum that can be redirected into the rolling finish)
+**Lockdown Hold Finish**: Close the lockdown on the trapped leg before rotating, so the opponent cannot post out or step over as the shoulder loads. The legs do the holding that a top player would do with chest weight, which makes this the highest-percentage version against a heavier opponent. (When to use: Against a bigger, base-heavy opponent who would otherwise simply flatten you and wait.)
 
 
 
@@ -317,8 +317,8 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 - [[Positions/Kimura Trap]]
 - [[Positions/Half Guard]]
-- [[Positions/Side Control]]
-- [[Positions/North-South]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Half Guard/Deep Half Guard]]
 
 
 </section>
@@ -331,11 +331,12 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 - [[Submissions/Arm Triangle]]
 - [[Submissions/Far Side Armbar]]
 - [[Submissions/Darce Choke]]
-- [[Positions/Kimura Trap]] - Primary starting position providing the grip control infrastructure for the finish
-- [[Positions/Half Guard]] - Common entry point where Kimura grip is established before transitioning to Kimura Trap
-- [[Positions/Side Control]] - Alternative entry position where the Kimura grip can be secured on an exposed arm
-- [[Positions/Back Control]] - Transition target when opponent rolls to defend the Kimura finish
-- [[Positions/North-South]] - Alternative finishing platform providing different rotational angle on the shoulder
+- [[Positions/Kimura Trap]] - Starting position — the bottom seat owns the figure-four grip and this is its finish
+- [[Positions/Half Guard]] - Primary entry — the grip is established from half guard bottom before the trap consolidates
+- [[Transitions/Half Guard to Kimura Trap]] - The entry that puts you in this seat with the grip already closed
+- [[Positions/Half Guard/Lockdown]] - Common leg configuration underneath the grip; it is what stops the opponent disengaging
+- [[Positions/Back Control]] - Transition target when the opponent turns away from the grip to defend
+- [[Transitions/Kimura Sweep]] - The sweep taken from this grip when the opponent defends the finish by posting
 
 </section>
 

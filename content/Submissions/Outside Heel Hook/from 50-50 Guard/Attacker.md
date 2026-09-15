@@ -92,7 +92,7 @@ description: "Learn to attack with the outside heel hook from 50-50 guard. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent hides their heel using the boot defense with strong inward knee rotation - what is the correct tactical response?",
+      "name": "They hide the heel with a boot defense in 50-50 — what is the correct tactical response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First attempt two-on-one grip fighting to control the foot and forcibly rotate it outward to re-expose the heel. If the boot defense is well-established after three to five seconds of effort, abandon the heel hook and transition to an alternative attack. The kneebar is available by controlling above the knee, the transition to outside ashi-garami provides a better finishing angle, or a back take capitalizes on the space created during leg extraction attempts."
@@ -108,7 +108,7 @@ description: "Learn to attack with the outside heel hook from 50-50 guard. Step-
     },
     {
       "@type": "Question",
-      "name": "Why must the outside heel hook be applied with slow progressive pressure rather than explosive rotational force?",
+      "name": "Why must the outside heel hook be applied slowly rather than with explosive rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Heel hooks cause ligament damage before pain signals reach the brain, meaning the defender cannot feel the injury happening in time to tap. Explosive application can tear the ACL and MCL within fractions of a second, causing career-ending injuries. Slow progressive pressure over five or more seconds gives the defender time to recognize the positional danger and tap before structural damage occurs. This is a non-negotiable safety requirement in training."
@@ -116,7 +116,7 @@ description: "Learn to attack with the outside heel hook from 50-50 guard. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins spinning their body toward the rotation direction during your heel hook attempt - what adjustment do you make?",
+      "name": "They spin toward your rotation during the outside heel hook — what adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tighten knee line control by squeezing your knees harder together around their thigh to restrict their spinning range. Follow their spin with your own hip adjustment to maintain your perpendicular angle relative to their leg. If they manage partial rotation, re-angle your hips and re-establish the finishing position from the new alignment before they can complete the full spin and reset their defense."

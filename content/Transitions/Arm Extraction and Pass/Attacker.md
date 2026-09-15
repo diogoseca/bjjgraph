@@ -92,7 +92,7 @@ description: "How to execute Arm Extraction and Pass in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Your opponent explosively posts their extracted arm as you transition - what is your immediate response?",
+      "name": "They explosively post the extracted arm as you transition. What is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately attack the posted arm with a kimura grip before completing the pass. The extended arm is vulnerable to shoulder lock attacks. Alternatively, redirect to north-south transition to avoid the frame entirely rather than fighting against it."

@@ -440,6 +440,7 @@ Practice positions where inside position involves multiple body parts simultaneo
 - **[[Base]]** (Complementary): Inside position supports base by connecting your structure to the opponent's center through inside controls. Losing inside position often precedes base loss because the opponent can now attack your stability from a mechanically advantaged position.
 - **[[Posture]]** (Complementary): In closed guard, inside position determines the posture battle. The top player's inside position (hands on hips/chest inside the guard) supports posture. The guard player's inside position (underhooks on the arms, knees in the space) breaks posture.
 - **[[Cross Face Control]]** (Extension): The crossface is an application of inside position for the head — driving your shoulder and forearm across the opponent's face occupies the inside space between their head and the mat, controlling their head position and enabling top pressure.
+- **[[Elbow-Knee Connection]]** (Complementary): The elbow-knee barrier protects inside space; separating it gives the opponent a route to control.
 
 
 ### Related Content
@@ -457,6 +458,7 @@ Practice positions where inside position involves multiple body parts simultaneo
 - [[Principles/Distance Control|Distance Control]] (Principle) - Inside position is a primary mechanism for controlling distance — the inside fighter dictates whether distance closes or opens
 - [[Principles/Frames|Frames]] (Principle) - Frames are the defensive counter to inside position, occupying space to prevent the opponent from establishing inside control
 - [[Principles/Forward Pressure|Forward Pressure]] (Principle) - Inside position enables effective forward pressure by placing the driving force inside the opponent's defensive structure
+- [[Principles/Elbow-Knee Connection|Elbow-Knee Connection]] (Principle) - The elbow-knee barrier protects inside space; separating it gives the opponent a route to control.
 
 
 </section>

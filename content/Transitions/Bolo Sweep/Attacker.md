@@ -76,7 +76,7 @@ description: "How to execute the Bolo Sweep in BJJ. Complete attacking guide wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their far hand on the mat as you begin inverting for the Bolo - how do you adjust?",
+      "name": "They post their far hand as you invert for the Bolo: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts their hand, they anchor themselves to resist the forward pulling force but simultaneously commit their weight to that posted point. You can continue your rotation toward the posted arm side, effectively transitioning to Kiss of the Dragon mechanics where their anchored position becomes a pivot point you spin around. Alternatively, the posted arm opens their upper body for triangle or omoplata setups if you redirect your attack. The key is recognizing that their posted hand creates a predictable position you can exploit rather than an obstacle that stops your attack."
@@ -84,7 +84,7 @@ description: "How to execute the Bolo Sweep in BJJ. Complete attacking guide wit
     },
     {
       "@type": "Question",
-      "name": "What angle must be established before initiating the inversion, and what happens if you skip this step?",
+      "name": "What angle must you create before inverting for the Bolo, and what if you skip it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must create a 30-45 degree angle by pulling the opponent forward and laterally using your collar or sleeve grip while extending the De La Riva hook. This displaces their weight onto the hooked leg and opens the spatial channel for your rotation. Skipping this step means attempting to invert against a centered, balanced opponent whose base blocks your rotation path. You end up stuck underneath with no leverage, exposed to smash passing or leg attacks, and unable to complete the technique."
@@ -92,7 +92,7 @@ description: "How to execute the Bolo Sweep in BJJ. Complete attacking guide wit
     },
     {
       "@type": "Question",
-      "name": "How do you decide between finishing with a sweep to top position versus taking the back during the Bolo?",
+      "name": "During the Bolo, how do you choose between sweeping to top and taking the back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision is made in real-time based on the opponent's defensive reaction as you emerge from the rotation. If they base heavily with their hands on the mat or drive their weight forward to prevent being swept, their back becomes exposed for climbing onto back control with seatbelt and hooks. If they turn away or turtle to protect their back, their weight displacement makes them vulnerable to being completed as a traditional sweep to top position. Advanced practitioners develop the sensitivity to read these reactions mid-rotation and select the appropriate finish before the rotation is fully completed."
@@ -100,7 +100,7 @@ description: "How to execute the Bolo Sweep in BJJ. Complete attacking guide wit
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the Bolo relative to your opponent's weight distribution?",
+      "name": "When is their weight best placed for you to start the Bolo?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window occurs when the opponent's weight is committed forward over the De La Riva-hooked leg. This forward loading means the rotational force of the Bolo amplifies their existing displacement rather than fighting against it. The best practitioners provoke this forward commitment through active hook pulling and grip tension that forces the opponent to lean forward to maintain balance, then immediately capitalize on that weight shift to begin the inversion. Initiating against a rearward-weighted opponent forces you to overcome their entire base structure."
@@ -108,7 +108,7 @@ description: "How to execute the Bolo Sweep in BJJ. Complete attacking guide wit
     },
     {
       "@type": "Question",
-      "name": "Your opponent steps over your inverting body with their free leg during the Bolo - what are your options?",
+      "name": "They step over your body with their free leg during the Bolo: what are your options?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent steps over, immediately hook that stepping leg with your free leg and transition to X-Guard or Single Leg X-Guard position. Their stepping motion carries forward momentum that you can redirect into a backward off-balance by elevating the hooked stepping leg. This converts their defensive reaction into a new attacking opportunity from a different guard system. The key is recognizing the step-over early and reacting immediately rather than trying to force the original Bolo rotation against an opponent who has already bypassed your inversion path."

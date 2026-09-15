@@ -56,7 +56,7 @@ description: "Learn to maintain clamp guard and counter arm extraction attempts 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt arm extraction from clamp guard?",
+      "name": "What is the earliest cue your opponent is about to extract their arm from your clamp guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent addressing your wrist grip with their free hand. Before any successful extraction, they must break this grip because it anchors their hand and prevents the internal rotation needed to reduce their arm profile. When you see their free hand move toward your gripping hand rather than toward your body or legs, an extraction attempt is imminent. This is your trigger to either re-grip preemptively or immediately begin transitioning to a submission entry."
@@ -64,7 +64,7 @@ description: "Learn to maintain clamp guard and counter arm extraction attempts 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has driven their knee forward as a wedge and your clamp is loosening — what is your best response?",
+      "name": "They wedge a knee in and your clamp is loosening. What is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting the wedge with muscular leg squeeze, immediately hip escape away from the trapped arm to change the angle of the knee wedge. This adjustment redirects the wedge force from effective leg separation to ineffective lateral pressure. Simultaneously, threaten the armbar by extending your hips — even if you do not fully commit, the armbar threat forces the opponent to retract their posture and abandon the knee wedge to defend, giving you time to re-establish optimal clamp positioning."
@@ -72,7 +72,7 @@ description: "Learn to maintain clamp guard and counter arm extraction attempts 
     },
     {
       "@type": "Question",
-      "name": "How do you determine whether to maintain the clamp or transition to a submission when the opponent begins extracting?",
+      "name": "As they start extracting, how do you decide between keeping the clamp and going to a submission?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Assess the clamp depth and the extraction progress. If the shin is still on the bicep and the extraction has not progressed past the initial grip-stripping phase, fight to maintain the clamp by re-gripping and re-angling your hips. If the clamp has already slid to the forearm or the opponent has significant angle change established, transition immediately to the submission that corresponds to their extraction direction — armbar for backward pulls, triangle for outward circles. Holding a deteriorating clamp is worse than committing to a submission entry with partial control."
@@ -80,7 +80,7 @@ description: "Learn to maintain clamp guard and counter arm extraction attempts 
     },
     {
       "@type": "Question",
-      "name": "What is the defensive priority when your opponent successfully strips your wrist grip on the trapped hand?",
+      "name": "They strip your wrist grip on the trapped arm. What is your defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately re-grip the wrist before they can complete the internal rotation that reduces their arm profile. You have approximately one to two seconds between grip break and completed rotation. If you cannot re-grip in time, shift your priority to posture control with that hand by grabbing behind their head or collar to prevent them from sitting up. The posture control partially compensates for the lost wrist grip by denying them the upright leverage needed for extraction."

@@ -96,7 +96,7 @@ description: "Master the standing guard break from closed guard top. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent grabs your collar with both hands as you begin to post your first foot—how do you respond?",
+      "name": "They grab both collars as you post your first foot to stand in closed guard. Response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the standing attempt and immediately address the grips before continuing. Use a two-on-one grip break on the more dominant collar grip first, typically the cross collar grip, by grabbing their wrist with both hands and pushing it toward their centerline while pulling your collar free. Once the primary grip is broken, address the secondary grip. Only resume the standing sequence once both collar grips are neutralized, as standing into double collar grips virtually guarantees being pulled back down."
@@ -120,7 +120,7 @@ description: "Master the standing guard break from closed guard top. Step-by-ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent shoots their hips up for an armbar as you post your foot to stand—what caused this vulnerability and how do you prevent it?",
+      "name": "They hip up for an armbar as you post to stand in closed guard. Cause and prevention?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This vulnerability occurs when you lean forward during the foot post, placing your weight over the opponent's hips rather than keeping it over your own base. The forward lean brings your arm within range of their hip elevation for armbar attacks. Prevent this by driving upward and slightly backward when posting your foot, keeping your elbows tight to your body rather than extended, and maintaining both hands pressed down on their hips so they cannot create the upward hip angle needed for the armbar entry. If caught mid-transition, immediately drive your weight back and retract your arm."

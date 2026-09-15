@@ -64,7 +64,7 @@ description: "How to defend the Technical Stand Up to Single Leg in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "How should you position your hips when you feel the opponent initiating a single leg penetration step?",
+      "name": "How do you position your hips as you feel their single leg penetration step?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drop your hips explosively backward and downward in a sprawl motion, driving your pelvis toward the mat while keeping your chest up. Your hips should move away from the opponent's penetrating shoulder, creating an angle that makes their forward drive ineffective. Simultaneously widen your base by stepping your free leg out to the side. The sprawl must be reactive and immediate: even a half-second delay allows them to get underneath your center of gravity where the sprawl becomes ineffective."
@@ -72,7 +72,7 @@ description: "How to defend the Technical Stand Up to Single Leg in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured a single leg grip and is driving forward - what is your priority sequence for defense?",
+      "name": "They've secured a single leg and are driving forward. What's your defensive priority sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First priority is to whizzer the attacking arm by threading your arm over their shoulder and clamping your overhook tight against your ribs, which stops forward progress. Second, circle your hips away from them toward the whizzer side to create an angle that breaks their driving line. Third, use your free hand to crossface or push their head down to break their posture. Fourth, either disengage completely by kicking your trapped leg free, or counter-attack with a go-behind to take their back while they are committed to the single leg grip."
@@ -88,7 +88,7 @@ description: "How to defend the Technical Stand Up to Single Leg in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "What defensive adjustment do you make if the opponent switches from single leg to ankle pick mid-attack?",
+      "name": "They switch from single leg to ankle pick mid-attack. What defensive adjustment do you make?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When you feel them release the high grip and reach for your ankle, immediately pull your targeted foot backward while driving your hips forward and down to make the ankle inaccessible. Simultaneously snap their head down with both hands to break their posture and prevent them from following through on the ankle pick. If they get a grip on the ankle, kick it free explosively while posting your hands on their shoulders to create separation. The ankle pick is most dangerous when you are retreating, so maintaining forward pressure makes it significantly harder to execute."

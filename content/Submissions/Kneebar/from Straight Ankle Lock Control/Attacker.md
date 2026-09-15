@@ -84,7 +84,7 @@ description: "Learn to execute the kneebar from straight ankle lock control. Ste
     },
     {
       "@type": "Question",
-      "name": "What defensive reaction from your opponent creates the highest-percentage kneebar entry from ankle lock control?",
+      "name": "Which defensive reaction gives the best kneebar entry from straight ankle lock control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent straightening their leg to defend the ankle lock creates the highest-percentage entry because the extended leg provides an optimal lever arm for the kneebar while simultaneously removing the knee flexion that protects against hyperextension. Their own defensive movement eliminates their primary defense against the follow-up attack, making this a true dilemma-based chain."
@@ -100,7 +100,7 @@ description: "Learn to execute the kneebar from straight ankle lock control. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts bending their knee aggressively to prevent the kneebar extension - what adjustment prevents this escape?",
+      "name": "Your opponent bends their knee hard to stop your kneebar from ankle lock control: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert your forearm behind their knee crease to prevent full flexion while maintaining the thigh-to-chest grip. If they persist in bending, switch back to attacking the ankle since the bent knee actually improves your ankle lock leverage. The ability to flow between kneebar and ankle lock based on knee angle is what makes this chain so effective - they cannot defend both simultaneously."
@@ -108,7 +108,7 @@ description: "Learn to execute the kneebar from straight ankle lock control. Ste
     },
     {
       "@type": "Question",
-      "name": "What is the correct finishing mechanic for the kneebar and why should you never rely on arm strength?",
+      "name": "What is the correct kneebar finishing mechanic, and why not rely on arm strength?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The finish comes from hip extension driving upward while arching your back, with your arms simply maintaining the thigh-to-chest connection. Hip extension generates far more sustainable force than arm pulling and can overcome hamstring resistance. Arms fatigue within seconds under load while hip drive can be maintained indefinitely, making arm-based finishing attempts both weak and unsustainable."

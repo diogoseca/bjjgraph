@@ -82,7 +82,7 @@ description: "Learn to execute the Double Sleeve to Spider Guard transition. Ste
     },
     {
       "@type": "Question",
-      "name": "Why must you maintain sleeve grip tension throughout the transition rather than briefly relaxing grips?",
+      "name": "Why keep sleeve grip tension throughout the transition to spider guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sleeve grip tension serves as your primary control mechanism during the transition window when your feet are between positions. If you relax tension, the opponent can retract their arms making bicep placement impossible, strip your grips entirely, or drive forward through the gap in your defensive structure. The grips are your safety net while your feet are in transit between control points."

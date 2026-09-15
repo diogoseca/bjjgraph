@@ -56,7 +56,7 @@ description: "How to defend the Transition to Pocket Half Guard from Half Guard 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the top player is attempting the Transition to Pocket Half Guard?",
+      "name": "Half guard bottom: earliest cue that the top player is entering Pocket Half Guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the top player's arm begin to swim under your far armpit combined with an increase in forward chest pressure. These two simultaneous actions indicate they are threading the underhook while using pressure to prevent you from creating distance. Responding at this stage requires significantly less energy than escaping once the position is established. Secondary cues include their head driving to the crossface side and their free leg posting wider."
@@ -64,7 +64,7 @@ description: "How to defend the Transition to Pocket Half Guard from Half Guard 
     },
     {
       "@type": "Question",
-      "name": "Why is the knee shield insertion considered the most reliable defensive option against this transition?",
+      "name": "Why is the knee shield the most reliable defense against the Pocket Half Guard entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee shield creates a structural barrier that physically prevents the chest-to-chest contact required for the Pocket Half Guard transition to succeed. Unlike grip fighting which can be overcome through pressure, the knee shield uses skeletal structure to maintain distance. It works even against significantly stronger opponents because it leverages the shin bone against the chest. However, it must be inserted before the top player closes the distance, making timing critical."
@@ -72,7 +72,7 @@ description: "How to defend the Transition to Pocket Half Guard from Half Guard 
     },
     {
       "@type": "Question",
-      "name": "Your underhook has been established by the top player but they have not yet completed the crossface. What should you do?",
+      "name": "They have the underhook but no crossface yet — what should you do from half guard bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is a critical window where the transition is only partially complete. Without the crossface, you can still turn into the underhook side and create angle. Use this window to either establish your own underhook on the opposite side to create a double underhook scramble, hip escape underneath for deep half guard entry while their head is still on the wrong side, or drive into them to create the Dogfight position where you have equal standing. The key is acting immediately before they complete the crossface."
@@ -80,7 +80,7 @@ description: "How to defend the Transition to Pocket Half Guard from Half Guard 
     },
     {
       "@type": "Question",
-      "name": "How should you manage your energy when defending against repeated Pocket Half Guard transition attempts?",
+      "name": "How do you manage energy against repeated Pocket Half Guard entry attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize skeletal alignment and frame positioning over muscular resistance. Your knee shield should be maintained through bone-on-body contact, not sustained muscular pushing. Keep your underhook attempts focused and efficient rather than constantly wrestling for position. If the top player abandons one attempt and resets, use that window to improve your position through hip escape or guard transition rather than simply resting in place. Defensive efficiency means spending energy only on high-value actions."

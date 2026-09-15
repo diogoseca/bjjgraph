@@ -78,7 +78,7 @@ description: "How to execute the Loop Choke from Half Guard Top in BJJ. Attackin
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins coming up for the underhook while you have a deep collar grip established in half guard top - what action initiates the choke?",
+      "name": "They come up for the underhook while you have a deep collar grip on top half guard: what starts it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As the opponent comes up for the underhook, their neck extends and the space under their chin opens—this is the ideal threading window. Thread your collar grip arm under their chin, allowing the collar fabric to slide beneath their jaw as their forward movement helps seat it into position. Then immediately secure their head with your free hand to prevent them from pulling free. Their underhook attempt actually assists the choke setup because the forward motion drives their neck into the collar loop. Time the thread to the beginning of their movement, not the end."
@@ -86,7 +86,7 @@ description: "How to execute the Loop Choke from Half Guard Top in BJJ. Attackin
     },
     {
       "@type": "Question",
-      "name": "What is the minimum time period you should take to apply full pressure in the Loop Choke during training?",
+      "name": "How long should you take to reach full loop choke pressure in training from half guard top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The minimum application time is 3-5 seconds from initial tightness to full finishing pressure. This progressive application through controlled sprawling is a critical safety requirement that gives your training partner adequate time to recognize the choke and tap safely. Competition-speed application with explosive sprawling is never appropriate in training and significantly increases injury risk. The sprawl should be steady and controlled, allowing the collar to tighten gradually so the partner can feel the compression building and respond with a tap at any point during the sequence."
@@ -94,7 +94,7 @@ description: "How to execute the Loop Choke from Half Guard Top in BJJ. Attackin
     },
     {
       "@type": "Question",
-      "name": "Why is the sprawling hip motion more effective than arm pulling for finishing the Loop Choke from Half Guard?",
+      "name": "Why does sprawling finish the loop choke from half guard better than pulling with the arms?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sprawl uses the large muscle groups of the hips and legs to create distance between the attacker's body and the opponent's neck, and this increasing distance is what tightens the collar loop around the neck. Arm pulling alone relies on smaller muscle groups that fatigue quickly and cannot generate the sustained force needed for a clean blood choke. The sprawl creates a mechanical advantage where the attacker's entire body weight moves away from the anchor point of the collar grip, producing consistent tightening pressure that is difficult for the defender to resist. Additionally, the sprawl keeps the attacker's weight distributed properly to prevent sweeps during the finish."
@@ -102,7 +102,7 @@ description: "How to execute the Loop Choke from Half Guard Top in BJJ. Attackin
     },
     {
       "@type": "Question",
-      "name": "Your opponent tucks their chin strongly to block the collar thread while you have the deep grip established from half guard top - how do you adjust?",
+      "name": "They tuck their chin hard against your deep collar grip from half guard top: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent tucks their chin, use your crossface arm to turn their head away from your collar grip side, creating space under the chin on the exposed side. Apply steady crossface pressure while maintaining the deep collar grip until their jaw lifts enough for the thread. Alternatively, threaten complementary attacks—a darce choke when they turn toward you, or a kimura on their framing arm—to force them to lift their chin defensively. You can also use a collar drag motion, pulling the collar across their neck to rotate their head and create the opening. The chin tuck is only effective while they can maintain it under your crossface pressure."
@@ -110,7 +110,7 @@ description: "How to execute the Loop Choke from Half Guard Top in BJJ. Attackin
     },
     {
       "@type": "Question",
-      "name": "What should you do if the Loop Choke produces no tap within 5-6 seconds of applying full sprawl pressure?",
+      "name": "No tap after 5-6 seconds of full sprawl pressure on the loop choke: what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the choke has not produced a response within 5-6 seconds of full pressure application, the collar positioning is likely incorrect and you should release the pressure, reset the technique, and return to half guard top control rather than forcing it. Continuing to apply pressure on a poorly positioned choke often means you have a shallow grip creating tracheal pressure rather than bilateral carotid compression, which is both ineffective and dangerous. Maintain the collar grip for a future attempt while returning to standard passing, or transition to a different attack. Forcing a mispositioned choke demonstrates poor technical understanding and creates unnecessary injury risk for your training partner."

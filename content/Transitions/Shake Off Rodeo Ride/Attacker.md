@@ -98,7 +98,7 @@ description: "Execute the Shake Off Rodeo Ride escape in BJJ. Step-by-step explo
     },
     {
       "@type": "Question",
-      "name": "The rider sinks their hips very low and heavy on your back—why does this make the shake-off ineffective?",
+      "name": "The rider sinks their hips low and heavy on your back; why does the shake-off fail?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the rider fully settles with heavy low hip pressure, the force required to dislodge them exceeds what can be generated from the turtle base position without losing structural integrity. Their settled weight creates a lower center of gravity and wider pressure footprint that distributes force across your entire back rather than concentrating on a point that can be disrupted. Against heavy settled pressure, switch to the Escape from Rodeo Ride rotation which uses the rider's own weight against them, or the sit-back guard recovery which changes the positional relationship through backward hip movement."
@@ -114,7 +114,7 @@ description: "Execute the Shake Off Rodeo Ride escape in BJJ. Step-by-step explo
     },
     {
       "@type": "Question",
-      "name": "How does the Shake Off fit into the broader Rodeo Ride escape hierarchy compared to rolling and rotation escapes?",
+      "name": "How does the Shake Off compare to the rolling and rotation escapes from Rodeo Ride?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Shake Off occupies the lowest-risk, lowest-reward position in the escape hierarchy. The Escape from Rodeo Ride rotation offers the highest reward (side control top) but requires the most grip fighting and setup time. The Roll from Rodeo Ride offers moderate reward (half guard) with moderate risk (back exposure during rotation). The Shake Off offers the lowest reward (clean turtle, still on bottom) but with the lowest commitment and risk—no back exposure during execution. The Shake Off is best used as a disruption tool that creates the conditions for higher-percentage follow-up escapes."

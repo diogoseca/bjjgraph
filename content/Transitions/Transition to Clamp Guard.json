@@ -296,7 +296,7 @@
         }
       },
       {
-        "question": "Your opponent keeps their elbows tight and refuses to extend their arms — how do you create the reaching reaction needed for the clamp entry?",
+        "question": "They keep elbows tight and never extend — how do you draw the reach for the clamp entry?",
         "answer": "Use indirect setups that force arm extension. A collar drag feint pulls their upper body forward, prompting a hand post. A hip bump threat forces them to base with their hands. Breaking their existing grips on your legs forces them to re-establish grips, creating extension windows. A sweep threat from butterfly hooks makes them post laterally. Each of these creates a 0.5-1 second window where the arm extends and can be intercepted by the shin threading across the bicep.",
         "answer_line": "Feint collar drag or hip bump",
         "distractors": {
@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "If your clamp attempt fails and the opponent begins advancing past your legs, what is your immediate recovery protocol?",
+        "question": "Your clamp fails and they start passing your legs — what is your recovery protocol?",
         "answer": "Immediately retract both legs to re-establish guard frames rather than continuing to pursue the clamp. Place feet on their hips or shins across their thighs to recreate distance. If they have already passed your knee line, hip escape and insert a knee shield to recover to half guard. Never leave your legs extended in a failed clamp position because both legs are committed to the trap attempt rather than defending against the pass, creating a critical vulnerability window.",
         "answer_line": "Retract legs, reframe hips",
         "distractors": {
@@ -487,7 +487,7 @@
         }
       },
       {
-        "question": "Why is circular arm extraction more effective than pulling straight back against an established clamp?",
+        "question": "Why is circular arm extraction better than pulling straight back out of an established clamp?",
         "answer": "The clamp uses a wedge mechanic created by the hip angle — the shin presses across the bicep at an angle that tightens under direct pulling force, similar to a Chinese finger trap. Circular extraction changes the force vector to one the clamp is not designed to resist. The outward rotation moves the arm around the edge of the shin rather than against the flat pressing surface, requiring significantly less force to clear. Additionally, circular motion disrupts the guard player's hip angle, further weakening the clamp mechanics.",
         "answer_line": "Rotate around the wedge",
         "distractors": {
@@ -501,7 +501,7 @@
         }
       },
       {
-        "question": "When is the optimal moment to drive forward rather than retract when defending against the clamp entry?",
+        "question": "When should you drive forward instead of retracting against the clamp entry?",
         "answer": "Drive forward only when you recognize the hip escape but before the shin has threaded across your bicep. At this stage, the forward drive collapses the space the opponent needs for the clamping angle and can advance your passing position. If the shin is already on the bicep, do not drive forward because the clamp tightens with forward pressure and the guard player can use your momentum for sweeps. The decision point is shin contact: no contact means drive, contact means retract or rotate.",
         "answer_line": "Before shin touches bicep",
         "distractors": {

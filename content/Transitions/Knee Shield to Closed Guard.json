@@ -333,7 +333,7 @@
         }
       },
       {
-        "question": "If the opponent successfully prevents your guard closure and you end up with one leg free but guard open, what is your immediate follow-up?",
+        "question": "Closing guard from knee shield fails and one leg is free with guard open: what next?",
         "answer": "Transition immediately to an open guard system rather than forcing the closed guard against strong resistance. Place your freed foot on their hip as a frame while your other foot hooks behind their leg, establishing a butterfly guard entry or single leg X-guard position. The half-extracted position creates excellent entries to alternative guard systems that may be more effective than fighting to close guard.",
         "answer_line": "Foot on hip, hook leg, open guard",
         "distractors": {
@@ -440,7 +440,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting to close guard from knee shield?",
+        "question": "Passing knee shield, what is the earliest cue they are closing guard on you?",
         "answer": "The earliest cue is a change in their knee shield pressure from offensive pushing with sweep threats to purely distance-creating pushing, combined with a diagonal hip escape motion away from you. When the bottom player shifts from threatening sweeps to creating maximum distance with their frame while their hips begin angling away, they are setting up the leg extraction. Recognizing this shift before the hip escape completes gives you the reaction time to shut down the attempt.",
         "answer_line": "Shield shifts to distance + hip out",
         "distractors": {
@@ -468,7 +468,7 @@
         }
       },
       {
-        "question": "What is your best recovery option if you recognize the extraction attempt too late and their leg is already partially freed?",
+        "question": "You spot the leg extraction late and their leg is partly free: what is your best recovery?",
         "answer": "Immediately control their extracting leg at the knee or ankle, preventing them from swinging it fully around your back to lock ankles. Step your far leg back and angle your body to create a passing angle rather than allowing guard closure. If you can trap their partially freed leg between your arm and body before they complete the wrap, you establish an open guard passing position rather than being pulled into closed guard.",
         "answer_line": "Trap the leg, angle off to pass",
         "distractors": {
@@ -482,7 +482,7 @@
         }
       },
       {
-        "question": "Your opponent successfully closes guard on you after the recovery—what immediate actions minimize the positional damage?",
+        "question": "They close full guard on you from knee shield: what immediate actions limit the damage?",
         "answer": "Immediately establish strong posture by sitting upright with your spine straight and head positioned directly over your hips. Place both hands on their hips to create distance and prevent them from breaking your posture for attacks. Begin the standard closed guard top survival sequence: posture first, then grip fight, then guard opening. The faster you establish posture after guard closure, the fewer offensive options they can develop against you.",
         "answer_line": "Posture up, hands on their hips",
         "distractors": {

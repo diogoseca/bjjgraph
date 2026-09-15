@@ -56,7 +56,7 @@ description: "Complete guide to defending the Z-Guard Pass from bottom position.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important grip to establish from Z-Guard bottom when defending against a pass attempt?",
+      "name": "From Z-Guard bottom, what single grip matters most when defending a pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The far-side underhook on the trapped leg side is the single most important grip. It controls the passer's posture and shoulder position, prevents them from establishing the crossface that enables the pass, and directly enables all major sweep options including old school sweep, underhook sweep, and back take entries. Without the underhook, the defender is limited to reactive frame defense without offensive counter-threats."
@@ -64,7 +64,7 @@ description: "Complete guide to defending the Z-Guard Pass from bottom position.
     },
     {
       "@type": "Question",
-      "name": "When should you abandon Z-Guard and transition to deep half guard instead of continuing to defend the knee shield?",
+      "name": "When should you leave Z-Guard for deep half instead of defending the knee shield?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to deep half when your knee shield has been partially collapsed to the point where re-extension requires more energy than the position is worth, but the passer has not yet gripped your knee to pin the shield or initiated the knee slide. The window is narrow: once the passer controls your knee, deep half entry becomes significantly harder. The cue is feeling your shield losing structural integrity despite active resistance, combined with the passer's weight settling lower and heavier."
@@ -80,7 +80,7 @@ description: "Complete guide to defending the Z-Guard Pass from bottom position.
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established crossface and is driving heavy pressure into your collapsing knee shield - what is your emergency response?",
+      "name": "They have the crossface on and your knee shield is collapsing—what is your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With crossface established and the shield collapsing, your best emergency response is to commit to a deep half guard entry by shooting your top arm under their body and turning into them to get your head underneath their hips. Alternatively, frame against their shoulder with both hands to create momentary space for a hip escape that allows you to re-angle and re-establish the knee shield. The worst response is lying flat and hoping to recover through strength alone."

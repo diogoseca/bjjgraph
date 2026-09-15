@@ -104,7 +104,7 @@ description: "Master the offensive counter-entanglement from Outside Ashi-Garami
     },
     {
       "@type": "Question",
-      "name": "Why does hesitating mid-rotation create a worse outcome than either completing or aborting the entry?",
+      "name": "Why is hesitating mid-rotation on the saddle entry worse than committing or aborting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pausing mid-rotation puts you in a transitional position where you have abandoned your defensive structure from outside ashi-garami top but have not yet established offensive saddle control. In this no-man's-land, your heel may be exposed without protective grips in place, your opponent can readjust their own legs to re-establish their triangle, and you lack both defensive and offensive frames. Either commit fully and complete the rotation or abort and return to defensive heel protection."

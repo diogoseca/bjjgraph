@@ -52,7 +52,7 @@ description: "How to defend against the Marce Choke in BJJ. Recognition cues, es
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up a Marce Choke, and what should your immediate response be?",
+      "name": "What is the earliest cue your opponent is setting up a Marce Choke, and how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the top player's hand closest to your head reaching across your neck toward your far lapel rather than maintaining normal side control grips. Your immediate response should be to use your far hand to block their reaching arm while simultaneously beginning to turn into them. The goal is to prevent the lapel grip from being established in the first place, as defense becomes exponentially harder once the lapel is across your neck. If you can deny the initial grip, the entire Marce Choke sequence is shut down."
@@ -60,7 +60,7 @@ description: "How to defend against the Marce Choke in BJJ. Recognition cues, es
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to tap early when you recognize the Marce Choke is fully locked rather than fighting to escape?",
+      "name": "Why tap early once the Marce Choke is fully locked rather than fighting to escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Blood chokes like the Marce Choke can cause unconsciousness in as little as 3-8 seconds once full bilateral carotid compression is achieved. If the lapel is deeply fed across both sides of your neck, the attacker's body weight is driving perpendicular pressure, and you feel the choke tightening with each breath, you have very limited time before losing consciousness. Attempting a late escape at this point risks going unconscious before completing the escape, which is dangerous and prevents you from tapping. Tapping early preserves your safety, allows continued training, and reflects mature understanding of when defense has failed."
@@ -68,7 +68,7 @@ description: "How to defend against the Marce Choke in BJJ. Recognition cues, es
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially fed the lapel across your neck but has not yet applied full finishing pressure - what is your best escape option?",
+      "name": "The lapel is partly fed across your neck but not tight yet—what is your best escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the lapel partially fed, your best option is aggressive two-on-one grip fighting to strip the lapel grip combined with an immediate turn into the attacker. Use both hands to grab their gripping wrist and peel it away from your collar while simultaneously bridging and turning your body to face them. The turn removes the perpendicular angle needed for finishing pressure, and stripping the grip eliminates the choking mechanism. You must act decisively in this window because once the attacker secures a deep grip and begins transitioning to north-south, your escape percentage drops dramatically."
@@ -84,7 +84,7 @@ description: "How to defend against the Marce Choke in BJJ. Recognition cues, es
     },
     {
       "@type": "Question",
-      "name": "What physical sensations indicate you need to tap immediately rather than continue fighting the Marce Choke?",
+      "name": "Which sensations mean you must tap to the Marce Choke instead of fighting on?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should tap immediately when you feel tightness on both sides of your neck simultaneously (bilateral carotid compression), your vision begins to narrow or darken (early signs of blood flow restriction to the brain), you feel a rushing sensation in your head, or your grip strength suddenly weakens during your defensive efforts. Any of these sensations indicate that the blood choke is effective and unconsciousness may follow within seconds. Do not wait until you feel lightheaded or disoriented, as by that point you may not have the motor control to tap effectively. Training yourself to recognize early warning signs and tap promptly is a critical safety skill."

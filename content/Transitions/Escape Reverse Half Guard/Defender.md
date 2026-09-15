@@ -56,7 +56,7 @@ description: "Defend against the Escape from Reverse Half Guard in BJJ. Learn to
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest indicators that the bottom player is about to attempt the reverse half guard escape?",
+      "name": "What are the earliest signs they are about to attempt the reverse half guard escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest indicators are frame placement against your hips on the trapped leg side and initial hip escaping movements away from your body. These preparatory actions create the space needed for rotation and precede the actual escape by one to two seconds. Feeling increased pushing pressure against your hips should trigger an immediate defensive response before the rotation begins."
@@ -80,7 +80,7 @@ description: "Defend against the Escape from Reverse Half Guard in BJJ. Learn to
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your pressure if the bottom player begins to invert rather than rotate normally?",
+      "name": "How do you adjust pressure if they start inverting instead of rotating normally?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the bottom player begins inverting, shift your weight toward their hips and sprawl your legs back to eliminate the space they need for inversion. Drive your chest pressure downward toward the mat rather than forward. This prevents the inversion entry and forces them back to the standard rotation-based escape pattern, which is more predictable and easier to counter from your position."

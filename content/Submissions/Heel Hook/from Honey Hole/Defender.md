@@ -74,7 +74,7 @@ description: "Defend against the heel hook from Honey Hole with early recognitio
     },
     {
       "@type": "Question",
-      "name": "What is the highest-percentage defensive response when you first feel the Honey Hole triangle forming?",
+      "name": "What is the highest-percentage defense when you first feel the Honey Hole triangle forming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive hip rotation toward the opponent's legs to enter 50-50 guard is the highest-percentage escape. This must be executed within 1-2 seconds of feeling the triangle form, before the opponent secures your heel. The rotation neutralizes their inside position advantage by creating symmetrical entanglement. Commit fully with maximum force — partial rotation fails and worsens your position. This escape becomes dramatically less effective once the opponent has upper body control or heel access."

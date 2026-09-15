@@ -112,7 +112,7 @@ description: "Master executing the Sweep from Knee Shield in BJJ. Learn underhoo
     },
     {
       "@type": "Question",
-      "name": "You have established the underhook but the opponent is driving forward with heavy pressure—how do you use this momentum?",
+      "name": "Knee shield bottom with the underhook: how do you use their heavy forward pressure to sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Forward pressure from the opponent is the ideal condition for the sweep. Their weight is already loaded past their base line, so your job is simply to redirect it laterally. Maintain your knee shield angle so their pressure drives across your body rather than straight into you. Pull with the underhook in the direction of the sweep while pushing with the knee shield into their hip crease. Their own momentum becomes the primary sweeping force—you are redirecting energy rather than generating it."
@@ -120,7 +120,7 @@ description: "Master executing the Sweep from Knee Shield in BJJ. Learn underhoo
     },
     {
       "@type": "Question",
-      "name": "At what point should the knee shield transition from a defensive frame to an offensive lever during the sweep?",
+      "name": "During the knee shield sweep, when does the knee shield become an offensive lever?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The transition occurs at the moment of the explosive drive, not before. During setup—securing the underhook, creating angle, controlling far side—the knee shield should remain a defensive frame maintaining distance. When all prerequisites are met and you commit to the sweep, the shield angles downward toward the opponent's hip crease and becomes a pushing lever. Transitioning too early collapses your defensive structure before the sweep is ready, exposing you to guard passing."

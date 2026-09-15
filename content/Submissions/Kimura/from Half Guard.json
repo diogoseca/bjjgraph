@@ -331,7 +331,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the minimum application time for shoulder rotation during training, and why is this critical?",
+        "question": "How long should Kimura shoulder rotation take in training, and why does that matter?",
         "answer": "The minimum application time is 3-5 seconds of progressive, smooth rotation. This is critical because the shoulder joint is extremely vulnerable to sudden torque, and rapid application can cause rotator cuff tears, shoulder dislocation, or labral damage before the partner has time to recognize the danger and tap. Slow application in training protects your partner's long-term health while still teaching proper finishing mechanics. Competition speed is faster but should never involve jerking motions.",
         "safety_critical": true,
         "answer_line": "3-5 sec, slow and smooth",
@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "What are the three primary threats created by the Kimura from half guard, and how does the opponent's defense determine which path you take?",
+        "question": "What three threats does the half guard Kimura create, and how does their defense pick your path?",
         "answer": "The three primary threats are: (1) the Kimura submission itself through shoulder rotation, (2) the sweep to top position when opponent posts their free hand, and (3) the back take when opponent turns into the grip to relieve pressure. The opponent's defensive choice determines your path: if they stay stationary and defend the rotation, continue to submission; if they post out, execute the sweep; if they turn toward you, take the back. This trilemma structure makes the position so powerful.",
         "safety_critical": false,
         "answer_line": "Submission, sweep, or back take",
@@ -391,7 +391,7 @@
         }
       },
       {
-        "question": "Why must you keep the opponent's elbow isolated close to their body and off the mat during Kimura setup and execution?",
+        "question": "Why keep their elbow tight to their body and off the mat during the half guard Kimura?",
         "answer": "Keeping the elbow isolated close to the ribs and off the mat maintains the structural vulnerability of the shoulder joint. If their elbow touches the mat, they gain a posting base that allows them to generate counter-pressure and escape the rotational mechanics of the submission. The isolated elbow position maximizes leverage for shoulder rotation while minimizing their defensive options. This positional detail is the difference between a tight, high-percentage submission and a defended escape opportunity.",
         "safety_critical": false,
         "answer_line": "Elbow off mat kills posting base",
@@ -406,7 +406,7 @@
         }
       },
       {
-        "question": "What is the proper grip configuration for the Kimura figure-four, and what common grip mistake reduces effectiveness?",
+        "question": "What is the correct Kimura figure-four grip, and which grip error weakens it?",
         "answer": "The proper figure-four uses a palm-to-palm or wrist-to-wrist grip where you control the opponent's wrist with one hand and grip your own wrist with the other hand, creating a closed loop. The common mistake is gripping your own fingers instead of wrist, which creates a weaker connection that can be broken under pressure. Another error is crossing your arms incorrectly so that rotation moves the wrong direction. The figure-four should be tight and secure before any rotational pressure is applied.",
         "safety_critical": false,
         "answer_line": "Grip your own wrist, not fingers",
@@ -421,7 +421,7 @@
         }
       },
       {
-        "question": "Your opponent begins rotating their body to relieve shoulder pressure mid-submission - what adjustment secures the finish?",
+        "question": "They rotate to relieve shoulder pressure mid-Kimura: what adjustment secures the finish?",
         "answer": "When the opponent rotates to relieve pressure, you must follow their rotation while maintaining the figure-four grip. Drive your chest forward into their back as they turn, keeping constant pressure on the shoulder joint throughout their movement. If they continue turning fully toward you, this becomes your back take opportunity - release half guard and establish hooks. The key is never allowing slack in the submission during their movement; your body follows theirs like a shadow.",
         "safety_critical": false,
         "answer_line": "Follow their turn, grip stays tight",
@@ -436,7 +436,7 @@
         }
       },
       {
-        "question": "What anatomical structure does the Kimura primarily attack, and at what point does the submission become inescapable?",
+        "question": "What does the Kimura attack, and at what point does it become inescapable?",
         "answer": "The Kimura attacks the glenohumeral joint (shoulder) through internal rotation, driving the bent forearm toward the lower back, stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the labrum. The submission becomes inescapable once the opponent's wrist passes behind their hip line with their elbow pinned. At this angle, the shoulder joint reaches its rotational limit and any further movement creates joint failure. Before this point, opponents can still bridge, roll, or extract their arm.",
         "safety_critical": false,
         "answer_line": "Wrist behind hip line, elbow pinned",
@@ -451,7 +451,7 @@
         }
       },
       {
-        "question": "How do you adjust your finishing mechanics when the opponent straightens their arm to defend the Kimura?",
+        "question": "How do you adjust the finish when they straighten their arm against your Kimura?",
         "answer": "When the opponent straightens their arm, the Kimura grip becomes less effective because the bent elbow creates the fulcrum for rotation. Immediately transition to an armbar by maintaining your grip on their wrist, swinging your top leg over their face, and extending their arm against your hips. The straightened arm actually makes the armbar easier. Alternatively, you can re-bend their arm by pulling their wrist toward their shoulder while driving your hip into their elbow, forcing the 90-degree angle needed for the Kimura.",
         "safety_critical": false,
         "answer_line": "Switch to armbar off straight arm",
@@ -481,7 +481,7 @@
         }
       },
       {
-        "question": "When applying the Kimura from bottom half guard, how do you prevent your opponent from stacking you to escape?",
+        "question": "Attacking a Kimura from bottom half guard, how do you stop them from stacking you?",
         "answer": "To prevent stacking, maintain a strong angle perpendicular to your opponent rather than staying flat underneath them. Keep your near-side shoulder blade on the mat while angling your hips away, creating an L-shape. Use your bottom knee shield or butterfly hook to create space and prevent them from driving their weight forward. If they begin stacking, swim your top leg over their shoulder to create additional leverage and frame. The perpendicular angle makes stacking mechanically difficult.",
         "safety_critical": false,
         "answer_line": "Angle perpendicular, form an L",
@@ -496,7 +496,7 @@
         }
       },
       {
-        "question": "What is the point of no return in the Kimura finish, and how do you recognize when to stop applying pressure in training?",
+        "question": "Where is the Kimura's point of no return, and when do you stop applying pressure in training?",
         "answer": "The point of no return occurs when the opponent's wrist reaches approximately mid-back level (between shoulder blades) with their elbow remaining tight to their ribs. At this position, the shoulder has reached maximum internal rotation and any additional pressure will cause tissue damage. In training, stop at approximately 70-80% of this rotation - when you feel firm resistance in the joint rather than muscular resistance. If your partner hasn't tapped by this point, verbal check or slight pressure increase signals them to tap without risking injury.",
         "safety_critical": true,
         "answer_line": "Stop at firm resistance, ~75%",
@@ -539,7 +539,7 @@
         }
       },
       {
-        "question": "Your opponent posts their far hand on the mat while you have half guard bottom - how do you initiate the Kimura entry?",
+        "question": "They post their far hand while you're in bottom half guard: how do you enter the Kimura?",
         "answer": "Secure their posted wrist with your outside hand using a quick C-grip before they retract. Immediately thread your inside arm deep under their tricep toward the elbow while pulling their wrist toward your centerline. Complete the figure-four by grabbing your own wrist. The posting hand is the most vulnerable target because their weight is committed forward through that arm, making retraction slow and giving you a larger entry window.",
         "answer_line": "C-grip wrist, thread to elbow",
         "distractors": {
@@ -567,7 +567,7 @@
         }
       },
       {
-        "question": "How should you respond when the opponent begins pulling their arm back after you have secured the Kimura grip?",
+        "question": "They pull their arm back after you lock the Kimura grip: what is your response?",
         "answer": "Maintain the grip firmly with elbows tight to your body and immediately increase rotational pressure on their shoulder to make extraction uncomfortable. Simultaneously use your hips to bridge into them, driving their trapped arm further across their centerline. Their arm retraction attempt can be converted into a sweep opportunity by using their pulling momentum against their own base. Never chase their arm by extending your own arms, as this compromises your grip structure.",
         "answer_line": "Hold tight, bridge into sweep",
         "distractors": {
@@ -595,7 +595,7 @@
         }
       },
       {
-        "question": "Your opponent drives forward aggressively to flatten you after you secure initial wrist control - what do you do?",
+        "question": "They drive forward to flatten you after you get wrist control: what do you do?",
         "answer": "Use their forward momentum to complete the Kimura grip faster by pulling their wrist toward your centerline as they drive. Their forward pressure actually assists the arm threading process by bringing their tricep closer to your inside hand. Once the figure-four is locked, their forward drive can be redirected into a rolling Kimura sweep where you use their committed weight to come on top. The key is to redirect their pressure through the Kimura system rather than fighting it.",
         "answer_line": "Use momentum, finish grip fast",
         "distractors": {
@@ -623,7 +623,7 @@
         }
       },
       {
-        "question": "Your initial Kimura entry fails and the opponent retracts their arm before you can lock the figure-four - what chain attacks are available?",
+        "question": "Your Kimura entry fails and they retract the arm: what chain attacks are available?",
         "answer": "When the Kimura entry fails, you have several immediate follow-up options that exploit the opponent's defensive reaction. Their arm retraction typically pulls their weight backward, which opens underhook access on the same side for a standard half guard sweep or back take. If they retract by pulling their elbow tight, you can switch to an overhook on that arm and threaten overhook sweeps. The failed Kimura attempt also creates a momentary disruption in their passing pressure, giving you a window to re-establish knee shield or transition to deep half guard.",
         "answer_line": "Underhook sweep or overhook",
         "distractors": {
@@ -794,7 +794,7 @@
         }
       },
       {
-        "question": "Why is rolling forward over your shoulder a dangerous escape attempt when caught in a Kimura from half guard?",
+        "question": "Why is rolling forward a dangerous escape when caught in a half guard Kimura?",
         "answer": "Rolling forward is dangerous because the attacker maintains the figure-four Kimura grip throughout your entire roll. You end the roll with your back exposed and the attacker attached to your back with the Kimura still locked. This converts a submission defense situation into a back exposure plus submission threat, which is objectively worse. The attacker can then finish the Kimura from back control or transition to rear naked choke. Instead of rolling, drive backward into the attacker or circle away.",
         "safety_critical": true,
         "answer_line": "Grip stays locked, back exposed",
@@ -809,7 +809,7 @@
         }
       },
       {
-        "question": "At what point during the Kimura sequence does defense become critically urgent, and what should you do?",
+        "question": "When does Kimura defense become critically urgent from half guard top, and what do you do?",
         "answer": "Defense becomes critically urgent the moment you feel the figure-four grip closing around your wrist. Once locked with hip connection and perpendicular angle, the attacker's trilemma (submission, sweep, back take) is fully active and each defensive choice opens a different attack. You should act before this point by stripping their initial wrist control, retracting your arm to your centerline, and driving heavy crossface pressure to flatten them. If figure-four is locked, immediately grab your own thigh or belt to stall rotation while working grip breaks.",
         "safety_critical": false,
         "answer_line": "Strip wrist before figure-four locks",
@@ -824,7 +824,7 @@
         }
       },
       {
-        "question": "What should you do if you feel shoulder rotation pressure beginning and cannot break the figure-four grip?",
+        "question": "You feel Kimura rotation starting and can't break the figure-four: what do you do?",
         "answer": "If rotation has started and grip breaks have failed, you must tap immediately if you feel sharp pain or sense the joint reaching its limit. In a training context, tap early rather than risking a rotator cuff tear or shoulder dislocation. If there is still room before damage, turn your body to face the attacker (rotating toward them, not away) while pulling your elbow aggressively toward your hip. This can create momentary slack. However, never attempt to endure rotation past the pain point - the shoulder joint can suffer permanent damage within fractions of a second once the rotational limit is reached.",
         "safety_critical": true,
         "answer_line": "Tap early, don't fight rotation",
@@ -839,7 +839,7 @@
         }
       },
       {
-        "question": "How do you defend the Kimura sweep that occurs when the attacker uses your posted hand as a pivot point?",
+        "question": "How do you defend the Kimura sweep that pivots off your posted hand?",
         "answer": "The best defense is prevention: never post your free hand on the mat to resist rotation. If you feel the urge to post, instead use that hand to attack the attacker's figure-four grip or control their hip. If you've already posted and feel the sweep loading, immediately retract the posted hand and lower your base by dropping your hips toward the mat. Widen your knees to create a broader base that's harder to sweep. The sweep requires you to be high on a single post point, so lowering your center of gravity neutralizes the leverage.",
         "safety_critical": false,
         "answer_line": "Never post; drop hips, widen base",
@@ -854,7 +854,7 @@
         }
       },
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting a Kimura from half guard bottom?",
+        "question": "What is the earliest cue that the bottom player is going for a Kimura from half guard?",
         "answer": "The earliest cue is when the bottom player releases their underhook or primary frame to reach for your arm, typically your posting hand or the arm establishing crossface. You may also feel their inside hand beginning to thread under your tricep or their body angle shifting aggressively to their side. Recognizing these early movements before the figure-four is locked gives you the widest window for prevention through arm retraction or forward pressure.",
         "answer_line": "They release frame to grab arm",
         "distractors": {
@@ -868,7 +868,7 @@
         }
       },
       {
-        "question": "Your opponent has secured wrist control but has not completed the figure-four - what is your best immediate response?",
+        "question": "They have wrist control but no figure-four yet: what is your best immediate response?",
         "answer": "Immediately pull your arm back toward your own hip while simultaneously driving your chest forward and down into the opponent's torso. The combination of arm retraction with forward pressure makes it nearly impossible for them to thread their inside arm under your tricep. If you cannot retract the arm, circle your elbow inward toward your own body to close the space under your tricep that they need for the thread. Speed is critical because once the figure-four locks, extraction becomes exponentially harder.",
         "answer_line": "Retract arm, drive chest down",
         "distractors": {
@@ -896,7 +896,7 @@
         }
       },
       {
-        "question": "What positional advancement opportunity exists when you successfully defend the Kimura attempt from half guard top?",
+        "question": "After defending their Kimura from half guard top, what positional opportunity opens up?",
         "answer": "When the bottom player commits both hands to the Kimura attempt, they sacrifice their primary frames and underhook control. This creates an immediate passing window because they have no defensive structure remaining to prevent your weight from settling. Drive your chest forward and down while working to free your trapped leg, as their lack of frames allows you to complete the pass to side control. Their failed Kimura attempt often leaves them flat on their back without the hip angle needed for guard retention.",
         "answer_line": "Pass while they lack frames",
         "distractors": {
@@ -910,7 +910,7 @@
         }
       },
       {
-        "question": "Why is driving weight forward more effective than retreating when defending the Kimura grip establishment?",
+        "question": "Why is driving weight forward better than retreating when defending the Kimura grip?",
         "answer": "Forward pressure flattens the bottom player's hip angle, which is the structural foundation they need for threading their arm and completing the figure-four. When you retreat or lean back, you create the exact space they need to deepen their grip and access sweeping leverage. Forward pressure also pins their shoulders and reduces their ability to turn to their side, which is essential for the Kimura entry mechanics. Additionally, your forward weight makes their cross-body arm pull ineffective because your mass resists the directional force of the Kimura system.",
         "answer_line": "Forward pressure flattens hips",
         "distractors": {
@@ -924,7 +924,7 @@
         }
       },
       {
-        "question": "Your opponent has established a full Kimura grip and begins threatening a sweep - what is your defensive priority?",
+        "question": "They have a full Kimura grip and threaten the sweep: what is your defensive priority?",
         "answer": "Your immediate priority is preventing the sweep rather than stripping the grip, because losing top position with the Kimura grip intact puts you in a far worse situation. Widen your base by posting your free hand far to the side and sprawling your hips to lower your center of gravity. Simultaneously drive your chest into their torso to flatten their hips and reduce their sweeping leverage. Once your base is stabilized against the sweep, begin working the grip break through controlled circular elbow movement combined with sustained forward pressure to degrade the figure-four structure.",
         "answer_line": "Stop sweep first, then grip",
         "distractors": {

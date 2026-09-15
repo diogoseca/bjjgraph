@@ -56,7 +56,7 @@ description: "Defend against the mounted triangle to S mount transition. Learn t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the specific trigger that tells you the transition from mounted triangle to S mount has begun?",
+      "name": "What tells you the attacker has started switching from mounted triangle to S mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is feeling the triangle ankle lock release or loosen behind your shoulder as the attacker uncrosses their legs. Secondary cues include the attacker shifting from triangle squeeze pressure to forward hip-to-shoulder pinning pressure, and their grip changing from head control to firm two-on-one wrist control on your trapped arm. The combination of loosened legs and intensified wrist grip is the definitive signal that the transition is in progress."
@@ -64,7 +64,7 @@ description: "Defend against the mounted triangle to S mount transition. Learn t
     },
     {
       "@type": "Question",
-      "name": "Why is the transition window your best escape opportunity compared to defending from either mounted triangle or S mount?",
+      "name": "Why is the transition window a better escape chance than either mounted triangle or S mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the transition, the attacker must temporarily sacrifice two key control elements: the triangle lock structure (their primary control mechanism in mounted triangle) and their leg-based base (as both legs are being repositioned). This creates a brief period where the attacker's control and stability are at their weakest point. In contrast, both the mounted triangle and S mount are fully consolidated positions with complete control structures. Acting during the transition exploits the gap between two strong positions."
@@ -72,7 +72,7 @@ description: "Defend against the mounted triangle to S mount transition. Learn t
     },
     {
       "@type": "Question",
-      "name": "You feel the triangle loosen but the attacker has extremely strong wrist control on your trapped arm - what defensive priority do you choose?",
+      "name": "The triangle loosens but their wrist control is very strong — which defense do you choose?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Prioritize the hip escape to half guard rather than trying to extract the arm against strong wrist control. Attempting to pull the arm free against a strong grip risks extending it into armbar position. Instead, use the triangle loosening moment to bridge and hip escape aggressively. Even if your arm remains trapped, reaching half guard gives you significantly more escape options than being in S mount bottom with the same trapped arm. The positional improvement outweighs the arm extraction in this scenario."
@@ -80,7 +80,7 @@ description: "Defend against the mounted triangle to S mount transition. Learn t
     },
     {
       "@type": "Question",
-      "name": "If you fail to escape during the transition and the attacker establishes S mount, what should your immediate defensive priorities be?",
+      "name": "You fail to escape and they settle S mount — what are your immediate priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grip your own collar with the trapped hand to keep the arm bent, preventing full armbar extension. Use your free hand to hook or control the attacker's near leg to prevent them from stepping fully over your head for the armbar finish. Begin small hip escapes toward their legs to create incremental space. Do not panic or thrash - S mount defense requires the same calm, technical approach as any submission defense. Your goal shifts from escape to survival and incremental position improvement."
@@ -96,7 +96,7 @@ description: "Defend against the mounted triangle to S mount transition. Learn t
     },
     {
       "@type": "Question",
-      "name": "Your opponent pauses mid-transition with the triangle unlocked but legs not yet in S mount configuration - what is the optimal action in this limbo moment?",
+      "name": "They pause mid-transition, triangle unlocked but S mount not set — what is your best action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This limbo moment is your highest-percentage escape window. Fire an explosive bridge immediately combined with pulling your trapped arm back toward your body with the elbow driving toward your hip. The attacker has neither the triangle lock nor the S mount base established, meaning their control is at its absolute weakest. Simultaneously hip escape to create space for knee insertion. Even a partial disruption here can prevent the transition entirely and leave you in a significantly more escapable position than either the locked mounted triangle or consolidated S mount."

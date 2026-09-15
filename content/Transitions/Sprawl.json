@@ -271,7 +271,7 @@
         }
       },
       {
-        "question": "Your opponent shoots a double leg and you sprawl, but they switch to grabbing your left leg for a single leg - how do you adjust?",
+        "question": "You sprawl on a double but they switch to your left leg for a single: how do you adjust?",
         "answer": "Immediately post your right (free) leg out wide to establish a strong base and prevent being swept or elevated. Drive the hip of your trapped left leg down toward the mat to create heavy downward pressure that makes it difficult for them to lift. Establish either a crossface by driving your forearm across their face or secure a whizzer grip on their attacking arm. Circle aggressively to your right (away from the trapped leg) while hopping on your free foot. From here, transition to dedicated single leg defense sequences including limp leg escapes or switch to front headlock control.",
         "answer_line": "Post free leg, hip down, whizzer",
         "distractors": {
@@ -285,7 +285,7 @@
         }
       },
       {
-        "question": "What are the main positional transitions available after stuffing a takedown with a successful sprawl?",
+        "question": "What positional transitions are available after stuffing a takedown with a sprawl?",
         "answer": "After successfully sprawling and breaking the opponent's shot, the primary transitions are: front headlock control which opens guillotines, darce chokes, anaconda chokes, and back take opportunities; direct guillotine by securing the neck during the sprawl itself; mat return by driving the opponent flat to the mat to expose their back or advance to side control; passing to side control or knee on belly if the opponent turtles; and standing back up if the opponent disengages to reset to standing grappling.",
         "answer_line": "Front headlock or direct guillotine",
         "distractors": {
@@ -327,7 +327,7 @@
         }
       },
       {
-        "question": "Your opponent fakes a level change to bait your sprawl, then shoots when you are off-balance - how do you avoid this trap?",
+        "question": "They fake a level change to bait your sprawl, then shoot: how do you avoid this trap?",
         "answer": "Do not overcommit to the sprawl until the opponent fully commits to their shot with forward drive and penetration. Develop discrimination between genuine shots and fakes by watching for full commitment indicators: both feet leaving their stance, head dropping below waist level, and explosive forward movement rather than just a dip. If you react to a fake, recover quickly to your athletic stance rather than staying sprawled. Use your own feints and level changes to disrupt their timing. Training against partners who mix fakes with real shots builds the pattern recognition needed to avoid this trap.",
         "answer_line": "Wait for full shot commitment",
         "distractors": {
@@ -355,7 +355,7 @@
         }
       },
       {
-        "question": "Your opponent shoots a deep double leg and gets under your hips before you can sprawl - what is your emergency response?",
+        "question": "They get deep on a double under your hips before you can sprawl: what is your response?",
         "answer": "If the opponent achieves deep penetration before you can sprawl, your priority shifts to a whizzer (overhook) on their near arm combined with a crossface on their far side. Drive your hip down aggressively on the side they are attacking while using the whizzer to prevent them from finishing the lift. If they are already elevating you, consider sitting to guard by pulling them into your closed guard or De La Riva rather than fighting a lost sprawl battle. A late sprawl attempt against deep penetration often results in being driven to the mat in a worse position than voluntarily pulling guard.",
         "answer_line": "Whizzer and crossface, hips down",
         "distractors": {
@@ -502,7 +502,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your double leg shot gets sprawled on and you feel heavy chest pressure collapsing your posture - what is your first defensive priority?",
+        "question": "Your double is sprawled on and chest pressure collapses your posture: first priority?",
         "answer": "Your first priority is to tuck your chin tightly to your chest and bring your elbows close to your body to protect your neck from submission attempts. The opponent's immediate goal after sprawling is to establish front headlock control and attack with guillotines, darce chokes, or anacondas. If your neck is exposed during this transition, you are likely to be caught in a choke before you can execute any recovery. Secure the chin tuck first, then assess your remaining grip connections and available recovery options.",
         "answer_line": "Tuck chin, elbows in tight",
         "distractors": {
@@ -516,7 +516,7 @@
         }
       },
       {
-        "question": "When should you attempt to re-shoot after your initial takedown is stuffed by a sprawl rather than continuing to fight from underneath?",
+        "question": "After your shot is stuffed, when should you re-shoot rather than fight from underneath?",
         "answer": "Re-shooting is best attempted when you can create enough separation to stand up and the opponent has not yet locked up a front headlock grip. The window typically exists in the first two to three seconds after the sprawl lands, before the opponent transitions their hands from the mat to your head and neck. If you can push off their hips, circle away, and stand to an athletic stance, an immediate re-shot catches them while they are still recovering from the sprawl position. If the opponent already has front headlock grips, attempting to disengage and re-shoot is dangerous because they will snap you down as you try to stand.",
         "answer_line": "Re-shoot before headlock locks in",
         "distractors": {
@@ -544,7 +544,7 @@
         }
       },
       {
-        "question": "Your shot gets stuffed and the opponent begins circling to establish front headlock - what is the most critical thing to prevent?",
+        "question": "They stuff your shot and circle for a front headlock: what must you prevent most?",
         "answer": "The most critical thing to prevent is allowing the opponent to get their arm deep around your neck while simultaneously controlling your far shoulder. This dual control is what makes front headlock dangerous, because it locks you in place and sets up all their submission chains. Use your hands to fight their incoming arm at the wrist or elbow, preventing them from threading under your chin. Simultaneously, circle in the opposite direction from where they are stepping to deny them the angle they need. If you can prevent the neck grip from being established, the front headlock remains loose and your escape options stay viable.",
         "answer_line": "Deny arm around neck and shoulder",
         "distractors": {
@@ -558,7 +558,7 @@
         }
       },
       {
-        "question": "When is pulling guard the correct response to getting sprawled on versus continuing to fight for the takedown?",
+        "question": "After being sprawled on, when is pulling guard right instead of fighting for the takedown?",
         "answer": "Pulling guard is the correct response when the opponent has consolidated front headlock control with deep grips and active submission threats, making continued standing engagement more dangerous than conceding bottom position. Specifically, if their arm is already deep around your neck and their chest pressure is heavy, attempting to fight through creates high risk of guillotine or darce finishes. In this scenario, sitting through to closed guard or half guard while controlling their arms neutralizes the front headlock threats and puts you in a guard position you can work from. However, pulling guard should be a last resort when other recovery options have failed, not a default response to any sprawl.",
         "answer_line": "When headlock control is deep",
         "distractors": {

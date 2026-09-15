@@ -74,7 +74,7 @@ description: "How to defend against Far Side Armbar in BJJ. Recognition, escape 
     },
     {
       "@type": "Question",
-      "name": "When should you tap rather than continue defending the far side armbar, and why is this a safety-critical decision?",
+      "name": "When should you tap to the far side armbar instead of defending, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should tap immediately when you feel hyperextension pressure on your elbow that you cannot relieve through positional adjustment. If your arm is fully extended, the attacker's hips are driving upward, and your grip fighting has failed, continuing to resist risks ligament tears or elbow dislocation. The elbow joint has very little tolerance for hyperextension beyond its natural range. In training, tap early and tap often; the cost of tapping is a reset, while the cost of a torn ligament is months of recovery. Never let ego override joint safety."
@@ -82,7 +82,7 @@ description: "How to defend against Far Side Armbar in BJJ. Recognition, escape 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has your far arm isolated and is beginning to swing their leg over your head - what is your best defensive sequence?",
+      "name": "They swing a leg over your head for the far side armbar — what is your best escape sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As the leg swings over, this is your last high-percentage escape window because the attacker's base is momentarily compromised during the transition. Immediately clasp your hands together if not already clasped, then explosively bridge toward the attacker and roll over the trapped arm side. Time the bridge to coincide with their weight shift during the leg swing. If the bridge fails, immediately begin the hitchhiker escape by rotating your thumb toward your head and spinning your body before they can settle their legs and begin hip extension. Speed and commitment are essential at this stage."

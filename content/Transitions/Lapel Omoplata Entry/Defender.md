@@ -72,7 +72,7 @@ description: "How to defend against Lapel Omoplata Entry in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has their leg halfway over your shoulder—what is the highest-percentage escape at this stage?",
+      "name": "Their leg is halfway over your shoulder for the omoplata — what is your best escape now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this intermediate stage, clasp your hands together immediately to prevent full arm isolation, then drive your weight forward and circle toward the opponent to reduce the shoulder rotation angle. If they continue establishing control despite your hand clasp, transition to the forward roll escape before they sit up and secure full omoplata control with hip and belt grips."
@@ -80,7 +80,7 @@ description: "How to defend against Lapel Omoplata Entry in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How should you modify your posting strategy against an opponent who plays lapel guard with omoplata threats?",
+      "name": "How should you post against an opponent playing lapel guard with omoplata threats?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than posting with an extended arm when defending sweeps, use knee-based posting and hip drops to maintain base. Keep your hands close to your body and use your knees and hips for balance adjustments. When you must post a hand, retract it immediately after stabilizing rather than leaving it extended. This eliminates the target the omoplata entry requires."
@@ -88,7 +88,7 @@ description: "How to defend against Lapel Omoplata Entry in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "What makes defending omoplata from lapel guard harder than defending omoplata from standard closed guard?",
+      "name": "Why is defending the omoplata from lapel guard harder than from closed guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The lapel configuration creates a persistent fabric anchor that prevents the standard omoplata defense of posturing away. In closed guard, you can posture up and stack to kill the attack angle. In lapel guard, the lapel wrap physically restricts your ability to create distance, meaning you must address both the fabric barrier and the arm trap simultaneously rather than relying on posture alone."

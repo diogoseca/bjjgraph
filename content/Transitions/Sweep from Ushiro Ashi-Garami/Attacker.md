@@ -80,7 +80,7 @@ description: "Execute the sweep from Ushiro Ashi-Garami bottom to achieve mount.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important prerequisite to establish before initiating the sweep from ushiro ashi-garami?",
+      "name": "What must you control first before starting the sweep from ushiro ashi-garami bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlling the opponent's far posting hand is the most critical prerequisite. Without this control, the opponent will simply post on the mat when the sweeping force is applied, completely negating the off-balance. This grip must be established before any hip movement begins, as attempting to control the posting hand during the sweep is too late—the opponent will have already detected the sweep intention and reinforced their base."
@@ -88,7 +88,7 @@ description: "Execute the sweep from Ushiro Ashi-Garami bottom to achieve mount.
     },
     {
       "@type": "Question",
-      "name": "Your opponent is driving forward aggressively to finish a heel hook—how do you determine if the timing is right for the sweep?",
+      "name": "They drive forward for a heel hook—how do you know the ushiro ashi-garami sweep timing is right?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sweep timing is optimal when you can feel the opponent's weight has shifted forward past their base center through the pressure in the entangled legs. Confirm three conditions: their far posting hand is controlled or reachable, their heel hook grip has been neutralized or is mechanically weak, and your free leg has mat contact for posting. If all three conditions are met during their forward commitment, initiate immediately—the window is typically only 1-2 seconds before they either finish or readjust their base."
@@ -96,7 +96,7 @@ description: "Execute the sweep from Ushiro Ashi-Garami bottom to achieve mount.
     },
     {
       "@type": "Question",
-      "name": "What foot position must you maintain on your trapped leg throughout the entire sweep rotation and why?",
+      "name": "What foot position must the trapped leg hold through the ushiro ashi-garami sweep, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain strict dorsiflexion with toes pulled toward the shin throughout the entire sweep. This position protects the heel by pulling it close to the lower leg, preventing the opponent from establishing or tightening a heel hook grip during the rotation. The rotational forces during the sweep can actually amplify heel hook leverage if the foot is relaxed, making dorsiflexion a safety-critical requirement rather than just a technical preference."
@@ -112,7 +112,7 @@ description: "Execute the sweep from Ushiro Ashi-Garami bottom to achieve mount.
     },
     {
       "@type": "Question",
-      "name": "You initiate the sweep but feel the opponent stepping their outside leg through during your rotation—what should you do?",
+      "name": "Mid-sweep from ushiro ashi-garami, they step their outside leg through—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the sweep attempt and switch to saddle defense. The opponent stepping their outside leg through indicates a transition to saddle, which is a worse position than ushiro ashi-garami bottom. Control their inside knee with your hands to prevent full saddle establishment, begin boot defense on the trapped foot, and redirect your movement toward turtle recovery rather than continuing a sweep that will land you in deeper entanglement."

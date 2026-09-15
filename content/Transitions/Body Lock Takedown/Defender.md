@@ -58,7 +58,7 @@ description: "Comprehensive defensive guide against the Body Lock Takedown. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives their head into your shoulder and steps outside your lead foot - what defense do you prioritize?",
+      "name": "They drive their head into your shoulder and step outside your lead foot: what defense comes first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately execute an explosive sprawl by dropping your hips backward and toward the mat while widening your stance to lower your center of gravity. The sprawl must be committed and powerful, driving your weight downward to remove the attacker's ability to drive through your base. Simultaneously post your inside hand on the attacker's hip to create a frame that generates distance between your bodies. If the sprawl stops the forward momentum, begin hand fighting to break the grip. If the drive overwhelms your sprawl, transition immediately to controlled guard pull."

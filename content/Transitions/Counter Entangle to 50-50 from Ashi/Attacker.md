@@ -74,7 +74,7 @@ description: "Learn to execute the counter entangle to 50-50 from ashi garami. S
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What defensive reaction from your opponent creates the optimal window for initiating the counter entangle?",
+      "name": "Which defensive reaction opens the window to start the counter entangle from inside ashi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal window opens when your opponent rotates their knee inward to defend heel hook exposure from standard ashi garami. This knee rotation creates space between their thigh and your hip area, which is exactly the gap your free leg needs to thread through. Additionally, their defensive focus on protecting their heel means their attention is directed away from preventing your leg movement, giving you a brief window where the threading motion goes unopposed."
@@ -98,7 +98,7 @@ description: "Learn to execute the counter entangle to 50-50 from ashi garami. S
     },
     {
       "@type": "Question",
-      "name": "Your opponent straightens their leg explosively as you begin threading—how do you capitalize on this reaction?",
+      "name": "They straighten their leg explosively as you thread — how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Abort the counter entangle and immediately attack the straightened leg with a kneebar or straight ankle lock. Leg extension from Inside Ashi-Garami creates ideal mechanics for these submissions because the knee joint is now exposed and your existing leg control provides the fulcrum. Their defensive reaction to your threading attempt has actually opened a higher-percentage submission opportunity than the 50-50 transition would have provided."

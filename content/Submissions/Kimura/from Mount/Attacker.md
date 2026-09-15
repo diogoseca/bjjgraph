@@ -70,7 +70,7 @@ description: "How to execute Kimura from Mount in BJJ. Attacking perspective wit
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must the Kimura from mount be applied with slow, progressive pressure in training rather than explosive force?",
+      "name": "Why apply the mounted Kimura with slow, progressive pressure instead of explosive force in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shoulder joint contains multiple vulnerable structures including the rotator cuff tendons, labrum, and joint capsule that can tear or rupture without adequate warning if explosive force is applied. Slow, progressive application over 3-5 seconds allows the training partner to recognize the danger, assess their defense options, and tap safely before structural damage occurs. The shoulder joint's complex anatomy means injury can happen rapidly and without pain signals until damage is already done. Competition-speed application should only occur in competition where both athletes accept this risk."
@@ -78,7 +78,7 @@ description: "How to execute Kimura from Mount in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What is the correct grip configuration for the figure-four Kimura lock and why does hand placement distance matter?",
+      "name": "What is the correct figure-four grip for the mounted Kimura, and why does hand distance matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The figure-four grip is created by controlling the opponent's wrist with your same-side hand, then threading your opposite hand underneath their elbow to grip your own wrist. The critical element is gripping your wrist as far from the opponent's arm as possible - maximum distance between your hands creates maximum leverage. This distance functions as a lever arm: the further your grip point from the fulcrum (their shoulder), the more torque you can generate with less effort. Gripping too close to their arm reduces mechanical advantage significantly and makes the submission weak."
@@ -86,7 +86,7 @@ description: "How to execute Kimura from Mount in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What should you do immediately if you hear popping, clicking, or cracking sounds from your opponent's shoulder during Kimura application?",
+      "name": "Mounted Kimura: you hear popping or clicking from their shoulder—what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "IMMEDIATELY release all rotational pressure and follow the release protocol: stop the rotation, release the figure-four grip while controlling the arm, and gently guide their arm back to neutral position. Joint sounds during shoulder locks indicate structural damage is occurring - ligaments, tendons, or cartilage are tearing or joints are subluxating. Continuing pressure after hearing these sounds will cause severe injury requiring surgical intervention. Check your partner's shoulder health, range of motion, and pain levels before resuming any training. When in doubt, encourage immediate medical evaluation."
@@ -94,7 +94,7 @@ description: "How to execute Kimura from Mount in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What is the correct rotational direction and path for applying the Kimura from mount, and why does this matter?",
+      "name": "What is the correct rotational path for the mounted Kimura, and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The correct motion is a circular arc that moves the opponent's hand down toward their hip and lower back while maintaining elbow height at approximately ribcage level. This creates internal rotation of the shoulder joint, which engages the posterior shoulder capsule and rotator cuff tendons for maximum mechanical pressure. The motion should be smooth and circular, like stirring a large pot, not lifting straight up. Driving the hand toward the head instead is the Americana arc, not the Kimura. Incorrect angles (pulling straight up or away from the body) fail to engage the shoulder joint properly and reduce submission effectiveness while potentially directing pressure to less vulnerable structures."
@@ -102,7 +102,7 @@ description: "How to execute Kimura from Mount in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining mount control throughout the Kimura attempt considered essential to the technique's effectiveness?",
+      "name": "Why is keeping mount control throughout the Kimura attempt essential to the technique?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Mount control provides three critical advantages: First, your bodyweight creates constant downward pressure that limits opponent's mobility and breathing, compounding the submission pressure psychologically and physically. Second, mount position prevents common Kimura defenses like rolling away or creating distance - your legs and hips pin their torso. Third, maintaining mount means you retain dominant position even if the submission attempt fails, allowing you to transition to other attacks or reestablish the Kimura without losing positional hierarchy. Sacrificing mount for submission speed often results in losing both position and submission."
@@ -110,7 +110,7 @@ description: "How to execute Kimura from Mount in BJJ. Attacking perspective wit
     },
     {
       "@type": "Question",
-      "name": "What are the three most dangerous injuries that can result from improper Kimura application, and what are their typical recovery timelines?",
+      "name": "What are the three worst injuries from improper Kimura application, and their recovery timelines?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three most severe injuries are: (1) Rotator cuff tears affecting the supraspinatus, infraspinatus, or teres minor tendons, requiring 3-6 months recovery and often surgical repair; (2) Shoulder dislocation (anterior or posterior), requiring 6-12 weeks recovery with possible surgical intervention for recurrent instability; and (3) Labrum tears, requiring 4-9 months recovery with surgery. All three injuries can result in permanent shoulder instability or reduced range of motion if not properly treated. These injuries typically occur when explosive force is applied or when training partners continue pressure past the tap point."

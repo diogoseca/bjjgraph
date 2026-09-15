@@ -84,7 +84,7 @@ description: "How to execute Overhook Escape in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Your opponent shoots their shin toward your throat during extraction - what immediate adjustment prevents the counter?",
+      "name": "They shoot a shin at your throat as you extract your overhooked arm: what adjustment stops it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately tuck your chin firmly to your chest while keeping your extracting elbow connected to your ribs. This denies the space needed for the shin to slide across your throat. If the gogoplata setup progresses despite your chin tuck, abort the extraction, stack their hips to eliminate the angle, and reset to defensive positioning before attempting extraction again."

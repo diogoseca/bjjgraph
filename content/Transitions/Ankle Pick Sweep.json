@@ -354,7 +354,7 @@
         }
       },
       {
-        "question": "Your opponent begins sprawling backward as you reach for the ankle - what is your immediate tactical response?",
+        "question": "They sprawl backward as you reach for the ankle pick: what's your immediate response?",
         "answer": "When the opponent sprawls backward, follow their momentum rather than fighting it. Use their backward motion to transition into Single Leg X-Guard by sliding your near leg under and hooking their retreating leg, or come up to your knees immediately and pursue with a wrestling-style single leg attack. Alternatively, if you maintain the ankle grip, continue pulling while coming up to standing to convert to a single leg takedown finish. The worst response is to stay seated and try to pull them back toward you.",
         "answer_line": "Follow into single leg X",
         "distractors": {
@@ -410,7 +410,7 @@
         }
       },
       {
-        "question": "After successfully completing the ankle pick sweep, what immediate positional priorities should you focus on?",
+        "question": "Right after hitting the ankle pick sweep, what are your positional priorities?",
         "answer": "Immediately after the sweep, your priorities are: first, maintain upper body control throughout the transition to prevent guard recovery; second, come up on your knees explosively rather than staying seated; third, establish headquarters position or side control by getting your hips perpendicular to your opponent; fourth, secure head control with a crossface or underhook to prevent them from turning toward you; and fifth, begin advancing toward mount or working to pass any remaining leg frames. The first three seconds after a sweep are critical for consolidating position.",
         "answer_line": "Keep control, knees up, pass",
         "distractors": {
@@ -543,7 +543,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the first grip you should prioritize stripping when defending against an ankle pick sweep setup?",
+        "question": "Which grip should you strip first when defending the ankle pick sweep setup?",
         "answer": "Strip the upper body grip (collar, wrist, or sleeve control) first, as it provides the pulling force that creates the rotational off-balancing necessary for the sweep to work. Without this grip, the opponent can grab your ankle all they want but cannot generate the diagonal pulling force needed to topple you. The upper body grip is the engine of the sweep - remove it and the technique stalls completely.",
         "answer_line": "Strip the upper body grip",
         "distractors": {
@@ -571,7 +571,7 @@
         }
       },
       {
-        "question": "Your opponent has already grabbed your ankle and is beginning the sweep - what is your best immediate response?",
+        "question": "They have your ankle and the sweep is starting: what's your best immediate response?",
         "answer": "Your best immediate response depends on the sweep's progression. If the pull hasn't committed your weight yet, sprawl backward sharply to extract your ankle while driving your hips low. If you're already being pulled off balance, post your free hand to the mat with a bent elbow and immediately circle your feet toward the sweep direction to recover base. As a last resort, if the sweep is succeeding, hook one of their legs between yours as you fall to retain half guard rather than conceding full top position. The worst response is to freeze or try to stand still and resist the rotational force purely through leg strength.",
         "answer_line": "Sprawl back, extract the ankle",
         "distractors": {

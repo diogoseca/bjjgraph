@@ -56,7 +56,7 @@ description: "How to defend against Back Control to Crucifix in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting to transition from back control to crucifix?",
+      "name": "What earliest cue tells you your opponent is going from back control to crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the removal of the top-side hook. When the attacker extracts one hook while keeping the other inserted, they are creating the asymmetric leg configuration needed to thread the knee over your arm. This hook removal is the most reliable early warning because it must occur before the knee can cross. Feeling this change should trigger immediate elbow clamping and arm retraction to deny the entry window."
@@ -64,7 +64,7 @@ description: "How to defend against Back Control to Crucifix in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Why should you avoid extending both arms to defend the rear naked choke when the attacker might be setting up a crucifix?",
+      "name": "Why avoid extending both arms to defend the RNC when they may be setting up the crucifix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Extending both arms away from your body creates the exact spacing the attacker needs for crucifix entry. The gap between your elbow and ribcage becomes the insertion point for their knee. Instead, defend the choke primarily with chin position, shoulder raise, and one hand on the choking arm while keeping the near-side elbow clamped tight to your ribcage. This denies the space needed for the knee to cross over the arm while still addressing the choke threat."
@@ -72,7 +72,7 @@ description: "How to defend against Back Control to Crucifix in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has their shin partially across your near arm but has not captured your far arm yet. What is the optimal escape strategy?",
+      "name": "Their shin is across your near arm but your far arm is still free—what is the best escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the last high-percentage escape window. Use your free hand to push against the attacker's trapping knee while simultaneously shrimping your hips to change the angle of the shin trap. The combination of pushing the knee and changing your hip angle creates slack in the trap that allows arm extraction. Act quickly because the attacker is about to reach for your far arm. Once both arms are controlled, escape difficulty increases dramatically. If pushing the knee fails, immediately return the free hand to neck defense."
@@ -80,7 +80,7 @@ description: "How to defend against Back Control to Crucifix in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How does hip movement help free a trapped arm from the crucifix shin trap more effectively than direct arm pulling?",
+      "name": "Why does shrimping free a trapped arm from the crucifix shin trap better than pulling it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Direct pulling works against the mechanical advantage of the shin bone perpendicular to your arm. Hip movement changes the angle of the entire trap by shifting your body relative to the attacker's leg configuration. Shrimping creates slack in the trap that direct pulling cannot achieve because it addresses the root cause of the pin: the angle between your arm and the shin. Small hip adjustments can make the difference between an arm that is mechanically locked and one that can slide free."

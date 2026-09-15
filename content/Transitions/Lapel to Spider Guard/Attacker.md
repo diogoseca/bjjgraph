@@ -92,7 +92,7 @@ description: "How to execute Lapel to Spider Transition in BJJ. Attacking perspe
     },
     {
       "@type": "Question",
-      "name": "Your opponent strips your lapel grip and begins a knee slice pass—how do you adjust the transition timing?",
+      "name": "They strip your lapel and start a knee slice: how do you adjust the spider guard entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the knee slice initiates, you must immediately establish the spider hook on the passing-side arm to create a frame against the slice. Use the opposite foot on their hip to create distance. The key adjustment is prioritizing the passing-side bicep control first rather than establishing both simultaneously."

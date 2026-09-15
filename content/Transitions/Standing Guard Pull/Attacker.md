@@ -74,7 +74,7 @@ description: "Learn to execute the Standing Guard Pull as the attacker. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the optimal timing window for initiating the guard pull relative to your opponent's posture and weight distribution?",
+      "name": "Relative to your opponent's posture, when should you initiate the guard pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal timing is immediately after you have broken the opponent's posture forward, when their weight has shifted onto their toes and their hips are above their feet. This is the window where they cannot effectively sprawl or retreat because their center of gravity is already compromised forward. Pulling before the posture break invites a sprawl counter; pulling too late after they recover posture gives them time to brace and strip grips. The ideal pull happens within one second of a successful posture break."
@@ -114,7 +114,7 @@ description: "Learn to execute the Standing Guard Pull as the attacker. Step-by-
     },
     {
       "@type": "Question",
-      "name": "In which direction should your pulling force be applied during the descent to maximize guard establishment success?",
+      "name": "In which direction should you pull during the descent of a standing guard pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your pulling force should be directed diagonally downward and toward you, not straight down. The collar grip pulls the opponent's head and shoulders forward and slightly to the side of your collar grip, creating a rotational off-balancing that prevents them from driving straight forward over you. The sleeve grip pulls laterally to prevent their posting hand from reaching the mat. This combined diagonal force vector tilts the opponent over the axis of your developing guard structure, loading their weight onto your hooks rather than allowing them to remain balanced over their own feet."

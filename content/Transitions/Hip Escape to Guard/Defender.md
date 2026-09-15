@@ -56,7 +56,7 @@ description: "How to prevent the Hip Escape to Guard in BJJ. Recognition cues, r
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical physical connection to maintain when your opponent begins hip escaping from Gift Wrap?",
+      "name": "Holding gift wrap, what connection matters most as they start hip escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chest-to-back connection is the most critical connection. When your chest stays glued to their back, their hip escapes generate minimal usable distance because your body follows their movement. Drive your hips forward to close any gap immediately, treating any separation as an emergency."
@@ -64,7 +64,7 @@ description: "How to prevent the Hip Escape to Guard in BJJ. Recognition cues, r
     },
     {
       "@type": "Question",
-      "name": "Your opponent removes their free hand from neck defense to create a frame on your hip - what is your immediate response?",
+      "name": "From gift wrap, they drop their free hand to frame your hip: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately attack the rear naked choke since their neck is now undefended. Their frame on your hip is less dangerous than the finishing opportunity their exposed neck presents. This forces them to abandon the escape and return to choke defense, resetting their escape progress entirely."
@@ -80,7 +80,7 @@ description: "How to prevent the Hip Escape to Guard in BJJ. Recognition cues, r
     },
     {
       "@type": "Question",
-      "name": "How does keeping the trapped arm high across the chest prevent the arm extraction that follows hip escapes?",
+      "name": "How does keeping the trapped arm high across the chest stop arm extraction in gift wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "High arm positioning across the chest toward the opposite shoulder minimizes the gap between the arm trap and opponent's torso. When the arm is high, shoulder rotation alone cannot create enough space for extraction. If the arm drifts low toward the waist, the larger gap near the hip allows easier extraction through the natural rotation created by shrimping."
@@ -88,7 +88,7 @@ description: "How to prevent the Hip Escape to Guard in BJJ. Recognition cues, r
     },
     {
       "@type": "Question",
-      "name": "Your opponent chains three consecutive hip escapes and inserts a knee frame - what is your counter-strategy?",
+      "name": "From gift wrap, they chain three hip escapes and insert a knee frame: your counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, closing the distance back to tight Gift Wrap is difficult. Your best option is to transition to mounted Gift Wrap by stepping over their bottom hip while maintaining the arm trap. Alternatively, attack the rear naked choke aggressively because the knee frame insertion often corresponds with weakened neck defense as they redirect their free hand to manage frames."

@@ -171,7 +171,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 - **Standard Hip Fulcrum Arm Crush**: The fundamental version where the attacker positions the opponent's elbow directly against their hip bone and drives forward while controlling the wrist. The hip serves as the primary fulcrum, and the crush is completed through forward hip pressure and slight arching of the back. (When to use: When opponent's arm is already trapped flat against your torso from standard kesa gatame control and they are not actively fighting the arm position)
 - **Figure-Four Grip Arm Crush**: The attacker secures a figure-four grip around the opponent's trapped forearm, interlocking both hands for maximum control. This variation provides superior wrist control and prevents the opponent from rotating their arm to escape the crush. The figure-four grip also allows the attacker to apply torque in addition to compression. (When to use: When opponent is actively fighting wrist control and single-hand grip on the forearm is insufficient to maintain arm positioning for the finish)
-- **Arm Crush from Kuzure Kesa-Gatame Transition**: Starting from the modified scarf hold where the arm is already isolated under the attacker's armpit, the attacker threads both arms around the trapped limb and transitions the elbow to their hip. This entry is particularly effective because the arm isolation in kuzure kesa provides a head start on the arm positioning required for the crush. (When to use: When controlling from modified scarf hold and opponent resists americana or kimura attempts by keeping their arm rigid and extended)
+- **Arm Crush from Kuzure Kesa Gatame Transition**: Starting from the modified scarf hold where the arm is already isolated under the attacker's armpit, the attacker threads both arms around the trapped limb and transitions the elbow to their hip. This entry is particularly effective because the arm isolation in kuzure kesa provides a head start on the arm positioning required for the crush. (When to use: When controlling from modified scarf hold and opponent resists americana or kimura attempts by keeping their arm rigid and extended)
 
 
 </details>
@@ -190,8 +190,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 - [[Submissions/Bicep Slicer]] - Related compression submission attacking similar forearm and bicep anatomical structures
 - [[Submissions/Americana/from Kesa Gatame]] - Position-specific variant frequently chained with arm crush when opponent defends one attack
 - [[Positions/Side Control/Kesa Gatame]] - Primary starting position providing the control framework for the arm crush setup
-- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Alternative starting position with pre-isolated arm control that facilitates the crush entry
-- [[Positions/Side Control/Scarf Hold Position]] - Positional family sharing control mechanics and arm trapping principles
+- [[Positions/Side Control/Kuzure Kesa Gatame]] - Alternative starting position with pre-isolated arm control that facilitates the crush entry
 
 </section>
 

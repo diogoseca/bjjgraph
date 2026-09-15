@@ -82,7 +82,7 @@ description: "Defend the Darce Choke from Overhook Control with recognition cues
     },
     {
       "@type": "Question",
-      "name": "Why is turning into the attacker more effective than pulling away when the Darce is partially locked?",
+      "name": "Why turn into the attacker rather than pull away from a partially locked Darce?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling away from any arm triangle variant increases the extension and tightening force on the choke because it increases the distance between your head and the attacker's body, which stretches the figure-four tighter. Turning into the attacker reduces the compression angle by bringing your head closer to the small side of the triangle where the gap exists. This counterintuitive movement creates space for head extraction while simultaneously reducing the arterial compression that causes unconsciousness."

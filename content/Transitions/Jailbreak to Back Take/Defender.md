@@ -64,7 +64,7 @@ description: "How to defend against Jailbreak to Back Take in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "You feel the bottom player beginning to invert with their underhook secured - what is your immediate decision framework?",
+      "name": "As the bottom player inverts with the underhook, what is your decision framework as top player?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must make a binary decision within the first quarter-turn of the roll. Option one: disengage by pulling your hips back and basing wide, conceding turtle position but maintaining top control. Option two: commit fully to following with maximum hip sprawl and chest pressure to ride through the roll. The critical error is half-committing, which provides the bottom player with your forward momentum while giving you no control over the rotation. Speed of decision matters more than which option you choose."
@@ -80,7 +80,7 @@ description: "How to defend against Jailbreak to Back Take in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "The bottom player reaches turtle after a successful jailbreak but you prevented the back take - what are your attacking priorities?",
+      "name": "You stopped the back take and they reach turtle: what are your attacking priorities from turtle top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "From turtle top, your immediate priority is establishing a controlling grip such as a seatbelt or front headlock before the bottom player can stand or sit through to guard. Attack with front headlock series including guillotine, darce, and anaconda entries. Look for opportunities to re-take the back through hook insertion or crab ride entries. Prevent the bottom player from sitting to guard by maintaining heavy chest pressure on their upper back. Do not allow a reset to standing where the positional advantage dissipates entirely."
@@ -88,7 +88,7 @@ description: "How to defend against Jailbreak to Back Take in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a standard jailbreak escape attempt and the back take continuation during the roll?",
+      "name": "Mid-roll, how do you tell a turtle-bound jailbreak from a back take continuation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The standard jailbreak targets turtle and typically decelerates once the bottom player clears past the halfway rotation point. The back take continuation shows continued acceleration past 180 degrees with the underhook arm actively pulling toward your back rather than simply creating separation. You can also feel the difference in their hip trajectory - turtle-bound escapes move laterally away from you, while back take attempts curve behind you. Reading this distinction early allows you to choose disengagement for turtle-bound escapes while preparing stronger following defense against back take attempts."

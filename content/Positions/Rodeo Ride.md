@@ -293,9 +293,9 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 - **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (5% of attempts)
 
-- **[[Submissions/Clock Choke/from Rodeo Ride/Attacker|Clock Choke from Rodeo Ride]]** (0% of attempts)
+- **[[Submissions/Clock Choke/from Rodeo Ride/Attacker|Clock Choke from Rodeo Ride]]** (gi only)
 
-- **[[Submissions/Bow and Arrow Choke/from Rodeo Ride/Attacker|Bow and Arrow Choke from Rodeo Ride]]** (0% of attempts)
+- **[[Submissions/Bow and Arrow Choke/from Rodeo Ride/Attacker|Bow and Arrow Choke from Rodeo Ride]]** (gi only)
 
 - **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** (5% of attempts)
 

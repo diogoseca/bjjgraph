@@ -327,7 +327,7 @@
         }
       },
       {
-        "question": "Your opponent starts racing you to establish their own outside ashi during your extraction - what do you do?",
+        "question": "They race you to their own outside ashi during your extraction—what do you do?",
         "answer": "This is the highest-threat counter. You must immediately assess who is ahead in the race. If you have cleared your leg and are establishing the figure-4, accelerate by swinging your leg over their hip without pausing. If they are ahead, abandon the transition entirely and re-establish 50-50 rather than ending up in their outside ashi. The key is making this assessment within one second of recognizing the race.",
         "answer_line": "Assess race, accelerate or bail",
         "distractors": {
@@ -468,7 +468,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is initiating the 50-50 to outside ashi transition?",
+        "question": "What is the earliest cue that they are entering outside ashi from 50-50?",
         "answer": "The earliest cue is your opponent releasing or loosening their inside leg control. In normal 50-50, both practitioners maintain tight inside control. When your opponent deliberately relaxes their triangle configuration, it signals the first mechanical step of extraction. This cue precedes the hip rotation by one to two seconds, giving you the maximum defensive window.",
         "answer_line": "Opponent loosens inside control",
         "distractors": {
@@ -482,7 +482,7 @@
         }
       },
       {
-        "question": "Your opponent's hip has already started rotating internally - is it too late to tighten inside control?",
+        "question": "Their hip is already rotating toward outside ashi—is tightening inside control still worth it?",
         "answer": "Once the hip rotation has begun, tightening inside control becomes low-percentage because you are fighting against the circular extraction momentum. At this phase, switch your defensive strategy from prevention to either counter-offense (racing to your own outside ashi) or disruption (driving forward to stack). Attempting inside control at this stage wastes energy and typically fails against a committed transition.",
         "answer_line": "Too late, counter or stack",
         "distractors": {
@@ -496,7 +496,7 @@
         }
       },
       {
-        "question": "Why is stripping the opponent's heel grip an effective defensive strategy even if it doesn't stop the extraction?",
+        "question": "Why strip their heel grip even if it does not stop the extraction to outside ashi?",
         "answer": "Without heel control on your leg, the opponent's transition to outside ashi loses most of its offensive purpose. Even if they complete the positional change, they arrive in outside ashi without the grip needed to immediately threaten heel hook. This forces them to re-establish grips from the new position, giving you time to work escapes or counter-entanglements. The heel grip is the bridge between positional control and submission threat.",
         "answer_line": "Removes the submission threat",
         "distractors": {
@@ -510,7 +510,7 @@
         }
       },
       {
-        "question": "When is racing to your own outside ashi the correct defensive choice versus trying to prevent the extraction?",
+        "question": "When should you race to your own outside ashi instead of preventing their extraction?",
         "answer": "Race to counter-transition when you recognize that inside control prevention has failed (opponent's hip rotation is underway) but their leg has not yet fully cleared the entanglement. This mid-phase window is when both practitioners are in transition and the position is maximally fluid. If you wait until their figure-4 is established, counter-transitioning becomes far more difficult because they have structural control.",
         "answer_line": "Mid-transition, before figure-4",
         "distractors": {

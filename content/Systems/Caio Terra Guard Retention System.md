@@ -180,6 +180,8 @@ What distinguishes Terra's system from traditional guard retention is its emphas
 
 
 
+
+
 <section id="study-this-system" class="content-section system-study-free">
 
 ## How do you drill Caio Terra Guard Retention System?
@@ -315,6 +317,8 @@ Key points:
 
 </section>
 
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -429,5 +433,7 @@ The Caio Terra guard retention system requires extensive solo drilling to build 
 
 
 </section>
+
+
 
 </main>

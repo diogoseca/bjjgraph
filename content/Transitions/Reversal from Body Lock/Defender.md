@@ -64,7 +64,7 @@ description: "Defend against the Reversal from Body Lock in BJJ. Maintain body l
     },
     {
       "@type": "Question",
-      "name": "Why should you execute a takedown rather than fight the grip break when you feel reversal attempts beginning?",
+      "name": "With a body lock, why take the takedown instead of fighting their grip-break attempts?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The body lock is designed as an offensive platform for throws and mat returns, not as a static holding position. Engaging in a grip-fighting battle plays into the bottom player's strategy because they only need one successful break while you must maintain the grip indefinitely. Your locked grip is at maximum strength in the first seconds of establishment and degrades with each passing moment as the opponent creates wedges and separation. Using the grip offensively through immediate takedown execution converts your diminishing asset into a positional advancement before the opponent can neutralize it through systematic grip breaking."
@@ -80,7 +80,7 @@ description: "Defend against the Reversal from Body Lock in BJJ. Maintain body l
     },
     {
       "@type": "Question",
-      "name": "What is the correct response when you feel the opponent beginning a controlled guard pull to escape the body lock?",
+      "name": "They start a controlled guard pull to escape your body lock—what is your correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately sprawl your hips backward and downward while maintaining your grip to prevent the opponent from hooking your legs as they descend. Your goal is to follow them to the ground while preventing any leg entanglement that would establish half guard or closed guard. If they complete the sit successfully, immediately release the body lock and transition to a passing position by establishing crossface and hip control. Racing to establish top pressure before they can consolidate guard structure is critical because the first two to three seconds after landing determine whether you are passing or playing into their guard."
@@ -88,7 +88,7 @@ description: "Defend against the Reversal from Body Lock in BJJ. Maintain body l
     },
     {
       "@type": "Question",
-      "name": "When is re-locking the grip after a partial break the correct tactical choice versus committing to a takedown?",
+      "name": "After a partial break of your body lock, when should you re-lock instead of taking them down?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Re-locking is correct when the opponent has broken the initial grip but has not yet secured wrist control on your arm, and you are still in a position to re-establish the lock at a different height quickly. This typically occurs in a sub-second window immediately after the break. However, if the opponent has secured wrist control or created significant body separation, attempting to re-lock will fail and wastes the final moments of your positional advantage. In that case, use whatever grip connection remains to drive forward into a takedown or scramble for top position rather than chasing a grip that is already compromised."

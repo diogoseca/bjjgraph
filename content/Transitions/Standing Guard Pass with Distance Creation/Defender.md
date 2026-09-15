@@ -56,7 +56,7 @@ description: "How to defend against Standing Guard Pass with Distance Creation i
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "When is the optimal moment to attempt a sweep against the Standing Guard Pass with Distance Creation?",
+      "name": "When is the best moment to sweep someone using the standing pass with distance creation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal sweep window is during the combat base to standing transition, specifically as the top player drives upward through their free leg. At this moment their base narrows to essentially a single leg, their center of gravity is rising and unstable, and the lapel wrap retains maximum leverage because they have not yet achieved the posterior hip position that neutralizes sweeping forces. Loading the sweep before they stand is critical because once fully upright with hips back, the base becomes too wide and stable for effective sweeping."
@@ -64,7 +64,7 @@ description: "How to defend against Standing Guard Pass with Distance Creation i
     },
     {
       "@type": "Question",
-      "name": "Your opponent has released sleeve control and brought both hands to the lapel - what defensive opportunity does this create?",
+      "name": "They drop sleeve control and put both hands on your lapel: what opening does this give you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the top player releases all upper body control to commit both hands to the lapel extraction, it creates the widest window for inversion-based back takes. With no hand controlling your collar, sleeve, or hips, you have full freedom to rotate your body and thread underneath them. This is the optimal moment for a berimbolo entry or crab ride transition because the top player cannot sprawl or block your rotation without abandoning the extraction. The lapel connection actually helps the inversion by providing a fixed pivot point."
@@ -72,7 +72,7 @@ description: "How to defend against Standing Guard Pass with Distance Creation i
     },
     {
       "@type": "Question",
-      "name": "The top player has nearly extracted the lapel and you cannot prevent it - what should your immediate priority be?",
+      "name": "The lapel extraction is unstoppable: what is your immediate priority from bottom?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is establishing replacement guard grips before the top player transitions to passing grips. The moment you recognize the extraction is inevitable, release the lapel proactively and use both hands to establish collar-sleeve, De La Riva, or spider guard controls while simultaneously inserting your feet into defensive positions on their hips, biceps, or legs. The critical race is grips versus grips - whoever establishes control of the other's limbs first in the post-lapel window dictates whether the position becomes a functional open guard or a passing opportunity."
@@ -88,7 +88,7 @@ description: "How to defend against Standing Guard Pass with Distance Creation i
     },
     {
       "@type": "Question",
-      "name": "Why is a belt or back collar grip particularly valuable as a secondary control against this passing technique?",
+      "name": "Why is a belt or back collar grip so valuable as a secondary control against this pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A belt or back collar grip creates a direct connection to the passer's center of mass that cannot be stripped without turning their attention away from the lapel extraction. This grip amplifies every sweeping attempt because it provides a pulling point above their hips that generates rotational force when combined with the lapel wrap below. It also threatens immediate back take entries because the grip is already on their back. The passer must address this grip before they can safely stand, which delays their extraction timeline and gives you more opportunities to attack during the transition phases."

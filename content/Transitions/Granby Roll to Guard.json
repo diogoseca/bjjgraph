@@ -333,7 +333,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand on your hip to block the roll initiation—what grip adjustment enables the escape?",
+        "question": "They post a hand on your hip to block the granby: what grip adjustment frees the escape?",
         "answer": "Strip the posting hand with your near-side arm by cupping their wrist and peeling it off your hip toward the mat. Simultaneously begin the hip bump to create space. If you cannot strip the grip, use it as a pivot point by rolling toward their posting arm rather than away from it, converting their block into an anchor for a reverse granby variation that catches them off guard.",
         "answer_line": "Strip the post, hip bump through",
         "distractors": {
@@ -375,7 +375,7 @@
         }
       },
       {
-        "question": "What grip on the opponent do you need to establish before initiating the granby from Buggy Choke bottom?",
+        "question": "What grip must you establish before starting the granby from buggy choke bottom?",
         "answer": "No offensive grip is required to initiate the granby—this is a grip-free escape that relies on timing and momentum rather than control. However, you must address the opponent's choking grip by either stripping it with your near hand or accepting it will follow you. The critical pre-roll action is reducing their hip control, not establishing your own grips. This grip-independence is what makes the granby viable even when your arms are compromised by the choke setup.",
         "answer_line": "None — grip-free, timing based",
         "distractors": {
@@ -517,7 +517,7 @@
         }
       },
       {
-        "question": "Your opponent has already begun the granby roll and is past the halfway point—what is your best defensive response?",
+        "question": "Holding a buggy choke, your opponent's granby roll is past halfway. Best response?",
         "answer": "Stop trying to prevent the roll and immediately switch to following it. Maintain chest-to-back connection as they rotate, hook their near leg with your leg, and establish a seatbelt grip as they complete the inversion. Your goal shifts from maintaining Buggy Choke to converting to back control. Fighting a roll with full momentum wastes energy and costs you the connection needed for the back take.",
         "answer_line": "Follow the roll to the back",
         "distractors": {
@@ -545,7 +545,7 @@
         }
       },
       {
-        "question": "How should your weight distribution change when defending against the granby versus maintaining the Buggy Choke attack?",
+        "question": "Defending a granby versus holding the buggy choke, how should your weight shift?",
         "answer": "During active Buggy Choke attack, weight is distributed between chest pressure and hip control in roughly equal measure. When defending the granby, shift more weight forward onto their shoulders and upper back to counter the backward hip bump that initiates the escape. Keep your hips low but drive your chest diagonally downward toward their far shoulder, creating a pinning vector that opposes the rotational direction of the granby.",
         "answer_line": "Drive chest toward far shoulder",
         "distractors": {
@@ -559,7 +559,7 @@
         }
       },
       {
-        "question": "Your opponent successfully completes the granby roll and lands facing you—what is your immediate priority?",
+        "question": "Your opponent completes the granby and lands facing you. What is your first priority?",
         "answer": "Immediately address their legs before they can close guard or establish foot-on-hip frames. Drive forward with your hips while controlling their knees or ankles to prevent guard closure. If you cannot prevent guard establishment within the first two seconds, accept the guard position and begin working your guard passing sequence rather than scrambling wildly. The critical error is hesitating in no-man's-land where they can lock closed guard while you have no base.",
         "answer_line": "Attack legs before guard closes",
         "distractors": {

@@ -84,7 +84,7 @@ description: "How to enter the Hindulotine from closed guard. Catch the high-elb
     },
     {
       "@type": "Question",
-      "name": "When the opponent stacks forward to flatten you before you clear your hips, what is the highest-percentage response?",
+      "name": "They stack you before your hips clear for the Hindulotine: highest-percentage response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not fight the stack directly. Load their forward weight onto a butterfly hook and execute a butterfly sweep with the guillotine grip still locked, or ride their drive up into the off-line angle. Their forward pressure becomes the energy that frees your hips, so the stack feeds your branch instead of stopping the entry."

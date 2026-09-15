@@ -96,7 +96,7 @@ description: "Learn to execute the hand fight to turtle escape from back control
     },
     {
       "@type": "Question",
-      "name": "What is the most critical mechanical detail when stripping the opponent's choking arm from the seatbelt?",
+      "name": "What is the key mechanical detail when stripping their choking arm off the seat belt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical detail is pulling the opponent's wrist downward toward your hip rather than outward away from your body. Pulling outward allows them to use arm strength to resist and re-thread. Pulling downward toward your hip uses gravity and your body weight as anchors, creating a mechanical advantage that is much harder for the opponent to resist. Your two-on-one grip should peel their hand off your neck and drive it down along your torso."

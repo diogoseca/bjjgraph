@@ -58,7 +58,7 @@ description: "Defend the Mounted Crucifix Armbar in BJJ. Recognition cues, hand 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that a Mounted Crucifix Armbar is being set up, and why is early recognition critical?",
+      "name": "What are the earliest cues of a Mounted Crucifix Armbar, and why is spotting them early critical?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are: the attacker grips your wrist with a C-grip, their weight shifts laterally toward the target arm, and they begin adjusting their leg positioning for the pivot. Early recognition is critical because the defensive window in mounted crucifix is dramatically shorter than in standard mount armbar defense. Your arms are already trapped, eliminating your primary defensive tools. Once the attacker completes the hip pivot and achieves perpendicular positioning, the armbar is essentially complete. You must act during the grip establishment and pivot phase—not after."
@@ -66,7 +66,7 @@ description: "Defend the Mounted Crucifix Armbar in BJJ. Recognition cues, hand 
     },
     {
       "@type": "Question",
-      "name": "Your arm is being extended but has not reached the breaking point yet—what is your highest priority action?",
+      "name": "Your arm is extending in the crucifix armbar but not at breaking point—what is your top priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest priority is to bend the elbow by pulling the hand toward your own body with maximum effort while simultaneously bridging toward the attacker. If you can bend the elbow even slightly, the armbar mechanics are disrupted. However, if the arm is past approximately 160 degrees of extension with the attacker's hips engaged, the mechanical advantage is overwhelmingly against you—tap immediately rather than risking ligament damage. The distinction between a defensible and indefensible position is narrow, and erring toward tapping preserves your training longevity."
@@ -74,7 +74,7 @@ description: "Defend the Mounted Crucifix Armbar in BJJ. Recognition cues, hand 
     },
     {
       "@type": "Question",
-      "name": "When should you tap to a Mounted Crucifix Armbar and why is the tap decision different from a standard armbar?",
+      "name": "When should you tap to a Mounted Crucifix Armbar, and why does that differ from a standard armbar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap the instant you feel the arm reach full extension against the attacker's hips with their legs locked around the arm. The tap decision differs from standard armbar because: (1) your normal armbar escape techniques (hitchhiker, stack, turn) are unavailable due to crucifix arm traps, (2) the attacker needs less force to finish because your defensive resistance is mechanically compromised, and (3) your ability to tap physically may be limited since your primary hand is trapped—be prepared to use verbal tap or foot tap immediately. There is no ego-worthy reason to fight a fully locked armbar from mounted crucifix."
@@ -82,7 +82,7 @@ description: "Defend the Mounted Crucifix Armbar in BJJ. Recognition cues, hand 
     },
     {
       "@type": "Question",
-      "name": "How does defending the Mounted Crucifix Armbar differ when your other arm is also fully trapped by the crucifix legs?",
+      "name": "How does defending the Mounted Crucifix Armbar change when both your arms are trapped?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When both arms are trapped, your defensive options reduce to bridging, hip movement, and verbal communication. You cannot clasp hands, strip grips, or create frames with either arm. Your defense becomes entirely timing-based—bridging during the attacker's pivot is your only mechanical defense. If the pivot completes and the armbar is established with both arms trapped, you have virtually zero escape options and should tap immediately upon feeling extension pressure. Prevention is paramount—fight the arm isolation before the crucifix is fully established rather than defending from within it."
@@ -90,7 +90,7 @@ description: "Defend the Mounted Crucifix Armbar in BJJ. Recognition cues, hand 
     },
     {
       "@type": "Question",
-      "name": "What positional escape should you prioritize if the attacker's armbar attempt loosens the crucifix leg control?",
+      "name": "If the crucifix legs loosen during the armbar attempt, which escape should you prioritize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the armbar attempt loosens the crucifix control, immediately prioritize extracting your trapped arm(s) through hip movement and elbow retraction. Do not attempt to counter the armbar itself—use the loosened control to escape the crucifix first. Once arms are free, you are in standard mount bottom which has a much broader defensive toolkit. Even accepting mount bottom is a significant positional improvement over mounted crucifix. Bridge toward the side where control is loosest and work to insert a knee shield for half guard recovery."

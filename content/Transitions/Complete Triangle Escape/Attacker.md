@@ -96,7 +96,7 @@ description: "Execute the complete triangle escape as the trapped practitioner. 
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins scooting their hips to match your circular stepping direction - how do you respond?",
+      "name": "Escaping a triangle, they scoot their hips to match your circular step: how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Increase your forward stacking pressure while maintaining the circular step. The opponent cannot simultaneously maintain hip elevation for effective choking power and perform lateral hip movement to match your angle. By intensifying the stack, you force them to choose between preserving their angle which requires hip mobility and preserving their choking pressure which requires hip elevation and connection. This creates a dilemma that favors your escape progression."
@@ -112,7 +112,7 @@ description: "Execute the complete triangle escape as the trapped practitioner. 
     },
     {
       "@type": "Question",
-      "name": "How do you defend against the armbar transition that commonly occurs during triangle escape attempts?",
+      "name": "How do you defend the armbar transition while escaping a triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your trapped arm elbow pinned tightly against your ribs throughout the entire escape sequence, from initial posture recovery through complete extraction. If the opponent begins pivoting their hips for armbar isolation, turn sharply toward your trapped arm side and increase forward stacking pressure. Follow their rotation rather than pulling away, using your body weight to prevent arm extension. The key is maintaining elbow-to-rib contact which denies them the space needed to isolate and extend the arm."
@@ -120,7 +120,7 @@ description: "Execute the complete triangle escape as the trapped practitioner. 
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to immediately engage closed guard after extracting from the triangle rather than pausing?",
+      "name": "After extracting from the triangle, why engage closed guard immediately instead of pausing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Any pause between extraction and guard engagement creates a window where the opponent can re-shoot their legs for another triangle attempt, transition to alternative attacks like leg entanglements or sweeps, or establish dominant grips that prevent your guard passing. The escape converts defensive survival into offensive opportunity only when the extraction flows seamlessly into guard top posture establishment. The opponent is often momentarily disoriented after their triangle fails, making this the optimal window for passing pressure."

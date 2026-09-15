@@ -1,6 +1,6 @@
 {
   "name": "Marcelo Garcia Guillotine System",
-  "description": "Master Marcelo Garcia's high-percentage guillotine system. Learn systematic entries, grip variations, and finishing mechanics for competition success.",
+  "description": "Focuses on Marcelo’s guillotine approach, including entries and adjustments when the opponent defends or passes. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -12,8 +12,8 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Intermediate",
-  "summary": "The Marcelo Garcia Guillotine System is a high-percentage front-headlock framework that chains guillotine grips, guard pulls, sweeps, and back takes into an interconnected attack web effective in gi and no-gi, even against larger opponents.",
-  "overview": "Marcelo Garcia's guillotine system represents one of the most refined and effective submission frameworks in modern Brazilian Jiu-Jitsu. Built on decades of competition experience and thousands of successful finishes, this system transforms the guillotine from an opportunistic submission into a systematic attacking weapon. The framework encompasses multiple entry points, grip variations, and finishing positions, all connected through a logical decision tree that responds to opponent reactions. Garcia's approach emphasizes high-elbow positioning, precise hand placement, and the integration of guillotine attacks with sweeps and back takes. What distinguishes this system is its adaptability across positions - from standing clinches to guard pulls to turtle attacks - making it equally effective in gi and no-gi contexts. The methodology prioritizes connection and control over raw strength, allowing practitioners of all sizes to implement the system successfully against larger opponents.",
+  "summary": "A guillotine game needs more than a finishing grip.",
+  "overview": "A guillotine game needs more than a finishing grip. This guide connects head control, entries and recovery when the opponent changes angle or tries to pass. Use it to identify the moment where you lose the head before adding more variations.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
   "key_principles": [
     "High elbow positioning creates maximum choking pressure while preventing opponent's defensive hand insertion",
     "Grip connection must be established before committing to the submission attempt",
@@ -471,6 +471,21 @@
           "Release headlock to hunt the back"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "the-marcelotine-by-marcelo-garcia",
+      "title": "The Marcelotine",
+      "instructor": "Marcelo Garcia",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Focuses on Marcelo’s guillotine approach, including entries and adjustments when the opponent defends or passes.",
+      "best_for": "Students refining a guillotine game rather than looking for a general front headlock overview.",
+      "study_focus": "Compare the entry and recovery sections with the situations where you currently lose the head.",
+      "practice_tip": "Choose one entry and practise keeping the head controlled as your partner changes angle. Add finishing mechanics only under supervision."
     }
   ]
 }

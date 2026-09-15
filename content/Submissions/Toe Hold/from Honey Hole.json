@@ -384,7 +384,7 @@
         }
       },
       {
-        "question": "Your opponent begins straightening their trapped leg during your toe hold attempt—what adjustment do you make?",
+        "question": "They straighten the trapped leg during your toe hold from honey hole—what do you adjust?",
         "answer": "A straightening leg actually improves your toe hold mechanics by removing the protective bend that absorbs rotational force. Maintain your figure-four grip and continue applying medial rotation. However, also recognize that leg straightening may indicate the opponent is attempting to push off your hip to create escape space. Counter by driving your crossing leg deeper across their hip and scooting your hips forward to close the distance before they can extend fully.",
         "safety_critical": false,
         "answer_line": "Keep rotating, deepen hip control",
@@ -399,7 +399,7 @@
         }
       },
       {
-        "question": "How should you adjust your grip if the opponent actively flexes their foot and curls their toes during the toe hold?",
+        "question": "They flex the foot and curl the toes—how do you adjust your toe hold grip?",
         "answer": "Use your forearm across the sole of the foot as a pry bar to work against the flexion. Slide your grip slightly higher on the foot so your forearm crosses the metatarsal heads rather than the toes themselves. Maintain figure-four pressure and use small pulsing adjustments to gradually overcome the flexion. Foot flexion is fatiguing for the defender and will weaken within 10-15 seconds if you maintain steady counter-pressure without wasting energy fighting it explosively.",
         "safety_critical": false,
         "answer_line": "Pry with forearm, grip higher",
@@ -429,7 +429,7 @@
         }
       },
       {
-        "question": "How does the Honey Hole's inside leg triangle enhance the toe hold compared to applying it from outside ashi garami?",
+        "question": "How does the honey hole inside triangle improve the toe hold over outside ashi garami?",
         "answer": "The inside leg triangle pins the opponent's hip through the crossing leg, preventing the rotational escape that defeats most toe holds from outside ashi garami. In outside ashi, the opponent can rotate their hip freely to align their foot with the rotational pressure, neutralizing the torque. From Honey Hole, this rotation is blocked mechanically, meaning the full rotational force of the toe hold transfers into the ankle and foot structures without dissipation through hip movement.",
         "safety_critical": false,
         "answer_line": "Blocks the hip rotation escape",

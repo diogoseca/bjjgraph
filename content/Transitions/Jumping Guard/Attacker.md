@@ -74,7 +74,7 @@ description: "How to execute Jumping Guard in BJJ. Attacking perspective with se
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to establish grip control before attempting jumping guard, and what specific grips provide the best foundation?",
+      "name": "Why grip before jumping guard, and which grips give the best foundation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip control before jumping guard is critical because without it, your opponent can easily create distance or sprawl backward during your jump, causing the technique to fail completely and leaving you vulnerable on the mat. The grips serve multiple purposes: they close distance, provide pulling leverage to assist your jumping momentum, and maintain connection if your leg wrap is delayed. The best grips are a deep collar grip with four fingers inside the lapel and sleeve or wrist control on the opposite side. The collar grip prevents opponent from creating upper body distance and provides strong pulling leverage during the jump, while the sleeve grip prevents them from posting or pushing your hips away during the wrap."
@@ -90,7 +90,7 @@ description: "How to execute Jumping Guard in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins sprawling backward during your jumping guard attempt - what immediate adjustments can save the position?",
+      "name": "They sprawl backward during your jumping guard attempt — what adjustments save the position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must immediately abandon the closed guard objective and transition to alternative guard establishment. Open your legs as you descend rather than forcing a closed guard wrap that will fail against the sprawl. As you open your legs, establish butterfly hooks on their inner thighs or transition to De La Riva positioning by placing one foot on their hip and the other hooking behind their knee. Maintain upper body grips throughout this adjustment. The key is recognizing the sprawl early, during your jump rather than after landing, and adapting your leg positioning mid-air or during descent. Committing to closing guard against a completed sprawl leaves you flat on your back with no control."
@@ -98,7 +98,7 @@ description: "How to execute Jumping Guard in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "What are the minimum grip requirements before you should commit to jumping guard, and what happens if you jump without them?",
+      "name": "What minimum grips do you need before jumping guard, and what happens if you jump without them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At minimum, you need one deep collar grip that cannot be easily stripped during the dynamic movement of the jump. Ideally, you also have sleeve or wrist control on the opposite arm to prevent your opponent from stiff-arming, pushing your hips, or posting during your entry. If you jump without adequate grip control, your opponent can create distance during the jump by pushing off your body, leaving you to fall to the mat without securing any guard position. You end up on your back with no control while your opponent is standing over you with passing options. The grips are the tether that keeps you connected through the explosive movement."
@@ -106,7 +106,7 @@ description: "How to execute Jumping Guard in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "How do you disguise jumping guard intent within normal grip fighting to avoid telegraphing the technique?",
+      "name": "How do you hide jumping guard inside normal grip fighting so it isn't telegraphed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key is embedding the jumping guard setup within your normal grip fighting rhythm and footwork patterns. Maintain your standard standing posture and grip sequence until the exact moment of commitment. The distance-closing step should look like a normal footwork adjustment rather than a preparatory lunge. Your loading phase, the slight knee bend before takeoff, should be brief and disguised within the natural weight shifting of grip exchanges. Practice alternating between genuine grip fighting exchanges and jumping guard entries so your opponent cannot distinguish between them. The jump should appear sudden and unprovoked from the defender's perspective, erupting from what seemed like standard standing engagement."
@@ -114,7 +114,7 @@ description: "How to execute Jumping Guard in BJJ. Attacking perspective with se
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on your chest as you begin your forward motion - how do you adjust mid-execution?",
+      "name": "They post a hand on your chest as you start your jumping guard — how do you adjust mid-move?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you feel the stiff-arm before you have left the ground, abort the jump and use the contact point to set up an arm drag or collar drag instead, converting their defensive post into an offensive opportunity. If you are already airborne when the post connects, swim your near arm inside their posting arm to collapse the frame while continuing your forward momentum. Use your collar grip to pull past the post rather than fighting through it directly. If the post is strong enough to prevent closed guard establishment, transition to an overhook on the posting arm as you make contact and establish half butterfly position, using their extended arm as a lever for immediate sweep threats."

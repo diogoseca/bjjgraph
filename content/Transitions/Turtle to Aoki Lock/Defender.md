@@ -50,7 +50,7 @@ description: "Defend the Aoki Lock entry from Turtle Bottom in no-gi. Recognize 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is keeping your elbow tucked the single most important defense against the Aoki Lock entry from turtle?",
+      "name": "Why is a tucked elbow the key defense against the Aoki Lock entry from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The entry requires the attacker to peel your near arm away from your ribs and extend it so they can thread a leg over the shoulder and trap the whole shoulder complex. If your elbow stays glued to your side and your shoulder is rolled under, there is no extended arm to trap, the knee-wedge has nothing to exploit, and the leg-over cannot isolate the shoulder. Protecting the tucked elbow denies the prerequisite for the entire technique."

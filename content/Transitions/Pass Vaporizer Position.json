@@ -281,7 +281,7 @@
         }
       },
       {
-        "question": "Your opponent successfully re-locks the lockdown after your first extraction attempt - how do you adjust your approach?",
+        "question": "They re-lock the lockdown after your first extraction from vaporizer: how do you adjust?",
         "answer": "Return to knee-toward-mat orientation and increase shoulder pressure to limit their ability to reposition. Consider switching to the backstep extraction variant, which changes the extraction angle and often catches the bottom player off-guard. Also evaluate whether your underhook neutralization was sufficient - re-locking often indicates the bottom player retained enough upper body control to manipulate your leg back into the figure-four.",
         "answer_line": "Knee down, more shoulder pressure",
         "distractors": {
@@ -309,7 +309,7 @@
         }
       },
       {
-        "question": "Your opponent begins increasing whip-up pressure and threatening the Electric Chair as you start extraction - what is your immediate response?",
+        "question": "They whip up and threaten the Electric Chair as you extract: what is your immediate response?",
         "answer": "Abandon the extraction temporarily and drive your weight back with hips heavy and low. The Electric Chair requires hip elevation and leg separation, so keeping hips heavy directly counters the setup. Widen your base to resist the lateral rolling that accompanies the Electric Chair entry. Once the immediate threat subsides, restart extraction from this more stable defensive position rather than trying to rush through the danger.",
         "answer_line": "Drive hips heavy and low",
         "distractors": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "How does the direction of force differ between the lockdown clearing phase and the pass completion phase?",
+        "question": "Passing vaporizer, how does force direction differ between clearing the lockdown and completing?",
         "answer": "During lockdown clearing, the primary force direction is downward and circular. You drive weight down through shoulder pressure while circulating the leg in small rotational movements to loosen the figure-four. During pass completion, the force shifts to lateral and forward. You drive your knee across their hip line laterally while moving your chest forward into perpendicular side control alignment. The transition between these force vectors must be smooth and immediate.",
         "answer_line": "Down/circular, then lateral/forward",
         "distractors": {
@@ -351,7 +351,7 @@
         }
       },
       {
-        "question": "Your opponent posts their outside hand on the mat during your weight shift - what does this indicate and how do you respond?",
+        "question": "Vaporizer top: they post the outside hand as you shift weight. What does it signal and how react?",
         "answer": "The outside hand post signals an Old School sweep setup. They need this post as a fulcrum to drive the rolling sweep. Immediately widen your base in the direction opposite to their intended roll and increase crossface pressure to limit their bridging power. Do not post your own hand near their hip as this gives them an additional leverage point. If you sense the sweep momentum beginning, reset your base completely rather than fighting through it.",
         "answer_line": "Old School sweep setup - widen base",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "How do you counter the backstep extraction variant where the top player steps their free leg backward?",
+        "question": "How do you counter a backstep extraction, the top player stepping the free leg back, from Vaporizer?",
         "answer": "When you feel the free leg stepping backward rather than the standard forward circulation, increase your lockdown extension immediately to resist the changed extraction angle. The backstep creates a different force vector, so adjust your hip angle to face toward the stepping direction. If the backstep begins to succeed, use their backward movement momentum to accelerate a Truck entry or back take rather than fighting the extraction directly. Their backward step often exposes their back if you can follow the rotation.",
         "answer_line": "Extend lockdown, face stepping side",
         "distractors": {

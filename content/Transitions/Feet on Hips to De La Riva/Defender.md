@@ -56,7 +56,7 @@ description: "Defend against the feet on hips to De La Riva guard transition. Re
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a De La Riva transition from feet on hips?",
+      "name": "What is the earliest cue that they're transitioning from feet on hips to De La Riva?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is a change in foot pressure distribution where one foot pushes harder on your hip while the other begins to lighten. This asymmetric pressure indicates the bottom player is preparing to remove the lighter foot for the hook. Additionally, aggressive cross-sleeve or collar grip fighting signals they are establishing the upper body anchor needed for a safe transition. Reacting at this preparatory stage gives you maximum time to counter before the hook attempt begins."
@@ -72,7 +72,7 @@ description: "Defend against the feet on hips to De La Riva guard transition. Re
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully threads a partial DLR hook but has not yet secured the ankle grip - what is the highest-percentage counter?",
+      "name": "They have a partial DLR hook but no ankle grip yet — best counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately backstep your hooked leg backward while driving your same-side knee toward the mat to flatten the hook angle. Without the ankle grip, the hook has minimal retention power and your backstep momentum will extract your leg cleanly. Simultaneously use your free hand to push their hooking knee away from your leg. Once extracted, immediately initiate a pass while their guard is in transition rather than allowing them to re-establish feet on hips and attempt the entry again."
@@ -80,7 +80,7 @@ description: "Defend against the feet on hips to De La Riva guard transition. Re
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the bottom player from using asymmetric foot pressure to provoke you into presenting a lead leg?",
+      "name": "How do you avoid being provoked into presenting a lead leg by asymmetric foot pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain awareness of your stance and resist the impulse to step forward when pushed asymmetrically. Instead, absorb the rotational pressure by engaging your core and keeping both feet planted with equal weight. If you feel yourself being turned, step with both feet simultaneously to re-square your stance rather than advancing one leg. You can also counter the asymmetric pressure by controlling both of the bottom player's ankles, neutralizing their ability to create differential pushing forces entirely."

@@ -72,7 +72,7 @@ description: "Defend the Rodeo Ride to Back Control transition. Learn recognitio
     },
     {
       "@type": "Question",
-      "name": "How should you prioritize your defensive actions when you feel the attacker beginning the back take sequence?",
+      "name": "How do you prioritize your defenses when you feel the Rodeo Ride back take beginning?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, tighten your turtle by squeezing elbows to knees and pressing thighs together to eliminate hook insertion space. Second, fight the near-arm control by stripping grips before the attacker can layer additional controls. Third, feel for the weight shift indicating hook insertion is imminent—this is your escape window. Fourth, if the first hook enters, immediately commit to your escape direction before seat belt and second hook are established. The sequence is: structure, grips, timing, commitment."
@@ -80,7 +80,7 @@ description: "Defend the Rodeo Ride to Back Control transition. Learn recognitio
     },
     {
       "@type": "Question",
-      "name": "What is the difference between defending the transition early versus late, and why does timing matter?",
+      "name": "In defending the Rodeo Ride back take, how does early defense differ from late, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Early defense before any hooks focuses on grip fighting, posture maintenance, and preventing the attacker's angle change. You have maximum options and lowest urgency. Late defense after the first hook requires explosive, committed escape attempts because options are narrowing rapidly. Early defense is proactive and maintenance-based, while late defense is reactive and must be decisive. Waiting too long transforms defense from a manageable positional battle into a desperate escape where success probability drops with each control point established."
@@ -88,7 +88,7 @@ description: "Defend the Rodeo Ride to Back Control transition. Learn recognitio
     },
     {
       "@type": "Question",
-      "name": "Your attacker inserts their first hook and begins reaching for the seat belt grip—what is your immediate response?",
+      "name": "They insert one hook and reach for the seat belt: what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately commit to your best available escape before the seat belt and second hook layer together. If the seat belt is not yet clasped, use your hands to fight the over-arm and prevent the grip from closing. Simultaneously begin your sit-back or granby roll—you cannot afford to wait for perfect timing because the attacker is actively closing the control loop. If you successfully strip the seat belt attempt, the single hook alone is manageable for a methodical escape. But allowing both seat belt and first hook to consolidate makes the second hook nearly inevitable."

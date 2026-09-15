@@ -82,7 +82,7 @@ description: "Learn to defend and escape the Bow and Arrow Choke from back contr
     },
     {
       "@type": "Question",
-      "name": "What is the correct defensive body position when the collar grip has been locked and you cannot strip it?",
+      "name": "The bow and arrow collar grip is locked and you cannot strip it — what body position do you take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Curl your body forward into a compact ball with knees drawn toward your chest, chin tucked firmly to your sternum, and both hands controlling the choking wrist with a two-on-one grip. This shortened body position reduces the attacker's bow-and-arrow leverage by denying the extension they need to generate maximum compression. Simultaneously use hip movement to prevent the attacker from establishing the perpendicular angle. Never bridge or extend your spine, as this assists the attacker's finishing mechanics."

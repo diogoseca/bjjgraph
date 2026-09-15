@@ -282,7 +282,7 @@
         }
       },
       {
-        "question": "What is the relationship between the back step timing and the opponent's leg entanglement progression, and when should you abort the technique?",
+        "question": "From outside ashi, when should you back step and when must you abort it?",
         "answer": "The back step is most effective when initiated early in the leg entanglement sequence, particularly when the opponent is entering or establishing outside ashi-garami but has not yet locked in tight heel hook controls. If the opponent successfully locks in a tight heel hook configuration with both legs locked and good grip position on your heel, you should abandon the back step attempt entirely and focus on immediate heel hook defense (hiding heel, turning knee inward, stripping grips). Attempting to back step from a locked heel hook position puts your knee and ankle at severe injury risk.",
         "answer_line": "Step early, abort if heel hook locks",
         "distractors": {
@@ -296,7 +296,7 @@
         }
       },
       {
-        "question": "How should you adjust your back step execution when the opponent transitions from outside ashi to inside ashi during your passing attempt?",
+        "question": "How do you adjust your back step if they switch from outside ashi to inside ashi?",
         "answer": "When the opponent transitions to inside ashi during your pass attempt, you must adjust by placing extra emphasis on heel protection as you execute the back step. Your heel is now closer to their body and more vulnerable to heel hook attacks. Focus on hiding your heel by keeping your knee turned inward, and consider using your free hand to strip any grips they establish on your heel before completing the step. The basic mechanics remain the same, but your defensive awareness must increase. If they achieve strong inside ashi controls with good heel exposure, consider alternative escapes rather than forcing the back step.",
         "answer_line": "Hide heel, turn knee inward",
         "distractors": {
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "What specific direction of force should your shoulder drive generate during step 5, and why is the angle critical?",
+        "question": "During the back step pin, what direction should your shoulder drive, and why is that angle critical?",
         "answer": "Your shoulder should drive at a 45-degree angle downward and across the opponent's sternum, not straight down. This diagonal force vector accomplishes two things simultaneously: it pins their shoulders flat to the mat preventing them from turning into you, and it drives their hips away preventing guard recovery. A purely downward force allows them to shrimp sideways, while a purely lateral force allows them to bridge up. The diagonal combines both pinning and flattening mechanics for maximum control.",
         "answer_line": "45-degree diagonal across sternum",
         "distractors": {
@@ -352,7 +352,7 @@
         }
       },
       {
-        "question": "If your initial back step attempt is blocked and you remain in outside ashi-garami, what chain attacks should you consider?",
+        "question": "Your back step is blocked and you're still in outside ashi: what chain attacks follow?",
         "answer": "When the back step is blocked, you have several chain options depending on how the opponent stopped you. If they maintained strong leg control, consider switching to a knee slice pass by redirecting your leg to the inside rather than over the top. If they sat up with good posture, try a leg weave pass by threading your free leg through their guard structure. If they created frames, address the frames first then re-attempt. The key is not to force the same technique repeatedly but to use their defensive reaction to set up the next pass in your sequence, creating a passing dilemma where their defense to one pass exposes them to another.",
         "answer_line": "Chain to knee slice or leg weave",
         "distractors": {
@@ -366,7 +366,7 @@
         }
       },
       {
-        "question": "What grip configuration on the opponent's near arm gives you maximum control during the back step, and how does it differ from gi to no-gi?",
+        "question": "What near-arm grip best controls the back step in gi and no-gi?",
         "answer": "The optimal grip is a wrist-and-tricep two-on-one control that pins their near arm to their own body or the mat. In gi, you can substitute the wrist grip with a deep sleeve grip and the tricep grip with a collar grip on the same side, which provides excellent rotational control. In no-gi, a wrist grip combined with an overhook on their upper arm creates the strongest pin. The critical detail is that the arm must be controlled against a surface (their body or the mat) rather than held in space, because holding an arm in space requires constant muscular effort and is easily broken by an explosive pull.",
         "answer_line": "Wrist-tricep pinned to their body",
         "distractors": {
@@ -484,7 +484,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is attempting a back step rather than a standard leg extraction?",
+        "question": "What's the earliest cue they're back stepping rather than just extracting the leg from your ashi?",
         "answer": "The earliest cue is the direction of their pressure and weight shift. A standard leg extraction involves the opponent pulling their leg backward and away from you, shifting weight rearward. A back step involves the opposite - the opponent drives forward with chest pressure onto your upper body while their free hand reaches to clear your top leg. This forward commitment is the distinguishing signal that differentiates a pass attempt from an escape attempt and should trigger your defensive response immediately.",
         "answer_line": "Forward chest pressure onto you",
         "distractors": {
@@ -498,7 +498,7 @@
         }
       },
       {
-        "question": "Why does threatening a heel hook serve as an effective defense against the back step, even if you cannot finish the submission?",
+        "question": "Why does threatening a heel hook defend the back step even if you can't finish it?",
         "answer": "The heel hook threat creates a dilemma for the opponent: if they continue the back step while your heel hook grip is engaged, the rotational force of their stepping motion combined with your grip can cause serious knee injury. This forces them to stop their pass, address the submission threat by stripping your grips, and restart their sequence. Even an imperfect heel hook attempt buys you critical seconds to re-establish your posture and tighten your leg entanglement. The threat is often as effective as the actual submission in disrupting the pass.",
         "answer_line": "Forces them to stop, strip grips",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "Your opponent has already cleared your top leg and is mid-step - what defensive option gives you the best chance of preventing the pass?",
+        "question": "They've cleared your top leg mid back step: what best prevents the pass now?",
         "answer": "At this late stage, your best option is guard recovery rather than trying to re-establish the broken leg entanglement. As their leg clears over your body, immediately work to insert your near knee between your bodies to establish a knee shield or half guard. Your hands should be creating frames on their shoulders and hips to prevent them from settling their weight. The window for this recovery is extremely short - you must act during their stepping motion before they drive shoulder pressure and establish crossface control.",
         "answer_line": "Insert knee, recover half guard",
         "distractors": {
@@ -540,7 +540,7 @@
         }
       },
       {
-        "question": "When is attempting a counter-roll or inversion the right defensive choice versus simply recovering guard?",
+        "question": "From ashi, when is a counter-roll or inversion better than recovering guard against the back step?",
         "answer": "The counter-roll is appropriate when the opponent commits aggressively to the back step with significant forward momentum and their weight is already passing over your body. In this scenario, their committed momentum can be redirected by inverting underneath them. Guard recovery is the better choice when the opponent is methodically and slowly executing the back step with controlled pressure, because their controlled weight distribution makes inversion extremely difficult and likely to fail. Assess their speed and commitment - explosive passes invite inversions, methodical passes require positional guard recovery.",
         "answer_line": "Invert when they blitz with momentum",
         "distractors": {

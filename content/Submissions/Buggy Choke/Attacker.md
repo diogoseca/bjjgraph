@@ -86,7 +86,7 @@ description: "Attack the Buggy Choke from bottom half guard: trap the arm and he
     },
     {
       "@type": "Question",
-      "name": "Your opponent's head is trapped and you have just drawn your knee toward your own head with hand on shin — why is this the point of no escape?",
+      "name": "Buggy choke: once your knee is at your head and hand on shin, why can't they escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the knee is drawn to your head and the hand-to-shin loop is sealed, the opponent's head and their own shoulder are locked inside a closed frame with no slack to spin out, so the carotid compression only tightens as you bridge."
@@ -110,7 +110,7 @@ description: "Attack the Buggy Choke from bottom half guard: trap the arm and he
     },
     {
       "@type": "Question",
-      "name": "Your opponent stops fighting and goes quiet a few seconds into the choke — what is happening and what do you do?",
+      "name": "Your opponent goes quiet seconds into the buggy choke — what is happening and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Quietness or going limp can signal the blood choke is working and unconsciousness is near; if there is no tap, maintain control but be ready to release the instant they tap or go fully limp, and never hold past unconsciousness."

@@ -72,7 +72,7 @@ description: "How to defend against Smash Pass Counter in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "The passer has established crossface and is stripping your lapel grip - what is your best remaining option?",
+      "name": "Ringworm Guard: they have the crossface and are stripping your lapel grip. Best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your best option is to transition your guard configuration before the lapel grip is fully broken. Begin inserting a knee shield while transitioning your grip hand to the passer's collar or sleeve. Accept that Ringworm Guard is compromised and focus on establishing knee shield half guard or another functional guard position that can resist their forward pressure. Attempting to re-establish Ringworm at this stage is lower percentage than transitioning to a new defensive structure."
@@ -88,7 +88,7 @@ description: "How to defend against Smash Pass Counter in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What is the critical timing difference between a successful back take and getting flattened during the turning defense?",
+      "name": "In the turning defense off a smash pass, what timing decides a back take versus getting flattened?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The critical timing difference is whether you initiate the turn before or after the crossface is established. Turning before crossface gives you a free path to the underhook and back take, while turning after crossface means you are fighting against a structural anchor that pins your head and shoulders. The turn must begin at the instant you recognize the collapse, not after you feel the crossface pressure. Even a half-second delay converts a viable back take into a failed turning attempt."

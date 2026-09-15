@@ -70,7 +70,7 @@ description: "How to execute Loop Choke from Mount in BJJ. Attacking perspective
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum time period you should take to apply full pressure in the loop choke from mount during training?",
+      "name": "How long should you take to reach full pressure on the loop choke from mount in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The minimum application time is 3-5 seconds from initial tightness to full pressure. This progressive application is a critical safety requirement that gives your training partner adequate time to recognize the choke and tap safely. Competition-speed application is never appropriate in training and significantly increases injury risk. The choke should tighten gradually, allowing your partner to feel the progression and tap at any point."
@@ -110,7 +110,7 @@ description: "How to execute Loop Choke from Mount in BJJ. Attacking perspective
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins posturing up and creating frames while you have the deep collar grip established - what adjustment prevents escape?",
+      "name": "They posture up and frame while you hold the deep collar grip in mount: what stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When they posture up or create frames, immediately lower your chest toward their head and drive your weight through the collar grip. Use your hips to pin their shoulders back to the mat rather than allowing them to create vertical space. The frames they create can actually help tighten the choke if you drive forward into them while maintaining your diagonal pulling vectors. If they successfully create significant space, consider transitioning to a mounted triangle or armbar on the framing arm rather than losing the position entirely."

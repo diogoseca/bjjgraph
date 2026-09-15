@@ -66,7 +66,7 @@ description: "Defend against the turn into opponent escape from back control. Re
     },
     {
       "@type": "Question",
-      "name": "When the turn becomes inevitable and you cannot maintain back control, what is the optimal positional transition?",
+      "name": "When their turn out of your back control is inevitable, what transition should you take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow the turn and transition to mount rather than fighting to maintain back control once hooks are lost. As they rotate toward you, swing your top leg over their body and establish mount position before they can close their guard. This requires releasing your hooks proactively and climbing to mount during the rotation rather than clinging to a back control position that is already compromised. Mount is still a dominant 4-point position and preserves your advantage."

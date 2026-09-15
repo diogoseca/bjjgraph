@@ -56,7 +56,7 @@ description: "Learn to defend against the Technical Stand Up from Open Guard in 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is preparing a technical stand up from open guard?",
+      "name": "What's the earliest cue your opponent is setting up a technical stand up from open guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the opponent shifting their weight to one hip while their hand begins reaching behind their body toward the mat for the posting position. This posting hand placement is the prerequisite for the entire stand-up sequence and occurs before any visible hip elevation. Secondary cues include increased pushing force through their feet on your hips to create distance and sudden grip releases as they free their posting hand. Recognizing these preparatory movements gives you the maximum reaction time."
@@ -72,7 +72,7 @@ description: "Learn to defend against the Technical Stand Up from Open Guard in 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully elevated their hips and is sweeping their trailing leg through - what is your best counter at this late stage?",
+      "name": "Their hips are up and the trailing leg is swinging through. What's your best late counter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is to time a takedown entry as they transition from tripod to standing. Their base is narrowest when the trailing foot first contacts the mat behind them and before they establish shoulder-width stance. A well-timed single leg on their base foot or a body lock from clinch range can topple them during this brief instability window. Attempting to push them back down at this stage is less effective because their tripod is already established and they have upward momentum."
@@ -88,7 +88,7 @@ description: "Learn to defend against the Technical Stand Up from Open Guard in 
     },
     {
       "@type": "Question",
-      "name": "What is the risk of shooting a takedown too early versus too late during the opponent's stand-up sequence?",
+      "name": "What are the risks of shooting too early versus too late during their technical stand up?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shooting too early, while the opponent is still seated with their legs active in guard, exposes you to guillotines, front headlock attacks, and snap-downs because you are driving into their defensive guard structure rather than catching them in transition. Shooting too late, after they have established a full standing base with feet apart, means you are attacking a balanced opponent who can sprawl effectively. The optimal window is during the final phase when they are transitioning from tripod to standing, when their feet are closest together and their hands are occupied."

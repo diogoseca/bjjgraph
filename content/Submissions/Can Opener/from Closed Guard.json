@@ -449,7 +449,7 @@
         }
       },
       {
-        "question": "What are the common finishing errors that reduce Can Opener effectiveness while increasing injury risk?",
+        "question": "What finishing errors reduce Can Opener effectiveness while raising injury risk?",
         "answer": "Common finishing errors include: positioning hands too high on the crown of the skull rather than the base, allowing the grip to slip and causing sudden pressure spikes; driving forearms into the windpipe rather than neck sides, creating dangerous airway obstruction; applying jerking or explosive pressure instead of gradual compression, dramatically increasing vertebral injury risk; failing to recognize when the defender's guard has loosened and continuing unnecessary pressure; and over-relying on arm strength rather than proper leverage mechanics, leading to rapid fatigue and inconsistent pressure application. All these errors increase danger while reducing effectiveness, reinforcing why legal alternatives are superior.",
         "safety_critical": true,
         "answer_line": "Forearm on windpipe, jerky pull",
@@ -609,7 +609,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that a Can Opener is being set up from inside your closed guard?",
+        "question": "What is the earliest cue a Can Opener is being set up inside your closed guard?",
         "answer": "The earliest cue is when your opponent abandons normal grip fighting patterns (collar, sleeve, pant grips) and instead begins swimming one or both hands toward the back of your head while inside your closed guard. This hand trajectory is distinctly different from standard guard passing mechanics where the hands target your hips, knees, or lapels. The moment you feel fingers reaching behind your skull rather than engaging in standard grip fighting, you should immediately pull their posture down with collar grips and re-establish dominant grip control to deny the hand positioning entirely.",
         "safety_critical": true,
         "answer_line": "Hands swimming behind your head",
@@ -654,7 +654,7 @@
         }
       },
       {
-        "question": "What symptoms after a Can Opener attempt should cause you to stop training and seek medical evaluation?",
+        "question": "Which symptoms after a Can Opener mean you should stop training and get medical evaluation?",
         "answer": "Stop training immediately and seek medical evaluation if you experience any of the following after a Can Opener attempt: persistent neck pain lasting more than five minutes after the pressure is released, any numbness or tingling radiating into the arms, shoulders, or fingers (indicating potential nerve compression), restricted range of motion when turning or tilting the head, headache originating from the base of the skull, dizziness or visual disturbance, or any grinding or clicking sensation in the neck during movement. These symptoms can indicate disc herniation, ligament damage, or nerve impingement that requires professional diagnosis. Do not attempt to train through cervical spine symptoms.",
         "safety_critical": true,
         "answer_line": "Numbness or tingling into the arms",

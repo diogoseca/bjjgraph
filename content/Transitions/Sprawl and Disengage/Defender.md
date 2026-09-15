@@ -88,7 +88,7 @@ description: "How to defend against Sprawl and Disengage in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their hands on your hips before sprawling—how does this change your defensive approach?",
+      "name": "They post hands on your hips before sprawling: how does that change your defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Their hand post telegraphs the sprawl and gives you an early warning advantage. Use this moment to pre-tighten your hooks and begin elevating your hips against their frames before the sprawl initiates. You can also strip one of their posting hands by pulling it toward you with your grip, which destabilizes their sprawl base and may cause them to fall forward into your guard rather than retreating cleanly."

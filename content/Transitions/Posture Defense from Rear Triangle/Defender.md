@@ -56,7 +56,7 @@ description: "Learn to maintain rear triangle control when opponent attempts pos
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your immediate response when you feel the opponent gripping your locking ankle from inside the rear triangle?",
+      "name": "Holding a rear triangle, they grip your locking ankle — what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately squeeze your knees together to increase triangle compression and use your free hand to pull the opponent's head forward, re-breaking their posture. Simultaneously, fight to keep your locking ankle deep behind your knee by curling your toes and pressing the ankle into the knee crook. The ankle grip is the single most dangerous threat to the triangle's integrity and must be addressed before the opponent generates any leverage on it."
@@ -88,7 +88,7 @@ description: "Learn to maintain rear triangle control when opponent attempts pos
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins driving their shoulders back with sustained pressure—how do you differentiate between a posture defense you can counter and one requiring positional transition?",
+      "name": "In a rear triangle, how do you tell a counterable posture defense from one requiring transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Assess three indicators: first, whether your locking ankle is still secured behind your knee (if stripped, transition immediately); second, whether your knees can still compress around the opponent's neck and trapped arm (if space has opened, the triangle is compromised); third, whether you can still pull the opponent's head forward with your hands (if your pulling force is insufficient, they have recovered too much posture). If two or more indicators are negative, transition to back control rather than fighting a lost triangle."

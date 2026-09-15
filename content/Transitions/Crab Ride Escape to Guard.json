@@ -331,7 +331,7 @@
         }
       },
       {
-        "question": "Your opponent deepens their hook and drives heavy chest pressure as you begin the escape sequence - how do you adjust?",
+        "question": "They deepen the hook and drive chest pressure as you start the crab ride escape. How do you adjust?",
         "answer": "Pause the hook strip and return to a strong defensive turtle posture with both hands protecting the neck. Do not fight the deepened hook against maximum resistance. Instead, wait for the opponent's next adjustment - they cannot maintain maximum hook pressure and simultaneously advance their upper body attacks. When they shift focus to grips or choke setups, the hook pressure naturally decreases. Use these fluctuations to make incremental progress on the strip rather than committing to one sustained effort against peak resistance.",
         "answer_line": "Pause, defend neck, wait it out",
         "distractors": {
@@ -359,7 +359,7 @@
         }
       },
       {
-        "question": "You strip the hook but the opponent's chest pressure blocks a full turn into closed guard - what do you chain into?",
+        "question": "You strip the hook but chest pressure blocks the turn to closed guard. What do you chain into?",
         "answer": "Abandon the closed guard goal and redirect into half guard or butterfly guard, both of which require less rotation. Perform a sit-through that traps the opponent's near leg between yours to establish half guard, or insert butterfly hooks under their thighs as you turn. Both options use the space the strip already created rather than fighting for the larger closed-guard rotation. Establishing any guard beats stalling for the perfect closed guard while the opponent re-consolidates crab ride control.",
         "answer_line": "Chain to half or butterfly guard",
         "distractors": {
@@ -500,7 +500,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that your opponent is initiating the guard recovery escape from crab ride bottom?",
+        "question": "What is the earliest cue that the bottom player is starting a guard recovery from crab ride?",
         "answer": "The earliest cue is their same-side hand reaching toward your hooking foot or ankle. This precedes all other escape movements because the bottom player must address the hook before rotating. Secondary cues include lateral hip shifting and aggressive chin tucking. By recognizing the hand movement toward your hook, you can increase hook depth and chest pressure before the escape sequence gains momentum.",
         "answer_line": "Their hand reaches for your hook",
         "distractors": {
@@ -514,7 +514,7 @@
         }
       },
       {
-        "question": "How should you adjust your hook when you feel stripping pressure on your ankle from the bottom player?",
+        "question": "How do you adjust your crab ride hook when they apply stripping pressure to your ankle?",
         "answer": "Drive your hooking foot deeper by curling your heel toward the far side of their hip and pressing your shin more firmly against the inside of their thigh. Do not simply resist the pull with foot strength alone. Simultaneously increase your chest pressure to limit their ability to generate stripping force. If the hook is being stripped from the inside, rotate your foot so the pressure direction changes, forcing them to adjust their grip and buy time for you to re-establish depth.",
         "answer_line": "Curl heel deeper, press shin in",
         "distractors": {
@@ -528,7 +528,7 @@
         }
       },
       {
-        "question": "When during the escape attempt is the optimal time to transition from crab ride to full back control?",
+        "question": "During their crab ride escape, when is the best moment to take full back control?",
         "answer": "The optimal transition window is the moment when the bottom player has partially rotated their hips but has not yet established any leg barrier or guard frame between your bodies. Their rotation creates exactly the hip angle needed for your second hook to enter, and their focus on completing the turn means they are momentarily not defending hook insertion. Commit to the back take by inserting the second hook and establishing seatbelt during this two-to-three second window.",
         "answer_line": "Mid-rotation before guard forms",
         "distractors": {
@@ -542,7 +542,7 @@
         }
       },
       {
-        "question": "What grip adjustment prevents the bottom player from completing their hip rotation during the escape?",
+        "question": "Escaping crab ride bottom: which grip stops your opponent completing their hip rotation?",
         "answer": "Establish an overhook on their far arm combined with a collar or head control on the near side. This grip configuration creates a rotational anchor that prevents their shoulders from turning toward you. When they attempt to rotate, your overhook on the far side acts as a brake on their turning motion. Additionally, driving your chest weight toward their far shoulder rather than straight down makes their rotation mechanically much more difficult because they must lift your weight as they turn.",
         "answer_line": "Overhook far arm, control head",
         "distractors": {

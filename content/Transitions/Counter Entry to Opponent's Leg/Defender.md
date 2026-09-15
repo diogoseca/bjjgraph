@@ -50,7 +50,7 @@ description: "How to defend against Counter Entry to Opponent's Leg in BJJ. Reco
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting Counter Entry rather than a standard escape?",
+      "name": "What is the earliest cue that they're attempting Counter Entry rather than a standard escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is their hip rotation direction. Standard escapes involve rotating hips away from you to create extraction distance, while the counter-entry requires rotating hips toward you to bring their free leg across your centerline. When you feel their hips turning into you rather than away, combined with their free leg pushing down on your bottom leg, you can identify the counter-entry before the threading begins."
@@ -58,7 +58,7 @@ description: "How to defend against Counter Entry to Opponent's Leg in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining a tight leg triangle the single most important preventive measure against this counter?",
+      "name": "Why is a tight leg triangle the best prevention against the counter entry to your leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The counter-entry requires the opponent to thread their free leg between your legs to reach your far leg. A tight leg triangle eliminates the space needed for threading entirely, making the counter-entry physically impossible regardless of their hip rotation or grip fighting. When your legs are locked around their trapped leg with no gaps, there is simply no pathway for their leg to pass through. Prevention through positional integrity is far more reliable than reactive defense."
@@ -66,7 +66,7 @@ description: "How to defend against Counter Entry to Opponent's Leg in BJJ. Reco
     },
     {
       "@type": "Question",
-      "name": "Your opponent has cleared your inside leg and begun threading - is it too late to prevent 50-50 entry?",
+      "name": "They cleared your inside leg and are threading — is it too late to stop 50-50?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the inside leg is cleared and threading has begun, preventing 50-50 becomes very difficult but redirecting to inside ashi-garami remains viable. Their hip rotation toward you and the threading motion actually facilitates your advancement if you follow their rotation and deepen your inside leg position across their hip. Commit to the redirect rather than trying to reverse a threading that is already in progress. Attempting to stop the thread at this point typically results in a scramble where neither practitioner achieves clean position."

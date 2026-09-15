@@ -97,7 +97,7 @@
       "relationship": "Alternative threat position - turning into shoulder pressure opens north-south transition for top player"
     },
     {
-      "name": "Escape Modified Scarf Hold",
+      "name": "Escape Kuzure Kesa Gatame",
       "relationship": "Similar escape technique - shares framing and hip escape mechanics from related side control variant"
     },
     {
@@ -280,7 +280,7 @@
         }
       },
       {
-        "question": "What specific indicator tells you the opponent's weight has shifted enough to attempt the hip escape?",
+        "question": "What tells you their weight has shifted enough to hip escape Shoulder of Justice?",
         "answer": "Key indicators include the opponent adjusting their shoulder angle, reaching to establish new grips, shifting their far knee position, or beginning a transition toward a submission setup. Any movement that temporarily lightens their hip-to-hip pressure connection creates the escape window. The most reliable indicator is feeling their hips lift or shift even slightly off your near hip line, which means their weight has redistributed enough for your hip escape to generate meaningful distance.",
         "answer_line": "Their hips lift off your hip",
         "distractors": {
@@ -294,7 +294,7 @@
         }
       },
       {
-        "question": "Your forearm micro-frame is in place but the opponent drives through it with heavier pressure. How do you respond?",
+        "question": "Your forearm micro-frame holds but they drive heavier pressure: how do you respond?",
         "answer": "Do not fight the increased pressure by muscling your frame harder, as this leads to rapid forearm fatigue and eventual frame collapse. Instead, maintain your frame position through bone alignment while absorbing the pressure, and wait for the opponent to readjust. Driving heavier pressure requires the opponent to shift their weight forward, which temporarily lightens their hip connection and creates the weight shift window you need for the subsequent hip escape.",
         "answer_line": "Hold frame, wait for weight shift",
         "distractors": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "You successfully create space with a hip escape but the opponent begins stepping over for mount. What is your immediate response?",
+        "question": "You make space with a hip escape but they step over for mount: what do you do?",
         "answer": "Immediately redirect your knee shield to block the crossing leg before it clears your body. Your knee should intercept their leg at the thigh level, preventing the mount entry. If you can trap their crossing leg between your knees as it comes over, you recover directly into half guard with the opponent's leg already captured. Speed of knee shield insertion is critical because the mount transition window only lasts one to two seconds.",
         "answer_line": "Block crossing leg with knee",
         "distractors": {
@@ -350,7 +350,7 @@
         }
       },
       {
-        "question": "What must you do immediately after consolidating half guard to prevent the opponent from reestablishing Shoulder of Justice?",
+        "question": "After consolidating half guard, what stops them reestablishing Shoulder of Justice?",
         "answer": "Immediately establish an underhook on the far side with your bottom arm and begin threatening sweeps. The underhook prevents the opponent from re-flattening you and driving shoulder pressure back into your jaw, while sweep threats force them to address your offensive potential rather than work to re-pass. If you simply hold half guard passively without threatening, the opponent can methodically break down your position and reestablish the Shoulder of Justice or pass to side control.",
         "answer_line": "Underhook far side, threaten sweep",
         "distractors": {
@@ -469,7 +469,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that the bottom player is preparing a planned escape rather than enduring passively?",
+        "question": "What is the earliest cue that they are preparing an escape rather than just enduring?",
         "answer": "The earliest and most reliable cue is the bottom player establishing deliberate nasal breathing with a steady rhythm. This indicates they have shifted from panic or passive endurance to active escape preparation, as controlled breathing is the necessary first step of any systematic escape from Shoulder of Justice. Secondary cues include their far foot planting flat on the mat and their near forearm beginning to create a subtle wedge against your chest.",
         "answer_line": "Steady deliberate nasal breathing",
         "distractors": {
@@ -483,7 +483,7 @@
         }
       },
       {
-        "question": "Why is hip-to-hip connection more important than shoulder pressure intensity for preventing the escape?",
+        "question": "Why does hip-to-hip connection prevent the escape better than heavy shoulder pressure?",
         "answer": "Hip-to-hip connection physically blocks the primary escape mechanism, which is the hip escape that creates lateral distance. Shoulder pressure creates discomfort and provokes reactions, but it is the hip connection that actually prevents the bottom player's hips from moving away. A top player with moderate shoulder pressure but excellent hip connection is far more difficult to escape than one with maximum shoulder pressure but disconnected hips, because the bottom player can shrimp away regardless of jaw discomfort.",
         "answer_line": "Blocks the hip escape directly",
         "distractors": {
@@ -497,7 +497,7 @@
         }
       },
       {
-        "question": "The bottom player creates a forearm micro-frame without extending their arm. Should you attack the arm?",
+        "question": "They build a forearm micro-frame without extending the arm: should you attack that arm?",
         "answer": "No; a correct micro-frame stays inside the centerline, so collapse it with pressure instead of trying to isolate the arm. A properly executed micro-frame keeps the arm within the bottom player's centerline and is not vulnerable to kimura or americana attacks. Attempting to isolate a protected arm requires you to release pressure and shift your weight — exactly the weight shift the bottom player is waiting for to execute their hip escape. Instead, increase your shoulder pressure angle and drive your weight through the micro-frame to collapse it structurally while maintaining hip connection.",
         "distractors": {
           "plausible": [

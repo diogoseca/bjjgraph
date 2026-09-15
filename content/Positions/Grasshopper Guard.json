@@ -92,7 +92,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent inverts deeply and begins threading their legs around yours - what is your immediate response?",
+        "question": "Your opponent inverts and starts threading their legs around yours - what is your response?",
         "answer": "Execute a back step immediately by stepping your endangered leg backward and away from their entanglement attempt while keeping your weight low. The back step creates separation and removes your leg from the danger zone before they can establish control. Avoid pulling straight backward, which often completes their entanglement for them.",
         "answer_line": "Back step, clear the leg",
         "distractors": {
@@ -120,7 +120,7 @@
         }
       },
       {
-        "question": "How do you recognize when the bottom player's inversion is weakening and becoming vulnerable to a stack pass?",
+        "question": "How do you know the bottom player's inversion is fading and open to a stack pass?",
         "answer": "Watch for their hips dropping toward the mat, decreased leg activity, slower adjustments to your circling, and visible core fatigue indicated by their midsection relaxing. When their hips sag below chest height or they struggle to maintain shoulder base contact, this creates the optimal window to drive forward with a stack pass.",
         "answer_line": "Hips sag, legs slow",
         "distractors": {
@@ -148,7 +148,7 @@
         }
       },
       {
-        "question": "The bottom player establishes a hook behind your knee - how do you recover before they complete the entanglement?",
+        "question": "The bottom player hooks behind your knee in Grasshopper Guard - how do you clear it?",
         "answer": "Immediately shift your weight away from the hooked leg and begin the back step motion. As you step back, use your free hand to address the hook by pushing their leg away or pinning it against their body. Move slowly and deliberately rather than explosively jerking, which can complete the entanglement or cause injury. Reset to neutral distance once the hook is cleared.",
         "answer_line": "Shift weight away, clear hook slowly",
         "distractors": {
@@ -906,7 +906,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines Grasshopper Guard and distinguishes it from a conventional open guard?",
+      "question": "What structure defines Grasshopper Guard versus a conventional open guard?",
       "answer": "Grasshopper Guard is an inverted open guard where the bottom player bases on their shoulders and upper back rather than seated on their hips, elevating the hips and legs toward a typically standing passer. This inversion flips the usual guard geometry: the shoulders become the anchor while the hips float free to thread legs around the opponent's base. Unlike upright seated guards that rely on hip contact and grips for connection, grasshopper trades upper-body connection entirely for leg access and dynamic entanglement angles. The defining trade-off is stability sacrificed for immediate access to the passer's legs.",
       "answer_line": "Inverted, shoulders base, hips free",
       "distractors": {
@@ -920,7 +920,7 @@
       }
     },
     {
-      "question": "Why is Grasshopper Guard treated as a transitional hunting position rather than a place to settle and rest?",
+      "question": "Why is Grasshopper Guard a transitional hunting position rather than a place to rest?",
       "answer": "Holding the inverted posture demands continuous core engagement and hip-flexor tension to keep the hips elevated above torso level, which is metabolically unsustainable for more than roughly 10 to 20 seconds. Because the platform decays as the bottom player fatigues, every moment in the position must progress toward a leg entanglement, a sweep, or a transition to a sustainable guard. For both players this shapes the tempo: the bottom player races to convert before the position collapses, while the top player deliberately stalls to let time drain the inversion. The energy asymmetry is the central dynamic that governs who wins the exchange.",
       "answer_line": "Core drains fast, must convert",
       "distractors": {

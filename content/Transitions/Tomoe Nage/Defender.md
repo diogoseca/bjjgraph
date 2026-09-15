@@ -56,7 +56,7 @@ description: "How to defend against Tomoe Nage in BJJ. Recognition cues, defensi
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is setting up Tomoe Nage, and how does this differ from a standard guard pull?",
+      "name": "What earliest cue shows a Tomoe Nage setup rather than a guard pull?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the combination of a deep collar grip with strong forward pulling tension plus the opponent stepping their lead foot close to your centerline. This differs from a guard pull where the opponent typically shifts their weight backward and sits down without the forward pulling or foot placement setup. In Tomoe Nage, you feel a distinct forward load through the grips because they need your momentum to power the throw. A guard puller releases tension as they sit, while a Tomoe Nage attacker increases tension. Recognizing this difference gives you the critical one-second window to react."
@@ -64,7 +64,7 @@ description: "How to defend against Tomoe Nage in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Why is sprawling hips backward more effective than posting your hands forward when defending Tomoe Nage?",
+      "name": "Why is sprawling your hips back better than posting your hands to defend Tomoe Nage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sprawling hips backward removes your center of mass from over the attacker's foot, denying the fulcrum they need to complete the throw. Your weight moves away from their lever rather than adding to it. Posting hands forward, by contrast, keeps your center of mass in the same position while committing your arms, which are your primary grip-fighting tools. Forward hand posts also create a rigid structure that the attacker can pull through their grips. Hip withdrawal addresses the root cause of the throw's mechanics while hand posting only adds temporary resistance that a well-timed extension can overcome."
@@ -72,7 +72,7 @@ description: "How to defend against Tomoe Nage in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already dropped and placed their foot on your hip but has not yet extended their leg - what defensive option offers the best outcome?",
+      "name": "Their foot is on your hip but not yet extended for Tomoe Nage: what is your best option?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In this narrow window, drive forward and down with your chest while widening your base and pinning their hips to the mat with your body weight. Their foot is placed but their leg is still bent, meaning they lack the extension force to complete the throw. Your forward pressure flattens them and prevents the extension. Simultaneously, fight to clear their foot off your hip by shifting your hips laterally. If successful, you end up in top position inside their guard. This is the last effective counter before the throw loads fully. You must commit to this option immediately without hesitation, as the extension window is very brief."
@@ -80,7 +80,7 @@ description: "How to defend against Tomoe Nage in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "How should your weight distribution change when you sense your opponent is hunting for Tomoe Nage during a standing grip exchange?",
+      "name": "How should your standing weight distribution change when you sense a Tomoe Nage coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Shift your weight distribution from the standard 50/50 balanced stance to approximately 60% on your rear foot and 40% on your front foot, sitting your hips slightly behind your shoulders. Lower your center of gravity by bending your knees more deeply. This back-weighted stance denies the forward momentum Tomoe Nage requires while maintaining enough mobility to initiate your own attacks. Keep your hips behind your feet at all times. If they pull you, let your arms absorb the tension with bent elbows rather than letting the pull transfer to your hips. This postural adjustment makes the throw significantly less effective while still allowing you to engage offensively."
@@ -88,7 +88,7 @@ description: "How to defend against Tomoe Nage in BJJ. Recognition cues, defensi
     },
     {
       "@type": "Question",
-      "name": "After successfully defending a Tomoe Nage attempt, your opponent is now on their back with feet on your hips - what is the highest-priority action?",
+      "name": "You stuff the Tomoe Nage and they are on their back, feet on your hips: what comes first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately control their legs by gripping their pants at the knees or shins, preventing them from establishing active open guard grips or hooks. Do not rush forward into their guard frames. Strip any remaining grips they have on your collar or sleeves using your newly dominant position. Establish your preferred passing grips while they are still recovering from the failed throw. The attacker is momentarily disoriented from the failed sacrifice, and this transition window is your best opportunity to initiate a guard pass before they can establish a structured guard system. Pin one knee to the mat and begin your passing sequence immediately."

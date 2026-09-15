@@ -302,7 +302,7 @@
         }
       },
       {
-        "question": "Your opponent clasps their hands together as you begin rotating to belly-down - what adjustment prevents the defense from succeeding?",
+        "question": "They clasp their hands as you rotate belly-down — how do you beat that defense?",
         "answer": "Complete the rotation to prone position even with their hands clasped, because the belly-down body weight creates far more grip-breaking force than the supine position. Once prone, wedge your forearm between their clasped hands and lever them apart, or attack the top hand by peeling individual fingers. The gravity-assisted pressure of the prone position makes hand clasping a temporary delay rather than a permanent defense.",
         "safety_critical": false,
         "answer_line": "Finish rotation, pry hands apart",
@@ -377,7 +377,7 @@
         }
       },
       {
-        "question": "Why must extension pressure be applied slowly in the belly-down position compared to the standard armbar?",
+        "question": "Why must extension be applied slower in the belly-down armbar than in the standard armbar?",
         "answer": "The belly-down position creates dramatically greater mechanical advantage than the standard supine armbar because the attacker's entire body weight drives through the arm via gravity rather than just hip bridge force. This amplified leverage means the elbow reaches its structural limit much faster with less perceived effort from the attacker. Applying pressure quickly risks serious ligament damage or fracture before the defender can signal a tap.",
         "safety_critical": true,
         "answer_line": "Body weight multiplies the leverage",
@@ -422,7 +422,7 @@
         }
       },
       {
-        "question": "What indicators tell you the elbow is approaching its structural breaking point during the belly-down finish?",
+        "question": "What tells you the elbow is near breaking during the belly-down armbar finish?",
         "answer": "Key indicators include the arm reaching full extension against resistance, visible straightening of the elbow joint, the defender's body tensing or arching involuntarily, any vocalization or facial expression of distress, and feeling the arm become rigid against your hip pressure. When you feel the arm lock out against your extension pressure with no remaining flexion, the joint is at its structural limit. Ease pressure slightly and wait for the tap rather than continuing to apply force past this point.",
         "safety_critical": true,
         "answer_line": "Arm locks out, no give left",
@@ -547,7 +547,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest recognition cues that indicate the attacker is transitioning to a belly-down armbar finish?",
+        "question": "What are the earliest cues that they are switching to a belly-down armbar finish?",
         "answer": "The earliest cues are the attacker posting their far foot on the mat, consolidating both hands specifically onto your wrist in a tight monkey grip, and their near leg beginning to swing over your face in an arc. You may also feel a rotational pulling force on your trapped arm combined with their body weight shifting from beside you to over your arm. Recognizing these cues immediately is critical because the defensive window closes within 1-2 seconds.",
         "safety_critical": false,
         "answer_line": "Foot posts, leg swings over",

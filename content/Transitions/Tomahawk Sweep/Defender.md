@@ -56,7 +56,7 @@ description: "How to defend against Tomahawk Sweep in BJJ. Recognition cues, def
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that distinguishes a Tomahawk Sweep setup from a standard X-Guard elevation sweep?",
+      "name": "What earliest cue separates a Tomahawk Sweep setup from a standard X-Guard elevation sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest distinguishing cue is the attacker rotating their hips 30-45 degrees off center-line while maintaining both hooks. Standard elevation sweeps maintain a perpendicular hip position for vertical lifting, while the Tomahawk requires this angular setup for its diagonal chopping mechanics. Feeling the hip shift combined with increased lateral pressure from the top hook signals the Tomahawk setup specifically."
@@ -72,7 +72,7 @@ description: "How to defend against Tomahawk Sweep in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "When defending the Tomahawk Sweep, why might sprawling backward expose you to leg entanglement entries?",
+      "name": "Why can sprawling back against the Tomahawk Sweep expose you to leg entanglement entries?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Sprawling backward shifts your weight away from the attacker's hooks, which can loosen their X-Guard structure. However, this backward movement also extends your legs toward the attacker and changes the angle of engagement in a way that facilitates entries to Inside Ashi Garami or Saddle positions. The attacker can maintain their bottom hook control during the sprawl and use your backward momentum to pull into leg entanglement configurations where heel hooks and kneebars become available."
@@ -80,7 +80,7 @@ description: "How to defend against Tomahawk Sweep in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "What specific defensive posture should you maintain to minimize Tomahawk Sweep effectiveness from X-Guard top?",
+      "name": "What defensive posture from X-Guard top best blunts the Tomahawk Sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a low stance with bent knees, hips back, and weight distributed across both legs with a slightly wider-than-shoulder base. Keep constant forward pressure into the X-Guard structure to prevent the attacker from elevating their hips or creating angular rotation. Actively fight grips to prevent sleeve or collar control on the sweep side. This posture reduces the effectiveness of the rotational force by lowering your center of gravity and making the angular setup more difficult to establish."

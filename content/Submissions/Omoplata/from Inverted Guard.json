@@ -291,7 +291,7 @@
         }
       },
       {
-        "question": "Your opponent starts to posture up as you thread your leg over their shoulder - what adjustment prevents escape?",
+        "question": "Inverted guard omoplata: they posture as you thread your leg — what adjustment prevents escape?",
         "answer": "Pull their wrist sharply to your chest while simultaneously accelerating your leg thread and hip rotation. The posturing motion actually assists your rotation if you use their upward momentum to swing to perpendicular faster. Clamp your legs tight the moment you feel them rising and use their posture break attempt as energy for your own transition. If they posture before your leg is threaded, abort and re-establish inverted guard rather than forcing a compromised entry.",
         "safety_critical": false,
         "answer_line": "Pull wrist in, speed up rotation",
@@ -366,7 +366,7 @@
         }
       },
       {
-        "question": "What makes the inverted guard entry for the omoplata different from a standard closed guard omoplata entry?",
+        "question": "How does the inverted guard omoplata entry differ from the standard closed guard entry?",
         "answer": "The inverted entry uses the existing rotational momentum from the inverted position to swing into the perpendicular finishing angle, making the initial entry faster than the standard setup which requires generating rotation from a static closed guard. The leg thread comes from above the opponent's shoulder rather than from the side, creating an unexpected angle that bypasses standard omoplata defenses. However, the inverted entry carries higher risk because you must transition from an unstable inverted base to a stable seated finish.",
         "safety_critical": false,
         "answer_line": "Uses rotational momentum, faster",
@@ -411,7 +411,7 @@
         }
       },
       {
-        "question": "During competition, how should you time the omoplata entry from inverted guard for maximum effectiveness?",
+        "question": "In competition, when should you time the omoplata entry from inverted guard?",
         "answer": "Time the entry when the opponent commits their weight forward to address your inverted guard, specifically when they reach to control your hips or attempt a passing grip. Their forward commitment creates the arm exposure needed for the leg thread and their momentum assists your rotation. Avoid attempting the entry when the opponent maintains distance or has their weight back, as they can simply disengage. The best window is during their transition from standing to engaged passing posture.",
         "safety_critical": false,
         "answer_line": "Entry as they commit weight forward",

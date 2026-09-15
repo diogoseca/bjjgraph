@@ -68,7 +68,7 @@ description: "How to execute Guillotine from Turtle in BJJ. Attacking perspectiv
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary control position you must establish before attempting the guillotine from turtle?",
+      "name": "What control position must you establish before attacking the guillotine from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Front headlock position with your chest driving into opponent's upper back, arm wrapped around neck with armpit tight to their head, and control of their far shoulder to prevent rotation. This dominant position must be secured before threading deeper for the choke grip."
@@ -92,7 +92,7 @@ description: "How to execute Guillotine from Turtle in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your opponent tucks their chin and turns into you during the guillotine setup?",
+      "name": "They tuck their chin and turn into you during the guillotine setup—what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to high elbow guillotine variation using their turn to deepen your grip position, or transition to anaconda or darce choke as their shoulder becomes exposed during the turn. Never force a defended position; flow to the opening their defense creates."
@@ -100,7 +100,7 @@ description: "How to execute Guillotine from Turtle in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "What is the most common grip depth error when attempting guillotine from turtle and how does it compromise the technique?",
+      "name": "What is the common grip-depth error on the turtle guillotine, and how do you correct it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Gripping too shallow around the face instead of deep under the chin. This creates a crank rather than a choke, has low finish rate, high injury risk, and allows opponent to escape by turning their head. The correction is ensuring your wrist reaches the opposite side of neck before locking grip, or transitioning to a different attack if depth cannot be achieved."
@@ -108,7 +108,7 @@ description: "How to execute Guillotine from Turtle in BJJ. Attacking perspectiv
     },
     {
       "@type": "Question",
-      "name": "When pulling guard to finish the guillotine from turtle, what angle and position should your body take?",
+      "name": "Pulling guard to finish the guillotine from turtle, what body angle and leg action do you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Angle your body 45 degrees away from your choking arm side while crunching your abs and using your legs to pull opponent's hips close. This angle prevents opponent from posturing and creates optimal leverage for the choke. Your legs must be active throughout, eliminating space between your bodies and breaking their posture continuously."
@@ -429,7 +429,7 @@ The guillotine from turtle requires careful application in training to prevent n
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Systematic entry when opponent turtles defensively</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Marcelo-Garcia-Guillotine-System" data-cta="related-system-card" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-member-count="25"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Marcelo Garcia Guillotine System</span><span class="system-card__unlocks-badge">Unlocks 25 techniques</span><span class="system-card__blurb">Systematic entry when opponent turtles defensively</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Submission Chain</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

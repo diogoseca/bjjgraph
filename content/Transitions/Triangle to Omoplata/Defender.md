@@ -72,7 +72,7 @@ description: "How to defend against Triangle to Omoplata in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the leg swing and established their shin across your back—what are your remaining defensive priorities?",
+      "name": "Their shin is across your back in the omoplata—what is your first defensive priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Once the omoplata is established, your priorities in order are: First, prevent the attacker from establishing belt or hip control with their free hand—this grip prevents your forward roll escape. Second, keep your trapped elbow as close to your body as possible to minimize shoulder rotation. Third, prepare for the forward roll escape by posting your free hand and tucking your chin. Fourth, if the roll is blocked, work to square your hips toward the attacker and walk your body backward to reduce the shoulder angle. At this stage you are defending a consolidated omoplata rather than exploiting the transition window."
@@ -80,7 +80,7 @@ description: "How to defend against Triangle to Omoplata in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How should you respond if your forward roll escape is anticipated and the attacker follows you to back control?",
+      "name": "If they anticipate your omoplata forward roll and take your back, how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the attacker follows your roll and establishes back control, immediately address the back control position by tucking your chin to prevent the rear naked choke, fighting the seatbelt grip by controlling the choking hand, and working to get your back to the mat. The transition from omoplata roll to back control is predictable, so when initiating the roll, be prepared to defend the back take by keeping your elbows tight and rolling to the side of the attacker's underhook rather than flat on your stomach. If you anticipate they will follow the roll, consider abandoning the roll and instead focusing on backward hip movement to reduce the omoplata angle."
@@ -88,7 +88,7 @@ description: "How to defend against Triangle to Omoplata in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "When defending the triangle to omoplata transition, what defensive grip should your free hand establish?",
+      "name": "Defending the triangle-to-omoplata, where should your free hand go?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your free hand should immediately post on the mat to maintain base and prevent being swept, or grab your own trapped wrist or forearm to prevent arm isolation. If the attacker's belt grip is not yet established, use your free hand to control their hip to prevent them from achieving perpendicular alignment. The worst use of the free hand is reaching toward the attacker's body or pushing on their legs, as this extends your base and makes you vulnerable to being swept forward. Maintain the free hand close to your own body to preserve defensive structure."

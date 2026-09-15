@@ -68,7 +68,7 @@ description: "Complete guide to defending the calf slicer from twister side cont
     },
     {
       "@type": "Question",
-      "name": "Your opponent has threaded their shin behind your knee but has not yet secured foot control — what is your immediate defensive response?",
+      "name": "Their shin is behind your knee but your foot is still free—what is your immediate defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately straighten the trapped leg with maximum sustained force using your quadriceps and hamstrings. A fully extended leg cannot be compressed against the fulcrum effectively. Simultaneously, use your hands to control your own foot and ankle, preventing the attacker from establishing the grip they need to generate the fold. This is the most critical defensive window — once foot control is established, escape difficulty increases dramatically."

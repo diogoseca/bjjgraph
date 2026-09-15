@@ -4,7 +4,7 @@
 
 ---
 title: "Back Attack System | BJJ System | BJJ Graph"
-description: "Master systematic back attack sequences in BJJ. Comprehensive framework covering entries, control mechanics, and submission chains with expert analysis."
+description: "Covers back alignment, hand fighting, straightjacket control and transitions into rear strangles. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master systematic back attack sequences in BJJ. Comprehensive fram
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Back Attack System",
-  "description": "Master systematic back attack sequences in BJJ. Comprehensive framework covering entries, control mechanics, and submission chains with expert analysis.",
+  "description": "Covers back alignment, hand fighting, straightjacket control and transitions into rear strangles. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Back-Attack-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -132,7 +132,7 @@ description: "Master systematic back attack sequences in BJJ. Comprehensive fram
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Back Attack System",
-  "description": "The Back Attack System is a control-first offensive framework that secures harness and hook control behind the opponent, then chains the rear naked choke, armbar, bow and arrow, and crucifix so each defensive reaction opens the next finish.",
+  "description": "A connected back game needs an entry, a way to stay attached and a response to the defender’s hands.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -151,11 +151,11 @@ description: "Master systematic back attack sequences in BJJ. Comprehensive fram
 
 ## What is Back Attack System?
 
-**The Back Attack System is a control-first offensive framework that secures harness and hook control behind the opponent, then chains the rear naked choke, armbar, bow and arrow, and crucifix so each defensive reaction opens the next finish.**
+**A connected back game needs an entry, a way to stay attached and a response to the defender’s hands.**
 
-In Brazilian Jiu-Jitsu's positional hierarchy, back control sits at the very top: it is the only dominant position where the opponent cannot see your hands, cannot bring their own strongest submissions to bear, and faces a constant choke threat to the most vulnerable target on the body. The Back Attack System organizes that advantage into a repeatable process rather than a lucky scramble, treating taking the back, keeping the back, and finishing from the back as three connected disciplines that reinforce one another. Practitioners learn to enter from turtle, guard, standing, and transitional scrambles, lock in seatbelt-and-hooks control that survives explosive escapes, and grind through a submission loop in which choke defense feeds the armbar, armbar defense feeds the bow and arrow, and stubborn hand-fighting feeds the crucifix.
+A connected back game needs an entry, a way to stay attached and a response to the defender’s hands. Use this guide to link those decisions, then practise the point where your control usually breaks down.
 
-The system's defining philosophy is patience. Because the back is so overwhelmingly dominant, rushing a single finish usually trades a permanent advantage for a low-percentage gamble, so the attacker maintains relentless positional pressure and lets the opponent's defensive choices dictate which submission opens next. This approach integrates naturally with front-headlock series, turtle attacks, and leg-entanglement games, all of which can funnel a defending opponent into back exposure. Mastering these mechanics converts a practitioner from an opportunistic back-taker into a systematic hunter who can reliably capture and hold the most decisive position in grappling.
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -164,15 +164,37 @@ The system's defining philosophy is patience. Because the back is so overwhelmin
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Back Attack System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 24 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="back-attacks-enter-the-system-by-john-danaher">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">Back Attacks Enter The System</h3>
+<p class="product-card__instructor">with John Danaher</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Students who reach the back but lose control while trying to finish.</p>
+<p class="product-card__blurb">Covers back alignment, hand fighting, straightjacket control and transitions into rear strangles.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=back-attack-system&utm_term=back-attacks-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="back-attacks-enter-the-system-by-john-danaher" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -287,6 +309,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Begin with alignment and the roles of the strangle hand and control hand, then study arm trapping.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=back-attack-system&utm_term=back-attacks-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="back-attacks-enter-the-system-by-john-danaher" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Back Attacks Enter The System &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -396,5 +429,16 @@ Begin with static positional drills establishing harness control and hook placem
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Start from back control and give your partner one escape direction. Keep chest-to-back connection before adding hand fighting.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=back-attack-system&utm_term=back-attacks-enter-the-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="back-attacks-enter-the-system-by-john-danaher" data-system-slug="systems/back-attack-system" data-system-name="Back Attack System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Back Attacks Enter The System &rarr;</a></p>
+</section>
+
+
 
 </main>

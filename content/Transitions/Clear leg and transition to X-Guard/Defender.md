@@ -56,7 +56,7 @@ description: "How to defend against Clear Leg to X-Guard in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is preparing the Clear Leg to X-Guard transition?",
+      "name": "What is the earliest cue they're setting up clear leg to X-guard from leg knot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the bottom player shifting from a flat-back defensive posture to a side-lying position with their hips angled toward you. This side position is the prerequisite for the hip rotation that powers the entire clearing mechanic. If you detect this postural shift before they establish grips, you can prevent the transition by driving forward to flatten their hips."
@@ -64,7 +64,7 @@ description: "How to defend against Clear Leg to X-Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established a two-on-one grip on your ankle but has not yet started rotating—what is your best response?",
+      "name": "They have two-on-one on your ankle but haven't rotated yet: best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip the ankle grip immediately using your free hand to peel their fingers or by repositioning your foot. The two-on-one ankle grip is the distance control mechanism that enables the entire transition. Without it, the bottom player cannot control the space needed for hook insertion even if they clear the leg. Simultaneously increase entanglement pressure to discourage further escape attempts."
@@ -72,7 +72,7 @@ description: "How to defend against Clear Leg to X-Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "The bottom player's leg has partially cleared but no X-Guard hooks are inserted yet—should you drive forward or backstep?",
+      "name": "Their leg is partly clear but no X-guard hooks are in: drive forward or backstep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Backstep to create distance. At this stage, driving forward is dangerous because a partially cleared leg means the bottom player is close to inserting hooks, and your forward pressure would load their X-Guard structure. Instead, backstep to break the engagement, preventing hook insertion and forcing them to chase you from a position where they have no structural control. Re-engage on your terms from standing or combat base."
@@ -88,7 +88,7 @@ description: "How to defend against Clear Leg to X-Guard in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully inserted one butterfly hook behind your knee—what is the critical next action?",
+      "name": "They insert one butterfly hook behind your knee off the leg clearance: critical next action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not drive forward under any circumstances, as this loads their guard structure. Instead, immediately address the hook by extracting your leg backward while angling your knee outward to strip the hook. If extraction fails, backstep aggressively to prevent the second hook from being inserted. One hook alone does not create stable X-Guard—they need both the butterfly hook and the cross-body hook. Preventing the second hook collapses the entire transition attempt."

@@ -74,7 +74,7 @@ description: "How to execute the New York Control entry from Rubber Guard in BJJ
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single control that must stay constant throughout the New York Control entry from Rubber Guard?",
+      "name": "Which control must stay constant during the New York Control entry from rubber guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The deep overhook on the trapped-arm side must stay locked throughout the entire entry. It is the anchor that keeps the opponent's arm trapped and posture broken while the controlling leg walks upward. If the overhook loosens to free a hand, the opponent extracts the arm and postures up, collapsing the rubber guard before the leg ever reaches the shoulder."

@@ -56,7 +56,7 @@ description: "How to defend against the Stand and Circle Away escape in BJJ. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that your opponent is preparing to execute a Stand and Circle Away from your front headlock?",
+      "name": "What are the earliest cues that they're setting up a Stand and Circle Away from your front headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues are the opponent aggressively hand fighting your choking arm at the wrist or elbow, walking their feet forward underneath their hips to build a crouched base, and posting their free hand on your hip or shoulder to establish a frame for distance management. These preparatory actions must happen before the explosive upward drive. Recognizing these cues gives you the maximum window to sprawl, re-snap, or adjust your grip before the opponent commits to the standup. The most reliable single cue is feeling them shift their weight from their knees to the balls of their feet."
@@ -64,7 +64,7 @@ description: "How to defend against the Stand and Circle Away escape in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "When should you abandon the front headlock grip and transition to a back take during the opponent's escape?",
+      "name": "When should you drop your front headlock and switch to a back take during their standing escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition to a back take when the opponent achieves standing position and begins circling laterally such that your grip angle deteriorates noticeably with each step. The threshold is approximately two to three circling steps where you feel your arm being dragged around their neck rather than controlling it. At this point, the grip is functionally dying and continued effort to maintain it wastes energy. The back take opportunity is strongest during the circling phase because the opponent's lateral movement naturally exposes their hips and back. Release the headlock, secure a seat belt or rear body lock grip, and step behind before they can square up."
@@ -72,7 +72,7 @@ description: "How to defend against the Stand and Circle Away escape in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins driving upward explosively from a solid crouched base and your sprawl fails to collapse them — what is your immediate priority?",
+      "name": "Your sprawl fails to stop their explosive stand from your front headlock. What's your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the sprawl fails to stop the standup, your immediate priority shifts to tightening your choking grip and transitioning to a guillotine if possible. As the opponent's neck extends during the upward drive, try to slide your choking arm deeper under their chin. If the guillotine is not available because their chin tuck is solid, prepare for the circling phase by pre-positioning your feet to match their lateral movement. Do not continue trying to push them back down with chest pressure alone once they have achieved vertical posture — the mechanical advantage has shifted in their favor and wasting energy on a lost sprawl compromises your ability to execute the next counter."
@@ -80,7 +80,7 @@ description: "How to defend against the Stand and Circle Away escape in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "How do you match the opponent's circular movement without losing grip geometry on your front headlock?",
+      "name": "How do you follow their circling from a front headlock without ruining your grip geometry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Step with short, quick shuffling steps in the same direction as the opponent's circle, keeping your chest connected to their upper back and your hips close. The key is stepping around with them rather than staying stationary while they walk around you. If you stay planted, each of their lateral steps degrades your grip angle. Your footwork should mirror theirs so the relative angle between your choking arm and their neck remains constant. Additionally, use your free hand on their far shoulder to prevent them from accelerating their circle faster than you can follow. If they change direction abruptly, immediately reverse your footwork and consider that moment of directional transition as a window to re-snap or tighten your grip."
@@ -88,7 +88,7 @@ description: "How to defend against the Stand and Circle Away escape in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "What is the risk-reward calculation of attempting a guillotine transition versus maintaining standard front headlock control?",
+      "name": "From front headlock, why switch to a guillotine versus keep standard control, and when?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The guillotine transition offers a high reward — a potential submission finish or forced guard pull by the opponent — but carries the risk of loosening your overall head control if the guillotine fails to lock properly. The transition is highest percentage when the opponent's chin tuck breaks during the upward drive, giving your arm access below their jawline. If their chin tuck remains solid, the guillotine attempt degrades to a loose neck crank that they can easily escape by continuing to circle. The decision framework is: if you feel your arm sliding below their chin as they stand, commit to the guillotine; if their chin is locked tight and you cannot get below the jaw, maintain the standard front headlock and use sprawling or back take counters instead."

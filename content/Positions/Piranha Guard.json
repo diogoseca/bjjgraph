@@ -355,7 +355,7 @@
         "transition": "Strip Lapel from Piranha",
         "attempt_probability": {
           "gi": 28,
-          "nogi": 0
+          "nogi": null
         }
       }
     ],
@@ -389,7 +389,7 @@
         }
       },
       {
-        "question": "Your opponent suddenly pulls hard on the lapel through their legs and you feel yourself being pulled forward—what immediate adjustment do you make?",
+        "question": "Passing Piranha Guard, they yank the lapel and pull you forward—what's your immediate fix?",
         "answer": "Immediately widen your base by stepping your feet apart and dropping your hips while posting your free hand on the mat if necessary for stability. Avoid the instinct to pull backward against the tension, which creates a tug-of-war you will lose. Instead, step forward with one leg past their hip while simultaneously stripping the most dangerous grip with your hands. This converts their pulling force into your passing momentum.",
         "answer_line": "Widen base, step past hip",
         "distractors": {
@@ -459,7 +459,7 @@
         }
       },
       {
-        "question": "How do you recover position if you partially fall into a Piranha Guard sweep but haven't been fully swept?",
+        "question": "How do you recover if a Piranha Guard sweep has you partly off balance but not swept?",
         "answer": "If caught mid-sweep, immediately post your far hand on the mat and drive your head toward their hip on the posting side, creating a tripod base. Use your posted arm to push away from their control while your legs work to recover square positioning. Avoid trying to pull back to standing while off-balanced, which often accelerates the sweep. From the tripod, either complete a scramble to side control or reset to combat base before the opponent can reinforce their sweeping position.",
         "answer_line": "Post far hand, build tripod base",
         "distractors": {
@@ -740,7 +740,7 @@
         "transition": "Collar Drag from Open Guard",
         "attempt_probability": {
           "gi": 11,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
@@ -789,14 +789,14 @@
         "transition": "Piranha Guard Sweep",
         "attempt_probability": {
           "gi": 22,
-          "nogi": 0
+          "nogi": null
         }
       },
       {
         "transition": "Piranha to Worm Guard",
         "attempt_probability": {
           "gi": 16,
-          "nogi": 0
+          "nogi": null
         }
       }
     ],
@@ -816,7 +816,7 @@
         }
       },
       {
-        "question": "How do you maintain proper lapel tension when your opponent begins pulling backward to extract the collar?",
+        "question": "In Piranha Guard, how do you keep lapel tension as they pull back to extract the collar?",
         "answer": "When the opponent pulls backward, immediately follow with your hips by scooting toward them while maintaining grip tension. Use your hooks on their hips or legs to create an anchor point that prevents them from simply backing away. Simultaneously, angle your hips to one side to change the direction of the pulling force, which disrupts their extraction mechanics. If they create significant distance, consider transitioning to a seated guard position where you can re-establish the lapel feed from a closer range.",
         "answer_line": "Follow with hips, anchor hooks",
         "distractors": {
@@ -830,7 +830,7 @@
         }
       },
       {
-        "question": "Your opponent begins stripping your grips systematically starting with your outside hand—what adjustment prevents guard failure?",
+        "question": "In Piranha Guard, they strip your outside grip first—what adjustment prevents guard failure?",
         "answer": "When the outside grip is being stripped, immediately transfer primary control to your inside hand while using your outside hand to establish a secondary control point such as a collar tie, sleeve grip, or pant grip at their knee. Simultaneously increase hip activity to create an attack threat that forces them to defend rather than continue grip stripping. If they successfully strip both lapel grips, immediately transition to De La Riva, Spider, or Collar Sleeve Guard before your guard structure completely collapses—never wait until all grips are gone to transition.",
         "answer_line": "Switch grip, add secondary control",
         "distractors": {
@@ -886,7 +886,7 @@
         }
       },
       {
-        "question": "When should you transition from Piranha Guard to an alternative guard, and what are the primary backup positions?",
+        "question": "When should you leave Piranha Guard, and which backup guards do you go to?",
         "answer": "Transition when the opponent successfully strips both primary lapel grips, when they create enough distance that the lapel thread loses tension, or when their grip fighting prevents you from establishing attack sequences for more than 10-15 seconds. Primary backup positions are De La Riva Guard (when you still have hook contact), Spider Guard (when they're standing with arms extended), or Collar Sleeve Guard (when you can maintain upper body grips). Recognize early that your lapel configuration is being cleared and transition before you're in a compromised position with nothing.",
         "answer_line": "Transition before grips fully gone",
         "distractors": {
@@ -998,7 +998,7 @@
       }
     },
     {
-      "question": "How does the lapel-through-legs configuration simultaneously serve as a defensive barrier against passing?",
+      "question": "How does the lapel fed through your legs also work as a defensive barrier to passing?",
       "answer": "The threaded collar physically links the top player's torso to the bottom player's hips, so any attempt to circle or drive past must first overcome or clear the lapel connection rather than simply moving around the legs. This disrupts pressure and knee-slice style passes because the top player's weight distribution is tied to the collar line and cannot be freely committed forward. The guard thus works as a passive barrier even when the bottom player is not actively attacking, since the top player must spend effort clearing the thread to advance. This dual offense-defense quality is a defining trait of the configuration.",
       "answer_line": "Forces top player to clear lapel",
       "distractors": {
@@ -1012,7 +1012,7 @@
       }
     },
     {
-      "question": "How does the lapel routing in Piranha Guard differ from its sister lapel guards such as Worm Guard and Squid Guard?",
+      "question": "How does Piranha Guard's lapel routing differ from Worm Guard and Squid Guard?",
       "answer": "All three weaponize the opponent's collar for leverage, but they differ in where the lapel is routed and therefore where the lever forms. Worm Guard typically wraps the lapel around the outside of a leg to create a lever along the opponent's far side, while Squid Guard uses a distinct threading and hip configuration to build its angles. Piranha Guard is specifically defined by feeding the collar between the bottom player's own legs so the leg triangle itself becomes the pulley. Because they share the same raw material, the collar can be re-routed to convert one configuration into another when the current one is threatened.",
       "answer_line": "Fed between the legs, not around",
       "distractors": {

@@ -72,7 +72,7 @@ description: "Defend against the Technical Stand Up from Ground in BJJ. Recognit
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your pressure strategy if the opponent successfully creates distance with their frames?",
+      "name": "They frame you off after standing up. How do you adjust your pressure strategy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the opponent creates distance, do not simply drive straight forward into their extended frames, as this plays into their structure. Instead, angle your approach laterally to bypass the frames, or use grip fighting to strip their framing hands before re-closing distance. Control their wrists or sleeves to prevent re-framing, then apply pressure from an angle that their frames cannot effectively resist. Speed of re-engagement is critical - close the gap before they can establish the posting hand position."

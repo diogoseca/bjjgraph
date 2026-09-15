@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "If your initial sweep attempt is blocked, what follow-up options are available from headquarters bottom?",
+        "question": "If your sweep from headquarters bottom is blocked, what follow-ups are available?",
         "answer": "Failed sweep attempts create several follow-up chains: reattempt with a different variant exploiting the opponent's adjusted base, transition to guard recovery by using the disrupted rhythm to insert a knee shield or recover half guard, chain into a deep half guard entry by diving under the opponent's hips while they focus on sweep defense, or use the sweep threat as a setup for an inversion to attack the posting leg for a leg entanglement entry. The key is never accepting a stalled position after a failed attempt.",
         "answer_line": "Chain: reattempt, recover, invert",
         "distractors": {

@@ -64,7 +64,7 @@ description: "Defend takedown attempts from standing in BJJ. Complete guide cove
     },
     {
       "@type": "Question",
-      "name": "What is the critical mechanical difference between an effective sprawl and simply dropping your weight?",
+      "name": "What mechanically separates an effective sprawl from simply dropping your weight?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "An effective sprawl involves driving the hips backward and downward while keeping the chest heavy and forward on the attacker's upper back. Simply dropping weight straight down lands your hips on top of the attacker's head or shoulders, which does not stop their forward drive and may actually assist their penetration by loading them but not removing your legs. The backward hip drive removes your legs from the attacker's reach while the forward chest pressure pins them flat to the mat. The sprawl is a directional movement, not a collapse."
@@ -72,7 +72,7 @@ description: "Defend takedown attempts from standing in BJJ. Complete guide cove
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured a single leg grip on your lead leg - what immediate action prevents completion?",
+      "name": "They have a single leg on your lead leg. What immediate action stops the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately whizzer the near arm by driving your overhook deep over their arm and lock your hand to your hip. Simultaneously drive your crossface forearm across their jaw to turn their head away from the trapped leg. Hop your free foot backward while pushing your trapped leg's hip forward and down to create downward pressure that makes elevation extremely difficult. If they persist, execute a limp leg by bending the trapped knee sharply and pulling your foot through their grip opening."
@@ -80,7 +80,7 @@ description: "Defend takedown attempts from standing in BJJ. Complete guide cove
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive stance when you recognize your opponent is a strong takedown artist?",
+      "name": "How should you adjust your standing defensive stance against a strong takedown artist?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lower your center of gravity by increasing knee bend to approximately 25-30 degrees from your normal stance. Widen your stance slightly and stagger your feet with the weaker leg forward as a sacrificial target. Keep your hips back with weight distributed toward your heels to enable instant sprawl reaction. Maintain active collar tie or bicep control to create a frame barrier between your opponent's head and your legs. Consider proactive strategies like pulling guard early to eliminate the takedown threat entirely if your guard game is significantly stronger than your wrestling."

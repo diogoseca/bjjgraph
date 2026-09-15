@@ -106,7 +106,7 @@ description: "Master the offensive mechanics of converting standard mount into m
     },
     {
       "@type": "Question",
-      "name": "After posting the leg, what rotation must happen to make modified mount an attacking position rather than just a stable hold?",
+      "name": "After posting the leg in modified mount, which hip rotation makes it an attacking position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must open your hips toward the opponent's near-side shoulder so your pelvis faces the arm you intend to attack. This rotation pre-loads the swing-over armbar: your body arrives already aligned for the finish, requiring no second large base adjustment. Without it, modified mount is merely a bridge-proof hold and you would have to re-position to attack, giving the opponent time to rebuild frames. The whole point of the transition is to combine stability with a body that is one motion from a submission."

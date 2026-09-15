@@ -92,7 +92,7 @@ description: "Learn to attack with the heel hook from Carni. Step-by-step finish
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully employs boot defense by hiding their heel - what are your two highest-percentage responses?",
+      "name": "Your opponent boots their heel from Carni—what are your two highest-percentage responses?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, attempt to peel the boot by wedging your wrist blade deeper behind the Achilles tendon while using your reinforcing hand to pull their toes toward you. If this fails within a few seconds, transition to saddle entry by threading your inside leg deeper across their hip. The saddle's tighter entanglement defeats most boot defenses because it eliminates the space needed to maintain the dorsiflexed ankle position. Continuing to fight the boot for extended periods wastes energy."
@@ -100,7 +100,7 @@ description: "Learn to attack with the heel hook from Carni. Step-by-step finish
     },
     {
       "@type": "Question",
-      "name": "What indicates you have reached the point of no return where the opponent can no longer safely defend?",
+      "name": "In the Carni heel hook, what tells you the opponent can no longer safely defend?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The point of no return occurs when you have simultaneously achieved tight knee clamp, secure heel grip with wrist blade against the Achilles, correct body angle with chest facing the knee line, and you have begun rotational pressure that has already taken up the slack in the ligaments. At this point the opponent's only safe option is to tap immediately. Any attempt to explosively escape risks catastrophic ligament damage because the structures are already loaded under tension."
@@ -108,7 +108,7 @@ description: "Learn to attack with the heel hook from Carni. Step-by-step finish
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip if the opponent's heel becomes sweaty and begins to slip during the finish?",
+      "name": "How do you adjust your grip when their sweaty heel starts slipping during the finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than squeezing harder with your fingers (which fatigues the forearms rapidly), pull your elbows tighter to your ribs to clamp the heel against your chest using your entire upper body. The wrist blade against the Achilles tendon creates a bony contact point that resists slipping better than finger grips. You can also slightly adjust by cupping deeper behind the heel bone where the ankle narrows. If grip is truly compromised, transition to saddle where the tighter entanglement provides additional control points."
@@ -116,7 +116,7 @@ description: "Learn to attack with the heel hook from Carni. Step-by-step finish
     },
     {
       "@type": "Question",
-      "name": "What is the most common finishing error that causes the heel hook from Carni to fail against experienced opponents?",
+      "name": "What finishing error most often makes the Carni heel hook fail on experienced opponents?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common finishing error is attempting rotational pressure before establishing the knee clamp. Without the knee line controlled, experienced opponents simply rotate their entire body in the direction of the heel hook, relieving all pressure on the knee ligaments. This is the fundamental difference between catching beginners and finishing on trained grapplers. The correct sequence is always: Carni control, heel grip, knee clamp, body angle, then progressive rotation."

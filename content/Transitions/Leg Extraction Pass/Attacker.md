@@ -80,7 +80,7 @@ description: "Complete guide to executing the Leg Extraction Pass. Learn to syst
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why must you drive the trapped knee toward the mat rather than pulling the leg backward during extraction?",
+      "name": "Why drive the trapped knee to the mat instead of pulling the leg backward when extracting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Driving the knee toward the mat straightens your leg, which strips the opponent's inside hook that relies on the bend in your knee for grip. This forward-and-down motion compresses their entanglement structure, reducing the space their hooks need to function. Pulling backward does the opposite — it loads your heel into their grip zone, creates the rotational angle they need for heel hooks, and exposes your knee joint to kneebar attacks. The biomechanical principle is that forward pressure closes the spaces the entanglement occupies, while backward pulling opens them."
@@ -96,7 +96,7 @@ description: "Complete guide to executing the Leg Extraction Pass. Learn to syst
     },
     {
       "@type": "Question",
-      "name": "Your opponent re-pummels their inside hook every time you drive your knee to the mat — how do you adjust?",
+      "name": "They re-pummel the inside hook each time you drive your knee to the mat — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch from the direct knee-to-mat extraction to the hip switch variant. Instead of driving straight down, rotate your hips 90 degrees away from the entanglement while posting on your hands. This changes the angle of your leg relative to their hook, making it mechanically difficult for them to re-pummel because your knee is no longer travelling in the plane their hook is designed to catch. Additionally, use your free hand to physically block their foot from re-entering as you drive the knee, creating a barrier that prevents the re-pummel while your hip rotation clears the angle."
@@ -120,7 +120,7 @@ description: "Complete guide to executing the Leg Extraction Pass. Learn to syst
     },
     {
       "@type": "Question",
-      "name": "How does the extraction sequence differ when the opponent has a saddle (honey hole) configuration versus standard ashi garami?",
+      "name": "How does the extraction differ against the saddle versus standard ashi garami?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In saddle/honey hole, the opponent has both legs triangled around your trapped leg with superior control on both sides of the knee line, making extraction significantly more urgent and mechanically complex. The inside heel hook threat from saddle is immediate, so heel grip neutralization must be addressed with extreme urgency. The extraction requires clearing a triangle configuration rather than individual hooks, which typically demands the hip switch variant rather than the direct knee-to-mat drive. You must also address the opponent's far leg that crosses over your hip, which is absent in standard ashi garami. The extraction from saddle often requires multiple attempts and may need to chain through intermediate positions like 50-50 before achieving full extraction."

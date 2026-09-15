@@ -80,7 +80,7 @@ description: "Execute the Takedown from Standing Guard in BJJ. Level changes, pe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important body mechanic to initiate an effective level change for the takedown?",
+      "name": "From standing guard, what body mechanic is most important for an effective level change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical mechanic is bending at the knees rather than the waist to drop your hips below the opponent's center of gravity. Knee bend maintains your chest posture upright, which protects against guillotine counters, preserves your ability to generate forward driving force from your legs, and keeps your head in a safe position against front headlock attacks. Waist bending compromises all three of these elements simultaneously."
@@ -88,7 +88,7 @@ description: "Execute the Takedown from Standing Guard in BJJ. Level changes, pe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has strong collar and sleeve grips established—how do you create an opening for your penetration step?",
+      "name": "They have collar and sleeve grips. How do you open a window for your penetration step?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use push-pull grip fighting sequences to disrupt their established grip configuration before shooting. Push into their grips to load their weight forward, then immediately change direction with your level change as they resist backward. Alternatively, strip one grip using a circular two-on-one break, then immediately shoot before they can re-establish the grip. The critical principle is creating a momentary reaction—forward weight shift, backward weight shift, or grip disruption—that occupies their attention during your entry."
@@ -104,7 +104,7 @@ description: "Execute the Takedown from Standing Guard in BJJ. Level changes, pe
     },
     {
       "@type": "Question",
-      "name": "Your initial shot is defended with a sprawl and your head is controlled—what is your immediate recovery sequence?",
+      "name": "Your shot is sprawled on and your head is controlled. What is your recovery sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not remain bent over fighting for the original takedown. Immediately circle your head to the opposite side to break their head control, drive your hips forward and underneath you to recover posture, and transition to either a single leg on the nearest leg or a clinch position where you can reset your grip fighting. If you cannot recover posture, sit to a guard pull rather than remaining in the compromised front headlock position where chokes and go-behinds threaten."
@@ -112,7 +112,7 @@ description: "Execute the Takedown from Standing Guard in BJJ. Level changes, pe
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the highest-percentage entry for a double leg takedown from standing guard?",
+      "name": "From standing guard, what grips give the highest-percentage double leg entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A collar tie with same-side wrist control provides the strongest setup for a double leg entry. The collar tie controls the opponent's posture and head position, preventing them from sprawling effectively, while the wrist control eliminates their ability to post or establish a guillotine grip during your level change. Snapping down on the collar tie before shooting creates a forward weight shift that loads the opponent's weight onto their toes, directly into the path of your penetration step."
@@ -120,7 +120,7 @@ description: "Execute the Takedown from Standing Guard in BJJ. Level changes, pe
     },
     {
       "@type": "Question",
-      "name": "Why is angling your drive at 45 degrees more effective than driving straight back during the takedown finish?",
+      "name": "Finishing the takedown, why drive at 45 degrees instead of straight back?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A straight backward drive allows the opponent to resist with their strongest structural base—both legs posted behind them in a wide stance absorbing your linear force. Angling at 45 degrees attacks their weak diagonal line where they have minimal structural support and cannot post effectively with either leg. The angular drive also creates rotational force that disrupts their balance more than linear force alone, and it positions you at a superior passing angle upon landing rather than directly between their legs."

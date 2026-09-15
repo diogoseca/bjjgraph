@@ -114,7 +114,7 @@ description: "How to execute Butterfly Pass in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "How should you respond if opponent attempts to transition to deep half guard during your butterfly pass?",
+      "name": "How do you respond if they attempt deep half guard during your butterfly pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately increase crossface pressure, keep your near leg heavy, and drive your hip down to prevent them from getting deep under your leg. Your weight should shift toward the side they're trying to attack, making it difficult for them to secure the deep half position. If they manage to get partial deep half positioning, switch your strategy from butterfly passing to deep half passing mechanics — focus on hip isolation, preventing their lockdown, and establishing controls specific to deep half escapes. The key is early recognition: once you see them beginning to scoop your leg or get their head to your far hip, adjust your weight distribution immediately to prevent them from establishing the position fully."

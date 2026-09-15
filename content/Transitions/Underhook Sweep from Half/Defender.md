@@ -56,7 +56,7 @@ description: "How to defend against Underhook Sweep from Half in BJJ. Recognitio
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action when your opponent secures a deep underhook from half guard bottom?",
+      "name": "They get a deep underhook from half guard bottom: what is your single most important response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important defensive action is immediately establishing a deep whizzer by threading your arm over their bicep and driving your shoulder weight down to flatten them. The whizzer must be deep enough that your hand grips your own thigh or their hip, creating structural control over their underhook arm. A shallow whizzer that only reaches the elbow provides insufficient control and can be powered through. The whizzer combined with crossface pressure neutralizes the underhook as a sweeping lever and begins flattening the opponent's angle."
@@ -72,7 +72,7 @@ description: "How to defend against Underhook Sweep from Half in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established the underhook and begun creating angle - you feel your weight shifting. What is your immediate defensive sequence?",
+      "name": "They have the underhook and are getting the angle in half guard: what is your defensive sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate sequence should be: first, post your far leg out wide at 45 degrees to create a triangular base that prevents being tipped over; second, drive your whizzer deep over their underhook arm to control and weaken the lever; third, use crossface pressure to drive their head and shoulders back toward flat on the mat. This three-point defense addresses the sweep at multiple levels simultaneously - the leg post provides structural base, the whizzer weakens the sweeping lever, and the crossface removes the angle. Execute all three as quickly as possible rather than relying on any single defensive element."
@@ -80,7 +80,7 @@ description: "How to defend against Underhook Sweep from Half in BJJ. Recognitio
     },
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that indicate your opponent is setting up the underhook sweep?",
+      "name": "What are the earliest cues that they are setting up the underhook sweep from half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues appear in sequence: first, their arm begins threading deep under your armpit with their shoulder driving toward your ribs rather than just their hand reaching under; second, their hips begin shifting laterally away from you as they move from flat to their side; third, their free hand reaches toward your far hip, belt, or pants to establish the base-prevention grip. Recognizing and responding to the first cue - the deep underhook attempt - gives you maximum time to implement defensive measures before the sweep develops momentum. Waiting until you feel the hip shift or far grip means you are already behind in the defensive timeline."

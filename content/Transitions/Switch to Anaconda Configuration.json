@@ -233,7 +233,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary trigger that signals the correct timing to switch from buggy choke to anaconda configuration?",
+        "question": "From buggy choke top, what signals the right moment to switch to the anaconda?",
         "answer": "The primary trigger is the opponent rotating their torso toward your choking arm to relieve collar pressure. Their far shoulder drops while the near shoulder rises, exposing the head-and-arm channel needed for the anaconda. This rotation creates the mechanical angle that makes the anaconda viable while simultaneously weakening the original buggy choke angle.",
         "answer_line": "Torso rotates toward choking arm",
         "distractors": {
@@ -247,7 +247,7 @@
         }
       },
       {
-        "question": "Why must the opponent's near arm remain trapped between their head and your body for the anaconda to be effective?",
+        "question": "Why must their near arm stay trapped by their head for the anaconda to work?",
         "answer": "The trapped arm is essential because the anaconda choke works through bilateral carotid compression. The choking arm compresses one carotid while the opponent's own trapped shoulder and arm compress the opposite carotid as you squeeze. Without the trapped arm, the choke becomes a one-sided neck crank that is far less effective and easier to defend. The trapped arm acts as a fulcrum that amplifies the compression force.",
         "answer_line": "Their shoulder squeezes far carotid",
         "distractors": {
@@ -261,7 +261,7 @@
         }
       },
       {
-        "question": "Your opponent tucks their chin hard and drives forward when you begin redirecting your arm around their neck—how do you adjust?",
+        "question": "Switching to anaconda, they tuck their chin hard and drive forward—how do you adjust?",
         "answer": "Abandon the anaconda switch and return to the original buggy choke collar grip since the opponent has re-created the angle for that attack. Alternatively, use a front headlock snapdown to break their forward drive and re-expose the neck. The chin tuck with forward drive specifically defends the anaconda angle, so forcing the switch against this defense wastes position and energy.",
         "answer_line": "Go back to the buggy collar grip",
         "distractors": {
@@ -275,7 +275,7 @@
         }
       },
       {
-        "question": "What is the critical difference between when to choose the anaconda switch versus the darce switch from buggy choke top?",
+        "question": "From buggy choke top, what decides between switching to anaconda versus darce?",
         "answer": "The choice depends on which arm is deeper and the opponent's arm position. Choose anaconda when your threading arm is already circling the neck from the near side and the opponent's near arm is trapped inside. Choose darce when you can thread your arm from the far side through the neck-armpit channel. The anaconda wraps neck-first then connects under the armpit, while the darce threads under the armpit first then connects around the neck.",
         "answer_line": "Near arm trapped, wrap neck first",
         "distractors": {
@@ -331,7 +331,7 @@
         }
       },
       {
-        "question": "Why should the arm redirect from collar grip to neck encirclement be executed as one continuous motion rather than in separate steps?",
+        "question": "Why must the collar-to-neck redirect in the anaconda switch be one continuous motion?",
         "answer": "Any pause between releasing the collar and encircling the neck creates a defensive window where the opponent can re-turtle their posture, strip the remaining grip, change angle, or sit to guard. The continuous motion ensures that the opponent's defensive reaction to losing the collar pressure flows directly into the new attack angle before they can process the grip change and implement a different defense.",
         "answer_line": "Closes window to re-turtle",
         "distractors": {
@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "What body positioning generates the finishing pressure in the anaconda, and why is arm squeezing alone insufficient?",
+        "question": "What body positioning finishes the anaconda, and why is squeezing the arms alone not enough?",
         "answer": "The finishing pressure comes from walking your hips toward the opponent's head and sprawling your legs back, which creates angle-based compression through body positioning and gravity rather than arm strength alone. Arm squeezing alone causes rapid fatigue and generates less total force than body mechanics. The combination of perpendicular angle, sprawl pressure, and elbow-squeeze creates a mechanical system where your bodyweight drives the compression.",
         "answer_line": "Walk hips up, sprawl legs back",
         "distractors": {
@@ -359,7 +359,7 @@
         }
       },
       {
-        "question": "During positional sparring, your opponent sits to guard explosively as you release the buggy choke collar to switch to anaconda—what is your best response?",
+        "question": "They sit to guard explosively as you release the buggy collar for the anaconda—your response?",
         "answer": "Follow the sitting motion and use the partial neck grip you already have to establish a front headlock or guillotine from the new angle. The opponent's explosive sit creates momentum you can redirect into a snap-down. If they achieve full closed guard before you can secure the front headlock, consolidate top position inside their guard and prepare to pass rather than forcing a submission from a compromised angle.",
         "answer_line": "Follow them up into a front headlock",
         "distractors": {
@@ -477,7 +477,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest proprioceptive cue that the attacker is initiating the anaconda switch from buggy choke?",
+        "question": "Under buggy choke, what is the earliest cue you feel that they are switching to the anaconda?",
         "answer": "The earliest cue is the sudden release of collar tension from the threading arm. During the buggy choke, you feel lateral pulling pressure on your far-side collar. When this pressure disappears, it means the attacker has released the collar grip and is redirecting the arm toward a neck encirclement. This collar release precedes the actual neck wrap by a fraction of a second and represents your earliest defensive window.",
         "answer_line": "Collar tension suddenly releases",
         "distractors": {
@@ -491,7 +491,7 @@
         }
       },
       {
-        "question": "Why is sitting to half guard a viable defensive option during the anaconda switch but not during consolidated buggy choke control?",
+        "question": "Why can you sit to half guard during the anaconda switch but not under settled buggy choke?",
         "answer": "During consolidated buggy choke control, the attacker's chest pressure and hip weight are fully committed to flattening the turtle. During the anaconda switch, the attacker must momentarily shift their weight and arm positioning to execute the grip change, which creates a 1-2 second window of reduced chest pressure. This pressure reduction allows the hip movement needed to drop to half guard, which is not possible when the full buggy choke control is maintained.",
         "answer_line": "Chest pressure lightens mid-switch",
         "distractors": {
@@ -505,7 +505,7 @@
         }
       },
       {
-        "question": "Your attacker releases the collar and you feel their arm beginning to curl around your neck—should you tuck your chin or extract your near arm first?",
+        "question": "Their arm curls toward your neck for the anaconda—tuck your chin or extract your near arm first?",
         "answer": "Tuck your chin first. The chin tuck is faster to execute and immediately blocks the neck encirclement from achieving choking depth. Arm extraction takes longer and requires more complex movement. If you tuck first, you buy time for the arm extraction as a secondary action. If you attempt arm extraction first without chin protection, the attacker may complete the neck wrap before the arm escapes, leaving you choked with the arm still trapped.",
         "answer_line": "Tuck chin first, it's faster",
         "distractors": {
@@ -533,7 +533,7 @@
         }
       },
       {
-        "question": "The attacker has the choking arm around your neck but has not yet connected the support arm under your far armpit—what is your highest percentage escape at this stage?",
+        "question": "Their anaconda arm is on your neck but the support arm isn't under your far armpit—best escape?",
         "answer": "Extract your near arm from the head-and-arm trap while simultaneously driving forward with a chin tuck. Without the support arm connected, the figure-four cannot lock, which means the grip is structurally incomplete. By extracting the near arm at this stage, you remove the bilateral compression element entirely. The attacker is left with a loose neck wrap that cannot generate submission-level pressure and must abandon the anaconda to pursue a guillotine or front headlock instead.",
         "answer_line": "Extract near arm, drive forward",
         "distractors": {

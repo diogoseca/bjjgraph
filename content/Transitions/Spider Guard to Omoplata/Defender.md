@@ -64,7 +64,7 @@ description: "How to defend the Spider Guard to Omoplata in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Why should you not attempt to power through a fully established omoplata by pulling your arm free with strength?",
+      "name": "Why not rip your arm out of a fully locked omoplata with strength?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The omoplata uses the opponent's entire leg and bodyweight to control your single arm, creating an extreme leverage disadvantage. Attempting to muscle the arm free not only exhausts your energy rapidly but often drives your shoulder deeper into the external rotation angle, accelerating the submission. The correct approach is to first neutralize their positional control by clearing hip hooks and belt grips, then use technique-based escapes like the forward roll or posture-up extraction to create the space needed for arm recovery."
@@ -72,7 +72,7 @@ description: "How to defend the Spider Guard to Omoplata in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established omoplata control but has not yet secured your hips with their bottom leg - what is your best immediate action?",
+      "name": "They have the omoplata but haven't hooked your hips yet: what is your best action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is your critical window for the posture-up escape. Drive your forehead into the mat and walk your knees backward to straighten your spine, creating upward pressure against their leg across your back. With their hip control not yet established, they cannot prevent you from lifting your posture. Once partially upright, circle your trapped arm downward and toward your body to extract it from between their legs. You must act before they establish the bottom leg hook, as once hip control is secured, the posture-up escape becomes significantly harder."
@@ -80,7 +80,7 @@ description: "How to defend the Spider Guard to Omoplata in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your base when you recognize spider guard omoplata setups being threatened repeatedly?",
+      "name": "How do you adjust your base when they keep threatening omoplatas from spider guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widen your stance by positioning your feet outside the opponent's hip width, and keep your elbows bent and close to your torso rather than allowing full arm extension. Lower your center of gravity slightly while maintaining upright spine posture. Prioritize breaking the attacking-side sleeve grip before all other actions. This defensive posture makes it mechanically impossible for the opponent to swing their leg over your shoulder because your arm is not extended enough to create the clearance angle they need."
@@ -88,7 +88,7 @@ description: "How to defend the Spider Guard to Omoplata in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "When is the forward roll escape appropriate versus the stacking defense, and what happens if you choose the wrong one?",
+      "name": "Omoplata defense: when do you stack versus roll, and what if you pick wrong?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The stacking defense works during the mid-phase of the attack when the opponent's leg is swinging over but they have not yet completed the sit-up. You drive forward to flatten them. The forward roll works during the late phase when omoplata control is established but before the finish. If you stack late after the sit-up is complete, your forward pressure assists their omoplata control. If you roll early before they have committed to the position, you give up your base unnecessarily and may end up in a worse position. Match the defense to the phase of the attack."

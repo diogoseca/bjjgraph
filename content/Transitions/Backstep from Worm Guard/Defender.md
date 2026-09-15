@@ -56,7 +56,7 @@ description: "Defend against the Backstep from Worm Guard. Recognition cues, tim
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the passer is setting up a backstep rather than a direct lapel strip?",
+      "name": "What is the earliest cue the passer is setting up a backstep rather than a direct lapel strip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most reliable early indicator is the passer shifting their weight onto the non-trapped leg while simultaneously reaching for your far hip with their near hand to establish a hip block. A direct lapel strip typically involves the passer keeping weight centered and working hands toward the lapel wrap, while the backstep requires the weight transfer and hip block that precede the rotational stepping motion. The hip block reach is particularly telling because it serves no purpose in a direct stripping approach."
@@ -72,7 +72,7 @@ description: "Defend against the Backstep from Worm Guard. Recognition cues, tim
     },
     {
       "@type": "Question",
-      "name": "Why is inserting a knee shield considered a positional concession even when successful against the backstep?",
+      "name": "Why is a knee shield a positional concession even when it stops the backstep from worm guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "While half guard with knee shield is a defensible position with sweep potential, it represents a significant downgrade from worm guard. In worm guard, you have an advanced lapel-based control system with multiple sweep and back take options, strong retention, and mechanical advantages that make passing very difficult. Half guard bottom, even with knee shield, gives the top player more passing options and does not offer the same level of control. The knee shield should be viewed as damage control rather than a successful defense."
@@ -80,7 +80,7 @@ description: "Defend against the Backstep from Worm Guard. Recognition cues, tim
     },
     {
       "@type": "Question",
-      "name": "Your lapel wrap has been partially cleared during the backstep but the passer has not yet settled into side control—what is your priority?",
+      "name": "Your lapel is partly cleared mid-backstep but they haven't settled: what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your priority is establishing any form of guard structure before chest-to-chest contact. Insert your inside knee immediately to create a frame that prevents the passer from settling. From there, assess whether you can recover half guard with knee shield, re-establish butterfly hooks, or insert a De La Riva hook. Do not attempt to re-feed the lapel for worm guard recovery—that window has passed and the priority is preventing the completion of the pass with whatever guard recovery is available."

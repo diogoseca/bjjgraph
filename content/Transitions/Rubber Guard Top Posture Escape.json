@@ -262,7 +262,7 @@
         }
       },
       {
-        "question": "Your opponent begins advancing from Mission Control toward New York position while you are still framing. How do you adjust your escape urgency?",
+        "question": "They advance from Mission Control toward New York while you frame; how do you adjust urgency?",
         "answer": "Increase urgency immediately because the New York position adds omoplata threat and enhanced arm control that makes escape significantly more difficult. Accelerate the frame-and-push sequence on their controlling knee to disrupt the advancement before they can establish the New York grip configuration. If they complete the transition, you must address the new grip before continuing the standard escape protocol.",
         "answer_line": "Speed up, frame the knee now",
         "distractors": {
@@ -318,7 +318,7 @@
         }
       },
       {
-        "question": "Your opponent releases the arm trap suddenly as you begin extraction. What is the most likely threat and how do you respond?",
+        "question": "They suddenly release the arm trap as you extract; what is the threat and your response?",
         "answer": "The most likely threat is a triangle choke setup, as releasing the arm trap while keeping the high leg creates an immediate triangle entry when the freed arm crosses their centerline. Respond by tucking your chin immediately, driving the freed arm across to the opposite side of their body, and posturing up explosively. Do not celebrate the freed arm by reaching forward or pausing, as the triangle window opens in under two seconds.",
         "answer_line": "Tuck chin, arm across, posture",
         "distractors": {
@@ -332,7 +332,7 @@
         }
       },
       {
-        "question": "What chain attacks should you prepare if your initial escape attempt fails and you remain in Rubber Guard?",
+        "question": "Your first escape from rubber guard fails and you're still stuck; what chain attacks follow?",
         "answer": "If the initial escape fails, reassess before repeating. Try the stacking variation by driving forward pressure through your shoulder while walking knees up to compress their spine and reduce leg elevation effectiveness. If stacking fails, attempt the swim-and-circle extraction from a different angle. If all escapes fail, prioritize preventing advancement to submission-ready positions by maintaining the free hand frame on their knee while conserving energy for the next escape opportunity.",
         "answer_line": "Stack, then swim and circle",
         "distractors": {
@@ -451,7 +451,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the optimal response when you feel the opponent's free hand framing on your controlling knee?",
+        "question": "In rubber guard, they frame on your controlling knee; what is your best response?",
         "answer": "Immediately increase downward pressure with the controlling leg and pull the opponent's head down with your free hand to re-break posture before they can push your knee away. If the frame is already strong, adjust your hip angle to change the vector of their push, making their frame less effective. Consider advancing to New York position to add a secondary control point that makes the single-leg frame insufficient.",
         "answer_line": "Pull head down, re-break posture",
         "distractors": {
@@ -493,7 +493,7 @@
         }
       },
       {
-        "question": "What should you do if the opponent successfully recovers full posture and you lose Rubber Guard entirely?",
+        "question": "They fully recover posture and you lose rubber guard entirely; what should you do?",
         "answer": "If Rubber Guard is fully lost, immediately transition to your backup closed guard lock if ankles are still crossed. If not, recover to open guard by establishing foot-on-hip frames and sleeve or wrist control to prevent immediate guard passing. Do not attempt to re-establish Rubber Guard against a postured opponent as this requires broken posture as a prerequisite. Instead, work to break their posture again from closed or open guard before reattempting Rubber Guard entry.",
         "answer_line": "Fall back to closed guard lock",
         "distractors": {

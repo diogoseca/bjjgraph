@@ -100,11 +100,14 @@ test("impact contrast: tension sweep, detonation on hit, hit-stop on miss", asyn
 
   // MISS: next decision, rigged fail → sweep lands out of band → hit-stop, NOT detonation
   await j.nextHand()
-  const options = await j.optionTitles()
-  expect(options.length).toBeGreaterThan(0)
+  const missTarget = await page.evaluate(() => {
+    const a = (window as any).__neural
+    return a._optList.find((o: any) => o.action === "finish" || o.node.ty === "transitions")?.node.t
+  })
+  expect(missTarget, "a resolving action for the miss phase").toBeTruthy()
   await j.rig("resolve", [0.99])
   await j.rig("outcome", [0.99])
-  await j.pick(options[0])
+  await j.pick(missTarget)
   await j.advanceUntil("impact_fail", 20000)
   beats = await j.beats()
   // slice AFTER the hit's impact_success — the hit's own detonation must not leak into
@@ -136,6 +139,8 @@ test("victory cascade ≤1.5s on win; defeat drain on loss; ladder survives relo
   expect(subName, "a submission option from Mount Top").toBeTruthy()
   await j.rig("resolve", [0.01])
   await j.pick(subName as string)
+  await j.nextHand()
+  await j.pick(subName as string) // Finish from the submission state
   await j.advanceUntil("roll_end", 20000)
 
   const beats = await j.beats()
@@ -154,12 +159,12 @@ test("victory cascade ≤1.5s on win; defeat drain on loss; ladder survives relo
   expect(rankAfterReload).toBe(rank1)
 
   // defeat drains: lose by letting the defense window expire after a rigged catch
-  const options = await j.optionTitles()
+  expect(await j.optionTitles()).toContain("Consolidate Mount")
   await j.rig("resolve", [0.99])
   await j.rig("outcome", [0.99])
   await j.rig("opp-finish", [0.01])
   await j.rig("opp-sub-pick", [0.01])
-  await j.pick(options[0])
+  await j.pick("Consolidate Mount")
   await j.advanceUntil("caught", 20000)
   // v1.133.0: the escapes are untimed — expiry reveals the drill, it no longer taps you out.
   // The loss is earned the honest way: a rigged FAILED escape.
@@ -199,10 +204,14 @@ test("journey recorder: captures actions and rng draws for replay authoring", as
   await j.boot("/")
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.startRecording())
-  const options = await j.optionTitles()
+  const target = await page.evaluate(() => {
+    const a = (window as any).__neural
+    return a._optList.find((o: any) => o.node.ty === "transitions")?.node.t
+  })
+  expect(target, "a resolving transition to record").toBeTruthy()
   await j.rig("resolve", [0.01])
   await j.rig("outcome", [0.01])
-  await j.pick(options[0])
+  await j.pick(target)
   await j.advanceUntil("impact_success", 20000)
   const rec = await page.evaluate(() => (window as any).__neural.stopRecording())
   expect(rec).toBeTruthy()

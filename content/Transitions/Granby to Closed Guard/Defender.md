@@ -56,7 +56,7 @@ description: "How to defend against Granby to Closed Guard in BJJ. Recognition c
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest physical cue that indicates a bottom player is about to attempt a Granby roll from turtle?",
+      "name": "On turtle top, what is the earliest cue your opponent is about to granby roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is an explosive hip extension backward that creates space between your chest and their back. This hip push is the mandatory first step of every Granby roll because the bottom player needs clearance to begin rotating their shoulders. You may also feel a sudden compacting of their body as they pull their knees toward their chest and tighten their elbows. Recognizing this hip extension as the trigger allows you to respond with a sprawl before the rotation phase even begins."
@@ -64,7 +64,7 @@ description: "How to defend against Granby to Closed Guard in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is following the rotation to take the back often more effective than trying to stop the Granby roll entirely?",
+      "name": "Why is following your opponent's granby rotation to the back better than stopping the roll?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Following the rotation exploits the bottom player's commitment to the movement. Once they have initiated the roll with significant momentum, stopping it requires enormous force and often results in a scramble. By instead circling your hips in the same direction and maintaining your seatbelt grip, you use their rotational energy to improve your position. The bottom player cannot abort the roll mid-rotation, so your follow-through typically results in deeper back control with hooks inserted during the transition, converting their escape attempt into a worse position for them."
@@ -72,7 +72,7 @@ description: "How to defend against Granby to Closed Guard in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent initiates a Granby roll and you feel them beginning to thread their inside leg between your bodies - what is the immediate correction?",
+      "name": "On turtle top, your opponent threads their inside leg through. What's the correction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your near-side hip forward and down to close the space that their leg is threading through, pinning their leg against their own body or the mat. Simultaneously, tighten your chest pressure against their back to prevent further rotation. If their leg has partially entered, use your near-side arm to frame against their thigh and push it back out while maintaining upper body control with your other arm. The goal is to deny the leg frame that becomes their first guard barrier. If the leg is fully inserted, immediately work to pass it before the second leg arrives and guard is closed."
@@ -80,7 +80,7 @@ description: "How to defend against Granby to Closed Guard in BJJ. Recognition c
     },
     {
       "@type": "Question",
-      "name": "How should your weight distribution change when you sense a Granby roll attempt versus maintaining standard turtle top control?",
+      "name": "On turtle top, how should your weight shift when you sense a granby attempt?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In standard turtle top control, your weight is distributed with approximately 70% through your chest onto their upper back and 30% through your hips for mobility. When you sense a Granby attempt, shift to sprawl-based distribution with 80-90% of your weight driving downward through your shoulders and chest while your legs extend back and hips drop. This increased forward and downward pressure makes it mechanically much harder for the bottom player to create the space needed for rotation. The trade-off is reduced mobility, but this is acceptable because your priority shifts from attacking to preventing the escape."

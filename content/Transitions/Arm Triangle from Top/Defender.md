@@ -64,7 +64,7 @@ description: "How to defend against Arm Triangle from Top in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker swimming their head under your arm during side control—what is your immediate response?",
+      "name": "From side control bottom, you feel them swimming their head under your arm; what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately retract your arm by pulling your elbow back to your hip while turning your forearm inward toward your own body. Use your far hand to push the attacker's head away or post against their shoulder to create distance. Simultaneously shrimp your hips away to open space. The key is speed—once their head clears to the other side of your arm and they begin locking the grip, your defensive window shrinks dramatically. Act on the first recognition cue, not after the configuration is established."
@@ -72,7 +72,7 @@ description: "How to defend against Arm Triangle from Top in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why is inserting a knee during the walk-around an effective defensive strategy even though it does not fully escape the arm triangle?",
+      "name": "Why is inserting a knee during the walk-around effective even though it does not escape the choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Recovering half guard prevents the attacker from achieving the full sprawl angle needed for maximum carotid compression. The arm triangle finish depends on the attacker sprawling at approximately 45 degrees with their hips past your centerline. Half guard entanglement restricts their hip mobility, reduces their available compression angle, and prevents the deep sprawl that generates finishing force. While the arm triangle can theoretically be finished from half guard top, it is significantly less effective, buying you time to continue working arm extraction or further guard recovery."
@@ -80,7 +80,7 @@ description: "How to defend against Arm Triangle from Top in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "The attacker has the grip locked and is walking around to the finishing side—why should you turn toward them rather than away?",
+      "name": "With the arm triangle locked and them walking around, why turn toward them instead of away?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning toward the attacker reduces the angle of compression by aligning your neck more parallel to their squeezing shoulder rather than perpendicular to it. Turning away actually assists the choke by deepening the V-shape between your bicep and the attacker's shoulder. When you face toward the attacker, you also create the opportunity to walk your hips away from the choking side, which further disrupts their angle. Additionally, turning toward them may allow you to get to your knees or initiate a scramble, while turning away exposes your back."
@@ -88,7 +88,7 @@ description: "How to defend against Arm Triangle from Top in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "What are the phases of arm triangle defense in order of effectiveness, and why does each successive phase have a lower success rate?",
+      "name": "What are the phases of arm triangle defense in order, and why does each later phase work less?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Phase 1: Prevent the arm from crossing centerline (highest success rate because the choke cannot be configured). Phase 2: Fight the grip before it locks behind your head (moderate success because the arm is across but the configuration is not sealed). Phase 3: Insert a knee during the walk-around to recover half guard (lower success because the grip is locked but the finishing angle is not established). Phase 4: Late-stage escape once the attacker is sprawled on the finishing side (lowest success because full compression may already be applied). Each phase is less effective because the choke becomes more structurally complete at each stage, requiring more energy and more precise technique to dismantle."

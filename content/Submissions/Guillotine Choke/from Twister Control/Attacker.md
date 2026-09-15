@@ -116,7 +116,7 @@ description: "Learn to attack with the guillotine choke from Twister Control. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins posturing up aggressively as you transition to the guillotine grip. What adjustment prevents escape?",
+      "name": "Your opponent postures up as you take the guillotine from Twister Control—what stops the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pull guard immediately by releasing leg entanglement and wrapping your legs around the opponent's waist in closed guard. Use your legs to break their posture by pulling your heels toward your glutes. This removes their base and leverages your entire lower body to prevent the postural escape. Once their posture is broken in guard, re-tighten the grip and finish."

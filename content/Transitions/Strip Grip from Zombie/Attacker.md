@@ -90,7 +90,7 @@ description: "Learn to systematically strip grips from the Zombie lockdown posit
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps re-pumping their underhook every time you begin working on the lockdown — how do you adjust?",
+      "name": "From zombie top, they keep re-pumping the underhook as you work the lockdown: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This indicates your whizzer control is insufficient. Before moving to the lockdown, establish a deeper whizzer by threading your arm further over their underhook arm and squeezing your elbow tightly against your ribs. Simultaneously drive your shoulder forward to collapse their arm against their body. Only proceed to lockdown work when their underhook arm is pinned and immobile. If they continue to re-pump, switch to a crossface grip which removes their underhook entirely by controlling their head position and preventing chest-to-chest connection."
@@ -98,7 +98,7 @@ description: "Learn to systematically strip grips from the Zombie lockdown posit
     },
     {
       "@type": "Question",
-      "name": "What are the key indicators that the bottom player is about to attempt an Old School Sweep during your grip stripping?",
+      "name": "Stripping grips from zombie top, what tells you an Old School sweep is coming?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for the bottom player posting their far foot on the mat, driving their hips upward toward you, and pulling with their underhook to create an angle. You will feel a distinct shift in their energy from defensive holding to active driving. Their lockdown tension will increase as they prepare to use it as a fulcrum for the sweep. The moment you feel upward hip pressure combined with pulling force on your upper body, immediately drop your weight forward and drive heavy crossface pressure to flatten them before the sweep develops."
@@ -106,7 +106,7 @@ description: "Learn to systematically strip grips from the Zombie lockdown posit
     },
     {
       "@type": "Question",
-      "name": "How do you maintain effective chest pressure while simultaneously working to strip grips with your hands?",
+      "name": "From zombie top, how do you keep chest pressure while your hands strip grips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key is using your forehead, shoulder, and chest as your primary pressure tools rather than your hands. Position your forehead against the side of their face, drive your shoulder directly into their jaw or chest, and let gravity do the work through your upper body. Your hands then work to strip grips while your skeletal structure maintains the pressure. Never lift your shoulder or chest to gain hand mobility — instead, work your hands underneath your pressure points so the opponent feels constant weight even as your hands are active."
@@ -114,7 +114,7 @@ description: "Learn to systematically strip grips from the Zombie lockdown posit
     },
     {
       "@type": "Question",
-      "name": "After successfully stripping all grips, what is the most common mistake that allows the opponent to re-establish guard?",
+      "name": "After stripping all grips from zombie, what mistake lets them rebuild guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common mistake is pausing to reassess after clearing the lockdown instead of immediately transitioning to a passing sequence. The window between clearing the Zombie structure and the opponent establishing a new guard variation such as butterfly hooks, knee shield, or de la riva is extremely short — typically two to three seconds. You must have your passing sequence pre-planned and transition into it without hesitation. Immediately control their knees, establish passing grips, and begin your preferred passing chain the moment your leg clears the lockdown."

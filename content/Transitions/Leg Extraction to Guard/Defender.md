@@ -56,7 +56,7 @@ description: "How to defend against Leg Extraction to Guard in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt leg extraction rather than accepting the position?",
+      "name": "Holding ushiro ashi-garami, what is the earliest cue that they are setting up leg extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when you feel their trapped foot establish strong dorsiflexion while their near-side hand moves toward your inside knee. This two-step preparation - heel protection combined with inside knee framing - signals they are setting up systematic extraction rather than focusing on submission defense or accepting turtle. At this point you should immediately tighten your entanglement and threaten submissions to disrupt their preparation."
@@ -64,7 +64,7 @@ description: "How to defend against Leg Extraction to Guard in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has cleared your outside leg and is working on your inside leg - what is your highest percentage response?",
+      "name": "They cleared your outside leg and are working the inside leg — highest percentage response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest percentage response is to immediately step your inside leg through to establish saddle position. The moment they clear the outside leg, their inside knee control must shift to address your inside leg extraction, creating a brief window. Drive your inside leg across their thigh while your outside leg follows to establish the crossed configuration. This converts their successful outside leg clearance into a positional downgrade from their perspective, moving from partial escape to deeper entanglement."
@@ -72,7 +72,7 @@ description: "How to defend against Leg Extraction to Guard in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your submission attacks to prevent creating extraction windows during grip changes?",
+      "name": "How do you change grips in ushiro ashi-garami without opening an extraction window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain at least one point of strong leg control at all times during grip transitions. Rather than fully releasing one grip to establish another, use a hand-over-hand approach where the new grip is partially established before the old one releases. When transitioning between heel hook and ankle lock setups, keep your figure-four tight with constant inward leg pressure independent of your hand positioning. This eliminates the momentary control lapses that opponents exploit for extraction windows."
@@ -80,7 +80,7 @@ description: "How to defend against Leg Extraction to Guard in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent is pushing your hips away with their free foot while maintaining dorsiflexion - how do you counter this specific combination?",
+      "name": "They push your hips with their free foot while dorsiflexing — how do you counter that combination?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Address the pushing foot first by controlling it with your outside hand or by hooking their pushing leg with your own leg to neutralize the frame. Once their pushing mechanism is eliminated, close the distance they created by pulling with your inside leg. Do not try to maintain position purely through squeezing against their push, as their full leg strength exceeds your entanglement friction. Instead, remove the pushing tool and then re-establish contact. This forces them to restart the extraction sequence from the beginning."
@@ -88,7 +88,7 @@ description: "How to defend against Leg Extraction to Guard in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "When should you accept that the extraction is succeeding and transition to a passing strategy instead?",
+      "name": "Holding ushiro ashi-garami, when do you accept the extraction and switch to passing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Accept the extraction when your inside leg has lost meaningful thigh contact, your outside leg is already cleared, and their leg is more than halfway extracted from your control. At this point, immediately transition your energy toward establishing a passing position rather than fighting for a deteriorating entanglement. Follow their leg clearance by advancing your hips toward their body and work to establish top position through a leg drag or knee cut as they try to set up guard. This converts a lost entanglement into a guard passing opportunity rather than allowing them clean guard establishment."

@@ -58,7 +58,7 @@ description: "Defend against the Estima Lock from Saddle with early recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that your opponent is transitioning from a heel hook attack to an Estima Lock from Saddle?",
+      "name": "How do you recognize your opponent switching from heel hook to Estima Lock in Saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Watch for the attacker releasing their heel hook grip configuration and repositioning their arm toward the top of your foot or toes. You will feel the pressure shift from rotational force on your heel to a pulling or trapping sensation on your forefoot and dorsal foot surface. The attacker's arm position changes from cupping under your heel to reaching over the top of your foot toward their armpit. This grip transition is the critical recognition window where defensive action is most effective."
@@ -74,7 +74,7 @@ description: "Defend against the Estima Lock from Saddle with early recognition 
     },
     {
       "@type": "Question",
-      "name": "What defensive options are available during the grip transition phase of the Estima Lock from Saddle?",
+      "name": "What defenses do you have during the grip transition to the Estima Lock from Saddle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "During the grip transition, actively pull your foot back toward your body while flexing your ankle to make the foot difficult to capture in the armpit. Use your free leg to frame on the attacker's hip, pushing them away to extend the distance between your foot and their armpit. You can also rotate your foot to prevent it from seating properly in the armpit trap. If these fail and the foot is partially captured, fight the elbow closure with both hands before the lock is fully sealed—once the armpit trap is complete, defensive options diminish dramatically."

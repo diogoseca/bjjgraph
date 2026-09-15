@@ -22,7 +22,8 @@
     "developmental_metrics",
     "related_content",
     "summary",
-    "flashcards"
+    "flashcards",
+    "graph_applicability"
   ],
   "properties": {
     "name": {
@@ -452,6 +453,44 @@
       "maxItems": 4,
       "items": {
         "$ref": "#/$defs/clip"
+      }
+    },
+    "graph_applicability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scope",
+        "rationale"
+      ],
+      "properties": {
+        "scope": {
+          "type": "string",
+          "enum": [
+            "all",
+            "specific"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 30
+        },
+        "terms": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          },
+          "maxItems": 24
+        },
+        "families": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 3
+          }
+        }
       }
     }
   },

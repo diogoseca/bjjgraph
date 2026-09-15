@@ -68,7 +68,7 @@ description: "Master defending the armbar from knee on belly. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your arm has been captured and the attacker's leg is swinging over your head — what is your immediate response?",
+      "name": "Your arm is captured and their leg is swinging over your head from knee on belly — response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is to sit up and turn toward the attacker before their leg completes the arc over your head. Use your free hand to post on the mat and drive your body upward and toward the attacker's hip. If you can get your captured elbow past their hip line before they sit back, the armbar cannot be finished. This window is extremely brief — typically less than one second — so the response must be reflexive rather than deliberative. If the leg clears your head and they begin sitting back, transition immediately to clasping your hands."

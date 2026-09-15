@@ -50,7 +50,7 @@ description: "How to defend against Butterfly Hook Recovery in BJJ. Recognition 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is beginning a butterfly hook recovery attempt?",
+      "name": "What is the earliest cue that your opponent is starting a butterfly hook recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling their forearm pressing against your jaw or neck to establish a cross-face frame. This is the first step in the recovery sequence - frame before hip escape before hook insertion. Reacting at this stage by re-smashing forward is far more effective than waiting until the hook is already threading, because the frame is the weakest link in the chain and can be collapsed with committed forward pressure."
@@ -58,7 +58,7 @@ description: "How to defend against Butterfly Hook Recovery in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Why is it counterproductive to pull your hips backward when you feel the opponent bending their knee for hook insertion?",
+      "name": "Why is pulling your hips back counterproductive when they bend a knee to insert the hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pulling hips back creates more space between bodies, which is exactly what the opponent needs for hook insertion. The hook requires a gap between your inner thigh and their body to thread through. By retreating, you open that gap wider. Instead, driving hips forward and down closes the space and prevents the knee from bending enough to complete the threading motion, using your weight advantage rather than conceding it."
@@ -66,7 +66,7 @@ description: "How to defend against Butterfly Hook Recovery in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully inserts one butterfly hook despite your pressure - what is the optimal tactical response?",
+      "name": "They insert one butterfly hook despite your double-unders pressure: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not waste energy trying to strip the seated hook with your hands. Instead, immediately transition your passing approach. Backstep around the hook to establish headquarters or knee slice position, where the single hook is less effective. Alternatively, if you feel confident in your balance, accept the hook and drive forward to bait an elevation sweep attempt that you can ride and counter. The key is adapting your passing strategy rather than fighting to restore double unders against an established hook."
@@ -74,7 +74,7 @@ description: "How to defend against Butterfly Hook Recovery in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your grip behind the opponent's back without creating a timing window for hook recovery?",
+      "name": "How do you adjust your grip behind their back without giving them a hook recovery window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Adjust one hand at a time while maintaining forward chest pressure through body weight and the remaining grip. Never release both hands simultaneously. The chest-to-thigh connection must remain loaded throughout any grip adjustment. Some elite passers maintain pressure purely through chest weight and hip drive during brief grip transitions, eliminating hand dependence entirely for those critical moments. Practice making grip adjustments feel invisible to the bottom player."
@@ -82,7 +82,7 @@ description: "How to defend against Butterfly Hook Recovery in BJJ. Recognition 
     },
     {
       "@type": "Question",
-      "name": "When is it strategically better to abandon double unders and transition to a different pass rather than fighting the hook recovery?",
+      "name": "When should you abandon double unders instead of fighting the butterfly hook recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when the opponent has achieved both frame establishment and hip escape, meaning they have created real space and their knee is already bending toward insertion. At this point, the energy cost of re-smashing through their frame exceeds the energy of transitioning to headquarters, knee slice, or leg weave. The hook recovery is a two-stage process: if you missed the window to prevent the frame, cutting your losses by transitioning preserves your top position and energy rather than exhausting yourself in a losing pressure battle."

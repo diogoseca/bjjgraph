@@ -338,7 +338,7 @@
         "answer_line": "Seatbelt grip and chest connection"
       },
       {
-        "question": "In which direction should your weight shift during the transition from perpendicular to parallel alignment?",
+        "question": "Going from truck to back control, which way should your weight shift as you square up?",
         "answer": "Your weight should shift forward and slightly upward along the opponent's spine, sliding from the perpendicular truck angle to directly behind their back. The forward pressure is critical because it pins the opponent in place during the transition and prevents them from using the alignment change to create escape angles. Shifting backward or laterally creates space that the opponent can exploit for guard recovery.",
         "distractors": {
           "plausible": [
@@ -550,7 +550,7 @@
         }
       },
       {
-        "question": "Your opponent releases boot pressure and begins threading a hook inside your thigh - what is your immediate response?",
+        "question": "They release boot pressure and thread a hook inside your thigh—what is your response?",
         "answer": "Immediately straighten the targeted leg to make hook insertion difficult while simultaneously executing a hip escape away from the opponent. Use your near hand to push the opponent's foot away from your inner thigh while keeping your far hand defending your neck against choke attempts. If the first hook is successfully stripped, immediately create distance through continued hip escape before the opponent can reattempt, aiming to recover half guard or create a scramble.",
         "answer_line": "Straighten leg, hip escape away",
         "distractors": {
@@ -564,7 +564,7 @@
         }
       },
       {
-        "question": "Why is preventing the alignment shift from perpendicular to parallel behind your back the most important early defensive action?",
+        "question": "Why is stopping the perpendicular-to-parallel shift your key early defense from the truck?",
         "answer": "The perpendicular-to-parallel alignment shift is the prerequisite for hook insertion. From a perpendicular angle, the opponent cannot effectively thread hooks between your thighs because the geometry is wrong. By framing against their chest and preventing this shift, you force them to remain in truck position where their hook insertion pathways are blocked. This early defense is more energy-efficient than fighting individual hooks after the alignment shift has already occurred.",
         "answer_line": "Blocks the setup for hooks",
         "distractors": {

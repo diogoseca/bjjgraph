@@ -111,7 +111,7 @@
         }
       },
       {
-        "question": "Your opponent suddenly shifts their weight forward and attempts to stand - what immediate adjustment do you make?",
+        "question": "Your opponent shifts weight forward and tries to stand from cross body ride — what do you adjust?",
         "answer": "Immediately transition your weight forward onto their shoulders to drive them back down while simultaneously threading your near-side arm deeper under their armpit for seatbelt control. Use your far leg to post wide for base, then consider transitioning to crab ride if they continue standing attempts. Never chase their hips backward - stay connected to their upper body and let your weight work.",
         "answer_line": "Drive weight forward, seatbelt arm",
         "distractors": {
@@ -153,7 +153,7 @@
         }
       },
       {
-        "question": "When transitioning from cross body ride to back control, what is the critical error that causes position loss?",
+        "question": "Transitioning from cross body ride to back control, what error most often loses the position?",
         "answer": "The critical error is releasing chest pressure prematurely before securing the seatbelt grip and at least one hook. Many practitioners lift their chest to insert hooks, which creates space for the opponent to turn, granby, or sit to guard. Instead, maintain crushing chest pressure throughout the entire transition, threading your arms for seatbelt while your chest pins them, only inserting hooks once upper body control is fully secured.",
         "answer_line": "Releasing chest pressure too early",
         "distractors": {
@@ -167,7 +167,7 @@
         }
       },
       {
-        "question": "Your opponent keeps their arms tight and refuses to expose them for crucifix entries - what strategy breaks this defense?",
+        "question": "In cross body ride, how do you break an opponent who hides their arms from crucifix entries?",
         "answer": "When the opponent hides their arms, they sacrifice base and mobility. Use this to your advantage by threatening the back take more aggressively, forcing them to post a hand to prevent flattening. Alternatively, apply heavy shoulder pressure while walking your hips toward their head, which eventually forces them to extend an arm for balance. The key is creating dilemmas rather than waiting for mistakes.",
         "answer_line": "Pressure toward head, force a post",
         "distractors": {
@@ -567,7 +567,7 @@
         }
       },
       {
-        "question": "Your opponent begins driving heavy shoulder pressure to flatten you - how do you maintain your structure?",
+        "question": "Under cross body ride, how do you keep structure as they drive shoulder pressure to flatten you?",
         "answer": "Widen your base by spreading your knees slightly and driving your hips away from the pressure angle. Post on your forearm on the side receiving pressure rather than a flat hand, as this creates a stronger frame. Keep your core engaged and resist the urge to flatten - even maintaining a few inches of elevation preserves your escape options. If you feel yourself collapsing, immediately hip escape in the direction opposite the pressure.",
         "answer_line": "Post forearm, widen base",
         "distractors": {
@@ -931,7 +931,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What spatial configuration defines the Cross Body Ride and distinguishes it from a standard turtle-top ride?",
+      "question": "What spatial configuration defines the Cross Body Ride versus a standard turtle-top ride?",
       "answer": "The defining feature is the top player lying perpendicular across the turtled player's back rather than facing the same direction over the spine. This cross-body orientation directs the top player's chest and shoulder weight laterally across the opponent's shoulder blades and spine instead of front-to-back. The perpendicular alignment is what generates the collapsing pressure and raises the cost of the standard granby and sit-out escapes that a parallel ride leaves more open, because the bottom player must now reorient against a sideways load. Trading the mobility of a parallel ride for this fixed perpendicular angle is the position's central bargain.",
       "answer_line": "Perpendicular, chest on blades",
       "distractors": {
@@ -945,7 +945,7 @@
       }
     },
     {
-      "question": "Why does the perpendicular angle create pressure that the bottom player's standard turtle defenses cannot neutralize?",
+      "question": "Why can't standard turtle defenses neutralize the cross body ride's perpendicular pressure?",
       "answer": "In a parallel ride the bottom player can rotate their spine along its long axis to shed weight, but perpendicular pressure loads the shoulder blades laterally against that axis, where the turtle structure has no rotational give. The bottom player's frames and hip escapes are oriented to shed front-to-back force, so cross-body weight arrives on an unprotected vector. This forces the collapsing player to reorient their entire base rather than simply adjusting a frame. The mismatch between the direction of pressure and the direction of the defensive structure is what makes the ride so difficult to relieve.",
       "answer_line": "Loads blades against rotation axis",
       "distractors": {
@@ -973,7 +973,7 @@
       }
     },
     {
-      "question": "How is weight distributed in the Cross Body Ride and why does the top player keep their hips off the opponent?",
+      "question": "How is weight distributed in the Cross Body Ride, and why keep your hips off the opponent?",
       "answer": "Weight is loaded downward through the top player's chest and shoulder into the opponent's shoulder blades and spine, while the top player's hips stay to the side and slightly back rather than resting on the opponent. Keeping the hips light and off the body preserves the mobility needed to follow the bottom player's rotation and prevents the bottom player from bridging into the hips to reverse. This creates a see-saw where the upper body crushes while the lower body floats as a mobile base. Concentrating weight through skeletal contact rather than the hips is what lets the top player stay heavy yet responsive.",
       "answer_line": "Chest heavy, hips light and mobile",
       "distractors": {
@@ -987,7 +987,7 @@
       }
     },
     {
-      "question": "What forcing-function dilemma does the Cross Body Ride impose on the bottom player regardless of who is playing it?",
+      "question": "What dilemma does the Cross Body Ride force on the bottom player, whoever is playing it?",
       "answer": "The perpendicular pressure forces the bottom player into a binary choice: expose the back by flattening, or post a limb and expose that arm to isolation. Every defensive reaction opens a specific offensive lane — flattening invites a back take, posting an arm invites a crucifix, and standing invites a crab-ride transition. This branching decision tree is intrinsic to the geometry of the position, not to either player's intent. Understanding that any movement solves one problem while creating another is the shared mental model that defines play from both sides.",
       "answer_line": "Every reaction opens new attack",
       "distractors": {
@@ -1001,7 +1001,7 @@
       }
     },
     {
-      "question": "How does the Cross Body Ride differ from full Back Control, and why is it considered a transitional state?",
+      "question": "How does the Cross Body Ride differ from full back control, and why is it transitional?",
       "answer": "In back control the top player is chest-to-back and parallel with hooks inserted inside the thighs, whereas the Cross Body Ride is perpendicular with weight on the shoulder blades and no hooks yet established. The ride is a bridge because it controls the turtle while the top player is still hunting for the seatbelt-plus-hooks configuration that defines back control. The primary success path from the ride is precisely to convert the perpendicular pin into a parallel back take. It is therefore best understood as the staging position from which back control is earned, not a destination in itself.",
       "answer_line": "No hooks yet, still perpendicular",
       "distractors": {

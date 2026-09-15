@@ -92,7 +92,7 @@ description: "How to execute Butterfly Hook Recovery in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "Your opponent pauses their forward pressure to readjust their grip behind your back - what immediate action maximizes your recovery chance?",
+      "name": "They pause pressure to readjust their grip behind your back: what action maximizes your recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately create maximum hip movement by executing a strong hip escape combined with your frame. This is your primary timing window. As your hips move, bend your inside knee and thread your instep between bodies while their weight is shifted for the grip adjustment. Secure collar or overhook immediately as the hook enters."

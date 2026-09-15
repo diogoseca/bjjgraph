@@ -90,7 +90,7 @@ description: "Learn to execute the Roll from Chill Dog escape. Step-by-step guid
     },
     {
       "@type": "Question",
-      "name": "Your opponent increases downward chest pressure as you prepare to roll - should you still attempt the technique?",
+      "name": "They add heavy chest pressure as you prep the roll from Chill Dog bottom — still attempt it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No — settling downward pressure kills the upward lift you need to initiate the forward roll's rotation. This is actually a better window for a Granby roll, which uses the opponent's forward weight commitment against them by rolling laterally. Wait for the forward pressure to shift or lighten before attempting the forward roll, or redirect to an alternative escape that exploits their forward commitment."

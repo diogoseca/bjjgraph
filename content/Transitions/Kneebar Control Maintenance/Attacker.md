@@ -82,7 +82,7 @@ description: "Complete guide to maintaining top kneebar control in BJJ. Covers g
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins rotating their hips forcefully away from your kneebar pressure - what is your immediate response?",
+      "name": "They rotate their hips hard away from your kneebar pressure—what is your immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Follow their rotation by adjusting your hip angle to match their movement direction rather than fighting their rotation head-on. If they rotate away from you, this often exposes saddle entry opportunities - consider threading your legs to transition. If you maintain kneebar focus, shift your body to stay perpendicular to their knee as they turn. Never anchor your position while they rotate freely, as this creates the distance they need to extract."
@@ -90,7 +90,7 @@ description: "Complete guide to maintaining top kneebar control in BJJ. Covers g
     },
     {
       "@type": "Question",
-      "name": "Why is cycling between submission pressure bursts and consolidation phases more effective than constant pressure?",
+      "name": "Why cycle pressure bursts with consolidation phases instead of constant kneebar pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Constant maximum pressure depletes your energy rapidly without producing the finish, because the opponent can adopt a static defensive posture and wait for your grip to fatigue. Cycling creates two advantages: the brief pressure bursts force the opponent to react defensively, which reveals their escape strategy and creates momentary grip-loosening opportunities; the consolidation phases allow you to retighten control and recover grip endurance. Each cycle extracts defensive information while preserving your energy."
@@ -98,7 +98,7 @@ description: "Complete guide to maintaining top kneebar control in BJJ. Covers g
     },
     {
       "@type": "Question",
-      "name": "What grip configuration provides the best balance between control and endurance for kneebar maintenance?",
+      "name": "Which grip best balances control and endurance for holding a kneebar?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A gable grip with elbows squeezed tight against the leg, positioned around the lower calf and Achilles area, provides optimal endurance. The key is distributing holding force across your chest, lats, and squeezed elbows rather than relying on forearm grip strength. Your arms position and guide the leg while your torso clamps it. This configuration can sustain control for several minutes compared to pure grip-dependent holds that fatigue within 30-60 seconds."
@@ -106,7 +106,7 @@ description: "Complete guide to maintaining top kneebar control in BJJ. Covers g
     },
     {
       "@type": "Question",
-      "name": "At what point should you abandon kneebar control maintenance and transition to an alternative position?",
+      "name": "When should you abandon kneebar control and transition to another position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition when you observe progressive control deterioration despite active maintenance efforts for approximately 15-20 seconds. Specific indicators include: hip-to-knee gap that you cannot close despite repeated attempts, grip slippage that continues after reconfiguration, or opponent establishing a frame that you cannot collapse. The critical insight is transitioning while you still retain enough positional advantage to choose your exit point - either to alternative leg attacks like ankle locks and toe holds, or to guard passing."

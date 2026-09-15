@@ -72,7 +72,7 @@ description: "Learn to defend and counter the Scissor Sweep from Open Guard in B
     },
     {
       "@type": "Question",
-      "name": "Your opponent has established grips and placed their shin across your stomach - what is your immediate defensive priority?",
+      "name": "They have grips and a shin across your stomach in open guard: what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is posting your far hand wide on the mat to create a tripod base, but only if your sleeve grip is free. If your sleeve is controlled, first strip that grip using your free hand with a two-on-one break before anything else. Simultaneously widen your knee base by stepping your far knee outward. The combination of a free posting hand and widened base makes the scissor sweep mechanically impossible to complete even with perfect timing from the attacker."
@@ -80,7 +80,7 @@ description: "Learn to defend and counter the Scissor Sweep from Open Guard in B
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your defensive approach when the opponent chains scissor sweep attempts with collar drags and triangles?",
+      "name": "How do you defend when they chain scissor sweeps with collar drags and triangles?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent mixes scissor sweeps with collar drags and triangle entries, you cannot simply sit back to avoid the sweep because the collar drag exploits backward weight distribution and the triangle exploits arm isolation. Maintain a neutral center of gravity with hips directly above your base, addressing each threat as it appears rather than committing your weight in either direction. Focus on breaking the collar grip entirely rather than just resisting it, as removing the grip eliminates the foundation for all three attacks simultaneously."

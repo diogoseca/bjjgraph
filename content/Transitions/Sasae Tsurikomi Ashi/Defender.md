@@ -72,7 +72,7 @@ description: "How to defend against Sasae Tsurikomi Ashi in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Your opponent attempts Sasae and you successfully retract your foot, but now they are shifting into a different attack - what follow-up attacks should you anticipate?",
+      "name": "You retract your foot from their Sasae: what follow-up attacks should you expect next?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "After a defended Sasae, the most common follow-ups are Ouchi Gari or Kouchi Gari targeting the rear leg that now bears most of your weight from the retraction, Osoto Gari if you stepped backward loading the same side leg, or an upper body throw like Harai Goshi if you raised your leg high. You should also anticipate a snap down to front headlock if your posture broke during the defense. Immediately reset your base and grip position rather than staying in the defensive posture."
@@ -88,7 +88,7 @@ description: "How to defend against Sasae Tsurikomi Ashi in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your stance and weight distribution when you recognize your opponent favors foot sweep techniques?",
+      "name": "How should you adjust stance and weight against an opponent who favors foot sweeps?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lower your center of gravity by increasing knee bend and shifting weight slightly toward your heels rather than the balls of your feet. Narrow your stance slightly to reduce the target for blocking techniques. Move with shorter, quicker steps rather than long strides that create extended moments of single-leg balance. Prioritize breaking their collar grip repeatedly to deny the lifting mechanism. Consider initiating your own attacks or guard pull to prevent them from establishing the circular movement pattern they need."

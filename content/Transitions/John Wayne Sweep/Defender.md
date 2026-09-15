@@ -56,7 +56,7 @@ description: "How to defend against the John Wayne Sweep in BJJ. Recognition cue
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive action against the John Wayne Sweep and at what stage should it occur?",
+      "name": "What is the single best defense to the John Wayne sweep, and when should it happen?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important defensive action is stripping the two-on-one grip on your sleeve before the attacker can establish angular positioning. This should occur immediately when you feel both of the opponent's hands securing your sleeve or wrist. The two-on-one grip is the foundation of the entire sweep; without it, the attacker cannot isolate your arm, create the rotational axis, or execute the pistol grip break. Every subsequent defensive option has a lower success rate than preventing this initial grip."
@@ -64,7 +64,7 @@ description: "How to defend against the John Wayne Sweep in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "Why is keeping your weight back off the hooks a more effective defense than driving forward when you feel the sweep developing?",
+      "name": "Why does keeping weight back beat driving forward when the John Wayne sweep develops?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keeping your weight back removes your center of gravity from the butterfly hooks' elevation range, neutralizing the mechanical advantage the hooks provide. Driving your weight forward onto the hooks is counterproductive because the John Wayne Sweep specifically exploits forward pressure as the energy source for elevation and rotation. By keeping your weight off the hooks and posting wide, you deny the sweep its required mechanical input while making the two-on-one grip less effective as a steering mechanism."
@@ -72,7 +72,7 @@ description: "How to defend against the John Wayne Sweep in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "You feel the opponent's free hand forming the pistol shape and moving toward your posted hand - what is your immediate response?",
+      "name": "Their pistol grip is forming and moving toward your posted hand — immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately shift your weight to widen your base and strengthen the posting arm. Bend your elbow slightly to create a more resilient post that cannot be easily broken by the pistol strike. Simultaneously begin circling your controlled arm free from the two-on-one grip, using the momentary distraction of the pistol attempt. If the pistol break connects, have a secondary post ready, so prepare to post with your head or opposite hand to maintain base while recovering structure."
@@ -80,7 +80,7 @@ description: "How to defend against the John Wayne Sweep in BJJ. Recognition cue
     },
     {
       "@type": "Question",
-      "name": "How can you use the attacker's full commitment to the sweep rotation as a counter-passing opportunity?",
+      "name": "How can you turn their full commitment to the John Wayne sweep rotation into a pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the attacker fully commits to the rotation by extending the hooks and pulling strongly on your arm, their guard structure is temporarily compromised because both legs are occupied with elevation rather than retention. If you can maintain base through the initial rotation by posting strongly, you can immediately drive forward through their opened guard with a smash pass, over-under pass, or body lock pass. The key timing window is when the sweep fails but the attacker's legs have not yet recovered to a defensive configuration."

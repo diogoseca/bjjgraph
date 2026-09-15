@@ -90,7 +90,7 @@ description: "Execute the Sweep from New York to reach mount. Step-by-step hip b
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base significantly when they feel you loading the sweep—how do you adjust?",
+      "name": "New York bottom: they widen their base as you load the sweep—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Switch to the angle change sweep variant. Shift your hips laterally first to create a sharper attack angle that bypasses their widened base, then bridge from the new angle. Alternatively, abandon the sweep attempt entirely and use their commitment to base-widening as an opportunity to advance to Invisible Collar or Carni, since their defensive focus on the sweep leaves them vulnerable to positional advancement."

@@ -70,7 +70,7 @@ description: "How to execute the Cross Collar Choke Finish in BJJ. Attacking per
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structures does the Cross Collar Choke Finish target, and how does this differ from an air choke?",
+      "name": "What does the cross collar choke finish target, and how does that differ from an air choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Cross Collar Choke Finish targets both carotid arteries on the lateral sides of the neck, compressing them to restrict blood flow to the brain. This is a blood choke, not an air choke. An air choke targets the trachea to restrict breathing, which is slower, more painful, and carries higher injury risk. Proper collar placement ensures the gi material folds across the carotid arteries rather than pressing into the windpipe, producing unconsciousness in 3-8 seconds rather than the longer and more dangerous timeline of tracheal compression."
@@ -94,7 +94,7 @@ description: "How to execute the Cross Collar Choke Finish in BJJ. Attacking per
     },
     {
       "@type": "Question",
-      "name": "What direction should your forearm rotate when applying finishing pressure, and why is this mechanically superior?",
+      "name": "Which way should your choking forearm rotate on the finish, and why is that better mechanically?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your choking forearm should rotate toward your own chest while your elbow pulls down toward your hip. This folds the gi material against the opponent's neck rather than pulling it away, creating the mechanical advantage needed for an efficient blood choke that doesn't rely on strength alone. The rotation creates a wedge effect where the radius bone presses the gi into the carotid, amplifying pressure through leverage rather than raw grip strength."

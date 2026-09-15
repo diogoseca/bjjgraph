@@ -288,7 +288,7 @@
         }
       },
       {
-        "question": "Your opponent posts their right hand on the mat when you attempt to sweep them to your left - what are your best responses?",
+        "question": "They post a hand as you butterfly sweep them that direction: what are your best responses?",
         "answer": "When opponent posts their hand, you have several high-percentage options: First, immediately switch to sweeping the opposite direction since posting on one side creates compromised base on the other. Second, attack the posted arm with a kimura lock since it is extended and bearing weight, making it vulnerable to grip capture. Third, transition to single leg X-guard by diving your shoulder under the posted arm and controlling their far leg. The critical principle is recognizing the post instantly and flowing to your counter rather than forcing the original sweep direction.",
         "answer_line": "Reverse direction or kimura post",
         "distractors": {
@@ -316,7 +316,7 @@
         }
       },
       {
-        "question": "What are the most effective grip combinations for the basic butterfly sweep and when should you choose each?",
+        "question": "Which grip combinations work best for the basic butterfly sweep, and when do you choose each?",
         "answer": "The most effective grip combinations are: collar and sleeve grips which provide maximum upper body control and prevent posting on the sleeve side; double underhooks which are extremely powerful for pulling opponent forward and preventing base, particularly effective in no-gi; and overhook/underhook combination which creates asymmetrical control ideal for directional sweeping. Each grip accomplishes two objectives: breaking opponent's posture to commit weight forward, and preventing them from posting hands to defend. Choose collar-sleeve in gi when distance exists, double underhooks when you can close distance, and overhook-underhook when opponent commits an underhook first.",
         "answer_line": "Collar-sleeve or double underhooks",
         "distractors": {
@@ -344,7 +344,7 @@
         }
       },
       {
-        "question": "Your opponent is sitting very upright with good posture and refuses to commit weight forward - how do you create the conditions for the butterfly sweep?",
+        "question": "They sit upright and refuse to come forward: how do you create the butterfly sweep conditions?",
         "answer": "Against an opponent with strong upright posture, you must manufacture forward weight commitment through indirect methods. Use an arm drag to force them to reach forward and recover balance, creating the brief forward weight shift needed. Threaten a guillotine choke by snapping their head down, which forces defensive posture correction that commits weight forward. Pull aggressively on collar grips to break their posture incrementally. If they absolutely refuse to come forward, transition to elevator sweep which works against upright posture, or switch to X-guard entries by attacking their legs from underneath.",
         "answer_line": "Arm drag or guillotine threat",
         "distractors": {
@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "What distinguishes a failed butterfly sweep attempt from a properly abandoned one, and how does this affect your position?",
+        "question": "How does abandoning a butterfly sweep early differ from failing one, and how does position differ?",
         "answer": "A failed butterfly sweep involves fully committing to the drive without proper setup, exhausting energy, and ending flat on your back with compromised guard retention. A properly abandoned sweep recognizes early that the opponent has defended successfully - posting their hand, sprawling, or establishing dominant grips - and immediately transitions to a secondary attack. The abandoned sweep maintains your seated posture, hook engagement, and grip control, allowing you to chain to X-guard, single leg X, arm drag, or the opposite-direction sweep. The key differentiator is whether you maintain your structural position and offensive initiative rather than committing past the point of recovery.",
         "answer_line": "Abandon early, chain to X-guard",
         "distractors": {
@@ -386,7 +386,7 @@
         }
       },
       {
-        "question": "What is the relationship between the butterfly sweep and subsequent guard transition options when the sweep is partially successful?",
+        "question": "When a butterfly sweep only partly succeeds, how do their reactions feed your next guard transition?",
         "answer": "A partially successful butterfly sweep where the opponent is elevated but recovers creates several high-value transition opportunities. If they post a hand during elevation, their weight shifts to that posting arm, opening kimura attacks and opposite-direction sweeps. If they sprawl their hips back to avoid being swept, the distance created is ideal for X-guard or single leg X-guard entries by following their retreating legs. If they step one leg over your hook to base out, the resulting asymmetric position feeds directly into reverse De La Riva or deep half guard entries. The butterfly sweep thus functions as a forcing mechanism that creates reactions exploitable through the broader butterfly guard system.",
         "answer_line": "Reactions feed X-guard or kimura",
         "distractors": {
@@ -524,7 +524,7 @@
         }
       },
       {
-        "question": "You feel your opponent shift their hips to create an angle while pulling your collar forward - what should your immediate defensive response be?",
+        "question": "They angle their hips and pull your collar for a butterfly sweep: what is your immediate defense?",
         "answer": "The hip angle shift combined with collar pull indicates imminent sweep initiation. Your immediate response should be to post your hand on the mat on the side they are angling toward, simultaneously driving your hips back to reduce forward weight over their hooks. If possible, break the collar grip by stripping it with your free hand while maintaining the post. After stabilizing, work to re-establish upright posture and begin addressing their grip control to prevent a secondary attempt. Do not try to drive forward into them as this feeds directly into the sweep mechanics.",
         "answer_line": "Post hand, hips back, strip grip",
         "distractors": {
@@ -566,7 +566,7 @@
         }
       },
       {
-        "question": "How should your defensive approach change when facing a butterfly guard player who chains sweeps with submission attempts?",
+        "question": "How should your defense adapt against a butterfly player chaining sweeps with submissions?",
         "answer": "Against a butterfly guard player who integrates submissions like guillotines, kimuras, and arm drags with sweep attempts, your defensive priorities shift. You must protect your neck by keeping chin tucked and posture tall, fight for inside position with your arms to deny underhooks and collar ties, and avoid overcommitting to single-side posting which exposes arms to kimura attacks. The key adaptation is maintaining a more conservative and centered base rather than committing heavily to one side for posting. Use distance management and grip denial as primary defenses rather than hand posting, and time your passing attempts for moments between the opponent's offensive sequences rather than during active sweep-submission chains.",
         "answer_line": "Protect neck, deny inside position",
         "distractors": {

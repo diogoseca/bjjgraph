@@ -56,7 +56,7 @@ description: "Defend and counter the Double Sleeve to De La Riva transition. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the bottom player is attempting to transition from double sleeve to DLR?",
+      "name": "What is the earliest cue that they're switching from double sleeve guard to De La Riva?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the hip angle rotation: when the bottom player pushes off your far hip with their foot while pulling your near sleeve differently, their hips rotate approximately 45 degrees toward your lead leg side. This angular change precedes the actual hook insertion and gives you the maximum reaction window. The foot leaving your hip to begin threading toward the outside of your leg is the secondary confirmation cue."
@@ -72,7 +72,7 @@ description: "Defend and counter the Double Sleeve to De La Riva transition. Rec
     },
     {
       "@type": "Question",
-      "name": "Your opponent has partially established a DLR hook but has not yet converted their near-side grip. What defensive action provides the best outcome?",
+      "name": "They have a partial DLR hook but no ankle grip yet: what defense works best?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Backstep your hooked leg while simultaneously stripping or controlling their near-side sleeve grip before it converts to an ankle grip. The partial hook without the ankle grip is fragile and can be cleared by stepping over their shin. Combining the backstep with grip control prevents them from completing the transition and often puts you in position for a backstep pass or leg drag. Do not drive forward at this stage, as even a partial hook with your forward pressure can be leveraged into a sweep."
@@ -80,7 +80,7 @@ description: "Defend and counter the Double Sleeve to De La Riva transition. Rec
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when facing double sleeve guard to make DLR entry harder?",
+      "name": "How should you distribute your weight against double sleeve guard to deny the DLR entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep your weight centered or slightly back rather than loading your lead leg. A heavy lead leg is the exact target the bottom player needs for DLR hook insertion: weighted, forward-committed, and difficult to retract. By keeping your lead leg relatively light, you can pull it back instantly when you feel the threading motion. Consider adjusting to a more square stance rather than staggered when facing aggressive guard players who favor DLR transitions from sleeve control positions."

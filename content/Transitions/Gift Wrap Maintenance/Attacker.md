@@ -82,7 +82,7 @@ description: "Learn Gift Wrap Maintenance attacking techniques in BJJ. Master ar
     },
     {
       "@type": "Question",
-      "name": "What conditions indicate that your Gift Wrap maintenance is degrading and requires immediate correction?",
+      "name": "What signs show your Gift Wrap control is degrading and needs immediate correction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Key indicators include feeling slack in the trapped arm's diagonal line across the chest, your chest lifting away from the opponent's back, hooks becoming shallow with heels sliding toward knee level, and the opponent's trapped arm drifting below their shoulder line toward their waist. Any single indicator requires immediate correction. Multiple simultaneous indicators suggest the control is close to failure."
@@ -98,7 +98,7 @@ description: "Learn Gift Wrap Maintenance attacking techniques in BJJ. Master ar
     },
     {
       "@type": "Question",
-      "name": "Your opponent explosively bridges while you maintain Gift Wrap—what is the most common failure point?",
+      "name": "They bridge explosively against your Gift Wrap: what is the most common failure point?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common failure is allowing your chest to separate from their back during the bridge. When the opponent bridges, the natural reaction is to lean back to absorb the force, but this creates the space they need for shoulder rotation and arm recovery. The correct response is to drive your hips and chest forward into the bridge, loading your weight onto them rather than pulling away, which collapses the bridge while maintaining all contact points."
@@ -106,7 +106,7 @@ description: "Learn Gift Wrap Maintenance attacking techniques in BJJ. Master ar
     },
     {
       "@type": "Question",
-      "name": "How should your controlling hand be positioned on the opponent's trapped wrist for optimal retention?",
+      "name": "How should your controlling hand grip their trapped wrist to retain the Gift Wrap?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Grip their wrist or lower forearm with your thumb on the inside toward their body and fingers wrapping the outside. This grip orientation allows you to pull their arm across their chest while your forearm presses against the back of their upper arm, creating two opposing pressure points. Gripping too high on the forearm reduces leverage, while gripping the hand allows wrist rotation escape."

@@ -58,7 +58,7 @@ description: "How to defend against Reverse Kimura in BJJ. Recognition, escape p
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most critical early recognition cue that a Reverse Kimura is being set up, and why does early detection matter?",
+      "name": "What is the earliest cue a Reverse Kimura is being set up, and why does catching it early matter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical cue is feeling the attacker thread their arm through the space in front of your arm (between your arm and torso from the front side) rather than behind it. Early detection matters enormously because preventing the reverse grip from locking is far easier than escaping once it is secured. At the threading stage, simply pulling your elbow tight to your ribs and using your free hand to block grip completion can shut down the entire attack. Once the wrist-on-wrist connection is made, your defensive options narrow significantly and the submission can progress rapidly."
@@ -66,7 +66,7 @@ description: "How to defend against Reverse Kimura in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "Why is turning away from the attacker during Reverse Kimura defense the most dangerous mistake you can make?",
+      "name": "Why is turning away from the attacker the worst mistake when defending a Reverse Kimura?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning away from the attacker exposes your back completely, which is exactly the secondary attack the attacker is hoping for. The reverse Kimura naturally creates a dilemma: if you stay, the shoulder lock progresses; if you turn away, the attacker follows your rotation with their grip still intact and transitions directly to back control. Back control is arguably a worse position than the original submission threat because it opens up rear naked choke, additional Kimura attempts, and other attacks. Always turn toward the attacker to relieve shoulder pressure while keeping your back protected."
@@ -74,7 +74,7 @@ description: "How to defend against Reverse Kimura in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "What specific grip-breaking technique should you prioritize when defending an established Reverse Kimura?",
+      "name": "Which grip-breaking target should you prioritize against an established Reverse Kimura?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Target the wrist-on-wrist connection where the attacker grips their own wrist. This is the weakest structural point of any figure-four lock. Use your free hand to peel or pry at this connection while simultaneously keeping your elbow tight to your body to limit rotational space. Attack the grip with your fingers working under their hand at the wrist junction rather than trying to pull your trapped arm free. Two-on-one grip fighting at this connection point is far more efficient than trying to overpower the entire figure-four structure by muscling your arm out."
@@ -82,7 +82,7 @@ description: "How to defend against Reverse Kimura in BJJ. Recognition, escape p
     },
     {
       "@type": "Question",
-      "name": "When caught in a standing Reverse Kimura, what is the immediate safety priority before attempting any escape?",
+      "name": "Caught in a standing Reverse Kimura, what is your safety priority before attempting any escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The immediate safety priority is stabilizing your base and controlling the potential for uncontrolled falls. Standing shoulder locks carry dual injury risks: the submission itself and the fall. Plant your feet in a wide athletic stance, keep your knees bent, and maintain your center of gravity low. Only then begin your escape sequence. If you feel yourself losing balance during the escape attempt, communicate verbally with your partner and control the descent to the ground rather than fighting the fall. An uncontrolled fall with a locked shoulder submission can cause catastrophic injury."

@@ -76,7 +76,7 @@ description: "How to execute Aoki Lock in BJJ. Attacking perspective with setup,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the primary anatomical structures at risk during an Aoki Lock and why must pressure be applied slowly?",
+      "name": "Which structures does the Aoki Lock endanger, and why must pressure build slowly?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Aoki Lock targets the plantar fascia, ankle ligaments (particularly ATFL and deltoid ligament), achilles tendon, calf muscle, and shin periosteum through combined plantar flexion and compression. Pressure must be applied slowly (5-7 seconds minimum) because these structures can sustain serious damage before pain signals fully register, and sudden application can cause tears or ruptures before the opponent has time to tap. The achilles tendon is particularly vulnerable to sudden loading in extreme plantar flexion."
@@ -92,7 +92,7 @@ description: "How to execute Aoki Lock in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "How does the figure-four leg configuration create mechanical advantage for the Aoki Lock compression?",
+      "name": "How does the figure-four leg configuration generate the Aoki Lock's compression?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The figure-four configuration creates a closed loop that allows you to generate tremendous squeezing force by recruiting your largest leg muscles (quadriceps, hamstrings, adductors) while trapping opponent's foot in a mechanically disadvantaged position. When you squeeze your legs together while maintaining hip extension, the opposing forces create compression across their entire lower leg structure while forcing extreme plantar flexion. The closed loop prevents force dissipation and focuses all pressure on the trapped limb."
@@ -100,7 +100,7 @@ description: "How to execute Aoki Lock in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining ashi garami control with the outside leg critical throughout the Aoki Lock setup and finish?",
+      "name": "Why must the outside leg keep its ashi garami hook throughout the Aoki Lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The outside leg's ashi garami hook provides the positional frame that prevents opponent from extracting their leg, rotating to safety, or passing your guard during the submission attempt. Without this control, opponent can simply pull their leg free before the figure-four is established or create angles that nullify the compression force. The ashi garami frame keeps their leg trapped in the optimal position and distance for the Aoki Lock mechanics to work effectively. If you lose this control, you lose both the submission and potentially the position."
@@ -108,7 +108,7 @@ description: "How to execute Aoki Lock in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "What is the primary difference between Aoki Lock mechanics and traditional heel hook mechanics, and why does this create a strategic advantage?",
+      "name": "How do Aoki Lock mechanics differ from a heel hook, and why is that a strategic advantage?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Aoki Lock creates compression and plantar flexion force distributed across the entire lower leg (shin, calf, ankle, plantar fascia), while heel hooks create specific rotational force isolated to the knee joint through tibial rotation. This difference means opponents defending heel hooks by preventing rotation or maintaining specific leg positioning may not recognize or defend the Aoki Lock's compression-based mechanics. The Aoki Lock can be effective even when heel hook defenses are strong, creating a valuable secondary attack from leg entanglement positions."
@@ -116,7 +116,7 @@ description: "How to execute Aoki Lock in BJJ. Attacking perspective with setup,
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins pulling their foot into dorsiflexion to resist the plantar flexion - what adjustment maintains breaking pressure?",
+      "name": "Your opponent dorsiflexes to resist the Aoki Lock — what adjustment keeps breaking pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rather than fighting their dorsiflexion resistance directly, focus on increasing the compression component across the shin and calf by squeezing your legs tighter and adjusting your hip angle to drive pressure into the anterior tibialis and calf muscles. The compression across these muscular structures will create intense discomfort regardless of their foot position. Additionally, increase hip extension to stretch the posterior chain structures. The multi-vector attack means even partial plantar flexion combined with calf compression creates sufficient breaking force for the tap."

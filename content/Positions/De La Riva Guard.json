@@ -499,7 +499,7 @@
         "transition": "De La Riva to Lapel Guard",
         "attempt_probability": {
           "gi": 8,
-          "nogi": 0
+          "nogi": null
         }
       }
     ],
@@ -687,7 +687,7 @@
   },
   "flashcards_family": [
     {
-      "question": "What makes the De La Riva hook a fundamentally different control mechanism than a static frame-based guard?",
+      "question": "How is the De La Riva hook a different control mechanism than a static frame-based guard?",
       "answer": "The De La Riva hook is a live, wrapped connection to the opponent's base whose tension can lengthen and shorten to actively steer their weight. Unlike a static frame that merely holds the opponent at distance, the hook wraps around the outside of the lead leg and pressures behind the knee, connecting the guard player directly to the opponent's base. Because the hook is wrapped rather than posted, the opponent's own base becomes the lever, so their attempts to step, stand, or drive forward feed off-balancing energy back into the sweep. Every De La Riva variant inherits this principle: the hook is an active steering wheel on the opponent's balance, not a wall.",
       "distractors": {
         "plausible": [
@@ -715,7 +715,7 @@
       }
     },
     {
-      "question": "How does the dilemma-based reaction structure define De La Riva as a system rather than a single sweep?",
+      "question": "How does its dilemma-based reaction structure make De La Riva a system, not one sweep?",
       "answer": "De La Riva is a system because every reasonable defensive reaction opens a different pre-loaded attack, so it targets the opponent's decision itself. When the opponent drives forward, inversion and back-take entries open; when they stand tall or lean back, under-transitions to X-Guard and Single Leg X become available; when they strip grips, timing windows for direct sweeps appear. Because no single technique has to succeed, the guard player attacks the opponent's choice rather than any single limb. This reaction matrix is the strategic core shared by all variants, and reading which reaction is coming is what separates competent from dangerous De La Riva players.",
       "distractors": {
         "plausible": [
@@ -729,7 +729,7 @@
       "answer_line": "Attacks reaction, not the limb"
     },
     {
-      "question": "Why does the De La Riva player prioritize creating and constantly changing angles rather than working from a square, facing position?",
+      "question": "Why does the De La Riva player constantly change angles instead of staying square to them?",
       "answer": "An angled, off-line hip position points the hook's force across the opponent's narrow base instead of into their strongest defensive posture. From a square, facing position the opponent can stack weight forward and smash, but from an angle their base becomes a narrow, tippable line. Constantly shifting the angle also keeps the opponent reactive and prevents them from settling into a stable passing platform. This is why every variant emphasizes mobile hips and shoulders slightly off the mat: the angle is the engine of the sweep, and a static angle is a defeated guard.",
       "distractors": {
         "plausible": [
@@ -743,7 +743,7 @@
       "answer_line": "Angle attacks their narrow base"
     },
     {
-      "question": "What universal vulnerability does any De La Riva player accept in exchange for the hook's offensive power?",
+      "question": "What vulnerability does every De La Riva player accept for the hook's offensive power?",
       "answer": "Threading a leg around the outside of the opponent's leg commits that limb to control rather than to framing, so if the opponent clears or extracts the hook the guard player is momentarily down a defensive structure. Inversions and berimbolo-style entries that make the guard dangerous also expose the back and invite stack and back-step passing if upper-body control is lost mid-rotation. The guard therefore depends on maintaining hook tension and a grip as a safety line at all times; slack in either turns the guard's own committed structure into the passer's opportunity. This risk-reward tradeoff is inherent to the family and is why grip retention is treated as non-negotiable across every variant.",
       "answer_line": "Committed leg can't frame",
       "distractors": {
@@ -771,7 +771,7 @@
       }
     },
     {
-      "question": "Why is the De La Riva family treated as a hub that connects to X-Guard, Single Leg X, and leg-entanglement systems rather than an endpoint?",
+      "question": "Why is De La Riva a hub into X-Guard, Single Leg X and leglocks rather than an endpoint?",
       "answer": "Because the hook already establishes a deep connection to the opponent's leg and base, it sits one motion away from other under-the-opponent control systems that share the same off-balancing mechanics. When the opponent defends by standing or extending, the guard player threads underneath to X-Guard or Single Leg X; when they present the leg, ashi-garami and leg-lock entries open. This interconnectivity means the guard rarely needs to force a single finish and can flow to whichever system the opponent's defense leaves undefended. Treating De La Riva as a launch point rather than a destination is a defining strategic principle of the family and the reason it anchors so much of modern guard play.",
       "answer_line": "Hub feeding X-Guard, SLX, leglocks",
       "distractors": {
@@ -871,7 +871,7 @@
       }
     },
     {
-      "question": "How does De La Riva Guard differ mechanically from adjacent open guards like X-Guard and Single Leg X?",
+      "question": "How does De La Riva Guard differ mechanically from X-Guard and Single Leg X?",
       "answer": "DLR wraps a single hook around the outside of the top player's leg while the players remain at mid-range with the top player still standing or on their knees, keeping the bottom player oriented at an off-angle. X-Guard and Single Leg X, by contrast, place the bottom player underneath the top player's base with the legs entangling from below to elevate and topple them. DLR functions as an entry hub to these under-positions, converting its outside hook into an under-connection when the top player stands or the space changes. The distinction is essentially outside-and-alongside control versus underneath-and-elevating control.",
       "answer_line": "Outside hook vs underneath entangle",
       "distractors": {

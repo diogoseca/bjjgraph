@@ -56,7 +56,7 @@ description: "How to defend against Limp Leg Extraction to Half Guard in BJJ. Ma
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "You feel your opponent's trapped leg suddenly go completely limp - what does this signal and how do you respond?",
+      "name": "Their trapped leg suddenly goes limp in your leg knot: what does it mean and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This signals the initiation of a limp leg extraction attempt. The opponent is deliberately removing muscle tension to make their leg harder to grip. Respond by immediately shifting from grip-dependent control to structural control—increase hip pressure into their leg, tighten your leg entanglement, and prepare to follow their impending hip escape. Do not try to squeeze harder with your hands as this wastes energy against a relaxed limb. Instead, consider whether to advance to Saddle during this brief vulnerability window before their hip escape begins."
@@ -72,7 +72,7 @@ description: "How to defend against Limp Leg Extraction to Half Guard in BJJ. Ma
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes a strong foot-on-hip frame with their free leg before you can strip it - how do you adapt?",
+      "name": "They get a foot-on-hip frame before you strip it: how do you adapt from the leg knot?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the frame is already established, avoid trying to remove it with your hands as this compromises your leg control. Instead, angle your body to reduce the effectiveness of their push by moving offline from the pushing direction. You can also drive your weight forward into a stacking position that pins their hips before the push generates full force. If neither option works, accept that they will create some distance but focus on following their movement to maintain entanglement rather than losing the position entirely."
@@ -88,7 +88,7 @@ description: "How to defend against Limp Leg Extraction to Half Guard in BJJ. Ma
     },
     {
       "@type": "Question",
-      "name": "What distinguishes a standard limp leg extraction from the Granby-assisted variant, and how should your defense differ?",
+      "name": "How does the Granby-assisted limp leg differ from the standard, and how should defense change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Granby-assisted variant adds rotational momentum to the extraction, making it faster and harder to follow with lateral hip movement alone. Recognize the Granby variant when you see the opponent begin inverting or curling their shoulders rather than simply hip escaping laterally. Against the Granby variant, drive forward with stacking pressure before the rotation develops momentum rather than trying to follow the rotational path. Your hip pressure should pin them before inversion begins, because once the Granby roll has momentum, following it becomes significantly more difficult."

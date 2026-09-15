@@ -74,7 +74,7 @@ description: "Complete guide to executing posture recovery from Carni in BJJ. St
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the first action you must take before initiating forward pressure in posture recovery from Carni?",
+      "name": "From Carni top, what must you do before applying forward pressure in posture recovery?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must first secure your ankle position by flexing the ankle with toes pointed away from the attacker and ensuring the opponent's heel grip is at least partially disrupted. Initiating forward pressure before protecting the heel creates a perfect finishing angle for the heel hook as the forward movement extends the trapped leg, dramatically increasing submission risk during what should be an escape sequence."
@@ -114,7 +114,7 @@ description: "Complete guide to executing posture recovery from Carni in BJJ. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent threads their inside leg deeper as you drive forward, threatening saddle entry - what adjustment do you make?",
+      "name": "Recovering posture from Carni, they thread the inside leg deeper for the saddle — what adjustment?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately halt forward pressure and retract your hip away from the opponent's inside leg to prevent them from completing the saddle hook. Establish crossface pressure with your upper body to control their head and shoulders, then use your free leg to block or clear their threading hook. Only resume forward pressure once the saddle entry has been successfully defended and the original Carni configuration is restored."

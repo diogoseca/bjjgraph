@@ -56,7 +56,7 @@ description: "How to defend against the Overhook Sweep in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest point in the overhook sweep sequence where defensive intervention is most effective?",
+      "name": "When is defensive intervention against the overhook sweep most effective?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most effective intervention point is the moment the opponent threads their arm over your tricep, before they can consolidate the grip. At this stage, a quick elbow circle downward and posture extension strips the overhook before any other elements are in place. Once the overhook is locked tight with angle and opposite-side control established, defensive difficulty increases dramatically. Prevention of the grip is far easier than escaping a fully established sweep setup."
@@ -72,7 +72,7 @@ description: "How to defend against the Overhook Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured a deep overhook and is shifting their hips to create the angle - what is your immediate priority?",
+      "name": "They have a deep overhook and are shifting hips for the angle: what is your priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the angle from completing by driving your hips forward and centering your weight directly over their hips. The angle is the mechanical key to the entire sweep - without it, the bottom player cannot generate the perpendicular force needed to break your base. Push your trapped-arm-side hip forward and down while widening your base. If you can flatten them back to square alignment, the sweep becomes mechanically impossible even with the overhook maintained."
@@ -80,7 +80,7 @@ description: "How to defend against the Overhook Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What defensive mistake makes you most vulnerable to the overhook sweep being chained into a triangle attack?",
+      "name": "Which defensive mistake most exposes you to a triangle off the overhook sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Reaching across your body with your free hand to try to peel off the overhook is the most dangerous mistake. When you cross your free arm over your centerline, it creates the arm-across positioning that a triangle requires. If the opponent feels this reach and releases the overhook, they can immediately shoot their hips up and lock a triangle on the arm that just crossed over. Instead, keep your free hand on the same side as it naturally falls, using it for base posting or hip control."
@@ -88,7 +88,7 @@ description: "How to defend against the Overhook Sweep in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your base specifically when you feel the opponent uncross their ankles and begin to open their guard for the sweep?",
+      "name": "You feel their ankles uncross to sweep you: how do you adjust your base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The moment you feel ankles uncross, widen your knees significantly and drop your hips lower toward the mat. This creates a wider, more stable platform that resists the scissoring action the bottom player is about to generate. Simultaneously, drive your weight toward the side they are sweeping you away from - if their outside leg is going over your back on the right side, shift your weight left and post your left hand. This counterbalances the rotational force before it fully develops."

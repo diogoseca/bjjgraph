@@ -50,7 +50,7 @@ description: "How to defend against Sit Through Escape in BJJ. Recognition cues,
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest physical cue that your opponent is preparing a sit through escape from crab ride?",
+      "name": "Crab ride top: what is the earliest cue they are setting up a sit through escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling their weight shift forward onto their posted hands, which reduces the pressure you feel through your hooking leg. This weight transfer is the necessary first step before they can load their far-side knee and initiate the hip drop. Reacting at this stage by increasing forward pressure and deepening your hook stops the escape before the rotation mechanics can develop."
@@ -82,7 +82,7 @@ description: "How to defend against Sit Through Escape in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "What is the most important defensive principle when facing a skilled opponent who chains sit through with other escapes?",
+      "name": "Crab ride top: what principle matters most against chained sit through escapes?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important principle is maintaining constant chest-to-back connection above all else. Individual hook and grip adjustments will vary as you react to different escape directions, but as long as your chest stays connected to their back, you maintain positional authority regardless of which escape they attempt. This connection gives you the tactile feedback to read their movements and the physical platform to follow any directional change. Losing chest contact is the common denominator in all successful escapes from crab ride."

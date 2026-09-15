@@ -96,7 +96,7 @@ description: "Learn to execute the Deep Half Entry from Flattened Half Guard. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy crossface pressure and you cannot turn your hips for the entry - what alternative should you attempt?",
+      "name": "Heavy crossface stops your hips turning for the deep half entry — what should you do instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the crossface prevents hip rotation, switch to frame recovery instead. Use micro hip escapes to create incremental space, inserting your elbow as a wedge. Build toward re-establishing a knee shield. The deep half entry requires hip mobility that severe crossface pressure eliminates, and attempting it anyway results in a stalled half-entry position worse than flattened half guard."
@@ -120,7 +120,7 @@ description: "Learn to execute the Deep Half Entry from Flattened Half Guard. St
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins a knee slice as you initiate the deep half entry - how does this affect your execution?",
+      "name": "Your opponent starts a knee slice as you dive for deep half — how should you time your entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee slice actually creates an ideal entry window because the lateral weight shift raises the far hip and creates maximum space underneath. As they commit to the slice direction, their momentum makes it difficult to reverse and counter your entry. Accelerate your dive timing to coincide with their lateral movement, using their weight transfer to assist your slide underneath their base."

@@ -56,7 +56,7 @@ description: "How to defend against Reverse X-Guard Entry in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest visual cue that your opponent is attempting a Reverse X-Guard Entry rather than a standard berimbolo?",
+      "name": "What is the earliest visual cue separating a reverse X-guard entry from a berimbolo?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key differentiator is the direction of their threading leg. In a berimbolo, the opponent rotates underneath you and their leg hooks your far hip from the outside while pulling your body over theirs. In Reverse X-Guard Entry, their leg threads between your legs from underneath, traveling past your centerline to hook behind your far hip from the inside. The threading motion is more linear and directed upward rather than the circular rolling motion of berimbolo."
@@ -64,7 +64,7 @@ description: "How to defend against Reverse X-Guard Entry in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has threaded one leg but the crossing hook is not yet locked. What is the most effective immediate response?",
+      "name": "They threaded one leg but the crossing hook isn't locked. What is your best immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Backstep your far leg sharply at a 45-degree angle away from the threading direction while simultaneously driving your hips forward to flatten their position. This removes the target for the crossing hook and compresses the space they need to curl their leg into the hook position. Follow immediately with a passing attempt while their guard structure is compromised - a knee slice or smash pass is most effective in this window."
@@ -72,7 +72,7 @@ description: "How to defend against Reverse X-Guard Entry in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why is stripping the pants grip on your ankle a higher priority than fighting the threading leg directly?",
+      "name": "Why strip their pants grip on your ankle before fighting the threading leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The pants grip on your ankle serves as the anchor that prevents you from disengaging entirely. Without this grip, you can simply step away and reset to a neutral passing position at any point during the entry. Fighting the threading leg while the grip remains means you are working against the mechanical constraint of your anchored leg, which dramatically reduces the effectiveness of backstepping, base widening, and all other defensive movements. Remove the anchor first and the rest of the defense becomes straightforward."

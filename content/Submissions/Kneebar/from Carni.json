@@ -358,7 +358,7 @@
         }
       },
       {
-        "question": "Your opponent starts bending their knee aggressively during your kneebar attempt - what adjustment prevents escape?",
+        "question": "In the kneebar from Carni, they aggressively bend their knee: what adjustment prevents escape?",
         "answer": "When the opponent bends their knee aggressively, do not fight the bend with more extension force. Instead, maintain your leg triangle position and immediately transition your grip back to their heel, re-establishing the heel hook threat. Their bent knee is the exact position that exposes the heel for attack. This creates the fundamental dilemma: extend and face the kneebar, or bend and face the heel hook. Let their defensive choice dictate your next attack.",
         "safety_critical": false,
         "answer_line": "Switch to heel hook grip",
@@ -418,7 +418,7 @@
         }
       },
       {
-        "question": "Your opponent rolls belly-down during your kneebar attempt from Carni - how do you maintain the attack?",
+        "question": "Your opponent rolls belly-down during your kneebar from Carni: how do you maintain the attack?",
         "answer": "When the opponent rolls belly-down, you have two options. First, follow the roll and maintain the kneebar in a belly-down configuration, which actually increases your hip extension leverage since their leg is now positioned with the knee facing the mat. Second, use their rotation to transition to the truck position by hooking their far leg and establishing calf slicer or back take threats. The belly-down roll often loosens their knee defense, so staying connected through the roll rather than releasing is critical.",
         "safety_critical": false,
         "answer_line": "Follow roll, keep leg triangle",
@@ -433,7 +433,7 @@
         }
       },
       {
-        "question": "What is the primary mechanical difference between finishing with arm strength versus hip extension in the kneebar?",
+        "question": "Mechanically, why is finishing the kneebar with hip extension better than pulling with your arms?",
         "answer": "Hip extension engages the glutes and hip flexors, which are among the strongest muscle groups in the body, generating force through a large-range skeletal movement against the back of the knee. Arm pulling uses the comparatively weak biceps and forearm muscles through a short range of motion. Hip extension creates a fulcrum-based lever system where small hip movements translate to significant hyperextension force at the knee. Arm pulling also pulls your upper body away from the leg, loosening your shin-to-chest grip and compromising positional control.",
         "safety_critical": false,
         "answer_line": "Hip extension, not arm pulling",

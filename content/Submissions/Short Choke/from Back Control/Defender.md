@@ -52,7 +52,7 @@ description: "Learn to defend and escape the Short Choke from Back Control in BJ
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize the Short Choke from Back Control is being set up versus a Rear Naked Choke attempt?",
+      "name": "How do you tell a Short Choke setup from back control apart from a Rear Naked Choke setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Short Choke setup is identified by the attacker's hand redirecting toward your gi collar rather than sliding under your chin. You will feel fingers gathering and entering the collar fabric along the side of your neck, and the collar material will begin tightening. In contrast, the RNC setup involves the forearm sliding across the front of the throat below the chin. Distinguishing between these two threats quickly determines whether to defend your collar access or protect your chin."
@@ -60,7 +60,7 @@ description: "Learn to defend and escape the Short Choke from Back Control in BJ
     },
     {
       "@type": "Question",
-      "name": "What is the safest response when you feel bilateral collar compression has been fully established with the Short Choke?",
+      "name": "What is the safest response once the Short Choke has bilateral collar compression fully set?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately using any available signal: hand tap on the attacker or mat, verbal tap, or foot tap. Once both collar grips have achieved depth past the neck centerline and the attacker begins chest expansion, the choke reaches full arterial occlusion within 3-5 seconds. Attempting to escape a fully locked Short Choke risks unconsciousness. Early tapping is always the correct safety decision when the choking mechanism is properly set and you cannot strip either grip."
@@ -76,7 +76,7 @@ description: "Learn to defend and escape the Short Choke from Back Control in BJ
     },
     {
       "@type": "Question",
-      "name": "Why should you target the attacker's wrist rather than pulling the collar fabric away from your neck?",
+      "name": "Why attack the gripping wrist instead of pulling the collar off your neck against the Short Choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The gi collar distributes grip force across a wide surface area, making it extremely resistant to being pulled away from the neck once an attacker has established a deep grip. Targeting the attacker's wrist with two-on-one control attacks the weakest point in the grip chain, specifically the connection between their fingers and the collar fabric. Peeling individual fingers and rotating the wrist outward is far more energy-efficient than fighting the structural integrity of the gi material itself."

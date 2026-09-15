@@ -56,7 +56,7 @@ description: "Master defending the grip switch from toe hold to straight ankle l
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the attacker is about to switch from toe hold to straight ankle lock?",
+      "name": "What is the earliest cue the attacker is switching from toe hold to straight ankle lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is typically increased leg entanglement squeeze, as the attacker tightens their legs to maintain independent control before releasing their hand grips. This preparatory tightening precedes the actual grip change by 1-2 seconds and should trigger your escape preparation. Secondary cues include loosening of the figure-four grip and increased forward hip pressure."
@@ -64,7 +64,7 @@ description: "Master defending the grip switch from toe hold to straight ankle l
     },
     {
       "@type": "Question",
-      "name": "Why might your successful toe hold defense actually make you more vulnerable to the straight ankle lock?",
+      "name": "Why can successful toe hold defense leave you open to the straight ankle lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Boot defense against the toe hold involves internally rotating your foot to hide the heel and resist rotational pressure. However, this internal rotation can simultaneously flatten and expose the posterior ankle area where the Achilles tendon sits. The attacker exploits this by redirecting from rotational attack to extension-based Achilles compression, essentially attacking the mechanical opening your own defense created."
@@ -80,7 +80,7 @@ description: "Master defending the grip switch from toe hold to straight ankle l
     },
     {
       "@type": "Question",
-      "name": "Your attacker begins the grip switch but you feel their leg entanglement is loose. What is your best response?",
+      "name": "Their legs feel loose as they change grips for the ankle lock: what is your best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the leg entanglement is loose during the grip transition, execute immediate aggressive leg extraction by pulling your knee toward your chest with maximum hip flexion while pushing the attacker's hips away with your free leg. A loose leg wrap combined with released hand grips represents the weakest possible control configuration and your highest-percentage escape opportunity. Do not hesitate or wait for better timing, as the attacker may tighten their legs if given additional time."

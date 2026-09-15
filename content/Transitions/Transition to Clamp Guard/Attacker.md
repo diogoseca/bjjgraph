@@ -98,7 +98,7 @@ description: "Master the Transition to Clamp Guard attack. Step-by-step guide to
     },
     {
       "@type": "Question",
-      "name": "Your opponent keeps their elbows tight and refuses to extend their arms — how do you create the reaching reaction needed for the clamp entry?",
+      "name": "They keep elbows tight and never extend — how do you draw the reach for the clamp entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use indirect setups that force arm extension. A collar drag feint pulls their upper body forward, prompting a hand post. A hip bump threat forces them to base with their hands. Breaking their existing grips on your legs forces them to re-establish grips, creating extension windows. A sweep threat from butterfly hooks makes them post laterally. Each of these creates a 0.5-1 second window where the arm extends and can be intercepted by the shin threading across the bicep."

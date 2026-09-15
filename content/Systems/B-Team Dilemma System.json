@@ -15,8 +15,8 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "summary": "The B-Team Dilemma System is Craig Jones's no-gi attacking framework that chains leg entanglements, back takes, and submissions so every defensive reaction an opponent makes opens the next threat in a perpetual lose-lose loop.",
-  "overview": "The B-Team Dilemma System represents a revolutionary approach to modern no-gi grappling, built on the principle of creating perpetual lose-lose scenarios for opponents. Developed and refined by Craig Jones and the B-Team crew, this system forces opponents into making decisions where every choice leads to another dangerous position. Rather than relying on singular techniques, the system connects leg entanglements, back attacks, and submissions into an endless chain of threats that compounds pressure with each defensive reaction.\n\nAt its core, the dilemma system recognizes that elite-level opponents will defend your initial attacks. Instead of viewing defense as failure, the system treats every defensive reaction as an opportunity to transition into an even more dangerous position. When an opponent defends the outside heel hook, they expose the back take. When they defend the back take, they return to leg entanglements. This cyclical nature creates mental and physical exhaustion, as opponents realize there is no 'safe' defensive option.\n\nThe B-Team approach differs from traditional submission hunting by prioritizing positional chains over individual finishes. Success is measured not by immediate taps, but by controlling the tempo of engagement and forcing opponents into progressively worse positions until submission becomes inevitable. This methodology has proven devastatingly effective in competition, producing multiple ADCC medalists and establishing a new paradigm for systematic offensive grappling.",
+  "summary": "The B-Team Dilemma System is a BJJGraph framework for studying connected no-gi threats, using defensive reactions to choose between positional control and another attack.",
+  "overview": "This BJJGraph guide groups related no-gi attack decisions under a B-Team-inspired label. It is an editorial study framework, not the title of an official team curriculum. A defended submission may create another opportunity, but the next position still requires its own entry and control.\n\nThe linked Craig Jones instructional is a useful companion for triangle-to-leg decisions. Its focus is narrower than this page's leg-to-back framework, so it should not be treated as a demonstration of every sequence below. Use [[Systems/Craig Jones Triangle to Leg Lock System]] for a focused study plan.\n\nIn practice, identify the specific reaction that makes a switch possible and keep a positional fallback when it does not. A useful session can end with improved control recognition even when neither attacking branch produces a submission.",
   "key_principles": [
     "Every defensive reaction opens a different offensive opportunity",
     "Position chains create cumulative pressure that compounds over time",
@@ -368,6 +368,11 @@
       "name": "Back Attack System",
       "content_type": "System",
       "relationship": "Complementary system providing back control retention and submission techniques for second half of dilemma"
+    },
+    {
+      "name": "Craig Jones Triangle to Leg Lock System",
+      "content_type": "System",
+      "relationship": "A focused guide to the verified triangle-and-leg instructional."
     }
   ],
   "flashcards": [
@@ -482,6 +487,21 @@
           "Force finish before fatigue sets in"
         ]
       }
+    }
+  ],
+  "products": [
+    {
+      "id": "systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones",
+      "title": "Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos",
+      "instructor": "Craig Jones",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Connects triangle attacks with lower-body entanglements rather than treating each submission as an isolated finish.",
+      "best_for": "Students exploring upper- versus lower-body dilemmas; this is a companion to the broader guide, not a complete leg-to-back curriculum.",
+      "study_focus": "Compare the triangle-to-leg transitions in volume six with the commentary in volume eight.",
+      "practice_tip": "BJJGraph suggestion: pause after a defensive reaction, name the available control position, then reset if neither branch is secure. Agree allowed leg attacks beforehand."
     }
   ]
 }

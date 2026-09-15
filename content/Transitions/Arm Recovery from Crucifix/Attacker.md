@@ -112,7 +112,7 @@ description: "Execute arm recovery from crucifix in BJJ. Step-by-step guide cove
     },
     {
       "@type": "Question",
-      "name": "The opponent begins transitioning to mounted crucifix during your escape attempt—what immediate action do you take?",
+      "name": "They start moving to mounted crucifix during your escape. What do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridge explosively toward the mounting leg before it settles into position. The transition from crucifix to mounted crucifix requires the opponent to swing their leg over, which momentarily loosens the leg triangle on the trapped arm. Use this brief window to accelerate the arm extraction rather than defending the mount. If the arm cannot be freed during the transition, at minimum turn your body toward the mounting side to prevent full mount consolidation and create scramble opportunities."

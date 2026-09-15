@@ -506,5 +506,20 @@
         ]
       }
     }
+  ],
+  "products": [
+    {
+      "id": "power-ride-a-new-philosophy-on-pinning-by-craig-jones",
+      "title": "Power Ride: A New Philosophy on Pinning",
+      "instructor": "Craig Jones",
+      "vendor": "BJJFanatics",
+      "affiliate_url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones?rfsn=REPLACE_ME",
+      "link_status": "live",
+      "link_checked": "2026-09-08",
+      "blurb": "Connects leg rides, upper-body controls and turtle breakdowns to submission opportunities.",
+      "best_for": "No-gi students working on the top-control portion of this framework; it does not cover the whole tactical game.",
+      "study_focus": "Begin with the movement principles, then compare one leg-control lesson with an upper-body tool.",
+      "practice_tip": "BJJGraph suggestion: start in an agreed top position and score a controlled recovery after your partner changes direction. Use no submissions initially."
+    }
   ]
 }

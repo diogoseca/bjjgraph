@@ -36,6 +36,24 @@ import { journey } from "../dsl";
  *          [data-concept-node], [data-concept-link], [data-concept-page]
  * Beats (PostHog): neural_concept_opened
  *
+ * THE REFERENCE SURFACES DO NOT PLAY — the owner's rule, and the reason this file exists twice
+ * over. "Principles and systems should mean the roll is not on. It only starts if the player
+ * clicks on a position, transition or submission. Clicking on principles and systems and learning
+ * will only highlight techniques it references. That's the rule."
+ *
+ * So a Principle, a Learning entry and a System are things you READ. Opening one — by clicking its
+ * row or by typing its address — lights the techniques it references and shows its body, and does
+ * NOT seat the board, deal a hand, stage anything or start a roll. The roll starts when the player
+ * clicks a POSITION, TRANSITION or SUBMISSION, and only then. Both halves are asserted here,
+ * because the first half alone is indistinguishable from a broken app.
+ *
+ * HISTORY, so the reversal is legible. /Principles/<slug>, /Learning/<slug> and /Systems/<slug>
+ * are real built pages and none is a graph node, so `_seedFromUrl` resolved nothing and all 129
+ * booted the front-door weighted draw (fixed v1.155.3 by seating the board on a member position).
+ * That seat is now itself the defect: it is a roll the reader never asked to start. v1.155.3's
+ * assertions ("the board is seeded from the page", "the roll stands where the principle teaches")
+ * were CORRECT for their contract and are deliberately inverted below.
+ *
  * NON-KILLS, recorded so nobody reads this spec as covering them (CLAUDE.md section 6.3):
  *  · the .md-only Learning pages (3 today, `_meta.mdOnlyPages`) are deliberately NOT rows — this
  *    spec asserts the count matches the JSON-authored set, so deleting the .md skip would not
@@ -50,6 +68,8 @@ type Concept = {
   name: string;
   cat: "Principle" | "Learning";
   nodes: string[];
+  allNodes?: boolean;
+  nodeMask?: string;
 };
 
 // The SERVED copy is what the app fetches; the emitted copy is what the build will serve next.
@@ -76,8 +96,62 @@ const payload = () => {
       throw new Error(
         "concepts.json is not emitted — run `npm run regenerate:neural`",
       );
+    const lock = JSON.parse(
+      readFileSync(resolve(__dirname, "../../node_ordinals.json"), "utf8"),
+    ).ordinals;
+    const graph = JSON.parse(
+      readFileSync(
+        // CI shards receive the built site, including its matching graph payload.
+        resolve(__dirname, "../../source/public/static/neural/graph-data.json"),
+        "utf8",
+      ),
+    );
+    // The wire explicitly retires control-position aliases from the drawn graph.
+    const live = graph.nodes
+      .filter((n: any) => !n.cal?.stateAlias && n.cal?.avail?.gi !== false)
+      .map((n: any) => n.id);
+    const playable = new Set(live);
+    const ids = new Map(
+      Object.entries(lock).map(([id, ordinal]) => [ordinal, id]),
+    );
+    for (const c of PAYLOAD!.concepts) {
+      if (c.allNodes) c.nodes = live;
+      else if (c.nodeMask)
+        c.nodes = [...ids]
+          .filter(
+            ([o]) =>
+              (BigInt("0x" + c.nodeMask!) & (1n << BigInt(o as number))) !== 0n,
+          )
+          .map(([, id]) => id)
+          .filter((id) => playable.has(id));
+    }
   }
   return PAYLOAD;
+};
+
+/** systems.json, read the same way concepts.json is: the SERVED copy first, the emitted copy as
+ *  the fallback before a build has copied it across. The rule covers all three libraries and
+ *  Systems is a separate payload, so this journey cannot borrow the concepts one. */
+let SYS: { systems: Array<{ id: string; nodes: string[] }> } | null = null;
+const systemsPayload = () => {
+  if (!SYS) {
+    for (const rel of [
+      "../../source/public/static/neural/systems.json",
+      "../../source/quartz/static/neural/systems.json",
+    ]) {
+      try {
+        SYS = JSON.parse(readFileSync(resolve(__dirname, rel), "utf8"));
+        break;
+      } catch {
+        /* next candidate */
+      }
+    }
+    if (!SYS)
+      throw new Error(
+        "systems.json is not emitted — run `npm run regenerate:neural`",
+      );
+  }
+  return SYS;
 };
 
 const of = (cat: "Principle" | "Learning") =>
@@ -145,17 +219,52 @@ const litIds = (page: Page): Promise<string[] | null> =>
     const a = (window as any).__neural;
     const set = a._focusIdxSet;
     return set
-      ? Array.from(set)
-          .map((i: any) => a.nodes[i].id)
-          .sort()
+      ? Array.from(
+          new Set(Array.from(set).map((i: any) => a.siteIdOf(a.nodes[i].id))),
+        ).sort()
       : null;
   });
 
 const watchErrors = (page: Page) => {
   const errors: string[] = [];
-  page.on("pageerror", (e) => errors.push(e.message));
+  page.on("pageerror", (e) => errors.push(e.stack || e.message));
   return errors;
 };
+
+test("opening a reference before the landing prefetch runs leaves the roll retired @curated", async ({ page }) => {
+  const errors = watchErrors(page);
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
+  await awaitConcepts(page);
+  const id = of("Principle")[0].id;
+  const state = await page.evaluate((id) => {
+    const a = (window as any).__neural;
+    const pending: (() => void)[] = [];
+    const nativeTimeout = window.setTimeout;
+    // Hold zero-delay work for one navigation: the browser may dispatch the next
+    // reference click before the landing's deferred neighbourhood prefetch.
+    window.setTimeout = ((fn: TimerHandler, delay?: number, ...args: any[]) => {
+      if (typeof fn === "function" && delay === 0) {
+        pending.push(() => fn(...args));
+        return 0;
+      }
+      return nativeTimeout(fn, delay, ...args);
+    }) as typeof window.setTimeout;
+    try {
+      a.stageRollAt(a.currentPos);
+      a.openConcept(id);
+    } finally {
+      window.setTimeout = nativeTimeout;
+    }
+    for (const callback of pending) callback();
+    return { deferred: pending.length, current: a.currentPos, paused: a.paused, options: a.optionIdxs.length };
+  }, id);
+  expect(state.deferred, "the landing actually scheduled deferred work").toBeGreaterThan(0);
+  expect(state).toMatchObject({ current: null, paused: true, options: 0 });
+  await expect(page.locator(`[data-concept-detail="${id}"]`)).toBeVisible();
+  expect(errors, "late landing work must not throw on the reference page").toEqual([]);
+});
 
 /** Open the pane on Explore the way a reader does, then expand ONE section (every Explore
  *  section defaults collapsed since v1.99.3 — explore-sections.spec.ts owns that contract). */
@@ -217,6 +326,11 @@ test("Explore lists every authored principle, and opening one opens content — 
     await hdr.textContent(),
     "and the section header counts what it lists",
   ).toContain(String(principles.length));
+  const searchRow = page.locator(".ng-explorer-tools");
+  await expect(
+    searchRow,
+    "the Explore root carries the search row",
+  ).toBeVisible();
 
   // MOUSE REACHABILITY is claimed only where a real mouse can reach: the first row, at the top of
   // a freshly expanded section. The content claims below use the widest concept (chosen from the
@@ -241,10 +355,32 @@ test("Explore lists every authored principle, and opening one opens content — 
     s.resultsHeader,
     "and the pane is not showing flat ranked search results",
   ).toBe(false);
+  // The search row belongs to the Explore ROOT. A Principle owning the pane is a page, not a
+  // list to filter — the row (and its "Search techniques…" placeholder) must be gone while the
+  // detail renders, and back the moment ‹ Back returns the list (owner).
+  await expect(
+    searchRow,
+    "no search row while a principle owns the pane",
+  ).toBeHidden();
+  // THE ADDRESS BAR FOLLOWS THE PAGE (owner: "clicking items in the explore should change the
+  // url ... like it used to, similar to quartz"). A principle's id IS its built path — the one
+  // `_seedPageFromUrl` opens on arrival — so opening it pushes that path. (Back/Forward are
+  // Quartz's: its SPA router soft-navigates on EVERY popstate, so the app reboots on the previous
+  // address rather than unwinding in place — asserted at the end of this journey, where a reboot
+  // cannot eat the steps that follow.)
+  const pathRe = (id: string) =>
+    new RegExp("/" + id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "(\\?|$)");
+  await expect(page, "opening a principle pushes its own page path").toHaveURL(
+    pathRe(first.id),
+  );
 
   // back out, then the widest concept: the strongest highlight and content claim
   await page.locator("[data-concept-back]").click();
   await expect(rows).toHaveCount(principles.length);
+  await expect(
+    searchRow,
+    "‹ Back restores the Explore root's search row",
+  ).toBeVisible();
 
   const target = [...principles].sort(
     (a, b) => b.nodes.length - a.nodes.length,
@@ -252,6 +388,9 @@ test("Explore lists every authored principle, and opening one opens content — 
   await page.locator(`[data-concept-row="${target.id}"]`).click();
   const detail = page.locator(`[data-concept-detail="${target.id}"]`);
   await expect(detail).toBeVisible();
+  await expect(page, "the second principle pushed its path too").toHaveURL(
+    pathRe(target.id),
+  );
   await expect(detail, "the panel names the concept").toContainText(
     target.name,
   );
@@ -275,7 +414,7 @@ test("Explore lists every authored principle, and opening one opens content — 
   await expect(
     page.locator("[data-concept-node]"),
     "and they are readable as a list too",
-  ).toHaveCount(target.nodes.length);
+  ).toHaveCount(Math.min(60, target.nodes.length));
   await expect(
     page.locator(`[data-concept-page][href="${"/" + target.id}"]`),
     "the full authored page is one click away",
@@ -291,7 +430,10 @@ test("Explore lists every authored principle, and opening one opens content — 
   // navigate to it") — the retired reading sheet is dead code (CLAUDE.md 6.8), so this asserts
   // where the app actually stands, normalised through the app's own `siteIdOf` because a pair
   // partner carries a different id from the hub the payload names (6.6).
-  const nodeRow = page.locator("[data-concept-node]").first();
+  // Exercise an ordinary position. The first arbitrary technique can now be a
+  // submission-control escape, whose navigation deliberately enters that submission state.
+  const nodeRow = page.locator('[data-concept-node^="Positions/"]').first();
+  await expect(nodeRow, "the principle lists a playable position").toHaveCount(1);
   const clickedId = await nodeRow.getAttribute("data-concept-node");
   await nodeRow.click();
   const landed = await page.evaluate((id: string) => {
@@ -311,6 +453,19 @@ test("Explore lists every authored principle, and opening one opens content — 
     "clicking a listed technique takes the reader to it",
   ).toContain(landed.want);
   expect(landed.paneOpen, "and hands the graph back").toBe(false);
+  // ...and the address bar followed the technique too (`rollFromPosition` -> `_syncUrl`: the
+  // CHOSEN node, never its origin).
+  await expect(
+    page,
+    "a technique row pushes the technique's own path",
+  ).toHaveURL(pathRe(clickedId!));
+  // Back is Quartz's: the SPA router soft-navigates on every popstate and the app reboots on the
+  // previous address — so the URL unwinds to the page, and the page re-opens from its path the
+  // way an arrival does (the arrival journeys below own what that boot shows).
+  await page.goBack();
+  await expect(page, "Back returns to the page the pane had open").toHaveURL(
+    pathRe(target.id),
+  );
 
   expect(errors, "no page error across the journey").toEqual([]);
 });
@@ -368,3 +523,298 @@ test("Explore lists every authored Learning entry, and opening one opens content
 
   expect(errors, "no page error across the journey").toEqual([]);
 });
+
+test("arriving on a principle's own page opens it and starts NOTHING @curated", async ({
+  page,
+}) => {
+  const errors = watchErrors(page);
+  // The widest principle that names at least one POSITION. Nothing is seated any more (see the
+  // rule above), but the position half is still load-bearing for the SECOND half of this journey:
+  // it is the member whose click has to start the roll the arrival refused to. Chosen from the
+  // payload, never named here.
+  const target = payload()
+    .concepts.filter(
+      (c) =>
+        c.cat === "Principle" &&
+        c.nodes.some((id) => id.indexOf("Positions/") === 0),
+    )
+    .sort((a, b) => b.nodes.length - a.nodes.length)[0];
+  expect(
+    target,
+    "some principle names a position — without one this journey cannot make its claim",
+  ).toBeTruthy();
+
+  const j = journey(page);
+  await j.boot("/" + target.id);
+
+  // concepts.json is deferred, so the arrival kicks the fetch itself and the panel opens when it
+  // lands. Nothing has advanced the game clock yet, so the intro is still running — which is the
+  // window the board seed has to land in.
+  await expect
+    .poll(() => page.evaluate(() => (window as any).__neural._conceptId), {
+      timeout: 20_000,
+      message:
+        "the concept page opened its own concept (needs `npm run regenerate:neural` + a build so source/public serves concepts.json)",
+    })
+    .toBe(target.id);
+  await expect(
+    page.locator(`[data-concept-detail="${target.id}"]`),
+    "on the side panel, which is what the address named",
+  ).toBeVisible();
+  expect(await litIds(page), "and its techniques are lit on the graph").toEqual(
+    [...target.nodes].sort(),
+  );
+
+  // ── THE RULE. Nothing is seated and nothing is dealt. The intro runs for 3.2s and then hands
+  //    the board either to a URL seat or to `startRoll()`; a reference page must take NEITHER
+  //    branch, so this advances well past that handoff before asking.
+  await j.advance(4000);
+  const idle = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return {
+      seeded: !!a._urlSeeded,
+      seedIdx: a._urlSeedIdx,
+      pos: a.currentPos == null ? null : a.currentPos,
+      staged: a._staged == null ? null : a._staged,
+      played: !!a._played,
+      landCard: !!a._landEl,
+      rollLog: (a.rollLog || []).length,
+    };
+  });
+  expect(idle.seeded, "a reference page seeds no board").toBe(false);
+  expect(idle.pos, "nothing is standing anywhere").toBe(null);
+  expect(idle.staged, "and nothing is staged").toBe(null);
+  expect(idle.played, "and no roll has played").toBe(false);
+  expect(idle.landCard, "and no landing card was built").toBe(false);
+  expect(idle.rollLog, "and the roll log is empty").toBe(0);
+
+  // The beat stream is the app's own record of a hand existing. `options_dealt` is what the
+  // cold-start spine calls "the first actionable state" (app.src.jsx `hand_dealt`), and
+  // `roll_staged` is what a stage fires — a reference arrival must emit neither.
+  const beats = (await j.beats()).map((b) => b.beat);
+  expect(
+    beats.filter((b) => b === "options_dealt" || b === "roll_staged"),
+    "no hand was dealt and nothing was staged",
+  ).toEqual([]);
+
+  // ── THE OTHER HALF OF THE RULE, and it is what keeps the first half from being "the app is
+  //    broken": a POSITION, TRANSITION or SUBMISSION is what starts a roll, and the concept's own
+  //    member list is full of them. Clicking one begins the roll the arrival refused to begin.
+  // A position starts a staged roll; a submission escape may enter a live defense.
+  const nodeRow = page.locator('[data-concept-node^="Positions/"]').first();
+  await expect(nodeRow, "the principle lists a playable position").toHaveCount(1);
+  const clickedId = await nodeRow.getAttribute("data-concept-node");
+  await nodeRow.click();
+  await j.advance(600);
+  const after = await page.evaluate((id: string) => {
+    const a = (window as any).__neural;
+    const site = (i: number) => (a.nodes[i] ? a.siteIdOf(a.nodes[i].id) : null);
+    return {
+      here: [
+        a._stagedTech ? site(a._stagedTech.idx) : null,
+        site(a.currentPos),
+      ],
+      want: a.siteIdOf(id),
+      staged: a._staged != null,
+    };
+  }, clickedId!);
+  expect(
+    after.here,
+    "clicking a technique the principle names is what starts the roll",
+  ).toContain(after.want);
+  expect(after.staged, "and it is a real staged roll").toBe(true);
+
+  expect(errors, "no page error across the journey").toEqual([]);
+});
+
+test("arriving on a System's own page opens it and starts NOTHING", async ({
+  page,
+}) => {
+  const errors = watchErrors(page);
+  // Systems are the OTHER payload and the OTHER open path (`openSystem`, `systems.json`), so the
+  // rule has to be claimed for them separately — a fix applied only to concepts would leave half
+  // the libraries playing. Read from the systems payload for the same reason concepts are.
+  const sys = systemsPayload()
+    .systems.filter((x) => (x.nodes || []).length > 0)
+    .sort((a, b) => b.nodes.length - a.nodes.length)[0];
+  expect(sys, "some system lights nodes").toBeTruthy();
+
+  const j = journey(page);
+  await j.boot("/" + sys.id);
+  await expect
+    .poll(() => page.evaluate(() => (window as any).__neural._systemId), {
+      timeout: 20_000,
+      message:
+        "the system page opened its own system (needs `npm run regenerate:neural` + a build)",
+    })
+    .toBe(sys.id);
+
+  await j.advance(4000);
+  const idle = await page.evaluate(() => {
+    const a = (window as any).__neural;
+    return {
+      pos: a.currentPos == null ? null : a.currentPos,
+      staged: a._staged == null ? null : a._staged,
+      played: !!a._played,
+      lit: a._focusIdxSet ? a._focusIdxSet.size : 0,
+    };
+  });
+  expect(idle.pos, "a System page stands the board nowhere").toBe(null);
+  expect(idle.staged, "and stages nothing").toBe(null);
+  expect(idle.played, "and plays nothing").toBe(false);
+  expect(
+    idle.lit,
+    "but it DOES light the techniques it teaches — that is the whole of what it does",
+  ).toBe(sys.nodes.length);
+
+  const beats = (await j.beats()).map((b) => b.beat);
+  expect(
+    beats.filter((b) => b === "options_dealt" || b === "roll_staged"),
+    "no hand, no stage",
+  ).toEqual([]);
+
+  expect(errors, "no page error across the journey").toEqual([]);
+});
+
+for (const viewport of [
+  { width: 1440, height: 900 },
+  { width: 390, height: 844 },
+]) {
+  test(`principle overview fits the whole map and highlights both roles at ${viewport.width}px @curated`, async ({
+    page,
+  }) => {
+    await page.setViewportSize(viewport);
+    const j = journey(page);
+    await j.boot("/Principles/Compression-Locks");
+    await expect(
+      page.locator('[data-principle-coverage="specific"]'),
+    ).toBeVisible();
+    await j.advance(10000); // beyond the intro AND the camera lease
+    const result = await page.evaluate(() => {
+      const a = (window as any).__neural;
+      const sites = a.nodes.filter((n: any) => n.rep && a.rsAllowsIdx(n.idx));
+      const panel = a.drillRef.current;
+      const origin = a.wrapRef.current.getBoundingClientRect();
+      const obscured: string[] = [];
+      const offscreen = sites
+        .filter((n: any) => {
+          const x = a.W / 2 + ((n.x - a.cam.cx) * a.W) / a.cam.vw;
+          const y = a.H / 2 + ((a._LY(n) - a.cam.cy) * a.W) / a.cam.vw;
+          const hit = document.elementFromPoint(
+            origin.left + x,
+            origin.top + y,
+          );
+          if (hit && panel.contains(hit)) obscured.push(n.id);
+          return x < 0 || x > a.W || y < 0 || y > a.H;
+        })
+        .map((n: any) => n.id);
+      const lit = Array.from(a._focusIdxSet) as number[];
+      return {
+        offscreen,
+        obscured,
+        sites: sites.length,
+        lit: lit.length,
+        missingTwins: lit.filter(
+          (i) => !a._focusIdxSet.has(a._idIndex.get(a.nodes[i].pairId)),
+        ),
+        roles: [...new Set(lit.map((i) => a.nodes[i].role))].sort(),
+        staged: a._staged != null,
+      };
+    });
+    expect(result.sites).toBeGreaterThan(1000);
+    expect(result.offscreen).toEqual([]);
+    expect(
+      result.obscured,
+      "the reading pane must not cover graph nodes",
+    ).toEqual([]);
+    expect(result.lit).toBeGreaterThan(20);
+    expect(result.missingTwins).toEqual([]);
+    expect(result.roles).toEqual(["attacker", "bottom", "defender", "top"]);
+    expect(result.staged).toBe(false);
+    await expect(page.locator("[data-concept-node]")).toHaveCount(60);
+    const more = page.locator("[data-concept-more]");
+    await more.scrollIntoViewIfNeeded();
+    const rect = await more.boundingBox();
+    expect(rect).toBeTruthy();
+    const scrollBefore = await page
+      .locator(".ng-learning-list")
+      .evaluate((el) => el.scrollTop);
+    await j.clickByMouse("[data-concept-more]");
+    expect(
+      await page.locator(".ng-learning-list").evaluate((el) => el.scrollTop),
+    ).toBeCloseTo(scrollBefore, 0);
+    await expect(page.locator("[data-concept-node]")).toHaveCount(
+      Math.min(120, result.lit / 2),
+    );
+    expect(
+      await page.evaluate(() => (window as any).__neural._focusIdxSet.size),
+    ).toBe(result.lit);
+    await page.locator("[data-concept-back]").scrollIntoViewIfNeeded();
+    await j.clickByMouse("[data-concept-back]");
+    await expect(page.locator("[data-principle-view]")).toHaveCount(0);
+    await expect(page.locator(".ng-learning-nav")).toBeVisible();
+  });
+}
+
+// Unlike the arrival cases above, these start with a live hand and authored film. The DSL's
+// empty dossier default cannot prove that selecting a reference tears down existing videos.
+for (const category of ["Principles", "Systems", "Learning"] as const) {
+  test(`clicking ${category} retires the current node and its surfaces @curated`, async ({ page }) => {
+    const errors = watchErrors(page);
+    const j = journey(page);
+    await j.boot("/");
+    await page.evaluate(() => {
+      const w = window as any;
+      w.NG_CONTENT ||= {}; w.NG_CONTENT.decks ||= {};
+      w.NG_CONTENT.decks["Half Guard|Top"] = {
+        clips: [{ id: "aQ2vFXXBn-o", title: "Half guard demonstration" }],
+      };
+    });
+    await j.land("Half Guard Top");
+    await expect(page.locator("[data-land-film]")).toBeVisible();
+    await expect(page.locator("[data-landcard]")).toBeVisible();
+    expect(await page.evaluate(() => (window as any).__neural.optionIdxs.length)).toBeGreaterThan(0);
+    await page.locator(".ng-logo").click();
+    await page.locator("[data-view='explore']").click();
+    const header = page.locator(`[data-explore-section="${category}"]`);
+    await expect(header).toBeVisible();
+    if (await header.getAttribute("aria-expanded") !== "true") await header.click();
+    if (category === "Systems") {
+      const group = page.locator("[data-system-category]").first();
+      await expect(group).toBeVisible();
+      if (await group.getAttribute("aria-expanded") !== "true") await group.click();
+    }
+    const kind = category === "Systems" ? "system" : "concept";
+    const row = page.locator(`[data-${kind}-row]`).first();
+    const id = await row.getAttribute(`data-${kind}-row`);
+    expect(id).toBeTruthy();
+    await row.scrollIntoViewIfNeeded();
+    await j.clickByMouse(`[data-${kind}-row="${id}"]`);
+    await expect(page.locator(`[data-${kind}-detail="${id}"]`)).toBeVisible();
+    expect(new URL(page.url()).pathname).toBe("/" + id);
+    expect((await litIds(page))!.length).toBeGreaterThan(0);
+    const assertIdle = async () => {
+      expect(await page.evaluate(() => {
+        const a = (window as any).__neural;
+        return { current: a.currentPos ?? null, focus: a.focusIdx, staged: a._staged ?? null,
+          options: a.optionIdxs.length, land: !!a._landEl, film: !!a._landFilmEl,
+          more: !!a._landMoreEl, pulse: !!a.pulse, decision: !!a._decision, played: !!a._played };
+      })).toEqual({ current: null, focus: -1, staged: null, options: 0, land: false,
+        film: false, more: false, pulse: false, decision: false, played: false });
+      await expect(page.locator("[data-landcard], [data-land-film]")).toHaveCount(0);
+      expect(new URL(page.url()).pathname).toBe("/" + id);
+    };
+    await assertIdle();
+    await page.locator(".ng-logo").click(); // closing the reading pane must not resume the old roll
+    await j.advance(12000);
+    await assertIdle();
+    await page.evaluate(() => {
+      const a = (window as any).__neural;
+      a.stageRollAt(a.nodes.findIndex((n: any) => n.id === "Positions/Mount"));
+    });
+    await j.advance(600);
+    expect(await page.evaluate(() => (window as any).__neural.currentPos)).toBeGreaterThanOrEqual(0);
+    await expect(page.locator("[data-landcard]")).toBeVisible();
+    expect(errors).toEqual([]);
+  });
+}

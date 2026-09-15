@@ -106,7 +106,7 @@ description: "How to execute 50-50 Pass in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "Your opponent establishes a strong two-handed grip on your heel during the pass attempt - what immediate action should you take?",
+      "name": "They get a strong two-handed heel grip during your 50-50 pass—what do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon the pass and address the heel hook threat. Use both hands to break their grip on your heel, starting with the hand cupping your heel. Only after successfully breaking their grips should you resume the passing sequence. Forcing the pass with a heel hook grip secured will result in submission or serious injury."
@@ -114,7 +114,7 @@ description: "How to execute 50-50 Pass in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "What direction should you rotate your knee when opponent threatens an inside heel hook during extraction?",
+      "name": "Which way do you rotate your knee when they threaten an inside heel hook during extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rotate your knee inward toward your opposite hip. This takes tension off the heel hook mechanism by aligning your knee and heel, reducing the rotational torque that causes injury. The inward knee rotation is the primary defensive mechanism against inside heel hooks throughout the passing sequence."

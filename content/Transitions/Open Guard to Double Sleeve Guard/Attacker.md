@@ -74,7 +74,7 @@ description: "How to execute the Transition to Double Sleeve Guard in BJJ. Step-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to maintain at least one foot on the opponent's hip during the grip acquisition phase?",
+      "name": "Why keep a foot on their hip while fighting for double sleeve grips?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The foot-on-hip frame is your primary distance management tool during the vulnerable grip-fighting phase. Without it, the opponent can drive forward and collapse the distance before you establish sleeve control, converting your grip attempt into a smash passing opportunity. The foot provides a structural barrier that the opponent must address before advancing, buying you the time needed to complete the grip sequence."
@@ -90,7 +90,7 @@ description: "How to execute the Transition to Double Sleeve Guard in BJJ. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand on the mat after you secure the first sleeve grip. How do you exploit this to acquire the second grip?",
+      "name": "They post a free hand after you get one sleeve: how do you take the second grip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A posted hand is a committed hand. Push their same-side hip with your foot to further load weight onto the posting hand, then use your first sleeve grip to pull their controlled arm across your centerline. This diagonal force rotates their torso and makes it impossible to maintain the post. As they lift their posting hand to recover balance, immediately shoot your free hand to their cuff before they can retract the arm."
@@ -106,7 +106,7 @@ description: "How to execute the Transition to Double Sleeve Guard in BJJ. Step-
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins stripping your first sleeve grip using wrist rotation before you can secure the second. What is your immediate response?",
+      "name": "They rotate to strip your first sleeve grip before you get the second: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the grip strip is in progress but not complete, curl your wrist inward and pull your elbow tighter to your rib while extending your same-side leg to push them away, which reduces the effectiveness of their rotation. If the grip breaks entirely, immediately re-grip the same sleeve or transition your free hand to a collar grip to maintain at least one control point. Never fight for a losing grip with extended arms, as this compromises your guard structure."

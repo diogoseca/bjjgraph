@@ -56,7 +56,7 @@ description: "Defend against the Posture Up from Triangle in BJJ. Maintain trian
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the three interconnected defensive mechanisms for preventing the posture-up, and why must they work together?",
+      "name": "Holding a triangle, what three mechanisms stop the posture-up, and why must they combine?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three mechanisms are: active head control pulling the head down, hip extension maintaining choking pressure, and angle preservation at 30-45 degrees off centerline. They must work together because each individually is insufficient—head control alone is overpowered by posterior chain hip drive, hip extension without proper angle is mechanically weak, and angle without head control allows posture space. Together they create compounding resistance that exceeds the sum of individual parts."
@@ -64,7 +64,7 @@ description: "Defend against the Posture Up from Triangle in BJJ. Maintain trian
     },
     {
       "@type": "Question",
-      "name": "You feel your opponent connecting their hands behind your hips—what is the earliest defensive response to prevent their posture-up?",
+      "name": "Holding a triangle, they connect their hands behind your hips: earliest defensive response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest response is to attack their connected grip before they can generate upward force. Use one hand to grip their outside wrist and pull it toward you, disrupting the Gable grip connection. Simultaneously increase hip extension and pull their head down to increase pressure before they establish their posture recovery frame. Preventing the grip connection is far easier than fighting a fully connected posture-up drive that has already built momentum."
@@ -72,7 +72,7 @@ description: "Defend against the Posture Up from Triangle in BJJ. Maintain trian
     },
     {
       "@type": "Question",
-      "name": "Your opponent has gained partial posture despite your defensive efforts—what transitional options prevent the complete escape?",
+      "name": "Holding a triangle, they gain partial posture: what transitions stop the complete escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With partial posture, transition your offensive focus from triangle finish to secondary attacks that exploit their escape position. The armbar becomes available as their posture creates space but their arm remains inside the triangle. The omoplata transition works if they stack forward with partial posture. If the triangle is clearly compromised, maintain hip control and transition to open guard bottom with active grips rather than fighting a losing position—defensive awareness prevents giving up more than necessary."

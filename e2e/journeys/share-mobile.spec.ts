@@ -293,8 +293,9 @@ test("the sentence explaining the arrival waits until there is a settled screen 
       `opacity ${atZero.opacity}, t=${atZero.t}s)`,
   ).toBe(true);
 
-  // …and it arrives on the first landing: intro over, hand dealt, graph settled.
-  await j.advance(6000);
+  // …and it arrives on the first landing: intro over, the staged arrival (6.2s, v1.168.0)
+  // played out, hand dealt, graph settled.
+  await j.advance(10200);
   // the toast fades in over `transition:opacity .45s` — CSS transitions run on the REAL clock,
   // and pumped sim time passes none of it, so read the computed opacity after a real beat
   await page.waitForTimeout(600);

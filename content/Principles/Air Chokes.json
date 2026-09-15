@@ -477,5 +477,21 @@
       "duration": 301,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Air Chokes applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "trachea",
+      "windpipe",
+      "air choke",
+      "throat compression"
+    ],
+    "families": [
+      "Ezekiel Choke",
+      "Gogoplata",
+      "Guillotine Choke",
+      "Short Choke"
+    ]
+  }
 }

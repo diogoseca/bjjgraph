@@ -72,7 +72,7 @@ description: "How to defend against Reverse X-Guard Sweep in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has full hooks loaded and is beginning to elevate - what is your best defensive option?",
+      "name": "They have both hooks loaded and are elevating for the reverse X sweep. What is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, the most reliable defense is to widen your base explosively while simultaneously stripping their near-side sleeve grip. The wide base prevents the rotational component from tipping you, while removing the grip eliminates the coordinated pull that directs the sweep. If both hooks are deeply set and you cannot strip grips in time, backstep your controlled leg to disengage from the entanglement entirely, accepting the positional reset rather than being swept to bottom Mount."

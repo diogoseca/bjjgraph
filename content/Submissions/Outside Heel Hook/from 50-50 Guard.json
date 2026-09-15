@@ -337,7 +337,7 @@
         }
       },
       {
-        "question": "Your opponent hides their heel using the boot defense with strong inward knee rotation - what is the correct tactical response?",
+        "question": "They hide the heel with a boot defense in 50-50 — what is the correct tactical response?",
         "answer": "First attempt two-on-one grip fighting to control the foot and forcibly rotate it outward to re-expose the heel. If the boot defense is well-established after three to five seconds of effort, abandon the heel hook and transition to an alternative attack. The kneebar is available by controlling above the knee, the transition to outside ashi-garami provides a better finishing angle, or a back take capitalizes on the space created during leg extraction attempts.",
         "safety_critical": false,
         "answer_line": "Grip fight briefly, then transition",
@@ -367,7 +367,7 @@
         }
       },
       {
-        "question": "Why must the outside heel hook be applied with slow progressive pressure rather than explosive rotational force?",
+        "question": "Why must the outside heel hook be applied slowly rather than with explosive rotation?",
         "answer": "Heel hooks cause ligament damage before pain signals reach the brain, meaning the defender cannot feel the injury happening in time to tap. Explosive application can tear the ACL and MCL within fractions of a second, causing career-ending injuries. Slow progressive pressure over five or more seconds gives the defender time to recognize the positional danger and tap before structural damage occurs. This is a non-negotiable safety requirement in training.",
         "safety_critical": true,
         "answer_line": "Pain lags behind ligament damage",
@@ -382,7 +382,7 @@
         }
       },
       {
-        "question": "Your opponent begins spinning their body toward the rotation direction during your heel hook attempt - what adjustment do you make?",
+        "question": "They spin toward your rotation during the outside heel hook — what adjustment do you make?",
         "answer": "Immediately tighten knee line control by squeezing your knees harder together around their thigh to restrict their spinning range. Follow their spin with your own hip adjustment to maintain your perpendicular angle relative to their leg. If they manage partial rotation, re-angle your hips and re-establish the finishing position from the new alignment before they can complete the full spin and reset their defense.",
         "safety_critical": false,
         "answer_line": "Tighten knees, follow their spin",
@@ -397,7 +397,7 @@
         }
       },
       {
-        "question": "What grip adjustments should you make if your initial figure-four position is too shallow on the heel?",
+        "question": "Your figure-four on the outside heel hook is too shallow — what grip adjustment fixes it?",
         "answer": "Do not attempt to finish from a shallow grip that only catches the toes or ball of the foot. Pause the rotational pressure and walk your forearm deeper behind the heel by incrementally adjusting your wrist bone position toward the Achilles tendon. Use your free hand to control the opponent's foot position while repositioning. A properly seated grip has the wrist bone firmly behind the heel curve with the forearm flush against the calf.",
         "safety_critical": false,
         "answer_line": "Walk grip deeper behind heel",
@@ -412,7 +412,7 @@
         }
       },
       {
-        "question": "In competition, what strategic factors determine whether to pursue the outside heel hook versus transitioning to the inside heel hook from 50-50?",
+        "question": "From 50-50, what determines choosing the outside heel hook over transitioning to the inside?",
         "answer": "The outside heel hook is preferred when you have strong inside position and the opponent's heel is naturally exposed on the outside of the entanglement. Transition to inside heel hook by moving to honey hole or inside ashi when the opponent's boot defense effectively hides the heel from the outside angle. Competition strategy also considers the ruleset: ADCC and most no-gi rulesets allow both, while IBJJF restricts heel hooks by belt level. The outside heel hook from 50-50 carries less positional risk as failure returns you to 50-50 top.",
         "safety_critical": false,
         "answer_line": "Heel exposed with strong inside",
@@ -551,7 +551,7 @@
         }
       },
       {
-        "question": "What is the safest response when you feel rotational pressure on your knee from a locked outside heel hook?",
+        "question": "What is the safest response when you feel rotation on your knee from a locked outside heel hook?",
         "answer": "Tap immediately using verbal tap, hand tap on the partner or mat, or foot tap with your free leg. Heel hooks damage knee ligaments before pain signals reach the brain, meaning structural damage can occur before you feel it. There is no safe way to resist a locked heel hook with rotational pressure already applied. A slightly early tap prevents months of rehabilitation from a torn ACL or MCL.",
         "safety_critical": true,
         "answer_line": "Tap immediately, don't resist",
@@ -596,7 +596,7 @@
         }
       },
       {
-        "question": "How do you decide between fighting for position reversal versus extracting to standing from 50-50 bottom?",
+        "question": "From 50-50 bottom, how do you choose between fighting for a reversal and extracting to stand?",
         "answer": "Assess inside position control within the first three to five seconds. If you have inside position parity or can quickly recover it, fight for reversal using sweep mechanics and counter-attacks. If the attacker has clear inside control advantage that you cannot match, immediately shift strategy to leg extraction and standing. Fighting for reversal without inside position wastes energy, increases submission risk, and extends your time in a disadvantageous configuration.",
         "safety_critical": false,
         "answer_line": "Assess inside position first",

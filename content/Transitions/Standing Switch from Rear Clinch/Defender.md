@@ -64,7 +64,7 @@ description: "Defend against the Standing Switch from Rear Clinch. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Why is maintaining even weight distribution across the opponent's back essential for preventing the switch?",
+      "name": "Why is even weight distribution across their back essential to preventing the switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Even weight distribution denies the opponent a clear rotational path because they need to pivot toward the side where there is less resistance. If your weight is loaded to the right side of their back, they can switch left where your pressure is minimal. By keeping weight centered and evenly distributed, both sides present equal resistance to rotation, forcing the opponent to generate significantly more force to execute the switch in either direction. This even distribution also keeps your own base balanced and prevents them from using your asymmetric weight against you."
@@ -72,7 +72,7 @@ description: "Defend against the Standing Switch from Rear Clinch. Recognition c
     },
     {
       "@type": "Question",
-      "name": "Your opponent has attempted two switch feints but has not committed to a full attempt—how should this change your defensive approach?",
+      "name": "They have thrown two switch feints without committing: how should your defense change?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Multiple feints indicate the opponent is testing your reactions and looking for a pattern to exploit. Avoid over-reacting to subsequent feints with large defensive movements, as this creates the timing windows they seek. Instead, maintain steady baseline pressure and grip tension without dramatic reactions. Simultaneously, recognize that a full-commitment switch is imminent and pre-load your mat return option so that when they finally commit, you can capitalize on their lowered base and rotational movement with an immediate takedown counter rather than a purely defensive response."

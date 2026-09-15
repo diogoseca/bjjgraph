@@ -56,7 +56,7 @@ description: "How to defend against Lapel Clear to Toreando Pass in BJJ. Recogni
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the most vulnerable moment for the passer during the Lapel Clear to Toreando sequence, and how should you exploit it?",
+      "name": "When is the passer most vulnerable in the lapel clear to toreando, and how do you exploit it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The transition gap between clearing completion and toreando grip establishment is the passer's most vulnerable moment. During this 1-2 second window, they have neither the old lapel entanglement nor their new pants grips secured. Exploit this by sitting up explosively to close guard, re-extracting the lapel for a fresh configuration, or transitioning to spider or lasso guard while their hands are in transition between tasks."
@@ -64,7 +64,7 @@ description: "How to defend against Lapel Clear to Toreando Pass in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent has successfully cleared the lapel and is reaching for your pants to begin the toreando—what are your immediate defensive priorities?",
+      "name": "They cleared your lapel and reach for your pants for the toreando — what are your priorities?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, turn to your side facing the opponent and draw your knees toward your chest to create a smaller target. Second, establish at least one grip on their sleeve or collar to prevent them from securing bilateral pants control. Third, insert a knee shield or foot on their hip to create a frame before they can initiate lateral movement. The goal is denying them the clean toreando starting position with both pants grips and your legs extended."
@@ -72,7 +72,7 @@ description: "How to defend against Lapel Clear to Toreando Pass in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "How does your defensive approach change when the opponent uses the standing clear variant versus the in-place clearing method?",
+      "name": "How does your defense differ against a standing lapel clear versus an in-place clear?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against the standing clear, your opponent creates more slack but also more distance, giving you additional time to transition to alternative guards. Use this distance to immediately establish feet-on-hips guard, collar-sleeve control, or begin sitting up for an arm drag or guard pull. Against in-place clearing, you have less time but more proximity, making aggressive re-gripping and closed guard recovery more viable since the opponent cannot create as much separation."
@@ -80,7 +80,7 @@ description: "How to defend against Lapel Clear to Toreando Pass in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "What backup guard systems should you have prepared when your lapel configuration is stripped, and how do you choose between them?",
+      "name": "Which backup guards should you have when your lapel is stripped, and how do you choose?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Spider guard (bicep control with feet in crooks of elbows) works best when the opponent's arms are extended from the clearing effort. Lasso guard (leg wrapping around their arm) is effective when one of their arms is forward from the grip strip. De La Riva guard (outside hook on their lead leg) activates when they step forward to initiate the toreando. Choose based on their body position at the moment the lapel is lost—their arm and leg positioning determines which guard is available."
@@ -88,7 +88,7 @@ description: "How to defend against Lapel Clear to Toreando Pass in BJJ. Recogni
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives heavy shoulder pressure during the toreando and you cannot insert a knee shield—what is your last-resort defensive sequence?",
+      "name": "Heavy shoulder pressure in the toreando blocks your knee shield — what is your last resort?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the toreando is nearly complete with heavy shoulder pressure, frame your forearm across their neck and far shoulder while hip escaping away from the passing direction. If the pass completes to side control, immediately establish inside frames with your forearms against their shoulder and hip to prevent settling. The priority shifts from preventing the pass to ensuring you have defensive structure in place for a side control escape sequence rather than being flattened without frames."

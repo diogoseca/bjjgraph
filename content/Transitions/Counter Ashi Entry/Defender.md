@@ -72,7 +72,7 @@ description: "How to defend against Counter Ashi Entry in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has already inserted their free leg partway into your inside space but has not secured upper body connection. What is your best response?",
+      "name": "Their leg is partway into your inside space with no upper body connection — best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Frame on their inserting knee with your hand and push it outward while simultaneously hip escaping to close the remaining inside space. Because they lack upper body connection, they cannot prevent your hip escape or anchor their entry. This is the last reliable defensive window—once they secure both leg insertion and upper body grip, the exchange becomes bilateral and much harder to control."

@@ -458,7 +458,7 @@
           },
           "blurb": {
             "type": "string",
-            "description": "Short 'what it unlocks' marketing line"
+            "description": "Measured explanation of how the verified course relates to this system."
           },
           "price_usd": {
             "type": "number",
@@ -470,6 +470,18 @@
             "items": {
               "type": "string"
             }
+          },
+          "best_for": {
+            "type": "string",
+            "description": "Who this course suits, including any limits to its coverage of this system."
+          },
+          "study_focus": {
+            "type": "string",
+            "description": "Where to begin in the verified course syllabus."
+          },
+          "practice_tip": {
+            "type": "string",
+            "description": "BJJGraph practice suggestion to connect the course to this system; not a claimed course chapter."
           }
         }
       }

@@ -58,7 +58,7 @@ description: "Defend and escape the triangle choke from mounted triangle. Recogn
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you recognize that the mounted triangle choke is being set up before the lock is fully established?",
+      "name": "How do you recognize a mounted triangle being set up before the lock is finished?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the attacker threading one leg over your shoulder from mount position — you will feel their shin sliding across one side of your neck while they maintain top pressure. This is typically preceded by them climbing to high mount and isolating one of your arms. The moment you feel a leg crossing your shoulder line, begin defensive actions immediately. Secondary cues include the attacker angling their hips sideways and reaching for a figure-four lock behind their knee. Defending during setup is far easier than defending a fully locked triangle."
@@ -74,7 +74,7 @@ description: "Defend and escape the triangle choke from mounted triangle. Recogn
     },
     {
       "@type": "Question",
-      "name": "What are the primary defensive options available against the mounted triangle choke and when should each be employed?",
+      "name": "What are the main defenses to the mounted triangle and when should each be used?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three primary defenses are: (1) Frame and shrimp — use immediately when the triangle is being set up or loosely locked, creating lateral space to disrupt the angle. (2) Arm extraction — attempt when there is space between the thigh and your neck, keeping the elbow bent throughout to avoid armbar. (3) Bridge and roll — save for the moment the attacker commits weight forward to finish, exploiting their reduced base. Each defense has a timing window; framing works early, arm extraction works in mid-stage, and bridging works when the attacker overcommits to the finish."
@@ -82,7 +82,7 @@ description: "Defend and escape the triangle choke from mounted triangle. Recogn
     },
     {
       "@type": "Question",
-      "name": "How do you manage energy and breathing when trapped in a mounted triangle that you cannot immediately escape?",
+      "name": "Stuck in a mounted triangle you can't escape yet, how do you manage breathing and energy?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Breathe deliberately through your nose in controlled rhythm — nasal breathing triggers parasympathetic response and prevents panic. Between escape attempts, maintain your defensive structure (chin tuck, bent trapped arm, frame) using skeletal alignment rather than muscular effort. Do not continuously push or squeeze; hold frames statically and save explosive effort for genuine escape windows. Accept that survival may require enduring discomfort for 15-30 seconds while waiting for the attacker to shift weight or adjust. One well-timed escape attempt is worth more than five desperate ones."
@@ -90,7 +90,7 @@ description: "Defend and escape the triangle choke from mounted triangle. Recogn
     },
     {
       "@type": "Question",
-      "name": "What should you do if you begin feeling lightheaded or notice vision changes while defending the mounted triangle?",
+      "name": "You feel lightheaded or your vision changes while defending a mounted triangle: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap immediately. Lightheadedness, tunnel vision, or visual darkening indicate significant cerebral blood flow restriction and unconsciousness may follow within seconds. These symptoms mean the choke is fully effective and your defensive structure is not preventing bilateral carotid compression. There is no defensive technique that works faster than the progression to unconsciousness at this stage. Tap clearly using any available signal — hand, foot, or verbal — and do not attempt one more escape. Training longevity and brain health are more important than any single roll."

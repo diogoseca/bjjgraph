@@ -357,7 +357,7 @@
         }
       },
       {
-        "question": "Your opponent successfully defends the armbar by clasping their hands together — what chain attack do you pursue?",
+        "question": "Armbar from clamp guard: they clasp their hands to defend — which chain attack do you take?",
         "answer": "You have three primary options depending on their body position. First, attack the grip directly by inserting your wrist between their clasped hands and prying them apart using a figure-four grip break. Second, transition to a triangle by releasing one leg from armbar position and threading it under their chin while their clasped hands remove one arm from choke defense. Third, attack the kimura on the trapped arm by controlling their wrist and rotating their arm behind their back while maintaining leg control over their head. The triangle is generally highest percentage because the opponent has voluntarily removed one hand from neck defense to clasp the other.",
         "answer_line": "Go to triangle, highest percentage",
         "distractors": {
@@ -371,7 +371,7 @@
         }
       },
       {
-        "question": "How do you adjust the armbar entry when facing a significantly larger or stronger opponent from clamp guard?",
+        "question": "Armbar from clamp guard: how do you adjust the entry against a much bigger, stronger opponent?",
         "answer": "Against larger opponents, the pendulum variation becomes essential. Swing your hips away first to generate momentum, then use that kinetic energy to drive the leg over their head rather than relying on raw speed against their mass. Additionally, deepen your hip angle further before initiating — a 60-degree pre-angle rather than 30-45 — to shorten the arc your leg must travel. Prioritize posture breaking even more aggressively, using both hands on the head or collar before switching one to the wrist, because a larger opponent with intact posture is nearly impossible to swing past. Finally, commit to the belly-down armbar variation more readily, as it uses gravity and your body weight rather than leg squeeze strength.",
         "answer_line": "Pendulum momentum, deeper pre-angle",
         "distractors": {
@@ -518,7 +518,7 @@
         }
       },
       {
-        "question": "Your arm is trapped in the clamp and you feel the attacker's hip angle change — what immediate action prevents the armbar entry?",
+        "question": "Arm trapped in clamp guard and their hip angle changes — what stops the armbar entry?",
         "answer": "Immediately drive your posture upward by extending your spine and pressing your hips back while simultaneously fighting to break or loosen the wrist grip on your trapped hand. Use your free hand to push against the attacker's far knee or hip to create distance. The goal is to deny the three conditions the attacker needs: broken posture, wrist control, and hip angle. If you can restore even one of these defensive elements, the armbar entry becomes significantly harder to execute. Prioritize posture first because it physically prevents the leg from crossing over your head.",
         "answer_line": "Posture up, fight the wrist grip",
         "distractors": {
@@ -532,7 +532,7 @@
         }
       },
       {
-        "question": "During the leg swing transition, what specific timing window gives you the best chance to extract your arm?",
+        "question": "Defending clamp guard armbar: when in the leg swing is your best window to pull the arm out?",
         "answer": "The optimal extraction window is the fraction of a second when the attacker's clamping leg must loosen to allow their outside leg to swing over your head. The clamp cannot maintain full bilateral pressure during the swing because one leg is in motion. This momentary reduction in clamping force — typically lasting less than one second — is when your retraction has the highest chance of success. Combine the retraction with an explosive posture drive to maximize the force pulling your arm free. If you miss this window, the knees will pinch together and the next escape opportunity requires significantly more effort.",
         "answer_line": "When the swinging leg loosens grip",
         "distractors": {
@@ -546,7 +546,7 @@
         }
       },
       {
-        "question": "What posture adjustments reduce the likelihood of the armbar being successfully initiated from clamp guard?",
+        "question": "What posture adjustments make the clamp guard armbar harder to initiate on you?",
         "answer": "Maintain maximum spine extension with your head up and chest forward, keeping your center of gravity over your knees rather than shifted toward the attacker. Press your hips back and down to lower your center of gravity and increase base stability. Keep your chin elevated so the attacker's leg cannot clear over your head — a tucked chin paradoxically makes the leg swing easier because it reduces your head's profile. Use your free arm to post on the mat outside the attacker's hip, creating a structural frame that resists both the posture break and potential sweep attempts.",
         "answer_line": "Spine long, chin up, hips back",
         "distractors": {
@@ -560,7 +560,7 @@
         }
       },
       {
-        "question": "If the attacker has already swung their leg over your head, what defensive priorities determine whether you escape or get submitted?",
+        "question": "Clamp guard armbar: their leg is already over your head — what is your first defensive priority?",
         "answer": "Three priorities in order: First, bend your trapped elbow immediately and pull your fist toward your own shoulder to prevent arm extension — a bent arm cannot be hyperextended regardless of the attacker's hip position. Second, grip the leg across your face with your free hand and push it toward the attacker's body to prevent them from dropping their hips back for the finish. Third, drive your weight forward into a stacking position to compromise their perpendicular hip alignment. Address all three before attempting a full escape. If the attacker achieves full extension with hips tight and knees pinched despite your defense, tap rather than risk elbow injury.",
         "answer_line": "Bend elbow, pull fist to shoulder",
         "distractors": {

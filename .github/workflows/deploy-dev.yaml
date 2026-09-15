@@ -125,6 +125,9 @@ jobs:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/apply_affiliate_ref.py
 
+      - name: Publish agent discovery and Markdown articles
+        run: npm run regenerate:agents
+
       # Must follow the stamp — see the prod workflow for why.
       - name: Systems payload gate (dead highlights + dead affiliate links)
         env:
@@ -215,7 +218,9 @@ jobs:
 
       # Fast representative gate. The complete suite runs sharded before merges to main.
       - name: Curated journey gate (Playwright E2E)
-        timeout-minutes: 12
+        # The 250-test serial suite reached only 229 tests in 12 minutes on CI.
+        # Keep every test and the single worker; allow the full suite to finish.
+        timeout-minutes: 20
         run: npm run test:curated
 
       - name: Upload journey artifacts (on failure)

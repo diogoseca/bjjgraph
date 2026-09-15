@@ -56,7 +56,7 @@ description: "How to defend against Technical Standup from Inversion in BJJ. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is about to attempt a technical standup from grasshopper guard?",
+      "name": "What is the earliest cue that a grasshopper guard player is starting a technical standup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the retraction of both legs toward their chest, breaking all hooks and leg contact with your lower body. This compact leg position signals they are loading for the hip rotation. Additional confirmation comes from their hips beginning to rotate from elevated inverted position toward one side of the mat, and their hand reaching behind their body to prepare the posting base."
@@ -72,7 +72,7 @@ description: "How to defend against Technical Standup from Inversion in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Your opponent has planted their posting hand and is beginning to drive upward - what is the highest-percentage counter at this stage?",
+      "name": "They have posted a hand and are driving up from inversion: what is your best counter now?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this stage, sprawling heavily on their hips is the highest-percentage counter. Their posting hand is bearing weight and cannot be used defensively, and their hip structure is at its most vulnerable during the drive phase before full standing base is achieved. Drive your bodyweight downward through their center of mass to collapse the posting structure. This also prevents the sit-through escape because your sprawl pressure pins their hips to the mat."
@@ -80,7 +80,7 @@ description: "How to defend against Technical Standup from Inversion in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "How should you position yourself relative to the grasshopper guard player to best prevent the standup attempt?",
+      "name": "How should you position yourself against grasshopper guard to best stop the technical standup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Maintain a medium-range distance where you are close enough to reach their legs or hips within one step but far enough that their inverted leg attacks cannot reach you without full extension. Stay centered on their body rather than offset to one side, as this gives you the ability to react to rotation in either direction. Keep your weight slightly forward on the balls of your feet with knees bent so you can drive forward explosively when the standup begins."
@@ -88,7 +88,7 @@ description: "How to defend against Technical Standup from Inversion in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "What should you do if you arrive late and your opponent has already reached a half-standing position?",
+      "name": "You react late and they are already half-standing from inversion: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If they are already half-standing, an ankle pick or snap-down is more effective than a sprawl. Target their lead leg with an inside trip or ankle pick to collapse the base they just established, rather than trying to drive them back down through hip pressure at this stage. Alternatively, shoot for a low single leg on the posted foot, as their weight is committed forward through that foot and they cannot easily retract it. The goal shifts from preventing the standup to immediately attacking the newly established base before they can settle into stable standing guard."

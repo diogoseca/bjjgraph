@@ -4,7 +4,7 @@
 
 ---
 title: "Lockdown to Electric Chair System | BJJ System | BJJ Graph"
-description: "Master the Lockdown to Electric Chair System in BJJ. Eddie Bravo's systematic half guard framework connecting control to sweeps and submissions with detailed progressions."
+description: "Directly covers lockdown entries, the underhook-to-electric-chair route, reversals and back entries. Explore the training sequence and course on BJJ Fanatics."
 ---
 
 
@@ -63,7 +63,7 @@ description: "Master the Lockdown to Electric Chair System in BJJ. Eddie Bravo's
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Lockdown to Electric Chair System",
-  "description": "Master the Lockdown to Electric Chair System in BJJ. Eddie Bravo's systematic half guard framework connecting control to sweeps and submissions with detailed progressions.",
+  "description": "Directly covers lockdown entries, the underhook-to-electric-chair route, reversals and back entries. Explore the training sequence and course on BJJ Fanatics.",
   "url": "https://bjjgraph.org/Systems/Lockdown-to-Electric-Chair-System",
   "isPartOf": {
     "@type": "WebSite",
@@ -140,7 +140,7 @@ description: "Master the Lockdown to Electric Chair System in BJJ. Eddie Bravo's
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "name": "Lockdown to Electric Chair System",
-  "description": "The Lockdown to Electric Chair System is Eddie Bravo's 10th Planet half guard framework that uses the lockdown leg trap to chain the Electric Chair, Old School sweeps, and back takes into a continuous attacking dilemma.",
+  "description": "The electric chair route develops from lockdown control, an underhook and a change in the opponent’s balance.",
   "inDefinedTermSet": "https://bjjgraph.org/Systems/"
 }
 </script>
@@ -159,9 +159,11 @@ description: "Master the Lockdown to Electric Chair System in BJJ. Eddie Bravo's
 
 ## What is Lockdown to Electric Chair System?
 
-**The Lockdown to Electric Chair System is Eddie Bravo's 10th Planet half guard framework that uses the lockdown leg trap to chain the Electric Chair, Old School sweeps, and back takes into a continuous attacking dilemma.**
+**The electric chair route develops from lockdown control, an underhook and a change in the opponent’s balance.**
 
-Developed by Eddie Bravo as a cornerstone of the 10th Planet Jiu-Jitsu methodology, this framework emerged from no-gi half guard play where conventional bottom-position survival was reframed as an offensive launching point. The system transforms the traditionally defensive half guard position into an aggressive attacking platform by utilizing the lockdown control to break down opponent posture, create sweeping opportunities, and threaten submissions. The lockdown itself—achieved by trapping the opponent's leg with a figure-four configuration using your legs—serves as both a control mechanism and the foundation for multiple offensive sequences. From this control position, practitioners can transition seamlessly between the Electric Chair submission threat, Old School sweep variations, and back-take opportunities, creating a multi-layered dilemma that forces opponents into reactive defense. The system emphasizes constant pressure application, hip movement precision, and the ability to chain attacks together when initial attempts are defended, embodying the principle that effective half guard play requires transitioning from passive defense to active offense.
+The electric chair route develops from lockdown control, an underhook and a change in the opponent’s balance. Study those pieces before the finish. Tom DeBlass’s course directly covers the entry and electric chair route from his own perspective.
+
+Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
 
 </section>
 
@@ -170,15 +172,37 @@ Developed by Eddie Bravo as a cornerstone of the 10th Planet Jiu-Jitsu methodolo
 
 
 
-<section id="study-this-system" class="content-section system-study-free">
 
-## How do you drill Lockdown to Electric Chair System?
+<section id="unlock-this-system" class="content-section product-cards">
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the 23 techniques it strings together.</p>
+## Study this system with BJJ Fanatics
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
+<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
+
+<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
+     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
+     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
+     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
+     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
+     link ever renders without its disclosure above it. -->
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+
+<div class="product-cards-grid">
+
+<article class="product-card" data-product-id="the-lockdown-blueprint-by-tom-deblass">
+<div class="product-card__holo" aria-hidden="true"></div>
+<div class="product-card__shine" aria-hidden="true"></div>
+
+<div class="product-card__body">
+<h3 class="product-card__title">The Lockdown Blueprint</h3>
+<p class="product-card__instructor">with Tom DeBlass</p>
+<p class="product-card__blurb"><strong>Who it suits:</strong> Half guard players working on this particular chain. Tom teaches his own approach to the position.</p>
+<p class="product-card__blurb">Directly covers lockdown entries, the underhook-to-electric-chair route, reversals and back entries.</p>
+</div>
+<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=lockdown-to-electric-chair-system&utm_term=the-lockdown-blueprint-by-tom-deblass" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-lockdown-blueprint-by-tom-deblass" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+</article>
+
+</div>
 
 </section>
 
@@ -296,6 +320,17 @@ Key points:
 
 </section>
 
+
+
+<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
+<h2>Where to begin in the instructional</h2>
+<p>Start with the entry and underhook-to-electric-chair chapters, then compare the forward and backward reversals.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=lockdown-to-electric-chair-system&utm_term=the-lockdown-blueprint-by-tom-deblass" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-lockdown-blueprint-by-tom-deblass" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Lockdown Blueprint &rarr;</a></p>
+</section>
+
+
+
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -409,5 +444,16 @@ The Lockdown to Electric Chair System requires progressive drilling that builds 
 
 
 </section>
+
+
+
+<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
+<h2>Take one idea into your next session</h2>
+<p>Practise obtaining the underhook and moving your partner’s balance. Work on the sweep with controlled range rather than forcing the stretch.</p>
+<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
+<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=lockdown-to-electric-chair-system&utm_term=the-lockdown-blueprint-by-tom-deblass" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-lockdown-blueprint-by-tom-deblass" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Lockdown Blueprint &rarr;</a></p>
+</section>
+
+
 
 </main>

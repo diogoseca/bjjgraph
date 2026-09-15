@@ -306,7 +306,7 @@
         }
       },
       {
-        "question": "What is the critical grip that must be maintained throughout the transition from butterfly guard to omoplata position?",
+        "question": "Which grip must you keep throughout the transition from butterfly guard to the omoplata?",
         "answer": "The overhook on the target arm must be maintained throughout the entire transition. The armpit clamps tight over the opponent's tricep while the overhook-side hand grabs collar or wrist as backup. If this grip is lost during the hip rotation, the opponent can withdraw their arm and recover posture completely.",
         "safety_critical": false,
         "answer_line": "Keep the overhook locked tight",
@@ -336,7 +336,7 @@
         }
       },
       {
-        "question": "What tactile and visual cues indicate the omoplata has reached the shoulder's end range and a tap is imminent?",
+        "question": "What cues show the omoplata has reached the shoulder's end range and a tap is imminent?",
         "answer": "As you walk your hips away and lean forward, the opponent's shoulder reaches its rotational limit when their elbow points upward and the upper arm can no longer internally rotate. Their torso pins flat with the trapped arm wound tight; at this point even small increments of forward lean generate sharp pressure, so apply the final degrees slowly and expect the tap immediately.",
         "safety_critical": true,
         "answer_line": "Elbow up, torso flat, arm wound",
@@ -381,7 +381,7 @@
         }
       },
       {
-        "question": "Your opponent posts their far hand to defend your butterfly sweep. How does this create the omoplata opportunity?",
+        "question": "Butterfly guard: how does their far-hand post against your sweep open the omoplata?",
         "answer": "When the opponent posts their hand to defend the sweep, they shift weight laterally and extend their arm away from their body. This exposes the posting arm to the overhook transition while their compromised base from the sweep defense makes the hook elevation and leg swing easier to execute, creating a natural chain between sweep and submission.",
         "safety_critical": false,
         "answer_line": "Posted arm exposed to overhook",
@@ -411,7 +411,7 @@
         }
       },
       {
-        "question": "In competition against a resisting opponent, what finishing detail most reliably converts the omoplata into a fast tap?",
+        "question": "Against a resisting opponent, which finishing detail most reliably converts the omoplata to a tap?",
         "answer": "Kill the forward roll first by clamping the far hip or belt, then flatten the opponent's chest to the mat before applying any rotation. Most competition omoplatas stall because the attacker rotates the shoulder while the opponent still has space to roll or sit up; eliminating that escape route and pinning the swimming free arm before adding torque is what turns a controlled position into a finish.",
         "safety_critical": false,
         "answer_line": "Kill roll, flatten, then rotate",

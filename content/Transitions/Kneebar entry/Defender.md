@@ -56,7 +56,7 @@ description: "How to defend against Kneebar entry in BJJ. Recognition cues, defe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is switching from heel hook to kneebar entry?",
+      "name": "What is the earliest cue your opponent is switching from heel hook to kneebar entry?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is the grip change - when the attacker shifts from cupping your heel to controlling your ankle and lower shin, they are repositioning for the foot trap. Simultaneously, you will feel them shrimping their hips away to create a perpendicular angle. React to the grip change immediately by bending your knee."
@@ -64,7 +64,7 @@ description: "How to defend against Kneebar entry in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your opponent has trapped your foot in their armpit but has not yet triangled their legs - what is the highest percentage defense?",
+      "name": "They trapped your foot in their armpit but have not triangled their legs; best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turn your hips aggressively toward the attacker while using your free hand to post on their hip and push. This combines hip rotation to collapse their angle with hand pressure to create space for foot extraction. The key is acting before the leg triangle closes above your knee, as once both controls are set, escape probability drops significantly."
@@ -80,7 +80,7 @@ description: "How to defend against Kneebar entry in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "The kneebar is fully locked with both foot trap and leg triangle established - what emergency defense gives you the best chance of survival?",
+      "name": "The kneebar is locked with foot trap and leg triangle; what emergency defense remains?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Clasp both hands around your own knee to resist the extension, then drive your hips forward toward the attacker to reduce the hyperextension angle. Simultaneously try to peel their top leg off your thigh by pushing at the knee. This is a survival position only - if you cannot create meaningful improvement within a few seconds, tap immediately to protect your knee ligaments."

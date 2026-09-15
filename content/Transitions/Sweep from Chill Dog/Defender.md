@@ -56,7 +56,7 @@ description: "Learn to defend the Chill Dog sweep reversal. Recognize setup cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What weight distribution should you maintain to prevent the sweep while still being able to attack from Chill Dog top?",
+      "name": "From Chill Dog top, what weight distribution prevents the sweep yet keeps you attacking?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Distribute your weight primarily through your hips onto the bottom player's lower back and hip area rather than forward through your chest onto their upper back. This hip-heavy distribution provides attacking pressure without creating the forward weight commitment the sweep exploits. Keep your center of gravity behind the bottom player's body while maintaining enough forward contact to control their movement and attack with grip fighting. This balanced distribution allows offensive attacks while denying the fundamental mechanical vulnerability the sweep requires."
@@ -64,7 +64,7 @@ description: "Learn to defend the Chill Dog sweep reversal. Recognize setup cues
     },
     {
       "@type": "Question",
-      "name": "You feel the bottom player grab your far wrist - should you immediately strip the grip or wait to see what they do with it?",
+      "name": "From Chill Dog top, they grab your far wrist: strip it now or wait to see their intent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Strip it immediately. The far-side arm control is the single most important setup element for the sweep, and allowing it to remain even briefly gives the bottom player the option to initiate at a moment of their choosing. Every second the grip stays established increases the danger because the bottom player only needs a brief window of forward weight commitment combined with the grip to execute the sweep. Stripping the grip preemptively eliminates the threat entirely and forces them to re-establish it before they can attempt again."
@@ -72,7 +72,7 @@ description: "Learn to defend the Chill Dog sweep reversal. Recognize setup cues
     },
     {
       "@type": "Question",
-      "name": "The bottom player's sit-out has already kicked through and you feel your alignment breaking - what is your emergency response?",
+      "name": "Their Chill Dog sit-out has kicked through and your alignment is breaking: emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the sit-out has progressed past the point where hip dropping can stop it, immediately post your free hand as wide as possible on the mat to create a base against the rotation. Simultaneously pull your hips back and away from the sweep direction to reduce the rotational force. If neither of these stops the reversal, concede the position change and immediately begin working your mount escape protocols rather than fighting the sweep at a mechanically hopeless stage. A controlled transition to bottom mount is better than fighting the reversal and landing awkwardly."
@@ -80,7 +80,7 @@ description: "Learn to defend the Chill Dog sweep reversal. Recognize setup cues
     },
     {
       "@type": "Question",
-      "name": "How do you differentiate between the sweep setup and the bottom player simply defending with normal grip fighting from Chill Dog?",
+      "name": "From Chill Dog top, how do you tell a sweep setup from ordinary defensive grip fighting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Normal defensive grip fighting from Chill Dog focuses on stripping your grips and protecting the neck and hips - the bottom player's hands stay close to their own body and work defensively. Sweep setup grip fighting specifically targets your far-side arm with a reaching motion across their body, and is usually accompanied by a loading weight shift onto the far hand and near knee. The cross-body reach is the diagnostic indicator because defensive grip fighting almost never requires the bottom player to reach across to control your far limb."
@@ -88,7 +88,7 @@ description: "Learn to defend the Chill Dog sweep reversal. Recognize setup cues
     },
     {
       "@type": "Question",
-      "name": "After successfully defending the sweep, the bottom player's Chill Dog frame is broken - how do you capitalize?",
+      "name": "You defend the sweep and their Chill Dog frame is broken: how do you capitalize?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A broken Chill Dog frame is the highest-value outcome of a defended sweep because the defensive shell that was protecting them is now compromised. Immediately attack the exposed elements: if their elbows have separated from their knees, insert a hook for back control. If they are flattened from the failed sweep attempt, drive chest pressure and work for the harness or seatbelt grip. If they have turned partially from the sit-out, follow the turn to take the back. The key is attacking immediately before they can re-establish the compact defensive posture."

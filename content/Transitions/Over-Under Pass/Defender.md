@@ -88,7 +88,7 @@ description: "How to defend against the Over-Under Pass in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has the under-hook established but has not yet secured your far leg - what is your highest-percentage defensive action?",
+      "name": "They have the under-hook but not your far leg yet: what is your best defensive action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your highest-percentage action is to immediately establish or reinforce a strong knee shield with your far leg while simultaneously framing against the opponent's shoulder on the over-hook side. The knee shield prevents the over-hook from being established, and without both grips the Over-Under Pass cannot proceed. From this recovered knee shield position, you can begin working sweeps and back takes from half guard. This is far more effective than trying to strip the existing under-hook, which is mechanically difficult once it is deep."

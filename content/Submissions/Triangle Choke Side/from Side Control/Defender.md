@@ -58,7 +58,7 @@ description: "How to defend against Triangle Choke Side in BJJ. Recognition, esc
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important early defensive action when you recognize your opponent is setting up a side triangle from side control?",
+      "name": "What is the most important early defense when you see a side triangle being set up on you?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most important early action is immediately retracting your near-side arm before it crosses your own centerline. Pull your elbow tight to your ribs and rotate your shoulder away from your neck to clear the arm from the potential choking position. This eliminates the trapped-arm wedge that the entire side triangle mechanism depends on. Without your arm across your neck, the attacker cannot create the bilateral carotid compression needed for the choke. Every second of delay makes retraction more difficult as the attacker applies increasing chest pressure to pin the arm in place."
@@ -66,7 +66,7 @@ description: "How to defend against Triangle Choke Side in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "SAFETY CRITICAL: You are caught in a locked side triangle and beginning to feel lightheaded - what is the correct response?",
+      "name": "You feel lightheaded in a locked side triangle — what is the correct response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you feel lightheadedness, this indicates the blood choke is compressing your carotid arteries and you have only seconds before potential unconsciousness. You must tap immediately - do not attempt a heroic last-second escape when blood flow to your brain is already compromised. Tap clearly with your free hand on the attacker's body or the mat, or tap with your feet, or verbally signal. There is no submission worth risking unconsciousness in training. Lightheadedness means the choke is working and your window for safe escape has likely closed. Continuing to fight after lightheadedness begins creates serious risk of going unconscious without warning."
@@ -74,7 +74,7 @@ description: "How to defend against Triangle Choke Side in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "Your opponent has the side triangle locked but has not yet controlled your free arm - what is the optimal defensive sequence?",
+      "name": "The side triangle is locked but your free arm is uncontrolled — what defensive sequence do you use?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the triangle locked but your free arm available, immediately insert your free hand palm-first into the space between your neck and the attacker's inner thigh on the choking side. This wedge prevents full carotid compression and buys you critical time. Next, use that wedged hand to push against their thigh while simultaneously turning your body toward the attacker to disrupt their perpendicular angle. As space opens, begin working your head toward the triangle opening by ducking your chin and pulling your head through. Throughout this sequence, never extend your free arm where the attacker can grab your wrist - keep it working inside the triangle space where it serves as both wedge and escape tool."
@@ -82,7 +82,7 @@ description: "How to defend against Triangle Choke Side in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "How does the defender's body positioning relative to the attacker affect the side triangle's effectiveness, and how should you use this knowledge?",
+      "name": "How does your body angle to the attacker affect the side triangle, and how should you use that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The side triangle requires the attacker to maintain a perpendicular (90-degree) body angle relative to your torso for optimal bilateral compression. When you turn your body toward the attacker, you reduce this angle toward parallel, which distributes the choking pressure less effectively across your neck. Conversely, turning away can actually increase the perpendicular alignment and help the attacker. Therefore, your defensive body movement should always be toward the attacker - bridging into them, turning your chest toward their hips, and stacking their position. This angular disruption weakens the choke even if you cannot fully escape, buying time for systematic escape work."
@@ -90,7 +90,7 @@ description: "How to defend against Triangle Choke Side in BJJ. Recognition, esc
     },
     {
       "@type": "Question",
-      "name": "What defensive adjustments should you make when caught in a side triangle during no-gi versus gi training?",
+      "name": "How should your side triangle defense differ between no-gi and gi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In no-gi, you have the advantage of reduced friction - sweat makes it easier to slip your trapped arm back past your centerline and to extract your head from the triangle opening. Capitalize on this by aggressively working arm retraction and head extraction, using the slippery surface to your advantage. However, the lack of grips also means the attacker will rely on wrist control and body pressure rather than sleeve grips, so be prepared for tighter wrist grabs. In gi, you face the disadvantage of increased friction and the attacker using your collar or sleeve to maintain arm position. Focus on breaking their gi grips first before attempting arm retraction, and use your own lapel or collar as a frame tool against their legs. The fundamental escape mechanics remain the same, but the speed and grip-fighting priorities shift significantly between contexts."

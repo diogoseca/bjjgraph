@@ -92,7 +92,7 @@ description: "Learn to attack the heel hook from outside Ashi Garami with proper
     },
     {
       "@type": "Question",
-      "name": "Your opponent straightens their trapped leg during your heel hook attempt—what adjustment prevents their escape?",
+      "name": "Your opponent straightens their trapped leg in your Ashi Garami heel hook—what prevents escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent straightens their leg, pinch your knees together more tightly around their thigh to maintain the knee line and prevent force dissipation. Use the straightening motion as an opportunity to thread your inside leg deeper toward Inside Ashi by sliding your hook past their hip before they complete the defense. If the straightening successfully neutralizes the finish, transition immediately to the improved hierarchical position rather than forcing a low-percentage completion from outside Ashi."

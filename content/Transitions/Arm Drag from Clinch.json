@@ -310,7 +310,7 @@
         }
       },
       {
-        "question": "Your opponent successfully defends the drag by pummeling an underhook - what chain attack do you execute?",
+        "question": "They defend your clinch arm drag by pummeling an underhook. What chain attack follows?",
         "answer": "Use their pummel momentum against them by immediately switching to a duck under on the opposite side. As they drive the underhook in, they momentarily commit weight forward and expose the far side. Alternatively, convert to a snap down by pulling their head downward while their arms are busy pummeling, or switch to a single leg entry underneath their newly committed underhook.",
         "answer_line": "Duck under on the opposite side",
         "distractors": {
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "Your opponent has a strong collar tie controlling your head and you cannot look up - can you still execute the arm drag?",
+        "question": "They control your head with a collar tie. Can you still hit the arm drag, and how?",
         "answer": "Yes, but you must address the collar tie first or incorporate it. Use a two-on-one break on the collar tie arm itself, converting their controlling grip into your drag target. Alternatively, swim your head free by dipping under the collar tie while simultaneously establishing your wrist grip on their other arm. The collar tie arm is actually an excellent drag target because it is already extended toward you.",
         "answer_line": "Two-on-one break the collar tie",
         "distractors": {
@@ -507,7 +507,7 @@
         }
       },
       {
-        "question": "Your opponent executes a partial arm drag and has cleared one shoulder - what is your best recovery option?",
+        "question": "They partially arm drag you and clear one shoulder. What is your best recovery?",
         "answer": "Immediately turn your body toward them by pivoting on your lead foot and driving your hip toward them aggressively. This re-squaring must happen before they establish chest-to-back connection. Use your free arm to frame on their shoulder or bicep as you turn. If they already have chest contact on your back, drop your hips and pull guard rather than fighting a standing scramble from a compromised position where they have dominant angles.",
         "answer_line": "Pivot in, re-square before contact",
         "distractors": {

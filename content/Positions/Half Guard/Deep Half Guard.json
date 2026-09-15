@@ -99,7 +99,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent begins to elevate their hips while maintaining deep underhook - what immediate adjustment do you make?",
+        "question": "Your opponent elevates their hips with a deep underhook from deep half - how do you adjust?",
         "answer": "Immediately shift your weight forward and drive your hips down toward the mat to counter their elevation attempt. Simultaneously widen your base with your free leg by posting it far to the side. This removes the space they need to complete the sweep and grounds your center of gravity below theirs. If possible, establish crossface pressure to flatten their upper body and disrupt their ability to generate lift.",
         "answer_line": "Drop hips, widen base, crossface",
         "distractors": {
@@ -495,7 +495,7 @@
     ],
     "flashcards": [
       {
-        "question": "Your opponent establishes strong crossface pressure and begins flattening you - what adjustment do you make?",
+        "question": "Your opponent crossfaces and flattens you in deep half guard - what adjustment do you make?",
         "answer": "When getting flattened by crossface, immediately focus on maintaining your deep underhook grip as the priority. Use your free hand to frame against their hip or bicep to create space. Shrimp your hips away to create angle and relieve the pressure. If severely flattened, consider transitioning to lockdown to reestablish control, then work back toward proper deep half positioning once you've regained some space.",
         "answer_line": "Keep underhook, frame and shrimp",
         "distractors": {
@@ -565,7 +565,7 @@
         }
       },
       {
-        "question": "Your opponent begins stepping over your bottom leg with their near leg - what is your immediate response?",
+        "question": "Your opponent steps their near leg over your bottom leg in deep half - what is your response?",
         "answer": "This step-over attempt actually opens up the rolling back take. As they step over, maintain your underhook and begin rolling underneath them in the same direction they're stepping. Use their step-over momentum to roll through and establish back control. Alternatively, if the back take angle isn't there, use your bottom leg to hook their stepping leg and prevent the step-over while resetting to standard deep half.",
         "answer_line": "Roll under to take the back",
         "distractors": {
@@ -870,7 +870,7 @@
   },
   "flashcards_position": [
     {
-      "question": "What structural configuration defines deep half guard and distinguishes it from traditional half guard?",
+      "question": "What structure defines deep half guard versus traditional half guard?",
       "answer": "Deep half guard is defined by the bottom player burrowing their entire upper body beneath the top player's hips, wedging shoulder and head under the near hip while wrapping a deep underhook around the far leg. Unlike traditional half guard, where the trapped leg is pinned between the bottom player's legs and the two athletes fight for distance and framing, deep half sends the bottom player underneath the opponent's center of gravity rather than maintaining separation. This inverts the usual top-bottom dynamic, converting the top player's downward weight into a lever the bottom player can exploit. The far-leg underhook plus the head-and-shoulder wedge is the signature that identifies the position for both players.",
       "answer_line": "Underhook far leg, head wedge",
       "distractors": {
@@ -884,7 +884,7 @@
       }
     },
     {
-      "question": "Why does deep half guard function as a leverage system that neutralizes size and strength differences?",
+      "question": "Why does deep half guard neutralize size and strength differences?",
       "answer": "Because the bottom player positions their body directly under the top player's center of gravity, the top player's own weight loads onto a fulcrum the bottom player controls rather than pressing them flat. Elevating the hips even slightly transfers that loaded weight through the shoulder-and-head wedge and the far-leg underhook, tipping the top player's base without requiring the bottom player to overpower them. This is why deep half became a competitive staple for smaller grapplers: the mechanical advantage comes from placement beneath the base, not from muscular contest. Both players must understand that whoever controls the fulcrum controls the exchange, regardless of the size gap.",
       "answer_line": "Body under opponent's fulcrum",
       "distractors": {
@@ -954,7 +954,7 @@
       }
     },
     {
-      "question": "How does deep half guard relate to adjacent leg-entanglement positions like X-guard and single-leg X-guard?",
+      "question": "How does deep half guard connect to X-guard and single-leg X-guard?",
       "answer": "Deep half sits within the same family of underneath, leverage-based guards and frequently flows into X-guard or single-leg X-guard, particularly when the top player pulls their far leg back to defend the underhook. As the far leg retreats, the bottom player can chase it with the feet, hooking it to enter an X-guard configuration and continue attacking the base from below. This makes deep half a hub rather than a dead end: losing the deep underhook does not necessarily mean losing the leverage advantage, only that the entanglement migrates to the legs. Both players should recognize that defending or escaping deep half often just shifts the exchange into a neighboring bottom-attacking guard.",
       "answer_line": "Underhook lost, leg leads to X",
       "distractors": {

@@ -96,7 +96,7 @@ description: "Master posture recovery from diamond guard as the top player. Step
     },
     {
       "@type": "Question",
-      "name": "Your opponent releases head control and immediately shoots their leg toward your neck for a triangle — how do you respond?",
+      "name": "In Diamond Guard, they release head control and shoot a leg for the triangle — how do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When head control releases and you see or feel the leg shooting toward your neck, immediately tuck your chin tightly and drive your freed head to the opposite side from the incoming leg. Post your free hand inside their thigh to create a frame preventing the triangle from closing. With your head safe, continue the posture recovery sequence since you now have one fewer control point to address. The key recognition cue is feeling sudden neck freedom combined with hip rotation — this combination always signals a triangle attempt."

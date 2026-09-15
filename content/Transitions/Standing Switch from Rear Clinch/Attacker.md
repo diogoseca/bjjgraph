@@ -88,7 +88,7 @@ description: "Execute the Standing Switch from Rear Clinch to escape standing ba
     },
     {
       "@type": "Question",
-      "name": "Why must you lower your center of gravity before initiating the hip switch, and what specific body positioning achieves this?",
+      "name": "Why lower your center of gravity before the hip switch, and what positioning achieves it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Lowering your center of gravity creates a pivot point below the opponent's hip level, which generates mechanical advantage for the rotation. You achieve this by bending your knees deeply, sinking your hips toward the mat, and slightly rounding your lower back to drop below their bodylock or seatbelt line. This lower position also makes it harder for the opponent to maintain chest-to-back connection because their arms must now control at a downward angle rather than straight across, reducing their grip efficiency."
@@ -96,7 +96,7 @@ description: "Execute the Standing Switch from Rear Clinch to escape standing ba
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a tight bodylock with locked hands and heavy forward pressure—how do you adjust the switch to handle this grip?",
+      "name": "How do you adjust the switch against a tight bodylock with locked hands and forward pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Against a tight bodylock with locked hands, use the inside switch variant where you reach back deep between your bodies and hook behind their near-side thigh for maximum leverage. The key adjustment is using their forward pressure against them by initiating the pivot suddenly, causing their momentum to carry them past your center line as you rotate underneath. You may also need to create a small frame with your elbow against their locked hands to generate enough separation for the hip pivot to begin."
@@ -104,7 +104,7 @@ description: "Execute the Standing Switch from Rear Clinch to escape standing ba
     },
     {
       "@type": "Question",
-      "name": "What are the primary grip requirements for the reaching arm during the switch, and what happens if you cannot reach deep enough?",
+      "name": "What must the reaching arm hook during the switch, and what happens if you can't reach deep enough?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The reaching arm must hook deep enough behind the opponent's near-side hip, thigh, or waist to create a genuine anchor point for the rotation. Ideally, your hand reaches past their hip to hook behind the far side of their thigh, creating a firm lever. If you cannot reach deep enough due to their grip configuration or body type, the pivot lacks sufficient rotational leverage and will stall midway. In this case, do not force the switch—use preliminary hand fighting to create space for a deeper reach, or transition to the outside duck-under variant."
@@ -112,7 +112,7 @@ description: "Execute the Standing Switch from Rear Clinch to escape standing ba
     },
     {
       "@type": "Question",
-      "name": "What is the most common defensive response you will encounter when executing the switch, and how do you overcome it?",
+      "name": "What is the most common defense to the switch, and how do you overcome it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common response is the opponent re-squaring their hips by widening their stance and driving their hips forward into your back the moment they feel your rotation beginning. This kills the pivot by adding resistance directly against your rotational force. To overcome this, initiate with explosive speed from a pre-loaded position rather than building gradually. Use feint movements like small hand fighting motions to desensitize the opponent before the real switch. Changing the direction of your initial movement before pivoting can also disrupt their reactive hip drive."
@@ -120,7 +120,7 @@ description: "Execute the Standing Switch from Rear Clinch to escape standing ba
     },
     {
       "@type": "Question",
-      "name": "How does the direction of force application differ between the inside switch and the outside duck-under switch?",
+      "name": "How does force direction differ between the inside switch and the outside duck-under switch?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In the inside switch, the primary force direction is rotational toward the opponent's body, pivoting your hips through the space between your torso and theirs. Your reaching arm pulls you through the inside channel around the opponent's near side. In the outside duck-under switch, the force initially moves away from the opponent as you duck your head and shoulders under their arm toward the outside, then circles back behind them. The inside switch is more direct and faster but requires more space, while the outside switch takes a longer path but works when the inside channel is blocked."

@@ -56,7 +56,7 @@ description: "How to defend against Closed Guard to Triangle in BJJ. Recognition
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "At what stage of the triangle setup sequence is defense most effective, and what should your immediate response be?",
+      "name": "When is triangle defense most effective from inside closed guard, and what do you do then?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defense is most effective during the posture break and grip establishment phase—before the guard ever opens. Your immediate response when you feel the collar grip pulling you down combined with a sleeve grip controlling your arm is to drive your hips backward, straighten your spine, and use a two-on-one grip break on the collar grip. Addressing the attack at this stage requires minimal energy and has the highest success rate because the attacker has not yet created any structural advantages."
@@ -72,7 +72,7 @@ description: "How to defend against Closed Guard to Triangle in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "Your opponent has just opened their guard and planted a foot on your hip—what are your defensive options in this critical two-second window?",
+      "name": "Your opponent opens guard and plants a foot on your hip: your options in that two-second window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "This is the highest-value defensive window. First option: immediately retract the arm they are trying to isolate by pulling your elbow to your own hip and clamping it to your torso. Second option: drive your shoulder into them aggressively to flatten their hip escape angle before it develops, smashing through the foot on hip. Third option: stand up explosively before they can throw the leg over your shoulder, using the moment their guard is open to create distance. The key is that any response must happen within two seconds—once the leg crosses your shoulder, defensive difficulty increases dramatically."
@@ -80,7 +80,7 @@ description: "How to defend against Closed Guard to Triangle in BJJ. Recognition
     },
     {
       "@type": "Question",
-      "name": "How does squaring your hips reduce the effectiveness of a locked triangle, and what position should you move toward?",
+      "name": "How does squaring your hips weaken a locked triangle, and which way should you move?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Squaring your hips eliminates the perpendicular angle the attacker needs to compress your carotid arteries against their thigh and calf. When your shoulders are parallel to the opponent's hips rather than perpendicular, the triangle becomes a frontal compression that primarily affects the trachea (which you can resist longer) rather than the carotid arteries (which cause unconsciousness in seconds). Walk your knees toward the trapped arm side while pushing the opponent's choking knee away from your neck to square the position and dramatically reduce finishing pressure."

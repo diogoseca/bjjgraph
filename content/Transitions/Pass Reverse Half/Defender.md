@@ -56,7 +56,7 @@ description: "Defend against Reverse Half Guard passing in BJJ. Recognition cues
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the single most important defensive structure to maintain when defending against pass reverse half?",
+      "name": "Defending the reverse half pass, which defensive structure matters most to maintain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The leg clamp on the opponent's trapped leg is the most important defensive structure. Without active leg control, the opponent can freely extract their leg and complete the pass immediately regardless of any upper body frames or defensive movements. Every defensive action must preserve leg clamp tension as its first priority—frames, shrimps, and inversions are secondary to maintaining the leg entanglement."
@@ -72,7 +72,7 @@ description: "Defend against Reverse Half Guard passing in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your opponent has strong crossface control from behind and you cannot turn to face them—what alternative defensive pathway should you pursue?",
+      "name": "A crossface from behind stops you turning in reverse half bottom: what pathway do you use instead?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the crossface prevents turning, use the inversion pathway instead. Hip escape slightly to create space under your body, then rotate underneath the opponent using your legs and hip mobility. The inversion bypasses the crossface entirely because you are moving in the opposite direction from what the crossface controls. Alternatively, focus solely on leg clamp maintenance and shrimping to recover knee shield, which does not require turning your upper body."
@@ -80,7 +80,7 @@ description: "Defend against Reverse Half Guard passing in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "What is the critical difference between defending the pass and defending the back take from reverse half guard bottom?",
+      "name": "From reverse half bottom, how does defending the pass differ from defending the back take?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defending the pass requires you to prevent leg extraction by maintaining your clamp and creating frames to block the hip switch. Defending the back take requires you to prevent the opponent from following your rotation and inserting hooks. These are opposing defensive priorities: turning to face prevents the pass but risks the back take, while flattening prevents the back take but enables the pass. You must read the opponent's intent and choose the appropriate defense for each moment."
@@ -88,7 +88,7 @@ description: "Defend against Reverse Half Guard passing in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your leg clamp begins slipping during the opponent's extraction—what emergency response should you execute?",
+      "name": "Your leg clamp slips as they extract in reverse half: what is your emergency response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately abandon any upper body defensive plan and redirect all effort to re-securing the leg clamp. Use both legs to recapture the opponent's leg with maximum clamping pressure. If the leg is too far extracted to recapture, immediately transition to plan B: shrimp explosively and insert your knee for a knee shield before they complete the pass to side control. The knee shield is your backup barrier when the primary leg clamp fails."

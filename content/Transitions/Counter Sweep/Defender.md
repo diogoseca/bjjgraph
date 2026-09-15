@@ -50,7 +50,7 @@ description: "How to defend against Counter Sweep in BJJ. Recognition cues, defe
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your butterfly sweep is stuffed because the top player sprawled and drove their chest into you - what is your immediate recovery sequence?",
+      "name": "They sprawl and drive their chest in to stuff your butterfly sweep. What is your recovery sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately retract your butterfly hooks and replace them with feet on their hips to create distance. Simultaneously recover your grips to collar and sleeve rather than the underhook you used for the sweep. Shrimp your hips back to create space and establish a neutral open guard or transition to a different guard system like De La Riva or collar-sleeve guard. The critical error would be to keep trying to re-elevate with the hooks against their sprawled weight."
@@ -58,7 +58,7 @@ description: "How to defend against Counter Sweep in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "How do you determine whether to chain to a secondary sweep or abandon to guard recovery after your first sweep is countered?",
+      "name": "After a countered sweep, how do you decide between chaining to another sweep or recovering guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The decision hinges on the top player's weight commitment. If they have overcommitted their base in one direction to defend your first sweep, chain to the opposite direction sweep because their weight distribution creates the vulnerability. If they maintained centered base and simply neutralized your sweep without overcommitting, abandon to guard recovery because a secondary sweep against a balanced opponent has low probability of success and further compromises your guard. Read their hip position: shifted hips mean chain, centered hips mean recover."
@@ -74,7 +74,7 @@ description: "How to defend against Counter Sweep in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "Your scissor sweep fails because the top player posts their leg back - your top leg is still across their body. What should you do?",
+      "name": "Your scissor sweep fails as they post back, your top leg still across them. What do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use the leg that is across their body as a frame rather than a sweep tool. Convert it into a knee shield by pulling your knee to your chest and positioning your shin across their torso to create distance. Simultaneously recover your collar grip with your free hand and establish a knee shield half guard or reguard to open guard. The leg across their body is an asset for framing even though it failed as a sweep tool. Never leave it passively draped across them where they can pin it and pass."
@@ -82,7 +82,7 @@ description: "How to defend against Counter Sweep in BJJ. Recognition cues, defe
     },
     {
       "@type": "Question",
-      "name": "When should you choose to create a scramble rather than attempt a clean reguard after a failed sweep?",
+      "name": "After a failed sweep, when should you create a scramble instead of attempting a clean reguard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Choose scramble when the top player has already advanced past your leg frames and is beginning to establish a passing position where clean reguard is no longer mechanically possible. If their shoulder is past your hip line or they have cleared your legs to one side, a clean reguard requires them to retreat, which they will not do voluntarily. In this case, explosive movement like a granby roll, inversion, or sit-through creates chaos that prevents them from consolidating the pass. The scramble is the emergency option when systematic guard recovery has been preempted."

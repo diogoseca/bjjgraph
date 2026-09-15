@@ -96,7 +96,7 @@ description: "Complete guide to executing the hip escape from crucifix in BJJ. L
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their leg squeeze every time you begin hip escaping—how do you adjust your approach?",
+      "name": "They tighten the leg squeeze each time you hip escape from crucifix; how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent reactively tightens against hip escape attempts, use a bait-and-attack strategy. Begin a hip escape to draw their tightening response, then pause and wait for them to transition to a submission attempt. During that transition—when their focus shifts from control to attack—execute a rapid series of hip escapes through the momentary loosening. The opponent cannot simultaneously maximize squeeze and initiate submissions; exploit that window."
@@ -112,7 +112,7 @@ description: "Complete guide to executing the hip escape from crucifix in BJJ. L
     },
     {
       "@type": "Question",
-      "name": "What is the most common reason practitioners fail to complete the arm extraction even after creating space with hip escapes?",
+      "name": "Why do people fail the crucifix arm extraction even after their hip escapes make space?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common failure point is pausing between creating space and extracting the arm. Even brief hesitation allows the opponent to readjust their leg position and close the slack. The arm extraction must be initiated as soon as slack develops—ideally during the second or third hip escape while still in motion. The withdrawal should combine continued hip movement with arm pulling in a unified motion rather than treating them as separate sequential steps."
@@ -120,7 +120,7 @@ description: "Complete guide to executing the hip escape from crucifix in BJJ. L
     },
     {
       "@type": "Question",
-      "name": "How do you determine whether to continue the hip escape or switch to a different crucifix escape method?",
+      "name": "How do you decide to keep hip escaping or switch to another crucifix escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If two to three hip escape attempts fail to create noticeable slack in the leg trap, the opponent likely has excellent angle maintenance and is following your hip movement effectively. Switch to a complementary escape—an explosive bridge to disrupt their base, or work arm recovery through different mechanics. The hip escape works best when the opponent is stationary or focused on attacking; if they focus solely on maintaining the trap angle, a different escape vector is needed."

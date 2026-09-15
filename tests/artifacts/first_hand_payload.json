@@ -1,38 +1,38 @@
 {
  "_meta": {
   "note": "Written by e2e/journeys/payload-first-hand.spec.ts. Observed only — the ceilings live in budget_neural.json.",
-  "measured_at": "2026-08-31T19:34:41.210Z"
+  "measured_at": "2026-09-08T11:49:44.820Z"
  },
- "request_count": 19,
- "first_hand_raw_bytes": 1598143,
- "first_hand_gzip_bytes": 379370,
- "start_position": "Gogoplata Control Top",
+ "request_count": 13,
+ "first_hand_raw_bytes": 1578127,
+ "first_hand_gzip_bytes": 373097,
+ "start_position": "K-Guard Top",
  "charged_from_disk": [],
  "heaviest": [
   {
    "path": "/static/neural/graph-data.json",
-   "raw": 562363,
-   "gzip": 107540
+   "raw": 564479,
+   "gzip": 107261
   },
   {
    "path": "/static/neural/app/neural.js",
-   "raw": 502843,
-   "gzip": 150532
+   "raw": 538875,
+   "gzip": 161664
   },
   {
    "path": "/static/neural/flashcards/_index.json",
-   "raw": 165921,
-   "gzip": 21239
+   "raw": 164145,
+   "gzip": 21045
   },
   {
    "path": "/static/neural/curriculum.json",
-   "raw": 97465,
-   "gzip": 21039
+   "raw": 96746,
+   "gzip": 20882
   },
   {
    "path": "/postscript.js",
-   "raw": 75641,
-   "gzip": 27667
+   "raw": 75657,
+   "gzip": 27676
   },
   {
    "path": "/index.css",
@@ -41,48 +41,38 @@
   },
   {
    "path": "/static/neural/app/neural.css",
-   "raw": 35227,
-   "gzip": 7641
+   "raw": 35696,
+   "gzip": 7770
   },
   {
    "path": "/",
-   "raw": 30457,
-   "gzip": 6672
+   "raw": 29929,
+   "gzip": 6611
   },
   {
-   "path": "/__snapshot/ping",
-   "raw": 27788,
-   "gzip": 5759
+   "path": "/static/neural/flashcards/26f92b01.json",
+   "raw": 7584,
+   "gzip": 2899
   },
   {
-   "path": "/static/neural/flashcards/f9603f06.json",
-   "raw": 7456,
-   "gzip": 2829
+   "path": "/static/neural/flashcards/294509fc.json",
+   "raw": 6397,
+   "gzip": 2404
   },
   {
-   "path": "/static/neural/flashcards/3bafde06.json",
-   "raw": 6254,
-   "gzip": 2416
+   "path": "/static/neural/flashcards/b9e7d414.json",
+   "raw": 5823,
+   "gzip": 2300
   },
   {
-   "path": "/static/neural/flashcards/2bcdc86d.json",
-   "raw": 6017,
-   "gzip": 2415
+   "path": "/static/neural/content/26f92b01.json",
+   "raw": 3509,
+   "gzip": 1508
   },
   {
-   "path": "/static/neural/flashcards/7e1b4d5f.json",
-   "raw": 5996,
-   "gzip": 2347
-  },
-  {
-   "path": "/static/neural/flashcards/40e8a7c2.json",
-   "raw": 5732,
-   "gzip": 2219
-  },
-  {
-   "path": "/static/neural/flashcards/4bf4a736.json",
-   "raw": 5701,
-   "gzip": 2211
+   "path": "/prescript.js",
+   "raw": 2518,
+   "gzip": 1181
   }
  ]
 }

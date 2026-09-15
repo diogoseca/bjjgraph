@@ -31,7 +31,7 @@ It is the **only** front-end. `?variant=legacy` is accepted and ignored.
 | `flashcards/_index.json` | boot | the deck **manifest**: `{deckKey: [category, n]}` |
 | `curriculum.json` | boot | `curriculum.weights` is what `gameScore` sums |
 | `flashcards/<hash>.json` | on demand | one deck's cards |
-| `content/<hash>.json` | on demand | one node's dossier, **and one concept's body** (`<Name>\|Principle`) |
+| `content/<hash>.json` | on demand | one node's dossier, **and one page's body** (`<Name>\|Principle`, `\|Learning`, `\|System`) |
 | `systems.json` | first read | Explore tab only, and deliberately **not** warmed on idle |
 | `concepts.json` | first read | the Principles + Learning index (82). Same posture as `systems.json` |
 
@@ -59,10 +59,12 @@ No `cache: "no-cache"` anywhere — the edge serves these with real Cache-Contro
 
 ### Landing
 
-`renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray. Fixed read order:
-**one-line definition → film → one multiple-choice question (three options) → your options →
-`More ▸`**. The card
-prints no name and no side: the graph names the state, beside the node.
+`renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray:
+**film → one three-option question → your options → More**. The timed card has no header,
+footer, name or side. Top-right: card-layer ✕, then noninteractive grey `done/total` text.
+
+The star beside each graph seat label opens the list picker: outline if unsaved, gold if listed.
+It remains after card dismissal. Lists save whole techniques across both seats.
 
 Three modes, **one anatomy** (v1.132.0, owner: "using the positions in roles top/bottom as good
 guides"). `land` — you are standing here. `attempt` — a technique is the subject (a click, a URL
@@ -74,6 +76,38 @@ question clock; the ESCAPES are untimed — expiry no longer taps you out, it re
 answer with no pump and the player still chooses. While caught, the field fogs to the exchange
 (`_dangerSet`), `frameNodes` frames threat + seat + escapes, and the brand yields to the
 vignette. Nothing auto-expands: every card arrives folded, `More` one tap away.
+
+**Three layers, one preference each** (v1.173.0, owner: "it should still be collapsed"). The
+film row, the timed card and the hand each collapse from their own ghost ✕ and come back from a
+dock at bottom-centre (the retired transport's seat) that shows one muted glyph per collapsed
+layer and nothing when all are open. The choice is a setting — `landFilm` · `landCard` ·
+`landHand`, mirrored in Settings › Rolling — so it holds across landings, reloads and devices. A
+collapsed card is **not built**: no question, no clock, no miss,
+`land_q_skipped {reason:"collapsed"}` (the panic drill skips the same way, `panic_skipped`);
+expanding it mid-landing asks then. A collapsed hand is **dealt and hidden** — the roll waits,
+digits are dead — escapes included (v1.173.0, owner: "if I didn't ask to see outcomes don't show
+them to me"; the catch is announced as "<name> locked in", nothing more). All three collapsed is
+a graph browser: click a node, the ripple lights what it connects to, nothing docks. `setLayer`
+is the one writer (`_applyLayers` follows a cloud pull too).
+
+**More is a subordinate card, not a fourth persisted layer** (v1.174.0, owner: "More shouldn't
+touch the landcard"). When deeper authored content exists, its pill sits in a measured row below
+the dealt hand (nothing else rides that row). Opening morphs that exact root-plane sibling into a
+second landcard-shaped container at z:90, docked 6px under the timed card **at its full content
+height** — no scrollport, no cap, so a long read runs under the fold (v1.175.0). The body is
+never a child of the timed `[data-landcard]`, which does not change at all. **The hand is pushed
+below the new card, never covered**: `_dockLandMore` measures the overhang past the hand's slot
+(`_readMax`) and `_readApply` moves the tray down by it on its `bottom` (its transform is the
+sheet's; its ✕ re-docks to the row each frame). Reading is a scroll of the whole column — film,
+timed card, More card and hand translate together (`_readS`; wheel anywhere but a surface that
+scrolls itself, a vertical touch drag with a fling, no keyboard binding); the end of the travel
+puts the hand home under the read, and scrolling back returns the open frame. Docks measure in
+the home frame (`_readClear` first); the two readers that run between docks — `_dockLandFilm`
+and the tighten-only camera band cache — add `_readOffset()` back. Less, Esc, the first
+background step and picking a card close it; scrolling never does. Its latch pauses while reading
+and returns only the pause it took. Film and hand minimize independently of More (a put-away
+hand makes the fold the limit); minimizing the card layer folds and removes More, returning its
+pause, and restoring it rebuilds More folded.
 
 **A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
 once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover
@@ -104,16 +138,23 @@ origin position (the engine's states are positions); `_stagedTech = {idx, side}`
 exchange, where `side` falls out of the seat role vs the technique's `fromRole` — the escaping
 orb, a `/Defender` page, seats you defending. **Play runs the exchange** (`_runStagedTech`,
 consumed at the `_played` latch): the attacking side commits that very technique through the
-ordinary pick path; the defending side gets `enterDefense` — the red rush, vignette burning,
-escape hand, think fast. Any other commit or teardown (`clearOptions`) consumes the latch, so
+ordinary pick path; the defending side of a SUBMISSION gets `enterDefense` on arrival — the red
+rush, vignette burning, escape hand, think fast. The defending side of a TRANSITION is a calm
+staged landing (v1.171.0, owner: "we're not defending against a submission, we're in poor shape
+but calm down"): the attempt card reads from the defender perspective, your hand is the
+defending seat's, the camera keeps `rollCamTarget`'s band, and play waits for the button — the
+same thing the roll loop does, since `opponentDefend` plays a transition as a positional move and
+only ever rushes over a finish. Any other commit or teardown (`clearOptions`) consumes the latch, so
 picking a different card while staged simply wins. A family-hub URL (`/Submissions/Kimura`)
 resolves to the family's most-connected member instead of falling through to a random weighted
 start. `roll_staged` carries a `technique` prop when an exchange is staged; the exchange emits
 `staged_exchange {technique, side}`.
 
-Controls live in the corners so they cost the card no vertical space: `More ▸` foot-left, the
-familiarity chip and capture star foot-right, a 22px `✕` top-right. Dismissing clears the card for
-that landing only.
+The corner's sticky ✕ persists `landCard`, while a background tap remains a per-landing gesture;
+the count opens nothing — the pane's Last rolls tab is the study route. The panic drill is a
+landing card on the same seam (`_landCardChrome`): its More reads the submission's DEFENDER
+block, while `✕` hides the card layer and the catch and escapes stay
+live. On a URL arrival the Defender deck is late-bound — the drill opens when its chunk lands.
 
 **Paging (v1.131.0; chrome-free since v1.132.0): the card browses its own deck.** Swipe
 left/right (drill-panel thresholds: 40px / 700ms, horizontal-dominant only), trackpad `deltaX`
@@ -140,7 +181,8 @@ only one that has never shown a question, on the current position, with a live d
 re-mounting an answered question would hand out a second attempt at credit already scored.
 
 The film strip is its own fixed sibling (`.ng-landfilm`), docked to the card's measured top and
-anchored by its bottom, so an expanding clip grows upward into empty screen. **A technique's film
+anchored by its bottom, so an expanding clip grows upward into empty screen; it carries its own
+ghost ✕ (`data-film-close`, the film layer's handle), hidden while a clip is expanded. **A technique's film
 lives under its content entry's `perspectives.{attacker,defender}.clips`** (v1.132.1 — measured:
 1 of 1,326 technique entries carry a top-level `clips`, while 2,716 perspective arrays were in the
 chunks all along); the staged side picks the reel, so the escaping orb shows the defense films.
@@ -212,14 +254,16 @@ survives only as the cold-pool fallback, with ONE warm-upgrade attempt per deck 
 cannot build MC must not loop). The bottom-left legend lost the "+7 Tilt toward winning" row
 (owner: "the bar already shows that nicely") and the Win–Lose bar dropped to 165×7px.
 
-### The pair label (v1.135.0)
+### The pair label (v1.135.0; compact qualified stack v1.173.2)
 
-The pair label group anchors at the pair MIDLINE — "the name never moves" — but **the role word
-rides its orb**: `subY = min(nameY − 18, orbY + 4)` above (mirrored below), clamped to the
-block's clearances, so an ordinary ~35px pair keeps the old offsets (±1px) and a wide roll-zoom
-split puts TOP beside the blue orb it names instead of floating equidistant from both members
-(the owner's "why does top mount look red" — the eye bound the midline label to the red bottom
-orb). Published as `_lastPairLabel.subY`; pinned by `dual-pair.spec.ts`.
+The pair label group anchors at the pair MIDLINE — "the name never moves". A role word adjacent to
+the headline **rides its orb**: `subY = min(nameY − clearance, orbY + 4)` above (mirrored below), so
+a wide split binds TOP to the blue orb it names instead of the red bottom orb. One exception keeps
+a qualified lower label legible: `from …` and DEFENDING/ESCAPING are adjacent subtitle rows, one
+`NG_LABEL_LEAD` apart, rather than letting the lower role chase its orb and open a large hole in the
+stack. At merge scale `richLabel` preserves the same short headline plus qualifier row; zoom never
+recomposes `from …` into the title. Geometry is published through `_lastPairLabel` and
+`_lastRichLabel`; the pair behavior is pinned by `dual-pair.spec.ts` and `graph-naming.spec.ts`.
 
 ### The turn-based shell (v1.134.0)
 
@@ -232,7 +276,8 @@ committing unpauses; the pane law still freezes travel). **The background ladder
 click empty sky once — the card closes (question declined, free) and the hand stays; click again
 — **free roam**: the roll archives (if played), the tray clears, and the camera pulls back
 centred on where you stood (`_enterRoam`, `roam_entered`); any node click stages fresh and ends
-roam. **The staged technique's card is the go**: its option card in the hand takes the action
+roam. The ladder is a gesture on THIS landing (`clearLandCard`), never a preference — only the
+✕ handles are sticky (`setLayer`). **The staged technique's card is the go**: its option card in the hand takes the action
 accent and the commit verb ("Finish it" for submissions, "Execute" otherwise —
 `_highlightStagedCard`, glided into view; deal order untouched), and committing it executes IN
 PLACE — the pulse path is `[tech, tech]`, no rewind to the origin, and the travel label yields
@@ -284,8 +329,8 @@ exploratory red lets go), the green never moves, and none of it emits a beat or 
 ledger (`explore` in `_mcBlock`). A landing that asks nothing has no clock at all. The option cards' bottom bars are static EDGE colour now — nothing
 on the hand drains. Deck warm-up takes the hand's first `NG_PREFETCH_CAP` cards
 
-The tray scrolls by wheel (larger of `deltaX`/`deltaY`), by mouse drag (mouse only — touch is the
-platform's job), and by the "see more" hint, which docks off the tray's **measured** top. A drag
+The tray scrolls by wheel (larger of `deltaX`/`deltaY`) and by mouse drag (mouse only — touch is
+the platform's job); the "see more" hint that also scrolled it was deleted in v1.173.0. A drag
 that moved more than a few pixels suppresses the click, or every drag ending over a card would
 commit that move. One rAF owns `scrollLeft`: `_trayStop()` is called by a new grab, by `tweenScroll`
 and by `clearOptions`.
@@ -354,6 +399,27 @@ default) · Self-defence (λ=4). λ=1 is the balanced point, so λ=2 is already 
 losing as it is keen to win. The rungs are built **from the wire** (`evLam`), so a wire with no
 table renders no row. The dial re-orders hands; it cannot change which moves you are offered, and
 it cannot move the clock. `_evLamIdx()` is read once per deal.
+
+**Where the roll starts** is a user setting (Settings → Rolling, above Uniform; v1.165.0, third
+pill unlocked v1.166.0): Standing · Anywhere (default — the historical draw: first-impression
+bias, then uniform) · **My weak spots** — each roll opens on a spot FLOW says your game leaks
+from, where a spot is a **position + seat pair, never a position alone** (owner, 2026-09-02).
+`_weakStates` maps each `weakSpots().ranked` deck — the SAME list the pane's "N weak spots"
+prints, never a second ranking — to `(posId, role)`: a position deck by its key's own suffix, a
+technique deck by `fromPositionId` + `fromRole` with a `|Defender` deck flipping the seat. It
+keeps the `leaking` tier (widened to the top 8 mapped rows when that tier maps fewer than 3),
+dedupes on `posId + "/" + role` so two cracks in one state do not double its weight, and
+publishes the window as `_lastWeakWindow` for the specs. `_weakStart` then takes ONE
+`rng("start-pos")` draw, inverse-CDF weighted by FLOW gain — the biggest leak opens most often,
+never every time — and `startRoll` overrides `playerRole` with the spot's own seat (the role draw
+is still consumed, so draw counts are identical in every mode). `startFrom()` is the one reader;
+`startRoll` consults it after the `rigStart` rail and before the first-impression branch, still
+consuming ONE `start-pos` value per roll. An empty window (no ranking, or nothing maps into the
+playable pool) and a wire with no playable standing-position both fall back to the ordinary draw
+and emit `start_from_fallback {want, have}`. The Settings note under "My weak spots" names the
+live spot — the crack, its seat, and where the roll opens — from the same window, and the opening
+toast reads "Your weak spot: &lt;crack&gt;". Pinned by `e2e/journeys/start-from.spec.ts`
+(10 journeys, 8 `@curated`).
 
 **The honesty gap, still open.** The shipped `opponentDefend` iterates hub adjacency with **no role
 filter and no origin filter** and never reads `attemptProbability`. Only ~12% of what it may play
@@ -450,11 +516,12 @@ purpose, because they are asking about the exchange, not about your hand.
 `deg` is geometry and stays split; `siteDeg` is the state and is the hub's. `cal.ev` goes on
 **both** halves whole, because the side you are playing can differ from the half you stand on.
 
-**Labels.** `pairGroup` renders one label group for the pair: the name pinned to the midline, the
-qualifier beneath it, and the role subtitle on the outside of whichever half you point at. When a
-qualifier renders, the two-row block straddles the midline. Role words are per category — positions
-**TOP/BOTTOM**, submissions **FINISHING/ESCAPING**, transitions **ATTEMPTING/DEFENDING**. The graph
-never bakes a role into a name (`graphName`).
+**Labels.** `pairGroup` renders one label group for the pair: the name block pinned to the midline,
+the qualifier beneath the headline, and the role on the side of whichever half you point at. A
+qualified lower role joins that subtitle stack at the same row lead; all other split roles ride
+their orb. `richLabel` keeps the headline and qualifier separate after the pair merges. Role words
+are per category — positions **TOP/BOTTOM**, submissions **FINISHING/ESCAPING**, transitions
+**ATTEMPTING/DEFENDING**. The graph never bakes a role into a name (`graphName`).
 
 ---
 
@@ -514,17 +581,59 @@ rightmost tab paged twice and landed two tabs away — "passing through the midd
 landing on it". The clamp was never involved. The touch path was always one step, because a drag
 has an explicit end.
 
-**Explore** — sections default collapsed, persisted per section. A search query renders flat ranked
-results before any section exists, so a match inside a folded group is never hidden; that query
-branch walks the node list directly and must filter to `rep`, or every hit doubles. Lists live at
-the top, built from the same three-rung indent as every other group.
+**Explore** — sections start collapsed and persist their folds. Search ranks results before sections;
+filter to `rep` to avoid duplicates. Lists sit first and use the
+shared three-rung indent. Systems have counted topic branches and indented leaves, like position
+families. Topic folds start collapsed, stay independent, and survive detail/back navigation and
+section folds for the session.
+
+**A page-shaped entry (Principle · Learning · System) opens as a READ.** The deferred index
+(`concepts.json`, `systems.json`) carries the card and the ids it lights; the body rides the
+on-demand chunk a node dossier already uses, keyed `<Name>|Principle|Learning|System`, drawn by ONE
+renderer — `_bodyDocHTML`, with `NG_DOC_LABELS` naming each library's blocks (no label, not drawn).
+A cached `null` is a MISS here, never an answer: `_docBody` forces one re-read per key per session
+and `_hydrateContent` retries a transport failure (`NG_CHUNK_TRIES`) while still caching a 404.
+Arriving on `/Principles/<slug>` (or `/Learning/`, `/Systems/`) opens that entry and lights its
+techniques, and starts **nothing** — no seat, no hand, no roll (`_refPage`, set from the path in
+`_seedPageFromUrl`). A roll begins only when the player clicks a position, transition or
+submission. v1.155.3 seated the board on a member instead; that seat was itself a roll nobody
+asked for, and the owner's reference law replaced it. A bare CATEGORY HUB — `/Positions`,
+`/Transitions`, `/Submissions`, `/Systems`, `/Principles`, `/Learning` — is the same law one level
+up (v1.169.0): the arrival opens the pane on Explore with that ONE section expanded, written
+through the same persisted `exploreOpenSections` map a header click uses (neighbours keep their
+folds), and starts nothing. The deferred sections render expanded when their payload lands,
+because the map is written before their first render asks.
 
 **Challenges** — the belt corridor. Five content tracks, all open from day one; track colours
 describe material difficulty, never rank or access. The frontier belt drives the default-open
 section, the arrival scroll, the tab belt's dye and stripes, and the cue. Nothing ever re-locks.
 
+**Every inline deck answers the same four keys** (v1.175.0). The roll history's rows, the session
+queue and the corridor's lesson decks all register the same `_miniReg` handles, so `←/→` page
+cards, `↑/↓` walk techniques (in the corridor: the ladder's lesson rows, in ladder order, skipping
+folded belts), `Space` flips and `⏎` grades *Got it* and walks on. The corridor was
+the one surface with none of it: `openMini` never claimed `_focusRow`, so there was nothing for the
+keys to resolve — and because the ladder is built entirely out of buttons, `Space` after a click on
+▸ went to the ▸ and shut the deck. **Opening an inline lesson deck therefore moves focus onto the
+deck BOX** (`tabindex="-1"`), which owns neither activation key, leaving Tab-then-Space on a lesson
+row exactly as it was. A corridor repaint — any evidence beat, and a grade fires one — rebuilds the
+registry with the rows it indexes and re-opens the deck that was open, on the card it was on;
+`_miniDeck` grades AFTER walking the deck on, so the rebuild paints the card the player is owed
+rather than a dead one.
+
 **Last rolls** — roll history with inline decks, plus per-row ▶ (stage a roll from that state, on
 the side it was played, clock held) and ⟲ (replay). History is in memory and has never persisted.
+
+**Every roll you played reaches the shelf, and the shelf repaints when it does (v1.174.0).**
+`_closeRoll()` is the ONE seam the three roll-enders call — `startRoll`, `rollFromPosition`,
+`_enterRoam` — and it archives, clears `rollLog`, emits `roll_archived` / `roll_discarded`, and
+refreshes the tab through `_refreshHistoryRows()`. A roll counts if it ran (`_played`) and either
+visited two states, reached a verdict, or had a move committed in it (`_rollActed`): so the
+one-exchange roll — you finish from the state you opened in, or get caught there — is kept and
+titled by its FINISH via `replayEnds`, while a board that was only staged and abandoned still
+files nothing. Before this, `rollLog.length > 1` discarded that roll outright (44% of rolls that
+ended, `tests/artifacts/_last_rolls_archive_probe.mjs`) and only the next LANDING repainted the
+tab, so free roam — which never lands again — left it frozen on a roll that no longer existed.
 
 **A replay is a film of a roll you already rolled.** It credits nothing — `_replayBeat()` pushes to
 the beat stream and stops, deliberately not through `fx()`, which is the challenge-evidence seam.
@@ -641,7 +750,10 @@ the app root**. Esc walks the ladder top-down, pane last. New overlay → pick a
 number.
 
 **Fixed chrome docks off a measurement**, never a CSS constant — the tray has no fixed height and
-grows upward as names wrap. `_dockLandCard`, `_dockLandFilm`, `_dockOptionHint`, `_bandBot`.
+grows upward as names wrap. `_landDatum` is the shared hand measurement; `_dockLandCard`,
+`_dockLandFilm` and `_dockLandMore` place the landing surfaces from it (the hand ✕ docks inside
+the row beside its last card; the film ✕ off the last thumbnail). `_bandBot` keeps the tightest
+observed play band.
 
 **Control sizes.** 24px is the pane's control figure (WCAG 2.2 AA 2.5.8 Target Size Minimum); 44px
 is for surfaces a thumb uses mid-roll — the option hand, the escape hand, the landing card. Glyphs

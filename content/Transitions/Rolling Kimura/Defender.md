@@ -64,7 +64,7 @@ description: "How to defend against the Rolling Kimura in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Your opponent has locked the kimura grip from the bottom but has not rolled yet. What is your best defense?",
+      "name": "They lock a kimura grip from bottom but haven't rolled; what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widen your base and post your far hand and far leg to deny the rotational axis, while keeping your weight off the trapped-arm side so you do not feed the roll. Keep the threatened elbow tight and avoid driving forward. Without a diagonal axis to roll across, the attacker cannot generate the sweep, but stay alert to the far ankle, because a wide base invites the Old School sweep as the next branch."
@@ -88,7 +88,7 @@ description: "How to defend against the Rolling Kimura in BJJ. Recognition cues,
     },
     {
       "@type": "Question",
-      "name": "Why should shoulder safety take priority over keeping the position when defending the Rolling Kimura?",
+      "name": "Defending the rolling kimura, why does shoulder safety outrank keeping the position?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Because the technique loads the shoulder under rotational momentum, riding out heavy kimura pressure to save a position risks a torn labrum or ligaments with a long recovery. A lost position is recoverable in seconds, but a blown-out shoulder costs months. If you feel genuine joint pressure and your counter is not there, tap, because protecting the arm keeps you training, which matters more than any single exchange."

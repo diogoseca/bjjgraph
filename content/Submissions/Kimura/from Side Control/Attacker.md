@@ -76,7 +76,7 @@ description: "How to execute Kimura from Side Control in BJJ. Attacking perspect
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the minimum recommended application time for finishing the Kimura in training to ensure partner safety?",
+      "name": "What is the minimum application time for finishing the Kimura from side control in training?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "3-5 seconds minimum from position establishment to submission pressure. The shoulder joint is extremely vulnerable to injury from sudden or explosive movements. Progressive, slow application allows the training partner adequate time to recognize the submission, process the danger, and tap before injury occurs. Competition speed should never be used during training applications."
@@ -84,7 +84,7 @@ description: "How to execute Kimura from Side Control in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "Why is controlling the opponent's near hip with your knee essential before attempting the Kimura finish?",
+      "name": "In the side control Kimura, why must your knee control their near hip before you finish?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Controlling the near hip prevents the opponent from turning into you, which is their primary and most effective escape from the submission. If they can rotate their body toward you, they reduce the rotational pressure on their shoulder and can escape the lock entirely. The knee post blocks this movement and maintains your superior angle for finishing. Without hip control, the submission is easily defended and you may lose position."
@@ -92,7 +92,7 @@ description: "How to execute Kimura from Side Control in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "What are the two components of shoulder pressure that create the Kimura lock, and why must both be present?",
+      "name": "Which two elements of shoulder pressure finish the Kimura, and why are both needed?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two components are elevation (lifting the elbow away from the mat) and rotation (turning their hand toward their back behind their body). Elevation alone or rotation alone will not create sufficient pressure to finish the submission against a resisting opponent. The combination creates simultaneous stress on multiple planes of shoulder movement, targeting both rotational and elevational limits of the joint. Together they create an inescapable mechanical disadvantage for the defender."
@@ -100,7 +100,7 @@ description: "How to execute Kimura from Side Control in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "What should you do immediately if your training partner cannot access their free hand to tap during the Kimura?",
+      "name": "During a Kimura, your partner's free hand can't reach to tap. What do you do immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Stop the submission immediately and release all pressure. If their free hand is trapped or inaccessible, they cannot signal tap through normal means, which creates a dangerous situation. You must be aware of their ability to tap throughout the entire submission sequence. Always ensure your partner has at least one hand free to tap, and watch for alternative tap signals like verbal taps or foot taps if hand access is compromised."
@@ -108,7 +108,7 @@ description: "How to execute Kimura from Side Control in BJJ. Attacking perspect
     },
     {
       "@type": "Question",
-      "name": "How should you adjust if the opponent successfully grabs their own belt or pants to defend their arm?",
+      "name": "Finishing a side control Kimura, they grip their own belt or pants. How do you respond?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use head and shoulder pressure to drive their elbow away from their body while using your near hand to pry or break their defensive grip. If the grip is very strong, maintain control and wait for grip fatigue while applying chest pressure to prevent hip escape. Alternatively, you can transition to alternative submissions like the Americana which works well when they're holding their own gi, or use the control time to advance position. Never force the grip break explosively as this can injure fingers or wrists."

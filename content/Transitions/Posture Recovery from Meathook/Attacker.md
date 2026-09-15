@@ -80,7 +80,7 @@ description: "Master executing Posture Recovery from Meathook as the top player.
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your arm is trapped in Meathook and the bottom player has a deep collar grip pulling your head down—what is your immediate first action?",
+      "name": "Arm trapped in Meathook with a deep collar grip pulling your head down — first action?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Post your free arm wide on the mat to create a triangular base structure before attempting anything else. Without base, you have no leverage for extraction and no platform for posture recovery. The wide post creates opposing force against the shin hook's lever system. Only after base is established should you begin addressing the collar grip and preparing for arm extraction."
@@ -88,7 +88,7 @@ description: "Master executing Posture Recovery from Meathook as the top player.
     },
     {
       "@type": "Question",
-      "name": "Why is rotational arm extraction mechanically superior to straight pulling against the Meathook shin hook?",
+      "name": "Why is rotational arm extraction better than straight pulling against the Meathook shin hook?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shin hook creates a lever that resists force in the direct pull-back plane most effectively. Straight pulling aligns with this maximum resistance angle, wasting energy and risking shoulder strain. Rotational extraction—internally rotating the shoulder and spiraling the elbow—applies force along the hook's weaker diagonal angles, exploiting gaps in the lever mechanics that straight pulling cannot access. The corkscrew motion also changes the cross-section of the arm passing through the hook."
@@ -96,7 +96,7 @@ description: "Master executing Posture Recovery from Meathook as the top player.
     },
     {
       "@type": "Question",
-      "name": "The bottom player begins adjusting their hip angle while you are trapped in Meathook—what does this signal and how should you respond?",
+      "name": "Trapped in Meathook, the bottom player shifts their hips — what does this signal and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hip adjustment signals a transition between control maintenance and submission setup. During hip repositioning, the shin hook pressure briefly decreases as the bottom player redistributes weight and changes angles. This transitional moment is your optimal extraction window. Load your rotational pre-tension and execute the explosive spiral extraction timed precisely to their hip movement. Missing this window means waiting for the next transition."
@@ -104,7 +104,7 @@ description: "Master executing Posture Recovery from Meathook as the top player.
     },
     {
       "@type": "Question",
-      "name": "After successfully extracting your trapped arm, what is the critical next action and why must it happen immediately?",
+      "name": "After extracting your arm from Meathook, what must you do next and why immediately?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately recover posture by planting both hands and driving upward through the spine. There must be zero pause between extraction and posture recovery. The bottom player will instantly attempt to re-capture your arm, re-establish Rubber Guard, or transition to traditional Closed Guard attacks. Every fraction of a second with broken posture and a free arm is wasted opportunity—the window for posture recovery closes rapidly as the bottom player adapts."
@@ -112,7 +112,7 @@ description: "Master executing Posture Recovery from Meathook as the top player.
     },
     {
       "@type": "Question",
-      "name": "You feel the bottom player's hips rotating behind you as you create space during posture recovery—what is happening and how do you respond?",
+      "name": "Recovering posture from Meathook, their hips rotate behind you — what's happening and your answer?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The bottom player is attempting to take your back by following your space creation with hip rotation. This is the primary counter risk during posture recovery. Immediately sit your hips back and low to prevent them from threading hooks behind you. Address this back take threat before continuing posture recovery—losing the back is worse than remaining in Meathook temporarily. Re-establish hip-to-hip connection and restart the recovery sequence."
@@ -120,7 +120,7 @@ description: "Master executing Posture Recovery from Meathook as the top player.
     },
     {
       "@type": "Question",
-      "name": "Why is accepting Closed Guard after arm extraction strategically correct compared to forcing an immediate pass?",
+      "name": "After Meathook arm extraction, why accept closed guard rather than force an immediate pass?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Remaining in Meathook guarantees submission completion through Gogoplata, Triangle, or Omoplata. Closed Guard with recovered posture is a neutral position where you retain top position, both arms are free, and systematic guard opening and passing are available. Forcing an immediate pass with compromised posture risks re-capture into Rubber Guard. The strategic calculus is clear: escape to Closed Guard first, then pass methodically with full positional advantage."

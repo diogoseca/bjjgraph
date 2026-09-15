@@ -66,7 +66,7 @@ description: "Defend the Americana from 3-4 Mount in BJJ. Recognition cues, grip
     },
     {
       "@type": "Question",
-      "name": "Why is straightening your arm a risky defensive response to the Americana, and when is it the correct choice?",
+      "name": "Why is straightening your arm a risky Americana defense, and when is it the right choice?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Straightening the arm prevents the figure-four grip from locking because the Americana requires a bent arm at approximately 90 degrees. However, a straightened arm from 3-4 Mount is perfectly positioned for an armbar attack—the attacker already has wrist control and their posted leg is ready to swing over your face. Straightening is only appropriate when you are certain you can immediately retract the arm after straightening (denying both Americana and armbar) or when you have simultaneously created enough hip movement that the attacker cannot transition to the armbar in time. It is a high-risk, high-reward defense."
@@ -74,7 +74,7 @@ description: "Defend the Americana from 3-4 Mount in BJJ. Recognition cues, grip
     },
     {
       "@type": "Question",
-      "name": "At what stage of the Americana should you tap to prevent injury, and what are the consequences of tapping too late?",
+      "name": "At what stage of the Americana should you tap, and what happens if you tap too late?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Tap as soon as you feel significant rotational pressure on your shoulder that you cannot escape through technique. Do not wait for pain—the transition from discomfort to rotator cuff tear happens within 1-2 seconds once the joint reaches end-range under the figure-four's leverage. Late tapping can result in rotator cuff tears requiring 3-6 months of recovery and potential surgery, glenohumeral joint capsule damage causing chronic shoulder instability, and AC joint injuries that limit training for weeks. In training, tap early and often—you can always rework the escape from the earlier phases. No training session is worth a torn rotator cuff."
@@ -82,7 +82,7 @@ description: "Defend the Americana from 3-4 Mount in BJJ. Recognition cues, grip
     },
     {
       "@type": "Question",
-      "name": "Your opponent has secured the figure-four grip but has not begun the rotational finish—what escape options remain?",
+      "name": "They have the Americana figure-four but haven't begun rotating—what escapes remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "With the figure-four locked but rotation not yet started, you have a narrow window: immediately grab your own lapel or belt with the trapped hand to create an anchor point that resists the painting motion. Simultaneously bridge explosively toward the attacking side to disrupt their finishing angle and compromise their chest pressure on your shoulder. If the bridge creates space, use it to hip escape toward the posted leg side. You can also attempt to turn your body into the attacker, closing the rotational space needed for the paint-the-mat motion. These options have moderate success rates but are your best remaining defenses."
@@ -90,7 +90,7 @@ description: "Defend the Americana from 3-4 Mount in BJJ. Recognition cues, grip
     },
     {
       "@type": "Question",
-      "name": "What is the correct defensive body position when trapped in 3-4 Mount to minimize Americana vulnerability?",
+      "name": "Trapped under 3-4 Mount, what defensive body position minimizes Americana vulnerability?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Keep both elbows tight to your ribs with arms bent—never allow the near arm to extend or flatten beside your head. Turn your body slightly toward the mounted knee side to reduce the shoulder pinning effect. Maintain frames with forearms against the attacker's hip and cross-face area using bent elbows, never straight-arm pushes. Keep your chin tucked toward the far shoulder to protect your neck. Your near-side hand should either grip your own collar for anchoring or maintain a defensive position against the attacker's wrist-controlling hand. This position minimizes all arm attack angles while preserving your ability to hip escape."

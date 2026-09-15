@@ -252,7 +252,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary purpose of transitioning to combat base rather than passing directly from half guard?",
+        "question": "Why transition to combat base instead of passing directly from half guard top?",
         "answer": "Combat base provides a stable passing platform with maximum options for attacking. Rather than committing to a single pass from half guard, combat base allows you to read opponent's defensive response and choose from multiple passing pathways including toreando, knee slice, long step, and pressure passes. This methodical approach reduces risk and increases overall passing success by maintaining positional stability throughout.",
         "answer_line": "Stable base, multiple pass options",
         "distractors": {
@@ -322,7 +322,7 @@
         }
       },
       {
-        "question": "Your opponent posts their far arm on your bicep as you begin extracting your leg - how do you adjust?",
+        "question": "They post their far arm on your bicep as you extract your leg. How do you adjust?",
         "answer": "Swim your underhook arm over their framing arm to strip the post, or grab their wrist with your free hand and pull it across their body while maintaining crossface pressure. The key is to keep constant forward shoulder pressure so their frame lacks structural integrity. If they post high on your head instead, drive your forehead into their chest and use the angle change to collapse the frame before continuing extraction.",
         "answer_line": "Swim over, strip the post",
         "distractors": {
@@ -364,7 +364,7 @@
         }
       },
       {
-        "question": "What is the direction of force during the crossface and how does it change throughout the transition?",
+        "question": "Where does crossface force go, and how does it change as you reach combat base?",
         "answer": "The crossface force drives diagonally across the opponent's face toward the mat on their far side, turning their head away and flattening their shoulders. During the extraction phase, this force intensifies slightly as compensating for the hip movement. Upon establishing combat base, the force transitions from the crossface forearm to grip-based controls on collar and pants in gi, or head and wrist in no-gi, redirecting from a pinning vector to a distance-management vector that keeps opponent flat while you maintain upright posture.",
         "answer_line": "Diagonal pin, shifts to grips",
         "distractors": {
@@ -392,7 +392,7 @@
         }
       },
       {
-        "question": "If your initial combat base establishment is blocked by opponent inserting knee shield, what chain attacks are available?",
+        "question": "They block your combat base entry with a knee shield. What chain attacks are available?",
         "answer": "Against knee shield insertion, you have several chain options: drive through the knee shield into a smash pass by dropping your hips and flattening their knee across their body, switch to a backstep pass by stepping your free leg behind their knee shield and spinning to north-south, or re-engage crossface pressure to flatten the knee shield and reattempt the combat base entry. You can also use the knee shield contact point as leverage for a long step pass by stepping your free leg wide and circling around their guard entirely.",
         "answer_line": "Smash, backstep, or re-flatten",
         "distractors": {
@@ -406,7 +406,7 @@
         }
       },
       {
-        "question": "When would you choose this transition over completing a direct pass like the knee slice or crossface pass?",
+        "question": "When do you pick crossface to combat base over a direct pass like the knee slice?",
         "answer": "Choose this transition when opponent is defending well against direct passes but you have solid crossface control, when you want to assess their defensive positioning before committing to a specific pass, when opponent has strong guard recovery and you need a stable platform to prevent reguard, or when you want to create passing chains with multiple options rather than betting on a single technique.",
         "answer_line": "Strong defense or reguard risk",
         "distractors": {
@@ -595,7 +595,7 @@
         }
       },
       {
-        "question": "Your opponent has crossface established and begins walking their free foot toward your head - what is happening and how do you respond?",
+        "question": "They have crossface and walk their free foot toward your head. What is this, and how do you answer?",
         "answer": "They are creating the extraction angle by shifting their body position to generate mechanical advantage for pulling their trapped leg free. Respond by immediately tightening your leg clamp, hip escaping toward them to close the angle they are creating, and using your far arm to frame on their bicep or shoulder to prevent them from driving forward. If possible, use the angle change to sneak your near-side knee in as a shield. The foot walk is the clearest signal that extraction is imminent.",
         "answer_line": "Tighten clamp, close the angle",
         "distractors": {

@@ -80,7 +80,7 @@ description: "Learn to execute the Technical Mount to Back Control transition. C
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary trigger that signals you should commit to the back take rather than continuing the armbar attack from Technical Mount?",
+      "name": "Which cue tells you to leave the armbar and commit to the back take from Technical Mount?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary trigger is the opponent's far shoulder rotating toward the mat, indicating they have committed to turning away from the armbar threat. This shoulder rotation means they have chosen to defend their arm by exposing their back. You must wait for this genuine commitment before following—a partial or tentative turn does not create sufficient back exposure and often leads to failed transition attempts."
@@ -88,7 +88,7 @@ description: "Learn to execute the Technical Mount to Back Control transition. C
     },
     {
       "@type": "Question",
-      "name": "Which leg converts into the first hook during this transition and how does its positioning in Technical Mount facilitate this conversion?",
+      "name": "Which leg becomes your first hook from Technical Mount, and how does its position enable that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The posted leg (the outside leg with shin perpendicular to the opponent's body) converts into the first hook. Its position in Technical Mount already places it close to the hook insertion point behind the opponent's top thigh. As the opponent turns onto their side, the posted leg naturally drops into position along their thigh. This is why the conversion should be a slide rather than a lift—the Technical Mount geometry pre-stages the hook."
@@ -104,7 +104,7 @@ description: "Learn to execute the Technical Mount to Back Control transition. C
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins turning away but then stops mid-rotation and re-squares their shoulders. How do you adjust?",
+      "name": "Your opponent starts turning away, then re-squares their shoulders. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately return to the armbar threat since their arm is still extended and controlled. Do not chase the back take when the turn has been abandoned—you will end up in an unstable position without the back exposure needed for hook insertion. By returning to the armbar, you reset the dilemma: the opponent must once again choose between defending the arm or turning away. This cycling between armbar and back take threats is what makes the system effective."
@@ -112,7 +112,7 @@ description: "Learn to execute the Technical Mount to Back Control transition. C
     },
     {
       "@type": "Question",
-      "name": "What grip transition must occur as you move from Technical Mount armbar setup to back control, and what is the critical timing?",
+      "name": "Which grip change is needed from Technical Mount armbar to back control, and when exactly?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must transition from the two-handed arm control (wrist grip and elbow grip) to seatbelt configuration (one arm over the shoulder, one under the armpit, hands clasped). The critical timing is that there must be no gap in upper body control—the seatbelt arm should begin threading over the shoulder before you release the wrist grip. Releasing arm control before the seatbelt is established creates a window where the opponent has no upper body restraint and can complete their turn to face you."

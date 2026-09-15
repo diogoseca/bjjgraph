@@ -72,7 +72,7 @@ description: "Learn to defend the Kimura from Crab Ride in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "Your arm is already partially isolated with a wrist grip but the figure-four is not yet complete - what is your best defensive response?",
+      "name": "They have your wrist from crab ride but no figure-four yet — what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately clasp your hands together with interlocking fingers or grip your own wrist to create a physical barrier preventing the figure-four from being threaded. Simultaneously begin turning your shoulders toward the attacker and driving your hips forward to create separation. The clasped-hands defense is a temporary measure buying 3-5 seconds maximum; use that time to execute a committed sit-through or scramble before the attacker systematically breaks the grip connection."
@@ -96,7 +96,7 @@ description: "Learn to defend the Kimura from Crab Ride in BJJ. Recognition cues
     },
     {
       "@type": "Question",
-      "name": "The attacker has fully locked the figure-four grip and is beginning to transition to Kimura Trap - what are your remaining options?",
+      "name": "They lock the figure-four from crab ride and start moving to Kimura Trap — what options remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, your best option is to turn aggressively toward the attacker while driving your trapped elbow toward your own hip, attempting to straighten the arm and break the figure-four structure during the transitional movement. If the grip holds through the turn, focus on preventing the attacker from consolidating Kimura Trap by keeping your hips mobile and fighting to recover half guard during their positional adjustment. As a last resort, grip your own lapel or shorts with the trapped hand to create an anchor point that resists the rotational finish while you work to improve position."

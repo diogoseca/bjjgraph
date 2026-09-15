@@ -64,7 +64,7 @@ description: "How to defend against Double Underhook Pass in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "You feel the attacker's Gable grip lock at your sternum with both underhooks deep - what is your immediate priority?",
+      "name": "They lock a Gable grip at your sternum with both underhooks deep: immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately attempt to swim one arm free using a circular motion toward the mat to break the Gable grip before the forward drive loads it. If the grip strip fails, instantly transition to granby roll preparation by shifting your hips to the side and preparing to rotate with their drive. Do not waste time trying to stand or push the attacker off - the locked grip makes both of those options ineffective and dangerous. Your window before the drive begins is approximately one to two seconds."
@@ -72,7 +72,7 @@ description: "How to defend against Double Underhook Pass in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "How do you differentiate between the attacker preparing a back take versus setting up the Double Underhook Pass?",
+      "name": "How do you tell a back take setup from a double underhook pass setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Back take setups involve the attacker's hands working toward your collar, neck, or seatbelt position on your upper chest and shoulder area. The Double Underhook Pass setup is signaled by the attacker's hands diving under your armpits with upward lifting pressure against your shoulder from below. The tactile difference is unmistakable: back takes attack from above and around your shoulders, while the pass attacks from underneath through your armpit space. Additionally, back take setups typically involve the attacker trying to insert hooks, while the pass setup keeps their legs behind you in the chair-sit."
@@ -80,7 +80,7 @@ description: "How to defend against Double Underhook Pass in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent drives forward with the locked Gable grip and your shoulders begin approaching the mat - what is your last-resort defensive option?",
+      "name": "They drive forward with the Gable grip and your shoulders near the mat: last-resort defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert your near-side knee between yourself and the attacker as your hip contacts the mat. Thread your shin across their centerline and immediately lock your legs around their near leg to establish Half Guard. This must happen during the flattening transition before your shoulders are fully pinned. Once in Half Guard, immediately establish a knee shield or underhook to prevent them from simply completing the pass through the half guard position. This is the final checkpoint before Side Control."

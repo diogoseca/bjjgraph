@@ -301,7 +301,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 
 - **[[Transitions/Back Control to Seat Belt Control Back/Attacker|Back Control to Seat Belt Control Back]]** (16% of attempts)
 
-- **[[Transitions/Bow and Arrow Setup from Standing Back/Attacker|Bow and Arrow Setup from Standing Back]]** (0% of attempts)
+- **[[Transitions/Bow and Arrow Setup from Standing Back/Attacker|Bow and Arrow Setup from Standing Back]]** (gi only)
 
 
 ### Common Mistakes
@@ -357,6 +357,14 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Giancarlo-Bodoni-Turtle-to-Back-System" data-cta="related-system-card" data-system-slug="systems/giancarlo-bodoni-turtle-to-back-system" data-system-name="Giancarlo Bodoni Turtle to Back System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Giancarlo Bodoni Turtle to Back System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Standing continuation where the rear connection must be reassessed.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

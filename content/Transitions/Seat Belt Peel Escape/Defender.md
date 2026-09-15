@@ -56,7 +56,7 @@ description: "Learn to defend against the Seat Belt Peel Escape from top back co
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary recognition cue that your opponent is attempting a seat belt peel rather than standard hand fighting?",
+      "name": "What cue tells you they are peeling your seat belt rather than just hand fighting?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary cue is feeling two-on-one pressure specifically on your over-arm hand with a diagonal pulling force directed toward the opponent's far hip. Standard hand fighting typically involves the opponent controlling your choking wrist near their neck, while the peel specifically targets the hand connection point across their chest. The diagonal pulling direction is the distinctive marker of the peel technique versus other grip attacks."

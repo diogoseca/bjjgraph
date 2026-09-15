@@ -98,7 +98,7 @@ description: "Master the offensive sweep from Clamp Guard. Learn to time sweep e
     },
     {
       "@type": "Question",
-      "name": "You attempt the sweep but your opponent posts their free arm wide in the sweep direction — what do you do?",
+      "name": "They post their free arm wide against your clamp guard sweep: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts their free arm to block the sweep, they have committed that arm to a basing function, which means it is no longer available for arm extraction or posture recovery. This creates two immediate opportunities: first, switch the sweep direction to attack the opposite side where no arm can post; second, abandon the sweep temporarily and attack the now-fully-isolated trapped arm with an armbar, since the posting arm cannot assist in defense. The post is actually favorable because it deepens the opponent's commitment to a defensive posture that opens higher-percentage attacks. Never force the sweep into an established post."
@@ -114,7 +114,7 @@ description: "Master the offensive sweep from Clamp Guard. Learn to time sweep e
     },
     {
       "@type": "Question",
-      "name": "In what direction should the primary sweeping force be applied relative to the opponent's compromised base?",
+      "name": "From clamp guard, which direction should the sweeping force go relative to their base?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The primary sweeping force must be directed toward the trapped arm side — the side where the opponent physically cannot post due to the shin-on-bicep clamp restricting their arm. This exploits the structural gap in their base rather than attacking their strong side where the free arm can resist. The force vector should be diagonal: upward to lift their weight off the mat and laterally toward the clamped arm to direct them into the void where no post exists. Sweeping toward the free arm side allows them to post and resist, reducing success rate dramatically. The trapped arm side is the path of least resistance by design."

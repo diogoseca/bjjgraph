@@ -14,6 +14,12 @@ on:
       - "content/**"
       - "templates/**"
       - "scripts/**"
+      - "site/**"
+      - "functions/**"
+      - "source/quartz/static/robots.txt"
+      - "source/quartz/static/_headers"
+      - "tests/agent_discovery_test.py"
+      - "package.json"
       - "graph.json"
       - "tests/artifacts/graph_validation_baseline.json"
       - "tests/artifacts/seat_deck_baseline.json"
@@ -77,10 +83,21 @@ jobs:
           node-version: "22"
 
       - name: Install Python dependencies
-        run: pip install jsonschema
+        run: pip install jsonschema jinja2
 
       - name: Schema validation (hard gate)
         run: python3 scripts/validate_json.py --all
+
+      # THE SCHEMA MARKUP MUST PARSE. Every content page carries JSON-LD built by interpolating
+      # authored prose into a hand-written JSON string literal, so one `"` in the prose ends the
+      # string early and the block is silently unparseable: Google drops it without a word, the
+      # build prints one line among thousands and exits 0, and check_seo_parity reads the
+      # <article> rather than the <script>. Measured when this was added: 1 of 21,545 blocks.
+      # The gate prints a positive coverage count and floors it, so "found no problems" can never
+      # be produced by "never looked" (CLAUDE.md §6.6). Its inputs — content/**, templates/** —
+      # are already in this job's paths filter above.
+      - name: Schema markup parses (hard gate)
+        run: npm run validate:schema
 
       # The seat axis: a card served to a seat must have been written FOR that seat, and every
       # seat that ships a deck must own at least one such card. Reads `content/**` and NOTHING
@@ -123,9 +140,15 @@ jobs:
       - name: Emit the neural payload (input to the unit suites and the MC gate)
         run: python3 scripts/regenerate_neural_data.py
 
+      - name: Systems and concepts payload contract
+        run: python3 scripts/check_systems_payload.py
+
       # Pure-unit suites (node --test, no browser, no build, ~4s): the share-link wire codec, the
       # neural deck-hydration contract, and the FLOW selfcheck. Separate from the Playwright
       # gates. Needs the payload above — see the ordering note there before moving either step.
+      - name: Public article export and crawler rules
+        run: python3 -B tests/agent_discovery_test.py
+
       - name: Pure unit suites
         run: node --test tests/*.test.mjs
 
@@ -137,6 +160,13 @@ jobs:
       # half that does not ship.
       - name: Ruleset availability (wire parity, zero mass loss, no dead ends)
         run: npm run validate:availability
+
+      # The DERIVED half of the same feature. `validate:availability` proves the wire's table is
+      # right; this proves the app still CONSULTS it everywhere a node reaches a person. It is a
+      # static scan of neural/src, needs no payload and no browser, and it exists because the
+      # surface list was hand-maintained for exactly one version before a sweep found 38 more.
+      - name: Ruleset surfaces (every node enumeration is filtered or justified)
+        run: npm run validate:surfaces
 
       # CLAUDE.md is loaded into EVERY session, so its size is a standing tax and its
       # references are acted on. Two cheap stdlib gates, no deps:

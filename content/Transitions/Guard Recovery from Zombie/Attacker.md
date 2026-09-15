@@ -74,7 +74,7 @@ description: "Learn to recover closed guard from the Zombie lockdown position in
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to secure the overhook or collar grip before releasing the lockdown during Zombie guard recovery?",
+      "name": "Why secure the overhook or collar grip before releasing the lockdown from Zombie?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The overhook or collar grip provides the upper body control that bridges the transition between the lockdown-based Zombie control and standard closed guard. Without this grip established first, releasing the lockdown creates a moment where no limb controls the opponent - the lockdown legs are disengaged and the arms are not yet controlling. During this gap, the top player can freely posture up, drive forward, or begin passing. The overhook ensures continuous control throughout the transition, replacing lower body entanglement with upper body connection seamlessly."
@@ -90,7 +90,7 @@ description: "Learn to recover closed guard from the Zombie lockdown position in
     },
     {
       "@type": "Question",
-      "name": "How does the leg transition from Zombie high guard to standard closed guard differ from a standard guard closure?",
+      "name": "Recovering closed guard from Zombie, how does the leg travel differ from a normal guard closure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In the Zombie high guard, your legs are positioned high on the opponent's body - often around their shoulders or upper back - with the lockdown entangling their arm. Transitioning to standard closed guard requires moving your legs significantly downward to wrap around the opponent's waist at hip level. This downward repositioning is unique to Zombie recovery and creates an additional challenge because the legs must travel a greater distance than in standard guard closure. If the guard closes too high, at chest level rather than hip level, the opponent can immediately open it through posture extension."
@@ -106,7 +106,7 @@ description: "Learn to recover closed guard from the Zombie lockdown position in
     },
     {
       "@type": "Question",
-      "name": "Why is proactive recovery from a deteriorating Zombie position more effective than reactive recovery from a fully broken position?",
+      "name": "Why recover early from a decaying Zombie position instead of after the guard is fully broken?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Proactive recovery preserves control mechanisms - lockdown, overhook, high guard - that can bridge the transition to closed guard. When you initiate recovery while these controls still function, you have anchor points that maintain opponent connection throughout the leg repositioning. Reactive recovery from a fully broken position means all these controls are already gone, forcing you to rebuild connection from scratch against an opponent who is actively passing. The success rate drops dramatically because you must simultaneously establish control and close guard rather than transitioning between two established control systems."
@@ -114,7 +114,7 @@ description: "Learn to recover closed guard from the Zombie lockdown position in
     },
     {
       "@type": "Question",
-      "name": "What adjustment should you make if you feel your guard closing too high around the opponent's chest rather than at hip level?",
+      "name": "Recovering from Zombie, your guard is closing at chest level not the hips: what do you fix?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If your guard is closing at chest level rather than hip level, actively push your hips away from the opponent while pulling your heels downward along their back. Use the overhook to keep their upper body close while your hips create distance below, which naturally shifts the guard closure point from their chest to their waist. You can also briefly extend your legs against their hips to push yourself lower before recrossing ankles at the correct height. Guard locked at chest level provides almost no hip control and the opponent can open it by simply extending their posture, so this adjustment is critical for a viable recovery."

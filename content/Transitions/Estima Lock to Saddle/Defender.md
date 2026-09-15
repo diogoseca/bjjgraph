@@ -80,7 +80,7 @@ description: "How to defend against Estima Lock to Saddle in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "The attacker has completed the backstep and their inside leg is between yours but the triangle is not yet locked—what can you still do?",
+      "name": "Their inside leg is threaded but the Saddle triangle isn't locked: what can you still do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Hook the attacker's far leg with your free foot to prevent them from closing the figure-four triangle, while simultaneously straightening your trapped leg to push their inside leg back out. Frame on their hips with both hands to create distance and prevent them from tightening the position. This narrow window between inside leg threading and triangle completion is your last opportunity to prevent full Saddle establishment before the position becomes significantly harder to escape."

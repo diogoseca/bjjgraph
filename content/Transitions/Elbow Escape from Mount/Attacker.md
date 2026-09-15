@@ -74,7 +74,7 @@ description: "Execute the Elbow Escape from Mount with systematic hip movement, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary frame placement for initiating the elbow escape and why is this position chosen over framing on the chest?",
+      "name": "Where do you frame to start the mount elbow escape, and why not on their chest?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The forearm or elbow frames against the opponent's hip or inner thigh on the escape side. This placement prevents the top player from following your lateral hip movement and creates a structural lever for generating horizontal space. Framing on the chest pushes the opponent upward but does not prevent them from sliding laterally to follow your hips, and extended arms on the chest create immediate armbar and Americana vulnerability."
@@ -98,7 +98,7 @@ description: "Execute the Elbow Escape from Mount with systematic hip movement, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent blocks your knee insertion by driving their hip into your frame and re-centering - how do you adjust?",
+      "name": "They block your knee insertion by driving their hip into your frame — how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately chain a second hip escape in the same direction to create additional cumulative space, or switch to the opposite side if they have overcommitted their weight following the first direction. A small bridge before the second hip escape can disrupt their re-centering momentum. The frame must stay active throughout, and if neither direction works, combine with an upa attempt to force them to post their hands, then hip escape during their recovery."
@@ -407,6 +407,14 @@ The elbow escape is one of the safest techniques in BJJ as it is a defensive pos
 
 </section>
 
+<section id="related-systems" class="content-section related-systems">
 
+## Train this with a System
+
+<div class="related-systems-grid">
+<a class="system-card" href="/Systems/Danaher-Pin-Escape-Fundamentals-System" data-cta="related-system-card" data-system-slug="systems/danaher-pin-escape-fundamentals-system" data-system-name="Danaher Pin Escape Fundamentals System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Pin Escape Fundamentals System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Specific movement reference for studying elbow-knee recovery under mount.</span><span class="system-card__chips"><span class="system-card__chip">Beginner</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+</div>
+
+</section>
 
 </main>

@@ -56,7 +56,7 @@ description: "Prevent the complete triangle escape as the attacking triangle hol
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "How do you counter the opponent's circular stepping pattern that is progressively opening your triangle lock?",
+      "name": "Their circular stepping is opening your triangle: how do you counter it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Match their circular stepping by scooting your hips laterally in the same direction, maintaining the perpendicular angle between your legs and their neck that provides maximum choking effectiveness. If stacking pressure prevents hip scooting, use your hands behind their head to create counter-rotational pulling force that resists their circular movement. When both methods fail, recognize the triangle is compromised and transition to armbar on the trapped arm."
@@ -64,7 +64,7 @@ description: "Prevent the complete triangle escape as the attacking triangle hol
     },
     {
       "@type": "Question",
-      "name": "What is the optimal timing for transitioning from triangle to armbar during the opponent's escape attempt?",
+      "name": "When should you switch from triangle to armbar as they work their escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal armbar transition window opens when the opponent begins their rotational arm extraction, as this mechanic temporarily separates their trapped arm elbow from their ribs and positions the arm in the plane needed for armbar isolation. This moment typically occurs during Steps 4-5 of their escape sequence. Transitioning too early means releasing a still-effective triangle unnecessarily. Transitioning too late means the arm has already extracted and the opportunity has passed."
@@ -72,7 +72,7 @@ description: "Prevent the complete triangle escape as the attacking triangle hol
     },
     {
       "@type": "Question",
-      "name": "Your triangle is being stacked and you cannot maintain hip elevation - what defensive options remain?",
+      "name": "Your triangle is being stacked and you can't keep hip elevation — what options remain?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When stacking has fully compromised your hip elevation and triangle effectiveness, immediately evaluate secondary attack options in priority order: armbar on the trapped arm if elbow has separated from ribs, omoplata transition if your choking leg can swing over their shoulder, or at minimum re-guard to closed guard by releasing the triangle and establishing full guard closure before they can pass. Continuing to hold a structurally compromised triangle wastes energy and misses higher-percentage transition opportunities."

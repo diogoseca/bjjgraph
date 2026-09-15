@@ -530,5 +530,17 @@
       "duration": 76,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "specific",
+    "rationale": "Submission Chains applies where its mechanics are used or opposed: linked examples, all matching technique variants, their starting positions, and both participants.",
+    "terms": [
+      "submission",
+      "choke",
+      "armbar",
+      "kimura",
+      "leg lock"
+    ],
+    "families": []
+  }
 }

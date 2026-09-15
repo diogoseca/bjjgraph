@@ -268,7 +268,7 @@
         }
       },
       {
-        "question": "Why is proper head position critical during deep half entry, and where should your head be positioned?",
+        "question": "During deep half entry, where should your head be and why is that position critical?",
         "answer": "Proper head position is critical because it prevents the opponent from applying shoulder pressure that could flatten you out and shut down the entry. Your head should be positioned below the line of the opponent's hips, with your face looking toward their far hip rather than up at their chest. This low head position removes the angle they need to apply downward pressure and allows you to complete the rotation underneath their center of gravity.",
         "answer_line": "Head below their hip line",
         "distractors": {
@@ -282,7 +282,7 @@
         }
       },
       {
-        "question": "Your opponent posts their hand on the mat and begins to limp leg backward out of your underhook - how do you adjust?",
+        "question": "Your opponent posts and limp legs out of your deep half underhook — how do you adjust?",
         "answer": "Immediately follow the retreating leg by scooting your hips forward to maintain connection. If you can re-secure the underhook, pull the leg tight and continue with the entry. If the leg is fully extracted, do not remain flat on your back. Transition to single leg X guard by hooking their remaining leg with your feet, or sit up aggressively to pursue a single leg takedown on the retreating leg. The key is recognizing the counter within the first second and transitioning rather than fighting to save a lost position.",
         "answer_line": "Chase leg, switch to single leg X",
         "distractors": {
@@ -338,7 +338,7 @@
         }
       },
       {
-        "question": "Your opponent has established crossface control and is driving heavy shoulder pressure - should you still attempt deep half entry?",
+        "question": "With a heavy crossface driving your head away, should you still attempt the deep half entry?",
         "answer": "No — once a strong crossface is driving your head away, the deep half entry window has closed and you must not attempt the rotation. Rotating against an established crossface will result in being flattened and having your back exposed. Instead, prioritize breaking the crossface first by using your frames to create space and recover a knee shield or transition to lockdown. Once you have neutralized the crossface and reestablished your defensive frames, look for the deep half entry window when they next commit forward pressure.",
         "distractors": {
           "plausible": [
@@ -366,7 +366,7 @@
         "answer_line": "Pull the leg tight and curl up"
       },
       {
-        "question": "If your initial waiter sweep attempt is blocked because your opponent widens their base, what chain attack should you pursue?",
+        "question": "Your waiter sweep is blocked because they widened their base — what chain attack follows?",
         "answer": "When the opponent widens their base to block the waiter sweep, their weight shifts laterally and their far leg moves away from your hook. This opens the old school sweep in the opposite direction: maintain your underhook and use the far leg hook to load their weight, then drive your hips upward and roll them over the near side. If they post that hand, the rolling back take becomes available by continuing the momentum underneath them. The key principle is that every defensive reaction to one sweep opens a different sweep angle. A widened base defends the waiter but exposes the old school and back take.",
         "answer_line": "Old school sweep, then back take",
         "distractors": {
@@ -394,7 +394,7 @@
         }
       },
       {
-        "question": "Your opponent has strong crossface control in half guard - how do you create the entry angle for deep half?",
+        "question": "With a strong crossface in half guard, how do you create the angle for deep half entry?",
         "answer": "When facing strong crossface, use your inside hand to frame against their crossface arm at the bicep or wrist to create momentary separation. Simultaneously execute a sharp hip escape away from them to create the angle. As the crossface loosens from the angle change, swim your head underneath their arm by turning your face toward their hips. The hip escape is the primary tool because the crossface becomes less effective when your body angle changes significantly.",
         "answer_line": "Frame arm, hip escape, swim head",
         "distractors": {
@@ -639,7 +639,7 @@
         }
       },
       {
-        "question": "Why is driving your weight forward dangerous when your opponent already has the deep underhook established?",
+        "question": "Why is driving your weight forward dangerous once they have the deep underhook on your leg?",
         "answer": "Driving forward when the underhook is established loads your weight directly onto the fulcrum that the opponent has created with their shoulder against your inner thigh. This is exactly the weight distribution they need for the waiter sweep, where they sit up underneath you and dump you over their shoulder. Your forward pressure becomes the force that sweeps you. Instead, sit your hips back, establish crossface, and work to extract the trapped leg before committing any forward pressure.",
         "answer_line": "Loads their waiter sweep fulcrum",
         "distractors": {
@@ -653,7 +653,7 @@
         }
       },
       {
-        "question": "What is the correct defensive sequence when you feel the underhook being established on your near leg?",
+        "question": "What is the correct defensive sequence as you feel a deep underhook set on your near leg?",
         "answer": "The correct sequence is: first, immediately apply crossface pressure with your shoulder to prevent the head from dropping below your hip line. Second, widen your base by posting your free leg far to the side. Third, attempt to limp leg your trapped leg backward in a circular motion while maintaining upper body pressure. Fourth, if the limp leg fails, apply a whizzer overhook on their underhooking arm to pin their shoulder and prevent rotation. Speed matters more than force in this sequence.",
         "answer_line": "Crossface, widen base, limp leg",
         "distractors": {
@@ -667,7 +667,7 @@
         }
       },
       {
-        "question": "Your opponent has established deep half and is loading the waiter sweep - what is your emergency defense?",
+        "question": "They have deep half and are loading the waiter sweep — what is your emergency defense?",
         "answer": "If you are already in deep half and feeling the waiter sweep loading, immediately shift your weight backward and downward, driving your hips toward the mat. Widen your base dramatically with your free leg. Apply crossface pressure to flatten their upper body and prevent them from sitting up. Grab their far hip or belt with your free hand to anchor your position. If the sweep is imminent, post your hand on the mat behind you as a last resort to prevent being rolled over, then work back to extracting your trapped leg.",
         "answer_line": "Weight back, widen base, crossface",
         "distractors": {
@@ -681,7 +681,7 @@
         }
       },
       {
-        "question": "How should you manage your base when defending against an opponent who frequently uses deep half entry?",
+        "question": "How do you manage your base on top against an opponent who often enters deep half?",
         "answer": "Against a known deep half player, maintain a wider base from the start in half guard top. Keep your free leg posted further from your body than normal, lowering your center of gravity. Apply constant crossface pressure to limit their ability to create space. Keep your hips heavy and avoid being drawn into forward-pressure passing that feeds their entry. Consider using a backstep passing approach that takes your near leg further from their reach rather than driving it forward into their underhook range.",
         "answer_line": "Wide base plus constant crossface",
         "distractors": {
@@ -737,7 +737,7 @@
         }
       },
       {
-        "question": "Your opponent has already threaded their head halfway underneath - what is your best recovery option?",
+        "question": "Their head is already halfway under your hips for deep half — what is your best recovery?",
         "answer": "If the head is already partially underneath, a hip switch combined with backstep is your best recovery. Shift your hips to the opposite side by rotating your body, which changes the angle and can dislodge their head from underneath. Simultaneously work to establish a whizzer on their underhook arm to prevent them from completing the far leg control. If the entry is too far progressed, accept the deep half position and immediately transition to deep half top defense.",
         "answer_line": "Hip switch, backstep, add whizzer",
         "distractors": {

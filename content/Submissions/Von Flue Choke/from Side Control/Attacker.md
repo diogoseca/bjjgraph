@@ -76,7 +76,7 @@ description: "How to execute Von Flue Choke in BJJ. Attacking perspective with s
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the two primary pressure points that create the Von Flue choke, and why is the opponent's own arm critical to the technique?",
+      "name": "What two pressure points create the Von Flue choke, and why is their own arm essential?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The two primary pressure points are: 1) Your shoulder driving into one side of their neck to compress one carotid artery, and 2) Their own arm (from the guillotine grip) which crosses their neck and compresses the opposite carotid artery. The opponent's arm is critical because it creates half of the choke for you—without their guillotine grip, the shoulder pressure alone would be insufficient. This is why the technique works as a counter-submission: their offensive weapon becomes the instrument of their own defeat."
@@ -84,7 +84,7 @@ description: "How to execute Von Flue Choke in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Why must you apply the Von Flue choke progressively over 3-5 seconds rather than with sudden pressure, and what are the safety consequences of rushing the application?",
+      "name": "Why apply the Von Flue over 3-5 seconds, and what is the risk of sudden pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Progressive application over 3-5 seconds is critical for safety because it gives your training partner time to recognize the danger and tap before losing consciousness. Blood chokes can cause unconsciousness in as little as 5-7 seconds once properly applied, but the onset can be sudden. If you apply explosive pressure, your partner may lose consciousness before they can tap, leading to potential brain injury from oxygen deprivation. The gradual application allows them to feel the pressure building and make the decision to tap or release their grip before reaching the point of no return. This is a fundamental safety principle for all training with blood chokes."
@@ -92,7 +92,7 @@ description: "How to execute Von Flue Choke in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What is the correct action to take the moment your opponent releases their guillotine grip during a Von Flue choke attempt?",
+      "name": "The moment they release their guillotine grip during your Von Flue, what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The moment your opponent releases their guillotine grip, you must immediately remove all shoulder pressure from their neck and consolidate your side control position. Continuing to apply pressure after they've released their grip is both unnecessary and dangerous—the submission is complete when they let go of their offensive grip. Your goal was to force them to release the guillotine, and once achieved, the technique is finished. Continuing to apply pressure would be applying a choke to a defenseless opponent, which violates safety principles and good training partnership."
@@ -100,7 +100,7 @@ description: "How to execute Von Flue Choke in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "How does walking your hips toward the opponent's head improve the Von Flue choke's effectiveness, and what defensive option does it remove?",
+      "name": "How does walking your hips toward their head improve the Von Flue, and what escape does it remove?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Walking your hips toward the opponent's head creates a more acute angle between your body and theirs, which increases the downward and forward pressure of your shoulder into their neck. This improved angle makes the carotid compression more direct and effective. Additionally, this hip position removes the opponent's ability to use their legs to push your hips away and create distance—their primary escape mechanism from side control. With your hips high and close to their head, they lose the leverage needed to bridge or push effectively, trapping them in the submission."
@@ -108,7 +108,7 @@ description: "How to execute Von Flue Choke in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "Why is shoulder placement on the neck (not the jaw) critical for the Von Flue choke to function properly?",
+      "name": "Why must the shoulder sit on the neck rather than the jaw for the Von Flue to work?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The shoulder must be placed on the soft tissue of the neck, lateral to the trachea and below the jawline, because this is where the carotid artery runs. Pressure on the jaw or chin creates pain and discomfort but does not compress the carotid artery, meaning no blood choke occurs. The Von Flue is a blood choke (cutting off blood flow to the brain), not an air choke (cutting off breathing), so proper targeting of the carotid is essential. If your shoulder is on the jaw, the opponent will feel pain but can survive indefinitely, whereas proper neck placement creates a true choke that will cause unconsciousness within seconds."
@@ -116,7 +116,7 @@ description: "How to execute Von Flue Choke in BJJ. Attacking perspective with s
     },
     {
       "@type": "Question",
-      "name": "What are at least three valid tap signals a partner might use when caught in a Von Flue choke, and why is recognizing these signals especially important for this submission?",
+      "name": "What tap signals might a partner use in a Von Flue, and why does recognizing them matter here?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Valid tap signals include: 1) Verbal tap (calling out 'tap' or making verbal distress sounds), 2) Physical hand tap on your body or the mat, 3) Physical foot tap on the mat, 4) Releasing the guillotine grip immediately, and 5) Body going limp (indicating unconsciousness). Recognizing these signals is especially important for the Von Flue because the opponent's arms may be trapped in their own guillotine grip, limiting their ability to tap with their hands. Verbal taps become particularly important, as does watching for their grip to loosen (which often indicates impending unconsciousness). You must be hypersensitive to any indication they want to tap, including changes in their breathing or grip pressure."

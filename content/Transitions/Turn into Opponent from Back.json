@@ -332,7 +332,7 @@
         }
       },
       {
-        "question": "Your opponent feels you beginning to rotate and tightens both hooks while driving their chest forward - how do you adjust?",
+        "question": "Turning in from back bottom, they tighten both hooks and drive their chest in. How do you adjust?",
         "answer": "Pause the rotation attempt and return to the hand fighting phase. Use your hips to create pressure against their top hook by bridging slightly, then work to strip the re-tightened hook with your foot or knee while maintaining your two-on-one grip. Do not force the rotation against tightened hooks as this wastes energy and may expose your neck. Wait for the next window when they loosen control to attack, then resume the sequence with fresh hip escape and hook clearing.",
         "answer_line": "Pause, hand fight, strip hook",
         "distractors": {
@@ -346,7 +346,7 @@
         }
       },
       {
-        "question": "If your initial turn attempt is stopped and you are pushed back to full back control, what follow-up escape should you chain?",
+        "question": "Your turn-in fails and they re-secure back control. Which escape should you chain to next?",
         "answer": "Immediately transition to a back door escape by sliding your hips down and away rather than turning. Your opponent will likely tighten their hooks and chest pressure anticipating another turn attempt, which paradoxically creates space below their control for the back door exit. Alternatively, transition to a shoulder walk escape on the opposite side from your initial turn attempt, using the direction change to exploit their defensive positioning and create unpredictability in your escape system.",
         "answer_line": "Slide hips down for back door",
         "distractors": {
@@ -493,7 +493,7 @@
         }
       },
       {
-        "question": "When the turn becomes inevitable and you cannot maintain back control, what is the optimal positional transition?",
+        "question": "When their turn out of your back control is inevitable, what transition should you take?",
         "answer": "Follow the turn and transition to mount rather than fighting to maintain back control once hooks are lost. As they rotate toward you, swing your top leg over their body and establish mount position before they can close their guard. This requires releasing your hooks proactively and climbing to mount during the rotation rather than clinging to a back control position that is already compromised. Mount is still a dominant 4-point position and preserves your advantage.",
         "answer_line": "Follow the turn, climb to mount",
         "distractors": {

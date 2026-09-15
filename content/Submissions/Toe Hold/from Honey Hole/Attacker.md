@@ -116,7 +116,7 @@ description: "Learn to execute the toe hold from Honey Hole position. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins straightening their trapped leg during your toe hold attempt—what adjustment do you make?",
+      "name": "They straighten the trapped leg during your toe hold from honey hole—what do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A straightening leg actually improves your toe hold mechanics by removing the protective bend that absorbs rotational force. Maintain your figure-four grip and continue applying medial rotation. However, also recognize that leg straightening may indicate the opponent is attempting to push off your hip to create escape space. Counter by driving your crossing leg deeper across their hip and scooting your hips forward to close the distance before they can extend fully."

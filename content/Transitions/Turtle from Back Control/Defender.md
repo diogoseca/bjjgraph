@@ -72,7 +72,7 @@ description: "Master defending against turtle escapes from back control in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to attack a rear naked choke during your opponent's turtle escape attempt?",
+      "name": "When is the best moment to attack the rear naked choke as they escape to turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal moment is when the opponent moves their hands from your choking arm to address your hooks. This defensive hand transition creates a 1-2 second window where their neck is unprotected while their hands are occupied with hook fighting. Recognize this hand movement and immediately advance the choking arm behind their neck. Even if the choke does not finish, it forces them to abandon the escape and return to neck defense."
@@ -88,7 +88,7 @@ description: "Master defending against turtle escapes from back control in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your weight distribution when the opponent begins hip escaping during their escape attempt?",
+      "name": "How should you shift your weight from back control as they start hip escaping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your weight forward and down through your chest, angling the pressure toward the mat on the side the opponent is trying to hip escape toward. This creates downward resistance against their lateral hip movement. Simultaneously squeeze your hooks tighter and pull with your seatbelt in the opposite direction of their hip escape. The goal is to make their hip escape feel like they are dragging your entire body weight with them."

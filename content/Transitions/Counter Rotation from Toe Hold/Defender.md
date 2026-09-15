@@ -58,7 +58,7 @@ description: "Defend against the Counter Rotation from Toe Hold escape. Recognit
     },
     {
       "@type": "Question",
-      "name": "Your opponent begins counter rotating and your toe hold grip is losing effectiveness - should you tighten the grip or transition?",
+      "name": "Your toe hold is failing as they counter rotate — tighten the grip or transition?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Transition rather than tighten. Once the counter rotation has neutralized the angular relationship between your grip and their ankle, increasing grip pressure creates dangerous and unpredictable force vectors without improving submission probability. Instead, use their rotation as a transition opportunity to thread your leg into saddle position, which converts their escape attempt into a worse entanglement for them."
@@ -66,7 +66,7 @@ description: "Defend against the Counter Rotation from Toe Hold escape. Recognit
     },
     {
       "@type": "Question",
-      "name": "How do you prevent the opponent from establishing the 50-50 hook with their free leg during counter rotation?",
+      "name": "How do you stop them from getting the 50-50 hook during their counter rotation?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your hip positioning and free leg to block their free leg from hooking around your leg during the rotation. Position your hip close to their rotating body to limit the space available for their hook, and use your non-entangled leg to actively push their free leg away or pin it against the mat. Denying this hook prevents the 50-50 structure from forming and keeps you in a dominant entanglement position."

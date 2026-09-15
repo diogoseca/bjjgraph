@@ -56,7 +56,7 @@ description: "How to defend against Arm Triangle from Front Headlock in BJJ. Rec
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why does the standard guillotine defense posture (arms tight to neck, chin tucked) actually make you more vulnerable to the arm triangle from front headlock?",
+      "name": "Why does the guillotine defense posture make you vulnerable to the arm triangle from front headlock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The guillotine defense positions your near arm tight against your neck with your bicep pressed into your carotid artery - which is exactly the arm position the arm triangle requires. When you clasp your hands near your chin to defend the guillotine, you are doing the attacker's arm-isolation work for them. The arm triangle needs your own arm compressing one carotid while the attacker's arm compresses the other, so your defensive chin-tuck posture with tight arms creates half the choke mechanism automatically. Recognizing this contradiction is critical - you must adjust your arm positioning when the attack shifts from guillotine to arm triangle."
@@ -64,7 +64,7 @@ description: "How to defend against Arm Triangle from Front Headlock in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "At what point during the arm triangle from front headlock sequence does the defender have the highest chance of successful escape, and why?",
+      "name": "When is the defender's best escape window in the front headlock arm triangle, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The highest-percentage escape window is during the grip transition phase, when the attacker is reconfiguring from front headlock control to the arm triangle configuration. During this moment, the attacker's control is least stable because they are changing grip positions and their pressure momentarily shifts. The attacker cannot maintain full downward front headlock pressure while simultaneously threading the arm triangle grip, creating a brief control gap. Once the grip locks, escape difficulty increases substantially. Once side control is achieved with the grip locked, escape becomes very difficult. Defenders must act during the transition, not after consolidation."
@@ -72,7 +72,7 @@ description: "How to defend against Arm Triangle from Front Headlock in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "Your near arm is already trapped against your neck and you feel the attacker locking their gable grip behind your shoulder - what is your immediate defensive priority?",
+      "name": "Your arm is trapped on your neck and they are locking the gable grip; what is your first priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is preventing the attacker from walking to side control by framing on their near hip and inserting your inside knee between your bodies. The grip is already locked, so fighting to extract your arm at this point is lower percentage. Instead, focus on blocking the lateral transition that gives the choke its finishing angle. By inserting your knee and recovering half guard, you disrupt the side control position that the attacker needs for efficient finishing pressure. From half guard, you can work to loosen the grip and create the space needed to eventually extract your trapped arm."
@@ -80,7 +80,7 @@ description: "How to defend against Arm Triangle from Front Headlock in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "When caught in a fully consolidated arm triangle from side control after the front headlock transition, which direction should you bridge and why?",
+      "name": "Caught in a fully locked arm triangle from side control, which way do you bridge and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Bridge toward the attacker and toward the trapped arm side, not away from the attacker. Bridging away from the attacker increases the squeeze angle because you are pulling your neck into the compression. Bridging toward the attacker reduces the angle of the squeeze by collapsing the space the attacker uses for shoulder drive. This direction also creates a chance to turn your body enough to extract your trapped shoulder from the choke configuration. The counterintuitive nature of this direction is why many defenders instinctively bridge the wrong way and accelerate their own submission."
@@ -88,7 +88,7 @@ description: "How to defend against Arm Triangle from Front Headlock in BJJ. Rec
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your hand positioning when you recognize the attacker is switching from a guillotine threat to an arm triangle setup from front headlock?",
+      "name": "How do you change your hand position when their guillotine threat becomes an arm triangle setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You must switch from guillotine defense hand positioning (hands clasped near chin, arms tight to neck) to arm triangle defense hand positioning (near arm extended away from neck, far hand framing on attacker's hip). For guillotine defense, keeping your arms tight protects the chin and prevents the under-chin grip. For arm triangle defense, you need the opposite - your near arm must be as far from your neck as possible to prevent the bilateral compression. The transition between these two defensive postures must happen the instant you recognize the attack is changing, because any delay means the attacker completes the arm trap while your arm is still in the vulnerable guillotine-defense position."

@@ -92,7 +92,7 @@ description: "How to execute the Clock Choke in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "At what angle relative to the opponent's spine should you be when applying maximum finishing pressure?",
+      "name": "For the clock choke, what angle to their spine gives maximum finishing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You should be approximately perpendicular (90 degrees) to their spine when applying maximum pressure. This angle creates optimal leverage for the rotational pressure component of the choke. Being too parallel reduces the effectiveness of your sprawl, while going past 90 degrees can release tension on the collar grip and allow them to turn into you."
@@ -100,7 +100,7 @@ description: "How to execute the Clock Choke in BJJ. Attacking perspective with 
     },
     {
       "@type": "Question",
-      "name": "Your opponent turtles very tight with their chin tucked—how do you create the opening for Clock Choke?",
+      "name": "They turtle tight with chin tucked: how do you open the collar for the clock choke?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Use your hip control arm to threaten back takes or far-side attacks, forcing them to address those threats and potentially lift their head or create collar access. You can also work to flatten them by sprawling pressure onto their upper back, which typically opens the neck as they try to post. If they remain completely tucked, consider transitioning to crucifix or back control entries that bypass the chin defense entirely."
@@ -412,7 +412,7 @@ The Clock Choke is a blood choke that can render an opponent unconscious within 
 ## Train this with a System
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__type-chip">System</span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Turtle attack using collar control unique to gi</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Gi-Specific-Strategy" data-cta="related-system-card" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-member-count="20"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Gi-Specific Strategy</span><span class="system-card__unlocks-badge">Unlocks 20 techniques</span><span class="system-card__blurb">Turtle attack using collar control unique to gi</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Competition Strategy</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

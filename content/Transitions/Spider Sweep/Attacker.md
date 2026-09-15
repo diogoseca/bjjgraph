@@ -74,7 +74,7 @@ description: "Learn to execute the Spider Sweep from Spider Guard. Step-by-step 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Your opponent posts their hand on the mat as you initiate the Spider Sweep - how do you adjust your attack?",
+      "name": "They post a hand on the mat as you start the spider sweep: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent posts, they have removed one arm from their defensive structure to prevent the sweep. Immediately transition to a triangle entry by pulling the posting arm across your centerline with your grip while throwing your far leg over their shoulder on the non-posting side. Their commitment to base defense has isolated their arm and created the exact opening needed for submission entry. Alternatively, pivot your hips for an omoplata on the posting side."
@@ -106,7 +106,7 @@ description: "Learn to execute the Spider Sweep from Spider Guard. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent widens their base and drops their weight low to resist the sweep - what options do you have?",
+      "name": "They widen their base and drop low against your spider sweep: what options do you have?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A wide, low base creates three opportunities. First, switch to the overhead balloon sweep by extending both legs upward to lift them using their lowered weight against them. Second, the wide base opens space for omoplata entry by pivoting your hips toward the side with the larger gap between their knee and your hip. Third, transition one foot to lasso position for the lasso-assisted variant, which provides additional rotational force through the wrapped leg that overcomes the wider base. The wide base that defeats the standard sweep opens vulnerabilities to these alternatives."

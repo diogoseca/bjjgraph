@@ -363,7 +363,7 @@
         }
       },
       {
-        "question": "What grip adjustment should you make if the opponent clasps their hands together to defend the extension?",
+        "question": "What grip break beats clasped hands in the belly down armbar from mounted crucifix?",
         "answer": "From belly down, grip break by peeling toward the pinky-finger side of their clasped hands while simultaneously driving your hips upward. The hip extension force applied through your pelvic fulcrum far exceeds their grip strength, especially when directed against the weakest axis of their clasp. Alternatively, maintain position and apply slow, progressive pressure—their grip will fatigue before your hip drive does. Avoid jerking or explosive breaks, which risk sudden uncontrolled hyperextension once the grip fails.",
         "safety_critical": false,
         "answer_line": "Peel pinky-side, drive hips up",
@@ -378,7 +378,7 @@
         }
       },
       {
-        "question": "What are the key indicators that the submission is reaching the breaking point and you should ease pressure in training?",
+        "question": "Which signs show the armbar is at the breaking point so you should ease off in training?",
         "answer": "Watch for the opponent's body stiffening as they resist the extension, increased breathing rate or holding breath, any involuntary flinch or jerk in their trapped arm, and their free hand reaching toward the trapped arm or tapping their own body. The elbow will reach full extension with visible straightening of the arm, and any pressure beyond this point risks ligament damage. In training, ease off at full extension and give adequate time for the tap—the submission is proven at full extension, not beyond it.",
         "safety_critical": true,
         "answer_line": "Arm straightens, body stiffens",
@@ -393,7 +393,7 @@
         }
       },
       {
-        "question": "How does the mounted crucifix entry change the belly down armbar compared to entries from other positions?",
+        "question": "How does the mounted crucifix entry change the belly down armbar versus other entries?",
         "answer": "The mounted crucifix provides pre-isolated arm control through leg entanglement, eliminating the grip-fighting and arm isolation phase required from other positions. This means the attacker can focus entirely on the rotation and finishing mechanics rather than securing the arm. Additionally, the opponent's second arm is also controlled, removing their ability to assist the trapped arm's defense or create frames to disrupt the rotation. The trade-off is that unwinding the leg entanglement during rotation requires precise timing to maintain continuous control.",
         "safety_critical": false,
         "answer_line": "Arm already isolated, no grip fight",
@@ -408,7 +408,7 @@
         }
       },
       {
-        "question": "What base adjustments prevent the opponent from rolling you over once you establish the belly down position?",
+        "question": "What base adjustments stop them from rolling you once you are belly down?",
         "answer": "Spread both legs wide to create a stable tripod base, driving your toes into the mat for anchor points. Your knees should be off the mat with weight distributed through your toes and your pelvis. If the opponent attempts to roll toward you, post your far leg out further to widen the base. If they roll away, follow with your hips and maintain the extension angle. The wider your base, the more force is required to displace you—narrow legs are the primary reason attackers get rolled from belly down.",
         "safety_critical": false,
         "answer_line": "Wide base, toes anchored down",
@@ -423,7 +423,7 @@
         }
       },
       {
-        "question": "In competition, what finishing strategy maximizes success rate with the belly down armbar from mounted crucifix?",
+        "question": "In competition, what finishing strategy best lands the belly down armbar from mounted crucifix?",
         "answer": "Set up the belly down armbar by first threatening chokes from the crucifix, forcing the opponent to extend their arms defensively. When the arm extends, immediately secure the wrist and begin the rotation. Execute the rotation at full speed since the opponent is already committed to choke defense. Once belly down, apply pressure progressively but without hesitation—competition opponents will attempt multiple escapes in rapid succession. Maintain wide base throughout and be prepared to transition to standard armbar if they roll into you, turning their escape into a second submission opportunity.",
         "safety_critical": false,
         "answer_line": "Threaten choke, catch extended arm",
@@ -600,7 +600,7 @@
         }
       },
       {
-        "question": "Why is the transition phase the critical window for defense rather than after the belly down position is established?",
+        "question": "Why defend the mounted crucifix armbar during the rotation rather than after belly down?",
         "answer": "During the transition, the attacker must release or adjust their leg entanglement from the crucifix to rotate prone, creating a brief window where arm control is loosened. Once belly down is fully established with hips past the shoulder, wide base, and wrist secured, the attacker's mechanical advantage through hip extension is overwhelming—their posterior chain muscles against your bicep is not a winnable strength contest. Defending the transition prevents the position from being established rather than trying to escape an already dominant finishing position.",
         "safety_critical": false,
         "answer_line": "Leg control loosens mid-rotation",

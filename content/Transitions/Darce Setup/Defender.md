@@ -66,7 +66,7 @@ description: "How to defend against Darce Setup in BJJ. Recognition cues, defens
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun threading their arm but has not locked the grip — what is your best defensive option?",
+      "name": "They're threading the darce arm but haven't locked the grip. What is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Circle toward the choking arm side and sit through to recover guard. At this stage the threading arm has some depth but no locked grip meaning you can still move your body freely enough to change the positional dynamic. By turning into the attacker and pulling your hips through you transition from front headlock bottom to guard which eliminates the Darce threat entirely. You must act before the grip locks because once the figure-four is secured this escape becomes dramatically harder."

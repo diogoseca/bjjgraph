@@ -317,7 +317,7 @@
         }
       },
       {
-        "question": "The bottom player begins rotating their shoulders toward the mat as you backstep—what does this indicate and how do you respond?",
+        "question": "Their shoulders rotate toward the mat as you backstep RDLR — what is it and how do you answer?",
         "answer": "Shoulder rotation toward the mat indicates a berimbolo or crab ride entry attempt. The bottom player is using your backstep momentum to facilitate their inversion underneath you. Immediately drive your chest forward and down toward their hips to eliminate the space they need for the inversion. Use your cross-face grip to turn their head away from the rotation direction. If they are already partially inverted, switch to a body lock around their torso to pin them flat and eliminate rotational capacity entirely.",
         "answer_line": "Drive chest down, cross-face",
         "distractors": {
@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "After completing the backstep and reaching Headquarters, what determines your next passing direction?",
+        "question": "After the RDLR backstep to Headquarters, what determines your passing direction?",
         "answer": "Read the bottom player's immediate defensive response: if they turn toward the trapped leg and attempt to recover half guard, drive through with a knee cut. If they extend their legs to create distance with foot-on-hip frames, redirect to leg drag or toreando. If they attempt deep half entry by diving under your base, backstep further or transition to body lock. If they are flat and passive, apply systematic Headquarters pressure through any preferred passing lane. Remain in Headquarters long enough to read their reaction before committing to a direction.",
         "answer_line": "Read their reaction, then choose",
         "distractors": {
@@ -359,7 +359,7 @@
         }
       },
       {
-        "question": "Your opponent posts a foot on your hip and inserts a Single Leg X hook as the backstep opens space—how do you keep passing?",
+        "question": "They get a foot on your hip and a Single Leg X hook as you backstep — how do you keep passing?",
         "answer": "Do not race to settle into Headquarters against a forming entanglement. First strip the foot on your hip by gripping the ankle and driving it to the mat, killing the dual-contact needed for Single Leg X. As you clear the foot, step your posting leg back to lengthen the distance and break the hook's purchase, then re-pin their near knee with your shin before resettling. The direction of force is down-and-back on the hook leg while your cross-face keeps their torso flat so they cannot follow with an elevation sweep.",
         "answer_line": "Strip the hip foot, lengthen out",
         "distractors": {
@@ -506,7 +506,7 @@
         }
       },
       {
-        "question": "The backstep has partially cleared your hook but Headquarters is not yet established—what is your best response?",
+        "question": "The backstep half-clears your RDLR hook before Headquarters — what is your best response?",
         "answer": "This is the critical transitional window where you must commit to one of two strategies: either aggressively re-hook by following with hip rotation and ankle grip pulling to re-establish RDLR, or transition to an alternative guard by inserting feet on hips for X-Guard or Single Leg X before the top player can consolidate. The worst option is hesitating between the two—partial commitment to either strategy results in neither succeeding. Assess the top player's upper body control and remaining balance to determine which option has higher probability of success.",
         "answer_line": "Commit fully: re-hook or shift",
         "distractors": {
@@ -534,7 +534,7 @@
         }
       },
       {
-        "question": "How should you adjust your defensive strategy if the top player combines the backstep with a body lock?",
+        "question": "How do you adjust your RDLR defense when they combine the backstep with a body lock?",
         "answer": "The body lock eliminates your inversion option by pinning your torso and removing rotational freedom. When you recognize the body lock grip forming, abandon berimbolo-based defenses entirely and focus on preventing the backstep from clearing your hook through aggressive ankle grip fighting and hip rotation. If the hook is cleared despite your resistance, frame against their arms to create space for hip escape rather than attempting to invert. Your best option becomes transitioning to half guard retention by inserting a knee shield as they settle into Headquarters.",
         "answer_line": "Drop invert, frame and escape",
         "distractors": {

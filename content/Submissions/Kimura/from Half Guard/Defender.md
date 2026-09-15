@@ -66,7 +66,7 @@ description: "How to defend against Kimura from Half Guard in BJJ. Recognition, 
     },
     {
       "@type": "Question",
-      "name": "Why is rolling forward over your shoulder a dangerous escape attempt when caught in a Kimura from half guard?",
+      "name": "Why is rolling forward a dangerous escape when caught in a half guard Kimura?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rolling forward is dangerous because the attacker maintains the figure-four Kimura grip throughout your entire roll. You end the roll with your back exposed and the attacker attached to your back with the Kimura still locked. This converts a submission defense situation into a back exposure plus submission threat, which is objectively worse. The attacker can then finish the Kimura from back control or transition to rear naked choke. Instead of rolling, drive backward into the attacker or circle away."
@@ -74,7 +74,7 @@ description: "How to defend against Kimura from Half Guard in BJJ. Recognition, 
     },
     {
       "@type": "Question",
-      "name": "At what point during the Kimura sequence does defense become critically urgent, and what should you do?",
+      "name": "When does Kimura defense become critically urgent from half guard top, and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Defense becomes critically urgent the moment you feel the figure-four grip closing around your wrist. Once locked with hip connection and perpendicular angle, the attacker's trilemma (submission, sweep, back take) is fully active and each defensive choice opens a different attack. You should act before this point by stripping their initial wrist control, retracting your arm to your centerline, and driving heavy crossface pressure to flatten them. If figure-four is locked, immediately grab your own thigh or belt to stall rotation while working grip breaks."
@@ -82,7 +82,7 @@ description: "How to defend against Kimura from Half Guard in BJJ. Recognition, 
     },
     {
       "@type": "Question",
-      "name": "What should you do if you feel shoulder rotation pressure beginning and cannot break the figure-four grip?",
+      "name": "You feel Kimura rotation starting and can't break the figure-four: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If rotation has started and grip breaks have failed, you must tap immediately if you feel sharp pain or sense the joint reaching its limit. In a training context, tap early rather than risking a rotator cuff tear or shoulder dislocation. If there is still room before damage, turn your body to face the attacker (rotating toward them, not away) while pulling your elbow aggressively toward your hip. This can create momentary slack. However, never attempt to endure rotation past the pain point - the shoulder joint can suffer permanent damage within fractions of a second once the rotational limit is reached."
@@ -90,7 +90,7 @@ description: "How to defend against Kimura from Half Guard in BJJ. Recognition, 
     },
     {
       "@type": "Question",
-      "name": "How do you defend the Kimura sweep that occurs when the attacker uses your posted hand as a pivot point?",
+      "name": "How do you defend the Kimura sweep that pivots off your posted hand?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The best defense is prevention: never post your free hand on the mat to resist rotation. If you feel the urge to post, instead use that hand to attack the attacker's figure-four grip or control their hip. If you've already posted and feel the sweep loading, immediately retract the posted hand and lower your base by dropping your hips toward the mat. Widen your knees to create a broader base that's harder to sweep. The sweep requires you to be high on a single post point, so lowering your center of gravity neutralizes the leverage."
@@ -98,7 +98,7 @@ description: "How to defend against Kimura from Half Guard in BJJ. Recognition, 
     },
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting a Kimura from half guard bottom?",
+      "name": "What is the earliest cue that the bottom player is going for a Kimura from half guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when the bottom player releases their underhook or primary frame to reach for your arm, typically your posting hand or the arm establishing crossface. You may also feel their inside hand beginning to thread under your tricep or their body angle shifting aggressively to their side. Recognizing these early movements before the figure-four is locked gives you the widest window for prevention through arm retraction or forward pressure."

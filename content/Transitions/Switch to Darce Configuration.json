@@ -233,7 +233,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the primary trigger that signals the correct timing to switch from buggy choke to darce configuration?",
+        "question": "From buggy choke top, what signals the right moment to switch to the darce?",
         "answer": "The primary trigger is the opponent rotating their torso toward your choking arm to relieve collar pressure. Their near shoulder rises and far shoulder drops, exposing the armpit-to-neck channel. Simultaneously, the far arm must be posted or elevated enough to allow arm threading under the far armpit. This rotation creates the mechanical angle that makes the darce viable while weakening the original buggy choke.",
         "answer_line": "Opponent rotates toward choking arm",
         "distractors": {
@@ -247,7 +247,7 @@
         }
       },
       {
-        "question": "What is the critical mechanical difference between when to choose the darce switch versus the anaconda switch from buggy choke top?",
+        "question": "What mechanical difference decides between the darce switch and the anaconda switch?",
         "answer": "The darce threads under the opponent's far armpit first and then wraps around the neck, while the anaconda wraps the neck first and connects under the armpit. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. Choose the anaconda when the near arm is tightly trapped between the opponent's head and your body and the far armpit is closed. The threading direction determines which choke is mechanically available.",
         "answer_line": "Darce threads armpit, then neck",
         "distractors": {
@@ -261,7 +261,7 @@
         }
       },
       {
-        "question": "Your opponent clamps their far elbow tight to their ribs as you attempt to thread under the far armpit—how do you adjust?",
+        "question": "They clamp the far elbow to their ribs as you thread for the darce—how do you adjust?",
         "answer": "Abandon the darce angle because the threading path is blocked. Immediately switch to the anaconda configuration, which wraps the neck first and does not require far armpit access. Alternatively, return to the original buggy choke collar grip and wait for the opponent to react again, then read whether the next defensive motion opens the darce or anaconda path.",
         "answer_line": "Switch to anaconda configuration",
         "distractors": {
@@ -275,7 +275,7 @@
         }
       },
       {
-        "question": "Why must the choking arm thread under the far armpit with sufficient depth before locking the figure-four?",
+        "question": "Why must the choking arm thread deep under the far armpit before locking the figure-four?",
         "answer": "Insufficient threading depth means the forearm blade does not seat fully across the throat against the near-side carotid artery. A shallow darce creates a loose grip where the opponent can posture up, create space between your forearm and their neck, or strip the grip entirely. Deep threading ensures the wrist bone and forearm blade create a tight seal across the carotid that cannot be relieved by head movement or posture changes.",
         "answer_line": "Deep seal locks blade on carotid",
         "distractors": {
@@ -317,7 +317,7 @@
         }
       },
       {
-        "question": "Your opponent begins sitting to guard explosively as you release the buggy choke collar to initiate the darce switch—what is your response?",
+        "question": "They sit to guard explosively as you release the buggy collar for the darce—what is your response?",
         "answer": "Follow the sitting motion and use whatever neck contact you have to establish a front headlock or arm-in guillotine from the new angle. The opponent's explosive sit creates forward momentum you can redirect into a snapdown. If they achieve full closed guard before you can secure head control, consolidate top position inside their guard and reset. Do not chase the darce from inside closed guard.",
         "answer_line": "Follow into headlock or guillotine",
         "distractors": {
@@ -331,7 +331,7 @@
         }
       },
       {
-        "question": "What are the entry requirements that must exist before attempting the darce switch from buggy choke top?",
+        "question": "What conditions must exist before you attempt the darce switch from buggy choke top?",
         "answer": "Four conditions must be present: buggy choke top control with at least partial collar or neck access, opponent rotation toward the choking arm exposing the far side, far arm posted or elevated enough to allow threading under the armpit, and sufficient chest-to-back pressure maintained to prevent the opponent from escaping during the grip transition window. Missing any one of these conditions significantly reduces success probability.",
         "answer_line": "Grip, rotation, posted arm, pressure",
         "distractors": {
@@ -345,7 +345,7 @@
         }
       },
       {
-        "question": "Why should the collar release and darce arm redirect be executed as one continuous motion rather than in separate steps?",
+        "question": "Why must the collar release and darce thread be one continuous motion?",
         "answer": "Any pause between releasing the collar and threading under the far armpit creates a defensive window where the opponent can re-turtle tightly, clamp the far elbow to their ribs, strip remaining grips, or sit to guard. The continuous motion ensures the opponent's reaction to losing collar pressure flows directly into the new threading path before they can process the grip change and implement specific darce defense.",
         "answer_line": "One continuous motion, no gap",
         "distractors": {
@@ -359,7 +359,7 @@
         }
       },
       {
-        "question": "If your darce grip is locked but the opponent rolls to their back to defend the top sprawl finish, what adjustment do you make?",
+        "question": "Your darce is locked but they roll to their back to kill the sprawl finish—what do you adjust?",
         "answer": "Follow the roll and maintain the darce grip throughout. The darce finishes effectively from the chest-to-chest position with the opponent on their back, and in some cases the finishing angle improves because gravity assists the compression. Walk your hips to maintain perpendicular pressure and continue squeezing. Do not release the grip to chase a top position—the darce is viable from multiple angles once the figure-four is fully locked.",
         "answer_line": "Follow the roll, keep squeezing",
         "distractors": {
@@ -486,7 +486,7 @@
     ],
     "flashcards": [
       {
-        "question": "What is the earliest recognition cue that the attacker is switching from buggy choke to darce configuration, and what should your immediate response be?",
+        "question": "Under buggy choke, what is the earliest cue of a darce switch, and how do you respond?",
         "answer": "The earliest cue is feeling the attacker's threading arm release the far-side collar grip and begin traveling across your upper back. Your immediate response should be to clamp your far elbow tight against your ribs to seal the armpit and prevent the threading path. This must happen within one second of sensing the collar release because the attacker's arm redirect is designed to be a continuous motion without pause.",
         "answer_line": "Clamp far elbow to ribs instantly",
         "distractors": {
@@ -500,7 +500,7 @@
         }
       },
       {
-        "question": "Why is sitting to guard during the grip transition window effective, and what are the timing requirements?",
+        "question": "Why does sitting to guard during the darce grip transition work, and what timing does it demand?",
         "answer": "Sitting to guard works because the attacker's control is momentarily reduced between releasing the buggy choke collar and establishing the darce grip. During this 1-2 second window, the attacker has incomplete neck control and reduced ability to prevent hip movement. You must commit to the sit explosively the instant you feel the collar release. Hesitating even slightly allows the attacker to re-establish pressure with the darce threading, closing the escape window permanently.",
         "answer_line": "Sit explosively during the gap",
         "distractors": {
@@ -514,7 +514,7 @@
         }
       },
       {
-        "question": "Your attacker has begun threading under your far armpit but has not locked the figure-four yet—what is your highest-percentage defensive option?",
+        "question": "They are threading under your far armpit but the figure-four is not locked—your best defense?",
         "answer": "Extract the trapped near arm immediately by gripping your own wrist with your free hand and pulling the arm out of the darce channel. The near arm serves as the compression fulcrum that makes the darce a bilateral choke rather than a one-sided squeeze. Removing this arm before the figure-four locks eliminates the choke mechanics entirely, forcing the attacker to abandon the darce and seek a different position. This window closes permanently once the figure-four grip is secured.",
         "answer_line": "Extract near arm, grip own wrist",
         "distractors": {
@@ -542,7 +542,7 @@
         }
       },
       {
-        "question": "What distinguishes defending the darce switch from buggy choke versus defending a standard darce entry from turtle or front headlock?",
+        "question": "How does defending the darce switch from buggy choke differ from defending a standard darce entry?",
         "answer": "The key difference is the grip transition window. In a standard darce entry, the attacker threads directly from neutral control without releasing an existing grip. In the buggy choke switch, the attacker must release the collar grip before rethreading for the darce, creating a 1-2 second control gap. This window is the defender's primary advantage and does not exist in standard darce entries. However, the defender is also starting from a more compromised position with partially broken posture from the buggy choke.",
         "answer_line": "Switch has a 1-2s transition gap",
         "distractors": {

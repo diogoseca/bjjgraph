@@ -64,7 +64,7 @@ description: "Defend against crucifix maintenance in BJJ. Recognition cues, syst
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to attempt escape from crucifix maintenance, and what cues signal this window?",
+      "name": "When is the best moment to escape crucifix, and what cues signal that window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal escape windows occur during the attacker's maintenance adjustments: grip transitions on the far arm (brief control gap), weight shifts for submission setups (reduced chest pressure), hip switches for realignment (momentary balance disruption), and the recovery moment after blocking your previous escape attempt (attentional reset). Tactile cues include lightening of chest pressure, loosening of the far arm grip, and brief instability in the attacker's base. Visual cues include the attacker looking away to set up attacks and hand repositioning movements."
@@ -72,7 +72,7 @@ description: "Defend against crucifix maintenance in BJJ. Recognition cues, syst
     },
     {
       "@type": "Question",
-      "name": "Why should arm extraction be combined with simultaneous body movement rather than performed as a standalone action?",
+      "name": "Why pair crucifix arm extraction with hip movement instead of doing it alone?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Freeing the arm without changing body position gives the attacker an immediate opportunity to recapture the arm with a simple re-squeeze of the leg triangle or a quick grip re-establishment. When arm extraction is combined with a hip escape or turn, the new body angle makes recapture mechanically difficult because the geometry that enabled the trap no longer exists. The simultaneous movement also forces the attacker to address two problems at once—arm escape and positional change—splitting their maintenance attention and reducing their ability to counter effectively."
@@ -80,7 +80,7 @@ description: "Defend against crucifix maintenance in BJJ. Recognition cues, syst
     },
     {
       "@type": "Question",
-      "name": "How should you manage your energy when trapped in crucifix against an opponent actively maintaining position?",
+      "name": "How do you manage energy while trapped in crucifix against active maintenance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Breathe calmly through the nose to prevent hyperventilation and panic. Use micro-movements that require minimal energy rather than explosive bursts that exhaust you quickly. Accept that escape is a process requiring patient, incremental work rather than a single dramatic movement. Time your energy expenditure to coincide with the attacker's adjustment windows when your effort will have maximum effect. Reserve any explosive energy for the final moment of escape execution when space has already been created through accumulated micro-movements. A calm, methodical defender will outlast a tense, panicking one."
@@ -88,7 +88,7 @@ description: "Defend against crucifix maintenance in BJJ. Recognition cues, syst
     },
     {
       "@type": "Question",
-      "name": "If the attacker transitions to a kimura grip on your far arm, what does this signal and how should you respond?",
+      "name": "They switch to a kimura grip on your far arm in crucifix. What does it signal and how do you react?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The kimura grip transition signals two things: the attacker is seeking more secure control and they are adding a submission threat to their maintenance. During the grip transition itself, there is a brief window where neither the old grip nor the new grip is fully established—this is an escape opportunity if you act immediately. If the kimura grip locks in, you must address both the positional control and the submission threat. Straighten the arm to reduce kimura leverage while using the transition disruption to work hip escape. Do not allow the arm to be rotated behind your back, as this creates both a submission and a tighter positional control."

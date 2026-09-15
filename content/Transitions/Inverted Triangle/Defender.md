@@ -56,7 +56,7 @@ description: "How to defend against the Inverted Triangle in BJJ. Recognition cu
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting an inverted triangle rather than continuing the standard triangle attack?",
+      "name": "What is the earliest cue that they're switching from a standard triangle to an inverted triangle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when the opponent releases their head control grip and reaches across your body toward your far hip or belt line. This grip change is the necessary precursor to the rotation—they cannot rotate without an anchor point on your far side. Recognizing this grip switch gives you the maximum defensive window before the rotation begins."
@@ -72,7 +72,7 @@ description: "How to defend against the Inverted Triangle in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Your opponent has completed the inverted triangle rotation and is pulling your head down from the reverse angle—what is your escape priority sequence?",
+      "name": "Their inverted triangle is set and they're pulling your head down: what's your escape sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "First, tuck your chin and create space between your neck and shoulder to reduce immediate choking pressure. Second, address the angle by squaring your hips to the attacker to disrupt the perpendicular geometry they need. Third, work to extract your trapped arm by tucking the elbow tight and driving it toward your hip. Fourth, once the arm is free or the angle is disrupted, posture up and disengage. Do not attempt head extraction until the triangle structure is compromised."
@@ -80,7 +80,7 @@ description: "How to defend against the Inverted Triangle in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "You feel the opponent's hips swinging but their rotation is already past 90 degrees—what is the most effective defensive response at this late stage?",
+      "name": "Their inverted triangle rotation is already past 90 degrees: what's your best defense this late?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this late stage, posture recovery and stacking are less effective because the rotation has too much momentum. Your best option is to spin with their rotation to nullify the angle change, matching their movement to prevent them from achieving the reverse choking position. Simultaneously work to extract your trapped arm during the dynamic scramble that results from both bodies rotating."
@@ -88,7 +88,7 @@ description: "How to defend against the Inverted Triangle in BJJ. Recognition cu
     },
     {
       "@type": "Question",
-      "name": "Why does continuing to turn your shoulder inward accelerate the inverted triangle finish rather than helping your defense?",
+      "name": "Why does turning your shoulder inward speed up the inverted triangle finish instead of defending it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Turning your shoulder inward is the standard triangle defense that works against the front choke, but it is precisely the movement the inverted triangle exploits. Your shoulder turn moves your neck deeper into the reverse choking angle the attacker is creating. The correct response is to reverse direction—square your shoulders back and drive posture upward to fight the new angle rather than feeding into it."

@@ -76,7 +76,7 @@ description: "How to finish the straight ankle lock from ankle lock control. Ste
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What anatomical structure does the straight ankle lock primarily attack and where should your forearm be positioned?",
+      "name": "What does the straight ankle lock target, and where should your forearm sit?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The straight ankle lock primarily attacks the Achilles tendon and the ankle joint ligaments through hyperextension. The blade of the wrist bone (radius) must be positioned directly against the Achilles tendon in the narrow gap between the calf muscle belly and the heel bone. This precise placement creates a sharp fulcrum that concentrates force on the most vulnerable anatomical structure rather than dispersing pressure across the larger calf muscle."
@@ -84,7 +84,7 @@ description: "How to finish the straight ankle lock from ankle lock control. Ste
     },
     {
       "@type": "Question",
-      "name": "Your opponent activates boot defense by pointing their toes and rotating their foot inward - what adjustment prevents escape?",
+      "name": "They point their toes and rotate the foot in for boot defense: how do you stop the escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Pull the heel deeper into your armpit pocket while squeezing your elbows tighter against your ribs to eliminate the rotational space the boot defense requires. Use your grip hand to strip the foot back into the correct position. If the boot defense is well-established and the foot has rotated significantly, transition to the belly-down finish variation where gravity assists in maintaining forearm pressure against the rotation and the prone position makes it harder for the defender to continue fighting the grip."
@@ -92,7 +92,7 @@ description: "How to finish the straight ankle lock from ankle lock control. Ste
     },
     {
       "@type": "Question",
-      "name": "What are the three simultaneous movement patterns that generate breaking pressure in the straight ankle lock finish?",
+      "name": "What three simultaneous movements generate the breaking pressure in the straight ankle lock?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The three coordinated patterns are hip extension driving the pelvis forward and upward, back arch pulling the shoulders away from the opponent, and forearm rotation tightening the wrist blade into the Achilles tendon. These three forces work together to create opposing vectors that hyperextend the ankle joint. The hip extension and back arch generate the primary force through the posterior chain, while the forearm rotation ensures the pressure concentrates on the Achilles tendon rather than dispersing across the surrounding tissue."
@@ -100,7 +100,7 @@ description: "How to finish the straight ankle lock from ankle lock control. Ste
     },
     {
       "@type": "Question",
-      "name": "What control elements must be established before you initiate breaking mechanics, and why does this sequence matter?",
+      "name": "What control must be set before you start breaking mechanics on the ankle lock, and why?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Before breaking mechanics: perpendicular hip alignment, legs wrapped securely around the trapped leg preventing hip rotation, forearm seated against the Achilles tendon, and foot clamped tight in the armpit pocket with zero rotational freedom. This sequence matters because attempting to finish without positional security allows the defender to escape through hip rotation, boot defense, or grip fighting. The 2-3 seconds invested in proper setup dramatically increases finishing percentage compared to rushing the bridge from an unstable base."
@@ -108,7 +108,7 @@ description: "How to finish the straight ankle lock from ankle lock control. Ste
     },
     {
       "@type": "Question",
-      "name": "At what point should you abandon the direct ankle lock finish and transition to an alternative attack?",
+      "name": "When should you abandon the straight ankle lock finish and transition to another attack?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Set an internal time limit of 10-15 seconds from when you establish control. If the finish is not imminent by that point—meaning the defender has successfully fought grips, activated boot defense, or created enough hip rotation to relieve meaningful pressure—immediately transition based on their defensive movement. Hip rotation away opens inside ashi garami, hip rotation toward opens outside ashi garami, and straightened leg opens kneebar. Continuing to fight for a finish beyond this window wastes energy and allows the defender to accumulate escape momentum."

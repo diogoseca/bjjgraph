@@ -72,7 +72,7 @@ description: "How to defend against Sweep to Mount in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "Your training partner fires the sweep bridge and you feel yourself tipping - what is your last-resort recovery option?",
+      "name": "Caught in the hindulotine, their sweep bridge fires and you are tipping—what is your last resort?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If you are past the balance point and the sweep is completing, immediately tuck your chin and bring both hands to your neck to defend the mounted guillotine that will follow. Do not waste energy trying to stop a sweep that has already succeeded. Your priority shifts to surviving the choke in mount rather than preventing the positional change, since the guillotine is the immediate finishing threat."
@@ -80,7 +80,7 @@ description: "How to defend against Sweep to Mount in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between the attacker setting up the Sweep to Mount versus the Butterfly Sweep with Guillotine?",
+      "name": "How do you tell the Sweep to Mount from the Butterfly Sweep with Guillotine setup?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key difference is foot positioning. For the Sweep to Mount, the attacker plants both feet flat on the mat near their hips in a bridging configuration. For the Butterfly Sweep with Guillotine, the attacker hooks their feet inside your thighs as butterfly hooks. Recognizing flat-planted feet versus hooking feet tells you which sweep variant is coming and determines whether you need to resist a bridge or avoid being elevated."
@@ -88,7 +88,7 @@ description: "How to defend against Sweep to Mount in BJJ. Recognition cues, def
     },
     {
       "@type": "Question",
-      "name": "What makes flattening your body against the attacker a high-risk defensive choice despite eliminating the bridge space?",
+      "name": "Why is flattening onto the hindulotine attacker risky even though it kills the bridge space?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Flattening your body removes the bridging space needed for the sweep, but it simultaneously compresses your neck deeper into the guillotine grip. This increases choking pressure because your own body weight drives you into the forearm blade under your chin. The strategy only works if your chin tuck and grip fighting are strong enough to survive the increased choke pressure while the sweep threat is neutralized."

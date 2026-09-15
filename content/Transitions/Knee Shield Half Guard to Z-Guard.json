@@ -273,7 +273,7 @@
         }
       },
       {
-        "question": "What conditions must exist in your knee shield half guard before you can attempt the Z-Guard transition?",
+        "question": "What conditions must exist in knee shield half guard before attempting the Z-guard transition?",
         "answer": "Your hips must retain mobility and not be flattened to the mat. You need at least one controlling grip (underhook preferred) on the opponent's upper body. The opponent's crossface must be neutralized or absent so your head and shoulders can move. Your bottom leg hook must be secure on the opponent's trapped leg. Your current knee shield must have enough structural integrity to survive the momentary instability during elevation.",
         "answer_line": "Underhook, free hips, no crossface",
         "distractors": {
@@ -287,7 +287,7 @@
         }
       },
       {
-        "question": "What is the most critical mechanical detail that distinguishes a successful Z-Guard elevation from a failed one?",
+        "question": "Z-guard elevation: what mechanical detail separates a successful attempt from a failed one?",
         "answer": "The coordination between hip elevation and knee travel is the critical mechanical detail. The hip bridge or hip escape must create vertical space before the knee begins its upward journey. If you try to drive the knee upward without first lifting the opponent's weight off the shield through hip movement, the knee meets direct resistance and the transition stalls or gets stuffed. The hip moves first, the knee follows into the created space.",
         "answer_line": "Hips lift first, knee follows",
         "distractors": {
@@ -484,7 +484,7 @@
     ],
     "flashcards": [
       {
-        "question": "What are the earliest physical cues that indicate the bottom player is about to attempt the Z-Guard transition?",
+        "question": "Passing knee shield: earliest cues the bottom player is about to switch to Z-guard?",
         "answer": "The earliest cues are hip movement and grip adjustment. A short bridge or lateral hip escape creates the space needed for knee elevation, and this always precedes the knee movement itself. Additionally, the bottom player will often release a controlling grip momentarily to establish a deeper underhook or collar tie, which signals preparation for the transition. Recognizing these pre-movement indicators allows you to respond before the knee begins traveling.",
         "answer_line": "Hip escape and grip release",
         "distractors": {
@@ -498,7 +498,7 @@
         }
       },
       {
-        "question": "Why is it important to prevent the Z-Guard transition rather than just dealing with Z-Guard once it is established?",
+        "question": "Why prevent the Z-guard transition rather than just passing Z-guard once it is set?",
         "answer": "Z-Guard is significantly harder to pass than standard knee shield half guard. The elevated frame creates better distance, superior sweep angles, and direct back take access. Preventing the transition keeps the bottom player in a less advantageous position where your passing strategies are more effective. Additionally, the bottom player builds momentum through successful transitions, and each positional upgrade increases their confidence and offensive output.",
         "answer_line": "Z-Guard is far harder to pass",
         "distractors": {
@@ -512,7 +512,7 @@
         }
       },
       {
-        "question": "Your opponent begins hip escaping and you feel their knee shield starting to creep upward. What is your immediate response sequence?",
+        "question": "They hip escape and their knee shield creeps upward—what is your immediate response sequence?",
         "answer": "First, drive your hips forward to apply a pressure surge that opposes their hip escape direction. Second, use your near hand to control their knee shield leg at the knee, pressing it downward to prevent further upward travel. Third, establish or re-establish your crossface with the far hand to limit their upper body mobility. The combination of forward pressure, leg control, and crossface addresses all three mechanical requirements the bottom player needs for a successful elevation.",
         "answer_line": "Press forward, pin knee, crossface",
         "distractors": {

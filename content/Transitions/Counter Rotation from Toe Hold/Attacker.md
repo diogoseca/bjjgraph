@@ -88,7 +88,7 @@ description: "Learn to execute the Counter Rotation from Toe Hold. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has a deep toe hold grip and begins applying moderate rotational pressure - what determines whether you should attempt counter rotation or tap?",
+      "name": "With a deep toe hold building pressure, what decides between counter rotation and tapping?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The determining factor is whether the submission has reached maximum locked torque. Counter rotation must be initiated before the toe hold is fully locked at peak pressure. If you feel the joint is at or near its rotational limit with significant pain and no room for movement, tap immediately. The technique requires anticipatory timing during the pressure build-up phase, not reactive movement through an already-locked submission."
@@ -104,7 +104,7 @@ description: "Learn to execute the Counter Rotation from Toe Hold. Step-by-step 
     },
     {
       "@type": "Question",
-      "name": "You begin counter rotating but feel the opponent release their toe hold grip and start threading their leg across your hip line - what is happening and how do you respond?",
+      "name": "They drop the toe hold and thread a leg across your hip — what is happening and what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The opponent is abandoning the toe hold to transition into the saddle position, which is significantly more dangerous as it exposes you to inside heel hook attacks. Immediately stop your rotation and focus on preventing the far hook by using your free leg to block their leg from crossing your hip line. Prioritize inside position control over completing the rotation. If you can prevent full saddle establishment, work back to half guard or open guard instead."

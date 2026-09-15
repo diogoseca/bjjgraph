@@ -58,7 +58,7 @@ description: "Complete defensive guide against the North-South Choke from Side C
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest warning signs that your opponent is setting up the North-South Choke from Side Control?",
+      "name": "What are the earliest signs your opponent is setting up the north-south choke from side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest signs are the crossface deepening beyond normal side control pressure with the arm sliding further under your neck, the opponent actively clearing or pinning your near-side arm, and the opponent beginning to walk their body toward north-south by stepping their far leg over your head. Any combination of these three indicates a choke setup and requires immediate defensive action before the arm thread is completed."
@@ -82,7 +82,7 @@ description: "Complete defensive guide against the North-South Choke from Side C
     },
     {
       "@type": "Question",
-      "name": "What is your best defensive option if the choking arm is already threaded but the attacker has not yet sprawled into the final position?",
+      "name": "The choking arm is threaded but they have not sprawled in yet—what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Insert your near-side arm inside the choke space to block the carotid compression. Your forearm between the opponent's bicep and your neck prevents the blood choke from engaging. Simultaneously, hip escape aggressively and fight to turn into the attacker to disrupt their base. This is a temporary measure — the arm block buys time but is not sustainable. You must use the window to either escape to guard or force the attacker to abandon the choke and reset to side control."

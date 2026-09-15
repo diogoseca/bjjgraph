@@ -74,7 +74,7 @@ description: "How to execute Tai Otoshi in BJJ. Attacking perspective with setup
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary purpose of kuzushi in Tai Otoshi and when should it occur relative to your entry step?",
+      "name": "In Tai Otoshi, what does kuzushi do and when must it happen relative to your entry step?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Kuzushi (off-balancing) in Tai Otoshi serves to break the opponent's upright posture and commit their weight forward onto their toes, making them vulnerable to being thrown over your blocking leg. The kuzushi must occur before you step in with your blocking leg - typically 0.5-1 seconds prior. You should feel their weight clearly committed forward before placing your leg across. If you attempt the blocking leg placement before proper kuzushi, the opponent will simply step over or around your leg and the throw will fail."
@@ -82,7 +82,7 @@ description: "How to execute Tai Otoshi in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "Why must your hips achieve a full perpendicular position to your opponent during Tai Otoshi execution?",
+      "name": "Why must your hips rotate fully perpendicular to your opponent in Tai Otoshi?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The perpendicular hip position (90-degree rotation) is essential because it creates the proper mechanical advantage and throwing angle for Tai Otoshi. When your hips are perpendicular, your blocking leg extends across opponent's path at the optimal angle, your upper body rotation generates maximum circular pulling force, and the opponent's body naturally rotates over the blocking point. If you only achieve a 45-degree angle, the throw lacks power, the direction is incorrect, and the opponent often lands on their side rather than their back, or can step through your weak blocking position."
@@ -90,7 +90,7 @@ description: "How to execute Tai Otoshi in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "Your opponent pulls back and circles away as soon as they feel your forward kuzushi - what should you do?",
+      "name": "Your opponent circles back as they feel your Tai Otoshi kuzushi. What should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the opponent retreats from your forward pull, immediately chain to a backward-momentum technique such as Kouchi Gari, Osoto Gari, or a foot sweep that capitalizes on their retreat. Do not chase them forward with a second Tai Otoshi attempt, as this telegraphs your intentions and wastes energy. Advanced practitioners use the initial Tai Otoshi threat as a deliberate setup, with the real attack being the follow-up technique that exploits the predictable backward defensive reaction."
@@ -98,7 +98,7 @@ description: "How to execute Tai Otoshi in BJJ. Attacking perspective with setup
     },
     {
       "@type": "Question",
-      "name": "How does the blocking leg function differ from a traditional trip, and what happens if the leg is bent versus straight?",
+      "name": "How does the Tai Otoshi blocking leg differ from a trip, and why straight rather than bent?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "In Tai Otoshi, the blocking leg functions as a fixed fulcrum point that the opponent rotates over, not as a sweeping or tripping action that actively moves their leg. The leg should be relatively straight (slight bend acceptable) with the quadriceps engaged to create a rigid blocking point. If the leg is significantly bent, the opponent's forward momentum will collapse your knee and push through your position, nullifying the throw completely. The straight leg combined with your upper body rotation creates a wheel-and-axle mechanical advantage that projects them over the block."

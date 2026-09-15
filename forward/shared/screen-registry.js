@@ -65,25 +65,23 @@ export const screenItems = [
     "Idle graph · guest",
     "Boot & idle",
     "Default graph before the roll begins.",
-    {
-      showIntro: true,
-      active: false,
-      showDrillTab: true,
-    },
+    { active: false, showDrillTab: true },
   ),
   make(
     "idle-signed-in",
     "Idle graph · signed in",
     "Boot & idle",
     "Returning player with synced identity.",
-    { showIntro: true, active: false, signedIn: true, showDrillTab: true },
+    { active: false, signedIn: true, showDrillTab: true },
   ),
   make(
     "first-run",
     "First-run introduction",
     "Boot & idle",
     "First visit before the three-beat coach begins.",
-    { showIntro: true, firstRun: true, active: false, coachStep: 1 },
+    { active: false, coachStep: 1 },
+    ["Default"],
+    { behavior: "RETIRED IN PRODUCTION: the coach went in v1.104.0 and the 'Roll the graph.' intro copy went in v1.170.1 (owner: reading text over the boot animation is two things at once, and the intro said nothing). Kept here as a record of a surface that shipped; nothing new is authored against it." },
   ),
 
   make(
@@ -588,7 +586,6 @@ export const screenItems = [
     "Restart & terminal",
     "Terminal feedback cleared and a fresh roll can start without altering progress.",
     {
-      showIntro: true,
       active: false,
       toast: {
         kicker: "READY",

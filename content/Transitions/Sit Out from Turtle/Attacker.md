@@ -80,7 +80,7 @@ description: "Learn to execute the sit out from turtle position in BJJ. Step-by-
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What weight distribution from your opponent creates the optimal timing window for initiating the sit out?",
+      "name": "Which opponent weight distribution gives the best window for a sit out from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The sit out works best when opponent's weight is committed forward onto your shoulders or shifted predominantly to one side. Forward weight commitment means their hips are lighter on yours, creating the space needed for hip rotation. A side-heavy distribution means the opposite side has minimal pressure, allowing you to thread your leg through that opening. The worst time to attempt the sit out is when opponent has centered, heavy hip-to-hip pressure."
@@ -88,7 +88,7 @@ description: "Learn to execute the sit out from turtle position in BJJ. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Your opponent maintains heavy chest pressure centered on your upper back with hands controlling your hips - how do you create the conditions needed for a sit out?",
+      "name": "Heavy centered chest pressure and hip control in turtle: how do you set up the sit out?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "You need to displace their weight distribution before attempting the sit out. Use a feinted granby roll or hip switch to force them to shift their weight forward or to one side in reaction. When they adjust to counter your feint, the weight displacement creates the brief window needed for the sit out. Alternatively, use explosive hand fighting to strip one of their hip controls, then immediately initiate the sit out before they can re-establish the grip."
@@ -104,7 +104,7 @@ description: "Learn to execute the sit out from turtle position in BJJ. Step-by-
     },
     {
       "@type": "Question",
-      "name": "You initiate the sit out but feel your opponent immediately follow your hip rotation and stay connected to your back - what should you do?",
+      "name": "They follow your sit out rotation and stay glued to your back: what do you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not continue the sit out into a seated position with the opponent still behind you. If you feel them following, immediately chain into a secondary escape: either complete a full granby roll using the momentum you have already generated, or reverse direction and hit an explosive technical standup since their weight has committed to following your original rotation direction. The key principle is never settling into a position where the opponent is behind you with connection maintained."
@@ -112,7 +112,7 @@ description: "Learn to execute the sit out from turtle position in BJJ. Step-by-
     },
     {
       "@type": "Question",
-      "name": "Why is it critical to establish guard frames immediately after completing the hip rotation rather than securing grips first?",
+      "name": "Why establish leg frames immediately after the sit out rotation instead of grips first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Guard frames using your legs create structural barriers between you and the opponent that cannot be easily bypassed. If you try to secure grips first while your legs are not yet in position, the opponent can drive forward with chest pressure and achieve a pass to side control before your hands can create meaningful resistance. Legs between you and the opponent provide the strongest frames in grappling. Once leg frames are established, you have time to then secure complementary upper body grips."
@@ -120,7 +120,7 @@ description: "Learn to execute the sit out from turtle position in BJJ. Step-by-
     },
     {
       "@type": "Question",
-      "name": "What grip must you address from the opponent before attempting the sit out, and why is it the highest priority?",
+      "name": "Which opponent grip must you strip before a sit out from turtle, and why is it first?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The seatbelt or harness grip with over-under control around your torso must be addressed first because it allows the opponent to follow every hip movement and maintain chest-to-back connection throughout the rotation. With seatbelt intact, the opponent simply rotates with you and ends up behind you in the same or worse position. Strip the choking hand first, then the underhook hand, before committing to the sit out movement."

@@ -50,7 +50,7 @@ description: "Master defending against posture recovery from Mission Control. Ma
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What are the earliest recognition cues that the top player is beginning a posture recovery attempt from Mission Control?",
+      "name": "What are the earliest cues that the top player is starting posture recovery from Mission Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cues include the top player stiffening their free arm against your body, beginning to strip your head control grips with deliberate motions, and driving their weight slightly backward away from the trapped shoulder. You may also feel them widening their base by spreading their knees, which signals preparation for sustained escape effort. Recognizing these micro-adjustments before full posture recovery begins gives you the maximum counter window."
@@ -58,7 +58,7 @@ description: "Master defending against posture recovery from Mission Control. Ma
     },
     {
       "@type": "Question",
-      "name": "How do you use the top player's backward posture recovery momentum to transition to New York control?",
+      "name": "How do you use their backward posture recovery from Mission Control to transition to New York?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "As the top player drives backward to recover posture, their movement creates slack in the trapped arm. Use this moment to swim your near-side arm deeper under their far armpit while simultaneously adjusting your outside leg higher across their back. Their backward movement actually assists the transition by creating the space needed to reconfigure from Mission Control's shallow control to New York's deeper underhook configuration."
@@ -66,7 +66,7 @@ description: "Master defending against posture recovery from Mission Control. Ma
     },
     {
       "@type": "Question",
-      "name": "What is the most critical error defenders make when the top player begins recovering posture from Mission Control?",
+      "name": "What is the most critical error defenders make as posture recovers from Mission Control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most critical error is relying solely on grip strength to hold the top player's head down rather than using structural mechanics. When you fight posture recovery purely with pulling force, you fatigue rapidly and eventually lose the grip battle. Instead, increase hip elevation to re-load their weight onto the trapped shoulder, adjust your high guard leg higher for greater leverage, and use core and legs for structural control rather than arm-based pulling."
@@ -74,7 +74,7 @@ description: "Master defending against posture recovery from Mission Control. Ma
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully strips your head control and begins lifting their chest - what is your best immediate response?",
+      "name": "In Mission Control, they strip your head control and lift their chest — best immediate response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If head control is lost and posture recovery has begun, transition offensively rather than attempting to re-establish the original Mission Control. The highest-percentage response is entering a triangle by bringing your outside leg across their face - their partially recovered posture creates the space needed for triangle entry. Alternatively, transition to New York or release to closed guard with an immediate attack rather than fighting a losing grip battle."
@@ -82,7 +82,7 @@ description: "Master defending against posture recovery from Mission Control. Ma
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your hip elevation and leg positioning when you feel the top player beginning to stand up?",
+      "name": "From Mission Control, how do you adjust hip elevation and legs as the top player starts standing?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When the top player begins standing, increase downward pressure with your high guard leg and drive your hips higher to maintain connection. If they achieve a partial stand, you must make an immediate decision: either use a well-timed hip bump combined with pulling to bring them back down, enter a triangle using the space their standing creates, or accept the guard break and transition to an open guard system. Do not cling to a compromised rubber guard against a standing opponent."

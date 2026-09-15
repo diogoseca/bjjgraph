@@ -272,7 +272,7 @@
         "answer_line": "Drive weight through chest"
       },
       {
-        "question": "Your opponent establishes strong frames on your hips and begins extending their legs - how do you adjust?",
+        "question": "Pressure passing: they frame on your hips and extend their legs. How do you adjust?",
         "answer": "Lower your hips beneath their frames so the frames ride up over your shoulders rather than blocking your advancement. Drive your chest forward over the top of their frames to collapse the structure, and use your grips to pin their knees down. If they fully commit to pushing, switch to a knee slice pass to exploit the angle they've created by extending.",
         "answer_line": "Go under frames, collapse them",
         "distractors": {
@@ -286,7 +286,7 @@
         }
       },
       {
-        "question": "Why is crossface control important during pressure passing, and which direction should you pass relative to the crossface?",
+        "question": "Why does crossface control matter in pressure passing, and which side should you pass to?",
         "answer": "Crossface control is important because it prevents the opponent from turning into you, establishing underhooks, or recovering half guard. You should pass toward the same side as your crossface (if crossfacing to their right, pass to your right) to use the crossface pressure to drive them flat and prevent defensive rotation.",
         "answer_line": "Pass toward the crossface side",
         "distractors": {
@@ -300,7 +300,7 @@
         }
       },
       {
-        "question": "Your opponent begins turning into you and getting an underhook for deep half guard entry - what is the critical timing window to stop this?",
+        "question": "Pressure passing: what is the timing window to stop their deep half underhook entry?",
         "answer": "The critical timing window is before they complete the turn to their side and thread their head under your armpit. As soon as you feel the turn initiating, drive your crossface harder to flatten them back, sprawl your hips away from their underhook side, and establish a whizzer on their underhooking arm. Once they fully establish deep half with head underneath, stopping it becomes significantly more difficult.",
         "answer_line": "Before head threads under arm",
         "distractors": {
@@ -328,7 +328,7 @@
         "answer_line": "Anchor grip on knee or belt"
       },
       {
-        "question": "Explain the concept of incremental advancement in pressure passing and why rushing the pass is counterproductive?",
+        "question": "In pressure passing, what is incremental advancement and why is rushing counterproductive?",
         "answer": "Incremental advancement means passing in controlled steps, consolidating each position before moving to the next rather than finishing in one motion. Rushing is counterproductive because it costs you pressure and balance, handing the opponent your momentum to use for sweeps or guard recovery. Pressure passing requires patience and steady progression while maintaining constant heavy pressure throughout.",
         "distractors": {
           "plausible": [
@@ -342,7 +342,7 @@
         "answer_line": "Consolidate each step first"
       },
       {
-        "question": "You have established crossface and are clearing the near leg, but your opponent posts their far foot on your hip and begins pushing - what do you do?",
+        "question": "Crossface set, clearing the near leg, but they post their far foot on your hip and push. Now what?",
         "answer": "Maintain your crossface pressure to keep them flat and prevent the push from creating an angle. Use your free hand to grip their far ankle or pant leg and pin it to the mat or push it across their body. If you cannot remove the foot, drive your weight diagonally toward that hip to collapse the post. You can also switch your passing angle to go over that leg instead, converting into a leg drag or knee slide to the opposite side.",
         "answer_line": "Crossface, pin or trap the foot",
         "distractors": {
@@ -370,7 +370,7 @@
         }
       },
       {
-        "question": "Your pressure pass is blocked and opponent retains half guard with a strong knee shield - should you continue the pressure pass or chain to another technique?",
+        "question": "Pressure pass stalled by a strong knee shield: keep pressuring or chain to another pass?",
         "answer": "Against a strong knee shield you should chain to another pass, such as a knee slice or leg weave, rather than continue pure forward pressure. Forward force is inefficient here because the knee shield is a structural frame that gets stronger the harder you drive into it. Chain to a knee slice by angling your trapped knee across their thigh while maintaining crossface pressure, or switch to a leg weave by threading your leg over their knee shield. The key is recognizing the stall point early and transitioning before the opponent consolidates their defensive structure.",
         "distractors": {
           "plausible": [
@@ -531,7 +531,7 @@
         }
       },
       {
-        "question": "Your opponent has established crossface and is clearing your near leg - what is your best option at this stage?",
+        "question": "They have the crossface and are clearing your near leg. What is your best option now?",
         "answer": "At this late stage, your best option is to immediately get your hand inside the crossface to create a frame against their neck, then execute a strong hip escape away from the passing direction while simultaneously working to reinsert your near knee as a shield. If the leg is already cleared, you must bridge into the passer to disrupt their balance, then hip escape in the opposite direction to recover at least half guard. The priority is preventing full side control consolidation rather than returning to open guard.",
         "answer_line": "Frame neck, hip escape, shield knee",
         "distractors": {

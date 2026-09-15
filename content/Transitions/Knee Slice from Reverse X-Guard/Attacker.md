@@ -114,7 +114,7 @@ description: "Complete attacking guide for the Knee Slice from Reverse X-Guard. 
     },
     {
       "@type": "Question",
-      "name": "What is the most common mechanical failure that causes this pass to stall, and how do you prevent it?",
+      "name": "What mechanical error most often stalls the knee slice from reverse X, and how do you avoid it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The most common failure is attempting the slice before adequately degrading the primary hook behind the knee. When the hook is still engaged, it catches the knee mid-cut and creates a tug-of-war where the bottom player can re-establish full control. Prevention requires patience during the setup phase—invest in forward pressure, grip fighting, and controlled hook stripping until you feel the hook become shallow or lose purchase. Only then commit to the explosive slice. The setup is 80% of the technique."

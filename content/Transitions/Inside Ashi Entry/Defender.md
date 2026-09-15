@@ -56,7 +56,7 @@ description: "How to defend against Inside Ashi Entry in BJJ. Recognition cues, 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is attempting an Inside Ashi Entry from open guard?",
+      "name": "What is the earliest cue that they are entering inside ashi on you from open guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is when your opponent establishes a two-on-one grip on your leg, typically one hand on your ankle and one behind your knee or calf. This grip configuration is the precursor to every inside ashi entry variation. The moment you feel both their hands controlling the same leg, you should immediately begin defensive action - strip grips, step back, or sprawl. Waiting for the leg threading phase means you've already missed the best defensive window."
@@ -64,7 +64,7 @@ description: "How to defend against Inside Ashi Entry in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Why is sprawling forward dangerous if their inside leg has already partially threaded across your hip?",
+      "name": "Why is sprawling forward dangerous once their inside leg is across your hip?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "When their inside leg is already across your hip, sprawling forward drives your weight onto their wedge, which actually helps them consolidate the position. Your forward pressure loads their inside leg frame and creates the downward angle they need for control. Instead, when the inside leg is partially threaded, you should focus on hip rotation to clear the wedge or step back to extract, never drive forward into an established frame."
@@ -72,7 +72,7 @@ description: "How to defend against Inside Ashi Entry in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "Your opponent has inside ashi established and secures your heel with a C-grip - what is your immediate priority?",
+      "name": "They have inside ashi and a C-grip on your heel: what is your immediate priority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Your immediate priority is stripping the heel grip before they can transition to a figure-four finish grip. Use both hands in a two-on-one configuration to peel their fingers off your heel, working from the pinky side. Simultaneously rotate your knee toward the mat to relieve heel hook exposure. Do not attempt to extract your leg while the heel grip is active - this creates dangerous rotational force on your knee. Address the grip first, then work on leg extraction once your heel is free."
@@ -80,7 +80,7 @@ description: "How to defend against Inside Ashi Entry in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "When is counter-entanglement an appropriate defensive response versus when should you prioritize extraction?",
+      "name": "Defending a leg entry: when should you counter-entangle instead of extracting your leg?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Counter-entanglement is appropriate when their inside leg has crossed your hip and extraction is difficult, but their outside leg hook is not yet fully secured - this narrow window allows you to establish a mirror position. Prioritize extraction when the entry is still developing (inside leg not yet across hip) or when you are significantly less skilled in leg locks than your opponent. Counter-entangling against a superior leg locker puts you in a mutual exchange where they have the advantage, so only accept this option when extraction has failed."
@@ -88,7 +88,7 @@ description: "How to defend against Inside Ashi Entry in BJJ. Recognition cues, 
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your standing posture and base when you recognize an opponent is hunting for leg entries from open guard?",
+      "name": "How should you adjust your stance and base when your opponent hunts leg entries from open guard?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Widen your base and keep your weight slightly back rather than leaning forward into their guard. Maintain an athletic stance with knees bent but avoid stepping too close with either leg, as forward steps are the primary trigger for entries. Control distance with your arms using collar or wrist grips rather than closing distance with your legs. When you must step forward, do so with your lead leg only while keeping your trailing leg back as a base, and immediately retract if you feel any two-on-one grip establishing on your lead leg."

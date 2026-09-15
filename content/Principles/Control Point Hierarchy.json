@@ -106,6 +106,11 @@
       "principle_name": "Base",
       "relationship_type": "Prerequisite",
       "description": "Base provides the foundational stability required to establish and maintain control points without being swept or reversed"
+    },
+    {
+      "principle_name": "Limb Isolation",
+      "relationship_type": "Complementary",
+      "description": "Control near the shoulder or hip limits how an isolated limb can reconnect or rotate free."
     }
   ],
   "application_contexts": [
@@ -384,6 +389,11 @@
       "name": "Inside Position",
       "content_type": "Principle",
       "relationship": "Governs the grip and angle battle that establishes the control points the hierarchy ranks as high-value"
+    },
+    {
+      "name": "Limb Isolation",
+      "content_type": "Principle",
+      "relationship": "Control near the shoulder or hip limits how an isolated limb can reconnect or rotate free."
     }
   ],
   "flashcards": [
@@ -547,5 +557,9 @@
       "duration": 598,
       "verified": "2026-07-15"
     }
-  ]
+  ],
+  "graph_applicability": {
+    "scope": "all",
+    "rationale": "Control Point Hierarchy can guide how any position, transition, or submission is performed, prevented, or trained. Its application includes top, bottom, attacker, and defender."
+  }
 }

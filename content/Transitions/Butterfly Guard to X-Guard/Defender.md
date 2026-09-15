@@ -80,7 +80,7 @@ description: "How to defend against Butterfly Guard to X-Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "Your opponent has begun sliding their hips toward your right leg but has not yet secured the deep knee hook - what are your best defensive options?",
+      "name": "They slide hips toward your right leg but lack the deep knee hook: what is your best defense?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "At this mid-transition moment you have three primary options ranked by effectiveness: first, retract your right leg immediately by stepping it back before the inside hook threads behind the knee. Second, drive your right knee firmly to the mat to smash through the hook placement attempt and flatten their guard. Third, post both hands on their hips to frame and prevent the hip slide from progressing further underneath you. The choice depends on your balance and grip situation, but leg retraction is highest percentage if you have sufficient base to execute it without falling forward."
@@ -88,7 +88,7 @@ description: "How to defend against Butterfly Guard to X-Guard in BJJ. Recogniti
     },
     {
       "@type": "Question",
-      "name": "What body positioning changes in the opponent should alert you that an X-Guard entry is being attempted rather than a standard butterfly sweep?",
+      "name": "What cue tells you an X-Guard entry is coming rather than a standard butterfly sweep?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key distinguishing cue is the opponent's body angle rotation. In a standard butterfly sweep, the opponent elevates you directly overhead or to one side while maintaining a facing angle toward you. In an X-Guard entry, the opponent rotates their shoulders perpendicular to your posted leg, sliding their hips underneath rather than elevating overhead. You will also notice one butterfly hook release while the other maintains deep contact, and their upper body pulls laterally rather than upward. Recognizing this perpendicular rotation is the earliest reliable indicator of X-Guard entry versus sweep."

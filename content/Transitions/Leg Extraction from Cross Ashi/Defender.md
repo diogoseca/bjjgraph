@@ -64,7 +64,7 @@ description: "Defend against Leg Extraction from your Cross Ashi-Garami control.
     },
     {
       "@type": "Question",
-      "name": "When is the optimal moment to advance from cross ashi to saddle during the opponent's extraction attempt?",
+      "name": "Holding cross ashi, when is the best moment to advance to saddle during their extraction?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The optimal advancement window is when the opponent commits both hands to stripping your heel or ankle grip. At this moment, their legs and hips are undefended because their hands are occupied with grip fighting on your foot rather than managing your leg positioning or blocking your hip advancement. Step your outside leg over their hip while their attention is focused on their hands. This creates a paradox where their successful grip strip on one connection point results in a deeper entanglement that makes extraction impossible."
@@ -72,7 +72,7 @@ description: "Defend against Leg Extraction from your Cross Ashi-Garami control.
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully clears your outside cross but you maintain the inside hook - what should you do?",
+      "name": "They clear your outside cross but your inside hook stays — what should you do?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately attempt to re-establish the cross by stepping your outside leg back over their trapped leg before they can complete the extraction. The inside hook alone provides limited retention but buys three to five seconds for re-crossing. If re-crossing is blocked by their hand pinning your leg, use the inside hook to pull their trapped leg toward you while advancing your hips to close distance, then re-cross from a tighter position. Alternatively, advance directly to saddle since the inside hook provides enough control for the transition even without the cross."
@@ -80,7 +80,7 @@ description: "Defend against Leg Extraction from your Cross Ashi-Garami control.
     },
     {
       "@type": "Question",
-      "name": "How do you distinguish between a genuine extraction attempt and a feint designed to draw out your saddle advancement?",
+      "name": "From cross ashi, how do you tell a real extraction from a feint baiting your saddle advance?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "A genuine extraction attempt involves the opponent recovering base to seated or standing posture, committing both hands to the entangled area, and shifting their hips laterally away from you. A feint typically skips the base recovery step and uses only one hand on the cross while keeping the other free for a counter-entanglement or arm drag if you overcommit to advancement. The telltale sign is base recovery: if they invest in posture before addressing the cross, the extraction is genuine. If they stay flat and reach for the cross with one hand, they are likely baiting your saddle advancement to create a scramble opportunity."

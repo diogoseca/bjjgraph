@@ -92,7 +92,7 @@ description: "How to execute Side Control to North-South in BJJ. Attacking persp
     },
     {
       "@type": "Question",
-      "name": "How should you adjust your strategy if opponent secures an underhook on your far leg during transition?",
+      "name": "They underhook your far leg during the side control to north-south walk: how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If opponent secures an underhook on your far leg, the North-South transition is compromised. You should immediately abandon it and either return to Side Control, transition to mount by stepping over with your hooked leg using their grip as leverage, or attack the underhook arm with a kimura. Forcing the transition against a leg underhook gives opponent leverage to recover guard or sweep you."
@@ -100,7 +100,7 @@ description: "How to execute Side Control to North-South in BJJ. Attacking persp
     },
     {
       "@type": "Question",
-      "name": "What new submission opportunities become available in North-South that were difficult from Side Control?",
+      "name": "Which submissions open up in north-south that were hard from side control?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "North-South position offers superior access to the kimura on the far arm by reaching under their body, the North-South choke by controlling the head with your arm and chest, and simultaneous arm attacks on both sides. The perpendicular angle eliminates many defensive frames that work in Side Control and allows you to isolate limbs more effectively because the opponent cannot use lateral hip escapes to create defensive angles."

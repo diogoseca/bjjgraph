@@ -56,7 +56,7 @@ description: "How to defend against the Step Over Escape from Darce Control in B
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that your opponent is initiating a Step Over Escape rather than a Back Door Escape?",
+      "name": "What is the earliest cue they are going for a Step Over rather than a Back Door escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The key differentiator is body rotation direction. A step over begins with the bottom player turning into you and bridging upward, directing force toward your head. A Back Door Escape begins with movement away from you, retreating behind your body. The preparatory hip frame on your far hip and the upward bridge are the earliest cues that a step over is coming, as the Back Door Escape does not require hip elevation or a frame on your hip."
@@ -64,7 +64,7 @@ description: "How to defend against the Step Over Escape from Darce Control in B
     },
     {
       "@type": "Question",
-      "name": "Your opponent successfully swings their far leg over your head but has not yet completed the rotation or extracted their trapped arm. What is your highest-percentage response?",
+      "name": "Holding your darce, they swing a leg over your head but haven't finished the rotation—best response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately chase the rotation by walking your hips in the same direction as their step over, keeping your chest connected to their back and your elbows pinched tight on the Darce grip. The step over only works if the angle change relieves choking pressure, but if you follow the rotation you maintain the perpendicular finishing angle. You must move quickly because once they plant the stepping leg as a wedge and begin the full hip rotation, the window to chase closes within two to three seconds."
@@ -72,7 +72,7 @@ description: "How to defend against the Step Over Escape from Darce Control in B
     },
     {
       "@type": "Question",
-      "name": "How should you position your head and shoulders to make the Step Over Escape maximally difficult for the bottom player?",
+      "name": "How should you place your head and shoulders to make their Step Over Escape hardest?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Drive your shoulder into the side of their head rather than their shoulder, keeping your own head elevated relative to their hips. This positioning forces the stepping leg to travel a much longer arc to clear over your head, requiring more bridge height and more precise timing from the escaping player. Additionally, the shoulder-into-head pressure flattens them more effectively, reducing the hip mobility they need for the preparatory bridge. Your weight should project forward and downward through the shoulder rather than sitting back on your hips."
@@ -80,7 +80,7 @@ description: "How to defend against the Step Over Escape from Darce Control in B
     },
     {
       "@type": "Question",
-      "name": "When is it correct to release the Darce grip and transition to a new position rather than continuing to fight the step over?",
+      "name": "When should you release the Darce and transition rather than keep fighting the step over?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Release the Darce when the stepping leg has fully cleared your head, the bottom player has planted it as a wedge on your neck or shoulder, and the hip rotation is actively pulling the trapped arm free. At this point, the choke angle is broken and continuing to hold the grip wastes energy while the bottom player establishes guard. Immediately transition to side control by driving your chest into their torso, or establish front headlock control by adjusting your grip to a standard head and arm configuration. The key is recognizing the point of no return and converting to positional advantage rather than losing both the choke and position."
@@ -88,7 +88,7 @@ description: "How to defend against the Step Over Escape from Darce Control in B
     },
     {
       "@type": "Question",
-      "name": "Your opponent posts their free hand on your far hip as a frame while you have Darce control. Why is this an urgent threat and how do you address it?",
+      "name": "They post a hand on your far hip while you hold the Darce: why urgent, and how do you fix it?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The hip frame is the foundational setup for the step over escape because it serves as both a barrier preventing you from following the rotation and a pivot point the escaping player pushes against during the leg swing. Without this frame, the step over cannot generate the separation needed to change the choke angle. Address it immediately by peeling their hand off your hip with your free hand, collapsing the frame by driving your hip into their posting arm, or shifting your hip position so they cannot establish a solid contact point. Never allow the hip frame to persist while you focus on tightening the choke."

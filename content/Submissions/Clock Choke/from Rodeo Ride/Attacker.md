@@ -78,7 +78,7 @@ description: "Learn to attack with the Clock Choke from Rodeo Ride. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Why does the Rodeo Ride position create a superior Clock Choke entry compared to standard turtle top?",
+      "name": "Why is Rodeo Ride a better clock choke entry than standard turtle top?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Rodeo Ride provides three advantages over standard turtle top for Clock Choke entry. First, the established hip pressure and near-arm control mean the opponent is already defending multiple threats, disguising the collar grip feed. Second, the perpendicular angle of Rodeo Ride shortens the walking arc needed to finish, since you are already partially around the opponent's body. Third, the dynamic pressure cycling of Rodeo Ride prevents the sit-back escape that defeats most Clock Choke attempts from conventional turtle top positions, because your hips are actively loaded on their back."
@@ -86,7 +86,7 @@ description: "Learn to attack with the Clock Choke from Rodeo Ride. Step-by-step
     },
     {
       "@type": "Question",
-      "name": "Your opponent starts tucking their chin aggressively when they feel the collar grip being fed—what adjustment prevents escape?",
+      "name": "Your opponent tucks their chin as you feed the collar from Rodeo Ride - what adjustment works?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Do not force the grip past a tucked chin, as this telegraphs the choke and wastes energy. Instead, maintain the partial grip and re-threaten a back take by shifting your hips toward inserting hooks. When the opponent redirects their defensive attention from chin protection to hip defense, the chin naturally opens and you can deepen the collar grip. Alternatively, use your near-side hand to cross-face and rotate their head slightly, creating the space needed to feed the grip deeper. The key principle is creating a dilemma where defending the chin opens the back, and defending the back opens the chin."

@@ -52,7 +52,7 @@ description: "How to defend against the kneebar from Single Leg X-Guard in BJJ. 
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Why is it critical to tap immediately when finishing pressure begins on a kneebar rather than attempting a late escape?",
+      "name": "Why tap as soon as kneebar finishing pressure begins instead of trying a late escape?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The knee joint has minimal tolerance for hyperextension compared to other joints, and the transition from controlled pressure to catastrophic ligament damage can occur in less than one second. Unlike chokes where unconsciousness provides a gradual progression, knee hyperextension can cause immediate PCL tears, MCL ruptures, and meniscus damage before you have time to execute an escape. Attempting explosive escapes under finishing pressure adds dangerous rotational forces that compound injury risk. The cost of tapping is restarting the roll; the cost of a late escape attempt is potentially 6-12 months of surgical recovery."
@@ -60,7 +60,7 @@ description: "How to defend against the kneebar from Single Leg X-Guard in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "What is the earliest recognition cue that the top player is initiating a kneebar from your SLX guard, and what should your immediate response be?",
+      "name": "What is the earliest cue of a kneebar entry from your SLX, and what is your response?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The earliest cue is feeling the top player firmly grab your outside hooking foot at their hip instead of attempting normal guard clearing movements. This grip on your foot is the distinguishing action that separates kneebar entry from standard guard passing. Your immediate response must be to retract both hooks aggressively, pulling your legs tight to your body before the top player can execute the backstep. Acting in this initial 1-2 second window gives you the highest probability of denying the attack entirely. Do not attempt to maintain SLX or complete a sweep — prioritize pulling your legs to safety."
@@ -76,7 +76,7 @@ description: "How to defend against the kneebar from Single Leg X-Guard in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "The top player has completed the backstep but has not locked the leg triangle yet — what specific defensive actions should you take in this window?",
+      "name": "The top player has backstepped but not locked the leg triangle: what do you do in that window?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Immediately grab your own knee or shin with BOTH hands using a gable grip for maximum security. Pull your trapped leg tight toward your chest to prevent the attacker from threading their inside leg across your thigh for the figure-four. Simultaneously begin sitting up by driving your hips forward and lifting your chest toward the attacker. Use your free leg to step toward the attacker's head, looking for the opportunity to step over and establish a defensive hook. This combined defense of grip protection, knee bending, and postural recovery attacks all three elements the attacker needs: leg isolation, knee extension, and your positional weakness."
@@ -84,7 +84,7 @@ description: "How to defend against the kneebar from Single Leg X-Guard in BJJ. 
     },
     {
       "@type": "Question",
-      "name": "Why is attempting an explosive rotational escape the most dangerous defensive error when kneebar finishing pressure is being applied?",
+      "name": "Why is an explosive rotational escape the most dangerous error under kneebar finishing pressure?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Explosive rotation while the knee is under hyperextension pressure adds torque to the joint in a plane it is not designed to resist. The knee primarily moves in flexion and extension; adding rotational force under hyperextension load attacks the anterior cruciate ligament (ACL) in addition to the posterior cruciate ligament (PCL) already under stress. This compound loading mechanism can cause simultaneous multi-ligament injury, which is catastrophically worse than a single-ligament tear. Multi-ligament knee injuries often require multiple surgeries, 12 or more months of rehabilitation, and may result in permanent joint instability. A controlled tap preserves all ligaments intact."
