@@ -1,6 +1,6 @@
 {
   "name": "Lachlan Giles Leg Lock Defense Framework",
-  "description": "Includes knee-line concepts, heel-hook prevention, counters and 50/50 positioning alongside attacking material. Explore the training sequence and course on BJJ Fanatics.",
+  "description": "A defense-focused study route through Lachlan Giles' Leg Lock Anthology: 50/50, covering its advertised prevention, knee-recovery and disengagement material.",
   "tags": [
     "bjj",
     "defense-system",
@@ -12,474 +12,163 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Advanced",
-  "summary": "Leg-lock defense starts before a finishing grip is secured.",
-  "overview": "Leg-lock defense starts before a finishing grip is secured. This guide focuses on recognizing entanglements, protecting the heel and recovering the knee line. Lachlan’s 50/50 instructional offers relevant prevention and counter material alongside its attacking curriculum.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
-  "key_principles": [
-    "Prevention over escape - recognize entanglement patterns early and shut them down before full control is established",
-    "Hierarchical understanding - know which positions are immediately dangerous versus those that allow time for systematic escape",
-    "Hip alignment maintenance - keep hips square to opponent's hips to prevent optimal finishing angles",
-    "Inside position priority - control inside space to prevent cross-ashi and saddle entries",
-    "Systematic clearing sequences - use specific step-by-step protocols rather than explosive scrambling",
-    "Heel exposure awareness - understand when your heel is vulnerable versus protected by position",
-    "Counter-entanglement as offense - turn defensive sequences into offensive leg attack opportunities"
-  ],
-  "key_components": [
-    {
-      "component_name": "Entanglement Prevention",
-      "description": "The foundational layer of the system focuses on preventing leg entanglement before it occurs through proper distance management, foot positioning, and grip fighting specific to leg lock situations. This includes recognizing common entry patterns from standing, guard passing, and guard playing scenarios, then implementing specific defensive grips and frames that deny access to the legs while maintaining offensive capability.",
-      "purpose": "Eliminate majority of leg lock threats before they develop into dangerous positions"
-    },
-    {
-      "component_name": "Position Hierarchy Recognition",
-      "description": "A critical component involves understanding the danger levels of different ashi garami positions - from relatively safe positions like standard ashi garami where escape time exists, to immediately dangerous positions like inside sankaku or fully developed saddle where finishing can occur within seconds. This knowledge dictates urgency of defensive response and appropriate escape protocols for each position type.",
-      "purpose": "Assess risk accurately and respond with appropriate urgency and technique selection"
-    },
-    {
-      "component_name": "Hip Alignment Mechanics",
-      "description": "The core defensive principle centers on maintaining proper hip alignment relative to the opponent's hips and body position. When hips remain square or facing toward the opponent, finishing mechanics for heel hooks and ankle locks become extremely difficult regardless of other control factors. The system provides specific drills and positional awareness to maintain this alignment even under pressure.",
-      "purpose": "Deny optimal finishing angles through superior positional understanding"
-    },
-    {
-      "component_name": "Systematic Clearing Sequences",
-      "description": "Rather than explosive scrambling, the framework teaches specific clearing sequences for each major leg entanglement position. These sequences involve methodical removal of opponent's hooks, recovery of inside position, and re-establishment of safe distance or position. Each sequence has clear checkpoints and contingency options based on opponent's defensive reactions.",
-      "purpose": "Provide reliable escape pathways that work against skilled leg lock specialists"
-    },
-    {
-      "component_name": "Counter-Attack Integration",
-      "description": "Advanced practitioners learn to transition defensive sequences into offensive leg entanglement opportunities. The system teaches how to use opponent's commitment to leg attacks as opportunity to enter their legs, transition to back attacks, or establish dominant passing positions. This transforms defense from purely reactive to strategically advantageous.",
-      "purpose": "Turn defensive situations into offensive opportunities and discourage aggressive leg attacks"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Prevention Fundamentals",
-      "description": "Learn to recognize common leg entanglement entries from all positions and implement basic prevention through proper foot positioning and distance management",
-      "key_points": [
-        "Study video of common entries from DLR, butterfly, seated guard",
-        "Practice maintaining heel-to-butt distance in guard retention",
-        "Develop awareness of when feet are exposed during passing",
-        "Drill proper foot extraction when opponent grips ankle or heel"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Position Classification Training",
-      "description": "Develop ability to instantly recognize and classify leg entanglement positions by danger level, understanding which require immediate escape versus systematic clearing",
-      "key_points": [
-        "Study hierarchy: standard ashi → outside ashi → 50-50 → cross ashi → inside sankaku/saddle",
-        "Practice identifying positions from bottom perspective under time pressure",
-        "Learn specific danger indicators for each position type",
-        "Understand how opponent's grips and hooks affect danger level"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Hip Alignment Mastery",
-      "description": "Master the fundamental defensive principle of maintaining square hips through specific drills and positional sparring focused exclusively on hip positioning",
-      "key_points": [
-        "Drill hip rotation exercises against resistance",
-        "Practice maintaining square hips while opponent attempts to turn corner",
-        "Develop kinesthetic awareness of hip angle relative to opponent",
-        "Learn to use hands and frames to prevent hip rotation"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Clearing Sequence Development",
-      "description": "Learn and drill specific clearing sequences for each major position category, starting from least dangerous positions and progressing to high-danger scenarios",
-      "key_points": [
-        "Master standard ashi clearing sequence first",
-        "Progress to outside ashi and 50-50 escapes",
-        "Learn emergency protocols for cross ashi and inside sankaku",
-        "Practice sequences against progressive resistance",
-        "Develop ability to chain sequences when first attempt is countered"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Integration and Counter-Attack",
-      "description": "Integrate defensive sequences with offensive options, learning to recognize opportunities for counter-entanglement, back takes, and passing positions during opponent's leg attack attempts",
-      "key_points": [
-        "Identify moments when opponent is vulnerable during leg attack",
-        "Practice transitioning defensive clearing to offensive entries",
-        "Develop timing for counter heel hooks and ankle locks",
-        "Learn to use successful defenses to establish dominant positions"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Competition Application",
-      "description": "Apply the complete framework in live rolling and competition scenarios, developing confidence to engage leg entanglement positions rather than avoiding them entirely",
-      "key_points": [
-        "Spar specifically with leg lock specialists",
-        "Practice under competition rule sets",
-        "Develop mental composure in dangerous positions",
-        "Refine timing and technique selection under pressure"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Panic response when leg is caught - explosive scrambling that often makes position worse",
-      "solution": "Drill positional sparring starting from bad positions to build comfort and familiarity, practice breathing and staying calm while recognizing you have time to work systematic escapes in most positions"
-    },
-    {
-      "obstacle": "Inability to recognize position type quickly enough to select appropriate escape",
-      "solution": "Use flash card training and video study to develop instant position recognition, practice verbal identification of positions during drilling to build cognitive pattern recognition"
-    },
-    {
-      "obstacle": "Flexibility limitations making certain clearing sequences difficult",
-      "solution": "Implement alternative clearing pathways designed for less flexible practitioners, develop hip mobility through targeted stretching programs, focus on positions where flexibility is less critical"
-    },
-    {
-      "obstacle": "Difficulty maintaining hip alignment against strong opponents who control upper body",
-      "solution": "Strengthen defensive frames and grips specific to leg lock situations, practice hip alignment maintenance drills against progressively stronger resistance, learn to use legs and hooks to prevent body rotation"
-    },
-    {
-      "obstacle": "Hesitation to engage opponent's legs during counter-attack due to fear of re-entanglement",
-      "solution": "Start with low-risk counter-entries from safe positions, gradually build confidence through positional sparring, study proper entry mechanics that minimize re-entanglement risk"
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Entry Prevention Rate",
-      "description": "Percentage of opponent's leg entanglement attempts that are successfully prevented before establishing control",
-      "proficiency_indicators": [
-        "Beginner: Successfully prevents 30-40% of entry attempts through basic distance management",
-        "Intermediate: Prevents 60-70% of entries by recognizing patterns and implementing proper grips/frames",
-        "Advanced: Prevents 80%+ of entries and often converts prevention into offensive opportunities"
-      ]
-    },
-    {
-      "metric_name": "Position Recognition Speed",
-      "description": "Time required to accurately identify leg entanglement position type and danger level",
-      "proficiency_indicators": [
-        "Beginner: Identifies position within 3-5 seconds with conscious thought process",
-        "Intermediate: Instant recognition of major position types (ashi, 50-50, saddle) without deliberation",
-        "Advanced: Recognizes subtle position variations and immediately knows appropriate escape protocol"
-      ]
-    },
-    {
-      "metric_name": "Escape Success Rate",
-      "description": "Percentage of leg entanglements that result in successful escape without submission",
-      "proficiency_indicators": [
-        "Beginner: 50-60% escape rate from standard ashi, lower from more dangerous positions",
-        "Intermediate: 75%+ escape rate from standard ashi/outside ashi, 50%+ from cross ashi",
-        "Advanced: 90%+ from standard positions, 70%+ from saddle/inside sankaku against elite opponents"
-      ]
-    },
-    {
-      "metric_name": "Counter-Attack Conversion",
-      "description": "Ability to transition defensive sequences into offensive leg attacks or dominant positions",
-      "proficiency_indicators": [
-        "Beginner: Focus remains purely defensive with successful escape as only goal",
-        "Intermediate: Recognizes 30-40% of counter-attack opportunities and successfully converts some",
-        "Advanced: Actively baits leg attack attempts knowing counter-attack pathways, converts 60%+ of defensive sequences into offense"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "The Lachlan Giles framework emphasizes progressive resistance drilling that builds from static position recognition through dynamic escapes under pressure. Begin each training session with position identification drills using flash cards or partner randomly establishing different leg entanglements. Progress to cooperative drilling of clearing sequences with partner providing just enough resistance to challenge technique but not prevent execution. Advance to timed escape challenges where partner establishes position and you must clear within specific time limits. Finish with positional sparring starting from various leg entanglement positions with both partners working at increasing intensity levels. Critical to the methodology is video review of both drilling and sparring to identify technical errors and timing issues that aren't apparent during live training.",
-    "progression_path": [
-      {
-        "stage": "Foundation Phase",
-        "focus": "Position recognition, basic prevention, standard ashi clearing sequence mastery",
-        "timeframe": "Weeks 1-4"
-      },
-      {
-        "stage": "Expansion Phase",
-        "focus": "Additional clearing sequences for outside ashi and 50-50, hip alignment principle development",
-        "timeframe": "Weeks 5-12"
-      },
-      {
-        "stage": "Advanced Defense Phase",
-        "focus": "Emergency protocols for high-danger positions, integration of clearing sequences under resistance",
-        "timeframe": "Weeks 13-24"
-      },
-      {
-        "stage": "Counter-Attack Phase",
-        "focus": "Offensive opportunities from defensive positions, competition application and refinement",
-        "timeframe": "Weeks 25-52"
-      },
-      {
-        "stage": "Mastery Phase",
-        "focus": "Style-specific adaptations, teaching others, continuous refinement through competition",
-        "timeframe": "Ongoing"
-      }
-    ],
-    "common_mistakes": [
-      "Attempting to pull leg out forcefully rather than clearing hooks systematically",
-      "Forgetting to maintain hip alignment while focusing only on removing opponent's grips",
-      "Using same escape technique regardless of position type and danger level",
-      "Neglecting prevention work and only drilling escapes from bad positions",
-      "Practicing only against training partners with poor leg lock offense, creating false confidence"
-    ]
-  },
+  "summary": "Lachlan Giles' Leg Lock Anthology: 50/50 offers heel-hook defense and knee-recovery study within a larger course on 50/50 offense and entries.",
+  "overview": "A heel-hook problem, a trapped knee and a decision to leave 50/50 point to different parts of this anthology. Use the published outline to locate your current problem before working through the course's attacking entries.",
   "related_content": [
     {
       "name": "Saddle",
       "content_type": "Position",
-      "relationship": "Primary high-danger position requiring emergency defensive protocols"
+      "relationship": "Related position reference for leg-entanglement study."
     },
     {
       "name": "Inside Ashi-Garami",
       "content_type": "Position",
-      "relationship": "Critical position to recognize and escape before opponent establishes full saddle control"
+      "relationship": "Related position reference for leg-entanglement study."
     },
     {
       "name": "Outside Ashi-Garami",
       "content_type": "Position",
-      "relationship": "Mid-danger position with specific clearing sequence different from standard ashi"
+      "relationship": "Related position reference for leg-entanglement study."
     },
     {
       "name": "50-50 Guard",
       "content_type": "Position",
-      "relationship": "Common leg entanglement requiring unique defensive approach due to mutual entanglement"
+      "relationship": "Position reference corresponding to the central entanglement named in the anthology."
     },
     {
       "name": "Cross Ashi-Garami",
       "content_type": "Position",
-      "relationship": "High-danger position requiring immediate defensive response to prevent saddle transition"
+      "relationship": "Related position reference for leg-entanglement study."
     },
     {
       "name": "Ashi Garami",
       "content_type": "Position",
-      "relationship": "Foundational position where most defensive sequences begin and prevention is most effective"
+      "relationship": "Related position reference for leg-entanglement study."
     },
     {
       "name": "Single Leg X-Guard",
       "content_type": "Position",
-      "relationship": "Entry position for many leg attacks, key area for prevention strategies"
+      "relationship": "Related position reference for leg-entanglement study."
     },
     {
       "name": "Knee Shield Half Guard",
       "content_type": "Position",
-      "relationship": "Defensive guard structure that helps prevent initial leg entanglement entries"
+      "relationship": "Related position reference for leg-entanglement study."
     },
     {
       "name": "Ankle Lock Escape to Standing",
       "content_type": "Transition",
-      "relationship": "Key defensive transition for escaping ankle lock control and returning to a safe standing position"
+      "relationship": "Related transition reference for leg-entanglement study."
     },
     {
       "name": "Ashi Garami Escape",
       "content_type": "Transition",
-      "relationship": "Fundamental clearing sequence taught as first defensive technique in the system"
+      "relationship": "Related transition reference for leg-entanglement study."
     },
     {
       "name": "Outside Ashi Entry",
       "content_type": "Transition",
-      "relationship": "Common attack entry that must be recognized and prevented or defended against"
+      "relationship": "Related transition reference for leg-entanglement study."
     },
     {
       "name": "Inside Ashi Entry",
       "content_type": "Transition",
-      "relationship": "High-danger entry pattern requiring specific prevention strategies"
+      "relationship": "Related transition reference for leg-entanglement study."
     },
     {
       "name": "Ashi Entry from Leg Entanglement",
       "content_type": "Transition",
-      "relationship": "Common transition pathway creating leg entanglement opportunities that must be recognized and defended"
+      "relationship": "Related transition reference for leg-entanglement study."
     },
     {
       "name": "Knee Slice Pass",
       "content_type": "Transition",
-      "relationship": "Passing technique that can expose legs to entanglement if performed without proper defense awareness"
+      "relationship": "Related transition reference for leg-entanglement study."
     },
     {
       "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Overarching defensive concepts that inform all defensive decision-making in leg lock scenarios"
+      "relationship": "Related principle reference for leg-entanglement study."
     },
     {
       "name": "Submission Defense",
       "content_type": "Principle",
-      "relationship": "General defensive principles that apply specifically to leg lock scenarios"
+      "relationship": "Related principle reference for leg-entanglement study."
     },
     {
       "name": "Leg Entanglement",
       "content_type": "Principle",
-      "relationship": "Core concept underlying understanding of how legs become trapped and controlled"
+      "relationship": "Related principle reference for leg-entanglement study."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Defensive framing concepts applied to preventing leg entanglement and maintaining escape pathways"
+      "relationship": "Related principle reference for leg-entanglement study."
     },
     {
       "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Foundational escape principles including systematic prioritization of escape options based on position danger level"
+      "relationship": "Related principle reference for leg-entanglement study."
     },
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Strategic philosophy emphasizing positional escape before attempting counter-attacks"
+      "relationship": "Related principle reference for leg-entanglement study."
     },
     {
       "name": "Positional Hierarchy",
       "content_type": "Principle",
-      "relationship": "Understanding of position danger levels that maps directly to leg entanglement risk assessment"
+      "relationship": "Related principle reference for leg-entanglement study."
     },
     {
       "name": "Danaher Leg Lock System",
       "content_type": "System",
-      "relationship": "Primary offensive system this framework was developed to defend against"
+      "relationship": "Related system reference for leg-entanglement study."
     },
     {
       "name": "Craig Jones Leg Lock System",
       "content_type": "System",
-      "relationship": "Modern offensive leg lock approach requiring specific defensive adaptations"
+      "relationship": "Related system reference for leg-entanglement study."
     },
     {
       "name": "Defensive Prioritization Framework",
       "content_type": "System",
-      "relationship": "Broader defensive system that leg lock defense integrates within"
+      "relationship": "Related system reference for leg-entanglement study."
     },
     {
       "name": "Caio Terra Guard Retention System",
       "content_type": "System",
-      "relationship": "Guard retention system whose principles integrate with leg entanglement prevention strategies"
+      "relationship": "Related system reference for leg-entanglement study."
     },
     {
       "name": "Heel Hook",
       "content_type": "Submission",
-      "relationship": "Primary submission threat this defensive system addresses"
+      "relationship": "Submission reference corresponding to the prevention and counter sections in Volume 1."
     },
     {
       "name": "Inside Heel Hook",
       "content_type": "Submission",
-      "relationship": "Specific heel hook variation from saddle and inside sankaku positions"
+      "relationship": "Related submission reference for leg-entanglement study."
     },
     {
       "name": "Outside Heel Hook",
       "content_type": "Submission",
-      "relationship": "Heel hook variation requiring different defensive mechanics than inside variation"
+      "relationship": "Related submission reference for leg-entanglement study."
     },
     {
       "name": "Straight Ankle Lock",
       "content_type": "Submission",
-      "relationship": "Lower-danger submission that defensive system must also address from various ashi positions"
+      "relationship": "Related submission reference for leg-entanglement study."
     },
     {
       "name": "Kneebar",
       "content_type": "Submission",
-      "relationship": "Alternative leg attack requiring modifications to standard defensive protocols"
-    }
-  ],
-  "flashcards": [
-    {
-      "question": "What is the core philosophy of the Lachlan Giles Leg Lock Defense Framework?",
-      "answer": "It prioritizes prevention over reaction — recognizing and shutting down leg entanglement entries before full control is established, rather than relying on explosive escapes once the leg is already trapped.",
-      "answer_line": "Prevent entries before control",
-      "distractors": {
-        "plausible": [
-          "React explosively once trapped",
-          "Focus only on submission escapes"
-        ],
-        "trap": [
-          "Wait for the finish, then defend"
-        ]
-      }
+      "relationship": "Related submission reference for leg-entanglement study."
     },
     {
-      "question": "Why is maintaining square hips so important when defending leg locks?",
-      "answer": "When your hips stay square or facing the opponent, they cannot achieve the rotational angle needed to finish heel hooks or ankle locks, making the submission mechanically very difficult regardless of how much control they have.",
-      "answer_line": "Square hips deny rotation angle",
-      "distractors": {
-        "plausible": [
-          "Square hips protect the knee",
-          "Square hips speed up escapes"
-        ],
-        "trap": [
-          "Turn hips away from opponent"
-        ]
-      }
-    },
-    {
-      "question": "How does the framework rank ashi garami positions by danger level?",
-      "answer": "From least to most dangerous: standard and outside ashi garami (escape time exists), then 50-50, then cross ashi, then inside sankaku and saddle, where finishes can occur within seconds and demand an immediate response.",
-      "answer_line": "Saddle and sankaku most dangerous",
-      "distractors": {
-        "plausible": [
-          "50-50 guard is most dangerous",
-          "Outside ashi is highest risk"
-        ],
-        "trap": [
-          "All ashi positions equal risk"
-        ]
-      }
-    },
-    {
-      "question": "What is the recommended response the instant your leg is caught?",
-      "answer": "Stay calm and clear the opponent's hooks systematically rather than panic-scrambling or yanking the leg out, which usually worsens the position; in most entanglements you have time to work a methodical escape.",
-      "answer_line": "Stay calm, clear hooks in order",
-      "distractors": {
-        "plausible": [
-          "Strip grips, ignore hip line",
-          "Explode out immediately"
-        ],
-        "trap": [
-          "Yank the leg free fast"
-        ]
-      }
-    },
-    {
-      "question": "How does the framework convert defense into offense?",
-      "answer": "By using the opponent's commitment to a leg attack as an opening to counter-enter their legs, take the back, or establish a dominant passing position — transforming reactive defense into a strategic advantage.",
-      "answer_line": "Counter-attack their commitment",
-      "distractors": {
-        "plausible": [
-          "Reset to neutral guard",
-          "Retreat to standing base"
-        ],
-        "trap": [
-          "Turtle up to hide the legs"
-        ]
-      }
-    },
-    {
-      "question": "Why is inside position emphasized in leg lock defense?",
-      "answer": "Controlling inside space denies the opponent access to cross-ashi and saddle entries, which are the high-danger configurations from which the inside heel hook becomes available.",
-      "answer_line": "Inside position blocks saddle entry",
-      "distractors": {
-        "plausible": [
-          "Inside position speeds escapes",
-          "Inside position controls grips"
-        ],
-        "trap": [
-          "Give up inside space for outside"
-        ]
-      }
-    },
-    {
-      "question": "What is a common mistake practitioners make when escaping leg entanglements?",
-      "answer": "Focusing only on stripping the opponent's grips while neglecting hip alignment, or applying the same escape to every position regardless of its danger level — escapes must be specific to the position you are in.",
-      "answer_line": "One-size-fits-all escape choice",
-      "distractors": {
-        "plausible": [
-          "Stripping grips before hips align",
-          "Escaping too slowly under pressure"
-        ],
-        "trap": [
-          "Ignore grips, only align hips"
-        ]
-      }
-    },
-    {
-      "question": "Which submissions does this framework primarily defend against?",
-      "answer": "Inside and outside heel hooks, the straight ankle lock, and kneebars, with the inside heel hook from saddle and inside sankaku treated as the highest-priority threat to neutralize first.",
-      "answer_line": "Heel hooks, ankle lock, kneebar",
-      "distractors": {
-        "plausible": [
-          "Toe holds and calf slicers",
-          "Kneebars and toe holds only"
-        ],
-        "trap": [
-          "Ignore ankle locks, focus knees"
-        ]
-      }
+      "name": "Danaher Pin Escape Fundamentals System",
+      "content_type": "System",
+      "relationship": "Alternative for mount and side-pin escape study, verified in its official outline."
     }
   ],
   "products": [
@@ -488,13 +177,73 @@
       "title": "Leg Lock Anthology: 50/50",
       "instructor": "Lachlan Giles",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles?rfsn=REPLACE_ME",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "Includes knee-line concepts, heel-hook prevention, counters and 50/50 positioning alongside attacking material.",
-      "best_for": "Students studying 50/50 defense. This is an attack-and-defense course, not a defense-only programme.",
-      "study_focus": "Start with the knee-line concepts and defending-the-heel-hook sections before exploring counterattacks.",
-      "practice_tip": "Have your coach set a safe starting position. Rehearse the early escape and reset before a finishing grip is established."
+      "link_checked": "2026-09-16",
+      "blurb": "The anthology includes prevention, counters and knee recovery alongside its 50/50 attacks.",
+      "best_for": "Students selecting defensive sections within a broader 50/50 leg-lock course.",
+      "study_focus": "Begin with Volume 1, Part 4: Defending The Heel Hook; use Volume 3, Part 11 for knee recovery and Volume 4, Part 15 for disengagement.",
+      "course_url": "https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles"
     }
-  ]
+  ],
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Lachlan Giles: Defense Within the 50/50 Anthology",
+    "audience": {
+      "fits": [
+        "You want to locate heel-hook prevention and counters inside a course that also teaches leg attacks.",
+        "Your study question concerns recovering the knee from 50/50 or disengaging from that position."
+      ],
+      "consider_alternative_if": [
+        "Your recurring problem is mount or side control: the Danaher Pin Escape Fundamentals guide covers those pins, while this anthology centers on leg entanglements."
+      ]
+    },
+    "coverage": {
+      "includes": [
+        "Volume 1 introduces knee-line and rotation concepts, then separates heel-hook prevention, counters and their connections.",
+        "Volumes 3–4 include reclaiming the knee from 50/50, sweeps, back takes and disengagement; Volume 5 addresses saddle, outside ashi and reaping configurations.",
+        "Later volumes add guard entries and narrated rolling, so defensive study can be compared with attacking situations."
+      ],
+      "limits": [
+        "The linked course is an attack-and-defense anthology centered on 50/50 and outside sankaku, rather than a dedicated survey of every leg-lock escape.",
+        "The public outline identifies topics but does not specify the defensive movement or timing within each lesson."
+      ]
+    },
+    "start_here": {
+      "title": "Locate the point where your 50/50 problem changes",
+      "kind": "observation",
+      "task": "Use one recorded exchange, or a written account of a recent round, to separate three questions: was the problem heel access, a knee still held in the entanglement, or leaving 50/50? Match the relevant moment to Volume 1's prevention/counters, Volume 3's knee-recovery section or Volume 4's disengagement section. Keep any unclear body position marked as uncertain; the outline alone cannot resolve it.",
+      "source_ids": [
+        "lachlan-listing"
+      ],
+      "section": "Volume 1, Part 4: Defending The Heel Hook; Volume 3, Part 11: Reclaiming The Knee From 50/50; Volume 4, Part 15: 50/50 Top And Disengaging"
+    },
+    "sources": [
+      {
+        "id": "lachlan-listing",
+        "url": "https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles",
+        "title": "Leg Lock Anthology: 50/50 by Lachlan Giles",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified Lachlan Giles as instructor and the eight-volume outline, including prevention/counters, knee recovery, disengagement and narrated rolling. The page embeds a knee-line sample; its video content has not been reviewed."
+      },
+      {
+        "id": "danaher-listing",
+        "url": "https://bjjfanatics.com/products/pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher",
+        "title": "Pin Escapes & Turtle Escapes: BJJ Fundamentals - Go Further Faster by John Danaher",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified the comparison course includes mount and side-pin escapes, alongside rear-mount and turtle sections."
+      }
+    ],
+    "preview": {
+      "provider": "youtube",
+      "embed_url": "https://www.youtube.com/embed/Pl_2oDznYKc?autoplay=0",
+      "source_id": "lachlan-listing",
+      "title": "Official sample — Lachlan Giles / Keeping the knee line",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
+  }
 }

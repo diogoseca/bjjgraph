@@ -1,6 +1,6 @@
 {
   "name": "Caio Terra Guard Retention System",
-  "description": "Master Caio Terra's guard retention framework with systematic hip movement, frame management, and recovery sequences. Complete guide to maintaining guard under pressure.",
+  "description": "A study map for Caio Terra Online's publicly listed one-legged-X and half-guard recovery lessons.",
   "tags": [
     "bjj",
     "guard-retention",
@@ -12,485 +12,202 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Intermediate",
-  "summary": "The Caio Terra Guard Retention System is a defensive framework that combines continuous small-amplitude hip movement, dynamic angle-based frames, and a prioritized connection-breaking hierarchy to keep or recover guard against pressure passing.",
-  "overview": "Multiple-time world and Pan American champion Caio Terra built his competitive reputation as one of the smallest athletes to consistently defeat far larger opponents, and his retention methodology grew directly out of that necessity. Because he could rarely rely on strength or weight to stop a pass, he reverse-engineered guard retention into a structured, trainable discipline rather than a collection of reactive scrambles. The result is one of the most complete defensive frameworks in modern Brazilian Jiu-Jitsu, applicable across gi and no-gi guard games.\n\nAt its core, the system operates on the principle that maintaining guard is far more energy-efficient than recovering guard or escaping from inferior positions. Terra's approach breaks down guard retention into distinct phases: initial contact management, mid-range retention, and emergency recovery. Each phase has specific technical requirements, movement patterns, and decision trees that practitioners must internalize. The system is particularly effective against pressure passing styles, as it provides clear answers to common passing attacks while maintaining offensive opportunities.\n\nWhat distinguishes Terra's system from traditional guard retention is its emphasis on connection management and systematic recovery loops. Rather than simply blocking or stiff-arming opponents, practitioners learn to manipulate connections, create angles, and use precise hip movements to continuously reset guard positions. The system integrates seamlessly with various guard styles—from closed guard to open guard variations—making it universally applicable regardless of a practitioner's preferred guard game.",
-  "key_principles": [
-    "Hip movement is the foundation of all guard retention—constant motion prevents opponent consolidation",
-    "Frames must be dynamic and angle-based, not static strength-based structures",
-    "Connection breaking precedes position recovery—eliminate opponent grips before restructuring guard",
-    "Guard retention is a continuous loop, not a single defensive moment",
-    "Emergency recovery sequences must be practiced as extensively as offensive techniques",
-    "Proper distance management prevents passes before they fully develop",
-    "Systematic recovery prioritizes returning to strongest guard positions first"
-  ],
-  "key_components": [
-    {
-      "component_name": "Hip Escape Mechanics",
-      "description": "Fundamental shrimping and hip movement patterns that create distance and prevent opponent consolidation. Terra's approach emphasizes small, continuous hip movements rather than large explosive escapes, maintaining connection control while gradually improving position. The system includes variations for different passing pressures and positions.",
-      "purpose": "Generate separation and angles necessary for guard recovery while managing opponent pressure"
-    },
-    {
-      "component_name": "Frame Management System",
-      "description": "Strategic use of frames (hands, feet, knees, shins) to control distance and create barriers between opponent and defender. Each frame type has specific applications, optimal angles, and transition patterns. The system teaches when to maintain frames, when to abandon them, and how to convert frames into offensive opportunities.",
-      "purpose": "Control distance and create structural barriers that delay or prevent passing attempts"
-    },
-    {
-      "component_name": "Connection Breaking Hierarchy",
-      "description": "Systematic approach to identifying and eliminating opponent grips and connections based on threat priority. The hierarchy ranks which connections pose the greatest danger and must be addressed first, providing clear decision-making under pressure. Includes specific grip-breaking mechanics for collar, sleeve, pants, and body grips.",
-      "purpose": "Eliminate opponent control points systematically to facilitate guard recovery"
-    },
-    {
-      "component_name": "Recovery Loop Sequences",
-      "description": "Pre-programmed movement sequences that return defender from compromised positions back to strong guard structures. Each loop addresses specific passing scenarios (knee cut, toreando, stack pass) with detailed step-by-step recovery mechanics. Sequences are designed to be chained together when initial recovery attempts are countered.",
-      "purpose": "Provide reliable pathways from danger positions back to offensive guard positions"
-    },
-    {
-      "component_name": "Emergency Guard Replacement",
-      "description": "Last-resort techniques for preventing complete guard pass when primary retention fails. Includes granby rolls, inversion entries, tactical standup options, and desperate hook recoveries. These techniques buy time and create opportunities to re-enter primary retention systems.",
-      "purpose": "Prevent complete positional loss when primary guard retention methods are defeated"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Foundation Development",
-      "description": "Master fundamental hip escape mechanics through isolated drilling. Focus on shrimping patterns, hip elevation, and directional changes without opponent resistance. Develop muscle memory for continuous hip movement that becomes automatic under pressure.",
-      "key_points": [
-        "Practice shrimping in both directions with equal proficiency",
-        "Emphasize small, continuous movements over large explosive escapes",
-        "Develop hip flexibility and mobility through dedicated stretching",
-        "Learn to maintain posture and breathing while executing hip escapes"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Frame Integration",
-      "description": "Integrate frame management with hip movement patterns. Learn proper frame angles, pressure distribution, and timing for frame placement. Practice transitioning between different frame types (hand frames, foot frames, shin frames) based on opponent position and pressure direction.",
-      "key_points": [
-        "Understand when to use pushing frames versus blocking frames",
-        "Practice frame placement at correct angles to maximize efficiency",
-        "Develop sensitivity to know when frames are failing and must be abandoned",
-        "Learn to convert failing frames into guard recovery movements"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Connection Management",
-      "description": "Study and practice the connection breaking hierarchy against progressively resistant opponents. Learn to identify dangerous grips immediately and execute appropriate grip breaks while maintaining defensive structure. Develop ability to prioritize multiple simultaneous connections.",
-      "key_points": [
-        "Recognize which grips pose immediate passing threats versus control grips",
-        "Master two-handed grip breaks for stubborn connections",
-        "Practice grip fighting while maintaining hip movement and frames",
-        "Develop proactive grip prevention before dangerous grips establish"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Recovery Loop Training",
-      "description": "Drill specific recovery sequences for common passing attacks. Practice each loop in isolation until movement becomes automatic, then integrate with live resistance. Focus on one passing scenario at a time (knee cut recovery, toreando recovery, etc.) before combining systems.",
-      "key_points": [
-        "Memorize each recovery sequence as a complete unit",
-        "Practice recovery loops from progressively worse starting positions",
-        "Develop ability to chain multiple loops when first attempt fails",
-        "Integrate offensive threats during recovery to slow opponent pressure"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Emergency Protocol Development",
-      "description": "Train last-resort guard replacement techniques for when primary retention fails. Practice granby rolls, inversions, and tactical standups under high pressure. These techniques must be reliable under stress as they prevent complete positional loss.",
-      "key_points": [
-        "Develop granby roll proficiency in both directions",
-        "Practice emergency techniques from various compromised positions",
-        "Learn to recognize when primary retention has failed and emergency measures are needed",
-        "Maintain composure and technical precision even in desperate situations"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Live Integration",
-      "description": "Apply complete system in live rolling with progressive resistance. Start with specific sparring from guard retention scenarios, gradually increasing opponent intensity. Focus on system adherence rather than winning exchanges initially.",
-      "key_points": [
-        "Begin with cooperative training to build confidence in system",
-        "Gradually increase resistance as proficiency develops",
-        "Analyze failed retention attempts to identify system gaps",
-        "Video review sessions to identify technique breakdowns under pressure"
-      ]
-    },
-    {
-      "step_number": 7,
-      "phase": "Refinement and Personalization",
-      "description": "Refine system based on individual body type, athleticism, and preferred guard styles. Identify which recovery loops work best for your game and drill these more extensively. Develop personal variations while maintaining system principles.",
-      "key_points": [
-        "Identify which frames and movements work best for your body type",
-        "Develop specialized counters for training partners' favorite passes",
-        "Integrate retention system with your offensive guard game",
-        "Continuously update and refine based on competition results and training feedback"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Over-reliance on strength-based frames that fail against larger opponents",
-      "solution": "Focus on angle-based frames and hip movement rather than pushing strength. Practice maintaining frames with minimal force while using hip escapes to create separation. Develop sensitivity to recognize when frames are failing and transition to movement-based retention."
-    },
-    {
-      "obstacle": "Delayed hip movement response allowing opponent to establish strong passing positions",
-      "solution": "Develop proactive hip movement that begins before passing pressure arrives. Practice continuous low-level hip adjustments during positional sparring. Train to recognize passing attack setups earlier in the sequence."
-    },
-    {
-      "obstacle": "Inability to execute recovery loops under high pressure and fatigue",
-      "solution": "Increase drilling volume until loops become automatic and require minimal cognitive load. Practice loops specifically under fatigue conditions. Simplify complex loops into smaller sub-sequences that are easier to execute when tired."
-    },
-    {
-      "obstacle": "Poor connection breaking leading to opponent controlling movement and limiting retention options",
-      "solution": "Dedicate specific training time to grip fighting and connection breaking. Develop hand fighting as an active skill rather than reactive defense. Practice identifying and breaking dangerous grips immediately while they're being established."
-    },
-    {
-      "obstacle": "Failure to recognize when primary retention has failed and emergency protocols are needed",
-      "solution": "Develop clear decision-making criteria for when to abandon primary retention. Practice recognizing the 'point of no return' for each passing attack. Drill emergency techniques as extensively as primary retention to build confidence in their application."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Guard Pass Prevention Rate",
-      "description": "Percentage of guard passing attempts successfully defended during sparring sessions. Track separately against different opponent skill levels and passing styles to identify specific weaknesses in retention system.",
-      "proficiency_indicators": [
-        "Beginner: Successfully retains guard against 40-50% of passing attempts from similar-skilled opponents",
-        "Intermediate: Successfully retains guard against 60-70% of passing attempts, including some from higher-skilled opponents",
-        "Advanced: Successfully retains guard against 75-85% of passing attempts, maintaining guard even against specialist passers",
-        "Expert: Retains guard at 85%+ rate, rarely has guard passed by anyone except elite competitors"
-      ]
-    },
-    {
-      "metric_name": "Recovery Loop Execution",
-      "description": "Ability to execute appropriate recovery sequences automatically under pressure. Measures both technical precision and decision-making speed when selecting recovery loops for specific passing attacks.",
-      "proficiency_indicators": [
-        "Can identify and execute correct recovery loop for all common passing attacks",
-        "Executes recovery loops with technical precision under live resistance",
-        "Chains multiple recovery loops when initial attempts are countered",
-        "Integrates offensive threats during recovery sequences to slow opponent pressure"
-      ]
-    },
-    {
-      "metric_name": "Frame Efficiency",
-      "description": "Quality of frame placement, angle management, and energy expenditure during retention battles. Efficient frames require minimal strength while providing maximum control and distance management.",
-      "proficiency_indicators": [
-        "Frames maintain effectiveness against larger, stronger opponents",
-        "Can sustain frame-based retention for extended periods without excessive fatigue",
-        "Frames are placed at optimal angles requiring minimal force to maintain",
-        "Successfully converts failing frames into movement-based retention without positional loss"
-      ]
-    },
-    {
-      "metric_name": "Hip Movement Quality",
-      "description": "Fluidity, timing, and effectiveness of hip escape mechanics during live rolling. Measures both isolated hip movement skill and integration with frame management and connection breaking.",
-      "proficiency_indicators": [
-        "Hip movements are continuous and proactive rather than reactive",
-        "Can execute precise hip escapes even under heavy pressure and fatigue",
-        "Hip movement creates consistent distance separation despite opponent weight",
-        "Successfully chains hip movements in different directions based on opponent pressure angles"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "The Caio Terra guard retention system requires extensive solo drilling to build fundamental movement patterns before adding resistance. Begin each training session with 5-10 minutes of solo hip escape drills, focusing on smooth, continuous movements in multiple directions. Progress to partner drilling with zero resistance, emphasizing technical precision over speed or power. Gradually add resistance through staged drills where opponents apply specific passing pressures at predetermined intensity levels. Use positional sparring extensively, starting from various compromised guard positions and working solely on retention without offensive attacks. This isolates the defensive skill and allows for higher repetition volume. Video analysis of live rolling is essential for identifying technique breakdowns under pressure that aren't apparent during isolated drilling. The system requires consistent daily practice over months to develop the automatic responses necessary for retention against skilled opponents.",
-    "progression_path": [
-      {
-        "stage": "Stage 1: Foundation Building",
-        "focus": "Master solo hip movement, basic frame placement, and simple grip breaks through isolated drilling",
-        "timeframe": "Weeks 1-4"
-      },
-      {
-        "stage": "Stage 2: Integration Phase",
-        "focus": "Combine hip movement with frames and connection breaking in cooperative drilling",
-        "timeframe": "Weeks 5-8"
-      },
-      {
-        "stage": "Stage 3: Recovery Loop Development",
-        "focus": "Learn and drill specific recovery sequences for common passing attacks with progressive resistance",
-        "timeframe": "Weeks 9-16"
-      },
-      {
-        "stage": "Stage 4: Live Application",
-        "focus": "Apply complete system in positional sparring and live rolling with increasing resistance levels",
-        "timeframe": "Weeks 17-24"
-      },
-      {
-        "stage": "Stage 5: Refinement",
-        "focus": "Identify and improve weak areas, develop personal variations, integrate with offensive game",
-        "timeframe": "Months 7-12"
-      },
-      {
-        "stage": "Stage 6: Mastery",
-        "focus": "Automatic system execution under pressure, teaching others, continuous refinement based on competition results",
-        "timeframe": "12+ months"
-      }
-    ],
-    "common_mistakes": [
-      "Using static, strength-based frames instead of dynamic, angle-based structures that fail against pressure",
-      "Waiting for passing attacks to develop fully before initiating hip movement and defensive responses",
-      "Neglecting connection breaking and allowing opponent to establish dominant grips that limit mobility",
-      "Attempting to execute complex recovery loops when simple hip escapes would be more effective",
-      "Failing to practice emergency guard replacement techniques, leaving no backup when primary retention fails",
-      "Drilling only in controlled environments without progressive resistance leading to failure under live pressure",
-      "Separating guard retention from overall guard game instead of integrating retention with offensive threats"
-    ]
-  },
+  "summary": "Caio Terra Online's defense archive offers specific guard-recovery lesson choices, including one-legged X against a toreando pass and half-guard recovery.",
+  "overview": "Start with the guard and passing situation you can identify, then use the archive to find a matching lesson. These individual entries support a focused reading route; the public archive does not present them as a single named guard-retention system.",
   "related_content": [
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Primary guard position where retention system prevents opening and passing attempts"
+      "relationship": "Related position reference for guard-recovery study."
     },
     {
       "name": "Open Guard",
       "content_type": "Position",
-      "relationship": "Core guard family requiring constant retention mechanics to maintain distance and control"
+      "relationship": "Related position reference for guard-recovery study."
     },
     {
       "name": "Spider Guard",
       "content_type": "Position",
-      "relationship": "Distance control guard utilizing frame principles from retention system"
+      "relationship": "Related position reference for guard-recovery study."
     },
     {
       "name": "De La Riva Guard",
       "content_type": "Position",
-      "relationship": "Hook-based guard requiring retention mechanics when hooks are threatened"
+      "relationship": "Related position reference for guard-recovery study."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Dynamic guard position using retention system's hip movement and frame principles"
+      "relationship": "Related position reference for guard-recovery study."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Defensive guard position requiring specialized retention against knee slice and smash passes"
+      "relationship": "Related position reference for guard-recovery study."
     },
     {
       "name": "X-Guard",
       "content_type": "Position",
-      "relationship": "Technical guard position requiring retention when hooks are compromised"
+      "relationship": "Related position reference for guard-recovery study."
     },
     {
       "name": "Single Leg X-Guard",
       "content_type": "Position",
-      "relationship": "Leg entanglement guard utilizing retention principles for hook maintenance"
+      "relationship": "Related position reference for guard-recovery study."
     },
     {
       "name": "Seated Guard",
       "content_type": "Position",
-      "relationship": "Starting position for many retention sequences when standing opponent applies pressure"
+      "relationship": "Related position reference for guard-recovery study."
     },
     {
       "name": "Knee Shield Half Guard",
       "content_type": "Position",
-      "relationship": "Half guard variation emphasizing frame-based retention with knee shield structure"
+      "relationship": "Related position reference for guard-recovery study."
     },
     {
       "name": "Arm Recovery to Guard",
       "content_type": "Transition",
-      "relationship": "Core recovery transition for re-establishing guard structure after partial pass attempts"
+      "relationship": "Related transition reference for guard-recovery study."
     },
     {
       "name": "Hip Escape to Guard",
       "content_type": "Transition",
-      "relationship": "Fundamental movement pattern essential for all guard retention sequences"
+      "relationship": "Related transition reference for guard-recovery study."
     },
     {
       "name": "Shrimp Escape",
       "content_type": "Transition",
-      "relationship": "Primary hip movement technique used throughout retention system"
+      "relationship": "Related transition reference for guard-recovery study."
     },
     {
       "name": "Frame and Shrimp to Guard",
       "content_type": "Transition",
-      "relationship": "Combined technique integrating frames with hip escapes for effective retention"
+      "relationship": "Related transition reference for guard-recovery study."
     },
     {
       "name": "Technical Stand Up to Single Leg",
       "content_type": "Transition",
-      "relationship": "Emergency retention technique used when bottom retention fails"
+      "relationship": "Related transition reference for guard-recovery study."
     },
     {
       "name": "Granby Roll to Guard",
       "content_type": "Transition",
-      "relationship": "Advanced retention recovery technique for desperate guard replacement scenarios"
+      "relationship": "Related transition reference for guard-recovery study."
     },
     {
       "name": "Back Door Escape",
       "content_type": "Transition",
-      "relationship": "Recovery technique for escaping compromised positions and returning to guard"
+      "relationship": "Related transition reference for guard-recovery study."
     },
     {
       "name": "Elbow Escape to Guard",
       "content_type": "Transition",
-      "relationship": "Alternative hip escape method used in retention when opponent controls near-side space"
+      "relationship": "Related transition reference for guard-recovery study."
     },
     {
       "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Core defensive principle that this system operationalizes into specific retention techniques and sequences"
+      "relationship": "Related principle reference for guard-recovery study."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Fundamental defensive principle applied throughout retention system"
+      "relationship": "Related principle reference for guard-recovery study."
     },
     {
       "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Critical principle governing grip management and connection breaking during retention battles"
+      "relationship": "Related principle reference for guard-recovery study."
     },
     {
       "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Structural principle for creating barriers and recovering position through systematic escapes"
+      "relationship": "Related principle reference for guard-recovery study."
     },
     {
       "name": "Distance Control",
       "content_type": "Principle",
-      "relationship": "Foundational principle for controlling distance and preventing opponent position consolidation"
+      "relationship": "Related principle reference for guard-recovery study."
     },
     {
       "name": "Dealing with Pressure",
       "content_type": "Principle",
-      "relationship": "Strategic principle for managing opponent pressure while optimizing frame placement and energy efficiency"
+      "relationship": "Related principle reference for guard-recovery study."
     },
     {
       "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Meta-principle explaining how individual techniques combine into coherent defensive sequences"
+      "relationship": "Related principle reference for guard-recovery study."
     },
     {
       "name": "Marcelo Garcia Butterfly Guard System",
       "content_type": "System",
-      "relationship": "Complementary guard system emphasizing active retention through butterfly hooks"
+      "relationship": "Related system reference for guard-recovery study."
     },
     {
       "name": "Dynamic Guard System",
       "content_type": "System",
-      "relationship": "Offensive guard framework that integrates retention as defensive component"
+      "relationship": "Related system reference for guard-recovery study."
     },
     {
       "name": "Defensive Prioritization Framework",
       "content_type": "System",
-      "relationship": "Strategic system for deciding when to retain guard versus accept position and escape"
+      "relationship": "Related system reference for guard-recovery study."
+    },
+    {
+      "name": "Danaher Pin Escape Fundamentals System",
+      "content_type": "System",
+      "relationship": "Alternative for established side-pin recovery, with separate elbow and knee-escape sections in its outline."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What core trade-off justifies prioritizing guard retention over guard recovery in the Caio Terra system?",
-      "answer": "Maintaining an existing guard costs far less energy than rebuilding one from an inferior position, so the system invests in staying connected rather than scrambling back, conserving energy for offense and the later stages of a match.",
-      "answer_line": "Retention costs less energy",
-      "distractors": {
-        "plausible": [
-          "Recovery rebuilds a stronger guard",
-          "Scrambling regains control faster"
-        ],
-        "trap": [
-          "Always scramble back to guard"
-        ]
-      }
+  "guide": {
+    "kind": "topic_guide",
+    "display_title": "Caio Terra: Guard-Recovery Lesson Map",
+    "audience": {
+      "fits": [
+        "You are looking through Caio Terra Online for a lesson matching one-legged X or half-guard recovery."
+      ],
+      "consider_alternative_if": [
+        "Your opponent has already established a side pin: Danaher Pin Escape Fundamentals has explicitly indexed side-position escape sections."
+      ]
     },
-    {
-      "question": "Why does the system favor small, continuous hip movements over large explosive escapes?",
-      "answer": "Small continuous hip adjustments keep the defender ahead of the pass and preserve connection control, whereas large explosive escapes open gaps the passer can exploit and quickly gas the defender out under sustained pressure.",
-      "answer_line": "Small hip moves stay ahead of pass",
-      "distractors": {
-        "plausible": [
-          "Big explosive escapes are faster",
-          "Move hips only when pressured"
-        ],
-        "trap": [
-          "Power through with raw strength"
-        ]
-      }
+    "coverage": {
+      "includes": [
+        "The official defense archive lists ONE LEGGED X VS TOREANDO PASS, HALF GUARD RECOVERY and a separate Q&A HALF GUARD RECOVERY entry.",
+        "The archive provides distinct lesson destinations that can be compared with a specific guard problem."
+      ],
+      "limits": [
+        "This map covers those named archive entries, rather than a verified comprehensive Caio Terra guard-retention curriculum.",
+        "The public archive establishes lesson subjects; the full instructional videos require membership and have not been reviewed here."
+      ]
     },
-    {
-      "question": "What must you do before attempting to restructure your guard, according to the connection-breaking hierarchy?",
-      "answer": "Eliminate the opponent's most dangerous grips and connections first, ranked by passing threat, because recovering position while the passer still controls key connections simply feeds you straight back into the pass.",
-      "answer_line": "Break dangerous grips first",
-      "distractors": {
-        "plausible": [
-          "Restructure guard immediately",
-          "Recover position before grips"
-        ],
-        "trap": [
-          "Ignore grips, rebuild guard"
-        ]
-      }
+    "start_here": {
+      "title": "Match the lesson to the guard you actually lost",
+      "kind": "observation",
+      "task": "Take one guard-passing exchange from your notes or footage and describe the guard at the last moment you can identify it. Compare that description with ONE LEGGED X VS TOREANDO PASS and HALF GUARD RECOVERY in the official archive. Select a matching entry only when its named situation fits; if neither does, keep the exchange as a separate problem rather than using a generic recovery label. The Q&A entry is an additional half-guard study destination for members.",
+      "source_ids": [
+        "caio-defense-archive"
+      ],
+      "section": "Defense archive: ONE LEGGED X VS TOREANDO PASS; HALF GUARD RECOVERY; Q&A HALF GUARD RECOVERY"
     },
-    {
-      "question": "How does the Caio Terra system define a 'recovery loop'?",
-      "answer": "A recovery loop is a pre-programmed, heavily drilled sequence that returns the defender from a specific compromised position (knee cut, toreando, stack) back to a strong guard, and can be chained when the first attempt is countered.",
-      "answer_line": "Pre-drilled loop back to guard",
-      "distractors": {
-        "plausible": [
-          "Improvised recovery each time",
-          "One fixed escape, no backup chain"
-        ],
-        "trap": [
-          "Wait and stall for a break"
-        ]
+    "sources": [
+      {
+        "id": "caio-defense-archive",
+        "url": "https://caioterra.com/lesson_techniques/defense/page/20/",
+        "title": "Defense archive — Caio Terra Online BJJ",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified the three named lesson entries in the official public archive. The archive supports subject selection, not a description of the instructional movements."
+      },
+      {
+        "id": "danaher-listing",
+        "url": "https://bjjfanatics.com/products/pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher",
+        "title": "Pin Escapes & Turtle Escapes: BJJ Fundamentals - Go Further Faster by John Danaher",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified the comparison course includes elbow and knee escapes from side position, plus framing and space sections."
       }
-    },
-    {
-      "question": "What distinguishes a dynamic, angle-based frame from a static, strength-based frame?",
-      "answer": "An angle-based frame uses skeletal alignment and positioning to redirect pressure with minimal force, so it holds against bigger opponents, while a strength-based frame relies on muscling and collapses once the passer out-pressures it.",
-      "answer_line": "Angles redirect force, not muscle",
-      "distractors": {
-        "plausible": [
-          "Strength frames stop bigger passers",
-          "Angle frames need constant power"
-        ],
-        "trap": [
-          "Muscle frame beats any pressure"
-        ]
-      }
-    },
-    {
-      "question": "When should a practitioner abandon primary retention and switch to emergency guard replacement?",
-      "answer": "At the recognized 'point of no return' for a given pass, once frames and hip movement can no longer create space, you transition to granby rolls, inversions, or a technical stand-up to avoid conceding a completed pass.",
-      "answer_line": "At the pass's point of no return",
-      "distractors": {
-        "plausible": [
-          "As soon as passer touches hips",
-          "Only after guard is fully passed"
-        ],
-        "trap": [
-          "Wait it out, hope pass fails"
-        ]
-      }
-    },
-    {
-      "question": "What is a common mistake practitioners make when applying this system under live pressure?",
-      "answer": "Reacting too late by waiting until the pass is fully developed before moving the hips, and leaning on static strength frames instead of proactive, continuous motion that begins before the passer can consolidate position.",
-      "answer_line": "Moving too late, muscling frames",
-      "distractors": {
-        "plausible": [
-          "Moving hips too early always",
-          "Relying only on hip movement"
-        ],
-        "trap": [
-          "Freeze and hold static frame"
-        ]
-      }
-    },
-    {
-      "question": "How should recovery loops be trained so they hold up under fatigue?",
-      "answer": "Drill each loop in isolation until it is automatic and requires minimal cognitive load, then rehearse it specifically under fatigue and from progressively worse starting positions so it survives the stress of live rolling.",
-      "answer_line": "Isolate drill, then add fatigue",
-      "distractors": {
-        "plausible": [
-          "Only drill loops at full speed",
-          "Learn many loops, skip repetition"
-        ],
-        "trap": [
-          "Skip drilling, improvise live"
-        ]
-      }
-    }
-  ]
+    ]
+  }
 }

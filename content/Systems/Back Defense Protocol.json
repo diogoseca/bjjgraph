@@ -1,6 +1,6 @@
 {
   "name": "Back Defense Protocol",
-  "description": "Study back-control escapes through hand fighting, hook management, and guard recovery, with a BJJGraph practice guide to Brian Glick's BJJ Fanatics course.",
+  "description": "A guide to selecting Brian Glick's back-escape lessons by controlling side, hooks, body triangle and strangle-defense stage.",
   "tags": [
     "bjj",
     "defense",
@@ -10,440 +10,148 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Intermediate",
-  "summary": "The Back Defense Protocol is a systematic defensive framework for escaping back control by prioritizing chin protection and hand fighting first, then using frames, hip escapes, and hook removal to recover guard or a neutral position.",
-  "overview": "Start by identifying what currently prevents your escape: access to your neck, control of your shoulders, or control of your hips. Protecting the neck remains a priority while you improve the other two. Moving your hips without accounting for the attacking hands can turn a positional problem into a submission.\n\nThis is an independent BJJGraph practice framework. Brian Glick's Only Way Out: Dynamic Back Escapes is a directly relevant optional instructional: its published syllabus includes defensive hand fighting, escapes to either side, body triangles, and guard recovery. Use the course for technical demonstrations and this page to organize partner practice. Begin with one starting configuration and one recoverable destination; add the attacker's reactions once you can explain why the initial escape works.",
-  "key_principles": [
-    "Chin protection is the absolute priority - survival before escape",
-    "Hand fighting disrupts choking mechanics and buys time",
-    "Create frames between your body and opponent's chest",
-    "Hip movement generates space for escape pathways",
-    "Systematic progression from survival to escape to recovery",
-    "Stay connected to the mat to prevent opponent from fully securing hooks",
-    "Never give up both underhooks simultaneously"
-  ],
-  "key_components": [
-    {
-      "component_name": "Chin Protection and Grips",
-      "description": "The first line of defense involves tucking the chin to throat and using both hands to strip choking grips. This component teaches practitioners to recognize choke threats early and employ proper hand positioning to defend the neck. Advanced variations include two-on-one grip breaks and preemptive hand fighting to prevent grips from being established in the first place.",
-      "purpose": "Prevent the submission and buy time to execute escape sequences"
-    },
-    {
-      "component_name": "Frames and Posture Management",
-      "description": "Creating defensive frames between your shoulder and the opponent's chest prevents them from flattening you out and securing dominant control. This involves maintaining space through proper elbow positioning and using your shoulder as a wedge. The frames must be strong enough to prevent collapse while allowing mobility for hip movement.",
-      "purpose": "Generate and maintain space necessary for hip escape movements"
-    },
-    {
-      "component_name": "Hip Escape Sequences",
-      "description": "Systematic hip movement patterns that allow you to work from flat on your back to your side, then to your knees or guard. This includes shrimping away from the choking arm, rotating your hips to face the opponent, and using your legs to create additional barriers. The sequence progresses through multiple stages until hooks are cleared and position is escaped.",
-      "purpose": "Create the physical space and angles needed to remove hooks and escape back control"
-    },
-    {
-      "component_name": "Guard Recovery Protocols",
-      "description": "Once hooks are cleared and space is created, this component teaches the transition back to closed guard, turtle, or standing position. It includes recognizing which recovery option is available based on opponent's reactions and maintaining defensive frames during the transition to prevent counter-attacks or submission attempts during the escape.",
-      "purpose": "Complete the escape by returning to a neutral or advantageous position"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Immediate Survival",
-      "description": "Upon recognizing back control, immediately protect your neck by tucking chin to chest and bringing both hands to defend against any choking attempts. Fight any grips on your collar or around your neck using two-on-one control.",
-      "key_points": [
-        "Chin stays tight to chest - create no space for forearm insertion",
-        "Both hands fight the choking arm if choke is attempted",
-        "Stay calm and control breathing despite pressure",
-        "Never allow opponent to secure figure-four grip on your neck"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Establish Defensive Frames",
-      "description": "Create a frame with your shoulder against the opponent's chest on the choking side. Your elbow should be inside their hip, preventing them from flattening you completely. Maintain connection to the mat with your shoulder blades.",
-      "key_points": [
-        "Inside elbow drives into opponent's hip",
-        "Shoulder wedge prevents chest-to-back connection",
-        "Keep weight on your shoulder, not flat on back",
-        "Maintain frame integrity while preparing hip movement"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Initial Hip Escape",
-      "description": "Begin shrimping your hips away from the choking side while maintaining your defensive frames. Work to get your hips perpendicular to the opponent rather than flat on your back. Your goal is to start clearing the first hook.",
-      "key_points": [
-        "Shrimp away from the danger side (choking arm)",
-        "Use your legs to push against the mat for leverage",
-        "Rotate your body toward the opponent progressively",
-        "Clear the bottom hook first as you turn in"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Hook Removal",
-      "description": "As you turn to face the opponent, use your arms to strip their hooks from your hips. Your inside arm blocks the top hook while your outside leg works to step over or clear the bottom hook. Continue rotating until both hooks are removed.",
-      "key_points": [
-        "Inside arm blocks top hook from re-establishing",
-        "Outside leg steps over bottom hook",
-        "Maintain chin protection throughout transition",
-        "Don't stop moving until both hooks are cleared"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Guard Recovery",
-      "description": "Once hooks are cleared and you're facing the opponent, immediately establish closed guard by wrapping your legs around their waist, or transition to turtle position if they're driving forward. If they create distance, work to technical standup or combat base.",
-      "key_points": [
-        "Close guard immediately if space allows",
-        "Turtle is acceptable if opponent drives forward aggressively",
-        "Maintain hand fighting to prevent re-attack",
-        "Establish grips to secure your recovered position"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Position Consolidation",
-      "description": "Secure your recovered position by establishing strong grips, controlling posture, and ensuring all threats are neutralized. Take a moment to reset your gameplan rather than immediately counter-attacking from a defensive mindset.",
-      "key_points": [
-        "Establish dominant grips in your recovered position",
-        "Control opponent's posture to prevent immediate re-attack",
-        "Reset mentally before transitioning to offensive game",
-        "Ensure you've fully escaped before advancing position"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Opponent secures body triangle making hip movement extremely difficult",
-      "solution": "Focus first on hand fighting and preventing the finish. Address the body triangle by turning into the opponent and using your elbow to pry the ankle off your hip. If necessary, accept temporary stalling to fatigue the opponent's body triangle before resuming escape attempts."
-    },
-    {
-      "obstacle": "Panic and explosive movements that burn energy without creating effective escape",
-      "solution": "Train positional sparring from back control with the rule that survival for 2 minutes equals a win. This builds comfort and reduces panic. Practice slow, methodical escapes in drilling to ingrain proper technique over explosive reactions."
-    },
-    {
-      "obstacle": "Getting flattened completely on your back, eliminating hip mobility",
-      "solution": "Prevent this by maintaining frames early. If already flattened, create micro-movements by bridging one shoulder up slightly, shrimping inches at a time. Even small movements accumulate to create enough space for larger escapes. Never accept being completely flat."
-    },
-    {
-      "obstacle": "Opponent switches to different submission attempts as you defend, creating decision paralysis",
-      "solution": "Maintain your defensive hierarchy regardless of attack changes. Chin stays protected, frames stay active, and you continue working systematic hip escapes. The protocol works against all back attacks because it addresses position, not specific submissions."
-    },
-    {
-      "obstacle": "Creating space but opponent immediately re-establishes hooks during escape attempts",
-      "solution": "Use your inside arm to actively block the top hook from re-entering while escaping. Your leg position must also prevent re-hooking by keeping your outside knee high and inside knee tight. Don't create space without simultaneously blocking re-entry."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Threat recognition",
-      "description": "Review which threat you addressed first in each round.",
-      "proficiency_indicators": [
-        "Identify the choking arm before moving.",
-        "Notice when an arm becomes trapped.",
-        "Pause positional progress when neck defense breaks down."
-      ]
-    },
-    {
-      "metric_name": "Upper-body freedom",
-      "description": "Observe whether your escape changes shoulder control.",
-      "proficiency_indicators": [
-        "Explain which grip prevents your turn.",
-        "Keep hand protection during the initial movement.",
-        "Recognize when the attacker reconnects chest to back."
-      ]
-    },
-    {
-      "metric_name": "Hook management",
-      "description": "Track which lower-body control blocks recovery.",
-      "proficiency_indicators": [
-        "Distinguish two hooks from a body triangle.",
-        "Clear the blocking hook without ignoring the hands.",
-        "Reset the drill when the starting configuration changes."
-      ]
-    },
-    {
-      "metric_name": "Stable recovery",
-      "description": "Record the position reached and whether it can be held.",
-      "proficiency_indicators": [
-        "Recover guard with usable frames.",
-        "Avoid treating a brief turn as a completed escape.",
-        "Identify the attacker's first reattachment attempt."
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "Begin with static positional drilling where partner has back control but doesn't actively finish. Practice the full escape sequence slowly, focusing on each phase. Progress to progressive resistance where partner defends your escape attempts but doesn't counter-attack. Finally, add full resistance positional sparring with back control as starting position. Dedicate at least 10 minutes per training session to back escape drilling, rotating partners to experience different body types and control styles. Film your escapes periodically to identify technical breakdowns in your protocol.",
-    "progression_path": [
-      {
-        "stage": "Recognize the controls",
-        "focus": "Map the hands, shoulder connection, and leg configuration with a cooperative partner."
-      },
-      {
-        "stage": "Build one route",
-        "focus": "Practice a single escape to guard from a consistent starting configuration."
-      },
-      {
-        "stage": "Add a reaction",
-        "focus": "Let the partner reattach a hook or change hand control so you can identify the next problem."
-      },
-      {
-        "stage": "Integrate resistance",
-        "focus": "Use short positional rounds; progress when the sequence remains controlled, not after a fixed number of weeks."
-      }
-    ],
-    "common_mistakes": [
-      "Attempting to explode out of back control rather than using systematic technique",
-      "Focusing on clearing hooks before establishing neck protection and frames",
-      "Shrimping without blocking the top hook, allowing immediate re-hooking",
-      "Giving up when opponent secures body triangle instead of continuing protocol",
-      "Forgetting to maintain frames during hip escape attempts, getting flattened",
-      "Stopping movement once one hook is cleared instead of completing full escape"
-    ]
-  },
+  "summary": "Brian Glick's Only Way Out: Dynamic Back Escapes separates rear-mount escapes by overhook side, underhook side, body triangle and special control situations.",
+  "overview": "Two exchanges both called back control may require different study sections. Glick's outline separates side-specific escapes from lower-body restrictions and strangle defenses, which makes it useful when a general back-escape lesson does not match the position you keep encountering.",
   "related_content": [
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Primary position this defensive system addresses"
+      "relationship": "Related position reference for rear-mount escape study."
     },
     {
       "name": "Body Triangle",
       "content_type": "Position",
-      "relationship": "Advanced back control variation requiring modified escape protocol"
+      "relationship": "Related position reference for rear-mount escape study."
     },
     {
       "name": "Seat Belt Control Back",
       "content_type": "Position",
-      "relationship": "Specific grip configuration this system defends against"
+      "relationship": "Related position reference for rear-mount escape study."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Common recovery position when escaping back control"
+      "relationship": "Related position reference for rear-mount escape study."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Primary target position when recovering from back control"
+      "relationship": "Related position reference for rear-mount escape study."
     },
     {
       "name": "Crucifix",
       "content_type": "Position",
-      "relationship": "Position to avoid when escaping back control improperly"
+      "relationship": "Related position reference for rear-mount escape study."
     },
     {
       "name": "Shrimp Escape",
       "content_type": "Transition",
-      "relationship": "Core movement pattern used in hip escape sequences"
+      "relationship": "Related transition reference for rear-mount escape study."
     },
     {
       "name": "Elbow Escape to Guard",
       "content_type": "Transition",
-      "relationship": "Alternative escape technique from back control"
+      "relationship": "Related transition reference for rear-mount escape study."
     },
     {
       "name": "Hip Escape to Guard",
       "content_type": "Transition",
-      "relationship": "Fundamental movement for creating space during escapes"
+      "relationship": "Related transition reference for rear-mount escape study."
     },
     {
       "name": "Granby Roll to Guard",
       "content_type": "Transition",
-      "relationship": "Advanced escape option when hooks are partially cleared"
+      "relationship": "Related transition reference for rear-mount escape study."
     },
     {
       "name": "Technical Stand-up",
       "content_type": "Transition",
-      "relationship": "Recovery option when opponent creates distance during escape"
+      "relationship": "Related transition reference for rear-mount escape study."
     },
     {
       "name": "Back Door Escape",
       "content_type": "Transition",
-      "relationship": "Key escape transition used during back control escape sequences"
+      "relationship": "Related transition reference for rear-mount escape study."
     },
     {
       "name": "Arm Recovery to Guard",
       "content_type": "Transition",
-      "relationship": "Final phase of escape protocol returning to guard position"
+      "relationship": "Related transition reference for rear-mount escape study."
     },
     {
       "name": "Hand Fighting",
       "content_type": "Principle",
-      "relationship": "Critical defensive skill for preventing chokes from back control"
+      "relationship": "Related principle reference for rear-mount escape study."
     },
     {
       "name": "Chin Protection",
       "content_type": "Principle",
-      "relationship": "First priority in back defense protocol"
+      "relationship": "Related principle reference for rear-mount escape study."
     },
     {
       "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Body positioning principles that maximize defensive effectiveness"
+      "relationship": "Related principle reference for rear-mount escape study."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Essential principle for preventing opponent from flattening you"
+      "relationship": "Related principle reference for rear-mount escape study."
     },
     {
       "name": "Hip Escape Mechanics",
       "content_type": "Principle",
-      "relationship": "Fundamental movement principle underlying all escape sequences"
+      "relationship": "Related principle reference for rear-mount escape study."
     },
     {
       "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Strategic framework defining priority order of defensive actions"
+      "relationship": "Related principle reference for rear-mount escape study."
     },
     {
       "name": "Distance Control",
       "content_type": "Principle",
-      "relationship": "Core principle of generating room for escape movements"
+      "relationship": "Related principle reference for rear-mount escape study."
     },
     {
       "name": "Energy Conservation",
       "content_type": "Principle",
-      "relationship": "Critical for surviving extended back control situations"
+      "relationship": "Related principle reference for rear-mount escape study."
     },
     {
       "name": "Dealing with Pressure",
       "content_type": "Principle",
-      "relationship": "Overall strategic approach to handling dominant pressure situations"
+      "relationship": "Related principle reference for rear-mount escape study."
     },
     {
       "name": "Back Attack System",
       "content_type": "System",
-      "relationship": "Offensive system this protocol specifically defends against"
+      "relationship": "Related system reference for rear-mount escape study."
     },
     {
       "name": "Danaher Straight Jacket System",
       "content_type": "System",
-      "relationship": "Advanced back control system requiring refined defensive protocol"
+      "relationship": "Related system reference for rear-mount escape study."
     },
     {
       "name": "Defensive Prioritization Framework",
       "content_type": "System",
-      "relationship": "Broader defensive system that includes back escape protocols"
+      "relationship": "Related system reference for rear-mount escape study."
     },
     {
       "name": "Rear Naked Choke",
       "content_type": "Submission",
-      "relationship": "Primary submission threat defended against in this system"
-    }
-  ],
-  "flashcards": [
-    {
-      "question": "What is the first priority when defending against back control?",
-      "answer": "Chin protection — tuck your chin tight to your chest and bring both hands to defend the neck, denying the attacker space to insert a choking forearm. Survival always precedes any escape attempt.",
-      "answer_line": "Tuck chin, hands defend neck",
-      "distractors": {
-        "plausible": [
-          "Strip the hooks immediately",
-          "Bridge explosively to escape"
-        ],
-        "trap": [
-          "Grab their choking arm first"
-        ]
-      }
+      "relationship": "Related submission reference for rear-mount escape study."
     },
     {
-      "question": "Why does the Back Defense Protocol work against all back attacks rather than against specific submissions?",
-      "answer": "Because it addresses the position itself — protecting the neck, building frames, and systematically clearing hooks — rather than reacting to any single submission, it neutralizes rear naked chokes, collar chokes, and arm attacks alike.",
-      "answer_line": "Defends the position, not one move",
-      "distractors": {
-        "plausible": [
-          "Counters chokes only, not locks",
-          "Memorize escape for each attack"
-        ],
-        "trap": [
-          "Wait to see which attack comes"
-        ]
-      }
+      "name": "Priit Mihkelson Turtle Defense System",
+      "content_type": "System",
+      "relationship": "Alternative for an exchange that begins in turtle; its outline separates posture, threats and exits."
     },
     {
-      "question": "How should you respond when the opponent secures a body triangle?",
-      "answer": "First prioritize hand fighting to prevent the finish, then turn into the opponent and use your elbow to pry the ankle off your hip. Accept temporary stalling if needed to fatigue their triangle before resuming the escape.",
-      "answer_line": "Turn in, pry ankle with elbow",
-      "distractors": {
-        "plausible": [
-          "Pry the triangle open first",
-          "Turn away to create space"
-        ],
-        "trap": [
-          "Let go of grips, grab the leg"
-        ]
-      }
-    },
-    {
-      "question": "What frame prevents the opponent from flattening you out under back control?",
-      "answer": "A shoulder frame on the choking side, driving your inside elbow into the opponent's hip while keeping your weight on the shoulder rather than flat on your back, which preserves the space needed for hip escapes.",
-      "answer_line": "Shoulder frame on the choking side",
-      "distractors": {
-        "plausible": [
-          "Elbow frame on the free side",
-          "Bridge flat and bench the choke"
-        ],
-        "trap": [
-          "Turn belly-down to spin out"
-        ]
-      }
-    },
-    {
-      "question": "In what order does the protocol sequence its defensive actions?",
-      "answer": "Protect the neck, fight the grips, establish frames, hip escape, remove the hooks, then recover guard or standing — each stage only begins once the previous threat has been fully neutralized.",
-      "answer_line": "Neck, grips, frames, escape, hooks",
-      "distractors": {
-        "plausible": [
-          "Hooks first, then neck safety",
-          "Frames first, then neck defense"
-        ],
-        "trap": [
-          "Escape hips before defending neck"
-        ]
-      }
-    },
-    {
-      "question": "What is the most common mistake practitioners make when escaping back control?",
-      "answer": "Exploding out with random athletic movement instead of using systematic technique, which burns energy without producing an effective escape and frequently opens new submission opportunities for the attacker.",
-      "answer_line": "Random explosive movement",
-      "distractors": {
-        "plausible": [
-          "Escaping too slowly",
-          "Focusing only on the hooks"
-        ],
-        "trap": [
-          "Bridging hard, early and often"
-        ]
-      }
-    },
-    {
-      "question": "Why must you block the top hook while shrimping during the escape?",
-      "answer": "If you create space without simultaneously blocking re-entry, the opponent will immediately re-establish hooks. Using your inside arm to block the top hook and keeping your knee positioning tight prevents re-hooking as you escape.",
-      "answer_line": "Blocks re-entry with inside arm",
-      "distractors": {
-        "plausible": [
-          "Grip fight the top hand only",
-          "Shrimp fast, ignore the hook"
-        ],
-        "trap": [
-          "Strip the hook with both hands"
-        ]
-      }
-    },
-    {
-      "question": "What positions can you recover to after clearing both hooks?",
-      "answer": "Closed guard if space allows, turtle if the opponent drives forward aggressively, or a technical standup and combat base if they create distance — the choice is dictated by the opponent's reaction during the escape.",
-      "answer_line": "Guard, turtle, or standup",
-      "distractors": {
-        "plausible": [
-          "Always stand up immediately",
-          "Always recover closed guard"
-        ],
-        "trap": [
-          "Turn belly-down and stay flat"
-        ]
-      }
+      "name": "Danaher Pin Escape Fundamentals System",
+      "content_type": "System",
+      "relationship": "Broader alternative when mount, side pins and other bottom positions also need study."
     }
   ],
   "products": [
@@ -452,13 +160,73 @@
       "title": "Only Way Out: Dynamic Back Escapes",
       "instructor": "Brian Glick",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick?rfsn=REPLACE_ME",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "A focused match for this guide: the published syllabus connects hand fighting, hook management, body-triangle escapes, and guard recovery.",
-      "best_for": "Grapplers who want detailed work on escaping back control. This is a positional study choice rather than a general escape curriculum.",
-      "study_focus": "Begin with the rear-mount overview and defensive hand-fighting fundamentals, then choose the overhook-side or underhook-side escape section that matches your starting position.",
-      "practice_tip": "BJJGraph drill: start with a seatbelt and two hooks, agree on light resistance, and score a repetition only after the neck is protected and you have stabilized a guard recovery."
+      "link_checked": "2026-09-16",
+      "blurb": "Seven volumes distinguish rear-control configurations, escape destinations and strangle-defense stages.",
+      "best_for": "Students who need separate study paths for overhook-side, underhook-side and body-triangle problems.",
+      "study_focus": "Begin with defensive hand fighting in Volume 1 at 24:53, then select Volume 2, 3 or 4 for the configuration you identified.",
+      "course_url": "https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick"
     }
-  ]
+  ],
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Back Defense: Brian Glick's Rear-Mount Study Guide",
+    "audience": {
+      "fits": [
+        "You need to find the lesson that matches your particular rear-mount configuration.",
+        "Your recurring problem involves a trapped arm, body triangle or a strangle attempt during an escape."
+      ],
+      "consider_alternative_if": [
+        "Your exchange still begins in turtle without established rear mount: Priit Mihkelson Turtle Defense System has a more direct posture-and-exit outline."
+      ]
+    },
+    "coverage": {
+      "includes": [
+        "Volume 1 introduces rear mount, defensive hand fighting, trapped-arm situations and four named essential skills.",
+        "Volumes 2–4 organize overhook-side, underhook-side and body-triangle escapes; Volume 5 adds crucifix, cross-body ride and standing cases.",
+        "Volume 6 distinguishes early, middle and late strangle defenses; Volume 7 supplies an executive summary."
+      ],
+      "limits": [
+        "This is a rear-control escape course; mount and side-pin recovery are outside its main organizing sections.",
+        "Strangle-defense chapter labels identify stages but do not establish how to recognize or execute a late defense."
+      ]
+    },
+    "start_here": {
+      "title": "Identify the back-control configuration before choosing an escape",
+      "kind": "observation",
+      "task": "Pause a back-control exchange at the moment you would begin an escape. Record the upper-body control separately from the legs: which side can you identify, and are hooks or a body triangle visible? Use Volumes 2–4 to locate the matching section. If an arm is trapped or a strangle is already being attempted, mark that as a separate study problem and locate Volume 1 or 6 rather than assuming the same starting conditions.",
+      "source_ids": [
+        "glick-listing"
+      ],
+      "section": "Volume 1: Essential Skills - 1 - Gripping - Defensive Hand Fighting Fundamentals (24:53); Volumes 2–4: side-specific and body-triangle escapes"
+    },
+    "sources": [
+      {
+        "id": "glick-listing",
+        "url": "https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick",
+        "title": "Only Way Out: Dynamic Back Escapes by Brian Glick",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified Brian Glick as instructor, the seven-volume outline, the hand-fighting start time and the distinct rear-control and strangle-defense sections. The page explicitly embeds a free sample; video content has not been reviewed."
+      },
+      {
+        "id": "priit-listing",
+        "url": "https://bjjfanatics.com/products/protecting-generating-dynamic-offense-from-the-turtle-by-priit-mihkelson",
+        "title": "Protecting & Generating Dynamic Offense From The Turtle by Priit Mihkelson",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified the turtle-focused comparison includes posture, hooks, harness responses and guard or standing exits."
+      }
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/cf8327f2-3c87-48d1-b3a8-4a6ab0c31e83?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "source_id": "glick-listing",
+      "title": "Official sample — Only Way Out: Dynamic Back Escapes by Brian Glick",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
+  }
 }
