@@ -1,6 +1,5 @@
 {
   "name": "Submission Clinic System",
-  "description": "Explores the kimura grip as a control that connects positional transitions and submission options. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -14,538 +13,226 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "summary": "A submission chain begins with a control you can maintain.",
-  "overview": "A submission chain begins with a control you can maintain. Choose one attack, identify the defense it draws, and connect that reaction to a second option. The kimura instructional below is one focused way to study that process.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
-  "key_principles": [
-    "Position before submission - establish dominant control before hunting finishes",
-    "Create submission chains - every defense opens a new attack",
-    "Maintain connection points - never sacrifice control for a low-percentage finish",
-    "Force dilemmas - present multiple simultaneous threats that cannot all be defended",
-    "Use time pressure - constant attacks drain opponent's mental and physical resources",
-    "Attack the opposite side - when one side is defended, immediately threaten the other",
-    "Progressive isolation - systematically remove defensive tools before finishing",
-    "Transition seamlessly - move between positions without releasing control"
-  ],
-  "key_components": [
-    {
-      "component_name": "Mount Attack Series",
-      "description": "From high mount and S-mount positions, create armbar, triangle, and collar choke threats. The mount provides the most stable platform for submission attacks due to the weight distribution and control points available. Key is maintaining hip pressure while attacking upper body submissions, using the threat of one submission to open others.",
-      "purpose": "Establish primary attacking position with maximum control and submission options"
-    },
-    {
-      "component_name": "Back Attack Framework",
-      "description": "From back control with seat belt grip, systematically attack rear naked choke, armbar from back, and transition to mounted triangle. The back position offers the highest percentage submissions in BJJ, but requires precise hand fighting and body triangle control to prevent escapes. Each submission attempt should improve the position even if unsuccessful.",
-      "purpose": "Access highest-percentage finishing position with multiple submission pathways"
-    },
-    {
-      "component_name": "Triangle Control System",
-      "description": "Establish triangle control from various positions (closed guard, mount, back), then systematically attack triangle choke, armbar, and omoplata. The triangle position creates a structural trap that limits opponent's movement while providing three distinct submission options. Mastery requires understanding angle adjustment and hip movement to tighten the position.",
-      "purpose": "Create inescapable control position with built-in submission chain"
-    },
-    {
-      "component_name": "Side Control Submission Matrix",
-      "description": "From side control top, establish near-side control then attack kimura, americana, straight armbar, and north-south transitions. Side control requires constant pressure and weight distribution to prevent escapes while setting up submissions. The key is using head position and crossface to control posture while isolating limbs for attack.",
-      "purpose": "Maintain dominant pin while creating upper body submission opportunities"
-    },
-    {
-      "component_name": "Guard Submission System",
-      "description": "From closed guard bottom, use collar and sleeve grips to set up triangle, armbar, omoplata, and guillotine attacks. The guard position requires active hip movement and grip fighting to create angles for submissions. Each attack should threaten a finish while improving position or breaking opponent's posture further.",
-      "purpose": "Attack effectively from bottom position using leverage and angle creation"
-    },
-    {
-      "component_name": "Crucifix and Gift Wrap Attacks",
-      "description": "From crucifix position or gift wrap control, isolate both arms to attack rear naked choke, straight armbar, or transition to mounted position. These positions represent the ultimate control states where opponent has minimal defensive options. The focus is maintaining arm isolation while applying finishing pressure.",
-      "purpose": "Achieve maximum control with minimal defensive options for opponent"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Position Establishment",
-      "description": "Begin by achieving a dominant position (mount, back control, or side control) with proper connection points and weight distribution. Do not rush to submissions before establishing stable control.",
-      "key_points": [
-        "Secure at least three points of contact with opponent",
-        "Distribute weight to prevent bridging or shrimping",
-        "Establish controlling grips (collar, wrist, underhook) before attacking",
-        "Neutralize opponent's frames and defensive structures",
-        "Verify opponent cannot easily escape before proceeding"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Initial Threat Presentation",
-      "description": "Present the first submission threat based on position (armbar from mount, RNC from back, kimura from side). This initial attack serves to gauge opponent's defensive reactions and identify their priorities.",
-      "key_points": [
-        "Commit only 60-70% to initial attack to maintain position",
-        "Observe which arm/side opponent defends most urgently",
-        "Note whether opponent prioritizes escape or submission defense",
-        "Maintain all control points during initial attack",
-        "Use opponent's reaction to plan next attack"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Reaction Exploitation",
-      "description": "When opponent defends the first submission, immediately transition to the complementary attack on the opposite side or different submission type. For example, if they defend the armbar by gripping their hands together, transition to triangle or omoplata.",
-      "key_points": [
-        "Recognize defensive patterns instantly",
-        "Transition without releasing primary control points",
-        "Attack the space created by their defense",
-        "Increase pressure during transitions to prevent escape",
-        "Chain at least three submissions before resetting"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Progressive Isolation",
-      "description": "As opponent continues defending, systematically remove their defensive tools. Break grips, isolate limbs, eliminate frames, and restrict head movement. Each successful defense should cost them a defensive resource.",
-      "key_points": [
-        "Prioritize removing most dangerous defensive tools first",
-        "Use submission threats to force opponent to release grips",
-        "Control head position to limit visibility and breathing",
-        "Isolate one limb completely before attempting finish",
-        "Never give back previously gained advantages"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Position Improvement",
-      "description": "If submissions are not immediately available, use the submission threats to transition to even more dominant positions. For example, failed armbar from mount can transition to S-mount or technical mount with increased control.",
-      "key_points": [
-        "Every submission attempt should improve position if unsuccessful",
-        "Transition to mount variations (S-mount, high mount, technical mount)",
-        "Move from side control to north-south to mount progression",
-        "Establish back control with body triangle when available",
-        "Create gift wrap or crucifix control for maximum dominance"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Fork Attacks",
-      "description": "Present simultaneous threats that cannot both be defended. For example, from S-mount, threaten both armbar on one side and collar choke on the other. Opponent must choose which to defend, opening the other for finish.",
-      "key_points": [
-        "Set up both threats before forcing the choice",
-        "Make threats equally dangerous to create true dilemma",
-        "Maintain control regardless of which defense they choose",
-        "Use their defensive movement to improve the other attack",
-        "Be prepared to finish whichever submission they give you"
-      ]
-    },
-    {
-      "step_number": 7,
-      "phase": "Finish Execution",
-      "description": "Once opponent is exhausted, isolated, or makes a critical defensive error, commit fully to the highest-percentage finish available. Apply technique with control and awareness of safety, ensuring proper tap recognition.",
-      "key_points": [
-        "Commit 100% once decision to finish is made",
-        "Maintain all control points during finish",
-        "Apply pressure progressively, not explosively",
-        "Watch for tap signals (verbal, physical, visual)",
-        "Release immediately upon tap or referee stoppage"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Opponent maintains strong defensive posture and frames, preventing submission setups",
-      "solution": "Use systematic pressure and weight distribution to break down frames over time. Attack frames with submission threats (e.g., kimura on defensive arm) to force them to abandon defensive structure. Focus on controlling the far side first to collapse near-side frames."
-    },
-    {
-      "obstacle": "Losing position when committing to submissions too aggressively",
-      "solution": "Maintain position-first mentality by never releasing more than one control point during attacks. Practice submission entries slowly to identify minimum commitment required. When in doubt, improve position rather than force low-percentage submission."
-    },
-    {
-      "obstacle": "Opponent successfully defending submission chains through grip fighting",
-      "solution": "Systematically attack grips using submission threats. For example, threaten choke to force them to defend neck, breaking their grip fighting ability on arms. Use pressure and fatigue to weaken grip strength over time. Isolate one limb at a time rather than fighting multiple grips simultaneously."
-    },
-    {
-      "obstacle": "Difficulty transitioning smoothly between submissions without losing control",
-      "solution": "Drill submission chains in isolation, focusing on maintaining hip pressure and connection points during transitions. Practice each combination 50+ times until movement is automatic. Start with two-submission chains before adding complexity. Film training to identify control points lost during transitions."
-    },
-    {
-      "obstacle": "Opponent explosively escaping during submission transitions",
-      "solution": "Recognize explosion windows and increase pressure before they occur. Use progressive submission chains that improve position even when opponent escapes. Establish back-up control points before releasing primary controls. Practice defending explosive movements in drilling."
-    },
-    {
-      "obstacle": "Mental fatigue from constantly calculating next attack in chain",
-      "solution": "Memorize standard submission chains for each position so decision-making becomes automatic. Start with 2-3 go-to chains from each position before expanding. Focus on opponent's reactions rather than pre-planned sequences. Simplify decision tree to: if they defend A, attack B; if they defend B, attack C."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Submission Chain Completion Rate",
-      "description": "Percentage of dominant positions that result in at least 3 submission attempts before reset or finish",
-      "proficiency_indicators": [
-        "Beginner: 30% - Attempts 1-2 submissions before losing position",
-        "Intermediate: 60% - Consistently chains 3+ submissions with occasional position loss",
-        "Advanced: 85%+ - Maintains position throughout chains and forces opponent into progressive exhaustion",
-        "Expert: 95%+ - Seamlessly chains submissions while improving position, leading to inevitable finish or complete dominance"
-      ]
-    },
-    {
-      "metric_name": "Position Maintenance During Attacks",
-      "description": "Ability to maintain dominant position (mount, back, side) while executing submission attempts",
-      "proficiency_indicators": [
-        "Beginner: Frequently loses position when attempting submissions",
-        "Intermediate: Maintains position during single submission attempts but struggles during chains",
-        "Advanced: Consistently maintains or improves position during submission chains",
-        "Expert: Position automatically improves with each submission attempt regardless of opponent's defense"
-      ]
-    },
-    {
-      "metric_name": "Fork Attacks Effectiveness",
-      "description": "Success rate of presenting simultaneous threats that force opponent into no-win scenarios",
-      "proficiency_indicators": [
-        "Beginner: Presents one threat at a time, giving opponent clear defensive path",
-        "Intermediate: Creates basic dilemmas (armbar or triangle) but with obvious escape windows",
-        "Advanced: Consistently creates true dilemmas where both options lead to submission or position improvement",
-        "Expert: Every movement creates multiple threats simultaneously, overwhelming opponent's defensive capacity"
-      ]
-    },
-    {
-      "metric_name": "Submission Finish Rate from Dominant Positions",
-      "description": "Percentage of time in dominant positions that results in submission finish",
-      "proficiency_indicators": [
-        "Beginner: 10-20% finish rate, most positions end in escapes or resets",
-        "Intermediate: 30-40% finish rate, can submit less experienced opponents consistently",
-        "Advanced: 50-60% finish rate against similar skill level, 80%+ against lower ranks",
-        "Expert: 70%+ finish rate against all skill levels, rare position losses without submission"
-      ]
-    },
-    {
-      "metric_name": "Adaptive Response Speed",
-      "description": "Time required to recognize defensive reactions and transition to appropriate counter-attack",
-      "proficiency_indicators": [
-        "Beginner: 3-5 seconds delay, often misses defensive reactions entirely",
-        "Intermediate: 1-2 seconds to recognize and respond, occasional missed opportunities",
-        "Advanced: Instant recognition and response, rarely misses defensive windows",
-        "Expert: Anticipates defenses before they occur, sets up future attacks based on opponent's tendencies"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "The Submission Clinic System requires extensive positional drilling combined with live situational training. Begin each session with positional control maintenance (5 minutes per position), then progress to single submission entries (10 repetitions each), followed by two-submission chains (20 repetitions), and finally three-plus submission chains (30 repetitions). Partner should provide 25% resistance initially, increasing to 75% as proficiency develops. Critically important: drill both successful submissions AND transitions from failed attempts - this builds the complete system. Weekly, dedicate at least one session to pure submission chain flow rolling from dominant positions with no escape attempts allowed, forcing focus on attack sequences rather than position retention.",
-    "progression_path": [
-      {
-        "stage": "Foundation Building (Weeks 1-4)",
-        "focus": "Establish positional control and single submission mechanics from mount, back, and side control. Master basic control points, weight distribution, and individual submission techniques in isolation. Goal: Hold each dominant position for 2+ minutes against resisting opponent.",
-        "timeframe": "4 weeks"
-      },
-      {
-        "stage": "Chain Development (Weeks 5-12)",
-        "focus": "Link two submissions together from each position. Practice armbar-to-triangle, kimura-to-armbar, RNC-to-armbar-from-back sequences. Drill transitions until automatic. Goal: Execute 3+ two-submission chains per dominant position hold.",
-        "timeframe": "8 weeks"
-      },
-      {
-        "stage": "Complex Chains (Weeks 13-24)",
-        "focus": "Extend to three and four submission sequences. Incorporate position improvements between submissions. Add reaction-based decision making rather than pre-planned sequences. Goal: Maintain continuous submission pressure for entire round without resetting.",
-        "timeframe": "12 weeks"
-      },
-      {
-        "stage": "Dilemma Integration (Weeks 25-40)",
-        "focus": "Develop simultaneous threat presentation. Practice setting up both sides of dilemmas before forcing opponent's choice. Refine timing and pressure application to make dilemmas inescapable. Goal: Force opponent into no-win scenarios 80%+ of the time from dominant positions.",
-        "timeframe": "16 weeks"
-      },
-      {
-        "stage": "Competition Application (Weeks 41-52)",
-        "focus": "Apply system in competition-style training with time limits, points, and rule sets. Develop ability to transition from neutral to dominant positions specifically to apply submission clinic. Refine finish rates under pressure. Goal: Submit 60%+ of opponents in competition matches.",
-        "timeframe": "12 weeks"
-      },
-      {
-        "stage": "Mastery and Innovation (Ongoing)",
-        "focus": "Develop personal variations and preferences within system framework. Add new positions and submission combinations based on individual body type and style. Teach system to others to deepen understanding. Goal: Become position-specific submission threat regardless of opponent's skill level.",
-        "timeframe": "Continuous"
-      }
-    ],
-    "common_mistakes": [
-      "Rushing to submissions before establishing stable positional control - leads to sweeps and escapes",
-      "Committing too fully to low-percentage submissions and losing position when unsuccessful",
-      "Attacking same submission repeatedly instead of adapting to opponent's defensive patterns",
-      "Releasing control points too early during transitions between submission attempts",
-      "Forgetting to maintain pressure and weight distribution while setting up submissions",
-      "Attempting submissions without first breaking opponent's defensive grips and frames",
-      "Failing to recognize and exploit defensive reactions, missing obvious chain opportunities",
-      "Training only successful submissions without drilling transitions from failed attempts"
-    ]
-  },
+  "description": "This companion organizes one connected attack family. The kimura is the common subject across dorsal, T-kimura, guard and takedown situations.",
+  "summary": "Use Danaher’s kimura course to compare changing submission with changing position.",
+  "overview": "This companion organizes one connected attack family. The kimura is the common subject across dorsal, T-kimura, guard and takedown situations.",
   "related_content": [
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Primary attacking position for armbar, triangle, and collar choke chains"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Highest-percentage finishing position for RNC and armbar attacks"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Fundamental control position for kimura, americana, and arm triangle setups"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "S Mount",
       "content_type": "Position",
-      "relationship": "Advanced mount variation providing superior armbar and choke access"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "Triangle Control",
       "content_type": "Position",
-      "relationship": "Control position enabling triangle-armbar-omoplata submission chain"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "Crucifix",
       "content_type": "Position",
-      "relationship": "Maximum control position with both arms isolated for finishing"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "Gift Wrap",
       "content_type": "Position",
-      "relationship": "Arm-isolation position transitioning to crucifix or mounted attacks"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "North-South",
       "content_type": "Position",
-      "relationship": "Transition position connecting side control to mount with kimura access"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "Technical Mount",
       "content_type": "Position",
-      "relationship": "Mount variation providing back take and armbar opportunities"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Bottom attacking position for triangle, armbar, and omoplata chains"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "High Mount",
       "content_type": "Position",
-      "relationship": "Advanced mount control with enhanced submission access"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "Body Triangle",
       "content_type": "Position",
-      "relationship": "Superior back control variation for submission attacks"
+      "relationship": "Related position for orientation."
     },
     {
       "name": "Armbar from Armbar Control",
       "content_type": "Submission",
-      "relationship": "Primary armbar finishing mechanic from armbar control reached via mount and other dominant positions"
+      "relationship": "Related submission card for separate study."
     },
     {
       "name": "Triangle Setup",
       "content_type": "Transition",
-      "relationship": "Entry to triangle control position from various positions"
+      "relationship": "Related movement card for separate study."
     },
     {
       "name": "Triangle to Armbar",
       "content_type": "Transition",
-      "relationship": "Essential chain linking triangle and armbar submissions"
+      "relationship": "Related movement card for separate study."
     },
     {
       "name": "Triangle to Omoplata",
       "content_type": "Transition",
-      "relationship": "Alternative chain when triangle is defended"
+      "relationship": "Related movement card for separate study."
     },
     {
       "name": "Kimura to Back Take",
       "content_type": "Transition",
-      "relationship": "Position improvement using kimura threat"
+      "relationship": "Related movement card for separate study."
     },
     {
       "name": "Armbar from Back Transition",
       "content_type": "Transition",
-      "relationship": "High-percentage armbar finish transition from back control"
+      "relationship": "Related movement card for separate study."
     },
     {
       "name": "Rear Naked Choke",
       "content_type": "Submission",
-      "relationship": "Primary submission from back control"
+      "relationship": "Related submission card for separate study."
     },
     {
       "name": "Triangle Choke",
       "content_type": "Submission",
-      "relationship": "Core submission in multiple chain sequences"
+      "relationship": "Related submission card for separate study."
     },
     {
       "name": "Kimura",
       "content_type": "Submission",
-      "relationship": "Versatile submission from multiple positions"
+      "relationship": "Related submission card for separate study."
     },
     {
       "name": "Americana",
       "content_type": "Submission",
-      "relationship": "Side control and mount submission option"
+      "relationship": "Related submission card for separate study."
     },
     {
       "name": "Omoplata",
       "content_type": "Submission",
-      "relationship": "Shoulder lock in triangle-armbar-omoplata chain"
+      "relationship": "Related submission card for separate study."
     },
     {
       "name": "Arm Triangle",
       "content_type": "Submission",
-      "relationship": "Side control choke option"
+      "relationship": "Related submission card for separate study."
     },
     {
       "name": "Guillotine Choke",
       "content_type": "Submission",
-      "relationship": "Guard and front headlock submission"
+      "relationship": "Related submission card for separate study."
     },
     {
       "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Core theoretical framework underlying entire system"
+      "relationship": "Related concept for framing study questions."
     },
     {
       "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Strategic principle of forcing no-win defensive choices"
+      "relationship": "Related concept for framing study questions."
     },
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Philosophical foundation prioritizing control before finishing"
+      "relationship": "Related concept for framing study questions."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Technical principle of maintaining position during attacks"
+      "relationship": "Related concept for framing study questions."
     },
     {
       "name": "Positional Hierarchy",
       "content_type": "Principle",
-      "relationship": "Understanding position value for progressive advancement"
+      "relationship": "Related concept for framing study questions."
+    },
+    {
+      "name": "Edwin Najmi Submission Attack System",
+      "content_type": "System",
+      "relationship": "Alternative format: separate darce, triangle and Estima-lock tracks."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What is the core sequencing principle of the Submission Clinic System?",
-      "answer": "Position before submission — you establish dominant control with at least three connection points before hunting finishes, so a failed attack improves position rather than losing it.",
-      "answer_line": "Position before submission",
-      "distractors": {
-        "plausible": [
-          "Submit first, control second",
-          "Attack immediately on entry"
-        ],
-        "trap": [
-          "Abandon control to force tap"
-        ]
-      }
-    },
-    {
-      "question": "How does the system turn an opponent's defensive reaction into an advantage?",
-      "answer": "Every defense removes a defensive tool or opens space on the opposite side, so you immediately chain to the complementary attack, using their reaction as the roadmap to the next threat.",
-      "answer_line": "Chain to complementary attack",
-      "distractors": {
-        "plausible": [
-          "Reset and retry same attack",
-          "Switch to strongest submission"
-        ],
-        "trap": [
-          "Force through their defense"
-        ]
-      }
-    },
-    {
-      "question": "What is a fork (dilemma) attack within this system?",
-      "answer": "Presenting two equally dangerous simultaneous threats — such as an armbar on one side and a collar choke on the other from S-mount — so the opponent must concede one while defending the other.",
-      "answer_line": "Simultaneous dual threat",
-      "distractors": {
-        "plausible": [
-          "Fake one attack to bait reaction",
-          "Rapid-fire sequential attacks"
-        ],
-        "trap": [
-          "Commit fully to single submission"
-        ]
-      }
-    },
-    {
-      "question": "Why should you only commit 60-70% to the initial submission attempt?",
-      "answer": "Partial commitment keeps every control point intact while you gauge the opponent's defensive priorities, letting you read their reactions without sacrificing position to a low-percentage finish.",
-      "answer_line": "Stay partial, read their defense",
-      "distractors": {
-        "plausible": [
-          "Save energy for later rounds",
-          "Test their strength first"
-        ],
-        "trap": [
-          "Full commit to finish quick"
-        ]
-      }
-    },
-    {
-      "question": "Which positions form the backbone of the Submission Clinic attack matrix?",
-      "answer": "Mount (including S-mount and high mount), back control with seat belt and body triangle, side control, triangle control, and closed guard, plus crucifix and gift wrap for maximum arm isolation.",
-      "answer_line": "Mount, back, side, triangle, guard",
-      "distractors": {
-        "plausible": [
-          "Only mount and back control",
-          "Half guard and turtle focus"
-        ],
-        "trap": [
-          "Any position with underhook"
-        ]
-      }
-    },
-    {
-      "question": "What is the most common mistake practitioners make when applying this system?",
-      "answer": "Rushing to submissions before stabilizing positional control, which exposes them to sweeps and escapes; the fix is enforcing a strict position-first mentality before launching any attack.",
-      "answer_line": "Rushing subs before control",
-      "distractors": {
-        "plausible": [
-          "Overusing one submission type",
-          "Ignoring grip fighting details"
-        ],
-        "trap": [
-          "Chasing every scramble opening"
-        ]
-      }
-    },
-    {
-      "question": "How should you drill submission chains to build the complete system?",
-      "answer": "Drill both successful finishes AND transitions from failed attempts, starting with two-submission chains at low resistance and progressing to three-plus chains at 75% resistance until movement is automatic.",
-      "answer_line": "Drill fails too, scale resistance",
-      "distractors": {
-        "plausible": [
-          "Drill only finishes at full speed",
-          "Isolate single subs to mastery"
-        ],
-        "trap": [
-          "Skip live drilling, only visualize"
-        ]
-      }
-    },
-    {
-      "question": "How does the Submission Clinic System wear down high-level opponents?",
-      "answer": "By removing any chance to rest — every moment in a dominant position becomes an attack, and constant simultaneous threats drain the opponent's mental and physical resources until they break.",
-      "answer_line": "Never let them rest or recover",
-      "distractors": {
-        "plausible": [
-          "Overpower with pure strength",
-          "Outlast with cardio alone"
-        ],
-        "trap": [
-          "Pace slowly to save energy"
-        ]
-      }
-    }
-  ],
+  "flashcards": [],
   "products": [
     {
       "id": "kimura-enter-the-system-by-john-danaher",
       "title": "Kimura: Enter The System",
       "instructor": "John Danaher",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher?rfsn=REPLACE_ME",
+      "course_url": "https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "Explores the kimura grip as a control that connects positional transitions and submission options.",
-      "best_for": "Students building a connected attack around one grip. This is a kimura focus, not a survey of every submission.",
-      "study_focus": "Use the positional-control sections to study how the grip can remain useful when the direct finish is blocked.",
-      "practice_tip": "Pick one kimura entry from the map. Ask your partner to hide the hand and practise a controlled positional transition."
+      "link_checked": "2026-09-16",
+      "blurb": "Dorsal and T-kimura topics, alternative submissions and positions, plus applications from guard and takedown exchanges.",
+      "best_for": "You want to study choices around a kimura when a direct finish is not your only question.",
+      "study_focus": "Compare changing the attack with changing the position"
     }
-  ]
+  ],
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "John Danaher: Kimura Branches",
+    "audience": {
+      "fits": [
+        "You want to study choices around a kimura when a direct finish is not your only question."
+      ],
+      "consider_alternative_if": [
+        "For several separate submission tracks, compare Edwin Najmi Submission Attack System."
+      ]
+    },
+    "coverage": {
+      "includes": [
+        "Dorsal and T-kimura topics, alternative submissions and positions, plus applications from guard and takedown exchanges."
+      ],
+      "limits": [
+        "The linked instructional is kimura-centered, not a clinic covering every submission in the related graph cards."
+      ]
+    },
+    "start_here": {
+      "title": "Compare changing the attack with changing the position",
+      "kind": "observation",
+      "task": "Locate the two switching lessons in Volume 2. Make separate notes for the next submission and the next position, leaving their conditions blank. Owners can watch the lessons in order and fill those conditions from the demonstrations rather than assume a blocked kimura always has one prescribed follow-up.",
+      "source_ids": [
+        "course"
+      ],
+      "section": "Volume 2: Switching to Alternative Submission, 34:04–39:18; Switching to Different Position / System, 39:18–48:56"
+    },
+    "sources": [
+      {
+        "id": "course",
+        "url": "https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher",
+        "title": "Kimura: Enter The System by John Danaher",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "John Danaher, Kimura: Enter The System and the paired switching lessons verified. Dorsal/T-kimura and positional scope inspected; no execution or universal response chain verified."
+      },
+      {
+        "id": "comparison",
+        "url": "https://bjjfanatics.com/products/mission-submission-by-edwin-najmi",
+        "title": "Mission Submission by Edwin Najmi",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Official listing inspected to compare the advertised subject and course breadth with this guide."
+      }
+    ]
+  }
 }
