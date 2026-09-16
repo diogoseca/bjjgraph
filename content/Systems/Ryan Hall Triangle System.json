@@ -1,6 +1,5 @@
 {
   "name": "Ryan Hall Triangle System",
-  "description": "Master Ryan Hall's Triangle System. Comprehensive framework connecting closed guard control to triangle finishes, armbars, and omoplatas with systematic submission chains.",
   "tags": [
     "bjj",
     "system",
@@ -13,538 +12,202 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "The Ryan Hall Triangle System is a closed-guard submission framework that treats the triangle as a control platform from which armbars, omoplatas, and back takes chain together, forcing opponents into no-win defensive dilemmas.",
-  "overview": "Developed by Ryan Hall, one of the sport's most analytically rigorous competitors and instructors, this approach grew out of his observation that the triangle choke is too often trained as an isolated, low-percentage finish rather than as a position of control. Hall's system is built on the fundamental principle that the triangle is not merely a single submission, but rather the centerpiece of an interconnected web of attacks including armbars, omoplatas, and back takes. It emphasizes positional control, precise angle creation, and the ability to flow seamlessly between submissions based on defensive reactions.\n\nWhat distinguishes Hall's approach is the emphasis on creating genuine dilemmas for opponents through systematic pressure and positioning. Rather than forcing single submissions, the system creates scenarios where every defensive option opens a new offensive pathway. The triangle position becomes a control platform from which multiple high-percentage finishes become available. Hall's methodology breaks down the complex mechanics of triangle attacks into learnable progressions that build upon fundamental principles of leverage, angle manipulation, and timing.\n\nThe system integrates seamlessly with modern guard play, particularly from closed guard, but extends to applications from spider guard, De La Riva, and even standing positions. Hall's technical innovations include specific grip sequences, hip positioning strategies, and transitional mechanics that maximize finishing percentages while minimizing energy expenditure. This system has proven effective at the highest levels of competition and represents a comprehensive blueprint for developing world-class triangle attacks.",
-  "key_principles": [
-    "Triangle as control position - treat the triangle as a dominant control platform rather than just a submission attempt",
-    "Submission chain integration - every triangle attempt creates pathways to armbar, omoplata, and back take",
-    "Angle creation through hip movement - precise hip escapes and angle adjustments are fundamental to all finishes",
-    "Grip fighting sequences - systematic grip control establishes the foundation for all triangle entries",
-    "Posture breaking methodology - breaking opponent's posture is prerequisite to successful triangle application",
-    "Reaction-based progression - opponent's defensive movements dictate which submission in the chain to pursue",
-    "Progressive tightening mechanics - incremental pressure application rather than explosive forcing"
-  ],
-  "key_components": [
-    {
-      "component_name": "Triangle Entry System",
-      "description": "The entry system encompasses multiple pathways to triangle position from closed guard, open guard, and standing positions. Hall emphasizes controlling the arm across the body while breaking posture, using specific grip sequences that prevent opponent's escape before the legs are locked. The entry mechanics include hip escape timing, leg positioning sequences, and head control integration that create high-percentage triangle opportunities even against defensive opponents.",
-      "purpose": "Establish reliable pathways to triangle position from common guard scenarios"
-    },
-    {
-      "component_name": "Triangle Control Platform",
-      "description": "Once the triangle position is established, Hall's system treats it as a control position requiring specific maintenance mechanics. This includes proper leg positioning to prevent escape, hip angle management to maintain pressure, and grip strategies that limit opponent mobility while setting up submissions. The control platform concept allows practitioners to work systematically toward finishes rather than forcing premature attempts.",
-      "purpose": "Maintain dominant triangle position while setting up multiple submission pathways"
-    },
-    {
-      "component_name": "Armbar Transition Mechanics",
-      "description": "The triangle-to-armbar transition represents one of the most high-percentage pathways in the system. Hall's approach emphasizes recognizing when opponent's posture and arm positioning create armbar opportunities, then executing precise hip movement and leg repositioning to secure the armbar without losing control. The mechanics include specific sequences for transitioning based on which arm is trapped and how opponent defends the triangle.",
-      "purpose": "Convert triangle attempts into armbar finishes when opponent defends triangle choke"
-    },
-    {
-      "component_name": "Omoplata Connection",
-      "description": "The omoplata serves as both an alternative submission and a sweeping mechanism within Hall's system. When opponents defend the triangle by posturing or attempting specific escapes, the omoplata pathway becomes available through systematic hip movement and shoulder pressure application. Hall's technical innovations include grip sequences and hip positioning that make the omoplata a genuine threat rather than just a transitional position.",
-      "purpose": "Create shoulder lock and sweep opportunities from triangle position"
-    },
-    {
-      "component_name": "Back Take Pathways",
-      "description": "Hall's system includes specific scenarios where triangle position creates direct pathways to back control. These pathways emerge when opponents attempt certain escape sequences or when the practitioner recognizes positional opportunities to abandon the triangle for back control. The mechanics include grip transitions, leg positioning changes, and timing elements that allow smooth conversion from triangle to back mount.",
-      "purpose": "Convert triangle control into back control opportunities"
-    },
-    {
-      "component_name": "Finishing Mechanics",
-      "description": "The actual triangle choke finish in Hall's system involves precise technical elements including proper leg placement, hip angle adjustment, and incremental tightening rather than explosive squeezing. Hall emphasizes specific body positioning that maximizes carotid compression while minimizing opponent's escape options. The finishing mechanics include troubleshooting common defensive reactions and adjusting technique to account for different body types.",
-      "purpose": "Execute high-percentage triangle choke finishes with proper technical precision"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Foundation Development",
-      "description": "Master fundamental closed guard control and posture breaking mechanics. Develop the ability to consistently break opponent's posture while maintaining guard retention.",
-      "key_points": [
-        "Establish strong closed guard with proper hip positioning",
-        "Practice systematic posture breaking sequences",
-        "Develop grip fighting strategies specific to triangle setups",
-        "Learn basic triangle entry mechanics from standard closed guard positions"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Triangle Position Mastery",
-      "description": "Focus exclusively on establishing and maintaining triangle position without concern for finishing. Develop the control platform concept through positional drilling.",
-      "key_points": [
-        "Practice triangle position maintenance against progressive resistance",
-        "Learn proper leg positioning and hip angle adjustments",
-        "Develop ability to recover triangle position when opponent begins escape",
-        "Master grip sequences that enhance triangle control"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Submission Chain Integration",
-      "description": "Begin connecting triangle position to armbar and omoplata pathways. Learn to recognize which submission opportunity presents based on opponent's defensive reactions.",
-      "key_points": [
-        "Practice triangle-to-armbar transitions systematically",
-        "Develop omoplata mechanics from triangle position",
-        "Learn decision-making process for selecting appropriate submission",
-        "Drill complete submission chains with cooperative partner"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Finishing Refinement",
-      "description": "Develop precise finishing mechanics for triangle choke including proper body positioning, incremental tightening, and troubleshooting common defenses.",
-      "key_points": [
-        "Master incremental pressure application for triangle finish",
-        "Learn to adjust finish based on opponent's body type and defensive posture",
-        "Develop ability to maintain triangle position while working toward finish",
-        "Practice finishing sequences against increasing resistance levels"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Entry Variation Development",
-      "description": "Expand triangle entry options beyond basic closed guard to include spider guard, De La Riva, and standing positions. Develop adaptability in establishing triangle position.",
-      "key_points": [
-        "Learn triangle entries from spider guard positions",
-        "Develop standing triangle mechanics and timing",
-        "Practice triangle setups from open guard variations",
-        "Integrate flying triangle techniques for advanced applications"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "System Consolidation",
-      "description": "Integrate all components into cohesive system that flows naturally between entries, control, transitions, and finishes based on opponent reactions.",
-      "key_points": [
-        "Practice complete system sequences in positional sparring",
-        "Develop automatic response patterns to common defensive reactions",
-        "Refine timing and decision-making under competitive pressure",
-        "Test system effectiveness in live rolling and competition scenarios"
-      ]
-    },
-    {
-      "step_number": 7,
-      "phase": "Advanced Applications",
-      "description": "Explore advanced concepts including triangle variations, unconventional entries, and integration with other guard systems.",
-      "key_points": [
-        "Develop mounted triangle variations and finishes",
-        "Practice reverse triangle mechanics and applications",
-        "Integrate triangle system with rubber guard positions",
-        "Explore competition-specific timing and setup strategies"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Opponent successfully defends triangle by maintaining strong posture and preventing leg lock",
-      "solution": "Focus on systematic posture breaking before attempting triangle entry. Use grip sequences and hip movement to compromise posture first, then establish triangle position. If posture cannot be broken, transition to alternative attacks like omoplata or sweep options."
-    },
-    {
-      "obstacle": "Triangle position feels loose and opponent begins escaping",
-      "solution": "Immediately adjust hip angle and leg positioning. Focus on pulling opponent forward while adjusting bottom leg deeper across back of neck. Use grip on opponent's arm to prevent posturing while tightening leg configuration. Practice triangle maintenance drilling to develop automatic adjustment responses."
-    },
-    {
-      "obstacle": "Unable to finish triangle choke despite having position locked",
-      "solution": "Check body angle - hip should be perpendicular to opponent's centerline. Ensure proper leg positioning with ankle locked behind knee. Focus on incremental pressure application rather than explosive squeezing. Adjust head position and use grip on head to control angle. If finish remains unavailable, transition to armbar or omoplata."
-    },
-    {
-      "obstacle": "Opponent stacks position and creates pressure that compromises triangle control",
-      "solution": "Immediately address stack by using grips to pull opponent's weight off balance. If stack is successful, use the pressure to transition to omoplata sweep or adjust hip position to convert to armbar. Practice stack defense drills specifically to develop automatic counters."
-    },
-    {
-      "obstacle": "Difficulty recognizing correct moment to transition between submissions in the chain",
-      "solution": "Develop systematic decision-making criteria based on opponent's arm position and posture. If arm is exposed and extended, choose armbar. If shoulder is compromised, choose omoplata. If choke angle is optimal, pursue triangle finish. Practice recognition drilling with partner providing specific defensive reactions."
-    },
-    {
-      "obstacle": "Transitions between submissions feel clumsy and create escape opportunities",
-      "solution": "Slow down transition mechanics and focus on maintaining control throughout movement. Practice transitions in isolation before integrating into full system. Ensure grip transitions are smooth and hip movements are precise. Build transitional strength through specific conditioning exercises."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Triangle Entry Success Rate",
-      "description": "Measure ability to establish triangle position from various guard scenarios during positional sparring and live training.",
-      "proficiency_indicators": [
-        "Successfully enter triangle position in 60%+ of closed guard scenarios against comparable opponents",
-        "Demonstrate multiple entry pathways including standard, spider guard, and standing triangle setups",
-        "Maintain triangle position through initial escape attempts in 80%+ of entries",
-        "Show consistent posture breaking success before triangle attempts"
-      ]
-    },
-    {
-      "metric_name": "Submission Chain Fluidity",
-      "description": "Evaluate ability to flow between triangle, armbar, and omoplata based on opponent reactions without losing control.",
-      "proficiency_indicators": [
-        "Execute smooth transitions between all three primary submissions",
-        "Recognize and respond to defensive reactions within 2-3 seconds",
-        "Maintain dominant position throughout transitional sequences",
-        "Finish submission attempts from chain in 50%+ of opportunities"
-      ]
-    },
-    {
-      "metric_name": "Triangle Finish Percentage",
-      "description": "Track actual triangle choke finishes from established triangle position.",
-      "proficiency_indicators": [
-        "Finish triangle choke in 40%+ of established triangle positions",
-        "Demonstrate proper finishing mechanics including hip angle and leg positioning",
-        "Show ability to finish against different body types and defensive strategies",
-        "Complete finish within 30-45 seconds of establishing position"
-      ]
-    },
-    {
-      "metric_name": "Defensive Counter Management",
-      "description": "Assess ability to address and overcome common triangle defenses.",
-      "proficiency_indicators": [
-        "Successfully counter stack defense in 70%+ of attempts",
-        "Maintain triangle position when opponent attempts posture recovery",
-        "Convert defensive reactions into alternative submission opportunities",
-        "Show minimal loss of position control during defensive sequences"
-      ]
-    },
-    {
-      "metric_name": "System Integration",
-      "description": "Measure overall implementation of Ryan Hall Triangle System in competitive rolling scenarios.",
-      "proficiency_indicators": [
-        "Triangle-based attacks become primary submission threat from guard",
-        "Demonstrate automatic response patterns to common defensive reactions",
-        "Successfully integrate triangle system with overall guard game",
-        "Show consistent threat creation from triangle position in competitive scenarios"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "Hall's triangle system requires systematic drilling progressions that build from fundamental mechanics to complex submission chains. Begin with static triangle position maintenance, holding position against progressive resistance for extended periods to develop control stability. Progress to controlled drilling of entry sequences from closed guard with partner providing specific defensive reactions. Practice each submission pathway (triangle finish, armbar, omoplata) in isolation before combining into fluid chains. Use positional sparring starting from closed guard with explicit focus on triangle system implementation. Incorporate timed rounds where practitioner must achieve triangle position within specific timeframe. Advanced drilling includes random defensive reaction scenarios where partner provides unpredictable defenses requiring rapid decision-making and technical adjustment.",
-    "progression_path": [
-      {
-        "stage": "Foundation Building",
-        "focus": "Master closed guard control, posture breaking, and basic triangle position establishment",
-        "timeframe": "Months 1-3"
-      },
-      {
-        "stage": "Position Mastery",
-        "focus": "Develop strong triangle control platform and maintenance mechanics against resistance",
-        "timeframe": "Months 4-6"
-      },
-      {
-        "stage": "Submission Integration",
-        "focus": "Connect triangle position to armbar and omoplata pathways, develop chain sequences",
-        "timeframe": "Months 7-9"
-      },
-      {
-        "stage": "Finishing Development",
-        "focus": "Refine triangle choke finishing mechanics and increase submission completion rate",
-        "timeframe": "Months 10-12"
-      },
-      {
-        "stage": "Entry Expansion",
-        "focus": "Add triangle entries from spider guard, standing, and other positions",
-        "timeframe": "Months 13-18"
-      },
-      {
-        "stage": "System Consolidation",
-        "focus": "Integrate complete system into competitive rolling, develop automatic responses",
-        "timeframe": "Months 19-24"
-      },
-      {
-        "stage": "Advanced Refinement",
-        "focus": "Explore advanced variations, competition timing, and system optimization",
-        "timeframe": "Ongoing beyond 24 months"
-      }
-    ],
-    "common_mistakes": [
-      "Attempting to finish triangle prematurely before establishing proper control and angle",
-      "Using excessive muscular force rather than precise technical positioning for submissions",
-      "Neglecting hip movement and angle creation which are fundamental to all system components",
-      "Failing to recognize defensive reactions that indicate transition to alternative submission",
-      "Forcing triangle entries when posture has not been adequately broken",
-      "Allowing opponent to establish stack position due to poor weight distribution management",
-      "Overlooking grip fighting sequences that set up triangle entries",
-      "Transitioning between submissions without maintaining positional control throughout movement"
-    ]
-  },
+  "summary": "Ryan Hall’s The Modern Triangle separates triangle acquisition, finishing, defensive problems, arm attacks and scoring into distinct study topics.",
+  "description": "A reading guide to Ryan Hall’s current triangle curriculum and its options beyond the choke.",
+  "overview": "A stalled triangle can leave several different questions: how it was acquired, how the opponent is defending, or whether to pursue a scoring option. Hall’s published curriculum separates those questions, making it possible to select a relevant lesson without assuming one response fits every defense.",
   "related_content": [
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Primary starting position for triangle system implementation"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Triangle Control",
       "content_type": "Position",
-      "relationship": "Central control platform of entire system"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Armbar Control",
       "content_type": "Position",
-      "relationship": "Primary transition target from triangle position"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Omoplata Control",
       "content_type": "Position",
-      "relationship": "Alternative submission pathway from triangle position"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Spider Guard",
       "content_type": "Position",
-      "relationship": "Alternative entry position for triangle attacks"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Mounted Triangle",
       "content_type": "Position",
-      "relationship": "Advanced triangle variation from mount position"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Rubber Guard",
       "content_type": "Position",
-      "relationship": "10th Planet variation integrating triangle mechanics"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "De La Riva Guard",
       "content_type": "Position",
-      "relationship": "Alternative guard position for triangle entries"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Alternative transition target from triangle position"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Rear Triangle",
       "content_type": "Position",
-      "relationship": "Triangle variation from back control position"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Triangle Setup",
       "content_type": "Transition",
-      "relationship": "Entry mechanics for establishing triangle position"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Closed Guard to Triangle",
       "content_type": "Transition",
-      "relationship": "Primary entry pathway from closed guard"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Triangle to Armbar",
       "content_type": "Transition",
-      "relationship": "Core submission chain component"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Triangle to Omoplata",
       "content_type": "Transition",
-      "relationship": "Alternative submission chain pathway"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Switch to Triangle",
       "content_type": "Transition",
-      "relationship": "Opportunistic triangle entry from various positions"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Triangle Escape",
       "content_type": "Transition",
-      "relationship": "Understanding opponent's escape options improves system effectiveness"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Hip Bump Sweep",
       "content_type": "Transition",
-      "relationship": "Alternative attack from closed guard that sets up triangle opportunities"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Triangle to Back",
       "content_type": "Transition",
-      "relationship": "Back take pathway from triangle position"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Triangle Choke",
       "content_type": "Submission",
-      "relationship": "Primary front-facing triangle finish from guard position"
+      "relationship": "Related submission reference; inclusion here does not establish course coverage."
     },
     {
       "name": "Far Side Armbar",
       "content_type": "Submission",
-      "relationship": "Secondary armbar finishing option within submission chain"
+      "relationship": "Related submission reference; inclusion here does not establish course coverage."
     },
     {
       "name": "Omoplata",
       "content_type": "Submission",
-      "relationship": "Omoplata finishing option and sweep mechanism from triangle position"
+      "relationship": "Related submission reference; inclusion here does not establish course coverage."
     },
     {
       "name": "Triangle Choke Side",
       "content_type": "Submission",
-      "relationship": "Angled triangle finish applicable from spider guard and open guard entries"
+      "relationship": "Related submission reference; inclusion here does not establish course coverage."
     },
     {
       "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Theoretical framework underlying entire system"
+      "relationship": "Related concept for organizing study."
     },
     {
       "name": "Posture",
       "content_type": "Principle",
-      "relationship": "Fundamental prerequisite for triangle entries"
+      "relationship": "Related concept for organizing study."
     },
     {
       "name": "Dominant Angles",
       "content_type": "Principle",
-      "relationship": "Critical mechanical principle for all submissions in system"
+      "relationship": "Related concept for organizing study."
     },
     {
       "name": "Action and Reaction",
       "content_type": "Principle",
-      "relationship": "Strategic principle driving submission chain logic through forced defensive responses"
+      "relationship": "Related concept for organizing study."
     },
     {
       "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Core strategic concept making system effective"
+      "relationship": "Related concept for organizing study."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Defensive framing foundation supporting guard retention for offensive triangle attacks"
+      "relationship": "Related concept for organizing study."
+    },
+    {
+      "name": "Danaher Triangle System",
+      "content_type": "System",
+      "relationship": "Compare the organization by triangle orientation."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What is the central conceptual shift that defines the Ryan Hall Triangle System?",
-      "answer": "The system reframes the triangle as a dominant control platform rather than a single submission, treating it as a hub from which armbars, omoplatas, and back takes become available depending on how the opponent defends.",
-      "answer_line": "A control hub, not one move",
-      "distractors": {
-        "plausible": [
-          "Just a submission finish",
-          "Leads to armbar only"
-        ],
-        "trap": [
-          "Force the choke every time"
-        ]
-      }
+  "guide": {
+    "kind": "topic_guide",
+    "display_title": "Ryan Hall: The Modern Triangle",
+    "audience": {
+      "fits": [
+        "You want a triangle reference that distinguishes defensive problems from finishing and scoring options."
+      ],
+      "consider_alternative_if": [
+        "For a curriculum organized extensively around front, opposite, rear, side and reverse orientations, compare Danaher Triangle System."
+      ]
     },
-    {
-      "question": "How does the system respond when an opponent defends by maintaining strong posture?",
-      "answer": "It prioritizes systematic posture breaking through grip sequences and hip movement before the legs are locked; if posture cannot be compromised, the practitioner abandons the choke and transitions to an omoplata or sweep rather than forcing the triangle.",
-      "answer_line": "Break posture before locking legs",
-      "distractors": {
-        "plausible": [
-          "Lock legs first, then break posture",
-          "Force the choke through posture"
-        ],
-        "trap": [
-          "Keep squeezing until they break"
-        ]
-      }
+    "coverage": {
+      "includes": [
+        "Separate sections cover the triangle process, finishing, frames, posture, pressure and rotation.",
+        "Further sections group arm attacks, alternate configurations, specific defenses, scoring and submission combinations."
+      ],
+      "limits": [
+        "This guide follows The Modern Triangle curriculum; it does not describe Hall’s earlier triangle releases."
+      ]
     },
-    {
-      "question": "When should you transition from the triangle to an armbar?",
-      "answer": "When the opponent's trapped or far-side arm becomes exposed and extended during their defense, the practitioner repositions the hips and legs to attack the armbar while preserving triangle control.",
-      "answer_line": "Attack exposed, extended arm",
-      "distractors": {
-        "plausible": [
-          "Switch anytime the arm moves",
-          "Abandon triangle grip first"
-        ],
-        "trap": [
-          "Release legs to grab the arm"
-        ]
-      }
+    "start_here": {
+      "title": "Classify the defense before selecting a lesson",
+      "kind": "observation",
+      "task": "Use the public curriculum to sort one triangle problem from your training notes into frames, posture, or pressure and rotation. Then check the separate lessons for an opponent who stands, wraps the leg or buries across. Choose the closest match; if you own the course, compare that demonstration with your initial classification.",
+      "source_ids": [
+        "ryan-triangle"
+      ],
+      "section": "Managing Components of Opponent’s Defense: Frames (7:40); Posture (11:35); Pressure and rotation (6:50). Durations, not start times."
     },
-    {
-      "question": "Why does Hall emphasize incremental tightening over explosive squeezing on the triangle finish?",
-      "answer": "Incremental pressure conserves energy and progressively eliminates escape space while maximizing carotid compression, whereas explosive squeezing telegraphs the finish and often creates the gap an opponent needs to escape.",
-      "answer_line": "Gradual pressure, no telegraph",
-      "distractors": {
-        "plausible": [
-          "Wait passively for fatigue",
-          "Hold steady without tightening"
-        ],
-        "trap": [
-          "One big explosive squeeze"
-        ]
+    "sources": [
+      {
+        "id": "ryan-triangle",
+        "url": "https://ryanhallonline.com/p/modern-triangle",
+        "title": "The Modern Triangle by Ryan Hall",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified the published curriculum: triangle process, finishing, defensive components, arm attacks and scoring options. Lesson names and durations are listed; paid lesson content was not inspected."
+      },
+      {
+        "id": "danaher-triangles",
+        "url": "https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher",
+        "title": "Triangles Enter The System by John Danaher",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified title, instructor and syllabus covering front, opposite, rear, side and reverse triangles, entries and submission connections. Chapter labels identify coverage, not execution details."
       }
-    },
-    {
-      "question": "What body angle is required to finish the triangle choke effectively?",
-      "answer": "The hips should be perpendicular to the opponent's centerline, with the bottom leg deep across the back of the neck and the ankle locked behind the knee to compress both carotid arteries.",
-      "answer_line": "Perpendicular hips, deep leg",
-      "distractors": {
-        "plausible": [
-          "Hips parallel to opponent",
-          "Ankle locked behind ankle"
-        ],
-        "trap": [
-          "Square hips flat on back"
-        ]
-      }
-    },
-    {
-      "question": "What dual role does the omoplata play within the system?",
-      "answer": "The omoplata functions as both an alternative shoulder-lock submission and a sweeping mechanism, becoming available through hip movement and shoulder pressure when opponents posture up or defend the triangle.",
-      "answer_line": "Shoulder lock and sweep",
-      "distractors": {
-        "plausible": [
-          "Only works as a submission",
-          "Only works as a sweep"
-        ],
-        "trap": [
-          "Release hip pressure to reset"
-        ]
-      }
-    },
-    {
-      "question": "What is the recommended response when an opponent stacks the triangle?",
-      "answer": "Use grips to pull the opponent's weight off balance; if the stack succeeds, convert the pressure into an omoplata sweep or adjust the hips to transition into an armbar rather than fighting the stack directly.",
-      "answer_line": "Off-balance with grips, convert",
-      "distractors": {
-        "plausible": [
-          "Hold triangle, wait it out",
-          "Release grips, reset guard"
-        ],
-        "trap": [
-          "Muscle through the stack"
-        ]
-      }
-    },
-    {
-      "question": "What criteria determine which submission in the chain to pursue?",
-      "answer": "Read the opponent's arm and posture: an exposed, extended arm signals the armbar, a compromised shoulder signals the omoplata, and an optimal choking angle signals committing to the triangle finish.",
-      "answer_line": "Read arm, shoulder, and angle",
-      "distractors": {
-        "plausible": [
-          "Always finish the triangle first",
-          "Choose based on your strength"
-        ],
-        "trap": [
-          "Force triangle regardless of cues"
-        ]
-      }
-    },
-    {
-      "question": "Beyond closed guard, from which positions can the system establish a triangle?",
-      "answer": "The system extends triangle entries to spider guard, De La Riva, open guard variations, and standing positions, including flying triangle applications for advanced practitioners.",
-      "answer_line": "Spider, DLR, open guard, standing",
-      "distractors": {
-        "plausible": [
-          "Closed guard only, always",
-          "Half guard and mount only"
-        ],
-        "trap": [
-          "Jump flying triangle blind"
-        ]
-      }
-    },
-    {
-      "question": "What is one of the most common mistakes practitioners make when learning this system?",
-      "answer": "Attempting to finish the triangle prematurely before establishing proper control and angle, and relying on muscular force instead of precise hip movement and positioning.",
-      "answer_line": "Finishing too early, using muscle",
-      "distractors": {
-        "plausible": [
-          "Over-focusing on grip fighting",
-          "Neglecting posture breaks early"
-        ],
-        "trap": [
-          "Squeeze without securing angle"
-        ]
-      }
-    }
-  ]
+    ]
+  }
 }
