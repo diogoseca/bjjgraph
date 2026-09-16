@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "BJJ Systems Template Schema V3",
-  "description": "Standardized JSON schema for BJJ system pages - strict 10-section structure",
+  "title": "BJJ Systems Guide Schema",
+  "description": "Source-grounded independent study guides; optional legacy body fields remain supported.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -11,21 +11,15 @@
     "system_type",
     "difficulty_level",
     "overview",
-    "key_principles",
-    "key_components",
-    "implementation_sequence",
-    "common_obstacles",
-    "assessment_metrics",
-    "training_methodology",
     "related_content",
     "summary",
-    "flashcards"
+    "guide"
   ],
   "properties": {
     "name": {
       "type": "string",
       "description": "System name (must match filename without .json)",
-      "minLength": 3,
+      "minLength": 1,
       "examples": [
         "Kimura Trap System",
         "Danaher Leg Lock System"
@@ -33,17 +27,15 @@
     },
     "description": {
       "type": "string",
-      "description": "SEO meta description 150-160 characters",
-      "minLength": 140,
-      "maxLength": 180,
+      "description": "Accurate description without keyword padding.",
+      "minLength": 1,
       "examples": [
         "Master Kimura Trap System in BJJ. Comprehensive framework connecting control to submissions and back takes. Danaher's systematic approach."
       ]
     },
     "tags": {
       "type": "array",
-      "description": "Content tags (minimum 3)",
-      "minItems": 3,
+      "description": "Relevant content tags.",
       "items": {
         "type": "string"
       },
@@ -98,7 +90,6 @@
     "disambiguations": {
       "type": "array",
       "description": "False-synonym callouts. Renders 'Often confused with X — reason'. See docs/Synonyms.md.",
-      "maxItems": 3,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -113,7 +104,7 @@
           },
           "reason": {
             "type": "string",
-            "minLength": 10
+            "minLength": 1
           }
         }
       }
@@ -143,30 +134,27 @@
     "summary": {
       "type": "string",
       "description": "One-sentence, self-contained definition that leads the page (answer-first for AI/featured snippets). ~15-40 words. If present, the overview should NOT repeat it.",
-      "minLength": 30,
+      "minLength": 1,
       "maxLength": 300
     },
     "overview": {
       "type": "string",
-      "description": "2-3 paragraph system description (400+ characters). LEAD with a self-contained one-sentence definition that directly answers 'what is X' before adding history/context — AI answer engines quote the first sentence. If a `summary` field is present, start the overview with context instead, to avoid duplicating it.",
-      "minLength": 400,
+      "description": "Brief context distinct from the summary; no unsupported history or biography.",
+      "minLength": 1,
       "examples": [
         "The Kimura Trap System is a comprehensive control and submission framework..."
       ]
     },
     "key_principles": {
       "type": "array",
-      "description": "Core principles (5-8 items)",
-      "minItems": 5,
-      "maxItems": 8,
+      "description": "Optional source-supported legacy content.",
       "items": {
         "type": "string"
       }
     },
     "key_components": {
       "type": "array",
-      "description": "Main system elements (minimum 4, 50+ character descriptions)",
-      "minItems": 4,
+      "description": "Optional source-supported legacy content.",
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -181,7 +169,7 @@
           },
           "description": {
             "type": "string",
-            "minLength": 50
+            "minLength": 1
           },
           "purpose": {
             "type": "string"
@@ -191,8 +179,7 @@
     },
     "implementation_sequence": {
       "type": "array",
-      "description": "Step-by-step implementation (minimum 5)",
-      "minItems": 5,
+      "description": "Optional source-supported legacy content.",
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -223,8 +210,7 @@
     },
     "common_obstacles": {
       "type": "array",
-      "description": "Implementation challenges (minimum 4)",
-      "minItems": 4,
+      "description": "Optional source-supported legacy content.",
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -244,8 +230,7 @@
     },
     "assessment_metrics": {
       "type": "array",
-      "description": "Proficiency measurement (minimum 4)",
-      "minItems": 4,
+      "description": "Optional source-supported legacy content.",
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -263,7 +248,6 @@
           },
           "proficiency_indicators": {
             "type": "array",
-            "minItems": 3,
             "items": {
               "type": "string"
             }
@@ -273,7 +257,7 @@
     },
     "training_methodology": {
       "type": "object",
-      "description": "How to train the system",
+      "description": "Optional source-supported legacy content.",
       "additionalProperties": false,
       "required": [
         "drilling_approach",
@@ -283,13 +267,12 @@
       "properties": {
         "drilling_approach": {
           "type": "string",
-          "description": "Effective drilling method (200+ characters)",
-          "minLength": 200
+          "description": "Optional legacy drill supported by inspected public instruction.",
+          "minLength": 1
         },
         "progression_path": {
           "type": "array",
-          "description": "Stages of system mastery (minimum 4)",
-          "minItems": 4,
+          "description": "Optional source-supported study progression; never invent mastery timelines.",
           "items": {
             "type": "object",
             "additionalProperties": false,
@@ -312,7 +295,6 @@
         },
         "common_mistakes": {
           "type": "array",
-          "minItems": 3,
           "items": {
             "type": "string"
           }
@@ -321,9 +303,7 @@
     },
     "related_content": {
       "type": "array",
-      "description": "Related systems/positions/principles (10-30 for comprehensive SEO)",
-      "minItems": 10,
-      "maxItems": 30,
+      "description": "Preserve graph membership; relationships distinguish related material from advertised course coverage.",
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -354,9 +334,7 @@
     },
     "flashcards": {
       "type": "array",
-      "description": "Q&A flashcards for self-assessment and SRS training (optional, 6-12 recommended)",
-      "minItems": 6,
-      "maxItems": 20,
+      "description": "Optional source-supported legacy content.",
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -372,8 +350,8 @@
           },
           "answer": {
             "type": "string",
-            "minLength": 50,
-            "description": "Detailed answer (50+ characters)"
+            "minLength": 1,
+            "description": "Self-contained source-supported answer."
           },
           "distractors": {
             "type": "object",
@@ -384,7 +362,7 @@
                 "type": "array",
                 "items": {
                   "type": "string",
-                  "minLength": 3,
+                  "minLength": 1,
                   "maxLength": 200
                 }
               },
@@ -392,7 +370,7 @@
                 "type": "array",
                 "items": {
                   "type": "string",
-                  "minLength": 3,
+                  "minLength": 1,
                   "maxLength": 200
                 }
               }
@@ -408,13 +386,13 @@
     },
     "products": {
       "type": "array",
-      "description": "Curated BJJFanatics affiliate products mapped to this system. NEVER authored or modified by AI — managed by hand. Each entry maps the system to one instructional.",
+      "description": "Verified canonical courses; never author referrals, tracking queries or placeholder URLs.",
       "items": {
         "type": "object",
         "additionalProperties": false,
         "required": [
           "title",
-          "affiliate_url",
+          "course_url",
           "link_status",
           "link_checked"
         ],
@@ -430,12 +408,12 @@
               "dead",
               "unverified"
             ],
-            "description": "Outcome of the LAST human/tooling check that this affiliate_url resolves to THIS instructional. Only 'live' is rendered — anything else degrades the system to its no-product surface, because a 404 or an unchecked guess earns nothing and costs trust. Required so a product can never ship on nobody's verification."
+            "description": "Availability verification, independent of affiliate configuration; only live products render."
           },
           "link_checked": {
             "type": "string",
             "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
-            "description": "ISO date (YYYY-MM-DD) the affiliate_url was last opened and confirmed. Re-check periodically: vendor handles get renamed and products get retired."
+            "description": "Date this exact course listing was actually checked."
           },
           "title": {
             "type": "string"
@@ -447,11 +425,6 @@
             "type": "string",
             "description": "Affiliate vendor, e.g. BJJFanatics"
           },
-          "affiliate_url": {
-            "type": "string",
-            "format": "uri",
-            "description": "Curated affiliate URL including any vendor ref param. UTM is appended at build time."
-          },
           "image": {
             "type": "string",
             "description": "Cover image URL"
@@ -462,7 +435,7 @@
           },
           "price_usd": {
             "type": "number",
-            "description": "Reference price only — NOT rendered. Vendor prices change (and every value here was wrong by up to 3.6x when checked 2026-08-09), and a CTA that promises $97 for a $349 checkout is the same broken promise as a dead link. See docs/Affiliate.md."
+            "description": "Optional reference data, never rendered; check the vendor for current prices."
           },
           "covers": {
             "type": "array",
@@ -481,10 +454,318 @@
           },
           "practice_tip": {
             "type": "string",
-            "description": "BJJGraph practice suggestion to connect the course to this system; not a claimed course chapter."
+            "description": "Source-supported study or practice guidance; never invent physical drills from a listing."
+          },
+          "course_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Verified canonical course URL without tracking, query or fragment.",
+            "pattern": "^https://[^?#\\s]+$"
           }
         }
       }
+    },
+    "guide": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": [
+            "course_companion",
+            "topic_guide"
+          ]
+        },
+        "display_title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "audience": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "fits": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "consider_alternative_if": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "prerequisites": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "fits",
+            "consider_alternative_if"
+          ]
+        },
+        "coverage": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "includes": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "limits": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "includes",
+            "limits"
+          ]
+        },
+        "start_here": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "task": {
+              "type": "string",
+              "minLength": 1
+            },
+            "section": {
+              "type": "string",
+              "minLength": 1
+            },
+            "start_position": {
+              "type": "string",
+              "minLength": 1
+            },
+            "partner_task": {
+              "type": "string",
+              "minLength": 1
+            },
+            "stop_condition": {
+              "type": "string",
+              "minLength": 1
+            },
+            "kind": {
+              "enum": [
+                "observation",
+                "practice"
+              ]
+            },
+            "source_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 0,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "title",
+            "kind",
+            "task",
+            "source_ids"
+          ],
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "kind": {
+                    "const": "practice"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "start_position",
+                  "partner_task",
+                  "stop_condition"
+                ],
+                "properties": {
+                  "source_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 1,
+                    "uniqueItems": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https://[^\\s]+$"
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "enum": [
+                  "official_listing",
+                  "public_instruction",
+                  "ruleset",
+                  "community_discussion"
+                ]
+              },
+              "checked_on": {
+                "type": "string",
+                "format": "date",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "note": {
+                "type": "string",
+                "minLength": 1
+              },
+              "viewed_range": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "url",
+              "title",
+              "kind",
+              "checked_on",
+              "note"
+            ]
+          }
+        },
+        "preview": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "provider": {
+              "enum": [
+                "bunny",
+                "youtube"
+              ]
+            },
+            "embed_url": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://[^\\s]+$"
+            },
+            "source_id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "kind": {
+              "enum": [
+                "sample",
+                "trailer"
+              ]
+            },
+            "checked_on": {
+              "type": "string",
+              "format": "date",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "content_reviewed": {
+              "type": "boolean"
+            },
+            "playback_verified_on": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^https?://[^/\\s?#]+$"
+              }
+            }
+          },
+          "required": [
+            "provider",
+            "embed_url",
+            "source_id",
+            "title",
+            "kind",
+            "checked_on",
+            "content_reviewed",
+            "playback_verified_on"
+          ]
+        }
+      },
+      "required": [
+        "kind",
+        "display_title",
+        "audience",
+        "coverage",
+        "start_here",
+        "sources"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "course_companion"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "sources": {
+                "minItems": 1
+              },
+              "start_here": {
+                "properties": {
+                  "source_ids": {
+                    "minItems": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   }
 }

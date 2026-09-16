@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.182.15",
+  "version": "1.183.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -56,7 +56,7 @@
     "clips:source": "python3 scripts/source_clips.py",
     "clips:verify": "python3 scripts/verify_clips.py",
     "clips:report": "python3 scripts/source_clips.py --stage report",
-    "build": "cd source && node quartz/bootstrap-cli.mjs build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/check_headers_cache.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run build:forward && npm run build:share-shell && npm run validate:payload && python3 scripts/apply_affiliate_ref.py && npm run regenerate:agents",
+    "build": "cd source && node quartz/bootstrap-cli.mjs build --concurrency 4 -d ../content && python3 ../scripts/regenerate_redirects.py && python3 ../scripts/regenerate_headers.py && python3 ../scripts/check_headers_cache.py && python3 ../scripts/regenerate_llms_txt.py && cd .. && npm run build:forward && npm run build:share-shell && npm run validate:payload && python3 scripts/apply_affiliate_ref.py && npm run regenerate:agents && python3 scripts/apply_affiliate_ref.py",
     "regenerate:build": "npm run regenerate && npm run build",
     "test": "bash scripts/check_no_raw_random.sh && playwright test -c e2e/playwright.config.ts",
     "test:curated": "bash scripts/check_no_raw_random.sh && playwright test -c e2e/playwright.config.ts --grep @curated",

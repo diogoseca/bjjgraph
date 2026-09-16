@@ -599,7 +599,7 @@ symbol to every version that touched it.
 - **LOOKS DELETABLE, IS NOT.** `AuthUI.tsx` + `source/quartz/components/scripts/authUI.inline.ts` render NOTHING but are the only static importer of `supabase.ts` (which installs the `window.__bjjAuth` façade at module top-level) and the only code that completes a Google OAuth redirect-back — delete either and signed-in users break while every headless test stays green. `CategoryNav.tsx` is the site's only persistent static nav and **NO gate guards it**: `check_seo_parity.py` extracts from the `<article>` only, and `#sidebar-overlay` is a sibling of `#quartz-root`. `openListSession` has exactly ONE caller left (`[data-shared-drill]`, `app.src.jsx`) and it is the received-class study path.
   <br>_(3)_
 
-- **LOOKS ALIVE, IS DEAD — do not debug through it.** `renderDossier` and its subtree (`dossierSheetRef`, `_renderNodeQuestion`, `nodeQuestionFor`, `askFormat`, `jumpToState`) are unreachable from the app: `_dossierIdx` is assigned `null` at four sites and a node index at NONE, so the guarded call at `app.src.jsx` can never fire and only `first-impression.spec.ts` reaches `renderDossier` directly. `#unlock-graph` / `[data-system-progress]` still ships on all 48 Systems pages with no script to activate it. The Forward catalog (`forward/shared/*`) is a DESIGN MOCK with no parity gate — `check_forward_catalog.mjs` only checks frames render, so retired rows survive there by default.
+- **LOOKS ALIVE, IS DEAD — do not debug through it.** `renderDossier` and its subtree (`dossierSheetRef`, `_renderNodeQuestion`, `nodeQuestionFor`, `askFormat`, `jumpToState`) are unreachable from the app: `_dossierIdx` is assigned `null` at four sites and a node index at NONE, so the guarded call at `app.src.jsx` can never fire and only `first-impression.spec.ts` reaches `renderDossier` directly. The Forward catalog (`forward/shared/*`) is a DESIGN MOCK with no parity gate — `check_forward_catalog.mjs` only checks frames render, so retired rows survive there by default.
   **And `neural/src/` contains untracked design dumps that grep exactly like the app:** `Neural Graph.dc.html` (288KB, touched as recently as HEAD) still defines `movePopularity`, `_hash01`, `_freqMap` and the retired `orderScore` fork, and `neural/src/graph-data.json` is a stale 1899-node copy of a 1467-node wire. **Scope every "is this gone?" grep to the build inputs, and read the shipped wire from `source/quartz/static/neural/`.**
   <br>_(4)_
 
@@ -632,34 +632,28 @@ Full rules in `docs/Content.md`. The parts you can break:
   signals, release protocol, and safety-critical questions in the assessment.
 - **Attempt probabilities sum to 100 per role, per ruleset frame.**
 
-### Systems: product links
+### Systems: guides and product links
 
-Only the mechanics are in this public repo; commercial terms are the owner's, kept out of it
-entirely. `scripts/check_affiliate_surface.py` and `e2e/journeys/systems-surface.spec.ts` gate all
-of the below.
+Follow `templates/Systems.json` and `docs/Content.md`: independent source-grounded guides,
+no filler quotas, unsupported mechanics, mastery timelines or invented review credentials.
+Preserve graph membership; related cards are references, not a proficiency test.
 
-- Products live in `content/Systems/<System>.json` → `products[]`. **Never invent a product URL** —
-  every `affiliate_url` is opened and confirmed before it is committed.
-- **Only a verified link renders.** `link_status` (`live`/`dead`/`unverified`) and `link_checked`
-  are schema-required; anything not `live` degrades the system to its free "study this system"
-  surface. `price_usd` is deliberately **not** rendered — vendor prices drift, and a wrong price is
-  the same broken promise as a dead link.
-- **`graph.json` never carries `affiliate_url`** (public repo) — it emits `has_affiliate_url`.
-- One funnel event on both surfaces: `affiliate_clickout`, delegated on `a[data-affiliate="true"]`,
-  with `utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=<system-slug>&utm_term=<product-id>`.
-- **The ref is injected at deploy time, never committed.** Content carries the literal
-  `?rfsn=REPLACE_ME`; `scripts/apply_affiliate_ref.py` substitutes `$AFFILIATE_REF` into emitted
-  artifacts only. Local builds read the gitignored root `.env`; CI environment takes precedence.
-  No ref configured = warning, placeholder kept, exit 0.
+- Products use verified canonical `course_url`; never commit tracking queries or placeholders.
+  Only `link_status: live` renders; `link_checked` records actual listing verification.
+- Committed graph products omit URLs. The index adds `course_url` and `affiliate` to existing
+  app product fields; rich `guide` evidence and non-graph `references` stay in deferred dossiers.
+- Source Markdown is neutral, marked with `data-course-container` and `data-course-url`.
+  `scripts/apply_affiliate_ref.py` activates emitted links only with valid `AFFILIATE_REF`:
+  `rfsn`, `utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems`, system/product IDs,
+  and `sponsored nofollow noopener`. Missing ref stays neutral; invalid ref fails the build.
+  Root `.env` is ignored; CI environment wins. Never print the ref. Resolution is idempotent,
+  refreshes gzip siblings, and runs again after agent-discovery export.
+- The canonical disclosure below appears verbatim, proximate and uncollapsed, only with active
+  affiliate links. App click tracking uses `a[data-affiliate="true"]` and `affiliate_clickout`.
+  `scripts/check_affiliate_surface.py --built` checks source neutrality and emitted activation;
+  `tests/system_affiliates.py` covers fixture resolution. Browser behavior has its own suite.
 
-**Proximate disclosure is mandatory** (FTC 16 CFR 255, UK ASA/CAP): it renders above the link, in
-the same block, uncollapsed, from two places — the app's CTA shelf and
-`templates/Systems.md.jinja2`. Both must reproduce this sentence **verbatim**.
-
-> **The block below is machine-read.** `scripts/check_affiliate_surface.py` and
-> `e2e/journeys/systems-surface.spec.ts` both extract it by these exact HTML comment markers and
-> compare it byte-for-byte against both render sites. Editing the wording, the markers, or this
-> section's number breaks a deploy gate — five error messages name "section 7".
+The markers and wording below are machine-read; preserve them.
 
 <!-- CANONICAL-DISCLOSURE:START -->
 BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.

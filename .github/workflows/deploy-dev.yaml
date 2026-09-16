@@ -114,12 +114,8 @@ jobs:
       - name: Payload budget (gate)
         run: npm run validate:payload
 
-      # PARITY with prod: the preview is publicly reachable, so its product links must
-      # be attributable too. The affiliate ref is a deployment parameter, not content —
-      # content/Systems/*.json ships `?ref=REPLACE_ME` so a fork or a local build needs
-      # no secret. Stamped into the BUILT artifacts here: after every step that writes or
-      # clears source/public, before the journey gate. Unset secret = WARNING + placeholder
-      # left in place, never a failed deploy (see CLAUDE.md §7, the canonical affiliate spec).
+      # Activate marked canonical references only with a valid configured ref.
+      # Missing ref keeps neutral links; invalid ref fails. No source placeholders.
       - name: Stamp affiliate ref into build output
         env:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
@@ -128,16 +124,23 @@ jobs:
       - name: Publish agent discovery and Markdown articles
         run: npm run regenerate:agents
 
-      # Must follow the stamp — see the prod workflow for why.
+      - name: Resolve affiliate state in final discovery artifacts
+        env:
+          AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
+        run: python3 scripts/apply_affiliate_ref.py
+
+      # Every displayed placeholder fails, with or without a configured ref.
       - name: Systems payload gate (dead highlights + dead affiliate links)
         env:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/check_systems_payload.py
 
       # Disclosure wording + proximity, verified-links-only, and no affiliate URL in the
-      # committed graph.json. Source-and-content only, so it is stamp-independent.
+      # committed graph.json. Validate neutral source and built output.
       - name: Affiliate compliance gate (disclosure drift + unverified links)
-        run: python3 scripts/check_affiliate_surface.py
+        env:
+          AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
+        run: python3 scripts/check_affiliate_surface.py --built
 
       # ANALYTICS SURFACE GATE — PARITY with prod, and deliberately the earlier of the two places
       # it runs. The preview is where a keyless build would first be visible, and it is the branch

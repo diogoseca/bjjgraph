@@ -11,6 +11,7 @@ import json
 import re
 import shutil
 from html.parser import HTMLParser
+from html import escape
 from pathlib import Path
 from urllib.parse import quote, unquote, urljoin, urlsplit
 from xml.etree import ElementTree as ET
@@ -36,7 +37,7 @@ class ArticleParser(HTMLParser):
             self.noindex |= "noindex" in attrs.get("content", "").lower()
         node = [tag, attrs, []]
         self.stack[-1][2].append(node)
-        if tag == "article":
+        if tag == "article" and self.article is None:
             self.article = node
         # Inline SVG icons also contain <title>; only the document title names the article.
         if tag == "title" and self.title is None:
@@ -65,7 +66,16 @@ def render(node, canonical, pre=False):
     tag, attrs, children = node
     if tag in {"script", "style", "svg", "button", "template"} or "hidden" in attrs or attrs.get("aria-hidden") == "true":
         return ""
+    # Course references retain build markers so the final resolver can rotate or remove
+    # referrals even though discovery is emitted after the first stamp.
+    if 'affiliate-disclosure' in attrs.get('class', ''):
+        return ''
     text = "".join(render(child, canonical, pre or tag == "pre") for child in children)
+    if tag == 'a' and attrs.get('data-course-url'):
+        from apply_affiliate_ref import tag_html, disclosure
+        note = '<p class="affiliate-disclosure">' + escape(disclosure()) + '</p>' if attrs.get('data-affiliate') == 'true' else ''
+        return '\n\n<section data-course-container>' + note + tag_html('a', attrs) + escape(text.strip()) + '</a></section>\n\n'
+
     if tag in {"h1", "h2", "h3", "h4", "h5", "h6"}:
         return f"\n\n{'#' * int(tag[1])} {text.strip()}\n\n"
     if tag in {"p", "div", "section", "article", "ul", "ol", "details"}:

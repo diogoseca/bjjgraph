@@ -292,11 +292,21 @@ That is not permission to publish placeholders.
 
 ### Systems, Principles, and Learning
 
-- **Systems:** author the system type, difficulty, principles, components, implementation sequence,
-  obstacles, assessment metrics, training methodology, related content, and root flashcards.
-  Curated `products` are optional. Verify a product URL before setting `link_status` to `live`,
-  record `link_checked`, and preserve disclosure in the generated link surface. Never include
-  private affiliate identifiers or commercial terms in content.
+- **Systems:** follow `templates/Systems.json`. Keep stable identity and graph membership;
+  `guide.display_title` is the reader-facing title. Author fit, source-supported coverage and
+  limits, a useful first study action, and primary sources actually inspected. A listing supports
+  advertised scope, not invented mechanics. Practice tasks require inspected public instruction
+  plus start position, partner task and stop condition. Otherwise use observation/study tasks.
+  No word, section, flashcard or link quotas; omit unsupported repetitive legacy sections.
+  Source-free topic guides may organize study only and must be flagged for root review.
+  Never claim credentials, instructor endorsement, human review, course ownership or firsthand training.
+  `preview` is optional: exact official YouTube/Bunny sample, autoplay/preload disabled; never
+  guess IDs or claim playback from a page 200. `playback_verified_on` records actual origin checks.
+  Products use verified canonical `course_url`, without queries/referrals/placeholders. Only
+  `link_status: live` renders. Availability is independent of affiliate configuration: source
+  Markdown has neutral marked course links, while the postbuild resolver activates referrals,
+  sponsored attributes and the canonical disclosure only with valid `AFFILIATE_REF`.
+  Missing ref remains neutral; invalid ref fails. Never expose root `.env` values.
 - **Principles:** author application and complexity levels, development timeline, component skills,
   relationships, application contexts, decision framework, errors, training approaches,
   developmental metrics, related content, root flashcards, and `graph_applicability`.
@@ -319,7 +329,7 @@ python3 scripts/rewrite_questions.py --apply
 ```
 
 There is no universal 5–20-card bound. DUAL/SINGLE position role decks use 6–8 cards, technique roles
-have the minima listed above, and Systems/Principles use 6–20. FAMILY position role decks are not
+have the minima listed above, and Principles use 6–20; Systems have no minimum. FAMILY position role decks are not
 required in the same way as DUAL role decks. Follow the selected schema and author useful questions,
 not filler to reach a preferred count.
 
@@ -388,7 +398,7 @@ schedule or imply that elapsed time makes a dangerous technique safe.
 transition names, changed a technique's canonical `from_position`, or dropped existing outcome
 targets. This protects selected structural fields, not every possible editorial invariant.
 
-Curated Systems `products`, root/role `clips`, and flashcard `answer_line`/`distractors` are excluded
+Curated Systems `products` (including canonical course URLs), root/role `clips`, and flashcard `answer_line`/`distractors` are excluded
 from the AI response contract and restored on save. Position attempt probabilities are restored
 from the original by transition name before normalization. Do not describe the current save path
 as freely retuning those authored occurrence estimates. Probability groups are normalized per

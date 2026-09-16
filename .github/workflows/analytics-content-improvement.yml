@@ -102,7 +102,8 @@ jobs:
             3. Improve the JSON content:
                - Fill any TODO/placeholder fields with accurate BJJ content
                - Enrich thin descriptions and overviews (front-load key facts)
-               - Add [[Wikilinks]] throughout (6-15 minimum, validated against catalog)
+               - Add [[Wikilinks]] throughout (verified targets; no quota for Systems)
+               - Systems: follow docs/Content.md and templates/Systems.json; no filler quotas, invented drills, metrics, timelines, credentials or verification dates. Preserve graph membership and canonical products. Use only actually inspected primary evidence; otherwise flag for review.
                - Improve flashcards (clear, specific, practical Q&A pairs)
                - Ensure success rates: beginner <= intermediate <= advanced
                - In the JSON SOURCE (not the generated .md), set a top-level

@@ -331,7 +331,10 @@ def _jsonstr(v):
     return s.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
 
 
+from _system_guides import canonical_course_url, related_references
+
 _JINJA_ENV = Environment()
+_JINJA_ENV.filters["canonical_course_url"] = canonical_course_url
 _JINJA_ENV.filters["jsonstr"] = _jsonstr
 _JINJA_ENV.filters["slugify"] = slugify
 
@@ -677,6 +680,8 @@ def generate_markdown(json_data, template, resolve_fn=None):
     """
     try:
         kwargs = dict(json_data)
+        if json_data.get("guide"):
+            kwargs["references"] = related_references(json_data, Path("content"), _quartz_url_slug)
         if resolve_fn is not None:
             kwargs['resolve'] = resolve_fn
         return template.render(**kwargs)
