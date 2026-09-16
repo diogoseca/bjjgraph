@@ -179,7 +179,7 @@
         "title": "The Ultimate Rubber Guard by Eddie Bravo",
         "kind": "official_listing",
         "checked_on": "2026-09-16",
-        "note": "Verified four volumes, instructor, rubber-guard history and omoplata coverage, and the Bottom Half section. Listing inspected; course video content not reviewed."
+        "note": "Verified four volumes, instructor, rubber-guard history and omoplata coverage, and the Bottom Half section. Listing and official trailer iframe inspected; player content and playback not reviewed."
       },
       {
         "id": "glick-half-butterfly-listing",
@@ -189,7 +189,17 @@
         "checked_on": "2026-09-16",
         "note": "Verified inside-position and head-position sections, entry positions, two attack groups, troubleshooting and executive summary. Listing inspected; course video content not reviewed."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "youtube",
+      "embed_url": "https://www.youtube.com/embed/_Vg4g6U1EXI?autoplay=0",
+      "source_id": "bravo-rubber-listing",
+      "title": "Official trailer — Eddie Bravo / The Ultimate Rubber Guard",
+      "kind": "trailer",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
   },
   "products": [
     {
