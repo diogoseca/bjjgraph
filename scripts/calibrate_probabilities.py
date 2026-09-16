@@ -33,8 +33,8 @@ PRIOR (templates/votes.json), with a confidence-derived pseudo-count, and ONLY f
 entries that still sit at the pure seed prior (never clobber real votes). occurrence%
 and outcome_dist go to a human-gated proposal file (they have no self-correcting loop).
 
-DRY-RUN by default: elicit → aggregate → self-check → write calibration_results.json
-+ calibration_proposals.json. `--apply-votes` folds Sink A into templates/votes.json.
+DRY-RUN by default: elicit → aggregate → self-check → write data/calibration/results.json
++ data/calibration/proposals.json. `--apply-votes` folds Sink A into templates/votes.json.
 
 Reuses: scripts/claude_infer.call_claude (model/effort + usage-limit backoff),
 scripts/_prob_norm.largest_remainder_round, scripts/_atomic_io.atomic_write_json,
@@ -45,10 +45,10 @@ Usage:
     python scripts/calibrate_probabilities.py --build-cases --max-cases 100
 
     # dry-run elicitation (writes results + proposals, applies nothing)
-    python scripts/calibrate_probabilities.py --cases calibration_cases.json
+    python scripts/calibrate_probabilities.py --cases data/calibration/cases.json
 
     # fold the calibrated success-rate prior into votes.json (gated on anchor-recovery)
-    python scripts/calibrate_probabilities.py --cases calibration_cases.json --apply-votes
+    python scripts/calibrate_probabilities.py --cases data/calibration/cases.json --apply-votes
 """
 
 from __future__ import annotations
@@ -80,10 +80,11 @@ CONTENT_DIR = os.path.join(_REPO_ROOT, "content")
 PRINCIPLES_DIR = os.path.join(CONTENT_DIR, "Principles")
 VOTES_JSON = os.path.join(_REPO_ROOT, "templates", "votes.json")
 
-DEFAULT_CASES = os.path.join(_REPO_ROOT, "calibration_cases.json")
-DEFAULT_RESULTS = os.path.join(_REPO_ROOT, "calibration_results.json")
-DEFAULT_PROPOSALS = os.path.join(_REPO_ROOT, "calibration_proposals.json")
-DEFAULT_PARTIAL = os.path.join(_REPO_ROOT, "calibration_results.partial.json")
+_CALIBRATION_DIR = os.path.join(_REPO_ROOT, "data", "calibration")
+DEFAULT_CASES = os.path.join(_CALIBRATION_DIR, "cases.json")
+DEFAULT_RESULTS = os.path.join(_CALIBRATION_DIR, "results.json")
+DEFAULT_PROPOSALS = os.path.join(_CALIBRATION_DIR, "proposals.json")
+DEFAULT_PARTIAL = os.path.join(_CALIBRATION_DIR, "results.partial.json")
 
 CLAUDE_MODEL = _model_tier()
 CLAUDE_EFFORT = _model_effort()
@@ -113,7 +114,7 @@ TRUSTED_OUTPUT = (15.0, 77.0)  # corrected values inside this band auto-apply; o
 
 # Built-in fallback reference anchors (well-established consensus success% at ~purple-brown, live
 # resistance). Used as in-prompt absolute pins AND as blind recovery probes. The richer per-type,
-# per-ruleset anchor set is sourced externally (calibration_external_anchors.json, curated +
+# per-ruleset anchor set is sourced externally (data/calibration/external_anchors.json, curated +
 # tournament research) and merged in by load_anchors(); these 6 are the floor if that file is absent.
 # Each anchor carries success_type (for the per-type de-bias fit) + ruleset ("gi"|"nogi"|"both") +
 # is_holdout (held-out anchors validate rather than fit).
@@ -127,12 +128,12 @@ DEFAULT_ANCHORS = [
 ]
 
 # External anchor file: curated seed + tournament research (2.2a). Same per-anchor schema as
-# DEFAULT_ANCHORS. Gitignored, regenerable; absent → DEFAULT_ANCHORS only.
-EXTERNAL_ANCHORS_JSON = os.path.join(_REPO_ROOT, "calibration_external_anchors.json")
+# DEFAULT_ANCHORS. Tracked calibration input; absent → DEFAULT_ANCHORS only.
+EXTERNAL_ANCHORS_JSON = os.path.join(_CALIBRATION_DIR, "external_anchors.json")
 
 
 def load_anchors() -> list:
-    """Built-in DEFAULT_ANCHORS merged with calibration_external_anchors.json (if present).
+    """Built-in DEFAULT_ANCHORS merged with data/calibration/external_anchors.json (if present).
     External entries override built-ins of the same technique. Each anchor is normalized to carry
     success_type (via classify_technique fallback), ruleset ("both" default), and is_holdout."""
     by_tech = {a["technique"]: dict(a) for a in DEFAULT_ANCHORS}
@@ -1235,7 +1236,7 @@ def emit_content_proposals(out_cases, index):
 # Re-aggregation input (rebuild cases + per-persona results from a results file)
 # --------------------------------------------------------------------------- #
 def load_results_as_inputs(results: dict):
-    """Reconstruct (cases, per_persona_results) from a calibration_results.json so aggregation can
+    """Reconstruct (cases, per_persona_results) from a results.json so aggregation can
     be re-run (e.g. with de-bias) WITHOUT re-eliciting. Skeleton + per-persona estimates come
     straight from the stored personas; technique tags are re-read from content for relevance."""
     from collections import defaultdict
@@ -1377,7 +1378,7 @@ def main():
         return 0
 
     # anchors: from the cases file if present, else built-in + external (needed for recovery in
-    # both modes). load_anchors() merges DEFAULT_ANCHORS with calibration_external_anchors.json.
+    # both modes). load_anchors() merges DEFAULT_ANCHORS with data/calibration/external_anchors.json.
     anchors, skill = load_anchors(), args.skill_level
     if os.path.exists(args.cases):
         with open(args.cases, encoding="utf-8") as fh:

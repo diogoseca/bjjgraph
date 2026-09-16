@@ -81,7 +81,7 @@ not read-only checks. The broader dependency order is documented in [Architectur
 
 `npm run regenerate` includes issue discovery, `regenerate:json`, connection expansion, ruleset
 migration, graph validation, Markdown and category hubs, votes, graph generation, explorer, and
-Neural output. `regenerate:json` can call Claude; `regenerate:json:fast` only removes its inter-file
+Neural output. `regenerate:json` can call Claude; `npm run regenerate:json -- --interval 0` removes its inter-file
 wait and is **not** an AI-free validation shortcut. `regenerate:build` runs that chain and then
 builds the site. `npm run dev` builds and serves but does not run the content regeneration chain.
 
@@ -129,6 +129,13 @@ This is a **partial excerpt**, not a complete schema-valid document, from
 It does not write content outcome distributions, attempt probabilities, or community vote totals.
 Proposals not flagged for human review can apply automatically; flagged proposals need a review
 entry or override. These flags and provenance fields do not establish black-belt panel approval.
+
+Calibration inputs live in [`data/calibration/`](../data/calibration/): `external_anchors.json`
+supplies reference estimates, `overrides.json` holds explicit corrections, and `reviewed.json`
+lists reviewed techniques. Keep these inputs tracked. Cases, results, partial results and proposals
+are local, ignored outputs in the same directory; moving them does not change published rates.
+Use `python3 scripts/apply_calibration.py --dry-run` to inspect an existing proposal run without
+changing `templates/votes.json`. Eliciting a new run can invoke paid model calls.
 
 For each ruleset, `folded_rate` in `scripts/_votes.py` blends a usable prior with the community rate,
 weighted by the prior's pseudo-count and `max(0, vote_count - 30)`. Thirty is the seed count, not

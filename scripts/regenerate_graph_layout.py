@@ -413,9 +413,7 @@ def main(fresh: bool = False) -> None:
     # canonicalize to the SAME url — a bare positions/<child> (from an outcome target)
     # and a compound positions/<parent>/<child> (from the position `path`). They are the
     # same position. Keep the FIRST occurrence in traversal order, drop the rest, and
-    # retarget links onto the survivor (mirrors scripts/remap_layout_ids.py so a full
-    # re-embed and the in-place remap agree on the node set). Without this the file would
-    # carry duplicate ids.
+    # retarget links onto the survivor. Without this the file would carry duplicate ids.
     out_nodes = []
     seen_ids: set[str] = set()
     for i, n in enumerate(nodes):

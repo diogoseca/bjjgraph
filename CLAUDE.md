@@ -94,6 +94,7 @@ decisions, so the plan can be approved or redirected without reading the rest.
 bjjgraph/
 ├── CLAUDE.md              # this file — canon + traps
 ├── docs/                  # Neural, Architecture, Content, SEO, Changelog-Archive, …
+├── data/calibration/      # tracked anchors, overrides, review entries; ignored run outputs
 ├── content/               # *.json = SOURCE (authored) · *.md = GENERATED (never edit)
 │   ├── Positions/ Transitions/ Submissions/ Systems/ Learning/ Principles/
 │   └── Game Over.md       # the terminal state; its alias is what makes [[game-over]] resolve
@@ -233,10 +234,10 @@ ruleset mask or is named in `tests/artifacts/ruleset_surfaces.json` with a reaso
 
 **Regenerate** — `regenerate` runs the full chain: `issues → json → explode → migrate:ruleset →
 validate:graph (gate) → md → hubs → votes → graph → explorer → neural`. Individually: `regenerate:issues`
-lists files needing fixes · `regenerate:json` the costly Claude pass (600s interval; `:fast` for 0)
+lists files needing fixes · `regenerate:json` the costly Claude pass (600s interval; `-- --interval 0` for 0)
 · `regenerate:explode` expands connections · `migrate:ruleset` folds content to `{gi,nogi}` ·
 `regenerate:md` markdown from JSON · `regenerate:hubs` category hubs · `regenerate:votes` ·
-`regenerate:explorer` · `regenerate:redirects` · `regenerate:headers` · `regenerate:llms`.
+`regenerate:explorer`. The site build also generates redirects, cache headers and `llms.txt`.
 
 **`regenerate:graph` is an UMBRELLA, not a graph.json emitter** — it runs `graph-base` (graph.json)
 → `graph-layout` (node2vec + UMAP) → **`ordinals`** (mints the append-only share lockfile) →
@@ -255,7 +256,8 @@ lists files needing fixes · `regenerate:json` the costly Claude pass (600s inte
 **Test** — `test` full core suite (:8133) · `test:curated` the `@curated` deployment gate (20-min
 ceiling) · `test:units` pure node --test · `e2e:share` (:8129) · `e2e:replay` (:8151) ·
 `e2e:gen` generated suite (:8127) · `e2e:quarantine` known-red · `e2e:observe` watchable CDP ·
-`e2e:headed`. `pree2e` and both `test*` scripts run `scripts/check_no_raw_random.sh` first.
+`npm run e2e -- --headed` for a visible browser. `pree2e` and both `test*` scripts run
+`scripts/check_no_raw_random.sh` first.
 
 **Content tooling** — `proofread` · `calibrate:cases` / `calibrate` / `calibrate:apply`
 (per-ruleset success-rate priors) · `clips:source` / `clips:verify` / `clips:report` (YouTube film

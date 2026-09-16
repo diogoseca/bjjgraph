@@ -461,7 +461,7 @@ regenerate:issues -> regenerate:json -> regenerate:explode -> migrate:ruleset
 
 `npm run regenerate:build` runs that chain and then the site build. The `regenerate:json` step
 can invoke a paid model to rewrite content; it is not a harmless validation command.
-`regenerate:json:fast` removes its inter-request interval, not the model work.
+`npm run regenerate:json -- --interval 0` removes its inter-request interval, not the model work.
 
 `npm run regenerate:graph` is an umbrella:
 
