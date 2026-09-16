@@ -1,201 +1,115 @@
-{# BJJ Systems Template V3 - Jinja2 #}
-{# Generates markdown from TEMPLATE.json for system/methodology content #}
-{# A/B Testing: variant-a-show/variant-b-hide CSS classes #}
-
+{# Independent source-grounded guide. Affiliate state is built-only. #}
 ---
-title: "{{name}} | BJJ System | BJJ Graph"
-description: "{{description}}"
+title: {{ ((guide.display_title if guide else name) ~ " | BJJGraph") | jsonstr }}
+description: {{ description | jsonstr }}
 ---
 
-{# PostHog A/B Testing Metadata #}
-<body data-content-type="systems">
-
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": {{ ("How to Implement " ~ (name)) | jsonstr }},
-  "description": {{ ("Step-by-step implementation sequence for " ~ (name) ~ ".") | jsonstr }},
-  "step": [
-    {%- for step in implementation_sequence[:8] %}
-    {
-      "@type": "HowToStep",
-      "name": {{ step.phase | jsonstr }},
-      "text": {{ step.description | jsonstr }},
-      "position": {{loop.index}}
-    }{{ "," if not loop.last else "" }}
-    {%- endfor %}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": {{ name | jsonstr }},
-  "description": {{ description | jsonstr }},
-  "url": {{ ("https://bjjgraph.org/Systems/" ~ (name.replace(' ', '-'))) | jsonstr }},
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": {{ name | jsonstr }}, "item": {{ ("https://bjjgraph.org/Systems/" ~ (name.replace(' ', '-'))) | jsonstr }}}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {%- for obstacle in common_obstacles[:6] %}
-    {
-      "@type": "Question",
-      "name": {{ ("What is a common obstacle: " ~ (obstacle.obstacle) ~ "?") | jsonstr }},
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": {{ obstacle.solution | jsonstr }}
-      }
-    }{{ "," if not loop.last else "" }}
-    {%- endfor %}
-  ]
-}
-</script>
-
-{% if summary %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": {{ name | jsonstr }},
-  "description": {{ summary | jsonstr }},
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
-</script>
+{% set live = namespace(products=[]) %}
+{% for p in products | default([]) %}
+{% if p.link_status == 'live' and p.course_url | default('') | canonical_course_url %}
+{% set live.products = live.products + [p] %}
 {% endif %}
-
-{# Metadata chips — single scannable row (replaces the old filler blockquote + duplicate bold lines) #}
-<div class="principle-meta">
-<span class="meta-chip">{{system_type}}</span>
-<span class="meta-chip">{{difficulty_level}} difficulty</span>
-</div>
-
-{# Flexbox wrapper for A/B testing #}
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
-
+{% endfor %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":{{ (guide.display_title if guide else name) | jsonstr }},"description":{{ description | jsonstr }}}
+</script>
+<main class="content-wrapper" data-system-guide>
+<p class="system-attribution">Independent BJJGraph {{ 'course companion' if guide and guide.kind == 'course_companion' else 'study guide' }}. Not authored or endorsed by the instructor.{% if live.products %} Course: {{ live.products[0].title | e }}{% if live.products[0].instructor %} by {{ live.products[0].instructor | e }}{% endif %}.{% endif %}</p>
 <section id="overview" class="content-section">
 
-{% set is_plural = name.endswith('s') and not name.endswith('ss') -%}
-## What {{ 'are' if is_plural else 'is' }} {{name}}?
+## {{ guide.display_title if guide else name }}
 
-{% if summary %}**{{summary}}**
+{% if summary %}**{{ summary }}**
 
-{% endif -%}
-{{overview}}
+{% endif %}
+{{ overview }}
 
 </section>
+{% if guide %}
+<section id="fit" class="content-section">
 
-{% macro course_next_step(p, placement, heading, note, label) %}
-<section id="course-{{ placement }}" class="content-section system-study-free" data-course-placement="{{ placement }}">
-<h2>{{ heading }}</h2>
-<p>{{ note | e }}</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="{{ p.affiliate_url | with_utm(name, p.id | default('')) }}" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="{{ p.id | default('') }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name }}" data-vendor="{{ (p.vendor | default('bjjfanatics')) | lower }}" data-position="0" data-placement="{{ placement }}">{{ label }}: {{ p.title | e }} &rarr;</a></p>
-</section>
-{% endmacro %}
+## Is this useful for you?
 
-{% set member_count = (related_content | rejectattr('content_type', 'equalto', 'System') | list | length) %}
-{# Only a product whose affiliate_url was OPENED and confirmed to resolve to that exact
-   instructional may render (content/Systems/*.json → link_status: "live", link_checked: date).
-   A missing or non-"live" status renders NOTHING and falls through to the free study section
-   below: a 404 or a guessed link earns nothing and costs trust, so an empty slot is the honest
-   default. Fail-safe by construction — a new product without a verification date cannot ship a
-   CTA. Canonical spec: CLAUDE.md §7 (Systems: product links). #}
-{% set live_products = (products or []) | selectattr('link_status', 'defined') | selectattr('link_status', 'equalto', 'live') | list %}
-{% if live_products %}
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-{% for p in live_products %}
-<article class="product-card" data-product-id="{{ p.id | default('') }}">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-{% if p.image %}<div class="product-card__cover"><img src="{{ p.image }}" alt="{{ p.title }}" loading="lazy" width="640" height="360" /><span class="product-card__vendor-badge">{{ p.vendor | default('BJJFanatics') }}</span></div>{% endif %}
-<div class="product-card__body">
-<h3 class="product-card__title">{{ p.title }}</h3>
-{% if p.instructor %}<p class="product-card__instructor">with {{ p.instructor }}</p>{% endif %}
-{% if p.best_for %}<p class="product-card__blurb"><strong>Who it suits:</strong> {{ p.best_for | e }}</p>{% endif %}
-{% if p.blurb %}<p class="product-card__blurb">{{ p.blurb }}</p>{% endif %}
-</div>
-<a class="product-card__cta affiliate-link" href="{{ p.affiliate_url | with_utm(name, p.id | default('')) }}" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="{{ p.id | default('') }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name }}" data-vendor="{{ (p.vendor | default('bjjfanatics')) | lower }}" data-position="{{ loop.index0 }}" data-placement="overview">{# NO PRICE IN THE LABEL. price_usd is authored reference data we cannot keep fresh — every
-   value on file was wrong (by up to 3.6x) when checked against the vendor on 2026-08-09, and
-   "Get it · $97" landing on a $349 checkout is the same broken promise as a dead link. The
-   vendor's own page is the only truthful price surface. #}View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
-</article>
+{% for item in guide.audience.fits %}- {{ item }}
 {% endfor %}
-</div>
 
+### Consider an alternative if
+
+{% for item in guide.audience.consider_alternative_if %}- {{ item }}
+{% endfor %}
+{% if guide.audience.prerequisites %}
+### Prerequisites
+
+{% for item in guide.audience.prerequisites %}- {{ item }}
+{% endfor %}
+{% endif %}
 </section>
-{% else %}
-{# NO VERIFIED PRODUCT — a system without a close, verified course match. The page must still look finished
-   and still teach, so the slot the product cards would have filled carries the FREE next step
-   instead of an empty region. Deliberately no outbound vendor link: a generic shop URL nobody
-   verified would be exactly the guess this pipeline forbids. #}
-<section id="study-this-system" class="content-section system-study-free">
+<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
+<section id="start-here" class="content-section">
 
-## How do you drill {{name}}?
+## Start here: {{ guide.start_here.title }}
 
-<p class="section-subtitle">There's no instructional attached to this system yet &mdash; and you don't need one. It's taught here, free, from the {{member_count}} technique{{ 's' if member_count != 1 else '' }} it strings together.</p>
+{{ guide.start_here.task }}
 
-- **Learn it in order** &mdash; the [implementation sequence](#implementation-sequence) is the path, not a list.
-- **Study each piece** &mdash; every technique in [this system's map](#related-content) has its own page, flashcards and film study.
-- **Then roll it** &mdash; on the [interactive graph](/) these same nodes light up as your game moves through them.
-
+{% if guide.start_here.section %}Published section: {{ guide.start_here.section }}
+{% endif %}
+{% if guide.start_here.kind == 'practice' %}
+- **Start position:** {{ guide.start_here.start_position }}
+- **Partner task:** {{ guide.start_here.partner_task }}
+- **Stop condition:** {{ guide.start_here.stop_condition }}
+{% endif %}
+{% for source in guide.sources if source.id in guide.start_here.source_ids %}
+<p>Source: <a href="{{ source.url | e }}" target="_blank" rel="noopener">{{ source.title | e }}</a></p>
+{% endfor %}
+</section>
+{% if guide.preview %}
+{% set preview = guide.preview %}
+<section id="official-preview" class="content-section" data-system-preview data-provider="{{ preview.provider | e }}" data-embed-url="{{ preview.embed_url | e }}" data-verified-origins="{{ preview.playback_verified_on | tojson | forceescape }}" data-preview-title="{{ preview.title | e }}">
+<h2>{{ preview.title | e }}</h2>
+<p>{{ 'Official trailer' if preview.kind == 'trailer' else 'Official public sample' }}. {% if not preview.content_reviewed %}The sample's instructional content has not been reviewed by BJJGraph.{% endif %}</p>
+<button type="button" data-load-preview hidden>Load official {{ 'trailer' if preview.kind == 'trailer' else 'sample' }}</button>
+<div data-preview-player></div>
+{% for source in guide.sources if source.id == preview.source_id %}<p><a href="{{ source.url | e }}" target="_blank" rel="noopener">Watch on the official page: {{ source.title | e }}</a></p>{% endfor %}
 </section>
 {% endif %}
-
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
-
-## Unlock this part of the graph
-
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
-
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
-
-<ul class="system-members" data-system-members></ul>
-
+{% endif %}
+{% if live.products %}
+<section id="unlock-this-system" class="content-section product-cards" data-course-container>
+<h2>Course reference</h2>
+{% set p = live.products[0] %}
+<article class="product-card">
+<h3>{{ p.title | e }}</h3>
+{% if p.instructor %}<p>By {{ p.instructor | e }}</p>{% endif %}
+{% if not guide %}{% for field in ['best_for', 'blurb', 'study_focus', 'practice_tip'] %}{% if p[field] %}<p>{{ p[field] | e }}</p>{% endif %}{% endfor %}{% endif %}
+<p><a href="{{ p.course_url | e }}" data-course-url="{{ p.course_url | e }}" data-product-id="{{ p.id | default('') | e }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name | e }}" data-vendor="{{ p.vendor | default('BJJFanatics') | lower | e }}" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
+</article>
+{% for p in live.products[1:3] %}
+<p>Related course: <a href="{{ p.course_url | e }}" data-course-url="{{ p.course_url | e }}" data-product-id="{{ p.id | default('') | e }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name | e }}" data-vendor="{{ p.vendor | default('BJJFanatics') | lower | e }}" data-placement="related" data-affiliate="false" rel="noopener" target="_blank">{{ p.title | e }}{% if p.instructor %} — {{ p.instructor | e }}{% endif %}</a></p>
+{% endfor %}
 </section>
+{% endif %}
+{% if guide %}
+<span id="key-principles"></span><span id="key-components"></span>
+<section id="coverage" class="content-section">
 
+## What the sources cover
+
+{% for item in guide.coverage.includes %}- {{ item }}
+{% endfor %}
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
+
+### Limits
+
+{% for item in guide.coverage.limits %}- {{ item }}
+{% endfor %}
+</section>
+<section id="sources" class="content-section">
+<h2>Sources and evidence</h2>
+{% for source in guide.sources %}<p><a href="{{ source.url | e }}" target="_blank" rel="noopener">{{ source.title | e }}</a> — {{ source.kind | replace('_', ' ') | e }}; checked {{ source.checked_on | e }}. {{ source.note | e }}{% if source.viewed_range %} Inspected: {{ source.viewed_range | e }}{% endif %}</p>{% endfor %}
+</section>
+{% else %}
+
+{% if key_principles %}
 <section id="key-principles" class="content-section">
 
 ## Core Principles
@@ -204,7 +118,9 @@ description: "{{description}}"
 {% endfor %}
 
 </section>
+{% endif %}
 
+{% if key_components %}
 <section id="key-components" class="content-section">
 
 ## Key Components
@@ -215,7 +131,9 @@ description: "{{description}}"
 {% endfor %}
 
 </section>
+{% endif %}
 
+{% if implementation_sequence %}
 <section id="implementation-sequence" class="content-section">
 
 ## Implementation Sequence
@@ -231,11 +149,9 @@ Key points:
 {% endfor %}
 
 </section>
-
-{% if live_products %}
-{{ course_next_step(live_products[0], 'sequence', 'Where to begin in the instructional', live_products[0].study_focus | default('Choose the syllabus section that matches the sequence you are practising.'), 'Explore the course contents on BJJ Fanatics') }}
 {% endif %}
 
+{% if common_obstacles %}
 <section id="common-obstacles" class="content-section hide-minimal">
 
 ## What Challenges Will You Face?
@@ -244,7 +160,9 @@ Key points:
 {% endfor %}
 
 </section>
+{% endif %}
 
+{% if assessment_metrics %}
 <section id="assessment-metrics" class="content-section">
 
 ## How to Measure Your Progress
@@ -258,7 +176,9 @@ Proficiency indicators:
 {% endfor %}
 
 </section>
+{% endif %}
 
+{% if training_methodology %}
 <section id="training-methodology" class="content-section hide-minimal">
 
 ## How to Train This System Effectively
@@ -277,19 +197,23 @@ Proficiency indicators:
 {% endfor %}
 
 </section>
-
-<section id="related-content" class="content-section">
-
-## Which Positions, Transitions, and Principles Connect to This System?
-
-{% for item in related_content -%}
-- [[{{ resolve(item.name) }}|{{ item.name }}]] ({{item.content_type}}) - {{item.relationship}}
-{% endfor %}
-
-</section>
-
-{% if live_products %}
-{{ course_next_step(live_products[0], 'practice', 'Take one idea into your next session', live_products[0].practice_tip | default('Pick one part of this system to practise with your coach, then revisit the relevant lesson.'), 'Check the sample and current price on BJJ Fanatics') }}
 {% endif %}
 
+{% endif %}
+<section id="related-content" class="content-section">
+
+## Related references and alternatives
+
+{% if guide %}
+{% for item in references | default([]) %}<p><a href="{{ item.url | e }}">{{ item.name | e }}</a> ({{ item.type | e }}) — {{ item.relationship | e }}</p>{% endfor %}
+{% endif %}
+
+### Review related technique cards
+
+These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
+
+{% for item in related_content if not guide or item.content_type not in ['System', 'Principle'] %}
+- [[{{ resolve(item.name) }}|{{ item.name }}]] ({{ item.content_type }}) — {{ item.relationship }}
+{% endfor %}
+</section>
 </main>

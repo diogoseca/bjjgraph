@@ -3124,7 +3124,8 @@ class Component extends DCLogic {
       }
       this._conceptsById[c.id] = c;
     }
-    if (this.deckShown && this._viewMode === "explore") this._renderPaneBody(); // payload can land after the pane is up
+    // Hydrate Explore's concept list without rebuilding an open System and destroying its player.
+    if (this.deckShown && this._viewMode === "explore" && !this._systemId) this._renderPaneBody();
   }
   // member graph nodes, resolved once per concept against the ingested id index (systemNodeIdxs
   // is the same shape one payload over — a concept lights the techniques its author linked).
@@ -5260,6 +5261,7 @@ class Component extends DCLogic {
    *   would leave the header disagreeing with the rows still on screen.
    */
   openSession(bucket, label, sub) {
+    this._stopSystemPreview();
     const keys = this.bucketTechniques(bucket);
     this.hydrateDecks(keys);   // a session is a queue of decks the user has already committed to
     // "due" sessions narrow every deck to its due cards (see _entryForKey); others are whole-deck
@@ -6928,6 +6930,7 @@ class Component extends DCLogic {
   _wirePaneControls() {
     const inp = this.explorerSearchRef.current;
     if (inp && !inp._wired) {
+      inp.placeholder = "Search techniques and Systems…";
       inp._wired = true;
       inp.addEventListener("input", () => { this._exQ = inp.value; this.showExplorerList(); });
       inp.addEventListener("pointerdown", (e) => e.stopPropagation());
@@ -7077,6 +7080,7 @@ class Component extends DCLogic {
     // arrival reposition is pending (v1.98.1)
     const keepScroll =
       this._viewMode === "challenges" && !this._challengeScrollPending ? list.scrollTop : null;
+    this._stopSystemPreview();
     list.innerHTML = "";
     if (this.renderTabSubtitles) this.renderTabSubtitles();
     this._syncExploreTools();
@@ -7170,6 +7174,14 @@ class Component extends DCLogic {
       // so there is no link-delivered and no stored vector. `hl(text, q)` is not a second sink:
       // it slices the trusted title and uses q only for indexOf/length.
       // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop this call and it goes red).
+      this._ensureSystems();
+      const systems = (this.systems || []).filter((s) => [s.name, s.display_title, ...(s.aliases || []),
+        ...(s.products || []).flatMap((p) => [p.name, p.instructor])].filter(Boolean).join(" ").toLowerCase().includes(q));
+      for (const s of systems) {
+        const hit = mk('<span>' + this.escHTML(s.display_title || s.name) + '</span><small style="margin-left:auto;">System</small>', 12, () => this.openSystem(s.id));
+        hit.setAttribute("data-system-row", s.id); hit.style.pointerEvents = "auto"; list.appendChild(hit);
+      }
+      if (!matches.length && systems.length) return;
       if (!matches.length) { if (this._aliasesReady) list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + this.escHTML(q) + '\u201d</span>', 12)); return; }
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
@@ -7263,7 +7275,7 @@ class Component extends DCLogic {
           children.replaceChildren();
           if (!expanded) return;
           for (const s of [...systems].sort((a, b) => a.name.localeCompare(b.name) || a.id.localeCompare(b.id))) {
-            const leaf = mk('<span style="min-width:0;font-size:12px;color:#9aa6bd;">' + this.escHTML(s.name) + '</span>' + (s.difficulty ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + this.escHTML(s.difficulty) + '</span>' : ""), 38, () => this.openSystem(s.id));
+            const leaf = mk('<span style="min-width:0;font-size:12px;color:#9aa6bd;">' + this.escHTML(s.display_title || s.name) + '</span>' + (s.difficulty ? '<span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + this.escHTML(s.difficulty) + '</span>' : ""), 38, () => this.openSystem(s.id));
             leaf.style.paddingRight = "12px";
             leaf.setAttribute("data-system-row", s.id);
             leaf.style.pointerEvents = "auto";
@@ -7334,6 +7346,7 @@ class Component extends DCLogic {
   // drops the highlight AND the view that owns it: a lit graph with no visible selection is a
   // state the user cannot undo. Called from every _pathDim reset and on any tab change.
   clearFocus() {
+    this._stopSystemPreview();
     this._focusIdxSet = null; this._systemId = null; this._conceptId = null; this._listFocusId = null;
     const panel = this.drillRef && this.drillRef.current;
     if (panel) panel.removeAttribute("data-principle-view");
@@ -7363,6 +7376,7 @@ class Component extends DCLogic {
   }
   openSystem(id) {
     const s = this._systemsById ? this._systemsById[id] : null; if (!s) return;
+    const changedSystem = this._systemId !== id;
     this._leaveRollForReference();
     // Explore is the tab that owns the highlight. Any pane/tab transition runs clearFocus, so the
     // transition goes FIRST and the selection is claimed after it (a row click skips this).
@@ -7370,11 +7384,14 @@ class Component extends DCLogic {
     this.clearFocus();
     const idxs = this.systemNodeIdxs(s);
     this._systemId = id;
+    this._exQ = ""; if (this.explorerSearchRef.current) this.explorerSearchRef.current.value = "";
     this._systemBody(s);   // start the body fetch with the click, not with the first paint of it
     this.track("neural_system_opened", { system: s.name, nodes: idxs.length, has_course: !!(s.products && s.products.length) });
     this.setFocusIdxSet(idxs);
     this._pushUrl("/" + id, { ngPage: id });
     this.showExplorerList();
+    // A new guide starts at its heading; same-guide hydration never comes through here.
+    if (changedSystem && this.explorerListRef.current) this.explorerListRef.current.scrollTop = 0;
   }
   closeSystem() { this.clearFocus(); this.showExplorerList(); }
 
@@ -9137,20 +9154,150 @@ class Component extends DCLogic {
   // "Systems/Danaher-Leg-Lock-System" -> "danaher-leg-lock-system": the same slug the generated
   // page puts in data-system-slug / utm_content, so one campaign report covers both surfaces.
   systemSlug(s) { return String((s && s.id) || "").split("/").pop().toLowerCase(); }
-  // The authored affiliate URL plus BJJGraph's own UTM tags — nothing else. Mirrors
-  // scripts/regenerate_md_from_json.py::_with_utm exactly (same keys, same order, same slug
-  // casing) and never touches the vendor's existing query, so the deploy-time ?ref= stamp
-  // (scripts/apply_affiliate_ref.py) still finds and rewrites the placeholder it owns.
+  // Cached indexes predate referral activation. Never trust their URL alone: active links
+  // require the new boolean AND a syntactically valid, non-placeholder rfsn value.
+  _systemURL(value) {
+    try {
+      const u = new URL(value);
+      return u.protocol === "https:" && !u.username && !u.password ? u : null;
+    } catch (e) { return null; }
+  }
+  _systemCourse(p) {
+    const raw = this._systemURL(p.url);
+    const canonical = this._systemURL(p.course_url) || (raw && new URL(raw.href));
+    if (!canonical) return null;
+    canonical.search = ""; canonical.hash = "";
+    try { if (/REPLACE_ME/i.test(decodeURIComponent(canonical.href))) return null; } catch (e) { return null; }
+    const ref = raw && raw.searchParams.get("rfsn");
+    const active = p.affiliate === true && raw && !raw.port && ["bjjfanatics.com", "www.bjjfanatics.com"].includes(raw.hostname) &&
+      /^\/products\/[a-z0-9-]+$/.test(raw.pathname) && raw.origin === canonical.origin &&
+      raw.pathname === canonical.pathname && raw.searchParams.getAll("rfsn").length === 1 &&
+      /^[A-Za-z0-9][A-Za-z0-9._~-]{0,63}$/.test(ref || "") && !/REPLACE_ME/i.test(ref + raw.href);
+    return { canonical: canonical.href, active: !!active, url: active ? raw.href : canonical.href };
+  }
   affiliateHref(url, s, p) {
-    if (!url) return url;
-    const q = [
-      "utm_source=bjjgraph",
-      "utm_medium=affiliate",
-      "utm_campaign=systems",
-      "utm_content=" + encodeURIComponent(this.systemSlug(s)),
-    ];
-    if (p && p.id) q.push("utm_term=" + encodeURIComponent(p.id));
-    return url + (url.indexOf("?") >= 0 ? "&" : "?") + q.join("&");
+    const u = this._systemURL(url); if (!u) return "";
+    u.searchParams.delete("ref");
+    for (const [k, v] of Object.entries({ utm_source: "bjjgraph", utm_medium: "affiliate",
+      utm_campaign: "systems", utm_content: this.systemSlug(s), utm_term: p.id || "" })) {
+      if (v) u.searchParams.set(k, v);
+    }
+    return u.href;
+  }
+  _stopSystemPreview() {
+    if (this._systemPlayer) this._systemPlayer.remove();
+    this._systemPlayer = null;
+  }
+  _systemPreviewURL(preview) {
+    const u = this._systemURL(preview && preview.embed_url);
+    if (!u || u.port) return null;
+    const youtube = preview.provider === "youtube" &&
+      ["www.youtube.com", "www.youtube-nocookie.com"].includes(u.hostname) && /^\/embed\/[\w-]{11}$/.test(u.pathname);
+    const bunny = preview.provider === "bunny" && u.hostname === "iframe.mediadelivery.net" &&
+      /^\/embed\/\d+\/[a-f0-9-]{36}$/i.test(u.pathname);
+    if (!youtube && !bunny) return null;
+    // Preserve official player parameters; only override playback flags and disallow playlists.
+    u.searchParams.delete("list"); u.searchParams.delete("playlist");
+    u.searchParams.set("autoplay", bunny ? "false" : "0");
+    if (bunny) { u.searchParams.set("preload", "false"); u.searchParams.set("loop", "false"); }
+    return u.href;
+  }
+  _renderSystemGuide(list, s, body) {
+    const guide = body.guide;
+    const E = (v) => this.escHTML(v);
+    const section = (title, html, marker) => {
+      if (!html) return null;
+      const el = document.createElement("section"); el.className = "ng-system-guide";
+      if (marker) el.setAttribute(marker, "1");
+      el.innerHTML = "<h3>" + E(title) + "</h3>" + html; list.appendChild(el); return el;
+    };
+    const bullets = (title, values) => Array.isArray(values) && values.length ?
+      "<h4>" + E(title) + "</h4><ul>" + values.map((v) => "<li>" + E(v) + "</li>").join("") + "</ul>" : "";
+    const link = (url, title) => {
+      const u = this._systemURL(url);
+      return u && !/REPLACE_ME/i.test(u.href) ? '<a style="pointer-events:auto" href="' + E(u.href) + '" target="_blank" rel="noopener">' + E(title) + " ↗</a>" : E(title);
+    };
+    const audience = guide.audience || {};
+    section("Is this for you?", bullets("Fits", audience.fits) + bullets("Consider an alternative if", audience.consider_alternative_if) +
+      bullets("Prerequisites", audience.prerequisites), "data-system-fit");
+    const sources = Array.isArray(guide.sources) ? guide.sources : [];
+    const start = guide.start_here;
+    if (start && start.task) {
+      section("Start here · free", "<h4>" + E(start.title || "First study action") + "</h4><p>" + E(start.task) + "</p>" +
+        (start.section ? "<p>Published section: " + E(start.section) + "</p>" : "") +
+        [ ["Start position", start.start_position], ["Partner task", start.partner_task], ["Stop when", start.stop_condition] ]
+          .filter((x) => x[1]).map(([label, text]) => "<p><b>" + label + ":</b> " + E(text) + "</p>").join("") +
+        sources.filter((x) => (start.source_ids || []).includes(x.id)).map((x) => "<p>" + link(x.url, x.title) + "</p>").join(""), "data-system-start");
+    }
+    const preview = guide.preview;
+    if (preview) {
+      const source = sources.find((x) => x.id === preview.source_id);
+      const el = section(preview.title || "Official sample", "<p>" +
+        (source ? link(source.url, "Open official source") : "Official source unavailable") + "</p>", "data-system-preview");
+      if (preview.content_reviewed !== true) {
+        const note = document.createElement("p"); note.setAttribute("data-system-preview-review", "1");
+        note.textContent = "The official source page was checked; BJJGraph has not reviewed this preview’s instructional content.";
+        el.appendChild(note);
+      }
+      const url = this._systemPreviewURL(preview);
+      const verified = Array.isArray(preview.playback_verified_on) && preview.playback_verified_on.includes(location.origin);
+      if (url && verified && source && this._systemURL(source.url)) {
+        const button = document.createElement("button"); button.type = "button";
+        button.textContent = "Load official " + (preview.kind === "trailer" ? "trailer" : "sample");
+        button.setAttribute("data-system-preview-load", "1"); button.style.pointerEvents = "auto";
+        button.onclick = () => {
+          this._stopSystemPreview();
+          const frame = document.createElement("iframe"); frame.title = preview.title || "Official course sample";
+          frame.referrerPolicy = "strict-origin-when-cross-origin";
+          frame.allow = "fullscreen; encrypted-media; picture-in-picture"; frame.allowFullscreen = true;
+          frame.src = url; frame.setAttribute("data-system-player", "1");
+          this._systemPlayer = frame; el.appendChild(frame); button.disabled = true;
+          button.textContent = "Sample loaded · press play in the player";
+        };
+        el.appendChild(button);
+      } else {
+        const note = document.createElement("p"); note.textContent = "Watch on the official source page."; el.appendChild(note);
+      }
+    }
+    // The guide replaces the repetitive legacy blocks. Each optional detail is rendered only
+    // when authored; source dates describe access, never instructor approval or playback.
+    return () => {
+      const coverage = guide.coverage || {};
+      section("Coverage and limits", (body.overview ? "<p>" + E(body.overview) + "</p>" : "") +
+        bullets("Includes", coverage.includes) + bullets("Limits", coverage.limits), "data-system-coverage");
+      section("Sources", sources.map((x) => '<div data-system-source="' + E(x.id) + '"><h4>' + link(x.url, x.title) +
+        "</h4><p>" + E(String(x.kind || "").replace(/_/g, " ")) + (x.checked_on ? " · Checked " + E(x.checked_on) : "") + "</p>" +
+        (x.note ? "<p>" + E(x.note) + "</p>" : "") + (x.viewed_range ? "<p>Viewed: " + E(x.viewed_range) + "</p>" : "") + "</div>").join(""), "data-system-sources");
+    };
+  }
+  _renderSystemReferences(list, references) {
+    if (!Array.isArray(references) || !references.length) return;
+    const section = document.createElement("section"); section.className = "ng-system-guide";
+    section.setAttribute("data-system-references", "1"); section.innerHTML = "<h3>Related guides and principles</h3>";
+    for (const ref of references) {
+      let u, id;
+      try { u = new URL(ref.url, location.origin); id = decodeURIComponent(u.pathname).replace(/^\/|\/$/g, ""); } catch (e) { continue; }
+      if (!["https:", "http:"].includes(u.protocol) || !/^(Systems|Principles|Learning)\//i.test(id)) continue;
+      if (u.origin !== location.origin && u.hostname !== "bjjgraph.org") continue;
+      const a = document.createElement("a"); a.href = "/" + id; a.textContent = ref.name;
+      a.style.pointerEvents = "auto"; a.setAttribute("data-system-reference", id);
+      a.onclick = async (event) => {
+        event.stopPropagation(); // Quartz also delegates anchor clicks on window.
+        if (event.button || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        const owner = this._systemId;
+        const system = /^Systems\//i.test(id);
+        await (system ? this._ensureSystems() : this._ensureConcepts());
+        if (this._systemId !== owner) return;
+        const by = (system ? this._systemsById : this._conceptsById) || {};
+        const key = Object.keys(by).find((k) => k.toLowerCase() === id.toLowerCase());
+        if (key) { if (system) this.openSystem(key); else this.openConcept(key); }
+        else location.assign(a.href);
+      };
+      section.appendChild(a);
+      if (ref.relationship) { const p = document.createElement("p"); p.textContent = ref.relationship; section.appendChild(p); }
+    }
+    if (section.querySelector("a")) list.appendChild(section);
   }
   renderSystemDetail(list, id, mk) {
     const s = this._systemsById[id]; if (!s) return;
@@ -9167,87 +9314,73 @@ class Component extends DCLogic {
     card.setAttribute("aria-label", s.name + " system");
     const meta = [s.difficulty, s.type].filter(Boolean).map(E);
     meta.push(idxs.length + " lit on the graph");
-    card.innerHTML = "<h2>" + E(s.name) + '</h2><div class="ng-system-meta">' + meta.join(" \u00b7 ") + "</div>" + (s.summary ? "<p>" + E(s.summary) + "</p>" : "");
+    card.innerHTML = "<h2>" + E((systemBody && systemBody.guide && systemBody.guide.display_title) || s.display_title || s.name) + '</h2><div class="ng-system-meta">' + meta.join(" \u00b7 ") + "</div>" + (s.summary ? "<p>" + E(s.summary) + "</p>" : "");
+    const attribution = document.createElement("p"); attribution.setAttribute("data-system-attribution", "1");
+    attribution.textContent = "Independent guide by BJJGraph. Not authored or endorsed by the course instructor.";
+    card.insertBefore(attribution, card.children[1]);
+    const identity = (s.products || []).filter(Boolean).map((p) => [p.name, p.instructor].filter(Boolean).join(" — ")).join("; ");
+    if (identity) { const credit = document.createElement("p"); credit.textContent = "Course: " + identity; card.insertBefore(credit, attribution.nextSibling); }
     list.appendChild(card);
-    // Course CTA, ONLY for a system that carries an authored product: a placeholder or a guessed
-    // link here would be a dead promise to a reader who trusted the recommendation. The payload
-    // itself is already filtered to products whose URL was opened and confirmed
-    // (content/Systems/*.json link_status:"live" — see regenerate_neural_data._products); this
-    // shape check is the second belt, so a malformed entry renders nothing rather than a dead CTA.
-    const products = (Array.isArray(s.products) ? s.products : []).filter((p) => p && typeof p.url === "string" && /^https?:\/\//i.test(p.url));
-    const courseShelf = (placement) => {
-      if (!products.length) return null;
-      const shelf = document.createElement("div");
-      shelf.className = "ng-system-courses";
-      shelf.setAttribute("data-system-courses", "1");
-      shelf.setAttribute("data-course-placement", placement);
-      const selected = placement === "overview" ? products : products.slice(0, 1);
-      const labels = {
-        overview: "VIEW COURSE & SYLLABUS ON BJJ FANATICS",
-        sequence: "EXPLORE THE COURSE CONTENTS ON BJJ FANATICS",
-        practice: "CHECK SAMPLE & CURRENT PRICE ON BJJ FANATICS",
-      };
-      // PROXIMATE DISCLOSURE — legally required, and required HERE. FTC 16 CFR Part 255 and the
-      // UK ASA/CAP code both want it clear, conspicuous and CLOSE TO THE LINK; the site-wide
-      // statement in terms.md is the backstop, not the disclosure. It renders above the cards so
-      // someone who reads only the card still sees it, and it ships BEFORE the first real ref so
-      // a monetised link can never appear without it. Wording per docs/Affiliate.md.
-      const disc = document.createElement("p");
-      disc.className = "ng-system-disclosure";
-      disc.setAttribute("data-affiliate-disclosure", "1");
-      disc.textContent =
-        "BJJGraph earns a commission if you buy through this link, at no extra cost to you. " +
-        "It never changes what the graph teaches.";
-      shelf.appendChild(disc);
-      // The DISCLOSURE IS APPENDED FIRST, above every anchor in this shelf, on purpose: a
-      // monetised link then structurally cannot render without it. e2e/journeys/systems-surface
-      // asserts that order in the live DOM and scripts/check_affiliate_surface.py asserts it in
-      // this source \u2014 the compliance claim is gated, not merely intended.
-      selected.forEach((p, i) => {
-        const note = document.createElement("p");
-        note.className = "ng-system-course-note";
-        note.textContent = placement === "sequence" ? p.study_focus || "Choose the syllabus section that matches your training focus." :
-          placement === "practice" ? p.practice_tip || "Choose one idea to practise with your coach, then revisit the lesson." :
-          [p.blurb, p.best_for].filter(Boolean).join(" ");
-        if (note.textContent) shelf.insertBefore(note, disc);
-        const a = document.createElement("a");
-        a.className = "ng-system-cta";
-        a.setAttribute("data-system-cta", "1");
-        // Same funnel contract as the generated page (templates/Systems.md.jinja2): the app is the
-        // DEFAULT variant, so without these it is invisible to the documented affiliate funnel \u2014
-        // data-affiliate is what affiliateTracking.inline.ts delegates `affiliate_clickout` on,
-        // and the UTM convention is what separates app clicks from legacy-page clicks vendor-side.
-        a.setAttribute("data-affiliate", "true");
-        a.setAttribute("data-product-id", p.id || "");
-        a.setAttribute("data-system-slug", "systems/" + this.systemSlug(s));
-        a.setAttribute("data-system-name", s.name || "");
-        a.setAttribute("data-vendor", String(p.vendor || "bjjfanatics").toLowerCase());
-        a.setAttribute("data-position", String(i));
-        a.setAttribute("data-placement", placement);
-        a.href = this.affiliateHref(p.url, s, p);  // authored URL + utm only; never synthesized
-        a.target = "_blank";
-        a.rel = "sponsored nofollow noopener";     // byte-for-byte the page's rel
-        a.style.pointerEvents = "auto";
-        a.innerHTML = "<span><small>" + E(labels[placement]) + "</small><b>" + E(p.name || "See the course") + "</b>" +
-          (p.instructor ? "<em>" + E(p.instructor) + "</em>" : "") + '</span><i aria-hidden="true">\u2197</i>';
-        a.addEventListener("click", () => this.track("neural_system_course_clicked", { system: s.name, course: p.name || null, instructor: p.instructor || null, product_id: p.id || null, position: i, placement }));
-        shelf.appendChild(a);
-      });
-      return shelf;
-    };
-    const appendCourses = (placement) => {
-      const shelf = courseShelf(placement);
-      if (shelf) list.appendChild(shelf);
-    };
-    appendCourses("overview");
+    const guide = systemBody && systemBody.guide;
+    const finishGuide = guide ? this._renderSystemGuide(list, s, systemBody) : null;
+    if (!systemBody) {
+      const status = document.createElement("section"); status.className = "ng-system-guide";
+      status.setAttribute("data-system-loading", "1");
+      const exhausted = (window.NG_CONTENT && window.NG_CONTENT.decks || {})[s.key] === null && (this._docRetried || {})[s.key];
+      status.innerHTML = '<p role="status">' + (exhausted ? "Guide could not be loaded. Try again or open the reference page." : "Loading guide… Course and reference links remain available.") + '</p>';
+      if (exhausted) {
+        const retry = document.createElement("button"); retry.type = "button"; retry.textContent = "Retry guide";
+        retry.style.pointerEvents = "auto"; retry.setAttribute("data-system-retry", "1");
+        retry.onclick = () => {
+          delete (window.NG_CONTENT && window.NG_CONTENT.decks || {})[s.key];
+          delete (this._docRetried || {})[s.key]; delete (this._contentWaits || {})[s.key]; delete (this._contentFails || {})[s.key];
+          this.renderExplorer();
+        }; status.appendChild(retry);
+      }
+      const reference = document.createElement("a"); reference.href = "/" + s.id; reference.target = "_blank"; reference.rel = "noopener";
+      reference.textContent = "Open reference page ↗"; reference.style.pointerEvents = "auto"; status.appendChild(reference);
+      list.appendChild(status);
+    }
+    // One compact card, including on cold loads. A neutral reference never emits affiliate
+    // metadata or commission copy. Legacy placeholder queries are stripped, not activated.
+    const p = (Array.isArray(s.products) ? s.products : []).find((p) => p && this._systemCourse(p));
+    if (p) {
+      const course = this._systemCourse(p);
+      const shelf = document.createElement("div"); shelf.className = "ng-system-courses";
+      shelf.setAttribute("data-system-courses", "1"); shelf.setAttribute("data-course-placement", "overview");
+      const note = document.createElement("p"); note.className = "ng-system-course-note";
+      note.textContent = guide ? "" : [p.blurb, p.best_for, typeof p.notes === "string" ? p.notes : ""].filter(Boolean).join(" ");
+      if (note.textContent) shelf.appendChild(note);
+      if (course.active) {
+        const disc = document.createElement("p"); disc.className = "ng-system-disclosure";
+        disc.setAttribute("data-affiliate-disclosure", "1");
+        disc.textContent = "BJJGraph earns a commission if you buy through this link, at no extra cost to you. " +
+          "It never changes what the graph teaches.";
+        shelf.appendChild(disc);
+      }
+      const a = document.createElement("a"); a.className = "ng-system-cta"; a.setAttribute("data-system-cta", "1");
+      a.href = course.active ? this.affiliateHref(course.url, s, p) : course.canonical;
+      a.target = "_blank"; a.rel = course.active ? "sponsored nofollow noopener" : "noopener"; a.style.pointerEvents = "auto";
+      a.innerHTML = "<span><small>Course reference</small><b>" + E(p.name || "Official course") + "</b>" +
+        (p.instructor ? "<em>" + E(p.instructor) + "</em>" : "") + '</span><i aria-hidden="true">↗</i>';
+      if (course.active) {
+        for (const [k, v] of Object.entries({ affiliate: "true", "product-id": p.id || "", "system-slug": "systems/" + this.systemSlug(s),
+          "system-name": s.name || "", vendor: String(p.vendor || "bjjfanatics").toLowerCase(), position: "0", placement: "overview" })) a.setAttribute("data-" + k, v);
+        a.addEventListener("click", () => this.track("neural_system_course_clicked", { system: s.name, course: p.name || null,
+          instructor: p.instructor || null, product_id: p.id || null, position: 0, placement: "overview" }));
+      }
+      shelf.appendChild(a); list.appendChild(shelf);
+    }
+    if (finishGuide) finishGuide();
+    this._renderSystemReferences(list, systemBody && systemBody.references);
     // ── THE GLUE ── A system is not a node and not merely a set of nodes: it is the set plus the
     // reason they belong together. Two authored layers carry that and neither was ever surfaced:
     // `sequence` (the ordered narrative — do this, then this) and each member's `role` (what that
     // technique DOES here). Without them a selection is just a constellation lighting up.
     // New indexes defer the spine with the dossier; cached older indexes still carry it inline.
-    // Course shelves below remain available while the deferred body is loading or retrying.
-    const seq = Array.isArray(s.sequence) ? s.sequence :
-      (systemBody && Array.isArray(systemBody.sequence) ? systemBody.sequence : []);
+    // The compact course reference remains usable while the deferred body loads or retries.
+    const seq = guide ? [] : (Array.isArray(s.sequence) ? s.sequence :
+      (systemBody && Array.isArray(systemBody.sequence) ? systemBody.sequence : []));
     if (seq.length) {
       const spine = document.createElement("ol");
       spine.className = "ng-system-sequence";
@@ -9258,7 +9391,6 @@ class Component extends DCLogic {
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">How it runs</span>', 12));
       list.appendChild(spine);
     }
-    appendCourses("sequence");
     if (idxs.length) {
       // Derived progress, never self-reported: this app's canon is that mastery is recall-proven
       // (MC can never mint it), so a "mark as known" button would let a claim outrank the evidence.
@@ -9270,8 +9402,9 @@ class Component extends DCLogic {
       head.className = "ng-system-members-head";
       head.setAttribute("data-system-progress", proven + "/" + idxs.length);
       head.innerHTML =
-        '<span class="ng-system-kicker">In this system</span><b>' + proven + "/" + idxs.length + " recall-proven</b>";
+        '<span class="ng-system-kicker">Related technique cards</span><b>' + proven + "/" + idxs.length + " recall-proven</b>";
       list.appendChild(head);
+      list.appendChild(mk('<span class="ng-system-recall">Card recall is not evidence of practical mastery. Related techniques may not be taught in the course.</span>', 12));
       // ── ONE ROW PER AUTHORED REFERENCE ────────────────────────────────────────────────────
       // A System is not exhaustive on anything. The owner's rule, verbatim: "systems aren't
       // perfect perspectives. usually they cover some transitions, some positions, some
@@ -9370,27 +9503,14 @@ class Component extends DCLogic {
       drill.className = "ng-system-drill";
       drill.setAttribute("data-system-drill", "1");
       drill.style.pointerEvents = "auto";
-      drill.textContent = proven >= idxs.length ? "Review this system" : "Drill this system";
+      drill.textContent = "Review related technique cards";
       drill.addEventListener("click", () => {
         this.track("neural_system_drill_started", { system: s.name, nodes: idxs.length, proven: proven });
         this.openSession("system:" + s.id, s.name);
       });
       list.appendChild(drill);
     }
-    // ── THE SYSTEM'S OWN WORDS ── every System file carries an overview, its key principles, the
-    // components it is built out of, the obstacles and mistakes that stop people, how to train it
-    // and how to know it is working: ~20KB per system, 145,746 words across the 47, and until
-    // v1.155.3 the app read two fields of it (the summary and the sequence above). It rides the
-    // same on-demand chunk a node dossier does, so it costs the boot payload nothing and the panel
-    // draws it when it lands. The ordered spine hydrates with it; metadata, members, and course
-    // shelves remain available before the response arrives.
-    //
-    // LAST, not under the card, and that is a placement decision with a reason: a concept panel is
-    // a READ and opens with its prose, but a System panel is an ACT — light the members, drill
-    // them, buy the course — and the body is 12,396 chars on the first system alone. Putting it
-    // second would bury "Drill this system" about seven screens down, which is a regression
-    // dressed as content. The measured pane scroll height is 7,750px with the read at the end.
-    const doc = this._bodyDocHTML(systemBody, "System");
+    const doc = guide ? "" : this._bodyDocHTML(systemBody, "System");
     if (doc) {
       const sec = document.createElement("div");
       sec.className = "ng-doc-body";
@@ -9398,7 +9518,6 @@ class Component extends DCLogic {
       sec.innerHTML = doc;
       list.appendChild(sec);
     }
-    appendCourses("practice");
     const missing = (Array.isArray(s.unresolved) ? s.unresolved : []).length;
     if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " more technique" + (missing === 1 ? "" : "s") + " here aren\u2019t on the map yet</span>", 22));
   }
@@ -9595,6 +9714,7 @@ class Component extends DCLogic {
   // ---------- dossier: the technique page, living in the left pane ----------
   isMobile() { return (this.W || window.innerWidth) <= 640; }
   openDossier(idx, skipCam) {
+    this._stopSystemPreview();
     this._dropExpiryEvent(); // reading a node — the expiry sentence lets go (v1.138.0)
     const n = this.nodes && this.nodes[idx]; if (!n) return;
     if (this._pickEl) this.closeListPicker(); // the chooser's anchor is about to be re-rendered away

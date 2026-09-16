@@ -6,16 +6,15 @@
       "title": "Systematically Attacking The Guard",
       "instructor": "Gordon Ryan",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?rfsn=REPLACE_ME",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery.",
-      "best_for": "Passers who know individual passes but struggle to connect them against resistance.",
-      "study_focus": "Choose the section for the guard you encounter most often and compare its responses with this page’s sequence.",
-      "practice_tip": "Start each round in the same passing position. Track whether you cleared the legs and held the resulting pin, and where recovery began."
+      "link_checked": "2026-09-16",
+      "blurb": "Choose a starting guard problem within Gordon Ryan’s split-squat, half-guard and half-butterfly passing study.",
+      "best_for": "You meet different guards and need to locate the relevant section instead of studying passes in isolation.",
+      "study_focus": "Begin with Volume 1’s overview, then choose the chapter matching your recurring guard problem.",
+      "course_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan"
     }
   ],
-  "description": "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery. Explore the training sequence and course on BJJ Fanatics.",
+  "description": "A study companion to Gordon Ryan’s Systematically Attacking The Guard, with a guard-specific starting point and comparison to Bernardo Faria’s over/under focus.",
   "tags": [
     "bjj",
     "system",
@@ -27,428 +26,171 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Advanced",
-  "summary": "Passing becomes easier to study when you separate engagement, control and consolidation.",
-  "overview": "Passing becomes easier to study when you separate engagement, control and consolidation. This guide connects those decisions in a no-gi passing game: establish useful grips, respond to the guard player’s movement and hold the position after clearing the legs.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
-  "key_principles": [
-    "Pressure over speed - establish dominant control before initiating passing movements",
-    "Systematic removal of defensive frames through strategic grip placement and weight distribution",
-    "Body lock control as primary passing vehicle with multiple finish options",
-    "Leg drag sequences that eliminate guard retention mechanisms",
-    "Over-under pressure passes that compress opponent's defensive space",
-    "Transitional fluidity between passing systems based on defensive reactions",
-    "Grip dominance establishes passing opportunities - never pass without controlling grips first"
-  ],
-  "key_components": [
-    {
-      "component_name": "Body Lock Passing",
-      "description": "The cornerstone of Ryan's passing system, body lock passing involves securing a tight body lock around the opponent's torso while passing their legs to the side. This control eliminates most defensive options and allows for methodical pressure application. The body lock can be established from standing, from combat base, or from top position, making it a versatile entry point for multiple passing sequences.",
-      "purpose": "Primary passing vehicle that provides maximum control while minimizing counterattack opportunities"
-    },
-    {
-      "component_name": "Leg Drag System",
-      "description": "The leg drag series involves controlling the opponent's leg and dragging it across their body while advancing to side control or back exposure. Ryan's version emphasizes securing the near leg with both hands, using it as an anchor point while circling to advantageous positions. The system includes multiple entry points and finish variations depending on how the opponent defends, creating a comprehensive approach to leg-based passing.",
-      "purpose": "High-percentage passing option that creates immediate back exposure opportunities and eliminates guard retention"
-    },
-    {
-      "component_name": "Over-Under Pressure Pass",
-      "description": "This passing method involves driving one shoulder under the opponent's leg while controlling over their other leg, creating a crushing cross-face position. Ryan's application emphasizes walking the legs to the side while maintaining heavy shoulder pressure, eventually stacking the opponent and passing to side control. The over-under excels against opponents who attempt to maintain space or play open guard variations.",
-      "purpose": "Pressure-based passing option effective against space-creating guard players and larger opponents"
-    },
-    {
-      "component_name": "Headquarters Control",
-      "description": "Headquarters position serves as the central hub of Ryan's passing system, providing a stable platform from which multiple passing sequences can be launched. This position involves controlling the opponent's legs while maintaining a strong base and posture, preventing sweeps while setting up body locks, leg drags, or pressure passes. Mastery of headquarters transitions is essential for systematic guard passing.",
-      "purpose": "Strategic control position that provides safety while enabling multiple high-percentage passing entries"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Grip Establishment",
-      "description": "Begin every passing sequence by establishing dominant grips and removing opponent's primary defensive frames. Fight for collar ties, wrist control, or body lock grips before attempting to pass.",
-      "key_points": [
-        "Never initiate passing movements without grip dominance",
-        "Break opponent's frames systematically using posture and pressure",
-        "Establish grips that remove their ability to create distance",
-        "Control their head position to eliminate hip escape options"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Guard Type Recognition",
-      "description": "Identify the specific guard variation being played and select the appropriate passing system. Different guards require different approaches - butterfly guard requires different tactics than de la riva or half guard.",
-      "key_points": [
-        "Recognize primary guard retention mechanisms",
-        "Identify opponent's preferred defensive strategies",
-        "Select passing approach that neutralizes their strongest defensive tools",
-        "Adapt system based on guard transitions"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Pressure",
-      "description": "Apply strategic pressure to compress opponent's defensive space and limit their mobility. Use shoulder pressure, cross-face control, and strategic weight distribution to make their guard retention increasingly difficult.",
-      "key_points": [
-        "Drive shoulder pressure into their face or chest",
-        "Use body weight to compress their hips and legs",
-        "Eliminate space for hip escapes or re-guards",
-        "Maintain pressure throughout passing sequence"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "System Entry",
-      "description": "Enter the chosen passing system (body lock, leg drag, or over-under) based on opponent's guard structure and defensive reactions. Commit fully to the selected system while maintaining awareness of alternative options.",
-      "key_points": [
-        "Secure body lock or leg control with dominant grips",
-        "Establish stable base before initiating passing movements",
-        "Control opponent's upper body to prevent frames",
-        "Prepare backup passing options for defensive transitions"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Passing Completion",
-      "description": "Execute the pass by systematically moving through opponent's defensive layers while maintaining control. Progress from headquarters to passing position to consolidated side control or mount.",
-      "key_points": [
-        "Walk or pressure through their defensive frames",
-        "Maintain grip control throughout transition",
-        "Secure cross-face or head control before releasing legs",
-        "Consolidate position immediately after passing"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Position Consolidation",
-      "description": "After completing the pass, immediately establish dominant control in side control, mount, or back control. Prevent re-guard attempts by maintaining heavy pressure and controlling their hip mobility.",
-      "key_points": [
-        "Apply cross-face pressure immediately",
-        "Control far hip to prevent shrimping",
-        "Establish strong base in top position",
-        "Transition to submission attacks or positional advancement"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Opponent creates distance with strong frames and prevents body lock establishment",
-      "solution": "Use collar ties and wrist control to break frames systematically. Circle to angles where frames are weakest. Employ knee slice or headquarters position to neutralize distance creation before attempting body lock."
-    },
-    {
-      "obstacle": "Guard retention specialist maintains butterfly hooks or prevents leg control",
-      "solution": "Transition to over-under pressure pass or headquarters control. Focus on removing hooks through strategic weight distribution and shoulder pressure. Use cross-face to limit hip mobility before addressing legs."
-    },
-    {
-      "obstacle": "Opponent uses leg entanglement threats to prevent forward pressure",
-      "solution": "Maintain awareness of leg positioning and keep hips back when appropriate. Use leg drag sequences to clear entanglement threats. Establish body lock from distance before advancing through danger zones."
-    },
-    {
-      "obstacle": "Inability to finish passes against flexible opponents who maintain guard despite pressure",
-      "solution": "Increase stacking pressure and adjust angle of attack. Use leg drag variations that eliminate hip mobility. Chain multiple passing attempts together to fatigue defensive structures. Focus on removing one defensive layer at a time rather than forcing complete pass immediately."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Body Lock Control Proficiency",
-      "description": "Measures ability to establish and maintain body lock control across different guard types and against varying resistance levels",
-      "proficiency_indicators": [
-        "Can establish body lock from standing, combat base, and top positions within 30 seconds against resistance",
-        "Maintains body lock control through opponent's hip escapes and framing attempts",
-        "Successfully transitions from body lock to pass completion 70%+ of the time in training"
-      ]
-    },
-    {
-      "metric_name": "Leg Drag Execution Rate",
-      "description": "Evaluates success rate and technical precision when executing leg drag passing sequences",
-      "proficiency_indicators": [
-        "Completes leg drag to back exposure or side control 60%+ of attempts",
-        "Recognizes and capitalizes on leg drag opportunities from multiple guard types",
-        "Chains leg drag attempts together when initial attempt is defended"
-      ]
-    },
-    {
-      "metric_name": "Pressure Passing Effectiveness",
-      "description": "Assesses ability to apply strategic pressure that progressively breaks down opponent's guard retention",
-      "proficiency_indicators": [
-        "Opponent expresses fatigue from pressure within 2-3 minutes of engagement",
-        "Successfully prevents re-guard attempts 80%+ of the time after initial pass",
-        "Can pass guard of similarly skilled opponents without exposing back or risking submissions"
-      ]
-    },
-    {
-      "metric_name": "System Adaptability",
-      "description": "Measures fluidity in transitioning between different passing systems based on defensive reactions",
-      "proficiency_indicators": [
-        "Seamlessly switches between body lock, leg drag, and over-under based on opponent's defensive choices",
-        "Recognizes which passing system is most appropriate for specific guard types within seconds",
-        "Maintains offensive pressure throughout system transitions without resetting to neutral"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "Development of this passing system requires extensive positional drilling with progressive resistance. Begin with static drilling of individual components (body lock establishment, leg drag mechanics, pressure application) before combining them into flowing sequences. Training partners should provide graduated resistance levels, starting with passive cooperation for technical refinement and progressing to active defense that mimics competition scenarios. Emphasis should be placed on grip fighting drills, as grip dominance is fundamental to all passing sequences within this system. Drilling sessions should include specific scenarios for each guard type (butterfly, half, de la riva) to build pattern recognition and adaptive decision-making.",
-    "progression_path": [
-      {
-        "stage": "Technical Foundation",
-        "focus": "Master individual components - body lock mechanics, leg drag positioning, headquarters control. Develop muscle memory for basic movements without resistance.",
-        "timeframe": "Weeks 1-4"
-      },
-      {
-        "stage": "Controlled Application",
-        "focus": "Apply techniques against 50% resistance from cooperative partners. Focus on maintaining technical precision while managing defensive reactions. Begin chaining techniques together.",
-        "timeframe": "Weeks 5-12"
-      },
-      {
-        "stage": "Live Integration",
-        "focus": "Use passing system in positional sparring against full resistance. Identify weaknesses in execution and problem-solve defensive patterns. Develop timing and pressure sensitivity.",
-        "timeframe": "Weeks 13-24"
-      },
-      {
-        "stage": "Competition Refinement",
-        "focus": "Test system against high-level opponents and competition scenarios. Refine decision-making under fatigue and pressure. Develop backup plans for elite defensive strategies.",
-        "timeframe": "Months 6-12"
-      },
-      {
-        "stage": "Advanced Mastery",
-        "focus": "Seamlessly integrate all passing systems with automatic decision-making. Develop opponent-specific game plans. Achieve consistent success against similarly skilled opponents.",
-        "timeframe": "Year 2+"
-      }
-    ],
-    "common_mistakes": [
-      "Attempting to pass without establishing grip dominance first - always control grips before initiating passing movements",
-      "Using speed instead of pressure - this system requires patient application of control rather than explosive movements",
-      "Failing to consolidate position after passing - maintain pressure and control through the entire sequence",
-      "Neglecting leg entanglement awareness when pressuring forward - keep hips safe while maintaining offensive pressure",
-      "Abandoning system when initial attempt fails - chain multiple passing attempts together rather than resetting to neutral"
-    ]
-  },
+  "summary": "Choose a starting guard problem within Gordon Ryan’s split-squat, half-guard and half-butterfly passing study.",
+  "overview": "Systematically Attacking The Guard by Gordon Ryan spans several guard families. Its public outline helps you locate a problem before committing to the full series; later volumes list sparring and commentary for further study.",
   "related_content": [
     {
       "name": "Headquarters Position",
       "content_type": "Position",
-      "relationship": "Central hub position for initiating passing sequences and maintaining strategic control"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Common guard position requiring systematic pressure passing approach"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Body Lock Pass",
       "content_type": "Transition",
-      "relationship": "Primary passing technique within system - body lock establishment and completion"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Leg Drag Pass",
       "content_type": "Transition",
-      "relationship": "High-percentage passing option that creates back exposure opportunities"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Knee Slice Pass",
       "content_type": "Transition",
-      "relationship": "Alternative passing method used when body lock is defended"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Pressure Pass",
       "content_type": "Transition",
-      "relationship": "Fundamental passing approach emphasizing control over speed"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Long Step Pass",
       "content_type": "Transition",
-      "relationship": "Passing variation effective against butterfly and open guards"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Headquarters Pass",
       "content_type": "Transition",
-      "relationship": "Systematic passing sequence from headquarters control position"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Over-Under Pass",
       "content_type": "Transition",
-      "relationship": "Pressure-based passing method utilizing shoulder pressure and stacking"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Knee Cut Pass",
       "content_type": "Transition",
-      "relationship": "Dynamic passing option that complements pressure passing sequences"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Primary destination after successful pass completion"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Advanced position target after establishing passing dominance"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Pressure",
       "content_type": "Principle",
-      "relationship": "Core principle underlying entire passing system approach"
+      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
     },
     {
       "name": "Guard Passing",
       "content_type": "Principle",
-      "relationship": "Fundamental principles that inform all passing strategies"
+      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
     },
     {
       "name": "Forward Pressure",
       "content_type": "Principle",
-      "relationship": "Essential pressure application principle for maintaining offensive control"
+      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
     },
     {
       "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Strategy for managing connections and breaking opponent's defensive frames and grips"
+      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
     },
     {
       "name": "Control Point Hierarchy",
       "content_type": "Principle",
-      "relationship": "Understanding which control points to prioritize during passing sequences"
+      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
     },
     {
       "name": "Modern No-Gi Passing System",
       "content_type": "System",
-      "relationship": "Complementary no-gi passing framework with overlapping principles"
+      "relationship": "Compare broader guard coverage with focused body-lock, over/under and float-passing studies."
     },
     {
       "name": "Bernardo Faria Pressure System",
       "content_type": "System",
-      "relationship": "Alternative pressure-based passing system with different technical emphases"
+      "relationship": "Compare a narrower no-gi over/under entry and troubleshooting study."
     },
     {
       "name": "Danaher Leg Lock System",
       "content_type": "System",
-      "relationship": "Defensive awareness required when passing leg entanglement specialists"
+      "relationship": "Related study guide; its scope should be checked separately from this course."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What core concept distinguishes the Gordon Ryan Passing System from speed-based passing?",
-      "answer": "It treats guard passing as a control game rather than a speed game - establishing dominant grips and body lock control to strip frames before advancing, which minimizes the risk of sweeps and submissions.",
-      "answer_line": "Control game, not speed",
-      "distractors": {
-        "plausible": [
-          "Fast pass before recovery",
-          "Chain scrambles quickly"
-        ],
-        "trap": [
-          "Explode past the guard"
-        ]
-      }
+  "flashcards": [],
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Gordon Ryan: Choosing a Guard-Passing Route",
+    "audience": {
+      "fits": [
+        "You meet different guards and need to locate the relevant section instead of studying passes in isolation."
+      ],
+      "consider_alternative_if": [
+        "For a narrower over/under focus, compare Bernardo Faria’s No Gi Pressure Passing."
+      ]
     },
-    {
-      "question": "Why must grip dominance be established before initiating any passing movement in this system?",
-      "answer": "Grips remove the opponent's ability to create distance and re-frame; passing without grip control lets them recover guard, counter, or threaten leg entanglements, so grips always precede forward pressure.",
-      "answer_line": "Grips before pressure",
-      "distractors": {
-        "plausible": [
-          "Posture first, grips later",
-          "Attack legs before grips"
-        ],
-        "trap": [
-          "Rush the pass without grips"
-        ]
-      }
+    "coverage": {
+      "includes": [
+        "Split-squat entries, knee shields, half guard and half butterfly.",
+        "Body-lock variations, leg-entanglement positions and supine passing.",
+        "Separate rolling and rolling-commentary volumes."
+      ],
+      "limits": [
+        "This is a broad guard-passing course; sustained mount and side-control attacks are separate studies."
+      ]
     },
-    {
-      "question": "What role does the Headquarters position play within the system?",
-      "answer": "Headquarters is the central hub - a stable, sweep-resistant platform controlling the opponent's legs from which body locks, leg drags, and pressure passes can all be launched while posture and base are maintained.",
-      "answer_line": "Stable leg-control hub",
-      "distractors": {
-        "plausible": [
-          "Temporary transition point",
-          "Submission-first position"
-        ],
-        "trap": [
-          "Abandon base to attack legs"
-        ]
-      }
+    "start_here": {
+      "title": "Locate the guard that stalls your pass",
+      "kind": "observation",
+      "task": "On the free course outline, choose one guard you regularly encounter and record its volume and chapter. Compare its neighboring chapters: do they describe another guard, a defensive response, or a different pass? If you own the course, begin with the overview before that selected section.",
+      "source_ids": [
+        "ryan-guard"
+      ],
+      "section": "Volume 1: Guard Passing overview (5:35–8:24)."
     },
-    {
-      "question": "How does the body lock pass neutralize an opponent's defensive options?",
-      "answer": "Securing a tight body lock around the torso connects your hips to theirs, eliminating space for frames and hip escapes, after which walking the legs to one side methodically dismantles guard retention.",
-      "answer_line": "Body lock kills hip escapes",
-      "distractors": {
-        "plausible": [
-          "Grip belt then walk around",
-          "Underhook then sit back"
-        ],
-        "trap": [
-          "Release lock to speed up"
-        ]
+    "sources": [
+      {
+        "id": "ryan-guard",
+        "url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan",
+        "title": "Systematically Attacking The Guard by Gordon Ryan",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified course identity, eight-volume outline, split-squat/half-guard/half-butterfly framing, and rolling/commentary volumes. Listing inspected; trailer content not reviewed."
+      },
+      {
+        "id": "faria-pressure",
+        "url": "https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria",
+        "title": "No Gi Pressure Passing by Bernardo Faria",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified No Gi Pressure Passing by Bernardo Faria and its four-volume outline: over/under entries, troubleshooting and other pressure passes. Listing inspected; trailer content not reviewed."
       }
-    },
-    {
-      "question": "When is the over-under pressure pass the preferred passing choice?",
-      "answer": "It excels against space-creating open or butterfly guard players and larger opponents - driving a shoulder under one leg while controlling over the other stacks them and removes the room they need to retain guard.",
-      "answer_line": "Vs open/butterfly, bigger foes",
-      "distractors": {
-        "plausible": [
-          "Best vs closed guard",
-          "Only for smaller opponents"
-        ],
-        "trap": [
-          "Use vs deep half guard"
-        ]
-      }
-    },
-    {
-      "question": "What advantage does the leg drag offer compared to other passes in the system?",
-      "answer": "Dragging the near leg across the body breaks the opponent's hip alignment and creates immediate back-exposure opportunities while killing retention mechanics, making it a high-percentage entry to side control or the back.",
-      "answer_line": "Exposes back, kills retention",
-      "distractors": {
-        "plausible": [
-          "Slower but safer entry",
-          "Best for submissions directly"
-        ],
-        "trap": [
-          "Drag far leg across body"
-        ]
-      }
-    },
-    {
-      "question": "What is the most common mistake practitioners make when applying this pressure passing system?",
-      "answer": "Substituting speed for pressure - the system relies on patient, heavy control rather than explosive scrambles, and rushing surrenders grip dominance and lets a skilled guard player recover frames.",
-      "answer_line": "Rushing instead of pressure",
-      "distractors": {
-        "plausible": [
-          "Over-gripping single collar",
-          "Too much lateral movement"
-        ],
-        "trap": [
-          "Speed through every defense"
-        ]
-      }
-    },
-    {
-      "question": "How should you respond when an initial passing attempt is defended?",
-      "answer": "Chain into the next passing option rather than resetting to neutral - transition between body lock, leg drag, and over-under based on the defensive reaction to keep continuous pressure and fatigue the guard.",
-      "answer_line": "Chain to next pass option",
-      "distractors": {
-        "plausible": [
-          "Reset to neutral stance",
-          "Stand up and restart"
-        ],
-        "trap": [
-          "Abandon grips, retreat"
-        ]
-      }
-    },
-    {
-      "question": "Why is leg entanglement awareness critical when pressuring forward in no-gi?",
-      "answer": "Elite guard players threaten ashi garami and other entanglements to stop forward pressure; keeping the hips back when appropriate and clearing the legs with leg drags lets you advance through danger zones safely.",
-      "answer_line": "Clear legs, avoid entanglement",
-      "distractors": {
-        "plausible": [
-          "Ignore legs, push forward",
-          "Sit back immediately always"
-        ],
-        "trap": [
-          "Chase the ashi garami"
-        ]
-      }
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/c3917e87-3df1-4642-82b5-f93bdaec2f04?autoplay=false&muted=false&preload=false&responsive=true",
+      "source_id": "ryan-guard",
+      "title": "Official trailer — Gordon Ryan / Systematically Attacking The Guard",
+      "kind": "trailer",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org",
+        "https://dev.bjjgraph.pages.dev"
+      ]
     }
-  ]
+  }
 }

@@ -1,482 +1,166 @@
 
-
-
-
 ---
-title: "Danaher Front Headlock System | BJJ System | BJJ Graph"
-description: "A focused companion for linking front headlock control with guillotine, darce and anaconda attacks. Explore the training sequence and course on BJJ Fanatics."
+title: "John Danaher: Front Headlock Decisions | BJJGraph"
+description: "Navigate John Danaher’s The Front Headlock System by starting context and by control, submission or positional objective, with exact published lesson labels."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Danaher Front Headlock System",
-  "description": "Step-by-step implementation sequence for Danaher Front Headlock System.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Entry and Initial Control",
-      "text": "Secure front headlock position through snap down, sprawl, or turtle attack. Establish head control first, then secure arm control. Immediate chest pressure prevents opponent from standing or recovering guard.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Consolidation and Assessment",
-      "text": "Stabilize control position and assess opponent's defensive configuration. Identify which arm is trapped or accessible, opponent's hand positioning relative to neck defense, and their hip position. This assessment determines which offensive pathway to pursue first.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Primary Attack Selection",
-      "text": "Choose initial attack based on opponent's defensive configuration. If opponent's near arm is exposed, pursue anaconda or darce. If neck is exposed with hands away, pursue guillotine. If structure is strong, focus on breaking mechanics before attacking.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Fork Attacks and Chaining",
-      "text": "As opponent defends primary attack, transition to secondary attack that exploits their defensive positioning. Guillotine defense opens anaconda/darce; choke defense opens back exposure. Each defensive choice leads to new offensive opportunity.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Finish or Advance Position",
-      "text": "Complete submission if opponent's defense is broken, or advance to back control/crucifix if choke defenses remain strong. Back exposure provides point-scoring opportunities and access to rear naked choke or subsequent submission attempts.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Reset and Re-Entry",
-      "text": "If opponent escapes or neutralizes position, immediately work to re-establish front headlock control or transition to alternative dominant positions. Use opponent's escape movements as entry opportunities for guard pulls, takedowns, or alternate top positions.",
-      "position": 6
-    }
-  ]
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Danaher Front Headlock System",
-  "description": "A focused companion for linking front headlock control with guillotine, darce and anaconda attacks. Explore the training sequence and course on BJJ Fanatics.",
-  "url": "https://bjjgraph.org/Systems/Danaher-Front-Headlock-System",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Danaher Front Headlock System", "item": "https://bjjgraph.org/Systems/Danaher-Front-Headlock-System"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Opponent establishes strong defensive frame with hands protecting neck and preventing arm control?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use crossface and shoulder pressure to break down defensive structure first. Circle toward trapped arm side while maintaining head control, forcing opponent to choose between defending neck or preventing arm isolation. Transition to back exposure if frames remain strong."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Opponent successfully escapes hips backward and recovers guard or standing position?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintain head control throughout escape attempt and transition to standing front headlock or snap down sequences. If guard is recovered, immediately pursue guard passing with front headlock grip advantages. Prevention requires keeping hips low and chest heavy during initial control consolidation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Unable to finish guillotine choke despite good control position?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Assess whether opponent has inside hand position preventing proper choke depth. If so, transition to arm-in guillotine or abandon for anaconda/darce pathway. Ensure proper hip positioning - pulling guard, going to mount, or staying on top all affect finishing mechanics differently."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Opponent tucks near arm tightly to body, preventing anaconda/darce entry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use crossface pressure and circle toward far side to extend near arm away from body. Alternative: transition to guillotine pathway or use trapped arm position to set up back exposure through spiral mechanics. Don't force arm isolation against extremely strong defensive structure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Losing control position during transition between submission attempts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintain primary control points (head control and chest pressure) as non-negotiable throughout all transitions. Practice transitional movements slowly until mechanics become automatic. Film training to identify specific moments where control is lost and address systematic weaknesses."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: System becomes predictable against familiar training partners?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Develop secondary and tertiary attacks within each pathway. Vary entry timing and methods. Practice finishing from both top and bottom positions. Study opponent's defensive patterns and create counter-sequences for their specific defensive tendencies."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Danaher Front Headlock System",
-  "description": "The front headlock offers several paths, but chasing a choke can cost the position.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"John Danaher: Front Headlock Decisions","description":"Navigate John Danaher’s The Front Headlock System by starting context and by control, submission or positional objective, with exact published lesson labels."}
 </script>
-
-
-
-<div class="principle-meta">
-<span class="meta-chip">Control System</span>
-<span class="meta-chip">Advanced difficulty</span>
-</div>
-
-
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
-
+<main class="content-wrapper" data-system-guide>
+<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: The Front Headlock System by John Danaher.</p>
 <section id="overview" class="content-section">
 
-## What is Danaher Front Headlock System?
+## John Danaher: Front Headlock Decisions
 
-**The front headlock offers several paths, but chasing a choke can cost the position.**
+**Distinguish control, strangles and go-behind options across Danaher’s standing, kneeling, seated and passing front-headlock material.**
 
-The front headlock offers several paths, but chasing a choke can cost the position. Start with head and shoulder control, recognize how the opponent turns, and choose between a strangle and a route behind them.
 
-Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
+The Front Headlock System by John Danaher is not confined to a single choke. Its outline separates entries and positional contexts, then includes guillotine, anaconda, darce and go-behind material. Choose the context of your question before choosing a finish.
+
+</section>
+
+<section id="fit" class="content-section">
+
+## Is this useful for you?
+
+- You default to a guillotine whenever you reach the head and need to investigate the course’s positional alternatives.
+
+
+### Consider an alternative if
+
+- If the recurring problem is keeping an opponent down from turtle after an entry, compare Craig Jones’s Power Ride.
+
+
+</section>
+<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
+<section id="start-here" class="content-section">
+
+## Start here: Separate the positional question from the finishing question
+
+In the public outline, compare Control vs Submission with Volume 5’s go-behind entries. Write down whether your current problem is reaching the headlock, retaining it, or selecting what comes next. Use that distinction to choose between the entry, control and attack sections; do not infer a mandatory choke-to-back sequence from their order.
+
+Published section: Volume 1: Control vs Submission (24:52–27:42).
+
+
+
+<p>Source: <a href="https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher" target="_blank" rel="noopener">The Front Headlock System by John Danaher</a></p>
 
 </section>
 
 
+<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/a0db0855-0668-4056-934d-95606522065f?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — John Danaher / The Front Headlock System">
+<h2>Official sample — John Danaher / The Front Headlock System</h2>
+<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
+<button type="button" data-load-preview hidden>Load official sample</button>
+<div data-preview-player></div>
+<p><a href="https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher" target="_blank" rel="noopener">Watch on the official page: The Front Headlock System by John Danaher</a></p>
+</section>
 
 
 
+<section id="unlock-this-system" class="content-section product-cards" data-course-container>
+<h2>Course reference</h2>
 
+<article class="product-card">
+<h3>The Front Headlock System</h3>
+<p>By John Danaher</p>
 
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="the-front-headlock-system-by-john-danaher">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">The Front Headlock System</h3>
-<p class="product-card__instructor">with John Danaher</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> No-gi students who want a plan after a snapdown or defended takedown.</p>
-<p class="product-card__blurb">A focused companion for linking front headlock control with guillotine, darce and anaconda attacks.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=danaher-front-headlock-system&utm_term=the-front-headlock-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-front-headlock-system-by-john-danaher" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+<p><a href="https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher" data-product-id="the-front-headlock-system-by-john-danaher" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
 </article>
 
-</div>
-
 </section>
 
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+<span id="key-principles"></span><span id="key-components"></span>
+<section id="coverage" class="content-section">
 
-## Unlock this part of the graph
+## What the sources cover
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+- Standing entries, kneeling attacks and seated front-headlock sections.
+- Guillotine, anaconda and darce topics.
+- Go-behind options and a separate guard-passing volume.
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
 
-<ul class="system-members" data-system-members></ul>
+### Limits
 
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Head and arm control establishes dominant leverage over opponent's upper body movement and posture
-- Breaking down opponent's defensive structure through systematic shoulder pressure and cross-face control
-- Creating submission dilemmas where defensive responses to one attack open pathways to others
-- Maintaining forward pressure to prevent opponent escape while transitioning between attacks
-- Using spiral mechanics to transition from front headlock to back control when choke finishes are defended
-- Controlling distance to prevent opponent from establishing defensive frames or re-establishing base
-- Recognizing entry opportunities from snap downs, sprawls, turtle, and failed guard pull attempts
-
+- Front-headlock exchanges define the scope; this is not a general guard-passing survey or a complete turtle-riding curriculum.
 
 </section>
-
-<section id="key-components" class="content-section">
-
-## Key Components
-**Front Headlock Control Position** (Establish positional dominance that limits opponent's defensive options while providing multiple offensive pathways)
-The foundational control position establishes dominance through head and arm control with chest-to-back pressure. The position features multiple grip variations including the chinstrap, Russian tie, and arm-in configurations, each optimized for different finishing sequences. Proper weight distribution keeps opponent flattened while maintaining mobility for transitions.
-
-**Entry System** (Create reliable pathways to front headlock control from common competitive scenarios and opponent actions)
-Multiple systematic entries from standing positions (snap downs, sprawls), ground positions (turtle attacks, scrambles), and failed guard pulls. Each entry emphasizes immediate head control followed by arm control, preventing opponent from escaping the front headlock trap. Entries are categorized by opponent's starting position and movement patterns.
-
-**Guillotine Pathway** (Provide high-percentage choke finishes that work across multiple opponent defensive strategies)
-The guillotine family includes arm-in guillotine, high-elbow guillotine, chin strap variations, and ten-finger guillotine. Each variation targets specific defensive reactions and body positions. The system teaches clear decision points for choosing between pulling guard, maintaining top position, or transitioning to anaconda/darce attacks based on opponent's hand fighting and posture.
-
-**Anaconda/Darce Pathway** (Exploit opponent's attempts to defend guillotine attacks by transitioning to shoulder-lock based chokes)
-The shoulder lock choke family emphasizes trapping opponent's near arm while feeding the choking arm through to the opposite side. The system distinguishes between anaconda (same-side arm trapped) and darce (opposite-side arm trapped) based on opponent's defensive positioning. Both utilize similar finishing mechanics with shoulder pressure and spiral movement to complete the choke.
-
-**Back Exposure System** (Convert defensive success against chokes into back exposure opportunities and point-scoring positions)
-When opponents successfully defend choke attempts by fighting hands and maintaining strong neck defense, the system transitions to back exposure sequences. This includes spiral rides to back control, truck entries, and crucifix positions. The key principle is using opponent's choke defense (elbows tight, hands fighting) against them by redirecting pressure toward back control.
-
-**Structure Breaking Mechanics** (Systematically eliminate opponent's defensive structures to expose finishing opportunities)
-Systematic methods for dismantling opponent's defensive posture including crossface pressure, shoulder pressure application, and spiral movement patterns. These mechanics prevent opponent from establishing frames, recovering guard, or escaping to standing. Each breaking method corresponds to specific defensive reactions.
-
-
-
-</section>
-
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Entry and Initial Control**: Secure front headlock position through snap down, sprawl, or turtle attack. Establish head control first, then secure arm control. Immediate chest pressure prevents opponent from standing or recovering guard.
-Key points:
-- Head control takes priority - secure before pursuing arm control
-- Keep hips low and chest heavy to prevent opponent from standing
-- Establish crossface or chinstrap grip based on opponent's head position
-- Monitor opponent's far arm to prevent underhook establishment
-
-
-
-2. **Consolidation and Assessment**: Stabilize control position and assess opponent's defensive configuration. Identify which arm is trapped or accessible, opponent's hand positioning relative to neck defense, and their hip position. This assessment determines which offensive pathway to pursue first.
-Key points:
-- Maintain forward pressure while consolidating position
-- Identify whether opponent has inside or outside hand position
-- Assess opponent's neck defense strength and hand fighting
-- Position body perpendicular to opponent's shoulders for maximum control
-
-
-
-3. **Primary Attack Selection**: Choose initial attack based on opponent's defensive configuration. If opponent's near arm is exposed, pursue anaconda or darce. If neck is exposed with hands away, pursue guillotine. If structure is strong, focus on breaking mechanics before attacking.
-Key points:
-- Don't force attacks against strong defensive structures
-- Use opponent's defensive focus to identify exposed areas
-- Maintain control throughout attack initiation
-- Be prepared to chain to secondary attacks based on defensive reactions
-
-
-
-4. **Fork Attacks and Chaining**: As opponent defends primary attack, transition to secondary attack that exploits their defensive positioning. Guillotine defense opens anaconda/darce; choke defense opens back exposure. Each defensive choice leads to new offensive opportunity.
-Key points:
-- Recognize defensive patterns that signal transition opportunities
-- Maintain primary control points during transitions
-- Use spiral mechanics to maintain pressure through transitions
-- Don't abandon control to pursue low-percentage finishing attempts
-
-
-
-5. **Finish or Advance Position**: Complete submission if opponent's defense is broken, or advance to back control/crucifix if choke defenses remain strong. Back exposure provides point-scoring opportunities and access to rear naked choke or subsequent submission attempts.
-Key points:
-- Finish with controlled pressure - don't rush or muscle submissions
-- If back is exposed, prioritize seat belt control over immediate submissions
-- Crucifix and truck positions provide additional submission opportunities
-- Maintain offensive pressure even when transitioning between positions
-
-
-
-6. **Reset and Re-Entry**: If opponent escapes or neutralizes position, immediately work to re-establish front headlock control or transition to alternative dominant positions. Use opponent's escape movements as entry opportunities for guard pulls, takedowns, or alternate top positions.
-Key points:
-- Never concede neutral position - transition to next offensive opportunity
-- Use failed submissions as setups for position advancement
-- Maintain attacking mindset throughout position transitions
-- Study escape patterns to improve future front headlock retention
-
-
-
-
-
-</section>
-
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Compare the control and strangle sections with the attack choices in this system.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=danaher-front-headlock-system&utm_term=the-front-headlock-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-front-headlock-system-by-john-danaher" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Front Headlock System &rarr;</a></p>
-</section>
-
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **Opponent establishes strong defensive frame with hands protecting neck and preventing arm control**: Use crossface and shoulder pressure to break down defensive structure first. Circle toward trapped arm side while maintaining head control, forcing opponent to choose between defending neck or preventing arm isolation. Transition to back exposure if frames remain strong.
-- **Opponent successfully escapes hips backward and recovers guard or standing position**: Maintain head control throughout escape attempt and transition to standing front headlock or snap down sequences. If guard is recovered, immediately pursue guard passing with front headlock grip advantages. Prevention requires keeping hips low and chest heavy during initial control consolidation.
-- **Unable to finish guillotine choke despite good control position**: Assess whether opponent has inside hand position preventing proper choke depth. If so, transition to arm-in guillotine or abandon for anaconda/darce pathway. Ensure proper hip positioning - pulling guard, going to mount, or staying on top all affect finishing mechanics differently.
-- **Opponent tucks near arm tightly to body, preventing anaconda/darce entry**: Use crossface pressure and circle toward far side to extend near arm away from body. Alternative: transition to guillotine pathway or use trapped arm position to set up back exposure through spiral mechanics. Don't force arm isolation against extremely strong defensive structure.
-- **Losing control position during transition between submission attempts**: Maintain primary control points (head control and chest pressure) as non-negotiable throughout all transitions. Practice transitional movements slowly until mechanics become automatic. Film training to identify specific moments where control is lost and address systematic weaknesses.
-- **System becomes predictable against familiar training partners**: Develop secondary and tertiary attacks within each pathway. Vary entry timing and methods. Practice finishing from both top and bottom positions. Study opponent's defensive patterns and create counter-sequences for their specific defensive tendencies.
-
-
-</section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Entry Success Rate**: Percentage of successful front headlock entries from various positions during live training and competition. Tracks ability to recognize and capitalize on entry opportunities.
-Proficiency indicators:
-- Beginner: Successfully enters front headlock 20-30% of available opportunities, primarily from obvious positions like sprawls
-- Intermediate: 40-50% success rate with entries from multiple positions including turtle and scrambles
-- Advanced: 60%+ success rate with entries from standing, ground, and transition positions including guard pull counters
-- Expert: 70%+ success with ability to create entry opportunities rather than waiting for opponent errors
-
-
-**Submission Completion Rate**: Percentage of front headlock positions that result in successful submissions. Reflects finishing ability and attack selection.
-Proficiency indicators:
-- Beginner: 10-20% submission rate from front headlock positions, primarily guillotine attempts
-- Intermediate: 25-35% with successful execution of guillotine and anaconda/darce pathways
-- Advanced: 40-50% with systematic chaining between attack families based on defensive reactions
-- Expert: 50%+ submission rate or advancement to back control on remaining attempts
-
-
-**Position Retention Duration**: Average time maintaining front headlock control before submission, advancement, or loss of position. Indicates control quality and ability to work attacks methodically.
-Proficiency indicators:
-- Beginner: Maintains control 15-30 seconds before position loss or rushed submission attempt
-- Intermediate: 30-60 seconds with systematic work through attack sequences
-- Advanced: 60-120 seconds with ability to reset and maintain pressure through multiple defensive cycles
-- Expert: Maintains control indefinitely or until submission/position advancement, rarely losing position
-
-
-**Attack Pathway Diversity**: Number of different finishing pathways successfully executed from front headlock. Measures systematic completeness and adaptability.
-Proficiency indicators:
-- Beginner: Primarily uses 1-2 attacks, typically guillotine variations only
-- Intermediate: Successfully executes 3-4 attacks across guillotine and anaconda/darce families
-- Advanced: Uses 5-6+ attacks including back exposure sequences and position-specific variations
-- Expert: Seamlessly chains through all attack families based on opponent reactions, rarely forced into predictable patterns
-
-
-**Defensive Adaptation Recognition**: Ability to recognize opponent defensive patterns and select appropriate counter-attacks. Reflects systematic understanding and decision-making quality.
-Proficiency indicators:
-- Beginner: Continues attempting same attack regardless of defensive success, limited pattern recognition
-- Intermediate: Recognizes obvious defensive patterns and transitions to alternate attacks with prompting
-- Advanced: Independently identifies defensive patterns and selects appropriate counter-sequences in real-time
-- Expert: Anticipates defensive reactions and sets up counter-attacks before defenses fully develop
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-The front headlock system requires layered drilling that progressively builds from isolated mechanics to full integration. Begin with static position drilling focusing on proper grip configurations, weight distribution, and body positioning. Progress to cooperative flow drilling where partners alternate between attack sequences and defensive reactions, allowing both practitioners to internalize the system's decision trees. Finally, incorporate positional sparring with specific entry and objective conditions, such as starting from turtle or emphasizing specific submission pathways. Drilling sessions should allocate time across all three finishing pathways (guillotine, anaconda/darce, back exposure) to prevent over-specialization. Film drilling sessions to identify technical deficiencies and compare execution against high-level examples from Danaher instructionals and competition footage.
-
-### Progression Path
-**Foundation Building** (Focus: Master fundamental control positions, basic entries from sprawl and turtle, and single-pathway attacks (guillotine only). Develop sensitivity to opponent's weight distribution and defensive structures.) - Months 1-3
-**Attack Expansion** (Focus: Add anaconda and darce pathways. Learn basic transitions between guillotine and shoulder-lock attacks. Practice entries from standing positions and scrambles. Begin recognizing defensive patterns.) - Months 4-6
-**Systematic Integration** (Focus: Develop complete attack chains linking all three pathways. Introduce back exposure sequences. Practice against increasingly sophisticated defenses. Begin using system in live sparring with progressive resistance.) - Months 7-12
-**Competition Application** (Focus: Refine entries to work against elite-level defensive awareness. Develop personal variations based on body type and athletic attributes. Use system as primary offensive weapon in competition scenarios. Study film to identify systematic weaknesses.) - Months 13-24
-**Mastery and Innovation** (Focus: Create opponent-specific attack sequences based on defensive tendencies. Develop coaching ability to teach system to others. Innovate personal variations while maintaining systematic principles. Use system as framework for developing related control systems.) - Years 3+
-
-
-### Common Mistakes
-- Rushing to submission attempts before establishing proper control and breaking opponent's defensive structure
-- Over-relying on single attack pathway (typically guillotine) instead of developing complete systematic approach
-- Failing to maintain head control as non-negotiable throughout all transitions and attack sequences
-- Using excessive upper body strength instead of proper weight distribution and leverage mechanics
-- Abandoning position prematurely when submission attempts fail rather than chaining to secondary attacks
-- Neglecting entry development and only working attacks from established positions
-- Poor distance management allowing opponent to establish defensive frames or recover guard
-- Forcing low-percentage attacks against strong defensive configurations instead of transitioning to better opportunities
-
-
+<section id="sources" class="content-section">
+<h2>Sources and evidence</h2>
+<p><a href="https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher" target="_blank" rel="noopener">The Front Headlock System by John Danaher</a> — official listing; checked 2026-09-16. Verified title, John Danaher attribution and eight-volume outline covering standing, kneeling, seated and passing contexts. The page labels an embedded sample; sample content not reviewed.</p><p><a href="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" target="_blank" rel="noopener">Power Ride: A New Philosophy on Pinning by Craig Jones</a> — official listing; checked 2026-09-16. Verified title, Craig Jones attribution and six-volume outline separating leg control, upper-body tools, turtle, entries and submissions. Official page labels an embedded free sample; sample content not reviewed.</p>
 </section>
 
 <section id="related-content" class="content-section">
 
-## Which Positions, Transitions, and Principles Connect to This System?
+## Related references and alternatives
 
-- [[Positions/Front Headlock|Front Headlock]] (Position) - Primary control position for entire system
-- [[Positions/Guillotine Control|Guillotine Control]] (Position) - Key position state within guillotine attack pathway
-- [[Positions/Anaconda Control|Anaconda Control]] (Position) - Control position for anaconda choke pathway
-- [[Positions/Darce Control|Darce Control]] (Position) - Control position for darce choke pathway
-- [[Positions/Back Control|Back Control]] (Position) - Target position for back exposure pathway when chokes are defended
-- [[Positions/Turtle|Turtle]] (Position) - Common entry position for front headlock attacks from top
-- [[Positions/Crucifix|Crucifix]] (Position) - Alternative finishing position from front headlock spiral mechanics
-- [[Positions/Twister Control/Truck|Truck]] (Position) - Advanced back exposure position accessible from front headlock spiral
-- [[Positions/Standing Position|Standing Position]] (Position) - Starting position for snap down and sprawl entries
-- [[Positions/Combat Base|Combat Base]] (Position) - Defensive posture opponent may use against front headlock attacks
-- [[Positions/Gift Wrap|Gift Wrap]] (Position) - Back control variation accessible from front headlock spiral sequences
-- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition) - Primary standing entry to front headlock system
-- [[Transitions/Sprawl|Sprawl]] (Transition) - Defensive entry to front headlock from takedown attempts
-- [[Transitions/Anaconda Setup|Anaconda Setup]] (Transition) - Setup mechanics for anaconda pathway entry
-- [[Transitions/Darce Setup|Darce Setup]] (Transition) - Setup mechanics for darce pathway entry
-- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition) - Setup mechanics for guillotine pathway entry
-- [[Transitions/Turtle to Back Take|Turtle to Back Take]] (Transition) - Back exposure sequence from turtle via front headlock control
-- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) - Primary finishing technique in guillotine pathway
-- [[Submissions/Arm in Guillotine|Arm in Guillotine]] (Submission) - High-percentage guillotine variation with trapped arm
-- [[Submissions/High Elbow Guillotine|High Elbow Guillotine]] (Submission) - Power guillotine variation using elbow elevation mechanics
-- [[Submissions/Chin Strap Guillotine/from Front Headlock|Chin Strap Guillotine from Front Headlock]] (Submission) - Guillotine variation using chinstrap grip configuration
-- [[Submissions/Ten Finger Guillotine|Ten Finger Guillotine]] (Submission) - Guillotine variation with both hands clasped grip
-- [[Transitions/Anaconda Choke|Anaconda Choke]] (Submission) - Primary finishing technique in anaconda pathway
-- [[Submissions/Darce Choke|Darce Choke]] (Submission) - Primary finishing technique in darce pathway
-- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Finishing technique from back control after successful back exposure
-- [[Principles/Head Position|Head Position]] (Principle) - Fundamental principle underlying all front headlock control mechanics
-- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Core principle for retaining dominant position throughout attack sequences
-- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Guides decision-making about when to pursue submissions vs position advancement
-- [[Principles/Position Chains|Position Chains]] (Principle) - Principle of linking attacks to create continuous offensive pressure
-- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Core principle where every defensive choice leads to new offensive opportunity
 
+<p><a href="/Principles/Head-Position">Head Position</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Position-Chains">Position Chains</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Systems/Craig-Jones-Riding-Control-System">Craig Jones Riding Control System</a> (System) — Compare front-headlock decisions with a dedicated study of riding and turtle control.</p>
+
+
+### Review related technique cards
+
+These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
+
+
+- [[Positions/Front Headlock|Front Headlock]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Guillotine Control|Guillotine Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Anaconda Control|Anaconda Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Darce Control|Darce Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Back Control|Back Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Turtle|Turtle]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Crucifix|Crucifix]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Twister Control/Truck|Truck]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Standing Position|Standing Position]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Combat Base|Combat Base]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Gift Wrap|Gift Wrap]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+
+- [[Transitions/Sprawl|Sprawl]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+
+- [[Transitions/Anaconda Setup|Anaconda Setup]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+
+- [[Transitions/Darce Setup|Darce Setup]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+
+- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+
+- [[Transitions/Turtle to Back Take|Turtle to Back Take]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
+
+- [[Submissions/Arm in Guillotine|Arm in Guillotine]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
+
+- [[Submissions/High Elbow Guillotine|High Elbow Guillotine]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
+
+- [[Submissions/Chin Strap Guillotine/from Front Headlock|Chin Strap Guillotine from Front Headlock]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
+
+- [[Submissions/Ten Finger Guillotine|Ten Finger Guillotine]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
+
+- [[Transitions/Anaconda Choke|Anaconda Choke]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
+
+- [[Submissions/Darce Choke|Darce Choke]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
+
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
 
 </section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>Choose one front headlock entry and one response to your partner circling away. Practise the transition before adding a finish.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=danaher-front-headlock-system&utm_term=the-front-headlock-system-by-john-danaher" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-front-headlock-system-by-john-danaher" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Front Headlock System &rarr;</a></p>
-</section>
-
-
-
 </main>

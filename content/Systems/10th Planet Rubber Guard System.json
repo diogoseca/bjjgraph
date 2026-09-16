@@ -1,6 +1,5 @@
 {
   "name": "10th Planet Rubber Guard System",
-  "description": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -13,493 +12,226 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Advanced",
-  "summary": "Rubber guard uses a high leg position and upper-body connection to manage posture and create attacks.",
-  "overview": "Rubber guard uses a high leg position and upper-body connection to manage posture and create attacks. This guide maps the main controls and branches so you can choose one route to practise within a comfortable range of motion.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
-  "key_principles": [
-    "Use leg flexibility to replace traditional gi grips in no-gi scenarios",
-    "Break and maintain broken posture through leg-based controls",
-    "Create submission chains where defensive responses open new attacks",
-    "Progress through named control positions as checkpoints in the system",
-    "Combine high guard retention with offensive threat creation",
-    "Utilize opponent's defensive reactions to advance position",
-    "Maintain constant offensive pressure to prevent posture recovery"
-  ],
-  "key_components": [
-    {
-      "component_name": "Mission Control",
-      "description": "The foundational control position where your shin is across the opponent's back with your foot hooked behind their head, breaking their posture forward. This position allows you to control their upper body while freeing both hands to attack or establish further controls. From Mission Control, you can transition to various submission attacks or advance to tighter control positions like New York.",
-      "purpose": "Establish primary control and posture break"
-    },
-    {
-      "component_name": "New York",
-      "description": "An advanced control position reached from Mission Control by grabbing your own shin or ankle, creating an extremely tight lock that prevents the opponent from posturing up. This position significantly limits the opponent's ability to escape while opening pathways to submissions like the Gogoplata and transitions to the back. The tight control of New York makes it one of the highest percentage positions in the system.",
-      "purpose": "Create maximum control and submission opportunity"
-    },
-    {
-      "component_name": "Chill Dog",
-      "description": "A control position that serves as a gateway to various submissions, particularly triangles and armbars. In Chill Dog, you maintain the high guard position while controlling the opponent's arm across their body, creating angles for attacks. This position excels at creating submission dilemmas where defending one attack opens another.",
-      "purpose": "Set up triangle and armbar submissions"
-    },
-    {
-      "component_name": "Meathook",
-      "description": "A transitional control where your leg hooks deeply behind the opponent's head while you control their arm, setting up the path to various submissions including the Omoplata and Triangle. The Meathook position is characterized by deep hip control and arm isolation, making it particularly effective against opponents trying to defend submission attempts from other Rubber Guard positions.",
-      "purpose": "Transition platform for multiple submission paths"
-    },
-    {
-      "component_name": "Invisible Collar",
-      "description": "A control position that mimics traditional gi collar control using your shin pressed against the opponent's neck and shoulder. This creates similar control effects to a collar grip without requiring fabric, making it ideal for no-gi applications. The Invisible Collar position maintains posture break while allowing hand freedom for attacks or additional controls.",
-      "purpose": "No-gi substitute for collar control mechanics"
-    },
-    {
-      "component_name": "Submission Chain Framework",
-      "description": "The systematic connection of submission attempts where defending one attack directly opens the path to another. In the Rubber Guard system, failed Triangle attempts transition to Omoplatas, defended Omoplatas open Gogoplatas, and escaped Gogoplatas create back take opportunities. This creates a continuous offensive cycle that pressures opponents into making mistakes.",
-      "purpose": "Maintain constant offensive threat through connected attacks"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Entry and Initial Control",
-      "description": "From closed guard, establish high guard by walking your hips up the opponent's torso while breaking their posture forward. Secure an overhook on one arm and begin raising your opposite leg toward their head.",
-      "key_points": [
-        "Break posture before attempting leg placement",
-        "Control one arm to prevent posting",
-        "Walk hips up incrementally rather than attempting single large movement",
-        "Maintain tight connection throughout the climb"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Mission Control Establishment",
-      "description": "Continue raising your leg until your shin crosses behind the opponent's head with your foot hooking near their far shoulder. Secure your ankle or shin with your hand to lock the position. This is Mission Control, your base camp in the system.",
-      "key_points": [
-        "Ensure shin is high on the back, not just on shoulder",
-        "Hook foot deeply to prevent easy escape",
-        "Free your overhook hand once leg control is secured",
-        "Test the control by attempting small posture breaks"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Position Advancement",
-      "description": "From Mission Control, progress to tighter controls based on opponent reactions. If they remain stationary, advance to New York by grabbing your own shin or ankle with both hands. If they attempt to posture, transition to Chill Dog or Meathook positions.",
-      "key_points": [
-        "Read opponent's defensive strategy before advancing",
-        "Each control position serves specific purposes",
-        "Maintain broken posture throughout transitions",
-        "Never sacrifice control for submission attempts prematurely"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Submission Initiation",
-      "description": "From established control positions, begin submission sequences. From New York, attack Gogoplatas and arm controls. From Chill Dog, set up Triangles. From Meathook, transition to Omoplatas. Each submission should be part of a chain where defense opens the next attack.",
-      "key_points": [
-        "Commit fully to first submission attempt",
-        "Recognize defensive patterns that signal transition points",
-        "Maintain leg control even during submission attempts",
-        "Flow between submissions without resetting to neutral"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Chain Progression and Back Takes",
-      "description": "When submissions are defended, use the opponent's defensive movements to progress through the submission chain or transition to back control. Failed Triangles open Omoplatas, defended Omoplatas create back take opportunities, and escaped positions return to Mission Control.",
-      "key_points": [
-        "Never view defended submissions as failures",
-        "Each defense creates specific opening for next attack",
-        "Back takes are often the end result of submission chains",
-        "Maintain offensive pressure throughout the chain"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "System Mastery and Adaptation",
-      "description": "Develop the ability to enter the system from various guard positions, adapt the controls for different opponent body types, and recognize which pathways are most effective against specific defensive strategies. Master practitioners can flow through the entire system based on real-time opponent reactions.",
-      "key_points": [
-        "Practice entries from multiple guard variations",
-        "Adapt technique details for flexibility limitations",
-        "Develop pattern recognition for optimal path selection",
-        "Integrate system with other guard frameworks"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Insufficient flexibility to achieve Mission Control position",
-      "solution": "Implement dedicated hip and hamstring flexibility training. Use progressive stretching routines focusing on seated forward folds, pigeon pose, and dynamic leg raises. Many practitioners successfully use the system with modified leg positions that accommodate their flexibility level. Focus on achieving the functional goal of posture break rather than perfect position aesthetics."
-    },
-    {
-      "obstacle": "Opponent successfully postures out of initial control attempts",
-      "solution": "Improve the timing of your entry by attacking when opponent is already broken down or off-balance. Use combination attacks where you threaten submissions or sweeps that force them to lower their posture before attempting Mission Control. Strengthen your breaking mechanics by incorporating pulling exercises and developing better hip elevation."
-    },
-    {
-      "obstacle": "Difficulty transitioning between control positions smoothly",
-      "solution": "Drill positional transitions in isolation without opponent resistance initially. Map the specific grips, weight shifts, and timing required for each transition. Practice the sequences in order: Mission Control to New York to Chill Dog to Meathook, then reverse the sequence. Once smooth solo, add progressive resistance from training partners."
-    },
-    {
-      "obstacle": "Getting passed while attempting high guard positions",
-      "solution": "Never sacrifice fundamental guard retention principles for Rubber Guard attempts. Maintain strong guard recovery instincts and know when to abandon the system to prevent passes. Develop better timing by only attempting Rubber Guard entries when you have strong initial control, not as a desperation recovery move."
-    },
-    {
-      "obstacle": "Submissions are defended without opening chain opportunities",
-      "solution": "Study the specific defensive reactions that create openings for chain progressions. Often this obstacle indicates incomplete submission attempts where you're not forcing the opponent to make defensive choices. Commit more fully to each submission to elicit the defensive reaction needed for the chain. Review competition footage to see how high-level practitioners force these reactions."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Mission Control Achievement Rate",
-      "description": "Percentage of closed guard situations where you successfully establish Mission Control position",
-      "proficiency_indicators": [
-        "Beginner: 20-30% success rate, often requires multiple attempts",
-        "Intermediate: 50-60% success rate, single attempt entry common",
-        "Advanced: 75%+ success rate, entry from various guard positions",
-        "Expert: 85%+ success rate, entry against resistant high-level opponents"
-      ]
-    },
-    {
-      "metric_name": "Submission Chain Completion",
-      "description": "Ability to flow through multiple submission attempts without losing control or being passed",
-      "proficiency_indicators": [
-        "Beginner: Can attempt one submission before resetting",
-        "Intermediate: Links 2-3 submissions in sequence before resetting",
-        "Advanced: Completes full chains of 4+ submissions or achieves finish",
-        "Expert: Continuously cycles through chains until finish or back take"
-      ]
-    },
-    {
-      "metric_name": "Position Transition Fluidity",
-      "description": "Smoothness and control maintained when moving between Rubber Guard positions",
-      "proficiency_indicators": [
-        "Beginner: Transitions are deliberate and slow, sometimes losing control",
-        "Intermediate: Smooth transitions between 2-3 positions, occasional control lapses",
-        "Advanced: Fluid movement through all positions, rarely loses control",
-        "Expert: Seamless transitions appear effortless, perfect control maintenance"
-      ]
-    },
-    {
-      "metric_name": "System Application Versatility",
-      "description": "Range of situations and opponent types where you can effectively apply the system",
-      "proficiency_indicators": [
-        "Beginner: Only against cooperative or similar-sized opponents",
-        "Intermediate: Against resistant opponents of similar skill level",
-        "Advanced: Against higher belts and various body types",
-        "Expert: Successfully applies against elite competitors regardless of style"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "Begin with positional isolation drilling, spending dedicated time on each control position until it feels natural and stable. Practice Mission Control holds for extended periods (2-3 minutes) to build the necessary muscle memory and comfort. Progress to flowing between positions in sequence without resistance, then add progressive resistance as comfort increases. Incorporate submission attempts only after control positions are solid. Use specific sparring rounds where you start in closed guard with the goal of entering and maintaining Rubber Guard positions. Partner feedback is crucial—have training partners identify when your control weakens or when they feel escape opportunities. Video analysis helps identify technical flaws in your positioning that may not be apparent during live training. Supplement mat time with flexibility training, particularly hip flexibility work that directly translates to better Rubber Guard positioning.",
-    "progression_path": [
-      {
-        "stage": "Foundation Building",
-        "focus": "Develop flexibility requirements and establish Mission Control consistently",
-        "timeframe": "Months 1-3"
-      },
-      {
-        "stage": "Position Mastery",
-        "focus": "Learn all control positions and transitions between them, build positional comfort",
-        "timeframe": "Months 4-6"
-      },
-      {
-        "stage": "Submission Integration",
-        "focus": "Add submission attempts from each position, begin understanding chain connections",
-        "timeframe": "Months 7-12"
-      },
-      {
-        "stage": "Chain Development",
-        "focus": "Master flowing through submission chains, develop back take pathways",
-        "timeframe": "Months 13-18"
-      },
-      {
-        "stage": "Live Application",
-        "focus": "Successfully apply system in sparring against resistant opponents",
-        "timeframe": "Months 19-24"
-      },
-      {
-        "stage": "System Refinement",
-        "focus": "Adapt system for different opponent types, integrate with overall game",
-        "timeframe": "Months 25+"
-      }
-    ],
-    "common_mistakes": [
-      "Attempting Rubber Guard without sufficient flexibility preparation, leading to ineffective positions and potential injury",
-      "Rushing to submissions before establishing solid control, resulting in lost position and passes",
-      "Using excessive muscle tension to maintain positions rather than proper mechanical leverage and angles",
-      "Neglecting fundamental guard retention skills while focusing exclusively on Rubber Guard",
-      "Failing to recognize when opponent body type or defensive strategy makes alternative approaches more effective",
-      "Abandoning submission attempts too quickly instead of committing fully to force defensive reactions"
-    ]
-  },
   "related_content": [
     {
       "name": "Mission Control",
       "content_type": "Position",
-      "relationship": "Core control position and entry point to the system"
+      "relationship": "Mission Control: related position study, separate from the source syllabus."
     },
     {
       "name": "New York",
       "content_type": "Position",
-      "relationship": "Advanced control position with highest submission percentage"
+      "relationship": "New York: related position study, separate from the source syllabus."
     },
     {
       "name": "Chill Dog",
       "content_type": "Position",
-      "relationship": "Triangle and armbar setup position in the system"
+      "relationship": "Chill Dog: related position study, separate from the source syllabus."
     },
     {
       "name": "Meathook",
       "content_type": "Position",
-      "relationship": "Omoplata setup and transitional control position"
+      "relationship": "Meathook: related position study, separate from the source syllabus."
     },
     {
       "name": "Invisible Collar",
       "content_type": "Position",
-      "relationship": "No-gi collar control substitute position"
+      "relationship": "Invisible Collar: related position study, separate from the source syllabus."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Primary entry point for Rubber Guard system"
+      "relationship": "Closed Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Triangle Control",
       "content_type": "Position",
-      "relationship": "Common finishing position from Chill Dog pathway"
+      "relationship": "Triangle Control: related position study, separate from the source syllabus."
     },
     {
       "name": "Omoplata Control",
       "content_type": "Position",
-      "relationship": "Submission control reached from Meathook position"
+      "relationship": "Omoplata Control: related position study, separate from the source syllabus."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Terminal position from failed submission defenses"
+      "relationship": "Back Control: related position study, separate from the source syllabus."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Alternative entry point with modified Rubber Guard concepts"
+      "relationship": "Half Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Triangle Setup",
       "content_type": "Transition",
-      "relationship": "Primary attack from Chill Dog position"
+      "relationship": "Triangle Setup: related transition study, separate from the source syllabus."
     },
     {
       "name": "Closed Guard to Omoplata",
       "content_type": "Transition",
-      "relationship": "Key transition from Meathook and failed Triangle attempts"
+      "relationship": "Closed Guard to Omoplata: related transition study, separate from the source syllabus."
     },
     {
       "name": "Omoplata to Back",
       "content_type": "Transition",
-      "relationship": "Chain progression when Omoplata is defended"
+      "relationship": "Omoplata to Back: related transition study, separate from the source syllabus."
     },
     {
       "name": "Triangle to Armbar",
       "content_type": "Transition",
-      "relationship": "Submission chain connection from Chill Dog pathway"
+      "relationship": "Triangle to Armbar: related transition study, separate from the source syllabus."
     },
     {
       "name": "Guard Pull",
       "content_type": "Transition",
-      "relationship": "Entry method to establish closed guard for system"
+      "relationship": "Guard Pull: related transition study, separate from the source syllabus."
     },
     {
       "name": "Triangle Choke",
       "content_type": "Submission",
-      "relationship": "High-percentage submission from Chill Dog position"
+      "relationship": "Triangle Choke: related submission study, separate from the source syllabus."
     },
     {
       "name": "Omoplata",
       "content_type": "Submission",
-      "relationship": "Primary submission from Meathook and chain progression"
+      "relationship": "Omoplata: related submission study, separate from the source syllabus."
     },
     {
       "name": "Gogoplata",
       "content_type": "Submission",
-      "relationship": "Signature submission from New York position"
+      "relationship": "Gogoplata: related submission study, separate from the source syllabus."
     },
     {
       "name": "Inverted Triangle",
       "content_type": "Submission",
-      "relationship": "Chain progression option from high guard control positions"
+      "relationship": "Inverted Triangle: related submission study, separate from the source syllabus."
     },
     {
       "name": "Baratoplata",
       "content_type": "Submission",
-      "relationship": "Advanced submission option from Rubber Guard controls"
+      "relationship": "Baratoplata: related submission study, separate from the source syllabus."
     },
     {
       "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Fundamental guard retention principles maintained throughout system application"
+      "relationship": "Defensive Concepts: related principle study, separate from the source syllabus."
     },
     {
       "name": "Hip Escape Mechanics",
       "content_type": "Principle",
-      "relationship": "Hip mobility and flexibility mechanics essential for effective Rubber Guard positioning"
+      "relationship": "Hip Escape Mechanics: related principle study, separate from the source syllabus."
     },
     {
       "name": "Posture",
       "content_type": "Principle",
-      "relationship": "Core mechanical principle enabling all Rubber Guard positions"
+      "relationship": "Posture: related principle study, separate from the source syllabus."
     },
     {
       "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Strategic framework connecting all system submissions and controls"
+      "relationship": "Position Chains: related principle study, separate from the source syllabus."
     },
     {
       "name": "10th Planet No-Gi Guard System",
       "content_type": "System",
-      "relationship": "Broader system framework containing Rubber Guard as component"
+      "relationship": "10th Planet No-Gi Guard System: related system study, separate from the source syllabus."
     },
     {
       "name": "Rubber Guard to Triangle System",
       "content_type": "System",
-      "relationship": "Specific subsystem focusing on Triangle pathways"
+      "relationship": "Rubber Guard to Triangle System: related system study, separate from the source syllabus."
     },
     {
       "name": "Rubber Guard to Omoplata System",
       "content_type": "System",
-      "relationship": "Specific subsystem focusing on Omoplata pathways"
+      "relationship": "Rubber Guard to Omoplata System: related system study, separate from the source syllabus."
     },
     {
       "name": "Twister System",
       "content_type": "System",
-      "relationship": "Complementary 10th Planet system for back attacks"
+      "relationship": "Twister System: related system study, separate from the source syllabus."
+    },
+    {
+      "name": "Marcelo Garcia Butterfly Guard System",
+      "content_type": "System",
+      "relationship": "Alternative seated-guard study centered on posture, connection and sweeps."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What problem does the 10th Planet Rubber Guard System solve for no-gi grapplers?",
-      "answer": "It replaces gi collar and sleeve grips with leg-based controls, letting you break and hold an opponent's posture from closed guard when there is no fabric to grip in no-gi competition.",
-      "answer_line": "Legs replace gi grips for control",
-      "distractors": {
-        "plausible": [
-          "Extra submissions with no gi",
-          "Makes standup grappling easier"
-        ],
-        "trap": [
-          "Lets you skip posture control"
-        ]
-      }
+  "summary": "A companion to The Ultimate Rubber Guard that separates its historical discussion from positional study and the omoplata section.",
+  "description": "Navigate the rubber-guard sections of Eddie Bravo’s course without relying on an invented list of mandatory position chains.",
+  "overview": "The public chapter list is broad: evolution and full rubber guard each occupy a volume. Use those headings to organize study, and record the instructor’s position names as they appear rather than assuming the listing specifies their order.",
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Eddie Bravo: Rubber Guard Study",
+    "audience": {
+      "fits": [
+        "You want the rubber-guard portion of Eddie Bravo’s course and need to find the positional material."
+      ],
+      "consider_alternative_if": [
+        "For seated butterfly posture and sweep study, compare Marcelo Garcia’s Butterfly Guard guide."
+      ]
     },
-    {
-      "question": "What is Mission Control and why is it called the base camp of the system?",
-      "answer": "Mission Control is the foundational position where your shin crosses behind the opponent's head and your hand secures the shin or ankle, breaking posture forward while freeing your other hand to attack or advance to tighter controls.",
-      "answer_line": "Shin crosses head, hand locks shin",
-      "distractors": {
-        "plausible": [
-          "Both hooks in for hip control",
-          "Overhook locks near-side arm"
-        ],
-        "trap": [
-          "Release shin grip to posture up"
-        ]
-      }
+    "coverage": {
+      "includes": [
+        "Rubber-guard history, evolution, positional material and an omoplata section."
+      ],
+      "limits": [
+        "The listing does not break every named rubber-guard variation into its own lesson; bottom half occupies a separate, shorter section."
+      ]
     },
-    {
-      "question": "How do you progress from Mission Control to New York?",
-      "answer": "From Mission Control you grab your own shin or ankle with both hands, creating an extremely tight lock that stops the opponent from posturing up and opens gogoplata attacks and back-take pathways.",
-      "answer_line": "Grab own shin with both hands",
-      "distractors": {
-        "plausible": [
-          "Switch to overhook for triangle",
-          "Post on hip to angle off"
-        ],
-        "trap": [
-          "Release grip to hunt gogoplata"
-        ]
-      }
+    "start_here": {
+      "title": "Separate positional lessons from history",
+      "kind": "observation",
+      "task": "Locate the omoplata section in volume 1 and the full positional section in volume 3. Use the first as an attack-specific destination and the second as the wider study block. If watching the course, log the control present immediately before each named position changes; leave unclear contacts as questions.",
+      "source_ids": [
+        "bravo-rubber-listing"
+      ],
+      "section": "Volume 3: Full Rubber Guard — 0–38:49 (course range)"
     },
-    {
-      "question": "Which submission is most associated with the New York position?",
-      "answer": "The Gogoplata is the signature attack from New York, because the tight posture-breaking lock isolates the head and neck and lets you bring a foot across the throat for the finish.",
-      "answer_line": "Gogoplata",
-      "distractors": {
-        "plausible": [
-          "Triangle choke",
-          "Omoplata"
-        ],
-        "trap": [
-          "Kimura grip finish"
-        ]
+    "sources": [
+      {
+        "id": "bravo-rubber-listing",
+        "url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
+        "title": "The Ultimate Rubber Guard by Eddie Bravo",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified four volumes, instructor, rubber-guard history and omoplata coverage, and the Bottom Half section. Listing and official trailer iframe inspected; player content and playback not reviewed."
+      },
+      {
+        "id": "garcia-butterfly-listing",
+        "url": "https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia",
+        "title": "The Complete Butterfly Guard by Marcelo Garcia",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified posture/control, sweeping, distance, standing-opponent and pressure sections in four volumes. Listing inspected; course video content not reviewed."
       }
-    },
-    {
-      "question": "Why does flexibility matter in Rubber Guard, and what should less flexible players do?",
-      "answer": "Hip and hamstring flexibility let the leg reach high on the opponent's back, but less mobile practitioners can use modified leg positions that still achieve the functional goal of breaking and holding posture.",
-      "answer_line": "Use modified positions, same goal",
-      "distractors": {
-        "plausible": [
-          "Skip rubber guard entirely",
-          "Only chase submissions, not control"
-        ],
-        "trap": [
-          "Force high leg placement anyway"
-        ]
-      }
-    },
-    {
-      "question": "What is the core idea behind the system's submission chains?",
-      "answer": "Each defended attack opens the next: a defended triangle flows into an omoplata, a defended omoplata opens a gogoplata or back take, keeping constant offensive pressure rather than resetting to neutral.",
-      "answer_line": "Defended attacks chain to next",
-      "distractors": {
-        "plausible": [
-          "Reset to neutral after each defense",
-          "Only chain triangle to armbar"
-        ],
-        "trap": [
-          "Abandon control after defense"
-        ]
-      }
-    },
-    {
-      "question": "What is a common mistake practitioners make when learning Rubber Guard?",
-      "answer": "Rushing to submissions before establishing solid control, which sacrifices position and lets the opponent posture out or pass; control must be locked in before any attack is launched.",
-      "answer_line": "Attacking before locking control",
-      "distractors": {
-        "plausible": [
-          "Playing too passively on bottom",
-          "Overcommitting to gogoplata early"
-        ],
-        "trap": [
-          "Not using enough leg flexibility"
-        ]
-      }
-    },
-    {
-      "question": "How does a Rubber Guard player avoid getting passed while playing high guard?",
-      "answer": "By retaining fundamental guard-recovery instincts and abandoning the system the moment control breaks down, only entering Rubber Guard from strong initial control instead of as a desperation recovery move.",
-      "answer_line": "Abandon system if control breaks",
-      "distractors": {
-        "plausible": [
-          "Always finish once committed",
-          "Rely on flexibility to escape"
-        ],
-        "trap": [
-          "Hold rubber guard at all costs"
-        ]
-      }
+    ],
+    "preview": {
+      "provider": "youtube",
+      "embed_url": "https://www.youtube.com/embed/_Vg4g6U1EXI?autoplay=0",
+      "source_id": "bravo-rubber-listing",
+      "title": "Official trailer — Eddie Bravo / The Ultimate Rubber Guard",
+      "kind": "trailer",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
     }
-  ],
+  },
   "products": [
     {
       "id": "the-ultimate-rubber-guard-by-eddie-bravo",
       "title": "The Ultimate Rubber Guard",
       "instructor": "Eddie Bravo",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME",
+      "course_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard.",
-      "best_for": "Students exploring 10th Planet guard connections. Check the syllabus for your chosen branch; this is broader than a single finish.",
-      "study_focus": "For the omoplata route, start in Volume 1. Bottom half guard and further guard variations appear in Volume 4.",
-      "practice_tip": "Choose a control you can enter comfortably. Practise maintaining posture control without pulling your knee into a forced range."
+      "link_checked": "2026-09-16",
+      "blurb": "Rubber-guard context and positional material across four volumes.",
+      "best_for": "You want the rubber-guard portion of Eddie Bravo’s course and need to find the positional material.",
+      "study_focus": "Choose volume 3 for positional study; volume 1 separately lists the omoplata section."
     }
-  ]
+  ],
+  "flashcards": []
 }

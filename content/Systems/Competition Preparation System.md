@@ -1,507 +1,135 @@
 
-
-
-
 ---
-title: "Competition Preparation System | BJJ System | BJJ Graph"
-description: "Master BJJ competition preparation. Systematic framework covering mental training, physical conditioning, strategic planning, and match-day protocols for peak performance."
+title: "Competition Preparation: Planning Tournament Day | BJJGraph"
+description: "A study companion to Competition Preparation Masterclass, focused on organizing the decisions around tournament day."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Competition Preparation System",
-  "description": "Step-by-step implementation sequence for Competition Preparation System.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Tournament Selection and Timeline Planning",
-      "text": "Select target competition based on skill level, goals, and preparation timeline. Establish 8-12 week preparation cycle with clearly defined periodization phases.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Physical Preparation Cycle",
-      "text": "Implement periodized training program progressing from base conditioning through technical sharpening and competition simulation phases.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Strategic Development",
-      "text": "Develop comprehensive game plan identifying primary positions, high-percentage techniques, and tactical frameworks for various match scenarios.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Mental Skills Training",
-      "text": "Build psychological readiness through visualization, pressure training, and mental rehearsal of competitive scenarios including adversity.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Weight Management and Nutrition",
-      "text": "Execute safe weight management protocols ensuring optimal performance while meeting weight class requirements without compromising health.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Competition Week Execution",
-      "text": "Execute final preparation week with technical refinement, reduced volume, mental preparation, and logistics planning.",
-      "position": 6
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Match Day Protocol",
-      "text": "Execute systematic competition day routine managing warm-up, nutrition, mental state, and between-match recovery for optimal performance.",
-      "position": 7
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Post-Competition Analysis",
-      "text": "Systematic review of performance identifying technical, tactical, and psychological areas for improvement in future preparation cycles.",
-      "position": 8
-    }
-  ]
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Competition Preparation System",
-  "description": "Master BJJ competition preparation. Systematic framework covering mental training, physical conditioning, strategic planning, and match-day protocols for peak performance.",
-  "url": "https://bjjgraph.org/Systems/Competition-Preparation-System",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Competition Preparation System", "item": "https://bjjgraph.org/Systems/Competition-Preparation-System"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Overtraining in final weeks leading to fatigue and decreased performance on competition day?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Follow strict periodization with mandatory taper week reducing volume 40-50% while maintaining technical sharpness through quality over quantity. Trust preparation rather than cramming last-minute training."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Competition anxiety and psychological pressure causing underperformance despite technical readiness?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Implement progressive competition exposure starting with low-stakes local tournaments. Develop consistent pre-match routines practiced in training. Use visualization and breathing techniques to manage arousal levels appropriately."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Lack of clear game plan leading to reactive rather than proactive competitive performance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Develop specific tactical framework identifying 2-3 primary positions, signature techniques, and score-based strategic adjustments. Drill game plan sequences until automatic under pressure. Create decision trees for common scenarios."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Poor energy management across multiple matches causing late-tournament performance decline?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Practice competition-style rounds with minimal rest between rounds. Develop between-match recovery protocols including hydration, quick-digesting carbohydrates, and active recovery. Pace early matches to conserve energy for finals."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Dangerous weight cutting practices compromising health and performance for marginal weight advantages?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Compete at natural walking weight or use gradual 4-6 week reduction protocols. Avoid severe dehydration and rehydration cycles. Focus on performance optimization rather than weight manipulation. Consider higher weight class if cutting compromises training quality."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Inability to adapt tactical approach when initial game plan proves ineffective against specific opponent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Develop primary strategy plus 2-3 contingency approaches. Practice transitioning between different positional systems. Train pattern recognition for opponent tendencies. Maintain tactical flexibility rather than rigid adherence to single approach."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Competition Preparation System",
-  "description": "The Competition Preparation System connects a BJJ game plan with focused practice, tournament logistics, coach communication, and post-event review so competitors can rehearse the demands of competition day.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Competition Preparation: Planning Tournament Day","description":"A study companion to Competition Preparation Masterclass, focused on organizing the decisions around tournament day."}
 </script>
-
-
-
-<div class="principle-meta">
-<span class="meta-chip">Competition Strategy</span>
-<span class="meta-chip">Intermediate difficulty</span>
-</div>
-
-
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
-
+<main class="content-wrapper" data-system-guide>
+<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Competition Preparation Masterclass by Matt D&#39;Aquino.</p>
 <section id="overview" class="content-section">
 
-## What is Competition Preparation System?
+## Competition Preparation: Planning Tournament Day
 
-**The Competition Preparation System connects a BJJ game plan with focused practice, tournament logistics, coach communication, and post-event review so competitors can rehearse the demands of competition day.**
+**Use Matt D’Aquino’s preparation syllabus to separate travel, packing, coach communication and post-event review.**
 
-Tournament preparation involves choices that ordinary classes may leave open: which exchanges to rehearse, what to pack, how to organize arrival and warm-up, and how to communicate with a coach. This framework connects those decisions to a game plan and a review process. Preparation can make the day more familiar, while outcomes still depend on the opponent, execution, and circumstances.
 
-Matt D'Aquino's Competition Preparation Masterclass offers a relevant combat-sports perspective on this process. The published syllabus covers training, tournament logistics, strategy, and the coach-athlete relationship. Its judo background is useful context when deciding which ideas to adapt with a BJJ coach. The routines below are BJJGraph suggestions, and event-specific requirements should be checked with the organizer.
+A tournament plan needs practical details as well as a preferred game. Matt D’Aquino’s Competition Preparation Masterclass groups combat-sports preparation into training, logistics, strategy and reflection. Use its chapter map to find the part of preparation you are missing; check event requirements with the organizer.
+
+</section>
+
+<section id="fit" class="content-section">
+
+## Is this useful for you?
+
+- You have a tournament in mind but no clear packing, travel or coach-communication plan.
+
+
+### Consider an alternative if
+
+- For scoring and permitted techniques, use IBJJF Strategy Guide and the rules adopted by your event.
+
+
+</section>
+<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
+<section id="start-here" class="content-section">
+
+## Start here: Find the gaps in your tournament-day checklist
+
+Without buying the course, compare your existing event plan with the packing and travel modules. Put equipment in one column and arrival arrangements in another; mark anything that still needs an organizer or coach’s answer. Course owners can begin with those two modules, then move to the coach-player lesson if communication is the missing piece.
+
+Published section: Volume 2: module 5 what to pack on competition day; module 6 getting to and from a competition. Volume 4: module 13.2 Coach and player relationship on competition day.
+
+
+
+<p>Source: <a href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" target="_blank" rel="noopener">Competition Preparation Masterclass by Matt D&#39;Aquino</a></p>
 
 </section>
 
 
 
+<section id="unlock-this-system" class="content-section product-cards" data-course-container>
+<h2>Course reference</h2>
 
+<article class="product-card">
+<h3>Competition Preparation Masterclass</h3>
+<p>By Matt D&#39;Aquino</p>
 
-
-
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="daquino-competition-preparation-masterclass">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">Competition Preparation Masterclass</h3>
-<p class="product-card__instructor">with Matt D'Aquino</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> Competitors building their first tournament checklist or improving an existing routine. Apply its general preparation ideas with your BJJ coach; the course is not a current BJJ rules guide.</p>
-<p class="product-card__blurb">A combat-sports preparation course from a judo instructor, with modules on competition-specific training, packing and travel, match strategy, coach communication, and post-event review.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=competition-preparation-system&utm_term=daquino-competition-preparation-masterclass" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="daquino-competition-preparation-masterclass" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+<p><a href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" data-course-url="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" data-product-id="daquino-competition-preparation-masterclass" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
 </article>
 
-</div>
-
 </section>
 
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+<span id="key-principles"></span><span id="key-components"></span>
+<section id="coverage" class="content-section">
 
-## Unlock this part of the graph
+## What the sources cover
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+- Volume 2 separates packing, travel and pre-competition arrangements.
+- Volumes 3 and 4 address competition strategy, post-event review and the coach-player relationship.
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
 
-<ul class="system-members" data-system-members></ul>
+### Limits
 
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Systematic periodization of training intensity leading to competition peak
-- Mental rehearsal and visualization techniques for competitive scenarios
-- Strategic game planning based on opponent analysis and personal strengths
-- Energy management protocols for multi-match tournament performance
-- Progressive competition exposure building from local to international levels
-- Recovery and regeneration strategies for maintaining peak readiness
-- Adaptive tactical planning with primary and contingency strategies
-
+- The syllabus is for combat sports generally; BJJ division rules and event logistics need their own sources.
+- Diet and weight-cutting chapters are listed, but this guide provides no weight-management or conditioning prescription.
 
 </section>
-
-<section id="key-components" class="content-section">
-
-## Key Components
-**Physical Periodization** (Achieve peak physical condition on competition day while avoiding overtraining and injury)
-Structured training cycles that progressively develop strength, conditioning, and technical sharpness while managing fatigue accumulation. Training intensity follows wave-loading patterns with strategic deload weeks, peaking physical readiness precisely for competition day through calculated volume and intensity manipulation across mesocycles and microcycles.
-
-**Mental Conditioning Framework** (Build mental toughness and psychological readiness for competitive pressure situations)
-Systematic development of psychological resilience through visualization protocols, pressure exposure training, and mental rehearsal of competitive scenarios. Includes pre-match routines, arousal regulation techniques, and adversity response protocols that prepare athletes for the psychological demands of high-stakes competition beyond pure technical preparation.
-
-**Strategic Game Planning** (Enter competition with clear tactical direction and adaptive strategic frameworks)
-Comprehensive match strategy development based on ruleset analysis, opponent scouting, personal strength identification, and tactical contingency planning. Creates primary game plans with multiple backup strategies, position-specific tactics, and score management protocols tailored to individual competitive advantages and tournament formats.
-
-**Nutritional Optimization** (Maximize physical performance through proper nutrition while safely making weight)
-Weight management protocols, hydration strategies, and nutrient timing systems that optimize performance while meeting weight class requirements safely. Includes pre-competition fueling, intra-tournament nutrition, and recovery nutrition that supports sustained energy levels across multiple matches while maintaining optimal body composition and avoiding dangerous cutting practices.
-
-**Match-Day Protocols** (Execute consistent preparation routines that optimize readiness for each match)
-Systematic warm-up sequences, pre-match routines, between-match recovery procedures, and post-competition analysis frameworks. Standardized protocols reduce decision fatigue, manage arousal levels appropriately, and ensure consistent preparation regardless of environmental variables or competitive pressure, creating reliable performance rituals.
-
-
-
-</section>
-
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Tournament Selection and Timeline Planning**: Select target competition based on skill level, goals, and preparation timeline. Establish 8-12 week preparation cycle with clearly defined periodization phases.
-Key points:
-- Choose competition appropriate to current skill level and experience
-- Verify ruleset understanding (IBJJF, ADCC, submission-only, etc.)
-- Establish preparation timeline with specific training phases
-- Set realistic performance goals beyond just winning
-- Plan deload week 7-10 days before competition
-
-
-
-2. **Physical Preparation Cycle**: Implement periodized training program progressing from base conditioning through technical sharpening and competition simulation phases.
-Key points:
-- Weeks 1-4: Build aerobic base and general strength
-- Weeks 5-8: Increase training intensity and competition-specific conditioning
-- Weeks 9-10: Peak technical sharpness with reduced volume
-- Final week: Taper volume while maintaining intensity
-- Integrate competition-style rounds progressively
-
-
-
-3. **Strategic Development**: Develop comprehensive game plan identifying primary positions, high-percentage techniques, and tactical frameworks for various match scenarios.
-Key points:
-- Identify 2-3 primary positions to establish in matches
-- Select high-percentage techniques for offensive sequences
-- Develop defensive escape priorities and guard retention systems
-- Create score-based tactical adjustments (leading vs trailing)
-- Prepare contingency plans for common opponent strategies
-
-
-
-4. **Mental Skills Training**: Build psychological readiness through visualization, pressure training, and mental rehearsal of competitive scenarios including adversity.
-Key points:
-- Daily visualization of successful match execution (5-10 minutes)
-- Practice pre-match routines consistently in training
-- Simulate competition pressure through timed rounds and consequences
-- Develop arousal management techniques for anxiety control
-- Rehearse response to adversity (trailing, bad referee decisions)
-
-
-
-5. **Weight Management and Nutrition**: Execute safe weight management protocols ensuring optimal performance while meeting weight class requirements without compromising health.
-Key points:
-- Begin weight management 4-6 weeks out if needed
-- Gradual caloric reduction avoiding crash dieting
-- Maintain hydration throughout preparation
-- Final week: minimal water manipulation only if necessary
-- Post-weigh-in rehydration and fueling protocol
-
-
-
-6. **Competition Week Execution**: Execute final preparation week with technical refinement, reduced volume, mental preparation, and logistics planning.
-Key points:
-- Reduce training volume by 40-50% while maintaining intensity
-- Focus on technical refinement and favorite positions
-- Finalize travel and logistics arrangements
-- Practice full warm-up and pre-match routine
-- Mental rehearsal of complete competition day sequence
-
-
-
-7. **Match Day Protocol**: Execute systematic competition day routine managing warm-up, nutrition, mental state, and between-match recovery for optimal performance.
-Key points:
-- Arrive early for environment familiarization
-- Progressive warm-up sequence 20-30 minutes before match
-- Execute pre-match mental routine consistently
-- Between matches: active recovery, hydration, carbohydrate intake
-- Post-competition cool-down and recovery initiation
-
-
-
-8. **Post-Competition Analysis**: Systematic review of performance identifying technical, tactical, and psychological areas for improvement in future preparation cycles.
-Key points:
-- Video review within 48 hours of competition
-- Identify technical successes and failures objectively
-- Analyze tactical decision-making effectiveness
-- Evaluate mental performance and pressure response
-- Integrate lessons into next training cycle planning
-
-
-
-
-
-</section>
-
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Start with the training introduction and tournament logistics, then review strategy and the coach-athlete relationship. Use the post-event section to plan a structured debrief.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=competition-preparation-system&utm_term=daquino-competition-preparation-masterclass" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="daquino-competition-preparation-masterclass" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Competition Preparation Masterclass &rarr;</a></p>
-</section>
-
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **Overtraining in final weeks leading to fatigue and decreased performance on competition day**: Follow strict periodization with mandatory taper week reducing volume 40-50% while maintaining technical sharpness through quality over quantity. Trust preparation rather than cramming last-minute training.
-- **Competition anxiety and psychological pressure causing underperformance despite technical readiness**: Implement progressive competition exposure starting with low-stakes local tournaments. Develop consistent pre-match routines practiced in training. Use visualization and breathing techniques to manage arousal levels appropriately.
-- **Lack of clear game plan leading to reactive rather than proactive competitive performance**: Develop specific tactical framework identifying 2-3 primary positions, signature techniques, and score-based strategic adjustments. Drill game plan sequences until automatic under pressure. Create decision trees for common scenarios.
-- **Poor energy management across multiple matches causing late-tournament performance decline**: Practice competition-style rounds with minimal rest between rounds. Develop between-match recovery protocols including hydration, quick-digesting carbohydrates, and active recovery. Pace early matches to conserve energy for finals.
-- **Dangerous weight cutting practices compromising health and performance for marginal weight advantages**: Compete at natural walking weight or use gradual 4-6 week reduction protocols. Avoid severe dehydration and rehydration cycles. Focus on performance optimization rather than weight manipulation. Consider higher weight class if cutting compromises training quality.
-- **Inability to adapt tactical approach when initial game plan proves ineffective against specific opponent**: Develop primary strategy plus 2-3 contingency approaches. Practice transitioning between different positional systems. Train pattern recognition for opponent tendencies. Maintain tactical flexibility rather than rigid adherence to single approach.
-
-
-</section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Competition Readiness Score**: Composite evaluation of physical conditioning, technical sharpness, mental preparation, and strategic planning across all preparation domains.
-Proficiency indicators:
-- Can complete 5+ competition-intensity rounds maintaining technical quality
-- Successfully executes primary game plan sequences under pressure in training
-- Demonstrates consistent pre-match routine and anxiety management
-- Achieves target weight class requirements without performance compromise
-- Articulates clear tactical approach with contingency strategies
-
-
-**Match Performance Analysis**: Systematic evaluation of competitive performance measuring technical execution, tactical decision-making, and mental resilience during actual competition.
-Proficiency indicators:
-- Achieves primary position establishment in majority of matches
-- Executes high-percentage techniques trained in preparation
-- Makes sound tactical decisions under competitive pressure
-- Maintains composure and technical quality when trailing
-- Adapts strategy effectively when initial approach proves ineffective
-
-
-**Recovery and Adaptation Capacity**: Assessment of between-match recovery effectiveness and ability to maintain peak performance across multiple consecutive matches in tournament format.
-Proficiency indicators:
-- Maintains energy levels through 3+ matches without significant decline
-- Executes effective recovery protocols between competitive rounds
-- Demonstrates consistent warm-up quality for each subsequent match
-- Manages hydration and nutrition effectively throughout tournament day
-- Shows no significant technical degradation in later rounds
-
-
-**Psychological Resilience**: Evaluation of mental toughness, pressure management, and adversity response in competitive environments beyond controlled training scenarios.
-Proficiency indicators:
-- Maintains technical execution under competitive pressure
-- Responds effectively to adversity (trailing, bad calls, strong opponents)
-- Demonstrates consistent emotional regulation throughout competition
-- Executes pre-match routine reliably regardless of circumstances
-- Shows progressive improvement in competition comfort across multiple events
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-Competition preparation training follows progressive periodization with distinct phases addressing different performance components. Initial base-building phase (weeks 1-4) emphasizes aerobic conditioning, fundamental technique refinement, and general strength development with moderate intensity. Middle intensification phase (weeks 5-8) increases training specificity through competition-style rounds, strategic game plan drilling, and simulated tournament scenarios with reduced rest intervals. Peak sharpening phase (weeks 9-10) reduces overall volume while maintaining high intensity through technical quality work and mental rehearsal. Final taper week (week before competition) cuts volume 40-50% while preserving sharpness through brief high-quality sessions. Mental skills training occurs daily throughout with visualization, pre-match routine practice, and pressure simulation progressively increasing as competition approaches. Strategic drilling focuses on primary position establishment, high-percentage offensive sequences, and defensive escape priorities specific to individual game plans.
-
-### Progression Path
-**Base Building Phase** (Focus: Aerobic conditioning, fundamental technique refinement, general strength development) - Weeks 1-4 of preparation cycle
-**Intensification Phase** (Focus: Competition-specific conditioning, game plan drilling, pressure simulation training) - Weeks 5-8 of preparation cycle
-**Peak Sharpening Phase** (Focus: Technical precision, reduced volume, mental preparation, strategic refinement) - Weeks 9-10 of preparation cycle
-**Competition Taper** (Focus: Volume reduction, maintenance of sharpness, logistics planning, mental rehearsal) - Final week before competition
-**Post-Competition Analysis** (Focus: Performance review, lesson integration, recovery, next cycle planning) - 1-2 weeks following competition
-
-
-### Common Mistakes
-- Overtraining in final week trying to cram additional preparation rather than trusting taper process
-- Neglecting mental skills training and relying solely on physical preparation
-- Competing without clear game plan or strategic framework leading to reactive performance
-- Dangerous weight cutting practices compromising performance for marginal weight advantages
-- Failing to practice pre-match routines consistently causing competition day uncertainty
-- Inadequate between-match recovery protocols causing energy depletion in multi-match tournaments
-- Rigid adherence to single tactical approach without contingency planning for adaptation
-
-
+<section id="sources" class="content-section">
+<h2>Sources and evidence</h2>
+<p><a href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" target="_blank" rel="noopener">Competition Preparation Masterclass by Matt D&#39;Aquino</a> — official listing; checked 2026-09-16. Verified course identity and four-volume syllabus, including packing, travel, competition strategy, coach communication and post-event review. The listing describes coverage; it does not supply the lessons themselves.</p>
 </section>
 
 <section id="related-content" class="content-section">
 
-## Which Positions, Transitions, and Principles Connect to This System?
+## Related references and alternatives
 
-- [[Systems/Competition Strategy|Competition Strategy]] (System) - Complementary strategic framework for in-match tactical execution
-- [[Systems/Competition Scoring Strategy|Competition Scoring Strategy]] (System) - Specific ruleset optimization tactics for point-based competitions
-- [[Systems/Mental Game Framework|Mental Game Framework]] (System) - Psychological preparation methodology integrated into competition prep
-- [[Systems/IBJJF Strategy Guide|IBJJF Strategy Guide]] (System) - Ruleset-specific preparation for IBJJF format tournaments
-- [[Principles/Competition Mindset|Competition Mindset]] (Principle) - Foundational psychological principles for competitive performance
-- [[Principles/Positional Hierarchy|Positional Hierarchy]] (Principle) - Position value framework applied to strategic game plan development and scoring priorities
-- [[Principles/Maximum Efficiency Principle|Maximum Efficiency Principle]] (Principle) - Energy expenditure optimization across multi-match tournament formats
-- [[Principles/Grips|Grips]] (Principle) - Essential competition skill for establishing tactical advantages from initial contact
-- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Tactical risk evaluation and defensive decision-making during match execution
-- [[Principles/Energy Conservation|Energy Conservation]] (Principle) - Energy expenditure regulation across tournament duration
-- [[Principles/Control Point Hierarchy|Control Point Hierarchy]] (Principle) - Position selection priorities integrated into game planning
-- [[Transitions/Guard Pull|Guard Pull]] (Transition) - Common competition opening strategy requiring specific preparation
-- [[Transitions/Arm Drag|Arm Drag]] (Transition) - Standing phase technique for offensive and defensive transitions in competition
-- [[Transitions/Double Leg Entry|Double Leg Entry]] (Transition) - High-percentage takedown for offensive standing game plans
-- [[Transitions/Single Leg Entry|Single Leg Entry]] (Transition) - Alternative takedown system for competition offensive strategies
-- [[Positions/Closed Guard|Closed Guard]] (Position) - Fundamental competition position requiring strategic drilling
-- [[Positions/Mount|Mount]] (Position) - High-value scoring position essential for competition tactics
-- [[Positions/Back Control|Back Control]] (Position) - Maximum point-value position prioritized in competitive strategy
-- [[Positions/Half Guard|Half Guard]] (Position) - Common competition position requiring extensive preparation
-- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Modern guard system frequently encountered in competition
-- [[Positions/X-Guard|X-Guard]] (Position) - Offensive guard position useful for sweep-oriented game plans
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) - Dynamic guard system effective for aggressive competition approaches
-- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) - Highest-percentage submission finish requiring competition drilling
-- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) - Fundamental submission threat integrated into guard game plans
-- [[Submissions/Armbar/from Armbar Control|Armbar from Armbar Control]] (Submission) - Essential offensive armbar completion integrated into competition game plans from multiple positions
 
+<p><a href="/Systems/Competition-Strategy">Competition Strategy</a> (System) — Use to organize your intended match options after the practical event plan is in place.</p><p><a href="/Systems/Competition-Scoring-Strategy">Competition Scoring Strategy</a> (System) — Related study guide: Competition Scoring Strategy.</p><p><a href="/Systems/Mental-Game-Framework">Mental Game Framework</a> (System) — Related study guide: Mental Game Framework.</p><p><a href="/Systems/IBJJF-Strategy-Guide">IBJJF Strategy Guide</a> (System) — Use for the separate task of checking IBJJF rules and division requirements.</p><p><a href="/Principles/Competition-Mindset">Competition Mindset</a> (Principle) — Further conceptual reading: Competition Mindset.</p><p><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a> (Principle) — Further conceptual reading: Positional Hierarchy.</p><p><a href="/Principles/Maximum-Efficiency-Principle">Maximum Efficiency Principle</a> (Principle) — Further conceptual reading: Maximum Efficiency Principle.</p><p><a href="/Principles/Grips">Grips</a> (Principle) — Further conceptual reading: Grips.</p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a> (Principle) — Further conceptual reading: Defensive Concepts.</p><p><a href="/Principles/Energy-Conservation">Energy Conservation</a> (Principle) — Further conceptual reading: Energy Conservation.</p><p><a href="/Principles/Control-Point-Hierarchy">Control Point Hierarchy</a> (Principle) — Further conceptual reading: Control Point Hierarchy.</p>
+
+
+### Review related technique cards
+
+These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
+
+
+- [[Transitions/Guard Pull|Guard Pull]] (Transition) — Related transition reference: Guard Pull.
+
+- [[Transitions/Arm Drag|Arm Drag]] (Transition) — Related transition reference: Arm Drag.
+
+- [[Transitions/Double Leg Entry|Double Leg Entry]] (Transition) — Related transition reference: Double Leg Entry.
+
+- [[Transitions/Single Leg Entry|Single Leg Entry]] (Transition) — Related transition reference: Single Leg Entry.
+
+- [[Positions/Closed Guard|Closed Guard]] (Position) — Position reference for organizing study: Closed Guard.
+
+- [[Positions/Mount|Mount]] (Position) — Position reference for organizing study: Mount.
+
+- [[Positions/Back Control|Back Control]] (Position) — Position reference for organizing study: Back Control.
+
+- [[Positions/Half Guard|Half Guard]] (Position) — Position reference for organizing study: Half Guard.
+
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) — Position reference for organizing study: De La Riva Guard.
+
+- [[Positions/X-Guard|X-Guard]] (Position) — Position reference for organizing study: X-Guard.
+
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) — Position reference for organizing study: Butterfly Guard.
+
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) — Related submission reference: Rear Naked Choke.
+
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) — Related submission reference: Triangle Choke.
+
+- [[Submissions/Armbar/from Armbar Control|Armbar from Armbar Control]] (Submission) — Related submission reference: Armbar from Armbar Control.
 
 </section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>BJJGraph suggestion: rehearse arrival, warm-up, a timed practice match, and a brief debrief. Identify one logistical problem and one technical priority to resolve before the event.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=competition-preparation-system&utm_term=daquino-competition-preparation-masterclass" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="daquino-competition-preparation-masterclass" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Competition Preparation Masterclass &rarr;</a></p>
-</section>
-
-
-
 </main>

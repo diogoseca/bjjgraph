@@ -42,20 +42,36 @@ output.txt
 **/output.txt
 
 # Calibration pipeline artifacts (regenerable via calibrate_probabilities.py; DO NOT COMMIT)
+/calibration/cases.json
+/calibration/results.json
+/calibration/proposals.json
+/calibration/results.partial.json
+# Legacy root outputs from older checkouts.
 calibration_cases.json
 calibration_results.json
 calibration_proposals.json
 calibration_results.partial.json
 
+# Ad-hoc screenshots and session notes belong outside the repository root.
+/*.png
+/*.jpg
+/*.jpeg
+/~*
+/coherence_fixes.json
+/tests/artifacts/claudemd_rewrite_findings.json
+/tests/artifacts/claudemd_trap_drafts.md
+
 # Q3 occurrence-elicitation working state (per-agent ballots persisted for credit-outage
-# resume; final provenance is committed as occurrence_calibration.json instead)
+# resume; final provenance is committed as calibration/occurrence_calibration.json instead)
 occurrence_elicitation/
 
 # YouTube clip sourcing working state (resumable per-slot state + raw search results +
 # review.html; the applied clips live in content/*.json which IS committed)
 clips_sourcing/
-# regenerable from occurrence_calibration.json via `occurrence_moe.py --aggregate`
-occurrence_preview.md
+# regenerable from calibration/occurrence_calibration.json via `occurrence_moe.py --aggregate`
+/calibration/occurrence_preview.md
+# Legacy preview from older checkouts.
+/occurrence_preview.md
 
 # Package manager lock files (optional - uncomment if needed)
 # package-lock.json
@@ -71,7 +87,6 @@ scripts/list-claude-sessions.sh
 source/quartz/static/neural/
 neural/dist/
 neural/build/.tmp/
-neural-render.jpeg
 # raw Claude-Design dump is ignored; keep only the build inputs the bundle needs.
 #
 # ALLOW BY CONVENTION, NOT BY FILENAME (v1.77.0). This used to name five files
@@ -131,7 +146,6 @@ tests/artifacts/chrome/
 tests/artifacts/dualpair/payloads/
 tests/artifacts/dualpair/derive-equivalence.txt
 tests/artifacts/dualpair/derive-cost.txt
-node_modules/
 
 # Transient local-agent coordination notes (this checkout only; repo is public)
 HANDOFF.md

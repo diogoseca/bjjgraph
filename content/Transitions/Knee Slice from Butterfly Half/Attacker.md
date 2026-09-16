@@ -433,10 +433,10 @@ When drilling the knee slice from butterfly half guard, exercise caution with th
 
 <section id="related-systems" class="content-section related-systems">
 
-## Train this with a System
+## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Vagner-Rocha-Float-Passing-System" data-cta="related-system-card" data-system-slug="systems/vagner-rocha-float-passing-system" data-system-name="Vagner Rocha Float Passing System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Vagner Rocha Float Passing System</span><span class="system-card__unlocks-badge">Unlocks 10 techniques</span><span class="system-card__blurb">Related knee-slice connection</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Vagner-Rocha-Float-Passing-System" data-cta="related-system-card" data-system-slug="systems/vagner-rocha-float-passing-system" data-system-name="Vagner Rocha Float Passing System" data-member-count="10"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Vagner Rocha: Float-Passing Exits</span><span class="system-card__unlocks-badge">10 related references</span><span class="system-card__blurb">Related transition reference; graph linkage does not establish inclusion in the course.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

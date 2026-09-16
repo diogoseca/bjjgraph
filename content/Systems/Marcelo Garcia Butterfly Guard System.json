@@ -1,6 +1,5 @@
 {
   "name": "Marcelo Garcia Butterfly Guard System",
-  "description": "A dedicated look at Marcelo’s butterfly guard, connecting seated engagement with elevation and attacks. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -12,454 +11,192 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Intermediate",
-  "summary": "Butterfly guard begins with a useful connection to the opponent’s upper body and a hook that can elevate their weight.",
-  "overview": "Butterfly guard begins with a useful connection to the opponent’s upper body and a hook that can elevate their weight. This guide connects seated engagement, off-balancing and follow-up attacks so that a blocked sweep can lead to another decision.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
-  "key_principles": [
-    "Maintain active butterfly hooks at all times to control distance and create sweeping leverage",
-    "Secure at least one underhook to prevent opponent's crossface and enable offensive attacks",
-    "Keep head positioning higher than opponent's to control posture and create off-balancing angles",
-    "Use constant movement and angle changes to prevent opponent from establishing stable base",
-    "Chain sweep attempts together, using defensive reactions to set up subsequent attacks",
-    "Transition smoothly between butterfly guard variations and back take opportunities",
-    "Prioritize simplicity and high-percentage techniques over complex or low-success moves"
-  ],
-  "key_components": [
-    {
-      "component_name": "Butterfly Hook Control",
-      "description": "The foundational element involves placing both feet as hooks under the opponent's thighs, creating constant elevation threat and preventing their forward pressure. Active hook engagement means continuously lifting and creating instability rather than passive positioning. This hook placement provides the mechanical advantage necessary for all sweeps within the system.",
-      "purpose": "Establishes primary control mechanism and creates sweeping leverage"
-    },
-    {
-      "component_name": "Underhook Battle",
-      "description": "Securing one or both underhooks is critical for preventing opponent's crossface control while enabling offensive transitions. The underhook provides the pulling power necessary for effective sweeps and creates pathways to the back. Marcelo emphasizes fighting persistently for underhooks even when initially denied, using grip fighting and angle changes to eventually secure this crucial control point.",
-      "purpose": "Prevents opponent control while enabling sweeps and back takes"
-    },
-    {
-      "component_name": "Head Position Dominance",
-      "description": "Keeping your head higher than the opponent's, typically with forehead pressure against their chest or shoulder, disrupts their posture and prevents effective pressure passing. This head positioning works synergistically with underhooks to create the forward angles necessary for successful sweeps. Lower head position allows opponent to sprawl and flatten you, negating the system's effectiveness.",
-      "purpose": "Controls opponent's posture and creates optimal sweeping angles"
-    },
-    {
-      "component_name": "Sweep to Back Take Connection",
-      "description": "The system's most powerful aspect is the seamless transition from sweep attempts to back takes when opponent defends. If they post their hand to prevent a sweep, the arm drag to back take becomes available. If they lean back to counter elevation, the single leg X-guard entry opens up. This connection between sweeping threats and back taking opportunities creates the dilemma that makes the system so effective in competition.",
-      "purpose": "Converts defensive reactions into offensive opportunities"
-    },
-    {
-      "component_name": "Guillotine Integration",
-      "description": "When opponents attempt to pressure forward to pass butterfly guard, the guillotine choke becomes immediately available. Marcelo's system includes seamless transitions to arm-in guillotines and standing guillotine finishes, punishing forward pressure attempts. This submission threat forces opponents into more conservative passing attempts, which in turn makes sweeps more successful.",
-      "purpose": "Punishes forward pressure and forces conservative passing attempts"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Establish Butterfly Guard Position",
-      "description": "Begin from seated guard position and insert butterfly hooks under opponent's thighs, keeping hooks active and engaged. Secure at least one underhook while maintaining head position higher than opponent's base. Focus on proper posture with straight back rather than rounded shoulders.",
-      "key_points": [
-        "Insert hooks deep under thighs for maximum leverage",
-        "Fight immediately for underhook control",
-        "Keep head pressure forward against opponent's chest",
-        "Maintain active hook engagement rather than passive placement"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Master Basic Butterfly Sweep",
-      "description": "Develop the fundamental butterfly sweep where you lift with hooks while pulling with underhook and driving forward with head position. Practice explosive elevation combined with directional pulling to off-balance opponent. Focus on timing the sweep as opponent shifts weight forward.",
-      "key_points": [
-        "Coordinate hook lift with underhook pull simultaneously",
-        "Drive head forward and up to disrupt opponent's base",
-        "Sweep toward underhook side for maximum effectiveness",
-        "Follow through to mount or top position"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Develop Arm Drag to Back Take",
-      "description": "When opponent posts hand to prevent sweep, immediately transition to arm drag by controlling their posting arm and circling behind. This connection between sweep attempt and back take creates the essential dilemma of the system. Practice recognizing the hand post and smoothly transitioning without pause.",
-      "key_points": [
-        "Recognize hand post as signal for arm drag opportunity",
-        "Control posting arm with both hands and pull across body",
-        "Circle behind opponent while maintaining hook control",
-        "Secure back control with seat belt grip"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Integrate Single Leg X Transition",
-      "description": "Add the single leg X-guard entry for situations where opponent leans back to counter butterfly elevation. When they shift weight back, drop to single leg X position while maintaining one butterfly hook. This creates another branch in the decision tree that opponents must account for.",
-      "key_points": [
-        "Detect backward weight shift as trigger for transition",
-        "Drop to single leg X while keeping one butterfly hook active",
-        "Use single leg X to sweep or advance position",
-        "Return to butterfly if opponent pressures forward again"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Add Guillotine Threat",
-      "description": "Incorporate guillotine attacks when opponent pressures forward aggressively to pass. The arm-in guillotine from butterfly guard is particularly effective when combined with sweep threats. Practice recognizing forward pressure and immediately securing guillotine control.",
-      "key_points": [
-        "Snap down opponent's head when they pressure forward",
-        "Secure arm-in guillotine grip configuration",
-        "Fall to closed guard or stand up for finishing position",
-        "Use guillotine threat to force more cautious passing attempts"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Chain Techniques into Complete System",
-      "description": "Develop the ability to flow between all system components based on opponent reactions. Sweep attempts lead to arm drags, which lead to back takes. Forward pressure leads to guillotines. Backward lean leads to single leg X. Practice recognizing reaction patterns and immediately countering with appropriate technique.",
-      "key_points": [
-        "Read opponent's weight distribution and reactions",
-        "Flow seamlessly between techniques without resetting",
-        "Use failed attempts to set up subsequent attacks",
-        "Maintain offensive pressure throughout"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Opponent establishes heavy crossface and prevents underhook control, flattening your posture and negating hook effectiveness",
-      "solution": "Focus on head positioning first before fighting for underhooks. Use forehead pressure and neck mobility to prevent crossface establishment. If crossface is secured, shrimp away to create space, then re-enter with proper head position. Practice grip fighting sequences specifically designed to break crossface and secure underhooks."
-    },
-    {
-      "obstacle": "Hooks become passive and ineffective, allowing opponent to simply stand up or pressure through without sweep threat",
-      "solution": "Maintain constant active engagement with hooks, continuously lifting and creating elevation threat. Practice hook activation drills where you consciously engage lifting motion every few seconds. If opponent stands, immediately transition to single leg X-guard or standing guard rather than maintaining ineffective butterfly position."
-    },
-    {
-      "obstacle": "Timing is off on sweep attempts, resulting in failed sweeps that allow opponent to advance position or pass guard",
-      "solution": "Develop better sensitivity to opponent's weight distribution. Sweep when they shift weight forward, not when they're posted back. Practice with compliant partner to develop feel for optimal timing, then progress to resistant drilling. Use failed sweep attempts as setups for arm drags rather than resetting position."
-    },
-    {
-      "obstacle": "Unable to connect sweep attempts to back takes, missing opportunities when opponent defends with hand posts",
-      "solution": "Drill the specific transition from sweep attempt to arm drag extensively. The key is recognizing the hand post immediately and transitioning without pause. Practice flow drills where partner alternates between allowing sweeps and posting, forcing you to read and react appropriately. Make arm drag automatic response to hand post."
-    },
-    {
-      "obstacle": "System feels ineffective against larger, stronger opponents who use size advantage to pressure through position",
-      "solution": "Against larger opponents, emphasize mobility and angle changes over direct strength confrontation. Use guillotine threats more frequently to punish forward pressure. Transition more readily to X-guard variations where leverage negates size disadvantage. Accept that some positions require abandoning butterfly to maintain guard rather than forcing ineffective sweeps."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Sweep Success Rate from Butterfly",
-      "description": "Percentage of butterfly guard exchanges that result in successful sweep to top position or back take",
-      "proficiency_indicators": [
-        "Beginner: 20-30% sweep success against similar skill level opponents",
-        "Intermediate: 40-50% sweep success with consistent back take threats",
-        "Advanced: 60%+ sweep success with seamless transitions between techniques",
-        "Expert: 70%+ sweep success against resistance, including larger opponents"
-      ]
-    },
-    {
-      "metric_name": "Underhook Control Retention",
-      "description": "Ability to secure and maintain at least one underhook throughout butterfly guard exchanges",
-      "proficiency_indicators": [
-        "Beginner: Secures underhook initially but loses it under pressure",
-        "Intermediate: Maintains one underhook consistently through most exchanges",
-        "Advanced: Consistently maintains underhook and frequently secures double underhooks",
-        "Expert: Never loses underhook control without deliberately releasing for transitions"
-      ]
-    },
-    {
-      "metric_name": "System Integration Fluidity",
-      "description": "Smoothness of transitions between sweeps, back takes, guillotines, and guard variations based on opponent reactions",
-      "proficiency_indicators": [
-        "Beginner: Performs individual techniques but struggles with connections",
-        "Intermediate: Links 2-3 techniques together based on obvious reactions",
-        "Advanced: Flows seamlessly through entire system with minimal pause",
-        "Expert: Anticipates reactions and preemptively sets up next technique in chain"
-      ]
-    },
-    {
-      "metric_name": "Position Maintenance Under Pressure",
-      "description": "Ability to prevent guard passing attempts while maintaining offensive butterfly guard position",
-      "proficiency_indicators": [
-        "Beginner: Maintains position against passive opponents but gets passed under pressure",
-        "Intermediate: Prevents most passing attempts from similar skill level",
-        "Advanced: Maintains butterfly even against skilled passers through active defense",
-        "Expert: Uses passing attempts to create additional sweeping and back take opportunities"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "Marcelo Garcia's training methodology emphasizes positional sparring from butterfly guard with specific constraints. Begin with cooperative drilling of individual techniques, focusing on proper mechanics of hook placement, underhook control, and head positioning. Progress to flow drilling where partner provides realistic resistance and defensive reactions, allowing you to practice reading and countering. Incorporate live positional sparring starting from established butterfly guard, with rounds focused on achieving sweeps or back takes. Include rounds where you start from disadvantaged positions (opponent has crossface, you have no underhooks) to develop recovery skills. Gradually increase resistance levels and introduce time constraints to simulate competition pressure. Supplement with specific drilling of transitions between techniques, particularly sweep-to-arm-drag and butterfly-to-guillotine sequences.",
-    "progression_path": [
-      {
-        "stage": "Foundation Development",
-        "focus": "Master basic butterfly sweep mechanics, hook engagement, and underhook control. Develop comfort maintaining position against passive resistance.",
-        "timeframe": "Weeks 1-4"
-      },
-      {
-        "stage": "Reaction Recognition",
-        "focus": "Learn to identify opponent defensive patterns (hand posts, weight shifts, forward pressure) and connect appropriate counters. Begin integrating arm drags and single leg X transitions.",
-        "timeframe": "Weeks 5-12"
-      },
-      {
-        "stage": "System Integration",
-        "focus": "Develop seamless flow between all system components. Add guillotine threats and practice chaining techniques based on reactions. Increase sparring resistance significantly.",
-        "timeframe": "Weeks 13-24"
-      },
-      {
-        "stage": "Refinement and Personalization",
-        "focus": "Identify personal strengths within system and develop preferred pathways. Add individual variations while maintaining core principles. Compete using system actively.",
-        "timeframe": "Weeks 25-52"
-      },
-      {
-        "stage": "Advanced Application",
-        "focus": "Successfully implement system against higher-level opponents and larger training partners. Develop counter-strategies for common defenses. Teach system to others to deepen understanding.",
-        "timeframe": "Year 2+"
-      }
-    ],
-    "common_mistakes": [
-      "Maintaining passive hooks without active elevation threat, allowing opponent to simply stand or pressure through",
-      "Focusing only on sweep attempts without developing arm drag and back take connections",
-      "Neglecting head position control and allowing opponent to establish crossface and flatten posture",
-      "Attempting sweeps when opponent's weight is posted back rather than timing sweeps with forward weight shifts",
-      "Over-committing to failed sweep attempts instead of immediately transitioning to next technique in chain",
-      "Ignoring guillotine opportunities when opponent pressures forward, missing key submission threat",
-      "Staying in butterfly guard even when position becomes ineffective, rather than transitioning to alternative guards"
-    ]
-  },
   "related_content": [
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Primary position for entire system implementation"
+      "relationship": "Butterfly Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Butterfly Hook Control",
       "content_type": "Position",
-      "relationship": "Core control mechanism enabling all sweeps and transitions"
+      "relationship": "Butterfly Hook Control: related position study, separate from the source syllabus."
     },
     {
       "name": "Butterfly Sweep",
       "content_type": "Transition",
-      "relationship": "Fundamental sweep technique central to system effectiveness"
+      "relationship": "Butterfly Sweep: related transition study, separate from the source syllabus."
     },
     {
       "name": "Basic Butterfly Sweep",
       "content_type": "Transition",
-      "relationship": "Entry-level sweep variation for beginners learning system"
+      "relationship": "Basic Butterfly Sweep: related transition study, separate from the source syllabus."
     },
     {
       "name": "Arm Drag Sweep",
       "content_type": "Transition",
-      "relationship": "Key transition combining arm drag with sweep mechanics for back exposure"
+      "relationship": "Arm Drag Sweep: related transition study, separate from the source syllabus."
     },
     {
       "name": "Arm Drag to Back",
       "content_type": "Transition",
-      "relationship": "Essential transition when sweep is defended with hand post"
+      "relationship": "Arm Drag to Back: related transition study, separate from the source syllabus."
     },
     {
       "name": "Single Leg X-Guard",
       "content_type": "Position",
-      "relationship": "Alternative guard position when opponent leans back to counter butterfly"
+      "relationship": "Single Leg X-Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Single Leg X Entry",
       "content_type": "Transition",
-      "relationship": "Transition from butterfly when opponent shifts weight backward"
+      "relationship": "Single Leg X Entry: related transition study, separate from the source syllabus."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Primary destination from successful arm drags and back takes"
+      "relationship": "Back Control: related position study, separate from the source syllabus."
     },
     {
       "name": "Guillotine Control",
       "content_type": "Position",
-      "relationship": "Submission threat when opponent pressures forward to pass"
+      "relationship": "Guillotine Control: related position study, separate from the source syllabus."
     },
     {
       "name": "Arm in Guillotine",
       "content_type": "Submission",
-      "relationship": "Specific guillotine variation highly effective from butterfly guard"
+      "relationship": "Arm in Guillotine: related submission study, separate from the source syllabus."
     },
     {
       "name": "X-Guard",
       "content_type": "Position",
-      "relationship": "Related guard position sharing similar sweeping mechanics"
+      "relationship": "X-Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Deep Half Guard",
       "content_type": "Position",
-      "relationship": "Alternative bottom position when butterfly becomes ineffective"
+      "relationship": "Deep Half Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Critical skill for winning underhook battles and establishing control"
+      "relationship": "Grips: related principle study, separate from the source syllabus."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Core principle for maintaining active hooks and underhook retention throughout exchanges"
+      "relationship": "Control Maintenance: related principle study, separate from the source syllabus."
     },
     {
       "name": "Kuzushi",
       "content_type": "Principle",
-      "relationship": "Fundamental principle underlying all off-balancing and sweep attempts"
+      "relationship": "Kuzushi: related principle study, separate from the source syllabus."
     },
     {
       "name": "Hooks",
       "content_type": "Principle",
-      "relationship": "Foundational concept governing active butterfly hook engagement and elevation"
+      "relationship": "Hooks: related principle study, separate from the source syllabus."
     },
     {
       "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Conceptual framework for connecting sweep, back take, and submission threats into forced choices"
+      "relationship": "Fork Attacks: related principle study, separate from the source syllabus."
     },
     {
       "name": "Marcelo Garcia Guillotine System",
       "content_type": "System",
-      "relationship": "Complementary system integrating guillotine attacks with butterfly guard"
+      "relationship": "Marcelo Garcia Guillotine System: related system study, separate from the source syllabus."
     },
     {
       "name": "Marcelo Garcia X-Guard System",
       "content_type": "System",
-      "relationship": "Related guard system sharing similar principles and transitions"
+      "relationship": "Compare for entries underneath the opponent and a dedicated X-guard finish collection."
     },
     {
       "name": "No-Gi Competition Approach",
       "content_type": "System",
-      "relationship": "Competition framework emphasizing butterfly guard in no-gi contexts"
+      "relationship": "No-Gi Competition Approach: related system study, separate from the source syllabus."
     },
     {
       "name": "Dynamic Guard System",
       "content_type": "System",
-      "relationship": "Overarching approach to active guard play incorporating butterfly"
+      "relationship": "Dynamic Guard System: related system study, separate from the source syllabus."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What are the three control elements that define the Marcelo Garcia Butterfly Guard System?",
-      "answer": "Active butterfly hooks under the opponent's thighs, at least one underhook to deny the crossface, and a head position higher than the opponent's to break their posture and create sweeping angles.",
-      "answer_line": "Active hooks, underhook, head high",
-      "distractors": {
-        "plausible": [
-          "Hooks and underhooks, forget head",
-          "Head position and hooks only"
-        ],
-        "trap": [
-          "Overhooks and flat butterfly hooks"
-        ]
-      }
+  "summary": "A companion to The Complete Butterfly Guard that routes posture, engagement and standing-opponent questions to different sections.",
+  "description": "Study Marcelo Garcia’s butterfly syllabus by identifying whether difficulty starts before contact, in posture or after the opponent stands.",
+  "overview": "The course begins with hand, foot and elbow positioning, then expands into sweep variations and engagement problems. Its standing-opponent section means seated study does not end when the passer gets to their feet.",
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Marcelo Garcia: Butterfly Guard",
+    "audience": {
+      "fits": [
+        "You want seated butterfly study with separate material on posture, closing distance and opponents who stand or pressure."
+      ],
+      "consider_alternative_if": [
+        "If your main interest is getting underneath into X guard and selecting a finish, compare The Marcelo X Guard."
+      ]
     },
-    {
-      "question": "How does the system convert an opponent's hand post into an attack?",
-      "answer": "When the opponent posts a hand to block the elevation sweep, you immediately switch to an arm drag, controlling the posting arm across your body and circling behind to take the back with a seat belt grip.",
-      "answer_line": "Arm drag the post, take the back",
-      "distractors": {
-        "plausible": [
-          "Underhook the post arm instead",
-          "Switch to guillotine on the post"
-        ],
-        "trap": [
-          "Chase the sweep harder anyway"
-        ]
-      }
+    "coverage": {
+      "includes": [
+        "Posture and sweep process; upper-body controls, sweep variations and submissions.",
+        "Distance-closing material and responses to standing opponents or incoming pressure."
+      ],
+      "limits": [
+        "Butterfly is the central position; X-guard entries and finishes have their own dedicated Garcia release."
+      ]
     },
-    {
-      "question": "Why is the guillotine an essential part of the system rather than an optional add-on?",
-      "answer": "The guillotine punishes opponents who pressure forward to pass, which forces them into more conservative, posted-back passing — and that cautious posture is exactly what makes the elevation sweeps land.",
-      "answer_line": "Punishes pressure, enables sweeps",
-      "distractors": {
-        "plausible": [
-          "Just a submission, not a system",
-          "Backup if sweeps fail only"
-        ],
-        "trap": [
-          "Ignore pressure, get passed"
-        ]
-      }
+    "start_here": {
+      "title": "Sort posture, distance and standing problems",
+      "kind": "observation",
+      "task": "Compare volume 1’s posture section, volume 3’s distance-opening section and volume 4’s standing-opponent section. In an exchange you can review, note whether contact was never established, seated posture changed, or the passer stood. Select the corresponding study block instead of immediately adding another sweep.",
+      "source_ids": [
+        "garcia-butterfly-listing"
+      ],
+      "section": "Volume 1: MAINTAINING BUTTERFLY POSTURE — 7:47–13:36 (course range)"
     },
-    {
-      "question": "What does it mean for butterfly hooks to be 'active,' and why does it matter?",
-      "answer": "Active hooks continuously lift and threaten elevation rather than resting passively; passive hooks let the opponent stand up or pressure through without ever facing a genuine sweep threat, killing the system.",
-      "answer_line": "Constant lift, real sweep threat",
-      "distractors": {
-        "plausible": [
-          "Hooks in place, resting weight",
-          "Hooks deep, wait for opening"
-        ],
-        "trap": [
-          "Passive hooks, let them stand up"
-        ]
+    "sources": [
+      {
+        "id": "garcia-butterfly-listing",
+        "url": "https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia",
+        "title": "The Complete Butterfly Guard by Marcelo Garcia",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified posture/control, sweeping, distance, standing-opponent and pressure sections in four volumes. Listing and official sample iframe inspected; player content and playback not reviewed."
+      },
+      {
+        "id": "garcia-xguard-listing",
+        "url": "https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia",
+        "title": "The Marcelo X Guard by Marcelo Garcia",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified butterfly/shin-to-shin entries, sleeve/collar examples, stand-up finishes and pummel/backstep counters. Listing inspected; course video content not reviewed."
       }
-    },
-    {
-      "question": "When should you abandon butterfly guard and transition to single leg X-guard?",
-      "answer": "When the opponent leans or shifts their weight backward to counter the elevation, drop to single leg X while keeping one butterfly hook active, then sweep or advance position from there.",
-      "answer_line": "Opponent leans back, drop to X",
-      "distractors": {
-        "plausible": [
-          "Opponent postures up, switch guard",
-          "Opponent flattens out, sweep now"
-        ],
-        "trap": [
-          "Release both hooks, chase legs"
-        ]
-      }
-    },
-    {
-      "question": "What timing mistake most commonly causes butterfly sweeps to fail?",
-      "answer": "Attempting the sweep when the opponent's weight is posted back instead of waiting until they shift weight forward; sweeping into a posted base lets them stuff the attempt and begin passing.",
-      "answer_line": "Sweeping while they're posted back",
-      "distractors": {
-        "plausible": [
-          "Sweeping too early on entry",
-          "Waiting too long, losing hooks"
-        ],
-        "trap": [
-          "Sweep hard regardless of base"
-        ]
-      }
-    },
-    {
-      "question": "How does the system create a 'dilemma' that makes it effective against high-level opponents?",
-      "answer": "Every defensive reaction opens another attack — a hand post feeds the arm drag and back take, forward pressure feeds the guillotine, and a backward lean feeds single leg X — so the opponent cannot defend everything at once.",
-      "answer_line": "Every defense feeds another attack",
-      "distractors": {
-        "plausible": [
-          "Hooks alone overwhelm any defense",
-          "Guillotine threat wins alone"
-        ],
-        "trap": [
-          "Force one single attack repeatedly"
-        ]
-      }
-    },
-    {
-      "question": "What should you prioritize first when the opponent secures a crossface?",
-      "answer": "Re-establish head position before fighting for the underhook: use forehead pressure and neck mobility to deny the crossface, shrimp to create space if it is already locked, then re-enter with the head high.",
-      "answer_line": "Re-establish head position first",
-      "distractors": {
-        "plausible": [
-          "Fight for underhook immediately",
-          "Shrimp away, reset from distance"
-        ],
-        "trap": [
-          "Push into the crossface harder"
-        ]
-      }
+    ],
+    "preview": {
+      "provider": "youtube",
+      "embed_url": "https://www.youtube.com/embed/C5zVTEbR5PQ?autoplay=0",
+      "source_id": "garcia-butterfly-listing",
+      "title": "Official sample — Marcelo Garcia / Shoulder Clamp Sweep",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
     }
-  ],
+  },
   "products": [
     {
       "id": "the-complete-butterfly-guard-by-marcelo-garcia",
       "title": "The Complete Butterfly Guard",
       "instructor": "Marcelo Garcia",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia?rfsn=REPLACE_ME",
+      "course_url": "https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "A dedicated look at Marcelo’s butterfly guard, connecting seated engagement with elevation and attacks.",
-      "best_for": "Students building a seated guard who want more detail on connections and timing.",
-      "study_focus": "Start with the butterfly control and sweep material, then explore the connections to your existing guard.",
-      "practice_tip": "Work from seated guard against a kneeling partner. Establish your upper-body connection before testing whether the hook can elevate them."
+      "link_checked": "2026-09-16",
+      "blurb": "A four-volume course that includes posture, sweeps, engagement and standing-opponent material.",
+      "best_for": "You want seated butterfly study with separate material on posture, closing distance and opponents who stand or pressure.",
+      "study_focus": "Begin with posture, then locate the engagement problem that appears in your exchanges."
     }
-  ]
+  ],
+  "flashcards": []
 }

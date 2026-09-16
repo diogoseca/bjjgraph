@@ -386,10 +386,10 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 
 <section id="related-systems" class="content-section related-systems">
 
-## Train this with a System
+## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Lucas-Lepri-Half-Guard-Passing-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri Half Guard Passing System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Knee-shield context</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lucas-Lepri-Half-Guard-Passing-System" data-cta="related-system-card" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lucas Lepri: Gi Half-Guard Passing Problems</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related position reference; graph linkage does not establish inclusion in the course.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Passing System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

@@ -26,7 +26,7 @@ no-gi choke -- because the POSITION's name contains "Collar". So:
 
 What it reports, and the claim behind each section:
 
-  1. CALIBRATION <-> CONTENT FIDELITY. Content should equal `occurrence_calibration.json`'s
+  1. CALIBRATION <-> CONTENT FIDELITY. Content should equal `calibration/occurrence_calibration.json`'s
      `moves[].final`, MODULO the per-frame renormalization that `apply_occurrence_calibration.py`
      performs after dropping calibration moves absent from content. Skip that renormalization step
      and a naive diff reports ~308 false mismatches -- which is exactly the shape of bug this file
@@ -196,9 +196,9 @@ def section1(containers, positions, out):
             continue
         for frame in FRAMES:
             # CALIBRATION-side `or 0`, kept DELIBERATELY -- this pass nulls content, not the
-            # calibration. Measured on occurrence_calibration.json: 5246 `final` cells, 0 null,
+            # calibration. Measured on calibration/occurrence_calibration.json: 5246 `final` cells, 0 null,
             # 0 missing frame keys, so it coerces nothing today. Recompute before quoting that:
-            #   python3 -c "import json;c=json.load(open('occurrence_calibration.json'));\
+            #   python3 -c "import json;c=json.load(open('calibration/occurrence_calibration.json'));\
             #     print(sum(1 for k in c['containers'] for m in k['moves'] for f in ('gi','nogi')\
             #               if (m.get('final') or {}).get(f) is None))"
             # If calibration nulls ever land, the damage is CONTAINED TO THE NULL CELL'S OWN ROW:
@@ -584,7 +584,7 @@ def resolve_containers(cal, by_path, repo_root):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("content_root", nargs="?", default=str(ROOT / "content"))
-    ap.add_argument("calibration", nargs="?", default=str(ROOT / "occurrence_calibration.json"))
+    ap.add_argument("calibration", nargs="?", default=str(ROOT / "calibration/occurrence_calibration.json"))
     ap.add_argument("--ledger", default=str(ROOT / "tests/artifacts/occurrence_reviewed.json"))
     ap.add_argument("--gate", action="store_true", help="make findings fatal (wired into no workflow)")
     ap.add_argument("--selftest", action="store_true",

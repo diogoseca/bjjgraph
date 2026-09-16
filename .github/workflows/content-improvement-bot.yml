@@ -382,16 +382,17 @@ jobs:
             4. PAA data: `/tmp/paa_output/<filename>_paa.json` (if available)
 
             **Optimize:**
-            - Fill all template fields
+            - Fill required template fields; omit unsupported optional Systems sections
             - Fix validation errors
-            - Add 8-15 detailed execution steps
+            - For technique entries, add source-supported execution steps; Systems have no step quota
             - Ensure all transitions reference real positions from content catalog
             - Success rates: realistic, properly ordered
-            - Add [[Wikilinks]] throughout (6-15 minimum)
+            - Add [[Wikilinks]] throughout (verified targets; no quota for Systems)
+            - Systems: follow docs/Content.md and templates/Systems.json; no filler quotas, invented drills, metrics, timelines, credentials or verification dates. Preserve graph membership and canonical products. Use only actually inspected primary evidence; otherwise flag for review.
 
             **For PAA Integration:**
             - Weave high-priority questions into existing sections
-            - Add dedicated FAQ field at end with 5-10 Q&As
+            - Use only schema-supported FAQ fields; Systems have no FAQ quota
             - Improve field names/structure to match conversational queries
 
             ### For .md Files (orphaned only — no parent JSON)
@@ -413,7 +414,7 @@ jobs:
             - Paragraphs: 2-4 sentences max
             - Lists: Use bullet/numbered lists extensively
             - Bold: Emphasize entities and key terms
-            - Links: 10-20 [[Wikilinks]] minimum per article
+            - Links: useful verified references; no quota for Systems
 
             ## Production Requirements
 
@@ -639,7 +640,7 @@ jobs:
 
           **[[Wikilink]] Validation:**
           - All links validated against content catalog
-          - 10-20 links per article minimum
+          - Useful verified links; no quota for Systems
           - Prefer specific variants: [[Mount Top]] over [[Mount]]
 
           ### 🔧 Technical Processing

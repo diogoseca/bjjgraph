@@ -1,374 +1,127 @@
 
-
-
-
 ---
-title: "Eoghan O'Flanagan Shin-to-Shin System | BJJ System | BJJ Graph"
-description: "Study Eoghan O'Flanagan shin-to-shin guard through seated posture, hand-fighting decisions, stance-specific entries, and controlled follow-ups to leg contact."
+title: "Eoghan O’Flanagan: Shin-to-Shin and Seated Engagement | BJJGraph"
+description: "Use the published Shin to Shin outline to distinguish getting connected from responding after the connection is challenged."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Eoghan O'Flanagan Shin-to-Shin System",
-  "description": "Step-by-step implementation sequence for Eoghan O'Flanagan Shin-to-Shin System.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Set the seated posture",
-      "text": "Begin with the passer outside touching distance and move until a controlled hand-fighting exchange is possible.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Clear one obstacle",
-      "text": "Let the passer use a light shoulder post or collar tie, then work a coached route back to balanced contact.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Read the lead leg",
-      "text": "Pause after a stance change and select the leg that supports the chosen entry.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Establish shin contact",
-      "text": "Complete the approach without finishing pressure and describe what keeps the passer connected.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Test one disruption",
-      "text": "Allow one pummel or backstep and practise retaining useful contact or recovering open guard.",
-      "position": 5
-    }
-  ]
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Eoghan O'Flanagan Shin-to-Shin System",
-  "description": "Study Eoghan O'Flanagan shin-to-shin guard through seated posture, hand-fighting decisions, stance-specific entries, and controlled follow-ups to leg contact.",
-  "url": "https://bjjgraph.org/Systems/Eoghan-O'Flanagan-Shin-to-Shin-System",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Eoghan O'Flanagan Shin-to-Shin System", "item": "https://bjjgraph.org/Systems/Eoghan-O'Flanagan-Shin-to-Shin-System"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: The bottom player reaches while their head is controlled.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Resolve the post or tie and restore seated balance before attempting the entry."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: The passer changes lead legs and the entry misses.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Add stance-identification pauses before the first leg contact."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Shin contact is mistaken for a finished sweep.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Define a separate destination for the sweep and assess the connection first."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: The player follows a lost leg connection into a scramble.?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agree a recovery condition and reset when the relevant contact no longer exists."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Eoghan O'Flanagan Shin-to-Shin System",
-  "description": "The Eoghan O'Flanagan Shin-to-Shin System is an independent BJJGraph guide to shin-to-shin guard decisions, connecting positional control, opponent reactions, and a practical route into offense.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Eoghan O’Flanagan: Shin-to-Shin and Seated Engagement","description":"Use the published Shin to Shin outline to distinguish getting connected from responding after the connection is challenged."}
 </script>
-
-
-
-<div class="principle-meta">
-<span class="meta-chip">Guard System</span>
-<span class="meta-chip">Intermediate difficulty</span>
-</div>
-
-
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
-
+<main class="content-wrapper" data-system-guide>
+<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Shin to Shin by Eoghan O&#39;Flanagan.</p>
 <section id="overview" class="content-section">
 
-## What is Eoghan O'Flanagan Shin-to-Shin System?
+## Eoghan O’Flanagan: Shin-to-Shin and Seated Engagement
 
-**The Eoghan O'Flanagan Shin-to-Shin System is an independent BJJGraph guide to shin-to-shin guard decisions, connecting positional control, opponent reactions, and a practical route into offense.**
+**A companion to Shin to Shin that prioritizes the course’s posture, hand-fighting, heisting and stance-specific entry sections.**
 
-Seated guard needs a way to connect before a mobile passer circles away or controls the head. Shin-to-shin provides one such connection, but reaching for the ankle while the shoulders are being pushed backward can leave the bottom player chasing the exchange. This guide puts the approach and hand fight before the leg entry.
 
-The published syllabus links posture and hand fighting with heisting, stance-specific leg entries, and responses to pummeling or backsteps. The guide uses that positional scope, without treating the broader marketing description as a detailed submission syllabus. Shin to Shin by Eoghan O'Flanagan is the optional instructional companion. The drills, stages, and assessments below are original BJJGraph study suggestions; use the course demonstrations and coaching for the detailed mechanics.
+Shin-to-shin appears within a wider seated-engagement syllabus. The earlier posture and hand-fighting material may be the relevant starting point when the problem occurs before a leg entry is available.
+
+</section>
+
+<section id="fit" class="content-section">
+
+## Is this useful for you?
+
+- You struggle to reach shin-to-shin because posts, hand fighting or stance changes interrupt the approach.
+
+
+### Consider an alternative if
+
+- For study organized around coming up from several named guards, compare Dante Leon’s Wrestling Up From Guard guide.
+
+
+</section>
+<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
+<section id="start-here" class="content-section">
+
+## Start here: Locate where connection breaks
+
+Separate three observations in a seated exchange: a post blocks the approach, the stance changes before entry, or a pummel breaks an existing connection. Match the event to volume 1, 3 or 4 respectively. For course study, compare the early and later pummel-counter lessons without treating their titles as instructions.
+
+Published section: Volume 1: Intro And Posture — 0:28 (course timestamp)
+
+
+
+<p>Source: <a href="https://bjjfanatics.com/products/shin-to-shin-by-eoghan-oflanagan" target="_blank" rel="noopener">Shin to Shin by Eoghan O&#39;Flanagan</a></p>
 
 </section>
 
 
+<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/43085ac8-cc53-41a1-8a03-dd478ae4840a?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Eoghan O&#39;Flanagan / Shin to Shin">
+<h2>Official sample — Eoghan O&#39;Flanagan / Shin to Shin</h2>
+<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
+<button type="button" data-load-preview hidden>Load official sample</button>
+<div data-preview-player></div>
+<p><a href="https://bjjfanatics.com/products/shin-to-shin-by-eoghan-oflanagan" target="_blank" rel="noopener">Watch on the official page: Shin to Shin by Eoghan O&#39;Flanagan</a></p>
+</section>
 
 
 
+<section id="unlock-this-system" class="content-section product-cards" data-course-container>
+<h2>Course reference</h2>
 
+<article class="product-card">
+<h3>Shin to Shin</h3>
+<p>By Eoghan O&#39;Flanagan</p>
 
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="shin-to-shin-by-eoghan-oflanagan">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">Shin to Shin</h3>
-<p class="product-card__instructor">with Eoghan O'Flanagan</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> No-gi guard players with basic positional familiarity who want to study shin-to-shin guard. This is a focused companion rather than a complete beginner curriculum.</p>
-<p class="product-card__blurb">The published syllabus links posture and hand fighting with heisting, stance-specific leg entries, and responses to pummeling or backsteps. The guide uses that positional scope, without treating the broader marketing description as a detailed submission syllabus.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/shin-to-shin-by-eoghan-oflanagan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=eoghan-o%27flanagan-shin-to-shin-system&utm_term=shin-to-shin-by-eoghan-oflanagan" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="shin-to-shin-by-eoghan-oflanagan" data-system-slug="systems/eoghan-oflanagan-shin-to-shin-system" data-system-name="Eoghan O'Flanagan Shin-to-Shin System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+<p><a href="https://bjjfanatics.com/products/shin-to-shin-by-eoghan-oflanagan" data-course-url="https://bjjfanatics.com/products/shin-to-shin-by-eoghan-oflanagan" data-product-id="shin-to-shin-by-eoghan-oflanagan" data-system-slug="systems/eoghan-oflanagan-shin-to-shin-system" data-system-name="Eoghan O&#39;Flanagan Shin-to-Shin System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
 </article>
 
-</div>
-
 </section>
 
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+<span id="key-principles"></span><span id="key-components"></span>
+<section id="coverage" class="content-section">
 
-## Unlock this part of the graph
+## What the sources cover
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+- Posture, foot tracking and head/hand fighting; heisting against standing and kneeling opponents.
+- Square- and bladed-stance entries, then pummel, guillotine and backstep response sections.
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
 
-<ul class="system-members" data-system-members></ul>
+### Limits
 
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Resolve head and hand obstacles before chasing a leg.
-- Keep seated posture connected to the ability to rise.
-- Read which leg is leading before entering.
-- Treat shin contact as a connection rather than a completed attack.
-- Recognize the first pummel or backstep that changes the guard.
-- Keep a disengagement or guard-recovery option when contact disappears.
-
+- The detailed outline emphasizes engagement and entries; it does not separately index the full set of leg-lock finishes mentioned in the marketing copy.
 
 </section>
-
-<section id="key-components" class="content-section">
-
-## Key Components
-**Seated approach** (Avoid reaching from a collapsed starting position.)
-Maintain a posture from which you can move, frame, or rise while the passer changes distance.
-
-**Hand-fighting access** (Create space for a meaningful leg connection.)
-Identify the post or tie that blocks your approach and practise clearing it without losing balance.
-
-**Stance-specific contact** (Choose an approach consistent with the available leg.)
-Compare shin-to-shin access when the passer is square and when one leg leads.
-
-**Connection maintenance** (Keep the drill focused on retaining a useful exchange.)
-Observe the first leg pummel, retreat, or backstep and decide whether to follow or recover guard.
-
-
-
-</section>
-
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Set the seated posture**: Begin with the passer outside touching distance and move until a controlled hand-fighting exchange is possible.
-
-
-2. **Clear one obstacle**: Let the passer use a light shoulder post or collar tie, then work a coached route back to balanced contact.
-
-
-3. **Read the lead leg**: Pause after a stance change and select the leg that supports the chosen entry.
-
-
-4. **Establish shin contact**: Complete the approach without finishing pressure and describe what keeps the passer connected.
-
-
-5. **Test one disruption**: Allow one pummel or backstep and practise retaining useful contact or recovering open guard.
-
-
-
-
-</section>
-
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Start with posture and hand fighting in volume one, compare square and bladed stance entries in volume three, and use volume four to study the first lost-connection response.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/shin-to-shin-by-eoghan-oflanagan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=eoghan-o%27flanagan-shin-to-shin-system&utm_term=shin-to-shin-by-eoghan-oflanagan" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="shin-to-shin-by-eoghan-oflanagan" data-system-slug="systems/eoghan-oflanagan-shin-to-shin-system" data-system-name="Eoghan O'Flanagan Shin-to-Shin System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Shin to Shin &rarr;</a></p>
-</section>
-
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **The bottom player reaches while their head is controlled.**: Resolve the post or tie and restore seated balance before attempting the entry.
-- **The passer changes lead legs and the entry misses.**: Add stance-identification pauses before the first leg contact.
-- **Shin contact is mistaken for a finished sweep.**: Define a separate destination for the sweep and assess the connection first.
-- **The player follows a lost leg connection into a scramble.**: Agree a recovery condition and reset when the relevant contact no longer exists.
-
-
-</section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Approach balance**: Review this specific decision during constrained positional rounds.
-Proficiency indicators:
-- Maintains a usable posture during hand fighting
-- Can identify the contact or reaction that changed this decision.
-- Uses the observation to choose the next focused repetition.
-
-
-**Obstacle recognition**: Review this specific decision during constrained positional rounds.
-Proficiency indicators:
-- Names the post or tie blocking the entry
-- Can identify the contact or reaction that changed this decision.
-- Uses the observation to choose the next focused repetition.
-
-
-**Stance reading**: Review this specific decision during constrained positional rounds.
-Proficiency indicators:
-- Selects a leg after the lead changes
-- Can identify the contact or reaction that changed this decision.
-- Uses the observation to choose the next focused repetition.
-
-
-**Connection response**: Review this specific decision during constrained positional rounds.
-Proficiency indicators:
-- Recognizes when to follow or recover
-- Can identify the contact or reaction that changed this decision.
-- Uses the observation to choose the next focused repetition.
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-BJJGraph practice plan: Begin seated against a standing partner who may post on the shoulder or change lead legs. Clear the obstacle, establish shin contact, and stop at a named connection before adding a sweep. Keep the starting position consistent long enough to compare the same problem across repetitions. Add one defensive option at a time and record the first lost connection rather than only the final result.
-
-### Progression Path
-**Set the seated posture** (Focus: Begin with the passer outside touching distance and move until a controlled hand-fighting exchange is possible.)
-**Clear one obstacle** (Focus: Let the passer use a light shoulder post or collar tie, then work a coached route back to balanced contact.)
-**Read the lead leg** (Focus: Pause after a stance change and select the leg that supports the chosen entry.)
-**Establish shin contact** (Focus: Complete the approach without finishing pressure and describe what keeps the passer connected.)
-
-
-### Common Mistakes
-- The bottom player reaches while their head is controlled.
-- The passer changes lead legs and the entry misses.
-- Shin contact is mistaken for a finished sweep.
-
-
+<section id="sources" class="content-section">
+<h2>Sources and evidence</h2>
+<p><a href="https://bjjfanatics.com/products/shin-to-shin-by-eoghan-oflanagan" target="_blank" rel="noopener">Shin to Shin by Eoghan O&#39;Flanagan</a> — official listing; checked 2026-09-16. Verified posture/hand fighting, heisting, stance-specific entries and pummel/backstep response labels. Scope follows the chapter list. Listing and official sample iframe inspected; player content and playback not reviewed.</p><p><a href="https://bjjfanatics.com/products/wrestling-up-from-guard-by-dante-leon" target="_blank" rel="noopener">Wrestling Up From Guard by Dante Leon</a> — official listing; checked 2026-09-16. Verified distance-management lesson and three volumes covering X/De La Riva, reverse De La Riva and butterfly starts. Listing inspected; course video content not reviewed.</p>
 </section>
 
 <section id="related-content" class="content-section">
 
-## Which Positions, Transitions, and Principles Connect to This System?
+## Related references and alternatives
 
-- [[Positions/Shin-to-Shin Guard|Shin-to-Shin Guard]] (Position) - Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations.
-- [[Positions/Seated Guard|Seated Guard]] (Position) - Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations.
-- [[Positions/Open Guard|Open Guard]] (Position) - Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations.
-- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) - Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations.
-- [[Positions/X-Guard|X-Guard]] (Position) - Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations.
-- [[Positions/Standing Position|Standing Position]] (Position) - Positional reference for comparing shin-to-shin guard entries, controls, or recovery destinations.
-- [[Principles/Frames|Frames]] (Principle) - Structures that preserve space during the guard exchange.
-- [[Principles/Distance Control|Distance Control]] (Principle) - Spacing behind the entry and recovery decisions.
-- [[Principles/Base|Base]] (Principle) - Support to observe before selecting a sweep or coming up.
-- [[Principles/Grips|Grips]] (Principle) - Connections that give the chosen movement its purpose.
 
+<p><a href="/Principles/Frames">Frames</a> (Principle) — Frames: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Distance-Control">Distance Control</a> (Principle) — Distance Control: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Base">Base</a> (Principle) — Base: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Grips">Grips</a> (Principle) — Grips: related principle study, separate from the source syllabus.</p><p><a href="/Systems/Dante-Leon-Wrestling-Up-From-Guard-System">Dante Leon Wrestling Up From Guard System</a> (System) — Alternative organization for rising from X, De La Riva, reverse De La Riva or butterfly guard.</p>
+
+
+### Review related technique cards
+
+These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
+
+
+- [[Positions/Shin-to-Shin Guard|Shin-to-Shin Guard]] (Position) — Shin-to-Shin Guard: related position study, separate from the source syllabus.
+
+- [[Positions/Seated Guard|Seated Guard]] (Position) — Seated Guard: related position study, separate from the source syllabus.
+
+- [[Positions/Open Guard|Open Guard]] (Position) — Open Guard: related position study, separate from the source syllabus.
+
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) — Single Leg X-Guard: related position study, separate from the source syllabus.
+
+- [[Positions/X-Guard|X-Guard]] (Position) — X-Guard: related position study, separate from the source syllabus.
+
+- [[Positions/Standing Position|Standing Position]] (Position) — Standing Position: related position study, separate from the source syllabus.
 
 </section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>BJJGraph drill: Begin seated against a standing partner who may post on the shoulder or change lead legs. Clear the obstacle, establish shin contact, and stop at a named connection before adding a sweep.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/shin-to-shin-by-eoghan-oflanagan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=eoghan-o%27flanagan-shin-to-shin-system&utm_term=shin-to-shin-by-eoghan-oflanagan" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="shin-to-shin-by-eoghan-oflanagan" data-system-slug="systems/eoghan-oflanagan-shin-to-shin-system" data-system-name="Eoghan O'Flanagan Shin-to-Shin System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Shin to Shin &rarr;</a></p>
-</section>
-
-
-
 </main>

@@ -429,10 +429,10 @@ The ankle joint and Achilles tendon are vulnerable structures that can sustain s
 
 <section id="related-systems" class="content-section related-systems">
 
-## Train this with a System
+## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles Leg Lock Defense Framework</span><span class="system-card__unlocks-badge">Unlocks 26 techniques</span><span class="system-card__blurb">Key defensive transition for escaping ankle lock control and returning to a safe standing position</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Lachlan-Giles-Leg-Lock-Defense-Framework" data-cta="related-system-card" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-member-count="26"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Lachlan Giles: Defense Within the 50/50 Anthology</span><span class="system-card__unlocks-badge">26 related references</span><span class="system-card__blurb">Related transition reference for leg-entanglement study.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Defense System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

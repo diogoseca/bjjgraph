@@ -1,6 +1,5 @@
 {
   "name": "MMA Crossover Strategy",
-  "description": "Master MMA Crossover Strategy for BJJ. Comprehensive framework adapting grappling for strikes, cage work, and ground-and-pound. Competition-tested methods from no-gi specialists.",
   "tags": [
     "bjj",
     "mma",
@@ -12,483 +11,223 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Advanced",
-  "summary": "The MMA Crossover Strategy is a competition framework that adapts Brazilian Jiu-Jitsu for striking environments, prioritizing strike-aware posture, cage geometry, wrestling-based top control, ground-and-pound, and explosive high-percentage submissions over high-risk traditional guard play.",
-  "overview": "As mixed martial arts matured beyond its early grappling-dominant era, competitors learned that pure Brazilian Jiu-Jitsu had to be substantially modified to survive and win under the constant threat of strikes. MMA Crossover Strategy grew out of that evolution, addressing the unique challenges of grappling in a striking environment: maintaining defensive posture against strikes, utilizing cage geometry for positional advantage, modifying traditional submissions for strike-heavy scenarios, and implementing ground-and-pound strategies. The system emphasizes positions that offer strike protection while maintaining offensive capability, transitions that minimize exposure to strikes, and submissions that can be secured quickly before opponents create striking opportunities. Success in MMA grappling requires abandoning certain high-risk BJJ techniques in favor of conservative, strike-aware positioning combined with explosive finishing sequences when opportunities present themselves.",
-  "key_principles": [
-    "Posture and chin protection take absolute priority over traditional positional advancement",
-    "Cage geometry becomes a critical factor in takedowns, position maintenance, and escape sequences",
-    "Ground-and-pound fundamentally changes control hierarchies, making positions like mount and back control exponentially more dangerous",
-    "Submission attempts must be explosive and high-percentage to justify the risk of opponent strikes during setup",
-    "Wrestling-based top pressure becomes more valuable than guard playing due to strike vulnerability from bottom",
-    "Energy conservation is critical as striking exchanges drain cardio faster than pure grappling",
-    "Defensive frames and hand fighting must account for strikes, not just grips and position"
-  ],
-  "key_components": [
-    {
-      "component_name": "Strike-Aware Posture Management",
-      "description": "Fundamental postural adjustments that protect against strikes while maintaining grappling effectiveness. This includes chin tucking protocols, hand positioning for blocking strikes versus controlling position, and head movement integration with grappling transitions. The key distinction from pure BJJ is that head position and hand placement must serve dual defensive purposes, often requiring compromises in traditional grappling mechanics to prevent knockout strikes.",
-      "purpose": "Prevent knockout damage while executing grappling techniques"
-    },
-    {
-      "component_name": "Cage Control and Geometry",
-      "description": "Systematic use of cage structure for positional advantage, including wall-walking techniques for standup escapes, cage-assisted takedowns that trap opponents against the fence, and corner control strategies that limit opponent mobility. The cage creates unique opportunities for pressure passing, escape sequences, and defensive stalling that don't exist in traditional BJJ competition. Understanding cage angles allows fighters to pin opponents in positions where striking power is reduced.",
-      "purpose": "Leverage cage structure for positional dominance and escape options"
-    },
-    {
-      "component_name": "Modified Guard Strategy",
-      "description": "Adaptation of guard playing for strike environments, heavily favoring closed guard for strike protection, aggressive sweep attempts to minimize time on bottom, and emergency standup protocols when guard retention becomes dangerous. Traditional open guards like spider and De La Riva become extremely high-risk due to strike exposure, while butterfly guard and half guard require modified frames that protect the head. The emphasis shifts from guard retention to explosive sweeps or immediate standup.",
-      "purpose": "Maintain bottom position safety while creating sweep and standup opportunities"
-    },
-    {
-      "component_name": "Ground-and-Pound Integration",
-      "description": "Offensive striking from top positions that complements positional control, including elbow strikes from mount and side control, hammerfists from turtle top control, and strategic striking to force defensive reactions that create submission opportunities. Ground strikes serve both as finishing tools and as mechanisms to advance position when opponents protect their neck or arms against strikes. Understanding when to strike versus when to advance position is crucial for maximizing finish rates.",
-      "purpose": "Combine strikes with grappling to create submission opportunities and finish fights"
-    },
-    {
-      "component_name": "Explosive Submission Chains",
-      "description": "High-percentage submission sequences that can be secured rapidly before opponents create striking opportunities, including guillotine entries from sprawls, rear naked chokes from back control without hooks, and arm triangle setups from side control. Submissions requiring extensive setup time or complex positional adjustments are abandoned in favor of techniques that offer immediate finishing potential with minimal exposure to strikes during execution.",
-      "purpose": "Secure fight-ending submissions before strike exposure becomes critical"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Defensive Foundation",
-      "description": "Master fundamental strike protection while maintaining grappling capability, focusing on chin protection, hand positioning for blocking, and postural awareness under strike threat.",
-      "key_points": [
-        "Develop automatic chin-tucking response in all positions",
-        "Train hand positioning that serves both strike defense and grip fighting",
-        "Practice maintaining grappling effectiveness while protecting head",
-        "Drill defensive frames that account for strikes not just position"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Cage Integration",
-      "description": "Learn systematic use of cage geometry for takedowns, escapes, and position maintenance, transforming the cage from obstacle to tactical advantage.",
-      "key_points": [
-        "Master wall-walking techniques for standup from bottom",
-        "Develop cage-assisted takedown entries and finishes",
-        "Practice corner control strategies for limiting opponent mobility",
-        "Train pressure passing against cage to pin opponents"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Modified Guard Development",
-      "description": "Adapt traditional guard strategies for strike environments, emphasizing closed guard control, explosive sweeps, and emergency standup protocols.",
-      "key_points": [
-        "Build closed guard as primary bottom position for strike protection",
-        "Develop explosive sweep entries from half guard and butterfly",
-        "Practice technical standups when guard becomes compromised",
-        "Train guard recovery only when absolutely necessary, prefer standup"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Top Position Dominance",
-      "description": "Establish overwhelming top pressure with ground-and-pound integration, making top positions exponentially more dangerous than in pure grappling.",
-      "key_points": [
-        "Master mount and side control maintenance against strikes",
-        "Develop ground-and-pound sequences from all top positions",
-        "Practice transitioning between positions while maintaining strike threat",
-        "Train submission setups that capitalize on strike defensive reactions"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Submission Specialization",
-      "description": "Focus training on high-percentage, rapidly-secured submissions that minimize exposure to strikes during execution.",
-      "key_points": [
-        "Specialize in guillotines from sprawl and front headlock",
-        "Master rear naked choke without hooks for speed",
-        "Develop arm triangle from side control with strike integration",
-        "Practice explosive submission entries that capitalize on striking exchanges"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Game Planning Integration",
-      "description": "Develop opponent-specific strategies that blend striking and grappling based on fighter tendencies, creating comprehensive game plans.",
-      "key_points": [
-        "Analyze opponent striking patterns to identify grappling entry timing",
-        "Plan takedown strategies based on opponent defensive habits",
-        "Prepare position-specific strategies for different opponent types",
-        "Develop backup plans for when primary grappling approaches fail"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Over-commitment to traditional BJJ positions that become dangerous in strike environments, such as playing open guard or attempting complex sweep sequences",
-      "solution": "Shift mindset to conservative positioning focused on strike protection, abandoning high-risk guards in favor of closed guard, aggressive standup attempts, and wrestling-based top control. Accept that many beautiful BJJ techniques are impractical when strikes are involved."
-    },
-    {
-      "obstacle": "Inadequate chin protection and postural awareness leading to knockout damage during grappling exchanges",
-      "solution": "Drill automatic defensive responses that prioritize head protection, including chin tucking, hand positioning for blocking, and emergency shell defense when grappling positions break down. Make strike defense reflexive through consistent integration in all grappling training."
-    },
-    {
-      "obstacle": "Difficulty maintaining grappling cardio when striking exchanges drain energy reserves faster than pure grappling",
-      "solution": "Implement MMA-specific conditioning that combines striking and grappling in same training sessions, develop better pacing strategies that conserve energy during grappling exchanges, and improve efficiency in positional transitions to minimize wasted movement."
-    },
-    {
-      "obstacle": "Confusion about when to prioritize striking versus grappling during scrambles and position changes",
-      "solution": "Develop clear decision-making frameworks based on position: prioritize grappling when in dominant positions (mount, back, side control), prioritize strikes when defending bottom positions to create space, and use strikes to set up grappling advances from neutral positions."
-    },
-    {
-      "obstacle": "Failure to capitalize on cage geometry, treating the octagon like an open mat and missing critical positional advantages",
-      "solution": "Dedicate specific training time to cage-specific techniques including wall-walking, cage-assisted takedowns, and corner control strategies. Practice all positions with cage integration until cage awareness becomes automatic in positional decision-making."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Strike Defense Success Rate",
-      "description": "Percentage of grappling exchanges completed without absorbing significant strikes, measured in sparring and competition",
-      "proficiency_indicators": [
-        "Beginner: Frequently absorbs strikes during grappling transitions, inadequate head protection",
-        "Intermediate: Maintains basic strike defense but struggles in scrambles and position changes",
-        "Advanced: Consistently protects chin and head during all grappling phases, minimal strike absorption",
-        "Expert: Integrates strike defense seamlessly with offensive grappling, using defensive positioning to set up offensive opportunities"
-      ]
-    },
-    {
-      "metric_name": "Cage Utilization Effectiveness",
-      "description": "Ability to leverage cage geometry for positional advantage in both offensive and defensive scenarios",
-      "proficiency_indicators": [
-        "Beginner: Treats cage as obstacle, gets trapped against fence without using wall for advantage",
-        "Intermediate: Occasionally uses cage for wall-walking and basic defensive purposes",
-        "Advanced: Systematically uses cage for takedowns, escapes, and pressure passing",
-        "Expert: Dominates cage control, using geometry to dictate fight positioning and create finishing opportunities"
-      ]
-    },
-    {
-      "metric_name": "Top Position Dominance",
-      "description": "Ability to maintain and advance top positions while integrating ground-and-pound with submission threats",
-      "proficiency_indicators": [
-        "Beginner: Struggles to maintain top position when opponent uses strikes defensively",
-        "Intermediate: Holds top position but cannot effectively integrate strikes with positional advances",
-        "Advanced: Maintains dominant top control with effective ground-and-pound that creates submission opportunities",
-        "Expert: Overwhelms opponents from top with seamless striking and grappling integration, forcing defensive errors that lead to finishes"
-      ]
-    },
-    {
-      "metric_name": "Submission Conversion Rate",
-      "description": "Percentage of submission attempts that result in tapouts without absorbing strikes during setup or execution",
-      "proficiency_indicators": [
-        "Beginner: Low submission rate, frequently abandoned due to strike threats during setup",
-        "Intermediate: Secures submissions occasionally but takes damage during complex setups",
-        "Advanced: High conversion rate on explosive, high-percentage submissions with minimal strike exposure",
-        "Expert: Consistently finishes fights via submission using strike-integrated setups that create openings, minimal damage absorbed"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "MMA Crossover Strategy requires integrated training that combines striking and grappling in every session, avoiding the common mistake of separating these skills into distinct training blocks. Begin each session with positional sparring that includes limited striking (palm strikes or light punches with MMA gloves) to develop strike-aware grappling reflexes. Progress to flow drilling that incorporates cage work, practicing takedown entries against the fence, wall-walking escapes, and pressure passing in corners. Dedicate specific rounds to ground-and-pound integration from top positions, learning to transition between striking and positional advancement seamlessly. Finish with live MMA sparring that tests all elements under realistic conditions. The key is making strike awareness automatic rather than consciously considered during grappling exchanges.",
-    "progression_path": [
-      {
-        "stage": "Foundation Phase",
-        "focus": "Develop fundamental strike defense posture and chin protection reflexes in all grappling positions",
-        "timeframe": "Months 1-3"
-      },
-      {
-        "stage": "Cage Integration Phase",
-        "focus": "Master cage-specific techniques for takedowns, escapes, and position maintenance using wall geometry",
-        "timeframe": "Months 4-6"
-      },
-      {
-        "stage": "Position Modification Phase",
-        "focus": "Adapt traditional BJJ positions for strike environments, emphasizing safe bottom positions and dominant top control",
-        "timeframe": "Months 7-9"
-      },
-      {
-        "stage": "Offensive Integration Phase",
-        "focus": "Combine ground-and-pound with submission threats, using strikes to create grappling opportunities",
-        "timeframe": "Months 10-12"
-      },
-      {
-        "stage": "Competition Application Phase",
-        "focus": "Develop opponent-specific game plans and test full system integration in MMA competition",
-        "timeframe": "Months 13-18"
-      },
-      {
-        "stage": "Mastery Phase",
-        "focus": "Refine seamless striking-grappling transitions and develop signature techniques within MMA framework",
-        "timeframe": "Months 19+"
-      }
-    ],
-    "common_mistakes": [
-      "Attempting complex guard play that works in BJJ but creates excessive strike vulnerability in MMA",
-      "Neglecting cage awareness and missing critical positional advantages available through wall control",
-      "Over-reliance on traditional BJJ submissions that require extensive setup time and expose to strikes",
-      "Inadequate integration of striking and grappling, treating them as separate skills rather than unified system",
-      "Poor energy management, failing to account for increased cardio demands of combined striking and grappling",
-      "Insufficient drilling of defensive posture, leading to knockout damage during grappling transitions"
-    ]
-  },
+  "description": "A rules-based observation guide for BJJ students comparing grappling exchanges with sanctioned MMA.",
+  "summary": "Study how MMA scoring, grounded-fighter rules and fence restrictions change the context of familiar grappling positions.",
+  "overview": "A BJJ position name does not translate directly into an MMA score. The ABC judging clarification evaluates productive offense and expressly distinguishes it from merely holding a position. Its rules also define grounded-fighter status and distinguish contact with the fence from grabbing it. These are useful starting questions when observing an MMA exchange.",
   "related_content": [
     {
       "name": "Cage Clinch to Ground System",
       "content_type": "System",
-      "relationship": "Focused study plan linking cage clinch, a takedown, and stable top control with a directly matched Neiman Gracie course"
+      "relationship": "Related study guide: Cage Clinch to Ground System."
     },
     {
       "name": "No-Gi Competition Approach",
       "content_type": "System",
-      "relationship": "Foundational no-gi system that provides technical base for MMA adaptation"
+      "relationship": "Compare grappling-only event rules before carrying assumptions into MMA."
     },
     {
       "name": "Competition Strategy",
       "content_type": "System",
-      "relationship": "Strategic framework for match planning and opponent-specific preparation"
+      "relationship": "Related study guide: Competition Strategy."
     },
     {
       "name": "Danaher Front Headlock System",
       "content_type": "System",
-      "relationship": "Core system for MMA front headlock control and guillotine finishes"
+      "relationship": "Related study guide: Danaher Front Headlock System."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Dominant position that provides strike protection while threatening rear naked choke"
+      "relationship": "Position reference for organizing study: Back Control."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Top control position ideal for ground-and-pound and submission integration"
+      "relationship": "Position reference for organizing study: Mount."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Pressure position for ground strikes and arm triangle setups"
+      "relationship": "Position reference for organizing study: Side Control."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Primary bottom position offering strike protection and control"
+      "relationship": "Position reference for organizing study: Closed Guard."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Transitional bottom position for sweeps and standup attempts"
+      "relationship": "Position reference for organizing study: Half Guard."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Defensive position requiring modified approach due to strike vulnerability"
+      "relationship": "Position reference for organizing study: Turtle."
     },
     {
       "name": "Front Headlock",
       "content_type": "Position",
-      "relationship": "Control position for guillotine entries and ground-and-pound"
+      "relationship": "Position reference for organizing study: Front Headlock."
     },
     {
       "name": "Guillotine Control",
       "content_type": "Position",
-      "relationship": "High-percentage submission position from sprawl and front headlock"
+      "relationship": "Position reference for organizing study: Guillotine Control."
     },
     {
       "name": "Clinch",
       "content_type": "Position",
-      "relationship": "Standing control position bridging striking and grappling exchanges"
+      "relationship": "Position reference for organizing study: Clinch."
     },
     {
       "name": "Knee on Belly",
       "content_type": "Position",
-      "relationship": "Top pressure position for strikes and quick submission transitions"
+      "relationship": "Position reference for organizing study: Knee on Belly."
     },
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "Wrestling control for takedowns and cage-assisted throws"
+      "relationship": "Position reference for organizing study: Body Lock."
     },
     {
       "name": "Sprawl",
       "content_type": "Transition",
-      "relationship": "Primary takedown defense leading to front headlock and guillotine opportunities"
+      "relationship": "Related transition reference: Sprawl."
     },
     {
       "name": "Double Leg Entry",
       "content_type": "Transition",
-      "relationship": "High-percentage takedown for establishing top position in MMA"
+      "relationship": "Related transition reference: Double Leg Entry."
     },
     {
       "name": "Single Leg Entry",
       "content_type": "Transition",
-      "relationship": "Wrestling-based takedown adapted for MMA timing and cage work"
+      "relationship": "Related transition reference: Single Leg Entry."
     },
     {
       "name": "Technical Stand-up",
       "content_type": "Transition",
-      "relationship": "Emergency escape sequence from bottom positions when strikes threaten"
+      "relationship": "Related transition reference: Technical Stand-up."
     },
     {
       "name": "Guillotine Setup",
       "content_type": "Transition",
-      "relationship": "Explosive submission entry from sprawl and front headlock positions"
+      "relationship": "Related transition reference: Guillotine Setup."
     },
     {
       "name": "Darce Setup",
       "content_type": "Transition",
-      "relationship": "Front headlock submission alternative when guillotine unavailable"
+      "relationship": "Related transition reference: Darce Setup."
     },
     {
       "name": "Snap Down to Front Headlock",
       "content_type": "Transition",
-      "relationship": "Standing technique to establish front headlock control"
+      "relationship": "Related transition reference: Snap Down to Front Headlock."
     },
     {
       "name": "Guillotine Choke",
       "content_type": "Submission",
-      "relationship": "Primary submission from sprawl and front headlock in MMA"
+      "relationship": "Related submission reference: Guillotine Choke."
     },
     {
       "name": "Rear Naked Choke",
       "content_type": "Submission",
-      "relationship": "High-percentage finish from back control without strike exposure"
+      "relationship": "Related submission reference: Rear Naked Choke."
     },
     {
       "name": "Arm Triangle",
       "content_type": "Submission",
-      "relationship": "Side control submission that works with ground-and-pound integration"
+      "relationship": "Related submission reference: Arm Triangle."
     },
     {
       "name": "Darce Choke",
       "content_type": "Submission",
-      "relationship": "Front headlock finish alternative to guillotine"
+      "relationship": "Related submission reference: Darce Choke."
     },
     {
       "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Foundational defensive principles for maintaining protection during grappling exchanges"
+      "relationship": "Further conceptual reading: Defensive Concepts."
     },
     {
       "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Core escape principles including sprawl mechanics for takedown defense and bottom escapes"
+      "relationship": "Further conceptual reading: Escape Fundamentals."
     },
     {
       "name": "Chin Protection",
       "content_type": "Principle",
-      "relationship": "Critical safety principle for preventing knockout damage"
+      "relationship": "Further conceptual reading: Chin Protection."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Fundamental principle adapted for strike-aware balance and posture"
+      "relationship": "Further conceptual reading: Base."
+    },
+    {
+      "name": "Self-Defense Application Framework",
+      "content_type": "System",
+      "relationship": "A separate guide to the limits of sporting assumptions outside a regulated match."
     }
   ],
+  "guide": {
+    "kind": "topic_guide",
+    "display_title": "MMA Crossover: Recheck Grappling Assumptions",
+    "audience": {
+      "fits": [
+        "You can recognize BJJ positions but want to understand why a similar-looking MMA exchange has different tactical constraints."
+      ],
+      "consider_alternative_if": [
+        "For grappling without strikes, use No-Gi Competition Approach and its event-specific rules comparison."
+      ]
+    },
+    "coverage": {
+      "includes": [
+        "The difference between occupying a position and producing the offense discussed in MMA judging criteria.",
+        "Rules defining a grounded fighter and restricting fence grabs."
+      ],
+      "limits": [
+        "The selected ABC documents concern their stated MMA rules; amateur and commission-specific provisions require their own checks.",
+        "This is an observation guide, not instruction in striking, wall escapes or submissions against strikes."
+      ]
+    },
+    "start_here": {
+      "title": "Annotate what changes around a familiar position",
+      "kind": "observation",
+      "task": "Choose an MMA round you can review and isolate a grappling exchange. Make separate notes for positional changes, offensive actions and use of the fence. Compare the notes with the scoring clarification’s distinction between offense and holding. If grounded status or a fence grip matters, consult the relevant foul provision and the event’s adopted rules before labeling the action legal or illegal.",
+      "source_ids": [
+        "abc-mma-rules",
+        "abc-mma-scoring"
+      ],
+      "section": "ABC clarification: Dominance and Successful Grappling. Unified Rules: fouls 12–15."
+    },
+    "sources": [
+      {
+        "id": "abc-mma-rules",
+        "url": "https://www.abcboxing.com/wp-content/uploads/2025/08/Unified-Rules-of-MMA-8.2025.pdf",
+        "title": "Unified Rules of Mixed Martial Arts — Association of Boxing Commissions and Combative Sports",
+        "kind": "ruleset",
+        "checked_on": "2026-09-16",
+        "note": "Read the grounded-fighter definition and fence-grabbing provisions in the August 2025 document. This source defines prohibited actions, not grappling technique execution.",
+        "viewed_range": "Fouls 12–15, printed page 4"
+      },
+      {
+        "id": "abc-mma-scoring",
+        "url": "https://www.abcboxing.com/wp-content/uploads/2025/08/ABC-MMA-Scoring-Criteira-Clarification-7.2025.pdf",
+        "title": "MMA Bout Scoring — Judging Criteria Clarification",
+        "kind": "ruleset",
+        "checked_on": "2026-09-16",
+        "note": "Read the ABC clarification’s distinction between productive offense and merely holding a position, plus the round-based scoring system.",
+        "viewed_range": "Dominance and Successful Grappling, page 2; Numerical Scoring System, page 3"
+      }
+    ]
+  },
   "flashcards": [
     {
-      "question": "Why do top positions like mount and back control become more valuable in MMA than in sport BJJ?",
-      "answer": "In MMA they enable ground-and-pound while shielding the top fighter from strikes, making mount, back control, and side control exponentially more dangerous and decisive than in pure grappling, where they primarily set up submissions.",
-      "answer_line": "Ground-and-pound + strike shield",
-      "distractors": {
-        "plausible": [
-          "Faster submission setups",
-          "Easier to tire opponent"
-        ],
-        "trap": [
-          "Chase submissions, ignore strikes"
-        ]
-      }
-    },
-    {
-      "question": "Which traditional guards become high-risk in MMA, and what should replace them?",
-      "answer": "Open guards like spider, lasso, and De La Riva expose the head to strikes and become dangerous. They are replaced by closed guard for protection, plus explosive sweeps or technical standups to exit the bottom quickly.",
-      "answer_line": "Closed guard + explosive standup",
-      "distractors": {
-        "plausible": [
-          "Butterfly guard for sweeps",
-          "De La Riva for leg entries"
-        ],
-        "trap": [
-          "Spider guard, control the wrists"
-        ]
-      }
-    },
-    {
-      "question": "How does cage geometry change grappling strategy compared to an open mat?",
-      "answer": "The cage enables wall-walking standups, cage-assisted takedowns that trap opponents against the fence, and corner control to limit mobility. Fighters use cage angles to pin opponents where their striking power is reduced.",
-      "answer_line": "Wall-walk, trap on cage, corner",
-      "distractors": {
-        "plausible": [
-          "Mirror open-mat scrambles",
-          "Use cage only for standups"
-        ],
-        "trap": [
-          "Retreat to center, avoid cage"
-        ]
-      }
-    },
-    {
-      "question": "What makes a submission appropriate for MMA versus sport grappling?",
-      "answer": "MMA submissions must be explosive and high-percentage, securing the finish before strikes create danger. Guillotines from sprawls, the hooks-free rear naked choke, and arm triangles from side control are favored over slow, complex setups.",
-      "answer_line": "Explosive, high-percentage finishes",
-      "distractors": {
-        "plausible": [
-          "Slow, technical submission chains",
-          "Complex leg lock entanglements"
-        ],
-        "trap": [
-          "Wait for opponent to tap slowly"
-        ]
-      }
-    },
-    {
-      "question": "What is the single most important postural priority when grappling in MMA?",
-      "answer": "Chin protection and head positioning take absolute priority over positional advancement, because a knockout strike ends the fight instantly regardless of grappling position; the hands and posture must serve dual defensive duty.",
-      "answer_line": "Chin and head protection",
-      "distractors": {
-        "plausible": [
-          "Maintain top position first",
-          "Control opponent's hips"
-        ],
-        "trap": [
-          "Chase submission immediately"
-        ]
-      }
-    },
-    {
-      "question": "How should a fighter decide between striking and advancing position on the ground?",
-      "answer": "Prioritize grappling advances from dominant positions like mount and back, strike from the bottom to create space and standup chances, and strike from neutral positions to force defensive reactions that open grappling entries.",
-      "answer_line": "Advance on top, strike off bottom",
-      "distractors": {
-        "plausible": [
-          "Strike from all positions equally",
-          "Advance position even from bottom"
-        ],
-        "trap": [
-          "Stall on top waiting to strike"
-        ]
-      }
-    },
-    {
-      "question": "Why does MMA grappling demand different conditioning than pure BJJ?",
-      "answer": "Combined striking and grappling exchanges drain cardio far faster than pure grappling, so training must integrate both skills in the same sessions and emphasize pacing and efficient transitions to preserve energy reserves.",
-      "answer_line": "Combined cardio drains much faster",
-      "distractors": {
-        "plausible": [
-          "Same cardio demands as pure BJJ",
-          "Only striking cardio matters"
-        ],
-        "trap": [
-          "Train grappling, strikes separately"
-        ]
-      }
-    },
-    {
-      "question": "What is a common mistake when transitioning from sport BJJ to MMA grappling?",
-      "answer": "Over-committing to complex guard play and intricate sweep sequences that work on the mat but create excessive strike vulnerability in the cage; fighters must trade beautiful-but-slow techniques for conservative, strike-aware positioning.",
-      "answer_line": "Overcommit to complex guard play",
-      "distractors": {
-        "plausible": [
-          "Chase deep half guard sweeps",
-          "Play spider guard for control"
-        ],
-        "trap": [
-          "Ignore posture to lock triangles"
-        ]
-      }
+      "question": "In the ABC’s July 2025 MMA judging clarification, does merely holding a dominant position establish dominance?",
+      "answer": "No. The clarification distinguishes static holding from positional offense that continually forces defense against potentially fight-ending attacks.",
+      "answer_line": "No; holding alone is insufficient"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Standing Defense Strategy",
-  "description": "Study stance, leg-attack defense, and tie clearing with a BJJGraph training guide and Alex Enriquez's Wrestling Takedown Defense For Grappling instructional.",
+  "description": "Choose Alex Enriquez's takedown-defense material by distinguishing shots from space, established leg grips and standing ties.",
   "tags": [
     "bjj",
     "defense-system",
@@ -15,468 +15,158 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Intermediate",
-  "summary": "The Standing Defense Strategy is a BJJGraph framework for recognizing takedown entries, maintaining balance, defending leg attacks, and choosing a stable follow-up position.",
-  "overview": "Standing defense begins before a shot reaches your legs. Stance, movement, hand contact, and head position give you opportunities to interrupt an entry; later responses depend on the grip and angle the attacker has already secured. Treat these as connected decisions rather than relying on a single explosive sprawl.\n\nThis page is an independent BJJGraph framework for studying those decisions. Alex Enriquez's Wrestling Takedown Defense For Grappling is a useful optional companion because its published outline covers stance and motion, leg-attack defense, and clearing ties in a grappling context. Use the instructional for demonstrations and these practice suggestions to organize rounds. Gi grip exchanges and the decision to pull guard still need separate attention with your coach and chosen ruleset.",
-  "key_principles": [
-    "Distance Control - Maintain optimal engagement range where you can defend but opponent cannot easily attack",
-    "Base Widening - Lower center of gravity and widen stance to increase takedown resistance",
-    "Hand Fighting Primacy - Control opponent's hands and grips to prevent takedown setups",
-    "Sprawl Mechanics - Explosive hip projection and weight distribution to neutralize shot attempts",
-    "Defensive Posture - Maintain upright posture with hands ready to frame and control distance",
-    "Reactive Positioning - Respond to opponent movement by circling away from their strong side",
-    "Strategic Guard Pulling - Recognize when pulling guard is tactically superior to continued standing defense"
-  ],
-  "key_components": [
-    {
-      "component_name": "Grips Framework",
-      "description": "Systematic approach to controlling opponent's grips in both gi and no-gi contexts. In gi, this involves preventing dominant sleeve and collar grips that enable powerful throws and takedowns. In no-gi, focus shifts to controlling opponent's wrists, preventing body lock grips, and maintaining distance through strategic hand fighting. The framework emphasizes proactive grip breaking rather than reactive defense.",
-      "purpose": "Prevent opponent from establishing grips necessary for high-percentage takedown attacks"
-    },
-    {
-      "component_name": "Sprawl Defense Protocol",
-      "description": "Technical system for defending single leg and double leg takedown attempts through explosive hip extension, weight projection onto opponent's back, and crossface/whizzer control. Includes timing drills for recognizing shot initiation, proper sprawl mechanics to maximize defensive pressure, and follow-up sequences to return to standing or transition to front headlock control. Emphasizes immediate reaction to prevent opponent from securing leg position.",
-      "purpose": "Neutralize leg attack takedowns and create opportunities for counter-offense"
-    },
-    {
-      "component_name": "Distance Management System",
-      "description": "Strategic framework for controlling engagement distance through footwork, circling patterns, and range awareness. Teaches practitioners to recognize three critical distances: out of range (safe), engagement range (hand fighting), and danger zone (opponent can shoot). System includes protocols for maintaining preferred distance, using angles to create escape paths, and tactical retreating without being driven to boundaries.",
-      "purpose": "Control when and how opponent can initiate takedown attacks through spatial awareness"
-    },
-    {
-      "component_name": "Base Principles",
-      "description": "Technical framework for maintaining strong defensive base through proper stance width, knee bend, weight distribution, and hip positioning. Addresses common errors such as standing too upright, crossing feet, or having stance too narrow. Includes protocols for lowering center of gravity when opponent initiates attack, widening base under pressure, and recovering balance when compromised. Emphasizes connection between base quality and takedown resistance.",
-      "purpose": "Create structural stability that makes takedowns mechanically difficult to complete"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Stance and Posture Foundation",
-      "description": "Establish fundamental defensive stance with feet shoulder-width or wider, knees slightly bent, weight distributed evenly, and hands up in ready position. Practice maintaining this posture while moving in all directions.",
-      "key_points": [
-        "Feet wider than shoulder width for base stability",
-        "Slight forward lean from hips while maintaining upright spine",
-        "Hands positioned at chest height to control distance",
-        "Head up with eyes on opponent's chest/hips (not their eyes)"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Grips Integration",
-      "description": "Develop systematic grip fighting habits to prevent opponent from establishing dominant grips. In gi, focus on preventing cross-collar grips and sleeve control. In no-gi, prevent wrist control and body lock attempts.",
-      "key_points": [
-        "Proactively fight for inside position with hands",
-        "Break opponent grips immediately when established",
-        "Use frames (posting hands on opponent's shoulders/chest) to maintain distance",
-        "Never allow both of opponent's hands to control your arms simultaneously"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Sprawl Mechanics Development",
-      "description": "Master explosive sprawl reaction to leg attack attempts. Train the kinesthetic recognition of opponent level change and immediate hip projection response. Develop muscle memory for proper weight distribution onto opponent's shoulders.",
-      "key_points": [
-        "Recognize opponent's level change as attack initiation",
-        "Explosive hip extension to project weight onto opponent",
-        "Keep chest up while hips go back and down",
-        "Secure crossface or whizzer to prevent opponent from coming up"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Distance Control Application",
-      "description": "Implement footwork patterns to control engagement distance. Practice circling away from opponent's strong side, using angles to create escape paths, and maintaining optimal range for defense.",
-      "key_points": [
-        "Circle away from opponent's dominant grip or leg attack side",
-        "Use small shuffle steps rather than crossing feet",
-        "Maintain awareness of mat boundaries to avoid being trapped",
-        "Recognize when distance has closed to danger zone and react"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Counter-Offense and Transition",
-      "description": "Develop ability to transition from pure defense to counter-attacks or strategic guard pulling. Learn to recognize when sprawl defense can transition to front headlock control, when to attempt own takedown, or when guard pulling is optimal choice.",
-      "key_points": [
-        "From successful sprawl, look for front headlock or guillotine opportunities",
-        "Recognize when opponent's failed shot leaves them exposed to counter-attack",
-        "Understand tactical scenarios where guard pulling is superior to continued standing exchange",
-        "Develop smooth entries to guard pull from defensive positions"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Specific Defense Protocols",
-      "description": "Build specific defensive responses for common takedown attacks: single leg defense, double leg defense, body lock defense, and throw defense. Each requires slightly different mechanics and follow-up sequences.",
-      "key_points": [
-        "Single leg: Sprawl, crossface, and circle away while maintaining balance",
-        "Double leg: Sprawl with emphasis on hip projection and chest pressure",
-        "Body lock: Hand fight to prevent lock completion, frame on hips, and create distance",
-        "Throws (gi): Prevent dominant grips, lower center of gravity, and counter-grip"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Reactive rather than proactive grip fighting - waiting for opponent to establish grips before attempting to break them",
-      "solution": "Develop habit of constant hand fighting and grip breaking. Never allow opponent to settle with grips. Practice proactive grip fighting in drilling where you initiate grip breaks before opponent can use them for attacks."
-    },
-    {
-      "obstacle": "Standing too upright with high center of gravity making takedowns easier to complete",
-      "solution": "Drill proper defensive stance with knees bent and slight forward lean. Practice maintaining lowered stance during movement and grip fighting. Use video analysis to identify when you rise too high during exchanges."
-    },
-    {
-      "obstacle": "Slow sprawl reaction time allowing opponent to secure legs before defensive response",
-      "solution": "Develop kinesthetic awareness of opponent level change through repetitive drilling. Practice sprawl reactions to visual and tactile cues. Use reaction drills where training partner initiates random shots to improve response speed."
-    },
-    {
-      "obstacle": "Feet too close together or crossing feet during movement compromising base stability",
-      "solution": "Focus on footwork fundamentals with shuffle steps maintaining wide base. Practice circling movements without crossing feet. Use agility ladder drills to develop proper foot patterns under pressure."
-    },
-    {
-      "obstacle": "Inability to recognize when guard pulling is tactically superior to continued standing defense",
-      "solution": "Study competition footage to understand scenarios where elite competitors choose to pull guard. Develop decision-making framework based on factors: opponent's wrestling skill, your guard strength vs standing defense skill, rule set, score differential, and energy expenditure."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Entry recognition",
-      "description": "Record when you noticed the attack and what contact gave the cue.",
-      "proficiency_indicators": [
-        "Notice a level change while keeping balance.",
-        "Identify which tie helped the attacker enter.",
-        "Distinguish an unconnected shot from a secured leg grip."
-      ]
-    },
-    {
-      "metric_name": "Base during movement",
-      "description": "Observe footwork while the partner changes direction.",
-      "proficiency_indicators": [
-        "Circle without crossing the feet.",
-        "Recover stance after hand fighting.",
-        "Avoid leaning so far forward that the head is easily pulled down."
-      ]
-    },
-    {
-      "metric_name": "Defense selection",
-      "description": "Compare the response with the actual grip and angle.",
-      "proficiency_indicators": [
-        "Name the leg attack being defended.",
-        "Recognize when a late defense is required.",
-        "Reset safely when the position exceeds the drill's scope."
-      ]
-    },
-    {
-      "metric_name": "Useful follow-up",
-      "description": "Track the position achieved after stopping the attack.",
-      "proficiency_indicators": [
-        "Recover a balanced stance.",
-        "Secure control before attempting a counter.",
-        "Check neck exposure when the exchange becomes grounded."
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "Standing defense training should integrate technical drilling, reaction training, and live situational sparring. Begin each session with stance and movement drills focusing on footwork fundamentals and base maintenance. Progress to grip fighting drills where partners practice breaking grips and maintaining distance control. Incorporate sprawl reaction drills using progressive resistance - starting with slow, predictable shots and advancing to explosive, random attacks. Finish with situational sparring where one partner attacks only with takedowns while defender practices full defensive system including strategic guard pulling. Video analysis of training and competition footage is essential for identifying defensive weaknesses and improving decision-making. Emphasize quality over quantity in repetitions, ensuring proper mechanics before increasing speed or resistance.",
-    "progression_path": [
-      {
-        "stage": "Stance and contact",
-        "focus": "Maintain balance while circling and making light hand contact."
-      },
-      {
-        "stage": "Predictable entries",
-        "focus": "Practice one agreed attack and its initial defensive response with a cooperative partner."
-      },
-      {
-        "stage": "Established grips",
-        "focus": "Study controlled late starts separately from open-space defense, with a coach checking the position."
-      },
-      {
-        "stage": "Decision rounds",
-        "focus": "Mix a small number of attacks and review whether you selected the appropriate response; progress through consistency rather than a calendar."
-      }
-    ],
-    "common_mistakes": [
-      "Overcommitting to standing defense when guard pulling would be tactically superior",
-      "Neglecting no-gi defense in favor of gi-specific training (or vice versa)",
-      "Training sprawls from static starting positions rather than dynamic grip fighting exchanges",
-      "Failing to practice counter-offense from successful defensive positions",
-      "Ignoring footwork and distance management in favor of pure reactive sprawling"
-    ]
-  },
+  "summary": "Alex Enriquez's Wrestling Takedown Defense For Grappling separates stance and sprawl study from specific leg attacks and tie-clearing problems.",
+  "overview": "An opponent entering from space and an opponent already holding an elevated leg appear in different parts of this outline. Preserve that distinction when choosing a lesson; a general instruction to sprawl does not describe all the situations listed here.",
   "related_content": [
     {
       "name": "Standing Position",
       "content_type": "Position",
-      "relationship": "Primary position where standing defense system is applied"
+      "relationship": "Related position reference for standing defense study."
     },
     {
       "name": "Combat Base",
       "content_type": "Position",
-      "relationship": "Defensive base position used when opponent has partially secured takedown"
+      "relationship": "Related position reference for standing defense study."
     },
     {
       "name": "Clinch",
       "content_type": "Position",
-      "relationship": "Close-range standing position where grip fighting and takedown defense occur"
+      "relationship": "Related position reference for standing defense study."
     },
     {
       "name": "Standing Rear Clinch",
       "content_type": "Position",
-      "relationship": "Standing clinch position requiring specific defensive protocols"
+      "relationship": "Related position reference for standing defense study."
     },
     {
       "name": "Overhook Control",
       "content_type": "Position",
-      "relationship": "Standing control position used for grip fighting and preventing takedown setups"
+      "relationship": "Related position reference for standing defense study."
     },
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "Offensive position this system defends against through grip fighting"
+      "relationship": "Related position reference for standing defense study."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Position to avoid or escape from when takedown defense fails"
+      "relationship": "Related position reference for standing defense study."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Common guard position to transition to via strategic guard pull"
+      "relationship": "Related position reference for standing defense study."
     },
     {
       "name": "Standing Guard",
       "content_type": "Position",
-      "relationship": "Position that bridges standing exchanges and guard play"
+      "relationship": "Related position reference for standing defense study."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Guard option when pulling from standing defense"
+      "relationship": "Related position reference for standing defense study."
     },
     {
       "name": "Sprawl",
       "content_type": "Transition",
-      "relationship": "Primary defensive technique against leg attack takedowns"
+      "relationship": "Related transition reference for standing defense study."
     },
     {
       "name": "Sprawl Defense",
       "content_type": "Transition",
-      "relationship": "Comprehensive technique for defending double and single leg attacks"
+      "relationship": "Related transition reference for standing defense study."
     },
     {
       "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Understanding connection and contact principles is essential for recognizing and defending takedown setups"
+      "relationship": "Related principle reference for standing defense study."
     },
     {
       "name": "Guard Pull",
       "content_type": "Transition",
-      "relationship": "Strategic alternative to standing defense when tactically appropriate"
+      "relationship": "Related transition reference for standing defense study."
     },
     {
       "name": "Single Leg Entry",
       "content_type": "Transition",
-      "relationship": "Common attack this system defends against"
+      "relationship": "Related transition reference for standing defense study."
     },
     {
       "name": "Double Leg Finish",
       "content_type": "Transition",
-      "relationship": "Common attack this system defends against"
+      "relationship": "Related transition reference for standing defense study."
     },
     {
       "name": "Grip Break",
       "content_type": "Principle",
-      "relationship": "Essential technique within grip fighting framework"
+      "relationship": "Related principle reference for standing defense study."
     },
     {
       "name": "Whizzer",
       "content_type": "Transition",
-      "relationship": "Defensive control used in sprawl defense protocol"
+      "relationship": "Related transition reference for standing defense study."
     },
     {
       "name": "Technical Stand-up",
       "content_type": "Transition",
-      "relationship": "Offensive transition to return to standing when taken down"
+      "relationship": "Related transition reference for standing defense study."
     },
     {
       "name": "Snap Down to Front Headlock",
       "content_type": "Transition",
-      "relationship": "Counter-offensive technique from standing defense exchanges"
+      "relationship": "Related transition reference for standing defense study."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Fundamental principle for maintaining structural stability in standing defense"
+      "relationship": "Related principle reference for standing defense study."
     },
     {
       "name": "Posture",
       "content_type": "Principle",
-      "relationship": "Postural principles applied throughout standing defensive exchanges"
+      "relationship": "Related principle reference for standing defense study."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Essential skill for preventing takedown setups and controlling engagement"
+      "relationship": "Related principle reference for standing defense study."
     },
     {
       "name": "Distance Control",
       "content_type": "Principle",
-      "relationship": "Strategic principle for controlling engagement distance and creating separation"
+      "relationship": "Related principle reference for standing defense study."
     },
     {
       "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Overarching conceptual framework for defensive decision-making"
+      "relationship": "Related principle reference for standing defense study."
     },
     {
       "name": "Center of Gravity",
       "content_type": "Principle",
-      "relationship": "Biomechanical principle for maintaining balance and base in standing"
+      "relationship": "Related principle reference for standing defense study."
     },
     {
       "name": "Competition Mindset",
       "content_type": "Principle",
-      "relationship": "Decision-making framework for evaluating when to defend standing vs pull guard in competition context"
+      "relationship": "Related principle reference for standing defense study."
     },
     {
       "name": "Competition Strategy",
       "content_type": "System",
-      "relationship": "Broader strategic framework within which standing defense operates"
+      "relationship": "Related system reference for standing defense study."
     },
     {
       "name": "No-Gi Tactical Framework",
       "content_type": "System",
-      "relationship": "No-gi specific strategic approach incorporating standing defense principles"
-    }
-  ],
-  "flashcards": [
-    {
-      "question": "What are the three core pillars of the Standing Defense Strategy?",
-      "answer": "Distance management, base maintenance, and reactive positioning. Together they let you defend at optimal range, resist takedowns mechanically, and respond to the opponent's movement before a shot fully develops.",
-      "answer_line": "Distance, base, reactive position",
-      "distractors": {
-        "plausible": [
-          "Strength, base, aggression",
-          "Speed, grips, pressure"
-        ],
-        "trap": [
-          "Attack, attack, attack"
-        ]
-      }
+      "relationship": "Related system reference for standing defense study."
     },
     {
-      "question": "What is the correct sprawl reaction when an opponent shoots for a double leg?",
-      "answer": "Recognize the level change, then explosively drive your hips back and down while keeping your chest up, projecting your weight onto the opponent's shoulders, and secure a crossface or whizzer to stop them from coming up.",
-      "answer_line": "Sprawl hips back, chest up",
-      "distractors": {
-        "plausible": [
-          "Sit down, pull head in",
-          "Step back and circle away"
-        ],
-        "trap": [
-          "Turtle up, give the back"
-        ]
-      }
-    },
-    {
-      "question": "Why is proactive grip fighting preferred over reactive grip breaking?",
-      "answer": "Waiting until the opponent settles a grip lets them launch their takedown setup first. Constant hand fighting denies the dominant sleeve, collar, or body-lock grips they need, keeping you a step ahead of their attacks.",
-      "answer_line": "Fight grips first, not after",
-      "distractors": {
-        "plausible": [
-          "Break grips after they land",
-          "Match grips, mirror theirs"
-        ],
-        "trap": [
-          "Let them grip, then explode"
-        ]
-      }
-    },
-    {
-      "question": "What are the three engagement distances a practitioner must recognize?",
-      "answer": "Out of range (safe, no contact), engagement range (hand fighting where grips are contested), and the danger zone (close enough that the opponent can shoot). Knowing which you are in dictates whether to circle, fight grips, or sprawl.",
-      "answer_line": "Out of range, engage, danger zone",
-      "distractors": {
-        "plausible": [
-          "Long, medium, close striking range",
-          "Standing, clinch, ground range"
-        ],
-        "trap": [
-          "Ignore distance, close in fast"
-        ]
-      }
-    },
-    {
-      "question": "How does widening your base improve takedown resistance?",
-      "answer": "A wider stance with bent knees lowers your center of gravity, making it mechanically harder for the opponent to off-balance you or drive through your hips — the structural basis of single- and double-leg defense.",
-      "answer_line": "Lower center of gravity",
-      "distractors": {
-        "plausible": [
-          "Narrow stance, quick feet",
-          "Lean back, straighten legs"
-        ],
-        "trap": [
-          "Stand tall, square hips"
-        ]
-      }
-    },
-    {
-      "question": "When is pulling guard tactically superior to continuing standing defense?",
-      "answer": "When the opponent's wrestling outclasses your standing defense, your guard is stronger than your takedown game, or the rule set and score favor it. Pull guard as a deliberate plan, not a panic reaction to pressure.",
-      "answer_line": "When wrestling outclasses you",
-      "distractors": {
-        "plausible": [
-          "Whenever you feel tired",
-          "Anytime opponent shoots"
-        ],
-        "trap": [
-          "Never, always sprawl"
-        ]
-      }
-    },
-    {
-      "question": "What is a common base error that makes takedowns easier, and how do you fix it?",
-      "answer": "Standing too upright with a high center of gravity. Fix it by drilling a stance with bent knees and a slight forward lean from the hips, and use video to catch the moments you rise during exchanges.",
-      "answer_line": "Upright stance; bend knees",
-      "distractors": {
-        "plausible": [
-          "Feet too wide, narrow them",
-          "Hands too low, raise guard"
-        ],
-        "trap": [
-          "Lean back to avoid shots"
-        ]
-      }
-    },
-    {
-      "question": "What counter-offensive options open up after a successful sprawl?",
-      "answer": "From the sprawl you can transition to front headlock control, attack a guillotine or arm-in choke, snap the opponent down, or take the back, since their failed shot leaves them exposed and bent over.",
-      "answer_line": "Front headlock, guillotine, back",
-      "distractors": {
-        "plausible": [
-          "Stand back to neutral distance",
-          "Freeze and hold the position"
-        ],
-        "trap": [
-          "Reach forward to grab both legs"
-        ]
-      }
-    },
-    {
-      "question": "How should you use footwork to control engagement distance?",
-      "answer": "Circle away from the opponent's strong side using small shuffle steps without crossing your feet, use angles to create escape paths, and stay aware of mat boundaries so you are not driven into a vulnerable position.",
-      "answer_line": "Circle away, small shuffle steps",
-      "distractors": {
-        "plausible": [
-          "Cross-step to close distance",
-          "Backpedal straight in retreat"
-        ],
-        "trap": [
-          "Plant feet, stand and trade"
-        ]
-      }
+      "name": "Danaher Pin Escape Fundamentals System",
+      "content_type": "System",
+      "relationship": "Alternative when the standing exchange has already ended in an established pin."
     }
   ],
   "products": [
@@ -485,13 +175,76 @@
       "title": "Wrestling Takedown Defense For Grappling",
       "instructor": "Alex Enriquez",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/wrestling-takedown-defense-for-grappling-by-alex-enriquez?rfsn=REPLACE_ME",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "A close fit for the standing-defense side of this system, with a published syllabus covering stance, sprawls, leg attacks, and clearing ties.",
-      "best_for": "BJJ practitioners building takedown defense for grappling. Gi-specific grip sequences and strategic guard pulling are separate parts of this BJJGraph guide.",
-      "study_focus": "Begin with the main principles and stance-and-motion drills; then select one single-leg or double-leg defense before studying the tie-clearing section.",
-      "practice_tip": "BJJGraph drill: let a partner use one agreed leg attack at controlled speed. Alternate defending the initial entry and recovering after the grip is established; reset when balance or neck control is lost."
+      "link_checked": "2026-09-16",
+      "blurb": "The published outline separates initial leg attacks, established leg-control situations and clearing ties.",
+      "best_for": "Grapplers choosing a wrestling-defense lesson that matches the stage of the standing exchange.",
+      "study_focus": "Start with MAIN PRINCIPLE OF TAKEDOWN DEFENSE, then compare the from-space and elevated-leg entries in LEG ATTACK DEFENSE.",
+      "course_url": "https://bjjfanatics.com/products/wrestling-takedown-defense-for-grappling-by-alex-enriquez"
     }
-  ]
+  ],
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Standing Defense: Alex Enriquez's Takedown Study Guide",
+    "audience": {
+      "fits": [
+        "You need to distinguish defending the initial shot from dealing with a leg already controlled.",
+        "You want one reference covering wrestling stance, common leg attacks and clearing ties."
+      ],
+      "consider_alternative_if": [
+        "The takedown has ended and your recurring problem is escaping a pin: the Danaher Pin Escape Fundamentals guide starts closer to that problem."
+      ]
+    },
+    "coverage": {
+      "includes": [
+        "Opening material covers stance, motion, sprawl and defensive principles, followed by stance and head-blocking drills.",
+        "The leg-attack section lists singles and doubles from space, elevated-leg situations, ankle picks, low singles, fireman's carry and dogfight cases.",
+        "The tie-clearing section covers head and hip position, the whizzer/overhook, front-headlock throws and single or double underhooks."
+      ],
+      "limits": [
+        "The advertised curriculum concerns wrestling defense for grappling; it does not set out a gi grip-fighting or competition guard-pull decision curriculum.",
+        "The public list names drills without describing their execution or partner constraints."
+      ]
+    },
+    "start_here": {
+      "title": "Compare the entry with the established grip",
+      "kind": "observation",
+      "task": "In one recorded standing exchange, pause before contact with the legs and again after a leg is secured. Note which frame matches your actual difficulty. Compare Double Leg Defense From Space or Single Leg Defense From Space with the two elevated-leg entries in the outline; if the decisive control is an upper-body tie, locate that tie in Defending and Clearing Ties instead. Use the selected starting condition to choose what to watch, without inferring the defensive movement from its title.",
+      "source_ids": [
+        "enriquez-listing"
+      ],
+      "section": "LEG ATTACK DEFENSE: DOUBLE LEG DEFENSE FROM SPACE; SINGLE LEG DEFENSE FROM SPACE; SINGLE DEFENSE ON ELEVATED LEG: BETWEEN LEGS; SINGLE DEFENSE ON ELEVATED LEG: ANKLE TRAPPED IN ARMPIT"
+    },
+    "sources": [
+      {
+        "id": "enriquez-listing",
+        "url": "https://bjjfanatics.com/products/wrestling-takedown-defense-for-grappling-by-alex-enriquez",
+        "title": "Wrestling Takedown Defense For Grappling by Alex Enriquez",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified Alex Enriquez as instructor and the published stance, leg-attack and tie-clearing topics. The page explicitly embeds a free sample; video content has not been reviewed."
+      },
+      {
+        "id": "danaher-listing",
+        "url": "https://bjjfanatics.com/products/pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher",
+        "title": "Pin Escapes & Turtle Escapes: BJJ Fundamentals - Go Further Faster by John Danaher",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified the alternative course organizes recovery from mount, side pins and other grounded positions."
+      }
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/adac62c9-a256-4624-a0d7-4c1eb3af82f1?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "source_id": "enriquez-listing",
+      "title": "Official sample — Wrestling Takedown Defense For Grappling by Alex Enriquez",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": [
+        "https://bjjgraph.org",
+        "https://dev.bjjgraph.pages.dev"
+      ]
+    }
+  }
 }

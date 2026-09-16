@@ -331,7 +331,10 @@ def _jsonstr(v):
     return s.replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
 
 
+from _system_guides import canonical_course_url, related_references
+
 _JINJA_ENV = Environment()
+_JINJA_ENV.filters["canonical_course_url"] = canonical_course_url
 _JINJA_ENV.filters["jsonstr"] = _jsonstr
 _JINJA_ENV.filters["slugify"] = slugify
 
@@ -468,6 +471,7 @@ def build_wikilink_resolver():
             )
             base_card = {
                 "system_name": sys_name,
+                "display_title": (sdata.get("guide") or {}).get("display_title") or sys_name,
                 "system_url": "/Systems/" + _quartz_url_slug(sys_name),
                 "system_slug": "systems/" + _quartz_url_slug(sys_name).lower(),
                 "system_type": sdata.get("system_type", ""),
@@ -506,15 +510,16 @@ def build_wikilink_resolver():
         parts = [
             '<section id="related-systems" class="content-section related-systems">',
             '',
-            '## Train this with a System',
+            '## Related study guides',
             '',
             '<div class="related-systems-grid">',
         ]
         for c in ordered:
             name_e = html.escape(c["system_name"])
+            title_e = html.escape(c["display_title"])
             rel_e = html.escape(c.get("relationship") or "")
             n = c["member_count"]
-            badge = f"Unlocks {n} technique" + ("s" if n != 1 else "")
+            badge = f"{n} related reference" + ("s" if n != 1 else "")
             chips = ""
             if c["difficulty"]:
                 chips += f'<span class="system-card__chip">{html.escape(c["difficulty"])}</span>'
@@ -525,7 +530,7 @@ def build_wikilink_resolver():
                 f'data-cta="related-system-card" data-system-slug="{html.escape(c["system_slug"])}" '
                 f'data-system-name="{name_e}" data-member-count="{n}">'
                 '<span class="system-card__shine" aria-hidden="true"></span>'
-                f'<span class="system-card__name">{name_e}</span>'
+                f'<span class="system-card__name">{title_e}</span>'
                 f'<span class="system-card__unlocks-badge">{badge}</span>'
                 + (f'<span class="system-card__blurb">{rel_e}</span>' if rel_e else '')
                 + (f'<span class="system-card__chips">{chips}</span>' if chips else '')
@@ -677,6 +682,8 @@ def generate_markdown(json_data, template, resolve_fn=None):
     """
     try:
         kwargs = dict(json_data)
+        if json_data.get("guide"):
+            kwargs["references"] = related_references(json_data, Path("content"), _quartz_url_slug)
         if resolve_fn is not None:
             kwargs['resolve'] = resolve_fn
         return template.render(**kwargs)

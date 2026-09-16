@@ -1,377 +1,128 @@
 
-
-
-
 ---
-title: "Gordon Ryan Side Control to North-South System | BJJ System | BJJ Graph"
-description: "Explore Gordon Ryan Side Control to North-South System with a matched BJJ Fanatics course, practical study steps, partner drills, and connected technique references."
+title: "Gordon Ryan: Side Control and North-South | BJJGraph"
+description: "Navigate Gordon Ryan’s side-control and north-south course by escape concern or arm-isolation goal, with a focused comparison to Danaher’s side crucifix."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Gordon Ryan Side Control to North-South System",
-  "description": "Step-by-step implementation sequence for Gordon Ryan Side Control to North-South System.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Identify the recovery route",
-      "text": "Let the partner begin a controlled escape and name the connection that would return their knees to the exchange.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Study an arm-isolation option",
-      "text": "Choose a near-arm or far-arm lesson and keep its control objective separate from finishing the submission.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Decide when to move around the head",
-      "text": "Compare staying beside the torso with transitioning to north-south when the original pin becomes difficult to maintain.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Test north-south maintenance",
-      "text": "Allow one knee-recovery or turning response and investigate which contact needs to remain in place.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Reconnect the attack to the pin",
-      "text": "Add one upper-body submission entry, returning to side control when its required position is lost.",
-      "position": 5
-    }
-  ]
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Gordon Ryan Side Control to North-South System",
-  "description": "Explore Gordon Ryan Side Control to North-South System with a matched BJJ Fanatics course, practical study steps, partner drills, and connected technique references.",
-  "url": "https://bjjgraph.org/Systems/Gordon-Ryan-Side-Control-to-North-South-System",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Gordon Ryan Side Control to North-South System", "item": "https://bjjgraph.org/Systems/Gordon-Ryan-Side-Control-to-North-South-System"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Treating a change of pin as an escape by default?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Judge whether useful top control continues through the transition."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Walking around the head without controlling the recovery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Return to the point at which the partner first regains an elbow-knee connection."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Mixing near-arm and far-arm entries?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choose one arm-isolation problem for the round and label it explicitly."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Forcing a finish after the pin has gone?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Recover position or reset and record the lost control."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Gordon Ryan Side Control to North-South System",
-  "description": "The Gordon Ryan Side Control to North-South System is a study framework for using side-control and north-south transitions to preserve a pin while opening upper-body attacks.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Gordon Ryan: Side Control and North-South","description":"Navigate Gordon Ryan’s side-control and north-south course by escape concern or arm-isolation goal, with a focused comparison to Danaher’s side crucifix."}
 </script>
-
-
-
-<div class="principle-meta">
-<span class="meta-chip">Control System</span>
-<span class="meta-chip">Intermediate difficulty</span>
-</div>
-
-
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
-
+<main class="content-wrapper" data-system-guide>
+<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Systematically attacking From Top Pins: Side Control &amp; North South by Gordon Ryan.</p>
 <section id="overview" class="content-section">
 
-## What is Gordon Ryan Side Control to North-South System?
+## Gordon Ryan: Side Control and North-South
 
-**The Gordon Ryan Side Control to North-South System is a study framework for using side-control and north-south transitions to preserve a pin while opening upper-body attacks.**
+**Separate side-control retention, arm isolation and north-south transitions in Gordon Ryan’s top-pins curriculum.**
 
-An opponent who reconnects an elbow and knee can change a settled side pin into a guard-recovery battle. This guide studies that decision before adding a route around the head into north-south. Gordon Ryan's dedicated side-control and north-south course is a closer fit for this problem than a general passing instructional. Its published sequence covers inside position, arm isolation, positional maintenance and attack transitions, allowing each practice round to focus on a particular loss of control.
 
-The sequence and drills below are original BJJGraph study suggestions, not a course transcript or an official instructor curriculum. Use the linked demonstrations for technical detail, then compare one selected lesson with a controlled partner round.
+Systematically attacking From Top Pins: Side Control & North South by Gordon Ryan treats retention, limb isolation and changes between pins as distinct study topics. The outline includes near- and far-arm sections alongside north-south maintenance, so a failed attack and a lost pin need not lead to the same lesson.
+
+</section>
+
+<section id="fit" class="content-section">
+
+## Is this useful for you?
+
+- You can reach side control but need to identify whether your next study concerns retention, arm isolation or changing pins.
+
+
+### Consider an alternative if
+
+- For a narrower examination of underhooks, near-arm pinning and chancery, compare Danaher’s side-crucifix course.
+
+
+</section>
+<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
+<section id="start-here" class="content-section">
+
+## Start here: Choose retention or relocation before choosing a submission
+
+Compare Volume 2’s knee/elbow-connection topics with Volume 5’s north-south movement and knee-recovery topics in the public outline. Place your current question under staying in side control or changing pins. If you have access, begin with Why and When to Move to North South and note the stated reason for changing position before watching an attack branch.
+
+Published section: Volume 5: North/South - Why and When to Move to North South.
+
+
+
+<p>Source: <a href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" target="_blank" rel="noopener">Systematically attacking From Top Pins: Side Control &amp; North South by Gordon Ryan</a></p>
 
 </section>
 
 
+<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/e1c8dfbb-6291-48a9-8523-7cc1e656c1f1?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Gordon Ryan / Systematically attacking From Top Pins: Side Control &amp; North South">
+<h2>Official sample — Gordon Ryan / Systematically attacking From Top Pins: Side Control &amp; North South</h2>
+<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
+<button type="button" data-load-preview hidden>Load official sample</button>
+<div data-preview-player></div>
+<p><a href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" target="_blank" rel="noopener">Watch on the official page: Systematically attacking From Top Pins: Side Control &amp; North South by Gordon Ryan</a></p>
+</section>
 
 
 
+<section id="unlock-this-system" class="content-section product-cards" data-course-container>
+<h2>Course reference</h2>
 
+<article class="product-card">
+<h3>Systematically attacking From Top Pins: Side Control &amp; North South</h3>
+<p>By Gordon Ryan</p>
 
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">Systematically Attacking From Top Pins: Side Control & North South</h3>
-<p class="product-card__instructor">with Gordon Ryan</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> No-gi players who already pass guard and want to connect side pins with north-south control and upper-body attacks.</p>
-<p class="product-card__blurb">A directly matched instructional companion for using side-control and north-south transitions to preserve a pin while opening upper-body attacks. Review its published contents and sample to judge the teaching approach.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gordon-ryan-side-control-to-north-south-system&utm_term=systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-system-name="Gordon Ryan Side Control to North-South System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+<p><a href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-product-id="systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-system-name="Gordon Ryan Side Control to North-South System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
 </article>
 
-</div>
-
 </section>
 
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+<span id="key-principles"></span><span id="key-components"></span>
+<section id="coverage" class="content-section">
 
-## Unlock this part of the graph
+## What the sources cover
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+- Side-control escape responses and separate near- and far-arm isolation sections.
+- Movement to north-south and responses to knee recovery or turning.
+- Submission branches plus rolling and commentary volumes.
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
 
-<ul class="system-members" data-system-members></ul>
+### Limits
 
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Let the partner begin a controlled escape and name the connection that would return their knees to the exchange.
-- Choose a near-arm or far-arm lesson and keep its control objective separate from finishing the submission.
-- Compare staying beside the torso with transitioning to north-south when the original pin becomes difficult to maintain.
-- Allow one knee-recovery or turning response and investigate which contact needs to remain in place.
-- Add one upper-body submission entry, returning to side control when its required position is lost.
-
+- This is a top-pin study after passing; it does not replace a curriculum for getting through the guard.
 
 </section>
-
-<section id="key-components" class="content-section">
-
-## Key Components
-**Identify the recovery route** (Give the identify the recovery route stage a concrete objective before connecting it to the next exchange.)
-Let the partner begin a controlled escape and name the connection that would return their knees to the exchange.
-
-**Study an arm-isolation option** (Give the study an arm-isolation option stage a concrete objective before connecting it to the next exchange.)
-Choose a near-arm or far-arm lesson and keep its control objective separate from finishing the submission.
-
-**Decide when to move around the head** (Give the decide when to move around the head stage a concrete objective before connecting it to the next exchange.)
-Compare staying beside the torso with transitioning to north-south when the original pin becomes difficult to maintain.
-
-**Test north-south maintenance** (Give the test north-south maintenance stage a concrete objective before connecting it to the next exchange.)
-Allow one knee-recovery or turning response and investigate which contact needs to remain in place.
-
-**Reconnect the attack to the pin** (Give the reconnect the attack to the pin stage a concrete objective before connecting it to the next exchange.)
-Add one upper-body submission entry, returning to side control when its required position is lost.
-
-
-
-</section>
-
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Identify the recovery route**: Let the partner begin a controlled escape and name the connection that would return their knees to the exchange.
-
-
-2. **Study an arm-isolation option**: Choose a near-arm or far-arm lesson and keep its control objective separate from finishing the submission.
-
-
-3. **Decide when to move around the head**: Compare staying beside the torso with transitioning to north-south when the original pin becomes difficult to maintain.
-
-
-4. **Test north-south maintenance**: Allow one knee-recovery or turning response and investigate which contact needs to remain in place.
-
-
-5. **Reconnect the attack to the pin**: Add one upper-body submission entry, returning to side control when its required position is lost.
-
-
-
-
-</section>
-
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Begin with inside position and the knee-elbow recovery material; compare those rounds with the north-south transition and maintenance sections.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gordon-ryan-side-control-to-north-south-system&utm_term=systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-system-name="Gordon Ryan Side Control to North-South System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Systematically Attacking From Top Pins: Side Control &amp; North South &rarr;</a></p>
-</section>
-
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **Treating a change of pin as an escape by default**: Judge whether useful top control continues through the transition.
-- **Walking around the head without controlling the recovery**: Return to the point at which the partner first regains an elbow-knee connection.
-- **Mixing near-arm and far-arm entries**: Choose one arm-isolation problem for the round and label it explicitly.
-- **Forcing a finish after the pin has gone**: Recover position or reset and record the lost control.
-
-
-</section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Starting-position recognition**: Check whether the practitioner can describe the relevant control from Side Control.
-Proficiency indicators:
-- Names the starting position
-- Identifies the first useful contact
-- Explains why the chosen lesson fits this exchange
-
-
-**Reaction recognition**: Assess the decision when the partner stops the first option.
-Proficiency indicators:
-- Names the defensive response
-- Pauses at the point the original option is lost
-- Chooses a supported continuation or reset
-
-
-**Endpoint quality**: Review the position reached after the selected movement.
-Proficiency indicators:
-- Can name the intended endpoint
-- Checks the partner still has an escape response
-- Separates a transient opening from sustained control
-
-
-**Practice transfer**: Compare the same task as agreed resistance and partner reactions change.
-Proficiency indicators:
-- Repeats the starting conditions
-- Records the first point of failure
-- Chooses one specific adjustment for the next round
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-BJJGraph practice suggestion: start from Side Control and give the partner one agreed response. Work through the first two stages cooperatively, then stop each repetition at the chosen control or recovery endpoint. Add another reaction only when both partners can explain what changed. Keep submission entries controlled and release immediately on a tap or request to stop. Review the lost connection before adding speed.
-
-### Progression Path
-**Recognise** (Focus: Let the partner begin a controlled escape and name the connection that would return their knees to the exchange.)
-**Rehearse** (Focus: Choose a near-arm or far-arm lesson and keep its control objective separate from finishing the submission.)
-**Respond** (Focus: Compare staying beside the torso with transitioning to north-south when the original pin becomes difficult to maintain.)
-**Connect** (Focus: Add one upper-body submission entry, returning to side control when its required position is lost.)
-
-
-### Common Mistakes
-- Treating a change of pin as an escape by default
-- Walking around the head without controlling the recovery
-- Mixing near-arm and far-arm entries
-- Forcing a finish after the pin has gone
-
-
+<section id="sources" class="content-section">
+<h2>Sources and evidence</h2>
+<p><a href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" target="_blank" rel="noopener">Systematically attacking From Top Pins: Side Control &amp; North South by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified title, Gordon Ryan attribution and named sections on side control, arm isolation, north-south maintenance and rolling. Listing and official sample placement inspected; sample content not reviewed.</p><p><a href="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" target="_blank" rel="noopener">Master The Move: The Side Crucifix by John Danaher</a> — official listing; checked 2026-09-16. Verified title, John Danaher attribution, underhook acquisition, near-arm pinning, chancery and shin-pin sections. Official page labels an embedded free sample; sample content not reviewed.</p><p><a href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" target="_blank" rel="noopener">Systematically Attacking The Guard by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified course identity and eight-volume outline, including split squat, half guard, half butterfly, rolling and commentary. Listing inspected; video content not reviewed.</p>
 </section>
 
 <section id="related-content" class="content-section">
 
-## Which Positions, Transitions, and Principles Connect to This System?
+## Related references and alternatives
 
-- [[Positions/Side Control|Side Control]] (Position) - Side-pin reference for identifying pressure, inside frames and positional recovery.
-- [[Positions/North-South|North-South]] (Position) - Alternative top pin for studying knee recovery and movement around the head.
-- [[Positions/Knee on Belly|Knee on Belly]] (Position) - Adjacent top control used to compare pressure and inside-position changes.
-- [[Submissions/Kimura|Kimura]] (Submission) - Upper-body submission family connected to arm isolation and changes of pin.
-- [[Submissions/North-South Choke|North-South Choke]] (Submission) - Submission family studied after the north-south pin is established.
-- [[Positions/Back Control|Back Control]] (Position) - Endpoint used to check whether following back exposure produced a stable position.
-- [[Principles/Connection Principles|Connection Principles]] (Principle) - Principle for preserving useful contact while moving between positions.
-- [[Principles/Transition Management|Transition Management]] (Principle) - Reference for evaluating the vulnerable interval between two stable positions.
-- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Practice structure for repeating a specified position, partner response, and endpoint.
-- [[Principles/Position-Over-Submission Approach|Position-Over-Submission Approach]] (Principle) - Decision rule for retaining or recovering control before chasing an unsupported finish.
 
+<p><a href="/Principles/Connection-Principles">Connection Principles</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Transition-Management">Transition Management</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Positional-Sparring">Positional Sparring</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Systems/Danaher-Side-Crucifix-System">Danaher Side Crucifix System</a> (System) — Compare broad pin maintenance with a focused side-crucifix and arm-isolation study.</p><p><a href="/Systems/Gordon-Ryan-Passing-System">Gordon Ryan Passing System</a> (System) — Use the guard-passing companion when the unresolved problem occurs before the pin.</p>
+
+
+### Review related technique cards
+
+These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
+
+
+- [[Positions/Side Control|Side Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/North-South|North-South]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Knee on Belly|Knee on Belly]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+
+- [[Submissions/Kimura|Kimura]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
+
+- [[Submissions/North-South Choke|North-South Choke]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
+
+- [[Positions/Back Control|Back Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
 </section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>BJJGraph suggestion: begin with &#39;Identify the recovery route&#39; from Side Control. Record which partner response interrupts the plan and revisit that lesson before adding another branch.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gordon-ryan-side-control-to-north-south-system&utm_term=systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-system-name="Gordon Ryan Side Control to North-South System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Systematically Attacking From Top Pins: Side Control &amp; North South &rarr;</a></p>
-</section>
-
-
-
 </main>

@@ -1,7 +1,5 @@
 {
   "name": "Jeff Glover Deep Half System",
-  "description": "Explore Jeff Glover deep half guard with a no-gi study plan for entries, upper-body protection, sweep directions, and controlled transitions from bottom to top.",
-  "summary": "The Jeff Glover Deep Half System is an independent BJJGraph guide to deep half guard decisions, connecting positional control, opponent reactions, and a practical route into offense.",
   "tags": [
     "bjj",
     "system",
@@ -10,237 +8,127 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Advanced",
-  "overview": "Deep half brings the bottom player under the opponent's hips while controlling a leg. That location creates sweeping possibilities but also leaves upper-body exposure to manage. The useful question is which exit remains available when the opponent shifts weight or reaches for control, not how long you can stay underneath them.\n\nThe syllabus includes over-the-top, back-door, and single-leg routes, entries from several bottom positions, and troubleshooting of upper-body control. This page is a focused positional study plan rather than a claim that deep half solves every bad position. The No Gi Deep Half Guard 2.0 by Jeff Glover is the optional instructional companion. The drills, stages, and assessments below are original BJJGraph study suggestions; use the course demonstrations and coaching for the detailed mechanics.",
-  "key_principles": [
-    "Deep position still requires attention to upper-body exposure.",
-    "Read the opponent's weight before choosing an exit.",
-    "Keep the controlled leg connected while moving underneath.",
-    "Treat the back-door and coming-up routes as different destinations.",
-    "Recover a safer guard when the intended exit closes.",
-    "Separate entries from pins from established-position sweeping drills."
-  ],
-  "key_components": [
-    {
-      "component_name": "Established position",
-      "description": "Begin with a coach-checked deep half configuration and identify the trapped leg and available arm protection.",
-      "purpose": "Create a controlled starting point before experimenting with entries."
-    },
-    {
-      "component_name": "Weight-direction reading",
-      "description": "Let the top partner shift gently forward or back and observe which route opens or closes.",
-      "purpose": "Avoid forcing one sweep against every adjustment."
-    },
-    {
-      "component_name": "Exit selection",
-      "description": "Distinguish going over the top, leaving through the back, and coming up toward a leg.",
-      "purpose": "Choose a destination that matches the current support."
-    },
-    {
-      "component_name": "Upper-body troubleshooting",
-      "description": "Pause when the opponent gains a dangerous arm or head connection and return to a coached recovery.",
-      "purpose": "Keep defensive exposure visible during offensive study."
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Agree the configuration",
-      "description": "Start in established deep half and check that both partners recognize the leg and upper-body controls."
-    },
-    {
-      "step_number": 2,
-      "phase": "Map the weight",
-      "description": "Have the top partner make a small weight shift and describe the change before moving."
-    },
-    {
-      "step_number": 3,
-      "phase": "Rehearse one exit",
-      "description": "Choose a coached sweep route and finish at a named top or leg-control position."
-    },
-    {
-      "step_number": 4,
-      "phase": "Add an upper-body response",
-      "description": "Let the top player seek one agreed control; identify it early and reset or recover rather than rush through it."
-    },
-    {
-      "step_number": 5,
-      "phase": "Add the entry last",
-      "description": "Connect one familiar half-guard entry only after the established-position task is understood."
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "The bottom player enters deep half without a plan to leave.",
-      "solution": "Choose an exit destination and a fallback before practicing the entry."
-    },
-    {
-      "obstacle": "A sweep is forced against the wrong weight direction.",
-      "solution": "Pause the partner's adjustment and compare which support prevents the intended route."
-    },
-    {
-      "obstacle": "Upper-body control is ignored while chasing the legs.",
-      "solution": "Separate a recovery round that rewards protecting the head and arms before adding the sweep."
-    },
-    {
-      "obstacle": "Entries from multiple bad positions overwhelm the drill.",
-      "solution": "Keep one half-guard entry and one established-position exit until the transition is repeatable."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Position awareness",
-      "description": "Review this specific decision during constrained positional rounds.",
-      "proficiency_indicators": [
-        "Names the leg connection and upper-body exposure",
-        "Can identify the contact or reaction that changed this decision.",
-        "Uses the observation to choose the next focused repetition."
-      ]
-    },
-    {
-      "metric_name": "Weight reading",
-      "description": "Review this specific decision during constrained positional rounds.",
-      "proficiency_indicators": [
-        "Recognizes when the chosen exit closes",
-        "Can identify the contact or reaction that changed this decision.",
-        "Uses the observation to choose the next focused repetition."
-      ]
-    },
-    {
-      "metric_name": "Exit clarity",
-      "description": "Review this specific decision during constrained positional rounds.",
-      "proficiency_indicators": [
-        "Reaches a named destination without rushing",
-        "Can identify the contact or reaction that changed this decision.",
-        "Uses the observation to choose the next focused repetition."
-      ]
-    },
-    {
-      "metric_name": "Recovery judgment",
-      "description": "Review this specific decision during constrained positional rounds.",
-      "proficiency_indicators": [
-        "Returns to guard when control is insufficient",
-        "Can identify the contact or reaction that changed this decision.",
-        "Uses the observation to choose the next focused repetition."
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "BJJGraph practice plan: Start already in a coached deep half configuration. Let the top partner change weight direction at low intensity; choose one agreed exit or recover half guard, then review any upper-body control conceded. Keep the starting position consistent long enough to compare the same problem across repetitions. Add one defensive option at a time and record the first lost connection rather than only the final result.",
-    "progression_path": [
-      {
-        "stage": "Agree the configuration",
-        "focus": "Start in established deep half and check that both partners recognize the leg and upper-body controls."
-      },
-      {
-        "stage": "Map the weight",
-        "focus": "Have the top partner make a small weight shift and describe the change before moving."
-      },
-      {
-        "stage": "Rehearse one exit",
-        "focus": "Choose a coached sweep route and finish at a named top or leg-control position."
-      },
-      {
-        "stage": "Add an upper-body response",
-        "focus": "Let the top player seek one agreed control; identify it early and reset or recover rather than rush through it."
-      }
-    ],
-    "common_mistakes": [
-      "The bottom player enters deep half without a plan to leave.",
-      "A sweep is forced against the wrong weight direction.",
-      "Upper-body control is ignored while chasing the legs."
-    ]
-  },
   "related_content": [
     {
       "name": "Deep Half Guard",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing deep half guard entries, controls, or recovery destinations."
+      "relationship": "Deep Half Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing deep half guard entries, controls, or recovery destinations."
+      "relationship": "Half Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Knee Shield Half Guard",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing deep half guard entries, controls, or recovery destinations."
+      "relationship": "Knee Shield Half Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "X-Guard",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing deep half guard entries, controls, or recovery destinations."
+      "relationship": "X-Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing deep half guard entries, controls, or recovery destinations."
+      "relationship": "Turtle: related position study, separate from the source syllabus."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Positional reference for comparing deep half guard entries, controls, or recovery destinations."
+      "relationship": "Side Control: related position study, separate from the source syllabus."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Structures that preserve space during the guard exchange."
+      "relationship": "Frames: related principle study, separate from the source syllabus."
     },
     {
       "name": "Distance Control",
       "content_type": "Principle",
-      "relationship": "Spacing behind the entry and recovery decisions."
+      "relationship": "Distance Control: related principle study, separate from the source syllabus."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Support to observe before selecting a sweep or coming up."
+      "relationship": "Base: related principle study, separate from the source syllabus."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Connections that give the chosen movement its purpose."
+      "relationship": "Grips: related principle study, separate from the source syllabus."
+    },
+    {
+      "name": "Brian Glick Half Butterfly System",
+      "content_type": "System",
+      "relationship": "Compare for half-butterfly entries and a differently organized attack syllabus."
     }
   ],
-  "flashcards": [
-    {
-      "question": "Why is deep half not simply a place to wait?",
-      "answer": "The opponent can change weight and establish upper-body control, so the bottom player needs an exit plan and a recovery option."
+  "summary": "A deep-half companion that separates three named exit routes from entry study and upper-body troubleshooting.",
+  "description": "Navigate The No Gi Deep Half Guard 2.0 according to whether the problem is entry, exit selection or an opponent’s control.",
+  "overview": "The outline introduces exits before surveying entries from several bottom positions. Its final volume separately addresses underhooks and chin straps, so a stalled deep-half exchange has a different study destination from a failed entry.",
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Jeff Glover: No-Gi Deep Half",
+    "audience": {
+      "fits": [
+        "You want to compare deep-half exits with the upper-body problems that appear in Glover’s troubleshooting volume."
+      ],
+      "consider_alternative_if": [
+        "If half-butterfly entry and attack choices better match your starting position, compare Brian Glick’s guide."
+      ]
     },
-    {
-      "question": "What should determine the first sweep choice?",
-      "answer": "Read the opponent's current weight and support rather than using the same route regardless of their adjustment."
+    "coverage": {
+      "includes": [
+        "Overtop, backdoor and single-leg routes, followed by entries from knee shield and other bottom positions.",
+        "A final troubleshooting and drill block, including underhook and chin-strap topics."
+      ],
+      "limits": [
+        "The entry collection is organized around reaching deep half; it is not a complete escape curriculum for every listed bottom position."
+      ]
     },
-    {
-      "question": "Why begin practice from established deep half?",
-      "answer": "It isolates the exit and defensive exposure before adding the separate challenge of entering from another position."
+    "start_here": {
+      "title": "Separate entry trouble from control trouble",
+      "kind": "observation",
+      "task": "In the outline, compare the entry from the bottom position you encounter with volume 3’s underhook and chin-strap labels. Classify a recent stalled exchange as failure to enter or difficulty after entry. If you have access, study the relevant troubleshooting lesson before adding another entry to your notes.",
+      "source_ids": [
+        "glover-deep-half-listing"
+      ],
+      "section": "Volume 3: The problem of the Under-hook — 0:59–7:01 (course range)"
     },
-    {
-      "question": "What should you do when upper-body control becomes the main problem?",
-      "answer": "Address or reset that control before forcing a leg-driven sweep that may leave the head or arms more exposed."
-    },
-    {
-      "question": "How does a named destination improve deep half drilling?",
-      "answer": "It lets both partners distinguish a completed exit from a brief movement underneath that has not produced useful control."
-    },
-    {
-      "question": "When should another entry be added to the practice plan?",
-      "answer": "Add one when the current entry and established-position exit remain controlled and their common failure can be explained."
-    }
-  ],
+    "sources": [
+      {
+        "id": "glover-deep-half-listing",
+        "url": "https://bjjfanatics.com/products/the-no-gi-deep-half-guard-2-0-by-jeff-glover",
+        "title": "The No Gi Deep Half Guard 2.0 by Jeff Glover",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified three volumes, named exit routes, entries from bottom positions, underhook/chin-strap troubleshooting and drill section labels. Listing inspected; course video content not reviewed."
+      },
+      {
+        "id": "glick-half-butterfly-listing",
+        "url": "https://bjjfanatics.com/products/half-butterfly-mastery-by-brian-glick",
+        "title": "Under Pressure: Half Butterfly Mastery by Brian Glick",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified inside-position and head-position sections, entry positions, two attack groups, troubleshooting and executive summary. Listing inspected; course video content not reviewed."
+      }
+    ]
+  },
   "products": [
     {
       "id": "the-no-gi-deep-half-guard-2-0-by-jeff-glover",
       "title": "The No Gi Deep Half Guard 2.0",
       "instructor": "Jeff Glover",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/the-no-gi-deep-half-guard-2-0-by-jeff-glover?rfsn=REPLACE_ME",
+      "course_url": "https://bjjfanatics.com/products/the-no-gi-deep-half-guard-2-0-by-jeff-glover",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "The syllabus includes over-the-top, back-door, and single-leg routes, entries from several bottom positions, and troubleshooting of upper-body control. This page is a focused positional study plan rather than a claim that deep half solves every bad position.",
-      "best_for": "No-gi guard players with basic positional familiarity who want to study deep half guard. This is a focused companion rather than a complete beginner curriculum.",
-      "study_focus": "Begin with the three sweep routes in part one, then study the underhook and head-control problems in part three before adding resistance.",
-      "practice_tip": "BJJGraph drill: Start already in a coached deep half configuration. Let the top partner change weight direction at low intensity; choose one agreed exit or recover half guard, then review any upper-body control conceded."
+      "link_checked": "2026-09-16",
+      "blurb": "Three volumes covering exits, entries and troubleshooting around deep half.",
+      "best_for": "You want to compare deep-half exits with the upper-body problems that appear in Glover’s troubleshooting volume.",
+      "study_focus": "Use the underhook discussion for a control problem after entry."
     }
-  ]
+  ],
+  "flashcards": []
 }

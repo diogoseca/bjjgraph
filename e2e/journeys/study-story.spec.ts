@@ -53,6 +53,13 @@ test("White Challenge study story: lesson → MC → recall → checkpoint → e
   );
 
   // ── first real card: wrong first (learn), then right (earn) ──
+  // Deck hydration runs on real promises; advancing game time does not complete
+  // the lesson fetch or rebuild its card snapshot.
+  await j.decksSettled();
+  await expect.poll(() => page.evaluate(() => {
+    const a = (window as any).__neural;
+    return (a.deck || []).some((c: any) => a.mcClip(c.a));
+  }), { timeout: 20_000 }).toBe(true);
   const qh = await page.evaluate(() => {
     const a = (window as any).__neural;
     for (const c of a.deck || [])

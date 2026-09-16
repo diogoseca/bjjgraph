@@ -678,21 +678,12 @@ KEY FIELDS:
 - developmental_metrics: Exactly 4 levels (Beginner/Intermediate/Advanced/Expert)"""
 
     elif category == "Systems":
-        return f"""REQUIRED NAME FIELD:
-- Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)
-- DO NOT include 'title' field (auto-generated from name)
-
-REFERENCES:
-- related_content[] -> Array of objects with name/content_type/relationship (10-30 items for comprehensive SEO)
-
-KEY FIELDS:
-- summary: ONE self-contained definition sentence (~15-40 words, "The {filename} is...") that leads the page for AI answer engines / featured snippets. The overview must NOT duplicate it.
-- overview: 2-3 paragraphs, 400+ characters
-- key_principles: 5-8 core principles
-- key_components: 4+ main elements with 50+ char descriptions
-- implementation_sequence: 5+ step-by-step implementation phases
-- training_methodology.drilling_approach: 200+ characters
-- training_methodology.progression_path: 4+ stages of mastery"""
+        return f"""Keep name = '{filename}' and graph references stable. Follow templates/Systems.json.
+Author a distinct summary and concise contextual overview. The guide describes fit, source-supported
+coverage, limits, and a first study action. No length, section, flashcard or link quotas.
+Physical practice requires inspected public_instruction evidence and start/partner/stop context.
+Never invent source checks, media IDs, playback verification, proficiency metrics or timelines.
+Omit unsupported legacy sections. Preserve curated products without modification."""
 
     elif category == "Learning":
         return f"""REQUIRED NAME FIELD:
@@ -1135,83 +1126,35 @@ Return ONLY valid JSON (no markdown, no explanation):
 ```
 '''
 
-SYSTEMS_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor creating content for purple/brown belt practitioners (4-5x/week serious hobbyists).
+SYSTEMS_PROMPT = '''You are an AI editor preparing an independent BJJGraph study guide, not a credentialed instructor.
+System: {file_path}
+Schema: {template_content}
+Current source: {content}
+Validation errors: {validation_errors}
+Field guidance: {field_guidance}
 
-## System: {file_path}
+Use public primary evidence actually inspected. A listing establishes advertised scope only.
+Do not invent mechanics, drills, resistance ladders, performance rates, mastery timelines,
+source check dates, preview URLs, playback verification, course ownership or human review.
+With no inspected instruction, write an observation/study task. Sources may be empty only for
+a topic guide limited to organizing study; flag this for root review. Do not fabricate evidence
+to satisfy required fields. If evidence cannot be checked, leave the requested rewrite for review.
+Keep stable identity, aliases/family and graph references. Clarify related references are not
+necessarily taught by a linked course. Summary is distinct from the brief contextual overview.
+Optional legacy sections and flashcards have no quotas; delete unsupported repetitive scaffolding.
+Do not add/remove/modify products; omit them from output (the save path restores curated data).
+Preview is optional: exact official allowlisted URL, autoplay/preload disabled, no guessed IDs.
+Only actual playback checks justify playback_verified_on. Page access is not playback evidence.
 
-## TEMPLATE STRUCTURE (follow this format exactly):
-```json
-{template_content}
-```
-
-## Current Content (fix TODOs and validation errors):
-```json
-{content}
-```
-
-## Validation Errors to Fix:
-{validation_errors}
-
-## FIELD GUIDANCE:
-{field_guidance}
-
-## Tasks:
-
-### 1. Fix All Validation Errors
-{error_guidance}
-
-### 2. Ensure System Completeness
-- key_components[] should reference real techniques and positions
-- implementation_sequence should be logical and progressive
-- related_content[] should have 10-30 items for comprehensive SEO
-- DO NOT add, remove, or modify the `products` field — it is curated affiliate data managed by hand and must be omitted from your output entirely (it is re-merged automatically)
-
-### 3. Review Content Quality
-- overview must be 400+ characters with substantive BJJ analysis
-- key_components descriptions must be 50+ characters each
-- training_methodology.drilling_approach must be 200+ characters
-- training_methodology.progression_path must have 4+ stages
-
-### 4. Author the Answer-First `summary` (REQUIRED for AI/LLM SEO)
-- Add a `summary` field: ONE self-contained sentence (~15-40 words) that directly DEFINES the system, e.g. "The Kimura Trap System is a control-and-submission framework that uses the figure-four grip to chain back takes, sweeps, and kimura finishes."
-- It must read as a standalone definition an AI answer engine can quote verbatim — lead with "The {filename} is...".
-- The `overview` must NOT repeat the summary sentence; start the overview with broader context/history instead.
-
-### 5. Author flashcards (6-12 Q&A pairs — REQUIRED for the training deck)
-- Add a `flashcards` array of 6-12 {{question, answer}} pairs covering recognition, application, key mechanics, and common errors of this system.
-- Each `answer` must be 50+ characters and self-contained; each `question` ends with "?".
-
-## Valid References by Category (ONLY use names from these lists):
-
-**Positions ({positions_count} available):**
-{positions_list}
-
-**Transitions ({transitions_count} available):**
-{transitions_list}
-
-**Submissions ({submissions_count} available):**
-{submissions_list}
-
-**Principles ({principles_count} available):**
-{principles_list}
-
-**Systems ({systems_count} available):**
-{systems_list}
-
+Valid references:
+Positions: {positions_list}
+Transitions: {transitions_list}
+Submissions: {submissions_list}
+Principles: {principles_list}
+Systems: {systems_list}
 {reference_format_rules}
 
-{expert_guidelines}
-
-{requirements_section}
-
-## Output Format:
-Return ONLY valid JSON (no markdown, no explanation):
-```json
-{{
-  "fixed_content": {{ ... the complete fixed JSON matching template structure ... }},
-  "changes_summary": ["Change 1", "Change 2"]
-}}
-```
+Return only JSON with fixed_content (complete updated source) and changes_summary (list).
 '''
 
 

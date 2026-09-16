@@ -434,10 +434,10 @@ The ankle pick sweep is generally a low-risk technique with minimal injury poten
 
 <section id="related-systems" class="content-section related-systems">
 
-## Train this with a System
+## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem Ankle Pick System</span><span class="system-card__unlocks-badge">Unlocks 11 techniques</span><span class="system-card__blurb">Related attack from guard</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Aaron-Benzrihem-Ankle-Pick-System" data-cta="related-system-card" data-system-slug="systems/aaron-benzrihem-ankle-pick-system" data-system-name="Aaron Benzrihem Ankle Pick System" data-member-count="11"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Aaron Benzrihem: Ankle Picks</span><span class="system-card__unlocks-badge">11 related references</span><span class="system-card__blurb">Related movement card for separate study.</span><span class="system-card__chips"><span class="system-card__chip">Intermediate</span><span class="system-card__chip">Attack System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

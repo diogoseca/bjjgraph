@@ -33,12 +33,10 @@ generated+committed static asset):
     errors, drills, plus glue and related) is a dossier in the content/ chunk space above,
     addressed by `key` = "<Name>|<Principle|Learning>", so the app reads it through the same
     _ngc() cache as a node dossier. Deferred: nothing on the roll path fetches it.
-  - systems.json : the 47 expert Systems as the app's library + graph-highlight source
-    ({_meta, systems:[{id,name,url,summary,type,difficulty,nodes,unresolved,products}]}).
-    `nodes` are graph-data.json node ids, so selecting a System can light up exactly the
-    part of the graph it teaches; `products` carries the curated BJJFanatics affiliate
-    entries VERBATIM from content (never synthesized — a fabricated affiliate URL is a
-    broken promise to a paying customer).
+  - systems.json : compact searchable Systems library with stable names/IDs, display titles,
+    aliases, graph membership and neutral verified products. Rich guide evidence/media and
+    resolvable non-graph references live only in deferred System dossiers. Referral activation
+    is an emitted-artifact postbuild step, never source content.
   - aliases.json : deferred exact site-id -> {aka:[], family?:{name,aka:[]}} index.
     Own aliases and inherited family aliases retain provenance; no graph wire changes.
 
@@ -53,6 +51,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
+from _system_guides import canonical_course_url, related_references
 from _slug import slugify  # canonical slugify (shared with node ids)
 LAYOUT = ROOT / "source/quartz/static/globalGraphLayout.json"
 GRAPH = ROOT / "graph.json"
@@ -1633,25 +1632,17 @@ def _resolve_member(name: str, ctype: str, path: str | None, ids: set,
 
 
 def _products(data: dict, sys_name: str) -> list[dict]:
-    """The curated BJJFanatics entries, VERBATIM. Content authors them as
-    {title, instructor, affiliate_url}; the Neural contract wants {name, instructor, url}
-    plus {id, vendor} for the affiliate funnel's utm_term / data-vendor.
+    """Neutral verified courses. Existing app fields plus canonical URL and activation flag.
 
-    Two ways an entry is DROPPED rather than shipped:
-      * no name or no URL — a card that links nowhere earns nothing and misleads;
-      * link_status != "live" — the URL was not opened and confirmed to resolve to that exact
-        instructional (or was confirmed DEAD). Verified 2026-08-09: two of the three authored
-        products 404. A 404 CTA earns exactly as much as no CTA and costs the reader's trust,
-        so the system degrades to its no-product surface until a human re-verifies the link.
-        Fail-safe: an entry with no link_status at all is treated as unverified.
-    NOTHING here is ever synthesized — no URL, no product.
+    Rich guide evidence stays in dossiers; products remain compact searchable metadata.
+    Referral activation belongs exclusively to the postbuild resolver.
     """
     out = []
     for p in data.get("products") or []:
         if not isinstance(p, dict):
             continue
         name = (p.get("title") or p.get("name") or "").strip()
-        url = (p.get("affiliate_url") or p.get("url") or "").strip()
+        url = canonical_course_url(p.get("course_url"))
         if not (name and url):
             print(f"  systems: skipped product without name+url in {sys_name}")
             continue
@@ -1665,6 +1656,8 @@ def _products(data: dict, sys_name: str) -> list[dict]:
             "name": name,
             "instructor": (p.get("instructor") or "").strip(),
             "url": url,
+            "course_url": url,
+            "affiliate": False,
             "id": (p.get("id") or "").strip(),
             "vendor": (p.get("vendor") or "BJJFanatics").strip(),
             **{field: p[field].strip() for field in ("blurb", "best_for", "study_focus", "practice_tip")
@@ -1731,6 +1724,8 @@ def _system_body(data: dict) -> dict:
     never emits them, so the renderer's block list is the union and each surface fills its own.
     """
     body: dict = {}
+    if isinstance(data.get("guide"), dict):
+        body["guide"] = data["guide"]
     ov = _clip((data.get("overview") or "").strip(), SYS_OVERVIEW_CAP)
     if ov:
         body["overview"] = ov
@@ -1919,11 +1914,14 @@ def build_systems(graph: dict, nodes: list[dict]) -> tuple[dict, dict]:
             )
         # Only an open detail reads the ordered spine. Keep its existing caps and all steps,
         # but deliver it with the dossier so catalog growth does not inflate the shared index.
-        dossiers[key] = dict(_system_body(data), sequence=sequence, cat="System", name=name, url=f"/{page}")
+        dossiers[key] = dict(_system_body(data), sequence=sequence, cat="System", name=name, url=f"/{page}",
+                             references=related_references(data, SYSTEMS_DIR.parent, quartz_slug))
         systems.append({
             "id": page,
             "key": key,
             "name": name,
+            "display_title": (data.get("guide") or {}).get("display_title") or name,
+            "aliases": data.get("aliases") or [],
             "url": f"/{page}",
             "summary": _clip(data.get("summary") or data.get("description") or ""),
             "type": (data.get("system_type") or "").strip(),
@@ -2481,9 +2479,9 @@ def main() -> None:
           f"{sm['crossTypeRefs']} resolved under a section the author did not type)")
     _smax = max((len(json.dumps(v, ensure_ascii=False, separators=(",", ":")))
                  for v in system_dossiers.values()), default=0)
-    _sfull = sum(1 for v in system_dossiers.values() if v.get("overview") and v.get("points"))
+    _sfull = sum(1 for v in system_dossiers.values() if v.get("guide") or (v.get("overview") and v.get("points")))
     print(f"systems/: {len(system_dossiers)} readable bodies into the content/ chunk space "
-          f"({_sfull} with an overview AND key principles), fattest {_smax} bytes "
+          f"({_sfull} with a guide or legacy overview + principles), fattest {_smax} bytes "
           f"(chunk ceiling 40,000)")
     # POSITIVE COVERAGE, HARD FLOOR (CLAUDE.md section 6.6) — the same floor the concepts carry,
     # for the same reason: 145,746 authored words reached nobody for want of an emit pass, and a
@@ -2491,7 +2489,7 @@ def main() -> None:
     # body silently stopped parsing. A renamed authored field lands here, loudly.
     if _sfull < sm["count"]:
         raise SystemExit(
-            f"[neural] systems: {_sfull}/{sm['count']} carry a readable body (overview + key "
+            f"[neural] systems: {_sfull}/{sm['count']} carry a readable body (guide or overview + key "
             f"principles). A System with no body opens a panel that is a title and a link. Check "
             f"_system_body against the authored template."
         )

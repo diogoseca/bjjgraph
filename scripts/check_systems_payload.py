@@ -3,7 +3,7 @@
 Systems library and the graph highlight without lying to the app or to a paying customer.
 
 Why this exists: systems.json is the ONLY place the Neural app (100% of default traffic) learns
-that the 47 expert Systems exist, which graph nodes each one teaches, and which BJJFanatics
+that Systems guides exist, which graph nodes they reference, and which BJJFanatics
 course to link. Two of those three are silent-failure shaped:
   * a `nodes` id that graph-data.json does not contain highlights NOTHING — the feature looks
     broken only to the user, never to the build;
@@ -20,8 +20,8 @@ Asserts:
   5. every system resolves >= 1 node (except KNOWN_EMPTY, empty today — see below);
   6. total unresolved <= UNRESOLVED_CEILING and total member nodes >= MIN_MEMBER_NODES;
   7. _meta counts agree with the arrays (catches a stale or hand-edited payload);
-  8. product entries carry a real https URL, and no url contains "REPLACE_ME" once
-     AFFILIATE_REF is set (while it is unset the placeholder is expected and only reported);
+  8. products carry canonical HTTPS course URLs and explicit affiliate state; displayed
+     placeholders always fail, regardless of configuration;
   9. THE PANEL CONTRACT — every member node is claimed by exactly one glue entry, and a
      family-expanded ref carries `fam` == its node count. See PANEL CONTRACT below;
  10. THE READABLE BODY — every System (and every concept sharing that chunk space) has a dossier
@@ -104,7 +104,7 @@ MIN_MEMBER_NODES = 1600
 
 REQUIRED = {
     "id": str, "key": str, "name": str, "url": str, "summary": str, "type": str,
-    "difficulty": str, "nodes": list, "unresolved": list, "products": list, "glue": list,
+    "display_title": str, "aliases": list, "difficulty": str, "nodes": list, "unresolved": list, "products": list, "glue": list,
 }
 
 # ── BODIES ────────────────────────────────────────────────────────────────────────────────────
@@ -121,9 +121,8 @@ REQUIRED = {
 # the SAME fnv1a32 the writer used (imported, never re-implemented — CLAUDE.md 6.6), open the file
 # the app would open, and count what is actually in it.
 #
-# The per-block floors are ROT DETECTORS, not editorial rules: today every one of the 47 systems
-# and 82 concepts carries every block its library authors, so a half-corpus floor cannot fire on
-# ordinary content edits and does fire when a renamed field empties a block corpus-wide.
+# Legacy concept blocks retain their existing coverage floors. Systems instead require a
+# readable guide or legacy overview; filler section counts are not a quality signal.
 # ── THE CROSS-TYPE RUNG, AND WHY IT NEEDS A FLOOR ─────────────────────────────────────────────
 # `_resolve_member` tries the graph section the author's `content_type` names, and — only when that
 # finds nothing — the other two. Measured 2026-08-31: it fires ONCE across both libraries.
@@ -149,7 +148,7 @@ CONCEPT_NODES_FLOOR = 690
 CONCEPT_UNRESOLVED_CEILING = 1
 
 BODY_BLOCKS = {
-    "System": ("overview", "points", "contexts", "errors", "mistakes", "drills", "metrics"),
+    "System": ("guide", "overview"),
     "Principle": ("overview", "points", "contexts", "errors", "drills"),
     "Learning": ("overview", "points", "contexts", "errors", "drills"),
 }
@@ -191,12 +190,23 @@ def check_bodies(entries: list[tuple[str, str, str]]) -> tuple[list[str], dict]:
                 f"{eid}: chunk content/{h}.json exists but carries no {key!r} entry — a hash "
                 f"collision was written wrong, or the key changed on one side only")
             continue
+        if cat == 'System' and body.get('guide'):
+            from _system_guides import validate_guide
+            guide_errors, _ = validate_guide(body)
+            errors.extend(f'{eid}: {e}' for e in guide_errors)
+            for field in ('kind', 'display_title', 'audience', 'coverage', 'start_here', 'sources'):
+                if field not in body['guide']:
+                    errors.append(f'{eid}: guide missing {field}')
+            if not isinstance(body.get('references'), list):
+                errors.append(f'{eid}: references missing from guide dossier')
         present = [b for b in BODY_BLOCKS[cat] if body.get(b)]
         if not present:
             errors.append(f"{eid}: body is empty — every authored block came back blank")
         for b in present:
             c["blocks"][b] += 1
     for cat, c in sorted(cov.items()):
+        if cat == "System":
+            continue  # Guide fields replace legacy scaffolding; each body was checked above.
         for b, n in sorted(c["blocks"].items()):
             if n * 2 < c["n"]:
                 errors.append(
@@ -289,10 +299,15 @@ def check(payload: dict, node_ids: set[str], expected_ids: set[str]) -> list[str
             if not isinstance(p, dict):
                 errors.append(f"{sid}: product entry is not an object")
                 continue
-            for key in ("name", "instructor", "url"):
+            for key in ("name", "instructor", "url", "course_url"):
                 if not isinstance(p.get(key), str):
                     errors.append(f"{sid}: product `{key}` missing or not a string")
+            from _system_guides import canonical_course_url
+            if not canonical_course_url(p.get('course_url')) or not isinstance(p.get('affiliate'), bool):
+                errors.append(f'{sid}: product must carry canonical course_url and affiliate boolean')
             url = p.get("url") or ""
+            if 'REPLACE_ME' in url:
+                errors.append(f'{sid}: displayed product placeholder is always invalid')
             if not url.startswith("https://"):
                 errors.append(f"{sid}: product {p.get('name')!r} url is not https: {url!r}")
 
@@ -429,12 +444,8 @@ def main() -> None:
         for s in payload.get("systems", []) if isinstance(s.get("products"), list)
         for p in s["products"] if isinstance(p, dict) and "REPLACE_ME" in (p.get("url") or "")
     ]
-    affiliate_ref = os.environ.get("AFFILIATE_REF", "").strip()
-    if placeholders and affiliate_ref:
-        for sid, url in placeholders:
-            errors.append(f"{sid}: AFFILIATE_REF is set but the product url still says REPLACE_ME "
-                          f"({url}) — run scripts/apply_affiliate_ref.py BEFORE this gate; if it "
-                          f"already ran, its substitution failed and the link earns nothing")
+    if placeholders:
+        errors.append(f'{len(placeholders)} unresolved product placeholders (no configuration exception)')
 
     if errors:
         print("[check_systems_payload] FAIL", file=sys.stderr)
@@ -462,11 +473,7 @@ def main() -> None:
         print(f"[check_systems_payload] bodies OK — {c['n']} {cat} dossier(s) found at the "
               f"address the app computes, blocks: "
               + ", ".join(f"{b} {n}" for b, n in sorted(c["blocks"].items())))
-    if placeholders:
-        print(f"[check_systems_payload] NOTE — {len(placeholders)} product url(s) still contain "
-              f"REPLACE_ME. AFFILIATE_REF is unset, so that is expected: the ref-substitution "
-              f"plumbing is not wired yet. These links earn NOTHING until it is: "
-              f"{[sid for sid, _ in placeholders]}")
+
 
 
 if __name__ == "__main__":
