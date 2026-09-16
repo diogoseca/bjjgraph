@@ -1,6 +1,6 @@
 {
   "name": "Modern No-Gi Passing System",
-  "description": "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery. Explore the training sequence and course on BJJ Fanatics.",
+  "description": "Choose a no-gi passing study by the problem you want to solve: several guard families, body-lock stages, over/under responses or float-position exits.",
   "tags": [
     "bjj",
     "system",
@@ -11,467 +11,216 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Advanced",
-  "summary": "Modern no-gi passing involves choosing a route around, through or under the legs while managing guard recovery.",
-  "overview": "Modern no-gi passing involves choosing a route around, through or under the legs while managing guard recovery. Use this guide to connect your preferred pass to a response when the first route closes, then check whether you can stabilize the pin.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
-  "key_principles": [
-    "Maintain constant forward pressure and connection control",
-    "Use headquarters position as central passing hub",
-    "Break connections before attempting to advance position",
-    "Apply hip pressure to limit mobility and create passing angles",
-    "Chain multiple passing attacks to prevent guard recovery",
-    "Control the inside space to prevent re-guarding",
-    "Adapt passing approach based on opponent's guard type and reactions"
-  ],
-  "key_components": [
-    {
-      "component_name": "Headquarters Position Control",
-      "description": "The headquarters position serves as the primary control hub where the passer establishes dominant grips, applies pressure, and dictates engagement distance. From this position, the passer controls one or both legs while maintaining postural advantage, creating a platform for launching coordinated passing attacks. Mastery of headquarters allows systematic breakdown of guard retention structures.",
-      "purpose": "Establish dominant position before committing to specific passing sequences"
-    },
-    {
-      "component_name": "Connection Breaking Mechanics",
-      "description": "Systematic approach to identifying and destroying opponent's defensive connections including underhooks, frames, and leg-based controls. This involves specific hand fighting sequences, posture adjustments, and pressure angles designed to strip defensive grips while establishing offensive control points. Effective connection breaking prevents opponents from maintaining guard structure or creating scrambles.",
-      "purpose": "Neutralize defensive structures and create passing opportunities"
-    },
-    {
-      "component_name": "Pressure Passing Sequences",
-      "description": "Coordinated passing chains that use forward pressure and weight distribution to collapse guard structures. Key sequences include knee slice variations, leg drag entries, and over-under pressure passes. Each sequence incorporates specific grip configurations, hip positioning, and pressure angles optimized for no-gi environments where traditional gi-based controls are unavailable.",
-      "purpose": "Execute high-percentage passes through systematic pressure application"
-    },
-    {
-      "component_name": "Floating Pass Transitions",
-      "description": "Dynamic passing movements that avoid static positions, instead maintaining constant transitional pressure through movements like bodylock passes, headquarters shifts, and long-step entries. These passes capitalize on timing windows when opponents adjust their guard structure, using momentum and angle changes rather than purely strength-based pressure to advance position.",
-      "purpose": "Maintain offensive initiative through dynamic movement and timing-based attacks"
-    },
-    {
-      "component_name": "Leg Entanglement Awareness",
-      "description": "Defensive understanding and countering strategies for modern leg-based guards including ashi garami variations, 50-50, and reverse de la riva. This component includes specific passing mechanics that avoid dangerous entanglement positions while systematically clearing leg-based defensive structures. Critical for safely passing modern guard players who incorporate leg attacks into their retention strategies.",
-      "purpose": "Navigate leg-based guards safely while maintaining passing pressure"
-    },
-    {
-      "component_name": "Re-Guard Prevention Protocol",
-      "description": "Systematic approach to preventing opponents from recovering guard once passing sequences begin. Includes specific grips, pressure angles, and positional awareness that shut down common re-guarding pathways. This component emphasizes maintaining connection control during transitions and recognizing critical moments when opponents attempt to insert defensive frames or create space.",
-      "purpose": "Consolidate passing success and prevent defensive recoveries"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Foundation Development",
-      "description": "Build fundamental understanding of headquarters position, connection breaking mechanics, and basic pressure passing concepts",
-      "key_points": [
-        "Master headquarters entries from standing and open guard",
-        "Develop hand fighting skills for no-gi connection control",
-        "Learn basic knee slice and leg drag mechanics",
-        "Understand hip pressure application and weight distribution"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Guard-Specific Solutions",
-      "description": "Develop specific passing approaches for common guard types including butterfly, half guard, and leg-based guards",
-      "key_points": [
-        "Learn butterfly guard passing through smash and bodylock variations",
-        "Master half guard passing with underhook control and knee slice entries",
-        "Study safe passing mechanics for ashi garami and related positions",
-        "Practice adapting headquarters position to different guard structures"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Passing Chain Integration",
-      "description": "Connect individual passing techniques into flowing sequences that respond to defensive reactions",
-      "key_points": [
-        "Chain knee slice to leg drag based on opponent reactions",
-        "Integrate bodylock passes with pressure-based alternatives",
-        "Develop headquarters to floating pass transitions",
-        "Practice passing chains against live resistance"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Scramble Management",
-      "description": "Learn to maintain offensive advantage during scrambles and re-guard attempts",
-      "key_points": [
-        "Recognize re-guarding pathways and shut them down proactively",
-        "Develop transitional awareness during dynamic exchanges",
-        "Practice recovering to headquarters when passes are defended",
-        "Build conditioning for sustained passing pressure"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Competitive Application",
-      "description": "Apply complete passing system in competition-simulation training against skilled opponents",
-      "key_points": [
-        "Test passing sequences against diverse guard styles",
-        "Develop game-planning approach for specific opponent types",
-        "Refine timing and pressure application under fatigue",
-        "Integrate passing system with overall positional strategy"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Advanced Refinement",
-      "description": "Continuously evolve passing approach based on modern meta-game developments and personal attributes",
-      "key_points": [
-        "Study elite competitors' passing innovations",
-        "Adapt system to personal physical attributes and preferences",
-        "Develop counters to new guard retention strategies",
-        "Maintain technical precision under maximum resistance"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Opponent maintains persistent frames and creates distance, preventing pressure application",
-      "solution": "Focus on systematic connection breaking through hand fighting, use floating passes to avoid static exchanges, and establish headquarters control before committing to pressure sequences"
-    },
-    {
-      "obstacle": "Guard player successfully re-guards after initial passing attempts, negating progress",
-      "solution": "Develop sharper recognition of re-guarding pathways, maintain connection control during transitions, and use proactive pressure to prevent space creation that enables guard recovery"
-    },
-    {
-      "obstacle": "Difficulty passing athletic opponents who scramble and create dynamic exchanges",
-      "solution": "Improve transitional awareness and conditioning, develop ability to recover to headquarters during scrambles, and practice maintaining pressure through movement rather than static positions"
-    },
-    {
-      "obstacle": "Uncertainty when facing leg-based guards leading to defensive, ineffective passing",
-      "solution": "Study leg entanglement passing mechanics systematically, develop confidence in safe passing positions, and drill specific sequences for clearing leg-based controls while maintaining offensive initiative"
-    },
-    {
-      "obstacle": "Over-reliance on single passing style limits effectiveness against diverse guard players",
-      "solution": "Deliberately practice all passing variations within the system, develop ability to read guard type and select appropriate approach, and chain different passing styles based on defensive reactions"
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Passing Completion Rate",
-      "description": "Percentage of passing attempts that successfully advance to dominant positions (side control, mount, back control) during live training",
-      "proficiency_indicators": [
-        "Beginner: 20-30% success rate against similar-level opponents",
-        "Intermediate: 40-60% success rate with consistent execution of primary sequences",
-        "Advanced: 70%+ success rate including adaptation to various guard styles",
-        "Expert: 80%+ success rate with ability to pass elite-level guard players"
-      ]
-    },
-    {
-      "metric_name": "Connection Control Mastery",
-      "description": "Ability to systematically break opponent connections and maintain offensive grips throughout passing sequences",
-      "proficiency_indicators": [
-        "Consistently wins hand fighting exchanges in headquarters position",
-        "Prevents opponents from establishing strong defensive frames",
-        "Maintains connection control during dynamic transitions",
-        "Adapts grip strategies based on opponent reactions in real-time"
-      ]
-    },
-    {
-      "metric_name": "Guard Type Versatility",
-      "description": "Effectiveness of passing approach across different guard structures and opponent styles",
-      "proficiency_indicators": [
-        "Has reliable solutions for butterfly, half guard, and open guard variations",
-        "Can safely navigate leg-based guards without defensive stalling",
-        "Adapts passing strategy based on opponent's guard preferences",
-        "Maintains consistent pressure regardless of guard type encountered"
-      ]
-    },
-    {
-      "metric_name": "Scramble Dominance",
-      "description": "Ability to maintain offensive advantage during dynamic exchanges and prevent successful re-guarding",
-      "proficiency_indicators": [
-        "Recovers to headquarters when initial passes are defended",
-        "Recognizes and shuts down re-guarding pathways proactively",
-        "Maintains forward pressure during transitional moments",
-        "Converts scrambles into passing opportunities rather than defensive resets"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "The system requires progressive drilling that builds from static technical work to dynamic live application. Begin with headquarters control and connection breaking drills performed with cooperative partners, focusing on precise grip placements and pressure angles. Progress to positional sparring from specific guard types, allowing defenders to use limited resistance initially. Gradually increase resistance levels while maintaining technical precision, emphasizing smooth transitions between passing variations rather than forcing single techniques. Include dedicated scramble training where both partners work dynamically, with the passer practicing recovery to headquarters and re-guard prevention. Supplement technical drilling with conditioning work that maintains pressure under fatigue, as effective passing requires sustained physical output.",
-    "progression_path": [
-      {
-        "stage": "Technical Foundation",
-        "focus": "Master headquarters control, basic connection breaking, and fundamental passing mechanics (knee slice, leg drag) with cooperative drilling",
-        "timeframe": "Weeks 1-4"
-      },
-      {
-        "stage": "Guard-Specific Development",
-        "focus": "Develop specific solutions for butterfly, half guard, and leg-based guards through positional drilling with progressive resistance",
-        "timeframe": "Weeks 5-12"
-      },
-      {
-        "stage": "Chain Integration",
-        "focus": "Connect passing techniques into flowing sequences, practice adapting to defensive reactions, increase live training volume",
-        "timeframe": "Weeks 13-24"
-      },
-      {
-        "stage": "Scramble Mastery",
-        "focus": "Refine transitional awareness, develop re-guard prevention instincts, maintain pressure during dynamic exchanges",
-        "timeframe": "Weeks 25-40"
-      },
-      {
-        "stage": "Competition Application",
-        "focus": "Test complete system in competition-simulation training, develop game-planning skills, refine personal passing style",
-        "timeframe": "Weeks 41-52"
-      },
-      {
-        "stage": "Continuous Evolution",
-        "focus": "Adapt system to meta-game changes, incorporate new passing innovations, maintain technical sharpness through ongoing drilling",
-        "timeframe": "Ongoing"
-      }
-    ],
-    "common_mistakes": [
-      "Attempting to force passes without first establishing headquarters control and breaking defensive connections",
-      "Using excessive strength instead of proper pressure angles and weight distribution",
-      "Committing to single passing attempts without chaining follow-up options when initial attacks are defended",
-      "Neglecting re-guard prevention, allowing opponents to easily recover guard after partial passing success",
-      "Passing with poor posture or positioning that exposes neck to guillotine attacks or back takes"
-    ]
-  },
+  "summary": "Compare a broad guard-by-guard course with focused body-lock, over/under and float-passing studies.",
+  "overview": "Use this comparison to select a study scope before selecting a technique. The linked Gordon Ryan course surveys several guard families; the other guides organize their reading around a narrower passing family or position. These are choices of study focus, not an official combined curriculum.",
   "related_content": [
     {
       "name": "Headquarters Position",
       "content_type": "Position",
-      "relationship": "Central control hub for initiating passing sequences"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Knee Shield Half Guard",
       "content_type": "Position",
-      "relationship": "Common defensive structure requiring specific passing solutions"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Guard type requiring smash and bodylock passing approaches"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "Control position used for floating pass variations"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Leg Drag Control",
       "content_type": "Position",
-      "relationship": "Advanced passing position accessed from headquarters control"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Primary finishing position for successful passing sequences"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Ashi Garami",
       "content_type": "Position",
-      "relationship": "Leg-based guard requiring specialized passing mechanics to navigate safely"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Open Guard",
       "content_type": "Position",
-      "relationship": "Starting position for establishing headquarters and initiating passing attacks"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Common defensive escape requiring back take or pass completion skills"
+      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Knee Slice Pass",
       "content_type": "Transition",
-      "relationship": "Core pressure passing technique integrated throughout system"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Leg Drag Pass",
       "content_type": "Transition",
-      "relationship": "High-percentage floating pass chained with knee slice variations"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Body Lock Pass",
       "content_type": "Transition",
-      "relationship": "Dynamic passing sequence effective against butterfly and seated guards"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Headquarters Pass",
       "content_type": "Transition",
-      "relationship": "Direct passing finish from headquarters control position"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Long Step Pass",
       "content_type": "Transition",
-      "relationship": "Floating pass variation used to bypass guard retention attempts"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Knee Cut Pass",
       "content_type": "Transition",
-      "relationship": "Pressure-based passing technique particularly effective from half guard"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Smash Pass",
       "content_type": "Transition",
-      "relationship": "Aggressive pressure pass for collapsing butterfly and open guard structures"
+      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
     },
     {
       "name": "Guard Passing",
       "content_type": "Principle",
-      "relationship": "Fundamental concepts underlying all passing mechanics in system"
+      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
     },
     {
       "name": "Forward Pressure",
       "content_type": "Principle",
-      "relationship": "Constant offensive pressure principle maintaining passing initiative"
+      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
     },
     {
       "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Essential skill for managing defensive connections and establishing offensive grips"
+      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Understanding defensive frames to systematically dismantle them during passing"
+      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
     },
     {
       "name": "Gordon Ryan Passing System",
       "content_type": "System",
-      "relationship": "Related modern passing framework with overlapping principles and techniques"
+      "relationship": "Broad guard-by-guard course companion."
     },
     {
       "name": "No-Gi Tactical Framework",
       "content_type": "System",
-      "relationship": "Broader competitive strategy framework incorporating passing system elements"
+      "relationship": "Related study guide; its scope should be checked separately from this course."
     },
     {
       "name": "Bernardo Faria Pressure System",
       "content_type": "System",
-      "relationship": "Complementary pressure-based approach with applicable passing concepts"
+      "relationship": "Focused over/under entries and troubleshooting."
+    },
+    {
+      "name": "Lachlan Giles Body Lock Passing System",
+      "content_type": "System",
+      "relationship": "Focused body-lock stages and narrated-rolling study."
+    },
+    {
+      "name": "Vagner Rocha Float Passing System",
+      "content_type": "System",
+      "relationship": "Float-position study within a course also covering knee-cut and standing passing."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What is the role of the headquarters position in the Modern No-Gi Passing System?",
-      "answer": "Headquarters is the central control hub where the passer pins one or both legs, establishes posture, and dictates distance before launching coordinated passing chains such as knee slice and leg drag.",
-      "answer_line": "Control legs, posture, distance",
-      "distractors": {
-        "plausible": [
-          "Chase a fast leg drag",
-          "Isolate only one leg"
-        ],
-        "trap": [
-          "Let go of legs to hunt a sub"
-        ]
-      }
-    },
-    {
-      "question": "Why does no-gi passing rely on connection breaking rather than grip stripping?",
-      "answer": "Without gi grips, guard players retain using underhooks, frames, and leg entanglements; systematically breaking these connections through hand fighting and pressure angles is what creates the space needed to advance and pass.",
-      "answer_line": "Break underhooks and frames",
-      "distractors": {
-        "plausible": [
-          "Strip their gi grips first",
-          "Out-muscle their frames"
-        ],
-        "trap": [
-          "Ignore frames, drive through"
-        ]
-      }
-    },
-    {
-      "question": "How should you safely approach leg-based guards like ashi garami or 50-50?",
-      "answer": "Recognize the entanglement early, control your trapped foot's knee line and posture, clear the legs with specific mechanics rather than yanking, and protect your heel while keeping forward passing pressure.",
-      "answer_line": "Control knee, clear, guard heel",
-      "distractors": {
-        "plausible": [
-          "Yank the leg free fast",
-          "Ignore entanglement, push through"
-        ],
-        "trap": [
-          "Force the heel out blindly"
-        ]
-      }
-    },
-    {
-      "question": "What distinguishes a floating pass from a pure pressure pass?",
-      "answer": "A floating pass uses constant movement, timing, and angle changes (bodylock, long-step, headquarters shifts) to bypass retention during transition windows, whereas a pressure pass collapses the guard with weight distribution and hip pressure.",
-      "answer_line": "Floating: motion; pressure: weight",
-      "distractors": {
-        "plausible": [
-          "Both rely on pure hip pressure",
-          "Floating means static heavy pins"
-        ],
-        "trap": [
-          "Rush transitions, skip angles"
-        ]
-      }
-    },
-    {
-      "question": "What common mistake exposes a passer to guillotines or back takes?",
-      "answer": "Passing with broken posture and the head dropped forward over the opponent; keeping the head up, chin tucked, and hips driving forward prevents the neck exposure that invites guillotines and back takes.",
-      "answer_line": "Head down, posture broken",
-      "distractors": {
-        "plausible": [
-          "Keeping chin tucked too long",
-          "Driving hips back not forward"
-        ],
-        "trap": [
-          "Drop head to drive through pass"
-        ]
-      }
-    },
-    {
-      "question": "How do you prevent an opponent from re-guarding after a partial pass?",
-      "answer": "Maintain connection control through the transition, occupy the inside space, and proactively shut down framing and knee-insertion pathways before the opponent can create the space needed to recover guard.",
-      "answer_line": "Hold connection, block knee entry",
-      "distractors": {
-        "plausible": [
-          "Rush straight to next pass",
-          "Release grips to reset angle"
-        ],
-        "trap": [
-          "Back off to reset posture"
-        ]
-      }
-    },
-    {
-      "question": "Which finishing positions confirm a successful pass in this system?",
-      "answer": "Reaching side control, knee on belly, mount, or back control confirms a completed pass, since the goal is to convert headquarters and floating entries into a stable dominant position past the legs.",
-      "answer_line": "Side control, KOB, mount, back",
-      "distractors": {
-        "plausible": [
-          "Half guard counts as a pass",
-          "Any top position confirms it"
-        ],
-        "trap": [
-          "Turtle counts as a finished pass"
-        ]
-      }
-    },
-    {
-      "question": "Why is chaining passes more effective than committing to a single technique?",
-      "answer": "Skilled guard players defend the first attempt, so chaining knee slice to leg drag to bodylock based on their reactions keeps the passer ahead of defensive responses and prevents guard recovery between attacks.",
-      "answer_line": "Chain passes off their reactions",
-      "distractors": {
-        "plausible": [
-          "Repeat one pass until it works",
-          "Switch passes randomly each time"
-        ],
-        "trap": [
-          "Commit fully to first attempt"
-        ]
-      }
-    }
-  ],
+  "flashcards": [],
   "products": [
     {
       "id": "systematically-attacking-the-guard-by-gordon-ryan",
       "title": "Systematically Attacking The Guard",
       "instructor": "Gordon Ryan",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan?rfsn=REPLACE_ME",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "Studies no-gi guard passing as a sequence of engagements, controls and responses to guard recovery.",
-      "best_for": "Passers who know individual passes but struggle to connect them against resistance.",
-      "study_focus": "Choose the section for the guard you encounter most often and compare its responses with this page’s sequence.",
-      "practice_tip": "Start each round in the same passing position. Track whether you cleared the legs and held the resulting pin, and where recovery began."
+      "link_checked": "2026-09-16",
+      "blurb": "Compare a broad guard-by-guard course with focused body-lock, over/under and float-passing studies.",
+      "best_for": "You have several passing resources in mind and need to choose one that matches a recurring problem.",
+      "study_focus": "Use this course when a broad guard survey fits your question; choose the narrower linked guides when the passing family is already clear.",
+      "course_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan"
     }
-  ]
+  ],
+  "guide": {
+    "kind": "topic_guide",
+    "display_title": "Choosing a No-Gi Passing Study",
+    "audience": {
+      "fits": [
+        "You have several passing resources in mind and need to choose one that matches a recurring problem."
+      ],
+      "consider_alternative_if": [
+        "If you already know the passing family you want, go directly to its companion guide."
+      ]
+    },
+    "coverage": {
+      "includes": [
+        "Gordon Ryan: split-squat, half-guard and half-butterfly coverage within a broader course.",
+        "Lachlan Giles: body-lock stages and narrated rolling.",
+        "Bernardo Faria: over/under entries and troubleshooting; Vagner Rocha: a float volume alongside knee-cut and standing passing."
+      ],
+      "limits": [
+        "This comparison covers the linked courses, not every no-gi passing approach; it does not combine their chapter lists into a technical sequence."
+      ]
+    },
+    "start_here": {
+      "title": "Choose breadth or depth from one recurring problem",
+      "kind": "observation",
+      "task": "Describe one recent passing problem without naming a preferred pass. Compare the official outlines: use Ryan’s half-butterfly volume for that guard family, Faria’s troubleshooting volume for an established over/under problem, Giles’s stage description for body-lock progress, or Rocha’s float volume for float-position exits. Select one route and record why its stated starting context matches your problem. Follow the corresponding guide for the first study action.",
+      "source_ids": [
+        "ryan-guard",
+        "giles-body-lock",
+        "faria-pressure",
+        "rocha-float"
+      ],
+      "section": "Comparison anchors: Ryan Volume 4; Faria Volume 2; Giles’s So What’s On This Series description; Rocha Volume 2."
+    },
+    "sources": [
+      {
+        "id": "ryan-guard",
+        "url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan",
+        "title": "Systematically Attacking The Guard by Gordon Ryan",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified course identity and eight-volume outline, including split squat, half guard, half butterfly, rolling and commentary. Listing inspected; video content not reviewed."
+      },
+      {
+        "id": "giles-body-lock",
+        "url": "https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles",
+        "title": "The Body Lock Pass by Lachlan Giles",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified title, Lachlan Giles attribution, six-volume description, body-lock stages and narrated rolling. The page embeds a video labeled 5 stages of the body lock pass by Lachlan Giles; video content not reviewed."
+      },
+      {
+        "id": "faria-pressure",
+        "url": "https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria",
+        "title": "No Gi Pressure Passing by Bernardo Faria",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified No Gi Pressure Passing by Bernardo Faria and its over/under entries, troubleshooting and other pressure passes. Listing inspected; video content not reviewed."
+      },
+      {
+        "id": "rocha-float",
+        "url": "https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha",
+        "title": "Float Passing System by Vagner Rocha",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified Float Passing System by Vagner Rocha and three-volume outline organized into knee cut, float and standing passing. Official page labels an embedded free sample; sample content not reviewed."
+      }
+    ]
+  }
 }
