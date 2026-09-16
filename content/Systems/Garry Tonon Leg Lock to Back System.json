@@ -211,7 +211,7 @@
         "title": "Shoot To Kill: Wrestle, Scramble, Submit by Garry Tonon",
         "kind": "official_listing",
         "checked_on": "2026-09-16",
-        "note": "Official listing inspected: Garry Tonon attribution, exact title and wrestling, leg-entry, upper-body and scramble sections verified. Public sample content not reviewed."
+        "note": "Official listing inspected: Garry Tonon attribution, exact title and wrestling, leg-entry, upper-body and scramble sections verified. Public sample content not reviewed. The official page embeds the selected sample under “Ashi Otoshi”; its video content has not been reviewed."
       },
       {
         "id": "comparison",
@@ -221,6 +221,16 @@
         "checked_on": "2026-09-16",
         "note": "Official listing inspected to compare the advertised subject and course breadth with this guide."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "youtube",
+      "embed_url": "https://www.youtube.com/embed/z4ooLe74j0I?autoplay=0",
+      "source_id": "course",
+      "title": "Official sample — Garry Tonon / Shoot To Kill: Wrestle, Scramble, Submit",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
   }
 }

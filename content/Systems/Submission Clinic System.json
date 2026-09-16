@@ -223,7 +223,7 @@
         "title": "Kimura: Enter The System by John Danaher",
         "kind": "official_listing",
         "checked_on": "2026-09-16",
-        "note": "John Danaher, Kimura: Enter The System and the paired switching lessons verified. Dorsal/T-kimura and positional scope inspected; no execution or universal response chain verified."
+        "note": "John Danaher, Kimura: Enter The System and the paired switching lessons verified. Dorsal/T-kimura and positional scope inspected; no execution or universal response chain verified. The official page embeds the selected sample under “Check Out a Free Technique”; its video content has not been reviewed."
       },
       {
         "id": "comparison",
@@ -233,6 +233,16 @@
         "checked_on": "2026-09-16",
         "note": "Official listing inspected to compare the advertised subject and course breadth with this guide."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/0bda12ef-75ce-4bf2-9ee5-faf562111c34?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "source_id": "course",
+      "title": "Official sample — John Danaher / Kimura: Enter The System",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
   }
 }

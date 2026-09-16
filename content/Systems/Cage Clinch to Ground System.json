@@ -130,7 +130,7 @@
         "title": "Modern Jiu-Jitsu For MMA by Neiman Gracie",
         "kind": "official_listing",
         "checked_on": "2026-09-16",
-        "note": "Verified Neiman Gracie, exact title and the separate open-floor/cage Kosoto lessons. The listing also establishes striking and guard coverage; no striking or takedown execution inspected."
+        "note": "Verified Neiman Gracie, exact title and the separate open-floor/cage Kosoto lessons. The listing also establishes striking and guard coverage; no striking or takedown execution inspected. The official page embeds the selected sample under “Check out a free sample”; its video content has not been reviewed."
       },
       {
         "id": "comparison",
@@ -140,6 +140,16 @@
         "checked_on": "2026-09-16",
         "note": "Official listing inspected to compare the advertised subject and course breadth with this guide."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/c4b12885-f860-41ea-a2a7-858b129971d4?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "source_id": "course",
+      "title": "Official sample — Neiman Gracie / Modern Jiu-Jitsu For MMA",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
   }
 }

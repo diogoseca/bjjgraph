@@ -125,7 +125,7 @@
         "title": "Arm Bars: Enter The System by John Danaher",
         "kind": "official_listing",
         "checked_on": "2026-09-16",
-        "note": "Official listing inspected: John Danaher attribution, exact Arm Bars title, phase headings and positional coverage verified. The starting reference follows the published control-lesson label. Video content not reviewed."
+        "note": "Official listing inspected: John Danaher attribution, exact Arm Bars title, phase headings and positional coverage verified. The starting reference follows the published control-lesson label. Video content not reviewed. The official page embeds the selected sample under “Check Out Sample”; its video content has not been reviewed."
       },
       {
         "id": "comparison",
@@ -135,6 +135,16 @@
         "checked_on": "2026-09-16",
         "note": "Official listing inspected to compare the advertised subject and course breadth with this guide."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/f83fb91d-801b-41f2-b528-28a33de87812?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "source_id": "course",
+      "title": "Official sample — John Danaher / Arm Bars: Enter The System",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
   }
 }
