@@ -458,6 +458,7 @@ for (const rejected of ["host", "provider", "origin"]) {
 
 test("related-card review keeps the existing session behavior", async ({ page }) => {
   const j = await bootFixtures(page); await openFirst(page);
+  await expect(page.locator("[data-system-start]")).toBeVisible();
   await page.locator("[data-system-drill]").scrollIntoViewIfNeeded();
   await j.clickByMouse("[data-system-drill]");
   const session = await page.evaluate(() => {
