@@ -1,6 +1,5 @@
 {
   "name": "10th Planet No-Gi Guard System",
-  "description": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -12,480 +11,212 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Advanced",
-  "summary": "This guide connects several 10th Planet guard ideas, including rubber guard and lockdown half guard.",
-  "overview": "This guide connects several 10th Planet guard ideas, including rubber guard and lockdown half guard. Study one control and one exit at a time. The linked Eddie Bravo instructional is particularly relevant to the rubber guard and bottom half guard portions.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
-  "key_principles": [
-    "Flexibility and hip mobility enable unconventional control positions",
-    "Break posture through overhooks and leg control rather than gi grips",
-    "Create submission chains where defensive responses open new attacks",
-    "Use unfamiliarity as a tactical advantage in competition",
-    "Integrate striking defense considerations for MMA applications",
-    "Systematic progression from control to submission",
-    "Embrace inverted and unconventional positions for strategic advantage"
-  ],
-  "key_components": [
-    {
-      "component_name": "Rubber Guard Series",
-      "description": "The rubber guard positions (Mission Control, New York, Meathook, Chill Dog, Carni) use the leg to control the opponent's posture while creating overhook control. This system breaks traditional posture recovery and opens pathways to triangles, omoplatas, and gogoplatas through systematic transitions.",
-      "purpose": "Dominant closed guard control leading to high-percentage submissions"
-    },
-    {
-      "component_name": "Lockdown System",
-      "description": "From half guard, the lockdown uses both legs to trap the opponent's leg, preventing passing while enabling sweeps and electric chair submissions. This component provides defensive stability and offensive opportunities from bottom half guard, particularly effective against pressure passing.",
-      "purpose": "Transform defensive half guard into offensive attacking position"
-    },
-    {
-      "component_name": "Twister Path",
-      "description": "The truck position and twister series create unique submission opportunities from turtle, scrambles, and back takes. This pathway includes calf slicers, banana splits, and the signature twister submission, providing attacks from positions opponents rarely defend.",
-      "purpose": "Capitalize on scrambles and turtle positions with submission threats"
-    },
-    {
-      "component_name": "Flexibility Protocol",
-      "description": "Systematic stretching and mobility work targeting hip flexors, hamstrings, and spinal rotation enables the deep positions required for rubber guard and twister attacks. This component includes specific warm-up sequences and progressive flexibility development essential for system execution.",
-      "purpose": "Physical preparation enabling execution of system positions"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Foundation Building",
-      "description": "Develop fundamental flexibility and become comfortable in basic rubber guard and lockdown positions",
-      "key_points": [
-        "Daily hip flexor and hamstring stretching",
-        "Practice basic rubber guard control (Mission Control)",
-        "Learn lockdown mechanics from half guard",
-        "Develop comfort in inverted positions",
-        "Build conditioning for maintaining unusual positions"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Rubber Guard Pathways",
-      "description": "Master the progression through rubber guard positions and their submission endings",
-      "key_points": [
-        "Mission Control to New York transition",
-        "New York to triangle setup",
-        "Meathook control and omoplata paths",
-        "Chill Dog to gogoplata connections",
-        "Invisible Collar control maintenance"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Lockdown Integration",
-      "description": "Implement lockdown system from half guard with sweep and submission chains",
-      "key_points": [
-        "Lockdown entry from various half guard positions",
-        "Old school sweep mechanics",
-        "Electric chair submission pathway",
-        "Lockdown to back take transitions",
-        "Combining lockdown with whip-up techniques"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Twister Series",
-      "description": "Develop truck position entries and twister submission sequences",
-      "key_points": [
-        "Truck entry from turtle and scrambles",
-        "Calf slicer from truck position",
-        "Twister control and finish mechanics",
-        "Banana split variations",
-        "Transitions between truck attacks"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "System Integration",
-      "description": "Connect all subsystems into cohesive guard game with strategic transitions",
-      "key_points": [
-        "Rubber guard to lockdown transitions",
-        "Lockdown to truck pathways",
-        "Recognizing which pathway to pursue based on opponent reactions",
-        "Combining striking defense with guard retention",
-        "Competition strategy and pacing"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Advanced Applications",
-      "description": "Refine timing, develop counters to common defenses, and adapt system for competition",
-      "key_points": [
-        "Counter opponent's rubber guard defenses",
-        "Advanced lockdown variations",
-        "Twister entries from unexpected positions",
-        "MMA-specific applications",
-        "Teaching methodology for coaching others"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Insufficient flexibility limiting rubber guard depth",
-      "solution": "Implement dedicated daily stretching protocol targeting hip flexors and hamstrings. Progress gradually through rubber guard positions, starting with Mission Control before attempting deeper positions like Meathook or Chill Dog. Use yoga and specific 10th Planet stretching sequences."
-    },
-    {
-      "obstacle": "Opponents standing up and escaping lockdown",
-      "solution": "Maintain active lockdown pressure and immediately transition to Old School sweep when opponent attempts to stand. Use whip-up motion and off-balancing before opponent establishes base. Practice lockdown retention drills against standing escape attempts."
-    },
-    {
-      "obstacle": "Difficulty entering truck position from scrambles",
-      "solution": "Drill specific truck entries from turtle and failed guard pass positions. Focus on timing the entry when opponent's weight is forward. Practice calf slicer grip as primary truck entry mechanism. Study common scramble patterns to recognize truck opportunities."
-    },
-    {
-      "obstacle": "Lack of sparring partners familiar with 10th Planet positions",
-      "solution": "Use positional sparring starting from specific 10th Planet positions. Educate training partners on basic defenses to create realistic resistance. Attend 10th Planet seminars or visit affiliate schools for specialized training. Film training to review position execution independently."
-    },
-    {
-      "obstacle": "Overreliance on flexibility instead of technical precision",
-      "solution": "Focus on mechanical understanding of each position's control points. Practice positions at submaximal flexibility ranges to develop technical proficiency. Study Danaher's systematic analysis of guard retention principles. Balance flexibility training with technical drilling."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Rubber Guard Control Retention",
-      "description": "Ability to maintain rubber guard positions against escape attempts and establish submission pathways",
-      "proficiency_indicators": [
-        "Consistently achieve Mission Control from closed guard",
-        "Transition between rubber guard positions fluidly",
-        "Finish triangles and omoplatas from rubber guard positions",
-        "Maintain control for 30+ seconds against resistance"
-      ]
-    },
-    {
-      "metric_name": "Lockdown Effectiveness",
-      "description": "Success rate with lockdown sweeps and submissions from half guard",
-      "proficiency_indicators": [
-        "Enter lockdown from various half guard scenarios",
-        "Execute Old School sweep with 40%+ success rate",
-        "Threaten electric chair causing opponent reactions",
-        "Prevent passing while in lockdown position"
-      ]
-    },
-    {
-      "metric_name": "Truck Position Entries",
-      "description": "Recognition and execution of truck position opportunities during scrambles and transitions",
-      "proficiency_indicators": [
-        "Enter truck from turtle 60%+ of opportunities",
-        "Recognize truck entries during guard pass scrambles",
-        "Maintain truck control against escape attempts",
-        "Finish calf slicer or twister from truck position"
-      ]
-    },
-    {
-      "metric_name": "System Integration",
-      "description": "Seamless connection between rubber guard, lockdown, and twister subsystems based on position flow",
-      "proficiency_indicators": [
-        "Transition from rubber guard to lockdown when appropriate",
-        "Convert failed lockdown sweeps to truck entries",
-        "Recognize optimal pathway selection based on opponent reactions",
-        "Chain attacks across different subsystems"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "The 10th Planet system requires specialized drilling that emphasizes position familiarization and flexibility development. Begin each session with the 10th Planet warm-up sequence (hip rotations, butterfly stretches, rubber guard pulls). Use progressive resistance drilling where training partners gradually increase defensive intensity as practitioner comfort develops. Implement position-specific rounds (rubber guard only, lockdown only, truck only) before integrating full system sparring. Film training regularly to review position mechanics and identify technical errors. Dedicate at least 20% of training time to flexibility and mobility work, as physical preparation directly enables position execution.",
-    "progression_path": [
-      {
-        "stage": "White Belt Foundation",
-        "focus": "Basic flexibility development, Mission Control familiarity, lockdown mechanics",
-        "timeframe": "6-12 months"
-      },
-      {
-        "stage": "Blue Belt Development",
-        "focus": "Rubber guard transitions, Old School sweeps, basic truck entries",
-        "timeframe": "12-18 months"
-      },
-      {
-        "stage": "Purple Belt Integration",
-        "focus": "System connections, submission finishes, competition application",
-        "timeframe": "18-24 months"
-      },
-      {
-        "stage": "Brown Belt Mastery",
-        "focus": "Advanced variations, counter to defenses, teaching methodology",
-        "timeframe": "24+ months"
-      },
-      {
-        "stage": "Black Belt Innovation",
-        "focus": "Personal variations, MMA integration, system evolution",
-        "timeframe": "Ongoing"
-      }
-    ],
-    "common_mistakes": [
-      "Attempting advanced positions without adequate flexibility preparation",
-      "Forcing rubber guard positions when opponent posture is too strong",
-      "Neglecting lockdown pressure and allowing opponent to escape easily",
-      "Missing truck entries during scrambles due to unfamiliarity with timing",
-      "Overcommitting to submissions without maintaining positional control",
-      "Training only the offensive aspects without developing defensive counters",
-      "Ignoring traditional guard fundamentals in favor of exotic positions"
-    ]
-  },
   "related_content": [
     {
       "name": "Rubber Guard",
       "content_type": "Position",
-      "relationship": "Primary position family for entire system"
+      "relationship": "Rubber Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Mission Control",
       "content_type": "Position",
-      "relationship": "Foundational rubber guard control position"
+      "relationship": "Mission Control: related position study, separate from the source syllabus."
     },
     {
       "name": "New York",
       "content_type": "Position",
-      "relationship": "Key rubber guard position for triangle setups"
+      "relationship": "New York: related position study, separate from the source syllabus."
     },
     {
       "name": "Meathook",
       "content_type": "Position",
-      "relationship": "Advanced rubber guard control for omoplata paths"
+      "relationship": "Meathook: related position study, separate from the source syllabus."
     },
     {
       "name": "Chill Dog",
       "content_type": "Position",
-      "relationship": "Rubber guard position for gogoplata attacks"
+      "relationship": "Chill Dog: related position study, separate from the source syllabus."
     },
     {
       "name": "Lockdown",
       "content_type": "Position",
-      "relationship": "Core half guard control mechanism"
+      "relationship": "Lockdown: related position study, separate from the source syllabus."
     },
     {
       "name": "Electric Chair",
       "content_type": "Position",
-      "relationship": "Submission position from lockdown system"
+      "relationship": "Electric Chair: related position study, separate from the source syllabus."
     },
     {
       "name": "Truck",
       "content_type": "Position",
-      "relationship": "Central position for twister series attacks"
+      "relationship": "Truck: related position study, separate from the source syllabus."
     },
     {
       "name": "Twister Control",
       "content_type": "Position",
-      "relationship": "Finishing position for signature submission"
+      "relationship": "Twister Control: related position study, separate from the source syllabus."
     },
     {
       "name": "Inverted Guard",
       "content_type": "Position",
-      "relationship": "Transitional position in system flow"
+      "relationship": "Inverted Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Triangle Setup",
       "content_type": "Transition",
-      "relationship": "Primary finishing path from rubber guard"
+      "relationship": "Triangle Setup: related transition study, separate from the source syllabus."
     },
     {
       "name": "Omoplata Sweep",
       "content_type": "Transition",
-      "relationship": "Alternative attack from rubber guard positions"
+      "relationship": "Omoplata Sweep: related transition study, separate from the source syllabus."
     },
     {
       "name": "Old School Sweep",
       "content_type": "Transition",
-      "relationship": "Primary sweep from lockdown position"
+      "relationship": "Old School Sweep: related transition study, separate from the source syllabus."
     },
     {
       "name": "Truck Entry",
       "content_type": "Transition",
-      "relationship": "Entry mechanism to twister series"
+      "relationship": "Truck Entry: related transition study, separate from the source syllabus."
     },
     {
       "name": "Triangle from Guard",
       "content_type": "Submission",
-      "relationship": "Primary submission finish from rubber guard"
+      "relationship": "Triangle from Guard: related submission study, separate from the source syllabus."
     },
     {
       "name": "Omoplata",
       "content_type": "Submission",
-      "relationship": "Alternative submission from rubber guard positions"
+      "relationship": "Omoplata: related submission study, separate from the source syllabus."
     },
     {
       "name": "Gogoplata",
       "content_type": "Submission",
-      "relationship": "Advanced submission from Chill Dog position"
+      "relationship": "Gogoplata: related submission study, separate from the source syllabus."
     },
     {
       "name": "Twister",
       "content_type": "Submission",
-      "relationship": "Signature submission finish from truck"
+      "relationship": "Twister: related submission study, separate from the source syllabus."
     },
     {
       "name": "Calf Slicer",
       "content_type": "Submission",
-      "relationship": "Alternative finish from truck position"
+      "relationship": "Calf Slicer: related submission study, separate from the source syllabus."
     },
     {
       "name": "Electric Chair",
       "content_type": "Submission",
-      "relationship": "Primary submission from lockdown system"
+      "relationship": "Electric Chair: related submission study, separate from the source syllabus."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Fundamental principle enabling guard maintenance and recovery"
+      "relationship": "Frames: related principle study, separate from the source syllabus."
     },
     {
       "name": "Hip Escape Mechanics",
       "content_type": "Principle",
-      "relationship": "Hip mobility foundation enabling rubber guard and inverted positions"
+      "relationship": "Hip Escape Mechanics: related principle study, separate from the source syllabus."
     },
     {
       "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Strategic framework connecting system attacks"
+      "relationship": "Submission Chains: related principle study, separate from the source syllabus."
     },
     {
       "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Methodology for forcing opponents to choose between losing options"
+      "relationship": "Fork Attacks: related principle study, separate from the source syllabus."
     },
     {
       "name": "10th Planet Rubber Guard System",
       "content_type": "System",
-      "relationship": "Specialized subsystem focusing on rubber guard details"
+      "relationship": "Focused companion for the rubber-guard material in this same release."
     },
     {
       "name": "10th Planet Half Guard Bottom System",
       "content_type": "System",
-      "relationship": "Specialized subsystem focusing on lockdown variations"
+      "relationship": "Focused companion for the bottom-half section in this same release."
     },
     {
       "name": "Twister System",
       "content_type": "System",
-      "relationship": "Specialized subsystem for truck and twister attacks"
+      "relationship": "Twister System: related system study, separate from the source syllabus."
+    },
+    {
+      "name": "Marcelo Garcia X-Guard System",
+      "content_type": "System",
+      "relationship": "Compare for a separately indexed open-guard entry and sweep syllabus."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What three subsystems form the backbone of the 10th Planet No-Gi Guard System?",
-      "answer": "Rubber guard from closed guard (Mission Control, New York, Meathook), the lockdown system from half guard, and the truck/twister series from turtle and scrambles, all connected by strategic transitions.",
-      "answer_line": "Rubber guard, lockdown, truck",
-      "distractors": {
-        "plausible": [
-          "Closed guard, mount, back control",
-          "Half guard, side control, mount"
-        ],
-        "trap": [
-          "Just spam armbars from guard"
-        ]
-      }
+  "summary": "A navigation guide to the history, rubber-guard and bottom-half sections of Eddie Bravo’s The Ultimate Rubber Guard.",
+  "description": "Choose an entry point into Eddie Bravo’s advertised guard material according to whether you want context, rubber guard or bottom half.",
+  "overview": "A school’s no-gi curriculum can be much broader than one release. This page helps you select a route through the linked course and points to more focused companion pages when you already know your subject.",
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Eddie Bravo: Choosing a Guard Study Route",
+    "audience": {
+      "fits": [
+        "You are unsure which part of the linked Eddie Bravo release matches your current interest."
+      ],
+      "consider_alternative_if": [
+        "For a direct rubber-guard study route, use the Rubber Guard guide; for the brief half-guard section, use Bottom Half Study."
+      ]
     },
-    {
-      "question": "Why does the 10th Planet system avoid gi grips in its control mechanics?",
-      "answer": "It is built for no-gi and MMA, so it controls posture through overhooks, leg-based clamps, and body positioning rather than collar or sleeve grips, keeping the control transferable to gi-less competition and striking range.",
-      "answer_line": "Overhooks and leg-based control",
-      "distractors": {
-        "plausible": [
-          "Wrist and ankle grips only",
-          "Deep collar tie control"
-        ],
-        "trap": [
-          "Grip the collar like gi guard"
-        ]
-      }
+    "coverage": {
+      "includes": [
+        "Historical discussion precedes rubber-guard material; bottom half appears in the final volume."
+      ],
+      "limits": [
+        "The published outline does not list a truck or twister curriculum, nor a complete open-guard program."
+      ]
     },
-    {
-      "question": "What is the primary function of the lockdown in bottom half guard?",
-      "answer": "The lockdown uses both legs to trap and stretch the opponent's leg, neutralizing pressure passing while setting up the Old School sweep and the electric chair submission from bottom half guard.",
-      "answer_line": "Trap the leg, stop the pass",
-      "distractors": {
-        "plausible": [
-          "Sweep immediately every time",
-          "Attack the far arm for kimura"
-        ],
-        "trap": [
-          "Release grip to create scrambles"
-        ]
-      }
+    "start_here": {
+      "title": "Choose context or positional study",
+      "kind": "observation",
+      "task": "Compare the first volume’s historical headings with the positional headings in volumes 3 and 4. Select one of three routes: background, rubber guard, or bottom half. If your goal is open guard against a standing passer, compare the Marcelo X-Guard guide instead.",
+      "source_ids": [
+        "bravo-rubber-listing",
+        "garcia-xguard-listing"
+      ],
+      "section": "Volume 3: Full Rubber Guard — 0–38:49 (course range)"
     },
-    {
-      "question": "From which positions do you typically enter the truck for twister attacks?",
-      "answer": "The truck is most often entered from turtle, failed guard passes, and scramble exchanges when the opponent's weight is forward, using a calf-slicer style grip as the primary entry mechanism.",
-      "answer_line": "Turtle, scrambles, failed passes",
-      "distractors": {
-        "plausible": [
-          "Closed guard when opponent stands",
-          "Mount when opponent bridges"
-        ],
-        "trap": [
-          "Abandon top mount to chase truck"
-        ]
+    "sources": [
+      {
+        "id": "bravo-rubber-listing",
+        "url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
+        "title": "The Ultimate Rubber Guard by Eddie Bravo",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified four volumes, instructor, rubber-guard history and omoplata coverage, and the Bottom Half section. Listing inspected; course video content not reviewed."
+      },
+      {
+        "id": "garcia-xguard-listing",
+        "url": "https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia",
+        "title": "The Marcelo X Guard by Marcelo Garcia",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified butterfly/shin-to-shin entries, sleeve/collar examples, stand-up finishes and pummel/backstep counters. Listing inspected; course video content not reviewed."
       }
-    },
-    {
-      "question": "Which physical attribute most limits rubber guard depth, and how is it addressed?",
-      "answer": "Hip and hamstring flexibility limits how deep positions like Meathook and Chill Dog can be reached; it is addressed with a dedicated daily mobility protocol and progressing gradually outward from Mission Control.",
-      "answer_line": "Hip/hamstring mobility work",
-      "distractors": {
-        "plausible": [
-          "Shoulder flexibility drills",
-          "Core strength conditioning"
-        ],
-        "trap": [
-          "Force the position with strength"
-        ]
-      }
-    },
-    {
-      "question": "What is a common mistake when applying rubber guard against a strong-postured opponent?",
-      "answer": "Forcing the position with muscle when posture is too strong; instead break posture first with overhook and leg control, or switch to lockdown or truck pathways rather than fighting the position head-on.",
-      "answer_line": "Break posture first, not muscle",
-      "distractors": {
-        "plausible": [
-          "Pull harder into deep rubber guard",
-          "Switch grips faster for finish"
-        ],
-        "trap": [
-          "Muscle the leg up regardless"
-        ]
-      }
-    },
-    {
-      "question": "How does the system create submission chains rather than isolated attacks?",
-      "answer": "Each defensive reaction opens a new attack: defending the triangle exposes the omoplata, stuffing the Old School sweep opens the back, and posting against the truck exposes the calf slicer, keeping the opponent perpetually defending.",
-      "answer_line": "Defenses trigger next attack",
-      "distractors": {
-        "plausible": [
-          "Repeat the same attack harder",
-          "Reset to neutral guard first"
-        ],
-        "trap": [
-          "Chase the tap, ignore reactions"
-        ]
-      }
-    },
-    {
-      "question": "How can a practitioner develop the system without 10th-Planet-experienced partners?",
-      "answer": "Use positional sparring from specific 10th Planet positions, teach partners the basic defenses to create realistic resistance, film rounds for review, and visit affiliate schools or seminars for specialized feedback.",
-      "answer_line": "Positional drills, film, seminars",
-      "distractors": {
-        "plausible": [
-          "Only drill solo shadow reps",
-          "Watch instructionals exclusively"
-        ],
-        "trap": [
-          "Force it on untrained partners"
-        ]
-      }
-    }
-  ],
+    ]
+  },
   "products": [
     {
       "id": "the-ultimate-rubber-guard-by-eddie-bravo",
       "title": "The Ultimate Rubber Guard",
       "instructor": "Eddie Bravo",
       "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME",
+      "course_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard.",
-      "best_for": "Students exploring 10th Planet guard connections. Check the syllabus for your chosen branch; this is broader than a single finish.",
-      "study_focus": "For the omoplata route, start in Volume 1. Bottom half guard and further guard variations appear in Volume 4.",
-      "practice_tip": "Choose a control you can enter comfortably. Practise maintaining posture control without pulling your knee into a forced range."
+      "link_checked": "2026-09-16",
+      "blurb": "One release shared by three companion pages, each with a different study purpose.",
+      "best_for": "You are unsure which part of the linked Eddie Bravo release matches your current interest.",
+      "study_focus": "Use the volume headings to choose context, rubber guard or bottom half."
     }
-  ]
+  ],
+  "flashcards": []
 }
