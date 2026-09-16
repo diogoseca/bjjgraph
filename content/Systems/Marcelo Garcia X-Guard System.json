@@ -1,21 +1,5 @@
 {
   "name": "Marcelo Garcia X-Guard System",
-  "products": [
-    {
-      "id": "marcelo-garcia-x-guard-formula",
-      "title": "The Marcelo X Guard",
-      "instructor": "Marcelo Garcia",
-      "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia?rfsn=REPLACE_ME",
-      "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "Connects butterfly and shin-to-shin entries with X-guard balance control and sweeping options.",
-      "best_for": "Guard players who want to move underneath a standing opponent and finish on top.",
-      "study_focus": "Begin with an entry you already use, then compare the stand-up, tilt and push-back sweep options.",
-      "practice_tip": "Practise one entry and ask your partner to shift their weight. Choose the sweep direction from their balance rather than forcing a preset finish."
-    }
-  ],
-  "description": "Connects butterfly and shin-to-shin entries with X-guard balance control and sweeping options. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -27,485 +11,217 @@
   ],
   "system_type": "Guard System",
   "difficulty_level": "Advanced",
-  "summary": "X-guard gives you a way to work underneath a standing opponent and affect their balance.",
-  "overview": "X-guard gives you a way to work underneath a standing opponent and affect their balance. Connect a familiar butterfly or shin-to-shin entry to one sweep, then learn how your choice changes when the opponent shifts their weight.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
-  "key_principles": [
-    "Elevation and off-balancing through precise leg hook positioning",
-    "Multiple entry pathways from standing, seated, and butterfly guard",
-    "Seamless connection between sweeps, back takes, and submissions",
-    "Creating dilemmas where every defensive response opens new attacks",
-    "Weight distribution control to nullify opponent's base",
-    "Hook management to maintain control while creating sweeping angles",
-    "Transitional fluidity between X-Guard and Single Leg X variations"
-  ],
-  "key_components": [
-    {
-      "component_name": "Entry System",
-      "description": "Multiple high-percentage pathways into X-Guard from various positions including butterfly guard, seated guard, and standing positions. Each entry is designed to work against specific opponent postures and reactions, creating a comprehensive net that makes X-Guard acquisition inevitable. The system includes both proactive entries from neutral positions and reactive entries from failed guard passes or standing exchanges.",
-      "purpose": "Establish X-Guard position from any common guard or standing scenario"
-    },
-    {
-      "component_name": "Hook Control Matrix",
-      "description": "Precise leg positioning system that controls opponent's base and creates sweeping angles. The top hook elevates while the bottom hook disrupts base, creating the fundamental mechanical advantage. Understanding hook depth, angle, and pressure variations allows practitioners to adjust to different opponent body types and defensive strategies while maintaining control integrity.",
-      "purpose": "Maintain positional control and create sweeping opportunities through leg mechanics"
-    },
-    {
-      "component_name": "Sweep Hierarchy",
-      "description": "Prioritized sequence of sweeping options based on opponent's weight distribution and defensive posture. Primary sweeps target the most common defensive positions, while secondary options address specific counters. The hierarchy ensures practitioners always have a high-percentage attack available regardless of opponent's defensive choices, creating constant offensive pressure.",
-      "purpose": "Execute sweeps systematically based on opponent reactions and positions"
-    },
-    {
-      "component_name": "Back Take Sequences",
-      "description": "Transitional pathways from X-Guard to back control using opponent's defensive reactions as entry points. When opponents defend sweeps by lowering their hips or shifting weight, specific windows open for back exposure. The system teaches recognition of these moments and precise technical execution to capitalize on them, often using the same leg hooks that controlled the sweep attempts.",
-      "purpose": "Convert X-Guard control into back takes when sweep windows close"
-    },
-    {
-      "component_name": "Submission Chains",
-      "description": "Direct submission attacks from X-Guard including guillotines, arm attacks, and transitions to triangle positions. While X-Guard is primarily a sweeping platform, specific opponent reactions create submission opportunities that complement the sweeping game. Understanding when to pursue submissions versus sweeps is critical to system mastery and prevents predictable attack patterns.",
-      "purpose": "Finish opponents directly from X-Guard or transition to submission positions"
-    },
-    {
-      "component_name": "Recovery System",
-      "description": "Defensive protocols for maintaining X-Guard structure when opponents attempt to pass or disengage. Includes re-hooking sequences, frame management, and transitional options to butterfly guard, seated guard, or deep half guard when X-Guard integrity is compromised. Recovery skills transform X-Guard from a static position into a dynamic control system.",
-      "purpose": "Maintain guard retention when X-Guard control is threatened"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Foundation Building",
-      "description": "Master basic X-Guard structure and hook positioning through isolated drilling. Focus on achieving proper elevation and understanding the mechanical relationship between top and bottom hooks.",
-      "key_points": [
-        "Establish correct leg hook depths and angles",
-        "Develop proprioceptive awareness of elevation and balance disruption",
-        "Practice hook adjustments for different opponent body types",
-        "Build core strength for maintaining elevated position"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Entry Development",
-      "description": "Learn and drill primary entry sequences from butterfly guard, seated guard, and standing positions. Develop timing and recognition for when each entry is available based on opponent posture and movement.",
-      "key_points": [
-        "Butterfly to X-Guard transition through elevation and hook insertion",
-        "Seated guard entries using foot on hip and ankle pick mechanics",
-        "Standing entries from failed takedown defense or guard pull scenarios",
-        "Entry timing based on opponent's weight distribution"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Kuzushi",
-      "description": "Develop technical proficiency in primary sweeping sequences including standard X-Guard sweep, technical stand variations, and elevation sweeps. Practice against progressive resistance to understand leverage points and timing.",
-      "key_points": [
-        "Master fundamental X-Guard sweep mechanics and angles",
-        "Develop technical stand-up variations for different defensive postures",
-        "Learn elevation sweeps that use maximum leg drive",
-        "Chain multiple sweep attempts when primary options are defended"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Back Take Integration",
-      "description": "Integrate back take sequences that capitalize on opponent's sweep defense. Learn to recognize when sweeps are defended through hip lowering or weight shifting, creating back exposure opportunities.",
-      "key_points": [
-        "Recognize back exposure windows during sweep defense",
-        "Execute hook insertion to back control from X-Guard",
-        "Develop seat belt control establishment from leg hooks",
-        "Practice transitional flow between sweep attempts and back takes"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Submission Connections",
-      "description": "Add submission threats including guillotine entries, arm drag to armbar sequences, and triangle transitions. Understand how submissions complement sweeping game and prevent predictable patterns.",
-      "key_points": [
-        "Guillotine setups from opponent's posture-down defense",
-        "Arm drag sequences leading to armbar or back take",
-        "Triangle transitions when opponent posts hands",
-        "Submission timing relative to sweep and back take threats"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Recovery and Retention",
-      "description": "Develop defensive skills for maintaining X-Guard when opponents attempt to pass or extract legs. Build transitional pathways to other guard positions when X-Guard cannot be maintained.",
-      "key_points": [
-        "Re-hook sequences when legs are being stripped",
-        "Frame management during pass attempts",
-        "Transitions to butterfly, seated, or deep half guard",
-        "Recognize when to abandon X-Guard versus fight to maintain"
-      ]
-    },
-    {
-      "step_number": 7,
-      "phase": "Live Integration",
-      "description": "Apply complete X-Guard system during live rolling with focus on entry recognition, position maintenance, and attack execution. Build automatic responses and develop personal preferences within the system framework.",
-      "key_points": [
-        "Entry opportunities during natural rolling scenarios",
-        "Maintain offensive pressure through continuous attack chains",
-        "Develop personal preferences for specific sweeps and back takes",
-        "Integrate with existing guard and submission systems"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Difficulty establishing hooks against experienced opponents who recognize X-Guard entries",
-      "solution": "Develop multiple entry pathways from different positions and use feints to disguise X-Guard intentions. Combine entries with other guard attacks so X-Guard becomes one option within a larger guard system rather than a telegraphed goal."
-    },
-    {
-      "obstacle": "Opponents extracting their leg from X-Guard hooks through aggressive leg pumping or base widening",
-      "solution": "Focus on hook depth and angle rather than just squeezing pressure. Use frames and grips to prevent base widening while maintaining hook integrity. Develop re-hooking sequences and transitions to butterfly or seated guard when extraction is inevitable."
-    },
-    {
-      "obstacle": "Sweeps failing against opponents with excellent base and posture",
-      "solution": "Chain multiple sweep attempts rather than committing to single attempts. Use sweep attempts to create reactions that open back take or submission opportunities. Develop elevation-based sweeps that work even against wide base by attacking different angles."
-    },
-    {
-      "obstacle": "Fatigue from maintaining elevated position, especially against heavier opponents",
-      "solution": "Build specific core and hip flexor strength through targeted conditioning. Learn to pulse elevation rather than maintaining constant pressure. Use technical stand-up variations that reduce sustained leg strain while maintaining control."
-    },
-    {
-      "obstacle": "Lack of clarity about when to pursue sweeps versus back takes versus submissions",
-      "solution": "Develop decision-making framework based on opponent's defensive reactions. Primary attacks are sweeps, back takes emerge when sweeps are defended by lowering hips, submissions appear when opponent posts hands or lowers head. Practice recognizing these windows through repetitive drilling."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Entry Success Rate",
-      "description": "Percentage of attempts that successfully establish X-Guard position from various starting positions during live rolling",
-      "proficiency_indicators": [
-        "Beginner: 20-30% success rate, primarily from static setups",
-        "Intermediate: 40-60% success rate from multiple positions",
-        "Advanced: 70%+ success rate with entries integrated into flowing guard play",
-        "Expert: Near-automatic entry recognition with 80%+ success against resisting opponents"
-      ]
-    },
-    {
-      "metric_name": "Sweep Completion Percentage",
-      "description": "Rate of achieving dominant position (mount, side control, or back) from established X-Guard control",
-      "proficiency_indicators": [
-        "Beginner: 30-40% completion, relying on single sweep type",
-        "Intermediate: 50-65% completion with 2-3 sweep variations",
-        "Advanced: 70-80% completion through sweep chains and combinations",
-        "Expert: 85%+ completion with seamless sweep-to-back-take integration"
-      ]
-    },
-    {
-      "metric_name": "Position Maintenance Duration",
-      "description": "Ability to maintain X-Guard control against opponent's passing attempts and extraction efforts",
-      "proficiency_indicators": [
-        "Beginner: 5-10 seconds before position loss or forced attack",
-        "Intermediate: 15-30 seconds with basic recovery sequences",
-        "Advanced: 30-60 seconds with multiple re-hooking and retention cycles",
-        "Expert: Indefinite control with dynamic hook management and transitional options"
-      ]
-    },
-    {
-      "metric_name": "Attack Diversity",
-      "description": "Range of effective attacks available from X-Guard including sweeps, back takes, and submissions",
-      "proficiency_indicators": [
-        "Beginner: 1-2 techniques executed with moderate success",
-        "Intermediate: 3-4 techniques with understanding of when each applies",
-        "Advanced: 5-7 techniques chained together based on opponent reactions",
-        "Expert: Complete system integration with seamless transitions between all attack categories"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "Marcelo Garcia's X-Guard system requires structured drilling that progresses from isolated technique to integrated flow. Begin with static hook positioning drills where partners maintain various defensive postures while the practitioner focuses on achieving correct leg hooks, elevation, and balance disruption. Progress to entry drilling from butterfly, seated, and standing positions with progressive resistance. Develop sweep mechanics through repetitive drilling with gradually increasing resistance, focusing on proper angles and leverage points rather than explosive power. Integrate back take sequences by having training partners defend sweeps with specific reactions (lowering hips, widening base) that create back exposure opportunities. Conclude each session with flow drilling where both partners explore X-Guard entries, defenses, and counters at 50-70% intensity, building pattern recognition and automatic responses.",
-    "progression_path": [
-      {
-        "stage": "Weeks 1-4: Mechanical Foundation",
-        "focus": "Hook positioning, elevation mechanics, basic sweep structure",
-        "timeframe": "4-6 weeks of fundamental drilling"
-      },
-      {
-        "stage": "Weeks 5-12: Entry Development",
-        "focus": "Multiple entry pathways, timing recognition, position establishment against resistance",
-        "timeframe": "8-12 weeks of progressive entry drilling"
-      },
-      {
-        "stage": "Weeks 13-24: Sweep Mastery",
-        "focus": "Primary and secondary sweeps, angle variations, chaining multiple attempts",
-        "timeframe": "12-16 weeks of sweep-specific training"
-      },
-      {
-        "stage": "Weeks 25-40: System Integration",
-        "focus": "Back takes, submissions, recovery sequences, complete system flow",
-        "timeframe": "16-20 weeks of advanced integration"
-      },
-      {
-        "stage": "Weeks 41+: Live Application",
-        "focus": "Competition-specific scenarios, personal style development, teaching others",
-        "timeframe": "Ongoing refinement and adaptation"
-      }
-    ],
-    "common_mistakes": [
-      "Relying exclusively on upper body grips instead of leg hook mechanics for control",
-      "Attempting sweeps before establishing proper elevation and hook positioning",
-      "Using excessive muscle tension rather than technical leverage for sweeping",
-      "Neglecting recovery sequences, leading to easy passes when X-Guard is threatened",
-      "Failing to chain attacks, making sweeps predictable and easy to defend",
-      "Poor timing on entries, telegraphing X-Guard intentions to experienced opponents",
-      "Inadequate core conditioning, causing fatigue and position abandonment"
-    ]
-  },
   "related_content": [
     {
       "name": "X-Guard",
       "content_type": "Position",
-      "relationship": "Primary position of the system - all techniques build from this foundation"
+      "relationship": "X-Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Single Leg X-Guard",
       "content_type": "Position",
-      "relationship": "Complementary position with shared mechanics and transitional connections"
+      "relationship": "Single Leg X-Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Primary entry position - butterfly hooks convert to X-Guard hooks"
+      "relationship": "Butterfly Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Butterfly Hook Control",
       "content_type": "Position",
-      "relationship": "Foundational control position that leads to X-Guard entries"
+      "relationship": "Butterfly Hook Control: related position study, separate from the source syllabus."
     },
     {
       "name": "Seated Guard",
       "content_type": "Position",
-      "relationship": "Alternative entry position and recovery option from failed X-Guard"
+      "relationship": "Seated Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Primary transition target when sweeps are defended"
+      "relationship": "Back Control: related position study, separate from the source syllabus."
     },
     {
       "name": "Deep Half Guard",
       "content_type": "Position",
-      "relationship": "Recovery position when X-Guard hooks are being stripped"
+      "relationship": "Deep Half Guard: related position study, separate from the source syllabus."
     },
     {
       "name": "X-Guard Sweep",
       "content_type": "Transition",
-      "relationship": "Fundamental sweep technique of the system"
+      "relationship": "X-Guard Sweep: related transition study, separate from the source syllabus."
     },
     {
       "name": "Butterfly Sweep",
       "content_type": "Transition",
-      "relationship": "Connected sweeping mechanics from butterfly entries"
+      "relationship": "Butterfly Sweep: related transition study, separate from the source syllabus."
     },
     {
       "name": "Butterfly Guard to X-Guard",
       "content_type": "Transition",
-      "relationship": "Primary entry sequence from butterfly position"
+      "relationship": "Butterfly Guard to X-Guard: related transition study, separate from the source syllabus."
     },
     {
       "name": "Single Leg X Entry",
       "content_type": "Transition",
-      "relationship": "Alternative guard variation with shared entry pathways"
+      "relationship": "Single Leg X Entry: related transition study, separate from the source syllabus."
     },
     {
       "name": "Single Leg X Sweep",
       "content_type": "Transition",
-      "relationship": "Complementary sweeping option from similar leg positioning"
+      "relationship": "Single Leg X Sweep: related transition study, separate from the source syllabus."
     },
     {
       "name": "De La Riva to X-Guard Transition",
       "content_type": "Transition",
-      "relationship": "Advanced entry from De La Riva guard system"
+      "relationship": "De La Riva to X-Guard Transition: related transition study, separate from the source syllabus."
     },
     {
       "name": "Back Take",
       "content_type": "Transition",
-      "relationship": "Standard back take sequence when sweeps are defended"
+      "relationship": "Back Take: related transition study, separate from the source syllabus."
     },
     {
       "name": "Arm Drag to Back",
       "content_type": "Transition",
-      "relationship": "Upper body connection to back takes from X-Guard"
+      "relationship": "Arm Drag to Back: related transition study, separate from the source syllabus."
     },
     {
       "name": "Guillotine Setup",
       "content_type": "Transition",
-      "relationship": "Submission entry when opponent defends by lowering posture"
+      "relationship": "Guillotine Setup: related transition study, separate from the source syllabus."
     },
     {
       "name": "Kuzushi",
       "content_type": "Principle",
-      "relationship": "Core principle governing all X-Guard sweeping techniques"
+      "relationship": "Kuzushi: related principle study, separate from the source syllabus."
     },
     {
       "name": "Center of Gravity",
       "content_type": "Principle",
-      "relationship": "Fundamental concept governing elevation, off-balancing, and base disruption in X-Guard"
+      "relationship": "Center of Gravity: related principle study, separate from the source syllabus."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Essential framing principles for maintaining X-Guard against passing attempts"
+      "relationship": "Frames: related principle study, separate from the source syllabus."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Hook management and control retention principles applied to X-Guard positioning"
+      "relationship": "Control Maintenance: related principle study, separate from the source syllabus."
     },
     {
       "name": "Timing and Rhythm",
       "content_type": "Principle",
-      "relationship": "Critical timing concepts for successful sweep and transition execution"
+      "relationship": "Timing and Rhythm: related principle study, separate from the source syllabus."
     },
     {
       "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Governs smooth flow between X-Guard and other positions"
+      "relationship": "Connection Principles: related principle study, separate from the source syllabus."
     },
     {
       "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Framework for connecting sweeps to submission opportunities"
+      "relationship": "Submission Chains: related principle study, separate from the source syllabus."
     },
     {
       "name": "Marcelo Garcia Butterfly Guard System",
       "content_type": "System",
-      "relationship": "Complementary system that shares entry mechanics and philosophy"
+      "relationship": "Marcelo Garcia Butterfly Guard System: related system study, separate from the source syllabus."
     },
     {
       "name": "Marcelo Garcia Guillotine System",
       "content_type": "System",
-      "relationship": "Submission system that integrates with X-Guard guillotine entries"
+      "relationship": "Marcelo Garcia Guillotine System: related system study, separate from the source syllabus."
     },
     {
       "name": "Dynamic Guard System",
       "content_type": "System",
-      "relationship": "Broader guard framework that includes X-Guard as key component"
+      "relationship": "Dynamic Guard System: related system study, separate from the source syllabus."
     },
     {
       "name": "Caio Terra Guard Retention System",
       "content_type": "System",
-      "relationship": "Retention principles applicable to maintaining X-Guard"
+      "relationship": "Caio Terra Guard Retention System: related system study, separate from the source syllabus."
     },
     {
       "name": "Back Attack System",
       "content_type": "System",
-      "relationship": "Back take methodology that connects to X-Guard transitions"
+      "relationship": "Back Attack System: related system study, separate from the source syllabus."
+    },
+    {
+      "name": "Adam Wardzinski Single Leg X System",
+      "content_type": "System",
+      "relationship": "Compare a single-leg-X-centered gi syllabus with this wider X-guard collection."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What core mechanical principle makes the X-Guard System effective against larger, stronger opponents?",
-      "answer": "It relies on deep leg-hook positioning and weight elevation rather than upper-body grips, using the legs to lift and off-balance the opponent so leverage—not strength—generates the sweep, which neutralizes size and power advantages.",
-      "answer_line": "Leg hooks elevate, not grips",
-      "distractors": {
-        "plausible": [
-          "Grip fighting wears them down",
-          "Speed and scrambles overwhelm"
-        ],
-        "trap": [
-          "Squeeze with upper-body strength"
-        ]
-      }
+  "summary": "An X-guard companion separating the course’s routes underneath the opponent from sweeping finishes and counter responses.",
+  "description": "Navigate The Marcelo X Guard by deciding whether your problem is entry, finishing a sweep or maintaining the position.",
+  "overview": "The first two volumes emphasize entries, the third concentrates on finishes and the fourth collects responses and transitions. Collar and sleeve examples appear in the outline alongside butterfly and shin-to-shin routes.",
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Marcelo Garcia: X-Guard Entries and Sweeps",
+    "audience": {
+      "fits": [
+        "You want to distinguish a failed X-guard entry from a stalled stand-up sweep or an opponent’s pummel."
+      ],
+      "consider_alternative_if": [
+        "For a gi single-leg-X emphasis with sleeve/lapel sweep variations, compare Adam Wardzinski’s guide."
+      ]
     },
-    {
-      "question": "What are the primary entry pathways into X-Guard in Marcelo Garcia's system?",
-      "answer": "Entries flow from butterfly guard by converting butterfly hooks, from seated guard using foot-on-hip and ankle-pick mechanics, and from standing scenarios off failed takedowns or guard pulls, giving multiple high-percentage routes into the position.",
-      "answer_line": "Butterfly, seated, or standing",
-      "distractors": {
-        "plausible": [
-          "Only from closed guard pulls",
-          "Only after opponent shoots"
-        ],
-        "trap": [
-          "Pull guard, then stand it up"
-        ]
-      }
+    "coverage": {
+      "includes": [
+        "Butterfly, grip-based and shin-to-shin entry sections.",
+        "Stand-up, push-back and tilt finishes; pummel, backstep and single-leg-X transition material."
+      ],
+      "limits": [
+        "Several entries and counters explicitly use collar or sleeve grips; this is not exclusively a no-gi syllabus."
+      ]
     },
-    {
-      "question": "When should a practitioner favor a back take over a sweep from X-Guard?",
-      "answer": "When the opponent defends the sweep by lowering their hips or shifting weight forward to widen their base, a back-exposure window opens; the same leg hooks that controlled the sweep are then used to insert hooks and take the back.",
-      "answer_line": "When they widen base forward",
-      "distractors": {
-        "plausible": [
-          "When they sit back on heels",
-          "When they post both hands down"
-        ],
-        "trap": [
-          "Release hooks and go for armbar"
-        ]
-      }
+    "start_here": {
+      "title": "Track the stage at which the exchange stalls",
+      "kind": "observation",
+      "task": "Use the chapter groupings to label an X-guard exchange as entry, finish or counter response. For a stand-up sweep problem, compare the initial finish with the following opponent-pulls-away lesson. For a connection lost before the finish, search the entry or pummel sections instead.",
+      "source_ids": [
+        "garcia-xguard-listing"
+      ],
+      "section": "Volume 3: X-Guard Finishes - Stand up sweep — 0 (course timestamp)"
     },
-    {
-      "question": "Why is chaining attacks essential rather than committing to a single sweep?",
-      "answer": "Single committed attacks become predictable and easy to defend; chaining sweeps, back takes, and submissions creates dilemmas where every defensive reaction the opponent makes opens a new attacking window and sustains offensive pressure.",
-      "answer_line": "Single attacks become predictable",
-      "distractors": {
-        "plausible": [
-          "Chaining wastes valuable energy",
-          "One strong attack is enough"
-        ],
-        "trap": [
-          "Commit fully to one sweep"
-        ]
+    "sources": [
+      {
+        "id": "garcia-xguard-listing",
+        "url": "https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia",
+        "title": "The Marcelo X Guard by Marcelo Garcia",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified butterfly/shin-to-shin entries, sleeve/collar examples, stand-up finishes and pummel/backstep counters. Listing inspected; course video content not reviewed."
+      },
+      {
+        "id": "wardzinski-slx-listing",
+        "url": "https://bjjfanatics.com/products/single-leg-x-reimagined-by-adam-wardzinski",
+        "title": "Single Leg X Reimagined by Adam Wardzinski",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified gi focus, entry families, sleeve/lapel sweep sections, stand-up and counter material. Listing inspected; course video content not reviewed."
       }
-    },
+    ]
+  },
+  "products": [
     {
-      "question": "What is a common mistake beginners make when learning the X-Guard System?",
-      "answer": "Attempting sweeps before establishing proper elevation and hook depth, and relying on upper-body grips or muscle tension instead of leg mechanics, which lets opponents flatten the structure or strip the hooks cleanly.",
-      "answer_line": "Sweeping before hooks are deep",
-      "distractors": {
-        "plausible": [
-          "Relying on grips, not legs",
-          "Chasing submissions too early"
-        ],
-        "trap": [
-          "Squeezing harder to control"
-        ]
-      }
-    },
-    {
-      "question": "How should you respond when an opponent strips a leg out of the X-Guard hooks?",
-      "answer": "Prioritize hook depth and angle over squeezing pressure, use frames and grips to stop base widening, and rely on re-hooking sequences plus transitions to butterfly, seated, or deep half guard when extraction becomes inevitable.",
-      "answer_line": "Prioritize hook depth over squeeze",
-      "distractors": {
-        "plausible": [
-          "Squeeze harder to hold the hook",
-          "Chase the leg to re-secure it"
-        ],
-        "trap": [
-          "Let go and stand up immediately"
-        ]
-      }
-    },
-    {
-      "question": "What role do submissions play within the primarily sweep-based X-Guard System?",
-      "answer": "Submissions such as guillotines, arm-drag-to-armbar sequences, and triangle transitions complement the sweeping game, emerging when the opponent posts hands or lowers their head, and they keep the attack pattern from becoming one-dimensional.",
-      "answer_line": "Complement sweeps, don't replace",
-      "distractors": {
-        "plausible": [
-          "Submissions are the main goal",
-          "Only attempted after failed sweep"
-        ],
-        "trap": [
-          "Abandon hooks to chase a choke"
-        ]
-      }
-    },
-    {
-      "question": "What conditioning challenge does sustained X-Guard play create and how is it managed?",
-      "answer": "Holding the elevated position fatigues the core and hip flexors, especially against heavier opponents; it is managed by pulsing elevation instead of constant pressure, targeted strength work, and technical stand-up variations that reduce sustained leg strain.",
-      "answer_line": "Pulse elevation, don't hold it",
-      "distractors": {
-        "plausible": [
-          "Hold constant elevation pressure",
-          "Rely on strength training only"
-        ],
-        "trap": [
-          "Let hips sag to rest legs"
-        ]
-      }
+      "id": "marcelo-garcia-x-guard-formula",
+      "title": "The Marcelo X Guard",
+      "instructor": "Marcelo Garcia",
+      "vendor": "BJJFanatics",
+      "course_url": "https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia",
+      "link_status": "live",
+      "link_checked": "2026-09-16",
+      "blurb": "Four volumes divided into entries, sweeping finishes and counter responses.",
+      "best_for": "You want to distinguish a failed X-guard entry from a stalled stand-up sweep or an opponent’s pummel.",
+      "study_focus": "Separate reaching X guard from the opponent response that interrupts the finish."
     }
-  ]
+  ],
+  "flashcards": []
 }
