@@ -79,8 +79,12 @@ Bot PRs get the same review as human ones. A generated suggestion must still be 
 - `source/`: the static-site package.
 - `forward/`: source for the `/dev/` design catalog, sound lab and email preview. Both deploy
   workflows build it; see [Architecture](docs/Architecture.md#forward-development-catalog).
-- `data/calibration/`: tracked calibration inputs and ignored local run outputs; see
+- `calibration/`: tracked calibration inputs and ignored local run outputs; see
   [Content](docs/Content.md#authored-values-are-not-always-published-values).
+
+`graph.json` stays at the root as the main downloadable dataset. `node_ordinals.json` stays
+beside it as the permanent, append-only share-link ID registry. Calibration files support
+the estimates used by the graph; they live together under `calibration/`.
 
 Keep ad-hoc screenshots and session notes out of the root. Use an ignored scratch directory
 such as `tmp/` for temporary work, `branding/` for shipped images, and `tests/artifacts/` for

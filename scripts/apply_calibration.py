@@ -9,12 +9,12 @@ eligible to apply.
 
 Eligibility per proposal technique ``k`` (writes a prior when ANY holds):
   - ``not needs_human_review``     — the confident mid-band, auto-applies,
-  - ``k in reviewed_set``          — a review entry exists (names in data/calibration/reviewed.json),
-  - ``k in overrides``             — an explicit correction exists (data/calibration/overrides.json wins).
+  - ``k in reviewed_set``          — a review entry exists (names in calibration/reviewed.json),
+  - ``k in overrides``             — an explicit correction exists (calibration/overrides.json wins).
 
 The prior value is the override's {gi, nogi} when present, else the proposal's proposed.success_rate.
 Community votes, occurrence%, and outcome distributions are NOT written here — occurrence/outcomes stay
-in the human-gated data/calibration/proposals.json; the graph build reduces the forked prior to a default
+in the human-gated calibration/proposals.json; the graph build reduces the forked prior to a default
 (no-gi) frame and rescales outcomes for coherence.
 
 Usage:
@@ -35,7 +35,7 @@ from _votes import RULESETS, migrate_entry
 
 _REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_VOTES = _REPO_ROOT / "templates" / "votes.json"
-_CALIBRATION_DIR = _REPO_ROOT / "data" / "calibration"
+_CALIBRATION_DIR = _REPO_ROOT / "calibration"
 DEFAULT_PROPOSALS = _CALIBRATION_DIR / "proposals.json"
 DEFAULT_OVERRIDES = _CALIBRATION_DIR / "overrides.json"
 DEFAULT_REVIEW = _CALIBRATION_DIR / "reviewed.json"

@@ -130,10 +130,12 @@ It does not write content outcome distributions, attempt probabilities, or commu
 Proposals not flagged for human review can apply automatically; flagged proposals need a review
 entry or override. These flags and provenance fields do not establish black-belt panel approval.
 
-Calibration inputs live in [`data/calibration/`](../data/calibration/): `external_anchors.json`
+Calibration inputs live in [`calibration/`](../calibration/): `external_anchors.json`
 supplies reference estimates, `overrides.json` holds explicit corrections, and `reviewed.json`
-lists reviewed techniques. Keep these inputs tracked. Cases, results, partial results and proposals
-are local, ignored outputs in the same directory; moving them does not change published rates.
+lists reviewed techniques. `occurrence_calibration.json` records move-attempt distributions and
+their provenance; the occurrence application and validation scripts read it. Keep these four
+files tracked. Cases, results, partial results, proposals and `occurrence_preview.md` are local,
+ignored outputs in the same directory; moving them does not change published rates.
 Use `python3 scripts/apply_calibration.py --dry-run` to inspect an existing proposal run without
 changing `templates/votes.json`. Eliciting a new run can invoke paid model calls.
 

@@ -2,7 +2,7 @@
 """Apply Q3 panel-calibrated occurrence (attempt-probability) distributions into
 content/Positions/*.json.
 
-Reads occurrence_calibration.json (the committed provenance emitted by the Q3
+Reads calibration/occurrence_calibration.json (the committed provenance emitted by the Q3
 aggregation: per container -> per move -> final {gi,nogi} ints summing to 100 per
 frame). For each container it:
   - resolves the position file by its stored RELATIVE PATH (never by slug — two
@@ -73,7 +73,7 @@ def _final_cell(final: dict, current: dict, rs: str, frame_unavailable: set, min
     carries 76 zero cells of which the current pass nulls 60. An unconditional mint would
     therefore write ~16 cells nobody reviewed. Recount both sides before quoting those
     figures (§6.9):
-      python3 -c "import json;c=json.load(open('occurrence_calibration.json'))['containers'];print(sum(1 for x in c for m in x['moves'] for rs in ('gi','nogi') if m['final'][rs]==0), sum(len(x['frame_unavailable'])*len(x['moves']) for x in c))"
+      python3 -c "import json;c=json.load(open('calibration/occurrence_calibration.json'))['containers'];print(sum(1 for x in c for m in x['moves'] for rs in ('gi','nogi') if m['final'][rs]==0), sum(len(x['frame_unavailable'])*len(x['moves']) for x in c))"
 
     Returns ``(value, verdict)``. The verdict is decided HERE, by the branch that
     actually chose the value, and the caller only tallies it — deriving "was that a
@@ -106,8 +106,8 @@ def _final_cell(final: dict, current: dict, rs: str, frame_unavailable: set, min
         # edge does not exist in that ruleset" out of an absent measurement, which is the
         # §6.6 defect with its sign flipped. Leave the disk cell exactly as it is and let
         # the caller print that it happened. UNREACHABLE TODAY: 0 of 5,246 final cells in
-        # occurrence_calibration.json are missing or null. Recount before quoting (§6.9):
-        #   python3 -c "import json;c=json.load(open('occurrence_calibration.json'))['containers'];print(sum(1 for x in c for m in x['moves'] for rs in ('gi','nogi') if m['final'].get(rs) is None))"
+        # calibration/occurrence_calibration.json are missing or null. Recount before quoting (§6.9):
+        #   python3 -c "import json;c=json.load(open('calibration/occurrence_calibration.json'))['containers'];print(sum(1 for x in c for m in x['moves'] for rs in ('gi','nogi') if m['final'].get(rs) is None))"
         return (None if cur is _ABSENT else cur), ("cal_silent_null" if had_null else "cal_silent")
     unavailable_per_calibration = (rs in frame_unavailable) or (f == 0)
     # `mint` arrives ALREADY SCOPED TO THIS FRAME (see --null-frames). PRESERVE is unscoped on
@@ -219,7 +219,7 @@ def apply_container(entry: dict, dry_run: bool, mint_nulls=()) -> dict:
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--calibration", default=str(ROOT / "occurrence_calibration.json"))
+    ap.add_argument("--calibration", default=str(ROOT / "calibration/occurrence_calibration.json"))
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--only", help="comma-separated container keys to apply (default: all)")
     ap.add_argument("--write-nulls", action="store_true",

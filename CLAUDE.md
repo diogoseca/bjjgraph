@@ -94,7 +94,7 @@ decisions, so the plan can be approved or redirected without reading the rest.
 bjjgraph/
 ├── CLAUDE.md              # this file — canon + traps
 ├── docs/                  # Neural, Architecture, Content, SEO, Changelog-Archive, …
-├── data/calibration/      # tracked anchors, overrides, review entries; ignored run outputs
+├── calibration/      # tracked anchors, overrides, review entries; ignored run outputs
 ├── content/               # *.json = SOURCE (authored) · *.md = GENERATED (never edit)
 │   ├── Positions/ Transitions/ Submissions/ Systems/ Learning/ Principles/
 │   └── Game Over.md       # the terminal state; its alias is what makes [[game-over]] resolve

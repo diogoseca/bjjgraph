@@ -3,8 +3,8 @@
 
 Input: per-container Delphi outputs (Stage 2 final ballots, 10 legends x move x {gi,nogi})
        from occurrence_elicitation/stage2/, plus the input packs (anchors, families).
-Output: occurrence_calibration.json (committed provenance: final distributions + ballots
-        + diagnostics) and occurrence_preview.md (the human checkpoint artifact).
+Output: calibration/occurrence_calibration.json (committed provenance: final distributions + ballots
+        + diagnostics) and calibration/occurrence_preview.md (the human checkpoint artifact).
 
 Aggregation is pure code — re-running with a different CONFIG never re-elicits:
   per-expert per-frame renorm to 100
@@ -252,7 +252,7 @@ def crosscheck(results: dict, packs: dict) -> list:
 
 
 def run_aggregation(el_dir: Path, out_path: Path, preview_path: Path, cfg: dict = CONFIG) -> dict:
-    """Aggregate every completed Stage-2 container -> occurrence_calibration.json + preview."""
+    """Aggregate every completed Stage-2 container -> calibration/occurrence_calibration.json + preview."""
     import glob as _glob
 
     packs = {}
@@ -445,8 +445,8 @@ if __name__ == "__main__":
     ap.add_argument("--aggregate", action="store_true",
                     help="aggregate occurrence_elicitation/stage2 -> calibration + preview")
     ap.add_argument("--elicitation-dir", default=str(Path(__file__).resolve().parent.parent / "occurrence_elicitation"))
-    ap.add_argument("--out", default=str(Path(__file__).resolve().parent.parent / "occurrence_calibration.json"))
-    ap.add_argument("--preview", default=str(Path(__file__).resolve().parent.parent / "occurrence_preview.md"))
+    ap.add_argument("--out", default=str(Path(__file__).resolve().parent.parent / "calibration/occurrence_calibration.json"))
+    ap.add_argument("--preview", default=str(Path(__file__).resolve().parent.parent / "calibration/occurrence_preview.md"))
     args = ap.parse_args()
     if args.selftest:
         _selftest()
