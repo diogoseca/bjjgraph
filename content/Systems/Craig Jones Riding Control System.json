@@ -150,7 +150,10 @@
       "kind": "sample",
       "checked_on": "2026-09-16",
       "content_reviewed": false,
-      "playback_verified_on": []
+      "playback_verified_on": [
+        "https://bjjgraph.org",
+        "https://dev.bjjgraph.pages.dev"
+      ]
     }
   }
 }

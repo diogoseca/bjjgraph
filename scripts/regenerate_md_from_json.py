@@ -471,6 +471,7 @@ def build_wikilink_resolver():
             )
             base_card = {
                 "system_name": sys_name,
+                "display_title": (sdata.get("guide") or {}).get("display_title") or sys_name,
                 "system_url": "/Systems/" + _quartz_url_slug(sys_name),
                 "system_slug": "systems/" + _quartz_url_slug(sys_name).lower(),
                 "system_type": sdata.get("system_type", ""),
@@ -509,15 +510,16 @@ def build_wikilink_resolver():
         parts = [
             '<section id="related-systems" class="content-section related-systems">',
             '',
-            '## Train this with a System',
+            '## Related study guides',
             '',
             '<div class="related-systems-grid">',
         ]
         for c in ordered:
             name_e = html.escape(c["system_name"])
+            title_e = html.escape(c["display_title"])
             rel_e = html.escape(c.get("relationship") or "")
             n = c["member_count"]
-            badge = f"Unlocks {n} technique" + ("s" if n != 1 else "")
+            badge = f"{n} related reference" + ("s" if n != 1 else "")
             chips = ""
             if c["difficulty"]:
                 chips += f'<span class="system-card__chip">{html.escape(c["difficulty"])}</span>'
@@ -528,7 +530,7 @@ def build_wikilink_resolver():
                 f'data-cta="related-system-card" data-system-slug="{html.escape(c["system_slug"])}" '
                 f'data-system-name="{name_e}" data-member-count="{n}">'
                 '<span class="system-card__shine" aria-hidden="true"></span>'
-                f'<span class="system-card__name">{name_e}</span>'
+                f'<span class="system-card__name">{title_e}</span>'
                 f'<span class="system-card__unlocks-badge">{badge}</span>'
                 + (f'<span class="system-card__blurb">{rel_e}</span>' if rel_e else '')
                 + (f'<span class="system-card__chips">{chips}</span>' if chips else '')

@@ -437,10 +437,10 @@ The anaconda setup itself is relatively safe compared to the finishing mechanics
 
 <section id="related-systems" class="content-section related-systems">
 
-## Train this with a System
+## Related study guides
 
 <div class="related-systems-grid">
-<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">Danaher Front Headlock System</span><span class="system-card__unlocks-badge">Unlocks 30 techniques</span><span class="system-card__blurb">Setup mechanics for anaconda pathway entry</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
+<a class="system-card" href="/Systems/Danaher-Front-Headlock-System" data-cta="related-system-card" data-system-slug="systems/danaher-front-headlock-system" data-system-name="Danaher Front Headlock System" data-member-count="30"><span class="system-card__shine" aria-hidden="true"></span><span class="system-card__name">John Danaher: Front Headlock Decisions</span><span class="system-card__unlocks-badge">30 related references</span><span class="system-card__blurb">Related transition reference; graph linkage does not establish inclusion in the course.</span><span class="system-card__chips"><span class="system-card__chip">Advanced</span><span class="system-card__chip">Control System</span></span><span class="system-card__cta">Explore system<span class="system-card__arrow" aria-hidden="true">&#8594;</span></span></a>
 </div>
 
 </section>

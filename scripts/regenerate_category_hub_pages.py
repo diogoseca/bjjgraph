@@ -35,6 +35,7 @@ class ContentItem:
     description: str
     category: Optional[str] = None
     file_path: Optional[str] = None
+    display_name: Optional[str] = None
 
 
 def _wikilink(item) -> str:
@@ -60,7 +61,7 @@ def _wikilink(item) -> str:
     # the anchor id is slugified from: a bare `[[Positions/Mount]]` retitles the heading
     # "Positions/Mount" and moves #mount, breaking every in-page anchor on the hub (measured: 139
     # on Positions, 47 on Systems).
-    return f"[[{target}|{item.name}]]"
+    return f"[[{target}|{getattr(item, 'display_name', None) or item.name}]]"
 
 
 class CategoryHubPageGenerator:
@@ -97,8 +98,8 @@ class CategoryHubPageGenerator:
             "Systems": {
                 "dir": "Systems",
                 "title": "Systems",
-                "page_title": "Systems | BJJ Methodology Guide",
-                "description": "Master BJJ through systematic approaches. Complete guide to guard systems, passing systems, leg lock systems, and submission chains. Learn proven methodologies from Danaher, Gordon Ryan, and Eddie Bravo.",
+                "page_title": "Systems | BJJ Course Companions and Study Guides",
+                "description": "Compare BJJ course topics, find a useful starting chapter, and explore related techniques. Independent BJJGraph guides with official sources and course previews where available.",
                 "url_slug": "systems",
                 "keywords": "bjj systems, bjj methodology, bjj game plan"
             },
@@ -189,8 +190,9 @@ class CategoryHubPageGenerator:
                     name=data.get("name", json_file.stem),
                     slug=data.get("slug", json_file.stem.lower().replace(" ", "-")),
                     description=description,
-                    category=inferred_category,  # Use inferred category from filesystem
-                    file_path=str(json_file)
+                    category=data.get('system_type') if category_name == 'Systems' else inferred_category,
+                    file_path=str(json_file),
+                    display_name=data.get('guide', {}).get('display_title') if category_name == 'Systems' else None
                 )
                 items.append(item)
                 
@@ -242,7 +244,7 @@ class CategoryHubPageGenerator:
             item_list_elements.append({
                 "@type": "ListItem",
                 "position": i,
-                "name": item.name,
+                "name": item.display_name or item.name,
                 "url": f"https://bjjgraph.org/{category_info['dir']}/{item.slug}"
             })
         
@@ -250,7 +252,7 @@ class CategoryHubPageGenerator:
             "@context": "https://schema.org",
             "@type": "ItemList",
             "name": f"BJJ {category_name}",
-            "description": f"Complete list of BJJ {category_name.lower()} with detailed guides",
+            "description": category_info["description"] if category_name == "Systems" else f"Complete list of BJJ {category_name.lower()} with detailed guides",
             "itemListElement": item_list_elements
         }
         

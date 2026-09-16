@@ -124,8 +124,8 @@
       "checked_on": "2026-09-16",
       "content_reviewed": false,
       "playback_verified_on": [
-        "https://dev.bjjgraph.pages.dev",
-        "https://bjjgraph.org"
+        "https://bjjgraph.org",
+        "https://dev.bjjgraph.pages.dev"
       ]
     }
   },

@@ -1,433 +1,146 @@
 
-
-
-
 ---
-title: "Gi-Specific Strategy | BJJ System | BJJ Graph"
-description: "A focused closed-guard companion covering Roger’s arm attacks, cross choke and sweeping options. Explore the training sequence and course on BJJ Fanatics."
+title: "Gi Strategy: Roger Gracie’s Closed Guard | BJJGraph"
+description: "A focused gi closed-guard companion to The Roger Gracie Closed Guard System, with an IBJJF grip-rule reference."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Gi-Specific Strategy",
-  "description": "Step-by-step implementation sequence for Gi-Specific Strategy.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Grip Establishment",
-      "text": "Begin every positional exchange by establishing your priority grips while actively breaking or preventing opponent grips through hand fighting and grip stripping.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Posture and Distance Management",
-      "text": "Use established grips to control distance and posture, preventing opponent from establishing their offensive systems while creating opportunities for your attacks.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Position Advancement",
-      "text": "Leverage gi grips to advance position systematically, using grips as anchors during guard passes, sweeps, or back takes rather than relying on speed or athleticism.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Control Consolidation",
-      "text": "After achieving dominant position, establish gi-based control points that limit opponent mobility and escape options while setting up submissions.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Submission Application",
-      "text": "Finish with gi-specific submissions including collar chokes, lapel chokes, or use gi grips to secure joint locks with superior control compared to no-gi variations.",
-      "position": 5
-    }
-  ]
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Gi-Specific Strategy",
-  "description": "A focused closed-guard companion covering Roger’s arm attacks, cross choke and sweeping options. Explore the training sequence and course on BJJ Fanatics.",
-  "url": "https://bjjgraph.org/Systems/Gi-Specific-Strategy",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Gi-Specific Strategy", "item": "https://bjjgraph.org/Systems/Gi-Specific-Strategy"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Opponent strips grips faster than you can establish control?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Develop proactive grip fighting rather than reactive. Anticipate grip breaks and immediately re-establish with alternate grips. Use two-on-one grip fighting to overwhelm single grip breaks."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Difficulty finishing collar chokes against defensive opponents?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Focus on removing defensive frames before applying finishing pressure. Use angle changes and hip escapes to tighten choking mechanics. Combine choke attempts with positional threats to create dilemmas."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Lapel-based guards feel too complex or slow to implement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Begin with fundamental lasso guard before advancing to worm or squid guard variations. Drill lapel manipulation in isolation before combining with sweeps. Accept that lapel guards require patience and methodical execution."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Strong opponents overpower gi grips through raw strength?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Focus on grip angles and leverage rather than grip strength alone. Use multiple grips simultaneously to distribute load. Break opponent grips before they fully establish rather than fighting established grips."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Transitioning between gi and no-gi creates technical confusion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintain separate technical frameworks for each ruleset. In gi, prioritize grip-dependent techniques. In no-gi, emphasize underhooks, overhooks, and body lock systems. Cross-train both but recognize fundamental strategic differences."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Gi-Specific Strategy",
-  "description": "Gi grips change how you manage distance, posture and attacking opportunities.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Gi Strategy: Roger Gracie’s Closed Guard","description":"A focused gi closed-guard companion to The Roger Gracie Closed Guard System, with an IBJJF grip-rule reference."}
 </script>
-
-
-
-<div class="principle-meta">
-<span class="meta-chip">Competition Strategy</span>
-<span class="meta-chip">Intermediate difficulty</span>
-</div>
-
-
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
-
+<main class="content-wrapper" data-system-guide>
+<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: The Roger Gracie Closed Guard System by Roger Gracie.</p>
 <section id="overview" class="content-section">
 
-## What is Gi-Specific Strategy?
+## Gi Strategy: Roger Gracie’s Closed Guard
 
-**Gi grips change how you manage distance, posture and attacking opportunities.**
+**Choose between closed-guard maintenance, fabric-based attacks and sweeps in Roger Gracie’s published syllabus.**
 
-Gi grips change how you manage distance, posture and attacking opportunities. This guide connects those choices to a training plan. Roger Gracie’s closed-guard course offers one practical area of study within a much wider gi game.
 
-Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
+A broad search for gi strategy can hide a narrower problem: keeping closed guard, finding a submission or reaching top position. Roger Gracie’s course groups material around those needs. Its collar and lapel chapters make fabric-based offense explicit, while the sweep volume provides a different study target from the same guard.
+
+</section>
+
+<section id="fit" class="content-section">
+
+## Is this useful for you?
+
+- You play closed guard in the gi and need to choose between studying maintenance, submissions and sweeps.
+
+
+### Consider an alternative if
+
+- For event requirements and permitted techniques, begin with IBJJF Strategy Guide; this course is a positional study.
+
+
+</section>
+<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
+<section id="start-here" class="content-section">
+
+## Start here: Separate a maintenance problem from an attacking problem
+
+Review a closed-guard exchange from your own notes or footage. Identify whether the unresolved moment was losing the guard, seeking a submission or trying to come on top. Match that moment to Volume 1’s maintenance chapter, Volume 2’s arm attacks or Volume 3’s sweeps. Owners can begin with “Maintaining in the Closed Guard” when the position itself is the problem; the official page also provides a free sample to inspect the teaching presentation.
+
+Published section: Volume 1: Maintaining in the Closed Guard. Volume 3: Sweeps - Scissor Sweep & Hook Sweep.
+
+
+
+<p>Source: <a href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" target="_blank" rel="noopener">The Roger Gracie Closed Guard System by Roger Gracie</a></p>
+
+<p>Source: <a href="https://ibjjf.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTRaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c53798f1b94f5ebc202702cb44e9428a7606a19b/2024JUN_IBJJF_Rules_EN.pdf" target="_blank" rel="noopener">IBJJF Rules Book</a></p>
 
 </section>
 
 
+<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/77c53d6a-78b9-4e54-9754-160d7504c485?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Roger Gracie / The Roger Gracie Closed Guard System">
+<h2>Official sample — Roger Gracie / The Roger Gracie Closed Guard System</h2>
+<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
+<button type="button" data-load-preview hidden>Load official sample</button>
+<div data-preview-player></div>
+<p><a href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" target="_blank" rel="noopener">Watch on the official page: The Roger Gracie Closed Guard System by Roger Gracie</a></p>
+</section>
 
 
 
+<section id="unlock-this-system" class="content-section product-cards" data-course-container>
+<h2>Course reference</h2>
 
+<article class="product-card">
+<h3>The Roger Gracie Closed Guard System</h3>
+<p>By Roger Gracie</p>
 
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">The Roger Gracie Closed Guard System</h3>
-<p class="product-card__instructor">with Roger Gracie</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> Gi students developing closed-guard offense. It covers one part of a wider fundamentals game.</p>
-<p class="product-card__blurb">A focused closed-guard companion covering Roger’s arm attacks, cross choke and sweeping options.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gi-specific-strategy&utm_term=the-roger-gracie-closed-guard-system-by-roger-gracie" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+<p><a href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-course-url="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
 </article>
 
-</div>
-
 </section>
 
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+<span id="key-principles"></span><span id="key-components"></span>
+<section id="coverage" class="content-section">
 
-## Unlock this part of the graph
+## What the sources cover
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+- Volume 1 includes closed-guard maintenance and collar/lapel chokes; Volume 2 includes lapel arm attacks, kimura and wrist lock.
+- Volume 3 lists sweep options, including scissor/hook sweeps and a sweep when both knees are on the floor.
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
 
-<ul class="system-members" data-system-members></ul>
+### Limits
 
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Establish dominant grips before initiating attacks or movements
-- Control the distance through sleeve and collar grips to prevent opponent entries
-- Use the gi as leverage multipliers for sweeps, passes, and submissions
-- Prioritize grip fighting as the first battle in every exchange
-- Understand that gi grips slow the game, allowing for methodical positional advancement
-- Recognize collar chokes as high-percentage finishing options unique to gi
-- Utilize lapel-based guards and controls to create complex entanglements
-
+- This is a closed-guard course, not a survey of open guards, passing or standing grip fighting.
+- A technique appearing in a course outline does not establish its legality in your division.
 
 </section>
-
-<section id="key-components" class="content-section">
-
-## Key Components
-**Grips Hierarchy** (Establish control advantages before technical exchanges begin)
-The systematic approach to establishing advantageous grips while denying opponent grips. Priority grips include cross-collar control, sleeve control at the wrist and elbow, and pant grips at the knee and ankle. Understanding which grips to fight for based on position and strategy is fundamental to gi success.
-
-**Collar Choke System** (High-percentage finishing system unique to gi competition)
-Comprehensive understanding of choke mechanics using the collar, including cross collar chokes, loop chokes, baseball bat chokes, bow and arrow variations, and clock chokes. The collar provides direct access to the neck from multiple positions including guard, mount, back control, and turtle.
-
-**Lapel-Based Guard Framework** (Create complex control systems that neutralize opponent passing attempts)
-Modern guard systems built around lapel manipulation including lasso guard, worm guard, lapel guard variations, and squid guard. These systems use the opponent's own gi as entanglement tools to break posture, off-balance, and create sweeping opportunities.
-
-**Grip-Dependent Passing Systems** (Systematic guard passing using gi-specific control points)
-Passing approaches that leverage gi grips for control and pressure including toreando with pant grips, over-under pass with belt or lapel control, and knee slice with collar control. These passes use the gi to anchor the opponent while advancing position.
-
-**Sleeve and Pant Control Mechanics** (Maximize control efficiency through gi leverage points)
-Technical framework for controlling opponent limbs through gi grips, including sleeve drags for back takes, pant grips for leg control during passing, and combined sleeve-collar systems for guard retention. These grips provide superior control compared to no-gi alternatives.
-
-
-
-</section>
-
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Grip Establishment**: Begin every positional exchange by establishing your priority grips while actively breaking or preventing opponent grips through hand fighting and grip stripping.
-Key points:
-- Cross-collar grip is highest priority from guard top
-- Sleeve control at wrist prevents opponent frames and grips
-- Pant grips at knee prevent guard retention and recovery
-- Never allow opponent both sleeve grips simultaneously
-
-
-
-2. **Posture and Distance Management**: Use established grips to control distance and posture, preventing opponent from establishing their offensive systems while creating opportunities for your attacks.
-Key points:
-- Collar grips break posture downward
-- Sleeve grips extend arms to control distance
-- Combined grips create frames and barriers
-- Pant grips anchor opponent for sweeps
-
-
-
-3. **Position Advancement**: Leverage gi grips to advance position systematically, using grips as anchors during guard passes, sweeps, or back takes rather than relying on speed or athleticism.
-Key points:
-- Maintain at least one dominant grip during transitions
-- Use lapel or belt grips to prevent opponent escape
-- Collar grips provide head control during passing
-- Pant grips immobilize legs during leg drag or knee slice
-
-
-
-4. **Control Consolidation**: After achieving dominant position, establish gi-based control points that limit opponent mobility and escape options while setting up submissions.
-Key points:
-- Cross-face with lapel from side control
-- Collar grips for mount control
-- Seat belt with gi grips from back control
-- Lapel wraps to secure turtle control
-
-
-
-5. **Submission Application**: Finish with gi-specific submissions including collar chokes, lapel chokes, or use gi grips to secure joint locks with superior control compared to no-gi variations.
-Key points:
-- Cross collar choke from mount or guard
-- Bow and arrow from turtle or back control
-- Baseball bat choke from side control or mount
-- Loop choke from guard or standing
-
-
-
-
-
-</section>
-
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Compare the closed-guard attacks and sweep choices with the posture reactions you encounter in training.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gi-specific-strategy&utm_term=the-roger-gracie-closed-guard-system-by-roger-gracie" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Roger Gracie Closed Guard System &rarr;</a></p>
-</section>
-
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **Opponent strips grips faster than you can establish control**: Develop proactive grip fighting rather than reactive. Anticipate grip breaks and immediately re-establish with alternate grips. Use two-on-one grip fighting to overwhelm single grip breaks.
-- **Difficulty finishing collar chokes against defensive opponents**: Focus on removing defensive frames before applying finishing pressure. Use angle changes and hip escapes to tighten choking mechanics. Combine choke attempts with positional threats to create dilemmas.
-- **Lapel-based guards feel too complex or slow to implement**: Begin with fundamental lasso guard before advancing to worm or squid guard variations. Drill lapel manipulation in isolation before combining with sweeps. Accept that lapel guards require patience and methodical execution.
-- **Strong opponents overpower gi grips through raw strength**: Focus on grip angles and leverage rather than grip strength alone. Use multiple grips simultaneously to distribute load. Break opponent grips before they fully establish rather than fighting established grips.
-- **Transitioning between gi and no-gi creates technical confusion**: Maintain separate technical frameworks for each ruleset. In gi, prioritize grip-dependent techniques. In no-gi, emphasize underhooks, overhooks, and body lock systems. Cross-train both but recognize fundamental strategic differences.
-
-
-</section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Grips Win Rate**: Percentage of exchanges where you establish dominant grips before opponent establishes theirs, measured during positional sparring and competition.
-Proficiency indicators:
-- Beginner: 40% grip establishment success
-- Intermediate: 60% grip establishment success
-- Advanced: 75%+ grip establishment success with active grip breaking
-
-
-**Collar Choke Finish Rate**: Percentage of dominant positions that result in collar choke submissions, indicating mastery of gi-specific finishing mechanics.
-Proficiency indicators:
-- Beginner: Occasional collar choke finishes from mount
-- Intermediate: Consistent collar chokes from mount, back, side control
-- Advanced: Multiple collar choke variations from all positions including guard
-
-
-**Lapel Guard Retention**: Ability to maintain lapel-based guards against determined passing attempts, measured by time in guard and successful sweep rate.
-Proficiency indicators:
-- Beginner: Basic lasso guard with 30-40% retention
-- Intermediate: Multiple lapel guards with 60% retention and sweeping success
-- Advanced: Complex lapel systems with 75%+ retention and consistent sweeps
-
-
-**Gi-Dependent Passing Success**: Percentage of guard passes that utilize gi grips as primary control points rather than no-gi alternatives.
-Proficiency indicators:
-- Beginner: Basic toreando with pant grips
-- Intermediate: Multiple gi-based passes with 50%+ success rate
-- Advanced: Systematic gi passing with 70%+ success including stacking and pressure passes
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-Develop gi-specific strategy through progressive drilling that isolates grip fighting, then combines grips with position advancement, and finally integrates submissions. Begin each training session with dedicated grip fighting rounds where only grips matter, no positions scored. Progress to king of the hill guard passing or guard retention with emphasis on gi grips. Finish with positional sparring from specific gi-dependent positions like lasso guard, collar sleeve guard, or spider guard. Dedicate 20% of training time purely to grip fighting and grip-dependent movements to build foundational skills.
-
-### Progression Path
-**Fundamental Grips** (Focus: Master basic collar grips, sleeve grips, pant grips, and lapel grips in isolation. Learn proper breaking grips and grip stripping techniques.) - Months 1-3
-**Grip-Based Positions** (Focus: Develop collar sleeve guard, lasso guard, spider guard, and understand how grips define these positions. Begin basic collar choke mechanics.) - Months 4-8
-**Advanced Lapel Systems** (Focus: Implement worm guard, lapel guard variations, and complex entanglements. Master multiple collar choke variations from different positions.) - Months 9-18
-**Competitive Integration** (Focus: Apply gi-specific strategy in competition settings. Develop game plans around gi advantages. Master gi-dependent escapes and counters.) - Months 18+
-
-
-### Common Mistakes
-- Gripping the gi without strategic purpose, wasting energy on meaningless grips
-- Attempting no-gi techniques in gi contexts, ignoring available gi control points
-- Poor grip endurance from not conditioning grip strength and forearm stamina
-- Allowing opponent to establish dominant grips without immediate defensive response
-- Over-reliance on single grip combinations without developing backup options
-
-
+<section id="sources" class="content-section">
+<h2>Sources and evidence</h2>
+<p><a href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie" target="_blank" rel="noopener">The Roger Gracie Closed Guard System by Roger Gracie</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume outline: closed-guard maintenance, collar and lapel attacks, arm attacks and sweeps. The page labels a free sample; its video content has not been reviewed.</p><p><a href="https://ibjjf.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTRaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c53798f1b94f5ebc202702cb44e9428a7606a19b/2024JUN_IBJJF_Rules_EN.pdf" target="_blank" rel="noopener">IBJJF Rules Book</a> — ruleset; checked 2026-09-16. Verified the prohibition on gripping inside an opponent’s sleeve or pant-leg opening; this rule supplies the grip-legality recall card. Inspected: Article 6.2.2(H)</p>
 </section>
 
 <section id="related-content" class="content-section">
 
-## Which Positions, Transitions, and Principles Connect to This System?
+## Related references and alternatives
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) - Foundational gi guard position emphasizing collar and sleeve control
-- [[Positions/Collar Sleeve Guard|Collar Sleeve Guard]] (Position) - Primary open guard system built on gi-specific grips
-- [[Positions/Lasso Guard|Lasso Guard]] (Position) - Advanced lapel-based guard using sleeve entanglement
-- [[Positions/Spider Guard|Spider Guard]] (Position) - Sleeve-grip dependent guard for distance control and sweeps
-- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) - Hook and grip combination guard used in gi competition
-- [[Positions/Lapel Guard|Lapel Guard]] (Position) - Modern guard system using lapel manipulation for control
-- [[Submissions/Cross Collar Choke|Cross Collar Choke]] (Submission) - Fundamental gi-specific choke from multiple positions
-- [[Submissions/Baseball Bat Choke|Baseball Bat Choke]] (Submission) - High-percentage gi choke from top positions
-- [[Submissions/Bow and Arrow Choke|Bow and Arrow Choke]] (Submission) - Back control finishing sequence unique to gi
-- [[Transitions/Clock Choke|Clock Choke]] (Submission) - Turtle attack using collar control unique to gi
-- [[Principles/Collar Control|Collar Control]] (Principle) - Core principle for establishing gi-based dominance
-- [[Principles/Sleeve Control|Sleeve Control]] (Principle) - Essential principle for distance management with gi
-- [[Principles/Grips|Grips]] (Principle) - Foundational skill for all gi-specific strategy
-- [[Principles/Hand Fighting|Hand Fighting]] (Principle) - Strategic framework for grip establishment and denial in standup and ground exchanges
-- [[Principles/Posture|Posture]] (Principle) - Collar and sleeve mechanics for destroying opponent posture
-- [[Principles/Frames|Frames]] (Principle) - Defensive framework using gi grips and structures to prevent guard passing
-- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition) - Modern gi-based back take using lapel and De La Riva control
-- [[Transitions/Arm Drag|Arm Drag]] (Transition) - Gi-enhanced technique for off-balancing and back takes
-- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition) - Pressure passing approach that integrates gi grip control
-- [[Transitions/Back Step Pass|Back Step Pass]] (Transition) - Specific passing strategy effective against lapel-based guards
-- [[Systems/Keenan Cornelius Lapel Guard System|Keenan Cornelius Lapel Guard System]] (System) - Advanced gi-specific system built entirely around lapel manipulation
-- [[Systems/Roger Gracie Fundamental System|Roger Gracie Fundamental System]] (System) - Traditional gi-based approach emphasizing collar chokes and pressure
-- [[Systems/Bernardo Faria Pressure System|Bernardo Faria Pressure System]] (System) - Gi pressure passing and control using lapel and collar grips
-- [[Systems/Mikey Musumeci Berimbolo System|Mikey Musumeci Berimbolo System]] (System) - Modern gi system combining lapel guards with berimbolo entries
 
+<p><a href="/Principles/Collar-Control">Collar Control</a> (Principle) — Further conceptual reading: Collar Control.</p><p><a href="/Principles/Sleeve-Control">Sleeve Control</a> (Principle) — Further conceptual reading: Sleeve Control.</p><p><a href="/Principles/Grips">Grips</a> (Principle) — Further conceptual reading: Grips.</p><p><a href="/Principles/Hand-Fighting">Hand Fighting</a> (Principle) — Further conceptual reading: Hand Fighting.</p><p><a href="/Principles/Posture">Posture</a> (Principle) — Further conceptual reading: Posture.</p><p><a href="/Principles/Frames">Frames</a> (Principle) — Further conceptual reading: Frames.</p><p><a href="/Systems/Keenan-Cornelius-Lapel-Guard-System">Keenan Cornelius Lapel Guard System</a> (System) — Related study guide: Keenan Cornelius Lapel Guard System.</p><p><a href="/Systems/Roger-Gracie-Fundamental-System">Roger Gracie Fundamental System</a> (System) — Related study guide: Roger Gracie Fundamental System.</p><p><a href="/Systems/Bernardo-Faria-Pressure-System">Bernardo Faria Pressure System</a> (System) — Related study guide: Bernardo Faria Pressure System.</p><p><a href="/Systems/Mikey-Musumeci-Berimbolo-System">Mikey Musumeci Berimbolo System</a> (System) — Related study guide: Mikey Musumeci Berimbolo System.</p><p><a href="/Systems/IBJJF-Strategy-Guide">IBJJF Strategy Guide</a> (System) — Check division and grip restrictions separately from the course’s advertised techniques.</p>
+
+
+### Review related technique cards
+
+These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
+
+
+- [[Positions/Closed Guard|Closed Guard]] (Position) — Position reference for organizing study: Closed Guard.
+
+- [[Positions/Collar Sleeve Guard|Collar Sleeve Guard]] (Position) — Position reference for organizing study: Collar Sleeve Guard.
+
+- [[Positions/Lasso Guard|Lasso Guard]] (Position) — Position reference for organizing study: Lasso Guard.
+
+- [[Positions/Spider Guard|Spider Guard]] (Position) — Position reference for organizing study: Spider Guard.
+
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) — Position reference for organizing study: De La Riva Guard.
+
+- [[Positions/Lapel Guard|Lapel Guard]] (Position) — Position reference for organizing study: Lapel Guard.
+
+- [[Submissions/Cross Collar Choke|Cross Collar Choke]] (Submission) — Related submission reference: Cross Collar Choke.
+
+- [[Submissions/Baseball Bat Choke|Baseball Bat Choke]] (Submission) — Related submission reference: Baseball Bat Choke.
+
+- [[Submissions/Bow and Arrow Choke|Bow and Arrow Choke]] (Submission) — Related submission reference: Bow and Arrow Choke.
+
+- [[Transitions/Clock Choke|Clock Choke]] (Submission) — Related submission reference: Clock Choke.
+
+- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition) — Related transition reference: Berimbolo Entry.
+
+- [[Transitions/Arm Drag|Arm Drag]] (Transition) — Related transition reference: Arm Drag.
+
+- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition) — Related transition reference: Body Lock Pass.
+
+- [[Transitions/Back Step Pass|Back Step Pass]] (Transition) — Related transition reference: Back Step Pass.
 
 </section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>Start in closed guard and work on breaking posture. Choose one attack and one follow-up when your partner restores their base.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=gi-specific-strategy&utm_term=the-roger-gracie-closed-guard-system-by-roger-gracie" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-roger-gracie-closed-guard-system-by-roger-gracie" data-system-slug="systems/gi-specific-strategy" data-system-name="Gi-Specific Strategy" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Roger Gracie Closed Guard System &rarr;</a></p>
-</section>
-
-
-
 </main>

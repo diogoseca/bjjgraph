@@ -1,459 +1,150 @@
 
-
-
-
 ---
-title: "Lockdown to Electric Chair System | BJJ System | BJJ Graph"
-description: "Directly covers lockdown entries, the underhook-to-electric-chair route, reversals and back entries. Explore the training sequence and course on BJJ Fanatics."
+title: "Tom DeBlass: Lockdown and Electric Chair Study | BJJGraph"
+description: "Tom DeBlass’s The Lockdown Blueprint covers lockdown entries, electric-chair and reversal topics, leg attacks and top-side escapes."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Lockdown to Electric Chair System",
-  "description": "Step-by-step implementation sequence for Lockdown to Electric Chair System.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Establish Lockdown Control",
-      "text": "From half guard bottom position, thread your bottom leg over opponent's trapped leg and hook your top foot under your own ankle to create the lockdown figure-four. Immediately begin extending their leg by pushing your hips away while pulling with the lockdown.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Underhook Acquisition",
-      "text": "While maintaining lockdown pressure, fight to secure a deep underhook on the same side as the trapped leg. Use your free hand to swim for the underhook while using lockdown extension to create space and prevent opponent from maintaining heavy chest pressure.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Electric Chair Setup",
-      "text": "From lockdown with underhook, begin elevating opponent's trapped leg by extending your hips upward and outward while pulling with the underhook. Use your free hand to control opponent's far arm or post on the mat to prevent them from basing out. Create the characteristic crotch-splitting pressure of the Electric Chair position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Attack Execution",
-      "text": "From Electric Chair position, execute either the submission finish (in legal competition formats), transition to Old School sweep if they defend high, or advance to Banana Split if they attempt to extract their leg. Read opponent's defensive reactions and flow to the appropriate attack.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Chain Attacks and Adjustments",
-      "text": "If initial attack is defended, immediately transition to alternative attacks within the system. From failed Electric Chair, flow to Old School sweep. From defended sweep, transition to back attack or Twister entries. Never return to static half guard—constantly maintain offensive pressure through continuous attack chaining.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "System Mastery and Flow",
-      "text": "Develop the ability to move fluidly between all system components based on opponent reactions, creating an unpredictable and overwhelming offensive platform from half guard bottom. Advanced practitioners should be able to threaten multiple attacks simultaneously, forcing opponents into reactive defense that opens finishing opportunities.",
-      "position": 6
-    }
-  ]
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Lockdown to Electric Chair System",
-  "description": "Directly covers lockdown entries, the underhook-to-electric-chair route, reversals and back entries. Explore the training sequence and course on BJJ Fanatics.",
-  "url": "https://bjjgraph.org/Systems/Lockdown-to-Electric-Chair-System",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Lockdown to Electric Chair System", "item": "https://bjjgraph.org/Systems/Lockdown-to-Electric-Chair-System"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Opponent immediately whizzers (overhooks) the underhook arm, preventing Electric Chair setup?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Employ systematic whizzer breaks: use lockdown extension to create space, swim the whizzered arm out while framing with other hand, or transition to opposite side underhook. Alternative: use the whizzer against them by transitioning to Homer Simpson or Dogfight position."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Unable to secure initial lockdown as opponent keeps knee tight to mat and maintains heavy pressure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use frames and hip escapes to create initial space, employ butterfly hooks or other half guard variations to off-balance opponent first, then transition to lockdown when they react. Don't force lockdown from fully flattened position—create space first."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Lockdown feels weak and opponent easily extracts their leg or passes despite control attempt?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Focus on proper foot hook placement (deep under own ankle), maintain constant extension pressure with hips rather than static holding, and ensure you're actively breaking posture. Weak lockdown usually indicates passive maintenance rather than active pressure application."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Electric Chair position doesn't create sufficient pressure or sweep opportunity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Check hip extension mechanics—hips must drive up and away, not just to the side. Ensure underhook is deep and connected to your hip. Control far arm to prevent posting. Angle adjustment is critical: experiment with different angles of hip elevation to maximize pressure on inner thigh."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Getting flattened out completely despite having lockdown, unable to recover guard or create offense?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Implement Homer Simpson escape sequence: create frames, use lockdown to prevent full mount advancement, shrimp hips out in circular motion, and re-establish half guard structure. Prevention is better: never allow full flattening by maintaining constant movement and frames."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Lockdown to Electric Chair System",
-  "description": "The electric chair route develops from lockdown control, an underhook and a change in the opponent’s balance.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Tom DeBlass: Lockdown and Electric Chair Study","description":"Tom DeBlass’s The Lockdown Blueprint covers lockdown entries, electric-chair and reversal topics, leg attacks and top-side escapes."}
 </script>
-
-
-
-<div class="principle-meta">
-<span class="meta-chip">Attack System</span>
-<span class="meta-chip">Intermediate difficulty</span>
-</div>
-
-
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
-
+<main class="content-wrapper" data-system-guide>
+<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: The Lockdown Blueprint by Tom DeBlass.</p>
 <section id="overview" class="content-section">
 
-## What is Lockdown to Electric Chair System?
+## Tom DeBlass: Lockdown and Electric Chair Study
 
-**The electric chair route develops from lockdown control, an underhook and a change in the opponent’s balance.**
+**Locate electric-chair, reversal and escape study inside Tom DeBlass’s lockdown course.**
 
-The electric chair route develops from lockdown control, an underhook and a change in the opponent’s balance. Study those pieces before the finish. Tom DeBlass’s course directly covers the entry and electric chair route from his own perspective.
 
-Use the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.
+The Lockdown Blueprint covers both attacking from lockdown and escaping it. That makes the opposing roles useful to compare before focusing on one branch.
+
+</section>
+
+<section id="fit" class="content-section">
+
+## Is this useful for you?
+
+- You want to study the electric-chair branch without overlooking the opponent’s escape material.
+
+
+### Consider an alternative if
+
+- For kneebars across more starting positions, compare Craig Jones Kneebar System.
+
+
+</section>
+<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
+<section id="start-here" class="content-section">
+
+## Start here: Pair the electric-chair topic with its escape topic
+
+Find the electric-chair heading in Volume 1 and the escape heading in Volume 4. Create two notes, one for each role, and identify what you would need to see demonstrated before linking them. Owners can begin with the entry lesson below and compare the escape only after recognizing the starting configuration.
+
+Published section: Volume 1: Lockdown - Underhook To Electric Chair, 5:25
+
+
+
+<p>Source: <a href="https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass" target="_blank" rel="noopener">The Lockdown Blueprint by Tom DeBlass</a></p>
 
 </section>
 
 
+<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/df4ca4cf-34c4-4ed5-9562-7bfaeb5c84b2?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Tom DeBlass / The Lockdown Blueprint">
+<h2>Official sample — Tom DeBlass / The Lockdown Blueprint</h2>
+<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
+<button type="button" data-load-preview hidden>Load official sample</button>
+<div data-preview-player></div>
+<p><a href="https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass" target="_blank" rel="noopener">Watch on the official page: The Lockdown Blueprint by Tom DeBlass</a></p>
+</section>
 
 
 
+<section id="unlock-this-system" class="content-section product-cards" data-course-container>
+<h2>Course reference</h2>
 
+<article class="product-card">
+<h3>The Lockdown Blueprint</h3>
+<p>By Tom DeBlass</p>
 
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="the-lockdown-blueprint-by-tom-deblass">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">The Lockdown Blueprint</h3>
-<p class="product-card__instructor">with Tom DeBlass</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> Half guard players working on this particular chain. Tom teaches his own approach to the position.</p>
-<p class="product-card__blurb">Directly covers lockdown entries, the underhook-to-electric-chair route, reversals and back entries.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=lockdown-to-electric-chair-system&utm_term=the-lockdown-blueprint-by-tom-deblass" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-lockdown-blueprint-by-tom-deblass" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+<p><a href="https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass" data-course-url="https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass" data-product-id="the-lockdown-blueprint-by-tom-deblass" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
 </article>
 
-</div>
-
 </section>
 
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+<span id="key-principles"></span><span id="key-components"></span>
+<section id="coverage" class="content-section">
 
-## Unlock this part of the graph
+## What the sources cover
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+- Lockdown entries, electric-chair and reversal topics, leg attacks, back entries and top-side escapes.
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
 
-<ul class="system-members" data-system-members></ul>
+### Limits
 
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Lockdown control as foundation - secure the figure-four leg trap before attempting sweeps or submissions
-- Constant hip pressure and movement - never remain static, always working angles and creating discomfort
-- Underhook battle dominance - prioritize securing and maintaining the underhook to control posture
-- Whizzer nullification - systematic approaches to defeating opponent's overhook defenses
-- Multi-threat creation - combine sweeps and submissions simultaneously to overwhelm defensive options
-- Back exposure recognition - identify when opponent's defensive reactions expose back-take opportunities
-- Energy efficiency through leverage - use leg strength and hip mechanics rather than upper body wrestling
-
+- This is DeBlass’s lockdown instructional, rather than an official overview of the entire 10th Planet curriculum.
 
 </section>
-
-<section id="key-components" class="content-section">
-
-## Key Components
-**Lockdown Control** (Establish immobilizing control that enables all subsequent attacks)
-The foundational leg entanglement achieved by threading your bottom leg over opponent's trapped leg and hooking your top foot under your own ankle, creating a figure-four configuration that immobilizes their leg and disrupts their base. This control allows you to extend their leg, break their posture down, and prevent them from stepping over or extracting their leg from half guard. The lockdown transforms half guard from a transitional position into a dominant control platform.
-
-**Electric Chair Position** (Primary submission threat and sweep setup)
-An advanced leg attack position achieved from lockdown by securing a deep underhook, elevating opponent's trapped leg while extending your hips, and creating a crotch-splitting pressure that attacks the inner thigh, groin, and hip joint. The position can be finished as a submission in competition formats that allow it, or used as a powerful sweeping platform when opponent defends. The threat alone forces defensive reactions that open other attacking opportunities.
-
-**Old School Sweep** (High-percentage sweep when Electric Chair is defended)
-A traditional half guard sweep enhanced by lockdown control, executed by securing an underhook, controlling opponent's far arm with your free hand, then using hip extension and the locked leg to roll opponent over your shoulder while maintaining the trapped leg throughout the sweep. The lockdown prevents opponent from posting with their trapped leg, making the sweep significantly higher percentage than standard half guard versions.
-
-**Homer Simpson Escape** (Defensive reset and control recovery)
-A systematic sequence for escaping when opponent flattens you out or threatens to pass, involving specific grip releases, hip escapes, and frame creation that allows you to re-establish lockdown control or transition to other half guard variations. Named for its circular motion pattern, this recovery mechanism ensures you're never truly stuck even when opponent achieves advantageous positioning.
-
-**Banana Split Entry** (Advanced submission finish when leg extraction is attempted)
-An advanced submission progression from Electric Chair position when opponent defends by attempting to extract their leg, involving controlling both of their legs in a split configuration and applying pressure to the groin and inner thighs. This represents the highest-level evolution of the system, where lockdown control transitions to double-leg control for finishing attacks.
-
-
-
-</section>
-
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Establish Lockdown Control**: From half guard bottom position, thread your bottom leg over opponent's trapped leg and hook your top foot under your own ankle to create the lockdown figure-four. Immediately begin extending their leg by pushing your hips away while pulling with the lockdown.
-Key points:
-- Ensure deep lockdown with ankle hook positioned correctly
-- Begin breaking posture immediately upon securing lockdown
-- Prevent opponent from getting their knee to the mat
-- Use lockdown extension to create space for underhook battle
-
-
-
-2. **Underhook Acquisition**: While maintaining lockdown pressure, fight to secure a deep underhook on the same side as the trapped leg. Use your free hand to swim for the underhook while using lockdown extension to create space and prevent opponent from maintaining heavy chest pressure.
-Key points:
-- Time underhook attempts with lockdown extensions
-- If whizzered, employ whizzer-breaking techniques
-- Get underhook deep past opponent's armpit
-- Connect underhook hand to your own hip for structural strength
-
-
-
-3. **Electric Chair Setup**: From lockdown with underhook, begin elevating opponent's trapped leg by extending your hips upward and outward while pulling with the underhook. Use your free hand to control opponent's far arm or post on the mat to prevent them from basing out. Create the characteristic crotch-splitting pressure of the Electric Chair position.
-Key points:
-- Hip extension is crucial - drive hips up and away
-- Control opponent's far arm to prevent defensive posts
-- Angle your body to increase pressure on inner thigh
-- Maintain lockdown throughout the elevation
-
-
-
-4. **Attack Execution**: From Electric Chair position, execute either the submission finish (in legal competition formats), transition to Old School sweep if they defend high, or advance to Banana Split if they attempt to extract their leg. Read opponent's defensive reactions and flow to the appropriate attack.
-Key points:
-- Submission: maximize hip extension while controlling far arm
-- Sweep: roll over underhook shoulder when they post high
-- Banana Split: catch second leg if they pull trapped leg out
-- Maintain pressure throughout transitions
-
-
-
-5. **Chain Attacks and Adjustments**: If initial attack is defended, immediately transition to alternative attacks within the system. From failed Electric Chair, flow to Old School sweep. From defended sweep, transition to back attack or Twister entries. Never return to static half guard—constantly maintain offensive pressure through continuous attack chaining.
-Key points:
-- Never pause between attack attempts
-- Recognize back exposure opportunities during scrambles
-- Be prepared to release lockdown for back takes
-- Use opponent's defensive energy against them
-
-
-
-6. **System Mastery and Flow**: Develop the ability to move fluidly between all system components based on opponent reactions, creating an unpredictable and overwhelming offensive platform from half guard bottom. Advanced practitioners should be able to threaten multiple attacks simultaneously, forcing opponents into reactive defense that opens finishing opportunities.
-Key points:
-- Recognize patterns in opponent's defensive preferences
-- Develop counters to common lockdown escapes
-- Integrate system with other half guard variations
-- Use lockdown system to setup transitions to other guards
-
-
-
-
-
-</section>
-
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Start with the entry and underhook-to-electric-chair chapters, then compare the forward and backward reversals.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=lockdown-to-electric-chair-system&utm_term=the-lockdown-blueprint-by-tom-deblass" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-lockdown-blueprint-by-tom-deblass" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: The Lockdown Blueprint &rarr;</a></p>
-</section>
-
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **Opponent immediately whizzers (overhooks) the underhook arm, preventing Electric Chair setup**: Employ systematic whizzer breaks: use lockdown extension to create space, swim the whizzered arm out while framing with other hand, or transition to opposite side underhook. Alternative: use the whizzer against them by transitioning to Homer Simpson or Dogfight position.
-- **Unable to secure initial lockdown as opponent keeps knee tight to mat and maintains heavy pressure**: Use frames and hip escapes to create initial space, employ butterfly hooks or other half guard variations to off-balance opponent first, then transition to lockdown when they react. Don't force lockdown from fully flattened position—create space first.
-- **Lockdown feels weak and opponent easily extracts their leg or passes despite control attempt**: Focus on proper foot hook placement (deep under own ankle), maintain constant extension pressure with hips rather than static holding, and ensure you're actively breaking posture. Weak lockdown usually indicates passive maintenance rather than active pressure application.
-- **Electric Chair position doesn't create sufficient pressure or sweep opportunity**: Check hip extension mechanics—hips must drive up and away, not just to the side. Ensure underhook is deep and connected to your hip. Control far arm to prevent posting. Angle adjustment is critical: experiment with different angles of hip elevation to maximize pressure on inner thigh.
-- **Getting flattened out completely despite having lockdown, unable to recover guard or create offense**: Implement Homer Simpson escape sequence: create frames, use lockdown to prevent full mount advancement, shrimp hips out in circular motion, and re-establish half guard structure. Prevention is better: never allow full flattening by maintaining constant movement and frames.
-
-
-</section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Lockdown Security Rate**: Measures ability to establish and maintain lockdown control against resistance without opponent easily extracting their leg or passing guard
-Proficiency indicators:
-- Beginner: Achieves lockdown against passive opponent but loses it easily to basic extraction attempts
-- Intermediate: Maintains lockdown against moderate pressure and can re-establish when broken
-- Advanced: Lockdown remains secure against skilled opponents and extraction attempts strengthen position
-- Expert: Can establish lockdown from various half guard scenarios and use opponent's escape attempts to transition to other attacks
-
-
-**Electric Chair Pressure Generation**: Evaluates the effectiveness of hip extension mechanics and positioning to create legitimate submission threat or sweep opportunity
-Proficiency indicators:
-- Beginner: Can achieve basic Electric Chair position but creates minimal pressure
-- Intermediate: Generates sufficient pressure to force defensive reactions and create sweep opportunities
-- Advanced: Electric Chair creates immediate submission threat in legal formats and reliable sweeps when defended
-- Expert: Can adjust angles dynamically to maintain maximum pressure and flow seamlessly to follow-up attacks
-
-
-**Attack Chain Fluidity**: Assesses ability to transition smoothly between Electric Chair, Old School sweep, back takes, and other system components without returning to static positions
-Proficiency indicators:
-- Beginner: Attempts single attacks without follow-up when defended
-- Intermediate: Can chain 2-3 related attacks together following defensive patterns
-- Advanced: Maintains continuous offensive pressure with multiple attack chains creating dilemmas
-- Expert: Opponent feels constantly threatened from lockdown position with no safe defensive response
-
-
-**Underhook Battle Proficiency**: Measures success rate in securing and maintaining underhook control against whizzers and other defensive counters
-Proficiency indicators:
-- Beginner: Struggles to obtain underhook or loses it easily to whizzer
-- Intermediate: Can secure underhook against moderate resistance and maintain it briefly
-- Advanced: Reliably defeats whizzer attempts and maintains underhook control throughout attacks
-- Expert: Uses opponent's underhook denial attempts to transition to alternative entries or positions
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-The Lockdown to Electric Chair System requires progressive drilling that builds from isolated components to full integration under resistance. Begin with static lockdown acquisition drills, focusing on proper foot hook placement and extension mechanics without opponent resistance. Progress to cooperative underhook battle drills where partner provides gradually increasing defensive resistance. Dedicate specific training time to Electric Chair positioning, experimenting with hip angles and extension to understand pressure generation mechanics. Once individual components are functional, drill complete sequences: lockdown establishment, underhook acquisition, Electric Chair setup, and finish/sweep execution in continuous flow. Implement positional sparring starting from various half guard scenarios with the goal of implementing system components. Advanced practitioners should drill against specific counters and escapes to develop robust defensive solutions. Regular live rolling from lockdown position helps develop timing, pressure sensitivity, and the ability to recognize opportunities. Video analysis of successful and failed attempts reveals technical gaps and confirms proper mechanics.
-
-### Progression Path
-**Foundation Building** (Focus: Master lockdown mechanics, basic extension patterns, and passive underhook acquisition) - Weeks 1-4
-**Electric Chair Introduction** (Focus: Learn Electric Chair positioning, hip extension mechanics, and basic Old School sweep) - Weeks 5-8
-**Active Implementation** (Focus: Apply system in positional sparring, develop whizzer counters, chain attacks together) - Weeks 9-16
-**Live Integration** (Focus: Successfully implement against resisting opponents in live rolling, refine timing and pressure) - Weeks 17-24
-**Advanced Variations** (Focus: Add Banana Split, Twister entries, back takes, and develop counters to sophisticated escapes) - Months 7-12
-**System Mastery** (Focus: Seamless flow between all components, teaching others, adapting to individual body types and situations) - Ongoing beyond 12 months
-
-
-### Common Mistakes
-- Attempting lockdown from fully flattened position instead of creating space first with frames and hip movement
-- Static lockdown holding without constant extension pressure—lockdown must be actively breaking posture, not just maintaining
-- Forcing Electric Chair without proper underhook depth or far arm control, resulting in opponent easily defending or escaping
-- Abandoning lockdown too early when initial attack is defended instead of chaining to secondary attacks
-- Poor hip extension mechanics in Electric Chair—driving laterally instead of up and away reduces pressure significantly
-- Neglecting Homer Simpson recovery sequences, getting stuck in bad positions when opponent counters effectively
-- Over-reliance on upper body strength in underhook battle instead of using lockdown extension to create underhook opportunities
-
-
+<section id="sources" class="content-section">
+<h2>Sources and evidence</h2>
+<p><a href="https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass" target="_blank" rel="noopener">The Lockdown Blueprint by Tom DeBlass</a> — official listing; checked 2026-09-16. Tom DeBlass, exact title and both electric-chair attack and escape headings verified. Listings support the role comparison; no stretch, extension or submission-execution instructions inspected.</p><p><a href="https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones" target="_blank" rel="noopener">You Can&#39;t Knee bahh by Craig Jones</a> — official listing; checked 2026-09-16. Official listing inspected to compare the advertised subject and course breadth with this guide.</p>
 </section>
 
 <section id="related-content" class="content-section">
 
-## Which Positions, Transitions, and Principles Connect to This System?
+## Related references and alternatives
 
-- [[Positions/Half Guard/Lockdown|Lockdown]] (Position) - Core control position that enables entire system
-- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Position) - Primary attacking position from lockdown control
-- [[Positions/Half Guard|Half Guard]] (Position) - Parent position where system is initiated
-- [[Positions/Half Guard/Old School|Old School]] (Position) - Key sweep position when Electric Chair is defended
-- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) - Alternative half guard system that complements lockdown approaches
-- [[Positions/Twister Control/Truck|Truck]] (Position) - Advanced transition destination from lockdown scrambles
-- [[Positions/Twister Control/Twister Side Control|Twister Side Control]] (Position) - Back exposure position accessible from lockdown attacks
-- [[Positions/Dogfight Position|Dogfight Position]] (Position) - Transitional position when lockdown is partially broken
-- [[Transitions/Lockdown Recovery|Lockdown Recovery]] (Transition) - Collection of sweeping techniques enabled by lockdown control
-- [[Transitions/Old School Sweep|Old School Sweep]] (Transition) - Primary sweep execution from Electric Chair defense
-- [[Transitions/Half Guard Pass|Half Guard Pass]] (Transition) - Broader category of techniques that lockdown system enhances
-- [[Transitions/Half Guard to Back Take|Half Guard to Back Take]] (Transition) - Back attack opportunities created by Electric Chair pressure
-- [[Transitions/Turtle to Truck|Turtle to Truck]] (Transition) - Advanced progression when opponent defends lockdown attacks
-- [[Transitions/Underhook Sweep from Half|Underhook Sweep from Half]] (Transition) - Related sweeping mechanics utilizing underhook control
-- [[Transitions/Whizzer|Whizzer]] (Transition) - Primary defensive counter that must be systematically defeated
-- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Submission) - Finishing technique in competition formats allowing crotch attacks
-- [[Submissions/Banana Split|Banana Split]] (Submission) - Advanced submission when opponent attempts leg extraction
-- [[Submissions/Twister|Twister]] (Submission) - Advanced spine lock accessible from lockdown transitions
-- [[Principles/Kuzushi|Kuzushi]] (Principle) - Fundamental principle governing all sweeping techniques in system
-- [[Principles/Defensive Concepts|Defensive Concepts]] (Principle) - Defensive foundation including guard retention that lockdown control enhances
-- [[Principles/Grips|Grips]] (Principle) - Critical underhook battle principles that determine system success
-- [[Principles/Frames|Frames]] (Principle) - Framing mechanics used to create space and execute Homer Simpson recovery
-- [[Principles/Position Chains|Position Chains]] (Principle) - Chaining attacks from lockdown creates continuous submission opportunities
-- [[Systems/10th Planet Half Guard Bottom System|10th Planet Half Guard Bottom System]] (System) - Parent system containing lockdown as primary framework
-- [[Systems/10th Planet No-Gi Guard System|10th Planet No-Gi Guard System]] (System) - Broader organizational system where lockdown plays key role
-- [[Systems/Twister System|Twister System]] (System) - Advanced system utilizing positions accessible from lockdown
-- [[Systems/Andrew Wiltse Half Guard System|Andrew Wiltse Half Guard System]] (System) - Modern half guard approach incorporating lockdown principles
 
+<p><a href="/Principles/Kuzushi">Kuzushi</a> (Principle) — Related concept for framing study questions.</p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a> (Principle) — Related concept for framing study questions.</p><p><a href="/Principles/Grips">Grips</a> (Principle) — Related concept for framing study questions.</p><p><a href="/Principles/Frames">Frames</a> (Principle) — Related concept for framing study questions.</p><p><a href="/Principles/Position-Chains">Position Chains</a> (Principle) — Related concept for framing study questions.</p><p><a href="/Systems/10th-Planet-Half-Guard-Bottom-System">10th Planet Half Guard Bottom System</a> (System) — Additional study guide; check its focus and starting task.</p><p><a href="/Systems/10th-Planet-No-Gi-Guard-System">10th Planet No-Gi Guard System</a> (System) — Additional study guide; check its focus and starting task.</p><p><a href="/Systems/Twister-System">Twister System</a> (System) — Additional study guide; check its focus and starting task.</p><p><a href="/Systems/Andrew-Wiltse-Half-Guard-System">Andrew Wiltse Half Guard System</a> (System) — Additional study guide; check its focus and starting task.</p><p><a href="/Systems/Craig-Jones-Kneebar-System">Craig Jones Kneebar System</a> (System) — Alternative specialization covering kneebars from half guard and other contexts.</p>
+
+
+### Review related technique cards
+
+These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
+
+
+- [[Positions/Half Guard/Lockdown|Lockdown]] (Position) — Related position for orientation.
+
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Position) — Related position for orientation.
+
+- [[Positions/Half Guard|Half Guard]] (Position) — Related position for orientation.
+
+- [[Positions/Half Guard/Old School|Old School]] (Position) — Related position for orientation.
+
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) — Related position for orientation.
+
+- [[Positions/Twister Control/Truck|Truck]] (Position) — Related position for orientation.
+
+- [[Positions/Twister Control/Twister Side Control|Twister Side Control]] (Position) — Related position for orientation.
+
+- [[Positions/Dogfight Position|Dogfight Position]] (Position) — Related position for orientation.
+
+- [[Transitions/Lockdown Recovery|Lockdown Recovery]] (Transition) — Related movement card for separate study.
+
+- [[Transitions/Old School Sweep|Old School Sweep]] (Transition) — Related movement card for separate study.
+
+- [[Transitions/Half Guard Pass|Half Guard Pass]] (Transition) — Related movement card for separate study.
+
+- [[Transitions/Half Guard to Back Take|Half Guard to Back Take]] (Transition) — Related movement card for separate study.
+
+- [[Transitions/Turtle to Truck|Turtle to Truck]] (Transition) — Related movement card for separate study.
+
+- [[Transitions/Underhook Sweep from Half|Underhook Sweep from Half]] (Transition) — Related movement card for separate study.
+
+- [[Transitions/Whizzer|Whizzer]] (Transition) — Related movement card for separate study.
+
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Submission) — Related submission card for separate study.
+
+- [[Submissions/Banana Split|Banana Split]] (Submission) — Related submission card for separate study.
+
+- [[Submissions/Twister|Twister]] (Submission) — Related submission card for separate study.
 
 </section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>Practise obtaining the underhook and moving your partner’s balance. Work on the sweep with controlled range rather than forcing the stretch.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=lockdown-to-electric-chair-system&utm_term=the-lockdown-blueprint-by-tom-deblass" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="the-lockdown-blueprint-by-tom-deblass" data-system-slug="systems/lockdown-to-electric-chair-system" data-system-name="Lockdown to Electric Chair System" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: The Lockdown Blueprint &rarr;</a></p>
-</section>
-
-
-
 </main>

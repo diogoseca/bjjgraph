@@ -80,7 +80,7 @@ description: {{ description | jsonstr }}
 <article class="product-card">
 <h3>{{ p.title | e }}</h3>
 {% if p.instructor %}<p>By {{ p.instructor | e }}</p>{% endif %}
-{% for field in ['best_for', 'blurb', 'study_focus', 'practice_tip'] %}{% if p[field] %}<p>{{ p[field] | e }}</p>{% endif %}{% endfor %}
+{% if not guide %}{% for field in ['best_for', 'blurb', 'study_focus', 'practice_tip'] %}{% if p[field] %}<p>{{ p[field] | e }}</p>{% endif %}{% endfor %}{% endif %}
 <p><a href="{{ p.course_url | e }}" data-course-url="{{ p.course_url | e }}" data-product-id="{{ p.id | default('') | e }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name | e }}" data-vendor="{{ p.vendor | default('BJJFanatics') | lower | e }}" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
 </article>
 {% for p in live.products[1:3] %}

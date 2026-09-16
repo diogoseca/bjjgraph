@@ -1,479 +1,148 @@
 
-
-
-
 ---
-title: "Straight Footlock to Kneebar Chain | BJJ System | BJJ Graph"
-description: "Master the fundamental leg lock chain connecting straight ankle locks to kneebars. Learn systematic transitions and defensive reaction patterns."
+title: "Straight Ankle Lock and Kneebar Study | BJJGraph"
+description: "Find the two submission topics and identify what a transition between them still needs to demonstrate."
 ---
 
 
-<body data-content-type="systems">
 
-<!-- Schema Markup - Auto-generated from JSON -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How to Implement Straight Footlock to Kneebar Chain",
-  "description": "Step-by-step implementation sequence for Straight Footlock to Kneebar Chain.",
-  "step": [
-    {
-      "@type": "HowToStep",
-      "name": "Position Establishment",
-      "text": "Establish ashi garami control with inside position on opponent's leg. Secure hip connection, entangle opponent's leg with your legs, and establish proper angle. Your inside leg should be behind opponent's knee, outside leg should control their hip, and your hips should be connected to their leg.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Footlock Attack Initiation",
-      "text": "Secure the straight ankle lock by establishing figure-four grip around opponent's foot. Position your forearm against their Achilles tendon, lock hands in front of their ankle, and begin applying pressure through hip extension and back arch. Maintain this attack with progressive pressure while observing opponent's defensive reactions.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Reading Defensive Reactions",
-      "text": "As you maintain footlock pressure, identify opponent's defensive strategy. Common defenses include heel clearing (pulling heel free), sitting up to release pressure, or rotating away. Each defensive reaction creates specific opportunities for transitioning to kneebar. The key is maintaining enough footlock pressure to force a defensive commitment while remaining ready to transition.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Transition to Kneebar",
-      "text": "When opponent commits to footlock defense (especially heel clearing or sitting up), transition to kneebar. Release figure-four grip, slide attacking arm under opponent's knee, and adjust hip position to create perpendicular angle to their leg. Simultaneously maintain leg entanglement and hip pressure to prevent escape during transition. Secure grip across opponent's knee and prepare for kneebar finish.",
-      "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Kneebar Finish or Re-transition",
-      "text": "Apply kneebar pressure through hip elevation and full-body extension while controlling opponent's heel. If opponent defends by bending knee or pulling leg free, immediately re-establish figure-four grip and return to footlock attack. This creates a continuous loop where defensive reactions to one submission expose opportunities for the other.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "System Cycling and Refinement",
-      "text": "Continue cycling between footlock and kneebar based on opponent's defensive reactions. With each cycle, refine your positioning, timing, and transition mechanics. Advanced practitioners can add variations such as calf slicers, toe holds, or position transitions to expand the system. The goal is creating a seamless, inescapable loop of submission threats.",
-      "position": 6
-    }
-  ]
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Straight Footlock to Kneebar Chain",
-  "description": "Master the fundamental leg lock chain connecting straight ankle locks to kneebars. Learn systematic transitions and defensive reaction patterns.",
-  "url": "https://bjjgraph.org/Systems/Straight-Footlock-to-Kneebar-Chain",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "BJJ Graph",
-    "url": "https://bjjgraph.org"
-  }
-}
-</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://bjjgraph.org/"},
-    {"@type": "ListItem", "position": 2, "name": "Systems", "item": "https://bjjgraph.org/Systems/"},
-    {"@type": "ListItem", "position": 3, "name": "Straight Footlock to Kneebar Chain", "item": "https://bjjgraph.org/Systems/Straight-Footlock-to-Kneebar-Chain"}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Losing position during transitions between footlock and kneebar, allowing opponent to escape or recover guard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Maintain consistent hip pressure and leg entanglement throughout transitions. Never fully release one submission until the next is secured. Practice transition drills specifically focusing on maintaining ashi garami control while changing grips and angles."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Opponent creates space by pushing off your hips or pulling their leg free during submission attempts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Increase hip connection by driving your hips into opponent's leg rather than just holding with legs. Use your outside leg to control their hip and prevent bridging. Anticipate space creation attempts and pre-emptively tighten entanglement before they begin."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Difficulty reading opponent's defensive reactions quickly enough to transition effectively?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Drill the chain slowly with cooperative partners, focusing on identifying specific defensive movements. Study common defensive patterns and their corresponding transitions. Apply progressive pressure on footlock to force clear defensive commitments before transitioning."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Grip changes during transitions create windows for escape?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Minimize grip release time by preparing new grip before releasing old one. Use your legs and hips to maintain control during brief grip transition windows. Practice grip changes in isolation to develop speed and efficiency."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Opponent rotates out of ashi garami by spinning toward their trapped leg?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Control opponent's hip with outside leg to prevent rotation. If rotation begins, follow their movement and transition to outside ashi garami or adjust to saddle position. Use rotation attempts as cues to switch submission attacks."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is a common obstacle: Inability to finish either submission due to opponent's flexibility or pain tolerance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Focus on positional dominance and point scoring rather than submission hunting. Use the chain to sweep or transition to dominant positions. Refine breaking mechanics to ensure optimal leverage rather than relying on opponent's pain response."
-      }
-    }
-  ]
-}
-</script>
 
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "DefinedTerm",
-  "name": "Straight Footlock to Kneebar Chain",
-  "description": "The Straight Footlock to Kneebar Chain is a foundational leg-attack framework that links the straight ankle lock and the kneebar from ashi garami, exploiting each submission's defense to set up the other in a continuous loop.",
-  "inDefinedTermSet": "https://bjjgraph.org/Systems/"
-}
+{"@context":"https://schema.org","@type":"WebPage","name":"Straight Ankle Lock and Kneebar Study","description":"Find the two submission topics and identify what a transition between them still needs to demonstrate."}
 </script>
-
-
-
-<div class="principle-meta">
-<span class="meta-chip">Submission Chain</span>
-<span class="meta-chip">Advanced difficulty</span>
-</div>
-
-
-<main class="content-wrapper" style="display: flex; flex-direction: column;">
-
+<main class="content-wrapper" data-system-guide>
+<p class="system-attribution">Independent BJJGraph study guide. Not authored or endorsed by the instructor. Course: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones.</p>
 <section id="overview" class="content-section">
 
-## What is Straight Footlock to Kneebar Chain?
+## Straight Ankle Lock and Kneebar Study
 
-**The Straight Footlock to Kneebar Chain is a foundational leg-attack framework that links the straight ankle lock and the kneebar from ashi garami, exploiting each submission's defense to set up the other in a continuous loop.**
+**A study guide to Craig Jones’s adjacent straight-ankle-lock and kneebar sections, without assuming the outline establishes a fixed chain.**
 
-The Straight Footlock to Kneebar Chain represents one of the most fundamental submission sequences in modern leg lock systems. This attacking framework capitalizes on the biomechanical connection between ankle and knee control, creating a seamless transition pathway that forces opponents into defensive dilemmas. When executed properly, the defender's attempts to defend the footlock naturally expose the knee, while kneebar defense creates footlock opportunities.
 
-This system is built on the principle that leg attacks should never be isolated techniques, but rather interconnected threats that compound pressure on the opponent. The chain begins with establishing positional control in ashi garami variations, securing the straight ankle lock as the primary attack, then transitioning to the kneebar when the opponent attempts specific defensive reactions. The beauty of this system lies in its simplicity—both submissions target the same leg, require similar positional prerequisites, and create natural transition opportunities through opponent movement.
+Volume 2 of Systematic Submission Dilemmas lists straight ankle locks and kneebars together. That makes the course relevant to both topics, but adjacent chapter labels alone do not establish the defensive trigger or movement connecting them.
 
-Developed and popularized by modern leg lock specialists, this chain has become a cornerstone of contemporary no-gi grappling. It demonstrates the systematic approach to leg attacks where each submission feeds into the next, creating a closed loop of offensive threats. Mastery of this chain provides a reliable foundation for more complex leg lock systems while teaching the fundamental principles of submission chaining, reaction anticipation, and positional control maintenance.
+</section>
+
+<section id="fit" class="content-section">
+
+## Is this useful for you?
+
+- You want to investigate both submissions while keeping the proposed transition distinct from the individual attacks.
+
+
+### Consider an alternative if
+
+- If the immediate problem is an ankle lock against a seated or kneeling opponent, compare Jason Rau Ankle Lock System before studying a second submission.
+
+
+</section>
+<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
+<section id="start-here" class="content-section">
+
+## Start here: Check whether the connection is actually demonstrated
+
+Locate the three Volume 2 headings in the public outline. Keep separate notes for the ankle-lock problem, the 50/50 example and the kneebar. If you have the course, look specifically for a demonstrated connection between the attacks and record its starting position and stated trigger; leave the connection unconfirmed if neither is shown.
+
+Published section: Volume 2: Chapter 3 — Knee Bars (13:02).
+
+
+
+<p>Source: <a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="noopener">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones</a></p>
 
 </section>
 
 
 
+<section id="unlock-this-system" class="content-section product-cards" data-course-container>
+<h2>Course reference</h2>
 
+<article class="product-card">
+<h3>Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos</h3>
+<p>By Craig Jones</p>
 
-
-
-<section id="unlock-this-system" class="content-section product-cards">
-
-## Study this system with BJJ Fanatics
-
-<p class="section-subtitle">Explore a relevant instructional alongside this guide. Check the syllabus and sample on BJJ Fanatics to decide whether it suits your training.</p>
-
-<!-- PROXIMATE AFFILIATE DISCLOSURE — required HERE, not only in terms.md. FTC 16 CFR Part 255
-     and the UK ASA/CAP code both require it clear, conspicuous and close to the link. Placed
-     above the cards so a reader who scans only the card still sees it. CANONICAL WORDING lives
-     in CLAUDE.md §7; the app CTA in neural/src/app.src.jsx carries the same sentence, and
-     scripts/check_affiliate_surface.py fails the build if the copies drift or if a sponsored
-     link ever renders without its disclosure above it. -->
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-
-<div class="product-cards-grid">
-
-<article class="product-card" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones">
-<div class="product-card__holo" aria-hidden="true"></div>
-<div class="product-card__shine" aria-hidden="true"></div>
-
-<div class="product-card__body">
-<h3 class="product-card__title">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos</h3>
-<p class="product-card__instructor">with Craig Jones</p>
-<p class="product-card__blurb"><strong>Who it suits:</strong> Students who want both submissions in one instructional; the listed chapters do not establish that every footlock-to-kneebar sequence on this page is taught.</p>
-<p class="product-card__blurb">Includes straight-ankle-lock and kneebar lessons within a broader triangle-and-leg course.</p>
-</div>
-<a class="product-card__cta affiliate-link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=straight-footlock-to-kneebar-chain&utm_term=systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-vendor="bjjfanatics" data-position="0" data-placement="overview">View course &amp; syllabus on BJJ Fanatics <span class="product-card__cta-arrow" aria-hidden="true">&#8594;</span></a>
+<p><a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-course-url="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
 </article>
 
-</div>
-
 </section>
 
 
-<section id="unlock-graph" class="content-section system-unlock" data-system-unlock hidden>
+<span id="key-principles"></span><span id="key-components"></span>
+<section id="coverage" class="content-section">
 
-## Unlock this part of the graph
+## What the sources cover
 
-<p class="section-subtitle">This system teaches the highlighted nodes in the graph. Mark what you already know &mdash; be honest, it's your game.</p>
+- Volume 2 names an ankle-lock kick-through problem, a 50/50 straight-ankle lesson and kneebars.
+- The wider course connects triangles and leg positions, giving these straight-lock topics a broader context.
 
-<div class="system-progress" data-system-progress>
-<svg class="system-progress__ring" viewBox="0 0 44 44" aria-hidden="true"><circle class="system-progress__ring-bg" cx="22" cy="22" r="19"></circle><circle class="system-progress__ring-fill" cx="22" cy="22" r="19"></circle></svg>
-<div class="system-progress__text">You've unlocked <strong class="system-progress__known">0</strong> / <span class="system-progress__total">0</span> techniques in this system</div>
-<button class="system-progress__mark-all" data-mark-system type="button">Mark whole system as known</button>
-</div>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
 
-<ul class="system-members" data-system-members></ul>
+### Limits
 
-</section>
-
-<section id="key-principles" class="content-section">
-
-## Core Principles
-- Position Before Submission - Establish and maintain ashi garami control throughout the chain
-- Reaction-Based Transitions - Read opponent's defensive movements to determine submission selection
-- Heel Exposure Control - Manage heel positioning to maintain footlock threat while transitioning
-- Hip Connection Maintenance - Keep hips connected to opponent's leg to prevent escape
-- Breaking Mechanics Over Force - Use proper breaking mechanics rather than muscling submissions
-- Continuous Threat Cycling - Never abandon one submission completely when transitioning to another
-- Grip Efficiency - Minimize grip changes during transitions to maintain control and speed
-- Angle Adjustment Precision - Make small positional adjustments rather than large movements
-
+- The public outline does not specify a universal footlock-to-kneebar reaction chain.
 
 </section>
-
-<section id="key-components" class="content-section">
-
-## Key Components
-**Ashi Garami Positional Control** (Provides the stable platform from which all submissions in the chain are launched and maintained)
-The foundation of the entire system is establishing and maintaining proper ashi garami control. This includes inside position on the opponent's leg, hip connection, and proper foot placement behind the opponent's knee. The position must be stable enough to allow submission attempts while remaining mobile enough to transition between attacks. Key elements include leg entanglement depth, hip angle relative to opponent, and inside leg positioning.
-
-**Straight Ankle Lock Primary Attack** (Creates the initial offensive threat and forces opponent into defensive patterns that expose kneebar opportunities)
-The straight footlock serves as the entry point and primary threat in this chain. Executed with a figure-four grip around the opponent's foot, the attack creates pressure on the Achilles tendon and ankle joint through hip extension and arching. The key is maintaining consistent pressure while remaining sensitive to opponent defensive reactions. Proper execution requires wrist alignment, elbow positioning, and coordinated hip movement to generate breaking pressure.
-
-**Transition Mechanics** (Enables seamless movement between submissions while maintaining positional control and offensive pressure)
-The transition from footlock to kneebar involves a coordinated sequence of grip changes, hip adjustments, and leg repositioning. As the opponent attempts to clear their heel or sit up to defend the footlock, the attacker releases the figure-four grip, slides their arm under the opponent's knee, and adjusts hip position to create kneebar angle. This must be done while maintaining leg entanglement and hip pressure to prevent escape during the transition window.
-
-**Kneebar Finishing Position** (Provides the complementary attack that capitalizes on footlock defensive reactions and completes the submission chain)
-The kneebar represents the secondary attack in the chain, targeting the knee joint through hyperextension. The finish requires proper grip placement across the opponent's knee, hip positioning to create leverage, and coordinated full-body extension to generate breaking pressure. Key technical elements include knee isolation, hip placement relative to opponent's leg, and maintaining control of the opponent's heel to prevent rotation escapes.
-
-**Reverse Transition Back to Footlock** (Closes the loop of the submission chain, ensuring continuous offensive pressure regardless of defensive response)
-When opponents defend the kneebar by bending their knee or pulling it free, the system allows for transitioning back to the straight ankle lock. This involves re-establishing the figure-four grip while maintaining ashi garami control, creating a continuous loop of offensive threats. The reverse transition is often faster than the initial transition because the opponent is already extended from kneebar defense.
-
-
-
-</section>
-
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-1. **Position Establishment**: Establish ashi garami control with inside position on opponent's leg. Secure hip connection, entangle opponent's leg with your legs, and establish proper angle. Your inside leg should be behind opponent's knee, outside leg should control their hip, and your hips should be connected to their leg.
-Key points:
-- Achieve inside positioning before attempting submissions
-- Connect hips to opponent's leg to prevent escape
-- Control opponent's hip with outside leg
-- Position inside leg behind opponent's knee for depth
-- Establish angle that allows both footlock and kneebar attacks
-
-
-
-2. **Footlock Attack Initiation**: Secure the straight ankle lock by establishing figure-four grip around opponent's foot. Position your forearm against their Achilles tendon, lock hands in front of their ankle, and begin applying pressure through hip extension and back arch. Maintain this attack with progressive pressure while observing opponent's defensive reactions.
-Key points:
-- Figure-four grip with wrist bone against Achilles
-- Elbows tight to body for maximum leverage
-- Extend hips and arch back to create pressure
-- Keep opponent's toes pointed toward you
-- Monitor opponent's defensive movements for transition cues
-
-
-
-3. **Reading Defensive Reactions**: As you maintain footlock pressure, identify opponent's defensive strategy. Common defenses include heel clearing (pulling heel free), sitting up to release pressure, or rotating away. Each defensive reaction creates specific opportunities for transitioning to kneebar. The key is maintaining enough footlock pressure to force a defensive commitment while remaining ready to transition.
-Key points:
-- Heel clearing defense indicates kneebar opportunity
-- Sitting up defense creates space for kneebar entry
-- Rotation defense may require position adjustment first
-- Don't release footlock completely until kneebar is secured
-- Use opponent's movement energy to facilitate transition
-
-
-
-4. **Transition to Kneebar**: When opponent commits to footlock defense (especially heel clearing or sitting up), transition to kneebar. Release figure-four grip, slide attacking arm under opponent's knee, and adjust hip position to create perpendicular angle to their leg. Simultaneously maintain leg entanglement and hip pressure to prevent escape during transition. Secure grip across opponent's knee and prepare for kneebar finish.
-Key points:
-- Time release of footlock grip with opponent's defensive commitment
-- Slide arm under knee while maintaining hip connection
-- Adjust hips to perpendicular angle for kneebar leverage
-- Secure control of opponent's heel to prevent rotation
-- Complete grip establishment before applying breaking pressure
-
-
-
-5. **Kneebar Finish or Re-transition**: Apply kneebar pressure through hip elevation and full-body extension while controlling opponent's heel. If opponent defends by bending knee or pulling leg free, immediately re-establish figure-four grip and return to footlock attack. This creates a continuous loop where defensive reactions to one submission expose opportunities for the other.
-Key points:
-- Isolate knee joint before applying maximum pressure
-- Control heel to prevent rotation escapes
-- Extend entire body to generate breaking force
-- If opponent bends knee, transition back to footlock immediately
-- Maintain leg entanglement throughout entire sequence
-
-
-
-6. **System Cycling and Refinement**: Continue cycling between footlock and kneebar based on opponent's defensive reactions. With each cycle, refine your positioning, timing, and transition mechanics. Advanced practitioners can add variations such as calf slicers, toe holds, or position transitions to expand the system. The goal is creating a seamless, inescapable loop of submission threats.
-Key points:
-- Each cycle should improve positional control
-- Reduce transition time with practice and familiarity
-- Add deceptive elements to hide transition intentions
-- Expand system with additional leg attack variations
-- Maintain offensive initiative throughout entire sequence
-
-
-
-
-
-</section>
-
-
-
-<section id="course-sequence" class="content-section system-study-free" data-course-placement="sequence">
-<h2>Where to begin in the instructional</h2>
-<p>Start with the straight-lock material in volume two before studying the wider combinations.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=straight-footlock-to-kneebar-chain&utm_term=systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-vendor="bjjfanatics" data-position="0" data-placement="sequence">Explore the course contents on BJJ Fanatics: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos &rarr;</a></p>
-</section>
-
-
-
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-- **Losing position during transitions between footlock and kneebar, allowing opponent to escape or recover guard**: Maintain consistent hip pressure and leg entanglement throughout transitions. Never fully release one submission until the next is secured. Practice transition drills specifically focusing on maintaining ashi garami control while changing grips and angles.
-- **Opponent creates space by pushing off your hips or pulling their leg free during submission attempts**: Increase hip connection by driving your hips into opponent's leg rather than just holding with legs. Use your outside leg to control their hip and prevent bridging. Anticipate space creation attempts and pre-emptively tighten entanglement before they begin.
-- **Difficulty reading opponent's defensive reactions quickly enough to transition effectively**: Drill the chain slowly with cooperative partners, focusing on identifying specific defensive movements. Study common defensive patterns and their corresponding transitions. Apply progressive pressure on footlock to force clear defensive commitments before transitioning.
-- **Grip changes during transitions create windows for escape**: Minimize grip release time by preparing new grip before releasing old one. Use your legs and hips to maintain control during brief grip transition windows. Practice grip changes in isolation to develop speed and efficiency.
-- **Opponent rotates out of ashi garami by spinning toward their trapped leg**: Control opponent's hip with outside leg to prevent rotation. If rotation begins, follow their movement and transition to outside ashi garami or adjust to saddle position. Use rotation attempts as cues to switch submission attacks.
-- **Inability to finish either submission due to opponent's flexibility or pain tolerance**: Focus on positional dominance and point scoring rather than submission hunting. Use the chain to sweep or transition to dominant positions. Refine breaking mechanics to ensure optimal leverage rather than relying on opponent's pain response.
-
-
-</section>
-
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-**Position Retention Rate**: Measures ability to maintain ashi garami control throughout the submission chain without losing position or allowing escapes
-Proficiency indicators:
-- Beginner: Maintains position for one full submission attempt before losing control
-- Intermediate: Completes 2-3 transition cycles while maintaining positional control
-- Advanced: Can cycle between submissions indefinitely without position loss
-- Expert: Maintains position even against skilled opponents attempting systematic escapes
-
-
-**Transition Speed and Efficiency**: Evaluates the speed and smoothness of transitions between footlock and kneebar, including grip changes and hip adjustments
-Proficiency indicators:
-- Beginner: Completes transitions in 3-4 seconds with visible mechanical steps
-- Intermediate: Transitions in 1-2 seconds with coordinated movement
-- Advanced: Sub-second transitions that feel seamless and automatic
-- Expert: Transitions are imperceptible to opponent until new submission is secured
-
-
-**Defensive Reaction Recognition**: Measures ability to identify opponent's defensive patterns and select appropriate submission based on their reactions
-Proficiency indicators:
-- Beginner: Can identify obvious defensive movements after they are fully committed
-- Intermediate: Recognizes common defensive patterns early in their development
-- Advanced: Anticipates defensive reactions before opponent fully commits
-- Expert: Creates defensive dilemmas that force predictable reactions for exploitation
-
-
-**Submission Finish Rate**: Tracks percentage of submission attempts that result in tap or positional advancement when finishing opportunity arises
-Proficiency indicators:
-- Beginner: 20-30% finish rate with clear opportunities
-- Intermediate: 40-50% finish rate including defended attempts
-- Advanced: 60-70% finish rate against resistant opponents
-- Expert: 75%+ finish rate with ability to force tap from marginal positions
-
-
-
-
-</section>
-
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-The system should be trained in progressive phases, beginning with positional control in isolation, then adding individual submissions, before finally drilling the full chain. Initial training should use cooperative partners who provide specific defensive reactions on cue, allowing practitioners to develop muscle memory for each transition. As proficiency increases, partners should provide semi-resistant then fully resistant defense. Drilling sessions should emphasize position maintenance over submission hunting, with specific rounds dedicated to cycling through the chain without finishing to develop transition fluency. Advanced practitioners should drill the chain starting from various entry positions and against different defensive styles to develop adaptability.
-
-### Progression Path
-**Phase 1: Positional Fundamentals** (Focus: Master ashi garami control, entries, and retention against basic escape attempts. Develop hip connection awareness and leg entanglement mechanics.) - 2-4 weeks of focused training
-**Phase 2: Individual Submission Mechanics** (Focus: Refine straight footlock and kneebar finishing mechanics independently. Develop proper breaking mechanics and submission awareness without time pressure.) - 3-6 weeks with regular drilling
-**Phase 3: Cooperative Chain Drilling** (Focus: Practice transitions between submissions with cooperative partner providing specific defensive reactions. Focus on smooth transitions while maintaining position.) - 4-8 weeks of structured drilling
-**Phase 4: Semi-Resistant Integration** (Focus: Apply the chain against partners providing realistic but measured resistance. Develop reaction recognition and transition timing under pressure.) - 2-3 months of progressive resistance training
-**Phase 5: Live Application** (Focus: Implement the system in live rolling with focus on entry creation, position maintenance, and submission cycling. Track success rates and identify weaknesses.) - 3-6 months of regular sparring application
-**Phase 6: System Expansion** (Focus: Add variations, combinations with other leg attacks, and position transitions. Develop personal adaptations based on body type and preferences.) - Ongoing development and refinement
-
-
-### Common Mistakes
-- Rushing transitions before securing position, resulting in lost control and opponent escapes
-- Applying maximum pressure on first submission attempt instead of using it to create defensive reactions
-- Releasing footlock grip too early during transition, giving opponent window to escape
-- Neglecting hip connection in favor of leg control, allowing opponent to create space
-- Focusing on submission finish over position maintenance, sacrificing long-term control for short-term submission attempts
-- Failing to adjust system based on opponent's defensive tendencies and physical attributes
-- Practicing only against compliant partners without developing real-time reaction recognition skills
-
-
+<section id="sources" class="content-section">
+<h2>Sources and evidence</h2>
+<p><a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="noopener">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones</a> — official listing; checked 2026-09-16. Verified course identity and the consistent published sections on straight locks, triangles, upper-to-lower-body transitions and match commentary. These are advertised topics, not inspected technical demonstrations.</p><p><a href="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" target="_blank" rel="noopener">Dynamic Ankle Locks by Jason Rau</a> — official listing; checked 2026-09-16. Verified title, instructor and three-volume outline: grips and leg positions, posture-specific finishes, Aoki locks, heel hooks and positional alternatives.</p>
 </section>
 
 <section id="related-content" class="content-section">
 
-## Which Positions, Transitions, and Principles Connect to This System?
+## Related references and alternatives
 
-- [[Positions/Ashi Garami|Ashi Garami]] (Position) - Primary positional platform for entire submission chain
-- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) - Enhanced control variation that strengthens chain execution
-- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) - Alternative positional platform when opponent rotates
-- [[Positions/Kneebar Control|Kneebar Control]] (Position) - Finishing position for kneebar component of chain
-- [[Positions/Straight Ankle Lock Control|Straight Ankle Lock Control]] (Position) - Finishing position for footlock component of chain
-- [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position) - Alternative position that supports similar submission chain
-- [[Positions/Ashi Garami/Saddle|Saddle]] (Position) - Advanced position that expands chain with heel hook variations
-- [[Positions/Ashi Garami/Honey Hole|Honey Hole]] (Position) - Related leg entanglement position for expanded leg attack system
-- [[Positions/Ashi Garami/Cross Ashi-Garami|Cross Ashi-Garami]] (Position) - Alternative ashi variation for chain execution
-- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission) - Primary submission and entry point for the chain
-- [[Transitions/Kneebar|Kneebar]] (Submission) - Secondary submission and transition target in chain
-- [[Submissions/Flying Kneebar|Flying Kneebar]] (Submission) - Dynamic kneebar entry variation that develops explosive finishing applicable to the chain
-- [[Submissions/Achilles Lock|Achilles Lock]] (Submission) - Related ankle attack that shares similar positional prerequisites
-- [[Submissions/Heel Hook|Heel Hook]] (Submission) - Advanced leg attack that can be integrated into expanded system
-- [[Submissions/Toe Hold|Toe Hold]] (Submission) - Alternative ankle attack that expands offensive options
-- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) - Primary entry method to establish chain starting position
-- [[Transitions/Outside Ashi Entry|Outside Ashi Entry]] (Transition) - Alternative entry when inside position is unavailable
-- [[Transitions/Ashi Garami Escape|Ashi Garami Escape]] (Transition) - Understanding escapes improves position maintenance and transition timing
-- [[Transitions/X-Guard to Ashi Garami|X-Guard to Ashi Garami]] (Transition) - Common entry pathway from guard positions
-- [[Transitions/Saddle Entry from Top|Saddle Entry from Top]] (Transition) - Advanced transition that expands system to heel hook attacks
-- [[Positions/Leg Entanglement|Leg Entanglement]] (Position) - Fundamental positional concept underlying control maintenance in chain
-- [[Principles/Submission Chains|Submission Chains]] (Principle) - Core concept that defines the systematic approach to submissions
-- [[Principles/Transition Management|Transition Management]] (Principle) - Broader concept governing smooth transitions between submission attempts
-- [[Principles/Fork Attacks|Fork Attacks]] (Principle) - Strategic concept of creating no-win defensive scenarios
-- [[Principles/Action and Reaction|Action and Reaction]] (Principle) - Principle of using opponent's defensive movements to guide transitions
-- [[Principles/Control Maintenance|Control Maintenance]] (Principle) - Essential concept for maintaining position during transitions
-- [[Principles/Levers|Levers]] (Principle) - Biomechanical leverage principles underlying both submissions in chain
-- [[Principles/Positional Sparring|Positional Sparring]] (Principle) - Training methodology for developing chain proficiency through structured practice
-- [[Systems/Danaher Leg Lock System|Danaher Leg Lock System]] (System) - Comprehensive system that this chain is fundamental component of
 
+<p><a href="/Principles/Submission-Chains">Submission Chains</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Transition-Management">Transition Management</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Action-and-Reaction">Action and Reaction</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Levers">Levers</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Positional-Sparring">Positional Sparring</a> (Principle) — Related concept for organizing study.</p><p><a href="/Systems/Danaher-Leg-Lock-System">Danaher Leg Lock System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/Jason-Rau-Ankle-Lock-System">Jason Rau Ankle Lock System</a> (System) — A posture-specific ankle-lock alternative when a second submission is not the immediate study need.</p>
+
+
+### Review related technique cards
+
+These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
+
+
+- [[Positions/Ashi Garami|Ashi Garami]] (Position) — Related position reference for comparing the course vocabulary.
+
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) — Related position reference for comparing the course vocabulary.
+
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) — Related position reference for comparing the course vocabulary.
+
+- [[Positions/Kneebar Control|Kneebar Control]] (Position) — Related position reference for comparing the course vocabulary.
+
+- [[Positions/Straight Ankle Lock Control|Straight Ankle Lock Control]] (Position) — Related position reference for comparing the course vocabulary.
+
+- [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position) — Related position reference for comparing the course vocabulary.
+
+- [[Positions/Ashi Garami/Saddle|Saddle]] (Position) — Related position reference for comparing the course vocabulary.
+
+- [[Positions/Ashi Garami/Honey Hole|Honey Hole]] (Position) — Related position reference for comparing the course vocabulary.
+
+- [[Positions/Ashi Garami/Cross Ashi-Garami|Cross Ashi-Garami]] (Position) — Related position reference for comparing the course vocabulary.
+
+- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+
+- [[Transitions/Kneebar|Kneebar]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+
+- [[Submissions/Flying Kneebar|Flying Kneebar]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+
+- [[Submissions/Achilles Lock|Achilles Lock]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+
+- [[Submissions/Heel Hook|Heel Hook]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+
+- [[Submissions/Toe Hold|Toe Hold]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+
+- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+
+- [[Transitions/Outside Ashi Entry|Outside Ashi Entry]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+
+- [[Transitions/Ashi Garami Escape|Ashi Garami Escape]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+
+- [[Transitions/X-Guard to Ashi Garami|X-Guard to Ashi Garami]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+
+- [[Transitions/Saddle Entry from Top|Saddle Entry from Top]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+
+- [[Positions/Leg Entanglement|Leg Entanglement]] (Position) — Related position reference for comparing the course vocabulary.
 
 </section>
-
-
-
-<section id="course-practice" class="content-section system-study-free" data-course-placement="practice">
-<h2>Take one idea into your next session</h2>
-<p>BJJGraph suggestion: pause after a defensive reaction, name the available control position, then reset if neither branch is secure. Agree allowed leg attacks beforehand.</p>
-<p class="affiliate-disclosure">BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.</p>
-<p><a class="affiliate-link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones?rfsn=REPLACE_ME&utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems&utm_content=straight-footlock-to-kneebar-chain&utm_term=systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="sponsored nofollow noopener" data-affiliate="true" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-vendor="bjjfanatics" data-position="0" data-placement="practice">Check the sample and current price on BJJ Fanatics: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos &rarr;</a></p>
-</section>
-
-
-
 </main>
