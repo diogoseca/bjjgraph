@@ -1,6 +1,5 @@
 {
   "name": "Rubber Guard to Omoplata System",
-  "description": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard. Explore the training sequence and course on BJJ Fanatics.",
   "tags": [
     "bjj",
     "system",
@@ -14,488 +13,211 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "The rubber guard-to-omoplata route links posture control to an isolated shoulder.",
-  "overview": "The rubber guard-to-omoplata route links posture control to an isolated shoulder. Work through the controls that let you clear the arm and change angle, then distinguish a finishing opportunity from a chance to sweep.\n\nUse the implementation sequence to choose a training focus, the connected techniques to study each position, and the course recommendation to explore a detailed video explanation. This is BJJGraph’s study guide; it is not an official course outline or a substitute for coached practice.",
-  "key_principles": [
-    "Systematic progression from closed guard posture breaking through rubber guard control to omoplata finish",
-    "Flexibility-dependent positioning that creates unique angles unavailable to less flexible grapplers",
-    "Multiple entry pathways based on opponent posture and defensive reactions",
-    "Omoplata as submission, sweep mechanism, and back take setup rather than isolated technique",
-    "Hip control and shoulder isolation working in concert to eliminate defensive options",
-    "Chaining omoplata with triangle and armbar threats to prevent singular focus defense",
-    "Using opponent's defensive pressure to facilitate transitions between system positions"
-  ],
-  "key_components": [
-    {
-      "component_name": "Rubber Guard Establishment",
-      "description": "The foundation begins with breaking opponent posture from closed guard and establishing high guard with one leg over the shoulder. From here, systematic progression through rubber guard positions like Mission Control creates the necessary control and angles. This component emphasizes grip fighting to secure overhooks or collar ties while using the high guard leg to maintain posture breakdown and prevent opponent base recovery.",
-      "purpose": "Creates initial control framework and posture dominance necessary for omoplata entries"
-    },
-    {
-      "component_name": "Mission Control to New York Transition",
-      "description": "From Mission Control's overhook and high guard position, transition to New York by threading the non-hooking arm across opponent's back while maintaining shoulder control with the leg. This creates a more stable platform with deeper shoulder isolation and sets up the primary omoplata entry path. The transition requires precise timing as opponent attempts to posture or remove the high guard leg.",
-      "purpose": "Establishes optimal control position for omoplata attack initiation"
-    },
-    {
-      "component_name": "Omoplata Entry Mechanics",
-      "description": "Multiple entry pathways exist depending on opponent reactions: direct swing-through from New York when opponent is stationary, triangle-threat entries when opponent pulls arm back, and meathook variations when opponent drives forward with pressure. Each entry requires hip rotation to bring the leg over opponent's shoulder while controlling the wrist to prevent posting. The system teaches reading opponent weight distribution and grip fighting patterns to select optimal entry timing.",
-      "purpose": "Provides adaptive attack initiation based on opponent defensive responses"
-    },
-    {
-      "component_name": "Omoplata Finishing Sequence",
-      "description": "Once the leg is over the shoulder with wrist control established, systematic progression includes hip rotation toward opponent's trapped shoulder, chest pressure driving opponent's head toward mat, and shoulder isolation through continued rotation. The system includes multiple finish variations: traditional sit-up finish, rolling finish for mobile opponents, and sweep to top position when submission is defended. Each variation maintains shoulder control while adapting to opponent escape attempts.",
-      "purpose": "Ensures high finishing percentage through multiple completion pathways"
-    },
-    {
-      "component_name": "Back Take Integration",
-      "description": "When opponents roll forward to escape omoplata pressure, systematic back take entries emerge naturally from the shoulder-control position. The system teaches maintaining connection during opponent's roll, establishing seat belt control as they rotate, and securing hooks before opponent can complete their escape. This component transforms a defended submission attempt into dominant position advancement.",
-      "purpose": "Converts opponent's primary defensive reaction into positional dominance"
-    },
-    {
-      "component_name": "Triangle and Armbar Connections",
-      "description": "The system integrates triangle threats when opponents pull their trapped arm back during omoplata setup, and armbar attacks when they attempt to stack or drive weight forward. These connections create genuine dilemmas where defending one attack opens another, preventing opponents from mounting effective singular-focus defense. Understanding these relationships elevates the system from technique chain to true attacking framework.",
-      "purpose": "Creates multi-threat attacking network that overwhelms defensive options"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Initial Control Establishment",
-      "description": "Begin from closed guard with focus on breaking opponent's posture through collar grips, sleeve control, or overhook establishment. Once posture is broken, establish high guard by bringing one leg high over opponent's shoulder while maintaining upper body control through grips.",
-      "key_points": [
-        "Break posture before attempting high guard to prevent opponent base",
-        "Use grip fighting to secure overhook or strong collar control",
-        "High guard leg should clear shoulder completely, foot positioned near opponent's far shoulder",
-        "Maintain constant pulling pressure to prevent posture recovery"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Mission Control Position",
-      "description": "From high guard, secure Mission Control by establishing overhook on the same side as the high guard leg while using that leg to maintain shoulder control. The opposite hand typically controls opponent's wrist or collar. This position provides stable platform for beginning systematic progression toward omoplata.",
-      "key_points": [
-        "Overhook must be deep with elbow control, not shallow grip",
-        "High guard leg maintains active pressure pulling shoulder down",
-        "Control opponent's free hand to prevent posting or frame creation",
-        "Hip positioning should keep opponent's posture broken forward"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "New York Transition",
-      "description": "Transition from Mission Control to New York by releasing the overhook and threading that arm across opponent's back to secure opposite shoulder or collar. Simultaneously maintain high guard leg pressure and use the transition moment to adjust hip position for deeper shoulder isolation. New York provides superior shoulder control and clearer omoplata entry pathway.",
-      "key_points": [
-        "Thread arm across during moment when opponent attempts to posture",
-        "Don't release overhook until replacement grip is secured",
-        "Increase high guard leg pressure during transition to prevent escape",
-        "New York position should feel more stable than Mission Control"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Omoplata Entry Selection",
-      "description": "From New York, read opponent's reaction to determine entry pathway: if they remain stationary with broken posture, execute direct swing-through by rotating hips and swinging bottom leg over to trap shoulder. If they pull trapped arm back, threaten triangle to force arm forward again. If they drive forward with pressure, use meathook control to facilitate entry. Each pathway ends with leg over shoulder and wrist control established.",
-      "key_points": [
-        "Never force single entry against strong resistance",
-        "Use opponent's movement and reactions to determine optimal path",
-        "Maintain wrist control throughout entry to prevent posting",
-        "Hip rotation should be explosive once entry is committed"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Omoplata Finish or Transition",
-      "description": "With leg over shoulder and wrist secured, begin finish sequence by rotating hips toward trapped shoulder while driving chest pressure toward mat. If opponent remains static, sit up and apply rotational shoulder pressure for finish. If opponent attempts to roll forward, follow the roll maintaining shoulder control and establish back control. If opponent successfully defends shoulder lock, sweep to top position maintaining shoulder isolation.",
-      "key_points": [
-        "Apply pressure progressively, never explosive force to shoulder joint",
-        "Read opponent's weight shift to determine finish vs sweep vs back take",
-        "Maintain wrist control prevents last-second posting escapes",
-        "If transitioning to back, prioritize seat belt over immediate hooks"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Systematic Integration",
-      "description": "Practice complete system flow: closed guard to posture break to high guard to Mission Control to New York to omoplata entry to finish/sweep/back take. Drill with progressive resistance, starting with compliant partner and advancing to full resistance as movement patterns become automatic. Integrate triangle and armbar threats during training to develop multi-attack perception.",
-      "key_points": [
-        "Full system flow should become single fluid motion with experience",
-        "Train decision-making under pressure, not just mechanical execution",
-        "Regularly assess flexibility improvements needed for position maintenance",
-        "Competition implementation requires confidence in all branching pathways"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Insufficient hip flexibility preventing establishment or maintenance of rubber guard positions, particularly high guard and Mission Control",
-      "solution": "Implement dedicated flexibility training protocol including butterfly stretches, pigeon pose, and dynamic leg raises. Practice rubber guard positions statically before attempting dynamic transitions. Consider using flexibility-appropriate variations like half rubber guard while building range of motion."
-    },
-    {
-      "obstacle": "Opponent successfully postures and removes high guard leg before Mission Control or New York can be established",
-      "solution": "Improve initial posture breaking before attempting high guard establishment. Use collar drags, arm drags, or overhook pulls to compromise opponent base first. Maintain constant pulling pressure with grips and high guard leg simultaneously to prevent posture recovery windows."
-    },
-    {
-      "obstacle": "Losing wrist control during omoplata entry allowing opponent to post and prevent completion of leg-over-shoulder movement",
-      "solution": "Secure wrist control earlier in sequence, ideally from New York position before beginning hip rotation. Use two-on-one wrist control when possible. Practice entry timing to catch opponent during weight shift moments when posting is impossible."
-    },
-    {
-      "obstacle": "Opponent successfully stacks during omoplata position making finish difficult and creating escape opportunities",
-      "solution": "When stack pressure begins, immediately transition to alternative pathway: sweep to top maintaining shoulder control, or follow opponent's roll to back take. Develop sensitivity to early stacking indicators and counter before opponent establishes full stack pressure. Use armbar threats to prevent forward pressure that enables stacking."
-    },
-    {
-      "obstacle": "Telegraphing omoplata entry allowing opponent to defend preemptively by removing targeted arm or creating strong base",
-      "solution": "Disguise omoplata entries behind triangle and armbar threats from rubber guard positions. Vary entry timing and pathways so opponent cannot predict attack initiation. Practice maintaining relaxed appearance in New York while preparing explosive entry execution."
-    },
-    {
-      "obstacle": "Fatigue from maintaining rubber guard positions limiting ability to execute dynamic transitions and finish sequences",
-      "solution": "Improve guard-specific conditioning through timed rubber guard holds and transition drilling. Learn to use opponent's weight and reactions rather than pure muscle to maintain positions. Develop efficiency in movement transitions to conserve energy for finishing sequences."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Position Retention and Advancement Rate",
-      "description": "Measures ability to establish and maintain rubber guard control positions while advancing through system progression from closed guard to finish position",
-      "proficiency_indicators": [
-        "Beginner: Can establish high guard and Mission Control against light resistance, maintains positions for 10+ seconds",
-        "Intermediate: Consistently progresses from Mission Control to New York, maintains control during opponent escape attempts, executes clean transitions",
-        "Advanced: Flows through entire position sequence against full resistance, adapts to opponent reactions in real-time, rarely loses control during progression",
-        "Expert: Makes system progression appear effortless, opponent feels constantly behind defensive curve, can execute all pathways with equal facility"
-      ]
-    },
-    {
-      "metric_name": "Entry Success and Adaptation",
-      "description": "Evaluates success rate of omoplata entries from rubber guard and ability to select appropriate entry pathway based on opponent reactions",
-      "proficiency_indicators": [
-        "Beginner: Successfully enters omoplata against stationary opponent with direct swing-through, requires multiple attempts with active opponent",
-        "Intermediate: Recognizes 2-3 entry opportunities and executes appropriate pathway, succeeds against moderate resistance 60%+ of attempts",
-        "Advanced: Reads opponent reactions instantly and selects optimal entry, creates entry opportunities through feints and threats, 75%+ success rate",
-        "Expert: Entry appears inevitable to opponent despite awareness, uses opponent's defensive movements to facilitate entry, near 90% success rate in training"
-      ]
-    },
-    {
-      "metric_name": "Finishing and Transition Effectiveness",
-      "description": "Measures ability to convert omoplata position to successful submission, sweep, or back take based on opponent defensive responses",
-      "proficiency_indicators": [
-        "Beginner: Can finish omoplata submission against non-resisting opponent, recognizes sweep opportunity when finish is blocked",
-        "Intermediate: Finishes submission 40%+ of time, converts to sweep or back take when opponent defends, maintains positional advantage",
-        "Advanced: High finish rate 60%+ with clear understanding of when to transition vs persist, smooth transitions to back or top position",
-        "Expert: Opponent faces genuine dilemma with no good defensive option, converts every omoplata entry to submission or dominant position advancement"
-      ]
-    },
-    {
-      "metric_name": "System Integration and Multi-Attack Capability",
-      "description": "Assesses ability to integrate triangle and armbar threats with omoplata attacks creating comprehensive offensive framework from rubber guard",
-      "proficiency_indicators": [
-        "Beginner: Aware of triangle and armbar connections, can demonstrate basic entries from rubber guard positions",
-        "Intermediate: Threatens triangle when opponent defends omoplata, uses armbar to counter stack attempts, creates basic attack combinations",
-        "Advanced: Seamlessly chains omoplata-triangle-armbar threats creating genuine multi-attack pressure, opponent defends in reactive rather than proactive manner",
-        "Expert: Creates attack sequences where defending one submission inevitably opens another, maintains offensive initiative throughout exchange, forces opponent mistakes through dilemma creation"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "Begin with static position holds to develop flexibility and position familiarity: hold Mission Control for 30-second intervals, then New York, then omoplata position. Progress to flow drilling where you move through position sequence in continuous motion with compliant partner. Add progressive resistance where partner provides 25%, 50%, then 75% resistance to positions and transitions. Introduce decision-making drilling where partner randomly selects defensive reactions and you must choose appropriate attack pathway. Finish with positional sparring from closed guard where you attempt full system execution against full resistance while partner attempts escapes and counters. Supplement with flexibility training dedicated to hip mobility and rubber guard-specific ranges of motion.",
-    "progression_path": [
-      {
-        "stage": "Foundation Phase",
-        "focus": "Develop minimum flexibility requirements, establish individual position proficiency, learn basic mechanics of each system component in isolation",
-        "timeframe": "1-3 months for athletes with existing flexibility, 3-6 months for less flexible practitioners"
-      },
-      {
-        "stage": "Integration Phase",
-        "focus": "Connect individual positions into flowing sequences, practice position transitions with light resistance, begin recognizing basic entry opportunities based on opponent posture",
-        "timeframe": "2-4 months with consistent training 3+ times weekly"
-      },
-      {
-        "stage": "Application Phase",
-        "focus": "Execute system against progressive resistance, develop decision-making skills for pathway selection, integrate triangle and armbar threats to create multi-attack framework",
-        "timeframe": "4-8 months depending on prior guard experience and athletic ability"
-      },
-      {
-        "stage": "Refinement Phase",
-        "focus": "Perfect timing and efficiency of all transitions, develop high finishing percentage from all pathways, adapt system to individual body type and flexibility advantages",
-        "timeframe": "6-12 months, ongoing refinement continues indefinitely"
-      },
-      {
-        "stage": "Mastery Phase",
-        "focus": "System becomes automatic response pattern from closed guard, can execute all variations against elite resistance, teaches system to others demonstrating complete understanding",
-        "timeframe": "12-24+ months of dedicated system focus, represents advanced purple belt to brown belt level proficiency"
-      }
-    ],
-    "common_mistakes": [
-      "Attempting system before developing sufficient hip flexibility leading to poor position maintenance and failed transitions",
-      "Forcing single attack pathway against strong resistance instead of adapting to opponent reactions and selecting alternative entries",
-      "Neglecting wrist control during omoplata entry allowing opponent to post and prevent leg-over-shoulder completion",
-      "Focusing exclusively on omoplata finish while ignoring sweep and back take opportunities when submission is defended",
-      "Telegraphing attacks through obvious setup movements allowing opponent to defend preemptively",
-      "Maintaining static positions too long without advancing through system progression, allowing opponent time to develop effective counters",
-      "Poor grip fighting in initial stages preventing establishment of strong Mission Control or New York positions"
-    ]
-  },
+  "summary": "The Ultimate Rubber Guard by Eddie Bravo explicitly includes an omoplata route within a broader rubber-guard curriculum.",
+  "description": "A focused study entry for the named omoplata lesson in Eddie Bravo’s rubber-guard course.",
+  "overview": "The course opens with historical discussion before its named omoplata lesson. Later volumes broaden to rubber-guard development, full rubber guard and bottom half guard, so the omoplata section can be selected without treating the entire course as one submission chain.",
   "related_content": [
     {
       "name": "Rubber Guard",
       "content_type": "Position",
-      "relationship": "Foundational position family for entire system"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Mission Control",
       "content_type": "Position",
-      "relationship": "Primary control position in system progression"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "New York",
       "content_type": "Position",
-      "relationship": "Key transition position before omoplata entry"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Omoplata Control",
       "content_type": "Position",
-      "relationship": "Final control position before submission or transition"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Starting position for system initiation"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Meathook",
       "content_type": "Position",
-      "relationship": "Alternative rubber guard control used for pressure-based entries"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Invisible Collar",
       "content_type": "Position",
-      "relationship": "Advanced rubber guard variation integrating with system"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Chill Dog",
       "content_type": "Position",
-      "relationship": "Rubber guard position variation for different opponent reactions"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Triangle Control",
       "content_type": "Position",
-      "relationship": "Alternative submission threat from rubber guard positions"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position achieved when opponent rolls to escape omoplata"
+      "relationship": "Related position reference for comparing the course vocabulary."
     },
     {
       "name": "Closed Guard to Omoplata",
       "content_type": "Transition",
-      "relationship": "Core transition technique in system execution"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Omoplata Sweep",
       "content_type": "Transition",
-      "relationship": "Alternative pathway when submission is defended"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Omoplata to Back",
       "content_type": "Transition",
-      "relationship": "Position advancement when opponent rolls forward"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Triangle Setup",
       "content_type": "Transition",
-      "relationship": "Integrated threat from rubber guard positions"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Switch to Triangle",
       "content_type": "Transition",
-      "relationship": "Attack option when omoplata entry is blocked"
+      "relationship": "Related graph transition for separate study, not a verified course sequence."
     },
     {
       "name": "Omoplata",
       "content_type": "Submission",
-      "relationship": "Primary submission finish in system"
+      "relationship": "Related submission reference; inclusion here does not establish course coverage."
     },
     {
       "name": "Armbar",
       "content_type": "Submission",
-      "relationship": "Key secondary submission threat integrated with omoplata and triangle attacks from rubber guard"
+      "relationship": "Related submission reference; inclusion here does not establish course coverage."
     },
     {
       "name": "Triangle Choke",
       "content_type": "Submission",
-      "relationship": "Secondary submission threat creating attack dilemmas"
+      "relationship": "Related submission reference; inclusion here does not establish course coverage."
     },
     {
       "name": "Baratoplata",
       "content_type": "Submission",
-      "relationship": "Advanced variation combining rubber guard and omoplata mechanics"
+      "relationship": "Related submission reference; inclusion here does not establish course coverage."
     },
     {
       "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Conceptual framework for connecting multiple attacks"
+      "relationship": "Related concept for organizing study."
     },
     {
       "name": "Hip Escape Mechanics",
       "content_type": "Principle",
-      "relationship": "Hip mobility mechanics essential for rubber guard maintenance and omoplata execution"
+      "relationship": "Related concept for organizing study."
     },
     {
       "name": "Posture",
       "content_type": "Principle",
-      "relationship": "Initial control establishment principle"
+      "relationship": "Related concept for organizing study."
     },
     {
       "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Defensive awareness integrated with offensive guard system"
+      "relationship": "Related concept for organizing study."
     },
     {
       "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Strategic framework for creating multi-attack dilemmas from rubber guard"
+      "relationship": "Related concept for organizing study."
     },
     {
       "name": "10th Planet Rubber Guard System",
       "content_type": "System",
-      "relationship": "Broader system family containing this specific chain"
+      "relationship": "Related guide with a separate scope and source list."
     },
     {
       "name": "Rubber Guard to Triangle System",
       "content_type": "System",
-      "relationship": "Parallel attacking system from same positions"
+      "relationship": "Related guide with a separate scope and source list."
     },
     {
       "name": "Ryan Hall Triangle System",
       "content_type": "System",
-      "relationship": "Alternative triangle-focused approach with omoplata connections"
+      "relationship": "Related guide with a separate scope and source list."
+    },
+    {
+      "name": "Bernardo Faria Omoplata System",
+      "content_type": "System",
+      "relationship": "Compare its separately listed standing and rolling response lessons."
     }
   ],
-  "flashcards": [
-    {
-      "question": "What is the Rubber Guard to Omoplata System and where does it originate?",
-      "answer": "It is a flexibility-based attacking framework rooted in Eddie Bravo's 10th Planet methodology that uses rubber guard high-control positions to chain omoplata shoulder locks, sweeps, and back takes from closed guard.",
-      "answer_line": "Eddie Bravo's 10th Planet system",
-      "distractors": {
-        "plausible": [
-          "Traditional gi guard passing system",
-          "Danaher's leg lock attack system"
-        ],
-        "trap": [
-          "Judo-based throwing system"
-        ]
-      }
+  "guide": {
+    "kind": "course_companion",
+    "display_title": "Eddie Bravo: Rubber Guard to Omoplata Study",
+    "audience": {
+      "fits": [
+        "You want to locate the explicitly advertised rubber-guard-to-omoplata material."
+      ],
+      "consider_alternative_if": [
+        "For a catalogue of omoplata entries and standing or rolling responses, compare Bernardo Faria Omoplata System; several entries there use gi grips."
+      ]
     },
-    {
-      "question": "Which two rubber guard positions form the backbone of the system's progression toward the omoplata?",
-      "answer": "Mission Control, which secures a deep overhook with the high-guard leg pinning the shoulder, and New York, which threads the arm across the back for deeper shoulder isolation and the primary omoplata entry.",
-      "answer_line": "Mission Control and New York",
-      "distractors": {
-        "plausible": [
-          "Zombie and Gogoplata",
-          "Lockdown and Truck"
-        ],
-        "trap": [
-          "Mission Control and Lockdown"
-        ]
-      }
+    "coverage": {
+      "includes": [
+        "A dedicated rubber-guard-to-omoplata chapter in Volume 1.",
+        "Further volumes cover rubber-guard development, full rubber guard, bottom half guard and variations."
+      ],
+      "limits": [
+        "The public outline groups the omoplata route into one chapter, without separately labeled defensive branches."
+      ]
     },
-    {
-      "question": "How do you select the correct omoplata entry from New York based on the opponent's reaction?",
-      "answer": "If the opponent stays stationary use a direct swing-through; if they pull the trapped arm back threaten the triangle to drive it forward again; if they drive forward with pressure use a meathook entry to facilitate the leg over the shoulder.",
-      "answer_line": "Base entry on opponent's reaction",
-      "distractors": {
-        "plausible": [
-          "Threaten triangle if they freeze",
-          "Always swing-through regardless"
-        ],
-        "trap": [
-          "Muscle through against resistance"
-        ]
-      }
+    "start_here": {
+      "title": "Isolate the omoplata section from the broader curriculum",
+      "kind": "observation",
+      "task": "Locate the named omoplata chapter in the free outline and distinguish it from the later guard-development volumes. Write down the particular entry question that brought you here. With course access, record the demonstrated starting and ending positions and note whether the lesson actually addresses that question.",
+      "source_ids": [
+        "bravo-rubber"
+      ],
+      "section": "Volume 1: Rubber Guard to Omoplata (44:35–1:01:30)."
     },
-    {
-      "question": "What are the three primary outcomes available once the leg is over the shoulder with wrist control secured?",
-      "answer": "A traditional sit-up rotational omoplata finish against a static opponent, following their forward roll to take the back, and sweeping to top position while keeping shoulder isolation when the submission is defended.",
-      "answer_line": "Finish, back take, or sweep",
-      "distractors": {
-        "plausible": [
-          "Finish, escape, or reset guard",
-          "Armbar, triangle, or footlock"
-        ],
-        "trap": [
-          "Release grip and stand up"
-        ]
+    "sources": [
+      {
+        "id": "bravo-rubber",
+        "url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
+        "title": "The Ultimate Rubber Guard by Eddie Bravo",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified title, instructor and four-volume syllabus. It explicitly names a rubber-guard-to-omoplata lesson, broader rubber-guard development, bottom half guard and variations; it gives no triangle-specific chapter label."
+      },
+      {
+        "id": "faria-omoplata",
+        "url": "https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria",
+        "title": "Omoplata Everyone by Bernardo Faria",
+        "kind": "official_listing",
+        "checked_on": "2026-09-16",
+        "note": "Verified title, instructor and four-volume outline, including fabric-grip entries, standing and rolling responses, and a positional scoring option."
       }
-    },
-    {
-      "question": "Why is maintaining wrist control critical throughout the omoplata entry and finish?",
-      "answer": "Wrist control prevents the opponent from posting their hand on the mat, which is the primary defense that stalls the leg-over-shoulder rotation and lets them spin out, stack, or roll free of the shoulder lock.",
-      "answer_line": "Stops them from posting the hand",
-      "distractors": {
-        "plausible": [
-          "Keeps their shoulder pinned down",
-          "Prevents them from tapping early"
-        ],
-        "trap": [
-          "Let go to adjust your own grip"
-        ]
-      }
-    },
-    {
-      "question": "How does the system convert an opponent's forward-roll defense into an advantage?",
-      "answer": "When the opponent rolls forward to relieve omoplata pressure you follow the roll, establish seat-belt control as they rotate, and secure hooks to transition into dominant back control before they complete the escape.",
-      "answer_line": "Follow roll to back control",
-      "distractors": {
-        "plausible": [
-          "Reset to closed guard position",
-          "Re-attack the same omoplata"
-        ],
-        "trap": [
-          "Release and let them escape"
-        ]
-      }
-    },
-    {
-      "question": "What is the most common foundational mistake practitioners make when learning this system?",
-      "answer": "Attempting the system without sufficient hip flexibility, which causes poor maintenance of high guard and Mission Control and leads to failed transitions; dedicated mobility work and half rubber guard variations help bridge the gap.",
-      "answer_line": "Lacking hip flexibility for guard",
-      "distractors": {
-        "plausible": [
-          "Gripping the sleeve too tightly",
-          "Rushing straight to the finish"
-        ],
-        "trap": [
-          "Skipping the high guard entirely"
-        ]
-      }
-    },
-    {
-      "question": "How do integrated triangle and armbar threats make the omoplata harder to defend?",
-      "answer": "The triangle threatens when the opponent pulls the trapped arm back and the armbar threatens when they stack or drive weight forward, creating a fork where defending one attack opens another and preventing single-focus defense.",
-      "answer_line": "Punishes pull-back and push-forward",
-      "distractors": {
-        "plausible": [
-          "Attack whichever arm is closer",
-          "Switch to armbar if they defend"
-        ],
-        "trap": [
-          "Abandon the omoplata for armbar"
-        ]
-      }
-    }
-  ],
+    ]
+  },
   "products": [
     {
       "id": "the-ultimate-rubber-guard-by-eddie-bravo",
+      "vendor": "BJJFanatics",
       "title": "The Ultimate Rubber Guard",
       "instructor": "Eddie Bravo",
-      "vendor": "BJJFanatics",
-      "affiliate_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo?rfsn=REPLACE_ME",
+      "course_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
       "link_status": "live",
-      "link_checked": "2026-09-08",
-      "blurb": "Eddie explains rubber guard development, an omoplata pathway, guard variations and bottom half guard.",
-      "best_for": "Students exploring 10th Planet guard connections. Check the syllabus for your chosen branch; this is broader than a single finish.",
-      "study_focus": "For the omoplata route, start in Volume 1. Bottom half guard and further guard variations appear in Volume 4.",
-      "practice_tip": "Choose a control you can enter comfortably. Practise maintaining posture control without pulling your knee into a forced range."
+      "link_checked": "2026-09-16",
+      "blurb": "A dedicated rubber-guard-to-omoplata chapter in Volume 1.",
+      "best_for": "You want to locate the explicitly advertised rubber-guard-to-omoplata material.",
+      "study_focus": "Volume 1: Rubber Guard to Omoplata (44:35–1:01:30)."
     }
   ]
 }
