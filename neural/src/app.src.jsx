@@ -7325,6 +7325,7 @@ class Component extends DCLogic {
   }
   openSystem(id) {
     const s = this._systemsById ? this._systemsById[id] : null; if (!s) return;
+    const changedSystem = this._systemId !== id;
     this._leaveRollForReference();
     // Explore is the tab that owns the highlight. Any pane/tab transition runs clearFocus, so the
     // transition goes FIRST and the selection is claimed after it (a row click skips this).
@@ -7338,6 +7339,8 @@ class Component extends DCLogic {
     this.setFocusIdxSet(idxs);
     this._pushUrl("/" + id, { ngPage: id });
     this.showExplorerList();
+    // A new guide starts at its heading; same-guide hydration never comes through here.
+    if (changedSystem && this.explorerListRef.current) this.explorerListRef.current.scrollTop = 0;
   }
   closeSystem() { this.clearFocus(); this.showExplorerList(); }
 
