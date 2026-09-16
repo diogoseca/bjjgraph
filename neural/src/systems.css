@@ -1,6 +1,4 @@
-/* Systems: the authored course library inside the Explore tab. The library exists to point a
-   reader at the instructor who teaches the material, so the course CTA is the loudest thing on
-   the card — and it only ever renders for a system that carries an authored product. */
+/* Independent Systems guides, with a compact course reference and deferred official media. */
 
 .ng-system-detail {
   display: grid;
@@ -49,12 +47,12 @@
   align-items: center;
   gap: 10px;
   padding: 11px 13px;
-  border: 1px solid rgba(232, 149, 107, 0.5);
+  border: 1px solid rgba(150, 170, 210, 0.28);
   border-radius: 12px;
   background: linear-gradient(
     135deg,
-    rgba(232, 149, 107, 0.2),
-    rgba(232, 149, 107, 0.07)
+    rgba(150, 170, 210, 0.08),
+    rgba(150, 170, 210, 0.03)
   );
   color: inherit;
   text-decoration: none;
@@ -190,3 +188,30 @@
   font-size: 12px;
   line-height: 1.6;
 }
+
+.ng-system-guide {
+  margin: 0 3px 14px;
+  padding: 12px;
+  color: #c4cde0;
+  font-size: 12px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.ng-system-guide h3 { margin: 0 0 8px; color: #eef1f6; font-size: 15px; }
+.ng-system-guide h4 { margin: 10px 0 3px; color: #dbe2f0; font-size: 12px; }
+.ng-system-guide p { margin: 5px 0 10px; }
+.ng-system-guide ul { margin: 0 0 10px; padding-left: 18px; }
+.ng-system-guide a { color: #a9c7ff; text-decoration: underline; pointer-events: auto; }
+.ng-system-guide button {
+  display: block; margin: 8px 0; padding: 10px 12px;
+  font: inherit; color: #eef1f6; background: #26334b;
+  border: 1px solid #7384a4; border-radius: 6px; cursor: pointer;
+}
+.ng-system-guide button:disabled { color: #c4cde0; cursor: default; }
+.ng-system-guide iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; display: block; margin-top: 10px; }
+.ng-system-guide a:focus-visible, .ng-system-guide button:focus-visible,
+.ng-system-drill:focus-visible, .ng-system-cta:focus-visible { outline: 2px solid #a9c7ff; outline-offset: 3px; }
+[data-system-attribution] { color: #c4cde0 !important; }
+[data-system-start] { border-left: 2px solid #9ab0e0; background: rgba(150, 170, 210, .05); }
+[data-system-source] + [data-system-source] { border-top: 1px solid #33415a; margin-top: 12px; padding-top: 4px; }
+.ng-system-recall { font-size: 11px; color: #9aa6bd; line-height: 1.5; }
