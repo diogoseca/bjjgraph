@@ -335,6 +335,56 @@ for (const provider of ["bunny", "youtube"] as const) {
   }
 }
 
+for (const width of [1440, 390]) {
+  test(`opening a related System starts at the top after scrolling at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    const j = await bootFixtures(page);
+    await openFirst(page);
+    const list = page.locator(".ng-learning-list");
+    await expect(page.locator("[data-system-start]")).toBeVisible();
+    await list.hover();
+    await page.mouse.wheel(0, 2000);
+    await expect.poll(() => list.evaluate(el => el.scrollTop)).toBeGreaterThan(100);
+    const related = '[data-system-reference="Systems/Fixture-Alternative"]';
+    await page.locator(related).scrollIntoViewIfNeeded();
+    await j.clickByMouse(related);
+    await expect(page.locator('[data-system-detail="Systems/Fixture-Alternative"]')).toBeVisible();
+    await expect(page.locator("[data-system-start]")).toBeVisible();
+    await expect.poll(() => list.evaluate(el => el.scrollTop)).toBe(0);
+    const geometry = await list.evaluate(el => {
+      const top = el.getBoundingClientRect().top;
+      return { back: el.querySelector("[data-system-back]")!.getBoundingClientRect().top - top,
+        card: el.querySelector("[data-system-detail]")!.getBoundingClientRect().top - top };
+    });
+    expect(geometry.back).toBeGreaterThanOrEqual(0);
+    expect(geometry.card).toBeGreaterThanOrEqual(0);
+  });
+}
+
+test("opening a System from scrolled search results starts at the top", async ({ page }) => {
+  const data = catalog();
+  data.systems[0].name = "ZZ search target";
+  data.systems[0].aliases = ["Shared search"];
+  for (let i = 0; i < 24; i++) data.systems.push({ ...data.systems[2],
+    id: `Systems/Fixture-Search-${i}`, key: `Fixture Search ${i}|System`, name: `Search filler ${i}`,
+    display_title: `Search filler ${i}`, aliases: ["Shared search"] });
+  const j = await bootFixtures(page, journey(page), data);
+  await openExplore(page, false);
+  await page.locator(".ng-explorer-search input").fill("Shared search");
+  await expect(page.locator("[data-system-row]")).toHaveCount(25);
+  const list = page.locator(".ng-learning-list");
+  await list.hover();
+  await page.mouse.wheel(0, 2000);
+  await expect.poll(() => list.evaluate(el => el.scrollTop)).toBeGreaterThan(100);
+  const target = '[data-system-row="Systems/Fixture-Octopus"]';
+  await page.locator(target).scrollIntoViewIfNeeded();
+  await j.clickByMouse(target);
+  await expect(page.locator('[data-system-detail="Systems/Fixture-Octopus"]')).toBeVisible();
+  await expect(page.locator("[data-system-start]")).toBeVisible();
+  await expect.poll(() => list.evaluate(el => el.scrollTop)).toBe(0);
+  expect(await list.evaluate(el => el.querySelector("[data-system-back]")!.getBoundingClientRect().top - el.getBoundingClientRect().top)).toBeGreaterThanOrEqual(0);
+});
+
 test("late Concepts hydration preserves the same System preview until navigation", async ({ page }) => {
   const dossier = body();
   dossier.guide.preview = { provider: "bunny",
@@ -366,12 +416,20 @@ test("late Concepts hydration preserves the same System preview until navigation
     await expect(player).toHaveCount(1);
     await expect.poll(() => playerRequests).toBe(1);
     const originalPlayer = (await player.elementHandle())!;
+    const list = page.locator(".ng-learning-list");
+    await list.hover();
+    const beforeWheel = await list.evaluate(el => el.scrollTop);
+    await page.mouse.wheel(0, 120);
+    await expect.poll(() => list.evaluate(el => el.scrollTop)).toBeGreaterThan(beforeWheel);
+    // Wait for the wheel event's layout update before releasing the delayed payload.
+    const readingScroll = await list.evaluate(el => el.scrollTop);
     release();
     await expect.poll(() => page.evaluate(() => !!(window as any).__neural._conceptsById?.["Principles/Fixture-Frames"])).toBe(true);
     await expect(page.locator('[data-system-detail="Systems/Fixture-Octopus"]')).toBeVisible();
     expect((await referenceState(page)).system).toBe("Systems/Fixture-Octopus");
     await expect(player).toHaveCount(1);
     expect(await originalPlayer.evaluate(el => el.isConnected && el === (window as any).__neural._systemPlayer)).toBe(true);
+    expect(await list.evaluate(el => el.scrollTop)).toBe(readingScroll);
     expect(playerRequests).toBe(1);
     // The newly hydrated concept remains navigable, and leaving the System removes its player.
     const principle = '[data-system-reference="Principles/Fixture-Frames"]';
