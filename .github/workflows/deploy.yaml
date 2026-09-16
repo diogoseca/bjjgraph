@@ -114,21 +114,6 @@ jobs:
       - name: Build Forward development libraries
         run: npm run build:forward
 
-      # PAYLOAD RATCHET (gate). Real-user LCP P75 was ~13.7s because every visitor pulled two
-      # front-ends; v1.80.0 deleted one. Deleting weight once is easy — keeping it deleted is
-      # the hard part, so this compares the built site against the ceilings committed in
-      # tests/artifacts/budget_site.json (shared bundles, nine page archetypes, and aggregate
-      # HTML bytes across every emitted .html) and fails when the payload grows past them.
-      #
-      # Placement is load-bearing: it must run AFTER
-      # `Build Forward development libraries`, because those write into source/public and the
-      # committed ceilings were seeded from a tree that includes them. Running it earlier would
-      # measure a smaller site than we ship and let a Forward regression through.
-      #
-      # Raising a ceiling requires `--update` in a deliberate, separately justified commit.
-      - name: Payload budget (gate)
-        run: npm run validate:payload
-
       # Activate marked canonical references only with a valid configured ref.
       # Missing ref keeps neutral links; invalid ref fails. No source placeholders.
       - name: Stamp affiliate ref into build output
@@ -143,6 +128,12 @@ jobs:
         env:
           AFFILIATE_REF: ${{ secrets.AFFILIATE_REF }}
         run: python3 scripts/apply_affiliate_ref.py
+
+      # Budget the final emitted bytes, after Forward, discovery export, and referral
+      # resolution have added their artifacts, URLs, disclosures, and media loader.
+      # Keep the committed ceilings; raising them requires a separate justified change.
+      - name: Payload budget (gate)
+        run: npm run validate:payload
 
       # Every displayed placeholder fails, with or without a configured ref.
       - name: Systems payload gate (dead highlights + dead affiliate links)
