@@ -162,7 +162,7 @@
         "title": "The Complete Butterfly Guard by Marcelo Garcia",
         "kind": "official_listing",
         "checked_on": "2026-09-16",
-        "note": "Verified posture/control, sweeping, distance, standing-opponent and pressure sections in four volumes. Listing inspected; course video content not reviewed."
+        "note": "Verified posture/control, sweeping, distance, standing-opponent and pressure sections in four volumes. Listing and official sample iframe inspected; player content and playback not reviewed."
       },
       {
         "id": "garcia-xguard-listing",
@@ -172,7 +172,17 @@
         "checked_on": "2026-09-16",
         "note": "Verified butterfly/shin-to-shin entries, sleeve/collar examples, stand-up finishes and pummel/backstep counters. Listing inspected; course video content not reviewed."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "youtube",
+      "embed_url": "https://www.youtube.com/embed/C5zVTEbR5PQ?autoplay=0",
+      "source_id": "garcia-butterfly-listing",
+      "title": "Official sample — Marcelo Garcia / Shoulder Clamp Sweep",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
   },
   "products": [
     {

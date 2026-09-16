@@ -114,7 +114,7 @@
         "title": "The guard Retention Anthology: Around and Under by Lachlan Giles & Ariel Tabak",
         "kind": "official_listing",
         "checked_on": "2026-09-16",
-        "note": "Verified both instructors and parts devoted to around-the-legs, north-south and under-the-legs retention; scope follows title and detailed outline. Listing inspected; course video content not reviewed."
+        "note": "Verified both instructors and parts devoted to around-the-legs, north-south and under-the-legs retention; scope follows title and detailed outline. Listing and official sample iframe inspected; player content and playback not reviewed."
       },
       {
         "id": "giles-kguard-listing",
@@ -124,7 +124,17 @@
         "checked_on": "2026-09-16",
         "note": "Verified eight player volumes within this titled release, positional overview, posture-specific entries, offense and troubleshooting. Only unambiguous timestamps used. Listing inspected; course video content not reviewed."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/b81f75fb-7594-4cfa-ab47-e7790033ae50?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "source_id": "giles-tabak-retention-listing",
+      "title": "Official sample — Lachlan Giles & Ariel Tabak / When To Sit Up Escape",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
   },
   "products": [
     {

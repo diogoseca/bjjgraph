@@ -104,7 +104,7 @@
         "title": "No Gi Open Guard Volume 1: K Guard by Lachlan Giles",
         "kind": "official_listing",
         "checked_on": "2026-09-16",
-        "note": "Verified eight player volumes within this titled release, positional overview, posture-specific entries, offense and troubleshooting. Only unambiguous timestamps used. Listing inspected; course video content not reviewed."
+        "note": "Verified eight player volumes within this titled release, positional overview, posture-specific entries, offense and troubleshooting. Only unambiguous timestamps used. Listing and official sample iframe inspected; player content and playback not reviewed."
       },
       {
         "id": "giles-tabak-retention-listing",
@@ -114,7 +114,17 @@
         "checked_on": "2026-09-16",
         "note": "Verified both instructors and parts devoted to around-the-legs, north-south and under-the-legs retention; scope follows title and detailed outline. Listing inspected; course video content not reviewed."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/1728a3b4-d8cb-4dc8-ba46-c79213329baa?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "source_id": "giles-kguard-listing",
+      "title": "Official sample — Lachlan Giles / No Gi Open Guard Volume 1: K Guard",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
   },
   "products": [
     {
