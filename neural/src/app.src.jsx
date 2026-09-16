@@ -3146,7 +3146,8 @@ class Component extends DCLogic {
       }
       this._conceptsById[c.id] = c;
     }
-    if (this.deckShown && this._viewMode === "explore") this._renderPaneBody(); // payload can land after the pane is up
+    // Hydrate Explore's concept list without rebuilding an open System and destroying its player.
+    if (this.deckShown && this._viewMode === "explore" && !this._systemId) this._renderPaneBody();
   }
   // member graph nodes, resolved once per concept against the ingested id index (systemNodeIdxs
   // is the same shape one payload over — a concept lights the techniques its author linked).

@@ -335,6 +335,55 @@ for (const provider of ["bunny", "youtube"] as const) {
   }
 }
 
+test("late Concepts hydration preserves the same System preview until navigation", async ({ page }) => {
+  const dossier = body();
+  dossier.guide.preview = { provider: "bunny",
+    embed_url: "https://iframe.mediadelivery.net/embed/123456/11111111-1111-1111-1111-111111111111?autoplay=false&preload=false",
+    source_id: "listing", title: "Official fixture sample", content_reviewed: false, playback_verified_on: [] };
+  const j = await bootFixtures(page, journey(page), catalog(), dossier);
+  // Synthetic player only; this fixture does not verify provider playback.
+  dossier.guide.preview.playback_verified_on = [new URL(page.url()).origin];
+  let release!: () => void;
+  const held = new Promise<void>(resolve => { release = resolve; });
+  let conceptsRequested = 0, playerRequests = 0;
+  await page.route("**/concepts.json", async route => {
+    conceptsRequested++;
+    await held;
+    await route.fulfill({ json: { concepts: [
+      { id: "Principles/Fixture-Frames", key: "Fixture Frames|Principle", name: "Frames reference", cat: "Principle", nodes: [] },
+    ] } });
+  });
+  await page.route("https://iframe.mediadelivery.net/**", route => {
+    playerRequests++;
+    return route.fulfill({ contentType: "text/html", body: "<p>Synthetic player fixture.</p>" });
+  });
+  try {
+    await openFirst(page);
+    await expect.poll(() => conceptsRequested).toBe(1);
+    await page.locator("[data-system-preview-load]").scrollIntoViewIfNeeded();
+    await j.clickByMouse("[data-system-preview-load]");
+    const player = page.locator("[data-system-player]");
+    await expect(player).toHaveCount(1);
+    await expect.poll(() => playerRequests).toBe(1);
+    const originalPlayer = (await player.elementHandle())!;
+    release();
+    await expect.poll(() => page.evaluate(() => !!(window as any).__neural._conceptsById?.["Principles/Fixture-Frames"])).toBe(true);
+    await expect(page.locator('[data-system-detail="Systems/Fixture-Octopus"]')).toBeVisible();
+    expect((await referenceState(page)).system).toBe("Systems/Fixture-Octopus");
+    await expect(player).toHaveCount(1);
+    expect(await originalPlayer.evaluate(el => el.isConnected && el === (window as any).__neural._systemPlayer)).toBe(true);
+    expect(playerRequests).toBe(1);
+    // The newly hydrated concept remains navigable, and leaving the System removes its player.
+    const principle = '[data-system-reference="Principles/Fixture-Frames"]';
+    await page.locator(principle).scrollIntoViewIfNeeded();
+    await j.clickByMouse(principle);
+    await expect(page.locator('[data-concept-detail="Principles/Fixture-Frames"]')).toBeVisible();
+    await expect(player).toHaveCount(0);
+    expect(await originalPlayer.evaluate(el => el.isConnected)).toBe(false);
+    expect(await page.evaluate(() => (window as any).__neural._systemPlayer)).toBeNull();
+  } finally { release(); }
+});
+
 for (const rejected of ["host", "provider", "origin"]) {
   test(`preview rejects wrong ${rejected} while retaining the official fallback`, async ({ page }) => {
     const dossier = body(); dossier.guide.preview = { provider: rejected === "provider" ? "arbitrary" : "bunny",
