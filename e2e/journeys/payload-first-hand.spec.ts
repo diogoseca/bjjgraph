@@ -206,6 +206,13 @@ test("@curated a first-time visitor reaches a playable hand inside the payload b
   expect(snapshotMethods, "the availability probe must not download the custom 404 page").toEqual(["HEAD"])
   expect(realNotFound, "no request on the boot path may 404").toEqual([])
 
+  // Deferred classification is a behavior, not a budget exclusion. Even a small index that
+  // fits under the byte ceiling must wait until the player opens Explore/search.
+  expect(
+    [...requested].filter((u) => /\/aliases\.json(?:\?|$)/.test(u)).map(path),
+    "the alias index is never requested before the first playable hand",
+  ).toEqual([])
+
   expect(banned, "a monolith payload is back on the boot path").toEqual([])
   expect(raw, `raw bytes to first hand (heaviest: ${heaviest})`).toBeLessThanOrEqual(
     budget.first_hand_raw_bytes,

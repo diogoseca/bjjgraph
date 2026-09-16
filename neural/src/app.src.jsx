@@ -660,6 +660,7 @@ class Component extends DCLogic {
     // keyboard: "/" or Cmd/Ctrl+K focuses search in the explorer
     this._onKey = (e) => {
       const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA");
+      if (e.key !== "Escape" && this._readKey(e)) return;
       if (((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
         e.preventDefault();
         this.openPane("explore");
@@ -1802,16 +1803,15 @@ class Component extends DCLogic {
   splitName(t) {
     const m = (t || "").match(/^(.*?)\s+[Ff]rom\s+(.+)$/);
     return m ? { main: m[1].trim(), from: "from " + m[2].trim() } : { main: t || "", from: "" };  }
-  /** The dim qualifier printed beside a node's name on DOM surfaces: a technique's "from <origin>"
-   *  tail, or — the same slot, same styling — a position's first authored alias as "aka Scarf
-   *  Hold" (v1.171.0). `aka` is emitted by regenerate_neural_data.py from `aliases[0]` and only
-   *  on positions, so the two never compete for the slot. Never on the canvas: the label paths
-   *  are width-bound (halfW, _fitText) and answer "what is this" with `graphName` alone. Never in
-   *  `t`: `posFamily(n.t)` keys deck joins and the list layer prints the FULL authored name. */
+  /** DOM qualifier: origin first, own alias second, explicitly scoped family alias third.
+   *  The wire's scalar aka remains a cold-cache fallback. Deferred aliases never alter titles,
+   *  roles or gameplay, and never enter the width-bound canvas labels. */
   nodeQual(n) {
     const sp = this.splitName(n.t);
     if (sp.from) return sp.from;
-    if (n.aka) return "aka " + n.aka;
+    const meta = n.aliasMeta, own = meta && meta.aka[0] || n.aka;
+    if (own) return "aka " + own;
+    if (meta && meta.family && meta.family.aka.length) return meta.family.name + " family: " + meta.family.aka[0];
     // LAST RESORT (v1.171.0): a bare name another node also wears. Only the KIND tells them
     // apart — "Mounted Triangle (position)" vs "Mounted Triangle (transition)" — and a
     // parenthetical is the disambiguation idiom a reader already knows. `_bareDup` is counted at
@@ -1819,9 +1819,12 @@ class Component extends DCLogic {
     if (this._bareDup && (this._bareDup.get(this.graphName(n)) || 0) > 1) return "(" + this.deckCat(n).toLowerCase() + ")";
     return "";
   }
-  /** Search hit test for a node: its title, or its alias — so "scarf hold" finds Kesa Gatame. */
+  _foldSearch(s) { return String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim(); }
+  /** Pure search: folding is cached per query and node, then invalidated when aliases arrive. */
   nodeMatches(n, q) {
-    return n.t.toLowerCase().includes(q) || !!(n.aka && n.aka.toLowerCase().includes(q));
+    if (this._aliasQuery !== q) { this._aliasQuery = q; this._aliasQueryFold = this._foldSearch(q); }
+    if (!n._searchNames) n._searchNames = [n.t, n.aka || "", ...(n.aliases || [])].filter(Boolean).map((s) => this._foldSearch(s));
+    return n._searchNames.some((s) => s.includes(this._aliasQueryFold));
   }
   /** The shortest name that is still unambiguous: "Triangle from Back" when "Triangle" is shared
    *  by more than one node, plain "Gogoplata" when it is not. Compact surfaces only — the share
@@ -1941,34 +1944,15 @@ class Component extends DCLogic {
     return parts.map((x, i) => '<p style="margin:' + (i ? "10px 0 0" : "0") + ';' + (style || "") + '">' + x + '</p>').join("");
   }
   detailHTML(n, cat, neighbors, persp) {
-    const rc = this.richContentFor(n);
-    if (rc) return this.richDetailHTML(n, cat, rc, persp || "attacker");
-    // positions are keyed "<fam>|<Role>" (deckKeyFor); techniques are keyed bare "<name>" in
-    // NG_CONTENT, so fall back on the full title, not the "<name>|Attacker" deck key.
-    const c = this._ngc(n.ty === "positions" ? this.deckKeyFor(n).key : n.t);
-    this._curClips = null;
-    const sec = (label) => '<div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;margin:16px 0 9px;">' + label + '</div>';
-    const lead = (t) => '<div style="font-size:13.5px;color:#c2ccde;line-height:1.6;">' + this.proseHTML(t) + '</div>';
-    const li = (t) => '<div style="display:flex;gap:9px;margin-bottom:7px;"><span style="color:#7e9bff;flex:none;">\u2014</span><span style="font-size:13px;color:#cdd5e6;line-height:1.5;">' + t + '</span></div>';
-    if (!c) {
-      return lead("A " + cat.toLowerCase() + " from your current position" + (neighbors.length ? ", connecting toward <b style=\"color:#dbe2f0;\">" + neighbors.map((x) => this.splitName(x).main).join("</b>, <b style=\"color:#dbe2f0;\">") + "</b>" : "") + ".") +
-        '<div style="margin-top:12px;font-size:12px;color:#7e8aa3;">Full breakdown — definition, key principles, decision tree, common mistakes — is authored on bjjgraph.org. Drill its deck to raise your odds.</div>';
+    const info = this.ngContentFor(n);
+    if (!info) {
+      this._curClips = null;
+      const key = n.ty === "positions" ? this.deckKeyFor(n).key : n.t;
+      const settled = Object.prototype.hasOwnProperty.call((window.NG_CONTENT && window.NG_CONTENT.decks) || {}, key);
+      return '<p data-sheet-content-status role="status" style="font-size:13px;color:#aeb9d4;">' +
+        (settled ? 'This breakdown is unavailable.' : 'Loading this breakdown…') + '</p>';
     }
-    let h = lead(c.def);
-    this._curClips = c.clips || null; h += this.filmStudyHTML(c.clips);
-    if (c.steps) { h += sec(cat === "Submission" ? "Finish mechanics" : "How to execute"); c.steps.forEach((s, i) => h += '<div style="display:flex;gap:10px;margin-bottom:7px;"><span style="flex:none;width:18px;height:18px;border-radius:50%;background:rgba(74,108,255,.25);color:#bcd0ff;font-size:10.5px;font-weight:700;display:flex;align-items:center;justify-content:center;">' + (i + 1) + '</span><span style="font-size:13px;color:#cdd5e6;line-height:1.5;">' + s + '</span></div>'); }
-    if (c.principles) { h += sec(cat === "Position" ? "Key principles" : "Details that matter"); c.principles.forEach((p) => h += li(p)); }
-    if (c.decisionTree) { h += sec("Decision tree"); c.decisionTree.forEach((d) => { h += '<div style="font-size:12.5px;font-weight:600;color:#dbe2f0;margin:9px 0 5px;">If ' + d.cond + ':</div>'; d.acts.forEach((a) => h += '<div style="display:flex;align-items:center;gap:8px;margin:0 0 4px 10px;"><span style="font-size:12.5px;color:#cdd5e6;flex:1;">' + a[0] + ' <span style="color:#7e8aa3;">\u2192 ' + a[2] + '</span></span><span style="font-size:11.5px;font-weight:700;color:#7ee0a8;">' + a[1] + '%</span></div>'); }); }
-    if (c.mistakes) { h += sec("Common mistakes"); c.mistakes.forEach((m) => h += '<div style="margin-bottom:10px;"><div style="font-size:12.5px;color:#e8956b;line-height:1.45;">\u2717 ' + m.err + '</div><div style="font-size:12.5px;color:#7ee0a8;line-height:1.45;margin-top:2px;">\u2713 ' + m.fix + '</div></div>'); }
-    if (c.counters) { h += sec("If it stalls"); c.counters.forEach((x) => h += li(x)); }
-    if (c.metrics) { h += sec("Numbers"); h += '<div style="display:flex;gap:10px;flex-wrap:wrap;">'; Object.keys(c.metrics).forEach((k) => h += '<div style="flex:1;min-width:90px;background:rgba(255,255,255,.04);border:1px solid rgba(150,170,210,.14);border-radius:9px;padding:9px 11px;"><div style="font-size:15px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;">' + c.metrics[k] + '</div><div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#7e8aa3;font-weight:600;margin-top:2px;">' + k + '</div></div>'); h += '</div>'; }
-    if (c.related && c.related.length) {
-      h += sec("Related positions");
-      h += '<div style="display:flex;flex-wrap:wrap;gap:7px;">';
-      c.related.forEach((t) => h += '<span style="font-size:11.5px;color:#aeb9d4;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.14);border-radius:999px;padding:4px 11px;">' + t + '</span>');
-      h += '</div>';
-    }
-    return h;
+    return this.richDetailHTML(n, cat, info, persp || "attacker");
   }
   /** Cheap near-duplicate test: does `b` already say what `a` says? Compares a normalised
    *  middle slice, which is what a shared body of paragraphs has in common even when the two
@@ -1982,73 +1966,12 @@ class Component extends DCLogic {
     return probe.length >= 120 && A.indexOf(probe) >= 0;
   }
   richDetailHTML(n, cat, rc, persp) {
-    const sec = (label, col) => '<div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:' + (col || "#7b8aa8") + ';font-weight:700;margin:18px 0 9px;">' + label + '</div>';
-    const lead = (t) => '<div style="font-size:13.5px;color:#c2ccde;line-height:1.6;">' + this.proseHTML(t) + '</div>';
-    const li = (t, dash) => '<div style="display:flex;gap:9px;margin-bottom:7px;"><span style="color:' + (dash || "#7e9bff") + ';flex:none;">\u2014</span><span style="font-size:13px;color:#cdd5e6;line-height:1.5;">' + t + '</span></div>';
-    const steps = (arr) => { let s = ""; arr.forEach((t, i) => s += '<div style="display:flex;gap:10px;margin-bottom:7px;"><span style="flex:none;width:18px;height:18px;border-radius:50%;background:rgba(74,108,255,.25);color:#bcd0ff;font-size:10.5px;font-weight:700;display:flex;align-items:center;justify-content:center;">' + (i + 1) + '</span><span style="font-size:13px;color:#cdd5e6;line-height:1.5;">' + t + '</span></div>'); return s; };
-    const mistakes = (arr) => { let s = ""; arr.forEach((m) => s += '<div style="margin-bottom:10px;"><div style="font-size:12.5px;color:#e8956b;line-height:1.45;">\u2717 ' + m.err + '</div><div style="font-size:12.5px;color:#7ee0a8;line-height:1.45;margin-top:2px;">\u2713 ' + m.fix + '</div></div>'); return s; };
-
-    let h = "";
-    const P = rc.perspectives || {};
-    const blk = P[persp];
-    const isDef = persp === "defender";
-    const clips = (blk && blk.clips) || rc.clips || null;
-    this._curClips = isDef && (!blk || !blk.authored) ? null : clips;
-
-    if (isDef && (!blk || !blk.authored)) {
-      // N=1: do NOT clone the attacker view or fabricate a defender breakdown for unauthored moves.
-      h += lead("The defender's breakdown for this transition isn't authored here yet.");
-      h += '<div style="margin-top:13px;padding:14px 15px;background:rgba(232,149,107,.08);border:1px solid rgba(232,149,107,.2);border-radius:11px;">' +
-        '<div style="font-size:12.5px;color:#e8b89c;line-height:1.5;">We hand-author each defender perspective rather than auto-generating one from the attack &mdash; a real defense is its own technique, not a mirror of the attack. The full escape tree, recognition cues and counters for <b style="color:#f0d2bf;">' + this.splitName(n.t).main + '</b> live on bjjgraph.org.</div>' +
-        '<a href="https://bjjgraph.org" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;margin-top:10px;font-size:12px;font-weight:700;color:#e8956b;text-decoration:none;">Open the full breakdown on bjjgraph.org \u2192</a>' +
-        '</div>';
-      return h;
-    }
-
-    // ----- chosen perspective -----
-    if (blk) {
-      if (blk.summary) h += lead(blk.summary);
-      h += this.filmStudyHTML(this._curClips);
-      if (blk.recognition) { h += sec("Recognise it", "#cbd24e"); blk.recognition.forEach((t) => h += li(t, "#cbd24e")); }
-      if (blk.prerequisites) { h += sec("Before you start"); blk.prerequisites.forEach((t) => h += li(t)); }
-      if (blk.steps) { h += sec("How to execute"); h += steps(blk.steps); }
-      if (blk.principles) { h += sec("Key principles"); blk.principles.forEach((t) => h += li(t)); }
-      if (blk.options) {
-        h += sec("Your options", "#7ee0a8");
-        blk.options.forEach((o) => h += '<div style="margin-bottom:9px;padding:10px 12px;background:rgba(255,255,255,.035);border:1px solid rgba(150,170,210,.12);border-radius:10px;">' +
-          '<div style="display:flex;align-items:baseline;justify-content:space-between;gap:8px;"><span style="font-size:13px;font-weight:700;color:#dbe2f0;">' + o.move + '</span><span style="flex:none;font-size:10.5px;color:#8b97b0;">' + o.when + '</span></div>' +
-          '<div style="font-size:12px;color:#9fb0d0;margin-top:4px;"><span style="color:#7ee0a8;">\u2192</span> ' + o.leadsTo + '</div></div>');
-      }
-      if (blk.bestOutcomes) { h += sec("Best you can hope for"); blk.bestOutcomes.forEach((t) => h += li(t, "#7ee0a8")); }
-      if (blk.counters) { h += sec("If they resist"); blk.counters.forEach((t) => h += li(t)); }
-      if (blk.mistakes) { h += sec("Common mistakes"); h += mistakes(blk.mistakes); }
-    }
-
-    // ----- common: where it leads -----
-    if (rc.outcomes && rc.outcomes.length) {
-      h += sec("Where it leads");
-      rc.outcomes.forEach((o) => {
-        const tc = o.tone === "good" ? "#7ee0a8" : o.tone === "bad" ? "#e8956b" : "#cbd24e";
-        h += '<div style="display:flex;align-items:center;gap:10px;margin-bottom:7px;">' +
-          '<div style="flex:none;width:42px;font-size:14px;font-weight:700;color:' + tc + ';font-family:\'Space Grotesk\',sans-serif;">' + o.prob + '%</div>' +
-          '<div style="flex:1;min-width:0;"><span style="font-size:13px;color:#dbe2f0;font-weight:600;">' + o.result + '</span>' + (o.position ? '<span style="font-size:11.5px;color:#8b97b0;"> \u00b7 ' + o.position + '</span>' : '') + '</div></div>';
-      });
-    }
-    if (rc.variations && rc.variations.length) { h += sec("Variations"); rc.variations.forEach((t) => h += li(t, "#9b8cff")); }
-    if (rc.related && rc.related.length) {
-      h += sec("Related");
-      h += '<div style="display:flex;flex-wrap:wrap;gap:7px;">';
-      rc.related.forEach((t) => h += '<span style="font-size:11.5px;color:#aeb9d4;background:rgba(255,255,255,.05);border:1px solid rgba(150,170,210,.14);border-radius:999px;padding:4px 11px;">' + t + '</span>');
-      h += '</div>';
-    }
-    // SEO / AEO / GEO context — indexable prose. NOT when it merely repeats the summary already
-    // at the top of this sheet: measured, 205 of 997 entries (21%) carry a `context` that is >80%
-    // the same text, and for the reported case (Triangle from Back) it was 92.2% similar with a
-    // 1,534-character identical run — the same three paragraphs, twice, top and bottom. The
-    // static page keeps its copy either way; this is the app surface.
-    if (rc.context && !this._echoesSummary(rc.context, blk && blk.summary))
-      h += '<div style="margin-top:20px;padding-top:14px;border-top:1px solid rgba(150,170,210,.1);font-size:12px;color:#8b97b0;line-height:1.6;">' + this.proseHTML(rc.context) + '</div>';
-    return h;
+    const blk = (rc.perspectives || {})[persp];
+    this._curClips = persp === "defender" && (!blk || !blk.authored) ? null : ((blk && blk.clips) || rc.clips || null);
+    const sections = this._readingSections(n, rc, persp, true);
+    // The submission notice stays first, including when the sheet has a film reel.
+    const notice = sections[0] && sections[0].key === "safety-notice" ? [sections.shift()] : [];
+    return this._readingHTML(notice, "sheet") + this.filmStudyHTML(this._curClips) + this._readingHTML(sections.filter((s) => s.key !== "aka"), "sheet");
   }
   fmtDur(s) { s = Math.max(0, Math.round(s)); return Math.floor(s / 60) + ":" + String(s % 60).padStart(2, "0"); }
   /**
@@ -3104,6 +3027,61 @@ class Component extends DCLogic {
       this.onFlashcardsReady();
     }, 0);
   }
+  // Aliases are requested only by a visible Explore/search surface. One bounded request chain
+  // is shared by both; a failed chain needs explicit Retry, never a render-driven fetch loop.
+  _ensureAliases() {
+    if (this._aliasesWait) return this._aliasesWait;
+    if (this._aliasesFailed) return Promise.resolve(false);
+    this._aliasesWait = (async () => {
+      for (let attempt = 0; attempt < 3; attempt++) {
+        try {
+          const r = await fetch(this._dataBase() + "aliases.json?v=" + (typeof NG_APP_VERSION === "undefined" ? "dev" : NG_APP_VERSION));
+          if (!r.ok) throw new Error("aliases HTTP " + r.status);
+          const data = await r.json(), rows = Object.entries(data || {});
+          const strings = (xs) => Array.isArray(xs) && xs.every((s) => typeof s === "string" && s.trim());
+          if (Array.isArray(data) || !rows.length || !rows.every(([, m]) => m && strings(m.aka) &&
+            (!m.family || (typeof m.family.name === "string" && m.family.name.trim() && strings(m.family.aka))))) throw new Error("aliases shape");
+          for (const [id, meta] of rows) {
+            const idx = this._idIndex.get(id), n = this.nodes[idx];
+            if (!n) continue; // a cached graph may predate a newly authored site
+            const aliases = [...meta.aka, ...(meta.family ? meta.family.aka : [])];
+            for (const member of [n, this.nodes[n.pi]]) if (member) {
+              member.aliasMeta = meta; member.aliases = aliases; member._searchNames = null;
+            }
+          }
+          this._aliasesReady = true;
+          return true;
+        } catch (e) { /* malformed bodies and transient transport failures share the bound */ }
+      }
+      this._aliasesFailed = true;
+      this._aliasesWait = null;
+      return false;
+    })().then((ok) => {
+      const readers = [...(this._aliasReaders || new Map()).values()];
+      if (this._aliasReaders) this._aliasReaders.clear();
+      for (const refresh of readers) refresh();
+      return ok;
+    });
+    return this._aliasesWait;
+  }
+  _aliasStatus(host, refresh, active) {
+    if (this._aliasesReady) return;
+    const note = document.createElement("div");
+    note.setAttribute("data-alias-status", this._aliasesFailed ? "error" : "loading");
+    note.setAttribute("role", "status");
+    note.style.cssText = "padding:8px 12px;color:#9aa6bd;font-size:12px;";
+    note.textContent = this._aliasesFailed ? "Alias search unavailable. Names still work. " : "Loading aliases…";
+    host.appendChild(note);
+    if (!this._aliasReaders) this._aliasReaders = new Map();
+    this._aliasReaders.set(host, () => { if (note.isConnected && active()) refresh(); });
+    if (this._aliasesFailed) {
+      const retry = document.createElement("button");
+      retry.type = "button"; retry.textContent = "Retry"; retry.setAttribute("data-alias-retry", "");
+      retry.style.cssText = "font:inherit;color:inherit;background:none;border:0;text-decoration:underline;cursor:pointer;";
+      retry.addEventListener("click", () => { this._aliasesFailed = false; refresh(); });
+      note.appendChild(retry);
+    } else this._ensureAliases();
+  }
   // ── deferred Systems payload (324KB, read only by Explore + the system buckets) ──
   _ensureSystems() {
     if (this._systemsWait) return this._systemsWait;
@@ -3444,12 +3422,55 @@ class Component extends DCLogic {
       this._refreshChallengeEvidence();
     } catch (e) { /* non-fatal */ }
   }
-  onContentReady() {
+  onContentReady(keys) {
+    if (this.__ngDestroyed) return;
+    const changed = keys == null ? null : (Array.isArray(keys) ? keys : [keys]);
     try {
-      if (this._nodeCardOn) { this._nodeCardIdx = null; this.updateNodeCard(this.W / this.cam.vw); }
-      else if (this._dossierIdx != null && this.isMobile() && this.nodes) this.renderDossier(this.nodes[this._dossierIdx]);
-      this._landBackfill(); // definition + film for the state the player is standing on
+      const node = this.nodes && this.nodes[this._nodeCardIdx];
+      const key = node && (node.ty === "positions" ? this.deckKeyFor(node).key : node.t);
+      if (this._nodeCardOn && (!changed || changed.includes(key))) { this._nodeCardIdx = null; this.updateNodeCard(this.W / this.cam.vw); }
+      this._refreshReadingContent(changed);
+      const ctx = this._detailCtx;
+      if (ctx && ctx.refreshContent && (!changed || changed.includes(ctx.contentKey))) ctx.refreshContent();
     } catch (e) { /* non-fatal */ }
+  }
+  /** Content completion is not a new question. Keep the scored DOM and all gameplay clocks
+   * intact, and touch only the reader whose current owner requested this key. */
+  _refreshReadingContent(keys) {
+    const owner = this._landReadOwner;
+    if (owner && owner.card === this._landEl && this._layerOn("card") && (!keys || keys.includes(owner.key))) {
+      const sections = this._landMoreSections(owner.node, owner.side);
+      let row = this._landMoreEl;
+      if (!sections.length) {
+        if (row) { if (this._landOpen) this.expandLandCard(false); this._clearLandMore(); }
+      } else if (!row) {
+        this._renderLandMore(owner.node, owner.side);
+      } else {
+        const body = row.lastChild, focused = body.contains(document.activeElement);
+        const offset = this._readS || 0;
+        const anchor = Array.from(body.children).find((el) => el.getBoundingClientRect().bottom > 0);
+        const marker = anchor && Array.from(anchor.attributes).find((a) => a.name.startsWith("data-land-"));
+        const top = anchor && anchor.getBoundingClientRect().top;
+        body._ngMoreSections = sections;
+        // A collapsed body is invalidated without doing the long render nobody asked for.
+        body.innerHTML = this._landOpen ? this._readingHTML(sections, "land") : "";
+        this._dockLandMore(owner.card);
+        if (this._landOpen) {
+          this._readApply(offset);
+          const next = marker && body.querySelector("[" + marker.name + "]");
+          if (next) this._readApply(offset + next.getBoundingClientRect().top - top);
+          if (focused) body.focus({ preventScroll: true });
+        }
+      }
+      if (this._landEl) this._dockLandCard(this._landEl);
+    }
+    // A hidden card can still own a visible film; never fetch for two hidden layers.
+    const n = this.nodes && this.nodes[this._landIdx];
+    const key = n && (n.ty === "positions" ? this.deckKeyFor(n).key : n.t);
+    if (n && this._layerOn("film") && (!keys || keys.includes(key)) && !this._landFilmEl && this._landMode !== "defense") {
+      const clips = this._landFilmClips(n);
+      if (clips) { this._renderLandFilm(clips); this._dockLandFilm(); }
+    }
   }
   // guarded PostHog capture (the page loads posthog globally; token absent on localhost) — no PII
   track(event, props) {
@@ -4565,6 +4586,7 @@ class Component extends DCLogic {
       '</div>' +
       '<div style="font-size:27px;font-weight:700;color:#eef1f6;letter-spacing:-.015em;line-height:1.05;font-family:\'Space Grotesk\',sans-serif;">' + sp.main + '</div>' +
       (sp.from ? '<div style="font-size:14px;color:#8b97b0;margin-top:3px;">' + sp.from + '</div>' : '') +
+      '<div data-sheet-alias-slot style="margin-top:8px;"></div>' +
       drillNote +
       // the card's own bottom row, at sheet scale: caption left, the number right
       '<div style="margin-top:12px;padding-top:10px;border-top:1px solid rgba(150,170,210,.12);display:flex;align-items:center;justify-content:space-between;gap:10px;">' +
@@ -4678,7 +4700,13 @@ class Component extends DCLogic {
     }
     const body = document.createElement("div");
     body.style.cssText = "padding:18px 26px 48px;";
-    const renderBody = () => { this.clearClipLoops(); body.innerHTML = this.detailHTML(n, cat, neighbors, this._perspective); this.wireClips(body, this._curClips); };
+    const renderBody = () => {
+      this.clearClipLoops();
+      body.innerHTML = this.detailHTML(n, cat, neighbors, this._perspective);
+      this.wireClips(body, this._curClips);
+      const aliases = this._readingAliases(n, this.ngContentFor(n) || {});
+      head.querySelector("[data-sheet-alias-slot]").innerHTML = aliases.length ? this._readingHTML([{ key: "aka", kind: "aliases", value: aliases }], "sheet") : "";
+    };
     renderBody();
     scroller.appendChild(body);
     // film-first: auto-open the first Short (muted) once the sheet settles — the film row is
@@ -4734,19 +4762,31 @@ class Component extends DCLogic {
     }
     // wired AFTER the actions row is in the footer — these two controls moved there in
     // v1.102.1 and a query against `head` would now find nothing at all
-    foot.querySelectorAll(".ng-pt").forEach((b) => b.addEventListener("click", (e) => {
+    foot.addEventListener("click", (e) => {
+      const b = e.target.closest(".ng-pt"); if (!b) return;
       e.stopPropagation();
       const p = b.getAttribute("data-p"); if (p === this._perspective) return;
       this._perspective = p;
       foot.querySelectorAll(".ng-pt").forEach((x) => { const on = x.getAttribute("data-p") === p; x.style.background = on ? "rgba(255,255,255,.92)" : "transparent"; x.style.color = on ? "#10131c" : "#aeb9d4"; });
       renderBody();
-    }));
+    });
     { const pf = foot.querySelector(".ng-playfrom"); if (pf) { pf.addEventListener("mouseenter", () => pf.style.background = "rgba(74,108,255,.22)"); pf.addEventListener("mouseleave", () => pf.style.background = "rgba(74,108,255,.12)"); pf.addEventListener("click", (e) => { e.stopPropagation(); this.confirmPlayFrom(n); }); } }
     foot.appendChild(back); foot.appendChild(go);
     panel.appendChild(foot);
     // beat beacon hands into the sheet: the drill first (odds are pumpable) — else straight to Execute
     { const jitEl = panel.querySelector("[data-jit]"); this.setBeacon(jitEl ? "jit" : "execute", jitEl || go); }
-    this._setDetailCtx({ opt: opt, onPick: onPick });   // ...and the card behind it stands down (see _syncDetailDim)
+    const detailOwner = { opt, onPick, contentKey: n.ty === "positions" ? this.deckKeyFor(n).key : n.t };
+    detailOwner.refreshContent = () => {
+      if (this.__ngDestroyed || this._detailCtx !== detailOwner || !body.isConnected) return;
+      const scroll = scroller.scrollTop;
+      renderBody();
+      if (this.richContentFor(n) && !foot.querySelector(".ng-persp")) {
+        const actions = foot.querySelector(".ng-playfrom");
+        if (actions) actions.insertAdjacentHTML("beforebegin", '<div class="ng-persp" style="display:inline-flex;border:1px solid rgba(150,170,210,.16);border-radius:999px;padding:3px;">' + ptBtn("attacker", "Attacker") + ptBtn("defender", "Defend") + '</div>');
+      }
+      scroller.scrollTop = scroll;
+    };
+    this._setDetailCtx(detailOwner);   // the refresh belongs to this exact sheet, never its replacement
 
     // expand / collapse the sheet (compact peek -> full)
     this._optExpanded = false;
@@ -7076,6 +7116,15 @@ class Component extends DCLogic {
       this.renderConceptDetail(list, this._conceptId, mk);
       return;
     }
+    const aliasActive = () => this.deckShown && this._viewMode === "explore" && !this._paneStudyActive();
+    if (aliasActive()) this._aliasStatus(list, () => {
+      const scroll = list.scrollTop, edit = list.querySelector("[data-list-rename]");
+      const caret = edit === document.activeElement && edit ? [edit.selectionStart, edit.selectionEnd] : null;
+      this.renderExplorer();
+      list.scrollTop = scroll;
+      const next = caret && list.querySelector("[data-list-rename]");
+      if (next) { next.focus({ preventScroll: true }); next.setSelectionRange(...caret); }
+    }, aliasActive);
     // A list selection SURVIVES the reset below (Systems does the same via _systemId, but from
     // its own detail view). Without this, every Explore re-render — including one keystroke in
     // the search box — would drop the highlight a shared link just lit.
@@ -7121,11 +7170,11 @@ class Component extends DCLogic {
       // so there is no link-delivered and no stored vector. `hl(text, q)` is not a second sink:
       // it slices the trusted title and uses q only for indexOf/length.
       // Pinned by e2e/journeys/explore-search-escape.spec.ts (drop this call and it goes red).
-      if (!matches.length) { list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + this.escHTML(q) + '\u201d</span>', 12)); return; }
+      if (!matches.length) { if (this._aliasesReady) list.appendChild(mk('<span style="font-size:12.5px;color:#7e8aa3;padding:8px 0;">No techniques match \u201c' + this.escHTML(q) + '\u201d</span>', 12)); return; }
       list.appendChild(mk('<span style="font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#7b8aa8;font-weight:700;">' + matches.length + ' result' + (matches.length === 1 ? "" : "s") + '</span>', 12));
       for (const n of matches) {
         const cat = ({ positions: "Pos", transitions: "Trans", submissions: "Sub" })[n.ty];
-        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.nodeQual(n) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx));
+        const hit = mk(this.nodeGlyph(n.ty, this.hex(n.col), 9) + '<span style="font-size:13px;color:#dbe2f0;">' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span><span style="margin-left:auto;font-size:10px;color:#7e8aa3;">' + cat + '</span>', 12, () => this.openDossier(n.idx));
         list.appendChild(this._withListAdd(hit, n, "explore"));
       }
       return;
@@ -7246,10 +7295,12 @@ class Component extends DCLogic {
           // glyph at all, so a technique inside a family fold was the one place in Explore that
           // did not say what it was. `nodeGlyph` is the same vocabulary `draw()` puts on the
           // canvas — circle = position, triangle = submission, diamond = transition (:9516-9518).
-          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.nodeQual(n) + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
+          if (fOpen) for (const n of nodes) list.appendChild(this._withListAdd(mk(this.nodeGlyph(n.ty, col, 7) + '<span style="font-size:12px;color:#9aa6bd;">' + this.graphName(n) + (this.nodeQual(n) ? ' <span style="color:#6b7691;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "") + '</span>', 38, () => this.openDossier(n.idx)), n, "explore"));
         } else {
-          const solo = this.nodes[this.famDossierNode(nodes)] || nodes[0];
-          list.appendChild(this._withListAdd(mk(this.nodeGlyph(nodes[0].ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + '</span>', 22, () => this.openDossier(this.famDossierNode(nodes))), solo, "explore"));
+          // A one-site family already identifies its representative. Probing role dossiers here
+          // used to fetch both seats for every visible singleton just to choose that same node.
+          const solo = nodes[0], qual = this.nodeQual(solo);
+          list.appendChild(this._withListAdd(mk(this.nodeGlyph(solo.ty, col, 8) + '<span style="font-size:13px;color:#c4cde0;">' + fam + (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + '</span>' : '') + '</span>', 22, () => this.openDossier(solo.idx)), solo, "explore"));
         }
       }
     };
@@ -9245,7 +9296,7 @@ class Component extends DCLogic {
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
             '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + this.graphName(n) +
-            (qual ? ' <span style="color:#6b7691;font-size:11px;">' + qual + "</span>" : "") + "</span>" +
+            (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + "</span>" : "") + "</span>" +
             (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
           22,
           () => this.openDossier(i),
@@ -9479,7 +9530,7 @@ class Component extends DCLogic {
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
             '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + this.graphName(n) +
-            (qual ? ' <span style="color:#6b7691;font-size:11px;">' + qual + "</span>" : "") + "</span>" +
+            (qual ? ' <span style="color:#6b7691;font-size:11px;">' + this.escHTML(qual) + "</span>" : "") + "</span>" +
             (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
           22,
           () => this.openDossier(i),
@@ -9543,19 +9594,6 @@ class Component extends DCLogic {
   }
   // ---------- dossier: the technique page, living in the left pane ----------
   isMobile() { return (this.W || window.innerWidth) <= 640; }
-  famDossierNode(nodes) {
-    // prefer the side the authored deck is written for (e.g. Closed Guard|Bottom -> the Bottom node)
-    const real = nodes.map((w) => this.nodes[w.idx]).filter(Boolean);
-    if (!real.length) return nodes[0].idx;
-    const fam = this.posFamily(real[0].t);
-    for (const side of ["Bottom", "Top"]) {
-      if (this._ngc(fam + "|" + side)) {
-        const m = real.find((n) => this.roleLabelOf(n) === side.toLowerCase());
-        if (m) return m.idx;
-      }
-    }
-    return real[0].idx;
-  }
   openDossier(idx, skipCam) {
     this._dropExpiryEvent(); // reading a node — the expiry sentence lets go (v1.138.0)
     const n = this.nodes && this.nodes[idx]; if (!n) return;
@@ -10407,6 +10445,7 @@ class Component extends DCLogic {
     top.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8b97b0" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4.3-4.3"></path></svg>';
     const inp = document.createElement("input");
     inp.placeholder = "Search positions, transitions, submissions\u2026"; inp.value = this._searchQ || "";
+    inp.setAttribute("data-search-input", "");
     inp.style.cssText = "flex:1;font-family:inherit;font-size:16px;color:#eef1f6;background:transparent;border:none;outline:none;";
     const x = document.createElement("span"); x.textContent = "\u00d7"; x.style.cssText = "cursor:pointer;color:#8b97b0;font-size:21px;";
     x.addEventListener("click", () => this.closeModal());
@@ -10414,6 +10453,7 @@ class Component extends DCLogic {
 
     const body = document.createElement("div"); body.style.cssText = "display:flex;height:min(560px,68vh);";
     const results = document.createElement("div"); results.style.cssText = "width:312px;border-right:1px solid rgba(150,170,210,.12);overflow-y:auto;padding:8px;flex:none;";
+    results.setAttribute("data-search-results", "");
     const detail = document.createElement("div"); detail.style.cssText = "flex:1;overflow-y:auto;padding:24px 28px;";
     body.appendChild(results); body.appendChild(detail); card.appendChild(body);
 
@@ -10425,7 +10465,7 @@ class Component extends DCLogic {
       const deckKey = this.deckKeyFor(n).key;
       const deck = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[deckKey] : null;
       let html = '<div style="font-size:26px;font-weight:700;color:#eef1f6;letter-spacing:-.01em;font-family:\'Space Grotesk\',sans-serif;">' + this.graphName(n) + '</div>';
-      if (this.nodeQual(n)) html += '<div style="font-size:14px;color:#8b97b0;margin-top:2px;">' + this.nodeQual(n) + '</div>';
+      if (this.nodeQual(n)) html += '<div style="font-size:14px;color:#8b97b0;margin-top:2px;">' + this.escHTML(this.nodeQual(n)) + '</div>';
       html += '<div style="display:inline-block;margin-top:11px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:#8094b4;border:1px solid rgba(150,170,210,.25);border-radius:6px;padding:4px 9px;">' + cat + '</div>';
       detail.innerHTML = html;
       const btns = document.createElement("div"); btns.style.cssText = "display:flex;gap:10px;margin:18px 0 6px;flex-wrap:wrap;";
@@ -10454,6 +10494,7 @@ class Component extends DCLogic {
     const renderResults = () => {
       const q = (this._searchQ || "").toLowerCase().trim();
       results.innerHTML = "";
+      this._aliasStatus(results, refreshAliases, searchActive);
       // FILTER TO `rep`, or every hit doubles. `_deriveDualPairs` gives both members of a pair the
       // hub's own title (`t: h.t`, :862), so a title match resolves to the site TWICE and the 100-cap
       // below then shows 50 sites. The Explore pane's search (:6015) has always filtered; this one
@@ -10470,15 +10511,22 @@ class Component extends DCLogic {
       for (const n of matches) {
         const r = document.createElement("div"); const active = n.idx === this._searchSel;
         r.style.cssText = "cursor:pointer;padding:10px 12px;border-radius:9px;margin-bottom:2px;font-size:13.5px;background:" + (active ? "rgba(74,108,255,.18)" : "transparent") + ";color:" + (active ? "#eef1f6" : "#aeb6c8") + ";";
-        r.innerHTML = '<span style="display:inline-flex;width:12px;justify-content:center;margin-right:8px;vertical-align:middle;">' + this.nodeGlyph(n.ty, this.hex(n.col), 9) + '</span>' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11.5px;">' + this.nodeQual(n) + '</span>' : "");
+        r.innerHTML = '<span style="display:inline-flex;width:12px;justify-content:center;margin-right:8px;vertical-align:middle;">' + this.nodeGlyph(n.ty, this.hex(n.col), 9) + '</span>' + this.hl(this.graphName(n), q) + (this.nodeQual(n) ? ' <span style="color:#6b7691;font-size:11.5px;">' + this.escHTML(this.nodeQual(n)) + '</span>' : "");
         r.addEventListener("click", () => { this._searchSel = n.idx; renderResults(); renderDetail(); });
         results.appendChild(r);
       }
-      if (!matches.length) results.innerHTML = '<div style="padding:16px;color:#7e8aa3;font-size:13px;">No matches.</div>';
+      if (!matches.length && this._aliasesReady) results.innerHTML = '<div style="padding:16px;color:#7e8aa3;font-size:13px;">No matches.</div>';
+    };
+    // Update the live result/detail closures, never rebuild the input or resurrect a closed modal.
+    const searchActive = () => inp.isConnected && this.modalRef.current.style.display !== "none";
+    const refreshAliases = () => {
+      const scroll = results.scrollTop, detailScroll = detail.scrollTop;
+      renderResults(); renderDetail();
+      results.scrollTop = scroll; detail.scrollTop = detailScroll;
     };
     inp.addEventListener("input", () => { this._searchQ = inp.value; this._searchSel = null; renderResults(); renderDetail(); });
     renderResults(); renderDetail();
-    setTimeout(() => { try { inp.focus(); } catch (e) {} }, 60);
+    setTimeout(() => { try { if (searchActive()) inp.focus(); } catch (e) {} }, 60);
   }
   locateNode2(idx) {
     // search "Locate" takes the same unified prezi path as explorer rows and canvas clicks
@@ -12309,11 +12357,11 @@ class Component extends DCLogic {
           fails[key] = (fails[key] || 0) + 1;
           // drop the wait, NOT the answer: the next ask refetches instead of resolving against a
           // failure. onContentReady still fires so a surface waiting on this can redraw.
-          if (fails[key] < NG_CHUNK_TRIES) { delete waits[key]; this.onContentReady(); return null; }
+          if (fails[key] < NG_CHUNK_TRIES) { delete waits[key]; this.onContentReady([key]); return null; }
         }
         // negative cache: a node with no authored dossier must not refetch on every hover
         if (!Object.prototype.hasOwnProperty.call(C.decks, key)) C.decks[key] = null;
-        this.onContentReady();
+        this.onContentReady(res.j ? Object.keys(res.j) : [key]);
         return C.decks[key];
       });
     waits[key] = p;
@@ -12336,6 +12384,7 @@ class Component extends DCLogic {
    *  `_landEl` as hidden), so the keys, the clock and the backfill all stay inert. More follows
    *  this layer: no question card means no orphan More pill or reading card. */
   _clearLandCardOnly() {
+    this._landReadOwner = null;
     this._landQ = null; this._landWarmP = null;   // no card, nothing outstanding (see landSettled)
     this._landClockEl = null; // the bar dies with the card; a still-armed window rebinds on rebuild
     // The truth for a destroyed surface must not linger: `this._mc` is what a keypress grades
@@ -12797,8 +12846,9 @@ class Component extends DCLogic {
       card = null;                                     // ask nothing until the pool is resident
       warmKind = "pool";                               // the card EXISTS — this is pending, not skipped
     }
-    const info = this.ngContentFor(node);
-    const filmClips = this._landFilmClips(node, info);
+    const readVisible = this._layerOn("card") || this._layerOn("film");
+    const info = readVisible ? this.ngContentFor(node) : null;
+    const filmClips = this._layerOn("film") ? this._landFilmClips(node, info) : null;
     // ── THE CARD LAYER (v1.171.0, owner) ── a card the player put away stays away: NOT BUILT.
     // The landing still happens (the hand is dealt above this, the ripple lights the options),
     // the film still docks if its own layer is on, and the funnel names the gap. `_landIdx` and
@@ -13054,18 +13104,21 @@ class Component extends DCLogic {
    * shared by ordinary and panic cards, so `side` must travel with it for defender content. */
   _renderLandMore(node, side) {
     this._clearLandMore();
-    const moreHTML = this._landMoreHTML(node, side);
-    if (!moreHTML) return;
+    const sections = this._landMoreSections(node, side);
+    if (!sections.length) return;
     const moreRow = document.createElement("div");
     moreRow.className = "ng-landmore";
     moreRow.innerHTML = '<div><button data-land-more aria-expanded="false" aria-controls="ng-land-more">More</button></div>' +
-      '<div id="ng-land-more" data-land-more-body style="display:none"></div>';
+      '<div id="ng-land-more" data-land-more-body role="region" aria-label="More about this state" tabindex="0" style="display:none;outline-offset:4px;"></div>';
     const moreHead = moreRow.firstChild, more = moreHead.firstChild;
     moreHead.style.cssText = "position:relative;height:38px;display:flex;justify-content:center;";
-    moreRow.lastChild._ngMoreHTML = moreHTML;
+    moreRow.lastChild._ngMoreSections = sections;
     // The control in a root-plane overlay must re-enable hit-testing INLINE (§6.1).
     more.style.cssText = NG_GHOST_BTN_CSS + "width:auto;height:38px;padding:0 15px;color:" + NG_LAND_MORE_COL + ";background:rgba(19,22,37,.9);border-radius:999px;";
-    more.onclick = (e) => { e.stopPropagation(); this.expandLandCard(); };
+    more.onclick = (e) => {
+      e.stopPropagation(); this.expandLandCard();
+      if (e.detail === 0 && this._landOpen) moreRow.lastChild.focus({ preventScroll: true });
+    };
     (this.__ngRoot || document.body).appendChild(moreRow);
     this._landMoreEl = moreRow;
     this._readTouch(moreRow);   // a phone reads by dragging the card it is reading
@@ -13080,6 +13133,7 @@ class Component extends DCLogic {
    * authored DEFENDER block (see `_landMoreHTML`).
    */
   _landCardChrome(el, node, key, side) {
+    this._landReadOwner = { node, side, card: el, key: node.ty === "positions" ? this.deckKeyFor(node).key : node.t };
     this._renderLandMore(node, side);
     // The question card owns its close button and deck count. The capture star belongs
     // to the graph's seat label, and remains available when this card is hidden.
@@ -13146,7 +13200,7 @@ class Component extends DCLogic {
     if (want && !this._landOpen) this._readS = 0;   // a fresh read starts at the top; a rebuild keeps its place
     this._landOpen = want;
     row.classList.toggle("open", want);
-    if (want && !body.firstChild && body._ngMoreHTML) body.innerHTML = body._ngMoreHTML;
+    if (want && !body.firstChild && body._ngMoreSections) body.innerHTML = this._readingHTML(body._ngMoreSections, "land");
     body.style.display = want ? "block" : "none";
     row._ngRestPointerEvents = row.style.pointerEvents = want ? "auto" : "none";
     if (want) {
@@ -13154,6 +13208,7 @@ class Component extends DCLogic {
       const node = this.nodes && this._landIdx != null ? this.nodes[this._landIdx] : null;
       this.fx("land_more_opened", { node: node ? node.t : null });
     } else {
+      if (body.contains(document.activeElement)) btn.focus({ preventScroll: true });
       this._readStop(); this._readS = 0; this._readMax = 0;
       this._readClear();
       if (this._landAutoPaused) { this.setPaused(false); this._landAutoPaused = false; }
@@ -13181,6 +13236,19 @@ class Component extends DCLogic {
   // translation — the two readers that run between docks (`_dockLandFilm`, the camera band)
   // add `_readOffset()` back explicitly.
   _readOffset() { return this._landOpen ? (this._readS || 0) : 0; }
+  _readKey(e) {
+    const target = e.target;
+    if (!this._landOpen || this._landHidden() || e.metaKey || e.ctrlKey || e.altKey || !target ||
+        !target.closest || !target.closest("[data-land-more-body]") ||
+        target.closest("button,a[href],input,textarea,select,[contenteditable]")) return false;
+    const page = (window.innerHeight || 800) * .85;
+    const deltas = { ArrowUp: -40, ArrowDown: 40, PageUp: -page, PageDown: page, " ": e.shiftKey ? -page : page };
+    if (Object.prototype.hasOwnProperty.call(deltas, e.key)) this._readScrollBy(deltas[e.key]);
+    else if (e.key === "Home" || e.key === "End") { this._readStop(); this._readApply(e.key === "Home" ? 0 : this._readMax); }
+    else if (!/^(?:[a-cA-C1-9pP]|Enter|ArrowLeft|ArrowRight)$/.test(e.key)) return false;
+    e.preventDefault();
+    return true;
+  }
   /** The home frame: every column member where its dock put it, the hand at the tray datum. */
   _readClear() {
     for (const t of this._landSurfaces()) t.style.transform = "translateX(-50%)";
@@ -13298,50 +13366,99 @@ class Component extends DCLogic {
     if (!t) return "";                       // it was ONLY the lead-in: say nothing
     return this.mcClip(t) || t.slice(0, 220);
   }
-  _landMoreHTML(node, side) {
-    const info = this.ngContentFor(node) || {};
-    const rc = this.richContentFor(node);
-    // the seat's own block when it is AUTHORED (richDetailHTML's rule: an unauthored defender
-    // block is never mirrored from the attack), else the attacker's — which is every position
-    // and every attacking seat, i.e. exactly what this read before `side` existed
-    const P = rc && rc.perspectives ? rc.perspectives : null;
-    const persp = P ? ((side === "defender" && P.defender && P.defender.authored) ? P.defender : P.attacker) : null;
-    const secHead = (t) => '<div style="font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#8496b8;margin:0 0 6px;">' + t + '</div>';
-    const bullet = (t, dot) => '<div style="display:flex;gap:8px;align-items:flex-start;font-size:11.5px;line-height:1.45;color:#c4cde0;margin-bottom:5px;"><span style="flex:none;width:5px;height:5px;border-radius:50%;background:' + dot + ';margin-top:6px;"></span><span>' + t + '</span></div>';
-    let h = "";
-    // the intro the compact card no longer shows — kept, one fold lower, because the same
-    // sentence is the static page's SEO copy and deleting it outright would lose it
-    const def = this.definitionOf(info.def);
-    if (def)
-      h += '<div data-land-def="1" style="font-size:11.5px;line-height:1.5;color:#aeb9d4;margin-bottom:11px;">' + def + '</div>';
-    const principles = ((persp && persp.principles) || info.principles || []).slice(0, 4);
-    if (principles.length)
-      h += '<div data-land-principles="1" style="margin-bottom:11px;">' + secHead("Essential principles") + principles.map((p) => bullet(p, "#7fb4ff")).join("") + '</div>';
-    if (rc && Array.isArray(rc.outcomes) && rc.outcomes.length) {
-      const tone = { good: "#7ee0a8", bad: "#e8956b", mid: "#cbd24e" };
-      h += '<div data-land-outcomes="1" style="margin-bottom:11px;">' + secHead("Where it leads") + rc.outcomes.slice(0, 3).map((o) =>
-        '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;"><span style="flex:1;min-width:0;font-size:11.5px;color:#cdd5e6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + (o.result || "") + ' → ' + (o.position || "") + '</span><span style="flex:none;font-size:11px;font-weight:700;color:' + (tone[o.tone] || "#cfd6e4") + ';">' + (o.prob != null ? o.prob + '%' : '') + '</span></div>').join("") + '</div>';
+  /** One section model decides both availability and content. Selecting it is cheap; HTML
+   * and DOM are built only by the reader. A missing defender never borrows attack mechanics. */
+  _readingSections(node, info, side, full) {
+    info = info || {};
+    const pos = node.ty === "positions", defending = side === "defender";
+    const P = info.perspectives || {};
+    const blk = pos ? info : (defending ? (P.defender && P.defender.authored ? P.defender : {}) : (P.attacker || info));
+    const sections = [];
+    const add = (key, label, kind, value) => {
+      if (value == null || value === "" || (Array.isArray(value) && !value.length)) return;
+      sections.push({ key, label, kind, value });
+    };
+    const safety = info.safety;
+    if (safety && safety.notice) add("safety-notice", "", "text", safety.notice);
+    const lead = !full && defending && blk.summary ? this.definitionOf(blk.summary) : (info.lead || this.definitionOf(info.def));
+    add("def", "", "text", lead);
+    const aliases = this._readingAliases(node, info);
+    add("aka", "", "aliases", aliases);
+    const confused = (info.confuse || []).map((x) => ({ ...x, family: "" })).concat(
+      ((info.family && info.family.confuse) || []).map((x) => ({ ...x, family: info.family.name })));
+    add("confuse", "Often confused with", "confuse", confused);
+    if (full && blk.summary && blk.summary.trim() !== String(lead || "").trim() && !this._echoesSummary(lead, blk.summary)) add("overview", "Overview", "text", blk.summary);
+    if (full && !pos && defending && (!P.defender || !P.defender.authored)) add("perspective-unavailable", "", "text", "The defender's breakdown is not authored for this technique yet.");
+    if (pos && info.props) {
+      const labels = { type: "Type", risk: "Risk", energy: "Effort", time: "Hold" };
+      add("props", "Position profile", "facts", Object.keys(labels).filter((k) => info.props[k] != null).map((k) => [labels[k], info.props[k]]));
     }
-    const counters = (info.counters || (persp && persp.counters) || []).slice(0, 3);
-    if (counters.length)
-      h += '<div data-land-counters="1" style="margin-bottom:11px;">' + secHead("What beats it") + counters.map((c) => bullet(c, "#e8956b")).join("") + '</div>';
-    // ── NO "ATTACKS FROM HERE" (v1.101.8) ───────────────────────────────────────────────────
-    // The owner asked whether it was repeated content, "since we anyway show options for the
-    // user to select (which are attacks / transitions / edges out of this state)". It was worse
-    // than repetition. That block was raw adjacency — first six neighbours, deduped by short
-    // name, with NO role filter and NO origin filter — while `optionsFor()` builds the hand from
-    // the same adjacency and then keeps only what favours the side you are playing and what
-    // actually originates here. Measured across all 272 position-role hands, 1,632 pills:
-    //   · 42.3%  originate at a DIFFERENT position
-    //   · 35.4%  the opponent's move, and from elsewhere
-    //   · 10.8%  the opponent's move
-    //   ·  11.5% legitimately yours from here
-    // So 88.5% of it told the reader they could do things they cannot, under a heading that
-    // said otherwise — and it overlapped the dealt hand by only 12.9%, so it did not even read
-    // as a summary of the tray below it. The hand IS the answer to "what can I do from here":
-    // role-correct, origin-correct, ordered, and already on screen.
-    return h;   // "" means: this state has nothing more, so it gets no `More` at all
+    if (!pos && info.kind) add("kind", "Submission", "facts", [["Category", info.kind.cat], ["Type", info.kind.type], ["Target", info.kind.area]].filter((x) => x[1]));
+    if (!pos) {
+      add("recognition", defending ? "Recognise the attack" : "Recognise the moment", "list", blk.recognition);
+      if (!defending) {
+        add("prerequisites", "Before you start", "list", blk.prerequisites);
+        add("steps", "How to execute", "steps", blk.steps);
+      } else add("options", "Your defensive options", "options", blk.options);
+      if (safety) {
+        const parts = [];
+        const put = (key) => { const v = safety[key]; if (v && (!Array.isArray(v) || v.length)) parts.push([key, v]); };
+        (defending ? ["tap", "release", "risks", "speed", "restrictions"] : ["risks", "speed", "tap", "release", "restrictions"]).forEach(put);
+        add("safety", "Safety guide", "safety", parts);
+      }
+    }
+    add("principles", "Essential principles", "list", blk.principles);
+    if (full && defending) add("best-outcomes", "Best outcomes", "list", blk.bestOutcomes);
+    if (full && pos && info.metrics) add("metrics", "Numbers", "facts", Object.entries(info.metrics));
+    if (pos) add("tree", "Decision branches", "tree", (info.decisionTree || []).slice(0, full ? undefined : 3));
+    if (!pos && !defending) {
+      add("outcomes", "Where it leads", "outcomes", (info.outcomes || []).slice(0, full ? undefined : 3));
+      add("counters", "What beats it", "list", (blk.counters || []).slice(0, full ? undefined : 3));
+    }
+    // Legacy position fixtures may carry counters; this is authored content, never adjacency.
+    if (pos) add("counters", "What beats it", "list", info.counters);
+    add("mistakes", "Common mistakes", "mistakes", blk.mistakes);
+    if (!defending) add("variations", "Variations", "notes", (info.variations || []).slice(0, full ? undefined : 5).map((n) => [n, (info.varNote || {})[n]]));
+    if (pos) add("drills", "Training drills", "notes", (info.drills || []).slice(0, 3).map((d) => [d.n, d.dur]));
+    if (full && info.context && !this._echoesSummary(info.context, blk.summary || lead)) add("context", "Context", "text", info.context);
+    add("related", "Related", "list", (info.related || []).slice(0, full ? undefined : 4));
+    return sections;
   }
+  _readingAliases(node, info) {
+    const meta = node.aliasMeta || {}, rows = [];
+    const own = Array.isArray(info.aka) ? info.aka : (meta.aka || (node.aka ? [node.aka] : []));
+    if (own.length) rows.push(["Also known as", own]);
+    const family = info.family || meta.family;
+    if (family && family.aka && family.aka.length) rows.push([family.name + " family · also known as", family.aka]);
+    return rows;
+  }
+  _readingHTML(sections, prefix) {
+    const E = (x) => this.escHTML(x);
+    const list = (xs, ordered) => '<' + (ordered ? 'ol' : 'ul') + ' style="margin:0;padding-left:20px;">' + xs.map((x) => '<li style="margin:0 0 7px;">' + E(x) + '</li>').join('') + '</' + (ordered ? 'ol' : 'ul') + '>';
+    const note = (name, text) => '<div style="margin-bottom:9px;"><strong>' + E(name) + '</strong>' + (text ? '<div style="color:#aeb9d4;margin-top:3px;">' + E(text) + '</div>' : '') + '</div>';
+    return sections.map((s) => {
+      const v = s.value;
+      let body = '';
+      if (s.kind === "text") body = E(v).replace(/\n+/g, '<br>');
+      else if (s.kind === "list" || s.kind === "steps") body = list(v, s.kind === "steps");
+      else if (s.kind === "aliases") body = v.map((x) => '<div><span style="color:#aeb9d4;">' + E(x[0]) + ': </span><strong>' + x[1].map(E).join(' · ') + '</strong></div>').join('');
+      else if (s.kind === "facts") body = '<dl style="display:flex;flex-wrap:wrap;gap:8px 16px;margin:0;">' + v.map((x) => '<div><dt style="display:inline;color:#aeb9d4;">' + E(x[0]) + ': </dt><dd style="display:inline;margin:0;">' + E(x[1]) + '</dd></div>').join('') + '</dl>';
+      else if (s.kind === "confuse") body = v.map((x) => note((x.family ? x.family + ' family: ' : '') + x.n, x.why)).join('');
+      else if (s.kind === "notes") body = v.map((x) => note(x[0], x[1])).join('');
+      else if (s.kind === "tree") body = v.map((d) => note('If ' + d.cond + ':', (d.acts || []).map((a) => a[0] + (a[2] ? ' → ' + a[2] : '')).join(' · '))).join('');
+      else if (s.kind === "options") body = v.map((o) => '<div style="margin-bottom:12px;">' + note(o.move, o.when) + (o.leadsTo ? '<div>→ ' + E(o.leadsTo) + '</div>' : '') + '</div>').join('');
+      else if (s.kind === "outcomes") body = v.map((o) => note(o.result + (o.position ? ' → ' + o.position : ''), o.prob != null ? o.prob + '%' : '')).join('');
+      else if (s.kind === "mistakes") body = v.map((m) => '<div style="margin-bottom:12px;"><div style="color:#e8b89c;">' + E(m.err) + '</div>' + (m.why ? '<div><strong>Why it matters:</strong> ' + E(m.why) + '</div>' : '') + '<div style="color:#a4d8bc;"><strong>Correction:</strong> ' + E(m.fix) + '</div></div>').join('');
+      else if (s.kind === "safety") {
+        const labels = { risks: "Injury risks", speed: "Application", tap: "Tap signals", release: "Release protocol", restrictions: "Training restrictions" };
+        body = v.map(([k, values]) => '<div data-safety-' + k + ' style="margin-bottom:12px;"><h4 style="font-size:13px;margin:0 0 7px;">' + labels[k] + '</h4>' + (k === "speed" ? E(values) : (k === "risks" ? list(values.map((r) => r.i + ' — ' + r.sev)) : list(values, k === "release"))) + '</div>').join('');
+      }
+      return '<section data-' + prefix + '-' + s.key + '="1" style="font-size:13px;line-height:1.55;color:#cdd5e6;overflow-wrap:anywhere;margin:0 0 18px;' + (s.key === "safety" || s.key === "safety-notice" ? 'border-left:2px solid #b98b63;padding-left:12px;' : '') + '">' + (s.label ? '<h3 style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#9cacc7;margin:0 0 8px;">' + E(s.label) + '</h3>' : '') + body + '</section>';
+    }).join('');
+  }
+  _landMoreSections(node, side) { return this._readingSections(node, this.ngContentFor(node), side, false); }
+  _landMoreHTML(node, side) { return this._readingHTML(this._landMoreSections(node, side), "land"); }
+
   /** Is the landing question settled — mounted, or definitively not coming? */
   landQuestionReady() { return !this._landWarmP; }
   /**
@@ -13980,16 +14097,12 @@ class Component extends DCLogic {
       // card-layer corner; More builds as its own sibling and reads the submission's DEFENDER
       // block. Rebuilt on every question because `innerHTML` replaces the card, while `_landOpen`
       // preserves an already-open reading card across that rebuild.
-      // The dossier lands after the deck on a cold visit. A normal landing gets More through
-      // `_landBackfill`; the drill is excluded by mode, so this closure refits once when its own
-      // content request resolves.
+      // Dossier completion refreshes the reading sibling independently through its owner,
+      // including after this question has been answered.
       const chrome = () => {
         const oldCorner = card.querySelector("[data-land-corner]"); if (oldCorner) oldCorner.remove();
         this._landCardChrome(card, sub, pk, "defender");
         if (this._landOpen) this.expandLandCard(true);
-        if (this._landMoreEl) return;   // built only when the defender block exists (v1.175.0)
-        const p = this._contentWaits && this._contentWaits[sub.t];
-        if (p) p.then(() => { if (this._landEl !== card || this._landMoreEl || !this._landMoreHTML(sub, "defender")) return; chrome(); this._dockLandCard(card); });
       };
       // THE DRILL IS MULTIPLE CHOICE, LIKE THE LANDING (v1.135.0, owner: "It should look much
       // more similar to the ng-landcard with multiple choice"). Same block, same grading choke

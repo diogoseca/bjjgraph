@@ -39,6 +39,8 @@ generated+committed static asset):
     part of the graph it teaches; `products` carries the curated BJJFanatics affiliate
     entries VERBATIM from content (never synthesized — a fabricated affiliate URL is a
     broken promise to a paying customer).
+  - aliases.json : deferred exact site-id -> {aka:[], family?:{name,aka:[]}} index.
+    Own aliases and inherited family aliases retain provenance; no graph wire changes.
 
 Deterministic (stable ordering) so re-runs diff cleanly; safe to wire into `regenerate`.
 Read-only w.r.t. all existing content/graph.
@@ -2336,6 +2338,66 @@ def build_concepts(node_ids: list[str]) -> tuple[dict, dict]:
     )
 
 
+def build_alias_index(nodes: list[dict]) -> dict:
+    """Resolve aliases to exact emitted sites; the browser never guesses family prefixes.
+
+    Technique display names are canonical within their section, including variants whose
+    name is not prefixed by their directory's family. Positions join by their own slug,
+    just like the existing wire qualifier. Both joins must be unique and total.
+    """
+    from _neural_content import naming_metadata, submission_families, family_for_source
+
+    by_name, by_position = {}, {}
+    for node in nodes:
+        by_name.setdefault((node["ty"], node.get("t")), []).append(node["id"])
+        if node["ty"] == "positions":
+            by_position.setdefault(node.get("posId"), []).append(node["id"])
+    families = submission_families()
+    index, owners, errors = {}, {}, []
+    authored = own = inherited = 0
+    for section in ("Positions", "Transitions", "Submissions"):
+        for path in sorted((ROOT / "content" / section).rglob("*.json")):
+            if "TEMPLATE" in str(path):
+                continue
+            d = json.loads(path.read_text(encoding="utf-8"))
+            if not isinstance(d, dict) or d.get("is_family"):
+                continue
+            family = family_for_source(path, families) if section == "Submissions" else None
+            metadata = naming_metadata(d, family)
+            aliases = metadata.get("aka", [])
+            parent = metadata.get("family", {})
+            if not aliases and not parent.get("aka"):
+                continue
+            authored += 1
+            if section == "Positions":
+                hits = by_position.get(slugify(d.get("slug") or d.get("name") or path.stem), [])
+            else:
+                hits = by_name.get((section.lower(), d.get("name")), [])
+            if len(hits) != 1:
+                errors.append(f"{path}: expected one alias site, resolved {hits!r}")
+                continue
+            site = hits[0]
+            if site in index:
+                errors.append(f"{site}: aliases collide between {owners[site]} and {path}")
+                continue
+            record = {"aka": aliases}
+            if parent.get("aka"):
+                record["family"] = {"name": parent["name"], "aka": parent["aka"]}
+            index[site] = record
+            owners[site] = path
+            own += bool(aliases)
+            inherited += bool(parent.get("aka"))
+    print(f"  aliases: {len(index)}/{authored} source sites resolved; "
+          f"{own} own aliases, {inherited} inherited family aliases")
+    if not index or not own or not inherited:
+        errors.append("alias coverage is zero for the index, own aliases, or inherited aliases")
+    if len(index) != authored:
+        errors.append(f"{authored} alias-bearing sources produced {len(index)} exact site records")
+    if errors:
+        raise SystemExit("[neural] alias index REFUSING TO EMIT:\n    " + "\n    ".join(errors))
+    return dict(sorted(index.items()))
+
+
 def main() -> None:
     if not LAYOUT.exists() or not GRAPH.exists():
         print(f"ERROR: need {LAYOUT} and {GRAPH} (run regenerate:graph first)", file=sys.stderr)
@@ -2358,6 +2420,9 @@ def main() -> None:
     from submission_choices import write_details
     write_details(ROOT, OUT_DIR)
     (OUT_DIR / "graph-data.json").write_text(json.dumps(gd, ensure_ascii=False, separators=(",", ":")))
+    aliases = build_alias_index(gd["nodes"])
+    (OUT_DIR / "aliases.json").write_text(
+        json.dumps(aliases, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
     # Retired payloads: delete them if an older tree still has them. These are the two files the
     # whole first-run defect was made of (16.4MB + 21.2MB), the output dir is gitignored, and a

@@ -34,6 +34,7 @@ It is the **only** front-end. `?variant=legacy` is accepted and ignored.
 | `content/<hash>.json` | on demand | one node's dossier, **and one page's body** (`<Name>\|Principle`, `\|Learning`, `\|System`) |
 | `systems.json` | first read | Explore tab only, and deliberately **not** warmed on idle |
 | `concepts.json` | first read | the Principles + Learning index (82). Same posture as `systems.json` |
+| `aliases.json` | Explore/search intent | exact site IDs, own aliases and attributed family aliases; versioned URL, shared request and bounded retries |
 
 Chunks are addressed by `fnv1a32(key)` — the app's own `qhash`, ported byte-identically into
 `scripts/_neural_content.py`. A chunk holds a `{key: value}` map, so a hash collision shares a file
@@ -90,24 +91,18 @@ them to me"; the catch is announced as "<name> locked in", nothing more). All th
 a graph browser: click a node, the ripple lights what it connects to, nothing docks. `setLayer`
 is the one writer (`_applyLayers` follows a cloud pull too).
 
-**More is a subordinate card, not a fourth persisted layer** (v1.174.0, owner: "More shouldn't
-touch the landcard"). When deeper authored content exists, its pill sits in a measured row below
-the dealt hand (nothing else rides that row). Opening morphs that exact root-plane sibling into a
-second landcard-shaped container at z:90, docked 6px under the timed card **at its full content
-height** — no scrollport, no cap, so a long read runs under the fold (v1.175.0). The body is
-never a child of the timed `[data-landcard]`, which does not change at all. **The hand is pushed
-below the new card, never covered**: `_dockLandMore` measures the overhang past the hand's slot
-(`_readMax`) and `_readApply` moves the tray down by it on its `bottom` (its transform is the
-sheet's; its ✕ re-docks to the row each frame). Reading is a scroll of the whole column — film,
-timed card, More card and hand translate together (`_readS`; wheel anywhere but a surface that
-scrolls itself, a vertical touch drag with a fling, no keyboard binding); the end of the travel
-puts the hand home under the read, and scrolling back returns the open frame. Docks measure in
-the home frame (`_readClear` first); the two readers that run between docks — `_dockLandFilm`
-and the tighten-only camera band cache — add `_readOffset()` back. Less, Esc, the first
-background step and picking a card close it; scrolling never does. Its latch pauses while reading
-and returns only the pause it took. Film and hand minimize independently of More (a put-away
-hand makes the fold the limit); minimizing the card layer folds and removes More, returning its
-pause, and restoring it rebuilds More folded.
+**More is subordinate to the card layer.** Its pill appears only for readable content and
+opens a separate full-height card at z:90, 6px under the timed card. The question stays intact;
+the hand moves below the read. `_dockLandMore` measures that overhang (`_readMax`), and
+`_readApply` translates the whole column by `_readS`. Docks measure the home frame via
+`_readClear`; film/camera readers add `_readOffset()` back. Wheel and touch scroll the column;
+the final offset brings the hand home. No nested scrollport or height cap.
+
+More builds its seat-specific body on opening. Aliases retain family attribution; submission
+safety is complete. Focused reading keys: arrows, Page Up/Down, Space and Home/End. Escape returns
+focus to More. Less, background dismissal and a move close the read and return only its owned
+pause. Hiding the card removes More; restoring it starts folded. Content arrival preserves the
+question. See [Reading delivery](Architecture.md#reading-delivery) for sections and loading rules.
 
 **A revealed answer can be put back.** `_recallBlock` builds Show / Hide / Review again / Got it
 once and `paint()`s the pair the state calls for, so revealing is not destructive: you can cover

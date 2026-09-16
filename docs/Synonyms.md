@@ -80,6 +80,16 @@ When the bot encounters a synonym candidate that's on the denylist, it logs the 
 
 The three-field schema is what prevents these. Don't collapse the categories.
 
+### Neural app
+
+Explore and modal search load `aliases.json` on intent and match every own or inherited family
+alias with case and diacritic folding. The index uses exact graph site IDs, and hydration reaches
+both members of a seat pair without changing the scalar wire `aka`. Origin remains the first row
+qualifier. More and the option sheet label own aliases as “Also known as” and inherited aliases
+with their family name first; family identity never turns into an exact synonym of a variant.
+Search remains usable by title while aliases load or fail, and updates the current query when
+loading completes. Source/output guards cover the full alias vocabulary, not only its first item.
+
 ---
 
 ## 7. SEO consequences
