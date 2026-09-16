@@ -310,6 +310,7 @@ for (const provider of ["bunny", "youtube"] as const) {
       });
       await openFirst(page);
       await expect(page.locator("[data-system-preview] a")).toHaveAttribute("href", COURSE);
+      await expect(page.locator("[data-system-preview-review]")).toContainText("BJJGraph has not reviewed this preview’s instructional content");
       await expect(page.locator("[data-system-player]")).toHaveCount(0); expect(requests).toBe(0);
       const load = page.locator("[data-system-preview-load]");
       if (!verified) { await expect(load).toHaveCount(0); return; }
@@ -358,3 +359,22 @@ test("related-card review keeps the existing session behavior", async ({ page })
   expect(session.bucket).toBe("system:Systems/Fixture-Octopus");
   expect(session.keys.length).toBeGreaterThan(0); expect(session.position).toBeNull();
 });
+
+
+for (const legacy of [false, true]) {
+  test(`course card ${legacy ? "retains legacy notes" : "omits guidance already in the guide"}`, async ({ page }) => {
+    const data = catalog(), dossier = body();
+    Object.assign(data.systems[0].products[0], {
+      blurb: "Course scope note", best_for: "Audience fit note", study_focus: "Study focus note", practice_tip: "Practice note",
+    });
+    await bootFixtures(page, journey(page), data, legacy ? { overview: "Legacy overview" } : dossier);
+    await openFirst(page);
+    await expect(page.locator(legacy ? "[data-system-body]" : "[data-system-start]")).toBeVisible();
+    const card = page.locator("[data-system-courses]");
+    await expect(card).toContainText("Exact Fixture Course"); await expect(card).toContainText("Fixture Instructor");
+    await expect(card.locator("[data-system-cta]")).toHaveCount(1);
+    await expect(card.locator(".ng-system-course-note")).toHaveCount(legacy ? 1 : 0);
+    if (legacy) { await expect(card).toContainText("Course scope note"); await expect(card).toContainText("Audience fit note"); }
+    else for (const text of ["Course scope note", "Audience fit note", "Study focus note", "Practice note"]) await expect(card).not.toContainText(text);
+  });
+}

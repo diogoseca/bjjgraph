@@ -9179,6 +9179,11 @@ class Component extends DCLogic {
       const source = sources.find((x) => x.id === preview.source_id);
       const el = section(preview.title || "Official sample", "<p>" +
         (source ? link(source.url, "Open official source") : "Official source unavailable") + "</p>", "data-system-preview");
+      if (preview.content_reviewed !== true) {
+        const note = document.createElement("p"); note.setAttribute("data-system-preview-review", "1");
+        note.textContent = "The official source page was checked; BJJGraph has not reviewed this preview’s instructional content.";
+        el.appendChild(note);
+      }
       const url = this._systemPreviewURL(preview);
       const verified = Array.isArray(preview.playback_verified_on) && preview.playback_verified_on.includes(location.origin);
       if (url && verified && source && this._systemURL(source.url)) {
@@ -9289,7 +9294,8 @@ class Component extends DCLogic {
       const shelf = document.createElement("div"); shelf.className = "ng-system-courses";
       shelf.setAttribute("data-system-courses", "1"); shelf.setAttribute("data-course-placement", "overview");
       const note = document.createElement("p"); note.className = "ng-system-course-note";
-      note.textContent = [p.blurb, p.best_for, typeof p.notes === "string" ? p.notes : ""].filter(Boolean).join(" "); if (note.textContent) shelf.appendChild(note);
+      note.textContent = guide ? "" : [p.blurb, p.best_for, typeof p.notes === "string" ? p.notes : ""].filter(Boolean).join(" ");
+      if (note.textContent) shelf.appendChild(note);
       if (course.active) {
         const disc = document.createElement("p"); disc.className = "ng-system-disclosure";
         disc.setAttribute("data-affiliate-disclosure", "1");
