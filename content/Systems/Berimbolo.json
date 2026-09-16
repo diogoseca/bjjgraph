@@ -193,8 +193,18 @@
         "title": "The Berimbolo System Part 1: The Foundation by Mikey Musumeci",
         "kind": "official_listing",
         "checked_on": "2026-09-16",
-        "note": "Mikey Musumeci attribution and Part 1 title verified on the official listing. Double-pull opening and later branch headings inspected; no inversion instruction or mobility claims verified."
+        "note": "Mikey Musumeci attribution and Part 1 title verified on the official listing. Double-pull opening and later branch headings inspected; no inversion instruction or mobility claims verified. The official page embeds the selected sample under “Basic Berimbolo Only Leg Drills”; its video content has not been reviewed."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/922f0a04-4b6e-43fb-9cec-ef466bb9cf1c?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "source_id": "course",
+      "title": "Official sample — Mikey Musumeci / The Berimbolo System Part 1: The Foundation",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
   }
 }

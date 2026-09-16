@@ -117,7 +117,7 @@
         "title": "Essential Connections: Chest To Back - Behind The Elbows by Giancarlo Bodoni",
         "kind": "official_listing",
         "checked_on": "2026-09-16",
-        "note": "Listing inspected: Giancarlo Bodoni attribution, exact title, turtle/four-point/standing coverage and the named turtle comparison lesson verified. Public sample content not reviewed."
+        "note": "Listing inspected: Giancarlo Bodoni attribution, exact title, turtle/four-point/standing coverage and the named turtle comparison lesson verified. Public sample content not reviewed. The official page embeds the selected sample under “Check out a free sample”; its video content has not been reviewed."
       },
       {
         "id": "comparison",
@@ -127,6 +127,16 @@
         "checked_on": "2026-09-16",
         "note": "Official listing inspected to compare the advertised subject and course breadth with this guide."
       }
-    ]
+    ],
+    "preview": {
+      "provider": "bunny",
+      "embed_url": "https://iframe.mediadelivery.net/embed/596460/593412fe-96cd-4ee0-9492-a6d830d20e57?autoplay=false&loop=false&muted=false&preload=false&responsive=true",
+      "source_id": "course",
+      "title": "Official sample — Giancarlo Bodoni / Essential Connections: Chest To Back - Behind The Elbows",
+      "kind": "sample",
+      "checked_on": "2026-09-16",
+      "content_reviewed": false,
+      "playback_verified_on": []
+    }
   }
 }
