@@ -1,6 +1,5 @@
 {
   "name": "Self-Defense Application Framework",
-  "description": "Master self-defense applications of BJJ with systematic framework for street effectiveness, legal considerations, stress inoculation, and reality-based training methodology.",
   "tags": [
     "bjj",
     "self-defense",
@@ -12,436 +11,163 @@
   ],
   "system_type": "Training Methodology",
   "difficulty_level": "Intermediate",
-  "summary": "The Self-Defense Application Framework is a reality-based system that adapts sport BJJ for street confrontations, prioritizing awareness, de-escalation, strike defense, decisive control, and escape within a legally defensible use-of-force structure.",
-  "overview": "Sport BJJ provides an excellent foundation for personal protection, but competition grappling and real-world confrontations diverge in critical ways - the presence of strikes, environmental hazards, multiple attackers, weapons, and legal implications. This system addresses those differences head-on, emphasizing efficiency, decisiveness, and de-escalation while maintaining technical excellence. Unlike sport BJJ which rewards points and positional control, self-defense applications prioritize rapid neutralization, escape, and personal safety. The system integrates striking defense, clinch control, takedown defense, and ground control principles specifically adapted for self-defense scenarios. It addresses pre-fight awareness, verbal de-escalation, legal use of force considerations, and post-incident protocols. The framework is built on the principle that sport BJJ provides an excellent foundation but requires specific modifications and additions to be truly effective for self-defense. Training methodology emphasizes stress inoculation, scenario-based drilling, and understanding the legal and ethical dimensions of physical confrontation.",
-  "key_principles": [
-    "Avoidance and de-escalation are the primary self-defense techniques - physical engagement is the last resort",
-    "Striking defense and clinch control take priority over sport guard positions",
-    "Positional hierarchy shifts dramatically - standing position is superior to ground fighting in self-defense",
-    "Techniques must be simple, gross-motor, and functional under extreme stress and adrenaline",
-    "Legal use of force framework must guide all physical responses - understanding reasonable force is critical",
-    "Environmental awareness supersedes technical perfection - walls, furniture, and multiple threats dictate tactics",
-    "Rapid escape and disengagement are the primary goals, not submission or positional dominance",
-    "Training must include stress inoculation and scenario-based drilling to prepare for real confrontations"
-  ],
-  "key_components": [
-    {
-      "component_name": "Pre-Fight Awareness and De-Escalation",
-      "description": "Situational awareness and verbal de-escalation skills form the foundation of self-defense. This includes recognizing pre-attack indicators, maintaining safe distances, using confident body language, and employing verbal strategies to avoid physical confrontation. Understanding the pre-fight interview process that attackers use and developing appropriate responses. Awareness of environmental escape routes and potential hazards. Recognition of asocial vs social violence and appropriate responses to each.",
-      "purpose": "Avoid physical confrontation entirely through awareness and de-escalation"
-    },
-    {
-      "component_name": "Striking Defense and Clinch Entry",
-      "description": "Defensive striking fundamentals including covering, head movement, and footwork to close distance safely. Clinch entries that provide protection from strikes while establishing control - modified versions of collar ties, underhooks, and body locks adapted for striking threats. Focus on simple, high-percentage entries that work against common untrained attacks like haymakers and tackles. Integration of flinch response training and natural defensive reflexes.",
-      "purpose": "Safely close distance against striking threats and establish grappling control"
-    },
-    {
-      "component_name": "Takedown and Ground Strategy",
-      "description": "Modified takedown approach emphasizing safety and control over sport techniques. Priority on remaining standing when possible, but utilizing decisive takedowns when ground fighting is tactically sound. Ground control positions adapted for self-defense - emphasis on top control, pins that allow striking defense and awareness of surroundings. Avoidance of guard positions that expose to strikes or additional attackers. Rapid submission or escape protocols.",
-      "purpose": "Control where the fight takes place and maintain tactical advantages"
-    },
-    {
-      "component_name": "Legal and Ethical Framework",
-      "description": "Understanding use of force laws, reasonable force doctrine, duty to retreat considerations, and legal implications of different techniques. Documentation of injuries and evidence preservation. Post-incident protocols including when to contact law enforcement, how to articulate self-defense claims, and interaction with legal system. Ethical considerations of using superior grappling skills against untrained attackers. Recognition of when to disengage vs when continued control is necessary.",
-      "purpose": "Ensure all physical responses are legally defensible and ethically appropriate"
-    }
-  ],
-  "implementation_sequence": [
-    {
-      "step_number": 1,
-      "phase": "Awareness and Prevention Foundation",
-      "description": "Develop situational awareness skills, recognition of pre-attack indicators, and verbal de-escalation strategies. Learn to identify potentially dangerous situations and avoid them. Study the pre-fight interview and appropriate responses. Understand legal framework for self-defense in your jurisdiction.",
-      "key_points": [
-        "Practice environmental scanning and threat assessment",
-        "Study common pre-attack behaviors and verbal cues",
-        "Develop confident body language and boundary setting",
-        "Learn use of force laws and reasonable force doctrine",
-        "Establish personal safety protocols for daily life"
-      ]
-    },
-    {
-      "step_number": 2,
-      "phase": "Striking Defense Integration",
-      "description": "Integrate basic striking defense with BJJ fundamentals. Learn to cover, move, and close distance against common untrained strikes. Modify sport entries to account for striking threats. Develop flinch response training and stress inoculation.",
-      "key_points": [
-        "Master defensive covering and head movement",
-        "Practice clinch entries against striking",
-        "Modify double leg and single leg for striking defense",
-        "Train body lock and collar tie entries under stress",
-        "Develop gross motor skill responses to common attacks"
-      ]
-    },
-    {
-      "step_number": 3,
-      "phase": "Modified Ground Strategy",
-      "description": "Adapt sport BJJ positions for self-defense context. Prioritize top control and pins over guard positions. Learn rapid submission sequences appropriate for self-defense. Develop escape and disengage protocols. Train positional awareness with striking and multiple attacker considerations.",
-      "key_points": [
-        "Modify mount and side control for striking threats",
-        "Avoid closed guard in favor of technical standup",
-        "Learn rapid RNC and control positions from back control",
-        "Practice immediate escape from bottom positions",
-        "Develop environmental awareness while grappling"
-      ]
-    },
-    {
-      "step_number": 4,
-      "phase": "Scenario-Based Training",
-      "description": "Implement realistic scenario training with verbal components, environmental considerations, and adrenal stress. Practice decision-making under pressure. Include multiple attacker awareness and escape strategies. Integrate legal articulation into training scenarios.",
-      "key_points": [
-        "Train with protective equipment for striking integration",
-        "Practice scenarios with verbal de-escalation component",
-        "Include environmental obstacles and awareness",
-        "Simulate adrenal stress through intensity variation",
-        "Develop post-incident articulation skills"
-      ]
-    },
-    {
-      "step_number": 5,
-      "phase": "Legal and Ethical Refinement",
-      "description": "Refine understanding of force continuum and reasonable response. Study case law and legal precedents. Develop articulation skills for describing self-defense actions. Understand evidence preservation and post-incident protocols. Consider ethical implications of superior grappling skills.",
-      "key_points": [
-        "Study relevant case law for your jurisdiction",
-        "Practice verbal articulation of self-defense rationale",
-        "Learn evidence preservation and witness identification",
-        "Understand when to contact law enforcement",
-        "Develop ethical framework for force application"
-      ]
-    },
-    {
-      "step_number": 6,
-      "phase": "Ongoing Stress Testing and Adaptation",
-      "description": "Continuously test skills under realistic stress conditions. Update training based on evolving understanding of violence dynamics. Maintain physical fitness and technical sharpness. Regular review of legal framework changes. Integration of lessons from actual incidents and case studies.",
-      "key_points": [
-        "Regular scenario training with intensity variation",
-        "Study actual self-defense incidents and outcomes",
-        "Maintain fitness for explosive physical effort",
-        "Update legal knowledge as laws change",
-        "Refine techniques based on stress test results"
-      ]
-    }
-  ],
-  "common_obstacles": [
-    {
-      "obstacle": "Sport BJJ habits that are dangerous in self-defense context (pulling guard, playing from bottom)",
-      "solution": "Dedicated self-defense training sessions that specifically modify sport habits. Practice technical standup and immediate escape from bottom positions. Emphasis on top control and standing positions. Scenario training that punishes sport habits with simulated strikes."
-    },
-    {
-      "obstacle": "Overconfidence from sport success leading to underestimation of striking threats",
-      "solution": "Structured striking integration training with protective equipment. Exposure to realistic striking pressure to understand gaps in pure grappling approach. Study of MMA and combat sports to see grappling effectiveness against strikers. Humility training through scenario losses."
-    },
-    {
-      "obstacle": "Legal ignorance leading to inappropriate force application or criminal liability",
-      "solution": "Formal legal education component in self-defense curriculum. Consultation with attorneys familiar with self-defense law. Study of case law and force continuum. Practice articulation of reasonable force justification. Understanding of duty to retreat vs stand your ground laws."
-    },
-    {
-      "obstacle": "Difficulty adapting techniques for environmental constraints and multiple attackers",
-      "solution": "Environmental training that includes walls, furniture, stairs, and confined spaces. Multiple attacker awareness drills. Rapid escape and disengage training. Positional selection based on environmental tactical advantages. Scenario training in realistic locations."
-    },
-    {
-      "obstacle": "Inability to perform under extreme adrenal stress and fear",
-      "solution": "Progressive stress inoculation training starting with mild pressure and building to high intensity. Scenario training with verbal aggression and simulated violence. Understanding of adrenal stress effects on fine motor skills. Focus on gross motor, simple techniques. Breathing and stress management training."
-    }
-  ],
-  "assessment_metrics": [
-    {
-      "metric_name": "Situational Awareness and De-Escalation",
-      "description": "Ability to recognize potential threats, avoid dangerous situations, and de-escalate conflicts verbally before physical engagement",
-      "proficiency_indicators": [
-        "Consistently demonstrates environmental scanning and threat identification in scenario training",
-        "Successfully de-escalates 80% or more of verbal confrontation scenarios without physical engagement",
-        "Accurately identifies pre-attack indicators and takes appropriate preventive action",
-        "Maintains safe distance and positioning in uncertain situations",
-        "Demonstrates confident body language and effective boundary setting"
-      ]
-    },
-    {
-      "metric_name": "Striking Defense and Clinch Control",
-      "description": "Effectiveness of closing distance safely against striking threats and establishing dominant clinch position",
-      "proficiency_indicators": [
-        "Closes distance against simulated strikes without taking significant contact",
-        "Establishes dominant clinch control within 3-5 seconds of engagement",
-        "Maintains defensive covering while entering clinch range",
-        "Successfully neutralizes common untrained attacks (haymakers, tackles, grabs)",
-        "Demonstrates functional technique under adrenal stress conditions"
-      ]
-    },
-    {
-      "metric_name": "Tactical Positioning and Control",
-      "description": "Selection and maintenance of positions appropriate for self-defense context with awareness of environment and multiple threats",
-      "proficiency_indicators": [
-        "Prioritizes standing and top positions over guard in scenario training",
-        "Demonstrates immediate escape from bottom positions when put there",
-        "Maintains environmental awareness while grappling (exits, obstacles, additional threats)",
-        "Controls opponent effectively while remaining aware of surroundings",
-        "Makes tactically sound decisions about when to engage ground fighting vs remain standing"
-      ]
-    },
-    {
-      "metric_name": "Legal Knowledge and Articulation",
-      "description": "Understanding of use of force laws and ability to articulate reasonable force justification for actions taken",
-      "proficiency_indicators": [
-        "Can accurately explain reasonable force doctrine and force continuum",
-        "Articulates self-defense actions in legally defensible terms during scenario debriefs",
-        "Demonstrates understanding of when force is legally justified vs when it becomes assault",
-        "Knows jurisdiction-specific laws regarding duty to retreat and stand your ground",
-        "Understands post-incident protocols including evidence preservation and law enforcement interaction"
-      ]
-    }
-  ],
-  "training_methodology": {
-    "drilling_approach": "Self-defense training requires a fundamentally different approach than sport BJJ drilling. Begin each session with awareness and de-escalation exercises before physical techniques. Use scenario-based training as the primary method rather than technique repetition. Start scenarios at low intensity with clear verbal components, progressively adding stress through verbal aggression, protective equipment striking, environmental obstacles, and time pressure. Integrate legal articulation into every scenario - students must verbally justify their actions during and after physical engagement. Use protective equipment to allow realistic striking integration without injury. Emphasize simple, gross-motor techniques that work under stress rather than complex sport techniques. Include regular stress inoculation sessions with high-intensity scenarios. Train in varied environments including confined spaces, around obstacles, near walls, and in locations with escape routes. Regularly rotate training partners to avoid over-familiarity. Video review of scenarios is critical for identifying tactical errors and legal articulation gaps.",
-    "progression_path": [
-      {
-        "stage": "Foundation Phase",
-        "focus": "Awareness training, legal framework education, basic striking defense, and modification of sport techniques for self-defense context",
-        "timeframe": "3-6 months"
-      },
-      {
-        "stage": "Integration Phase",
-        "focus": "Combining striking defense with grappling, scenario training with verbal components, environmental awareness, and stress introduction",
-        "timeframe": "6-12 months"
-      },
-      {
-        "stage": "Stress Inoculation Phase",
-        "focus": "High-intensity scenario training, multiple attacker awareness, adrenal stress management, and legal articulation under pressure",
-        "timeframe": "12-18 months"
-      },
-      {
-        "stage": "Mastery Phase",
-        "focus": "Consistent performance under realistic stress, sound tactical decision-making, effective de-escalation, and comprehensive legal understanding",
-        "timeframe": "18+ months ongoing"
-      }
-    ],
-    "common_mistakes": [
-      "Training self-defense like sport BJJ with same positions and priorities",
-      "Neglecting striking defense and assuming pure grappling superiority",
-      "Pulling guard or playing from bottom in self-defense scenarios",
-      "Using complex techniques that require fine motor skills under stress",
-      "Failing to train legal knowledge and force articulation",
-      "Ignoring environmental awareness and multiple attacker considerations",
-      "Training only in ideal conditions without stress inoculation",
-      "Overconfidence from sport success without reality testing"
-    ]
-  },
+  "description": "A reading and observation guide to the limits of transferring sport-grappling assumptions into self-defense.",
+  "summary": "Identify which assumptions in familiar sport-grappling situations depend on agreed rules and a controlled setting.",
+  "overview": "Stephan Kesting’s Grappling for Self Defense points out that sparring depends on both spoken and unspoken rules. This guide uses that observation to examine what a familiar training situation leaves out. The aim is to identify the questions that need dedicated instruction, rather than invent an escape plan from sport technique names.",
   "related_content": [
     {
       "name": "Clinch",
       "content_type": "Position",
-      "relationship": "Critical control position for neutralizing strikes and controlling distance"
+      "relationship": "Position reference for organizing study: Clinch."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Dominant top control position when ground fighting is necessary"
+      "relationship": "Position reference for organizing study: Mount."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "High-percentage control position allowing striking defense and awareness"
+      "relationship": "Position reference for organizing study: Side Control."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Optimal position for rapid control and submission in self-defense"
+      "relationship": "Position reference for organizing study: Back Control."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Traditional guard position that requires modification for self-defense contexts"
+      "relationship": "Position reference for organizing study: Closed Guard."
     },
     {
       "name": "Combat Base",
       "content_type": "Position",
-      "relationship": "Defensive posture used when in opponent's guard"
+      "relationship": "Position reference for organizing study: Combat Base."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Defensive position requiring immediate escape in self-defense scenarios"
+      "relationship": "Position reference for organizing study: Turtle."
     },
     {
       "name": "Front Headlock",
       "content_type": "Position",
-      "relationship": "Standing control position useful for neutralizing untrained attackers"
+      "relationship": "Position reference for organizing study: Front Headlock."
     },
     {
       "name": "Knee on Belly",
       "content_type": "Position",
-      "relationship": "Mobile top control position allowing rapid disengagement and environmental awareness"
+      "relationship": "Position reference for organizing study: Knee on Belly."
     },
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "Clinch control position for takedown entries and standing control"
+      "relationship": "Position reference for organizing study: Body Lock."
     },
     {
       "name": "Bridge and Roll",
       "content_type": "Transition",
-      "relationship": "Basic escape from mount position"
+      "relationship": "Related transition reference: Bridge and Roll."
     },
     {
       "name": "Guillotine Choke",
       "content_type": "Submission",
-      "relationship": "High-percentage submission from standing and clinch positions"
+      "relationship": "Related submission reference: Guillotine Choke."
     },
     {
       "name": "Arm Triangle",
       "content_type": "Submission",
-      "relationship": "Effective submission from top control positions"
+      "relationship": "Related submission reference: Arm Triangle."
     },
     {
       "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Foundational defensive positioning and protective body mechanics for self-defense"
+      "relationship": "Further conceptual reading: Defensive Concepts."
     },
     {
       "name": "Defensive Prioritization Framework",
       "content_type": "System",
-      "relationship": "Overall strategic framework for prioritizing defense-first decision-making"
+      "relationship": "Related study guide: Defensive Prioritization Framework."
     },
     {
       "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Core escape principles and prioritization based on position severity"
+      "relationship": "Further conceptual reading: Escape Fundamentals."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Critical for maintaining standing position and avoiding takedowns"
+      "relationship": "Further conceptual reading: Base."
     },
     {
       "name": "Energy Conservation",
       "content_type": "Principle",
-      "relationship": "Managing energy expenditure during high-stress confrontations"
+      "relationship": "Further conceptual reading: Energy Conservation."
     },
     {
       "name": "Distance Control",
       "content_type": "Principle",
-      "relationship": "Essential principle for managing distance and creating escape opportunities"
+      "relationship": "Further conceptual reading: Distance Control."
     },
     {
       "name": "MMA Crossover Strategy",
       "content_type": "System",
-      "relationship": "Related system addressing striking integration with grappling"
+      "relationship": "For the distinct context of a regulated match involving strikes."
     },
     {
       "name": "Standing Defense Strategy",
       "content_type": "System",
-      "relationship": "Complementary system for maintaining standing position against takedowns"
+      "relationship": "Related study guide: Standing Defense Strategy."
     }
   ],
+  "guide": {
+    "kind": "topic_guide",
+    "display_title": "Self-Defense: Examine Sport Grappling’s Assumptions",
+    "audience": {
+      "fits": [
+        "You want to examine the assumptions behind claims that a sport-BJJ sequence transfers directly to self-defense."
+      ],
+      "consider_alternative_if": [
+        "For a regulated contest involving strikes, use MMA Crossover Strategy and the rules adopted by that event."
+      ]
+    },
+    "coverage": {
+      "includes": [
+        "A way to identify assumptions about permitted attacks and partner behavior in a familiar grappling situation.",
+        "Separating questions about context from claims about a technique’s execution."
+      ],
+      "limits": [
+        "The selected article is an instructor’s discussion, not a complete self-defense curriculum.",
+        "This guide does not teach confrontation management, weapon responses or legal use of force."
+      ]
+    },
+    "start_here": {
+      "title": "Identify the assumptions behind one familiar exchange",
+      "kind": "observation",
+      "task": "Read Kesting’s discussion of spoken and unspoken sparring rules. Choose an exchange from your training notes and list what the partners had agreed not to do. Mark which parts of your interpretation rely on those agreements. Bring one resulting question to an instructor who teaches the relevant context; keep it as an unanswered question instead of inventing a physical response.",
+      "source_ids": [
+        "kesting-self-defense"
+      ],
+      "section": "Grappling for Self Defense: discussion of spoken and unspoken sparring rules."
+    },
+    "sources": [
+      {
+        "id": "kesting-self-defense",
+        "url": "https://www.grapplearts.com/grappling-for-self-defense/",
+        "title": "Grappling for Self Defense — Stephan Kesting",
+        "kind": "public_instruction",
+        "checked_on": "2026-09-16",
+        "note": "Read Kesting’s discussion of explicit and implicit sparring rules and the assumptions they can create. This guide uses that contextual distinction rather than reproducing the article’s scenario drills.",
+        "viewed_range": "Article text, especially the discussion of spoken and unspoken sparring rules"
+      }
+    ]
+  },
   "flashcards": [
     {
-      "question": "What is the primary objective of the Self-Defense Application Framework compared to sport BJJ?",
-      "answer": "Personal safety through awareness, de-escalation, and escape rather than points or positional dominance. Physical engagement is the last resort, and rapid disengagement is the goal once a threat has been neutralized.",
-      "answer_line": "De-escalate, escape, stay safe",
-      "distractors": {
-        "plausible": [
-          "Win points, control position",
-          "Submit the attacker to finish"
-        ],
-        "trap": [
-          "Pull guard, fight off your back"
-        ]
-      }
-    },
-    {
-      "question": "Why does the framework prioritize the standing position over ground fighting in self-defense?",
-      "answer": "On the ground you sacrifice mobility and awareness and become exposed to strikes, additional attackers, and hard surfaces, with no easy way to flee. Staying on your feet preserves the ability to escape and monitor the environment.",
-      "answer_line": "Stay mobile to escape & stay aware",
-      "distractors": {
-        "plausible": [
-          "Standing lets you strike first",
-          "Upright gives a stronger base"
-        ],
-        "trap": [
-          "Take it to the ground and pass"
-        ]
-      }
-    },
-    {
-      "question": "Which sport BJJ habits become dangerous in a self-defense context, and how are they corrected?",
-      "answer": "Pulling guard, playing from the bottom, and chasing points or submissions all expose you to strikes and multiple attackers. The fix is technical standup, top control, and drilling immediate escape from bottom positions.",
-      "answer_line": "Get on top; never pull guard",
-      "distractors": {
-        "plausible": [
-          "Sweep from guard to points",
-          "Chase the submission from bottom"
-        ],
-        "trap": [
-          "Turn your back to stand up"
-        ]
-      }
-    },
-    {
-      "question": "What role does the legal use-of-force framework play in the system?",
-      "answer": "It governs every physical response, requiring force to be reasonable and proportional to the threat. Practitioners must be able to articulate why their actions were justified and understand duty-to-retreat versus stand-your-ground law in their jurisdiction.",
-      "answer_line": "Force must be proportional to threat",
-      "distractors": {
-        "plausible": [
-          "Match the attacker's force exactly",
-          "Always de-escalate before any force"
-        ],
-        "trap": [
-          "Use maximum force to end threat fast"
-        ]
-      }
-    },
-    {
-      "question": "Why should self-defense techniques rely on gross-motor rather than fine-motor skills?",
-      "answer": "Under an adrenal dump the heart rate spikes and fine-motor control and complex coordination degrade sharply. Simple, gross-motor techniques stay reliable when dexterity and clear thinking are compromised by fear and stress.",
-      "answer_line": "Adrenaline wrecks fine-motor control",
-      "distractors": {
-        "plausible": [
-          "Gross-motor moves strike faster",
-          "Simple moves are easier to learn"
-        ],
-        "trap": [
-          "Precise joint locks end it fastest"
-        ]
-      }
-    },
-    {
-      "question": "How does the framework recommend safely closing distance against an untrained striker?",
-      "answer": "Use defensive covering and head movement to weather the initial strikes, then enter the clinch with collar ties, underhooks, or a body lock that smothers the attacker's offense while establishing control to take them down or escape.",
-      "answer_line": "Cover up, then clinch to smother",
-      "distractors": {
-        "plausible": [
-          "Weather strikes, then trade blows",
-          "Circle out and counter-strike"
-        ],
-        "trap": [
-          "Shoot a double from distance"
-        ]
-      }
-    },
-    {
-      "question": "What is stress inoculation and why is it central to self-defense training?",
-      "answer": "It is progressive exposure to simulated violence, including verbal aggression, protective-equipment striking, and time pressure, that conditions you to function despite the adrenal response. It bridges the gap between calm drilling and performing under real fear.",
-      "answer_line": "Rehearse under adrenaline stress",
-      "distractors": {
-        "plausible": [
-          "Memorize techniques by repetition",
-          "Condition the body to take hits"
-        ],
-        "trap": [
-          "Freeze and assess before reacting"
-        ]
-      }
-    },
-    {
-      "question": "Why is scenario-based drilling preferred over isolated technique repetition in this system?",
-      "answer": "Real confrontations begin with verbal exchange and environmental context, not a clean grip. Scenario drills train awareness, de-escalation, decision-making, and legal articulation together, rehearsing the full event rather than one isolated movement.",
-      "answer_line": "Rehearses the full encounter",
-      "distractors": {
-        "plausible": [
-          "Grooves perfect technique reps",
-          "Trains de-escalation talk first"
-        ],
-        "trap": [
-          "Strike pre-emptively to win"
-        ]
-      }
+      "question": "What limitation does Kesting identify when using sport sparring as a model for self-defense?",
+      "answer": "Sparring operates within spoken and unspoken rules. Those agreements can leave assumptions unexamined when considering a different context.",
+      "answer_line": "Sparring depends on agreed rules"
     }
   ]
 }
