@@ -12,19 +12,19 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Advanced",
-  "description": "A competition study worksheet using the public Watson BJJ strategy map and the rules adopted by your event.",
-  "summary": "Turn a broad technique collection into a position-by-position plan for a specific tournament.",
-  "overview": "Watson BJJ’s Gameplan / Strategy Map distinguishes general development from tournament preparation: the competition version lists the game you plan to use at that event. Its separate top and bottom sections make missing answers visible. Use the map to organize familiar options, then check their scoring and legality against your event’s rules.",
+  "description": "The distinction between a developing repertoire and an event-specific game plan in Watson BJJ’s published strategy map.",
+  "summary": "A tournament game plan selects intended options from a wider repertoire and includes both offensive and defensive situations.",
+  "overview": "A repertoire contains techniques a student uses and techniques still being developed. Watson BJJ’s Gameplan / Strategy Map makes the tournament plan narrower: it focuses on the game intended for the next event.\n\nThe map includes standing choices, top and bottom guard positions, pins, turtle and leg attacks. It also gives defensive situations their own place, including being mounted or having the back taken. The published resource is a planning worksheet; its examples do not amount to a complete tactical curriculum.",
   "related_content": [
     {
       "name": "Competition Preparation System",
       "content_type": "System",
-      "relationship": "Related study guide: Competition Preparation System."
+      "relationship": "Tournament preparation, travel and athlete-coach communication."
     },
     {
       "name": "Competition Scoring Strategy",
       "content_type": "System",
-      "relationship": "Use the IBJJF rulebook to examine how the planned exchanges score."
+      "relationship": "IBJJF points, continuous positional control and regulation-time tiebreakers."
     },
     {
       "name": "Mental Game Framework",
@@ -34,12 +34,12 @@
     {
       "name": "IBJJF Strategy Guide",
       "content_type": "System",
-      "relationship": "Related study guide: IBJJF Strategy Guide."
+      "relationship": "IBJJF eligibility, uniform and division requirements."
     },
     {
       "name": "No-Gi Competition Approach",
       "content_type": "System",
-      "relationship": "Related study guide: No-Gi Competition Approach."
+      "relationship": "IBJJF and ADCC scoring differences and division restrictions."
     },
     {
       "name": "Competition Mindset",
@@ -99,47 +99,47 @@
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Closed Guard."
+      "relationship": "Related position: Closed Guard."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Mount."
+      "relationship": "Related position: Mount."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Back Control."
+      "relationship": "Related position: Back Control."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Side Control."
+      "relationship": "Related position: Side Control."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Half Guard."
+      "relationship": "Related position: Half Guard."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Butterfly Guard."
+      "relationship": "Related position: Butterfly Guard."
     },
     {
       "name": "De La Riva Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: De La Riva Guard."
+      "relationship": "Related position: De La Riva Guard."
     },
     {
       "name": "Single Leg X-Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Single Leg X-Guard."
+      "relationship": "Related position: Single Leg X-Guard."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Turtle."
+      "relationship": "Related position: Turtle."
     },
     {
       "name": "Rear Naked Choke",
@@ -164,38 +164,27 @@
     {
       "name": "Blue to Purple Progression",
       "content_type": "System",
-      "relationship": "Use a broader inventory when the goal is ongoing development rather than one event."
+      "relationship": "Technical development and belt-recognition requirements."
     }
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Competition Strategy: Map Your Intended Game",
+    "display_title": "Competition Game Plans",
     "audience": {
       "fits": [
-        "You have several favorite techniques but no written plan for where a match might leave you."
+        "You want a clearer explanation of what belongs in a tournament game plan beyond favorite attacks."
       ],
-      "consider_alternative_if": [
-        "If the main uncertainty is what scored, Competition Scoring Strategy is the more focused starting point."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Separate planning spaces for standing, guard, pins, turtle and leg-attack situations.",
-        "A distinction between options you intend to use now and material you want to develop later."
+        "The difference between general game development and preparation for one competition.",
+        "Standing, top, bottom and defensive situations in a positional game plan."
       ],
       "limits": [
-        "The worksheet is a planning aid, not evidence that a listed sequence will succeed.",
-        "Its technical examples are not a universal game plan or a division-specific legality list."
+        "The source is a worksheet with examples, not detailed instruction in the techniques it names.",
+        "It does not provide an event-specific scoring or permitted-technique list."
       ]
-    },
-    "start_here": {
-      "title": "Compare your planned route with your last match",
-      "kind": "observation",
-      "task": "Use the blank map on pages 2–3. Enter your intended standing choice and the position you expect next using techniques you already study. Trace one recent match through the corresponding boxes and circle the first box where your plan had no entry. Put a familiar option there for discussion with your coach; keep a separate list for techniques still to learn.",
-      "source_ids": [
-        "watson-strategy-map"
-      ],
-      "section": "Gameplan / Strategy Map: Competition Prep, page 1; worksheet, pages 2–3."
     },
     "sources": [
       {
@@ -206,6 +195,16 @@
         "checked_on": "2026-09-16",
         "note": "Read the three-page worksheet: general development and competition preparation use the same positional map differently. The competition instructions focus on the game intended for the next tournament.",
         "viewed_range": "Pages 1–3, particularly Competition Prep and the blank position sections"
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Competition Scoring Strategy",
+        "reason": "For the scoring conditions and tiebreakers that apply to an IBJJF game plan."
+      },
+      {
+        "system": "Competition Preparation System",
+        "reason": "Matt D’Aquino’s course adds tournament logistics, preparation and coach communication."
       }
     ]
   },

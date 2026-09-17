@@ -11,39 +11,39 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
-  "description": "A focused gi closed-guard companion to The Roger Gracie Closed Guard System, with an IBJJF grip-rule reference.",
-  "summary": "Choose between closed-guard maintenance, fabric-based attacks and sweeps in Roger Gracie’s published syllabus.",
-  "overview": "A broad search for gi strategy can hide a narrower problem: keeping closed guard, finding a submission or reaching top position. Roger Gracie’s course groups material around those needs. Its collar and lapel chapters make fabric-based offense explicit, while the sweep volume provides a different study target from the same guard.",
+  "description": "The Roger Gracie Closed Guard System covers guard maintenance, collar and lapel attacks, arm attacks and sweeps in the gi.",
+  "summary": "Closed-guard control, submissions and routes to top position from Roger Gracie.",
+  "overview": "The Roger Gracie Closed Guard System is a focused gi course on maintaining closed guard and building offense from it. Roger covers collar and lapel chokes, arm locks, kimura and wrist-lock attacks, alongside a dedicated sweep section.\n\nThe sweep material includes scissor and hook sweeps, attacks against an opponent with both knees down and omoplata sweeps. This is a choice for someone who wants more from closed guard; it does not attempt to cover every gi guard or the whole standing and passing game.",
   "related_content": [
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Closed Guard."
+      "relationship": "Related position: Closed Guard."
     },
     {
       "name": "Collar Sleeve Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Collar Sleeve Guard."
+      "relationship": "Related position: Collar Sleeve Guard."
     },
     {
       "name": "Lasso Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Lasso Guard."
+      "relationship": "Related position: Lasso Guard."
     },
     {
       "name": "Spider Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Spider Guard."
+      "relationship": "Related position: Spider Guard."
     },
     {
       "name": "De La Riva Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: De La Riva Guard."
+      "relationship": "Related position: De La Riva Guard."
     },
     {
       "name": "Lapel Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Lapel Guard."
+      "relationship": "Related position: Lapel Guard."
     },
     {
       "name": "Cross Collar Choke",
@@ -138,39 +138,29 @@
     {
       "name": "IBJJF Strategy Guide",
       "content_type": "System",
-      "relationship": "Check division and grip restrictions separately from the course’s advertised techniques."
+      "relationship": "IBJJF eligibility, uniform and division requirements."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Gi Strategy: Roger Gracie’s Closed Guard",
+    "display_title": "Roger Gracie’s Closed Guard",
     "audience": {
       "fits": [
-        "You play closed guard in the gi and need to choose between studying maintenance, submissions and sweeps."
+        "You use closed guard in the gi and want both submission attacks and ways to come on top.",
+        "You want collar and lapel offense alongside guard maintenance."
       ],
-      "consider_alternative_if": [
-        "For event requirements and permitted techniques, begin with IBJJF Strategy Guide; this course is a positional study."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Volume 1 includes closed-guard maintenance and collar/lapel chokes; Volume 2 includes lapel arm attacks, kimura and wrist lock.",
-        "Volume 3 lists sweep options, including scissor/hook sweeps and a sweep when both knees are on the floor."
+        "Closed-guard maintenance and collar/lapel chokes.",
+        "Lapel arm locks, kimura and wrist-lock material.",
+        "Scissor, hook and omoplata sweeps, plus options against an opponent with both knees down."
       ],
       "limits": [
-        "This is a closed-guard course, not a survey of open guards, passing or standing grip fighting.",
-        "A technique appearing in a course outline does not establish its legality in your division."
+        "The course centers on closed guard; open-guard systems, takedowns and guard passing are outside its main scope.",
+        "Competition legality still depends on the event and division."
       ]
-    },
-    "start_here": {
-      "title": "Separate a maintenance problem from an attacking problem",
-      "kind": "observation",
-      "task": "Review a closed-guard exchange from your own notes or footage. Identify whether the unresolved moment was losing the guard, seeking a submission or trying to come on top. Match that moment to Volume 1’s maintenance chapter, Volume 2’s arm attacks or Volume 3’s sweeps. Owners can begin with “Maintaining in the Closed Guard” when the position itself is the problem; the official page also provides a free sample to inspect the teaching presentation.",
-      "source_ids": [
-        "roger-closed-guard",
-        "ibjjf-rules"
-      ],
-      "section": "Volume 1: Maintaining in the Closed Guard. Volume 3: Sweeps - Scissor Sweep & Hook Sweep."
     },
     "sources": [
       {
@@ -203,7 +193,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Jonathan Thomas Double Sleeve Guard System",
+        "reason": "Jonathan Thomas’s Double Sleeve Guard focuses on open guard with sleeve grips, lasso and spider variations."
+      }
+    ]
   },
   "flashcards": [
     {
@@ -220,9 +216,8 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Four volumes covering closed-guard maintenance, collar and lapel attacks, arm attacks and sweeps.",
-      "best_for": "Gi students selecting a specific closed-guard problem to study.",
-      "study_focus": "Begin with Volume 1’s maintenance lesson if you lose the position; compare Volume 3’s sweeps if reaching top is your goal.",
+      "blurb": "A four-volume gi closed-guard course combining maintenance, chokes, arm attacks and sweeps.",
+      "best_for": "Gi players who want a fuller attacking game from closed guard.",
       "course_url": "https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie"
     }
   ]

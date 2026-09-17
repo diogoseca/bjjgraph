@@ -11,44 +11,44 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Advanced",
-  "description": "A rules-comparison study guide for no-gi competitors changing events or experience divisions.",
-  "summary": "Compare IBJJF and ADCC scoring and division restrictions before choosing a no-gi match plan.",
-  "overview": "No-gi describes attire, not a single ruleset. ADCC uses scoring phases and negative points, while IBJJF has its own scoring and penalty structure. Even within ADCC, the beginner/intermediate supplement changes permitted techniques and timing. Choose your division before importing tactics from a championship match.",
+  "description": "Differences in IBJJF and ADCC positional scores, match phases and division restrictions.",
+  "summary": "No-gi events can reward the same position differently and permit different techniques by division.",
+  "overview": "No-gi competition does not have a single scoring model. A qualifying mount is worth four points in IBJJF and two in the cited ADCC championship rules. ADCC also separates match phases by when points apply and includes negative points for specified actions.\n\nDivision matters as much as the event name. ADCC’s beginner/intermediate supplement changes technique permissions and timing, while IBJJF uses age, belt and format categories. Professional championship rules therefore cannot stand in for every no-gi division.",
   "related_content": [
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Back Control."
+      "relationship": "Related position: Back Control."
     },
     {
       "name": "Inside Ashi-Garami",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Inside Ashi-Garami."
+      "relationship": "Related position: Inside Ashi-Garami."
     },
     {
       "name": "Front Headlock",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Front Headlock."
+      "relationship": "Related position: Front Headlock."
     },
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Body Lock."
+      "relationship": "Related position: Body Lock."
     },
     {
       "name": "Saddle",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Saddle."
+      "relationship": "Related position: Saddle."
     },
     {
       "name": "50-50 Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: 50-50 Guard."
+      "relationship": "Related position: 50-50 Guard."
     },
     {
       "name": "Guillotine Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Guillotine Control."
+      "relationship": "Related position: Guillotine Control."
     },
     {
       "name": "Body Lock Pass",
@@ -158,46 +158,33 @@
     {
       "name": "No-Gi Tactical Framework",
       "content_type": "System",
-      "relationship": "Study the advertised top-control material after choosing the applicable competition rules."
+      "relationship": "Craig Jones’s Power Ride course on pinning and top control."
     },
     {
       "name": "IBJJF Strategy Guide",
       "content_type": "System",
-      "relationship": "Use the IBJJF event checklist when that is your selected competition format."
+      "relationship": "IBJJF eligibility, uniform and division requirements."
     }
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "No-Gi Competition: Compare the Rules First",
+    "display_title": "No-Gi Competition: IBJJF and ADCC",
     "audience": {
       "fits": [
-        "You are changing no-gi events or divisions and need to check which assumptions from previous matches still apply."
+        "You compete across different no-gi events or are moving into a different experience category."
       ],
-      "consider_alternative_if": [
-        "For studying pinning technique rather than event rules, No-Gi Tactical Framework focuses on the scope of Craig Jones’s Power Ride."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Comparing scoring values: a qualifying mount scores four points in IBJJF and two in the cited ADCC championship rules.",
-        "Checking when ADCC positive and negative points apply, plus the experience-category technique restrictions.",
-        "Separating an event’s rule choices from a general preference for guards, wrestling or submissions."
+        "Different IBJJF and ADCC point values for the same named position.",
+        "ADCC scoring phases and negative-point provisions.",
+        "Division-specific restrictions rather than a universal no-gi submission list."
       ],
       "limits": [
-        "The ADCC professional list does not describe all Open, Masters or beginner permissions.",
-        "This comparison does not cover every no-gi promoter or submission-only overtime format."
+        "The comparison covers the cited IBJJF and ADCC material, not every promoter or submission-only overtime format.",
+        "Open, Masters and beginner divisions may use restrictions different from professional championship rules."
       ]
-    },
-    "start_here": {
-      "title": "Check an opening choice in the right match phase",
-      "kind": "observation",
-      "task": "Select an actual division and identify the applicable rule document. Compare its opening phase with its scoring phase: when do positive and negative points begin, and what does it say about voluntarily going to the ground? Then look up one submission you already study in that division’s restrictions. Record the relevant passages beside your planned opening rather than assuming a professional match supplies permission.",
-      "source_ids": [
-        "adcc-championship",
-        "adcc-divisions",
-        "ibjjf-rules"
-      ],
-      "section": "ADCC: Time Limits; Penalties (Negative Points); Beginners & Intermediate illegal-technique table. IBJJF: Articles 2.5 and 6."
     },
     "sources": [
       {
@@ -226,6 +213,16 @@
         "checked_on": "2026-09-16",
         "note": "Read positional point values and the age/belt/format technique restrictions to support comparison with ADCC.",
         "viewed_range": "Articles 2.5 and 6, including the illegal-technique table"
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "No-Gi Tactical Framework",
+        "reason": "Craig Jones’s Power Ride covers pinning and top control rather than competition administration."
+      },
+      {
+        "system": "IBJJF Strategy Guide",
+        "reason": "For the registration and equipment requirements of an IBJJF event."
       }
     ]
   },

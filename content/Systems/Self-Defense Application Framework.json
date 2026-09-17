@@ -11,59 +11,59 @@
   ],
   "system_type": "Training Methodology",
   "difficulty_level": "Intermediate",
-  "description": "A reading and observation guide to the limits of transferring sport-grappling assumptions into self-defense.",
-  "summary": "Identify which assumptions in familiar sport-grappling situations depend on agreed rules and a controlled setting.",
-  "overview": "Stephan Kesting’s Grappling for Self Defense points out that sparring depends on both spoken and unspoken rules. This guide uses that observation to examine what a familiar training situation leaves out. The aim is to identify the questions that need dedicated instruction, rather than invent an escape plan from sport technique names.",
+  "description": "The limits of sport-grappling assumptions in Stephan Kesting’s discussion of self-defense.",
+  "summary": "Sport sparring depends on agreed restrictions that do not describe every physical confrontation.",
+  "overview": "Stephan Kesting’s Grappling for Self Defense argues that familiar sparring habits depend on both explicit and unspoken rules. His example of an inexperienced partner grabbing individual fingers illustrates how an unexpected action can fall outside those habits.\n\nThe distinction is about context: permitted attacks, clothing and the number of people involved can differ from an ordinary round. This discussion explains why recognizing a familiar position does not settle every self-defense question.",
   "related_content": [
     {
       "name": "Clinch",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Clinch."
+      "relationship": "Related position: Clinch."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Mount."
+      "relationship": "Related position: Mount."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Side Control."
+      "relationship": "Related position: Side Control."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Back Control."
+      "relationship": "Related position: Back Control."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Closed Guard."
+      "relationship": "Related position: Closed Guard."
     },
     {
       "name": "Combat Base",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Combat Base."
+      "relationship": "Related position: Combat Base."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Turtle."
+      "relationship": "Related position: Turtle."
     },
     {
       "name": "Front Headlock",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Front Headlock."
+      "relationship": "Related position: Front Headlock."
     },
     {
       "name": "Knee on Belly",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Knee on Belly."
+      "relationship": "Related position: Knee on Belly."
     },
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Body Lock."
+      "relationship": "Related position: Body Lock."
     },
     {
       "name": "Bridge and Roll",
@@ -113,7 +113,7 @@
     {
       "name": "MMA Crossover Strategy",
       "content_type": "System",
-      "relationship": "For the distinct context of a regulated match involving strikes."
+      "relationship": "Grappling under the scoring and foul provisions of the cited MMA rules."
     },
     {
       "name": "Standing Defense Strategy",
@@ -123,33 +123,22 @@
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Self-Defense: Examine Sport Grappling’s Assumptions",
+    "display_title": "Sport Grappling and Self-Defense",
     "audience": {
       "fits": [
-        "You want to examine the assumptions behind claims that a sport-BJJ sequence transfers directly to self-defense."
+        "You want a clearer account of the limitations of treating sport grappling as a complete self-defense model."
       ],
-      "consider_alternative_if": [
-        "For a regulated contest involving strikes, use MMA Crossover Strategy and the rules adopted by that event."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "A way to identify assumptions about permitted attacks and partner behavior in a familiar grappling situation.",
-        "Separating questions about context from claims about a technique’s execution."
+        "Explicit and implicit rules in sparring, and the assumptions they create.",
+        "Differences in permitted attacks, clothing and participants discussed in Kesting’s article."
       ],
       "limits": [
-        "The selected article is an instructor’s discussion, not a complete self-defense curriculum.",
-        "This guide does not teach confrontation management, weapon responses or legal use of force."
+        "This is a contextual discussion, not a complete self-defense curriculum.",
+        "It does not provide confrontation-management instruction, weapon responses or legal use-of-force advice."
       ]
-    },
-    "start_here": {
-      "title": "Identify the assumptions behind one familiar exchange",
-      "kind": "observation",
-      "task": "Read Kesting’s discussion of spoken and unspoken sparring rules. Choose an exchange from your training notes and list what the partners had agreed not to do. Mark which parts of your interpretation rely on those agreements. Bring one resulting question to an instructor who teaches the relevant context; keep it as an unanswered question instead of inventing a physical response.",
-      "source_ids": [
-        "kesting-self-defense"
-      ],
-      "section": "Grappling for Self Defense: discussion of spoken and unspoken sparring rules."
     },
     "sources": [
       {
@@ -160,6 +149,12 @@
         "checked_on": "2026-09-16",
         "note": "Read Kesting’s discussion of explicit and implicit sparring rules and the assumptions they can create. This guide uses that contextual distinction rather than reproducing the article’s scenario drills.",
         "viewed_range": "Article text, especially the discussion of spoken and unspoken sparring rules"
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "MMA Crossover Strategy",
+        "reason": "For grappling in a regulated contest involving strikes, with defined scoring and fouls."
       }
     ]
   },
