@@ -1,6 +1,6 @@
 {
   "name": "Standing Defense Strategy",
-  "description": "Choose Alex Enriquez's takedown-defense material by distinguishing shots from space, established leg grips and standing ties.",
+  "description": "Alex Enriquez's Wrestling Takedown Defense For Grappling covers stance, sprawls, leg attacks and clearing wrestling ties.",
   "tags": [
     "bjj",
     "defense-system",
@@ -15,8 +15,8 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Intermediate",
-  "summary": "Alex Enriquez's Wrestling Takedown Defense For Grappling separates stance and sprawl study from specific leg attacks and tie-clearing problems.",
-  "overview": "An opponent entering from space and an opponent already holding an elevated leg appear in different parts of this outline. Preserve that distinction when choosing a lesson; a general instruction to sprawl does not describe all the situations listed here.",
+  "summary": "Wrestling Takedown Defense For Grappling by Alex Enriquez covers defending shots from space, established leg grips and upper-body ties.",
+  "overview": "Alex Enriquez brings stance and sprawl fundamentals together with defenses to specific wrestling attacks. The course addresses singles and doubles from space as well as situations where the opponent already holds an elevated leg. Ankle picks, fireman's carry and dogfight positions are also included, followed by material on head and hip position, overhooks and clearing underhooks. This is a focused option for grapplers whose problems begin on the feet.",
   "related_content": [
     {
       "name": "Standing Position",
@@ -177,43 +177,30 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "The published outline separates initial leg attacks, established leg-control situations and clearing ties.",
-      "best_for": "Grapplers choosing a wrestling-defense lesson that matches the stage of the standing exchange.",
-      "study_focus": "Start with MAIN PRINCIPLE OF TAKEDOWN DEFENSE, then compare the from-space and elevated-leg entries in LEG ATTACK DEFENSE.",
+      "blurb": "Wrestling defense from the initial shot through established leg grips and upper-body ties.",
+      "best_for": "Grapplers developing takedown defense and responses to wrestling control ties.",
       "course_url": "https://bjjfanatics.com/products/wrestling-takedown-defense-for-grappling-by-alex-enriquez"
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Standing Defense: Alex Enriquez's Takedown Study Guide",
+    "display_title": "Alex Enriquez: Wrestling Takedown Defense",
     "audience": {
       "fits": [
-        "You need to distinguish defending the initial shot from dealing with a leg already controlled.",
-        "You want one reference covering wrestling stance, common leg attacks and clearing ties."
+        "You struggle with wrestling shots or with recovering once an opponent has secured your leg.",
+        "You want takedown defense that also addresses upper-body ties and their removal."
       ],
-      "consider_alternative_if": [
-        "The takedown has ended and your recurring problem is escaping a pin: the Danaher Pin Escape Fundamentals guide starts closer to that problem."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Opening material covers stance, motion, sprawl and defensive principles, followed by stance and head-blocking drills.",
-        "The leg-attack section lists singles and doubles from space, elevated-leg situations, ankle picks, low singles, fireman's carry and dogfight cases.",
-        "The tie-clearing section covers head and hip position, the whizzer/overhook, front-headlock throws and single or double underhooks."
+        "Stance, motion, sprawl and defensive principles, with stance-and-motion and head-blocking drills.",
+        "Single- and double-leg defense, elevated-leg situations, ankle picks, low singles, fireman's carry and dogfight cases.",
+        "Head and hip positioning, whizzer/overhook use, front-headlock throw defense and clearing single or double underhooks."
       ],
       "limits": [
-        "The advertised curriculum concerns wrestling defense for grappling; it does not set out a gi grip-fighting or competition guard-pull decision curriculum.",
-        "The public list names drills without describing their execution or partner constraints."
+        "The curriculum is wrestling defense for grappling. Gi-specific collar-and-sleeve fighting and competition guard-pull strategy are outside its advertised scope."
       ]
-    },
-    "start_here": {
-      "title": "Compare the entry with the established grip",
-      "kind": "observation",
-      "task": "In one recorded standing exchange, pause before contact with the legs and again after a leg is secured. Note which frame matches your actual difficulty. Compare Double Leg Defense From Space or Single Leg Defense From Space with the two elevated-leg entries in the outline; if the decisive control is an upper-body tie, locate that tie in Defending and Clearing Ties instead. Use the selected starting condition to choose what to watch, without inferring the defensive movement from its title.",
-      "source_ids": [
-        "enriquez-listing"
-      ],
-      "section": "LEG ATTACK DEFENSE: DOUBLE LEG DEFENSE FROM SPACE; SINGLE LEG DEFENSE FROM SPACE; SINGLE DEFENSE ON ELEVATED LEG: BETWEEN LEGS; SINGLE DEFENSE ON ELEVATED LEG: ANKLE TRAPPED IN ARMPIT"
     },
     "sources": [
       {
@@ -245,6 +232,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Danaher Pin Escape Fundamentals System",
+        "reason": "For recovery after a takedown has ended in mount, side control or another established pin."
+      }
+    ]
   }
 }

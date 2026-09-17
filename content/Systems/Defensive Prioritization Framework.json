@@ -1,6 +1,6 @@
 {
   "name": "Defensive Prioritization Framework",
-  "description": "Organize defensive study by separating a submission in progress, the controlling position and the scoring consequence under IBJJF rules.",
+  "description": "How IBJJF rules distinguish escaping a submission from earning positional points, including verbal submission and stabilization requirements.",
   "tags": [
     "bjj",
     "defense",
@@ -12,8 +12,8 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Intermediate",
-  "summary": "Defensive prioritization separates submission threats, positional control and scoring questions so that each can lead to an appropriate study task.",
-  "overview": "A point-scoring position and freedom from a submission are different facts. IBJJF Article 3.3 makes that distinction explicit: reaching the position while caught in a submission does not immediately earn points. Use that distinction to review an exchange without inventing a universal ranking of dangerous positions.",
+  "summary": "Under IBJJF rules, reaching a scoring position while caught in a submission does not earn points until the attack is escaped and the position is stabilized.",
+  "overview": "A better position does not necessarily mean a submission has ended. Under IBJJF Article 3.3, an athlete who reaches a scoring position while caught in a submission must escape the attack and stabilize the position for three seconds before receiving points. This distinction matters when a positional gain happens during an ongoing hold. Submission can also be verbal: Article 2.1 recognizes a request to stop the match.",
   "related_content": [
     {
       "name": "Positional Hierarchy",
@@ -133,34 +133,24 @@
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Defensive Priorities: Threat, Control and Score",
+    "display_title": "Defensive Priorities Under IBJJF Rules",
     "audience": {
       "fits": [
-        "You finish reviewing a round with several overlapping problems and need to choose a specific subject for further study.",
-        "You want to distinguish positional improvement from submission escape when reviewing an IBJJF match."
+        "You want to understand why a positional gain during a submission attempt may not immediately score in an IBJJF match.",
+        "You need a concise explanation of submission signals and the scoring conditions that apply after escaping a hold."
       ],
-      "consider_alternative_if": [
-        "You already know the pin you need to escape: use Danaher Pin Escape Fundamentals for a position-specific course route instead of another classification exercise."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "A review structure that records the submission situation, the controlling position and the scoring event separately.",
-        "IBJJF Article 2.1 recognizes submission signals, including verbal withdrawal; Article 3.3 separates escape from a submission hold and stabilization of a scoring position."
+        "Article 3.3: points for a position reached while caught in a submission require escape from the attack and three seconds of stabilization.",
+        "Article 3.3.1: if the athlete only escapes after losing that scoring position, no points or advantages are awarded for it.",
+        "Article 2.1: submission signals include physical tapping and verbal withdrawal requesting a stoppage."
       ],
       "limits": [
-        "IBJJF scoring rules supply the competition example; they do not establish a universal technical escape order or rank every defensive position.",
-        "This guide organizes observations and study choices. The corresponding escape mechanics belong in position-specific instruction."
+        "This article covers IBJJF competition rules, not a universal ranking of defensive positions.",
+        "Escape mechanics and training progressions are outside its scope."
       ]
-    },
-    "start_here": {
-      "title": "Separate three events in one defensive exchange",
-      "kind": "observation",
-      "task": "Review one recorded exchange in an IBJJF match. Make three parallel notes: a submission hold you can identify, the position being controlled, and any scoring signal. Mark uncertain observations rather than filling them in. Compare the order with Article 3.3: if a scoring position is reached while the athlete is caught in a submission, points require escaping that attack and stabilizing the position for three seconds. Decide whether your next study question is about the hold, the pin or the rule; locate the relevant positional guide only after that distinction is clear.",
-      "source_ids": [
-        "ibjjf-rules"
-      ],
-      "section": "IBJJF Rules Book, Article 3.3 (printed page 17); Article 2.1 (printed page 15)"
     },
     "sources": [
       {
@@ -179,6 +169,12 @@
         "kind": "official_listing",
         "checked_on": "2026-09-16",
         "note": "Verified the positional-study alternative includes separate mount, side-pin, rear-mount and turtle sections."
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Danaher Pin Escape Fundamentals System",
+        "reason": "For instruction in escaping mount, side pins, rear mount and turtle, rather than an explanation of scoring rules."
       }
     ]
   },
