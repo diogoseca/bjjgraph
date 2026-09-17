@@ -10,13 +10,13 @@
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
   "description": "Craig Jones’s You Can't Knee bahh covers kneebar categories, half-guard entries, 50/50, rolling entries and ride-based attacks.",
-  "summary": "Choose a kneebar study route by comparing the half-guard, standing and ride contexts listed in Craig Jones’s course.",
-  "overview": "You Can’t Knee bahh organizes one submission family across several starting positions, with a final rolling section.",
+  "summary": "Kneebar variations and entries from half guard, 50/50, rides and standing exchanges.",
+  "overview": "You Can’t Knee bahh organizes Craig Jones’s kneebar material around different leg configurations and the positions that lead to them. Half guard, 50/50, standing entries and top rides all receive attention. Toe holds and other leg attacks appear as combinations around the central kneebar focus.",
   "related_content": [
     {
       "name": "Kneebar",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Kneebar Control",
@@ -51,22 +51,22 @@
     {
       "name": "Toe Hold",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Leg Entanglement",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Transition Management",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Craig Jones Leg Lock System",
       "content_type": "System",
-      "relationship": "Broader leg-entanglement course choice, including saddle and 50/50 material."
+      "relationship": "Down Under Leg Attacks gives more attention to heel hooks, entanglement positions and responses to escapes."
     }
   ],
   "flashcards": [],
@@ -79,38 +79,29 @@
       "course_url": "https://bjjfanatics.com/products/you-cant-kneebar-by-craig-jones",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Kneebar categories and finishing topics; half guard, 50/50, rolling entries and ride-based attacks.",
-      "best_for": "You want kneebar material tied to a particular top or bottom position.",
-      "study_focus": "Keep top and bottom half-guard questions separate"
+      "blurb": "Four volumes on kneebar mechanics, positional entries and connected leg attacks.",
+      "best_for": "Grapplers seeking a focused kneebar course with varied entry positions."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Craig Jones: Kneebar Study",
+    "display_title": "Craig Jones: Kneebars",
     "audience": {
       "fits": [
-        "You want kneebar material tied to a particular top or bottom position."
+        "You want kneebar options from both top and bottom positions.",
+        "You already encounter half guard or 50/50 and want a course centered on this submission."
       ],
-      "consider_alternative_if": [
-        "For a wider entanglement and heel-hook study, compare Craig Jones Leg Lock System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Kneebar categories and finishing topics; half guard, 50/50, rolling entries and ride-based attacks."
+        "Kneebar configurations, finishing mechanics and toe control.",
+        "Top and bottom half guard, knee-shield and 50/50 entries.",
+        "Rolling entries, dog bars, crab rides and toe-hold combinations."
       ],
       "limits": [
-        "The central subject is kneebars; other leg submissions appear in that context."
+        "Its four volumes concentrate on kneebars and nearby attacks, rather than giving equal treatment to all leg-lock families."
       ]
-    },
-    "start_here": {
-      "title": "Keep top and bottom half-guard questions separate",
-      "kind": "observation",
-      "task": "Compare the two half-guard headings in Volume 2. Choose the role where you encounter the problem and note which lesson addresses it. If you own the course, compare where each demonstration starts before considering its continuation; do not treat the two labels as interchangeable setups.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 2: Half Guard Top, 0; Half Guard Bottom, 14:00"
     },
     "sources": [
       {
@@ -128,6 +119,12 @@
         "kind": "official_listing",
         "checked_on": "2026-09-16",
         "note": "Official listing inspected to compare the advertised subject and course breadth with this guide."
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Craig Jones Leg Lock System",
+        "reason": "Down Under Leg Attacks gives more attention to heel hooks, entanglement positions and responses to escapes."
       }
     ]
   }

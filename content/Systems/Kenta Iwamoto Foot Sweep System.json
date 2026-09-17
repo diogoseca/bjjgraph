@@ -9,8 +9,8 @@
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
   "description": "Kenta Iwamoto’s Samurai Foot Sweeps & Leg Trips covers kouchi and kosoto situations, grip fighting, over-under throws and shot-defense topics.",
-  "summary": "Compare foot-sweep situations, grip fighting and clinch-trip study in Kenta Iwamoto’s course.",
-  "overview": "Samurai Foot Sweeps & Leg Trips extends beyond foot sweeps into over-under work, other throws and shot-defense topics.",
+  "summary": "Foot sweeps, clinch throws and responses to shots within a standing grappling course.",
+  "overview": "Samurai Foot Sweeps & Leg Trips develops Kenta Iwamoto’s standing attacks from kouchi and kosoto into grip fighting and clinch throws. The course also covers shot defense, extending its scope beyond foot sweeps. It fits grapplers interested in attacks from upright ties and over-under exchanges.",
   "related_content": [
     {
       "name": "Standing Position",
@@ -35,42 +35,42 @@
     {
       "name": "Kouchi Gari",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Uchi Mata",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Kuzushi",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Timing and Rhythm",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Action and Reaction",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Jimmy Sheptock Single Leg System",
       "content_type": "System",
-      "relationship": "Alternative focus: single-leg shots, tie clearing and finishes."
+      "relationship": "The Single Leg Takedown focuses on wrestling ties, entries and high or low single-leg finishes."
     }
   ],
   "flashcards": [],
@@ -83,38 +83,29 @@
       "course_url": "https://bjjfanatics.com/products/samurai-foot-sweeps-leg-trips-by-kenta-iwamoto",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Kouchi/kosoto situations, grip fighting, over-under throws, clinch combinations and single-leg defense topics.",
-      "best_for": "You want a standing study path based on foot sweeps and clinch connections.",
-      "study_focus": "Distinguish a sweep opportunity from its mechanics"
+      "blurb": "Five parts on foot sweeps, clinch throws, grip fighting and shot defense.",
+      "best_for": "Grapplers adding sweeps and trips to an upright clinch game."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Kenta Iwamoto: Foot Sweeps and Clinch Trips",
+    "display_title": "Kenta Iwamoto: Foot Sweeps and Leg Trips",
     "audience": {
       "fits": [
-        "You want a standing study path based on foot sweeps and clinch connections."
+        "You want standing attacks built around foot sweeps and clinch trips.",
+        "You want grip-fighting and shot-defense material alongside throws."
       ],
-      "consider_alternative_if": [
-        "For extensive single-leg shot and finishing study, compare Jimmy Sheptock Single Leg System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Kouchi/kosoto situations, grip fighting, over-under throws, clinch combinations and single-leg defense topics."
+        "Kouchi and kosoto mechanics and attacking situations.",
+        "Grip fighting, over-under throws and overhook or underhook clinches.",
+        "Single-leg defense and rear-body-lock counters."
       ],
       "limits": [
-        "This is a sweep-and-trip selection with related clinch work, not a full judo or wrestling syllabus."
+        "The five parts focus on standing exchanges, without a ground-control or submission curriculum."
       ]
-    },
-    "start_here": {
-      "title": "Distinguish a sweep opportunity from its mechanics",
-      "kind": "observation",
-      "task": "Find the adjacent mechanics and situation headings in Volume 1. When viewing a standing exchange, record the grip context and movement immediately before a sweep attempt, without judging its execution. Use the situation lesson to frame what you still need to recognize.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 1: Optimal Situation For A Foot Sweep, 02:41–05:02"
     },
     "sources": [
       {
@@ -146,6 +137,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Jimmy Sheptock Single Leg System",
+        "reason": "The Single Leg Takedown focuses on wrestling ties, entries and high or low single-leg finishes."
+      }
+    ]
   }
 }

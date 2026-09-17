@@ -12,8 +12,8 @@
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
   "description": "Garry Tonon’s Shoot To Kill: Wrestle, Scramble, Submit covers wrestling setups, back access, ashi entries, front headlocks and scrambles.",
-  "summary": "Explore Tonon’s wrestling and scramble course through its back-taking, leg-entry and front-headlock study routes.",
-  "overview": "Shoot To Kill: Wrestle, Scramble, Submit is broader than a leg-lock-to-back chain. It organizes submission-grappling takedowns and the attacks that surround them.",
+  "summary": "Wrestling entries developed into takedowns, back attacks and submissions during scrambles.",
+  "overview": "Shoot To Kill: Wrestle, Scramble, Submit covers Garry Tonon’s connections between wrestling and submission grappling. Singles, doubles and body locks sit alongside leg entanglements, front-headlock attacks and scrambling positions. Back takes and leg locks are part of this broader curriculum, which also includes demonstrations through drills and rolling footage.",
   "related_content": [
     {
       "name": "Saddle",
@@ -68,57 +68,57 @@
     {
       "name": "Inside Ashi Entry",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Saddle Entry from Top",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Kiss of the Dragon",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "X-Guard to Ashi Garami",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Turtle to Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Heel Hook",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Inside Heel Hook",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Rear Naked Choke",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Twister",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Kneebar",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Leg Entanglement",
@@ -128,37 +128,37 @@
     {
       "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Control Point Hierarchy",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Danaher Leg Lock System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Back Attack System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Craig Jones Leg Lock System",
       "content_type": "System",
-      "relationship": "Down Under Leg Attacks explicitly lists back-taking topics from leg positions."
+      "relationship": "Down Under Leg Attacks concentrates more closely on leg-entanglement positions, heel hooks and escape responses."
     }
   ],
   "flashcards": [],
@@ -171,38 +171,31 @@
       "course_url": "https://bjjfanatics.com/products/shoot-to-kill-wrestle-scramble-submit-by-garry-tonon",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Wrestling setups, back access, ashi entries, upper-body attacks, scrambles and a live-drill/rolling section.",
-      "best_for": "You want to study what follows a wrestling exchange in submission grappling.",
-      "study_focus": "Compare three outcomes around a single-leg exchange"
+      "blurb": "Eight volumes connecting wrestling, scrambles, back attacks and submissions.",
+      "best_for": "Submission grapplers looking to connect their wrestling and ground offense."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Garry Tonon: Wrestling into Submission Attacks",
+    "display_title": "Garry Tonon: Wrestling, Scrambles and Submissions",
     "audience": {
       "fits": [
-        "You want to study what follows a wrestling exchange in submission grappling."
+        "You want submission opportunities connected to wrestling exchanges.",
+        "You want material on singles, doubles and body locks as well as what follows them."
       ],
       "consider_alternative_if": [
-        "For named leg-entanglement-to-back topics, compare Craig Jones Leg Lock System."
+        "You need a course devoted solely to leg-lock finishing details."
       ]
     },
     "coverage": {
       "includes": [
-        "Wrestling setups, back access, ashi entries, upper-body attacks, scrambles and a live-drill/rolling section."
+        "Wrestling posture and setups, singles, doubles, trips and body-lock returns.",
+        "Ashi entries, front-headlock attacks, kimuras and back takes from wrestling situations.",
+        "Scramble rolls, drills and rolling footage."
       ],
       "limits": [
-        "It is not a dedicated course about cycling between leg locks and back control."
+        "Its eight volumes span standing exchanges and multiple submission families; leg-lock-to-back transitions are only part of the course."
       ]
-    },
-    "start_here": {
-      "title": "Compare three outcomes around a single-leg exchange",
-      "kind": "observation",
-      "task": "Browse the single-leg headings across Volumes 2, 3 and 6. Label them as takedown work, leg-entry study or upper-body attack study according to their surrounding sections. Choose the category that matches your question. Owners can start with the Volume 3 introduction to understand that branch.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 3: Attacking Legs - Ashi Garami Pulls - Intro, 0–2:00"
     },
     "sources": [
       {
@@ -231,6 +224,12 @@
       "checked_on": "2026-09-16",
       "content_reviewed": false,
       "playback_verified_on": []
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Craig Jones Leg Lock System",
+        "reason": "Down Under Leg Attacks concentrates more closely on leg-entanglement positions, heel hooks and escape responses."
+      }
+    ]
   }
 }

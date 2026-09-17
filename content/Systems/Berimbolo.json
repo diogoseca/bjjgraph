@@ -13,9 +13,9 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "description": "An orientation to Mikey Musumeci’s The Berimbolo System Part 1: The Foundation, including double pull, inversion and routes toward the back.",
-  "summary": "Use Mikey Musumeci’s foundation course to decide whether double-pull and inversion study match your berimbolo question.",
-  "overview": "This guide is an orientation to one published approach. It helps you identify the starting situation before committing to a long catalogue of variations.",
+  "description": "Mikey Musumeci’s The Berimbolo System Part 1: The Foundation covers double pull, De La Riva grips, inversion and berimbolo variations.",
+  "summary": "Double-pull positioning, inversion and the basic berimbolo, with routes to the back and mount.",
+  "overview": "The Berimbolo System Part 1: The Foundation introduces Mikey Musumeci’s approach through double-pull positioning, De La Riva grips and inversion. It then develops the basic berimbolo into stacking, pulling and uninverting options. This guide emphasizes the starting positions and foundations within that eight-volume release.",
   "related_content": [
     {
       "name": "De La Riva Guard",
@@ -60,87 +60,87 @@
     {
       "name": "Berimbolo Entry",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Kiss of the Dragon",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "De La Riva Sweep",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "X-Guard Sweep",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Rolling Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Crab Ride to Back",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Timing and Rhythm",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Dominant Angles",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Posture",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Hip Escape Mechanics",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Transition Management",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Mikey Musumeci Berimbolo System",
       "content_type": "System",
-      "relationship": "Same course, with a study route comparing stacking and pulling branches."
+      "relationship": "The same foundation course viewed through its stacking, pulling and twister-hook variations; no additional course is required."
     },
     {
       "name": "Marcelo Garcia X-Guard System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Dynamic Guard System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Competition Preparation System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     }
   ],
   "flashcards": [],
@@ -153,38 +153,31 @@
       "course_url": "https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Double-pull study, inversion, stacking and pulling routes, and later top-position branches.",
-      "best_for": "You are curious about berimbolo but have not chosen a starting situation.",
-      "study_focus": "Check whether double pull matches your study goal"
+      "blurb": "An eight-volume foundation course covering berimbolo entries and subsequent positional options.",
+      "best_for": "Guard players interested in the foundations of Musumeci’s berimbolo approach."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Berimbolo: Choosing a Foundation",
+    "display_title": "Berimbolo: Foundations with Mikey Musumeci",
     "audience": {
       "fits": [
-        "You are curious about berimbolo but have not chosen a starting situation."
+        "You want a berimbolo course that includes the double-pull and grip-fighting context.",
+        "You are interested in inversion-based guard attacks toward the back or mount."
       ],
       "consider_alternative_if": [
-        "If you already study Musumeci’s foundation material, use Mikey Musumeci Berimbolo System for a more focused reaction comparison."
+        "You want guard offense that avoids inversion and double-pull situations."
       ]
     },
     "coverage": {
       "includes": [
-        "Double-pull study, inversion, stacking and pulling routes, and later top-position branches."
+        "Double-pull positioning, De La Riva hand fighting and inversion.",
+        "Basic berimbolo entries with leg or hip grips.",
+        "Stacking, pulling and uninverting options leading toward back control or mount."
       ],
       "limits": [
-        "The linked release is Part 1: The Foundation, not the whole multi-release Berimbolo System."
+        "This is Part 1: The Foundation, not the entire multi-release Berimbolo System. Collar and pant grips feature in its starting-position material."
       ]
-    },
-    "start_here": {
-      "title": "Check whether double pull matches your study goal",
-      "kind": "observation",
-      "task": "Read the opening contents around double pull and inversion. Describe the starting situation you hoped to learn and compare it with the stated double-pull starting point. If they differ, keep that mismatch in your course-selection notes. Owners can hear the rationale in the named lesson.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 1: Why We Are Starting In Double Pull, 16:11–18:01"
     },
     "sources": [
       {
@@ -208,6 +201,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Mikey Musumeci Berimbolo System",
+        "reason": "The same foundation course viewed through its stacking, pulling and twister-hook variations; no additional course is required."
+      }
+    ]
   }
 }

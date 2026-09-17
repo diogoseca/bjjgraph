@@ -10,13 +10,13 @@
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
   "description": "John Danaher’s Arm Bars: Enter The System covers armbar control, hand separation and entries from guard, top pins and back-attacking situations.",
-  "summary": "Navigate Danaher’s armbar course by separating entry, control and hand-separation questions.",
-  "overview": "Arm Bars: Enter The System treats the armbar across bottom, top and back-attacking situations. Choose the study phase before collecting more entries.",
+  "summary": "Armbar control and hand separation, with entries from guard, pins and back attacks.",
+  "overview": "Arm Bars: Enter The System examines the armbar beyond the initial entry. John Danaher devotes material to controlling the position, separating defensive grips and finishing, then covers entries from guard and top positions. It suits someone whose armbar stalls after getting into place as well as someone seeking a wider set of entries.",
   "related_content": [
     {
       "name": "Armbar",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Armbar Control",
@@ -46,36 +46,30 @@
     {
       "name": "Wedges",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Levers",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Submission Clinic System",
       "content_type": "System",
-      "relationship": "A kimura-centered alternative for studying positional and submission branches."
+      "relationship": "Kimura: Enter The System centers on kimura control, including switches to other submissions and positions."
     }
   ],
-  "flashcards": [
-    {
-      "question": "Which study categories help separate an armbar entry problem from a defensive hand-connection problem in Danaher’s course?",
-      "answer": "The published contents separate entry, control and separation. Use those categories to locate the question before choosing a correction from the instruction.",
-      "answer_line": "Entry, control and separation"
-    }
-  ],
+  "flashcards": [],
   "products": [
     {
       "id": "enter-the-system-arm-bar-by-john-danaher",
@@ -85,38 +79,31 @@
       "course_url": "https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Control and separation material, guard entries, mounted and side-pin attacks, and connections with back and leg attacks.",
-      "best_for": "Your armbar study mixes reaching the position with retaining it or separating defensive grips.",
-      "study_focus": "Sort one armbar problem by study phase"
+      "blurb": "An eight-volume armbar course covering control, hand separation, finishing and positional entries.",
+      "best_for": "Grapplers seeking detailed armbar control and entry coverage."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "John Danaher: Armbar Control and Entries",
+    "display_title": "John Danaher: Arm Bars",
     "audience": {
       "fits": [
-        "Your armbar study mixes reaching the position with retaining it or separating defensive grips."
+        "You reach armbar positions but struggle with control or defensive hand connections.",
+        "You want entries from both guard and dominant positions."
       ],
       "consider_alternative_if": [
-        "For transitions organized around a kimura rather than an armbar, compare Submission Clinic System."
+        "You want a short overview of several unrelated submissions."
       ]
     },
     "coverage": {
       "includes": [
-        "Control and separation material, guard entries, mounted and side-pin attacks, and connections with back and leg attacks."
+        "Armbar orientation, leg configurations and positional control.",
+        "Hand-separation methods and finishing mechanics.",
+        "Top-lock and shoulder-pivot guard entries, plus mount, side-pin and back-attack connections."
       ],
       "limits": [
-        "The course concentrates on juji gatame; it is not a general upper-body submission survey."
+        "All eight volumes develop one submission family; the course is not a general submission curriculum."
       ]
-    },
-    "start_here": {
-      "title": "Sort one armbar problem by study phase",
-      "kind": "observation",
-      "task": "Read the phase headings in Volume 1 and the control and separation sections in Volumes 2–3. Describe one unresolved exchange without guessing a correction, then select whether it raises an entry, control or separation question. Owners can start with the control overview below.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 1: overview 2st Phase - Control, 34:44–40:13"
     },
     "sources": [
       {
@@ -148,6 +135,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Submission Clinic System",
+        "reason": "Kimura: Enter The System centers on kimura control, including switches to other submissions and positions."
+      }
+    ]
   }
 }

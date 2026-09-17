@@ -14,8 +14,8 @@
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
   "description": "Craig Jones’s Down Under Leg Attacks covers single-leg X, saddle, 50/50, escape-response topics and back-taking branches.",
-  "summary": "Use Down Under Leg Attacks to locate entanglement, escape-response and back-taking topics in Craig Jones’s leg-lock study.",
-  "overview": "The listed material moves among single-leg X, saddle and 50/50, then adds entries from other attacking situations.",
+  "summary": "Heel-hook offense across single-leg X, saddle and 50/50, with escape responses and back takes.",
+  "overview": "Down Under Leg Attacks covers Craig Jones’s entries and attacks across several leg entanglements. Heel exposure and finishing sit alongside common escape responses, while back takes provide another direction from leg-control positions. Its four volumes also connect leg attacks to existing submissions and guard entries.",
   "related_content": [
     {
       "name": "Saddle",
@@ -60,102 +60,102 @@
     {
       "name": "Outside Heel Hook",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Inside Heel Hook",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Straight Ankle Lock",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Calf Slicer",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Achilles Lock",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Saddle Entry from Top",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Inside Ashi Entry",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Outside Ashi Entry",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Backstep from Single Leg X",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Ashi Garami Escape",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Back Take from Ashi",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "50-50 Entry from Standing",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Leg Entanglement",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Danaher Leg Lock System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Lachlan Giles Leg Lock Defense Framework",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "B-Team Dilemma System",
       "content_type": "System",
-      "relationship": "Alternative course emphasis: triangle and lower-body combinations."
+      "relationship": "Systematic Submission Dilemmas puts more emphasis on triangle variations and the connections between upper- and lower-body submissions."
     }
   ],
   "flashcards": [],
@@ -168,9 +168,8 @@
       "course_url": "https://bjjfanatics.com/products/down-under-leg-attacks-by-craig-jones",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Single-leg X and saddle material, 50/50 topics, named escape responses and back-taking lessons.",
-      "best_for": "You need a leg-attack study organized around positions and named escape problems.",
-      "study_focus": "Distinguish an escape response from a back-taking branch"
+      "blurb": "Four volumes combining leg-entanglement entries, heel hooks, escape responses and back takes.",
+      "best_for": "Grapplers looking for leg-lock offense with positional follow-ups."
     }
   ],
   "guide": {
@@ -178,28 +177,20 @@
     "display_title": "Craig Jones: Down Under Leg Attacks",
     "audience": {
       "fits": [
-        "You need a leg-attack study organized around positions and named escape problems."
+        "You want heel-hook material across several entanglements.",
+        "You want escape-response and back-taking coverage alongside leg-lock finishes."
       ],
-      "consider_alternative_if": [
-        "If triangle-to-leg combinations are the main interest, compare B-Team Dilemma System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Single-leg X and saddle material, 50/50 topics, named escape responses and back-taking lessons."
+        "Single-leg X, saddle and 50/50 positioning and attacks.",
+        "Heel exposure, finishing and responses to running or kick-off escapes.",
+        "Back takes and leg entries connected to guillotines, kimuras and guard positions."
       ],
       "limits": [
-        "This release has a leg-attack center of gravity; triangle combinations receive a different emphasis in Craig’s dilemma course."
+        "The course emphasizes heel-hook offense and its positional connections; it is not an equal survey of every foot, ankle and knee submission."
       ]
-    },
-    "start_here": {
-      "title": "Distinguish an escape response from a back-taking branch",
-      "kind": "observation",
-      "task": "Locate the running-escape response in Volume 1 and the running-man back-taking heading in Volume 3. Put both in your study notes without assuming they describe the same defensive motion. Course owners can compare the demonstrated starting configurations before linking the lessons.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 1: Countering the running escape, 13:16–24:18"
     },
     "sources": [
       {
@@ -217,6 +208,12 @@
         "kind": "official_listing",
         "checked_on": "2026-09-16",
         "note": "Official listing inspected to compare the advertised subject and course breadth with this guide."
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "B-Team Dilemma System",
+        "reason": "Systematic Submission Dilemmas puts more emphasis on triangle variations and the connections between upper- and lower-body submissions."
       }
     ]
   }

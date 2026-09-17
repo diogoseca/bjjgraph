@@ -13,8 +13,8 @@
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
   "description": "The Roger Gracie Closed Guard System covers closed-guard maintenance, collar and lapel attacks, arm locks, sweeps and back-attacking material.",
-  "summary": "Choose a closed-guard study route among Roger Gracie’s collar attacks, arm attacks and sweeps.",
-  "overview": "The linked material is a focused closed-guard course. Its maintenance lesson provides a starting point before selecting one offensive category.",
+  "summary": "Closed-guard maintenance and offense through collar attacks, arm locks, sweeps and back takes.",
+  "overview": "The Roger Gracie Closed Guard System develops offense from one guard. Roger Gracie combines collar and lapel attacks with arm locks, sweeps and routes to the back. This is a focused choice for gi players who want more options after securing closed guard.",
   "related_content": [
     {
       "name": "Mount",
@@ -59,97 +59,97 @@
     {
       "name": "Cross Collar Choke",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Far Side Armbar",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Rear Naked Choke",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Positional Hierarchy",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Maximum Efficiency Principle",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Pressure",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Escape Fundamentals",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Levers",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Center of Gravity",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Guard Passing",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Bernardo Faria Pressure System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Gi-Specific Strategy",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Competition Strategy",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Blue to Purple Progression",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Danaher Armbar System",
       "content_type": "System",
-      "relationship": "Alternative for a dedicated armbar study extending beyond closed guard."
+      "relationship": "Arm Bars: Enter The System offers more extensive armbar control and hand-separation material across guard and top positions."
     }
   ],
   "flashcards": [],
@@ -162,38 +162,31 @@
       "course_url": "https://bjjfanatics.com/products/the-roger-gracie-closed-guard-system-by-roger-gracie",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Closed-guard maintenance, collar and lapel attacks, arm locks, sweeps and back-attacking material.",
-      "best_for": "You want a gi closed-guard course with both submission and sweep topics.",
-      "study_focus": "Choose an attack category after checking the starting guard"
+      "blurb": "Four parts covering closed-guard maintenance, submissions, sweeps and back attacks.",
+      "best_for": "Gi players seeking a concentrated closed-guard offense course."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Roger Gracie: Closed-Guard Offense",
+    "display_title": "Roger Gracie: Closed Guard",
     "audience": {
       "fits": [
-        "You want a gi closed-guard course with both submission and sweep topics."
+        "You want closed-guard offense using collar and lapel grips.",
+        "You want sweeps and back takes alongside submissions."
       ],
       "consider_alternative_if": [
-        "If you need detailed armbar study across guard and top positions, compare Danaher Armbar System."
+        "You want a course that avoids gi grips."
       ]
     },
     "coverage": {
       "includes": [
-        "Closed-guard maintenance, collar and lapel attacks, arm locks, sweeps and back-attacking material."
+        "Guard maintenance, collar chokes and lapel attacks.",
+        "Arm locks, kimuras and wrist locks.",
+        "Scissor, hook and lumberjack sweeps, plus side-closed-guard back attacks."
       ],
       "limits": [
-        "This course does not represent Roger Gracie’s entire fundamentals game or a mount-control syllabus."
+        "The four parts cover closed guard, not a full fundamentals curriculum across passing, escapes and other guards."
       ]
-    },
-    "start_here": {
-      "title": "Choose an attack category after checking the starting guard",
-      "kind": "observation",
-      "task": "Read the maintenance heading and compare the choke and sweep groups on the public page. Pick the category that addresses your current closed-guard question. Owners can start with maintenance and record the stated starting conditions before moving to the selected attack lesson.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 1: Maintaining in the Closed Guard"
     },
     "sources": [
       {
@@ -225,6 +218,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Danaher Armbar System",
+        "reason": "Arm Bars: Enter The System offers more extensive armbar control and hand-separation material across guard and top positions."
+      }
+    ]
   }
 }

@@ -14,8 +14,8 @@
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
   "description": "John Danaher’s Kimura: Enter The System covers dorsal and T-kimura topics, alternative submissions and positional changes from guard and takedown situations.",
-  "summary": "Use Danaher’s kimura course to compare changing submission with changing position.",
-  "overview": "This companion organizes one connected attack family. The kimura is the common subject across dorsal, T-kimura, guard and takedown situations.",
+  "summary": "Kimura finishing, positional transitions and alternative submissions from a shared control.",
+  "overview": "Kimura: Enter The System treats the kimura as both a submission and a way of changing position. John Danaher covers dorsal and T-kimura situations, defensive grip problems and transitions to back attacks or other submissions. The course fits someone who wants options beyond finishing the shoulder lock itself.",
   "related_content": [
     {
       "name": "Mount",
@@ -80,97 +80,97 @@
     {
       "name": "Armbar from Armbar Control",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Triangle Setup",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Triangle to Armbar",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Triangle to Omoplata",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Kimura to Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Armbar from Back Transition",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Rear Naked Choke",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Triangle Choke",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Kimura",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Americana",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Omoplata",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Arm Triangle",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Guillotine Choke",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Positional Hierarchy",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Edwin Najmi Submission Attack System",
       "content_type": "System",
-      "relationship": "Alternative format: separate darce, triangle and Estima-lock tracks."
+      "relationship": "Mission Submission offers separate darce, triangle and Estima-lock sections rather than building the course around kimura control."
     }
   ],
   "flashcards": [],
@@ -183,38 +183,29 @@
       "course_url": "https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Dorsal and T-kimura topics, alternative submissions and positions, plus applications from guard and takedown exchanges.",
-      "best_for": "You want to study choices around a kimura when a direct finish is not your only question.",
-      "study_focus": "Compare changing the attack with changing the position"
+      "blurb": "An eight-volume course on kimura control, finishing and positional or submission transitions.",
+      "best_for": "Grapplers seeking several attacking options from kimura control."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "John Danaher: Kimura Branches",
+    "display_title": "John Danaher: Kimura Control and Attacks",
     "audience": {
       "fits": [
-        "You want to study choices around a kimura when a direct finish is not your only question."
+        "You want positional transitions and alternative attacks from kimura control.",
+        "You want kimura entries from guard, top positions and takedown exchanges."
       ],
-      "consider_alternative_if": [
-        "For several separate submission tracks, compare Edwin Najmi Submission Attack System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Dorsal and T-kimura topics, alternative submissions and positions, plus applications from guard and takedown exchanges."
+        "Grip and arm-position mechanics, dorsal kimuras and reinforced-hand defenses.",
+        "T-kimura connections to the back, triangles, arm bars and leg entanglements.",
+        "Entries from pins, guard, turtle and standing or single-leg exchanges."
       ],
       "limits": [
-        "The linked instructional is kimura-centered, not a clinic covering every submission in the related graph cards."
+        "The eight volumes are organized around kimura control; they do not survey all submission families equally."
       ]
-    },
-    "start_here": {
-      "title": "Compare changing the attack with changing the position",
-      "kind": "observation",
-      "task": "Locate the two switching lessons in Volume 2. Make separate notes for the next submission and the next position, leaving their conditions blank. Owners can watch the lessons in order and fill those conditions from the demonstrations rather than assume a blocked kimura always has one prescribed follow-up.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 2: Switching to Alternative Submission, 34:04–39:18; Switching to Different Position / System, 39:18–48:56"
     },
     "sources": [
       {
@@ -246,6 +237,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Edwin Najmi Submission Attack System",
+        "reason": "Mission Submission offers separate darce, triangle and Estima-lock sections rather than building the course around kimura control."
+      }
+    ]
   }
 }

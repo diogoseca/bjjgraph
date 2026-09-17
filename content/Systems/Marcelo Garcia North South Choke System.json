@@ -10,13 +10,13 @@
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
   "description": "Marcelo Garcia’s The Complete North South Choke covers alignment, grip concepts, blocking-arm problems and entries from several top positions.",
-  "summary": "Find the setup, alignment or frame-clearing topic relevant to your north-south choke question.",
-  "overview": "Marcelo Garcia’s course concentrates on one choke while drawing entries from several top positions and adjacent attacks.",
+  "summary": "A focused choke course addressing alignment, defensive frames and entries from top positions.",
+  "overview": "The Complete North South Choke examines Marcelo Garcia’s setup and finishing details for one submission. Alignment and grips are followed by ways of dealing with blocking arms, head turns and escapes. Entries from several top positions make it relevant to grapplers who want this choke within their existing top game.",
   "related_content": [
     {
       "name": "North-South Choke",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "North-South",
@@ -51,31 +51,25 @@
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Submission Clinic System",
       "content_type": "System",
-      "relationship": "A kimura-centered route for studying alternatives between positions and submissions."
+      "relationship": "Kimura control and its connections to other positions and submissions."
     }
   ],
-  "flashcards": [
-    {
-      "question": "How can a north-south choke study question be made more specific before choosing a lesson?",
-      "answer": "Classify it as an entry, alignment or blocking-arm question. Garcia’s public contents provide distinct material for those subjects; the category alone does not diagnose the technical error.",
-      "answer_line": "Entry, alignment or blocking arm"
-    }
-  ],
+  "flashcards": [],
   "products": [
     {
       "id": "the-complete-north-south-choke-by-marcelo-garcia",
@@ -85,38 +79,29 @@
       "course_url": "https://bjjfanatics.com/products/the-complete-north-south-choke-by-marcelo-garcia",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Alignment and grips, blocking-arm problems, top-position entries and reconnection topics.",
-      "best_for": "You arrive near north-south but need a more specific study question than how to squeeze harder.",
-      "study_focus": "Classify the obstacle before choosing an entry lesson"
+      "blurb": "Four volumes on north-south choke mechanics, defensive problems and entries.",
+      "best_for": "Top players seeking a detailed course on one choke."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Marcelo Garcia: North-South Choke Study",
+    "display_title": "Marcelo Garcia: The North-South Choke",
     "audience": {
       "fits": [
-        "You arrive near north-south but need a more specific study question than how to squeeze harder."
+        "You reach north-south but struggle to establish or maintain the choke.",
+        "You want entries from mount, half guard and knee on belly."
       ],
-      "consider_alternative_if": [
-        "For upper-body attacks linked through kimura positions, compare Submission Clinic System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Alignment and grips, blocking-arm problems, top-position entries and reconnection topics."
+        "Alignment, grips, elbow position and base.",
+        "Blocking-arm problems, head turns and finishing adjustments.",
+        "Entries from top positions and transitions from kimura or armbar attacks."
       ],
       "limits": [
-        "The emphasis is the choke, rather than a general north-south pinning or passing curriculum."
+        "The course concentrates on the choke; it is not a general north-south pinning or guard-passing curriculum."
       ]
-    },
-    "start_here": {
-      "title": "Classify the obstacle before choosing an entry lesson",
-      "kind": "observation",
-      "task": "Compare the Volume 1 alignment heading with the frame-clearing headings in Volume 3. In footage you can access, note whether the attack never forms or forms and then loses contact; leave the correction undecided. Owners can begin with alignment before selecting an entry from a familiar top position.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 1: North South Choke - Alignment and Positioning, 11:26–16:48"
     },
     "sources": [
       {

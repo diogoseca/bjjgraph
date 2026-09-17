@@ -9,8 +9,8 @@
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
   "description": "Aaron Benzrihem’s ankle-pick course covers standing setups, seated guard, three-point stance and same-side or cross-body finishing topics.",
-  "summary": "Compare standing, seated and three-point ankle-pick study routes in Aaron Benzrihem’s course.",
-  "overview": "The useful choice here is the starting context: the course gives separate attention to standing exchanges, seated guard and a three-point stance.",
+  "summary": "Ankle-pick attacks from standing, seated guard and a three-point stance.",
+  "overview": "Basics To Advanced: Ankle Picks For Jiu Jitsu treats the ankle pick as both a standing takedown and a seated-guard attack. Aaron Benzrihem covers distance, grips and setups before exploring same-side and cross-body finishes. The range of starting positions makes this relevant to grapplers who want an ankle attack that connects their standing and guard games.",
   "related_content": [
     {
       "name": "Standing Position",
@@ -35,42 +35,42 @@
     {
       "name": "Ankle Pick",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Ankle Pick Sweep",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Collar Drag",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Kuzushi",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Action and Reaction",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Jimmy Sheptock Single Leg System",
       "content_type": "System",
-      "relationship": "Alternative for studying single-leg entries and wrestling finishes rather than ankle picks."
+      "relationship": "Choose The Single Leg Takedown for tie clearing, head-inside single legs and high or low finishes in a wrestling setting."
     }
   ],
   "flashcards": [],
@@ -83,9 +83,8 @@
       "course_url": "https://bjjfanatics.com/products/basics-to-advanced-ankle-picks-for-jiu-jitsu-by-aaron-benzrihem",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Same-side and cross-body finishes, standing setups, seated entries and three-point-stance comparisons.",
-      "best_for": "You want an ankle-pick entry connected to a position you already study.",
-      "study_focus": "Choose the ankle-pick context you actually encounter"
+      "blurb": "Four parts on ankle-pick setups and finishes across standing and guard positions.",
+      "best_for": "Grapplers building an ankle-pick attack across several starting positions."
     }
   ],
   "guide": {
@@ -93,28 +92,20 @@
     "display_title": "Aaron Benzrihem: Ankle Picks",
     "audience": {
       "fits": [
-        "You want an ankle-pick entry connected to a position you already study."
+        "You want ankle-pick setups from standing and seated guard.",
+        "You want coverage of same-side and cross-body finishes rather than a single entry."
       ],
-      "consider_alternative_if": [
-        "For a single-leg wrestling curriculum, compare Jimmy Sheptock Single Leg System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Same-side and cross-body finishes, standing setups, seated entries and three-point-stance comparisons."
+        "Distance, grip choices and standing setups involving feints, trips and collar drags.",
+        "Seated entries, combat-base situations and three-point-stance attacks.",
+        "Same-side and cross-body finishing variations."
       ],
       "limits": [
-        "This is an ankle-pick specialization; it does not serve as a survey of wrestling shots."
+        "This is an ankle-pick course, with gi-grip setups among its material; it does not cover the full range of wrestling takedowns."
       ]
-    },
-    "start_here": {
-      "title": "Choose the ankle-pick context you actually encounter",
-      "kind": "observation",
-      "task": "Find the standing, seated and three-point sections on the public page. Match one to a recent exchange you remember, then compare the seated and three-point headings to identify which starting context you need to recognize. Owners can start with the comparison lesson below.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 4: 3 point vs seated - key differences, 1:14"
     },
     "sources": [
       {
@@ -146,6 +137,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Jimmy Sheptock Single Leg System",
+        "reason": "Choose The Single Leg Takedown for tie clearing, head-inside single legs and high or low finishes in a wrestling setting."
+      }
+    ]
   }
 }

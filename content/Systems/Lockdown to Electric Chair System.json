@@ -13,8 +13,8 @@
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
   "description": "Tom DeBlass’s The Lockdown Blueprint covers lockdown entries, electric-chair and reversal topics, leg attacks and top-side escapes.",
-  "summary": "Locate electric-chair, reversal and escape study inside Tom DeBlass’s lockdown course.",
-  "overview": "The Lockdown Blueprint covers both attacking from lockdown and escaping it. That makes the opposing roles useful to compare before focusing on one branch.",
+  "summary": "Lockdown offense and recovery, including electric-chair attacks and escapes from the top.",
+  "overview": "The Lockdown Blueprint covers Tom DeBlass’s lockdown half guard from both sides of the position. Electric-chair attacks sit alongside reversals, back entries and leg locks. Recovery and top-side escapes broaden the course beyond attacking from an already established lockdown.",
   "related_content": [
     {
       "name": "Lockdown",
@@ -59,97 +59,97 @@
     {
       "name": "Lockdown Recovery",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Old School Sweep",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Half Guard Pass",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Half Guard to Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Turtle to Truck",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Underhook Sweep from Half",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Whizzer",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Electric Chair",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Banana Split",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Twister",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Kuzushi",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Defensive Concepts",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "10th Planet Half Guard Bottom System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "10th Planet No-Gi Guard System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Twister System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Andrew Wiltse Half Guard System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Craig Jones Kneebar System",
@@ -167,38 +167,31 @@
       "course_url": "https://bjjfanatics.com/products/the-lockdown-blueprint-by-tom-deblass",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Lockdown entries, electric-chair and reversal topics, leg attacks, back entries and top-side escapes.",
-      "best_for": "You want to study the electric-chair branch without overlooking the opponent’s escape material.",
-      "study_focus": "Pair the electric-chair topic with its escape topic"
+      "blurb": "Four volumes combining lockdown attacks, recovery and top-side escapes.",
+      "best_for": "Half-guard players interested in lockdown offense and its defensive problems."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Tom DeBlass: Lockdown and Electric Chair Study",
+    "display_title": "Tom DeBlass: The Lockdown Blueprint",
     "audience": {
       "fits": [
-        "You want to study the electric-chair branch without overlooking the opponent’s escape material."
+        "You want more offense and recovery options from lockdown half guard.",
+        "You also want coverage of escaping an opponent’s lockdown."
       ],
       "consider_alternative_if": [
-        "For kneebars across more starting positions, compare Craig Jones Kneebar System."
+        "You need a general half-guard course spanning many styles."
       ]
     },
     "coverage": {
       "includes": [
-        "Lockdown entries, electric-chair and reversal topics, leg attacks, back entries and top-side escapes."
+        "Lockdown entries, electric-chair attacks, reversals and back entries.",
+        "Deep-half connections, leg locks and waiter-sweep material.",
+        "Recovery, reverse lockdown and escapes from top."
       ],
       "limits": [
-        "This is DeBlass’s lockdown instructional, rather than an official overview of the entire 10th Planet curriculum."
+        "The four volumes stay centered on lockdown; the electric chair is one attack within that position."
       ]
-    },
-    "start_here": {
-      "title": "Pair the electric-chair topic with its escape topic",
-      "kind": "observation",
-      "task": "Find the electric-chair heading in Volume 1 and the escape heading in Volume 4. Create two notes, one for each role, and identify what you would need to see demonstrated before linking them. Owners can begin with the entry lesson below and compare the escape only after recognizing the starting configuration.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 1: Lockdown - Underhook To Electric Chair, 5:25"
     },
     "sources": [
       {
