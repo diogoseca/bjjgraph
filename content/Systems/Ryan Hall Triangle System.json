@@ -12,9 +12,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "Ryan Hall’s The Modern Triangle separates triangle acquisition, finishing, defensive problems, arm attacks and scoring into distinct study topics.",
-  "description": "A reading guide to Ryan Hall’s current triangle curriculum and its options beyond the choke.",
-  "overview": "A stalled triangle can leave several different questions: how it was acquired, how the opponent is defending, or whether to pursue a scoring option. Hall’s published curriculum separates those questions, making it possible to select a relevant lesson without assuming one response fits every defense.",
+  "summary": "The Modern Triangle by Ryan Hall covers triangle control and finishing, specific defenses, arm attacks and scoring options.",
+  "description": "Ryan Hall’s current triangle course addresses frames, posture and pressure alongside submissions and sweeps from the triangle.",
+  "overview": "The Modern Triangle develops the triangle as a position with finishing, arm-attack and scoring options. Ryan Hall covers acquisition and locking, then addresses defensive frames, posture, pressure and rotation.\n\nThe curriculum includes opponents who stand, wrap the leg or bury across, as well as reverse configurations, sweeps and connections with fundamental submissions. It fits grapplers who want more options from an established triangle, especially when the choke is being defended.",
   "related_content": [
     {
       "name": "Closed Guard",
@@ -167,29 +167,18 @@
     "display_title": "Ryan Hall: The Modern Triangle",
     "audience": {
       "fits": [
-        "You want a triangle reference that distinguishes defensive problems from finishing and scoring options."
+        "You can reach triangles and want more ways to handle defenses, attack the arms or score."
       ],
-      "consider_alternative_if": [
-        "For a curriculum organized extensively around front, opposite, rear, side and reverse orientations, compare Danaher Triangle System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Separate sections cover the triangle process, finishing, frames, posture, pressure and rotation.",
-        "Further sections group arm attacks, alternate configurations, specific defenses, scoring and submission combinations."
+        "Triangle acquisition, locking and finishing, with separate treatment of frames, posture, pressure and rotation.",
+        "Specific defenses, alternate configurations, arm attacks, sweeps and connections with fundamental submissions."
       ],
       "limits": [
-        "This guide follows The Modern Triangle curriculum; it does not describe Hall’s earlier triangle releases."
+        "This page describes The Modern Triangle release on Ryan Hall Online; it does not cover Hall’s earlier triangle instructionals."
       ]
-    },
-    "start_here": {
-      "title": "Classify the defense before selecting a lesson",
-      "kind": "observation",
-      "task": "Use the public curriculum to sort one triangle problem from your training notes into frames, posture, or pressure and rotation. Then check the separate lessons for an opponent who stands, wraps the leg or buries across. Choose the closest match; if you own the course, compare that demonstration with your initial classification.",
-      "source_ids": [
-        "ryan-triangle"
-      ],
-      "section": "Managing Components of Opponent’s Defense: Frames (7:40); Posture (11:35); Pressure and rotation (6:50). Durations, not start times."
     },
     "sources": [
       {
@@ -207,6 +196,12 @@
         "kind": "official_listing",
         "checked_on": "2026-09-16",
         "note": "Verified title, instructor and syllabus covering front, opposite, rear, side and reverse triangles, entries and submission connections. Chapter labels identify coverage, not execution details."
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Danaher Triangle System",
+        "reason": "An eight-volume course extending across front, opposite, rear, side and reverse triangles with entries from many positions."
       }
     ]
   }

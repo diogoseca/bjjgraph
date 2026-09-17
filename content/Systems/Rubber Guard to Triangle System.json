@@ -12,9 +12,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "A comparison guide for choosing between Eddie Bravo’s broad rubber-guard curriculum and a specifically outlined triangle study route.",
-  "description": "Clarify the scope of the linked rubber-guard course before choosing a triangle lesson.",
-  "overview": "Eddie Bravo’s course is relevant to rubber guard, but its public chapter list does not name a rubber-guard-to-triangle lesson. Use this comparison to select between broader rubber-guard study and a curriculum with explicitly named triangle topics.",
+  "summary": "The Ultimate Rubber Guard by Eddie Bravo covers rubber-guard variations and an omoplata route, with limited published detail about triangle attacks.",
+  "description": "Rubber-guard course coverage and linked alternatives for a dedicated triangle focus.",
+  "overview": "The Ultimate Rubber Guard combines Eddie Bravo’s explanation of rubber guard with its development and terminology. Full rubber guard, variations, bottom half guard and an omoplata route make up the advertised technical coverage.\n\nFor someone interested in triangles, the distinction matters: this is a broad rubber-guard course. Dedicated triangle options are linked below.",
   "related_content": [
     {
       "name": "Rubber Guard",
@@ -149,33 +149,21 @@
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Rubber Guard and Triangle Study Choices",
+    "display_title": "Rubber Guard and Triangle Attacks",
     "audience": {
       "fits": [
-        "You are deciding whether your immediate question concerns rubber guard broadly or triangle defense and configuration."
+        "You want Eddie Bravo’s broader rubber-guard approach, including its terminology and omoplata connection."
       ],
-      "consider_alternative_if": [
-        "For explicitly named triangle-process and defense lessons, use Ryan Hall Triangle System. For Bravo’s named submission route, use Rubber Guard to Omoplata System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "The linked course names full rubber guard, variations and bottom half guard.",
-        "Its explicit submission-route chapter concerns the omoplata; Ryan Hall’s separate curriculum supplies named triangle topics for comparison."
+        "Full rubber guard, guard variations and bottom half guard across four volumes.",
+        "A rubber-guard-to-omoplata chapter, alongside the history and development of the guard."
       ],
       "limits": [
-        "A rubber-guard-to-triangle sequence is not established by the inspected Bravo outline."
+        "The published syllabus does not identify a rubber-guard-to-triangle lesson or establish a particular triangle-entry sequence."
       ]
-    },
-    "start_here": {
-      "title": "Choose the curriculum that names your problem",
-      "kind": "observation",
-      "task": "Compare Bravo’s short public outline with Hall’s triangle curriculum. If the missing piece is rubber guard as a position, start by locating Bravo’s full-rubber-guard section. If it is triangle posture or configuration, select the matching Hall section. Keep the unverified connection between the two as a question, not a written sequence.",
-      "source_ids": [
-        "bravo-rubber",
-        "ryan-triangle"
-      ],
-      "section": "The Ultimate Rubber Guard, Volume 3: Full Rubber Guard (0–38:49)."
     },
     "sources": [
       {
@@ -194,6 +182,16 @@
         "checked_on": "2026-09-16",
         "note": "Verified the published curriculum: triangle process, finishing, defensive components, arm attacks and scoring options. Lesson names and durations are listed; paid lesson content was not inspected."
       }
+    ],
+    "alternatives": [
+      {
+        "system": "Ryan Hall Triangle System",
+        "reason": "A triangle-focused curriculum covering control, finishing, specific defenses and arm attacks."
+      },
+      {
+        "system": "Rubber Guard to Omoplata System",
+        "reason": "A closer look at the omoplata route explicitly included in the same Eddie Bravo course."
+      }
     ]
   },
   "products": [
@@ -205,9 +203,8 @@
       "course_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "The linked course names full rubber guard, variations and bottom half guard.",
-      "best_for": "You are deciding whether your immediate question concerns rubber guard broadly or triangle defense and configuration.",
-      "study_focus": "The Ultimate Rubber Guard, Volume 3: Full Rubber Guard (0–38:49)."
+      "blurb": "Eddie Bravo’s broad rubber-guard course includes an omoplata route, full rubber guard and bottom half guard.",
+      "best_for": "Grapplers interested in rubber guard broadly; the syllabus does not name a triangle-specific route."
     }
   ]
 }

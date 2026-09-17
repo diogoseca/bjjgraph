@@ -9,9 +9,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Intermediate",
-  "summary": "Bernardo Faria’s Omoplata Everyone is a gi-oriented reference for entries, defensive reactions and positional outcomes around the omoplata.",
-  "description": "Choose an omoplata lesson by the entry or defensive reaction you need to investigate.",
-  "overview": "The useful distinction in this outline is between getting to the omoplata and handling what happens afterward. Sleeve and belt entries sit alongside standing, rolling and hand-connection problems, with a separate lesson on choosing a scoring outcome.",
+  "summary": "Omoplata Everyone by Bernardo Faria covers gi entries, finishing problems and positional options when an opponent defends the omoplata.",
+  "description": "Bernardo Faria’s omoplata course covers setups from several positions, standing and rolling defenses, and alternatives to the shoulder-lock finish.",
+  "overview": "Bernardo Faria’s Omoplata Everyone addresses both finding the attack and keeping it useful against resistance. Its four volumes include sleeve and belt entries, responses to standing or rolling opponents, and problems such as connected hands or a knee under the hip.\n\nThe course also covers recovering the omoplata after passing attempts and giving up the submission to score. It is a focused option for gi players whose omoplata game stalls after the entry.",
   "related_content": [
     {
       "name": "Omoplata",
@@ -74,29 +74,18 @@
     "display_title": "Bernardo Faria: Omoplata Everyone",
     "audience": {
       "fits": [
-        "You can reach an omoplata but need to locate material addressing a particular defensive reaction."
+        "You reach omoplatas in the gi but struggle when opponents stand, roll or connect their hands."
       ],
-      "consider_alternative_if": [
-        "For a rubber-guard entry focus, compare Rubber Guard to Omoplata System, based on Eddie Bravo’s explicitly named lesson."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Fabric-grip entries and standing responses; later volumes add rolling responses and attacks from other positions.",
-        "Volume 4 includes returning to the omoplata after passing attempts and choosing a scoring outcome."
+        "Entries from closed guard, butterfly, half guard, lasso and top positions.",
+        "Standing and rolling defenses, recovery after passing attempts, alternative submissions and a positional scoring option."
       ],
       "limits": [
-        "Several named entries use sleeves, a belt or a lapel; the outline is not a dedicated no-gi curriculum."
+        "Sleeve, belt and lapel controls feature in the syllabus; this is not a dedicated no-gi omoplata course."
       ]
-    },
-    "start_here": {
-      "title": "Separate standing and rolling problems",
-      "kind": "observation",
-      "task": "Use the public outline to place a recent omoplata problem under standing, rolling or connected hands. Compare the relevant response section with the later scoring option: decide whether your next study question concerns retaining the attack or changing the outcome. If you have the course, start at the selected response rather than replaying every entry.",
-      "source_ids": [
-        "faria-omoplata"
-      ],
-      "section": "Volume 3: How to finish the omoplata when they roll around (20:25–22:23)."
     },
     "sources": [
       {
@@ -115,6 +104,12 @@
         "checked_on": "2026-09-16",
         "note": "Verified title, instructor and four-volume syllabus. It explicitly names a rubber-guard-to-omoplata lesson, broader rubber-guard development, bottom half guard and variations; it gives no triangle-specific chapter label."
       }
+    ],
+    "alternatives": [
+      {
+        "system": "Rubber Guard to Omoplata System",
+        "reason": "Eddie Bravo’s broader rubber-guard course includes a specifically named omoplata route."
+      }
     ]
   },
   "products": [
@@ -126,16 +121,8 @@
       "course_url": "https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Fabric-grip entries and standing responses; later volumes add rolling responses and attacks from other positions.",
-      "best_for": "You can reach an omoplata but need to locate material addressing a particular defensive reaction.",
-      "study_focus": "Volume 3: How to finish the omoplata when they roll around (20:25–22:23)."
-    }
-  ],
-  "flashcards": [
-    {
-      "question": "Which defensive reactions should an omoplata study log distinguish?",
-      "answer": "Standing, rolling and connecting the hands are separately named problems in Faria’s outline. Record which occurred before selecting a response lesson.",
-      "answer_line": "Standing, rolling, connected hands"
+      "blurb": "Four volumes of omoplata entries, defensive reactions and positional alternatives, with several gi-grip setups.",
+      "best_for": "Gi players who want answers to standing, rolling and hand-connection defenses."
     }
   ]
 }

@@ -9,9 +9,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Intermediate",
-  "summary": "Neil Melanson’s The Filthy Kimura combines double-wrist-lock variations, frame problems and guard-to-half-guard study.",
-  "description": "Compare the foundational, countering and positional sections of Neil Melanson’s kimura course.",
-  "overview": "Melanson’s outline uses several named arm-lock variations as well as chapters on countering the kimura itself. A useful way into the material is to distinguish the attacker’s problem with a frame from the defender’s problem with the lock.",
+  "summary": "The Filthy Kimura by Neil Melanson covers double-wrist-lock variations, frame counters, kimura defenses and guard or half-guard sequences.",
+  "description": "Neil Melanson’s kimura course combines double-wrist-lock foundations with arm-lock variations, counters and positional sequences.",
+  "overview": "The Filthy Kimura starts with double-wrist-lock foundations and expands into straight-arm, power and ground-marshal variations. Neil Melanson also covers frame counters, preventing the kimura and connections to arm bars.\n\nGuard and half-guard sequences sit alongside hammer locks, top wrist locks and arm cranks. The four-volume course suits grapplers interested in a wider family of arm attacks around the kimura, including countering material.",
   "related_content": [
     {
       "name": "Kimura",
@@ -74,29 +74,18 @@
     "display_title": "Neil Melanson: The Filthy Kimura",
     "audience": {
       "fits": [
-        "You want to investigate kimura frame problems and compare them with explicit countering material."
+        "You want kimura variations, counters and related arm locks from guard and half guard."
       ],
-      "consider_alternative_if": [
-        "For an extensive division into dorsal and T kimuras with positional switching, compare Kimura Trap System, based on John Danaher’s course."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Double-wrist-lock foundations and named arm-lock variations, followed by frame and kimura counters.",
-        "Later volumes include a guard sequence, movement study and a half-guard series."
+        "Double-wrist-lock foundations, named kimura variations, frame counters and kimura defense.",
+        "Guard and half-guard sequences, grip breaks, arm-bar connections and related arm locks."
       ],
       "limits": [
-        "The syllabus also includes upward arm cranks and top-wrist-lock material; it is broader than a single bent-arm kimura finish."
+        "The course includes arm cranks, hammer locks and top wrist locks; it is broader than a basic bent-arm kimura finish."
       ]
-    },
-    "start_here": {
-      "title": "Read the two countering problems separately",
-      "kind": "observation",
-      "task": "In the free Volume 2 outline, distinguish the frame-countering lesson from the lesson on countering and preventing the kimura. Label which problem you want to investigate. If you own the course, record who is attacking at the start of each demonstration and whether that role changes.",
-      "source_ids": [
-        "melanson-kimura"
-      ],
-      "section": "Volume 2: countering the frame (7:23–16:45)."
     },
     "sources": [
       {
@@ -115,6 +104,12 @@
         "checked_on": "2026-09-16",
         "note": "Verified title, instructor and eight-volume outline, including dorsal and T kimuras, alternative submissions, positional switches and applications from top, bottom and standing."
       }
+    ],
+    "alternatives": [
+      {
+        "system": "Kimura Trap System",
+        "reason": "John Danaher’s eight-volume course expands dorsal and T kimuras into positional switches and back takes."
+      }
     ]
   },
   "products": [
@@ -126,9 +121,8 @@
       "course_url": "https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Double-wrist-lock foundations and named arm-lock variations, followed by frame and kimura counters.",
-      "best_for": "You want to investigate kimura frame problems and compare them with explicit countering material.",
-      "study_focus": "Volume 2: countering the frame (7:23–16:45)."
+      "blurb": "Four volumes of kimura variations, counters and connected arm attacks, including guard and half-guard sequences.",
+      "best_for": "Grapplers who want alternative arm-lock configurations and countering material around the kimura."
     }
   ]
 }

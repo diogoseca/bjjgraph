@@ -9,9 +9,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "Craig Jones’s Systematic Submission Dilemmas connects triangle study with named routes to leg entanglements and match commentary.",
-  "description": "A focused companion to the triangle-to-leg sections of Craig Jones’s triangle and leg-lock course.",
-  "overview": "This guide focuses on the change from an upper-body attack to a lower-body position. The published outline names several destinations, so a useful first choice is which transition to investigate rather than treating every defended triangle as the same problem.",
+  "summary": "Craig Jones’s Systematic Submission Dilemmas connects triangle attacks with leg entanglements, straight locks and match commentary.",
+  "description": "Craig Jones’s triangle and leg-lock combinations course covers upper-to-lower-body transitions from guard and top positions.",
+  "overview": "Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos connects attacks on the upper and lower body. Craig Jones covers triangle finishing problems and entries before routes to backside 50/50, cross ashi, X-guard and standard ashi.\n\nThe eight-volume course also includes straight ankle locks, kneebars and match commentary. Its distinctive focus is the connection between triangle positions and leg attacks, making it relevant to grapplers who want both parts of that game in one instructional.",
   "related_content": [
     {
       "name": "Triangle Control",
@@ -84,29 +84,18 @@
     "display_title": "Craig Jones: Triangle-to-Leg Transitions",
     "audience": {
       "fits": [
-        "You want to compare the leg-entanglement destinations listed after triangle attacks."
+        "You want to connect a triangle game with leg attacks, including entries from top and bottom positions."
       ],
-      "consider_alternative_if": [
-        "For triangle defense, arm attacks and scoring without a leg-transition focus, compare Ryan Hall Triangle System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Volumes 6–7 connect triangle configurations with backside 50/50, cross ashi, X-guard and standard ashi.",
-        "Earlier sections cover triangle entries and finishing problems; Volume 8 supplies match commentary."
+        "Front, rear, reverse and side triangle material, with entries from guard and top positions.",
+        "Triangle-to-leg transitions through 50/50, ashi and X-guard, plus straight locks and match commentary."
       ],
       "limits": [
-        "The course spans triangle and leg attacks; this guide selects its transition material rather than treating it as a general guard curriculum."
+        "The course gives substantial space to leg attacks and transitions; it is broader than a triangle-finishing course."
       ]
-    },
-    "start_here": {
-      "title": "Compare two destinations from the same triangle",
-      "kind": "observation",
-      "task": "In Volume 6’s free outline, locate the routes from Omote Sankaku to backside 50/50 and standard ashi. List the different destinations without inventing the movement between them. If you own the course, watch those two lessons and note the demonstrated starting conditions before comparing them with the match commentary.",
-      "source_ids": [
-        "craig-dilemmas"
-      ],
-      "section": "Volume 6: Chapter 2 — Transitioning to the Legs — Omote Sankaku to Back Side 50/50 (07:33–17:50)."
     },
     "sources": [
       {
@@ -138,7 +127,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Ryan Hall Triangle System",
+        "reason": "A triangle-centered course with defensive problems, arm attacks and scoring options."
+      }
+    ]
   },
   "products": [
     {
@@ -149,9 +144,8 @@
       "course_url": "https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Volumes 6–7 connect triangle configurations with backside 50/50, cross ashi, X-guard and standard ashi.",
-      "best_for": "You want to compare the leg-entanglement destinations listed after triangle attacks.",
-      "study_focus": "Volume 6: Chapter 2 — Transitioning to the Legs — Omote Sankaku to Back Side 50/50 (07:33–17:50)."
+      "blurb": "An eight-volume course connecting triangle attacks and leg positions, with finishing material and match commentary.",
+      "best_for": "Grapplers who want triangle-to-leg combinations as part of a wider submission game."
     }
   ]
 }

@@ -15,9 +15,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "A source-based reading guide to Eddie Bravo’s announced Twister and truck-entry material from back and side-control contexts.",
-  "description": "Compare two official episode descriptions before choosing a Twister or truck study question.",
-  "overview": "The inspected announcements emphasize different starting contexts. Episode 85 describes Twister work from the back and side-control scrambles; episode 99 describes twister side control with back-taking and truck-entry material. These descriptions support choosing a topic, not reconstructing the movements.",
+  "summary": "Eddie Bravo’s Mastering The System episodes 85 and 99 cover Twister attacks and truck entries from back and side-control contexts.",
+  "description": "Twister and truck coverage in two Mastering The System episodes, based on Eddie Bravo’s official descriptions.",
+  "overview": "Eddie Bravo’s description of Mastering The System episode 85, Killa B part 3, centers on Twister work from the back and side-control scrambles, including paths to the truck. Episode 99, Twister Side Control, covers a back take and a truck entry from that side-control position.\n\nTogether, the descriptions connect Twister attacks with the positional routes around them. They are relevant to grapplers interested in those parts of the 10th Planet game.",
   "related_content": [
     {
       "name": "Lockdown",
@@ -162,33 +162,21 @@
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Twister and Truck: Choosing an Entry Study",
+    "display_title": "Twister and Truck Entries",
     "audience": {
       "fits": [
-        "You want to separate Twister study from the question of how the truck is entered."
+        "You want Twister attacks and truck entries from back or side-control positions."
       ],
-      "consider_alternative_if": [
-        "If your immediate interest is positional movement from twister side control, start with the episode 99 announcement rather than episode 85’s Twister-focused description."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Episode 85 advertises Twister work from back and side-control scramble contexts, including paths to the truck.",
-        "Episode 99 names a back take and a truck entry from twister side control."
+        "Episode 85: Twister material from the back and side-control scrambles, including paths to the truck.",
+        "Episode 99: twister side control, a back take and a truck entry."
       ],
       "limits": [
-        "The selected sources are episode announcements, with no step-by-step execution or competition-rules treatment."
+        "The public episode descriptions provide broad topics rather than a detailed technical syllabus."
       ]
-    },
-    "start_here": {
-      "title": "Compare the announced starting contexts",
-      "kind": "observation",
-      "task": "Read the two short official announcements. Put back-position and scramble questions under episode 85, and twister-side-control entry questions under episode 99. Select the description closest to your current problem; do not fill in a lockdown-to-truck sequence that neither announcement explains.",
-      "source_ids": [
-        "bravo-twister85",
-        "bravo-twister99"
-      ],
-      "section": "MTS episode 85 “Killa B part 3”; MTS episode 99 “Twister Side Control”."
     },
     "sources": [
       {

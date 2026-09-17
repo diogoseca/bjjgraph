@@ -13,9 +13,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "The Ultimate Rubber Guard by Eddie Bravo explicitly includes an omoplata route within a broader rubber-guard curriculum.",
-  "description": "A focused study entry for the named omoplata lesson in Eddie Bravo’s rubber-guard course.",
-  "overview": "The course opens with historical discussion before its named omoplata lesson. Later volumes broaden to rubber-guard development, full rubber guard and bottom half guard, so the omoplata section can be selected without treating the entire course as one submission chain.",
+  "summary": "The Ultimate Rubber Guard by Eddie Bravo includes a rubber-guard-to-omoplata route within a broader guard curriculum.",
+  "description": "Eddie Bravo’s rubber-guard course includes an omoplata connection, full rubber guard, variations and bottom half guard.",
+  "overview": "The Ultimate Rubber Guard combines technical material with Eddie Bravo’s account of how rubber guard developed. Its first volume includes a rubber-guard-to-omoplata chapter; later volumes cover the guard’s evolution, full rubber guard, variations and bottom half guard.\n\nThe omoplata route is one part of a broader introduction to Bravo’s guard approach and terminology. That makes this course a closer fit for someone building a rubber-guard game than someone seeking a dedicated omoplata troubleshooting catalogue.",
   "related_content": [
     {
       "name": "Rubber Guard",
@@ -160,32 +160,21 @@
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Eddie Bravo: Rubber Guard to Omoplata Study",
+    "display_title": "Eddie Bravo: Rubber Guard to Omoplata",
     "audience": {
       "fits": [
-        "You want to locate the explicitly advertised rubber-guard-to-omoplata material."
+        "You want the omoplata connection as part of Eddie Bravo’s broader rubber-guard approach."
       ],
-      "consider_alternative_if": [
-        "For a catalogue of omoplata entries and standing or rolling responses, compare Bernardo Faria Omoplata System; several entries there use gi grips."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "A dedicated rubber-guard-to-omoplata chapter in Volume 1.",
-        "Further volumes cover rubber-guard development, full rubber guard, bottom half guard and variations."
+        "A dedicated rubber-guard-to-omoplata chapter, plus full rubber guard and variations.",
+        "Bottom half guard and discussion of rubber guard’s development and terminology."
       ],
       "limits": [
-        "The public outline groups the omoplata route into one chapter, without separately labeled defensive branches."
+        "The public outline groups the omoplata route into one broad chapter without separately indexing defensive branches."
       ]
-    },
-    "start_here": {
-      "title": "Isolate the omoplata section from the broader curriculum",
-      "kind": "observation",
-      "task": "Locate the named omoplata chapter in the free outline and distinguish it from the later guard-development volumes. Write down the particular entry question that brought you here. With course access, record the demonstrated starting and ending positions and note whether the lesson actually addresses that question.",
-      "source_ids": [
-        "bravo-rubber"
-      ],
-      "section": "Volume 1: Rubber Guard to Omoplata (44:35–1:01:30)."
     },
     "sources": [
       {
@@ -204,6 +193,12 @@
         "checked_on": "2026-09-16",
         "note": "Verified title, instructor and four-volume outline, including fabric-grip entries, standing and rolling responses, and a positional scoring option."
       }
+    ],
+    "alternatives": [
+      {
+        "system": "Bernardo Faria Omoplata System",
+        "reason": "A dedicated omoplata course with separately listed standing, rolling and connected-hand responses; several entries use gi grips."
+      }
     ]
   },
   "products": [
@@ -215,9 +210,8 @@
       "course_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "A dedicated rubber-guard-to-omoplata chapter in Volume 1.",
-      "best_for": "You want to locate the explicitly advertised rubber-guard-to-omoplata material.",
-      "study_focus": "Volume 1: Rubber Guard to Omoplata (44:35–1:01:30)."
+      "blurb": "A rubber-guard course with an explicit omoplata connection, alongside guard variations and bottom half guard.",
+      "best_for": "Grapplers who want an omoplata route within a broader rubber-guard game."
     }
   ]
 }
