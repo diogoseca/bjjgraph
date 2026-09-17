@@ -153,37 +153,25 @@
       "relationship": "Compare for a separately indexed open-guard entry and sweep syllabus."
     }
   ],
-  "summary": "A navigation guide to the history, rubber-guard and bottom-half sections of Eddie Bravo’s The Ultimate Rubber Guard.",
-  "description": "Choose an entry point into Eddie Bravo’s advertised guard material according to whether you want context, rubber guard or bottom half.",
-  "overview": "A school’s no-gi curriculum can be much broader than one release. This page helps you select a route through the linked course and points to more focused companion pages when you already know your subject.",
+  "summary": "The Ultimate Rubber Guard combines Eddie Bravo’s guard instruction with the history behind his approach.",
+  "description": "Eddie Bravo’s four-volume course on rubber guard, its origins and selected bottom-half material.",
+  "overview": "Eddie Bravo mixes positional instruction with the story of rubber guard in The Ultimate Rubber Guard. The opening volume discusses Combat Jiu Jitsu, MMA and gi versus no-gi before the course turns to omoplata attacks, rubber-guard development and bottom half. It suits readers interested in both the guard and Bravo’s explanation of its origins.",
   "guide": {
     "kind": "course_companion",
-    "display_title": "Eddie Bravo: Choosing a Guard Study Route",
+    "display_title": "Eddie Bravo: The Ultimate Rubber Guard",
     "audience": {
       "fits": [
-        "You are unsure which part of the linked Eddie Bravo release matches your current interest."
+        "You want Bravo’s historical context as well as his rubber-guard instruction."
       ],
-      "consider_alternative_if": [
-        "For a direct rubber-guard study route, use the Rubber Guard guide; for the brief half-guard section, use Bottom Half Study."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Historical discussion precedes rubber-guard material; bottom half appears in the final volume."
+        "Rubber-guard origins, evolution and positional instruction, plus a shorter bottom-half section."
       ],
       "limits": [
-        "The published outline does not list a truck or twister curriculum, nor a complete open-guard program."
+        "The course concentrates on rubber guard; it does not cover the full 10th Planet no-gi curriculum."
       ]
-    },
-    "start_here": {
-      "title": "Choose context or positional study",
-      "kind": "observation",
-      "task": "Compare the first volume’s historical headings with the positional headings in volumes 3 and 4. Select one of three routes: background, rubber guard, or bottom half. If your goal is open guard against a standing passer, compare the Marcelo X-Guard guide instead.",
-      "source_ids": [
-        "bravo-rubber-listing",
-        "garcia-xguard-listing"
-      ],
-      "section": "Volume 3: Full Rubber Guard — 0–38:49 (course range)"
     },
     "sources": [
       {
@@ -212,7 +200,8 @@
       "checked_on": "2026-09-16",
       "content_reviewed": false,
       "playback_verified_on": []
-    }
+    },
+    "alternatives": []
   },
   "products": [
     {
@@ -223,9 +212,8 @@
       "course_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "One release shared by three companion pages, each with a different study purpose.",
-      "best_for": "You are unsure which part of the linked Eddie Bravo release matches your current interest.",
-      "study_focus": "Use the volume headings to choose context, rubber guard or bottom half."
+      "blurb": "Eddie Bravo’s rubber-guard course, including its history and selected half-guard material.",
+      "best_for": "You want Bravo’s historical context as well as his rubber-guard instruction."
     }
   ],
   "flashcards": []

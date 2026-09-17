@@ -65,37 +65,26 @@
       "relationship": "Compare for coming-up attacks organized across several starting guards."
     }
   ],
-  "summary": "A reverse-De-La-Riva companion organized around knee-slice recovery, knee-shield branches and the separate standing-opponent section.",
-  "description": "Distinguish recovering reverse De La Riva from choosing a later attack in Dante Leon’s published syllabus.",
-  "overview": "The first volume offers a recovery-oriented entry point; later volumes branch into knee-shield, upper-body submission and standing-opponent material. These sections answer different study problems and need not be followed as one chain.",
+  "summary": "Dante Leon’s No Gi Reverse De La Riva covers knee-slice recovery, inversions, sweeps and submissions.",
+  "description": "Reverse De La Riva offense against kneeling and standing opponents, with knee-shield and inversion options.",
+  "overview": "No Gi Reverse De La Riva develops the position from knee-slice interception and recovery into attacks. Dante Leon includes kiss-of-the-dragon back takes, shin-to-shin changes and entries to X guard and leg entanglements. Upper-body submissions and attacks against standing opponents round out the four-volume course.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Dante Leon: No-Gi Reverse De La Riva",
     "audience": {
       "fits": [
-        "You want to locate knee-slice recovery or compare reverse De La Riva against different opponent postures."
+        "You want to develop reverse De La Riva beyond recovery, including inversion-based offense."
       ],
-      "consider_alternative_if": [
-        "If rising from several guards is your main interest, compare Leon’s Wrestling Up From Guard guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Fundamentals, knee-slice interception and recovery; knee-shield and inversion branches.",
-        "Upper-body attacks and a distinct volume for standing opponents."
+        "Knee-slice interception and recovery; knee-shield attacks, back takes and leg entanglements.",
+        "Far-side armlocks and triangles, plus sweeps and wrestling up against standing opponents."
       ],
       "limits": [
-        "Wrestling up is one branch among several; this release is organized around reverse De La Riva rather than several starting guards."
+        "Wrestling up is one attacking option here; the course is built around reverse De La Riva rather than coming up from several guards."
       ]
-    },
-    "start_here": {
-      "title": "Distinguish recovery from the next attack",
-      "kind": "observation",
-      "task": "Compare Catching The Knee Slice with Recovering In A Reverse De La Riva in volume 1. Label your recurring issue as obtaining the guard or recovering it. Then locate the standing-opponent section separately, rather than assigning its options to a kneeling exchange.",
-      "source_ids": [
-        "leon-rdlr-listing"
-      ],
-      "section": "Volume 1: Reverse De La Riva Fundamentals — 2:40 (course timestamp)"
     },
     "sources": [
       {
@@ -127,7 +116,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Dante Leon Wrestling Up From Guard System",
+        "reason": "Choose Leon’s wrestling-up course when your main goal is coming up from X, De La Riva, reverse De La Riva or butterfly."
+      }
+    ]
   },
   "products": [
     {
@@ -138,9 +133,8 @@
       "course_url": "https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Four volumes separating fundamentals, knee-shield branches, upper-body attacks and standing opponents.",
-      "best_for": "You want to locate knee-slice recovery or compare reverse De La Riva against different opponent postures.",
-      "study_focus": "Start with the volume 1 recovery material before selecting a later branch."
+      "blurb": "Four volumes of reverse-De-La-Riva recovery and offense against different opponent postures.",
+      "best_for": "You want to develop reverse De La Riva beyond recovery, including inversion-based offense."
     }
   ],
   "flashcards": []

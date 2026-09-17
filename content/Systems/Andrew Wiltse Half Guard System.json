@@ -163,37 +163,25 @@
       "relationship": "For study of coming up from several guard positions."
     }
   ],
-  "summary": "A topic guide for separating the decision to recover another guard from the decision to keep attacking from half guard.",
-  "description": "Use Stephan Kesting’s public half-to-closed-guard discussion to frame a specific half-guard study problem.",
-  "overview": "Kesting’s article presents leaving half guard as a legitimate choice when that position is being shut down. This page uses that question to organize recovery study and compare focused half-guard resources.",
+  "summary": "Recovering closed guard is an option when an opponent shuts down half-guard offense.",
+  "description": "A short explanation of half-to-closed-guard recovery based on Stephan Kesting’s public article.",
+  "overview": "Half guard offers sweeps and submissions, but an opponent may shut down those attacks. Stephan Kesting’s article on returning to closed guard presents changing position as a useful response. It describes a butterfly-hook recovery demonstrated by Roberto “Gordo” Correia, making recovery part of the half-guard discussion rather than treating another attack as the only answer.",
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Half Guard: Recovery Before Attack",
+    "display_title": "Half Guard: Recovering Closed Guard",
     "audience": {
       "fits": [
-        "You keep selecting another half-guard attack when your actual question is whether to recover a different guard."
+        "Your half-guard attacks stall and you want to understand the option of recovering closed guard."
       ],
-      "consider_alternative_if": [
-        "For a source-indexed half-butterfly course companion, compare Brian Glick; for coming up from guard, compare Dante Leon."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "A public explanation of why a half-guard player might choose closed-guard recovery.",
-        "A study distinction between pursuing offense and changing the starting guard."
+        "Why a player might leave half guard and recover closed guard when offense is being shut down."
       ],
       "limits": [
-        "This page covers recovery decisions; it does not establish an Andrew Wiltse curriculum or attribute a universal back-take priority to him."
+        "This topic covers one recovery option and its purpose, not a complete half-guard attacking system."
       ]
-    },
-    "start_here": {
-      "title": "Separate changing guard from abandoning the exchange",
-      "kind": "observation",
-      "task": "Read Kesting’s reason for returning to closed guard. Write down one recent half-guard exchange in which you kept pursuing the same attack. Identify whether your unanswered question is how to attack or how to recover another guard; take that specific question to the relevant instruction rather than assuming a fixed sweep-to-back chain.",
-      "source_ids": [
-        "kesting-half-closed"
-      ],
-      "section": "How to Transition from Half to Closed Guard: the reason to leave half guard"
     },
     "sources": [
       {
@@ -219,6 +207,16 @@
         "kind": "official_listing",
         "checked_on": "2026-09-16",
         "note": "Verified distance-management lesson and three volumes covering X/De La Riva, reverse De La Riva and butterfly starts. Listing inspected; course video content not reviewed."
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Brian Glick Half Butterfly System",
+        "reason": "For sustained half-butterfly offense, Glick covers positioning, sweeps, kimuras and leg entries."
+      },
+      {
+        "system": "Dante Leon Wrestling Up From Guard System",
+        "reason": "For attacking by coming up from bottom, Leon covers wrestling up from several guards."
       }
     ]
   },

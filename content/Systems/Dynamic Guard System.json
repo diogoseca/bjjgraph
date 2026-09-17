@@ -142,37 +142,26 @@
       "relationship": "Use the passing-route organization when a forced guard change repeatedly becomes a pass."
     }
   ],
-  "summary": "A topic guide for recognizing changes between open guards and distinguishing a deliberate switch from a passer-forced change.",
-  "description": "Use a public positional glossary to describe guard changes precisely before selecting a specialized guard guide.",
-  "overview": "Open guard covers many configurations, not one fixed position. This guide uses Kesting and Bayev’s terminology to make observation notes more precise: record what changed and why before calling every movement a transition system.",
+  "summary": "Open guard is a family of positions that can change as either player acts.",
+  "description": "An introduction to deliberate guard changes, passer-forced changes and the differences between open guards.",
+  "overview": "Opening the legs can be a deliberate choice or the result of a passer breaking closed guard. Once open, the guard can change as grips and leg positions change. Stephan Kesting and Elliott Bayev’s glossary describes this variety, including spider, butterfly and De La Riva, and explains why no single guard suits every setting.",
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Guard Changes: A Study Map",
+    "display_title": "Understanding Guard Changes",
     "audience": {
       "fits": [
-        "You recognize individual guards but struggle to describe the moment one becomes another."
+        "You know several guard names and want to understand how they relate within open guard."
       ],
-      "consider_alternative_if": [
-        "If the recurring problem is a specific passing route, use the Giles–Tabak retention guide for a more focused study map."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "The glossary distinguishes open from closed guard and explains that changes can be chosen by the bottom player or forced by the passer.",
-        "Named open-guard examples provide a vocabulary for comparing contacts."
+        "Open versus closed guard; deliberate and passer-forced changes.",
+        "Examples of open guards distinguished by grips and leg positions."
       ],
       "limits": [
-        "This is an observation framework, not an instructor-authored curriculum called Dynamic Guard or a rule to keep moving constantly."
+        "The glossary explains positions and their relationships; it is not a complete course on recovering guard or chaining attacks."
       ]
-    },
-    "start_here": {
-      "title": "Describe one guard change without guessing a chain",
-      "kind": "observation",
-      "task": "Read the open-guard introduction on printed page 9. In one exchange you can review, name the guard before and after the change. Mark whether the bottom player initiated it or the passer forced it. If the configuration is unclear, describe the visible contacts instead of assigning a name.",
-      "source_ids": [
-        "kesting-bayev-glossary"
-      ],
-      "section": "A Glossary of Guards: printed page 9, The Open Guard"
     },
     "sources": [
       {
@@ -191,6 +180,12 @@
         "kind": "official_listing",
         "checked_on": "2026-09-16",
         "note": "Verified both instructors and parts devoted to around-the-legs, north-south and under-the-legs retention; scope follows title and detailed outline. Listing inspected; course video content not reviewed."
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Lachlan Giles and Ariel Tabak Guard Retention System",
+        "reason": "For detailed recovery against passes around or under the legs, choose the Giles–Tabak retention course."
       }
     ]
   },

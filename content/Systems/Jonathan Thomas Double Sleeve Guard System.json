@@ -65,37 +65,26 @@
       "relationship": "Compare for a gi single-leg-X entry and sweep emphasis."
     }
   ],
-  "summary": "A gi guard companion connecting the course’s double-sleeve control material with lasso/spider defenses and opponent-posture branches.",
-  "description": "Find a double-sleeve study path that distinguishes obtaining the grips, maintaining control and selecting an attack.",
-  "overview": "Thomas’s outline crosses several leg configurations while retaining a double-sleeve theme. The useful comparison is between control lessons and the later posture-specific branches, rather than treating every listed sweep as available from one fixed position.",
+  "summary": "Jonathan Thomas’s Double Sleeve Guard connects gi grip control with De La Riva, lasso, spider and Spider-X attacks.",
+  "description": "A sleeve-based open-guard course with sweeps, triangles and responses to grip-clearing attempts.",
+  "overview": "Double Sleeve Guard uses two sleeve grips across several open-guard configurations. Jonathan Thomas covers establishing control, De La Riva sweeps, triangles, and maintaining lasso/spider against attempts to clear it. Later material develops Spider-X and attacks against standing, one-knee-up and kneeling opponents.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Jonathan Thomas: Double Sleeve Guard",
     "audience": {
       "fits": [
-        "You want to organize gi double-sleeve study around control losses or a standing-to-kneeling posture change."
+        "You want a gi open guard built around sleeve control, lasso and spider variations."
       ],
-      "consider_alternative_if": [
-        "If your focus is gi single-leg-X entries and fabric-grip sweeps, compare Adam Wardzinski’s guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Basic double-sleeve control and De La Riva branches; lasso/spider control and named defenses.",
-        "Spider-X material and separate one-knee-up or kneeling-opponent options."
+        "Double-sleeve setups and control, De La Riva sweeps and triangle entries.",
+        "Lasso/spider defenses, Spider-X sweeps and attacks against changing opponent postures."
       ],
       "limits": [
-        "This is a sleeve-based gi approach, and its later leg configurations extend beyond one static double-sleeve position."
+        "Sleeve grips are central throughout; this course is for gi grappling."
       ]
-    },
-    "start_here": {
-      "title": "Identify control loss before choosing a sweep",
-      "kind": "observation",
-      "task": "Compare the four named lasso/spider defense problems in volume 2 with the one-knee-up and kneeling sections in volume 4. Decide whether the exchange you want to study is a control-loss problem or an attack against a particular posture. Begin with basic control if you cannot yet distinguish the two.",
-      "source_ids": [
-        "thomas-double-sleeve-listing"
-      ],
-      "section": "Volume 1: Basic Double Sleeve control — 13:51–16:51 (course range)"
     },
     "sources": [
       {
@@ -114,6 +103,12 @@
         "checked_on": "2026-09-16",
         "note": "Verified gi focus, entry families, sleeve/lapel sweep sections, stand-up and counter material. Listing inspected; course video content not reviewed."
       }
+    ],
+    "alternatives": [
+      {
+        "system": "Adam Wardzinski Single Leg X System",
+        "reason": "Choose Wardzinski for gi single-leg-X entries and sweeps, including sleeve and lapel variations."
+      }
     ]
   },
   "products": [
@@ -125,9 +120,8 @@
       "course_url": "https://bjjfanatics.com/products/double-sleeve-guard-by-jonathan-thomas",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Four volumes spanning control, connected guards and posture-specific attacks.",
-      "best_for": "You want to organize gi double-sleeve study around control losses or a standing-to-kneeling posture change.",
-      "study_focus": "Separate maintaining lasso/spider control from choosing an attack against a new posture."
+      "blurb": "Four volumes connecting double-sleeve control to gi sweeps, submissions and guard transitions.",
+      "best_for": "You want a gi open guard built around sleeve control, lasso and spider variations."
     }
   ],
   "flashcards": []

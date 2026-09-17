@@ -170,37 +170,26 @@
       "relationship": "A gi guard alternative organized around sleeve control and lasso/spider branches."
     }
   ],
-  "summary": "A topic guide using Keenan Cornelius’s published lapel-denial discussion to identify what a lapel player needs before an entry can develop.",
-  "description": "Read the passer’s side of lapel engagement to organize questions about your own lapel-guard setup.",
-  "overview": "The selected article explains lapel entry from the passer’s perspective. For the guard player, it offers a way to distinguish having a lapel grip from having the fabric and leg access needed to develop an entanglement.",
+  "summary": "A lapel grip alone does not provide the fabric length and access needed for a lapel-guard entry.",
+  "description": "What Keenan Cornelius’s public lapel-denial discussion reveals about the setup a guard player needs.",
+  "overview": "A guard player can hold a lapel and still lack enough loose fabric to form the intended entanglement. Jiu Jitsu X’s article featuring Keenan Cornelius explains that distinction from the passer’s side. It also covers approaches outside the legs and foot control, showing how a passer can obstruct the setup before a lapel guard develops.",
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Lapel Guard: Study the Entry Obstacles",
+    "display_title": "Lapel Guard: What Stops the Entry",
     "audience": {
       "fits": [
-        "You can reach a lapel but cannot tell why the intended guard entry remains unavailable."
+        "You obtain a lapel grip but struggle to establish the guard around it."
       ],
-      "consider_alternative_if": [
-        "For a guard curriculum organized around two sleeve grips and lasso/spider configurations, compare Jonathan Thomas’s guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "The article separates taking slack out of the lapel, approaching outside the legs and using a foot-control grip.",
-        "Its first section explicitly distinguishes merely holding the lapel from freeing enough fabric for an entry."
+        "Lapel slack and length as entry requirements.",
+        "Outside-the-legs approaches and foot control as obstacles to establishing lapel guard."
       ],
       "limits": [
-        "This selected source concerns denying entry; it is not a full account of worm, squid or their sweep sequences."
+        "The source focuses on denying entries. It does not provide a full worm- or squid-guard attacking curriculum."
       ]
-    },
-    "start_here": {
-      "title": "Compare a lapel grip with usable lapel length",
-      "kind": "observation",
-      "task": "Read Tip #1 and compare the article’s description of one freed lapel with its description of freeing both. In your study notes, separate possession of the grip from available fabric length. Then read Tip #2 and note why the passer’s approach may prevent the bottom player from using that grip.",
-      "source_ids": [
-        "jjx-lapel-entry"
-      ],
-      "section": "Tip #1: Take Slack Out The Lapel"
     },
     "sources": [
       {
@@ -218,6 +207,12 @@
         "kind": "official_listing",
         "checked_on": "2026-09-16",
         "note": "Verified basic control, De La Riva, lasso/spider defenses, Spider-X and opponent-posture sections. Listing inspected; course video content not reviewed."
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Jonathan Thomas Double Sleeve Guard System",
+        "reason": "For a full gi guard course built around fabric control, Thomas develops double-sleeve, lasso and spider attacks."
       }
     ]
   },

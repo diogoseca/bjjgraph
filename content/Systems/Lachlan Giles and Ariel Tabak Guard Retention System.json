@@ -75,37 +75,26 @@
       "relationship": "A next study comparison when the need shifts from retaining guard to organizing K-guard offense."
     }
   ],
-  "summary": "A companion to Around and Under that routes study by passing direction and distinguishes retention from later offense.",
-  "description": "Locate an around-the-legs, north-south or under-the-legs retention problem in the Giles–Tabak anthology outline.",
-  "overview": "This release organizes retention by the passer’s route and then adds specific situations. Identify the route first; a familiar pass name alone may hide where the exchange became difficult.",
+  "summary": "The guard Retention Anthology: Around and Under covers recovery against passes around and underneath the legs.",
+  "description": "Lachlan Giles and Ariel Tabak’s course on retention against torreandos, leg drags, north-south movement and stacks.",
+  "overview": "Lachlan Giles and Ariel Tabak’s Around and Under course focuses on keeping guard as the passer moves around or underneath the legs. General concepts and movements support sections on around-the-legs, north-south and under-the-legs retention. Specific passing situations and rolling breakdowns connect that material to live exchanges.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Giles and Tabak: Guard Retention Around and Under",
     "audience": {
       "fits": [
-        "Your recurring guard loss involves a passer moving around the legs, toward north-south, or underneath the legs."
+        "You lose guard to torreandos, leg drags, movement toward north-south or under-the-legs passing."
       ],
-      "consider_alternative_if": [
-        "If you can retain guard and now need posture-specific K-guard entries and offense, compare Lachlan Giles’s K-Guard guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "General concepts and movements, followed by around-the-legs, north-south and under-the-legs retention.",
-        "Specific passing situations, stack-related material and rolling breakdowns."
+        "Retention concepts and movements, around-the-legs recovery and north-south situations.",
+        "Under-the-legs retention, stack-related problems, specific passes and rolling breakdowns."
       ],
       "limits": [
-        "Through-the-legs and close-range study belongs to a separate companion release described by the publisher; this course is the Around and Under selection."
+        "This release focuses on around- and under-the-legs passing rather than close-range passing through the legs."
       ]
-    },
-    "start_here": {
-      "title": "Name the route before the pass",
-      "kind": "observation",
-      "task": "Use one guard-loss exchange from your notes or footage. Record whether the passer went around your legs, reached north-south, or went underneath them. Match that description to parts 3, 4 or 5, and compare it with the opening general-concepts section before choosing a specific-pass lesson.",
-      "source_ids": [
-        "giles-tabak-retention-listing"
-      ],
-      "section": "Part 1: Guard Retention: What is it and why is it important"
     },
     "sources": [
       {
@@ -137,7 +126,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Lachlan Giles K-Guard System",
+        "reason": "Choose Giles’s K-guard course for posture-specific entries and attacking options once you can maintain guard."
+      }
+    ]
   },
   "products": [
     {
@@ -148,9 +143,8 @@
       "course_url": "https://bjjfanatics.com/products/the-guard-retention-anthology-by-lachlan-giles-ariel-tabak",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "A retention release organized around around-the-legs and under-the-legs passing situations.",
-      "best_for": "Your recurring guard loss involves a passer moving around the legs, toward north-south, or underneath the legs.",
-      "study_focus": "Choose the route-specific part before its individual passing examples."
+      "blurb": "Eight parts on retaining guard against around- and under-the-legs passes.",
+      "best_for": "You lose guard to torreandos, leg drags, movement toward north-south or under-the-legs passing."
     }
   ],
   "flashcards": []

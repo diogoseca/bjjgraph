@@ -65,37 +65,26 @@
       "relationship": "Compare for guard recovery and a wider range of reverse-De-La-Riva attacks."
     }
   ],
-  "summary": "A study route through Dante Leon’s distance-management discussion and coming-up material from X, De La Riva, reverse De La Riva and butterfly guard.",
-  "description": "Choose one starting guard in Wrestling Up From Guard and locate the opponent-response sections that belong to it.",
-  "overview": "This course groups coming-up attacks by starting guard. Its opening distance discussion offers a common study question before the outline separates into X/De La Riva, reverse De La Riva and butterfly material.",
+  "summary": "Wrestling Up From Guard develops Dante Leon’s coming-up attacks from X, De La Riva, reverse De La Riva and butterfly.",
+  "description": "A course on turning guard exchanges into wrestling attacks through distance, reactions and underhooks.",
+  "overview": "Dante Leon’s Wrestling Up From Guard focuses on rising into attacks from the bottom. Distance management and forcing reactions introduce material from X guard and De La Riva; later sections address reverse De La Riva, whizzers, snapdowns and butterfly attacks. Its three volumes connect wrestling to existing guard positions.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Dante Leon: Wrestling Up From Guard",
     "audience": {
       "fits": [
-        "You want to study coming up from guard and need to choose a starting position rather than collect unrelated stand-ups."
+        "You want to attack by coming up from guard, with options from several starting positions."
       ],
-      "consider_alternative_if": [
-        "For reverse-De-La-Riva recovery and inversion branches beyond wrestling up, compare Leon’s dedicated reverse-De-La-Riva guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Distance and reaction discussion followed by X-guard and De La Riva material.",
-        "Reverse De La Riva responses and a separate butterfly section."
+        "Distance management, reactions and wrestling up from X guard and De La Riva.",
+        "Reverse-De-La-Riva underhooks and whizzer responses; butterfly knee picks and arm drags."
       ],
       "limits": [
-        "The course starts from guard; its outline is not a general standing-wrestling curriculum."
+        "The starting point is guard. This is not a general course on takedowns from a standing tie-up."
       ]
-    },
-    "start_here": {
-      "title": "Compare two reverse-De-La-Riva situations",
-      "kind": "observation",
-      "task": "Find the knee-down and squared-up opponent lessons in volume 2. Use those labels to sort two exchanges from your own notes or available footage. Record the opponent posture before the bottom player rises; keep observations separate from explanations of the mechanics.",
-      "source_ids": [
-        "leon-wrestling-listing"
-      ],
-      "section": "Volume 1: Distance Management (Standing vs Seated) — 5:38 (course timestamp)"
     },
     "sources": [
       {
@@ -127,7 +116,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Dante Leon Reverse De La Riva System",
+        "reason": "Choose Leon’s reverse-De-La-Riva course for knee-slice recovery, inversions and submissions as well as wrestling up."
+      }
+    ]
   },
   "products": [
     {
@@ -138,9 +133,8 @@
       "course_url": "https://bjjfanatics.com/products/wrestling-up-from-guard-by-dante-leon",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "A three-volume course organized by guard entry point and opponent reaction.",
-      "best_for": "You want to study coming up from guard and need to choose a starting position rather than collect unrelated stand-ups.",
-      "study_focus": "Read the distance section, then choose a single starting-guard block."
+      "blurb": "Three volumes on coming up from guard, including distance management and opponent responses.",
+      "best_for": "You want to attack by coming up from guard, with options from several starting positions."
     }
   ],
   "flashcards": []

@@ -139,38 +139,25 @@
       "relationship": "Compare the more detailed half-butterfly entry and troubleshooting syllabus."
     }
   ],
-  "summary": "A focused route to the bottom-half section of The Ultimate Rubber Guard, with its limits as a half-guard resource made explicit.",
-  "description": "Find Eddie Bravo’s bottom-half material without mistaking this rubber-guard release for a complete half-guard curriculum.",
-  "overview": "The linked release spends most of its outline on rubber guard. Its final volume gives bottom half a separate slot, making this guide useful when you want to locate that material within a course you are considering or already own.",
+  "summary": "Eddie Bravo’s bottom-half material appears as a short section within The Ultimate Rubber Guard.",
+  "description": "What The Ultimate Rubber Guard offers a reader interested in Eddie Bravo’s half guard.",
+  "overview": "The Ultimate Rubber Guard includes a bottom-half section in its final volume. The publisher also advertises lockdown and electric-chair material. For someone buying specifically for half guard, the key limitation is its share of the course: the listed Bottom Half section runs 15 minutes 40 seconds, within a release primarily devoted to rubber guard.",
   "guide": {
     "kind": "course_companion",
-    "display_title": "Eddie Bravo: Bottom Half Study",
+    "display_title": "Eddie Bravo: Bottom Half in The Ultimate Rubber Guard",
     "audience": {
       "fits": [
-        "Your immediate interest is Eddie Bravo’s bottom-half material rather than the full rubber-guard sequence."
+        "You want Eddie Bravo’s half-guard material alongside his rubber-guard instruction."
       ],
-      "consider_alternative_if": [
-        "For a detailed half-butterfly outline with entries and troubleshooting, compare Brian Glick’s guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Volume 4 separates bottom-half instruction from rubber-guard variations.",
-        "The description mentions lockdown and electric-chair material, without a detailed chapter breakdown for each."
+        "A dedicated Bottom Half section in volume 4; the course description also names lockdown and electric chair."
       ],
       "limits": [
-        "Only one bottom-half section is itemized; this is not an outline of the entire 10th Planet half-guard curriculum."
+        "This is a rubber-guard purchase with a short half-guard section, not a standalone half-guard course."
       ]
-    },
-    "start_here": {
-      "title": "Check whether the half-guard section is enough",
-      "kind": "observation",
-      "task": "Compare the single Bottom Half slot with the separate entry and troubleshooting sections in Glick’s outline. Decide whether you need a short Bravo-specific study or a more extensively indexed half-guard resource. With course access, start at Bottom Half and record the positions actually demonstrated.",
-      "source_ids": [
-        "bravo-rubber-listing",
-        "glick-half-butterfly-listing"
-      ],
-      "section": "Volume 4: Bottom Half — 0–15:40 (course range)"
     },
     "sources": [
       {
@@ -199,7 +186,13 @@
       "checked_on": "2026-09-16",
       "content_reviewed": false,
       "playback_verified_on": []
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Brian Glick Half Butterfly System",
+        "reason": "Choose a course centered on half butterfly, with entries, sweeps, submissions and leg entanglements."
+      }
+    ]
   },
   "products": [
     {
@@ -210,9 +203,8 @@
       "course_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "The approved course contains a dedicated bottom-half section within a wider rubber-guard release.",
-      "best_for": "Your immediate interest is Eddie Bravo’s bottom-half material rather than the full rubber-guard sequence.",
-      "study_focus": "Go directly to volume 4 for the bottom-half material."
+      "blurb": "Rubber-guard instruction with a short bottom-half section.",
+      "best_for": "You want Eddie Bravo’s half-guard material alongside his rubber-guard instruction."
     }
   ],
   "flashcards": []
