@@ -12,9 +12,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "John Danaher’s Leglocks: Enter The System organizes leg-attack study around inside position, ashi variations, knee-line problems and entries.",
-  "description": "A course companion for locating control, recovery and entry lessons in John Danaher’s leg-lock curriculum.",
-  "overview": "If collecting entries has left you unsure which positional problem to study, this syllabus offers separate starting points for gaining inside position and recovering the knee line. Later volumes expand into submission mechanics and entries from standing and the ground.",
+  "summary": "Leglocks: Enter The System by John Danaher covers leg-entanglement control, heel hooks, toe holds and entries from standing and the ground.",
+  "description": "John Danaher’s eight-volume leg-lock course, from inside position and knee-line control to submission mechanics and entries.",
+  "overview": "John Danaher develops leg attacks around gaining inside position, controlling the knee line and moving between ashi configurations. The course covers inside and outside heel hooks, toe holds and the problems created by an opponent’s rotation or leg positioning.\n\nIts eight volumes combine control and finishing material with entries from standing exchanges and guard. That breadth suits a grappler building a connected leg-attack game beyond a single ankle-lock finish.",
   "related_content": [
     {
       "name": "Ashi Garami",
@@ -177,29 +177,18 @@
     "display_title": "John Danaher: Leglocks — Enter The System",
     "audience": {
       "fits": [
-        "You want to distinguish gaining an entanglement from recovering control after it starts to slip."
+        "You want leg-entanglement control, recovery and entries alongside heel-hook finishing mechanics."
       ],
-      "consider_alternative_if": [
-        "For an ankle-lock-centered course organized around seated and kneeling opponents, compare Jason Rau Ankle Lock System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Inside-position and knee-line study in Volumes 1–2; ashi configurations and heel hooks in Volume 3.",
-        "Later volumes address rotational resistance, leg switches and entries from standing and ground positions."
+        "Gripping, inside position, knee-line recovery and single-leg, double-leg and cross-ashi configurations.",
+        "Rotational resistance, toe holds, leg switches and entries from standing, half guard and other ground positions."
       ],
       "limits": [
-        "The curriculum extends into heel hooks and toe holds; it is broader than straight-ankle-lock study."
+        "Heel hooks and rotational control occupy substantial parts of the course; it is broader than an ankle-lock-only instructional."
       ]
-    },
-    "start_here": {
-      "title": "Separate entry trouble from recovery trouble",
-      "kind": "observation",
-      "task": "In the free Volume 2 outline, locate the lessons on attaining inside position, the knee line and recovering it. Match one recurring problem from your own training notes to entry or recovery. If you have the course, begin with the matching lesson and record the starting situation it actually demonstrates.",
-      "source_ids": [
-        "danaher-leglocks"
-      ],
-      "section": "Volume 2: Knee and Knee Line (48:48–53:54); Recovering Knee Line (1:17:43–1:22:41)."
     },
     "sources": [
       {
@@ -218,6 +207,12 @@
         "checked_on": "2026-09-16",
         "note": "Verified title, instructor and three-volume outline: grips and leg positions, posture-specific finishes, Aoki locks, heel hooks and positional alternatives."
       }
+    ],
+    "alternatives": [
+      {
+        "system": "Jason Rau Ankle Lock System",
+        "reason": "An ankle-lock-centered course with seated and kneeling finishes, Aoki options and back-taking alternatives."
+      }
     ]
   },
   "products": [
@@ -229,9 +224,8 @@
       "course_url": "https://bjjfanatics.com/products/leglocks-enter-the-system-by-john-danaher",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Inside-position and knee-line study in Volumes 1–2; ashi configurations and heel hooks in Volume 3.",
-      "best_for": "You want to distinguish gaining an entanglement from recovering control after it starts to slip.",
-      "study_focus": "Volume 2: Knee and Knee Line (48:48–53:54); Recovering Knee Line (1:17:43–1:22:41)."
+      "blurb": "An eight-volume curriculum connecting ashi control and entries with heel hooks and toe holds.",
+      "best_for": "Grapplers who want a broad leg-attack curriculum with substantial entanglement-control material."
     }
   ]
 }

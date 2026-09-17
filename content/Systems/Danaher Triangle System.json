@@ -9,9 +9,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Intermediate",
-  "summary": "John Danaher’s Triangles Enter The System surveys triangle configurations, entry contexts and connections to other submissions.",
-  "description": "Find a starting point in Danaher’s triangle curriculum by separating configuration changes from new entries.",
-  "overview": "A different triangle orientation and a different way of entering it are separate study choices. This syllabus addresses both, beginning with a two-stage approach and later devoting sections to front, opposite, rear, side and reverse configurations.",
+  "summary": "Triangles Enter The System by John Danaher covers five triangle orientations, their entries and connections to joint locks.",
+  "description": "John Danaher’s triangle curriculum covers front, opposite, rear, side and reverse configurations from guard, top positions and scrambles.",
+  "overview": "Triangles Enter The System develops the triangle beyond the familiar front configuration. John Danaher covers the transition from an initial trap to a figure-four triangle, then builds out front, opposite, rear, side and reverse variations.\n\nThe eight-volume syllabus includes entries from guard, passing, mount, turtle and standing exchanges, along with arm-lock and leg-lock connections. It suits grapplers looking for a broad triangle attack system across several positions.",
   "related_content": [
     {
       "name": "Triangle Control",
@@ -74,29 +74,18 @@
     "display_title": "John Danaher: Triangles Enter The System",
     "audience": {
       "fits": [
-        "You want to organize several triangle variations instead of collecting unrelated entries."
+        "You want triangle attacks from top positions and scrambles as well as guard."
       ],
-      "consider_alternative_if": [
-        "If your main question is how to classify frames, posture and rotational pressure inside a triangle, compare Ryan Hall Triangle System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "The opening volumes separate preliminary capture, figure-four configuration and front-triangle entries.",
-        "Later volumes cover other orientations, top-position entries and connections to joint locks."
+        "Trap-to-figure-four transitions, front-triangle mechanics and five triangle orientations.",
+        "Guard and top-position entries, sweeps, arm-lock connections and a transition to an inside heel hook."
       ],
       "limits": [
-        "The outline extends beyond closed-guard triangles, including standing exchanges, turtle attacks and leg-lock connections."
+        "The course spans eight volumes and multiple orientations; its scope goes well beyond a single closed-guard triangle."
       ]
-    },
-    "start_here": {
-      "title": "Distinguish configuration work from entry work",
-      "kind": "observation",
-      "task": "Compare the public Volume 2 headings for trap-to-figure-four transitions with its seated-entry section. Label your current question as getting into a triangle or changing an existing configuration. With course access, begin with the matching demonstration and record what changes between its opening and closing positions.",
-      "source_ids": [
-        "danaher-triangles"
-      ],
-      "section": "Volume 2: Managing Transition from Trap Triangle to Figure Four Triangle (18:06–21:04)."
     },
     "sources": [
       {
@@ -128,7 +117,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Ryan Hall Triangle System",
+        "reason": "A triangle course with distinct treatment of frames, posture, pressure, specific defenses and scoring."
+      }
+    ]
   },
   "products": [
     {
@@ -139,16 +134,8 @@
       "course_url": "https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "The opening volumes separate preliminary capture, figure-four configuration and front-triangle entries.",
-      "best_for": "You want to organize several triangle variations instead of collecting unrelated entries.",
-      "study_focus": "Volume 2: Managing Transition from Trap Triangle to Figure Four Triangle (18:06–21:04)."
-    }
-  ],
-  "flashcards": [
-    {
-      "question": "How can a study log distinguish triangle entries from configuration changes?",
-      "answer": "Record whether the example begins outside a triangle or changes an existing triangle configuration. Danaher’s outline separates entry lessons from trap-to-figure-four work.",
-      "answer_line": "Entry or configuration change"
+      "blurb": "Eight volumes covering triangle configurations, entries across positions and connections to other submissions.",
+      "best_for": "Grapplers expanding a front-triangle game into other orientations and top-position attacks."
     }
   ]
 }

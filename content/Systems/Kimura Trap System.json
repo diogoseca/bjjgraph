@@ -11,9 +11,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "John Danaher’s Kimura: Enter The System studies kimura configurations alongside alternative submissions and positional changes.",
-  "description": "A course companion for selecting kimura study beyond the direct finish.",
-  "overview": "The published curriculum places changes of submission and changes of position in separate lessons. That distinction makes this a useful reference when your question is what else to study around a blocked kimura, without assuming one predetermined response to every defense.",
+  "summary": "Kimura: Enter The System by John Danaher connects kimura finishing with positional transitions, back takes and other submissions.",
+  "description": "John Danaher’s eight-volume kimura course covers dorsal and T kimuras, defensive grip problems and applications from top, bottom and standing.",
+  "overview": "Kimura: Enter The System treats the kimura as an attack with several possible outcomes. John Danaher covers grip and arm-position problems, dorsal and T-kimura configurations, reinforced-hand defenses and switches to other submissions or positions.\n\nApplications extend from side control and half guard to turtle, standing takedowns and scrambles. The course is especially relevant to grapplers who want back-taking and submission connections around the kimura as well as the direct finish.",
   "related_content": [
     {
       "name": "Kimura Trap",
@@ -138,32 +138,21 @@
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "John Danaher: Kimura Control and Transitions",
+    "display_title": "John Danaher: Kimura — Enter The System",
     "audience": {
       "fits": [
-        "You want a kimura reference that explicitly separates finishing, submission changes and positional changes."
+        "You want to turn kimura attacks into positional advances, back takes and other submissions."
       ],
-      "consider_alternative_if": [
-        "For double-wrist-lock variations, frame problems and a more compact guard-to-half-guard sequence, compare Neil Melanson Kimura System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Dorsal and T-kimura sections include alternative submissions and positional switches.",
-        "Applications extend across side control, half guard, turtle, standing and scramble situations."
+        "Kimura grips and arm positioning, dorsal and T configurations, and reinforced-hand defenses.",
+        "Back takes, triangles and arm locks, with applications from side control, guard, turtle and takedown exchanges."
       ],
       "limits": [
-        "The selected course follows Danaher’s kimura approach; it does not survey other instructors’ kimura-trap systems."
+        "This is an eight-volume positional kimura curriculum, including advanced submission connections beyond the basic shoulder lock."
       ]
-    },
-    "start_here": {
-      "title": "Separate a new finish from a new position",
-      "kind": "observation",
-      "task": "Find the two adjacent switching lessons in Volume 2’s public outline. Create separate headings for alternative submission and different position. If you have the course, record one demonstrated outcome under each heading and compare the starting problem that led to it; leave the mechanics blank until observed.",
-      "source_ids": [
-        "danaher-kimura"
-      ],
-      "section": "Volume 2: Switching to Alternative Submission (34:04–39:18); Switching to Different Position / System (39:18–48:56)."
     },
     "sources": [
       {
@@ -195,7 +184,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Neil Melanson Kimura System",
+        "reason": "A four-volume treatment of double-wrist-lock variations, frame counters and guard-to-half-guard sequences."
+      }
+    ]
   },
   "products": [
     {
@@ -206,9 +201,8 @@
       "course_url": "https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Dorsal and T-kimura sections include alternative submissions and positional switches.",
-      "best_for": "You want a kimura reference that explicitly separates finishing, submission changes and positional changes.",
-      "study_focus": "Volume 2: Switching to Alternative Submission (34:04–39:18); Switching to Different Position / System (39:18–48:56)."
+      "blurb": "An eight-volume course connecting kimura control and finishing to back takes, positional changes and other submissions.",
+      "best_for": "Grapplers developing a kimura game that continues beyond a blocked direct finish."
     }
   ]
 }

@@ -13,9 +13,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "A study guide to Craig Jones’s adjacent straight-ankle-lock and kneebar sections, without assuming the outline establishes a fixed chain.",
-  "description": "Find the two submission topics and identify what a transition between them still needs to demonstrate.",
-  "overview": "Volume 2 of Systematic Submission Dilemmas lists straight ankle locks and kneebars together. That makes the course relevant to both topics, but adjacent chapter labels alone do not establish the defensive trigger or movement connecting them.",
+  "summary": "Craig Jones’s Systematic Submission Dilemmas includes straight ankle locks and kneebars within a wider triangle-and-leg-attack course.",
+  "description": "Straight-ankle-lock and kneebar coverage in Craig Jones’s submission-combinations course, with the scope of the connection made explicit.",
+  "overview": "Systematic Submission Dilemmas includes an ankle-lock kick-through problem, straight ankle locks from 50/50 and kneebars in its second volume. The rest of Craig Jones’s course expands into triangle finishing, triangle-to-leg transitions and match commentary.\n\nIt offers both straight-lock topics in one instructional, but they are only part of the eight-volume package. The published outline does not establish a specific footlock-to-kneebar reaction sequence.",
   "related_content": [
     {
       "name": "Ashi Garami",
@@ -170,32 +170,21 @@
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Straight Ankle Lock and Kneebar Study",
+    "display_title": "Straight Ankle Locks and Kneebars",
     "audience": {
       "fits": [
-        "You want to investigate both submissions while keeping the proposed transition distinct from the individual attacks."
+        "You want straight ankle locks and kneebars alongside a broader triangle-and-leg-attack game."
       ],
-      "consider_alternative_if": [
-        "If the immediate problem is an ankle lock against a seated or kneeling opponent, compare Jason Rau Ankle Lock System before studying a second submission."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Volume 2 names an ankle-lock kick-through problem, a 50/50 straight-ankle lesson and kneebars.",
-        "The wider course connects triangles and leg positions, giving these straight-lock topics a broader context."
+        "An ankle-lock kick-through problem, straight ankle locks from 50/50 and kneebars.",
+        "Triangle entries and finishes, upper-to-lower-body transitions and match commentary elsewhere in the course."
       ],
       "limits": [
-        "The public outline does not specify a universal footlock-to-kneebar reaction chain."
+        "The public syllabus lists the two submissions but does not establish a specific footlock-to-kneebar chain."
       ]
-    },
-    "start_here": {
-      "title": "Check whether the connection is actually demonstrated",
-      "kind": "observation",
-      "task": "Locate the three Volume 2 headings in the public outline. Keep separate notes for the ankle-lock problem, the 50/50 example and the kneebar. If you have the course, look specifically for a demonstrated connection between the attacks and record its starting position and stated trigger; leave the connection unconfirmed if neither is shown.",
-      "source_ids": [
-        "craig-dilemmas"
-      ],
-      "section": "Volume 2: Chapter 3 — Knee Bars (13:02)."
     },
     "sources": [
       {
@@ -214,6 +203,12 @@
         "checked_on": "2026-09-16",
         "note": "Verified title, instructor and three-volume outline: grips and leg positions, posture-specific finishes, Aoki locks, heel hooks and positional alternatives."
       }
+    ],
+    "alternatives": [
+      {
+        "system": "Jason Rau Ankle Lock System",
+        "reason": "A more ankle-lock-centered course with seated and kneeling finishes, Aoki options and secondary attacks."
+      }
     ]
   },
   "products": [
@@ -225,9 +220,8 @@
       "course_url": "https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Volume 2 names an ankle-lock kick-through problem, a 50/50 straight-ankle lesson and kneebars.",
-      "best_for": "You want to investigate both submissions while keeping the proposed transition distinct from the individual attacks.",
-      "study_focus": "Volume 2: Chapter 3 — Knee Bars (13:02)."
+      "blurb": "Straight ankle locks and kneebars feature in Volume 2 of Craig Jones’s broader triangle-and-leg combinations course.",
+      "best_for": "Grapplers interested in both straight locks and the course’s wider triangle-to-leg material."
     }
   ]
 }

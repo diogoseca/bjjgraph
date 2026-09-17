@@ -11,9 +11,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Intermediate",
-  "summary": "Marcelo Garcia’s The Marcelotine presents guillotine attacks from standing, guard, grounded exchanges and passing positions.",
-  "description": "Use The Marcelotine’s positional organization to find an entry or passing-defense problem worth studying.",
-  "overview": "This outline gives recovery against passing defenses its own volume, separate from standing entries and attacks while passing. That helps distinguish losing a guillotine during a pass from finding a guillotine while you are the passer.",
+  "summary": "The Marcelotine by Marcelo Garcia covers high-elbow guillotines from standing, guard and passing, including recovery against passing defenses.",
+  "description": "Marcelo Garcia’s guillotine course includes takedown counters, guard attacks, passing-position entries and recovery when an opponent passes.",
+  "overview": "The Marcelotine concentrates on Marcelo Garcia’s guillotine attacks, including high-elbow variations against single- and double-leg attempts. Grounded material covers recovery during a pass and finishing after the opponent has passed the guard.\n\nOther sections address guillotines from guard, against sit-up guard and from side control or mount. This is a focused submission course for grapplers who want the guillotine to connect their standing and ground attacks.",
   "related_content": [
     {
       "name": "Guillotine Control",
@@ -166,29 +166,18 @@
     "display_title": "Marcelo Garcia: The Marcelotine",
     "audience": {
       "fits": [
-        "You want guillotine-specific material for the moment an opponent starts or completes a guard pass."
+        "You want guillotine attacks from several positions, including answers to an opponent passing your guard."
       ],
-      "consider_alternative_if": [
-        "If you want to explore a guillotine-to-triangle connection, Ryan Hall Triangle System points to a specifically named lesson in The Modern Triangle."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Standing and guard entries, recovery against passing defenses, and attacks from passing positions.",
-        "The grounded section distinguishes butterfly-hook recovery, belly-down recovery and a finish after the guard is passed."
+        "Standing takedown counters, guard entries and high-elbow guillotine variations.",
+        "Recovery against passing defenses and attacks while passing, from side control and from mount."
       ],
       "limits": [
-        "The curriculum centers on guillotines; it is not an overview of every front-headlock submission."
+        "The curriculum centers on guillotines, rather than the full range of front-headlock submissions."
       ]
-    },
-    "start_here": {
-      "title": "Identify which side of the pass you are studying",
-      "kind": "observation",
-      "task": "Compare Volumes 2 and 4 in the public outline. Decide whether your example involves defending a pass with a guillotine or attacking one while passing. With course access, use the selected volume to record when the passer changes position relative to the guillotine attempt, rather than merging both situations into a single entry note.",
-      "source_ids": [
-        "marcelotine"
-      ],
-      "section": "Volume 2: Butterfly hook Guillotine recovery vs pass defense (7:11)."
     },
     "sources": [
       {
@@ -220,7 +209,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Ryan Hall Triangle System",
+        "reason": "Includes a guillotine-to-triangle connection within a broader triangle curriculum."
+      }
+    ]
   },
   "products": [
     {
@@ -231,9 +226,8 @@
       "course_url": "https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Standing and guard entries, recovery against passing defenses, and attacks from passing positions.",
-      "best_for": "You want guillotine-specific material for the moment an opponent starts or completes a guard pass.",
-      "study_focus": "Volume 2: Butterfly hook Guillotine recovery vs pass defense (7:11)."
+      "blurb": "Four volumes of guillotine entries, high-elbow variations and recovery across standing and ground exchanges.",
+      "best_for": "Grapplers refining guillotine attacks and keeping them relevant through passing exchanges."
     }
   ]
 }

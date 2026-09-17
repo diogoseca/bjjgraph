@@ -9,9 +9,9 @@
   ],
   "system_type": "Submission Chain",
   "difficulty_level": "Advanced",
-  "summary": "Jason Rau’s Dynamic Ankle Locks groups ankle-attack study by grips, leg positions, opponent posture and secondary options.",
-  "description": "Locate ankle-lock material for seated, kneeling and standing situations in Jason Rau’s course.",
-  "overview": "An ankle-lock question can concern the initial connection, a change in the opponent’s posture, or the next option after the attack stalls. Rau’s three-volume outline separates those areas and names both submission and back-taking alternatives.",
+  "summary": "Dynamic Ankle Locks by Jason Rau covers grips, leg positions, posture-specific finishes and secondary submission or back-taking options.",
+  "description": "Jason Rau’s ankle-lock course includes seated and kneeling finishes, Aoki locks, heel hooks and routes to the back.",
+  "overview": "Jason Rau starts Dynamic Ankle Locks with grips, leg positions and finishing mechanics, then addresses attacks against seated and kneeling opponents. Y-guard and butterfly-hook situations receive separate treatment, alongside belly-down finishes and Aoki options.\n\nThe final volume covers alternatives when the ankle lock fails, including heel hooks, a bear trap and back takes. The course centers on the ankle lock while carrying the attack into other outcomes.",
   "related_content": [
     {
       "name": "Straight Ankle Lock",
@@ -74,29 +74,18 @@
     "display_title": "Jason Rau: Dynamic Ankle Locks",
     "audience": {
       "fits": [
-        "You want to investigate how an ankle-attack problem changes between seated and kneeling opponents."
+        "You want an ankle-lock-centered game with finishes for different opponent postures and alternatives when the attack stalls."
       ],
-      "consider_alternative_if": [
-        "For a wider study of inside position, knee-line recovery and ashi entries, compare Danaher Leg Lock System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Volume 1 addresses grips and leg positions; Volume 2 distinguishes posture-specific finishing situations.",
-        "Volume 3 lists heel-hook, bear-trap and back-taking alternatives."
+        "Grips, leg positions, outside ashi, Y-guard and butterfly-hook ankle attacks.",
+        "Seated and kneeling finishes, Aoki options, a heel-hook dilemma and secondary back takes."
       ],
       "limits": [
-        "Aoki locks and heel hooks are explicitly included; the title does not describe a straight-ankle-only syllabus."
+        "The syllabus includes Aoki locks and heel hooks; it is not restricted to straight ankle locks."
       ]
-    },
-    "start_here": {
-      "title": "Sort the posture-specific lessons",
-      "kind": "observation",
-      "task": "In the public Volume 2 outline, mark the seated and kneeling sections separately. Choose the posture that matches the problem you want to study, then check whether the selected heading names an ankle lock or an Aoki option. With course access, compare the demonstrated starting positions before combining your notes.",
-      "source_ids": [
-        "rau-ankles"
-      ],
-      "section": "Volume 2: Butterfly Hook Vs Kneeling Opponent (16:13); Y Guard Vs Kneeling Opponent (19:50)."
     },
     "sources": [
       {
@@ -128,7 +117,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Danaher Leg Lock System",
+        "reason": "A wider curriculum in inside position, knee-line control, ashi configurations and leg-lock entries."
+      }
+    ]
   },
   "products": [
     {
@@ -139,16 +134,8 @@
       "course_url": "https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Volume 1 addresses grips and leg positions; Volume 2 distinguishes posture-specific finishing situations.",
-      "best_for": "You want to investigate how an ankle-attack problem changes between seated and kneeling opponents.",
-      "study_focus": "Volume 2: Butterfly Hook Vs Kneeling Opponent (16:13); Y Guard Vs Kneeling Opponent (19:50)."
-    }
-  ],
-  "flashcards": [
-    {
-      "question": "Which opponent postures should an ankle-lock observation log distinguish?",
-      "answer": "Keep seated, kneeling and standing examples separate. Rau’s outline names these situations separately, so observations from one should not silently stand in for another.",
-      "answer_line": "Seated, kneeling, standing"
+      "blurb": "Three volumes of ankle-lock mechanics, posture-specific attacks and alternatives when the finish is unavailable.",
+      "best_for": "Grapplers building around ankle attacks while adding Aoki, heel-hook and back-taking options."
     }
   ]
 }
