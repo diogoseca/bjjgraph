@@ -11,19 +11,19 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
-  "description": "A study companion to Champions Stay Present, organized around the different questions before, during and after competition.",
-  "summary": "Locate preparation, competition-day focus and performance review in Josh McKinney’s mindset syllabus.",
-  "overview": "Being disappointed by a result and identifying a moment you lost focus are different review problems. Josh McKinney’s Champions Stay Present separates goal setting and camp preparation from competition day and post-event analysis. Use that structure to choose the part of the course that matches the experience you want to examine.",
+  "description": "Josh McKinney’s Champions Stay Present addresses nerves, focus, competition preparation and performance review.",
+  "summary": "Josh McKinney’s approach to staying mentally engaged before, during and after a BJJ competition.",
+  "overview": "Champions Stay Present is Josh McKinney’s course on the mental side of BJJ competition. The advertised material addresses nerves and self-doubt, pre-competition routines and regaining focus during a match, including when behind or under pressure.\n\nIts six volumes span goals and training camp, over-training, competitors’ perspectives, competition day and post-event analysis. The emphasis is on the competitor’s attention and preparation, making it a different purchase from a technical course on positions or submissions.",
   "related_content": [
     {
       "name": "Competition Preparation System",
       "content_type": "System",
-      "relationship": "For logistics and coach communication around tournament day."
+      "relationship": "Tournament preparation, travel and athlete-coach communication."
     },
     {
       "name": "Competition Strategy",
       "content_type": "System",
-      "relationship": "Related study guide: Competition Strategy."
+      "relationship": "Event-specific game plans and their offensive and defensive situations."
     },
     {
       "name": "Competition Mindset",
@@ -33,7 +33,7 @@
     {
       "name": "Competition Scoring Strategy",
       "content_type": "System",
-      "relationship": "Related study guide: Competition Scoring Strategy."
+      "relationship": "IBJJF points, continuous positional control and regulation-time tiebreakers."
     },
     {
       "name": "Positional Sparring",
@@ -83,22 +83,22 @@
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Closed Guard."
+      "relationship": "Related position: Closed Guard."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Mount."
+      "relationship": "Related position: Mount."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Back Control."
+      "relationship": "Related position: Back Control."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Turtle."
+      "relationship": "Related position: Turtle."
     },
     {
       "name": "Guard Pull",
@@ -113,33 +113,23 @@
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Competition Mindset: Champions Stay Present",
+    "display_title": "Champions Stay Present: Competition Mindset",
     "audience": {
       "fits": [
-        "Your competition notes record results but say little about what held your attention during the match."
+        "Nerves, self-doubt or losing focus are a bigger competition concern than adding another technique.",
+        "You want a course that connects mental preparation with match-day focus and post-event review."
       ],
-      "consider_alternative_if": [
-        "If the immediate problem is travel, packing or coach arrangements, Competition Preparation System has a more practical logistics focus."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Six volumes covering the method, goals and camp, over-training, champions’ perspectives, competition day and post-competition analysis.",
-        "Separate places to study event-day focus and retrospective review."
+        "Managing nerves and self-doubt, pre-competition routines and mid-match refocusing, as advertised on the official page.",
+        "Goal setting, training-camp preparation and discussion of over-training.",
+        "Competition-day mindset and post-competition analysis."
       ],
       "limits": [
-        "The public outline identifies topics without explaining the course’s mental exercises.",
-        "This companion focuses on competition reflection; it does not supply psychological treatment or a conditioning plan."
+        "The subject is competitor mindset; technique instruction and detailed event rules are separate needs."
       ]
-    },
-    "start_here": {
-      "title": "Separate attention during the match from hindsight",
-      "kind": "observation",
-      "task": "Choose one competition you remember clearly. In one column record what occupied your attention before and during the match; in another record what you concluded after seeing the result. Identify a mismatch you want to investigate. The outline places event-day material in Volume 5 and retrospective analysis in Volume 6; owners can compare those two lessons against that specific example.",
-      "source_ids": [
-        "mckinney-present"
-      ],
-      "section": "Volume 5: Compete Like you train: Navigating Competition Day. Volume 6: Let’s do that again: Post Competition Analysis."
     },
     "sources": [
       {
@@ -163,7 +153,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Competition Preparation System",
+        "reason": "Matt D’Aquino’s Competition Preparation Masterclass gives more attention to packing, travel and coach-player arrangements."
+      }
+    ]
   },
   "products": [
     {
@@ -173,9 +169,8 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Six volumes on goals, training-camp preparation, competition-day focus and post-event analysis.",
-      "best_for": "Competitors selecting a mindset topic from a specific experience, rather than seeking another technical sequence.",
-      "study_focus": "Compare Volume 5’s event-day lesson with Volume 6’s review lesson using notes from the same competition.",
+      "blurb": "A six-volume mindset course spanning preparation, competition-day focus and post-event analysis.",
+      "best_for": "BJJ competitors seeking help with nerves, self-doubt and staying focused under pressure.",
       "course_url": "https://bjjfanatics.com/products/champions-stay-present-by-josh-mckinney"
     }
   ]

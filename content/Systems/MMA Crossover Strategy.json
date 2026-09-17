@@ -11,9 +11,9 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Advanced",
-  "description": "A rules-based observation guide for BJJ students comparing grappling exchanges with sanctioned MMA.",
-  "summary": "Study how MMA scoring, grounded-fighter rules and fence restrictions change the context of familiar grappling positions.",
-  "overview": "A BJJ position name does not translate directly into an MMA score. The ABC judging clarification evaluates productive offense and expressly distinguishes it from merely holding a position. Its rules also define grounded-fighter status and distinguish contact with the fence from grabbing it. These are useful starting questions when observing an MMA exchange.",
+  "description": "How the cited ABC MMA rules treat positional offense, grounded-fighter status and contact with the fence.",
+  "summary": "MMA judging and foul definitions give familiar grappling positions a different competitive context.",
+  "overview": "Holding a dominant grappling position does not by itself establish dominance in the ABC’s July 2025 judging clarification. Its distinction is between simply occupying the position and offensive work that continually forces an opponent to defend potentially fight-ending attacks.\n\nThe Unified Rules also distinguish placing a hand on the fence from grabbing it, and define when a fighter counts as grounded for the prohibition on knees and kicks to the head. These rules explain part of the difference between sport-BJJ positions and their MMA context; they do not teach the physical adaptations.",
   "related_content": [
     {
       "name": "Cage Clinch to Ground System",
@@ -23,12 +23,12 @@
     {
       "name": "No-Gi Competition Approach",
       "content_type": "System",
-      "relationship": "Compare grappling-only event rules before carrying assumptions into MMA."
+      "relationship": "IBJJF and ADCC scoring differences and division restrictions."
     },
     {
       "name": "Competition Strategy",
       "content_type": "System",
-      "relationship": "Related study guide: Competition Strategy."
+      "relationship": "Event-specific game plans and their offensive and defensive situations."
     },
     {
       "name": "Danaher Front Headlock System",
@@ -38,57 +38,57 @@
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Back Control."
+      "relationship": "Related position: Back Control."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Mount."
+      "relationship": "Related position: Mount."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Side Control."
+      "relationship": "Related position: Side Control."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Closed Guard."
+      "relationship": "Related position: Closed Guard."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Half Guard."
+      "relationship": "Related position: Half Guard."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Turtle."
+      "relationship": "Related position: Turtle."
     },
     {
       "name": "Front Headlock",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Front Headlock."
+      "relationship": "Related position: Front Headlock."
     },
     {
       "name": "Guillotine Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Guillotine Control."
+      "relationship": "Related position: Guillotine Control."
     },
     {
       "name": "Clinch",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Clinch."
+      "relationship": "Related position: Clinch."
     },
     {
       "name": "Knee on Belly",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Knee on Belly."
+      "relationship": "Related position: Knee on Belly."
     },
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Body Lock."
+      "relationship": "Related position: Body Lock."
     },
     {
       "name": "Sprawl",
@@ -168,39 +168,27 @@
     {
       "name": "Self-Defense Application Framework",
       "content_type": "System",
-      "relationship": "A separate guide to the limits of sporting assumptions outside a regulated match."
+      "relationship": "The limits of sporting assumptions outside a regulated match."
     }
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "MMA Crossover: Recheck Grappling Assumptions",
+    "display_title": "Grappling Under MMA Rules",
     "audience": {
       "fits": [
-        "You can recognize BJJ positions but want to understand why a similar-looking MMA exchange has different tactical constraints."
+        "You recognize BJJ positions but want to understand the rules and judging context of grappling in MMA."
       ],
-      "consider_alternative_if": [
-        "For grappling without strikes, use No-Gi Competition Approach and its event-specific rules comparison."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "The difference between occupying a position and producing the offense discussed in MMA judging criteria.",
-        "Rules defining a grounded fighter and restricting fence grabs."
+        "Productive positional offense versus merely holding a position in the ABC judging clarification.",
+        "Grounded-fighter status and the distinction between fence contact and prohibited grabbing."
       ],
       "limits": [
-        "The selected ABC documents concern their stated MMA rules; amateur and commission-specific provisions require their own checks.",
-        "This is an observation guide, not instruction in striking, wall escapes or submissions against strikes."
+        "The cited documents describe the stated ABC rules; amateur and commission-specific rules may differ.",
+        "Striking defense, wall escapes and technical adaptations for MMA require separate instruction."
       ]
-    },
-    "start_here": {
-      "title": "Annotate what changes around a familiar position",
-      "kind": "observation",
-      "task": "Choose an MMA round you can review and isolate a grappling exchange. Make separate notes for positional changes, offensive actions and use of the fence. Compare the notes with the scoring clarification’s distinction between offense and holding. If grounded status or a fence grip matters, consult the relevant foul provision and the event’s adopted rules before labeling the action legal or illegal.",
-      "source_ids": [
-        "abc-mma-rules",
-        "abc-mma-scoring"
-      ],
-      "section": "ABC clarification: Dominance and Successful Grappling. Unified Rules: fouls 12–15."
     },
     "sources": [
       {
@@ -220,6 +208,12 @@
         "checked_on": "2026-09-16",
         "note": "Read the ABC clarification’s distinction between productive offense and merely holding a position, plus the round-based scoring system.",
         "viewed_range": "Dominance and Successful Grappling, page 2; Numerical Scoring System, page 3"
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "No-Gi Competition Approach",
+        "reason": "For IBJJF and ADCC grappling rules without strikes."
       }
     ]
   },

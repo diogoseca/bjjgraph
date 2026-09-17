@@ -11,59 +11,59 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
-  "description": "A rulebook-based observation guide to points, advantages and penalties in IBJJF competition.",
-  "summary": "Distinguish scoring actions, stabilization and tiebreakers when reviewing an IBJJF match.",
-  "overview": "A position name alone does not explain a score. The IBJJF rulebook specifies how an athlete gets there, what control is established and whether a submission interrupts the count. Start with an exchange whose scoreboard change you cannot explain, then identify the applicable article before judging the tactical choice.",
+  "description": "How IBJJF guard-pass scoring, continuous positional progression and tiebreakers work.",
+  "summary": "IBJJF scoring depends on the action and qualifying control, as well as the position reached.",
+  "overview": "Side control is not automatically a three-point guard pass. IBJJF requires a guard to have been passed and the specified control to be established. Submission holds can affect when the stabilization count starts or whether it is interrupted.\n\nContinuous progression can also score cumulatively. Article 3.4 gives a pass followed by mount as a seven-point example, with the final three-second count continuing the earlier control. At regulation time, equal points are separated by advantages, then fewer penalties, and finally a referee decision if the tie remains.",
   "related_content": [
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Mount."
+      "relationship": "Related position: Mount."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Back Control."
+      "relationship": "Related position: Back Control."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Side Control."
+      "relationship": "Related position: Side Control."
     },
     {
       "name": "Knee on Belly",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Knee on Belly."
+      "relationship": "Related position: Knee on Belly."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Closed Guard."
+      "relationship": "Related position: Closed Guard."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Half Guard."
+      "relationship": "Related position: Half Guard."
     },
     {
       "name": "De La Riva Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: De La Riva Guard."
+      "relationship": "Related position: De La Riva Guard."
     },
     {
       "name": "Reverse X-Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Reverse X-Guard."
+      "relationship": "Related position: Reverse X-Guard."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Butterfly Guard."
+      "relationship": "Related position: Butterfly Guard."
     },
     {
       "name": "North-South",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: North-South."
+      "relationship": "Related position: North-South."
     },
     {
       "name": "Guard Pull",
@@ -118,12 +118,12 @@
     {
       "name": "Competition Preparation System",
       "content_type": "System",
-      "relationship": "Related study guide: Competition Preparation System."
+      "relationship": "Tournament preparation, travel and athlete-coach communication."
     },
     {
       "name": "IBJJF Strategy Guide",
       "content_type": "System",
-      "relationship": "Check event and division requirements before applying the scoring articles."
+      "relationship": "IBJJF eligibility, uniform and division requirements."
     },
     {
       "name": "Gordon Ryan Passing System",
@@ -153,39 +153,27 @@
     {
       "name": "No-Gi Competition Approach",
       "content_type": "System",
-      "relationship": "Compare the IBJJF scoring model with ADCC phases and division restrictions."
+      "relationship": "IBJJF and ADCC scoring differences and division restrictions."
     }
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "IBJJF Scoring: Read the Whole Exchange",
+    "display_title": "IBJJF Points, Control and Tiebreakers",
     "audience": {
       "fits": [
-        "You know the headline point values but cannot always explain why a pass, reversal or near-finish did or did not score."
+        "You know the point values but want to understand why a position or a continuous sequence does—or does not—score."
       ],
-      "consider_alternative_if": [
-        "For ADCC comparisons, use No-Gi Competition Approach; its scoring phases and positional values differ."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "A guard pass scores three points when its required control is established; arriving in side control without passing a guard is a different situation.",
-        "Article 3.4 permits cumulative points through continuous positional progression; its pass-to-mount example totals seven.",
-        "At regulation time, tied points are separated by advantages, then fewer penalties, then a referee decision if still tied."
+        "Guard-pass conditions and the distinction between passing a guard and simply reaching side control.",
+        "Three-second stabilization, submission interruptions and cumulative points under Article 3.",
+        "The regulation-time order of points, advantages, penalties and referee decisions."
       ],
       "limits": [
-        "This guide selects scoring questions; the full rulebook covers additional exceptions and stoppage outcomes.",
-        "A camera angle may not show the details needed to explain a referee’s decision."
+        "This explanation covers selected IBJJF scoring provisions; stoppage outcomes and other rulebook exceptions remain separate."
       ]
-    },
-    "start_here": {
-      "title": "Explain one scoreboard change",
-      "kind": "observation",
-      "task": "Choose an IBJJF match recording you can pause. For one guard-passing exchange, note the starting guard, the resulting control, any submission interruption and the scoreboard change. Compare those observations with Articles 3 and 4.2. If the action continues directly to mount, check Article 3.4 before assuming separate pauses were required. Mark anything the camera cannot establish.",
-      "source_ids": [
-        "ibjjf-rules"
-      ],
-      "section": "IBJJF Rule Book: Articles 3, 4.2 and 2.5–2.6."
     },
     "sources": [
       {
@@ -196,6 +184,12 @@
         "checked_on": "2026-09-16",
         "note": "Read point values, cumulative scoring, guard-pass conditions and the regulation-time tiebreak order. These provisions explain scoring rather than prescribe an attacking sequence.",
         "viewed_range": "Articles 2.5–2.6, 3 and 4.2"
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "No-Gi Competition Approach",
+        "reason": "For the differences between IBJJF and ADCC point values, match phases and division restrictions."
       }
     ]
   },

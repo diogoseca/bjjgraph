@@ -11,59 +11,59 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
-  "description": "A focused companion to Power Ride: A New Philosophy on Pinning, covering its advertised control themes and study entry points.",
-  "summary": "Use Craig Jones’s Power Ride syllabus to distinguish reaching top position from studying how to keep an opponent there.",
-  "overview": "If you reach top position but lose track of the opponent’s next movement, a broad no-gi curriculum may be less useful than a focused pinning study. Power Ride separates leg control, upper-body tools and turtle control before its entries and submission material. That structure lets you choose which control problem to examine first.",
+  "description": "Craig Jones’s Power Ride: A New Philosophy on Pinning covers leg rides, upper-body controls, turtle and submissions from top.",
+  "summary": "Leg and upper-body controls for holding top position and connecting pins to submission attacks.",
+  "overview": "Power Ride: A New Philosophy on Pinning centers on keeping an opponent down. Craig Jones separates scoring a position from controlling movement, then covers leg rides, upper-body controls and ways to break down turtle.\n\nThe six-volume course includes turks and shelves, claws and half nelsons, and turtle controls such as spiral rides. Entries come from side control, mount and passing positions, followed by submission material including arm triangles, rear Ezekiels, darces and kimuras. It suits grapplers who reach top position but want a more developed pinning game.",
   "related_content": [
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Body Lock."
+      "relationship": "Related position: Body Lock."
     },
     {
       "name": "Front Headlock",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Front Headlock."
+      "relationship": "Related position: Front Headlock."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Back Control."
+      "relationship": "Related position: Back Control."
     },
     {
       "name": "Inside Ashi-Garami",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Inside Ashi-Garami."
+      "relationship": "Related position: Inside Ashi-Garami."
     },
     {
       "name": "Outside Ashi-Garami",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Outside Ashi-Garami."
+      "relationship": "Related position: Outside Ashi-Garami."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Butterfly Guard."
+      "relationship": "Related position: Butterfly Guard."
     },
     {
       "name": "Deep Half Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Deep Half Guard."
+      "relationship": "Related position: Deep Half Guard."
     },
     {
       "name": "Headquarters Position",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Headquarters Position."
+      "relationship": "Related position: Headquarters Position."
     },
     {
       "name": "Darce Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Darce Control."
+      "relationship": "Related position: Darce Control."
     },
     {
       "name": "Guillotine Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Guillotine Control."
+      "relationship": "Related position: Guillotine Control."
     },
     {
       "name": "Snap Down to Front Headlock",
@@ -168,38 +168,29 @@
     {
       "name": "No-Gi Competition Approach",
       "content_type": "System",
-      "relationship": "Check how the chosen event scores and restricts techniques before applying course material."
+      "relationship": "IBJJF and ADCC scoring differences and division restrictions."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "No-Gi Top Control: Studying Power Ride",
+    "display_title": "Power Ride: Craig Jones’s Pinning System",
     "audience": {
       "fits": [
-        "Your study priority is keeping an opponent controlled from top rather than adding a new guard or standing attack."
+        "You reach top position but have trouble keeping opponents controlled as they move or turn to turtle.",
+        "You want rides and pins that connect to submission attacks."
       ],
-      "consider_alternative_if": [
-        "For scoring phases and technique legality, use No-Gi Competition Approach; this course’s pinning philosophy is not an event rulebook."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Volume 1 introduces the relationship between scoring and control; Volumes 2–4 list leg, upper-body and turtle-control material.",
-        "Volumes 5 and 6 cover entries and control-to-submission topics."
+        "Leg control through splits, rides, turks and shelves; upper-body tools including claws and half nelsons.",
+        "Turtle-control material and entries from side control, mount and passing positions.",
+        "Submission attacks from control, including arm triangles, rear Ezekiels, darces and kimuras."
       ],
       "limits": [
-        "The selected course centers on pinning; it does not provide a complete bottom-game or takedown curriculum.",
-        "A chapter title identifies the subject, not the mechanics or ruleset permission for applying it."
+        "This is a pinning course; a complete guard-passing or bottom-game curriculum is a different scope.",
+        "Its control philosophy does not replace an event’s scoring and permitted-technique rules."
       ]
-    },
-    "start_here": {
-      "title": "Distinguish an entry problem from a control problem",
-      "kind": "observation",
-      "task": "Find a top-position exchange in your own notes or footage. Mark when you arrived on top and when the opponent next changed position. Decide which moment you need help understanding. Compare the entry labels in Volume 5 with the control groups in Volumes 2–4; owners can start with Volume 1’s scoring-versus-control discussion before choosing the matching group.",
-      "source_ids": [
-        "jones-power-ride"
-      ],
-      "section": "Volume 1: Traditional Scoring: Points Do Not Mean Control. Volumes 2–4: Leg Control; Upper Body Tools; Control Principles from Turtle."
     },
     "sources": [
       {
@@ -223,7 +214,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Gordon Ryan Passing System",
+        "reason": "Gordon Ryan’s Systematically Attacking The Guard addresses getting past guards, including split-squat, half-guard and body-lock passing."
+      }
+    ]
   },
   "products": [
     {
@@ -233,9 +230,8 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Six volumes on pinning concepts, leg and upper-body controls, turtle, entries and submissions.",
-      "best_for": "No-gi students deciding which top-control problem to study.",
-      "study_focus": "Start with Volume 1’s scoring-versus-control chapter, then choose a control group rather than treating every listed entry as one sequence.",
+      "blurb": "A six-volume pinning course combining leg rides, upper-body control, turtle breakdowns and submissions.",
+      "best_for": "No-gi grapplers who can reach top position and want to keep opponents there.",
       "course_url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones"
     }
   ]

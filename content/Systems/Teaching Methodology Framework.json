@@ -12,9 +12,9 @@
   ],
   "system_type": "Training Methodology",
   "difficulty_level": "Advanced",
-  "description": "A lesson-planning study guide based on John Connors and Jon Grayzel’s public article about teaching BJJ.",
-  "summary": "Audit a lesson’s purpose, explanation and understanding checks with a published BJJ teaching format.",
-  "overview": "A demonstration can show a movement without making its purpose clear. John Connors and Jon Grayzel describe a four-part presentation format and prompted recall in Teaching BJJ to Kids. The article says the presentation format is also used in adult classes. This guide uses that example to inspect lesson design.",
+  "description": "John Connors and Jon Grayzel’s published approach to explaining BJJ techniques, checking recall and moving into partner practice.",
+  "summary": "A teaching format that connects a technique’s purpose and demonstration with student recall and application.",
+  "overview": "In Teaching BJJ to Kids, John Connors and Jon Grayzel describe lessons built around purpose, identification, execution and application. The final phase is students trying the technique with partners against gradually increasing resistance. Connors says he uses the presentation format in adult classes as well.\n\nDuring explanations, he asks students to recall the next step and offers hints or the answer when they struggle. The article also describes positional practice followed by free grappling. It is a concrete account of one teaching approach, rather than a standardized instructor curriculum.",
   "related_content": [
     {
       "name": "Positional Hierarchy",
@@ -69,22 +69,22 @@
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Mount."
+      "relationship": "Related position: Mount."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Side Control."
+      "relationship": "Related position: Side Control."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Closed Guard."
+      "relationship": "Related position: Closed Guard."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Back Control."
+      "relationship": "Related position: Back Control."
     },
     {
       "name": "Elbow Escape to Guard",
@@ -119,7 +119,7 @@
     {
       "name": "Blue to Purple Progression",
       "content_type": "System",
-      "relationship": "A student-facing study inventory, rather than a lesson-presentation format."
+      "relationship": "Technical development and belt-recognition requirements."
     },
     {
       "name": "Roger Gracie Fundamental System",
@@ -129,7 +129,7 @@
     {
       "name": "Competition Preparation System",
       "content_type": "System",
-      "relationship": "Related study guide: Competition Preparation System."
+      "relationship": "Tournament preparation, travel and athlete-coach communication."
     },
     {
       "name": "Positional Sparring",
@@ -149,33 +149,23 @@
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Planning a BJJ Lesson",
+    "display_title": "Teaching BJJ: Explanation, Recall and Application",
     "audience": {
       "fits": [
-        "You explain techniques and want to check whether students understand the problem each lesson addresses."
+        "You teach children or adults and want a clear account of how explanation, recall and partner practice can fit into a BJJ class."
       ],
-      "consider_alternative_if": [
-        "For planning your own position study, use Blue to Purple Progression; this page concerns presenting a lesson to other people."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "A presentation format separating purpose, identification and execution from students applying the technique with gradually increasing resistance.",
-        "Recall prompts with hints when a student struggles."
+        "Explaining why a technique matters before identifying it and demonstrating its steps.",
+        "Recall questions with hints or answers for students who need help.",
+        "Partner application with increasing resistance, positional practice and free grappling."
       ],
       "limits": [
-        "One instructor’s account does not establish a universal curriculum or a ranking of teaching methods.",
-        "The article does not supply promotion criteria or a certification process for instructors."
+        "The article reports one instructor’s approach; it does not compare the effectiveness of different teaching methods.",
+        "Promotion standards and instructor certification are outside its scope."
       ]
-    },
-    "start_here": {
-      "title": "Audit a lesson you already teach",
-      "kind": "observation",
-      "task": "Read the presentation and recall paragraphs. Take notes from one of your own lessons and label where you explain the purpose, identify the technique, describe execution and give students an opportunity to apply it. The article’s “What If?” phase is partner application with gradually increasing resistance. Inspect how your notes distinguish demonstration from student practice; identify an unclear practice objective without adding a drill. Draft a recall prompt and a helpful hint.",
-      "source_ids": [
-        "connors-grayzel-teaching"
-      ],
-      "section": "Why? What? How? and What if?; Active Recall"
     },
     "sources": [
       {
@@ -186,6 +176,12 @@
         "checked_on": "2026-09-16",
         "note": "Read the guest article and its four-part presentation format, prompted recall and positional practice description. It reports the authors’ teaching approach, rather than a comparison proving one method best.",
         "viewed_range": "Article text, especially the Why/What/How/What If and Active Recall paragraphs"
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Blue to Purple Progression",
+        "reason": "For student development and the distinction between technical breadth and belt recognition."
       }
     ]
   },

@@ -11,19 +11,19 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
-  "description": "A study companion to Competition Preparation Masterclass, focused on organizing the decisions around tournament day.",
-  "summary": "Use Matt D’Aquino’s preparation syllabus to separate travel, packing, coach communication and post-event review.",
-  "overview": "A tournament plan needs practical details as well as a preferred game. Matt D’Aquino’s Competition Preparation Masterclass groups combat-sports preparation into training, logistics, strategy and reflection. Use its chapter map to find the part of preparation you are missing; check event requirements with the organizer.",
+  "description": "Matt D’Aquino’s Competition Preparation Masterclass covers tournament preparation, travel, match-day decisions and coach communication.",
+  "summary": "Practical and mental preparation for the work surrounding a combat-sports tournament.",
+  "overview": "Competition Preparation Masterclass covers the parts of competing that a technique course often leaves aside: competition-specific training, packing, travel, match-day decisions and the relationship between athlete and coach. Matt D’Aquino brings a judo perspective to preparation for combat sports.\n\nThe four-volume course also addresses motivation, weight-division choices, competition strategy and what happens after the event. Its breadth suits competitors who want a clearer tournament routine; it is not a BJJ technique curriculum or a current event rulebook.",
   "related_content": [
     {
       "name": "Competition Strategy",
       "content_type": "System",
-      "relationship": "Use to organize your intended match options after the practical event plan is in place."
+      "relationship": "Event-specific game plans and their offensive and defensive situations."
     },
     {
       "name": "Competition Scoring Strategy",
       "content_type": "System",
-      "relationship": "Related study guide: Competition Scoring Strategy."
+      "relationship": "IBJJF points, continuous positional control and regulation-time tiebreakers."
     },
     {
       "name": "Mental Game Framework",
@@ -33,7 +33,7 @@
     {
       "name": "IBJJF Strategy Guide",
       "content_type": "System",
-      "relationship": "Use for the separate task of checking IBJJF rules and division requirements."
+      "relationship": "IBJJF eligibility, uniform and division requirements."
     },
     {
       "name": "Competition Mindset",
@@ -93,37 +93,37 @@
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Closed Guard."
+      "relationship": "Related position: Closed Guard."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Mount."
+      "relationship": "Related position: Mount."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Back Control."
+      "relationship": "Related position: Back Control."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Half Guard."
+      "relationship": "Related position: Half Guard."
     },
     {
       "name": "De La Riva Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: De La Riva Guard."
+      "relationship": "Related position: De La Riva Guard."
     },
     {
       "name": "X-Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: X-Guard."
+      "relationship": "Related position: X-Guard."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Butterfly Guard."
+      "relationship": "Related position: Butterfly Guard."
     },
     {
       "name": "Rear Naked Choke",
@@ -143,33 +143,23 @@
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Competition Preparation: Planning Tournament Day",
+    "display_title": "Competition Preparation with Matt D’Aquino",
     "audience": {
       "fits": [
-        "You have a tournament in mind but no clear packing, travel or coach-communication plan."
+        "You want help with tournament preparation beyond the techniques you intend to use.",
+        "Packing, travel, coach communication or post-event reflection are recurring gaps in your competition routine."
       ],
-      "consider_alternative_if": [
-        "For scoring and permitted techniques, use IBJJF Strategy Guide and the rules adopted by your event."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Volume 2 separates packing, travel and pre-competition arrangements.",
-        "Volumes 3 and 4 address competition strategy, post-event review and the coach-player relationship."
+        "Competition-specific training, reasons to compete and weight-division choices.",
+        "Packing, travel, pre-event preparation and the period after weigh-in.",
+        "Competition strategy, coach-player communication, motivation and post-event review."
       ],
       "limits": [
-        "The syllabus is for combat sports generally; BJJ division rules and event logistics need their own sources.",
-        "Diet and weight-cutting chapters are listed, but this guide provides no weight-management or conditioning prescription."
+        "The course addresses combat sports from a judo perspective; BJJ scoring and division restrictions require separate rules guidance."
       ]
-    },
-    "start_here": {
-      "title": "Find the gaps in your tournament-day checklist",
-      "kind": "observation",
-      "task": "Without buying the course, compare your existing event plan with the packing and travel modules. Put equipment in one column and arrival arrangements in another; mark anything that still needs an organizer or coach’s answer. Course owners can begin with those two modules, then move to the coach-player lesson if communication is the missing piece.",
-      "source_ids": [
-        "daquino-preparation"
-      ],
-      "section": "Volume 2: module 5 what to pack on competition day; module 6 getting to and from a competition. Volume 4: module 13.2 Coach and player relationship on competition day."
     },
     "sources": [
       {
@@ -179,6 +169,16 @@
         "kind": "official_listing",
         "checked_on": "2026-09-16",
         "note": "Verified course identity and four-volume syllabus, including packing, travel, competition strategy, coach communication and post-event review. The listing describes coverage; it does not supply the lessons themselves."
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Mental Game Framework",
+        "reason": "Josh McKinney’s Champions Stay Present concentrates on mindset across training camp, competition day and performance review."
+      },
+      {
+        "system": "IBJJF Strategy Guide",
+        "reason": "For IBJJF registration, uniforms and division-specific requirements."
       }
     ]
   },
@@ -190,9 +190,8 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Four volumes on combat-sports preparation, including logistics, strategy and review.",
-      "best_for": "Competitors organizing the practical work surrounding tournament day.",
-      "study_focus": "Start with Volume 2’s packing and travel modules; use Volume 4 for coach communication and post-event reflection.",
+      "blurb": "A four-volume course on training preparation, tournament logistics, strategy and the athlete-coach relationship.",
+      "best_for": "Competitors who want a preparation routine covering both practical arrangements and match-day decisions.",
       "course_url": "https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino"
     }
   ]

@@ -11,74 +11,74 @@
   ],
   "system_type": "Competition Strategy",
   "difficulty_level": "Intermediate",
-  "description": "An event-readiness study guide using IBJJF’s public registration instructions, uniform requirements and rulebook.",
-  "summary": "Connect your tournament plan to IBJJF registration, uniform and division-specific rules.",
-  "overview": "A tactical plan assumes the right division, permitted techniques and a uniform that passes inspection. IBJJF publishes those requirements across its rulebook, uniform guidance and event pages. Use this guide to assemble the applicable references before you decide which match options belong in your plan.",
+  "description": "IBJJF membership, division, uniform and rules requirements that shape tournament participation.",
+  "summary": "Registration, uniforms and permitted techniques depend on the athlete’s event and division.",
+  "overview": "An IBJJF entry depends on more than a preferred weight class. Membership must reflect the athlete’s current belt and academy, and the event defines its available age and belt divisions. Published weight limits include the competition uniform.\n\nAge, belt and gi/no-gi format also matter to technique restrictions. Uniform inspection and the rules on lack of combativeness remain relevant regardless of a competitor’s intended style. The event page supplies its correction deadlines, weight chart and schedule; those details are not universal across tournaments.",
   "related_content": [
     {
       "name": "Competition Strategy",
       "content_type": "System",
-      "relationship": "Related study guide: Competition Strategy."
+      "relationship": "Event-specific game plans and their offensive and defensive situations."
     },
     {
       "name": "Competition Preparation System",
       "content_type": "System",
-      "relationship": "Use for packing, travel and coach communication after event requirements are clear."
+      "relationship": "Tournament preparation, travel and athlete-coach communication."
     },
     {
       "name": "Competition Scoring Strategy",
       "content_type": "System",
-      "relationship": "Use for points, cumulative scoring and regulation-time tiebreaks."
+      "relationship": "IBJJF points, continuous positional control and regulation-time tiebreakers."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Mount."
+      "relationship": "Related position: Mount."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Back Control."
+      "relationship": "Related position: Back Control."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Side Control."
+      "relationship": "Related position: Side Control."
     },
     {
       "name": "Knee on Belly",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Knee on Belly."
+      "relationship": "Related position: Knee on Belly."
     },
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Closed Guard."
+      "relationship": "Related position: Closed Guard."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Half Guard."
+      "relationship": "Related position: Half Guard."
     },
     {
       "name": "De La Riva Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: De La Riva Guard."
+      "relationship": "Related position: De La Riva Guard."
     },
     {
       "name": "X-Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: X-Guard."
+      "relationship": "Related position: X-Guard."
     },
     {
       "name": "Spider Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Spider Guard."
+      "relationship": "Related position: Spider Guard."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Turtle."
+      "relationship": "Related position: Turtle."
     },
     {
       "name": "Pass to Side Control",
@@ -168,36 +168,23 @@
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "IBJJF Strategy: Check Your Event and Division",
+    "display_title": "IBJJF Competition Requirements",
     "audience": {
       "fits": [
-        "You are entering an IBJJF event and need to check whether your registration and intended game fit its requirements."
+        "You are entering an IBJJF event and need to understand eligibility, equipment and division requirements."
       ],
-      "consider_alternative_if": [
-        "For explaining a match’s points or advantages, go to Competition Scoring Strategy."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Finding the event’s weight chart, division information, correction deadlines and schedule.",
-        "Checking uniform requirements and the rulebook’s age/belt restrictions on techniques.",
-        "Locating the lack-of-combativeness provisions rather than assuming that holding any lead permits inactivity."
+        "Current-belt membership, division selection and event-specific registration deadlines.",
+        "Weight limits with the uniform included, plus separate gi and no-gi uniform requirements.",
+        "Age/belt technique restrictions and the rulebook’s provisions on lack of combativeness."
       ],
       "limits": [
-        "The organizer’s event page supplies the actual dates and division details.",
-        "This page is a checklist for consulting the rules, not a replacement for the illegal-technique table or its exceptions."
+        "Exact deadlines, divisions and schedules belong to the selected event.",
+        "This overview does not reproduce the complete illegal-technique table or all its exceptions."
       ]
-    },
-    "start_here": {
-      "title": "Build the rule sheet for your actual registration",
-      "kind": "observation",
-      "task": "Open your event’s registration page beside My First Championship. Record your entered age, belt and gi/no-gi division; copy the links to its weight chart and correction deadlines. Then locate that division in the rulebook’s illegal-technique table and check one attack already in your plan. Keep the uniform guidance alongside the sheet so equipment and technique questions do not get mixed together.",
-      "source_ids": [
-        "ibjjf-first-event",
-        "ibjjf-uniform",
-        "ibjjf-rules"
-      ],
-      "section": "My First Championship: Register for the championship. Rule Book: Article 6, illegal-technique table; Article 8, Gis and Uniforms."
     },
     "sources": [
       {
@@ -226,6 +213,12 @@
         "checked_on": "2026-09-16",
         "note": "Inspected the division-specific illegal-technique table, lack-of-combativeness provisions and uniform section. Restrictions depend on the listed age, belt and format categories.",
         "viewed_range": "Article 6 and illegal-technique table; Article 8"
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Competition Scoring Strategy",
+        "reason": "For how IBJJF points, continuous positional control and tiebreakers are awarded."
       }
     ]
   },

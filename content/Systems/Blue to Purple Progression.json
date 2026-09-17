@@ -10,49 +10,49 @@
   ],
   "system_type": "Training Methodology",
   "difficulty_level": "Intermediate",
-  "description": "A study-planning guide for blue belts using Stephan Kesting’s positional categories and the IBJJF graduation rules.",
-  "summary": "Organize what you can explain from top and bottom, then separate study priorities from promotion eligibility.",
-  "overview": "When your notes contain many techniques but leave some positions blank, an inventory can make the next study choice clearer. Kesting’s Sample Technique List separates submissions, top transitions and bottom transitions. Use those categories to organize your existing learning. Belt recognition is a separate question addressed by the IBJJF graduation rules and your professor.",
+  "description": "Technical development and belt recognition, explained through Stephan Kesting’s positional framework and IBJJF graduation rules.",
+  "summary": "A broader technical repertoire and eligibility for belt recognition are separate parts of progression.",
+  "overview": "Technical breadth includes what happens on both sides of a position. Stephan Kesting’s Roadmap separates submissions, top transitions and bottom transitions: for closed guard, that includes passing from top and sweeping from bottom. His examples describe a personal repertoire, not a compulsory purple-belt syllabus.\n\nPromotion is a separate decision. The IBJJF graduation rules leave its timing to the professor while setting minimum periods and exceptions for recognition. Completing a minimum period does not itself establish readiness for the next belt.",
   "related_content": [
     {
       "name": "Closed Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Closed Guard."
+      "relationship": "Related position: Closed Guard."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Half Guard."
+      "relationship": "Related position: Half Guard."
     },
     {
       "name": "De La Riva Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: De La Riva Guard."
+      "relationship": "Related position: De La Riva Guard."
     },
     {
       "name": "Spider Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Spider Guard."
+      "relationship": "Related position: Spider Guard."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Butterfly Guard."
+      "relationship": "Related position: Butterfly Guard."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Mount."
+      "relationship": "Related position: Mount."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Back Control."
+      "relationship": "Related position: Back Control."
     },
     {
       "name": "Knee on Belly",
       "content_type": "Position",
-      "relationship": "Position reference for organizing study: Knee on Belly."
+      "relationship": "Related position: Knee on Belly."
     },
     {
       "name": "Butterfly Sweep",
@@ -137,7 +137,7 @@
     {
       "name": "Competition Strategy",
       "content_type": "System",
-      "relationship": "Narrow an ongoing study inventory into the game you intend to use at a particular event."
+      "relationship": "Event-specific game plans and their offensive and defensive situations."
     },
     {
       "name": "Roger Gracie Fundamental System",
@@ -157,39 +157,27 @@
     {
       "name": "Teaching Methodology Framework",
       "content_type": "System",
-      "relationship": "For instructors presenting lessons, rather than students organizing their own notes."
+      "relationship": "Technique explanation, recall and partner application in a published teaching approach."
     }
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Blue to Purple: Build a Study Inventory",
+    "display_title": "Blue to Purple: Development and Promotion",
     "audience": {
       "fits": [
-        "You are a blue belt with scattered technique notes and want a specific subject to bring to your next coaching conversation."
+        "You want to understand the difference between developing a broader game and meeting belt-recognition requirements."
       ],
-      "consider_alternative_if": [
-        "If your immediate goal is a tournament, Competition Strategy narrows the inventory to the options you intend to use at that event."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "A way to compare your own top, bottom and submission notes against a published positional map.",
-        "The distinction between an instructor’s promotion decision and IBJJF recognition requirements."
+        "Kesting’s distinction between submissions, top transitions and bottom transitions across positions.",
+        "Professor discretion, minimum recognition periods and exceptions in the IBJJF graduation system."
       ],
       "limits": [
-        "The technique list is illustrative; it is not a purple-belt examination.",
-        "No fixed number of guards, tournaments or training months establishes readiness for promotion."
+        "These sources do not define a universal purple-belt technical examination.",
+        "The IBJJF provisions concern recognition; they are not a promised promotion timetable."
       ]
-    },
-    "start_here": {
-      "title": "Find a gap in the same position from opposite roles",
-      "kind": "observation",
-      "task": "Open the Sample Technique List and select a position you encounter often. Sort your own notes into its top-transition, bottom-transition and submission categories. Mark a category you cannot yet explain and take that specific gap to your instructor. Use Article 3 separately if you need to check belt-recognition eligibility.",
-      "source_ids": [
-        "kesting-roadmap",
-        "ibjjf-graduation"
-      ],
-      "section": "Kesting: Sample Technique List, printed pages 29–30. IBJJF graduation: Article 3."
     },
     "sources": [
       {
@@ -209,6 +197,12 @@
         "checked_on": "2026-09-16",
         "note": "Read Article 3: recognition depends on applicable minimum periods and exceptions; promotion timing remains at the professor’s discretion. These are recognition rules, not a technical syllabus.",
         "viewed_range": "Article 3, especially 3.1.3 and 3.2"
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Competition Strategy",
+        "reason": "For the narrower question of which parts of a repertoire belong in a tournament game plan."
       }
     ]
   },
