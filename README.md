@@ -5,17 +5,23 @@
 </p>
 
 <p align="center">
-  <a href="https://dev.bjjgraph.pages.dev"><b>Try the dev preview</b></a> ·
-  <a href="https://bjjgraph.org">Published site</a> ·
+  <a href="https://github.com/diogoseca/bjjgraph/releases/latest"><img src="https://img.shields.io/github/v/release/diogoseca/bjjgraph?style=flat" alt="Latest release"></a>
+  <a href="https://github.com/diogoseca/bjjgraph/commits/main"><img src="https://img.shields.io/github/last-commit/diogoseca/bjjgraph?branch=main&amp;style=flat" alt="Last commit on main"></a>
+  <a href="LICENSE.md"><img src="https://img.shields.io/badge/licence-PolyForm%20Noncommercial-2B4CA0?style=flat" alt="Licence: PolyForm Noncommercial"></a>
+  <a href="https://github.com/diogoseca/bjjgraph/issues"><img src="https://img.shields.io/github/issues/diogoseca/bjjgraph?style=flat" alt="Open issues"></a>
+</p>
+
+<p align="center">
+  <a href="https://bjjgraph.org"><b>bjjgraph.org</b></a> ·
   <a href="#the-data">Get the data</a> ·
   <a href="CONTRIBUTING.md">Contribute</a><br>
   Free to use in your browser. No account required. Source-available, noncommercial licence.
 </p>
 
-<!-- SCREENSHOT SOURCE: https://dev.bjjgraph.pages.dev/Positions/Mount/Top; captured 2026-09-14 at 1440x900. The app normalizes this URL to /Positions/Mount. -->
+<!-- SCREENSHOT SOURCE: production, https://bjjgraph.org/Positions/Mount/Top; captured 2026-09-17 at 1440x900. The app normalizes this URL to /Positions/Mount. -->
 <p align="center">
-  <a href="https://dev.bjjgraph.pages.dev/Positions/Mount/Top"><img src="branding/readme-graph.png" width="800" alt="The dev deployment at Mount, top role, with a flashcard, film-study clips and a hand of submission attacks and transitions"></a><br>
-  <sub>Dev preview: Mount from the top. This README describes the dev branch; the published site can differ.</sub>
+  <a href="https://bjjgraph.org/Positions/Mount/Top"><img src="branding/readme-graph.png" width="800" alt="Mount from the top: the position orb with its bottom-role partner, a strip of film-study clips, a flashcard question, and a hand of submission attacks and transitions with their odds"></a><br>
+  <sub>Mount from the top: film-study clips, a flashcard question, and the hand of attacks and transitions, each with its odds.</sub>
 </p>
 
 | Explore | Drill | Roll |
@@ -36,7 +42,7 @@ A roll never leaves the state machine. It changes **which kind of state** the pl
 
 Positions have **Top / Bottom** perspectives. Transitions and submissions have **Attacker / Defender** perspectives. The role is part of the state, not a label for who is winning. Reference hubs group those perspectives for reading; they are not extra playable states.
 
-The app interprets this model rather than stopping on every intermediate node. On dev, submission attacks have their own choices, including a separate **Finish** action. The [architecture reference](docs/Architecture.md) separates the authored graph from its display and runtime behavior.
+The app interprets this model rather than stopping on every intermediate node. Submission attacks have their own choices, including a separate **Finish** action. The [architecture reference](docs/Architecture.md) separates the authored graph from its display and runtime behavior.
 
 ## Study it, then try a decision
 
@@ -49,7 +55,7 @@ Progress stays in your browser. Sign in only if you want cross-device sync.
 
 ## The data
 
-<!-- COUNTS: derived from this dev-based tree at PR time (2026-09-14). Recompute with the commands in "Reproduce the numbers"; do not copy counts from the published site. -->
+<!-- COUNTS: derived from content/ in this checkout with the commands in "Reproduce the numbers"; recompute there rather than copying counts from the published site. -->
 | Authored JSON files | Count |
 |---|---:|
 | Positions | **133** |
@@ -60,9 +66,9 @@ These are source-file counts, not the number of playable orbs. Submission files 
 
 | Read or download | What you get |
 |---|---|
-| [`graph.json`](graph.json) | The full graph in this checkout: role nodes, attempt weights, outcomes, flashcards and reference material. **49,794,486 bytes** at this revision. |
+| **[Latest release](https://github.com/diogoseca/bjjgraph/releases/latest)** | **Start here.** Two attached assets, `graph.json` and `graph.json.gz`: role nodes, attempt weights, outcomes, flashcards and reference material. A snapshot of the graph behind the published site. No account, no API key, no clone. |
 | [`content/`](content/) | Authored JSON alongside generated Markdown pages. Edit the JSON, not the Markdown. |
-| [Published release data](https://github.com/diogoseca/bjjgraph/releases/latest) | Downloadable `graph.json` and `graph.json.gz`. Releases follow production and may differ from dev. No API key required. |
+| [`graph.json`](graph.json) | The same graph at the current revision, in the repository. Around 50 MB, so GitHub will not preview it in the browser; take the release asset or the raw file. |
 | [`CITATION.cff`](CITATION.cff) | Citation metadata for this project. |
 
 ```sh
@@ -106,7 +112,7 @@ Probabilities are **authored estimates**, checked by schema and graph validators
 
 State boundaries, technical descriptions, safety, ruleset assumptions and probability estimates need review by a **panel of black-belt Brazilian jiu-jitsu practitioners**. This README does not claim that validation has happened. Generated content and passing automated checks are not substitutes for it.
 
-Use this alongside coached practice, not as permission to attempt a submission or as a measure of anyone's belt level. If a claim looks wrong, [open a correction](CONTRIBUTING.md) with the state, role, ruleset and your reasoning.
+Use this alongside coached practice, not as permission to attempt a submission or as a measure of anyone's belt level. If a claim looks wrong, [open a correction](https://github.com/diogoseca/bjjgraph/issues/new?template=correction.yml) with the state, role, ruleset and your reasoning.
 
 ## How it is built
 
