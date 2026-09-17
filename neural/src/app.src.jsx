@@ -3183,7 +3183,9 @@ class Component extends DCLogic {
   _systemBody(s) {
     if (!s || !s.key) return null;
     return this._docBody(s.key, () => {
-      if (this._systemId === s.id && this.deckShown && this._viewMode === "explore") this.renderExplorer();
+      // A cold chunk can have multiple subscribers; only its first arrival mounts the player.
+      if (this._systemId === s.id && this.deckShown && this._viewMode === "explore" &&
+        (this._systemViewId !== s.id || !this._systemViewBody || this._systemViewBody !== ((window.NG_CONTENT && window.NG_CONTENT.decks) || {})[s.key])) this.renderExplorer();
     });
   }
   openConcept(id) {
@@ -9162,17 +9164,21 @@ class Component extends DCLogic {
       return u.protocol === "https:" && !u.username && !u.password ? u : null;
     } catch (e) { return null; }
   }
-  _systemCourse(p) {
+  _systemCourse(p, source = false) {
     const raw = this._systemURL(p.url);
-    const canonical = this._systemURL(p.course_url) || (raw && new URL(raw.href));
+    const canonical = this._systemURL(source ? p.canonical_url : p.course_url) || (raw && new URL(raw.href));
     if (!canonical) return null;
-    canonical.search = ""; canonical.hash = "";
+    if (!source) { canonical.search = ""; canonical.hash = ""; }
+    else if (["bjjfanatics.com", "www.bjjfanatics.com"].includes(canonical.hostname)) for (const key of [...canonical.searchParams.keys()]) {
+      if (key === "ref" || key === "rfsn" || key.startsWith("utm_")) canonical.searchParams.delete(key);
+    }
     try { if (/REPLACE_ME/i.test(decodeURIComponent(canonical.href))) return null; } catch (e) { return null; }
     const ref = raw && raw.searchParams.get("rfsn");
     const active = p.affiliate === true && raw && !raw.port && ["bjjfanatics.com", "www.bjjfanatics.com"].includes(raw.hostname) &&
-      /^\/products\/[a-z0-9-]+$/.test(raw.pathname) && raw.origin === canonical.origin &&
+      (source || /^\/products\/[a-z0-9-]+$/.test(raw.pathname)) && raw.origin === canonical.origin &&
       raw.pathname === canonical.pathname && raw.searchParams.getAll("rfsn").length === 1 &&
       /^[A-Za-z0-9][A-Za-z0-9._~-]{0,63}$/.test(ref || "") && !/REPLACE_ME/i.test(ref + raw.href);
+    // Sources carry the resolver's explicit flag and URL. Never borrow a product's referral.
     return { canonical: canonical.href, active: !!active, url: active ? raw.href : canonical.href };
   }
   affiliateHref(url, s, p) {
@@ -9202,9 +9208,44 @@ class Component extends DCLogic {
     if (bunny) { u.searchParams.set("preload", "false"); u.searchParams.set("loop", "false"); }
     return u.href;
   }
-  _renderSystemGuide(list, s, body) {
-    const guide = body.guide;
-    const E = (v) => this.escHTML(v);
+  _systemOutboundAnchor(s, p, resolved, label, placement, source = false) {
+    const a = document.createElement("a");
+    a.textContent = label; a.href = resolved.active && !source ? this.affiliateHref(resolved.url, s, p) : resolved.url;
+    a.target = "_blank"; a.rel = resolved.active ? "sponsored nofollow noopener" : "noopener";
+    a.style.pointerEvents = "auto";
+    if (resolved.active) {
+      for (const [key, value] of Object.entries({ affiliate: "true", "product-id": p.id || "", "system-slug": "systems/" + this.systemSlug(s),
+        "system-name": s.name || "", vendor: "bjjfanatics", position: String({ overview: 0, preview: 1, conclusion: 2 }[placement] || 0), placement })) a.setAttribute("data-" + key, value);
+      if (!source) a.addEventListener("click", () => this.track("neural_system_course_clicked", { system: s.name, course: p.name || null,
+        instructor: p.instructor || null, product_id: p.id || null, position: Number(a.dataset.position), placement }));
+    }
+    return a;
+  }
+  _systemDisclosure(parent) {
+    const note = document.createElement("p"); note.className = "ng-system-disclosure";
+    note.setAttribute("data-affiliate-disclosure", "1");
+    note.textContent = "Affiliate link — BJJGraph may earn a commission."; parent.appendChild(note);
+  }
+  _renderSystemCourse(list, s, p, placement) {
+    const course = p && this._systemCourse(p); if (!course) return;
+    const shelf = document.createElement("section"); shelf.className = "ng-system-courses";
+    shelf.setAttribute("data-system-courses", "1"); shelf.setAttribute("data-course-placement", placement);
+    const vendor = new URL(course.canonical).hostname.replace(/^www\./, "") === "bjjfanatics.com" ? "BJJ Fanatics" : (p.vendor || "the official site");
+    if (placement === "overview") {
+      const label = document.createElement("p"); label.className = "ng-system-eyebrow"; label.textContent = "The course"; shelf.appendChild(label);
+      const title = this._systemOutboundAnchor(s, p, course, p.name || "Official course", placement);
+      title.className = "ng-system-course-title"; title.setAttribute("data-system-course-title", "1"); shelf.appendChild(title);
+      if (p.instructor) { const by = document.createElement("p"); by.className = "ng-system-instructor"; by.textContent = "By " + p.instructor; shelf.appendChild(by); }
+    }
+    const label = placement === "conclusion" ? "Go to this course" : placement === "preview" ? "Explore the full course" : "View course on " + vendor;
+    const a = this._systemOutboundAnchor(s, p, course, label + " ↗", placement);
+    a.className = "ng-system-cta"; a.setAttribute("data-system-cta", "1");
+    a.setAttribute("aria-label", label + ": " + (p.name || "Official course")); shelf.appendChild(a);
+    if (course.active) this._systemDisclosure(shelf);
+    list.appendChild(shelf);
+  }
+  _renderSystemGuide(list, s, body, product) {
+    const guide = body.guide, E = (v) => this.escHTML(v);
     const section = (title, html, marker) => {
       if (!html) return null;
       const el = document.createElement("section"); el.className = "ng-system-guide";
@@ -9212,68 +9253,75 @@ class Component extends DCLogic {
       el.innerHTML = "<h3>" + E(title) + "</h3>" + html; list.appendChild(el); return el;
     };
     const bullets = (title, values) => Array.isArray(values) && values.length ?
-      "<h4>" + E(title) + "</h4><ul>" + values.map((v) => "<li>" + E(v) + "</li>").join("") + "</ul>" : "";
-    const link = (url, title) => {
-      const u = this._systemURL(url);
-      return u && !/REPLACE_ME/i.test(u.href) ? '<a style="pointer-events:auto" href="' + E(u.href) + '" target="_blank" rel="noopener">' + E(title) + " ↗</a>" : E(title);
-    };
-    const audience = guide.audience || {};
-    section("Is this for you?", bullets("Fits", audience.fits) + bullets("Consider an alternative if", audience.consider_alternative_if) +
-      bullets("Prerequisites", audience.prerequisites), "data-system-fit");
+      (title ? "<h4>" + E(title) + "</h4>" : "") + "<ul>" + values.map((v) => "<li>" + E(v) + "</li>").join("") + "</ul>" : "";
     const sources = Array.isArray(guide.sources) ? guide.sources : [];
-    const start = guide.start_here;
-    if (start && start.task) {
-      section("Start here · free", "<h4>" + E(start.title || "First study action") + "</h4><p>" + E(start.task) + "</p>" +
-        (start.section ? "<p>Published section: " + E(start.section) + "</p>" : "") +
-        [ ["Start position", start.start_position], ["Partner task", start.partner_task], ["Stop when", start.stop_condition] ]
-          .filter((x) => x[1]).map(([label, text]) => "<p><b>" + label + ":</b> " + E(text) + "</p>").join("") +
-        sources.filter((x) => (start.source_ids || []).includes(x.id)).map((x) => "<p>" + link(x.url, x.title) + "</p>").join(""), "data-system-start");
-    }
     const preview = guide.preview;
     if (preview) {
       const source = sources.find((x) => x.id === preview.source_id);
-      const el = section(preview.title || "Official sample", "<p>" +
-        (source ? link(source.url, "Open official source") : "Official source unavailable") + "</p>", "data-system-preview");
-      if (preview.content_reviewed !== true) {
-        const note = document.createElement("p"); note.setAttribute("data-system-preview-review", "1");
-        note.textContent = "The official source page was checked; BJJGraph has not reviewed this preview’s instructional content.";
-        el.appendChild(note);
-      }
       const url = this._systemPreviewURL(preview);
       const verified = Array.isArray(preview.playback_verified_on) && preview.playback_verified_on.includes(location.origin);
       if (url && verified && source && this._systemURL(source.url)) {
-        const button = document.createElement("button"); button.type = "button";
-        button.textContent = "Load official " + (preview.kind === "trailer" ? "trailer" : "sample");
-        button.setAttribute("data-system-preview-load", "1"); button.style.pointerEvents = "auto";
-        button.onclick = () => {
-          this._stopSystemPreview();
-          const frame = document.createElement("iframe"); frame.title = preview.title || "Official course sample";
-          frame.referrerPolicy = "strict-origin-when-cross-origin";
-          frame.allow = "fullscreen; encrypted-media; picture-in-picture"; frame.allowFullscreen = true;
-          frame.src = url; frame.setAttribute("data-system-player", "1");
-          this._systemPlayer = frame; el.appendChild(frame); button.disabled = true;
-          button.textContent = "Sample loaded · press play in the player";
-        };
-        el.appendChild(button);
+        const el = section("Official " + (preview.kind === "trailer" ? "trailer" : "sample"), '<div class="ng-system-player-wrap"></div>', "data-system-preview");
+        const frame = document.createElement("iframe"); frame.title = preview.title || "Official course sample";
+        frame.referrerPolicy = "strict-origin-when-cross-origin";
+        frame.allow = "fullscreen; encrypted-media; picture-in-picture"; frame.allowFullscreen = true;
+        frame.src = url; frame.setAttribute("data-system-player", "1");
+        this._systemPlayer = frame; el.querySelector(".ng-system-player-wrap").appendChild(frame);
+        this._renderSystemCourse(list, s, product, "preview");
       } else {
-        const note = document.createElement("p"); note.textContent = "Watch on the official source page."; el.appendChild(note);
+        // A verified listing is not a verified player. Offer the resolved course/source link, no empty video box.
+        const el = section("Official " + (preview.kind === "trailer" ? "trailer" : "sample"), "<p>Watch on the official course page.</p>", "data-system-preview-fallback");
+        if (product) this._renderSystemCourse(el, s, product, "preview");
+        else if (source) {
+          const resolved = this._systemCourse(source, true);
+          if (resolved && ["bjjfanatics.com", "www.bjjfanatics.com"].includes(new URL(resolved.canonical).hostname)) {
+            el.appendChild(this._systemOutboundAnchor(s, source, resolved, "Open official sample ↗", "preview", true));
+            if (resolved.active) this._systemDisclosure(el);
+          } else el.remove();
+        } else el.remove();
       }
     }
-    // The guide replaces the repetitive legacy blocks. Each optional detail is rendered only
-    // when authored; source dates describe access, never instructor approval or playback.
+    const audience = guide.audience || {};
+    section("Is this for you?", bullets("", audience.fits) + bullets("Consider another approach if", audience.consider_alternative_if) +
+      bullets("Before you begin", audience.prerequisites), "data-system-fit");
+    this._renderSystemReferences(list, (guide.alternatives || []).map((a) => ({ name: a.title || a.system,
+      type: "System", url: a.url, relationship: a.reason })), true);
+    const coverage = guide.coverage || {};
+    section("Coverage and limits", bullets("What’s covered", coverage.includes) + bullets("Scope and limits", coverage.limits), "data-system-coverage");
     return () => {
-      const coverage = guide.coverage || {};
-      section("Coverage and limits", (body.overview ? "<p>" + E(body.overview) + "</p>" : "") +
-        bullets("Includes", coverage.includes) + bullets("Limits", coverage.limits), "data-system-coverage");
-      section("Sources", sources.map((x) => '<div data-system-source="' + E(x.id) + '"><h4>' + link(x.url, x.title) +
-        "</h4><p>" + E(String(x.kind || "").replace(/_/g, " ")) + (x.checked_on ? " · Checked " + E(x.checked_on) : "") + "</p>" +
-        (x.note ? "<p>" + E(x.note) + "</p>" : "") + (x.viewed_range ? "<p>Viewed: " + E(x.viewed_range) + "</p>" : "") + "</div>").join(""), "data-system-sources");
+      const foot = document.createElement("footer"); foot.className = "ng-system-sources"; foot.setAttribute("data-system-sources", "1");
+      const credit = document.createElement("p"); credit.setAttribute("data-system-attribution", "1");
+      credit.textContent = "Independent guide by BJJGraph. Not authored or endorsed by the course instructor."; foot.appendChild(credit);
+      if (preview && preview.content_reviewed !== true) {
+        const note = document.createElement("p"); note.setAttribute("data-system-preview-review", "1");
+        note.textContent = "The official listing was checked; BJJGraph has not reviewed this preview’s instructional content."; foot.appendChild(note);
+      }
+      if (sources.length) {
+        const details = document.createElement("details");
+        const summary = document.createElement("summary"); summary.textContent = "Sources · " + sources.length;
+        summary.style.pointerEvents = "auto"; details.appendChild(summary);
+        for (const source of sources) {
+          const record = document.createElement("div"); record.setAttribute("data-system-source", source.id || "");
+          const resolved = this._systemCourse(source, true);
+          if (resolved) record.appendChild(this._systemOutboundAnchor(s, source, resolved, source.title || "Official source", "source", true));
+          else { const title = document.createElement("span"); title.textContent = source.title || "Source"; record.appendChild(title); }
+          if (resolved && resolved.active) this._systemDisclosure(record);
+          const meta = document.createElement("p"); meta.textContent = String(source.kind || "").replace(/_/g, " ") + (source.checked_on ? " · Checked " + source.checked_on : ""); record.appendChild(meta);
+          for (const text of [source.note, source.viewed_range && "Viewed: " + source.viewed_range]) if (text) {
+            const note = document.createElement("p"); note.textContent = text; record.appendChild(note);
+          }
+          details.appendChild(record);
+        }
+        foot.appendChild(details);
+      }
+      list.appendChild(foot);
     };
   }
-  _renderSystemReferences(list, references) {
+  _renderSystemReferences(list, references, alternatives = false) {
     if (!Array.isArray(references) || !references.length) return;
     const section = document.createElement("section"); section.className = "ng-system-guide";
-    section.setAttribute("data-system-references", "1"); section.innerHTML = "<h3>Related guides and principles</h3>";
+    section.setAttribute(alternatives ? "data-system-alternatives" : "data-system-references", "1");
+    section.innerHTML = "<h3>" + (alternatives ? "Also consider" : "Related guides and principles") + "</h3>";
     for (const ref of references) {
       let u, id;
       try { u = new URL(ref.url, location.origin); id = decodeURIComponent(u.pathname).replace(/^\/|\/$/g, ""); } catch (e) { continue; }
@@ -9308,21 +9356,21 @@ class Component extends DCLogic {
     back.setAttribute("data-system-back", "1");
     back.style.pointerEvents = "auto";
     list.appendChild(back);
-    const card = document.createElement("section");
-    card.className = "ng-system-detail";
-    card.setAttribute("data-system-detail", s.id);
-    card.setAttribute("aria-label", s.name + " system");
-    const meta = [s.difficulty, s.type].filter(Boolean).map(E);
-    meta.push(idxs.length + " lit on the graph");
-    card.innerHTML = "<h2>" + E((systemBody && systemBody.guide && systemBody.guide.display_title) || s.display_title || s.name) + '</h2><div class="ng-system-meta">' + meta.join(" \u00b7 ") + "</div>" + (s.summary ? "<p>" + E(s.summary) + "</p>" : "");
-    const attribution = document.createElement("p"); attribution.setAttribute("data-system-attribution", "1");
-    attribution.textContent = "Independent guide by BJJGraph. Not authored or endorsed by the course instructor.";
-    card.insertBefore(attribution, card.children[1]);
-    const identity = (s.products || []).filter(Boolean).map((p) => [p.name, p.instructor].filter(Boolean).join(" — ")).join("; ");
-    if (identity) { const credit = document.createElement("p"); credit.textContent = "Course: " + identity; card.insertBefore(credit, attribution.nextSibling); }
+    const card = document.createElement("header"); card.className = "ng-system-detail";
+    card.setAttribute("data-system-detail", s.id); card.setAttribute("aria-label", s.name + " system");
+    card.innerHTML = "<h2>" + E((systemBody && systemBody.guide && systemBody.guide.display_title) || s.display_title || s.name) +
+      '</h2><div class="ng-system-meta">' + [s.type, s.difficulty].filter(Boolean).map((v) => '<span class="ng-system-chip">' + E(v) + "</span>").join("") +
+      '</div><p class="ng-system-graph-count">' + idxs.length + " techniques and positions on the graph</p>";
     list.appendChild(card);
     const guide = systemBody && systemBody.guide;
-    const finishGuide = guide ? this._renderSystemGuide(list, s, systemBody) : null;
+    const product = (Array.isArray(s.products) ? s.products : []).find((p) => p && this._systemCourse(p));
+    this._renderSystemCourse(list, s, product, "overview");
+    const overview = systemBody && systemBody.overview || s.summary;
+    if (overview) {
+      const intro = document.createElement("section"); intro.className = "ng-system-overview"; intro.setAttribute("data-system-overview", "1");
+      intro.innerHTML = "<h3>" + (product ? "About this course" : "About this guide") + "</h3><p>" + E(overview).replace(/\n\s*\n/g, "</p><p>") + "</p>"; list.appendChild(intro);
+    }
+    const finishGuide = guide ? this._renderSystemGuide(list, s, systemBody, product) : null;
     if (!systemBody) {
       const status = document.createElement("section"); status.className = "ng-system-guide";
       status.setAttribute("data-system-loading", "1");
@@ -9341,37 +9389,7 @@ class Component extends DCLogic {
       reference.textContent = "Open reference page ↗"; reference.style.pointerEvents = "auto"; status.appendChild(reference);
       list.appendChild(status);
     }
-    // One compact card, including on cold loads. A neutral reference never emits affiliate
-    // metadata or commission copy. Legacy placeholder queries are stripped, not activated.
-    const p = (Array.isArray(s.products) ? s.products : []).find((p) => p && this._systemCourse(p));
-    if (p) {
-      const course = this._systemCourse(p);
-      const shelf = document.createElement("div"); shelf.className = "ng-system-courses";
-      shelf.setAttribute("data-system-courses", "1"); shelf.setAttribute("data-course-placement", "overview");
-      const note = document.createElement("p"); note.className = "ng-system-course-note";
-      note.textContent = guide ? "" : [p.blurb, p.best_for, typeof p.notes === "string" ? p.notes : ""].filter(Boolean).join(" ");
-      if (note.textContent) shelf.appendChild(note);
-      if (course.active) {
-        const disc = document.createElement("p"); disc.className = "ng-system-disclosure";
-        disc.setAttribute("data-affiliate-disclosure", "1");
-        disc.textContent = "BJJGraph earns a commission if you buy through this link, at no extra cost to you. " +
-          "It never changes what the graph teaches.";
-        shelf.appendChild(disc);
-      }
-      const a = document.createElement("a"); a.className = "ng-system-cta"; a.setAttribute("data-system-cta", "1");
-      a.href = course.active ? this.affiliateHref(course.url, s, p) : course.canonical;
-      a.target = "_blank"; a.rel = course.active ? "sponsored nofollow noopener" : "noopener"; a.style.pointerEvents = "auto";
-      a.innerHTML = "<span><small>Course reference</small><b>" + E(p.name || "Official course") + "</b>" +
-        (p.instructor ? "<em>" + E(p.instructor) + "</em>" : "") + '</span><i aria-hidden="true">↗</i>';
-      if (course.active) {
-        for (const [k, v] of Object.entries({ affiliate: "true", "product-id": p.id || "", "system-slug": "systems/" + this.systemSlug(s),
-          "system-name": s.name || "", vendor: String(p.vendor || "bjjfanatics").toLowerCase(), position: "0", placement: "overview" })) a.setAttribute("data-" + k, v);
-        a.addEventListener("click", () => this.track("neural_system_course_clicked", { system: s.name, course: p.name || null,
-          instructor: p.instructor || null, product_id: p.id || null, position: 0, placement: "overview" }));
-      }
-      shelf.appendChild(a); list.appendChild(shelf);
-    }
-    if (finishGuide) finishGuide();
+    if (systemBody) this._renderSystemCourse(list, s, product, "conclusion");
     this._renderSystemReferences(list, systemBody && systemBody.references);
     // ── THE GLUE ── A system is not a node and not merely a set of nodes: it is the set plus the
     // reason they belong together. Two authored layers carry that and neither was ever surfaced:
@@ -9424,7 +9442,11 @@ class Component extends DCLogic {
       const isProven = (i) => {
         try { return (this.rec || {})[this.deckKeyFor(this.nodes[i]).key] >= 3; } catch (e) { return false; }
       };
+      // Stock provenance warnings belong once above the member list, not on every node.
+      // Preserve distinct authored relationships and the legacy presentation.
+      const relationText = (role) => guide && /^(?:Related (?:position|transition|submission|movement|graph transition)(?: reference| card)?(?:; (?:graph linkage does not establish inclusion in the course|inclusion here does not establish course coverage)| for (?:orientation|comparing the course vocabulary|separate study(?:, not a verified course sequence)?))\.|Position reference for organizing study: .+|.+: related position study, separate from the source syllabus\.)$/i.test(role || "") ? "" : role;
       const nodeRow = (i, role, inset) => {
+        role = relationText(role);
         const n = this.nodes[i], qual = this.nodeQual(n);
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
@@ -9449,6 +9471,7 @@ class Component extends DCLogic {
       // it, and a family's count is the number of rows it actually owns.
       const seen = new Set();
       for (const g of glue) {
+        const role = relationText(g.role);
         const kids = (g.nodes || [])
           .map((id) => idxOf.get(id))
           .filter((i) => i != null && !seen.has(i));
@@ -9456,7 +9479,7 @@ class Component extends DCLogic {
         for (const i of kids) seen.add(i);
         // a ref that named ONE node is that node's own row, exactly as before
         if (!g.fam || kids.length < 2) {
-          for (const i of kids) list.appendChild(nodeRow(i, g.role || "", false));
+          for (const i of kids) list.appendChild(nodeRow(i, role || "", false));
           continue;
         }
         const done = kids.filter(isProven).length;
@@ -9486,7 +9509,7 @@ class Component extends DCLogic {
             '<span style="min-width:0;"><span style="font-size:13px;color:#c4cde0;">' + E(g.ref) +
             '</span><span class="ng-system-variants">' + kids.length + " variants \u00b7 " + done +
             " proven</span>" +
-            (g.role ? '<span class="ng-system-role">' + E(g.role) + "</span>" : "") + "</span>",
+            (role ? '<span class="ng-system-role">' + E(role) + "</span>" : "") + "</span>",
           22,
           toggle,
         );
@@ -9520,6 +9543,12 @@ class Component extends DCLogic {
     }
     const missing = (Array.isArray(s.unresolved) ? s.unresolved : []).length;
     if (missing) list.appendChild(mk('<span style="font-size:11px;color:#69748f;">' + missing + " more technique" + (missing === 1 ? "" : "s") + " here aren\u2019t on the map yet</span>", 22));
+    if (finishGuide) finishGuide();
+    else {
+      const foot = document.createElement("footer"); foot.className = "ng-system-sources"; foot.setAttribute("data-system-attribution", "1");
+      foot.textContent = "Independent guide by BJJGraph. Not authored or endorsed by the course instructor."; list.appendChild(foot);
+    }
+    this._systemViewId = id; this._systemViewBody = systemBody;
   }
   /** ONE RENDERER FOR EVERY READABLE BODY (concept or system).
    *
