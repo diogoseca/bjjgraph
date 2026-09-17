@@ -582,3 +582,52 @@ for (const legacy of [false, true]) {
     await expect(page.locator(".ng-system-recall")).toContainText("Related techniques may not be taught in the course.");
   });
 }
+
+test("guide stock captions disappear across graph and reference types while authored context and links remain", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 900 });
+  const data = catalog();
+  data.systems[0].nodes = ["Positions/Mount", "Transitions/Knee-Slice-Pass", "Submissions/Twister/from-Twister-Control", "Positions/Side-Control"];
+  (data.systems[0] as any).glue = data.systems[0].nodes.map((id, i) => ({ nodes: [id], role: [
+    "Related position: Mount.",
+    "Related transition reference for rear-mount escape study.",
+    "Twister: related submission study, separate from the source syllabus.",
+    "Related endpoint for the standing-from-turtle section in Volume 4.",
+  ][i] }));
+  const dossier = body();
+  const stock = [
+    "Related principle on the graph.", "Further conceptual reading: Frames.",
+    "Related BJJGraph position.", "Related BJJGraph transition.", "Related BJJGraph submission.",
+    "Related transition on the graph.", "Related submission on the graph.",
+    "Related transition reference: Knee Slice Pass.", "Related submission reference: Twister.",
+    "Related submission reference for leg-entanglement study.",
+    "Related principle reference for turtle defense and exits.",
+    "Related study guide: Companion.", "Related Systems guide.",
+    "Related guide with a separate scope and source list.",
+    "Related study guide; its scope should be checked separately from this course.",
+    "Companion: related system study, separate from the source syllabus.",
+  ];
+  const useful = [
+    "Related guard reference for comparing the guard-return sections in Volume 4.",
+    "Focused companion for the rubber-guard material in this same release.",
+    "Related study guide: Companion. This covers the same course; no additional purchase is needed.",
+  ];
+  dossier.references = [...stock, ...useful].map((relationship, i) => ({
+    name: `Editorial reference ${i}`, source_name: `Stable reference ${i}`, type: "System",
+    url: "/Systems/Fixture-Alternative", relationship,
+  }));
+  const j = await bootFixtures(page, journey(page), data, dossier);
+  await openFirst(page);
+  await expect(page.locator("[data-system-coverage]")).toBeVisible();
+  await expect(page.locator("[data-system-node]")).toHaveCount(4);
+  await expect(page.locator(".ng-system-role")).toHaveText(["Related endpoint for the standing-from-turtle section in Volume 4."]);
+  const references = page.locator("[data-system-references]");
+  await expect(references.locator("a")).toHaveCount(stock.length + useful.length);
+  await expect(references.locator("p")).toHaveText(useful);
+  await expect(references).not.toContainText("Stable reference");
+  await expect(page.locator("[data-system-alternatives]")).toContainText("Choose the turtle guide for a turtle starting point.");
+  // Caption suppression must leave the actual reference usable through overlay event capture.
+  const target = '[data-system-references] a:first-of-type';
+  await page.locator(target).scrollIntoViewIfNeeded();
+  await j.clickByMouse(target);
+  await expect(page.locator('[data-system-detail="Systems/Fixture-Alternative"]')).toBeVisible();
+});

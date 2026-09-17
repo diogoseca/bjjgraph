@@ -9317,6 +9317,11 @@ class Component extends DCLogic {
       list.appendChild(foot);
     };
   }
+  _systemRelationText(text, guide) {
+    // Match whole stock captions, never a disclaimer fragment inside useful authored context.
+    // One rule serves graph rows, related principles/Systems and alternative guide captions.
+    return guide && /^(?:Related (?:position|transition|submission|movement|graph transition)(?: reference| card)?(?:; (?:graph linkage does not establish inclusion in the course|inclusion here does not establish course coverage)| for (?:orientation|comparing the course vocabulary|separate study(?:, not a verified course sequence)?))\.|(?:Position reference for organizing study|Further conceptual reading|Related study guide|Related position|Related (?:transition|submission) reference): [^.]+\.|[^.]+: related (?:position|transition|submission|principle|system) study, separate from the source syllabus\.|Related (?:(?:position|transition|submission|principle) on the graph|BJJGraph (?:position|transition|submission|principle)|concept for organizing study|Systems guide|guide with a separate scope and source list|study guide; its scope should be checked separately from this course)\.|Related (?:principle|system|position|transition|submission) reference for (?:(?:standing defense|guard-recovery|rear-mount escape|defensive decision|leg-entanglement|positional escape) study|turtle defense and exits)\.)$/i.test(String(text || "").trim()) ? "" : text;
+  }
   _renderSystemReferences(list, references, alternatives = false) {
     if (!Array.isArray(references) || !references.length) return;
     const section = document.createElement("section"); section.className = "ng-system-guide";
@@ -9343,7 +9348,8 @@ class Component extends DCLogic {
         else location.assign(a.href);
       };
       section.appendChild(a);
-      if (ref.relationship) { const p = document.createElement("p"); p.textContent = ref.relationship; section.appendChild(p); }
+      const relationship = this._systemRelationText(ref.relationship, true);
+      if (relationship) { const p = document.createElement("p"); p.textContent = relationship; section.appendChild(p); }
     }
     if (section.querySelector("a")) list.appendChild(section);
   }
@@ -9442,11 +9448,8 @@ class Component extends DCLogic {
       const isProven = (i) => {
         try { return (this.rec || {})[this.deckKeyFor(this.nodes[i]).key] >= 3; } catch (e) { return false; }
       };
-      // Stock provenance warnings belong once above the member list, not on every node.
-      // Preserve distinct authored relationships and the legacy presentation.
-      const relationText = (role) => guide && /^(?:Related (?:position|transition|submission|movement|graph transition)(?: reference| card)?(?:; (?:graph linkage does not establish inclusion in the course|inclusion here does not establish course coverage)| for (?:orientation|comparing the course vocabulary|separate study(?:, not a verified course sequence)?))\.|Position reference for organizing study: .+|.+: related position study, separate from the source syllabus\.)$/i.test(role || "") ? "" : role;
       const nodeRow = (i, role, inset) => {
-        role = relationText(role);
+        role = this._systemRelationText(role, guide);
         const n = this.nodes[i], qual = this.nodeQual(n);
         const row = mk(
           this.nodeGlyph(n.ty, this.hex(n.col), 8) +
@@ -9471,7 +9474,7 @@ class Component extends DCLogic {
       // it, and a family's count is the number of rows it actually owns.
       const seen = new Set();
       for (const g of glue) {
-        const role = relationText(g.role);
+        const role = this._systemRelationText(g.role, guide);
         const kids = (g.nodes || [])
           .map((id) => idxOf.get(id))
           .filter((i) => i != null && !seen.has(i));
