@@ -16,14 +16,30 @@ function validPlayer(section) {
 }
 if (!window[controllerKey]) {
   let active = null
+  let suspended = false
+  let currentPath = location.pathname
+  const watched = new Set()
+  // A failed Neural bundle can reveal the article after module init. Observe even
+  // hidden sections so their first visible size retries mounting, and hiding or
+  // removal stops playback. Layout changes require no app-runtime coupling.
+  const visibility = new ResizeObserver(() => {
+    if (!suspended) reconcile()
+  })
   function stop() {
     if (!active) return
     active.frame.remove()
     if (active.fallback) active.fallback.hidden = false
     active = null
   }
-  function init() {
-    const section = [...document.querySelectorAll('[data-system-preview]')].find(el => el.getClientRects().length)
+  function reconcile() {
+    const sections = [...document.querySelectorAll('[data-system-preview]')]
+    for (const section of watched) {
+      if (!sections.includes(section)) { visibility.unobserve(section); watched.delete(section) }
+    }
+    for (const section of sections) {
+      if (!watched.has(section)) { watched.add(section); visibility.observe(section) }
+    }
+    const section = sections.find(el => el.getClientRects().length)
     const url = section && validPlayer(section)
     const target = section && section.querySelector('[data-preview-player]')
     const fallback = section && section.querySelector('[data-preview-fallback]')
@@ -50,17 +66,29 @@ if (!window[controllerKey]) {
     if (fallback) fallback.hidden = true
     active = { key, url, frame, fallback, path: location.pathname }
   }
-  window[controllerKey] = { init, stop }
+  function init() {
+    currentPath = location.pathname
+    suspended = false
+    reconcile()
+  }
+  function pause() {
+    suspended = true
+    visibility.disconnect()
+    watched.clear()
+    stop()
+  }
+  window[controllerKey] = { init, stop: pause }
   document.addEventListener('nav', init)
-  window.addEventListener('pagehide', stop)
+  window.addEventListener('pagehide', pause)
+  window.addEventListener('pageshow', init)
   window.addEventListener('popstate', () => {
-    if (active && active.path !== location.pathname) stop()
+    if (currentPath !== location.pathname) pause()
   })
   document.addEventListener('click', event => {
     const link = event.target.closest?.('a[href]')
     if (!link || link.target === '_blank' || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return
     const next = new URL(link.href, location.href)
-    if (next.origin !== location.origin || next.pathname !== location.pathname) stop()
+    if (next.origin !== location.origin || next.pathname !== location.pathname) pause()
   }, true)
 }
 window[controllerKey].init()
