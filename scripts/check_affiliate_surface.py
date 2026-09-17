@@ -12,7 +12,7 @@ from pathlib import Path
 import re
 import sys
 from urllib.parse import parse_qs, urlsplit
-from _system_guides import canonical_course_url
+from _system_guides import canonical_course_url, is_bjjfanatics_url
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DOC = PROJECT_ROOT / 'CLAUDE.md'
@@ -29,36 +29,44 @@ def canonical_disclosure():
 
 
 def check_html(text, label, errors, built=False, ref=''):
-    from apply_affiliate_ref import read_tag, affiliate_url
+    from apply_affiliate_ref import read_tag, affiliate_url, neutral_legacy_url, is_system_guide_html
     canon = canonical_disclosure()
-    if re.search(r'(?:href|data-course-url)\s*=\s*["\'][^"\']*REPLACE_ME', text, re.I):
+    system_guide = is_system_guide_html(text)
+    if re.search(r'(?:href|data-(?:course|source)-url)\s*=\s*["\'][^"\']*REPLACE_ME', text, re.I):
         errors.append(f'{label}: displayed placeholder URL')
-    anchors = re.findall(r'<a\b[^>]*>', text, re.I)
-    marked = 0
-    for anchor in anchors:
-        attrs = read_tag(anchor)
-        canonical = attrs.get('data-course-url')
+    marked = active_count = 0
+    for match in re.finditer(r'<a\b[^>]*>', text, re.I):
+        attrs = read_tag(match[0])
+        canonical = attrs.get('data-course-url') or attrs.get('data-source-url')
+        vendor = is_bjjfanatics_url(attrs.get('href', ''))
+        active = False
         if canonical:
             marked += 1
+            if neutral_legacy_url(canonical) != canonical:
+                errors.append(f'{label}: canonical marker carries tracking')
             expected, active = affiliate_url(canonical, ref if built else '', attrs.get('data-system-slug', ''), attrs.get('data-product-id', ''))
             if not expected or attrs.get('href') != expected or attrs.get('data-affiliate') != str(active).lower():
-                errors.append(f'{label}: course link disagrees with canonical/configured state')
+                errors.append(f'{label}: outgoing link disagrees with canonical/configured state')
             if active and not {'sponsored', 'nofollow', 'noopener'} <= set(attrs.get('rel', '').split()):
                 errors.append(f'{label}: active link missing sponsored attributes')
-            if not active and 'sponsored' in attrs.get('rel', '').split():
-                errors.append(f'{label}: neutral link marked sponsored')
-        if attrs.get('data-affiliate') == 'true':
-            if not built or not ref or not canonical:
-                errors.append(f'{label}: affiliate promotion without marked/configured course')
-            offset = text.index(anchor)
-            start = text.rfind('<section', 0, offset); end = text.find('</section>', offset)
-            block = text[start:end] if start >= 0 and end >= 0 else ''
-            before = text[start:offset] if start >= 0 else ''
-            if canon not in before or 'data-course-container' not in block or '<details' in block:
-                errors.append(f'{label}: active link lacks proximate uncollapsed canonical disclosure')
-    has_active = any(read_tag(a).get('data-affiliate') == 'true' for a in anchors)
-    if ('affiliate-disclosure' in text or canon in text) and not has_active:
-        errors.append(f'{label}: disclosure without an active course link')
+        elif vendor:
+            # Only Systems guides require automatic vendor stamping. Other pages
+            # may retain ordinary neutral references without affiliate promotion.
+            if built and system_guide:
+                errors.append(f'{label}: unstamped BJJFanatics outgoing link')
+            elif any(k.lower() in ('ref', 'rfsn') or k.lower().startswith('utm_') for k in parse_qs(urlsplit(attrs['href']).query)):
+                errors.append(f'{label}: unmarked outgoing link carries tracking')
+        if not active and ('sponsored' in attrs.get('rel', '').split() or attrs.get('data-affiliate') == 'true'):
+            errors.append(f'{label}: affiliate promotion without configured canonical link')
+        if active:
+            active_count += 1
+            before = text[:match.start()]
+            notice = re.search(r'<span class="affiliate-disclosure">([^<]*)</span>\s*$', before)
+            if not notice or unescape(notice[1]) != canon:
+                errors.append(f'{label}: active link lacks proximate canonical disclosure')
+    notices = re.findall(r'<(?:span|p)\b[^>]*class=["\'][^"\']*affiliate-disclosure[^"\']*["\'][^>]*>', text)
+    if len(notices) != active_count or (canon in text and not active_count):
+        errors.append(f'{label}: disclosure count disagrees with active links')
     return marked
 
 
@@ -101,7 +109,7 @@ def check_built(errors, ref):
     pages = marked = products = 0
     for path in targets():
         text = path.read_text()
-        if path.suffix in ('.html', '.md') and ('data-course-url' in text or 'data-affiliate=' in text):
+        if path.suffix in ('.html', '.md') and ('<a' in text or 'affiliate-disclosure' in text):
             pages += 1; marked += check_html(text, str(path.relative_to(PROJECT_ROOT)), errors, True, ref)
         if path.suffix == '.json':
             data = json.loads(text)

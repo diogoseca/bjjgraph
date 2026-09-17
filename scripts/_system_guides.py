@@ -39,7 +39,7 @@ def preview_errors(preview):
     return errors
 
 
-def validate_guide(data):
+def validate_guide(data, content_root=None, emitted=False):
     """Return blocking integrity errors and review warnings after schema validation."""
     errors, warnings = [], []
     def inspect_urls(value):
@@ -52,11 +52,12 @@ def validate_guide(data):
                 try:
                     url = urlsplit(raw)
                     keys = {k.lower() for k in parse_qs(url.query)}
-                    if re.search('REPLACE_ME', unquote(raw), re.I) or keys & {'ref', 'rfsn'}:
+                    if re.search('REPLACE_ME', unquote(raw), re.I) or keys & {'ref', 'rfsn'} or any(k.startswith('utm_') for k in keys):
                         errors.append('source URLs must not carry referrals or placeholders')
                 except ValueError:
                     errors.append('invalid source URL')
-    inspect_urls(data)
+    if not emitted:
+        inspect_urls(data)
     for p in data.get('products') or []:
         if isinstance(p, dict) and not canonical_course_url(p.get('course_url')):
             errors.append('products: course_url must be canonical HTTPS without tracking or placeholders')
@@ -69,20 +70,31 @@ def validate_guide(data):
     if len(ids) != len(set(ids)):
         errors.append('guide.sources: duplicate source id')
     by_id = {s.get('id'): s for s in sources}
-    start = guide.get('start_here') or {}
-    refs = start.get('source_ids') or []
-    for sid in refs:
-        if sid not in by_id:
-            errors.append(f'guide.start_here: unknown source id {sid!r}')
+    if 'start_here' in guide and not emitted:
+        errors.append('guide.start_here is retired; remove reader homework rather than moving it')
     if not sources:
-        if guide.get('kind') != 'topic_guide' or start.get('kind') != 'observation':
-            errors.append('guide.sources: empty only for topic guide study organization')
+        if guide.get('kind') != 'topic_guide':
+            errors.append('guide.sources: course companions require inspected primary sources')
         else:
-            warnings.append('ROOT REVIEW: source-free topic guide must contain only study organization, no technical instruction')
-    elif not refs:
-        errors.append('guide.start_here: cite the source supporting the first study action')
-    if start.get('kind') == 'practice' and not any(by_id.get(s, {}).get('kind') == 'public_instruction' for s in refs):
-        errors.append('guide.start_here: practice requires inspected public_instruction evidence')
+            warnings.append('ROOT REVIEW: source-free topic guide must not invent technical instruction')
+    if not emitted and guide.get('alternatives'):
+        from pathlib import Path
+        from _slug import slugify
+        try:
+            resolve_alternatives(guide['alternatives'], content_root or Path(__file__).resolve().parents[1] / 'content', slugify)
+        except ValueError as exc:
+            errors.append(str(exc))
+    if emitted:
+        for alternative in guide.get('alternatives') or []:
+            if not isinstance(alternative, dict) or not all(isinstance(alternative.get(k), str) and alternative[k].strip() for k in ('system', 'reason', 'url', 'title')) or not alternative['url'].startswith('/Systems/'):
+                errors.append('guide.alternatives: emitted comparison requires stable name, reason, local URL and title')
+        for source in sources:
+            if is_bjjfanatics_url(source.get('url')):
+                canonical = source.get('canonical_url')
+                if not is_bjjfanatics_url(canonical) or not isinstance(source.get('affiliate'), bool):
+                    errors.append('guide.sources: emitted vendor source requires canonical_url and affiliate boolean')
+                elif parse_qs(urlsplit(canonical).query).keys() & {'ref', 'rfsn'}:
+                    errors.append('guide.sources: canonical_url carries tracking')
     preview = guide.get('preview')
     if isinstance(preview, dict):
         errors.extend(preview_errors(preview))
@@ -117,3 +129,62 @@ def related_references(data, content_root, slug):
             refs.append({'name': name, 'type': kind, 'url': '/' + '/'.join(slug(p) for p in rel.parts), 'relationship': item.get('relationship', '')})
             break
     return refs
+
+
+def is_bjjfanatics_url(value):
+    try:
+        u = urlsplit(value)
+        return u.scheme == 'https' and u.netloc in ('bjjfanatics.com', 'www.bjjfanatics.com') and not (u.username or u.password)
+    except (TypeError, ValueError):
+        return False
+
+
+def resolve_alternatives(alternatives, content_root, slug):
+    """Exact stable source names only. Unknown/ambiguous comparisons block emission."""
+    import json
+    index = {}
+    for path in sorted((content_root / 'Systems').rglob('*.json')):
+        data = json.loads(path.read_text())
+        name = data.get('name')
+        if name in index:
+            raise ValueError('guide.alternatives: duplicate stable System name')
+        index[name] = (path, data)
+    out, seen = [], set()
+    for alternative in alternatives:
+        name = alternative['system']
+        if name not in index:
+            raise ValueError(f'guide.alternatives: unknown exact System name {name!r}')
+        if name in seen:
+            raise ValueError(f'guide.alternatives: duplicate System {name!r}')
+        seen.add(name)
+        path, data = index[name]
+        relative = path.relative_to(content_root).with_suffix('')
+        out.append({'system': name, 'reason': alternative['reason'],
+                    'url': '/' + '/'.join(slug(part) for part in relative.parts),
+                    'title': (data.get('guide') or {}).get('display_title') or name})
+    return out
+
+
+def resolved_guide(data, content_root, slug):
+    """Rich-only augmentation. Source checks/dates stay intact; never mutate input."""
+    from copy import deepcopy
+    guide = deepcopy(data.get('guide') or {})
+    guide.pop('start_here', None)  # Legacy caches may survive; never emit rejected exercises.
+    if 'alternatives' in guide:
+        guide['alternatives'] = resolve_alternatives(guide['alternatives'], content_root, slug)
+    for source in guide.get('sources') or []:
+        if is_bjjfanatics_url(source.get('url')):
+            source['canonical_url'] = source['url']
+            source['affiliate'] = False
+    return guide
+
+
+def guide_relationship(item):
+    """Drop repeated generic per-node disclaimers, preserving useful unique context."""
+    value = item.get('relationship', '').strip()
+    generic = r'Related (?:position|transition|submission|technique) reference; graph linkage does not establish inclusion in the course\.?'
+    if re.fullmatch(generic, value, re.I):
+        return ''
+    if value.rstrip('.') == f"Related {item.get('content_type', '').lower()} reference: {item.get('name', '')}":
+        return ''
+    return value
