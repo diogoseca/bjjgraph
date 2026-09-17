@@ -1,127 +1,129 @@
 
 ---
 title: "Dante Leon: No-Gi Reverse De La Riva | BJJGraph"
-description: "Distinguish recovering reverse De La Riva from choosing a later attack in Dante Leon’s published syllabus."
+description: "Reverse De La Riva offense against kneeling and standing opponents, with knee-shield and inversion options."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Dante Leon: No-Gi Reverse De La Riva","description":"Distinguish recovering reverse De La Riva from choosing a later attack in Dante Leon’s published syllabus."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Dante Leon: No-Gi Reverse De La Riva","description":"Reverse De La Riva offense against kneeling and standing opponents, with knee-shield and inversion options."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: No Gi Reverse De La Riva by Dante Leon.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Dante Leon Reverse De La Riva System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Dante Leon: No-Gi Reverse De La Riva</h1>
+<div class="system-tags"><span>Guard System</span><span>Advanced</span></div>
 
-## Dante Leon: No-Gi Reverse De La Riva
+<p class="system-reference-count">6 related references (techniques and positions)</p>
+</header>
 
-**A reverse-De-La-Riva companion organized around knee-slice recovery, knee-shield branches and the separate standing-opponent section.**
-
-
-The first volume offers a recovery-oriented entry point; later volumes branch into knee-shield, upper-body submission and standing-opponent material. These sections answer different study problems and need not be followed as one chain.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-course-url="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-product-id="no-gi-reverse-de-la-riva-by-dante-leon" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>No Gi Reverse De La Riva</h2><span class="system-course__instructor">By Dante Leon</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
-
-- You want to locate knee-slice recovery or compare reverse De La Riva against different opponent postures.
-
-
-### Consider an alternative if
-
-- If rising from several guards is your main interest, compare Leon’s Wrestling Up From Guard guide.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Distinguish recovery from the next attack
-
-Compare Catching The Knee Slice with Recovering In A Reverse De La Riva in volume 1. Label your recurring issue as obtaining the guard or recovering it. Then locate the standing-opponent section separately, rather than assigning its options to a kneeling exchange.
-
-Published section: Volume 1: Reverse De La Riva Fundamentals — 2:40 (course timestamp)
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" target="_blank" rel="noopener">No Gi Reverse De La Riva by Dante Leon</a></p>
+No Gi Reverse De La Riva develops the position from knee-slice interception and recovery into attacks. Dante Leon includes kiss-of-the-dragon back takes, shin-to-shin changes and entries to X guard and leg entanglements. Upper-body submissions and attacks against standing opponents round out the four-volume course.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c14b2498-be7c-4078-ae1e-2c4abee0e75e?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Dante Leon / No Gi Reverse De La Riva">
-<h2>Official sample — Dante Leon / No Gi Reverse De La Riva</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" target="_blank" rel="noopener">Watch on the official page: No Gi Reverse De La Riva by Dante Leon</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Dante Leon Reverse De La Riva System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c14b2498-be7c-4078-ae1e-2c4abee0e75e?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Dante Leon / No Gi Reverse De La Riva">
+<h2>Official sample</h2>
+<p>Official sample — Dante Leon / No Gi Reverse De La Riva</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-course-url="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-product-id="no-gi-reverse-de-la-riva-by-dante-leon" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">No Gi Reverse De La Riva · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>No Gi Reverse De La Riva</h3>
-<p>By Dante Leon</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-course-url="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-product-id="no-gi-reverse-de-la-riva-by-dante-leon" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You want to develop reverse De La Riva beyond recovery, including inversion-based offense.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Dante-Leon-Wrestling-Up-From-Guard-System">Dante Leon: Wrestling Up From Guard</a> — Choose Leon’s wrestling-up course when your main goal is coming up from X, De La Riva, reverse De La Riva or butterfly.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Fundamentals, knee-slice interception and recovery; knee-shield and inversion branches.
-- Upper-body attacks and a distinct volume for standing opponents.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Knee-slice interception and recovery; knee-shield attacks, back takes and leg entanglements.
+- Far-side armlocks and triangles, plus sweeps and wrestling up against standing opponents.
+
 
 ### Limits
 
-- Wrestling up is one branch among several; this release is organized around reverse De La Riva rather than several starting guards.
+- Wrestling up is one attacking option here; the course is built around reverse De La Riva rather than coming up from several guards.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" target="_blank" rel="noopener">No Gi Reverse De La Riva by Dante Leon</a> — official listing; checked 2026-09-16. Verified knee-slice recovery, knee-shield branches, upper-body attacks and a separate standing-opponent section. Listing and official sample iframe inspected; player content and playback not reviewed.</p><p><a href="https://bjjfanatics.com/products/wrestling-up-from-guard-by-dante-leon" target="_blank" rel="noopener">Wrestling Up From Guard by Dante Leon</a> — official listing; checked 2026-09-16. Verified distance-management lesson and three volumes covering X/De La Riva, reverse De La Riva and butterfly starts. Listing inspected; course video content not reviewed.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-course-url="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-product-id="no-gi-reverse-de-la-riva-by-dante-leon" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-system-name="Dante Leon Reverse De La Riva System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: No Gi Reverse De La Riva</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Frames">Frames</a> (Principle) — Frames: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Distance-Control">Distance Control</a> (Principle) — Distance Control: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Base">Base</a> (Principle) — Base: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Grips">Grips</a> (Principle) — Grips: related principle study, separate from the source syllabus.</p><p><a href="/Systems/Dante-Leon-Wrestling-Up-From-Guard-System">Dante Leon Wrestling Up From Guard System</a> (System) — Compare for coming-up attacks organized across several starting guards.</p>
-
+<p><a href="/Principles/Frames">Frames</a></p><p><a href="/Principles/Distance-Control">Distance Control</a></p><p><a href="/Principles/Base">Base</a></p><p><a href="/Principles/Grips">Grips</a></p><p><a href="/Systems/Dante-Leon-Wrestling-Up-From-Guard-System">Dante Leon: Wrestling Up From Guard</a> — Compare for coming-up attacks organized across several starting guards.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/De La Riva Guard/Reverse De La Riva Guard|Reverse De La Riva Guard]] (Position) — Reverse De La Riva Guard: related position study, separate from the source syllabus.
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard|Reverse De La Riva Guard]] (Position)
 
-- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position) — Knee Shield Half Guard: related position study, separate from the source syllabus.
 
-- [[Positions/Shin-to-Shin Guard|Shin-to-Shin Guard]] (Position) — Shin-to-Shin Guard: related position study, separate from the source syllabus.
+- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position)
 
-- [[Positions/X-Guard|X-Guard]] (Position) — X-Guard: related position study, separate from the source syllabus.
 
-- [[Positions/Open Guard|Open Guard]] (Position) — Open Guard: related position study, separate from the source syllabus.
+- [[Positions/Shin-to-Shin Guard|Shin-to-Shin Guard]] (Position)
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Half Guard: related position study, separate from the source syllabus.
 
+- [[Positions/X-Guard|X-Guard]] (Position)
+
+
+- [[Positions/Open Guard|Open Guard]] (Position)
+
+
+- [[Positions/Half Guard|Half Guard]] (Position)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-source-url="https://bjjfanatics.com/products/no-gi-reverse-de-la-riva-by-dante-leon" data-affiliate="false" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-product-id="leon-rdlr-listing" target="_blank" rel="noopener">No Gi Reverse De La Riva by Dante Leon</a> — official listing; checked 2026-09-16. Verified knee-slice recovery, knee-shield branches, upper-body attacks and a separate standing-opponent section. Listing and official sample iframe inspected; player content and playback not reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/wrestling-up-from-guard-by-dante-leon" data-source-url="https://bjjfanatics.com/products/wrestling-up-from-guard-by-dante-leon" data-affiliate="false" data-system-slug="systems/dante-leon-reverse-de-la-riva-system" data-product-id="leon-wrestling-listing" target="_blank" rel="noopener">Wrestling Up From Guard by Dante Leon</a> — official listing; checked 2026-09-16. Verified distance-management lesson and three volumes covering X/De La Riva, reverse De La Riva and butterfly starts. Listing inspected; course video content not reviewed.</p>
+</section>
+
+</details>
 </section>
 </main>

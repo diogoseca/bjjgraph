@@ -1,156 +1,170 @@
 
 ---
-title: "Lachlan Giles: Defense Within the 50/50 Anthology | BJJGraph"
-description: "A defense-focused study route through Lachlan Giles' Leg Lock Anthology: 50/50, covering its advertised prevention, knee-recovery and disengagement material."
+title: "Lachlan Giles: 50/50 Leg Locks and Defense | BJJGraph"
+description: "Lachlan Giles' Leg Lock Anthology: 50/50 combines heel-hook offense with prevention, counters, knee recovery and disengagement."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Lachlan Giles: Defense Within the 50/50 Anthology","description":"A defense-focused study route through Lachlan Giles' Leg Lock Anthology: 50/50, covering its advertised prevention, knee-recovery and disengagement material."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Lachlan Giles: 50/50 Leg Locks and Defense","description":"Lachlan Giles' Leg Lock Anthology: 50/50 combines heel-hook offense with prevention, counters, knee recovery and disengagement."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Leg Lock Anthology: 50/50 by Lachlan Giles.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Lachlan Giles Leg Lock Defense Framework">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Lachlan Giles: 50/50 Leg Locks and Defense</h1>
+<div class="system-tags"><span>Defense System</span><span>Advanced</span></div>
 
-## Lachlan Giles: Defense Within the 50/50 Anthology
+<p class="system-reference-count">19 related references (techniques and positions)</p>
+</header>
 
-**Lachlan Giles' Leg Lock Anthology: 50/50 offers heel-hook defense and knee-recovery study within a larger course on 50/50 offense and entries.**
-
-
-A heel-hook problem, a trapped knee and a decision to leave 50/50 point to different parts of this anthology. Use the published outline to locate your current problem before working through the course's attacking entries.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-product-id="leg-lock-anthology-50-50-by-lachlan-giles" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Leg Lock Anthology: 50/50</h2><span class="system-course__instructor">By Lachlan Giles</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
-
-- You want to locate heel-hook prevention and counters inside a course that also teaches leg attacks.
-- Your study question concerns recovering the knee from 50/50 or disengaging from that position.
-
-
-### Consider an alternative if
-
-- Your recurring problem is mount or side control: the Danaher Pin Escape Fundamentals guide covers those pins, while this anthology centers on leg entanglements.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Locate the point where your 50/50 problem changes
-
-Use one recorded exchange, or a written account of a recent round, to separate three questions: was the problem heel access, a knee still held in the entanglement, or leaving 50/50? Match the relevant moment to Volume 1's prevention/counters, Volume 3's knee-recovery section or Volume 4's disengagement section. Keep any unclear body position marked as uncertain; the outline alone cannot resolve it.
-
-Published section: Volume 1, Part 4: Defending The Heel Hook; Volume 3, Part 11: Reclaiming The Knee From 50/50; Volume 4, Part 15: 50/50 Top And Disengaging
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" target="_blank" rel="noopener">Leg Lock Anthology: 50/50 by Lachlan Giles</a></p>
+Leg Lock Anthology: 50/50 places defense inside a larger attacking game. Lachlan Giles covers heel-hook prevention and counters, reclaiming the knee and leaving 50/50, alongside entries, finishing mechanics, sweeps and back takes. The eight-volume series also includes narrated training and competition rounds. It suits someone who wants both sides of leg-lock exchanges, with a strong emphasis on 50/50 and outside sankaku.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="youtube" data-embed-url="https://www.youtube.com/embed/Pl_2oDznYKc?autoplay=0" data-verified-origins="[]" data-preview-title="Official sample — Lachlan Giles / Keeping the knee line">
-<h2>Official sample — Lachlan Giles / Keeping the knee line</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" target="_blank" rel="noopener">Watch on the official page: Leg Lock Anthology: 50/50 by Lachlan Giles</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Lachlan Giles Leg Lock Defense Framework" data-provider="youtube" data-embed-url="https://www.youtube.com/embed/Pl_2oDznYKc?autoplay=0" data-verified-origins="[]" data-preview-title="Official sample — Lachlan Giles / Keeping the knee line">
+<h2>Official sample</h2>
+<p>Official sample — Lachlan Giles / Keeping the knee line</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-product-id="leg-lock-anthology-50-50-by-lachlan-giles" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Leg Lock Anthology: 50/50 · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>Leg Lock Anthology: 50/50</h3>
-<p>By Lachlan Giles</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-product-id="leg-lock-anthology-50-50-by-lachlan-giles" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You want heel-hook defense alongside the attacks and positional changes that create those exchanges.
+- You want detailed coverage of 50/50, including knee recovery, sweeps and disengagement.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Danaher-Pin-Escape-Fundamentals-System">John Danaher: Pin Escapes and Turtle Escapes</a> — For mount and side-pin escapes when the main problem is upper-body control rather than leg entanglements.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Volume 1 introduces knee-line and rotation concepts, then separates heel-hook prevention, counters and their connections.
-- Volumes 3–4 include reclaiming the knee from 50/50, sweeps, back takes and disengagement; Volume 5 addresses saddle, outside ashi and reaping configurations.
-- Later volumes add guard entries and narrated rolling, so defensive study can be compared with attacking situations.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Knee-line and rotation concepts, heel-hook finishing mechanics, prevention and counters.
+- 50/50 and outside sankaku, knee recovery, sweeps, back takes and disengagement; counters involving saddle, outside ashi and reaping positions.
+- Entries from seated and open guards, entries from top, and narrated rolling.
+
 
 ### Limits
 
-- The linked course is an attack-and-defense anthology centered on 50/50 and outside sankaku, rather than a dedicated survey of every leg-lock escape.
-- The public outline identifies topics but does not specify the defensive movement or timing within each lesson.
+- A substantial part of the course covers attacking entries and finishes. It is not a defense-only collection of escapes from every leg lock.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" target="_blank" rel="noopener">Leg Lock Anthology: 50/50 by Lachlan Giles</a> — official listing; checked 2026-09-16. Verified Lachlan Giles as instructor and the eight-volume outline, including prevention/counters, knee recovery, disengagement and narrated rolling. The page embeds a knee-line sample; its video content has not been reviewed.</p><p><a href="https://bjjfanatics.com/products/pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher" target="_blank" rel="noopener">Pin Escapes &amp; Turtle Escapes: BJJ Fundamentals - Go Further Faster by John Danaher</a> — official listing; checked 2026-09-16. Verified the comparison course includes mount and side-pin escapes, alongside rear-mount and turtle sections.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-course-url="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-product-id="leg-lock-anthology-50-50-by-lachlan-giles" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-system-name="Lachlan Giles Leg Lock Defense Framework" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Leg Lock Anthology: 50/50</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a> (Principle) — Related principle reference for leg-entanglement study.</p><p><a href="/Principles/Submission-Defense">Submission Defense</a> (Principle) — Related principle reference for leg-entanglement study.</p><p><a href="/Principles/Leg-Entanglement">Leg Entanglement</a> (Principle) — Related principle reference for leg-entanglement study.</p><p><a href="/Principles/Frames">Frames</a> (Principle) — Related principle reference for leg-entanglement study.</p><p><a href="/Principles/Escape-Fundamentals">Escape Fundamentals</a> (Principle) — Related principle reference for leg-entanglement study.</p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a> (Principle) — Related principle reference for leg-entanglement study.</p><p><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a> (Principle) — Related principle reference for leg-entanglement study.</p><p><a href="/Systems/Danaher-Leg-Lock-System">Danaher Leg Lock System</a> (System) — Related system reference for leg-entanglement study.</p><p><a href="/Systems/Craig-Jones-Leg-Lock-System">Craig Jones Leg Lock System</a> (System) — Related system reference for leg-entanglement study.</p><p><a href="/Systems/Defensive-Prioritization-Framework">Defensive Prioritization Framework</a> (System) — Related system reference for leg-entanglement study.</p><p><a href="/Systems/Caio-Terra-Guard-Retention-System">Caio Terra Guard Retention System</a> (System) — Related system reference for leg-entanglement study.</p><p><a href="/Systems/Danaher-Pin-Escape-Fundamentals-System">Danaher Pin Escape Fundamentals System</a> (System) — Alternative for mount and side-pin escape study, verified in its official outline.</p>
-
+<p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a></p><p><a href="/Principles/Submission-Defense">Submission Defense</a></p><p><a href="/Principles/Leg-Entanglement">Leg Entanglement</a></p><p><a href="/Principles/Frames">Frames</a></p><p><a href="/Principles/Escape-Fundamentals">Escape Fundamentals</a></p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a></p><p><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a></p><p><a href="/Systems/Danaher-Leg-Lock-System">John Danaher: Leglocks — Enter The System</a></p><p><a href="/Systems/Craig-Jones-Leg-Lock-System">Craig Jones: Down Under Leg Attacks</a></p><p><a href="/Systems/Defensive-Prioritization-Framework">Defensive Priorities Under IBJJF Rules</a></p><p><a href="/Systems/Caio-Terra-Guard-Retention-System">Caio Terra: Guard Recovery</a></p><p><a href="/Systems/Danaher-Pin-Escape-Fundamentals-System">John Danaher: Pin Escapes and Turtle Escapes</a> — Alternative for mount and side-pin escape study, verified in its official outline.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Ashi Garami/Saddle|Saddle]] (Position) — Related position reference for leg-entanglement study.
+- [[Positions/Ashi Garami/Saddle|Saddle]] (Position)
 
-- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) — Related position reference for leg-entanglement study.
 
-- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) — Related position reference for leg-entanglement study.
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position)
+
+
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position)
+
 
 - [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position) — Position reference corresponding to the central entanglement named in the anthology.
 
-- [[Positions/Ashi Garami/Cross Ashi-Garami|Cross Ashi-Garami]] (Position) — Related position reference for leg-entanglement study.
 
-- [[Positions/Ashi Garami|Ashi Garami]] (Position) — Related position reference for leg-entanglement study.
+- [[Positions/Ashi Garami/Cross Ashi-Garami|Cross Ashi-Garami]] (Position)
 
-- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) — Related position reference for leg-entanglement study.
 
-- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position) — Related position reference for leg-entanglement study.
+- [[Positions/Ashi Garami|Ashi Garami]] (Position)
 
-- [[Transitions/Ankle Lock Escape to Standing|Ankle Lock Escape to Standing]] (Transition) — Related transition reference for leg-entanglement study.
 
-- [[Transitions/Ashi Garami Escape|Ashi Garami Escape]] (Transition) — Related transition reference for leg-entanglement study.
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position)
 
-- [[Transitions/Outside Ashi Entry|Outside Ashi Entry]] (Transition) — Related transition reference for leg-entanglement study.
 
-- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) — Related transition reference for leg-entanglement study.
+- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position)
 
-- [[Transitions/Ashi Entry from Leg Entanglement|Ashi Entry from Leg Entanglement]] (Transition) — Related transition reference for leg-entanglement study.
 
-- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) — Related transition reference for leg-entanglement study.
+- [[Transitions/Ankle Lock Escape to Standing|Ankle Lock Escape to Standing]] (Transition)
+
+
+- [[Transitions/Ashi Garami Escape|Ashi Garami Escape]] (Transition)
+
+
+- [[Transitions/Outside Ashi Entry|Outside Ashi Entry]] (Transition)
+
+
+- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition)
+
+
+- [[Transitions/Ashi Entry from Leg Entanglement|Ashi Entry from Leg Entanglement]] (Transition)
+
+
+- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition)
+
 
 - [[Submissions/Heel Hook|Heel Hook]] (Submission) — Submission reference corresponding to the prevention and counter sections in Volume 1.
 
-- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission) — Related submission reference for leg-entanglement study.
 
-- [[Submissions/Outside Heel Hook|Outside Heel Hook]] (Submission) — Related submission reference for leg-entanglement study.
+- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission)
 
-- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission) — Related submission reference for leg-entanglement study.
 
-- [[Transitions/Kneebar|Kneebar]] (Submission) — Related submission reference for leg-entanglement study.
+- [[Submissions/Outside Heel Hook|Outside Heel Hook]] (Submission)
 
+
+- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission)
+
+
+- [[Transitions/Kneebar|Kneebar]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-source-url="https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles" data-affiliate="false" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-product-id="lachlan-listing" target="_blank" rel="noopener">Leg Lock Anthology: 50/50 by Lachlan Giles</a> — official listing; checked 2026-09-16. Verified Lachlan Giles as instructor and the eight-volume outline, including prevention/counters, knee recovery, disengagement and narrated rolling. The page embeds a knee-line sample; its video content has not been reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher" data-source-url="https://bjjfanatics.com/products/pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher" data-affiliate="false" data-system-slug="systems/lachlan-giles-leg-lock-defense-framework" data-product-id="danaher-listing" target="_blank" rel="noopener">Pin Escapes &amp; Turtle Escapes: BJJ Fundamentals - Go Further Faster by John Danaher</a> — official listing; checked 2026-09-16. Verified the comparison course includes mount and side-pin escapes, alongside rear-mount and turtle sections.</p>
+</section>
+
+</details>
 </section>
 </main>

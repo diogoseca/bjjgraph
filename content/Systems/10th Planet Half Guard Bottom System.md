@@ -1,143 +1,149 @@
 
 ---
-title: "Eddie Bravo: Bottom Half Study | BJJGraph"
-description: "Find Eddie Bravo’s bottom-half material without mistaking this rubber-guard release for a complete half-guard curriculum."
+title: "Eddie Bravo: Bottom Half in The Ultimate Rubber Guard | BJJGraph"
+description: "What The Ultimate Rubber Guard offers a reader interested in Eddie Bravo’s half guard."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Eddie Bravo: Bottom Half Study","description":"Find Eddie Bravo’s bottom-half material without mistaking this rubber-guard release for a complete half-guard curriculum."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Eddie Bravo: Bottom Half in The Ultimate Rubber Guard","description":"What The Ultimate Rubber Guard offers a reader interested in Eddie Bravo’s half guard."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: The Ultimate Rubber Guard by Eddie Bravo.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="10th Planet Half Guard Bottom System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Eddie Bravo: Bottom Half in The Ultimate Rubber Guard</h1>
+<div class="system-tags"><span>Guard System</span><span>Intermediate</span></div>
 
-## Eddie Bravo: Bottom Half Study
+<p class="system-reference-count">12 related references (techniques and positions)</p>
+</header>
 
-**A focused route to the bottom-half section of The Ultimate Rubber Guard, with its limits as a half-guard resource made explicit.**
-
-
-The linked release spends most of its outline on rubber guard. Its final volume gives bottom half a separate slot, making this guide useful when you want to locate that material within a course you are considering or already own.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Ultimate Rubber Guard</h2><span class="system-course__instructor">By Eddie Bravo</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
-
-- Your immediate interest is Eddie Bravo’s bottom-half material rather than the full rubber-guard sequence.
-
-
-### Consider an alternative if
-
-- For a detailed half-butterfly outline with entries and troubleshooting, compare Brian Glick’s guide.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Check whether the half-guard section is enough
-
-Compare the single Bottom Half slot with the separate entry and troubleshooting sections in Glick’s outline. Decide whether you need a short Bravo-specific study or a more extensively indexed half-guard resource. With course access, start at Bottom Half and record the positions actually demonstrated.
-
-Published section: Volume 4: Bottom Half — 0–15:40 (course range)
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a></p>
-
-<p>Source: <a href="https://bjjfanatics.com/products/half-butterfly-mastery-by-brian-glick" target="_blank" rel="noopener">Under Pressure: Half Butterfly Mastery by Brian Glick</a></p>
+The Ultimate Rubber Guard includes a bottom-half section in its final volume. The publisher also advertises lockdown and electric-chair material. For someone buying specifically for half guard, the key limitation is its share of the course: the listed Bottom Half section runs 15 minutes 40 seconds, within a release primarily devoted to rubber guard.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="youtube" data-embed-url="https://www.youtube.com/embed/_Vg4g6U1EXI?autoplay=0" data-verified-origins="[]" data-preview-title="Official trailer — Eddie Bravo / The Ultimate Rubber Guard">
-<h2>Official trailer — Eddie Bravo / The Ultimate Rubber Guard</h2>
-<p>Official trailer. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official trailer</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="noopener">Watch on the official page: The Ultimate Rubber Guard by Eddie Bravo</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="10th Planet Half Guard Bottom System" data-provider="youtube" data-embed-url="https://www.youtube.com/embed/_Vg4g6U1EXI?autoplay=0" data-verified-origins="[]" data-preview-title="Official trailer — Eddie Bravo / The Ultimate Rubber Guard">
+<h2>Official trailer</h2>
+<p>Official trailer — Eddie Bravo / The Ultimate Rubber Guard</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the trailer on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">The Ultimate Rubber Guard · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>The Ultimate Rubber Guard</h3>
-<p>By Eddie Bravo</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You want Eddie Bravo’s half-guard material alongside his rubber-guard instruction.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Brian-Glick-Half-Butterfly-System">Brian Glick: Half Butterfly</a> — Choose a course centered on half butterfly, with entries, sweeps, submissions and leg entanglements.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Volume 4 separates bottom-half instruction from rubber-guard variations.
-- The description mentions lockdown and electric-chair material, without a detailed chapter breakdown for each.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- A dedicated Bottom Half section in volume 4; the course description also names lockdown and electric chair.
+
 
 ### Limits
 
-- Only one bottom-half section is itemized; this is not an outline of the entire 10th Planet half-guard curriculum.
+- This is a rubber-guard purchase with a short half-guard section, not a standalone half-guard course.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a> — official listing; checked 2026-09-16. Verified four volumes, instructor, rubber-guard history and omoplata coverage, and the Bottom Half section. Listing and official trailer iframe inspected; player content and playback not reviewed.</p><p><a href="https://bjjfanatics.com/products/half-butterfly-mastery-by-brian-glick" target="_blank" rel="noopener">Under Pressure: Half Butterfly Mastery by Brian Glick</a> — official listing; checked 2026-09-16. Verified inside-position and head-position sections, entry positions, two attack groups, troubleshooting and executive summary. Listing inspected; course video content not reviewed.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-system-name="10th Planet Half Guard Bottom System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Ultimate Rubber Guard</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Grips">Grips</a> (Principle) — Grips: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Hooks">Hooks</a> (Principle) — Hooks: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Kuzushi">Kuzushi</a> (Principle) — Kuzushi: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Frames">Frames</a> (Principle) — Frames: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a> (Principle) — Fork Attacks: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a> (Principle) — Control Maintenance: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Position-Chains">Position Chains</a> (Principle) — Position Chains: related principle study, separate from the source syllabus.</p><p><a href="/Systems/10th-Planet-Rubber-Guard-System">10th Planet Rubber Guard System</a> (System) — 10th Planet Rubber Guard System: related system study, separate from the source syllabus.</p><p><a href="/Systems/10th-Planet-No-Gi-Guard-System">10th Planet No-Gi Guard System</a> (System) — 10th Planet No-Gi Guard System: related system study, separate from the source syllabus.</p><p><a href="/Systems/Lockdown-to-Electric-Chair-System">Lockdown to Electric Chair System</a> (System) — Lockdown to Electric Chair System: related system study, separate from the source syllabus.</p><p><a href="/Systems/Andrew-Wiltse-Half-Guard-System">Andrew Wiltse Half Guard System</a> (System) — Andrew Wiltse Half Guard System: related system study, separate from the source syllabus.</p><p><a href="/Systems/Brian-Glick-Half-Butterfly-System">Brian Glick Half Butterfly System</a> (System) — Compare the more detailed half-butterfly entry and troubleshooting syllabus.</p>
-
+<p><a href="/Principles/Grips">Grips</a></p><p><a href="/Principles/Hooks">Hooks</a></p><p><a href="/Principles/Kuzushi">Kuzushi</a></p><p><a href="/Principles/Frames">Frames</a></p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a></p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a></p><p><a href="/Principles/Position-Chains">Position Chains</a></p><p><a href="/Systems/10th-Planet-Rubber-Guard-System">Eddie Bravo: Rubber Guard</a></p><p><a href="/Systems/10th-Planet-No-Gi-Guard-System">Eddie Bravo: The Ultimate Rubber Guard</a></p><p><a href="/Systems/Lockdown-to-Electric-Chair-System">Tom DeBlass: The Lockdown Blueprint</a></p><p><a href="/Systems/Andrew-Wiltse-Half-Guard-System">Half Guard: Recovering Closed Guard</a></p><p><a href="/Systems/Brian-Glick-Half-Butterfly-System">Brian Glick: Half Butterfly</a> — Compare the more detailed half-butterfly entry and troubleshooting syllabus.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Half Guard/Lockdown|Lockdown]] (Position) — Lockdown: related position study, separate from the source syllabus.
+- [[Positions/Half Guard/Lockdown|Lockdown]] (Position)
 
-- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) — Deep Half Guard: related position study, separate from the source syllabus.
 
-- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Position) — Electric Chair: related position study, separate from the source syllabus.
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position)
 
-- [[Positions/Half Guard/Old School|Old School]] (Position) — Old School: related position study, separate from the source syllabus.
 
-- [[Positions/Dogfight Position|Dogfight Position]] (Position) — Dogfight Position: related position study, separate from the source syllabus.
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Position)
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Half Guard: related position study, separate from the source syllabus.
 
-- [[Transitions/Lockdown Recovery|Lockdown Recovery]] (Transition) — Lockdown Recovery: related transition study, separate from the source syllabus.
+- [[Positions/Half Guard/Old School|Old School]] (Position)
 
-- [[Transitions/Old School Sweep|Old School Sweep]] (Transition) — Old School Sweep: related transition study, separate from the source syllabus.
 
-- [[Transitions/Back Door Escape from Half Guard|Back Door Escape from Half Guard]] (Transition) — Back Door Escape from Half Guard: related transition study, separate from the source syllabus.
+- [[Positions/Dogfight Position|Dogfight Position]] (Position)
 
-- [[Transitions/Back Take from Lockdown Defense|Back Take from Lockdown Defense]] (Transition) — Back Take from Lockdown Defense: related transition study, separate from the source syllabus.
 
-- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Submission) — Electric Chair: related submission study, separate from the source syllabus.
+- [[Positions/Half Guard|Half Guard]] (Position)
 
-- [[Positions/Kimura Trap|Kimura Trap]] (Position) — Kimura Trap: related position study, separate from the source syllabus.
 
-- [[Positions/Half Guard/Butterfly Half Guard|Butterfly Half Guard]] (Position) — Butterfly Half Guard: related position study, separate from the source syllabus.
+- [[Transitions/Lockdown Recovery|Lockdown Recovery]] (Transition)
 
+
+- [[Transitions/Old School Sweep|Old School Sweep]] (Transition)
+
+
+- [[Transitions/Back Door Escape from Half Guard|Back Door Escape from Half Guard]] (Transition)
+
+
+- [[Transitions/Back Take from Lockdown Defense|Back Take from Lockdown Defense]] (Transition)
+
+
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Submission)
+
+
+- [[Positions/Kimura Trap|Kimura Trap]] (Position)
+
+
+- [[Positions/Half Guard/Butterfly Half Guard|Butterfly Half Guard]] (Position)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-source-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-affiliate="false" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-product-id="bravo-rubber-listing" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a> — official listing; checked 2026-09-16. Verified four volumes, instructor, rubber-guard history and omoplata coverage, and the Bottom Half section. Listing and official trailer iframe inspected; player content and playback not reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/half-butterfly-mastery-by-brian-glick" data-source-url="https://bjjfanatics.com/products/half-butterfly-mastery-by-brian-glick" data-affiliate="false" data-system-slug="systems/10th-planet-half-guard-bottom-system" data-product-id="glick-half-butterfly-listing" target="_blank" rel="noopener">Under Pressure: Half Butterfly Mastery by Brian Glick</a> — official listing; checked 2026-09-16. Verified inside-position and head-position sections, entry positions, two attack groups, troubleshooting and executive summary. Listing inspected; course video content not reviewed.</p>
+</section>
+
+</details>
 </section>
 </main>

@@ -1,131 +1,137 @@
 
 ---
 title: "John Danaher: Triangles Enter The System | BJJGraph"
-description: "Find a starting point in Danaher’s triangle curriculum by separating configuration changes from new entries."
+description: "John Danaher’s triangle curriculum covers front, opposite, rear, side and reverse configurations from guard, top positions and scrambles."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"John Danaher: Triangles Enter The System","description":"Find a starting point in Danaher’s triangle curriculum by separating configuration changes from new entries."}
+{"@context":"https://schema.org","@type":"WebPage","name":"John Danaher: Triangles Enter The System","description":"John Danaher’s triangle curriculum covers front, opposite, rear, side and reverse configurations from guard, top positions and scrambles."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Triangles Enter The System by John Danaher.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Danaher Triangle System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>John Danaher: Triangles Enter The System</h1>
+<div class="system-tags"><span>Submission Chain</span><span>Intermediate</span></div>
 
-## John Danaher: Triangles Enter The System
+<p class="system-reference-count">8 related references (techniques and positions)</p>
+</header>
 
-**John Danaher’s Triangles Enter The System surveys triangle configurations, entry contexts and connections to other submissions.**
-
-
-A different triangle orientation and a different way of entering it are separate study choices. This syllabus addresses both, beginning with a two-stage approach and later devoting sections to front, opposite, rear, side and reverse configurations.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" data-product-id="triangles-enter-the-system-by-john-danaher" data-system-slug="systems/danaher-triangle-system" data-system-name="Danaher Triangle System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Triangles Enter The System</h2><span class="system-course__instructor">By John Danaher</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+Triangles Enter The System develops the triangle beyond the familiar front configuration. John Danaher covers the transition from an initial trap to a figure-four triangle, then builds out front, opposite, rear, side and reverse variations.
 
-- You want to organize several triangle variations instead of collecting unrelated entries.
-
-
-### Consider an alternative if
-
-- If your main question is how to classify frames, posture and rotational pressure inside a triangle, compare Ryan Hall Triangle System.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Distinguish configuration work from entry work
-
-Compare the public Volume 2 headings for trap-to-figure-four transitions with its seated-entry section. Label your current question as getting into a triangle or changing an existing configuration. With course access, begin with the matching demonstration and record what changes between its opening and closing positions.
-
-Published section: Volume 2: Managing Transition from Trap Triangle to Figure Four Triangle (18:06–21:04).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" target="_blank" rel="noopener">Triangles Enter The System by John Danaher</a></p>
+The eight-volume syllabus includes entries from guard, passing, mount, turtle and standing exchanges, along with arm-lock and leg-lock connections. It suits grapplers looking for a broad triangle attack system across several positions.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/b8066616-53a3-49d5-bc89-fb6bdeeb668d?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — John Danaher / Triangles Enter The System">
-<h2>Official sample — John Danaher / Triangles Enter The System</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" target="_blank" rel="noopener">Watch on the official page: Triangles Enter The System by John Danaher</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Danaher Triangle System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/b8066616-53a3-49d5-bc89-fb6bdeeb668d?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — John Danaher / Triangles Enter The System">
+<h2>Official sample</h2>
+<p>Official sample — John Danaher / Triangles Enter The System</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" data-product-id="triangles-enter-the-system-by-john-danaher" data-system-slug="systems/danaher-triangle-system" data-system-name="Danaher Triangle System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Triangles Enter The System · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>Triangles Enter The System</h3>
-<p>By John Danaher</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" data-product-id="triangles-enter-the-system-by-john-danaher" data-system-slug="systems/danaher-triangle-system" data-system-name="Danaher Triangle System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You want triangle attacks from top positions and scrambles as well as guard.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall: The Modern Triangle</a> — A triangle course with distinct treatment of frames, posture, pressure, specific defenses and scoring.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- The opening volumes separate preliminary capture, figure-four configuration and front-triangle entries.
-- Later volumes cover other orientations, top-position entries and connections to joint locks.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Trap-to-figure-four transitions, front-triangle mechanics and five triangle orientations.
+- Guard and top-position entries, sweeps, arm-lock connections and a transition to an inside heel hook.
+
 
 ### Limits
 
-- The outline extends beyond closed-guard triangles, including standing exchanges, turtle attacks and leg-lock connections.
+- The course spans eight volumes and multiple orientations; its scope goes well beyond a single closed-guard triangle.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" target="_blank" rel="noopener">Triangles Enter The System by John Danaher</a> — official listing; checked 2026-09-16. Verified title, instructor and syllabus covering front, opposite, rear, side and reverse triangles, entries and submission connections. Chapter labels identify coverage, not execution details.</p><p><a href="https://ryanhallonline.com/p/modern-triangle" target="_blank" rel="noopener">The Modern Triangle by Ryan Hall</a> — official listing; checked 2026-09-16. Verified the published curriculum: triangle process, finishing, defensive components, arm attacks and scoring options. Lesson names and durations are listed; paid lesson content was not inspected.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" data-course-url="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" data-product-id="triangles-enter-the-system-by-john-danaher" data-system-slug="systems/danaher-triangle-system" data-system-name="Danaher Triangle System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Triangles Enter The System</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Clamps">Clamps</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Submission-Chains">Submission Chains</a> (Principle) — Related concept for organizing study.</p><p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall Triangle System</a> (System) — Compare the separate defense-component and scoring sections.</p>
-
+<p><a href="/Principles/Clamps">Clamps</a></p><p><a href="/Principles/Submission-Chains">Submission Chains</a></p><p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall: The Modern Triangle</a> — Compare the separate defense-component and scoring sections.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Triangle Control|Triangle Control]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Triangle Control|Triangle Control]] (Position)
 
-- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Submissions/Rear Triangle Choke|Rear Triangle Choke]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission)
 
-- [[Submissions/Triangle Choke Side|Triangle Choke Side]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Transitions/Inverted Triangle|Inverted Triangle]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Submissions/Rear Triangle Choke|Rear Triangle Choke]] (Submission)
 
-- [[Submissions/Armbar|Armbar]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Submissions/Triangle Choke Side|Triangle Choke Side]] (Submission)
 
-- [[Positions/Clamp Guard|Clamp Guard]] (Position) — Related position reference for comparing the course vocabulary.
 
+- [[Transitions/Inverted Triangle|Inverted Triangle]] (Submission)
+
+
+- [[Submissions/Armbar|Armbar]] (Submission)
+
+
+- [[Positions/Closed Guard|Closed Guard]] (Position)
+
+
+- [[Positions/Clamp Guard|Clamp Guard]] (Position)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" data-source-url="https://bjjfanatics.com/products/triangles-enter-the-system-by-john-danaher" data-affiliate="false" data-system-slug="systems/danaher-triangle-system" data-product-id="danaher-triangles" target="_blank" rel="noopener">Triangles Enter The System by John Danaher</a> — official listing; checked 2026-09-16. Verified title, instructor and syllabus covering front, opposite, rear, side and reverse triangles, entries and submission connections. Chapter labels identify coverage, not execution details.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://ryanhallonline.com/p/modern-triangle" target="_blank" rel="noopener">The Modern Triangle by Ryan Hall</a> — official listing; checked 2026-09-16. Verified the published curriculum: triangle process, finishing, defensive components, arm attacks and scoring options. Lesson names and durations are listed; paid lesson content was not inspected.</p>
+</section>
+
+</details>
 </section>
 </main>

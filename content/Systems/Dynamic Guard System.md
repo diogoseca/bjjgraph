@@ -1,120 +1,135 @@
 
 ---
-title: "Guard Changes: A Study Map | BJJGraph"
-description: "Use a public positional glossary to describe guard changes precisely before selecting a specialized guard guide."
+title: "Understanding Guard Changes | BJJGraph"
+description: "An introduction to deliberate guard changes, passer-forced changes and the differences between open guards."
 ---
 
 
 
+
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Guard Changes: A Study Map","description":"Use a public positional glossary to describe guard changes precisely before selecting a specialized guard guide."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Understanding Guard Changes","description":"An introduction to deliberate guard changes, passer-forced changes and the differences between open guards."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph study guide. Not authored or endorsed by the instructor.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Dynamic Guard System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Understanding Guard Changes</h1>
+<div class="system-tags"><span>Guard System</span><span>Intermediate</span></div>
 
-## Guard Changes: A Study Map
+<p class="system-reference-count">15 related references (techniques and positions)</p>
+</header>
 
-**A topic guide for recognizing changes between open guards and distinguishing a deliberate switch from a passer-forced change.**
+<section id="overview" class="system-overview">
 
-
-Open guard covers many configurations, not one fixed position. This guide uses Kesting and Bayev’s terminology to make observation notes more precise: record what changed and why before calling every movement a transition system.
-
-</section>
-
-<section id="fit" class="content-section">
-
-## Is this useful for you?
-
-- You recognize individual guards but struggle to describe the moment one becomes another.
-
-
-### Consider an alternative if
-
-- If the recurring problem is a specific passing route, use the Giles–Tabak retention guide for a more focused study map.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Describe one guard change without guessing a chain
-
-Read the open-guard introduction on printed page 9. In one exchange you can review, name the guard before and after the change. Mark whether the bottom player initiated it or the passer forced it. If the configuration is unclear, describe the visible contacts instead of assigning a name.
-
-Published section: A Glossary of Guards: printed page 9, The Open Guard
-
-
-
-<p>Source: <a href="https://www.grapplearts.com/A-Glossary-Of-Guards.pdf" target="_blank" rel="noopener">A Glossary of Guards — Stephan Kesting and Elliott Bayev</a></p>
+Opening the legs can be a deliberate choice or the result of a passer breaking closed guard. Once open, the guard can change as grips and leg positions change. Stephan Kesting and Elliott Bayev’s glossary describes this variety, including spider, butterfly and De La Riva, and explains why no single guard suits every setting.
 
 </section>
 
 
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
+
+## Is this for you?
+
+- You know several guard names and want to understand how they relate within open guard.
 
 
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Lachlan-Giles-and-Ariel-Tabak-Guard-Retention-System">Giles and Tabak: Guard Retention Around and Under</a> — For detailed recovery against passes around or under the legs, choose the Giles–Tabak retention course.</p>
+
+
+</section>
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- The glossary distinguishes open from closed guard and explains that changes can be chosen by the bottom player or forced by the passer.
-- Named open-guard examples provide a vocabulary for comparing contacts.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Open versus closed guard; deliberate and passer-forced changes.
+- Examples of open guards distinguished by grips and leg positions.
+
 
 ### Limits
 
-- This is an observation framework, not an instructor-authored curriculum called Dynamic Guard or a rule to keep moving constantly.
+- The glossary explains positions and their relationships; it is not a complete course on recovering guard or chaining attacks.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://www.grapplearts.com/A-Glossary-Of-Guards.pdf" target="_blank" rel="noopener">A Glossary of Guards — Stephan Kesting and Elliott Bayev</a> — public instruction; checked 2026-09-16. Inspected the introduction and open-guard section on printed pages 3 and 9–14: terminology, changing guard positions and examples. This is a positional reference, not a demonstrated training sequence. Inspected: Printed pages 3 and 9–14, text</p><p><a href="https://bjjfanatics.com/products/the-guard-retention-anthology-by-lachlan-giles-ariel-tabak" target="_blank" rel="noopener">The guard Retention Anthology: Around and Under by Lachlan Giles &amp; Ariel Tabak</a> — official listing; checked 2026-09-16. Verified both instructors and parts devoted to around-the-legs, north-south and under-the-legs retention; scope follows title and detailed outline. Listing inspected; course video content not reviewed.</p>
-</section>
-
-<section id="related-content" class="content-section">
-
-## Related references and alternatives
 
 
-<p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a> (Principle) — Defensive Concepts: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Grips">Grips</a> (Principle) — Grips: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Frames">Frames</a> (Principle) — Frames: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Distance-Control">Distance Control</a> (Principle) — Distance Control: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Dominant-Angles">Dominant Angles</a> (Principle) — Dominant Angles: related principle study, separate from the source syllabus.</p><p><a href="/Systems/Marcelo-Garcia-Butterfly-Guard-System">Marcelo Garcia Butterfly Guard System</a> (System) — Marcelo Garcia Butterfly Guard System: related system study, separate from the source syllabus.</p><p><a href="/Systems/Marcelo-Garcia-X-Guard-System">Marcelo Garcia X-Guard System</a> (System) — Marcelo Garcia X-Guard System: related system study, separate from the source syllabus.</p><p><a href="/Systems/Caio-Terra-Guard-Retention-System">Caio Terra Guard Retention System</a> (System) — Caio Terra Guard Retention System: related system study, separate from the source syllabus.</p><p><a href="/Systems/10th-Planet-No-Gi-Guard-System">10th Planet No-Gi Guard System</a> (System) — 10th Planet No-Gi Guard System: related system study, separate from the source syllabus.</p><p><a href="/Systems/Keenan-Cornelius-Lapel-Guard-System">Keenan Cornelius Lapel Guard System</a> (System) — Keenan Cornelius Lapel Guard System: related system study, separate from the source syllabus.</p><p><a href="/Systems/Lachlan-Giles-and-Ariel-Tabak-Guard-Retention-System">Lachlan Giles and Ariel Tabak Guard Retention System</a> (System) — Use the passing-route organization when a forced guard change repeatedly becomes a pass.</p>
+<section id="related-content" class="system-section">
 
+## Related guides and principles
+
+These related references are not a claim about what the course teaches or evidence of practical mastery.
+
+<p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a></p><p><a href="/Principles/Grips">Grips</a></p><p><a href="/Principles/Frames">Frames</a></p><p><a href="/Principles/Distance-Control">Distance Control</a></p><p><a href="/Principles/Dominant-Angles">Dominant Angles</a></p><p><a href="/Systems/Marcelo-Garcia-Butterfly-Guard-System">Marcelo Garcia: Butterfly Guard</a></p><p><a href="/Systems/Marcelo-Garcia-X-Guard-System">Marcelo Garcia: X-Guard Entries and Sweeps</a></p><p><a href="/Systems/Caio-Terra-Guard-Retention-System">Caio Terra: Guard Recovery</a></p><p><a href="/Systems/10th-Planet-No-Gi-Guard-System">Eddie Bravo: The Ultimate Rubber Guard</a></p><p><a href="/Systems/Keenan-Cornelius-Lapel-Guard-System">Lapel Guard: What Stops the Entry</a></p><p><a href="/Systems/Lachlan-Giles-and-Ariel-Tabak-Guard-Retention-System">Giles and Tabak: Guard Retention Around and Under</a> — Use the passing-route organization when a forced guard change repeatedly becomes a pass.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Closed Guard: related position study, separate from the source syllabus.
+- [[Positions/Closed Guard|Closed Guard]] (Position)
 
-- [[Positions/Spider Guard|Spider Guard]] (Position) — Spider Guard: related position study, separate from the source syllabus.
 
-- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) — De La Riva Guard: related position study, separate from the source syllabus.
+- [[Positions/Spider Guard|Spider Guard]] (Position)
 
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) — Butterfly Guard: related position study, separate from the source syllabus.
 
-- [[Positions/X-Guard|X-Guard]] (Position) — X-Guard: related position study, separate from the source syllabus.
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position)
 
-- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) — Single Leg X-Guard: related position study, separate from the source syllabus.
 
-- [[Positions/Seated Guard|Seated Guard]] (Position) — Seated Guard: related position study, separate from the source syllabus.
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
 
-- [[Positions/Collar Sleeve Guard|Collar Sleeve Guard]] (Position) — Collar Sleeve Guard: related position study, separate from the source syllabus.
 
-- [[Positions/Lasso Guard|Lasso Guard]] (Position) — Lasso Guard: related position study, separate from the source syllabus.
+- [[Positions/X-Guard|X-Guard]] (Position)
 
-- [[Positions/De La Riva Guard/Reverse De La Riva Guard|Reverse De La Riva Guard]] (Position) — Reverse De La Riva Guard: related position study, separate from the source syllabus.
 
-- [[Transitions/Scissor Sweep|Scissor Sweep]] (Transition) — Scissor Sweep: related transition study, separate from the source syllabus.
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position)
 
-- [[Transitions/Basic Butterfly Sweep|Basic Butterfly Sweep]] (Transition) — Basic Butterfly Sweep: related transition study, separate from the source syllabus.
 
-- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition) — Berimbolo Entry: related transition study, separate from the source syllabus.
+- [[Positions/Seated Guard|Seated Guard]] (Position)
 
-- [[Transitions/Backstep from De La Riva|Backstep from De La Riva]] (Transition) — Backstep from De La Riva: related transition study, separate from the source syllabus.
 
-- [[Transitions/Arm Drag|Arm Drag]] (Transition) — Arm Drag: related transition study, separate from the source syllabus.
+- [[Positions/Collar Sleeve Guard|Collar Sleeve Guard]] (Position)
 
+
+- [[Positions/Lasso Guard|Lasso Guard]] (Position)
+
+
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard|Reverse De La Riva Guard]] (Position)
+
+
+- [[Transitions/Scissor Sweep|Scissor Sweep]] (Transition)
+
+
+- [[Transitions/Basic Butterfly Sweep|Basic Butterfly Sweep]] (Transition)
+
+
+- [[Transitions/Berimbolo Entry|Berimbolo Entry]] (Transition)
+
+
+- [[Transitions/Backstep from De La Riva|Backstep from De La Riva]] (Transition)
+
+
+- [[Transitions/Arm Drag|Arm Drag]] (Transition)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+
+
+<section class="system-source" data-source-container>
+<p><a href="https://www.grapplearts.com/A-Glossary-Of-Guards.pdf" target="_blank" rel="noopener">A Glossary of Guards — Stephan Kesting and Elliott Bayev</a> — public instruction; checked 2026-09-16. Inspected the introduction and open-guard section on printed pages 3 and 9–14: terminology, changing guard positions and examples. This is a positional reference, not a demonstrated training sequence. Inspected: Printed pages 3 and 9–14, text</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-guard-retention-anthology-by-lachlan-giles-ariel-tabak" data-source-url="https://bjjfanatics.com/products/the-guard-retention-anthology-by-lachlan-giles-ariel-tabak" data-affiliate="false" data-system-slug="systems/dynamic-guard-system" data-product-id="giles-tabak-retention-listing" target="_blank" rel="noopener">The guard Retention Anthology: Around and Under by Lachlan Giles &amp; Ariel Tabak</a> — official listing; checked 2026-09-16. Verified both instructors and parts devoted to around-the-legs, north-south and under-the-legs retention; scope follows title and detailed outline. Listing inspected; course video content not reviewed.</p>
+</section>
+
+</details>
 </section>
 </main>

@@ -1,135 +1,147 @@
 
 ---
-title: "Lucas Lepri: Gi Half-Guard Passing Problems | BJJGraph"
-description: "A companion to Lucas Lepri’s Precise Half Guard Passing, with gi-specific scope, separate rising and deep-half contexts, and a comparison to his knee-cut course."
+title: "Lucas Lepri: Gi Half-Guard Passing | BJJGraph"
+description: "Lucas Lepri’s Precise Half Guard Passing covers lapel-based knee cuts, coyote and single-leg-half responses, deep-half passing and submission counters."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Lucas Lepri: Gi Half-Guard Passing Problems","description":"A companion to Lucas Lepri’s Precise Half Guard Passing, with gi-specific scope, separate rising and deep-half contexts, and a comparison to his knee-cut course."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Lucas Lepri: Gi Half-Guard Passing","description":"Lucas Lepri’s Precise Half Guard Passing covers lapel-based knee cuts, coyote and single-leg-half responses, deep-half passing and submission counters."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Precise Half Guard Passing by Lucas Lepri.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Lucas Lepri Half Guard Passing System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Lucas Lepri: Gi Half-Guard Passing</h1>
+<div class="system-tags"><span>Passing System</span><span>Intermediate</span></div>
 
-## Lucas Lepri: Gi Half-Guard Passing Problems
+<p class="system-reference-count">9 related references (techniques and positions)</p>
+</header>
 
-**Compare lapel-based passing, coyote-guard reactions and deep-half problems within Lucas Lepri’s half-guard curriculum.**
-
-
-Precise Half Guard Passing by Lucas Lepri groups several half-guard situations into three volumes. The outline includes lapel and belt controls, opponents coming toward their knees, and deep-half or waiter-sweep problems. A single label of half guard is too broad to choose a useful starting section.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-product-id="precise-half-guard-passing-by-lucas-lepri" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Precise Half Guard Passing</h2><span class="system-course__instructor">By Lucas Lepri</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+Precise Half Guard Passing by Lucas Lepri covers several ways to pass and attack from top half guard. Its three volumes address opponents who come up toward a single leg, move underneath into deep half or threaten sweeps.
 
-- Your gi half-guard passing stalls when the bottom player changes from a shield to a rising or deep-half position.
-
-
-### Consider an alternative if
-
-- For knee-cut entries across De La Riva, lasso and other open guards, compare Lepri’s Precision Knee Cut Passes.
-- For a dedicated no-gi body-lock route, compare Lachlan Giles’s The Body Lock Pass.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Distinguish a rising opponent from a deep-half problem
-
-Compare Volume 1’s coyote-guard chapter for an opponent getting to the knees with Volume 2’s belt-grip deep-half chapter. Identify which situation resembles the problem you want to study. The official page also provides a sample labeled Passing The Deep Half Guard Grabbing The Belt; if you watch it, record the starting configuration before considering whether it answers your question.
-
-Published section: Volume 2, Chapter 4: Passing the deep half guard grabbing the belt (19:56–23:58).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" target="_blank" rel="noopener">Precise Half Guard Passing by Lucas Lepri</a></p>
+Lapel and belt controls make this especially relevant to gi players. Passing is accompanied by submission counters and back-taking options, rather than being confined to one knee-cut finish.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/1e4b83ea-9ce6-4932-996b-3326ded42238?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Lucas Lepri / Precise Half Guard Passing">
-<h2>Official sample — Lucas Lepri / Precise Half Guard Passing</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" target="_blank" rel="noopener">Watch on the official page: Precise Half Guard Passing by Lucas Lepri</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Lucas Lepri Half Guard Passing System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/1e4b83ea-9ce6-4932-996b-3326ded42238?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Lucas Lepri / Precise Half Guard Passing">
+<h2>Official sample</h2>
+<p>Official sample — Lucas Lepri / Precise Half Guard Passing</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-product-id="precise-half-guard-passing-by-lucas-lepri" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Precise Half Guard Passing · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>Precise Half Guard Passing</h3>
-<p>By Lucas Lepri</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-product-id="precise-half-guard-passing-by-lucas-lepri" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- Your gi half-guard passing stalls when an opponent comes up toward a single leg or enters deep half.
+- You want passing and submission options from top half guard, including lapel and belt controls.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Lucas-Lepri-Knee-Cut-System">Lucas Lepri: Knee-Cut Passing</a> — For knee-cut entries and troubleshooting across De La Riva, lasso and other open guards.</p><p><a href="/Systems/Lachlan-Giles-Body-Lock-Passing-System">Lachlan Giles: Body-Lock Passing</a> — For a dedicated no-gi body-lock course covering entries, knee clearance and finishes.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Lapel-crossface knee cutting and associated choke topics.
-- Coyote-guard and single-leg-half-guard responses.
-- Deep-half and waiter-sweep sections, including belt-grip passing.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Lapel-crossface knee cutting and choke attacks from top half guard.
+- Coyote-guard and single-leg-half responses, including back takes and reverse triangles.
+- Deep-half passing, waiter-sweep counters, Z-guard backsteps and further submission options.
+
 
 ### Limits
 
-- Lapel and belt controls make gi equipment relevant; the course is focused on half-guard situations rather than every knee-cut entry.
+- Lapel and belt grips make parts of the material gi-specific.
+- The course is concentrated on half-guard situations, rather than knee-cut entries from the full range of open guards.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" target="_blank" rel="noopener">Precise Half Guard Passing by Lucas Lepri</a> — official listing; checked 2026-09-16. Verified title, Lucas Lepri attribution and three-volume outline, including lapel crossface, coyote guard, single-leg half guard, deep half and waiter-sweep topics. Official sample placement inspected; sample content not reviewed.</p><p><a href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" target="_blank" rel="noopener">Precision Knee Cut Passes by Lucas Lepri</a> — official listing; checked 2026-09-16. Verified title, Lucas Lepri attribution and four-volume outline including De La Riva, lasso, underhook and deep-half contexts. The page embeds a video labeled Knee Cut Against Deep Half Guard; video content not reviewed.</p><p><a href="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" target="_blank" rel="noopener">The Body Lock Pass by Lachlan Giles</a> — official listing; checked 2026-09-16. Verified title, Lachlan Giles attribution, six-volume description, body-lock stages and narrated rolling. The page embeds a video labeled 5 stages of the body lock pass by Lachlan Giles; video content not reviewed.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-product-id="precise-half-guard-passing-by-lucas-lepri" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-system-name="Lucas Lepri Half Guard Passing System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Precise Half Guard Passing</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Cross-Face-Control">Cross Face Control</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Base">Base</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Systems/Lucas-Lepri-Knee-Cut-System">Lucas Lepri Knee Cut System</a> (System) — Compare a half-guard problem survey with knee-cut entries from a wider range of guards.</p><p><a href="/Systems/Lachlan-Giles-Body-Lock-Passing-System">Lachlan Giles Body Lock Passing System</a> (System) — Compare the gi-grip material here with a dedicated no-gi body-lock study.</p>
-
+<p><a href="/Principles/Cross-Face-Control">Cross Face Control</a></p><p><a href="/Principles/Base">Base</a></p><p><a href="/Systems/Lucas-Lepri-Knee-Cut-System">Lucas Lepri: Knee-Cut Passing</a> — For knee-cut entries and troubleshooting across De La Riva, lasso and other open guards.</p><p><a href="/Systems/Lachlan-Giles-Body-Lock-Passing-System">Lachlan Giles: Body-Lock Passing</a> — For a dedicated no-gi body-lock course covering entries, knee clearance and finishes.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Half Guard|Half Guard]] (Position)
 
-- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
-- [[Positions/Z-Guard|Z-Guard]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position)
 
-- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
-- [[Positions/Half Guard/Flattened Half Guard|Flattened Half Guard]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Z-Guard|Z-Guard]] (Position)
 
-- [[Positions/Side Control|Side Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
-- [[Transitions/Half Guard Pass|Half Guard Pass]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Half Guard/Knee Shield Half Guard|Knee Shield Half Guard]] (Position)
 
-- [[Transitions/Knee Slice from Half|Knee Slice from Half]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
 
-- [[Transitions/Backstep from Deep Half|Backstep from Deep Half]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Half Guard/Flattened Half Guard|Flattened Half Guard]] (Position)
 
+
+- [[Positions/Side Control|Side Control]] (Position)
+
+
+- [[Transitions/Half Guard Pass|Half Guard Pass]] (Transition)
+
+
+- [[Transitions/Knee Slice from Half|Knee Slice from Half]] (Transition)
+
+
+- [[Transitions/Backstep from Deep Half|Backstep from Deep Half]] (Transition)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-source-url="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-affiliate="false" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-product-id="lepri-half-guard" target="_blank" rel="noopener">Precise Half Guard Passing by Lucas Lepri</a> — official listing; checked 2026-09-16. Verified title, Lucas Lepri attribution and three-volume outline, including lapel crossface, coyote guard, single-leg half guard, deep half and waiter-sweep topics. Official sample placement inspected; sample content not reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-source-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-affiliate="false" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-product-id="lepri-knee-cut" target="_blank" rel="noopener">Precision Knee Cut Passes by Lucas Lepri</a> — official listing; checked 2026-09-16. Verified title, Lucas Lepri attribution and four-volume outline including De La Riva, lasso, underhook and deep-half contexts. The page embeds a video labeled Knee Cut Against Deep Half Guard; video content not reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-source-url="https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles" data-affiliate="false" data-system-slug="systems/lucas-lepri-half-guard-passing-system" data-product-id="giles-body-lock" target="_blank" rel="noopener">The Body Lock Pass by Lachlan Giles</a> — official listing; checked 2026-09-16. Verified title, Lachlan Giles attribution, six-volume description, body-lock stages and narrated rolling. The page embeds a video labeled 5 stages of the body lock pass by Lachlan Giles; video content not reviewed.</p>
+</section>
+
+</details>
 </section>
 </main>

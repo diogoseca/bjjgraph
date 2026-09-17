@@ -1,130 +1,136 @@
 
 ---
-title: "Lucas Lepri: Knee-Cut Entries and Obstacles | BJJGraph"
-description: "A study companion to Lucas Lepri’s Precision Knee Cut Passes, comparing open-guard entries, lasso contexts and later underhook or deep-half troubleshooting."
+title: "Lucas Lepri: Knee-Cut Passing | BJJGraph"
+description: "Lucas Lepri’s Precision Knee Cut Passes covers gi open-guard entries, knee-cut variations and responses to lasso, underhooks, deep half and X guard."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Lucas Lepri: Knee-Cut Entries and Obstacles","description":"A study companion to Lucas Lepri’s Precision Knee Cut Passes, comparing open-guard entries, lasso contexts and later underhook or deep-half troubleshooting."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Lucas Lepri: Knee-Cut Passing","description":"Lucas Lepri’s Precision Knee Cut Passes covers gi open-guard entries, knee-cut variations and responses to lasso, underhooks, deep half and X guard."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Precision Knee Cut Passes by Lucas Lepri.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Lucas Lepri Knee Cut System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Lucas Lepri: Knee-Cut Passing</h1>
+<div class="system-tags"><span>Passing System</span><span>Intermediate</span></div>
 
-## Lucas Lepri: Knee-Cut Entries and Obstacles
+<p class="system-reference-count">7 related references (techniques and positions)</p>
+</header>
 
-**Use Lepri’s knee-cut curriculum to identify whether your question concerns the entry guard, an underhook or a deeper leg entanglement.**
-
-
-Precision Knee Cut Passes by Lucas Lepri follows one passing family across several guards. Its outline distinguishes De La Riva and lasso entries from underhook, deep-half and X-guard situations. This is useful when the same named pass feels like a different problem depending on the starting guard.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-product-id="precision-knee-cut-passes-by-lucas-lepri" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Precision Knee Cut Passes</h2><span class="system-course__instructor">By Lucas Lepri</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+Precision Knee Cut Passes by Lucas Lepri develops the knee cut across De La Riva, lasso, deep half and X guard. The four-volume series includes tripod, sliding and double-knee-cut variations, entries through toreando, and responses to scoop grips and underhooks.
 
-- You use the knee cut but want to choose a lesson for the particular guard or obstruction that stops it.
-
-
-### Consider an alternative if
-
-- If you need several responses to coyote, single-leg-half or deep-half positions rather than a knee-cut focus, compare Lepri’s Precise Half Guard Passing.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Trace an entry question separately from an underhook question
-
-In the free outline, compare Volume 1’s De La Riva entry with Volume 3’s underhook chapter. Describe your current question as either reaching the knee-cut position or dealing with the opponent once there. Use that distinction to choose one section. With access, begin with the entry chapter below and record the starting guard, without assuming the later underhook response applies to every entry.
-
-Published section: Volume 1, Chapter 2: Using your opponents de la Riva to enter the knee cut (0:46–5:19).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" target="_blank" rel="noopener">Precision Knee Cut Passes by Lucas Lepri</a></p>
+Its focus is useful for gi players who already favor the knee cut and want more options when the initial entry meets resistance. Passing remains centered on that technique, with substantial attention to gi-specific guards.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="youtube" data-embed-url="https://www.youtube.com/embed/hMyxGPLUdkM?autoplay=0&amp;preload=none" data-verified-origins="[]" data-preview-title="Official sample — Lucas Lepri / Precision Knee Cut Passes">
-<h2>Official sample — Lucas Lepri / Precision Knee Cut Passes</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" target="_blank" rel="noopener">Watch on the official page: Precision Knee Cut Passes by Lucas Lepri</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Lucas Lepri Knee Cut System" data-provider="youtube" data-embed-url="https://www.youtube.com/embed/hMyxGPLUdkM?autoplay=0&amp;preload=none" data-verified-origins="[]" data-preview-title="Official sample — Lucas Lepri / Precision Knee Cut Passes">
+<h2>Official sample</h2>
+<p>Official sample — Lucas Lepri / Precision Knee Cut Passes</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-product-id="precision-knee-cut-passes-by-lucas-lepri" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Precision Knee Cut Passes · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>Precision Knee Cut Passes</h3>
-<p>By Lucas Lepri</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-product-id="precision-knee-cut-passes-by-lucas-lepri" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You use the knee cut in the gi but struggle against lasso grips, underhooks or deep-half entries.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Lucas-Lepri-Half-Guard-Passing-System">Lucas Lepri: Gi Half-Guard Passing</a> — For a broader range of passes and submission options specifically against coyote, single-leg half and deep half.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- De La Riva, reverse De La Riva and lasso contexts.
-- Toreando entry, scoop-grip and underhook troubleshooting topics.
-- Deep-half, sit-up, single-leg-X and X-guard chapters.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Knee-cut entries from De La Riva and toreando, with weave-pass connections.
+- Tripod, flying, sliding and double-knee-cut variations.
+- Half and full lasso, scoop grips, underhooks, deep half, sit-up guard and X-guard situations.
+
 
 ### Limits
 
-- The organizing technique is the knee cut; lasso and grip-specific sections also limit how directly the whole curriculum transfers to no-gi.
+- Substantial lasso and gi-grip material makes this a closer fit for gi passing than an exclusively no-gi game.
+- The knee cut remains the central pass; this is not a survey of all passing styles.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" target="_blank" rel="noopener">Precision Knee Cut Passes by Lucas Lepri</a> — official listing; checked 2026-09-16. Verified title, Lucas Lepri attribution and four-volume outline including De La Riva, lasso, underhook and deep-half contexts. The page embeds a video labeled Knee Cut Against Deep Half Guard; video content not reviewed.</p><p><a href="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" target="_blank" rel="noopener">Precise Half Guard Passing by Lucas Lepri</a> — official listing; checked 2026-09-16. Verified title, Lucas Lepri attribution and three-volume outline, including lapel crossface, coyote guard, single-leg half guard, deep half and waiter-sweep topics. Official sample placement inspected; sample content not reviewed.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-course-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-product-id="precision-knee-cut-passes-by-lucas-lepri" data-system-slug="systems/lucas-lepri-knee-cut-system" data-system-name="Lucas Lepri Knee Cut System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Precision Knee Cut Passes</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Grips">Grips</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Base">Base</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Guard-Passing">Guard Passing</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Systems/Lucas-Lepri-Half-Guard-Passing-System">Lucas Lepri Half Guard Passing System</a> (System) — Compare a knee-cut-focused study with multiple passing and submission topics from half guard.</p>
-
+<p><a href="/Principles/Grips">Grips</a></p><p><a href="/Principles/Base">Base</a></p><p><a href="/Principles/Guard-Passing">Guard Passing</a></p><p><a href="/Systems/Lucas-Lepri-Half-Guard-Passing-System">Lucas Lepri: Gi Half-Guard Passing</a> — For a broader range of passes and submission options specifically against coyote, single-leg half and deep half.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position)
 
-- [[Positions/Lasso Guard|Lasso Guard]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
-- [[Positions/Open Guard|Open Guard]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Lasso Guard|Lasso Guard]] (Position)
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
-- [[Positions/Side Control|Side Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Open Guard|Open Guard]] (Position)
 
-- [[Transitions/Knee Slice from Half|Knee Slice from Half]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
 
-- [[Transitions/Knee Slice from Knee Shield|Knee Slice from Knee Shield]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Half Guard|Half Guard]] (Position)
 
+
+- [[Positions/Side Control|Side Control]] (Position)
+
+
+- [[Transitions/Knee Slice from Half|Knee Slice from Half]] (Transition)
+
+
+- [[Transitions/Knee Slice from Knee Shield|Knee Slice from Knee Shield]] (Transition)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-source-url="https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri" data-affiliate="false" data-system-slug="systems/lucas-lepri-knee-cut-system" data-product-id="lepri-knee-cut" target="_blank" rel="noopener">Precision Knee Cut Passes by Lucas Lepri</a> — official listing; checked 2026-09-16. Verified title, Lucas Lepri attribution and four-volume outline including De La Riva, lasso, underhook and deep-half contexts. The page embeds a video labeled Knee Cut Against Deep Half Guard; video content not reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-source-url="https://bjjfanatics.com/products/precise-half-guard-passing-by-lucas-lepri" data-affiliate="false" data-system-slug="systems/lucas-lepri-knee-cut-system" data-product-id="lepri-half-guard" target="_blank" rel="noopener">Precise Half Guard Passing by Lucas Lepri</a> — official listing; checked 2026-09-16. Verified title, Lucas Lepri attribution and three-volume outline, including lapel crossface, coyote guard, single-leg half guard, deep half and waiter-sweep topics. Official sample placement inspected; sample content not reviewed.</p>
+</section>
+
+</details>
 </section>
 </main>

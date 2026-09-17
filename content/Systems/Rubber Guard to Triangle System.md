@@ -1,142 +1,151 @@
 
 ---
-title: "Rubber Guard and Triangle Study Choices | BJJGraph"
-description: "Clarify the scope of the linked rubber-guard course before choosing a triangle lesson."
+title: "Rubber Guard and Triangle Attacks | BJJGraph"
+description: "Rubber-guard course coverage and linked alternatives for a dedicated triangle focus."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Rubber Guard and Triangle Study Choices","description":"Clarify the scope of the linked rubber-guard course before choosing a triangle lesson."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Rubber Guard and Triangle Attacks","description":"Rubber-guard course coverage and linked alternatives for a dedicated triangle focus."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph study guide. Not authored or endorsed by the instructor. Course: The Ultimate Rubber Guard by Eddie Bravo.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Rubber Guard to Triangle System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Rubber Guard and Triangle Attacks</h1>
+<div class="system-tags"><span>Submission Chain</span><span>Advanced</span></div>
 
-## Rubber Guard and Triangle Study Choices
+<p class="system-reference-count">17 related references (techniques and positions)</p>
+</header>
 
-**A comparison guide for choosing between Eddie Bravo’s broad rubber-guard curriculum and a specifically outlined triangle study route.**
-
-
-Eddie Bravo’s course is relevant to rubber guard, but its public chapter list does not name a rubber-guard-to-triangle lesson. Use this comparison to select between broader rubber-guard study and a curriculum with explicitly named triangle topics.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Ultimate Rubber Guard</h2><span class="system-course__instructor">By Eddie Bravo</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+The Ultimate Rubber Guard combines Eddie Bravo’s explanation of rubber guard with its development and terminology. Full rubber guard, variations, bottom half guard and an omoplata route make up the advertised technical coverage.
 
-- You are deciding whether your immediate question concerns rubber guard broadly or triangle defense and configuration.
-
-
-### Consider an alternative if
-
-- For explicitly named triangle-process and defense lessons, use Ryan Hall Triangle System. For Bravo’s named submission route, use Rubber Guard to Omoplata System.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Choose the curriculum that names your problem
-
-Compare Bravo’s short public outline with Hall’s triangle curriculum. If the missing piece is rubber guard as a position, start by locating Bravo’s full-rubber-guard section. If it is triangle posture or configuration, select the matching Hall section. Keep the unverified connection between the two as a question, not a written sequence.
-
-Published section: The Ultimate Rubber Guard, Volume 3: Full Rubber Guard (0–38:49).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a></p>
-
-<p>Source: <a href="https://ryanhallonline.com/p/modern-triangle" target="_blank" rel="noopener">The Modern Triangle by Ryan Hall</a></p>
+For someone interested in triangles, the distinction matters: this is a broad rubber-guard course. Dedicated triangle options are linked below.
 
 </section>
 
 
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+## Is this for you?
 
-<article class="product-card">
-<h3>The Ultimate Rubber Guard</h3>
-<p>By Eddie Bravo</p>
+- You want Eddie Bravo’s broader rubber-guard approach, including its terminology and omoplata connection.
 
-<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall: The Modern Triangle</a> — A triangle-focused curriculum covering control, finishing, specific defenses and arm attacks.</p><p><a href="/Systems/Rubber-Guard-to-Omoplata-System">Eddie Bravo: Rubber Guard to Omoplata</a> — A closer look at the omoplata route explicitly included in the same Eddie Bravo course.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- The linked course names full rubber guard, variations and bottom half guard.
-- Its explicit submission-route chapter concerns the omoplata; Ryan Hall’s separate curriculum supplies named triangle topics for comparison.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Full rubber guard, guard variations and bottom half guard across four volumes.
+- A rubber-guard-to-omoplata chapter, alongside the history and development of the guard.
+
 
 ### Limits
 
-- A rubber-guard-to-triangle sequence is not established by the inspected Bravo outline.
+- The published syllabus does not identify a rubber-guard-to-triangle lesson or establish a particular triangle-entry sequence.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume syllabus. It explicitly names a rubber-guard-to-omoplata lesson, broader rubber-guard development, bottom half guard and variations; it gives no triangle-specific chapter label.</p><p><a href="https://ryanhallonline.com/p/modern-triangle" target="_blank" rel="noopener">The Modern Triangle by Ryan Hall</a> — official listing; checked 2026-09-16. Verified the published curriculum: triangle process, finishing, defensive components, arm attacks and scoring options. Lesson names and durations are listed; paid lesson content was not inspected.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-triangle-system" data-system-name="Rubber Guard to Triangle System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Ultimate Rubber Guard</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Posture">Posture</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Position-Chains">Position Chains</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Hip-Escape-Mechanics">Hip Escape Mechanics</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a> (Principle) — Related concept for organizing study.</p><p><a href="/Systems/10th-Planet-Rubber-Guard-System">10th Planet Rubber Guard System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall Triangle System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/10th-Planet-No-Gi-Guard-System">10th Planet No-Gi Guard System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/Rubber-Guard-to-Omoplata-System">Rubber Guard to Omoplata System</a> (System) — The submission route explicitly named in Bravo’s course outline.</p>
-
+<p><a href="/Principles/Posture">Posture</a></p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a></p><p><a href="/Principles/Position-Chains">Position Chains</a></p><p><a href="/Principles/Hip-Escape-Mechanics">Hip Escape Mechanics</a></p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a></p><p><a href="/Systems/10th-Planet-Rubber-Guard-System">Eddie Bravo: Rubber Guard</a></p><p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall: The Modern Triangle</a></p><p><a href="/Systems/10th-Planet-No-Gi-Guard-System">Eddie Bravo: The Ultimate Rubber Guard</a></p><p><a href="/Systems/Rubber-Guard-to-Omoplata-System">Eddie Bravo: Rubber Guard to Omoplata</a> — The submission route explicitly named in Bravo’s course outline.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Rubber Guard|Rubber Guard]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Rubber Guard|Rubber Guard]] (Position)
 
-- [[Positions/Rubber Guard/Mission Control|Mission Control]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Rubber Guard/New York|New York]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Rubber Guard/Mission Control|Mission Control]] (Position)
 
-- [[Positions/Triangle Control|Triangle Control]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Rubber Guard/New York|New York]] (Position)
 
-- [[Positions/Omoplata Control|Omoplata Control]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Gogoplata Control|Gogoplata Control]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Triangle Control|Triangle Control]] (Position)
 
-- [[Transitions/Triangle from Guard|Triangle from Guard]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control|Rolling Omoplata from Omoplata Control]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Positions/Closed Guard|Closed Guard]] (Position)
 
-- [[Transitions/Gogoplata|Gogoplata]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Positions/Armbar Control|Armbar Control]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Omoplata Control|Omoplata Control]] (Position)
 
-- [[Submissions/Baratoplata|Baratoplata]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+- [[Positions/Gogoplata Control|Gogoplata Control]] (Position)
 
-- [[Transitions/Closed Guard to Triangle|Closed Guard to Triangle]] (Transition) — Related graph transition for separate study, not a verified course sequence.
 
-- [[Transitions/Triangle to Omoplata|Triangle to Omoplata]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+- [[Transitions/Triangle from Guard|Triangle from Guard]] (Submission)
 
-- [[Transitions/Triangle to Armbar|Triangle to Armbar]] (Transition) — Related graph transition for separate study, not a verified course sequence.
 
-- [[Transitions/Switch to Triangle|Switch to Triangle]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+- [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control|Rolling Omoplata from Omoplata Control]] (Submission)
 
+
+- [[Transitions/Gogoplata|Gogoplata]] (Submission)
+
+
+- [[Positions/Armbar Control|Armbar Control]] (Position)
+
+
+- [[Submissions/Baratoplata|Baratoplata]] (Submission)
+
+
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition)
+
+
+- [[Transitions/Closed Guard to Triangle|Closed Guard to Triangle]] (Transition)
+
+
+- [[Transitions/Triangle to Omoplata|Triangle to Omoplata]] (Transition)
+
+
+- [[Transitions/Triangle to Armbar|Triangle to Armbar]] (Transition)
+
+
+- [[Transitions/Switch to Triangle|Switch to Triangle]] (Transition)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-source-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-affiliate="false" data-system-slug="systems/rubber-guard-to-triangle-system" data-product-id="bravo-rubber" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume syllabus. It explicitly names a rubber-guard-to-omoplata lesson, broader rubber-guard development, bottom half guard and variations; it gives no triangle-specific chapter label.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://ryanhallonline.com/p/modern-triangle" target="_blank" rel="noopener">The Modern Triangle by Ryan Hall</a> — official listing; checked 2026-09-16. Verified the published curriculum: triangle process, finishing, defensive components, arm attacks and scoring options. Lesson names and durations are listed; paid lesson content was not inspected.</p>
+</section>
+
+</details>
 </section>
 </main>

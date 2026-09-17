@@ -1,114 +1,126 @@
 
 ---
-title: "Defensive Priorities: Threat, Control and Score | BJJGraph"
-description: "Organize defensive study by separating a submission in progress, the controlling position and the scoring consequence under IBJJF rules."
+title: "Defensive Priorities Under IBJJF Rules | BJJGraph"
+description: "How IBJJF rules distinguish escaping a submission from earning positional points, including verbal submission and stabilization requirements."
 ---
 
 
 
+
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Defensive Priorities: Threat, Control and Score","description":"Organize defensive study by separating a submission in progress, the controlling position and the scoring consequence under IBJJF rules."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Defensive Priorities Under IBJJF Rules","description":"How IBJJF rules distinguish escaping a submission from earning positional points, including verbal submission and stabilization requirements."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph study guide. Not authored or endorsed by the instructor.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Defensive Prioritization Framework">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Defensive Priorities Under IBJJF Rules</h1>
+<div class="system-tags"><span>Defense System</span><span>Intermediate</span></div>
 
-## Defensive Priorities: Threat, Control and Score
+<p class="system-reference-count">11 related references (techniques and positions)</p>
+</header>
 
-**Defensive prioritization separates submission threats, positional control and scoring questions so that each can lead to an appropriate study task.**
+<section id="overview" class="system-overview">
 
-
-A point-scoring position and freedom from a submission are different facts. IBJJF Article 3.3 makes that distinction explicit: reaching the position while caught in a submission does not immediately earn points. Use that distinction to review an exchange without inventing a universal ranking of dangerous positions.
-
-</section>
-
-<section id="fit" class="content-section">
-
-## Is this useful for you?
-
-- You finish reviewing a round with several overlapping problems and need to choose a specific subject for further study.
-- You want to distinguish positional improvement from submission escape when reviewing an IBJJF match.
-
-
-### Consider an alternative if
-
-- You already know the pin you need to escape: use Danaher Pin Escape Fundamentals for a position-specific course route instead of another classification exercise.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Separate three events in one defensive exchange
-
-Review one recorded exchange in an IBJJF match. Make three parallel notes: a submission hold you can identify, the position being controlled, and any scoring signal. Mark uncertain observations rather than filling them in. Compare the order with Article 3.3: if a scoring position is reached while the athlete is caught in a submission, points require escaping that attack and stabilizing the position for three seconds. Decide whether your next study question is about the hold, the pin or the rule; locate the relevant positional guide only after that distinction is clear.
-
-Published section: IBJJF Rules Book, Article 3.3 (printed page 17); Article 2.1 (printed page 15)
-
-
-
-<p>Source: <a href="https://ibjjf.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTRaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c53798f1b94f5ebc202702cb44e9428a7606a19b/2024JUN_IBJJF_Rules_EN.pdf" target="_blank" rel="noopener">IBJJF Rules Book — June 2024</a></p>
+A better position does not necessarily mean a submission has ended. Under IBJJF Article 3.3, an athlete who reaches a scoring position while caught in a submission must escape the attack and stabilize the position for three seconds before receiving points. This distinction matters when a positional gain happens during an ongoing hold. Submission can also be verbal: Article 2.1 recognizes a request to stop the match.
 
 </section>
 
 
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
+
+## Is this for you?
+
+- You want to understand why a positional gain during a submission attempt may not immediately score in an IBJJF match.
+- You need a concise explanation of submission signals and the scoring conditions that apply after escaping a hold.
 
 
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Danaher-Pin-Escape-Fundamentals-System">John Danaher: Pin Escapes and Turtle Escapes</a> — For instruction in escaping mount, side pins, rear mount and turtle, rather than an explanation of scoring rules.</p>
+
+
+</section>
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- A review structure that records the submission situation, the controlling position and the scoring event separately.
-- IBJJF Article 2.1 recognizes submission signals, including verbal withdrawal; Article 3.3 separates escape from a submission hold and stabilization of a scoring position.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Article 3.3: points for a position reached while caught in a submission require escape from the attack and three seconds of stabilization.
+- Article 3.3.1: if the athlete only escapes after losing that scoring position, no points or advantages are awarded for it.
+- Article 2.1: submission signals include physical tapping and verbal withdrawal requesting a stoppage.
+
 
 ### Limits
 
-- IBJJF scoring rules supply the competition example; they do not establish a universal technical escape order or rank every defensive position.
-- This guide organizes observations and study choices. The corresponding escape mechanics belong in position-specific instruction.
+- This article covers IBJJF competition rules, not a universal ranking of defensive positions.
+- Escape mechanics and training progressions are outside its scope.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://ibjjf.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTRaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c53798f1b94f5ebc202702cb44e9428a7606a19b/2024JUN_IBJJF_Rules_EN.pdf" target="_blank" rel="noopener">IBJJF Rules Book — June 2024</a> — ruleset; checked 2026-09-16. Read the official PDF linked from IBJJF Books and Videos. Articles 2.1 and 3.3 support the submission-signal and scoring distinctions used here. Inspected: Printed pages 15 and 17: Articles 2.1–2.2 and 3.1–3.3</p><p><a href="https://bjjfanatics.com/products/pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher" target="_blank" rel="noopener">Pin Escapes &amp; Turtle Escapes: BJJ Fundamentals - Go Further Faster by John Danaher</a> — official listing; checked 2026-09-16. Verified the positional-study alternative includes separate mount, side-pin, rear-mount and turtle sections.</p>
-</section>
-
-<section id="related-content" class="content-section">
-
-## Related references and alternatives
 
 
-<p><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a> (Principle) — Related principle reference for defensive decision study.</p><p><a href="/Principles/Escape-Fundamentals">Escape Fundamentals</a> (Principle) — Related principle reference for defensive decision study.</p><p><a href="/Principles/Frames">Frames</a> (Principle) — Related principle reference for defensive decision study.</p><p><a href="/Principles/Distance-Control">Distance Control</a> (Principle) — Related principle reference for defensive decision study.</p><p><a href="/Principles/Energy-Conservation">Energy Conservation</a> (Principle) — Related principle reference for defensive decision study.</p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a> (Principle) — Related principle reference for defensive decision study.</p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a> (Principle) — Related principle reference for defensive decision study.</p><p><a href="/Principles/Bridge-and-Shrimp">Bridge and Shrimp</a> (Principle) — Related principle reference for defensive decision study.</p><p><a href="/Principles/Hip-Escape-Mechanics">Hip Escape Mechanics</a> (Principle) — Related principle reference for defensive decision study.</p><p><a href="/Systems/Back-Defense-Protocol">Back Defense Protocol</a> (System) — Related system reference for defensive decision study.</p><p><a href="/Systems/Roger-Gracie-Fundamental-System">Roger Gracie Fundamental System</a> (System) — Related system reference for defensive decision study.</p><p><a href="/Systems/Danaher-Pin-Escape-Fundamentals-System">Danaher Pin Escape Fundamentals System</a> (System) — Move to this course guide once the study question is a mount, side-pin or other positional escape.</p>
+<section id="related-content" class="system-section">
 
+## Related guides and principles
+
+These related references are not a claim about what the course teaches or evidence of practical mastery.
+
+<p><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a></p><p><a href="/Principles/Escape-Fundamentals">Escape Fundamentals</a></p><p><a href="/Principles/Frames">Frames</a></p><p><a href="/Principles/Distance-Control">Distance Control</a></p><p><a href="/Principles/Energy-Conservation">Energy Conservation</a></p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a></p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a></p><p><a href="/Principles/Bridge-and-Shrimp">Bridge and Shrimp</a></p><p><a href="/Principles/Hip-Escape-Mechanics">Hip Escape Mechanics</a></p><p><a href="/Systems/Back-Defense-Protocol">Brian Glick: Dynamic Back Escapes</a></p><p><a href="/Systems/Roger-Gracie-Fundamental-System">Roger Gracie: Closed Guard</a></p><p><a href="/Systems/Danaher-Pin-Escape-Fundamentals-System">John Danaher: Pin Escapes and Turtle Escapes</a> — Move to this course guide once the study question is a mount, side-pin or other positional escape.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Mount|Mount]] (Position) — Related position reference for defensive decision study.
+- [[Positions/Mount|Mount]] (Position)
 
-- [[Positions/Back Control|Back Control]] (Position) — Related position reference for defensive decision study.
 
-- [[Positions/Knee on Belly|Knee on Belly]] (Position) — Related position reference for defensive decision study.
+- [[Positions/Back Control|Back Control]] (Position)
 
-- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition) — Related transition reference for defensive decision study.
 
-- [[Transitions/Frame and Shrimp to Guard|Frame and Shrimp to Guard]] (Transition) — Related transition reference for defensive decision study.
+- [[Positions/Knee on Belly|Knee on Belly]] (Position)
 
-- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) — Related transition reference for defensive decision study.
 
-- [[Transitions/Technical Stand-up|Technical Stand-up]] (Transition) — Related transition reference for defensive decision study.
+- [[Transitions/Elbow Escape to Guard|Elbow Escape to Guard]] (Transition)
 
-- [[Transitions/Shrimp Escape|Shrimp Escape]] (Transition) — Related transition reference for defensive decision study.
 
-- [[Positions/Turtle|Turtle]] (Position) — Related position reference for defensive decision study.
+- [[Transitions/Frame and Shrimp to Guard|Frame and Shrimp to Guard]] (Transition)
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Related position reference for defensive decision study.
 
-- [[Transitions/Armbar Defense|Armbar Defense]] (Transition) — Related transition reference for defensive decision study.
+- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition)
 
+
+- [[Transitions/Technical Stand-up|Technical Stand-up]] (Transition)
+
+
+- [[Transitions/Shrimp Escape|Shrimp Escape]] (Transition)
+
+
+- [[Positions/Turtle|Turtle]] (Position)
+
+
+- [[Positions/Half Guard|Half Guard]] (Position)
+
+
+- [[Transitions/Armbar Defense|Armbar Defense]] (Transition)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+
+
+<section class="system-source" data-source-container>
+<p><a href="https://ibjjf.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTRaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c53798f1b94f5ebc202702cb44e9428a7606a19b/2024JUN_IBJJF_Rules_EN.pdf" target="_blank" rel="noopener">IBJJF Rules Book — June 2024</a> — ruleset; checked 2026-09-16. Read the official PDF linked from IBJJF Books and Videos. Articles 2.1 and 3.3 support the submission-signal and scoring distinctions used here. Inspected: Printed pages 15 and 17: Articles 2.1–2.2 and 3.1–3.3</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher" data-source-url="https://bjjfanatics.com/products/pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher" data-affiliate="false" data-system-slug="systems/defensive-prioritization-framework" data-product-id="danaher-listing" target="_blank" rel="noopener">Pin Escapes &amp; Turtle Escapes: BJJ Fundamentals - Go Further Faster by John Danaher</a> — official listing; checked 2026-09-16. Verified the positional-study alternative includes separate mount, side-pin, rear-mount and turtle sections.</p>
+</section>
+
+</details>
 </section>
 </main>

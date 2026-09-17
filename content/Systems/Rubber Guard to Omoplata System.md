@@ -1,144 +1,157 @@
 
 ---
-title: "Eddie Bravo: Rubber Guard to Omoplata Study | BJJGraph"
-description: "A focused study entry for the named omoplata lesson in Eddie Bravo’s rubber-guard course."
+title: "Eddie Bravo: Rubber Guard to Omoplata | BJJGraph"
+description: "Eddie Bravo’s rubber-guard course includes an omoplata connection, full rubber guard, variations and bottom half guard."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Eddie Bravo: Rubber Guard to Omoplata Study","description":"A focused study entry for the named omoplata lesson in Eddie Bravo’s rubber-guard course."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Eddie Bravo: Rubber Guard to Omoplata","description":"Eddie Bravo’s rubber-guard course includes an omoplata connection, full rubber guard, variations and bottom half guard."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: The Ultimate Rubber Guard by Eddie Bravo.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Rubber Guard to Omoplata System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Eddie Bravo: Rubber Guard to Omoplata</h1>
+<div class="system-tags"><span>Submission Chain</span><span>Advanced</span></div>
 
-## Eddie Bravo: Rubber Guard to Omoplata Study
+<p class="system-reference-count">19 related references (techniques and positions)</p>
+</header>
 
-**The Ultimate Rubber Guard by Eddie Bravo explicitly includes an omoplata route within a broader rubber-guard curriculum.**
-
-
-The course opens with historical discussion before its named omoplata lesson. Later volumes broaden to rubber-guard development, full rubber guard and bottom half guard, so the omoplata section can be selected without treating the entire course as one submission chain.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Ultimate Rubber Guard</h2><span class="system-course__instructor">By Eddie Bravo</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+The Ultimate Rubber Guard combines technical material with Eddie Bravo’s account of how rubber guard developed. Its first volume includes a rubber-guard-to-omoplata chapter; later volumes cover the guard’s evolution, full rubber guard, variations and bottom half guard.
 
-- You want to locate the explicitly advertised rubber-guard-to-omoplata material.
-
-
-### Consider an alternative if
-
-- For a catalogue of omoplata entries and standing or rolling responses, compare Bernardo Faria Omoplata System; several entries there use gi grips.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Isolate the omoplata section from the broader curriculum
-
-Locate the named omoplata chapter in the free outline and distinguish it from the later guard-development volumes. Write down the particular entry question that brought you here. With course access, record the demonstrated starting and ending positions and note whether the lesson actually addresses that question.
-
-Published section: Volume 1: Rubber Guard to Omoplata (44:35–1:01:30).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a></p>
+The omoplata route is one part of a broader introduction to Bravo’s guard approach and terminology. That makes this course a closer fit for someone building a rubber-guard game than someone seeking a dedicated omoplata troubleshooting catalogue.
 
 </section>
 
 
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+## Is this for you?
 
-<article class="product-card">
-<h3>The Ultimate Rubber Guard</h3>
-<p>By Eddie Bravo</p>
+- You want the omoplata connection as part of Eddie Bravo’s broader rubber-guard approach.
 
-<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Bernardo-Faria-Omoplata-System">Bernardo Faria: Omoplata Everyone</a> — A dedicated omoplata course with separately listed standing, rolling and connected-hand responses; several entries use gi grips.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- A dedicated rubber-guard-to-omoplata chapter in Volume 1.
-- Further volumes cover rubber-guard development, full rubber guard, bottom half guard and variations.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- A dedicated rubber-guard-to-omoplata chapter, plus full rubber guard and variations.
+- Bottom half guard and discussion of rubber guard’s development and terminology.
+
 
 ### Limits
 
-- The public outline groups the omoplata route into one chapter, without separately labeled defensive branches.
+- The public outline groups the omoplata route into one broad chapter without separately indexing defensive branches.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume syllabus. It explicitly names a rubber-guard-to-omoplata lesson, broader rubber-guard development, bottom half guard and variations; it gives no triangle-specific chapter label.</p><p><a href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" target="_blank" rel="noopener">Omoplata Everyone by Bernardo Faria</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume outline, including fabric-grip entries, standing and rolling responses, and a positional scoring option.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/rubber-guard-to-omoplata-system" data-system-name="Rubber Guard to Omoplata System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Ultimate Rubber Guard</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Submission-Chains">Submission Chains</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Hip-Escape-Mechanics">Hip Escape Mechanics</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Posture">Posture</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a> (Principle) — Related concept for organizing study.</p><p><a href="/Systems/10th-Planet-Rubber-Guard-System">10th Planet Rubber Guard System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/Rubber-Guard-to-Triangle-System">Rubber Guard to Triangle System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall Triangle System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/Bernardo-Faria-Omoplata-System">Bernardo Faria Omoplata System</a> (System) — Compare its separately listed standing and rolling response lessons.</p>
-
+<p><a href="/Principles/Submission-Chains">Submission Chains</a></p><p><a href="/Principles/Hip-Escape-Mechanics">Hip Escape Mechanics</a></p><p><a href="/Principles/Posture">Posture</a></p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a></p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a></p><p><a href="/Systems/10th-Planet-Rubber-Guard-System">Eddie Bravo: Rubber Guard</a></p><p><a href="/Systems/Rubber-Guard-to-Triangle-System">Rubber Guard and Triangle Attacks</a></p><p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall: The Modern Triangle</a></p><p><a href="/Systems/Bernardo-Faria-Omoplata-System">Bernardo Faria: Omoplata Everyone</a> — Compare its separately listed standing and rolling response lessons.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Rubber Guard|Rubber Guard]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Rubber Guard|Rubber Guard]] (Position)
 
-- [[Positions/Rubber Guard/Mission Control|Mission Control]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Rubber Guard/New York|New York]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Rubber Guard/Mission Control|Mission Control]] (Position)
 
-- [[Positions/Omoplata Control|Omoplata Control]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Rubber Guard/New York|New York]] (Position)
 
-- [[Positions/Rubber Guard/Meathook|Meathook]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Rubber Guard/Invisible Collar|Invisible Collar]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Omoplata Control|Omoplata Control]] (Position)
 
-- [[Positions/Rubber Guard/Chill Dog|Chill Dog]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Triangle Control|Triangle Control]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Closed Guard|Closed Guard]] (Position)
 
-- [[Positions/Back Control|Back Control]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Transitions/Closed Guard to Omoplata|Closed Guard to Omoplata]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+- [[Positions/Rubber Guard/Meathook|Meathook]] (Position)
 
-- [[Transitions/Omoplata Sweep|Omoplata Sweep]] (Transition) — Related graph transition for separate study, not a verified course sequence.
 
-- [[Transitions/Omoplata to Back|Omoplata to Back]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+- [[Positions/Rubber Guard/Invisible Collar|Invisible Collar]] (Position)
 
-- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) — Related graph transition for separate study, not a verified course sequence.
 
-- [[Transitions/Switch to Triangle|Switch to Triangle]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+- [[Positions/Rubber Guard/Chill Dog|Chill Dog]] (Position)
 
-- [[Submissions/Omoplata|Omoplata]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Submissions/Armbar|Armbar]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Positions/Triangle Control|Triangle Control]] (Position)
 
-- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Submissions/Baratoplata|Baratoplata]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Positions/Back Control|Back Control]] (Position)
 
+
+- [[Transitions/Closed Guard to Omoplata|Closed Guard to Omoplata]] (Transition)
+
+
+- [[Transitions/Omoplata Sweep|Omoplata Sweep]] (Transition)
+
+
+- [[Transitions/Omoplata to Back|Omoplata to Back]] (Transition)
+
+
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition)
+
+
+- [[Transitions/Switch to Triangle|Switch to Triangle]] (Transition)
+
+
+- [[Submissions/Omoplata|Omoplata]] (Submission)
+
+
+- [[Submissions/Armbar|Armbar]] (Submission)
+
+
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission)
+
+
+- [[Submissions/Baratoplata|Baratoplata]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-source-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-affiliate="false" data-system-slug="systems/rubber-guard-to-omoplata-system" data-product-id="bravo-rubber" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume syllabus. It explicitly names a rubber-guard-to-omoplata lesson, broader rubber-guard development, bottom half guard and variations; it gives no triangle-specific chapter label.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-source-url="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-affiliate="false" data-system-slug="systems/rubber-guard-to-omoplata-system" data-product-id="faria-omoplata" target="_blank" rel="noopener">Omoplata Everyone by Bernardo Faria</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume outline, including fabric-grip entries, standing and rolling responses, and a positional scoring option.</p>
+</section>
+
+</details>
 </section>
 </main>

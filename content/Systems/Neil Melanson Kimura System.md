@@ -1,120 +1,121 @@
 
 ---
 title: "Neil Melanson: The Filthy Kimura | BJJGraph"
-description: "Compare the foundational, countering and positional sections of Neil Melanson’s kimura course."
+description: "Neil Melanson’s kimura course combines double-wrist-lock foundations with arm-lock variations, counters and positional sequences."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Neil Melanson: The Filthy Kimura","description":"Compare the foundational, countering and positional sections of Neil Melanson’s kimura course."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Neil Melanson: The Filthy Kimura","description":"Neil Melanson’s kimura course combines double-wrist-lock foundations with arm-lock variations, counters and positional sequences."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: The Filthy Kimura by Neil Melanson.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Neil Melanson Kimura System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Neil Melanson: The Filthy Kimura</h1>
+<div class="system-tags"><span>Submission Chain</span><span>Intermediate</span></div>
 
-## Neil Melanson: The Filthy Kimura
+<p class="system-reference-count">7 related references (techniques and positions)</p>
+</header>
 
-**Neil Melanson’s The Filthy Kimura combines double-wrist-lock variations, frame problems and guard-to-half-guard study.**
-
-
-Melanson’s outline uses several named arm-lock variations as well as chapters on countering the kimura itself. A useful way into the material is to distinguish the attacker’s problem with a frame from the defender’s problem with the lock.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson" data-course-url="https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson" data-product-id="the-filthy-kimura-by-neil-melanson" data-system-slug="systems/neil-melanson-kimura-system" data-system-name="Neil Melanson Kimura System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Filthy Kimura</h2><span class="system-course__instructor">By Neil Melanson</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+The Filthy Kimura starts with double-wrist-lock foundations and expands into straight-arm, power and ground-marshal variations. Neil Melanson also covers frame counters, preventing the kimura and connections to arm bars.
 
-- You want to investigate kimura frame problems and compare them with explicit countering material.
-
-
-### Consider an alternative if
-
-- For an extensive division into dorsal and T kimuras with positional switching, compare Kimura Trap System, based on John Danaher’s course.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Read the two countering problems separately
-
-In the free Volume 2 outline, distinguish the frame-countering lesson from the lesson on countering and preventing the kimura. Label which problem you want to investigate. If you own the course, record who is attacking at the start of each demonstration and whether that role changes.
-
-Published section: Volume 2: countering the frame (7:23–16:45).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson" target="_blank" rel="noopener">The Filthy Kimura by Neil Melanson</a></p>
+Guard and half-guard sequences sit alongside hammer locks, top wrist locks and arm cranks. The four-volume course suits grapplers interested in a wider family of arm attacks around the kimura, including countering material.
 
 </section>
 
 
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+## Is this for you?
 
-<article class="product-card">
-<h3>The Filthy Kimura</h3>
-<p>By Neil Melanson</p>
+- You want kimura variations, counters and related arm locks from guard and half guard.
 
-<p><a href="https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson" data-course-url="https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson" data-product-id="the-filthy-kimura-by-neil-melanson" data-system-slug="systems/neil-melanson-kimura-system" data-system-name="Neil Melanson Kimura System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Kimura-Trap-System">John Danaher: Kimura — Enter The System</a> — John Danaher’s eight-volume course expands dorsal and T kimuras into positional switches and back takes.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Double-wrist-lock foundations and named arm-lock variations, followed by frame and kimura counters.
-- Later volumes include a guard sequence, movement study and a half-guard series.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Double-wrist-lock foundations, named kimura variations, frame counters and kimura defense.
+- Guard and half-guard sequences, grip breaks, arm-bar connections and related arm locks.
+
 
 ### Limits
 
-- The syllabus also includes upward arm cranks and top-wrist-lock material; it is broader than a single bent-arm kimura finish.
+- The course includes arm cranks, hammer locks and top wrist locks; it is broader than a basic bent-arm kimura finish.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson" target="_blank" rel="noopener">The Filthy Kimura by Neil Melanson</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume syllabus, including double-wrist-lock foundations, frame counters, guard sequences and half-guard material.</p><p><a href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" target="_blank" rel="noopener">Kimura: Enter The System by John Danaher</a> — official listing; checked 2026-09-16. Verified title, instructor and eight-volume outline, including dorsal and T kimuras, alternative submissions, positional switches and applications from top, bottom and standing.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson" data-course-url="https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson" data-product-id="the-filthy-kimura-by-neil-melanson" data-system-slug="systems/neil-melanson-kimura-system" data-system-name="Neil Melanson Kimura System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Filthy Kimura</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Grips">Grips</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Frames">Frames</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Connection-Principles">Connection Principles</a> (Principle) — Related concept for organizing study.</p><p><a href="/Systems/Kimura-Trap-System">Kimura Trap System</a> (System) — Compare the dorsal/T-kimura organization and explicit positional switches.</p>
-
+<p><a href="/Principles/Grips">Grips</a></p><p><a href="/Principles/Frames">Frames</a></p><p><a href="/Principles/Connection-Principles">Connection Principles</a></p><p><a href="/Systems/Kimura-Trap-System">John Danaher: Kimura — Enter The System</a> — Compare the dorsal/T-kimura organization and explicit positional switches.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Submissions/Kimura|Kimura]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Submissions/Kimura|Kimura]] (Submission)
 
-- [[Positions/Kimura Trap|Kimura Trap]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Kimura Trap|Kimura Trap]] (Position)
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Side Control|Side Control]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Half Guard|Half Guard]] (Position)
 
-- [[Submissions/Armbar|Armbar]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Submissions/Americana|Americana]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Positions/Closed Guard|Closed Guard]] (Position)
 
+
+- [[Positions/Side Control|Side Control]] (Position)
+
+
+- [[Submissions/Armbar|Armbar]] (Submission)
+
+
+- [[Submissions/Americana|Americana]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson" data-source-url="https://bjjfanatics.com/products/the-filthy-kimura-by-neil-melanson" data-affiliate="false" data-system-slug="systems/neil-melanson-kimura-system" data-product-id="melanson-kimura" target="_blank" rel="noopener">The Filthy Kimura by Neil Melanson</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume syllabus, including double-wrist-lock foundations, frame counters, guard sequences and half-guard material.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-source-url="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-affiliate="false" data-system-slug="systems/neil-melanson-kimura-system" data-product-id="danaher-kimura" target="_blank" rel="noopener">Kimura: Enter The System by John Danaher</a> — official listing; checked 2026-09-16. Verified title, instructor and eight-volume outline, including dorsal and T kimuras, alternative submissions, positional switches and applications from top, bottom and standing.</p>
+</section>
+
+</details>
 </section>
 </main>

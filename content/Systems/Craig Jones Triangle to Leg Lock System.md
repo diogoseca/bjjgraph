@@ -1,131 +1,137 @@
 
 ---
 title: "Craig Jones: Triangle-to-Leg Transitions | BJJGraph"
-description: "A focused companion to the triangle-to-leg sections of Craig Jones’s triangle and leg-lock course."
+description: "Craig Jones’s triangle and leg-lock combinations course covers upper-to-lower-body transitions from guard and top positions."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Craig Jones: Triangle-to-Leg Transitions","description":"A focused companion to the triangle-to-leg sections of Craig Jones’s triangle and leg-lock course."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Craig Jones: Triangle-to-Leg Transitions","description":"Craig Jones’s triangle and leg-lock combinations course covers upper-to-lower-body transitions from guard and top positions."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Craig Jones Triangle to Leg Lock System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Craig Jones: Triangle-to-Leg Transitions</h1>
+<div class="system-tags"><span>Submission Chain</span><span>Advanced</span></div>
 
-## Craig Jones: Triangle-to-Leg Transitions
+<p class="system-reference-count">8 related references (techniques and positions)</p>
+</header>
 
-**Craig Jones’s Systematic Submission Dilemmas connects triangle study with named routes to leg entanglements and match commentary.**
-
-
-This guide focuses on the change from an upper-body attack to a lower-body position. The published outline names several destinations, so a useful first choice is which transition to investigate rather than treating every defended triangle as the same problem.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-course-url="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/craig-jones-triangle-to-leg-lock-system" data-system-name="Craig Jones Triangle to Leg Lock System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos</h2><span class="system-course__instructor">By Craig Jones</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos connects attacks on the upper and lower body. Craig Jones covers triangle finishing problems and entries before routes to backside 50/50, cross ashi, X-guard and standard ashi.
 
-- You want to compare the leg-entanglement destinations listed after triangle attacks.
-
-
-### Consider an alternative if
-
-- For triangle defense, arm attacks and scoring without a leg-transition focus, compare Ryan Hall Triangle System.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Compare two destinations from the same triangle
-
-In Volume 6’s free outline, locate the routes from Omote Sankaku to backside 50/50 and standard ashi. List the different destinations without inventing the movement between them. If you own the course, watch those two lessons and note the demonstrated starting conditions before comparing them with the match commentary.
-
-Published section: Volume 6: Chapter 2 — Transitioning to the Legs — Omote Sankaku to Back Side 50/50 (07:33–17:50).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="noopener">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones</a></p>
+The eight-volume course also includes straight ankle locks, kneebars and match commentary. Its distinctive focus is the connection between triangle positions and leg attacks, making it relevant to grapplers who want both parts of that game in one instructional.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/3fa50026-0870-4d73-b071-e9d08800f326?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Craig Jones / Systematic Submission Dilemmas">
-<h2>Official sample — Craig Jones / Systematic Submission Dilemmas</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="noopener">Watch on the official page: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Craig Jones Triangle to Leg Lock System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/3fa50026-0870-4d73-b071-e9d08800f326?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Craig Jones / Systematic Submission Dilemmas">
+<h2>Official sample</h2>
+<p>Official sample — Craig Jones / Systematic Submission Dilemmas</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-course-url="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/craig-jones-triangle-to-leg-lock-system" data-system-name="Craig Jones Triangle to Leg Lock System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos</h3>
-<p>By Craig Jones</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-course-url="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/craig-jones-triangle-to-leg-lock-system" data-system-name="Craig Jones Triangle to Leg Lock System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You want to connect a triangle game with leg attacks, including entries from top and bottom positions.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall: The Modern Triangle</a> — A triangle-centered course with defensive problems, arm attacks and scoring options.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Volumes 6–7 connect triangle configurations with backside 50/50, cross ashi, X-guard and standard ashi.
-- Earlier sections cover triangle entries and finishing problems; Volume 8 supplies match commentary.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Front, rear, reverse and side triangle material, with entries from guard and top positions.
+- Triangle-to-leg transitions through 50/50, ashi and X-guard, plus straight locks and match commentary.
+
 
 ### Limits
 
-- The course spans triangle and leg attacks; this guide selects its transition material rather than treating it as a general guard curriculum.
+- The course gives substantial space to leg attacks and transitions; it is broader than a triangle-finishing course.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="noopener">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones</a> — official listing; checked 2026-09-16. Verified course identity and the consistent published sections on straight locks, triangles, upper-to-lower-body transitions and match commentary. These are advertised topics, not inspected technical demonstrations.</p><p><a href="https://ryanhallonline.com/p/modern-triangle" target="_blank" rel="noopener">The Modern Triangle by Ryan Hall</a> — official listing; checked 2026-09-16. Verified the published curriculum: triangle process, finishing, defensive components, arm attacks and scoring options. Lesson names and durations are listed; paid lesson content was not inspected.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-course-url="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/craig-jones-triangle-to-leg-lock-system" data-system-name="Craig Jones Triangle to Leg Lock System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Action-and-Reaction">Action and Reaction</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Submission-Chains">Submission Chains</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Leg-Entanglement">Leg Entanglement</a> (Principle) — Related concept for organizing study.</p><p><a href="/Systems/Craig-Jones-Leg-Lock-System">Craig Jones Leg Lock System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall Triangle System</a> (System) — An alternative focus on triangle defense, arm attacks and scoring.</p>
-
+<p><a href="/Principles/Action-and-Reaction">Action and Reaction</a></p><p><a href="/Principles/Submission-Chains">Submission Chains</a></p><p><a href="/Principles/Leg-Entanglement">Leg Entanglement</a></p><p><a href="/Systems/Craig-Jones-Leg-Lock-System">Craig Jones: Down Under Leg Attacks</a></p><p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall: The Modern Triangle</a> — An alternative focus on triangle defense, arm attacks and scoring.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Triangle Control|Triangle Control]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Triangle Control|Triangle Control]] (Position)
 
-- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Positions/Ashi Garami|Ashi Garami]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission)
 
-- [[Positions/X-Guard|X-Guard]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Ashi Garami|Ashi Garami]] (Position)
 
-- [[Positions/Open Guard|Open Guard]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Positions/X-Guard|X-Guard]] (Position)
 
-- [[Transitions/Kneebar|Kneebar]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
+- [[Positions/Closed Guard|Closed Guard]] (Position)
+
+
+- [[Positions/Open Guard|Open Guard]] (Position)
+
+
+- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission)
+
+
+- [[Transitions/Kneebar|Kneebar]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-source-url="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-affiliate="false" data-system-slug="systems/craig-jones-triangle-to-leg-lock-system" data-product-id="craig-dilemmas" target="_blank" rel="noopener">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones</a> — official listing; checked 2026-09-16. Verified course identity and the consistent published sections on straight locks, triangles, upper-to-lower-body transitions and match commentary. These are advertised topics, not inspected technical demonstrations.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://ryanhallonline.com/p/modern-triangle" target="_blank" rel="noopener">The Modern Triangle by Ryan Hall</a> — official listing; checked 2026-09-16. Verified the published curriculum: triangle process, finishing, defensive components, arm attacks and scoring options. Lesson names and durations are listed; paid lesson content was not inspected.</p>
+</section>
+
+</details>
 </section>
 </main>

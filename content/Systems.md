@@ -29,19 +29,19 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 1,
-      "name": "Eddie Bravo: Bottom Half Study",
+      "name": "Eddie Bravo: Bottom Half in The Ultimate Rubber Guard",
       "url": "https://bjjgraph.org/Systems/10th-planet-half-guard-bottom-system"
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Eddie Bravo: Choosing a Guard Study Route",
+      "name": "Eddie Bravo: The Ultimate Rubber Guard",
       "url": "https://bjjgraph.org/Systems/10th-planet-no-gi-guard-system"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Eddie Bravo: Rubber Guard Study",
+      "name": "Eddie Bravo: Rubber Guard",
       "url": "https://bjjgraph.org/Systems/10th-planet-rubber-guard-system"
     },
     {
@@ -59,7 +59,7 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 6,
-      "name": "Half Guard: Recovery Before Attack",
+      "name": "Half Guard: Recovering Closed Guard",
       "url": "https://bjjgraph.org/Systems/andrew-wiltse-half-guard-system"
     },
     {
@@ -71,25 +71,25 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 8,
-      "name": "Craig Jones: Triangle and Leg-Lock Dilemmas",
+      "name": "Craig Jones: Triangle and Leg-Lock Combinations",
       "url": "https://bjjgraph.org/Systems/b-team-dilemma-system"
     },
     {
       "@type": "ListItem",
       "position": 9,
-      "name": "John Danaher: Back Entries and Attacks",
+      "name": "John Danaher: Back Attacks",
       "url": "https://bjjgraph.org/Systems/back-attack-system"
     },
     {
       "@type": "ListItem",
       "position": 10,
-      "name": "Back Defense: Brian Glick's Rear-Mount Study Guide",
+      "name": "Brian Glick: Dynamic Back Escapes",
       "url": "https://bjjgraph.org/Systems/back-defense-protocol"
     },
     {
       "@type": "ListItem",
       "position": 11,
-      "name": "Berimbolo: Choosing a Foundation",
+      "name": "Berimbolo: Foundations with Mikey Musumeci",
       "url": "https://bjjgraph.org/Systems/berimbolo"
     },
     {
@@ -101,13 +101,13 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 13,
-      "name": "Bernardo Faria: No-Gi Over/Under Passing",
+      "name": "Bernardo Faria: No-Gi Pressure Passing",
       "url": "https://bjjgraph.org/Systems/bernardo-faria-pressure-system"
     },
     {
       "@type": "ListItem",
       "position": 14,
-      "name": "Blue to Purple: Build a Study Inventory",
+      "name": "Blue to Purple: Development and Promotion",
       "url": "https://bjjgraph.org/Systems/blue-to-purple-progression"
     },
     {
@@ -119,37 +119,37 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 16,
-      "name": "Neiman Gracie: Clinch and Cage Takedowns",
+      "name": "Neiman Gracie: Jiu-Jitsu for MMA",
       "url": "https://bjjgraph.org/Systems/cage-clinch-to-ground-system"
     },
     {
       "@type": "ListItem",
       "position": 17,
-      "name": "Caio Terra: Guard-Recovery Lesson Map",
+      "name": "Caio Terra: Guard Recovery",
       "url": "https://bjjgraph.org/Systems/caio-terra-guard-retention-system"
     },
     {
       "@type": "ListItem",
       "position": 18,
-      "name": "Competition Preparation: Planning Tournament Day",
+      "name": "Competition Preparation with Matt D\u2019Aquino",
       "url": "https://bjjgraph.org/Systems/competition-preparation-system"
     },
     {
       "@type": "ListItem",
       "position": 19,
-      "name": "IBJJF Scoring: Read the Whole Exchange",
+      "name": "IBJJF Points, Control and Tiebreakers",
       "url": "https://bjjgraph.org/Systems/competition-scoring-strategy"
     },
     {
       "@type": "ListItem",
       "position": 20,
-      "name": "Competition Strategy: Map Your Intended Game",
+      "name": "Competition Game Plans",
       "url": "https://bjjgraph.org/Systems/competition-strategy"
     },
     {
       "@type": "ListItem",
       "position": 21,
-      "name": "Craig Jones: Kneebar Study",
+      "name": "Craig Jones: Kneebars",
       "url": "https://bjjgraph.org/Systems/craig-jones-kneebar-system"
     },
     {
@@ -179,13 +179,13 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 26,
-      "name": "John Danaher: Armbar Control and Entries",
+      "name": "John Danaher: Arm Bars",
       "url": "https://bjjgraph.org/Systems/danaher-armbar-system"
     },
     {
       "@type": "ListItem",
       "position": 27,
-      "name": "John Danaher: Front Headlock Decisions",
+      "name": "John Danaher: Front Headlock Attacks",
       "url": "https://bjjgraph.org/Systems/danaher-front-headlock-system"
     },
     {
@@ -209,7 +209,7 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 31,
-      "name": "John Danaher: Straightjacket Back-Attack Study",
+      "name": "John Danaher: Straightjacket Back Attacks",
       "url": "https://bjjgraph.org/Systems/danaher-straight-jacket-system"
     },
     {
@@ -233,13 +233,13 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 35,
-      "name": "Defensive Priorities: Threat, Control and Score",
+      "name": "Defensive Priorities Under IBJJF Rules",
       "url": "https://bjjgraph.org/Systems/defensive-prioritization-framework"
     },
     {
       "@type": "ListItem",
       "position": 36,
-      "name": "Guard Changes: A Study Map",
+      "name": "Understanding Guard Changes",
       "url": "https://bjjgraph.org/Systems/dynamic-guard-system"
     },
     {
@@ -251,7 +251,7 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 38,
-      "name": "Edwin Najmi: Darce, Triangle and Estima Lock",
+      "name": "Edwin Najmi: Darces, Triangles and Estima Locks",
       "url": "https://bjjgraph.org/Systems/edwin-najmi-submission-attack-system"
     },
     {
@@ -263,19 +263,19 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 40,
-      "name": "Garry Tonon: Wrestling into Submission Attacks",
+      "name": "Garry Tonon: Wrestling, Scrambles and Submissions",
       "url": "https://bjjgraph.org/Systems/garry-tonon-leg-lock-to-back-system"
     },
     {
       "@type": "ListItem",
       "position": 41,
-      "name": "Gi Strategy: Roger Gracie\u2019s Closed Guard",
+      "name": "Roger Gracie\u2019s Closed Guard",
       "url": "https://bjjgraph.org/Systems/gi-specific-strategy"
     },
     {
       "@type": "ListItem",
       "position": 42,
-      "name": "Giancarlo Bodoni: Turtle, Rides and Rear Mount",
+      "name": "Giancarlo Bodoni: Turtle Breakdowns and Back Attacks",
       "url": "https://bjjgraph.org/Systems/giancarlo-bodoni-turtle-to-back-system"
     },
     {
@@ -287,7 +287,7 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 44,
-      "name": "Gordon Ryan: Choosing a Guard-Passing Route",
+      "name": "Gordon Ryan: No-Gi Guard Passing",
       "url": "https://bjjgraph.org/Systems/gordon-ryan-passing-system"
     },
     {
@@ -299,7 +299,7 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 46,
-      "name": "IBJJF Strategy: Check Your Event and Division",
+      "name": "IBJJF Competition Requirements",
       "url": "https://bjjgraph.org/Systems/ibjjf-strategy-guide"
     },
     {
@@ -317,7 +317,7 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 49,
-      "name": "Jimmy Sheptock: Single-Leg Wrestling Study",
+      "name": "Jimmy Sheptock: Single-Leg Takedowns",
       "url": "https://bjjgraph.org/Systems/jimmy-sheptock-single-leg-system"
     },
     {
@@ -329,25 +329,25 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 51,
-      "name": "Lapel Guard: Study the Entry Obstacles",
+      "name": "Lapel Guard: What Stops the Entry",
       "url": "https://bjjgraph.org/Systems/keenan-cornelius-lapel-guard-system"
     },
     {
       "@type": "ListItem",
       "position": 52,
-      "name": "Kenta Iwamoto: Foot Sweeps and Clinch Trips",
+      "name": "Kenta Iwamoto: Foot Sweeps and Leg Trips",
       "url": "https://bjjgraph.org/Systems/kenta-iwamoto-foot-sweep-system"
     },
     {
       "@type": "ListItem",
       "position": 53,
-      "name": "John Danaher: Kimura Control and Transitions",
+      "name": "John Danaher: Kimura \u2014 Enter The System",
       "url": "https://bjjgraph.org/Systems/kimura-trap-system"
     },
     {
       "@type": "ListItem",
       "position": 54,
-      "name": "Lachlan Giles: Studying the Body Lock Pass",
+      "name": "Lachlan Giles: Body-Lock Passing",
       "url": "https://bjjgraph.org/Systems/lachlan-giles-body-lock-passing-system"
     },
     {
@@ -359,7 +359,7 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 56,
-      "name": "Lachlan Giles: Defense Within the 50/50 Anthology",
+      "name": "Lachlan Giles: 50/50 Leg Locks and Defense",
       "url": "https://bjjgraph.org/Systems/lachlan-giles-leg-lock-defense-framework"
     },
     {
@@ -371,25 +371,25 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 58,
-      "name": "Tom DeBlass: Lockdown and Electric Chair Study",
+      "name": "Tom DeBlass: The Lockdown Blueprint",
       "url": "https://bjjgraph.org/Systems/lockdown-to-electric-chair-system"
     },
     {
       "@type": "ListItem",
       "position": 59,
-      "name": "Lucas Lepri: Gi Half-Guard Passing Problems",
+      "name": "Lucas Lepri: Gi Half-Guard Passing",
       "url": "https://bjjgraph.org/Systems/lucas-lepri-half-guard-passing-system"
     },
     {
       "@type": "ListItem",
       "position": 60,
-      "name": "Lucas Lepri: Knee-Cut Entries and Obstacles",
+      "name": "Lucas Lepri: Knee-Cut Passing",
       "url": "https://bjjgraph.org/Systems/lucas-lepri-knee-cut-system"
     },
     {
       "@type": "ListItem",
       "position": 61,
-      "name": "MMA Crossover: Recheck Grappling Assumptions",
+      "name": "Grappling Under MMA Rules",
       "url": "https://bjjgraph.org/Systems/mma-crossover-strategy"
     },
     {
@@ -407,7 +407,7 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 64,
-      "name": "Marcelo Garcia: North-South Choke Study",
+      "name": "Marcelo Garcia: The North-South Choke",
       "url": "https://bjjgraph.org/Systems/marcelo-garcia-north-south-choke-system"
     },
     {
@@ -419,19 +419,19 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 66,
-      "name": "Competition Mindset: Champions Stay Present",
+      "name": "Champions Stay Present: Competition Mindset",
       "url": "https://bjjgraph.org/Systems/mental-game-framework"
     },
     {
       "@type": "ListItem",
       "position": 67,
-      "name": "Mikey Musumeci: Berimbolo Branches",
+      "name": "Mikey Musumeci: Berimbolo Variations",
       "url": "https://bjjgraph.org/Systems/mikey-musumeci-berimbolo-system"
     },
     {
       "@type": "ListItem",
       "position": 68,
-      "name": "Choosing a No-Gi Passing Study",
+      "name": "No-Gi Guard-Passing Courses",
       "url": "https://bjjgraph.org/Systems/modern-no-gi-passing-system"
     },
     {
@@ -443,13 +443,13 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 70,
-      "name": "No-Gi Competition: Compare the Rules First",
+      "name": "No-Gi Competition: IBJJF and ADCC",
       "url": "https://bjjgraph.org/Systems/no-gi-competition-approach"
     },
     {
       "@type": "ListItem",
       "position": 71,
-      "name": "No-Gi Top Control: Studying Power Ride",
+      "name": "Power Ride: Craig Jones\u2019s Pinning System",
       "url": "https://bjjgraph.org/Systems/no-gi-tactical-framework"
     },
     {
@@ -461,19 +461,19 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 73,
-      "name": "Roger Gracie: Closed-Guard Offense",
+      "name": "Roger Gracie: Closed Guard",
       "url": "https://bjjgraph.org/Systems/roger-gracie-fundamental-system"
     },
     {
       "@type": "ListItem",
       "position": 74,
-      "name": "Eddie Bravo: Rubber Guard to Omoplata Study",
+      "name": "Eddie Bravo: Rubber Guard to Omoplata",
       "url": "https://bjjgraph.org/Systems/rubber-guard-to-omoplata-system"
     },
     {
       "@type": "ListItem",
       "position": 75,
-      "name": "Rubber Guard and Triangle Study Choices",
+      "name": "Rubber Guard and Triangle Attacks",
       "url": "https://bjjgraph.org/Systems/rubber-guard-to-triangle-system"
     },
     {
@@ -485,43 +485,43 @@ description: "Compare BJJ course topics, find a useful starting chapter, and exp
     {
       "@type": "ListItem",
       "position": 77,
-      "name": "Self-Defense: Examine Sport Grappling\u2019s Assumptions",
+      "name": "Sport Grappling and Self-Defense",
       "url": "https://bjjgraph.org/Systems/self-defense-application-framework"
     },
     {
       "@type": "ListItem",
       "position": 78,
-      "name": "Standing Defense: Alex Enriquez's Takedown Study Guide",
+      "name": "Alex Enriquez: Wrestling Takedown Defense",
       "url": "https://bjjgraph.org/Systems/standing-defense-strategy"
     },
     {
       "@type": "ListItem",
       "position": 79,
-      "name": "Straight Ankle Lock and Kneebar Study",
+      "name": "Straight Ankle Locks and Kneebars",
       "url": "https://bjjgraph.org/Systems/straight-footlock-to-kneebar-chain"
     },
     {
       "@type": "ListItem",
       "position": 80,
-      "name": "John Danaher: Kimura Branches",
+      "name": "John Danaher: Kimura Control and Attacks",
       "url": "https://bjjgraph.org/Systems/submission-clinic-system"
     },
     {
       "@type": "ListItem",
       "position": 81,
-      "name": "Planning a BJJ Lesson",
+      "name": "Teaching BJJ: Explanation, Recall and Application",
       "url": "https://bjjgraph.org/Systems/teaching-methodology-framework"
     },
     {
       "@type": "ListItem",
       "position": 82,
-      "name": "Twister and Truck: Choosing an Entry Study",
+      "name": "Twister and Truck Entries",
       "url": "https://bjjgraph.org/Systems/twister-system"
     },
     {
       "@type": "ListItem",
       "position": 83,
-      "name": "Vagner Rocha: Float-Passing Exits",
+      "name": "Vagner Rocha: Float, Knee-Cut and Standing Passing",
       "url": "https://bjjgraph.org/Systems/vagner-rocha-float-passing-system"
     }
   ]
@@ -556,108 +556,108 @@ Compare BJJ course topics, find a useful starting chapter, and explore related t
 ## Attack System
 
 - <span id="aaron-benzrihem-ankle-pick-system"></span>**[[Systems/Aaron Benzrihem Ankle Pick System|Aaron Benzrihem: Ankle Picks]]** — Aaron Benzrihem’s ankle-pick course covers standing setups, seated guard, three-point stance and same-side or cross-body finishing topics.
-- <span id="b-team-dilemma-system"></span>**[[Systems/B-Team Dilemma System|Craig Jones: Triangle and Leg-Lock Dilemmas]]** — Craig Jones’s Systematic Submission Dilemmas covers triangle entries, triangle finishing problems, leg-lock transitions and rolling commentary.
-- <span id="back-attack-system"></span>**[[Systems/Back Attack System|John Danaher: Back Entries and Attacks]]** — John Danaher’s Back Attacks Enter The System covers rear-control topics, strangles, auxiliary attacks and back-entry methods.
-- <span id="berimbolo"></span>**[[Systems/Berimbolo|Berimbolo: Choosing a Foundation]]** — An orientation to Mikey Musumeci’s The Berimbolo System Part 1: The Foundation, including double pull, inversion and routes toward the back.
-- <span id="cage-clinch-to-ground-system"></span>**[[Systems/Cage Clinch to Ground System|Neiman Gracie: Clinch and Cage Takedowns]]** — Neiman Gracie’s Modern Jiu-Jitsu For MMA includes clinch entries, open-floor and cage takedowns, guard passing and ground offense.
-- <span id="craig-jones-kneebar-system"></span>**[[Systems/Craig Jones Kneebar System|Craig Jones: Kneebar Study]]** — Craig Jones’s You Can't Knee bahh covers kneebar categories, half-guard entries, 50/50, rolling entries and ride-based attacks.
+- <span id="b-team-dilemma-system"></span>**[[Systems/B-Team Dilemma System|Craig Jones: Triangle and Leg-Lock Combinations]]** — Craig Jones’s Systematic Submission Dilemmas covers triangle entries, triangle finishing problems, leg-lock transitions and rolling commentary.
+- <span id="back-attack-system"></span>**[[Systems/Back Attack System|John Danaher: Back Attacks]]** — John Danaher’s Back Attacks Enter The System covers rear-control topics, strangles, auxiliary attacks and back-entry methods.
+- <span id="berimbolo"></span>**[[Systems/Berimbolo|Berimbolo: Foundations with Mikey Musumeci]]** — Mikey Musumeci’s The Berimbolo System Part 1: The Foundation covers double pull, De La Riva grips, inversion and berimbolo variations.
+- <span id="cage-clinch-to-ground-system"></span>**[[Systems/Cage Clinch to Ground System|Neiman Gracie: Jiu-Jitsu for MMA]]** — Neiman Gracie’s Modern Jiu-Jitsu For MMA includes clinch entries, open-floor and cage takedowns, guard passing and ground offense.
+- <span id="craig-jones-kneebar-system"></span>**[[Systems/Craig Jones Kneebar System|Craig Jones: Kneebars]]** — Craig Jones’s You Can't Knee bahh covers kneebar categories, half-guard entries, 50/50, rolling entries and ride-based attacks.
 - <span id="craig-jones-leg-lock-system"></span>**[[Systems/Craig Jones Leg Lock System|Craig Jones: Down Under Leg Attacks]]** — Craig Jones’s Down Under Leg Attacks covers single-leg X, saddle, 50/50, escape-response topics and back-taking branches.
-- <span id="danaher-armbar-system"></span>**[[Systems/Danaher Armbar System|John Danaher: Armbar Control and Entries]]** — John Danaher’s Arm Bars: Enter The System covers armbar control, hand separation and entries from guard, top pins and back-attacking situations.
-- <span id="danaher-straight-jacket-system"></span>**[[Systems/Danaher Straight Jacket System|John Danaher: Straightjacket Back-Attack Study]]** — A focused companion to John Danaher’s Back Attacks Enter The System covering straightjacket limitations, alignment, grip categories and hand fighting.
-- <span id="edwin-najmi-submission-attack-system"></span>**[[Systems/Edwin Najmi Submission Attack System|Edwin Najmi: Darce, Triangle and Estima Lock]]** — Edwin Najmi’s Mission Submission organizes darce setups, triangle entries and Estima-lock attacks into three study tracks.
-- <span id="garry-tonon-leg-lock-to-back-system"></span>**[[Systems/Garry Tonon Leg Lock to Back System|Garry Tonon: Wrestling into Submission Attacks]]** — Garry Tonon’s Shoot To Kill: Wrestle, Scramble, Submit covers wrestling setups, back access, ashi entries, front headlocks and scrambles.
-- <span id="giancarlo-bodoni-turtle-to-back-system"></span>**[[Systems/Giancarlo Bodoni Turtle to Back System|Giancarlo Bodoni: Turtle, Rides and Rear Mount]]** — Giancarlo Bodoni’s Chest To Back - Behind The Elbows covers turtle breakdowns, hook insertion, four-point positions and rear-mount offense.
-- <span id="jimmy-sheptock-single-leg-system"></span>**[[Systems/Jimmy Sheptock Single Leg System|Jimmy Sheptock: Single-Leg Wrestling Study]]** — Jimmy Sheptock’s The Single Leg Takedown is a wrestling course covering tie clearing, head-inside finishes, whizzer problems and low finishes.
-- <span id="kenta-iwamoto-foot-sweep-system"></span>**[[Systems/Kenta Iwamoto Foot Sweep System|Kenta Iwamoto: Foot Sweeps and Clinch Trips]]** — Kenta Iwamoto’s Samurai Foot Sweeps & Leg Trips covers kouchi and kosoto situations, grip fighting, over-under throws and shot-defense topics.
-- <span id="lockdown-to-electric-chair-system"></span>**[[Systems/Lockdown to Electric Chair System|Tom DeBlass: Lockdown and Electric Chair Study]]** — Tom DeBlass’s The Lockdown Blueprint covers lockdown entries, electric-chair and reversal topics, leg attacks and top-side escapes.
-- <span id="marcelo-garcia-north-south-choke-system"></span>**[[Systems/Marcelo Garcia North South Choke System|Marcelo Garcia: North-South Choke Study]]** — Marcelo Garcia’s The Complete North South Choke covers alignment, grip concepts, blocking-arm problems and entries from several top positions.
-- <span id="mikey-musumeci-berimbolo-system"></span>**[[Systems/Mikey Musumeci Berimbolo System|Mikey Musumeci: Berimbolo Branches]]** — A branch-focused companion to Mikey Musumeci’s Berimbolo foundation release, covering stacking, pulling, twister-hook and top-bolo topics.
-- <span id="roger-gracie-fundamental-system"></span>**[[Systems/Roger Gracie Fundamental System|Roger Gracie: Closed-Guard Offense]]** — The Roger Gracie Closed Guard System covers closed-guard maintenance, collar and lapel attacks, arm locks, sweeps and back-attacking material.
-- <span id="submission-clinic-system"></span>**[[Systems/Submission Clinic System|John Danaher: Kimura Branches]]** — John Danaher’s Kimura: Enter The System covers dorsal and T-kimura topics, alternative submissions and positional changes from guard and takedown situations.
+- <span id="danaher-armbar-system"></span>**[[Systems/Danaher Armbar System|John Danaher: Arm Bars]]** — John Danaher’s Arm Bars: Enter The System covers armbar control, hand separation and entries from guard, top pins and back-attacking situations.
+- <span id="danaher-straight-jacket-system"></span>**[[Systems/Danaher Straight Jacket System|John Danaher: Straightjacket Back Attacks]]** — John Danaher’s Back Attacks Enter The System includes straightjacket control, grip configurations, hand fighting and strangles from both sides.
+- <span id="edwin-najmi-submission-attack-system"></span>**[[Systems/Edwin Najmi Submission Attack System|Edwin Najmi: Darces, Triangles and Estima Locks]]** — Edwin Najmi’s Mission Submission covers darce setups, triangle entries and Estima-lock attacks from guard, top positions and takedown defense.
+- <span id="garry-tonon-leg-lock-to-back-system"></span>**[[Systems/Garry Tonon Leg Lock to Back System|Garry Tonon: Wrestling, Scrambles and Submissions]]** — Garry Tonon’s Shoot To Kill: Wrestle, Scramble, Submit covers wrestling setups, back access, ashi entries, front headlocks and scrambles.
+- <span id="giancarlo-bodoni-turtle-to-back-system"></span>**[[Systems/Giancarlo Bodoni Turtle to Back System|Giancarlo Bodoni: Turtle Breakdowns and Back Attacks]]** — Giancarlo Bodoni’s Chest To Back - Behind The Elbows covers turtle breakdowns, hook insertion, four-point positions and rear-mount offense.
+- <span id="jimmy-sheptock-single-leg-system"></span>**[[Systems/Jimmy Sheptock Single Leg System|Jimmy Sheptock: Single-Leg Takedowns]]** — Jimmy Sheptock’s The Single Leg Takedown is a wrestling course covering tie clearing, head-inside finishes, whizzer problems and low finishes.
+- <span id="kenta-iwamoto-foot-sweep-system"></span>**[[Systems/Kenta Iwamoto Foot Sweep System|Kenta Iwamoto: Foot Sweeps and Leg Trips]]** — Kenta Iwamoto’s Samurai Foot Sweeps & Leg Trips covers kouchi and kosoto situations, grip fighting, over-under throws and shot-defense topics.
+- <span id="lockdown-to-electric-chair-system"></span>**[[Systems/Lockdown to Electric Chair System|Tom DeBlass: The Lockdown Blueprint]]** — Tom DeBlass’s The Lockdown Blueprint covers lockdown entries, electric-chair and reversal topics, leg attacks and top-side escapes.
+- <span id="marcelo-garcia-north-south-choke-system"></span>**[[Systems/Marcelo Garcia North South Choke System|Marcelo Garcia: The North-South Choke]]** — Marcelo Garcia’s The Complete North South Choke covers alignment, grip concepts, blocking-arm problems and entries from several top positions.
+- <span id="mikey-musumeci-berimbolo-system"></span>**[[Systems/Mikey Musumeci Berimbolo System|Mikey Musumeci: Berimbolo Variations]]** — Mikey Musumeci’s Berimbolo foundation course develops stacking, pulling, twister-hook, uninverting and top-bolo variations.
+- <span id="roger-gracie-fundamental-system"></span>**[[Systems/Roger Gracie Fundamental System|Roger Gracie: Closed Guard]]** — The Roger Gracie Closed Guard System covers closed-guard maintenance, collar and lapel attacks, arm locks, sweeps and back-attacking material.
+- <span id="submission-clinic-system"></span>**[[Systems/Submission Clinic System|John Danaher: Kimura Control and Attacks]]** — John Danaher’s Kimura: Enter The System covers dorsal and T-kimura topics, alternative submissions and positional changes from guard and takedown situations.
 
 ## Competition Strategy
 
-- <span id="competition-preparation-system"></span>**[[Systems/Competition Preparation System|Competition Preparation: Planning Tournament Day]]** — A study companion to Competition Preparation Masterclass, focused on organizing the decisions around tournament day.
-- <span id="competition-scoring-strategy"></span>**[[Systems/Competition Scoring Strategy|IBJJF Scoring: Read the Whole Exchange]]** — A rulebook-based observation guide to points, advantages and penalties in IBJJF competition.
-- <span id="competition-strategy"></span>**[[Systems/Competition Strategy|Competition Strategy: Map Your Intended Game]]** — A competition study worksheet using the public Watson BJJ strategy map and the rules adopted by your event.
-- <span id="gi-specific-strategy"></span>**[[Systems/Gi-Specific Strategy|Gi Strategy: Roger Gracie’s Closed Guard]]** — A focused gi closed-guard companion to The Roger Gracie Closed Guard System, with an IBJJF grip-rule reference.
-- <span id="ibjjf-strategy-guide"></span>**[[Systems/IBJJF Strategy Guide|IBJJF Strategy: Check Your Event and Division]]** — An event-readiness study guide using IBJJF’s public registration instructions, uniform requirements and rulebook.
-- <span id="mma-crossover-strategy"></span>**[[Systems/MMA Crossover Strategy|MMA Crossover: Recheck Grappling Assumptions]]** — A rules-based observation guide for BJJ students comparing grappling exchanges with sanctioned MMA.
-- <span id="mental-game-framework"></span>**[[Systems/Mental Game Framework|Competition Mindset: Champions Stay Present]]** — A study companion to Champions Stay Present, organized around the different questions before, during and after competition.
-- <span id="no-gi-competition-approach"></span>**[[Systems/No-Gi Competition Approach|No-Gi Competition: Compare the Rules First]]** — A rules-comparison study guide for no-gi competitors changing events or experience divisions.
-- <span id="no-gi-tactical-framework"></span>**[[Systems/No-Gi Tactical Framework|No-Gi Top Control: Studying Power Ride]]** — A focused companion to Power Ride: A New Philosophy on Pinning, covering its advertised control themes and study entry points.
+- <span id="competition-preparation-system"></span>**[[Systems/Competition Preparation System|Competition Preparation with Matt D’Aquino]]** — Matt D’Aquino’s Competition Preparation Masterclass covers tournament preparation, travel, match-day decisions and coach communication.
+- <span id="competition-scoring-strategy"></span>**[[Systems/Competition Scoring Strategy|IBJJF Points, Control and Tiebreakers]]** — How IBJJF guard-pass scoring, continuous positional progression and tiebreakers work.
+- <span id="competition-strategy"></span>**[[Systems/Competition Strategy|Competition Game Plans]]** — The distinction between a developing repertoire and an event-specific game plan in Watson BJJ’s published strategy map.
+- <span id="gi-specific-strategy"></span>**[[Systems/Gi-Specific Strategy|Roger Gracie’s Closed Guard]]** — The Roger Gracie Closed Guard System covers guard maintenance, collar and lapel attacks, arm attacks and sweeps in the gi.
+- <span id="ibjjf-strategy-guide"></span>**[[Systems/IBJJF Strategy Guide|IBJJF Competition Requirements]]** — IBJJF membership, division, uniform and rules requirements that shape tournament participation.
+- <span id="mma-crossover-strategy"></span>**[[Systems/MMA Crossover Strategy|Grappling Under MMA Rules]]** — How the cited ABC MMA rules treat positional offense, grounded-fighter status and contact with the fence.
+- <span id="mental-game-framework"></span>**[[Systems/Mental Game Framework|Champions Stay Present: Competition Mindset]]** — Josh McKinney’s Champions Stay Present addresses nerves, focus, competition preparation and performance review.
+- <span id="no-gi-competition-approach"></span>**[[Systems/No-Gi Competition Approach|No-Gi Competition: IBJJF and ADCC]]** — Differences in IBJJF and ADCC positional scores, match phases and division restrictions.
+- <span id="no-gi-tactical-framework"></span>**[[Systems/No-Gi Tactical Framework|Power Ride: Craig Jones’s Pinning System]]** — Craig Jones’s Power Ride: A New Philosophy on Pinning covers leg rides, upper-body controls, turtle and submissions from top.
 
 ## Control System
 
-- <span id="craig-jones-riding-control-system"></span>**[[Systems/Craig Jones Riding Control System|Craig Jones: Riding Control with Power Ride]]** — A study companion to Craig Jones’s Power Ride, with a control-focused starting point and comparison to Gordon Ryan’s mount-maintenance material.
-- <span id="danaher-front-headlock-system"></span>**[[Systems/Danaher Front Headlock System|John Danaher: Front Headlock Decisions]]** — Navigate John Danaher’s The Front Headlock System by starting context and by control, submission or positional objective, with exact published lesson labels.
-- <span id="danaher-side-crucifix-system"></span>**[[Systems/Danaher Side Crucifix System|John Danaher: Side Crucifix and Arm Isolation]]** — A focused companion to John Danaher’s Master The Move: The Side Crucifix, distinguishing underhook acquisition, arm pinning and later submission branches.
-- <span id="gordon-ryan-mount-control-system"></span>**[[Systems/Gordon Ryan Mount Control System|Gordon Ryan: Mount Maintenance and Attacks]]** — A companion to Gordon Ryan’s mount course that separates arrival, maintenance, remounting and submission study, including a published bridge-response chapter.
-- <span id="gordon-ryan-side-control-to-north-south-system"></span>**[[Systems/Gordon Ryan Side Control to North-South System|Gordon Ryan: Side Control and North-South]]** — Navigate Gordon Ryan’s side-control and north-south course by escape concern or arm-isolation goal, with a focused comparison to Danaher’s side crucifix.
+- <span id="craig-jones-riding-control-system"></span>**[[Systems/Craig Jones Riding Control System|Craig Jones: Riding Control with Power Ride]]** — Craig Jones’s Power Ride covers leg rides, upper-body controls, turtle breakdowns and submission transitions from several top positions.
+- <span id="danaher-front-headlock-system"></span>**[[Systems/Danaher Front Headlock System|John Danaher: Front Headlock Attacks]]** — John Danaher’s The Front Headlock System covers standing entries, guillotines, anacondas, darces, go-behinds and front-headlock guard passing.
+- <span id="danaher-side-crucifix-system"></span>**[[Systems/Danaher Side Crucifix System|John Danaher: Side Crucifix and Arm Isolation]]** — John Danaher’s Master The Move: The Side Crucifix covers underhooks, near-arm pinning, chancery and shin-pin attacks with kimuras, triangles and armbars.
+- <span id="gordon-ryan-mount-control-system"></span>**[[Systems/Gordon Ryan Mount Control System|Gordon Ryan: Mount Maintenance and Attacks]]** — Gordon Ryan’s mount course covers entries, maintenance, remounting, arm isolation and submissions, with separate sparring and commentary volumes.
+- <span id="gordon-ryan-side-control-to-north-south-system"></span>**[[Systems/Gordon Ryan Side Control to North-South System|Gordon Ryan: Side Control and North-South]]** — Gordon Ryan’s side-control and north-south course covers pin retention, arm isolation, transitions and submissions, with sparring and commentary.
 
 ## Defense System
 
-- <span id="back-defense-protocol"></span>**[[Systems/Back Defense Protocol|Back Defense: Brian Glick's Rear-Mount Study Guide]]** — A guide to selecting Brian Glick's back-escape lessons by controlling side, hooks, body triangle and strangle-defense stage.
-- <span id="caio-terra-guard-retention-system"></span>**[[Systems/Caio Terra Guard Retention System|Caio Terra: Guard-Recovery Lesson Map]]** — A study map for Caio Terra Online's publicly listed one-legged-X and half-guard recovery lessons.
-- <span id="danaher-pin-escape-fundamentals-system"></span>**[[Systems/Danaher Pin Escape Fundamentals System|John Danaher: Pin Escapes and Turtle Escapes]]** — Find a route through John Danaher's Pin Escapes & Turtle Escapes course by matching the pin, escape family and resulting position.
-- <span id="defensive-prioritization-framework"></span>**[[Systems/Defensive Prioritization Framework|Defensive Priorities: Threat, Control and Score]]** — Organize defensive study by separating a submission in progress, the controlling position and the scoring consequence under IBJJF rules.
-- <span id="lachlan-giles-leg-lock-defense-framework"></span>**[[Systems/Lachlan Giles Leg Lock Defense Framework|Lachlan Giles: Defense Within the 50/50 Anthology]]** — A defense-focused study route through Lachlan Giles' Leg Lock Anthology: 50/50, covering its advertised prevention, knee-recovery and disengagement material.
-- <span id="priit-mihkelson-turtle-defense-system"></span>**[[Systems/Priit Mihkelson Turtle Defense System|Priit Mihkelson: Turtle Defense and Exits]]** — Navigate Priit Mihkelson's Protecting & Generating Dynamic Offense From The Turtle by separating posture, specific attacking threats and exits.
-- <span id="standing-defense-strategy"></span>**[[Systems/Standing Defense Strategy|Standing Defense: Alex Enriquez's Takedown Study Guide]]** — Choose Alex Enriquez's takedown-defense material by distinguishing shots from space, established leg grips and standing ties.
+- <span id="back-defense-protocol"></span>**[[Systems/Back Defense Protocol|Brian Glick: Dynamic Back Escapes]]** — Brian Glick's Only Way Out: Dynamic Back Escapes covers hand fighting, hooks, body triangles and strangle defense from rear control.
+- <span id="caio-terra-guard-retention-system"></span>**[[Systems/Caio Terra Guard Retention System|Caio Terra: Guard Recovery]]** — Caio Terra Online's public defense archive includes one-legged X against the toreando pass and half-guard recovery lessons.
+- <span id="danaher-pin-escape-fundamentals-system"></span>**[[Systems/Danaher Pin Escape Fundamentals System|John Danaher: Pin Escapes and Turtle Escapes]]** — John Danaher's Pin Escapes & Turtle Escapes covers recovery from mount, side control, knee-on-belly, north-south, rear mount and turtle.
+- <span id="defensive-prioritization-framework"></span>**[[Systems/Defensive Prioritization Framework|Defensive Priorities Under IBJJF Rules]]** — How IBJJF rules distinguish escaping a submission from earning positional points, including verbal submission and stabilization requirements.
+- <span id="lachlan-giles-leg-lock-defense-framework"></span>**[[Systems/Lachlan Giles Leg Lock Defense Framework|Lachlan Giles: 50/50 Leg Locks and Defense]]** — Lachlan Giles' Leg Lock Anthology: 50/50 combines heel-hook offense with prevention, counters, knee recovery and disengagement.
+- <span id="priit-mihkelson-turtle-defense-system"></span>**[[Systems/Priit Mihkelson Turtle Defense System|Priit Mihkelson: Turtle Defense and Exits]]** — Priit Mihkelson's Protecting & Generating Dynamic Offense From The Turtle covers defensive posture, hook and harness problems, chokes and exits from turtle.
+- <span id="standing-defense-strategy"></span>**[[Systems/Standing Defense Strategy|Alex Enriquez: Wrestling Takedown Defense]]** — Alex Enriquez's Wrestling Takedown Defense For Grappling covers stance, sprawls, leg attacks and clearing wrestling ties.
 
 ## Guard System
 
-- <span id="10th-planet-half-guard-bottom-system"></span>**[[Systems/10th Planet Half Guard Bottom System|Eddie Bravo: Bottom Half Study]]** — Find Eddie Bravo’s bottom-half material without mistaking this rubber-guard release for a complete half-guard curriculum.
-- <span id="10th-planet-no-gi-guard-system"></span>**[[Systems/10th Planet No-Gi Guard System|Eddie Bravo: Choosing a Guard Study Route]]** — Choose an entry point into Eddie Bravo’s advertised guard material according to whether you want context, rubber guard or bottom half.
-- <span id="10th-planet-rubber-guard-system"></span>**[[Systems/10th Planet Rubber Guard System|Eddie Bravo: Rubber Guard Study]]** — Navigate the rubber-guard sections of Eddie Bravo’s course without relying on an invented list of mandatory position chains.
-- <span id="adam-wardzinski-single-leg-x-system"></span>**[[Systems/Adam Wardzinski Single Leg X System|Adam Wardzinski: Single Leg X in the Gi]]** — Use Single Leg X Reimagined to locate a gi entry or sweeping problem and distinguish it from general X-guard study.
-- <span id="andrew-wiltse-half-guard-system"></span>**[[Systems/Andrew Wiltse Half Guard System|Half Guard: Recovery Before Attack]]** — Use Stephan Kesting’s public half-to-closed-guard discussion to frame a specific half-guard study problem.
-- <span id="brian-glick-half-butterfly-system"></span>**[[Systems/Brian Glick Half Butterfly System|Brian Glick: Half Butterfly]]** — Find the relevant half-butterfly section in Brian Glick’s course before choosing an attack family.
-- <span id="craig-jones-octopus-guard-system"></span>**[[Systems/Craig Jones Octopus Guard System|Craig Jones: No-Gi Octopus Guard]]** — Locate a recurring no-gi bottom-position problem in the published Octopus Guard 2.0 syllabus.
-- <span id="dante-leon-reverse-de-la-riva-system"></span>**[[Systems/Dante Leon Reverse De La Riva System|Dante Leon: No-Gi Reverse De La Riva]]** — Distinguish recovering reverse De La Riva from choosing a later attack in Dante Leon’s published syllabus.
-- <span id="dante-leon-wrestling-up-from-guard-system"></span>**[[Systems/Dante Leon Wrestling Up From Guard System|Dante Leon: Wrestling Up From Guard]]** — Choose one starting guard in Wrestling Up From Guard and locate the opponent-response sections that belong to it.
-- <span id="dynamic-guard-system"></span>**[[Systems/Dynamic Guard System|Guard Changes: A Study Map]]** — Use a public positional glossary to describe guard changes precisely before selecting a specialized guard guide.
-- <span id="eduardo-telles-gi-octopus-guard-system"></span>**[[Systems/Eduardo Telles Gi Octopus Guard System|Eduardo Telles: Octopus Guard in the Gi]]** — Compare the entry positions in Eduardo Telles’s published Octopus With Pajamas outline.
-- <span id="eoghan-oflanagan-shin-to-shin-system"></span>**[[Systems/Eoghan O'Flanagan Shin-to-Shin System|Eoghan O’Flanagan: Shin-to-Shin and Seated Engagement]]** — Use the published Shin to Shin outline to distinguish getting connected from responding after the connection is challenged.
-- <span id="jeff-glover-deep-half-system"></span>**[[Systems/Jeff Glover Deep Half System|Jeff Glover: No-Gi Deep Half]]** — Navigate The No Gi Deep Half Guard 2.0 according to whether the problem is entry, exit selection or an opponent’s control.
-- <span id="jonathan-thomas-double-sleeve-guard-system"></span>**[[Systems/Jonathan Thomas Double Sleeve Guard System|Jonathan Thomas: Double Sleeve Guard]]** — Find a double-sleeve study path that distinguishes obtaining the grips, maintaining control and selecting an attack.
-- <span id="keenan-cornelius-lapel-guard-system"></span>**[[Systems/Keenan Cornelius Lapel Guard System|Lapel Guard: Study the Entry Obstacles]]** — Read the passer’s side of lapel engagement to organize questions about your own lapel-guard setup.
-- <span id="lachlan-giles-k-guard-system"></span>**[[Systems/Lachlan Giles K-Guard System|Lachlan Giles: K-Guard Entries and Offense]]** — Find the relevant K-guard entry block within Lachlan Giles’s No Gi Open Guard Volume 1: K Guard.
-- <span id="lachlan-giles-and-ariel-tabak-guard-retention-system"></span>**[[Systems/Lachlan Giles and Ariel Tabak Guard Retention System|Giles and Tabak: Guard Retention Around and Under]]** — Locate an around-the-legs, north-south or under-the-legs retention problem in the Giles–Tabak anthology outline.
-- <span id="marcelo-garcia-butterfly-guard-system"></span>**[[Systems/Marcelo Garcia Butterfly Guard System|Marcelo Garcia: Butterfly Guard]]** — Study Marcelo Garcia’s butterfly syllabus by identifying whether difficulty starts before contact, in posture or after the opponent stands.
-- <span id="marcelo-garcia-x-guard-system"></span>**[[Systems/Marcelo Garcia X-Guard System|Marcelo Garcia: X-Guard Entries and Sweeps]]** — Navigate The Marcelo X Guard by deciding whether your problem is entry, finishing a sweep or maintaining the position.
+- <span id="10th-planet-half-guard-bottom-system"></span>**[[Systems/10th Planet Half Guard Bottom System|Eddie Bravo: Bottom Half in The Ultimate Rubber Guard]]** — What The Ultimate Rubber Guard offers a reader interested in Eddie Bravo’s half guard.
+- <span id="10th-planet-no-gi-guard-system"></span>**[[Systems/10th Planet No-Gi Guard System|Eddie Bravo: The Ultimate Rubber Guard]]** — Eddie Bravo’s four-volume course on rubber guard, its origins and selected bottom-half material.
+- <span id="10th-planet-rubber-guard-system"></span>**[[Systems/10th Planet Rubber Guard System|Eddie Bravo: Rubber Guard]]** — A rubber-guard course combining named positions with Eddie Bravo’s account of their development.
+- <span id="adam-wardzinski-single-leg-x-system"></span>**[[Systems/Adam Wardzinski Single Leg X System|Adam Wardzinski: Single Leg X in the Gi]]** — A gi single-leg-X course with butterfly and shin-to-shin entries, fabric-grip sweeps and passing counters.
+- <span id="andrew-wiltse-half-guard-system"></span>**[[Systems/Andrew Wiltse Half Guard System|Half Guard: Recovering Closed Guard]]** — A short explanation of half-to-closed-guard recovery based on Stephan Kesting’s public article.
+- <span id="brian-glick-half-butterfly-system"></span>**[[Systems/Brian Glick Half Butterfly System|Brian Glick: Half Butterfly]]** — A half-butterfly course spanning inside position, sweeps, kimuras and leg entanglements.
+- <span id="craig-jones-octopus-guard-system"></span>**[[Systems/Craig Jones Octopus Guard System|Craig Jones: No-Gi Octopus Guard]]** — A four-volume course connecting octopus guard with headlock counters, back takes and turtle offense.
+- <span id="dante-leon-reverse-de-la-riva-system"></span>**[[Systems/Dante Leon Reverse De La Riva System|Dante Leon: No-Gi Reverse De La Riva]]** — Reverse De La Riva offense against kneeling and standing opponents, with knee-shield and inversion options.
+- <span id="dante-leon-wrestling-up-from-guard-system"></span>**[[Systems/Dante Leon Wrestling Up From Guard System|Dante Leon: Wrestling Up From Guard]]** — A course on turning guard exchanges into wrestling attacks through distance, reactions and underhooks.
+- <span id="dynamic-guard-system"></span>**[[Systems/Dynamic Guard System|Understanding Guard Changes]]** — An introduction to deliberate guard changes, passer-forced changes and the differences between open guards.
+- <span id="eduardo-telles-gi-octopus-guard-system"></span>**[[Systems/Eduardo Telles Gi Octopus Guard System|Eduardo Telles: Octopus Guard in the Gi]]** — A compact gi octopus course with sleeve entries, sweep variations and counters.
+- <span id="eoghan-oflanagan-shin-to-shin-system"></span>**[[Systems/Eoghan O'Flanagan Shin-to-Shin System|Eoghan O’Flanagan: Shin-to-Shin and Seated Engagement]]** — A seated-guard course on making contact, entering shin-to-shin and handling the opponent’s responses.
+- <span id="jeff-glover-deep-half-system"></span>**[[Systems/Jeff Glover Deep Half System|Jeff Glover: No-Gi Deep Half]]** — A no-gi deep-half course with overtop, backdoor and single-leg options plus underhook and chin-strap troubleshooting.
+- <span id="jonathan-thomas-double-sleeve-guard-system"></span>**[[Systems/Jonathan Thomas Double Sleeve Guard System|Jonathan Thomas: Double Sleeve Guard]]** — A sleeve-based open-guard course with sweeps, triangles and responses to grip-clearing attempts.
+- <span id="keenan-cornelius-lapel-guard-system"></span>**[[Systems/Keenan Cornelius Lapel Guard System|Lapel Guard: What Stops the Entry]]** — What Keenan Cornelius’s public lapel-denial discussion reveals about the setup a guard player needs.
+- <span id="lachlan-giles-k-guard-system"></span>**[[Systems/Lachlan Giles K-Guard System|Lachlan Giles: K-Guard Entries and Offense]]** — K-guard offense against kneeling, combat-base and standing opponents, including backside 50/50 and X-guard options.
+- <span id="lachlan-giles-and-ariel-tabak-guard-retention-system"></span>**[[Systems/Lachlan Giles and Ariel Tabak Guard Retention System|Giles and Tabak: Guard Retention Around and Under]]** — Lachlan Giles and Ariel Tabak’s course on retention against torreandos, leg drags, north-south movement and stacks.
+- <span id="marcelo-garcia-butterfly-guard-system"></span>**[[Systems/Marcelo Garcia Butterfly Guard System|Marcelo Garcia: Butterfly Guard]]** — A butterfly course combining upper-body controls and sweeps with distance management and pressure responses.
+- <span id="marcelo-garcia-x-guard-system"></span>**[[Systems/Marcelo Garcia X-Guard System|Marcelo Garcia: X-Guard Entries and Sweeps]]** — An X-guard course with butterfly and shin-to-shin entries, stand-up sweeps and passing counters.
 
 ## Passing System
 
-- <span id="ariel-tabak-outside-passing-system"></span>**[[Systems/Ariel Tabak Outside Passing System|Ariel Tabak: Outside Passing and Finishing]]** — A companion to Ariel Tabak’s Outside Passing Compendium, emphasizing outside-pass finishes, leg traps and the course’s explicit gi-grip material.
-- <span id="bernardo-faria-pressure-system"></span>**[[Systems/Bernardo Faria Pressure System|Bernardo Faria: No-Gi Over/Under Passing]]** — Compare Bernardo Faria’s over/under-centered No Gi Pressure Passing with a broader guard-passing course, then choose an entry and troubleshooting topic.
-- <span id="gordon-ryan-passing-system"></span>**[[Systems/Gordon Ryan Passing System|Gordon Ryan: Choosing a Guard-Passing Route]]** — A study companion to Gordon Ryan’s Systematically Attacking The Guard, with a guard-specific starting point and comparison to Bernardo Faria’s over/under focus.
-- <span id="lachlan-giles-body-lock-passing-system"></span>**[[Systems/Lachlan Giles Body Lock Passing System|Lachlan Giles: Studying the Body Lock Pass]]** — A companion to Lachlan Giles’s The Body Lock Pass, using its advertised stages and narrated rolling to distinguish torso connection from clearing the legs.
-- <span id="lucas-lepri-half-guard-passing-system"></span>**[[Systems/Lucas Lepri Half Guard Passing System|Lucas Lepri: Gi Half-Guard Passing Problems]]** — A companion to Lucas Lepri’s Precise Half Guard Passing, with gi-specific scope, separate rising and deep-half contexts, and a comparison to his knee-cut course.
-- <span id="lucas-lepri-knee-cut-system"></span>**[[Systems/Lucas Lepri Knee Cut System|Lucas Lepri: Knee-Cut Entries and Obstacles]]** — A study companion to Lucas Lepri’s Precision Knee Cut Passes, comparing open-guard entries, lasso contexts and later underhook or deep-half troubleshooting.
-- <span id="modern-no-gi-passing-system"></span>**[[Systems/Modern No-Gi Passing System|Choosing a No-Gi Passing Study]]** — Choose a no-gi passing study by the problem you want to solve: several guard families, body-lock stages, over/under responses or float-position exits.
-- <span id="vagner-rocha-float-passing-system"></span>**[[Systems/Vagner Rocha Float Passing System|Vagner Rocha: Float-Passing Exits]]** — A companion to Vagner Rocha’s Float Passing System, with an exact float-entry starting section and comparison of its smash and reverse-knee-slice topics.
+- <span id="ariel-tabak-outside-passing-system"></span>**[[Systems/Ariel Tabak Outside Passing System|Ariel Tabak: Outside Passing and Finishing]]** — Ariel Tabak’s Outside Passing Compendium covers getting around the legs, upper-body control, leg traps and finishing routes, including gi-specific grips.
+- <span id="bernardo-faria-pressure-system"></span>**[[Systems/Bernardo Faria Pressure System|Bernardo Faria: No-Gi Pressure Passing]]** — Bernardo Faria’s No Gi Pressure Passing centers on over/under entries and troubleshooting, with double-under, folding and half-guard passes.
+- <span id="gordon-ryan-passing-system"></span>**[[Systems/Gordon Ryan Passing System|Gordon Ryan: No-Gi Guard Passing]]** — Systematically Attacking The Guard by Gordon Ryan covers split squat, half guard, half butterfly, body locks and leg-entanglement positions, plus rolling.
+- <span id="lachlan-giles-body-lock-passing-system"></span>**[[Systems/Lachlan Giles Body Lock Passing System|Lachlan Giles: Body-Lock Passing]]** — The Body Lock Pass by Lachlan Giles covers no-gi entries, pinning, knee clearance and finishes, with counters, closed-guard opening and narrated rolling.
+- <span id="lucas-lepri-half-guard-passing-system"></span>**[[Systems/Lucas Lepri Half Guard Passing System|Lucas Lepri: Gi Half-Guard Passing]]** — Lucas Lepri’s Precise Half Guard Passing covers lapel-based knee cuts, coyote and single-leg-half responses, deep-half passing and submission counters.
+- <span id="lucas-lepri-knee-cut-system"></span>**[[Systems/Lucas Lepri Knee Cut System|Lucas Lepri: Knee-Cut Passing]]** — Lucas Lepri’s Precision Knee Cut Passes covers gi open-guard entries, knee-cut variations and responses to lasso, underhooks, deep half and X guard.
+- <span id="modern-no-gi-passing-system"></span>**[[Systems/Modern No-Gi Passing System|No-Gi Guard-Passing Courses]]** — No-gi passing options ranging from Gordon Ryan’s broad guard-passing course to focused body-lock, over/under and float-passing alternatives.
+- <span id="vagner-rocha-float-passing-system"></span>**[[Systems/Vagner Rocha Float Passing System|Vagner Rocha: Float, Knee-Cut and Standing Passing]]** — Vagner Rocha’s Float Passing System combines knee-cut, float and standing passing, including smash passes, reverse knee slices and transitions to mount.
 
 ## Submission Chain
 
-- <span id="bernardo-faria-omoplata-system"></span>**[[Systems/Bernardo Faria Omoplata System|Bernardo Faria: Omoplata Everyone]]** — Choose an omoplata lesson by the entry or defensive reaction you need to investigate.
-- <span id="craig-jones-triangle-to-leg-lock-system"></span>**[[Systems/Craig Jones Triangle to Leg Lock System|Craig Jones: Triangle-to-Leg Transitions]]** — A focused companion to the triangle-to-leg sections of Craig Jones’s triangle and leg-lock course.
-- <span id="danaher-leg-lock-system"></span>**[[Systems/Danaher Leg Lock System|John Danaher: Leglocks — Enter The System]]** — A course companion for locating control, recovery and entry lessons in John Danaher’s leg-lock curriculum.
-- <span id="danaher-triangle-system"></span>**[[Systems/Danaher Triangle System|John Danaher: Triangles Enter The System]]** — Find a starting point in Danaher’s triangle curriculum by separating configuration changes from new entries.
-- <span id="jason-rau-ankle-lock-system"></span>**[[Systems/Jason Rau Ankle Lock System|Jason Rau: Dynamic Ankle Locks]]** — Locate ankle-lock material for seated, kneeling and standing situations in Jason Rau’s course.
-- <span id="kimura-trap-system"></span>**[[Systems/Kimura Trap System|John Danaher: Kimura Control and Transitions]]** — A course companion for selecting kimura study beyond the direct finish.
-- <span id="marcelo-garcia-guillotine-system"></span>**[[Systems/Marcelo Garcia Guillotine System|Marcelo Garcia: The Marcelotine]]** — Use The Marcelotine’s positional organization to find an entry or passing-defense problem worth studying.
-- <span id="neil-melanson-kimura-system"></span>**[[Systems/Neil Melanson Kimura System|Neil Melanson: The Filthy Kimura]]** — Compare the foundational, countering and positional sections of Neil Melanson’s kimura course.
-- <span id="rubber-guard-to-omoplata-system"></span>**[[Systems/Rubber Guard to Omoplata System|Eddie Bravo: Rubber Guard to Omoplata Study]]** — A focused study entry for the named omoplata lesson in Eddie Bravo’s rubber-guard course.
-- <span id="rubber-guard-to-triangle-system"></span>**[[Systems/Rubber Guard to Triangle System|Rubber Guard and Triangle Study Choices]]** — Clarify the scope of the linked rubber-guard course before choosing a triangle lesson.
-- <span id="ryan-hall-triangle-system"></span>**[[Systems/Ryan Hall Triangle System|Ryan Hall: The Modern Triangle]]** — A reading guide to Ryan Hall’s current triangle curriculum and its options beyond the choke.
-- <span id="straight-footlock-to-kneebar-chain"></span>**[[Systems/Straight Footlock to Kneebar Chain|Straight Ankle Lock and Kneebar Study]]** — Find the two submission topics and identify what a transition between them still needs to demonstrate.
-- <span id="twister-system"></span>**[[Systems/Twister System|Twister and Truck: Choosing an Entry Study]]** — Compare two official episode descriptions before choosing a Twister or truck study question.
+- <span id="bernardo-faria-omoplata-system"></span>**[[Systems/Bernardo Faria Omoplata System|Bernardo Faria: Omoplata Everyone]]** — Bernardo Faria’s omoplata course covers setups from several positions, standing and rolling defenses, and alternatives to the shoulder-lock finish.
+- <span id="craig-jones-triangle-to-leg-lock-system"></span>**[[Systems/Craig Jones Triangle to Leg Lock System|Craig Jones: Triangle-to-Leg Transitions]]** — Craig Jones’s triangle and leg-lock combinations course covers upper-to-lower-body transitions from guard and top positions.
+- <span id="danaher-leg-lock-system"></span>**[[Systems/Danaher Leg Lock System|John Danaher: Leglocks — Enter The System]]** — John Danaher’s eight-volume leg-lock course, from inside position and knee-line control to submission mechanics and entries.
+- <span id="danaher-triangle-system"></span>**[[Systems/Danaher Triangle System|John Danaher: Triangles Enter The System]]** — John Danaher’s triangle curriculum covers front, opposite, rear, side and reverse configurations from guard, top positions and scrambles.
+- <span id="jason-rau-ankle-lock-system"></span>**[[Systems/Jason Rau Ankle Lock System|Jason Rau: Dynamic Ankle Locks]]** — Jason Rau’s ankle-lock course includes seated and kneeling finishes, Aoki locks, heel hooks and routes to the back.
+- <span id="kimura-trap-system"></span>**[[Systems/Kimura Trap System|John Danaher: Kimura — Enter The System]]** — John Danaher’s eight-volume kimura course covers dorsal and T kimuras, defensive grip problems and applications from top, bottom and standing.
+- <span id="marcelo-garcia-guillotine-system"></span>**[[Systems/Marcelo Garcia Guillotine System|Marcelo Garcia: The Marcelotine]]** — Marcelo Garcia’s guillotine course includes takedown counters, guard attacks, passing-position entries and recovery when an opponent passes.
+- <span id="neil-melanson-kimura-system"></span>**[[Systems/Neil Melanson Kimura System|Neil Melanson: The Filthy Kimura]]** — Neil Melanson’s kimura course combines double-wrist-lock foundations with arm-lock variations, counters and positional sequences.
+- <span id="rubber-guard-to-omoplata-system"></span>**[[Systems/Rubber Guard to Omoplata System|Eddie Bravo: Rubber Guard to Omoplata]]** — Eddie Bravo’s rubber-guard course includes an omoplata connection, full rubber guard, variations and bottom half guard.
+- <span id="rubber-guard-to-triangle-system"></span>**[[Systems/Rubber Guard to Triangle System|Rubber Guard and Triangle Attacks]]** — Rubber-guard course coverage and linked alternatives for a dedicated triangle focus.
+- <span id="ryan-hall-triangle-system"></span>**[[Systems/Ryan Hall Triangle System|Ryan Hall: The Modern Triangle]]** — Ryan Hall’s current triangle course addresses frames, posture and pressure alongside submissions and sweeps from the triangle.
+- <span id="straight-footlock-to-kneebar-chain"></span>**[[Systems/Straight Footlock to Kneebar Chain|Straight Ankle Locks and Kneebars]]** — Straight-ankle-lock and kneebar coverage in Craig Jones’s submission-combinations course, with the scope of the connection made explicit.
+- <span id="twister-system"></span>**[[Systems/Twister System|Twister and Truck Entries]]** — Twister and truck coverage in two Mastering The System episodes, based on Eddie Bravo’s official descriptions.
 
 ## Training Methodology
 
-- <span id="blue-to-purple-progression"></span>**[[Systems/Blue to Purple Progression|Blue to Purple: Build a Study Inventory]]** — A study-planning guide for blue belts using Stephan Kesting’s positional categories and the IBJJF graduation rules.
-- <span id="self-defense-application-framework"></span>**[[Systems/Self-Defense Application Framework|Self-Defense: Examine Sport Grappling’s Assumptions]]** — A reading and observation guide to the limits of transferring sport-grappling assumptions into self-defense.
-- <span id="teaching-methodology-framework"></span>**[[Systems/Teaching Methodology Framework|Planning a BJJ Lesson]]** — A lesson-planning study guide based on John Connors and Jon Grayzel’s public article about teaching BJJ.
+- <span id="blue-to-purple-progression"></span>**[[Systems/Blue to Purple Progression|Blue to Purple: Development and Promotion]]** — Technical development and belt recognition, explained through Stephan Kesting’s positional framework and IBJJF graduation rules.
+- <span id="self-defense-application-framework"></span>**[[Systems/Self-Defense Application Framework|Sport Grappling and Self-Defense]]** — The limits of sport-grappling assumptions in Stephan Kesting’s discussion of self-defense.
+- <span id="teaching-methodology-framework"></span>**[[Systems/Teaching Methodology Framework|Teaching BJJ: Explanation, Recall and Application]]** — John Connors and Jon Grayzel’s published approach to explaining BJJ techniques, checking recall and moving into partner practice.
 
 

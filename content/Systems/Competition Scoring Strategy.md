@@ -1,126 +1,140 @@
 
 ---
-title: "IBJJF Scoring: Read the Whole Exchange | BJJGraph"
-description: "A rulebook-based observation guide to points, advantages and penalties in IBJJF competition."
+title: "IBJJF Points, Control and Tiebreakers | BJJGraph"
+description: "How IBJJF guard-pass scoring, continuous positional progression and tiebreakers work."
 ---
 
 
 
+
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"IBJJF Scoring: Read the Whole Exchange","description":"A rulebook-based observation guide to points, advantages and penalties in IBJJF competition."}
+{"@context":"https://schema.org","@type":"WebPage","name":"IBJJF Points, Control and Tiebreakers","description":"How IBJJF guard-pass scoring, continuous positional progression and tiebreakers work."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph study guide. Not authored or endorsed by the instructor.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Competition Scoring Strategy">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>IBJJF Points, Control and Tiebreakers</h1>
+<div class="system-tags"><span>Competition Strategy</span><span>Intermediate</span></div>
 
-## IBJJF Scoring: Read the Whole Exchange
+<p class="system-reference-count">17 related references (techniques and positions)</p>
+</header>
 
-**Distinguish scoring actions, stabilization and tiebreakers when reviewing an IBJJF match.**
+<section id="overview" class="system-overview">
 
+Side control is not automatically a three-point guard pass. IBJJF requires a guard to have been passed and the specified control to be established. Submission holds can affect when the stabilization count starts or whether it is interrupted.
 
-A position name alone does not explain a score. The IBJJF rulebook specifies how an athlete gets there, what control is established and whether a submission interrupts the count. Start with an exchange whose scoreboard change you cannot explain, then identify the applicable article before judging the tactical choice.
-
-</section>
-
-<section id="fit" class="content-section">
-
-## Is this useful for you?
-
-- You know the headline point values but cannot always explain why a pass, reversal or near-finish did or did not score.
-
-
-### Consider an alternative if
-
-- For ADCC comparisons, use No-Gi Competition Approach; its scoring phases and positional values differ.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Explain one scoreboard change
-
-Choose an IBJJF match recording you can pause. For one guard-passing exchange, note the starting guard, the resulting control, any submission interruption and the scoreboard change. Compare those observations with Articles 3 and 4.2. If the action continues directly to mount, check Article 3.4 before assuming separate pauses were required. Mark anything the camera cannot establish.
-
-Published section: IBJJF Rule Book: Articles 3, 4.2 and 2.5–2.6.
-
-
-
-<p>Source: <a href="https://ibjjf.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTRaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c53798f1b94f5ebc202702cb44e9428a7606a19b/2024JUN_IBJJF_Rules_EN.pdf" target="_blank" rel="noopener">IBJJF Rules Book</a></p>
+Continuous progression can also score cumulatively. Article 3.4 gives a pass followed by mount as a seven-point example, with the final three-second count continuing the earlier control. At regulation time, equal points are separated by advantages, then fewer penalties, and finally a referee decision if the tie remains.
 
 </section>
 
 
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
+
+## Is this for you?
+
+- You know the point values but want to understand why a position or a continuous sequence does—or does not—score.
 
 
+
+<h3>Also consider</h3>
+<p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition: IBJJF and ADCC</a> — For the differences between IBJJF and ADCC point values, match phases and division restrictions.</p>
+
+
+</section>
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- A guard pass scores three points when its required control is established; arriving in side control without passing a guard is a different situation.
-- Article 3.4 permits cumulative points through continuous positional progression; its pass-to-mount example totals seven.
-- At regulation time, tied points are separated by advantages, then fewer penalties, then a referee decision if still tied.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Guard-pass conditions and the distinction between passing a guard and simply reaching side control.
+- Three-second stabilization, submission interruptions and cumulative points under Article 3.
+- The regulation-time order of points, advantages, penalties and referee decisions.
+
 
 ### Limits
 
-- This guide selects scoring questions; the full rulebook covers additional exceptions and stoppage outcomes.
-- A camera angle may not show the details needed to explain a referee’s decision.
+- This explanation covers selected IBJJF scoring provisions; stoppage outcomes and other rulebook exceptions remain separate.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://ibjjf.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTRaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c53798f1b94f5ebc202702cb44e9428a7606a19b/2024JUN_IBJJF_Rules_EN.pdf" target="_blank" rel="noopener">IBJJF Rules Book</a> — ruleset; checked 2026-09-16. Read point values, cumulative scoring, guard-pass conditions and the regulation-time tiebreak order. These provisions explain scoring rather than prescribe an attacking sequence. Inspected: Articles 2.5–2.6, 3 and 4.2</p>
-</section>
-
-<section id="related-content" class="content-section">
-
-## Related references and alternatives
 
 
-<p><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a> (Principle) — Further conceptual reading: Positional Hierarchy.</p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a> (Principle) — Further conceptual reading: Position-Over-Submission Approach.</p><p><a href="/Principles/Competition-Mindset">Competition Mindset</a> (Principle) — Further conceptual reading: Competition Mindset.</p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a> (Principle) — Further conceptual reading: Fork Attacks.</p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a> (Principle) — Further conceptual reading: Defensive Concepts.</p><p><a href="/Principles/Energy-Conservation">Energy Conservation</a> (Principle) — Further conceptual reading: Energy Conservation.</p><p><a href="/Principles/Position-Chains">Position Chains</a> (Principle) — Further conceptual reading: Position Chains.</p><p><a href="/Systems/Competition-Preparation-System">Competition Preparation System</a> (System) — Related study guide: Competition Preparation System.</p><p><a href="/Systems/IBJJF-Strategy-Guide">IBJJF Strategy Guide</a> (System) — Check event and division requirements before applying the scoring articles.</p><p><a href="/Systems/Gordon-Ryan-Passing-System">Gordon Ryan Passing System</a> (System) — Related study guide: Gordon Ryan Passing System.</p><p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition Approach</a> (System) — Compare the IBJJF scoring model with ADCC phases and division restrictions.</p>
+<section id="related-content" class="system-section">
 
+## Related guides and principles
+
+These related references are not a claim about what the course teaches or evidence of practical mastery.
+
+<p><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a></p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a></p><p><a href="/Principles/Competition-Mindset">Competition Mindset</a></p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a></p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a></p><p><a href="/Principles/Energy-Conservation">Energy Conservation</a></p><p><a href="/Principles/Position-Chains">Position Chains</a></p><p><a href="/Systems/Competition-Preparation-System">Competition Preparation with Matt D’Aquino</a> — Tournament preparation, travel and athlete-coach communication.</p><p><a href="/Systems/IBJJF-Strategy-Guide">IBJJF Competition Requirements</a> — IBJJF eligibility, uniform and division requirements.</p><p><a href="/Systems/Gordon-Ryan-Passing-System">Gordon Ryan: No-Gi Guard Passing</a></p><p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition: IBJJF and ADCC</a> — IBJJF and ADCC scoring differences and division restrictions.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Mount|Mount]] (Position) — Position reference for organizing study: Mount.
+- [[Positions/Mount|Mount]] (Position)
 
-- [[Positions/Back Control|Back Control]] (Position) — Position reference for organizing study: Back Control.
 
-- [[Positions/Side Control|Side Control]] (Position) — Position reference for organizing study: Side Control.
+- [[Positions/Back Control|Back Control]] (Position)
 
-- [[Positions/Knee on Belly|Knee on Belly]] (Position) — Position reference for organizing study: Knee on Belly.
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Position reference for organizing study: Closed Guard.
+- [[Positions/Side Control|Side Control]] (Position)
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Position reference for organizing study: Half Guard.
 
-- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) — Position reference for organizing study: De La Riva Guard.
+- [[Positions/Knee on Belly|Knee on Belly]] (Position)
 
-- [[Positions/X-Guard/Reverse X-Guard|Reverse X-Guard]] (Position) — Position reference for organizing study: Reverse X-Guard.
 
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) — Position reference for organizing study: Butterfly Guard.
+- [[Positions/Closed Guard|Closed Guard]] (Position)
 
-- [[Positions/North-South|North-South]] (Position) — Position reference for organizing study: North-South.
 
-- [[Transitions/Guard Pull|Guard Pull]] (Transition) — Related transition reference: Guard Pull.
+- [[Positions/Half Guard|Half Guard]] (Position)
 
-- [[Transitions/Back Take|Back Take]] (Transition) — Related transition reference: Back Take.
 
-- [[Transitions/Ankle Pick|Ankle Pick]] (Transition) — Related transition reference: Ankle Pick.
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position)
 
-- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) — Related submission reference: Rear Naked Choke.
 
-- [[Submissions/Americana|Americana]] (Submission) — Related submission reference: Americana.
+- [[Positions/X-Guard/Reverse X-Guard|Reverse X-Guard]] (Position)
 
-- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) — Related submission reference: Triangle Choke.
 
-- [[Submissions/Kimura|Kimura]] (Submission) — Related submission reference: Kimura.
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
 
+
+- [[Positions/North-South|North-South]] (Position)
+
+
+- [[Transitions/Guard Pull|Guard Pull]] (Transition)
+
+
+- [[Transitions/Back Take|Back Take]] (Transition)
+
+
+- [[Transitions/Ankle Pick|Ankle Pick]] (Transition)
+
+
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission)
+
+
+- [[Submissions/Americana|Americana]] (Submission)
+
+
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission)
+
+
+- [[Submissions/Kimura|Kimura]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+
+
+<section class="system-source" data-source-container>
+<p><a href="https://ibjjf.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbTRaIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c53798f1b94f5ebc202702cb44e9428a7606a19b/2024JUN_IBJJF_Rules_EN.pdf" target="_blank" rel="noopener">IBJJF Rules Book</a> — ruleset; checked 2026-09-16. Read point values, cumulative scoring, guard-pass conditions and the regulation-time tiebreak order. These provisions explain scoring rather than prescribe an attacking sequence. Inspected: Articles 2.5–2.6, 3 and 4.2</p>
+</section>
+
+</details>
 </section>
 </main>

@@ -1,122 +1,124 @@
 
 ---
 title: "Bernardo Faria: Omoplata Everyone | BJJGraph"
-description: "Choose an omoplata lesson by the entry or defensive reaction you need to investigate."
+description: "Bernardo Faria’s omoplata course covers setups from several positions, standing and rolling defenses, and alternatives to the shoulder-lock finish."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Bernardo Faria: Omoplata Everyone","description":"Choose an omoplata lesson by the entry or defensive reaction you need to investigate."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Bernardo Faria: Omoplata Everyone","description":"Bernardo Faria’s omoplata course covers setups from several positions, standing and rolling defenses, and alternatives to the shoulder-lock finish."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Omoplata Everyone by Bernardo Faria.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Bernardo Faria Omoplata System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Bernardo Faria: Omoplata Everyone</h1>
+<div class="system-tags"><span>Submission Chain</span><span>Intermediate</span></div>
 
-## Bernardo Faria: Omoplata Everyone
+<p class="system-reference-count">8 related references (techniques and positions)</p>
+</header>
 
-**Bernardo Faria’s Omoplata Everyone is a gi-oriented reference for entries, defensive reactions and positional outcomes around the omoplata.**
-
-
-The useful distinction in this outline is between getting to the omoplata and handling what happens afterward. Sleeve and belt entries sit alongside standing, rolling and hand-connection problems, with a separate lesson on choosing a scoring outcome.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-course-url="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-product-id="omoplata-everyone-by-bernardo-faria" data-system-slug="systems/bernardo-faria-omoplata-system" data-system-name="Bernardo Faria Omoplata System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Omoplata Everyone</h2><span class="system-course__instructor">By Bernardo Faria</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+Bernardo Faria’s Omoplata Everyone addresses both finding the attack and keeping it useful against resistance. Its four volumes include sleeve and belt entries, responses to standing or rolling opponents, and problems such as connected hands or a knee under the hip.
 
-- You can reach an omoplata but need to locate material addressing a particular defensive reaction.
-
-
-### Consider an alternative if
-
-- For a rubber-guard entry focus, compare Rubber Guard to Omoplata System, based on Eddie Bravo’s explicitly named lesson.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Separate standing and rolling problems
-
-Use the public outline to place a recent omoplata problem under standing, rolling or connected hands. Compare the relevant response section with the later scoring option: decide whether your next study question concerns retaining the attack or changing the outcome. If you have the course, start at the selected response rather than replaying every entry.
-
-Published section: Volume 3: How to finish the omoplata when they roll around (20:25–22:23).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" target="_blank" rel="noopener">Omoplata Everyone by Bernardo Faria</a></p>
+The course also covers recovering the omoplata after passing attempts and giving up the submission to score. It is a focused option for gi players whose omoplata game stalls after the entry.
 
 </section>
 
 
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+## Is this for you?
 
-<article class="product-card">
-<h3>Omoplata Everyone</h3>
-<p>By Bernardo Faria</p>
+- You reach omoplatas in the gi but struggle when opponents stand, roll or connect their hands.
 
-<p><a href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-course-url="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-product-id="omoplata-everyone-by-bernardo-faria" data-system-slug="systems/bernardo-faria-omoplata-system" data-system-name="Bernardo Faria Omoplata System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Rubber-Guard-to-Omoplata-System">Eddie Bravo: Rubber Guard to Omoplata</a> — Eddie Bravo’s broader rubber-guard course includes a specifically named omoplata route.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Fabric-grip entries and standing responses; later volumes add rolling responses and attacks from other positions.
-- Volume 4 includes returning to the omoplata after passing attempts and choosing a scoring outcome.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Entries from closed guard, butterfly, half guard, lasso and top positions.
+- Standing and rolling defenses, recovery after passing attempts, alternative submissions and a positional scoring option.
+
 
 ### Limits
 
-- Several named entries use sleeves, a belt or a lapel; the outline is not a dedicated no-gi curriculum.
+- Sleeve, belt and lapel controls feature in the syllabus; this is not a dedicated no-gi omoplata course.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" target="_blank" rel="noopener">Omoplata Everyone by Bernardo Faria</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume outline, including fabric-grip entries, standing and rolling responses, and a positional scoring option.</p><p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume syllabus. It explicitly names a rubber-guard-to-omoplata lesson, broader rubber-guard development, bottom half guard and variations; it gives no triangle-specific chapter label.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-course-url="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-product-id="omoplata-everyone-by-bernardo-faria" data-system-slug="systems/bernardo-faria-omoplata-system" data-system-name="Bernardo Faria Omoplata System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Omoplata Everyone</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Sleeve-Control">Sleeve Control</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Action-and-Reaction">Action and Reaction</a> (Principle) — Related concept for organizing study.</p><p><a href="/Systems/Rubber-Guard-to-Omoplata-System">Rubber Guard to Omoplata System</a> (System) — Compare the explicitly named rubber-guard entry lesson.</p>
-
+<p><a href="/Principles/Sleeve-Control">Sleeve Control</a></p><p><a href="/Principles/Action-and-Reaction">Action and Reaction</a></p><p><a href="/Systems/Rubber-Guard-to-Omoplata-System">Eddie Bravo: Rubber Guard to Omoplata</a> — Compare the explicitly named rubber-guard entry lesson.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Submissions/Omoplata|Omoplata]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Submissions/Omoplata|Omoplata]] (Submission)
 
-- [[Positions/Omoplata Control|Omoplata Control]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Omoplata Control|Omoplata Control]] (Position)
 
-- [[Positions/Lasso Guard|Lasso Guard]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Closed Guard|Closed Guard]] (Position)
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Positions/Lasso Guard|Lasso Guard]] (Position)
 
-- [[Submissions/Monoplata|Monoplata]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
+
+
+- [[Positions/Half Guard|Half Guard]] (Position)
+
+
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission)
+
+
+- [[Submissions/Monoplata|Monoplata]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-source-url="https://bjjfanatics.com/products/omoplata-everyone-by-bernardo-faria" data-affiliate="false" data-system-slug="systems/bernardo-faria-omoplata-system" data-product-id="faria-omoplata" target="_blank" rel="noopener">Omoplata Everyone by Bernardo Faria</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume outline, including fabric-grip entries, standing and rolling responses, and a positional scoring option.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-source-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-affiliate="false" data-system-slug="systems/bernardo-faria-omoplata-system" data-product-id="bravo-rubber" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume syllabus. It explicitly names a rubber-guard-to-omoplata lesson, broader rubber-guard development, bottom half guard and variations; it gives no triangle-specific chapter label.</p>
+</section>
+
+</details>
 </section>
 </main>

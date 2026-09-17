@@ -1,148 +1,163 @@
 
 ---
-title: "Straight Ankle Lock and Kneebar Study | BJJGraph"
-description: "Find the two submission topics and identify what a transition between them still needs to demonstrate."
+title: "Straight Ankle Locks and Kneebars | BJJGraph"
+description: "Straight-ankle-lock and kneebar coverage in Craig Jones’s submission-combinations course, with the scope of the connection made explicit."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Straight Ankle Lock and Kneebar Study","description":"Find the two submission topics and identify what a transition between them still needs to demonstrate."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Straight Ankle Locks and Kneebars","description":"Straight-ankle-lock and kneebar coverage in Craig Jones’s submission-combinations course, with the scope of the connection made explicit."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph study guide. Not authored or endorsed by the instructor. Course: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Straight Footlock to Kneebar Chain">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Straight Ankle Locks and Kneebars</h1>
+<div class="system-tags"><span>Submission Chain</span><span>Advanced</span></div>
 
-## Straight Ankle Lock and Kneebar Study
+<p class="system-reference-count">21 related references (techniques and positions)</p>
+</header>
 
-**A study guide to Craig Jones’s adjacent straight-ankle-lock and kneebar sections, without assuming the outline establishes a fixed chain.**
-
-
-Volume 2 of Systematic Submission Dilemmas lists straight ankle locks and kneebars together. That makes the course relevant to both topics, but adjacent chapter labels alone do not establish the defensive trigger or movement connecting them.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-course-url="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos</h2><span class="system-course__instructor">By Craig Jones</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+Systematic Submission Dilemmas includes an ankle-lock kick-through problem, straight ankle locks from 50/50 and kneebars in its second volume. The rest of Craig Jones’s course expands into triangle finishing, triangle-to-leg transitions and match commentary.
 
-- You want to investigate both submissions while keeping the proposed transition distinct from the individual attacks.
-
-
-### Consider an alternative if
-
-- If the immediate problem is an ankle lock against a seated or kneeling opponent, compare Jason Rau Ankle Lock System before studying a second submission.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Check whether the connection is actually demonstrated
-
-Locate the three Volume 2 headings in the public outline. Keep separate notes for the ankle-lock problem, the 50/50 example and the kneebar. If you have the course, look specifically for a demonstrated connection between the attacks and record its starting position and stated trigger; leave the connection unconfirmed if neither is shown.
-
-Published section: Volume 2: Chapter 3 — Knee Bars (13:02).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="noopener">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones</a></p>
+It offers both straight-lock topics in one instructional, but they are only part of the eight-volume package. The published outline does not establish a specific footlock-to-kneebar reaction sequence.
 
 </section>
 
 
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+## Is this for you?
 
-<article class="product-card">
-<h3>Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos</h3>
-<p>By Craig Jones</p>
+- You want straight ankle locks and kneebars alongside a broader triangle-and-leg-attack game.
 
-<p><a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-course-url="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Jason-Rau-Ankle-Lock-System">Jason Rau: Dynamic Ankle Locks</a> — A more ankle-lock-centered course with seated and kneeling finishes, Aoki options and secondary attacks.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Volume 2 names an ankle-lock kick-through problem, a 50/50 straight-ankle lesson and kneebars.
-- The wider course connects triangles and leg positions, giving these straight-lock topics a broader context.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- An ankle-lock kick-through problem, straight ankle locks from 50/50 and kneebars.
+- Triangle entries and finishes, upper-to-lower-body transitions and match commentary elsewhere in the course.
+
 
 ### Limits
 
-- The public outline does not specify a universal footlock-to-kneebar reaction chain.
+- The public syllabus lists the two submissions but does not establish a specific footlock-to-kneebar chain.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" target="_blank" rel="noopener">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones</a> — official listing; checked 2026-09-16. Verified course identity and the consistent published sections on straight locks, triangles, upper-to-lower-body transitions and match commentary. These are advertised topics, not inspected technical demonstrations.</p><p><a href="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" target="_blank" rel="noopener">Dynamic Ankle Locks by Jason Rau</a> — official listing; checked 2026-09-16. Verified title, instructor and three-volume outline: grips and leg positions, posture-specific finishes, Aoki locks, heel hooks and positional alternatives.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-course-url="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-product-id="systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-system-name="Straight Footlock to Kneebar Chain" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Submission-Chains">Submission Chains</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Transition-Management">Transition Management</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Action-and-Reaction">Action and Reaction</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Levers">Levers</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Positional-Sparring">Positional Sparring</a> (Principle) — Related concept for organizing study.</p><p><a href="/Systems/Danaher-Leg-Lock-System">Danaher Leg Lock System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/Jason-Rau-Ankle-Lock-System">Jason Rau Ankle Lock System</a> (System) — A posture-specific ankle-lock alternative when a second submission is not the immediate study need.</p>
-
+<p><a href="/Principles/Submission-Chains">Submission Chains</a></p><p><a href="/Principles/Transition-Management">Transition Management</a></p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a></p><p><a href="/Principles/Action-and-Reaction">Action and Reaction</a></p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a></p><p><a href="/Principles/Levers">Levers</a></p><p><a href="/Principles/Positional-Sparring">Positional Sparring</a></p><p><a href="/Systems/Danaher-Leg-Lock-System">John Danaher: Leglocks — Enter The System</a></p><p><a href="/Systems/Jason-Rau-Ankle-Lock-System">Jason Rau: Dynamic Ankle Locks</a> — A posture-specific ankle-lock alternative when a second submission is not the immediate study need.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Ashi Garami|Ashi Garami]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Ashi Garami|Ashi Garami]] (Position)
 
-- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position)
 
-- [[Positions/Kneebar Control|Kneebar Control]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Straight Ankle Lock Control|Straight Ankle Lock Control]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position)
 
-- [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Ashi Garami/Saddle|Saddle]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Kneebar Control|Kneebar Control]] (Position)
 
-- [[Positions/Ashi Garami/Honey Hole|Honey Hole]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Ashi Garami/Cross Ashi-Garami|Cross Ashi-Garami]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Straight Ankle Lock Control|Straight Ankle Lock Control]] (Position)
 
-- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Transitions/Kneebar|Kneebar]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Positions/Ashi Garami/50-50 Guard|50-50 Guard]] (Position)
 
-- [[Submissions/Flying Kneebar|Flying Kneebar]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Submissions/Achilles Lock|Achilles Lock]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Positions/Ashi Garami/Saddle|Saddle]] (Position)
 
-- [[Submissions/Heel Hook|Heel Hook]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Submissions/Toe Hold|Toe Hold]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Positions/Ashi Garami/Honey Hole|Honey Hole]] (Position)
 
-- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) — Related graph transition for separate study, not a verified course sequence.
 
-- [[Transitions/Outside Ashi Entry|Outside Ashi Entry]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+- [[Positions/Ashi Garami/Cross Ashi-Garami|Cross Ashi-Garami]] (Position)
 
-- [[Transitions/Ashi Garami Escape|Ashi Garami Escape]] (Transition) — Related graph transition for separate study, not a verified course sequence.
 
-- [[Transitions/X-Guard to Ashi Garami|X-Guard to Ashi Garami]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+- [[Submissions/Straight Ankle Lock|Straight Ankle Lock]] (Submission)
 
-- [[Transitions/Saddle Entry from Top|Saddle Entry from Top]] (Transition) — Related graph transition for separate study, not a verified course sequence.
 
-- [[Positions/Leg Entanglement|Leg Entanglement]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Transitions/Kneebar|Kneebar]] (Submission)
 
+
+- [[Submissions/Flying Kneebar|Flying Kneebar]] (Submission)
+
+
+- [[Submissions/Achilles Lock|Achilles Lock]] (Submission)
+
+
+- [[Submissions/Heel Hook|Heel Hook]] (Submission)
+
+
+- [[Submissions/Toe Hold|Toe Hold]] (Submission)
+
+
+- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition)
+
+
+- [[Transitions/Outside Ashi Entry|Outside Ashi Entry]] (Transition)
+
+
+- [[Transitions/Ashi Garami Escape|Ashi Garami Escape]] (Transition)
+
+
+- [[Transitions/X-Guard to Ashi Garami|X-Guard to Ashi Garami]] (Transition)
+
+
+- [[Transitions/Saddle Entry from Top|Saddle Entry from Top]] (Transition)
+
+
+- [[Positions/Leg Entanglement|Leg Entanglement]] (Position)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-source-url="https://bjjfanatics.com/products/systematic-submission-dilemmas-high-level-triangle-and-leg-lock-combos-by-craig-jones" data-affiliate="false" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-product-id="craig-dilemmas" target="_blank" rel="noopener">Systematic Submission Dilemmas: High Level Triangle and Leg Lock Combos by Craig Jones</a> — official listing; checked 2026-09-16. Verified course identity and the consistent published sections on straight locks, triangles, upper-to-lower-body transitions and match commentary. These are advertised topics, not inspected technical demonstrations.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-source-url="https://bjjfanatics.com/products/dynamic-ankle-locks-by-jason-rau" data-affiliate="false" data-system-slug="systems/straight-footlock-to-kneebar-chain" data-product-id="rau-ankles" target="_blank" rel="noopener">Dynamic Ankle Locks by Jason Rau</a> — official listing; checked 2026-09-16. Verified title, instructor and three-volume outline: grips and leg positions, posture-specific finishes, Aoki locks, heel hooks and positional alternatives.</p>
+</section>
+
+</details>
 </section>
 </main>

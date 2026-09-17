@@ -1,126 +1,136 @@
 
 ---
-title: "John Danaher: Armbar Control and Entries | BJJGraph"
+title: "John Danaher: Arm Bars | BJJGraph"
 description: "John Danaher’s Arm Bars: Enter The System covers armbar control, hand separation and entries from guard, top pins and back-attacking situations."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"John Danaher: Armbar Control and Entries","description":"John Danaher’s Arm Bars: Enter The System covers armbar control, hand separation and entries from guard, top pins and back-attacking situations."}
+{"@context":"https://schema.org","@type":"WebPage","name":"John Danaher: Arm Bars","description":"John Danaher’s Arm Bars: Enter The System covers armbar control, hand separation and entries from guard, top pins and back-attacking situations."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Arm Bars: Enter The System by John Danaher.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Danaher Armbar System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>John Danaher: Arm Bars</h1>
+<div class="system-tags"><span>Attack System</span><span>Intermediate</span></div>
 
-## John Danaher: Armbar Control and Entries
+<p class="system-reference-count">6 related references (techniques and positions)</p>
+</header>
 
-**Navigate Danaher’s armbar course by separating entry, control and hand-separation questions.**
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" data-course-url="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" data-product-id="enter-the-system-arm-bar-by-john-danaher" data-system-slug="systems/danaher-armbar-system" data-system-name="Danaher Armbar System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Arm Bars: Enter The System</h2><span class="system-course__instructor">By John Danaher</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
+</section>
 
+<section id="overview" class="system-overview">
 
-Arm Bars: Enter The System treats the armbar across bottom, top and back-attacking situations. Choose the study phase before collecting more entries.
+Arm Bars: Enter The System examines the armbar beyond the initial entry. John Danaher devotes material to controlling the position, separating defensive grips and finishing, then covers entries from guard and top positions. It suits someone whose armbar stalls after getting into place as well as someone seeking a wider set of entries.
 
 </section>
 
-<section id="fit" class="content-section">
 
-## Is this useful for you?
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Danaher Armbar System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/f83fb91d-801b-41f2-b528-28a33de87812?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — John Danaher / Arm Bars: Enter The System">
+<h2>Official sample</h2>
+<p>Official sample — John Danaher / Arm Bars: Enter The System</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
 
-- Your armbar study mixes reaching the position with retaining it or separating defensive grips.
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" data-course-url="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" data-product-id="enter-the-system-arm-bar-by-john-danaher" data-system-slug="systems/danaher-armbar-system" data-system-name="Danaher Armbar System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Arm Bars: Enter The System · View course</a>
+</section>
+
+
+
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
+
+## Is this for you?
+
+- You reach armbar positions but struggle with control or defensive hand connections.
+- You want entries from both guard and dominant positions.
 
 
 ### Consider an alternative if
 
-- For transitions organized around a kimura rather than an armbar, compare Submission Clinic System.
+- You want a short overview of several unrelated submissions.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Submission-Clinic-System">John Danaher: Kimura Control and Attacks</a> — Kimura: Enter The System centers on kimura control, including switches to other submissions and positions.</p>
 
 
 </section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Sort one armbar problem by study phase
-
-Read the phase headings in Volume 1 and the control and separation sections in Volumes 2–3. Describe one unresolved exchange without guessing a correction, then select whether it raises an entry, control or separation question. Owners can start with the control overview below.
-
-Published section: Volume 1: overview 2st Phase - Control, 34:44–40:13
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" target="_blank" rel="noopener">Arm Bars: Enter The System by John Danaher</a></p>
-
-</section>
-
-
-<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/f83fb91d-801b-41f2-b528-28a33de87812?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — John Danaher / Arm Bars: Enter The System">
-<h2>Official sample — John Danaher / Arm Bars: Enter The System</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" target="_blank" rel="noopener">Watch on the official page: Arm Bars: Enter The System by John Danaher</a></p>
-</section>
-
-
-
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
-
-<article class="product-card">
-<h3>Arm Bars: Enter The System</h3>
-<p>By John Danaher</p>
-
-<p><a href="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" data-course-url="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" data-product-id="enter-the-system-arm-bar-by-john-danaher" data-system-slug="systems/danaher-armbar-system" data-system-name="Danaher Armbar System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
-
-</section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Control and separation material, guard entries, mounted and side-pin attacks, and connections with back and leg attacks.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Armbar orientation, leg configurations and positional control.
+- Hand-separation methods and finishing mechanics.
+- Top-lock and shoulder-pivot guard entries, plus mount, side-pin and back-attack connections.
+
 
 ### Limits
 
-- The course concentrates on juji gatame; it is not a general upper-body submission survey.
+- All eight volumes develop one submission family; the course is not a general submission curriculum.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" target="_blank" rel="noopener">Arm Bars: Enter The System by John Danaher</a> — official listing; checked 2026-09-16. Official listing inspected: John Danaher attribution, exact Arm Bars title, phase headings and positional coverage verified. The starting reference follows the published control-lesson label. Video content not reviewed. The official page embeds the selected sample under “Check Out Sample”; its video content has not been reviewed.</p><p><a href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" target="_blank" rel="noopener">Kimura: Enter The System by John Danaher</a> — official listing; checked 2026-09-16. Official listing inspected to compare the advertised subject and course breadth with this guide.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" data-course-url="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" data-product-id="enter-the-system-arm-bar-by-john-danaher" data-system-slug="systems/danaher-armbar-system" data-system-name="Danaher Armbar System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Arm Bars: Enter The System</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Wedges">Wedges</a> (Principle) — Related concept for framing study questions.</p><p><a href="/Principles/Levers">Levers</a> (Principle) — Related concept for framing study questions.</p><p><a href="/Principles/Grips">Grips</a> (Principle) — Related concept for framing study questions.</p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a> (Principle) — Related concept for framing study questions.</p><p><a href="/Systems/Submission-Clinic-System">Submission Clinic System</a> (System) — A kimura-centered alternative for studying positional and submission branches.</p>
-
+<p><a href="/Principles/Wedges">Wedges</a></p><p><a href="/Principles/Levers">Levers</a></p><p><a href="/Principles/Grips">Grips</a></p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a></p><p><a href="/Systems/Submission-Clinic-System">John Danaher: Kimura Control and Attacks</a> — Kimura: Enter The System centers on kimura control, including switches to other submissions and positions.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Submissions/Armbar|Armbar]] (Submission) — Related submission card for separate study.
+- [[Submissions/Armbar|Armbar]] (Submission)
 
-- [[Positions/Armbar Control|Armbar Control]] (Position) — Related position for orientation.
 
-- [[Positions/Mount|Mount]] (Position) — Related position for orientation.
+- [[Positions/Armbar Control|Armbar Control]] (Position)
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Related position for orientation.
 
-- [[Positions/Side Control|Side Control]] (Position) — Related position for orientation.
+- [[Positions/Mount|Mount]] (Position)
 
-- [[Positions/Back Control|Back Control]] (Position) — Related position for orientation.
 
+- [[Positions/Closed Guard|Closed Guard]] (Position)
+
+
+- [[Positions/Side Control|Side Control]] (Position)
+
+
+- [[Positions/Back Control|Back Control]] (Position)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" data-source-url="https://bjjfanatics.com/products/enter-the-system-arm-bar-by-john-danaher" data-affiliate="false" data-system-slug="systems/danaher-armbar-system" data-product-id="course" target="_blank" rel="noopener">Arm Bars: Enter The System by John Danaher</a> — official listing; checked 2026-09-16. Official listing inspected: John Danaher attribution, exact Arm Bars title, phase headings and positional coverage verified. The starting reference follows the published control-lesson label. Video content not reviewed. The official page embeds the selected sample under “Check Out Sample”; its video content has not been reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-source-url="https://bjjfanatics.com/products/kimura-enter-the-system-by-john-danaher" data-affiliate="false" data-system-slug="systems/danaher-armbar-system" data-product-id="comparison" target="_blank" rel="noopener">Kimura: Enter The System by John Danaher</a> — official listing; checked 2026-09-16. Official listing inspected to compare the advertised subject and course breadth with this guide.</p>
+</section>
+
+</details>
 </section>
 </main>

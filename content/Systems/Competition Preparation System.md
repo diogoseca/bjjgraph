@@ -1,135 +1,140 @@
 
 ---
-title: "Competition Preparation: Planning Tournament Day | BJJGraph"
-description: "A study companion to Competition Preparation Masterclass, focused on organizing the decisions around tournament day."
+title: "Competition Preparation with Matt D’Aquino | BJJGraph"
+description: "Matt D’Aquino’s Competition Preparation Masterclass covers tournament preparation, travel, match-day decisions and coach communication."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Competition Preparation: Planning Tournament Day","description":"A study companion to Competition Preparation Masterclass, focused on organizing the decisions around tournament day."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Competition Preparation with Matt D’Aquino","description":"Matt D’Aquino’s Competition Preparation Masterclass covers tournament preparation, travel, match-day decisions and coach communication."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Competition Preparation Masterclass by Matt D&#39;Aquino.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Competition Preparation System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Competition Preparation with Matt D’Aquino</h1>
+<div class="system-tags"><span>Competition Strategy</span><span>Intermediate</span></div>
 
-## Competition Preparation: Planning Tournament Day
+<p class="system-reference-count">14 related references (techniques and positions)</p>
+</header>
 
-**Use Matt D’Aquino’s preparation syllabus to separate travel, packing, coach communication and post-event review.**
-
-
-A tournament plan needs practical details as well as a preferred game. Matt D’Aquino’s Competition Preparation Masterclass groups combat-sports preparation into training, logistics, strategy and reflection. Use its chapter map to find the part of preparation you are missing; check event requirements with the organizer.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" data-course-url="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" data-product-id="daquino-competition-preparation-masterclass" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Competition Preparation Masterclass</h2><span class="system-course__instructor">By Matt D&#39;Aquino</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+Competition Preparation Masterclass covers the parts of competing that a technique course often leaves aside: competition-specific training, packing, travel, match-day decisions and the relationship between athlete and coach. Matt D’Aquino brings a judo perspective to preparation for combat sports.
 
-- You have a tournament in mind but no clear packing, travel or coach-communication plan.
-
-
-### Consider an alternative if
-
-- For scoring and permitted techniques, use IBJJF Strategy Guide and the rules adopted by your event.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Find the gaps in your tournament-day checklist
-
-Without buying the course, compare your existing event plan with the packing and travel modules. Put equipment in one column and arrival arrangements in another; mark anything that still needs an organizer or coach’s answer. Course owners can begin with those two modules, then move to the coach-player lesson if communication is the missing piece.
-
-Published section: Volume 2: module 5 what to pack on competition day; module 6 getting to and from a competition. Volume 4: module 13.2 Coach and player relationship on competition day.
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" target="_blank" rel="noopener">Competition Preparation Masterclass by Matt D&#39;Aquino</a></p>
+The four-volume course also addresses motivation, weight-division choices, competition strategy and what happens after the event. Its breadth suits competitors who want a clearer tournament routine; it is not a BJJ technique curriculum or a current event rulebook.
 
 </section>
 
 
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+## Is this for you?
 
-<article class="product-card">
-<h3>Competition Preparation Masterclass</h3>
-<p>By Matt D&#39;Aquino</p>
+- You want help with tournament preparation beyond the techniques you intend to use.
+- Packing, travel, coach communication or post-event reflection are recurring gaps in your competition routine.
 
-<p><a href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" data-course-url="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" data-product-id="daquino-competition-preparation-masterclass" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Mental-Game-Framework">Champions Stay Present: Competition Mindset</a> — Josh McKinney’s Champions Stay Present concentrates on mindset across training camp, competition day and performance review.</p><p><a href="/Systems/IBJJF-Strategy-Guide">IBJJF Competition Requirements</a> — For IBJJF registration, uniforms and division-specific requirements.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Volume 2 separates packing, travel and pre-competition arrangements.
-- Volumes 3 and 4 address competition strategy, post-event review and the coach-player relationship.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Competition-specific training, reasons to compete and weight-division choices.
+- Packing, travel, pre-event preparation and the period after weigh-in.
+- Competition strategy, coach-player communication, motivation and post-event review.
+
 
 ### Limits
 
-- The syllabus is for combat sports generally; BJJ division rules and event logistics need their own sources.
-- Diet and weight-cutting chapters are listed, but this guide provides no weight-management or conditioning prescription.
+- The course addresses combat sports from a judo perspective; BJJ scoring and division restrictions require separate rules guidance.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" target="_blank" rel="noopener">Competition Preparation Masterclass by Matt D&#39;Aquino</a> — official listing; checked 2026-09-16. Verified course identity and four-volume syllabus, including packing, travel, competition strategy, coach communication and post-event review. The listing describes coverage; it does not supply the lessons themselves.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" data-course-url="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" data-product-id="daquino-competition-preparation-masterclass" data-system-slug="systems/competition-preparation-system" data-system-name="Competition Preparation System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Competition Preparation Masterclass</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Systems/Competition-Strategy">Competition Strategy</a> (System) — Use to organize your intended match options after the practical event plan is in place.</p><p><a href="/Systems/Competition-Scoring-Strategy">Competition Scoring Strategy</a> (System) — Related study guide: Competition Scoring Strategy.</p><p><a href="/Systems/Mental-Game-Framework">Mental Game Framework</a> (System) — Related study guide: Mental Game Framework.</p><p><a href="/Systems/IBJJF-Strategy-Guide">IBJJF Strategy Guide</a> (System) — Use for the separate task of checking IBJJF rules and division requirements.</p><p><a href="/Principles/Competition-Mindset">Competition Mindset</a> (Principle) — Further conceptual reading: Competition Mindset.</p><p><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a> (Principle) — Further conceptual reading: Positional Hierarchy.</p><p><a href="/Principles/Maximum-Efficiency-Principle">Maximum Efficiency Principle</a> (Principle) — Further conceptual reading: Maximum Efficiency Principle.</p><p><a href="/Principles/Grips">Grips</a> (Principle) — Further conceptual reading: Grips.</p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a> (Principle) — Further conceptual reading: Defensive Concepts.</p><p><a href="/Principles/Energy-Conservation">Energy Conservation</a> (Principle) — Further conceptual reading: Energy Conservation.</p><p><a href="/Principles/Control-Point-Hierarchy">Control Point Hierarchy</a> (Principle) — Further conceptual reading: Control Point Hierarchy.</p>
-
+<p><a href="/Systems/Competition-Strategy">Competition Game Plans</a> — Event-specific game plans and their offensive and defensive situations.</p><p><a href="/Systems/Competition-Scoring-Strategy">IBJJF Points, Control and Tiebreakers</a> — IBJJF points, continuous positional control and regulation-time tiebreakers.</p><p><a href="/Systems/Mental-Game-Framework">Champions Stay Present: Competition Mindset</a></p><p><a href="/Systems/IBJJF-Strategy-Guide">IBJJF Competition Requirements</a> — IBJJF eligibility, uniform and division requirements.</p><p><a href="/Principles/Competition-Mindset">Competition Mindset</a></p><p><a href="/Principles/Positional-Hierarchy">Positional Hierarchy</a></p><p><a href="/Principles/Maximum-Efficiency-Principle">Maximum Efficiency Principle</a></p><p><a href="/Principles/Grips">Grips</a></p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a></p><p><a href="/Principles/Energy-Conservation">Energy Conservation</a></p><p><a href="/Principles/Control-Point-Hierarchy">Control Point Hierarchy</a></p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Transitions/Guard Pull|Guard Pull]] (Transition) — Related transition reference: Guard Pull.
+- [[Transitions/Guard Pull|Guard Pull]] (Transition)
 
-- [[Transitions/Arm Drag|Arm Drag]] (Transition) — Related transition reference: Arm Drag.
 
-- [[Transitions/Double Leg Entry|Double Leg Entry]] (Transition) — Related transition reference: Double Leg Entry.
+- [[Transitions/Arm Drag|Arm Drag]] (Transition)
 
-- [[Transitions/Single Leg Entry|Single Leg Entry]] (Transition) — Related transition reference: Single Leg Entry.
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Position reference for organizing study: Closed Guard.
+- [[Transitions/Double Leg Entry|Double Leg Entry]] (Transition)
 
-- [[Positions/Mount|Mount]] (Position) — Position reference for organizing study: Mount.
 
-- [[Positions/Back Control|Back Control]] (Position) — Position reference for organizing study: Back Control.
+- [[Transitions/Single Leg Entry|Single Leg Entry]] (Transition)
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Position reference for organizing study: Half Guard.
 
-- [[Positions/De La Riva Guard|De La Riva Guard]] (Position) — Position reference for organizing study: De La Riva Guard.
+- [[Positions/Closed Guard|Closed Guard]] (Position)
 
-- [[Positions/X-Guard|X-Guard]] (Position) — Position reference for organizing study: X-Guard.
 
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) — Position reference for organizing study: Butterfly Guard.
+- [[Positions/Mount|Mount]] (Position)
 
-- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) — Related submission reference: Rear Naked Choke.
 
-- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) — Related submission reference: Triangle Choke.
+- [[Positions/Back Control|Back Control]] (Position)
 
-- [[Submissions/Armbar/from Armbar Control|Armbar from Armbar Control]] (Submission) — Related submission reference: Armbar from Armbar Control.
 
+- [[Positions/Half Guard|Half Guard]] (Position)
+
+
+- [[Positions/De La Riva Guard|De La Riva Guard]] (Position)
+
+
+- [[Positions/X-Guard|X-Guard]] (Position)
+
+
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
+
+
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission)
+
+
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission)
+
+
+- [[Submissions/Armbar/from Armbar Control|Armbar from Armbar Control]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" data-source-url="https://bjjfanatics.com/products/competition-preparation-masterclass-by-matt-daquino" data-affiliate="false" data-system-slug="systems/competition-preparation-system" data-product-id="daquino-preparation" target="_blank" rel="noopener">Competition Preparation Masterclass by Matt D&#39;Aquino</a> — official listing; checked 2026-09-16. Verified course identity and four-volume syllabus, including packing, travel, competition strategy, coach communication and post-event review. The listing describes coverage; it does not supply the lessons themselves.</p>
+</section>
+
+</details>
 </section>
 </main>

@@ -1,156 +1,167 @@
 
 ---
-title: "Eddie Bravo: Choosing a Guard Study Route | BJJGraph"
-description: "Choose an entry point into Eddie Bravo’s advertised guard material according to whether you want context, rubber guard or bottom half."
+title: "Eddie Bravo: The Ultimate Rubber Guard | BJJGraph"
+description: "Eddie Bravo’s four-volume course on rubber guard, its origins and selected bottom-half material."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Eddie Bravo: Choosing a Guard Study Route","description":"Choose an entry point into Eddie Bravo’s advertised guard material according to whether you want context, rubber guard or bottom half."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Eddie Bravo: The Ultimate Rubber Guard","description":"Eddie Bravo’s four-volume course on rubber guard, its origins and selected bottom-half material."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: The Ultimate Rubber Guard by Eddie Bravo.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="10th Planet No-Gi Guard System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Eddie Bravo: The Ultimate Rubber Guard</h1>
+<div class="system-tags"><span>Guard System</span><span>Advanced</span></div>
 
-## Eddie Bravo: Choosing a Guard Study Route
+<p class="system-reference-count">19 related references (techniques and positions)</p>
+</header>
 
-**A navigation guide to the history, rubber-guard and bottom-half sections of Eddie Bravo’s The Ultimate Rubber Guard.**
-
-
-A school’s no-gi curriculum can be much broader than one release. This page helps you select a route through the linked course and points to more focused companion pages when you already know your subject.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Ultimate Rubber Guard</h2><span class="system-course__instructor">By Eddie Bravo</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
-
-- You are unsure which part of the linked Eddie Bravo release matches your current interest.
-
-
-### Consider an alternative if
-
-- For a direct rubber-guard study route, use the Rubber Guard guide; for the brief half-guard section, use Bottom Half Study.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Choose context or positional study
-
-Compare the first volume’s historical headings with the positional headings in volumes 3 and 4. Select one of three routes: background, rubber guard, or bottom half. If your goal is open guard against a standing passer, compare the Marcelo X-Guard guide instead.
-
-Published section: Volume 3: Full Rubber Guard — 0–38:49 (course range)
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a></p>
-
-<p>Source: <a href="https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia" target="_blank" rel="noopener">The Marcelo X Guard by Marcelo Garcia</a></p>
+Eddie Bravo mixes positional instruction with the story of rubber guard in The Ultimate Rubber Guard. The opening volume discusses Combat Jiu Jitsu, MMA and gi versus no-gi before the course turns to omoplata attacks, rubber-guard development and bottom half. It suits readers interested in both the guard and Bravo’s explanation of its origins.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="youtube" data-embed-url="https://www.youtube.com/embed/_Vg4g6U1EXI?autoplay=0" data-verified-origins="[]" data-preview-title="Official trailer — Eddie Bravo / The Ultimate Rubber Guard">
-<h2>Official trailer — Eddie Bravo / The Ultimate Rubber Guard</h2>
-<p>Official trailer. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official trailer</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="noopener">Watch on the official page: The Ultimate Rubber Guard by Eddie Bravo</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="10th Planet No-Gi Guard System" data-provider="youtube" data-embed-url="https://www.youtube.com/embed/_Vg4g6U1EXI?autoplay=0" data-verified-origins="[]" data-preview-title="Official trailer — Eddie Bravo / The Ultimate Rubber Guard">
+<h2>Official trailer</h2>
+<p>Official trailer — Eddie Bravo / The Ultimate Rubber Guard</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the trailer on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">The Ultimate Rubber Guard · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>The Ultimate Rubber Guard</h3>
-<p>By Eddie Bravo</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You want Bravo’s historical context as well as his rubber-guard instruction.
+
+
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Historical discussion precedes rubber-guard material; bottom half appears in the final volume.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Rubber-guard origins, evolution and positional instruction, plus a shorter bottom-half section.
+
 
 ### Limits
 
-- The published outline does not list a truck or twister curriculum, nor a complete open-guard program.
+- The course concentrates on rubber guard; it does not cover the full 10th Planet no-gi curriculum.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a> — official listing; checked 2026-09-16. Verified four volumes, instructor, rubber-guard history and omoplata coverage, and the Bottom Half section. Listing and official trailer iframe inspected; player content and playback not reviewed.</p><p><a href="https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia" target="_blank" rel="noopener">The Marcelo X Guard by Marcelo Garcia</a> — official listing; checked 2026-09-16. Verified butterfly/shin-to-shin entries, sleeve/collar examples, stand-up finishes and pummel/backstep counters. Listing inspected; course video content not reviewed.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-course-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-product-id="the-ultimate-rubber-guard-by-eddie-bravo" data-system-slug="systems/10th-planet-no-gi-guard-system" data-system-name="10th Planet No-Gi Guard System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Ultimate Rubber Guard</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Frames">Frames</a> (Principle) — Frames: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Hip-Escape-Mechanics">Hip Escape Mechanics</a> (Principle) — Hip Escape Mechanics: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Submission-Chains">Submission Chains</a> (Principle) — Submission Chains: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a> (Principle) — Fork Attacks: related principle study, separate from the source syllabus.</p><p><a href="/Systems/10th-Planet-Rubber-Guard-System">10th Planet Rubber Guard System</a> (System) — Focused companion for the rubber-guard material in this same release.</p><p><a href="/Systems/10th-Planet-Half-Guard-Bottom-System">10th Planet Half Guard Bottom System</a> (System) — Focused companion for the bottom-half section in this same release.</p><p><a href="/Systems/Twister-System">Twister System</a> (System) — Twister System: related system study, separate from the source syllabus.</p><p><a href="/Systems/Marcelo-Garcia-X-Guard-System">Marcelo Garcia X-Guard System</a> (System) — Compare for a separately indexed open-guard entry and sweep syllabus.</p>
-
+<p><a href="/Principles/Frames">Frames</a></p><p><a href="/Principles/Hip-Escape-Mechanics">Hip Escape Mechanics</a></p><p><a href="/Principles/Submission-Chains">Submission Chains</a></p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a></p><p><a href="/Systems/10th-Planet-Rubber-Guard-System">Eddie Bravo: Rubber Guard</a> — Focused companion for the rubber-guard material in this same release.</p><p><a href="/Systems/10th-Planet-Half-Guard-Bottom-System">Eddie Bravo: Bottom Half in The Ultimate Rubber Guard</a> — Focused companion for the bottom-half section in this same release.</p><p><a href="/Systems/Twister-System">Twister and Truck Entries</a></p><p><a href="/Systems/Marcelo-Garcia-X-Guard-System">Marcelo Garcia: X-Guard Entries and Sweeps</a> — Compare for a separately indexed open-guard entry and sweep syllabus.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Rubber Guard|Rubber Guard]] (Position) — Rubber Guard: related position study, separate from the source syllabus.
+- [[Positions/Rubber Guard|Rubber Guard]] (Position)
 
-- [[Positions/Rubber Guard/Mission Control|Mission Control]] (Position) — Mission Control: related position study, separate from the source syllabus.
 
-- [[Positions/Rubber Guard/New York|New York]] (Position) — New York: related position study, separate from the source syllabus.
+- [[Positions/Rubber Guard/Mission Control|Mission Control]] (Position)
 
-- [[Positions/Rubber Guard/Meathook|Meathook]] (Position) — Meathook: related position study, separate from the source syllabus.
 
-- [[Positions/Rubber Guard/Chill Dog|Chill Dog]] (Position) — Chill Dog: related position study, separate from the source syllabus.
+- [[Positions/Rubber Guard/New York|New York]] (Position)
 
-- [[Positions/Half Guard/Lockdown|Lockdown]] (Position) — Lockdown: related position study, separate from the source syllabus.
 
-- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Position) — Electric Chair: related position study, separate from the source syllabus.
+- [[Positions/Rubber Guard/Meathook|Meathook]] (Position)
 
-- [[Positions/Twister Control/Truck|Truck]] (Position) — Truck: related position study, separate from the source syllabus.
 
-- [[Positions/Twister Control|Twister Control]] (Position) — Twister Control: related position study, separate from the source syllabus.
+- [[Positions/Rubber Guard/Chill Dog|Chill Dog]] (Position)
 
-- [[Positions/Inverted Guard|Inverted Guard]] (Position) — Inverted Guard: related position study, separate from the source syllabus.
 
-- [[Transitions/Triangle Setup|Triangle Setup]] (Transition) — Triangle Setup: related transition study, separate from the source syllabus.
+- [[Positions/Half Guard/Lockdown|Lockdown]] (Position)
 
-- [[Transitions/Omoplata Sweep|Omoplata Sweep]] (Transition) — Omoplata Sweep: related transition study, separate from the source syllabus.
 
-- [[Transitions/Old School Sweep|Old School Sweep]] (Transition) — Old School Sweep: related transition study, separate from the source syllabus.
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Position)
 
-- [[Transitions/Truck Entry|Truck Entry]] (Transition) — Truck Entry: related transition study, separate from the source syllabus.
 
-- [[Transitions/Triangle from Guard|Triangle from Guard]] (Submission) — Triangle from Guard: related submission study, separate from the source syllabus.
+- [[Positions/Twister Control/Truck|Truck]] (Position)
 
-- [[Submissions/Omoplata|Omoplata]] (Submission) — Omoplata: related submission study, separate from the source syllabus.
 
-- [[Transitions/Gogoplata|Gogoplata]] (Submission) — Gogoplata: related submission study, separate from the source syllabus.
+- [[Positions/Twister Control|Twister Control]] (Position)
 
-- [[Submissions/Twister|Twister]] (Submission) — Twister: related submission study, separate from the source syllabus.
 
-- [[Submissions/Calf Slicer|Calf Slicer]] (Submission) — Calf Slicer: related submission study, separate from the source syllabus.
+- [[Positions/Inverted Guard|Inverted Guard]] (Position)
 
-- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Submission) — Electric Chair: related submission study, separate from the source syllabus.
 
+- [[Transitions/Triangle Setup|Triangle Setup]] (Transition)
+
+
+- [[Transitions/Omoplata Sweep|Omoplata Sweep]] (Transition)
+
+
+- [[Transitions/Old School Sweep|Old School Sweep]] (Transition)
+
+
+- [[Transitions/Truck Entry|Truck Entry]] (Transition)
+
+
+- [[Transitions/Triangle from Guard|Triangle from Guard]] (Submission)
+
+
+- [[Submissions/Omoplata|Omoplata]] (Submission)
+
+
+- [[Transitions/Gogoplata|Gogoplata]] (Submission)
+
+
+- [[Submissions/Twister|Twister]] (Submission)
+
+
+- [[Submissions/Calf Slicer|Calf Slicer]] (Submission)
+
+
+- [[Positions/Half Guard/Electric Chair|Electric Chair]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-source-url="https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo" data-affiliate="false" data-system-slug="systems/10th-planet-no-gi-guard-system" data-product-id="bravo-rubber-listing" target="_blank" rel="noopener">The Ultimate Rubber Guard by Eddie Bravo</a> — official listing; checked 2026-09-16. Verified four volumes, instructor, rubber-guard history and omoplata coverage, and the Bottom Half section. Listing and official trailer iframe inspected; player content and playback not reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia" data-source-url="https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia" data-affiliate="false" data-system-slug="systems/10th-planet-no-gi-guard-system" data-product-id="garcia-xguard-listing" target="_blank" rel="noopener">The Marcelo X Guard by Marcelo Garcia</a> — official listing; checked 2026-09-16. Verified butterfly/shin-to-shin entries, sleeve/collar examples, stand-up finishes and pummel/backstep counters. Listing inspected; course video content not reviewed.</p>
+</section>
+
+</details>
 </section>
 </main>

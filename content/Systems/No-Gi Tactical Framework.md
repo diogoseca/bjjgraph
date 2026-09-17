@@ -1,156 +1,172 @@
 
 ---
-title: "No-Gi Top Control: Studying Power Ride | BJJGraph"
-description: "A focused companion to Power Ride: A New Philosophy on Pinning, covering its advertised control themes and study entry points."
+title: "Power Ride: Craig Jones’s Pinning System | BJJGraph"
+description: "Craig Jones’s Power Ride: A New Philosophy on Pinning covers leg rides, upper-body controls, turtle and submissions from top."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"No-Gi Top Control: Studying Power Ride","description":"A focused companion to Power Ride: A New Philosophy on Pinning, covering its advertised control themes and study entry points."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Power Ride: Craig Jones’s Pinning System","description":"Craig Jones’s Power Ride: A New Philosophy on Pinning covers leg rides, upper-body controls, turtle and submissions from top."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Power Ride: A New Philosophy on Pinning by Craig Jones.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="No-Gi Tactical Framework">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Power Ride: Craig Jones’s Pinning System</h1>
+<div class="system-tags"><span>Competition Strategy</span><span>Intermediate</span></div>
 
-## No-Gi Top Control: Studying Power Ride
+<p class="system-reference-count">20 related references (techniques and positions)</p>
+</header>
 
-**Use Craig Jones’s Power Ride syllabus to distinguish reaching top position from studying how to keep an opponent there.**
-
-
-If you reach top position but lose track of the opponent’s next movement, a broad no-gi curriculum may be less useful than a focused pinning study. Power Ride separates leg control, upper-body tools and turtle control before its entries and submission material. That structure lets you choose which control problem to examine first.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-course-url="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-product-id="power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Power Ride: A New Philosophy on Pinning</h2><span class="system-course__instructor">By Craig Jones</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+Power Ride: A New Philosophy on Pinning centers on keeping an opponent down. Craig Jones separates scoring a position from controlling movement, then covers leg rides, upper-body controls and ways to break down turtle.
 
-- Your study priority is keeping an opponent controlled from top rather than adding a new guard or standing attack.
-
-
-### Consider an alternative if
-
-- For scoring phases and technique legality, use No-Gi Competition Approach; this course’s pinning philosophy is not an event rulebook.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Distinguish an entry problem from a control problem
-
-Find a top-position exchange in your own notes or footage. Mark when you arrived on top and when the opponent next changed position. Decide which moment you need help understanding. Compare the entry labels in Volume 5 with the control groups in Volumes 2–4; owners can start with Volume 1’s scoring-versus-control discussion before choosing the matching group.
-
-Published section: Volume 1: Traditional Scoring: Points Do Not Mean Control. Volumes 2–4: Leg Control; Upper Body Tools; Control Principles from Turtle.
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" target="_blank" rel="noopener">Power Ride: A New Philosophy on Pinning by Craig Jones</a></p>
+The six-volume course includes turks and shelves, claws and half nelsons, and turtle controls such as spiral rides. Entries come from side control, mount and passing positions, followed by submission material including arm triangles, rear Ezekiels, darces and kimuras. It suits grapplers who reach top position but want a more developed pinning game.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/7e803878-bff1-4dff-b09b-6a97989480d5?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Craig Jones / Power Ride: A New Philosophy on Pinning">
-<h2>Official sample — Craig Jones / Power Ride: A New Philosophy on Pinning</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" target="_blank" rel="noopener">Watch on the official page: Power Ride: A New Philosophy on Pinning by Craig Jones</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="No-Gi Tactical Framework" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/7e803878-bff1-4dff-b09b-6a97989480d5?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Craig Jones / Power Ride: A New Philosophy on Pinning">
+<h2>Official sample</h2>
+<p>Official sample — Craig Jones / Power Ride: A New Philosophy on Pinning</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-course-url="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-product-id="power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Power Ride: A New Philosophy on Pinning · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>Power Ride: A New Philosophy on Pinning</h3>
-<p>By Craig Jones</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-course-url="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-product-id="power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You reach top position but have trouble keeping opponents controlled as they move or turn to turtle.
+- You want rides and pins that connect to submission attacks.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Gordon-Ryan-Passing-System">Gordon Ryan: No-Gi Guard Passing</a> — Gordon Ryan’s Systematically Attacking The Guard addresses getting past guards, including split-squat, half-guard and body-lock passing.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Volume 1 introduces the relationship between scoring and control; Volumes 2–4 list leg, upper-body and turtle-control material.
-- Volumes 5 and 6 cover entries and control-to-submission topics.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Leg control through splits, rides, turks and shelves; upper-body tools including claws and half nelsons.
+- Turtle-control material and entries from side control, mount and passing positions.
+- Submission attacks from control, including arm triangles, rear Ezekiels, darces and kimuras.
+
 
 ### Limits
 
-- The selected course centers on pinning; it does not provide a complete bottom-game or takedown curriculum.
-- A chapter title identifies the subject, not the mechanics or ruleset permission for applying it.
+- This is a pinning course; a complete guard-passing or bottom-game curriculum is a different scope.
+- Its control philosophy does not replace an event’s scoring and permitted-technique rules.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" target="_blank" rel="noopener">Power Ride: A New Philosophy on Pinning by Craig Jones</a> — official listing; checked 2026-09-16. Verified title, instructor and six-volume outline covering leg control, upper-body tools, turtle control, entries and submissions. The page labels a free sample; only the page and outline were inspected.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-course-url="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-product-id="power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-system-slug="systems/no-gi-tactical-framework" data-system-name="No-Gi Tactical Framework" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Power Ride: A New Philosophy on Pinning</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Grips">Grips</a> (Principle) — Further conceptual reading: Grips.</p><p><a href="/Principles/Connection-Principles">Connection Principles</a> (Principle) — Further conceptual reading: Connection Principles.</p><p><a href="/Principles/Pressure">Pressure</a> (Principle) — Further conceptual reading: Pressure.</p><p><a href="/Principles/Frames">Frames</a> (Principle) — Further conceptual reading: Frames.</p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a> (Principle) — Further conceptual reading: Fork Attacks.</p><p><a href="/Systems/Danaher-Leg-Lock-System">Danaher Leg Lock System</a> (System) — Related study guide: Danaher Leg Lock System.</p><p><a href="/Systems/Craig-Jones-Leg-Lock-System">Craig Jones Leg Lock System</a> (System) — Related study guide: Craig Jones Leg Lock System.</p><p><a href="/Systems/Danaher-Front-Headlock-System">Danaher Front Headlock System</a> (System) — Related study guide: Danaher Front Headlock System.</p><p><a href="/Systems/Gordon-Ryan-Passing-System">Gordon Ryan Passing System</a> (System) — Related study guide: Gordon Ryan Passing System.</p><p><a href="/Systems/Back-Attack-System">Back Attack System</a> (System) — Related study guide: Back Attack System.</p><p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition Approach</a> (System) — Check how the chosen event scores and restricts techniques before applying course material.</p>
-
+<p><a href="/Principles/Grips">Grips</a></p><p><a href="/Principles/Connection-Principles">Connection Principles</a></p><p><a href="/Principles/Pressure">Pressure</a></p><p><a href="/Principles/Frames">Frames</a></p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a></p><p><a href="/Systems/Danaher-Leg-Lock-System">John Danaher: Leglocks — Enter The System</a></p><p><a href="/Systems/Craig-Jones-Leg-Lock-System">Craig Jones: Down Under Leg Attacks</a></p><p><a href="/Systems/Danaher-Front-Headlock-System">John Danaher: Front Headlock Attacks</a></p><p><a href="/Systems/Gordon-Ryan-Passing-System">Gordon Ryan: No-Gi Guard Passing</a></p><p><a href="/Systems/Back-Attack-System">John Danaher: Back Attacks</a></p><p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition: IBJJF and ADCC</a> — IBJJF and ADCC scoring differences and division restrictions.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Body Lock|Body Lock]] (Position) — Position reference for organizing study: Body Lock.
+- [[Positions/Body Lock|Body Lock]] (Position)
 
-- [[Positions/Front Headlock|Front Headlock]] (Position) — Position reference for organizing study: Front Headlock.
 
-- [[Positions/Back Control|Back Control]] (Position) — Position reference for organizing study: Back Control.
+- [[Positions/Front Headlock|Front Headlock]] (Position)
 
-- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position) — Position reference for organizing study: Inside Ashi-Garami.
 
-- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position) — Position reference for organizing study: Outside Ashi-Garami.
+- [[Positions/Back Control|Back Control]] (Position)
 
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) — Position reference for organizing study: Butterfly Guard.
 
-- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) — Position reference for organizing study: Deep Half Guard.
+- [[Positions/Ashi Garami/Inside Ashi-Garami|Inside Ashi-Garami]] (Position)
 
-- [[Positions/Headquarters Position|Headquarters Position]] (Position) — Position reference for organizing study: Headquarters Position.
 
-- [[Positions/Darce Control|Darce Control]] (Position) — Position reference for organizing study: Darce Control.
+- [[Positions/Ashi Garami/Outside Ashi-Garami|Outside Ashi-Garami]] (Position)
 
-- [[Positions/Guillotine Control|Guillotine Control]] (Position) — Position reference for organizing study: Guillotine Control.
 
-- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition) — Related transition reference: Snap Down to Front Headlock.
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
 
-- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition) — Related transition reference: Inside Ashi Entry.
 
-- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition) — Related transition reference: Body Lock Pass.
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position)
 
-- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition) — Related transition reference: Guillotine Setup.
 
-- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) — Related submission reference: Rear Naked Choke.
+- [[Positions/Headquarters Position|Headquarters Position]] (Position)
 
-- [[Submissions/Darce Choke|Darce Choke]] (Submission) — Related submission reference: Darce Choke.
 
-- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) — Related submission reference: Guillotine Choke.
+- [[Positions/Darce Control|Darce Control]] (Position)
 
-- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission) — Related submission reference: Inside Heel Hook.
 
-- [[Transitions/Anaconda Choke|Anaconda Choke]] (Submission) — Related submission reference: Anaconda Choke.
+- [[Positions/Guillotine Control|Guillotine Control]] (Position)
 
-- [[Submissions/Kimura|Kimura]] (Submission) — Related submission reference: Kimura.
 
+- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition)
+
+
+- [[Transitions/Inside Ashi Entry|Inside Ashi Entry]] (Transition)
+
+
+- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition)
+
+
+- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition)
+
+
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission)
+
+
+- [[Submissions/Darce Choke|Darce Choke]] (Submission)
+
+
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission)
+
+
+- [[Submissions/Inside Heel Hook|Inside Heel Hook]] (Submission)
+
+
+- [[Transitions/Anaconda Choke|Anaconda Choke]] (Submission)
+
+
+- [[Submissions/Kimura|Kimura]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-source-url="https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones" data-affiliate="false" data-system-slug="systems/no-gi-tactical-framework" data-product-id="jones-power-ride" target="_blank" rel="noopener">Power Ride: A New Philosophy on Pinning by Craig Jones</a> — official listing; checked 2026-09-16. Verified title, instructor and six-volume outline covering leg control, upper-body tools, turtle control, entries and submissions. The page labels a free sample; only the page and outline were inspected.</p>
+</section>
+
+</details>
 </section>
 </main>

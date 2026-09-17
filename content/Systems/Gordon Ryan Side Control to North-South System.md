@@ -1,128 +1,137 @@
 
 ---
 title: "Gordon Ryan: Side Control and North-South | BJJGraph"
-description: "Navigate Gordon Ryan’s side-control and north-south course by escape concern or arm-isolation goal, with a focused comparison to Danaher’s side crucifix."
+description: "Gordon Ryan’s side-control and north-south course covers pin retention, arm isolation, transitions and submissions, with sparring and commentary."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Gordon Ryan: Side Control and North-South","description":"Navigate Gordon Ryan’s side-control and north-south course by escape concern or arm-isolation goal, with a focused comparison to Danaher’s side crucifix."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Gordon Ryan: Side Control and North-South","description":"Gordon Ryan’s side-control and north-south course covers pin retention, arm isolation, transitions and submissions, with sparring and commentary."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Systematically attacking From Top Pins: Side Control &amp; North South by Gordon Ryan.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Gordon Ryan Side Control to North-South System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Gordon Ryan: Side Control and North-South</h1>
+<div class="system-tags"><span>Control System</span><span>Intermediate</span></div>
 
-## Gordon Ryan: Side Control and North-South
+<p class="system-reference-count">6 related references (techniques and positions)</p>
+</header>
 
-**Separate side-control retention, arm isolation and north-south transitions in Gordon Ryan’s top-pins curriculum.**
-
-
-Systematically attacking From Top Pins: Side Control & North South by Gordon Ryan treats retention, limb isolation and changes between pins as distinct study topics. The outline includes near- and far-arm sections alongside north-south maintenance, so a failed attack and a lost pin need not lead to the same lesson.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-product-id="systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-system-name="Gordon Ryan Side Control to North-South System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Systematically attacking From Top Pins: Side Control &amp; North South</h2><span class="system-course__instructor">By Gordon Ryan</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+Systematically attacking From Top Pins: Side Control & North South by Gordon Ryan combines pin maintenance, transitions between the two positions and upper-body attacks. Near- and far-arm isolation receive separate attention.
 
-- You can reach side control but need to identify whether your next study concerns retention, arm isolation or changing pins.
-
-
-### Consider an alternative if
-
-- For a narrower examination of underhooks, near-arm pinning and chancery, compare Danaher’s side-crucifix course.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Choose retention or relocation before choosing a submission
-
-Compare Volume 2’s knee/elbow-connection topics with Volume 5’s north-south movement and knee-recovery topics in the public outline. Place your current question under staying in side control or changing pins. If you have access, begin with Why and When to Move to North South and note the stated reason for changing position before watching an attack branch.
-
-Published section: Volume 5: North/South - Why and When to Move to North South.
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" target="_blank" rel="noopener">Systematically attacking From Top Pins: Side Control &amp; North South by Gordon Ryan</a></p>
+The eight-volume series includes rolling and commentary alongside the technical material. It suits no-gi top players who have passed the guard but struggle to retain control while developing submissions.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/e1c8dfbb-6291-48a9-8523-7cc1e656c1f1?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Gordon Ryan / Systematically attacking From Top Pins: Side Control &amp; North South">
-<h2>Official sample — Gordon Ryan / Systematically attacking From Top Pins: Side Control &amp; North South</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" target="_blank" rel="noopener">Watch on the official page: Systematically attacking From Top Pins: Side Control &amp; North South by Gordon Ryan</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Gordon Ryan Side Control to North-South System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/e1c8dfbb-6291-48a9-8523-7cc1e656c1f1?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Gordon Ryan / Systematically attacking From Top Pins: Side Control &amp; North South">
+<h2>Official sample</h2>
+<p>Official sample — Gordon Ryan / Systematically attacking From Top Pins: Side Control &amp; North South</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-product-id="systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-system-name="Gordon Ryan Side Control to North-South System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Systematically attacking From Top Pins: Side Control &amp; North South · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>Systematically attacking From Top Pins: Side Control &amp; North South</h3>
-<p>By Gordon Ryan</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-product-id="systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-system-name="Gordon Ryan Side Control to North-South System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You pass the guard but struggle to retain side control or north-south while attacking.
+- You want arm-isolation and submission options from both pins.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Danaher-Side-Crucifix-System">John Danaher: Side Crucifix and Arm Isolation</a> — For a narrower course on side-crucifix entries, underhooks, near-arm pinning and chancery attacks.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Side-control escape responses and separate near- and far-arm isolation sections.
-- Movement to north-south and responses to knee recovery or turning.
-- Submission branches plus rolling and commentary volumes.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Side-control escape responses and separate near- and far-arm isolation material.
+- Transitions to north-south, pin maintenance and knee-recovery or turning responses.
+- Kimuras, triangles, armbars, back takes and north-south strangles, plus rolling and commentary.
+
 
 ### Limits
 
-- This is a top-pin study after passing; it does not replace a curriculum for getting through the guard.
+- The course begins from top-pin problems; reaching those positions through guard passing is outside its main focus.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" target="_blank" rel="noopener">Systematically attacking From Top Pins: Side Control &amp; North South by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified title, Gordon Ryan attribution and named sections on side control, arm isolation, north-south maintenance and rolling. Listing and official sample placement inspected; sample content not reviewed.</p><p><a href="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" target="_blank" rel="noopener">Master The Move: The Side Crucifix by John Danaher</a> — official listing; checked 2026-09-16. Verified title, John Danaher attribution, underhook acquisition, near-arm pinning, chancery and shin-pin sections. Official page labels an embedded free sample; sample content not reviewed.</p><p><a href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" target="_blank" rel="noopener">Systematically Attacking The Guard by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified course identity and eight-volume outline, including split squat, half guard, half butterfly, rolling and commentary. Listing inspected; video content not reviewed.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-product-id="systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-system-name="Gordon Ryan Side Control to North-South System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Systematically attacking From Top Pins: Side Control &amp; North South</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Connection-Principles">Connection Principles</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Transition-Management">Transition Management</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Positional-Sparring">Positional Sparring</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Systems/Danaher-Side-Crucifix-System">Danaher Side Crucifix System</a> (System) — Compare broad pin maintenance with a focused side-crucifix and arm-isolation study.</p><p><a href="/Systems/Gordon-Ryan-Passing-System">Gordon Ryan Passing System</a> (System) — Use the guard-passing companion when the unresolved problem occurs before the pin.</p>
-
+<p><a href="/Principles/Connection-Principles">Connection Principles</a></p><p><a href="/Principles/Transition-Management">Transition Management</a></p><p><a href="/Principles/Positional-Sparring">Positional Sparring</a></p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a></p><p><a href="/Systems/Danaher-Side-Crucifix-System">John Danaher: Side Crucifix and Arm Isolation</a> — For a narrower course on side-crucifix entries, underhooks, near-arm pinning and chancery attacks.</p><p><a href="/Systems/Gordon-Ryan-Passing-System">Gordon Ryan: No-Gi Guard Passing</a> — Use the guard-passing companion when the unresolved problem occurs before the pin.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Side Control|Side Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Side Control|Side Control]] (Position)
 
-- [[Positions/North-South|North-South]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
-- [[Positions/Knee on Belly|Knee on Belly]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Positions/North-South|North-South]] (Position)
 
-- [[Submissions/Kimura|Kimura]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
 
-- [[Submissions/North-South Choke|North-South Choke]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Knee on Belly|Knee on Belly]] (Position)
 
-- [[Positions/Back Control|Back Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
+- [[Submissions/Kimura|Kimura]] (Submission)
+
+
+- [[Submissions/North-South Choke|North-South Choke]] (Submission)
+
+
+- [[Positions/Back Control|Back Control]] (Position)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-source-url="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-affiliate="false" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-product-id="ryan-side-north-south" target="_blank" rel="noopener">Systematically attacking From Top Pins: Side Control &amp; North South by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified title, Gordon Ryan attribution and named sections on side control, arm isolation, north-south maintenance and rolling. Listing and official sample placement inspected; sample content not reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-source-url="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-affiliate="false" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-product-id="danaher-side-crucifix" target="_blank" rel="noopener">Master The Move: The Side Crucifix by John Danaher</a> — official listing; checked 2026-09-16. Verified title, John Danaher attribution, underhook acquisition, near-arm pinning, chancery and shin-pin sections. Official page labels an embedded free sample; sample content not reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-source-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-affiliate="false" data-system-slug="systems/gordon-ryan-side-control-to-north-south-system" data-product-id="ryan-guard" target="_blank" rel="noopener">Systematically Attacking The Guard by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified course identity and eight-volume outline, including split squat, half guard, half butterfly, rolling and commentary. Listing inspected; video content not reviewed.</p>
+</section>
+
+</details>
 </section>
 </main>

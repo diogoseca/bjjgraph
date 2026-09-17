@@ -1,128 +1,133 @@
 
 ---
 title: "John Danaher: Side Crucifix and Arm Isolation | BJJGraph"
-description: "A focused companion to John Danaher’s Master The Move: The Side Crucifix, distinguishing underhook acquisition, arm pinning and later submission branches."
+description: "John Danaher’s Master The Move: The Side Crucifix covers underhooks, near-arm pinning, chancery and shin-pin attacks with kimuras, triangles and armbars."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"John Danaher: Side Crucifix and Arm Isolation","description":"A focused companion to John Danaher’s Master The Move: The Side Crucifix, distinguishing underhook acquisition, arm pinning and later submission branches."}
+{"@context":"https://schema.org","@type":"WebPage","name":"John Danaher: Side Crucifix and Arm Isolation","description":"John Danaher’s Master The Move: The Side Crucifix covers underhooks, near-arm pinning, chancery and shin-pin attacks with kimuras, triangles and armbars."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Master The Move: The Side Crucifix by John Danaher.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Danaher Side Crucifix System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>John Danaher: Side Crucifix and Arm Isolation</h1>
+<div class="system-tags"><span>Control System</span><span>Intermediate</span></div>
 
-## John Danaher: Side Crucifix and Arm Isolation
+<p class="system-reference-count">6 related references (techniques and positions)</p>
+</header>
 
-**Locate the underhook, near-arm pinning or submission branch you need within Danaher’s side-crucifix study.**
-
-
-Master The Move: The Side Crucifix by John Danaher gives separate attention to obtaining an underhook from a settled pin and obtaining one during an entry. Later volumes explore chancery, shin pins and submission branches. This makes the course a specific arm-isolation study within the wider top game.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-course-url="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-product-id="master-the-move-the-side-crucifix-by-john-danaher" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Master The Move: The Side Crucifix</h2><span class="system-course__instructor">By John Danaher</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+Master The Move: The Side Crucifix by John Danaher concentrates on arm control and upper-body submissions from a side pin. Its six volumes cover obtaining the underhook, pinning the near-side arm and attacking through chancery or shin-pin positions.
 
-- You hold side control but need to distinguish obtaining arm control from choosing a submission afterward.
-
-
-### Consider an alternative if
-
-- For broader side-control escape responses and transitions to north-south, compare Gordon Ryan’s side-control course.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Compare acquiring an underhook before and after the pin
-
-Use Volumes 1 and 2 of the free outline to label two situations from your own notes: already in side control, or still entering it. Find the corresponding underhook lesson for each. With access, begin at the Volume 2 comparison below and record what distinction Danaher makes before studying an arm-pinning chapter.
-
-Published section: Volume 2: Getting Underhooks Prior To Side Control - Why It's Easier To Get And Underhook From Neutral Positions Than Side Control (0).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" target="_blank" rel="noopener">Master The Move: The Side Crucifix by John Danaher</a></p>
+This is a specialized course for top players who want more attacking depth from arm isolation after the pass.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/8d930722-9091-499b-89bf-03bf6852e6ff?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — John Danaher / Master The Move: The Side Crucifix">
-<h2>Official sample — John Danaher / Master The Move: The Side Crucifix</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" target="_blank" rel="noopener">Watch on the official page: Master The Move: The Side Crucifix by John Danaher</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Danaher Side Crucifix System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/8d930722-9091-499b-89bf-03bf6852e6ff?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — John Danaher / Master The Move: The Side Crucifix">
+<h2>Official sample</h2>
+<p>Official sample — John Danaher / Master The Move: The Side Crucifix</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-course-url="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-product-id="master-the-move-the-side-crucifix-by-john-danaher" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Master The Move: The Side Crucifix · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>Master The Move: The Side Crucifix</h3>
-<p>By John Danaher</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-course-url="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-product-id="master-the-move-the-side-crucifix-by-john-danaher" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You reach side control but struggle to obtain arm isolation for attacks.
+- You want a focused course on side-crucifix controls and submission branches.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Gordon-Ryan-Side-Control-to-North-South-System">Gordon Ryan: Side Control and North-South</a> — For broader side-control retention, transitions to north-south and attacks from both pins.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Underhooks from side control and from transitional positions.
-- Near-side arm pinning, chancery and shin-pin topics.
-- Kimura, triangle and armbar branches, with a back-crucifix connection.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Underhook acquisition from side control, half guard, body-lock passing, turtle and knee-cut entries.
+- Near-side arm pinning, chancery and shin-pin positions.
+- Kimura, triangle and armbar branches, troubleshooting and a back-crucifix connection.
+
 
 ### Limits
 
-- The side-crucifix focus is narrower than a general survey of side-control and north-south maintenance.
+- This is a specialized side-crucifix curriculum, rather than a general course on side-control and north-south maintenance.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" target="_blank" rel="noopener">Master The Move: The Side Crucifix by John Danaher</a> — official listing; checked 2026-09-16. Verified title, John Danaher attribution, underhook acquisition, near-arm pinning, chancery and shin-pin sections. Official page labels an embedded free sample; sample content not reviewed.</p><p><a href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" target="_blank" rel="noopener">Systematically attacking From Top Pins: Side Control &amp; North South by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified title, Gordon Ryan attribution and named sections on side control, arm isolation, north-south maintenance and rolling. Listing and official sample placement inspected; sample content not reviewed.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-course-url="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-product-id="master-the-move-the-side-crucifix-by-john-danaher" data-system-slug="systems/danaher-side-crucifix-system" data-system-name="Danaher Side Crucifix System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Master The Move: The Side Crucifix</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Base">Base</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Positional-Sparring">Positional Sparring</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Systems/Gordon-Ryan-Side-Control-to-North-South-System">Gordon Ryan Side Control to North-South System</a> (System) — Compare this focused arm-isolation course with broader side-control and north-south maintenance.</p>
-
+<p><a href="/Principles/Base">Base</a></p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a></p><p><a href="/Principles/Positional-Sparring">Positional Sparring</a></p><p><a href="/Principles/Position-Over-Submission-Approach">Position-Over-Submission Approach</a></p><p><a href="/Systems/Gordon-Ryan-Side-Control-to-North-South-System">Gordon Ryan: Side Control and North-South</a> — For broader side-control retention, transitions to north-south and attacks from both pins.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Side Control|Side Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Side Control|Side Control]] (Position)
 
-- [[Positions/Mount/Mounted Crucifix|Mounted Crucifix]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
-- [[Positions/Crucifix|Crucifix]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Mount/Mounted Crucifix|Mounted Crucifix]] (Position)
 
-- [[Positions/Mount|Mount]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
-- [[Submissions/Kimura|Kimura]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Crucifix|Crucifix]] (Position)
 
-- [[Submissions/Triangle Choke|Triangle Choke]] (Submission) — Related submission reference; graph linkage does not establish inclusion in the course.
 
+- [[Positions/Mount|Mount]] (Position)
+
+
+- [[Submissions/Kimura|Kimura]] (Submission)
+
+
+- [[Submissions/Triangle Choke|Triangle Choke]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-source-url="https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher" data-affiliate="false" data-system-slug="systems/danaher-side-crucifix-system" data-product-id="danaher-side-crucifix" target="_blank" rel="noopener">Master The Move: The Side Crucifix by John Danaher</a> — official listing; checked 2026-09-16. Verified title, John Danaher attribution, underhook acquisition, near-arm pinning, chancery and shin-pin sections. Official page labels an embedded free sample; sample content not reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-source-url="https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan" data-affiliate="false" data-system-slug="systems/danaher-side-crucifix-system" data-product-id="ryan-side-north-south" target="_blank" rel="noopener">Systematically attacking From Top Pins: Side Control &amp; North South by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified title, Gordon Ryan attribution and named sections on side control, arm isolation, north-south maintenance and rolling. Listing and official sample placement inspected; sample content not reviewed.</p>
+</section>
+
+</details>
 </section>
 </main>

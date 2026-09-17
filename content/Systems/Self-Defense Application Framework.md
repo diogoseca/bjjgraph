@@ -1,117 +1,128 @@
 
 ---
-title: "Self-Defense: Examine Sport Grappling’s Assumptions | BJJGraph"
-description: "A reading and observation guide to the limits of transferring sport-grappling assumptions into self-defense."
+title: "Sport Grappling and Self-Defense | BJJGraph"
+description: "The limits of sport-grappling assumptions in Stephan Kesting’s discussion of self-defense."
 ---
 
 
 
+
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Self-Defense: Examine Sport Grappling’s Assumptions","description":"A reading and observation guide to the limits of transferring sport-grappling assumptions into self-defense."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Sport Grappling and Self-Defense","description":"The limits of sport-grappling assumptions in Stephan Kesting’s discussion of self-defense."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph study guide. Not authored or endorsed by the instructor.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Self-Defense Application Framework">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Sport Grappling and Self-Defense</h1>
+<div class="system-tags"><span>Training Methodology</span><span>Intermediate</span></div>
 
-## Self-Defense: Examine Sport Grappling’s Assumptions
+<p class="system-reference-count">13 related references (techniques and positions)</p>
+</header>
 
-**Identify which assumptions in familiar sport-grappling situations depend on agreed rules and a controlled setting.**
+<section id="overview" class="system-overview">
 
+Stephan Kesting’s Grappling for Self Defense argues that familiar sparring habits depend on both explicit and unspoken rules. His example of an inexperienced partner grabbing individual fingers illustrates how an unexpected action can fall outside those habits.
 
-Stephan Kesting’s Grappling for Self Defense points out that sparring depends on both spoken and unspoken rules. This guide uses that observation to examine what a familiar training situation leaves out. The aim is to identify the questions that need dedicated instruction, rather than invent an escape plan from sport technique names.
-
-</section>
-
-<section id="fit" class="content-section">
-
-## Is this useful for you?
-
-- You want to examine the assumptions behind claims that a sport-BJJ sequence transfers directly to self-defense.
-
-
-### Consider an alternative if
-
-- For a regulated contest involving strikes, use MMA Crossover Strategy and the rules adopted by that event.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Identify the assumptions behind one familiar exchange
-
-Read Kesting’s discussion of spoken and unspoken sparring rules. Choose an exchange from your training notes and list what the partners had agreed not to do. Mark which parts of your interpretation rely on those agreements. Bring one resulting question to an instructor who teaches the relevant context; keep it as an unanswered question instead of inventing a physical response.
-
-Published section: Grappling for Self Defense: discussion of spoken and unspoken sparring rules.
-
-
-
-<p>Source: <a href="https://www.grapplearts.com/grappling-for-self-defense/" target="_blank" rel="noopener">Grappling for Self Defense — Stephan Kesting</a></p>
+The distinction is about context: permitted attacks, clothing and the number of people involved can differ from an ordinary round. This discussion explains why recognizing a familiar position does not settle every self-defense question.
 
 </section>
 
 
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
+
+## Is this for you?
+
+- You want a clearer account of the limitations of treating sport grappling as a complete self-defense model.
 
 
+
+<h3>Also consider</h3>
+<p><a href="/Systems/MMA-Crossover-Strategy">Grappling Under MMA Rules</a> — For grappling in a regulated contest involving strikes, with defined scoring and fouls.</p>
+
+
+</section>
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- A way to identify assumptions about permitted attacks and partner behavior in a familiar grappling situation.
-- Separating questions about context from claims about a technique’s execution.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Explicit and implicit rules in sparring, and the assumptions they create.
+- Differences in permitted attacks, clothing and participants discussed in Kesting’s article.
+
 
 ### Limits
 
-- The selected article is an instructor’s discussion, not a complete self-defense curriculum.
-- This guide does not teach confrontation management, weapon responses or legal use of force.
+- This is a contextual discussion, not a complete self-defense curriculum.
+- It does not provide confrontation-management instruction, weapon responses or legal use-of-force advice.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://www.grapplearts.com/grappling-for-self-defense/" target="_blank" rel="noopener">Grappling for Self Defense — Stephan Kesting</a> — public instruction; checked 2026-09-16. Read Kesting’s discussion of explicit and implicit sparring rules and the assumptions they can create. This guide uses that contextual distinction rather than reproducing the article’s scenario drills. Inspected: Article text, especially the discussion of spoken and unspoken sparring rules</p>
-</section>
-
-<section id="related-content" class="content-section">
-
-## Related references and alternatives
 
 
-<p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a> (Principle) — Further conceptual reading: Defensive Concepts.</p><p><a href="/Systems/Defensive-Prioritization-Framework">Defensive Prioritization Framework</a> (System) — Related study guide: Defensive Prioritization Framework.</p><p><a href="/Principles/Escape-Fundamentals">Escape Fundamentals</a> (Principle) — Further conceptual reading: Escape Fundamentals.</p><p><a href="/Principles/Base">Base</a> (Principle) — Further conceptual reading: Base.</p><p><a href="/Principles/Energy-Conservation">Energy Conservation</a> (Principle) — Further conceptual reading: Energy Conservation.</p><p><a href="/Principles/Distance-Control">Distance Control</a> (Principle) — Further conceptual reading: Distance Control.</p><p><a href="/Systems/MMA-Crossover-Strategy">MMA Crossover Strategy</a> (System) — For the distinct context of a regulated match involving strikes.</p><p><a href="/Systems/Standing-Defense-Strategy">Standing Defense Strategy</a> (System) — Related study guide: Standing Defense Strategy.</p>
+<section id="related-content" class="system-section">
 
+## Related guides and principles
+
+These related references are not a claim about what the course teaches or evidence of practical mastery.
+
+<p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a></p><p><a href="/Systems/Defensive-Prioritization-Framework">Defensive Priorities Under IBJJF Rules</a></p><p><a href="/Principles/Escape-Fundamentals">Escape Fundamentals</a></p><p><a href="/Principles/Base">Base</a></p><p><a href="/Principles/Energy-Conservation">Energy Conservation</a></p><p><a href="/Principles/Distance-Control">Distance Control</a></p><p><a href="/Systems/MMA-Crossover-Strategy">Grappling Under MMA Rules</a> — Grappling under the scoring and foul provisions of the cited MMA rules.</p><p><a href="/Systems/Standing-Defense-Strategy">Alex Enriquez: Wrestling Takedown Defense</a></p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Clinch|Clinch]] (Position) — Position reference for organizing study: Clinch.
+- [[Positions/Clinch|Clinch]] (Position)
 
-- [[Positions/Mount|Mount]] (Position) — Position reference for organizing study: Mount.
 
-- [[Positions/Side Control|Side Control]] (Position) — Position reference for organizing study: Side Control.
+- [[Positions/Mount|Mount]] (Position)
 
-- [[Positions/Back Control|Back Control]] (Position) — Position reference for organizing study: Back Control.
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Position reference for organizing study: Closed Guard.
+- [[Positions/Side Control|Side Control]] (Position)
 
-- [[Positions/Combat Base|Combat Base]] (Position) — Position reference for organizing study: Combat Base.
 
-- [[Positions/Turtle|Turtle]] (Position) — Position reference for organizing study: Turtle.
+- [[Positions/Back Control|Back Control]] (Position)
 
-- [[Positions/Front Headlock|Front Headlock]] (Position) — Position reference for organizing study: Front Headlock.
 
-- [[Positions/Knee on Belly|Knee on Belly]] (Position) — Position reference for organizing study: Knee on Belly.
+- [[Positions/Closed Guard|Closed Guard]] (Position)
 
-- [[Positions/Body Lock|Body Lock]] (Position) — Position reference for organizing study: Body Lock.
 
-- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition) — Related transition reference: Bridge and Roll.
+- [[Positions/Combat Base|Combat Base]] (Position)
 
-- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) — Related submission reference: Guillotine Choke.
 
-- [[Submissions/Arm Triangle|Arm Triangle]] (Submission) — Related submission reference: Arm Triangle.
+- [[Positions/Turtle|Turtle]] (Position)
 
+
+- [[Positions/Front Headlock|Front Headlock]] (Position)
+
+
+- [[Positions/Knee on Belly|Knee on Belly]] (Position)
+
+
+- [[Positions/Body Lock|Body Lock]] (Position)
+
+
+- [[Transitions/Bridge and Roll|Bridge and Roll]] (Transition)
+
+
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission)
+
+
+- [[Submissions/Arm Triangle|Arm Triangle]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+
+
+<section class="system-source" data-source-container>
+<p><a href="https://www.grapplearts.com/grappling-for-self-defense/" target="_blank" rel="noopener">Grappling for Self Defense — Stephan Kesting</a> — public instruction; checked 2026-09-16. Read Kesting’s discussion of explicit and implicit sparring rules and the assumptions they can create. This guide uses that contextual distinction rather than reproducing the article’s scenario drills. Inspected: Article text, especially the discussion of spoken and unspoken sparring rules</p>
+</section>
+
+</details>
 </section>
 </main>

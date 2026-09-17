@@ -1,141 +1,150 @@
 
 ---
 title: "Marcelo Garcia: Butterfly Guard | BJJGraph"
-description: "Study Marcelo Garcia’s butterfly syllabus by identifying whether difficulty starts before contact, in posture or after the opponent stands."
+description: "A butterfly course combining upper-body controls and sweeps with distance management and pressure responses."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Marcelo Garcia: Butterfly Guard","description":"Study Marcelo Garcia’s butterfly syllabus by identifying whether difficulty starts before contact, in posture or after the opponent stands."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Marcelo Garcia: Butterfly Guard","description":"A butterfly course combining upper-body controls and sweeps with distance management and pressure responses."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: The Complete Butterfly Guard by Marcelo Garcia.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Marcelo Garcia Butterfly Guard System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Marcelo Garcia: Butterfly Guard</h1>
+<div class="system-tags"><span>Guard System</span><span>Intermediate</span></div>
 
-## Marcelo Garcia: Butterfly Guard
+<p class="system-reference-count">13 related references (techniques and positions)</p>
+</header>
 
-**A companion to The Complete Butterfly Guard that routes posture, engagement and standing-opponent questions to different sections.**
-
-
-The course begins with hand, foot and elbow positioning, then expands into sweep variations and engagement problems. Its standing-opponent section means seated study does not end when the passer gets to their feet.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Complete Butterfly Guard</h2><span class="system-course__instructor">By Marcelo Garcia</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
-
-- You want seated butterfly study with separate material on posture, closing distance and opponents who stand or pressure.
-
-
-### Consider an alternative if
-
-- If your main interest is getting underneath into X guard and selecting a finish, compare The Marcelo X Guard.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Sort posture, distance and standing problems
-
-Compare volume 1’s posture section, volume 3’s distance-opening section and volume 4’s standing-opponent section. In an exchange you can review, note whether contact was never established, seated posture changed, or the passer stood. Select the corresponding study block instead of immediately adding another sweep.
-
-Published section: Volume 1: MAINTAINING BUTTERFLY POSTURE — 7:47–13:36 (course range)
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" target="_blank" rel="noopener">The Complete Butterfly Guard by Marcelo Garcia</a></p>
+Marcelo Garcia’s The Complete Butterfly Guard develops seated posture and sweeping before expanding into upper-body attacks and engagement. The four volumes include elbow control, shoulder-clamp sweeps, armlocks and the Marcelotine. Distance-closing and standing-opponent material address exchanges where the passer does not stay in front of the butterfly hooks.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="youtube" data-embed-url="https://www.youtube.com/embed/C5zVTEbR5PQ?autoplay=0" data-verified-origins="[]" data-preview-title="Official sample — Marcelo Garcia / Shoulder Clamp Sweep">
-<h2>Official sample — Marcelo Garcia / Shoulder Clamp Sweep</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" target="_blank" rel="noopener">Watch on the official page: The Complete Butterfly Guard by Marcelo Garcia</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Marcelo Garcia Butterfly Guard System" data-provider="youtube" data-embed-url="https://www.youtube.com/embed/C5zVTEbR5PQ?autoplay=0" data-verified-origins="[]" data-preview-title="Official sample — Marcelo Garcia / Shoulder Clamp Sweep">
+<h2>Official sample</h2>
+<p>Official sample — Marcelo Garcia / Shoulder Clamp Sweep</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">The Complete Butterfly Guard · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>The Complete Butterfly Guard</h3>
-<p>By Marcelo Garcia</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You want seated butterfly offense with ways to engage opponents who stand, retreat or pressure forward.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Marcelo-Garcia-X-Guard-System">Marcelo Garcia: X-Guard Entries and Sweeps</a> — Choose The Marcelo X Guard for getting underneath into X guard, completing sweeps and responding to leg pummels.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Posture and sweep process; upper-body controls, sweep variations and submissions.
-- Distance-closing material and responses to standing opponents or incoming pressure.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Hand, foot and elbow positioning; butterfly sweeps, shoulder clamps and upper-body submissions.
+- Closing distance, shin-to-shin against standing opponents and responses to forward pressure.
+
 
 ### Limits
 
-- Butterfly is the central position; X-guard entries and finishes have their own dedicated Garcia release.
+- Butterfly and seated engagement are the focus; full X-guard entries and sweeping finishes are not the course’s central subject.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" target="_blank" rel="noopener">The Complete Butterfly Guard by Marcelo Garcia</a> — official listing; checked 2026-09-16. Verified posture/control, sweeping, distance, standing-opponent and pressure sections in four volumes. Listing and official sample iframe inspected; player content and playback not reviewed.</p><p><a href="https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia" target="_blank" rel="noopener">The Marcelo X Guard by Marcelo Garcia</a> — official listing; checked 2026-09-16. Verified butterfly/shin-to-shin entries, sleeve/collar examples, stand-up finishes and pummel/backstep counters. Listing inspected; course video content not reviewed.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-product-id="the-complete-butterfly-guard-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-system-name="Marcelo Garcia Butterfly Guard System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Complete Butterfly Guard</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Grips">Grips</a> (Principle) — Grips: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a> (Principle) — Control Maintenance: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Kuzushi">Kuzushi</a> (Principle) — Kuzushi: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Hooks">Hooks</a> (Principle) — Hooks: related principle study, separate from the source syllabus.</p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a> (Principle) — Fork Attacks: related principle study, separate from the source syllabus.</p><p><a href="/Systems/Marcelo-Garcia-Guillotine-System">Marcelo Garcia Guillotine System</a> (System) — Marcelo Garcia Guillotine System: related system study, separate from the source syllabus.</p><p><a href="/Systems/Marcelo-Garcia-X-Guard-System">Marcelo Garcia X-Guard System</a> (System) — Compare for entries underneath the opponent and a dedicated X-guard finish collection.</p><p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition Approach</a> (System) — No-Gi Competition Approach: related system study, separate from the source syllabus.</p><p><a href="/Systems/Dynamic-Guard-System">Dynamic Guard System</a> (System) — Dynamic Guard System: related system study, separate from the source syllabus.</p>
-
+<p><a href="/Principles/Grips">Grips</a></p><p><a href="/Principles/Control-Maintenance">Control Maintenance</a></p><p><a href="/Principles/Kuzushi">Kuzushi</a></p><p><a href="/Principles/Hooks">Hooks</a></p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a></p><p><a href="/Systems/Marcelo-Garcia-Guillotine-System">Marcelo Garcia: The Marcelotine</a></p><p><a href="/Systems/Marcelo-Garcia-X-Guard-System">Marcelo Garcia: X-Guard Entries and Sweeps</a> — Compare for entries underneath the opponent and a dedicated X-guard finish collection.</p><p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition: IBJJF and ADCC</a></p><p><a href="/Systems/Dynamic-Guard-System">Understanding Guard Changes</a></p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) — Butterfly Guard: related position study, separate from the source syllabus.
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
 
-- [[Positions/Butterfly Guard/Butterfly Hook Control|Butterfly Hook Control]] (Position) — Butterfly Hook Control: related position study, separate from the source syllabus.
 
-- [[Transitions/Butterfly Sweep|Butterfly Sweep]] (Transition) — Butterfly Sweep: related transition study, separate from the source syllabus.
+- [[Positions/Butterfly Guard/Butterfly Hook Control|Butterfly Hook Control]] (Position)
 
-- [[Transitions/Basic Butterfly Sweep|Basic Butterfly Sweep]] (Transition) — Basic Butterfly Sweep: related transition study, separate from the source syllabus.
 
-- [[Transitions/Arm Drag Sweep|Arm Drag Sweep]] (Transition) — Arm Drag Sweep: related transition study, separate from the source syllabus.
+- [[Transitions/Butterfly Sweep|Butterfly Sweep]] (Transition)
 
-- [[Transitions/Arm Drag to Back|Arm Drag to Back]] (Transition) — Arm Drag to Back: related transition study, separate from the source syllabus.
 
-- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position) — Single Leg X-Guard: related position study, separate from the source syllabus.
+- [[Transitions/Basic Butterfly Sweep|Basic Butterfly Sweep]] (Transition)
 
-- [[Transitions/Single Leg X Entry|Single Leg X Entry]] (Transition) — Single Leg X Entry: related transition study, separate from the source syllabus.
 
-- [[Positions/Back Control|Back Control]] (Position) — Back Control: related position study, separate from the source syllabus.
+- [[Transitions/Arm Drag Sweep|Arm Drag Sweep]] (Transition)
 
-- [[Positions/Guillotine Control|Guillotine Control]] (Position) — Guillotine Control: related position study, separate from the source syllabus.
 
-- [[Submissions/Arm in Guillotine|Arm in Guillotine]] (Submission) — Arm in Guillotine: related submission study, separate from the source syllabus.
+- [[Transitions/Arm Drag to Back|Arm Drag to Back]] (Transition)
 
-- [[Positions/X-Guard|X-Guard]] (Position) — X-Guard: related position study, separate from the source syllabus.
 
-- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position) — Deep Half Guard: related position study, separate from the source syllabus.
+- [[Positions/X-Guard/Single Leg X-Guard|Single Leg X-Guard]] (Position)
 
+
+- [[Transitions/Single Leg X Entry|Single Leg X Entry]] (Transition)
+
+
+- [[Positions/Back Control|Back Control]] (Position)
+
+
+- [[Positions/Guillotine Control|Guillotine Control]] (Position)
+
+
+- [[Submissions/Arm in Guillotine|Arm in Guillotine]] (Submission)
+
+
+- [[Positions/X-Guard|X-Guard]] (Position)
+
+
+- [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] (Position)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-source-url="https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia" data-affiliate="false" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-product-id="garcia-butterfly-listing" target="_blank" rel="noopener">The Complete Butterfly Guard by Marcelo Garcia</a> — official listing; checked 2026-09-16. Verified posture/control, sweeping, distance, standing-opponent and pressure sections in four volumes. Listing and official sample iframe inspected; player content and playback not reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia" data-source-url="https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia" data-affiliate="false" data-system-slug="systems/marcelo-garcia-butterfly-guard-system" data-product-id="garcia-xguard-listing" target="_blank" rel="noopener">The Marcelo X Guard by Marcelo Garcia</a> — official listing; checked 2026-09-16. Verified butterfly/shin-to-shin entries, sleeve/collar examples, stand-up finishes and pummel/backstep counters. Listing inspected; course video content not reviewed.</p>
+</section>
+
+</details>
 </section>
 </main>

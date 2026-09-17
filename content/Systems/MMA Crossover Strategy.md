@@ -1,137 +1,159 @@
 
 ---
-title: "MMA Crossover: Recheck Grappling Assumptions | BJJGraph"
-description: "A rules-based observation guide for BJJ students comparing grappling exchanges with sanctioned MMA."
+title: "Grappling Under MMA Rules | BJJGraph"
+description: "How the cited ABC MMA rules treat positional offense, grounded-fighter status and contact with the fence."
 ---
 
 
 
+
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"MMA Crossover: Recheck Grappling Assumptions","description":"A rules-based observation guide for BJJ students comparing grappling exchanges with sanctioned MMA."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Grappling Under MMA Rules","description":"How the cited ABC MMA rules treat positional offense, grounded-fighter status and contact with the fence."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph study guide. Not authored or endorsed by the instructor.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="MMA Crossover Strategy">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Grappling Under MMA Rules</h1>
+<div class="system-tags"><span>Competition Strategy</span><span>Advanced</span></div>
 
-## MMA Crossover: Recheck Grappling Assumptions
+<p class="system-reference-count">22 related references (techniques and positions)</p>
+</header>
 
-**Study how MMA scoring, grounded-fighter rules and fence restrictions change the context of familiar grappling positions.**
+<section id="overview" class="system-overview">
 
+Holding a dominant grappling position does not by itself establish dominance in the ABC’s July 2025 judging clarification. Its distinction is between simply occupying the position and offensive work that continually forces an opponent to defend potentially fight-ending attacks.
 
-A BJJ position name does not translate directly into an MMA score. The ABC judging clarification evaluates productive offense and expressly distinguishes it from merely holding a position. Its rules also define grounded-fighter status and distinguish contact with the fence from grabbing it. These are useful starting questions when observing an MMA exchange.
-
-</section>
-
-<section id="fit" class="content-section">
-
-## Is this useful for you?
-
-- You can recognize BJJ positions but want to understand why a similar-looking MMA exchange has different tactical constraints.
-
-
-### Consider an alternative if
-
-- For grappling without strikes, use No-Gi Competition Approach and its event-specific rules comparison.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Annotate what changes around a familiar position
-
-Choose an MMA round you can review and isolate a grappling exchange. Make separate notes for positional changes, offensive actions and use of the fence. Compare the notes with the scoring clarification’s distinction between offense and holding. If grounded status or a fence grip matters, consult the relevant foul provision and the event’s adopted rules before labeling the action legal or illegal.
-
-Published section: ABC clarification: Dominance and Successful Grappling. Unified Rules: fouls 12–15.
-
-
-
-<p>Source: <a href="https://www.abcboxing.com/wp-content/uploads/2025/08/Unified-Rules-of-MMA-8.2025.pdf" target="_blank" rel="noopener">Unified Rules of Mixed Martial Arts — Association of Boxing Commissions and Combative Sports</a></p>
-
-<p>Source: <a href="https://www.abcboxing.com/wp-content/uploads/2025/08/ABC-MMA-Scoring-Criteira-Clarification-7.2025.pdf" target="_blank" rel="noopener">MMA Bout Scoring — Judging Criteria Clarification</a></p>
+The Unified Rules also distinguish placing a hand on the fence from grabbing it, and define when a fighter counts as grounded for the prohibition on knees and kicks to the head. These rules explain part of the difference between sport-BJJ positions and their MMA context; they do not teach the physical adaptations.
 
 </section>
 
 
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
+
+## Is this for you?
+
+- You recognize BJJ positions but want to understand the rules and judging context of grappling in MMA.
 
 
+
+<h3>Also consider</h3>
+<p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition: IBJJF and ADCC</a> — For IBJJF and ADCC grappling rules without strikes.</p>
+
+
+</section>
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- The difference between occupying a position and producing the offense discussed in MMA judging criteria.
-- Rules defining a grounded fighter and restricting fence grabs.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Productive positional offense versus merely holding a position in the ABC judging clarification.
+- Grounded-fighter status and the distinction between fence contact and prohibited grabbing.
+
 
 ### Limits
 
-- The selected ABC documents concern their stated MMA rules; amateur and commission-specific provisions require their own checks.
-- This is an observation guide, not instruction in striking, wall escapes or submissions against strikes.
+- The cited documents describe the stated ABC rules; amateur and commission-specific rules may differ.
+- Striking defense, wall escapes and technical adaptations for MMA require separate instruction.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://www.abcboxing.com/wp-content/uploads/2025/08/Unified-Rules-of-MMA-8.2025.pdf" target="_blank" rel="noopener">Unified Rules of Mixed Martial Arts — Association of Boxing Commissions and Combative Sports</a> — ruleset; checked 2026-09-16. Read the grounded-fighter definition and fence-grabbing provisions in the August 2025 document. This source defines prohibited actions, not grappling technique execution. Inspected: Fouls 12–15, printed page 4</p><p><a href="https://www.abcboxing.com/wp-content/uploads/2025/08/ABC-MMA-Scoring-Criteira-Clarification-7.2025.pdf" target="_blank" rel="noopener">MMA Bout Scoring — Judging Criteria Clarification</a> — ruleset; checked 2026-09-16. Read the ABC clarification’s distinction between productive offense and merely holding a position, plus the round-based scoring system. Inspected: Dominance and Successful Grappling, page 2; Numerical Scoring System, page 3</p>
-</section>
-
-<section id="related-content" class="content-section">
-
-## Related references and alternatives
 
 
-<p><a href="/Systems/Cage-Clinch-to-Ground-System">Cage Clinch to Ground System</a> (System) — Related study guide: Cage Clinch to Ground System.</p><p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition Approach</a> (System) — Compare grappling-only event rules before carrying assumptions into MMA.</p><p><a href="/Systems/Competition-Strategy">Competition Strategy</a> (System) — Related study guide: Competition Strategy.</p><p><a href="/Systems/Danaher-Front-Headlock-System">Danaher Front Headlock System</a> (System) — Related study guide: Danaher Front Headlock System.</p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a> (Principle) — Further conceptual reading: Defensive Concepts.</p><p><a href="/Principles/Escape-Fundamentals">Escape Fundamentals</a> (Principle) — Further conceptual reading: Escape Fundamentals.</p><p><a href="/Principles/Chin-Protection">Chin Protection</a> (Principle) — Further conceptual reading: Chin Protection.</p><p><a href="/Principles/Base">Base</a> (Principle) — Further conceptual reading: Base.</p><p><a href="/Systems/Self-Defense-Application-Framework">Self-Defense Application Framework</a> (System) — A separate guide to the limits of sporting assumptions outside a regulated match.</p>
+<section id="related-content" class="system-section">
 
+## Related guides and principles
+
+These related references are not a claim about what the course teaches or evidence of practical mastery.
+
+<p><a href="/Systems/Cage-Clinch-to-Ground-System">Neiman Gracie: Jiu-Jitsu for MMA</a></p><p><a href="/Systems/No-Gi-Competition-Approach">No-Gi Competition: IBJJF and ADCC</a> — IBJJF and ADCC scoring differences and division restrictions.</p><p><a href="/Systems/Competition-Strategy">Competition Game Plans</a> — Event-specific game plans and their offensive and defensive situations.</p><p><a href="/Systems/Danaher-Front-Headlock-System">John Danaher: Front Headlock Attacks</a></p><p><a href="/Principles/Defensive-Concepts">Defensive Concepts</a></p><p><a href="/Principles/Escape-Fundamentals">Escape Fundamentals</a></p><p><a href="/Principles/Chin-Protection">Chin Protection</a></p><p><a href="/Principles/Base">Base</a></p><p><a href="/Systems/Self-Defense-Application-Framework">Sport Grappling and Self-Defense</a> — The limits of sporting assumptions outside a regulated match.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Back Control|Back Control]] (Position) — Position reference for organizing study: Back Control.
+- [[Positions/Back Control|Back Control]] (Position)
 
-- [[Positions/Mount|Mount]] (Position) — Position reference for organizing study: Mount.
 
-- [[Positions/Side Control|Side Control]] (Position) — Position reference for organizing study: Side Control.
+- [[Positions/Mount|Mount]] (Position)
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Position reference for organizing study: Closed Guard.
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Position reference for organizing study: Half Guard.
+- [[Positions/Side Control|Side Control]] (Position)
 
-- [[Positions/Turtle|Turtle]] (Position) — Position reference for organizing study: Turtle.
 
-- [[Positions/Front Headlock|Front Headlock]] (Position) — Position reference for organizing study: Front Headlock.
+- [[Positions/Closed Guard|Closed Guard]] (Position)
 
-- [[Positions/Guillotine Control|Guillotine Control]] (Position) — Position reference for organizing study: Guillotine Control.
 
-- [[Positions/Clinch|Clinch]] (Position) — Position reference for organizing study: Clinch.
+- [[Positions/Half Guard|Half Guard]] (Position)
 
-- [[Positions/Knee on Belly|Knee on Belly]] (Position) — Position reference for organizing study: Knee on Belly.
 
-- [[Positions/Body Lock|Body Lock]] (Position) — Position reference for organizing study: Body Lock.
+- [[Positions/Turtle|Turtle]] (Position)
 
-- [[Transitions/Sprawl|Sprawl]] (Transition) — Related transition reference: Sprawl.
 
-- [[Transitions/Double Leg Entry|Double Leg Entry]] (Transition) — Related transition reference: Double Leg Entry.
+- [[Positions/Front Headlock|Front Headlock]] (Position)
 
-- [[Transitions/Single Leg Entry|Single Leg Entry]] (Transition) — Related transition reference: Single Leg Entry.
 
-- [[Transitions/Technical Stand-up|Technical Stand-up]] (Transition) — Related transition reference: Technical Stand-up.
+- [[Positions/Guillotine Control|Guillotine Control]] (Position)
 
-- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition) — Related transition reference: Guillotine Setup.
 
-- [[Transitions/Darce Setup|Darce Setup]] (Transition) — Related transition reference: Darce Setup.
+- [[Positions/Clinch|Clinch]] (Position)
 
-- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition) — Related transition reference: Snap Down to Front Headlock.
 
-- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) — Related submission reference: Guillotine Choke.
+- [[Positions/Knee on Belly|Knee on Belly]] (Position)
 
-- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission) — Related submission reference: Rear Naked Choke.
 
-- [[Submissions/Arm Triangle|Arm Triangle]] (Submission) — Related submission reference: Arm Triangle.
+- [[Positions/Body Lock|Body Lock]] (Position)
 
-- [[Submissions/Darce Choke|Darce Choke]] (Submission) — Related submission reference: Darce Choke.
 
+- [[Transitions/Sprawl|Sprawl]] (Transition)
+
+
+- [[Transitions/Double Leg Entry|Double Leg Entry]] (Transition)
+
+
+- [[Transitions/Single Leg Entry|Single Leg Entry]] (Transition)
+
+
+- [[Transitions/Technical Stand-up|Technical Stand-up]] (Transition)
+
+
+- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition)
+
+
+- [[Transitions/Darce Setup|Darce Setup]] (Transition)
+
+
+- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition)
+
+
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission)
+
+
+- [[Submissions/Rear Naked Choke|Rear Naked Choke]] (Submission)
+
+
+- [[Submissions/Arm Triangle|Arm Triangle]] (Submission)
+
+
+- [[Submissions/Darce Choke|Darce Choke]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+
+
+<section class="system-source" data-source-container>
+<p><a href="https://www.abcboxing.com/wp-content/uploads/2025/08/Unified-Rules-of-MMA-8.2025.pdf" target="_blank" rel="noopener">Unified Rules of Mixed Martial Arts — Association of Boxing Commissions and Combative Sports</a> — ruleset; checked 2026-09-16. Read the grounded-fighter definition and fence-grabbing provisions in the August 2025 document. This source defines prohibited actions, not grappling technique execution. Inspected: Fouls 12–15, printed page 4</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://www.abcboxing.com/wp-content/uploads/2025/08/ABC-MMA-Scoring-Criteira-Clarification-7.2025.pdf" target="_blank" rel="noopener">MMA Bout Scoring — Judging Criteria Clarification</a> — ruleset; checked 2026-09-16. Read the ABC clarification’s distinction between productive offense and merely holding a position, plus the round-based scoring system. Inspected: Dominance and Successful Grappling, page 2; Numerical Scoring System, page 3</p>
+</section>
+
+</details>
 </section>
 </main>

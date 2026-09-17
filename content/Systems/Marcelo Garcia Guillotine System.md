@@ -1,155 +1,173 @@
 
 ---
 title: "Marcelo Garcia: The Marcelotine | BJJGraph"
-description: "Use The Marcelotine’s positional organization to find an entry or passing-defense problem worth studying."
+description: "Marcelo Garcia’s guillotine course includes takedown counters, guard attacks, passing-position entries and recovery when an opponent passes."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Marcelo Garcia: The Marcelotine","description":"Use The Marcelotine’s positional organization to find an entry or passing-defense problem worth studying."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Marcelo Garcia: The Marcelotine","description":"Marcelo Garcia’s guillotine course includes takedown counters, guard attacks, passing-position entries and recovery when an opponent passes."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: The Marcelotine by Marcelo Garcia.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Marcelo Garcia Guillotine System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Marcelo Garcia: The Marcelotine</h1>
+<div class="system-tags"><span>Submission Chain</span><span>Intermediate</span></div>
 
-## Marcelo Garcia: The Marcelotine
+<p class="system-reference-count">20 related references (techniques and positions)</p>
+</header>
 
-**Marcelo Garcia’s The Marcelotine presents guillotine attacks from standing, guard, grounded exchanges and passing positions.**
-
-
-This outline gives recovery against passing defenses its own volume, separate from standing entries and attacks while passing. That helps distinguish losing a guillotine during a pass from finding a guillotine while you are the passer.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-product-id="the-marcelotine-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>The Marcelotine</h2><span class="system-course__instructor">By Marcelo Garcia</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+The Marcelotine concentrates on Marcelo Garcia’s guillotine attacks, including high-elbow variations against single- and double-leg attempts. Grounded material covers recovery during a pass and finishing after the opponent has passed the guard.
 
-- You want guillotine-specific material for the moment an opponent starts or completes a guard pass.
-
-
-### Consider an alternative if
-
-- If you want to explore a guillotine-to-triangle connection, Ryan Hall Triangle System points to a specifically named lesson in The Modern Triangle.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Identify which side of the pass you are studying
-
-Compare Volumes 2 and 4 in the public outline. Decide whether your example involves defending a pass with a guillotine or attacking one while passing. With course access, use the selected volume to record when the passer changes position relative to the guillotine attempt, rather than merging both situations into a single entry note.
-
-Published section: Volume 2: Butterfly hook Guillotine recovery vs pass defense (7:11).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" target="_blank" rel="noopener">The Marcelotine by Marcelo Garcia</a></p>
+Other sections address guillotines from guard, against sit-up guard and from side control or mount. This is a focused submission course for grapplers who want the guillotine to connect their standing and ground attacks.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/2b169d64-978b-476e-84ef-ee4a9f31dfa6?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Marcelo Garcia / The Marcelotine">
-<h2>Official sample — Marcelo Garcia / The Marcelotine</h2>
-<p>Official public sample. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official sample</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" target="_blank" rel="noopener">Watch on the official page: The Marcelotine by Marcelo Garcia</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Marcelo Garcia Guillotine System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/2b169d64-978b-476e-84ef-ee4a9f31dfa6?autoplay=false&amp;loop=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official sample — Marcelo Garcia / The Marcelotine">
+<h2>Official sample</h2>
+<p>Official sample — Marcelo Garcia / The Marcelotine</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the sample on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-product-id="the-marcelotine-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">The Marcelotine · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>The Marcelotine</h3>
-<p>By Marcelo Garcia</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-product-id="the-marcelotine-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You want guillotine attacks from several positions, including answers to an opponent passing your guard.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall: The Modern Triangle</a> — Includes a guillotine-to-triangle connection within a broader triangle curriculum.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Standing and guard entries, recovery against passing defenses, and attacks from passing positions.
-- The grounded section distinguishes butterfly-hook recovery, belly-down recovery and a finish after the guard is passed.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Standing takedown counters, guard entries and high-elbow guillotine variations.
+- Recovery against passing defenses and attacks while passing, from side control and from mount.
+
 
 ### Limits
 
-- The curriculum centers on guillotines; it is not an overview of every front-headlock submission.
+- The curriculum centers on guillotines, rather than the full range of front-headlock submissions.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" target="_blank" rel="noopener">The Marcelotine by Marcelo Garcia</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume outline organized around standing, grounded, guard and passing positions, with recovery against passing defenses.</p><p><a href="https://ryanhallonline.com/p/modern-triangle" target="_blank" rel="noopener">The Modern Triangle by Ryan Hall</a> — official listing; checked 2026-09-16. Verified the published curriculum: triangle process, finishing, defensive components, arm attacks and scoring options. Lesson names and durations are listed; paid lesson content was not inspected.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-course-url="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-product-id="the-marcelotine-by-marcelo-garcia" data-system-slug="systems/marcelo-garcia-guillotine-system" data-system-name="Marcelo Garcia Guillotine System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: The Marcelotine</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Grips">Grips</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Submission-Chains">Submission Chains</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Pressure">Pressure</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Timing-and-Rhythm">Timing and Rhythm</a> (Principle) — Related concept for organizing study.</p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a> (Principle) — Related concept for organizing study.</p><p><a href="/Systems/Marcelo-Garcia-Butterfly-Guard-System">Marcelo Garcia Butterfly Guard System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/Marcelo-Garcia-X-Guard-System">Marcelo Garcia X-Guard System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/Danaher-Front-Headlock-System">Danaher Front Headlock System</a> (System) — Related guide with a separate scope and source list.</p><p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall Triangle System</a> (System) — The Modern Triangle names a guillotine-to-triangle lesson for a different study direction.</p>
-
+<p><a href="/Principles/Grips">Grips</a></p><p><a href="/Principles/Submission-Chains">Submission Chains</a></p><p><a href="/Principles/Pressure">Pressure</a></p><p><a href="/Principles/Timing-and-Rhythm">Timing and Rhythm</a></p><p><a href="/Principles/Fork-Attacks">Fork Attacks</a></p><p><a href="/Systems/Marcelo-Garcia-Butterfly-Guard-System">Marcelo Garcia: Butterfly Guard</a></p><p><a href="/Systems/Marcelo-Garcia-X-Guard-System">Marcelo Garcia: X-Guard Entries and Sweeps</a></p><p><a href="/Systems/Danaher-Front-Headlock-System">John Danaher: Front Headlock Attacks</a></p><p><a href="/Systems/Ryan-Hall-Triangle-System">Ryan Hall: The Modern Triangle</a> — The Modern Triangle names a guillotine-to-triangle lesson for a different study direction.</p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Guillotine Control|Guillotine Control]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Guillotine Control|Guillotine Control]] (Position)
 
-- [[Positions/Front Headlock|Front Headlock]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Closed Guard|Closed Guard]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Front Headlock|Front Headlock]] (Position)
 
-- [[Positions/Butterfly Guard|Butterfly Guard]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/X-Guard|X-Guard]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Closed Guard|Closed Guard]] (Position)
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Positions/Turtle|Turtle]] (Position) — Related position reference for comparing the course vocabulary.
+- [[Positions/Butterfly Guard|Butterfly Guard]] (Position)
 
-- [[Positions/Standing Position|Standing Position]] (Position) — Related position reference for comparing the course vocabulary.
 
-- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+- [[Positions/X-Guard|X-Guard]] (Position)
 
-- [[Transitions/Front Headlock to Guillotine|Front Headlock to Guillotine]] (Transition) — Related graph transition for separate study, not a verified course sequence.
 
-- [[Transitions/Guillotine from Turtle|Guillotine from Turtle]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+- [[Positions/Half Guard|Half Guard]] (Position)
 
-- [[Transitions/Guard Pull|Guard Pull]] (Transition) — Related graph transition for separate study, not a verified course sequence.
 
-- [[Transitions/Arm Drag to Back|Arm Drag to Back]] (Transition) — Related graph transition for separate study, not a verified course sequence.
+- [[Positions/Turtle|Turtle]] (Position)
 
-- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition) — Related graph transition for separate study, not a verified course sequence.
 
-- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Positions/Standing Position|Standing Position]] (Position)
 
-- [[Submissions/High Elbow Guillotine|High Elbow Guillotine]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Submissions/Arm in Guillotine|Arm in Guillotine]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Transitions/Guillotine Setup|Guillotine Setup]] (Transition)
 
-- [[Submissions/Chin Strap Guillotine/from Front Headlock|Chin Strap Guillotine from Front Headlock]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
-- [[Submissions/Darce Choke|Darce Choke]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
+- [[Transitions/Front Headlock to Guillotine|Front Headlock to Guillotine]] (Transition)
 
-- [[Transitions/Anaconda Choke|Anaconda Choke]] (Submission) — Related submission reference; inclusion here does not establish course coverage.
 
+- [[Transitions/Guillotine from Turtle|Guillotine from Turtle]] (Transition)
+
+
+- [[Transitions/Guard Pull|Guard Pull]] (Transition)
+
+
+- [[Transitions/Arm Drag to Back|Arm Drag to Back]] (Transition)
+
+
+- [[Transitions/Snap Down to Front Headlock|Snap Down to Front Headlock]] (Transition)
+
+
+- [[Submissions/Guillotine Choke|Guillotine Choke]] (Submission)
+
+
+- [[Submissions/High Elbow Guillotine|High Elbow Guillotine]] (Submission)
+
+
+- [[Submissions/Arm in Guillotine|Arm in Guillotine]] (Submission)
+
+
+- [[Submissions/Chin Strap Guillotine/from Front Headlock|Chin Strap Guillotine from Front Headlock]] (Submission)
+
+
+- [[Submissions/Darce Choke|Darce Choke]] (Submission)
+
+
+- [[Transitions/Anaconda Choke|Anaconda Choke]] (Submission)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-source-url="https://bjjfanatics.com/products/the-marcelotine-by-marcelo-garcia" data-affiliate="false" data-system-slug="systems/marcelo-garcia-guillotine-system" data-product-id="marcelotine" target="_blank" rel="noopener">The Marcelotine by Marcelo Garcia</a> — official listing; checked 2026-09-16. Verified title, instructor and four-volume outline organized around standing, grounded, guard and passing positions, with recovery against passing defenses.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://ryanhallonline.com/p/modern-triangle" target="_blank" rel="noopener">The Modern Triangle by Ryan Hall</a> — official listing; checked 2026-09-16. Verified the published curriculum: triangle process, finishing, defensive components, arm attacks and scoring options. Lesson names and durations are listed; paid lesson content was not inspected.</p>
+</section>
+
+</details>
 </section>
 </main>

@@ -1,140 +1,152 @@
 
 ---
-title: "Gordon Ryan: Choosing a Guard-Passing Route | BJJGraph"
-description: "A study companion to Gordon Ryan’s Systematically Attacking The Guard, with a guard-specific starting point and comparison to Bernardo Faria’s over/under focus."
+title: "Gordon Ryan: No-Gi Guard Passing | BJJGraph"
+description: "Systematically Attacking The Guard by Gordon Ryan covers split squat, half guard, half butterfly, body locks and leg-entanglement positions, plus rolling."
 ---
 
 
 
 
-
-
-
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","name":"Gordon Ryan: Choosing a Guard-Passing Route","description":"A study companion to Gordon Ryan’s Systematically Attacking The Guard, with a guard-specific starting point and comparison to Bernardo Faria’s over/under focus."}
+{"@context":"https://schema.org","@type":"WebPage","name":"Gordon Ryan: No-Gi Guard Passing","description":"Systematically Attacking The Guard by Gordon Ryan covers split squat, half guard, half butterfly, body locks and leg-entanglement positions, plus rolling."}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph course companion. Not authored or endorsed by the instructor. Course: Systematically Attacking The Guard by Gordon Ryan.</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="Gordon Ryan Passing System">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>Gordon Ryan: No-Gi Guard Passing</h1>
+<div class="system-tags"><span>Passing System</span><span>Advanced</span></div>
 
-## Gordon Ryan: Choosing a Guard-Passing Route
+<p class="system-reference-count">12 related references (techniques and positions)</p>
+</header>
 
-**Choose a starting guard problem within Gordon Ryan’s split-squat, half-guard and half-butterfly passing study.**
-
-
-Systematically Attacking The Guard by Gordon Ryan spans several guard families. Its public outline helps you locate a problem before committing to the full series; later volumes list sparring and commentary for further study.
-
+<section class="system-course system-course--top" data-course-container data-course-placement="top" id="unlock-this-system">
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-placement="top" data-affiliate="false" target="_blank" rel="noopener"><h2>Systematically Attacking The Guard</h2><span class="system-course__instructor">By Gordon Ryan</span> <span class="system-course__button">View course on BJJ Fanatics</span></a>
 </section>
 
-<section id="fit" class="content-section">
+<section id="overview" class="system-overview">
 
-## Is this useful for you?
+Systematically Attacking The Guard by Gordon Ryan builds its no-gi passing approach around split squat, half guard and half butterfly. Its eight volumes extend into other guard families, body-lock variations and leg-entanglement positions.
 
-- You meet different guards and need to locate the relevant section instead of studying passes in isolation.
-
-
-### Consider an alternative if
-
-- For a narrower over/under focus, compare Bernardo Faria’s No Gi Pressure Passing.
-
-
-</section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: Locate the guard that stalls your pass
-
-On the free course outline, choose one guard you regularly encounter and record its volume and chapter. Compare its neighboring chapters: do they describe another guard, a defensive response, or a different pass? If you own the course, begin with the overview before that selected section.
-
-Published section: Volume 1: Guard Passing overview (5:35–8:24).
-
-
-
-<p>Source: <a href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" target="_blank" rel="noopener">Systematically Attacking The Guard by Gordon Ryan</a></p>
+Sparring footage and rolling commentary accompany the technical material. It is a broad option for passers who need responses to several guards, rather than depth in only one pass.
 
 </section>
 
 
-<section id="official-preview" class="content-section" data-system-preview data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c3917e87-3df1-4642-82b5-f93bdaec2f04?autoplay=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official trailer — Gordon Ryan / Systematically Attacking The Guard">
-<h2>Official trailer — Gordon Ryan / Systematically Attacking The Guard</h2>
-<p>Official trailer. The sample's instructional content has not been reviewed by BJJGraph.</p>
-<button type="button" data-load-preview hidden>Load official trailer</button>
-<div data-preview-player></div>
-<p><a href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" target="_blank" rel="noopener">Watch on the official page: Systematically Attacking The Guard by Gordon Ryan</a></p>
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="Gordon Ryan Passing System" data-provider="bunny" data-embed-url="https://iframe.mediadelivery.net/embed/596460/c3917e87-3df1-4642-82b5-f93bdaec2f04?autoplay=false&amp;muted=false&amp;preload=false&amp;responsive=true" data-verified-origins="[&#34;https://bjjgraph.org&#34;, &#34;https://dev.bjjgraph.pages.dev&#34;]" data-preview-title="Official trailer — Gordon Ryan / Systematically Attacking The Guard">
+<h2>Official trailer</h2>
+<p>Official trailer — Gordon Ryan / Systematically Attacking The Guard</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the trailer on the official page.</p>
+</section>
+
+<section class="system-course system-course--mid" data-course-container data-course-placement="mid">
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-placement="mid" data-affiliate="false" target="_blank" rel="noopener">Systematically Attacking The Guard · View course</a>
 </section>
 
 
 
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-<article class="product-card">
-<h3>Systematically Attacking The Guard</h3>
-<p>By Gordon Ryan</p>
+## Is this for you?
 
-<p><a href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
+- You need responses to several no-gi guard families, including knee shields, half butterfly and leg entanglements.
+- You want a broad passing course that includes sparring footage and commentary.
+
+
+
+<h3>Also consider</h3>
+<p><a href="/Systems/Bernardo-Faria-Pressure-System">Bernardo Faria: No-Gi Pressure Passing</a> — For a narrower no-gi pressure-passing course centered on over/under entries and troubleshooting.</p>
+
 
 </section>
-
-
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
-
-## What the sources cover
-
-- Split-squat entries, knee shields, half guard and half butterfly.
-- Body-lock variations, leg-entanglement positions and supine passing.
-- Separate rolling and rolling-commentary volumes.
-
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
 <span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
+
+## Coverage and limits
+
+- Split-squat passing, low and high knee shields, half guard, deep half and half butterfly.
+- Body-lock variations, X-guard and ashi-garami positions, plus supine passing.
+- Guard-opening material and separate rolling and rolling-commentary volumes.
+
 
 ### Limits
 
-- This is a broad guard-passing course; sustained mount and side-control attacks are separate studies.
+- The emphasis is passing the guard, rather than sustained mount or side-control offense after the pass.
+- It spans several passing families rather than concentrating exclusively on one pass.
 
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-<p><a href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" target="_blank" rel="noopener">Systematically Attacking The Guard by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified course identity, eight-volume outline, split-squat/half-guard/half-butterfly framing, and rolling/commentary volumes. Listing inspected; trailer content not reviewed.</p><p><a href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" target="_blank" rel="noopener">No Gi Pressure Passing by Bernardo Faria</a> — official listing; checked 2026-09-16. Verified No Gi Pressure Passing by Bernardo Faria and its four-volume outline: over/under entries, troubleshooting and other pressure passes. Listing inspected; trailer content not reviewed.</p>
+
+
+<section class="system-course system-course--end" data-course-container data-course-placement="end">
+<a class="system-course__link" href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-course-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-product-id="gordon-ryan-systematically-attacking-the-guard" data-system-slug="systems/gordon-ryan-passing-system" data-system-name="Gordon Ryan Passing System" data-vendor="bjjfanatics" data-placement="end" data-affiliate="false" target="_blank" rel="noopener">Go to this course: Systematically Attacking The Guard</a>
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related-content" class="system-section">
 
-## Related references and alternatives
+## Related guides and principles
 
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-<p><a href="/Principles/Pressure">Pressure</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Guard-Passing">Guard Passing</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Forward-Pressure">Forward Pressure</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Connection-Principles">Connection Principles</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Principles/Control-Point-Hierarchy">Control Point Hierarchy</a> (Principle) — Related concept for study notes; not a claim that this course teaches the linked article.</p><p><a href="/Systems/Modern-No-Gi-Passing-System">Modern No-Gi Passing System</a> (System) — Compare broader guard coverage with focused body-lock, over/under and float-passing studies.</p><p><a href="/Systems/Bernardo-Faria-Pressure-System">Bernardo Faria Pressure System</a> (System) — Compare a narrower no-gi over/under entry and troubleshooting study.</p><p><a href="/Systems/Danaher-Leg-Lock-System">Danaher Leg Lock System</a> (System) — Related study guide; its scope should be checked separately from this course.</p>
-
+<p><a href="/Principles/Pressure">Pressure</a></p><p><a href="/Principles/Guard-Passing">Guard Passing</a></p><p><a href="/Principles/Forward-Pressure">Forward Pressure</a></p><p><a href="/Principles/Connection-Principles">Connection Principles</a></p><p><a href="/Principles/Control-Point-Hierarchy">Control Point Hierarchy</a></p><p><a href="/Systems/Modern-No-Gi-Passing-System">No-Gi Guard-Passing Courses</a> — Compare broader guard coverage with focused body-lock, over/under and float-passing studies.</p><p><a href="/Systems/Bernardo-Faria-Pressure-System">Bernardo Faria: No-Gi Pressure Passing</a> — For a narrower no-gi pressure-passing course centered on over/under entries and troubleshooting.</p><p><a href="/Systems/Danaher-Leg-Lock-System">John Danaher: Leglocks — Enter The System</a></p>
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
 
 
-- [[Positions/Headquarters Position|Headquarters Position]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Headquarters Position|Headquarters Position]] (Position)
 
-- [[Positions/Half Guard|Half Guard]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
-- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+- [[Positions/Half Guard|Half Guard]] (Position)
 
-- [[Transitions/Leg Drag Pass|Leg Drag Pass]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
 
-- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+- [[Transitions/Body Lock Pass|Body Lock Pass]] (Transition)
 
-- [[Transitions/Pressure Pass|Pressure Pass]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
 
-- [[Transitions/Long Step Pass|Long Step Pass]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+- [[Transitions/Leg Drag Pass|Leg Drag Pass]] (Transition)
 
-- [[Transitions/Headquarters Pass|Headquarters Pass]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
 
-- [[Transitions/Over-Under Pass|Over-Under Pass]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
+- [[Transitions/Knee Slice Pass|Knee Slice Pass]] (Transition)
 
-- [[Transitions/Knee Slice Pass|Knee Cut Pass]] (Transition) — Related transition reference; graph linkage does not establish inclusion in the course.
 
-- [[Positions/Side Control|Side Control]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
+- [[Transitions/Pressure Pass|Pressure Pass]] (Transition)
 
-- [[Positions/Mount|Mount]] (Position) — Related position reference; graph linkage does not establish inclusion in the course.
 
+- [[Transitions/Long Step Pass|Long Step Pass]] (Transition)
+
+
+- [[Transitions/Headquarters Pass|Headquarters Pass]] (Transition)
+
+
+- [[Transitions/Over-Under Pass|Over-Under Pass]] (Transition)
+
+
+- [[Transitions/Knee Slice Pass|Knee Cut Pass]] (Transition)
+
+
+- [[Positions/Side Control|Side Control]] (Position)
+
+
+- [[Positions/Mount|Mount]] (Position)
+
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+<p>The sample's instructional content has not been reviewed by BJJGraph.</p>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-source-url="https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan" data-affiliate="false" data-system-slug="systems/gordon-ryan-passing-system" data-product-id="ryan-guard" target="_blank" rel="noopener">Systematically Attacking The Guard by Gordon Ryan</a> — official listing; checked 2026-09-16. Verified course identity, eight-volume outline, split-squat/half-guard/half-butterfly framing, and rolling/commentary volumes. Listing inspected; trailer content not reviewed.</p>
+</section>
+
+<section class="system-source" data-source-container>
+<p><a href="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-source-url="https://bjjfanatics.com/products/no-gi-pressure-passing-by-bernardo-faria" data-affiliate="false" data-system-slug="systems/gordon-ryan-passing-system" data-product-id="faria-pressure" target="_blank" rel="noopener">No Gi Pressure Passing by Bernardo Faria</a> — official listing; checked 2026-09-16. Verified No Gi Pressure Passing by Bernardo Faria and its four-volume outline: over/under entries, troubleshooting and other pressure passes. Listing inspected; trailer content not reviewed.</p>
+</section>
+
+</details>
 </section>
 </main>
