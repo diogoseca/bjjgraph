@@ -212,6 +212,18 @@ class SystemAffiliates(unittest.TestCase):
         self.assertIn('<h2>'+data['products'][0]['title']+'</h2>',top)
         self.assertEqual(html.count(gate.canonical_disclosure()),4) # three CTAs and one source
 
+    def test_static_related_guides_filter_stock_text_and_keep_editorial_links(self):
+        refs=[{'name':'Half guard: positional overview','source_name':'Andrew Wiltse Half Guard System','type':'System','url':'/Systems/Andrew-Wiltse-Half-Guard-System','relationship':'Andrew Wiltse Half Guard System: related system study, separate from the source syllabus.'}, {'name':'Frames','source_name':'Frames','type':'Principle','url':'/Principles/Frames','relationship':'Specific framing context for the underhook sequence.'}]
+        with patch.object(pages,'related_references',return_value=refs):
+            text=self.render()
+        self.assertIn('>Half guard: positional overview</a></p>',text)
+        self.assertIn('href="/Systems/Andrew-Wiltse-Half-Guard-System"',text)
+        self.assertNotIn('separate from the source syllabus',text)
+        self.assertIn('Specific framing context for the underhook sequence.',text)
+        qualifier='These related references are not a claim about what the course teaches or evidence of practical mastery.'
+        self.assertEqual(text.count(qualifier),1)
+        self.assertLess(text.index(qualifier),text.index('>Half guard: positional overview'))
+
     def test_invalid_configuration_fails_even_without_targets_and_does_not_log_value(self):
         import subprocess
         for bad in ('REPLACE_ME','x&ref=y','x\ny','secret invalid value','%22',' '):

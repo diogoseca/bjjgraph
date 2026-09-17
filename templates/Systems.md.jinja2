@@ -93,11 +93,11 @@ description: {{ description | jsonstr }}
 
 ## Related guides and principles
 
-{% for item in references | default([]) %}<p><a href="{{ item.url | e }}">{{ item.name | e }}</a> — {{ item.relationship | e }}</p>{% endfor %}
+These related references are not a claim about what the course teaches or evidence of practical mastery.
+
+{% for item in references | default([]) %}{% set relationship = item | guide_relationship if guide else item.relationship %}<p><a href="{{ item.url | e }}">{{ item.name | e }}</a>{% if relationship %} — {{ relationship | e }}{% endif %}</p>{% endfor %}
 
 ### Review related technique cards
-
-These related references are not a claim about what the course teaches or evidence of practical mastery.
 
 {% for item in related_content if item.content_type in ['Position', 'Transition', 'Submission'] %}
 {% set relationship = item | guide_relationship if guide else item.relationship %}
