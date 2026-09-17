@@ -101,7 +101,7 @@ class GuideWire(unittest.TestCase):
             entry=index['systems'][0]; body=dossiers[entry['key']]
             self.assertEqual(entry['id'],'Systems/Fixture-System');self.assertEqual(entry['display_title'],data['guide']['display_title']);self.assertEqual(entry['aliases'],data['aliases'])
             for key in ('guide','sources','preview','references'):self.assertNotIn(key,entry)
-            self.assertEqual(body['guide']['sources'][0],{**data['guide']['sources'][0], 'canonical_url':data['guide']['sources'][0]['url'], 'affiliate':False});self.assertNotIn('canonical_url',data['guide']['sources'][0]);self.assertEqual(body['references'],[{'name':'Related principle','type':'Principle','url':'/Principles/Real-Principle','relationship':data['related_content'][0]['relationship']}])
+            self.assertEqual(body['guide']['sources'][0],{**data['guide']['sources'][0], 'canonical_url':data['guide']['sources'][0]['url'], 'affiliate':False});self.assertNotIn('canonical_url',data['guide']['sources'][0]);self.assertEqual(body['references'],[{'name':'Related principle','source_name':'Real Principle','type':'Principle','url':'/Principles/Real-Principle','relationship':data['related_content'][0]['relationship']}])
             self.assertFalse(entry['products'][0]['affiliate']);self.assertEqual(entry['products'][0]['url'],entry['products'][0]['course_url'])
             from regenerate_graph import process_systems
             graph=process_systems(content,{})
@@ -109,6 +109,52 @@ class GuideWire(unittest.TestCase):
             self.assertTrue(product['has_affiliate_url'])
             for field in ('affiliate_url','course_url','url'):self.assertNotIn(field,product)
 
+
+    def test_reference_labels_use_editorial_title_without_changing_identity_or_url(self):
+        import tempfile
+        from _system_guides import related_references
+        from regenerate_graph import quartz_slug
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); (root/'Systems').mkdir()
+            stable='Andrew Wiltse Half Guard System'
+            target={'name':stable,'aliases':['Legacy guard alias'],'guide':{'display_title':'Half guard: positional overview'}}
+            (root/'Systems'/(stable+'.json')).write_text(json.dumps(target))
+            data={'related_content':[{'name':'Legacy guard alias','content_type':'System','relationship':'Distinct route from seated guard.'}]}
+            before=copy.deepcopy(data)
+            refs=related_references(data,root,quartz_slug)
+            self.assertEqual(refs,[{'name':'Half guard: positional overview','source_name':stable,'type':'System','url':'/Systems/Andrew-Wiltse-Half-Guard-System','relationship':'Distinct route from seated guard.'}])
+            self.assertEqual(data,before)
+
+    def test_stock_relationships_suppressed_across_types_but_specific_context_survives(self):
+        from _system_guides import guide_relationship
+        stock = [
+            'Related position for orientation.',
+            'Related position reference for comparing the course vocabulary.',
+            'Related position: Alias name.',
+            'Related principle on the graph.',
+            'Further conceptual reading: Alias name.',
+            'Related BJJGraph position.',
+            'Related concept for organizing study.',
+            'Related graph transition for separate study, not a verified course sequence.',
+            'Related study guide: Alias name.',
+            'Related Systems guide.',
+            'Related guide with a separate scope and source list.',
+            'Related study guide; its scope should be checked separately from this course.',
+        ]
+        for value in stock:
+            self.assertEqual(guide_relationship({'relationship':value}),'',value)
+        for kind in ('Position','Transition','Submission','Principle','System'):
+            for value in (
+                f'Related {kind.lower()} reference; graph linkage does not establish inclusion in the course.',
+                f'Related {kind.lower()} reference; inclusion here does not establish course coverage.',
+                f'Legacy name: related {kind.lower()} study, separate from the source syllabus.',
+                f'Related {kind.lower()} reference for guard-recovery study.',
+                f'Related {kind.lower()} reference: Legacy name.',
+            ):
+                item={'name':'Editorial name','source_name':'Legacy name','type':kind,'relationship':value}
+                self.assertEqual(guide_relationship(item),'',value)
+            for value in ('Related guard reference for comparing the guard-return sections in Volume 4.', 'Distinct context for the published sweep chapter.', 'Related principle reference for timing the far-side underhook.'):
+                self.assertEqual(guide_relationship({'relationship':value}),value)
 
     def test_static_preview_metadata_supports_immediate_verified_mount_and_fallback(self):
         import regenerate_md_from_json as pages

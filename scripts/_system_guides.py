@@ -126,7 +126,10 @@ def related_references(data, content_root, slug):
             if name not in (path.stem, source.get('name'), *(source.get('aliases') or [])):
                 continue
             rel = path.relative_to(content_root).with_suffix('')
-            refs.append({'name': name, 'type': kind, 'url': '/' + '/'.join(slug(p) for p in rel.parts), 'relationship': item.get('relationship', '')})
+            refs.append({'name': (source.get('guide') or {}).get('display_title') or name,
+                         'source_name': source.get('name') or path.stem, 'type': kind,
+                         'url': '/' + '/'.join(slug(p) for p in rel.parts),
+                         'relationship': item.get('relationship', '')})
             break
     return refs
 
@@ -180,11 +183,27 @@ def resolved_guide(data, content_root, slug):
 
 
 def guide_relationship(item):
-    """Drop repeated generic per-node disclaimers, preserving useful unique context."""
+    """Remove stock per-reference qualifiers; leave specific authored context intact."""
     value = item.get('relationship', '').strip()
-    generic = r'Related (?:position|transition|submission|technique) reference; graph linkage does not establish inclusion in the course\.?'
-    if re.fullmatch(generic, value, re.I):
+    kind = r'(?:position|transition|submission|technique|principle|system)'
+    patterns = (
+        rf'Related {kind} reference(?:; (?:graph linkage does not establish inclusion in the course|inclusion here does not establish course coverage))?\.?',
+        rf'.+: related {kind} study, separate from the source syllabus\.?',
+        rf'Related {kind} reference for (?:defensive decision|guard-recovery|leg-entanglement|positional escape|rear-mount escape|standing defense) study\.?',
+        rf'Related {kind} reference for turtle defense and exits\.?',
+        rf'Related {kind}(?: for orientation| on the graph)\.?',
+        rf'Related BJJGraph {kind}\.?',
+        r'Related position reference for comparing the course vocabulary\.?',
+        r'Related concept for organizing study\.?',
+        r'Related graph transition for separate study, not a verified course sequence\.?',
+        r'Related Systems guide\.?',
+        r'Related guide with a separate scope and source list\.?',
+        r'Related study guide; its scope should be checked separately from this course\.?',
+        rf'(?:Related {kind}(?: reference)?|Further conceptual reading|Related study guide): [^.!?]+\.?',
+    )
+    if any(re.fullmatch(pattern, value, re.I) for pattern in patterns):
         return ''
-    if value.rstrip('.') == f"Related {item.get('content_type', '').lower()} reference: {item.get('name', '')}":
+    names = {item.get('name', ''), item.get('source_name', '')}
+    if any(name and re.fullmatch(rf'Related {kind} reference: {re.escape(name)}\.?', value, re.I) for name in names):
         return ''
     return value

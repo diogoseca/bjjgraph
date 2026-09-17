@@ -310,7 +310,8 @@ That is not permission to publish placeholders.
   never proves playback or instruction review. Unreviewed notes belong quietly in Sources.
   Static/app order: title and distinct pills/count, actual course/instructor CTA, overview, preview
   and middle CTA if available, audience, coverage, final CTA, related guides/cards, compact Sources.
-  Top/middle/end CTAs share one primary product; no preview means top/end only. Related references
+  Top/middle/end CTAs share one primary product; no preview means top/end only. Related guide labels use the target editorial title; emitted `source_name` keeps stable
+  identity and the URL stays unchanged. Related references
   include positions and are not proficiency evidence; render a shared qualifier, not one per node.
   Products use verified canonical `course_url` without tracking/query placeholders; only live
   links render. Every Systems BJJFanatics outbound source/blog/preview/course link is attributed at build
