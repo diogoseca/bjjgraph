@@ -1,6 +1,6 @@
 {
   "name": "Lachlan Giles Leg Lock Defense Framework",
-  "description": "A defense-focused study route through Lachlan Giles' Leg Lock Anthology: 50/50, covering its advertised prevention, knee-recovery and disengagement material.",
+  "description": "Lachlan Giles' Leg Lock Anthology: 50/50 combines heel-hook offense with prevention, counters, knee recovery and disengagement.",
   "tags": [
     "bjj",
     "defense-system",
@@ -12,8 +12,8 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Advanced",
-  "summary": "Lachlan Giles' Leg Lock Anthology: 50/50 offers heel-hook defense and knee-recovery study within a larger course on 50/50 offense and entries.",
-  "overview": "A heel-hook problem, a trapped knee and a decision to leave 50/50 point to different parts of this anthology. Use the published outline to locate your current problem before working through the course's attacking entries.",
+  "summary": "Leg Lock Anthology: 50/50 by Lachlan Giles teaches heel-hook attacks and defenses around 50/50 and outside sankaku, with entries and narrated rolling.",
+  "overview": "Leg Lock Anthology: 50/50 places defense inside a larger attacking game. Lachlan Giles covers heel-hook prevention and counters, reclaiming the knee and leaving 50/50, alongside entries, finishing mechanics, sweeps and back takes. The eight-volume series also includes narrated training and competition rounds. It suits someone who wants both sides of leg-lock exchanges, with a strong emphasis on 50/50 and outside sankaku.",
   "related_content": [
     {
       "name": "Saddle",
@@ -179,43 +179,30 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "The anthology includes prevention, counters and knee recovery alongside its 50/50 attacks.",
-      "best_for": "Students selecting defensive sections within a broader 50/50 leg-lock course.",
-      "study_focus": "Begin with Volume 1, Part 4: Defending The Heel Hook; use Volume 3, Part 11 for knee recovery and Volume 4, Part 15 for disengagement.",
+      "blurb": "An eight-volume 50/50 anthology combining offense, defense, entries and narrated rolling.",
+      "best_for": "Grapplers who want a 50/50 attacking game with prevention, counters and escape options included.",
       "course_url": "https://bjjfanatics.com/products/leg-lock-anthology-50-50-by-lachlan-giles"
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Lachlan Giles: Defense Within the 50/50 Anthology",
+    "display_title": "Lachlan Giles: 50/50 Leg Locks and Defense",
     "audience": {
       "fits": [
-        "You want to locate heel-hook prevention and counters inside a course that also teaches leg attacks.",
-        "Your study question concerns recovering the knee from 50/50 or disengaging from that position."
+        "You want heel-hook defense alongside the attacks and positional changes that create those exchanges.",
+        "You want detailed coverage of 50/50, including knee recovery, sweeps and disengagement."
       ],
-      "consider_alternative_if": [
-        "Your recurring problem is mount or side control: the Danaher Pin Escape Fundamentals guide covers those pins, while this anthology centers on leg entanglements."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Volume 1 introduces knee-line and rotation concepts, then separates heel-hook prevention, counters and their connections.",
-        "Volumes 3–4 include reclaiming the knee from 50/50, sweeps, back takes and disengagement; Volume 5 addresses saddle, outside ashi and reaping configurations.",
-        "Later volumes add guard entries and narrated rolling, so defensive study can be compared with attacking situations."
+        "Knee-line and rotation concepts, heel-hook finishing mechanics, prevention and counters.",
+        "50/50 and outside sankaku, knee recovery, sweeps, back takes and disengagement; counters involving saddle, outside ashi and reaping positions.",
+        "Entries from seated and open guards, entries from top, and narrated rolling."
       ],
       "limits": [
-        "The linked course is an attack-and-defense anthology centered on 50/50 and outside sankaku, rather than a dedicated survey of every leg-lock escape.",
-        "The public outline identifies topics but does not specify the defensive movement or timing within each lesson."
+        "A substantial part of the course covers attacking entries and finishes. It is not a defense-only collection of escapes from every leg lock."
       ]
-    },
-    "start_here": {
-      "title": "Locate the point where your 50/50 problem changes",
-      "kind": "observation",
-      "task": "Use one recorded exchange, or a written account of a recent round, to separate three questions: was the problem heel access, a knee still held in the entanglement, or leaving 50/50? Match the relevant moment to Volume 1's prevention/counters, Volume 3's knee-recovery section or Volume 4's disengagement section. Keep any unclear body position marked as uncertain; the outline alone cannot resolve it.",
-      "source_ids": [
-        "lachlan-listing"
-      ],
-      "section": "Volume 1, Part 4: Defending The Heel Hook; Volume 3, Part 11: Reclaiming The Knee From 50/50; Volume 4, Part 15: 50/50 Top And Disengaging"
     },
     "sources": [
       {
@@ -244,6 +231,12 @@
       "checked_on": "2026-09-16",
       "content_reviewed": false,
       "playback_verified_on": []
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Danaher Pin Escape Fundamentals System",
+        "reason": "For mount and side-pin escapes when the main problem is upper-body control rather than leg entanglements."
+      }
+    ]
   }
 }

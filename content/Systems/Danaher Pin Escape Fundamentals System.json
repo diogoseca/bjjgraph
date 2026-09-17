@@ -1,7 +1,7 @@
 {
   "name": "Danaher Pin Escape Fundamentals System",
-  "description": "Find a route through John Danaher's Pin Escapes & Turtle Escapes course by matching the pin, escape family and resulting position.",
-  "summary": "John Danaher's Pin Escapes & Turtle Escapes connects general escape concepts with mount, side-pin, north-south, rear-mount and turtle material.",
+  "description": "John Danaher's Pin Escapes & Turtle Escapes covers recovery from mount, side control, knee-on-belly, north-south, rear mount and turtle.",
+  "summary": "Pin Escapes & Turtle Escapes by John Danaher combines escape concepts and body movements with detailed mount and side-pin escapes, plus rear-mount and turtle recovery.",
   "tags": [
     "bjj",
     "system",
@@ -9,7 +9,7 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Beginner",
-  "overview": "The outline devotes several volumes to side-position escapes rather than treating all pins as one problem. A useful way into this long course is to identify both the starting pin and the destination you want to understand, then compare variants within that section.",
+  "overview": "John Danaher's eight-volume fundamentals course covers the main grounded pin positions, with particular depth on mount and side control. Bridging, elbow and knee escapes sit alongside explanations of framing, space and leg insertion. The course also addresses high mount, opponents who sit out from side control, knee-on-belly and several north-south configurations, before closing with rear-mount and turtle escapes.",
   "related_content": [
     {
       "name": "Side Control",
@@ -80,9 +80,8 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "An eight-volume positional escape course, with extensive mount and side-pin sections plus rear mount and turtle.",
-      "best_for": "Students building a map of bottom-position escapes or comparing variants from a recurring pin.",
-      "study_focus": "Start at Volume 1, Escapes Overview (6:56); then use the mount families in Volume 2 or the side-position sections in Volumes 3–6.",
+      "blurb": "Broad positional escapes with extensive mount and side-control material, plus rear mount and turtle.",
+      "best_for": "Students seeking fundamentals and variations across several bottom positions.",
       "course_url": "https://bjjfanatics.com/products/pin-escapes-turtle-escapes-bjj-fundamentals-go-further-faster-by-john-danaher"
     }
   ],
@@ -91,32 +90,21 @@
     "display_title": "John Danaher: Pin Escapes and Turtle Escapes",
     "audience": {
       "fits": [
-        "You need an organized introduction to recovery from several bottom positions.",
-        "You want to compare mount or side-pin escape families before choosing one lesson to study closely."
+        "You want a broad positional-escape course covering more than one bad position.",
+        "Mount and side control are recurring problems, and you want both general escape concepts and variations for different forms of control."
       ],
-      "consider_alternative_if": [
-        "Established rear mount is your main problem: Back Defense Protocol offers Glick's more finely divided overhook-side, underhook-side and body-triangle outline."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Volume 1 covers escape goals, pinning concepts and body movements; Volumes 2–3 develop mount bridging and elbow-escape material.",
-        "Volumes 3–6 address side-position elbow and knee escapes, framing, insertion points and several alternative escape families.",
-        "Volume 7 includes knee-on-belly and north-south; Volume 8 covers rear mount and turtle."
+        "Escape goals, pinning concepts and body movements, including bridging, shrimping, back heists and shoulder rolls.",
+        "Mount bridging and elbow escapes; side-position elbow and knee escapes; framing, leg insertion and alternative side-pin escapes.",
+        "High mount, knee-on-belly, north-south, rear mount and turtle recovery."
       ],
       "limits": [
-        "The organizing subject is positional escape; a specific submission already in progress may call for a separate submission-defense lesson.",
-        "The outline names minimal and positive escapes but does not define those categories in its public text."
+        "Most of the series develops mount and side-pin escapes; rear mount and turtle share the final volume.",
+        "Its main subject is positional recovery, with no dedicated survey of defenses to individual submissions."
       ]
-    },
-    "start_here": {
-      "title": "Compare the starting pin with the destination",
-      "kind": "observation",
-      "task": "Choose one mount or side-control exchange and describe its first and last recognizable positions. Did it end in guard, standing, another pin or an unclear scramble? For mount, locate the bridge and elbow-escape families in Volume 2; for side control, compare the elbow material beginning in Volume 3 with the knee-escape material in Volume 4. Begin course viewing with Escapes Overview to check how Danaher defines the outcome you are trying to study.",
-      "source_ids": [
-        "danaher-listing"
-      ],
-      "section": "Volume 1: Escapes Overview (6:56–43:37); Volume 2: Bridging Escape From Mounted Position (UPA) (0:00) and Elbow Escape From Mounted Position (30:01)"
     },
     "sources": [
       {
@@ -145,6 +133,12 @@
       "checked_on": "2026-09-16",
       "content_reviewed": false,
       "playback_verified_on": []
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Back Defense Protocol",
+        "reason": "For a course devoted to rear control, with separate overhook-side, underhook-side, body-triangle and strangle-defense sections."
+      }
+    ]
   }
 }

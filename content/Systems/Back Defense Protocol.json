@@ -1,6 +1,6 @@
 {
   "name": "Back Defense Protocol",
-  "description": "A guide to selecting Brian Glick's back-escape lessons by controlling side, hooks, body triangle and strangle-defense stage.",
+  "description": "Brian Glick's Only Way Out: Dynamic Back Escapes covers hand fighting, hooks, body triangles and strangle defense from rear control.",
   "tags": [
     "bjj",
     "defense",
@@ -10,8 +10,8 @@
   ],
   "system_type": "Defense System",
   "difficulty_level": "Intermediate",
-  "summary": "Brian Glick's Only Way Out: Dynamic Back Escapes separates rear-mount escapes by overhook side, underhook side, body triangle and special control situations.",
-  "overview": "Two exchanges both called back control may require different study sections. Glick's outline separates side-specific escapes from lower-body restrictions and strangle defenses, which makes it useful when a general back-escape lesson does not match the position you keep encountering.",
+  "summary": "Only Way Out: Dynamic Back Escapes by Brian Glick covers escaping rear control from either side, including body triangles, trapped arms and strangle attempts.",
+  "overview": "Brian Glick devotes this seven-volume course to the problems that arise once an opponent controls your back. It combines defensive hand fighting with escapes from either side and from the body triangle, including routes to closed guard, half guard and ashi garami. Separate material addresses crucifix control, standing back control and strangle defenses at different stages.",
   "related_content": [
     {
       "name": "Back Control",
@@ -162,43 +162,30 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Seven volumes distinguish rear-control configurations, escape destinations and strangle-defense stages.",
-      "best_for": "Students who need separate study paths for overhook-side, underhook-side and body-triangle problems.",
-      "study_focus": "Begin with defensive hand fighting in Volume 1 at 24:53, then select Volume 2, 3 or 4 for the configuration you identified.",
+      "blurb": "Rear-mount escapes, body-triangle solutions and strangle defenses across seven volumes.",
+      "best_for": "Grapplers whose recurring defensive problem is established back control.",
       "course_url": "https://bjjfanatics.com/products/only-way-out-dynamic-back-escapes-by-brian-glick"
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Back Defense: Brian Glick's Rear-Mount Study Guide",
+    "display_title": "Brian Glick: Dynamic Back Escapes",
     "audience": {
       "fits": [
-        "You need to find the lesson that matches your particular rear-mount configuration.",
-        "Your recurring problem involves a trapped arm, body triangle or a strangle attempt during an escape."
+        "You repeatedly get stuck in rear mount, especially when hooks, a body triangle or a trapped arm complicate the escape.",
+        "You want back escapes and strangle defenses in the same course."
       ],
-      "consider_alternative_if": [
-        "Your exchange still begins in turtle without established rear mount: Priit Mihkelson Turtle Defense System has a more direct posture-and-exit outline."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Volume 1 introduces rear mount, defensive hand fighting, trapped-arm situations and four named essential skills.",
-        "Volumes 2–4 organize overhook-side, underhook-side and body-triangle escapes; Volume 5 adds crucifix, cross-body ride and standing cases.",
-        "Volume 6 distinguishes early, middle and late strangle defenses; Volume 7 supplies an executive summary."
+        "Defensive hand fighting, trapped-arm problems, elbow cuts, barrel rolls and folding or bridging.",
+        "Overhook-side and underhook-side escapes, hook troubleshooting, body-triangle escapes and guard recovery.",
+        "Special rear controls, including the crucifix and standing back control; early-, middle- and late-stage strangle defense."
       ],
       "limits": [
-        "This is a rear-control escape course; mount and side-pin recovery are outside its main organizing sections.",
-        "Strangle-defense chapter labels identify stages but do not establish how to recognize or execute a late defense."
+        "The course concentrates on rear control. Mount and side-pin escapes are outside its main curriculum."
       ]
-    },
-    "start_here": {
-      "title": "Identify the back-control configuration before choosing an escape",
-      "kind": "observation",
-      "task": "Pause a back-control exchange at the moment you would begin an escape. Record the upper-body control separately from the legs: which side can you identify, and are hooks or a body triangle visible? Use Volumes 2–4 to locate the matching section. If an arm is trapped or a strangle is already being attempted, mark that as a separate study problem and locate Volume 1 or 6 rather than assuming the same starting conditions.",
-      "source_ids": [
-        "glick-listing"
-      ],
-      "section": "Volume 1: Essential Skills - 1 - Gripping - Defensive Hand Fighting Fundamentals (24:53); Volumes 2–4: side-specific and body-triangle escapes"
     },
     "sources": [
       {
@@ -230,6 +217,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Priit Mihkelson Turtle Defense System",
+        "reason": "For turtle posture, hook prevention and exits before the problem becomes established rear mount."
+      }
+    ]
   }
 }
