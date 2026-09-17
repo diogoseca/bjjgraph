@@ -1,6 +1,6 @@
 {
   "name": "Vagner Rocha Float Passing System",
-  "description": "A companion to Vagner Rocha’s Float Passing System, with an exact float-entry starting section and comparison of its smash and reverse-knee-slice topics.",
+  "description": "Vagner Rocha’s Float Passing System combines knee-cut, float and standing passing, including smash passes, reverse knee slices and transitions to mount.",
   "tags": [
     "bjj",
     "system",
@@ -9,63 +9,63 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Intermediate",
-  "summary": "Compare the float-position exits in Vagner Rocha’s middle volume while keeping its knee-cut and standing-passing material in context.",
-  "overview": "Float Passing System by Vagner Rocha has three distinct parts: knee-cut passing, float passing and standing passing. The title can hide that broader scope. This guide centers the middle volume so readers interested in the float position can find that study directly.",
+  "summary": "A three-part no-gi course combining knee-cut passing, float-position exits and standing passes.",
+  "overview": "Float Passing System by Vagner Rocha devotes one volume each to knee-cut, float and standing passing. The float material covers entries and several exits, including smash passes, reverse knee slices and transitions to mount.\n\nThe course suits readers who want float passing within a wider no-gi passing game. It is not an entire series devoted only to the float position.",
   "related_content": [
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Knee Slice from Butterfly Half",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Knee Slice from Half",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Posts",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Transition Management",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Positional Sparring",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Lachlan Giles Body Lock Passing System",
       "content_type": "System",
-      "relationship": "Compare float-position exits with a course organized around body-lock stages."
+      "relationship": "For a course devoted to the body lock and its stages, rather than several passing families."
     }
   ],
   "flashcards": [],
@@ -77,41 +77,29 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Compare the float-position exits in Vagner Rocha’s middle volume while keeping its knee-cut and standing-passing material in context.",
-      "best_for": "You want to compare possible exits from the float position rather than start with a general passing survey.",
-      "study_focus": "Go directly to Volume 2’s entry lesson for the float focus; compare its smash and reverse-knee-slice branches.",
+      "blurb": "Three volumes of no-gi passing: knee cuts, float-position exits and standing passes.",
+      "best_for": "No-gi passers who want float passing alongside other passing options.",
       "course_url": "https://bjjfanatics.com/products/float-passing-system-by-vagner-rocha"
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Vagner Rocha: Float-Passing Exits",
+    "display_title": "Vagner Rocha: Float, Knee-Cut and Standing Passing",
     "audience": {
       "fits": [
-        "You want to compare possible exits from the float position rather than start with a general passing survey."
+        "You want float-position entries and finishes alongside knee-cut and standing-passing options."
       ],
-      "consider_alternative_if": [
-        "For a study built around body-lock entry and staged leg clearance, compare Lachlan Giles’s The Body Lock Pass."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "A dedicated float-entry and philosophy section.",
-        "Float-position smash, reverse-knee-slice, hook-clearing and other exit topics.",
-        "Separate knee-cut and standing-passing volumes."
+        "Knee-cut variations and connections to backsteps, leg drags and kimura-roll passing.",
+        "Float entries, smash passes, reverse and double knee slices, hook-clearing passes and mount transitions.",
+        "Standing passes, over/under and double-under options, plus butterfly and half-guard material."
       ],
       "limits": [
-        "Only the middle volume is dedicated to float passing; the full course includes other passing families."
+        "Only the middle volume is devoted to float passing; the full course also covers knee-cut and standing approaches."
       ]
-    },
-    "start_here": {
-      "title": "Compare two exits from the same named position",
-      "kind": "observation",
-      "task": "Use the public Volume 2 contents to locate the smash-pass and reverse-knee-slice sections immediately after the entry lesson. Note that both are presented from the float position, then choose which one answers your current question. If you own the course, watch the entry lesson first and compare the starting configurations shown in those two branches before assuming they are interchangeable.",
-      "source_ids": [
-        "rocha-float"
-      ],
-      "section": "Volume 2: Float Passing Systems - Float Pass Philosophy And Entry (0)."
     },
     "sources": [
       {
@@ -143,6 +131,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Lachlan Giles Body Lock Passing System",
+        "reason": "For a course devoted to the body lock and its stages, rather than several passing families."
+      }
+    ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "Ariel Tabak Outside Passing System",
-  "description": "A companion to Ariel Tabak’s Outside Passing Compendium, emphasizing outside-pass finishes, leg traps and the course’s explicit gi-grip material.",
+  "description": "Ariel Tabak’s Outside Passing Compendium covers getting around the legs, upper-body control, leg traps and finishing routes, including gi-specific grips.",
   "tags": [
     "bjj",
     "system",
@@ -9,68 +9,68 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Intermediate",
-  "summary": "Follow Ariel Tabak’s outside-passing study from getting around the legs to the problem of finishing with upper-body control.",
-  "overview": "Outside Passing Compendium by Ariel Tabak separates getting outside the legs from progressing afterward. It suits a passer who reaches the flank but still has questions about finishing. Its later grip-specific chapters also make equipment choice part of selecting a study route.",
+  "summary": "Outside passing from the initial flank to the finish, with leg traps, bullfighter variations and extensive gi-grip material.",
+  "overview": "Outside Passing Compendium by Ariel Tabak focuses on the gap between getting around the legs and completing the pass. Its four volumes develop outside entries, upper-body control and finishing options, with leg-trap and cross-grip variations.\n\nThe course suits passers who can reach the flank but struggle to finish. Collar, trouser and sleeve grips give it a substantial gi-specific component.",
   "related_content": [
     {
       "name": "Open Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Leg Drag Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "North-South",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Lasso Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Leg Drag Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Leg Drag to North-South",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Dominant Angles",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Lachlan Giles Body Lock Passing System",
       "content_type": "System",
-      "relationship": "Compare a dedicated body-lock route with this outside-passing focus."
+      "relationship": "For a dedicated no-gi course built around body-lock entries and clearing the legs from close contact."
     }
   ],
   "flashcards": [
@@ -88,9 +88,8 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Follow Ariel Tabak’s outside-passing study from getting around the legs to the problem of finishing with upper-body control.",
-      "best_for": "You get outside the legs but need a focused study of the remaining finishing problems.",
-      "study_focus": "Start at the Volume 1 progression chapter; inspect the later gi-grip labels before planning no-gi study.",
+      "blurb": "Four volumes on outside-passing entries and finishes, leg traps and cross-grip variations.",
+      "best_for": "Passers whose outside entries outpace their ability to finish, especially in the gi.",
       "course_url": "https://bjjfanatics.com/products/outside-passing-compendium-by-ariel-tabak"
     }
   ],
@@ -99,30 +98,20 @@
     "display_title": "Ariel Tabak: Outside Passing and Finishing",
     "audience": {
       "fits": [
-        "You get outside the legs but need a focused study of the remaining finishing problems."
+        "You get around the legs but lose the pass before securing upper-body control.",
+        "You want outside-passing options that include gi leg traps and cross-grip passing."
       ],
-      "consider_alternative_if": [
-        "For a pass organized around a torso connection, compare Lachlan Giles’s The Body Lock Pass."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Getting outside the legs, high-pummel responses and switching sides.",
-        "Leg traps with collar-and-pant or hip-and-pant grips, plus several finishing options.",
-        "Cross-grip passing and sleeve-grip chapters."
+        "Outside entries, high-pummel responses, side changes and progression to upper-body control.",
+        "Leg-trap finishes through leg drags, knee on belly, long steps and stacking.",
+        "Lasso and reverse De La Riva responses, north-south passing and cross-grip bullfighters."
       ],
       "limits": [
-        "Several later sections explicitly use gi grips; no-gi readers should distinguish these from the earlier outside-position topics."
+        "Several sections require collar, trouser or sleeve grips; the whole course does not transfer unchanged to no-gi."
       ]
-    },
-    "start_here": {
-      "title": "Find the gap between flanking and finishing",
-      "kind": "observation",
-      "task": "Compare the free outline’s Volume 1 chapters on getting outside the legs, progressing afterward, and reaching upper-body control. Place your last stalled attempt at one of those points. If you own the course, use the progression chapter as your first viewing target and record what new control it asks you to recognize.",
-      "source_ids": [
-        "tabak-outside"
-      ],
-      "section": "Volume 1: Progressing After Getting Outside The Legs (18:33–24:09)."
     },
     "sources": [
       {
@@ -154,6 +143,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Lachlan Giles Body Lock Passing System",
+        "reason": "For a dedicated no-gi course built around body-lock entries and clearing the legs from close contact."
+      }
+    ]
   }
 }

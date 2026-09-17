@@ -1,8 +1,8 @@
 {
   "name": "Craig Jones Riding Control System",
-  "description": "A study companion to Craig Jones’s Power Ride, with a control-focused starting point and comparison to Gordon Ryan’s mount-maintenance material.",
-  "summary": "Use Power Ride to separate leg control, upper-body control and turtle riding when studying why a top position fails to hold.",
-  "overview": "Power Ride: A New Philosophy on Pinning by Craig Jones organizes top control through lower-body tools, upper-body tools and turtle rides. This guide helps locate the kind of control problem you want to investigate before moving to the course’s submission material.",
+  "description": "Craig Jones’s Power Ride covers leg rides, upper-body controls, turtle breakdowns and submission transitions from several top positions.",
+  "summary": "A top-control course built around leg rides, upper-body controls and turtle riding, with entries and submission follow-ups.",
+  "overview": "Power Ride: A New Philosophy on Pinning by Craig Jones approaches top control through leg rides and upper-body controls, with a dedicated section on turtle riding.\n\nThe six-volume series covers entries from pins and passing positions, then submission follow-ups. It suits grapplers who want to hold and attack an opponent across several top positions, including when the opponent turns toward turtle.",
   "tags": [
     "bjj",
     "system",
@@ -16,57 +16,57 @@
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Cross Body Ride",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Gift Wrap",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Back Attack System",
@@ -76,7 +76,7 @@
     {
       "name": "Gordon Ryan Mount Control System",
       "content_type": "System",
-      "relationship": "Compare riding across positions with a course devoted to mount entries, maintenance and attacks."
+      "relationship": "For detailed mount maintenance, remounting and attacks organized around the mounted position."
     }
   ],
   "flashcards": [],
@@ -88,9 +88,8 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Use Power Ride to separate leg control, upper-body control and turtle riding when studying why a top position fails to hold.",
-      "best_for": "You reach top position but cannot identify which part of your control breaks first.",
-      "study_focus": "Use Standard Operating Procedure to orient the study, then connect an entry in Volume 5 with a control topic in Volumes 2–3.",
+      "blurb": "Six volumes on leg rides, upper-body control, turtle riding and attacks from top.",
+      "best_for": "Grapplers interested in riding and pinning across several top positions.",
       "course_url": "https://bjjfanatics.com/products/power-ride-a-new-philosophy-on-pinning-by-craig-jones"
     }
   ],
@@ -99,30 +98,20 @@
     "display_title": "Craig Jones: Riding Control with Power Ride",
     "audience": {
       "fits": [
-        "You reach top position but cannot identify which part of your control breaks first."
+        "You can get on top but struggle to keep an opponent down as they turn or build toward turtle.",
+        "You want wrestling-style rides alongside upper-body pinning and submission options."
       ],
-      "consider_alternative_if": [
-        "For a study anchored specifically to mounted position and remounting, compare Gordon Ryan’s mount course."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Separate volumes on leg control and upper-body tools.",
-        "Turtle rides and entries from side control, mount and passing positions.",
-        "A final volume connecting control topics to submission topics."
+        "Leg splitting, rides, turks, shelves and rear-mount control.",
+        "Crossfaces, claws, handcuffs and half nelsons, plus turtle rides and cradles.",
+        "Entries from pins and passes, followed by arm-triangle, darce, kimura and other submission topics."
       ],
       "limits": [
-        "The curriculum ranges across several rides and pins; it is broader than a mount-only maintenance study."
+        "Control across several rides and pins takes priority over a complete guard-passing curriculum or a mount-only treatment."
       ]
-    },
-    "start_here": {
-      "title": "Compare what each control section is trying to explain",
-      "kind": "observation",
-      "task": "Read the free Volume 2 and Volume 3 contents beside a note about one top position you recently lost. Mark whether your unanswered question concerns the legs, upper body, or both. Then locate the matching entry position in Volume 5. With course access, begin with Standard Operating Procedure before combining those sections.",
-      "source_ids": [
-        "jones-power-ride"
-      ],
-      "section": "Volume 1: Standard Operating Procedure (22:53)."
     },
     "sources": [
       {
@@ -154,6 +143,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Gordon Ryan Mount Control System",
+        "reason": "For detailed mount maintenance, remounting and attacks organized around the mounted position."
+      }
+    ]
   }
 }

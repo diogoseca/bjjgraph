@@ -1,6 +1,6 @@
 {
   "name": "Lucas Lepri Knee Cut System",
-  "description": "A study companion to Lucas Lepri’s Precision Knee Cut Passes, comparing open-guard entries, lasso contexts and later underhook or deep-half troubleshooting.",
+  "description": "Lucas Lepri’s Precision Knee Cut Passes covers gi open-guard entries, knee-cut variations and responses to lasso, underhooks, deep half and X guard.",
   "tags": [
     "bjj",
     "system",
@@ -9,63 +9,63 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Intermediate",
-  "summary": "Use Lepri’s knee-cut curriculum to identify whether your question concerns the entry guard, an underhook or a deeper leg entanglement.",
-  "overview": "Precision Knee Cut Passes by Lucas Lepri follows one passing family across several guards. Its outline distinguishes De La Riva and lasso entries from underhook, deep-half and X-guard situations. This is useful when the same named pass feels like a different problem depending on the starting guard.",
+  "summary": "A knee-cut-centered gi passing course covering entries from open guard and responses to the grips and guards that interrupt the pass.",
+  "overview": "Precision Knee Cut Passes by Lucas Lepri develops the knee cut across De La Riva, lasso, deep half and X guard. The four-volume series includes tripod, sliding and double-knee-cut variations, entries through toreando, and responses to scoop grips and underhooks.\n\nIts focus is useful for gi players who already favor the knee cut and want more options when the initial entry meets resistance. Passing remains centered on that technique, with substantial attention to gi-specific guards.",
   "related_content": [
     {
       "name": "De La Riva Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Lasso Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Open Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Knee Slice from Half",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Knee Slice from Knee Shield",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Guard Passing",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Lucas Lepri Half Guard Passing System",
       "content_type": "System",
-      "relationship": "Compare a knee-cut-focused study with multiple passing and submission topics from half guard."
+      "relationship": "For a broader range of passes and submission options specifically against coyote, single-leg half and deep half."
     }
   ],
   "flashcards": [],
@@ -77,41 +77,30 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Use Lepri’s knee-cut curriculum to identify whether your question concerns the entry guard, an underhook or a deeper leg entanglement.",
-      "best_for": "You use the knee cut but want to choose a lesson for the particular guard or obstruction that stops it.",
-      "study_focus": "Match the lesson to the entry guard first, then inspect the distinct underhook or leg-entanglement sections.",
+      "blurb": "Four volumes of knee-cut entries, variations and troubleshooting across gi open guards and half guard.",
+      "best_for": "Gi players building their passing around the knee cut.",
       "course_url": "https://bjjfanatics.com/products/precision-knee-cut-passes-by-lucas-lepri"
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Lucas Lepri: Knee-Cut Entries and Obstacles",
+    "display_title": "Lucas Lepri: Knee-Cut Passing",
     "audience": {
       "fits": [
-        "You use the knee cut but want to choose a lesson for the particular guard or obstruction that stops it."
+        "You use the knee cut in the gi but struggle against lasso grips, underhooks or deep-half entries."
       ],
-      "consider_alternative_if": [
-        "If you need several responses to coyote, single-leg-half or deep-half positions rather than a knee-cut focus, compare Lepri’s Precise Half Guard Passing."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "De La Riva, reverse De La Riva and lasso contexts.",
-        "Toreando entry, scoop-grip and underhook troubleshooting topics.",
-        "Deep-half, sit-up, single-leg-X and X-guard chapters."
+        "Knee-cut entries from De La Riva and toreando, with weave-pass connections.",
+        "Tripod, flying, sliding and double-knee-cut variations.",
+        "Half and full lasso, scoop grips, underhooks, deep half, sit-up guard and X-guard situations."
       ],
       "limits": [
-        "The organizing technique is the knee cut; lasso and grip-specific sections also limit how directly the whole curriculum transfers to no-gi."
+        "Substantial lasso and gi-grip material makes this a closer fit for gi passing than an exclusively no-gi game.",
+        "The knee cut remains the central pass; this is not a survey of all passing styles."
       ]
-    },
-    "start_here": {
-      "title": "Trace an entry question separately from an underhook question",
-      "kind": "observation",
-      "task": "In the free outline, compare Volume 1’s De La Riva entry with Volume 3’s underhook chapter. Describe your current question as either reaching the knee-cut position or dealing with the opponent once there. Use that distinction to choose one section. With access, begin with the entry chapter below and record the starting guard, without assuming the later underhook response applies to every entry.",
-      "source_ids": [
-        "lepri-knee-cut"
-      ],
-      "section": "Volume 1, Chapter 2: Using your opponents de la Riva to enter the knee cut (0:46–5:19)."
     },
     "sources": [
       {
@@ -140,6 +129,12 @@
       "checked_on": "2026-09-16",
       "content_reviewed": false,
       "playback_verified_on": []
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Lucas Lepri Half Guard Passing System",
+        "reason": "For a broader range of passes and submission options specifically against coyote, single-leg half and deep half."
+      }
+    ]
   }
 }
