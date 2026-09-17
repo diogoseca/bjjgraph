@@ -1,7 +1,7 @@
 {
   "name": "Gordon Ryan Side Control to North-South System",
-  "description": "Navigate Gordon Ryan’s side-control and north-south course by escape concern or arm-isolation goal, with a focused comparison to Danaher’s side crucifix.",
-  "summary": "Separate side-control retention, arm isolation and north-south transitions in Gordon Ryan’s top-pins curriculum.",
+  "description": "Gordon Ryan’s side-control and north-south course covers pin retention, arm isolation, transitions and submissions, with sparring and commentary.",
+  "summary": "Side-control and north-south maintenance, transitions and upper-body attacks, followed by rolling footage and commentary.",
   "tags": [
     "bjj",
     "system",
@@ -9,62 +9,62 @@
   ],
   "system_type": "Control System",
   "difficulty_level": "Intermediate",
-  "overview": "Systematically attacking From Top Pins: Side Control & North South by Gordon Ryan treats retention, limb isolation and changes between pins as distinct study topics. The outline includes near- and far-arm sections alongside north-south maintenance, so a failed attack and a lost pin need not lead to the same lesson.",
+  "overview": "Systematically attacking From Top Pins: Side Control & North South by Gordon Ryan combines pin maintenance, transitions between the two positions and upper-body attacks. Near- and far-arm isolation receive separate attention.\n\nThe eight-volume series includes rolling and commentary alongside the technical material. It suits no-gi top players who have passed the guard but struggle to retain control while developing submissions.",
   "related_content": [
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "North-South",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Knee on Belly",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Kimura",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "North-South Choke",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Transition Management",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Positional Sparring",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Danaher Side Crucifix System",
       "content_type": "System",
-      "relationship": "Compare broad pin maintenance with a focused side-crucifix and arm-isolation study."
+      "relationship": "For a narrower course on side-crucifix entries, underhooks, near-arm pinning and chancery attacks."
     },
     {
       "name": "Gordon Ryan Passing System",
@@ -81,9 +81,8 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Separate side-control retention, arm isolation and north-south transitions in Gordon Ryan’s top-pins curriculum.",
-      "best_for": "You can reach side control but need to identify whether your next study concerns retention, arm isolation or changing pins.",
-      "study_focus": "Choose a retention or transition section first; study near-arm and far-arm attacks as distinct branches.",
+      "blurb": "Eight volumes on retaining and attacking from side control and north-south, including sparring and commentary.",
+      "best_for": "No-gi top players developing pin retention and attacks after passing.",
       "course_url": "https://bjjfanatics.com/products/systematically-attacking-from-top-pins-side-control-north-south-by-gordon-ryan"
     }
   ],
@@ -92,30 +91,20 @@
     "display_title": "Gordon Ryan: Side Control and North-South",
     "audience": {
       "fits": [
-        "You can reach side control but need to identify whether your next study concerns retention, arm isolation or changing pins."
+        "You pass the guard but struggle to retain side control or north-south while attacking.",
+        "You want arm-isolation and submission options from both pins."
       ],
-      "consider_alternative_if": [
-        "For a narrower examination of underhooks, near-arm pinning and chancery, compare Danaher’s side-crucifix course."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Side-control escape responses and separate near- and far-arm isolation sections.",
-        "Movement to north-south and responses to knee recovery or turning.",
-        "Submission branches plus rolling and commentary volumes."
+        "Side-control escape responses and separate near- and far-arm isolation material.",
+        "Transitions to north-south, pin maintenance and knee-recovery or turning responses.",
+        "Kimuras, triangles, armbars, back takes and north-south strangles, plus rolling and commentary."
       ],
       "limits": [
-        "This is a top-pin study after passing; it does not replace a curriculum for getting through the guard."
+        "The course begins from top-pin problems; reaching those positions through guard passing is outside its main focus."
       ]
-    },
-    "start_here": {
-      "title": "Choose retention or relocation before choosing a submission",
-      "kind": "observation",
-      "task": "Compare Volume 2’s knee/elbow-connection topics with Volume 5’s north-south movement and knee-recovery topics in the public outline. Place your current question under staying in side control or changing pins. If you have access, begin with Why and When to Move to North South and note the stated reason for changing position before watching an attack branch.",
-      "source_ids": [
-        "ryan-side-north-south"
-      ],
-      "section": "Volume 5: North/South - Why and When to Move to North South."
     },
     "sources": [
       {
@@ -155,6 +144,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Danaher Side Crucifix System",
+        "reason": "For a narrower course on side-crucifix entries, underhooks, near-arm pinning and chancery attacks."
+      }
+    ]
   }
 }

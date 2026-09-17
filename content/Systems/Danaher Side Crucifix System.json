@@ -1,7 +1,7 @@
 {
   "name": "Danaher Side Crucifix System",
-  "description": "A focused companion to John Danaher’s Master The Move: The Side Crucifix, distinguishing underhook acquisition, arm pinning and later submission branches.",
-  "summary": "Locate the underhook, near-arm pinning or submission branch you need within Danaher’s side-crucifix study.",
+  "description": "John Danaher’s Master The Move: The Side Crucifix covers underhooks, near-arm pinning, chancery and shin-pin attacks with kimuras, triangles and armbars.",
+  "summary": "A focused side-crucifix course linking underhook acquisition and arm pinning to upper-body submissions.",
   "tags": [
     "bjj",
     "system",
@@ -9,62 +9,62 @@
   ],
   "system_type": "Control System",
   "difficulty_level": "Intermediate",
-  "overview": "Master The Move: The Side Crucifix by John Danaher gives separate attention to obtaining an underhook from a settled pin and obtaining one during an entry. Later volumes explore chancery, shin pins and submission branches. This makes the course a specific arm-isolation study within the wider top game.",
+  "overview": "Master The Move: The Side Crucifix by John Danaher concentrates on arm control and upper-body submissions from a side pin. Its six volumes cover obtaining the underhook, pinning the near-side arm and attacking through chancery or shin-pin positions.\n\nThis is a specialized course for top players who want more attacking depth from arm isolation after the pass.",
   "related_content": [
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Mounted Crucifix",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Crucifix",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Kimura",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "Triangle Choke",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Positional Sparring",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Gordon Ryan Side Control to North-South System",
       "content_type": "System",
-      "relationship": "Compare this focused arm-isolation course with broader side-control and north-south maintenance."
+      "relationship": "For broader side-control retention, transitions to north-south and attacks from both pins."
     }
   ],
   "flashcards": [
@@ -82,9 +82,8 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Locate the underhook, near-arm pinning or submission branch you need within Danaher’s side-crucifix study.",
-      "best_for": "You hold side control but need to distinguish obtaining arm control from choosing a submission afterward.",
-      "study_focus": "Compare the acquisition contexts in Volumes 1–2 before selecting a chancery or shin-pin branch.",
+      "blurb": "Six volumes on side-crucifix entries, arm isolation and submission branches.",
+      "best_for": "Top players seeking a focused arm-isolation and submission course from side control.",
       "course_url": "https://bjjfanatics.com/products/master-the-move-the-side-crucifix-by-john-danaher"
     }
   ],
@@ -93,30 +92,20 @@
     "display_title": "John Danaher: Side Crucifix and Arm Isolation",
     "audience": {
       "fits": [
-        "You hold side control but need to distinguish obtaining arm control from choosing a submission afterward."
+        "You reach side control but struggle to obtain arm isolation for attacks.",
+        "You want a focused course on side-crucifix controls and submission branches."
       ],
-      "consider_alternative_if": [
-        "For broader side-control escape responses and transitions to north-south, compare Gordon Ryan’s side-control course."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Underhooks from side control and from transitional positions.",
-        "Near-side arm pinning, chancery and shin-pin topics.",
-        "Kimura, triangle and armbar branches, with a back-crucifix connection."
+        "Underhook acquisition from side control, half guard, body-lock passing, turtle and knee-cut entries.",
+        "Near-side arm pinning, chancery and shin-pin positions.",
+        "Kimura, triangle and armbar branches, troubleshooting and a back-crucifix connection."
       ],
       "limits": [
-        "The side-crucifix focus is narrower than a general survey of side-control and north-south maintenance."
+        "This is a specialized side-crucifix curriculum, rather than a general course on side-control and north-south maintenance."
       ]
-    },
-    "start_here": {
-      "title": "Compare acquiring an underhook before and after the pin",
-      "kind": "observation",
-      "task": "Use Volumes 1 and 2 of the free outline to label two situations from your own notes: already in side control, or still entering it. Find the corresponding underhook lesson for each. With access, begin at the Volume 2 comparison below and record what distinction Danaher makes before studying an arm-pinning chapter.",
-      "source_ids": [
-        "danaher-side-crucifix"
-      ],
-      "section": "Volume 2: Getting Underhooks Prior To Side Control - Why It's Easier To Get And Underhook From Neutral Positions Than Side Control (0)."
     },
     "sources": [
       {
@@ -148,6 +137,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Gordon Ryan Side Control to North-South System",
+        "reason": "For broader side-control retention, transitions to north-south and attacks from both pins."
+      }
+    ]
   }
 }

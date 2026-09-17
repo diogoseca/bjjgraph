@@ -1,7 +1,7 @@
 {
   "name": "Gordon Ryan Mount Control System",
-  "description": "A companion to Gordon Ryan’s mount course that separates arrival, maintenance, remounting and submission study, including a published bridge-response chapter.",
-  "summary": "Choose between mount entry, maintenance, remounting and attack sections instead of treating every loss of mount as the same problem.",
+  "description": "Gordon Ryan’s mount course covers entries, maintenance, remounting, arm isolation and submissions, with separate sparring and commentary volumes.",
+  "summary": "Mount entries, escape responses and arm-isolation attacks, supported by sparring footage and Gordon Ryan’s commentary.",
   "tags": [
     "bjj",
     "system",
@@ -9,67 +9,67 @@
   ],
   "system_type": "Control System",
   "difficulty_level": "Intermediate",
-  "overview": "Systematically Attacking From Top Pins: Mount by Gordon Ryan lists mount entries before maintenance, recovery and submission sections. Rolling and commentary follow later. Use that organization to decide whether your immediate question concerns reaching mount, staying there, or attacking from it.",
+  "overview": "Systematically Attacking From Top Pins: Mount by Gordon Ryan covers reaching mount, retaining it and attacking from it. Escape responses and remounting sit alongside arm isolation and submission combinations.\n\nSix instructional volumes are followed by sparring footage and commentary. The combination suits no-gi top players who want positional detail as well as examples of how Ryan applies it in live exchanges.",
   "related_content": [
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "High Mount",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "S Mount",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Mounted Triangle",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Arm Triangle",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Positional Sparring",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Craig Jones Riding Control System",
       "content_type": "System",
-      "relationship": "Compare a multi-position riding study with this mount-focused course."
+      "relationship": "For lower- and upper-body riding tools across several top positions."
     },
     {
       "name": "Gordon Ryan Side Control to North-South System",
       "content_type": "System",
-      "relationship": "Study maintenance beside the torso or around the head in the separate top-pins course."
+      "relationship": "For side-control and north-south maintenance and attacks rather than a mount-focused course."
     }
   ],
   "flashcards": [],
@@ -81,9 +81,8 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Choose between mount entry, maintenance, remounting and attack sections instead of treating every loss of mount as the same problem.",
-      "best_for": "You reach mount but lose it during a bridge, a recovery attempt or the start of an attack.",
-      "study_focus": "Use the maintenance introduction to separate keeping mount from entering it or attacking; compare bridge chapters by their surrounding topics.",
+      "blurb": "Eight volumes covering mount entry, control, recovery and submissions, including sparring and commentary.",
+      "best_for": "No-gi top players who want to retain mount while developing attacks from it.",
       "course_url": "https://bjjfanatics.com/products/systematically-attacking-from-top-pins-mount-by-gordon-ryan"
     }
   ],
@@ -92,30 +91,20 @@
     "display_title": "Gordon Ryan: Mount Maintenance and Attacks",
     "audience": {
       "fits": [
-        "You reach mount but lose it during a bridge, a recovery attempt or the start of an attack."
+        "You reach mount but lose control during bridges, knee-elbow recoveries or submission attempts.",
+        "You want mount-maintenance instruction alongside arm-isolation and finishing options."
       ],
-      "consider_alternative_if": [
-        "For lower- and upper-body riding tools across several top positions, compare Craig Jones’s Power Ride."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Mount entries and a dedicated maintenance volume.",
-        "Remounting from three-quarter mount and responses to bridge or knee-elbow recovery.",
-        "Arm-isolation and submission topics, followed by rolling and commentary."
+        "Mount entries, maintenance and remounting from three-quarter mount.",
+        "Bridge and knee-elbow escape responses, cross-wrist controls, underhooks, high mount and S mount.",
+        "Armbar, triangle and arm-triangle attacks, plus separate rolling and commentary volumes."
       ],
       "limits": [
-        "Mount is the organizing position; side-control and north-south maintenance are covered by a separate course."
+        "Mount organizes the course; it is not a comprehensive treatment of side-control, north-south or turtle riding."
       ]
-    },
-    "start_here": {
-      "title": "Distinguish arrival from the first escape attempt",
-      "kind": "observation",
-      "task": "Recall one mount loss and note whether it happened while arriving, during a bridge, or while starting an attack. Compare the outline’s Countering a Bridge entries in Volumes 1 and 5 with Volume 3’s Countering a Push & Bridge. Their surrounding chapters identify different study contexts. With access, start in Volume 2’s maintenance introduction and select the relevant context afterward.",
-      "source_ids": [
-        "ryan-mount"
-      ],
-      "section": "Volume 2: Mount Maintenance Intro (0)."
     },
     "sources": [
       {
@@ -155,6 +144,16 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Craig Jones Riding Control System",
+        "reason": "For lower- and upper-body riding tools across several top positions."
+      },
+      {
+        "system": "Gordon Ryan Side Control to North-South System",
+        "reason": "For side-control and north-south maintenance and attacks rather than a mount-focused course."
+      }
+    ]
   }
 }

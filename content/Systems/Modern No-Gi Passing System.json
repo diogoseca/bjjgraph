@@ -1,6 +1,6 @@
 {
   "name": "Modern No-Gi Passing System",
-  "description": "Choose a no-gi passing study by the problem you want to solve: several guard families, body-lock stages, over/under responses or float-position exits.",
+  "description": "No-gi passing options ranging from Gordon Ryan’s broad guard-passing course to focused body-lock, over/under and float-passing alternatives.",
   "tags": [
     "bjj",
     "system",
@@ -11,108 +11,108 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Advanced",
-  "summary": "Compare a broad guard-by-guard course with focused body-lock, over/under and float-passing studies.",
-  "overview": "Use this comparison to select a study scope before selecting a technique. The linked Gordon Ryan course surveys several guard families; the other guides organize their reading around a narrower passing family or position. These are choices of study focus, not an official combined curriculum.",
+  "summary": "A comparison of broad no-gi guard coverage and courses concentrated on body-lock, over/under or float passing.",
+  "overview": "The featured Systematically Attacking The Guard by Gordon Ryan offers broad no-gi coverage across several guard families, with sparring and commentary. It suits passers looking for responses beyond a single preferred pass.\n\nThe alternatives have more concentrated emphases: body-lock passing, over/under pressure passing, or float passing alongside knee-cut and standing options. These are distinct courses, not parts of one shared curriculum.",
   "related_content": [
     {
       "name": "Headquarters Position",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Knee Shield Half Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Leg Drag Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Ashi Garami",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Open Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Knee Slice Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Leg Drag Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Body Lock Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Headquarters Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Long Step Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Knee Cut Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Smash Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Guard Passing",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Forward Pressure",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Gordon Ryan Passing System",
@@ -127,17 +127,17 @@
     {
       "name": "Bernardo Faria Pressure System",
       "content_type": "System",
-      "relationship": "Focused over/under entries and troubleshooting."
+      "relationship": "For over/under entries and troubleshooting within no-gi pressure passing."
     },
     {
       "name": "Lachlan Giles Body Lock Passing System",
       "content_type": "System",
-      "relationship": "Focused body-lock stages and narrated-rolling study."
+      "relationship": "For a dedicated body-lock course with entries, knee clearance, finishes and narrated rolling."
     },
     {
       "name": "Vagner Rocha Float Passing System",
       "content_type": "System",
-      "relationship": "Float-position study within a course also covering knee-cut and standing passing."
+      "relationship": "For float-position exits alongside separate knee-cut and standing-passing volumes."
     }
   ],
   "flashcards": [],
@@ -149,44 +149,28 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Compare a broad guard-by-guard course with focused body-lock, over/under and float-passing studies.",
-      "best_for": "You have several passing resources in mind and need to choose one that matches a recurring problem.",
-      "study_focus": "Use this course when a broad guard survey fits your question; choose the narrower linked guides when the passing family is already clear.",
+      "blurb": "Gordon Ryan’s broad no-gi passing course, covering several guard families with sparring and commentary.",
+      "best_for": "Passers who want breadth across guards rather than exclusive coverage of one passing family.",
       "course_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan"
     }
   ],
   "guide": {
     "kind": "topic_guide",
-    "display_title": "Choosing a No-Gi Passing Study",
+    "display_title": "No-Gi Guard-Passing Courses",
     "audience": {
       "fits": [
-        "You have several passing resources in mind and need to choose one that matches a recurring problem."
+        "You want to compare broad guard coverage with courses focused on a passing family you already use."
       ],
-      "consider_alternative_if": [
-        "If you already know the passing family you want, go directly to its companion guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Gordon Ryan: split-squat, half-guard and half-butterfly coverage within a broader course.",
-        "Lachlan Giles: body-lock stages and narrated rolling.",
-        "Bernardo Faria: over/under entries and troubleshooting; Vagner Rocha: a float volume alongside knee-cut and standing passing."
+        "The featured course covers several guard families, including knee shields, half butterfly and leg-entanglement positions.",
+        "The linked alternatives offer body-lock, over/under or float-passing emphases."
       ],
       "limits": [
-        "This comparison covers the linked courses, not every no-gi passing approach; it does not combine their chapter lists into a technical sequence."
+        "This is a comparison of the featured courses, not a complete catalogue of no-gi passing or a combined technical system."
       ]
-    },
-    "start_here": {
-      "title": "Choose breadth or depth from one recurring problem",
-      "kind": "observation",
-      "task": "Describe one recent passing problem without naming a preferred pass. Compare the official outlines: use Ryan’s half-butterfly volume for that guard family, Faria’s troubleshooting volume for an established over/under problem, Giles’s stage description for body-lock progress, or Rocha’s float volume for float-position exits. Select one route and record why its stated starting context matches your problem. Follow the corresponding guide for the first study action.",
-      "source_ids": [
-        "ryan-guard",
-        "giles-body-lock",
-        "faria-pressure",
-        "rocha-float"
-      ],
-      "section": "Comparison anchors: Ryan Volume 4; Faria Volume 2; Giles’s So What’s On This Series description; Rocha Volume 2."
     },
     "sources": [
       {
@@ -220,6 +204,20 @@
         "kind": "official_listing",
         "checked_on": "2026-09-16",
         "note": "Verified Float Passing System by Vagner Rocha and three-volume outline organized into knee cut, float and standing passing. Official page labels an embedded free sample; sample content not reviewed."
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Lachlan Giles Body Lock Passing System",
+        "reason": "For a dedicated body-lock course with entries, knee clearance, finishes and narrated rolling."
+      },
+      {
+        "system": "Bernardo Faria Pressure System",
+        "reason": "For over/under entries and troubleshooting within no-gi pressure passing."
+      },
+      {
+        "system": "Vagner Rocha Float Passing System",
+        "reason": "For float-position exits alongside separate knee-cut and standing-passing volumes."
       }
     ]
   }

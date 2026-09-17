@@ -1,6 +1,6 @@
 {
   "name": "Danaher Front Headlock System",
-  "description": "Navigate John Danaher’s The Front Headlock System by starting context and by control, submission or positional objective, with exact published lesson labels.",
+  "description": "John Danaher’s The Front Headlock System covers standing entries, guillotines, anacondas, darces, go-behinds and front-headlock guard passing.",
   "tags": [
     "bjj",
     "system",
@@ -15,163 +15,163 @@
   ],
   "system_type": "Control System",
   "difficulty_level": "Advanced",
-  "summary": "Distinguish control, strangles and go-behind options across Danaher’s standing, kneeling, seated and passing front-headlock material.",
-  "overview": "The Front Headlock System by John Danaher is not confined to a single choke. Its outline separates entries and positional contexts, then includes guillotine, anaconda, darce and go-behind material. Choose the context of your question before choosing a finish.",
+  "summary": "Front-headlock entries, positional control and attacks across standing, kneeling, seated and guard-passing situations.",
+  "overview": "The Front Headlock System by John Danaher connects entries and control with both submission and positional options. Its eight volumes cover standing, kneeling and seated exchanges, with a separate guard-passing section.\n\nAlongside guillotines, anacondas and darces, the course includes go-behinds and cradles. Its breadth suits grapplers who want the front headlock to serve more than one finishing option.",
   "related_content": [
     {
       "name": "Front Headlock",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Guillotine Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Anaconda Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Darce Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Back Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Turtle",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Crucifix",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Truck",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Standing Position",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Combat Base",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Gift Wrap",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Snap Down to Front Headlock",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Sprawl",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Anaconda Setup",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Darce Setup",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Guillotine Setup",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Turtle to Back Take",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Guillotine Choke",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "Arm in Guillotine",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "High Elbow Guillotine",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "Chin Strap Guillotine from Front Headlock",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "Ten Finger Guillotine",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "Anaconda Choke",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "Darce Choke",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "Rear Naked Choke",
       "content_type": "Submission",
-      "relationship": "Related submission reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph submission."
     },
     {
       "name": "Head Position",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Positional Hierarchy",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Craig Jones Riding Control System",
       "content_type": "System",
-      "relationship": "Compare front-headlock decisions with a dedicated study of riding and turtle control."
+      "relationship": "For a course centered on holding an opponent down with leg rides, upper-body controls and turtle rides."
     }
   ],
   "flashcards": [],
@@ -183,41 +183,30 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Distinguish control, strangles and go-behind options across Danaher’s standing, kneeling, seated and passing front-headlock material.",
-      "best_for": "You default to a guillotine whenever you reach the head and need to investigate the course’s positional alternatives.",
-      "study_focus": "Start at Control vs Submission, then select the standing, kneeling, seated or passing context matching your question.",
+      "blurb": "Eight volumes covering front-headlock entries, control, submissions and positional advances.",
+      "best_for": "Grapplers building a front-headlock game beyond a single guillotine finish.",
       "course_url": "https://bjjfanatics.com/products/the-front-headlock-system-by-john-danaher"
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "John Danaher: Front Headlock Decisions",
+    "display_title": "John Danaher: Front Headlock Attacks",
     "audience": {
       "fits": [
-        "You default to a guillotine whenever you reach the head and need to investigate the course’s positional alternatives."
+        "You want front-headlock entries and positional options as well as choke finishes.",
+        "You use the front headlock in both standing exchanges and seated or passing situations."
       ],
-      "consider_alternative_if": [
-        "If the recurring problem is keeping an opponent down from turtle after an entry, compare Craig Jones’s Power Ride."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Standing entries, kneeling attacks and seated front-headlock sections.",
-        "Guillotine, anaconda and darce topics.",
-        "Go-behind options and a separate guard-passing volume."
+        "Reactive entries, snapdowns and transitions from standing front headlock to the mat.",
+        "Guillotine, anaconda and darce variations, cradles and go-behinds.",
+        "Seated front headlocks, hip heists and applications against seated guard and half guard."
       ],
       "limits": [
-        "Front-headlock exchanges define the scope; this is not a general guard-passing survey or a complete turtle-riding curriculum."
+        "The course follows front-headlock exchanges; it is not a complete turtle-riding or general guard-passing course."
       ]
-    },
-    "start_here": {
-      "title": "Separate the positional question from the finishing question",
-      "kind": "observation",
-      "task": "In the public outline, compare Control vs Submission with Volume 5’s go-behind entries. Write down whether your current problem is reaching the headlock, retaining it, or selecting what comes next. Use that distinction to choose between the entry, control and attack sections; do not infer a mandatory choke-to-back sequence from their order.",
-      "source_ids": [
-        "danaher-front-headlock"
-      ],
-      "section": "Volume 1: Control vs Submission (24:52–27:42)."
     },
     "sources": [
       {
@@ -249,6 +238,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Craig Jones Riding Control System",
+        "reason": "For a course centered on holding an opponent down with leg rides, upper-body controls and turtle rides."
+      }
+    ]
   }
 }

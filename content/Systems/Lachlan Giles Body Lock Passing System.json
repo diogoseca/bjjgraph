@@ -1,6 +1,6 @@
 {
   "name": "Lachlan Giles Body Lock Passing System",
-  "description": "A companion to Lachlan Giles’s The Body Lock Pass, using its advertised stages and narrated rolling to distinguish torso connection from clearing the legs.",
+  "description": "The Body Lock Pass by Lachlan Giles covers no-gi entries, pinning, knee clearance and finishes, with counters, closed-guard opening and narrated rolling.",
   "tags": [
     "bjj",
     "system",
@@ -9,63 +9,63 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Intermediate",
-  "summary": "Separate securing the body lock, clearing the knee line and finishing the pass in Lachlan Giles’s focused passing study.",
-  "overview": "The Body Lock Pass by Lachlan Giles concentrates on one passing family across six volumes. Its official description separates entry, controlling the opponent, knee clearance and finishing, with narrated rolling. Use those distinctions to locate a sticking point instead of treating a secure lock as a completed pass.",
+  "summary": "A dedicated no-gi body-lock course covering the entire pass, from establishing the lock to clearing the legs, with narrated sparring.",
+  "overview": "The Body Lock Pass by Lachlan Giles follows one passing family in depth across six volumes. It covers entering the body lock, pinning the opponent, clearing the knee line and finishing, alongside responses to counters and defenses.\n\nThe course also includes the Sao Paulo closed-guard break and narrated rolling. That combination suits passers who want both the mechanics of the body lock and examples of its use in sparring, rather than a collection of unrelated passes.",
   "related_content": [
     {
       "name": "Seated Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Butterfly Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Body Lock",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Half Guard Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Hip Pressure",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Gordon Ryan Passing System",
       "content_type": "System",
-      "relationship": "Compare this single-family study with a broader guard-by-guard passing course."
+      "relationship": "For wider coverage of split squat, half butterfly, knee shields and passing from leg entanglements, alongside body-lock material."
     }
   ],
   "flashcards": [
@@ -88,41 +88,30 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Separate securing the body lock, clearing the knee line and finishing the pass in Lachlan Giles’s focused passing study.",
-      "best_for": "You can connect around the torso but want to understand which later passing stage still needs study.",
-      "study_focus": "Use the advertised entry, knee-clearance and finishing stages to choose a study question; no detailed chapter timetable is published on the inspected page.",
+      "blurb": "Six volumes devoted to body-lock passing, with counters, closed-guard opening and narrated rolling.",
+      "best_for": "No-gi passers looking for depth in one close-contact passing family.",
       "course_url": "https://bjjfanatics.com/products/the-body-lock-pass-by-lachlan-giles"
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Lachlan Giles: Studying the Body Lock Pass",
+    "display_title": "Lachlan Giles: Body-Lock Passing",
     "audience": {
       "fits": [
-        "You can connect around the torso but want to understand which later passing stage still needs study."
+        "You want to make body-lock passing a substantial part of your no-gi game.",
+        "You can secure the lock but struggle to clear the legs or finish the pass."
       ],
-      "consider_alternative_if": [
-        "For a broader selection of guard-specific passing routes, compare Gordon Ryan’s Systematically Attacking The Guard."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Body-lock entry, pinning, knee clearance and finishing topics.",
-        "A Sao Paulo closed-guard-opening section described on the official page.",
-        "Narrated rolling alongside the technical study."
+        "Body-lock entries, pinning, knee clearance, finishes and responses to counters.",
+        "Sao Paulo closed-guard opening within the body-lock approach.",
+        "Narrated rolling accompanying the technical instruction."
       ],
       "limits": [
-        "The body lock is the central passing family; this is not an outside-passing or general open-guard survey."
+        "The six volumes concentrate on the body lock; they are not a broad survey of outside passing and open-guard passing styles."
       ]
-    },
-    "start_here": {
-      "title": "Locate the leg barrier after the hands connect",
-      "kind": "observation",
-      "task": "Read the linked public explanation, The Body Lock Pass, with Lachlan Giles. Mark the point where the hands connect, where the first knee clears, and where the remaining leg is freed. Compare those distinct events with your own study notes. The written explanation supplies the observation task; the embedded video has not been reviewed here.",
-      "source_ids": [
-        "giles-body-lock-article"
-      ],
-      "section": "Public article: written explanation from the initial approach through the final leg clearance."
     },
     "sources": [
       {
@@ -160,6 +149,12 @@
       "checked_on": "2026-09-16",
       "content_reviewed": false,
       "playback_verified_on": []
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Gordon Ryan Passing System",
+        "reason": "For wider coverage of split squat, half butterfly, knee shields and passing from leg entanglements, alongside body-lock material."
+      }
+    ]
   }
 }

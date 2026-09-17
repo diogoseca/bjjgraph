@@ -8,13 +8,12 @@
       "vendor": "BJJFanatics",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Choose a starting guard problem within Gordon Ryan’s split-squat, half-guard and half-butterfly passing study.",
-      "best_for": "You meet different guards and need to locate the relevant section instead of studying passes in isolation.",
-      "study_focus": "Begin with Volume 1’s overview, then choose the chapter matching your recurring guard problem.",
+      "blurb": "Eight volumes of no-gi passing across guard families, with sparring and rolling commentary.",
+      "best_for": "No-gi passers seeking broad guard coverage rather than a single-pass course.",
       "course_url": "https://bjjfanatics.com/products/systematically-attacking-the-guard-by-gordon-ryan"
     }
   ],
-  "description": "A study companion to Gordon Ryan’s Systematically Attacking The Guard, with a guard-specific starting point and comparison to Bernardo Faria’s over/under focus.",
+  "description": "Systematically Attacking The Guard by Gordon Ryan covers split squat, half guard, half butterfly, body locks and leg-entanglement positions, plus rolling.",
   "tags": [
     "bjj",
     "system",
@@ -26,93 +25,93 @@
   ],
   "system_type": "Passing System",
   "difficulty_level": "Advanced",
-  "summary": "Choose a starting guard problem within Gordon Ryan’s split-squat, half-guard and half-butterfly passing study.",
-  "overview": "Systematically Attacking The Guard by Gordon Ryan spans several guard families. Its public outline helps you locate a problem before committing to the full series; later volumes list sparring and commentary for further study.",
+  "summary": "A broad no-gi passing course centered on split squat, half guard and half butterfly, with body locks, leg-entanglement coverage and narrated rolling.",
+  "overview": "Systematically Attacking The Guard by Gordon Ryan builds its no-gi passing approach around split squat, half guard and half butterfly. Its eight volumes extend into other guard families, body-lock variations and leg-entanglement positions.\n\nSparring footage and rolling commentary accompany the technical material. It is a broad option for passers who need responses to several guards, rather than depth in only one pass.",
   "related_content": [
     {
       "name": "Headquarters Position",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Half Guard",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Body Lock Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Leg Drag Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Knee Slice Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Pressure Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Long Step Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Headquarters Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Over-Under Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Knee Cut Pass",
       "content_type": "Transition",
-      "relationship": "Related transition reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph transition."
     },
     {
       "name": "Side Control",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Mount",
       "content_type": "Position",
-      "relationship": "Related position reference; graph linkage does not establish inclusion in the course."
+      "relationship": "Related BJJGraph position."
     },
     {
       "name": "Pressure",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Guard Passing",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Forward Pressure",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Control Point Hierarchy",
       "content_type": "Principle",
-      "relationship": "Related concept for study notes; not a claim that this course teaches the linked article."
+      "relationship": "Related BJJGraph principle."
     },
     {
       "name": "Modern No-Gi Passing System",
@@ -122,7 +121,7 @@
     {
       "name": "Bernardo Faria Pressure System",
       "content_type": "System",
-      "relationship": "Compare a narrower no-gi over/under entry and troubleshooting study."
+      "relationship": "For a narrower no-gi pressure-passing course centered on over/under entries and troubleshooting."
     },
     {
       "name": "Danaher Leg Lock System",
@@ -133,33 +132,24 @@
   "flashcards": [],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Gordon Ryan: Choosing a Guard-Passing Route",
+    "display_title": "Gordon Ryan: No-Gi Guard Passing",
     "audience": {
       "fits": [
-        "You meet different guards and need to locate the relevant section instead of studying passes in isolation."
+        "You need responses to several no-gi guard families, including knee shields, half butterfly and leg entanglements.",
+        "You want a broad passing course that includes sparring footage and commentary."
       ],
-      "consider_alternative_if": [
-        "For a narrower over/under focus, compare Bernardo Faria’s No Gi Pressure Passing."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Split-squat entries, knee shields, half guard and half butterfly.",
-        "Body-lock variations, leg-entanglement positions and supine passing.",
-        "Separate rolling and rolling-commentary volumes."
+        "Split-squat passing, low and high knee shields, half guard, deep half and half butterfly.",
+        "Body-lock variations, X-guard and ashi-garami positions, plus supine passing.",
+        "Guard-opening material and separate rolling and rolling-commentary volumes."
       ],
       "limits": [
-        "This is a broad guard-passing course; sustained mount and side-control attacks are separate studies."
+        "The emphasis is passing the guard, rather than sustained mount or side-control offense after the pass.",
+        "It spans several passing families rather than concentrating exclusively on one pass."
       ]
-    },
-    "start_here": {
-      "title": "Locate the guard that stalls your pass",
-      "kind": "observation",
-      "task": "On the free course outline, choose one guard you regularly encounter and record its volume and chapter. Compare its neighboring chapters: do they describe another guard, a defensive response, or a different pass? If you own the course, begin with the overview before that selected section.",
-      "source_ids": [
-        "ryan-guard"
-      ],
-      "section": "Volume 1: Guard Passing overview (5:35–8:24)."
     },
     "sources": [
       {
@@ -191,6 +181,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Bernardo Faria Pressure System",
+        "reason": "For a narrower no-gi pressure-passing course centered on over/under entries and troubleshooting."
+      }
+    ]
   }
 }
