@@ -591,9 +591,9 @@ class Component extends DCLogic {
     // siblings outside the wrap (whose wheel is the zoom) and the read is a deliberate screen:
     // over the graph, the film, the timed card or the More card the wheel moves the column.
     // Surfaces that scroll THEMSELVES keep it — the hand (its own horizontal glide, above), the
-    // pane, the modal, a timed card whose question overflows (`_readOwnScroll`).
+    // pane and the modal (`_readOwnScroll`). Long questions use this same column.
     document.addEventListener("wheel", (e) => {
-      if (!this._landOpen || !this._readMax || this._readOwnScroll(e.target)) return;
+      if (this._landHidden() || !this._readMax || this._readOwnScroll(e.target)) return;
       if (Math.abs(e.deltaX) > Math.abs(e.deltaY) || !e.deltaY) return;   // a trackpad's real horizontal gesture is not ours
       e.preventDefault(); e.stopPropagation();
       this._readScrollBy(e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? (window.innerHeight || 800) : 1));
@@ -9948,10 +9948,10 @@ class Component extends DCLogic {
    *  over an invisible surface and a stray keystroke scored a question the player was not being
    *  asked (v1.113.4). Reads the inline opacity `_suppressLand` writes — the same tell
    *  `_landBackfill` already uses, so there is no second source of truth. */
-  /** The landing card, deck backs, film and More are root-plane siblings. Keep every overlay consumer on this list:
+  /** The landing card, deck backs, swipe guides, film and More are root-plane siblings. Keep every overlay consumer on this list:
    * the floating More row owns controls just as the card and film strip do. */
   _landSurfaces() {
-    return [this._landEl, this._landStackEl, this._landFilmEl, this._landMoreEl].filter(Boolean);
+    return [this._landEl, this._landStackEl, this._landNavEl, this._landFilmEl, this._landMoreEl].filter(Boolean);
   }
   _landHidden() {
     // ASK THE HOLDERS, NOT THE PIXELS. The first cut read the inline opacity `_suppressLand`
@@ -11196,6 +11196,7 @@ class Component extends DCLogic {
       truth.revealed = !truth.revealed;
       live.textContent = truth.revealed ? "Answer revealed." : "Answer hidden.";
       paint();
+      if (surface === "land" && this._landEl) this._dockLandCard(this._landEl);
     };
     const grade = (ok) => {
       if (graded) return; graded = true;
@@ -12547,6 +12548,8 @@ class Component extends DCLogic {
     if (this._mc && this._mc.surface === "land") this._mc = null;
     if (this._landEl) { try { this._landEl.remove(); } catch (e) {} this._landEl = null; }
     if (this._landStackEl) { this._landStackEl.remove(); this._landStackEl = null; }
+    if (this._landNavEl) { this._landNavEl.remove(); this._landNavEl = null; }
+    this._readStop(); this._readMax = 0; this._landOverflow = 0;
     (this.__ngRoot || document.body).classList.remove("ng-has-land-deck");
     this._clearLandMore();
   }
@@ -12559,6 +12562,7 @@ class Component extends DCLogic {
    * rebuild path that keeps that state while replacing both DOM roots around a re-parented question. */
   clearLandCard(preserveMoreState) {
     if (!preserveMoreState) {
+      this._readS = 0;
       if (this._landOpen && this._landEl && this._landMoreEl) this.expandLandCard(false);
       else if (this._landAutoPaused) { this.setPaused(false); this._landAutoPaused = false; }
       this._landOpen = false;
@@ -12728,8 +12732,8 @@ class Component extends DCLogic {
     }
     return qw;
   }
-  // Decorative backs are a root-plane sibling: the question keeps its native scrollport,
-  // while backs can extend beyond it. All hide/read/teardown paths own both surfaces.
+  // Backs and swipe guides are root-plane siblings, outside the card's face.
+  // All hide/read/teardown paths own these surfaces together.
   _updateLandDeck() {
     const el = this._landEl, q = this._landQ;
     if (!el || !q || this._landPage == null) return;
@@ -12749,10 +12753,11 @@ class Component extends DCLogic {
       cnt.setAttribute("data-land-count", prog.done + "/" + prog.total);
     }
     // Quiet chevrons make the gesture discoverable and provide a mouse/touch alternative.
-    // The strip reserves space in the question but stays pinned while long answers scroll.
-    let nav = el.querySelector("[data-land-nav]");
+    // No footer or content reservation: the guides live beside the card at its midpoint.
+    let nav = this._landNavEl;
     if (!nav) {
       nav = document.createElement("nav");
+      nav.className = "ng-landnav";
       nav.setAttribute("data-land-nav", "1");
       nav.setAttribute("aria-label", "Flashcards");
       for (const dir of [-1, 1]) {
@@ -12767,7 +12772,9 @@ class Component extends DCLogic {
         button.addEventListener("click", (event) => { event.stopPropagation(); this._landPageTo(dir); });
         nav.appendChild(button);
       }
-      el.appendChild(nav);
+      el.after(nav);
+      this._landNavEl = nav;
+      this._readTouch(nav);
     }
     const prev = nav.querySelector("[data-land-prev]"), next = nav.querySelector("[data-land-next]");
     const focused = document.activeElement;
@@ -12802,7 +12809,7 @@ class Component extends DCLogic {
       this.setEvent("Deck complete — congratulations!", "You’ve answered every flashcard. One step closer to mastering BJJ theory.", "good");
       this.fx("land_deck_completed", { deckKey: q.key, cards: total });
     }
-    this._dockLandStack();
+    this._dockLandCard(el);
   }
   _compactLandDeck() {
     return !!(this._landEl && this._landEl.classList.contains("ng-land-deck") &&
@@ -12811,20 +12818,30 @@ class Component extends DCLogic {
   _dockLandStack() {
     const el = this._landEl, stack = this._landStackEl;
     if (!el || !stack) return;
-    const cs = getComputedStyle(el);
-    // Fit the deck into the actual band above its dock. This cap depends on the viewport
-    // and film, never on question length, so scrolling between cards cannot change it.
+    const cs = getComputedStyle(el), bottom = parseFloat(cs.bottom);
+    // Keep the usual deck height, but let a longer face grow without clipping its answer.
+    // If it exceeds the available band, start at the top and move the entire column to read.
     // Expanding a video keeps the thumbnail's reservation; playback must not squash the deck.
     const film = this._landFilmEl;
     const filmHeight = film ? (this._expandedClip ? (this._expandedClip._bh || 92) + 6 : film.offsetHeight) : 0;
     const filmSpace = !this._compactLandDeck() && filmHeight ? filmHeight + 8 : 0;
-    const available = (window.innerHeight || 800) - parseFloat(cs.bottom) - filmSpace - 16;
-    el.style.setProperty("max-height", Math.max(80, Math.floor(available)) + "px", "important");
+    const available = Math.max(80, (window.innerHeight || 800) - bottom - filmSpace - 16);
+    el.style.minHeight = Math.min(this._compactLandDeck() ? (window.innerHeight - 112) : this.isMobile() ? 248 : 256, available) + "px";
+    this._landOverflow = Math.max(0, el.offsetHeight - available);
+    el.style.setProperty("bottom", (bottom - this._landOverflow) + "px", "important");
     stack.style.left = cs.left;
     stack.style.width = el.offsetWidth + "px";
     stack.style.height = el.offsetHeight + "px";
     stack.style.bottom = cs.bottom;
     stack.style.transform = "translate(-50%," + (-this._readOffset()) + "px)";
+    const nav = this._landNavEl;
+    if (nav) {
+      nav.style.left = cs.left;
+      nav.style.width = el.offsetWidth + "px";
+      nav.style.height = el.offsetHeight + "px";
+      nav.style.bottom = cs.bottom;
+      nav.style.transform = stack.style.transform;
+    }
   }
   _armPagedLandClock() {
     const q = this._landQ, el = this._landEl;
@@ -12862,11 +12879,7 @@ class Component extends DCLogic {
       else el.appendChild(qw);
       this._landPage = next;
       this._armPagedLandClock();
-      el.scrollTop = 0;
-      const corner = el.querySelector("[data-land-corner]");
-      if (corner) corner.style.transform = "";
-      const nav = el.querySelector("[data-land-nav]");
-      if (nav) nav.style.transform = "";
+      this._readStop(); this._readS = 0;
       this._landPaged = true; // the anti-reshuffle guard now answers for THIS cursor
       this._updateLandDeck();
       // Animate the face only: the shell and film stay anchored, including during rapid paging.
@@ -13112,9 +13125,8 @@ class Component extends DCLogic {
     this._landCardChrome(el, node, key, this._landPerspSide(node));
     this._updateLandDeck();
     // ── GESTURES: the card pages its own deck (v1.130.0) ── bound per element, so they die with
-    // clearLandCard. Horizontal-dominant ONLY — vertical stays the card's native overflow-y
-    // scroll, which is also why the drill panel's vertical swipe actions are deliberately not
-    // copied. Thresholds are the drill's (40px / 700ms, passive). A SWIPE IS NOT A PICK: the
+    // clearLandCard. Horizontal-dominant ONLY — vertical moves the whole reading column.
+    // Thresholds are the drill's (40px / 700ms, passive). A SWIPE IS NOT A PICK: the
     // capture-phase click suppressor is the option tray's lesson — without it a swipe ending on
     // an MC option would answer it through the browser's synthesized click.
     {
@@ -13171,17 +13183,8 @@ class Component extends DCLogic {
           wAcc = 0;
         }
       }, { passive: false });
-      // Keep the landing card's own close corner reachable when a long QUESTION scrolls. More
-      // has no scrollport of its own (v1.175.0) — its column is `_readApply`'s, not this card's.
-      el.addEventListener("scroll", () => {
-        const pinnedCorner = el.querySelector("[data-land-corner]");
-        if (pinnedCorner) pinnedCorner.style.transform = "translateY(" + el.scrollTop + "px)";
-        const nav = el.querySelector("[data-land-nav]");
-        if (nav) nav.style.transform = "translateY(" + el.scrollTop + "px)";
-      }, { passive: true });
     }
-    // ...and while More is open, a VERTICAL drag on this card moves the whole reading column —
-    // unless the card's own question scrollport wants it (`_readOwnScroll`).
+    // A vertical drag moves the whole column when a long answer or More exceeds the screen.
     this._readTouch(el);
     // deck/pool still landing: come back once, for THIS card only (`_landEl === el` proves the
     // player has not moved on), and never loop — after the warm, questionFor either has a card
@@ -13369,7 +13372,7 @@ class Component extends DCLogic {
     btn.textContent = want ? "Less" : "More";
     // Restore the declared resting colour rather than deleting the inline declaration.
     btn.style.color = want ? "#cdd5e6" : NG_LAND_MORE_COL;
-    this._dockLandMore(el);
+    this._dockLandCard(el);
     return true;
   }
   // ═══ THE READING COLUMN (v1.175.0, owner: "what moves up is this new card that showed, the
@@ -13387,12 +13390,13 @@ class Component extends DCLogic {
   // frame (`_readClear` first, `_readApply` after) so no rect is read through its own
   // translation — the two readers that run between docks (`_dockLandFilm`, the camera band)
   // add `_readOffset()` back explicitly.
-  _readOffset() { return this._landOpen ? (this._readS || 0) : 0; }
+  _readOffset() { return this._readMax ? (this._readS || 0) : 0; }
   _readKey(e) {
     const target = e.target;
-    if (!this._landOpen || this._landHidden() || e.metaKey || e.ctrlKey || e.altKey || !target ||
-        !target.closest || !target.closest("[data-land-more-body]") ||
-        target.closest("button,a[href],input,textarea,select,[contenteditable]")) return false;
+    if (!this._readMax || this._landHidden() || e.metaKey || e.ctrlKey || e.altKey || !target ||
+        !target.closest || target.closest("input,textarea,select,[contenteditable]")) return false;
+    const pageKey = this._landOverflow && /^(PageUp|PageDown|Home|End)$/.test(e.key);
+    if (!pageKey && (!target.closest("[data-land-more-body]") || target.closest("button,a[href]"))) return false;
     const page = (window.innerHeight || 800) * .85;
     const deltas = { ArrowUp: -40, ArrowDown: 40, PageUp: -page, PageDown: page, " ": e.shiftKey ? -page : page };
     if (Object.prototype.hasOwnProperty.call(deltas, e.key)) this._readScrollBy(deltas[e.key]);
@@ -13417,19 +13421,28 @@ class Component extends DCLogic {
       // ends — a member positioned off its home frame gives up the entry motion
       if (s) t.style.animation = "none";
     }
+    // Keep the guides beside the visible part of an exceptionally tall answer. Once the
+    // whole card leaves the viewport during a More read, its guides leave with it.
+    const nav = this._landNavEl, card = this._landEl;
+    if (nav && card) {
+      const H = window.innerHeight || 800, height = card.offsetHeight;
+      const top = H - parseFloat(getComputedStyle(card).bottom) - height - s;
+      const middle = (Math.max(16, top) + Math.min(H - 16, top + height)) / 2 - top;
+      nav.style.setProperty("--guide-y", Math.max(22, Math.min(height - 22, middle)) + "px");
+    }
     const push = max - s;
     const tray = this.optionsRef && this.optionsRef.current;
     if (tray) tray.style.bottom = (this._landDatum().tray - push) + "px";
   }
   _readScrollBy(dy) {
-    if (!this._landOpen || !this._readMax) return false;
+    if (this._landHidden() || !this._readMax) return false;
     this._readStop();
     const before = this._readS || 0;
     this._readApply(before + dy);
     return this._readS !== before;
   }
   /** Does `t` sit in something that scrolls itself VERTICALLY — the pane, the modal, a timed
-   *  card whose question overflows? Then the column leaves that input alone. The hand is not
+   *  reading sheet? Then the column leaves that input alone. The hand is not
    *  one: it overflows sideways, so a vertical wheel over it moves the page it rides (measured:
    *  at the end of a read the hand rises under a resting cursor, and the tray's own glide had
    *  taken the wheel that was meant to scroll back); its horizontal deltas still reach it.
@@ -13452,7 +13465,7 @@ class Component extends DCLogic {
       this._readRaf = 0;
       const dt = Math.min(64, Math.max(1, now - last)); last = now;
       v *= Math.pow(0.94, dt / 16);
-      if (Math.abs(v) < 0.02 || !this._landOpen) return;
+      if (Math.abs(v) < 0.02 || this._landHidden() || !this._readMax) return;
       const before = this._readS || 0;
       this._readApply(before + v * dt);
       if (this._readS === before) return;            // hit an end: stop dead rather than grinding
@@ -13464,22 +13477,28 @@ class Component extends DCLogic {
    *  on release). Bound per element, so it dies with the element. A DRAG IS NOT A PICK: the
    *  capture-phase click suppressor is the option tray's lesson. */
   _readTouch(el) {
-    let y0 = 0, s0 = 0, lastY = 0, lastT = 0, vy = 0, live = false, moved = 0;
+    let x0 = 0, y0 = 0, s0 = 0, lastY = 0, lastT = 0, vy = 0, live = false, moved = 0, vertical = false;
     el.addEventListener("touchstart", (e) => {
       live = false;
-      if (!this._landOpen || !this._readMax || e.touches.length !== 1 || this._readOwnScroll(e.target)) return;
+      if (this._landHidden() || !this._readMax || e.touches.length !== 1 || this._readOwnScroll(e.target)) return;
       this._readStop();
       const t = e.touches[0];
-      y0 = lastY = t.clientY; s0 = this._readS || 0; lastT = performance.now(); vy = 0; live = true; moved = 0;
+      x0 = t.clientX; y0 = lastY = t.clientY; s0 = this._readS || 0; lastT = performance.now(); vy = 0; live = true; moved = 0; vertical = false;
     }, { passive: true });
     el.addEventListener("touchmove", (e) => {
       if (!live) return;
       const t = e.touches[0], now = performance.now();
+      if (!vertical) {
+        if (Math.max(Math.abs(t.clientX - x0), Math.abs(t.clientY - y0)) < 6) return;
+        if (Math.abs(t.clientX - x0) > Math.abs(t.clientY - y0)) { live = false; return; }
+        vertical = true;
+      }
+      if (e.cancelable) e.preventDefault();
       moved = Math.max(moved, Math.abs(t.clientY - y0));
       this._readApply(s0 - (t.clientY - y0));
       const dt = now - lastT;
       if (dt > 0) { vy = vy * 0.6 + ((lastY - t.clientY) / dt) * 0.4; lastY = t.clientY; lastT = now; }
-    }, { passive: true });
+    }, { passive: false });
     const end = () => { if (!live) return; live = false; if (Math.abs(vy) > 0.05) this._readFling(vy); };
     el.addEventListener("touchend", end, { passive: true });
     el.addEventListener("touchcancel", end, { passive: true });
@@ -13890,7 +13909,9 @@ class Component extends DCLogic {
   }
   _dockLandMore(card, tray) {
     const moreRow = this._landMoreEl;
-    if (!moreRow || card !== this._landEl) return;
+    if (card !== this._landEl) return;
+    this._readMax = this._landOverflow || 0;
+    if (!moreRow) { this._readApply(this._readS || 0); return; }
     // ── OPEN: the second card of the reading column (v1.175.0) ──
     // Measure in the HOME frame, dock 6px under the timed card at content height, then find how
     // far the column must travel: the More card's bottom against the hand's slot (the same
@@ -13931,7 +13952,7 @@ class Component extends DCLogic {
       const choiceRow = this.optionsRef.current;
       if (choiceRow) tr = choiceRow.getBoundingClientRect();
     }
-    moreRow.style.top = Math.round(tr && tr.height > 0 ? tr.bottom + 6 : cr.bottom + 6) + "px";
+    moreRow.style.top = Math.round(tr && tr.height > 0 ? tr.bottom + 6 + this._readMax : cr.bottom + 6) + "px";
     moreRow.style.bottom = "auto";
     // The minimized-content dock owns bottom-centre whenever another layer is off. With a visible
     // hand both controls share that band, so move only the pill inside its full-width inert row;
@@ -13939,6 +13960,7 @@ class Component extends DCLogic {
     const head = moreRow.firstChild;
     const dockSharesBand = this._handShown() && NG_LAYER_ORDER.some((l) => !this._layerOn(l));
     head.style.transform = dockSharesBand ? "translateX(90px)" : "";
+    this._readApply(this._readS || 0);
   }
   _dockLandCard(el) {
     this._layoutLandCard(el);
@@ -13948,12 +13970,12 @@ class Component extends DCLogic {
   _layoutLandCard(el) {
     if (!el) return;
     // Every rect below is read in the HOME frame; `_dockLandMore` re-applies the column after.
-    if (this._landOpen) this._readClear();
+    if (this._landOpen || this._readMax) this._readClear();
     const row = this.optionsRef.current;
     if (!row) { this._dockLandMore(el); return; }
     const { tray: TRAY_BOTTOM, h } = this._landDatum();
     // Short landscape screens use two columns: deck on the left, film and choices on the
-    // right. Keep the full question scrollport instead of pushing it above the viewport.
+    // right. A long question grows down into the reading column.
     if (el === this._landEl && this._compactLandDeck()) {
       el.style.setProperty("bottom", (TRAY_BOTTOM + 12) + "px", "important");
       this._dockLandStack();
@@ -15727,6 +15749,7 @@ class Component extends DCLogic {
     this.fx("land_q_expired", { deckKey: q.key || null }); // beat BEFORE the break — it clears _landPending
     const broke = this._breakCombo("slow");
     this._landPending = false;
+    if (this._landEl) this._dockLandCard(this._landEl);
     this.refreshOptionOdds();
     this.setEvent("Too slow", "Answer revealed \u00b7 \u22124% on this exchange" + (broke >= 2 ? " \u00b7 \u00d7" + broke + " momentum gone" : ""), "bad");
     this._evExpiry = this.now || 0; // stamped AFTER setEvent (which releases every stamp)

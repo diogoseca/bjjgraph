@@ -7267,3 +7267,39 @@ zero errors and seven warnings. Availability compared 1,448 wire nodes to the wa
 disagreements. Both README jq examples ran. Link checks resolved 74 relative references;
 six external URLs returned HTTP 200, while LinkedIn returned 999 to curl and was retained as
 requested. Practitioner validation and a full built-site/browser regression run are not claimed.
+
+## v1.188.1 — Course-first Systems, integrated with current dev
+
+Revised all 83 Systems guides around course subject, audience and scope. Removed the
+`start_here` contract, product study homework and six study-log cards. Added 88 exact-name
+internal alternatives; preserved stable identities, graph membership, 68 products and all 52
+preview records. Sources total 165 records, including one independently checked comparison
+listing added to B-Team. Editorial review checked all 83 final source hashes against official
+text or captured official extracts; this is agent editorial review, not firsthand course or
+instructional-video review.
+
+App and static pages now put the actual linked course near the title, repeat its destination
+at intentional CTAs, show fit and coverage, and put expandable Sources last. Verified previews
+mount without an extra load button and never autoplay. Nine unverified YouTube samples retain
+source-page fallback links. Related System labels use editorial titles while retaining stable
+routes. Display filtering removes 1,590 stock relationship captions and keeps specific context.
+Built Systems vendor links carry configured attribution; canonical source data remains neutral.
+
+Final integration caught a static fallback race: a hidden article became visible after the
+media module had initialized. A singleton ResizeObserver now mounts on reveal and cleans up
+on hiding or navigation; seven lifecycle cases cover it. Native provider playback was observed
+for Gordon Ryan and Craig Jones in the app and Gordon in the static fallback, with local built
+assets served through the verified dev origin. This does not certify instructional content.
+
+Preserved concurrent dev commit 4757f684c (external swipe guides and whole-column scrolling).
+Independent three-way merge review found no lost changes. Corrected the inherited ruleset
+surface ledger: removed the absent famDossierNode entry and classified alias hydration as
+cross-ruleset metadata; both displayed search consumers still apply rsAllows.
+
+Combined verification: 283 unit tests, 276 curated browser journeys and 31 additional Systems
+journeys pass. All 83 real app guides and static pages pass section/CTA/link checks: 188 primary
+CTAs, 88 alternatives, 165 sources and 326 attributed static vendor links. Source, graph,
+ordinal, affiliate, SEO, structured-data, seat-deck and MC gates pass within existing baselines.
+Only 53 Systems catalog ItemList names changed in the SEO expectation; URLs, positions, content
+floors and link requirements remain unchanged. Final eager payload is 1,435,815 raw / 329,784
+gzip bytes against unchanged 1,600,000 / 330,000 limits; largest deferred chunk is 31,191 bytes.

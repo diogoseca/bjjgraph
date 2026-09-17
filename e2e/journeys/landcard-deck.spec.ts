@@ -5,9 +5,10 @@ import { journey } from "../dsl"
 // through actual layout/animation frames, including repeated docking (the original bounce).
 // Touch dispatch in landcard-modes covers direction/click suppression; this file uses a
 // real mouse wheel for momentum and real keyboard/mouse input for browsing and grading.
-// Red-checked: restoring alternating docking, natural card height, a frozen counter, four
+// Red-checked: restoring alternating docking, a frozen counter, four
 // permanent backs, unconsumed wheel momentum, completion on browsing, or lost cached recall
-// controls each makes its corresponding test fail.
+// controls each makes its corresponding test fail. Restoring the in-card guide positions
+// or the fixed-height scrollport fails the chevron and long-mobile-choice checks.
 async function setup(page: Page, recall = false) {
   const j = journey(page)
   await j.boot("/")
@@ -16,9 +17,7 @@ async function setup(page: Page, recall = false) {
     const a = (window as any).__neural
     const key = a._landQ.key, cards = a._landDeckCards(key)
     if (recall) {
-      // A due, proven deck is the production recall entry. Lengthen one answer to exercise
-      // the card's scrollport rather than relying on the corpus to happen to overflow.
-      cards[1].a = "Keep your balance and maintain the frame. ".repeat(35)
+      // A due, proven deck is the production recall entry.
       for (const c of cards) a._bumpStage(key, c.q, 2, 2)
       a._cardDue = () => true
       a.gameScore = () => ({ score: .45, belt: "blue", next: null, stripes: 0 })
@@ -60,10 +59,9 @@ function gestureWheel(page: Page) {
 
 for (const width of [1440, 390]) {
   for (const recall of [false, true]) {
-    test(`@curated ${width}px ${recall ? "recall" : "MC"}: deck pages without moving card or film`, async ({ page }) => {
+    test(`@curated ${width}px ${recall ? "recall" : "MC"}: deck pages with stable docking and readable faces`, async ({ page }) => {
       await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
       const { j, total } = await setup(page, recall)
-      const base = await geometry(page)
       await expect(page.locator("[data-land-count]")).toHaveText(`1/${total}`)
       await expect(page.locator("[data-land-back]")).toHaveCount(4)
       // Walk the entire deck, including 4 -> 3 -> 2 -> 1 -> 0 backs. No answering:
@@ -80,13 +78,14 @@ for (const width of [1440, 390]) {
             a._dockLandCard(a._landEl)
             await new Promise(requestAnimationFrame)
             const c = a._landEl.getBoundingClientRect(), f = a._landFilmEl.getBoundingClientRect()
-            samples.push({ top: c.top, bottom: c.bottom, height: c.height, filmTop: f.top })
+            samples.push({ top: c.top, bottom: c.bottom, height: c.height, filmTop: f.top, overflow: a._landEl.scrollHeight - a._landEl.clientHeight })
           }
           return samples
         })
         for (const sample of samples) {
+          expect(sample.overflow, "the whole face fits without scrolling").toBeLessThanOrEqual(1)
           for (const key of ["top", "bottom", "height", "filmTop"] as const) {
-            expect(Math.abs(sample[key] - base[key]), `${key} at card ${index + 1}`).toBeLessThanOrEqual(1)
+            expect(Math.abs(sample[key] - samples[0][key]), `${key} at card ${index + 1}`).toBeLessThanOrEqual(1)
           }
         }
       }
@@ -96,6 +95,7 @@ for (const width of [1440, 390]) {
       await expect(page.locator("[data-land-back]")).toHaveCount(1)
       await j.clickByMouse("[data-land-close]")
       await expect(page.locator(".ng-landstack")).toHaveCount(0)
+      await expect(page.locator("[data-land-nav]")).toHaveCount(0)
     })
   }
 }
@@ -196,26 +196,54 @@ test("@curated responsive deck fits short phones, tablets, and landscape, then r
   }
 })
 
-test("long mobile answers wrap and stay reachable by vertical scrolling", async ({ page }) => {
-  await page.setViewportSize({ width: 320, height: 568 })
-  await setup(page)
-  await page.evaluate(() => {
-    const answer = document.querySelector("[data-land-mc-opt='2']")!
-    answer.append(" Keep your weight balanced over both knees while maintaining control of the hips.")
+test.describe("phone input", () => {
+  test.use({ hasTouch: true })
+
+  test("@curated long mobile choices remain readable without an internal scrollport", async ({ page }) => {
+    await page.setViewportSize({ width: 320, height: 568 })
+    const { j } = await setup(page)
+    await page.evaluate(() => {
+      const answer = document.querySelector("[data-land-mc-opt='2']")!
+      answer.append(" Keep your weight balanced over both knees while maintaining control of the hips.")
+      const a = (window as any).__neural
+      a._dockLandCard(a._landEl)
+    })
+    const card = page.locator("[data-landcard]")
+    const before = await geometry(page)
+    const last = page.locator("[data-land-mc-opt='2']")
+    const layout = await card.evaluate(el => ({
+      scrollHeight: el.scrollHeight, clientHeight: el.clientHeight,
+      overflow: getComputedStyle(el).overflowY,
+    }))
+    expect(layout.scrollHeight).toBeLessThanOrEqual(layout.clientHeight + 1)
+    expect(layout.overflow).not.toMatch(/auto|scroll/)
+    const touch = await page.context().newCDPSession(page)
+    const touchY = before.top + 120
+    await touch.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: [{ x: 160, y: touchY }] })
+    await touch.send("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: [{ x: 160, y: touchY - 180 }] })
+    await touch.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] })
+    await expect.poll(async () => (await geometry(page)).top).toBeLessThan(before.top)
+    expect(await card.evaluate(el => el.scrollTop)).toBe(0)
+    await expect.poll(() => page.evaluate(() => {
+      const a = (window as any).__neural
+      return a._readS === a._readMax
+    })).toBe(true)
+    await expect.poll(async () => (await geometry(page)).top).toBeLessThan(before.top)
+    expect(await card.evaluate(el => el.scrollTop)).toBe(0)
+    expect(await page.evaluate(() => (window as any).__neural._landPage)).toBe(0)
+    const answer = await last.boundingBox()
+    const hand = await page.locator(".ng-optionrow").boundingBox()
+    expect(answer!.height).toBeGreaterThan(44)
+    expect(answer!.y + answer!.height).toBeLessThan(hand!.y)
+    const after = await geometry(page)
+    expect(after.filmTop - before.filmTop).toBeCloseTo(after.top - before.top, 0)
+    // A fresh tap after the drag must answer; the drag's synthetic click must not.
+    expect((await j.beats()).filter(b => b.beat === "land_q_answered")).toHaveLength(0)
+    const tap = { x: answer!.x + answer!.width / 2, y: answer!.y + answer!.height / 2 }
+    await page.touchscreen.tap(tap.x, tap.y)
+    await expect.poll(async () => (await j.beats()).filter(b => b.beat === "land_q_answered").length).toBe(1)
+    await touch.detach()
   })
-  const card = page.locator("[data-landcard]")
-  const before = await geometry(page)
-  const box = await card.boundingBox()
-  await page.mouse.move(box!.x + box!.width / 2, box!.y + box!.height - 25)
-  await page.mouse.wheel(0, 200)
-  await expect.poll(() => card.evaluate(el => el.scrollTop)).toBeGreaterThan(0)
-  expect(await page.evaluate(() => (window as any).__neural._landPage)).toBe(0)
-  const last = page.locator("[data-land-mc-opt='2']")
-  const answer = await last.boundingBox()
-  expect(answer!.height).toBeGreaterThan(44)
-  const nav = await page.locator("[data-land-nav]").boundingBox()
-  expect(answer!.y + answer!.height).toBeLessThanOrEqual(nav!.y + 1)
-  expect(await geometry(page)).toEqual(before)
 })
 
 
@@ -350,7 +378,7 @@ test("a gentle second scroll can build gradually out of the previous momentum ta
   expect(await page.evaluate(() => (window as any).__neural._landPage)).toBe(2)
 })
 
-for (const width of [1440, 390]) {
+for (const width of [1440, 390, 320]) {
   test(`@curated ${width}px chevrons are clickable, keep focus, and disappear at deck boundaries`, async ({ page }) => {
     await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
     const { j, total } = await setup(page)
@@ -358,11 +386,19 @@ for (const width of [1440, 390]) {
     await expect(page.locator("[data-land-nav]")).toHaveCount(1)
     await expect(prev).toBeHidden()
     await expect(next).toBeVisible()
+    await expect(page.locator("[data-landcard] [data-land-nav]")).toHaveCount(0)
     const box = await next.boundingBox()
+    const face = await page.locator("[data-landcard]").boundingBox()
+    expect(box!.x).toBeGreaterThan(face!.x + face!.width)
+    expect(box!.x + box!.width).toBeLessThanOrEqual(width)
+    expect(box!.y + box!.height / 2).toBeCloseTo(face!.y + face!.height / 2, 0)
     expect(box!.width).toBeGreaterThanOrEqual(44)
     expect(box!.height).toBeGreaterThanOrEqual(44)
     await j.clickByMouse("[data-land-next]")
     await expect(prev).toBeVisible()
+    const left = await prev.boundingBox()
+    expect(left!.x).toBeGreaterThanOrEqual(0)
+    expect(left!.x + left!.width).toBeLessThan(face!.x)
     await expect(page.locator("[data-land-position]")).toHaveAttribute("data-land-position", `2/${total}`)
     await j.clickByMouse("[data-land-prev]")
     await expect(prev).toBeHidden()
@@ -370,6 +406,13 @@ for (const width of [1440, 390]) {
     await expect(next).toBeFocused()
     await page.keyboard.press("Enter")
     await expect(page.locator("[data-land-position]")).toHaveAttribute("data-land-position", `2/${total}`)
+    await page.evaluate(() => (window as any).__neural._suppressLand(true))
+    await expect(next).toBeHidden()
+    expect(await next.evaluate(el => {
+      const b = el.getBoundingClientRect()
+      return el.contains(document.elementFromPoint(b.x + b.width / 2, b.y + b.height / 2))
+    })).toBe(false)
+    await page.evaluate(() => (window as any).__neural._suppressLand(false))
     for (let index = 2; index < total; index++) {
       await j.clickByMouse("[data-land-next]")
       await page.waitForFunction((index) => (window as any).__neural._landPage === index, index)
@@ -383,19 +426,30 @@ for (const width of [1440, 390]) {
   })
 }
 
-test("chevrons stay reachable while a long answer scrolls on a small phone", async ({ page }) => {
+test("@curated long recall answers grow the card and scroll with the whole column", async ({ page }) => {
   await page.setViewportSize({ width: 320, height: 568 })
   const { j } = await setup(page, true)
+  await page.evaluate(() => {
+    const a = (window as any).__neural
+    a._landDeckCards(a._landQ.key)[1].a = "Keep your balance and maintain the frame. ".repeat(35)
+  })
   await j.clickByMouse("[data-land-next]")
   await page.waitForTimeout(200)
   await j.clickByMouse("[data-land-reveal]")
-  const card = await page.locator("[data-landcard]").boundingBox()
-  const navBefore = await page.locator("[data-land-nav]").boundingBox()
-  await page.mouse.move(card!.x + card!.width / 2, card!.y + card!.height / 2)
+  const card = page.locator("[data-landcard]")
+  const before = await geometry(page)
+  expect(before.height).toBeGreaterThan(568)
+  expect(await card.evaluate(el => el.scrollHeight - el.clientHeight)).toBeLessThanOrEqual(1)
+  await page.mouse.move(160, before.top + 70)
   await page.mouse.wheel(0, 6000)
-  await expect.poll(() => page.locator("[data-landcard]").evaluate(el => el.scrollTop)).toBeGreaterThan(0)
-  await expect.poll(async () => (await page.locator("[data-land-nav]").boundingBox())!.y).toBeCloseTo(navBefore!.y, 0)
-  await j.clickByMouse("[data-land-prev]")
-  expect(await page.locator("[data-landcard]").evaluate(el => el.scrollTop)).toBe(0)
+  await expect.poll(async () => (await geometry(page)).top).toBeLessThan(0)
+  expect(await card.evaluate(el => el.scrollTop)).toBe(0)
+  await page.keyboard.press("Home")
+  await expect.poll(async () => (await geometry(page)).top).toBeGreaterThan(0)
+  await page.keyboard.press("End")
+  await j.clickByMouse("[data-land-got]")
+  // Paging restores the next face to the start of the column.
+  await page.keyboard.press("ArrowLeft")
+  await expect.poll(async () => (await geometry(page)).top).toBeGreaterThan(0)
   await expect(page.locator("[data-land-prev]")).toBeHidden()
 })
