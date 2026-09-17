@@ -679,9 +679,9 @@ KEY FIELDS:
 
     elif category == "Systems":
         return f"""Keep name = '{filename}' and graph references stable. Follow templates/Systems.json.
-Author a distinct summary and concise contextual overview. The guide describes fit, source-supported
-coverage, limits, and a first study action. No length, section, flashcard or link quotas.
-Physical practice requires inspected public_instruction evidence and start/partner/stop context.
+Author a concise search summary and one substantive course overview: advertised instruction, fit,
+coverage and limitations. No reader homework, study exercises, start_here or filler quotas.
+Optional alternatives use exact existing System names with a specific reason, never guessed URLs.
 Never invent source checks, media IDs, playback verification, proficiency metrics or timelines.
 Omit unsupported legacy sections. Preserve curated products without modification."""
 
@@ -1126,7 +1126,7 @@ Return ONLY valid JSON (no markdown, no explanation):
 ```
 '''
 
-SYSTEMS_PROMPT = '''You are an AI editor preparing an independent BJJGraph study guide, not a credentialed instructor.
+SYSTEMS_PROMPT = '''You are an AI editor preparing an independent BJJGraph course or topic guide, not a credentialed instructor.
 System: {file_path}
 Schema: {template_content}
 Current source: {content}
@@ -1136,11 +1136,13 @@ Field guidance: {field_guidance}
 Use public primary evidence actually inspected. A listing establishes advertised scope only.
 Do not invent mechanics, drills, resistance ladders, performance rates, mastery timelines,
 source check dates, preview URLs, playback verification, course ownership or human review.
-With no inspected instruction, write an observation/study task. Sources may be empty only for
-a topic guide limited to organizing study; flag this for root review. Do not fabricate evidence
+Do not invent homework, observation tasks or drills; remove start_here without relocating it.
+Sources may be empty only for a topic guide flagged for root review. Do not fabricate evidence
 to satisfy required fields. If evidence cannot be checked, leave the requested rewrite for review.
 Keep stable identity, aliases/family and graph references. Clarify related references are not
-necessarily taught by a linked course. Summary is distinct from the brief contextual overview.
+necessarily taught by a linked course. Write one natural substantive overview, not a repeated
+summary. Optional alternatives use exact existing System names and specific reasons; no quotas.
+Preserve source evidence and verification dates unless actually rechecked. Sources render last.
 Optional legacy sections and flashcards have no quotas; delete unsupported repetitive scaffolding.
 Do not add/remove/modify products; omit them from output (the save path restores curated data).
 Preview is optional: exact official allowlisted URL, autoplay/preload disabled, no guessed IDs.

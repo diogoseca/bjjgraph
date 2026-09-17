@@ -636,27 +636,31 @@ Full rules in `docs/Content.md`. The parts you can break:
 
 Follow `templates/Systems.json` and `docs/Content.md`: independent source-grounded guides,
 no filler quotas, unsupported mechanics, mastery timelines or invented review credentials.
-Preserve graph membership; related cards are references, not a proficiency test.
+Preserve graph membership; related cards are references, not a proficiency test. No reader
+homework or `start_here`. Course-first layout renders overview once and Sources last; verified
+previews mount immediately without autoplay. Alternatives resolve exact System names to local pages.
 
 - Products use verified canonical `course_url`; never commit tracking queries or placeholders.
   Only `link_status: live` renders; `link_checked` records actual listing verification.
 - Committed graph products omit URLs. The index adds `course_url` and `affiliate` to existing
   app product fields; rich `guide` evidence and non-graph `references` stay in deferred dossiers.
-- Source Markdown is neutral, marked with `data-course-container` and `data-course-url`.
+- Source Markdown is neutral, marked with `data-course-url` / `data-source-url`. All BJJFanatics
+  clickouts participate, including sources/blogs; other hosts stay neutral. Evidence emits
+  `canonical_url`, resolved `url`, boolean `affiliate`; nontracking queries are preserved.
   `scripts/apply_affiliate_ref.py` activates emitted links only with valid `AFFILIATE_REF`:
   `rfsn`, `utm_source=bjjgraph&utm_medium=affiliate&utm_campaign=systems`, system/product IDs,
   and `sponsored nofollow noopener`. Missing ref stays neutral; invalid ref fails the build.
   Root `.env` is ignored; CI environment wins. Never print the ref. Resolution is idempotent,
   refreshes gzip siblings, and runs again after agent-discovery export.
-- The canonical disclosure below appears verbatim, proximate and uncollapsed, only with active
-  affiliate links. App click tracking uses `a[data-affiliate="true"]` and `affiliate_clickout`.
+- The canonical disclosure below appears verbatim, proximate and visible with each active link
+  (including inside expanded Sources). App click tracking uses `a[data-affiliate="true"]` and `affiliate_clickout`.
   `scripts/check_affiliate_surface.py --built` checks source neutrality and emitted activation;
   `tests/system_affiliates.py` covers fixture resolution. Browser behavior has its own suite.
 
 The markers and wording below are machine-read; preserve them.
 
 <!-- CANONICAL-DISCLOSURE:START -->
-BJJGraph earns a commission if you buy through this link, at no extra cost to you. It never changes what the graph teaches.
+Affiliate link — BJJGraph may earn a commission.
 <!-- CANONICAL-DISCLOSURE:END -->
 
 ---

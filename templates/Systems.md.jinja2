@@ -1,42 +1,61 @@
-{# Independent source-grounded guide. Affiliate state is built-only. #}
+{# Course-first guide. Source links stay canonical; built output resolves attribution. #}
 ---
 title: {{ ((guide.display_title if guide else name) ~ " | BJJGraph") | jsonstr }}
 description: {{ description | jsonstr }}
 ---
-
 {% set live = namespace(products=[]) %}
-{% for p in products | default([]) %}
-{% if p.link_status == 'live' and p.course_url | default('') | canonical_course_url %}
-{% set live.products = live.products + [p] %}
-{% endif %}
-{% endfor %}
+{% for p in products | default([]) %}{% if p.link_status == 'live' and p.course_url | default('') | canonical_course_url %}{% set live.products = live.products + [p] %}{% endif %}{% endfor %}
+{% set primary = live.products[0] if live.products else none %}
+{% macro course_cta(placement) %}
+<section class="system-course system-course--{{ placement }}" data-course-container data-course-placement="{{ placement }}"{% if placement == 'top' %} id="unlock-this-system"{% endif %}>
+<a class="system-course__link" href="{{ primary.course_url | e }}" data-course-url="{{ primary.course_url | e }}" data-product-id="{{ primary.id | default('') | e }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name | e }}" data-vendor="{{ primary.vendor | default('') | lower | e }}" data-placement="{{ placement }}" data-affiliate="false" target="_blank" rel="noopener">{% if placement == 'top' %}<h2>{{ primary.title | e }}</h2>{% if primary.instructor %}<span class="system-course__instructor">By {{ primary.instructor | e }}</span>{% endif %} <span class="system-course__button">View course{% if primary.course_url is bjjfanatics %} on BJJ Fanatics{% endif %}</span>{% elif placement == 'mid' %}{{ primary.title | e }} · View course{% else %}Go to this course: {{ primary.title | e }}{% endif %}</a>
+</section>
+{% endmacro %}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":{{ (guide.display_title if guide else name) | jsonstr }},"description":{{ description | jsonstr }}}
 </script>
-<main class="content-wrapper" data-system-guide>
-<p class="system-attribution">Independent BJJGraph {{ 'course companion' if guide and guide.kind == 'course_companion' else 'study guide' }}. Not authored or endorsed by the instructor.{% if live.products %} Course: {{ live.products[0].title | e }}{% if live.products[0].instructor %} by {{ live.products[0].instructor | e }}{% endif %}.{% endif %}</p>
-<section id="overview" class="content-section">
+<main class="system-guide" data-system-guide data-system-key="{{ name | e }}">
+<a class="system-back" href="/Systems">Back to Systems</a>
+<header class="system-heading">
+<h1>{{ (guide.display_title if guide else name) | e }}</h1>
+<div class="system-tags"><span>{{ system_type | e }}</span><span>{{ difficulty_level | e }}</span></div>
+{% set graph_refs = related_content | selectattr('content_type', 'in', ['Position', 'Transition', 'Submission']) | map(attribute='name') | unique | list %}
+<p class="system-reference-count">{{ graph_refs | length }} related references (techniques and positions)</p>
+</header>
+{% if primary %}{{ course_cta('top') }}{% endif %}
+<section id="overview" class="system-overview">
 
-## {{ guide.display_title if guide else name }}
-
-{% if summary %}**{{ summary }}**
-
-{% endif %}
 {{ overview }}
 
 </section>
+{% if guide and guide.preview %}
+{% set preview = guide.preview %}
+<section id="official-preview" class="system-preview" data-system-preview data-system-key="{{ name | e }}" data-provider="{{ preview.provider | e }}" data-embed-url="{{ preview.embed_url | e }}" data-verified-origins="{{ preview.playback_verified_on | tojson | forceescape }}" data-preview-title="{{ preview.title | e }}">
+<h2>{{ 'Official trailer' if preview.kind == 'trailer' else 'Official sample' }}</h2>
+<p>{{ preview.title | e }}</p>
+<div id="system-preview-player" data-preview-player data-persist></div>
+<p data-preview-fallback>Watch the {{ preview.kind | e }} on the official page{% if not primary %} linked in <a href="#sources">Sources</a>{% endif %}.</p>
+</section>
+{% if primary %}{{ course_cta('mid') }}{% endif %}
+{% endif %}
 {% if guide %}
-<section id="fit" class="content-section">
+<span id="is-this-useful-for-you"></span><span id="start-here"></span><span id="study-this-system"></span>
+<section id="fit" class="system-section">
 
-## Is this useful for you?
+## Is this for you?
 
 {% for item in guide.audience.fits %}- {{ item }}
 {% endfor %}
-
+{% if guide.audience.consider_alternative_if %}
 ### Consider an alternative if
 
 {% for item in guide.audience.consider_alternative_if %}- {{ item }}
 {% endfor %}
+{% endif %}
+{% if guide.alternatives %}
+<h3>Also consider</h3>
+{% for item in guide.alternatives %}<p><a href="{{ item.url | e }}">{{ item.title | e }}</a> — {{ item.reason | e }}</p>{% endfor %}
+{% endif %}
 {% if guide.audience.prerequisites %}
 ### Prerequisites
 
@@ -44,176 +63,57 @@ description: {{ description | jsonstr }}
 {% endfor %}
 {% endif %}
 </section>
-<span id="implementation-sequence"></span><span id="training-methodology"></span><span id="study-this-system"></span>
-<section id="start-here" class="content-section">
-
-## Start here: {{ guide.start_here.title }}
-
-{{ guide.start_here.task }}
-
-{% if guide.start_here.section %}Published section: {{ guide.start_here.section }}
-{% endif %}
-{% if guide.start_here.kind == 'practice' %}
-- **Start position:** {{ guide.start_here.start_position }}
-- **Partner task:** {{ guide.start_here.partner_task }}
-- **Stop condition:** {{ guide.start_here.stop_condition }}
-{% endif %}
-{% for source in guide.sources if source.id in guide.start_here.source_ids %}
-<p>Source: <a href="{{ source.url | e }}" target="_blank" rel="noopener">{{ source.title | e }}</a></p>
-{% endfor %}
-</section>
-{% if guide.preview %}
-{% set preview = guide.preview %}
-<section id="official-preview" class="content-section" data-system-preview data-provider="{{ preview.provider | e }}" data-embed-url="{{ preview.embed_url | e }}" data-verified-origins="{{ preview.playback_verified_on | tojson | forceescape }}" data-preview-title="{{ preview.title | e }}">
-<h2>{{ preview.title | e }}</h2>
-<p>{{ 'Official trailer' if preview.kind == 'trailer' else 'Official public sample' }}. {% if not preview.content_reviewed %}The sample's instructional content has not been reviewed by BJJGraph.{% endif %}</p>
-<button type="button" data-load-preview hidden>Load official {{ 'trailer' if preview.kind == 'trailer' else 'sample' }}</button>
-<div data-preview-player></div>
-{% for source in guide.sources if source.id == preview.source_id %}<p><a href="{{ source.url | e }}" target="_blank" rel="noopener">Watch on the official page: {{ source.title | e }}</a></p>{% endfor %}
-</section>
-{% endif %}
-{% endif %}
-{% if live.products %}
-<section id="unlock-this-system" class="content-section product-cards" data-course-container>
-<h2>Course reference</h2>
-{% set p = live.products[0] %}
-<article class="product-card">
-<h3>{{ p.title | e }}</h3>
-{% if p.instructor %}<p>By {{ p.instructor | e }}</p>{% endif %}
-{% if not guide %}{% for field in ['best_for', 'blurb', 'study_focus', 'practice_tip'] %}{% if p[field] %}<p>{{ p[field] | e }}</p>{% endif %}{% endfor %}{% endif %}
-<p><a href="{{ p.course_url | e }}" data-course-url="{{ p.course_url | e }}" data-product-id="{{ p.id | default('') | e }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name | e }}" data-vendor="{{ p.vendor | default('BJJFanatics') | lower | e }}" data-placement="overview" data-affiliate="false" target="_blank" rel="noopener">View course and syllabus</a></p>
-</article>
-{% for p in live.products[1:3] %}
-<p>Related course: <a href="{{ p.course_url | e }}" data-course-url="{{ p.course_url | e }}" data-product-id="{{ p.id | default('') | e }}" data-system-slug="systems/{{ name | slugify }}" data-system-name="{{ name | e }}" data-vendor="{{ p.vendor | default('BJJFanatics') | lower | e }}" data-placement="related" data-affiliate="false" rel="noopener" target="_blank">{{ p.title | e }}{% if p.instructor %} — {{ p.instructor | e }}{% endif %}</a></p>
-{% endfor %}
-</section>
-{% endif %}
-{% if guide %}
 <span id="key-principles"></span><span id="key-components"></span>
-<section id="coverage" class="content-section">
+<span id="implementation-sequence"></span><span id="training-methodology"></span>
+<span id="common-obstacles"></span><span id="assessment-metrics"></span>
+<span id="what-the-sources-cover"></span>
+<section id="coverage" class="system-section">
 
-## What the sources cover
+## Coverage and limits
 
 {% for item in guide.coverage.includes %}- {{ item }}
 {% endfor %}
-<span id="common-obstacles"></span><span id="assessment-metrics"></span>
 
 ### Limits
 
 {% for item in guide.coverage.limits %}- {{ item }}
 {% endfor %}
 </section>
-<section id="sources" class="content-section">
-<h2>Sources and evidence</h2>
-{% for source in guide.sources %}<p><a href="{{ source.url | e }}" target="_blank" rel="noopener">{{ source.title | e }}</a> — {{ source.kind | replace('_', ' ') | e }}; checked {{ source.checked_on | e }}. {{ source.note | e }}{% if source.viewed_range %} Inspected: {{ source.viewed_range | e }}{% endif %}</p>{% endfor %}
-</section>
-{% else %}
+{% elif key_principles %}
+<section id="key-principles" class="system-section">
 
-{% if key_principles %}
-<section id="key-principles" class="content-section">
+## Key principles
 
-## Core Principles
-{% for principle in key_principles -%}
-- {{principle}}
+{% for item in key_principles %}- {{ item }}
 {% endfor %}
-
 </section>
 {% endif %}
+{% if primary %}{{ course_cta('end') }}{% endif %}
+<section id="related-content" class="system-section">
 
-{% if key_components %}
-<section id="key-components" class="content-section">
+## Related guides and principles
 
-## Key Components
-{% for component in key_components -%}
-**{{component.component_name}}** ({{component.purpose}})
-{{component.description}}
-
-{% endfor %}
-
-</section>
-{% endif %}
-
-{% if implementation_sequence %}
-<section id="implementation-sequence" class="content-section">
-
-## Implementation Sequence
-{% for step in implementation_sequence -%}
-{{step.step_number}}. **{{step.phase}}**: {{step.description}}
-{% if step.key_points -%}
-Key points:
-{% for point in step.key_points -%}
-  - {{point}}
-{% endfor %}
-{% endif %}
-
-{% endfor %}
-
-</section>
-{% endif %}
-
-{% if common_obstacles %}
-<section id="common-obstacles" class="content-section hide-minimal">
-
-## What Challenges Will You Face?
-{% for obstacle in common_obstacles -%}
-- **{{obstacle.obstacle}}**: {{obstacle.solution}}
-{% endfor %}
-
-</section>
-{% endif %}
-
-{% if assessment_metrics %}
-<section id="assessment-metrics" class="content-section">
-
-## How to Measure Your Progress
-{% for metric in assessment_metrics -%}
-**{{metric.metric_name}}**: {{metric.description}}
-Proficiency indicators:
-{% for indicator in metric.proficiency_indicators -%}
-- {{indicator}}
-{% endfor %}
-
-{% endfor %}
-
-</section>
-{% endif %}
-
-{% if training_methodology %}
-<section id="training-methodology" class="content-section hide-minimal">
-
-## How to Train This System Effectively
-
-### Drilling Approach
-{{training_methodology.drilling_approach}}
-
-### Progression Path
-{% for stage in training_methodology.progression_path -%}
-**{{stage.stage}}** (Focus: {{stage.focus}}){% if stage.timeframe %} - {{stage.timeframe}}{% endif %}
-{% endfor %}
-
-### Common Mistakes
-{% for mistake in training_methodology.common_mistakes -%}
-- {{mistake}}
-{% endfor %}
-
-</section>
-{% endif %}
-
-{% endif %}
-<section id="related-content" class="content-section">
-
-## Related references and alternatives
-
-{% if guide %}
-{% for item in references | default([]) %}<p><a href="{{ item.url | e }}">{{ item.name | e }}</a> ({{ item.type | e }}) — {{ item.relationship | e }}</p>{% endfor %}
-{% endif %}
+{% for item in references | default([]) %}<p><a href="{{ item.url | e }}">{{ item.name | e }}</a> — {{ item.relationship | e }}</p>{% endfor %}
 
 ### Review related technique cards
 
-These references connect this guide to BJJGraph's technique pages; they do not establish what an instructor teaches or measure proficiency.
+These related references are not a claim about what the course teaches or evidence of practical mastery.
 
-{% for item in related_content if not guide or item.content_type not in ['System', 'Principle'] %}
-- [[{{ resolve(item.name) }}|{{ item.name }}]] ({{ item.content_type }}) — {{ item.relationship }}
+{% for item in related_content if item.content_type in ['Position', 'Transition', 'Submission'] %}
+{% set relationship = item | guide_relationship if guide else item.relationship %}
+- [[{{ resolve(item.name) }}|{{ item.name }}]] ({{ item.content_type }}){% if relationship %} — {{ relationship }}{% endif %}
 {% endfor %}
+</section>
+<span id="sources-and-evidence"></span>
+<section id="sources" class="system-sources">
+<details><summary>Sources <span class="system-sources__hint">Expand for evidence and notes</span></summary>
+<p class="system-attribution">Independent BJJGraph guide. Not authored or endorsed by the instructor.</p>
+{% if guide and guide.preview and not guide.preview.content_reviewed %}<p>The sample's instructional content has not been reviewed by BJJGraph.</p>{% endif %}
+{% if guide %}{% for source in guide.sources %}
+<section class="system-source" data-source-container>
+<p><a href="{{ source.url | e }}"{% if source.url is bjjfanatics %} data-source-url="{{ source.url | e }}" data-affiliate="false" data-system-slug="systems/{{ name | slugify }}" data-product-id="{{ source.id | e }}"{% endif %} target="_blank" rel="noopener">{{ source.title | e }}</a> — {{ source.kind | replace('_', ' ') | e }}; checked {{ source.checked_on | e }}. {{ source.note | e }}{% if source.viewed_range %} Inspected: {{ source.viewed_range | e }}{% endif %}</p>
+</section>
+{% endfor %}{% endif %}
+</details>
 </section>
 </main>

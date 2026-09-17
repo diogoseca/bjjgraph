@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Resolve marked course references in emitted artifacts only.
+"""Resolve course and evidence references in emitted artifacts only.
 
 Canonical source URLs never carry a referral. Missing configuration restores neutral
-references; invalid configuration fails. Repeated runs recompute from course_url,
+references; invalid configuration fails. Repeated runs recompute from canonical URLs,
 including rotations/removal, and keep compressed siblings synchronized.
 """
 from __future__ import annotations
@@ -15,17 +15,17 @@ import os
 from pathlib import Path
 import re
 import sys
-from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit, unquote
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _atomic_io import atomic_write_text
-from _system_guides import canonical_course_url
+from _system_guides import canonical_course_url, is_bjjfanatics_url
 from _slug import slugify
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = PROJECT_ROOT / 'content'
 PUBLIC_DIR = PROJECT_ROOT / 'source/public'
 NEURAL_SYSTEMS = PROJECT_ROOT / 'source/quartz/static/neural/systems.json'
-TEXT_SUFFIXES = {'.html', '.json', '.xml', '.txt', '.md', '.js'}
+TEXT_SUFFIXES = {'.html', '.json', '.xml', '.txt', '.md', '.js', '.css'}
 REF_RE = re.compile(r'[A-Za-z0-9][A-Za-z0-9._~-]{0,63}')
 PLACEHOLDER_RE = re.compile(r'REPLACE_ME', re.I)
 
@@ -55,22 +55,37 @@ def validate_ref(ref):
 def affiliate_url(canonical, ref, system='', product=''):
     """Only the supported vendor gets its referral syntax; other references stay neutral."""
     validate_ref(ref)
-    if not canonical_course_url(canonical):
+    try:
+        u = urlsplit(canonical)
+        if u.scheme != 'https' or not u.hostname or u.username or u.password or PLACEHOLDER_RE.search(unquote(canonical)):
+            return '', False
+    except (TypeError, ValueError):
         return '', False
+    canonical = neutral_legacy_url(canonical)
     u = urlsplit(canonical)
-    active = bool(ref and u.netloc in ('bjjfanatics.com', 'www.bjjfanatics.com') and re.fullmatch(r'/products/[a-z0-9-]+', u.path))
+    active = bool(ref and is_bjjfanatics_url(canonical))
     if not active:
         return canonical, False
     campaign = [('rfsn', ref), ('utm_source', 'bjjgraph'), ('utm_medium', 'affiliate'), ('utm_campaign', 'systems'), ('utm_content', system.removeprefix('systems/')), ('utm_term', product)]
-    return urlunsplit((u.scheme, u.netloc, u.path, urlencode(campaign), '')), True
+    return urlunsplit((u.scheme, u.netloc, u.path, urlencode(parse_qsl(u.query, keep_blank_values=True) + campaign), u.fragment)), True
 
 
 def neutral_legacy_url(value):
-    """Old cached ref/rfsn placeholders are never promoted. Strip only tracking keys."""
-    u = urlsplit(unescape(value))
-    query = [(k, v) for k, v in parse_qsl(u.query, keep_blank_values=True)
-             if k.lower() not in ('ref', 'rfsn') and not k.lower().startswith('utm_')]
-    return urlunsplit((u.scheme, u.netloc, u.path, urlencode(query), u.fragment))
+    """Strip tracking keys while preserving path, fragment and nontracking query semantics."""
+    value = unescape(value)
+    u = urlsplit(value)
+    # Keep canonical bytes untouched when already clean (e.g. %20 vs +, duplicate
+    # parameters, empty values). Removing tracking also preserves untouched pairs.
+    pairs = u.query.split('&') if u.query else []
+    query = []
+    for pair in pairs:
+        key = unquote(pair.partition('=')[0]).lower()
+        if key not in ('ref', 'rfsn') and not key.startswith('utm_'):
+            query.append(pair)
+    if query == pairs:
+        return value
+    return urlunsplit((u.scheme, u.netloc, u.path, '&'.join(query), u.fragment))
+
 
 
 def legacy_tracking_url(value):
@@ -85,7 +100,7 @@ def legacy_tracking_url(value):
 def neutralize_unmarked_text(text):
     # Normalize previous built URLs before markers reconstruct this build's state.
     # This also covers old search snippets, XML feeds and plain discovery text.
-    return re.sub(r'https?://[^\s<>"\)]+', lambda m: neutral_legacy_url(m[0]) if legacy_tracking_url(m[0]) else m[0], text)
+    return re.sub(r'https?://[^\s<>"\'\)]+', lambda m: neutral_legacy_url(m[0]) if legacy_tracking_url(m[0]) else m[0], text)
 
 
 class Tag(HTMLParser):
@@ -103,32 +118,34 @@ def tag_html(tag, attrs):
 
 
 def resolve_html(text, ref):
-    # Remove resolver/legacy disclosures before reconstructing current state.
+    # All vendor clickouts participate: main course CTAs, evidence/blog links, and
+    # preview fallbacks. Rebuild from immutable markers to support ref removal/rotation.
     text = neutralize_unmarked_text(text)
-    text = re.sub(r'<p\b[^>]*class=["\'][^"\']*affiliate-disclosure[^"\']*["\'][^>]*>.*?</p>', '', text, flags=re.S | re.I)
+    text = re.sub(r'<(p|span)\b[^>]*class=["\'][^"\']*affiliate-disclosure[^"\']*["\'][^>]*>.*?</\1>', '', text, flags=re.S | re.I)
     def anchor(match):
         raw = match[0]; attrs = read_tag(raw)
-        canonical = attrs.get('data-course-url')
+        href = attrs.get('href', '')
+        canonical = attrs.get('data-course-url') or attrs.get('data-source-url')
+        if canonical is None and is_bjjfanatics_url(href):
+            canonical = neutral_legacy_url(href)
+            attrs['data-source-url'] = canonical
         if canonical is not None:
             url, active = affiliate_url(canonical, ref, attrs.get('data-system-slug', ''), attrs.get('data-product-id', ''))
             if not url:
-                raise ValueError('Invalid canonical data-course-url in emitted anchor')
+                raise ValueError('Invalid canonical outbound URL in emitted anchor')
             attrs.update(href=url, rel='sponsored nofollow noopener' if active else 'noopener')
             attrs['data-affiliate'] = 'true' if active else 'false'
-            return tag_html('a', attrs)
-        href = attrs.get('href', '')
+            notice = '<span class="affiliate-disclosure">' + escape(disclosure()) + '</span>' if active else ''
+            return notice + tag_html('a', attrs)
         if PLACEHOLDER_RE.search(href) or attrs.get('data-affiliate') == 'true':
             attrs['href'] = neutral_legacy_url(href)
             attrs['data-affiliate'] = 'false'; attrs['rel'] = 'noopener'
             return tag_html('a', attrs)
         return raw
     text = re.sub(r'<a\b[^>]*>', anchor, text, flags=re.I)
-    def container(match):
-        opening, body = match[1], match[2]
-        if re.search(r'data-affiliate=["\']true["\']', body):
-            return opening + '<p class="affiliate-disclosure">' + escape(disclosure()) + '</p>' + body + '</section>'
-        return match[0]
-    text = re.sub(r'(<section\b[^>]*\bdata-course-container(?:=["\'][^"\']*["\'])?[^>]*>)(.*?)</section>', container, text, flags=re.S | re.I)
+    if 'data-system-guide' in text and 'data-system-guide-style' not in text:
+        style = '<link rel="stylesheet" href="/static/system-guide.css" data-system-guide-style>'
+        text = text.replace('</head>', style + '</head>', 1) if '</head>' in text else style + text
     if 'data-system-preview' in text and 'data-system-media-script' not in text:
         text += '\n<script type="module" src="/static/system-guide-media.js" data-system-media-script></script>\n'
     return text
@@ -136,19 +153,25 @@ def resolve_html(text, ref):
 
 def resolve_json(value, ref, system=''):
     if isinstance(value, dict):
-        system = slugify(value.get('name', '')) if 'products' in value else system
+        system = slugify(value.get('name', '')) if 'products' in value or value.get('cat') == 'System' else system
         out = {k: resolve_json(v, ref, system) for k, v in value.items()}
         if 'course_url' in value and ('url' in value or 'affiliate' in value):
             out['url'], out['affiliate'] = affiliate_url(value['course_url'], ref, system, value.get('id', ''))
             if not out['url']:
                 raise ValueError('Invalid canonical course_url in emitted product')
+        elif 'url' in value and ('canonical_url' in value or ('id' in value and 'kind' in value and is_bjjfanatics_url(value['url']))):
+            canonical = value.get('canonical_url') or neutral_legacy_url(value['url'])
+            out['canonical_url'] = canonical
+            out['url'], out['affiliate'] = affiliate_url(canonical, ref, system, value.get('id', ''))
+            if not out['url']:
+                raise ValueError('Invalid canonical source URL in emitted evidence')
         elif isinstance(value.get('url'), str) and legacy_tracking_url(value['url']):
             out['url'] = neutral_legacy_url(value['url']); out['affiliate'] = False
         return out
     if isinstance(value, list):
         return [resolve_json(v, ref, system) for v in value]
     if isinstance(value, str):
-        if 'data-course-' in value or 'data-affiliate=' in value:
+        if '<a' in value or 'data-course-' in value or 'data-affiliate=' in value:
             return resolve_html(value, ref)
         return neutralize_unmarked_text(value)
     return value
@@ -156,6 +179,9 @@ def resolve_json(value, ref, system=''):
 
 def targets():
     found = [NEURAL_SYSTEMS] if NEURAL_SYSTEMS.is_file() else []
+    content_chunks = NEURAL_SYSTEMS.parent / 'content'
+    if content_chunks.is_dir():
+        found += [p for p in sorted(content_chunks.glob('*.json')) if p.is_file() and not p.is_symlink()]
     if PUBLIC_DIR.is_dir():
         found += [p for p in sorted(PUBLIC_DIR.rglob('*')) if p.is_file() and not p.is_symlink() and p.suffix in TEXT_SUFFIXES]
     return found
@@ -203,6 +229,9 @@ def main():
             destination.parent.mkdir(parents=True, exist_ok=True)
             atomic_write_text(destination, (PROJECT_ROOT / 'scripts/system_guide_media.js').read_text())
             stamp(destination, ref)  # Refresh an existing compressed sibling after copying.
+            stylesheet = PUBLIC_DIR / 'static/system-guide.css'
+            atomic_write_text(stylesheet, (PROJECT_ROOT / 'scripts/system_guide.css').read_text())
+            stamp(stylesheet, ref)
     except (ValueError, OSError) as exc:
         # Never include raw URL or configuration values in logs.
         print('[affiliate] FAIL: ' + ('AFFILIATE_REF invalid' if ref and (not REF_RE.fullmatch(ref) or PLACEHOLDER_RE.search(ref)) else type(exc).__name__ + ' resolving emitted references'), file=sys.stderr)

@@ -51,7 +51,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from _system_guides import canonical_course_url, related_references
+from _system_guides import canonical_course_url, related_references, resolved_guide
 from _slug import slugify  # canonical slugify (shared with node ids)
 LAYOUT = ROOT / "source/quartz/static/globalGraphLayout.json"
 GRAPH = ROOT / "graph.json"
@@ -1725,7 +1725,8 @@ def _system_body(data: dict) -> dict:
     """
     body: dict = {}
     if isinstance(data.get("guide"), dict):
-        body["guide"] = data["guide"]
+        from regenerate_graph import quartz_slug
+        body["guide"] = resolved_guide(data, SYSTEMS_DIR.parent, quartz_slug)
     ov = _clip((data.get("overview") or "").strip(), SYS_OVERVIEW_CAP)
     if ov:
         body["overview"] = ov

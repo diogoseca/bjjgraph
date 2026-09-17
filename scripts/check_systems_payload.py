@@ -192,9 +192,9 @@ def check_bodies(entries: list[tuple[str, str, str]]) -> tuple[list[str], dict]:
             continue
         if cat == 'System' and body.get('guide'):
             from _system_guides import validate_guide
-            guide_errors, _ = validate_guide(body)
+            guide_errors, _ = validate_guide(body, emitted=True)
             errors.extend(f'{eid}: {e}' for e in guide_errors)
-            for field in ('kind', 'display_title', 'audience', 'coverage', 'start_here', 'sources'):
+            for field in ('kind', 'display_title', 'audience', 'coverage', 'sources'):
                 if field not in body['guide']:
                     errors.append(f'{eid}: guide missing {field}')
             if not isinstance(body.get('references'), list):

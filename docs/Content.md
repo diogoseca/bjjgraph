@@ -292,21 +292,34 @@ That is not permission to publish placeholders.
 
 ### Systems, Principles, and Learning
 
-- **Systems:** follow `templates/Systems.json`. Keep stable identity and graph membership;
-  `guide.display_title` is the reader-facing title. Author fit, source-supported coverage and
-  limits, a useful first study action, and primary sources actually inspected. A listing supports
-  advertised scope, not invented mechanics. Practice tasks require inspected public instruction
-  plus start position, partner task and stop condition. Otherwise use observation/study tasks.
-  No word, section, flashcard or link quotas; omit unsupported repetitive legacy sections.
-  Source-free topic guides may organize study only and must be flagged for root review.
-  Never claim credentials, instructor endorsement, human review, course ownership or firsthand training.
-  `preview` is optional: exact official YouTube/Bunny sample, autoplay/preload disabled; never
-  guess IDs or claim playback from a page 200. `playback_verified_on` records actual origin checks.
-  Products use verified canonical `course_url`, without queries/referrals/placeholders. Only
-  `link_status: live` renders. Availability is independent of affiliate configuration: source
-  Markdown has neutral marked course links, while the postbuild resolver activates referrals,
-  sponsored attributes and the canonical disclosure only with valid `AFFILIATE_REF`.
-  Missing ref remains neutral; invalid ref fails. Never expose root `.env` values.
+- **Systems:** follow `templates/Systems.json`. Keep identity and graph membership stable.
+  `guide.display_title` is editorial; write one substantive overview of advertised instruction,
+  fit and scope from inspected primary evidence. Listings do not establish technical mechanics.
+  No invented exercises, study tasks, mastery claims or `guide.start_here`; do not move retired
+  tasks into prose. No length quotas or repetitive legacy scaffolding. Summary stays useful for
+  search and is not repeated above the overview. Never invent review credentials or endorsement.
+  Optional `guide.alternatives` entries are `{system,reason}`: exact existing System name and a
+  specific reason, including same-course/topic comparisons when useful. Emission resolves real
+  internal `{system,reason,url,title}` entries in rich dossiers only; unknown names fail.
+  `audience.consider_alternative_if` may be empty; named comparisons belong in alternatives.
+  Source-free topic guides require root review; never fabricate evidence to fill them.
+  Preserve source IDs, URLs and verification dates unless actually rechecked; report corrections.
+  Optional previews use exact allowlisted official YouTube/Bunny URLs, autoplay/preload disabled.
+  `playback_verified_on` requires actual playback checks. Verified-origin players mount immediately
+  without a load button; unverified origins retain the official course/source fallback. A page 200
+  never proves playback or instruction review. Unreviewed notes belong quietly in Sources.
+  Static/app order: title and distinct pills/count, actual course/instructor CTA, overview, preview
+  and middle CTA if available, audience, coverage, final CTA, related guides/cards, compact Sources.
+  Top/middle/end CTAs share one primary product; no preview means top/end only. Related references
+  include positions and are not proficiency evidence; render a shared qualifier, not one per node.
+  Products use verified canonical `course_url` without tracking/query placeholders; only live
+  links render. Every BJJFanatics outbound source/blog/preview/course link is attributed at build
+  time with valid `AFFILIATE_REF`; other hosts remain ordinary sources. Evidence URLs may retain
+  nontracking query semantics. Rich BJJFanatics sources emit `canonical_url`, resolved `url` and
+  boolean `affiliate`. Source Markdown stays neutral with course/source markers; built links get
+  sponsored attributes and the exact notice from CLAUDE.md. Missing ref is neutral, invalid ref
+  fails; rotation/removal recomputes canonical links and refreshes gzip/discovery copies. Never
+  expose root `.env` values. Source and emitted gates run separately after the final resolver.
 - **Principles:** author application and complexity levels, development timeline, component skills,
   relationships, application contexts, decision framework, errors, training approaches,
   developmental metrics, related content, root flashcards, and `graph_applicability`.

@@ -388,7 +388,7 @@ jobs:
             - Ensure all transitions reference real positions from content catalog
             - Success rates: realistic, properly ordered
             - Add [[Wikilinks]] throughout (verified targets; no quota for Systems)
-            - Systems: follow docs/Content.md and templates/Systems.json; no filler quotas, invented drills, metrics, timelines, credentials or verification dates. Preserve graph membership and canonical products. Use only actually inspected primary evidence; otherwise flag for review.
+            - Systems: follow docs/Content.md and templates/Systems.json; no reader homework/start_here, filler quotas, invented drills, metrics, timelines, credentials or verification dates. Write one substantive overview; alternatives use exact existing System names, not guessed URLs. Preserve graph membership, canonical products and source evidence dates. Use only actually inspected primary evidence; otherwise flag for review.
 
             **For PAA Integration:**
             - Weave high-priority questions into existing sections

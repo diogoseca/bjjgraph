@@ -1,11 +1,6 @@
-// Built-only static enhancement. No iframe or provider request before a verified-origin click.
-let active = null
-function stop() {
-  if (!active) return
-  active.frame.remove()
-  active.button.hidden = false
-  active = null
-}
+// Official samples mount immediately on verified origins; video never autoplays.
+// One shared controller survives Quartz's repeated module evaluation during navigation.
+const controllerKey = '__bjjStaticSystemPreview'
 function validPlayer(section) {
   try {
     const url = new URL(section.dataset.embedUrl)
@@ -19,36 +14,53 @@ function validPlayer(section) {
     return url.href
   } catch { return null }
 }
-function init() {
-  stop()
-  document.querySelectorAll('[data-system-preview]').forEach(section => {
-    const button = section.querySelector('[data-load-preview]')
-    const target = section.querySelector('[data-preview-player]')
-    const url = validPlayer(section)
-    if (!button || !target) return
-    button.hidden = !url
-    if (!url || button.dataset.bound) return
-    button.dataset.bound = 'true'
-    button.addEventListener('click', () => {
-      stop()
-      const frame = document.createElement('iframe')
-      frame.title = section.dataset.previewTitle || 'Official course sample'
-      frame.referrerPolicy = 'strict-origin-when-cross-origin'
-      frame.allow = 'fullscreen; picture-in-picture; encrypted-media'
-      frame.allowFullscreen = true
-      frame.style.cssText = 'width:100%;aspect-ratio:16/9;border:0'
-      frame.src = url
-      target.appendChild(frame)
-      button.hidden = true
-      active = { frame, button }
-    })
+if (!window[controllerKey]) {
+  let active = null
+  function stop() {
+    if (!active) return
+    active.frame.remove()
+    if (active.fallback) active.fallback.hidden = false
+    active = null
+  }
+  function init() {
+    const section = [...document.querySelectorAll('[data-system-preview]')].find(el => el.getClientRects().length)
+    const url = section && validPlayer(section)
+    const target = section && section.querySelector('[data-preview-player]')
+    const fallback = section && section.querySelector('[data-preview-fallback]')
+    if (!url || !target) { stop(); return }
+    const key = section.dataset.systemKey || location.pathname
+    if (active && active.key === key && active.url === url) {
+      if (active.frame.parentNode !== target) {
+        if (target.moveBefore && active.frame.isConnected) target.moveBefore(active.frame, null)
+        else target.appendChild(active.frame)
+      }
+      if (fallback) fallback.hidden = true
+      active.fallback = fallback
+      return
+    }
+    stop()
+    const frame = document.createElement('iframe')
+    frame.title = section.dataset.previewTitle || 'Official course sample'
+    frame.referrerPolicy = 'strict-origin-when-cross-origin'
+    frame.allow = 'fullscreen; picture-in-picture; encrypted-media'
+    frame.allowFullscreen = true
+    frame.style.cssText = 'width:100%;aspect-ratio:16/9;border:0;pointer-events:auto'
+    frame.src = url
+    target.appendChild(frame)
+    if (fallback) fallback.hidden = true
+    active = { key, url, frame, fallback, path: location.pathname }
+  }
+  window[controllerKey] = { init, stop }
+  document.addEventListener('nav', init)
+  window.addEventListener('pagehide', stop)
+  window.addEventListener('popstate', () => {
+    if (active && active.path !== location.pathname) stop()
   })
+  document.addEventListener('click', event => {
+    const link = event.target.closest?.('a[href]')
+    if (!link || link.target === '_blank' || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return
+    const next = new URL(link.href, location.href)
+    if (next.origin !== location.origin || next.pathname !== location.pathname) stop()
+  }, true)
 }
-document.addEventListener('nav', init)
-window.addEventListener('popstate', stop)
-window.addEventListener('pagehide', stop)
-document.addEventListener('click', event => {
-  const link = event.target.closest?.('a[href]')
-  if (link && link.target !== '_blank') stop()
-}, true)
-init()
+window[controllerKey].init()

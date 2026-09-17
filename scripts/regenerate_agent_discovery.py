@@ -66,15 +66,16 @@ def render(node, canonical, pre=False):
     tag, attrs, children = node
     if tag in {"script", "style", "svg", "button", "template"} or "hidden" in attrs or attrs.get("aria-hidden") == "true":
         return ""
-    # Course references retain build markers so the final resolver can rotate or remove
+    # Course and evidence references retain build markers so the final resolver can rotate or remove
     # referrals even though discovery is emitted after the first stamp.
     if 'affiliate-disclosure' in attrs.get('class', ''):
         return ''
     text = "".join(render(child, canonical, pre or tag == "pre") for child in children)
-    if tag == 'a' and attrs.get('data-course-url'):
+    if tag == 'a' and (attrs.get('data-course-url') or attrs.get('data-source-url')):
         from apply_affiliate_ref import tag_html, disclosure
         note = '<p class="affiliate-disclosure">' + escape(disclosure()) + '</p>' if attrs.get('data-affiliate') == 'true' else ''
-        return '\n\n<section data-course-container>' + note + tag_html('a', attrs) + escape(text.strip()) + '</a></section>\n\n'
+        label = ' '.join(re.sub(r'(?m)^#{1,6}\s+', '', text.strip()).split())
+        return '\n\n<section data-course-container>' + note + tag_html('a', attrs) + escape(label) + '</a></section>\n\n'
 
     if tag in {"h1", "h2", "h3", "h4", "h5", "h6"}:
         return f"\n\n{'#' * int(tag[1])} {text.strip()}\n\n"

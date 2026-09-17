@@ -498,7 +498,7 @@
                 "type": "string",
                 "minLength": 1
               },
-              "minItems": 1,
+              "minItems": 0,
               "uniqueItems": true
             },
             "prerequisites": {
@@ -542,86 +542,6 @@
           "required": [
             "includes",
             "limits"
-          ]
-        },
-        "start_here": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "title": {
-              "type": "string",
-              "minLength": 1
-            },
-            "task": {
-              "type": "string",
-              "minLength": 1
-            },
-            "section": {
-              "type": "string",
-              "minLength": 1
-            },
-            "start_position": {
-              "type": "string",
-              "minLength": 1
-            },
-            "partner_task": {
-              "type": "string",
-              "minLength": 1
-            },
-            "stop_condition": {
-              "type": "string",
-              "minLength": 1
-            },
-            "kind": {
-              "enum": [
-                "observation",
-                "practice"
-              ]
-            },
-            "source_ids": {
-              "type": "array",
-              "items": {
-                "type": "string",
-                "minLength": 1
-              },
-              "minItems": 0,
-              "uniqueItems": true
-            }
-          },
-          "required": [
-            "title",
-            "kind",
-            "task",
-            "source_ids"
-          ],
-          "allOf": [
-            {
-              "if": {
-                "properties": {
-                  "kind": {
-                    "const": "practice"
-                  }
-                }
-              },
-              "then": {
-                "required": [
-                  "start_position",
-                  "partner_task",
-                  "stop_condition"
-                ],
-                "properties": {
-                  "source_ids": {
-                    "type": "array",
-                    "items": {
-                      "type": "string",
-                      "minLength": 1
-                    },
-                    "minItems": 1,
-                    "uniqueItems": true
-                  }
-                }
-              }
-            }
           ]
         },
         "sources": {
@@ -731,6 +651,29 @@
             "content_reviewed",
             "playback_verified_on"
           ]
+        },
+        "alternatives": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "system",
+              "reason"
+            ],
+            "properties": {
+              "system": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Exact existing System source name, never a guessed slug or URL."
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
         }
       },
       "required": [
@@ -738,7 +681,6 @@
         "display_title",
         "audience",
         "coverage",
-        "start_here",
         "sources"
       ],
       "allOf": [
@@ -754,13 +696,6 @@
             "properties": {
               "sources": {
                 "minItems": 1
-              },
-              "start_here": {
-                "properties": {
-                  "source_ids": {
-                    "minItems": 1
-                  }
-                }
               }
             }
           }
