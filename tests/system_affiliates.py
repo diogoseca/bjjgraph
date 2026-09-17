@@ -88,7 +88,7 @@ class SystemAffiliates(unittest.TestCase):
             url=urlsplit(attrs['href']); self.assertEqual(url.path,urlsplit(canonical).path)
             query=parse_qs(url.query);self.assertEqual(query['rfsn'],['12345.test']);self.assertEqual(query['utm_content'],['gordon-ryan-mount-control-system'])
             for param in ('ref','rfsn'):
-                stale=f'<section><p class="affiliate-disclosure">{gate.canonical_disclosure()}</p><a data-affiliate="true" rel="sponsored" href="{canonical}?{param}=REPLACE_ME">Course</a></section>'
+                stale=f'<section data-system-guide><p class="affiliate-disclosure">{gate.canonical_disclosure()}</p><a data-affiliate="true" rel="sponsored" href="{canonical}?{param}=REPLACE_ME">Course</a></section>'
                 for ref in ('','12345.test'):
                     route.write_text(stale); affiliate.stamp(route,ref)
                     output=route.read_text();self.assertNotIn('REPLACE_ME',output);self.assert_gate(output,ref)
@@ -175,6 +175,25 @@ class SystemAffiliates(unittest.TestCase):
                 html=affiliate.resolve_html(html,ref);self.assert_gate(html,ref)
                 self.assertEqual(affiliate.resolve_html(html,ref),html)
                 self.assertIn('variant=7',html);self.assertIn('#part',html)
+
+    def test_unmarked_vendor_links_only_activate_in_system_guides(self):
+        canonical='https://bjjfanatics.com/blogs/techniques/guard?variant=7#part'
+        plain=f'<article><a href="{canonical}" rel="noopener">Position reference</a></article>'
+        self.assertEqual(affiliate.resolve_html(plain,'12345.test'),plain)
+        errors=[];gate.check_html(plain,'Position',errors,True,'12345.test');self.assertEqual(errors,[])
+        source={'id':'listing','kind':'official_listing','url':canonical}
+        self.assertEqual(affiliate.resolve_json(source,'12345.test'),source)
+        for marker in ('data-course-url','data-source-url'):
+            copied=plain.replace('rel="noopener"',f'{marker}="{canonical}" rel="noopener"')
+            active=affiliate.resolve_html(copied,'12345.test');self.assert_gate(active,'12345.test')
+            self.assertIn('rfsn=12345.test',active);self.assertIn(gate.canonical_disclosure(),active)
+        system=plain.replace('<article>','<article data-system-guide>')
+        active=affiliate.resolve_html(system,'12345.test');self.assert_gate(active,'12345.test')
+        self.assertIn('data-source-url=',active);self.assertIn('variant=7',active)
+        neutral=affiliate.resolve_html(active,'');self.assert_gate(neutral)
+        self.assertNotIn('commission',neutral)
+        errors=[];gate.check_html(system,'System',errors,True,'12345.test')
+        self.assertTrue(any('unstamped' in e for e in errors))
 
     def test_preview_ctas_share_primary_and_generic_relationships_are_compact(self):
         data=copy.deepcopy(self.data)

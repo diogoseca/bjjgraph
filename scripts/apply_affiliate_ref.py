@@ -117,16 +117,21 @@ def tag_html(tag, attrs):
     return '<' + tag + ''.join(' ' + k + ('' if v is None else '="' + escape(str(v), quote=True) + '"') for k, v in attrs.items()) + '>'
 
 
+def is_system_guide_html(text):
+    return bool(re.search(r'<[^>]+\sdata-system-guide(?:\s|=|>)', text, re.I))
+
+
 def resolve_html(text, ref):
-    # All vendor clickouts participate: main course CTAs, evidence/blog links, and
-    # preview fallbacks. Rebuild from immutable markers to support ref removal/rotation.
+    # Automatically mark vendor links only in Systems guides. Explicit canonical
+    # markers still resolve in copied snippets and discovery on any surface.
+    system_guide = is_system_guide_html(text)
     text = neutralize_unmarked_text(text)
     text = re.sub(r'<(p|span)\b[^>]*class=["\'][^"\']*affiliate-disclosure[^"\']*["\'][^>]*>.*?</\1>', '', text, flags=re.S | re.I)
     def anchor(match):
         raw = match[0]; attrs = read_tag(raw)
         href = attrs.get('href', '')
         canonical = attrs.get('data-course-url') or attrs.get('data-source-url')
-        if canonical is None and is_bjjfanatics_url(href):
+        if canonical is None and system_guide and is_bjjfanatics_url(href):
             canonical = neutral_legacy_url(href)
             attrs['data-source-url'] = canonical
         if canonical is not None:
@@ -159,7 +164,7 @@ def resolve_json(value, ref, system=''):
             out['url'], out['affiliate'] = affiliate_url(value['course_url'], ref, system, value.get('id', ''))
             if not out['url']:
                 raise ValueError('Invalid canonical course_url in emitted product')
-        elif 'url' in value and ('canonical_url' in value or ('id' in value and 'kind' in value and is_bjjfanatics_url(value['url']))):
+        elif 'url' in value and 'canonical_url' in value:
             canonical = value.get('canonical_url') or neutral_legacy_url(value['url'])
             out['canonical_url'] = canonical
             out['url'], out['affiliate'] = affiliate_url(canonical, ref, system, value.get('id', ''))

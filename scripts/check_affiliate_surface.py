@@ -29,8 +29,9 @@ def canonical_disclosure():
 
 
 def check_html(text, label, errors, built=False, ref=''):
-    from apply_affiliate_ref import read_tag, affiliate_url, neutral_legacy_url
+    from apply_affiliate_ref import read_tag, affiliate_url, neutral_legacy_url, is_system_guide_html
     canon = canonical_disclosure()
+    system_guide = is_system_guide_html(text)
     if re.search(r'(?:href|data-(?:course|source)-url)\s*=\s*["\'][^"\']*REPLACE_ME', text, re.I):
         errors.append(f'{label}: displayed placeholder URL')
     marked = active_count = 0
@@ -49,12 +50,12 @@ def check_html(text, label, errors, built=False, ref=''):
             if active and not {'sponsored', 'nofollow', 'noopener'} <= set(attrs.get('rel', '').split()):
                 errors.append(f'{label}: active link missing sponsored attributes')
         elif vendor:
-            # A neutral source may contain ordinary references, but every built vendor
-            # clickout must have a canonical marker so rotation/removal is checkable.
-            if built:
+            # Only Systems guides require automatic vendor stamping. Other pages
+            # may retain ordinary neutral references without affiliate promotion.
+            if built and system_guide:
                 errors.append(f'{label}: unstamped BJJFanatics outgoing link')
             elif any(k.lower() in ('ref', 'rfsn') or k.lower().startswith('utm_') for k in parse_qs(urlsplit(attrs['href']).query)):
-                errors.append(f'{label}: source outgoing link carries tracking')
+                errors.append(f'{label}: unmarked outgoing link carries tracking')
         if not active and ('sponsored' in attrs.get('rel', '').split() or attrs.get('data-affiliate') == 'true'):
             errors.append(f'{label}: affiliate promotion without configured canonical link')
         if active:

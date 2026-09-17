@@ -313,7 +313,7 @@ That is not permission to publish placeholders.
   Top/middle/end CTAs share one primary product; no preview means top/end only. Related references
   include positions and are not proficiency evidence; render a shared qualifier, not one per node.
   Products use verified canonical `course_url` without tracking/query placeholders; only live
-  links render. Every BJJFanatics outbound source/blog/preview/course link is attributed at build
+  links render. Every Systems BJJFanatics outbound source/blog/preview/course link is attributed at build
   time with valid `AFFILIATE_REF`; other hosts remain ordinary sources. Evidence URLs may retain
   nontracking query semantics. Rich BJJFanatics sources emit `canonical_url`, resolved `url` and
   boolean `affiliate`. Source Markdown stays neutral with course/source markers; built links get

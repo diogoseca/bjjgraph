@@ -644,7 +644,7 @@ previews mount immediately without autoplay. Alternatives resolve exact System n
   Only `link_status: live` renders; `link_checked` records actual listing verification.
 - Committed graph products omit URLs. The index adds `course_url` and `affiliate` to existing
   app product fields; rich `guide` evidence and non-graph `references` stay in deferred dossiers.
-- Source Markdown is neutral, marked with `data-course-url` / `data-source-url`. All BJJFanatics
+- Source Markdown is neutral, marked with `data-course-url` / `data-source-url`. All Systems BJJFanatics
   clickouts participate, including sources/blogs; other hosts stay neutral. Evidence emits
   `canonical_url`, resolved `url`, boolean `affiliate`; nontracking queries are preserved.
   `scripts/apply_affiliate_ref.py` activates emitted links only with valid `AFFILIATE_REF`:
