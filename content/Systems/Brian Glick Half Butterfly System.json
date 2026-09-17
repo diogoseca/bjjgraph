@@ -65,37 +65,26 @@
       "relationship": "Compare for seated butterfly posture, engagement and sweeping study."
     }
   ],
-  "summary": "A companion to Under Pressure: Half Butterfly Mastery that separates entry problems, upper-body attacks and leg-entry study.",
-  "description": "Find the relevant half-butterfly section in Brian Glick’s course before choosing an attack family.",
-  "overview": "The course devotes its first volume to positioning and entries, then splits attack material across two volumes. The fourth volume is an executive summary, useful as an index when returning to a specific topic.",
+  "summary": "Under Pressure: Half Butterfly Mastery covers positioning, entries and upper- and lower-body attacks with Brian Glick.",
+  "description": "A half-butterfly course spanning inside position, sweeps, kimuras and leg entanglements.",
+  "overview": "Brian Glick builds Under Pressure: Half Butterfly Mastery around reaching and attacking from half butterfly. Positioning and entries lead into sumi gaeshi, shoulder-crunch and kimura material, followed by near- and far-leg entanglements. A fourth volume condenses the main material into an executive summary.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Brian Glick: Half Butterfly",
     "audience": {
       "fits": [
-        "You want half-butterfly study that includes how to reach the position and how the course separates its attack families."
+        "You want half butterfly as an attacking guard, including both sweeping and leg-entry options."
       ],
-      "consider_alternative_if": [
-        "If your starting point is fully seated butterfly rather than half butterfly, compare Marcelo Garcia’s Butterfly Guard guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Inside position, head position and entries from several bottom positions.",
-        "Sweeping and upper-body attacks in volume 2; near- and far-leg entries plus troubleshooting in volume 3."
+        "Inside and head position; entries from closed guard, seated butterfly, reverse De La Riva and pinned positions.",
+        "Sumi gaeshi, shoulder crunch and kimura; near- and far-leg ashi entries and troubleshooting."
       ],
       "limits": [
-        "Half butterfly is the organizing position; a separate executive summary repeats the main subjects rather than adding a fourth attack family."
+        "The attacks center on half butterfly. The entries from other positions do not make this a general seated-guard or pin-escape course."
       ]
-    },
-    "start_here": {
-      "title": "Use the summary to locate the full discussion",
-      "kind": "observation",
-      "task": "Compare volume 1’s basic-mechanics lesson with volume 4’s inside-frame and underhook summaries. Select the full discussion matching your current mechanics question. For head position, use the separate volume 1 lesson, The Issue of Head Position, before browsing the two attack groups.",
-      "source_ids": [
-        "glick-half-butterfly-listing"
-      ],
-      "section": "Volume 1: Basic Mechanics of Half Butterfly Guard — 34:47; The Issue of Head Position — 29:03 (course timestamps)"
     },
     "sources": [
       {
@@ -114,6 +103,12 @@
         "checked_on": "2026-09-16",
         "note": "Verified posture/control, sweeping, distance, standing-opponent and pressure sections in four volumes. Listing inspected; course video content not reviewed."
       }
+    ],
+    "alternatives": [
+      {
+        "system": "Marcelo Garcia Butterfly Guard System",
+        "reason": "Choose Garcia for seated butterfly posture, upper-body controls and sweeps against pressure or standing opponents."
+      }
     ]
   },
   "products": [
@@ -125,9 +120,8 @@
       "course_url": "https://bjjfanatics.com/products/half-butterfly-mastery-by-brian-glick",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Positioning, entries, two attack groups and a condensed review volume.",
-      "best_for": "You want half-butterfly study that includes how to reach the position and how the course separates its attack families.",
-      "study_focus": "Use volume 4 for navigation and return to the corresponding full lesson."
+      "blurb": "Half-butterfly positioning and entries, two attack groups and a condensed review volume.",
+      "best_for": "You want half butterfly as an attacking guard, including both sweeping and leg-entry options."
     }
   ],
   "flashcards": []

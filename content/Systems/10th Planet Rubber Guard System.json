@@ -159,36 +159,25 @@
       "relationship": "Alternative seated-guard study centered on posture, connection and sweeps."
     }
   ],
-  "summary": "A companion to The Ultimate Rubber Guard that separates its historical discussion from positional study and the omoplata section.",
-  "description": "Navigate the rubber-guard sections of Eddie Bravo’s course without relying on an invented list of mandatory position chains.",
-  "overview": "The public chapter list is broad: evolution and full rubber guard each occupy a volume. Use those headings to organize study, and record the instructor’s position names as they appear rather than assuming the listing specifies their order.",
+  "summary": "Eddie Bravo’s The Ultimate Rubber Guard covers the position’s development, variations and omoplata attacks.",
+  "description": "A rubber-guard course combining named positions with Eddie Bravo’s account of their development.",
+  "overview": "The Ultimate Rubber Guard is built around Eddie Bravo’s rubber-guard approach, with dedicated volumes on its evolution and positional material. The publisher names mission control, chill dog, dead orchard and double bagger among the positions covered. An omoplata section and later variations complement the historical discussion.",
   "guide": {
     "kind": "course_companion",
-    "display_title": "Eddie Bravo: Rubber Guard Study",
+    "display_title": "Eddie Bravo: Rubber Guard",
     "audience": {
       "fits": [
-        "You want the rubber-guard portion of Eddie Bravo’s course and need to find the positional material."
+        "You want a course centered on rubber guard and the named positions associated with it."
       ],
-      "consider_alternative_if": [
-        "For seated butterfly posture and sweep study, compare Marcelo Garcia’s Butterfly Guard guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Rubber-guard history, evolution, positional material and an omoplata section."
+        "Rubber-guard positions and variations, an omoplata section and historical context."
       ],
       "limits": [
-        "The listing does not break every named rubber-guard variation into its own lesson; bottom half occupies a separate, shorter section."
+        "A substantial opening discussion covers history; this is not exclusively a collection of technique demonstrations."
       ]
-    },
-    "start_here": {
-      "title": "Separate positional lessons from history",
-      "kind": "observation",
-      "task": "Locate the omoplata section in volume 1 and the full positional section in volume 3. Use the first as an attack-specific destination and the second as the wider study block. If watching the course, log the control present immediately before each named position changes; leave unclear contacts as questions.",
-      "source_ids": [
-        "bravo-rubber-listing"
-      ],
-      "section": "Volume 3: Full Rubber Guard — 0–38:49 (course range)"
     },
     "sources": [
       {
@@ -217,7 +206,13 @@
       "checked_on": "2026-09-16",
       "content_reviewed": false,
       "playback_verified_on": []
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Marcelo Garcia Butterfly Guard System",
+        "reason": "Choose seated butterfly if your priority is posture, upper-body controls and hook sweeps."
+      }
+    ]
   },
   "products": [
     {
@@ -228,9 +223,8 @@
       "course_url": "https://bjjfanatics.com/products/the-ultimate-rubber-guard-by-eddie-bravo",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Rubber-guard context and positional material across four volumes.",
-      "best_for": "You want the rubber-guard portion of Eddie Bravo’s course and need to find the positional material.",
-      "study_focus": "Choose volume 3 for positional study; volume 1 separately lists the omoplata section."
+      "blurb": "Rubber-guard positions, variations and omoplata material alongside their history.",
+      "best_for": "You want a course centered on rubber guard and the named positions associated with it."
     }
   ],
   "flashcards": []

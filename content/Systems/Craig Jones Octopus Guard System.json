@@ -64,38 +64,26 @@
       "relationship": "Choose this comparison for gi entries, including the explicitly listed closed-guard sleeve option."
     }
   ],
-  "summary": "A course companion for choosing between Craig Jones’s half-guard, headlock-response and turtle material in Octopus Guard 2.0.",
-  "description": "Locate a recurring no-gi bottom-position problem in the published Octopus Guard 2.0 syllabus.",
-  "overview": "The title covers more than one guard position: the outline moves from half guard and side control to headlock responses and turtle. Choose the section that matches your problem before treating the course as a single attack sequence.",
+  "summary": "Craig Jones’s Octopus Guard 2.0 covers no-gi half guard, D’Arce responses and attacks from turtle.",
+  "description": "A four-volume course connecting octopus guard with headlock counters, back takes and turtle offense.",
+  "overview": "Octopus Guard 2.0 starts with half guard, side control and crossfaces, then expands into sweeps and D’Arce counters. Craig Jones devotes the later volumes to buggy chokes, front headlocks and turtle attacks, including crucifix and leg-attack material. This is a broad bottom-position course with an octopus theme.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Craig Jones: No-Gi Octopus Guard",
     "audience": {
       "fits": [
-        "You want to investigate no-gi half-guard exchanges that lead into headlock or turtle situations."
+        "You want no-gi octopus material that continues into headlock and turtle exchanges."
       ],
-      "consider_alternative_if": [
-        "For gi sleeve entries and a compact sweep/back-take survey, compare Eduardo Telles’s Octopus With Pajamas."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Half-guard versus side-control distinctions and crossface discussion in volume 1.",
-        "Sweeping and D’Arce-related responses in volume 2; headlock and turtle branches continue in volumes 3–4."
+        "Half-guard and side-control distinctions, crossfaces, sweeps and reverse-side-control responses.",
+        "D’Arce counters, buggy chokes, turtle overwrap attacks and crucifix material."
       ],
       "limits": [
-        "This no-gi release extends into headlock responses, buggy-choke material and turtle; it is broader than a compact sweep-and-back-take introduction.",
-        "It does not offer the gi sleeve-entry emphasis of Telles’s Octopus With Pajamas."
+        "Much of the later course concerns headlocks and turtle, so the four volumes are not all guard entries and sweeps."
       ]
-    },
-    "start_here": {
-      "title": "Locate your first lost position",
-      "kind": "observation",
-      "task": "Compare volume 1’s half-guard/side-control discussion with the later headlock and turtle headings. In a bottom-position exchange you can review, record whether the problem begins while a leg is still trapped or after a side pin is established. If you own the course, start with the half-guard comparison and check the instructor’s distinction before choosing a counter section.",
-      "source_ids": [
-        "craig-octopus-listing"
-      ],
-      "section": "Volume 1: Half Guard Vs Side Control — 4:35 (course timestamp)"
     },
     "sources": [
       {
@@ -127,7 +115,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Eduardo Telles Gi Octopus Guard System",
+        "reason": "Choose Telles for gi sleeve entries and a shorter course centered on sweeps and back takes."
+      }
+    ]
   },
   "products": [
     {
@@ -138,9 +132,8 @@
       "course_url": "https://bjjfanatics.com/products/octopus-guard-2-0-by-craig-jones",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "A four-volume no-gi syllabus spanning guard, headlock responses and turtle.",
-      "best_for": "You want to investigate no-gi half-guard exchanges that lead into headlock or turtle situations.",
-      "study_focus": "Begin with the positional comparison before selecting a later counter section."
+      "blurb": "Four volumes of no-gi octopus, headlock responses and turtle offense.",
+      "best_for": "You want no-gi octopus material that continues into headlock and turtle exchanges."
     }
   ],
   "flashcards": []

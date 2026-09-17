@@ -65,37 +65,26 @@
       "relationship": "Compare single-leg-X emphasis with a wider X-guard entry and finish collection."
     }
   ],
-  "summary": "A gi-specific single-leg-X companion that distinguishes the course’s entry choices, fabric-grip sweeps and responses to passing.",
-  "description": "Use Single Leg X Reimagined to locate a gi entry or sweeping problem and distinguish it from general X-guard study.",
-  "overview": "The syllabus starts with several routes into the position and later separates sweeps, stand-up options and counters. Sleeve and lapel labels are a useful sign that some examples depend on gi connections.",
+  "summary": "Single Leg X Reimagined develops gi entries, sweeps and submissions with Adam Wardzinski.",
+  "description": "A gi single-leg-X course with butterfly and shin-to-shin entries, fabric-grip sweeps and passing counters.",
+  "overview": "Adam Wardzinski’s Single Leg X Reimagined connects butterfly, shin-to-shin and De La Riva entries to sweeping and submission options. Sleeve and lapel variations give it a distinct gi emphasis. The four volumes also cover technical stand-ups, back takes and responses to long-step and pressure passing.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Adam Wardzinski: Single Leg X in the Gi",
     "audience": {
       "fits": [
-        "You already have a butterfly, shin-to-shin or De La Riva interest and want to find its single-leg-X entry in a gi syllabus."
+        "You want single-leg-X offense adapted to gi grips, including sleeve and lapel sweep variations."
       ],
-      "consider_alternative_if": [
-        "For a broader X-guard entry and sweep collection, compare The Marcelo X Guard."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Butterfly, shin-to-shin and De La Riva entries; sleeve/lapel sweep variations.",
-        "Stand-up options, back takes, submissions and counters to pulling or passing."
+        "Entries from butterfly, shin-to-shin and De La Riva; scissor, hook and overhead sweeps.",
+        "Technical stand-ups, back takes, foot locks and counters to pulling and passing."
       ],
       "limits": [
-        "This is presented as a gi course; the fabric-grip sections are not a no-gi entry curriculum."
+        "Several attacks depend on fabric grips, so this is not an exclusively no-gi single-leg-X course."
       ]
-    },
-    "start_here": {
-      "title": "Match an entry to a grip-dependent follow-up",
-      "kind": "observation",
-      "task": "In volume 1, find the entry from the guard you currently study. Then compare volume 2’s far-sleeve and lapel headings with the other sweep labels. Mark which lessons explicitly require clothing grips so you do not mistake them for interchangeable no-gi examples.",
-      "source_ids": [
-        "wardzinski-slx-listing"
-      ],
-      "section": "Volume 1: X Guard Control — 0 (course timestamp)"
     },
     "sources": [
       {
@@ -127,7 +116,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Marcelo Garcia X-Guard System",
+        "reason": "Choose Garcia for a course centered on full X guard, with a larger entry collection and a dedicated sweep volume."
+      }
+    ]
   },
   "products": [
     {
@@ -138,9 +133,8 @@
       "course_url": "https://bjjfanatics.com/products/single-leg-x-reimagined-by-adam-wardzinski",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "A four-volume gi-focused single-leg-X syllabus with entries, sweeps and counters.",
-      "best_for": "You already have a butterfly, shin-to-shin or De La Riva interest and want to find its single-leg-X entry in a gi syllabus.",
-      "study_focus": "Start with control, then select a familiar entry before its sweep section."
+      "blurb": "Four volumes of gi single-leg-X entries, offense and counters.",
+      "best_for": "You want single-leg-X offense adapted to gi grips, including sleeve and lapel sweep variations."
     }
   ],
   "flashcards": []

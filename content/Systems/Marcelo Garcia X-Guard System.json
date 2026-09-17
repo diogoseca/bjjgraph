@@ -158,37 +158,26 @@
       "relationship": "Compare a single-leg-X-centered gi syllabus with this wider X-guard collection."
     }
   ],
-  "summary": "An X-guard companion separating the course’s routes underneath the opponent from sweeping finishes and counter responses.",
-  "description": "Navigate The Marcelo X Guard by deciding whether your problem is entry, finishing a sweep or maintaining the position.",
-  "overview": "The first two volumes emphasize entries, the third concentrates on finishes and the fourth collects responses and transitions. Collar and sleeve examples appear in the outline alongside butterfly and shin-to-shin routes.",
+  "summary": "The Marcelo X Guard covers Marcelo Garcia’s entries, sweeping finishes and responses to attempts to dismantle the position.",
+  "description": "An X-guard course with butterfly and shin-to-shin entries, stand-up sweeps and passing counters.",
+  "overview": "The Marcelo X Guard devotes its first two volumes to entries, including butterfly, shin-to-shin and collar-and-sleeve approaches. Marcelo Garcia follows these with stand-up, push-back and tilt sweeps, then responses to leg pummels and backsteps. The course also includes the transition from X guard to single-leg X.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Marcelo Garcia: X-Guard Entries and Sweeps",
     "audience": {
       "fits": [
-        "You want to distinguish a failed X-guard entry from a stalled stand-up sweep or an opponent’s pummel."
+        "You want an X-guard course covering both getting underneath an opponent and completing sweeps."
       ],
-      "consider_alternative_if": [
-        "For a gi single-leg-X emphasis with sleeve/lapel sweep variations, compare Adam Wardzinski’s guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Butterfly, grip-based and shin-to-shin entry sections.",
-        "Stand-up, push-back and tilt finishes; pummel, backstep and single-leg-X transition material."
+        "Butterfly, shin-to-shin and grip-based entries, including options against pressure.",
+        "Stand-up, push-back and tilt sweeps; leg-pummel and backstep counters and transitions to single-leg X."
       ],
       "limits": [
-        "Several entries and counters explicitly use collar or sleeve grips; this is not exclusively a no-gi syllabus."
+        "Several entries and counters use collar or sleeve grips, so the material is not exclusively no-gi."
       ]
-    },
-    "start_here": {
-      "title": "Track the stage at which the exchange stalls",
-      "kind": "observation",
-      "task": "Use the chapter groupings to label an X-guard exchange as entry, finish or counter response. For a stand-up sweep problem, compare the initial finish with the following opponent-pulls-away lesson. For a connection lost before the finish, search the entry or pummel sections instead.",
-      "source_ids": [
-        "garcia-xguard-listing"
-      ],
-      "section": "Volume 3: X-Guard Finishes - Stand up sweep — 0 (course timestamp)"
     },
     "sources": [
       {
@@ -220,7 +209,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Adam Wardzinski Single Leg X System",
+        "reason": "Choose Wardzinski for a gi course centered on single-leg X, including sleeve/lapel sweeps and submission options."
+      }
+    ]
   },
   "products": [
     {
@@ -231,9 +226,8 @@
       "course_url": "https://bjjfanatics.com/products/the-marcelo-x-guard-by-marcelo-garcia",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Four volumes divided into entries, sweeping finishes and counter responses.",
-      "best_for": "You want to distinguish a failed X-guard entry from a stalled stand-up sweep or an opponent’s pummel.",
-      "study_focus": "Separate reaching X guard from the opponent response that interrupts the finish."
+      "blurb": "Four volumes covering X-guard entries, sweeps, counters and transitions.",
+      "best_for": "You want an X-guard course covering both getting underneath an opponent and completing sweeps."
     }
   ],
   "flashcards": []

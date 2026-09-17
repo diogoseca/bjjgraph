@@ -65,37 +65,26 @@
       "relationship": "Compare when retention around or under the legs is the immediate study need."
     }
   ],
-  "summary": "A K-guard companion that separates kneeling, combat-base and standing entries from later offense and troubleshooting.",
-  "description": "Find the relevant K-guard entry block within Lachlan Giles’s No Gi Open Guard Volume 1: K Guard.",
-  "overview": "The release title says Volume 1, but its player outline contains eight volumes. Early material locates K guard within a wider open-guard approach; later blocks separate entries by opponent posture and then develop offense.",
+  "summary": "Lachlan Giles’s No Gi Open Guard Volume 1: K Guard develops entries, leg attacks and responses to common counters.",
+  "description": "K-guard offense against kneeling, combat-base and standing opponents, including backside 50/50 and X-guard options.",
+  "overview": "No Gi Open Guard Volume 1: K Guard places K guard within Lachlan Giles’s wider open-guard approach. It covers entries against different opponent postures and from retention situations, then develops offense through backside 50/50, X guard and other positions. The course contains eight parts, including troubleshooting and narrated rolling.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Lachlan Giles: K-Guard Entries and Offense",
     "audience": {
       "fits": [
-        "You want to compare K-guard entries against different opponent postures without jumping directly to the finishing sections."
+        "You want a detailed no-gi K-guard course with entries, leg entanglements and offensive follow-ups."
       ],
-      "consider_alternative_if": [
-        "If passes around or under your legs are the main problem before offense begins, compare the Giles–Tabak retention guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Open-guard context and K-guard controls; entries against kneeling, combat-base and standing opponents.",
-        "Retention entries, offensive pathways, counter responses and narrated material."
+        "K-guard positioning and entries against kneeling, combat-base and standing opponents.",
+        "Retention entries, backside-50/50 heel-hook attacks, X-guard options and counter responses."
       ],
       "limits": [
-        "Lower-body offense is a substantial part of the syllabus; this is broader than a short introduction to one guard entry."
+        "Leg entanglements and heel-hook offense form a substantial part of the course; its scope goes well beyond learning a single guard entry."
       ]
-    },
-    "start_here": {
-      "title": "Choose the posture-specific entry block",
-      "kind": "observation",
-      "task": "Find your opponent’s posture in the outline: kneeling in volume 4, or combat base/standing in volume 5. Pair that block with the general entry discussion in volume 3. When reviewing an exchange, note the posture before the entry attempt and whether it changes; do not infer the entry mechanics from the chapter name.",
-      "source_ids": [
-        "giles-kguard-listing"
-      ],
-      "section": "Volume 3: Entries: Concepts, controls, positioning - General Entries sequence — 7:46 (course timestamp)"
     },
     "sources": [
       {
@@ -127,7 +116,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Lachlan Giles and Ariel Tabak Guard Retention System",
+        "reason": "Choose Around and Under if preventing passes around or under the legs is your main priority."
+      }
+    ]
   },
   "products": [
     {
@@ -138,9 +133,8 @@
       "course_url": "https://bjjfanatics.com/products/no-gi-open-guard-volume-1-k-guard-by-lachlan-giles",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "An eight-volume player outline covering context, entries, offense and troubleshooting.",
-      "best_for": "You want to compare K-guard entries against different opponent postures without jumping directly to the finishing sections.",
-      "study_focus": "Compare the general entry discussion with the block for the opponent posture you face."
+      "blurb": "Eight parts covering open-guard context, K-guard entries, offense and troubleshooting.",
+      "best_for": "You want a detailed no-gi K-guard course with entries, leg entanglements and offensive follow-ups."
     }
   ],
   "flashcards": []

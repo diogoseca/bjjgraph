@@ -65,37 +65,26 @@
       "relationship": "Alternative organization for rising from X, De La Riva, reverse De La Riva or butterfly guard."
     }
   ],
-  "summary": "A companion to Shin to Shin that prioritizes the course’s posture, hand-fighting, heisting and stance-specific entry sections.",
-  "description": "Use the published Shin to Shin outline to distinguish getting connected from responding after the connection is challenged.",
-  "overview": "Shin-to-shin appears within a wider seated-engagement syllabus. The earlier posture and hand-fighting material may be the relevant starting point when the problem occurs before a leg entry is available.",
+  "summary": "Eoghan O’Flanagan’s Shin to Shin covers seated engagement, heisting and entries against different stances.",
+  "description": "A seated-guard course on making contact, entering shin-to-shin and handling the opponent’s responses.",
+  "overview": "Shin to Shin spends substantial time on the engagement before the leg connection: posture, foot tracking, hand fighting and heisting. Eoghan O’Flanagan then covers entries against square and bladed stances, followed by responses to pummeling, guillotines and backsteps. The course suits a player whose difficulty starts before a secure leg entry.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Eoghan O’Flanagan: Shin-to-Shin and Seated Engagement",
     "audience": {
       "fits": [
-        "You struggle to reach shin-to-shin because posts, hand fighting or stance changes interrupt the approach."
+        "Posts, hand fighting or stance changes prevent you from reaching shin-to-shin."
       ],
-      "consider_alternative_if": [
-        "For study organized around coming up from several named guards, compare Dante Leon’s Wrestling Up From Guard guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Posture, foot tracking and head/hand fighting; heisting against standing and kneeling opponents.",
-        "Square- and bladed-stance entries, then pummel, guillotine and backstep response sections."
+        "Posture, foot tracking, hand fighting, heisting and ankle picks.",
+        "Shin-to-shin entries against different stances and responses to pummeling and backsteps."
       ],
       "limits": [
-        "The detailed outline emphasizes engagement and entries; it does not separately index the full set of leg-lock finishes mentioned in the marketing copy."
+        "The detailed outline centers on engagement, entries and counters rather than a dedicated series of leg-lock finishes."
       ]
-    },
-    "start_here": {
-      "title": "Locate where connection breaks",
-      "kind": "observation",
-      "task": "Separate three observations in a seated exchange: a post blocks the approach, the stance changes before entry, or a pummel breaks an existing connection. Match the event to volume 1, 3 or 4 respectively. For course study, compare the early and later pummel-counter lessons without treating their titles as instructions.",
-      "source_ids": [
-        "oflanagan-shin-listing"
-      ],
-      "section": "Volume 1: Intro And Posture — 0:28 (course timestamp)"
     },
     "sources": [
       {
@@ -127,7 +116,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Dante Leon Wrestling Up From Guard System",
+        "reason": "Choose Leon for coming-up attacks organized around X guard, De La Riva, reverse De La Riva and butterfly."
+      }
+    ]
   },
   "products": [
     {
@@ -138,9 +133,8 @@
       "course_url": "https://bjjfanatics.com/products/shin-to-shin-by-eoghan-oflanagan",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "A four-volume outline moving from seated engagement to entries and responses.",
-      "best_for": "You struggle to reach shin-to-shin because posts, hand fighting or stance changes interrupt the approach.",
-      "study_focus": "Use the first lost connection to choose between posture, stance and pummel sections."
+      "blurb": "Four volumes on seated engagement, heisting, shin-to-shin entries and counters.",
+      "best_for": "Posts, hand fighting or stance changes prevent you from reaching shin-to-shin."
     }
   ],
   "flashcards": []

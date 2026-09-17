@@ -123,37 +123,26 @@
       "relationship": "Dynamic Guard System: related system study, separate from the source syllabus."
     }
   ],
-  "summary": "A companion to The Complete Butterfly Guard that routes posture, engagement and standing-opponent questions to different sections.",
-  "description": "Study Marcelo Garcia’s butterfly syllabus by identifying whether difficulty starts before contact, in posture or after the opponent stands.",
-  "overview": "The course begins with hand, foot and elbow positioning, then expands into sweep variations and engagement problems. Its standing-opponent section means seated study does not end when the passer gets to their feet.",
+  "summary": "The Complete Butterfly Guard covers Marcelo Garcia’s seated posture, sweeps, submissions and responses to standing opponents.",
+  "description": "A butterfly course combining upper-body controls and sweeps with distance management and pressure responses.",
+  "overview": "Marcelo Garcia’s The Complete Butterfly Guard develops seated posture and sweeping before expanding into upper-body attacks and engagement. The four volumes include elbow control, shoulder-clamp sweeps, armlocks and the Marcelotine. Distance-closing and standing-opponent material address exchanges where the passer does not stay in front of the butterfly hooks.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Marcelo Garcia: Butterfly Guard",
     "audience": {
       "fits": [
-        "You want seated butterfly study with separate material on posture, closing distance and opponents who stand or pressure."
+        "You want seated butterfly offense with ways to engage opponents who stand, retreat or pressure forward."
       ],
-      "consider_alternative_if": [
-        "If your main interest is getting underneath into X guard and selecting a finish, compare The Marcelo X Guard."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Posture and sweep process; upper-body controls, sweep variations and submissions.",
-        "Distance-closing material and responses to standing opponents or incoming pressure."
+        "Hand, foot and elbow positioning; butterfly sweeps, shoulder clamps and upper-body submissions.",
+        "Closing distance, shin-to-shin against standing opponents and responses to forward pressure."
       ],
       "limits": [
-        "Butterfly is the central position; X-guard entries and finishes have their own dedicated Garcia release."
+        "Butterfly and seated engagement are the focus; full X-guard entries and sweeping finishes are not the course’s central subject."
       ]
-    },
-    "start_here": {
-      "title": "Sort posture, distance and standing problems",
-      "kind": "observation",
-      "task": "Compare volume 1’s posture section, volume 3’s distance-opening section and volume 4’s standing-opponent section. In an exchange you can review, note whether contact was never established, seated posture changed, or the passer stood. Select the corresponding study block instead of immediately adding another sweep.",
-      "source_ids": [
-        "garcia-butterfly-listing"
-      ],
-      "section": "Volume 1: MAINTAINING BUTTERFLY POSTURE — 7:47–13:36 (course range)"
     },
     "sources": [
       {
@@ -182,7 +171,13 @@
       "checked_on": "2026-09-16",
       "content_reviewed": false,
       "playback_verified_on": []
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Marcelo Garcia X-Guard System",
+        "reason": "Choose The Marcelo X Guard for getting underneath into X guard, completing sweeps and responding to leg pummels."
+      }
+    ]
   },
   "products": [
     {
@@ -193,9 +188,8 @@
       "course_url": "https://bjjfanatics.com/products/the-complete-butterfly-guard-by-marcelo-garcia",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "A four-volume course that includes posture, sweeps, engagement and standing-opponent material.",
-      "best_for": "You want seated butterfly study with separate material on posture, closing distance and opponents who stand or pressure.",
-      "study_focus": "Begin with posture, then locate the engagement problem that appears in your exchanges."
+      "blurb": "Four volumes of butterfly positioning, sweeps, submissions and engagement.",
+      "best_for": "You want seated butterfly offense with ways to engage opponents who stand, retreat or pressure forward."
     }
   ],
   "flashcards": []

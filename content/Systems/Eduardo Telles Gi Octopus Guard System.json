@@ -64,37 +64,26 @@
       "relationship": "Compare for no-gi half-guard, headlock-response and turtle study."
     }
   ],
-  "summary": "A gi-focused companion to Octopus With Pajamas, organized around its half-guard, closed-guard and reverse-half sweep and back-take entries.",
-  "description": "Compare the entry positions in Eduardo Telles’s published Octopus With Pajamas outline.",
-  "overview": "This single-volume course offers several ways into the octopus theme. Half guard, closed guard and reverse half are separate study choices; their appearance in one syllabus does not make them a prescribed chain.",
+  "summary": "Eduardo Telles’s Octopus With Pajamas covers gi sweeps and back takes from half, closed, butterfly and reverse half guard.",
+  "description": "A compact gi octopus course with sleeve entries, sweep variations and counters.",
+  "overview": "Octopus With Pajamas presents Eduardo Telles’s gi approach in one volume. Sweeps and back takes recur across several starting guards, including a closed-guard sleeve entry. The course also covers counters using kata gatame and Ezekiel before closing with reverse-half options.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Eduardo Telles: Octopus Guard in the Gi",
     "audience": {
       "fits": [
-        "You want gi octopus material with an explicitly listed sleeve entry and several starting guards."
+        "You want a compact gi course focused on octopus sweeps and back takes from several guards."
       ],
-      "consider_alternative_if": [
-        "For a no-gi syllabus with more headlock-response and turtle sections, compare Craig Jones’s Octopus Guard 2.0."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Half-guard sweeps and back takes, butterfly variations, and closed-guard sleeve material.",
-        "Later sections name counters to octopus and reverse-half options."
+        "Half-guard and butterfly sweeps, closed-guard sleeve entries, hip bumps and back takes.",
+        "Counters to octopus and reverse-half sweeps and back takes."
       ],
       "limits": [
-        "This single-volume gi survey covers several entries and counters; it offers less separately indexed headlock and turtle material than Craig Jones’s four-volume course."
+        "Its single volume is concentrated on gi guard exchanges; headlock and turtle offense are not developed into separate volumes."
       ]
-    },
-    "start_here": {
-      "title": "Separate the starting guards",
-      "kind": "observation",
-      "task": "Use the free outline to make three headings: half guard, closed guard and reverse half. Place one sweep or back-take chapter beneath each. Choose the heading closest to a position you already study; if you have course access, begin with the half-guard sweep and compare the next elbow-post lesson without assuming what changes.",
-      "source_ids": [
-        "telles-octopus-listing"
-      ],
-      "section": "Volume 1: Octopus Sweep From Half Guard — 0:44 (course timestamp)"
     },
     "sources": [
       {
@@ -126,7 +115,13 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Craig Jones Octopus Guard System",
+        "reason": "Choose Jones for no-gi octopus with substantial D’Arce-response, buggy-choke and turtle material."
+      }
+    ]
   },
   "products": [
     {
@@ -137,9 +132,8 @@
       "course_url": "https://bjjfanatics.com/products/octopus-with-pajamas-by-eduardo-telles",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "A single-volume gi survey of octopus entries, sweeps, back takes and counters.",
-      "best_for": "You want gi octopus material with an explicitly listed sleeve entry and several starting guards.",
-      "study_focus": "Compare the initial half-guard sweep with its elbow-post variation."
+      "blurb": "One volume of gi octopus entries, sweeps, back takes and counters.",
+      "best_for": "You want a compact gi course focused on octopus sweeps and back takes from several guards."
     }
   ],
   "flashcards": [

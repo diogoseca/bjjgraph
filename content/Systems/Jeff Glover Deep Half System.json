@@ -65,37 +65,26 @@
       "relationship": "Compare for half-butterfly entries and a differently organized attack syllabus."
     }
   ],
-  "summary": "A deep-half companion that separates three named exit routes from entry study and upper-body troubleshooting.",
-  "description": "Navigate The No Gi Deep Half Guard 2.0 according to whether the problem is entry, exit selection or an opponent’s control.",
-  "overview": "The outline introduces exits before surveying entries from several bottom positions. Its final volume separately addresses underhooks and chin straps, so a stalled deep-half exchange has a different study destination from a failed entry.",
+  "summary": "Jeff Glover’s The No Gi Deep Half Guard 2.0 covers entries, exits and common controls that obstruct deep half.",
+  "description": "A no-gi deep-half course with overtop, backdoor and single-leg options plus underhook and chin-strap troubleshooting.",
+  "overview": "The No Gi Deep Half Guard 2.0 presents Jeff Glover’s overtop, backdoor and single-leg options alongside ways into deep half from knee shield and pinned positions. The final volume addresses underhooks, chin straps and opponents jumping over the head, then adds drills. It covers both reaching the position and dealing with resistance once there.",
   "guide": {
     "kind": "course_companion",
     "display_title": "Jeff Glover: No-Gi Deep Half",
     "audience": {
       "fits": [
-        "You want to compare deep-half exits with the upper-body problems that appear in Glover’s troubleshooting volume."
+        "You want deep half as a route out of bottom positions and need answers to upper-body control."
       ],
-      "consider_alternative_if": [
-        "If half-butterfly entry and attack choices better match your starting position, compare Brian Glick’s guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Overtop, backdoor and single-leg routes, followed by entries from knee shield and other bottom positions.",
-        "A final troubleshooting and drill block, including underhook and chin-strap topics."
+        "Overtop, backdoor and single-leg options; entries from knee shield, mount and other bottom positions.",
+        "Underhook and chin-strap problems, opponents jumping over the head and deep-half drills."
       ],
       "limits": [
-        "The entry collection is organized around reaching deep half; it is not a complete escape curriculum for every listed bottom position."
+        "The escape material leads toward deep half; it does not offer a complete escape system for every starting pin."
       ]
-    },
-    "start_here": {
-      "title": "Separate entry trouble from control trouble",
-      "kind": "observation",
-      "task": "In the outline, compare the entry from the bottom position you encounter with volume 3’s underhook and chin-strap labels. Classify a recent stalled exchange as failure to enter or difficulty after entry. If you have access, study the relevant troubleshooting lesson before adding another entry to your notes.",
-      "source_ids": [
-        "glover-deep-half-listing"
-      ],
-      "section": "Volume 3: The problem of the Under-hook — 0:59–7:01 (course range)"
     },
     "sources": [
       {
@@ -114,6 +103,12 @@
         "checked_on": "2026-09-16",
         "note": "Verified inside-position and head-position sections, entry positions, two attack groups, troubleshooting and executive summary. Listing inspected; course video content not reviewed."
       }
+    ],
+    "alternatives": [
+      {
+        "system": "Brian Glick Half Butterfly System",
+        "reason": "Choose Glick for half-butterfly positioning and offense, including sweeps, kimuras and leg entanglements."
+      }
     ]
   },
   "products": [
@@ -125,9 +120,8 @@
       "course_url": "https://bjjfanatics.com/products/the-no-gi-deep-half-guard-2-0-by-jeff-glover",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Three volumes covering exits, entries and troubleshooting around deep half.",
-      "best_for": "You want to compare deep-half exits with the upper-body problems that appear in Glover’s troubleshooting volume.",
-      "study_focus": "Use the underhook discussion for a control problem after entry."
+      "blurb": "Three volumes of deep-half entries, exits, troubleshooting and drills.",
+      "best_for": "You want deep half as a route out of bottom positions and need answers to upper-body control."
     }
   ],
   "flashcards": []
