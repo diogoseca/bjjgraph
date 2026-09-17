@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/diogoseca/bjjgraph/security/advisories/new
+    about: Private reporting for the site, the Cloudflare Functions or account sync. Do not open a public issue for these.
