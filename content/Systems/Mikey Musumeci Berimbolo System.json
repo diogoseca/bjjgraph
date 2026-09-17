@@ -13,9 +13,9 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "description": "A branch-focused companion to Mikey Musumeci’s Berimbolo foundation release, covering stacking, pulling, twister-hook and top-bolo topics.",
-  "summary": "Study the stacking and pulling branches in Musumeci’s Berimbolo System Part 1.",
-  "overview": "After identifying the double-pull foundation, this route helps you organize the course’s different routes toward the back and its later top-position options.",
+  "description": "Mikey Musumeci’s Berimbolo foundation course develops stacking, pulling, twister-hook, uninverting and top-bolo variations.",
+  "summary": "Stacking, pulling and twister-hook variations within Musumeci’s berimbolo foundation course.",
+  "overview": "The Berimbolo System Part 1: The Foundation develops the basic inversion into several ways of advancing position. Mikey Musumeci covers stacking and pulling variations, twister hooks, uninverting and top-bolo situations. This guide emphasizes those variations for someone interested in what follows the initial berimbolo entry.",
   "related_content": [
     {
       "name": "De La Riva Guard",
@@ -55,92 +55,92 @@
     {
       "name": "Berimbolo Entry",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Backstep from De La Riva",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Balloon Sweep",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Basic Butterfly Sweep",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Back Take from Bottom",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Frames",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Grips",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Dominant Angles",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Posture",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Kuzushi",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Hooks",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Berimbolo",
       "content_type": "System",
-      "relationship": "Orientation to the same foundation release and its double-pull starting context."
+      "relationship": "Overview of the same course emphasizing double-pull positioning, grips and inversion foundations."
     },
     {
       "name": "Marcelo Garcia X-Guard System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Caio Terra Guard Retention System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Dynamic Guard System",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     }
   ],
   "flashcards": [],
@@ -153,38 +153,29 @@
       "course_url": "https://bjjfanatics.com/products/the-berimbolo-system-by-mikey-musumeci",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Stacking and pulling branches, twister-hook material, uninverting options and top-bolo topics.",
-      "best_for": "You have chosen Musumeci’s foundation course and want a manageable comparison within it.",
-      "study_focus": "Compare the direction of two published branches"
+      "blurb": "The foundation release includes both initial berimbolo entries and stacking, pulling and top-bolo variations.",
+      "best_for": "Berimbolo players interested in positional options after the initial entry."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Mikey Musumeci: Berimbolo Branches",
+    "display_title": "Mikey Musumeci: Berimbolo Variations",
     "audience": {
       "fits": [
-        "You have chosen Musumeci’s foundation course and want a manageable comparison within it."
+        "You want stacking and pulling variations beyond the basic berimbolo.",
+        "You want coverage of twister hooks, uninverting and top-bolo situations."
       ],
-      "consider_alternative_if": [
-        "If you are still deciding whether its starting position fits, begin with the Berimbolo orientation guide."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Stacking and pulling branches, twister-hook material, uninverting options and top-bolo topics."
+        "Stacking and pulling variations, including combinations between them.",
+        "Twister hooks, shoulder and collar controls, and uninverting to mount or the back.",
+        "Top-bolo material and connections to passing or arm-triangle attacks."
       ],
       "limits": [
-        "This guide follows the foundation release; later releases and a universal guard-retention method are outside its scope."
+        "This is the same eight-volume Part 1 foundation release featured in the Berimbolo guide, not a later installment or a separate product."
       ]
-    },
-    "start_here": {
-      "title": "Compare the direction of two published branches",
-      "kind": "observation",
-      "task": "Place the stacking section in Volume 4 beside the pulling section in Volume 5. Note which branch name matches the movement you are trying to understand. Owners can then use the opening Volume 6 combination lesson to record when the instructor changes branches, without assuming every reaction requires that change.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 6: Chaining Stacking And Pulling Together - Stack To Pull In, 0:00–5:52"
     },
     "sources": [
       {
@@ -208,6 +199,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Berimbolo",
+        "reason": "Overview of the same course emphasizing double-pull positioning, grips and inversion foundations."
+      }
+    ]
   }
 }

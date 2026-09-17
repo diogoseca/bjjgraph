@@ -9,8 +9,8 @@
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
   "description": "Jimmy Sheptock’s The Single Leg Takedown is a wrestling course covering tie clearing, head-inside finishes, whizzer problems and low finishes.",
-  "summary": "Choose among tie clearing, upright finishes and low finishes in Jimmy Sheptock’s single-leg course.",
-  "overview": "The official description addresses wrestling. Its organization is useful for identifying a shot or finishing question before considering a BJJ adaptation.",
+  "summary": "Wrestling setups and single-leg finishes, including whizzer and low-position problems.",
+  "overview": "The Single Leg Takedown follows Jimmy Sheptock’s wrestling approach from closing distance and clearing ties to finishing the captured leg. High finishes, low finishes and responses to the whizzer give it more depth than a course about the initial shot alone. Its setting is wrestling, which matters when choosing it for a jiu-jitsu takedown game.",
   "related_content": [
     {
       "name": "Standing Position",
@@ -25,52 +25,52 @@
     {
       "name": "Single Leg Entry",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Single Leg Takedown",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Single Leg to Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Sprawl",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Head Position",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Hand Fighting",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Whizzer Control",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Transition Management",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Aaron Benzrihem Ankle Pick System",
       "content_type": "System",
-      "relationship": "Ankle-pick alternative with standing, seated and three-point jiu-jitsu contexts."
+      "relationship": "Basics To Advanced: Ankle Picks For Jiu Jitsu covers a different takedown family with standing, seated-guard and gi-grip entries."
     }
   ],
   "flashcards": [],
@@ -83,38 +83,31 @@
       "course_url": "https://bjjfanatics.com/products/the-single-leg-takedown-by-jimmy-sheptock",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Tie clearing, head-inside finishes, whizzer problems, high-crotch continuations and low crackdown finishes.",
-      "best_for": "You can name a single-leg problem but need to locate its entry or finishing context.",
-      "study_focus": "Separate the tie problem from the finishing problem"
+      "blurb": "Four parts covering single-leg setups, finishes and common wrestling defenses.",
+      "best_for": "Grapplers seeking wrestling-specific depth on the single-leg takedown."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Jimmy Sheptock: Single-Leg Wrestling Study",
+    "display_title": "Jimmy Sheptock: Single-Leg Takedowns",
     "audience": {
       "fits": [
-        "You can name a single-leg problem but need to locate its entry or finishing context."
+        "You want wrestling detail on tie clearing and head-inside single legs.",
+        "You need more finishing options when the defender applies a whizzer or the exchange drops low."
       ],
       "consider_alternative_if": [
-        "For an ankle-pick course explicitly organized around jiu-jitsu standing and seated situations, compare Aaron Benzrihem Ankle Pick System."
+        "Your main need is submission defense or choosing a guard-passing position after the takedown."
       ]
     },
     "coverage": {
       "includes": [
-        "Tie clearing, head-inside finishes, whizzer problems, high-crotch continuations and low crackdown finishes."
+        "Closing distance, head position and clearing collar, underhook, wrist and two-on-one ties.",
+        "Head-inside single-leg finishes from high and low positions.",
+        "Whizzer responses, high-crotch transitions, crackdowns and misdirection finishes."
       ],
       "limits": [
-        "The wrestling-focused listing does not establish a BJJ submission-defense or post-takedown guard-passing curriculum."
+        "The four-part course is a wrestling instructional; submissions and guard landings are not its advertised focus."
       ]
-    },
-    "start_here": {
-      "title": "Separate the tie problem from the finishing problem",
-      "kind": "observation",
-      "task": "Compare Volume 1’s tie-clearing headings with the high and low finish headings in Volumes 2–4. Locate where a remembered attempt stopped: before collecting the leg or afterward. Use that distinction to choose a section; owners studying initial access can start below.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 1: Closing The Gap, 0:18–1:25"
     },
     "sources": [
       {
@@ -132,6 +125,12 @@
         "kind": "official_listing",
         "checked_on": "2026-09-16",
         "note": "Official listing inspected to compare the advertised subject and course breadth with this guide."
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Aaron Benzrihem Ankle Pick System",
+        "reason": "Basics To Advanced: Ankle Picks For Jiu Jitsu covers a different takedown family with standing, seated-guard and gi-grip entries."
       }
     ]
   }

@@ -8,8 +8,8 @@
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
   "description": "Giancarlo Bodoni’s Chest To Back - Behind The Elbows covers turtle breakdowns, hook insertion, four-point positions and rear-mount offense.",
-  "summary": "Locate Bodoni’s study of turtle breakdowns, hook insertion and keeping an opponent down.",
-  "overview": "Chest To Back - Behind The Elbows connects turtle and four-point study with standing rear-body-lock material and rear-mount offense.",
+  "summary": "Breaking down turtle, inserting hooks and following defensive movement into back offense.",
+  "overview": "Essential Connections: Chest To Back - Behind The Elbows covers the work between getting behind an opponent and establishing rear mount. Giancarlo Bodoni addresses open and closed turtle, four-point positions, stand-ups and defensive rolls before developing rear-control attacks. That breadth is useful when an opponent keeps moving or rising before you can secure the back.",
   "related_content": [
     {
       "name": "Turtle",
@@ -39,32 +39,32 @@
     {
       "name": "Rear Naked Choke",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Positional Sparring",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Danaher Straight Jacket System",
       "content_type": "System",
-      "relationship": "Choose this alternative route when established rear-control hand fighting is the main study problem."
+      "relationship": "The straightjacket-focused overview of Back Attacks Enter The System is useful when your main priority is hand fighting and strangles from established back control."
     }
   ],
   "flashcards": [],
@@ -77,38 +77,29 @@
       "course_url": "https://bjjfanatics.com/products/essential-connections-chest-to-back-behind-the-elbows-by-giancarlo-bodoni",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Open/closed turtle, near- and far-side hook routes, stand-up responses and rear-mount attacks.",
-      "best_for": "You get behind a turtled opponent but need to choose between breakdown, hook or stand-up study.",
-      "study_focus": "Identify which defensive shape you need to study"
+      "blurb": "Eight volumes on turtle breakdowns, back-control transitions and rear-mount offense.",
+      "best_for": "Grapplers who reach the rear of turtle but lose control before establishing back attacks."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Giancarlo Bodoni: Turtle, Rides and Rear Mount",
+    "display_title": "Giancarlo Bodoni: Turtle Breakdowns and Back Attacks",
     "audience": {
       "fits": [
-        "You get behind a turtled opponent but need to choose between breakdown, hook or stand-up study."
+        "You get behind turtle but struggle to establish hooks or keep the opponent down.",
+        "You want coverage of stand-ups and rolling defenses as well as back finishing."
       ],
-      "consider_alternative_if": [
-        "For a narrower focus on established back-control hand fighting, compare Danaher Straight Jacket System."
-      ]
+      "consider_alternative_if": []
     },
     "coverage": {
       "includes": [
-        "Open/closed turtle, near- and far-side hook routes, stand-up responses and rear-mount attacks."
+        "Turtle breakdowns, near- and far-hook insertion and body-triangle connections.",
+        "Following turtle movement, four-point positions, stand-ups and Granby rolls.",
+        "Standing rear-body-lock returns, rear-control hand fighting and strangles."
       ],
       "limits": [
-        "The material assumes an interest in attacking behind the elbows; it is not a turtle-defense course."
+        "The focus is offense after getting behind the elbows; it is not a general guard-passing or front-facing takedown course."
       ]
-    },
-    "start_here": {
-      "title": "Identify which defensive shape you need to study",
-      "kind": "observation",
-      "task": "Use the public contents to locate closed/open turtle and four-point sections. In a recording you can access, stop when a player gets behind the other and describe the visible support points without prescribing a response. Decide which of those sections addresses the observed shape.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 1: Closed Turtle Vs Open Turtle, 34:47"
     },
     "sources": [
       {
@@ -140,6 +131,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Danaher Straight Jacket System",
+        "reason": "The straightjacket-focused overview of Back Attacks Enter The System is useful when your main priority is hand fighting and strangles from established back control."
+      }
+    ]
   }
 }

@@ -12,9 +12,9 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "description": "A focused companion to John Danaher’s Back Attacks Enter The System covering straightjacket limitations, alignment, grip categories and hand fighting.",
-  "summary": "Use the straightjacket portion of John Danaher’s back-attack course to organize questions about hand fighting and control.",
-  "overview": "This is a focused route through Back Attacks Enter The System. Start with the named limitations before treating arm control as a universal solution.",
+  "description": "John Danaher’s Back Attacks Enter The System includes straightjacket control, grip configurations, hand fighting and strangles from both sides.",
+  "summary": "Hand fighting, arm control and strangles within Danaher’s wider back-attack course.",
+  "overview": "Back Attacks Enter The System gives the straightjacket approach a substantial place in its treatment of back control and finishing. Danaher covers alignment, the roles of the two hands, grip configurations and attacks from the underarm and overarm sides. This focus suits someone who reaches the back but struggles to get past the defender’s hands.",
   "related_content": [
     {
       "name": "Back Control",
@@ -74,92 +74,92 @@
     {
       "name": "Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Turtle to Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Turtle to Back Control",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Chair Sit to Back",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Kimura to Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Half Guard to Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Rolling Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Two-on-One to Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Matrix Back Take",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Rear Naked Choke",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Armbar from Back Transition",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Kimura on Trapped Arm",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Control Maintenance",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Position Chains",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Positional Hierarchy",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Fork Attacks",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Submission Chains",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Back Attack System",
       "content_type": "System",
-      "relationship": "Broader route through the same course, including the later back-entry volumes."
+      "relationship": "Overview of the same course’s wider coverage, including hooks, rear-mount entries and auxiliary attacks."
     }
   ],
   "flashcards": [],
@@ -172,39 +172,31 @@
       "course_url": "https://bjjfanatics.com/products/back-attacks-enter-the-system-by-john-danaher",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Alignment problems, grip categories and underarm/overarm-side study.",
-      "best_for": "You reach the back but want a structured study of the hand-fighting stage.",
-      "study_focus": "Separate control questions from finishing questions"
+      "blurb": "Back control, hand fighting and strangles, followed by auxiliary attacks and entry methods.",
+      "best_for": "Back attackers looking for detailed hand-fighting and finishing coverage."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "John Danaher: Straightjacket Back-Attack Study",
+    "display_title": "John Danaher: Straightjacket Back Attacks",
     "audience": {
       "fits": [
-        "You reach the back but want a structured study of the hand-fighting stage."
+        "You reach back control but have difficulty progressing through hand fighting to a strangle.",
+        "You want a detailed treatment of both underarm- and overarm-side attacks."
       ],
       "consider_alternative_if": [
-        "If reaching the back is your main problem, use the broader Back Attack System guide to locate the entry volumes."
+        "Your main need is an entry-only course rather than extensive control and finishing material."
       ]
     },
     "coverage": {
       "includes": [
-        "Alignment problems, grip categories and underarm/overarm-side study.",
-        "The course later branches into auxiliary attacks and back entries."
+        "Alignment and control problems, bottom-hook protection and pinned-arm situations.",
+        "Grip configurations, neck access and strangle mechanics.",
+        "Underarm- and overarm-side approaches, including wedging and side switching."
       ],
       "limits": [
-        "This route concentrates on hand fighting from established back control; use the broader guide when reaching the back is the main problem."
+        "The straightjacket material is part of the full eight-volume Back Attacks course, which also includes auxiliary submissions and back entries. It is not a separate product."
       ]
-    },
-    "start_here": {
-      "title": "Separate control questions from finishing questions",
-      "kind": "observation",
-      "task": "Open the free contents and compare the alignment, grip and neck-access headings. Sort one question into each category. If you have the course, start with the limitations lesson and note a stated boundary before selecting a later chapter.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 1: Limitations of Straitjacket System, 9:35–11:56"
     },
     "sources": [
       {
@@ -228,6 +220,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Back Attack System",
+        "reason": "Overview of the same course’s wider coverage, including hooks, rear-mount entries and auxiliary attacks."
+      }
+    ]
   }
 }

@@ -11,13 +11,13 @@
   "system_type": "Attack System",
   "difficulty_level": "Intermediate",
   "description": "Neiman Gracie’s Modern Jiu-Jitsu For MMA includes clinch entries, open-floor and cage takedowns, guard passing and ground offense.",
-  "summary": "Study how Neiman Gracie’s MMA course separates open-floor takedowns, cage work and ground offense.",
-  "overview": "The clinch-to-ground route sits inside a broader MMA instructional that also includes guard passing, submissions and bottom guard.",
+  "summary": "Clinch entries, cage takedowns and ground attacks in a striking context.",
+  "overview": "Modern Jiu-Jitsu For MMA connects Neiman Gracie’s clinch and takedown material with passing and submissions. Its standing section distinguishes open-floor attacks from cage work, while the ground section includes striking-assisted passing and defensive guard. The cage and striking context is the main reason to choose it over a sport-grappling takedown course.",
   "related_content": [
     {
       "name": "MMA Crossover Strategy",
       "content_type": "System",
-      "relationship": "Additional study guide; check its focus and starting task."
+      "relationship": "Related Systems guide."
     },
     {
       "name": "Standing Position",
@@ -37,7 +37,7 @@
     {
       "name": "Double Leg Entry",
       "content_type": "Transition",
-      "relationship": "Related movement card for separate study."
+      "relationship": "Related transition on the graph."
     },
     {
       "name": "Half Guard",
@@ -57,27 +57,27 @@
     {
       "name": "Head Position",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Base",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Transition Management",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Positional Sparring",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Garry Tonon Leg Lock to Back System",
       "content_type": "System",
-      "relationship": "Tonon’s course offers a submission-grappling wrestling and scramble focus."
+      "relationship": "Shoot To Kill offers a wider wrestling-to-submission curriculum centered on grappling scrambles rather than cage and striking situations."
     }
   ],
   "flashcards": [],
@@ -90,38 +90,31 @@
       "course_url": "https://bjjfanatics.com/products/modern-jiu-jitsu-for-mma-by-neiman-gracie",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Proactive and reactive clinch entries, open-floor and cage takedowns, and ground offense with striking context.",
-      "best_for": "You want to locate cage-specific material within an MMA grappling course.",
-      "study_focus": "Compare the same takedown label in two environments"
+      "blurb": "Three parts spanning clinch entries, takedowns, passing and submissions for MMA.",
+      "best_for": "Grapplers looking for offense that accounts for the cage and strikes."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Neiman Gracie: Clinch and Cage Takedowns",
+    "display_title": "Neiman Gracie: Jiu-Jitsu for MMA",
     "audience": {
       "fits": [
-        "You want to locate cage-specific material within an MMA grappling course."
+        "You want takedowns and ground offense presented for MMA.",
+        "You need cage-specific material alongside open-floor clinch attacks."
       ],
       "consider_alternative_if": [
-        "For takedown-to-submission study without an MMA emphasis, compare Garry Tonon Leg Lock to Back System."
+        "Your priority is a detailed striking curriculum or a course entirely devoted to wrestling."
       ]
     },
     "coverage": {
       "includes": [
-        "Proactive and reactive clinch entries, open-floor and cage takedowns, and ground offense with striking context."
+        "Clinch entries using punches and responses to strikes.",
+        "Open-floor and cage takedowns, including doubles, trips and back takes.",
+        "Striking-assisted passing, submissions and defensive guard."
       ],
       "limits": [
-        "Cage work occupies part of a three-volume MMA course; this is not a dedicated wall-wrestling encyclopedia."
+        "The three-part course spans several phases of MMA grappling; cage takedowns are only one section of its broader ground-fighting coverage."
       ]
-    },
-    "start_here": {
-      "title": "Compare the same takedown label in two environments",
-      "kind": "observation",
-      "task": "Find the open-floor Kosoto heading in Volume 1 and the cage Kosoto heading in Volume 2. Record the environmental difference each lesson promises to address. When watching footage you have access to, mark whether the exchange begins beside a boundary before deciding which lesson to study.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 2: Cage Takedowns - Kosoto, 0:00–04:07"
     },
     "sources": [
       {
@@ -153,6 +146,12 @@
         "https://bjjgraph.org",
         "https://dev.bjjgraph.pages.dev"
       ]
-    }
+    },
+    "alternatives": [
+      {
+        "system": "Garry Tonon Leg Lock to Back System",
+        "reason": "Shoot To Kill offers a wider wrestling-to-submission curriculum centered on grappling scrambles rather than cage and striking situations."
+      }
+    ]
   }
 }

@@ -9,14 +9,14 @@
   ],
   "system_type": "Attack System",
   "difficulty_level": "Advanced",
-  "description": "Edwin Najmi’s Mission Submission organizes darce setups, triangle entries and Estima-lock attacks into three study tracks.",
-  "summary": "Find the relevant attack track in Edwin Najmi’s Mission Submission: darce, triangle or Estima lock.",
-  "overview": "Three distinct tracks make this a useful course to browse by the submission you want to study rather than by a universal attack sequence.",
+  "description": "Edwin Najmi’s Mission Submission covers darce setups, triangle entries and Estima-lock attacks from guard, top positions and takedown defense.",
+  "summary": "Three submission families with entries from guard, top positions and takedown defense.",
+  "overview": "Mission Submission brings together Edwin Najmi’s darce, triangle and Estima-lock attacks. Each family has its own section, with entries ranging from half guard and turtle to spider and lasso guard. The appeal is a selection of distinct attacks across positions, rather than a complete offense built around one hold.",
   "related_content": [
     {
       "name": "Darce Choke",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Darce Control",
@@ -36,7 +36,7 @@
     {
       "name": "Triangle Choke",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Closed Guard",
@@ -51,7 +51,7 @@
     {
       "name": "Estima Lock",
       "content_type": "Submission",
-      "relationship": "Related submission card for separate study."
+      "relationship": "Related submission on the graph."
     },
     {
       "name": "Leg Drag Control",
@@ -61,21 +61,15 @@
     {
       "name": "Position-Over-Submission Approach",
       "content_type": "Principle",
-      "relationship": "Related concept for framing study questions."
+      "relationship": "Related principle on the graph."
     },
     {
       "name": "Danaher Armbar System",
       "content_type": "System",
-      "relationship": "An alternative focused on one submission family across control and entry stages."
+      "relationship": "Arm Bars: Enter The System offers an eight-volume examination of one submission family, with extensive control and hand-separation material."
     }
   ],
-  "flashcards": [
-    {
-      "question": "Why choose one attacking track when studying Mission Submission?",
-      "answer": "Its darce, triangle and Estima-lock sections address different attack families. Choosing one track gives the study session a specific subject.",
-      "answer_line": "One attack family at a time"
-    }
-  ],
+  "flashcards": [],
   "products": [
     {
       "id": "mission-submission-by-edwin-najmi",
@@ -85,38 +79,31 @@
       "course_url": "https://bjjfanatics.com/products/mission-submission-by-edwin-najmi",
       "link_status": "live",
       "link_checked": "2026-09-16",
-      "blurb": "Darce setups from several positions, grounded and flying triangles, and Estima-lock entries.",
-      "best_for": "You want to compare entries within one of Najmi’s three advertised submission tracks.",
-      "study_focus": "Trace a familiar grounded triangle entry"
+      "blurb": "Three parts devoted to darce, triangle and Estima-lock attacks from varied positions.",
+      "best_for": "Grapplers seeking several distinct submission options, including gi-guard attacks."
     }
   ],
   "guide": {
     "kind": "course_companion",
-    "display_title": "Edwin Najmi: Darce, Triangle and Estima Lock",
+    "display_title": "Edwin Najmi: Darces, Triangles and Estima Locks",
     "audience": {
       "fits": [
-        "You want to compare entries within one of Najmi’s three advertised submission tracks."
+        "You want a course covering darces, triangles and Estima locks together.",
+        "You are interested in both upper-body attacks and gi-guard leg attacks."
       ],
       "consider_alternative_if": [
-        "For sustained study of armbar control and entries, compare Danaher Armbar System."
+        "You want every entry to be independent of gi grips."
       ]
     },
     "coverage": {
       "includes": [
-        "Darce setups from several positions, grounded and flying triangles, and Estima-lock entries."
+        "Darce entries from side control, half guard, turtle and single-leg defense.",
+        "Triangle attacks from closed guard, knee shield and spider guard, plus inverted and flying variations.",
+        "Estima locks involving leg drags, lasso and De La Riva guard."
       ],
       "limits": [
-        "The detailed contents center on those three tracks, rather than every submission suggested by the broad course title."
+        "The three parts cover these specific submission families, not a complete submission or positional-control curriculum."
       ]
-    },
-    "start_here": {
-      "title": "Trace a familiar grounded triangle entry",
-      "kind": "observation",
-      "task": "Compare the closed-guard, knee-shield and spider-guard triangle headings in Volume 2. Select the starting guard you recognize and record any equipment question the label leaves open. Owners can inspect that grounded entry before deciding whether later dynamic entries belong in their study.",
-      "source_ids": [
-        "course"
-      ],
-      "section": "Volume 2: closed guard triangle, 0–7:09"
     },
     "sources": [
       {
@@ -134,6 +121,12 @@
         "kind": "official_listing",
         "checked_on": "2026-09-16",
         "note": "Official listing inspected to compare the advertised subject and course breadth with this guide."
+      }
+    ],
+    "alternatives": [
+      {
+        "system": "Danaher Armbar System",
+        "reason": "Arm Bars: Enter The System offers an eight-volume examination of one submission family, with extensive control and hand-separation material."
       }
     ]
   }
