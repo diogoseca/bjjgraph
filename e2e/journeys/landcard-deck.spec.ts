@@ -9,6 +9,10 @@ import { journey } from "../dsl"
 // permanent backs, unconsumed wheel momentum, completion on browsing, or lost cached recall
 // controls each makes its corresponding test fail. Restoring the in-card guide positions
 // or the fixed-height scrollport fails the chevron and long-mobile-choice checks.
+// v1.188.2: the face hugs its content above a 236px floor, so every per-card check here is a
+// differential against the SAME card — two different cards of one deck legitimately differ by a
+// line of question. The absolute numbers (the foot, the tray clearance) have their own test
+// below; red-checked there against the old floor, the old padding and the old double-paid gap.
 async function setup(page: Page, recall = false) {
   const j = journey(page)
   await j.boot("/")
@@ -98,6 +102,58 @@ for (const width of [1440, 390]) {
       await expect(page.locator("[data-land-nav]")).toHaveCount(0)
     })
   }
+}
+
+// THE FOOT AND THE CLEARANCE (v1.188.2, owner: "there's this empty space after the last answer
+// of the question and it's a bit annoying ... a lot of space between the land card and the
+// choices"). Both numbers are read off the LIVE box, never recomputed from a stylesheet the app
+// might not be using: the foot against the card's own side gutter, and the height against the
+// box model, so a floor that pads the face out again cannot hide inside a plausible number.
+for (const width of [1440, 390]) {
+  test(`@curated ${width}px: the deck face keeps its 1.5x foot and sits tight over the choices`, async ({ page }) => {
+    await page.setViewportSize({ width, height: width === 390 ? 844 : 900 })
+    await setup(page)
+    const m = await page.evaluate(() => {
+      const a = (window as any).__neural
+      const card = a._landEl, q = card.querySelector("[data-land-q]")
+      const cs = getComputedStyle(card)
+      const r = card.getBoundingClientRect(), qr = q.getBoundingClientRect()
+      const row = a.optionsRef.current, rr = row.getBoundingClientRect()
+      // the DEEPEST back is the first child: `_updateLandDeck` appends --back-index descending
+      const deepest = document.querySelector(".ng-landstack")!.firstElementChild!.getBoundingClientRect()
+      const title = row.querySelector("[data-choice-group] div")!.getBoundingClientRect()
+      return {
+        side: parseFloat(cs.paddingLeft), foot: parseFloat(cs.paddingBottom),
+        padTop: parseFloat(cs.paddingTop), border: parseFloat(cs.borderBottomWidth),
+        height: r.height, face: qr.height, sizing: cs.boxSizing,
+        underLastAnswer: r.bottom - qr.bottom,
+        faceToTray: rr.top - r.bottom, backTipToTray: rr.top - deepest.bottom,
+        backTipToTitle: title.top - deepest.bottom,
+        overflow: card.scrollHeight - card.clientHeight,
+      }
+    })
+    expect(m.sizing, "the floor below is a BORDER-box height").toBe("border-box")
+    expect(m.foot, "the foot is 1.5x the side gutter").toBeCloseTo(m.side * 1.5, 1)
+    // The face is its content plus its own padding, floored only by NG_LAND_DECK_MIN_H — which
+    // an MC face always clears. Raising that floor back towards the retired fixed height, or
+    // reintroducing any other reserved band under the answers, moves this by ~20px.
+    const natural = 2 * m.border + m.padTop + m.face + m.foot
+    expect(m.height, "nothing pads the face out").toBeCloseTo(Math.max(236, natural), 0)
+    // …so the only band under the last answer is the foot, plus whatever the floor still owes a
+    // short face. The harness's own deck runs short enough to be floored at both widths, which is
+    // why this is a ceiling and not the equality: it is the floor's worst case, not the typical
+    // one (production MC faces measure 193-232px of content at 1440x900 and clear 236 on their own).
+    expect(m.underLastAnswer, "and nothing else is reserved under the last answer")
+      .toBeLessThanOrEqual(Math.max(m.foot + m.border, 236 - m.padTop - m.face - m.border))
+    expect(m.overflow, "the whole face still fits without scrolling").toBeLessThanOrEqual(1)
+    // Tight over the hand, but the backs stay out of the tray and well clear of its heading.
+    // 16 measured at both widths (4 of gap + 12 of back reserve). The ceiling is 18 and not 20
+    // on purpose: the phone's pre-trim clearance was exactly 20, so a looser bound would let
+    // the deck go back to paying the reserve twice there while staying green.
+    expect(m.faceToTray, "the face sits tight over the tray").toBeLessThanOrEqual(18)
+    expect(m.backTipToTray, "the deepest back stays outside the tray's box").toBeGreaterThanOrEqual(0)
+    expect(m.backTipToTitle, "…and never reaches 'Your options'").toBeGreaterThanOrEqual(8)
+  })
 }
 
 test("@curated wheel momentum advances once; a fresh gesture advances again", async ({ page }) => {
@@ -263,8 +319,17 @@ for (const target of ["[data-land-q]>div:first-child", "[data-land-mc-opt='0']"]
       await expect(page.locator("[data-land-position]")).toHaveAttribute("data-land-position", `${gesture + 1}/${total}`)
     }
     // Reversing direction should work immediately too, with the same stationary pointer.
-    await wheel(-90)
-    await expect(page.locator("[data-land-position]")).toHaveAttribute("data-land-position", `3/${total}`)
+    for (const card of [3, 2, 1]) {
+      // each step is its own gesture, so each needs its own idle tail (see the momentum test)
+      await wheel(-90, card === 3 ? 40 : 350)
+      await expect(page.locator("[data-land-position]")).toHaveAttribute("data-land-position", `${card}/${total}`)
+    }
+    // Back on the card we started on, the dock has not drifted. Compare a card with ITSELF:
+    // since v1.188.2 the face hugs its content down to a 236px floor, so a neighbour with one
+    // more line of question legitimately stands ~20px taller (measured over 114 faces in 12
+    // decks at 1440x900, question boxes take exactly three values — 193.2 / 212.8 / 232.4).
+    // Asserting equality across two DIFFERENT cards would be asserting the retired fixed-height
+    // viewport, which the foot trim replaced.
     expect(await geometry(page)).toEqual(before)
     expect((await j.beats()).filter(b => b.beat === "land_q_answered")).toHaveLength(0)
   })

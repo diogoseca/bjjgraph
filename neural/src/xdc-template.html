@@ -124,8 +124,15 @@
     <div ref="{{ evTextRef }}" style="font-size:18px;font-weight:600;color:#eef1f6;letter-spacing:-.01em;line-height:1.2;text-shadow:0 2px 14px rgba(0,0,0,.55);">&nbsp;</div>
   </div>
 
-  <!-- options tray (bottom of play area) -->
-  <div ref="{{ optionsRef }}" class="ng-optionrow" style="position:absolute;bottom:84px;left:0;right:0;z-index:4;pointer-events:none;display:flex;gap:12px;align-items:flex-end;justify-content:safe center;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;padding:14px 24px 8px;-webkit-overflow-scrolling:touch;"></div>
+  <!-- options tray (bottom of play area).
+       THE TOP PADDING IS PART OF THE GAP ABOVE IT: the landing card docks off this row's
+       MEASURED height (`_landDatum`), and the row is anchored by its own `bottom`, so air
+       reserved here pushes the card up while "Your options" — which sits just inside this
+       padding — stays exactly where it is. 14 -> 8 closed 6px of that band with nothing
+       else on screen moving (owner: the card and the choices "should be a little bit
+       tighter but not go on top of the row that says Your options"). The cards' hover
+       lift is 2px and the title clears them, so 8 is still headroom under `overflow-y:hidden`. -->
+  <div ref="{{ optionsRef }}" class="ng-optionrow" style="position:absolute;bottom:84px;left:0;right:0;z-index:4;pointer-events:none;display:flex;gap:12px;align-items:flex-end;justify-content:safe center;flex-wrap:nowrap;overflow-x:auto;overflow-y:hidden;padding:8px 24px 8px;-webkit-overflow-scrolling:touch;"></div>
   <!-- (the "see more →" hint that docked above the tray, v1.123.0, was DELETED in v1.171.1 — owner) -->
 
   <!-- option detail: a bottom sheet that expands in place (no dimming overlay) -->

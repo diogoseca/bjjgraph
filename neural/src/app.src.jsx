@@ -8,6 +8,29 @@ const NG_LAND_MORE_COL = "#7e8aa3";
 // (11px phone / 13px desktop), so 32px reaches 43px on the tighter of the two. A two-line
 // question (2 × 12.5px × 1.35 ≈ 34px) is already past it, so this only ever moves a one-liner.
 const NG_LAND_Q_MIN_H = 32;
+// THE DECK CARD'S FLOOR (owner: "there's this empty space after the last answer of the question
+// and it's a bit annoying ... trim a little bit of space after that last question"). The face
+// has hugged its content since v1.185.2, so the FLOOR was the only thing still padding it out.
+// MEASURED, 114 faces over 12 decks at 1440x900: an MC face is 193.2, 212.8 or 232.4px — three
+// values, one per line of question text, nothing between them. Against the old 256 every one of
+// those was floored, so a 2-line card carried ~29px of dead band under its last answer; that is
+// the band the owner was looking at. 236 sits just UNDER the shortest of them (193.2 + 16 + 27
+// + 2 of border = 238.2), so the floor no longer touches an MC face at all.
+//   Recompute: `[...decks].map(face => face + paddingTop + paddingBottom + 2)`, or re-run the
+//   sweep in the spec named below.
+// Do not delete the floor. A recall card measures 91.2px of content before its reveal and 136.1
+// after (`_recallBlock`, same box), both far under an MC face, so with no floor the card would
+// show a stub and lurch ~45px taller the moment "Show answer" is pressed. The floor is the
+// two-stage card's STAGE; it is not the foot.
+// The paired value is `.ng-landcard.ng-land-deck`'s padding in helmet.html, whose BOTTOM is 1.5x
+// the side gutter on both stylesheets (27 of 18 desktop, 18 of 12 phone) — the foot the owner
+// specified ("just a little bit more than the left and right edges ... like 50% more"). That CSS
+// min-height is the FIRST FRAME only; `_dockLandStack` writes this one, clamped to the band that
+// is actually free, on every frame after. Change one and change the other.
+// The cost, accepted: two cards of one deck that differ by a line of question now differ by
+// ~20px of height, where the old floor hid that. Pinned by `landcard-deck.spec.ts`
+// ("keeps its 1.5x foot"), which red-checks this number, the padding and the tray gap.
+const NG_LAND_DECK_MIN_H = 236;
 // ── THE THREE BOTTOM LAYERS (v1.171.0, owner) ─────────────────────────────────────────────────
 // "If he clicks another node at that instance, then another row of videos and another row of
 // multiple-choice cards will show up and it shouldn't. It should still be collapsed." The film
@@ -12826,7 +12849,7 @@ class Component extends DCLogic {
     const filmHeight = film ? (this._expandedClip ? (this._expandedClip._bh || 92) + 6 : film.offsetHeight) : 0;
     const filmSpace = !this._compactLandDeck() && filmHeight ? filmHeight + 8 : 0;
     const available = Math.max(80, (window.innerHeight || 800) - bottom - filmSpace - 16);
-    el.style.minHeight = Math.min(this._compactLandDeck() ? (window.innerHeight - 112) : this.isMobile() ? 248 : 256, available) + "px";
+    el.style.minHeight = Math.min(this._compactLandDeck() ? (window.innerHeight - 112) : NG_LAND_DECK_MIN_H, available) + "px";
     this._landOverflow = Math.max(0, el.offsetHeight - available);
     el.style.setProperty("bottom", (bottom - this._landOverflow) + "px", "important");
     stack.style.left = cs.left;
@@ -13998,15 +14021,26 @@ class Component extends DCLogic {
     // Reading our previously docked rect here used to remove bottom on every other pass,
     // then rediscover the collision and put it back — moving both card and film each time.
     const backs = el.classList.contains("ng-land-deck") ? 12 : 0;
+    // THE BACKS ARE THE GAP (owner: "a lot of space between the land card and the choices, at
+    // least on desktop ... a little bit tighter but not go on top of the row that says 'Your
+    // options'"). The 12px back reserve is itself visible chrome between the face and the tray,
+    // so it used to be paid TWICE — 12 of backs ON TOP of the bare card's 12/8 of air. A deck
+    // keeps 4, a bare card keeps its own. Measured at 1440x900: the face lands 16px above the
+    // tray box and the deepest back 4px above it, and "Your options" — which sits at the tray's
+    // own padding-top and does not move — keeps 24px of clear air under the face.
+    const gap = backs ? 4 : (this.isMobile() ? 8 : 12);
     if (!this.isMobile()) {
-      el.style.setProperty("bottom", Math.round(Math.max(236, TRAY_BOTTOM + h + 12 + backs)) + "px", "important");
+      // NB the 236 below is `.ng-landcard`'s own desktop `bottom` (helmet.html) — a DOCK floor,
+      // so the card never drops below its undocked seat. It is not NG_LAND_DECK_MIN_H, which is
+      // a HEIGHT and shares the number by coincidence. Moving one must not move the other.
+      el.style.setProperty("bottom", Math.round(Math.max(236, TRAY_BOTTOM + h + gap + backs)) + "px", "important");
       this._dockLandStack();
       this._dockLandMore(el, rb);
       return;
     }
     // Important outranks the phone stylesheet's `.ng-landcard{bottom:206px!important}`. (The
     // hand's ✕ sits INSIDE the row since v1.176.7, so it needs no band of its own up here.)
-    el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + 8 + backs) + "px", "important");
+    el.style.setProperty("bottom", Math.round(TRAY_BOTTOM + h + gap + backs) + "px", "important");
     this._dockLandStack();
     this._dockLandMore(el, rb);
   }

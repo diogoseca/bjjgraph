@@ -190,8 +190,12 @@
      read order is identity -> film -> question -> your hand, top to bottom. */
   .ng-landcard,.ng-landmore.open{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(420px,50vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardInX .28s cubic-bezier(.2,.7,.2,1);}
   /* Reserve side gutters for the swipe guides. The face grows with its content; an unusually
-     tall answer moves with the whole reading column, never inside a nested scrollport. */
-  .ng-landcard.ng-land-deck{width:min(560px,calc(100vw - 104px))!important;height:auto;min-height:256px;max-height:none!important;padding:16px 18px;overflow:clip;touch-action:none;}
+     tall answer moves with the whole reading column, never inside a nested scrollport.
+     THE FOOT IS 1.5x THE SIDE GUTTER (owner: "just a little bit more than the left and right
+     edges ... like 50% more"): 27 of 18 here, 18 of 12 on the phone rule below. min-height is
+     the FIRST FRAME only — `_dockLandStack` rewrites it from NG_LAND_DECK_MIN_H (app.src.jsx),
+     which carries why 236 and why a floor still exists at all. Change one, change the other. */
+  .ng-landcard.ng-land-deck{width:min(560px,calc(100vw - 104px))!important;height:auto;min-height:236px;max-height:none!important;padding:16px 18px 27px;overflow:clip;touch-action:none;}
   .ng-landnav{position:fixed;left:50%;transform:translateX(-50%);z-index:5;pointer-events:none;touch-action:none;}
   .ng-landnav button{position:absolute;top:calc(var(--guide-y,50%) - 22px);width:44px;height:44px;display:flex;align-items:center;justify-content:center;padding:0;border:0;background:none;color:#8797b3;cursor:pointer;pointer-events:auto;}
   .ng-landnav [data-land-prev]{right:calc(100% + 8px);}
@@ -206,7 +210,9 @@
   .ng-land-deck [data-land-recall] button{min-height:44px!important;}
   .ng-land-deck button:focus-visible{outline:2px solid #9cbcff;outline-offset:2px;}
   @media(max-width:640px){
-    .ng-landcard.ng-land-deck{min-height:248px;}
+    /* the phone gutter is 12 (`.ng-landcard`'s own !important padding, which outranks the deck
+       rule above), so the foot is 18 — and it needs !important to reach past that same rule */
+    .ng-landcard.ng-land-deck{min-height:236px;padding:11px 12px 18px!important;}
     .ng-land-deck [data-land-q]>div:first-child{font-size:13px!important;}
   }
   /* Short portrait screens trade thumbnail size for reading space; expanded video keeps its
@@ -216,7 +222,7 @@
   }
   /* Landscape is a two-column composition, not a cropped portrait layout. */
   @media(min-width:700px) and (max-height:540px){
-    .ng-has-land-deck .ng-landcard.ng-land-deck{left:28vw;width:calc(56vw - 104px)!important;min-height:calc(100dvh - 112px);padding:12px 14px;}
+    .ng-has-land-deck .ng-landcard.ng-land-deck{left:28vw;width:calc(56vw - 104px)!important;min-height:calc(100dvh - 112px);padding:12px 14px 21px;}
     .ng-has-land-deck .ng-optionrow{left:56vw!important;padding-left:12px!important;padding-right:12px!important;}
     .ng-has-land-deck .ng-landfilm{left:78vw!important;width:calc(44vw - 24px)!important;}
     .ng-has-land-deck .ng-landmore{left:28vw;}

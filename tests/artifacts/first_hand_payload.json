@@ -1,18 +1,18 @@
 {
  "_meta": {
   "note": "Written by e2e/journeys/payload-first-hand.spec.ts. Observed only — the ceilings live in budget_neural.json.",
-  "measured_at": "2026-09-16T15:53:34.374Z"
+  "measured_at": "2026-09-18T10:55:51.437Z"
  },
  "request_count": 13,
- "first_hand_raw_bytes": 1612447,
- "first_hand_gzip_bytes": 384549,
+ "first_hand_raw_bytes": 1618816,
+ "first_hand_gzip_bytes": 386367,
  "start_position": "K-Guard Top",
  "charged_from_disk": [],
  "heaviest": [
   {
    "path": "/static/neural/app/neural.js",
-   "raw": 564687,
-   "gzip": 171133
+   "raw": 568496,
+   "gzip": 172276
   },
   {
    "path": "/static/neural/graph-data.json",
@@ -27,12 +27,12 @@
   {
    "path": "/static/neural/curriculum.json",
    "raw": 96746,
-   "gzip": 20881
+   "gzip": 20891
   },
   {
    "path": "/postscript.js",
-   "raw": 75657,
-   "gzip": 27676
+   "raw": 75814,
+   "gzip": 27776
   },
   {
    "path": "/index.css",
@@ -41,13 +41,13 @@
   },
   {
    "path": "/static/neural/app/neural.css",
-   "raw": 40696,
-   "gzip": 8780
+   "raw": 43099,
+   "gzip": 9350
   },
   {
    "path": "/",
    "raw": 33299,
-   "gzip": 7595
+   "gzip": 7590
   },
   {
    "path": "/static/neural/flashcards/26f92b01.json",

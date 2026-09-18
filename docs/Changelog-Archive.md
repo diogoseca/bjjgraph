@@ -7303,3 +7303,37 @@ ordinal, affiliate, SEO, structured-data, seat-deck and MC gates pass within exi
 Only 53 Systems catalog ItemList names changed in the SEO expectation; URLs, positions, content
 floors and link requirements remain unchanged. Final eager payload is 1,435,815 raw / 329,784
 gzip bytes against unchanged 1,600,000 / 330,000 limits; largest deferred chunk is 31,191 bytes.
+
+## v1.188.2 — Trim the landing deck's foot and its gap over the choices
+
+Owner: "there's this empty space after the last answer of the question … trim … like 50% more of
+the left padding or right padding", and "a lot of space between the land card and the choices, at
+least on desktop … tighter but not go on top of the row that says Your options."
+
+v1.185.2 made the deck face hug its content but kept the retired fixed height as a `min-height` of
+256/248, which `_dockLandStack` also wrote inline every frame. MEASURED, 114 faces over 12 decks at
+1440x900: an MC face is 193.2, 212.8 or 232.4px of content — three values, one per line of question
+text. All were floored to 256, so a two-line card carried ~29px of nothing under its last answer on
+top of its 16px padding. `NG_LAND_DECK_MIN_H = 236` now replaces both constants and both stylesheet
+values, chosen to sit just under the shortest of those faces (193.2 + 16 + 27 + 2 border = 238.2),
+so the floor no longer touches an MC face. It is kept, not deleted: a recall card measures 91.2px
+of content before its reveal and 136.1 after, so unfloored it would show a stub and lurch ~45px on
+"Show answer". The foot is 1.5x the side gutter everywhere: 27/18 desktop, 18/12 phone, 21/14
+landscape.
+
+The gap over the hand was paid twice — the four backs already put 12px of chrome under the face and
+the dock added the bare card's 12/8 on top. A deck keeps 4. `.ng-optionrow`'s 14px top padding is
+the same band: the card docks off that row's MEASURED height while the row is anchored by its own
+`bottom`, so air there pushes the card up while "Your options" does not move; 14 -> 8 closed 6px
+more with nothing else shifting. Face-to-heading 38 -> 24px; face 16px over the tray box, deepest
+back 4px.
+
+Cost, accepted: two cards differing by a line of question now differ by ~20px of height (per-deck
+spread 0 in 2 decks, 19.6 in 9, 39.2 in 1). `landcard-deck.spec.ts`'s wheel test had asserted
+geometry equality across two DIFFERENT cards — only green because the floor equalised them — and
+now walks back to its starting card. A new @curated case at 1440/390 reads the foot against the
+card's own gutter and the height against the box model; restoring the old floor, the old padding or
+the double-paid gap each turns it red at both widths.
+
+Validation: 283 unit tests. Bundle +5 bytes gzip on neural.js, +5 on neural.css, measured by
+building the same tree at HEAD and here.
