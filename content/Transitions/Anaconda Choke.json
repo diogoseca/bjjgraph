@@ -17,24 +17,32 @@
     {
       "to": "Anaconda Control/Top",
       "probability": {
-        "gi": 60,
-        "nogi": 60
+        "gi": 57,
+        "nogi": 58
       },
       "result": "success"
     },
     {
       "to": "Front Headlock/Top",
       "probability": {
-        "gi": 25,
-        "nogi": 25
+        "gi": 24,
+        "nogi": 22
       },
       "result": "failure"
     },
     {
       "to": "Turtle/Top",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 11,
+        "nogi": 12
+      },
+      "result": "failure"
+    },
+    {
+      "to": "Half Guard/Bottom",
+      "probability": {
+        "gi": 8,
+        "nogi": 8
       },
       "result": "counter"
     }

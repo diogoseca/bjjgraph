@@ -15,7 +15,7 @@
     {
       "to": "S Mount/Top",
       "probability": {
-        "gi": 55,
+        "gi": 50,
         "nogi": 55
       },
       "result": "success"
@@ -23,7 +23,7 @@
     {
       "to": "3-4 Mount/Top",
       "probability": {
-        "gi": 30,
+        "gi": 27,
         "nogi": 30
       },
       "result": "failure"
@@ -31,8 +31,16 @@
     {
       "to": "Half Guard/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 13,
+        "nogi": 4
+      },
+      "result": "counter"
+    },
+    {
+      "to": "Half Guard/Top",
+      "probability": {
+        "gi": 10,
+        "nogi": 11
       },
       "result": "counter"
     }

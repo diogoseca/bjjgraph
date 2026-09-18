@@ -17,23 +17,23 @@
     {
       "to": "Open Guard/Bottom",
       "probability": {
-        "gi": 55,
-        "nogi": 55
+        "gi": 51,
+        "nogi": 40
       },
       "result": "success"
     },
     {
       "to": "Turtle/Bottom",
       "probability": {
-        "gi": 10,
-        "nogi": 10
+        "gi": 9,
+        "nogi": 15
       },
       "result": "success"
     },
     {
       "to": "Front Headlock/Bottom",
       "probability": {
-        "gi": 25,
+        "gi": 23,
         "nogi": 25
       },
       "result": "failure"
@@ -41,8 +41,16 @@
     {
       "to": "Back Control/Bottom",
       "probability": {
-        "gi": 10,
-        "nogi": 10
+        "gi": 9,
+        "nogi": 12
+      },
+      "result": "counter"
+    },
+    {
+      "to": "Guillotine Control/Bottom",
+      "probability": {
+        "gi": 8,
+        "nogi": 8
       },
       "result": "counter"
     }

@@ -320,9 +320,11 @@ Strategically, the Ankle Lock Finish serves as a high-percentage option when hee
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Straight Ankle Lock Control]] | 65% |
-| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 10% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 27% |
+| Counter | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 8% |
+| Success | [[Positions/Straight Ankle Lock Control]] | 50% |
+| Failure | [[Positions/Turtle]] | 10% |
+| Counter | [[Positions/Open Guard]] | 5% |
 
 
 </section>

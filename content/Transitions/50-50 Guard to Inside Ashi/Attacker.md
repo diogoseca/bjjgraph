@@ -300,9 +300,10 @@ This transition is particularly valuable against opponents who play defensive 50
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
-| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 50% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 10% |
 
 
 </section>

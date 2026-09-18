@@ -16,7 +16,7 @@
     {
       "to": "Side Control/Top",
       "probability": {
-        "gi": 55,
+        "gi": 50,
         "nogi": 55
       },
       "result": "success"
@@ -24,18 +24,26 @@
     {
       "to": "Anaconda Control/Top",
       "probability": {
-        "gi": 30,
-        "nogi": 30
+        "gi": 27,
+        "nogi": 27
       },
       "result": "failure"
     },
     {
       "to": "Half Guard/Bottom",
       "probability": {
-        "gi": 15,
-        "nogi": 15
+        "gi": 14,
+        "nogi": 8
       },
       "result": "counter"
+    },
+    {
+      "to": "Front Headlock/Top",
+      "probability": {
+        "gi": 9,
+        "nogi": 10
+      },
+      "result": "failure"
     }
   ],
   "success_rate": {

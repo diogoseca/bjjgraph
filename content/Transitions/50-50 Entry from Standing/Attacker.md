@@ -307,9 +307,11 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Ashi Garami/50-50 Guard]] | 60% |
-| Failure | [[Positions/Standing Position]] | 30% |
+| Failure | [[Positions/Standing Position]] | 25% |
 | Counter | [[Positions/Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 48% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 12% |
+| Counter | [[Positions/Guillotine Control]] | 5% |
 
 
 </section>

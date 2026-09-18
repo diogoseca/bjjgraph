@@ -319,9 +319,10 @@ Strategically, the anaconda excels when opponents shoot takedowns or turn into y
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Anaconda Control]] | 60% |
-| Failure | [[Positions/Front Headlock]] | 25% |
-| Counter | [[Positions/Turtle]] | 15% |
+| Success | [[Positions/Anaconda Control]] | 58% |
+| Failure | [[Positions/Front Headlock]] | 22% |
+| Failure | [[Positions/Turtle]] | 12% |
+| Counter | [[Positions/Half Guard]] | 8% |
 
 
 </section>
