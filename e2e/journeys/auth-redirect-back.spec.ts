@@ -35,7 +35,23 @@ import { test, expect, type Page, type BrowserContext } from "@playwright/test"
  * `quartz.config.ts:23` reads `process.env.SUPABASE_URL || ""`. Every local build, every dev
  * build and the programme's golden tree run with SUPABASE_URL unset, so
  * `window.__SUPABASE_URL` is NEVER EMITTED and the listener above early-returns on line 41.
- * Measured on the golden: `grep -c '__SUPABASE_URL' build0/Positions/Mount/Top.html` → 0.
+ * Measured on the golden page: `grep -c '__SUPABASE_URL' build0/Positions/Mount/Top.html` → 0.
+ *
+ * DO NOT CONFIRM THIS AGAINST THE BUNDLE WITH THE OBVIOUS GREP — IT LIES (D-54). On the golden
+ * `postscript.js`, `grep -c '__SUPABASE_URL'` returns **1**, which reads like confirmation that
+ * the config is there. It is not. Two traps compound:
+ *   - `grep -c` counts LINES, and a minified bundle is one long line (postscript.js is 21 lines
+ *     total), so it returns 1 for four occurrences exactly as it would for four hundred. Use
+ *     `grep -o … | wc -l`.
+ *   - Even the honest count is misleading: there are **4** occurrences and **0** assignments.
+ *     All four are READS, from supabase.ts via this file — `isConfigured()`, `authStorageKey()`,
+ *     `createClient(...)`, and the nav listener. The CONSUMER is in the bundle; the PRODUCER at
+ *     `componentResources.ts:194-199` never ran.
+ * Only matching the assignment tells producer from consumer:
+ *     grep -o 'window\.__SUPABASE_URL *=' postscript.js | wc -l   → 0
+ * This is CLAUDE.md §6.6 with the polarity REVERSED: not absence producing a plausible answer,
+ * but a DIFFERENT feature's presence producing a plausible answer for the one you asked about.
+ * It beats the obvious check rather than the missing one.
  *
  * The branch is therefore UNREACHABLE on the build a test normally runs against. That is the
  * whole reason nobody could gate it, and it is the same shape as `validate:analytics:nokey`:
