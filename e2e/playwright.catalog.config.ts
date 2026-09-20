@@ -22,7 +22,12 @@ export default defineConfig({
     screenshot: "only-on-failure",
   },
   webServer: {
-    command: "npx serve ../source/public -l 8131 --no-clipboard",
+    // scripts/e2e-serve.mjs, not `serve`: a BARE route naming a page emitted both as `X.html`
+    // and `X/index.html` must resolve to the FLAT file, the way production does. `serve`
+    // returns the folder copy — the degraded clone without `#page-graph-data` — and 301s
+    // `/X.html` back to the bare form, so under `serve` the flat document is unreachable at
+    // EVERY url. See that file's header and e2e/journeys/harness-resolution.spec.ts.
+    command: "node ../scripts/e2e-serve.mjs ../source/public -l 8131",
     url: "http://localhost:8131/dev/",
     reuseExistingServer: false,
     timeout: 30_000,

@@ -349,6 +349,18 @@ const PAIRED_CLIENT_JS = `(() => {
 
 // When a session is active, resolve HTML files ourselves and append the client tag; anything
 // we can't resolve falls through to serve-handler untouched (then just isn't injected).
+//
+// DO NOT CITE THIS FUNCTION AS THIS SERVER'S BEHAVIOUR. Its tries-order — `X.html` before
+// `X/index.html` for a bare route, `X/index.html` only for a trailing slash — happens to be
+// production's rule for the 1,518 pages the build emits BOTH ways, and it has been read as
+// "dev-serve matches Cloudflare" by three separate readers. It has exactly ONE call site, in
+// the `if (ptoken && …)` branch below, so with no paired session ALL html goes through the
+// last line of the handler — `serveHandler(...)`, the same library `serve` wraps, which
+// answers a bare route with the FOLDER copy. Measured 2026-09-20 on :8080 with no session:
+// /Systems -> data-slug="Systems/index", byte-identical to `npx serve`. Verifying that code
+// SAYS the right thing is not verifying that it RUNS (CLAUDE.md 6.8). The e2e harness gets
+// production's rule from scripts/e2e-serve.mjs instead, pinned by
+// e2e/journeys/harness-resolution.spec.ts.
 function resolveHtml(route) {
   const safe = path.normalize(decodeURIComponent(route)).replace(/^([/\\])+/, "")
   if (safe.startsWith("..")) return null
