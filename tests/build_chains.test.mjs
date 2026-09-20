@@ -38,11 +38,39 @@ function fixture(fn) {
 }
 const step = (w, name) => w[name].jobs.deploy.steps[0]
 function red(r, pattern) { assert.equal(r.status, 1, r.output); assert.match(r.output, pattern) }
-test('matching expanded chains report positive counts for BOTH deploys', () => fixture(({run}) => {
+// Authored fixture: seven shared commands and six single-command deploy gates.
+// Compare complete lines so 70 cannot satisfy an expected count of 7.
+const fixtureChainSummaries = [
+  'deploy.yaml: compared 7 local / 7 deploy steps; 6 required deploy-only gates (6 expanded commands)',
+  'deploy-dev.yaml: compared 7 local / 7 deploy steps; 6 required deploy-only gates (6 expanded commands)',
+]
+function assertChainFixtureCounts(output) {
+  const summaries = output.split(/\r?\n/).filter(line => line.includes(': compared '))
+  assert.deepEqual(summaries, fixtureChainSummaries)
+}
+test('matching expanded chains report exact counts for BOTH deploys', () => fixture(({run}) => {
   const r = run(); assert.equal(r.status, 0, r.output)
-  assert.match(r.output, /deploy.yaml: compared 7/); assert.match(r.output, /deploy-dev.yaml: compared 7/)
-  assert.match(r.output, /6 required deploy-only/)
+  assertChainFixtureCounts(r.output)
 }))
+test('chain count control rejects deficient, excess and duplicate summaries', () => {
+  const output = fixtureChainSummaries.join('\n')
+  assertChainFixtureCounts(output)
+  for (const [before, after] of [
+    ['compared 7 local', 'compared 6 local'],
+    ['compared 7 local', 'compared 70 local'],
+    ['/ 7 deploy', '/ 6 deploy'],
+    ['/ 7 deploy', '/ 70 deploy'],
+    ['6 required', '5 required'],
+    ['6 required', '60 required'],
+    ['(6 expanded', '(5 expanded'],
+    ['(6 expanded', '(60 expanded'],
+  ]) {
+    assert.equal(output.split(before).length - 1, 2, `missing count-control anchor: ${before}`)
+    assert.throws(() => assertChainFixtureCounts(output.replaceAll(before, after)), assert.AssertionError)
+  }
+  assert.throws(() => assertChainFixtureCounts(fixtureChainSummaries[0]), assert.AssertionError)
+  assert.throws(() => assertChainFixtureCounts(output + '\n' + fixtureChainSummaries[0]), assert.AssertionError)
+})
 for (const name of ['deploy.yaml', 'deploy-dev.yaml']) {
   test(`${name}: missing shared command is red`, () => fixture(({workflows,run}) => {
     step(workflows,name).run = step(workflows,name).run.replace('node forward.mjs\n', '')
@@ -114,12 +142,33 @@ function pythonProvisionFixture(fn) {
   }
   try { fn({root,write,workflow,run}) } finally {rmSync(root,{recursive:true,force:true})}
 }
-test('Python provisioning: positive workflow/script/import coverage', () => pythonProvisionFixture(({run}) => {
+// One workflow/job invokes one file containing exactly `import sys` and `import
+// yaml`: two import sites, one required distribution, and no excluded constructs.
+const fixtureProvisionCounts = {
+  workflows: 1, jobs: 1, entrypoints: 1, python_files: 1, imports: 2,
+  third_party_imports: 1, node_wrappers: 0, excluded_inline: 0, optional_imports: 0,
+}
+function assertProvisionFixtureCounts(output, expected = fixtureProvisionCounts) {
+  const jsonLines = output.split(/\r?\n/).filter(line => line.startsWith('{'))
+  assert.equal(jsonLines.length, 1, output)
+  assert.deepEqual(JSON.parse(jsonLines[0]), expected)
+}
+test('Python provisioning: exact workflow/script/import coverage', () => pythonProvisionFixture(({run}) => {
   const r=run(); assert.equal(r.status,0,r.output)
-  assert.match(r.output, /"workflows":\s*1/)
-  assert.match(r.output, /"python_files":\s*1/)
-  assert.match(r.output, /"imports":\s*2/)
+  assertProvisionFixtureCounts(r.output)
 }))
+test('Python provisioning: count control rejects deficient and excess JSON values', () => {
+  assertProvisionFixtureCounts(JSON.stringify(fixtureProvisionCounts))
+  for (const [field, expected] of Object.entries(fixtureProvisionCounts)) {
+    for (const actual of new Set([expected - 1, expected + 1, expected ? expected * 10 : 10])) {
+      const output = JSON.stringify({...fixtureProvisionCounts, [field]: actual})
+      assert.throws(() => assertProvisionFixtureCounts(output), assert.AssertionError, `${field}: ${actual}`)
+    }
+  }
+  const output = JSON.stringify(fixtureProvisionCounts)
+  assert.throws(() => assertProvisionFixtureCounts(''), assert.AssertionError)
+  assert.throws(() => assertProvisionFixtureCounts(output + '\n' + output), assert.AssertionError)
+})
 test('Python provisioning: missing, late and ignored pip installs fail', () => {
   for (const shape of ['missing','late','conditional','ignored','shell-conditional','echo']) pythonProvisionFixture(({workflow,run}) => {
     const steps=workflow.jobs.check.steps
@@ -158,13 +207,13 @@ test('Python provisioning: root/source npm scripts, hooks and cwd expand', () =>
   write('package.json',JSON.stringify({scripts:{probe:'cd source && npm run verify'}}))
   write('source/package.json',JSON.stringify({scripts:{preverify:'python3 ../scripts/check.py',verify:'node irrelevant.js'}}))
   workflow.jobs.check.steps[1].run='npm run probe'
-  const r=run();assert.equal(r.status,0,r.output);assert.match(r.output,/"entrypoints":\s*1/)
+  const r=run();assert.equal(r.status,0,r.output);assertProvisionFixtureCounts(r.output)
   workflow.jobs.check.steps.shift();red(run(),/PyYAML.*not provisioned|not provisioned.*PyYAML/)
 }))
 test('Python provisioning: literal Python paths in Node test wrappers count', () => pythonProvisionFixture(({write,workflow,run}) => {
   write('tests/wrapper.test.mjs',"import {spawnSync} from 'node:child_process'; const script=resolve('scripts/check.py'); spawnSync('python3',[script]);")
   workflow.jobs.check.steps[1].run='node --test tests/*.test.mjs'
-  const r=run();assert.equal(r.status,0,r.output);assert.match(r.output,/"node_wrappers":\s*1/)
+  const r=run();assert.equal(r.status,0,r.output);assertProvisionFixtureCounts(r.output,{...fixtureProvisionCounts,node_wrappers:1})
   workflow.jobs.check.steps.shift();red(run(),/PyYAML.*not provisioned|not provisioned.*PyYAML/)
 }))
 test('Python provisioning: dependencies never carry between jobs', () => pythonProvisionFixture(({workflow,run}) => {
