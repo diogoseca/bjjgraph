@@ -558,6 +558,7 @@ function joinRecords(captured, outDir, opts) {
   const emitterShaped = unclaimed.filter((p) => p.endsWith(".html") && !p.startsWith("dev/"))
 
   const head = gitHead()
+  const contentProv = contentFingerprint()
   // ONE RECORD PER CONFIGURED EMITTER, including those that produced nothing. Previously the
   // records were derived from the CLAIMS, so an emitter that emitted zero paths had no record at
   // all — 8 records for 9 configured emitters, Assets silently absent. "Produced nothing" and
@@ -589,6 +590,8 @@ function joinRecords(captured, outDir, opts) {
       })(),
       provenance: {
         git_head: head,
+        // ASSERTED at use time by --check-provenance, not merely recorded.
+        content: contentProv,
         producer: `scripts/emit_seam_capture.mjs --join (stream B, D-B-05) -> ${emitter}`,
         execution:
           "ONE build through the real emitContent; ATTRIBUTION from the in-build AsyncLocalStorage " +
@@ -622,6 +625,7 @@ function joinRecords(captured, outDir, opts) {
     JSON.stringify(
       {
         capture_commit: head,
+        content_provenance: contentProv,
         captured_by: "scripts/emit_seam_capture.mjs --join",
         partial: opts.limit > 0,
         limit: opts.limit || null,
@@ -845,6 +849,51 @@ function seedStatic(goldenStaticNeural) {
 // Every input an emit-seam record's bytes depend on. Maintained HERE, beside the producer, so it
 // cannot drift from what the capture actually reads — a list of paths kept in a report drifts the
 // first time an emitter gains an import.
+/**
+ * A BYTE FINGERPRINT OF THE CONTENT CORPUS, so a golden can ASSERT its content provenance at use
+ * time rather than merely record a commit (quartz-cto's ruling, from A's finding).
+ *
+ * WHY A COMMIT IS NOT ENOUGH, and this is the whole point. `checkProvenance` below already diffs
+ * `capture_commit..HEAD` over RECORD_INPUTS, which includes `content`. That catches a content
+ * change **that is an ancestor of my branch's HEAD**. It cannot catch either of the two ways
+ * content actually moves here:
+ *
+ *   * SIX CRON WORKFLOWS PUSH DIRECTLY TO dev across a ~40-hour weekend window, and none of them
+ *     opens a pull request. Until one of those commits is merged down, it is not in this branch's
+ *     history at all, so `git diff capture..HEAD` reports NOTHING while the corpus has moved. The
+ *     expiry is cron-gated, not review-gated — there is no merge step to hold.
+ *   * An UNCOMMITTED working-tree edit is not a commit, so the diff cannot see it by construction.
+ *
+ * A digest over the bytes is immune to both: it does not care which branch a change arrived on,
+ * whether it was committed, or which side of a Saturday the capture fell on. The commit diff is
+ * kept as well, because the two answer different questions — the digest says WHETHER the corpus
+ * moved (the assertion), the diff says WHICH files (the diagnosis). Neither substitutes.
+ *
+ * The exact file count travels with the digest, per 7K part 2: a walk that silently scoped itself
+ * differently would otherwise produce a different digest and read as "content changed", sending
+ * the reader to look for a content change that never happened.
+ */
+export function contentFingerprint(root = path.join(REPO_ROOT, "content")) {
+  const lines = []
+  const walk = (dir) => {
+    for (const ent of fs.readdirSync(dir, { withFileTypes: true }).sort((a, b) => (a.name < b.name ? -1 : 1))) {
+      const fp = path.join(dir, ent.name)
+      if (ent.isDirectory()) walk(fp)
+      else {
+        const rel = path.relative(root, fp).split(path.sep).join("/")
+        lines.push(rel + "\u0000" + crypto.createHash("sha256").update(fs.readFileSync(fp)).digest("hex"))
+      }
+    }
+  }
+  if (!fs.existsSync(root)) return { root: "content", files: 0, sha256: null, missing: true }
+  walk(root)
+  return {
+    root: "content",
+    files: lines.length,
+    sha256: crypto.createHash("sha256").update(lines.join("\n"), "utf8").digest("hex"),
+  }
+}
+
 const RECORD_INPUTS = [
   "source/quartz/plugins/emitters",
   "source/quartz/plugins/transformers",
@@ -875,8 +924,13 @@ const RECORD_INPUTS = [
  * regression). 2 = no verdict.
  */
 function checkProvenance(dir) {
+  // `_`-prefixed files are capture METADATA (_CAPTURE.json), not seam records. Excluded by name
+  // rather than by "has provenance", so a real record that lost its provenance still fails loudly
+  // instead of being quietly reclassified as metadata.
   const files = [
-    ...fs.readdirSync(dir).filter((f) => f.endsWith(".json") || f.endsWith(".json.gz")),
+    ...fs.readdirSync(dir).filter(
+      (f) => !f.startsWith("_") && (f.endsWith(".json") || f.endsWith(".json.gz")),
+    ),
   ]
   if (!files.length) {
     console.error(`NO VERDICT: no records in ${dir}`)
@@ -893,6 +947,59 @@ function checkProvenance(dir) {
     }
     heads.set(head, (heads.get(head) ?? 0) + 1)
   }
+  // ---- CONTENT PROVENANCE, ASSERTED BEFORE ANYTHING ELSE IS BELIEVED ------------------------
+  // Recording a commit is not asserting it. The question is not "did this integration move
+  // content", it is "HAS CONTENT MOVED SINCE MY CAPTURE" — and only the second survives a clock.
+  // Two clocks, neither of which the commit diff below can see on its own:
+  //   * SIX CRON WORKFLOWS PUSH DIRECTLY TO dev with no PR to hold, so a golden expires on a
+  //     SCHEDULE. Until such a commit is merged down it is not in this branch's history at all.
+  //   * AND THE QUIET WINDOW IS NOT QUIET: content/ took three OWNER commits inside the last
+  //     cron-quiet weekend. Scheduling around cron buys less than it appears to, which is why
+  //     this assertion is the protection and the schedule is only a preference.
+  // A byte digest is indifferent to all of it: branch, merge status, author, and calendar.
+  const nowContent = contentFingerprint()
+  const claimed = new Map()
+  for (const f of files) {
+    const raw = fs.readFileSync(path.join(dir, f))
+    const rec = JSON.parse((f.endsWith(".gz") ? zlib.gunzipSync(raw) : raw).toString("utf8"))
+    const c = rec.provenance?.content
+    const key = c && c.sha256 ? `${c.files}:${c.sha256}` : "ABSENT"
+    claimed.set(key, (claimed.get(key) ?? 0) + 1)
+  }
+  let contentStale = 0
+  for (const [key, count] of claimed) {
+    if (key === "ABSENT") {
+      contentStale++
+      console.log(
+        `\n${count} record(s) carry NO content fingerprint — captured before this check existed.` +
+          "\n  NO VERDICT on those: a golden that cannot state the corpus it was taken against" +
+          "\n  cannot be shown fresh, and 'no fingerprint' must not read as 'fingerprint matches'.",
+      )
+      continue
+    }
+    const [cFiles, cSha] = key.split(":")
+    const same = Number(cFiles) === nowContent.files && cSha === nowContent.sha256
+    console.log(
+      `\n${count} record(s) captured against content/ ${cFiles} files @ ${cSha.slice(0, 9)}; ` +
+        `now ${nowContent.files} files @ ${String(nowContent.sha256).slice(0, 9)}`,
+    )
+    if (same) {
+      console.log("  content UNCHANGED — the corpus these records describe is the corpus on disk")
+    } else {
+      contentStale++
+      const delta =
+        Number(cFiles) === nowContent.files
+          ? "same file count, different bytes"
+          : `${nowContent.files - Number(cFiles)} file(s)`
+      console.log(
+        `  content CHANGED (${delta}) — these records are EXPIRED.` +
+          "\n  Fires on a corpus edit that reached disk by ANY route: a weekend bot pushing" +
+          "\n  straight to dev, a merge, an owner edit, or an uncommitted change — none of which" +
+          "\n  the commit diff below can see unless it landed in THIS branch's history.",
+      )
+    }
+  }
+
   const now = execFileSync("git", ["rev-parse", "HEAD"], { cwd: REPO_ROOT, encoding: "utf8" }).trim()
   let stale = 0
   for (const [head, count] of heads) {
@@ -919,8 +1026,14 @@ function checkProvenance(dir) {
         "  finding. Cite the capture commit above in any report that uses them.",
     )
   }
-  console.log(`\nchecked ${heads.size} capture commit(s) over ${RECORD_INPUTS.length} input paths`)
-  return stale ? 1 : 0
+  console.log(
+    `\nchecked ${heads.size} capture commit(s) over ${RECORD_INPUTS.length} input paths, and ` +
+      `${claimed.size} distinct content fingerprint(s) against ${nowContent.files} files on disk`,
+  )
+  // The digest is the ASSERTION (sound: it sees any byte change by any route); the commit diff is
+  // the DIAGNOSIS (informative: it names which files). Neither substitutes for the other, so a
+  // failure of either expires the records.
+  return stale || contentStale ? 1 : 0
 }
 
 function seededRegions(staticSourceFiles) {
