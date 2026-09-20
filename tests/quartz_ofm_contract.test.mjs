@@ -34,6 +34,20 @@
 // it is reproduced EXACTLY, asserted below so the migration cannot "helpfully" tidy it into a diff
 // nobody asked for. It belongs in `GEO-BACKLOG.md`, not in this phase.
 //
+// ── MUTATION TABLE, MEASURED ──────────────────────────────────────────────────────────────────
+//   O-A  comment stripping disabled            -> test 1 RED  ✓
+//   O-B  highlight replacement disabled        -> test 1 RED  ✓
+//   O-C  mermaid className changed             -> test 4 RED  ✓
+//   O-D  image embed loses width/height/alt    -> test 2 RED  ✓
+//   O-E  block references disabled             -> test 3 RED  ✓
+//   O-F  the transclude alias wart "FIXED"     -> test 2 RED  ✓  (correct under D-03: the wart
+//        is the contract until Phase G, and tidying it is a byte change nobody asked for)
+//   O-G  SyntaxHighlighting removed ENTIRELY   -> test 4 RED  ✓  (the whole point: emit_diff
+//        reports 0 for this mutant because no corpus fence is labelled — this fixture is the
+//        only instrument that fails)
+// 7 seeded, 7 killed. Re-run: mutate, `node --test tests/quartz_ofm_contract.test.mjs`,
+// `git checkout --` the file.
+//
 // ── WHAT THIS FILE DOES NOT COVER (CLAUDE.md §6.9) ────────────────────────────────────────────
 //  · The features the corpus DOES exercise — wikilinks, arrows, callouts, YouTube embeds, tables,
 //    smartypants — are deliberately NOT here. `emit_diff` sees those across thousands of files, so
