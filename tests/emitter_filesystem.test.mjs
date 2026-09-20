@@ -214,6 +214,7 @@ if (args.kind === "componentresources") {
   out.logs = logs
   out.postscript = fs.readFileSync(path.join(args.output, "postscript.js"), "utf8")
   out.prescript = fs.readFileSync(path.join(args.output, "prescript.js"), "utf8")
+  out.css = fs.readFileSync(path.join(args.output, "index.css"), "utf8")
 }
 
 if (args.kind === "folderpage") {
@@ -1641,6 +1642,80 @@ test("ContentPage: sharded emit is byte-identical to un-sharded, and the warning
     `  [coverage] ContentPage shard parity: ${compared} files byte-compared across ${value.warnB.length} ` +
       `shards vs one un-sharded run, warning fired in exactly ${warned}, 1 cross-shard ` +
       `transclusion resolved, custom layout opts out`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// ComponentResources — the ORDER WITHIN the bundles
+// ---------------------------------------------------------------------------------------------
+
+// INTERFACE.md says "resource order is byte-significant" twice and gated it nowhere. The
+// first-seen COMPONENT order is covered above; this covers the order WITHIN the two bundles,
+// which is decided by fixed concatenation rather than by component collection:
+//
+//   afterDOMLoaded, in push order: popover -> analytics -> supabase -> SPA router
+//   index.css, via joinStyles:     component css -> custom.scss -> the :root theme block LAST
+//
+// This is the PostHog surface (recon R8), pinned verbatim by three gates and a paths: filter, so
+// a reordering here moves bytes that other people's gates assert on.
+//
+// THE SPA POSITION IS SEMANTIC, NOT COSMETIC. componentResources.ts says it in place: the router
+// is pushed last because the "nav" event fires from it and every other script must have had the
+// chance to register a listener first. Move it earlier and the bundle still works on most pages
+// and silently loses listeners on the rest — so this assertion is about behaviour that only
+// shows up as a byte order.
+
+test("ComponentResources: bundle order — SPA router last in postscript, theme block last in css", () => {
+  const r = runComponentResources(
+    {
+      analytics: {
+        provider: "posthog",
+        apiKey: "phc_ORDERKEY",
+        host: "https://us.i.posthog.com",
+        uiHost: "https://us.i.posthog.com",
+      },
+      supabase: { url: "https://order.supabase.co", anonKey: "anon_ORDERKEY" },
+    },
+    "order",
+  )
+
+  // ---- postscript.js: the push order of addGlobalPageResources ----
+  const at = (needle, where) => {
+    const i = where.indexOf(needle)
+    assert.ok(i >= 0, `bundle does not contain ${JSON.stringify(needle)} at all`)
+    return i
+  }
+  const popover = at("popover", r.postscript)
+  const posthog = at("window.posthog", r.postscript)
+  const supabase = at("__SUPABASE_URL", r.postscript)
+  const spa = at("spaNavigate", r.postscript)
+
+  assert.ok(popover < posthog, "the popover script no longer precedes the analytics block")
+  assert.ok(posthog < supabase, "the Supabase block no longer follows the analytics block")
+  assert.ok(
+    supabase < spa,
+    "the SPA router no longer comes last in afterDOMLoaded. It is pushed last on purpose: the " +
+      "'nav' event fires from it and every other script must have registered its listener first. " +
+      "Moving it earlier works on most pages and silently drops listeners on the rest.",
+  )
+
+  // ---- index.css: joinStyles' fixed concatenation ----
+  // joinStyles(theme, ...stylesheet) emits the STYLESHEETS FIRST and the :root theme block LAST —
+  // the opposite of what the argument order suggests, which is why this is pinned by measurement
+  // rather than by reading the call site.
+  const popoverCss = at(".popover", r.css)
+  const customCss = at(".entity-relations", r.css) // unique to styles/custom.scss
+  const themeBlock = at("--graphPosition", r.css) // inside the generated :root block
+  assert.ok(popoverCss < customCss, "component css no longer precedes custom.scss")
+  assert.ok(
+    customCss < themeBlock,
+    "the :root theme block is no longer last; joinStyles appends it after every stylesheet",
+  )
+
+  console.log(
+    `  [coverage] ComponentResources order: 4 afterDOMLoaded blocks in push order ` +
+      `(popover<posthog<supabase<spa), 3 css sections in concatenation order ` +
+      `(component<custom<:root)`,
   )
 })
 

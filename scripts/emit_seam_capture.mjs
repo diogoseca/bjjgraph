@@ -844,6 +844,10 @@ function main() {
   return 0
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+// `process.argv[1]` is UNDEFINED under `node -e`, in a REPL, and in some loaders, and
+// `pathToFileURL(undefined)` throws — so the unguarded main-module idiom makes this module
+// unimportable from those contexts. Found by importing tests/_emitter_probe.mjs (which imports
+// this file) from a `node -e` one-liner: it crashed here, nowhere near the caller's code.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   process.exit(main())
 }
