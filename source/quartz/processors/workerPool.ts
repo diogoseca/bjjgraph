@@ -2,6 +2,7 @@ import { Worker } from "node:worker_threads"
 import type { Argv } from "../util/ctx"
 import type { FilePath, FullSlug } from "../util/path"
 import type { StaticResources } from "../util/resources"
+import type { ProcessedContent, QuartzPluginData } from "../plugins/vfile"
 
 // HOST SIDE only. quartz/worker.ts is the worker-side entry (D-18).
 // A fresh pool per phase/build bounds memory and makes plugin/module caches build-local.
@@ -9,7 +10,17 @@ export type WorkerInit = {
   buildId: string
   argv: Argv
   allSlugs: FullSlug[]
-} & ({ phase: "parse" } | { phase: "emit"; content: SharedArrayBuffer; resources: StaticResources })
+} & ({ phase: "parse" } | { phase: "emit"; resources: StaticResources })
+
+export type EmitShard = {
+  // Owned tuples first, then complete transclusion-target tuples, all in ONE alias graph.
+  content: ProcessedContent[]
+  renderCount: number
+  allFiles: QuartzPluginData[]
+  omittedTrees: { index: number; fields: ("htmlAst" | "blocks")[] }[]
+}
+
+export type EmitTask = { emitter: number; content: SharedArrayBuffer }
 
 export type RenderCoverage = { rendered: number; graphPayloads: number }
 export type EmitResult = { files: FilePath[]; coverage: RenderCoverage }

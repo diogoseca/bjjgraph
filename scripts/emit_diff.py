@@ -78,12 +78,28 @@ source, and each rule must carry a `reason`. The rules live in a JSON file passe
 Each rule prints the number of differences it suppressed. A rule that suppresses
 everything is visible as a large number, not as a clean report.
 
-The D-37 datePublished value rule is a HELD, opt-in fallback pending the dates fix;
-it is not an adopted default. D-35's footer-year rule is also explicitly supplied.
-Value proofs hash the WHOLE page with only valid, present target values masked.
-Missing/malformed fields or unrelated byte drift cannot use that proof. Re-fingerprint
-both trees with the current extractor to use it; old manifests remain strict.
-Pinned by seam_golden_selftest.py --values (11 positive and negative fixtures).
+D-75/D-86 retire the Head publication fallback: BOTH Head fields stay strict,
+including their deliberate removal on the authored-publication-date fix. Retaining
+old Head value_proofs in a manifest cannot reactivate that retired allowance.
+D-35's footer-year rule is explicitly supplied. Date rules are confined to exactly
+sitemap.xml lastmod and index.xml pubDate, with presence/count/calendar format pinned.
+
+RSS's checkout-dependent sort changes WHICH items appear, not only their timestamps.
+The explicit xml.rss.selection rule preserves channel bytes, positive item count,
+unique links, item layout, valid pubDates, and exact non-date bytes for common items.
+EVERY selected item's membership in static/contentIndex.json and title/description
+against its actual emitted HTML must also be independently witnessed. Missing context,
+content corruption, missing items and malformed dates cannot use this allowance.
+The exact selected set and order are INTENTIONALLY UNASSERTED under that rule: the
+report prints their counts and links. B's deterministic-date ContentIndex fixture
+must gate selection/sort; a normalized whole-emit green does not cover those branches.
+No dates, RSS content or footer bytes are normalized without an explicit --allow.
+Re-fingerprint both trees with the current extractor for these proofs; old manifests
+remain strict. Pinned by seam_golden_selftest.py --values --xml-dates (11 + 30 proofs),
+including independent sitemap-order and contentIndex-key-order rejection. Neither
+ordering inherits the RSS selection allowance. B's replacement selection gate is
+tests/emitter_filesystem.test.mjs, added in b97c1bda4: ordered ten links, two tie
+pairs, four mutant kills and the explicitly recorded positive-comparator non-kill.
 """
 
 from __future__ import annotations
@@ -312,7 +328,43 @@ def diff_generic(g: dict, c: dict, keys):
                 yield k, g.get(k), c.get(k)
 
 
-def diff_record(rel, gr, cr):
+def rss_items_witnessed(proof, records):
+    """Independent output evidence for selected RSS content, not its sort/selection."""
+    from urllib.parse import urlsplit, unquote
+    from html import unescape
+    index = records.get('static/contentIndex.json', {})
+    eligible = (index.get('fp') or {}).get('per_key_sha') or {}
+    if (index.get('cls') != 'json_semantic' or not eligible or
+            len(eligible) != (index.get('fp') or {}).get('n_keys')):
+        return False
+    base = proof.get('channel_link')
+    if not isinstance(base, str) or not base.startswith('https://'):
+        return False
+    routes = {}
+    for slug in eligible:
+        simple = '' if slug == 'index' else slug[:-6] if slug.endswith('/index') else slug
+        url = base.rstrip('/') + '/' + simple
+        if url in routes:
+            return False
+        routes[url] = slug + '.html'
+    for item in proof['items']:
+        url = item['link']
+        parsed = urlsplit(url)
+        if parsed.query or parsed.fragment or item['guid'] != url:
+            return False
+        path = routes.get(unquote(url))
+        record = records.get(path, {})
+        fp = record.get('fp') or {}
+        if record.get('cls') != 'html' or fp.get('parse_error'):
+            return False
+        if unescape(fp.get('title') or '') != item['title']:
+            return False
+        if (fp.get('meta_map') or {}).get('name=description') != item['description']:
+            return False
+    return True
+
+
+def diff_record(rel, gr, cr, *, site_records=None):
     """All differences for one path, as (severity, field, golden, candidate)."""
     cls = gr.get("cls", "?")
     out = []
@@ -324,7 +376,7 @@ def diff_record(rel, gr, cr):
     # SHA cannot hide an unrelated byte change next to an allowed timestamp change.
     if cls == 'html' and gr.get('sha') != cr.get('sha'):
         gp, cp = gr.get('value_proofs', {}), cr.get('value_proofs', {})
-        for key in ('published-time', 'footer-year', 'published-time+footer-year'):
+        for key in ('footer-year',):
             g, c = gp.get(key), cp.get(key)
             if not g or not c or not g.get('valid') or not c.get('valid'):
                 continue
@@ -333,8 +385,40 @@ def diff_record(rel, gr, cr):
             changed = [(name, g['values'][name], c['values'][name]) for name in g['values']
                        if g['values'][name] != c['values'][name]]
             if changed:
-                return [('S1_SEO_HEAD' if name == 'published-time' else 'S3_SHELL',
-                         'html.value.' + name, gv, cv) for name, gv, cv in changed]
+                return [('S3_SHELL', 'html.value.' + name, gv, cv) for name, gv, cv in changed]
+
+    if cls == 'xml' and gr.get('sha') != cr.get('sha'):
+        gp, cp = gr.get('value_proofs', {}), cr.get('value_proofs', {})
+        date_key = {'sitemap.xml': 'sitemap-lastmod', 'index.xml': 'rss-pubdate'}.get(rel)
+        g, c = gp.get(date_key), cp.get(date_key)
+        if (g and c and g.get('valid') and c.get('valid') and
+                g['count'] == c['count'] > 0 and g['sha'] == c['sha'] and g['values'] != c['values']):
+            return [('S2_CONTENT', 'xml.value.' + date_key,
+                     {'entries': g['count'], 'values': g['values']},
+                     {'entries': c['count'], 'values': c['values']})]
+        if rel == 'index.xml' and site_records is not None:
+            g, c = gp.get('rss-selection'), cp.get('rss-selection')
+            if (g and c and g.get('valid') and c.get('valid') and
+                    g['count'] == c['count'] > 0 and g['sha'] == c['sha'] and
+                    g['layout_sha'] == c['layout_sha'] and
+                    rss_items_witnessed(g, site_records[0]) and rss_items_witnessed(c, site_records[1])):
+                gi = {item['link']: item for item in g['items']}
+                ci = {item['link']: item for item in c['items']}
+                common = set(gi) & set(ci)
+                # Items selected in BOTH trees keep their exact non-date bytes.
+                if all(gi[k]['stable_sha'] == ci[k]['stable_sha'] for k in common):
+                    gkeys = [i['link'] for i in g['items']]; ckeys = [i['link'] for i in c['items']]
+                    gv = [i['pubDate'] for i in g['items']]; cv = [i['pubDate'] for i in c['items']]
+                    rows = []
+                    if gkeys != ckeys:
+                        rows.append(('S2_CONTENT', 'xml.rss.selection',
+                                     {'items': len(gkeys), 'links': gkeys, 'common_items': len(common)},
+                                     {'items': len(ckeys), 'links': ckeys, 'common_items': len(common)}))
+                    if gv != cv:
+                        rows.append(('S2_CONTENT', 'xml.value.rss-pubdate',
+                                     {'entries': len(gv), 'values': gv}, {'entries': len(cv), 'values': cv}))
+                    if rows:
+                        return rows
 
     if cls == "html":
         if gfp is None or cfp is None:
@@ -595,7 +679,7 @@ def main():
 
     for rel in common:
         gr, cr = gf[rel], cf[rel]
-        ds = diff_record(rel, gr, cr)
+        ds = diff_record(rel, gr, cr, site_records=(gf, cf))
         if not ds:
             identical += 1
             seeded_identical += int(rel in seeded_paths)

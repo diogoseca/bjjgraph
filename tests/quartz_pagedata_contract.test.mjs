@@ -93,6 +93,15 @@ const CONTRACT = [
   ["schemas", "schemaExtractor.ts", (v) => Array.isArray(v)],
   ["blocks", "ofm.ts", (v) => v && typeof v === "object"],
   ["htmlAst", "ofm.ts", (v) => v && v.type === "root" && Array.isArray(v.children)],
+  // OPTIONAL — its ABSENCE is part of the contract, not a violation. `Head.tsx:67` reads it as
+  // `fileData.dates?.published?.toISOString()` and emits `article:published_time` only when it is
+  // present, because `lastmod.ts:160` gives `published` NO `?? new Date()` fallback (unlike
+  // `created`/`modified` at :158-159). Today 0 of 4,600 files author `publishDate`/`date`, so it is
+  // absent everywhere — but that is a FACT IN MOTION: publication dates are to be derived from git,
+  // at which point it becomes present on ~6,118 pages. Asserting either presence OR absence would
+  // encode a transient, so this asserts only the SHAPE: absent, or a real Date. Never a string,
+  // never a number, never an Invalid Date.
+  ["dates.published", "lastmod.ts", (v) => v === undefined || (v instanceof Date && Number.isFinite(v.getTime())), { optional: true }],
 ]
 
 // ── THE SET IS DERIVED FROM THE COMPONENTS, NOT TYPED IN HERE ────────────────────────────────
@@ -185,10 +194,20 @@ test("EVERY KEY THE COMPONENTS READ IS PRESENT AND WELL-SHAPED AFTER THE PIPELIN
 
   const missing = []
   const malformed = []
-  for (const [keyPath, writer, shape] of CONTRACT) {
+  const absentButOptional = []
+  for (const [keyPath, writer, shape, opts = {}] of CONTRACT) {
     const v = dig(file.data, keyPath)
-    if (v === undefined) missing.push(`${keyPath}  (written by ${writer})`)
-    else if (!shape(v)) malformed.push(`${keyPath} = ${JSON.stringify(v)}  (written by ${writer})`)
+    if (v === undefined) {
+      // An optional key's absence is the contract, but it is PRINTED rather than passed over in
+      // silence — "not asserted" and "asserted and fine" must not read the same (CLAUDE.md §6.6).
+      if (opts.optional) absentButOptional.push(keyPath)
+      else missing.push(`${keyPath}  (written by ${writer})`)
+    } else if (!shape(v)) {
+      malformed.push(`${keyPath} = ${JSON.stringify(v)}  (written by ${writer})`)
+    }
+  }
+  if (absentButOptional.length) {
+    console.log(`  optional and absent on this fixture: ${absentButOptional.join(", ")}`)
   }
 
   console.log(`  coverage: ${CONTRACT.length} page-data leaf paths asserted`)

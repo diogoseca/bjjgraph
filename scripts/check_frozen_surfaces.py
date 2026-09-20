@@ -98,6 +98,7 @@ WATCHED_GLOBS = (
 # ── keeplist scope ─────────────────────────────────────────────────────────────────────────────
 INTERFACE = Path("/home/user/bjj-orchestrator/quartz/INTERFACE.md")
 BASE_REF = "f649801a9"          # the programme's base commit; D-01 freezes against it
+BASE_REF_FULL = "f649801a9d3b7acdb21dc3c67968294fa38e9fcf"
 QZ_PREFIX = "source/quartz/"
 # components/ is the one directory INTERFACE.md section 7 claims to cover EXHAUSTIVELY, so it is
 # the only one a set-difference can be asserted on. The others are listed selectively by the
@@ -179,6 +180,12 @@ def seed(note: str, force: bool = False) -> int:
     data = {
         "note": note,
         "phase": "P1-P4",
+        # THE CAPTURE COMMIT LIVES INSIDE THE ARTIFACT, not only in this script's BASE_REF and not
+        # only in a report. A hash baseline whose capture commit is not in the file is a baseline
+        # NOBODY CAN RE-DERIVE — you can see that the hashes differ and you cannot see what they
+        # were supposed to match. Recorded as the FULL sha: an abbreviation can become ambiguous
+        # as the repo grows, and this value outlives the tree it was written in.
+        "base_ref": BASE_REF_FULL,
         "why": (
             "Stream A is a re-host, not a rewrite: 0 of 64 import statements in these files cross "
             "into the replaced engine. Under D-03 the correct number of behavioural changes here "
@@ -382,6 +389,32 @@ def parse_keeplist() -> list[str]:
     return listed
 
 
+def verify_provenance(data: dict) -> int | None:
+    """The artifact's recorded capture commit must match the one this script compares against.
+
+    If they drift, every hash in the file was taken against a DIFFERENT tree and the gate is
+    silently comparing apples to oranges while reporting a confident verdict either way. Refuse to
+    report rather than report wrongly — CLAUDE.md §6.6: never let "never looked" and "found no
+    problems" produce the same output, and never let "looked at the wrong thing" produce it either.
+    """
+    recorded = data.get("base_ref")
+    if recorded is None:
+        print(
+            "FAIL: the baseline records no `base_ref`. A hash baseline whose capture commit is not "
+            "in the file cannot be re-derived. Re-seed, or add it by hand if you know it.",
+            file=sys.stderr,
+        )
+        return 2
+    if not (recorded.startswith(BASE_REF) or BASE_REF_FULL.startswith(recorded)):
+        print(
+            f"FAIL: the baseline was captured at {recorded[:12]} but this script compares against "
+            f"{BASE_REF_FULL[:12]}. Every hash in the file was taken against a different tree.",
+            file=sys.stderr,
+        )
+        return 2
+    return None
+
+
 def check_keeplist(accepted: dict) -> int:
     try:
         listed = parse_keeplist()
@@ -495,6 +528,9 @@ def main() -> int:
         return accept(args.accept, args.reason)
 
     data = load_baseline()
+    bad = verify_provenance(data) if data else None
+    if bad is not None:
+        return bad
     accepted = {
         k: v
         for k, v in data.get("files", {}).items()

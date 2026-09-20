@@ -187,6 +187,13 @@ async function main() {
   const diffs = []
   const errors = []
 
+  // PROGRESS, to stderr so it never contaminates the result on stdout. A --all pass is 4,600 files
+  // and takes ~17 minutes of clean CPU — longer under contention. Without this it prints NOTHING
+  // until the end, and a long silent run is indistinguishable from a hung one, which is how people
+  // start killing runs that were working. Only emitted for multi-file runs.
+  const total = targets.length
+  const progressEvery = total > 200 ? 250 : 0
+
   for (const rel of targets) {
     try {
       const abs = path.join(REPO, "content", rel)
@@ -285,6 +292,11 @@ async function main() {
         }
       }
       files += 1
+      if (progressEvery && files % progressEvery === 0) {
+        process.stderr.write(
+          `  … ${files}/${total} files · ${comparisons} comparisons · ${diffs.length} diffs so far\n`,
+        )
+      }
     } catch (err) {
       errors.push(`${rel}: ${String(err.message).split("\n")[0]}`)
     }
