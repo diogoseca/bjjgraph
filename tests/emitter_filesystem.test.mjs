@@ -92,6 +92,8 @@ import { Assets } from ${q("quartz/plugins/emitters/assets")}
 import { AliasRedirects } from ${q("quartz/plugins/emitters/aliases")}
 import { ContentIndex } from ${q("quartz/plugins/emitters/contentIndex")}
 import { ComponentResources } from ${q("quartz/plugins/emitters/componentResources")}
+import { FolderPage } from ${q("quartz/plugins/emitters/folderPage")}
+import { defaultProcessedContent } from ${q("quartz/plugins/vfile")}
 import realConfig from ${q("quartz.config")}
 import { write } from ${q("quartz/plugins/emitters/helpers")}
 
@@ -178,6 +180,16 @@ if (args.kind === "componentresources") {
   out.logs = logs
   out.postscript = fs.readFileSync(path.join(args.output, "postscript.js"), "utf8")
   out.prescript = fs.readFileSync(path.join(args.output, "prescript.js"), "utf8")
+}
+
+if (args.kind === "folderpage") {
+  // Real tuples via the real defaultProcessedContent, so the synthetic pages have exactly the
+  // shape the emitter builds for itself (empty hast root, real VFile, only the data supplied).
+  const content = args.pages.map((p) => defaultProcessedContent(p))
+  const ctx = mkctx(args)
+  ctx.cfg.configuration = realConfig.configuration
+  ctx.cfg.plugins = { transformers: [], filters: [], emitters: [] }
+  out.returned = await FolderPage().emit(ctx, content, emptyResources)
 }
 
 if (args.kind === "write") {
@@ -459,6 +471,14 @@ test("write() materialises exact bytes at output/slug+ext, and resolves only onc
 // AliasRedirects
 // ---------------------------------------------------------------------------------------------
 
+// WHY THIS ONE 380-BYTE FILE IS LOAD-BEARING FAR BEYOND ITS SIZE (D-44, from stream A):
+// `[[game-over]]` is used by 668 content files and is NOT resolved by `util/path.ts` at all —
+// there is no `content/game-over.md`. Those 668 links work only because AliasRedirects
+// materialises `game-over.html`. Change this emitter and 668 files' links break while A's
+// wikilink gate stays green, because from path.ts's side nothing changed. The byte assertion
+// below is currently the only thing standing between a reformat of that template literal and a
+// site-wide broken link. Do not touch this emitter without telling quartz-cto and mgr-cl-1.
+//
 // The exact bytes of the one alias stub the corpus produces, lifted from
 // golden/build0/game-over.html: 380 bytes, sha256 8cd80df6285b67031a64929f62cd8333c2c61d035a9e0dc7
 // fe5b6ae6d2c151c4. The leading newline, the 12-space indentation and the unterminated trailing
@@ -812,5 +832,93 @@ test("ComponentResources emits NEITHER injection without the env, and SAYS SO", 
   console.log(
     `  [coverage] ComponentResources keyless: ${checked} substrings confirmed ABSENT from a ` +
       `${r.postscript.length}-byte postscript.js, and the skip line printed`,
+  )
+})
+
+// ---------------------------------------------------------------------------------------------
+// FolderPage — the 1,518 duplicates and the identity split that makes them duplicates
+// ---------------------------------------------------------------------------------------------
+
+// FolderPage emits 1,525 pages in production: 1,518 that duplicate a flat `<dir>.html` sibling and
+// 7 pure ones under `Submissions/`. Both are live at 200 with no redirect (D-04) and both are
+// inherited exactly under D-03 — retiring them is a post-cutover decision.
+//
+// THE MECHANISM, and it is one line of it that matters: when an authored page's simplified slug
+// equals a folder name, that page's tuple REPLACES the folder's synthetic one, so the folder page
+// renders the content page's own data — but it is WRITTEN at `<folder>/index` while
+// `file.data.slug` keeps the authored `<folder>`. Two identities, deliberately not normalised
+// together. That is why the duplicate's `<head>` is byte-identical to the flat page's, canonical
+// included: measured on 40 random pairs from build0, 40 of 40 identical heads (the BODIES differ —
+// the folder copy renders FolderContent, and is ~10 kB smaller).
+//
+// Normalise the two identities and every duplicate starts self-canonicalising to `/X/index`,
+// which is a URL the site does not serve. Nothing in the repo gates that today: recon §2.1 records
+// FolderPage as UNGATED, and 0 of check_seo_parity.py's sample routes is an index.html.
+//
+// NON-KILL, recorded: this asserts the identity split and the folder SET, not the rendered body.
+// FolderContent's listing, its sort order and the 7 pure pages' zero-character <article> are not
+// covered here.
+
+test("FolderPage mints one index per folder, and keeps the authored slug on a page written at folder/index", () => {
+  const root = tmp("bjj-folderpage-")
+  const output = path.join(root, "out")
+
+  const pages = [
+    // A child page mints folder "A"…
+    { slug: "A/Child", frontmatter: { title: "A Child", tags: [] } },
+    // …and this authored page, whose simplified slug IS "A", replaces the folder's default tuple.
+    { slug: "A", frontmatter: { title: "The Authored A Page", tags: [] } },
+    // "C" gets no authored page, so it stays synthetic: the `Folder: C` title.
+    { slug: "C/Child", frontmatter: { title: "C Child", tags: [] } },
+    // Nested folders are minted at every level that is a dirname.
+    { slug: "D/E/Leaf", frontmatter: { title: "Leaf", tags: [] } },
+    // A root-level page contributes dirname "." and must mint nothing.
+    { slug: "Root", frontmatter: { title: "Root", tags: [] } },
+    // "tags" is excluded by name — TagPage owns it.
+    { slug: "tags/alpha", frontmatter: { title: "alpha", tags: [] } },
+  ]
+
+  const { value } = probe(SNIPPET, {
+    env: { BJJ_PROBE_ARGS: JSON.stringify({ kind: "folderpage", root, output, pages }) },
+    cwd: root,
+  })
+
+  const emitted = walk(output)
+  assert.ok(emitted.length > 0, "coverage floor: FolderPage emitted nothing")
+  assert.deepEqual(
+    emitted,
+    ["A/index.html", "C/index.html", "D/E/index.html"],
+    "FolderPage minted a different folder set — note that '.' and 'tags' must mint nothing, and " +
+      "that only the immediate dirname is a folder (D/E, not D)",
+  )
+
+  const a = fs.readFileSync(path.join(output, "A", "index.html"), "utf8")
+  const c = fs.readFileSync(path.join(output, "C", "index.html"), "utf8")
+
+  // THE IDENTITY SPLIT. The file is at A/index.html; the page still calls itself /A.
+  assert.match(
+    a,
+    /<link rel="canonical" href="https:\/\/bjjgraph\.org\/A"\/>/,
+    "A/index.html no longer canonicalises to /A — the render slug and file.data.slug were " +
+      "normalised together, and every one of the 1,518 duplicates now points at a URL the site " +
+      "does not serve",
+  )
+  assert.ok(
+    !a.includes("bjjgraph.org/A/index"),
+    "A/index.html canonicalises to /A/index somewhere; the authored slug was overwritten",
+  )
+
+  // The authored page replaced the synthetic tuple: its title, not "Folder: A".
+  assert.ok(a.includes("The Authored A Page"), "the authored page did not replace the folder's default tuple")
+  assert.ok(!a.includes("Folder: A"), "A/index.html still carries the synthetic folder title")
+
+  // …and a folder with no authored page keeps the synthetic i18n title.
+  assert.ok(c.includes("Folder: C"), "the pure folder page lost its synthetic 'Folder: C' title")
+
+  const returned = value.returned ?? []
+  assert.equal(returned.length, emitted.length, "FolderPage's return value and its output disagree")
+  console.log(
+    `  [coverage] FolderPage: ${emitted.length} folder indexes from ${pages.length} pages ` +
+      `(1 authored-replacement, 1 pure synthetic, 1 nested; '.' and 'tags' correctly minted none)`,
   )
 })
